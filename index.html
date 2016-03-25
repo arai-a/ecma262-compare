@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8">
+<title>ES spec comparator</title>
+<link href="./ecmarkup.css" rel="stylesheet">
+<link href="./compare.css" rel="stylesheet">
+<script type="text/javascript" src="./htmldiff.js"></script>
+<script type="text/javascript" src="./revs.js"></script>
+<script type="text/javascript" src="./compare.js"></script>
+</head>
+<body onload="bodyOnLoad()">
+<table>
+<tr>
+  <th>from</th>
+  <td>
+    <select id="from-rev"></select>
+    <iframe id="from-frame" style="width: 1px; height: 1px"></iframe>
+  </td>
+</tr>
+<tr>
+  <th>to</th>
+  <td>
+    <select id="to-rev"></select>
+    <iframe id="to-frame" style="width: 1px; height: 1px"></iframe>
+  </td>
+</tr>
+</table>
+<input id="update" type="button" value="Update section list (load frames)" onclick="update()">
+<hr>
+<table>
+<tr>
+  <th>section</th>
+  <td><input id="sec-input" type="text" onchange="search()" placeholder="Search"></td>
+  <td><select id="sec-list" onchange="compare()"></select></td>
+  <td><span id="search-hit"></span></td>
+</tr>
+</table>
+<input id="compare" type="button" value="Compare section" onclick="compare()">
+<input type="button" value="Update URL" onclick="updateURL()">
+<hr>
+<span id="diff-stat"></span>
+<hr>
+<div id="result"></div>
+</body>
+</html>

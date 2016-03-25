@@ -1,0 +1,31 @@
+select, option {
+    font-family: monospace;
+}
+
+option.del {
+    background-color: #ffd0d0;
+}
+option.add {
+    background-color: #d0ffd0;
+}
+
+.htmldiff-del {
+    background-color: #ffd0d0;
+}
+.htmldiff-add {
+    background-color: #d0ffd0;
+}
+
+h1 {
+    font-size: 1.2em !important;
+}
+
+#search-hit {
+    font-size: 0.9em;
+    color: #808080;
+}
+
+#diff-stat {
+    font-size: 0.9em;
+    color: #808080;
+}
