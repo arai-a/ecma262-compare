@@ -151,25 +151,29 @@ function updateSecList(fromDoc, toDoc) {
     opt.value = sec;
 
     var stat = "same";
+    var mark = "\u00A0\u00A0";
 
     if (fromSet.has(sec)) {
       if (toSet.has(sec)) {
         if (isChanged(sec)) {
           stat = "mod";
+          mark = "-+";
         }
       } else {
         stat = "del";
+        mark = "-\u00A0";
       }
     } else {
       stat = "add";
+      mark = "+\u00A0";
     }
 
     var title = getTitle(sec);
 
     if (title) {
-      opt.appendChild(document.createTextNode(title.slice(0, 100)));
+      opt.appendChild(document.createTextNode(mark + " " + title.slice(0, 100)));
     } else {
-      opt.appendChild(document.createTextNode(sec));
+      opt.appendChild(document.createTextNode(mark + " " + sec));
     }
     opt.className = stat;
 
