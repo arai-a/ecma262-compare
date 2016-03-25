@@ -52,7 +52,7 @@ function updateFrame(id) {
   var hash = hashOf(id);
   var frame = document.getElementById(id + "-frame");
   if (frame.getAttribute("current-hash") == hash) {
-      return Promise.resolve(frame);
+    return Promise.resolve(frame);
   }
   frame.setAttribute("current-hash", hash);
 
@@ -142,7 +142,7 @@ function updateSecList(fromDoc, toDoc) {
     });
   }
 
-  for (var sec of [...set].sort(s)) {
+  for (var sec of Array.from(set).sort(s)) {
     var opt = document.createElement("option");
     opt.value = sec;
 
