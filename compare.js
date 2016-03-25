@@ -1,6 +1,6 @@
 function bodyOnLoad() {
-  let fromRev = document.getElementById("from-rev");
-  let toRev = document.getElementById("to-rev");
+  var fromRev = document.getElementById("from-rev");
+  var toRev = document.getElementById("to-rev");
   populateRevs(fromRev);
   populateRevs(toRev);
 
@@ -19,15 +19,15 @@ function bodyOnLoad() {
   }
 
   if ("from" in queryParams && "to" in queryParams && "id" in queryParams) {
-    let from = queryParams.from;
-    let to = queryParams.to;
-    let id = queryParams.id;
+    var from = queryParams.from;
+    var to = queryParams.to;
+    var id = queryParams.id;
 
     fromRev.value = from;
     toRev.value = to;
 
     update().then(() => {
-      let menu = document.getElementById("sec-list");
+      var menu = document.getElementById("sec-list");
       menu.value = id;
       compare();
     });
@@ -39,8 +39,8 @@ function populateRevs(menu) {
     menu.firstChild.remove();
   }
 
-  for (let [date, rev] of revs) {
-    let opt = document.createElement("option");
+  for (var [date, rev] of revs) {
+    var opt = document.createElement("option");
     opt.value = rev;
     opt.appendChild(document.createTextNode(rev + " (" + date + ")"));
     menu.appendChild(opt);
@@ -48,15 +48,15 @@ function populateRevs(menu) {
 }
 
 function updateFrame(id) {
-  let hash = hashOf(id);
-  let frame = document.getElementById(id + "-frame");
+  var hash = hashOf(id);
+  var frame = document.getElementById(id + "-frame");
   if (frame.getAttribute("current-hash") == hash) {
       return Promise.resolve(frame);
   }
   frame.setAttribute("current-hash", hash);
 
   return new Promise(resolve => {
-    let f = function() {
+    var f = function() {
       frame.removeEventListener("load", f);
       frame.setAttribute("current-hash", hash);
       resolve(frame);
@@ -71,17 +71,17 @@ function hashOf(id) {
 }
 
 function getSecList(doc) {
-  let list = [];
-  let map = new Map();
-  for (let nodes of [doc.getElementsByTagName("EMU-CLAUSE"),
+  var list = [];
+  var map = new Map();
+  for (var nodes of [doc.getElementsByTagName("EMU-CLAUSE"),
                      doc.getElementsByTagName("EMU-ANNEX")]) {
-    for (let node of Array.prototype.slice.call(nodes)) {
+    for (var node of Array.from(nodes)) {
       if ("id" in node && node.id.startsWith("sec-")) {
         list.push(node.id);
 
-        let h1s = node.getElementsByTagName("h1");
+        var h1s = node.getElementsByTagName("h1");
         if (h1s.length) {
-          let title = h1s[0].innerText;
+          var title = h1s[0].innerText;
 
           title = title.replace(/([A-Z0-9][0-9.]*)/, "$1 ").replace(/#$/, "");
 
@@ -95,24 +95,24 @@ function getSecList(doc) {
 }
 
 function updateSecList(fromDoc, toDoc) {
-  let hit = document.getElementById("search-hit");
+  var hit = document.getElementById("search-hit");
   hit.innerHTML = "";
 
-  let menu = document.getElementById("sec-list");
+  var menu = document.getElementById("sec-list");
   while (menu.firstChild) {
     menu.firstChild.remove();
   }
 
-  let [fromSecList, fromTitleMap] = getSecList(fromDoc);
-  let [toSecList, toTitleMap] = getSecList(toDoc);
+  var [fromSecList, fromTitleMap] = getSecList(fromDoc);
+  var [toSecList, toTitleMap] = getSecList(toDoc);
 
-  let fromSet = new Set(fromSecList);
-  let toSet = new Set(toSecList);
-  let set = new Set(fromSecList.concat(toSecList));
+  var fromSet = new Set(fromSecList);
+  var toSet = new Set(toSecList);
+  var set = new Set(fromSecList.concat(toSecList));
 
-  let s = (a, b) => {
-    let aTitle = getComparableTitle(a);
-    let bTitle = getComparableTitle(b);
+  var s = (a, b) => {
+    var aTitle = getComparabvaritle(a);
+    var bTitle = getComparabvaritle(b);
     if (aTitle == bTitle) {
       return 0;
     }
@@ -131,16 +131,16 @@ function updateSecList(fromDoc, toDoc) {
     return "";
   }
 
-  function getComparableTitle(sec) {
-    let t = getTitle(sec);
+  function getComparabvaritle(sec) {
+    var t = getTitle(sec);
     return t.replace(/([0-9]+)/g, matched => String.fromCharCode(matched));
   }
 
-  for (let sec of [...set].sort(s)) {
-    let opt = document.createElement("option");
+  for (var sec of [...set].sort(s)) {
+    var opt = document.createElement("option");
     opt.value = sec;
 
-    let stat = "same";
+    var stat = "same";
 
     if (fromSet.has(sec)) {
       if (!toSet.has(sec)) {
@@ -150,7 +150,7 @@ function updateSecList(fromDoc, toDoc) {
       stat = "add";
     }
 
-    let title = getTitle(sec);
+    var title = getTitle(sec);
 
     if (title) {
       opt.appendChild(document.createTextNode(title.slice(0, 100)));
@@ -171,8 +171,8 @@ function update() {
     updateFrame("from"),
     updateFrame("to")
   ]).then(([fromFrame, toFrame]) => {
-    let fromDoc = fromFrame.contentDocument;
-    let toDoc = toFrame.contentDocument;
+    var fromDoc = fromFrame.contentDocument;
+    var toDoc = toFrame.contentDocument;
     updateSecList(fromDoc, toDoc);
     document.getElementById("update").disabled = false;
     document.getElementById("compare").disabled = false;
@@ -180,18 +180,18 @@ function update() {
 }
 
 function compare() {
-  let id = document.getElementById("sec-list").value;
+  var id = document.getElementById("sec-list").value;
 
-  let fromFrame = document.getElementById("from-frame");
-  let toFrame = document.getElementById("to-frame");
+  var fromFrame = document.getElementById("from-frame");
+  var toFrame = document.getElementById("to-frame");
 
-  let fromDoc = fromFrame.contentDocument;
-  let toDoc = toFrame.contentDocument;
+  var fromDoc = fromFrame.contentDocument;
+  var toDoc = toFrame.contentDocument;
 
-  let fromNode = fromDoc.getElementById(id);
-  let toNode = toDoc.getElementById(id);
+  var fromNode = fromDoc.getElementById(id);
+  var toNode = toDoc.getElementById(id);
 
-  let result = document.getElementById("result");
+  var result = document.getElementById("result");
 
   if (document.getElementById("view-diff").checked) {
     if (fromNode && toNode) {
@@ -219,14 +219,14 @@ function compare() {
       result.innerHTML = "";
   }
 
-  let add = result.getElementsByClassName("htmldiff-add").length;
-  let del = result.getElementsByClassName("htmldiff-del").length;
+  var add = result.getElementsByClassName("htmldiff-add").length;
+  var del = result.getElementsByClassName("htmldiff-del").length;
 
   document.getElementById("diff-stat").innerHTML = "+" + add + " " + "-" + del;
 }
 
 function updateURL() {
-  let id = document.getElementById("sec-list").value;
+  var id = document.getElementById("sec-list").value;
 
   window.location.hash
     = "#from=" + hashOf("from")
@@ -235,13 +235,13 @@ function updateURL() {
 }
 
 function search() {
-  let term = document.getElementById("sec-input").value;
+  var term = document.getElementById("sec-input").value;
 
-  let value = "";
-  let count = 0;
+  var value = "";
+  var count = 0;
 
-  let menu = document.getElementById("sec-list");
-  for (let opt of Array.prototype.slice.call(menu.children)) {
+  var menu = document.getElementById("sec-list");
+  for (var opt of Array.from(menu.children)) {
     if (opt.innerHTML.toLowerCase().contains(term.toLowerCase())) {
       if (!value) {
         value = opt.value;
@@ -255,7 +255,7 @@ function search() {
 
   menu.value = value;
 
-  let hit = document.getElementById("search-hit");
+  var hit = document.getElementById("search-hit");
   hit.innerHTML = count + " section(s) found";
 
   compare();
