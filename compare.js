@@ -6,6 +6,7 @@ function bodyOnLoad() {
 
   document.getElementById("compare").disabled = true;
   document.getElementById("view-diff").checked = true;
+  document.getElementById("sec-search").checked = true;
 
   var query = window.location.hash.substring(1);
   var items = query.split("&");
@@ -167,6 +168,8 @@ function updateSecList(fromDoc, toDoc) {
     opt.className = stat;
     menu.appendChild(opt);
   });
+
+  filter();
 }
 
 function update() {
@@ -296,7 +299,6 @@ function fixup(innerHTML) {
   var ols = document.getElementsByTagName("ol");
   Array.from(ols).forEach(function(ol) {
     var depth = getListDepth(ol);
-    console.log(depth);
 
     var i = 0;
     Array.from(ol.children).forEach(function(li) {
@@ -370,7 +372,25 @@ function updateURL() {
     + "&id=" + encodeURIComponent(id);
 }
 
-function search() {
+function filter() {
+  var count;
+  if (document.getElementById("sec-search").checked) {
+    count = filterSearch();
+  } else {
+    count = filterChanged();
+  }
+
+  var hit = document.getElementById("search-hit");
+  if (count != -1) {
+    hit.innerHTML = count + " section(s) found";
+  } else {
+    hit.innerHTML = "";
+  }
+
+  compare();
+}
+
+function filterSearch() {
   var term = document.getElementById("sec-input").value;
 
   var value = "";
@@ -391,8 +411,43 @@ function search() {
 
   menu.value = value;
 
-  var hit = document.getElementById("search-hit");
-  hit.innerHTML = count + " section(s) found";
+  if (term == "") {
+    return -1;
+  }
 
-  compare();
+  return count;
+}
+
+function isChanged(id) {
+  var fromFrame = document.getElementById("from-frame");
+  var toFrame = document.getElementById("to-frame");
+
+  var fromDoc = fromFrame.contentDocument;
+  var toDoc = toFrame.contentDocument;
+
+  var fromNode = fromDoc.getElementById(id);
+  if (!fromNode)
+    return true;
+  var toNode = toDoc.getElementById(id);
+  if (!toNode)
+    return true;
+
+  return fromNode.innerHTML != toNode.innerHTML;
+}
+
+function filterChanged() {
+  var count = 0;
+
+  var menu = document.getElementById("sec-list");
+  Array.from(menu.children).forEach(function(opt) {
+    var sec = opt.value;
+    if (isChanged(sec)) {
+      opt.style.display = "";
+      count++;
+    } else {
+      opt.style.display = "none";
+    }
+  });
+
+  return count;
 }

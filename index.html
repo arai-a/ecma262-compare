@@ -30,13 +30,23 @@
 <table>
 <tr>
   <th>section</th>
-  <td><input id="sec-input" type="text" onchange="search()" placeholder="Search"></td>
-  <td><select id="sec-list" onchange="compare()"></select></td>
-  <td><span id="search-hit"></span></td>
+  <td>
+    <select id="sec-list" onchange="compare()"></select>
+    <span id="search-hit"></span>
+    <input type="button" value="Update URL" onclick="updateURL()">
+  </td>
+</tr>
+<tr>
+  <th>filter</th>
+  <td>
+    <input id="sec-search" name="sec-filter" type="radio" onchange="filter()">
+    <input id="sec-input" type="text" onchange="filter()" placeholder="Search">
+    /
+    <label><input id="sec-changed" name="sec-filter" type="radio"  onchange="filter()">Changed</label>
+  </td>
 </tr>
 </table>
 <input id="compare" type="button" value="Compare section" onclick="compare()">
-<input type="button" value="Update URL" onclick="updateURL()">
 <hr>
 <label><input id="view-diff" type="radio" name="view" value="diff" onchange="compare()"> Diff</label> /
 <label><input id="view-from" type="radio" name="view" value="from" onchange="compare()"> From</label> /
