@@ -39,13 +39,13 @@ function populateRevs(menu) {
     menu.firstChild.remove();
   }
 
-  for (var tmp of revs) {
+  revs.forEach(function(tmp) {
     var date = tmp[0], rev = tmp[1];
     var opt = document.createElement("option");
     opt.value = rev;
     opt.appendChild(document.createTextNode(rev + " (" + date + ")"));
     menu.appendChild(opt);
-  }
+  });
 }
 
 function updateFrame(id) {
@@ -74,9 +74,10 @@ function hashOf(id) {
 function getSecList(doc) {
   var list = [];
   var map = new Map();
-  for (var nodes of [doc.getElementsByTagName("EMU-CLAUSE"),
-                     doc.getElementsByTagName("EMU-ANNEX")]) {
-    for (var node of Array.from(nodes)) {
+  var emus = [doc.getElementsByTagName("EMU-CLAUSE"),
+              doc.getElementsByTagName("EMU-ANNEX")];
+  emus.forEach(function(nodes) {
+    Array.from(nodes).forEach(function(node) {
       if ("id" in node && node.id.startsWith("sec-")) {
         list.push(node.id);
 
@@ -89,8 +90,8 @@ function getSecList(doc) {
           map.set(node.id, title);
         }
       }
-    }
-  }
+    });
+  });
 
   return [list, map];
 }
@@ -142,7 +143,7 @@ function updateSecList(fromDoc, toDoc) {
     });
   }
 
-  for (var sec of Array.from(set).sort(s)) {
+  Array.from(set).sort(s).forEach(function(sec) {
     var opt = document.createElement("option");
     opt.value = sec;
 
@@ -165,7 +166,7 @@ function updateSecList(fromDoc, toDoc) {
     }
     opt.className = stat;
     menu.appendChild(opt);
-  }
+  });
 }
 
 function update() {
@@ -248,7 +249,7 @@ function search() {
   var count = 0;
 
   var menu = document.getElementById("sec-list");
-  for (var opt of Array.from(menu.children)) {
+  Array.from(menu.children).forEach(function(opt) {
     if (opt.innerHTML.toLowerCase().contains(term.toLowerCase())) {
       if (!value) {
         value = opt.value;
@@ -258,7 +259,7 @@ function search() {
     } else {
       opt.style.display = "none";
     }
-  }
+  });
 
   menu.value = value;
 
