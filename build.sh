@@ -22,6 +22,6 @@ gen() {
     fi
 }
 
-for HASH in $(git log master --pretty='%H'); do
+for HASH in $(git log 090e736439a14166bfa2eab2e9f9d94071ec7e94..origin/master --pretty='%H'); do
     gen ${HASH}
 done
