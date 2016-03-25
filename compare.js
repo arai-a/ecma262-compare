@@ -26,7 +26,7 @@ function bodyOnLoad() {
     fromRev.value = from;
     toRev.value = to;
 
-    update().then(() => {
+    update().then(function() {
       var menu = document.getElementById("sec-list");
       menu.value = id;
       compare();
@@ -55,7 +55,7 @@ function updateFrame(id) {
   }
   frame.setAttribute("current-hash", hash);
 
-  return new Promise(resolve => {
+  return new Promise(function(resolve) {
     var f = function() {
       frame.removeEventListener("load", f);
       frame.setAttribute("current-hash", hash);
@@ -110,7 +110,7 @@ function updateSecList(fromDoc, toDoc) {
   var toSet = new Set(toSecList);
   var set = new Set(fromSecList.concat(toSecList));
 
-  var s = (a, b) => {
+  var s = function(a, b) {
     var aTitle = getComparabvaritle(a);
     var bTitle = getComparabvaritle(b);
     if (aTitle == bTitle) {
@@ -133,7 +133,9 @@ function updateSecList(fromDoc, toDoc) {
 
   function getComparabvaritle(sec) {
     var t = getTitle(sec);
-    return t.replace(/([0-9]+)/g, matched => String.fromCharCode(matched));
+    return t.replace(/([0-9]+)/g, function(matched) {
+      return String.fromCharCode(matched);
+    });
   }
 
   for (var sec of [...set].sort(s)) {
@@ -170,7 +172,7 @@ function update() {
   return Promise.all([
     updateFrame("from"),
     updateFrame("to")
-  ]).then(([fromFrame, toFrame]) => {
+  ]).then(function([fromFrame, toFrame]) {
     var fromDoc = fromFrame.contentDocument;
     var toDoc = toFrame.contentDocument;
     updateSecList(fromDoc, toDoc);
