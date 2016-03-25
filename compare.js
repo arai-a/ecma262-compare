@@ -1,3 +1,5 @@
+"use strict";
+
 function bodyOnLoad() {
   var fromRev = document.getElementById("from-rev");
   var toRev = document.getElementById("to-rev");
