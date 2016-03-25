@@ -25,3 +25,8 @@ gen() {
 for HASH in $(git log 090e736439a14166bfa2eab2e9f9d94071ec7e94..origin/master --pretty='%H'); do
     gen ${HASH}
 done
+
+echo '"use strict";' > revs.js
+echo "var revs = [" >> revs.js
+(cd ecma262; git log 090e736439a14166bfa2eab2e9f9d94071ec7e94..origin/master --pretty='["%ci", "%H"],') >> revs.js
+echo "];" >> revs.js
