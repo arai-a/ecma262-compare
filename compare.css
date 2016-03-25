@@ -29,3 +29,7 @@ h1 {
     font-size: 0.9em;
     color: #808080;
 }
+
+.diff-view ol > li {
+    list-style-type: none;
+}
