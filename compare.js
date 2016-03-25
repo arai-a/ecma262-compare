@@ -39,7 +39,8 @@ function populateRevs(menu) {
     menu.firstChild.remove();
   }
 
-  for (var [date, rev] of revs) {
+  for (var tmp of revs) {
+    var date = tmp[0], rev = tmp[1];
     var opt = document.createElement("option");
     opt.value = rev;
     opt.appendChild(document.createTextNode(rev + " (" + date + ")"));
@@ -103,8 +104,11 @@ function updateSecList(fromDoc, toDoc) {
     menu.firstChild.remove();
   }
 
-  var [fromSecList, fromTitleMap] = getSecList(fromDoc);
-  var [toSecList, toTitleMap] = getSecList(toDoc);
+  var tmp = getSecList(fromDoc);
+  var fromSecList = tmp[0], fromTitleMap = tmp[1];
+
+  tmp = getSecList(toDoc);
+  var toSecList = tmp[0], toTitleMap = tmp[1];
 
   var fromSet = new Set(fromSecList);
   var toSet = new Set(toSecList);
@@ -172,7 +176,8 @@ function update() {
   return Promise.all([
     updateFrame("from"),
     updateFrame("to")
-  ]).then(function([fromFrame, toFrame]) {
+  ]).then(function(tmp) {
+    var fromFrame = tmp[0], toFrame = tmp[1];
     var fromDoc = fromFrame.contentDocument;
     var toDoc = toFrame.contentDocument;
     updateSecList(fromDoc, toDoc);
