@@ -75,7 +75,7 @@ function getSecList(doc) {
   let map = new Map();
   for (let nodes of [doc.getElementsByTagName("EMU-CLAUSE"),
                      doc.getElementsByTagName("EMU-ANNEX")]) {
-    for (let node of nodes) {
+    for (let node of Array.of(nodes)) {
       if ("id" in node && node.id.startsWith("sec-")) {
         list.push(node.id);
 
@@ -241,7 +241,7 @@ function search() {
   let count = 0;
 
   let menu = document.getElementById("sec-list");
-  for (let opt of menu.children) {
+  for (let opt of Array.of(menu.children)) {
     if (opt.innerHTML.toLowerCase().contains(term.toLowerCase())) {
       if (!value) {
         value = opt.value;
