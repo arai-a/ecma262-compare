@@ -38,6 +38,11 @@
 <input id="compare" type="button" value="Compare section" onclick="compare()">
 <input type="button" value="Update URL" onclick="updateURL()">
 <hr>
+<input id="view-diff" type="radio" name="view" value="diff" onchange="compare()"> Diff /
+<input id="view-from" type="radio" name="view" value="from" onchange="compare()"> From /
+<input id="view-to" type="radio" name="view" value="to" onchange="compare()"> To<br>
+<em>NOTE: Step numbers can be wrong in Diff view!!!</em>
+<hr>
 <span id="diff-stat"></span>
 <hr>
 <div id="result"></div>

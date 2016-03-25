@@ -5,6 +5,7 @@ function bodyOnLoad() {
   populateRevs(toRev);
 
   document.getElementById("compare").disabled = true;
+  document.getElementById("view-diff").checked = true;
 
   var query = window.location.hash.substring(1);
   var items = query.split("&");
@@ -192,14 +193,30 @@ function compare() {
 
   let result = document.getElementById("result");
 
-  if (fromNode && toNode) {
-    result.innerHTML = htmldiff(fromNode.innerHTML, toNode.innerHTML);
-  } else if (fromNode) {
-    result.innerHTML = htmldiff(fromNode.innerHTML, "");
-  } else if (toNode) {
-    result.innerHTML = htmldiff("", toNode.innerHTML);
+  if (document.getElementById("view-diff").checked) {
+    if (fromNode && toNode) {
+      result.innerHTML = htmldiff(fromNode.innerHTML, toNode.innerHTML);
+    } else if (fromNode) {
+      result.innerHTML = htmldiff(fromNode.innerHTML, "");
+    } else if (toNode) {
+      result.innerHTML = htmldiff("", toNode.innerHTML);
+    } else {
+      result.innerHTML = "";
+    }
+  } else if (document.getElementById("view-from").checked) {
+    if (fromNode) {
+      result.innerHTML = fromNode.innerHTML;
+    } else {
+      result.innerHTML = "";
+    }
+  } else if (document.getElementById("view-to").checked) {
+    if (toNode) {
+      result.innerHTML = toNode.innerHTML;
+    } else {
+      result.innerHTML = "";
+    }
   } else {
-    result.innerHTML = "";
+      result.innerHTML = "";
   }
 
   let add = result.getElementsByClassName("htmldiff-add").length;
