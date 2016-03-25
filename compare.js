@@ -153,7 +153,11 @@ function updateSecList(fromDoc, toDoc) {
     var stat = "same";
 
     if (fromSet.has(sec)) {
-      if (!toSet.has(sec)) {
+      if (toSet.has(sec)) {
+        if (isChanged(sec)) {
+          stat = "mod";
+        }
+      } else {
         stat = "del";
       }
     } else {
@@ -168,6 +172,7 @@ function updateSecList(fromDoc, toDoc) {
       opt.appendChild(document.createTextNode(sec));
     }
     opt.className = stat;
+
     menu.appendChild(opt);
   });
 
@@ -443,7 +448,7 @@ function filterChanged() {
   var menu = document.getElementById("sec-list");
   Array.from(menu.children).forEach(function(opt) {
     var sec = opt.value;
-    if (isChanged(sec)) {
+    if (opt.className != "same") {
       opt.style.display = "";
       count++;
     } else {
