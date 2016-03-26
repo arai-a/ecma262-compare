@@ -55,6 +55,12 @@ def generate_html(hash, rebase, subdir):
         print('echo skip {}'.format(hash))
 
 def update_master():
+    ret = subprocess.call(['git',
+                           'fetch', 'origin', 'master'],
+                          cwd='./ecma262')
+    if ret:
+        sys.exit(ret)
+
     p = subprocess.Popen(['git',
                           'log', '{}..{}'.format(FIRST_REV, 'origin/master'),
                           '--pretty=%H'],
