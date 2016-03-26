@@ -6,10 +6,17 @@
 <link href="./compare.css" rel="stylesheet">
 <script type="text/javascript" src="./htmldiff.js"></script>
 <script type="text/javascript" src="./revs.js"></script>
+<script type="text/javascript" src="./prs.js"></script>
 <script type="text/javascript" src="./compare.js"></script>
 </head>
 <body onload="bodyOnLoad()">
 <table>
+<tr>
+  <th>filter</th>
+  <td>
+    <select id="rev-filter" onchange="filterPR()"></select>
+  </td>
+</tr>
 <tr>
   <th>from</th>
   <td>

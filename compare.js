@@ -1,8 +1,12 @@
 "use strict";
 
 function bodyOnLoad() {
+  var revFilter = document.getElementById("rev-filter");
   var fromRev = document.getElementById("from-rev");
   var toRev = document.getElementById("to-rev");
+
+  populatePRs(revFilter);
+
   populateRevs(fromRev);
   populateRevs(toRev);
 
@@ -29,12 +33,23 @@ function bodyOnLoad() {
     fromRev.value = from;
     toRev.value = to;
 
+    if ('pr' in queryParams) {
+      revFilter.value = queryParams.pr;
+      filterPR();
+    }
+
     update().then(function() {
       var menu = document.getElementById("sec-list");
       menu.value = id;
       compare();
     });
   }
+}
+
+function prnums() {
+  return Object.keys(prs).map(function(x) {
+    return parseInt(x, 10);
+  }).sort().reverse();
 }
 
 function populateRevs(menu) {
@@ -49,6 +64,76 @@ function populateRevs(menu) {
     opt.appendChild(document.createTextNode(rev + " (" + date + ")"));
     menu.appendChild(opt);
   });
+
+  prnums().forEach(function(pr) {
+    var info = prs[pr];
+
+    var len = info.revs.length;
+    var i = len;
+    info.revs.forEach(function(rev) {
+      var opt = document.createElement("option");
+      opt.value = "PR/" + pr + "/" + rev;
+      opt.appendChild(document.createTextNode(rev + " (PR " + pr + " by " + info.login + " [" + i + "/" + len + "])"));
+      menu.appendChild(opt);
+      i--;
+    });
+  });
+}
+
+function populatePRs(menu) {
+  while (menu.firstChild) {
+    menu.firstChild.remove();
+  }
+
+  var opt = document.createElement("option");
+  opt.value = "all";
+  opt.appendChild(document.createTextNode("all"));
+  menu.appendChild(opt);
+
+  prnums().forEach(function(pr) {
+    var info = prs[pr];
+    var opt = document.createElement("option");
+    opt.value = pr;
+    opt.appendChild(document.createTextNode("PR " + pr + ": " + info.title.slice(0, 100) + " (by " + info.login + ")"));
+    menu.appendChild(opt);
+  });
+
+  menu.value = "all";
+}
+
+function filterPR() {
+  var revFilter = document.getElementById("rev-filter");
+
+  var fromRev = document.getElementById("from-rev");
+  var toRev = document.getElementById("to-rev");
+
+  var pr = revFilter.value;
+
+  if (pr in prs) {
+    var info = prs[pr];
+    var revSet = new Set(info.revs.map(function(rev) {
+      return "PR/" + pr + "/" + rev;
+    }).concat(info.base));
+
+    [fromRev, toRev].forEach(function(menu) {
+      Array.from(menu.children).forEach(function(opt) {
+        if (revSet.has(opt.value)) {
+          opt.style.display = "";
+        } else {
+          opt.style.display = "none";
+        }
+      });
+    });
+
+    fromRev.value = info.base;
+    toRev.value = "PR/" + pr + "/" + info.revs[0];
+  } else {
+    [fromRev, toRev].forEach(function(menu) {
+      Array.from(menu.children).forEach(function(opt) {
+        opt.style.display = "";
+      });
+    });
+  }
 }
 
 function updateFrame(id) {
@@ -377,10 +462,18 @@ function compare() {
 function updateURL() {
   var id = document.getElementById("sec-list").value;
 
-  window.location.hash
-    = "#from=" + hashOf("from")
+  var hash = "#from=" + hashOf("from")
     + "&to=" + hashOf("to")
     + "&id=" + encodeURIComponent(id);
+
+  var revFilter = document.getElementById("rev-filter");
+  var pr = revFilter.value;
+  if (pr != "all") {
+    hash += "&pr=" + pr;
+  }
+
+  window.location.hash
+    = hash;
 }
 
 function filter() {
