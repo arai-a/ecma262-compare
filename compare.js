@@ -509,7 +509,7 @@ function filterSearch() {
 
   var menu = document.getElementById("sec-list");
   Array.from(menu.children).forEach(function(opt) {
-    if (opt.innerHTML.toLowerCase().contains(term.toLowerCase())) {
+    if (opt.innerHTML.toLowerCase().indexOf(term.toLowerCase()) !== -1) {
       if (!value) {
         value = opt.value;
       }
