@@ -456,7 +456,14 @@ function compare() {
   var add = result.getElementsByClassName("htmldiff-add").length;
   var del = result.getElementsByClassName("htmldiff-del").length;
 
-  document.getElementById("diff-stat").innerHTML = "+" + add + " " + "-" + del;
+  var note = "";
+  if (add == 0 && del == 0) {
+    if (fromNode.innerHTML != toNode.innerHTML) {
+      note = " (changes in markup or something)";
+    }
+  }
+
+  document.getElementById("diff-stat").innerHTML = "+" + add + " " + "-" + del + note;
 }
 
 function updateURL() {
