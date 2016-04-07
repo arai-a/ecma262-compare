@@ -1,5 +1,8 @@
 "use strict";
 
+var fromSecMap = new Map();
+var toSecMap = new Map();
+
 function bodyOnLoad() {
   var revFilter = document.getElementById("rev-filter");
   var fromRev = document.getElementById("from-rev");
@@ -138,7 +141,7 @@ function filterPR() {
 
 function updateFrame(id) {
   var hash = hashOf(id);
-  var frame = document.getElementById(id + "-frame");
+  var frame = document.createElement("iframe");
   if (frame.getAttribute("current-hash") == hash) {
     return Promise.resolve(frame);
   }
@@ -152,6 +155,9 @@ function updateFrame(id) {
     };
     frame.addEventListener("load", f);
     frame.src = "./history/" + hash + ".html";
+    frame.style.width = "1px";
+    frame.style.height = "1px";
+    document.body.appendChild(frame);
   });
 }
 
@@ -298,6 +304,16 @@ function updateSecList(fromSecList, fromTitleMap, toSecList, toTitleMap) {
   filter();
 }
 
+function buildSecMap(doc, secList) {
+  var map = new Map();
+
+  secList.forEach(function(id) {
+    map.set(id, doc.getElementById(id).innerHTML);
+  });
+
+  return map;
+}
+
 function update() {
   document.getElementById("update").disabled = true;
   document.getElementById("result").innerHTML = "";
@@ -318,6 +334,12 @@ function update() {
 
     excludeSubSections(fromDoc);
     excludeSubSections(toDoc);
+
+    fromSecMap = buildSecMap(fromDoc, fromSecList);
+    toSecMap = buildSecMap(toDoc, toSecList);
+
+    fromFrame.remove();
+    toFrame.remove();
 
     updateSecList(fromSecList, fromTitleMap, toSecList, toTitleMap);
     document.getElementById("update").disabled = false;
@@ -464,40 +486,34 @@ function fixup(innerHTML) {
 function compare() {
   var id = document.getElementById("sec-list").value;
 
-  var fromFrame = document.getElementById("from-frame");
-  var toFrame = document.getElementById("to-frame");
-
-  var fromDoc = fromFrame.contentDocument;
-  var toDoc = toFrame.contentDocument;
-
-  var fromNode = fromDoc.getElementById(id);
-  var toNode = toDoc.getElementById(id);
+  var fromHTML = fromSecMap.has(id) ? fromSecMap.get(id) : null;
+  var toHTML = toSecMap.has(id) ? toSecMap.get(id) : null;
 
   var result = document.getElementById("result");
 
   result.className = "";
   if (document.getElementById("view-diff").checked) {
-    if (fromNode && toNode) {
+    if (fromHTML !== null && toHTML !== null) {
       result.className = "diff-view";
-      result.innerHTML = htmldiff(fixup(fromNode.innerHTML), fixup(toNode.innerHTML));
-    } else if (fromNode) {
+      result.innerHTML = htmldiff(fixup(fromHTML), fixup(toHTML));
+    } else if (fromHTML !== null) {
       result.className = "diff-view";
-      result.innerHTML = htmldiff(fixup(fromNode.innerHTML), "");
-    } else if (toNode) {
+      result.innerHTML = htmldiff(fixup(fromHTML), "");
+    } else if (toHTML !== null) {
       result.className = "diff-view";
-      result.innerHTML = htmldiff("", fixup(toNode.innerHTML));
+      result.innerHTML = htmldiff("", fixup(toHTML));
     } else {
       result.innerHTML = "";
     }
   } else if (document.getElementById("view-from").checked) {
-    if (fromNode) {
-      result.innerHTML = fromNode.innerHTML;
+    if (fromHTML !== null) {
+      result.innerHTML = fromHTML;
     } else {
       result.innerHTML = "";
     }
   } else if (document.getElementById("view-to").checked) {
-    if (toNode) {
-      result.innerHTML = toNode.innerHTML;
+    if (toHTML !== null) {
+      result.innerHTML = toHTML;
     } else {
       result.innerHTML = "";
     }
@@ -510,7 +526,7 @@ function compare() {
 
   var note = "";
   if (add == 0 && del == 0) {
-    if (fromNode.innerHTML != toNode.innerHTML) {
+    if (fromHTML != toHTML) {
       note = " (changes in markup or something)";
     }
   }
@@ -582,20 +598,13 @@ function filterSearch() {
 }
 
 function isChanged(id) {
-  var fromFrame = document.getElementById("from-frame");
-  var toFrame = document.getElementById("to-frame");
-
-  var fromDoc = fromFrame.contentDocument;
-  var toDoc = toFrame.contentDocument;
-
-  var fromNode = fromDoc.getElementById(id);
-  if (!fromNode)
-    return true;
-  var toNode = toDoc.getElementById(id);
-  if (!toNode)
+  if (!fromSecMap.has(id) || !toSecMap.has(id))
     return true;
 
-  return fromNode.innerHTML != toNode.innerHTML;
+  var fromHTML = fromSecMap.get(id);
+  var toHTML = toSecMap.get(id);
+
+  return fromHTML != toHTML;
 }
 
 function filterChanged() {
