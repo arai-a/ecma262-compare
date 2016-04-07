@@ -159,32 +159,68 @@ function hashOf(id) {
   return document.getElementById(id + "-rev").value;
 }
 
-function getSecList(doc) {
-  var list = [];
-  var map = new Map();
-  var emus = [doc.getElementsByTagName("EMU-CLAUSE"),
-              doc.getElementsByTagName("EMU-ANNEX")];
+function getSecNodes(doc) {
+  var secNodes = [];
+  var emus = [Array.prototype.slice.apply(doc.getElementsByTagName("EMU-CLAUSE")),
+              Array.prototype.slice.apply(doc.getElementsByTagName("EMU-ANNEX"))];
   emus.forEach(function(nodes) {
     Array.from(nodes).forEach(function(node) {
       if ("id" in node && node.id.startsWith("sec-")) {
-        list.push(node.id);
-
-        var h1s = node.getElementsByTagName("h1");
-        if (h1s.length) {
-          var title = h1s[0].innerText;
-
-          title = title.replace(/([A-Z0-9][0-9.]*)/, "$1 ").replace(/#$/, "");
-
-          map.set(node.id, title);
-        }
+        secNodes.push(node);
       }
     });
+  });
+
+  return secNodes;
+}
+
+
+function getSecList(doc) {
+  var list = [];
+  var map = new Map();
+  getSecNodes(doc).forEach(function(node) {
+    list.push(node.id);
+
+    var h1s = node.getElementsByTagName("h1");
+    if (h1s.length) {
+      var title = h1s[0].innerText;
+
+      title = title.replace(/([A-Z0-9][0-9.]*)/, "$1 ").replace(/#$/, "");
+
+      map.set(node.id, title);
+    }
   });
 
   return [list, map];
 }
 
-function updateSecList(fromDoc, toDoc) {
+function excludeSubSections(doc) {
+  getSecNodes(doc).forEach(function(node) {
+    var parent = getParentSection(node);
+    if (parent) {
+      var h1s = node.getElementsByTagName("h1");
+      if (h1s.length) {
+        var box = doc.createElement("div");
+
+        var h1 = h1s[0].cloneNode(true);
+        node.parentNode.replaceChild(box, node);
+        box.appendChild(h1);
+
+        Array.prototype.slice.apply(h1.getElementsByTagName("a")).forEach(function(node) {
+          node.remove();
+        });
+
+        var ellipsis = doc.createElement("div");
+        ellipsis.appendChild(doc.createTextNode("..."));
+        box.appendChild(ellipsis);
+
+        doc.body.appendChild(node);
+      }
+    }
+  });
+}
+
+function updateSecList(fromSecList, fromTitleMap, toSecList, toTitleMap) {
   var hit = document.getElementById("search-hit");
   hit.innerHTML = "";
 
@@ -192,12 +228,6 @@ function updateSecList(fromDoc, toDoc) {
   while (menu.firstChild) {
     menu.firstChild.remove();
   }
-
-  var tmp = getSecList(fromDoc);
-  var fromSecList = tmp[0], fromTitleMap = tmp[1];
-
-  tmp = getSecList(toDoc);
-  var toSecList = tmp[0], toTitleMap = tmp[1];
 
   var fromSet = new Set(fromSecList);
   var toSet = new Set(toSecList);
@@ -280,7 +310,16 @@ function update() {
     var fromFrame = tmp[0], toFrame = tmp[1];
     var fromDoc = fromFrame.contentDocument;
     var toDoc = toFrame.contentDocument;
-    updateSecList(fromDoc, toDoc);
+
+    tmp = getSecList(fromDoc);
+    var fromSecList = tmp[0], fromTitleMap = tmp[1];
+    tmp = getSecList(toDoc);
+    var toSecList = tmp[0], toTitleMap = tmp[1];
+
+    excludeSubSections(fromDoc);
+    excludeSubSections(toDoc);
+
+    updateSecList(fromSecList, fromTitleMap, toSecList, toTitleMap);
     document.getElementById("update").disabled = false;
     document.getElementById("compare").disabled = false;
   });
@@ -295,6 +334,19 @@ function getListDepth(node) {
     node = node.parentNode;
   }
   return depth;
+}
+
+function getParentSection(node) {
+  node = node.parentNode;
+  while (node && node != document.body) {
+    if (node.nodeName.toLowerCase() == "emu-clause" ||
+        node.nodeName.toLowerCase() == "emu-annex")
+    {
+      return node;
+    }
+    node = node.parentNode;
+  }
+  return null;
 }
 
 function DecimalToText(ordinal) {
