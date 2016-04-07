@@ -228,11 +228,8 @@ function getSecData(id) {
     req.addEventListener("load", function() {
       if (req.readyState == 4 && req.status == 200) {
         resolve(req.response);
-      } else {
-        console.log(req.readyState, req.status);
       }
     });
-    console.log("./history/" + hash + ".json");
     req.open("GET", "./history/" + hash + ".json", true);
     req.responseType = "json";
     req.send(null);
@@ -494,8 +491,9 @@ function filterSearch() {
 }
 
 function isChanged(id) {
-  if (!(id in fromSecData.secData) || !(id in toSecData.secData))
+  if (!(id in fromSecData.secData) || !(id in toSecData.secData)) {
     return true;
+  }
 
   var fromHTML = fromSecData.secData[id].html;
   var toHTML = toSecData.secData[id].html;
