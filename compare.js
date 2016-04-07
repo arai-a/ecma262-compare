@@ -142,15 +142,10 @@ function filterPR() {
 function updateFrame(id) {
   var hash = hashOf(id);
   var frame = document.createElement("iframe");
-  if (frame.getAttribute("current-hash") == hash) {
-    return Promise.resolve(frame);
-  }
-  frame.setAttribute("current-hash", hash);
 
   return new Promise(function(resolve) {
     var f = function() {
       frame.removeEventListener("load", f);
-      frame.setAttribute("current-hash", hash);
       resolve(frame);
     };
     frame.addEventListener("load", f);
