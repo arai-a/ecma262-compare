@@ -15,7 +15,7 @@ function bodyOnLoad() {
 
   document.getElementById("compare").disabled = true;
   document.getElementById("view-diff").checked = true;
-  document.getElementById("sec-search").checked = true;
+  document.getElementById("sec-changed").checked = true;
 
   var query = window.location.hash.substring(1);
   var items = query.split("&");
