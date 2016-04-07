@@ -599,18 +599,24 @@ function isChanged(id) {
 }
 
 function filterChanged() {
+  var value = "";
   var count = 0;
 
   var menu = document.getElementById("sec-list");
   Array.from(menu.children).forEach(function(opt) {
     var sec = opt.value;
     if (opt.className != "same") {
+      if (!value) {
+        value = opt.value;
+      }
       opt.style.display = "";
       count++;
     } else {
       opt.style.display = "none";
     }
   });
+
+  menu.value = value;
 
   return count;
 }
