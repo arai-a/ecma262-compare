@@ -1,7 +1,7 @@
 "use strict";
 
-var fromSecMap = new Map();
-var toSecMap = new Map();
+var fromSecData = {};
+var toSecData = {};
 
 function bodyOnLoad() {
   var revFilter = document.getElementById("rev-filter");
@@ -36,7 +36,7 @@ function bodyOnLoad() {
     fromRev.value = from;
     toRev.value = to;
 
-    if ('pr' in queryParams) {
+    if ("pr" in queryParams) {
       revFilter.value = queryParams.pr;
       filterPR();
     }
@@ -139,89 +139,11 @@ function filterPR() {
   }
 }
 
-function updateFrame(id) {
-  var hash = hashOf(id);
-  var frame = document.createElement("iframe");
-
-  return new Promise(function(resolve) {
-    var f = function() {
-      frame.removeEventListener("load", f);
-      resolve(frame);
-    };
-    frame.addEventListener("load", f);
-    frame.src = "./history/" + hash + ".html";
-    frame.style.width = "1px";
-    frame.style.height = "1px";
-    document.body.appendChild(frame);
-  });
-}
-
 function hashOf(id) {
   return document.getElementById(id + "-rev").value;
 }
 
-function getSecNodes(doc) {
-  var secNodes = [];
-  var emus = [Array.prototype.slice.apply(doc.getElementsByTagName("EMU-CLAUSE")),
-              Array.prototype.slice.apply(doc.getElementsByTagName("EMU-ANNEX"))];
-  emus.forEach(function(nodes) {
-    Array.from(nodes).forEach(function(node) {
-      if ("id" in node && node.id.startsWith("sec-")) {
-        secNodes.push(node);
-      }
-    });
-  });
-
-  return secNodes;
-}
-
-
-function getSecList(doc) {
-  var list = [];
-  var map = new Map();
-  getSecNodes(doc).forEach(function(node) {
-    list.push(node.id);
-
-    var h1s = node.getElementsByTagName("h1");
-    if (h1s.length) {
-      var title = h1s[0].innerText;
-
-      title = title.replace(/([A-Z0-9][0-9.]*)/, "$1 ").replace(/#$/, "");
-
-      map.set(node.id, title);
-    }
-  });
-
-  return [list, map];
-}
-
-function excludeSubSections(doc) {
-  getSecNodes(doc).forEach(function(node) {
-    var parent = getParentSection(node);
-    if (parent) {
-      var h1s = node.getElementsByTagName("h1");
-      if (h1s.length) {
-        var box = doc.createElement("div");
-
-        var h1 = h1s[0].cloneNode(true);
-        node.parentNode.replaceChild(box, node);
-        box.appendChild(h1);
-
-        Array.prototype.slice.apply(h1.getElementsByTagName("a")).forEach(function(node) {
-          node.remove();
-        });
-
-        var ellipsis = doc.createElement("div");
-        ellipsis.appendChild(doc.createTextNode("..."));
-        box.appendChild(ellipsis);
-
-        doc.body.appendChild(node);
-      }
-    }
-  });
-}
-
-function updateSecList(fromSecList, fromTitleMap, toSecList, toTitleMap) {
+function updateSecList() {
   var hit = document.getElementById("search-hit");
   hit.innerHTML = "";
 
@@ -230,13 +152,13 @@ function updateSecList(fromSecList, fromTitleMap, toSecList, toTitleMap) {
     menu.firstChild.remove();
   }
 
-  var fromSet = new Set(fromSecList);
-  var toSet = new Set(toSecList);
-  var set = new Set(fromSecList.concat(toSecList));
+  var fromSet = new Set(fromSecData.secList);
+  var toSet = new Set(toSecData.secList);
+  var set = new Set(fromSecData.secList.concat(toSecData.secList));
 
   var s = function(a, b) {
-    var aTitle = getComparabvaritle(a);
-    var bTitle = getComparabvaritle(b);
+    var aTitle = getComparableTitle(a);
+    var bTitle = getComparableTitle(b);
     if (aTitle == bTitle) {
       return 0;
     }
@@ -244,18 +166,18 @@ function updateSecList(fromSecList, fromTitleMap, toSecList, toTitleMap) {
   };
 
   function getTitle(sec) {
-    if (toTitleMap.has(sec)) {
-      return toTitleMap.get(sec);
+    if (sec in fromSecData.secData) {
+      return fromSecData.secData[sec].num + " " + fromSecData.secData[sec].title;
     }
 
-    if (fromTitleMap.has(sec)) {
-      return fromTitleMap.get(sec);
+    if (sec in toSecData.secData) {
+      return toSecData.secData[sec].num + " " + toSecData.secData[sec].title;
     }
 
     return "";
   }
 
-  function getComparabvaritle(sec) {
+  function getComparableTitle(sec) {
     var t = getTitle(sec);
     return t.replace(/([0-9]+)/g, function(matched) {
       return String.fromCharCode(matched);
@@ -299,14 +221,22 @@ function updateSecList(fromSecList, fromTitleMap, toSecList, toTitleMap) {
   filter();
 }
 
-function buildSecMap(doc, secList) {
-  var map = new Map();
-
-  secList.forEach(function(id) {
-    map.set(id, doc.getElementById(id).innerHTML);
+function getSecData(id) {
+  return new Promise(function(resolve) {
+    var hash = hashOf(id);
+    var req = new XMLHttpRequest();
+    req.addEventListener("load", function() {
+      if (req.readyState == 4 && req.status == 200) {
+        resolve(req.response);
+      } else {
+        console.log(req.readyState, req.status);
+      }
+    });
+    console.log("./history/" + hash + ".json");
+    req.open("GET", "./history/" + hash + ".json", true);
+    req.responseType = "json";
+    req.send(null);
   });
-
-  return map;
 }
 
 function update() {
@@ -315,28 +245,12 @@ function update() {
   document.getElementById("diff-stat").innerHTML = "";
 
   return Promise.all([
-    updateFrame("from"),
-    updateFrame("to")
+    getSecData("from"),
+    getSecData("to")
   ]).then(function(tmp) {
-    var fromFrame = tmp[0], toFrame = tmp[1];
-    var fromDoc = fromFrame.contentDocument;
-    var toDoc = toFrame.contentDocument;
-
-    tmp = getSecList(fromDoc);
-    var fromSecList = tmp[0], fromTitleMap = tmp[1];
-    tmp = getSecList(toDoc);
-    var toSecList = tmp[0], toTitleMap = tmp[1];
-
-    excludeSubSections(fromDoc);
-    excludeSubSections(toDoc);
-
-    fromSecMap = buildSecMap(fromDoc, fromSecList);
-    toSecMap = buildSecMap(toDoc, toSecList);
-
-    fromFrame.remove();
-    toFrame.remove();
-
-    updateSecList(fromSecList, fromTitleMap, toSecList, toTitleMap);
+    fromSecData = tmp[0];
+    toSecData = tmp[1];
+    updateSecList();
     document.getElementById("update").disabled = false;
     document.getElementById("compare").disabled = false;
   });
@@ -351,19 +265,6 @@ function getListDepth(node) {
     node = node.parentNode;
   }
   return depth;
-}
-
-function getParentSection(node) {
-  node = node.parentNode;
-  while (node && node != document.body) {
-    if (node.nodeName.toLowerCase() == "emu-clause" ||
-        node.nodeName.toLowerCase() == "emu-annex")
-    {
-      return node;
-    }
-    node = node.parentNode;
-  }
-  return null;
 }
 
 function DecimalToText(ordinal) {
@@ -481,8 +382,8 @@ function fixup(innerHTML) {
 function compare() {
   var id = document.getElementById("sec-list").value;
 
-  var fromHTML = fromSecMap.has(id) ? fromSecMap.get(id) : null;
-  var toHTML = toSecMap.has(id) ? toSecMap.get(id) : null;
+  var fromHTML = id in fromSecData.secData ? fromSecData.secData[id].html : null;
+  var toHTML = id in toSecData.secData ? toSecData.secData[id].html : null;
 
   var result = document.getElementById("result");
 
@@ -593,11 +494,11 @@ function filterSearch() {
 }
 
 function isChanged(id) {
-  if (!fromSecMap.has(id) || !toSecMap.has(id))
+  if (!(id in fromSecData.secData) || !(id in toSecData.secData))
     return true;
 
-  var fromHTML = fromSecMap.get(id);
-  var toHTML = toSecMap.get(id);
+  var fromHTML = fromSecData.secData[id].html;
+  var toHTML = toSecData.secData[id].html;
 
   return fromHTML != toHTML;
 }
