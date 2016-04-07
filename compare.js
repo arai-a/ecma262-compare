@@ -122,8 +122,10 @@ function filterPR() {
       Array.from(menu.children).forEach(function(opt) {
         if (revSet.has(opt.value)) {
           opt.style.display = "";
+          opt.disabled = false;
         } else {
           opt.style.display = "none";
+          opt.disabled = true;
         }
       });
     });
@@ -134,6 +136,7 @@ function filterPR() {
     [fromRev, toRev].forEach(function(menu) {
       Array.from(menu.children).forEach(function(opt) {
         opt.style.display = "";
+        opt.disabled = false;
       });
     });
   }
@@ -475,9 +478,11 @@ function filterSearch() {
         value = opt.value;
       }
       opt.style.display = "";
+      opt.disabled = false;
       count++;
     } else {
       opt.style.display = "none";
+      opt.disabled = true;
     }
   });
 
@@ -513,9 +518,11 @@ function filterChanged() {
         value = opt.value;
       }
       opt.style.display = "";
+      opt.disabled = false;
       count++;
     } else {
       opt.style.display = "none";
+      opt.disabled = true;
     }
   });
 
