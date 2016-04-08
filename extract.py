@@ -96,9 +96,9 @@ def extract_sections(filename):
     in_filename = '{}.html'.format(filename)
     out_filename = '{}.json'.format(filename)
 
-    #if os.path.exists(out_filename):
-    #    print('skip {}'.format(out_filename))
-    #    return
+    if os.path.exists(out_filename):
+        print('skip {}'.format(out_filename))
+        return
 
     print(out_filename)
 
