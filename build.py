@@ -121,7 +121,7 @@ def get_pr(pr):
 
     if not mergeable:
         print("not mergeable")
-        sys.exit()
+        return
 
     subprocess.call(['git',
                      'remote', 'add', login, url],
@@ -160,7 +160,11 @@ def get_pr(pr):
     with open('{}/info.json'.format(basedir), 'w') as out_file:
         out_file.write(json.dumps(info))
 
-    update_prs()
+def get_all_pr():
+    data = github_api('https://api.github.com/repos/tc39/ecma262/pulls')
+    for pr in data:
+        print(pr['number'])
+        get_pr(pr['number'])
 
 def usage():
     print('Usage:')
@@ -181,7 +185,12 @@ elif sys.argv[1] == 'pr':
     if len(sys.argv) != 3:
         usage()
         sys.exit()
-    get_pr(sys.argv[2])
+    if sys.argv[2] == 'all':
+        get_all_pr()
+        update_prs()
+    else:
+        get_pr(sys.argv[2])
+        update_prs()
 else:
     usage()
     sys.exit()
