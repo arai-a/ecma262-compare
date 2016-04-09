@@ -54,7 +54,7 @@ def generate_html(hash, rebase, subdir):
             os.makedirs(basedir)
         shutil.copyfile('./ecma262/out/index.html', result)
     else:
-        print('echo skip {}'.format(hash))
+        print('skip {}'.format(result))
 
 def update_master():
     ret = subprocess.call(['git',
