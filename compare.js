@@ -28,10 +28,9 @@ function bodyOnLoad() {
     }
   }
 
-  if ("from" in queryParams && "to" in queryParams && "id" in queryParams) {
+  if ("from" in queryParams && "to" in queryParams) {
     var from = queryParams.from;
     var to = queryParams.to;
-    var id = queryParams.id;
 
     fromRev.value = from;
     toRev.value = to;
@@ -42,10 +41,26 @@ function bodyOnLoad() {
     }
 
     update().then(function() {
-      var menu = document.getElementById("sec-list");
-      menu.value = id;
-      compare();
+      if ("id" in queryParams) {
+        var id = queryParams.id;
+        var menu = document.getElementById("sec-list");
+        menu.value = id;
+        compare();
+      }
     });
+  } else if ("pr" in queryParams) {
+    var pr = queryParams.pr;
+    if (pr in prs) {
+      var info = prs[pr];
+
+      fromRev.value = info.base;
+      toRev.value = info.revs[0];
+
+      revFilter.value = pr;
+      filterPR();
+
+      update();
+    }
   }
 }
 
