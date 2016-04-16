@@ -28,7 +28,7 @@ $ python build.py pr PR_NUMBER
 ```
 
 `pr` command retrieves information about specified PR and generated HTML file and JSON file for each revisions in the PR.
-HTML files are stored as `./history/PR/{PR_NUMMER}/{hash}.html`, and JSON files are stored as `./history/PR/{PR_NUMMER}/{hash}.json`, and they're cached for 2nd invocation.
+HTML files are stored as `./history/PR/{PR_NUMMER}/{hash}.html`, and JSON files are stored as `./history/PR/{PR_NUMMER}/{hash}.json`, but they're not cached for 2nd invocation, as parent may change.
 It will fail if the PR is not mergeable.
 
 ## Update all PRs

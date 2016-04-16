@@ -27,34 +27,35 @@ def init_repo():
     if not os.path.exists('./ecma262'):
         subprocess.call(['git', 'clone', REPO_URL])
 
-def generate_html(hash, rebase, subdir):
+def generate_html(hash, rebase, subdir, use_cache):
     basedir = './history/{}'.format(subdir)
     result = '{}{}.html'.format(basedir, hash)
-    if not os.path.exists(result):
-        print(hash)
-
-        if rebase:
-            ret = subprocess.call(['git',
-                                   'cherry-pick', hash], cwd='./ecma262')
-        else:
-            ret = subprocess.call(['git',
-                                   'checkout', hash], cwd='./ecma262')
-        if ret:
-            sys.exit(ret)
-
-        ret = subprocess.call(['npm', 'install'], cwd='./ecma262')
-        if ret:
-            sys.exit(ret)
-
-        ret = subprocess.call(['npm', 'run', 'build'], cwd='./ecma262')
-        if ret:
-            sys.exit(ret)
-
-        if not os.path.exists(basedir):
-            os.makedirs(basedir)
-        shutil.copyfile('./ecma262/out/index.html', result)
-    else:
+    if use_cache and os.path.exists(result):
         print('skip {}'.format(result))
+        return
+
+    print(hash)
+
+    if rebase:
+        ret = subprocess.call(['git',
+                               'cherry-pick', hash], cwd='./ecma262')
+    else:
+        ret = subprocess.call(['git',
+                               'checkout', hash], cwd='./ecma262')
+    if ret:
+        sys.exit(ret)
+
+    ret = subprocess.call(['npm', 'install'], cwd='./ecma262')
+    if ret:
+        sys.exit(ret)
+
+    ret = subprocess.call(['npm', 'run', 'build'], cwd='./ecma262')
+    if ret:
+        sys.exit(ret)
+
+    if not os.path.exists(basedir):
+        os.makedirs(basedir)
+    shutil.copyfile('./ecma262/out/index.html', result)
 
 def update_master():
     ret = subprocess.call(['git',
@@ -71,8 +72,8 @@ def update_master():
                          stderr=subprocess.STDOUT)
     for line in p.stdout:
         hash = line.strip()
-        generate_html(hash, False, '')
-        generate_json(hash, '')
+        generate_html(hash, False, '', True)
+        generate_json(hash, '', True)
     p.wait()
 
 def update_revs():
@@ -149,8 +150,8 @@ def get_pr(pr):
     revs = []
     for commit in data:
         hash = commit['sha']
-        generate_html(hash, True, 'PR/{}/'.format(pr))
-        generate_json(hash, 'PR/{}/'.format(pr))
+        generate_html(hash, True, 'PR/{}/'.format(pr), False)
+        generate_json(hash, 'PR/{}/'.format(pr), False)
         revs.append(hash)
     revs.reverse()
 
@@ -250,11 +251,11 @@ def extract_sec_html(dom, sec_list, sec_num_map, sec_title_map):
 
     return data
 
-def extract_sections(filename):
+def extract_sections(filename, use_cache):
     in_filename = '{}.html'.format(filename)
     out_filename = '{}.json'.format(filename)
 
-    if os.path.exists(out_filename):
+    if use_cache and os.path.exists(out_filename):
         print('skip {}'.format(out_filename))
         return
 
@@ -270,9 +271,9 @@ def extract_sections(filename):
         with open(out_filename, 'w') as out_file:
             out_file.write(json.dumps(data))
 
-def generate_json(hash, subdir):
+def generate_json(hash, subdir, use_cache):
     basedir = './history/{}'.format(subdir)
-    extract_sections('{}{}'.format(basedir, hash))
+    extract_sections('{}{}'.format(basedir, hash), use_cache)
 
 def usage():
     print('Usage:')
