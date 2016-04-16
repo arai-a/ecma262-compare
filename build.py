@@ -94,12 +94,15 @@ def update_revs():
 def update_prs():
     prs = dict()
 
-    for dir in glob.glob('./history/PR/*'):
-        if os.path.exists('{}/info.json'.format(dir)):
-            pr = os.path.basename(dir)
+    data = github_api('https://api.github.com/repos/tc39/ecma262/pulls')
+    for pr_data in data:
+        pr = pr_data['number']
 
-            with open('{}/info.json'.format(dir), 'r') as in_file:
+        info_path = './history/PR/{}/info.json'.format(pr);
+        if os.path.exists(info_path):
+            with open(info_path, 'r') as in_file:
                 info = json.loads(in_file.read())
+
             prs[pr] = info
 
     with open('./prs.js', 'w') as out_file:
@@ -123,6 +126,10 @@ def get_pr(pr):
     mergeable = data['mergeable']
     title = data['title']
 
+    basedir = './history/PR/{}'.format(pr)
+    if not os.path.exists(basedir):
+        os.makedirs(basedir)
+
     if not mergeable:
         print("not mergeable")
         return
@@ -136,10 +143,6 @@ def get_pr(pr):
     if ret:
         sys.exit(ret)
 
-    basedir = './history/PR/{}'.format(pr)
-    if not os.path.exists(basedir):
-        os.makedirs(basedir)
-
     ret = subprocess.call(['git',
                            'checkout', base], cwd='./ecma262')
     if ret:
@@ -150,8 +153,8 @@ def get_pr(pr):
     revs = []
     for commit in data:
         hash = commit['sha']
-        generate_html(hash, True, 'PR/{}/'.format(pr), False)
-        generate_json(hash, 'PR/{}/'.format(pr), False)
+        #generate_html(hash, True, 'PR/{}/'.format(pr), False)
+        #generate_json(hash, 'PR/{}/'.format(pr), False)
         revs.append(hash)
     revs.reverse()
 
