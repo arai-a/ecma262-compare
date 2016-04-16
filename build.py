@@ -153,8 +153,8 @@ def get_pr(pr):
     revs = []
     for commit in data:
         hash = commit['sha']
-        #generate_html(hash, True, 'PR/{}/'.format(pr), False)
-        #generate_json(hash, 'PR/{}/'.format(pr), False)
+        generate_html(hash, True, 'PR/{}/'.format(pr), False)
+        generate_json(hash, 'PR/{}/'.format(pr), False)
         revs.append(hash)
     revs.reverse()
 
