@@ -416,33 +416,37 @@ function compare() {
     } else {
       result.innerHTML = "";
     }
-  } else if (document.getElementById("view-from").checked) {
-    if (fromHTML !== null) {
-      result.innerHTML = fromHTML;
-    } else {
-      result.innerHTML = "";
+
+    var add = result.getElementsByClassName("htmldiff-add").length;
+    var del = result.getElementsByClassName("htmldiff-del").length;
+
+    var note = "";
+    if (add == 0 && del == 0) {
+      if (fromHTML != toHTML) {
+        note = " (changes in markup or something)";
+      }
     }
-  } else if (document.getElementById("view-to").checked) {
-    if (toHTML !== null) {
-      result.innerHTML = toHTML;
-    } else {
-      result.innerHTML = "";
-    }
+
+    document.getElementById("diff-stat").innerHTML = "+" + add + " " + "-" + del + note;
   } else {
+    if (document.getElementById("view-from").checked) {
+      if (fromHTML !== null) {
+        result.innerHTML = fromHTML;
+      } else {
+        result.innerHTML = "";
+      }
+    } else if (document.getElementById("view-to").checked) {
+      if (toHTML !== null) {
+        result.innerHTML = toHTML;
+      } else {
+        result.innerHTML = "";
+      }
+    } else {
       result.innerHTML = "";
-  }
-
-  var add = result.getElementsByClassName("htmldiff-add").length;
-  var del = result.getElementsByClassName("htmldiff-del").length;
-
-  var note = "";
-  if (add == 0 && del == 0) {
-    if (fromHTML != toHTML) {
-      note = " (changes in markup or something)";
     }
-  }
 
-  document.getElementById("diff-stat").innerHTML = "+" + add + " " + "-" + del + note;
+    document.getElementById("diff-stat").innerHTML = "-";
+  }
 }
 
 function updateURL() {
