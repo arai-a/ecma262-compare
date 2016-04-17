@@ -17,6 +17,14 @@ function bodyOnLoad() {
   document.getElementById("view-diff").checked = true;
   document.getElementById("sec-changed").checked = true;
 
+  parseQuery();
+}
+
+function parseQuery() {
+  var revFilter = document.getElementById("rev-filter");
+  var fromRev = document.getElementById("from-rev");
+  var toRev = document.getElementById("to-rev");
+
   var query = window.location.hash.substring(1);
   var items = query.split("&");
   var queryParams = {};
