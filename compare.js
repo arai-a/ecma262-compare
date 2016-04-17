@@ -279,128 +279,123 @@ function update() {
   });
 }
 
-function getListDepth(node) {
-  var depth = 0;
-  while (node && node != document.body) {
-    if (node.nodeName.toLowerCase() == "ol") {
-      depth++;
-    }
-    node = node.parentNode;
-  }
-  return depth;
-}
-
-function DecimalToText(ordinal) {
-  return ordinal.toString(10);
-};
-
-function RomanToText(ordinal, achars, bchars) {
-  if (ordinal < 1 || ordinal > 3999) {
-    DecimalToText(ordinal);
-    return false;
-  }
-  var addOn, decStr;
-  decStr = ordinal.toString(10);
-  var len = decStr.length;
-  var romanPos = len;
-  var n;
-  var result = "";
-
-  for (var i = 0; i < len; i++) {
-    var dp = decStr.substr(i, 1);
-    romanPos--;
-    addOn = "";
-    switch(dp) {
-      case '3':
-        addOn += achars[romanPos];
-        /* fall through */
-      case '2':
-        addOn += achars[romanPos];
-        /* fall through */
-      case '1':
-        addOn += achars[romanPos];
-        break;
-      case '4':
-        addOn += achars[romanPos];
-        /* fall through */
-      case '5': case '6':
-      case '7': case '8':
-        addOn += bchars[romanPos];
-        for(n=0;'5'.charCodeAt(0)+n<dp.charCodeAt(0);n++) {
-          addOn += achars[romanPos];
-        }
-        break;
-      case '9':
-        addOn += achars[romanPos];
-        addOn += achars[romanPos+1];
-        break;
-      default:
-        break;
-    }
-    result += addOn;
-  }
-
-  return result;
-};
-
-var gLowerAlphaChars = [
-  0x0061, 0x0062, 0x0063, 0x0064, 0x0065, // A   B   C   D   E
-  0x0066, 0x0067, 0x0068, 0x0069, 0x006A, // F   G   H   I   J
-  0x006B, 0x006C, 0x006D, 0x006E, 0x006F, // K   L   M   N   O
-  0x0070, 0x0071, 0x0072, 0x0073, 0x0074, // P   Q   R   S   T
-  0x0075, 0x0076, 0x0077, 0x0078, 0x0079, // U   V   W   X   Y
-  0x007A                                  // Z
-];
-function CharListToText(ordinal, chars) {
-  var base = chars.length;
-  var buf = "";
-  if (ordinal < 1) {
-    return DecimalToText(ordinal);
-  }
-  do {
-    ordinal--; // a == 0
-    var cur = ordinal % base;
-    buf = String.fromCharCode(chars[cur]) + buf;
-    ordinal = Math.floor(ordinal / base);
-  } while ( ordinal > 0);
-
-  return buf;
-};
-
-function toListMark(i, depth) {
-  if (depth == 1 || depth == 4) {
-    return DecimalToText(i + 1);
-  }
-  if (depth == 2 || depth == 5) {
-    return CharListToText(i + 1, gLowerAlphaChars);
-  }
-  if (depth == 3 || depth == 6) {
-    return RomanToText(i + 1, "ixcm", "vld");
-  }
-
-  return DecimalToText(i + 1);
-}
-
-function fixup(innerHTML) {
-  var tempbox = document.getElementById("tempbox");
-  tempbox.innerHTML = innerHTML;
-
-  var ols = document.getElementsByTagName("ol");
-  Array.from(ols).forEach(function(ol) {
-    var depth = getListDepth(ol);
-
-    var i = 0;
-    Array.from(ol.children).forEach(function(li) {
-      if (li.nodeName.toLowerCase() == "li") {
-        li.insertBefore(document.createTextNode(toListMark(i, depth) + ". "), li.firstChild);
-
-        i++;
+var ListMarkUtils = {
+  getListDepth: function(node) {
+    var depth = 0;
+    while (node && node != document.body) {
+      if (node.nodeName.toLowerCase() == "ol") {
+        depth++;
       }
-    });
-  });
+      node = node.parentNode;
+    }
+    return depth;
+  },
 
-  return tempbox.innerHTML;
-}
+  decimalToText: function(ordinal) {
+    return ordinal.toString(10);
+  },
+
+  romanToText: function(ordinal, achars, bchars) {
+    if (ordinal < 1 || ordinal > 3999) {
+      this.decimalToText(ordinal);
+      return false;
+    }
+    var addOn, decStr;
+    decStr = ordinal.toString(10);
+    var len = decStr.length;
+    var romanPos = len;
+    var n;
+    var result = "";
+
+    for (var i = 0; i < len; i++) {
+      var dp = decStr.substr(i, 1);
+      romanPos--;
+      addOn = "";
+      switch(dp) {
+        case '3':
+          addOn += achars[romanPos];
+          /* fall through */
+        case '2':
+          addOn += achars[romanPos];
+          /* fall through */
+        case '1':
+          addOn += achars[romanPos];
+          break;
+        case '4':
+          addOn += achars[romanPos];
+          /* fall through */
+        case '5': case '6':
+        case '7': case '8':
+          addOn += bchars[romanPos];
+          for(n=0;'5'.charCodeAt(0)+n<dp.charCodeAt(0);n++) {
+            addOn += achars[romanPos];
+          }
+          break;
+        case '9':
+          addOn += achars[romanPos];
+          addOn += achars[romanPos+1];
+          break;
+        default:
+          break;
+      }
+      result += addOn;
+    }
+
+    return result;
+  },
+
+  charListToText: function(ordinal, chars) {
+    var base = chars.length;
+    var buf = "";
+    if (ordinal < 1) {
+      return this.decimalToText(ordinal);
+    }
+    do {
+      ordinal--;
+      var cur = ordinal % base;
+      buf = chars.charAt(cur) + buf;
+      ordinal = Math.floor(ordinal / base);
+    } while ( ordinal > 0);
+
+    return buf;
+  },
+
+  toListMark: function(i, depth) {
+    if (depth == 1 || depth == 4) {
+      return this.decimalToText(i + 1);
+    }
+    if (depth == 2 || depth == 5) {
+      return this.charListToText(i + 1, "abcdefghijklmnopqrstuvwxyz");
+    }
+    if (depth == 3 || depth == 6) {
+      return this.romanToText(i + 1, "ixcm", "vld");
+    }
+
+    return this.decimalToText(i + 1);
+  },
+
+  textify: function(innerHTML) {
+    var tempbox = document.getElementById("tempbox");
+    tempbox.innerHTML = innerHTML;
+
+    var ols = document.getElementsByTagName("ol");
+    Array.from(ols).forEach(function(ol) {
+      var depth = this.getListDepth(ol);
+
+      var i = 0;
+      Array.from(ol.children).forEach(function(li) {
+        if (li.nodeName.toLowerCase() == "li") {
+          var mark = document.createTextNode(this.toListMark(i, depth) + ". ");
+          li.insertBefore(mark, li.firstChild);
+
+          i++;
+        }
+      }, this);
+    }, this);
+
+    return tempbox.innerHTML;
+  }
+};
 
 function compare() {
   var id = document.getElementById("sec-list").value;
@@ -414,13 +409,13 @@ function compare() {
   if (document.getElementById("view-diff").checked) {
     if (fromHTML !== null && toHTML !== null) {
       result.className = "diff-view";
-      result.innerHTML = htmldiff(fixup(fromHTML), fixup(toHTML));
+      result.innerHTML = htmldiff(ListMarkUtils.textify(fromHTML), ListMarkUtils.textify(toHTML));
     } else if (fromHTML !== null) {
       result.className = "diff-view";
-      result.innerHTML = htmldiff(fixup(fromHTML), "");
+      result.innerHTML = htmldiff(ListMarkUtils.textify(fromHTML), "");
     } else if (toHTML !== null) {
       result.className = "diff-view";
-      result.innerHTML = htmldiff("", fixup(toHTML));
+      result.innerHTML = htmldiff("", ListMarkUtils.textify(toHTML));
     } else {
       result.innerHTML = "";
     }
