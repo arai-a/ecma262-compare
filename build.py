@@ -107,7 +107,8 @@ def update_prs():
 
     with open('./prs.js', 'w') as out_file:
         out_file.write('"use strict";\n')
-        out_file.write('var prs = {};\n'.format(json.dumps(prs)))
+        out_file.write('var prs = {};\n'.format(json.dumps(prs, indent=1,
+                                                           separators=(',', ': '))))
 
 def github_api(url):
     response = urllib2.urlopen(url + API_QUERY)
@@ -303,6 +304,8 @@ elif sys.argv[1] == 'pr':
     else:
         get_pr(sys.argv[2])
         update_prs()
+elif sys.argv[1] == 'prs':
+    update_prs()
 else:
     usage()
     sys.exit()
