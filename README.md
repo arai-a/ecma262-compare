@@ -12,6 +12,17 @@ $ python build.py init
 
 `init` command just clones https://github.com/tc39/ecma262/ .
 
+## Prepare GitHub API key
+
+Create `key.json` file wiht following content
+
+```
+{
+  "client_id": "YOUR_CLIENT_ID",
+  "client_secret": "YOUR_CLIENT_SECRET"
+}
+```
+
 ## Update already merged revisions
 
 ```
