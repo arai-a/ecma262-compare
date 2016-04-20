@@ -22,6 +22,15 @@ var prs = {
   ],
   "title": "Misc Editorial"
  },
+ "550": {
+  "login": "claudepache",
+  "base": "03bfda119d060aca4099d2b77cf43f6d4f11cfa2",
+  "ref": "patch-2",
+  "revs": [
+   "b922b59a153e5780b9bf02c6b23e291e3445bfd2"
+  ],
+  "title": "add link to the Syntactic Tail Calls proposal"
+ },
  "353": {
   "login": "anba",
   "base": "18eb8ee7eaee3c608b13fcc270eef0b7abbd1801",
