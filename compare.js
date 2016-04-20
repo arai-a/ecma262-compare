@@ -45,7 +45,7 @@ function parseQuery() {
 
     if ("pr" in queryParams) {
       revFilter.value = queryParams.pr;
-      filterPR();
+      filterRev('both');
     }
 
     update().then(function() {
@@ -65,7 +65,7 @@ function parseQuery() {
       toRev.value = info.revs[0];
 
       revFilter.value = pr;
-      filterPR();
+      filterRev('both');
 
       update();
     }
@@ -127,41 +127,61 @@ function populatePRs(menu) {
   menu.value = "all";
 }
 
-function filterPR() {
+function filterRev(target) {
   var revFilter = document.getElementById("rev-filter");
 
   var fromRev = document.getElementById("from-rev");
   var toRev = document.getElementById("to-rev");
 
+  var fromRevSearch = document.getElementById("from-rev-search").value;
+  var toRevSearch = document.getElementById("to-rev-search").value;
+
   var pr = revFilter.value;
+  var revSet = null;
 
   if (pr in prs) {
     var info = prs[pr];
-    var revSet = new Set(info.revs.map(function(rev) {
+    revSet = new Set(info.revs.map(function(rev) {
       return "PR/" + pr + "/" + rev;
     }).concat(info.base));
+  }
 
-    [fromRev, toRev].forEach(function(menu) {
-      Array.from(menu.children).forEach(function(opt) {
-        if (revSet.has(opt.value)) {
-          opt.style.display = "";
-          opt.disabled = false;
-        } else {
-          opt.style.display = "none";
-          opt.disabled = true;
+  if (target == "both" || target == "from") {
+    filterMenu(fromRev, function(opt) {
+      if (revSet) {
+        if (!revSet.has(opt.value)) {
+          return false;
         }
-      });
-    });
+      }
+      if (fromRevSearch) {
+        if (opt.innerHTML.toLowerCase().indexOf(fromRevSearch.toLowerCase()) === -1) {
+          return false;
+        }
+      }
 
+      return true;
+    });
+  }
+  if (target == "both" || target == "to") {
+    filterMenu(toRev, function(opt) {
+      if (revSet) {
+        if (!revSet.has(opt.value)) {
+          return false;
+        }
+      }
+      if (toRevSearch) {
+        if (opt.innerHTML.toLowerCase().indexOf(toRevSearch.toLowerCase()) !== 0) {
+          return false;
+        }
+      }
+
+      return true;
+    });
+  }
+
+  if (revSet && !fromRevSearch && !toRevSearch) {
     fromRev.value = info.base;
     toRev.value = "PR/" + pr + "/" + info.revs[0];
-  } else {
-    [fromRev, toRev].forEach(function(menu) {
-      Array.from(menu.children).forEach(function(opt) {
-        opt.style.display = "";
-        opt.disabled = false;
-      });
-    });
   }
 }
 
@@ -244,7 +264,7 @@ function updateSecList() {
     menu.appendChild(opt);
   });
 
-  filter();
+  filterSec();
 }
 
 function getSecData(id) {
@@ -469,33 +489,17 @@ function updateURL() {
     = hash;
 }
 
-function filter() {
-  var count;
-  if (document.getElementById("sec-search").checked) {
-    count = filterSearch();
-  } else {
-    count = filterChanged();
-  }
-
-  var hit = document.getElementById("search-hit");
-  if (count != -1) {
-    hit.innerHTML = count + " section(s) found";
-  } else {
-    hit.innerHTML = "";
-  }
-
-  compare();
+function searchFromRev() {
 }
 
-function filterSearch() {
-  var term = document.getElementById("sec-input").value;
+function searchToRev() {
+}
 
+function filterMenu(menu, filter) {
   var value = "";
   var count = 0;
-
-  var menu = document.getElementById("sec-list");
   Array.from(menu.children).forEach(function(opt) {
-    if (opt.innerHTML.toLowerCase().indexOf(term.toLowerCase()) !== -1) {
+    if (filter(opt)) {
       if (!value) {
         value = opt.value;
       }
@@ -510,11 +514,37 @@ function filterSearch() {
 
   menu.value = value;
 
-  if (term == "") {
-    return -1;
+  return count;
+}
+
+function filterSec() {
+  var search = document.getElementById("sec-list-search").value;
+  var changedOnly = document.getElementById("sec-changed").checked;
+
+  var menu = document.getElementById("sec-list");
+  var count = filterMenu(menu, function(opt) {
+    if (changedOnly) {
+      if (opt.className == "same") {
+        return false;
+      }
+    }
+    if (search) {
+      if (opt.innerHTML.toLowerCase().indexOf(search.toLowerCase()) === -1) {
+        return false;
+      }
+    }
+
+    return true;
+  });
+
+  var hit = document.getElementById("search-hit");
+  if (search || changedOnly) {
+    hit.innerHTML = count + " section(s) found";
+  } else {
+    hit.innerHTML = "";
   }
 
-  return count;
+  compare();
 }
 
 function isChanged(id) {
@@ -526,29 +556,4 @@ function isChanged(id) {
   var toHTML = toSecData.secData[id].html;
 
   return fromHTML != toHTML;
-}
-
-function filterChanged() {
-  var value = "";
-  var count = 0;
-
-  var menu = document.getElementById("sec-list");
-  Array.from(menu.children).forEach(function(opt) {
-    var sec = opt.value;
-    if (opt.className != "same") {
-      if (!value) {
-        value = opt.value;
-      }
-      opt.style.display = "";
-      opt.disabled = false;
-      count++;
-    } else {
-      opt.style.display = "none";
-      opt.disabled = true;
-    }
-  });
-
-  menu.value = value;
-
-  return count;
 }

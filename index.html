@@ -14,19 +14,23 @@
 <tr>
   <th>filter</th>
   <td>
-    <select id="rev-filter" onchange="filterPR()"></select>
+    <select id="rev-filter" onchange="filterRev('both')"></select>
   </td>
 </tr>
 <tr>
   <th>from</th>
   <td>
     <select id="from-rev"></select>
+    <input id="from-rev-search" type="text" onchange="filterRev('from')"
+           placeholder="Search">
   </td>
 </tr>
 <tr>
   <th>to</th>
   <td>
     <select id="to-rev"></select>
+    <input id="to-rev-search" type="text" onchange="filterRev('to')"
+           placeholder="Search">
   </td>
 </tr>
 </table>
@@ -37,21 +41,19 @@
   <th>section</th>
   <td>
     <select id="sec-list" onchange="compare()"></select>
+    <input id="sec-list-search" type="text" onchange="filterSec()" placeholder="Search">
     <span id="search-hit"></span>
-    <input type="button" value="Update URL" onclick="updateURL()">
   </td>
 </tr>
 <tr>
   <th>filter</th>
   <td>
-    <input id="sec-search" name="sec-filter" type="radio" onchange="filter()">
-    <input id="sec-input" type="text" onchange="filter()" placeholder="Search">
-    /
-    <label><input id="sec-changed" name="sec-filter" type="radio"  onchange="filter()">Changed</label>
+    <label><input id="sec-changed" name="sec-filter" type="checkbox" onchange="filterSec()">Show changed sections only</label>
   </td>
 </tr>
 </table>
 <input id="compare" type="button" value="Compare section" onclick="compare()">
+<input type="button" value="Update URL" onclick="updateURL()">
 <hr>
 <label><input id="view-diff" type="radio" name="view" value="diff" onchange="compare()"> Diff</label> /
 <label><input id="view-from" type="radio" name="view" value="from" onchange="compare()"> From</label> /
