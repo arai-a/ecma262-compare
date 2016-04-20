@@ -1,5 +1,27 @@
 "use strict";
 var prs = {
+ "545": {
+  "login": "jmdyck",
+  "base": "03bfda119d060aca4099d2b77cf43f6d4f11cfa2",
+  "ref": "operation_headers",
+  "revs": [
+   "d80813e126181f8d5c862e9a6ca00ecbb83c5e13",
+   "33781ed9c85d2facbc73005b2f5821973a4e5a43",
+   "7eb8393120351d003bf5275b25678d258c5e42ad",
+   "74df24ed617d40cec44c21c6f6f5f9ec1195d5eb"
+  ],
+  "title": "Replace each abstract op's preamble with a structured 'header'."
+ },
+ "549": {
+  "login": "jmdyck",
+  "base": "03bfda119d060aca4099d2b77cf43f6d4f11cfa2",
+  "ref": "editorial",
+  "revs": [
+   "7eb8393120351d003bf5275b25678d258c5e42ad",
+   "74df24ed617d40cec44c21c6f6f5f9ec1195d5eb"
+  ],
+  "title": "Misc Editorial"
+ },
  "353": {
   "login": "anba",
   "base": "18eb8ee7eaee3c608b13fcc270eef0b7abbd1801",
@@ -8,15 +30,6 @@ var prs = {
    "ed10f00476c6b0ded127e0aae5ae1f370053cfb6"
   ],
   "title": "Always update object properties if the property descriptor is applicable"
- },
- "453": {
-  "login": "littledan",
-  "base": "18eb8ee7eaee3c608b13fcc270eef0b7abbd1801",
-  "ref": "fib-dups2",
-  "revs": [
-   "e97ab859395ab0c5d510e2521d8cd105f4ac1e10"
-  ],
-  "title": "Normative: Allow duplicate FunctionDeclarations in a block"
  },
  "522": {
   "login": "lars-t-hansen",
@@ -37,23 +50,14 @@ var prs = {
   ],
   "title": "Unify handling of RegExp CharacterClassEscapes \\w and \\W"
  },
- "533": {
-  "login": "michaelficarra",
+ "469": {
+  "login": "claudepache",
   "base": "18eb8ee7eaee3c608b13fcc270eef0b7abbd1801",
-  "ref": "GeneratorFunction-object",
+  "ref": "construct-return-primitive",
   "revs": [
-   "985f2aecad855ad07ab1854d12687dbf15737043"
+   "21cc21d19dd7788069c202d6b248c8095707009b"
   ],
-  "title": "Generator Function -> GeneratorFunction in 2 places"
- },
- "534": {
-  "login": "michaelficarra",
-  "base": "18eb8ee7eaee3c608b13fcc270eef0b7abbd1801",
-  "ref": "GH-185",
-  "revs": [
-   "f2f03c77acc558e9074655a6f2451e066b36726d"
-  ],
-  "title": "fixes #185: link methods referenced in well-known symbols table"
+  "title": "[[Construct]]: extends the check against non-undefined primitive"
  },
  "410": {
   "login": "leobalter",
@@ -73,31 +77,13 @@ var prs = {
   ],
   "title": "Allow cross-realm tail calls to consume linear resources."
  },
- "458": {
+ "453": {
   "login": "littledan",
   "base": "18eb8ee7eaee3c608b13fcc270eef0b7abbd1801",
-  "ref": "copyless",
+  "ref": "fib-dups2",
   "revs": [
-   "ff2d343bf98e073d293de94a07028e0ad7680b68"
+   "e97ab859395ab0c5d510e2521d8cd105f4ac1e10"
   ],
-  "title": "In the TypedArray(typedArray) constructor, copy only the needed portion"
- },
- "542": {
-  "login": "bocoup",
-  "base": "18eb8ee7eaee3c608b13fcc270eef0b7abbd1801",
-  "ref": "note-extension",
-  "revs": [
-   "dfbaeb9cb3557724fb8993d0784cec62ffecdf94"
-  ],
-  "title": "[editorial] Document algorithm modification"
- },
- "469": {
-  "login": "claudepache",
-  "base": "18eb8ee7eaee3c608b13fcc270eef0b7abbd1801",
-  "ref": "construct-return-primitive",
-  "revs": [
-   "21cc21d19dd7788069c202d6b248c8095707009b"
-  ],
-  "title": "[[Construct]]: extends the check against non-undefined primitive"
+  "title": "Normative: Allow duplicate FunctionDeclarations in a block"
  }
 };
