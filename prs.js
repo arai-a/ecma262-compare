@@ -2,34 +2,23 @@
 var prs = {
  "545": {
   "login": "jmdyck",
-  "base": "03bfda119d060aca4099d2b77cf43f6d4f11cfa2",
+  "base": "bbe673d0a7f49dca71561856a4680ac6c1c6fd91",
   "ref": "operation_headers",
   "revs": [
-   "d80813e126181f8d5c862e9a6ca00ecbb83c5e13",
-   "33781ed9c85d2facbc73005b2f5821973a4e5a43",
-   "7eb8393120351d003bf5275b25678d258c5e42ad",
-   "74df24ed617d40cec44c21c6f6f5f9ec1195d5eb"
+   "1ea17c7afe27176f9de5c6aa49f3555a5e8f9d4c",
+   "10f4ea8edc8a32ccc16bac612b99b9d00eac453d",
+   "25d0a656f400473a656d0f6dc504f4ec98796bf9"
   ],
   "title": "Replace each abstract op's preamble with a structured 'header'."
  },
- "549": {
-  "login": "jmdyck",
-  "base": "03bfda119d060aca4099d2b77cf43f6d4f11cfa2",
-  "ref": "editorial",
+ "453": {
+  "login": "littledan",
+  "base": "18eb8ee7eaee3c608b13fcc270eef0b7abbd1801",
+  "ref": "fib-dups2",
   "revs": [
-   "7eb8393120351d003bf5275b25678d258c5e42ad",
-   "74df24ed617d40cec44c21c6f6f5f9ec1195d5eb"
+   "e97ab859395ab0c5d510e2521d8cd105f4ac1e10"
   ],
-  "title": "Misc Editorial"
- },
- "550": {
-  "login": "claudepache",
-  "base": "03bfda119d060aca4099d2b77cf43f6d4f11cfa2",
-  "ref": "patch-2",
-  "revs": [
-   "b922b59a153e5780b9bf02c6b23e291e3445bfd2"
-  ],
-  "title": "add link to the Syntactic Tail Calls proposal"
+  "title": "Normative: Allow duplicate FunctionDeclarations in a block"
  },
  "353": {
   "login": "anba",
@@ -85,14 +74,5 @@ var prs = {
    "974421bb71e0108888e2735507e2d4590fb1dd81"
   ],
   "title": "Allow cross-realm tail calls to consume linear resources."
- },
- "453": {
-  "login": "littledan",
-  "base": "18eb8ee7eaee3c608b13fcc270eef0b7abbd1801",
-  "ref": "fib-dups2",
-  "revs": [
-   "e97ab859395ab0c5d510e2521d8cd105f4ac1e10"
-  ],
-  "title": "Normative: Allow duplicate FunctionDeclarations in a block"
  }
 };
