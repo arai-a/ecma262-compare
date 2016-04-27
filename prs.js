@@ -2,12 +2,14 @@
 var prs = {
  "545": {
   "login": "jmdyck",
-  "base": "bbe673d0a7f49dca71561856a4680ac6c1c6fd91",
+  "base": "f59a091dc6cf1df97d6449f5a23157b8473954f9",
   "ref": "operation_headers",
   "revs": [
-   "1ea17c7afe27176f9de5c6aa49f3555a5e8f9d4c",
-   "10f4ea8edc8a32ccc16bac612b99b9d00eac453d",
-   "25d0a656f400473a656d0f6dc504f4ec98796bf9"
+   "7374c339c170cd03f44cb03102a83240f7fc3e38",
+   "013986c167256774f4492e40f335286e25bb69b9",
+   "1be0445cfdd2567ddcdb7a64cd01f6afefdb3fa5",
+   "7bcc2ffe201fae52cee811ea4874ec713706adcd",
+   "0942f93ed50870ddcdbb8c381a06df8f51d3df6a"
   ],
   "title": "Replace each abstract op's preamble with a structured 'header'."
  },
@@ -28,6 +30,16 @@ var prs = {
    "ed10f00476c6b0ded127e0aae5ae1f370053cfb6"
   ],
   "title": "Always update object properties if the property descriptor is applicable"
+ },
+ "553": {
+  "login": "leobalter",
+  "base": "f59a091dc6cf1df97d6449f5a23157b8473954f9",
+  "ref": "ta-slice",
+  "revs": [
+   "062e3a3bc5a7af3abe4a65055e93753098ea784e",
+   "641bce8abf2c94084079717cfdc9977f95a996e7"
+  ],
+  "title": "TypedArrays slice set operation does not throw"
  },
  "522": {
   "login": "lars-t-hansen",
