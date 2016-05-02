@@ -1,5 +1,8 @@
 "use strict";
 
+var REPO_URL = "https://github.com/tc39/ecma262";
+var PR_URL = "https://github.com/tc39/ecma262/pull/<PR>";
+
 var fromSecData = {};
 var toSecData = {};
 
@@ -144,6 +147,12 @@ function filterRev(target) {
     revSet = new Set(info.revs.map(function(rev) {
       return "PR/" + pr + "/" + rev;
     }).concat(info.base));
+
+    var prLink = document.getElementById("pr-link");
+    prLink.href = PR_URL.replace("<PR>", pr);
+    prLink.innerHTML = "Open PR " + pr;
+  } else {
+    prLink.innerHTML = "";
   }
 
   if (target == "both" || target == "from") {
