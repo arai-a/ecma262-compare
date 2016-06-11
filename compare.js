@@ -142,13 +142,13 @@ function filterRev(target) {
   var pr = revFilter.value;
   var revSet = null;
 
+  var prLink = document.getElementById("pr-link");
   if (pr in prs) {
     var info = prs[pr];
     revSet = new Set(info.revs.map(function(rev) {
       return "PR/" + pr + "/" + rev;
     }).concat(info.base));
 
-    var prLink = document.getElementById("pr-link");
     prLink.href = PR_URL.replace("<PR>", pr);
     prLink.innerHTML = "Open PR " + pr;
   } else {
