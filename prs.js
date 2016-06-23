@@ -1,5 +1,23 @@
 "use strict";
 var prs = {
+ "609": {
+  "login": "bocoup",
+  "base": "e71f77865c73cea403cf51b13c8be2c2e1a5faf8",
+  "ref": "tagged-template-get-value",
+  "revs": [
+   "ace88cf14e8ddf5b79b91c85337b700fd8ea5b48"
+  ],
+  "title": "Normative: Resolve template argument references"
+ },
+ "610": {
+  "login": "bocoup",
+  "base": "e71f77865c73cea403cf51b13c8be2c2e1a5faf8",
+  "ref": "module-inst-fn-obj",
+  "revs": [
+   "a6eee9ba6ef451c045ce2f8d359b4c6d04d8572d"
+  ],
+  "title": "Editorial: Remove impossible condition"
+ },
  "545": {
   "login": "jmdyck",
   "base": "1244a0b23f747ba894291a4ea167cacf94dc3332",
@@ -11,14 +29,16 @@ var prs = {
   ],
   "title": "Replace each abstract op's preamble with a structured 'header'."
  },
- "508": {
-  "login": "efaust",
-  "base": "18eb8ee7eaee3c608b13fcc270eef0b7abbd1801",
-  "ref": "master",
+ "617": {
+  "login": "bocoup",
+  "base": "e71f77865c73cea403cf51b13c8be2c2e1a5faf8",
+  "ref": "2016-typos",
   "revs": [
-   "974421bb71e0108888e2735507e2d4590fb1dd81"
+   "7f2f776b5a815aba91df31d91cd5d5ff933177be",
+   "4176eb86d840dbf12ef80da31c35a7b39db07069",
+   "4ca6676c651772630be3885f4d5fd350f981ceb1"
   ],
-  "title": "Allow cross-realm tail calls to consume linear resources."
+  "title": "Editorial: Correct typos"
  },
  "522": {
   "login": "lars-t-hansen",
@@ -30,15 +50,14 @@ var prs = {
   ],
   "title": "Add language to define Agents"
  },
- "525": {
-  "login": "msaboff",
-  "base": "5f7b2a357a45c804d8f16d81dfce5c7470889de0",
-  "ref": "regexp-changes",
+ "620": {
+  "login": "mathiasbynens",
+  "base": "7f8a89c18c97c8fbbc428758e30ff4c9a54fed40",
+  "ref": "unicode-9",
   "revs": [
-   "ab3380df9d7171ff6b29a0513c4e3924db0195bf",
-   "0d3d71b12ebb27f7c16a2d409da960890d24d2a2"
+   "891dc501cc36416eac61e11e2abfd6e4818b11e6"
   ],
-  "title": "Unify handling of RegExp CharacterClassEscapes \\w and \\W and Word Asserts \\b and \\B"
+  "title": "Normative: Require Unicode 9.0.0"
  },
  "593": {
   "login": "ljharb",
@@ -67,25 +86,6 @@ var prs = {
   ],
   "title": "[[Construct]]: extends the check against non-undefined primitive"
  },
- "607": {
-  "login": "bocoup",
-  "base": "1244a0b23f747ba894291a4ea167cacf94dc3332",
-  "ref": "b32",
-  "revs": [
-   "600cbbe58cee5a72c6c65fc63490f08c2c54a486",
-   "c43e0ee0a0c32e90786b063512ed649f54f7dbbb"
-  ],
-  "title": "[editorial] Complete documentation of Annex B extn"
- },
- "604": {
-  "login": "leobalter",
-  "base": "5f7b2a357a45c804d8f16d81dfce5c7470889de0",
-  "ref": "dataview-getmethods",
-  "revs": [
-   "2051d5ac17e148e879502c709b5e38ae818f9a76"
-  ],
-  "title": "Normative: DataView methods should throw for absent byteOffset"
- },
  "575": {
   "login": "msaboff",
   "base": "9b49a888e9dfe2667008a01b2754c3662059ae56",
@@ -94,5 +94,23 @@ var prs = {
    "8e50dbd9f4510d9605db08b1103a328b021a27b0"
   ],
   "title": "Proposed changes to inferred Function.name"
+ },
+ "508": {
+  "login": "efaust",
+  "base": "18eb8ee7eaee3c608b13fcc270eef0b7abbd1801",
+  "ref": "master",
+  "revs": [
+   "974421bb71e0108888e2735507e2d4590fb1dd81"
+  ],
+  "title": "Allow cross-realm tail calls to consume linear resources."
+ },
+ "607": {
+  "login": "bocoup",
+  "base": "e71f77865c73cea403cf51b13c8be2c2e1a5faf8",
+  "ref": "b32",
+  "revs": [
+   "dee33c86d7af8013752ed94e2bb5e30598d701aa"
+  ],
+  "title": "Editorial: Complete documentation of Annex B extn"
  }
 };
