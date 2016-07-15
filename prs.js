@@ -1,5 +1,14 @@
 "use strict";
 var prs = {
+ "627": {
+  "login": "claudepache",
+  "base": "d5c43259841322c63a1a5e16af112daa085ad0de",
+  "ref": "regexp-non-global-sticky-exec-ignore-lastindex",
+  "revs": [
+   "3c4738c2e8c31554468aaeb4d4e9e4988c1fee6a"
+  ],
+  "title": "Disregard lastIndex for non-global non-sticky regexps"
+ },
  "609": {
   "login": "bocoup",
   "base": "e71f77865c73cea403cf51b13c8be2c2e1a5faf8",
@@ -9,14 +18,14 @@ var prs = {
   ],
   "title": "Normative: Resolve template argument references"
  },
- "610": {
-  "login": "bocoup",
-  "base": "e71f77865c73cea403cf51b13c8be2c2e1a5faf8",
-  "ref": "module-inst-fn-obj",
+ "614": {
+  "login": "bakkot",
+  "base": "f8a9be8ea4bd97237d176907a1e3080dce20c68f",
+  "ref": "forin-initializers",
   "revs": [
-   "a6eee9ba6ef451c045ce2f8d359b4c6d04d8572d"
+   "b482c988790b7dd8e5bc6bbe53d9890d34a4ba46"
   ],
-  "title": "Editorial: Remove impossible condition"
+  "title": "Normative: Allow initializers in ForInStatement heads"
  },
  "545": {
   "login": "jmdyck",
@@ -28,17 +37,6 @@ var prs = {
    "c176bd18a2102ad0443ca0b68efd1dd4fa290112"
   ],
   "title": "Replace each abstract op's preamble with a structured 'header'."
- },
- "617": {
-  "login": "bocoup",
-  "base": "e71f77865c73cea403cf51b13c8be2c2e1a5faf8",
-  "ref": "2016-typos",
-  "revs": [
-   "7f2f776b5a815aba91df31d91cd5d5ff933177be",
-   "4176eb86d840dbf12ef80da31c35a7b39db07069",
-   "4ca6676c651772630be3885f4d5fd350f981ceb1"
-  ],
-  "title": "Editorial: Correct typos"
  },
  "522": {
   "login": "lars-t-hansen",
@@ -61,19 +59,19 @@ var prs = {
  },
  "593": {
   "login": "ljharb",
-  "base": "0394e968649410831a06fa55d87cb0b615944791",
+  "base": "f8a9be8ea4bd97237d176907a1e3080dce20c68f",
   "ref": "ljharb/gopds_bad_proxies",
   "revs": [
-   "c611481a192ba84b2b1f082d52f0d295388f76e2"
+   "316cf3a3e5754b544b978d5970ae2f16a89c6750"
   ],
   "title": "Normative: `Object.getOwnPropertyDescriptors` should not create keys for undefined descriptors"
  },
  "595": {
   "login": "jmdyck",
-  "base": "1244a0b23f747ba894291a4ea167cacf94dc3332",
+  "base": "f8a9be8ea4bd97237d176907a1e3080dce20c68f",
   "ref": "dots_for_internal_methods",
   "revs": [
-   "b8efe7d2ff4740f4ba927601515baf260ee7ea3d"
+   "ba168214170bfdb9fa95502078b7f43c0a1b516d"
   ],
   "title": "Editorial: use dot notation for internal methods"
  },
@@ -86,15 +84,6 @@ var prs = {
   ],
   "title": "[[Construct]]: extends the check against non-undefined primitive"
  },
- "575": {
-  "login": "msaboff",
-  "base": "9b49a888e9dfe2667008a01b2754c3662059ae56",
-  "ref": "inferred-func-name",
-  "revs": [
-   "8e50dbd9f4510d9605db08b1103a328b021a27b0"
-  ],
-  "title": "Proposed changes to inferred Function.name"
- },
  "508": {
   "login": "efaust",
   "base": "18eb8ee7eaee3c608b13fcc270eef0b7abbd1801",
@@ -104,13 +93,13 @@ var prs = {
   ],
   "title": "Allow cross-realm tail calls to consume linear resources."
  },
- "607": {
-  "login": "bocoup",
-  "base": "e71f77865c73cea403cf51b13c8be2c2e1a5faf8",
-  "ref": "b32",
+ "575": {
+  "login": "msaboff",
+  "base": "9b49a888e9dfe2667008a01b2754c3662059ae56",
+  "ref": "inferred-func-name",
   "revs": [
-   "dee33c86d7af8013752ed94e2bb5e30598d701aa"
+   "8e50dbd9f4510d9605db08b1103a328b021a27b0"
   ],
-  "title": "Editorial: Complete documentation of Annex B extn"
+  "title": "Proposed changes to inferred Function.name"
  }
 };
