@@ -9,32 +9,48 @@ var prs = {
   ],
   "title": "Disregard lastIndex for non-global non-sticky regexps"
  },
- "609": {
-  "login": "bocoup",
-  "base": "e71f77865c73cea403cf51b13c8be2c2e1a5faf8",
-  "ref": "tagged-template-get-value",
+ "641": {
+  "login": "msaboff",
+  "base": "40edb3a95a475c1b251141ac681b8793129d9a6d",
+  "ref": "string-len",
   "revs": [
-   "ace88cf14e8ddf5b79b91c85337b700fd8ea5b48"
+   "549f627cd0694996ccb839900e9d90aa4a4d8c0e"
   ],
-  "title": "Normative: Resolve template argument references"
+  "title": "Unify String and Array maximum lengths"
  },
- "614": {
-  "login": "bakkot",
-  "base": "f8a9be8ea4bd97237d176907a1e3080dce20c68f",
-  "ref": "forin-initializers",
+ "642": {
+  "login": "claudepache",
+  "base": "40edb3a95a475c1b251141ac681b8793129d9a6d",
+  "ref": "date-utc",
   "revs": [
-   "b482c988790b7dd8e5bc6bbe53d9890d34a4ba46"
+   "1694f4fd104ef276c0bb5d9c403b64d3da6afa11"
   ],
-  "title": "Normative: Allow initializers in ForInStatement heads"
+  "title": "Specify Date.UTC when called with fewer than two arguments"
+ },
+ "646": {
+  "login": "benjamn",
+  "base": "40edb3a95a475c1b251141ac681b8793129d9a6d",
+  "ref": "nested-import-declarations",
+  "revs": [
+   "0d578e58f5e33d4a62b888dc7d84dbda3f9e9ee8",
+   "ca0949b866725efdcc551712d21f35f3e9bb6e81",
+   "f468a4f65c3f926ee1cef13daf18ddd9c3fa03cc",
+   "25cd2a84a2d5a5f87fe8ad0e2a4548c1bb59c0ad",
+   "c4da2adf447e1530c507dfe446cb9b87ce9f5300",
+   "3a4faa7156ce7fb7472a809efa909fd2616d9b52",
+   "e5f7acfdc3dc223386186fd4c78f8cc634552382",
+   "2ac6e233ab6b7b1f49c1cfa8a1ed7853133fefbe"
+  ],
+  "title": "Proposal: Nested import declarations"
  },
  "545": {
   "login": "jmdyck",
-  "base": "1244a0b23f747ba894291a4ea167cacf94dc3332",
+  "base": "40edb3a95a475c1b251141ac681b8793129d9a6d",
   "ref": "operation_headers",
   "revs": [
-   "4306c7b89f8410314db7ffca363ef0d4e617aec3",
-   "209000557305fb2c1024bd4363bef51de4f78157",
-   "c176bd18a2102ad0443ca0b68efd1dd4fa290112"
+   "b185c0df25eed07c36fec889fbf30c87bde75b65",
+   "57b6338904b9583bcbe502b13b3a98306153a1ac",
+   "6e78df79d0f9fa4d441d90fffb8fba58dcf2ae3a"
   ],
   "title": "Replace each abstract op's preamble with a structured 'header'."
  },
@@ -48,41 +64,80 @@ var prs = {
   ],
   "title": "Add language to define Agents"
  },
- "620": {
-  "login": "mathiasbynens",
-  "base": "7f8a89c18c97c8fbbc428758e30ff4c9a54fed40",
-  "ref": "unicode-9",
+ "656": {
+  "login": "shvaikalesh",
+  "base": "bdc72aa87339cf392b9bb36ba57b52d5ccf6c9d0",
+  "ref": "tweak-enumerate-info-def",
   "revs": [
-   "891dc501cc36416eac61e11e2abfd6e4818b11e6"
+   "f1883f50a6c7df79902f01c660486b889bdd7b07",
+   "46b569dc9f9ad621c2c97a022eae3d7e8603a3e3",
+   "7e71f79ae77fdac5909121fbfc78a8db875f9942",
+   "4890aecff0a91f90271b20783ad195b01b60e0e6"
   ],
-  "title": "Normative: Require Unicode 9.0.0"
+  "title": "Editorial: Tweak EnumerateObjectProperties informal definition"
  },
- "593": {
-  "login": "ljharb",
-  "base": "f8a9be8ea4bd97237d176907a1e3080dce20c68f",
-  "ref": "ljharb/gopds_bad_proxies",
+ "657": {
+  "login": "shvaikalesh",
+  "base": "bdc72aa87339cf392b9bb36ba57b52d5ccf6c9d0",
+  "ref": "hoist-this-boolean-value",
   "revs": [
-   "316cf3a3e5754b544b978d5970ae2f16a89c6750"
+   "da65b61d6c567823ed3ceed127d4c2e2250b6246"
   ],
-  "title": "Normative: `Object.getOwnPropertyDescriptors` should not create keys for undefined descriptors"
+  "title": "Editorial: Hoist thisBooleanValue declaration"
+ },
+ "658": {
+  "login": "shvaikalesh",
+  "base": "bdc72aa87339cf392b9bb36ba57b52d5ccf6c9d0",
+  "ref": "rename-index-var",
+  "revs": [
+   "218407f758e36eb5fb46dc91253794cee836834c"
+  ],
+  "title": "Editorial: Rename variable (indx --> index)"
+ },
+ "659": {
+  "login": "shvaikalesh",
+  "base": "bdc72aa87339cf392b9bb36ba57b52d5ccf6c9d0",
+  "ref": "fix-script-body-ref",
+  "revs": [
+   "3987b04e229c5826e79d411d91ceb4457ceff5a2"
+  ],
+  "title": "Editorial: Fix reference in ScriptEvaluation"
+ },
+ "660": {
+  "login": "shvaikalesh",
+  "base": "bdc72aa87339cf392b9bb36ba57b52d5ccf6c9d0",
+  "ref": "null-or-undefined",
+  "revs": [
+   "8e76d45f49e6d003e2bc43615557eb1d0006a99a"
+  ],
+  "title": "Editorial: Consistent `undefined or null` order"
+ },
+ "661": {
+  "login": "shvaikalesh",
+  "base": "bdc72aa87339cf392b9bb36ba57b52d5ccf6c9d0",
+  "ref": "remove-reassignment",
+  "revs": [
+   "e26fd8a14fdf50e8fe748d0631ff9df7f449a81a"
+  ],
+  "title": "Editorial: Tweak Array.prototype.join"
+ },
+ "662": {
+  "login": "shvaikalesh",
+  "base": "bdc72aa87339cf392b9bb36ba57b52d5ccf6c9d0",
+  "ref": "refactor-to-locale-string",
+  "revs": [
+   "5186b298d8fd5de949b013958d5ddfb7493e4bcf"
+  ],
+  "title": "Editorial: Refactor Array.prototype.toLocaleString"
  },
  "595": {
   "login": "jmdyck",
-  "base": "f8a9be8ea4bd97237d176907a1e3080dce20c68f",
+  "base": "40edb3a95a475c1b251141ac681b8793129d9a6d",
   "ref": "dots_for_internal_methods",
   "revs": [
-   "ba168214170bfdb9fa95502078b7f43c0a1b516d"
+   "8215f2da9e45d463c4645d531d87b5c485e6a83e"
   ],
   "title": "Editorial: use dot notation for internal methods"
- },
- "469": {
-  "login": "claudepache",
-  "base": "18eb8ee7eaee3c608b13fcc270eef0b7abbd1801",
-  "ref": "construct-return-primitive",
-  "revs": [
-   "21cc21d19dd7788069c202d6b248c8095707009b"
-  ],
-  "title": "[[Construct]]: extends the check against non-undefined primitive"
  },
  "508": {
   "login": "efaust",
@@ -93,13 +148,22 @@ var prs = {
   ],
   "title": "Allow cross-realm tail calls to consume linear resources."
  },
- "575": {
-  "login": "msaboff",
-  "base": "9b49a888e9dfe2667008a01b2754c3662059ae56",
-  "ref": "inferred-func-name",
+ "637": {
+  "login": "bocoup",
+  "base": "40edb3a95a475c1b251141ac681b8793129d9a6d",
+  "ref": "export-specifier",
   "revs": [
-   "8e50dbd9f4510d9605db08b1103a328b021a27b0"
+   "8e9703b87019c99d9f042815d25fb488b099c0ba"
   ],
-  "title": "Proposed changes to inferred Function.name"
+  "title": "Editorial: Re-factor ExportSpecifier"
+ },
+ "469": {
+  "login": "claudepache",
+  "base": "18eb8ee7eaee3c608b13fcc270eef0b7abbd1801",
+  "ref": "construct-return-primitive",
+  "revs": [
+   "21cc21d19dd7788069c202d6b248c8095707009b"
+  ],
+  "title": "[[Construct]]: extends the check against non-undefined primitive"
  }
 };
