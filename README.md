@@ -6,7 +6,7 @@ ES spec comparator
 ```
 $ virtualenv venv
 $ . venv/bin/activate
-$ pip install libxml2
+$ pip install lxml
 $ python build.py init
 ```
 
@@ -20,6 +20,18 @@ Create `key.json` file wiht following content
 {
   "client_id": "YOUR_CLIENT_ID",
   "client_secret": "YOUR_CLIENT_SECRET"
+}
+```
+
+## Modify the first revision of the history
+
+`config.json` contains the information about the repository and the first revision that will be processed and shown in the comparator.
+To reduce the resource, you can specify the recent revision.
+
+```
+{
+  "repo_url": "https://github.com/tc39/ecma262/",
+  "first_rev": "17ebeea7386e2411e56f58f20c8d442ce91f5f42"
 }
 ```
 

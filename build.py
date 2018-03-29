@@ -4,7 +4,6 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
-import glob
 import json
 import lxml.html
 import lxml.etree
@@ -14,8 +13,10 @@ import subprocess
 import sys
 import urllib2
 
-REPO_URL = 'https://github.com/tc39/ecma262/'
-FIRST_REV = '090e736439a14166bfa2eab2e9f9d94071ec7e94'
+with open('./config.json', 'r') as in_file:
+    config = json.loads(in_file.read())
+    REPO_URL = config['repo_url']
+    FIRST_REV = config['first_rev']
 
 API_QUERY = ''
 if os.path.exists('./key.json'):
@@ -31,10 +32,10 @@ def generate_html(hash, rebase, subdir, use_cache):
     basedir = './history/{}'.format(subdir)
     result = '{}{}.html'.format(basedir, hash)
     if use_cache and os.path.exists(result):
-        print('skip {}'.format(result))
+        print('@@@@ skip {}'.format(result))
         return
 
-    print(hash)
+    print('@@@@ {}'.format(result))
 
     if rebase:
         ret = subprocess.call(['git',
@@ -132,7 +133,7 @@ def get_pr(pr):
         os.makedirs(basedir)
 
     if not mergeable:
-        print("not mergeable")
+        print('@@@@ not mergeable')
         return
 
     subprocess.call(['git',
@@ -172,7 +173,7 @@ def get_pr(pr):
 def get_all_pr():
     data = github_api('https://api.github.com/repos/tc39/ecma262/pulls')
     for pr in data:
-        print(pr['number'])
+        print('@@@@ PR {}'.format(pr['number']))
         get_pr(pr['number'])
 
 def get_text(node):
@@ -200,10 +201,6 @@ def get_sec_list(dom):
 
         secnum = h1.xpath('./span[@class="secnum"]')[0]
         num = get_text(secnum)
-        #secnum.drop_tree()
-
-        utils = h1.xpath('./span[@class="utils"]')[0]
-        utils.drop_tree()
 
         title = get_text(h1).replace(num, '')
 
@@ -255,18 +252,25 @@ def extract_sec_html(dom, sec_list, sec_num_map, sec_title_map):
 
     return data
 
+def remove_emu_ids(dom):
+    for node in (dom.xpath('//emu-xref') + dom.xpath('//emu-xref') + dom.xpath('//emu-nt')):
+        if 'id' in node.attrib:
+            node.attrib.pop('id')
+
 def extract_sections(filename, use_cache):
     in_filename = '{}.html'.format(filename)
     out_filename = '{}.json'.format(filename)
 
     if use_cache and os.path.exists(out_filename):
-        print('skip {}'.format(out_filename))
+        print('@@@@ skip {}'.format(out_filename))
         return
 
-    print(out_filename)
+    print('@@@@ {}'.format(out_filename))
 
     with open(in_filename, 'r') as in_file:
         dom = lxml.html.fromstring(in_file.read())
+
+        remove_emu_ids(dom)
 
         sec_list, sec_num_map, sec_title_map = get_sec_list(dom)
         exclude_subsections(dom, sec_list, sec_num_map, sec_title_map)

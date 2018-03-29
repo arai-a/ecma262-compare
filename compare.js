@@ -1,5 +1,9 @@
 "use strict";
 
+if (!("prs" in window)) {
+  window.prs = {};
+}
+
 var REPO_URL = "https://github.com/tc39/ecma262";
 var PR_URL = "https://github.com/tc39/ecma262/pull/<PR>";
 
