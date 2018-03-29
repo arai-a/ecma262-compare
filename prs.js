@@ -18,6 +18,15 @@ var prs = {
   ],
   "title": "Editorial: Add missing return-if-done in ForIn/OfBodyEvaluation"
  },
+ "1125": {
+  "login": "jmdyck",
+  "base": "81be357744a8c8a9be96ef5559e2a5fa8eb90704",
+  "ref": "chofin",
+  "revs": [
+   "b6aa70c26d7827054d74fe5fd34a508ea35060db"
+  ],
+  "title": "Editorial: use <ul> to list characteristics of intrinsics"
+ },
  "1131": {
   "login": "anba",
   "base": "0e1b4c287d4a8a976bf3396f4d810ddc63d12820",
