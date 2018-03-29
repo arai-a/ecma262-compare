@@ -10,6 +10,10 @@ let pr_url = pr => `https://github.com/tc39/ecma262/pull/${pr}`;
 let fromSecData = {};
 let toSecData = {};
 
+let fromOpts = [];
+let toOpts = [];
+let secOpts = [];
+
 let prnums = Object.keys(prs).map(x => parseInt(x, 10)).sort().reverse();
 
 function bodyOnLoad() {
@@ -19,8 +23,8 @@ function bodyOnLoad() {
 
   populatePRs(revFilter);
 
-  populateRevs(fromRev);
-  populateRevs(toRev);
+  populateRevs(fromRev, fromOpts);
+  populateRevs(toRev, toOpts);
 
   document.getElementById("compare").disabled = true;
   document.getElementById("view-diff").checked = true;
@@ -81,7 +85,7 @@ async function parseQuery() {
   }
 }
 
-function populateRevs(menu) {
+function populateRevs(menu, opts) {
   while (menu.firstChild) {
     menu.firstChild.remove();
   }
@@ -90,7 +94,7 @@ function populateRevs(menu) {
     let opt = document.createElement("option");
     opt.value = rev;
     opt.appendChild(document.createTextNode(`${rev} (${date})`));
-    menu.appendChild(opt);
+    opts.push(opt);
   }
 
   for (let pr of prnums) {
@@ -102,10 +106,12 @@ function populateRevs(menu) {
       let opt = document.createElement("option");
       opt.value = `PR/${pr}/${rev}`;
       opt.appendChild(document.createTextNode(`${rev} (PR ${pr} by ${info.login} [${i}/${len}])`));
-      menu.appendChild(opt);
+      opts.push(opt);
       i--;
     }
   }
+
+  populateMenu(menu, opts, () => true);
 }
 
 function populatePRs(menu) {
@@ -152,7 +158,7 @@ function filterRev(target) {
   }
 
   if (target == "both" || target == "from") {
-    filterMenu(fromRev, opt => {
+    populateMenu(fromRev, fromOpts, opt => {
       if (revSet) {
         if (!revSet.has(opt.value)) {
           return false;
@@ -168,7 +174,7 @@ function filterRev(target) {
     });
   }
   if (target == "both" || target == "to") {
-    filterMenu(toRev, opt => {
+    populateMenu(toRev, toOpts, opt => {
       if (revSet) {
         if (!revSet.has(opt.value)) {
           return false;
@@ -224,6 +230,8 @@ function updateSecList() {
     return t.replace(/([0-9]+)/g, matched => String.fromCharCode(matched));
   }
 
+  secOpts = [];
+
   for (let sec of Array.from(set).sort((a, b) => {
     let aTitle = getComparableTitle(a);
     let bTitle = getComparableTitle(b);
@@ -262,10 +270,10 @@ function updateSecList() {
     }
     opt.className = stat;
 
-    menu.appendChild(opt);
+    secOpts.push(opt);
   }
 
-  filterSec();
+  updateSec();
 }
 
 function getSecData(id) {
@@ -491,34 +499,35 @@ function updateURL() {
   window.location.hash = `#${params.join("&")}`;
 }
 
-function filterMenu(menu, filter) {
+let optsMap = new Map();
+function populateMenu(menu, opts, filter) {
+  while (menu.firstChild) {
+    menu.firstChild.remove();
+  }
+
   let value = "";
   let count = 0;
-  for (let opt of menu.children) {
+  for (let opt of opts) {
     if (filter(opt)) {
       if (!value) {
         value = opt.value;
       }
-      opt.style.display = "";
+      menu.appendChild(opt);
       opt.disabled = false;
       count++;
-    } else {
-      opt.style.display = "none";
-      opt.disabled = true;
     }
   }
 
   menu.value = value;
-
   return count;
 }
 
-function filterSec() {
+function updateSec() {
   let search = document.getElementById("sec-list-search").value;
   let changedOnly = document.getElementById("sec-changed").checked;
 
   let menu = document.getElementById("sec-list");
-  let count = filterMenu(menu, opt => {
+  let count = populateMenu(menu, secOpts, opt => {
     if (changedOnly) {
       if (opt.className == "same") {
         return false;

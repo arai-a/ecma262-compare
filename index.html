@@ -42,14 +42,14 @@
   <th>section</th>
   <td>
     <select id="sec-list" onchange="compare()"></select>
-    <input id="sec-list-search" type="text" onchange="filterSec()" placeholder="Search">
+    <input id="sec-list-search" type="text" onchange="updateSec()" placeholder="Search">
     <span id="search-hit"></span>
   </td>
 </tr>
 <tr>
   <th>filter</th>
   <td>
-    <label><input id="sec-changed" name="sec-filter" type="checkbox" onchange="filterSec()">Show changed sections only</label>
+    <label><input id="sec-changed" name="sec-filter" type="checkbox" onchange="updateSec()">Show changed sections only</label>
   </td>
 </tr>
 </table>
