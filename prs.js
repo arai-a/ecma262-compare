@@ -9,14 +9,23 @@ var prs = {
   ],
   "title": "Editorial: Move global object dfn to the Global Object section"
  },
- "1111": {
-  "login": "woess",
+ "1123": {
+  "login": "mysticatea",
   "base": "0e1b4c287d4a8a976bf3396f4d810ddc63d12820",
-  "ref": "forinofbody",
+  "ref": "s-flag",
   "revs": [
-   "987266b539cfd9592e109995c8150fcdd1ba2a5f"
+   "b3b02231e7ce5dcbfcd65f8f52fc86533f673e76"
   ],
-  "title": "Editorial: Add missing return-if-done in ForIn/OfBodyEvaluation"
+  "title": "Normative: FlagText allows s"
+ },
+ "1124": {
+  "login": "littledan",
+  "base": "0e1b4c287d4a8a976bf3396f4d810ddc63d12820",
+  "ref": "array-accumulation",
+  "revs": [
+   "c5845711be5044e6b27fbef280af95b594eb7f32"
+  ],
+  "title": "Normative: Remove ToUint32 from array literal evaluation"
  },
  "1125": {
   "login": "jmdyck",
@@ -26,6 +35,43 @@ var prs = {
    "b6aa70c26d7827054d74fe5fd34a508ea35060db"
   ],
   "title": "Editorial: use <ul> to list characteristics of intrinsics"
+ },
+ "1126": {
+  "login": "chicoxyzzy",
+  "base": "0e1b4c287d4a8a976bf3396f4d810ddc63d12820",
+  "ref": "catchparameter_as_formalparameter",
+  "revs": [
+   "69272451a8ee8d39d5fd6c6cf513958f93744983"
+  ],
+  "title": "Normative: Redefine CatchParameter as FormalParameter"
+ },
+ "1127": {
+  "login": "conrad-watt",
+  "base": "0e1b4c287d4a8a976bf3396f4d810ddc63d12820",
+  "ref": "wait-wake-strengthen",
+  "revs": [
+   "582f721e154d785f23480fdf6328d4833227d54d",
+   "a1674da1b3c591f667a6fbf58705f6149b282924"
+  ],
+  "title": "Normative: Strengthen Atomics.wait/wake synchronization to the level of other Atomics operations"
+ },
+ "1116": {
+  "login": "mathiasbynens",
+  "base": "0e1b4c287d4a8a976bf3396f4d810ddc63d12820",
+  "ref": "typo",
+  "revs": [
+   "f74c3bdaf9b08eeb8d7adff0f0cd8ff75ba051b7"
+  ],
+  "title": "Editorial: Fix typo"
+ },
+ "1111": {
+  "login": "woess",
+  "base": "0e1b4c287d4a8a976bf3396f4d810ddc63d12820",
+  "ref": "forinofbody",
+  "revs": [
+   "987266b539cfd9592e109995c8150fcdd1ba2a5f"
+  ],
+  "title": "Editorial: Add missing return-if-done in ForIn/OfBodyEvaluation"
  },
  "1131": {
   "login": "anba",
@@ -81,6 +127,16 @@ var prs = {
   ],
   "title": "Editorial: fix section IDs for some async generator sections."
  },
+ "1112": {
+  "login": "littledan",
+  "base": "81be357744a8c8a9be96ef5559e2a5fa8eb90704",
+  "ref": "detach-owner",
+  "revs": [
+   "088e20214c6d709a3b4b4a46aa231ad1c502f3d0",
+   "5098a6c85066125963a42b9dc669b4b762024496"
+  ],
+  "title": "Layering: Check for the correct owner in DetachArrayBuffer"
+ },
  "1143": {
   "login": "ljharb",
   "base": "4c2df13f4194057f09b920ee88712e5a70b1a556",
@@ -123,5 +179,16 @@ var prs = {
    "334007e208f0d464a1bca38adaf717f9e9e503b2"
   ],
   "title": "Editorial: remove unnecessary AddRestrictedFunctionProperties"
+ },
+ "1118": {
+  "login": "raulsebastianmihaila",
+  "base": "0e1b4c287d4a8a976bf3396f4d810ddc63d12820",
+  "ref": "promise-prototype-finally-no-extra-ticks",
+  "revs": [
+   "38fd8e82df12a4e828b6fe15cbafacea0bb17ee5",
+   "1701879c1658d773b25fe82643951d33b6506d57",
+   "46c3b3d7342b7dd6f677b29ca009f70e40b7b97d"
+  ],
+  "title": "Fix Promise.prototype.finally to not incur extra ticks"
  }
 };
