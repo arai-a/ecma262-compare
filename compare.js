@@ -4,16 +4,18 @@ if (!("prs" in window)) {
   window.prs = {};
 }
 
-var REPO_URL = "https://github.com/tc39/ecma262";
-var PR_URL = "https://github.com/tc39/ecma262/pull/<PR>";
+const REPO_URL = "https://github.com/tc39/ecma262";
+let pr_url = pr => `https://github.com/tc39/ecma262/pull/${pr}`;
 
-var fromSecData = {};
-var toSecData = {};
+let fromSecData = {};
+let toSecData = {};
+
+let prnums = Object.keys(prs).map(x => parseInt(x, 10)).sort().reverse();
 
 function bodyOnLoad() {
-  var revFilter = document.getElementById("rev-filter");
-  var fromRev = document.getElementById("from-rev");
-  var toRev = document.getElementById("to-rev");
+  let revFilter = document.getElementById("rev-filter");
+  let fromRev = document.getElementById("from-rev");
+  let toRev = document.getElementById("to-rev");
 
   populatePRs(revFilter);
 
@@ -27,62 +29,56 @@ function bodyOnLoad() {
   parseQuery();
 }
 
-function parseQuery() {
-  var revFilter = document.getElementById("rev-filter");
-  var fromRev = document.getElementById("from-rev");
-  var toRev = document.getElementById("to-rev");
+async function parseQuery() {
+  let revFilter = document.getElementById("rev-filter");
+  let fromRev = document.getElementById("from-rev");
+  let toRev = document.getElementById("to-rev");
 
-  var query = window.location.hash.substring(1);
-  var items = query.split("&");
-  var queryParams = {};
-  for (var i = 0; i < items.length; i++) {
-    var item = items[i].split("=");
+  let query = window.location.hash.slice(1);
+  let items = query.split("&");
+  let queryParams = {};
+  for (let item of items) {
+    let [name, value] = item.split("=");
     try {
-      queryParams[item[0]] = decodeURIComponent(item[1]);
+      queryParams[name] = decodeURIComponent(value);
     } catch (e) {
     }
   }
 
   if ("from" in queryParams && "to" in queryParams) {
-    var from = queryParams.from;
-    var to = queryParams.to;
+    let from = queryParams.from;
+    let to = queryParams.to;
 
     fromRev.value = from;
     toRev.value = to;
 
     if ("pr" in queryParams) {
       revFilter.value = queryParams.pr;
-      filterRev('both');
+      filterRev("both");
     }
 
-    update().then(function() {
-      if ("id" in queryParams) {
-        var id = queryParams.id;
-        var menu = document.getElementById("sec-list");
-        menu.value = id;
-        compare();
-      }
-    });
+    await update();
+
+    if ("id" in queryParams) {
+      let id = queryParams.id;
+      let menu = document.getElementById("sec-list");
+      menu.value = id;
+      compare();
+    }
   } else if ("pr" in queryParams) {
-    var pr = queryParams.pr;
+    let pr = queryParams.pr;
     if (pr in prs) {
-      var info = prs[pr];
+      let info = prs[pr];
 
       fromRev.value = info.base;
       toRev.value = info.revs[0];
 
       revFilter.value = pr;
-      filterRev('both');
+      filterRev("both");
 
-      update();
+      await update();
     }
   }
-}
-
-function prnums() {
-  return Object.keys(prs).map(function(x) {
-    return parseInt(x, 10);
-  }).sort().reverse();
 }
 
 function populateRevs(menu) {
@@ -90,27 +86,26 @@ function populateRevs(menu) {
     menu.firstChild.remove();
   }
 
-  revs.forEach(function(tmp) {
-    var date = tmp[0], rev = tmp[1];
-    var opt = document.createElement("option");
+  for (let [date, rev] of revs) {
+    let opt = document.createElement("option");
     opt.value = rev;
-    opt.appendChild(document.createTextNode(rev + " (" + date + ")"));
+    opt.appendChild(document.createTextNode(`${rev} (${date})`));
     menu.appendChild(opt);
-  });
+  }
 
-  prnums().forEach(function(pr) {
-    var info = prs[pr];
+  for (let pr of prnums) {
+    let info = prs[pr];
 
-    var len = info.revs.length;
-    var i = len;
-    info.revs.forEach(function(rev) {
-      var opt = document.createElement("option");
-      opt.value = "PR/" + pr + "/" + rev;
-      opt.appendChild(document.createTextNode(rev + " (PR " + pr + " by " + info.login + " [" + i + "/" + len + "])"));
+    let len = info.revs.length;
+    let i = len;
+    for (let rev of info.revs) {
+      let opt = document.createElement("option");
+      opt.value = `PR/${pr}/${rev}`;
+      opt.appendChild(document.createTextNode(`${rev} (PR ${pr} by ${info.login} [${i}/${len}])`));
       menu.appendChild(opt);
       i--;
-    });
-  });
+    }
+  }
 }
 
 function populatePRs(menu) {
@@ -118,56 +113,53 @@ function populatePRs(menu) {
     menu.firstChild.remove();
   }
 
-  var opt = document.createElement("option");
+  let opt = document.createElement("option");
   opt.value = "all";
   opt.appendChild(document.createTextNode("all"));
   menu.appendChild(opt);
 
-  prnums().forEach(function(pr) {
-    var info = prs[pr];
-    var opt = document.createElement("option");
+  for (let pr of prnums) {
+    let info = prs[pr];
+    let opt = document.createElement("option");
     opt.value = pr;
-    opt.appendChild(document.createTextNode("PR " + pr + ": " + info.title.slice(0, 100) + " (by " + info.login + ")"));
+    opt.appendChild(document.createTextNode(`PR ${pr}: ${info.title.slice(0, 100)} (by ${info.login})`));
     menu.appendChild(opt);
-  });
+  }
 
   menu.value = "all";
 }
 
 function filterRev(target) {
-  var revFilter = document.getElementById("rev-filter");
+  let revFilter = document.getElementById("rev-filter");
+  let fromRev = document.getElementById("from-rev");
+  let toRev = document.getElementById("to-rev");
 
-  var fromRev = document.getElementById("from-rev");
-  var toRev = document.getElementById("to-rev");
+  let fromRevSearch = document.getElementById("from-rev-search").value;
+  let toRevSearch = document.getElementById("to-rev-search").value;
 
-  var fromRevSearch = document.getElementById("from-rev-search").value;
-  var toRevSearch = document.getElementById("to-rev-search").value;
-
-  var pr = revFilter.value;
-  var revSet = null;
-
-  var prLink = document.getElementById("pr-link");
+  let pr = revFilter.value;
+  let revSet = null;
+  let info = null;
+  let prLink = document.getElementById("pr-link");
   if (pr in prs) {
-    var info = prs[pr];
-    revSet = new Set(info.revs.map(function(rev) {
-      return "PR/" + pr + "/" + rev;
-    }).concat(info.base));
+    info = prs[pr];
+    revSet = new Set(info.revs.map(rev => `PR/${pr}/${rev}`).concat(info.base));
 
-    prLink.href = PR_URL.replace("<PR>", pr);
-    prLink.innerHTML = "Open PR " + pr;
+    prLink.href = pr_url(pr);
+    prLink.innerHTML = `Open PR ${pr}`;
   } else {
     prLink.innerHTML = "";
   }
 
   if (target == "both" || target == "from") {
-    filterMenu(fromRev, function(opt) {
+    filterMenu(fromRev, opt => {
       if (revSet) {
         if (!revSet.has(opt.value)) {
           return false;
         }
       }
       if (fromRevSearch) {
-        if (opt.innerHTML.toLowerCase().indexOf(fromRevSearch.toLowerCase()) === -1) {
+        if (opt.innerHTML.toLowerCase().includes(fromRevSearch.toLowerCase())) {
           return false;
         }
       }
@@ -176,14 +168,14 @@ function filterRev(target) {
     });
   }
   if (target == "both" || target == "to") {
-    filterMenu(toRev, function(opt) {
+    filterMenu(toRev, opt => {
       if (revSet) {
         if (!revSet.has(opt.value)) {
           return false;
         }
       }
       if (toRevSearch) {
-        if (opt.innerHTML.toLowerCase().indexOf(toRevSearch.toLowerCase()) !== 0) {
+        if (opt.innerHTML.toLowerCase().includes(toRevSearch.toLowerCase())) {
           return false;
         }
       }
@@ -194,61 +186,57 @@ function filterRev(target) {
 
   if (revSet && !fromRevSearch && !toRevSearch) {
     fromRev.value = info.base;
-    toRev.value = "PR/" + pr + "/" + info.revs[0];
+    toRev.value = `PR/${pr}/${info.revs[0]}`;
   }
 }
 
 function hashOf(id) {
-  return document.getElementById(id + "-rev").value;
+  return document.getElementById(`${id}-rev`).value;
 }
 
 function updateSecList() {
-  var hit = document.getElementById("search-hit");
+  let hit = document.getElementById("search-hit");
   hit.innerHTML = "";
 
-  var menu = document.getElementById("sec-list");
+  let menu = document.getElementById("sec-list");
   while (menu.firstChild) {
     menu.firstChild.remove();
   }
 
-  var fromSet = new Set(fromSecData.secList);
-  var toSet = new Set(toSecData.secList);
-  var set = new Set(fromSecData.secList.concat(toSecData.secList));
-
-  var s = function(a, b) {
-    var aTitle = getComparableTitle(a);
-    var bTitle = getComparableTitle(b);
-    if (aTitle == bTitle) {
-      return 0;
-    }
-    return aTitle < bTitle ? -1 : 1;
-  };
+  let fromSet = new Set(fromSecData.secList);
+  let toSet = new Set(toSecData.secList);
+  let set = new Set(fromSecData.secList.concat(toSecData.secList));
 
   function getTitle(sec) {
     if (sec in fromSecData.secData) {
-      return fromSecData.secData[sec].num + " " + fromSecData.secData[sec].title;
+      return `${fromSecData.secData[sec].num} ${fromSecData.secData[sec].title}`;
     }
 
     if (sec in toSecData.secData) {
-      return toSecData.secData[sec].num + " " + toSecData.secData[sec].title;
+      return `${toSecData.secData[sec].num} ${toSecData.secData[sec].title}`;
     }
 
     return "";
   }
 
   function getComparableTitle(sec) {
-    var t = getTitle(sec);
-    return t.replace(/([0-9]+)/g, function(matched) {
-      return String.fromCharCode(matched);
-    });
+    let t = getTitle(sec);
+    return t.replace(/([0-9]+)/g, matched => String.fromCharCode(matched));
   }
 
-  Array.from(set).sort(s).forEach(function(sec) {
-    var opt = document.createElement("option");
+  for (let sec of Array.from(set).sort((a, b) => {
+    let aTitle = getComparableTitle(a);
+    let bTitle = getComparableTitle(b);
+    if (aTitle == bTitle) {
+      return 0;
+    }
+    return aTitle < bTitle ? -1 : 1;
+  })) {
+    let opt = document.createElement("option");
     opt.value = sec;
 
-    var stat = "same";
-    var mark = "\u00A0\u00A0";
+    let stat = "same";
+    let mark = "\u00A0\u00A0";
 
     if (fromSet.has(sec)) {
       if (toSet.has(sec)) {
@@ -265,56 +253,56 @@ function updateSecList() {
       mark = "+\u00A0";
     }
 
-    var title = getTitle(sec);
+    let title = getTitle(sec);
 
     if (title) {
-      opt.appendChild(document.createTextNode(mark + " " + title.slice(0, 100)));
+      opt.appendChild(document.createTextNode(`${mark} ${title.slice(0, 100)}`));
     } else {
-      opt.appendChild(document.createTextNode(mark + " " + sec));
+      opt.appendChild(document.createTextNode(`${mark} ${sec}`));
     }
     opt.className = stat;
 
     menu.appendChild(opt);
-  });
+  }
 
   filterSec();
 }
 
 function getSecData(id) {
-  return new Promise(function(resolve) {
-    var hash = hashOf(id);
-    var req = new XMLHttpRequest();
-    req.addEventListener("load", function() {
+  let hash = hashOf(id);
+  let req = new XMLHttpRequest();
+  let loadPromise = new Promise(resolve => {
+    req.addEventListener("load", () => {
       if (req.readyState == 4 && req.status == 200) {
         resolve(req.response);
       }
     });
-    req.open("GET", "./history/" + hash + ".json", true);
-    req.responseType = "json";
-    req.send(null);
   });
+  req.open("GET", `./history/${hash}.json`, true);
+  req.responseType = "json";
+  req.send(null);
+
+  return loadPromise;
 }
 
-function update() {
+async function update() {
   document.getElementById("update").disabled = true;
   document.getElementById("result").innerHTML = "";
   document.getElementById("diff-stat").innerHTML = "";
 
-  return Promise.all([
+  [fromSecData, toSecData] = await Promise.all([
     getSecData("from"),
     getSecData("to")
-  ]).then(function(tmp) {
-    fromSecData = tmp[0];
-    toSecData = tmp[1];
-    updateSecList();
-    document.getElementById("update").disabled = false;
-    document.getElementById("compare").disabled = false;
-  });
+  ]);
+
+  updateSecList();
+  document.getElementById("update").disabled = false;
+  document.getElementById("compare").disabled = false;
 }
 
-var ListMarkUtils = {
-  getListDepth: function(node) {
-    var depth = 0;
+let ListMarkUtils = {
+  getListDepth(node) {
+    let depth = 0;
     while (node && node != document.body) {
       if (node.nodeName.toLowerCase() == "ol") {
         depth++;
@@ -324,47 +312,46 @@ var ListMarkUtils = {
     return depth;
   },
 
-  decimalToText: function(ordinal) {
+  decimalToText(ordinal) {
     return ordinal.toString(10);
   },
 
-  romanToText: function(ordinal, achars, bchars) {
+  romanToText(ordinal, achars, bchars) {
     if (ordinal < 1 || ordinal > 3999) {
       this.decimalToText(ordinal);
       return false;
     }
-    var addOn, decStr;
+    let addOn, decStr;
     decStr = ordinal.toString(10);
-    var len = decStr.length;
-    var romanPos = len;
-    var n;
-    var result = "";
+    let len = decStr.length;
+    let romanPos = len;
+    let result = "";
 
-    for (var i = 0; i < len; i++) {
-      var dp = decStr.substr(i, 1);
+    for (let i = 0; i < len; i++) {
+      let dp = decStr.substr(i, 1);
       romanPos--;
       addOn = "";
       switch(dp) {
-        case '3':
+        case "3":
           addOn += achars[romanPos];
           /* fall through */
-        case '2':
+        case "2":
           addOn += achars[romanPos];
           /* fall through */
-        case '1':
+        case "1":
           addOn += achars[romanPos];
           break;
-        case '4':
+        case "4":
           addOn += achars[romanPos];
           /* fall through */
-        case '5': case '6':
-        case '7': case '8':
+        case "5": case "6":
+        case "7": case "8":
           addOn += bchars[romanPos];
-          for(n=0;'5'.charCodeAt(0)+n<dp.charCodeAt(0);n++) {
+          for (let n = 0; "5".charCodeAt(0) + n < dp.charCodeAt(0); n++) {
             addOn += achars[romanPos];
           }
           break;
-        case '9':
+        case "9":
           addOn += achars[romanPos];
           addOn += achars[romanPos+1];
           break;
@@ -377,23 +364,23 @@ var ListMarkUtils = {
     return result;
   },
 
-  charListToText: function(ordinal, chars) {
-    var base = chars.length;
-    var buf = "";
+  charListToText(ordinal, chars) {
+    let base = chars.length;
+    let buf = "";
     if (ordinal < 1) {
       return this.decimalToText(ordinal);
     }
     do {
       ordinal--;
-      var cur = ordinal % base;
+      let cur = ordinal % base;
       buf = chars.charAt(cur) + buf;
       ordinal = Math.floor(ordinal / base);
-    } while ( ordinal > 0);
+    } while (ordinal > 0);
 
     return buf;
   },
 
-  toListMark: function(i, depth) {
+  toListMark(i, depth) {
     if (depth == 1 || depth == 4) {
       return this.decimalToText(i + 1);
     }
@@ -407,36 +394,38 @@ var ListMarkUtils = {
     return this.decimalToText(i + 1);
   },
 
-  textify: function(innerHTML) {
-    var tempbox = document.getElementById("tempbox");
+  textify(innerHTML) {
+    let tempbox = document.getElementById("tempbox");
     tempbox.innerHTML = innerHTML;
 
-    var ols = document.getElementsByTagName("ol");
-    Array.from(ols).forEach(function(ol) {
-      var depth = this.getListDepth(ol);
+    let ols = document.getElementsByTagName("ol");
+    for (let ol of ols) {
+      let depth = this.getListDepth(ol);
 
-      var i = 0;
-      Array.from(ol.children).forEach(function(li) {
-        if (li.nodeName.toLowerCase() == "li") {
-          var mark = document.createTextNode(this.toListMark(i, depth) + ". ");
-          li.insertBefore(mark, li.firstChild);
-
-          i++;
+      let i = 0;
+      for (let li of ol.children) {
+        if (li.nodeName.toLowerCase() != "li") {
+          continue;
         }
-      }, this);
-    }, this);
+
+        let mark = document.createTextNode(`${this.toListMark(i, depth)}. `);
+        li.insertBefore(mark, li.firstChild);
+
+        i++;
+      }
+    }
 
     return tempbox.innerHTML;
   }
 };
 
 function compare() {
-  var id = document.getElementById("sec-list").value;
+  let id = document.getElementById("sec-list").value;
 
-  var fromHTML = id in fromSecData.secData ? fromSecData.secData[id].html : null;
-  var toHTML = id in toSecData.secData ? toSecData.secData[id].html : null;
+  let fromHTML = id in fromSecData.secData ? fromSecData.secData[id].html : null;
+  let toHTML = id in toSecData.secData ? toSecData.secData[id].html : null;
 
-  var result = document.getElementById("result");
+  let result = document.getElementById("result");
 
   result.className = "";
   if (document.getElementById("view-diff").checked) {
@@ -453,17 +442,17 @@ function compare() {
       result.innerHTML = "";
     }
 
-    var add = result.getElementsByClassName("htmldiff-add").length;
-    var del = result.getElementsByClassName("htmldiff-del").length;
+    let add = result.getElementsByClassName("htmldiff-add").length;
+    let del = result.getElementsByClassName("htmldiff-del").length;
 
-    var note = "";
+    let note = "";
     if (add == 0 && del == 0) {
       if (fromHTML != toHTML) {
         note = " (changes in markup or something)";
       }
     }
 
-    document.getElementById("diff-stat").innerHTML = "+" + add + " " + "-" + del + note;
+    document.getElementById("diff-stat").innerHTML = `+${add} -${del}${note}`;
   } else {
     if (document.getElementById("view-from").checked) {
       if (fromHTML !== null) {
@@ -486,32 +475,26 @@ function compare() {
 }
 
 function updateURL() {
-  var id = document.getElementById("sec-list").value;
+  let id = document.getElementById("sec-list").value;
 
-  var hash = "#from=" + hashOf("from")
-    + "&to=" + hashOf("to")
-    + "&id=" + encodeURIComponent(id);
+  let params = [];
+  params.push(`from=${hashOf("from")}`);
+  params.push(`to=${hashOf("to")}`);
+  params.push(`id=${encodeURIComponent(id)}`);
 
-  var revFilter = document.getElementById("rev-filter");
-  var pr = revFilter.value;
+  let revFilter = document.getElementById("rev-filter");
+  let pr = revFilter.value;
   if (pr != "all") {
-    hash += "&pr=" + pr;
+    params.push(`pr=${pr}`);
   }
 
-  window.location.hash
-    = hash;
-}
-
-function searchFromRev() {
-}
-
-function searchToRev() {
+  window.location.hash = `#${params.join("&")}`;
 }
 
 function filterMenu(menu, filter) {
-  var value = "";
-  var count = 0;
-  Array.from(menu.children).forEach(function(opt) {
+  let value = "";
+  let count = 0;
+  for (let opt of menu.children) {
     if (filter(opt)) {
       if (!value) {
         value = opt.value;
@@ -523,7 +506,7 @@ function filterMenu(menu, filter) {
       opt.style.display = "none";
       opt.disabled = true;
     }
-  });
+  }
 
   menu.value = value;
 
@@ -531,11 +514,11 @@ function filterMenu(menu, filter) {
 }
 
 function filterSec() {
-  var search = document.getElementById("sec-list-search").value;
-  var changedOnly = document.getElementById("sec-changed").checked;
+  let search = document.getElementById("sec-list-search").value;
+  let changedOnly = document.getElementById("sec-changed").checked;
 
-  var menu = document.getElementById("sec-list");
-  var count = filterMenu(menu, function(opt) {
+  let menu = document.getElementById("sec-list");
+  let count = filterMenu(menu, opt => {
     if (changedOnly) {
       if (opt.className == "same") {
         return false;
@@ -550,9 +533,9 @@ function filterSec() {
     return true;
   });
 
-  var hit = document.getElementById("search-hit");
+  let hit = document.getElementById("search-hit");
   if (search || changedOnly) {
-    hit.innerHTML = count + " section(s) found";
+    hit.innerHTML = `${count} section(s) found`;
   } else {
     hit.innerHTML = "";
   }
@@ -565,8 +548,8 @@ function isChanged(id) {
     return true;
   }
 
-  var fromHTML = fromSecData.secData[id].html;
-  var toHTML = toSecData.secData[id].html;
+  let fromHTML = fromSecData.secData[id].html;
+  let toHTML = toSecData.secData[id].html;
 
   return fromHTML != toHTML;
 }
