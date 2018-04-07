@@ -9,6 +9,104 @@ var prs = {
   ],
   "title": "Editorial: Move global object dfn to the Global Object section"
  },
+ "1158": {
+  "login": "jugglinmike",
+  "base": "4c2df13f4194057f09b920ee88712e5a70b1a556",
+  "ref": "strict-fn-name",
+  "revs": [
+   "aea1e36bd7ef13d2def7b7fad8435ec1a7bd5332"
+  ],
+  "title": "Normative: Extend definition of \"function code\""
+ },
+ "1160": {
+  "login": "apaprocki",
+  "base": "4c2df13f4194057f09b920ee88712e5a70b1a556",
+  "ref": "localtza-editorial",
+  "revs": [
+   "cd64b371a7730d480a9d664213a349509acea0db"
+  ],
+  "title": "Editorial: LocalTZA input specification"
+ },
+ "1161": {
+  "login": "jmdyck",
+  "base": "4c2df13f4194057f09b920ee88712e5a70b1a556",
+  "ref": "editorial",
+  "revs": [
+   "33de07c843c10173629082096452227ce4f2c012",
+   "e0038bd94e34bd153a91201b786d78410154b57c",
+   "24128f51363328614dd5adfa3baa30c13af1e1ec",
+   "dbdcb1c957976afff6dc16d5f58ba7e56d19158c",
+   "79b9f4771ed19fbfeb26dad9a169042cc515e862",
+   "0b3f50bea19a51aff9ecd21e06d87f4cf3a82a5f"
+  ],
+  "title": "Misc Editorial"
+ },
+ "1162": {
+  "login": "jmdyck",
+  "base": "4c2df13f4194057f09b920ee88712e5a70b1a556",
+  "ref": "spaces_around_operators",
+  "revs": [
+   "5746afcdde4ed73806dfe2a6b14be11e2f88d7ae"
+  ],
+  "title": "Editorial: ensure spaces around binary operators"
+ },
+ "1163": {
+  "login": "musgravejw",
+  "base": "4c2df13f4194057f09b920ee88712e5a70b1a556",
+  "ref": "master",
+  "revs": [
+   "5a408f09ee80af6e535e3df3fbe3a88090202ada"
+  ],
+  "title": "Normative: specify RequireObjectCoercible as first step in destructuring assignment semantics"
+ },
+ "1164": {
+  "login": "jridgewell",
+  "base": "4c2df13f4194057f09b920ee88712e5a70b1a556",
+  "ref": "DataView.p.getInt32",
+  "revs": [
+   "f2c1e80818db04206d41df17b89ef74188deeb60"
+  ],
+  "title": "Editorial: Default littleEndian to false in DataView.p.getInt32"
+ },
+ "1111": {
+  "login": "woess",
+  "base": "0e1b4c287d4a8a976bf3396f4d810ddc63d12820",
+  "ref": "forinofbody",
+  "revs": [
+   "987266b539cfd9592e109995c8150fcdd1ba2a5f"
+  ],
+  "title": "Editorial: Add missing return-if-done in ForIn/OfBodyEvaluation"
+ },
+ "1112": {
+  "login": "littledan",
+  "base": "81be357744a8c8a9be96ef5559e2a5fa8eb90704",
+  "ref": "detach-owner",
+  "revs": [
+   "088e20214c6d709a3b4b4a46aa231ad1c502f3d0",
+   "5098a6c85066125963a42b9dc669b4b762024496"
+  ],
+  "title": "Layering: Check for the correct owner in DetachArrayBuffer"
+ },
+ "1116": {
+  "login": "mathiasbynens",
+  "base": "0e1b4c287d4a8a976bf3396f4d810ddc63d12820",
+  "ref": "typo",
+  "revs": [
+   "f74c3bdaf9b08eeb8d7adff0f0cd8ff75ba051b7"
+  ],
+  "title": "Editorial: Fix typo"
+ },
+ "1118": {
+  "login": "raulsebastianmihaila",
+  "base": "0e1b4c287d4a8a976bf3396f4d810ddc63d12820",
+  "ref": "promise-prototype-finally-no-extra-ticks",
+  "revs": [
+   "38fd8e82df12a4e828b6fe15cbafacea0bb17ee5",
+   "1701879c1658d773b25fe82643951d33b6506d57",
+   "46c3b3d7342b7dd6f677b29ca009f70e40b7b97d"
+  ],
+  "title": "Fix Promise.prototype.finally to not incur extra ticks"
+ },
  "1123": {
   "login": "mysticatea",
   "base": "0e1b4c287d4a8a976bf3396f4d810ddc63d12820",
@@ -55,33 +153,6 @@ var prs = {
   ],
   "title": "Normative: Strengthen Atomics.wait/wake synchronization to the level of other Atomics operations"
  },
- "1116": {
-  "login": "mathiasbynens",
-  "base": "0e1b4c287d4a8a976bf3396f4d810ddc63d12820",
-  "ref": "typo",
-  "revs": [
-   "f74c3bdaf9b08eeb8d7adff0f0cd8ff75ba051b7"
-  ],
-  "title": "Editorial: Fix typo"
- },
- "1111": {
-  "login": "woess",
-  "base": "0e1b4c287d4a8a976bf3396f4d810ddc63d12820",
-  "ref": "forinofbody",
-  "revs": [
-   "987266b539cfd9592e109995c8150fcdd1ba2a5f"
-  ],
-  "title": "Editorial: Add missing return-if-done in ForIn/OfBodyEvaluation"
- },
- "1131": {
-  "login": "anba",
-  "base": "0e1b4c287d4a8a976bf3396f4d810ddc63d12820",
-  "ref": "dataview-length",
-  "revs": [
-   "f4d38b0c131a0c7515823476d4c20747e3019dec"
-  ],
-  "title": "Restore original definition of DataView.length"
- },
  "1132": {
   "login": "anba",
   "base": "0e1b4c287d4a8a976bf3396f4d810ddc63d12820",
@@ -127,16 +198,6 @@ var prs = {
   ],
   "title": "Editorial: fix section IDs for some async generator sections."
  },
- "1112": {
-  "login": "littledan",
-  "base": "81be357744a8c8a9be96ef5559e2a5fa8eb90704",
-  "ref": "detach-owner",
-  "revs": [
-   "088e20214c6d709a3b4b4a46aa231ad1c502f3d0",
-   "5098a6c85066125963a42b9dc669b4b762024496"
-  ],
-  "title": "Layering: Check for the correct owner in DetachArrayBuffer"
- },
  "1143": {
   "login": "ljharb",
   "base": "4c2df13f4194057f09b920ee88712e5a70b1a556",
@@ -179,16 +240,5 @@ var prs = {
    "334007e208f0d464a1bca38adaf717f9e9e503b2"
   ],
   "title": "Editorial: remove unnecessary AddRestrictedFunctionProperties"
- },
- "1118": {
-  "login": "raulsebastianmihaila",
-  "base": "0e1b4c287d4a8a976bf3396f4d810ddc63d12820",
-  "ref": "promise-prototype-finally-no-extra-ticks",
-  "revs": [
-   "38fd8e82df12a4e828b6fe15cbafacea0bb17ee5",
-   "1701879c1658d773b25fe82643951d33b6506d57",
-   "46c3b3d7342b7dd6f677b29ca009f70e40b7b97d"
-  ],
-  "title": "Fix Promise.prototype.finally to not incur extra ticks"
  }
 };
