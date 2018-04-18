@@ -26,7 +26,6 @@ function bodyOnLoad() {
   populateRevs(fromRev, fromOpts);
   populateRevs(toRev, toOpts);
 
-  document.getElementById("compare").disabled = true;
   document.getElementById("view-diff").checked = true;
   document.getElementById("sec-filter").checked = true;
 
@@ -220,7 +219,6 @@ function getSecData(id) {
 }
 
 async function updateSectionList() {
-  document.getElementById("update").disabled = true;
   document.getElementById("result").innerText = "";
   document.getElementById("diff-stat").innerText = "";
 
@@ -307,9 +305,6 @@ async function updateSectionList() {
   }
 
   filterSectionList();
-
-  document.getElementById("update").disabled = false;
-  document.getElementById("compare").disabled = false;
 }
 
 let ListMarkUtils = {
@@ -407,10 +402,10 @@ let ListMarkUtils = {
   },
 
   textify(innerHTML) {
-    let tempbox = document.getElementById("tempbox");
-    tempbox.innerHTML = innerHTML;
+    let box = document.getElementById("list-mark-utils-box");
+    box.innerHTML = innerHTML;
 
-    let ols = tempbox.getElementsByTagName("ol");
+    let ols = box.getElementsByTagName("ol");
     for (let ol of ols) {
       let depth = this.getListDepth(ol);
 
@@ -427,7 +422,7 @@ let ListMarkUtils = {
       }
     }
 
-    return tempbox.innerHTML;
+    return box.innerHTML;
   }
 };
 
