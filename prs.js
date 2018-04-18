@@ -1,244 +1,55 @@
 "use strict";
 var prs = {
- "1153": {
-  "login": "ljharb",
-  "base": "4c2df13f4194057f09b920ee88712e5a70b1a556",
-  "ref": "global_object_dfn",
+ "1066": {
+  "login": "domenic",
+  "base": "c8a60accb9073f31783238185018246f3936092e",
+  "ref": "async-iter",
   "revs": [
-   "1cb97149c6bc3c76aee087be96357acae81714ee"
+   "2b4e469d2ae2e094a6844c27aa973b4316279708",
+   "3e81f7146d0323b14f13efec7981536871d11bab",
+   "f3c9c78cd16ce2b3daa0502e360d4e2ea7d94114",
+   "2a488727a29507fe94353194f95e72498b6ee113",
+   "4abc04ac4ba61325eb0d1534e58f9c9319ccd595",
+   "a6aed7b5c652a3eb689e01f4bc52432be0f21283",
+   "57300e460fded7f8163eebe01a75845bb9ddcb82",
+   "53402011c11230180fd3c0a98bec0fd19e533d59",
+   "83974e0a82700344fa6026a903d1dfd304e6f997",
+   "79c0d4e7af14f733ddaeafddb64d0394f512ec27",
+   "134cf5eeeb71282bd08a745d13c669c1493f8bfb",
+   "f98cffae010a1aade4eda8379b4aaaab0222084b",
+   "201f9cd0433d71fbda1caf54a9f18ed79f52c645",
+   "a854d4bb23d76892176eeef5e5bdc208bb7bf952",
+   "c02f03ce7a54cd07fafd958491dceb41b69ee247",
+   "3267bc1cba59df0846f40a5aa9477ff3635db4cb",
+   "b7c261fea43e3a93c7f9d250437b94f44cf2b14a",
+   "4caf1479baf32f7807bd30decbc92a5b09d84846",
+   "9d57420f471a6f180121062d0797166229b889ad",
+   "d4ab5dbcc38de4f0bb8c9baac7f9f24fb4639889",
+   "5d1afb3c698144800641911c58529348efb1560a",
+   "fe36ba182fce18966bcacafbb432c48311972741",
+   "038fb17b386a2f0efb3810013f4189420b77dc7d",
+   "c40e0daad492562f60dfb2bcc234301283d4f639",
+   "a28b90bf17b3bfb2184cc6723a01dc42700c9c4c",
+   "ac7ab82727538d0a6ee383502e40ac61adbf5b0a",
+   "3daca01f9ef8463029f90c3630ad57e5cd47291c",
+   "d31a4de58034c0a080cdb10c858f4aec578f2418",
+   "25125777503e1fd2cc4bc4db629d30d68d37682f",
+   "ef1435cf68b524351ac6a6df93968aaceedced68",
+   "c6d3c24f1eb8ef2427969e9842c9603acea5868b",
+   "9da5f0bd380e88d189c14a26183a872ea40afb9d",
+   "5a9326fd2c61c003cd0674b65f6a2fa7c00e6994",
+   "cbfa1085904c7421b4766f2f31aa81b1edd2d0c5",
+   "5343371a24db98af3aac1ff3291398802533cd71",
+   "96cbba7172ca7745675673f42c189e0e6bb00248",
+   "0b9936140f441c50a40fff474d384b63d3541787",
+   "a595be5ac24f2a9df001fce16b4c6998832f169f",
+   "f25deb01a4e8cf4859cec578e79f7d53e481ae5f",
+   "62f99214880498842d37a0f302504968bbe2730d",
+   "da2a1b5f6a743cb2ec0fd1d201d4f9b3eabc23be",
+   "4fb365846e6ad4d25b5390a855810aba61233427",
+   "65f2d54cc3caba8e47b659a1496207956ea3f36e",
+   "e94a501c99a653c9411599ebada67d72258d6b44"
   ],
-  "title": "Editorial: Move global object dfn to the Global Object section"
- },
- "1158": {
-  "login": "jugglinmike",
-  "base": "4c2df13f4194057f09b920ee88712e5a70b1a556",
-  "ref": "strict-fn-name",
-  "revs": [
-   "aea1e36bd7ef13d2def7b7fad8435ec1a7bd5332"
-  ],
-  "title": "Normative: Extend definition of \"function code\""
- },
- "1160": {
-  "login": "apaprocki",
-  "base": "4c2df13f4194057f09b920ee88712e5a70b1a556",
-  "ref": "localtza-editorial",
-  "revs": [
-   "cd64b371a7730d480a9d664213a349509acea0db"
-  ],
-  "title": "Editorial: LocalTZA input specification"
- },
- "1161": {
-  "login": "jmdyck",
-  "base": "4c2df13f4194057f09b920ee88712e5a70b1a556",
-  "ref": "editorial",
-  "revs": [
-   "33de07c843c10173629082096452227ce4f2c012",
-   "e0038bd94e34bd153a91201b786d78410154b57c",
-   "24128f51363328614dd5adfa3baa30c13af1e1ec",
-   "dbdcb1c957976afff6dc16d5f58ba7e56d19158c",
-   "79b9f4771ed19fbfeb26dad9a169042cc515e862",
-   "0b3f50bea19a51aff9ecd21e06d87f4cf3a82a5f"
-  ],
-  "title": "Misc Editorial"
- },
- "1162": {
-  "login": "jmdyck",
-  "base": "4c2df13f4194057f09b920ee88712e5a70b1a556",
-  "ref": "spaces_around_operators",
-  "revs": [
-   "5746afcdde4ed73806dfe2a6b14be11e2f88d7ae"
-  ],
-  "title": "Editorial: ensure spaces around binary operators"
- },
- "1163": {
-  "login": "musgravejw",
-  "base": "4c2df13f4194057f09b920ee88712e5a70b1a556",
-  "ref": "master",
-  "revs": [
-   "5a408f09ee80af6e535e3df3fbe3a88090202ada"
-  ],
-  "title": "Normative: specify RequireObjectCoercible as first step in destructuring assignment semantics"
- },
- "1164": {
-  "login": "jridgewell",
-  "base": "4c2df13f4194057f09b920ee88712e5a70b1a556",
-  "ref": "DataView.p.getInt32",
-  "revs": [
-   "f2c1e80818db04206d41df17b89ef74188deeb60"
-  ],
-  "title": "Editorial: Default littleEndian to false in DataView.p.getInt32"
- },
- "1111": {
-  "login": "woess",
-  "base": "0e1b4c287d4a8a976bf3396f4d810ddc63d12820",
-  "ref": "forinofbody",
-  "revs": [
-   "987266b539cfd9592e109995c8150fcdd1ba2a5f"
-  ],
-  "title": "Editorial: Add missing return-if-done in ForIn/OfBodyEvaluation"
- },
- "1112": {
-  "login": "littledan",
-  "base": "81be357744a8c8a9be96ef5559e2a5fa8eb90704",
-  "ref": "detach-owner",
-  "revs": [
-   "088e20214c6d709a3b4b4a46aa231ad1c502f3d0",
-   "5098a6c85066125963a42b9dc669b4b762024496"
-  ],
-  "title": "Layering: Check for the correct owner in DetachArrayBuffer"
- },
- "1116": {
-  "login": "mathiasbynens",
-  "base": "0e1b4c287d4a8a976bf3396f4d810ddc63d12820",
-  "ref": "typo",
-  "revs": [
-   "f74c3bdaf9b08eeb8d7adff0f0cd8ff75ba051b7"
-  ],
-  "title": "Editorial: Fix typo"
- },
- "1118": {
-  "login": "raulsebastianmihaila",
-  "base": "0e1b4c287d4a8a976bf3396f4d810ddc63d12820",
-  "ref": "promise-prototype-finally-no-extra-ticks",
-  "revs": [
-   "38fd8e82df12a4e828b6fe15cbafacea0bb17ee5",
-   "1701879c1658d773b25fe82643951d33b6506d57",
-   "46c3b3d7342b7dd6f677b29ca009f70e40b7b97d"
-  ],
-  "title": "Fix Promise.prototype.finally to not incur extra ticks"
- },
- "1123": {
-  "login": "mysticatea",
-  "base": "0e1b4c287d4a8a976bf3396f4d810ddc63d12820",
-  "ref": "s-flag",
-  "revs": [
-   "b3b02231e7ce5dcbfcd65f8f52fc86533f673e76"
-  ],
-  "title": "Normative: FlagText allows s"
- },
- "1124": {
-  "login": "littledan",
-  "base": "0e1b4c287d4a8a976bf3396f4d810ddc63d12820",
-  "ref": "array-accumulation",
-  "revs": [
-   "c5845711be5044e6b27fbef280af95b594eb7f32"
-  ],
-  "title": "Normative: Remove ToUint32 from array literal evaluation"
- },
- "1125": {
-  "login": "jmdyck",
-  "base": "81be357744a8c8a9be96ef5559e2a5fa8eb90704",
-  "ref": "chofin",
-  "revs": [
-   "b6aa70c26d7827054d74fe5fd34a508ea35060db"
-  ],
-  "title": "Editorial: use <ul> to list characteristics of intrinsics"
- },
- "1126": {
-  "login": "chicoxyzzy",
-  "base": "0e1b4c287d4a8a976bf3396f4d810ddc63d12820",
-  "ref": "catchparameter_as_formalparameter",
-  "revs": [
-   "69272451a8ee8d39d5fd6c6cf513958f93744983"
-  ],
-  "title": "Normative: Redefine CatchParameter as FormalParameter"
- },
- "1127": {
-  "login": "conrad-watt",
-  "base": "0e1b4c287d4a8a976bf3396f4d810ddc63d12820",
-  "ref": "wait-wake-strengthen",
-  "revs": [
-   "582f721e154d785f23480fdf6328d4833227d54d",
-   "a1674da1b3c591f667a6fbf58705f6149b282924"
-  ],
-  "title": "Normative: Strengthen Atomics.wait/wake synchronization to the level of other Atomics operations"
- },
- "1132": {
-  "login": "anba",
-  "base": "0e1b4c287d4a8a976bf3396f4d810ddc63d12820",
-  "ref": "invalid-strict-mode-assign",
-  "revs": [
-   "2272bfb32d03e526ab162d6333ffa32bd58e438f"
-  ],
-  "title": "Restore early SyntaxError for strict mode assignment to eval/arguments"
- },
- "1135": {
-  "login": "littledan",
-  "base": "0e1b4c287d4a8a976bf3396f4d810ddc63d12820",
-  "ref": "number-refactoring",
-  "revs": [
-   "52743a22b51581002ee36f294ac46d1318480d93"
-  ],
-  "title": "Editorial: Explicitly note mathematical values"
- },
- "1136": {
-  "login": "pemrouz",
-  "base": "0e1b4c287d4a8a976bf3396f4d810ddc63d12820",
-  "ref": "normative/await-in-parameter-defaults",
-  "revs": [
-   "061fc43db42d757d1f862514d2ac637b1733d80b"
-  ],
-  "title": "normative: allow await in parameter defaults (#917)"
- },
- "1137": {
-  "login": "bakkot",
-  "base": "0e1b4c287d4a8a976bf3396f4d810ddc63d12820",
-  "ref": "fn-errors",
-  "revs": [
-   "9389a5cf49bde1d01e8c920b3519b4f0bb762869"
-  ],
-  "title": "Editorial: clarify when early errors for functions apply"
- },
- "1141": {
-  "login": "ljharb",
-  "base": "81be357744a8c8a9be96ef5559e2a5fa8eb90704",
-  "ref": "fix_async_gen_ids",
-  "revs": [
-   "bd9bc78b0a9f40616e5e4809bf1457583419c22f"
-  ],
-  "title": "Editorial: fix section IDs for some async generator sections."
- },
- "1143": {
-  "login": "ljharb",
-  "base": "4c2df13f4194057f09b920ee88712e5a70b1a556",
-  "ref": "punctuation_consistent",
-  "revs": [
-   "5f3a58f5e8df7a15163b42bd3a8d15bf64660762",
-   "2a4cff9f2e39d056366b9d7d0f4def619b09d25c",
-   "7d331cee270f998a16838acd87ab1138736e5bb9",
-   "9628a96ad95023d5d5bff2865dd3a55e884d48db",
-   "9cc087ca67dd12fc848a488c78ce7b177c132dbd",
-   "5e022ae6a3a910b6f3bcdf74008c2d4b04d19b53",
-   "f48b68750d0bcef70c2818a8c68aea8e25e7e32c"
-  ],
-  "title": "Editorial: Make punctuation and spacing more consistent"
- },
- "1144": {
-  "login": "apaprocki",
-  "base": "4c2df13f4194057f09b920ee88712e5a70b1a556",
-  "ref": "time-value-range-editorial",
-  "revs": [
-   "d61e1b801fb56e03e9c3193f408297087f805642",
-   "46353f0af79efd89459d9a1ef5465d2ad3f3f970"
-  ],
-  "title": "Editorial: Cleanup Time Values and Time Range"
- },
- "1146": {
-  "login": "ljharb",
-  "base": "4c2df13f4194057f09b920ee88712e5a70b1a556",
-  "ref": "promise_undefined_capability",
-  "revs": [
-   "a1234e95cb9e5cffaec43055df02fee63cbc7e31"
-  ],
-  "title": "Editorial: refactor PerformPromiseThen to allow no capability"
- },
- "1148": {
-  "login": "ljharb",
-  "base": "4c2df13f4194057f09b920ee88712e5a70b1a556",
-  "ref": "remove_poison_pill_legacy",
-  "revs": [
-   "334007e208f0d464a1bca38adaf717f9e9e503b2"
-  ],
-  "title": "Editorial: remove unnecessary AddRestrictedFunctionProperties"
+  "title": "Normative: add async iteration"
  }
 };
