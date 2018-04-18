@@ -36,3 +36,15 @@ h1 {
 .diff-view ol > li {
     list-style-type: none;
 }
+
+#progress-indicator {
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    background-color: black;
+    color: white;
+}
+
+#result.combined div[id^="excluded-"] {
+    display: none;
+}

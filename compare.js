@@ -17,24 +17,24 @@ let secOpts = [];
 let prnums = Object.keys(prs).map(x => parseInt(x, 10)).sort().reverse();
 
 function bodyOnLoad() {
-  let revFilter = document.getElementById("rev-filter");
+  let prFilter = document.getElementById("pr-filter");
   let fromRev = document.getElementById("from-rev");
   let toRev = document.getElementById("to-rev");
 
-  populatePRs(revFilter);
+  populatePRs(prFilter);
 
   populateRevs(fromRev, fromOpts);
   populateRevs(toRev, toOpts);
 
   document.getElementById("compare").disabled = true;
   document.getElementById("view-diff").checked = true;
-  document.getElementById("sec-changed").checked = true;
+  document.getElementById("sec-filter").checked = true;
 
   parseQuery();
 }
 
 async function parseQuery() {
-  let revFilter = document.getElementById("rev-filter");
+  let prFilter = document.getElementById("pr-filter");
   let fromRev = document.getElementById("from-rev");
   let toRev = document.getElementById("to-rev");
 
@@ -53,22 +53,22 @@ async function parseQuery() {
     let from = queryParams.from;
     let to = queryParams.to;
 
+    if ("pr" in queryParams) {
+      prFilter.value = queryParams.pr;
+      filterRev("both");
+    }
     fromRev.value = from;
     toRev.value = to;
 
-    if ("pr" in queryParams) {
-      revFilter.value = queryParams.pr;
-      filterRev("both");
-    }
-
-    await update();
+    await updateSectionList();
 
     if ("id" in queryParams) {
       let id = queryParams.id;
       let menu = document.getElementById("sec-list");
       menu.value = id;
-      compare();
     }
+
+    await compare();
   } else if ("pr" in queryParams) {
     let pr = queryParams.pr;
     if (pr in prs) {
@@ -77,10 +77,12 @@ async function parseQuery() {
       fromRev.value = info.base;
       toRev.value = info.revs[0];
 
-      revFilter.value = pr;
+      prFilter.value = pr;
       filterRev("both");
 
-      await update();
+      await updateSectionList();
+
+      await compare();
     }
   }
 }
@@ -120,8 +122,8 @@ function populatePRs(menu) {
   }
 
   let opt = document.createElement("option");
-  opt.value = "all";
-  opt.appendChild(document.createTextNode("all"));
+  opt.value = "-";
+  opt.appendChild(document.createTextNode("-"));
   menu.appendChild(opt);
 
   for (let pr of prnums) {
@@ -132,18 +134,18 @@ function populatePRs(menu) {
     menu.appendChild(opt);
   }
 
-  menu.value = "all";
+  menu.value = "-";
 }
 
 function filterRev(target) {
-  let revFilter = document.getElementById("rev-filter");
+  let prFilter = document.getElementById("pr-filter");
   let fromRev = document.getElementById("from-rev");
   let toRev = document.getElementById("to-rev");
 
   let fromRevSearch = document.getElementById("from-rev-search").value;
   let toRevSearch = document.getElementById("to-rev-search").value;
 
-  let pr = revFilter.value;
+  let pr = prFilter.value;
   let revSet = null;
   let info = null;
   let prLink = document.getElementById("pr-link");
@@ -152,12 +154,12 @@ function filterRev(target) {
     revSet = new Set(info.revs.map(rev => `PR/${pr}/${rev}`).concat(info.base));
 
     prLink.href = pr_url(pr);
-    prLink.innerHTML = `Open PR ${pr}`;
+    prLink.innerText = `Open PR ${pr}`;
   } else {
-    prLink.innerHTML = "";
+    prLink.innerText = "";
   }
 
-  if (target == "both" || target == "from") {
+  if (target === "both" || target === "from") {
     populateMenu(fromRev, fromOpts, opt => {
       if (revSet) {
         if (!revSet.has(opt.value)) {
@@ -165,7 +167,7 @@ function filterRev(target) {
         }
       }
       if (fromRevSearch) {
-        if (opt.innerHTML.toLowerCase().includes(fromRevSearch.toLowerCase())) {
+        if (opt.innerText.toLowerCase().includes(fromRevSearch.toLowerCase())) {
           return false;
         }
       }
@@ -173,7 +175,7 @@ function filterRev(target) {
       return true;
     });
   }
-  if (target == "both" || target == "to") {
+  if (target === "both" || target === "to") {
     populateMenu(toRev, toOpts, opt => {
       if (revSet) {
         if (!revSet.has(opt.value)) {
@@ -181,7 +183,7 @@ function filterRev(target) {
         }
       }
       if (toRevSearch) {
-        if (opt.innerHTML.toLowerCase().includes(toRevSearch.toLowerCase())) {
+        if (opt.innerText.toLowerCase().includes(toRevSearch.toLowerCase())) {
           return false;
         }
       }
@@ -200,9 +202,35 @@ function hashOf(id) {
   return document.getElementById(`${id}-rev`).value;
 }
 
-function updateSecList() {
+function getSecData(id) {
+  let hash = hashOf(id);
+  let req = new XMLHttpRequest();
+  let loadPromise = new Promise(resolve => {
+    req.addEventListener("load", () => {
+      if (req.readyState === 4 && req.status === 200) {
+        resolve(req.response);
+      }
+    });
+  });
+  req.open("GET", `./history/${hash}.json`, true);
+  req.responseType = "json";
+  req.send(null);
+
+  return loadPromise;
+}
+
+async function updateSectionList() {
+  document.getElementById("update").disabled = true;
+  document.getElementById("result").innerText = "";
+  document.getElementById("diff-stat").innerText = "";
+
+  [fromSecData, toSecData] = await Promise.all([
+    getSecData("from"),
+    getSecData("to")
+  ]);
+
   let hit = document.getElementById("search-hit");
-  hit.innerHTML = "";
+  hit.innerText = "";
 
   let menu = document.getElementById("sec-list");
   while (menu.firstChild) {
@@ -232,10 +260,15 @@ function updateSecList() {
 
   secOpts = [];
 
+  let opt = document.createElement("option");
+  opt.value = "combined";
+  opt.appendChild(document.createTextNode(`Combined view`));
+  secOpts.push(opt);
+
   for (let sec of Array.from(set).sort((a, b) => {
     let aTitle = getComparableTitle(a);
     let bTitle = getComparableTitle(b);
-    if (aTitle == bTitle) {
+    if (aTitle === bTitle) {
       return 0;
     }
     return aTitle < bTitle ? -1 : 1;
@@ -273,37 +306,8 @@ function updateSecList() {
     secOpts.push(opt);
   }
 
-  updateSec();
-}
+  filterSectionList();
 
-function getSecData(id) {
-  let hash = hashOf(id);
-  let req = new XMLHttpRequest();
-  let loadPromise = new Promise(resolve => {
-    req.addEventListener("load", () => {
-      if (req.readyState == 4 && req.status == 200) {
-        resolve(req.response);
-      }
-    });
-  });
-  req.open("GET", `./history/${hash}.json`, true);
-  req.responseType = "json";
-  req.send(null);
-
-  return loadPromise;
-}
-
-async function update() {
-  document.getElementById("update").disabled = true;
-  document.getElementById("result").innerHTML = "";
-  document.getElementById("diff-stat").innerHTML = "";
-
-  [fromSecData, toSecData] = await Promise.all([
-    getSecData("from"),
-    getSecData("to")
-  ]);
-
-  updateSecList();
   document.getElementById("update").disabled = false;
   document.getElementById("compare").disabled = false;
 }
@@ -311,8 +315,8 @@ async function update() {
 let ListMarkUtils = {
   getListDepth(node) {
     let depth = 0;
-    while (node && node != document.body) {
-      if (node.nodeName.toLowerCase() == "ol") {
+    while (node && node !== document.body) {
+      if (node.nodeName.toLowerCase() === "ol") {
         depth++;
       }
       node = node.parentNode;
@@ -389,13 +393,13 @@ let ListMarkUtils = {
   },
 
   toListMark(i, depth) {
-    if (depth == 1 || depth == 4) {
+    if (depth === 1 || depth === 4) {
       return this.decimalToText(i + 1);
     }
-    if (depth == 2 || depth == 5) {
+    if (depth === 2 || depth === 5) {
       return this.charListToText(i + 1, "abcdefghijklmnopqrstuvwxyz");
     }
-    if (depth == 3 || depth == 6) {
+    if (depth === 3 || depth === 6) {
       return this.romanToText(i + 1, "ixcm", "vld");
     }
 
@@ -406,13 +410,13 @@ let ListMarkUtils = {
     let tempbox = document.getElementById("tempbox");
     tempbox.innerHTML = innerHTML;
 
-    let ols = document.getElementsByTagName("ol");
+    let ols = tempbox.getElementsByTagName("ol");
     for (let ol of ols) {
       let depth = this.getListDepth(ol);
 
       let i = 0;
       for (let li of ol.children) {
-        if (li.nodeName.toLowerCase() != "li") {
+        if (li.nodeName.toLowerCase() !== "li") {
           continue;
         }
 
@@ -427,58 +431,159 @@ let ListMarkUtils = {
   }
 };
 
-function compare() {
-  let id = document.getElementById("sec-list").value;
+let combineStatus = {
+  processIndicator: null,
+  processing: false,
+  abortProcessing: false,
+};
 
-  let fromHTML = id in fromSecData.secData ? fromSecData.secData[id].html : null;
-  let toHTML = id in toSecData.secData ? toSecData.secData[id].html : null;
+async function combineSections(result, sections, isDiff) {
+  if (combineStatus.processing) {
+    combineStatus.abortProcessing = true;
+    do {
+      await new Promise(r => setTimeout(r, 100));
+    } while (combineStatus.processing);
+    combineStatus.abortProcessing = false;
+  }
 
-  let result = document.getElementById("result");
+  combineStatus.processing = true;
 
-  result.className = "";
-  if (document.getElementById("view-diff").checked) {
-    if (fromHTML !== null && toHTML !== null) {
-      result.className = "diff-view";
-      result.innerHTML = htmldiff(ListMarkUtils.textify(fromHTML), ListMarkUtils.textify(toHTML));
-    } else if (fromHTML !== null) {
-      result.className = "diff-view";
-      result.innerHTML = htmldiff(ListMarkUtils.textify(fromHTML), "");
-    } else if (toHTML !== null) {
-      result.className = "diff-view";
-      result.innerHTML = htmldiff("", ListMarkUtils.textify(toHTML));
-    } else {
-      result.innerHTML = "";
+  let i = 0, len = sections.size;
+
+  if (len > 1) {
+    if (!combineStatus.processIndicator) {
+      combineStatus.processIndicator = document.createElement("div");
+      combineStatus.processIndicator.id = "progress-indicator";
     }
+    document.body.appendChild(combineStatus.processIndicator);
+  }
+
+  result.innerText = "";
+  for (let [id, HTML] of sections) {
+    if (len > 1) {
+      i++;
+      combineStatus.processIndicator.textContent = `processing ${i}/${len}`;
+      await new Promise(r => setTimeout(r, 1));
+
+      if (combineStatus.abortProcessing) {
+        break;
+      }
+    }
+
+    if (isDiff) {
+      HTML = createDiff(HTML[0], HTML[1]);
+    }
+
+    let box = document.getElementById(`excluded-${id}`);
+    if (box) {
+      box.id = "";
+      box.innerHTML = HTML;
+    } else {
+      box = document.createElement("div");
+      box.innerHTML = HTML;
+      result.appendChild(box);
+    }
+  }
+  if (len > 1) {
+    combineStatus.processIndicator.remove();
+  }
+
+  combineStatus.processing = false;
+}
+
+function createDiff(fromHTML, toHTML) {
+  if (fromHTML !== null && toHTML !== null) {
+    return htmldiff(ListMarkUtils.textify(fromHTML),
+                    ListMarkUtils.textify(toHTML));
+  }
+  if (fromHTML !== null) {
+    return htmldiff(ListMarkUtils.textify(fromHTML), "");
+  }
+  if (toHTML !== null) {
+    return htmldiff("", ListMarkUtils.textify(toHTML));
+  }
+  return "";
+}
+
+async function compare() {
+  let result = document.getElementById("result");
+  result.className = "";
+
+  let secList = [];
+  if (document.getElementById("sec-list").value === "combined") {
+    result.classList.add("combined");
+
+    for (let opt of document.getElementById("sec-list").children) {
+      let id = opt.value;
+      if (id === "combined") {
+        continue;
+      }
+
+      let fromHTML = null, toHTML = null;
+      if (id in fromSecData.secData) {
+        fromHTML = fromSecData.secData[id].html;
+      }
+      if (id in toSecData.secData) {
+        toHTML = toSecData.secData[id].html;
+      }
+      secList.push([id, fromHTML, toHTML]);
+    }
+  } else {
+    let id = document.getElementById("sec-list").value;
+
+    let fromHTML = null, toHTML = null;
+    if (id in fromSecData.secData) {
+      fromHTML = fromSecData.secData[id].html;
+    }
+    if (id in toSecData.secData) {
+      toHTML = toSecData.secData[id].html;
+    }
+    secList.push([id, fromHTML, toHTML]);
+  }
+
+  if (document.getElementById("view-diff").checked) {
+    result.classList.add("diff-view");
+
+    let sections = new Map();
+    let differ = false;
+    for (let [id, fromHTML, toHTML] of secList) {
+      if (fromHTML !== toHTML) {
+        differ = true;
+      }
+      sections.set(id, [fromHTML, toHTML]);
+    }
+
+    await combineSections(result, sections, true);
 
     let add = result.getElementsByClassName("htmldiff-add").length;
     let del = result.getElementsByClassName("htmldiff-del").length;
 
     let note = "";
-    if (add == 0 && del == 0) {
-      if (fromHTML != toHTML) {
+    if (add === 0 && del === 0) {
+      if (differ) {
         note = " (changes in markup or something)";
       }
     }
 
-    document.getElementById("diff-stat").innerHTML = `+${add} -${del}${note}`;
+    document.getElementById("diff-stat").innerText = `+${add} -${del}${note}`;
   } else {
     if (document.getElementById("view-from").checked) {
-      if (fromHTML !== null) {
-        result.innerHTML = fromHTML;
-      } else {
-        result.innerHTML = "";
+      let sections = new Map();
+      for (let [id, fromHTML, toHTML] of secList) {
+        sections.set(id, fromHTML);
       }
+      await combineSections(result, sections, false);
     } else if (document.getElementById("view-to").checked) {
-      if (toHTML !== null) {
-        result.innerHTML = toHTML;
-      } else {
-        result.innerHTML = "";
+      let sections = new Map();
+      for (let [id, fromHTML, toHTML] of secList) {
+        sections.set(id, toHTML);
       }
+      await combineSections(result, sections, false);
     } else {
-      result.innerHTML = "";
+      result.innerText = "";
     }
 
-    document.getElementById("diff-stat").innerHTML = "-";
+    document.getElementById("diff-stat").innerText = "-";
   }
 }
 
@@ -489,10 +594,9 @@ function updateURL() {
   params.push(`from=${hashOf("from")}`);
   params.push(`to=${hashOf("to")}`);
   params.push(`id=${encodeURIComponent(id)}`);
-
-  let revFilter = document.getElementById("rev-filter");
-  let pr = revFilter.value;
-  if (pr != "all") {
+  let prFilter = document.getElementById("pr-filter");
+  let pr = prFilter.value;
+  if (pr !== "-") {
     params.push(`pr=${pr}`);
   }
 
@@ -522,19 +626,19 @@ function populateMenu(menu, opts, filter) {
   return count;
 }
 
-function updateSec() {
+async function filterSectionList(doCompare=true) {
   let search = document.getElementById("sec-list-search").value;
-  let changedOnly = document.getElementById("sec-changed").checked;
+  let changedOnly = document.getElementById("sec-filter").checked;
 
   let menu = document.getElementById("sec-list");
   let count = populateMenu(menu, secOpts, opt => {
     if (changedOnly) {
-      if (opt.className == "same") {
+      if (opt.className === "same") {
         return false;
       }
     }
     if (search) {
-      if (opt.innerHTML.toLowerCase().indexOf(search.toLowerCase()) === -1) {
+      if (opt.innerText.toLowerCase().indexOf(search.toLowerCase()) === -1) {
         return false;
       }
     }
@@ -544,12 +648,15 @@ function updateSec() {
 
   let hit = document.getElementById("search-hit");
   if (search || changedOnly) {
-    hit.innerHTML = `${count} section(s) found`;
+    hit.innerText = `${count - 1} section(s) found`;
   } else {
-    hit.innerHTML = "";
+    hit.innerText = "";
   }
 
-  compare();
+  if (doCompare) {
+    await compare();
+    updateURL();
+  }
 }
 
 function isChanged(id) {
@@ -560,5 +667,46 @@ function isChanged(id) {
   let fromHTML = fromSecData.secData[id].html;
   let toHTML = toSecData.secData[id].html;
 
-  return fromHTML != toHTML;
+  return fromHTML !== toHTML;
+}
+
+async function onPRFilterChange() {
+  filterRev("both");
+  updateSectionList();
+  await compare();
+  updateURL();
+}
+async function onFromRevFilterChange() {
+  filterRev("from");
+  updateSectionList();
+  await compare();
+  updateURL();
+}
+async function onToRevFilterChange() {
+  filterRev("to");
+  updateSectionList();
+  await compare();
+  updateURL();
+}
+
+async function onFromRevChange() {
+  updateSectionList();
+  await compare();
+  updateURL();
+}
+async function onToRevChange() {
+  updateSectionList();
+  await compare();
+  updateURL();
+}
+
+async function onSecListSearchChanged() {
+  filterSectionList();
+  await compare();
+  updateURL();
+}
+async function onSecFlterChanged() {
+  filterSectionList();
+  await compare();
+  updateURL();
 }

@@ -1,13 +1,13 @@
-#!/usr/bin/python -B
-
 from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
+import glob
 import json
 import lxml.html
 import lxml.etree
 import os
+import re
 import shutil
 import subprocess
 import sys
@@ -18,11 +18,12 @@ with open('./config.json', 'r') as in_file:
     REPO_URL = config['repo_url']
     FIRST_REV = config['first_rev']
 
-API_QUERY = ''
+API_QUERY = []
 if os.path.exists('./key.json'):
     with open('./key.json', 'r') as in_file:
         key = json.loads(in_file.read())
-        API_QUERY = '?client_id={}&client_secret={}'.format(key['client_id'], key['client_secret'])
+        API_QUERY = [['client_id', key['client_id']],
+                     ['client_secret', key['client_secret']]]
 
 def init_repo():
     if not os.path.exists('./ecma262'):
@@ -50,13 +51,27 @@ def generate_html(hash, rebase, subdir, use_cache):
     if ret:
         sys.exit(ret)
 
+    indexfile = './ecma262/out/index.html'
+
     ret = subprocess.call(['npm', 'run', 'build'], cwd='./ecma262')
     if ret:
         sys.exit(ret)
 
+    if not os.path.exists(indexfile):
+        # Some intermediate commit might fail building.
+        # (and npm returns 0...)
+        # Generate an empty file in that case.
+
+        outdir = './ecma262/out/'
+        if not os.path.exists(outdir):
+            os.makedirs(outdir)
+
+        with open(indexfile, 'w') as f:
+            f.write('<html></html>')
+
     if not os.path.exists(basedir):
         os.makedirs(basedir)
-    shutil.copyfile('./ecma262/out/index.html', result)
+    shutil.copyfile(indexfile, result)
 
 def update_master():
     ret = subprocess.call(['git',
@@ -66,7 +81,7 @@ def update_master():
         sys.exit(ret)
 
     p = subprocess.Popen(['git',
-                          'log', '{}..{}'.format(FIRST_REV, 'origin/master'),
+                          'log', '{}^..{}'.format(FIRST_REV, 'origin/master'),
                           '--pretty=%H'],
                          cwd='./ecma262',
                          stdout=subprocess.PIPE,
@@ -82,7 +97,7 @@ def update_revs():
         out_file.write('"use strict";\n')
         out_file.write('var revs = [\n')
         p = subprocess.Popen(['git',
-                              'log', '{}..{}'.format(FIRST_REV, 'origin/master'),
+                              'log', '{}^..{}'.format(FIRST_REV, 'origin/master'),
                               '--pretty=["%ci", "%H"],'],
                              cwd='./ecma262',
                              stdout=subprocess.PIPE,
@@ -92,14 +107,13 @@ def update_revs():
         p.wait()
         out_file.write('];\n')
 
+pr_pat = re.compile('PR/([0-9]+)/')
 def update_prs():
     prs = dict()
 
-    data = github_api('https://api.github.com/repos/tc39/ecma262/pulls')
-    for pr_data in data:
-        pr = pr_data['number']
+    for info_path in glob.glob('./history/PR/*/info.json'):
+        pr = pr_pat.search(info_path).group(1)
 
-        info_path = './history/PR/{}/info.json'.format(pr);
         if os.path.exists(info_path):
             with open(info_path, 'r') as in_file:
                 info = json.loads(in_file.read())
@@ -111,9 +125,23 @@ def update_prs():
         out_file.write('var prs = {};\n'.format(json.dumps(prs, indent=1,
                                                            separators=(',', ': '))))
 
-def github_api(url):
-    response = urllib2.urlopen(url + API_QUERY)
+def github_api(url, query=[]):
+    print('{}?{}'.format(url, '&'.join(map(lambda x: '{}={}'.format(x[0], x[1]), query))))
+    query_string = '&'.join(map(lambda x: '{}={}'.format(x[0], x[1]), API_QUERY + query))
+    response = urllib2.urlopen('{}?{}'.format(url, query_string))
     data = json.loads(response.read())
+    return data
+
+def github_api_pages(url, query):
+    page = 1
+    data = github_api(url, query)
+    if len(data) == 30:
+        while True:
+            page += 1
+            next_data = github_api(url, query + [['page', str(page)]])
+            data += next_data
+            if len(next_data) != 30:
+                break
     return data
 
 def get_pr(pr):
@@ -133,8 +161,10 @@ def get_pr(pr):
         os.makedirs(basedir)
 
     if not mergeable:
-        print('@@@@ not mergeable')
-        return
+        # TODO: add --skip-mergeable option or something
+        #print('@@@@ not mergeable')
+        #return
+        pass
 
     subprocess.call(['git',
                      'remote', 'add', login, url],
@@ -150,13 +180,15 @@ def get_pr(pr):
     if ret:
         sys.exit(ret)
 
-    data = github_api(commits)
+    data = github_api_pages(commits)
 
     revs = []
     for commit in data:
         hash = commit['sha']
-        generate_html(hash, True, 'PR/{}/'.format(pr), False)
-        generate_json(hash, 'PR/{}/'.format(pr), False)
+        # TODO: add --rebase option for 2nd param
+        # TODO: add --ignore-cache option for the last param
+        generate_html(hash, False, 'PR/{}/'.format(pr), True)
+        generate_json(hash, 'PR/{}/'.format(pr), True)
         revs.append(hash)
     revs.reverse()
 
@@ -171,7 +203,7 @@ def get_pr(pr):
         out_file.write(json.dumps(info))
 
 def get_all_pr():
-    data = github_api('https://api.github.com/repos/tc39/ecma262/pulls')
+    data = github_api_pages('https://api.github.com/repos/tc39/ecma262/pulls')
     for pr in data:
         print('@@@@ PR {}'.format(pr['number']))
         get_pr(pr['number'])
@@ -225,6 +257,7 @@ def exclude_subsections(dom, sec_list, sec_num_map, sec_title_map):
         h1.tail = '...'
 
         box = lxml.html.Element('div')
+        box.attrib['id'] = 'excluded-' + id
         box.append(h1)
 
         node.getparent().replace(node, box)
