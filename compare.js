@@ -201,21 +201,10 @@ function hashOf(id) {
   return document.getElementById(`${id}-rev`).value;
 }
 
-function getSecData(id) {
+async function getSecData(id) {
   let hash = hashOf(id);
-  let req = new XMLHttpRequest();
-  let loadPromise = new Promise(resolve => {
-    req.addEventListener("load", () => {
-      if (req.readyState === 4 && req.status === 200) {
-        resolve(req.response);
-      }
-    });
-  });
-  req.open("GET", `./history/${hash}.json`, true);
-  req.responseType = "json";
-  req.send(null);
-
-  return loadPromise;
+  let response = await fetch(`./history/${hash}.json`);
+  return response.json();
 }
 
 async function updateSectionList() {
