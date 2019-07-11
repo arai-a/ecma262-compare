@@ -1,3 +1,5 @@
+#!/usr/bin/env python2
+
 from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
@@ -8,7 +10,8 @@ import lxml.html
 import lxml.etree
 import os
 import re
-import shutil
+import distutils
+import distutils.dir_util
 import subprocess
 import sys
 import urllib2
@@ -31,12 +34,14 @@ def init_repo():
 
 def generate_html(hash, rebase, subdir, use_cache):
     basedir = './history/{}'.format(subdir)
-    result = '{}{}.html'.format(basedir, hash)
+    revdir = '{}{}'.format(basedir, hash)
+
+    result = '{}/index.html'.format(revdir, hash)
     if use_cache and os.path.exists(result):
         print('@@@@ skip {}'.format(result))
         return
 
-    print('@@@@ {}'.format(result))
+    print('@@@@ {}'.format(revdir))
 
     if rebase:
         ret = subprocess.call(['git',
@@ -51,7 +56,8 @@ def generate_html(hash, rebase, subdir, use_cache):
     if ret:
         sys.exit(ret)
 
-    indexfile = './ecma262/out/index.html'
+    fromdir = './ecma262/out'
+    indexfile = '{}/index.html'.format(fromdir)
 
     ret = subprocess.call(['npm', 'run', 'build'], cwd='./ecma262')
     if ret:
@@ -71,7 +77,10 @@ def generate_html(hash, rebase, subdir, use_cache):
 
     if not os.path.exists(basedir):
         os.makedirs(basedir)
-    shutil.copyfile(indexfile, result)
+    if os.path.exists(revdir):
+        distutils.dir_util.remove_tree(revdir)
+
+    distutils.dir_util.copy_tree(fromdir, revdir)
 
 def update_master():
     ret = subprocess.call(['git',
@@ -291,8 +300,8 @@ def remove_emu_ids(dom):
             node.attrib.pop('id')
 
 def extract_sections(filename, use_cache):
-    in_filename = '{}.html'.format(filename)
-    out_filename = '{}.json'.format(filename)
+    in_filename = '{}/index.html'.format(filename)
+    out_filename = '{}/sections.json'.format(filename)
 
     if use_cache and os.path.exists(out_filename):
         print('@@@@ skip {}'.format(out_filename))

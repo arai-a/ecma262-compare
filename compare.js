@@ -30,6 +30,7 @@ function bodyOnLoad() {
   document.getElementById("sec-filter").checked = true;
 
   parseQuery();
+  updateHistoryLink();
 }
 
 async function parseQuery() {
@@ -58,6 +59,7 @@ async function parseQuery() {
     }
     fromRev.value = from;
     toRev.value = to;
+    updateHistoryLink();
 
     await updateSectionList();
 
@@ -75,6 +77,7 @@ async function parseQuery() {
 
       fromRev.value = info.base;
       toRev.value = info.revs[0];
+      updateHistoryLink();
 
       prFilter.value = pr;
       filterRev("both");
@@ -194,6 +197,7 @@ function filterRev(target) {
   if (revSet && !fromRevSearch && !toRevSearch) {
     fromRev.value = info.base;
     toRev.value = `PR/${pr}/${info.revs[0]}`;
+    updateHistoryLink();
   }
 }
 
@@ -203,7 +207,7 @@ function hashOf(id) {
 
 async function getSecData(id) {
   let hash = hashOf(id);
-  let response = await fetch(`./history/${hash}.json`);
+  let response = await fetch(`./history/${hash}/sections.json`);
   return response.json();
 }
 
@@ -654,6 +658,17 @@ function isChanged(id) {
   return fromHTML !== toHTML;
 }
 
+function updateHistoryLink() {
+  let fromRev = document.getElementById("from-rev");
+  let toRev = document.getElementById("to-rev");
+
+  let fromLink = document.getElementById("from-history-link");
+  let toLink = document.getElementById("to-history-link");
+
+  fromLink.href = `./history/${fromRev.value}/index.html`;
+  toLink.href = `./history/${toRev.value}/index.html`;
+}
+
 async function onPRFilterChange() {
   filterRev("both");
   updateSectionList();
@@ -674,11 +689,13 @@ async function onToRevFilterChange() {
 }
 
 async function onFromRevChange() {
+  updateHistoryLink();
   updateSectionList();
   await compare();
   updateURL();
 }
 async function onToRevChange() {
+  updateHistoryLink();
   updateSectionList();
   await compare();
   updateURL();
