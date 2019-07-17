@@ -14,7 +14,7 @@ let fromOpts = [];
 let toOpts = [];
 let secOpts = [];
 
-let prnums = Object.keys(prs).map(x => parseInt(x, 10)).sort().reverse();
+let prnums = Object.keys(prs).map(x => parseInt(x, 10)).sort((a, b) => a - b).reverse();
 
 function bodyOnLoad() {
   let prFilter = document.getElementById("pr-filter");

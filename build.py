@@ -141,7 +141,7 @@ def github_api(url, query=[]):
     data = json.loads(response.read())
     return data
 
-def github_api_pages(url, query):
+def github_api_pages(url, query=[]):
     page = 1
     data = github_api(url, query)
     if len(data) == 30:
