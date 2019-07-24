@@ -18,13 +18,13 @@ var prs = {
  },
  "1302": {
   "login": "rkirsling",
-  "base": "dc1e21c454bd316810be1c0e7af0131a2d7f38e9",
+  "base": "a68d1296f156ff73075fde36aebd643de4f8ebde",
   "ref": "quote-all-properties",
   "revs": [
-   "c53fa6a6d93c49be02a915134e76bd224bd09ae5",
-   "1d5b4d602d291a3a5ec8d754e3366b64a168bfec",
-   "2d40e7d85e5842131e5cd523c0d19f935e69b010",
-   "4b7dd501ab51552b7d79a18ce2394d414d60cf4b"
+   "7e407df45a986a1290250e8e6688572d47b20c6a",
+   "18e5ffb0cf8fb2a996fdbaa5f7dc1a6630d19e69",
+   "0692383bd63be13a6dea5570d34a866f3ecd365b",
+   "5a30c7bd8bdacb6fbc4b8c4f2aac4d03bfcac5e1"
   ],
   "title": "Editorial: Quote properties across the board."
  },
@@ -96,10 +96,10 @@ var prs = {
  },
  "1376": {
   "login": "ljharb",
-  "base": "5c9339cc51b0d8d9c428d48b9d3dc4798d265340",
+  "base": "7b1e75ce83a5ca1bbe7f26e2cf00dc0d6bd95e7d",
   "ref": "intrinsic_dots",
   "revs": [
-   "aa8af1a51972de13ea618f111faff5ffd5ea09d9"
+   "a5afcf30581bc0d44b75ea81e7f09fe56aecd98b"
   ],
   "title": "Editorial: define and use improved intrinsics notation"
  },
@@ -533,6 +533,15 @@ var prs = {
   ],
   "title": "normative: allow await in parameter defaults (#917)"
  },
+ "1641": {
+  "login": "jmdyck",
+  "base": "a68d1296f156ff73075fde36aebd643de4f8ebde",
+  "ref": "ListIterator-next",
+  "revs": [
+   "53677385161057468fe1a5c75311937a59f2cc29"
+  ],
+  "title": "Editorial: Rephrase \"ListIterator next\""
+ },
  "955": {
   "login": "bterlson",
   "base": "9f1f60c38bbfc827ab9f27008f3be717302375dd",
@@ -576,6 +585,15 @@ var prs = {
   ],
   "title": "Editorial: Consistency for the term \"fully populated Property Descriptor\""
  },
+ "1638": {
+  "login": "maddhruv",
+  "base": "a68d1296f156ff73075fde36aebd643de4f8ebde",
+  "ref": "fix-link-to-tc39-meetings",
+  "revs": [
+   "1d32ac2eaef23c48c7051064479fabd4b110ee6f"
+  ],
+  "title": "fix link to TC39 meetings"
+ },
  "1539": {
   "login": "jmdyck",
   "base": "5527c80f770b51929c771a9ef3bd11a97cf593b3",
@@ -604,6 +622,25 @@ var prs = {
    "a2b0457bb1560d1674d624b4233d499df324a7fb"
   ],
   "title": "Allow hosts to reuse an existing Realm Intrinsics record"
+ },
+ "1635": {
+  "login": "devsnek",
+  "base": "a68d1296f156ff73075fde36aebd643de4f8ebde",
+  "ref": "fix/fix-throwtypeerror-definition",
+  "revs": [
+   "5ead2a05b511e998bb8eef1c89297781d271b672"
+  ],
+  "title": "Editorial: fix and improve definition of %ThrowTypeError%"
+ },
+ "1636": {
+  "login": "jmdyck",
+  "base": "a380fa7547be3bfe6fa66824252a63fa6e3980d3",
+  "ref": "editorial",
+  "revs": [
+   "d56d8d373415b87eeee5c7b24c40b69fea77a297",
+   "4b705c618681f01a4166c63f659540ccd11acde5"
+  ],
+  "title": "Editorial: misc fixes"
  },
  "1582": {
   "login": "jmdyck",
@@ -841,9 +878,55 @@ var prs = {
  },
  "1515": {
   "login": "caiolima",
-  "base": "dc1e21c454bd316810be1c0e7af0131a2d7f38e9",
+  "base": "a380fa7547be3bfe6fa66824252a63fa6e3980d3",
   "ref": "big-int",
   "revs": [
+   "a1f575b62267752c6c8370cebd1f6271ef401342",
+   "aa02312b160be7fb0c69a9d41c9132e0c4f2d435",
+   "c351a904b9b96885fa243eb14397db9694f72216",
+   "606da94d3bbc8c6be12b664f2b7e8e5ead6f7b97",
+   "4f78fbeaac7d891269fc9de52a0e39d3b40c467c",
+   "bd3eb7e45e5bb524d88d8dc5486aa0a674284399",
+   "73b2b8334db9afc1c6295c38ea4b0636190c2302",
+   "e054bfb2089ba666881f0526569c78f847474fc3",
+   "c64750bbadf7c1b3636a2c1b208492bd7f848d94",
+   "276df33327faffabc03e03a8d9dbbd51e942ddc8",
+   "e095831228710bc343d8360b25ebb55beffcbd6c",
+   "d3f33b2f7101236ed601ae49d4b47b951c253c1f",
+   "a57f1828c5faafb0230793f23443c5a9f7e58637",
+   "69eafb5642bad038338c5d845c5c8a88bfe4674e",
+   "ce0994bda400fc1670b34760774b31e217bcc6e1",
+   "b2b3d055e07508547b188fd3c885eed89e1cc92f",
+   "58b44f2ae6ecca0f1a410fb1472c44dae4df6c10",
+   "cc77abca80c5fa2179aaeb6df694d45eeb701af6",
+   "fde7cadf50937e8f8c73500cbadefc672949689f",
+   "384eda495274b77f37b4b4012327ffba9d5ebcf9",
+   "c8aa0e4ec23e159dbbd01402f34c17990685c57b",
+   "83767e01bd1fc4898a91ad374c97deacbcd82ace",
+   "55abfd7e3a86d37be423927fa2e2af4a7fb3bf2c",
+   "71ffdb010fa015b85f9a4777ac162402aab30f55",
+   "4cd93dc6d9bbdf1f49931babccc58eb1e446c8c4",
+   "b3a18060312fb74486e29eb25a17612d1db5863d",
+   "6b3df9e7c15260dfd69c6f0f0fab5a3d014da0b0",
+   "429864cf1612320123fe31340bfad1ef935348ed",
+   "12eae19193accc20941d5effa8cde645ccbb7eec",
+   "047b0e4bb0b83701dc7901ae4e4c032193ef361b",
+   "7fdaed19559038d6846619f142545c7c9654a8d1",
+   "0f512049e9ea5611df2447d29a2aa82f3b0cd929",
+   "3e47951fbdeec8a8b935ffc945de4a91ec6951a8",
+   "fd199354b74a4efd907c2849956d2011bea63c3b",
+   "19556ac80856987c168634e3b3ab8ad0a5a0dc44",
+   "33c2821fcb9cd9b081535476a767483d161d792f",
+   "b2ed715a68de61a7d96e682df27716d9a450408d",
+   "881ba76cbc7bfa7f4f47afb4ceed976df25bfc8b",
+   "1cfa7f73c03b927b2798fc7eca797f73d6d44f36",
+   "e3bcb9b0a3b007fabaf162a1f7c9e8bffc6ffd9a",
+   "28ddd24850bb2c120b707237d3671266cff07544",
+   "b0fcc7456b231ffb803ae6896448873f5b374de4",
+   "b7167f4305a5f4006c0f08e35caf85c56c1be1c3",
+   "b37b3b4dc13db4ce8de4e41c2cdfc35feb589f12",
+   "f664933d7cbab9e533b842556253a00ab1d19736",
+   "42dc329349a89872135113eccd48336b761e1db5",
    "e27eb8b4c281c74ac3493a8e2477f44708635356",
    "1b3e382ed1e25f97df2ccdd7e183b279cc66b5da",
    "baf0a529a516e709583053fec0fa01503664fd35",
@@ -918,11 +1001,12 @@ var prs = {
  },
  "545": {
   "login": "jmdyck",
-  "base": "5c9339cc51b0d8d9c428d48b9d3dc4798d265340",
+  "base": "a68d1296f156ff73075fde36aebd643de4f8ebde",
   "ref": "operation_headers",
   "revs": [
-   "6aa7da643317c85325601ccd46f4327415c02414",
-   "43be3c0ff80551c9f8da9a530c9ce433bf072387"
+   "4db8fc1443efe402d84943b8688290d2c781cfd5",
+   "9742ad45c97c1bc2614447970f418f6ffb9ad5fb",
+   "429025006a28c6c0a4f091d15cd2a4e07bec558b"
   ],
   "title": "Replace each abstract op's preamble with a structured 'header'."
  },
@@ -1020,12 +1104,12 @@ var prs = {
  },
  "1562": {
   "login": "jmdyck",
-  "base": "49b1071eef0085947e75eb22bc3f658082441b82",
+  "base": "f62be461027cc715ed6145857ba104f29f71367b",
   "ref": "OrdinaryFunctionCreate",
   "revs": [
-   "1dc95e20fb42012e7fa7c80a16c5acc63ef38ba8",
-   "97510ab8358d18b244584d712dff3569292eb641",
-   "f0c78d988710a6c1ffb7796de9afc555f65ef07a"
+   "b284baff97c890ac5d6faf7ac375f8c3bd5aed59",
+   "9b9f96c06e93cc2f8c96a7b7d286dc03ea60eb7f",
+   "3bd29773fb87ec18ae7449b9c911a6636a7ddb12"
   ],
   "title": "Editorial: Merge FunctionAllocate and FunctionInitialize"
  },
@@ -1054,10 +1138,12 @@ var prs = {
  },
  "1567": {
   "login": "shvaikalesh",
-  "base": "dc1e21c454bd316810be1c0e7af0131a2d7f38e9",
+  "base": "a380fa7547be3bfe6fa66824252a63fa6e3980d3",
   "ref": "more-is-integer",
   "revs": [
-   "2d6b87050af903f1f3bd10e3491b1aa3f5d0f157"
+   "a0061e50a7ca3a60cdf4cb31011bb8f75462056f",
+   "08bfc21e4fb799a9d6664593a6a757f091ae31f0",
+   "597638e8a4ca77a8ff460101d49f72bf45e7fbe7"
   ],
   "title": "Editorial: Extract IsNonNegativeInteger abstract op"
  },
@@ -1162,25 +1248,26 @@ var prs = {
   "base": "dc1e21c454bd316810be1c0e7af0131a2d7f38e9",
   "ref": "iterator-slots",
   "revs": [
+   "10c8867135d655000ce6d2e3c29bfc0f8edf3797",
    "6e93429e5c800602b36ab5ade6de5701322977d2"
   ],
   "title": " Editorial: Name internal slots of iterators consistently"
  },
  "1477": {
   "login": "jmdyck",
-  "base": "49b1071eef0085947e75eb22bc3f658082441b82",
+  "base": "a380fa7547be3bfe6fa66824252a63fa6e3980d3",
   "ref": "scope-records",
   "revs": [
-   "0e32f07ff39b2cc5dafac3328e1f189690199421",
-   "2b38a167c1071b28de61923fde478bddcb7a0e6a",
-   "fdc44c896e71897f56474e00d4ef8328d8eaaa19",
-   "a1f6c07d012981ff448cbacc9c964b2371645c04",
-   "29517bca6817a76b4c50e3032e137bf1790822e1",
-   "cf043268a462e4caf45c085be3085fc180ff88aa",
-   "4fa219705eb0ede37c45c693ce632ad00a7e8f94",
-   "fc5a3bd9d149e4e5053988d2cbc97030cbe029e8",
-   "15957b83297459de640df1e5187141c3345f2602",
-   "1b948a34bcbe4aeeb67c4770f361bdadc8d4a288"
+   "f6568d3978a8a5783cc1bf3718d1a38e5d343301",
+   "0a48ff81bb65f1279b895b75688e7ac4f2a29505",
+   "ee3ceec7cd193cc989e64e13af8545e7bc555fd5",
+   "12195cd627b632bbafe814cb9528a113ca61a67c",
+   "2ccd962f710e0eb68a255b63955a75c3f90ddd0e",
+   "a9a1c02cba7c454c4c03881d4c59f1f98d606ed3",
+   "f4bd3df2bcc29c336484c3843743e8d423455e00",
+   "18cd38a29662896040aedf30433e57e1e471d91d",
+   "d235cc839fcc103b670824dd21b75664a1e11c4d",
+   "10d7c39c6d89b04a7e20fac09b5f8ad0834da169"
   ],
   "title": "Rename \"Environment Record\" as \"Scope Record\", and recast Lexical Environment as a Record"
  },
