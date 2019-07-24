@@ -38,7 +38,7 @@ def generate_html(hash, rebase, subdir, use_cache):
 
     result = '{}/index.html'.format(revdir, hash)
     if use_cache and os.path.exists(result):
-        print('@@@@ skip {}'.format(result))
+        print('@@@@ skip {} (cached)'.format(result))
         return
 
     print('@@@@ {}'.format(revdir))
@@ -135,7 +135,6 @@ def update_prs():
                                                            separators=(',', ': '))))
 
 def github_api(url, query=[]):
-    print('{}?{}'.format(url, '&'.join(map(lambda x: '{}={}'.format(x[0], x[1]), query))))
     query_string = '&'.join(map(lambda x: '{}={}'.format(x[0], x[1]), API_QUERY + query))
     response = urllib2.urlopen('{}?{}'.format(url, query_string))
     data = json.loads(response.read())
@@ -154,6 +153,15 @@ def github_api_pages(url, query=[]):
     return data
 
 def get_pr(pr):
+    basedir = './history/PR/{}'.format(pr)
+
+    info_path = '{}/info.json'.format(basedir)
+
+    prev_info = None
+    if os.path.exists(info_path):
+        with open(info_path, 'r') as in_file:
+            prev_info = json.loads(in_file.read())
+
     data = github_api('https://api.github.com/repos/tc39/ecma262/pulls/{}'.format(pr))
 
     head = data['head']['sha']
@@ -165,7 +173,24 @@ def get_pr(pr):
     mergeable = data['mergeable']
     title = data['title']
 
-    basedir = './history/PR/{}'.format(pr)
+    revs = []
+    data = github_api_pages(commits)
+    for commit in data:
+        hash = commit['sha']
+        revs.append(hash)
+    revs.reverse()
+
+    info = dict()
+    info['ref'] = ref
+    info['login'] = login
+    info['revs'] = revs
+    info['base'] = base
+    info['title'] = title
+
+    if prev_info and info['revs'] == prev_info['revs']:
+        print('@@@@ skip PR {} (cached)'.format(pr))
+        return
+
     if not os.path.exists(basedir):
         os.makedirs(basedir)
 
@@ -189,26 +214,13 @@ def get_pr(pr):
     if ret:
         sys.exit(ret)
 
-    data = github_api_pages(commits)
-
-    revs = []
-    for commit in data:
-        hash = commit['sha']
+    for hash in revs:
         # TODO: add --rebase option for 2nd param
         # TODO: add --ignore-cache option for the last param
         generate_html(hash, False, 'PR/{}/'.format(pr), True)
         generate_json(hash, 'PR/{}/'.format(pr), True)
-        revs.append(hash)
-    revs.reverse()
 
-    info = dict()
-    info['ref'] = ref
-    info['login'] = login
-    info['revs'] = revs
-    info['base'] = base
-    info['title'] = title
-
-    with open('{}/info.json'.format(basedir), 'w') as out_file:
+    with open(info_path, 'w') as out_file:
         out_file.write(json.dumps(info))
 
 def get_all_pr():
@@ -304,7 +316,7 @@ def extract_sections(filename, use_cache):
     out_filename = '{}/sections.json'.format(filename)
 
     if use_cache and os.path.exists(out_filename):
-        print('@@@@ skip {}'.format(out_filename))
+        print('@@@@ skip {} (cached)'.format(out_filename))
         return
 
     print('@@@@ {}'.format(out_filename))
