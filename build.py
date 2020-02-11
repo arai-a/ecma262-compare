@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
 
-import glob
-import json
-import lxml.html
-import lxml.etree
-import os
-import re
+import argparse
 import distutils
 import distutils.dir_util
+import glob
+import json
+import lxml.etree
+import lxml.html
+import os
+import re
 import subprocess
 import sys
 import urllib.request
@@ -241,7 +242,7 @@ def get_pr(pr):
 def get_all_pr(single):
     data = github_api_pages('https://api.github.com/repos/tc39/ecma262/pulls')
     i = 1
-    for pr in data:
+    for pr in reversed(data):
         print('@@@@ {}/{}'.format(i, len(data)), file=sys.stderr)
         print('@@@@ PR {}'.format(pr['number']), file=sys.stderr)
         result = get_pr(pr['number'])
@@ -359,41 +360,39 @@ def generate_json(hash, subdir, use_cache):
     basedir = './history/{}'.format(subdir)
     return extract_sections('{}{}'.format(basedir, hash), use_cache)
 
-def usage():
-    print('Usage:', file=sys.stderr)
-    print('  build.py init', file=sys.stderr)
-    print('  build.py update', file=sys.stderr)
-    print('  build.py pr PR_NUMBER', file=sys.stderr)
+parser = argparse.ArgumentParser(description='Update ecma262 history data')
 
-if len(sys.argv) == 1:
-    usage()
-    sys.exit()
+parser.add_argument("-t", "--token", help='GitHub personal access token')
+subparsers = parser.add_subparsers(dest='command')
+subparsers.add_parser("init", help='Clone ecma262 repository')
+subparsers.add_parser("update", help='Update all revisions')
+subparsers.add_parser("update1", help='Update oldest revision')
+subparsers.add_parser("revs", help='Update revs.js')
+parser_pr = subparsers.add_parser("pr", help='Update PR')
+parser_pr.add_argument("PR_NUMBER", help='PR number, or "all"')
+subparsers.add_parser("pr1", help='Update oldest PR')
+subparsers.add_parser("prs", help='Update prs.js')
+args = parser.parse_args()
 
-if sys.argv[1] == 'init':
+if args.command == 'init':
     init_repo()
-elif sys.argv[1] == 'update':
+elif args.command == 'update':
     update_master(False)
     update_revs()
-elif sys.argv[1] == 'revs':
+elif args.command == 'revs':
     update_revs()
-elif sys.argv[1] == 'update1':
+elif args.command == 'update1':
     update_master(True)
     update_revs()
-elif sys.argv[1] == 'pr':
-    if len(sys.argv) != 3:
-        usage()
-        sys.exit()
-    if sys.argv[2] == 'all':
+elif args.command == 'pr':
+    if args.PR_NUMBER == 'all':
         get_all_pr(False)
         update_prs()
     else:
-        get_pr(sys.argv[2])
+        get_pr(args.PR_NUMBER)
         update_prs()
-elif sys.argv[1] == 'pr1':
+elif args.command == 'pr1':
     get_all_pr(True)
     update_prs()
-elif sys.argv[1] == 'prs':
+elif args.command == 'prs':
     update_prs()
-else:
-    usage()
-    sys.exit()
