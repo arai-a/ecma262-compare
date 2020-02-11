@@ -158,7 +158,7 @@ def github_api(url, query=[]):
             'Authorization': 'token {}'.format(API_TOKEN),
         }
     else:
-        headers = NOne
+        headers = None
     req = urllib.request.Request(url, None, headers)
     response = urllib.request.urlopen(req)
     data = json.loads(response.read())
