@@ -35,7 +35,7 @@ def generate_html(hash, rebase, subdir, use_cache):
     result = '{}/index.html'.format(revdir, hash)
     if use_cache and os.path.exists(result):
         print('@@@@ skip {} (cached)'.format(result))
-        return
+        return False
 
     print('@@@@ {}'.format(revdir))
 
@@ -77,8 +77,9 @@ def generate_html(hash, rebase, subdir, use_cache):
         distutils.dir_util.remove_tree(revdir)
 
     distutils.dir_util.copy_tree(fromdir, revdir)
+    return True
 
-def update_master():
+def update_master(one):
     ret = subprocess.call(['git',
                            'fetch', 'origin', 'master'],
                           cwd='./ecma262')
@@ -93,8 +94,10 @@ def update_master():
                          stderr=subprocess.STDOUT)
     for line in p.stdout:
         hash = line.strip().decode('utf-8')
-        generate_html(hash, False, '', True)
-        generate_json(hash, '', True)
+        result1 = generate_html(hash, False, '', True)
+        result2 = generate_json(hash, '', True)
+        if one and (result1 or result2):
+            break
     p.wait()
 
 def update_revs():
@@ -313,7 +316,7 @@ def extract_sections(filename, use_cache):
 
     if use_cache and os.path.exists(out_filename):
         print('@@@@ skip {} (cached)'.format(out_filename))
-        return
+        return False
 
     print('@@@@ {}'.format(out_filename))
 
@@ -328,10 +331,11 @@ def extract_sections(filename, use_cache):
 
         with open(out_filename, 'w') as out_file:
             out_file.write(json.dumps(data))
+    return True
 
 def generate_json(hash, subdir, use_cache):
     basedir = './history/{}'.format(subdir)
-    extract_sections('{}{}'.format(basedir, hash), use_cache)
+    return extract_sections('{}{}'.format(basedir, hash), use_cache)
 
 def usage():
     print('Usage:')
@@ -346,7 +350,10 @@ if len(sys.argv) == 1:
 if sys.argv[1] == 'init':
     init_repo()
 elif sys.argv[1] == 'update':
-    update_master()
+    update_master(False)
+    update_revs()
+elif sys.argv[1] == 'update1':
+    update_master(True)
     update_revs()
 elif sys.argv[1] == 'pr':
     if len(sys.argv) != 3:

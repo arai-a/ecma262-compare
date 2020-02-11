@@ -12,6 +12,9 @@ init:
 update:
 	$(PYTHON) build.py update
 
+update1:
+	$(PYTHON) build.py update1
+
 pr:
 	$(PYTHON) build.py pr all
 
