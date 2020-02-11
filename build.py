@@ -415,9 +415,11 @@ elif args.command == 'revs':
 elif args.command == 'pr':
     if args.PR_NUMBER == 'all':
         get_all_pr(args.c)
+        update_revs()
         update_prs()
     else:
         get_pr(args.PR_NUMBER)
+        update_revs()
         update_prs()
 elif args.command == 'prs':
     update_prs()
