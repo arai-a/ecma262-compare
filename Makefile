@@ -21,5 +21,8 @@ update1:
 pr:
 	$(PYTHON) build.py pr all
 
+pr1:
+	$(PYTHON) build.py pr1
+
 prs:
 	$(PYTHON) build.py prs

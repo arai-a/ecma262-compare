@@ -10,7 +10,7 @@ import distutils
 import distutils.dir_util
 import subprocess
 import sys
-import urllib
+import urllib.request
 
 with open('./config.json', 'r') as in_file:
     config = json.loads(in_file.read())
@@ -79,7 +79,7 @@ def generate_html(hash, rebase, subdir, use_cache):
     distutils.dir_util.copy_tree(fromdir, revdir)
     return True
 
-def update_master(one):
+def update_master(single):
     ret = subprocess.call(['git',
                            'fetch', 'origin', 'master'],
                           cwd='./ecma262')
@@ -101,7 +101,7 @@ def update_master(one):
         print('@@@@ {}/{}'.format(i, len(hashes)), file=sys.stderr)
         result1 = generate_html(hash, False, '', True)
         result2 = generate_json(hash, '', True)
-        if one and (result1 or result2):
+        if single and (result1 or result2):
             break
         i += 1
     p.wait()
@@ -144,7 +144,7 @@ def update_prs():
 
 def github_api(url, query=[]):
     query_string = '&'.join(map(lambda x: '{}={}'.format(x[0], x[1]), API_QUERY + query))
-    response = urllib.urlopen('{}?{}'.format(url, query_string))
+    response = urllib.request.urlopen('{}?{}'.format(url, query_string))
     data = json.loads(response.read())
     return data
 
@@ -197,7 +197,10 @@ def get_pr(pr):
 
     if prev_info and info['revs'] == prev_info['revs']:
         print('@@@@ skip PR {} (cached)'.format(pr), file=sys.stderr)
-        return
+        return False
+
+    for hash in revs:
+        print('@@@@ rev {}'.format(hash), file=sys.stderr)
 
     if not os.path.exists(basedir):
         os.makedirs(basedir)
@@ -233,11 +236,18 @@ def get_pr(pr):
     with open(info_path, 'w') as out_file:
         out_file.write(txt)
 
-def get_all_pr():
+    return True
+
+def get_all_pr(single):
     data = github_api_pages('https://api.github.com/repos/tc39/ecma262/pulls')
+    i = 1
     for pr in data:
+        print('@@@@ {}/{}'.format(i, len(data)), file=sys.stderr)
         print('@@@@ PR {}'.format(pr['number']), file=sys.stderr)
-        get_pr(pr['number'])
+        result = get_pr(pr['number'])
+        if single and result:
+            break
+        i += 1
 
 def get_text(node):
     return ''.join([x for x in node.itertext()])
@@ -374,11 +384,14 @@ elif sys.argv[1] == 'pr':
         usage()
         sys.exit()
     if sys.argv[2] == 'all':
-        get_all_pr()
+        get_all_pr(False)
         update_prs()
     else:
         get_pr(sys.argv[2])
         update_prs()
+elif sys.argv[1] == 'pr1':
+    get_all_pr(True)
+    update_prs()
 elif sys.argv[1] == 'prs':
     update_prs()
 else:
