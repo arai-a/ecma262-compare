@@ -19,8 +19,10 @@ jobs:
         python-version: "3.7"
     - name: Initialize repository
       run: make init
-    - name: Update
-      run: make update1
+    - name: Update revisions
+      run: make update5
+    - name: Update PRs
+      run: make pr1
     - name: Commit files
       # fails if no files to commit
       continue-on-error: true
