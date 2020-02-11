@@ -19,7 +19,7 @@ with open('./config.json', 'r') as in_file:
     FIRST_REV = config['first_rev']
     FIRST_PR = config['first_pr']
 
-API_TOKEN = None
+API_TOKEN = os.environ.get('GITHUB_TOKEN')
 if os.path.exists('./token.json'):
     with open('./token.json', 'r') as in_file:
         token = json.loads(in_file.read())
