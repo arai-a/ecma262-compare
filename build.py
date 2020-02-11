@@ -34,10 +34,10 @@ def generate_html(hash, rebase, subdir, use_cache):
 
     result = '{}/index.html'.format(revdir, hash)
     if use_cache and os.path.exists(result):
-        print('@@@@ skip {} (cached)'.format(result))
+        print('@@@@ skip {} (cached)'.format(result), file=sys.stderr)
         return False
 
-    print('@@@@ {}'.format(revdir))
+    print('@@@@ {}'.format(revdir), file=sys.stderr)
 
     if rebase:
         ret = subprocess.call(['git',
@@ -98,11 +98,12 @@ def update_master(one):
 
     i = 1
     for hash in reversed(hashes):
-        print('@@@@ {}/{}'.format(i, len(hashes)))
+        print('@@@@ {}/{}'.format(i, len(hashes)), file=sys.stderr)
         result1 = generate_html(hash, False, '', True)
         result2 = generate_json(hash, '', True)
         if one and (result1 or result2):
             break
+        i += 1
     p.wait()
 
 def update_revs():
@@ -195,7 +196,7 @@ def get_pr(pr):
     info['title'] = title
 
     if prev_info and info['revs'] == prev_info['revs']:
-        print('@@@@ skip PR {} (cached)'.format(pr))
+        print('@@@@ skip PR {} (cached)'.format(pr), file=sys.stderr)
         return
 
     if not os.path.exists(basedir):
@@ -203,7 +204,7 @@ def get_pr(pr):
 
     if not mergeable:
         # TODO: add --skip-mergeable option or something
-        #print('@@@@ not mergeable')
+        #print('@@@@ not mergeable', file=sys.stderr)
         #return
         pass
 
@@ -235,7 +236,7 @@ def get_pr(pr):
 def get_all_pr():
     data = github_api_pages('https://api.github.com/repos/tc39/ecma262/pulls')
     for pr in data:
-        print('@@@@ PR {}'.format(pr['number']))
+        print('@@@@ PR {}'.format(pr['number']), file=sys.stderr)
         get_pr(pr['number'])
 
 def get_text(node):
@@ -325,10 +326,10 @@ def extract_sections(filename, use_cache):
     out_filename = '{}/sections.json'.format(filename)
 
     if use_cache and os.path.exists(out_filename):
-        print('@@@@ skip {} (cached)'.format(out_filename))
+        print('@@@@ skip {} (cached)'.format(out_filename), file=sys.stderr)
         return False
 
-    print('@@@@ {}'.format(out_filename))
+    print('@@@@ {}'.format(out_filename), file=sys.stderr)
 
     with open(in_filename, 'r') as in_file:
         dom = lxml.html.fromstring(in_file.read())
@@ -349,10 +350,10 @@ def generate_json(hash, subdir, use_cache):
     return extract_sections('{}{}'.format(basedir, hash), use_cache)
 
 def usage():
-    print('Usage:')
-    print('  build.py init')
-    print('  build.py update')
-    print('  build.py pr PR_NUMBER')
+    print('Usage:', file=sys.stderr)
+    print('  build.py init', file=sys.stderr)
+    print('  build.py update', file=sys.stderr)
+    print('  build.py pr PR_NUMBER', file=sys.stderr)
 
 if len(sys.argv) == 1:
     usage()
