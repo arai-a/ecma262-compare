@@ -18,6 +18,9 @@ update:
 update1:
 	$(PYTHON) build.py update -c 1
 
+update5:
+	$(PYTHON) build.py update -c 5
+
 pr:
 	$(PYTHON) build.py pr all
 
