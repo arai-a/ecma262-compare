@@ -106,12 +106,15 @@ def update_revs():
         out_file.write('var revs = [\n')
         p = subprocess.Popen(['git',
                               'log', '{}^..{}'.format(FIRST_REV, 'origin/master'),
-                              '--pretty=["%ci", "%H"],'],
+                              '--pretty=["%ci", "%H"]'],
                              cwd='./ecma262',
                              stdout=subprocess.PIPE,
                              stderr=subprocess.STDOUT)
         for line in p.stdout:
-            out_file.write(line.strip().decode('utf-8') + '\n')
+            rev = json.loads(line)[1]
+            sections = './history/{}/sections.json'.format(rev)
+            if os.path.exists(sections):
+                out_file.write(line.strip().decode('utf-8') + ',\n')
         p.wait()
         out_file.write('];\n')
 
@@ -354,6 +357,8 @@ if sys.argv[1] == 'init':
     init_repo()
 elif sys.argv[1] == 'update':
     update_master(False)
+    update_revs()
+elif sys.argv[1] == 'revs':
     update_revs()
 elif sys.argv[1] == 'update1':
     update_master(True)

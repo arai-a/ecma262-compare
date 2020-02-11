@@ -9,6 +9,9 @@ init:
 	$(PIP) install -r requirements.txt
 	$(PYTHON) build.py init
 
+revs:
+	$(PYTHON) build.py revs
+
 update:
 	$(PYTHON) build.py update
 
