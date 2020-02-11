@@ -35,10 +35,10 @@ def generate_html(hash, rebase, subdir, use_cache):
 
     result = '{}/index.html'.format(revdir, hash)
     if use_cache and os.path.exists(result):
-        print('@@@@ skip {} (cached)'.format(result), file=sys.stderr)
+        print('@@@@ skip {} (cached)'.format(result))
         return False
 
-    print('@@@@ {}'.format(revdir), file=sys.stderr)
+    print('@@@@ {}'.format(revdir))
 
     if rebase:
         ret = subprocess.call(['git',
@@ -104,7 +104,7 @@ def update_master(count=None):
 
     i = 1
     for hash in reversed(hashes):
-        print('@@@@ {}/{}'.format(i, len(hashes)), file=sys.stderr)
+        print('@@@@ {}/{}'.format(i, len(hashes)))
         result = update_rev(hash)
         if count is not None:
             if result:
@@ -236,20 +236,20 @@ def get_pr(pr):
     info['title'] = title
 
     if prev_info and info['revs'] == prev_info['revs']:
-        print('@@@@ skip PR {} (cached)'.format(pr), file=sys.stderr)
+        print('@@@@ skip PR {} (cached)'.format(pr))
         return False
 
     for hash in revs:
-        print('@@@@ rev {}'.format(hash), file=sys.stderr)
+        print('@@@@ rev {}'.format(hash))
 
-    print('@@@@ base {}'.format(base), file=sys.stderr)
+    print('@@@@ base {}'.format(base))
 
     if not os.path.exists(basedir):
         os.makedirs(basedir)
 
     if not mergeable:
         # TODO: add --skip-mergeable option or something
-        #print('@@@@ not mergeable', file=sys.stderr)
+        #print('@@@@ not mergeable')
         #return
         pass
 
@@ -292,8 +292,8 @@ def get_all_pr(count=None):
 
     i = 1
     for pr in prs:
-        print('@@@@ {}/{}'.format(i, len(prs)), file=sys.stderr)
-        print('@@@@ PR {}'.format(pr['number']), file=sys.stderr)
+        print('@@@@ {}/{}'.format(i, len(prs)))
+        print('@@@@ PR {}'.format(pr['number']))
         result = get_pr(pr['number'])
         if count is not None:
             if result:
@@ -389,10 +389,10 @@ def extract_sections(filename, use_cache):
     out_filename = '{}/sections.json'.format(filename)
 
     if use_cache and os.path.exists(out_filename):
-        print('@@@@ skip {} (cached)'.format(out_filename), file=sys.stderr)
+        print('@@@@ skip {} (cached)'.format(out_filename))
         return False
 
-    print('@@@@ {}'.format(out_filename), file=sys.stderr)
+    print('@@@@ {}'.format(out_filename))
 
     with open(in_filename, 'r') as in_file:
         dom = lxml.html.fromstring(in_file.read())
