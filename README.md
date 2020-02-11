@@ -4,17 +4,15 @@ ES spec comparator
 ## Setup
 
 ```
-$ virtualenv venv
-$ . venv/bin/activate
-$ pip install lxml
-$ python build.py init
+$ make init
 ```
 
-`init` command just clones https://github.com/tc39/ecma262/ .
+This creates virtualenv for other commands, and clones https://github.com/tc39/ecma262/ .
 
 ## Prepare GitHub API key
 
-Create `key.json` file wiht following content
+To update PRs, create `key.json` file wiht following content, to increase the gitHub acces limit.
+(this step isn't necessary for updating already merged revisions)
 
 ```
 {
@@ -38,26 +36,26 @@ To reduce the resource, you can specify the recent revision.
 ## Update already merged revisions
 
 ```
-$ python build.py update
+$ make update
 ```
 
-`update` command fetches changesets from https://github.com/tc39/ecma262/ , and  generates HTML file and JSON file for each revisions.
-HTML files are stored as `./history/{hash}.html`, and JSON files are stored as `./history/{hash}.json`, and they're cached for 2nd invocation.
+This fetches changesets from https://github.com/tc39/ecma262/ , and generates HTML file with resources, and JSON file for each revisions.
+HTML files are stored as `./history/{hash}/index.html`, and JSON files are stored as `./history/{hash}/sections.json`, and they're cached for 2nd invocation.
 
 ## Update specific PR
 
 ```
-$ python build.py pr PR_NUMBER
+$ ./venv/bin/python build.py pr PR_NUMBER
 ```
 
-`pr` command retrieves information about specified PR and generated HTML file and JSON file for each revisions in the PR.
-HTML files are stored as `./history/PR/{PR_NUMMER}/{hash}.html`, and JSON files are stored as `./history/PR/{PR_NUMMER}/{hash}.json`, but they're not cached for 2nd invocation, as parent may change.
+This retrieves information about specified PR and generated HTML file and JSON file for each revisions in the PR.
+HTML files are stored as `./history/PR/{PR_NUMMER}/{hash}/index.html`, and JSON files are stored as `./history/PR/{PR_NUMMER}/{hash}/sections.json`, but they're not cached for 2nd invocation, as parent may change.
 It will fail if the PR is not mergeable.
 
 ## Update all PRs
 
 ```
-$ python build.py pr all
+$ make pr
 ```
 
 It retrieves the list of PRs and update each PR.
