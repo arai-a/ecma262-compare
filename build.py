@@ -92,8 +92,13 @@ def update_master(one):
                          cwd='./ecma262',
                          stdout=subprocess.PIPE,
                          stderr=subprocess.STDOUT)
+    hashes = []
     for line in p.stdout:
-        hash = line.strip().decode('utf-8')
+        hashes.append(line.strip().decode('utf-8'))
+
+    i = 1
+    for hash in reversed(hashes):
+        print('@@@@ {}/{}'.format(i, len(hashes)))
         result1 = generate_html(hash, False, '', True)
         result2 = generate_json(hash, '', True)
         if one and (result1 or result2):
