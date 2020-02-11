@@ -219,8 +219,10 @@ def get_pr(pr):
         generate_html(hash, False, 'PR/{}/'.format(pr), True)
         generate_json(hash, 'PR/{}/'.format(pr), True)
 
+    txt = json.dumps(info)
+
     with open(info_path, 'w') as out_file:
-        out_file.write(json.dumps(info))
+        out_file.write(txt)
 
 def get_all_pr():
     data = github_api_pages('https://api.github.com/repos/tc39/ecma262/pulls')
@@ -291,7 +293,7 @@ def extract_sec_html(dom, sec_list, sec_num_map, sec_title_map):
         id = node.attrib['id']
         num = sec_num_map[id]
         title = sec_title_map[id]
-        html = lxml.etree.tostring(node, method='html')
+        html = lxml.etree.tostring(node, method='html').decode('utf-8')
 
         entry = dict()
         entry['num'] = num
@@ -328,9 +330,10 @@ def extract_sections(filename, use_cache):
         sec_list, sec_num_map, sec_title_map = get_sec_list(dom)
         exclude_subsections(dom, sec_list, sec_num_map, sec_title_map)
         data = extract_sec_html(dom, sec_list, sec_num_map, sec_title_map)
+        txt = json.dumps(data)
 
         with open(out_filename, 'w') as out_file:
-            out_file.write(json.dumps(data))
+            out_file.write(txt)
     return True
 
 def generate_json(hash, subdir, use_cache):
