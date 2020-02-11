@@ -8,3 +8,12 @@ init:
 	$(PIP) install --upgrade pip &&\
 	$(PIP) install -r requirements.txt
 	$(PYTHON) build.py init
+
+update:
+	$(PYTHON) build.py update
+
+pr:
+	$(PYTHON) build.py pr all
+
+prs:
+	$(PYTHON) build.py prs
