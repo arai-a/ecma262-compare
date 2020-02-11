@@ -85,7 +85,7 @@ def update_rev(hash):
     result2 = generate_json(hash, '', True)
     return result1 or result2
 
-def update_master(single):
+def update_master(count=None):
     ret = subprocess.call(['git',
                            'fetch', 'origin', 'master'],
                           cwd='./ecma262')
@@ -106,8 +106,11 @@ def update_master(single):
     for hash in reversed(hashes):
         print('@@@@ {}/{}'.format(i, len(hashes)), file=sys.stderr)
         result = update_rev(hash)
-        if single and result:
-            break
+        if count is not None:
+            if result:
+                count -= 1
+                if count == 0:
+                    break
         i += 1
     p.wait()
 
@@ -255,7 +258,7 @@ def get_pr(pr):
 
     return True
 
-def get_all_pr(single):
+def get_all_pr(count=None):
     data = github_api_pages('https://api.github.com/repos/tc39/ecma262/pulls')
 
     prs = []
@@ -268,8 +271,11 @@ def get_all_pr(single):
         print('@@@@ {}/{}'.format(i, len(prs)), file=sys.stderr)
         print('@@@@ PR {}'.format(pr['number']), file=sys.stderr)
         result = get_pr(pr['number'])
-        if single and result:
-            break
+        if count is not None:
+            if result:
+                count -= 1
+                if count == 0:
+                    break
         i += 1
 
 def get_text(node):
@@ -387,12 +393,12 @@ parser = argparse.ArgumentParser(description='Update ecma262 history data')
 parser.add_argument("-t", "--token", help='GitHub personal access token')
 subparsers = parser.add_subparsers(dest='command')
 subparsers.add_parser("init", help='Clone ecma262 repository')
-subparsers.add_parser("update", help='Update all revisions')
-subparsers.add_parser("update1", help='Update oldest revision')
+parser_update = subparsers.add_parser("update", help='Update all revisions')
+parser_update.add_argument("-c", type=int, help='Maximum number of revisions to handle')
 subparsers.add_parser("revs", help='Update revs.js')
 parser_pr = subparsers.add_parser("pr", help='Update PR')
 parser_pr.add_argument("PR_NUMBER", help='PR number, or "all"')
-subparsers.add_parser("pr1", help='Update oldest PR')
+parser_pr.add_argument("-c", type=int, help='Maximum number of PRs to handle')
 subparsers.add_parser("prs", help='Update prs.js')
 args = parser.parse_args()
 
@@ -402,22 +408,16 @@ if args.token:
 if args.command == 'init':
     init_repo()
 elif args.command == 'update':
-    update_master(False)
+    update_master(args.c)
     update_revs()
 elif args.command == 'revs':
     update_revs()
-elif args.command == 'update1':
-    update_master(True)
-    update_revs()
 elif args.command == 'pr':
     if args.PR_NUMBER == 'all':
-        get_all_pr(False)
+        get_all_pr(args.c)
         update_prs()
     else:
         get_pr(args.PR_NUMBER)
         update_prs()
-elif args.command == 'pr1':
-    get_all_pr(True)
-    update_prs()
 elif args.command == 'prs':
     update_prs()
