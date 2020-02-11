@@ -92,7 +92,7 @@ def update_master():
                          stdout=subprocess.PIPE,
                          stderr=subprocess.STDOUT)
     for line in p.stdout:
-        hash = line.strip()
+        hash = line.strip().decode('utf-8')
         generate_html(hash, False, '', True)
         generate_json(hash, '', True)
     p.wait()
@@ -108,7 +108,7 @@ def update_revs():
                              stdout=subprocess.PIPE,
                              stderr=subprocess.STDOUT)
         for line in p.stdout:
-            out_file.write(line.strip() + '\n')
+            out_file.write(line.strip().decode('utf-8') + '\n')
         p.wait()
         out_file.write('];\n')
 
