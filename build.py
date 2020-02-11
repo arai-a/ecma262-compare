@@ -17,6 +17,7 @@ with open('./config.json', 'r') as in_file:
     config = json.loads(in_file.read())
     REPO_URL = config['repo_url']
     FIRST_REV = config['first_rev']
+    FIRST_PR = config['first_pr']
 
 API_TOKEN = None
 if os.path.exists('./token.json'):
@@ -256,9 +257,15 @@ def get_pr(pr):
 
 def get_all_pr(single):
     data = github_api_pages('https://api.github.com/repos/tc39/ecma262/pulls')
-    i = 1
+
+    prs = []
     for pr in reversed(data):
-        print('@@@@ {}/{}'.format(i, len(data)), file=sys.stderr)
+        if pr['number'] >= FIRST_PR:
+            prs.append(pr)
+
+    i = 1
+    for pr in prs:
+        print('@@@@ {}/{}'.format(i, len(prs)), file=sys.stderr)
         print('@@@@ PR {}'.format(pr['number']), file=sys.stderr)
         result = get_pr(pr['number'])
         if single and result:
