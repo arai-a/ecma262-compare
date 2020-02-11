@@ -1,8 +1,4 @@
-#!/usr/bin/env python2
-
-from __future__ import absolute_import
-from __future__ import division
-from __future__ import print_function
+#!/usr/bin/env python3
 
 import glob
 import json
@@ -14,7 +10,7 @@ import distutils
 import distutils.dir_util
 import subprocess
 import sys
-import urllib2
+import urllib
 
 with open('./config.json', 'r') as in_file:
     config = json.loads(in_file.read())
@@ -136,7 +132,7 @@ def update_prs():
 
 def github_api(url, query=[]):
     query_string = '&'.join(map(lambda x: '{}={}'.format(x[0], x[1]), API_QUERY + query))
-    response = urllib2.urlopen('{}?{}'.format(url, query_string))
+    response = urllib.urlopen('{}?{}'.format(url, query_string))
     data = json.loads(response.read())
     return data
 
