@@ -18,12 +18,11 @@ with open('./config.json', 'r') as in_file:
     REPO_URL = config['repo_url']
     FIRST_REV = config['first_rev']
 
-API_QUERY = []
-if os.path.exists('./key.json'):
-    with open('./key.json', 'r') as in_file:
-        key = json.loads(in_file.read())
-        API_QUERY = [['client_id', key['client_id']],
-                     ['client_secret', key['client_secret']]]
+API_TOKEN = None
+if os.path.exists('./token.json'):
+    with open('./token.json', 'r') as in_file:
+        token = json.loads(in_file.read())
+        API_TOKEN = token['token']
 
 def init_repo():
     if not os.path.exists('./ecma262'):
@@ -80,6 +79,11 @@ def generate_html(hash, rebase, subdir, use_cache):
     distutils.dir_util.copy_tree(fromdir, revdir)
     return True
 
+def update_rev(hash):
+    result1 = generate_html(hash, False, '', True)
+    result2 = generate_json(hash, '', True)
+    return result1 or result2
+
 def update_master(single):
     ret = subprocess.call(['git',
                            'fetch', 'origin', 'master'],
@@ -100,9 +104,8 @@ def update_master(single):
     i = 1
     for hash in reversed(hashes):
         print('@@@@ {}/{}'.format(i, len(hashes)), file=sys.stderr)
-        result1 = generate_html(hash, False, '', True)
-        result2 = generate_json(hash, '', True)
-        if single and (result1 or result2):
+        result = update_rev(hash)
+        if single and result:
             break
         i += 1
     p.wait()
@@ -144,8 +147,16 @@ def update_prs():
                                                            separators=(',', ': '))))
 
 def github_api(url, query=[]):
-    query_string = '&'.join(map(lambda x: '{}={}'.format(x[0], x[1]), API_QUERY + query))
-    response = urllib.request.urlopen('{}?{}'.format(url, query_string))
+    query_string = '&'.join(map(lambda x: '{}={}'.format(x[0], x[1]), query))
+    url = '{}?{}'.format(url, query_string)
+    if API_TOKEN:
+        headers = {
+            'Authorization': 'token {}'.format(API_TOKEN),
+        }
+    else:
+        headers = NOne
+    req = urllib.request.Request(url, None, headers)
+    response = urllib.request.urlopen(req)
     data = json.loads(response.read())
     return data
 
@@ -203,6 +214,8 @@ def get_pr(pr):
     for hash in revs:
         print('@@@@ rev {}'.format(hash), file=sys.stderr)
 
+    print('@@@@ base {}'.format(base), file=sys.stderr)
+
     if not os.path.exists(basedir):
         os.makedirs(basedir)
 
@@ -236,6 +249,8 @@ def get_pr(pr):
 
     with open(info_path, 'w') as out_file:
         out_file.write(txt)
+
+    update_rev(base)
 
     return True
 
@@ -373,6 +388,9 @@ parser_pr.add_argument("PR_NUMBER", help='PR number, or "all"')
 subparsers.add_parser("pr1", help='Update oldest PR')
 subparsers.add_parser("prs", help='Update prs.js')
 args = parser.parse_args()
+
+if args.token:
+    API_TOKEN = args.token
 
 if args.command == 'init':
     init_repo()
