@@ -22,6 +22,8 @@ jobs:
     - name: Update revisions
       run: make update5
     - name: Update PRs
+      env:
+        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
       run: make pr1
     - name: Commit files
       # fails if no files to commit
