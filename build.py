@@ -114,26 +114,45 @@ def update_master(count=None):
         i += 1
     p.wait()
 
+def get_rev_lines(revs):
+    p = subprocess.Popen(['git',
+                          'log'] + revs
+                         + ['--pretty=["%ci", "%H"]'],
+                         cwd='./ecma262',
+                         stdout=subprocess.PIPE,
+                         stderr=subprocess.STDOUT)
+    lines = []
+    for line in p.stdout:
+        lines.append(line.decode('utf-8'))
+    p.wait()
+
+    return lines
+
 def update_revs():
+    lines = get_rev_lines(['{}^..{}'.format(FIRST_REV, 'origin/master')])
+
+    bases = set()
+    prs = get_prs()
+    for pr in prs:
+        bases.add(prs[pr]["base"])
+
+    for base in bases:
+        x = get_rev_lines(['-1', base])[0]
+        if x not in lines:
+            lines.append(x)
+
     with open('./revs.js', 'w') as out_file:
         out_file.write('"use strict";\n')
         out_file.write('var revs = [\n')
-        p = subprocess.Popen(['git',
-                              'log', '{}^..{}'.format(FIRST_REV, 'origin/master'),
-                              '--pretty=["%ci", "%H"]'],
-                             cwd='./ecma262',
-                             stdout=subprocess.PIPE,
-                             stderr=subprocess.STDOUT)
-        for line in p.stdout:
+        for line in sorted(lines, reverse=True):
             rev = json.loads(line)[1]
             sections = './history/{}/sections.json'.format(rev)
             if os.path.exists(sections):
-                out_file.write(line.strip().decode('utf-8') + ',\n')
-        p.wait()
+                out_file.write(line.strip() + ',\n')
         out_file.write('];\n')
 
 pr_pat = re.compile('PR/([0-9]+)/')
-def update_prs():
+def get_prs():
     prs = dict()
 
     for info_path in glob.glob('./history/PR/*/info.json'):
@@ -144,6 +163,11 @@ def update_prs():
                 info = json.loads(in_file.read())
 
             prs[pr] = info
+
+    return prs
+
+def update_prs():
+    prs = get_prs()
 
     with open('./prs.js', 'w') as out_file:
         out_file.write('"use strict";\n')
@@ -415,11 +439,11 @@ elif args.command == 'revs':
 elif args.command == 'pr':
     if args.PR_NUMBER == 'all':
         get_all_pr(args.c)
-        update_revs()
         update_prs()
+        update_revs()
     else:
         get_pr(args.PR_NUMBER)
-        update_revs()
         update_prs()
+        update_revs()
 elif args.command == 'prs':
     update_prs()
