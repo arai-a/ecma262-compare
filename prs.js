@@ -60,6 +60,15 @@ var prs = {
   "base": "a09fc232c137800dbf51b6204f37fdede4ba1646",
   "title": "Layering: Add GetRequestedModules() to Module Record"
  },
+ "1547": {
+  "ref": "SourceText",
+  "login": "jmdyck",
+  "revs": [
+   "0cccdeacf29719969e1749f6078b8c8ef9550d10"
+  ],
+  "base": "787642ad2d159c8358a8782c9414f6d5fb6efa6f",
+  "title": "Editorial: fix inconsistency re type of [[SourceText]]"
+ },
  "1519": {
   "ref": "resolve_831",
   "login": "jmdyck",
