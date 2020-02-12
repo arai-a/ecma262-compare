@@ -28,6 +28,13 @@ var prs = {
   "base": "85f905aff137a7f0872c48e16d6b883b7b46212a",
   "title": "[WIP] meta: show diffs on pr renders"
  },
+ "1782": {
+  "ref": "rename-callbackfn",
+  "login": "shvaikalesh",
+  "head": "30e7b07b4f002bc530c98ed2f1dbc2b70195824a",
+  "base": "c77f0081a197eeaaf5589bc7ebe306b1cc5c9162",
+  "title": "Editorial: Rename predicate function parameter of Array methods"
+ },
  "1518": {
   "ref": "array_join_cyclic",
   "login": "ljharb",
@@ -41,6 +48,13 @@ var prs = {
   "head": "b3bfef067a59548ef763903a4e59ef1891508bc0",
   "base": "8f0f69279b5f9e12ebe8f7052322b93d17e36b54",
   "title": "Set \"name\" property for anonymous functions"
+ },
+ "1787": {
+  "ref": "editorial",
+  "login": "jmdyck",
+  "head": "d284dbc09a12004e94b5421a66956bee7880a3d3",
+  "base": "e5c0f84610df095de6256e6cf083f4a901e67fde",
+  "title": "Editorial: quick fixes for recent merges"
  },
  "1408": {
   "ref": "iterator-close-get-method",
@@ -91,6 +105,13 @@ var prs = {
   "base": "a09fc232c137800dbf51b6204f37fdede4ba1646",
   "title": "Layering: Add GetRequestedModules() to Module Record"
  },
+ "1776": {
+  "ref": "async-iterator-next",
+  "login": "ljharb",
+  "head": "0a6e461a3707aa8cdb9e209458171a00a8f113a3",
+  "base": "618479affe6b55bfca47fd058ce3a837a7d6c46c",
+  "title": "Normative: make async iterators next/return/throw not pass `undefined` when value is absent"
+ },
  "1669": {
   "ref": "fix/evaluate-timing",
   "login": "devsnek",
@@ -140,6 +161,13 @@ var prs = {
   "base": "787642ad2d159c8358a8782c9414f6d5fb6efa6f",
   "title": "Editorial: fix inconsistency re type of [[SourceText]]"
  },
+ "1781": {
+  "ref": "quikfix",
+  "login": "devsnek",
+  "head": "05205eefc9379fbf3f55683199dca3a816d26170",
+  "base": "edeeafa68a4350733157e643228e309258c960de",
+  "title": "Editorial: A couple fixes from OrdinaryFunctionCreate and undefined arguments"
+ },
  "1612": {
   "ref": "sort_algo",
   "login": "jmdyck",
@@ -153,6 +181,13 @@ var prs = {
   "head": "4b2517039e53c7cea471a4bc432d883d8c5f6683",
   "base": "69d9e638031c6a16199cbd844b13ccd4b14826b5",
   "title": "Editorial: Remove unused steps from definitions of Contains"
+ },
+ "1775": {
+  "ref": "get-super-after-args",
+  "login": "bmeck",
+  "head": "79dd3317af449005a33795eed4b8640d14ebb2dc",
+  "base": "618479affe6b55bfca47fd058ce3a837a7d6c46c",
+  "title": "Normative: Make super() throw after evaluating args"
  },
  "1573": {
   "ref": "returnifabrupt-refactor",
