@@ -1,8 +1,9 @@
-name: Update1
+name: Update revisions and PRs
 
 on:
-  issue_comment:
-    types: [created, edited]
+  schedule:
+    # Every 10 minutes
+    - cron:  '*/10 * * * *'
 
 jobs:
   build:
