@@ -23,13 +23,13 @@ To update PRs, create `token.json` file wiht following content, to increase the 
 
 ## Modify the first revision of the history
 
-`config.json` contains the information about the repository and the first revision that will be processed and shown in the comparator.
-To reduce the resource, you can specify the recent revision.
+`config.json` contains the information about the repository and the first revision that will be processed (`update_first_rev`) and shown (`first_rev`) in the comparator, and the first PR that wil be checked and shown (`first_pr`).
 
 ```
 {
   "repo_url": "https://github.com/tc39/ecma262/",
   "first_rev": "948baad6d2e026dd637e27d7abc93cbac31597fa",
+  "update_first_rev": "787642ad2d159c8358a8782c9414f6d5fb6efa6f",
   "first_pr": 1402
 }
 ```

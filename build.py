@@ -17,6 +17,7 @@ with open('./config.json', 'r') as in_file:
     config = json.loads(in_file.read())
     REPO_URL = config['repo_url']
     FIRST_REV = config['first_rev']
+    UPDATE_FIRST_REV = config['update_first_rev']
     FIRST_PR = config['first_pr']
 
 API_TOKEN = os.environ.get('GITHUB_TOKEN')
@@ -91,7 +92,7 @@ def update_master(count=None):
         sys.exit(ret)
 
     p = subprocess.Popen(['git',
-                          'log', '{}^..{}'.format(FIRST_REV, 'origin/master'),
+                          'log', '{}^..{}'.format(UPDATE_FIRST_REV, 'origin/master'),
                           '--pretty=%H'],
                          cwd='./ecma262',
                          stdout=subprocess.PIPE,
