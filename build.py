@@ -29,7 +29,7 @@ def init_repo():
     if not os.path.exists('./ecma262'):
         subprocess.call(['git', 'clone', REPO_URL])
 
-def generate_html(hash, rebase, subdir, use_cache):
+def generate_html(hash, subdir, use_cache):
     basedir = './history/{}'.format(subdir)
     revdir = '{}{}'.format(basedir, hash)
 
@@ -42,12 +42,8 @@ def generate_html(hash, rebase, subdir, use_cache):
     print('@@@@ {}'.format(revdir))
     sys.stdout.flush()
 
-    if rebase:
-        ret = subprocess.call(['git',
-                               'cherry-pick', hash], cwd='./ecma262')
-    else:
-        ret = subprocess.call(['git',
-                               'checkout', hash], cwd='./ecma262')
+    ret = subprocess.call(['git',
+                           'checkout', hash], cwd='./ecma262')
     if ret:
         sys.exit(ret)
 
@@ -83,7 +79,7 @@ def generate_html(hash, rebase, subdir, use_cache):
     return True
 
 def update_rev(hash):
-    result1 = generate_html(hash, False, '', True)
+    result1 = generate_html(hash, '', True)
     result2 = generate_json(hash, '', True)
     return result1 or result2
 
@@ -203,7 +199,7 @@ def github_api_pages(url, query=[]):
                 break
     return data
 
-def get_pr(pr):
+def get_pr_with(pr, info, url):
     basedir = './history/PR/{}'.format(pr)
 
     info_path = '{}/info.json'.format(basedir)
@@ -213,36 +209,7 @@ def get_pr(pr):
         with open(info_path, 'r') as in_file:
             prev_info = json.loads(in_file.read())
 
-    data = github_api('https://api.github.com/repos/tc39/ecma262/pulls/{}'.format(pr))
-
-    head = data['head']['sha']
-    base = data['base']['sha']
-    ref = data['head']['ref']
-    login = data['head']['user']['login']
-    url = data['head']['repo']['clone_url']
-    commits = data['commits_url']
-    mergeable = data['mergeable']
-    title = data['title']
-
-    revs = []
-    data = github_api_pages(commits)
-    for commit in data:
-        hash = commit['sha']
-        revs.append(hash)
-    revs.reverse()
-
-    # Use latest one only
-    if len(revs) > 0:
-        revs = [revs[0]]
-
-    info = dict()
-    info['ref'] = ref
-    info['login'] = login
-    info['revs'] = revs
-    info['base'] = base
-    info['title'] = title
-
-    if prev_info and info['revs'] == prev_info['revs']:
+    if prev_info and info['head'] == prev_info['head']:
         print('@@@@ skip PR {} (cached)'.format(pr))
         sys.stdout.flush()
         return False
@@ -250,55 +217,62 @@ def get_pr(pr):
     if not os.path.exists(basedir):
         os.makedirs(basedir)
 
-    if not mergeable:
-        # TODO: add --skip-mergeable option or something
-        #print('@@@@ not mergeable')
-        #sys.stdout.flush()
-        #return
-        pass
-
     subprocess.call(['git',
-                     'remote', 'add', login, url],
+                     'remote', 'add', info['login'], url],
                     cwd='./ecma262')
     ret = subprocess.call(['git',
-                           'fetch', login, ref],
+                           'fetch', info['login'], info['ref']],
                           cwd='./ecma262')
     if ret:
         sys.exit(ret)
 
-    ret = subprocess.call(['git',
-                           'checkout', base], cwd='./ecma262')
-    if ret:
-        sys.exit(ret)
-
-    for hash in revs:
-        # TODO: add --rebase option for 2nd param
-        # TODO: add --ignore-cache option for the last param
-        generate_html(hash, False, 'PR/{}/'.format(pr), True)
-        generate_json(hash, 'PR/{}/'.format(pr), True)
+    generate_html(info['head'], 'PR/{}/'.format(pr), True)
+    generate_json(info['head'], 'PR/{}/'.format(pr), True)
 
     txt = json.dumps(info)
 
     with open(info_path, 'w') as out_file:
         out_file.write(txt)
 
-    update_rev(base)
+    update_rev(info['base'])
 
     return True
+
+def pr_info(data):
+    info = dict()
+    info['ref'] = data['head']['ref']
+    info['login'] = data['head']['user']['login']
+    info['head'] = data['head']['sha']
+    info['base'] = data['base']['sha']
+    info['title'] = data['title']
+
+    return info
+
+def get_pr(pr):
+    data = github_api('https://api.github.com/repos/tc39/ecma262/pulls/{}'.format(pr))
+
+    url = data['head']['repo']['clone_url']
+    info = pr_info(data)
+
+    return get_pr_with(pr, info, url)
 
 def get_all_pr(count=None):
     data = github_api_pages('https://api.github.com/repos/tc39/ecma262/pulls')
 
     prs = []
-    for pr in reversed(data):
-        if pr['number'] >= FIRST_PR:
-            prs.append(pr)
+    for d in reversed(data):
+        if d['number'] >= FIRST_PR:
+            prs.append(d)
 
     i = 1
-    for pr in prs:
-        print('@@@@ {}/{} PR {}'.format(i, len(prs), pr['number']))
+    for data in prs:
+        pr = data['number']
+        url = data['head']['repo']['clone_url']
+        info = pr_info(data)
+
+        print('@@@@ {}/{} PR {}'.format(i, len(prs), pr))
         sys.stdout.flush()
-        result = get_pr(pr['number'])
+        result = get_pr_with(pr, info, url)
         if count is not None:
             if result:
                 count -= 1

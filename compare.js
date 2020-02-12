@@ -76,7 +76,7 @@ async function parseQuery() {
       let info = prs[pr];
 
       fromRev.value = info.base;
-      toRev.value = info.revs[0];
+      toRev.value = info.head;
       updateHistoryLink();
 
       prFilter.value = pr;
@@ -104,13 +104,10 @@ function populateRevs(menu, opts) {
   for (let pr of prnums) {
     let info = prs[pr];
 
-    let len = info.revs.length;
-    for (let rev of info.revs) {
-      let opt = document.createElement("option");
-      opt.value = `PR/${pr}/${rev}`;
-      opt.appendChild(document.createTextNode(`${rev} (PR ${pr} by ${info.login})`));
-      opts.push(opt);
-    }
+    let opt = document.createElement("option");
+    opt.value = `PR/${pr}/${info.head}`;
+    opt.appendChild(document.createTextNode(`${info.head} (PR ${pr} by ${info.login})`));
+    opts.push(opt);
   }
 
   populateMenu(menu, opts, () => true);
@@ -151,7 +148,7 @@ function filterRev(target) {
   let prLink = document.getElementById("pr-link");
   if (pr in prs) {
     info = prs[pr];
-    revSet = new Set(info.revs.map(rev => `PR/${pr}/${rev}`).concat(info.base));
+    revSet = new Set(info.head, info.base);
 
     prLink.href = pr_url(pr);
     prLink.innerText = `Open PR ${pr}`;
@@ -194,7 +191,7 @@ function filterRev(target) {
 
   if (revSet && !fromRevSearch && !toRevSearch) {
     fromRev.value = info.base;
-    toRev.value = `PR/${pr}/${info.revs[0]}`;
+    toRev.value = `PR/${pr}/${info.head}`;
     updateHistoryLink();
   }
 }
