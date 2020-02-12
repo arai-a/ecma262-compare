@@ -1,4 +1,5 @@
 # ecma262-compare
+
 ES spec comparator
 
 ## Setup
@@ -9,15 +10,14 @@ $ make init
 
 This creates virtualenv for other commands, and clones https://github.com/tc39/ecma262/ .
 
-## Prepare GitHub API key
+## Prepare GitHub API Token
 
-To update PRs, create `key.json` file wiht following content, to increase the gitHub acces limit.
+To update PRs, create `token.json` file wiht following content, to increase the gitHub acces limit.
 (this step isn't necessary for updating already merged revisions)
 
 ```
 {
-  "client_id": "YOUR_CLIENT_ID",
-  "client_secret": "YOUR_CLIENT_SECRET"
+  "token": "GITHUB_TOKEN"
 }
 ```
 
@@ -29,7 +29,8 @@ To reduce the resource, you can specify the recent revision.
 ```
 {
   "repo_url": "https://github.com/tc39/ecma262/",
-  "first_rev": "17ebeea7386e2411e56f58f20c8d442ce91f5f42"
+  "first_rev": "948baad6d2e026dd637e27d7abc93cbac31597fa",
+  "first_pr": 1402
 }
 ```
 
