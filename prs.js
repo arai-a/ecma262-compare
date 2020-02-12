@@ -14,6 +14,13 @@ var prs = {
   "base": "a5375bdad264c8aa264d9c44f57408087761069e",
   "title": "Normative: Guard TypedArray methods from non-exotic receivers"
  },
+ "1739": {
+  "ref": "function-implementation-hiding",
+  "login": "michaelficarra",
+  "head": "9dc4c0dce326e1367e9603fafe62d6458e4ceec6",
+  "base": "9c8d03c1f1a0306d01e8422b28cde757093bd216",
+  "title": "function implementation hiding"
+ },
  "1689": {
   "ref": "feature/diff-prs",
   "login": "devsnek",
@@ -196,6 +203,13 @@ var prs = {
   "base": "a95e95a63bc1fd7d71f089ad1d68be0cce4caf34",
   "title": "Editorial: Provide context for HostImportModuleDynamically requirement"
  },
+ "1713": {
+  "ref": "regexp-match-indices",
+  "login": "rbuckton",
+  "head": "ead3d3f6c4cd5cb13266bb226c4d9b58e49e29c3",
+  "base": "bdcd53150ef7c49d53347e1fe124e965850ca474",
+  "title": "Normative: add RegExp Match Indices"
+ },
  "1420": {
   "ref": "parameterize-intrinsics",
   "login": "bmeck",
@@ -209,6 +223,13 @@ var prs = {
   "head": "6965b3b38c6f4076ff1aa7df8dfaa9c3d65893a2",
   "base": "8f0f69279b5f9e12ebe8f7052322b93d17e36b54",
   "title": "Editorial: Remove assertion in InitializeBinding of Object Environment Record"
+ },
+ "1727": {
+  "ref": "2019-10-main-grammar-disambiguation",
+  "login": "gibson042",
+  "head": "a222ba635a0b666995e58048c26943b058be7813",
+  "base": "98813bcb6c865932048677f918a16fa7fa9cccdc",
+  "title": "Editorial: Formally disambiguate the non-Annex-B grammar"
  },
  "1498": {
   "ref": "pr-needs-consensus-hostensurecancompilestrings-passthru",
@@ -258,6 +279,20 @@ var prs = {
   "head": "ffa6cba4b76f99d858eb93d7a582006704ecd2d8",
   "base": "85f905aff137a7f0872c48e16d6b883b7b46212a",
   "title": "meta: make \"new feature\" issue template clearer"
+ },
+ "1732": {
+  "ref": "gh-1426-GetSubstitution-dollar-nn",
+  "login": "gibson042",
+  "head": "1ab6c465dc3e8f744e2d81cc40271d718a68510c",
+  "base": "8fd2e014fa52a1c932686904a7b46eb742fe3112",
+  "title": "Normative: Update GetSubstitution to match reality"
+ },
+ "1697": {
+  "ref": "eliminate-lex-env",
+  "login": "jmdyck",
+  "head": "f509b20e90e2cbd724714579f80bec8b27fe916a",
+  "base": "e5c0f84610df095de6256e6cf083f4a901e67fde",
+  "title": "Editorial: Eliminate Lexical Environment"
  },
  "1597": {
   "ref": "enqueue-promise-job",
