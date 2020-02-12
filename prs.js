@@ -42,6 +42,20 @@ var prs = {
   "base": "618479affe6b55bfca47fd058ce3a837a7d6c46c",
   "title": "Editorial: adding ids to individual algorithms of equality semantics"
  },
+ "1830": {
+  "ref": "about-this-spec-grammar-fix",
+  "login": "sideshowbarker",
+  "head": "dc2b8103d57225031986216a4f0b435988c51930",
+  "base": "f0c10cfb5ff87b892580cae6a2dc59a045cbac3e",
+  "title": "Editorial: Update About this Specification wording"
+ },
+ "1838": {
+  "ref": "editorial/improve-array-defineownproperty-length-variable-names",
+  "login": "EB-Forks",
+  "head": "0f086d773b29df3a913b425ff52be24de530c0e5",
+  "base": "63be86408b2c01899d6fd565db9a85d76a56de42",
+  "title": "editorial: Improve\u00a0`Array.[[DefineOwnProperty]]` length\u00a0variable\u00a0names"
+ },
  "1518": {
   "ref": "array_join_cyclic",
   "login": "ljharb",
@@ -104,6 +118,13 @@ var prs = {
   "head": "7244f340581a62d1bb4b1c009cef7564206777ac",
   "base": "f158df16b4bfa4d8d1efa7407ebfe8eeb339f4fd",
   "title": "Normative: correct spec bug in `RegExp.prototype[Symbol.matchAll]`"
+ },
+ "1821": {
+  "ref": "aoid-for-case-block-evaluation",
+  "login": "bathos",
+  "head": "50ac1a69febc0faf0bbc7c800c5419869534d6be",
+  "base": "ecb4178012d6b4d9abc13fcbd45f5c6394b832ce",
+  "title": "Editorial: Add aoid for CaseBlockEvaluation so it gets auto-linked / ref-counted"
  },
  "1501": {
   "ref": "master",
@@ -238,6 +259,13 @@ var prs = {
   "base": "8f0f69279b5f9e12ebe8f7052322b93d17e36b54",
   "title": "(ignore) Normative: Add public and private class fields"
  },
+ "1827": {
+  "ref": "to-integer-neg-zero",
+  "login": "ljharb",
+  "head": "ddac91dc5449da3d62ac07571dc491c7b3ffe157",
+  "base": "787642ad2d159c8358a8782c9414f6d5fb6efa6f",
+  "title": "Normative: ToInteger normalizes `-0` to `+0`"
+ },
  "1808": {
   "ref": "asi-section-wordsmithing",
   "login": "rkirsling",
@@ -258,6 +286,13 @@ var prs = {
   "head": "88c606ebf48faeba45eca5bd1b4c7d6d1e71c45c",
   "base": "693e09a4b9ce52b060ceda897b042c3f83f0a738",
   "title": "Normative: Use Number arithmetic for constructing dates and times"
+ },
+ "1828": {
+  "ref": "lookahead-shorthand-correction",
+  "login": "bathos",
+  "head": "297f7fb6aae58f28b80e0bdfe7d0604c2de190ce",
+  "base": "cb73c69d861db21506c0246197fd87b723d6cdb4",
+  "title": "Editorial: Lookahead single-element shorthand permits terminal sequences"
  },
  "1402": {
   "ref": "template-bugfix",
