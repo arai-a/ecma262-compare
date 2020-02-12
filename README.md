@@ -12,7 +12,7 @@ This creates virtualenv for other commands, and clones https://github.com/tc39/e
 
 ## Prepare GitHub API Token
 
-Create `token.json` file wiht following content, to increase the GitHub API access limit.
+Create `token.json` file with following content (replacing `GITHUB_TOKEN` with your personal access token), to increase the GitHub API access limit.
 
 ```
 {
@@ -39,7 +39,7 @@ Create `token.json` file wiht following content, to increase the GitHub API acce
 $ make update
 ```
 
-This fetches changesets from https://github.com/tc39/ecma262/ , and generates HTML file with resources, and JSON file for each revisions.
+This fetches commits from https://github.com/tc39/ecma262/ , and generates HTML file with resources, and JSON file for each revision.
 HTML files are stored as `./history/{hash}/index.html`, and JSON files are stored as `./history/{hash}/sections.json`, and they're cached for 2nd invocation.
 
 ## Update specific PR
