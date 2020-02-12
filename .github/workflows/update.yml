@@ -1,11 +1,9 @@
 name: Update revisions and PRs
 
 on:
-  issue_comment:
-    types: [created]
-#  schedule:
-#    # Every 10 minutes
-#    - cron:  '*/10 * * * *'
+  schedule:
+    # Every 10 minutes
+    - cron:  '*/10 * * * *'
 
 jobs:
   build:
