@@ -148,7 +148,7 @@ function filterRev(target) {
   let prLink = document.getElementById("pr-link");
   if (pr in prs) {
     info = prs[pr];
-    revSet = new Set(info.head, info.base);
+    revSet = new Set([info.head, info.base]);
 
     prLink.href = pr_url(pr);
     prLink.innerText = `Open PR ${pr}`;
