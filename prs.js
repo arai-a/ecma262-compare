@@ -81,6 +81,15 @@ var prs = {
   "base": "a09fc232c137800dbf51b6204f37fdede4ba1646",
   "title": "Layering: Add GetRequestedModules() to Module Record"
  },
+ "1664": {
+  "ref": "pr5",
+  "login": "jhnaldo",
+  "revs": [
+   "922cbdc1fe9421e0e24533fc6f219733e8d1be71"
+  ],
+  "base": "8f0f69279b5f9e12ebe8f7052322b93d17e36b54",
+  "title": "Editorial: Fixed error for already unwrapped completion records"
+ },
  "1658": {
   "ref": "early-error-covering-assignment-pattern",
   "login": "claudepache",
@@ -98,6 +107,24 @@ var prs = {
   ],
   "base": "c808fe2b7bcc71ff22b06fe96b4260edcc4be5ba",
   "title": "Editorial: remove useless step of ReturnIfAbrupt expansion"
+ },
+ "1661": {
+  "ref": "pr2",
+  "login": "jhnaldo",
+  "revs": [
+   "1d2e43da9d6ef7ebd7256281fe43d0eeb5da3a91"
+  ],
+  "base": "8f0f69279b5f9e12ebe8f7052322b93d17e36b54",
+  "title": "Editorial: Resolved ambiguous VarScopedDeclarations for IterationStatement"
+ },
+ "1665": {
+  "ref": "feature/built-in-suspendable-functions",
+  "login": "devsnek",
+  "revs": [
+   "10cf07662ed7e75a06033b332b58758878cc3bec"
+  ],
+  "base": "8f0f69279b5f9e12ebe8f7052322b93d17e36b54",
+  "title": "Editorial: enable built-in async and sync generator functions to be specified"
  },
  "1547": {
   "ref": "SourceText",
@@ -198,6 +225,15 @@ var prs = {
   "base": "85ce767c86a1a8ed719fe97e978028bff819d1f2",
   "title": "Allow hosts to reuse an existing Realm Intrinsics record"
  },
+ "1660": {
+  "ref": "pr1",
+  "login": "jhnaldo",
+  "revs": [
+   "6965b3b38c6f4076ff1aa7df8dfaa9c3d65893a2"
+  ],
+  "base": "8f0f69279b5f9e12ebe8f7052322b93d17e36b54",
+  "title": "Editorial: Remove assertion in InitializeBinding of Object Environment Record"
+ },
  "1498": {
   "ref": "pr-needs-consensus-hostensurecancompilestrings-passthru",
   "login": "tc39",
@@ -233,6 +269,15 @@ var prs = {
   ],
   "base": "257cae9f69068704fc9e89a729f54bd7977c9161",
   "title": "Editorial: Add missing has operation to property operations"
+ },
+ "1662": {
+  "ref": "pr3",
+  "login": "jhnaldo",
+  "revs": [
+   "0ad518535b5d60adc2a6320f0dae7c51a0ac2285"
+  ],
+  "base": "8f0f69279b5f9e12ebe8f7052322b93d17e36b54",
+  "title": "Editorial: Added more missing cases for ExpectedArgumentCount for FormalParameters and FormalParameterList"
  },
  "1522": {
   "ref": "re_1510",
