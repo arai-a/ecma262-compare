@@ -27,6 +27,7 @@ function bodyOnLoad() {
   populateRevs(toRev, toOpts);
 
   document.getElementById("view-diff").checked = true;
+  document.getElementById("view-diff-tab").classList.add("selected");
   document.getElementById("sec-filter").checked = true;
 
   parseQuery();
@@ -433,13 +434,13 @@ async function combineSections(result, sections, isDiff) {
 
   let i = 0, len = sections.size;
 
-  const processIndicator = document.getElementById("progress");
+  const stat = document.getElementById("diff-stat");
 
   result.innerText = "";
   for (let [id, HTML] of sections) {
     if (len > 1) {
       i++;
-      processIndicator.textContent = `processing ${i}/${len}`;
+      stat.textContent = `processing ${i}/${len}`;
       await new Promise(r => setTimeout(r, 1));
 
       if (combineStatus.abortProcessing) {
@@ -462,7 +463,7 @@ async function combineSections(result, sections, isDiff) {
     }
   }
 
-  processIndicator.textContent = "";
+  stat.textContent = "";
 
   combineStatus.processing = false;
 }
@@ -496,10 +497,10 @@ async function compare() {
       }
 
       let fromHTML = null, toHTML = null;
-      if (id in fromSecData.secData) {
+      if (fromSecData.secData && id in fromSecData.secData) {
         fromHTML = fromSecData.secData[id].html;
       }
-      if (id in toSecData.secData) {
+      if (toSecData.secData && id in toSecData.secData) {
         toHTML = toSecData.secData[id].html;
       }
       secList.push([id, fromHTML, toHTML]);
@@ -508,16 +509,19 @@ async function compare() {
     let id = document.getElementById("sec-list").value;
 
     let fromHTML = null, toHTML = null;
-    if (id in fromSecData.secData) {
+    if (fromSecData.secData && id in fromSecData.secData) {
       fromHTML = fromSecData.secData[id].html;
     }
-    if (id in toSecData.secData) {
+    if (toSecData.secData && id in toSecData.secData) {
       toHTML = toSecData.secData[id].html;
     }
     secList.push([id, fromHTML, toHTML]);
   }
 
   if (document.getElementById("view-diff").checked) {
+    document.getElementById("view-from-tab").classList.remove("selected");
+    document.getElementById("view-to-tab").classList.remove("selected");
+    document.getElementById("view-diff-tab").classList.add("selected");
     result.classList.add("diff-view");
 
     let sections = new Map();
@@ -544,12 +548,21 @@ async function compare() {
     document.getElementById("diff-stat").innerText = `+${add} -${del}${note}`;
   } else {
     if (document.getElementById("view-from").checked) {
+      document.getElementById("view-from-tab").classList.add("selected");
+      document.getElementById("view-to-tab").classList.remove("selected");
+      document.getElementById("view-diff-tab").classList.remove("selected");
+
       let sections = new Map();
       for (let [id, fromHTML, toHTML] of secList) {
         sections.set(id, fromHTML);
       }
       await combineSections(result, sections, false);
     } else if (document.getElementById("view-to").checked) {
+      document.getElementById("view-from-tab").classList.remove("selected");
+      document.getElementById("view-to-tab").classList.add("selected");
+      document.getElementById("view-diff-tab").classList.remove("selected");
+
+
       let sections = new Map();
       for (let [id, fromHTML, toHTML] of secList) {
         sections.set(id, toHTML);

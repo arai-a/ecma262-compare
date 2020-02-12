@@ -6,10 +6,6 @@ body > div {
     width: 100%;
 }
 
-#controller {
-    border-bottom: 1px solid #808080;
-}
-
 #rev-controller-container,
 #sections-controller-container {
     padding: 0 20px;
@@ -70,25 +66,28 @@ h1 {
 #view-to-tab,
 #view-diff-tab {
     border: 1px solid #808080;
-    border-bottom: none;
     width: 6em;
     padding: 0 4px;
 }
 
+#view-from-tab.selected,
+#view-to-tab.selected,
+#view-diff-tab.selected {
+    border-bottom: none;
+}
+
 #diff-stat {
+    border-bottom: 1px solid #808080;
     color: #808080;
     padding: 0 4px;
     flex: 1;
 }
 #diff-note {
+    border-bottom: 1px solid #808080;
     color: #808080;
     padding: 0 4px;
     flex: 1;
-}
-#progress {
-    color: #808080;
-    padding: 0 4px;
-    width: 12em;
+    text-align: end;
 }
 
 #result.combined div[id^="excluded-"] {
