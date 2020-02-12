@@ -36,9 +36,11 @@ def generate_html(hash, rebase, subdir, use_cache):
     result = '{}/index.html'.format(revdir, hash)
     if use_cache and os.path.exists(result):
         print('@@@@ skip {} (cached)'.format(result))
+        sys.stdout.flush()
         return False
 
     print('@@@@ {}'.format(revdir))
+    sys.stdout.flush()
 
     if rebase:
         ret = subprocess.call(['git',
@@ -105,6 +107,7 @@ def update_master(count=None):
     i = 1
     for hash in reversed(hashes):
         print('@@@@ {}/{}'.format(i, len(hashes)))
+        sys.stdout.flush()
         result = update_rev(hash)
         if count is not None:
             if result:
@@ -237,12 +240,15 @@ def get_pr(pr):
 
     if prev_info and info['revs'] == prev_info['revs']:
         print('@@@@ skip PR {} (cached)'.format(pr))
+        sys.stdout.flush()
         return False
 
     for hash in revs:
         print('@@@@ rev {}'.format(hash))
+        sys.stdout.flush()
 
     print('@@@@ base {}'.format(base))
+    sys.stdout.flush()
 
     if not os.path.exists(basedir):
         os.makedirs(basedir)
@@ -250,6 +256,7 @@ def get_pr(pr):
     if not mergeable:
         # TODO: add --skip-mergeable option or something
         #print('@@@@ not mergeable')
+        #sys.stdout.flush()
         #return
         pass
 
@@ -294,6 +301,7 @@ def get_all_pr(count=None):
     for pr in prs:
         print('@@@@ {}/{}'.format(i, len(prs)))
         print('@@@@ PR {}'.format(pr['number']))
+        sys.stdout.flush()
         result = get_pr(pr['number'])
         if count is not None:
             if result:
@@ -390,9 +398,11 @@ def extract_sections(filename, use_cache):
 
     if use_cache and os.path.exists(out_filename):
         print('@@@@ skip {} (cached)'.format(out_filename))
+        sys.stdout.flush()
         return False
 
     print('@@@@ {}'.format(out_filename))
+    sys.stdout.flush()
 
     with open(in_filename, 'r') as in_file:
         dom = lxml.html.fromstring(in_file.read())
