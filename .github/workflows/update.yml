@@ -2,8 +2,8 @@ name: Update revisions and PRs
 
 on:
   schedule:
-    # Every 10 minutes
-    - cron:  '*/10 * * * *'
+    # Every 15 minutes
+    - cron:  '*/15 * * * *'
 
 jobs:
   build:
