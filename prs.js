@@ -84,6 +84,13 @@ var prs = {
   "base": "85ce767c86a1a8ed719fe97e978028bff819d1f2",
   "title": "Normative: Suppress GetMethod errors in IteratorClose"
  },
+ "1860": {
+  "ref": "builtin-backticks",
+  "login": "rkirsling",
+  "head": "36f1f910098a9e39b2cdb9bcd03ec1b0e60fc7af",
+  "base": "e5c0f84610df095de6256e6cf083f4a901e67fde",
+  "title": "Editorial: Improve consistency of backtick use for built-ins."
+ },
  "1554": {
   "ref": "NumericValue",
   "login": "jmdyck",
@@ -112,6 +119,13 @@ var prs = {
   "base": "a09fc232c137800dbf51b6204f37fdede4ba1646",
   "title": "Editorial: Fix description of [[ThisMode]] internal slot of Function Object"
  },
+ "1844": {
+  "ref": "make-table-48-fit",
+  "login": "rkirsling",
+  "head": "c92f745cb0e079c9304cd162886ef700b21ae676",
+  "base": "73ad5993a7c8cf8192fa485a91887437fa6b48ab",
+  "title": "Editorial: Let code wrap in tables-in-notes."
+ },
  "1517": {
   "ref": "fix_matchall",
   "login": "ljharb",
@@ -139,6 +153,13 @@ var prs = {
   "head": "0a6e461a3707aa8cdb9e209458171a00a8f113a3",
   "base": "618479affe6b55bfca47fd058ce3a837a7d6c46c",
   "title": "Normative: make async iterators next/return/throw not pass `undefined` when value is absent"
+ },
+ "1864": {
+  "ref": "create-immutable-binding",
+  "login": "tc39",
+  "head": "e3b06caf3eda457eebe2de83637338734261e74b",
+  "base": "332d1ba127aac8e133a8c25789d01322bd4d2445",
+  "title": "Editorial: add missing argument to two CreateImmutableBinding calls"
  },
  "1669": {
   "ref": "fix/evaluate-timing",
@@ -210,6 +231,13 @@ var prs = {
   "base": "618479affe6b55bfca47fd058ce3a837a7d6c46c",
   "title": "WIP: Meta: add script to land PRs"
  },
+ "1862": {
+  "ref": "sv-calling-convention",
+  "login": "tc39",
+  "head": "51ff8216b73636d55c9db42c8c84533815efbed8",
+  "base": "e5c0f84610df095de6256e6cf083f4a901e67fde",
+  "title": "Editorial: make callers of SV consistent"
+ },
  "1612": {
   "ref": "sort_algo",
   "login": "jmdyck",
@@ -272,6 +300,13 @@ var prs = {
   "head": "17b258fe283349bc2f07bb8b1d468f46c735d918",
   "base": "ae2d1a86868107e8f61db4c68af910c473d88c93",
   "title": "Editorial: Improve readability in 11.10."
+ },
+ "1866": {
+  "ref": "ParsePattern",
+  "login": "jmdyck",
+  "head": "80204781ab8a4a64ce46439128286e617de66add",
+  "base": "787642ad2d159c8358a8782c9414f6d5fb6efa6f",
+  "title": " Editorial: Extract operation 'ParsePattern'"
  },
  "1651": {
   "ref": "one-grammar",
