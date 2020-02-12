@@ -27,7 +27,7 @@ jobs:
     - name: Update PRs
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-      run: make pr1
+      run: make pr5
     - name: Commit files
       # fails if no files to commit
       continue-on-error: true
