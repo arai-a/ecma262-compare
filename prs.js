@@ -29,6 +29,15 @@ var prs = {
   "base": "85ce767c86a1a8ed719fe97e978028bff819d1f2",
   "title": "Normative: Suppress GetMethod errors in IteratorClose"
  },
+ "1554": {
+  "ref": "NumericValue",
+  "login": "jmdyck",
+  "revs": [
+   "86ded1df9ac36aa4ec954a8d1ccbe7d47e117d49"
+  ],
+  "base": "1595e86b09414b669fcdd23e576ec912685d5f2b",
+  "title": "Editorial: Define + use StringToNumber, and better define NumericValue"
+ },
  "1463": {
   "ref": "master",
   "login": "viktmv",
