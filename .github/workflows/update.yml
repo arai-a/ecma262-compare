@@ -21,6 +21,8 @@ jobs:
     - name: Setup virtualenv
       run: make py-venv
     - name: Update revisions
+      env:
+        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
       run: make update5
     - name: Update PRs
       env:
