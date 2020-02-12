@@ -12,8 +12,7 @@ This creates virtualenv for other commands, and clones https://github.com/tc39/e
 
 ## Prepare GitHub API Token
 
-To update PRs, create `token.json` file wiht following content, to increase the gitHub acces limit.
-(this step isn't necessary for updating already merged revisions)
+Create `token.json` file wiht following content, to increase the GitHub API access limit.
 
 ```
 {

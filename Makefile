@@ -3,10 +3,12 @@ VENV_BIN_DIR := $(ECMA262_COMPARE)venv/bin
 PIP := $(VENV_BIN_DIR)/pip
 PYTHON := $(VENV_BIN_DIR)/python
 
-init:
+py-venv:
 	python3 -m venv venv &&\
 	$(PIP) install --upgrade pip &&\
 	$(PIP) install -r requirements.txt
+
+init: py-venv
 	$(PYTHON) build.py init
 
 revs:

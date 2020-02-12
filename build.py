@@ -26,16 +26,16 @@ if os.path.exists('./token.json'):
         token = json.loads(in_file.read())
         API_TOKEN = token['token']
 
-def init_repo():
+def init_repo_if_necessary():
     if not os.path.exists('./ecma262'):
         subprocess.call(['git', 'clone', REPO_URL])
 
-def generate_html(hash, subdir, use_cache):
+def generate_html(hash, subdir):
     basedir = './history/{}'.format(subdir)
     revdir = '{}{}'.format(basedir, hash)
 
     result = '{}/index.html'.format(revdir, hash)
-    if use_cache and os.path.exists(result):
+    if os.path.exists(result):
         print('@@@@ skip {} (cached)'.format(result))
         sys.stdout.flush()
         return False
@@ -43,6 +43,7 @@ def generate_html(hash, subdir, use_cache):
     print('@@@@ {}'.format(revdir))
     sys.stdout.flush()
 
+    init_repo_if_necessary()
     ret = subprocess.call(['git',
                            'checkout', hash], cwd='./ecma262')
     if ret:
@@ -80,11 +81,22 @@ def generate_html(hash, subdir, use_cache):
     return True
 
 def update_rev(hash):
-    result1 = generate_html(hash, '', True)
-    result2 = generate_json(hash, '', True)
+    result1 = generate_html(hash, '')
+    result2 = generate_json(hash, '')
     return result1 or result2
 
 def update_master(count=None):
+    data = github_api('https://api.github.com/repos/tc39/ecma262/commits',
+                      [['per_page', '1']])
+    head = data[0]['sha']
+
+    basedir = './history/{}'.format(head)
+    if os.path.exists(basedir):
+        print('@@@@ skip all (lastest commit {} is already cached)'.format(head))
+        sys.stdout.flush()
+        return False
+
+    init_repo_if_necessary()
     ret = subprocess.call(['git',
                            'fetch', 'origin', 'master'],
                           cwd='./ecma262')
@@ -115,6 +127,7 @@ def update_master(count=None):
     p.wait()
 
 def get_rev_lines(revs):
+    init_repo_if_necessary()
     p = subprocess.Popen(['git',
                           'log'] + revs
                          + ['--pretty=["%ci", "%H"]'],
@@ -218,6 +231,7 @@ def get_pr_with(pr, info, url):
     if not os.path.exists(basedir):
         os.makedirs(basedir)
 
+    init_repo_if_necessary()
     subprocess.call(['git',
                      'remote', 'add', info['login'], url],
                     cwd='./ecma262')
@@ -227,8 +241,8 @@ def get_pr_with(pr, info, url):
     if ret:
         sys.exit(ret)
 
-    generate_html(info['head'], 'PR/{}/'.format(pr), True)
-    generate_json(info['head'], 'PR/{}/'.format(pr), True)
+    generate_html(info['head'], 'PR/{}/'.format(pr))
+    generate_json(info['head'], 'PR/{}/'.format(pr))
 
     txt = json.dumps(info)
 
@@ -363,11 +377,11 @@ def remove_emu_ids(dom):
         if 'id' in node.attrib:
             node.attrib.pop('id')
 
-def extract_sections(filename, use_cache):
+def extract_sections(filename):
     in_filename = '{}/index.html'.format(filename)
     out_filename = '{}/sections.json'.format(filename)
 
-    if use_cache and os.path.exists(out_filename):
+    if os.path.exists(out_filename):
         print('@@@@ skip {} (cached)'.format(out_filename))
         sys.stdout.flush()
         return False
@@ -389,9 +403,9 @@ def extract_sections(filename, use_cache):
             out_file.write(txt)
     return True
 
-def generate_json(hash, subdir, use_cache):
+def generate_json(hash, subdir):
     basedir = './history/{}'.format(subdir)
-    return extract_sections('{}{}'.format(basedir, hash), use_cache)
+    return extract_sections('{}{}'.format(basedir, hash))
 
 parser = argparse.ArgumentParser(description='Update ecma262 history data')
 
@@ -411,7 +425,7 @@ if args.token:
     API_TOKEN = args.token
 
 if args.command == 'init':
-    init_repo()
+    init_repo_if_necessary()
 elif args.command == 'update':
     update_master(args.c)
     update_revs()
