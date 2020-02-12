@@ -125,6 +125,7 @@ def update_master(count=None):
                     break
         i += 1
     p.wait()
+    return True
 
 def get_rev_lines(revs):
     init_repo_if_necessary()
@@ -195,7 +196,7 @@ def github_api(url, query=[]):
             'Authorization': 'token {}'.format(API_TOKEN),
         }
     else:
-        headers = None
+        headers = {}
     req = urllib.request.Request(url, None, headers)
     response = urllib.request.urlopen(req)
     data = json.loads(response.read())
@@ -279,6 +280,8 @@ def get_all_pr(count=None):
         if d['number'] >= FIRST_PR:
             prs.append(d)
 
+    result_any = False
+
     i = 1
     for data in prs:
         pr = data['number']
@@ -288,12 +291,16 @@ def get_all_pr(count=None):
         print('@@@@ {}/{} PR {}'.format(i, len(prs), pr))
         sys.stdout.flush()
         result = get_pr_with(pr, info, url)
+        if result:
+            result_any = True
         if count is not None:
             if result:
                 count -= 1
                 if count == 0:
                     break
         i += 1
+
+    return result_any
 
 def get_text(node):
     return ''.join([x for x in node.itertext()])
@@ -427,18 +434,21 @@ if args.token:
 if args.command == 'init':
     init_repo_if_necessary()
 elif args.command == 'update':
-    update_master(args.c)
-    update_revs()
+    result = update_master(args.c)
+    if result:
+        update_revs()
 elif args.command == 'revs':
     update_revs()
 elif args.command == 'pr':
     if args.PR_NUMBER == 'all':
-        get_all_pr(args.c)
-        update_prs()
-        update_revs()
+        result = get_all_pr(args.c)
+        if result:
+            update_prs()
+            update_revs()
     else:
-        get_pr(args.PR_NUMBER)
-        update_prs()
-        update_revs()
+        result = get_pr(args.PR_NUMBER)
+        if result:
+            update_prs()
+            update_revs()
 elif args.command == 'prs':
     update_prs()
