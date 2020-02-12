@@ -10,11 +10,13 @@
 <script type="text/javascript" src="./compare.js"></script>
 </head>
 <body onload="bodyOnLoad()">
-<div>
+<div id="container">
+<div id="controller">
+<div id="rev-controller-container">
 <div id="github-link">
   <a href="https://github.com/arai-a/ecma262-compare">GitHub repository</a>
 </div>
-<table>
+<table id="rev-controller">
 <tr>
   <th><label for="pr-filter">PR</label></th>
   <td>
@@ -41,8 +43,9 @@
   </td>
 </tr>
 </table>
-<hr>
-<table>
+</div>
+<div id="sections-controller-container">
+<table id="sections-controller">
 <tr>
   <th><label for="sec-list">Section(s)</label></th>
   <td>
@@ -54,19 +57,20 @@
 <tr>
   <th></th>
   <td>
-    <label><input id="sec-filter" name="sec-filter" type="checkbox" onchange="onSecFlterChanged()">List changed sections only</label>
+    <label><input id="sec-filter" name="sec-filter" type="checkbox" onchange="onSecFlterChanged()">Changed sections only</label>
   </td>
 </tr>
 </table>
-<input type="button" value="Update URL" onclick="updateURL()">
-<hr>
-<label><input id="view-diff" type="radio" name="view" value="diff" onchange="compare()"> Diff</label> /
-<label><input id="view-from" type="radio" name="view" value="from" onchange="compare()"> From</label> /
-<label><input id="view-to" type="radio" name="view" value="to" onchange="compare()"> To</label><br>
-<em>NOTE: Step numbers might be wrong in Diff view!!!</em>
-<hr>
+</div>
+<div id="tabs">
+<label id="view-from-tab"><input id="view-from" type="radio" name="view" value="from" onchange="compare()"> From</label>
+<label id="view-to-tab"><input id="view-to" type="radio" name="view" value="to" onchange="compare()"> To</label>
+<label id="view-diff-tab"><input id="view-diff" type="radio" name="view" value="diff" onchange="compare()"> Diff</label>
 <span id="diff-stat"></span>
-<hr>
+<em id="diff-note">NOTE: Step numbers might be wrong in Diff view!!!</em>
+<div id="progress"></div>
+</div>
+</div>
 <div id="result"></div>
 <div id="list-mark-utils-box" style="display: none"></div>
 </div>

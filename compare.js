@@ -433,19 +433,13 @@ async function combineSections(result, sections, isDiff) {
 
   let i = 0, len = sections.size;
 
-  if (len > 1) {
-    if (!combineStatus.processIndicator) {
-      combineStatus.processIndicator = document.createElement("div");
-      combineStatus.processIndicator.id = "progress-indicator";
-    }
-    document.body.appendChild(combineStatus.processIndicator);
-  }
+  const processIndicator = document.getElementById("progress");
 
   result.innerText = "";
   for (let [id, HTML] of sections) {
     if (len > 1) {
       i++;
-      combineStatus.processIndicator.textContent = `processing ${i}/${len}`;
+      processIndicator.textContent = `processing ${i}/${len}`;
       await new Promise(r => setTimeout(r, 1));
 
       if (combineStatus.abortProcessing) {
@@ -467,9 +461,8 @@ async function combineSections(result, sections, isDiff) {
       result.appendChild(box);
     }
   }
-  if (len > 1) {
-    combineStatus.processIndicator.remove();
-  }
+
+  processIndicator.textContent = "";
 
   combineStatus.processing = false;
 }
@@ -566,7 +559,7 @@ async function compare() {
       result.innerText = "";
     }
 
-    document.getElementById("diff-stat").innerText = "-";
+    document.getElementById("diff-stat").innerText = "";
   }
 }
 

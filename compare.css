@@ -1,12 +1,30 @@
 body {
-  padding: 0 20px;
+    overflow-y: scroll;
 }
+
 body > div {
-  width: 100%;
+    width: 100%;
+}
+
+#controller {
+    border-bottom: 1px solid #808080;
+}
+
+#rev-controller-container,
+#sections-controller-container {
+    padding: 0 20px;
+}
+
+#rev-controller-container {
+    border-bottom: 1px solid #808080;
 }
 
 #github-link {
     float: right;
+}
+
+#result {
+    padding: 0 20px;
 }
 
 select, option {
@@ -39,21 +57,38 @@ h1 {
     color: #808080;
 }
 
-#diff-stat {
-    font-size: 0.9em;
-    color: #808080;
-}
-
 .diff-view ol > li {
     list-style-type: none;
 }
 
-#progress-indicator {
-    position: fixed;
-    right: 0px;
-    top: 0px;
-    background-color: black;
-    color: white;
+#tabs {
+    display: flex;
+    flex-direction: row;
+}
+
+#view-from-tab,
+#view-to-tab,
+#view-diff-tab {
+    border: 1px solid #808080;
+    border-bottom: none;
+    width: 6em;
+    padding: 0 4px;
+}
+
+#diff-stat {
+    color: #808080;
+    padding: 0 4px;
+    flex: 1;
+}
+#diff-note {
+    color: #808080;
+    padding: 0 4px;
+    flex: 1;
+}
+#progress {
+    color: #808080;
+    padding: 0 4px;
+    width: 12em;
 }
 
 #result.combined div[id^="excluded-"] {
