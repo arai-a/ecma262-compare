@@ -18,8 +18,8 @@ jobs:
       uses: actions/setup-python@v1
       with:
         python-version: "3.7"
-    - name: Initialize repository
-      run: make init
+    - name: Setup virtualenv
+      run: make py-venv
     - name: Update revisions
       run: make update5
     - name: Update PRs
