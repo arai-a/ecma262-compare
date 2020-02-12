@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head><meta charset="utf-8">
-<title>ES spec comparator</title>
+<title>ECMAScript spec comparator</title>
 <link href="./ecmarkup.css" rel="stylesheet">
 <link href="./compare.css" rel="stylesheet">
 <script type="text/javascript" src="./htmldiff.js"></script>
@@ -11,16 +11,19 @@
 </head>
 <body onload="bodyOnLoad()">
 <div>
+<div id="github-link">
+  <a href="https://github.com/arai-a/ecma262-compare">GitHub repository</a>
+</div>
 <table>
 <tr>
-  <th>PR</th>
+  <th><label for="pr-filter">PR</label></th>
   <td>
     <select id="pr-filter" onchange="onPRFilterChange()"></select>
     <a id="pr-link" href="#" target="_blank"></a>
   </td>
 </tr>
 <tr>
-  <th>From</th>
+  <th><label for="from-rev">From</label></th>
   <td>
     <select id="from-rev" onchange="onFromRevChange()"></select>
     <input id="from-rev-search" type="text" onchange="onFromRevFilterChange()"
@@ -29,7 +32,7 @@
   </td>
 </tr>
 <tr>
-  <th>To</th>
+  <th><label for="to-rev">To</label></th>
   <td>
     <select id="to-rev" onchange="onToRevChange()"></select>
     <input id="to-rev-search" type="text" onchange="onToRevFilterChange()"
@@ -41,7 +44,7 @@
 <hr>
 <table>
 <tr>
-  <th>Section(s)</th>
+  <th><label for="sec-list">Section(s)</label></th>
   <td>
     <select id="sec-list" onchange="compare();updateURL()"></select>
     <input id="sec-list-search" type="text" onchange="onSecListSearchChanged()" placeholder="Search">

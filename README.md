@@ -1,6 +1,6 @@
 # ecma262-compare
 
-ES spec comparator
+ECMAScript spec comparator
 
 ## Setup
 

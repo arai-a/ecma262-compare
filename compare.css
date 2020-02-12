@@ -1,6 +1,13 @@
 body {
   padding: 0 20px;
 }
+body > div {
+  width: 100%;
+}
+
+#github-link {
+    float: right;
+}
 
 select, option {
     font-family: monospace;
