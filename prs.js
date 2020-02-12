@@ -106,6 +106,26 @@ var prs = {
   "base": "a09fc232c137800dbf51b6204f37fdede4ba1646",
   "title": "Normative: Extend specs to observe WebReality for HTMLCloseComment"
  },
+ "1564": {
+  "ref": "gh-1087-time-arithmetic-precision",
+  "login": "gibson042",
+  "revs": [
+   "88c606ebf48faeba45eca5bd1b4c7d6d1e71c45c",
+   "4facda5050d042c77099bb7d5aa50eea11e77e0e",
+   "0b55c599d3b5b7f0d1fe93b414fbf77a40a690c2",
+   "e4b9b2d7b664f51e0c6fe1b0e7e713cb907aa770",
+   "7f6553f8330365313a1bb24a3f9c0abfdfcd8821",
+   "1dde075353b1eea89225cea063aa229434333f63",
+   "ad9cfff82fecc900cc010f4b44fa0c7407dc027a",
+   "ee9f5935d3a6cb0eed6834996a57c52de9391ff4",
+   "010b3624d43b02d1c97324bbbdb511860e12488d",
+   "0a64fb44af6961c2a1b208a56e815c7dec759671",
+   "a43674cc7b4080f72f0708eeee43e60c1ac8da70",
+   "e57ab2fc22fed86fc8c9a9c6c08366505c9a85f2"
+  ],
+  "base": "693e09a4b9ce52b060ceda897b042c3f83f0a738",
+  "title": "Normative: Use Number arithmetic for constructing dates and times"
+ },
  "1402": {
   "ref": "template-bugfix",
   "login": "TimothyGu",
