@@ -35,6 +35,13 @@ var prs = {
   "base": "c77f0081a197eeaaf5589bc7ebe306b1cc5c9162",
   "title": "Editorial: Rename predicate function parameter of Array methods"
  },
+ "1800": {
+  "ref": "LinkToIndividualAlgs",
+  "login": "brabalan",
+  "head": "4243c0bf4dc1ed28b6ebd0a1628378e8b643e0c6",
+  "base": "618479affe6b55bfca47fd058ce3a837a7d6c46c",
+  "title": "Editorial: adding ids to individual algorithms of equality semantics"
+ },
  "1518": {
   "ref": "array_join_cyclic",
   "login": "ljharb",
@@ -147,6 +154,13 @@ var prs = {
   "base": "8f0f69279b5f9e12ebe8f7052322b93d17e36b54",
   "title": "Editorial: Resolved ambiguous VarScopedDeclarations for IterationStatement"
  },
+ "1797": {
+  "ref": "no-assertion-tester",
+  "login": "tc39",
+  "head": "d5197a16ffcafd34e81ddc417447e4d7cdc6d6d8",
+  "base": "618479affe6b55bfca47fd058ce3a837a7d6c46c",
+  "title": "Editorial: remove AssertionTester from RexExp semantics"
+ },
  "1665": {
   "ref": "feature/built-in-suspendable-functions",
   "login": "devsnek",
@@ -167,6 +181,13 @@ var prs = {
   "head": "05205eefc9379fbf3f55683199dca3a816d26170",
   "base": "edeeafa68a4350733157e643228e309258c960de",
   "title": "Editorial: A couple fixes from OrdinaryFunctionCreate and undefined arguments"
+ },
+ "1799": {
+  "ref": "commit-check",
+  "login": "ljharb",
+  "head": "032ed20663c50a3b20a811b499ddaff07082d5b2",
+  "base": "618479affe6b55bfca47fd058ce3a837a7d6c46c",
+  "title": "WIP: Meta: add script to land PRs"
  },
  "1612": {
   "ref": "sort_algo",
@@ -203,12 +224,26 @@ var prs = {
   "base": "a09fc232c137800dbf51b6204f37fdede4ba1646",
   "title": "Normative: Extend specs to observe WebReality for HTMLCloseComment"
  },
+ "1814": {
+  "ref": "remove-sensitivity-to-revocation-from-proxy-create",
+  "login": "bathos",
+  "head": "7c80f1d8890b200bb93665096e61f2e6f74243d9",
+  "base": "ecb4178012d6b4d9abc13fcbd45f5c6394b832ce",
+  "title": "Normative: Remove steps 2 and 4 from ProxyCreate"
+ },
  "1655": {
   "ref": "class-fields",
   "login": "Ms2ger",
   "head": "e733b20a81782a04322ec2a16c1d108c981fbbf1",
   "base": "8f0f69279b5f9e12ebe8f7052322b93d17e36b54",
   "title": "(ignore) Normative: Add public and private class fields"
+ },
+ "1808": {
+  "ref": "asi-section-wordsmithing",
+  "login": "rkirsling",
+  "head": "17b258fe283349bc2f07bb8b1d468f46c735d918",
+  "base": "ae2d1a86868107e8f61db4c68af910c473d88c93",
+  "title": "Editorial: Improve readability in 11.10."
  },
  "1651": {
   "ref": "one-grammar",
