@@ -21,6 +21,13 @@ var prs = {
   "base": "9c8d03c1f1a0306d01e8422b28cde757093bd216",
   "title": "function implementation hiding"
  },
+ "1868": {
+  "ref": "annex_a_tweaks",
+  "login": "jmdyck",
+  "head": "7e6748b3bf04c81b8863fe57f21a7e0e4704da1e",
+  "base": "787642ad2d159c8358a8782c9414f6d5fb6efa6f",
+  "title": "Editorial: Annex A tweaks"
+ },
  "1689": {
   "ref": "feature/diff-prs",
   "login": "devsnek",
@@ -98,6 +105,13 @@ var prs = {
   "base": "1595e86b09414b669fcdd23e576ec912685d5f2b",
   "title": "Editorial: Define + use StringToNumber, and better define NumericValue"
  },
+ "1869": {
+  "ref": "sv-regexp-unicode-escape-sequence",
+  "login": "tc39",
+  "head": "7644ce6dd587b8a5f4c63e3c2573943f1d4528af",
+  "base": "787642ad2d159c8358a8782c9414f6d5fb6efa6f",
+  "title": "Normative: Use CharacterValue for RegExpUnicodeEscapeSequence"
+ },
  "1667": {
   "ref": "private-methods",
   "login": "Ms2ger",
@@ -167,6 +181,13 @@ var prs = {
   "head": "74182ab0111fbdf903137be67d104a66d6d72c8c",
   "base": "85f905aff137a7f0872c48e16d6b883b7b46212a",
   "title": "Normative: Prevent DFS invariants from being broken"
+ },
+ "1867": {
+  "ref": "make_B_literals_normative",
+  "login": "jmdyck",
+  "head": "7ea9dfaa8a83fe7d481891d5a625c17080234985",
+  "base": "787642ad2d159c8358a8782c9414f6d5fb6efa6f",
+  "title": "Normative: Make B.1.{1,2} normative"
  },
  "1664": {
   "ref": "pr5",
