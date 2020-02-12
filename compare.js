@@ -105,13 +105,11 @@ function populateRevs(menu, opts) {
     let info = prs[pr];
 
     let len = info.revs.length;
-    let i = len;
     for (let rev of info.revs) {
       let opt = document.createElement("option");
       opt.value = `PR/${pr}/${rev}`;
-      opt.appendChild(document.createTextNode(`${rev} (PR ${pr} by ${info.login} [${i}/${len}])`));
+      opt.appendChild(document.createTextNode(`${rev} (PR ${pr} by ${info.login})`));
       opts.push(opt);
-      i--;
     }
   }
 

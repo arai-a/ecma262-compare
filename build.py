@@ -231,6 +231,10 @@ def get_pr(pr):
         revs.append(hash)
     revs.reverse()
 
+    # Use latest one only
+    if len(revs) > 0:
+        revs = [revs[0]]
+
     info = dict()
     info['ref'] = ref
     info['login'] = login
@@ -242,13 +246,6 @@ def get_pr(pr):
         print('@@@@ skip PR {} (cached)'.format(pr))
         sys.stdout.flush()
         return False
-
-    for hash in revs:
-        print('@@@@ rev {}'.format(hash))
-        sys.stdout.flush()
-
-    print('@@@@ base {}'.format(base))
-    sys.stdout.flush()
 
     if not os.path.exists(basedir):
         os.makedirs(basedir)
@@ -299,8 +296,7 @@ def get_all_pr(count=None):
 
     i = 1
     for pr in prs:
-        print('@@@@ {}/{}'.format(i, len(prs)))
-        print('@@@@ PR {}'.format(pr['number']))
+        print('@@@@ {}/{} PR {}'.format(i, len(prs), pr['number']))
         sys.stdout.flush()
         result = get_pr(pr['number'])
         if count is not None:

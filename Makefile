@@ -27,5 +27,8 @@ pr:
 pr1:
 	$(PYTHON) build.py pr -c 1 all
 
+pr5:
+	$(PYTHON) build.py pr -c 5 all
+
 prs:
 	$(PYTHON) build.py prs
