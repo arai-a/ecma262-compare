@@ -45,6 +45,15 @@ var prs = {
   "base": "1595e86b09414b669fcdd23e576ec912685d5f2b",
   "title": "Editorial: Define + use StringToNumber, and better define NumericValue"
  },
+ "1623": {
+  "ref": "index_strings",
+  "login": "jmdyck",
+  "revs": [
+   "ad07165a3a1f09df9714e4a319551646cc62dd41"
+  ],
+  "base": "787642ad2d159c8358a8782c9414f6d5fb6efa6f",
+  "title": "Editorial: Replace terms \"integer index\" and \"array index\""
+ },
  "1463": {
   "ref": "master",
   "login": "viktmv",
@@ -72,6 +81,15 @@ var prs = {
   "base": "a09fc232c137800dbf51b6204f37fdede4ba1646",
   "title": "Layering: Add GetRequestedModules() to Module Record"
  },
+ "1658": {
+  "ref": "early-error-covering-assignment-pattern",
+  "login": "claudepache",
+  "revs": [
+   "867b83a2cab9d1c411121af271a19499bbbe719f"
+  ],
+  "base": "a68d1296f156ff73075fde36aebd643de4f8ebde",
+  "title": "Editorial: Add two missing Early Error rules for productions covering an AssignmentPattern"
+ },
  "1570": {
   "ref": "returnifabrupt",
   "login": "michaelficarra",
@@ -89,6 +107,15 @@ var prs = {
   ],
   "base": "787642ad2d159c8358a8782c9414f6d5fb6efa6f",
   "title": "Editorial: fix inconsistency re type of [[SourceText]]"
+ },
+ "1612": {
+  "ref": "sort_algo",
+  "login": "jmdyck",
+  "revs": [
+   "1e2638baede3313517fc4a9da761d9afe8e8f4c1"
+  ],
+  "base": "dc1e21c454bd316810be1c0e7af0131a2d7f38e9",
+  "title": "Editorial: Tweak format of *.prototype.sort"
  },
  "1519": {
   "ref": "resolve_831",
@@ -116,6 +143,24 @@ var prs = {
   ],
   "base": "a09fc232c137800dbf51b6204f37fdede4ba1646",
   "title": "Normative: Extend specs to observe WebReality for HTMLCloseComment"
+ },
+ "1655": {
+  "ref": "class-fields",
+  "login": "Ms2ger",
+  "revs": [
+   "e733b20a81782a04322ec2a16c1d108c981fbbf1"
+  ],
+  "base": "8f0f69279b5f9e12ebe8f7052322b93d17e36b54",
+  "title": "(ignore) Normative: Add public and private class fields"
+ },
+ "1651": {
+  "ref": "one-grammar",
+  "login": "jmdyck",
+  "revs": [
+   "71589836a594c16843d52d84b0b2a7d68cb65459"
+  ],
+  "base": "787642ad2d159c8358a8782c9414f6d5fb6efa6f",
+  "title": "Normative: Make B.1 \"Additional Syntax\" normative"
  },
  "1564": {
   "ref": "gh-1087-time-arithmetic-precision",
