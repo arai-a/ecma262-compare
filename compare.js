@@ -642,6 +642,13 @@ async function filterSectionList(doCompare=true) {
   }
 }
 
+function filterAttribute(s) {
+  return s
+    .replace(/ aoid="[^\"]+"/g, "")
+    .replace(/ href="[^\"]+"/g, "")
+  ;
+}
+
 function isChanged(id) {
   if (!(id in fromSecData.secData) || !(id in toSecData.secData)) {
     return true;
@@ -650,7 +657,7 @@ function isChanged(id) {
   let fromHTML = fromSecData.secData[id].html;
   let toHTML = toSecData.secData[id].html;
 
-  return fromHTML !== toHTML;
+  return filterAttribute(fromHTML) !== filterAttribute(toHTML);
 }
 
 function updateHistoryLink() {
