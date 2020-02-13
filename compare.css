@@ -11,10 +11,12 @@ body > div {
     padding: 0 20px;
 }
 
-#rev-controller-container,
-#sections-controller-container,
-#tabs > * {
-    background-color: rgba(184, 221, 62, 0.1);
+#controller {
+    background: rgb(243,255,236);
+    background: linear-gradient(147deg,
+                                rgb(243,255,236) 29%,
+                                rgb(236,243,252) 65%,
+                                rgb(248,241,255) 82%);
 }
 
 #rev-controller-container {
@@ -37,12 +39,15 @@ body > div {
 #view-from-tab.selected,
 #view-to-tab.selected,
 #view-diff-tab.selected {
-    background: inherit;
+    background: white;
     border-bottom: none;
 }
 
 #github-link {
-    float: right;
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    opacity: 0.3;
 }
 
 #result {
