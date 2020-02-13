@@ -584,6 +584,9 @@ function updateURL() {
   let pr = prFilter.value;
   if (pr !== "-") {
     params.push(`pr=${pr}`);
+    if (id != "combined") {
+      params.push(`id=${encodeURIComponent(id)}`);
+    }
   } else {
     params.push(`from=${hashOf("from")}`);
     params.push(`to=${hashOf("to")}`);
