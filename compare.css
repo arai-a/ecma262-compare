@@ -11,8 +11,34 @@ body > div {
     padding: 0 20px;
 }
 
+#rev-controller-container,
+#sections-controller-container,
+#tabs > * {
+    background-color: rgba(184, 221, 62, 0.1);
+}
+
 #rev-controller-container {
     border-bottom: 1px solid #808080;
+}
+
+#tabs {
+    display: flex;
+    flex-direction: row;
+}
+
+#view-from-tab,
+#view-to-tab,
+#view-diff-tab {
+    border: 1px solid #808080;
+    width: 6em;
+    padding: 0 4px;
+}
+
+#view-from-tab.selected,
+#view-to-tab.selected,
+#view-diff-tab.selected {
+    background: inherit;
+    border-bottom: none;
 }
 
 #github-link {
@@ -57,25 +83,6 @@ h1 {
 
 .diff-view ol > li {
     list-style-type: none;
-}
-
-#tabs {
-    display: flex;
-    flex-direction: row;
-}
-
-#view-from-tab,
-#view-to-tab,
-#view-diff-tab {
-    border: 1px solid #808080;
-    width: 6em;
-    padding: 0 4px;
-}
-
-#view-from-tab.selected,
-#view-to-tab.selected,
-#view-diff-tab.selected {
-    border-bottom: none;
 }
 
 #diff-stat {
