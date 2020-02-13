@@ -30,7 +30,13 @@ jobs:
     - name: Run Bootstrap
       run: make bootstrap
     - name: Remove bootstrp
-      run: rm *
+      run: |
+        rm Makefile
+        rm build.py
+        rm config.json
+        rm revs.json
+        rm prs.json
+        rm requirements.txt
     - name: Checkout
       if: steps.bootstrap.outputs.update == 'Yes'
       uses: actions/checkout@v1
