@@ -1,9 +1,7 @@
 const INS_NAME = `ins`;
-const INS_OPEN = `<ins class="htmldiff-add">`;
-const INS_CLOSE = `</ins>`;
+const INS_TAG = `<ins class="htmldiff-add">`;
 const DEL_NAME = `del`;
-const DEL_OPEN = `<del class="htmldiff-del">`;
-const DEL_CLOSE = `</del>`;
+const DEL_TAG = `<del class="htmldiff-del">`;
 
 const emptyTags = new Set([
     "area",
@@ -48,6 +46,13 @@ function* tokenize(s) {
       const tag = s.slice(i, to + 1);
 
       if (name.startsWith("/")) {
+        if (prev == "o") {
+          yield {
+            type: "t",
+            text: "",
+          };
+        }
+
         yield {
           type: "c",
           name,
@@ -192,8 +197,7 @@ function LCS(seq1, seq2) {
 
   const diff = [];
 
-  let i = len1, j = len2;
-  while (i > 0 && j > 0) {
+  for (let i = len1, j = len2; i > 0 && j > 0;) {
     if (C[i][j] == C[i - 1][j - 1]) {
       diff.push({
         op: "+",
@@ -256,12 +260,12 @@ function LCS(seq1, seq2) {
         switch (d.op) {
           case '+': {
             new_name_stack.push(INS_NAME);
-            new_tag_stack.push(INS_OPEN);
+            new_tag_stack.push(INS_TAG);
             break;
           }
           case '-': {
             new_name_stack.push(DEL_NAME);
-            new_tag_stack.push(DEL_OPEN);
+            new_tag_stack.push(DEL_TAG);
             break;
           }
         }
