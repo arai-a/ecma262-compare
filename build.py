@@ -439,6 +439,7 @@ def has_new_rev():
     head = data[0]['sha']
 
     if not is_rev_cached(head):
+        print('head={} is not cached'.format(hash))
         return True
 
     return False
@@ -455,6 +456,7 @@ def has_new_pr():
         pr = data['number']
         info = pr_info(data)
         if not is_pr_cached(pr, info):
+            print('PR={} is not cached'.format(pr))
             return True
 
     return False
