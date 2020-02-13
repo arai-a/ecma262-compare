@@ -38,7 +38,7 @@ jobs:
     - name: Run Bootstrap
       run: make bootstrap
       id: bootstrap
-    - name: Remove bootstrp
+    - name: Remove Bootstrap
       run: |
         rm Makefile
         rm build.py
