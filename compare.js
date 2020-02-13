@@ -580,13 +580,14 @@ function updateURL() {
   let id = document.getElementById("sec-list").value;
 
   let params = [];
-  params.push(`from=${hashOf("from")}`);
-  params.push(`to=${hashOf("to")}`);
-  params.push(`id=${encodeURIComponent(id)}`);
   let prFilter = document.getElementById("pr-filter");
   let pr = prFilter.value;
   if (pr !== "-") {
     params.push(`pr=${pr}`);
+  } else {
+    params.push(`from=${hashOf("from")}`);
+    params.push(`to=${hashOf("to")}`);
+    params.push(`id=${encodeURIComponent(id)}`);
   }
 
   window.location.hash = `#${params.join("&")}`;
