@@ -346,6 +346,8 @@ def get_sec_list(dom):
     return sec_list, sec_num_map, sec_title_map
 
 def exclude_subsections(dom, sec_list, sec_num_map, sec_title_map):
+    import lxml.html
+
     for node in get_sec_nodes(dom):
         id = node.attrib['id']
 
@@ -368,6 +370,8 @@ def exclude_subsections(dom, sec_list, sec_num_map, sec_title_map):
         dom.body.append(node)
 
 def extract_sec_html(dom, sec_list, sec_num_map, sec_title_map):
+    import lxml.etree
+
     sec_data = dict()
 
     for node in get_sec_nodes(dom):
@@ -405,7 +409,6 @@ def extract_sections(filename):
     print('@@@@ {}'.format(out_filename))
     sys.stdout.flush()
 
-    import lxml.etree
     import lxml.html
 
     with open(in_filename, 'r') as in_file:
