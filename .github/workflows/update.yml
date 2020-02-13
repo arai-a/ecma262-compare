@@ -76,7 +76,9 @@ jobs:
         git config --local user.name "GitHub Action"
         git add history
         git add revs.js
+        git add revs.json
         git add prs.js
+        git add prs.json
         git commit -m "update history"
     - name: Push changes
       # fails if no files to commit
