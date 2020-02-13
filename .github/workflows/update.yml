@@ -4,33 +4,55 @@ on:
   schedule:
     # Every 30 minutes
     - cron:  '*/30 * * * *'
+  push:
+    branches:
+      - master
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout
-      uses: actions/checkout@v1
-      with:
-        ref: gh-pages
     - name: Setup Python
       uses: actions/setup-python@v1
       with:
         python-version: "3.7"
+    - name: Download Bootstrap
+      run: |
+        curl -O https://raw.githubusercontent.com/${{github.repository}}/gh-pages/Makefile
+        curl -O https://raw.githubusercontent.com/${{github.repository}}/gh-pages/build.py
+        curl -O https://raw.githubusercontent.com/${{github.repository}}/gh-pages/config.json
+        curl -O https://raw.githubusercontent.com/${{github.repository}}/gh-pages/revs.json
+        curl -O https://raw.githubusercontent.com/${{github.repository}}/gh-pages/prs.json
+        curl -O https://raw.githubusercontent.com/${{github.repository}}/gh-pages/requirements.txt
     - name: Setup virtualenv
       run: make py-venv
+    - name: Run Bootstrap
+      run: make bootstrap
+    - name: Remove bootstrp
+      run: rm *
+    - name: Checkout
+      if: steps.bootstrap.outputs.update == 'Yes'
+      uses: actions/checkout@v1
+      with:
+        ref: gh-pages
+    - name: Clone ecma262
+      if: steps.bootstrap.outputs.update == 'Yes'
+      run: make clone
     - name: Update revisions
+      if: steps.bootstrap.outputs.update_revs == 'Yes'
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
       run: make update5
     - name: Update PRs
+      if: steps.bootstrap.outputs.update_prs == 'Yes'
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
       run: make pr5
     - name: Commit files
       # fails if no files to commit
       continue-on-error: true
+      if: steps.bootstrap.outputs.update == 'Yes'
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
@@ -41,6 +63,7 @@ jobs:
     - name: Push changes
       # fails if no files to commit
       continue-on-error: true
+      if: steps.bootstrap.outputs.update == 'Yes'
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
