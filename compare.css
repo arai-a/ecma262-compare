@@ -14,9 +14,9 @@ body > div {
 #controller {
     background: rgb(243,255,236);
     background: linear-gradient(147deg,
-                                rgb(243,255,236) 29%,
-                                rgb(236,243,252) 65%,
-                                rgb(248,241,255) 82%);
+                                rgba(243,255,236,0.4) 29%,
+                                rgba(236,243,252,0.4) 65%,
+                                rgba(248,241,255,0.4) 82%);
 }
 
 #rev-controller-container {
