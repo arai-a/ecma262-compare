@@ -5,8 +5,6 @@ import distutils
 import distutils.dir_util
 import glob
 import json
-import lxml.etree
-import lxml.html
 import os
 import re
 import subprocess
@@ -403,6 +401,9 @@ def extract_sections(filename):
 
     print('@@@@ {}'.format(out_filename))
     sys.stdout.flush()
+
+    import lxml.etree
+    import lxml.html
 
     with open(in_filename, 'r') as in_file:
         dom = lxml.html.fromstring(in_file.read())
