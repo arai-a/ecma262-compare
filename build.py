@@ -85,13 +85,22 @@ def update_rev(hash):
     result2 = generate_json(hash, '')
     return result1 or result2
 
+def is_rev_cached(hash):
+    with open('./revs.json', 'r') as in_file:
+        revs = json.loads(in_file.read())
+
+    for rev in revs:
+        if rev['hash'] == hash:
+            return True
+
+    return False
+
 def update_master(count=None):
     data = github_api('https://api.github.com/repos/tc39/ecma262/commits',
                       [['per_page', '1']])
     head = data[0]['sha']
 
-    basedir = './history/{}'.format(head)
-    if os.path.exists(basedir):
+    if is_rev_cached(head):
         print('@@@@ skip all (lastest commit {} is already cached)'.format(head))
         sys.stdout.flush()
         return False
@@ -155,15 +164,28 @@ def update_revs():
         if x not in lines:
             lines.append(x)
 
+    revs = []
+
+    for line in sorted(lines, reverse=True):
+        rev = json.loads(line)[1]
+        sections = './history/{}/sections.json'.format(rev)
+        if os.path.exists(sections):
+            o = json.loads(line.strip())
+            rev = dict()
+            rev['date'] = o[0]
+            rev['hash'] = o[1]
+            revs.append(rev)
+
+    revs_txt = json.dumps(revs,
+                     indent=1,
+                     separators=(',', ': '))
+
     with open('./revs.js', 'w') as out_file:
         out_file.write('"use strict";\n')
-        out_file.write('var revs = [\n')
-        for line in sorted(lines, reverse=True):
-            rev = json.loads(line)[1]
-            sections = './history/{}/sections.json'.format(rev)
-            if os.path.exists(sections):
-                out_file.write(line.strip() + ',\n')
-        out_file.write('];\n')
+        out_file.write('var revs = {};\n'.format(revs_txt))
+
+    with open('./revs.json', 'w') as out_file:
+        out_file.write(revs_txt)
 
 pr_pat = re.compile('PR/([0-9]+)/')
 def get_prs():
@@ -183,10 +205,15 @@ def get_prs():
 def update_prs():
     prs = get_prs()
 
+    prs_json = json.dumps(prs, indent=1,
+                          separators=(',', ': '))
+
     with open('./prs.js', 'w') as out_file:
         out_file.write('"use strict";\n')
-        out_file.write('var prs = {};\n'.format(json.dumps(prs, indent=1,
-                                                           separators=(',', ': '))))
+        out_file.write('var prs = {};\n'.format(prs_json))
+
+    with open('./prs.json', 'w') as out_file:
+        out_file.write(prs_json)
 
 def github_api(url, query=[]):
     query_string = '&'.join(map(lambda x: '{}={}'.format(x[0], x[1]), query))
@@ -214,20 +241,24 @@ def github_api_pages(url, query=[]):
                 break
     return data
 
+def is_pr_cached(pr, info):
+    with open('./prs.json', 'r') as in_file:
+        prs = json.loads(in_file.read())
+
+    if str(pr) in prs:
+        prev_info = prs[str(pr)]
+        if info['head'] == prev_info['head']:
+            return True
+
+    return False
+
 def get_pr_with(pr, info, url):
-    basedir = './history/PR/{}'.format(pr)
-
-    info_path = '{}/info.json'.format(basedir)
-
-    prev_info = None
-    if os.path.exists(info_path):
-        with open(info_path, 'r') as in_file:
-            prev_info = json.loads(in_file.read())
-
-    if prev_info and info['head'] == prev_info['head']:
+    if is_pr_cached(pr, info):
         print('@@@@ skip PR {} (cached)'.format(pr))
         sys.stdout.flush()
         return False
+
+    basedir = './history/PR/{}'.format(pr)
 
     if not os.path.exists(basedir):
         os.makedirs(basedir)
@@ -247,6 +278,7 @@ def get_pr_with(pr, info, url):
 
     txt = json.dumps(info)
 
+    info_path = '{}/info.json'.format(basedir)
     with open(info_path, 'w') as out_file:
         out_file.write(txt)
 

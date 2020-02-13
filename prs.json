@@ -1,5 +1,4 @@
-"use strict";
-var prs = {
+{
  "1864": {
   "ref": "create-immutable-binding",
   "login": "tc39",
@@ -462,4 +461,4 @@ var prs = {
   "base": "787642ad2d159c8358a8782c9414f6d5fb6efa6f",
   "title": "Normative: ToInteger normalizes `-0` to `+0`"
  }
-};
+}

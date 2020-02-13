@@ -95,10 +95,10 @@ function populateRevs(menu, opts) {
     menu.firstChild.remove();
   }
 
-  for (let [date, rev] of revs) {
+  for (let { date, hash } of revs) {
     let opt = document.createElement("option");
-    opt.value = rev;
-    opt.appendChild(document.createTextNode(`${rev} (${date})`));
+    opt.value = hash;
+    opt.appendChild(document.createTextNode(`${hash} (${date})`));
     opts.push(opt);
   }
 
