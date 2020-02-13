@@ -152,8 +152,9 @@ def update_revs():
             revs.append(rev)
 
     revs_txt = json.dumps(revs,
-                     indent=1,
-                     separators=(',', ': '))
+                          indent=1,
+                          separators=(',', ': '),
+                          sort_keys=True)
 
     with open('./revs.js', 'w') as out_file:
         out_file.write('"use strict";\n')
@@ -180,8 +181,10 @@ def get_prs():
 def update_prs():
     prs = get_prs()
 
-    prs_json = json.dumps(prs, indent=1,
-                          separators=(',', ': '))
+    prs_json = json.dumps(prs,
+                          indent=1,
+                          separators=(',', ': '),
+                          sort_keys=True)
 
     with open('./prs.js', 'w') as out_file:
         out_file.write('"use strict";\n')
