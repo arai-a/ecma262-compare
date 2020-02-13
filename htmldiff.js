@@ -25,6 +25,7 @@ const emptyTags = new Set([
 function* tokenize(s) {
   let i = 0;
   let start = 0;
+  let prev = "";
   const len = s.length;
 
   while (i < len) {
@@ -52,18 +53,28 @@ function* tokenize(s) {
           name,
           tag,
         };
+        prev = "c";
       } else {
         if (emptyTags.has(name)) {
           yield {
             type: "t",
             text: tag,
           };
+          prev = "t";
         } else {
+          if (prev == "c") {
+            yield {
+              type: "t",
+              text: "",
+            };
+          }
+
           yield {
             type: "o",
             name,
             tag,
           };
+          prev = "o";
         }
       }
       i = to + 1;
@@ -76,6 +87,7 @@ function* tokenize(s) {
         type: "t",
         text: s.slice(start, i) + result[0],
       };
+      prev = "t";
       i += result[0].length;
       start = i;
     } else {
