@@ -8,8 +8,10 @@ py-venv:
 	$(PIP) install --upgrade pip &&\
 	$(PIP) install -r requirements.txt
 
-init: py-venv
-	$(PYTHON) build.py init
+clone:
+	$(PYTHON) build.py clone
+
+init: py-venv clone
 
 revs:
 	$(PYTHON) build.py revs
@@ -34,3 +36,6 @@ pr5:
 
 prs:
 	$(PYTHON) build.py prs
+
+bootstrap:
+	$(PYTHON) build.py bootstrap

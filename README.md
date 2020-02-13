@@ -11,6 +11,7 @@ Updated periodically (every 30 minutes, update up to 5 revisions and 5 PRs at a 
 ## Setup
 
 ```
+$ make py-venv
 $ make init
 ```
 

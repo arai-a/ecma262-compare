@@ -26,7 +26,7 @@ if os.path.exists('./token.json'):
         token = json.loads(in_file.read())
         API_TOKEN = token['token']
 
-def init_repo_if_necessary():
+def clone_repo_if_necessary():
     if not os.path.exists('./ecma262'):
         subprocess.call(['git', 'clone', REPO_URL])
 
@@ -43,7 +43,6 @@ def generate_html(hash, subdir):
     print('@@@@ {}'.format(revdir))
     sys.stdout.flush()
 
-    init_repo_if_necessary()
     ret = subprocess.call(['git',
                            'checkout', hash], cwd='./ecma262')
     if ret:
@@ -85,27 +84,7 @@ def update_rev(hash):
     result2 = generate_json(hash, '')
     return result1 or result2
 
-def is_rev_cached(hash):
-    with open('./revs.json', 'r') as in_file:
-        revs = json.loads(in_file.read())
-
-    for rev in revs:
-        if rev['hash'] == hash:
-            return True
-
-    return False
-
 def update_master(count=None):
-    data = github_api('https://api.github.com/repos/tc39/ecma262/commits',
-                      [['per_page', '1']])
-    head = data[0]['sha']
-
-    if is_rev_cached(head):
-        print('@@@@ skip all (lastest commit {} is already cached)'.format(head))
-        sys.stdout.flush()
-        return False
-
-    init_repo_if_necessary()
     ret = subprocess.call(['git',
                            'fetch', 'origin', 'master'],
                           cwd='./ecma262')
@@ -134,10 +113,8 @@ def update_master(count=None):
                     break
         i += 1
     p.wait()
-    return True
 
 def get_rev_lines(revs):
-    init_repo_if_necessary()
     p = subprocess.Popen(['git',
                           'log'] + revs
                          + ['--pretty=["%ci", "%H"]'],
@@ -263,7 +240,6 @@ def get_pr_with(pr, info, url):
     if not os.path.exists(basedir):
         os.makedirs(basedir)
 
-    init_repo_if_necessary()
     subprocess.call(['git',
                      'remote', 'add', info['login'], url],
                     cwd='./ecma262')
@@ -446,11 +422,61 @@ def generate_json(hash, subdir):
     basedir = './history/{}'.format(subdir)
     return extract_sections('{}{}'.format(basedir, hash))
 
+def is_rev_cached(hash):
+    with open('./revs.json', 'r') as in_file:
+        revs = json.loads(in_file.read())
+
+    for rev in revs:
+        if rev['hash'] == hash:
+            return True
+
+    return False
+
+def has_new_rev():
+    data = github_api('https://api.github.com/repos/tc39/ecma262/commits',
+                      [['per_page', '1']])
+    head = data[0]['sha']
+
+    if not is_rev_cached(head):
+        return True
+
+    return False
+
+def has_new_pr():
+    data = github_api_pages('https://api.github.com/repos/tc39/ecma262/pulls')
+
+    prs = []
+    for d in reversed(data):
+        if d['number'] >= FIRST_PR:
+            prs.append(d)
+
+    for data in prs:
+        pr = data['number']
+        info = pr_info(data)
+        if not is_pr_cached(pr, info):
+            return True
+
+    return False
+
+def bootstrap():
+    has_new = False
+
+    if has_new_rev():
+        print('##[set-output name=update_revs;]Yes')
+        has_new = True
+
+    if has_new_pr():
+        print('##[set-output name=update_prs;]Yes')
+        has_new = True
+
+    if has_new:
+        print('##[set-output name=update;]Yes')
+
 parser = argparse.ArgumentParser(description='Update ecma262 history data')
 
 parser.add_argument("-t", "--token", help='GitHub personal access token')
 subparsers = parser.add_subparsers(dest='command')
-subparsers.add_parser("init", help='Clone ecma262 repository')
+subparsers.add_parser("clone", help='Clone ecma262 repository')
 parser_update = subparsers.add_parser("update", help='Update all revisions')
 parser_update.add_argument("-c", type=int, help='Maximum number of revisions to handle')
 subparsers.add_parser("revs", help='Update revs.js')
@@ -458,17 +484,17 @@ parser_pr = subparsers.add_parser("pr", help='Update PR')
 parser_pr.add_argument("PR_NUMBER", help='PR number, or "all"')
 parser_pr.add_argument("-c", type=int, help='Maximum number of PRs to handle')
 subparsers.add_parser("prs", help='Update prs.js')
+subparsers.add_parser("bootstrap", help='Perform bootstrap for CI')
 args = parser.parse_args()
 
 if args.token:
     API_TOKEN = args.token
 
-if args.command == 'init':
-    init_repo_if_necessary()
+if args.command == 'clone':
+    clone_repo_if_necessary()
 elif args.command == 'update':
-    result = update_master(args.c)
-    if result:
-        update_revs()
+    update_master(args.c)
+    update_revs()
 elif args.command == 'revs':
     update_revs()
 elif args.command == 'pr':
@@ -484,3 +510,5 @@ elif args.command == 'pr':
             update_revs()
 elif args.command == 'prs':
     update_prs()
+elif args.command == 'bootstrap':
+    bootstrap()
