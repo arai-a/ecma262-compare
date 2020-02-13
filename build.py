@@ -445,7 +445,7 @@ def has_new_rev():
     head = data[0]['sha']
 
     if not is_rev_cached(head):
-        print('head={} is not cached'.format(hash))
+        print('head={} is not cached'.format(head))
         return True
 
     return False
