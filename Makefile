@@ -8,6 +8,9 @@ py-venv:
 	$(PIP) install --upgrade pip &&\
 	$(PIP) install -r requirements.txt
 
+py-venv-bootstrap:
+	python3 -m venv venv
+
 clone:
 	$(PYTHON) build.py clone
 
