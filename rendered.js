@@ -45,7 +45,7 @@ function populateRevList() {
     authorAndDate.appendChild(author);
 
     const date = document.createElement("span");
-    date.textContent = `(${rev.date})`;
+    date.textContent = ` (${rev.date})`;
     authorAndDate.appendChild(date);
 
     const diffCell = document.createElement("td");
