@@ -49,7 +49,6 @@ function populateLists() {
 function initUIState() {
   document.getElementById("view-diff").checked = true;
   document.getElementById("view-diff-tab").classList.add("selected");
-  document.getElementById("sec-filter").checked = true;
 }
 
 async function parseQuery() {
@@ -158,9 +157,6 @@ function filterRev(target) {
   let fromRev = document.getElementById("from-rev");
   let toRev = document.getElementById("to-rev");
 
-  let fromRevSearch = document.getElementById("from-rev-search").value;
-  let toRevSearch = document.getElementById("to-rev-search").value;
-
   let pr = prFilter.value;
   let revSet = null;
   let info = null;
@@ -182,12 +178,6 @@ function filterRev(target) {
           return false;
         }
       }
-      if (fromRevSearch) {
-        if (opt.innerText.toLowerCase().includes(fromRevSearch.toLowerCase())) {
-          return false;
-        }
-      }
-
       return true;
     });
   }
@@ -198,17 +188,11 @@ function filterRev(target) {
           return false;
         }
       }
-      if (toRevSearch) {
-        if (opt.innerText.toLowerCase().includes(toRevSearch.toLowerCase())) {
-          return false;
-        }
-      }
-
       return true;
     });
   }
 
-  if (revSet && !fromRevSearch && !toRevSearch) {
+  if (revSet) {
     fromRev.value = info.base;
     toRev.value = `PR/${pr}/${info.head}`;
     updateHistoryLink();
@@ -639,31 +623,17 @@ function populateMenu(menu, opts, filter) {
 }
 
 async function filterSectionList(doCompare=true) {
-  let search = document.getElementById("sec-list-search").value;
-  let changedOnly = document.getElementById("sec-filter").checked;
-
   let menu = document.getElementById("sec-list");
   let count = populateMenu(menu, secOpts, opt => {
-    if (changedOnly) {
-      if (opt.className === "same") {
-        return false;
-      }
-    }
-    if (search) {
-      if (opt.innerText.toLowerCase().indexOf(search.toLowerCase()) === -1) {
-        return false;
-      }
+    if (opt.className === "same") {
+      return false;
     }
 
     return true;
   });
 
   let hit = document.getElementById("search-hit");
-  if (search || changedOnly) {
-    hit.innerText = `${count - 1} section(s) found`;
-  } else {
-    hit.innerText = "";
-  }
+  hit.innerText = `${count - 1} section(s) found`;
 
   if (doCompare) {
     await compare();
@@ -706,18 +676,6 @@ async function onPRFilterChange() {
   await compare();
   updateURL();
 }
-async function onFromRevFilterChange() {
-  filterRev("from");
-  updateSectionList();
-  await compare();
-  updateURL();
-}
-async function onToRevFilterChange() {
-  filterRev("to");
-  updateSectionList();
-  await compare();
-  updateURL();
-}
 
 async function onFromRevChange() {
   updateHistoryLink();
@@ -728,17 +686,6 @@ async function onFromRevChange() {
 async function onToRevChange() {
   updateHistoryLink();
   updateSectionList();
-  await compare();
-  updateURL();
-}
-
-async function onSecListSearchChanged() {
-  filterSectionList();
-  await compare();
-  updateURL();
-}
-async function onSecFlterChanged() {
-  filterSectionList();
   await compare();
   updateURL();
 }

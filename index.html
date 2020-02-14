@@ -26,8 +26,6 @@
   <th><label for="from-rev">From</label></th>
   <td>
     <select id="from-rev" onchange="onFromRevChange()"></select>
-    <input id="from-rev-search" type="text" onchange="onFromRevFilterChange()"
-           placeholder="Search">
     <a id="from-history-link" href="#" target="_blank">Open rendered page</a>
   </td>
 </tr>
@@ -35,8 +33,6 @@
   <th><label for="to-rev">To</label></th>
   <td>
     <select id="to-rev" onchange="onToRevChange()"></select>
-    <input id="to-rev-search" type="text" onchange="onToRevFilterChange()"
-           placeholder="Search">
     <a id="to-history-link" href="#" target="_blank">Open rendered page</a>
   </td>
 </tr>
@@ -48,14 +44,7 @@
   <th><label for="sec-list">Section(s)</label></th>
   <td>
     <select id="sec-list" onchange="compare();updateURL()"></select>
-    <input id="sec-list-search" type="text" onchange="onSecListSearchChanged()" placeholder="Search">
     <span id="search-hit"></span>
-  </td>
-</tr>
-<tr>
-  <th></th>
-  <td>
-    <label><input id="sec-filter" name="sec-filter" type="checkbox" onchange="onSecFlterChanged()">Changed sections only</label>
   </td>
 </tr>
 </table>
