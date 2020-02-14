@@ -32,7 +32,9 @@
 #view-from-tab,
 #view-to-tab,
 #view-diff-tab {
-    border: 1px solid #808080;
+    border-top: 1px solid #808080;
+    border-right: 1px solid #808080;
+    border-bottom: 1px solid #808080;
     width: 6em;
     padding: 0 4px;
 }
