@@ -3,7 +3,6 @@
 ## Setup
 
 ```
-$ make py-venv
 $ make init
 ```
 
@@ -38,6 +37,12 @@ Create `token.json` file with following content (replacing `GITHUB_TOKEN` with y
 $ make update
 ```
 
+or 
+
+```
+$ ./venv/bin/python build.py update
+```
+
 This fetches commits from https://github.com/tc39/ecma262/ , and generates HTML file with resources, and JSON file for each revision.
 HTML files are stored as `./history/{hash}/index.html`, and JSON files are stored as `./history/{hash}/sections.json`, and they're cached for 2nd invocation.
 
@@ -55,6 +60,12 @@ It will fail if the PR is not mergeable.
 
 ```
 $ make pr
+```
+
+or 
+
+```
+$ ./venv/bin/python build.py pr all
 ```
 
 It retrieves the list of PRs and update each PR.
