@@ -19,11 +19,12 @@ header h1 {
     font-size: 1.2em;
     margin: 0;
     text-align: center;
+    padding: 0 40px;
 }
 
 header nav {
     text-align: center;
-    padding: 0;
+    padding: 0 40px;
 }
 
 header nav a {
