@@ -107,3 +107,26 @@ h1 {
 #result.combined div[id^="excluded-"] {
     display: none;
 }
+
+.rev-header-cell {
+    vertical-align: top;
+}
+
+#from-rev-subject,
+#to-rev-subject {
+    font-size: 0.8em;
+    color: #808080;
+}
+
+.rev-author-and-date {
+    font-size: 0.6em;
+    color: #808080;
+}
+
+#from-rev-author,
+#to-rev-author {
+}
+
+#from-rev-date,
+#to-rev-date {
+}

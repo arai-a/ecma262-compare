@@ -4,6 +4,7 @@ const REPO_URL = "https://github.com/tc39/ecma262";
 let pr_url = pr => `https://github.com/tc39/ecma262/pull/${pr}`;
 
 let revs;
+let revMap;
 let prs;
 let prnums;
 
@@ -26,11 +27,15 @@ async function run() {
   initUIState();
 
   parseQuery();
-  updateHistoryLink();
+  updateHistoryLinkAndInfo();
 }
 
 async function loadResources() {
   revs = await (await fetch("./revs.json")).json();
+  revMap = {};
+  for (const rev of revs) {
+    revMap[rev.hash] = rev;
+  }
   prs = await (await fetch("./prs.json")).json();
   prnums = Object.keys(prs).map(x => parseInt(x, 10)).sort((a, b) => a - b).reverse();
 }
@@ -77,7 +82,7 @@ async function parseQuery() {
     }
     fromRev.value = from;
     toRev.value = to;
-    updateHistoryLink();
+    updateHistoryLinkAndInfo();
 
     await updateSectionList();
 
@@ -95,7 +100,7 @@ async function parseQuery() {
 
       fromRev.value = info.base;
       toRev.value = info.head;
-      updateHistoryLink();
+      updateHistoryLinkAndInfo();
 
       prFilter.value = pr;
       filterRev("both");
@@ -195,7 +200,7 @@ function filterRev(target) {
   if (revSet) {
     fromRev.value = info.base;
     toRev.value = `PR/${pr}/${info.head}`;
-    updateHistoryLink();
+    updateHistoryLinkAndInfo();
   }
 }
 
@@ -659,7 +664,7 @@ function isChanged(id) {
   return filterAttribute(fromHTML) !== filterAttribute(toHTML);
 }
 
-function updateHistoryLink() {
+function updateHistoryLinkAndInfo() {
   let fromRev = document.getElementById("from-rev");
   let toRev = document.getElementById("to-rev");
 
@@ -668,6 +673,36 @@ function updateHistoryLink() {
 
   fromLink.href = `./history/${fromRev.value}/index.html`;
   toLink.href = `./history/${toRev.value}/index.html`;
+
+  updateRevInfo("from", fromRev.value);
+  updateRevInfo("to", toRev.value);
+}
+
+function updateRevInfo(id, name) {
+  const subject = document.getElementById(`${id}-rev-subject`);
+  const author = document.getElementById(`${id}-rev-author`);
+  const date = document.getElementById(`${id}-rev-date`);
+
+  const m = name.match(/PR\/(\d+)\/(.+)/);
+  if (m) {
+    const prnum = m[1];
+    const hash = m[2];
+    const pr = prs[prnum];
+
+    subject.textContent = pr.title;
+    author.textContent = `by ${pr.login}`;
+    date.textContent = "";
+  } else if (name in revMap) {
+    const rev = revMap[name];
+
+    subject.textContent = rev.subject;
+    author.textContent = `by ${rev.author}`;
+    date.textContent = `(${rev.date})`;
+  } else {
+    subject.textContent = "-";
+    author.textContent = "-";
+    date.textContent = "";
+  }
 }
 
 async function onPRFilterChange() {
@@ -678,13 +713,13 @@ async function onPRFilterChange() {
 }
 
 async function onFromRevChange() {
-  updateHistoryLink();
+  updateHistoryLinkAndInfo();
   updateSectionList();
   await compare();
   updateURL();
 }
 async function onToRevChange() {
-  updateHistoryLink();
+  updateHistoryLinkAndInfo();
   updateSectionList();
   await compare();
   updateURL();
