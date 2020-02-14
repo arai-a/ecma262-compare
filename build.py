@@ -115,7 +115,7 @@ def update_master(count=None):
 def get_revs(revset):
     p = subprocess.Popen(['git',
                           'log'] + revset
-                         + ['--pretty=hash:%H%nparents:%P%nauthor:%an%ndate:%ci%nsubject:%s%n=='],
+                         + ['--pretty=hash:%H%nparents:%P%nauthor:%an%ndate:%cI%nadate:%aI%nsubject:%s%n=='],
                          cwd='./ecma262',
                          stdout=subprocess.PIPE,
                          stderr=subprocess.STDOUT)
