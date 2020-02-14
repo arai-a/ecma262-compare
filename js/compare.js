@@ -519,10 +519,22 @@ class Comparator {
   }
 
   async loadResources() {
+    this.diffStat.textContent = "Loading... 0%";
+
+    const progress = [0, 0];
+    const showProgress = (p, id) => {
+      console.log(id, p);
+      progress[id] = p;
+
+      const totalProgress = Math.round((progress[0] + progress[1]) / 2);
+      this.diffStat.textContent = `Loading... ${totalProgress}%`;
+    };
+
     [this.revs, this.prs] = await Promise.all([
-      this.getJSON("./history/revs.json"),
-      this.getJSON("./history/prs.json"),
+      this.getJSON("./history/revs.json", showProgress, 0),
+      this.getJSON("./history/prs.json", showProgress, 1),
     ]);
+    this.diffStat.textContent = "";
 
     this.revMap = {};
     for (const rev of this.revs) {
@@ -534,9 +546,34 @@ class Comparator {
       .sort((a, b) => b - a);
   }
 
-  async getJSON(path) {
+  async getJSON(path, progressFunc, param) {
     const response = await fetch(path);
-    return response.json();
+    if (!progressFunc) {
+      return response.json();
+    }
+
+    let length = 0;
+    try {
+      length = parseInt(response.headers.get("content-length"));
+    } catch (e) {
+    }
+
+    const reader = response.body.getReader();
+    const decoder = new TextDecoder();
+    let s = "";
+    let total = 0;
+    while (true) {
+      const { done, value } = await reader.read();
+      if (done) {
+        break;
+      }
+      total += value.length;
+      const progress = length == 0 ? 0 : total * 100 / length;
+      progressFunc(progress, param);
+      s += decoder.decode(value, { stream: true });
+    }
+
+    return JSON.parse(s);
   }
 
   populateLists() {
@@ -737,13 +774,23 @@ class Comparator {
 
   async updateSectionList() {
     this.result.textContent = "";
-    this.diffStat.textContent = "";
 
-    this.diffStat.textContent = "Loading...";
+    this.diffStat.textContent = "Loading... 0%";
+
+    const progress = [0, 0];
+    const showProgress = (p, id) => {
+      console.log(id, p);
+      progress[id] = p;
+
+      const totalProgress = Math.round((progress[0] + progress[1]) / 2);
+      this.diffStat.textContent = `Loading... ${totalProgress}%`;
+    };
+
     [this.fromSecData, this.toSecData] = await Promise.all([
-      this.getSecData("from"),
-      this.getSecData("to")
+      this.getSecData("from", showProgress, 0),
+      this.getSecData("to", showProgress, 1)
     ]);
+
     this.diffStat.textContent = "";
 
     this.searchHit.textContent = "";
@@ -807,9 +854,9 @@ class Comparator {
     await this.filterSectionList();
   }
 
-  async getSecData(id) {
+  async getSecData(id, progressFunc, param) {
     const hash = this.hashOf(id);
-    return this.getJSON(`./history/${hash}/sections.json`);
+    return this.getJSON(`./history/${hash}/sections.json`, progressFunc, param);
   }
 
   // Returns hash for selected item in "from" or "to" list.
