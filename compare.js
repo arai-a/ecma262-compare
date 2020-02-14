@@ -7,6 +7,10 @@ if (!("prs" in window)) {
 const REPO_URL = "https://github.com/tc39/ecma262";
 let pr_url = pr => `https://github.com/tc39/ecma262/pull/${pr}`;
 
+let revs;
+let prs;
+let prnums;
+
 let fromSecData = {};
 let toSecData = {};
 
@@ -14,9 +18,28 @@ let fromOpts = [];
 let toOpts = [];
 let secOpts = [];
 
-let prnums = Object.keys(prs).map(x => parseInt(x, 10)).sort((a, b) => a - b).reverse();
-
 function bodyOnLoad() {
+  run().catch(e => console.log(e));
+}
+
+async function run() {
+  await loadResources();
+
+  populateLists();
+
+  initUIState();
+
+  parseQuery();
+  updateHistoryLink();
+}
+
+async function loadResources() {
+  revs = await (await fetch("./revs.json")).json();
+  prs = await (await fetch("./prs.json")).json();
+  prnums = Object.keys(prs).map(x => parseInt(x, 10)).sort((a, b) => a - b).reverse();
+}
+
+function populateLists() {
   let prFilter = document.getElementById("pr-filter");
   let fromRev = document.getElementById("from-rev");
   let toRev = document.getElementById("to-rev");
@@ -25,13 +48,12 @@ function bodyOnLoad() {
 
   populateRevs(fromRev, fromOpts);
   populateRevs(toRev, toOpts);
+}
 
+function initUIState() {
   document.getElementById("view-diff").checked = true;
   document.getElementById("view-diff-tab").classList.add("selected");
   document.getElementById("sec-filter").checked = true;
-
-  parseQuery();
-  updateHistoryLink();
 }
 
 async function parseQuery() {

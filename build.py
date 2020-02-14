@@ -168,10 +168,6 @@ def update_revs():
                           separators=(',', ': '),
                           sort_keys=True)
 
-    with open('./revs.js', 'w') as out_file:
-        out_file.write('"use strict";\n')
-        out_file.write('var revs = {};\n'.format(revs_txt))
-
     with open('./revs.json', 'w') as out_file:
         out_file.write(revs_txt)
 
@@ -197,10 +193,6 @@ def update_prs():
                           indent=1,
                           separators=(',', ': '),
                           sort_keys=True)
-
-    with open('./prs.js', 'w') as out_file:
-        out_file.write('"use strict";\n')
-        out_file.write('var prs = {};\n'.format(prs_json))
 
     with open('./prs.json', 'w') as out_file:
         out_file.write(prs_json)
@@ -500,11 +492,11 @@ subparsers = parser.add_subparsers(dest='command')
 subparsers.add_parser('clone', help='Clone ecma262 repository')
 parser_update = subparsers.add_parser('update', help='Update all revisions')
 parser_update.add_argument('-c', type=int, help='Maximum number of revisions to handle')
-subparsers.add_parser('revs', help='Update revs.js')
+subparsers.add_parser('revs', help='Update revs.json')
 parser_pr = subparsers.add_parser('pr', help='Update PR')
 parser_pr.add_argument('PR_NUMBER', help='PR number, or "all"')
 parser_pr.add_argument('-c', type=int, help='Maximum number of PRs to handle')
-subparsers.add_parser('prs', help='Update prs.js')
+subparsers.add_parser('prs', help='Update prs.json')
 subparsers.add_parser('bootstrap', help='Perform bootstrap for CI')
 args = parser.parse_args()
 
