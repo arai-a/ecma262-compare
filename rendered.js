@@ -17,6 +17,15 @@ async function run(type) {
   }
 }
 
+function toReadableDate(d) {
+  try {
+    const date = new Date(d);
+    return date.toISOString().replace("T", " ").replace(/\.\d+Z$/, "");
+  } catch (e) {
+    return d;
+  }
+}
+
 function populateRevList() {
   const list = document.getElementById("rev-list");
   for (const rev of revs) {
@@ -45,7 +54,7 @@ function populateRevList() {
     authorAndDate.appendChild(author);
 
     const date = document.createElement("span");
-    date.textContent = ` (${rev.date})`;
+    date.textContent = ` (${toReadableDate(rev.date)})`;
     authorAndDate.appendChild(date);
 
     const diffCell = document.createElement("td");
@@ -104,6 +113,10 @@ function populatePRList() {
     const author = document.createElement("span");
     author.textContent = `by ${pr.login}`;
     authorAndDate.appendChild(author);
+
+    const date = document.createElement("span");
+    date.textContent = ` (${toReadableDate(pr.updated_at)})`;
+    authorAndDate.appendChild(date);
 
     const diffCell = document.createElement("td");
     diffCell.classList.add("diff-cell");

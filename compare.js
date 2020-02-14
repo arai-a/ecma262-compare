@@ -112,6 +112,15 @@ async function parseQuery() {
   }
 }
 
+function toReadableDate(d) {
+  try {
+    const date = new Date(d);
+    return date.toISOString().replace("T", " ").replace(/\.\d+Z$/, "");
+  } catch (e) {
+    return d;
+  }
+}
+
 function populateRevs(menu, opts) {
   while (menu.firstChild) {
     menu.firstChild.remove();
@@ -120,7 +129,7 @@ function populateRevs(menu, opts) {
   for (let { date, hash } of revs) {
     let opt = document.createElement("option");
     opt.value = hash;
-    opt.appendChild(document.createTextNode(`${hash} (${date})`));
+    opt.appendChild(document.createTextNode(`${hash} (${toReadableDate(date)})`));
     opts.push(opt);
   }
 
@@ -694,7 +703,7 @@ function updateRevInfo(id, name) {
     subjectLink.href = `https://github.com/tc39/ecma262/pull/${prnum}`;
     prNode.textContent = `#${prnum} `;
     author.textContent = `by ${pr.login}`;
-    date.textContent = "";
+    date.textContent = `(${toReadableDate(pr.updated_at)})`;
   } else if (name in revMap) {
     const rev = revMap[name];
 
@@ -702,7 +711,7 @@ function updateRevInfo(id, name) {
     subjectLink.href = `https://github.com/tc39/ecma262/commit/${rev.hash}`;
     prNode.textContent = "";
     author.textContent = `by ${rev.author}`;
-    date.textContent = `(${rev.date})`;
+    date.textContent = `(${toReadableDate(rev.date)})`;
   } else {
     subjectLink.textContent = "-";
     subjectLink.removeAttribute("href");
