@@ -6,7 +6,7 @@
 <link href="./base.css" rel="stylesheet">
 <link href="./compare.css" rel="stylesheet">
 <script type="text/javascript" src="./htmldiff.js"></script>
-<script type="text/javascript" src="./compare.js?20200214a"></script>
+<script type="text/javascript" src="./compare.js?20200214b"></script>
 </head>
 <body onload="bodyOnLoad()">
 <div id="container">
@@ -36,8 +36,9 @@
     <select id="from-rev" onchange="onFromRevChange()"></select>
     <a id="from-history-link" href="#" target="_blank">Open rendered page</a>
     <div id="from-rev-info">
-      <div id="from-rev-subject">-</div>
+      <div id="from-rev-subject"><a id="from-rev-subject-link">-</a></div>
       <div class="rev-author-and-date">
+        <span id="from-rev-pr"></span>
         <span id="from-rev-author">-</span>
         <span id="from-rev-date"></span>
       </div>
@@ -50,8 +51,9 @@
     <select id="to-rev" onchange="onToRevChange()"></select>
     <a id="to-history-link" href="#" target="_blank">Open rendered page</a>
     <div id="to-rev-info">
-      <div id="to-rev-subject">-</div>
+      <div id="to-rev-subject"><a id="to-rev-subject-link">-</a></div>
       <div class="rev-author-and-date">
+        <span id="to-rev-pr"></span>
         <span id="to-rev-author">-</span>
         <span id="to-rev-date"></span>
       </div>

@@ -679,7 +679,8 @@ function updateHistoryLinkAndInfo() {
 }
 
 function updateRevInfo(id, name) {
-  const subject = document.getElementById(`${id}-rev-subject`);
+  const subjectLink = document.getElementById(`${id}-rev-subject-link`);
+  const prNode = document.getElementById(`${id}-rev-pr`);
   const author = document.getElementById(`${id}-rev-author`);
   const date = document.getElementById(`${id}-rev-date`);
 
@@ -689,17 +690,23 @@ function updateRevInfo(id, name) {
     const hash = m[2];
     const pr = prs[prnum];
 
-    subject.textContent = pr.title;
+    subjectLink.textContent = pr.title;
+    subjectLink.href = `https://github.com/tc39/ecma262/pull/${prnum}`;
+    prNode.textContent = `#${prnum} `;
     author.textContent = `by ${pr.login}`;
     date.textContent = "";
   } else if (name in revMap) {
     const rev = revMap[name];
 
-    subject.textContent = rev.subject;
+    subjectLink.textContent = rev.subject;
+    subjectLink.href = `https://github.com/tc39/ecma262/commit/${rev.hash}`;
+    prNode.textContent = "";
     author.textContent = `by ${rev.author}`;
     date.textContent = `(${rev.date})`;
   } else {
-    subject.textContent = "-";
+    subjectLink.textContent = "-";
+    subjectLink.removeAttribute("href");
+    prNode.textContent = "";
     author.textContent = "-";
     date.textContent = "";
   }
