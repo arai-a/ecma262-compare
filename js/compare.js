@@ -31,12 +31,12 @@ async function run() {
 }
 
 async function loadResources() {
-  revs = await (await fetch("./revs.json")).json();
+  revs = await (await fetch("./history/revs.json")).json();
   revMap = {};
   for (const rev of revs) {
     revMap[rev.hash] = rev;
   }
-  prs = await (await fetch("./prs.json")).json();
+  prs = await (await fetch("./history/prs.json")).json();
   prnums = Object.keys(prs).map(x => parseInt(x, 10)).sort((a, b) => a - b).reverse();
 }
 

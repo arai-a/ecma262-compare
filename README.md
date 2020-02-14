@@ -19,22 +19,22 @@ This branch contains 2 things:
 
 * Comparator
   * `index.html`
-  * `compare.js`
-  * `compare.css`
-  * `base.css`
-  * `htmldiff.js`  
+  * `js/compare.js`
+  * `style/compare.css`
+  * `style/base.css`
+  * `js/htmldiff.js`  
     Calculates diff between 2 HTML codelet
-  * `ecmarkup.css`  
+  * `style/ecmarkup.css`  
     The copy of `ecmarkup.css` file from recent spec
 * Rendered revisions and PRs history index
   * `rendered_revs.html`
   * `rendered_prs.html`
-  * `rendered.js`
-  * `rendered.css`
+  * `js/rendered.js`
+  * `style/rendered.css`
 * History data
-  * `revs.json`  
+  * `history/revs.json`  
     The list of the metadata for already-merged revisions
-  * `prs.json`  
+  * `history/prs.json`  
     The list of the metadata for PRs
   * `history/{SHA}/index.html`  
     Rendered page for `{SHA}` revision

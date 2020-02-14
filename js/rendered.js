@@ -145,6 +145,6 @@ function populatePRList() {
 }
 
 async function loadResources() {
-  revs = await (await fetch("./revs.json")).json();
-  prs = await (await fetch("./prs.json")).json();
+  revs = await (await fetch("./history/revs.json")).json();
+  prs = await (await fetch("./history/prs.json")).json();
 }

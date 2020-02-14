@@ -174,7 +174,7 @@ def update_revs():
                           separators=(',', ': '),
                           sort_keys=True)
 
-    with open('./revs.json', 'w') as out_file:
+    with open('./history/revs.json', 'w') as out_file:
         out_file.write(revs_txt)
 
 pr_pat = re.compile('PR/([0-9]+)/')
@@ -203,7 +203,7 @@ def update_prs():
                           separators=(',', ': '),
                           sort_keys=True)
 
-    with open('./prs.json', 'w') as out_file:
+    with open('./history/prs.json', 'w') as out_file:
         out_file.write(prs_json)
 
 def github_api(url, query=[]):
@@ -233,7 +233,7 @@ def github_api_pages(url, query=[]):
     return data
 
 def is_pr_cached(pr, info):
-    with open('./prs.json', 'r') as in_file:
+    with open('./history/prs.json', 'r') as in_file:
         prs = json.loads(in_file.read())
 
     if str(pr) in prs:
@@ -450,7 +450,7 @@ def generate_json(sha, subdir):
     return extract_sections('{}{}'.format(basedir, sha))
 
 def is_rev_cached(sha):
-    with open('./revs.json', 'r') as in_file:
+    with open('./history/revs.json', 'r') as in_file:
         revs = json.loads(in_file.read())
 
     for rev in revs:
