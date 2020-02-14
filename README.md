@@ -1,4 +1,4 @@
-![Update revisions and PRs](https://github.com/arai-a/ecma262-compare/workflows/Update%20revisions%20and%20PRs/badge.svg)
+![Update revisions and PRs](https://github.com/arai-a/ecma262-compare/actions?query=workflow%3A%22Update+revisions+and+PRs%22)
 
 # ECMAScript Language Specification Comparator
 
