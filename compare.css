@@ -84,7 +84,7 @@ option.mod {
 
 #search-hit {
     font-size: 0.9em;
-    color: #808080;
+    color: #707070;
 }
 
 .diff-view ol > li {
@@ -93,7 +93,7 @@ option.mod {
 
 #diff-stat {
     border-bottom: 1px solid #808080;
-    color: #808080;
+    color: #707070;
     padding: 0 4px;
     flex: 1;
 }
@@ -109,10 +109,10 @@ option.mod {
 #from-rev-subject,
 #to-rev-subject {
     font-size: 0.8em;
-    color: #808080;
+    color: #707070;
 }
 
 .rev-author-and-date {
     font-size: 0.6em;
-    color: #808080;
+    color: #707070;
 }
