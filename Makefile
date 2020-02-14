@@ -42,3 +42,6 @@ prs:
 
 bootstrap:
 	$(PYTHON) build.py bootstrap
+
+localserver:
+	python -m SimpleHTTPServer 8000
