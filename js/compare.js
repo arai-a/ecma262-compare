@@ -219,6 +219,11 @@ class HTMLDiff {
         const tag = s.slice(i, to + 1);
 
         if (name.startsWith("/")) {
+          // If the current element has no content,
+          // Put empty text, so that `toSeq` creates empty text inside
+          // this element..
+          //
+          // Otherwise `toSeq` won't create any info about this element.
           if (prev == "o") {
             yield {
               type: "t",
@@ -234,12 +239,19 @@ class HTMLDiff {
           prev = "c";
         } else {
           if (emptyTags.has(name)) {
+            // Empty tag is treated as text.
             yield {
               type: "t",
               text: tag,
             };
             prev = "t";
           } else {
+            // If there's opening tag immediately after closing tag,
+            // put empty text, so that `toSeq` creates empty text at
+            // parent node, between 2 elements
+            // (one closed here, and one opened here).
+            //
+            // Otherwise `toSeq` will concatenate 2 elements if they're same.
             if (prev == "c") {
               yield {
                 type: "t",
@@ -297,6 +309,7 @@ class HTMLDiff {
     }
 
     function isDiff(s1, s2) {
+      // Do not count the difference in attributes,h.
       return s1.text != s2.text || s1.name_path != s2.name_path;
     }
 
@@ -358,10 +371,6 @@ class HTMLDiff {
   static diffToSeq(diff) {
     const seq = [];
 
-    let prev_name_stack = [];
-    let prev_name_path = "";
-    let prev_tag_stack = [];
-
     const INS_NAME = `ins`;
     const INS_TAG = `<ins class="htmldiff-add">`;
     const DEL_NAME = `del`;
@@ -375,22 +384,11 @@ class HTMLDiff {
         }
         case '+':
         case '-': {
-          const new_name_stack = [];
-          const new_tag_stack = [];
-          let i = 0;
-          for (; i < d.item.name_stack.length; i++) {
-            if (d.item.name_stack[i] == prev_name_stack[i]) {
-              new_name_stack.push(d.item.name_stack[i]);
-              new_tag_stack.push(d.item.tag_stack[i]);
-            } else {
-              break;
-            }
-          }
-          for (; i < d.item.name_stack.length; i++) {
-            new_name_stack.push(d.item.name_stack[i]);
-            new_tag_stack.push(d.item.tag_stack[i]);
-          }
+          const new_name_stack = d.item.name_stack.slice();
+          const new_tag_stack = d.item.tag_stack.slice();
 
+          // FIXME: Instead of the leaf, put ins/del somewhere in the stack.
+          //        https://github.com/arai-a/ecma262-compare/issues/13
           switch (d.op) {
             case '+': {
               new_name_stack.push(INS_NAME);
@@ -413,9 +411,6 @@ class HTMLDiff {
           break;
         }
       }
-      prev_name_stack = d.item.name_stack;
-      prev_name_path = d.item.name_path;
-      prev_tag_stack = d.item.tag_stack;
     }
 
     return seq;
@@ -431,22 +426,28 @@ class HTMLDiff {
 
     for (const s of seq) {
       let i = 0;
+      // Skip common ancestor.
       for (; i < s.name_stack.length; i++) {
         if (s.name_stack[i] != name_stack[i]) {
           break;
         }
       }
+
+      // Close tags that are not part of current text.
       while (i < name_stack.length) {
         tag_stack.pop();
         const name = name_stack.pop();
         ts.push(`</${name}>`);
       }
+
+      // Open remaining tags that are ancestor of current text.
       for (; i < s.name_stack.length; i++) {
         name_stack.push(s.name_stack[i]);
         const tag = s.tag_stack[i];
         tag_stack.push(tag);
         ts.push(tag);
       }
+
       ts.push(s.text);
     }
 
