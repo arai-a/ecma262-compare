@@ -1,14 +1,27 @@
 #controller {
     border-top: 1px solid #808080;
+    padding: 0;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 8em 1fr;
 }
 
-#rev-controller-container,
-#sections-controller-container {
-    padding: 0 20px;
-}
-
-#rev-controller-container {
+#pr-filter-label,
+#to-rev-label {
     border-bottom: 1px solid #808080;
+}
+#pr-filter-container,
+#to-rev-container {
+    border-bottom: 1px solid #808080;
+}
+
+.filter-label {
+    font-weight: bold;
+    padding: 0 4px;
+    text-align: end;
+}
+.filter-container {
+    padding: 0 8px;
 }
 
 #tabs {

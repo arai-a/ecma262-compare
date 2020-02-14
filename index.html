@@ -10,80 +10,64 @@
 </head>
 <body onload="bodyOnLoad()">
 <div id="container">
-<header>
-<h1>ECMAScript Language Specification Comparator</h1>
-<nav class="nav">
-  <a href="./">Comparator</a>
-  <a href="./rendered_revs.html">Revisions</a>
-  <a href="./rendered_prs.html">PRs</a>
-</nav>
-<div id="controller">
-<div id="rev-controller-container">
-<div id="github-link">
-  <a href="https://github.com/arai-a/ecma262-compare"><img src="./img/github.png" alt="GitHub repository" title="GitHub repository"></a>
-</div>
-<table id="rev-controller">
-<tr>
-  <th><label for="pr-filter">PR</label></th>
-  <td>
-    <select id="pr-filter" onchange="onPRFilterChange()"></select>
-    <a id="pr-link" href="#" target="_blank"></a>
-  </td>
-</tr>
-<tr>
-  <th class="rev-header-cell"><label for="from-rev">From</label></th>
-  <td>
-    <select id="from-rev" onchange="onFromRevChange()"></select>
-    <a id="from-history-link" href="#" target="_blank">Open rendered page</a>
-    <div id="from-rev-info">
-      <div id="from-rev-subject"><a id="from-rev-subject-link">-</a></div>
-      <div class="rev-author-and-date">
-        <span id="from-rev-pr"></span>
-        <span id="from-rev-author">-</span>
-        <span id="from-rev-date"></span>
+  <header>
+    <h1>ECMAScript Language Specification Comparator</h1>
+    <nav class="nav">
+      <a href="./">Comparator</a>
+      <a href="./rendered_revs.html">Revisions</a>
+      <a href="./rendered_prs.html">PRs</a>
+    </nav>
+    <div id="github-link">
+      <a href="https://github.com/arai-a/ecma262-compare"><img src="./img/github.png" alt="GitHub repository" title="GitHub repository"></a>
+    </div>
+    <div id="controller">
+      <label id="pr-filter-label" class="filter-label" for="pr-filter">PR</label>
+      <div id="pr-filter-container" class="filter-container">
+        <select id="pr-filter" onchange="onPRFilterChange()"></select>
+        <a id="pr-link" href="#" target="_blank"></a>
+      </div>
+      <label id="from-rev-label" class="filter-label" for="from-rev">From</label>
+      <div id="from-rev-container" class="filter-container">
+        <select id="from-rev" onchange="onFromRevChange()"></select>
+        <a id="from-history-link" href="#" target="_blank">Open rendered page</a>
+        <div id="from-rev-info">
+          <div id="from-rev-subject"><a id="from-rev-subject-link">-</a></div>
+          <div class="rev-author-and-date">
+            <span id="from-rev-pr"></span>
+            <span id="from-rev-author">-</span>
+            <span id="from-rev-date"></span>
+          </div>
+        </div>
+      </div>
+      <label id="to-rev-label" class="filter-label" for="to-rev">To</label>
+      <div id="to-rev-container" class="filter-container">
+        <select id="to-rev" onchange="onToRevChange()"></select>
+        <a id="to-history-link" href="#" target="_blank">Open rendered page</a>
+        <div id="to-rev-info">
+          <div id="to-rev-subject"><a id="to-rev-subject-link">-</a></div>
+          <div class="rev-author-and-date">
+            <span id="to-rev-pr"></span>
+            <span id="to-rev-author">-</span>
+            <span id="to-rev-date"></span>
+          </div>
+        </div>
+      </div>
+      <label class="filter-label" for="sec-list">Section(s)</label>
+      <div class="filter-container">
+        <select id="sec-list" onchange="compare();updateURL()"></select>
+        <span id="search-hit"></span>
       </div>
     </div>
-  </td>
-</tr>
-<tr>
-  <th class="rev-header-cell"><label for="to-rev">To</label></th>
-  <td>
-    <select id="to-rev" onchange="onToRevChange()"></select>
-    <a id="to-history-link" href="#" target="_blank">Open rendered page</a>
-    <div id="to-rev-info">
-      <div id="to-rev-subject"><a id="to-rev-subject-link">-</a></div>
-      <div class="rev-author-and-date">
-        <span id="to-rev-pr"></span>
-        <span id="to-rev-author">-</span>
-        <span id="to-rev-date"></span>
-      </div>
+    <div id="tabs">
+      <label id="view-from-tab"><input id="view-from" type="radio" name="view" value="from" onchange="compare()"> From</label>
+      <label id="view-to-tab"><input id="view-to" type="radio" name="view" value="to" onchange="compare()"> To</label>
+      <label id="view-diff-tab"><input id="view-diff" type="radio" name="view" value="diff" onchange="compare()"> Diff</label>
+      <span id="diff-stat"></span>
+      <em id="diff-note">NOTE: Step numbers might be wrong in Diff view!!!</em>
     </div>
-  </td>
-</tr>
-</table>
-</div>
-<div id="sections-controller-container">
-<table id="sections-controller">
-<tr>
-  <th><label for="sec-list">Section(s)</label></th>
-  <td>
-    <select id="sec-list" onchange="compare();updateURL()"></select>
-    <span id="search-hit"></span>
-  </td>
-</tr>
-</table>
-</div>
-<div id="tabs">
-<label id="view-from-tab"><input id="view-from" type="radio" name="view" value="from" onchange="compare()"> From</label>
-<label id="view-to-tab"><input id="view-to" type="radio" name="view" value="to" onchange="compare()"> To</label>
-<label id="view-diff-tab"><input id="view-diff" type="radio" name="view" value="diff" onchange="compare()"> Diff</label>
-<span id="diff-stat"></span>
-<em id="diff-note">NOTE: Step numbers might be wrong in Diff view!!!</em>
-</div>
-</div>
-</header>
-<div id="result"></div>
-<div id="list-mark-utils-box" style="display: none"></div>
+  </header>
+  <div id="result"></div>
+  <div id="list-mark-utils-box" style="display: none"></div>
 </div>
 </body>
 </html>
