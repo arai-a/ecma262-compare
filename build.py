@@ -159,8 +159,8 @@ def update_revs():
 
     bases = set()
     prs = get_prs()
-    for pr in prs:
-        bases.add(prs[pr]['base'])
+    for prnum in prs:
+        bases.add(prs[prnum]['base'])
 
     for base in bases:
         rev = get_revs(['-1', base])[0]
@@ -180,16 +180,19 @@ def update_revs():
 
 pr_pat = re.compile('PR/([0-9]+)/')
 def get_prs():
+    raw_prs = get_raw_prs()
+
     prs = dict()
 
-    for info_path in glob.glob('./history/PR/*/info.json'):
-        pr = pr_pat.search(info_path).group(1)
+    for data in raw_prs:
+        prnum = data['number']
+        info_path = './history/PR/{}/info.json'.format(prnum)
 
         if os.path.exists(info_path):
             with open(info_path, 'r') as in_file:
                 info = json.loads(in_file.read())
 
-            prs[pr] = info
+            prs[prnum] = info
 
     return prs
 
@@ -294,25 +297,30 @@ def get_pr(pr):
 
     return get_pr_with(pr, info, url)
 
-def get_all_pr(count=None):
+def get_raw_prs():
     data = github_api_pages('https://api.github.com/repos/tc39/ecma262/pulls')
 
-    prs = []
+    raw_prs = []
     for d in reversed(data):
         if d['number'] >= FIRST_PR:
-            prs.append(d)
+            raw_prs.append(d)
+
+    return raw_prs
+
+def get_all_pr(count=None):
+    raw_prs = get_raw_prs()
 
     result_any = False
 
     i = 1
-    for data in prs:
-        pr = data['number']
+    for data in raw_prs:
+        prnum = data['number']
         url = data['head']['repo']['clone_url']
         info = pr_info(data)
 
-        print('@@@@ {}/{} PR {}'.format(i, len(prs), pr))
+        print('@@@@ {}/{} PR {}'.format(i, len(raw_prs), prnum))
         sys.stdout.flush()
-        result = get_pr_with(pr, info, url)
+        result = get_pr_with(prnum, info, url)
         if result:
             result_any = True
         if count is not None:
@@ -472,10 +480,10 @@ def has_new_pr():
             prs.append(d)
 
     for data in prs:
-        pr = data['number']
+        prnum = data['number']
         info = pr_info(data)
-        if not is_pr_cached(pr, info):
-            print('PR={} is not cached'.format(pr))
+        if not is_pr_cached(prnum, info):
+            print('PR={} is not cached'.format(prnum))
             return True
 
     return False

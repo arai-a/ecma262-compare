@@ -125,13 +125,6 @@
   "title": "Editorial: Clarify and expand the discussion of terminal symbols",
   "updated_at": "2019-10-24T21:55:10Z"
  },
- "1547": {
-  "base": "787642ad2d159c8358a8782c9414f6d5fb6efa6f",
-  "head": "0cccdeacf29719969e1749f6078b8c8ef9550d10",
-  "login": "jmdyck",
-  "ref": "SourceText",
-  "title": "Editorial: fix inconsistency re type of [[SourceText]]"
- },
  "1554": {
   "base": "1595e86b09414b669fcdd23e576ec912685d5f2b",
   "created_at": "2019-05-28T03:19:22Z",
@@ -384,13 +377,6 @@
   "title": "function implementation hiding",
   "updated_at": "2019-12-03T05:08:52Z"
  },
- "1775": {
-  "base": "618479affe6b55bfca47fd058ce3a837a7d6c46c",
-  "head": "79dd3317af449005a33795eed4b8640d14ebb2dc",
-  "login": "bmeck",
-  "ref": "get-super-after-args",
-  "title": "Normative: Make super() throw after evaluating args"
- },
  "1776": {
   "base": "823aad1e08b5680229d67283371912950d19e581",
   "created_at": "2019-11-13T01:11:03Z",
@@ -481,13 +467,6 @@
   "title": "Editorial: Add aoid for CaseBlockEvaluation so it gets auto-linked / ref-counted",
   "updated_at": "2020-01-03T22:21:36Z"
  },
- "1827": {
-  "base": "787642ad2d159c8358a8782c9414f6d5fb6efa6f",
-  "head": "ddac91dc5449da3d62ac07571dc491c7b3ffe157",
-  "login": "ljharb",
-  "ref": "to-integer-neg-zero",
-  "title": "Normative: ToInteger normalizes `-0` to `+0`"
- },
  "1828": {
   "base": "cb73c69d861db21506c0246197fd87b723d6cdb4",
   "created_at": "2020-01-03T22:14:01Z",
@@ -541,13 +520,6 @@
   "ref": "sv-calling-convention",
   "title": "Editorial: make callers of SV consistent",
   "updated_at": "2020-02-07T08:29:34Z"
- },
- "1864": {
-  "base": "332d1ba127aac8e133a8c25789d01322bd4d2445",
-  "head": "e3b06caf3eda457eebe2de83637338734261e74b",
-  "login": "tc39",
-  "ref": "create-immutable-binding",
-  "title": "Editorial: add missing argument to two CreateImmutableBinding calls"
  },
  "1866": {
   "base": "787642ad2d159c8358a8782c9414f6d5fb6efa6f",
