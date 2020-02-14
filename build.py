@@ -281,6 +281,8 @@ def pr_info(data):
     info['head'] = data['head']['sha']
     info['base'] = data['base']['sha']
     info['title'] = data['title']
+    info['created_at'] = data['created_at']
+    info['updated_at'] = data['updated_at']
 
     return info
 
