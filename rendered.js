@@ -53,7 +53,7 @@ function populateRevList() {
     row.appendChild(diffCell);
 
     const diffLink = document.createElement("a");
-    diffLink.href = `/#from=${parent}&to=${rev.hash}&id=combined`;
+    diffLink.href = `./#from=${parent}&to=${rev.hash}&id=combined`;
     diffLink.textContent = "Compare";
     subject.appendChild(link);
 
@@ -110,7 +110,7 @@ function populatePRList() {
     row.appendChild(diffCell);
 
     const diffLink = document.createElement("a");
-    diffLink.href = `/#pr=${num}`;
+    diffLink.href = `./#pr=${num}`;
     diffLink.textContent = "Compare";
     subject.appendChild(link);
 
