@@ -319,6 +319,7 @@ async function updateSectionList() {
 }
 
 let ListMarkUtils = {
+  // Based on https://hg.mozilla.org/mozilla-central/raw-file/fffcb4bbc8b17a34f5fa5013418a8956d0fdcc7a/layout/generic/nsBulletFrame.cpp
   getListDepth(node) {
     let depth = 0;
     while (node && node !== document.body) {
