@@ -4,13 +4,6 @@
   "head": "5a50eca06776073cdabe58d9478d71dddf3e75e0",
   "login": "TimothyGu",
   "ref": "template-bugfix",
-  "rev": {
-   "author": "Timothy Gu",
-   "date": "2019-01-12 21:59:36 -0800",
-   "hash": "5a50eca06776073cdabe58d9478d71dddf3e75e0",
-   "parents": "85ce767c86a1a8ed719fe97e978028bff819d1f2",
-   "subject": "Editorial: Fix SubstitutionTemplate ArgumentListEvaluation"
-  },
   "title": "Editorial: Fix SubstitutionTemplate ArgumentListEvaluation"
  },
  "1408": {
@@ -18,13 +11,6 @@
   "head": "f83865d2209a18287e05c8dab578d69ab497c9af",
   "login": "zenparsing",
   "ref": "iterator-close-get-method",
-  "rev": {
-   "author": "Kevin Smith",
-   "date": "2019-01-14 10:41:19 -0800",
-   "hash": "f83865d2209a18287e05c8dab578d69ab497c9af",
-   "parents": "85ce767c86a1a8ed719fe97e978028bff819d1f2",
-   "subject": "Normative: Suppress GetMethod errors in IteratorClose"
-  },
   "title": "Normative: Suppress GetMethod errors in IteratorClose"
  },
  "1418": {
@@ -32,13 +18,6 @@
   "head": "a6a7b5069e37dec40fac0c2662f81404a57be29e",
   "login": "gibson042",
   "ref": "2019-01-explain-SAFE_INTEGER",
-  "rev": {
-   "author": "Richard Gibson",
-   "date": "2019-10-06 12:55:14 -0400",
-   "hash": "a6a7b5069e37dec40fac0c2662f81404a57be29e",
-   "parents": "4c3b44b9badbd1ad238a16e251662bc632f401aa",
-   "subject": "Use the spec-defined \"the Number value for\" phrase"
-  },
   "title": "Editorial: Explain why *_SAFE_INTEGER magnitude is not a power of two"
  },
  "1420": {
@@ -46,13 +25,6 @@
   "head": "a2b0457bb1560d1674d624b4233d499df324a7fb",
   "login": "bmeck",
   "ref": "parameterize-intrinsics",
-  "rev": {
-   "author": "Bradley Farias",
-   "date": "2019-01-18 09:09:17 -0600",
-   "hash": "a2b0457bb1560d1674d624b4233d499df324a7fb",
-   "parents": "85ce767c86a1a8ed719fe97e978028bff819d1f2",
-   "subject": "Allow hosts to reuse an existing Realm Intrinsics record"
-  },
   "title": "Allow hosts to reuse an existing Realm Intrinsics record"
  },
  "1438": {
@@ -60,13 +32,6 @@
   "head": "45b775fc0aefce68aaab7f1f242a6373ce2f7584",
   "login": "bmeck",
   "ref": "object-prop-has",
-  "rev": {
-   "author": "Bradley Farias",
-   "date": "2019-01-31 09:26:06 -0700",
-   "hash": "45b775fc0aefce68aaab7f1f242a6373ce2f7584",
-   "parents": "257cae9f69068704fc9e89a729f54bd7977c9161",
-   "subject": "Bug: Add missing has operation to property operations"
-  },
   "title": "Editorial: Add missing has operation to property operations"
  },
  "1463": {
@@ -74,13 +39,6 @@
   "head": "343b55373369a219086fd1fe1cead3dfc1122500",
   "login": "viktmv",
   "ref": "master",
-  "rev": {
-   "author": "viktmv",
-   "date": "2019-03-01 13:52:00 -0500",
-   "hash": "343b55373369a219086fd1fe1cead3dfc1122500",
-   "parents": "6cb3e528bf6cccbc8ff907593e2fe6ec9d522f84",
-   "subject": "Editorial: Expand on [[ThisMode]] description"
-  },
   "title": "Editorial: Fix description of [[ThisMode]] internal slot of Function Object"
  },
  "1490": {
@@ -88,13 +46,6 @@
   "head": "b3bfef067a59548ef763903a4e59ef1891508bc0",
   "login": "anba",
   "ref": "anon-empty-name",
-  "rev": {
-   "author": "Andr\u00e9 Bargull",
-   "date": "2019-08-15 11:14:24 -0700",
-   "hash": "b3bfef067a59548ef763903a4e59ef1891508bc0",
-   "parents": "36a81a0b5eb1a4aa5a3a5a59dadabdbc8717c228",
-   "subject": "Respecify 'anonymous function' to mean the 'name' property is the empty string instead of being absent"
-  },
   "title": "Set \"name\" property for anonymous functions"
  },
  "1493": {
@@ -102,13 +53,6 @@
   "head": "b6cc8db432c117c9dee96a1a9314e56b669fb51f",
   "login": "leobalter",
   "ref": "htmlclosecomment",
-  "rev": {
-   "author": "Leo Balter",
-   "date": "2019-03-28 15:50:44 -0400",
-   "hash": "b6cc8db432c117c9dee96a1a9314e56b669fb51f",
-   "parents": "a09fc232c137800dbf51b6204f37fdede4ba1646",
-   "subject": "Normative: Extend specs to observe WebReality for HTMLCloseComment"
-  },
   "title": "Normative: Extend specs to observe WebReality for HTMLCloseComment"
  },
  "1498": {
@@ -116,13 +60,6 @@
   "head": "e344423989fe2599f5ffc86065ac12c28176170e",
   "login": "tc39",
   "ref": "pr-needs-consensus-hostensurecancompilestrings-passthru",
-  "rev": {
-   "author": "Mike Samuel",
-   "date": "2019-04-03 12:12:06 -0400",
-   "hash": "e344423989fe2599f5ffc86065ac12c28176170e",
-   "parents": "a09fc232c137800dbf51b6204f37fdede4ba1646",
-   "subject": "Provide HostEnsureCanCompileString implementors more context"
-  },
   "title": "Provide HostEnsureCanCompileString implementors more context"
  },
  "1501": {
@@ -130,13 +67,6 @@
   "head": "85105c567933960c4993b50643810526c7f05eee",
   "login": "dandclark",
   "ref": "master",
-  "rev": {
-   "author": "Daniel Clark",
-   "date": "2019-04-15 10:26:58 -0700",
-   "hash": "85105c567933960c4993b50643810526c7f05eee",
-   "parents": "6a3967534fad0f56a7cb701663ed65ea9a29c6f2",
-   "subject": "Move Cyclic Module Record's [[RequestedModules]] list down to Source Text Module Record.  The base type will now always use GetRequestedModules() to obtain this list."
-  },
   "title": "Layering: Add GetRequestedModules() to Module Record"
  },
  "1517": {
@@ -144,13 +74,6 @@
   "head": "7244f340581a62d1bb4b1c009cef7564206777ac",
   "login": "ljharb",
   "ref": "fix_matchall",
-  "rev": {
-   "author": "Jordan Harband",
-   "date": "2019-04-24 11:11:09 -0700",
-   "hash": "7244f340581a62d1bb4b1c009cef7564206777ac",
-   "parents": "f158df16b4bfa4d8d1efa7407ebfe8eeb339f4fd",
-   "subject": "Normative: correct spec bug in `RegExp.prototype[Symbol.matchAll]`"
-  },
   "title": "Normative: correct spec bug in `RegExp.prototype[Symbol.matchAll]`"
  },
  "1518": {
@@ -158,13 +81,6 @@
   "head": "dd9d1d2c2246b60b7b1b9dcea353de773ba78598",
   "login": "ljharb",
   "ref": "array_join_cyclic",
-  "rev": {
-   "author": "Jordan Harband",
-   "date": "2019-04-25 23:16:58 -0700",
-   "hash": "dd9d1d2c2246b60b7b1b9dcea353de773ba78598",
-   "parents": "69d9e638031c6a16199cbd844b13ccd4b14826b5",
-   "subject": "Normative: specify web reality for Array.prototype.join with cyclic values"
-  },
   "title": "Normative: specify web reality for Array.prototype.join with cyclic values"
  },
  "1519": {
@@ -172,13 +88,6 @@
   "head": "4b2517039e53c7cea471a4bc432d883d8c5f6683",
   "login": "jmdyck",
   "ref": "resolve_831",
-  "rev": {
-   "author": "Michael Dyck",
-   "date": "2019-04-25 23:17:06 -0400",
-   "hash": "4b2517039e53c7cea471a4bc432d883d8c5f6683",
-   "parents": "b6f3f5e81f04548c67c24cd319a6909e224da7f4",
-   "subject": "Editorial: simplify definitions of Contains"
-  },
   "title": "Editorial: Remove unused steps from definitions of Contains"
  },
  "1522": {
@@ -186,13 +95,6 @@
   "head": "77e9f1bdc8a9005dde346e8ecc465f4fb8f6d9fb",
   "login": "jmdyck",
   "ref": "re_1510",
-  "rev": {
-   "author": "Michael Dyck",
-   "date": "2019-10-23 21:16:38 -0400",
-   "hash": "77e9f1bdc8a9005dde346e8ecc465f4fb8f6d9fb",
-   "parents": "759402f8801efc5a60e6119086a9844813556bdd",
-   "subject": "Editorial: Mention the two other forms of terminal symbol"
-  },
   "title": "Editorial: Clarify and expand the discussion of terminal symbols"
  },
  "1547": {
@@ -200,7 +102,6 @@
   "head": "0cccdeacf29719969e1749f6078b8c8ef9550d10",
   "login": "jmdyck",
   "ref": "SourceText",
-  "rev": null,
   "title": "Editorial: fix inconsistency re type of [[SourceText]]"
  },
  "1554": {
@@ -208,13 +109,6 @@
   "head": "86ded1df9ac36aa4ec954a8d1ccbe7d47e117d49",
   "login": "jmdyck",
   "ref": "NumericValue",
-  "rev": {
-   "author": "Michael Dyck",
-   "date": "2019-10-23 20:35:03 -0400",
-   "hash": "86ded1df9ac36aa4ec954a8d1ccbe7d47e117d49",
-   "parents": "1595e86b09414b669fcdd23e576ec912685d5f2b",
-   "subject": "Editorial: Define + use StringToNumber"
-  },
   "title": "Editorial: Define + use StringToNumber, and better define NumericValue"
  },
  "1556": {
@@ -222,13 +116,6 @@
   "head": "80546f0496dafffeed842cb456a5f8693d435069",
   "login": "shvaikalesh",
   "ref": "typed-array-get-set",
-  "rev": {
-   "author": "Aleksey Shvayka",
-   "date": "2019-05-28 23:43:25 +0300",
-   "hash": "80546f0496dafffeed842cb456a5f8693d435069",
-   "parents": "a5375bdad264c8aa264d9c44f57408087761069e",
-   "subject": "Normative: Guard TypedArray methods from non-exotic receivers"
-  },
   "title": "Normative: Guard TypedArray methods from non-exotic receivers"
  },
  "1564": {
@@ -236,13 +123,6 @@
   "head": "88c606ebf48faeba45eca5bd1b4c7d6d1e71c45c",
   "login": "gibson042",
   "ref": "gh-1087-time-arithmetic-precision",
-  "rev": {
-   "author": "Richard Gibson",
-   "date": "2019-10-06 12:49:22 -0400",
-   "hash": "88c606ebf48faeba45eca5bd1b4c7d6d1e71c45c",
-   "parents": "4facda5050d042c77099bb7d5aa50eea11e77e0e",
-   "subject": "Editorial: Improve the note for LocalTime"
-  },
   "title": "Normative: Use Number arithmetic for constructing dates and times"
  },
  "1570": {
@@ -250,13 +130,6 @@
   "head": "e42a39ac4b59e5aa62fc83726df2aa4b60d7b1e0",
   "login": "michaelficarra",
   "ref": "returnifabrupt",
-  "rev": {
-   "author": "Michael Ficarra",
-   "date": "2019-11-13 22:07:57 -0800",
-   "hash": "e42a39ac4b59e5aa62fc83726df2aa4b60d7b1e0",
-   "parents": "c808fe2b7bcc71ff22b06fe96b4260edcc4be5ba",
-   "subject": "Editorial: remove useless step of ReturnIfAbrupt expansion (#1570)"
-  },
   "title": "Editorial: remove useless step of ReturnIfAbrupt expansion"
  },
  "1573": {
@@ -264,13 +137,6 @@
   "head": "ea5d20db0396bf27079fb33537e01dd75ee41ad7",
   "login": "michaelficarra",
   "ref": "returnifabrupt-refactor",
-  "rev": {
-   "author": "Michael Ficarra",
-   "date": "2019-07-30 16:05:37 -0700",
-   "hash": "ea5d20db0396bf27079fb33537e01dd75ee41ad7",
-   "parents": "8a121c37c9e9d19e18f125b2cff88651e6beb9af",
-   "subject": "add </li>"
-  },
   "title": "change how ReturnIfAbrupt and its shorthands are specified"
  },
  "1585": {
@@ -278,13 +144,6 @@
   "head": "09445f5630acc2d3c47a77195cf3e059606ee18b",
   "login": "szuend",
   "ref": "array-sort",
-  "rev": {
-   "author": "Simon Z\u00fcnd",
-   "date": "2020-02-07 11:15:05 +0100",
-   "hash": "09445f5630acc2d3c47a77195cf3e059606ee18b",
-   "parents": "a8dd1e744ac9a03055550463e372cd4197f73408",
-   "subject": "Smaller wording changes and fix items invariant"
-  },
   "title": "Normative: A more precise Array.prototype.sort"
  },
  "1597": {
@@ -292,13 +151,6 @@
   "head": "a20c506c67ce275916ab92c3aa9e7f3ece2d0cb7",
   "login": "littledan",
   "ref": "enqueue-promise-job",
-  "rev": {
-   "author": "Shu-yu Guo",
-   "date": "2020-02-12 16:32:56 -0800",
-   "hash": "a20c506c67ce275916ab92c3aa9e7f3ece2d0cb7",
-   "parents": "6d7c4dc4d2d9bfda2b9ecb74ef8009b78f414770",
-   "subject": "Editorial: Specialize EnqueueJob to EnqueuePromiseJob"
-  },
   "title": "Layering: Allow hosts to cleanly specify Promise Job semantics"
  },
  "1598": {
@@ -306,13 +158,6 @@
   "head": "306e0b43b860144000cd79c5954b3832ab1a34b5",
   "login": "mikesamuel",
   "ref": "note-re-cache-deletion",
-  "rev": {
-   "author": "Mike Samuel",
-   "date": "2019-06-20 11:48:43 -0400",
-   "hash": "306e0b43b860144000cd79c5954b3832ab1a34b5",
-   "parents": "a95e95a63bc1fd7d71f089ad1d68be0cce4caf34",
-   "subject": "Provide context for HostImportModuleDynamically requirement"
-  },
   "title": "Editorial: Provide context for HostImportModuleDynamically requirement"
  },
  "1612": {
@@ -320,13 +165,6 @@
   "head": "1e2638baede3313517fc4a9da761d9afe8e8f4c1",
   "login": "jmdyck",
   "ref": "sort_algo",
-  "rev": {
-   "author": "Michael Dyck",
-   "date": "2019-07-06 17:41:06 -0400",
-   "hash": "1e2638baede3313517fc4a9da761d9afe8e8f4c1",
-   "parents": "d04a12676b2bafa82d8613577c46a026e31f7fe6",
-   "subject": "Editorial: introduce TypedArraySortCompare"
-  },
   "title": "Editorial: Tweak format of *.prototype.sort"
  },
  "1623": {
@@ -334,13 +172,6 @@
   "head": "ad07165a3a1f09df9714e4a319551646cc62dd41",
   "login": "jmdyck",
   "ref": "index_strings",
-  "rev": {
-   "author": "Michael Dyck",
-   "date": "2020-02-04 23:32:24 -0500",
-   "hash": "ad07165a3a1f09df9714e4a319551646cc62dd41",
-   "parents": "d3a513da3a3132f63b288b93a8184504904837d2",
-   "subject": "Editorial: some minor rewordings"
-  },
   "title": "Editorial: Replace terms \"integer index\" and \"array index\""
  },
  "1651": {
@@ -348,13 +179,6 @@
   "head": "71589836a594c16843d52d84b0b2a7d68cb65459",
   "login": "jmdyck",
   "ref": "one-grammar",
-  "rev": {
-   "author": "Michael Dyck",
-   "date": "2020-02-04 23:26:03 -0500",
-   "hash": "71589836a594c16843d52d84b0b2a7d68cb65459",
-   "parents": "5fb9b6b002fa088e370b48790134d389ae8de79d",
-   "subject": "Editorial: Add [N] parameter to 5 productions"
-  },
   "title": "Normative: Make B.1 \"Additional Syntax\" normative"
  },
  "1655": {
@@ -362,13 +186,6 @@
   "head": "e733b20a81782a04322ec2a16c1d108c981fbbf1",
   "login": "Ms2ger",
   "ref": "class-fields",
-  "rev": {
-   "author": "Ms2ger",
-   "date": "2019-08-15 12:12:12 +0200",
-   "hash": "e733b20a81782a04322ec2a16c1d108c981fbbf1",
-   "parents": "a4a034869768ba0569ba80b759310914f334d5d7",
-   "subject": "fixup! Normative: Add public and private class fields."
-  },
   "title": "(ignore) Normative: Add public and private class fields"
  },
  "1658": {
@@ -376,13 +193,6 @@
   "head": "867b83a2cab9d1c411121af271a19499bbbe719f",
   "login": "claudepache",
   "ref": "early-error-covering-assignment-pattern",
-  "rev": {
-   "author": "Claude Pache",
-   "date": "2019-08-07 17:37:55 +0200",
-   "hash": "867b83a2cab9d1c411121af271a19499bbbe719f",
-   "parents": "a68d1296f156ff73075fde36aebd643de4f8ebde",
-   "subject": "Editorial: Refactor and correct Early Error rules for LeftHandSideExpression productions potentially covering an AssignmentPattern"
-  },
   "title": "Editorial: Add two missing Early Error rules for productions covering an AssignmentPattern"
  },
  "1660": {
@@ -390,13 +200,6 @@
   "head": "6965b3b38c6f4076ff1aa7df8dfaa9c3d65893a2",
   "login": "jhnaldo",
   "ref": "pr1",
-  "rev": {
-   "author": "jhnaldo",
-   "date": "2019-08-09 11:50:59 +0900",
-   "hash": "6965b3b38c6f4076ff1aa7df8dfaa9c3d65893a2",
-   "parents": "8f0f69279b5f9e12ebe8f7052322b93d17e36b54",
-   "subject": "Editorial: Remove assertion in InitializeBinding of Object Environment Record"
-  },
   "title": "Editorial: Remove assertion in InitializeBinding of Object Environment Record"
  },
  "1661": {
@@ -404,13 +207,6 @@
   "head": "1d2e43da9d6ef7ebd7256281fe43d0eeb5da3a91",
   "login": "jhnaldo",
   "ref": "pr2",
-  "rev": {
-   "author": "jhnaldo",
-   "date": "2019-08-09 11:51:49 +0900",
-   "hash": "1d2e43da9d6ef7ebd7256281fe43d0eeb5da3a91",
-   "parents": "8f0f69279b5f9e12ebe8f7052322b93d17e36b54",
-   "subject": "Editorial: Resolved ambiguous VarScopedDeclarations for IterationStatement"
-  },
   "title": "Editorial: Resolved ambiguous VarScopedDeclarations for IterationStatement"
  },
  "1662": {
@@ -418,13 +214,6 @@
   "head": "0ad518535b5d60adc2a6320f0dae7c51a0ac2285",
   "login": "jhnaldo",
   "ref": "pr3",
-  "rev": {
-   "author": "jhnaldo",
-   "date": "2019-08-09 11:55:08 +0900",
-   "hash": "0ad518535b5d60adc2a6320f0dae7c51a0ac2285",
-   "parents": "8f0f69279b5f9e12ebe8f7052322b93d17e36b54",
-   "subject": "Editorial: Added more missing cases for ExpectedArgumentCount for FormalParameters and FormalParameterList"
-  },
   "title": "Editorial: Added more missing cases for ExpectedArgumentCount for FormalParameters and FormalParameterList"
  },
  "1664": {
@@ -432,13 +221,6 @@
   "head": "922cbdc1fe9421e0e24533fc6f219733e8d1be71",
   "login": "jhnaldo",
   "ref": "pr5",
-  "rev": {
-   "author": "jhnaldo",
-   "date": "2019-08-09 12:38:07 +0900",
-   "hash": "922cbdc1fe9421e0e24533fc6f219733e8d1be71",
-   "parents": "8f0f69279b5f9e12ebe8f7052322b93d17e36b54",
-   "subject": "Editorial: Fixed error for already unwrapped completion records"
-  },
   "title": "Editorial: Fixed error for already unwrapped completion records"
  },
  "1665": {
@@ -446,13 +228,6 @@
   "head": "10cf07662ed7e75a06033b332b58758878cc3bec",
   "login": "devsnek",
   "ref": "feature/built-in-suspendable-functions",
-  "rev": {
-   "author": "Gus Caplan",
-   "date": "2019-08-12 11:24:23 -0500",
-   "hash": "10cf07662ed7e75a06033b332b58758878cc3bec",
-   "parents": "b9b079ba41805e514b2693edbeb02d8133919eaf",
-   "subject": "add normal async functions"
-  },
   "title": "Editorial: enable built-in async and sync generator functions to be specified"
  },
  "1667": {
@@ -460,13 +235,6 @@
   "head": "9889a39127749a62d81dd25cdc98d51be8760f26",
   "login": "Ms2ger",
   "ref": "private-methods",
-  "rev": {
-   "author": "Ms2ger",
-   "date": "2019-08-15 12:12:49 +0200",
-   "hash": "9889a39127749a62d81dd25cdc98d51be8760f26",
-   "parents": "e733b20a81782a04322ec2a16c1d108c981fbbf1",
-   "subject": "Normative: Add private methods and getter/setters."
-  },
   "title": "(ignore) Normative: Add private methods and getter/setters."
  },
  "1668": {
@@ -474,13 +242,6 @@
   "head": "f8e205ddf32a6ad25d6b48a1db8faed0c3534197",
   "login": "Ms2ger",
   "ref": "static-fields",
-  "rev": {
-   "author": "Ms2ger",
-   "date": "2019-09-05 14:29:48 +0200",
-   "hash": "f8e205ddf32a6ad25d6b48a1db8faed0c3534197",
-   "parents": "df1aaa6a4ac8495d4290af528fd2c4e7e91f4a6a",
-   "subject": "Comma."
-  },
   "title": "Normative: Add public and private class fields, static class features, private methods & getters/setters"
  },
  "1669": {
@@ -488,13 +249,6 @@
   "head": "74182ab0111fbdf903137be67d104a66d6d72c8c",
   "login": "devsnek",
   "ref": "fix/evaluate-timing",
-  "rev": {
-   "author": "Gus Caplan",
-   "date": "2019-09-04 22:14:11 -0700",
-   "hash": "74182ab0111fbdf903137be67d104a66d6d72c8c",
-   "parents": "85f905aff137a7f0872c48e16d6b883b7b46212a",
-   "subject": "Normative: Prevent DFS invariants from being broken (#1669)"
-  },
   "title": "Normative: Prevent DFS invariants from being broken"
  },
  "1687": {
@@ -502,13 +256,6 @@
   "head": "ffa6cba4b76f99d858eb93d7a582006704ecd2d8",
   "login": "Gurigraphics",
   "ref": "patch-1",
-  "rev": {
-   "author": "Gurigraphics",
-   "date": "2019-09-05 19:09:41 -0300",
-   "hash": "ffa6cba4b76f99d858eb93d7a582006704ecd2d8",
-   "parents": "096b319bb1bc0ce41f901986a2d5c7344f8675f6",
-   "subject": "Direct link to specific topic in CONTRIBUTING.md"
-  },
   "title": "meta: make \"new feature\" issue template clearer"
  },
  "1689": {
@@ -516,13 +263,6 @@
   "head": "1afead8afd80e05738394f6bbe854d4f7083c291",
   "login": "devsnek",
   "ref": "feature/diff-prs",
-  "rev": {
-   "author": "Gus Caplan",
-   "date": "2019-09-05 18:37:10 -0500",
-   "hash": "1afead8afd80e05738394f6bbe854d4f7083c291",
-   "parents": "6eb8a1393e90d2f31e338987a08f53032bc36019",
-   "subject": "delete me"
-  },
   "title": "[WIP] meta: show diffs on pr renders"
  },
  "1697": {
@@ -530,13 +270,6 @@
   "head": "dfd5a6d68e68c81eb243145a07ac0c4ad58839ed",
   "login": "jmdyck",
   "ref": "eliminate-lex-env",
-  "rev": {
-   "author": "Michael Dyck",
-   "date": "2020-02-13 16:42:32 -0500",
-   "hash": "dfd5a6d68e68c81eb243145a07ac0c4ad58839ed",
-   "parents": "3c6743681bf27239eb7ad2654bb7cc397accf466",
-   "subject": "Specify a particular subtype of Environment Record"
-  },
   "title": "Editorial: Eliminate Lexical Environment"
  },
  "1713": {
@@ -544,13 +277,6 @@
   "head": "ead3d3f6c4cd5cb13266bb226c4d9b58e49e29c3",
   "login": "rbuckton",
   "ref": "regexp-match-indices",
-  "rev": {
-   "author": "Ron Buckton",
-   "date": "2019-10-01 17:30:04 -0700",
-   "hash": "ead3d3f6c4cd5cb13266bb226c4d9b58e49e29c3",
-   "parents": "ba92766cadb6ce464ceba2f52ceb46b2b877fdcf",
-   "subject": "Apply suggestions from code review"
-  },
   "title": "Normative: add RegExp Match Indices"
  },
  "1727": {
@@ -558,13 +284,6 @@
   "head": "a222ba635a0b666995e58048c26943b058be7813",
   "login": "gibson042",
   "ref": "2019-10-main-grammar-disambiguation",
-  "rev": {
-   "author": "Richard Gibson",
-   "date": "2019-10-07 20:44:05 -0400",
-   "hash": "a222ba635a0b666995e58048c26943b058be7813",
-   "parents": "da244abb353773f0ecb8d15ae499ca8cd525ef59",
-   "subject": "Editorial: Replace post-NumericLiteral lookahead prose with formal assertions"
-  },
   "title": "Editorial: Formally disambiguate the non-Annex-B grammar"
  },
  "1732": {
@@ -572,13 +291,6 @@
   "head": "1ab6c465dc3e8f744e2d81cc40271d718a68510c",
   "login": "gibson042",
   "ref": "gh-1426-GetSubstitution-dollar-nn",
-  "rev": {
-   "author": "Richard Gibson",
-   "date": "2019-11-25 21:10:30 -0500",
-   "hash": "1ab6c465dc3e8f744e2d81cc40271d718a68510c",
-   "parents": "b66bbe3a0febeb770b519cbd0d600382123e108c",
-   "subject": "Editorial: Improve table anchor"
-  },
   "title": "Normative: Update GetSubstitution to match reality"
  },
  "1739": {
@@ -586,13 +298,6 @@
   "head": "9dc4c0dce326e1367e9603fafe62d6458e4ceec6",
   "login": "michaelficarra",
   "ref": "function-implementation-hiding",
-  "rev": {
-   "author": "Michael Ficarra",
-   "date": "2019-11-27 18:00:21 -0800",
-   "hash": "9dc4c0dce326e1367e9603fafe62d6458e4ceec6",
-   "parents": "67fedd606c73c6252c6628d45df53bd7c9bf3aa0",
-   "subject": "clarify attribution/position"
-  },
   "title": "function implementation hiding"
  },
  "1775": {
@@ -600,7 +305,6 @@
   "head": "79dd3317af449005a33795eed4b8640d14ebb2dc",
   "login": "bmeck",
   "ref": "get-super-after-args",
-  "rev": null,
   "title": "Normative: Make super() throw after evaluating args"
  },
  "1776": {
@@ -608,13 +312,6 @@
   "head": "45ea73a22f9dcd80d6d4836f8abd6b5b62b0f736",
   "login": "ljharb",
   "ref": "async-iterator-next",
-  "rev": {
-   "author": "Jordan Harband",
-   "date": "2020-02-13 13:30:01 -0800",
-   "hash": "45ea73a22f9dcd80d6d4836f8abd6b5b62b0f736",
-   "parents": "823aad1e08b5680229d67283371912950d19e581",
-   "subject": "Normative: make async iterators next/return/throw not pass `undefined` when value is absent (#1776)"
-  },
   "title": "Normative: make async iterators next/return/throw not pass `undefined` when value is absent"
  },
  "1781": {
@@ -622,13 +319,6 @@
   "head": "05205eefc9379fbf3f55683199dca3a816d26170",
   "login": "devsnek",
   "ref": "quikfix",
-  "rev": {
-   "author": "Gus Caplan",
-   "date": "2019-11-14 09:44:00 -0800",
-   "hash": "05205eefc9379fbf3f55683199dca3a816d26170",
-   "parents": "edeeafa68a4350733157e643228e309258c960de",
-   "subject": "Editorial: A couple fixes from OrdinaryFunctionCreate and undefined arguments"
-  },
   "title": "Editorial: A couple fixes from OrdinaryFunctionCreate and undefined arguments"
  },
  "1782": {
@@ -636,13 +326,6 @@
   "head": "30e7b07b4f002bc530c98ed2f1dbc2b70195824a",
   "login": "shvaikalesh",
   "ref": "rename-callbackfn",
-  "rev": {
-   "author": "Alexey Shvayka",
-   "date": "2019-11-18 15:16:52 -0800",
-   "hash": "30e7b07b4f002bc530c98ed2f1dbc2b70195824a",
-   "parents": "195f20438b9fc119cae4db41d21907c1655ab7c3",
-   "subject": "Assert that IsCallable doesn't return abrupt completion"
-  },
   "title": "Editorial: Rename predicate function parameter of Array methods"
  },
  "1787": {
@@ -650,13 +333,6 @@
   "head": "3d43002cc9aea5e5b677f4482b77c434440fc07e",
   "login": "jmdyck",
   "ref": "editorial",
-  "rev": {
-   "author": "Michael Dyck",
-   "date": "2020-02-13 16:07:28 -0500",
-   "hash": "3d43002cc9aea5e5b677f4482b77c434440fc07e",
-   "parents": "7937a4523677835ac9d9bb70576a2f55797c2442",
-   "subject": "Editorial: remove extraneous comma"
-  },
   "title": "Editorial: quick fixes for recent merges"
  },
  "1797": {
@@ -664,13 +340,6 @@
   "head": "d5197a16ffcafd34e81ddc417447e4d7cdc6d6d8",
   "login": "tc39",
   "ref": "no-assertion-tester",
-  "rev": {
-   "author": "Kevin Gibbons",
-   "date": "2019-11-29 09:32:31 -0800",
-   "hash": "d5197a16ffcafd34e81ddc417447e4d7cdc6d6d8",
-   "parents": "c95ab23c608264db6e85638e4b73743a290e0a30",
-   "subject": "Editorial: refactor control flow for RegExp assertions"
-  },
   "title": "Editorial: remove AssertionTester from RexExp semantics"
  },
  "1799": {
@@ -678,13 +347,6 @@
   "head": "032ed20663c50a3b20a811b499ddaff07082d5b2",
   "login": "ljharb",
   "ref": "commit-check",
-  "rev": {
-   "author": "Jordan Harband",
-   "date": "2019-12-02 14:30:58 -0800",
-   "hash": "032ed20663c50a3b20a811b499ddaff07082d5b2",
-   "parents": "618479affe6b55bfca47fd058ce3a837a7d6c46c",
-   "subject": "Meta: add action to check commit messages (#1799)"
-  },
   "title": "WIP: Meta: add script to land PRs"
  },
  "1800": {
@@ -692,13 +354,6 @@
   "head": "4243c0bf4dc1ed28b6ebd0a1628378e8b643e0c6",
   "login": "brabalan",
   "ref": "LinkToIndividualAlgs",
-  "rev": {
-   "author": "Alan Schmitt",
-   "date": "2019-12-03 22:23:32 +0100",
-   "hash": "4243c0bf4dc1ed28b6ebd0a1628378e8b643e0c6",
-   "parents": "618479affe6b55bfca47fd058ce3a837a7d6c46c",
-   "subject": "adding ids to emu-algs of equality semantics"
-  },
   "title": "Editorial: adding ids to individual algorithms of equality semantics"
  },
  "1808": {
@@ -706,13 +361,6 @@
   "head": "17b258fe283349bc2f07bb8b1d468f46c735d918",
   "login": "rkirsling",
   "ref": "asi-section-wordsmithing",
-  "rev": {
-   "author": "Ross Kirsling",
-   "date": "2019-12-11 17:38:20 -0800",
-   "hash": "17b258fe283349bc2f07bb8b1d468f46c735d918",
-   "parents": "ae2d1a86868107e8f61db4c68af910c473d88c93",
-   "subject": "Editorial: Improve readability in 11.10."
-  },
   "title": "Editorial: Improve readability in 11.10."
  },
  "1814": {
@@ -720,13 +368,6 @@
   "head": "7c80f1d8890b200bb93665096e61f2e6f74243d9",
   "login": "bathos",
   "ref": "remove-sensitivity-to-revocation-from-proxy-create",
-  "rev": {
-   "author": "Darien Maillet Valentine",
-   "date": "2019-12-15 13:02:35 -0500",
-   "hash": "7c80f1d8890b200bb93665096e61f2e6f74243d9",
-   "parents": "8c3fb1f0ed9b55ea1ca075b82e3525e469bd1b6b",
-   "subject": "Remove steps 2 and 4 from ProxyCreate (#1798)"
-  },
   "title": "Normative: Remove steps 2 and 4 from ProxyCreate"
  },
  "1821": {
@@ -734,13 +375,6 @@
   "head": "50ac1a69febc0faf0bbc7c800c5419869534d6be",
   "login": "bathos",
   "ref": "aoid-for-case-block-evaluation",
-  "rev": {
-   "author": "Darien Maillet Valentine",
-   "date": "2019-12-27 04:57:17 -0500",
-   "hash": "50ac1a69febc0faf0bbc7c800c5419869534d6be",
-   "parents": "8c3fb1f0ed9b55ea1ca075b82e3525e469bd1b6b",
-   "subject": "Add aoid attribute for CaseBlockEvaluation so it gets auto-linked and ref-counted."
-  },
   "title": "Editorial: Add aoid for CaseBlockEvaluation so it gets auto-linked / ref-counted"
  },
  "1827": {
@@ -748,13 +382,6 @@
   "head": "ddac91dc5449da3d62ac07571dc491c7b3ffe157",
   "login": "ljharb",
   "ref": "to-integer-neg-zero",
-  "rev": {
-   "author": "Jordan Harband",
-   "date": "2020-02-08 16:54:41 -1000",
-   "hash": "ddac91dc5449da3d62ac07571dc491c7b3ffe157",
-   "parents": "787642ad2d159c8358a8782c9414f6d5fb6efa6f",
-   "subject": "Normative: ToInteger normalizes `-0` to `+0` (#1827)"
-  },
   "title": "Normative: ToInteger normalizes `-0` to `+0`"
  },
  "1828": {
@@ -762,13 +389,6 @@
   "head": "297f7fb6aae58f28b80e0bdfe7d0604c2de190ce",
   "login": "bathos",
   "ref": "lookahead-shorthand-correction",
-  "rev": {
-   "author": "Darien Maillet Valentine",
-   "date": "2020-01-03 17:01:16 -0500",
-   "hash": "297f7fb6aae58f28b80e0bdfe7d0604c2de190ce",
-   "parents": "8c3fb1f0ed9b55ea1ca075b82e3525e469bd1b6b",
-   "subject": "Lookahead single-element shorthand permits terminal sequences"
-  },
   "title": "Editorial: Lookahead single-element shorthand permits terminal sequences"
  },
  "1830": {
@@ -776,13 +396,6 @@
   "head": "dc2b8103d57225031986216a4f0b435988c51930",
   "login": "sideshowbarker",
   "ref": "about-this-spec-grammar-fix",
-  "rev": {
-   "author": "Michael[tm] Smith",
-   "date": "2020-01-04 09:27:29 +0900",
-   "hash": "dc2b8103d57225031986216a4f0b435988c51930",
-   "parents": "f0c10cfb5ff87b892580cae6a2dc59a045cbac3e",
-   "subject": "Editorial: Update About this Specification wording"
-  },
   "title": "Editorial: Update About this Specification wording"
  },
  "1838": {
@@ -790,13 +403,6 @@
   "head": "0f086d773b29df3a913b425ff52be24de530c0e5",
   "login": "EB-Forks",
   "ref": "editorial/improve-array-defineownproperty-length-variable-names",
-  "rev": {
-   "author": "ExE Boss",
-   "date": "2020-01-09 20:47:42 +0100",
-   "hash": "0f086d773b29df3a913b425ff52be24de530c0e5",
-   "parents": "63be86408b2c01899d6fd565db9a85d76a56de42",
-   "subject": "editorial: Improve\u00a0`Array.[[DefineOwnProperty]]` length\u00a0variable\u00a0names"
-  },
   "title": "editorial: Improve\u00a0`Array.[[DefineOwnProperty]]` length\u00a0variable\u00a0names"
  },
  "1844": {
@@ -804,13 +410,6 @@
   "head": "c92f745cb0e079c9304cd162886ef700b21ae676",
   "login": "rkirsling",
   "ref": "make-table-48-fit",
-  "rev": {
-   "author": "Ross Kirsling",
-   "date": "2020-01-12 14:03:41 -0800",
-   "hash": "c92f745cb0e079c9304cd162886ef700b21ae676",
-   "parents": "73ad5993a7c8cf8192fa485a91887437fa6b48ab",
-   "subject": "Editorial: Let code wrap in tables-in-notes."
-  },
   "title": "Editorial: Let code wrap in tables-in-notes."
  },
  "1860": {
@@ -818,13 +417,6 @@
   "head": "36f1f910098a9e39b2cdb9bcd03ec1b0e60fc7af",
   "login": "rkirsling",
   "ref": "builtin-backticks",
-  "rev": {
-   "author": "Ross Kirsling",
-   "date": "2020-01-31 23:28:07 -0800",
-   "hash": "36f1f910098a9e39b2cdb9bcd03ec1b0e60fc7af",
-   "parents": "2b83a58bc98a7e4621c5e00a3b97a8807d6f9c14",
-   "subject": "Remove remaining backticks for \"<built-in> constructor\"."
-  },
   "title": "Editorial: Improve consistency of backtick use for built-ins."
  },
  "1862": {
@@ -832,13 +424,6 @@
   "head": "51ff8216b73636d55c9db42c8c84533815efbed8",
   "login": "tc39",
   "ref": "sv-calling-convention",
-  "rev": {
-   "author": "Kevin Gibbons",
-   "date": "2020-01-31 19:34:31 -1000",
-   "hash": "51ff8216b73636d55c9db42c8c84533815efbed8",
-   "parents": "e5c0f84610df095de6256e6cf083f4a901e67fde",
-   "subject": "Editorial: make callers of SV consistent"
-  },
   "title": "Editorial: make callers of SV consistent"
  },
  "1864": {
@@ -846,13 +431,6 @@
   "head": "e3b06caf3eda457eebe2de83637338734261e74b",
   "login": "tc39",
   "ref": "create-immutable-binding",
-  "rev": {
-   "author": "Kevin Gibbons",
-   "date": "2020-02-01 08:49:51 -1000",
-   "hash": "e3b06caf3eda457eebe2de83637338734261e74b",
-   "parents": "332d1ba127aac8e133a8c25789d01322bd4d2445",
-   "subject": "Editorial: add missing argument to two CreateImmutableBinding calls"
-  },
   "title": "Editorial: add missing argument to two CreateImmutableBinding calls"
  },
  "1866": {
@@ -860,13 +438,6 @@
   "head": "80204781ab8a4a64ce46439128286e617de66add",
   "login": "jmdyck",
   "ref": "ParsePattern",
-  "rev": {
-   "author": "Michael Dyck",
-   "date": "2020-02-05 17:48:08 -0500",
-   "hash": "80204781ab8a4a64ce46439128286e617de66add",
-   "parents": "ff6b78fad795afe3d7f48624680a17a322c7b91a",
-   "subject": "Editorial: Extract operation 'ParsePattern'"
-  },
   "title": " Editorial: Extract operation 'ParsePattern'"
  },
  "1867": {
@@ -874,13 +445,6 @@
   "head": "7ea9dfaa8a83fe7d481891d5a625c17080234985",
   "login": "jmdyck",
   "ref": "make_B_literals_normative",
-  "rev": {
-   "author": "Michael Dyck",
-   "date": "2020-02-08 20:57:39 -0500",
-   "hash": "7ea9dfaa8a83fe7d481891d5a625c17080234985",
-   "parents": "e46b1296f1c47101fd7df1e26d0786787c75a5e0",
-   "subject": "Normative: Make B.1.2 \"String Literals\" normative."
-  },
   "title": "Normative: Make B.1.{1,2} normative"
  },
  "1868": {
@@ -888,13 +452,6 @@
   "head": "7e6748b3bf04c81b8863fe57f21a7e0e4704da1e",
   "login": "jmdyck",
   "ref": "annex_a_tweaks",
-  "rev": {
-   "author": "Michael Dyck",
-   "date": "2020-02-08 21:27:22 -0500",
-   "hash": "7e6748b3bf04c81b8863fe57f21a7e0e4704da1e",
-   "parents": "131ce13660a4ce977d78e329a10191ec3c3cab59",
-   "subject": "Editorial: Fix mistake in para in Annex A"
-  },
   "title": "Editorial: Annex A tweaks"
  },
  "1869": {
@@ -902,13 +459,6 @@
   "head": "7644ce6dd587b8a5f4c63e3c2573943f1d4528af",
   "login": "tc39",
   "ref": "sv-regexp-unicode-escape-sequence",
-  "rev": {
-   "author": "Kevin Gibbons",
-   "date": "2020-02-09 16:18:46 -0800",
-   "hash": "7644ce6dd587b8a5f4c63e3c2573943f1d4528af",
-   "parents": "787642ad2d159c8358a8782c9414f6d5fb6efa6f",
-   "subject": "Normative: Use CharacterValue for RegExpUnicodeEscapeSequence"
-  },
   "title": "Normative: Use CharacterValue for RegExpUnicodeEscapeSequence"
  }
 }

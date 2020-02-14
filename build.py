@@ -196,15 +196,6 @@ def get_prs():
 def update_prs():
     prs = get_prs()
 
-    for prnum in prs:
-        pr = prs[prnum]
-        revs = get_revs(['-1', pr['head']])
-        if len(revs) == 1:
-            rev = revs[0]
-            pr['rev'] = rev
-        else:
-            pr['rev'] = None
-
     prs_json = json.dumps(prs,
                           indent=1,
                           separators=(',', ': '),
