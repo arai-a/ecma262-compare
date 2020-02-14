@@ -1,0 +1,41 @@
+body {
+    overflow-y: scroll;
+}
+
+header {
+    padding-top: 8px;
+    background: rgb(243,255,236);
+    background: linear-gradient(147deg,
+                                rgba(243,255,236,0.4) 29%,
+                                rgba(236,243,252,0.4) 65%,
+                                rgba(248,241,255,0.4) 82%);
+}
+
+body > div {
+    width: 100%;
+}
+
+header h1 {
+    font-size: 1.2em;
+    margin: 0;
+    text-align: center;
+}
+
+header nav {
+    text-align: center;
+    padding: 0;
+}
+
+header nav a {
+    font-size: 0.8em;
+    font-weight: bold;
+    font-family: sans-self;
+    margin-right: 20px;
+}
+
+#github-link {
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    opacity: 0.3;
+}

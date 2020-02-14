@@ -1,0 +1,49 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    border-bottom: 1px solid #808080;
+}
+
+h2 {
+    border-top: 1px solid #808080;
+    font-size: 1.1em;
+    margin: 0;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+table {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    width: 100%;
+    table-layout: fixed;
+    border-bottom: 1px solid #808080;
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid #808080;
+    padding: 4px;
+}
+
+.subject {
+    font-weight: bold;
+}
+
+.diff-cell,
+.rendered-cell {
+    width: 5em;
+    text-align: center;
+}
+
+.author-and-date {
+    font-size: 0.8em;
+    color: #808080;
+}
