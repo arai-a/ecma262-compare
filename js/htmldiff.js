@@ -1,3 +1,5 @@
+"use strict";
+
 const INS_NAME = `ins`;
 const INS_TAG = `<ins class="htmldiff-add">`;
 const DEL_NAME = `del`;
