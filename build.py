@@ -3,7 +3,6 @@
 import argparse
 import distutils
 import distutils.dir_util
-import glob
 import json
 import os
 import re
