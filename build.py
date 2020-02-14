@@ -28,11 +28,11 @@ def clone_repo_if_necessary():
     if not os.path.exists('./ecma262'):
         subprocess.call(['git', 'clone', REPO_URL])
 
-def generate_html(hash, subdir):
+def generate_html(sha, subdir):
     basedir = './history/{}'.format(subdir)
-    revdir = '{}{}'.format(basedir, hash)
+    revdir = '{}{}'.format(basedir, sha)
 
-    result = '{}/index.html'.format(revdir, hash)
+    result = '{}/index.html'.format(revdir, sha)
     if os.path.exists(result):
         print('@@@@ skip {} (cached)'.format(result))
         sys.stdout.flush()
@@ -42,7 +42,7 @@ def generate_html(hash, subdir):
     sys.stdout.flush()
 
     ret = subprocess.call(['git',
-                           'checkout', hash], cwd='./ecma262')
+                           'checkout', sha], cwd='./ecma262')
     if ret:
         sys.exit(ret)
 
@@ -77,9 +77,9 @@ def generate_html(hash, subdir):
     distutils.dir_util.copy_tree(fromdir, revdir)
     return True
 
-def update_rev(hash):
-    result1 = generate_html(hash, '')
-    result2 = generate_json(hash, '')
+def update_rev(sha):
+    result1 = generate_html(sha, '')
+    result2 = generate_json(sha, '')
     return result1 or result2
 
 def update_master(count=None):
@@ -95,15 +95,15 @@ def update_master(count=None):
                          cwd='./ecma262',
                          stdout=subprocess.PIPE,
                          stderr=subprocess.STDOUT)
-    hashes = []
+    shaes = []
     for line in p.stdout:
-        hashes.append(line.strip().decode('utf-8'))
+        shaes.append(line.strip().decode('utf-8'))
 
     i = 1
-    for hash in reversed(hashes):
-        print('@@@@ {}/{}'.format(i, len(hashes)))
+    for sha in reversed(shaes):
+        print('@@@@ {}/{}'.format(i, len(shaes)))
         sys.stdout.flush()
-        result = update_rev(hash)
+        result = update_rev(sha)
         if count is not None:
             if result:
                 count -= 1
@@ -112,44 +112,56 @@ def update_master(count=None):
         i += 1
     p.wait()
 
-def get_rev_lines(revs):
+def get_revs(revset):
     p = subprocess.Popen(['git',
-                          'log'] + revs
-                         + ['--pretty=["%ci", "%H"]'],
+                          'log'] + revset
+                         + ['--pretty=hash:%H%nparents:%P%nauthor:%an%ndate:%ci%nsubject:%s%n=='],
                          cwd='./ecma262',
                          stdout=subprocess.PIPE,
                          stderr=subprocess.STDOUT)
-    lines = []
+
+    revs = []
+
+    rev = dict()
+
     for line in p.stdout:
-        lines.append(line.decode('utf-8'))
+        line = line.strip().decode('utf-8')
+        if line == '==':
+            revs.append(rev)
+            rev = dict()
+        else:
+            (name, value) = line.split(':', 1)
+            rev[name] = value
     p.wait()
 
-    return lines
+    return revs
+
+def has_rev(revs, rev):
+    for r in revs:
+        if r['hash'] == rev['hash']:
+            return True
+    return False
 
 def update_revs():
-    lines = get_rev_lines(['{}^..{}'.format(FIRST_REV, 'origin/master')])
+    revs = get_revs(['{}^..{}'.format(FIRST_REV, 'origin/master')])
 
     bases = set()
     prs = get_prs()
     for pr in prs:
-        bases.add(prs[pr]["base"])
+        bases.add(prs[pr]['base'])
 
     for base in bases:
-        x = get_rev_lines(['-1', base])[0]
-        if x not in lines:
-            lines.append(x)
-
-    revs = []
-
-    for line in sorted(lines, reverse=True):
-        rev = json.loads(line)[1]
-        sections = './history/{}/sections.json'.format(rev)
-        if os.path.exists(sections):
-            o = json.loads(line.strip())
-            rev = dict()
-            rev['date'] = o[0]
-            rev['hash'] = o[1]
+        rev = get_revs(['-1', base])[0]
+        if has_rev(revs, rev):
             revs.append(rev)
+
+    revs.sort(key = lambda rev: rev['date'], reverse=True)
+
+    def has_section(rev):
+        sections = './history/{}/sections.json'.format(rev['hash'])
+        return os.path.exists(sections)
+
+    revs = list(filter(has_section, revs))
 
     revs_txt = json.dumps(revs,
                           indent=1,
@@ -425,16 +437,16 @@ def extract_sections(filename):
             out_file.write(txt)
     return True
 
-def generate_json(hash, subdir):
+def generate_json(sha, subdir):
     basedir = './history/{}'.format(subdir)
-    return extract_sections('{}{}'.format(basedir, hash))
+    return extract_sections('{}{}'.format(basedir, sha))
 
-def is_rev_cached(hash):
+def is_rev_cached(sha):
     with open('./revs.json', 'r') as in_file:
         revs = json.loads(in_file.read())
 
     for rev in revs:
-        if rev['hash'] == hash:
+        if rev['hash'] == sha:
             return True
 
     return False
@@ -483,17 +495,17 @@ def bootstrap():
 
 parser = argparse.ArgumentParser(description='Update ecma262 history data')
 
-parser.add_argument("-t", "--token", help='GitHub personal access token')
+parser.add_argument('-t', '--token', help='GitHub personal access token')
 subparsers = parser.add_subparsers(dest='command')
-subparsers.add_parser("clone", help='Clone ecma262 repository')
-parser_update = subparsers.add_parser("update", help='Update all revisions')
-parser_update.add_argument("-c", type=int, help='Maximum number of revisions to handle')
-subparsers.add_parser("revs", help='Update revs.js')
-parser_pr = subparsers.add_parser("pr", help='Update PR')
-parser_pr.add_argument("PR_NUMBER", help='PR number, or "all"')
-parser_pr.add_argument("-c", type=int, help='Maximum number of PRs to handle')
-subparsers.add_parser("prs", help='Update prs.js')
-subparsers.add_parser("bootstrap", help='Perform bootstrap for CI')
+subparsers.add_parser('clone', help='Clone ecma262 repository')
+parser_update = subparsers.add_parser('update', help='Update all revisions')
+parser_update.add_argument('-c', type=int, help='Maximum number of revisions to handle')
+subparsers.add_parser('revs', help='Update revs.js')
+parser_pr = subparsers.add_parser('pr', help='Update PR')
+parser_pr.add_argument('PR_NUMBER', help='PR number, or "all"')
+parser_pr.add_argument('-c', type=int, help='Maximum number of PRs to handle')
+subparsers.add_parser('prs', help='Update prs.js')
+subparsers.add_parser('bootstrap', help='Perform bootstrap for CI')
 args = parser.parse_args()
 
 if args.token:
