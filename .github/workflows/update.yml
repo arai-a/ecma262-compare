@@ -30,9 +30,12 @@ jobs:
         curl -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.hash.outputs.sha}}/Makefile
         curl -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.hash.outputs.sha}}/build.py
         curl -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.hash.outputs.sha}}/config.json
-        curl -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.hash.outputs.sha}}/revs.json
-        curl -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.hash.outputs.sha}}/prs.json
+        curl -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.hash.outputs.sha}}/history/revs.json
+        curl -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.hash.outputs.sha}}/history/prs.json
         curl -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.hash.outputs.sha}}/requirements.txt
+        mkdir -p history
+        mv revs.json history
+        mv prs.json history
     - name: Setup virtualenv
       run: make py-venv-bootstrap
     - name: Run Bootstrap
@@ -43,8 +46,7 @@ jobs:
         rm Makefile
         rm build.py
         rm config.json
-        rm revs.json
-        rm prs.json
+        rm -rf history
         rm requirements.txt
     - name: Checkout
       if: steps.bootstrap.outputs.update == 'Yes'
