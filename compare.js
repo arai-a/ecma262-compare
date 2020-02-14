@@ -155,11 +155,17 @@ function populatePRs(menu) {
   opt.appendChild(document.createTextNode("-"));
   menu.appendChild(opt);
 
+  const maxTitleLength = 80;
+
   for (let pr of prnums) {
     let info = prs[pr];
     let opt = document.createElement("option");
     opt.value = pr;
-    opt.appendChild(document.createTextNode(`PR ${pr}: ${info.title.slice(0, 100)} (by ${info.login})`));
+    let title = info.title;
+    if (title.length > maxTitleLength) {
+      title = title.slice(0, maxTitleLength - 1) + "\u2026";
+    }
+    opt.appendChild(document.createTextNode(`#${pr}: ${title} (by ${info.login})`));
     menu.appendChild(opt);
   }
 
