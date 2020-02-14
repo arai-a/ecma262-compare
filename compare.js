@@ -1,9 +1,5 @@
 "use strict";
 
-if (!("prs" in window)) {
-  window.prs = {};
-}
-
 const REPO_URL = "https://github.com/tc39/ecma262";
 let pr_url = pr => `https://github.com/tc39/ecma262/pull/${pr}`;
 

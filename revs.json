@@ -7,20 +7,6 @@
   "subject": "Editorial: add missing argument to two CreateImmutableBinding calls (#1864)"
  },
  {
-  "author": "Kevin Gibbons",
-  "date": "2020-02-13 12:26:21 -0800",
-  "hash": "823aad1e08b5680229d67283371912950d19e581",
-  "parents": "bf37eb35b715b14e7a8f8c73059e11da75f7944a",
-  "subject": "Editorial: add missing argument to two CreateImmutableBinding calls (#1864)"
- },
- {
-  "author": "Bradley Farias",
-  "date": "2020-02-13 12:21:38 -0800",
-  "hash": "bf37eb35b715b14e7a8f8c73059e11da75f7944a",
-  "parents": "2669d458ec0d5c2ccce3b105b288ec57f81aee4f",
-  "subject": "Normative: Make super() throw after evaluating args (#1775)"
- },
- {
   "author": "Bradley Farias",
   "date": "2020-02-13 12:21:38 -0800",
   "hash": "bf37eb35b715b14e7a8f8c73059e11da75f7944a",
@@ -49,32 +35,11 @@
   "subject": "Editorial: Update IEEE 754 standard version (#1770)"
  },
  {
-  "author": "chicoxyzzy",
-  "date": "2020-02-04 15:11:51 -1000",
-  "hash": "787642ad2d159c8358a8782c9414f6d5fb6efa6f",
-  "parents": "e3707ac9e14b75b9513d6b09c394dee6473c5ddf",
-  "subject": "Editorial: Update IEEE 754 standard version (#1770)"
- },
- {
   "author": "Domenic Denicola",
   "date": "2020-02-02 21:04:38 -0800",
   "hash": "e3707ac9e14b75b9513d6b09c394dee6473c5ddf",
   "parents": "332d1ba127aac8e133a8c25789d01322bd4d2445",
   "subject": "Editorial: clarify ordinary and exotic object definitions and creation (#1460)"
- },
- {
-  "author": "Domenic Denicola",
-  "date": "2020-02-02 21:04:38 -0800",
-  "hash": "e3707ac9e14b75b9513d6b09c394dee6473c5ddf",
-  "parents": "332d1ba127aac8e133a8c25789d01322bd4d2445",
-  "subject": "Editorial: clarify ordinary and exotic object definitions and creation (#1460)"
- },
- {
-  "author": "Ross Kirsling",
-  "date": "2020-01-31 23:19:44 -0800",
-  "hash": "332d1ba127aac8e133a8c25789d01322bd4d2445",
-  "parents": "0a53d5657928f5e0af7ab81442a7a4286840be5d",
-  "subject": "Editorial: Unify spelling of 'behaviour' (#1856)"
  },
  {
   "author": "Ross Kirsling",
@@ -141,13 +106,6 @@
  },
  {
   "author": "Ross Kirsling",
-  "date": "2020-01-22 23:26:58 -0800",
-  "hash": "e5c0f84610df095de6256e6cf083f4a901e67fde",
-  "parents": "008fca6d9b08164be52c6f6a879b03d4663ff7f0",
-  "subject": "Editorial: Give emu-notes some color (#1842)"
- },
- {
-  "author": "Ross Kirsling",
   "date": "2020-01-22 23:22:45 -0800",
   "hash": "008fca6d9b08164be52c6f6a879b03d4663ff7f0",
   "parents": "a879fd542718bcab6accd2d38964c410fffa28a9",
@@ -189,25 +147,11 @@
   "subject": "Normative: Add\u00a0missing `ReturnIfAbrupt` to\u00a0\u201cEvaluation of\u00a0`in`\u00a0expression\u201d (#1826)"
  },
  {
-  "author": "ExE Boss",
-  "date": "2020-01-10 14:00:42 -0800",
-  "hash": "73ad5993a7c8cf8192fa485a91887437fa6b48ab",
-  "parents": "a329eefaca95fb1f91cf3828249e54f13b27e095",
-  "subject": "Normative: Add\u00a0missing `ReturnIfAbrupt` to\u00a0\u201cEvaluation of\u00a0`in`\u00a0expression\u201d (#1826)"
- },
- {
   "author": "Ross Kirsling",
   "date": "2020-01-09 22:08:15 -0800",
   "hash": "a329eefaca95fb1f91cf3828249e54f13b27e095",
   "parents": "63be86408b2c01899d6fd565db9a85d76a56de42",
   "subject": "Meta: Stop letting ecmarkup load 262's own outdated bibliography file (#1839)"
- },
- {
-  "author": "Alexey Shvayka",
-  "date": "2020-01-08 22:21:31 -0800",
-  "hash": "63be86408b2c01899d6fd565db9a85d76a56de42",
-  "parents": "b41a83231d69aec9a2f5caed4c74faff332726c6",
-  "subject": "Editorial: Tweak casing of \"empty String\" and \"Number value\" (#1780)"
  },
  {
   "author": "Alexey Shvayka",
@@ -229,20 +173,6 @@
   "hash": "f0c10cfb5ff87b892580cae6a2dc59a045cbac3e",
   "parents": "cb73c69d861db21506c0246197fd87b723d6cdb4",
   "subject": "Normative: Fix the LexicalEnvironment of the execution context during function parameter evaluation (#1829)"
- },
- {
-  "author": "Shu-yu Guo",
-  "date": "2020-01-03 15:33:10 -0800",
-  "hash": "f0c10cfb5ff87b892580cae6a2dc59a045cbac3e",
-  "parents": "cb73c69d861db21506c0246197fd87b723d6cdb4",
-  "subject": "Normative: Fix the LexicalEnvironment of the execution context during function parameter evaluation (#1829)"
- },
- {
-  "author": "Jordan Harband",
-  "date": "2020-01-02 19:23:03 -0800",
-  "hash": "cb73c69d861db21506c0246197fd87b723d6cdb4",
-  "parents": "c72089fb45587bcff8f7d53fa581ee11437e0a75",
-  "subject": "Markup: remove stray `</ins>` tag (#1791)"
  },
  {
   "author": "Jordan Harband",
@@ -315,13 +245,6 @@
   "subject": "Normative: make EnumerableOwnPropertyNames ordered (#1793)"
  },
  {
-  "author": "Kevin Gibbons",
-  "date": "2019-12-11 20:29:51 -0800",
-  "hash": "ecb4178012d6b4d9abc13fcbd45f5c6394b832ce",
-  "parents": "4175b01c800416365df2cb491e0c0560ea97916b",
-  "subject": "Normative: make EnumerableOwnPropertyNames ordered (#1793)"
- },
- {
   "author": "Michael Dyck",
   "date": "2019-12-11 20:23:10 -0800",
   "hash": "4175b01c800416365df2cb491e0c0560ea97916b",
@@ -350,13 +273,6 @@
   "subject": "Editorial: replace some uses of \"idempotent\" with alternative wording (#1363)"
  },
  {
-  "author": "Michael Ficarra",
-  "date": "2019-12-11 14:59:38 -0800",
-  "hash": "ae2d1a86868107e8f61db4c68af910c473d88c93",
-  "parents": "f5436bfed9b1bd01ec35a074d8369d4a330e85ec",
-  "subject": "Editorial: replace some uses of \"idempotent\" with alternative wording (#1363)"
- },
- {
   "author": "Daniel Ehrenberg",
   "date": "2019-12-11 13:21:09 -0800",
   "hash": "f5436bfed9b1bd01ec35a074d8369d4a330e85ec",
@@ -369,20 +285,6 @@
   "hash": "618479affe6b55bfca47fd058ce3a837a7d6c46c",
   "parents": "9c8d03c1f1a0306d01e8422b28cde757093bd216",
   "subject": "Editorial: replace obj.[[Get]](j) with Get(obj, j) (#1183)"
- },
- {
-  "author": "Toru Nagashima",
-  "date": "2019-11-27 14:26:43 -0800",
-  "hash": "618479affe6b55bfca47fd058ce3a837a7d6c46c",
-  "parents": "9c8d03c1f1a0306d01e8422b28cde757093bd216",
-  "subject": "Editorial: replace obj.[[Get]](j) with Get(obj, j) (#1183)"
- },
- {
-  "author": "Darien Maillet Valentine",
-  "date": "2019-11-21 16:51:30 -0800",
-  "hash": "9c8d03c1f1a0306d01e8422b28cde757093bd216",
-  "parents": "8c3fb1f0ed9b55ea1ca075b82e3525e469bd1b6b",
-  "subject": "Editorial: Fix Elymiac row markup in scripts table (#1790)"
  },
  {
   "author": "Darien Maillet Valentine",
@@ -427,13 +329,6 @@
   "subject": "Editorial: Add BigInt to the list of possible reference base value types (#1773)"
  },
  {
-  "author": "Darien Maillet Valentine",
-  "date": "2019-11-18 22:39:11 -0800",
-  "hash": "788736c4764901fb25d20ced12d5ac2e10957dc9",
-  "parents": "308d61e44ddc681081c18940134d375027d0ab74",
-  "subject": "Editorial: Add BigInt to the list of possible reference base value types (#1773)"
- },
- {
   "author": "Caio Lima",
   "date": "2019-11-18 22:29:11 -0800",
   "hash": "308d61e44ddc681081c18940134d375027d0ab74",
@@ -446,13 +341,6 @@
   "hash": "19e88da40ac69f64877404d9168dbdbe3bb19c6c",
   "parents": "c77f0081a197eeaaf5589bc7ebe306b1cc5c9162",
   "subject": "Normative: IsSimpleParameterList is false for standalone rest parameters (#1608)"
- },
- {
-  "author": "Jordan Harband",
-  "date": "2019-11-18 15:15:19 -0800",
-  "hash": "c77f0081a197eeaaf5589bc7ebe306b1cc5c9162",
-  "parents": "ac78951866024bbc9344b4b3886198205cc3467b",
-  "subject": "Revert \"Meta: [actions] add automatic rebasing / merge commit blocking\""
  },
  {
   "author": "Jordan Harband",
@@ -488,20 +376,6 @@
   "hash": "edeeafa68a4350733157e643228e309258c960de",
   "parents": "c808fe2b7bcc71ff22b06fe96b4260edcc4be5ba",
   "subject": "Editorial: Treat not present parameters as `undefined` (#1411)"
- },
- {
-  "author": "Aleksey Shvayka",
-  "date": "2019-11-13 22:11:22 -0800",
-  "hash": "edeeafa68a4350733157e643228e309258c960de",
-  "parents": "c808fe2b7bcc71ff22b06fe96b4260edcc4be5ba",
-  "subject": "Editorial: Treat not present parameters as `undefined` (#1411)"
- },
- {
-  "author": "Michael Dyck",
-  "date": "2019-11-13 22:04:54 -0800",
-  "hash": "c808fe2b7bcc71ff22b06fe96b4260edcc4be5ba",
-  "parents": "66242104e57ed82cf279445b72c3841f7526c18a",
-  "subject": "Editorial: Delete \"be\" in 'Set' step; fix delimiters on String \"literals\" (#1778)"
  },
  {
   "author": "Michael Dyck",
@@ -565,13 +439,6 @@
   "hash": "abb7cbda7d2134635738f2e3f759571349908a10",
   "parents": "8fd2e014fa52a1c932686904a7b46eb742fe3112",
   "subject": "Normative: CreateDynamicFunction early concatenates bodyText (#1479)"
- },
- {
-  "author": "Jordan Harband",
-  "date": "2019-11-13 11:42:33 -0800",
-  "hash": "8fd2e014fa52a1c932686904a7b46eb742fe3112",
-  "parents": "37728d736e9e6a1e2ba951dbeb3fc096914193d6",
-  "subject": "Editorial: `GetSubstitution` usage: can not throw when `namedCaptures` is undefined"
  },
  {
   "author": "Jordan Harband",
@@ -670,13 +537,6 @@
   "hash": "f619e92371f04bfeaaaeab7bcc754e3f8f5c8fda",
   "parents": "1595e86b09414b669fcdd23e576ec912685d5f2b",
   "subject": "Editorial: [[FunctionKind]] -> [[IsClassConstructor]] (#1546)"
- },
- {
-  "author": "Michael Dyck",
-  "date": "2019-10-21 15:21:26 -0700",
-  "hash": "1595e86b09414b669fcdd23e576ec912685d5f2b",
-  "parents": "55707d0c15a23834baca2a440d61ae5a929d589c",
-  "subject": "Markup: fix a malformed <emu-xref> tag (#1750)"
  },
  {
   "author": "Michael Dyck",
@@ -868,20 +728,6 @@
   "subject": "Editorial: more cleanups from previous PRs (#1722)"
  },
  {
-  "author": "Michael Dyck",
-  "date": "2019-10-06 10:30:10 -0700",
-  "hash": "98813bcb6c865932048677f918a16fa7fa9cccdc",
-  "parents": "693e09a4b9ce52b060ceda897b042c3f83f0a738",
-  "subject": "Editorial: more cleanups from previous PRs (#1722)"
- },
- {
-  "author": "Aleksey Shvayka",
-  "date": "2019-10-04 09:56:43 -0400",
-  "hash": "693e09a4b9ce52b060ceda897b042c3f83f0a738",
-  "parents": "bb11ca51a13f72219e057518de16ad5ea8563872",
-  "subject": "Editorial: Improve note on forcing string comparison (#1526)"
- },
- {
   "author": "Aleksey Shvayka",
   "date": "2019-10-04 09:56:43 -0400",
   "hash": "693e09a4b9ce52b060ceda897b042c3f83f0a738",
@@ -985,13 +831,6 @@
   "hash": "f8e028bac2de013a18465d97d8d350f7f3e48875",
   "parents": "bdcd53150ef7c49d53347e1fe124e965850ca474",
   "subject": "Editorial: fixes from #1124: spaces around operator; Let -> Set (#1714)"
- },
- {
-  "author": "Daniel Ehrenberg",
-  "date": "2019-10-01 14:06:53 -0400",
-  "hash": "bdcd53150ef7c49d53347e1fe124e965850ca474",
-  "parents": "20706ef77f8d4f9aa149412695363fc69e62ea88",
-  "subject": "Normative: Remove ToUint32 from array literal evaluation (#1124)"
  },
  {
   "author": "Daniel Ehrenberg",
@@ -1155,13 +994,6 @@
   "subject": "[meta] add snapshot builds (#1525)"
  },
  {
-  "author": "Gus Caplan",
-  "date": "2019-09-04 22:09:33 -0700",
-  "hash": "85f905aff137a7f0872c48e16d6b883b7b46212a",
-  "parents": "e94a1ec690c4db5365bdf3b725cf9ddc89084eaf",
-  "subject": "[meta] add snapshot builds (#1525)"
- },
- {
   "author": "Jordan Harband",
   "date": "2019-09-04 22:09:32 -0700",
   "hash": "e94a1ec690c4db5365bdf3b725cf9ddc89084eaf",
@@ -1197,13 +1029,6 @@
   "subject": "Editorial: Break up a long para in \"Object Internal Methods and Internal Slots\" (#1539)"
  },
  {
-  "author": "Michael Dyck",
-  "date": "2019-08-07 15:50:33 -0700",
-  "hash": "8f0f69279b5f9e12ebe8f7052322b93d17e36b54",
-  "parents": "3440ecbca405632e4ffda1028b70c3e19485d919",
-  "subject": "Normative: Disallow internal methods returning continue|break|return (#1539)"
- },
- {
   "author": "Jordan Harband",
   "date": "2019-08-07 15:22:36 -0700",
   "hash": "f1b22ef430455201eae1d932a272d4a8d1969886",
@@ -1216,13 +1041,6 @@
   "hash": "c1c192cedd305564561a0afeacbaa34cd2ab457c",
   "parents": "a68d1296f156ff73075fde36aebd643de4f8ebde",
   "subject": "[meta] fix link to TC39 meetings (#1638)"
- },
- {
-  "author": "Jordan Harband",
-  "date": "2019-07-19 08:55:24 -0700",
-  "hash": "a68d1296f156ff73075fde36aebd643de4f8ebde",
-  "parents": "a380fa7547be3bfe6fa66824252a63fa6e3980d3",
-  "subject": "Editorial: `parseFloat`/`parseInt`: fix unintentional normative change from #1629 (#1634)"
  },
  {
   "author": "Jordan Harband",
@@ -1428,20 +1246,6 @@
   "subject": "Editorial: Explicitly note mathematical values (#1135)"
  },
  {
-  "author": "Caio Lima",
-  "date": "2019-07-03 23:13:15 -0700",
-  "hash": "dc1e21c454bd316810be1c0e7af0131a2d7f38e9",
-  "parents": "890b1033876795be14f1488f2756db4ecebcdf25",
-  "subject": "Meta: Changing charset to UTF-8 (#1135)"
- },
- {
-  "author": "Ross Kirsling",
-  "date": "2019-06-19 14:40:18 -0700",
-  "hash": "a95e95a63bc1fd7d71f089ad1d68be0cce4caf34",
-  "parents": "3654a4f6954e6bfb4715484d0dc3370c25170d5c",
-  "subject": "Normative: Let all early errors be SyntaxErrors (#1527)"
- },
- {
   "author": "Ross Kirsling",
   "date": "2019-06-19 14:40:18 -0700",
   "hash": "a95e95a63bc1fd7d71f089ad1d68be0cce4caf34",
@@ -1540,13 +1344,6 @@
   "subject": "Normative: eval(nonString) should not have observable side effects (#1504)"
  },
  {
-  "author": "Mike Samuel",
-  "date": "2019-06-04 13:15:13 -0700",
-  "hash": "a25df663ddaa8f0b976f0411681635f587be63e0",
-  "parents": "05c76205a6c86d2d73b078d3a9299533cda69473",
-  "subject": "Normative: eval(nonString) should not have observable side effects (#1504)"
- },
- {
   "author": "Lin Clark",
   "date": "2019-06-03 13:40:48 -0700",
   "hash": "05c76205a6c86d2d73b078d3a9299533cda69473",
@@ -1629,5 +1426,47 @@
   "hash": "948baad6d2e026dd637e27d7abc93cbac31597fa",
   "parents": "a5375bdad264c8aa264d9c44f57408087761069e",
   "subject": "Editorial: Use IsCallable abstract op (#1529)"
+ },
+ {
+  "author": "Michael Dyck",
+  "date": "2019-05-17 23:49:30 -0700",
+  "hash": "a5375bdad264c8aa264d9c44f57408087761069e",
+  "parents": "9a818335bec4f9d40fa51c126e9abe1e3cfd1832",
+  "subject": "Editorial: Clarify note re parsing the same string multiple times (#1521)"
+ },
+ {
+  "author": "Leo Balter",
+  "date": "2019-04-25 16:35:26 -0700",
+  "hash": "69d9e638031c6a16199cbd844b13ccd4b14826b5",
+  "parents": "3bd57b17d9f32ecb724c7946f62f0d1646ac4a3e",
+  "subject": "Editorial: Remove unnecessary steps before NewPromiseCapability (#1516)"
+ },
+ {
+  "author": "Richard Gibson",
+  "date": "2019-04-23 13:55:44 -0700",
+  "hash": "f158df16b4bfa4d8d1efa7407ebfe8eeb339f4fd",
+  "parents": "617ef3177e65cea7233bee5de0edaf6e3aa0a7c4",
+  "subject": "Normative: Use StringPad to define year padding (#1407)"
+ },
+ {
+  "author": "Jordan Harband",
+  "date": "2019-02-28 22:58:26 -0800",
+  "hash": "a09fc232c137800dbf51b6204f37fdede4ba1646",
+  "parents": "7a9a9b6b25c115fcda95e943e8875432636f2cfd",
+  "subject": "Meta: add PDF printing CSS"
+ },
+ {
+  "author": "Mathias Bynens",
+  "date": "2019-01-29 09:56:10 -0800",
+  "hash": "257cae9f69068704fc9e89a729f54bd7977c9161",
+  "parents": "bf165c96ae579d9730d9ac0bc30909550425dc9f",
+  "subject": "[Normative] Make Array.prototype.sort stable (#1340)"
+ },
+ {
+  "author": "Tommie Levy",
+  "date": "2019-01-01 22:19:45 -0800",
+  "hash": "85ce767c86a1a8ed719fe97e978028bff819d1f2",
+  "parents": "7acacc524213058a2368b5fa751fac7ea08ba230",
+  "subject": "Meta: update @alrra/travis-scripts"
  }
 ]

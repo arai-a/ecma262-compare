@@ -136,11 +136,23 @@ def get_revs(revset):
 
     return revs
 
-def has_rev(revs, rev):
-    for r in revs:
-        if r['hash'] == rev['hash']:
-            return True
-    return False
+
+def has_section(rev):
+    sections = './history/{}/sections.json'.format(rev['hash'])
+    return os.path.exists(sections)
+
+def unique(revs):
+    hashes = set()
+
+    urevs = []
+    for rev in revs:
+        if rev['hash'] in hashes:
+            continue
+
+        hashes.add(rev['hash'])
+        urevs.append(rev)
+
+    return urevs
 
 def update_revs():
     revs = get_revs(['{}^..{}'.format(FIRST_REV, 'origin/master')])
@@ -152,16 +164,11 @@ def update_revs():
 
     for base in bases:
         rev = get_revs(['-1', base])[0]
-        if has_rev(revs, rev):
-            revs.append(rev)
+        revs.append(rev)
 
     revs.sort(key = lambda rev: rev['date'], reverse=True)
 
-    def has_section(rev):
-        sections = './history/{}/sections.json'.format(rev['hash'])
-        return os.path.exists(sections)
-
-    revs = list(filter(has_section, revs))
+    revs = unique(list(filter(has_section, revs)))
 
     revs_txt = json.dumps(revs,
                           indent=1,
