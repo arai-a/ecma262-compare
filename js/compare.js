@@ -1,7 +1,6 @@
 "use strict";
 
 const REPO_URL = "https://github.com/tc39/ecma262";
-let pr_url = pr => `https://github.com/tc39/ecma262/pull/${pr}`;
 
 let revs;
 let revMap;
@@ -31,12 +30,16 @@ async function run() {
 }
 
 async function loadResources() {
-  revs = await (await fetch("./history/revs.json")).json();
+  [revs, prs] = await Promise.all([
+      getJSON("./history/revs.json"),
+      getJSON("./history/prs.json"),
+  ]);
+
   revMap = {};
   for (const rev of revs) {
     revMap[rev.hash] = rev;
   }
-  prs = await (await fetch("./history/prs.json")).json();
+
   prnums = Object.keys(prs).map(x => parseInt(x, 10)).sort((a, b) => a - b).reverse();
 }
 
@@ -133,12 +136,12 @@ function populateRevs(menu, opts) {
     opts.push(opt);
   }
 
-  for (let pr of prnums) {
-    let info = prs[pr];
+  for (let prnum of prnums) {
+    let info = prs[prnum];
 
     let opt = document.createElement("option");
-    opt.value = `PR/${pr}/${info.head}`;
-    opt.appendChild(document.createTextNode(`${info.head} (PR ${pr} by ${info.login})`));
+    opt.value = `PR/${prnum}/${info.head}`;
+    opt.appendChild(document.createTextNode(`${info.head} (PR ${prnum} by ${info.login})`));
     opts.push(opt);
   }
 
@@ -157,15 +160,15 @@ function populatePRs(menu) {
 
   const maxTitleLength = 80;
 
-  for (let pr of prnums) {
-    let info = prs[pr];
+  for (let prnum of prnums) {
+    let info = prs[prnum];
     let opt = document.createElement("option");
-    opt.value = pr;
+    opt.value = prnum;
     let title = info.title;
     if (title.length > maxTitleLength) {
       title = title.slice(0, maxTitleLength - 1) + "\u2026";
     }
-    opt.appendChild(document.createTextNode(`#${pr}: ${title} (by ${info.login})`));
+    opt.appendChild(document.createTextNode(`#${prnum}: ${title} (by ${info.login})`));
     menu.appendChild(opt);
   }
 
@@ -185,7 +188,7 @@ function filterRev(target) {
     info = prs[pr];
     revSet = new Set([`PR/${pr}/${info.head}`, info.base]);
 
-    prLink.href = pr_url(pr);
+    prLink.href = `${REPO_URL}/pull/${pr}`;
     prLink.innerText = `Open PR ${pr}`;
   } else {
     prLink.innerText = "";
@@ -223,10 +226,14 @@ function hashOf(id) {
   return document.getElementById(`${id}-rev`).value;
 }
 
+async function getJSON(path) {
+  let response = await fetch(path);
+  return response.json();
+}
+
 async function getSecData(id) {
   let hash = hashOf(id);
-  let response = await fetch(`./history/${hash}/sections.json`);
-  return response.json();
+  return getJSON(`./history/${hash}/sections.json`);
 }
 
 async function updateSectionList() {

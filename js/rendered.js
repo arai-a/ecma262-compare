@@ -1,5 +1,7 @@
 "use strict";
 
+const REPO_URL = "https://github.com/tc39/ecma262";
+
 let revs;
 let prs;
 
@@ -15,6 +17,18 @@ async function run(type) {
   } else {
     populatePRList();
   }
+}
+
+async function getJSON(path) {
+  let response = await fetch(path);
+  return response.json();
+}
+
+async function loadResources() {
+  [revs, prs] = await Promise.all([
+      getJSON("./history/revs.json"),
+      getJSON("./history/prs.json"),
+  ]);
 }
 
 function toReadableDate(d) {
@@ -41,7 +55,7 @@ function populateRevList() {
     summaryCell.appendChild(subject);
 
     const link = document.createElement("a");
-    link.href = `https://github.com/tc39/ecma262/commit/${rev.hash}`;
+    link.href = `${REPO_URL}/commit/${rev.hash}`;
     link.textContent = rev.subject;
     subject.appendChild(link);
 
@@ -98,7 +112,7 @@ function populatePRList() {
     summaryCell.appendChild(subject);
 
     const link = document.createElement("a");
-    link.href = `https://github.com/tc39/ecma262/pull/${num}`;
+    link.href = `${REPO_URL}/pull/${num}`;
     link.textContent = pr.title;
     subject.appendChild(link);
 
@@ -142,9 +156,4 @@ function populatePRList() {
 
     list.appendChild(row);
   }
-}
-
-async function loadResources() {
-  revs = await (await fetch("./history/revs.json")).json();
-  prs = await (await fetch("./history/prs.json")).json();
 }
