@@ -2,332 +2,18 @@
 
 const REPO_URL = "https://github.com/tc39/ecma262";
 
-let revs;
-let revMap;
-let prs;
-let prnums;
-
-let fromSecData = {};
-let toSecData = {};
-
-let fromOpts = [];
-let toOpts = [];
-let secOpts = [];
-
-function bodyOnLoad() {
-  run().catch(e => console.log(e));
-}
-
-async function run() {
-  await loadResources();
-
-  populateLists();
-
-  initUIState();
-
-  parseQuery();
-  updateHistoryLinkAndInfo();
-}
-
-async function loadResources() {
-  [revs, prs] = await Promise.all([
-      getJSON("./history/revs.json"),
-      getJSON("./history/prs.json"),
-  ]);
-
-  revMap = {};
-  for (const rev of revs) {
-    revMap[rev.hash] = rev;
-  }
-
-  prnums = Object.keys(prs).map(x => parseInt(x, 10)).sort((a, b) => a - b).reverse();
-}
-
-function populateLists() {
-  let prFilter = document.getElementById("pr-filter");
-  let fromRev = document.getElementById("from-rev");
-  let toRev = document.getElementById("to-rev");
-
-  populatePRs(prFilter);
-
-  populateRevs(fromRev, fromOpts);
-  populateRevs(toRev, toOpts);
-}
-
-function initUIState() {
-  document.getElementById("view-diff").checked = true;
-  document.getElementById("view-diff-tab").classList.add("selected");
-}
-
-async function parseQuery() {
-  let prFilter = document.getElementById("pr-filter");
-  let fromRev = document.getElementById("from-rev");
-  let toRev = document.getElementById("to-rev");
-
-  let query = window.location.hash.slice(1);
-  let items = query.split("&");
-  let queryParams = {};
-  for (let item of items) {
-    let [name, value] = item.split("=");
-    try {
-      queryParams[name] = decodeURIComponent(value);
-    } catch (e) {
-    }
-  }
-
-  if ("from" in queryParams && "to" in queryParams) {
-    let from = queryParams.from;
-    let to = queryParams.to;
-
-    if ("pr" in queryParams) {
-      prFilter.value = queryParams.pr;
-      filterRev("both");
-    }
-    fromRev.value = from;
-    toRev.value = to;
-    updateHistoryLinkAndInfo();
-
-    await updateSectionList();
-
-    if ("id" in queryParams) {
-      let id = queryParams.id;
-      let menu = document.getElementById("sec-list");
-      menu.value = id;
-    }
-
-    await compare();
-  } else if ("pr" in queryParams) {
-    let pr = queryParams.pr;
-    if (pr in prs) {
-      let info = prs[pr];
-
-      fromRev.value = info.base;
-      toRev.value = info.head;
-      updateHistoryLinkAndInfo();
-
-      prFilter.value = pr;
-      filterRev("both");
-
-      await updateSectionList();
-
-      await compare();
-    }
-  }
-}
-
-function toReadableDate(d) {
-  try {
-    const date = new Date(d);
-    return date.toISOString().replace("T", " ").replace(/\.\d+Z$/, "");
-  } catch (e) {
-    return d;
-  }
-}
-
-function populateRevs(menu, opts) {
-  while (menu.firstChild) {
-    menu.firstChild.remove();
-  }
-
-  for (let { date, hash } of revs) {
-    let opt = document.createElement("option");
-    opt.value = hash;
-    opt.appendChild(document.createTextNode(`${hash} (${toReadableDate(date)})`));
-    opts.push(opt);
-  }
-
-  for (let prnum of prnums) {
-    let info = prs[prnum];
-
-    let opt = document.createElement("option");
-    opt.value = `PR/${prnum}/${info.head}`;
-    opt.appendChild(document.createTextNode(`${info.head} (PR ${prnum} by ${info.login})`));
-    opts.push(opt);
-  }
-
-  populateMenu(menu, opts, () => true);
-}
-
-function populatePRs(menu) {
-  while (menu.firstChild) {
-    menu.firstChild.remove();
-  }
-
-  let opt = document.createElement("option");
-  opt.value = "-";
-  opt.appendChild(document.createTextNode("-"));
-  menu.appendChild(opt);
-
-  const maxTitleLength = 80;
-
-  for (let prnum of prnums) {
-    let info = prs[prnum];
-    let opt = document.createElement("option");
-    opt.value = prnum;
-    let title = info.title;
-    if (title.length > maxTitleLength) {
-      title = title.slice(0, maxTitleLength - 1) + "\u2026";
-    }
-    opt.appendChild(document.createTextNode(`#${prnum}: ${title} (by ${info.login})`));
-    menu.appendChild(opt);
-  }
-
-  menu.value = "-";
-}
-
-function filterRev(target) {
-  let prFilter = document.getElementById("pr-filter");
-  let fromRev = document.getElementById("from-rev");
-  let toRev = document.getElementById("to-rev");
-
-  let pr = prFilter.value;
-  let revSet = null;
-  let info = null;
-  let prLink = document.getElementById("pr-link");
-  if (pr in prs) {
-    info = prs[pr];
-    revSet = new Set([`PR/${pr}/${info.head}`, info.base]);
-
-    prLink.href = `${REPO_URL}/pull/${pr}`;
-    prLink.innerText = `Open PR ${pr}`;
-  } else {
-    prLink.innerText = "";
-  }
-
-  if (target === "both" || target === "from") {
-    populateMenu(fromRev, fromOpts, opt => {
-      if (revSet) {
-        if (!revSet.has(opt.value)) {
-          return false;
-        }
-      }
-      return true;
-    });
-  }
-  if (target === "both" || target === "to") {
-    populateMenu(toRev, toOpts, opt => {
-      if (revSet) {
-        if (!revSet.has(opt.value)) {
-          return false;
-        }
-      }
-      return true;
-    });
-  }
-
-  if (revSet) {
-    fromRev.value = info.base;
-    toRev.value = `PR/${pr}/${info.head}`;
-    updateHistoryLinkAndInfo();
-  }
-}
-
-function hashOf(id) {
-  return document.getElementById(`${id}-rev`).value;
-}
-
-async function getJSON(path) {
-  let response = await fetch(path);
-  return response.json();
-}
-
-async function getSecData(id) {
-  let hash = hashOf(id);
-  return getJSON(`./history/${hash}/sections.json`);
-}
-
-async function updateSectionList() {
-  document.getElementById("result").innerText = "";
-  document.getElementById("diff-stat").innerText = "";
-
-  [fromSecData, toSecData] = await Promise.all([
-    getSecData("from"),
-    getSecData("to")
-  ]);
-
-  let hit = document.getElementById("search-hit");
-  hit.innerText = "";
-
-  let menu = document.getElementById("sec-list");
-  while (menu.firstChild) {
-    menu.firstChild.remove();
-  }
-
-  let fromSet = new Set(fromSecData.secList);
-  let toSet = new Set(toSecData.secList);
-  let set = new Set(fromSecData.secList.concat(toSecData.secList));
-
-  function getTitle(sec) {
-    if (sec in fromSecData.secData) {
-      return `${fromSecData.secData[sec].num} ${fromSecData.secData[sec].title}`;
-    }
-
-    if (sec in toSecData.secData) {
-      return `${toSecData.secData[sec].num} ${toSecData.secData[sec].title}`;
-    }
-
-    return "";
-  }
-
-  function getComparableTitle(sec) {
-    let t = getTitle(sec);
-    return t.replace(/([0-9]+)/g, matched => String.fromCharCode(matched));
-  }
-
-  secOpts = [];
-
-  let opt = document.createElement("option");
-  opt.value = "combined";
-  opt.appendChild(document.createTextNode(`Combined view`));
-  secOpts.push(opt);
-
-  for (let sec of Array.from(set).sort((a, b) => {
-    let aTitle = getComparableTitle(a);
-    let bTitle = getComparableTitle(b);
-    if (aTitle === bTitle) {
-      return 0;
-    }
-    return aTitle < bTitle ? -1 : 1;
-  })) {
-    let opt = document.createElement("option");
-    opt.value = sec;
-
-    let stat = "same";
-    let mark = "\u00A0\u00A0";
-
-    if (fromSet.has(sec)) {
-      if (toSet.has(sec)) {
-        if (isChanged(sec)) {
-          stat = "mod";
-          mark = "-+";
-        }
-      } else {
-        stat = "del";
-        mark = "-\u00A0";
-      }
-    } else {
-      stat = "add";
-      mark = "+\u00A0";
-    }
-
-    let title = getTitle(sec);
-
-    if (title) {
-      opt.appendChild(document.createTextNode(`${mark} ${title.slice(0, 100)}`));
-    } else {
-      opt.appendChild(document.createTextNode(`${mark} ${sec}`));
-    }
-    opt.className = stat;
-
-    secOpts.push(opt);
-  }
-
-  filterSectionList();
-}
-
-let ListMarkUtils = {
-  // Based on https://hg.mozilla.org/mozilla-central/raw-file/fffcb4bbc8b17a34f5fa5013418a8956d0fdcc7a/layout/generic/nsBulletFrame.cpp
-  getListDepth(node) {
+// Insert list marker into list element.
+//
+// While creating diff, extra list element can be added.
+// In that case, the default CSS list marker is affected by the change.
+//
+// So, instead of using CSS list marker in the diff view, insert text list
+// marker in the list element.
+//
+// This code is based on
+// https://hg.mozilla.org/mozilla-central/raw-file/fffcb4bbc8b17a34f5fa5013418a8956d0fdcc7a/layout/generic/nsBulletFrame.cpp
+class ListMarkUtils {
+  static getListDepth(node) {
     let depth = 0;
     while (node && node !== document.body) {
       if (node.nodeName.toLowerCase() === "ol") {
@@ -336,40 +22,40 @@ let ListMarkUtils = {
       node = node.parentNode;
     }
     return depth;
-  },
+  }
 
-  decimalToText(ordinal) {
+  static decimalToText(ordinal) {
     return ordinal.toString(10);
-  },
+  }
 
-  romanToText(ordinal, achars, bchars) {
+  static romanToText(ordinal, achars, bchars) {
     if (ordinal < 1 || ordinal > 3999) {
       this.decimalToText(ordinal);
       return false;
     }
-    let addOn, decStr;
-    decStr = ordinal.toString(10);
-    let len = decStr.length;
+    let addOn;
+    const decStr = ordinal.toString(10);
+    const len = decStr.length;
     let romanPos = len;
     let result = "";
 
     for (let i = 0; i < len; i++) {
-      let dp = decStr.substr(i, 1);
+      const dp = decStr.substr(i, 1);
       romanPos--;
       addOn = "";
       switch(dp) {
         case "3":
           addOn += achars[romanPos];
-          /* fall through */
+          // FALLTHROUGH
         case "2":
           addOn += achars[romanPos];
-          /* fall through */
+          // FALLTHROUGH
         case "1":
           addOn += achars[romanPos];
           break;
         case "4":
           addOn += achars[romanPos];
-          /* fall through */
+          // FALLTHROUGH
         case "5": case "6":
         case "7": case "8":
           addOn += bchars[romanPos];
@@ -386,27 +72,25 @@ let ListMarkUtils = {
       }
       result += addOn;
     }
-
     return result;
-  },
+  }
 
-  charListToText(ordinal, chars) {
-    let base = chars.length;
+  static charListToText(ordinal, chars) {
+    const base = chars.length;
     let buf = "";
     if (ordinal < 1) {
       return this.decimalToText(ordinal);
     }
     do {
       ordinal--;
-      let cur = ordinal % base;
+      const cur = ordinal % base;
       buf = chars.charAt(cur) + buf;
       ordinal = Math.floor(ordinal / base);
     } while (ordinal > 0);
-
     return buf;
-  },
+  }
 
-  toListMark(i, depth) {
+  static toListMark(i, depth) {
     if (depth === 1 || depth === 4) {
       return this.decimalToText(i + 1);
     }
@@ -418,23 +102,22 @@ let ListMarkUtils = {
     }
 
     return this.decimalToText(i + 1);
-  },
+  }
 
-  textify(innerHTML) {
-    let box = document.getElementById("list-mark-utils-box");
+  static textify(innerHTML) {
+    const box = document.getElementById("list-mark-utils-box");
     box.innerHTML = innerHTML;
 
-    let ols = box.getElementsByTagName("ol");
-    for (let ol of ols) {
-      let depth = this.getListDepth(ol);
+    for (const ol of box.getElementsByTagName("ol")) {
+      const depth = this.getListDepth(ol);
 
       let i = 0;
-      for (let li of ol.children) {
+      for (const li of ol.children) {
         if (li.nodeName.toLowerCase() !== "li") {
           continue;
         }
 
-        let mark = document.createTextNode(`${this.toListMark(i, depth)}. `);
+        const mark = document.createTextNode(`${this.toListMark(i, depth)}. `);
         li.insertBefore(mark, li.firstChild);
 
         i++;
@@ -443,199 +126,491 @@ let ListMarkUtils = {
 
     return box.innerHTML;
   }
-};
+}
 
-let combineStatus = {
-  processIndicator: null,
-  processing: false,
-  abortProcessing: false,
-};
+// Calculate diff between 2 HTML fragments.
+//
+// The HTML fragment shouldn't omit closing tag, if it's not empty tag.
+class HTMLDiff {
+  // Calculate diff between 2 HTML fragments.
+  static diff(s1, s2) {
+    const seq1 = this.toSeq(s1);
+    const seq2 = this.toSeq(s2);
 
-async function combineSections(result, sections, isDiff) {
-  if (combineStatus.processing) {
-    combineStatus.abortProcessing = true;
-    do {
-      await new Promise(r => setTimeout(r, 100));
-    } while (combineStatus.processing);
-    combineStatus.abortProcessing = false;
+    const C = this.LCS(seq1, seq2);
+    const diff = this.LCSToDiff(seq1, seq2, C);
+    const seq = this.diffToSeq(diff);
+
+    return this.fromSeq(seq);
   }
 
-  combineStatus.processing = true;
+  // Convert a HTML fragment into a sequence of text or empty tag, with
+  // path information.
+  static toSeq(s) {
+    const seq = [];
+    const name_stack = [];
+    const tag_stack = [];
+    for (const t of this.tokenize(s)) {
+      switch (t.type) {
+        case "o": {
+          name_stack.push(t.name);
+          tag_stack.push(t.tag);
+          break;
+        }
+        case "c": {
+          name_stack.pop();
+          tag_stack.pop();
+          break;
+        }
+        case "t": {
+          seq.push({
+            name_stack: name_stack.slice(),
+            name_path: name_stack.join("/"),
+            tag_stack: tag_stack.slice(),
+            text: t.text,
+          });
+        }
+      }
+    }
+    return seq;
+  }
 
-  let i = 0, len = sections.size;
+  // Tokenize HTML fragment into text, empty tag, opening tag, and closing tag.
+  static *tokenize(s) {
+    const emptyTags = new Set([
+      "area",
+      "base",
+      "br",
+      "col",
+      "embed",
+      "hr",
+      "img",
+      "input",
+      "link",
+      "meta",
+      "param",
+      "source",
+      "track",
+      "wbr",
+    ]);
 
-  const stat = document.getElementById("diff-stat");
+    let i = 0;
+    let start = 0;
+    let prev = "";
+    const len = s.length;
 
-  result.innerText = "";
-  for (let [id, HTML] of sections) {
-    if (len > 1) {
-      i++;
-      stat.textContent = `processing ${i}/${len}`;
-      await new Promise(r => setTimeout(r, 1));
+    while (i < len) {
+      const c = s.charAt(i);
+      if (c == "<") {
+        if (start != i) {
+          yield {
+            type: "t",
+            text: s.slice(start, i),
+          };
+        }
 
-      if (combineStatus.abortProcessing) {
-        break;
+        const re = /[^> \t\r\n]+/g;
+        re.lastIndex = i + 1;
+        const result = re.exec(s);
+
+        const to = s.indexOf(">", i + 1);
+
+        const name = result[0];
+        const tag = s.slice(i, to + 1);
+
+        if (name.startsWith("/")) {
+          if (prev == "o") {
+            yield {
+              type: "t",
+              text: "",
+            };
+          }
+
+          yield {
+            type: "c",
+            name,
+            tag,
+          };
+          prev = "c";
+        } else {
+          if (emptyTags.has(name)) {
+            yield {
+              type: "t",
+              text: tag,
+            };
+            prev = "t";
+          } else {
+            if (prev == "c") {
+              yield {
+                type: "t",
+                text: "",
+              };
+            }
+
+            yield {
+              type: "o",
+              name,
+              tag,
+            };
+            prev = "o";
+          }
+        }
+        i = to + 1;
+        start = i;
+      } else if (c.match(/[ \t\r\n]/)) {
+        const re = /[ \t\r\n]+/g;
+        re.lastIndex = start;
+        const result = re.exec(s);
+        yield {
+          type: "t",
+          text: s.slice(start, i) + result[0],
+        };
+        prev = "t";
+        i += result[0].length;
+        start = i;
+      } else {
+        i++;
       }
     }
 
-    if (isDiff) {
-      HTML = createDiff(HTML[0], HTML[1]);
-    }
-
-    let box = document.getElementById(`excluded-${id}`);
-    if (box) {
-      box.id = "";
-      box.innerHTML = HTML;
-    } else {
-      box = document.createElement("div");
-      box.innerHTML = HTML;
-      result.appendChild(box);
+    if (start < len) {
+      yield {
+        type: "t",
+        text: s.slice(start),
+      };
     }
   }
 
-  stat.textContent = "";
+  // Calculate the matrix for Longest Common Subsequence of 2 sequences.
+  static LCS(seq1, seq2) {
+    const len1 = seq1.length;
+    const len2 = seq2.length;
+    const C = new Array(len1 + 1);
+    for (let i = 0; i < len1 + 1; i++) {
+      C[i] = new Array(len2 + 1);
+    }
+    for (let i = 0; i < len1 + 1; i++) {
+      C[i][0] = 0;
+    }
+    for (let j = 0; j < len2 + 1; j++) {
+      C[0][j] = 0;
+    }
 
-  combineStatus.processing = false;
+    function isDiff(s1, s2) {
+      return s1.text != s2.text || s1.name_path != s2.name_path;
+    }
+
+    for (let i = 1; i < len1 + 1; i++) {
+      for (let j = 1; j < len2 + 1; j++) {
+        if (!isDiff(seq1[i - 1], seq2[j - 1])) {
+          C[i][j] = C[i-1][j-1] + 1;
+        } else {
+          C[i][j] = Math.max(C[i][j-1], C[i-1][j]);
+        }
+      }
+    }
+
+    return C;
+  }
+
+  // Convert 2 sequences and the LCS matrix into a sequence of diff.
+  static LCSToDiff(seq1, seq2, C) {
+    const len1 = seq1.length;
+    const len2 = seq2.length;
+    const diff = [];
+
+    for (let i = len1, j = len2; i > 0 && j > 0;) {
+      if (C[i][j] == C[i - 1][j - 1]) {
+        diff.push({
+          op: "+",
+          item: seq2[j - 1],
+        });
+        j--;
+      } else if (C[i][j] == C[i][j - 1]) {
+        diff.push({
+          op: "+",
+          item: seq2[j - 1],
+        });
+        j--;
+      } else if (C[i][j] == C[i - 1][j]) {
+        diff.push({
+          op: "-",
+          item: seq1[i - 1],
+        });
+        i--;
+      } else {
+        diff.push({
+          op: " ",
+          item: seq1[i - 1],
+        });
+        i--;
+        j--;
+      }
+    }
+
+    diff.reverse();
+
+    return diff;
+  }
+
+  // Convert a sequence of diff into a sequence of text or empty tag, with
+  // path information.
+  static diffToSeq(diff) {
+    const seq = [];
+
+    let prev_name_stack = [];
+    let prev_name_path = "";
+    let prev_tag_stack = [];
+
+    const INS_NAME = `ins`;
+    const INS_TAG = `<ins class="htmldiff-add">`;
+    const DEL_NAME = `del`;
+    const DEL_TAG = `<del class="htmldiff-del">`;
+
+    for (const d of diff) {
+      switch (d.op) {
+        case ' ': {
+          seq.push(d.item);
+          break;
+        }
+        case '+':
+        case '-': {
+          const new_name_stack = [];
+          const new_tag_stack = [];
+          let i = 0;
+          for (; i < d.item.name_stack.length; i++) {
+            if (d.item.name_stack[i] == prev_name_stack[i]) {
+              new_name_stack.push(d.item.name_stack[i]);
+              new_tag_stack.push(d.item.tag_stack[i]);
+            } else {
+              break;
+            }
+          }
+          for (; i < d.item.name_stack.length; i++) {
+            new_name_stack.push(d.item.name_stack[i]);
+            new_tag_stack.push(d.item.tag_stack[i]);
+          }
+
+          switch (d.op) {
+            case '+': {
+              new_name_stack.push(INS_NAME);
+              new_tag_stack.push(INS_TAG);
+              break;
+            }
+            case '-': {
+              new_name_stack.push(DEL_NAME);
+              new_tag_stack.push(DEL_TAG);
+              break;
+            }
+          }
+
+          seq.push({
+            text: d.item.text,
+            name_stack: new_name_stack,
+            name_path: new_name_stack.join("/"),
+            tag_stack: new_tag_stack,
+          });
+          break;
+        }
+      }
+      prev_name_stack = d.item.name_stack;
+      prev_name_path = d.item.name_path;
+      prev_tag_stack = d.item.tag_stack;
+    }
+
+    return seq;
+  }
+
+  // Convert a sequence of text or empty tag, with path information into
+  // HTML fragment.
+  static fromSeq(seq) {
+    const name_stack = [];
+    const tag_stack = [];
+
+    const ts = [];
+
+    for (const s of seq) {
+      let i = 0;
+      for (; i < s.name_stack.length; i++) {
+        if (s.name_stack[i] != name_stack[i]) {
+          break;
+        }
+      }
+      while (i < name_stack.length) {
+        tag_stack.pop();
+        const name = name_stack.pop();
+        ts.push(`</${name}>`);
+      }
+      for (; i < s.name_stack.length; i++) {
+        name_stack.push(s.name_stack[i]);
+        const tag = s.tag_stack[i];
+        tag_stack.push(tag);
+        ts.push(tag);
+      }
+      ts.push(s.text);
+    }
+
+    return ts.join("");
+  }
 }
 
-function createDiff(fromHTML, toHTML) {
-  if (fromHTML !== null && toHTML !== null) {
-    return htmldiff(ListMarkUtils.textify(fromHTML),
-                    ListMarkUtils.textify(toHTML));
+class DateUtils {
+  static toReadable(d) {
+    try {
+      const date = new Date(d);
+      return date.toISOString().replace("T", " ").replace(/\.\d+Z$/, "");
+    } catch (e) {
+      return d;
+    }
   }
-  if (fromHTML !== null) {
-    return htmldiff(ListMarkUtils.textify(fromHTML), "");
-  }
-  if (toHTML !== null) {
-    return htmldiff("", ListMarkUtils.textify(toHTML));
-  }
-  return "";
 }
 
-async function compare() {
-  let result = document.getElementById("result");
-  result.className = "";
+// ECMAScript Language Specification Comparator
+class Comparator {
+  constructor() {
+    // `option` elements for "from" revisions.
+    this.fromOpts = [];
 
-  let secList = [];
-  if (document.getElementById("sec-list").value === "combined") {
-    result.classList.add("combined");
+    // `option` elements for "to" revisions.
+    this.toOpts = [];
 
-    for (let opt of document.getElementById("sec-list").children) {
-      let id = opt.value;
-      if (id === "combined") {
+    // `option` elements for sections.
+    this.secOpts = [];
+
+    // The `sections.json` data for the currently selected "from" revision.
+    this.fromSecData = {};
+
+    // The `sections.json` data for the currently selected "to" revision.
+    this.toSecData = {};
+
+    // `True` if diff calculation is ongoing.
+    this.processing = false;
+
+    // Set to `True` to tell the currently ongoing diff calculation to abort.
+    this.abortProcessing = false;
+
+    this.prFilter = document.getElementById("pr-filter");
+    this.fromRev = document.getElementById("from-rev");
+    this.toRev = document.getElementById("to-rev");
+    this.secList = document.getElementById("sec-list");
+    this.prLink = document.getElementById("pr-link");
+    this.fromLink = document.getElementById("from-history-link");
+    this.toLink = document.getElementById("to-history-link");
+    this.result = document.getElementById("result");
+    this.diffStat = document.getElementById("diff-stat");
+    this.searchHit = document.getElementById("search-hit");
+    this.viewDiff = document.getElementById("view-diff");
+    this.viewFrom = document.getElementById("view-from");
+    this.viewTo = document.getElementById("view-to");
+    this.viewFromTab = document.getElementById("view-from-tab");
+    this.viewToTab = document.getElementById("view-to-tab");
+    this.viewDiffTab = document.getElementById("view-diff-tab");
+  }
+
+  async run() {
+    await this.loadResources();
+
+    this.populateLists();
+    await this.parseQuery();
+    this.updateHistoryLink();
+    this.updateRevInfo();
+    this.updateURL();
+  }
+
+  async loadResources() {
+    [this.revs, this.prs] = await Promise.all([
+      this.getJSON("./history/revs.json"),
+      this.getJSON("./history/prs.json"),
+    ]);
+
+    this.revMap = {};
+    for (const rev of this.revs) {
+      this.revMap[rev.hash] = rev;
+    }
+
+    this.prnums = Object.keys(this.prs)
+      .map(prnum => parseInt(prnum, 10))
+      .sort((a, b) => b - a);
+  }
+
+  async getJSON(path) {
+    const response = await fetch(path);
+    return response.json();
+  }
+
+  populateLists() {
+    this.populatePRs(this.prFilter);
+    this.populateRevs(this.fromRev, this.fromOpts);
+    this.populateRevs(this.toRev, this.toOpts);
+  }
+
+  populatePRs(menu) {
+    while (menu.firstChild) {
+      menu.firstChild.remove();
+    }
+
+    const opt = document.createElement("option");
+    opt.value = "-";
+    opt.textContent = "-";
+    menu.appendChild(opt);
+
+    const maxTitleLength = 80;
+
+    for (const prnum of this.prnums) {
+      const pr = this.prs[prnum];
+      const opt = document.createElement("option");
+      opt.value = prnum;
+      let title = pr.title;
+      if (title.length > maxTitleLength) {
+        title = title.slice(0, maxTitleLength - 1) + "\u2026";
+      }
+      opt.textContent = `#${prnum}: ${title} (by ${pr.login})`;
+      menu.appendChild(opt);
+    }
+
+    menu.value = "-";
+  }
+
+  populateRevs(menu, opts) {
+    while (menu.firstChild) {
+      menu.firstChild.remove();
+    }
+
+    for (const { date, hash } of this.revs) {
+      const opt = document.createElement("option");
+      opt.value = hash;
+      opt.textContent = `${hash} (${DateUtils.toReadable(date)})`;
+      opts.push(opt);
+    }
+
+    for (let prnum of this.prnums) {
+      let pr = this.prs[prnum];
+
+      let opt = document.createElement("option");
+      opt.value = this.prToOptValue(prnum, pr);
+      opt.textContent = `${pr.head} (PR ${prnum} by ${pr.login})`;
+      opts.push(opt);
+    }
+
+    this.populateMenu(menu, opts, () => true);
+  }
+
+  prToOptValue(prnum, pr) {
+    return `PR/${prnum}/${pr.head}`;
+  }
+
+  populateMenu(menu, opts, filter) {
+    while (menu.firstChild) {
+      menu.firstChild.remove();
+    }
+
+    let value = "";
+    let count = 0;
+    for (const opt of opts) {
+      if (!filter(opt)) {
         continue;
       }
 
-      let fromHTML = null, toHTML = null;
-      if (fromSecData.secData && id in fromSecData.secData) {
-        fromHTML = fromSecData.secData[id].html;
-      }
-      if (toSecData.secData && id in toSecData.secData) {
-        toHTML = toSecData.secData[id].html;
-      }
-      secList.push([id, fromHTML, toHTML]);
-    }
-  } else {
-    let id = document.getElementById("sec-list").value;
-
-    let fromHTML = null, toHTML = null;
-    if (fromSecData.secData && id in fromSecData.secData) {
-      fromHTML = fromSecData.secData[id].html;
-    }
-    if (toSecData.secData && id in toSecData.secData) {
-      toHTML = toSecData.secData[id].html;
-    }
-    secList.push([id, fromHTML, toHTML]);
-  }
-
-  if (document.getElementById("view-diff").checked) {
-    document.getElementById("view-from-tab").classList.remove("selected");
-    document.getElementById("view-to-tab").classList.remove("selected");
-    document.getElementById("view-diff-tab").classList.add("selected");
-    result.classList.add("diff-view");
-
-    let sections = new Map();
-    let differ = false;
-    for (let [id, fromHTML, toHTML] of secList) {
-      if (fromHTML !== toHTML) {
-        differ = true;
-      }
-      sections.set(id, [fromHTML, toHTML]);
-    }
-
-    await combineSections(result, sections, true);
-
-    let add = result.getElementsByClassName("htmldiff-add").length;
-    let del = result.getElementsByClassName("htmldiff-del").length;
-
-    let note = "";
-    if (add === 0 && del === 0) {
-      if (differ) {
-        note = " (changes in markup or something)";
-      }
-    }
-
-    document.getElementById("diff-stat").innerText = `+${add} -${del}${note}`;
-  } else {
-    if (document.getElementById("view-from").checked) {
-      document.getElementById("view-from-tab").classList.add("selected");
-      document.getElementById("view-to-tab").classList.remove("selected");
-      document.getElementById("view-diff-tab").classList.remove("selected");
-
-      let sections = new Map();
-      for (let [id, fromHTML, toHTML] of secList) {
-        sections.set(id, fromHTML);
-      }
-      await combineSections(result, sections, false);
-    } else if (document.getElementById("view-to").checked) {
-      document.getElementById("view-from-tab").classList.remove("selected");
-      document.getElementById("view-to-tab").classList.add("selected");
-      document.getElementById("view-diff-tab").classList.remove("selected");
-
-
-      let sections = new Map();
-      for (let [id, fromHTML, toHTML] of secList) {
-        sections.set(id, toHTML);
-      }
-      await combineSections(result, sections, false);
-    } else {
-      result.innerText = "";
-    }
-
-    document.getElementById("diff-stat").innerText = "";
-  }
-}
-
-function updateURL() {
-  let id = document.getElementById("sec-list").value;
-
-  let params = [];
-  let prFilter = document.getElementById("pr-filter");
-  let pr = prFilter.value;
-  if (pr !== "-") {
-    params.push(`pr=${pr}`);
-    if (id != "combined") {
-      params.push(`id=${encodeURIComponent(id)}`);
-    }
-  } else {
-    params.push(`from=${hashOf("from")}`);
-    params.push(`to=${hashOf("to")}`);
-    params.push(`id=${encodeURIComponent(id)}`);
-  }
-
-  window.location.hash = `#${params.join("&")}`;
-}
-
-let optsMap = new Map();
-function populateMenu(menu, opts, filter) {
-  while (menu.firstChild) {
-    menu.firstChild.remove();
-  }
-
-  let value = "";
-  let count = 0;
-  for (let opt of opts) {
-    if (filter(opt)) {
       if (!value) {
         value = opt.value;
       }
@@ -643,113 +618,493 @@ function populateMenu(menu, opts, filter) {
       opt.disabled = false;
       count++;
     }
+
+    menu.value = value;
+    return count;
   }
 
-  menu.value = value;
-  return count;
-}
-
-async function filterSectionList(doCompare=true) {
-  let menu = document.getElementById("sec-list");
-  let count = populateMenu(menu, secOpts, opt => {
-    if (opt.className === "same") {
-      return false;
+  async parseQuery() {
+    const query = window.location.hash.slice(1);
+    const items = query.split("&");
+    const queryParams = {};
+    for (const item of items) {
+      const [name, value] = item.split("=");
+      try {
+        queryParams[name] = decodeURIComponent(value);
+      } catch (e) {
+      }
     }
 
-    return true;
-  });
+    if ("from" in queryParams && "to" in queryParams) {
+      const from = queryParams.from;
+      const to = queryParams.to;
 
-  let hit = document.getElementById("search-hit");
-  hit.innerText = `${count - 1} section(s) found`;
+      if (from in this.revMap) {
+        this.fromRev.value = from;
+      }
+      if (to in this.revMap) {
+        this.toRev.value = to;
+      }
+    } else if ("pr" in queryParams) {
+      const prnum = queryParams.pr;
+      if (prnum in this.prs) {
+        const pr = this.prs[prnum];
 
-  if (doCompare) {
-    await compare();
-    updateURL();
+        this.fromRev.value = pr.base;
+        this.toRev.value = pr.head;
+
+        this.prFilter.value = prnum;
+        this.selectPRRevs(prnum);
+        this.updatePRLink(prnum);
+      }
+    }
+
+    this.updateHistoryLink();
+    this.updateRevInfo();
+
+    await this.updateSectionList();
+
+    if ("id" in queryParams) {
+      const id = queryParams.id;
+      this.secList.value = id;
+    }
+
+    await this.compare();
+  }
+
+  selectPRRevs(prnum) {
+    if (prnum in this.prs) {
+      const pr = this.prs[prnum];
+      this.fromRev.value = pr.base;
+      this.toRev.value = this.prToOptValue(prnum, pr);
+    }
+  }
+
+  updatePRLink(prnum) {
+    if (prnum in this.prs) {
+      const pr = this.prs[prnum];
+      this.prLink.href = `${REPO_URL}/pull/${prnum}`;
+      this.prLink.textContent = `Open PR ${prnum}`;
+    } else {
+      this.prLink.textContent = "";
+    }
+  }
+
+  updateHistoryLink() {
+    this.fromLink.href = `./history/${this.fromRev.value}/index.html`;
+    this.toLink.href = `./history/${this.toRev.value}/index.html`;
+  }
+
+  updateRevInfo() {
+    this.updateRevInfoFor("from", this.fromRev.value);
+    this.updateRevInfoFor("to", this.toRev.value);
+  }
+
+  updateRevInfoFor(id, name) {
+    const subjectLink = document.getElementById(`${id}-rev-subject-link`);
+    const prNode = document.getElementById(`${id}-rev-pr`);
+    const author = document.getElementById(`${id}-rev-author`);
+    const date = document.getElementById(`${id}-rev-date`);
+
+    const m = name.match(/PR\/(\d+)\/(.+)/);
+    if (m) {
+      const prnum = m[1];
+      const hash = m[2];
+      const pr = this.prs[prnum];
+
+      subjectLink.textContent = pr.title;
+      subjectLink.href = `${REPO_URL}/pull/${prnum}`;
+      prNode.textContent = `#${prnum} `;
+      author.textContent = `by ${pr.login}`;
+      date.textContent = `(${DateUtils.toReadable(pr.updated_at)})`;
+    } else if (name in this.revMap) {
+      const rev = this.revMap[name];
+
+      subjectLink.textContent = rev.subject;
+      subjectLink.href = `${REPO_URL}/commit/${rev.hash}`;
+      prNode.textContent = "";
+      author.textContent = `by ${rev.author}`;
+      date.textContent = `(${DateUtils.toReadable(rev.date)})`;
+    } else {
+      subjectLink.textContent = "-";
+      subjectLink.removeAttribute("href");
+      prNode.textContent = "";
+      author.textContent = "-";
+      date.textContent = "";
+    }
+  }
+
+  async updateSectionList() {
+    this.result.textContent = "";
+    this.diffStat.textContent = "";
+
+    this.diffStat.textContent = "Loading...";
+    [this.fromSecData, this.toSecData] = await Promise.all([
+      this.getSecData("from"),
+      this.getSecData("to")
+    ]);
+    this.diffStat.textContent = "";
+
+    this.searchHit.textContent = "";
+
+    while (this.secList.firstChild) {
+      this.secList.firstChild.remove();
+    }
+
+    const fromSecSet = new Set(this.fromSecData.secList);
+    const toSecSet = new Set(this.toSecData.secList);
+    const secSet = new Set(this.fromSecData.secList.concat(this.toSecData.secList));
+
+    this.secOpts = [];
+
+    const opt = document.createElement("option");
+    opt.value = "combined";
+    opt.textContent = "Combined view";
+    this.secOpts.push(opt);
+
+    for (const secId of Array.from(secSet).sort((a, b) => {
+      const aTitle = this.getComparableTitle(a);
+      const bTitle = this.getComparableTitle(b);
+      if (aTitle === bTitle) {
+        return 0;
+      }
+      return aTitle < bTitle ? -1 : 1;
+    })) {
+      const opt = document.createElement("option");
+      opt.value = secId;
+
+      let stat = "same";
+      let mark = "\u00A0\u00A0";
+
+      if (fromSecSet.has(secId)) {
+        if (toSecSet.has(secId)) {
+          if (this.isChanged(secId)) {
+            stat = "mod";
+            mark = "-+";
+          }
+        } else {
+          stat = "del";
+          mark = "-\u00A0";
+        }
+      } else {
+        stat = "add";
+        mark = "+\u00A0";
+      }
+
+      const title = this.getSectionTitle(secId);
+
+      if (title) {
+        opt.textContent = `${mark} ${title.slice(0, 100)}`;
+      } else {
+        opt.textContent = `${mark} ${secId}`;
+      }
+      opt.className = stat;
+
+      this.secOpts.push(opt);
+    }
+
+    await this.filterSectionList();
+  }
+
+  async getSecData(id) {
+    const hash = this.hashOf(id);
+    return this.getJSON(`./history/${hash}/sections.json`);
+  }
+
+  // Returns hash for selected item in "from" or "to" list.
+  hashOf(id) {
+    return document.getElementById(`${id}-rev`).value;
+  }
+
+  // Returns a string representation of section number+title that is comparable
+  // with comparison operator.
+  //
+  // `secId` is the id of the section's header element.
+  //
+  // Each section number component is replaced with single code unit with the
+  // number.
+  getComparableTitle(secId) {
+    const t = this.getSectionTitle(secId);
+    return t.replace(/([0-9]+)/g, matched => String.fromCharCode(matched));
+  }
+
+  // Returns section number + title for the section.
+  //
+  // `secId` is the id of the section's header element.
+  getSectionTitle(secId) {
+    if (secId in this.fromSecData.secData) {
+      return `${this.fromSecData.secData[secId].num} ${this.fromSecData.secData[secId].title}`;
+    }
+
+    if (secId in this.toSecData.secData) {
+      return `${this.toSecData.secData[secId].num} ${this.toSecData.secData[secId].title}`;
+    }
+
+    return "";
+  }
+
+  // Returns whether the section is changed, added, or removed between from/to
+  // revisions.
+  isChanged(secId) {
+    if (!(secId in this.fromSecData.secData) || !(secId in this.toSecData.secData)) {
+      return true;
+    }
+
+    const fromHTML = this.fromSecData.secData[secId].html;
+    const toHTML = this.toSecData.secData[secId].html;
+
+    return this.filterAttributeForComparison(fromHTML) !== this.filterAttributeForComparison(toHTML);
+  }
+
+  // Filter attributes that should be ignored when comparing 2 revisions.
+  filterAttributeForComparison(s) {
+    return s
+      .replace(/ aoid="[^\"]+"/g, "")
+      .replace(/ href="[^\"]+"/g, "");
+  }
+
+  async filterSectionList() {
+    const count = this.populateMenu(this.secList, this.secOpts, opt => {
+      if (opt.className === "same") {
+        return false;
+      }
+
+      return true;
+    });
+
+    this.searchHit.textContent = `${count - 1} section(s) found`;
+  }
+
+  updateURL() {
+    const id = this.secList.value;
+
+    const params = [];
+    const prnum = this.prFilter.value;
+    if (prnum !== "-") {
+      params.push(`pr=${prnum}`);
+      if (id != "combined") {
+        params.push(`id=${encodeURIComponent(id)}`);
+      }
+    } else {
+      params.push(`from=${this.hashOf("from")}`);
+      params.push(`to=${this.hashOf("to")}`);
+      params.push(`id=${encodeURIComponent(id)}`);
+    }
+
+    window.location.hash = `#${params.join("&")}`;
+  }
+
+  async compare() {
+    const secList = [];
+    if (document.getElementById("sec-list").value === "combined") {
+      this.result.classList.add("combined");
+
+      for (const opt of document.getElementById("sec-list").children) {
+        const id = opt.value;
+        if (id === "combined") {
+          continue;
+        }
+
+        const fromHTML = this.getSectionHTML(this.fromSecData, id);
+        const toHTML = this.getSectionHTML(this.toSecData, id);
+        secList.push([id, fromHTML, toHTML]);
+      }
+    } else {
+      this.result.classList.remove("combined");
+      const id = this.secList.value;
+
+      const fromHTML = this.getSectionHTML(this.fromSecData, id);
+      const toHTML = this.getSectionHTML(this.toSecData, id);
+      secList.push([id, fromHTML, toHTML]);
+    }
+
+    if (this.viewDiff.checked) {
+      this.result.classList.add("diff-view");
+
+      this.viewFromTab.classList.remove("selected");
+      this.viewToTab.classList.remove("selected");
+      this.viewDiffTab.classList.add("selected");
+
+      const sections = new Map();
+      let differ = false;
+      for (const [id, fromHTML, toHTML] of secList) {
+        if (fromHTML !== toHTML) {
+          differ = true;
+        }
+        sections.set(id, [fromHTML, toHTML]);
+      }
+
+      await this.combineSections(this.result, sections, true);
+
+      const add = this.result.getElementsByClassName("htmldiff-add").length;
+      const del = this.result.getElementsByClassName("htmldiff-del").length;
+
+      let note = "";
+      if (add === 0 && del === 0 && differ) {
+        note = " (changes in markup or something)";
+      }
+
+      this.diffStat.textContent = `+${add} -${del}${note}`;
+    } else {
+      this.result.classList.remove("diff-view");
+
+      if (this.viewFrom.checked) {
+        this.viewFromTab.classList.add("selected");
+        this.viewToTab.classList.remove("selected");
+        this.viewDiffTab.classList.remove("selected");
+
+        const sections = new Map();
+        for (const [id, fromHTML, toHTML] of secList) {
+          sections.set(id, fromHTML);
+        }
+
+        await this.combineSections(this.result, sections, false);
+      } else if (this.viewTo.checked) {
+        this.viewFromTab.classList.remove("selected");
+        this.viewToTab.classList.add("selected");
+        this.viewDiffTab.classList.remove("selected");
+
+        const sections = new Map();
+        for (const [id, fromHTML, toHTML] of secList) {
+          sections.set(id, toHTML);
+        }
+
+        await this.combineSections(this.result, sections, false);
+      } else {
+        this.result.textContent = "";
+      }
+
+      this.diffStat.textContent = "";
+    }
+  }
+
+  getSectionHTML(data, secId) {
+    if (data.secData && secId in data.secData) {
+      return data.secData[secId].html;
+    }
+    return null;
+  }
+
+  async combineSections(result, sections, isDiff) {
+    if (this.processing) {
+      this.abortProcessing = true;
+      do {
+        await new Promise(r => setTimeout(r, 100));
+      } while (this.processing);
+      this.abortProcessing = false;
+    }
+
+    this.processing = true;
+
+    let i = 0;
+    const len = sections.size;
+
+    result.textContent = "";
+    for (let [id, HTML] of sections) {
+      if (len > 1) {
+        i++;
+        this.diffStat.textContent = `processing ${i}/${len}`;
+        await new Promise(r => setTimeout(r, 1));
+
+        if (this.abortProcessing) {
+          break;
+        }
+      }
+
+      if (isDiff) {
+        HTML = this.createDiff(HTML[0], HTML[1]);
+      }
+
+      const box = document.getElementById(`excluded-${id}`);
+      if (box) {
+        box.id = "";
+        box.innerHTML = HTML;
+      } else {
+        const box = document.createElement("div");
+        box.innerHTML = HTML;
+        result.appendChild(box);
+      }
+    }
+
+    this.diffStat.textContent = "";
+
+    this.processing = false;
+  }
+
+  createDiff(fromHTML, toHTML) {
+    if (fromHTML !== null && toHTML !== null) {
+      return HTMLDiff.diff(ListMarkUtils.textify(fromHTML),
+                           ListMarkUtils.textify(toHTML));
+    }
+    if (fromHTML !== null) {
+      return HTMLDiff.diff(ListMarkUtils.textify(fromHTML), "");
+    }
+    if (toHTML !== null) {
+      return HTMLDiff.diff("", ListMarkUtils.textify(toHTML));
+    }
+    return "";
+  }
+
+  async onPRFilterChange() {
+    const prnum = this.prFilter.value;
+    this.selectPRRevs(prnum);
+    this.updatePRLink(prnum);
+    this.updateHistoryLink();
+    this.updateRevInfo();
+    await this.updateSectionList();
+    await this.compare();
+    this.updateURL();
+  }
+
+  async onFromRevChange() {
+    this.updateHistoryLink();
+    this.updateRevInfo();
+    await this.updateSectionList();
+    await this.compare();
+    this.updateURL();
+  }
+
+  async onToRevChange() {
+    this.updateHistoryLink();
+    this.updateRevInfo();
+    await this.updateSectionList();
+    await this.compare();
+    this.updateURL();
+  }
+
+  async onSecListChange() {
+    await this.compare();
+    this.updateURL();
+  }
+
+  async onTabChange() {
+    await this.compare();
   }
 }
 
-function filterAttribute(s) {
-  return s
-    .replace(/ aoid="[^\"]+"/g, "")
-    .replace(/ href="[^\"]+"/g, "")
-  ;
+let comparator;
+
+function bodyOnLoad() {
+  comparator = new Comparator();
+  comparator.run().catch(e => console.error(e));
 }
 
-function isChanged(id) {
-  if (!(id in fromSecData.secData) || !(id in toSecData.secData)) {
-    return true;
-  }
-
-  let fromHTML = fromSecData.secData[id].html;
-  let toHTML = toSecData.secData[id].html;
-
-  return filterAttribute(fromHTML) !== filterAttribute(toHTML);
+function onPRFilterChange() {
+  comparator.onPRFilterChange().catch(e => console.error(e));
 }
 
-function updateHistoryLinkAndInfo() {
-  let fromRev = document.getElementById("from-rev");
-  let toRev = document.getElementById("to-rev");
-
-  let fromLink = document.getElementById("from-history-link");
-  let toLink = document.getElementById("to-history-link");
-
-  fromLink.href = `./history/${fromRev.value}/index.html`;
-  toLink.href = `./history/${toRev.value}/index.html`;
-
-  updateRevInfo("from", fromRev.value);
-  updateRevInfo("to", toRev.value);
+function onFromRevChange() {
+  comparator.onFromRevChange().catch(e => console.error(e));
 }
 
-function updateRevInfo(id, name) {
-  const subjectLink = document.getElementById(`${id}-rev-subject-link`);
-  const prNode = document.getElementById(`${id}-rev-pr`);
-  const author = document.getElementById(`${id}-rev-author`);
-  const date = document.getElementById(`${id}-rev-date`);
-
-  const m = name.match(/PR\/(\d+)\/(.+)/);
-  if (m) {
-    const prnum = m[1];
-    const hash = m[2];
-    const pr = prs[prnum];
-
-    subjectLink.textContent = pr.title;
-    subjectLink.href = `https://github.com/tc39/ecma262/pull/${prnum}`;
-    prNode.textContent = `#${prnum} `;
-    author.textContent = `by ${pr.login}`;
-    date.textContent = `(${toReadableDate(pr.updated_at)})`;
-  } else if (name in revMap) {
-    const rev = revMap[name];
-
-    subjectLink.textContent = rev.subject;
-    subjectLink.href = `https://github.com/tc39/ecma262/commit/${rev.hash}`;
-    prNode.textContent = "";
-    author.textContent = `by ${rev.author}`;
-    date.textContent = `(${toReadableDate(rev.date)})`;
-  } else {
-    subjectLink.textContent = "-";
-    subjectLink.removeAttribute("href");
-    prNode.textContent = "";
-    author.textContent = "-";
-    date.textContent = "";
-  }
+function onToRevChange() {
+  comparator.onToRevChange().catch(e => console.error(e));
 }
 
-async function onPRFilterChange() {
-  filterRev("both");
-  updateSectionList();
-  await compare();
-  updateURL();
+function onSecListChange() {
+  comparator.onSecListChange().catch(e => console.error(e));
 }
 
-async function onFromRevChange() {
-  updateHistoryLinkAndInfo();
-  updateSectionList();
-  await compare();
-  updateURL();
-}
-async function onToRevChange() {
-  updateHistoryLinkAndInfo();
-  updateSectionList();
-  await compare();
-  updateURL();
+function onTabChange() {
+  comparator.onTabChange().catch(e => console.error(e));
 }

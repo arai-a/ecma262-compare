@@ -22,8 +22,6 @@ This branch contains 2 things:
   * `js/compare.js`
   * `style/compare.css`
   * `style/base.css`
-  * `js/htmldiff.js`  
-    Calculates diff between 2 HTML codelet
   * `style/ecmarkup.css`  
     The copy of `ecmarkup.css` file from recent spec
 * Rendered revisions and PRs history index

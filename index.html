@@ -5,8 +5,7 @@
 <link href="./style/ecmarkup.css" rel="stylesheet">
 <link href="./style/base.css" rel="stylesheet">
 <link href="./style/compare.css" rel="stylesheet">
-<script type="text/javascript" src="./js/htmldiff.js"></script>
-<script type="text/javascript" src="./js/compare.js"></script>
+<script type="text/javascript" src="./js/compare.js?20200215a"></script>
 </head>
 <body onload="bodyOnLoad()">
 <div id="container">
@@ -54,14 +53,14 @@
       </div>
       <label class="filter-label" for="sec-list">Section(s)</label>
       <div class="filter-container">
-        <select id="sec-list" onchange="compare();updateURL()"></select>
+        <select id="sec-list" onchange="onSecListChange()"></select>
         <span id="search-hit"></span>
       </div>
     </div>
     <div id="tabs">
-      <label id="view-from-tab"><input id="view-from" type="radio" name="view" value="from" onchange="compare()"> From</label>
-      <label id="view-to-tab"><input id="view-to" type="radio" name="view" value="to" onchange="compare()"> To</label>
-      <label id="view-diff-tab"><input id="view-diff" type="radio" name="view" value="diff" onchange="compare()"> Diff</label>
+      <label id="view-from-tab"><input id="view-from" type="radio" name="view" value="from" onchange="onTabChange()"> From</label>
+      <label id="view-to-tab"><input id="view-to" type="radio" name="view" value="to" onchange="onTabChange()"> To</label>
+      <label id="view-diff-tab" class="selected"><input id="view-diff" type="radio" name="view" value="diff" onchange="onTabChange()" checked> Diff</label>
       <span id="diff-stat"></span>
     </div>
   </header>
