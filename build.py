@@ -27,12 +27,12 @@ def clone_repo_if_necessary():
     if not os.path.exists('./ecma262'):
         subprocess.call(['git', 'clone', REPO_URL])
 
-def generate_html(sha, subdir):
+def generate_html(sha, subdir, skip_cache):
     basedir = './history/{}'.format(subdir)
     revdir = '{}{}'.format(basedir, sha)
 
     result = '{}/index.html'.format(revdir, sha)
-    if os.path.exists(result):
+    if not skip_cache and os.path.exists(result):
         print('@@@@ skip {} (cached)'.format(result))
         sys.stdout.flush()
         return False
@@ -76,21 +76,25 @@ def generate_html(sha, subdir):
     distutils.dir_util.copy_tree(fromdir, revdir)
     return True
 
-def update_rev(sha):
-    result1 = generate_html(sha, '')
-    result2 = generate_json(sha, '')
+def update_rev(sha, skip_cache):
+    result1 = generate_html(sha, '', skip_cache)
+    result2 = generate_json(sha, '', skip_cache)
     return result1 or result2
 
-def update_master(count=None):
+def update_master(target_rev, count, skip_cache):
+    if target_rev == 'all':
+        revset = ['{}^..{}'.format(UPDATE_FIRST_REV, 'origin/master')]
+    else:
+        revset = ['-1', target_rev]
+
     ret = subprocess.call(['git',
                            'fetch', 'origin', 'master'],
                           cwd='./ecma262')
     if ret:
         sys.exit(ret)
 
-    p = subprocess.Popen(['git',
-                          'log', '{}^..{}'.format(UPDATE_FIRST_REV, 'origin/master'),
-                          '--pretty=%H'],
+    p = subprocess.Popen(['git', 'log'] + revset
+                         + ['--pretty=%H'],
                          cwd='./ecma262',
                          stdout=subprocess.PIPE,
                          stderr=subprocess.STDOUT)
@@ -102,7 +106,7 @@ def update_master(count=None):
     for sha in reversed(shaes):
         print('@@@@ {}/{}'.format(i, len(shaes)))
         sys.stdout.flush()
-        result = update_rev(sha)
+        result = update_rev(sha, skip_cache)
         if count is not None:
             if result:
                 count -= 1
@@ -112,8 +116,7 @@ def update_master(count=None):
     p.wait()
 
 def get_revs(revset):
-    p = subprocess.Popen(['git',
-                          'log'] + revset
+    p = subprocess.Popen(['git', 'log'] + revset
                          + ['--pretty=hash:%H%nparents:%P%nauthor:%an%ndate:%cI%nadate:%aI%nsubject:%s%n=='],
                          cwd='./ecma262',
                          stdout=subprocess.PIPE,
@@ -243,8 +246,8 @@ def is_pr_cached(pr, info):
 
     return False
 
-def get_pr_with(pr, info, url):
-    if is_pr_cached(pr, info):
+def get_pr_with(pr, info, url, skip_cache):
+    if not skip_cache and is_pr_cached(pr, info):
         print('@@@@ skip PR {} (cached)'.format(pr))
         sys.stdout.flush()
         return False
@@ -263,8 +266,8 @@ def get_pr_with(pr, info, url):
     if ret:
         sys.exit(ret)
 
-    generate_html(info['head'], 'PR/{}/'.format(pr))
-    generate_json(info['head'], 'PR/{}/'.format(pr))
+    generate_html(info['head'], 'PR/{}/'.format(pr), skip_cache)
+    generate_json(info['head'], 'PR/{}/'.format(pr), skip_cache)
 
     info['revs'] = get_revs(['origin/master..{}'.format(info['head'])])
     parents = info['revs'][-1]['parents']
@@ -275,9 +278,9 @@ def get_pr_with(pr, info, url):
     with open(info_path, 'w') as out_file:
         out_file.write(txt)
 
-    update_rev(info['base'])
+    update_rev(info['base'], skip_cache)
     for parent in parents.split(' '):
-        update_rev(parent)
+        update_rev(parent, skip_cache)
 
     return True
 
@@ -293,13 +296,13 @@ def pr_info(data):
 
     return info
 
-def get_pr(pr):
+def get_pr(pr, skip_cache):
     data = github_api('https://api.github.com/repos/tc39/ecma262/pulls/{}'.format(pr))
 
     url = data['head']['repo']['clone_url']
     info = pr_info(data)
 
-    return get_pr_with(pr, info, url)
+    return get_pr_with(pr, info, url, skip_cache)
 
 def get_raw_prs():
     data = github_api_pages('https://api.github.com/repos/tc39/ecma262/pulls')
@@ -311,7 +314,7 @@ def get_raw_prs():
 
     return raw_prs
 
-def get_all_pr(count=None):
+def get_all_pr(count, skip_cache):
     raw_prs = get_raw_prs()
 
     result_any = False
@@ -324,7 +327,7 @@ def get_all_pr(count=None):
 
         print('@@@@ {}/{} PR {}'.format(i, len(raw_prs), prnum))
         sys.stdout.flush()
-        result = get_pr_with(prnum, info, url)
+        result = get_pr_with(prnum, info, url, skip_cache)
         if result:
             result_any = True
         if count is not None:
@@ -422,11 +425,11 @@ def remove_emu_ids(dom):
         if 'id' in node.attrib:
             node.attrib.pop('id')
 
-def extract_sections(filename):
+def extract_sections(filename, skip_cache):
     in_filename = '{}/index.html'.format(filename)
     out_filename = '{}/sections.json'.format(filename)
 
-    if os.path.exists(out_filename):
+    if not skip_cache and os.path.exists(out_filename):
         print('@@@@ skip {} (cached)'.format(out_filename))
         sys.stdout.flush()
         return False
@@ -450,9 +453,9 @@ def extract_sections(filename):
             out_file.write(txt)
     return True
 
-def generate_json(sha, subdir):
+def generate_json(sha, subdir, skip_cache):
     basedir = './history/{}'.format(subdir)
-    return extract_sections('{}{}'.format(basedir, sha))
+    return extract_sections('{}{}'.format(basedir, sha), skip_cache)
 
 def is_rev_cached(sha):
     with open('./history/revs.json', 'r') as in_file:
@@ -509,10 +512,14 @@ def bootstrap():
 parser = argparse.ArgumentParser(description='Update ecma262 history data')
 
 parser.add_argument('-t', '--token', help='GitHub personal access token')
+parser.add_argument('--skip-cache', action='store_true', help='Skip cache')
 subparsers = parser.add_subparsers(dest='command')
 subparsers.add_parser('clone', help='Clone ecma262 repository')
-parser_update = subparsers.add_parser('update', help='Update all revisions')
-parser_update.add_argument('-c', type=int, help='Maximum number of revisions to handle')
+subparser_update = subparsers.add_parser('update', help='Update all revisions')
+subparser_update.add_argument('-c', type=int, help='Maximum number of revisions to handle')
+subparser_rev = subparsers.add_parser('rev', help='Update single revision')
+subparser_rev.add_argument('-c', type=int, help='Maximum number of revisions to handle for all')
+subparser_rev.add_argument('REV', help='revision hash, or "all"')
 subparsers.add_parser('revs', help='Update revs.json')
 parser_pr = subparsers.add_parser('pr', help='Update PR')
 parser_pr.add_argument('PR_NUMBER', help='PR number, or "all"')
@@ -527,18 +534,21 @@ if args.token:
 if args.command == 'clone':
     clone_repo_if_necessary()
 elif args.command == 'update':
-    update_master(args.c)
+    update_master('all', args.c, args.skip_cache)
+    update_revs()
+elif args.command == 'rev':
+    update_master(args.REV, args.c, args.skip_cache)
     update_revs()
 elif args.command == 'revs':
     update_revs()
 elif args.command == 'pr':
     if args.PR_NUMBER == 'all':
-        result = get_all_pr(args.c)
+        result = get_all_pr(args.c, args.skip_cache)
         if result:
             update_prs()
             update_revs()
     else:
-        result = get_pr(args.PR_NUMBER)
+        result = get_pr(args.PR_NUMBER, args.skip_cache)
         if result:
             update_prs()
             update_revs()
