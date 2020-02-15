@@ -332,20 +332,20 @@ class HTMLDiff {
     const len2 = seq2.length;
     const diff = [];
 
-    for (let i = len1, j = len2; i > 0 && j > 0;) {
-      if (C[i][j] == C[i - 1][j - 1]) {
+    for (let i = len1, j = len2; i > 0 || j > 0;) {
+      if (i > 0 && j > 0 && C[i][j] == C[i - 1][j - 1]) {
         diff.push({
           op: "+",
           item: seq2[j - 1],
         });
         j--;
-      } else if (C[i][j] == C[i][j - 1]) {
+      } else if (j > 0 && C[i][j] == C[i][j - 1]) {
         diff.push({
           op: "+",
           item: seq2[j - 1],
         });
         j--;
-      } else if (C[i][j] == C[i - 1][j]) {
+      } else if (i > 0 && C[i][j] == C[i - 1][j]) {
         diff.push({
           op: "-",
           item: seq1[i - 1],
