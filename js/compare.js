@@ -104,10 +104,7 @@ class ListMarkUtils {
     return this.decimalToText(i + 1);
   }
 
-  static textify(innerHTML) {
-    const box = document.getElementById("list-mark-utils-box");
-    box.innerHTML = innerHTML;
-
+  static textify(box) {
     for (const ol of box.getElementsByTagName("ol")) {
       const depth = this.getListDepth(ol);
 
@@ -123,8 +120,6 @@ class ListMarkUtils {
         i++;
       }
     }
-
-    return box.innerHTML;
   }
 }
 
@@ -173,12 +168,6 @@ class HTMLDiff {
         case "t": {
           let text = t.text;
           const path = name_id_stack.join("/");
-
-          if (path.includes("#excluded-")) {
-            // Do not generate text inside excluded section while diff.
-            // The content will be replaced in combineSections.
-            text = "";
-          }
 
           seq.push({
             name_stack: name_stack.slice(),
@@ -538,6 +527,7 @@ class Comparator {
     this.viewFromTab = document.getElementById("view-from-tab");
     this.viewToTab = document.getElementById("view-to-tab");
     this.viewDiffTab = document.getElementById("view-diff-tab");
+    this.workBox = document.getElementById("work-box");
   }
 
   async run() {
@@ -1072,17 +1062,40 @@ class Comparator {
   }
 
   createDiff(fromHTML, toHTML) {
-    if (fromHTML !== null && toHTML !== null) {
-      return HTMLDiff.diff(ListMarkUtils.textify(fromHTML),
-                           ListMarkUtils.textify(toHTML));
+    const diffMode = fromHTML !== null && toHTML !== null;
+
+    if (fromHTML !== null) {
+      this.workBox.innerHTML = fromHTML;
+      ListMarkUtils.textify(this.workBox);
+      this.removeExcludedContent();
+      fromHTML = this.workBox.innerHTML;
+    }
+
+    if (toHTML !== null) {
+      this.workBox.innerHTML = toHTML;
+      ListMarkUtils.textify(this.workBox);
+      this.removeExcludedContent();
+      toHTML = this.workBox.innerHTML;
+    }
+
+    if (diffMode) {
+      return HTMLDiff.diff(fromHTML, toHTML);
     }
     if (fromHTML !== null) {
-      return HTMLDiff.diff(ListMarkUtils.textify(fromHTML), "");
+      return HTMLDiff.diff(fromHTML, "");
     }
     if (toHTML !== null) {
-      return HTMLDiff.diff("", ListMarkUtils.textify(toHTML));
+      return HTMLDiff.diff("", toHTML);
     }
     return "";
+  }
+
+  removeExcludedContent() {
+    for (const div of [...this.workBox.getElementsByTagName("div")]) {
+      if (div.id && div.id.startsWith("excluded-")) {
+        div.textContent = "";
+      }
+    }
   }
 
   // Replace links into the same document to links into rendered page.
