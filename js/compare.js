@@ -897,10 +897,10 @@ class Comparator {
 
   async compare() {
     const secList = [];
-    if (document.getElementById("sec-list").value === "combined") {
+    if (this.secList.value === "combined") {
       this.result.classList.add("combined");
 
-      for (const opt of document.getElementById("sec-list").children) {
+      for (const opt of this.secList.children) {
         const id = opt.value;
         if (id === "combined") {
           continue;
@@ -935,7 +935,7 @@ class Comparator {
         sections.set(id, [fromHTML, toHTML]);
       }
 
-      await this.combineSections(this.result, sections, true);
+      await this.combineSections(sections, "diff");
 
       const add = this.result.getElementsByClassName("htmldiff-add").length;
       const del = this.result.getElementsByClassName("htmldiff-del").length;
@@ -959,7 +959,7 @@ class Comparator {
           sections.set(id, fromHTML);
         }
 
-        await this.combineSections(this.result, sections, false);
+        await this.combineSections(sections, "from");
       } else if (this.viewTo.checked) {
         this.viewFromTab.classList.remove("selected");
         this.viewToTab.classList.add("selected");
@@ -970,7 +970,7 @@ class Comparator {
           sections.set(id, toHTML);
         }
 
-        await this.combineSections(this.result, sections, false);
+        await this.combineSections(sections, "to");
       } else {
         this.result.textContent = "";
       }
@@ -986,7 +986,7 @@ class Comparator {
     return null;
   }
 
-  async combineSections(result, sections, isDiff) {
+  async combineSections(sections, type) {
     if (this.processing) {
       this.abortProcessing = true;
       do {
@@ -1000,19 +1000,21 @@ class Comparator {
     let i = 0;
     const len = sections.size;
 
-    result.textContent = "";
+    this.result.textContent = "";
     for (let [id, HTML] of sections) {
       if (len > 1) {
         i++;
-        this.diffStat.textContent = `processing ${i}/${len}`;
-        await new Promise(r => setTimeout(r, 1));
+        if (i % 7 == 0) {
+          this.diffStat.textContent = `generating sections... ${i}/${len}`;
+          await new Promise(r => setTimeout(r, 1));
 
-        if (this.abortProcessing) {
-          break;
+          if (this.abortProcessing) {
+            break;
+          }
         }
       }
 
-      if (isDiff) {
+      if (type == "diff") {
         HTML = this.createDiff(HTML[0], HTML[1]);
       }
 
@@ -1023,8 +1025,12 @@ class Comparator {
       } else {
         const box = document.createElement("div");
         box.innerHTML = HTML;
-        result.appendChild(box);
+        this.result.appendChild(box);
       }
+    }
+
+    if (!this.abortProcessing) {
+      await this.fixupLink(type);
     }
 
     this.diffStat.textContent = "";
@@ -1044,6 +1050,46 @@ class Comparator {
       return HTMLDiff.diff("", ListMarkUtils.textify(toHTML));
     }
     return "";
+  }
+
+  // Replace links into the same document to links into rendered page.
+  async fixupLink(type) {
+    const fromRenderedPage = `./history/${this.fromRev.value}/index.html`;
+    const toRenderedPage = `./history/${this.toRev.value}/index.html`;
+
+    const links = this.result.getElementsByTagName("a");
+
+    let i = 0;
+    const len = links.length;
+
+    for (const link of links) {
+      if (len > 1) {
+        i++;
+        if (i % 97 == 0) {
+          this.diffStat.textContent = `fixing links up... ${i}/${len}`;
+          await new Promise(r => setTimeout(r, 1));
+
+          if (this.abortProcessing) {
+            break;
+          }
+        }
+      }
+
+      if (!link.hasAttribute("href")) {
+        continue;
+      }
+      const href = link.getAttribute("href");
+      if (!href.startsWith("#")) {
+        continue;
+      }
+      if (type == "from") {
+        link.href = `${fromRenderedPage}${href}`;
+      } else if (type == "to") {
+        link.href = `${toRenderedPage}${href}`;
+      } else {
+        link.href = `${toRenderedPage}${href}`;
+      }
+    }
   }
 
   async onPRFilterChange() {
