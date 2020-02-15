@@ -149,23 +149,32 @@ class HTMLDiff {
   static toSeq(s) {
     const seq = [];
     const name_stack = [];
+    const name_id_stack = [];
     const tag_stack = [];
     for (const t of this.tokenize(s)) {
       switch (t.type) {
         case "o": {
           name_stack.push(t.name);
+          if (t.id) {
+          console.log(t.name + "#" + t.id);
+            name_id_stack.push(t.name + "#" + t.id);
+          } else {
+            name_id_stack.push(t.name);
+          }
           tag_stack.push(t.tag);
           break;
         }
         case "c": {
           name_stack.pop();
+          name_id_stack.pop();
           tag_stack.pop();
           break;
         }
         case "t": {
           seq.push({
             name_stack: name_stack.slice(),
-            name_path: name_stack.join("/"),
+            name_id_stack: name_id_stack.slice(),
+            path: name_id_stack.join("/"),
             tag_stack: tag_stack.slice(),
             text: t.text,
           });
@@ -259,9 +268,16 @@ class HTMLDiff {
               };
             }
 
+            let id = undefined;
+            const m = tag.match(' id="([^"]+)"');
+            if (m) {
+              id = m[1];
+            }
+
             yield {
               type: "o",
               name,
+              id,
               tag,
             };
             prev = "o";
@@ -310,7 +326,7 @@ class HTMLDiff {
 
     function isDiff(s1, s2) {
       // Do not count the difference in attributes,h.
-      return s1.text != s2.text || s1.name_path != s2.name_path;
+      return s1.text != s2.text || s1.path != s2.path;
     }
 
     for (let i = 1; i < len1 + 1; i++) {
@@ -385,6 +401,7 @@ class HTMLDiff {
         case '+':
         case '-': {
           const new_name_stack = d.item.name_stack.slice();
+          const new_name_id_stack = d.item.name_id_stack.slice();
           const new_tag_stack = d.item.tag_stack.slice();
 
           // FIXME: Instead of the leaf, put ins/del somewhere in the stack.
@@ -392,11 +409,13 @@ class HTMLDiff {
           switch (d.op) {
             case '+': {
               new_name_stack.push(INS_NAME);
+              new_name_id_stack.push(INS_NAME);
               new_tag_stack.push(INS_TAG);
               break;
             }
             case '-': {
               new_name_stack.push(DEL_NAME);
+              new_name_id_stack.push(DEL_NAME);
               new_tag_stack.push(DEL_TAG);
               break;
             }
@@ -405,7 +424,8 @@ class HTMLDiff {
           seq.push({
             text: d.item.text,
             name_stack: new_name_stack,
-            name_path: new_name_stack.join("/"),
+            name_id_stack: new_name_id_stack,
+            path: new_name_id_stack.join("/"),
             tag_stack: new_tag_stack,
           });
           break;
@@ -420,6 +440,7 @@ class HTMLDiff {
   // HTML fragment.
   static fromSeq(seq) {
     const name_stack = [];
+    const name_id_stack = [];
     const tag_stack = [];
 
     const ts = [];
@@ -427,14 +448,15 @@ class HTMLDiff {
     for (const s of seq) {
       let i = 0;
       // Skip common ancestor.
-      for (; i < s.name_stack.length; i++) {
-        if (s.name_stack[i] != name_stack[i]) {
+      for (; i < s.name_id_stack.length; i++) {
+        if (s.name_id_stack[i] != name_id_stack[i]) {
           break;
         }
       }
 
       // Close tags that are not part of current text.
       while (i < name_stack.length) {
+        name_id_stack.pop();
         tag_stack.pop();
         const name = name_stack.pop();
         ts.push(`</${name}>`);
@@ -443,6 +465,7 @@ class HTMLDiff {
       // Open remaining tags that are ancestor of current text.
       for (; i < s.name_stack.length; i++) {
         name_stack.push(s.name_stack[i]);
+        name_id_stack.push(s.name_id_stack[i]);
         const tag = s.tag_stack[i];
         tag_stack.push(tag);
         ts.push(tag);
