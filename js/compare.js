@@ -521,7 +521,7 @@ class Comparator {
   async loadResources() {
     [this.revs, this.prs] = await Promise.all([
       this.getJSON("./history/revs.json"),
-      this.getJSON("./history/prs.json"),
+      this.getJSON("./history/prs.json?20200216a"),
     ]);
 
     this.revMap = {};
@@ -532,6 +532,11 @@ class Comparator {
     this.prnums = Object.keys(this.prs)
       .map(prnum => parseInt(prnum, 10))
       .sort((a, b) => b - a);
+
+    for (const prnum in this.prs) {
+      const pr = this.prs[prnum];
+      pr.parent = pr.revs[pr.revs.length-1].parents.split(' ')[0];
+    }
   }
 
   async getJSON(path) {
@@ -651,7 +656,7 @@ class Comparator {
       if (prnum in this.prs) {
         const pr = this.prs[prnum];
 
-        this.fromRev.value = pr.base;
+        this.fromRev.value = pr.parent;
         this.toRev.value = pr.head;
 
         this.prFilter.value = prnum;
@@ -676,7 +681,7 @@ class Comparator {
   selectPRRevs(prnum) {
     if (prnum in this.prs) {
       const pr = this.prs[prnum];
-      this.fromRev.value = pr.base;
+      this.fromRev.value = pr.parent;
       this.toRev.value = this.prToOptValue(prnum, pr);
     }
   }
@@ -703,7 +708,6 @@ class Comparator {
 
   updateRevInfoFor(id, name) {
     const subjectLink = document.getElementById(`${id}-rev-subject-link`);
-    const prNode = document.getElementById(`${id}-rev-pr`);
     const author = document.getElementById(`${id}-rev-author`);
     const date = document.getElementById(`${id}-rev-date`);
 
@@ -713,23 +717,20 @@ class Comparator {
       const hash = m[2];
       const pr = this.prs[prnum];
 
-      subjectLink.textContent = pr.title;
+      subjectLink.textContent = pr.revs[0].subject;
       subjectLink.href = `${REPO_URL}/pull/${prnum}`;
-      prNode.textContent = `#${prnum} `;
-      author.textContent = `by ${pr.login}`;
-      date.textContent = `(${DateUtils.toReadable(pr.updated_at)})`;
+      author.textContent = `by ${pr.revs[0].author}`;
+      date.textContent = `(${DateUtils.toReadable(pr.revs[0].date)})`;
     } else if (name in this.revMap) {
       const rev = this.revMap[name];
 
       subjectLink.textContent = rev.subject;
       subjectLink.href = `${REPO_URL}/commit/${rev.hash}`;
-      prNode.textContent = "";
       author.textContent = `by ${rev.author}`;
       date.textContent = `(${DateUtils.toReadable(rev.date)})`;
     } else {
       subjectLink.textContent = "-";
       subjectLink.removeAttribute("href");
-      prNode.textContent = "";
       author.textContent = "-";
       date.textContent = "";
     }
