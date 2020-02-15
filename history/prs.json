@@ -5,6 +5,16 @@
   "head": "5a50eca06776073cdabe58d9478d71dddf3e75e0",
   "login": "TimothyGu",
   "ref": "template-bugfix",
+  "revs": [
+   {
+    "adate": "2019-01-12T21:59:31-08:00",
+    "author": "Timothy Gu",
+    "date": "2019-01-12T21:59:36-08:00",
+    "hash": "5a50eca06776073cdabe58d9478d71dddf3e75e0",
+    "parents": "85ce767c86a1a8ed719fe97e978028bff819d1f2",
+    "subject": "Editorial: Fix SubstitutionTemplate ArgumentListEvaluation"
+   }
+  ],
   "title": "Editorial: Fix SubstitutionTemplate ArgumentListEvaluation",
   "updated_at": "2019-02-28T19:53:52Z"
  },
@@ -14,6 +24,16 @@
   "head": "f83865d2209a18287e05c8dab578d69ab497c9af",
   "login": "zenparsing",
   "ref": "iterator-close-get-method",
+  "revs": [
+   {
+    "adate": "2019-01-14T10:41:19-08:00",
+    "author": "Kevin Smith",
+    "date": "2019-01-14T10:41:19-08:00",
+    "hash": "f83865d2209a18287e05c8dab578d69ab497c9af",
+    "parents": "85ce767c86a1a8ed719fe97e978028bff819d1f2",
+    "subject": "Normative: Suppress GetMethod errors in IteratorClose"
+   }
+  ],
   "title": "Normative: Suppress GetMethod errors in IteratorClose",
   "updated_at": "2019-11-18T22:43:32Z"
  },
@@ -23,6 +43,80 @@
   "head": "a6a7b5069e37dec40fac0c2662f81404a57be29e",
   "login": "gibson042",
   "ref": "2019-01-explain-SAFE_INTEGER",
+  "revs": [
+   {
+    "adate": "2019-01-30T12:58:55-05:00",
+    "author": "Richard Gibson",
+    "date": "2019-10-06T12:55:14-04:00",
+    "hash": "a6a7b5069e37dec40fac0c2662f81404a57be29e",
+    "parents": "4c3b44b9badbd1ad238a16e251662bc632f401aa",
+    "subject": "Use the spec-defined \"the Number value for\" phrase"
+   },
+   {
+    "adate": "2019-01-29T18:01:14-05:00",
+    "author": "Richard Gibson",
+    "date": "2019-10-06T12:55:14-04:00",
+    "hash": "4c3b44b9badbd1ad238a16e251662bc632f401aa",
+    "parents": "9c0732843f78d257d63e18189cd5ee020d4dfb1e",
+    "subject": "Make \"safe\" a definition, and reference it"
+   },
+   {
+    "adate": "2019-01-29T17:56:23-05:00",
+    "author": "Richard Gibson",
+    "date": "2019-10-06T12:55:14-04:00",
+    "hash": "9c0732843f78d257d63e18189cd5ee020d4dfb1e",
+    "parents": "41ddc28da1f0be598c1cdf409b6c24582c685b60",
+    "subject": "Incorporate prose suggestion from @tabatkins"
+   },
+   {
+    "adate": "2019-01-29T17:41:28-05:00",
+    "author": "Richard Gibson",
+    "date": "2019-10-06T12:55:14-04:00",
+    "hash": "41ddc28da1f0be598c1cdf409b6c24582c685b60",
+    "parents": "c62904610cee845a7f77051ef6d315406e29aa66",
+    "subject": "Accept improved definition of \"safe\""
+   },
+   {
+    "adate": "2019-01-29T16:22:00-05:00",
+    "author": "Richard Gibson",
+    "date": "2019-10-06T12:55:13-04:00",
+    "hash": "c62904610cee845a7f77051ef6d315406e29aa66",
+    "parents": "9c1ca73a518241918c88ca81e875aa124eff00ad",
+    "subject": "Restore \"exactly representable\" phrase and explain basis in IEEE 754"
+   },
+   {
+    "adate": "2019-01-21T12:40:48-05:00",
+    "author": "Richard Gibson",
+    "date": "2019-10-06T12:55:13-04:00",
+    "hash": "9c1ca73a518241918c88ca81e875aa124eff00ad",
+    "parents": "ed8a3119bb08fb7198cc9feef622e06261b714dc",
+    "subject": "Fix typo"
+   },
+   {
+    "adate": "2019-01-21T12:19:25-05:00",
+    "author": "Richard Gibson",
+    "date": "2019-10-06T12:55:13-04:00",
+    "hash": "ed8a3119bb08fb7198cc9feef622e06261b714dc",
+    "parents": "9a914a4d650e5bb8452d348c926bc2334104cee4",
+    "subject": "Improve wording"
+   },
+   {
+    "adate": "2019-01-18T13:23:46-05:00",
+    "author": "Richard Gibson",
+    "date": "2019-10-06T12:55:13-04:00",
+    "hash": "9a914a4d650e5bb8452d348c926bc2334104cee4",
+    "parents": "75adffca9c7bc41f252e9386c8ad7deefa3040cf",
+    "subject": "Add note to Number.isSafeInteger"
+   },
+   {
+    "adate": "2019-01-18T13:05:18-05:00",
+    "author": "Richard Gibson",
+    "date": "2019-10-06T12:55:11-04:00",
+    "hash": "75adffca9c7bc41f252e9386c8ad7deefa3040cf",
+    "parents": "693e09a4b9ce52b060ceda897b042c3f83f0a738",
+    "subject": "Editorial: Explain why *_SAFE_INTEGER magnitude is not a power of two"
+   }
+  ],
   "title": "Editorial: Explain why *_SAFE_INTEGER magnitude is not a power of two",
   "updated_at": "2019-10-06T16:56:21Z"
  },
@@ -32,6 +126,16 @@
   "head": "a2b0457bb1560d1674d624b4233d499df324a7fb",
   "login": "bmeck",
   "ref": "parameterize-intrinsics",
+  "revs": [
+   {
+    "adate": "2019-01-18T09:09:17-06:00",
+    "author": "Bradley Farias",
+    "date": "2019-01-18T09:09:17-06:00",
+    "hash": "a2b0457bb1560d1674d624b4233d499df324a7fb",
+    "parents": "85ce767c86a1a8ed719fe97e978028bff819d1f2",
+    "subject": "Allow hosts to reuse an existing Realm Intrinsics record"
+   }
+  ],
   "title": "Allow hosts to reuse an existing Realm Intrinsics record",
   "updated_at": "2019-12-19T01:14:37Z"
  },
@@ -41,6 +145,16 @@
   "head": "45b775fc0aefce68aaab7f1f242a6373ce2f7584",
   "login": "bmeck",
   "ref": "object-prop-has",
+  "revs": [
+   {
+    "adate": "2019-01-31T09:06:50-07:00",
+    "author": "Bradley Farias",
+    "date": "2019-01-31T09:26:06-07:00",
+    "hash": "45b775fc0aefce68aaab7f1f242a6373ce2f7584",
+    "parents": "257cae9f69068704fc9e89a729f54bd7977c9161",
+    "subject": "Bug: Add missing has operation to property operations"
+   }
+  ],
   "title": "Editorial: Add missing has operation to property operations",
   "updated_at": "2019-05-29T22:07:56Z"
  },
@@ -50,6 +164,24 @@
   "head": "343b55373369a219086fd1fe1cead3dfc1122500",
   "login": "viktmv",
   "ref": "master",
+  "revs": [
+   {
+    "adate": "2019-03-01T13:52:00-05:00",
+    "author": "viktmv",
+    "date": "2019-03-01T13:52:00-05:00",
+    "hash": "343b55373369a219086fd1fe1cead3dfc1122500",
+    "parents": "6cb3e528bf6cccbc8ff907593e2fe6ec9d522f84",
+    "subject": "Editorial: Expand on [[ThisMode]] description"
+   },
+   {
+    "adate": "2019-03-01T12:37:40-05:00",
+    "author": "viktmv",
+    "date": "2019-03-01T12:37:40-05:00",
+    "hash": "6cb3e528bf6cccbc8ff907593e2fe6ec9d522f84",
+    "parents": "a09fc232c137800dbf51b6204f37fdede4ba1646",
+    "subject": "Editorial: Fix description of [[ThisMode]] internal slot of Function Object"
+   }
+  ],
   "title": "Editorial: Fix description of [[ThisMode]] internal slot of Function Object",
   "updated_at": "2020-01-03T06:06:57Z"
  },
@@ -59,6 +191,32 @@
   "head": "b3bfef067a59548ef763903a4e59ef1891508bc0",
   "login": "anba",
   "ref": "anon-empty-name",
+  "revs": [
+   {
+    "adate": "2019-03-20T10:33:35-07:00",
+    "author": "Andr\u00e9 Bargull",
+    "date": "2019-08-15T11:14:24-07:00",
+    "hash": "b3bfef067a59548ef763903a4e59ef1891508bc0",
+    "parents": "36a81a0b5eb1a4aa5a3a5a59dadabdbc8717c228",
+    "subject": "Respecify 'anonymous function' to mean the 'name' property is the empty string instead of being absent"
+   },
+   {
+    "adate": "2019-03-20T10:33:34-07:00",
+    "author": "Andr\u00e9 Bargull",
+    "date": "2019-08-15T11:02:25-07:00",
+    "hash": "36a81a0b5eb1a4aa5a3a5a59dadabdbc8717c228",
+    "parents": "6ee249e53b02f76f1a09c2d0a7e5ad3c218fb558",
+    "subject": "Set function name when creating a function"
+   },
+   {
+    "adate": "2019-03-20T10:33:33-07:00",
+    "author": "Andr\u00e9 Bargull",
+    "date": "2019-08-15T10:59:21-07:00",
+    "hash": "6ee249e53b02f76f1a09c2d0a7e5ad3c218fb558",
+    "parents": "8f0f69279b5f9e12ebe8f7052322b93d17e36b54",
+    "subject": "Changed NamedEvaluation to no longer forward to normal Evaluation"
+   }
+  ],
   "title": "Set \"name\" property for anonymous functions",
   "updated_at": "2019-12-05T20:17:32Z"
  },
@@ -68,6 +226,16 @@
   "head": "b6cc8db432c117c9dee96a1a9314e56b669fb51f",
   "login": "leobalter",
   "ref": "htmlclosecomment",
+  "revs": [
+   {
+    "adate": "2019-03-28T15:50:44-04:00",
+    "author": "Leo Balter",
+    "date": "2019-03-28T15:50:44-04:00",
+    "hash": "b6cc8db432c117c9dee96a1a9314e56b669fb51f",
+    "parents": "a09fc232c137800dbf51b6204f37fdede4ba1646",
+    "subject": "Normative: Extend specs to observe WebReality for HTMLCloseComment"
+   }
+  ],
   "title": "Normative: Extend specs to observe WebReality for HTMLCloseComment",
   "updated_at": "2019-04-03T17:26:48Z"
  },
@@ -77,6 +245,16 @@
   "head": "e344423989fe2599f5ffc86065ac12c28176170e",
   "login": "tc39",
   "ref": "pr-needs-consensus-hostensurecancompilestrings-passthru",
+  "revs": [
+   {
+    "adate": "2019-04-03T12:12:06-04:00",
+    "author": "Mike Samuel",
+    "date": "2019-04-03T12:12:06-04:00",
+    "hash": "e344423989fe2599f5ffc86065ac12c28176170e",
+    "parents": "a09fc232c137800dbf51b6204f37fdede4ba1646",
+    "subject": "Provide HostEnsureCanCompileString implementors more context"
+   }
+  ],
   "title": "Provide HostEnsureCanCompileString implementors more context",
   "updated_at": "2019-04-30T07:06:32Z"
  },
@@ -86,6 +264,40 @@
   "head": "85105c567933960c4993b50643810526c7f05eee",
   "login": "dandclark",
   "ref": "master",
+  "revs": [
+   {
+    "adate": "2019-04-15T10:26:58-07:00",
+    "author": "Daniel Clark",
+    "date": "2019-04-15T10:26:58-07:00",
+    "hash": "85105c567933960c4993b50643810526c7f05eee",
+    "parents": "6a3967534fad0f56a7cb701663ed65ea9a29c6f2",
+    "subject": "Move Cyclic Module Record's [[RequestedModules]] list down to Source Text Module Record.  The base type will now always use GetRequestedModules() to obtain this list."
+   },
+   {
+    "adate": "2019-04-15T10:19:11-07:00",
+    "author": "Daniel Clark",
+    "date": "2019-04-15T10:19:11-07:00",
+    "hash": "6a3967534fad0f56a7cb701663ed65ea9a29c6f2",
+    "parents": "1b8e7f5137338d82db141a67d6fdaede002dfe4e",
+    "subject": "In GetRequestedModules, allow the HostResolveImportedModule call to return an abrupt completion."
+   },
+   {
+    "adate": "2019-04-04T13:42:56-07:00",
+    "author": "Daniel Clark",
+    "date": "2019-04-04T13:42:56-07:00",
+    "hash": "1b8e7f5137338d82db141a67d6fdaede002dfe4e",
+    "parents": "10dfe19117347524e507e7d1c04e0f4b00fa74d2",
+    "subject": "Remove double-space, update list iteration wording, add back emu-closing tag that got clipped out"
+   },
+   {
+    "adate": "2019-04-02T14:13:17-07:00",
+    "author": "Daniel Clark",
+    "date": "2019-04-04T10:51:22-07:00",
+    "hash": "10dfe19117347524e507e7d1c04e0f4b00fa74d2",
+    "parents": "a09fc232c137800dbf51b6204f37fdede4ba1646",
+    "subject": "Add GetRequestedModules() abstract method to Cyclic Module Record, with implementation for Source Text Module Record.  Refactor InnerModuleInstantiation/InnerModuleEvaluation to use this instead of [[RequestedModules]] directly."
+   }
+  ],
   "title": "Layering: Add GetRequestedModules() to Module Record",
   "updated_at": "2019-04-17T15:36:40Z"
  },
@@ -95,6 +307,16 @@
   "head": "7244f340581a62d1bb4b1c009cef7564206777ac",
   "login": "ljharb",
   "ref": "fix_matchall",
+  "revs": [
+   {
+    "adate": "2019-04-24T11:11:09-07:00",
+    "author": "Jordan Harband",
+    "date": "2019-04-24T11:11:09-07:00",
+    "hash": "7244f340581a62d1bb4b1c009cef7564206777ac",
+    "parents": "f158df16b4bfa4d8d1efa7407ebfe8eeb339f4fd",
+    "subject": "Normative: correct spec bug in `RegExp.prototype[Symbol.matchAll]`"
+   }
+  ],
   "title": "Normative: correct spec bug in `RegExp.prototype[Symbol.matchAll]`",
   "updated_at": "2019-07-23T20:42:29Z"
  },
@@ -104,6 +326,16 @@
   "head": "dd9d1d2c2246b60b7b1b9dcea353de773ba78598",
   "login": "ljharb",
   "ref": "array_join_cyclic",
+  "revs": [
+   {
+    "adate": "2019-04-25T17:53:32-07:00",
+    "author": "Jordan Harband",
+    "date": "2019-04-25T23:16:58-07:00",
+    "hash": "dd9d1d2c2246b60b7b1b9dcea353de773ba78598",
+    "parents": "69d9e638031c6a16199cbd844b13ccd4b14826b5",
+    "subject": "Normative: specify web reality for Array.prototype.join with cyclic values"
+   }
+  ],
   "title": "Normative: specify web reality for Array.prototype.join with cyclic values",
   "updated_at": "2019-04-26T18:47:06Z"
  },
@@ -113,6 +345,24 @@
   "head": "4b2517039e53c7cea471a4bc432d883d8c5f6683",
   "login": "jmdyck",
   "ref": "resolve_831",
+  "revs": [
+   {
+    "adate": "2019-04-25T23:17:06-04:00",
+    "author": "Michael Dyck",
+    "date": "2019-04-25T23:17:06-04:00",
+    "hash": "4b2517039e53c7cea471a4bc432d883d8c5f6683",
+    "parents": "b6f3f5e81f04548c67c24cd319a6909e224da7f4",
+    "subject": "Editorial: simplify definitions of Contains"
+   },
+   {
+    "adate": "2019-04-25T22:57:52-04:00",
+    "author": "Michael Dyck",
+    "date": "2019-04-25T22:57:52-04:00",
+    "hash": "b6f3f5e81f04548c67c24cd319a6909e224da7f4",
+    "parents": "69d9e638031c6a16199cbd844b13ccd4b14826b5",
+    "subject": "Editorial: Remove unused steps from definitions of Contains"
+   }
+  ],
   "title": "Editorial: Remove unused steps from definitions of Contains",
   "updated_at": "2020-02-13T21:21:04Z"
  },
@@ -122,6 +372,24 @@
   "head": "77e9f1bdc8a9005dde346e8ecc465f4fb8f6d9fb",
   "login": "jmdyck",
   "ref": "re_1510",
+  "revs": [
+   {
+    "adate": "2019-04-29T16:05:34-04:00",
+    "author": "Michael Dyck",
+    "date": "2019-10-23T21:16:38-04:00",
+    "hash": "77e9f1bdc8a9005dde346e8ecc465f4fb8f6d9fb",
+    "parents": "759402f8801efc5a60e6119086a9844813556bdd",
+    "subject": "Editorial: Mention the two other forms of terminal symbol"
+   },
+   {
+    "adate": "2019-04-29T16:03:34-04:00",
+    "author": "Michael Dyck",
+    "date": "2019-10-23T21:14:34-04:00",
+    "hash": "759402f8801efc5a60e6119086a9844813556bdd",
+    "parents": "1595e86b09414b669fcdd23e576ec912685d5f2b",
+    "subject": "Editorial: Clarify the discussion of terminal symbols"
+   }
+  ],
   "title": "Editorial: Clarify and expand the discussion of terminal symbols",
   "updated_at": "2019-10-24T21:55:10Z"
  },
@@ -131,6 +399,16 @@
   "head": "86ded1df9ac36aa4ec954a8d1ccbe7d47e117d49",
   "login": "jmdyck",
   "ref": "NumericValue",
+  "revs": [
+   {
+    "adate": "2019-05-27T22:20:17-04:00",
+    "author": "Michael Dyck",
+    "date": "2019-10-23T20:35:03-04:00",
+    "hash": "86ded1df9ac36aa4ec954a8d1ccbe7d47e117d49",
+    "parents": "1595e86b09414b669fcdd23e576ec912685d5f2b",
+    "subject": "Editorial: Define + use StringToNumber"
+   }
+  ],
   "title": "Editorial: Define + use StringToNumber, and better define NumericValue",
   "updated_at": "2019-10-24T21:54:15Z"
  },
@@ -140,6 +418,16 @@
   "head": "80546f0496dafffeed842cb456a5f8693d435069",
   "login": "shvaikalesh",
   "ref": "typed-array-get-set",
+  "revs": [
+   {
+    "adate": "2019-05-28T22:06:07+03:00",
+    "author": "Aleksey Shvayka",
+    "date": "2019-05-28T23:43:25+03:00",
+    "hash": "80546f0496dafffeed842cb456a5f8693d435069",
+    "parents": "a5375bdad264c8aa264d9c44f57408087761069e",
+    "subject": "Normative: Guard TypedArray methods from non-exotic receivers"
+   }
+  ],
   "title": "Normative: Guard TypedArray methods from non-exotic receivers",
   "updated_at": "2019-08-22T10:42:58Z"
  },
@@ -149,6 +437,104 @@
   "head": "88c606ebf48faeba45eca5bd1b4c7d6d1e71c45c",
   "login": "gibson042",
   "ref": "gh-1087-time-arithmetic-precision",
+  "revs": [
+   {
+    "adate": "2019-10-06T12:49:22-04:00",
+    "author": "Richard Gibson",
+    "date": "2019-10-06T12:49:22-04:00",
+    "hash": "88c606ebf48faeba45eca5bd1b4c7d6d1e71c45c",
+    "parents": "4facda5050d042c77099bb7d5aa50eea11e77e0e",
+    "subject": "Editorial: Improve the note for LocalTime"
+   },
+   {
+    "adate": "2019-10-06T11:43:53-04:00",
+    "author": "Richard Gibson",
+    "date": "2019-10-06T12:18:45-04:00",
+    "hash": "4facda5050d042c77099bb7d5aa50eea11e77e0e",
+    "parents": "0b55c599d3b5b7f0d1fe93b414fbf77a40a690c2",
+    "subject": "Fix a LocalTZA( _t_, false ) edge case"
+   },
+   {
+    "adate": "2019-10-06T11:43:05-04:00",
+    "author": "Richard Gibson",
+    "date": "2019-10-06T12:17:40-04:00",
+    "hash": "0b55c599d3b5b7f0d1fe93b414fbf77a40a690c2",
+    "parents": "e4b9b2d7b664f51e0c6fe1b0e7e713cb907aa770",
+    "subject": "Editorial: Improve the explanation of LocalTZA"
+   },
+   {
+    "adate": "2019-09-04T21:11:03-04:00",
+    "author": "Richard Gibson",
+    "date": "2019-10-03T18:26:16-04:00",
+    "hash": "e4b9b2d7b664f51e0c6fe1b0e7e713cb907aa770",
+    "parents": "7f6553f8330365313a1bb24a3f9c0abfdfcd8821",
+    "subject": "Editorial: Refactor InLeapYear(_t_) as LeapDaysInYear(_y_)"
+   },
+   {
+    "adate": "2019-09-04T12:52:15-04:00",
+    "author": "Richard Gibson",
+    "date": "2019-10-03T18:26:15-04:00",
+    "hash": "7f6553f8330365313a1bb24a3f9c0abfdfcd8821",
+    "parents": "1dde075353b1eea89225cea063aa229434333f63",
+    "subject": "Editorial: Dedicate a subsection to time value range and define TimeClip immediately after it"
+   },
+   {
+    "adate": "2019-09-04T11:29:21-04:00",
+    "author": "Richard Gibson",
+    "date": "2019-10-03T18:26:14-04:00",
+    "hash": "1dde075353b1eea89225cea063aa229434333f63",
+    "parents": "ad9cfff82fecc900cc010f4b44fa0c7407dc027a",
+    "subject": "Editorial: Simplify MonthFromTime"
+   },
+   {
+    "adate": "2019-05-31T00:59:04-04:00",
+    "author": "Richard Gibson",
+    "date": "2019-10-03T18:26:13-04:00",
+    "hash": "ad9cfff82fecc900cc010f4b44fa0c7407dc027a",
+    "parents": "ee9f5935d3a6cb0eed6834996a57c52de9391ff4",
+    "subject": "Editorial: Refactor InLeapYear to rely upon DayFromYear rather than duplicating its logic"
+   },
+   {
+    "adate": "2019-05-31T00:55:00-04:00",
+    "author": "Richard Gibson",
+    "date": "2019-10-03T18:26:11-04:00",
+    "hash": "ee9f5935d3a6cb0eed6834996a57c52de9391ff4",
+    "parents": "010b3624d43b02d1c97324bbbdb511860e12488d",
+    "subject": "Editorial: Consolidate time value operations"
+   },
+   {
+    "adate": "2019-05-31T00:51:22-04:00",
+    "author": "Richard Gibson",
+    "date": "2019-10-03T18:26:10-04:00",
+    "hash": "010b3624d43b02d1c97324bbbdb511860e12488d",
+    "parents": "0a64fb44af6961c2a1b208a56e815c7dec759671",
+    "subject": "Editorial: Clean up time value operation text"
+   },
+   {
+    "adate": "2019-05-31T00:37:09-04:00",
+    "author": "Richard Gibson",
+    "date": "2019-10-03T18:26:00-04:00",
+    "hash": "0a64fb44af6961c2a1b208a56e815c7dec759671",
+    "parents": "a43674cc7b4080f72f0708eeee43e60c1ac8da70",
+    "subject": "Editorial: Only restrict time values more tightly than safe integers in [[DateValue]]"
+   },
+   {
+    "adate": "2019-05-30T17:00:31-04:00",
+    "author": "Richard Gibson",
+    "date": "2019-10-03T18:25:38-04:00",
+    "hash": "a43674cc7b4080f72f0708eeee43e60c1ac8da70",
+    "parents": "e57ab2fc22fed86fc8c9a9c6c08366505c9a85f2",
+    "subject": "Normative: Use Number arithmetic for constructing dates and times"
+   },
+   {
+    "adate": "2019-05-25T15:29:20-04:00",
+    "author": "Richard Gibson",
+    "date": "2019-10-03T18:25:32-04:00",
+    "hash": "e57ab2fc22fed86fc8c9a9c6c08366505c9a85f2",
+    "parents": "ad1adc8b1cab4cd51216c583d1a9b880a29ece60",
+    "subject": "Editorial: Clarify time value comparison and conversion"
+   }
+  ],
   "title": "Normative: Use Number arithmetic for constructing dates and times",
   "updated_at": "2019-10-06T16:49:32Z"
  },
@@ -158,6 +544,16 @@
   "head": "e42a39ac4b59e5aa62fc83726df2aa4b60d7b1e0",
   "login": "michaelficarra",
   "ref": "returnifabrupt",
+  "revs": [
+   {
+    "adate": "2019-06-04T12:14:26-07:00",
+    "author": "Michael Ficarra",
+    "date": "2019-11-13T22:07:57-08:00",
+    "hash": "e42a39ac4b59e5aa62fc83726df2aa4b60d7b1e0",
+    "parents": "c808fe2b7bcc71ff22b06fe96b4260edcc4be5ba",
+    "subject": "Editorial: remove useless step of ReturnIfAbrupt expansion (#1570)"
+   }
+  ],
   "title": "Editorial: remove useless step of ReturnIfAbrupt expansion",
   "updated_at": "2019-11-14T06:08:07Z"
  },
@@ -167,6 +563,96 @@
   "head": "ea5d20db0396bf27079fb33537e01dd75ee41ad7",
   "login": "michaelficarra",
   "ref": "returnifabrupt-refactor",
+  "revs": [
+   {
+    "adate": "2019-07-30T16:05:37-07:00",
+    "author": "Michael Ficarra",
+    "date": "2019-07-30T16:05:37-07:00",
+    "hash": "ea5d20db0396bf27079fb33537e01dd75ee41ad7",
+    "parents": "8a121c37c9e9d19e18f125b2cff88651e6beb9af",
+    "subject": "add </li>"
+   },
+   {
+    "adate": "2019-07-30T16:04:38-07:00",
+    "author": "Michael Ficarra",
+    "date": "2019-07-30T16:04:38-07:00",
+    "hash": "8a121c37c9e9d19e18f125b2cff88651e6beb9af",
+    "parents": "c06aefa1a01315e053152d2f3d79e60a9dc03b7d",
+    "subject": "reduce ReturnIfAbrupt to a single macro expansion"
+   },
+   {
+    "adate": "2019-07-30T15:19:06-07:00",
+    "author": "Michael Ficarra",
+    "date": "2019-07-30T15:19:06-07:00",
+    "hash": "c06aefa1a01315e053152d2f3d79e60a9dc03b7d",
+    "parents": "f371c802c8843bab8abbc665eef0a86f52d558b6",
+    "subject": "simplify example"
+   },
+   {
+    "adate": "2019-07-30T12:18:41-07:00",
+    "author": "Michael Ficarra",
+    "date": "2019-07-30T12:18:41-07:00",
+    "hash": "f371c802c8843bab8abbc665eef0a86f52d558b6",
+    "parents": "e17ee93f2d7281b236192ae3aaac8727bb4f5a86",
+    "subject": "single-step macro expansion for ? example"
+   },
+   {
+    "adate": "2019-07-29T17:14:23-07:00",
+    "author": "Michael Ficarra",
+    "date": "2019-07-29T17:14:23-07:00",
+    "hash": "e17ee93f2d7281b236192ae3aaac8727bb4f5a86",
+    "parents": "c92bade37cac9f460390c5ac29dccbbe2a58e4f4",
+    "subject": "variable -> alias"
+   },
+   {
+    "adate": "2019-07-29T16:59:50-07:00",
+    "author": "Michael Ficarra",
+    "date": "2019-07-29T16:59:50-07:00",
+    "hash": "c92bade37cac9f460390c5ac29dccbbe2a58e4f4",
+    "parents": "facbb1226637d37eb41ee4128f875ba69c71a562",
+    "subject": "move ! shorthand back; rename section"
+   },
+   {
+    "adate": "2019-07-29T16:52:58-07:00",
+    "author": "Michael Ficarra",
+    "date": "2019-07-29T16:52:58-07:00",
+    "hash": "facbb1226637d37eb41ee4128f875ba69c71a562",
+    "parents": "4be238d57280df3b9e90a3498071d6d171f1d895",
+    "subject": "for example"
+   },
+   {
+    "adate": "2019-07-29T16:51:37-07:00",
+    "author": "Michael Ficarra",
+    "date": "2019-07-29T16:51:37-07:00",
+    "hash": "4be238d57280df3b9e90a3498071d6d171f1d895",
+    "parents": "2bc60be09dfe07f59031bbd39c19ea977a9dee10",
+    "subject": "remove commas"
+   },
+   {
+    "adate": "2019-06-17T17:35:49-07:00",
+    "author": "Michael Ficarra",
+    "date": "2019-06-17T17:35:49-07:00",
+    "hash": "2bc60be09dfe07f59031bbd39c19ea977a9dee10",
+    "parents": "4961d80cc8452608c7c555411183ddc2f1fd9b60",
+    "subject": "alignment with #1571"
+   },
+   {
+    "adate": "2019-06-07T11:19:00-07:00",
+    "author": "Michael Ficarra",
+    "date": "2019-06-07T11:19:00-07:00",
+    "hash": "4961d80cc8452608c7c555411183ddc2f1fd9b60",
+    "parents": "c8f2f8f9adc6d725fd095a36d3082f8420f2c4e3",
+    "subject": "move `!` shorthand to implicit completion values section"
+   },
+   {
+    "adate": "2019-06-06T19:27:01-07:00",
+    "author": "Michael Ficarra",
+    "date": "2019-06-06T22:03:55-07:00",
+    "hash": "c8f2f8f9adc6d725fd095a36d3082f8420f2c4e3",
+    "parents": "a25df663ddaa8f0b976f0411681635f587be63e0",
+    "subject": "change how ReturnIfAbrupt and its shorthands are specified"
+   }
+  ],
   "title": "change how ReturnIfAbrupt and its shorthands are specified",
   "updated_at": "2019-11-14T13:57:17Z"
  },
@@ -176,6 +662,112 @@
   "head": "09445f5630acc2d3c47a77195cf3e059606ee18b",
   "login": "szuend",
   "ref": "array-sort",
+  "revs": [
+   {
+    "adate": "2020-02-07T11:15:05+01:00",
+    "author": "Simon Z\u00fcnd",
+    "date": "2020-02-07T11:15:05+01:00",
+    "hash": "09445f5630acc2d3c47a77195cf3e059606ee18b",
+    "parents": "a8dd1e744ac9a03055550463e372cd4197f73408",
+    "subject": "Smaller wording changes and fix items invariant"
+   },
+   {
+    "adate": "2020-02-06T09:45:52+01:00",
+    "author": "Simon Z\u00fcnd",
+    "date": "2020-02-06T09:45:52+01:00",
+    "hash": "a8dd1e744ac9a03055550463e372cd4197f73408",
+    "parents": "1a3b3032cc6d2b7ad92ebacb7baa466caecb9a35",
+    "subject": "Readd comparsion condition"
+   },
+   {
+    "adate": "2020-02-06T09:39:39+01:00",
+    "author": "Simon Z\u00fcnd",
+    "date": "2020-02-06T09:39:39+01:00",
+    "hash": "1a3b3032cc6d2b7ad92ebacb7baa466caecb9a35",
+    "parents": "18243b051a5aab339e4d9e6b60aec77e98a3bf9c",
+    "subject": "Reworded invariant and removed condition"
+   },
+   {
+    "adate": "2020-02-03T10:27:43+01:00",
+    "author": "Simon Z\u00fcnd",
+    "date": "2020-02-03T10:27:43+01:00",
+    "hash": "18243b051a5aab339e4d9e6b60aec77e98a3bf9c",
+    "parents": "8446262f570f3e24eee847670ee15171c6e75eb0",
+    "subject": "Reference the correct algorithmic step for sorting invariants"
+   },
+   {
+    "adate": "2020-02-03T10:21:02+01:00",
+    "author": "Simon Z\u00fcnd",
+    "date": "2020-02-03T10:21:02+01:00",
+    "hash": "8446262f570f3e24eee847670ee15171c6e75eb0",
+    "parents": "16797b7adbbcf33e353a0d98a3d8a944236e4fe6",
+    "subject": "Remove *undefinedCount* and re-write invariants"
+   },
+   {
+    "adate": "2020-02-03T09:47:32+01:00",
+    "author": "Simon Z\u00fcnd",
+    "date": "2020-02-03T09:47:32+01:00",
+    "hash": "16797b7adbbcf33e353a0d98a3d8a944236e4fe6",
+    "parents": "2c1431a75f84b6bd3a27f89074afe8f85a9da05d e3707ac9e14b75b9513d6b09c394dee6473c5ddf",
+    "subject": "Merge remote-tracking branch 'upstream/master' into array-sort"
+   },
+   {
+    "adate": "2019-09-18T07:05:27+02:00",
+    "author": "Simon Z\u00fcnd",
+    "date": "2019-09-19T08:26:48+02:00",
+    "hash": "2c1431a75f84b6bd3a27f89074afe8f85a9da05d",
+    "parents": "2dba431aa5078d91457541de71b4f10506cd6fca",
+    "subject": "Remove HasProperty call."
+   },
+   {
+    "adate": "2019-07-09T11:35:31+02:00",
+    "author": "Simon Z\u00fcnd",
+    "date": "2019-09-19T08:26:48+02:00",
+    "hash": "2dba431aa5078d91457541de71b4f10506cd6fca",
+    "parents": "d8f75e54ea1f222d3173e9543206ae903bc99faa",
+    "subject": "Address comments"
+   },
+   {
+    "adate": "2019-06-17T07:07:44+02:00",
+    "author": "Simon Z\u00fcnd",
+    "date": "2019-09-19T08:26:48+02:00",
+    "hash": "d8f75e54ea1f222d3173e9543206ae903bc99faa",
+    "parents": "6916600b32f4b57402e0e16ad5f0a931605b6f90",
+    "subject": "Change spelling from 'dependant' to 'dependent'."
+   },
+   {
+    "adate": "2019-06-14T08:54:19+02:00",
+    "author": "Simon Z\u00fcnd",
+    "date": "2019-09-19T08:26:48+02:00",
+    "hash": "6916600b32f4b57402e0e16ad5f0a931605b6f90",
+    "parents": "65fe7bef55df532f8e78fc04957bad8a42cce4f3",
+    "subject": "Address comments"
+   },
+   {
+    "adate": "2019-06-13T15:03:15+02:00",
+    "author": "Simon Z\u00fcnd",
+    "date": "2019-09-19T08:26:48+02:00",
+    "hash": "65fe7bef55df532f8e78fc04957bad8a42cce4f3",
+    "parents": "a0f5948f1f0a03d3cf5cee341c57ce665078e6d8",
+    "subject": "Clearer list header"
+   },
+   {
+    "adate": "2019-06-13T15:00:59+02:00",
+    "author": "Simon Z\u00fcnd",
+    "date": "2019-09-19T08:26:48+02:00",
+    "hash": "a0f5948f1f0a03d3cf5cee341c57ce665078e6d8",
+    "parents": "05eed43d6f3a3fb9bde7cf3632bd5f92418ab4d5",
+    "subject": "Fix typo"
+   },
+   {
+    "adate": "2019-06-13T14:58:25+02:00",
+    "author": "Simon Z\u00fcnd",
+    "date": "2019-09-19T08:26:48+02:00",
+    "hash": "05eed43d6f3a3fb9bde7cf3632bd5f92418ab4d5",
+    "parents": "0a5db75f25d82f6df812cef98448794633543388",
+    "subject": "Specify Array.prototype.sort in a more concrete manner."
+   }
+  ],
   "title": "Normative: A more precise Array.prototype.sort",
   "updated_at": "2020-02-10T06:59:10Z"
  },
@@ -185,6 +777,24 @@
   "head": "a20c506c67ce275916ab92c3aa9e7f3ece2d0cb7",
   "login": "littledan",
   "ref": "enqueue-promise-job",
+  "revs": [
+   {
+    "adate": "2020-02-12T16:32:56-08:00",
+    "author": "Shu-yu Guo",
+    "date": "2020-02-12T16:32:56-08:00",
+    "hash": "a20c506c67ce275916ab92c3aa9e7f3ece2d0cb7",
+    "parents": "6d7c4dc4d2d9bfda2b9ecb74ef8009b78f414770",
+    "subject": "Editorial: Specialize EnqueueJob to EnqueuePromiseJob"
+   },
+   {
+    "adate": "2016-11-18T17:18:44-05:00",
+    "author": "Domenic Denicola",
+    "date": "2019-11-19T07:42:25+01:00",
+    "hash": "6d7c4dc4d2d9bfda2b9ecb74ef8009b78f414770",
+    "parents": "19e88da40ac69f64877404d9168dbdbe3bb19c6c",
+    "subject": "Layering: Refactor Job queues for host scheduling"
+   }
+  ],
   "title": "Layering: Allow hosts to cleanly specify Promise Job semantics",
   "updated_at": "2020-02-13T11:04:27Z"
  },
@@ -194,6 +804,16 @@
   "head": "306e0b43b860144000cd79c5954b3832ab1a34b5",
   "login": "mikesamuel",
   "ref": "note-re-cache-deletion",
+  "revs": [
+   {
+    "adate": "2019-06-20T11:48:43-04:00",
+    "author": "Mike Samuel",
+    "date": "2019-06-20T11:48:43-04:00",
+    "hash": "306e0b43b860144000cd79c5954b3832ab1a34b5",
+    "parents": "a95e95a63bc1fd7d71f089ad1d68be0cce4caf34",
+    "subject": "Provide context for HostImportModuleDynamically requirement"
+   }
+  ],
   "title": "Editorial: Provide context for HostImportModuleDynamically requirement",
   "updated_at": "2019-06-21T14:19:36Z"
  },
@@ -203,6 +823,40 @@
   "head": "1e2638baede3313517fc4a9da761d9afe8e8f4c1",
   "login": "jmdyck",
   "ref": "sort_algo",
+  "revs": [
+   {
+    "adate": "2019-07-06T17:34:14-04:00",
+    "author": "Michael Dyck",
+    "date": "2019-07-06T17:41:06-04:00",
+    "hash": "1e2638baede3313517fc4a9da761d9afe8e8f4c1",
+    "parents": "d04a12676b2bafa82d8613577c46a026e31f7fe6",
+    "subject": "Editorial: introduce TypedArraySortCompare"
+   },
+   {
+    "adate": "2019-07-06T17:18:41-04:00",
+    "author": "Michael Dyck",
+    "date": "2019-07-06T17:18:41-04:00",
+    "hash": "d04a12676b2bafa82d8613577c46a026e31f7fe6",
+    "parents": "7ea53f6803715077074bdc18c2b71e1cfbeeed36",
+    "subject": "Editorial: Move two sort order conditions"
+   },
+   {
+    "adate": "2019-07-06T17:01:27-04:00",
+    "author": "Michael Dyck",
+    "date": "2019-07-06T17:01:27-04:00",
+    "hash": "7ea53f6803715077074bdc18c2b71e1cfbeeed36",
+    "parents": "19992b62841b21210f4e68271da0edf0fa25d188",
+    "subject": "Editorial: Rewrite Array.p.sort as a unified algorithm"
+   },
+   {
+    "adate": "2019-07-06T16:29:57-04:00",
+    "author": "Michael Dyck",
+    "date": "2019-07-06T16:55:34-04:00",
+    "hash": "19992b62841b21210f4e68271da0edf0fa25d188",
+    "parents": "dc1e21c454bd316810be1c0e7af0131a2d7f38e9",
+    "subject": "Editorial: Factor out ObjectIsSparse operation"
+   }
+  ],
   "title": "Editorial: Tweak format of *.prototype.sort",
   "updated_at": "2019-07-08T14:56:59Z"
  },
@@ -212,6 +866,40 @@
   "head": "ad07165a3a1f09df9714e4a319551646cc62dd41",
   "login": "jmdyck",
   "ref": "index_strings",
+  "revs": [
+   {
+    "adate": "2019-07-12T11:59:54-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-02-04T23:32:24-05:00",
+    "hash": "ad07165a3a1f09df9714e4a319551646cc62dd41",
+    "parents": "d3a513da3a3132f63b288b93a8184504904837d2",
+    "subject": "Editorial: some minor rewordings"
+   },
+   {
+    "adate": "2019-07-12T11:12:43-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-02-04T23:32:24-05:00",
+    "hash": "d3a513da3a3132f63b288b93a8184504904837d2",
+    "parents": "68c9be9a4617d401e21f225eda219accd8b81c8f",
+    "subject": "Editorial: Replace \"array index\" with \"Uint32-string\""
+   },
+   {
+    "adate": "2019-07-12T10:23:31-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-02-04T23:29:50-05:00",
+    "hash": "68c9be9a4617d401e21f225eda219accd8b81c8f",
+    "parents": "c31c5881404334c05596f3846ffa0e4a2e6dc155",
+    "subject": "Editorial: Replace \"integer index\" with \"Uint53-string\""
+   },
+   {
+    "adate": "2019-07-12T21:58:00-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-02-04T23:27:33-05:00",
+    "hash": "c31c5881404334c05596f3846ffa0e4a2e6dc155",
+    "parents": "787642ad2d159c8358a8782c9414f6d5fb6efa6f",
+    "subject": "Editorial: Fix wording in Note for Arguments exotic objects"
+   }
+  ],
   "title": "Editorial: Replace terms \"integer index\" and \"array index\"",
   "updated_at": "2020-02-06T21:08:34Z"
  },
@@ -221,6 +909,152 @@
   "head": "71589836a594c16843d52d84b0b2a7d68cb65459",
   "login": "jmdyck",
   "ref": "one-grammar",
+  "revs": [
+   {
+    "adate": "2019-08-21T16:19:59-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-02-04T23:26:03-05:00",
+    "hash": "71589836a594c16843d52d84b0b2a7d68cb65459",
+    "parents": "5fb9b6b002fa088e370b48790134d389ae8de79d",
+    "subject": "Editorial: Add [N] parameter to 5 productions"
+   },
+   {
+    "adate": "2019-08-21T16:08:32-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-02-04T23:26:03-05:00",
+    "hash": "5fb9b6b002fa088e370b48790134d389ae8de79d",
+    "parents": "20dafb785982c990fa8c4171a73d1bd1c7a0c2e0",
+    "subject": "Editorial: Merge PatternCharacter + ExtendedPatternCharacter"
+   },
+   {
+    "adate": "2019-08-20T20:30:44-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-02-04T23:26:03-05:00",
+    "hash": "20dafb785982c990fa8c4171a73d1bd1c7a0c2e0",
+    "parents": "65b032548f85968d20884e120dbd47db157d609a",
+    "subject": "Editorial: Simplify the 'Atom' production"
+   },
+   {
+    "adate": "2019-08-20T16:19:01-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-02-04T23:26:03-05:00",
+    "hash": "65b032548f85968d20884e120dbd47db157d609a",
+    "parents": "4c0663a38a2d31bd640c3a39315dc5e345bfb07f",
+    "subject": "Editorial: Simplify the 'Term' production"
+   },
+   {
+    "adate": "2019-08-20T15:48:03-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-02-04T23:26:02-05:00",
+    "hash": "4c0663a38a2d31bd640c3a39315dc5e345bfb07f",
+    "parents": "befd004f8f4adbcbce88114ced91cfcc38ec6b80",
+    "subject": "Editorial: Merge 'ExtendedAtom' and 'Atom'"
+   },
+   {
+    "adate": "2019-08-20T15:14:19-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-02-04T23:26:02-05:00",
+    "hash": "befd004f8f4adbcbce88114ced91cfcc38ec6b80",
+    "parents": "c544333e5fce326e992a37c4bbe2f9ff0a6d9f42",
+    "subject": "Editorial: Move the runtime semantics for QuantifiableAssertion"
+   },
+   {
+    "adate": "2019-08-20T15:10:44-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-02-04T23:26:02-05:00",
+    "hash": "c544333e5fce326e992a37c4bbe2f9ff0a6d9f42",
+    "parents": "90350201f900fbc5aed896fb9aabccc6f2fb33cf",
+    "subject": "Editorial: Simplify the 'Assertion' production"
+   },
+   {
+    "adate": "2019-08-19T20:36:45-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-02-04T23:26:02-05:00",
+    "hash": "90350201f900fbc5aed896fb9aabccc6f2fb33cf",
+    "parents": "e34cad669db821c7f75a1484ed9ac2e308320742",
+    "subject": "Normative: Make B.1.4 \"Regular Expressions Patterns\" normative"
+   },
+   {
+    "adate": "2019-08-16T23:15:10-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-02-04T23:26:02-05:00",
+    "hash": "e34cad669db821c7f75a1484ed9ac2e308320742",
+    "parents": "c2a7b2274777325568c5cd1e216fe213dafa382e",
+    "subject": "Editorial: Rearrange \"Syntax for Patterns\" into 4 subsections"
+   },
+   {
+    "adate": "2019-08-16T16:13:28-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-02-04T23:26:02-05:00",
+    "hash": "c2a7b2274777325568c5cd1e216fe213dafa382e",
+    "parents": "501ca8e73138bb40618eb7081a43a8abaf16b60d",
+    "subject": "Markup: change clause-ids to reflect changes in clause-titles"
+   },
+   {
+    "adate": "2019-08-16T16:12:24-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-02-04T23:26:02-05:00",
+    "hash": "501ca8e73138bb40618eb7081a43a8abaf16b60d",
+    "parents": "7dbbdc278b3cbc09421e393e9408041cc992063a",
+    "subject": "Editorial: Split 'Patterns' clause into two clauses"
+   },
+   {
+    "adate": "2019-08-12T20:37:55-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-02-04T23:26:02-05:00",
+    "hash": "7dbbdc278b3cbc09421e393e9408041cc992063a",
+    "parents": "387b134e996fc699f8e72f5545ccd63aaba59ae7",
+    "subject": "Editorial: Fix mistake in para in Annex A"
+   },
+   {
+    "adate": "2019-08-12T20:34:03-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-02-04T23:26:02-05:00",
+    "hash": "387b134e996fc699f8e72f5545ccd63aaba59ae7",
+    "parents": "967f20a46e48d95ed401a727f7437e79471e5129",
+    "subject": "Editorial: Move some <emu-prodref>s in Annex A"
+   },
+   {
+    "adate": "2019-08-11T10:27:19-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-02-04T23:26:02-05:00",
+    "hash": "967f20a46e48d95ed401a727f7437e79471e5129",
+    "parents": "a0938e159f39d5489e38a3ed3fa23ddb1129d3fc",
+    "subject": "Markup: Remove quotes around simple attribute values"
+   },
+   {
+    "adate": "2019-08-11T09:41:03-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-02-04T23:26:02-05:00",
+    "hash": "a0938e159f39d5489e38a3ed3fa23ddb1129d3fc",
+    "parents": "b9dccf56cb140285ddae3c2c974b1cc743e34db1",
+    "subject": "Editorial: Remove a few <emu-prodref>s from Annex A"
+   },
+   {
+    "adate": "2019-08-04T17:39:27-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-02-04T23:26:02-05:00",
+    "hash": "b9dccf56cb140285ddae3c2c974b1cc743e34db1",
+    "parents": "733422863dbb8686eb9b9cce2f1c5317fc6abedb",
+    "subject": "Normative: Make B.1.3 \"HTML-like comments\" normative"
+   },
+   {
+    "adate": "2019-08-02T23:36:08-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-02-04T23:26:02-05:00",
+    "hash": "733422863dbb8686eb9b9cce2f1c5317fc6abedb",
+    "parents": "59384c18d5c4de486b3c98f1bf1aa5d062352ea0",
+    "subject": "Normative: Make B.1.2 \"String Literals\" normative."
+   },
+   {
+    "adate": "2019-07-31T08:33:51-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-02-04T23:26:01-05:00",
+    "hash": "59384c18d5c4de486b3c98f1bf1aa5d062352ea0",
+    "parents": "787642ad2d159c8358a8782c9414f6d5fb6efa6f",
+    "subject": "Normative: Make B.1.1 \"Numeric Literals\" normative."
+   }
+  ],
   "title": "Normative: Make B.1 \"Additional Syntax\" normative",
   "updated_at": "2020-02-09T02:19:34Z"
  },
@@ -230,6 +1064,88 @@
   "head": "e733b20a81782a04322ec2a16c1d108c981fbbf1",
   "login": "Ms2ger",
   "ref": "class-fields",
+  "revs": [
+   {
+    "adate": "2019-08-15T12:12:12+02:00",
+    "author": "Ms2ger",
+    "date": "2019-08-15T12:12:12+02:00",
+    "hash": "e733b20a81782a04322ec2a16c1d108c981fbbf1",
+    "parents": "a4a034869768ba0569ba80b759310914f334d5d7",
+    "subject": "fixup! Normative: Add public and private class fields."
+   },
+   {
+    "adate": "2019-08-14T12:02:00+02:00",
+    "author": "Ms2ger",
+    "date": "2019-08-14T12:12:31+02:00",
+    "hash": "a4a034869768ba0569ba80b759310914f334d5d7",
+    "parents": "32bb0060cb798e4b8017a11e278ae7fa5d2a5698",
+    "subject": "fixup! Normative: Add public and private class fields."
+   },
+   {
+    "adate": "2019-08-13T17:21:49+02:00",
+    "author": "Ms2ger",
+    "date": "2019-08-13T17:21:49+02:00",
+    "hash": "32bb0060cb798e4b8017a11e278ae7fa5d2a5698",
+    "parents": "e6db587baa66a2eb13207ca9b86889e2b6a6ac5a",
+    "subject": "Handle 'CallExpression  PrivateIdentifier' in some more places."
+   },
+   {
+    "adate": "2019-08-13T17:19:38+02:00",
+    "author": "Ms2ger",
+    "date": "2019-08-13T17:19:38+02:00",
+    "hash": "e6db587baa66a2eb13207ca9b86889e2b6a6ac5a",
+    "parents": "b0841a02095563e8a09c06ab935dc34e44f64ad4",
+    "subject": "Handle 'MemberExpression  PrivateIdentifier' in some more places."
+   },
+   {
+    "adate": "2019-08-13T15:54:35+02:00",
+    "author": "Ms2ger",
+    "date": "2019-08-13T15:54:35+02:00",
+    "hash": "b0841a02095563e8a09c06ab935dc34e44f64ad4",
+    "parents": "928df1a300c8c2057bb515480bcd58472c45b815",
+    "subject": "Define ComputedPropertyContains for FieldDefinition."
+   },
+   {
+    "adate": "2019-08-13T15:20:19+02:00",
+    "author": "Ms2ger",
+    "date": "2019-08-13T15:20:19+02:00",
+    "hash": "928df1a300c8c2057bb515480bcd58472c45b815",
+    "parents": "6ae3fb6ff50b8881849a53cb4c3edf9a0475419f",
+    "subject": "fixup! Normative: Add public and private class fields."
+   },
+   {
+    "adate": "2019-08-13T13:25:24+02:00",
+    "author": "Ms2ger",
+    "date": "2019-08-13T13:25:41+02:00",
+    "hash": "6ae3fb6ff50b8881849a53cb4c3edf9a0475419f",
+    "parents": "7bec88917d5f5e516d95b011b99d91151ee29e07",
+    "subject": "fixup! Normative: Add public and private class fields."
+   },
+   {
+    "adate": "2019-08-08T13:30:55+02:00",
+    "author": "Ms2ger",
+    "date": "2019-08-08T13:30:55+02:00",
+    "hash": "7bec88917d5f5e516d95b011b99d91151ee29e07",
+    "parents": "c4ab316f56d4731a5a2199d91e51f9c83d6940d5",
+    "subject": "fixup! Normative: Add public and private class fields."
+   },
+   {
+    "adate": "2019-08-08T12:59:56+02:00",
+    "author": "Ms2ger",
+    "date": "2019-08-08T13:05:02+02:00",
+    "hash": "c4ab316f56d4731a5a2199d91e51f9c83d6940d5",
+    "parents": "efd3feacfdf9197fe13cfd8bc951cca04cae93b7",
+    "subject": "fixup! Normative: Add public and private class fields."
+   },
+   {
+    "adate": "2019-08-05T11:18:34+02:00",
+    "author": "Ms2ger",
+    "date": "2019-08-08T13:05:01+02:00",
+    "hash": "efd3feacfdf9197fe13cfd8bc951cca04cae93b7",
+    "parents": "8f0f69279b5f9e12ebe8f7052322b93d17e36b54",
+    "subject": "Normative: Add public and private class fields."
+   }
+  ],
   "title": "(ignore) Normative: Add public and private class fields",
   "updated_at": "2020-01-27T17:28:07Z"
  },
@@ -239,6 +1155,16 @@
   "head": "867b83a2cab9d1c411121af271a19499bbbe719f",
   "login": "claudepache",
   "ref": "early-error-covering-assignment-pattern",
+  "revs": [
+   {
+    "adate": "2019-08-07T11:59:57+02:00",
+    "author": "Claude Pache",
+    "date": "2019-08-07T17:37:55+02:00",
+    "hash": "867b83a2cab9d1c411121af271a19499bbbe719f",
+    "parents": "a68d1296f156ff73075fde36aebd643de4f8ebde",
+    "subject": "Editorial: Refactor and correct Early Error rules for LeftHandSideExpression productions potentially covering an AssignmentPattern"
+   }
+  ],
   "title": "Editorial: Add two missing Early Error rules for productions covering an AssignmentPattern",
   "updated_at": "2020-02-01T07:56:54Z"
  },
@@ -248,6 +1174,16 @@
   "head": "6965b3b38c6f4076ff1aa7df8dfaa9c3d65893a2",
   "login": "jhnaldo",
   "ref": "pr1",
+  "revs": [
+   {
+    "adate": "2019-08-09T11:50:59+09:00",
+    "author": "jhnaldo",
+    "date": "2019-08-09T11:50:59+09:00",
+    "hash": "6965b3b38c6f4076ff1aa7df8dfaa9c3d65893a2",
+    "parents": "8f0f69279b5f9e12ebe8f7052322b93d17e36b54",
+    "subject": "Editorial: Remove assertion in InitializeBinding of Object Environment Record"
+   }
+  ],
   "title": "Editorial: Remove assertion in InitializeBinding of Object Environment Record",
   "updated_at": "2019-11-13T05:25:30Z"
  },
@@ -257,6 +1193,16 @@
   "head": "1d2e43da9d6ef7ebd7256281fe43d0eeb5da3a91",
   "login": "jhnaldo",
   "ref": "pr2",
+  "revs": [
+   {
+    "adate": "2019-08-09T11:51:49+09:00",
+    "author": "jhnaldo",
+    "date": "2019-08-09T11:51:49+09:00",
+    "hash": "1d2e43da9d6ef7ebd7256281fe43d0eeb5da3a91",
+    "parents": "8f0f69279b5f9e12ebe8f7052322b93d17e36b54",
+    "subject": "Editorial: Resolved ambiguous VarScopedDeclarations for IterationStatement"
+   }
+  ],
   "title": "Editorial: Resolved ambiguous VarScopedDeclarations for IterationStatement",
   "updated_at": "2019-08-09T21:50:49Z"
  },
@@ -266,6 +1212,16 @@
   "head": "0ad518535b5d60adc2a6320f0dae7c51a0ac2285",
   "login": "jhnaldo",
   "ref": "pr3",
+  "revs": [
+   {
+    "adate": "2019-08-09T11:55:08+09:00",
+    "author": "jhnaldo",
+    "date": "2019-08-09T11:55:08+09:00",
+    "hash": "0ad518535b5d60adc2a6320f0dae7c51a0ac2285",
+    "parents": "8f0f69279b5f9e12ebe8f7052322b93d17e36b54",
+    "subject": "Editorial: Added more missing cases for ExpectedArgumentCount for FormalParameters and FormalParameterList"
+   }
+  ],
   "title": "Editorial: Added more missing cases for ExpectedArgumentCount for FormalParameters and FormalParameterList",
   "updated_at": "2019-08-09T17:26:23Z"
  },
@@ -275,6 +1231,16 @@
   "head": "922cbdc1fe9421e0e24533fc6f219733e8d1be71",
   "login": "jhnaldo",
   "ref": "pr5",
+  "revs": [
+   {
+    "adate": "2019-08-09T12:38:07+09:00",
+    "author": "jhnaldo",
+    "date": "2019-08-09T12:38:07+09:00",
+    "hash": "922cbdc1fe9421e0e24533fc6f219733e8d1be71",
+    "parents": "8f0f69279b5f9e12ebe8f7052322b93d17e36b54",
+    "subject": "Editorial: Fixed error for already unwrapped completion records"
+   }
+  ],
   "title": "Editorial: Fixed error for already unwrapped completion records",
   "updated_at": "2019-11-06T23:17:48Z"
  },
@@ -284,6 +1250,40 @@
   "head": "10cf07662ed7e75a06033b332b58758878cc3bec",
   "login": "devsnek",
   "ref": "feature/built-in-suspendable-functions",
+  "revs": [
+   {
+    "adate": "2019-08-12T11:24:23-05:00",
+    "author": "Gus Caplan",
+    "date": "2019-08-12T11:24:23-05:00",
+    "hash": "10cf07662ed7e75a06033b332b58758878cc3bec",
+    "parents": "b9b079ba41805e514b2693edbeb02d8133919eaf",
+    "subject": "add normal async functions"
+   },
+   {
+    "adate": "2019-08-12T10:56:13-05:00",
+    "author": "Gus Caplan",
+    "date": "2019-08-12T10:56:13-05:00",
+    "hash": "b9b079ba41805e514b2693edbeb02d8133919eaf",
+    "parents": "6a165b42b4f54f4b483c79e2301d34bb6b02a389",
+    "subject": "set correct prototype in CreateBuiltinFunction"
+   },
+   {
+    "adate": "2019-08-11T20:43:23-05:00",
+    "author": "Gus Caplan",
+    "date": "2019-08-11T20:43:23-05:00",
+    "hash": "6a165b42b4f54f4b483c79e2301d34bb6b02a389",
+    "parents": "5c3098269d41f14531f86a0b6e2075a75eea38db",
+    "subject": "add prelude and body, fix [[Construct]]"
+   },
+   {
+    "adate": "2019-08-11T14:15:21-05:00",
+    "author": "Gus Caplan",
+    "date": "2019-08-11T14:15:21-05:00",
+    "hash": "5c3098269d41f14531f86a0b6e2075a75eea38db",
+    "parents": "8f0f69279b5f9e12ebe8f7052322b93d17e36b54",
+    "subject": "Editorial: enable built-in async and sync generator functions to be specified"
+   }
+  ],
   "title": "Editorial: enable built-in async and sync generator functions to be specified",
   "updated_at": "2019-11-14T06:25:28Z"
  },
@@ -293,6 +1293,96 @@
   "head": "9889a39127749a62d81dd25cdc98d51be8760f26",
   "login": "Ms2ger",
   "ref": "private-methods",
+  "revs": [
+   {
+    "adate": "2019-08-13T14:43:59+02:00",
+    "author": "Ms2ger",
+    "date": "2019-08-15T12:12:49+02:00",
+    "hash": "9889a39127749a62d81dd25cdc98d51be8760f26",
+    "parents": "e733b20a81782a04322ec2a16c1d108c981fbbf1",
+    "subject": "Normative: Add private methods and getter/setters."
+   },
+   {
+    "adate": "2019-08-15T12:12:12+02:00",
+    "author": "Ms2ger",
+    "date": "2019-08-15T12:12:12+02:00",
+    "hash": "e733b20a81782a04322ec2a16c1d108c981fbbf1",
+    "parents": "a4a034869768ba0569ba80b759310914f334d5d7",
+    "subject": "fixup! Normative: Add public and private class fields."
+   },
+   {
+    "adate": "2019-08-14T12:02:00+02:00",
+    "author": "Ms2ger",
+    "date": "2019-08-14T12:12:31+02:00",
+    "hash": "a4a034869768ba0569ba80b759310914f334d5d7",
+    "parents": "32bb0060cb798e4b8017a11e278ae7fa5d2a5698",
+    "subject": "fixup! Normative: Add public and private class fields."
+   },
+   {
+    "adate": "2019-08-13T17:21:49+02:00",
+    "author": "Ms2ger",
+    "date": "2019-08-13T17:21:49+02:00",
+    "hash": "32bb0060cb798e4b8017a11e278ae7fa5d2a5698",
+    "parents": "e6db587baa66a2eb13207ca9b86889e2b6a6ac5a",
+    "subject": "Handle 'CallExpression  PrivateIdentifier' in some more places."
+   },
+   {
+    "adate": "2019-08-13T17:19:38+02:00",
+    "author": "Ms2ger",
+    "date": "2019-08-13T17:19:38+02:00",
+    "hash": "e6db587baa66a2eb13207ca9b86889e2b6a6ac5a",
+    "parents": "b0841a02095563e8a09c06ab935dc34e44f64ad4",
+    "subject": "Handle 'MemberExpression  PrivateIdentifier' in some more places."
+   },
+   {
+    "adate": "2019-08-13T15:54:35+02:00",
+    "author": "Ms2ger",
+    "date": "2019-08-13T15:54:35+02:00",
+    "hash": "b0841a02095563e8a09c06ab935dc34e44f64ad4",
+    "parents": "928df1a300c8c2057bb515480bcd58472c45b815",
+    "subject": "Define ComputedPropertyContains for FieldDefinition."
+   },
+   {
+    "adate": "2019-08-13T15:20:19+02:00",
+    "author": "Ms2ger",
+    "date": "2019-08-13T15:20:19+02:00",
+    "hash": "928df1a300c8c2057bb515480bcd58472c45b815",
+    "parents": "6ae3fb6ff50b8881849a53cb4c3edf9a0475419f",
+    "subject": "fixup! Normative: Add public and private class fields."
+   },
+   {
+    "adate": "2019-08-13T13:25:24+02:00",
+    "author": "Ms2ger",
+    "date": "2019-08-13T13:25:41+02:00",
+    "hash": "6ae3fb6ff50b8881849a53cb4c3edf9a0475419f",
+    "parents": "7bec88917d5f5e516d95b011b99d91151ee29e07",
+    "subject": "fixup! Normative: Add public and private class fields."
+   },
+   {
+    "adate": "2019-08-08T13:30:55+02:00",
+    "author": "Ms2ger",
+    "date": "2019-08-08T13:30:55+02:00",
+    "hash": "7bec88917d5f5e516d95b011b99d91151ee29e07",
+    "parents": "c4ab316f56d4731a5a2199d91e51f9c83d6940d5",
+    "subject": "fixup! Normative: Add public and private class fields."
+   },
+   {
+    "adate": "2019-08-08T12:59:56+02:00",
+    "author": "Ms2ger",
+    "date": "2019-08-08T13:05:02+02:00",
+    "hash": "c4ab316f56d4731a5a2199d91e51f9c83d6940d5",
+    "parents": "efd3feacfdf9197fe13cfd8bc951cca04cae93b7",
+    "subject": "fixup! Normative: Add public and private class fields."
+   },
+   {
+    "adate": "2019-08-05T11:18:34+02:00",
+    "author": "Ms2ger",
+    "date": "2019-08-08T13:05:01+02:00",
+    "hash": "efd3feacfdf9197fe13cfd8bc951cca04cae93b7",
+    "parents": "8f0f69279b5f9e12ebe8f7052322b93d17e36b54",
+    "subject": "Normative: Add public and private class fields."
+   }
+  ],
   "title": "(ignore) Normative: Add private methods and getter/setters.",
   "updated_at": "2019-09-02T19:56:55Z"
  },
@@ -302,6 +1392,512 @@
   "head": "f8e205ddf32a6ad25d6b48a1db8faed0c3534197",
   "login": "Ms2ger",
   "ref": "static-fields",
+  "revs": [
+   {
+    "adate": "2019-09-05T14:29:48+02:00",
+    "author": "Ms2ger",
+    "date": "2019-09-05T14:29:48+02:00",
+    "hash": "f8e205ddf32a6ad25d6b48a1db8faed0c3534197",
+    "parents": "df1aaa6a4ac8495d4290af528fd2c4e7e91f4a6a",
+    "subject": "Comma."
+   },
+   {
+    "adate": "2019-09-05T12:34:04+02:00",
+    "author": "Ms2ger",
+    "date": "2019-09-05T12:34:04+02:00",
+    "hash": "df1aaa6a4ac8495d4290af528fd2c4e7e91f4a6a",
+    "parents": "11da30cc4d76db62fbb615036b551569b4348813",
+    "subject": "Initialize [[ClassFieldInitializer]]."
+   },
+   {
+    "adate": "2019-09-05T10:57:20+02:00",
+    "author": "Ms2ger",
+    "date": "2019-09-05T10:57:20+02:00",
+    "hash": "11da30cc4d76db62fbb615036b551569b4348813",
+    "parents": "c74d95e972f62fe202aa5f7e8559d1a31cfb217b",
+    "subject": "fixup! Change _F_ to _func_"
+   },
+   {
+    "adate": "2019-09-04T22:32:23-04:00",
+    "author": "Michael Dyck",
+    "date": "2019-09-05T10:35:17+02:00",
+    "hash": "c74d95e972f62fe202aa5f7e8559d1a31cfb217b",
+    "parents": "86b132dd2cf58c761f3b172579db239b1d993f95",
+    "subject": "Update some step-number references in Annex B"
+   },
+   {
+    "adate": "2019-09-04T21:54:49-04:00",
+    "author": "Michael Dyck",
+    "date": "2019-09-05T10:35:17+02:00",
+    "hash": "86b132dd2cf58c761f3b172579db239b1d993f95",
+    "parents": "7a02c8747ff9fa98cfc19e45e18ea0bb0c31d275",
+    "subject": "The bindings aren't in _privEnv_, they're in _privEnv_'s EnvironmentRecord"
+   },
+   {
+    "adate": "2019-09-04T21:51:58-04:00",
+    "author": "Michael Dyck",
+    "date": "2019-09-05T10:35:17+02:00",
+    "hash": "7a02c8747ff9fa98cfc19e45e18ea0bb0c31d275",
+    "parents": "106688f08054ad3fed2ca9d7473df78b54a2e0a9",
+    "subject": "Change some _privateEnv_ to _privEnv_"
+   },
+   {
+    "adate": "2019-09-04T21:47:54-04:00",
+    "author": "Michael Dyck",
+    "date": "2019-09-05T10:35:17+02:00",
+    "hash": "106688f08054ad3fed2ca9d7473df78b54a2e0a9",
+    "parents": "e23987d33362a02d74df985a9e6f8d359762db3a",
+    "subject": "Add _privateEnv_ parameter to EvalDeclarationInstantiation"
+   },
+   {
+    "adate": "2019-09-04T21:41:08-04:00",
+    "author": "Michael Dyck",
+    "date": "2019-09-05T10:35:17+02:00",
+    "hash": "e23987d33362a02d74df985a9e6f8d359762db3a",
+    "parents": "4bb7f60978e987d84c5586f9e7b99df7ccda9c5d",
+    "subject": "Insert an assertion re the type of _privateName_"
+   },
+   {
+    "adate": "2019-09-04T21:39:15-04:00",
+    "author": "Michael Dyck",
+    "date": "2019-09-05T10:35:17+02:00",
+    "hash": "4bb7f60978e987d84c5586f9e7b99df7ccda9c5d",
+    "parents": "96b97a6bff3aeb76076b7f80fb5d105d51859f27",
+    "subject": "Change _field_ to _fieldRecord_"
+   },
+   {
+    "adate": "2019-09-04T21:34:20-04:00",
+    "author": "Michael Dyck",
+    "date": "2019-09-05T10:35:17+02:00",
+    "hash": "96b97a6bff3aeb76076b7f80fb5d105d51859f27",
+    "parents": "298a05969b93717a3161d425e425965e26b2d1b4",
+    "subject": "Change \"is not ~empty~\" to \"is a ClassFieldDefinition Record\""
+   },
+   {
+    "adate": "2019-09-04T21:33:40-04:00",
+    "author": "Michael Dyck",
+    "date": "2019-09-05T10:35:17+02:00",
+    "hash": "298a05969b93717a3161d425e425965e26b2d1b4",
+    "parents": "06b3321d00c08ff39527753e26d1b29ec3ef1a96",
+    "subject": "Insert some ! and ?"
+   },
+   {
+    "adate": "2019-09-04T21:32:26-04:00",
+    "author": "Michael Dyck",
+    "date": "2019-09-05T10:35:17+02:00",
+    "hash": "06b3321d00c08ff39527753e26d1b29ec3ef1a96",
+    "parents": "b55a9e477229ca73c2ead93178c88ca194983825",
+    "subject": "Add missing case for ClassElementEvaluation"
+   },
+   {
+    "adate": "2019-09-04T21:31:38-04:00",
+    "author": "Michael Dyck",
+    "date": "2019-09-05T10:35:17+02:00",
+    "hash": "b55a9e477229ca73c2ead93178c88ca194983825",
+    "parents": "7907b29bde213b6c86df96d10c602d46519b9131",
+    "subject": "_isAnonymousFunctionDeclaration_ -> _isAnonymousFunctionDefinition_"
+   },
+   {
+    "adate": "2019-09-04T21:08:20-04:00",
+    "author": "Michael Dyck",
+    "date": "2019-09-05T10:35:17+02:00",
+    "hash": "7907b29bde213b6c86df96d10c602d46519b9131",
+    "parents": "7ac9c8d184f06f524d512b9c926344729f4f4680",
+    "subject": "Change \"Lexical Environment\" to \"LexicalEnvironment\""
+   },
+   {
+    "adate": "2019-09-04T21:05:13-04:00",
+    "author": "Michael Dyck",
+    "date": "2019-09-05T10:35:17+02:00",
+    "hash": "7ac9c8d184f06f524d512b9c926344729f4f4680",
+    "parents": "c9a8e9b57906dfd8ab8912471ff82437079d77c5",
+    "subject": "Add a missing case for IsStatic."
+   },
+   {
+    "adate": "2019-09-04T21:03:01-04:00",
+    "author": "Michael Dyck",
+    "date": "2019-09-05T10:35:17+02:00",
+    "hash": "c9a8e9b57906dfd8ab8912471ff82437079d77c5",
+    "parents": "0b06dc1d1c1c0d1c8d56fc265e33109fc525780d",
+    "subject": "Fix a couple productions so that they match the definition"
+   },
+   {
+    "adate": "2019-09-04T20:54:07-04:00",
+    "author": "Michael Dyck",
+    "date": "2019-09-05T10:35:17+02:00",
+    "hash": "0b06dc1d1c1c0d1c8d56fc265e33109fc525780d",
+    "parents": "e669c035d61d827cacc1ea9853c402734c92ab5f",
+    "subject": "Tweak grammatical parameters in 'FieldDefinition' production"
+   },
+   {
+    "adate": "2019-09-04T20:53:04-04:00",
+    "author": "Michael Dyck",
+    "date": "2019-09-05T10:35:17+02:00",
+    "hash": "e669c035d61d827cacc1ea9853c402734c92ab5f",
+    "parents": "37af34e5b85b0aae070616c63169c48aa4ea6fd9",
+    "subject": "Delete call to SetFunctionName"
+   },
+   {
+    "adate": "2019-09-04T20:50:27-04:00",
+    "author": "Michael Dyck",
+    "date": "2019-09-05T10:35:17+02:00",
+    "hash": "37af34e5b85b0aae070616c63169c48aa4ea6fd9",
+    "parents": "b06c7e3fd477ed994d0e901894c86237d8763184",
+    "subject": "Change a bunch of |PropertyName| to |ClassElementName|"
+   },
+   {
+    "adate": "2019-09-04T20:48:03-04:00",
+    "author": "Michael Dyck",
+    "date": "2019-09-05T10:35:17+02:00",
+    "hash": "b06c7e3fd477ed994d0e901894c86237d8763184",
+    "parents": "cc9cfedb80285b121c675a436ea78dd913d0b9e6",
+    "subject": "Two calls to FunctionCreate were missing the new _privateScope_ arg"
+   },
+   {
+    "adate": "2019-09-04T20:46:47-04:00",
+    "author": "Michael Dyck",
+    "date": "2019-09-05T10:35:17+02:00",
+    "hash": "cc9cfedb80285b121c675a436ea78dd913d0b9e6",
+    "parents": "c2646bd24edddafb525e298a18ea242ae18aaf34",
+    "subject": "Change _F_ to _func_"
+   },
+   {
+    "adate": "2019-09-04T20:45:30-04:00",
+    "author": "Michael Dyck",
+    "date": "2019-09-05T10:35:17+02:00",
+    "hash": "c2646bd24edddafb525e298a18ea242ae18aaf34",
+    "parents": "431fa1a928b48c131aec5369837e4237c42284e3",
+    "subject": "Simplify the StringValue of PrivateIdentifier"
+   },
+   {
+    "adate": "2019-09-04T20:44:09-04:00",
+    "author": "Michael Dyck",
+    "date": "2019-09-05T10:35:17+02:00",
+    "hash": "431fa1a928b48c131aec5369837e4237c42284e3",
+    "parents": "a027c469a353aa199494ed3d916daf41886811cb",
+    "subject": "The name passed to SetFunctionName can now be a Private Name"
+   },
+   {
+    "adate": "2019-09-04T20:41:15-04:00",
+    "author": "Michael Dyck",
+    "date": "2019-09-05T10:35:17+02:00",
+    "hash": "a027c469a353aa199494ed3d916daf41886811cb",
+    "parents": "e1a1f270aac2f3ec91a7502ffce6b880dae25ab9",
+    "subject": "PrivateEnvironment is for Private Names from |ClassElement|s"
+   },
+   {
+    "adate": "2019-09-04T20:40:32-04:00",
+    "author": "Michael Dyck",
+    "date": "2019-09-05T10:35:17+02:00",
+    "hash": "e1a1f270aac2f3ec91a7502ffce6b880dae25ab9",
+    "parents": "f2df70997a9f10aafcc17f34d2ea5339cebb90a0",
+    "subject": "Delete \"internal\" from \"internal Private Names\""
+   },
+   {
+    "adate": "2019-09-04T20:38:35-04:00",
+    "author": "Michael Dyck",
+    "date": "2019-09-05T10:35:17+02:00",
+    "hash": "f2df70997a9f10aafcc17f34d2ea5339cebb90a0",
+    "parents": "e8d303cd671bcf04872d7a431ca3281e72fbe7a8",
+    "subject": "NewDeclarativeEnvironment can now be invoked with a *null* argument"
+   },
+   {
+    "adate": "2019-09-04T20:33:52-04:00",
+    "author": "Michael Dyck",
+    "date": "2019-09-05T10:35:17+02:00",
+    "hash": "e8d303cd671bcf04872d7a431ca3281e72fbe7a8",
+    "parents": "6b6d937a402e2d2102b22fb6c260fd0bf3e8f598",
+    "subject": "Delete extraneous \"public\" from clause id"
+   },
+   {
+    "adate": "2019-09-04T20:33:10-04:00",
+    "author": "Michael Dyck",
+    "date": "2019-09-05T10:35:17+02:00",
+    "hash": "6b6d937a402e2d2102b22fb6c260fd0bf3e8f598",
+    "parents": "ad3c30a2091c9f2835688f7ae33b885b32e5e35c",
+    "subject": "Insert missing underscores around alias name"
+   },
+   {
+    "adate": "2019-09-04T20:31:09-04:00",
+    "author": "Michael Dyck",
+    "date": "2019-09-05T10:35:17+02:00",
+    "hash": "ad3c30a2091c9f2835688f7ae33b885b32e5e35c",
+    "parents": "d838882d72a32ab3f224907aff9cee6b2ae242c1",
+    "subject": "Use the type name before Record \"literals\""
+   },
+   {
+    "adate": "2019-09-04T20:24:39-04:00",
+    "author": "Michael Dyck",
+    "date": "2019-09-05T10:35:17+02:00",
+    "hash": "d838882d72a32ab3f224907aff9cee6b2ae242c1",
+    "parents": "3dfe17974fdaf57be9c52c05ffe1ec2414f77207",
+    "subject": "Simplify assertion."
+   },
+   {
+    "adate": "2019-09-04T20:24:00-04:00",
+    "author": "Michael Dyck",
+    "date": "2019-09-05T10:35:17+02:00",
+    "hash": "3dfe17974fdaf57be9c52c05ffe1ec2414f77207",
+    "parents": "d907cf51742815b9915d6b8b41af6cd63cba4b51",
+    "subject": "Change ~string~ to String."
+   },
+   {
+    "adate": "2019-09-04T20:23:07-04:00",
+    "author": "Michael Dyck",
+    "date": "2019-09-05T10:35:17+02:00",
+    "hash": "d907cf51742815b9915d6b8b41af6cd63cba4b51",
+    "parents": "2ce3f3edde1bf901d03bc100383dfd76d403a929",
+    "subject": "Better 'id' for \"Fields of the Private Name\" table"
+   },
+   {
+    "adate": "2019-09-04T20:20:30-04:00",
+    "author": "Michael Dyck",
+    "date": "2019-09-05T10:35:17+02:00",
+    "hash": "2ce3f3edde1bf901d03bc100383dfd76d403a929",
+    "parents": "6e11d85558dd2b523902e7419a33d51aa7c1af9f",
+    "subject": "Change \"the PrivateFieldAdd internal algorithm\" to just \"PrivateFieldAdd\""
+   },
+   {
+    "adate": "2019-09-04T20:19:38-04:00",
+    "author": "Michael Dyck",
+    "date": "2019-09-05T10:35:17+02:00",
+    "hash": "6e11d85558dd2b523902e7419a33d51aa7c1af9f",
+    "parents": "5f9115c6e1dc664b30ade54fd717268c849b4f2e",
+    "subject": "Acknowledge that a Reference's referenced name component can be a Private Name"
+   },
+   {
+    "adate": "2019-09-04T20:17:26-04:00",
+    "author": "Michael Dyck",
+    "date": "2019-09-05T10:35:17+02:00",
+    "hash": "5f9115c6e1dc664b30ade54fd717268c849b4f2e",
+    "parents": "9709614405a9751a90cbd77a6afe7e8ed24e5038",
+    "subject": "This para is talking about [[PrivateBrands]] (plural)"
+   },
+   {
+    "adate": "2019-09-04T13:18:06-04:00",
+    "author": "Michael Dyck",
+    "date": "2019-09-05T10:35:17+02:00",
+    "hash": "9709614405a9751a90cbd77a6afe7e8ed24e5038",
+    "parents": "54fc42593ba28190af87175440e1516e8169dbf6",
+    "subject": "A clause that doesn't define an abstract operation shouldn't have an 'aoid' attribute"
+   },
+   {
+    "adate": "2019-09-04T13:16:39-04:00",
+    "author": "Michael Dyck",
+    "date": "2019-09-05T10:35:17+02:00",
+    "hash": "54fc42593ba28190af87175440e1516e8169dbf6",
+    "parents": "0f8d3686ffbd82bcb2f25851063333d07807cdf1",
+    "subject": "Within an <emu-alg>, we use \"NOTE\", not <emu-note>"
+   },
+   {
+    "adate": "2019-09-04T13:12:21-04:00",
+    "author": "Michael Dyck",
+    "date": "2019-09-05T10:35:17+02:00",
+    "hash": "0f8d3686ffbd82bcb2f25851063333d07807cdf1",
+    "parents": "c9d2403173f681bd8a6f2120353d45ce55919183",
+    "subject": "Put <p>..</p> tags around \"bare\" text."
+   },
+   {
+    "adate": "2019-09-04T13:10:18-04:00",
+    "author": "Michael Dyck",
+    "date": "2019-09-05T10:35:17+02:00",
+    "hash": "c9d2403173f681bd8a6f2120353d45ce55919183",
+    "parents": "0d3d39bed6c082911990ca0d605a9ec004207e43",
+    "subject": "Remove grammatical parameters from non-defining productions"
+   },
+   {
+    "adate": "2019-09-04T13:05:02-04:00",
+    "author": "Michael Dyck",
+    "date": "2019-09-05T10:35:17+02:00",
+    "hash": "0d3d39bed6c082911990ca0d605a9ec004207e43",
+    "parents": "046649761f03efceb5338c6a85e51326e1bfe328",
+    "subject": "Miscellaneous tweaks to wording + punctuation in pseudocode"
+   },
+   {
+    "adate": "2019-09-04T12:51:53-04:00",
+    "author": "Michael Dyck",
+    "date": "2019-09-05T10:35:17+02:00",
+    "hash": "046649761f03efceb5338c6a85e51326e1bfe328",
+    "parents": "572a3888c13e1010c5124787e3a30ec6eb9f7ce9",
+    "subject": "Change \"Otherwise\" to \"Else\""
+   },
+   {
+    "adate": "2019-09-04T12:50:16-04:00",
+    "author": "Michael Dyck",
+    "date": "2019-09-05T10:35:17+02:00",
+    "hash": "572a3888c13e1010c5124787e3a30ec6eb9f7ce9",
+    "parents": "91bedcf77b9131cb445ef31fdd87bebbadc846e8",
+    "subject": "Delete \"the\" from \"with the argument\""
+   },
+   {
+    "adate": "2019-09-04T12:49:03-04:00",
+    "author": "Michael Dyck",
+    "date": "2019-09-05T10:35:17+02:00",
+    "hash": "91bedcf77b9131cb445ef31fdd87bebbadc846e8",
+    "parents": "833349aac3d9dd5c04ef0f0da3655426f8a4a2d9",
+    "subject": "Append \"do\" to \"For each\" steps"
+   },
+   {
+    "adate": "2019-09-04T12:45:35-04:00",
+    "author": "Michael Dyck",
+    "date": "2019-09-05T10:35:17+02:00",
+    "hash": "833349aac3d9dd5c04ef0f0da3655426f8a4a2d9",
+    "parents": "dc954ce4b1f0f4c87b448a9045c8e5e67f64fe90",
+    "subject": "Append \"then\" to \"If\" steps"
+   },
+   {
+    "adate": "2019-09-04T11:04:06-04:00",
+    "author": "Michael Dyck",
+    "date": "2019-09-05T10:35:17+02:00",
+    "hash": "dc954ce4b1f0f4c87b448a9045c8e5e67f64fe90",
+    "parents": "302cd1763a7dbc31df01cd61119a3d582c22c4df",
+    "subject": "Join up a step broken over multiple lines."
+   },
+   {
+    "adate": "2019-09-04T11:03:21-04:00",
+    "author": "Michael Dyck",
+    "date": "2019-09-05T10:35:17+02:00",
+    "hash": "302cd1763a7dbc31df01cd61119a3d582c22c4df",
+    "parents": "e67166eed43fb36c13a162551b80302b6b0b863b",
+    "subject": "Reference new productions from Annex A."
+   },
+   {
+    "adate": "2019-09-04T11:01:08-04:00",
+    "author": "Michael Dyck",
+    "date": "2019-09-05T10:35:17+02:00",
+    "hash": "e67166eed43fb36c13a162551b80302b6b0b863b",
+    "parents": "532682b1cc7fbd667940dc71ce88eac10aca4c52",
+    "subject": "Insert blank line between separate productions in <emi-grammar>"
+   },
+   {
+    "adate": "2019-09-04T10:43:11-04:00",
+    "author": "Michael Dyck",
+    "date": "2019-09-05T10:35:17+02:00",
+    "hash": "532682b1cc7fbd667940dc71ce88eac10aca4c52",
+    "parents": "4a397253076b533a4d47f24b590780e4935c9812",
+    "subject": "Move the definition of 'PrivateIdentifier' to a more appropriate spot."
+   },
+   {
+    "adate": "2019-09-04T10:39:45-04:00",
+    "author": "Michael Dyck",
+    "date": "2019-09-05T10:35:17+02:00",
+    "hash": "4a397253076b533a4d47f24b590780e4935c9812",
+    "parents": "35efa8bf271f959c340995ca8abe7b88e05e934e",
+    "subject": "Move \"Runtime Semantics: ClassFieldDefinitionEvaluation\""
+   },
+   {
+    "adate": "2019-09-04T10:37:33-04:00",
+    "author": "Michael Dyck",
+    "date": "2019-09-05T10:35:17+02:00",
+    "hash": "35efa8bf271f959c340995ca8abe7b88e05e934e",
+    "parents": "9eb9aafa78ab8dcce6092c3ad056daea8bd4bd6a",
+    "subject": "Move \"Runtime Semantics: ClassElementEvaluation\""
+   },
+   {
+    "adate": "2019-09-04T10:32:59-04:00",
+    "author": "Michael Dyck",
+    "date": "2019-09-05T10:35:17+02:00",
+    "hash": "9eb9aafa78ab8dcce6092c3ad056daea8bd4bd6a",
+    "parents": "28147feb72d02951199f4598eeda8714b1850cb2",
+    "subject": "Move DefineOrdinaryMethod()"
+   },
+   {
+    "adate": "2019-08-14T15:30:19+02:00",
+    "author": "Ms2ger",
+    "date": "2019-08-15T12:13:39+02:00",
+    "hash": "28147feb72d02951199f4598eeda8714b1850cb2",
+    "parents": "9889a39127749a62d81dd25cdc98d51be8760f26",
+    "subject": "Normative: Add static fields."
+   },
+   {
+    "adate": "2019-08-13T14:43:59+02:00",
+    "author": "Ms2ger",
+    "date": "2019-08-15T12:12:49+02:00",
+    "hash": "9889a39127749a62d81dd25cdc98d51be8760f26",
+    "parents": "e733b20a81782a04322ec2a16c1d108c981fbbf1",
+    "subject": "Normative: Add private methods and getter/setters."
+   },
+   {
+    "adate": "2019-08-15T12:12:12+02:00",
+    "author": "Ms2ger",
+    "date": "2019-08-15T12:12:12+02:00",
+    "hash": "e733b20a81782a04322ec2a16c1d108c981fbbf1",
+    "parents": "a4a034869768ba0569ba80b759310914f334d5d7",
+    "subject": "fixup! Normative: Add public and private class fields."
+   },
+   {
+    "adate": "2019-08-14T12:02:00+02:00",
+    "author": "Ms2ger",
+    "date": "2019-08-14T12:12:31+02:00",
+    "hash": "a4a034869768ba0569ba80b759310914f334d5d7",
+    "parents": "32bb0060cb798e4b8017a11e278ae7fa5d2a5698",
+    "subject": "fixup! Normative: Add public and private class fields."
+   },
+   {
+    "adate": "2019-08-13T17:21:49+02:00",
+    "author": "Ms2ger",
+    "date": "2019-08-13T17:21:49+02:00",
+    "hash": "32bb0060cb798e4b8017a11e278ae7fa5d2a5698",
+    "parents": "e6db587baa66a2eb13207ca9b86889e2b6a6ac5a",
+    "subject": "Handle 'CallExpression  PrivateIdentifier' in some more places."
+   },
+   {
+    "adate": "2019-08-13T17:19:38+02:00",
+    "author": "Ms2ger",
+    "date": "2019-08-13T17:19:38+02:00",
+    "hash": "e6db587baa66a2eb13207ca9b86889e2b6a6ac5a",
+    "parents": "b0841a02095563e8a09c06ab935dc34e44f64ad4",
+    "subject": "Handle 'MemberExpression  PrivateIdentifier' in some more places."
+   },
+   {
+    "adate": "2019-08-13T15:54:35+02:00",
+    "author": "Ms2ger",
+    "date": "2019-08-13T15:54:35+02:00",
+    "hash": "b0841a02095563e8a09c06ab935dc34e44f64ad4",
+    "parents": "928df1a300c8c2057bb515480bcd58472c45b815",
+    "subject": "Define ComputedPropertyContains for FieldDefinition."
+   },
+   {
+    "adate": "2019-08-13T15:20:19+02:00",
+    "author": "Ms2ger",
+    "date": "2019-08-13T15:20:19+02:00",
+    "hash": "928df1a300c8c2057bb515480bcd58472c45b815",
+    "parents": "6ae3fb6ff50b8881849a53cb4c3edf9a0475419f",
+    "subject": "fixup! Normative: Add public and private class fields."
+   },
+   {
+    "adate": "2019-08-13T13:25:24+02:00",
+    "author": "Ms2ger",
+    "date": "2019-08-13T13:25:41+02:00",
+    "hash": "6ae3fb6ff50b8881849a53cb4c3edf9a0475419f",
+    "parents": "7bec88917d5f5e516d95b011b99d91151ee29e07",
+    "subject": "fixup! Normative: Add public and private class fields."
+   },
+   {
+    "adate": "2019-08-08T13:30:55+02:00",
+    "author": "Ms2ger",
+    "date": "2019-08-08T13:30:55+02:00",
+    "hash": "7bec88917d5f5e516d95b011b99d91151ee29e07",
+    "parents": "c4ab316f56d4731a5a2199d91e51f9c83d6940d5",
+    "subject": "fixup! Normative: Add public and private class fields."
+   },
+   {
+    "adate": "2019-08-08T12:59:56+02:00",
+    "author": "Ms2ger",
+    "date": "2019-08-08T13:05:02+02:00",
+    "hash": "c4ab316f56d4731a5a2199d91e51f9c83d6940d5",
+    "parents": "efd3feacfdf9197fe13cfd8bc951cca04cae93b7",
+    "subject": "fixup! Normative: Add public and private class fields."
+   },
+   {
+    "adate": "2019-08-05T11:18:34+02:00",
+    "author": "Ms2ger",
+    "date": "2019-08-08T13:05:01+02:00",
+    "hash": "efd3feacfdf9197fe13cfd8bc951cca04cae93b7",
+    "parents": "8f0f69279b5f9e12ebe8f7052322b93d17e36b54",
+    "subject": "Normative: Add public and private class fields."
+   }
+  ],
   "title": "Normative: Add public and private class fields, static class features, private methods & getters/setters",
   "updated_at": "2019-09-05T15:04:14Z"
  },
@@ -311,6 +1907,16 @@
   "head": "74182ab0111fbdf903137be67d104a66d6d72c8c",
   "login": "devsnek",
   "ref": "fix/evaluate-timing",
+  "revs": [
+   {
+    "adate": "2019-08-14T15:33:25-05:00",
+    "author": "Gus Caplan",
+    "date": "2019-09-04T22:14:11-07:00",
+    "hash": "74182ab0111fbdf903137be67d104a66d6d72c8c",
+    "parents": "85f905aff137a7f0872c48e16d6b883b7b46212a",
+    "subject": "Normative: Prevent DFS invariants from being broken (#1669)"
+   }
+  ],
   "title": "Normative: Prevent DFS invariants from being broken",
   "updated_at": "2019-10-16T05:56:18Z"
  },
@@ -320,6 +1926,40 @@
   "head": "ffa6cba4b76f99d858eb93d7a582006704ecd2d8",
   "login": "Gurigraphics",
   "ref": "patch-1",
+  "revs": [
+   {
+    "adate": "2019-09-05T19:09:41-03:00",
+    "author": "Gurigraphics",
+    "date": "2019-09-05T19:09:41-03:00",
+    "hash": "ffa6cba4b76f99d858eb93d7a582006704ecd2d8",
+    "parents": "096b319bb1bc0ce41f901986a2d5c7344f8675f6",
+    "subject": "Direct link to specific topic in CONTRIBUTING.md"
+   },
+   {
+    "adate": "2019-09-05T19:03:50-03:00",
+    "author": "Gurigraphics",
+    "date": "2019-09-05T19:03:50-03:00",
+    "hash": "096b319bb1bc0ce41f901986a2d5c7344f8675f6",
+    "parents": "8d3bbba440e7eb2a05c2b33d67da6e0526d91e80",
+    "subject": "Option to encourage click"
+   },
+   {
+    "adate": "2019-09-05T18:46:36-03:00",
+    "author": "Gurigraphics",
+    "date": "2019-09-05T18:46:36-03:00",
+    "hash": "8d3bbba440e7eb2a05c2b33d67da6e0526d91e80",
+    "parents": "a8f43b33c8cac5f954c647f258a65ee309edcf21",
+    "subject": "Update .github/ISSUE_TEMPLATE/2-feature-request.md"
+   },
+   {
+    "adate": "2019-09-04T17:39:18-03:00",
+    "author": "Gurigraphics",
+    "date": "2019-09-05T11:00:51-07:00",
+    "hash": "a8f43b33c8cac5f954c647f258a65ee309edcf21",
+    "parents": "85f905aff137a7f0872c48e16d6b883b7b46212a",
+    "subject": "meta: make \"new feature\" issue template clearer (#1687)"
+   }
+  ],
   "title": "meta: make \"new feature\" issue template clearer",
   "updated_at": "2019-09-06T15:44:39Z"
  },
@@ -329,6 +1969,24 @@
   "head": "1afead8afd80e05738394f6bbe854d4f7083c291",
   "login": "devsnek",
   "ref": "feature/diff-prs",
+  "revs": [
+   {
+    "adate": "2019-09-05T13:20:52-05:00",
+    "author": "Gus Caplan",
+    "date": "2019-09-05T18:37:10-05:00",
+    "hash": "1afead8afd80e05738394f6bbe854d4f7083c291",
+    "parents": "6eb8a1393e90d2f31e338987a08f53032bc36019",
+    "subject": "delete me"
+   },
+   {
+    "adate": "2019-09-05T13:13:32-05:00",
+    "author": "Gus Caplan",
+    "date": "2019-09-05T18:37:07-05:00",
+    "hash": "6eb8a1393e90d2f31e338987a08f53032bc36019",
+    "parents": "85f905aff137a7f0872c48e16d6b883b7b46212a",
+    "subject": "meta: show diffs on pr renders"
+   }
+  ],
   "title": "[WIP] meta: show diffs on pr renders",
   "updated_at": "2019-09-06T19:31:56Z"
  },
@@ -338,6 +1996,56 @@
   "head": "dfd5a6d68e68c81eb243145a07ac0c4ad58839ed",
   "login": "jmdyck",
   "ref": "eliminate-lex-env",
+  "revs": [
+   {
+    "adate": "2019-09-16T15:29:19-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-02-13T16:42:32-05:00",
+    "hash": "dfd5a6d68e68c81eb243145a07ac0c4ad58839ed",
+    "parents": "3c6743681bf27239eb7ad2654bb7cc397accf466",
+    "subject": "Specify a particular subtype of Environment Record"
+   },
+   {
+    "adate": "2019-09-16T14:05:50-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-02-13T16:42:32-05:00",
+    "hash": "3c6743681bf27239eb7ad2654bb7cc397accf466",
+    "parents": "51e01d9522fff6615234f73611b7a66977f9933e",
+    "subject": "Add <dfn> elements for subtypes of Environment Record"
+   },
+   {
+    "adate": "2019-09-16T12:57:39-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-02-13T16:42:32-05:00",
+    "hash": "51e01d9522fff6615234f73611b7a66977f9933e",
+    "parents": "6114846f5066ddf70e899b95eaa9d003207c84c6",
+    "subject": "Reorg the intro for Environment Records and the former Lexical Environments"
+   },
+   {
+    "adate": "2019-09-16T10:26:02-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-02-13T16:42:32-05:00",
+    "hash": "6114846f5066ddf70e899b95eaa9d003207c84c6",
+    "parents": "6c7a318f688245946d691f1323a314a04fbc91b5",
+    "subject": "Eliminate remaining mentions of Lexical Environment"
+   },
+   {
+    "adate": "2019-09-16T10:08:07-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-02-13T16:42:32-05:00",
+    "hash": "6c7a318f688245946d691f1323a314a04fbc91b5",
+    "parents": "d695118179c0761e499789482a655eea492f3768",
+    "subject": "Merge Lexical Environment into Environment Record in algorithms"
+   },
+   {
+    "adate": "2019-09-15T20:14:44-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-02-13T16:41:14-05:00",
+    "hash": "d695118179c0761e499789482a655eea492f3768",
+    "parents": "823aad1e08b5680229d67283371912950d19e581",
+    "subject": "Replace \"outer environment reference\" with [[OuterEnv]]"
+   }
+  ],
   "title": "Editorial: Eliminate Lexical Environment",
   "updated_at": "2020-02-13T21:43:33Z"
  },
@@ -347,6 +2055,24 @@
   "head": "ead3d3f6c4cd5cb13266bb226c4d9b58e49e29c3",
   "login": "rbuckton",
   "ref": "regexp-match-indices",
+  "revs": [
+   {
+    "adate": "2019-10-01T17:30:04-07:00",
+    "author": "Ron Buckton",
+    "date": "2019-10-01T17:30:04-07:00",
+    "hash": "ead3d3f6c4cd5cb13266bb226c4d9b58e49e29c3",
+    "parents": "ba92766cadb6ce464ceba2f52ceb46b2b877fdcf",
+    "subject": "Apply suggestions from code review"
+   },
+   {
+    "adate": "2019-10-01T09:28:17-07:00",
+    "author": "Ron Buckton",
+    "date": "2019-10-01T17:24:54-07:00",
+    "hash": "ba92766cadb6ce464ceba2f52ceb46b2b877fdcf",
+    "parents": "20706ef77f8d4f9aa149412695363fc69e62ea88",
+    "subject": "Add spec text for regexp-match-indices"
+   }
+  ],
   "title": "Normative: add RegExp Match Indices",
   "updated_at": "2019-10-03T18:35:39Z"
  },
@@ -356,6 +2082,24 @@
   "head": "a222ba635a0b666995e58048c26943b058be7813",
   "login": "gibson042",
   "ref": "2019-10-main-grammar-disambiguation",
+  "revs": [
+   {
+    "adate": "2019-10-07T20:44:05-04:00",
+    "author": "Richard Gibson",
+    "date": "2019-10-07T20:44:05-04:00",
+    "hash": "a222ba635a0b666995e58048c26943b058be7813",
+    "parents": "da244abb353773f0ecb8d15ae499ca8cd525ef59",
+    "subject": "Editorial: Replace post-NumericLiteral lookahead prose with formal assertions"
+   },
+   {
+    "adate": "2019-10-07T20:17:59-04:00",
+    "author": "Richard Gibson",
+    "date": "2019-10-07T20:17:59-04:00",
+    "hash": "da244abb353773f0ecb8d15ae499ca8cd525ef59",
+    "parents": "693e09a4b9ce52b060ceda897b042c3f83f0a738",
+    "subject": "Editorial: Formalize consumption of surrogate pairs in Unicode regular expressions"
+   }
+  ],
   "title": "Editorial: Formally disambiguate the non-Annex-B grammar",
   "updated_at": "2020-01-03T16:41:29Z"
  },
@@ -365,6 +2109,64 @@
   "head": "1ab6c465dc3e8f744e2d81cc40271d718a68510c",
   "login": "gibson042",
   "ref": "gh-1426-GetSubstitution-dollar-nn",
+  "revs": [
+   {
+    "adate": "2019-11-25T21:10:30-05:00",
+    "author": "Richard Gibson",
+    "date": "2019-11-25T21:10:30-05:00",
+    "hash": "1ab6c465dc3e8f744e2d81cc40271d718a68510c",
+    "parents": "b66bbe3a0febeb770b519cbd0d600382123e108c",
+    "subject": "Editorial: Improve table anchor"
+   },
+   {
+    "adate": "2019-11-23T21:49:45-05:00",
+    "author": "Richard Gibson",
+    "date": "2019-11-23T21:49:45-05:00",
+    "hash": "b66bbe3a0febeb770b519cbd0d600382123e108c",
+    "parents": "603f83545dbe643fd0cffc040bba1b31505eb79b",
+    "subject": "Editorial: Replace \"the empty string\" with \"the empty String\""
+   },
+   {
+    "adate": "2019-11-13T19:07:04-05:00",
+    "author": "Richard Gibson",
+    "date": "2019-11-13T19:07:04-05:00",
+    "hash": "603f83545dbe643fd0cffc040bba1b31505eb79b",
+    "parents": "e5941f0f2b880dee9ae2823df6bacf8b9734eff7",
+    "subject": "Editorial: Be explicit when the \"longest sequence\" is empty"
+   },
+   {
+    "adate": "2019-11-13T16:08:24-05:00",
+    "author": "Richard Gibson",
+    "date": "2019-11-13T16:19:19-05:00",
+    "hash": "e5941f0f2b880dee9ae2823df6bacf8b9734eff7",
+    "parents": "19b2af12da83f48488b2afeb4f717ced1a80cf61",
+    "subject": "Normative: Account for abrupt completion of named capture replacement"
+   },
+   {
+    "adate": "2019-10-09T21:30:46-04:00",
+    "author": "Michael Dyck",
+    "date": "2019-11-13T16:19:19-05:00",
+    "hash": "19b2af12da83f48488b2afeb4f717ced1a80cf61",
+    "parents": "fdd92722f1f076b0b5979bf28b6fc6ff896e812b",
+    "subject": "Editorial: Apply suggestions from code review"
+   },
+   {
+    "adate": "2019-10-08T23:45:22-04:00",
+    "author": "Jordan Harband",
+    "date": "2019-11-13T16:19:19-05:00",
+    "hash": "fdd92722f1f076b0b5979bf28b6fc6ff896e812b",
+    "parents": "accf7f5975a6bf8c882ade705f327a196aa69f4a",
+    "subject": "Editorial: Remove extra space"
+   },
+   {
+    "adate": "2019-10-08T21:53:05-04:00",
+    "author": "Richard Gibson",
+    "date": "2019-11-13T16:19:15-05:00",
+    "hash": "accf7f5975a6bf8c882ade705f327a196aa69f4a",
+    "parents": "8fd2e014fa52a1c932686904a7b46eb742fe3112",
+    "subject": "Normative: Update GetSubstitution to match reality"
+   }
+  ],
   "title": "Normative: Update GetSubstitution to match reality",
   "updated_at": "2019-11-26T02:10:38Z"
  },
@@ -374,6 +2176,40 @@
   "head": "9dc4c0dce326e1367e9603fafe62d6458e4ceec6",
   "login": "michaelficarra",
   "ref": "function-implementation-hiding",
+  "revs": [
+   {
+    "adate": "2019-11-27T18:00:21-08:00",
+    "author": "Michael Ficarra",
+    "date": "2019-11-27T18:00:21-08:00",
+    "hash": "9dc4c0dce326e1367e9603fafe62d6458e4ceec6",
+    "parents": "67fedd606c73c6252c6628d45df53bd7c9bf3aa0",
+    "subject": "clarify attribution/position"
+   },
+   {
+    "adate": "2019-11-27T11:43:32-08:00",
+    "author": "Michael Ficarra",
+    "date": "2019-11-27T11:43:32-08:00",
+    "hash": "67fedd606c73c6252c6628d45df53bd7c9bf3aa0",
+    "parents": "0f5052fd05111401d848cd7d0b786c450f189b6e",
+    "subject": "fix rebase error"
+   },
+   {
+    "adate": "2019-11-26T16:57:12-08:00",
+    "author": "Michael Ficarra",
+    "date": "2019-11-26T16:57:12-08:00",
+    "hash": "0f5052fd05111401d848cd7d0b786c450f189b6e",
+    "parents": "6c093fa2bb5a805050963a8d6941af2950b65f8a",
+    "subject": "add assertion"
+   },
+   {
+    "adate": "2019-10-15T19:01:42-07:00",
+    "author": "Michael Ficarra",
+    "date": "2019-11-26T13:59:17-08:00",
+    "hash": "6c093fa2bb5a805050963a8d6941af2950b65f8a",
+    "parents": "9c8d03c1f1a0306d01e8422b28cde757093bd216",
+    "subject": "function implementation hiding"
+   }
+  ],
   "title": "function implementation hiding",
   "updated_at": "2019-12-03T05:08:52Z"
  },
@@ -383,6 +2219,16 @@
   "head": "45ea73a22f9dcd80d6d4836f8abd6b5b62b0f736",
   "login": "ljharb",
   "ref": "async-iterator-next",
+  "revs": [
+   {
+    "adate": "2019-11-12T17:00:42-08:00",
+    "author": "Jordan Harband",
+    "date": "2020-02-13T13:30:01-08:00",
+    "hash": "45ea73a22f9dcd80d6d4836f8abd6b5b62b0f736",
+    "parents": "823aad1e08b5680229d67283371912950d19e581",
+    "subject": "Normative: make async iterators next/return/throw not pass `undefined` when value is absent (#1776)"
+   }
+  ],
   "title": "Normative: make async iterators next/return/throw not pass `undefined` when value is absent",
   "updated_at": "2020-02-13T21:30:11Z"
  },
@@ -392,6 +2238,16 @@
   "head": "05205eefc9379fbf3f55683199dca3a816d26170",
   "login": "devsnek",
   "ref": "quikfix",
+  "revs": [
+   {
+    "adate": "2019-11-14T09:16:41-08:00",
+    "author": "Gus Caplan",
+    "date": "2019-11-14T09:44:00-08:00",
+    "hash": "05205eefc9379fbf3f55683199dca3a816d26170",
+    "parents": "edeeafa68a4350733157e643228e309258c960de",
+    "subject": "Editorial: A couple fixes from OrdinaryFunctionCreate and undefined arguments"
+   }
+  ],
   "title": "Editorial: A couple fixes from OrdinaryFunctionCreate and undefined arguments",
   "updated_at": "2020-02-01T08:02:31Z"
  },
@@ -401,6 +2257,72 @@
   "head": "30e7b07b4f002bc530c98ed2f1dbc2b70195824a",
   "login": "shvaikalesh",
   "ref": "rename-callbackfn",
+  "revs": [
+   {
+    "adate": "2019-11-14T20:06:18+02:00",
+    "author": "Alexey Shvayka",
+    "date": "2019-11-18T15:16:52-08:00",
+    "hash": "30e7b07b4f002bc530c98ed2f1dbc2b70195824a",
+    "parents": "195f20438b9fc119cae4db41d21907c1655ab7c3",
+    "subject": "Assert that IsCallable doesn't return abrupt completion"
+   },
+   {
+    "adate": "2019-11-14T20:04:54+02:00",
+    "author": "Alexey Shvayka",
+    "date": "2019-11-18T15:16:52-08:00",
+    "hash": "195f20438b9fc119cae4db41d21907c1655ab7c3",
+    "parents": "525ea024dd645eaf2c1d89ea6620514aa6fcbbba",
+    "subject": "Rename function parameter of %TypedArray%.prototype.some"
+   },
+   {
+    "adate": "2019-11-14T20:04:48+02:00",
+    "author": "Alexey Shvayka",
+    "date": "2019-11-18T15:16:52-08:00",
+    "hash": "525ea024dd645eaf2c1d89ea6620514aa6fcbbba",
+    "parents": "ad0dbc0ee9736fb1e6696b2bb882578408447a55",
+    "subject": "Rename function parameter of %TypedArray%.prototype.filter"
+   },
+   {
+    "adate": "2019-11-14T20:04:41+02:00",
+    "author": "Alexey Shvayka",
+    "date": "2019-11-18T15:16:52-08:00",
+    "hash": "ad0dbc0ee9736fb1e6696b2bb882578408447a55",
+    "parents": "0cf0068c553d076ff3dfbd9af5f5282c60f1c7aa",
+    "subject": "Rename function parameter of %TypedArray%.prototype.every"
+   },
+   {
+    "adate": "2019-11-14T20:01:45+02:00",
+    "author": "Alexey Shvayka",
+    "date": "2019-11-18T15:16:52-08:00",
+    "hash": "0cf0068c553d076ff3dfbd9af5f5282c60f1c7aa",
+    "parents": "b9a5f64a46fd4aef90e250df935807f80a1c5545",
+    "subject": "Rename function parameter of Array.prototype.some"
+   },
+   {
+    "adate": "2019-11-14T20:00:13+02:00",
+    "author": "Alexey Shvayka",
+    "date": "2019-11-18T15:16:52-08:00",
+    "hash": "b9a5f64a46fd4aef90e250df935807f80a1c5545",
+    "parents": "3c199aa46e2602210ee88c47b439df9da845ea98",
+    "subject": "Rename function parameter of Array.prototype.every"
+   },
+   {
+    "adate": "2019-11-14T19:59:04+02:00",
+    "author": "Alexey Shvayka",
+    "date": "2019-11-18T15:16:51-08:00",
+    "hash": "3c199aa46e2602210ee88c47b439df9da845ea98",
+    "parents": "67646bb1277a329bcfe486ff4a322f8a7176b8a8",
+    "subject": "Rename function parameter of Array.prototype.filter"
+   },
+   {
+    "adate": "2019-11-14T19:58:23+02:00",
+    "author": "Alexey Shvayka",
+    "date": "2019-11-18T15:16:51-08:00",
+    "hash": "67646bb1277a329bcfe486ff4a322f8a7176b8a8",
+    "parents": "c77f0081a197eeaaf5589bc7ebe306b1cc5c9162",
+    "subject": "Remove \"If it is not provided, *undefined* is used instead\" notes"
+   }
+  ],
   "title": "Editorial: Rename predicate function parameter of Array methods",
   "updated_at": "2019-11-18T23:16:58Z"
  },
@@ -410,6 +2332,88 @@
   "head": "3d43002cc9aea5e5b677f4482b77c434440fc07e",
   "login": "jmdyck",
   "ref": "editorial",
+  "revs": [
+   {
+    "adate": "2020-02-13T16:07:28-05:00",
+    "author": "Michael Dyck",
+    "date": "2020-02-13T16:07:28-05:00",
+    "hash": "3d43002cc9aea5e5b677f4482b77c434440fc07e",
+    "parents": "7937a4523677835ac9d9bb70576a2f55797c2442",
+    "subject": "Editorial: remove extraneous comma"
+   },
+   {
+    "adate": "2020-01-23T14:53:04-05:00",
+    "author": "Michael Dyck",
+    "date": "2020-02-13T15:53:13-05:00",
+    "hash": "7937a4523677835ac9d9bb70576a2f55797c2442",
+    "parents": "b0bc2f85edf9f87dcb4cd8382349ae0c26ac10c5",
+    "subject": "Editorial: quick fixes re PR #1406"
+   },
+   {
+    "adate": "2020-01-21T13:26:23-05:00",
+    "author": "Michael Dyck",
+    "date": "2020-02-13T15:53:13-05:00",
+    "hash": "b0bc2f85edf9f87dcb4cd8382349ae0c26ac10c5",
+    "parents": "e94f2accdc091a6a22e1cb69060f5f3296dcd1ee",
+    "subject": "Editorial: Consistify whitespace in `<emu-grammar>` content"
+   },
+   {
+    "adate": "2019-12-28T12:49:16-05:00",
+    "author": "Michael Dyck",
+    "date": "2020-02-13T15:53:13-05:00",
+    "hash": "e94f2accdc091a6a22e1cb69060f5f3296dcd1ee",
+    "parents": "5fb9b072622b9c3974eb6bd2cbb060fcc9a143de",
+    "subject": "Editorial: minor grammar refactoring re Punctuator"
+   },
+   {
+    "adate": "2019-12-28T12:31:54-05:00",
+    "author": "Michael Dyck",
+    "date": "2020-02-13T15:53:13-05:00",
+    "hash": "5fb9b072622b9c3974eb6bd2cbb060fcc9a143de",
+    "parents": "1ceb1146877fb89d0f5a1d645838ebe2d57d6e49",
+    "subject": "Editorial: eliminate accidental ambiguity in Punctuator"
+   },
+   {
+    "adate": "2019-12-12T17:42:50-05:00",
+    "author": "Michael Dyck",
+    "date": "2020-02-13T15:53:13-05:00",
+    "hash": "1ceb1146877fb89d0f5a1d645838ebe2d57d6e49",
+    "parents": "5dda567501172bead6a6e913bc816a88a2ccbd93",
+    "subject": "Editorial: tweak syntax in algorithms"
+   },
+   {
+    "adate": "2019-12-12T17:06:15-05:00",
+    "author": "Michael Dyck",
+    "date": "2020-02-13T15:53:13-05:00",
+    "hash": "5dda567501172bead6a6e913bc816a88a2ccbd93",
+    "parents": "8022bdfcde2b8f1d8e9a4af70b4d05197a2bd2c9",
+    "subject": "Editorial: Add 4 <emu-prodref> elements to Annex A"
+   },
+   {
+    "adate": "2019-12-12T16:49:27-05:00",
+    "author": "Michael Dyck",
+    "date": "2020-02-13T15:53:13-05:00",
+    "hash": "8022bdfcde2b8f1d8e9a4af70b4d05197a2bd2c9",
+    "parents": "c72eb6beb8d3a9b7d840e31a5797d5f1f13dcf1d",
+    "subject": "Editorial: eliminate grammatical parameters"
+   },
+   {
+    "adate": "2019-12-12T16:43:17-05:00",
+    "author": "Michael Dyck",
+    "date": "2020-02-13T15:53:13-05:00",
+    "hash": "c72eb6beb8d3a9b7d840e31a5797d5f1f13dcf1d",
+    "parents": "83ae5e372a73092533226fb576a55d0c9699468e",
+    "subject": "Editorial: insert space before paren in clause heading"
+   },
+   {
+    "adate": "2019-11-19T08:25:34-05:00",
+    "author": "Michael Dyck",
+    "date": "2020-02-13T15:53:13-05:00",
+    "hash": "83ae5e372a73092533226fb576a55d0c9699468e",
+    "parents": "bf37eb35b715b14e7a8f8c73059e11da75f7944a",
+    "subject": "Editorial: Insert `the mathematical value of`"
+   }
+  ],
   "title": "Editorial: quick fixes for recent merges",
   "updated_at": "2020-02-13T21:11:04Z"
  },
@@ -419,6 +2423,24 @@
   "head": "d5197a16ffcafd34e81ddc417447e4d7cdc6d6d8",
   "login": "tc39",
   "ref": "no-assertion-tester",
+  "revs": [
+   {
+    "adate": "2019-11-28T12:44:08-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2019-11-29T09:32:31-08:00",
+    "hash": "d5197a16ffcafd34e81ddc417447e4d7cdc6d6d8",
+    "parents": "c95ab23c608264db6e85638e4b73743a290e0a30",
+    "subject": "Editorial: refactor control flow for RegExp assertions"
+   },
+   {
+    "adate": "2019-11-28T12:42:02-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2019-11-29T09:32:29-08:00",
+    "hash": "c95ab23c608264db6e85638e4b73743a290e0a30",
+    "parents": "618479affe6b55bfca47fd058ce3a837a7d6c46c",
+    "subject": "Editorial: remove AssertionTester"
+   }
+  ],
   "title": "Editorial: remove AssertionTester from RexExp semantics",
   "updated_at": "2020-01-29T23:02:27Z"
  },
@@ -428,6 +2450,16 @@
   "head": "032ed20663c50a3b20a811b499ddaff07082d5b2",
   "login": "ljharb",
   "ref": "commit-check",
+  "revs": [
+   {
+    "adate": "2019-12-02T14:30:58-08:00",
+    "author": "Jordan Harband",
+    "date": "2019-12-02T14:30:58-08:00",
+    "hash": "032ed20663c50a3b20a811b499ddaff07082d5b2",
+    "parents": "618479affe6b55bfca47fd058ce3a837a7d6c46c",
+    "subject": "Meta: add action to check commit messages (#1799)"
+   }
+  ],
   "title": "WIP: Meta: add script to land PRs",
   "updated_at": "2019-12-11T21:52:51Z"
  },
@@ -437,6 +2469,16 @@
   "head": "4243c0bf4dc1ed28b6ebd0a1628378e8b643e0c6",
   "login": "brabalan",
   "ref": "LinkToIndividualAlgs",
+  "revs": [
+   {
+    "adate": "2019-12-03T22:23:32+01:00",
+    "author": "Alan Schmitt",
+    "date": "2019-12-03T22:23:32+01:00",
+    "hash": "4243c0bf4dc1ed28b6ebd0a1628378e8b643e0c6",
+    "parents": "618479affe6b55bfca47fd058ce3a837a7d6c46c",
+    "subject": "adding ids to emu-algs of equality semantics"
+   }
+  ],
   "title": "Editorial: adding ids to individual algorithms of equality semantics",
   "updated_at": "2020-02-12T23:24:36Z"
  },
@@ -446,6 +2488,16 @@
   "head": "17b258fe283349bc2f07bb8b1d468f46c735d918",
   "login": "rkirsling",
   "ref": "asi-section-wordsmithing",
+  "revs": [
+   {
+    "adate": "2019-12-11T17:38:20-08:00",
+    "author": "Ross Kirsling",
+    "date": "2019-12-11T17:38:20-08:00",
+    "hash": "17b258fe283349bc2f07bb8b1d468f46c735d918",
+    "parents": "ae2d1a86868107e8f61db4c68af910c473d88c93",
+    "subject": "Editorial: Improve readability in 11.10."
+   }
+  ],
   "title": "Editorial: Improve readability in 11.10.",
   "updated_at": "2019-12-12T23:52:18Z"
  },
@@ -455,6 +2507,16 @@
   "head": "7c80f1d8890b200bb93665096e61f2e6f74243d9",
   "login": "bathos",
   "ref": "remove-sensitivity-to-revocation-from-proxy-create",
+  "revs": [
+   {
+    "adate": "2019-12-15T13:02:35-05:00",
+    "author": "Darien Maillet Valentine",
+    "date": "2019-12-15T13:02:35-05:00",
+    "hash": "7c80f1d8890b200bb93665096e61f2e6f74243d9",
+    "parents": "8c3fb1f0ed9b55ea1ca075b82e3525e469bd1b6b",
+    "subject": "Remove steps 2 and 4 from ProxyCreate (#1798)"
+   }
+  ],
   "title": "Normative: Remove steps 2 and 4 from ProxyCreate",
   "updated_at": "2020-02-05T00:57:54Z"
  },
@@ -464,6 +2526,16 @@
   "head": "50ac1a69febc0faf0bbc7c800c5419869534d6be",
   "login": "bathos",
   "ref": "aoid-for-case-block-evaluation",
+  "revs": [
+   {
+    "adate": "2019-12-27T04:57:17-05:00",
+    "author": "Darien Maillet Valentine",
+    "date": "2019-12-27T04:57:17-05:00",
+    "hash": "50ac1a69febc0faf0bbc7c800c5419869534d6be",
+    "parents": "8c3fb1f0ed9b55ea1ca075b82e3525e469bd1b6b",
+    "subject": "Add aoid attribute for CaseBlockEvaluation so it gets auto-linked and ref-counted."
+   }
+  ],
   "title": "Editorial: Add aoid for CaseBlockEvaluation so it gets auto-linked / ref-counted",
   "updated_at": "2020-01-03T22:21:36Z"
  },
@@ -473,6 +2545,16 @@
   "head": "297f7fb6aae58f28b80e0bdfe7d0604c2de190ce",
   "login": "bathos",
   "ref": "lookahead-shorthand-correction",
+  "revs": [
+   {
+    "adate": "2020-01-03T17:01:16-05:00",
+    "author": "Darien Maillet Valentine",
+    "date": "2020-01-03T17:01:16-05:00",
+    "hash": "297f7fb6aae58f28b80e0bdfe7d0604c2de190ce",
+    "parents": "8c3fb1f0ed9b55ea1ca075b82e3525e469bd1b6b",
+    "subject": "Lookahead single-element shorthand permits terminal sequences"
+   }
+  ],
   "title": "Editorial: Lookahead single-element shorthand permits terminal sequences",
   "updated_at": "2020-01-05T07:57:47Z"
  },
@@ -482,6 +2564,16 @@
   "head": "dc2b8103d57225031986216a4f0b435988c51930",
   "login": "sideshowbarker",
   "ref": "about-this-spec-grammar-fix",
+  "revs": [
+   {
+    "adate": "2020-01-04T09:27:29+09:00",
+    "author": "Michael[tm] Smith",
+    "date": "2020-01-04T09:27:29+09:00",
+    "hash": "dc2b8103d57225031986216a4f0b435988c51930",
+    "parents": "f0c10cfb5ff87b892580cae6a2dc59a045cbac3e",
+    "subject": "Editorial: Update About this Specification wording"
+   }
+  ],
   "title": "Editorial: Update About this Specification wording",
   "updated_at": "2020-01-04T00:41:33Z"
  },
@@ -491,6 +2583,16 @@
   "head": "0f086d773b29df3a913b425ff52be24de530c0e5",
   "login": "EB-Forks",
   "ref": "editorial/improve-array-defineownproperty-length-variable-names",
+  "revs": [
+   {
+    "adate": "2020-01-09T20:50:00+01:00",
+    "author": "ExE Boss",
+    "date": "2020-01-09T20:47:42+01:00",
+    "hash": "0f086d773b29df3a913b425ff52be24de530c0e5",
+    "parents": "63be86408b2c01899d6fd565db9a85d76a56de42",
+    "subject": "editorial: Improve\u00a0`Array.[[DefineOwnProperty]]` length\u00a0variable\u00a0names"
+   }
+  ],
   "title": "editorial: Improve\u00a0`Array.[[DefineOwnProperty]]` length\u00a0variable\u00a0names",
   "updated_at": "2020-01-15T06:15:18Z"
  },
@@ -500,6 +2602,16 @@
   "head": "c92f745cb0e079c9304cd162886ef700b21ae676",
   "login": "rkirsling",
   "ref": "make-table-48-fit",
+  "revs": [
+   {
+    "adate": "2020-01-12T14:03:41-08:00",
+    "author": "Ross Kirsling",
+    "date": "2020-01-12T14:03:41-08:00",
+    "hash": "c92f745cb0e079c9304cd162886ef700b21ae676",
+    "parents": "73ad5993a7c8cf8192fa485a91887437fa6b48ab",
+    "subject": "Editorial: Let code wrap in tables-in-notes."
+   }
+  ],
   "title": "Editorial: Let code wrap in tables-in-notes.",
   "updated_at": "2020-01-13T00:19:42Z"
  },
@@ -509,6 +2621,32 @@
   "head": "36f1f910098a9e39b2cdb9bcd03ec1b0e60fc7af",
   "login": "rkirsling",
   "ref": "builtin-backticks",
+  "revs": [
+   {
+    "adate": "2020-01-31T23:28:07-08:00",
+    "author": "Ross Kirsling",
+    "date": "2020-01-31T23:28:07-08:00",
+    "hash": "36f1f910098a9e39b2cdb9bcd03ec1b0e60fc7af",
+    "parents": "2b83a58bc98a7e4621c5e00a3b97a8807d6f9c14",
+    "subject": "Remove remaining backticks for \"<built-in> constructor\"."
+   },
+   {
+    "adate": "2020-01-31T14:21:23-08:00",
+    "author": "Ross Kirsling",
+    "date": "2020-01-31T14:51:36-08:00",
+    "hash": "2b83a58bc98a7e4621c5e00a3b97a8807d6f9c14",
+    "parents": "42712d235b35d7e6bd4d56ef5de24cafc7001787",
+    "subject": "Add missing backticks for a few functions."
+   },
+   {
+    "adate": "2020-01-31T14:19:23-08:00",
+    "author": "Ross Kirsling",
+    "date": "2020-01-31T14:51:24-08:00",
+    "hash": "42712d235b35d7e6bd4d56ef5de24cafc7001787",
+    "parents": "e5c0f84610df095de6256e6cf083f4a901e67fde",
+    "subject": "Remove backticks around built-in names where appropriate."
+   }
+  ],
   "title": "Editorial: Improve consistency of backtick use for built-ins.",
   "updated_at": "2020-02-07T08:30:18Z"
  },
@@ -518,6 +2656,16 @@
   "head": "51ff8216b73636d55c9db42c8c84533815efbed8",
   "login": "tc39",
   "ref": "sv-calling-convention",
+  "revs": [
+   {
+    "adate": "2020-01-31T19:34:31-10:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-01-31T19:34:31-10:00",
+    "hash": "51ff8216b73636d55c9db42c8c84533815efbed8",
+    "parents": "e5c0f84610df095de6256e6cf083f4a901e67fde",
+    "subject": "Editorial: make callers of SV consistent"
+   }
+  ],
   "title": "Editorial: make callers of SV consistent",
   "updated_at": "2020-02-07T08:29:34Z"
  },
@@ -527,6 +2675,88 @@
   "head": "80204781ab8a4a64ce46439128286e617de66add",
   "login": "jmdyck",
   "ref": "ParsePattern",
+  "revs": [
+   {
+    "adate": "2020-02-05T10:51:12-05:00",
+    "author": "Michael Dyck",
+    "date": "2020-02-05T17:48:08-05:00",
+    "hash": "80204781ab8a4a64ce46439128286e617de66add",
+    "parents": "ff6b78fad795afe3d7f48624680a17a322c7b91a",
+    "subject": "Editorial: Extract operation 'ParsePattern'"
+   },
+   {
+    "adate": "2020-02-05T10:34:23-05:00",
+    "author": "Michael Dyck",
+    "date": "2020-02-05T10:34:23-05:00",
+    "hash": "ff6b78fad795afe3d7f48624680a17a322c7b91a",
+    "parents": "d5e1a79c39e37ce42afe03ee6a83b1168367a1f9",
+    "subject": "REI: Factor out the last sentence of each 'Parse' step"
+   },
+   {
+    "adate": "2020-02-05T10:31:14-05:00",
+    "author": "Michael Dyck",
+    "date": "2020-02-05T10:31:14-05:00",
+    "hash": "d5e1a79c39e37ce42afe03ee6a83b1168367a1f9",
+    "parents": "57a49cfe661c56c679b19c60707a86dbee615a4e",
+    "subject": "REI: Split the 'If'"
+   },
+   {
+    "adate": "2020-02-05T10:28:36-05:00",
+    "author": "Michael Dyck",
+    "date": "2020-02-05T10:28:36-05:00",
+    "hash": "57a49cfe661c56c679b19c60707a86dbee615a4e",
+    "parents": "7ea87a0f670ad0d223d8953ba4c86c0a304f940c",
+    "subject": "REI: Reword a step slightly"
+   },
+   {
+    "adate": "2020-02-05T10:25:15-05:00",
+    "author": "Michael Dyck",
+    "date": "2020-02-05T10:25:15-05:00",
+    "hash": "7ea87a0f670ad0d223d8953ba4c86c0a304f940c",
+    "parents": "2c470f426f1741dd1ea5fddbbabda65803d77155",
+    "subject": "REI: Rename `_pText_` as `_patternText_`"
+   },
+   {
+    "adate": "2020-02-05T10:22:55-05:00",
+    "author": "Michael Dyck",
+    "date": "2020-02-05T10:22:55-05:00",
+    "hash": "2c470f426f1741dd1ea5fddbbabda65803d77155",
+    "parents": "25e1177436cd8aa2c7626579ff6e884448942678",
+    "subject": "REI: swap the order of the 2 arms of the 'If'"
+   },
+   {
+    "adate": "2020-02-05T10:21:24-05:00",
+    "author": "Michael Dyck",
+    "date": "2020-02-05T10:21:24-05:00",
+    "hash": "25e1177436cd8aa2c7626579ff6e884448942678",
+    "parents": "1d005713072dc578dfb459f9d81335d2e8583672",
+    "subject": "REI: Replace `_BMP_` with its complement `_u_`"
+   },
+   {
+    "adate": "2020-02-05T10:19:34-05:00",
+    "author": "Michael Dyck",
+    "date": "2020-02-05T10:19:34-05:00",
+    "hash": "1d005713072dc578dfb459f9d81335d2e8583672",
+    "parents": "25558d186bd0ed9998b399c2473c94bd4eb0cd65",
+    "subject": "IVREL: Factor out the last sentence of each 'Parse' step"
+   },
+   {
+    "adate": "2020-02-05T10:13:00-05:00",
+    "author": "Michael Dyck",
+    "date": "2020-02-05T10:13:00-05:00",
+    "hash": "25558d186bd0ed9998b399c2473c94bd4eb0cd65",
+    "parents": "1d40b0ada76a6f688a4d1f23ddc5ac4d8ed7f653",
+    "subject": "IVREL: Introduce `_u_`"
+   },
+   {
+    "adate": "2020-02-05T10:08:23-05:00",
+    "author": "Michael Dyck",
+    "date": "2020-02-05T10:08:23-05:00",
+    "hash": "1d40b0ada76a6f688a4d1f23ddc5ac4d8ed7f653",
+    "parents": "787642ad2d159c8358a8782c9414f6d5fb6efa6f",
+    "subject": "IVREL: introduce an 'Else'"
+   }
+  ],
   "title": " Editorial: Extract operation 'ParsePattern'",
   "updated_at": "2020-02-10T00:54:57Z"
  },
@@ -536,17 +2766,69 @@
   "head": "7ea9dfaa8a83fe7d481891d5a625c17080234985",
   "login": "jmdyck",
   "ref": "make_B_literals_normative",
+  "revs": [
+   {
+    "adate": "2019-08-02T23:36:08-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-02-08T20:57:39-05:00",
+    "hash": "7ea9dfaa8a83fe7d481891d5a625c17080234985",
+    "parents": "e46b1296f1c47101fd7df1e26d0786787c75a5e0",
+    "subject": "Normative: Make B.1.2 \"String Literals\" normative."
+   },
+   {
+    "adate": "2019-07-31T08:33:51-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-02-08T20:57:29-05:00",
+    "hash": "e46b1296f1c47101fd7df1e26d0786787c75a5e0",
+    "parents": "787642ad2d159c8358a8782c9414f6d5fb6efa6f",
+    "subject": "Normative: Make B.1.1 \"Numeric Literals\" normative."
+   }
+  ],
   "title": "Normative: Make B.1.{1,2} normative",
   "updated_at": "2020-02-10T00:05:33Z"
  },
  "1868": {
-  "base": "787642ad2d159c8358a8782c9414f6d5fb6efa6f",
+  "base": "823aad1e08b5680229d67283371912950d19e581",
   "created_at": "2020-02-09T02:32:37Z",
-  "head": "7e6748b3bf04c81b8863fe57f21a7e0e4704da1e",
+  "head": "698003bdf2a6bcdaf713e8be2bcbf42de882a0b2",
   "login": "jmdyck",
   "ref": "annex_a_tweaks",
+  "revs": [
+   {
+    "adate": "2019-08-12T20:37:55-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-02-14T11:22:15-05:00",
+    "hash": "698003bdf2a6bcdaf713e8be2bcbf42de882a0b2",
+    "parents": "b5c2180d171c9d25962ab719d7dfffec2073c53c",
+    "subject": "Editorial: Fix mistake in para in Annex A"
+   },
+   {
+    "adate": "2019-08-12T20:34:03-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-02-14T11:20:44-05:00",
+    "hash": "b5c2180d171c9d25962ab719d7dfffec2073c53c",
+    "parents": "4bcc7fc181fc46c8e2c5e1ba870a7cd008b1740a",
+    "subject": "Editorial: Move some <emu-prodref>s in Annex A"
+   },
+   {
+    "adate": "2019-08-11T10:27:19-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-02-14T11:13:29-05:00",
+    "hash": "4bcc7fc181fc46c8e2c5e1ba870a7cd008b1740a",
+    "parents": "884fbe9264916588d6757a048d4e79a78d5eb465",
+    "subject": "Markup: Put quotes around unquoted attribute values"
+   },
+   {
+    "adate": "2019-08-11T09:41:03-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-02-14T10:38:45-05:00",
+    "hash": "884fbe9264916588d6757a048d4e79a78d5eb465",
+    "parents": "823aad1e08b5680229d67283371912950d19e581",
+    "subject": "Editorial: Remove a few <emu-prodref>s from Annex A"
+   }
+  ],
   "title": "Editorial: Annex A tweaks",
-  "updated_at": "2020-02-12T17:38:01Z"
+  "updated_at": "2020-02-14T16:27:11Z"
  },
  "1869": {
   "base": "787642ad2d159c8358a8782c9414f6d5fb6efa6f",
@@ -554,7 +2836,36 @@
   "head": "7644ce6dd587b8a5f4c63e3c2573943f1d4528af",
   "login": "tc39",
   "ref": "sv-regexp-unicode-escape-sequence",
+  "revs": [
+   {
+    "adate": "2020-02-09T16:18:46-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-02-09T16:18:46-08:00",
+    "hash": "7644ce6dd587b8a5f4c63e3c2573943f1d4528af",
+    "parents": "787642ad2d159c8358a8782c9414f6d5fb6efa6f",
+    "subject": "Normative: Use CharacterValue for RegExpUnicodeEscapeSequence"
+   }
+  ],
   "title": "Normative: Use CharacterValue for RegExpUnicodeEscapeSequence",
   "updated_at": "2020-02-12T17:36:13Z"
+ },
+ "1870": {
+  "base": "823aad1e08b5680229d67283371912950d19e581",
+  "created_at": "2020-02-14T22:07:06Z",
+  "head": "9c564f91f4e232da2183ff184168b6485a72c9b7",
+  "login": "jmdyck",
+  "ref": "set_SourceText",
+  "revs": [
+   {
+    "adate": "2020-02-14T14:20:03-05:00",
+    "author": "Michael Dyck",
+    "date": "2020-02-14T14:20:03-05:00",
+    "hash": "9c564f91f4e232da2183ff184168b6485a72c9b7",
+    "parents": "823aad1e08b5680229d67283371912950d19e581",
+    "subject": "Editorial: Set [[SourceText]] inside OrdinaryFunctionCreate"
+   }
+  ],
+  "title": "Editorial: Set [[SourceText]] inside OrdinaryFunctionCreate",
+  "updated_at": "2020-02-15T00:44:02Z"
  }
 }

@@ -266,6 +266,9 @@ def get_pr_with(pr, info, url):
     generate_html(info['head'], 'PR/{}/'.format(pr))
     generate_json(info['head'], 'PR/{}/'.format(pr))
 
+    info['revs'] = get_revs(['origin/master..{}'.format(info['head'])])
+    parents = info['revs'][-1]['parents']
+
     txt = json.dumps(info)
 
     info_path = '{}/info.json'.format(basedir)
@@ -273,6 +276,8 @@ def get_pr_with(pr, info, url):
         out_file.write(txt)
 
     update_rev(info['base'])
+    for parent in parents.split(' '):
+        update_rev(parent)
 
     return True
 
