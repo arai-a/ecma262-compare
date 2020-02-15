@@ -171,12 +171,21 @@ class HTMLDiff {
           break;
         }
         case "t": {
+          let text = t.text;
+          const path = name_id_stack.join("/");
+
+          if (path.includes("#excluded-")) {
+            // Do not generate text inside excluded section while diff.
+            // The content will be replaced in combineSections.
+            text = "";
+          }
+
           seq.push({
             name_stack: name_stack.slice(),
             name_id_stack: name_id_stack.slice(),
-            path: name_id_stack.join("/"),
+            path,
             tag_stack: tag_stack.slice(),
-            text: t.text,
+            text,
           });
         }
       }
