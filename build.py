@@ -5,6 +5,7 @@ import distutils
 import distutils.dir_util
 import json
 import os
+import re
 import subprocess
 import sys
 import urllib.request
@@ -131,12 +132,9 @@ class GitHubAPI:
 
 class RemoteRepository:
     def prs():
-        prs = []
-        for d in GitHubAPI.call_pages('pulls'):
-            if d['number'] >= Config.FIRST_PR:
-                prs.append(d)
-
-        return prs
+        for data in GitHubAPI.call_pages('pulls'):
+            if data['number'] >= Config.FIRST_PR:
+                yield data
 
     def head():
         return GitHubAPI.call('commits', [['per_page', '1']])[0]['sha']
@@ -252,17 +250,14 @@ class LocalRepository:
             'subject:%s',
         ])
 
-        revs = []
         rev = dict()
         for line in cls.log(revset + ['--pretty={}%n=='.format(pretty)]):
             if line == '==':
-                revs.append(rev)
+                yield rev
                 rev = dict()
             else:
                 (name, value) = line.split(':', 1)
                 rev[name] = value
-
-        return revs
 
 
 class SectionsExtractor:
@@ -370,7 +365,45 @@ class SectionsExtractor:
 
 
 class RevisionRenderer:
-    def __html(sha, prnum, skip_cache):
+    __MONTHS = {
+        '01': 'January',
+        '02': 'February',
+        '03': 'March',
+        '04': 'April',
+        '05': 'May',
+        '06': 'June',
+        '07': 'July',
+        '08': 'August',
+        '09': 'September',
+        '10': 'October',
+        '11': 'November',
+        '12': 'December',
+    }
+
+    __SPEC_DATE_PREFIX = 'Draft ECMA-262 / '
+
+    __SPEC_DATE_PAT = re.compile(
+        '{}(?:{}) \\d+, \\d+'.format(__SPEC_DATE_PREFIX,
+                                     '|'.join(__MONTHS.values())))
+
+    __ISO_DATE_PAT = re.compile('^([0-9]+)-([0-9]+)-([0-9]+)T')
+
+    @classmethod
+    def __to_spec_date(cls, d):
+        m = cls.__ISO_DATE_PAT.search(d)
+        return '{}{} {}, {}'.format(cls.__SPEC_DATE_PREFIX,
+                                    cls.__MONTHS[m.group(2)],
+                                    m.group(3), m.group(1))
+
+    @classmethod
+    def __replace_date(cls, path, date):
+        spec_date = cls.__to_spec_date(date)
+        content = FileUtils.read(path)
+        content = cls.__SPEC_DATE_PAT.sub(spec_date, content)
+        FileUtils.write(path, content)
+
+    @classmethod
+    def __html(cls, sha, prnum, skip_cache):
         index_path = Paths.index_path(sha, prnum)
         if not skip_cache and os.path.exists(index_path):
             Logger.log('skip {} (cached)'.format(index_path))
@@ -397,6 +430,10 @@ class RevisionRenderer:
             # Generate an empty file in that case.
             FileUtils.mkdir_p(repo_out_dir)
             FileUtils.write(repo_out_index_path, '<html></html>')
+        else:
+            date = list(LocalRepository.log(['-1', sha, '--pretty=%cI']))[0]
+
+            cls.__replace_date(repo_out_index_path, date)
 
         FileUtils.mkdir_p(Paths.rev_parent_dir(prnum))
 
@@ -432,8 +469,8 @@ class RevisionRenderer:
 
 class Revisions:
     def update_list():
-        revs = LocalRepository.revs(
-            ['{}^..{}'.format(Config.FIRST_REV, 'origin/master')])
+        revs = list(LocalRepository.revs(
+            ['{}^..{}'.format(Config.FIRST_REV, 'origin/master')]))
 
         parents = set()
         prs = PRs.get()
@@ -442,7 +479,7 @@ class Revisions:
                 parents.add(parent)
 
         for parent in parents:
-            rev = LocalRepository.revs(['-1', parent])[0]
+            rev = list(LocalRepository.revs(['-1', parent]))[0]
             revs.append(rev)
 
         revs.sort(key=lambda rev: rev['date'], reverse=True)
@@ -459,9 +496,7 @@ class Revisions:
     def __update_revset(revset, count, skip_cache):
         LocalRepository.fetch('origin', 'master')
 
-        shas = []
-        for sha in LocalRepository.log(revset + ['--pretty=%H']):
-            shas.append(sha)
+        shas = list(LocalRepository.log(revset + ['--pretty=%H']))
 
         updated_any = False
 
@@ -531,8 +566,8 @@ class PRs:
 
         RevisionRenderer.run(info['head'], prnum, skip_cache)
 
-        info['revs'] = LocalRepository.revs(
-            ['origin/master..{}'.format(info['head'])])
+        info['revs'] = list(LocalRepository.revs(
+            ['origin/master..{}'.format(info['head'])]))
 
         info_json = json.dumps(info)
         FileUtils.write(Paths.pr_info_path(prnum), info_json)
@@ -549,7 +584,7 @@ class PRs:
 
     @classmethod
     def update_all(cls, count, skip_cache):
-        raw_prs = RemoteRepository.prs()
+        raw_prs = list(RemoteRepository.prs())
 
         updated_any = False
 
