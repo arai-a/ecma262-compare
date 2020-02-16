@@ -1,5 +1,13 @@
 [
  {
+  "adate": "2020-02-14T20:00:22-08:00",
+  "author": "Jordan Harband",
+  "date": "2020-02-14T21:53:39-08:00",
+  "hash": "8e5ae7b621922ca289e8b6fb19b4d6d4e0750182",
+  "parents": "823aad1e08b5680229d67283371912950d19e581",
+  "subject": "Normative: `ToInteger`: fix spec bug from #1827 that allows (-1,0) to produce `-0` (#1871)"
+ },
+ {
   "adate": "2020-02-01T08:49:51-10:00",
   "author": "Kevin Gibbons",
   "date": "2020-02-13T12:26:21-08:00",

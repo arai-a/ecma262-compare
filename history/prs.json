@@ -2327,95 +2327,95 @@
   "updated_at": "2019-11-18T23:16:58Z"
  },
  "1787": {
-  "base": "bf37eb35b715b14e7a8f8c73059e11da75f7944a",
+  "base": "8e5ae7b621922ca289e8b6fb19b4d6d4e0750182",
   "created_at": "2019-11-19T13:35:18Z",
-  "head": "3d43002cc9aea5e5b677f4482b77c434440fc07e",
+  "head": "e73d9918c2c7427deeff60f2ddeb86f463758718",
   "login": "jmdyck",
   "ref": "editorial",
   "revs": [
    {
     "adate": "2020-02-13T16:07:28-05:00",
     "author": "Michael Dyck",
-    "date": "2020-02-13T16:07:28-05:00",
-    "hash": "3d43002cc9aea5e5b677f4482b77c434440fc07e",
-    "parents": "7937a4523677835ac9d9bb70576a2f55797c2442",
+    "date": "2020-02-15T17:02:21-05:00",
+    "hash": "e73d9918c2c7427deeff60f2ddeb86f463758718",
+    "parents": "3105b5a753a9dbc61173392b114af153fc9466a6",
     "subject": "Editorial: remove extraneous comma"
    },
    {
     "adate": "2020-01-23T14:53:04-05:00",
     "author": "Michael Dyck",
-    "date": "2020-02-13T15:53:13-05:00",
-    "hash": "7937a4523677835ac9d9bb70576a2f55797c2442",
-    "parents": "b0bc2f85edf9f87dcb4cd8382349ae0c26ac10c5",
+    "date": "2020-02-15T17:00:50-05:00",
+    "hash": "3105b5a753a9dbc61173392b114af153fc9466a6",
+    "parents": "1aa8f25de21181571ecae431f1238dddd31557ce",
     "subject": "Editorial: quick fixes re PR #1406"
    },
    {
     "adate": "2020-01-21T13:26:23-05:00",
     "author": "Michael Dyck",
-    "date": "2020-02-13T15:53:13-05:00",
-    "hash": "b0bc2f85edf9f87dcb4cd8382349ae0c26ac10c5",
-    "parents": "e94f2accdc091a6a22e1cb69060f5f3296dcd1ee",
+    "date": "2020-02-15T17:00:50-05:00",
+    "hash": "1aa8f25de21181571ecae431f1238dddd31557ce",
+    "parents": "9b9dc9c8655657eaf07db2d4d89ecdcaad8f4d5c",
     "subject": "Editorial: Consistify whitespace in `<emu-grammar>` content"
    },
    {
     "adate": "2019-12-28T12:49:16-05:00",
     "author": "Michael Dyck",
-    "date": "2020-02-13T15:53:13-05:00",
-    "hash": "e94f2accdc091a6a22e1cb69060f5f3296dcd1ee",
-    "parents": "5fb9b072622b9c3974eb6bd2cbb060fcc9a143de",
+    "date": "2020-02-15T17:00:50-05:00",
+    "hash": "9b9dc9c8655657eaf07db2d4d89ecdcaad8f4d5c",
+    "parents": "456a22d3466721b7fc289acef2dbe572a5ca58c2",
     "subject": "Editorial: minor grammar refactoring re Punctuator"
    },
    {
     "adate": "2019-12-28T12:31:54-05:00",
     "author": "Michael Dyck",
-    "date": "2020-02-13T15:53:13-05:00",
-    "hash": "5fb9b072622b9c3974eb6bd2cbb060fcc9a143de",
-    "parents": "1ceb1146877fb89d0f5a1d645838ebe2d57d6e49",
+    "date": "2020-02-15T17:00:50-05:00",
+    "hash": "456a22d3466721b7fc289acef2dbe572a5ca58c2",
+    "parents": "16620d18c207ac42b7efa6a75a5612a62b2df2f8",
     "subject": "Editorial: eliminate accidental ambiguity in Punctuator"
    },
    {
     "adate": "2019-12-12T17:42:50-05:00",
     "author": "Michael Dyck",
-    "date": "2020-02-13T15:53:13-05:00",
-    "hash": "1ceb1146877fb89d0f5a1d645838ebe2d57d6e49",
-    "parents": "5dda567501172bead6a6e913bc816a88a2ccbd93",
+    "date": "2020-02-15T17:00:50-05:00",
+    "hash": "16620d18c207ac42b7efa6a75a5612a62b2df2f8",
+    "parents": "b05baba2416c518fb65ba93d53573c64baf82385",
     "subject": "Editorial: tweak syntax in algorithms"
    },
    {
     "adate": "2019-12-12T17:06:15-05:00",
     "author": "Michael Dyck",
-    "date": "2020-02-13T15:53:13-05:00",
-    "hash": "5dda567501172bead6a6e913bc816a88a2ccbd93",
-    "parents": "8022bdfcde2b8f1d8e9a4af70b4d05197a2bd2c9",
+    "date": "2020-02-15T17:00:50-05:00",
+    "hash": "b05baba2416c518fb65ba93d53573c64baf82385",
+    "parents": "8770b6d99abbc218c933229424e0a8284784a19c",
     "subject": "Editorial: Add 4 <emu-prodref> elements to Annex A"
    },
    {
     "adate": "2019-12-12T16:49:27-05:00",
     "author": "Michael Dyck",
-    "date": "2020-02-13T15:53:13-05:00",
-    "hash": "8022bdfcde2b8f1d8e9a4af70b4d05197a2bd2c9",
-    "parents": "c72eb6beb8d3a9b7d840e31a5797d5f1f13dcf1d",
+    "date": "2020-02-15T17:00:50-05:00",
+    "hash": "8770b6d99abbc218c933229424e0a8284784a19c",
+    "parents": "d467a30cc834d0e09d2c7b6284dea14029e01f9e",
     "subject": "Editorial: eliminate grammatical parameters"
    },
    {
     "adate": "2019-12-12T16:43:17-05:00",
     "author": "Michael Dyck",
-    "date": "2020-02-13T15:53:13-05:00",
-    "hash": "c72eb6beb8d3a9b7d840e31a5797d5f1f13dcf1d",
-    "parents": "83ae5e372a73092533226fb576a55d0c9699468e",
+    "date": "2020-02-15T17:00:50-05:00",
+    "hash": "d467a30cc834d0e09d2c7b6284dea14029e01f9e",
+    "parents": "fd5ac21ce10cba2c8cf3d3c529f6431cb98bb4f5",
     "subject": "Editorial: insert space before paren in clause heading"
    },
    {
     "adate": "2019-11-19T08:25:34-05:00",
     "author": "Michael Dyck",
-    "date": "2020-02-13T15:53:13-05:00",
-    "hash": "83ae5e372a73092533226fb576a55d0c9699468e",
-    "parents": "bf37eb35b715b14e7a8f8c73059e11da75f7944a",
+    "date": "2020-02-15T17:00:50-05:00",
+    "hash": "fd5ac21ce10cba2c8cf3d3c529f6431cb98bb4f5",
+    "parents": "8e5ae7b621922ca289e8b6fb19b4d6d4e0750182",
     "subject": "Editorial: Insert `the mathematical value of`"
    }
   ],
   "title": "Editorial: quick fixes for recent merges",
-  "updated_at": "2020-02-13T21:11:04Z"
+  "updated_at": "2020-02-15T22:05:52Z"
  },
  "1797": {
   "base": "618479affe6b55bfca47fd058ce3a837a7d6c46c",
@@ -2866,6 +2866,6 @@
    }
   ],
   "title": "Editorial: Set [[SourceText]] inside OrdinaryFunctionCreate",
-  "updated_at": "2020-02-15T00:44:02Z"
+  "updated_at": "2020-02-15T17:40:29Z"
  }
 }
