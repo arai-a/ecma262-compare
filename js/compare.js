@@ -730,6 +730,7 @@ class Comparator {
 
   updateRevInfoFor(id, name) {
     const subjectLink = document.getElementById(`${id}-rev-subject-link`);
+    const note = document.getElementById(`${id}-rev-note`);
     const author = document.getElementById(`${id}-rev-author`);
     const date = document.getElementById(`${id}-rev-date`);
 
@@ -741,6 +742,11 @@ class Comparator {
 
       subjectLink.textContent = pr.revs[0].subject;
       subjectLink.href = `${REPO_URL}/pull/${prnum}`;
+      if (pr.revs.length > 1) {
+        note.textContent = ` + ${pr.revs.length - 1} revisions`;
+      } else {
+        note.textContent = "";
+      }
       author.textContent = `by ${pr.revs[0].author}`;
       date.textContent = `(${DateUtils.toReadable(pr.revs[0].date)})`;
     } else if (name in this.revMap) {
@@ -748,11 +754,13 @@ class Comparator {
 
       subjectLink.textContent = rev.subject;
       subjectLink.href = `${REPO_URL}/commit/${rev.hash}`;
+      note.textContent = "";
       author.textContent = `by ${rev.author}`;
       date.textContent = `(${DateUtils.toReadable(rev.date)})`;
     } else {
       subjectLink.textContent = "-";
       subjectLink.removeAttribute("href");
+      note.textContent = "";
       author.textContent = "-";
       date.textContent = "";
     }

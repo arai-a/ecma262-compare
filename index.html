@@ -4,8 +4,8 @@
 <title>ECMAScript Language Specification Comparator</title>
 <link href="./style/ecmarkup.css" rel="stylesheet">
 <link href="./style/base.css" rel="stylesheet">
-<link href="./style/compare.css" rel="stylesheet">
-<script type="text/javascript" src="./js/compare.js?20200216c"></script>
+<link href="./style/compare.css?20200216d" rel="stylesheet">
+<script type="text/javascript" src="./js/compare.js?20200216d"></script>
 </head>
 <body onload="bodyOnLoad()">
 <div id="container">
@@ -30,7 +30,10 @@
         <select id="from-rev" onchange="onFromRevChange()"></select>
         <a id="from-history-link" href="#" target="_blank">Open rendered page</a>
         <div id="from-rev-info">
-          <div id="from-rev-subject"><a id="from-rev-subject-link">-</a></div>
+          <div id="from-rev-subject">
+            <a id="from-rev-subject-link">-</a>
+            <span id="from-rev-note"></span>
+          </div>
           <div class="rev-author-and-date">
             <span id="from-rev-author">-</span>
             <span id="from-rev-date"></span>
@@ -42,7 +45,10 @@
         <select id="to-rev" onchange="onToRevChange()"></select>
         <a id="to-history-link" href="#" target="_blank">Open rendered page</a>
         <div id="to-rev-info">
-          <div id="to-rev-subject"><a id="to-rev-subject-link">-</a></div>
+          <div id="to-rev-subject">
+            <a id="to-rev-subject-link">-</a>
+            <span id="to-rev-note"></span>
+          </div>
           <div class="rev-author-and-date">
             <span id="to-rev-author">-</span>
             <span id="to-rev-date"></span>

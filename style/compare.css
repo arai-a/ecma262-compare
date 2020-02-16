@@ -112,6 +112,12 @@ option.mod {
     color: #707070;
 }
 
+#from-rev-note,
+#to-rev-note {
+    font-size: 0.9em;
+    color: #707070;
+}
+
 .rev-author-and-date {
     font-size: 0.6em;
     color: #707070;
