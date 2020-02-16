@@ -151,7 +151,6 @@ class HTMLDiff {
         case "o": {
           name_stack.push(t.name);
           if (t.id) {
-          console.log(t.name + "#" + t.id);
             name_id_stack.push(t.name + "#" + t.id);
           } else {
             name_id_stack.push(t.name);
