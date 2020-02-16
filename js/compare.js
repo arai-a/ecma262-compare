@@ -527,6 +527,8 @@ class Comparator {
     this.viewToTab = document.getElementById("view-to-tab");
     this.viewDiffTab = document.getElementById("view-diff-tab");
     this.workBox = document.getElementById("work-box");
+
+    this.currentHash = "";
   }
 
   async run() {
@@ -922,7 +924,8 @@ class Comparator {
       params.push(`id=${encodeURIComponent(id)}`);
     }
 
-    window.location.hash = `#${params.join("&")}`;
+    this.currentHash = `#${params.join("&")}`;
+    window.location.hash = this.currentHash;
   }
 
   async compare() {
@@ -1180,6 +1183,17 @@ class Comparator {
   async onTabChange() {
     await this.compare();
   }
+
+  async onHashChange() {
+    if (window.location.hash == this.currentHash) {
+      return;
+    }
+
+    await this.parseQuery();
+    this.updateHistoryLink();
+    this.updateRevInfo();
+    this.updateURL();
+  }
 }
 
 let comparator;
@@ -1208,3 +1222,7 @@ function onSecListChange() {
 function onTabChange() {
   comparator.onTabChange().catch(e => console.error(e));
 }
+
+window.addEventListener("hashchange", () => {
+  comparator.onHashChange().catch(e => console.error(e));
+});
