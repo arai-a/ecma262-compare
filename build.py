@@ -5,554 +5,648 @@ import distutils
 import distutils.dir_util
 import json
 import os
-import re
 import subprocess
 import sys
 import urllib.request
 
-with open('./config.json', 'r') as in_file:
-    config = json.loads(in_file.read())
-    REPO_URL = config['repo_url']
-    FIRST_REV = config['first_rev']
-    UPDATE_FIRST_REV = config['update_first_rev']
-    FIRST_PR = config['first_pr']
 
-API_TOKEN = os.environ.get('GITHUB_TOKEN')
-if os.path.exists('./token.json'):
-    with open('./token.json', 'r') as in_file:
-        token = json.loads(in_file.read())
-        API_TOKEN = token['token']
+class Logger:
+    def log(s):
+        print('@@@@ {}'.format(s))
 
-def clone_repo_if_necessary():
-    if not os.path.exists('./ecma262'):
-        subprocess.call(['git', 'clone', REPO_URL])
-
-def generate_html(sha, subdir, skip_cache):
-    basedir = './history/{}'.format(subdir)
-    revdir = '{}{}'.format(basedir, sha)
-
-    result = '{}/index.html'.format(revdir, sha)
-    if not skip_cache and os.path.exists(result):
-        print('@@@@ skip {} (cached)'.format(result))
+        # Flush to make it apeear immediately in automation log.
         sys.stdout.flush()
-        return False
-
-    print('@@@@ {}'.format(revdir))
-    sys.stdout.flush()
-
-    ret = subprocess.call(['git',
-                           'checkout', sha], cwd='./ecma262')
-    if ret:
-        sys.exit(ret)
-
-    ret = subprocess.call(['npm', 'install'], cwd='./ecma262')
-    if ret:
-        sys.exit(ret)
-
-    fromdir = './ecma262/out'
-    indexfile = '{}/index.html'.format(fromdir)
-
-    ret = subprocess.call(['npm', 'run', 'build'], cwd='./ecma262')
-    if ret:
-        sys.exit(ret)
-
-    if not os.path.exists(indexfile):
-        # Some intermediate commit might fail building.
-        # (and npm returns 0...)
-        # Generate an empty file in that case.
-
-        outdir = './ecma262/out/'
-        if not os.path.exists(outdir):
-            os.makedirs(outdir)
-
-        with open(indexfile, 'w') as f:
-            f.write('<html></html>')
-
-    if not os.path.exists(basedir):
-        os.makedirs(basedir)
-    if os.path.exists(revdir):
-        distutils.dir_util.remove_tree(revdir)
-
-    distutils.dir_util.copy_tree(fromdir, revdir)
-    return True
-
-def update_rev(sha, skip_cache):
-    result1 = generate_html(sha, '', skip_cache)
-    result2 = generate_json(sha, '', skip_cache)
-    return result1 or result2
-
-def update_master(target_rev, count, skip_cache):
-    if target_rev == 'all':
-        revset = ['{}^..{}'.format(UPDATE_FIRST_REV, 'origin/master')]
-    else:
-        revset = ['-1', target_rev]
-
-    ret = subprocess.call(['git',
-                           'fetch', 'origin', 'master'],
-                          cwd='./ecma262')
-    if ret:
-        sys.exit(ret)
-
-    p = subprocess.Popen(['git', 'log'] + revset
-                         + ['--pretty=%H'],
-                         cwd='./ecma262',
-                         stdout=subprocess.PIPE,
-                         stderr=subprocess.STDOUT)
-    shaes = []
-    for line in p.stdout:
-        shaes.append(line.strip().decode('utf-8'))
-
-    i = 1
-    for sha in reversed(shaes):
-        print('@@@@ {}/{}'.format(i, len(shaes)))
-        sys.stdout.flush()
-        result = update_rev(sha, skip_cache)
-        if count is not None:
-            if result:
-                count -= 1
-                if count == 0:
-                    break
-        i += 1
-    p.wait()
-
-def get_revs(revset):
-    p = subprocess.Popen(['git', 'log'] + revset
-                         + ['--pretty=hash:%H%nparents:%P%nauthor:%an%ndate:%cI%nadate:%aI%nsubject:%s%n=='],
-                         cwd='./ecma262',
-                         stdout=subprocess.PIPE,
-                         stderr=subprocess.STDOUT)
-
-    revs = []
-
-    rev = dict()
-
-    for line in p.stdout:
-        line = line.strip().decode('utf-8')
-        if line == '==':
-            revs.append(rev)
-            rev = dict()
-        else:
-            (name, value) = line.split(':', 1)
-            rev[name] = value
-    p.wait()
-
-    return revs
 
 
-def has_section(rev):
-    sections = './history/{}/sections.json'.format(rev['hash'])
-    return os.path.exists(sections)
+def unique(get_key, iterable):
+    keys = set()
 
-def unique(revs):
-    hashes = set()
-
-    urevs = []
-    for rev in revs:
-        if rev['hash'] in hashes:
+    result = []
+    for item in iterable:
+        key = get_key(item)
+        if key in keys:
             continue
 
-        hashes.add(rev['hash'])
-        urevs.append(rev)
+        keys.add(key)
+        result.append(item)
 
-    return urevs
+    return result
 
-def update_revs():
-    revs = get_revs(['{}^..{}'.format(FIRST_REV, 'origin/master')])
 
-    bases = set()
-    prs = get_prs()
-    for prnum in prs:
-        bases.add(prs[prnum]['base'])
+class FileUtils:
+    def read(path):
+        with open(path, 'r') as in_file:
+            return in_file.read()
 
-    for base in bases:
-        rev = get_revs(['-1', base])[0]
-        revs.append(rev)
+    @classmethod
+    def read_json(cls, path):
+        return json.loads(cls.read(path))
 
-    revs.sort(key = lambda rev: rev['date'], reverse=True)
+    def write(path, text):
+        with open(path, 'w') as f:
+            f.write(text)
 
-    revs = unique(list(filter(has_section, revs)))
+    def mkdir_p(path):
+        if not os.path.exists(path):
+            os.makedirs(path)
 
-    revs_txt = json.dumps(revs,
-                          indent=1,
-                          separators=(',', ': '),
-                          sort_keys=True)
 
-    with open('./history/revs.json', 'w') as out_file:
-        out_file.write(revs_txt)
+class Config:
+    __config_path = os.path.join('.', 'config.json')
 
-pr_pat = re.compile('PR/([0-9]+)/')
-def get_prs():
-    raw_prs = get_raw_prs()
+    __config = FileUtils.read_json(__config_path)
 
-    prs = dict()
+    REPO_URL = __config['repo_url']
+    API_URL = __config['api_url']
+    FIRST_REV = __config['first_rev']
+    UPDATE_FIRST_REV = __config['update_first_rev']
+    FIRST_PR = __config['first_pr']
 
-    for data in raw_prs:
-        prnum = data['number']
-        info_path = './history/PR/{}/info.json'.format(prnum)
 
-        if os.path.exists(info_path):
-            with open(info_path, 'r') as in_file:
-                info = json.loads(in_file.read())
+class Paths:
+    TOKEN_PATH = os.path.join('.', 'token.json')
+    HISTORY_DIR = os.path.join('.', 'history')
+    REVS_PATH = os.path.join(HISTORY_DIR, 'revs.json')
+    PRS_PATH = os.path.join(HISTORY_DIR, 'prs.json')
 
-            prs[prnum] = info
+    @classmethod
+    def rev_parent_dir(cls, prnum=None):
+        if prnum is not None:
+            return os.path.join(cls.HISTORY_DIR, 'PR', str(prnum))
+        return cls.HISTORY_DIR
 
-    return prs
+    @classmethod
+    def rev_dir(cls, sha, prnum=None):
+        return os.path.join(cls.rev_parent_dir(prnum), sha)
 
-def update_prs():
-    prs = get_prs()
+    @classmethod
+    def pr_info_path(cls, prnum):
+        return os.path.join(cls.rev_parent_dir(prnum), 'info.json')
 
-    prs_json = json.dumps(prs,
-                          indent=1,
-                          separators=(',', ': '),
-                          sort_keys=True)
+    @classmethod
+    def sections_path(cls, sha, prnum=None):
+        return os.path.join(cls.rev_dir(sha, prnum), 'sections.json')
 
-    with open('./history/prs.json', 'w') as out_file:
-        out_file.write(prs_json)
+    @classmethod
+    def index_path(cls, sha, prnum=None):
+        return os.path.join(cls.rev_dir(sha, prnum), 'index.html')
 
-def github_api(url, query=[]):
-    query_string = '&'.join(map(lambda x: '{}={}'.format(x[0], x[1]), query))
-    url = '{}?{}'.format(url, query_string)
-    if API_TOKEN:
-        headers = {
-            'Authorization': 'token {}'.format(API_TOKEN),
-        }
-    else:
-        headers = {}
-    req = urllib.request.Request(url, None, headers)
-    response = urllib.request.urlopen(req)
-    data = json.loads(response.read())
-    return data
 
-def github_api_pages(url, query=[]):
-    page = 1
-    data = github_api(url, query)
-    if len(data) == 30:
-        while True:
-            page += 1
-            next_data = github_api(url, query + [['page', str(page)]])
-            data += next_data
-            if len(next_data) != 30:
-                break
-    return data
+class GitHubAPI:
+    __API_TOKEN = os.environ.get('GITHUB_TOKEN')
+    if not __API_TOKEN and os.path.exists(Paths.TOKEN_PATH):
+        __API_TOKEN = FileUtils.read_json(Paths.TOKEN_PATH)['token']
 
-def is_pr_cached(pr, info):
-    with open('./history/prs.json', 'r') as in_file:
-        prs = json.loads(in_file.read())
+    @classmethod
+    def call(cls, path, query=[]):
+        query_string = '&'.join(
+            map(lambda x: '{}={}'.format(x[0], x[1]),
+                query))
 
-    if str(pr) in prs:
-        prev_info = prs[str(pr)]
-        if info['head'] == prev_info['head']:
-            return True
+        url = '{}{}?{}'.format(Config.API_URL, path, query_string)
+        if cls.__API_TOKEN:
+            headers = {
+                'Authorization': 'token {}'.format(cls.__API_TOKEN),
+            }
+        else:
+            headers = {}
 
-    return False
+        req = urllib.request.Request(url, None, headers)
+        response = urllib.request.urlopen(req)
+        return json.loads(response.read())
 
-def get_pr_with(pr, info, url, skip_cache):
-    if not skip_cache and is_pr_cached(pr, info):
-        print('@@@@ skip PR {} (cached)'.format(pr))
-        sys.stdout.flush()
-        return False
-
-    basedir = './history/PR/{}'.format(pr)
-
-    if not os.path.exists(basedir):
-        os.makedirs(basedir)
-
-    subprocess.call(['git',
-                     'remote', 'add', info['login'], url],
-                    cwd='./ecma262')
-    ret = subprocess.call(['git',
-                           'fetch', info['login'], info['ref']],
-                          cwd='./ecma262')
-    if ret:
-        sys.exit(ret)
-
-    generate_html(info['head'], 'PR/{}/'.format(pr), skip_cache)
-    generate_json(info['head'], 'PR/{}/'.format(pr), skip_cache)
-
-    info['revs'] = get_revs(['origin/master..{}'.format(info['head'])])
-    parents = info['revs'][-1]['parents']
-
-    txt = json.dumps(info)
-
-    info_path = '{}/info.json'.format(basedir)
-    with open(info_path, 'w') as out_file:
-        out_file.write(txt)
-
-    update_rev(info['base'], skip_cache)
-    for parent in parents.split(' '):
-        update_rev(parent, skip_cache)
-
-    return True
-
-def pr_info(data):
-    info = dict()
-    info['ref'] = data['head']['ref']
-    info['login'] = data['head']['user']['login']
-    info['head'] = data['head']['sha']
-    info['base'] = data['base']['sha']
-    info['title'] = data['title']
-    info['created_at'] = data['created_at']
-    info['updated_at'] = data['updated_at']
-
-    return info
-
-def get_pr(pr, skip_cache):
-    data = github_api('https://api.github.com/repos/tc39/ecma262/pulls/{}'.format(pr))
-
-    url = data['head']['repo']['clone_url']
-    info = pr_info(data)
-
-    return get_pr_with(pr, info, url, skip_cache)
-
-def get_raw_prs():
-    data = github_api_pages('https://api.github.com/repos/tc39/ecma262/pulls')
-
-    raw_prs = []
-    for d in reversed(data):
-        if d['number'] >= FIRST_PR:
-            raw_prs.append(d)
-
-    return raw_prs
-
-def get_all_pr(count, skip_cache):
-    raw_prs = get_raw_prs()
-
-    result_any = False
-
-    i = 1
-    for data in raw_prs:
-        prnum = data['number']
-        url = data['head']['repo']['clone_url']
-        info = pr_info(data)
-
-        print('@@@@ {}/{} PR {}'.format(i, len(raw_prs), prnum))
-        sys.stdout.flush()
-        result = get_pr_with(prnum, info, url, skip_cache)
-        if result:
-            result_any = True
-        if count is not None:
-            if result:
-                count -= 1
-                if count == 0:
+    @classmethod
+    def call_pages(cls, path, query=[]):
+        page = 1
+        data = cls.call(path, query)
+        if len(data) == 30:
+            while True:
+                page += 1
+                next_data = cls.call(path, query + [['page', str(page)]])
+                data += next_data
+                if len(next_data) != 30:
                     break
-        i += 1
+        return data
 
-    return result_any
 
-def get_text(node):
-    return ''.join([x for x in node.itertext()])
+class RemoteRepository:
+    def prs():
+        prs = []
+        for d in GitHubAPI.call_pages('pulls'):
+            if d['number'] >= Config.FIRST_PR:
+                prs.append(d)
 
-def check_id(node):
-    if 'id' not in node.attrib:
-        return False
-    if not node.attrib['id'].startswith('sec-'):
-        return False
-    return True
+        return prs
 
-def get_sec_nodes(dom):
-    return filter(check_id, dom.xpath('//emu-clause') + dom.xpath('//emu-annex'))
+    def head():
+        return GitHubAPI.call('commits', [['per_page', '1']])[0]['sha']
 
-def get_sec_list(dom):
-    sec_list = []
-    sec_num_map = dict()
-    sec_title_map = dict()
+    def pr(prnum):
+        return GitHubAPI.call('pulls/{}'.format(prnum))
 
-    for node in get_sec_nodes(dom):
-        id = node.attrib['id']
 
-        h1 = node.xpath('./h1')[0]
+class PRInfo:
+    def create(data):
+        return {
+            'ref': data['head']['ref'],
+            'login': data['head']['user']['login'],
+            'head': data['head']['sha'],
+            'base': data['base']['sha'],
+            'title': data['title'],
+            'created_at': data['created_at'],
+            'updated_at': data['updated_at'],
+        }
 
-        secnum = h1.xpath('./span[@class="secnum"]')[0]
-        num = get_text(secnum)
+    def parents(info):
+        parents = info['revs'][-1]['parents']
+        return parents.split(' ')
 
-        title = get_text(h1).replace(num, '')
 
-        sec_list.append(id)
-        sec_num_map[id] = num
-        sec_title_map[id] = title
-
-    return sec_list, sec_num_map, sec_title_map
-
-def exclude_subsections(dom, sec_list, sec_num_map, sec_title_map):
-    import lxml.html
-
-    for node in get_sec_nodes(dom):
-        id = node.attrib['id']
-
-        num = sec_num_map[id]
-        title = sec_title_map[id]
-
-        h1 = lxml.html.Element('h1')
-        secnum = lxml.html.Element('span', {'class': 'secnum'})
-        secnum.text = num
-        h1.append(secnum)
-        secnum.tail = title
-        h1.tail = '...'
-
-        box = lxml.html.Element('div')
-        box.attrib['id'] = 'excluded-' + id
-        box.append(h1)
-
-        node.getparent().replace(node, box)
-
-        dom.body.append(node)
-
-def extract_sec_html(dom, sec_list, sec_num_map, sec_title_map):
-    import lxml.etree
-
-    sec_data = dict()
-
-    for node in get_sec_nodes(dom):
-        id = node.attrib['id']
-        num = sec_num_map[id]
-        title = sec_title_map[id]
-        html = lxml.etree.tostring(node, method='html').decode('utf-8')
-
-        entry = dict()
-        entry['num'] = num
-        entry['title'] = title
-        entry['html'] = html
-        sec_data[id] = entry
-
-    data = dict()
-    data['secList'] = sec_list
-    data['secData'] = sec_data
-
-    return data
-
-def remove_emu_ids(dom):
-    for node in (dom.xpath('//emu-xref') + dom.xpath('//emu-xref') + dom.xpath('//emu-nt')):
-        if 'id' in node.attrib:
-            node.attrib.pop('id')
-
-def extract_sections(filename, skip_cache):
-    in_filename = '{}/index.html'.format(filename)
-    out_filename = '{}/sections.json'.format(filename)
-
-    if not skip_cache and os.path.exists(out_filename):
-        print('@@@@ skip {} (cached)'.format(out_filename))
-        sys.stdout.flush()
-        return False
-
-    print('@@@@ {}'.format(out_filename))
-    sys.stdout.flush()
-
-    import lxml.html
-
-    with open(in_filename, 'r') as in_file:
-        dom = lxml.html.fromstring(in_file.read())
-
-        remove_emu_ids(dom)
-
-        sec_list, sec_num_map, sec_title_map = get_sec_list(dom)
-        exclude_subsections(dom, sec_list, sec_num_map, sec_title_map)
-        data = extract_sec_html(dom, sec_list, sec_num_map, sec_title_map)
-        txt = json.dumps(data)
-
-        with open(out_filename, 'w') as out_file:
-            out_file.write(txt)
-    return True
-
-def generate_json(sha, subdir, skip_cache):
-    basedir = './history/{}'.format(subdir)
-    return extract_sections('{}{}'.format(basedir, sha), skip_cache)
-
-def is_rev_cached(sha):
-    with open('./history/revs.json', 'r') as in_file:
-        revs = json.loads(in_file.read())
-
-    for rev in revs:
-        if rev['hash'] == sha:
+class CacheChecker:
+    @classmethod
+    def has_new_rev(cls):
+        head = RemoteRepository.head()
+        if not cls.is_rev_cached(head):
+            print('head={} is not cached'.format(head))
             return True
 
-    return False
+        return False
 
-def has_new_rev():
-    data = github_api('https://api.github.com/repos/tc39/ecma262/commits',
-                      [['per_page', '1']])
-    head = data[0]['sha']
+    @classmethod
+    def has_new_pr(cls):
+        for data in RemoteRepository.prs():
+            prnum = data['number']
+            info = PRInfo.create(data)
+            if not cls.is_pr_cached(prnum, info):
+                print('PR={} is not cached'.format(prnum))
+                return True
 
-    if not is_rev_cached(head):
-        print('head={} is not cached'.format(head))
+        return False
+
+    def is_rev_cached(sha):
+        revs = FileUtils.read_json(Paths.REVS_PATH)
+        for rev in revs:
+            if rev['hash'] == sha:
+                return True
+
+        return False
+
+    def is_pr_cached(prnum, info):
+        prs = FileUtils.read_json(Paths.PRS_PATH)
+        if str(prnum) not in prs:
+            return False
+
+        prev_info = prs[str(prnum)]
+        return info['head'] == prev_info['head']
+
+    def has_sections_json(rev):
+        return os.path.exists(Paths.sections_path(rev['hash']))
+
+
+class LocalRepository:
+    DIR = os.path.join('.', 'ecma262')
+    URL = Config.REPO_URL
+
+    @classmethod
+    def clone(cls):
+        if not os.path.exists(cls.DIR):
+            subprocess.run(['git', 'clone', cls.URL],
+                           check=True)
+
+    @classmethod
+    def checkout(cls, sha):
+        subprocess.run(['git', 'checkout', sha],
+                       cwd=cls.DIR,
+                       check=True)
+
+    @classmethod
+    def fetch(cls, remote, branch):
+        subprocess.run(['git', 'fetch', remote, branch],
+                       cwd=cls.DIR,
+                       check=True)
+
+    @classmethod
+    def log(cls, params):
+        p = subprocess.Popen(['git', 'log'] + params,
+                             cwd=cls.DIR,
+                             stdout=subprocess.PIPE,
+                             stderr=subprocess.STDOUT)
+        for line in p.stdout:
+            yield line.strip().decode('utf-8')
+        p.wait()
+
+    @classmethod
+    def add_remote(cls, name, url):
+        subprocess.run(['git', 'remote', 'add', name, url],
+                       cwd=cls.DIR,
+                       check=False)
+
+    @classmethod
+    def revs(cls, revset):
+        pretty = '%n'.join([
+            'hash:%H',
+            'parents:%P',
+            'author:%an',
+            'date:%cI',
+            'adate:%aI',
+            'subject:%s',
+        ])
+
+        revs = []
+        rev = dict()
+        for line in cls.log(revset + ['--pretty={}%n=='.format(pretty)]):
+            if line == '==':
+                revs.append(rev)
+                rev = dict()
+            else:
+                (name, value) = line.split(':', 1)
+                rev[name] = value
+
+        return revs
+
+
+class SectionsExtractor:
+    def __get_text(node):
+        return ''.join([x for x in node.itertext()])
+
+    def __is_section(node):
+        if 'id' not in node.attrib:
+            return False
+        return node.attrib['id'].startswith('sec-')
+
+    @classmethod
+    def __get_sec_nodes(cls, dom):
+        return filter(
+            cls.__is_section,
+            dom.xpath('//emu-clause') + dom.xpath('//emu-annex')
+        )
+
+    @classmethod
+    def __get_sec_list(cls, dom):
+        sec_list = []
+        sec_num_map = dict()
+        sec_title_map = dict()
+
+        for node in cls.__get_sec_nodes(dom):
+            id = node.attrib['id']
+
+            h1 = node.xpath('./h1')[0]
+
+            secnum = h1.xpath('./span[@class="secnum"]')[0]
+            num = cls.__get_text(secnum)
+
+            title = cls.__get_text(h1).replace(num, '')
+
+            sec_list.append(id)
+            sec_num_map[id] = num
+            sec_title_map[id] = title
+
+        return sec_list, sec_num_map, sec_title_map
+
+    @classmethod
+    def __exclude_subsections(cls, dom, sec_list, sec_num_map, sec_title_map):
+        import lxml.html
+
+        for node in cls.__get_sec_nodes(dom):
+            id = node.attrib['id']
+
+            num = sec_num_map[id]
+            title = sec_title_map[id]
+
+            h1 = lxml.html.Element('h1')
+            secnum = lxml.html.Element('span', {'class': 'secnum'})
+            secnum.text = num
+            h1.append(secnum)
+            secnum.tail = title
+            h1.tail = '...'
+
+            box = lxml.html.Element('div')
+            box.attrib['id'] = 'excluded-' + id
+            box.append(h1)
+
+            node.getparent().replace(node, box)
+
+            dom.body.append(node)
+
+    @classmethod
+    def __to_data(cls, dom, sec_list, sec_num_map, sec_title_map):
+        import lxml.etree
+
+        sec_data = dict()
+
+        for node in cls.__get_sec_nodes(dom):
+            id = node.attrib['id']
+            num = sec_num_map[id]
+            title = sec_title_map[id]
+            html = lxml.etree.tostring(node, method='html').decode('utf-8')
+
+            sec_data[id] = {
+                'num': num,
+                'title': title,
+                'html': html,
+            }
+
+        return sec_data
+
+    def remove_emu_ids(dom):
+        for node in (dom.xpath('//emu-xref') + dom.xpath('//emu-nt')):
+            if 'id' in node.attrib:
+                node.attrib.pop('id')
+
+    @classmethod
+    def extract(cls, html):
+        import lxml.html
+
+        dom = lxml.html.fromstring(html)
+        cls.remove_emu_ids(dom)
+        sec_list, sec_num_map, sec_title_map = cls.__get_sec_list(dom)
+        cls.__exclude_subsections(dom, sec_list, sec_num_map, sec_title_map)
+        sec_data = cls.__to_data(dom, sec_list, sec_num_map, sec_title_map)
+
+        return {
+            'secList': sec_list,
+            'secData': sec_data
+        }
+
+
+class RevisionRenderer:
+    def __html(sha, prnum, skip_cache):
+        index_path = Paths.index_path(sha, prnum)
+        if not skip_cache and os.path.exists(index_path):
+            Logger.log('skip {} (cached)'.format(index_path))
+            return False
+
+        Logger.log(index_path)
+
+        LocalRepository.checkout(sha)
+
+        subprocess.run(['npm', 'install'],
+                       cwd=LocalRepository.DIR,
+                       check=True)
+
+        repo_out_dir = os.path.join(LocalRepository.DIR, 'out')
+        repo_out_index_path = os.path.join(repo_out_dir, 'index.html')
+
+        subprocess.run(['npm', 'run', '--silent', 'build'],
+                       cwd=LocalRepository.DIR,
+                       check=True)
+
+        if not os.path.exists(repo_out_index_path):
+            # Some intermediate commit might fail building.
+            # (and npm returns 0...)
+            # Generate an empty file in that case.
+            FileUtils.mkdir_p(repo_out_dir)
+            FileUtils.write(repo_out_index_path, '<html></html>')
+
+        FileUtils.mkdir_p(Paths.rev_parent_dir(prnum))
+
+        rev_dir = Paths.rev_dir(sha, prnum)
+        if os.path.exists(rev_dir):
+            distutils.dir_util.remove_tree(rev_dir)
+
+        distutils.dir_util.copy_tree(repo_out_dir, rev_dir)
         return True
 
-    return False
+    def __json(sha, prnum, skip_cache):
+        sections_path = Paths.sections_path(sha, prnum)
+        if not skip_cache and os.path.exists(sections_path):
+            Logger.log('skip {} (cached)'.format(sections_path))
+            return False
 
-def has_new_pr():
-    data = github_api_pages('https://api.github.com/repos/tc39/ecma262/pulls')
+        Logger.log(sections_path)
 
-    prs = []
-    for d in reversed(data):
-        if d['number'] >= FIRST_PR:
-            prs.append(d)
+        data = SectionsExtractor.extract(
+            FileUtils.read(Paths.index_path(sha, prnum)))
 
-    for data in prs:
-        prnum = data['number']
-        info = pr_info(data)
-        if not is_pr_cached(prnum, info):
-            print('PR={} is not cached'.format(prnum))
-            return True
+        sections_json = json.dumps(data)
+        FileUtils.write(sections_path, sections_json)
 
-    return False
+        return True
 
-def bootstrap():
-    has_new = False
+    @classmethod
+    def run(cls, sha, prnum, skip_cache):
+        updated1 = cls.__html(sha, prnum, skip_cache)
+        updated2 = cls.__json(sha, prnum, skip_cache)
+        return updated1 or updated2
 
-    if has_new_rev():
-        print('##[set-output name=update_revs;]Yes')
-        has_new = True
 
-    if has_new_pr():
-        print('##[set-output name=update_prs;]Yes')
-        has_new = True
+class Revisions:
+    def update_list():
+        revs = LocalRepository.revs(
+            ['{}^..{}'.format(Config.FIRST_REV, 'origin/master')])
 
-    if has_new:
-        print('##[set-output name=update;]Yes')
+        parents = set()
+        prs = PRs.get()
+        for prnum in prs:
+            for parent in PRInfo.parents(prs[prnum]):
+                parents.add(parent)
+
+        for parent in parents:
+            rev = LocalRepository.revs(['-1', parent])[0]
+            revs.append(rev)
+
+        revs.sort(key=lambda rev: rev['date'], reverse=True)
+
+        revs = unique(lambda rev: rev['hash'],
+                      filter(CacheChecker.has_sections_json, revs))
+
+        revs_json = json.dumps(revs,
+                               indent=1,
+                               separators=(',', ': '),
+                               sort_keys=True)
+        FileUtils.write(Paths.REVS_PATH, revs_json)
+
+    def __update_revset(revset, count, skip_cache):
+        LocalRepository.fetch('origin', 'master')
+
+        shas = []
+        for sha in LocalRepository.log(revset + ['--pretty=%H']):
+            shas.append(sha)
+
+        updated_any = False
+
+        i = 0
+        # Update from older revisions
+        for sha in reversed(shas):
+            i += 1
+            Logger.log('{}/{}'.format(i, len(shas)))
+
+            updated = RevisionRenderer.run(sha, None, skip_cache)
+            if updated:
+                updated_any = True
+
+            if count is not None:
+                if updated:
+                    count -= 1
+                    if count == 0:
+                        break
+
+        return updated_any
+
+    @classmethod
+    def update_all(cls, count, skip_cache):
+        return cls.__update_revset(
+            ['{}^..{}'.format(Config.UPDATE_FIRST_REV, 'origin/master')],
+            count, skip_cache)
+
+    @classmethod
+    def update(cls, target_rev, skip_cache):
+        return cls.__update_revset(['-1', target_rev], 1, skip_cache)
+
+
+class PRs:
+    def get():
+        prs = dict()
+        for data in RemoteRepository.prs():
+            prnum = data['number']
+            info_path = Paths.pr_info_path(prnum)
+
+            if os.path.exists(info_path):
+                prs[prnum] = FileUtils.read_json(info_path)
+
+        return prs
+
+    @classmethod
+    def update_list(cls):
+        prs = cls.get()
+
+        prs_json = json.dumps(prs,
+                              indent=1,
+                              separators=(',', ': '),
+                              sort_keys=True)
+        FileUtils.write(Paths.PRS_PATH, prs_json)
+
+    def __update_with(prnum, data, skip_cache):
+        info = PRInfo.create(data)
+        url = data['head']['repo']['clone_url']
+
+        if not skip_cache and CacheChecker.is_pr_cached(prnum, info):
+            Logger.log('skip PR {} (cached)'.format(prnum))
+            return False
+
+        FileUtils.mkdir_p(Paths.rev_parent_dir(prnum))
+
+        LocalRepository.add_remote(info['login'], url)
+        LocalRepository.fetch(info['login'], info['ref'])
+
+        RevisionRenderer.run(info['head'], prnum, skip_cache)
+
+        info['revs'] = LocalRepository.revs(
+            ['origin/master..{}'.format(info['head'])])
+
+        info_json = json.dumps(info)
+        FileUtils.write(Paths.pr_info_path(prnum), info_json)
+
+        for parent in PRInfo.parents(info):
+            RevisionRenderer.run(parent, None, skip_cache)
+
+        return True
+
+    @classmethod
+    def update(cls, prnum, skip_cache):
+        data = RemoteRepository.pr(prnum)
+        return cls.__update_with(prnum, data, skip_cache)
+
+    @classmethod
+    def update_all(cls, count, skip_cache):
+        raw_prs = RemoteRepository.prs()
+
+        updated_any = False
+
+        i = 0
+        # Update from older PRs
+        for data in reversed(raw_prs):
+            prnum = data['number']
+            i += 1
+            Logger.log('{}/{} PR {}'.format(i, len(raw_prs), prnum))
+
+            updated = cls.__update_with(prnum, data, skip_cache)
+            if updated:
+                updated_any = True
+
+            if count is not None:
+                if updated:
+                    count -= 1
+                    if count == 0:
+                        break
+
+        return updated_any
+
+
+class Bootstrap:
+    def run():
+        has_new = False
+
+        if CacheChecker.has_new_rev():
+            print('##[set-output name=update_revs;]Yes')
+            has_new = True
+
+        if CacheChecker.has_new_pr():
+            print('##[set-output name=update_prs;]Yes')
+            has_new = True
+
+        if has_new:
+            print('##[set-output name=update;]Yes')
+
 
 parser = argparse.ArgumentParser(description='Update ecma262 history data')
 
-parser.add_argument('-t', '--token', help='GitHub personal access token')
-parser.add_argument('--skip-cache', action='store_true', help='Skip cache')
+parser.add_argument('--skip-cache', action='store_true',
+                    help='Skip cache')
+parser.add_argument('--skip-list', action='store_true',
+                    help='Skip updating list')
 subparsers = parser.add_subparsers(dest='command')
-subparsers.add_parser('clone', help='Clone ecma262 repository')
-subparser_update = subparsers.add_parser('update', help='Update all revisions')
-subparser_update.add_argument('-c', type=int, help='Maximum number of revisions to handle')
-subparser_rev = subparsers.add_parser('rev', help='Update single revision')
-subparser_rev.add_argument('-c', type=int, help='Maximum number of revisions to handle for all')
-subparser_rev.add_argument('REV', help='revision hash, or "all"')
-subparsers.add_parser('revs', help='Update revs.json')
-parser_pr = subparsers.add_parser('pr', help='Update PR')
-parser_pr.add_argument('PR_NUMBER', help='PR number, or "all"')
-parser_pr.add_argument('-c', type=int, help='Maximum number of PRs to handle')
-subparsers.add_parser('prs', help='Update prs.json')
-subparsers.add_parser('bootstrap', help='Perform bootstrap for CI')
+subparsers.add_parser('clone',
+                      help='Clone ecma262 repository')
+subparser_update = subparsers.add_parser('update',
+                                         help='Update all revisions')
+subparser_update.add_argument('-c', type=int,
+                              help='Maximum number of revisions to handle')
+subparser_rev = subparsers.add_parser('rev',
+                                      help='Update single revision')
+subparser_rev.add_argument('-c', type=int,
+                           help='Maximum number of revisions to handle')
+subparser_rev.add_argument('REV',
+                           help='revision hash, or "all"')
+subparsers.add_parser('revs',
+                      help='Update revs.json')
+parser_pr = subparsers.add_parser('pr',
+                                  help='Update PR')
+parser_pr.add_argument('PR_NUMBER',
+                       help='PR number, or "all"')
+parser_pr.add_argument('-c', type=int,
+                       help='Maximum number of PRs to handle')
+subparsers.add_parser('prs',
+                      help='Update prs.json')
+subparsers.add_parser('bootstrap',
+                      help='Perform bootstrap for CI')
 args = parser.parse_args()
 
-if args.token:
-    API_TOKEN = args.token
-
 if args.command == 'clone':
-    clone_repo_if_necessary()
-elif args.command == 'update':
-    update_master('all', args.c, args.skip_cache)
-    update_revs()
+    LocalRepository.clone()
 elif args.command == 'rev':
-    update_master(args.REV, args.c, args.skip_cache)
-    update_revs()
+    if args.REV == 'all':
+        updated = Revisions.update_all(args.c, args.skip_cache)
+        if not args.skip_list and updated:
+            Revisions.update_list()
+    else:
+        updated = Revisions.update(args.REV, args.skip_cache)
+        if not args.skip_list and updated:
+            Revisions.update_list()
 elif args.command == 'revs':
-    update_revs()
+    Revisions.update_list()
 elif args.command == 'pr':
     if args.PR_NUMBER == 'all':
-        result = get_all_pr(args.c, args.skip_cache)
-        if result:
-            update_prs()
-            update_revs()
+        updated = PRs.update_all(args.c, args.skip_cache)
+        if not args.skip_list and updated:
+            PRs.update_list()
+            Revisions.update_list()
     else:
-        result = get_pr(args.PR_NUMBER, args.skip_cache)
-        if result:
-            update_prs()
-            update_revs()
+        updated = PRs.update(args.PR_NUMBER, args.skip_cache)
+        if not args.skip_list and updated:
+            PRs.update_list()
+            Revisions.update_list()
 elif args.command == 'prs':
-    update_prs()
+    PRs.update_list()
 elif args.command == 'bootstrap':
-    bootstrap()
+    Bootstrap.run()

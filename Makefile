@@ -20,13 +20,13 @@ revs:
 	$(PYTHON) build.py revs
 
 update:
-	$(PYTHON) build.py update
+	$(PYTHON) build.py rev all
 
 update1:
-	$(PYTHON) build.py update -c 1
+	$(PYTHON) build.py rev -c 1 all
 
 update5:
-	$(PYTHON) build.py update -c 5
+	$(PYTHON) build.py rev -c 5 all
 
 pr:
 	$(PYTHON) build.py pr all
