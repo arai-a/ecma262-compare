@@ -12,8 +12,8 @@ import urllib.request
 
 
 class Logger:
-    def log(s):
-        print('@@@@ {}'.format(s))
+    def info(s):
+        print('[INFO] {}'.format(s))
 
         # Flush to make it apeear immediately in automation log.
         sys.stdout.flush()
@@ -166,20 +166,33 @@ class CacheChecker:
     def has_new_rev(cls):
         head = RemoteRepository.head()['sha']
         if not cls.is_rev_cached(head):
-            print('head={} is not cached'.format(head))
+            Logger.info('head={} is not cached'.format(head))
             return True
 
+        Logger.info('head={} is cached'.format(head))
         return False
 
     @classmethod
     def has_new_pr(cls):
+        prs = cls.__prs_json()
+
+        newest_pr_number = None
+
+        result = False
         for data in RemoteRepository.prs():
             pr = PRInfo.create(data)
-            if not cls.is_pr_cached(pr):
-                print('PR={} is not cached'.format(data['number']))
-                return True
+            if not newest_pr_number:
+                newest_pr_number = pr['number']
+            if not cls.__is_pr_cached_with(pr, prs):
+                Logger.info('PR={} is not cached'.format(data['number']))
+                result = True
 
-        return False
+        if not result:
+            if newest_pr_number:
+                Logger.info('All PRs are cached (newest=#{})'.format(newest_pr_number))
+            else:
+                Logger.info('All PRs are cached')
+        return result
 
     def is_rev_cached(sha):
         revs = FileUtils.read_json(Paths.REVS_PATH)
@@ -189,11 +202,18 @@ class CacheChecker:
 
         return False
 
-    def is_pr_cached(pr):
-        for prev_pr in FileUtils.read_json(Paths.PRS_PATH):
+    def __prs_json():
+        return FileUtils.read_json(Paths.PRS_PATH)
+
+    def __is_pr_cached_with(pr, prs):
+        for prev_pr in prs:
             if prev_pr['number'] == pr['number']:
                 return prev_pr['head'] == pr['head']
         return False
+
+    @classmethod
+    def is_pr_cached(cls, pr):
+        return cls.__is_pr_cached_with(cls.__prs_json())
 
     def has_sections_json(rev):
         return os.path.exists(Paths.sections_path(rev['hash']))
@@ -404,10 +424,10 @@ class RevisionRenderer:
     def __html(cls, sha, prnum, skip_cache):
         index_path = Paths.index_path(sha, prnum)
         if not skip_cache and os.path.exists(index_path):
-            Logger.log('skip {} (cached)'.format(index_path))
+            Logger.info('skip {} (cached)'.format(index_path))
             return False
 
-        Logger.log(index_path)
+        Logger.info(index_path)
 
         LocalRepository.checkout(sha)
 
@@ -445,10 +465,10 @@ class RevisionRenderer:
     def __json(sha, prnum, skip_cache):
         sections_path = Paths.sections_path(sha, prnum)
         if not skip_cache and os.path.exists(sections_path):
-            Logger.log('skip {} (cached)'.format(sections_path))
+            Logger.info('skip {} (cached)'.format(sections_path))
             return False
 
-        Logger.log(sections_path)
+        Logger.info(sections_path)
 
         data = SectionsExtractor.extract(
             FileUtils.read(Paths.index_path(sha, prnum)))
@@ -501,7 +521,7 @@ class Revisions:
         # Update from older revisions
         for sha in reversed(shas):
             i += 1
-            Logger.log('{}/{}'.format(i, len(shas)))
+            Logger.info('{}/{}'.format(i, len(shas)))
 
             updated = RevisionRenderer.run(sha, None, skip_cache)
             if updated:
@@ -548,7 +568,7 @@ class PRs:
         url = data['head']['repo']['clone_url']
 
         if not skip_cache and CacheChecker.is_pr_cached(pr):
-            Logger.log('skip PR {} (cached)'.format(pr['number']))
+            Logger.info('skip PR {} (cached)'.format(pr['number']))
             return False
 
         FileUtils.mkdir_p(Paths.rev_parent_dir(pr['number']))
@@ -584,7 +604,7 @@ class PRs:
         # Update from older PRs
         for data in reversed(raw_prs):
             i += 1
-            Logger.log('{}/{} PR {}'.format(i, len(raw_prs), data['number']))
+            Logger.info('{}/{} PR {}'.format(i, len(raw_prs), data['number']))
 
             updated = cls.__update_with(data, skip_cache)
             if updated:
