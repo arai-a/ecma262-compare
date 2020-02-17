@@ -156,8 +156,8 @@ class PRInfo:
             'updated_at': data['updated_at'],
         }
 
-    def parents(info):
-        parents = info['revs'][-1]['parents']
+    def parents(pr):
+        parents = pr['revs'][-1]['parents']
         return parents.split(' ')
 
 
@@ -174,8 +174,8 @@ class CacheChecker:
     @classmethod
     def has_new_pr(cls):
         for data in RemoteRepository.prs():
-            info = PRInfo.create(data)
-            if not cls.is_pr_cached(info):
+            pr = PRInfo.create(data)
+            if not cls.is_pr_cached(pr):
                 print('PR={} is not cached'.format(data['number']))
                 return True
 
@@ -189,10 +189,10 @@ class CacheChecker:
 
         return False
 
-    def is_pr_cached(info):
-        for pr in FileUtils.read_json(Paths.PRS_PATH):
-            if pr['number'] == info['number']:
-                return pr['head'] == info['head']
+    def is_pr_cached(pr):
+        for prev_pr in FileUtils.read_json(Paths.PRS_PATH):
+            if prev_pr['number'] == pr['number']:
+                return prev_pr['head'] == pr['head']
         return False
 
     def has_sections_json(rev):
@@ -530,7 +530,6 @@ class PRs:
     def get():
         for data in RemoteRepository.prs():
             info_path = Paths.pr_info_path(data['number'])
-
             if os.path.exists(info_path):
                 yield FileUtils.read_json(info_path)
 
@@ -545,27 +544,27 @@ class PRs:
         FileUtils.write(Paths.PRS_PATH, prs_json)
 
     def __update_with(data, skip_cache):
-        info = PRInfo.create(data)
+        pr = PRInfo.create(data)
         url = data['head']['repo']['clone_url']
 
-        if not skip_cache and CacheChecker.is_pr_cached(info):
-            Logger.log('skip PR {} (cached)'.format(info['number']))
+        if not skip_cache and CacheChecker.is_pr_cached(pr):
+            Logger.log('skip PR {} (cached)'.format(pr['number']))
             return False
 
-        FileUtils.mkdir_p(Paths.rev_parent_dir(info['number']))
+        FileUtils.mkdir_p(Paths.rev_parent_dir(pr['number']))
 
-        LocalRepository.add_remote(info['login'], url)
-        LocalRepository.fetch(info['login'], info['ref'])
+        LocalRepository.add_remote(pr['login'], url)
+        LocalRepository.fetch(pr['login'], pr['ref'])
 
-        RevisionRenderer.run(info['head'], info['number'], skip_cache)
+        RevisionRenderer.run(pr['head'], pr['number'], skip_cache)
 
-        info['revs'] = list(LocalRepository.revs(
-            ['origin/master..{}'.format(info['head'])]))
+        pr['revs'] = list(LocalRepository.revs(
+            ['origin/master..{}'.format(pr['head'])]))
 
-        info_json = json.dumps(info)
-        FileUtils.write(Paths.pr_info_path(info['number']), info_json)
+        info_json = json.dumps(pr)
+        FileUtils.write(Paths.pr_info_path(pr['number']), info_json)
 
-        for parent in PRInfo.parents(info):
+        for parent in PRInfo.parents(pr):
             RevisionRenderer.run(parent, None, skip_cache)
 
         return True
