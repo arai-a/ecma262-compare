@@ -158,6 +158,7 @@ class RenderedPageList {
   }
 }
 
-function bodyOnLoad(type) {
+/* exported onBodyLoad */
+function onBodyLoad(type) {
   new RenderedPageList().run(type).catch(e => console.error(e));
 }

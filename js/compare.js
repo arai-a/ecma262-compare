@@ -144,34 +144,34 @@ class HTMLDiff {
   static toSeq(s) {
     const seq = [];
     const name_stack = [];
-    const name_id_stack = [];
+    const sel_stack = [];
     const tag_stack = [];
     for (const t of this.tokenize(s)) {
       switch (t.type) {
         case "o": {
           name_stack.push(t.name);
           if (t.id) {
-            name_id_stack.push(t.name + "#" + t.id);
+            sel_stack.push(t.name + "#" + t.id);
           } else {
-            name_id_stack.push(t.name);
+            sel_stack.push(t.name);
           }
           tag_stack.push(t.tag);
           break;
         }
         case "c": {
           name_stack.pop();
-          name_id_stack.pop();
+          sel_stack.pop();
           tag_stack.pop();
           break;
         }
         case "t": {
           let text = t.text;
-          const path = name_id_stack.join("/");
+          const path = sel_stack.join("/");
 
           seq.push({
             name_stack: name_stack.slice(),
-            name_id_stack: name_id_stack.slice(),
             path,
+            sel_stack: sel_stack.slice(),
             tag_stack: tag_stack.slice(),
             text,
           });
@@ -210,8 +210,8 @@ class HTMLDiff {
       if (c == "<") {
         if (start != i) {
           yield {
-            type: "t",
             text: s.slice(start, i),
+            type: "t",
           };
         }
 
@@ -232,53 +232,51 @@ class HTMLDiff {
           // Otherwise `toSeq` won't create any info about this element.
           if (prev == "o") {
             yield {
-              type: "t",
               text: "",
+              type: "t",
             };
           }
 
           yield {
-            type: "c",
             name,
             tag,
+            type: "c",
           };
           prev = "c";
+        } else if (emptyTags.has(name)) {
+          // Empty tag is treated as text.
+          yield {
+            text: tag,
+            type: "t",
+          };
+          prev = "t";
         } else {
-          if (emptyTags.has(name)) {
-            // Empty tag is treated as text.
+          // If there's opening tag immediately after closing tag,
+          // put empty text, so that `toSeq` creates empty text at
+          // parent node, between 2 elements
+          // (one closed here, and one opened here).
+          //
+          // Otherwise `toSeq` will concatenate 2 elements if they're same.
+          if (prev == "c") {
             yield {
+              text: "",
               type: "t",
-              text: tag,
             };
-            prev = "t";
-          } else {
-            // If there's opening tag immediately after closing tag,
-            // put empty text, so that `toSeq` creates empty text at
-            // parent node, between 2 elements
-            // (one closed here, and one opened here).
-            //
-            // Otherwise `toSeq` will concatenate 2 elements if they're same.
-            if (prev == "c") {
-              yield {
-                type: "t",
-                text: "",
-              };
-            }
-
-            let id = undefined;
-            const m = tag.match(' id="([^"]+)"');
-            if (m) {
-              id = m[1];
-            }
-
-            yield {
-              type: "o",
-              name,
-              id,
-              tag,
-            };
-            prev = "o";
           }
+
+          let id = undefined;
+          const m = tag.match(` id="([^"]+)"`);
+          if (m) {
+            id = m[1];
+          }
+
+          yield {
+            id,
+            name,
+            tag,
+            type: "o",
+          };
+          prev = "o";
         }
         i = to + 1;
         start = i;
@@ -287,8 +285,8 @@ class HTMLDiff {
         re.lastIndex = start;
         const result = re.exec(s);
         yield {
-          type: "t",
           text: s.slice(start, i) + result[0],
+          type: "t",
         };
         prev = "t";
         i += result[0].length;
@@ -300,8 +298,8 @@ class HTMLDiff {
 
     if (start < len) {
       yield {
-        type: "t",
         text: s.slice(start),
+        type: "t",
       };
     }
   }
@@ -348,26 +346,26 @@ class HTMLDiff {
     for (let i = len1, j = len2; i > 0 || j > 0;) {
       if (i > 0 && j > 0 && C[i][j] == C[i - 1][j - 1]) {
         diff.push({
-          op: "+",
           item: seq2[j - 1],
+          op: "+",
         });
         j--;
       } else if (j > 0 && C[i][j] == C[i][j - 1]) {
         diff.push({
-          op: "+",
           item: seq2[j - 1],
+          op: "+",
         });
         j--;
       } else if (i > 0 && C[i][j] == C[i - 1][j]) {
         diff.push({
-          op: "-",
           item: seq1[i - 1],
+          op: "-",
         });
         i--;
       } else {
         diff.push({
-          op: " ",
           item: seq1[i - 1],
+          op: " ",
         });
         i--;
         j--;
@@ -391,39 +389,39 @@ class HTMLDiff {
 
     for (const d of diff) {
       switch (d.op) {
-        case ' ': {
+        case " ": {
           seq.push(d.item);
           break;
         }
-        case '+':
-        case '-': {
+        case "+":
+        case "-": {
           const new_name_stack = d.item.name_stack.slice();
-          const new_name_id_stack = d.item.name_id_stack.slice();
+          const new_sel_stack = d.item.sel_stack.slice();
           const new_tag_stack = d.item.tag_stack.slice();
 
           // FIXME: Instead of the leaf, put ins/del somewhere in the stack.
           //        https://github.com/arai-a/ecma262-compare/issues/13
           switch (d.op) {
-            case '+': {
+            case "+": {
               new_name_stack.push(INS_NAME);
-              new_name_id_stack.push(INS_NAME);
+              new_sel_stack.push(INS_NAME);
               new_tag_stack.push(INS_TAG);
               break;
             }
-            case '-': {
+            case "-": {
               new_name_stack.push(DEL_NAME);
-              new_name_id_stack.push(DEL_NAME);
+              new_sel_stack.push(DEL_NAME);
               new_tag_stack.push(DEL_TAG);
               break;
             }
           }
 
           seq.push({
-            text: d.item.text,
             name_stack: new_name_stack,
-            name_id_stack: new_name_id_stack,
-            path: new_name_id_stack.join("/"),
+            path: new_sel_stack.join("/"),
+            sel_stack: new_sel_stack,
             tag_stack: new_tag_stack,
+            text: d.item.text,
           });
           break;
         }
@@ -437,7 +435,7 @@ class HTMLDiff {
   // HTML fragment.
   static fromSeq(seq) {
     const name_stack = [];
-    const name_id_stack = [];
+    const sel_stack = [];
     const tag_stack = [];
 
     const ts = [];
@@ -445,15 +443,15 @@ class HTMLDiff {
     for (const s of seq) {
       let i = 0;
       // Skip common ancestor.
-      for (; i < s.name_id_stack.length; i++) {
-        if (s.name_id_stack[i] != name_id_stack[i]) {
+      for (; i < s.sel_stack.length; i++) {
+        if (s.sel_stack[i] != sel_stack[i]) {
           break;
         }
       }
 
       // Close tags that are not part of current text.
       while (i < name_stack.length) {
-        name_id_stack.pop();
+        sel_stack.pop();
         tag_stack.pop();
         const name = name_stack.pop();
         ts.push(`</${name}>`);
@@ -462,7 +460,7 @@ class HTMLDiff {
       // Open remaining tags that are ancestor of current text.
       for (; i < s.name_stack.length; i++) {
         name_stack.push(s.name_stack[i]);
-        name_id_stack.push(s.name_id_stack[i]);
+        sel_stack.push(s.sel_stack[i]);
         const tag = s.tag_stack[i];
         tag_stack.push(tag);
         ts.push(tag);
@@ -554,7 +552,7 @@ class Comparator {
 
     this.prMap = {};
     for (const pr of this.prs) {
-      pr.parent = pr.revs[pr.revs.length-1].parents.split(' ')[0];
+      pr.parent = pr.revs[pr.revs.length-1].parents.split(" ")[0];
       this.prMap[pr.number] = pr;
     }
   }
@@ -654,8 +652,7 @@ class Comparator {
       const [name, value] = item.split("=");
       try {
         queryParams[name] = decodeURIComponent(value);
-      } catch (e) {
-      }
+      } catch (e) {}
     }
 
     if ("from" in queryParams && "to" in queryParams) {
@@ -735,7 +732,6 @@ class Comparator {
     const m = name.match(/PR\/(\d+)\/(.+)/);
     if (m) {
       const prnum = m[1];
-      const hash = m[2];
       const pr = this.prMap[prnum];
 
       subjectLink.textContent = pr.revs[0].subject;
@@ -889,8 +885,8 @@ class Comparator {
   // Filter attributes that should be ignored when comparing 2 revisions.
   filterAttributeForComparison(s) {
     return s
-      .replace(/ aoid="[^\"]+"/g, "")
-      .replace(/ href="[^\"]+"/g, "");
+      .replace(/ aoid="[^"]+"/g, "")
+      .replace(/ href="[^"]+"/g, "");
   }
 
   async filterSectionList() {
@@ -985,7 +981,7 @@ class Comparator {
         this.viewDiffTab.classList.remove("selected");
 
         const sections = new Map();
-        for (const [id, fromHTML, toHTML] of secList) {
+        for (const [id, fromHTML, _toHTML] of secList) {
           sections.set(id, fromHTML);
         }
 
@@ -996,7 +992,7 @@ class Comparator {
         this.viewDiffTab.classList.remove("selected");
 
         const sections = new Map();
-        for (const [id, fromHTML, toHTML] of secList) {
+        for (const [id, _fromHTML, toHTML] of secList) {
           sections.set(id, toHTML);
         }
 
@@ -1195,27 +1191,33 @@ class Comparator {
 
 let comparator;
 
-function bodyOnLoad() {
+/* exported onBodyLoad */
+function onBodyLoad() {
   comparator = new Comparator();
   comparator.run().catch(e => console.error(e));
 }
 
+/* exported onPRFilterChange */
 function onPRFilterChange() {
   comparator.onPRFilterChange().catch(e => console.error(e));
 }
 
+/* exported onFromRevChange */
 function onFromRevChange() {
   comparator.onFromRevChange().catch(e => console.error(e));
 }
 
+/* exported onToRevChange */
 function onToRevChange() {
   comparator.onToRevChange().catch(e => console.error(e));
 }
 
+/* exported onSecListChange */
 function onSecListChange() {
   comparator.onSecListChange().catch(e => console.error(e));
 }
 
+/* exported onTabChange */
 function onTabChange() {
   comparator.onTabChange().catch(e => console.error(e));
 }

@@ -43,5 +43,10 @@ prs:
 bootstrap:
 	$(PYTHON) build.py bootstrap
 
-localserver:
-	python -m SimpleHTTPServer 8000
+lint-setup:
+	npm install
+
+lint:
+	npx eslint js/rendered.js
+	npx eslint js/compare.js
+	flake8 build.py
