@@ -544,7 +544,7 @@ class Comparator {
   async loadResources() {
     [this.revs, this.prs] = await Promise.all([
       this.getJSON("./history/revs.json"),
-      this.getJSON("./history/prs.json?20200216a"),
+      this.getJSON("./history/prs.json?20200217a"),
     ]);
 
     this.revMap = {};
@@ -552,13 +552,10 @@ class Comparator {
       this.revMap[rev.hash] = rev;
     }
 
-    this.prnums = Object.keys(this.prs)
-      .map(prnum => parseInt(prnum, 10))
-      .sort((a, b) => b - a);
-
-    for (const prnum in this.prs) {
-      const pr = this.prs[prnum];
+    this.prMap = {};
+    for (const pr of this.prs) {
       pr.parent = pr.revs[pr.revs.length-1].parents.split(' ')[0];
+      this.prMap[pr.number] = pr;
     }
   }
 
@@ -585,15 +582,14 @@ class Comparator {
 
     const maxTitleLength = 80;
 
-    for (const prnum of this.prnums) {
-      const pr = this.prs[prnum];
+    for (const pr of this.prs) {
       const opt = document.createElement("option");
-      opt.value = prnum;
+      opt.value = pr.number;
       let title = pr.title;
       if (title.length > maxTitleLength) {
         title = title.slice(0, maxTitleLength - 1) + "\u2026";
       }
-      opt.textContent = `#${prnum}: ${title} (by ${pr.login})`;
+      opt.textContent = `#${pr.number}: ${title} (by ${pr.login})`;
       menu.appendChild(opt);
     }
 
@@ -612,20 +608,18 @@ class Comparator {
       opts.push(opt);
     }
 
-    for (let prnum of this.prnums) {
-      let pr = this.prs[prnum];
-
+    for (let pr of this.prs) {
       let opt = document.createElement("option");
-      opt.value = this.prToOptValue(prnum, pr);
-      opt.textContent = `${pr.head} (PR ${prnum} by ${pr.login})`;
+      opt.value = this.prToOptValue(pr);
+      opt.textContent = `${pr.head} (PR ${pr.number} by ${pr.login})`;
       opts.push(opt);
     }
 
     this.populateMenu(menu, opts, () => true);
   }
 
-  prToOptValue(prnum, pr) {
-    return `PR/${prnum}/${pr.head}`;
+  prToOptValue(pr) {
+    return `PR/${pr.number}/${pr.head}`;
   }
 
   populateMenu(menu, opts, filter) {
@@ -674,18 +668,21 @@ class Comparator {
       if (to in this.revMap) {
         this.toRev.value = to;
       }
+      this.prFilter.value = "-";
     } else if ("pr" in queryParams) {
       const prnum = queryParams.pr;
-      if (prnum in this.prs) {
-        const pr = this.prs[prnum];
+      if (prnum in this.prMap) {
+        const pr = this.prMap[prnum];
 
         this.fromRev.value = pr.parent;
         this.toRev.value = pr.head;
 
-        this.prFilter.value = prnum;
-        this.selectPRRevs(prnum);
-        this.updatePRLink(prnum);
+        this.prFilter.value = pr.number;
+        this.selectPRRevs(pr.number);
+        this.updatePRLink(pr.number);
       }
+    } else {
+      this.prFilter.value = "-";
     }
 
     this.updateHistoryLink();
@@ -702,18 +699,18 @@ class Comparator {
   }
 
   selectPRRevs(prnum) {
-    if (prnum in this.prs) {
-      const pr = this.prs[prnum];
+    if (prnum in this.prMap) {
+      const pr = this.prMap[prnum];
       this.fromRev.value = pr.parent;
-      this.toRev.value = this.prToOptValue(prnum, pr);
+      this.toRev.value = this.prToOptValue(pr);
     }
   }
 
   updatePRLink(prnum) {
-    if (prnum in this.prs) {
-      const pr = this.prs[prnum];
-      this.prLink.href = `${REPO_URL}/pull/${prnum}`;
-      this.prLink.textContent = `Open PR ${prnum}`;
+    if (prnum in this.prMap) {
+      const pr = this.prMap[prnum];
+      this.prLink.href = `${REPO_URL}/pull/${pr.number}`;
+      this.prLink.textContent = `Open PR ${pr.number}`;
     } else {
       this.prLink.textContent = "";
     }
@@ -739,10 +736,10 @@ class Comparator {
     if (m) {
       const prnum = m[1];
       const hash = m[2];
-      const pr = this.prs[prnum];
+      const pr = this.prMap[prnum];
 
       subjectLink.textContent = pr.revs[0].subject;
-      subjectLink.href = `${REPO_URL}/pull/${prnum}`;
+      subjectLink.href = `${REPO_URL}/pull/${pr.number}`;
       if (pr.revs.length > 1) {
         note.textContent = ` + ${pr.revs.length - 1} revisions`;
       } else {

@@ -137,7 +137,7 @@ class RemoteRepository:
                 yield data
 
     def head():
-        return GitHubAPI.call('commits', [['per_page', '1']])[0]['sha']
+        return GitHubAPI.call('commits', [['per_page', '1']])[0]
 
     def pr(prnum):
         return GitHubAPI.call('pulls/{}'.format(prnum))
@@ -146,6 +146,7 @@ class RemoteRepository:
 class PRInfo:
     def create(data):
         return {
+            'number': data['number'],
             'ref': data['head']['ref'],
             'login': data['head']['user']['login'],
             'head': data['head']['sha'],
@@ -163,7 +164,7 @@ class PRInfo:
 class CacheChecker:
     @classmethod
     def has_new_rev(cls):
-        head = RemoteRepository.head()
+        head = RemoteRepository.head()['sha']
         if not cls.is_rev_cached(head):
             print('head={} is not cached'.format(head))
             return True
@@ -473,9 +474,8 @@ class Revisions:
             ['{}^..{}'.format(Config.FIRST_REV, 'origin/master')]))
 
         parents = set()
-        prs = PRs.get()
-        for prnum in prs:
-            for parent in PRInfo.parents(prs[prnum]):
+        for pr in PRs.get():
+            for parent in PRInfo.parents(pr):
                 parents.add(parent)
 
         for parent in parents:
@@ -531,19 +531,16 @@ class Revisions:
 
 class PRs:
     def get():
-        prs = dict()
         for data in RemoteRepository.prs():
             prnum = data['number']
             info_path = Paths.pr_info_path(prnum)
 
             if os.path.exists(info_path):
-                prs[prnum] = FileUtils.read_json(info_path)
-
-        return prs
+                yield FileUtils.read_json(info_path)
 
     @classmethod
     def update_list(cls):
-        prs = cls.get()
+        prs = list(cls.get())
 
         prs_json = json.dumps(prs,
                               indent=1,

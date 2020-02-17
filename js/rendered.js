@@ -27,12 +27,13 @@ class RenderedPageList {
   async loadResources() {
     [this.revs, this.prs] = await Promise.all([
       this.getJSON("./history/revs.json"),
-      this.getJSON("./history/prs.json"),
+      this.getJSON("./history/prs.json?20200217a"),
     ]);
 
-    this.prnums = Object.keys(this.prs)
-      .map(prnum => parseInt(prnum, 10))
-      .sort((a, b) => b - a);
+    this.prMap = {};
+    for (const pr of this.prs) {
+      this.prMap[pr.number] = pr;
+    }
   }
 
   async getJSON(path) {
@@ -99,9 +100,7 @@ class RenderedPageList {
 
   populatePRList() {
     const list = document.getElementById("pr-list");
-    for (const num of this.prnums) {
-      const pr = this.prs[num];
-
+    for (const pr of this.prs) {
       const row = document.createElement("tr");
 
       const summaryCell = document.createElement("td");
@@ -112,7 +111,7 @@ class RenderedPageList {
       summaryCell.appendChild(subject);
 
       const link = document.createElement("a");
-      link.href = `${REPO_URL}/pull/${num}`;
+      link.href = `${REPO_URL}/pull/${pr.number}`;
       link.textContent = pr.title;
       subject.appendChild(link);
 
@@ -121,7 +120,7 @@ class RenderedPageList {
       summaryCell.appendChild(authorAndDate);
 
       const prnum = document.createElement("span");
-      prnum.textContent = `#${num} `;
+      prnum.textContent = `#${pr.number} `;
       authorAndDate.appendChild(prnum);
 
       const author = document.createElement("span");
@@ -137,7 +136,7 @@ class RenderedPageList {
       row.appendChild(diffCell);
 
       const diffLink = document.createElement("a");
-      diffLink.href = `./#pr=${num}`;
+      diffLink.href = `./#pr=${pr.number}`;
       diffLink.textContent = "Compare";
       subject.appendChild(link);
 
@@ -148,7 +147,7 @@ class RenderedPageList {
       row.appendChild(renderedCell);
 
       const renderedLink = document.createElement("a");
-      renderedLink.href = `./history/PR/${num}/${pr.head}/index.html`;
+      renderedLink.href = `./history/PR/${pr.number}/${pr.head}/index.html`;
       renderedLink.textContent = "Rendered page";
       subject.appendChild(link);
 
