@@ -40,6 +40,8 @@ jobs:
       run: make py-venv-bootstrap
     - name: Run Bootstrap
       run: make bootstrap
+      env:
+        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
       id: bootstrap
     - name: Remove Bootstrap
       run: |
@@ -77,10 +79,6 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add history
-        git add revs.js
-        git add revs.json
-        git add prs.js
-        git add prs.json
         git commit -m "update history"
     - name: Push changes
       # fails if no files to commit
