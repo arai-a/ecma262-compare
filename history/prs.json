@@ -1,5 +1,25 @@
 [
  {
+  "base": "8e5ae7b621922ca289e8b6fb19b4d6d4e0750182",
+  "created_at": "2020-02-18T13:37:09Z",
+  "head": "5fdc6a8ae0a49b72e6d9636c5dde558790ec9351",
+  "login": "uhyo",
+  "number": 1873,
+  "ref": "import-star-circularity",
+  "revs": [
+   {
+    "adate": "2020-02-18T22:14:16+09:00",
+    "author": "uhyo",
+    "date": "2020-02-18T22:14:16+09:00",
+    "hash": "5fdc6a8ae0a49b72e6d9636c5dde558790ec9351",
+    "parents": "8e5ae7b621922ca289e8b6fb19b4d6d4e0750182",
+    "subject": "Editorial: correct 'import * circularity' to 'export * circularity'"
+   }
+  ],
+  "title": "Editorial: correct 'import * circularity' to 'export * circularity'",
+  "updated_at": "2020-02-18T13:37:09Z"
+ },
+ {
   "base": "823aad1e08b5680229d67283371912950d19e581",
   "created_at": "2020-02-14T22:07:06Z",
   "head": "9c564f91f4e232da2183ff184168b6485a72c9b7",
