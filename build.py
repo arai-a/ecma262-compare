@@ -213,7 +213,7 @@ class CacheChecker:
 
     @classmethod
     def is_pr_cached(cls, pr):
-        return cls.__is_pr_cached_with(cls.__prs_json())
+        return cls.__is_pr_cached_with(pr, cls.__prs_json())
 
     def has_sections_json(rev):
         return os.path.exists(Paths.sections_path(rev['hash']))
