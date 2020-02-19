@@ -5,9 +5,8 @@ on:
     branches:
       - gh-pages
     paths:
-      - 'js/*'
-      - 'build.py'
-      - '.eslintrc.js'
+      - '**.js'
+      - '**.py'
 
 jobs:
   build:
