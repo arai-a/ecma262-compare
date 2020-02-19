@@ -165,7 +165,7 @@ class HTMLPathDiff {
           break;
         }
         case "t": {
-          let text = t.text;
+          const text = t.text;
           const path = sel_stack.join("/");
 
           seq.push({
@@ -207,8 +207,8 @@ class HTMLPathDiff {
 
     while (i < len) {
       const c = s.charAt(i);
-      if (c == "<") {
-        if (start != i) {
+      if (c === "<") {
+        if (start !== i) {
           yield {
             text: s.slice(start, i),
             type: "t",
@@ -230,7 +230,7 @@ class HTMLPathDiff {
           // this element..
           //
           // Otherwise `toSeq` won't create any info about this element.
-          if (prev == "o") {
+          if (prev === "o") {
             yield {
               text: "",
               type: "t",
@@ -257,7 +257,7 @@ class HTMLPathDiff {
           // (one closed here, and one opened here).
           //
           // Otherwise `toSeq` will concatenate 2 elements if they're same.
-          if (prev == "c") {
+          if (prev === "c") {
             yield {
               text: "",
               type: "t",
@@ -321,7 +321,7 @@ class HTMLPathDiff {
 
     function isDiff(s1, s2) {
       // Do not count the difference in attributes,h.
-      return s1.text != s2.text || s1.path != s2.path;
+      return s1.text !== s2.text || s1.path !== s2.path;
     }
 
     for (let i = 1; i < len1 + 1; i++) {
@@ -344,19 +344,19 @@ class HTMLPathDiff {
     const diff = [];
 
     for (let i = len1, j = len2; i > 0 || j > 0;) {
-      if (i > 0 && j > 0 && C[i][j] == C[i - 1][j - 1]) {
+      if (i > 0 && j > 0 && C[i][j] === C[i - 1][j - 1]) {
         diff.push({
           item: seq2[j - 1],
           op: "+",
         });
         j--;
-      } else if (j > 0 && C[i][j] == C[i][j - 1]) {
+      } else if (j > 0 && C[i][j] === C[i][j - 1]) {
         diff.push({
           item: seq2[j - 1],
           op: "+",
         });
         j--;
-      } else if (i > 0 && C[i][j] == C[i - 1][j]) {
+      } else if (i > 0 && C[i][j] === C[i - 1][j]) {
         diff.push({
           item: seq1[i - 1],
           op: "-",
@@ -444,7 +444,7 @@ class HTMLPathDiff {
       let i = 0;
       // Skip common ancestor.
       for (; i < s.sel_stack.length; i++) {
-        if (s.sel_stack[i] != sel_stack[i]) {
+        if (s.sel_stack[i] !== sel_stack[i]) {
           break;
         }
       }
@@ -562,12 +562,12 @@ class HTMLTreeDiff {
     for (const textNode of textNodes) {
       if (/^[ \r\n\t]*$/.test(textNode.textContent)) {
         if (textNode.previousSibling) {
-          if (textNode.previousSibling.nodeName.toLowerCase() == "li") {
+          if (textNode.previousSibling.nodeName.toLowerCase() === "li") {
             textNode.remove();
           }
         }
         if (textNode.nextSibling) {
-          if (textNode.nextSibling.nodeName.toLowerCase() == "li") {
+          if (textNode.nextSibling.nodeName.toLowerCase() === "li") {
             textNode.remove();
           }
         }
@@ -582,7 +582,7 @@ class HTMLTreeDiff {
       let currentNode = textNode;
       while (true) {
         const index = currentNode.textContent.search(/\s[^\s]/);
-        if (index == -1) {
+        if (index === -1) {
           break;
         }
         currentNode = currentNode.splitText(index + 1);
@@ -591,7 +591,7 @@ class HTMLTreeDiff {
   }
 
   getTexts(node, textNodes) {
-    if (node.nodeType == Node.TEXT_NODE) {
+    if (node.nodeType === Node.TEXT_NODE) {
       textNodes.push(node);
       return;
     }
@@ -605,18 +605,18 @@ class HTMLTreeDiff {
   // 0 when node1 and node2 are completely different.
   // 1 when node1 and node2 are completely same.
   LCS(node1, node2) {
-    if (node1.nodeName != node2.nodeName) {
+    if (node1.nodeName !== node2.nodeName) {
       return 0;
     }
 
     if (node1.id || node2.id) {
-      if (node1.id != node2.id) {
+      if (node1.id !== node2.id) {
         return 0;
       }
     }
 
-    if (node1.nodeType == Node.TEXT_NODE) {
-      if (node1.textContent != node2.textContent) {
+    if (node1.nodeType === Node.TEXT_NODE) {
+      if (node1.textContent !== node2.textContent) {
         return 0;
       }
       return 1;
@@ -643,13 +643,13 @@ class HTMLTreeDiff {
       this.LCSMapMap.set(node1, m);
     }
 
-    if (node1.childNodes.length == 0) {
-      if (node2.childNodes.length == 0) {
+    if (node1.childNodes.length === 0) {
+      if (node2.childNodes.length === 0) {
         return 1;
       }
       return 0;
     }
-    if (node2.childNodes.length == 0) {
+    if (node2.childNodes.length === 0) {
       return 0;
     }
 
@@ -666,22 +666,22 @@ class HTMLTreeDiff {
   }
 
   LCSToDiff(parent, node1, node2) {
-    if (node1.nodeName != node2.nodeName) {
+    if (node1.nodeName !== node2.nodeName) {
       this.prependChildIns(parent, node2.cloneNode(true));
       this.prependChildDel(parent, node1.cloneNode(true));
       return;
     }
 
     if (node1.id || node2.id) {
-      if (node1.id != node2.id) {
+      if (node1.id !== node2.id) {
         this.prependChildIns(parent, node2.cloneNode(true));
         this.prependChildDel(parent, node1.cloneNode(true));
         return;
       }
     }
 
-    if (node1.nodeType == Node.TEXT_NODE) {
-      if (node1.textContent != node2.textContent) {
+    if (node1.nodeType === Node.TEXT_NODE) {
+      if (node1.textContent !== node2.textContent) {
         this.prependChildIns(parent, node2.cloneNode(true));
         this.prependChildDel(parent, node1.cloneNode(true));
         return;
@@ -691,8 +691,8 @@ class HTMLTreeDiff {
       return;
     }
 
-    if (node1.childNodes.length == 0) {
-      if (node2.childNodes.length == 0) {
+    if (node1.childNodes.length === 0) {
+      if (node2.childNodes.length === 0) {
         this.prependChild(parent, node2.cloneNode(true));
         return;
       }
@@ -700,7 +700,7 @@ class HTMLTreeDiff {
       this.prependChildDel(parent, node1.cloneNode(true));
       return;
     }
-    if (node2.childNodes.length == 0) {
+    if (node2.childNodes.length === 0) {
       this.prependChildIns(parent, node2.cloneNode(true));
       this.prependChildDel(parent, node1.cloneNode(true));
       return;
@@ -715,14 +715,14 @@ class HTMLTreeDiff {
 
     for (let i = len1, j = len2; i > 0 || j > 0;) {
       if ((i > 0 && j > 0 && C[i][j] - C[i - 1][j - 1] < THRESHOLD) ||
-          (j > 0 && C[i][j] == C[i][j - 1])) {
+          (j > 0 && C[i][j] === C[i][j - 1])) {
         this.prependChildIns(parent, node2.childNodes[j - 1].cloneNode(true));
         j--;
-      } else if (i > 0 && C[i][j] == C[i - 1][j]) {
+      } else if (i > 0 && C[i][j] === C[i - 1][j]) {
         this.prependChildDel(parent, node1.childNodes[i - 1].cloneNode(true));
         i--;
       } else if (i > 0 && j > 0 && C[i][j] - C[i - 1][j - 1] < 1) {
-        if (node2.childNodes[j - 1].nodeType == Node.TEXT_NODE) {
+        if (node2.childNodes[j - 1].nodeType === Node.TEXT_NODE) {
           this.prependChildIns(parent, node2.childNodes[j - 1].cloneNode(true));
           j--;
         } else {
@@ -748,7 +748,7 @@ class HTMLTreeDiff {
 
   prependChildIns(parent, node) {
     if (parent.firstChild &&
-        parent.firstChild.nodeName.toLowerCase() == "ins") {
+        parent.firstChild.nodeName.toLowerCase() === "ins") {
       this.prependChild(parent.firstChild, node);
     } else {
       this.prependChild(parent, this.toIns(node));
@@ -757,7 +757,7 @@ class HTMLTreeDiff {
 
   prependChildDel(parent, node) {
     if (parent.firstChild &&
-        parent.firstChild.nodeName.toLowerCase() == "del") {
+        parent.firstChild.nodeName.toLowerCase() === "del") {
       this.prependChild(parent.firstChild, node);
     } else {
       this.prependChild(parent, this.toDel(node));
@@ -913,8 +913,8 @@ class Comparator {
       opts.push(opt);
     }
 
-    for (let pr of this.prs) {
-      let opt = document.createElement("option");
+    for (const pr of this.prs) {
+      const opt = document.createElement("option");
       opt.value = this.prToOptValue(pr);
       opt.textContent = `${pr.head} (PR ${pr.number} by ${pr.login})`;
       opts.push(opt);
@@ -1215,7 +1215,7 @@ class Comparator {
     const prnum = this.prFilter.value;
     if (prnum !== "-") {
       params.push(`pr=${prnum}`);
-      if (id != "combined") {
+      if (id !== "combined") {
         params.push(`id=${encodeURIComponent(id)}`);
       }
     } else {
@@ -1334,10 +1334,10 @@ class Comparator {
     const len = sections.size;
 
     this.result.textContent = "";
-    for (let [id, HTML] of sections) {
+    for (const [id, HTML] of sections) {
       if (len > 1) {
         i++;
-        if (i % 7 == 0) {
+        if (i % 7 === 0) {
           this.diffStat.textContent = `generating sections... ${i}/${len}`;
           await new Promise(r => setTimeout(r, 1));
 
@@ -1347,7 +1347,7 @@ class Comparator {
         }
       }
 
-      if (type == "diff") {
+      if (type === "diff") {
         const workBox = document.createElement("div");
         this.workBoxContainer.appendChild(workBox);
 
@@ -1446,7 +1446,7 @@ class Comparator {
     for (const link of links) {
       if (len > 1) {
         i++;
-        if (i % 97 == 0) {
+        if (i % 97 === 0) {
           this.diffStat.textContent = `fixing links up... ${i}/${len}`;
           await new Promise(r => setTimeout(r, 1));
 
@@ -1463,9 +1463,9 @@ class Comparator {
       if (!href.startsWith("#")) {
         continue;
       }
-      if (type == "from") {
+      if (type === "from") {
         link.href = `${fromRenderedPage}${href}`;
-      } else if (type == "to") {
+      } else if (type === "to") {
         link.href = `${toRenderedPage}${href}`;
       } else {
         link.href = `${toRenderedPage}${href}`;
@@ -1510,7 +1510,7 @@ class Comparator {
   }
 
   async onHashChange() {
-    if (window.location.hash == this.currentHash) {
+    if (window.location.hash === this.currentHash) {
       return;
     }
 
