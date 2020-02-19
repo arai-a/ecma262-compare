@@ -189,7 +189,8 @@ class CacheChecker:
 
         if not result:
             if newest_pr_number:
-                Logger.info('All PRs are cached (newest=#{})'.format(newest_pr_number))
+                Logger.info('All PRs are cached (newest=#{})'.format(
+                    newest_pr_number))
             else:
                 Logger.info('All PRs are cached')
         return result

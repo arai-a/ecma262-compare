@@ -66,10 +66,15 @@
       <label id="view-to-tab"><input id="view-to" type="radio" name="view" value="to" onchange="onTabChange()"> To</label>
       <label id="view-diff-tab" class="selected"><input id="view-diff" type="radio" name="view" value="diff" onchange="onTabChange()" checked> Diff</label>
       <span id="diff-stat"></span>
+      <div id="tree-diff-box">
+        <input id="tree-diff" type="checkbox" onchange="onTreeDiffChange()">
+        <label for="tree-diff">Use experimental diff</label>
+      </div>
     </div>
   </header>
   <div id="result"></div>
-  <div id="work-box" style="display: none"></div>
+  <div id="work-box-container">
+  </div>
 </div>
 </body>
 </html>

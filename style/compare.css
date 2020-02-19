@@ -77,6 +77,13 @@ option.mod {
 .htmldiff-add {
     display: inline;
 }
+.htmldiff-add *,
+.htmldiff-del * {
+    background-color: inherit;
+}
+.htmldiff-del, .htmldiff-del * {
+    text-decoration: line-through !important;
+}
 
 #result h1 {
     font-size: 1.2em !important;
@@ -87,7 +94,7 @@ option.mod {
     color: #707070;
 }
 
-.diff-view ol > li {
+.diff-view ol li {
     list-style-type: none;
 }
 
@@ -96,6 +103,13 @@ option.mod {
     color: #707070;
     padding: 0 4px;
     flex: 1;
+}
+
+#tree-diff-box {
+    border-bottom: 1px solid #808080;
+    padding: 0 4px;
+    font-size: 0.8em;
+    color: #707070;
 }
 
 #result.combined div[id^="excluded-"] {
@@ -121,4 +135,8 @@ option.mod {
 .rev-author-and-date {
     font-size: 0.6em;
     color: #707070;
+}
+
+#work-box-container {
+    display: none;
 }

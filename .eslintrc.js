@@ -72,6 +72,7 @@ module.exports = {
     "no-useless-concat": "error",
     "no-useless-return": "error",
     "no-with": "error",
-    "object-shorthand": ["error", "always", { avoidQuotes: true }],
+    "object-shorthand": ["error", "always", { "avoidQuotes": true }],
+    "no-constant-condition": ["error", { "checkLoops": false }],
   }
 };

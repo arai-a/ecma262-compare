@@ -126,7 +126,7 @@ class ListMarkUtils {
 // Calculate diff between 2 HTML fragments.
 //
 // The HTML fragment shouldn't omit closing tag, if it's not empty tag.
-class HTMLDiff {
+class HTMLPathDiff {
   // Calculate diff between 2 HTML fragments.
   static diff(s1, s2) {
     const seq1 = this.toSeq(s1);
@@ -471,6 +471,312 @@ class HTMLDiff {
 
     return ts.join("");
   }
+
+  static splitForDiff(s1, s2) {
+    const seq1 = this.toSeq(s1);
+    const seq2 = this.toSeq(s2);
+
+    const C = this.LCS(seq1, seq2);
+    const diff = this.LCSToDiff(seq1, seq2, C);
+
+    const [splitSeq1, splitSeq2] = this.split(diff);
+    return [this.fromSeq(splitSeq1), this.fromSeq(splitSeq2)];
+  }
+
+  static split(diff) {
+    let prevStackDepth1 = 0;
+    let prevStackDepth2 = 0;
+
+    const splitSeq1 = [];
+    const splitSeq2 = [];
+    for (const d of diff) {
+      switch (d.op) {
+        case " ": {
+          splitSeq1.push(d.item);
+          prevStackDepth1 = d.item.path.length;
+
+          splitSeq2.push(d.item);
+          prevStackDepth2 = d.item.path.length;
+          break;
+        }
+        case "-": {
+          splitSeq1.push(d.item);
+          prevStackDepth1 = d.item.path.length;
+
+          if (prevStackDepth2 > d.item.path.length) {
+            splitSeq2.push({
+              name_stack: d.item.name_stack,
+              path: d.item.path,
+              sel_stack: d.item.sel_stack,
+              tag_stack: d.item.tag_stack,
+              text: "",
+            });
+            prevStackDepth2 = d.item.path.length;
+          }
+          break;
+        }
+        case "+": {
+          if (prevStackDepth1 > d.item.path.length) {
+            splitSeq1.push({
+              name_stack: d.item.name_stack,
+              path: d.item.path,
+              sel_stack: d.item.sel_stack,
+              tag_stack: d.item.tag_stack,
+              text: "",
+            });
+            prevStackDepth1 = d.item.path.length;
+          }
+          splitSeq2.push(d.item);
+          prevStackDepth2 = d.item.path.length;
+          break;
+        }
+      }
+    }
+
+    return [splitSeq1, splitSeq2];
+  }
+}
+
+class HTMLTreeDiff {
+  constructor() {
+  }
+
+  diff(diffNode, node1, node2) {
+    this.LCSMapMap = new Map();
+
+    this.removeUnnecessaryText(node1);
+    this.removeUnnecessaryText(node2);
+
+    this.splitTexts(node1);
+    this.splitTexts(node2);
+
+    this.LCS(node1, node2);
+
+    this.LCSToDiff(diffNode, node1, node2);
+  }
+
+  removeUnnecessaryText(node) {
+    const textNodes = [];
+    this.getTexts(node, textNodes);
+
+    for (const textNode of textNodes) {
+      if (/^[ \r\n\t]*$/.test(textNode.textContent)) {
+        if (textNode.previousSibling) {
+          if (textNode.previousSibling.nodeName.toLowerCase() == "li") {
+            textNode.remove();
+          }
+        }
+        if (textNode.nextSibling) {
+          if (textNode.nextSibling.nodeName.toLowerCase() == "li") {
+            textNode.remove();
+          }
+        }
+      }
+    }
+  }
+
+  splitTexts(node) {
+    const textNodes = [];
+    this.getTexts(node, textNodes);
+    for (const textNode of textNodes) {
+      let currentNode = textNode;
+      while (true) {
+        const index = currentNode.textContent.search(/\s[^\s]/);
+        if (index == -1) {
+          break;
+        }
+        currentNode = currentNode.splitText(index + 1);
+      }
+    }
+  }
+
+  getTexts(node, textNodes) {
+    if (node.nodeType == Node.TEXT_NODE) {
+      textNodes.push(node);
+      return;
+    }
+
+    for (const child of node.childNodes) {
+      this.getTexts(child, textNodes);
+    }
+  }
+
+  // Returns [0,1] range
+  // 0 when node1 and node2 are completely different.
+  // 1 when node1 and node2 are completely same.
+  LCS(node1, node2) {
+    if (node1.nodeName != node2.nodeName) {
+      return 0;
+    }
+
+    if (node1.id || node2.id) {
+      if (node1.id != node2.id) {
+        return 0;
+      }
+    }
+
+    if (node1.nodeType == Node.TEXT_NODE) {
+      if (node1.textContent != node2.textContent) {
+        return 0;
+      }
+      return 1;
+    }
+
+    const len1 = node1.childNodes.length;
+    const len2 = node2.childNodes.length;
+    const C = new Array(len1 + 1);
+    for (let i = 0; i < len1 + 1; i++) {
+      C[i] = new Array(len2 + 1);
+    }
+    for (let i = 0; i < len1 + 1; i++) {
+      C[i][0] = 0;
+    }
+    for (let j = 0; j < len2 + 1; j++) {
+      C[0][j] = 0;
+    }
+
+    if (this.LCSMapMap.has(node1)) {
+      this.LCSMapMap.get(node1).set(node2, C);
+    } else {
+      const m = new Map();
+      m.set(node2, C);
+      this.LCSMapMap.set(node1, m);
+    }
+
+    if (node1.childNodes.length == 0) {
+      if (node2.childNodes.length == 0) {
+        return 1;
+      }
+      return 0;
+    }
+    if (node2.childNodes.length == 0) {
+      return 0;
+    }
+
+    for (let i = 1; i < len1 + 1; i++) {
+      for (let j = 1; j < len2 + 1; j++) {
+        const score = this.LCS(node1.childNodes[i - 1], node2.childNodes[j - 1]);
+        C[i][j] = Math.max(C[i-1][j-1] + score, C[i][j-1], C[i-1][j]);
+      }
+    }
+
+    const maxScore = Math.max(len1, len2);
+
+    return C[len1][len2] / maxScore;
+  }
+
+  LCSToDiff(parent, node1, node2) {
+    if (node1.nodeName != node2.nodeName) {
+      this.prependChildIns(parent, node2.cloneNode(true));
+      this.prependChildDel(parent, node1.cloneNode(true));
+      return;
+    }
+
+    if (node1.id || node2.id) {
+      if (node1.id != node2.id) {
+        this.prependChildIns(parent, node2.cloneNode(true));
+        this.prependChildDel(parent, node1.cloneNode(true));
+        return;
+      }
+    }
+
+    if (node1.nodeType == Node.TEXT_NODE) {
+      if (node1.textContent != node2.textContent) {
+        this.prependChildIns(parent, node2.cloneNode(true));
+        this.prependChildDel(parent, node1.cloneNode(true));
+        return;
+      }
+
+      this.prependChild(parent, node2.cloneNode(true));
+      return;
+    }
+
+    if (node1.childNodes.length == 0) {
+      if (node2.childNodes.length == 0) {
+        this.prependChild(parent, node2.cloneNode(true));
+        return;
+      }
+      this.prependChildIns(parent, node2.cloneNode(true));
+      this.prependChildDel(parent, node1.cloneNode(true));
+      return;
+    }
+    if (node2.childNodes.length == 0) {
+      this.prependChildIns(parent, node2.cloneNode(true));
+      this.prependChildDel(parent, node1.cloneNode(true));
+      return;
+    }
+
+    const len1 = node1.childNodes.length;
+    const len2 = node2.childNodes.length;
+
+    const C = this.LCSMapMap.get(node1).get(node2);
+
+    const THRESHOLD = 0.1;
+
+    for (let i = len1, j = len2; i > 0 || j > 0;) {
+      if ((i > 0 && j > 0 && C[i][j] - C[i - 1][j - 1] < THRESHOLD) ||
+          (j > 0 && C[i][j] == C[i][j - 1])) {
+        this.prependChildIns(parent, node2.childNodes[j - 1].cloneNode(true));
+        j--;
+      } else if (i > 0 && C[i][j] == C[i - 1][j]) {
+        this.prependChildDel(parent, node1.childNodes[i - 1].cloneNode(true));
+        i--;
+      } else if (i > 0 && j > 0 && C[i][j] - C[i - 1][j - 1] < 1) {
+        if (node2.childNodes[j - 1].nodeType == Node.TEXT_NODE) {
+          this.prependChildIns(parent, node2.childNodes[j - 1].cloneNode(true));
+          j--;
+        } else {
+          const box = node2.childNodes[j - 1].cloneNode(false);
+
+          this.LCSToDiff(box, node1.childNodes[i - 1], node2.childNodes[j - 1]);
+
+          this.prependChild(parent, box);
+          i--;
+          j--;
+        }
+      } else {
+        this.prependChild(parent, node2.childNodes[j - 1].cloneNode(true));
+        i--;
+        j--;
+      }
+    }
+  }
+
+  prependChild(parent, node) {
+    parent.insertBefore(node, parent.firstChild);
+  }
+
+  prependChildIns(parent, node) {
+    if (parent.firstChild &&
+        parent.firstChild.nodeName.toLowerCase() == "ins") {
+      this.prependChild(parent.firstChild, node);
+    } else {
+      this.prependChild(parent, this.toIns(node));
+    }
+  }
+
+  prependChildDel(parent, node) {
+    if (parent.firstChild &&
+        parent.firstChild.nodeName.toLowerCase() == "del") {
+      this.prependChild(parent.firstChild, node);
+    } else {
+      this.prependChild(parent, this.toDel(node));
+    }
+  }
+
+  toIns(node) {
+    const ins = document.createElement("ins");
+    ins.classList.add("htmldiff-add");
+    ins.appendChild(node);
+    return ins;
+  }
+
+  toDel(node) {
+    const del = document.createElement("del");
+    del.classList.add("htmldiff-del");
+    del.appendChild(node);
+    return del;
+  }
 }
 
 class DateUtils {
@@ -524,7 +830,8 @@ class Comparator {
     this.viewFromTab = document.getElementById("view-from-tab");
     this.viewToTab = document.getElementById("view-to-tab");
     this.viewDiffTab = document.getElementById("view-diff-tab");
-    this.workBox = document.getElementById("work-box");
+    this.workBoxContainer = document.getElementById("work-box-container");
+    this.treeDiff = document.getElementById("tree-diff");
 
     this.currentHash = "";
   }
@@ -1041,17 +1348,30 @@ class Comparator {
       }
 
       if (type == "diff") {
-        HTML = this.createDiff(HTML[0], HTML[1]);
-      }
+        const workBox = document.createElement("div");
+        this.workBoxContainer.appendChild(workBox);
 
-      const box = document.getElementById(`excluded-${id}`);
-      if (box) {
-        box.id = "";
-        box.innerHTML = HTML;
+        this.createDiff(workBox, HTML[0], HTML[1]);
+
+        workBox.remove();
+
+        const box = document.getElementById(`excluded-${id}`);
+        if (box) {
+          box.id = "";
+          box.replaceWith(workBox);
+        } else {
+          this.result.appendChild(workBox);
+        }
       } else {
-        const box = document.createElement("div");
-        box.innerHTML = HTML;
-        this.result.appendChild(box);
+        const box = document.getElementById(`excluded-${id}`);
+        if (box) {
+          box.id = "";
+          box.innerHTML = HTML;
+        } else {
+          const box = document.createElement("div");
+          box.innerHTML = HTML;
+          this.result.appendChild(box);
+        }
       }
     }
 
@@ -1064,37 +1384,54 @@ class Comparator {
     this.processing = false;
   }
 
-  createDiff(fromHTML, toHTML) {
+  createDiff(box, fromHTML, toHTML) {
     const diffMode = fromHTML !== null && toHTML !== null;
 
-    if (fromHTML !== null) {
-      this.workBox.innerHTML = fromHTML;
-      ListMarkUtils.textify(this.workBox);
-      this.removeExcludedContent();
-      fromHTML = this.workBox.innerHTML;
-    }
+    if (this.treeDiff.checked) {
+      const workBoxFrom = document.createElement("div");
+      this.workBoxContainer.appendChild(workBoxFrom);
+      const workBoxTo = document.createElement("div");
+      this.workBoxContainer.appendChild(workBoxTo);
 
-    if (toHTML !== null) {
-      this.workBox.innerHTML = toHTML;
-      ListMarkUtils.textify(this.workBox);
-      this.removeExcludedContent();
-      toHTML = this.workBox.innerHTML;
+      if (fromHTML !== null) {
+        workBoxFrom.innerHTML = fromHTML;
+        ListMarkUtils.textify(workBoxFrom);
+        this.removeExcludedContent(workBoxFrom);
+      }
+
+      if (toHTML !== null) {
+        workBoxTo.innerHTML = toHTML;
+        ListMarkUtils.textify(workBoxTo);
+        this.removeExcludedContent(workBoxTo);
+      }
+
+      if (diffMode) {
+        fromHTML = workBoxFrom.innerHTML;
+        toHTML = workBoxTo.innerHTML;
+        [fromHTML, toHTML] = HTMLPathDiff.splitForDiff(fromHTML, toHTML);
+        workBoxFrom.innerHTML = fromHTML;
+        workBoxTo.innerHTML = toHTML;
+      }
+
+      new HTMLTreeDiff().diff(box, workBoxFrom, workBoxTo);
+
+      workBoxFrom.remove();
+      workBoxTo.remove();
+
+      return;
     }
 
     if (diffMode) {
-      return HTMLDiff.diff(fromHTML, toHTML);
+      box.innerHTML = HTMLPathDiff.diff(fromHTML, toHTML);
+    } else if (fromHTML !== null) {
+      box.innerHTML = HTMLPathDiff.diff(fromHTML, "");
+    } else if (toHTML !== null) {
+      box.innerHTML = HTMLPathDiff.diff("", toHTML);
     }
-    if (fromHTML !== null) {
-      return HTMLDiff.diff(fromHTML, "");
-    }
-    if (toHTML !== null) {
-      return HTMLDiff.diff("", toHTML);
-    }
-    return "";
   }
 
-  removeExcludedContent() {
-    for (const div of [...this.workBox.getElementsByTagName("div")]) {
+  removeExcludedContent(box) {
+    for (const div of [...box.getElementsByTagName("div")]) {
       if (div.id && div.id.startsWith("excluded-")) {
         div.textContent = "";
       }
@@ -1187,6 +1524,10 @@ class Comparator {
     this.updateRevInfo();
     this.updateURL();
   }
+
+  async onTreeDiffChange() {
+    await this.compare();
+  }
 }
 
 let comparator;
@@ -1220,6 +1561,11 @@ function onSecListChange() {
 /* exported onTabChange */
 function onTabChange() {
   comparator.onTabChange().catch(e => console.error(e));
+}
+
+/* exported onTreeDiffChange */
+function onTreeDiffChange() {
+  comparator.onTreeDiffChange().catch(e => console.error(e));
 }
 
 window.addEventListener("hashchange", () => {
