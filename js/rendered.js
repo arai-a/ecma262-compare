@@ -17,7 +17,7 @@ class RenderedPageList {
   async run(type) {
     await this.loadResources();
 
-    if (type == "revs") {
+    if (type === "revs") {
       this.populateRevList();
     } else {
       this.populatePRList();
