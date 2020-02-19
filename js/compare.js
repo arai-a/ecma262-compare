@@ -1387,24 +1387,24 @@ class Comparator {
   createDiff(box, fromHTML, toHTML) {
     const diffMode = fromHTML !== null && toHTML !== null;
 
+    const workBoxFrom = document.createElement("div");
+    this.workBoxContainer.appendChild(workBoxFrom);
+    const workBoxTo = document.createElement("div");
+    this.workBoxContainer.appendChild(workBoxTo);
+
+    if (fromHTML !== null) {
+      workBoxFrom.innerHTML = fromHTML;
+      ListMarkUtils.textify(workBoxFrom);
+      this.removeExcludedContent(workBoxFrom);
+    }
+
+    if (toHTML !== null) {
+      workBoxTo.innerHTML = toHTML;
+      ListMarkUtils.textify(workBoxTo);
+      this.removeExcludedContent(workBoxTo);
+    }
+
     if (this.treeDiff.checked) {
-      const workBoxFrom = document.createElement("div");
-      this.workBoxContainer.appendChild(workBoxFrom);
-      const workBoxTo = document.createElement("div");
-      this.workBoxContainer.appendChild(workBoxTo);
-
-      if (fromHTML !== null) {
-        workBoxFrom.innerHTML = fromHTML;
-        ListMarkUtils.textify(workBoxFrom);
-        this.removeExcludedContent(workBoxFrom);
-      }
-
-      if (toHTML !== null) {
-        workBoxTo.innerHTML = toHTML;
-        ListMarkUtils.textify(workBoxTo);
-        this.removeExcludedContent(workBoxTo);
-      }
-
       if (diffMode) {
         fromHTML = workBoxFrom.innerHTML;
         toHTML = workBoxTo.innerHTML;
@@ -1422,11 +1422,9 @@ class Comparator {
     }
 
     if (diffMode) {
+      fromHTML = workBoxFrom.innerHTML;
+      toHTML = workBoxTo.innerHTML;
       box.innerHTML = HTMLPathDiff.diff(fromHTML, toHTML);
-    } else if (fromHTML !== null) {
-      box.innerHTML = HTMLPathDiff.diff(fromHTML, "");
-    } else if (toHTML !== null) {
-      box.innerHTML = HTMLPathDiff.diff("", toHTML);
     }
   }
 
