@@ -1,5 +1,45 @@
 [
  {
+  "adate": "2020-02-13T16:07:28-05:00",
+  "author": "Michael Dyck",
+  "date": "2020-02-19T14:50:55-08:00",
+  "hash": "0c9930d7589b665bd575c841a44cf3da7f2eea71",
+  "parents": "107797c38a01597f00391f6c503de264c96fc0cf",
+  "subject": "Editorial: remove extraneous comma (#1787)"
+ },
+ {
+  "adate": "2020-01-21T13:26:23-05:00",
+  "author": "Michael Dyck",
+  "date": "2020-02-19T14:50:55-08:00",
+  "hash": "107797c38a01597f00391f6c503de264c96fc0cf",
+  "parents": "97d8f19358448987445fd985dbedfb4c708becc7",
+  "subject": "Editorial: Consistify whitespace in `<emu-grammar>` content (#1787)"
+ },
+ {
+  "adate": "2019-12-12T16:43:17-05:00",
+  "author": "Michael Dyck",
+  "date": "2020-02-19T14:50:54-08:00",
+  "hash": "97d8f19358448987445fd985dbedfb4c708becc7",
+  "parents": "31bc4fbbea9ccd9c8a1b08c750c3b460077c647d",
+  "subject": "Editorial: fixes from #1646, #1644, #1406 (#1787)"
+ },
+ {
+  "adate": "2019-11-19T08:25:34-05:00",
+  "author": "Michael Dyck",
+  "date": "2020-02-19T14:50:54-08:00",
+  "hash": "31bc4fbbea9ccd9c8a1b08c750c3b460077c647d",
+  "parents": "ab30b816fa92af8f5a3681ec3989aa0cdc38bc1d",
+  "subject": "Editorial: Insert `the mathematical value of` (#1787)"
+ },
+ {
+  "adate": "2020-01-31T19:34:31-10:00",
+  "author": "Kevin Gibbons",
+  "date": "2020-02-19T14:30:43-08:00",
+  "hash": "ab30b816fa92af8f5a3681ec3989aa0cdc38bc1d",
+  "parents": "8e5ae7b621922ca289e8b6fb19b4d6d4e0750182",
+  "subject": "Editorial: make callers of SV consistent (#1862)"
+ },
+ {
   "adate": "2020-02-14T20:00:22-08:00",
   "author": "Jordan Harband",
   "date": "2020-02-14T21:53:39-08:00",
