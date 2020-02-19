@@ -1414,17 +1414,14 @@ class Comparator {
       }
 
       new HTMLTreeDiff().diff(box, workBoxFrom, workBoxTo);
+    } else {
+      fromHTML = workBoxFrom.innerHTML;
+      toHTML = workBoxTo.innerHTML;
+
+      box.innerHTML = HTMLPathDiff.diff(fromHTML, toHTML);
 
       workBoxFrom.remove();
       workBoxTo.remove();
-
-      return;
-    }
-
-    if (diffMode) {
-      fromHTML = workBoxFrom.innerHTML;
-      toHTML = workBoxTo.innerHTML;
-      box.innerHTML = HTMLPathDiff.diff(fromHTML, toHTML);
     }
   }
 
