@@ -3,6 +3,10 @@ name: Lint
 push:
   branches:
     - gh-pages
+  paths:
+    - 'js/*'
+    - 'build.py'
+    - '.eslintrc.js'
 
 jobs:
   build:
