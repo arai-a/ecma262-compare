@@ -383,9 +383,9 @@ class HTMLPathDiff {
     const seq = [];
 
     const INS_NAME = `ins`;
-    const INS_TAG = `<ins class="htmldiff-add">`;
+    const INS_TAG = `<ins class="htmldiff-add htmldiff-change">`;
     const DEL_NAME = `del`;
-    const DEL_TAG = `<del class="htmldiff-del">`;
+    const DEL_TAG = `<del class="htmldiff-del htmldiff-change">`;
 
     for (const d of diff) {
       switch (d.op) {
@@ -767,6 +767,7 @@ class HTMLTreeDiff {
   toIns(node) {
     const ins = document.createElement("ins");
     ins.classList.add("htmldiff-add");
+    ins.classList.add("htmldiff-change");
     ins.appendChild(node);
     return ins;
   }
@@ -774,6 +775,7 @@ class HTMLTreeDiff {
   toDel(node) {
     const del = document.createElement("del");
     del.classList.add("htmldiff-del");
+    del.classList.add("htmldiff-change");
     del.appendChild(node);
     return del;
   }
@@ -832,6 +834,7 @@ class Comparator {
     this.viewDiffTab = document.getElementById("view-diff-tab");
     this.workBoxContainer = document.getElementById("work-box-container");
     this.treeDiff = document.getElementById("tree-diff");
+    this.scroller = document.getElementById("scroller");
 
     this.currentHash = "";
   }
@@ -1278,8 +1281,15 @@ class Comparator {
         note = " (changes in markup or something)";
       }
 
+      if (add === 0 && del === 0) {
+        this.scroller.style.display = "none";
+      } else {
+        this.scroller.style.display = "";
+      }
+
       this.diffStat.textContent = `+${add} -${del}${note}`;
     } else {
+      this.scroller.style.display = "none";
       this.result.classList.remove("diff-view");
 
       if (this.viewFrom.checked) {
@@ -1523,6 +1533,114 @@ class Comparator {
   async onTreeDiffChange() {
     await this.compare();
   }
+
+  onScrollUpClick() {
+    const rect = this.getFirstChangeRectAboveScreen();
+    if (!rect) {
+      return;
+    }
+
+    const bottom = rect.bottom + 100;
+
+    this.highlightChanges(this.getChangesInsidePreviousScreen(bottom));
+
+    const doc = document.documentElement;
+    console.log(bottom, rect.bottom, rect.top, doc.clientHeight);
+    window.scrollBy({
+      left: 0,
+      top: bottom - doc.clientHeight,
+      behavior: "smooth",
+    });
+  }
+
+  onScrollDownClick() {
+    const rect = this.getFirstChangeRectBelowScreen();
+    if (!rect) {
+      return;
+    }
+
+    const top = rect.top - 100;
+
+    this.highlightChanges(this.getChangesInsideNextScreen(top));
+
+    window.scrollBy({
+      left: 0,
+      top: top,
+      behavior: "smooth",
+    });
+  }
+
+  getFirstChangeRectAboveScreen() {
+    let prevRect = null;
+
+    const changes = this.result.getElementsByClassName("htmldiff-change");
+    for (const change of changes) {
+      const rect = change.getBoundingClientRect();
+      if (rect.top >= 0) {
+        return prevRect;
+      }
+      prevRect = rect;
+    }
+
+    return prevRect;
+  }
+
+  getFirstChangeRectBelowScreen() {
+    const doc = document.documentElement;
+    const height = doc.clientHeight;
+
+    const changes = this.result.getElementsByClassName("htmldiff-change");
+    for (const change of changes) {
+      const rect = change.getBoundingClientRect();
+      if (rect.bottom > height) {
+        return rect;
+      }
+    }
+
+    return null;
+  }
+
+  getChangesInsidePreviousScreen(bottom) {
+    const doc = document.documentElement;
+    const height = doc.clientHeight;
+    const result = [];
+
+    const changes = this.result.getElementsByClassName("htmldiff-change");
+    for (const change of changes) {
+      const rect = change.getBoundingClientRect();
+      if (rect.top >= bottom - height && rect.bottom <= bottom) {
+        result.push(change);
+      }
+    }
+
+    return result;
+  }
+
+  getChangesInsideNextScreen(top) {
+    const doc = document.documentElement;
+    const height = doc.clientHeight;
+    const result = [];
+
+    const changes = this.result.getElementsByClassName("htmldiff-change");
+    for (const change of changes) {
+      const rect = change.getBoundingClientRect();
+      if (rect.top >= top && rect.bottom <= top + height) {
+        result.push(change);
+      }
+    }
+    return result;
+  }
+
+  highlightChanges(changes) {
+    for (const change of changes) {
+      change.classList.add("htmldiff-highllight");
+    }
+    setTimeout(() => {
+      for (const change of changes) {
+        change.classList.remove("htmldiff-highllight");
+      }
+    }, 500);
+  }
 }
 
 let comparator;
@@ -1561,6 +1679,16 @@ function onTabChange() {
 /* exported onTreeDiffChange */
 function onTreeDiffChange() {
   comparator.onTreeDiffChange().catch(e => console.error(e));
+}
+
+/* exported onScrollUpClick */
+function onScrollUpClick() {
+  comparator.onScrollUpClick();
+}
+
+/* exported onScrollDownClick */
+function onScrollDownClick() {
+  comparator.onScrollDownClick();
 }
 
 window.addEventListener("hashchange", () => {

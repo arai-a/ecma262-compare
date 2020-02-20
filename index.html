@@ -4,8 +4,8 @@
 <title>ECMAScript Language Specification Comparator</title>
 <link href="./style/ecmarkup.css" rel="stylesheet">
 <link href="./style/base.css" rel="stylesheet">
-<link href="./style/compare.css?20200220a" rel="stylesheet">
-<script type="text/javascript" src="./js/compare.js?20200220a"></script>
+<link href="./style/compare.css?20200220b" rel="stylesheet">
+<script type="text/javascript" src="./js/compare.js?20200220b"></script>
 </head>
 <body onload="onBodyLoad()">
 <div id="container">
@@ -70,6 +70,10 @@
         <input id="tree-diff" type="checkbox" onchange="onTreeDiffChange()">
         <label for="tree-diff">Use experimental diff</label>
       </div>
+    </div>
+    <div id="scroller">
+      <div id="scroll-up" aria-label="Scroll up" role="button" onclick="onScrollUpClick()">⬆</div>
+      <div id="scroll-down" aria-label="Scroll down" role="button" onclick="onScrollDownClick()">⬇</div>
     </div>
   </header>
   <div id="result"></div>
