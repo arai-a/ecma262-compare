@@ -72,6 +72,10 @@ jobs:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
       run: make pr5
     - name: Commit files
+      # Fails if no files to commit
+      # This can happen if a PR got new change, and then merged between
+      # bootstrap and update.
+      continue-on-error: true
       if: steps.bootstrap.outputs.update == 'Yes'
       run: |
         git config --local user.email "action@github.com"
@@ -79,6 +83,7 @@ jobs:
         git add history
         git commit -m "update history"
     - name: Push changes
+      continue-on-error: true
       if: steps.bootstrap.outputs.update == 'Yes'
       uses: ad-m/github-push-action@master
       with:
