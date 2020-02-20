@@ -1596,9 +1596,9 @@
   "updated_at": "2019-11-13T05:25:30Z"
  },
  {
-  "base": "a68d1296f156ff73075fde36aebd643de4f8ebde",
+  "base": "6b05bc56ba4e3c7a2b9922c4282d9eb844426d9b",
   "created_at": "2019-08-07T10:05:41Z",
-  "head": "867b83a2cab9d1c411121af271a19499bbbe719f",
+  "head": "b28acc13b1046bb0b1e8b404b8a3b6a40d4be733",
   "login": "claudepache",
   "number": 1658,
   "ref": "early-error-covering-assignment-pattern",
@@ -1606,14 +1606,14 @@
    {
     "adate": "2019-08-07T11:59:57+02:00",
     "author": "Claude Pache",
-    "date": "2019-08-07T17:37:55+02:00",
-    "hash": "867b83a2cab9d1c411121af271a19499bbbe719f",
-    "parents": "a68d1296f156ff73075fde36aebd643de4f8ebde",
+    "date": "2020-02-20T15:04:01-08:00",
+    "hash": "b28acc13b1046bb0b1e8b404b8a3b6a40d4be733",
+    "parents": "6b05bc56ba4e3c7a2b9922c4282d9eb844426d9b",
     "subject": "Editorial: Refactor and correct Early Error rules for LeftHandSideExpression productions potentially covering an AssignmentPattern"
    }
   ],
   "title": "Editorial: Add two missing Early Error rules for productions covering an AssignmentPattern",
-  "updated_at": "2020-02-01T07:56:54Z"
+  "updated_at": "2020-02-20T23:05:42Z"
  },
  {
   "base": "8f0f69279b5f9e12ebe8f7052322b93d17e36b54",
