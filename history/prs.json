@@ -1,5 +1,25 @@
 [
  {
+  "base": "6b05bc56ba4e3c7a2b9922c4282d9eb844426d9b",
+  "created_at": "2020-02-20T20:29:51Z",
+  "head": "d94ed87e5b55b7b23b609487a682d50ccd13399d",
+  "login": "jmdyck",
+  "number": 1877,
+  "ref": "editorial",
+  "revs": [
+   {
+    "adate": "2020-02-20T15:08:33-05:00",
+    "author": "Michael Dyck",
+    "date": "2020-02-20T15:20:29-05:00",
+    "hash": "d94ed87e5b55b7b23b609487a682d50ccd13399d",
+    "parents": "6b05bc56ba4e3c7a2b9922c4282d9eb844426d9b",
+    "subject": "Editorial: supply args to IteratorBindingInitialization"
+   }
+  ],
+  "title": "Editorial: supply args to IteratorBindingInitialization",
+  "updated_at": "2020-02-20T20:29:51Z"
+ },
+ {
   "base": "8e5ae7b621922ca289e8b6fb19b4d6d4e0750182",
   "created_at": "2020-02-18T13:37:09Z",
   "head": "5fdc6a8ae0a49b72e6d9636c5dde558790ec9351",
@@ -1954,11 +1974,19 @@
  {
   "base": "6b05bc56ba4e3c7a2b9922c4282d9eb844426d9b",
   "created_at": "2019-06-20T14:18:13Z",
-  "head": "cdf76aa69ce58c08eeed94f8f7675c565a2c2c74",
+  "head": "fc1de7e4b091394cf6394d36e75cbd76db6f6146",
   "login": "littledan",
   "number": 1597,
   "ref": "enqueue-promise-job",
   "revs": [
+   {
+    "adate": "2020-02-20T21:19:23+01:00",
+    "author": "Daniel Ehrenberg",
+    "date": "2020-02-20T21:19:23+01:00",
+    "hash": "fc1de7e4b091394cf6394d36e75cbd76db6f6146",
+    "parents": "cdf76aa69ce58c08eeed94f8f7675c565a2c2c74",
+    "subject": "Editorial: Remove editorial comment"
+   },
    {
     "adate": "2020-02-20T12:42:59+01:00",
     "author": "Daniel Ehrenberg",
@@ -1985,7 +2013,7 @@
    }
   ],
   "title": "Layering: Allow hosts to cleanly specify Promise Job semantics",
-  "updated_at": "2020-02-20T11:49:51Z"
+  "updated_at": "2020-02-20T20:20:20Z"
  },
  {
   "base": "e3707ac9e14b75b9513d6b09c394dee6473c5ddf",
