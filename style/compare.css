@@ -57,12 +57,14 @@
 
 #scroller {
     position: fixed;
-    top: 100px;
+    top: 60px;
     right: 0px;
     width: 40px;
     height: 80px;
     padding: 4px;
     box-sizing: border-box;
+    border-radius: 20px;
+    background-color: white;
 }
 
 #scroll-up, #scroll-down {
@@ -85,9 +87,11 @@
 }
 #scroll-up:hover, #scroll-down:hover {
     opacity: 0.7;
+    transform: scale(1.1);
 }
 #scroll-up:active, #scroll-down:active {
     opacity: 1;
+    transform: scale(0.9);
 }
 
 .htmldiff-add,
