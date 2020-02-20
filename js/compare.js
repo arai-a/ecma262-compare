@@ -795,12 +795,6 @@ class DateUtils {
 // ECMAScript Language Specification Comparator
 class Comparator {
   constructor() {
-    // `option` elements for "from" revisions.
-    this.fromOpts = [];
-
-    // `option` elements for "to" revisions.
-    this.toOpts = [];
-
     // `option` elements for sections.
     this.secOpts = [];
 
@@ -817,6 +811,7 @@ class Comparator {
     this.abortProcessing = false;
 
     this.prFilter = document.getElementById("pr-filter");
+    this.revFilter = document.getElementById("rev-filter");
     this.fromRev = document.getElementById("from-rev");
     this.toRev = document.getElementById("to-rev");
     this.secList = document.getElementById("sec-list");
@@ -862,9 +857,13 @@ class Comparator {
 
     this.prMap = {};
     for (const pr of this.prs) {
-      pr.parent = pr.revs[pr.revs.length-1].parents.split(" ")[0];
+      pr.parent = this.getFirstParent(pr.revs[pr.revs.length-1]);
       this.prMap[pr.number] = pr;
     }
+  }
+
+  getFirstParent(rev) {
+      return rev.parents.split(" ")[0];
   }
 
   async getJSON(path) {
@@ -874,8 +873,9 @@ class Comparator {
 
   populateLists() {
     this.populatePRs(this.prFilter);
-    this.populateRevs(this.fromRev, this.fromOpts);
-    this.populateRevs(this.toRev, this.toOpts);
+    this.populateRevs(this.revFilter);
+    this.populateAllRevs(this.fromRev);
+    this.populateAllRevs(this.toRev);
   }
 
   populatePRs(menu) {
@@ -904,26 +904,47 @@ class Comparator {
     menu.value = "-";
   }
 
-  populateRevs(menu, opts) {
+  populateRevs(menu) {
     while (menu.firstChild) {
       menu.firstChild.remove();
     }
 
-    for (const { date, hash } of this.revs) {
+    const opt = document.createElement("option");
+    opt.value = "-";
+    opt.textContent = "-";
+    menu.appendChild(opt);
+
+    for (const rev of this.revs) {
+      const parent = this.getFirstParent(rev);
+      if (!(parent in this.revMap)) {
+        continue;
+      }
+
       const opt = document.createElement("option");
-      opt.value = hash;
-      opt.textContent = `${hash} (${DateUtils.toReadable(date)})`;
-      opts.push(opt);
+      opt.value = rev.hash;
+      opt.textContent = `${rev.hash} (${DateUtils.toReadable(rev.date)})`;
+      menu.appendChild(opt);
+    }
+  }
+
+  populateAllRevs(menu) {
+    while (menu.firstChild) {
+      menu.firstChild.remove();
+    }
+
+    for (const rev of this.revs) {
+      const opt = document.createElement("option");
+      opt.value = rev.hash;
+      opt.textContent = `${rev.hash} (${DateUtils.toReadable(rev.date)})`;
+      menu.appendChild(opt);
     }
 
     for (const pr of this.prs) {
       const opt = document.createElement("option");
       opt.value = this.prToOptValue(pr);
       opt.textContent = `${pr.head} (PR ${pr.number} by ${pr.login})`;
-      opts.push(opt);
+      menu.appendChild(opt);
     }
-
-    this.populateMenu(menu, opts, () => true);
   }
 
   prToOptValue(pr) {
@@ -975,20 +996,25 @@ class Comparator {
       if (to in this.revMap) {
         this.toRev.value = to;
       }
+      this.revFilter.value = "-";
+      this.prFilter.value = "-";
+    } else if ("rev" in queryParams) {
+      const hash = queryParams.rev;
+      if (hash in this.revMap) {
+        this.revFilter.value = hash;
+        this.selectRevs(hash);
+      }
       this.prFilter.value = "-";
     } else if ("pr" in queryParams) {
       const prnum = queryParams.pr;
       if (prnum in this.prMap) {
-        const pr = this.prMap[prnum];
-
-        this.fromRev.value = pr.parent;
-        this.toRev.value = pr.head;
-
-        this.prFilter.value = pr.number;
-        this.selectPRRevs(pr.number);
-        this.updatePRLink(pr.number);
+        this.prFilter.value = prnum;
+        this.selectPRRevs(prnum);
+        this.updatePRLink(prnum);
       }
+      this.revFilter.value = "-";
     } else {
+      this.revFilter.value = "-";
       this.prFilter.value = "-";
     }
 
@@ -1000,6 +1026,8 @@ class Comparator {
     if ("id" in queryParams) {
       const id = queryParams.id;
       this.secList.value = id;
+    } else {
+      this.secList.value = "combined";
     }
 
     await this.compare();
@@ -1010,6 +1038,17 @@ class Comparator {
       const pr = this.prMap[prnum];
       this.fromRev.value = pr.parent;
       this.toRev.value = this.prToOptValue(pr);
+    }
+  }
+
+  selectRevs(hash) {
+    if (hash in this.revMap) {
+      const rev = this.revMap[hash];
+      const parent = this.getFirstParent(rev);
+      if (parent in this.revMap) {
+        this.fromRev.value = parent;
+        this.toRev.value = hash;
+      }
     }
   }
 
@@ -1216,15 +1255,23 @@ class Comparator {
 
     const params = [];
     const prnum = this.prFilter.value;
+    const hash = this.revFilter.value;
     if (prnum !== "-") {
       params.push(`pr=${prnum}`);
+      if (id !== "combined") {
+        params.push(`id=${encodeURIComponent(id)}`);
+      }
+    } else if (hash !== "-") {
+      params.push(`rev=${hash}`);
       if (id !== "combined") {
         params.push(`id=${encodeURIComponent(id)}`);
       }
     } else {
       params.push(`from=${this.hashOf("from")}`);
       params.push(`to=${this.hashOf("to")}`);
-      params.push(`id=${encodeURIComponent(id)}`);
+      if (id !== "combined") {
+        params.push(`id=${encodeURIComponent(id)}`);
+      }
     }
 
     this.currentHash = `#${params.join("&")}`;
@@ -1485,6 +1532,7 @@ class Comparator {
 
   async onPRFilterChange() {
     const prnum = this.prFilter.value;
+    this.revFilter.value = "-";
     this.selectPRRevs(prnum);
     this.updatePRLink(prnum);
     this.updateHistoryLink();
@@ -1494,7 +1542,20 @@ class Comparator {
     this.updateURL();
   }
 
+  async onRevFilterChange() {
+    const hash = this.revFilter.value;
+    this.prFilter.value = "-";
+    this.selectRevs(hash);
+    this.updateHistoryLink();
+    this.updateRevInfo();
+    await this.updateSectionList();
+    await this.compare();
+    this.updateURL();
+  }
+
   async onFromRevChange() {
+    this.prFilter.value = "-";
+    this.revFilter.value = "-";
     this.updateHistoryLink();
     this.updateRevInfo();
     await this.updateSectionList();
@@ -1503,6 +1564,8 @@ class Comparator {
   }
 
   async onToRevChange() {
+    this.prFilter.value = "-";
+    this.revFilter.value = "-";
     this.updateHistoryLink();
     this.updateRevInfo();
     await this.updateSectionList();
@@ -1545,7 +1608,6 @@ class Comparator {
     this.highlightChanges(this.getChangesInsidePreviousScreen(bottom));
 
     const doc = document.documentElement;
-    console.log(bottom, rect.bottom, rect.top, doc.clientHeight);
     window.scrollBy({
       left: 0,
       top: bottom - doc.clientHeight,
@@ -1654,6 +1716,11 @@ function onBodyLoad() {
 /* exported onPRFilterChange */
 function onPRFilterChange() {
   comparator.onPRFilterChange().catch(e => console.error(e));
+}
+
+/* exported onRevFilterChange */
+function onRevFilterChange() {
+  comparator.onRevFilterChange().catch(e => console.error(e));
 }
 
 /* exported onFromRevChange */

@@ -4,8 +4,8 @@
 <title>ECMAScript Language Specification Comparator</title>
 <link href="./style/ecmarkup.css" rel="stylesheet">
 <link href="./style/base.css" rel="stylesheet">
-<link href="./style/compare.css?20200220b" rel="stylesheet">
-<script type="text/javascript" src="./js/compare.js?20200220b"></script>
+<link href="./style/compare.css?20200220c" rel="stylesheet">
+<script type="text/javascript" src="./js/compare.js?20200220c"></script>
 </head>
 <body onload="onBodyLoad()">
 <div id="container">
@@ -24,6 +24,10 @@
       <div id="pr-filter-container" class="filter-container">
         <select id="pr-filter" onchange="onPRFilterChange()"></select>
         <a id="pr-link" href="#" target="_blank"></a>
+      </div>
+      <label id="rev-filter-label" class="filter-label" for="rev-filter">Revision</label>
+      <div id="rev-filter-container" class="filter-container">
+        <select id="rev-filter" onchange="onRevFilterChange()"></select>
       </div>
       <label id="from-rev-label" class="filter-label" for="from-rev">From</label>
       <div id="from-rev-container" class="filter-container">

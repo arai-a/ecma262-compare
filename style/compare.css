@@ -7,10 +7,12 @@
 }
 
 #pr-filter-label,
+#rev-filter-label,
 #to-rev-label {
     border-bottom: 1px solid #808080;
 }
 #pr-filter-container,
+#rev-filter-container,
 #to-rev-container {
     border-bottom: 1px solid #808080;
 }
