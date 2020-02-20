@@ -225,26 +225,6 @@
  },
  {
   "base": "e5c0f84610df095de6256e6cf083f4a901e67fde",
-  "created_at": "2020-02-01T06:28:46Z",
-  "head": "51ff8216b73636d55c9db42c8c84533815efbed8",
-  "login": "tc39",
-  "number": 1862,
-  "ref": "sv-calling-convention",
-  "revs": [
-   {
-    "adate": "2020-01-31T19:34:31-10:00",
-    "author": "Kevin Gibbons",
-    "date": "2020-01-31T19:34:31-10:00",
-    "hash": "51ff8216b73636d55c9db42c8c84533815efbed8",
-    "parents": "e5c0f84610df095de6256e6cf083f4a901e67fde",
-    "subject": "Editorial: make callers of SV consistent"
-   }
-  ],
-  "title": "Editorial: make callers of SV consistent",
-  "updated_at": "2020-02-07T08:29:34Z"
- },
- {
-  "base": "e5c0f84610df095de6256e6cf083f4a901e67fde",
   "created_at": "2020-01-31T22:54:28Z",
   "head": "36f1f910098a9e39b2cdb9bcd03ec1b0e60fc7af",
   "login": "rkirsling",
@@ -320,26 +300,6 @@
   "updated_at": "2020-01-15T06:15:18Z"
  },
  {
-  "base": "f0c10cfb5ff87b892580cae6a2dc59a045cbac3e",
-  "created_at": "2020-01-04T00:30:05Z",
-  "head": "dc2b8103d57225031986216a4f0b435988c51930",
-  "login": "sideshowbarker",
-  "number": 1830,
-  "ref": "about-this-spec-grammar-fix",
-  "revs": [
-   {
-    "adate": "2020-01-04T09:27:29+09:00",
-    "author": "Michael[tm] Smith",
-    "date": "2020-01-04T09:27:29+09:00",
-    "hash": "dc2b8103d57225031986216a4f0b435988c51930",
-    "parents": "f0c10cfb5ff87b892580cae6a2dc59a045cbac3e",
-    "subject": "Editorial: Update About this Specification wording"
-   }
-  ],
-  "title": "Editorial: Update About this Specification wording",
-  "updated_at": "2020-01-04T00:41:33Z"
- },
- {
   "base": "cb73c69d861db21506c0246197fd87b723d6cdb4",
   "created_at": "2020-01-03T22:14:01Z",
   "head": "297f7fb6aae58f28b80e0bdfe7d0604c2de190ce",
@@ -400,26 +360,6 @@
   "updated_at": "2020-02-05T00:57:54Z"
  },
  {
-  "base": "ae2d1a86868107e8f61db4c68af910c473d88c93",
-  "created_at": "2019-12-12T01:47:21Z",
-  "head": "17b258fe283349bc2f07bb8b1d468f46c735d918",
-  "login": "rkirsling",
-  "number": 1808,
-  "ref": "asi-section-wordsmithing",
-  "revs": [
-   {
-    "adate": "2019-12-11T17:38:20-08:00",
-    "author": "Ross Kirsling",
-    "date": "2019-12-11T17:38:20-08:00",
-    "hash": "17b258fe283349bc2f07bb8b1d468f46c735d918",
-    "parents": "ae2d1a86868107e8f61db4c68af910c473d88c93",
-    "subject": "Editorial: Improve readability in 11.10."
-   }
-  ],
-  "title": "Editorial: Improve readability in 11.10.",
-  "updated_at": "2019-12-12T23:52:18Z"
- },
- {
   "base": "618479affe6b55bfca47fd058ce3a837a7d6c46c",
   "created_at": "2019-12-03T21:32:25Z",
   "head": "4243c0bf4dc1ed28b6ebd0a1628378e8b643e0c6",
@@ -458,126 +398,6 @@
   ],
   "title": "WIP: Meta: add script to land PRs",
   "updated_at": "2019-12-11T21:52:51Z"
- },
- {
-  "base": "618479affe6b55bfca47fd058ce3a837a7d6c46c",
-  "created_at": "2019-11-28T20:48:27Z",
-  "head": "d5197a16ffcafd34e81ddc417447e4d7cdc6d6d8",
-  "login": "tc39",
-  "number": 1797,
-  "ref": "no-assertion-tester",
-  "revs": [
-   {
-    "adate": "2019-11-28T12:44:08-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2019-11-29T09:32:31-08:00",
-    "hash": "d5197a16ffcafd34e81ddc417447e4d7cdc6d6d8",
-    "parents": "c95ab23c608264db6e85638e4b73743a290e0a30",
-    "subject": "Editorial: refactor control flow for RegExp assertions"
-   },
-   {
-    "adate": "2019-11-28T12:42:02-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2019-11-29T09:32:29-08:00",
-    "hash": "c95ab23c608264db6e85638e4b73743a290e0a30",
-    "parents": "618479affe6b55bfca47fd058ce3a837a7d6c46c",
-    "subject": "Editorial: remove AssertionTester"
-   }
-  ],
-  "title": "Editorial: remove AssertionTester from RexExp semantics",
-  "updated_at": "2020-01-29T23:02:27Z"
- },
- {
-  "base": "8e5ae7b621922ca289e8b6fb19b4d6d4e0750182",
-  "created_at": "2019-11-19T13:35:18Z",
-  "head": "e73d9918c2c7427deeff60f2ddeb86f463758718",
-  "login": "jmdyck",
-  "number": 1787,
-  "ref": "editorial",
-  "revs": [
-   {
-    "adate": "2020-02-13T16:07:28-05:00",
-    "author": "Michael Dyck",
-    "date": "2020-02-15T17:02:21-05:00",
-    "hash": "e73d9918c2c7427deeff60f2ddeb86f463758718",
-    "parents": "3105b5a753a9dbc61173392b114af153fc9466a6",
-    "subject": "Editorial: remove extraneous comma"
-   },
-   {
-    "adate": "2020-01-23T14:53:04-05:00",
-    "author": "Michael Dyck",
-    "date": "2020-02-15T17:00:50-05:00",
-    "hash": "3105b5a753a9dbc61173392b114af153fc9466a6",
-    "parents": "1aa8f25de21181571ecae431f1238dddd31557ce",
-    "subject": "Editorial: quick fixes re PR #1406"
-   },
-   {
-    "adate": "2020-01-21T13:26:23-05:00",
-    "author": "Michael Dyck",
-    "date": "2020-02-15T17:00:50-05:00",
-    "hash": "1aa8f25de21181571ecae431f1238dddd31557ce",
-    "parents": "9b9dc9c8655657eaf07db2d4d89ecdcaad8f4d5c",
-    "subject": "Editorial: Consistify whitespace in `<emu-grammar>` content"
-   },
-   {
-    "adate": "2019-12-28T12:49:16-05:00",
-    "author": "Michael Dyck",
-    "date": "2020-02-15T17:00:50-05:00",
-    "hash": "9b9dc9c8655657eaf07db2d4d89ecdcaad8f4d5c",
-    "parents": "456a22d3466721b7fc289acef2dbe572a5ca58c2",
-    "subject": "Editorial: minor grammar refactoring re Punctuator"
-   },
-   {
-    "adate": "2019-12-28T12:31:54-05:00",
-    "author": "Michael Dyck",
-    "date": "2020-02-15T17:00:50-05:00",
-    "hash": "456a22d3466721b7fc289acef2dbe572a5ca58c2",
-    "parents": "16620d18c207ac42b7efa6a75a5612a62b2df2f8",
-    "subject": "Editorial: eliminate accidental ambiguity in Punctuator"
-   },
-   {
-    "adate": "2019-12-12T17:42:50-05:00",
-    "author": "Michael Dyck",
-    "date": "2020-02-15T17:00:50-05:00",
-    "hash": "16620d18c207ac42b7efa6a75a5612a62b2df2f8",
-    "parents": "b05baba2416c518fb65ba93d53573c64baf82385",
-    "subject": "Editorial: tweak syntax in algorithms"
-   },
-   {
-    "adate": "2019-12-12T17:06:15-05:00",
-    "author": "Michael Dyck",
-    "date": "2020-02-15T17:00:50-05:00",
-    "hash": "b05baba2416c518fb65ba93d53573c64baf82385",
-    "parents": "8770b6d99abbc218c933229424e0a8284784a19c",
-    "subject": "Editorial: Add 4 <emu-prodref> elements to Annex A"
-   },
-   {
-    "adate": "2019-12-12T16:49:27-05:00",
-    "author": "Michael Dyck",
-    "date": "2020-02-15T17:00:50-05:00",
-    "hash": "8770b6d99abbc218c933229424e0a8284784a19c",
-    "parents": "d467a30cc834d0e09d2c7b6284dea14029e01f9e",
-    "subject": "Editorial: eliminate grammatical parameters"
-   },
-   {
-    "adate": "2019-12-12T16:43:17-05:00",
-    "author": "Michael Dyck",
-    "date": "2020-02-15T17:00:50-05:00",
-    "hash": "d467a30cc834d0e09d2c7b6284dea14029e01f9e",
-    "parents": "fd5ac21ce10cba2c8cf3d3c529f6431cb98bb4f5",
-    "subject": "Editorial: insert space before paren in clause heading"
-   },
-   {
-    "adate": "2019-11-19T08:25:34-05:00",
-    "author": "Michael Dyck",
-    "date": "2020-02-15T17:00:50-05:00",
-    "hash": "fd5ac21ce10cba2c8cf3d3c529f6431cb98bb4f5",
-    "parents": "8e5ae7b621922ca289e8b6fb19b4d6d4e0750182",
-    "subject": "Editorial: Insert `the mathematical value of`"
-   }
-  ],
-  "title": "Editorial: quick fixes for recent merges",
-  "updated_at": "2020-02-15T22:05:52Z"
  },
  {
   "base": "c77f0081a197eeaaf5589bc7ebe306b1cc5c9162",
