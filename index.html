@@ -4,7 +4,7 @@
 <title>ECMAScript Language Specification Comparator</title>
 <link href="./style/ecmarkup.css" rel="stylesheet">
 <link href="./style/base.css" rel="stylesheet">
-<link href="./style/compare.css?20200220d" rel="stylesheet">
+<link href="./style/compare.css?20200221a" rel="stylesheet">
 <script type="text/javascript" src="./js/compare.js?20200220c"></script>
 </head>
 <body onload="onBodyLoad()">
@@ -76,8 +76,10 @@
       </div>
     </div>
     <div id="scroller">
-      <div id="scroll-up" aria-label="Scroll up" role="button" onclick="onScrollUpClick()">⬆</div>
-      <div id="scroll-down" aria-label="Scroll down" role="button" onclick="onScrollDownClick()">⬇</div>
+      <div id="scroll-up" title="Previous diff" aria-label="Previous diff"
+           role="button" onclick="onScrollUpClick()">&#x2B06;</div>
+      <div id="scroll-down" title="Next diff" aria-label="Next diff"
+           role="button" onclick="onScrollDownClick()">&#x2B07;</div>
     </div>
   </header>
   <div id="result"></div>
