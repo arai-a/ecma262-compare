@@ -80,9 +80,9 @@
   "updated_at": "2020-02-12T17:36:13Z"
  },
  {
-  "base": "6b05bc56ba4e3c7a2b9922c4282d9eb844426d9b",
+  "base": "2431eb385e4315471abd33f710b4ed5644e1b002",
   "created_at": "2020-02-09T02:32:37Z",
-  "head": "3dd9e0ad5a110c92cf75efd248a7e386423f9b77",
+  "head": "f7b8c791fcb00ac075beecf612e134e670f1a9f4",
   "login": "jmdyck",
   "number": 1868,
   "ref": "annex_a_tweaks",
@@ -90,38 +90,30 @@
    {
     "adate": "2019-08-12T20:37:55-04:00",
     "author": "Michael Dyck",
-    "date": "2020-02-20T17:21:11-05:00",
-    "hash": "3dd9e0ad5a110c92cf75efd248a7e386423f9b77",
-    "parents": "e9b20caf2a19135b43a725bf72c8c2191a3669aa",
-    "subject": "Editorial: Fix mistake in para in Annex A"
+    "date": "2020-02-21T13:37:55-08:00",
+    "hash": "f7b8c791fcb00ac075beecf612e134e670f1a9f4",
+    "parents": "8f38443f15cae0162465cd82544a79bc0b715422",
+    "subject": "Editorial: Fix mistake in para in Annex A (#1868)"
    },
    {
     "adate": "2019-08-12T20:34:03-04:00",
     "author": "Michael Dyck",
-    "date": "2020-02-20T17:21:11-05:00",
-    "hash": "e9b20caf2a19135b43a725bf72c8c2191a3669aa",
-    "parents": "745cfc8c7ae988254250418719a7c3f9743157ea",
-    "subject": "Editorial: Move some <emu-prodref>s in Annex A"
-   },
-   {
-    "adate": "2019-08-11T10:27:19-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-02-20T17:21:11-05:00",
-    "hash": "745cfc8c7ae988254250418719a7c3f9743157ea",
-    "parents": "e4b25f62eb6b523407d761c4d87d490ef2cb38fa",
-    "subject": "Markup: Put quotes around unquoted attribute values"
+    "date": "2020-02-21T13:37:55-08:00",
+    "hash": "8f38443f15cae0162465cd82544a79bc0b715422",
+    "parents": "cdeb7cf6d9edcd27bfd7593573949919e1bda1ae",
+    "subject": "Editorial: Move some <emu-prodref>s in Annex A (#1868)"
    },
    {
     "adate": "2019-08-11T09:41:03-04:00",
     "author": "Michael Dyck",
-    "date": "2020-02-20T17:18:00-05:00",
-    "hash": "e4b25f62eb6b523407d761c4d87d490ef2cb38fa",
-    "parents": "6b05bc56ba4e3c7a2b9922c4282d9eb844426d9b",
-    "subject": "Editorial: Remove a few <emu-prodref>s from Annex A"
+    "date": "2020-02-21T13:37:55-08:00",
+    "hash": "cdeb7cf6d9edcd27bfd7593573949919e1bda1ae",
+    "parents": "2431eb385e4315471abd33f710b4ed5644e1b002",
+    "subject": "Editorial: Remove a few <emu-prodref>s from Annex A (#1868)"
    }
   ],
   "title": "Editorial: Annex A tweaks",
-  "updated_at": "2020-02-20T22:23:41Z"
+  "updated_at": "2020-02-21T21:38:54Z"
  },
  {
   "base": "787642ad2d159c8358a8782c9414f6d5fb6efa6f",
@@ -1594,26 +1586,6 @@
   ],
   "title": "Editorial: Remove assertion in InitializeBinding of Object Environment Record",
   "updated_at": "2019-11-13T05:25:30Z"
- },
- {
-  "base": "6b05bc56ba4e3c7a2b9922c4282d9eb844426d9b",
-  "created_at": "2019-08-07T10:05:41Z",
-  "head": "b28acc13b1046bb0b1e8b404b8a3b6a40d4be733",
-  "login": "claudepache",
-  "number": 1658,
-  "ref": "early-error-covering-assignment-pattern",
-  "revs": [
-   {
-    "adate": "2019-08-07T11:59:57+02:00",
-    "author": "Claude Pache",
-    "date": "2020-02-20T15:04:01-08:00",
-    "hash": "b28acc13b1046bb0b1e8b404b8a3b6a40d4be733",
-    "parents": "6b05bc56ba4e3c7a2b9922c4282d9eb844426d9b",
-    "subject": "Editorial: Refactor and correct Early Error rules for LeftHandSideExpression productions potentially covering an AssignmentPattern"
-   }
-  ],
-  "title": "Editorial: Add two missing Early Error rules for productions covering an AssignmentPattern",
-  "updated_at": "2020-02-20T23:05:42Z"
  },
  {
   "base": "8f0f69279b5f9e12ebe8f7052322b93d17e36b54",
