@@ -1331,7 +1331,7 @@ class Comparator {
       if (add === 0 && del === 0) {
         this.scroller.style.display = "none";
       } else {
-        this.scroller.style.display = "";
+        this.scroller.style.display = "block";
       }
 
       this.diffStat.textContent = `+${add} -${del}${note}`;

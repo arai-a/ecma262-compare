@@ -57,6 +57,7 @@
 
 #scroller {
     position: fixed;
+    display: none;
     top: 60px;
     right: 0px;
     width: 40px;
