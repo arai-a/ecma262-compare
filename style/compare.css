@@ -68,6 +68,10 @@
     background-color: white;
 }
 
+#scroll-up-container, #scroll-down-container {
+    position: relative;
+}
+
 #scroll-up, #scroll-down {
     display: block;
     width: 32px;
@@ -93,6 +97,29 @@
 #scroll-up:active, #scroll-down:active {
     opacity: 1;
     transform: scale(0.9);
+}
+
+#scroll-up-container:hover:before, #scroll-down-container:hover:before {
+    position: absolute;
+    right: 40px;
+    top: 4px;
+    width: 12em;
+    height: calc(1em + 8px);
+    background: white;
+    border-radius: 8px;
+    border: 1px solid #c0c0c0;
+    padding: 4px;
+    box-sizing: border-box;
+    font-size: 0.8em;
+    font-weight: normal;
+    line-height: 1em;
+    text-align: center;
+}
+#scroll-up-container:hover:before {
+    content: "Go to previous diff"
+}
+#scroll-down-container:hover:before {
+    content: "Go to next diff"
 }
 
 .htmldiff-add,
