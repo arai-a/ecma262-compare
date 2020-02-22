@@ -1,5 +1,25 @@
 [
  {
+  "base": "2431eb385e4315471abd33f710b4ed5644e1b002",
+  "created_at": "2020-02-22T18:37:40Z",
+  "head": "ffabc0fb14ba635a27588f8076eae6225115eede",
+  "login": "gibson042",
+  "number": 1879,
+  "ref": "gh-1878-InternalizeJSONProperty-reviver",
+  "revs": [
+   {
+    "adate": "2020-02-22T13:33:54-05:00",
+    "author": "Richard Gibson",
+    "date": "2020-02-22T13:34:01-05:00",
+    "hash": "ffabc0fb14ba635a27588f8076eae6225115eede",
+    "parents": "2431eb385e4315471abd33f710b4ed5644e1b002",
+    "subject": "Editorial: Update InternalizeJSONProperty to accept reviver explicitly"
+   }
+  ],
+  "title": "Editorial: Update InternalizeJSONProperty to accept reviver explicitly",
+  "updated_at": "2020-02-22T18:51:45Z"
+ },
+ {
   "base": "6b05bc56ba4e3c7a2b9922c4282d9eb844426d9b",
   "created_at": "2020-02-20T20:29:51Z",
   "head": "d94ed87e5b55b7b23b609487a682d50ccd13399d",
