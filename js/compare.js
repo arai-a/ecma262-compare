@@ -863,7 +863,7 @@ class Comparator {
   }
 
   getFirstParent(rev) {
-      return rev.parents.split(" ")[0];
+    return rev.parents.split(" ")[0];
   }
 
   async getJSON(path) {
@@ -1609,9 +1609,9 @@ class Comparator {
 
     const doc = document.documentElement;
     window.scrollBy({
+      behavior: "smooth",
       left: 0,
       top: bottom - doc.clientHeight,
-      behavior: "smooth",
     });
   }
 
@@ -1626,9 +1626,9 @@ class Comparator {
     this.highlightChanges(this.getChangesInsideNextScreen(top));
 
     window.scrollBy({
-      left: 0,
-      top: top,
       behavior: "smooth",
+      left: 0,
+      top,
     });
   }
 
