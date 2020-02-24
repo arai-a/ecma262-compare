@@ -3,6 +3,7 @@
 import argparse
 import distutils
 import distutils.dir_util
+import glob
 import json
 import os
 import re
@@ -174,7 +175,7 @@ class CacheChecker:
 
     @classmethod
     def has_new_pr(cls):
-        prs = cls.__prs_json()
+        prs = PRs.get_cache()
 
         newest_pr_number = None
 
@@ -195,16 +196,14 @@ class CacheChecker:
                 Logger.info('All PRs are cached')
         return result
 
+    @classmethod
     def is_rev_cached(sha):
-        revs = FileUtils.read_json(Paths.REVS_PATH)
+        revs = Revisions.get_cache()
         for rev in revs:
             if rev['hash'] == sha:
                 return True
 
         return False
-
-    def __prs_json():
-        return FileUtils.read_json(Paths.PRS_PATH)
 
     def __is_pr_cached_with(pr, prs):
         for prev_pr in prs:
@@ -214,7 +213,7 @@ class CacheChecker:
 
     @classmethod
     def is_pr_cached(cls, pr):
-        return cls.__is_pr_cached_with(pr, cls.__prs_json())
+        return cls.__is_pr_cached_with(pr, PRs.get_cache())
 
     def has_sections_json(rev):
         return os.path.exists(Paths.sections_path(rev['hash']))
@@ -487,12 +486,15 @@ class RevisionRenderer:
 
 
 class Revisions:
-    def update_list():
+    def get_cache():
+        return FileUtils.read_json(Paths.REVS_PATH)
+
+    def update_cache():
         revs = list(LocalRepository.revs(
             ['{}^..{}'.format(Config.FIRST_REV, 'origin/master')]))
 
         parents = set()
-        for pr in PRs.get():
+        for pr in PRs.get_cache():
             for parent in PRInfo.parents(pr):
                 parents.add(parent)
 
@@ -548,15 +550,18 @@ class Revisions:
 
 
 class PRs:
-    def get():
+    def __get():
         for data in RemoteRepository.prs():
             info_path = Paths.pr_info_path(data['number'])
             if os.path.exists(info_path):
                 yield FileUtils.read_json(info_path)
 
+    def get_cache():
+        return FileUtils.read_json(Paths.PRS_PATH)
+
     @classmethod
-    def update_list(cls):
-        prs = list(cls.get())
+    def update_cache(cls):
+        prs = list(cls.__get())
 
         prs_json = json.dumps(prs,
                               indent=1,
@@ -636,6 +641,61 @@ class Bootstrap:
             print('##[set-output name=update;]Yes')
 
 
+class GC:
+    def __get_sha(path):
+        return os.path.basename(path)
+
+    def __in_revs(sha, revs):
+        for rev in revs:
+            if rev['hash'] == sha:
+                return True
+        return False
+
+    def __get_prnum(path):
+        return int(os.path.basename(path))
+
+    def __get_pr(prnum, prs):
+        for pr in prs:
+            if pr['number'] == prnum:
+                return pr
+        return None
+
+    @classmethod
+    def run(cls):
+        revs = Revisions.get_cache()
+        prs = PRs.get_cache()
+
+        for rev_dir in glob.glob('./history/*'):
+            if rev_dir.endswith('/PR'):
+                continue
+            if rev_dir.endswith('/prs.json'):
+                continue
+            if rev_dir.endswith('/revs.json'):
+                continue
+
+            sha = cls.__get_sha(rev_dir)
+            if not cls.__in_revs(sha, revs):
+                print('R', rev_dir)
+                distutils.dir_util.remove_tree(rev_dir)
+
+        for pr_dir in glob.glob('./history/PR/*'):
+            prnum = cls.__get_prnum(pr_dir)
+            pr = cls.__get_pr(prnum, prs)
+            if pr is None:
+                print('R', pr_dir)
+                distutils.dir_util.remove_tree(pr_dir)
+                continue
+
+            for rev_dir in glob.glob('{}/*'.format(pr_dir)):
+                if rev_dir.endswith('/info.json'):
+                    continue
+
+                sha = cls.__get_sha(rev_dir)
+                if sha != pr['head']:
+                    print('R', rev_dir)
+                    distutils.dir_util.remove_tree(rev_dir)
+
+
 parser = argparse.ArgumentParser(description='Update ecma262 history data')
 
 parser.add_argument('--skip-cache', action='store_true',
@@ -667,6 +727,8 @@ subparsers.add_parser('prs',
                       help='Update prs.json')
 subparsers.add_parser('bootstrap',
                       help='Perform bootstrap for CI')
+subparsers.add_parser('gc',
+                      help='Remove obsolete revisions and closed PRs')
 args = parser.parse_args()
 
 if args.command == 'clone':
@@ -675,25 +737,27 @@ elif args.command == 'rev':
     if args.REV == 'all':
         updated = Revisions.update_all(args.c, args.skip_cache)
         if not args.skip_list and updated:
-            Revisions.update_list()
+            Revisions.update_cache()
     else:
         updated = Revisions.update(args.REV, args.skip_cache)
         if not args.skip_list and updated:
-            Revisions.update_list()
+            Revisions.update_cache()
 elif args.command == 'revs':
-    Revisions.update_list()
+    Revisions.update_cache()
 elif args.command == 'pr':
     if args.PR_NUMBER == 'all':
         updated = PRs.update_all(args.c, args.skip_cache)
         if not args.skip_list and updated:
-            PRs.update_list()
-            Revisions.update_list()
+            PRs.update_cache()
+            Revisions.update_cache()
     else:
         updated = PRs.update(int(args.PR_NUMBER), args.skip_cache)
         if not args.skip_list and updated:
-            PRs.update_list()
-            Revisions.update_list()
+            PRs.update_cache()
+            Revisions.update_cache()
 elif args.command == 'prs':
-    PRs.update_list()
+    PRs.update_cache()
 elif args.command == 'bootstrap':
     Bootstrap.run()
+elif args.command == 'gc':
+    GC.run()

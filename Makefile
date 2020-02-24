@@ -43,6 +43,9 @@ prs:
 bootstrap:
 	$(PYTHON) build.py bootstrap
 
+gc:
+	$(PYTHON) build.py gc
+
 lint-setup:
 	npm install
 
