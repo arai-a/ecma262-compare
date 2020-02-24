@@ -2,11 +2,19 @@
  {
   "base": "2431eb385e4315471abd33f710b4ed5644e1b002",
   "created_at": "2020-02-23T11:05:41Z",
-  "head": "161b02cb1092ae16e42a42ec131b3118142149d7",
+  "head": "147c4d90f0ee135b7b3ce16032b04fe1bdbc3c91",
   "login": "uhyo",
   "number": 1881,
   "ref": "fix-operator",
   "revs": [
+   {
+    "adate": "2020-02-24T14:04:01+09:00",
+    "author": "uhyo",
+    "date": "2020-02-24T14:06:45+09:00",
+    "hash": "147c4d90f0ee135b7b3ce16032b04fe1bdbc3c91",
+    "parents": "161b02cb1092ae16e42a42ec131b3118142149d7",
+    "subject": "Update spec.html"
+   },
    {
     "adate": "2020-02-23T19:47:34+09:00",
     "author": "uhyo",
@@ -17,7 +25,7 @@
    }
   ],
   "title": "Editorial: fix misleading uses of 'operator'",
-  "updated_at": "2020-02-23T11:05:41Z"
+  "updated_at": "2020-02-24T05:10:59Z"
  },
  {
   "base": "2431eb385e4315471abd33f710b4ed5644e1b002",
