@@ -1994,11 +1994,19 @@
  {
   "base": "6b05bc56ba4e3c7a2b9922c4282d9eb844426d9b",
   "created_at": "2019-06-20T14:18:13Z",
-  "head": "fc1de7e4b091394cf6394d36e75cbd76db6f6146",
+  "head": "ad280011412ba3a0b910845422fe0910f19c493d",
   "login": "littledan",
   "number": 1597,
   "ref": "enqueue-promise-job",
   "revs": [
+   {
+    "adate": "2020-02-21T23:37:01+01:00",
+    "author": "Daniel Ehrenberg",
+    "date": "2020-02-21T23:37:01+01:00",
+    "hash": "ad280011412ba3a0b910845422fe0910f19c493d",
+    "parents": "fc1de7e4b091394cf6394d36e75cbd76db6f6146",
+    "subject": "Editorial: Explain generality of comment"
+   },
    {
     "adate": "2020-02-20T21:19:23+01:00",
     "author": "Daniel Ehrenberg",
@@ -2033,7 +2041,7 @@
    }
   ],
   "title": "Layering: Allow hosts to cleanly specify Promise Job semantics",
-  "updated_at": "2020-02-20T20:20:20Z"
+  "updated_at": "2020-02-24T21:49:16Z"
  },
  {
   "base": "e3707ac9e14b75b9513d6b09c394dee6473c5ddf",
