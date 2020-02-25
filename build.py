@@ -196,7 +196,6 @@ class CacheChecker:
                 Logger.info('All PRs are cached')
         return result
 
-    @classmethod
     def is_rev_cached(sha):
         revs = Revisions.get_cache()
         for rev in revs:
