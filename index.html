@@ -4,8 +4,8 @@
 <title>ECMAScript Language Specification Comparator</title>
 <link href="./style/ecmarkup.css" rel="stylesheet">
 <link href="./style/base.css" rel="stylesheet">
-<link href="./style/compare.css?20200221c" rel="stylesheet">
-<script type="text/javascript" src="./js/compare.js?20200221c"></script>
+<link href="./style/compare.css?20200226a" rel="stylesheet">
+<script type="text/javascript" src="./js/compare.js?20200226a"></script>
 </head>
 <body onload="onBodyLoad()">
 <div id="container">
@@ -20,6 +20,14 @@
       <a href="https://github.com/arai-a/ecma262-compare"><img src="./img/github.png" alt="GitHub repository" title="GitHub repository"></a>
     </div>
     <div id="controller">
+      <label id="search-label" class="filter-label" for="search">Search</label>
+      <div id="search-container" class="filter-container">
+        <input id="search" name="revs-and-prs-search" type="text"
+               list="revs-and-prs-list"
+               oninput="onSearchInput()"
+               onkeydown="onSearchKeyDown(event)">
+        <datalist id="revs-and-prs-list"></datalist>
+      </div>
       <label id="pr-filter-label" class="filter-label" for="pr-filter">PR</label>
       <div id="pr-filter-container" class="filter-container">
         <select id="pr-filter" onchange="onPRFilterChange()"></select>
@@ -62,7 +70,7 @@
       <label class="filter-label" for="sec-list">Section(s)</label>
       <div class="filter-container">
         <select id="sec-list" onchange="onSecListChange()"></select>
-        <span id="search-hit"></span>
+        <span id="sec-hit"></span>
       </div>
     </div>
     <div id="tabs">

@@ -6,15 +6,21 @@
     grid-template-columns: 8em 1fr;
 }
 
+#search-label,
 #pr-filter-label,
 #rev-filter-label,
 #to-rev-label {
     border-bottom: 1px solid #c0c0c0;
 }
+#search-container,
 #pr-filter-container,
 #rev-filter-container,
 #to-rev-container {
     border-bottom: 1px solid #c0c0c0;
+}
+
+#search {
+    width: calc(100% - 44px);
 }
 
 .filter-label {

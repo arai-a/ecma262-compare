@@ -820,7 +820,7 @@ class Comparator {
     this.toLink = document.getElementById("to-history-link");
     this.result = document.getElementById("result");
     this.diffStat = document.getElementById("diff-stat");
-    this.searchHit = document.getElementById("search-hit");
+    this.secHit = document.getElementById("sec-hit");
     this.viewDiff = document.getElementById("view-diff");
     this.viewFrom = document.getElementById("view-from");
     this.viewTo = document.getElementById("view-to");
@@ -830,6 +830,10 @@ class Comparator {
     this.workBoxContainer = document.getElementById("work-box-container");
     this.treeDiff = document.getElementById("tree-diff");
     this.scroller = document.getElementById("scroller");
+    this.searchField = document.getElementById("search");
+    this.revsAndPRsList = document.getElementById("revs-and-prs-list");
+    this.revsAndPRs = [];
+    this.revsAndPRsMap = {};
 
     this.currentHash = "";
   }
@@ -876,6 +880,9 @@ class Comparator {
     this.populateRevs(this.revFilter);
     this.populateAllRevs(this.fromRev);
     this.populateAllRevs(this.toRev);
+    this.populateRevsAndPRs(this.revsAndPRsList,
+                            this.revsAndPRs,
+                            this.revsAndPRsMap);
   }
 
   populatePRs(menu) {
@@ -897,7 +904,7 @@ class Comparator {
       if (title.length > maxTitleLength) {
         title = title.slice(0, maxTitleLength - 1) + "\u2026";
       }
-      opt.textContent = `#${pr.number}: ${title} (by ${pr.login})`;
+      opt.textContent = `#${pr.number}: ${title} (${pr.login}/${pr.ref})`;
       menu.appendChild(opt);
     }
 
@@ -944,6 +951,30 @@ class Comparator {
       opt.value = this.prToOptValue(pr);
       opt.textContent = `${pr.head} (PR ${pr.number} by ${pr.login})`;
       menu.appendChild(opt);
+    }
+  }
+
+  populateRevsAndPRs(list, revsAndPRs, map) {
+    for (const pr of this.prs) {
+      const value = `#${pr.number}`;
+      const label = `#${pr.number}: ${pr.title} (${pr.login}/${pr.ref}, head=${pr.head})`;
+      revsAndPRs.push({ value, label });
+      map[label] = value;
+
+      const opt = document.createElement("option");
+      opt.textContent = label;
+      list.appendChild(opt);
+    }
+
+    for (const rev of this.revs) {
+      const value = rev.hash;
+      const label = `${rev.hash} (${DateUtils.toReadable(rev.date)})`;
+      revsAndPRs.push({ value, label });
+      map[label] = value;
+
+      const opt = document.createElement("option");
+      opt.textContent = label;
+      list.appendChild(opt);
     }
   }
 
@@ -1120,7 +1151,7 @@ class Comparator {
     ]);
     this.diffStat.textContent = "";
 
-    this.searchHit.textContent = "";
+    this.secHit.textContent = "";
 
     while (this.secList.firstChild) {
       this.secList.firstChild.remove();
@@ -1247,7 +1278,7 @@ class Comparator {
       return true;
     });
 
-    this.searchHit.textContent = `${count - 1} section(s) found`;
+    this.secHit.textContent = `${count - 1} section(s) found`;
   }
 
   updateURL() {
@@ -1703,6 +1734,64 @@ class Comparator {
       }
     }, 500);
   }
+
+  async onSearchKeyDown(event) {
+    if (event.key != "Enter") {
+      return;
+    }
+
+    const query = this.searchField.value.trim();
+
+    // First, check PR number
+    {
+      const m = query.match(/^#?(\d+)/);
+      if (m) {
+        const prnum = parseInt(m[1]);
+        for (const pr of this.prs) {
+          if (pr.number == prnum) {
+            this.prFilter.value = prnum;
+            await this.onPRFilterChange();
+            return;
+          }
+        }
+      }
+    }
+
+    if (query in this.revsAndPRsMap) {
+      const value = this.revsAndPRsMap[query];
+      await this.onSelectSearchList(value);
+      return;
+    }
+
+    // Check all substring match
+    {
+      for (const { label, value } of this.revsAndPRs) {
+        if (label.includes(query)) {
+          await this.onSelectSearchList(value);
+          return;
+        }
+      }
+    }
+  }
+
+  async onSelectSearchList(value) {
+    if (value.startsWith("#")) {
+      this.prFilter.value = value.slice(1);
+      await this.onPRFilterChange();
+    } else {
+      this.revFilter.value = value;
+      await onRevFilterChange();
+    }
+  }
+
+  async onSearchInput() {
+    const query = this.searchField.value.trim();
+    if (query in this.revsAndPRsMap) {
+      const value = this.revsAndPRsMap[query];
+      await this.onSelectSearchList(value);
+      return;
+    }
+  }
 }
 
 let comparator;
@@ -1756,6 +1845,17 @@ function onScrollUpClick() {
 /* exported onScrollDownClick */
 function onScrollDownClick() {
   comparator.onScrollDownClick();
+}
+
+/* exported onSearchKeyDown */
+function onSearchKeyDown(e) {
+  comparator.onSearchKeyDown(e);
+  return false;
+}
+
+/* exported onSearchInput */
+function onSearchInput() {
+  comparator.onSearchInput();
 }
 
 window.addEventListener("hashchange", () => {
