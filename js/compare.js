@@ -344,13 +344,8 @@ class HTMLPathDiff {
     const diff = [];
 
     for (let i = len1, j = len2; i > 0 || j > 0;) {
-      if (i > 0 && j > 0 && C[i][j] === C[i - 1][j - 1]) {
-        diff.push({
-          item: seq2[j - 1],
-          op: "+",
-        });
-        j--;
-      } else if (j > 0 && C[i][j] === C[i][j - 1]) {
+      if ((i > 0 && j > 0 && C[i][j] === C[i - 1][j - 1]) ||
+          (j > 0 && C[i][j] === C[i][j - 1])) {
         diff.push({
           item: seq2[j - 1],
           op: "+",
@@ -662,7 +657,15 @@ class HTMLTreeDiff {
 
     const maxScore = Math.max(len1, len2);
 
-    return C[len1][len2] / maxScore;
+    // NOTE: the best score is 1 and the worst score is 0.
+    const score = C[len1][len2] / maxScore;
+    const THRESHOLD = 0.2;
+    // FIXME: The threshold should be dependent to the number of texts
+    //        (issue #37)
+    if (score < THRESHOLD) {
+      return 0;
+    }
+    return score;
   }
 
   LCSToDiff(parent, node1, node2) {
@@ -711,10 +714,8 @@ class HTMLTreeDiff {
 
     const C = this.LCSMapMap.get(node1).get(node2);
 
-    const THRESHOLD = 0.1;
-
     for (let i = len1, j = len2; i > 0 || j > 0;) {
-      if ((i > 0 && j > 0 && C[i][j] - C[i - 1][j - 1] < THRESHOLD) ||
+      if ((i > 0 && j > 0 && C[i][j] === C[i - 1][j - 1]) ||
           (j > 0 && C[i][j] === C[i][j - 1])) {
         this.prependChildIns(parent, node2.childNodes[j - 1].cloneNode(true));
         j--;
