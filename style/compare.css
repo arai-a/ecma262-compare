@@ -123,10 +123,10 @@
     text-align: center;
 }
 #scroll-up-container:hover:before {
-    content: "Go to previous diff"
+    content: "Scroll to previous diff"
 }
 #scroll-down-container:hover:before {
-    content: "Go to next diff"
+    content: "Scroll to next diff"
 }
 
 .htmldiff-add,
