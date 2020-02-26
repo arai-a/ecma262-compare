@@ -825,7 +825,7 @@ class HTMLTreeDiff {
         }
 
         const next = child.nextSibling;
-        if (next.getAttribute("tree-diff-num") != num) {
+        if (next.getAttribute("tree-diff-num") !== num) {
           break;
         }
 
@@ -899,6 +899,8 @@ class Comparator {
     this.revsAndPRsList = document.getElementById("revs-and-prs-list");
     this.revsAndPRs = [];
     this.revsAndPRsMap = {};
+
+    this.currentQuery = "";
   }
 
   async run() {
@@ -1374,10 +1376,13 @@ class Comparator {
     }
 
     const query = `?${params.join("&")}`;
-    window.history.pushState(
-      {},
-      document.title,
-      window.location.origin + window.location.pathname + query);
+    if (query !== this.currentQuery) {
+      this.currentQuery = query;
+      window.history.pushState(
+        {},
+        document.title,
+        window.location.origin + window.location.pathname + query);
+    }
   }
 
   async compare() {
@@ -1792,7 +1797,7 @@ class Comparator {
   }
 
   async onSearchKeyDown(event) {
-    if (event.key != "Enter") {
+    if (event.key !== "Enter") {
       return;
     }
 
@@ -1804,7 +1809,7 @@ class Comparator {
       if (m) {
         const prnum = parseInt(m[1]);
         for (const pr of this.prs) {
-          if (pr.number == prnum) {
+          if (pr.number === prnum) {
             this.prFilter.value = prnum;
             await this.onPRFilterChange();
             return;
@@ -1844,6 +1849,18 @@ class Comparator {
       const value = this.revsAndPRsMap[query];
       await this.onSelectSearchList(value);
     }
+  }
+
+  async onPopState() {
+    if (window.location.search === this.currentQuery) {
+      return;
+    }
+    this.currentQuery = window.location.search;
+
+    await this.parseQuery();
+    this.updateHistoryLink();
+    this.updateRevInfo();
+    this.updateURL();
   }
 }
 
@@ -1902,11 +1919,15 @@ function onScrollDownClick() {
 
 /* exported onSearchKeyDown */
 function onSearchKeyDown(e) {
-  comparator.onSearchKeyDown(e);
+  comparator.onSearchKeyDown(e).catch(e => console.error(e));
   return false;
 }
 
 /* exported onSearchInput */
 function onSearchInput() {
-  comparator.onSearchInput();
+  comparator.onSearchInput().catch(e => console.error(e));
 }
+
+window.addEventListener("popstate", event => {
+  comparator.onPopState().catch(e => console.error(e));
+});
