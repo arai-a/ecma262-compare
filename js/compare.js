@@ -360,6 +360,7 @@ class HTMLPathDiff {
       } else {
         diff.push({
           item: seq1[i - 1],
+          item2: seq2[j - 1],
           op: " ",
         });
         i--;
@@ -490,7 +491,7 @@ class HTMLPathDiff {
           splitSeq1.push(d.item);
           prevStackDepth1 = d.item.path.length;
 
-          splitSeq2.push(d.item);
+          splitSeq2.push(d.item2);
           prevStackDepth2 = d.item.path.length;
           break;
         }
@@ -537,6 +538,14 @@ class HTMLTreeDiff {
   }
 
   diff(diffNode, node1, node2) {
+    this.addNumbering("1-", node1);
+    this.addNumbering("2-", node2);
+
+    const [html1, html2] = HTMLPathDiff.splitForDiff(
+      node1.innerHTML, node2.innerHTML);
+    node1.innerHTML = html1;
+    node2.innerHTML = html2;
+
     this.LCSMapMap = new Map();
 
     this.removeUnnecessaryText(node1);
@@ -548,6 +557,18 @@ class HTMLTreeDiff {
     this.LCS(node1, node2);
 
     this.LCSToDiff(diffNode, node1, node2);
+
+    this.combineNodes(diffNode);
+
+    this.removeNumbering(diffNode);
+  }
+
+  addNumbering(prefix, node) {
+    let i = 0;
+    for (const child of node.getElementsByTagName("*")) {
+      child.setAttribute("tree-diff-num", prefix + i);
+      i++;
+    }
   }
 
   removeUnnecessaryText(node) {
@@ -779,6 +800,49 @@ class HTMLTreeDiff {
     del.classList.add("htmldiff-change");
     del.appendChild(node);
     return del;
+  }
+
+  combineNodes(node) {
+    const removedNodes = new Set();
+
+    for (const child of [...node.getElementsByTagName("*")]) {
+      if (removedNodes.has(child)) {
+        continue;
+      }
+
+      if (!child.hasAttribute("tree-diff-num")) {
+        continue;
+      }
+
+      const num = child.getAttribute("tree-diff-num");
+      while (true) {
+        if (!child.nextSibling) {
+          break;
+        }
+
+        if (!(child.nextSibling instanceof Element)) {
+          break;
+        }
+
+        const next = child.nextSibling;
+        if (next.getAttribute("tree-diff-num") != num) {
+          break;
+        }
+
+        while (next.firstChild) {
+          child.appendChild(next.firstChild);
+        }
+
+        removedNodes.add(next);
+        next.remove();
+      }
+    }
+  }
+
+  removeNumbering(node) {
+    for (const child of node.getElementsByTagName("*")) {
+      child.removeAttribute("tree-diff-num");
+    }
   }
 }
 
@@ -1499,12 +1563,6 @@ class Comparator {
 
     if (fromHTML !== null && toHTML !== null) {
       if (this.treeDiff.checked) {
-        fromHTML = workBoxFrom.innerHTML;
-        toHTML = workBoxTo.innerHTML;
-        [fromHTML, toHTML] = HTMLPathDiff.splitForDiff(fromHTML, toHTML);
-        workBoxFrom.innerHTML = fromHTML;
-        workBoxTo.innerHTML = toHTML;
-
         new HTMLTreeDiff().diff(box, workBoxFrom, workBoxTo);
       } else {
         fromHTML = workBoxFrom.innerHTML;
