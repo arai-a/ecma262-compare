@@ -1480,8 +1480,6 @@ class Comparator {
   }
 
   createDiff(box, fromHTML, toHTML) {
-    const diffMode = fromHTML !== null && toHTML !== null;
-
     const workBoxFrom = document.createElement("div");
     this.workBoxContainer.appendChild(workBoxFrom);
     const workBoxTo = document.createElement("div");
@@ -1499,24 +1497,28 @@ class Comparator {
       this.removeExcludedContent(workBoxTo);
     }
 
-    if (this.treeDiff.checked) {
-      if (diffMode) {
+    if (fromHTML !== null && toHTML !== null) {
+      if (this.treeDiff.checked) {
         fromHTML = workBoxFrom.innerHTML;
         toHTML = workBoxTo.innerHTML;
         [fromHTML, toHTML] = HTMLPathDiff.splitForDiff(fromHTML, toHTML);
         workBoxFrom.innerHTML = fromHTML;
         workBoxTo.innerHTML = toHTML;
+
+        new HTMLTreeDiff().diff(box, workBoxFrom, workBoxTo);
+      } else {
+        fromHTML = workBoxFrom.innerHTML;
+        toHTML = workBoxTo.innerHTML;
+
+        box.innerHTML = HTMLPathDiff.diff(fromHTML, toHTML);
+
+        workBoxFrom.remove();
+        workBoxTo.remove();
       }
-
-      new HTMLTreeDiff().diff(box, workBoxFrom, workBoxTo);
-    } else {
-      fromHTML = workBoxFrom.innerHTML;
-      toHTML = workBoxTo.innerHTML;
-
-      box.innerHTML = HTMLPathDiff.diff(fromHTML, toHTML);
-
-      workBoxFrom.remove();
-      workBoxTo.remove();
+    } else if (fromHTML !== null) {
+      box.innerHTML = fromHTML;
+    } else if (toHTML !== null) {
+      box.innerHTML = toHTML;
     }
   }
 
