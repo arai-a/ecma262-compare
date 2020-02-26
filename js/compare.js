@@ -878,9 +878,8 @@ class Comparator {
     this.populateRevs(this.revFilter);
     this.populateAllRevs(this.fromRev);
     this.populateAllRevs(this.toRev);
-    this.populateRevsAndPRs(this.revsAndPRsList,
-                            this.revsAndPRs,
-                            this.revsAndPRsMap);
+    this.populateRevsAndPRs(
+      this.revsAndPRsList, this.revsAndPRs, this.revsAndPRsMap);
   }
 
   populatePRs(menu) {
@@ -956,7 +955,7 @@ class Comparator {
     for (const pr of this.prs) {
       const value = `#${pr.number}`;
       const label = `#${pr.number}: ${pr.title} (${pr.login}/${pr.ref}, head=${pr.head})`;
-      revsAndPRs.push({ value, label });
+      revsAndPRs.push({ label, value });
       map[label] = value;
 
       const opt = document.createElement("option");
@@ -967,7 +966,7 @@ class Comparator {
     for (const rev of this.revs) {
       const value = rev.hash;
       const label = `${rev.hash} (${DateUtils.toReadable(rev.date)})`;
-      revsAndPRs.push({ value, label });
+      revsAndPRs.push({ label, value });
       map[label] = value;
 
       const opt = document.createElement("option");
@@ -1310,11 +1309,10 @@ class Comparator {
     }
 
     const query = `?${params.join("&")}`;
-    window.history.pushState({},
-                             document.title,
-                             window.location.origin
-                             + window.location.pathname
-                             + query);
+    window.history.pushState(
+      {},
+      document.title,
+      window.location.origin + window.location.pathname + query);
   }
 
   async compare() {
@@ -1761,12 +1759,10 @@ class Comparator {
     }
 
     // Check all substring match
-    {
-      for (const { label, value } of this.revsAndPRs) {
-        if (label.includes(query)) {
-          await this.onSelectSearchList(value);
-          return;
-        }
+    for (const { label, value } of this.revsAndPRs) {
+      if (label.includes(query)) {
+        await this.onSelectSearchList(value);
+        return;
       }
     }
   }
@@ -1786,7 +1782,6 @@ class Comparator {
     if (query in this.revsAndPRsMap) {
       const value = this.revsAndPRsMap[query];
       await this.onSelectSearchList(value);
-      return;
     }
   }
 }
