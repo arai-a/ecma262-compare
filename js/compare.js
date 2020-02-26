@@ -834,8 +834,6 @@ class Comparator {
     this.revsAndPRsList = document.getElementById("revs-and-prs-list");
     this.revsAndPRs = [];
     this.revsAndPRsMap = {};
-
-    this.currentHash = "";
   }
 
   async run() {
@@ -1007,7 +1005,13 @@ class Comparator {
   }
 
   async parseQuery() {
-    const query = window.location.hash.slice(1);
+    let query = window.location.search.slice(1);
+
+    if (!query) {
+      // Backward compat
+      query = window.location.hash.slice(1);
+    }
+
     const items = query.split("&");
     const queryParams = {};
     for (const item of items) {
@@ -1305,8 +1309,12 @@ class Comparator {
       }
     }
 
-    this.currentHash = `#${params.join("&")}`;
-    window.location.hash = this.currentHash;
+    const query = `?${params.join("&")}`;
+    window.history.pushState({},
+                             document.title,
+                             window.location.origin
+                             + window.location.pathname
+                             + query);
   }
 
   async compare() {
@@ -1613,17 +1621,6 @@ class Comparator {
     await this.compare();
   }
 
-  async onHashChange() {
-    if (window.location.hash === this.currentHash) {
-      return;
-    }
-
-    await this.parseQuery();
-    this.updateHistoryLink();
-    this.updateRevInfo();
-    this.updateURL();
-  }
-
   async onTreeDiffChange() {
     await this.compare();
   }
@@ -1857,7 +1854,3 @@ function onSearchKeyDown(e) {
 function onSearchInput() {
   comparator.onSearchInput();
 }
-
-window.addEventListener("hashchange", () => {
-  comparator.onHashChange().catch(e => console.error(e));
-});
