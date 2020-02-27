@@ -1346,9 +1346,15 @@ class Comparator {
       }
 
       return true;
-    });
+    }) - 1;
 
-    this.secHit.textContent = `${count - 1} section(s) found`;
+    if (count == 0) {
+      this.secHit.textContent = `No difference (changes in markup or something)`;
+    } else if (count == 1) {
+      this.secHit.textContent = `${count} section found`;
+    } else {
+      this.secHit.textContent = `${count} sections found`;
+    }
   }
 
   updateURL() {
@@ -1928,6 +1934,6 @@ function onSearchInput() {
   comparator.onSearchInput().catch(e => console.error(e));
 }
 
-window.addEventListener("popstate", event => {
+window.addEventListener("popstate", () => {
   comparator.onPopState().catch(e => console.error(e));
 });
