@@ -1032,7 +1032,7 @@ class Comparator {
 
     for (const rev of this.revs) {
       const value = rev.hash;
-      const label = `${rev.hash} (${DateUtils.toReadable(rev.date)})`;
+      const label = `${rev.hash} (${DateUtils.toReadable(rev.date)}) ${rev.subject}`;
       revsAndPRs.push({ label, value });
       map[label] = value;
 
