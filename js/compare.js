@@ -1580,15 +1580,15 @@ class Comparator {
         toHTML = workBoxTo.innerHTML;
 
         box.innerHTML = HTMLPathDiff.diff(fromHTML, toHTML);
-
-        workBoxFrom.remove();
-        workBoxTo.remove();
       }
     } else if (fromHTML !== null) {
       box.innerHTML = fromHTML;
     } else if (toHTML !== null) {
       box.innerHTML = toHTML;
     }
+
+    workBoxFrom.remove();
+    workBoxTo.remove();
   }
 
   removeExcludedContent(box) {
