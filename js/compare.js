@@ -603,11 +603,21 @@ class HTMLTreeDiff {
     for (const textNode of textNodes) {
       let currentNode = textNode;
       while (true) {
-        const index = currentNode.textContent.search(/\s[^\s]/);
-        if (index === -1) {
+        const spaceIndex = currentNode.textContent.search(/\s[^\s]/);
+        const punctIndex = currentNode.textContent.search(/[\.,:;?!\-_()\[\]]/);
+        if (spaceIndex === -1 && punctIndex === -1) {
           break;
         }
-        currentNode = currentNode.splitText(index + 1);
+
+        if (punctIndex !== -1 && (spaceIndex === -1 || punctIndex < spaceIndex)) {
+          if (punctIndex > 0) {
+            currentNode = currentNode.splitText(punctIndex);
+            console.log(`@(${spaceIndex},${punctIndex}) ${currentNode.textContent}`);
+          }
+          currentNode = currentNode.splitText(1);
+        } else {
+          currentNode = currentNode.splitText(spaceIndex + 1);
+        }
       }
     }
   }
