@@ -560,6 +560,12 @@ class HTMLTreeDiff {
 
     this.combineNodes(diffNode);
 
+    // `LCSToDiff` always places `ins` after `del`, but `combineNodes` can
+    // merge 2 nodes where first one ends with `ins` and the second one starts
+    // with `del`.
+    // Fix up the order here.
+    this.swapInsDel(diffNode);
+
     this.removeNumbering(diffNode);
   }
 
@@ -769,6 +775,17 @@ class HTMLTreeDiff {
   }
 
   prependChildIns(parent, node) {
+    if (node.nodeName.toLowerCase() == "li") {
+      const newNode = node.cloneNode(false);
+      const ins = this.createIns();
+      while (node.firstChild) {
+        ins.appendChild(node.firstChild);
+      }
+      newNode.appendChild(ins);
+      this.prependChild(parent, newNode);
+      return;
+    }
+
     if (parent.firstChild &&
         parent.firstChild.nodeName.toLowerCase() === "ins") {
       this.prependChild(parent.firstChild, node);
@@ -778,6 +795,17 @@ class HTMLTreeDiff {
   }
 
   prependChildDel(parent, node) {
+    if (node.nodeName.toLowerCase() == "li") {
+      const newNode = node.cloneNode(false);
+      const del = this.createDel();
+      while (node.firstChild) {
+        del.appendChild(node.firstChild);
+      }
+      newNode.appendChild(del);
+      this.prependChild(parent, newNode);
+      return;
+    }
+
     if (parent.firstChild &&
         parent.firstChild.nodeName.toLowerCase() === "del") {
       this.prependChild(parent.firstChild, node);
@@ -787,18 +815,28 @@ class HTMLTreeDiff {
   }
 
   toIns(node) {
-    const ins = document.createElement("ins");
-    ins.classList.add("htmldiff-add");
-    ins.classList.add("htmldiff-change");
+    const ins = this.createIns();
     ins.appendChild(node);
     return ins;
   }
 
+  createIns() {
+    const ins = document.createElement("ins");
+    ins.classList.add("htmldiff-add");
+    ins.classList.add("htmldiff-change");
+    return ins;
+  }
+
   toDel(node) {
+    const del = this.createDel();
+    del.appendChild(node);
+    return del;
+  }
+
+  createDel(node) {
     const del = document.createElement("del");
     del.classList.add("htmldiff-del");
     del.classList.add("htmldiff-change");
-    del.appendChild(node);
     return del;
   }
 
@@ -838,6 +876,23 @@ class HTMLTreeDiff {
       }
     }
   }
+
+  swapInsDel(node) {
+    for (const child of [...node.getElementsByClassName("htmldiff-add")]) {
+      if (!child.nextSibling) {
+        continue;
+      }
+
+      if (!(child.nextSibling instanceof Element)) {
+        continue;
+      }
+
+      if (child.nextSibling.classList.contains("htmldiff-del")) {
+        child.before(child.nextSibling);
+      }
+    }
+  }
+
 
   removeNumbering(node) {
     for (const child of node.getElementsByTagName("*")) {
