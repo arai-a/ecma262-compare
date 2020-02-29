@@ -786,7 +786,7 @@ class HTMLTreeDiff {
 
   prependChildIns(parent, node) {
     const name = node.nodeName.toLowerCase();
-    if (name == "li") {
+    if (name === "li") {
       const newNode = node.cloneNode(false);
       while (node.lastChild) {
         const child = node.lastChild;
@@ -807,7 +807,7 @@ class HTMLTreeDiff {
 
   prependChildDel(parent, node) {
     const name = node.nodeName.toLowerCase();
-    if (name == "li") {
+    if (name === "li") {
       const newNode = node.cloneNode(false);
       while (node.lastChild) {
         const child = node.lastChild;
@@ -1415,9 +1415,9 @@ class Comparator {
       return true;
     }) - 1;
 
-    if (count == 0) {
+    if (count === 0) {
       this.secHit.textContent = `No difference (changes in markup or something)`;
-    } else if (count == 1) {
+    } else if (count === 1) {
       this.secHit.textContent = `${count} section found`;
     } else {
       this.secHit.textContent = `${count} sections found`;
