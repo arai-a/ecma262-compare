@@ -655,6 +655,17 @@ class HTMLTreeDiff {
 
     const len1 = node1.childNodes.length;
     const len2 = node2.childNodes.length;
+
+    if (len1 === 0) {
+      if (len2 === 0) {
+        return 1;
+      }
+      return 0;
+    }
+    if (len2 === 0) {
+      return 0;
+    }
+
     const C = new Array(len1 + 1);
     for (let i = 0; i < len1 + 1; i++) {
       C[i] = new Array(len2 + 1);
@@ -672,16 +683,6 @@ class HTMLTreeDiff {
       const m = new Map();
       m.set(node2, C);
       this.LCSMapMap.set(node1, m);
-    }
-
-    if (node1.childNodes.length === 0) {
-      if (node2.childNodes.length === 0) {
-        return 1;
-      }
-      return 0;
-    }
-    if (node2.childNodes.length === 0) {
-      return 0;
     }
 
     for (let i = 1; i < len1 + 1; i++) {
@@ -730,8 +731,11 @@ class HTMLTreeDiff {
       return;
     }
 
-    if (node1.childNodes.length === 0) {
-      if (node2.childNodes.length === 0) {
+    const len1 = node1.childNodes.length;
+    const len2 = node2.childNodes.length;
+
+    if (len1 === 0) {
+      if (len2 === 0) {
         this.prependChild(parent, node2.cloneNode(true));
         return;
       }
@@ -739,14 +743,11 @@ class HTMLTreeDiff {
       this.prependChildDel(parent, node1.cloneNode(true));
       return;
     }
-    if (node2.childNodes.length === 0) {
+    if (len2 === 0) {
       this.prependChildIns(parent, node2.cloneNode(true));
       this.prependChildDel(parent, node1.cloneNode(true));
       return;
     }
-
-    const len1 = node1.childNodes.length;
-    const len2 = node2.childNodes.length;
 
     const C = this.LCSMapMap.get(node1).get(node2);
 
