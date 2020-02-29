@@ -604,7 +604,7 @@ class HTMLTreeDiff {
       let currentNode = textNode;
       while (true) {
         const spaceIndex = currentNode.textContent.search(/\s[^\s]/);
-        const punctIndex = currentNode.textContent.search(/[\.,:;?!\-_()\[\]]/);
+        const punctIndex = currentNode.textContent.search(/[.,:;?!\-_()[\]]/);
         if (spaceIndex === -1 && punctIndex === -1) {
           break;
         }
@@ -845,7 +845,7 @@ class HTMLTreeDiff {
     return del;
   }
 
-  createDel(node) {
+  createDel() {
     const del = document.createElement("del");
     del.classList.add("htmldiff-del");
     del.classList.add("htmldiff-change");
