@@ -785,13 +785,14 @@ class HTMLTreeDiff {
   }
 
   prependChildIns(parent, node) {
-    if (node.nodeName.toLowerCase() == "li") {
+    const name = node.nodeName.toLowerCase();
+    if (name == "li") {
       const newNode = node.cloneNode(false);
-      const ins = this.createIns();
-      while (node.firstChild) {
-        ins.appendChild(node.firstChild);
+      while (node.lastChild) {
+        const child = node.lastChild;
+        child.remove();
+        this.prependChildIns(newNode, child);
       }
-      newNode.appendChild(ins);
       this.prependChild(parent, newNode);
       return;
     }
@@ -805,13 +806,14 @@ class HTMLTreeDiff {
   }
 
   prependChildDel(parent, node) {
-    if (node.nodeName.toLowerCase() == "li") {
+    const name = node.nodeName.toLowerCase();
+    if (name == "li") {
       const newNode = node.cloneNode(false);
-      const del = this.createDel();
-      while (node.firstChild) {
-        del.appendChild(node.firstChild);
+      while (node.lastChild) {
+        const child = node.lastChild;
+        child.remove();
+        this.prependChildDel(newNode, child);
       }
-      newNode.appendChild(del);
       this.prependChild(parent, newNode);
       return;
     }
