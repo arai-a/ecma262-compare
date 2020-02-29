@@ -612,7 +612,6 @@ class HTMLTreeDiff {
         if (punctIndex !== -1 && (spaceIndex === -1 || punctIndex < spaceIndex)) {
           if (punctIndex > 0) {
             currentNode = currentNode.splitText(punctIndex);
-            console.log(`@(${spaceIndex},${punctIndex}) ${currentNode.textContent}`);
           }
           currentNode = currentNode.splitText(1);
         } else {
