@@ -123,7 +123,7 @@ class ListMarkUtils {
   }
 }
 
-// Calculate diff between 2 HTML fragments.
+// Calculate diff between 2 HTML fragments, based on text+path based LCS.
 //
 // The HTML fragment shouldn't omit closing tag, if it's not empty tag.
 class HTMLPathDiff {
@@ -533,18 +533,17 @@ class HTMLPathDiff {
   }
 }
 
+// Calculate diff between 2 DOM tree.
 class HTMLTreeDiff {
   constructor() {
   }
 
+  // Calculate diff between 2 DOM tree.
   diff(diffNode, node1, node2) {
     this.addNumbering("1-", node1);
     this.addNumbering("2-", node2);
 
-    const [html1, html2] = HTMLPathDiff.splitForDiff(
-      node1.innerHTML, node2.innerHTML);
-    node1.innerHTML = html1;
-    node2.innerHTML = html2;
+    this.splitForDiff(node1, node2);
 
     this.LCSMapMap = new Map();
 
@@ -560,15 +559,14 @@ class HTMLTreeDiff {
 
     this.combineNodes(diffNode);
 
-    // `LCSToDiff` always places `ins` after `del`, but `combineNodes` can
-    // merge 2 nodes where first one ends with `ins` and the second one starts
-    // with `del`.
-    // Fix up the order here.
     this.swapInsDel(diffNode);
 
     this.removeNumbering(diffNode);
   }
 
+  // Add unique ID ("tree-diff-num" attribute) to each element.
+  //
+  // See `splitForDiff` for more details.
   addNumbering(prefix, node) {
     let i = 0;
     for (const child of node.getElementsByTagName("*")) {
@@ -577,6 +575,37 @@ class HTMLTreeDiff {
     }
   }
 
+  // Split both DOM tree, using text+path based LCS, to have similar tree
+  // structure.
+  //
+  // This is a workaround for the issue that raw tree LCS cannot handle
+  // split/merge.
+  //
+  // To solve the issue, split both tree by `splitForDiff` to make each text
+  // match even if parent tree gets split/merged.
+  //
+  // This caused another issue when `splitForDiff` split more than necessary
+  // (like, adding extra list element).
+  //
+  // Such nodes are combined in `combineNodes`, based on the unique ID
+  // added by `addNumbering`, and those IDs are removed in `removeNumbering`.
+  //
+  // Also, `LCSToDiff` always places `ins` after `del`, but `combineNodes` can
+  // merge 2 nodes where first one ends with `ins` and the second one starts
+  // with `del`. `swapInsDel` fixes up the order.
+  splitForDiff(node1, node2) {
+    const [html1, html2] = HTMLPathDiff.splitForDiff(
+      node1.innerHTML, node2.innerHTML);
+    node1.innerHTML = html1;
+    node2.innerHTML = html2;
+  }
+
+  // Remove unnecessary whitespace texts that can confuse diff algorithm.
+  //
+  // Diff algorithm used here isn't good at finding diff in repeating
+  // structure, such as list element, separated by same whitespaces.
+  //
+  // Remove such whitespaces between each `li`, to reduce the confusion.
   removeUnnecessaryText(node) {
     const textNodes = [];
     this.getTexts(node, textNodes);
@@ -597,6 +626,13 @@ class HTMLTreeDiff {
     }
   }
 
+  // Split text nodes by whitespaces and punctuation, given that
+  // diff is performed on the tree of nodes, and Text node is the
+  // minimum unit.
+  //
+  // Whitespaces are appended to texts before it, instead of creating Text
+  // node with whitespace alone.
+  // This is necessary to avoid matching each whitespace in different sentence.
   splitTexts(node) {
     const textNodes = [];
     this.getTexts(node, textNodes);
@@ -621,6 +657,7 @@ class HTMLTreeDiff {
     }
   }
 
+  // Get all Text nodes in `node`, into `textNodes` array.
   getTexts(node, textNodes) {
     if (node.nodeType === Node.TEXT_NODE) {
       textNodes.push(node);
@@ -632,7 +669,9 @@ class HTMLTreeDiff {
     }
   }
 
-  // Returns [0,1] range
+  // Calculates LCS for 2 nodes, stores it into `this.LCSMapMap`, and returns
+  // the score for those 2 nodes, in [0,1] range.
+  //
   // 0 when node1 and node2 are completely different.
   // 1 when node1 and node2 are completely same.
   LCS(node1, node2) {
@@ -705,6 +744,7 @@ class HTMLTreeDiff {
     return score;
   }
 
+  // Convert LCS maps into diff tree.
   LCSToDiff(parent, node1, node2) {
     if (node1.nodeName !== node2.nodeName) {
       this.prependChildIns(parent, node2.cloneNode(true));
@@ -780,10 +820,12 @@ class HTMLTreeDiff {
     }
   }
 
+  // Prepend `node` to `parent`'s first child.
   prependChild(parent, node) {
     parent.insertBefore(node, parent.firstChild);
   }
 
+  // Prepend `node` to `parent`'s first child, wrapping `node` with `ins`.
   prependChildIns(parent, node) {
     const name = node.nodeName.toLowerCase();
     if (name === "li") {
@@ -805,6 +847,7 @@ class HTMLTreeDiff {
     }
   }
 
+  // Prepend `node` to `parent`'s first child, wrapping `node` with `del`.
   prependChildDel(parent, node) {
     const name = node.nodeName.toLowerCase();
     if (name === "li") {
@@ -852,6 +895,9 @@ class HTMLTreeDiff {
     return del;
   }
 
+  // Combine adjacent nodes with same ID ("tree-diff-num" attribute) into one
+  //
+  // See `splitForDiff` for more details.
   combineNodes(node) {
     const removedNodes = new Set();
 
@@ -889,6 +935,9 @@ class HTMLTreeDiff {
     }
   }
 
+  // Swap `ins`+`del` to `del`+`ins`.
+  //
+  // See `splitForDiff` for more details.
   swapInsDel(node) {
     for (const child of [...node.getElementsByClassName("htmldiff-add")]) {
       if (!child.nextSibling) {
@@ -905,7 +954,9 @@ class HTMLTreeDiff {
     }
   }
 
-
+  // Add "tree-diff-num" attribute from all elements.
+  //
+  // See `splitForDiff` for more details.
   removeNumbering(node) {
     for (const child of node.getElementsByTagName("*")) {
       child.removeAttribute("tree-diff-num");
@@ -972,18 +1023,15 @@ class Comparator {
 
   async run() {
     await this.loadResources();
-
     this.populateLists();
+
     await this.parseQuery();
-    this.updateHistoryLink();
-    this.updateRevInfo();
-    this.updateURL();
   }
 
   async loadResources() {
     [this.revs, this.prs] = await Promise.all([
       this.getJSON("./history/revs.json"),
-      this.getJSON("./history/prs.json?20200217a"),
+      this.getJSON("./history/prs.json"),
     ]);
 
     this.revMap = {};
@@ -998,6 +1046,8 @@ class Comparator {
     }
   }
 
+  // Return the first parent of `rev`.
+  // `rev.parents` can contain multiple hash if it's a merge.
   getFirstParent(rev) {
     return rev.parents.split(" ")[0];
   }
@@ -1016,6 +1066,7 @@ class Comparator {
       this.revsAndPRsList, this.revsAndPRs, this.revsAndPRsMap);
   }
 
+  // Populate PR filter.
   populatePRs(menu) {
     while (menu.firstChild) {
       menu.firstChild.remove();
@@ -1042,6 +1093,7 @@ class Comparator {
     menu.value = "-";
   }
 
+  // Populate Revision filter.
   populateRevs(menu) {
     while (menu.firstChild) {
       menu.firstChild.remove();
@@ -1065,6 +1117,7 @@ class Comparator {
     }
   }
 
+  // Populate From and To filter.
   populateAllRevs(menu) {
     while (menu.firstChild) {
       menu.firstChild.remove();
@@ -1085,6 +1138,7 @@ class Comparator {
     }
   }
 
+  // Populate autocomplete for search.
   populateRevsAndPRs(list, revsAndPRs, map) {
     for (const pr of this.prs) {
       const value = `#${pr.number}`;
@@ -1154,54 +1208,88 @@ class Comparator {
       } catch (e) {}
     }
 
-    if ("from" in queryParams && "to" in queryParams) {
-      const from = queryParams.from;
-      const to = queryParams.to;
+    let section;
+    if ("id" in queryParams) {
+      section = queryParams.id;
+    }
 
-      if (from in this.revMap) {
-        this.fromRev.value = from;
-      }
-      if (to in this.revMap) {
-        this.toRev.value = to;
-      }
-      this.revFilter.value = "-";
-      this.prFilter.value = "-";
-    } else if ("rev" in queryParams) {
-      const hash = queryParams.rev;
+    if ("rev" in queryParams) {
+      this.updateUI({
+        type: "rev",
+        rev: queryParams.rev,
+        section,
+      });
+    } else if ("pr" in queryParams) {
+      this.updateUI({
+        type: "pr",
+        pr: queryParams.pr,
+        section,
+      });
+    } else if ("from" in queryParams && "to" in queryParams) {
+      this.updateUI({
+        type: "from-to",
+        from: queryParams.from,
+        to: queryParams.to,
+        section,
+      });
+    } else {
+      this.updateUI({
+        type: "from-to",
+      });
+    }
+  }
+
+  async updateUI(params) {
+    if (params.type === "rev") {
+      const hash = params.rev;
       if (hash in this.revMap) {
         this.revFilter.value = hash;
-        this.selectRevs(hash);
+        this.selectFromToForRev(hash);
       }
+
       this.prFilter.value = "-";
-    } else if ("pr" in queryParams) {
-      const prnum = queryParams.pr;
+    } else if (params.type === "pr") {
+      const prnum = params.pr;
       if (prnum in this.prMap) {
         this.prFilter.value = prnum;
-        this.selectPRRevs(prnum);
+        this.selectFromToForPR(prnum);
         this.updatePRLink(prnum);
       }
+
       this.revFilter.value = "-";
-    } else {
+    } else if (params.type === "from-to") {
+      if ("from" in params) {
+        const from = params.from;
+        if (from in this.revMap) {
+          this.fromRev.value = from;
+        }
+      }
+      if ("to" in params) {
+        const to = params.to;
+        if (to in this.revMap) {
+          this.toRev.value = to;
+        }
+      }
+
       this.revFilter.value = "-";
       this.prFilter.value = "-";
     }
 
     this.updateHistoryLink();
     this.updateRevInfo();
-
     await this.updateSectionList();
 
-    if ("id" in queryParams) {
-      const id = queryParams.id;
-      this.secList.value = id;
+    if ("section" in params && params.section) {
+      this.secList.value = params.section;
     } else {
       this.secList.value = "combined";
     }
 
+    this.updateURL();
     await this.compare();
   }
 
-  selectPRRevs(prnum) {
+  selectFromToForPR(prnum) {
     if (prnum in this.prMap) {
       const pr = this.prMap[prnum];
       this.fromRev.value = pr.parent;
@@ -1209,7 +1297,7 @@ class Comparator {
     }
   }
 
-  selectRevs(hash) {
+  selectFromToForRev(hash) {
     if (hash in this.revMap) {
       const rev = this.revMap[hash];
       const parent = this.getFirstParent(rev);
@@ -1376,11 +1464,13 @@ class Comparator {
   // `secId` is the id of the section's header element.
   getSectionTitle(secId) {
     if (secId in this.fromSecData.secData) {
-      return `${this.fromSecData.secData[secId].num} ${this.fromSecData.secData[secId].title}`;
+      const sec = this.fromSecData.secData[secId];
+      return `${sec.num} ${sec.title}`;
     }
 
     if (secId in this.toSecData.secData) {
-      return `${this.toSecData.secData[secId].num} ${this.toSecData.secData[secId].title}`;
+      const sec = this.toSecData.secData[secId];
+      return `${sec.num} ${sec.title}`;
     }
 
     return "";
@@ -1389,14 +1479,20 @@ class Comparator {
   // Returns whether the section is changed, added, or removed between from/to
   // revisions.
   isChanged(secId) {
-    if (!(secId in this.fromSecData.secData) || !(secId in this.toSecData.secData)) {
+    if (!(secId in this.fromSecData.secData)) {
+      return true;
+    }
+    if (!(secId in this.toSecData.secData)) {
       return true;
     }
 
     const fromHTML = this.fromSecData.secData[secId].html;
     const toHTML = this.toSecData.secData[secId].html;
 
-    return this.filterAttributeForComparison(fromHTML) !== this.filterAttributeForComparison(toHTML);
+    const fromHTMLFiltered = this.filterAttributeForComparison(fromHTML);
+    const toHTMLFiltered = this.filterAttributeForComparison(toHTML);
+
+    return fromHTMLFiltered !== toHTMLFiltered;
   }
 
   // Filter attributes that should be ignored when comparing 2 revisions.
@@ -1707,51 +1803,36 @@ class Comparator {
   }
 
   async onPRFilterChange() {
-    const prnum = this.prFilter.value;
-    this.revFilter.value = "-";
-    this.selectPRRevs(prnum);
-    this.updatePRLink(prnum);
-    this.updateHistoryLink();
-    this.updateRevInfo();
-    await this.updateSectionList();
-    await this.compare();
-    this.updateURL();
+    this.updateUI({
+      type: "pr",
+      pr: this.prFilter.value,
+    });
   }
 
   async onRevFilterChange() {
-    const hash = this.revFilter.value;
-    this.prFilter.value = "-";
-    this.selectRevs(hash);
-    this.updateHistoryLink();
-    this.updateRevInfo();
-    await this.updateSectionList();
-    await this.compare();
-    this.updateURL();
+    this.updateUI({
+      type: "rev",
+      rev: this.revFilter.value,
+    });
   }
 
   async onFromRevChange() {
-    this.prFilter.value = "-";
-    this.revFilter.value = "-";
-    this.updateHistoryLink();
-    this.updateRevInfo();
-    await this.updateSectionList();
-    await this.compare();
-    this.updateURL();
+    this.updateUI({
+      type: "from-to",
+      rev: this.revFilter.value,
+    });
   }
 
   async onToRevChange() {
-    this.prFilter.value = "-";
-    this.revFilter.value = "-";
-    this.updateHistoryLink();
-    this.updateRevInfo();
-    await this.updateSectionList();
-    await this.compare();
-    this.updateURL();
+    this.updateUI({
+      type: "from-to",
+      rev: this.revFilter.value,
+    });
   }
 
   async onSecListChange() {
-    await this.compare();
     this.updateURL();
+    await this.compare();
   }
 
   async onTabChange() {
@@ -1931,9 +2012,6 @@ class Comparator {
     this.currentQuery = window.location.search;
 
     await this.parseQuery();
-    this.updateHistoryLink();
-    this.updateRevInfo();
-    this.updateURL();
   }
 }
 
