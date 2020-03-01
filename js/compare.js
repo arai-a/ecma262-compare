@@ -203,7 +203,7 @@ class HTMLTreeDiff {
     });
 
     const tmp = this.plainObjectToDOMTree(diffNodeObj);
-    for (const child of tmp.childNodes) {
+    for (const child of [...tmp.childNodes]) {
       diffNode.appendChild(child);
     }
 
