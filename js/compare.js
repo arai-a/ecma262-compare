@@ -568,11 +568,20 @@ class HTMLTreeDiff {
   }
 
   // Calculate diff between 2 DOM tree.
-  diff(diffNode, node1, node2) {
+  async diff(diffNode, node1, node2) {
     this.addNumbering("1-", node1);
     this.addNumbering("2-", node2);
 
+    const BLOCK_LIMIT = 50;
+    const start = Date.now();
+
     this.splitForDiff(node1, node2);
+
+    // splitForDiff can take at most the same time as remaining part.
+    // Sleep here if necessary, to improved the responsiveness.
+    if (Date.now() > start + BLOCK_LIMIT) {
+      await sleep(1);
+    }
 
     this.LCSMapMap = new Map();
 
@@ -1937,7 +1946,7 @@ class Comparator {
         const workBox = document.createElement("div");
         this.workBoxContainer.appendChild(workBox);
 
-        this.createDiff(workBox, HTML[0], HTML[1]);
+        await this.createDiff(workBox, HTML[0], HTML[1]);
 
         workBox.remove();
 
@@ -1971,7 +1980,7 @@ class Comparator {
     this.processing = false;
   }
 
-  createDiff(box, fromHTML, toHTML) {
+  async createDiff(box, fromHTML, toHTML) {
     const workBoxFrom = document.createElement("div");
     this.workBoxContainer.appendChild(workBoxFrom);
     const workBoxTo = document.createElement("div");
@@ -1991,7 +2000,7 @@ class Comparator {
 
     if (fromHTML !== null && toHTML !== null) {
       if (!this.pathDiff.checked) {
-        new HTMLTreeDiff().diff(box, workBoxFrom, workBoxTo);
+        await new HTMLTreeDiff().diff(box, workBoxFrom, workBoxTo);
       } else {
         fromHTML = workBoxFrom.innerHTML;
         toHTML = workBoxTo.innerHTML;
