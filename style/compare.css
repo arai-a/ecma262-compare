@@ -62,6 +62,7 @@
 }
 
 #scroller {
+    z-index: 10;
     position: fixed;
     display: none;
     top: 60px;
