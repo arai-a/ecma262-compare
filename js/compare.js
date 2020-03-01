@@ -1184,19 +1184,13 @@ class Comparator {
       this.removeExcludedContent(workBoxTo);
     }
 
-    if (fromHTML !== null && toHTML !== null) {
-      if (!this.pathDiff.checked) {
-        await new HTMLTreeDiff().diff(box, workBoxFrom, workBoxTo);
-      } else {
-        fromHTML = workBoxFrom.innerHTML;
-        toHTML = workBoxTo.innerHTML;
+    if (!this.pathDiff.checked) {
+      await new HTMLTreeDiff().diff(box, workBoxFrom, workBoxTo);
+    } else {
+      fromHTML = workBoxFrom.innerHTML;
+      toHTML = workBoxTo.innerHTML;
 
-        box.innerHTML = await HTMLPathDiff.diff(fromHTML, toHTML);
-      }
-    } else if (fromHTML !== null) {
-      box.innerHTML = fromHTML;
-    } else if (toHTML !== null) {
-      box.innerHTML = toHTML;
+      box.innerHTML = await HTMLPathDiff.diff(fromHTML, toHTML);
     }
 
     workBoxFrom.remove();
