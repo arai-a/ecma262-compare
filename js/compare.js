@@ -158,8 +158,8 @@ class PromiseWorker {
   }
 }
 
-const HTMLPathDiffWorker = new PromiseWorker("./js/path-diff-worker.js");
-const HTMLTreeDiffWorker = new PromiseWorker("./js/tree-diff-worker.js?20200302-b");
+const HTMLPathDiffWorker = new PromiseWorker("./js/path-diff-worker.js?20200302-c");
+const HTMLTreeDiffWorker = new PromiseWorker("./js/tree-diff-worker.js?20200302-c");
 
 class HTMLPathDiff {
   static diff(s1, s2) {
@@ -182,6 +182,18 @@ class HTMLPathDiff {
 // Calculate diff between 2 DOM tree.
 class HTMLTreeDiff {
   constructor() {
+    this.blockNodes = new Set(
+      [
+        "div", "p", "pre",
+        "emu-annex", "emu-clause", "emu-figure",
+        "emu-note",
+        "figcaption", "figure",
+        "h1", "h2",
+        "ol", "ul", "li",
+        "dl", "dt", "dd",
+        "table", "thead", "tbody", "tr", "th", "td",
+      ]
+    );
   }
 
   // Calculate diff between 2 DOM tree.
@@ -270,10 +282,7 @@ class HTMLTreeDiff {
 
   isBlock(node) {
     const name = node.nodeName.toLowerCase();
-    return name === "ul" || name === "ol" || name === "li" ||
-      name === "div" || name === "p" ||
-      name === "emu-clause" || name === "emu-annex" ||
-      name === "h1";
+    return this.blockNodes.has(name);
   }
 
   // Convert single DOM element to object, without child nodes.
