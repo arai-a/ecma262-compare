@@ -74,5 +74,7 @@ module.exports = {
     "no-with": "error",
     "object-shorthand": ["error", "always", { "avoidQuotes": true }],
     "no-constant-condition": ["error", { "checkLoops": false }],
+    "eqeqeq": "error",
+    "prefer-const": "error",
   }
 };
