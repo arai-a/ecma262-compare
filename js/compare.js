@@ -577,6 +577,9 @@ class HTMLTreeDiff {
 
     this.splitForDiff(node1, node2);
 
+    this.combineNodes(node1, "li");
+    this.combineNodes(node2, "li");
+
     // splitForDiff can take at most the same time as remaining part.
     // Sleep here if necessary, to improved the responsiveness.
     if (Date.now() > start + BLOCK_LIMIT) {
@@ -599,7 +602,7 @@ class HTMLTreeDiff {
       diffNode.appendChild(child);
     }
 
-    this.combineNodes(diffNode);
+    this.combineNodes(diffNode, "*");
 
     this.swapInsDel(diffNode);
 
@@ -1154,10 +1157,10 @@ class HTMLTreeDiff {
   // Combine adjacent nodes with same ID ("tree-diff-num" attribute) into one
   //
   // See `splitForDiff` for more details.
-  combineNodes(node) {
+  combineNodes(node, name) {
     const removedNodes = new Set();
 
-    for (const child of [...node.getElementsByTagName("*")]) {
+    for (const child of [...node.getElementsByTagName(name)]) {
       if (removedNodes.has(child)) {
         continue;
       }
