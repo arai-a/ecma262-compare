@@ -1258,7 +1258,7 @@ class Comparator {
     this.viewToTab = document.getElementById("view-to-tab");
     this.viewDiffTab = document.getElementById("view-diff-tab");
     this.workBoxContainer = document.getElementById("work-box-container");
-    this.treeDiff = document.getElementById("tree-diff");
+    this.pathDiff = document.getElementById("path-diff");
     this.scroller = document.getElementById("scroller");
     this.searchField = document.getElementById("search");
     this.revsAndPRsList = document.getElementById("revs-and-prs-list");
@@ -1990,7 +1990,7 @@ class Comparator {
     }
 
     if (fromHTML !== null && toHTML !== null) {
-      if (this.treeDiff.checked) {
+      if (!this.pathDiff.checked) {
         new HTMLTreeDiff().diff(box, workBoxFrom, workBoxTo);
       } else {
         fromHTML = workBoxFrom.innerHTML;
@@ -2130,7 +2130,7 @@ class Comparator {
     await this.compare();
   }
 
-  async onTreeDiffChange() {
+  async onPathDiffChange() {
     await this.compare();
   }
 
@@ -2344,9 +2344,9 @@ function onTabChange() {
   comparator.onTabChange().catch(e => console.error(e));
 }
 
-/* exported onTreeDiffChange */
-function onTreeDiffChange() {
-  comparator.onTreeDiffChange().catch(e => console.error(e));
+/* exported onPathDiffChange */
+function onPathDiffChange() {
+  comparator.onPathDiffChange().catch(e => console.error(e));
 }
 
 /* exported onScrollUpClick */
