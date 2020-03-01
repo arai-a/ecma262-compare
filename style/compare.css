@@ -137,9 +137,15 @@
 }
 .htmldiff-ins.htmldiff-highllight {
     background-color: #5cd95c;
+    transition-duration: 0s;
 }
 .htmldiff-del.htmldiff-highllight {
     background-color: #ffa3a3;
+    transition-duration: 0s;
+}
+
+.htmldiff-change var {
+  transition: none;
 }
 
 #result {
