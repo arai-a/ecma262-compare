@@ -199,6 +199,11 @@ option.mod {
 
 /* ==== diff highlight ==== */
 
+.htmldiff-ins *,
+.htmldiff-del * {
+    background-color: inherit;
+}
+
 .htmldiff-ins,
 .htmldiff-del {
     transition-property: background-color;
@@ -217,16 +222,10 @@ option.mod {
   transition: none;
 }
 
-.htmldiff-del {
+.htmldiff-change {
     display: inline;
 }
-.htmldiff-ins {
-    display: inline;
-}
-.htmldiff-ins *,
-.htmldiff-del * {
-    background-color: inherit;
-}
+
 .htmldiff-del, .htmldiff-del * {
     text-decoration: line-through !important;
 }
