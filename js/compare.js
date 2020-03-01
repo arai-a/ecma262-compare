@@ -540,6 +540,7 @@ class HTMLTreeDiff {
 
   // Calculate diff between 2 DOM tree.
   diff(diffNode, node1, node2) {
+    let T = Date.now(), N;
     this.addNumbering("1-", node1);
     this.addNumbering("2-", node2);
 
@@ -547,21 +548,100 @@ class HTMLTreeDiff {
 
     this.LCSMapMap = new Map();
 
-    this.removeUnnecessaryText(node1);
-    this.removeUnnecessaryText(node2);
+    const nodeObj1 = this.DOMTreeToPlainObject(node1);
+    const nodeObj2 = this.DOMTreeToPlainObject(node2);
+    const diffNodeObj = this.createPlainObject("div");
 
-    this.splitTexts(node1);
-    this.splitTexts(node2);
+    this.LCS(nodeObj1, nodeObj2);
 
-    this.LCS(node1, node2);
+    this.LCSToDiff(diffNodeObj, nodeObj1, nodeObj2);
 
-    this.LCSToDiff(diffNode, node1, node2);
+    const tmp = this.plainObjectToDOMTree(diffNodeObj);
+    for (const child of tmp.childNodes) {
+      diffNode.appendChild(child);
+    }
 
     this.combineNodes(diffNode);
 
     this.swapInsDel(diffNode);
 
     this.removeNumbering(diffNode);
+  }
+
+  // Convert DOM tree to object tree.
+  DOMTreeToPlainObject(node) {
+    const result = this.DOMElementToPlainObject(node);
+
+    for (const child of node.childNodes) {
+      if (child.nodeType === Node.TEXT_NODE) {
+        if (this.isUnnecessaryText(child)) {
+          continue;
+        }
+
+        this.splitTextInto(result.childNodes, child.textContent);
+        continue;
+      }
+
+      if (child.nodeType === Node.ELEMENT_NODE) {
+        result.childNodes.push(this.DOMTreeToPlainObject(child));
+      }
+    }
+
+    return result;
+  }
+
+  // Convert single DOM element to object, without child nodes.
+  DOMElementToPlainObject(node) {
+    const attributes = {};
+    if (node.attributes) {
+      for (const attr of node.attributes) {
+        attributes[attr.name] = attr.value;
+      }
+    }
+
+    return this.createPlainObject(node.nodeName.toLowerCase(), node.id,
+                                  attributes);
+  }
+
+  // Create a plain object representation for an empty DOM element.
+  createPlainObject(name, id = undefined, attributes = {}) {
+    return {
+      name,
+      id,
+      attributes,
+      childNodes: [],
+    };
+  }
+
+  // Split text by whitespaces and punctuation, given that
+  // diff is performed on the tree of nodes, and text is the
+  // minimum unit.
+  //
+  // Whitespaces are appended to texts before it, instead of creating Text
+  // node with whitespace alone.
+  // This is necessary to avoid matching each whitespace in different sentence.
+  splitTextInto(childNodes, text) {
+    while (true) {
+      const spaceIndex = text.search(/\s[^\s]/);
+      const punctIndex = text.search(/[.,:;?!\-_()[\]]/);
+      if (spaceIndex === -1 && punctIndex === -1) {
+        break;
+      }
+
+      if (punctIndex !== -1 && (spaceIndex === -1 || punctIndex < spaceIndex)) {
+        if (punctIndex > 0) {
+          childNodes.push(text.slice(0, punctIndex));
+        }
+        childNodes.push(text.slice(punctIndex, punctIndex + 1));
+        text = text.slice(punctIndex + 1);
+      } else {
+        childNodes.push(text.slice(0, spaceIndex + 1));
+        text = text.slice(spaceIndex + 1);
+      }
+    }
+    if (text) {
+      childNodes.push(text);
+    }
   }
 
   // Add unique ID ("tree-diff-num" attribute) to each element.
@@ -593,7 +673,7 @@ class HTMLTreeDiff {
   // Also, `LCSToDiff` always places `ins` after `del`, but `combineNodes` can
   // merge 2 nodes where first one ends with `ins` and the second one starts
   // with `del`. `swapInsDel` fixes up the order.
-  splitForDiff(node1, node2) {
+   splitForDiff(node1, node2) {
     const [html1, html2] = HTMLPathDiff.splitForDiff(
       node1.innerHTML, node2.innerHTML);
     node1.innerHTML = html1;
@@ -606,67 +686,23 @@ class HTMLTreeDiff {
   // structure, such as list element, separated by same whitespaces.
   //
   // Remove such whitespaces between each `li`, to reduce the confusion.
-  removeUnnecessaryText(node) {
-    const textNodes = [];
-    this.getTexts(node, textNodes);
+  isUnnecessaryText(node) {
+    if (!/^[ \r\n\t]*$/.test(node.textContent)) {
+      return false;
+    }
 
-    for (const textNode of textNodes) {
-      if (/^[ \r\n\t]*$/.test(textNode.textContent)) {
-        if (textNode.previousSibling) {
-          if (textNode.previousSibling.nodeName.toLowerCase() === "li") {
-            textNode.remove();
-          }
-        }
-        if (textNode.nextSibling) {
-          if (textNode.nextSibling.nodeName.toLowerCase() === "li") {
-            textNode.remove();
-          }
-        }
+    if (node.previousSibling) {
+      if (node.previousSibling.nodeName.toLowerCase() === "li") {
+        return true;
       }
     }
-  }
-
-  // Split text nodes by whitespaces and punctuation, given that
-  // diff is performed on the tree of nodes, and Text node is the
-  // minimum unit.
-  //
-  // Whitespaces are appended to texts before it, instead of creating Text
-  // node with whitespace alone.
-  // This is necessary to avoid matching each whitespace in different sentence.
-  splitTexts(node) {
-    const textNodes = [];
-    this.getTexts(node, textNodes);
-    for (const textNode of textNodes) {
-      let currentNode = textNode;
-      while (true) {
-        const spaceIndex = currentNode.textContent.search(/\s[^\s]/);
-        const punctIndex = currentNode.textContent.search(/[.,:;?!\-_()[\]]/);
-        if (spaceIndex === -1 && punctIndex === -1) {
-          break;
-        }
-
-        if (punctIndex !== -1 && (spaceIndex === -1 || punctIndex < spaceIndex)) {
-          if (punctIndex > 0) {
-            currentNode = currentNode.splitText(punctIndex);
-          }
-          currentNode = currentNode.splitText(1);
-        } else {
-          currentNode = currentNode.splitText(spaceIndex + 1);
-        }
+    if (node.nextSibling) {
+      if (node.nextSibling.nodeName.toLowerCase() === "li") {
+        return true;
       }
     }
-  }
 
-  // Get all Text nodes in `node`, into `textNodes` array.
-  getTexts(node, textNodes) {
-    if (node.nodeType === Node.TEXT_NODE) {
-      textNodes.push(node);
-      return;
-    }
-
-    for (const child of node.childNodes) {
-      this.getTexts(child, textNodes);
-    }
+    return false;
   }
 
   // Calculates LCS for 2 nodes, stores it into `this.LCSMapMap`, and returns
@@ -674,26 +710,27 @@ class HTMLTreeDiff {
   //
   // 0 when node1 and node2 are completely different.
   // 1 when node1 and node2 are completely same.
-  LCS(node1, node2) {
-    if (node1.nodeName !== node2.nodeName) {
+  LCS(nodeObj1, nodeObj2) {
+    if (typeof nodeObj1 !== typeof nodeObj2 ||
+        nodeObj1.name !== nodeObj2.name) {
       return 0;
     }
 
-    if (node1.id || node2.id) {
-      if (node1.id !== node2.id) {
+    if (nodeObj1.id || nodeObj2.id) {
+      if (nodeObj1.id !== nodeObj2.id) {
         return 0;
       }
     }
 
-    if (node1.nodeType === Node.TEXT_NODE) {
-      if (node1.textContent !== node2.textContent) {
+    if (typeof nodeObj1 === "string") {
+      if (nodeObj1 !== nodeObj2) {
         return 0;
       }
       return 1;
     }
 
-    const len1 = node1.childNodes.length;
-    const len2 = node2.childNodes.length;
+    const len1 = nodeObj1.childNodes.length;
+    const len2 = nodeObj2.childNodes.length;
 
     if (len1 === 0) {
       if (len2 === 0) {
@@ -716,17 +753,17 @@ class HTMLTreeDiff {
       C[0][j] = 0;
     }
 
-    if (this.LCSMapMap.has(node1)) {
-      this.LCSMapMap.get(node1).set(node2, C);
+    if (this.LCSMapMap.has(nodeObj1)) {
+      this.LCSMapMap.get(nodeObj1).set(nodeObj2, C);
     } else {
       const m = new Map();
-      m.set(node2, C);
-      this.LCSMapMap.set(node1, m);
+      m.set(nodeObj2, C);
+      this.LCSMapMap.set(nodeObj1, m);
     }
 
     for (let i = 1; i < len1 + 1; i++) {
       for (let j = 1; j < len2 + 1; j++) {
-        const score = this.LCS(node1.childNodes[i - 1], node2.childNodes[j - 1]);
+        const score = this.LCS(nodeObj1.childNodes[i - 1], nodeObj2.childNodes[j - 1]);
         C[i][j] = Math.max(C[i-1][j-1] + score, C[i][j-1], C[i-1][j]);
       }
     }
@@ -745,154 +782,186 @@ class HTMLTreeDiff {
   }
 
   // Convert LCS maps into diff tree.
-  LCSToDiff(parent, node1, node2) {
-    if (node1.nodeName !== node2.nodeName) {
-      this.prependChildIns(parent, node2.cloneNode(true));
-      this.prependChildDel(parent, node1.cloneNode(true));
+  LCSToDiff(parentObj, nodeObj1, nodeObj2) {
+    if (typeof nodeObj1 !== typeof nodeObj2 ||
+        nodeObj1.name !== nodeObj2.name) {
+      this.prependChildIns(parentObj, nodeObj2);
+      this.prependChildDel(parentObj, nodeObj1);
       return;
     }
 
-    if (node1.id || node2.id) {
-      if (node1.id !== node2.id) {
-        this.prependChildIns(parent, node2.cloneNode(true));
-        this.prependChildDel(parent, node1.cloneNode(true));
+    if (nodeObj1.id || nodeObj2.id) {
+      if (nodeObj1.id !== nodeObj2.id) {
+        this.prependChildIns(parentObj, nodeObj2);
+        this.prependChildDel(parentObj, nodeObj1);
         return;
       }
     }
 
-    if (node1.nodeType === Node.TEXT_NODE) {
-      if (node1.textContent !== node2.textContent) {
-        this.prependChildIns(parent, node2.cloneNode(true));
-        this.prependChildDel(parent, node1.cloneNode(true));
+    if (typeof nodeObj1 === "string") {
+      if (nodeObj1 !== nodeObj2) {
+        this.prependChildIns(parentObj, nodeObj2);
+        this.prependChildDel(parentObj, nodeObj1);
         return;
       }
 
-      this.prependChild(parent, node2.cloneNode(true));
+      this.prependChild(parentObj, nodeObj2);
       return;
     }
 
-    const len1 = node1.childNodes.length;
-    const len2 = node2.childNodes.length;
+    const len1 = nodeObj1.childNodes.length;
+    const len2 = nodeObj2.childNodes.length;
 
     if (len1 === 0) {
       if (len2 === 0) {
-        this.prependChild(parent, node2.cloneNode(true));
+        this.prependChild(parentObj, nodeObj2);
         return;
       }
-      this.prependChildIns(parent, node2.cloneNode(true));
-      this.prependChildDel(parent, node1.cloneNode(true));
+      this.prependChildIns(parentObj, nodeObj2);
+      this.prependChildDel(parentObj, nodeObj1);
       return;
     }
     if (len2 === 0) {
-      this.prependChildIns(parent, node2.cloneNode(true));
-      this.prependChildDel(parent, node1.cloneNode(true));
+      this.prependChildIns(parentObj, nodeObj2);
+      this.prependChildDel(parentObj, nodeObj1);
       return;
     }
 
-    const C = this.LCSMapMap.get(node1).get(node2);
+    const C = this.LCSMapMap.get(nodeObj1).get(nodeObj2);
 
     for (let i = len1, j = len2; i > 0 || j > 0;) {
       if ((i > 0 && j > 0 && C[i][j] === C[i - 1][j - 1]) ||
           (j > 0 && C[i][j] === C[i][j - 1])) {
-        this.prependChildIns(parent, node2.childNodes[j - 1].cloneNode(true));
+        this.prependChildIns(parentObj, nodeObj2.childNodes[j - 1]);
         j--;
       } else if (i > 0 && C[i][j] === C[i - 1][j]) {
-        this.prependChildDel(parent, node1.childNodes[i - 1].cloneNode(true));
+        this.prependChildDel(parentObj, nodeObj1.childNodes[i - 1]);
         i--;
       } else if (i > 0 && j > 0 && C[i][j] - C[i - 1][j - 1] < 1) {
-        if (node2.childNodes[j - 1].nodeType === Node.TEXT_NODE) {
-          this.prependChildIns(parent, node2.childNodes[j - 1].cloneNode(true));
+        if (typeof nodeObj2.childNodes[j - 1] === "string") {
+          this.prependChildIns(parentObj, nodeObj2.childNodes[j - 1]);
           j--;
         } else {
-          const box = node2.childNodes[j - 1].cloneNode(false);
+          const box = this.shallowClone(nodeObj2.childNodes[j - 1]);
 
-          this.LCSToDiff(box, node1.childNodes[i - 1], node2.childNodes[j - 1]);
+          this.LCSToDiff(box, nodeObj1.childNodes[i - 1], nodeObj2.childNodes[j - 1]);
 
-          this.prependChild(parent, box);
+          this.prependChild(parentObj, box);
           i--;
           j--;
         }
       } else {
-        this.prependChild(parent, node2.childNodes[j - 1].cloneNode(true));
+        this.prependChild(parentObj, nodeObj2.childNodes[j - 1]);
         i--;
         j--;
       }
     }
   }
 
-  // Prepend `node` to `parent`'s first child.
-  prependChild(parent, node) {
-    parent.insertBefore(node, parent.firstChild);
+  // Convert object tree to DOM tree.
+  plainObjectToDOMTree(nodeObj) {
+    if (typeof nodeObj === "string") {
+      return document.createTextNode(nodeObj);
+    }
+
+    const result = document.createElement(nodeObj.name);
+    for (const [key, value] of Object.entries(nodeObj.attributes)) {
+      result.setAttribute(key, value);
+    }
+    for (const child of nodeObj.childNodes) {
+      result.appendChild(this.plainObjectToDOMTree(child));
+    }
+
+    return result;
   }
 
-  // Prepend `node` to `parent`'s first child, wrapping `node` with `ins`.
-  prependChildIns(parent, node) {
-    const name = node.nodeName.toLowerCase();
-    if (name === "li") {
-      const newNode = node.cloneNode(false);
-      while (node.lastChild) {
-        const child = node.lastChild;
-        child.remove();
-        this.prependChildIns(newNode, child);
+  // Prepend `nodeObj` to `parentObj`'s first child.
+  prependChild(parentObj, nodeObj) {
+    parentObj.childNodes.unshift(nodeObj);
+  }
+
+  // Prepend `nodeObj` to `parentObj`'s first child, wrapping `nodeObj` with
+  // `ins`.
+  prependChildIns(parentObj, nodeObj) {
+    if (typeof nodeObj === "object" && nodeObj.name === "li") {
+      const newNodeObj = this.shallowClone(nodeObj);
+      for (let i = nodeObj.childNodes.length - 1; i >= 0; i--) {
+        const child = nodeObj.childNodes[i];
+        this.prependChildIns(newNodeObj, child);
       }
-      this.prependChild(parent, newNode);
+      this.prependChild(parentObj, newNodeObj);
       return;
     }
 
-    if (parent.firstChild &&
-        parent.firstChild.nodeName.toLowerCase() === "ins") {
-      this.prependChild(parent.firstChild, node);
-    } else {
-      this.prependChild(parent, this.toIns(node));
+    if (parentObj.childNodes.length > 0) {
+      const firstChild = parentObj.childNodes[0];
+      if (typeof firstChild === "object" &&
+          firstChild.name === "ins") {
+        this.prependChild(firstChild, nodeObj);
+        return;
+      }
     }
+
+    this.prependChild(parentObj, this.toIns(nodeObj));
   }
 
-  // Prepend `node` to `parent`'s first child, wrapping `node` with `del`.
-  prependChildDel(parent, node) {
-    const name = node.nodeName.toLowerCase();
-    if (name === "li") {
-      const newNode = node.cloneNode(false);
-      while (node.lastChild) {
-        const child = node.lastChild;
-        child.remove();
-        this.prependChildDel(newNode, child);
+  // Clone nodeObj, without child nodes.
+  shallowClone(nodeObj) {
+    return {
+      name: nodeObj.name,
+      id: nodeObj.id,
+      attributes: nodeObj.attributes,
+      childNodes: [],
+    };
+  }
+
+  // Prepend `nodeObj` to `parentObj`'s first child, wrapping `nodeObj` with
+  // `del`.
+  prependChildDel(parentObj, nodeObj) {
+    if (typeof nodeObj === "object" && nodeObj.name === "li") {
+      const newNodeObj = this.shallowClone(nodeObj);
+      for (let i = nodeObj.childNodes.length - 1; i >= 0; i--) {
+        const child = nodeObj.childNodes[i];
+        this.prependChildDel(newNodeObj, child);
       }
-      this.prependChild(parent, newNode);
+      this.prependChild(parentObj, newNodeObj);
       return;
     }
 
-    if (parent.firstChild &&
-        parent.firstChild.nodeName.toLowerCase() === "del") {
-      this.prependChild(parent.firstChild, node);
-    } else {
-      this.prependChild(parent, this.toDel(node));
+    if (parentObj.childNodes.length > 0) {
+      const firstChild = parentObj.childNodes[0];
+      if (typeof firstChild === "object" &&
+          firstChild.name === "del") {
+        this.prependChild(firstChild, nodeObj);
+        return;
+      }
     }
+
+    this.prependChild(parentObj, this.toDel(nodeObj));
   }
 
-  toIns(node) {
+  toIns(nodeObj) {
     const ins = this.createIns();
-    ins.appendChild(node);
+    ins.childNodes.push(nodeObj);
     return ins;
   }
 
   createIns() {
-    const ins = document.createElement("ins");
-    ins.classList.add("htmldiff-add");
-    ins.classList.add("htmldiff-change");
-    return ins;
+    return this.createPlainObject("ins", undefined, {
+      "class": "htmldiff-add htmldiff-change",
+    });
   }
 
-  toDel(node) {
+  toDel(nodeObj) {
     const del = this.createDel();
-    del.appendChild(node);
+    del.childNodes.push(nodeObj);
     return del;
   }
 
   createDel() {
-    const del = document.createElement("del");
-    del.classList.add("htmldiff-del");
-    del.classList.add("htmldiff-change");
-    return del;
+    return this.createPlainObject("del", undefined, {
+      "class": "htmldiff-del htmldiff-change",
+    });
   }
 
   // Combine adjacent nodes with same ID ("tree-diff-num" attribute) into one
