@@ -255,17 +255,25 @@ class HTMLTreeDiff {
     }
 
     if (node.previousSibling) {
-      if (node.previousSibling.nodeName.toLowerCase() === "li") {
+      if (this.isBlock(node.previousSibling)) {
         return true;
       }
     }
     if (node.nextSibling) {
-      if (node.nextSibling.nodeName.toLowerCase() === "li") {
+      if (this.isBlock(node.nextSibling)) {
         return true;
       }
     }
 
     return false;
+  }
+
+  isBlock(node) {
+    const name = node.nodeName.toLowerCase();
+    return name === "ul" || name === "ol" || name === "li" ||
+      name === "div" || name === "p" ||
+      name === "emu-clause" || name === "emu-annex" ||
+      name === "h1";
   }
 
   // Convert single DOM element to object, without child nodes.
