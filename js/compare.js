@@ -540,6 +540,31 @@ class HTMLPathDiff {
 // Calculate diff between 2 DOM tree.
 class HTMLTreeDiff {
   constructor() {
+    this.allocateMatrixPool();
+  }
+
+  // Inside LCS, it tries to allocate many matrices, recursively.
+  // Pre-allocate it for each depth, with enough size for most case.
+  allocateMatrixPool() {
+    this.poolWidth = 200;
+
+    this.poolC = [];
+    for (let i = 0; i < 10; i++) {
+      const C = new Array(this.poolWidth);
+      for (let i = 0; i < this.poolWidth; i++) {
+        C[i] = new Array(this.poolWidth);
+      }
+      this.poolC.push(C);
+    }
+
+    this.poolD = [];
+    for (let i = 0; i < 10; i++) {
+      const D = new Array(this.poolWidth);
+      for (let i = 0; i < this.poolWidth; i++) {
+        D[i] = new Array(this.poolWidth);
+      }
+      this.poolD.push(D);
+    }
   }
 
   // Calculate diff between 2 DOM tree.
@@ -555,6 +580,7 @@ class HTMLTreeDiff {
     const nodeObj2 = this.DOMTreeToPlainObject(node2);
     const diffNodeObj = this.createPlainObject("div");
 
+    this.depth = 0;
     this.LCS(nodeObj1, nodeObj2);
 
     this.LCSToDiff(diffNodeObj, nodeObj1, nodeObj2);
@@ -787,10 +813,7 @@ class HTMLTreeDiff {
       };
     }
 
-    const C = new Array(len1 + 1);
-    for (let i = 0; i < len1 + 1; i++) {
-      C[i] = new Array(len2 + 1);
-    }
+    const C = this.getOrAllocateC(len1 + 1, len2 + 1, this.depth);
     for (let i = 0; i < len1 + 1; i++) {
       C[i][0] = 0;
     }
@@ -798,10 +821,7 @@ class HTMLTreeDiff {
       C[0][j] = 0;
     }
 
-    const D = new Array(len1 + 1);
-    for (let i = 0; i < len1 + 1; i++) {
-      D[i] = new Array(len2 + 1);
-    }
+    const D = this.getOrAllocateD(len1 + 1, len2 + 1, this.depth);
     for (let i = 0; i < len1 + 1; i++) {
       D[i][0] = {
         del: 0,
@@ -830,7 +850,9 @@ class HTMLTreeDiff {
         const child1 = nodeObj1.childNodes[i - 1];
         const child2 = nodeObj2.childNodes[j - 1];
 
+        this.depth++;
         const result = this.LCS(child1, child2);
+        this.depth--;
         const score = this.resultToScore(result);
 
         const score11 = C[i-1][j-1] + score;
@@ -879,6 +901,36 @@ class HTMLTreeDiff {
     }
 
     return D[len1][len2];
+  }
+
+  // Allocate matrix for LCS with (w, h) size, at `depth` depth.
+  // This can return a matrix from pool, if available.
+  getOrAllocateC(h, w, depth) {
+    if (depth < this.poolC.length &&
+        w < this.poolWidth && h < this.poolWidth) {
+      return this.poolC[depth];
+    }
+
+    const C = new Array(h);
+    for (let i = 0; i < h; i++) {
+      C[i] = new Array(w);
+    }
+    return C;
+  }
+
+  // Allocate matrix for LCS score result with (w, h) size, at `depth` depth.
+  // This can return a matrix from pool, if available.
+  getOrAllocateD(h, w, depth) {
+    if (depth < this.poolD.length &&
+        w < this.poolWidth && h < this.poolWidth) {
+      return this.poolD[depth];
+    }
+
+    const D = new Array(h);
+    for (let i = 0; i < h; i++) {
+      D[i] = new Array(w);
+    }
+    return D;
   }
 
   // Calculates a score for the difference, in [0,1] range.
