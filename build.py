@@ -251,12 +251,6 @@ class LocalRepository:
         p.wait()
 
     @classmethod
-    def add_remote(cls, name, url):
-        subprocess.run(['git', 'remote', 'add', name, url],
-                       cwd=cls.DIR,
-                       check=False)
-
-    @classmethod
     def revs(cls, revset):
         pretty = '%n'.join([
             'hash:%H',
@@ -570,24 +564,24 @@ class PRs:
 
     def __update_with(data, skip_cache):
         pr = PRInfo.create(data)
+        prnum = pr['number']
         url = data['head']['repo']['clone_url']
 
         if not skip_cache and CacheChecker.is_pr_cached(pr):
-            Logger.info('skip PR {} (cached)'.format(pr['number']))
+            Logger.info('skip PR {} (cached)'.format(prnum))
             return False
 
-        FileUtils.mkdir_p(Paths.rev_parent_dir(pr['number']))
+        FileUtils.mkdir_p(Paths.rev_parent_dir(prnum))
 
-        LocalRepository.add_remote(pr['login'], url)
-        LocalRepository.fetch(pr['login'], pr['ref'])
+        LocalRepository.fetch('origin', '+refs/pull/{}/head'.format(prnum))
 
-        RevisionRenderer.run(pr['head'], pr['number'], skip_cache)
+        RevisionRenderer.run(pr['head'], prnum, skip_cache)
 
         pr['revs'] = list(LocalRepository.revs(
             ['origin/master..{}'.format(pr['head'])]))
 
         info_json = json.dumps(pr)
-        FileUtils.write(Paths.pr_info_path(pr['number']), info_json)
+        FileUtils.write(Paths.pr_info_path(prnum), info_json)
 
         for parent in PRInfo.parents(pr):
             RevisionRenderer.run(parent, None, skip_cache)
