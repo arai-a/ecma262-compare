@@ -199,7 +199,7 @@ class HTMLTreeDiffWorker {
 
     const THRESHOLD = 0.1;
     if (score < THRESHOLD) {
-      return Number.EPSILON;
+      return 0;
     }
     return score;
   }
@@ -271,7 +271,7 @@ class HTMLTreeDiffWorker {
       } else if (i > 0 && C[i][j] === C[i - 1][j]) {
         this.prependChildDel(parentObj, nodeObj1.childNodes[i - 1]);
         i--;
-      } else if (i > 0 && j > 0 && C[i][j] - C[i - 1][j - 1] < 1 - Number.EPSILON) {
+      } else if (i > 0 && j > 0 && C[i][j] - C[i - 1][j - 1] < 1) {
         if (typeof nodeObj2.childNodes[j - 1] === "string") {
           this.prependChildIns(parentObj, nodeObj2.childNodes[j - 1]);
           j--;
