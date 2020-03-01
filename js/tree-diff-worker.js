@@ -197,7 +197,7 @@ class HTMLTreeDiffWorker {
     const diffFactor = (r.del > 0 && r.ins > 0) ? 2 : 1;
     const score = r.same / (r.same + (r.del + r.ins) * diffFactor);
 
-    const THRESHOLD = 0.3;
+    const THRESHOLD = 0.1;
     if (score < THRESHOLD) {
       return Number.EPSILON;
     }
