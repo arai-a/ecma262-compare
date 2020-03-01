@@ -760,8 +760,6 @@ class HTMLTreeDiff {
     }
 
     if (nodeObj1.name !== nodeObj2.name) {
-      // NOTE: numTexts should always be non-zero, given we add empty text
-      // inside splitForDiff.
       return {
         del: nodeObj1.numTexts,
         ins: nodeObj2.numTexts,
@@ -770,8 +768,6 @@ class HTMLTreeDiff {
     }
 
     if (nodeObj1.id !== nodeObj2.id) {
-      // NOTE: numTexts should always be non-zero, given we add empty text
-      // inside splitForDiff.
       return {
         del: nodeObj1.numTexts,
         ins: nodeObj2.numTexts,
@@ -904,6 +900,10 @@ class HTMLTreeDiff {
   // Calculates a score for the difference, in [0,1] range.
   // 1 means no difference, and 0 means completely different.
   resultToScore(r) {
+    if (r.same + r.del + r.ins == 0) {
+      return 1;
+    }
+
     // If both ins and del are there, it's more likely that entire replace
     // is intended. Reduce the score to reflect it.
     const diffFactor = (r.del > 0 && r.ins > 0) ? 2 : 1;
