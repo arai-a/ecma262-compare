@@ -540,7 +540,6 @@ class HTMLTreeDiff {
 
   // Calculate diff between 2 DOM tree.
   diff(diffNode, node1, node2) {
-    let T = Date.now(), N;
     this.addNumbering("1-", node1);
     this.addNumbering("2-", node2);
 
@@ -599,17 +598,17 @@ class HTMLTreeDiff {
       }
     }
 
-    return this.createPlainObject(node.nodeName.toLowerCase(), node.id,
-                                  attributes);
+    return this.createPlainObject(
+      node.nodeName.toLowerCase(), node.id, attributes);
   }
 
   // Create a plain object representation for an empty DOM element.
   createPlainObject(name, id = undefined, attributes = {}) {
     return {
-      name,
-      id,
       attributes,
       childNodes: [],
+      id,
+      name,
     };
   }
 
@@ -673,7 +672,7 @@ class HTMLTreeDiff {
   // Also, `LCSToDiff` always places `ins` after `del`, but `combineNodes` can
   // merge 2 nodes where first one ends with `ins` and the second one starts
   // with `del`. `swapInsDel` fixes up the order.
-   splitForDiff(node1, node2) {
+  splitForDiff(node1, node2) {
     const [html1, html2] = HTMLPathDiff.splitForDiff(
       node1.innerHTML, node2.innerHTML);
     node1.innerHTML = html1;
@@ -908,10 +907,10 @@ class HTMLTreeDiff {
   // Clone nodeObj, without child nodes.
   shallowClone(nodeObj) {
     return {
-      name: nodeObj.name,
-      id: nodeObj.id,
       attributes: nodeObj.attributes,
       childNodes: [],
+      id: nodeObj.id,
+      name: nodeObj.name,
     };
   }
 
@@ -1283,33 +1282,28 @@ class Comparator {
     }
 
     if ("rev" in queryParams) {
-      this.updateUI({
-        type: "rev",
+      this.updateUI("rev", {
         rev: queryParams.rev,
         section,
       });
     } else if ("pr" in queryParams) {
-      this.updateUI({
-        type: "pr",
+      this.updateUI("pr", {
         pr: queryParams.pr,
         section,
       });
     } else if ("from" in queryParams && "to" in queryParams) {
-      this.updateUI({
-        type: "from-to",
+      this.updateUI("from-to", {
         from: queryParams.from,
-        to: queryParams.to,
         section,
+        to: queryParams.to,
       });
     } else {
-      this.updateUI({
-        type: "from-to",
-      });
+      this.updateUI("from-to", {});
     }
   }
 
-  async updateUI(params) {
-    if (params.type === "rev") {
+  async updateUI(type, params) {
+    if (type === "rev") {
       const hash = params.rev;
       if (hash in this.revMap) {
         this.revFilter.value = hash;
@@ -1317,7 +1311,7 @@ class Comparator {
       }
 
       this.prFilter.value = "-";
-    } else if (params.type === "pr") {
+    } else if (type === "pr") {
       const prnum = params.pr;
       if (prnum in this.prMap) {
         this.prFilter.value = prnum;
@@ -1326,7 +1320,7 @@ class Comparator {
       }
 
       this.revFilter.value = "-";
-    } else if (params.type === "from-to") {
+    } else if (type === "from-to") {
       if ("from" in params) {
         const from = params.from;
         if (from in this.revMap) {
@@ -1872,29 +1866,25 @@ class Comparator {
   }
 
   async onPRFilterChange() {
-    this.updateUI({
-      type: "pr",
+    this.updateUI("pr", {
       pr: this.prFilter.value,
     });
   }
 
   async onRevFilterChange() {
-    this.updateUI({
-      type: "rev",
+    this.updateUI("rev", {
       rev: this.revFilter.value,
     });
   }
 
   async onFromRevChange() {
-    this.updateUI({
-      type: "from-to",
+    this.updateUI("from-to", {
       rev: this.revFilter.value,
     });
   }
 
   async onToRevChange() {
-    this.updateUI({
-      type: "from-to",
+    this.updateUI("from-to", {
       rev: this.revFilter.value,
     });
   }
