@@ -1272,14 +1272,14 @@ class Comparator {
     opt.textContent = "-";
     menu.appendChild(opt);
 
-    const maxTitleLength = 80;
+    const MAX_TITLE_LENGTH = 80;
 
     for (const pr of this.prs) {
       const opt = document.createElement("option");
       opt.value = pr.number;
       let title = pr.title;
-      if (title.length > maxTitleLength) {
-        title = title.slice(0, maxTitleLength - 1) + "\u2026";
+      if (title.length > MAX_TITLE_LENGTH) {
+        title = title.slice(0, MAX_TITLE_LENGTH - 1) + "\u2026";
       }
       opt.textContent = `#${pr.number}: ${title} (${pr.login}/${pr.ref})`;
       menu.appendChild(opt);
@@ -1299,6 +1299,8 @@ class Comparator {
     opt.textContent = "-";
     menu.appendChild(opt);
 
+    const MAX_SUBJECT_LENGTH = 80;
+
     for (const rev of this.revs) {
       const parent = this.getFirstParent(rev);
       if (!(parent in this.revMap)) {
@@ -1307,7 +1309,11 @@ class Comparator {
 
       const opt = document.createElement("option");
       opt.value = rev.hash;
-      opt.textContent = `${rev.hash} (${DateUtils.toReadable(rev.date)})`;
+      let subject = rev.subject;
+      if (subject.length > MAX_SUBJECT_LENGTH) {
+        subject = subject.slice(0, MAX_SUBJECT_LENGTH - 1) + "\u2026";
+      }
+      opt.textContent = `${rev.hash} (${DateUtils.toReadable(rev.date)}) ${subject}`;
       menu.appendChild(opt);
     }
   }
