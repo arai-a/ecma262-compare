@@ -224,6 +224,7 @@ option.mod {
 
 .htmldiff-change {
     display: inline;
+    padding: 0 2px;
 }
 
 .htmldiff-del, .htmldiff-del * {
