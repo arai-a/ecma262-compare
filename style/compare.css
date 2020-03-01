@@ -1,3 +1,5 @@
+/* ==== controller ==== */
+
 #controller {
     border-top: 1px solid #c0c0c0;
     padding: 0;
@@ -5,6 +7,8 @@
     width: 100%;
     grid-template-columns: 8em 1fr;
 }
+
+/* ==== filter ==== */
 
 #search-label,
 #pr-filter-label,
@@ -32,6 +36,42 @@
     padding: 0 8px;
 }
 
+select, option {
+    font-family: monospace;
+}
+
+option.del {
+    background-color: #ffd0d0;
+}
+option.ins {
+    background-color: #d0ffd0;
+}
+option.mod {
+    background-color: #d0d0ff;
+}
+
+/* ==== revision info ==== */
+
+#from-rev-subject,
+#to-rev-subject {
+    font-size: 0.8em;
+    color: #707070;
+}
+
+#from-rev-note,
+#to-rev-note {
+    font-size: 0.9em;
+    color: #707070;
+}
+
+.rev-author-and-date {
+    font-size: 0.6em;
+    color: #707070;
+}
+
+
+/* ==== tabs ==== */
+
 #tabs {
     display: flex;
     flex-direction: row;
@@ -54,12 +94,21 @@
     border-bottom: none;
 }
 
-#github-link {
-    position: absolute;
-    right: 4px;
-    top: 4px;
-    opacity: 0.3;
+#diff-stat {
+    border-bottom: 1px solid #808080;
+    color: #707070;
+    padding: 0 4px;
+    flex: 1;
 }
+
+#path-diff-box {
+    border-bottom: 1px solid #808080;
+    padding: 0 4px;
+    font-size: 0.8em;
+    color: #707070;
+}
+
+/* ==== scroller ==== */
 
 #scroller {
     z-index: 10;
@@ -130,6 +179,26 @@
     content: "Scroll to next diff"
 }
 
+/* ==== result ==== */
+
+#result {
+    padding: 0 20px;
+}
+
+#result h1 {
+    font-size: 1.2em !important;
+}
+
+.diff-view ol li {
+    list-style-type: none;
+}
+
+#result.combined div[id^="excluded-"] {
+    display: none;
+}
+
+/* ==== diff highlight ==== */
+
 .htmldiff-ins,
 .htmldiff-del {
     transition-property: background-color;
@@ -148,24 +217,6 @@
   transition: none;
 }
 
-#result {
-    padding: 0 20px;
-}
-
-select, option {
-    font-family: monospace;
-}
-
-option.del {
-    background-color: #ffd0d0;
-}
-option.ins {
-    background-color: #d0ffd0;
-}
-option.mod {
-    background-color: #d0d0ff;
-}
-
 .htmldiff-del {
     display: inline;
 }
@@ -180,61 +231,13 @@ option.mod {
     text-decoration: line-through !important;
 }
 
-#result h1 {
-    font-size: 1.2em !important;
-}
-
-#search-hit {
-    font-size: 0.9em;
-    color: #707070;
-}
-
-.diff-view ol li {
-    list-style-type: none;
-}
-
-#diff-stat {
-    border-bottom: 1px solid #808080;
-    color: #707070;
-    padding: 0 4px;
-    flex: 1;
-}
-
-#path-diff-box {
-    border-bottom: 1px solid #808080;
-    padding: 0 4px;
-    font-size: 0.8em;
-    color: #707070;
-}
-
-#result.combined div[id^="excluded-"] {
-    display: none;
-}
-
-.rev-header-cell {
-    vertical-align: top;
-}
-
-#from-rev-subject,
-#to-rev-subject {
-    font-size: 0.8em;
-    color: #707070;
-}
-
-#from-rev-note,
-#to-rev-note {
-    font-size: 0.9em;
-    color: #707070;
-}
-
-.rev-author-and-date {
-    font-size: 0.6em;
-    color: #707070;
-}
+/* ==== work box ==== */
 
 #work-box-container {
     display: none;
 }
+
+/* ==== single section button ==== */
 
 .single-section-button {
     color: rgb(185,115,255);
