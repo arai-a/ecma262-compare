@@ -129,12 +129,12 @@
     content: "Scroll to next diff"
 }
 
-.htmldiff-add,
+.htmldiff-ins,
 .htmldiff-del {
     transition-property: background-color;
     transition-duration: 1s;
 }
-.htmldiff-add.htmldiff-highllight {
+.htmldiff-ins.htmldiff-highllight {
     background-color: #5cd95c;
 }
 .htmldiff-del.htmldiff-highllight {
@@ -152,7 +152,7 @@ select, option {
 option.del {
     background-color: #ffd0d0;
 }
-option.add {
+option.ins {
     background-color: #d0ffd0;
 }
 option.mod {
@@ -162,10 +162,10 @@ option.mod {
 .htmldiff-del {
     display: inline;
 }
-.htmldiff-add {
+.htmldiff-ins {
     display: inline;
 }
-.htmldiff-add *,
+.htmldiff-ins *,
 .htmldiff-del * {
     background-color: inherit;
 }

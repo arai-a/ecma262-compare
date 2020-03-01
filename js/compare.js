@@ -379,7 +379,7 @@ class HTMLPathDiff {
     const seq = [];
 
     const INS_NAME = `ins`;
-    const INS_TAG = `<ins class="htmldiff-add htmldiff-change">`;
+    const INS_TAG = `<ins class="htmldiff-ins htmldiff-change">`;
     const DEL_NAME = `del`;
     const DEL_TAG = `<del class="htmldiff-del htmldiff-change">`;
 
@@ -1071,7 +1071,7 @@ class HTMLTreeDiff {
 
   createIns() {
     return this.createPlainObject("ins", undefined, {
-      "class": "htmldiff-add htmldiff-change",
+      "class": "htmldiff-ins htmldiff-change",
     });
   }
 
@@ -1131,7 +1131,7 @@ class HTMLTreeDiff {
   //
   // See `splitForDiff` for more details.
   swapInsDel(node) {
-    for (const child of [...node.getElementsByClassName("htmldiff-add")]) {
+    for (const child of [...node.getElementsByClassName("htmldiff-ins")]) {
       if (!child.nextSibling) {
         continue;
       }
@@ -1605,7 +1605,7 @@ class Comparator {
           mark = "-\u00A0";
         }
       } else {
-        stat = "add";
+        stat = "ins";
         mark = "+\u00A0";
       }
 
@@ -1783,21 +1783,21 @@ class Comparator {
 
       await this.combineSections(sections, "diff");
 
-      const add = this.result.getElementsByClassName("htmldiff-add").length;
+      const ins = this.result.getElementsByClassName("htmldiff-ins").length;
       const del = this.result.getElementsByClassName("htmldiff-del").length;
 
       let note = "";
-      if (add === 0 && del === 0 && differ) {
+      if (ins === 0 && del === 0 && differ) {
         note = " (changes in markup or something)";
       }
 
-      if (add === 0 && del === 0) {
+      if (ins === 0 && del === 0) {
         this.scroller.style.display = "none";
       } else {
         this.scroller.style.display = "block";
       }
 
-      this.diffStat.textContent = `+${add} -${del}${note}`;
+      this.diffStat.textContent = `+${ins} -${del}${note}`;
     } else {
       this.scroller.style.display = "none";
       this.result.classList.remove("diff-view");
