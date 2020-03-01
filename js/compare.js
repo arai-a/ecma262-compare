@@ -2,6 +2,10 @@
 
 const REPO_URL = "https://github.com/tc39/ecma262";
 
+function sleep(t) {
+  return new Promise(r => setTimeout(r, t));
+}
+
 // Insert list marker into list element.
 //
 // While creating diff, extra list element can be added.
@@ -1844,27 +1848,29 @@ class Comparator {
     if (this.processing) {
       this.abortProcessing = true;
       do {
-        await new Promise(r => setTimeout(r, 100));
+        await sleep(100);
       } while (this.processing);
       this.abortProcessing = false;
     }
 
     this.processing = true;
 
+    const BLOCK_LIMIT = 50;
+    let lastSleep = Date.now();
     let i = 0;
+
     const len = sections.size;
 
     this.result.textContent = "";
     for (const [id, HTML] of sections) {
-      if (len > 1) {
-        i++;
-        if (i % 7 === 0) {
-          this.diffStat.textContent = `generating sections... ${i}/${len}`;
-          await new Promise(r => setTimeout(r, 1));
+      i++;
+      if (Date.now() > lastSleep + BLOCK_LIMIT) {
+        this.diffStat.textContent = `generating sections... ${i}/${len}`;
+        await sleep(1);
+        lastSleep = Date.now();
 
-          if (this.abortProcessing) {
-            break;
-          }
+        if (this.abortProcessing) {
+          break;
         }
       }
 
@@ -1959,19 +1965,21 @@ class Comparator {
 
     const links = this.result.getElementsByTagName("a");
 
+    const BLOCK_LIMIT = 50;
+    let lastSleep = Date.now();
     let i = 0;
+
     const len = links.length;
 
     for (const link of links) {
-      if (len > 1) {
-        i++;
-        if (i % 97 === 0) {
-          this.diffStat.textContent = `fixing links up... ${i}/${len}`;
-          await new Promise(r => setTimeout(r, 1));
+      i++;
+      if (Date.now() > lastSleep + BLOCK_LIMIT) {
+        this.diffStat.textContent = `fixing links up... ${i}/${len}`;
+        await sleep(1);
+        lastSleep = Date.now();
 
-          if (this.abortProcessing) {
-            break;
-          }
+        if (this.abortProcessing) {
+          break;
         }
       }
 
