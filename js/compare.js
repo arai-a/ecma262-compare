@@ -882,9 +882,8 @@ class HTMLTreeDiff {
   resultToScore(r) {
     // If both ins and del are there, it's more likely that entire replace
     // is intended. Reduce the score to reflect it.
-    const score = (r.del > 0 && r.ins > 0)
-          ? r.same / (r.same + (r.del + r.ins) * 2)
-          : r.same / (r.same + r.del + r.ins);
+    const diffFactor = (r.del > 0 && r.ins > 0) ? 2 : 1;
+    const score = r.same / (r.same + (r.del + r.ins) * diffFactor);
 
     const THRESHOLD = 0.3;
     if (score < THRESHOLD) {
