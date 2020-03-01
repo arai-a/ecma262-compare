@@ -900,7 +900,7 @@ class HTMLTreeDiff {
   // Calculates a score for the difference, in [0,1] range.
   // 1 means no difference, and 0 means completely different.
   resultToScore(r) {
-    if (r.same + r.del + r.ins == 0) {
+    if (r.same + r.del + r.ins === 0) {
       return 1;
     }
 
@@ -1717,14 +1717,18 @@ class Comparator {
         params.push(`id=${encodeURIComponent(id)}`);
       }
     } else {
-      params.push(`from=${this.hashOf("from")}`);
-      params.push(`to=${this.hashOf("to")}`);
-      if (id !== "combined") {
-        params.push(`id=${encodeURIComponent(id)}`);
+      const from = this.hashOf("from");
+      const to = this.hashOf("to");
+      if (from !== to) {
+        params.push(`from=${this.hashOf("from")}`);
+        params.push(`to=${this.hashOf("to")}`);
+        if (id !== "combined") {
+          params.push(`id=${encodeURIComponent(id)}`);
+        }
       }
     }
 
-    const query = `?${params.join("&")}`;
+    const query = params.length > 0 ? `?${params.join("&")}` : "";
     if (query !== this.currentQuery) {
       this.currentQuery = query;
       window.history.pushState(
