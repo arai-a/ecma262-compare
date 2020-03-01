@@ -760,6 +760,8 @@ class HTMLTreeDiff {
     }
 
     if (nodeObj1.name !== nodeObj2.name) {
+      // NOTE: numTexts should always be non-zero, given we add empty text
+      // inside splitForDiff.
       return {
         del: nodeObj1.numTexts,
         ins: nodeObj2.numTexts,
@@ -768,6 +770,8 @@ class HTMLTreeDiff {
     }
 
     if (nodeObj1.id !== nodeObj2.id) {
+      // NOTE: numTexts should always be non-zero, given we add empty text
+      // inside splitForDiff.
       return {
         del: nodeObj1.numTexts,
         ins: nodeObj2.numTexts,
