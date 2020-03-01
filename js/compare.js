@@ -127,413 +127,55 @@ class ListMarkUtils {
   }
 }
 
-// Calculate diff between 2 HTML fragments, based on text+path based LCS.
-//
-// The HTML fragment shouldn't omit closing tag, if it's not empty tag.
+class PromiseWorker {
+  constructor(path) {
+    this.nextId = 0;
+    this.resolveMap = {};
+    this.worker = new Worker(path);
+    this.worker.onmessage = msg => {
+      const id = msg.data.id;
+      const resolve = this.resolveMap[id];
+      delete this.resolveMap[id];
+      resolve(msg.data.data);
+    };
+  }
+
+  async run(data) {
+    const id = this.nextId;
+    this.nextId++;
+    if (this.nextId > 1000000) {
+      this.nextId = 0;
+    }
+
+    return new Promise(resolve => {
+      this.resolveMap[id] = resolve;
+
+      this.worker.postMessage({
+        data,
+        id,
+      });
+    });
+  }
+}
+
+const HTMLPathDiffWorker = new PromiseWorker("./js/path-diff-worker.js");
+const HTMLTreeDiffWorker = new PromiseWorker("./js/tree-diff-worker.js");
+
 class HTMLPathDiff {
-  // Calculate diff between 2 HTML fragments.
   static diff(s1, s2) {
-    const seq1 = this.toSeq(s1);
-    const seq2 = this.toSeq(s2);
-
-    const C = this.LCS(seq1, seq2);
-    const diff = this.LCSToDiff(seq1, seq2, C);
-    const seq = this.diffToSeq(diff);
-
-    return this.fromSeq(seq);
-  }
-
-  // Convert a HTML fragment into a sequence of text or empty tag, with
-  // path information.
-  static toSeq(s) {
-    const seq = [];
-    const name_stack = [];
-    const sel_stack = [];
-    const tag_stack = [];
-    for (const t of this.tokenize(s)) {
-      switch (t.type) {
-        case "o": {
-          name_stack.push(t.name);
-          if (t.id) {
-            sel_stack.push(t.name + "#" + t.id);
-          } else {
-            sel_stack.push(t.name);
-          }
-          tag_stack.push(t.tag);
-          break;
-        }
-        case "c": {
-          name_stack.pop();
-          sel_stack.pop();
-          tag_stack.pop();
-          break;
-        }
-        case "t": {
-          const text = t.text;
-          const path = sel_stack.join("/");
-
-          seq.push({
-            name_stack: name_stack.slice(),
-            path,
-            sel_stack: sel_stack.slice(),
-            tag_stack: tag_stack.slice(),
-            text,
-          });
-        }
-      }
-    }
-    return seq;
-  }
-
-  // Tokenize HTML fragment into text, empty tag, opening tag, and closing tag.
-  static *tokenize(s) {
-    const emptyTags = new Set([
-      "area",
-      "base",
-      "br",
-      "col",
-      "embed",
-      "hr",
-      "img",
-      "input",
-      "link",
-      "meta",
-      "param",
-      "source",
-      "track",
-      "wbr",
-    ]);
-
-    let i = 0;
-    let start = 0;
-    let prev = "";
-    const len = s.length;
-
-    while (i < len) {
-      const c = s.charAt(i);
-      if (c === "<") {
-        if (start !== i) {
-          yield {
-            text: s.slice(start, i),
-            type: "t",
-          };
-        }
-
-        const re = /[^> \t\r\n]+/g;
-        re.lastIndex = i + 1;
-        const result = re.exec(s);
-
-        const to = s.indexOf(">", i + 1);
-
-        const name = result[0];
-        const tag = s.slice(i, to + 1);
-
-        if (name.startsWith("/")) {
-          // If the current element has no content,
-          // Put empty text, so that `toSeq` creates empty text inside
-          // this element..
-          //
-          // Otherwise `toSeq` won't create any info about this element.
-          if (prev === "o") {
-            yield {
-              text: "",
-              type: "t",
-            };
-          }
-
-          yield {
-            name,
-            tag,
-            type: "c",
-          };
-          prev = "c";
-        } else if (emptyTags.has(name)) {
-          // Empty tag is treated as text.
-          yield {
-            text: tag,
-            type: "t",
-          };
-          prev = "t";
-        } else {
-          // If there's opening tag immediately after closing tag,
-          // put empty text, so that `toSeq` creates empty text at
-          // parent node, between 2 elements
-          // (one closed here, and one opened here).
-          //
-          // Otherwise `toSeq` will concatenate 2 elements if they're same.
-          if (prev === "c") {
-            yield {
-              text: "",
-              type: "t",
-            };
-          }
-
-          let id = undefined;
-          const m = tag.match(` id="([^"]+)"`);
-          if (m) {
-            id = m[1];
-          }
-
-          yield {
-            id,
-            name,
-            tag,
-            type: "o",
-          };
-          prev = "o";
-        }
-        i = to + 1;
-        start = i;
-      } else if (c.match(/[ \t\r\n]/)) {
-        const re = /[ \t\r\n]+/g;
-        re.lastIndex = start;
-        const result = re.exec(s);
-        yield {
-          text: s.slice(start, i) + result[0],
-          type: "t",
-        };
-        prev = "t";
-        i += result[0].length;
-        start = i;
-      } else {
-        i++;
-      }
-    }
-
-    if (start < len) {
-      yield {
-        text: s.slice(start),
-        type: "t",
-      };
-    }
-  }
-
-  // Calculate the matrix for Longest Common Subsequence of 2 sequences.
-  static LCS(seq1, seq2) {
-    const len1 = seq1.length;
-    const len2 = seq2.length;
-    const C = new Array(len1 + 1);
-    for (let i = 0; i < len1 + 1; i++) {
-      C[i] = new Array(len2 + 1);
-    }
-    for (let i = 0; i < len1 + 1; i++) {
-      C[i][0] = 0;
-    }
-    for (let j = 0; j < len2 + 1; j++) {
-      C[0][j] = 0;
-    }
-
-    function isDiff(s1, s2) {
-      // Do not count the difference in attributes,h.
-      return s1.text !== s2.text || s1.path !== s2.path;
-    }
-
-    for (let i = 1; i < len1 + 1; i++) {
-      for (let j = 1; j < len2 + 1; j++) {
-        if (!isDiff(seq1[i - 1], seq2[j - 1])) {
-          C[i][j] = C[i-1][j-1] + 1;
-        } else {
-          C[i][j] = Math.max(C[i][j-1], C[i-1][j]);
-        }
-      }
-    }
-
-    return C;
-  }
-
-  // Convert 2 sequences and the LCS matrix into a sequence of diff.
-  static LCSToDiff(seq1, seq2, C) {
-    const len1 = seq1.length;
-    const len2 = seq2.length;
-    const diff = [];
-
-    for (let i = len1, j = len2; i > 0 || j > 0;) {
-      if ((i > 0 && j > 0 && C[i][j] === C[i - 1][j - 1]) ||
-          (j > 0 && C[i][j] === C[i][j - 1])) {
-        diff.push({
-          item: seq2[j - 1],
-          op: "+",
-        });
-        j--;
-      } else if (i > 0 && C[i][j] === C[i - 1][j]) {
-        diff.push({
-          item: seq1[i - 1],
-          op: "-",
-        });
-        i--;
-      } else {
-        diff.push({
-          item: seq1[i - 1],
-          item2: seq2[j - 1],
-          op: " ",
-        });
-        i--;
-        j--;
-      }
-    }
-
-    diff.reverse();
-
-    return diff;
-  }
-
-  // Convert a sequence of diff into a sequence of text or empty tag, with
-  // path information.
-  static diffToSeq(diff) {
-    const seq = [];
-
-    const INS_NAME = `ins`;
-    const INS_TAG = `<ins class="htmldiff-ins htmldiff-change">`;
-    const DEL_NAME = `del`;
-    const DEL_TAG = `<del class="htmldiff-del htmldiff-change">`;
-
-    for (const d of diff) {
-      switch (d.op) {
-        case " ": {
-          seq.push(d.item);
-          break;
-        }
-        case "+":
-        case "-": {
-          const new_name_stack = d.item.name_stack.slice();
-          const new_sel_stack = d.item.sel_stack.slice();
-          const new_tag_stack = d.item.tag_stack.slice();
-
-          // FIXME: Instead of the leaf, put ins/del somewhere in the stack.
-          //        https://github.com/arai-a/ecma262-compare/issues/13
-          switch (d.op) {
-            case "+": {
-              new_name_stack.push(INS_NAME);
-              new_sel_stack.push(INS_NAME);
-              new_tag_stack.push(INS_TAG);
-              break;
-            }
-            case "-": {
-              new_name_stack.push(DEL_NAME);
-              new_sel_stack.push(DEL_NAME);
-              new_tag_stack.push(DEL_TAG);
-              break;
-            }
-          }
-
-          seq.push({
-            name_stack: new_name_stack,
-            path: new_sel_stack.join("/"),
-            sel_stack: new_sel_stack,
-            tag_stack: new_tag_stack,
-            text: d.item.text,
-          });
-          break;
-        }
-      }
-    }
-
-    return seq;
-  }
-
-  // Convert a sequence of text or empty tag, with path information into
-  // HTML fragment.
-  static fromSeq(seq) {
-    const name_stack = [];
-    const sel_stack = [];
-    const tag_stack = [];
-
-    const ts = [];
-
-    for (const s of seq) {
-      let i = 0;
-      // Skip common ancestor.
-      for (; i < s.sel_stack.length; i++) {
-        if (s.sel_stack[i] !== sel_stack[i]) {
-          break;
-        }
-      }
-
-      // Close tags that are not part of current text.
-      while (i < name_stack.length) {
-        sel_stack.pop();
-        tag_stack.pop();
-        const name = name_stack.pop();
-        ts.push(`</${name}>`);
-      }
-
-      // Open remaining tags that are ancestor of current text.
-      for (; i < s.name_stack.length; i++) {
-        name_stack.push(s.name_stack[i]);
-        sel_stack.push(s.sel_stack[i]);
-        const tag = s.tag_stack[i];
-        tag_stack.push(tag);
-        ts.push(tag);
-      }
-
-      ts.push(s.text);
-    }
-
-    return ts.join("");
+    return HTMLPathDiffWorker.run({
+      s1,
+      s2,
+      type: "diff",
+    });
   }
 
   static splitForDiff(s1, s2) {
-    const seq1 = this.toSeq(s1);
-    const seq2 = this.toSeq(s2);
-
-    const C = this.LCS(seq1, seq2);
-    const diff = this.LCSToDiff(seq1, seq2, C);
-
-    const [splitSeq1, splitSeq2] = this.split(diff);
-    return [this.fromSeq(splitSeq1), this.fromSeq(splitSeq2)];
-  }
-
-  static split(diff) {
-    let prevStackDepth1 = 0;
-    let prevStackDepth2 = 0;
-
-    const splitSeq1 = [];
-    const splitSeq2 = [];
-    for (const d of diff) {
-      switch (d.op) {
-        case " ": {
-          splitSeq1.push(d.item);
-          prevStackDepth1 = d.item.path.length;
-
-          splitSeq2.push(d.item2);
-          prevStackDepth2 = d.item.path.length;
-          break;
-        }
-        case "-": {
-          splitSeq1.push(d.item);
-          prevStackDepth1 = d.item.path.length;
-
-          if (prevStackDepth2 > d.item.path.length) {
-            splitSeq2.push({
-              name_stack: d.item.name_stack,
-              path: d.item.path,
-              sel_stack: d.item.sel_stack,
-              tag_stack: d.item.tag_stack,
-              text: "",
-            });
-            prevStackDepth2 = d.item.path.length;
-          }
-          break;
-        }
-        case "+": {
-          if (prevStackDepth1 > d.item.path.length) {
-            splitSeq1.push({
-              name_stack: d.item.name_stack,
-              path: d.item.path,
-              sel_stack: d.item.sel_stack,
-              tag_stack: d.item.tag_stack,
-              text: "",
-            });
-            prevStackDepth1 = d.item.path.length;
-          }
-          splitSeq2.push(d.item);
-          prevStackDepth2 = d.item.path.length;
-          break;
-        }
-      }
-    }
-
-    return [splitSeq1, splitSeq2];
+    return HTMLPathDiffWorker.run({
+      s1,
+      s2,
+      type: "splitForDiff",
+    });
   }
 }
 
@@ -547,30 +189,18 @@ class HTMLTreeDiff {
     this.addNumbering("1-", node1);
     this.addNumbering("2-", node2);
 
-    const BLOCK_LIMIT = 50;
-    const start = Date.now();
-
-    this.splitForDiff(node1, node2);
+    await this.splitForDiff(node1, node2);
 
     this.combineNodes(node1, "li");
     this.combineNodes(node2, "li");
 
-    // splitForDiff can take at most the same time as remaining part.
-    // Sleep here if necessary, to improved the responsiveness.
-    if (Date.now() > start + BLOCK_LIMIT) {
-      await sleep(1);
-    }
-
-    this.LCSMapMap = new Map();
-
     const nodeObj1 = this.DOMTreeToPlainObject(node1);
     const nodeObj2 = this.DOMTreeToPlainObject(node2);
-    const diffNodeObj = this.createPlainObject("div");
 
-    this.depth = 0;
-    this.LCS(nodeObj1, nodeObj2);
-
-    this.LCSToDiff(diffNodeObj, nodeObj1, nodeObj2);
+    const diffNodeObj = await HTMLTreeDiffWorker.run({
+      nodeObj1,
+      nodeObj2,
+    });
 
     const tmp = this.plainObjectToDOMTree(diffNodeObj);
     for (const child of tmp.childNodes) {
@@ -608,6 +238,31 @@ class HTMLTreeDiff {
     }
 
     return result;
+  }
+
+  // Remove unnecessary whitespace texts that can confuse diff algorithm.
+  //
+  // Diff algorithm used here isn't good at finding diff in repeating
+  // structure, such as list element, separated by same whitespaces.
+  //
+  // Remove such whitespaces between each `li`, to reduce the confusion.
+  isUnnecessaryText(node) {
+    if (!/^[ \r\n\t]*$/.test(node.textContent)) {
+      return false;
+    }
+
+    if (node.previousSibling) {
+      if (node.previousSibling.nodeName.toLowerCase() === "li") {
+        return true;
+      }
+    }
+    if (node.nextSibling) {
+      if (node.nextSibling.nodeName.toLowerCase() === "li") {
+        return true;
+      }
+    }
+
+    return false;
   }
 
   // Convert single DOM element to object, without child nodes.
@@ -694,314 +349,11 @@ class HTMLTreeDiff {
   // Also, `LCSToDiff` always places `ins` after `del`, but `combineNodes` can
   // merge 2 nodes where first one ends with `ins` and the second one starts
   // with `del`. `swapInsDel` fixes up the order.
-  splitForDiff(node1, node2) {
-    const [html1, html2] = HTMLPathDiff.splitForDiff(
+  async splitForDiff(node1, node2) {
+    const [html1, html2] = await HTMLPathDiff.splitForDiff(
       node1.innerHTML, node2.innerHTML);
     node1.innerHTML = html1;
     node2.innerHTML = html2;
-  }
-
-  // Remove unnecessary whitespace texts that can confuse diff algorithm.
-  //
-  // Diff algorithm used here isn't good at finding diff in repeating
-  // structure, such as list element, separated by same whitespaces.
-  //
-  // Remove such whitespaces between each `li`, to reduce the confusion.
-  isUnnecessaryText(node) {
-    if (!/^[ \r\n\t]*$/.test(node.textContent)) {
-      return false;
-    }
-
-    if (node.previousSibling) {
-      if (node.previousSibling.nodeName.toLowerCase() === "li") {
-        return true;
-      }
-    }
-    if (node.nextSibling) {
-      if (node.nextSibling.nodeName.toLowerCase() === "li") {
-        return true;
-      }
-    }
-
-    return false;
-  }
-
-  // Calculates LCS for 2 nodes, stores it into `this.LCSMapMap`, and returns
-  // an object that represents how much they are different.
-  LCS(nodeObj1, nodeObj2) {
-    if (typeof nodeObj1 !== typeof nodeObj2) {
-      if (typeof nodeObj1 === "object") {
-        return {
-          del: nodeObj1.numTexts,
-          ins: 1,
-          same: 0,
-        };
-      }
-      return {
-        del: 1,
-        ins: nodeObj2.numTexts,
-        same: 0,
-      };
-    }
-
-    if (typeof nodeObj1 === "string") {
-      if (nodeObj1 !== nodeObj2) {
-        return {
-          del: 1,
-          ins: 1,
-          same: 0,
-        };
-      }
-      return {
-        del: 0,
-        ins: 0,
-        same: 1,
-      };
-    }
-
-    if (nodeObj1.name !== nodeObj2.name) {
-      return {
-        del: nodeObj1.numTexts,
-        ins: nodeObj2.numTexts,
-        same: 0,
-      };
-    }
-
-    if (nodeObj1.id !== nodeObj2.id) {
-      return {
-        del: nodeObj1.numTexts,
-        ins: nodeObj2.numTexts,
-        same: 0,
-      };
-    }
-
-    const len1 = nodeObj1.childNodes.length;
-    const len2 = nodeObj2.childNodes.length;
-
-    if (len1 === 0) {
-      if (len2 === 0) {
-        return {
-          del: 0,
-          ins: 0,
-          same: 1,
-        };
-      }
-      return {
-        del: 1,
-        ins: 1,
-        same: 0,
-      };
-    }
-    if (len2 === 0) {
-      return {
-        del: 1,
-        ins: 1,
-        same: 0,
-      };
-    }
-
-    const C = new Array(len1 + 1);
-    for (let i = 0; i < len1 + 1; i++) {
-      C[i] = new Array(len2 + 1);
-    }
-    for (let i = 0; i < len1 + 1; i++) {
-      C[i][0] = 0;
-    }
-    for (let j = 0; j < len2 + 1; j++) {
-      C[0][j] = 0;
-    }
-
-    const D = new Array(len1 + 1);
-    for (let i = 0; i < len1 + 1; i++) {
-      D[i] = new Array(len2 + 1);
-    }
-    for (let i = 0; i < len1 + 1; i++) {
-      D[i][0] = {
-        del: 0,
-        ins: 0,
-        same: 0,
-      };
-    }
-    for (let j = 0; j < len2 + 1; j++) {
-      D[0][j] = {
-        del: 0,
-        ins: 0,
-        same: 0,
-      };
-    }
-
-    if (this.LCSMapMap.has(nodeObj1)) {
-      this.LCSMapMap.get(nodeObj1).set(nodeObj2, C);
-    } else {
-      const m = new Map();
-      m.set(nodeObj2, C);
-      this.LCSMapMap.set(nodeObj1, m);
-    }
-
-    for (let i = 1; i < len1 + 1; i++) {
-      for (let j = 1; j < len2 + 1; j++) {
-        const child1 = nodeObj1.childNodes[i - 1];
-        const child2 = nodeObj2.childNodes[j - 1];
-
-        this.depth++;
-        const result = this.LCS(child1, child2);
-        this.depth--;
-        const score = this.resultToScore(result);
-
-        const score11 = C[i-1][j-1] + score;
-        const score01 = C[i][j-1];
-        const score10 = C[i-1][j];
-
-        if (score11 >= score01 && score11 >= score10) {
-          C[i][j] = score11;
-          D[i][j] = this.addResult(D[i-1][j-1], result);
-        } else if (score01 > score10) {
-          C[i][j] = score01;
-          if (typeof child2 === "string") {
-            const D01 = D[i][j-1];
-            D[i][j] = {
-              del: D01.del,
-              ins: D01.ins + 1,
-              same: D01.same,
-            };
-          } else {
-            const D01 = D[i][j-1];
-            D[i][j] = {
-              del: D01.del,
-              ins: D01.ins + child2.numTexts,
-              same: D01.same,
-            };
-          }
-        } else {
-          C[i][j] = score10;
-          if (typeof child1 === "string") {
-            const D10 = D[i-1][j];
-            D[i][j] = {
-              del: D10.del + 1,
-              ins: D10.ins,
-              same: D10.same,
-            };
-          } else {
-            const D10 = D[i-1][j];
-            D[i][j] = {
-              del: D10.del + child1.numTexts,
-              ins: D10.ins,
-              same: D10.same,
-            };
-          }
-        }
-      }
-    }
-
-    return D[len1][len2];
-  }
-
-
-  // Calculates a score for the difference, in [0,1] range.
-  // 1 means no difference, and 0 means completely different.
-  resultToScore(r) {
-    if (r.same + r.del + r.ins === 0) {
-      return 1;
-    }
-
-    // If both ins and del are there, it's more likely that entire replace
-    // is intended. Reduce the score to reflect it.
-    const diffFactor = (r.del > 0 && r.ins > 0) ? 2 : 1;
-    const score = r.same / (r.same + (r.del + r.ins) * diffFactor);
-
-    const THRESHOLD = 0.3;
-    if (score < THRESHOLD) {
-      return 0;
-    }
-    return score;
-  }
-
-  addResult(r1, r2) {
-    return {
-      del: r1.del + r2.del,
-      ins: r1.ins + r2.ins,
-      same: r1.same + r2.same,
-    };
-  }
-
-  // Convert LCS maps into diff tree.
-  LCSToDiff(parentObj, nodeObj1, nodeObj2) {
-    if (typeof nodeObj1 !== typeof nodeObj2) {
-      this.prependChildIns(parentObj, nodeObj2);
-      this.prependChildDel(parentObj, nodeObj1);
-      return;
-    }
-
-    if (typeof nodeObj1 === "string") {
-      if (nodeObj1 !== nodeObj2) {
-        this.prependChildIns(parentObj, nodeObj2);
-        this.prependChildDel(parentObj, nodeObj1);
-        return;
-      }
-
-      this.prependChild(parentObj, nodeObj2);
-      return;
-    }
-
-    if (nodeObj1.name !== nodeObj2.name) {
-      this.prependChildIns(parentObj, nodeObj2);
-      this.prependChildDel(parentObj, nodeObj1);
-      return;
-    }
-
-    if (nodeObj1.id !== nodeObj2.id) {
-      this.prependChildIns(parentObj, nodeObj2);
-      this.prependChildDel(parentObj, nodeObj1);
-      return;
-    }
-
-    const len1 = nodeObj1.childNodes.length;
-    const len2 = nodeObj2.childNodes.length;
-
-    if (len1 === 0) {
-      if (len2 === 0) {
-        this.prependChild(parentObj, nodeObj2);
-        return;
-      }
-      this.prependChildIns(parentObj, nodeObj2);
-      this.prependChildDel(parentObj, nodeObj1);
-      return;
-    }
-    if (len2 === 0) {
-      this.prependChildIns(parentObj, nodeObj2);
-      this.prependChildDel(parentObj, nodeObj1);
-      return;
-    }
-
-    const C = this.LCSMapMap.get(nodeObj1).get(nodeObj2);
-
-    for (let i = len1, j = len2; i > 0 || j > 0;) {
-      if ((i > 0 && j > 0 && C[i][j] === C[i - 1][j - 1]) ||
-          (j > 0 && C[i][j] === C[i][j - 1])) {
-        this.prependChildIns(parentObj, nodeObj2.childNodes[j - 1]);
-        j--;
-      } else if (i > 0 && C[i][j] === C[i - 1][j]) {
-        this.prependChildDel(parentObj, nodeObj1.childNodes[i - 1]);
-        i--;
-      } else if (i > 0 && j > 0 && C[i][j] - C[i - 1][j - 1] < 1) {
-        if (typeof nodeObj2.childNodes[j - 1] === "string") {
-          this.prependChildIns(parentObj, nodeObj2.childNodes[j - 1]);
-          j--;
-        } else {
-          const box = this.shallowClone(nodeObj2.childNodes[j - 1]);
-
-          this.LCSToDiff(box, nodeObj1.childNodes[i - 1], nodeObj2.childNodes[j - 1]);
-
-          this.prependChild(parentObj, box);
-          i--;
-          j--;
-        }
-      } else {
-        this.prependChild(parentObj, nodeObj2.childNodes[j - 1]);
-        i--;
-        j--;
-      }
-    }
   }
 
   // Convert object tree to DOM tree.
@@ -1019,95 +371,6 @@ class HTMLTreeDiff {
     }
 
     return result;
-  }
-
-  // Prepend `nodeObj` to `parentObj`'s first child.
-  prependChild(parentObj, nodeObj) {
-    parentObj.childNodes.unshift(nodeObj);
-  }
-
-  // Prepend `nodeObj` to `parentObj`'s first child, wrapping `nodeObj` with
-  // `ins`.
-  prependChildIns(parentObj, nodeObj) {
-    if (typeof nodeObj === "object" && nodeObj.name === "li") {
-      const newNodeObj = this.shallowClone(nodeObj);
-      for (let i = nodeObj.childNodes.length - 1; i >= 0; i--) {
-        const child = nodeObj.childNodes[i];
-        this.prependChildIns(newNodeObj, child);
-      }
-      this.prependChild(parentObj, newNodeObj);
-      return;
-    }
-
-    if (parentObj.childNodes.length > 0) {
-      const firstChild = parentObj.childNodes[0];
-      if (typeof firstChild === "object" &&
-          firstChild.name === "ins") {
-        this.prependChild(firstChild, nodeObj);
-        return;
-      }
-    }
-
-    this.prependChild(parentObj, this.toIns(nodeObj));
-  }
-
-  // Clone nodeObj, without child nodes.
-  shallowClone(nodeObj) {
-    return {
-      attributes: nodeObj.attributes,
-      childNodes: [],
-      id: nodeObj.id,
-      name: nodeObj.name,
-    };
-  }
-
-  // Prepend `nodeObj` to `parentObj`'s first child, wrapping `nodeObj` with
-  // `del`.
-  prependChildDel(parentObj, nodeObj) {
-    if (typeof nodeObj === "object" && nodeObj.name === "li") {
-      const newNodeObj = this.shallowClone(nodeObj);
-      for (let i = nodeObj.childNodes.length - 1; i >= 0; i--) {
-        const child = nodeObj.childNodes[i];
-        this.prependChildDel(newNodeObj, child);
-      }
-      this.prependChild(parentObj, newNodeObj);
-      return;
-    }
-
-    if (parentObj.childNodes.length > 0) {
-      const firstChild = parentObj.childNodes[0];
-      if (typeof firstChild === "object" &&
-          firstChild.name === "del") {
-        this.prependChild(firstChild, nodeObj);
-        return;
-      }
-    }
-
-    this.prependChild(parentObj, this.toDel(nodeObj));
-  }
-
-  toIns(nodeObj) {
-    const ins = this.createIns();
-    ins.childNodes.push(nodeObj);
-    return ins;
-  }
-
-  createIns() {
-    return this.createPlainObject("ins", undefined, {
-      "class": "htmldiff-ins htmldiff-change",
-    });
-  }
-
-  toDel(nodeObj) {
-    const del = this.createDel();
-    del.childNodes.push(nodeObj);
-    return del;
-  }
-
-  createDel() {
-    return this.createPlainObject("del", undefined, {
-      "class": "htmldiff-del htmldiff-change",
-    });
   }
 
   // Combine adjacent nodes with same ID ("tree-diff-num" attribute) into one
@@ -1849,8 +1112,6 @@ class Comparator {
 
     this.processing = true;
 
-    const BLOCK_LIMIT = 50;
-    let lastSleep = Date.now();
     let i = 0;
 
     const len = sections.size;
@@ -1858,14 +1119,9 @@ class Comparator {
     this.result.textContent = "";
     for (const [id, HTML] of sections) {
       i++;
-      if (Date.now() > lastSleep + BLOCK_LIMIT) {
-        this.diffStat.textContent = `generating sections... ${i}/${len}`;
-        await sleep(1);
-        lastSleep = Date.now();
-
-        if (this.abortProcessing) {
-          break;
-        }
+      this.diffStat.textContent = `generating sections... ${i}/${len}`;
+      if (this.abortProcessing) {
+        break;
       }
 
       let box;
@@ -1932,7 +1188,7 @@ class Comparator {
         fromHTML = workBoxFrom.innerHTML;
         toHTML = workBoxTo.innerHTML;
 
-        box.innerHTML = HTMLPathDiff.diff(fromHTML, toHTML);
+        box.innerHTML = await HTMLPathDiff.diff(fromHTML, toHTML);
       }
     } else if (fromHTML !== null) {
       box.innerHTML = fromHTML;
