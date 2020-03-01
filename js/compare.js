@@ -1193,9 +1193,6 @@ class DateUtils {
 // ECMAScript Language Specification Comparator
 class Comparator {
   constructor() {
-    // `option` elements for sections.
-    this.secOpts = [];
-
     // The `sections.json` data for the currently selected "from" revision.
     this.fromSecData = {};
 
@@ -1388,30 +1385,6 @@ class Comparator {
     return `PR/${pr.number}/${pr.head}`;
   }
 
-  populateMenu(menu, opts, filter) {
-    while (menu.firstChild) {
-      menu.firstChild.remove();
-    }
-
-    let value = "";
-    let count = 0;
-    for (const opt of opts) {
-      if (!filter(opt)) {
-        continue;
-      }
-
-      if (!value) {
-        value = opt.value;
-      }
-      menu.appendChild(opt);
-      opt.disabled = false;
-      count++;
-    }
-
-    menu.value = value;
-    return count;
-  }
-
   async parseQuery() {
     let query = window.location.search.slice(1);
 
@@ -1602,13 +1575,13 @@ class Comparator {
     const toSecSet = new Set(this.toSecData.secList);
     const secSet = new Set(this.fromSecData.secList.concat(this.toSecData.secList));
 
-    this.secOpts = [];
-
     const opt = document.createElement("option");
     opt.value = "combined";
     opt.textContent = "Combined view";
-    this.secOpts.push(opt);
+    this.secList.appendChild(opt);
+    this.secList.value = opt.value;
 
+    let count = 0;
     for (const secId of Array.from(secSet).sort((a, b) => {
       const aTitle = this.getComparableTitle(a);
       const bTitle = this.getComparableTitle(b);
@@ -1617,17 +1590,16 @@ class Comparator {
       }
       return aTitle < bTitle ? -1 : 1;
     })) {
-      const opt = document.createElement("option");
-      opt.value = secId;
-
-      let stat = "same";
-      let mark = "\u00A0\u00A0";
+      let stat;
+      let mark;
 
       if (fromSecSet.has(secId)) {
         if (toSecSet.has(secId)) {
           if (this.isChanged(secId)) {
             stat = "mod";
             mark = "-+";
+          } else {
+            continue;
           }
         } else {
           stat = "del";
@@ -1638,6 +1610,9 @@ class Comparator {
         mark = "+\u00A0";
       }
 
+      const opt = document.createElement("option");
+      opt.value = secId;
+
       const title = this.getSectionTitle(secId);
 
       if (title) {
@@ -1647,10 +1622,17 @@ class Comparator {
       }
       opt.className = stat;
 
-      this.secOpts.push(opt);
+      this.secList.appendChild(opt);
+      count++;
     }
 
-    await this.filterSectionList();
+    if (count === 0) {
+      this.secHit.textContent = `No difference (changes in markup or something)`;
+    } else if (count === 1) {
+      this.secHit.textContent = `${count} section found`;
+    } else {
+      this.secHit.textContent = `${count} sections found`;
+    }
   }
 
   async getSecData(id) {
@@ -1716,24 +1698,6 @@ class Comparator {
     return s
       .replace(/ aoid="[^"]+"/g, "")
       .replace(/ href="[^"]+"/g, "");
-  }
-
-  async filterSectionList() {
-    const count = this.populateMenu(this.secList, this.secOpts, opt => {
-      if (opt.className === "same") {
-        return false;
-      }
-
-      return true;
-    }) - 1;
-
-    if (count === 0) {
-      this.secHit.textContent = `No difference (changes in markup or something)`;
-    } else if (count === 1) {
-      this.secHit.textContent = `${count} section found`;
-    } else {
-      this.secHit.textContent = `${count} sections found`;
-    }
   }
 
   updateURL() {
