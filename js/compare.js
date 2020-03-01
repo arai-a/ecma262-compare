@@ -920,7 +920,7 @@ class HTMLTreeDiff {
   getOrAllocateC(h, w, depth) {
     if (depth < this.poolC.length &&
         w < this.poolWidth && h < this.poolWidth) {
-      return this.poolC[depth];
+      //return this.poolC[depth];
     }
 
     const C = new Array(h);
@@ -935,7 +935,7 @@ class HTMLTreeDiff {
   getOrAllocateD(h, w, depth) {
     if (depth < this.poolD.length &&
         w < this.poolWidth && h < this.poolWidth) {
-      return this.poolD[depth];
+      //return this.poolD[depth];
     }
 
     const D = new Array(h);
