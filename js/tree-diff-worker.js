@@ -20,12 +20,16 @@ class HTMLTreeDiffWorker {
           del: nodeObj1.textLength,
           ins: this.compressSpaces(nodeObj2).length,
           same: 0,
+          state: "diff",
+          stateCount: 1,
         };
       }
       return {
         del: this.compressSpaces(nodeObj1).length,
         ins: nodeObj2.textLength,
         same: 0,
+        state: "diff",
+        stateCount: 1,
       };
     }
 
@@ -35,12 +39,16 @@ class HTMLTreeDiffWorker {
           del: this.compressSpaces(nodeObj1).length,
           ins: this.compressSpaces(nodeObj2).length,
           same: 0,
+          state: "diff",
+          stateCount: 1,
         };
       }
       return {
         del: 0,
         ins: 0,
         same: this.compressSpaces(nodeObj2).length,
+        state: "same",
+        stateCount: 1,
       };
     }
 
@@ -49,6 +57,8 @@ class HTMLTreeDiffWorker {
         del: nodeObj1.textLength,
         ins: nodeObj2.textLength,
         same: 0,
+        state: "diff",
+        stateCount: 1,
       };
     }
 
@@ -57,6 +67,8 @@ class HTMLTreeDiffWorker {
         del: nodeObj1.textLength,
         ins: nodeObj2.textLength,
         same: 0,
+        state: "diff",
+        stateCount: 1,
       };
     }
 
@@ -69,12 +81,16 @@ class HTMLTreeDiffWorker {
           del: 0,
           ins: 0,
           same: 1,
+          state: "same",
+          stateCount: 1,
         };
       }
       return {
         del: 1,
         ins: 1,
         same: 0,
+        state: "diff",
+        stateCount: 1,
       };
     }
     if (len2 === 0) {
@@ -82,6 +98,8 @@ class HTMLTreeDiffWorker {
         del: 1,
         ins: 1,
         same: 0,
+        state: "diff",
+        stateCount: 1,
       };
     }
 
@@ -105,6 +123,8 @@ class HTMLTreeDiffWorker {
         del: 0,
         ins: 0,
         same: 0,
+        state: "same",
+        stateCount: 1,
       };
     }
     for (let j = 0; j < len2 + 1; j++) {
@@ -112,6 +132,8 @@ class HTMLTreeDiffWorker {
         del: 0,
         ins: 0,
         same: 0,
+        state: "same",
+        stateCount: 1,
       };
     }
 
@@ -144,35 +166,43 @@ class HTMLTreeDiffWorker {
           C[i][j] = score01;
           if (typeof child2 === "string") {
             const D01 = D[i][j-1];
-            D[i][j] = {
-              del: D01.del,
-              ins: D01.ins + this.compressSpaces(child2).length,
-              same: D01.same,
-            };
+            D[i][j] = this.addResult(D01, {
+              del: 0,
+              ins: this.compressSpaces(child2).length,
+              same: 0,
+              state: "diff",
+              stateCount: 1,
+            });
           } else {
             const D01 = D[i][j-1];
-            D[i][j] = {
-              del: D01.del,
-              ins: D01.ins + child2.textLength,
-              same: D01.same,
-            };
+            D[i][j] = this.addResult(D01, {
+              del: 0,
+              ins: child2.textLength,
+              same: 0,
+              state: "diff",
+              stateCount: 1,
+            });
           }
         } else {
           C[i][j] = score10;
           if (typeof child1 === "string") {
             const D10 = D[i-1][j];
-            D[i][j] = {
-              del: D10.del + this.compressSpaces(child1).length,
-              ins: D10.ins,
-              same: D10.same,
-            };
+            D[i][j] = this.addResult(D10, {
+              del: this.compressSpaces(child1).length,
+              ins: 0,
+              same: 0,
+              state: "diff",
+              stateCount: 1,
+            });
           } else {
             const D10 = D[i-1][j];
-            D[i][j] = {
-              del: D10.del + child1.textLength,
-              ins: D10.ins,
-              same: D10.same,
-            };
+            D[i][j] = this.addResult(D10, {
+              del: child1.textLength,
+              ins: 0,
+              same: 0,
+              state: "diff",
+              stateCount: 1,
+            });
           }
         }
       }
@@ -185,17 +215,15 @@ class HTMLTreeDiffWorker {
     return s.replace(/\s+/, " ");
   }
 
-  // Calculates a score for the difference, in [Number.EPSILON,1] range.
-  // 1 means no difference, and Number.EPSILON means completely different.
+  // Calculates a score for the difference, in [0,1] range.
+  // 1 means no difference, and 0 means completely different.
   resultToScore(r) {
     if (r.same + r.del + r.ins === 0) {
       return 1;
     }
 
-    // If both ins and del are there, it's more likely that entire replace
-    // is intended. Reduce the score to reflect it.
-    const diffFactor = (r.del > 0 && r.ins > 0) ? 2 : 1;
-    const score = r.same / (r.same + (r.del + r.ins) * diffFactor);
+    const fragmentFactor = r.stateCount > 2 ? (1 + (r.stateCount - 2) / 10) : 1;
+    const score = r.same / (r.same + (r.del + r.ins) * fragmentFactor);
 
     const THRESHOLD = 0.1;
     if (score < THRESHOLD) {
@@ -205,10 +233,16 @@ class HTMLTreeDiffWorker {
   }
 
   addResult(r1, r2) {
+    let stateCount = r1.stateCount;
+    if (r1.state != r2.state) {
+      stateCount++;
+    }
     return {
       del: r1.del + r2.del,
       ins: r1.ins + r2.ins,
       same: r1.same + r2.same,
+      state: r2.state,
+      stateCount,
     };
   }
 
