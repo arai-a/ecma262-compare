@@ -159,7 +159,7 @@ class PromiseWorker {
 }
 
 const HTMLPathDiffWorker = new PromiseWorker("./js/path-diff-worker.js");
-const HTMLTreeDiffWorker = new PromiseWorker("./js/tree-diff-worker.js");
+const HTMLTreeDiffWorker = new PromiseWorker("./js/tree-diff-worker.js?20200302-a");
 
 class HTMLPathDiff {
   static diff(s1, s2) {
@@ -224,20 +224,23 @@ class HTMLTreeDiff {
           continue;
         }
 
-        const prev = result.childNodes.length;
+        result.textLength += this.compressSpaces(child.textContent).length;
         this.splitTextInto(result.childNodes, child.textContent);
-        result.numTexts += result.childNodes.length - prev;
         continue;
       }
 
       if (child.nodeType === Node.ELEMENT_NODE) {
         const childObj = this.DOMTreeToPlainObject(child);
         result.childNodes.push(childObj);
-        result.numTexts += childObj.numTexts;
+        result.textLength += childObj.textLength;
       }
     }
 
     return result;
+  }
+
+  compressSpaces(s) {
+    return s.replace(/\s+/, " ");
   }
 
   // Remove unnecessary whitespace texts that can confuse diff algorithm.
@@ -285,7 +288,7 @@ class HTMLTreeDiff {
       childNodes: [],
       id,
       name,
-      numTexts: 0,
+      textLength: 0,
     };
   }
 

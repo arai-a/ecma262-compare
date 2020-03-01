@@ -17,14 +17,14 @@ class HTMLTreeDiffWorker {
     if (typeof nodeObj1 !== typeof nodeObj2) {
       if (typeof nodeObj1 === "object") {
         return {
-          del: nodeObj1.numTexts,
-          ins: 1,
+          del: nodeObj1.textLength,
+          ins: this.compressSpaces(nodeObj2).length,
           same: 0,
         };
       }
       return {
-        del: 1,
-        ins: nodeObj2.numTexts,
+        del: this.compressSpaces(nodeObj1).length,
+        ins: nodeObj2.textLength,
         same: 0,
       };
     }
@@ -32,30 +32,30 @@ class HTMLTreeDiffWorker {
     if (typeof nodeObj1 === "string") {
       if (nodeObj1 !== nodeObj2) {
         return {
-          del: 1,
-          ins: 1,
+          del: this.compressSpaces(nodeObj1).length,
+          ins: this.compressSpaces(nodeObj2).length,
           same: 0,
         };
       }
       return {
         del: 0,
         ins: 0,
-        same: 1,
+        same: this.compressSpaces(nodeObj2).length,
       };
     }
 
     if (nodeObj1.name !== nodeObj2.name) {
       return {
-        del: nodeObj1.numTexts,
-        ins: nodeObj2.numTexts,
+        del: nodeObj1.textLength,
+        ins: nodeObj2.textLength,
         same: 0,
       };
     }
 
     if (nodeObj1.id !== nodeObj2.id) {
       return {
-        del: nodeObj1.numTexts,
-        ins: nodeObj2.numTexts,
+        del: nodeObj1.textLength,
+        ins: nodeObj2.textLength,
         same: 0,
       };
     }
@@ -146,14 +146,14 @@ class HTMLTreeDiffWorker {
             const D01 = D[i][j-1];
             D[i][j] = {
               del: D01.del,
-              ins: D01.ins + 1,
+              ins: D01.ins + this.compressSpaces(child2).length,
               same: D01.same,
             };
           } else {
             const D01 = D[i][j-1];
             D[i][j] = {
               del: D01.del,
-              ins: D01.ins + child2.numTexts,
+              ins: D01.ins + child2.textLength,
               same: D01.same,
             };
           }
@@ -162,14 +162,14 @@ class HTMLTreeDiffWorker {
           if (typeof child1 === "string") {
             const D10 = D[i-1][j];
             D[i][j] = {
-              del: D10.del + 1,
+              del: D10.del + this.compressSpaces(child1).length,
               ins: D10.ins,
               same: D10.same,
             };
           } else {
             const D10 = D[i-1][j];
             D[i][j] = {
-              del: D10.del + child1.numTexts,
+              del: D10.del + child1.textLength,
               ins: D10.ins,
               same: D10.same,
             };
@@ -181,6 +181,9 @@ class HTMLTreeDiffWorker {
     return D[len1][len2];
   }
 
+  compressSpaces(s) {
+    return s.replace(/\s+/, " ");
+  }
 
   // Calculates a score for the difference, in [0,1] range.
   // 1 means no difference, and 0 means completely different.
@@ -385,7 +388,7 @@ class HTMLTreeDiffWorker {
       childNodes: [],
       id,
       name,
-      numTexts: 0,
+      textLength: 0,
     };
   }
 }
