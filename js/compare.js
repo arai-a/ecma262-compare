@@ -1706,6 +1706,8 @@ class Comparator {
 
       this.diffStat.textContent = "";
     }
+
+    this.addSingleSectionButtons();
   }
 
   getSectionHTML(data, secId) {
@@ -1743,6 +1745,7 @@ class Comparator {
         }
       }
 
+      let box;
       if (type === "diff") {
         const workBox = document.createElement("div");
         this.workBoxContainer.appendChild(workBox);
@@ -1751,20 +1754,21 @@ class Comparator {
 
         workBox.remove();
 
-        const box = document.getElementById(`excluded-${id}`);
+        box = document.getElementById(`excluded-${id}`);
         if (box) {
           box.id = "";
           box.replaceWith(workBox);
         } else {
-          this.result.appendChild(workBox);
+          box = workBox;
+          this.result.appendChild(box);
         }
       } else {
-        const box = document.getElementById(`excluded-${id}`);
+        box = document.getElementById(`excluded-${id}`);
         if (box) {
           box.id = "";
           box.innerHTML = HTML;
         } else {
-          const box = document.createElement("div");
+          box = document.createElement("div");
           box.innerHTML = HTML;
           this.result.appendChild(box);
         }
@@ -1862,6 +1866,45 @@ class Comparator {
       } else {
         link.href = `${toRenderedPage}${href}`;
       }
+    }
+  }
+
+  // Add button to show single section.
+  addSingleSectionButtons() {
+    const clauses = this.result.getElementsByTagName("emu-clause");
+    const annex = this.result.getElementsByTagName("emu-annex");
+    const sections = [...clauses, ...annex];
+
+    if (sections.length < 2) {
+      return;
+    }
+
+    for (const section of sections) {
+      const id = section.id;
+      if (!id) {
+        return;
+      }
+
+      const h1s = section.getElementsByTagName("h1");
+      if (h1s.length === 0) {
+        return;
+      }
+
+      const h1 = h1s[0];
+
+      const button = document.createElement("button");
+      button.classList.add("single-section-button");
+      button.textContent = "show single section";
+      button.addEventListener("click", () => {
+        window.scrollTo({
+          left: 0,
+          top: 0,
+        });
+        this.secList.value = id;
+        this.onSecListChange().catch(e => console.error(e));
+      });
+
+      h1.appendChild(button);
     }
   }
 
