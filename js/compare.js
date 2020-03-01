@@ -159,7 +159,7 @@ class PromiseWorker {
 }
 
 const HTMLPathDiffWorker = new PromiseWorker("./js/path-diff-worker.js");
-const HTMLTreeDiffWorker = new PromiseWorker("./js/tree-diff-worker.js?20200302-a");
+const HTMLTreeDiffWorker = new PromiseWorker("./js/tree-diff-worker.js?20200302-b");
 
 class HTMLPathDiff {
   static diff(s1, s2) {

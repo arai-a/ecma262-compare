@@ -185,8 +185,8 @@ class HTMLTreeDiffWorker {
     return s.replace(/\s+/, " ");
   }
 
-  // Calculates a score for the difference, in [0,1] range.
-  // 1 means no difference, and 0 means completely different.
+  // Calculates a score for the difference, in [Number.EPSILON,1] range.
+  // 1 means no difference, and Number.EPSILON means completely different.
   resultToScore(r) {
     if (r.same + r.del + r.ins === 0) {
       return 1;
@@ -199,7 +199,7 @@ class HTMLTreeDiffWorker {
 
     const THRESHOLD = 0.3;
     if (score < THRESHOLD) {
-      return 0;
+      return Number.EPSILON;
     }
     return score;
   }
