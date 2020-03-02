@@ -1,0 +1,62 @@
+name: Post PR comments
+
+on:
+  deployment
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Setup Python
+      uses: actions/setup-python@v1
+      with:
+        python-version: "3.7"
+    - name: Get pr-comments hash
+      run: |
+        curl \
+        --url https://api.github.com/repos/${{ github.repository }}/branches/pr-comments \
+        --header 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}' \
+        --header 'content-type: application/json' | \
+        python -c 'import sys; import json; print("##[set-output name=sha;]{}".format(json.loads(sys.stdin.read())["commit"]["sha"]))'
+      id: hash
+    - name: Download Bootstrap
+      run: |
+        curl -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.hash.outputs.sha}}/Makefile
+        curl -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.hash.outputs.sha}}/build.py
+        curl -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.hash.outputs.sha}}/pr-comments.json
+    - name: Setup virtualenv
+      run: make py-venv-bootstrap
+    - name: Run Bootstrap
+      run: make bootstrap
+      id: bootstrap
+    - name: Remove Bootstrap
+      run: |
+        rm Makefile
+        rm build.py
+        rm pr-comments.json
+    - name: Checkout
+      if: steps.bootstrap.outputs.update == 'Yes'
+      uses: actions/checkout@v1
+      with:
+        ref: pr-comments
+    - name: Setup virtualenv
+      if: steps.bootstrap.outputs.update == 'Yes'
+      run: make py-venv
+    - name: Post PR comments
+      run: make post
+      env:
+        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+    - name: Commit files
+      if: steps.bootstrap.outputs.update == 'Yes'
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add pr-comments.json
+        git commit -m "update PR comments"
+    - name: Push changes
+      if: steps.bootstrap.outputs.update == 'Yes'
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: pr-comments
+        force: false

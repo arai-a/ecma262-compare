@@ -101,7 +101,7 @@ jobs:
       run: make py-venv
     - name: Store PR comments data
       if: steps.prs.outputs.updated_pr_list != ''
-      run: make store-pr-comments
+      run: make store
       env:
         UPDATED_PR_LIST: ${{ steps.prs.outputs.updated_pr_list }}
     - name: Commit files
