@@ -106,16 +106,16 @@ class PostPRComments:
 
             # Testing now
             GitHubAPI.post('issues/2/comments', [], {
-                'body': '{}/?pr={}'.format(Config.PAGE_URL, prnum)
+                'body': '{}?pr={}'.format(Config.PAGE_URL, prnum)
             })
 
             # GitHubAPI.post('issues/{}/comments'.format(prnum), [], {
-            #     'body': '{}/?pr={}'.format(Config.PAGE_URL, prnum)
+            #     'body': '{}?pr={}'.format(Config.PAGE_URL, prnum)
             # })
 
         comments['new'] = []
 
-        #FileUtils.write(Paths.COMMENTS_PATH, json.dumps(comments))
+        FileUtils.write(Paths.COMMENTS_PATH, json.dumps(comments))
 
 
 class Bootstrap:
