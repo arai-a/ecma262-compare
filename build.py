@@ -55,12 +55,31 @@ class StorePRComments:
         FileUtils.write(Paths.COMMENTS_PATH, json.dumps(comments))
 
 
+class PostPRComments:
+    @classmethod
+    def run(cls):
+        comments = FileUtils.read_json(Paths.COMMENTS_PATH)
+
+        for prnum in comments['new']:
+            comments['posted'].append(prnum)
+            Logger.info('Posting to PR {}'.format(prnum))
+            # FIXME post here
+
+        comments['new'] = []
+
+        FileUtils.write(Paths.COMMENTS_PATH, json.dumps(comments))
+
+
 parser = argparse.ArgumentParser(description='Handle PR comments')
 
 subparsers = parser.add_subparsers(dest='command')
-subparsers.add_parser('store-pr-comments',
+subparsers.add_parser('store',
                       help='Store PR comments to JSON file')
+subparsers.add_parser('post',
+                      help='Post PR comments')
 args = parser.parse_args()
 
-if args.command == 'store-pr-comments':
+if args.command == 'store':
     StorePRComments.run()
+if args.command == 'post':
+    PostPRComments.run()

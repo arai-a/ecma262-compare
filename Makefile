@@ -9,5 +9,8 @@ py-venv:
 py-venv-bootstrap:
 	python3 -m venv venv
 
-store-pr-comments:
-	$(PYTHON) build.py store-pr-comments
+store:
+	$(PYTHON) build.py store
+
+post:
+	$(PYTHON) build.py post
