@@ -46,7 +46,9 @@ class StorePRComments:
 
         for prnum in updated:
             if prnum in comments['posted']:
+                Logger.info('PR {} is already commented'.format(prnum))
                 continue
+
             comments['new'].append(prnum)
             Logger.info('Adding PR {}'.format(prnum))
 
