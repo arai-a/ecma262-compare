@@ -12,5 +12,8 @@ py-venv-bootstrap:
 store:
 	$(PYTHON) build.py store
 
+bootstrap:
+	$(PYTHON) build.py bootstrap
+
 post:
 	$(PYTHON) build.py post

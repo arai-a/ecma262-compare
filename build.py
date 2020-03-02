@@ -70,6 +70,18 @@ class PostPRComments:
         FileUtils.write(Paths.COMMENTS_PATH, json.dumps(comments))
 
 
+class Bootstrap:
+    @classmethod
+    def run(cls):
+        comments = FileUtils.read_json(Paths.COMMENTS_PATH)
+        if len(comments['new']) == 0:
+            Logger.info('No new PRs')
+            print('##[set-output name=update;]No')
+        else:
+            Logger.info('PRs {} are updated'.format(comments['new']))
+            print('##[set-output name=update;]Yes')
+
+
 parser = argparse.ArgumentParser(description='Handle PR comments')
 
 subparsers = parser.add_subparsers(dest='command')
@@ -77,9 +89,13 @@ subparsers.add_parser('store',
                       help='Store PR comments to JSON file')
 subparsers.add_parser('post',
                       help='Post PR comments')
+subparsers.add_parser('bootstrap',
+                      help='Perform bootstrap for CI')
 args = parser.parse_args()
 
 if args.command == 'store':
     StorePRComments.run()
-if args.command == 'post':
+elif args.command == 'post':
     PostPRComments.run()
+elif args.command == 'bootstrap':
+    Bootstrap.run()
