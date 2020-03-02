@@ -17,3 +17,6 @@ bootstrap:
 
 post:
 	$(PYTHON) build.py post
+
+lint:
+	flake8 build.py
