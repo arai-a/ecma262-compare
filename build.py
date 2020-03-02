@@ -543,6 +543,8 @@ class Revisions:
 
 
 class PRs:
+    UPDATED_PRS = []
+
     def __get():
         for data in RemoteRepository.prs():
             info_path = Paths.pr_info_path(data['number'])
@@ -562,10 +564,10 @@ class PRs:
                               sort_keys=True)
         FileUtils.write(Paths.PRS_PATH, prs_json)
 
-    def __update_with(data, skip_cache):
+    @classmethod
+    def __update_with(cls, data, skip_cache):
         pr = PRInfo.create(data)
         prnum = pr['number']
-        url = data['head']['repo']['clone_url']
 
         if not skip_cache and CacheChecker.is_pr_cached(pr):
             Logger.info('skip PR {} (cached)'.format(prnum))
@@ -586,18 +588,20 @@ class PRs:
         for parent in PRInfo.parents(pr):
             RevisionRenderer.run(parent, None, skip_cache)
 
+        cls.UPDATED_PRS.append(prnum)
+
         return True
 
     @classmethod
     def update(cls, prnum, skip_cache):
         data = RemoteRepository.pr(prnum)
-        return cls.__update_with(data, skip_cache)
+        result = cls.__update_with(data, skip_cache)
+        cls.__set_output()
+        return result
 
     @classmethod
     def update_all(cls, count, skip_cache):
         raw_prs = list(RemoteRepository.prs())
-
-        updated_any = False
 
         i = 0
         # Update from older PRs
@@ -606,16 +610,19 @@ class PRs:
             Logger.info('{}/{} PR {}'.format(i, len(raw_prs), data['number']))
 
             updated = cls.__update_with(data, skip_cache)
-            if updated:
-                updated_any = True
-
             if count is not None:
                 if updated:
                     count -= 1
                     if count == 0:
                         break
 
-        return updated_any
+        cls.__set_output()
+        return len(cls.UPDATED_PRS) > 0
+
+    @classmethod
+    def __set_output(cls):
+        print('##[set-output name=updated_pr_list;]{}'.format(
+            ','.join(cls.UPDATED_PRS)))
 
 
 class Bootstrap:
