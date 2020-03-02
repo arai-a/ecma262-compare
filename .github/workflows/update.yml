@@ -104,6 +104,15 @@ jobs:
       run: make store-pr-comments
       env:
         UPDATED_PR_LIST: ${{ steps.prs.outputs.updated_pr_list }}
+    - name: Commit files
+      # Fails if all PRs are commented.
+      continue-on-error: true
+      if: steps.prs.outputs.updated_pr_list != ''
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add pr-comments.json
+        git commit -m "update PR comments"
     - name: Push changes
       continue-on-error: true
       if: steps.prs.outputs.updated_pr_list != ''
