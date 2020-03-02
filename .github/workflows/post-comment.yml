@@ -45,7 +45,7 @@ jobs:
     - name: Post PR comments
       run: make post
       env:
-        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+        POST_TOKEN: ${{secrets.POST_TOKEN}}
     - name: Commit files
       if: steps.bootstrap.outputs.update == 'Yes'
       run: |
