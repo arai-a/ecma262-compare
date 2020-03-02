@@ -91,20 +91,18 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: gh-pages
         force: false
-    - name: Checkout
+    - name: Checkout pr-comments
       if: steps.prs.outputs.updated_pr_list != ''
-      uses: actions/checkout@v1
-      with:
-        ref: pr-comments
-    - name: Setup virtualenv
+      run: |
+        git checkout pr-comments
+    - name: Post PR comments data
       if: steps.prs.outputs.updated_pr_list != ''
-      run: make py-venv
-    - name: Store PR comments data
-      if: steps.prs.outputs.updated_pr_list != ''
-      run: make store
+      run: |
+        make store
+        make post
       env:
         UPDATED_PR_LIST: ${{ steps.prs.outputs.updated_pr_list }}
-    - name: Commit files
+    - name: Commit PR comments JSON
       # Fails if all PRs are commented.
       continue-on-error: true
       if: steps.prs.outputs.updated_pr_list != ''
@@ -113,7 +111,7 @@ jobs:
         git config --local user.name "GitHub Action"
         git add pr-comments.json
         git commit -m "update PR comments"
-    - name: Push changes
+    - name: Push PR comments JSON changes
       continue-on-error: true
       if: steps.prs.outputs.updated_pr_list != ''
       uses: ad-m/github-push-action@master
