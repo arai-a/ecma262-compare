@@ -622,7 +622,7 @@ class PRs:
     @classmethod
     def __set_output(cls):
         print('##[set-output name=updated_pr_list;]{}'.format(
-            ','.join(cls.UPDATED_PRS)))
+            ','.join(map(str, cls.UPDATED_PRS))))
 
 
 class Bootstrap:
