@@ -71,6 +71,7 @@ jobs:
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
       run: make pr5
+      id: prs
     - name: Commit files
       # Fails if no files to commit
       # This can happen if a PR got new change, and then merged between
@@ -89,4 +90,25 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: gh-pages
+        force: false
+    - name: Checkout
+      if: steps.prs.outputs.updated_pr_list != ''
+      uses: actions/checkout@v1
+      with:
+        ref: pr-comments
+    - name: Setup virtualenv
+      if: steps.prs.outputs.updated_pr_list != ''
+      run: make py-venv
+    - name: Store PR comments data
+      if: steps.prs.outputs.updated_pr_list != ''
+      run: make store-pr-comments
+      env:
+        UPDATED_PR_LIST: ${{ steps.prs.outputs.updated_pr_list }}
+    - name: Push changes
+      continue-on-error: true
+      if: steps.prs.outputs.updated_pr_list != ''
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: pr-comments
         force: false
