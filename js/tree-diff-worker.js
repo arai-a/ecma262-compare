@@ -234,7 +234,7 @@ class HTMLTreeDiffWorker {
 
   addResult(r1, r2) {
     let stateCount = r1.stateCount;
-    if (r1.state != r2.state) {
+    if (r1.state !== r2.state) {
       stateCount++;
     }
     return {
