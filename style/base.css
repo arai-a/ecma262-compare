@@ -40,3 +40,14 @@ header nav a {
     top: 4px;
     opacity: 0.3;
 }
+
+#logo {
+    position: absolute;
+    left: 4px;
+    top: 4px;
+}
+
+.logo-img {
+    width: 32px;
+    height: 32px;
+}
