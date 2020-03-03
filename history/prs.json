@@ -2825,6 +2825,234 @@
  },
  {
   "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
+  "created_at": "2018-06-15T15:57:42Z",
+  "head": "5a746848105fb27b647cb211944b0dc9a024136c",
+  "login": "tc39",
+  "number": 1228,
+  "ref": "pow-nans-ieee-754-2008-note",
+  "revs": [
+   {
+    "adate": "2018-06-11T11:48:39-04:00",
+    "author": "Rick Waldron",
+    "date": "2018-06-15T11:10:32-04:00",
+    "hash": "5a746848105fb27b647cb211944b0dc9a024136c",
+    "parents": "2a8387bb01dea08c932c92518eab74ea7008c777",
+    "subject": "Informative: (Exponentiation) Add NaN to exponent values whose behavior deviates from IEEE 754-2008"
+   }
+  ],
+  "title": "Informative: (Exponentiation) Add NaN to exponent values whose behavior deviates from IEEE 754-2008",
+  "updated_at": "2020-02-28T04:16:24Z"
+ },
+ {
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
+  "created_at": "2018-03-21T13:57:50Z",
+  "head": "412374421e84b961a91caae71cfa2d8b8b7d0a52",
+  "login": "ljharb",
+  "number": 1148,
+  "ref": "remove_poison_pill_legacy",
+  "revs": [
+   {
+    "adate": "2018-03-21T13:55:42+00:00",
+    "author": "Jordan Harband",
+    "date": "2018-03-21T13:55:42+00:00",
+    "hash": "412374421e84b961a91caae71cfa2d8b8b7d0a52",
+    "parents": "4ecd2641e50e9fdb8b442ed71d49a18b94785f21",
+    "subject": "Editorial: remove unnecessary AddRestrictedFunctionProperties"
+   }
+  ],
+  "title": "Editorial: remove unnecessary AddRestrictedFunctionProperties",
+  "updated_at": "2020-02-28T04:16:24Z"
+ },
+ {
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
+  "created_at": "2018-02-02T01:21:57Z",
+  "head": "8a56bab45f45c1e6f64ed7be7e6c9157b37882b7",
+  "login": "tc39",
+  "number": 1088,
+  "ref": "add-license",
+  "revs": [
+   {
+    "adate": "2018-02-01T17:19:57-08:00",
+    "author": "Michael Ficarra",
+    "date": "2018-02-01T17:19:57-08:00",
+    "hash": "8a56bab45f45c1e6f64ed7be7e6c9157b37882b7",
+    "parents": "f812bc51878c9921e0497f6c3d701224d14407bf",
+    "subject": "add a LICENSE file"
+   }
+  ],
+  "title": "add a LICENSE file",
+  "updated_at": "2020-02-28T04:16:24Z"
+ },
+ {
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
+  "created_at": "2018-01-29T22:08:48Z",
+  "head": "654eae29d1dfaf9b84700a0851baee09b328bf0c",
+  "login": "ljharb",
+  "number": 1086,
+  "ref": "is_zero",
+  "revs": [
+   {
+    "adate": "2018-01-29T14:07:13-08:00",
+    "author": "Jordan Harband",
+    "date": "2019-11-08T20:12:34-08:00",
+    "hash": "654eae29d1dfaf9b84700a0851baee09b328bf0c",
+    "parents": "d1b6707fdf2d0beee605db9e7e9df1602f1575b5",
+    "subject": "Editorial: use \"is 0\" instead of \"is zero\" for consistency (#1086)"
+   }
+  ],
+  "title": "Editorial: use \"is 0\" instead of \"is zero\" for consistency",
+  "updated_at": "2020-02-28T04:16:25Z"
+ },
+ {
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
+  "created_at": "2017-07-24T22:23:16Z",
+  "head": "de38af2a168ed4a2f9f713c14453578c6a602e78",
+  "login": "bterlson",
+  "number": 955,
+  "ref": "directed-operations",
+  "revs": [
+   {
+    "adate": "2018-03-19T12:48:04-07:00",
+    "author": "Brian Terlson",
+    "date": "2018-03-19T12:48:04-07:00",
+    "hash": "de38af2a168ed4a2f9f713c14453578c6a602e78",
+    "parents": "46c2321b434880441f55f103a50b8ab0d53baad4 b81e076b18a3b48dd962933373bceb4db7a7266b",
+    "subject": "Merge pull request #2 from jmdyck/directed-operations-ed"
+   },
+   {
+    "adate": "2018-03-18T23:14:55-04:00",
+    "author": "Michael Dyck",
+    "date": "2018-03-18T23:31:33-04:00",
+    "hash": "b81e076b18a3b48dd962933373bceb4db7a7266b",
+    "parents": "344534c44d3afee77956eaac3dfaa792564d6fd5",
+    "subject": "translate more \"the result of evaluating [something]\""
+   },
+   {
+    "adate": "2018-03-18T23:03:10-04:00",
+    "author": "Michael Dyck",
+    "date": "2018-03-18T23:31:32-04:00",
+    "hash": "344534c44d3afee77956eaac3dfaa792564d6fd5",
+    "parents": "5fc7207989ec0429c4144a1f48781fb105cd70e6",
+    "subject": "translate \"the result of evaluating _foo_\""
+   },
+   {
+    "adate": "2018-03-18T22:51:02-04:00",
+    "author": "Michael Dyck",
+    "date": "2018-03-18T23:31:32-04:00",
+    "hash": "5fc7207989ec0429c4144a1f48781fb105cd70e6",
+    "parents": "fecea6dce5245b1bfca6f3cb2a44bae54e4b3d48",
+    "subject": "translate 2 remaining invocations of 'Contains'"
+   },
+   {
+    "adate": "2018-03-18T23:26:31-04:00",
+    "author": "Michael Dyck",
+    "date": "2018-03-18T23:31:32-04:00",
+    "hash": "fecea6dce5245b1bfca6f3cb2a44bae54e4b3d48",
+    "parents": "454c3b256e129c15361defaf61259dbdcc7808b6",
+    "subject": "Delete \"the result of\" before Evaluate() invocations."
+   },
+   {
+    "adate": "2018-03-18T22:49:59-04:00",
+    "author": "Michael Dyck",
+    "date": "2018-03-18T22:55:40-04:00",
+    "hash": "454c3b256e129c15361defaf61259dbdcc7808b6",
+    "parents": "d912caa6642c2d69af8274ff8a4c26bf64288270",
+    "subject": "fix some invocations that got mangled in translation"
+   },
+   {
+    "adate": "2018-03-18T22:18:54-04:00",
+    "author": "Michael Dyck",
+    "date": "2018-03-18T22:55:37-04:00",
+    "hash": "d912caa6642c2d69af8274ff8a4c26bf64288270",
+    "parents": "17c50cc14c23e888d9f0972eb8cae79ba6539718",
+    "subject": "move misplaced comma"
+   },
+   {
+    "adate": "2018-03-18T22:12:56-04:00",
+    "author": "Michael Dyck",
+    "date": "2018-03-18T22:55:35-04:00",
+    "hash": "17c50cc14c23e888d9f0972eb8cae79ba6539718",
+    "parents": "9627e23e2c17075a271c9be36299b47358b820b6",
+    "subject": "insert \"is *true*\" after Contains() invocations"
+   },
+   {
+    "adate": "2018-03-18T21:57:28-04:00",
+    "author": "Michael Dyck",
+    "date": "2018-03-18T22:55:32-04:00",
+    "hash": "9627e23e2c17075a271c9be36299b47358b820b6",
+    "parents": "eeb876f5704d6445e6129a9bf72725f1dfbf0cc6",
+    "subject": "delete \"the\" before SDO invocations"
+   },
+   {
+    "adate": "2018-03-18T21:45:16-04:00",
+    "author": "Michael Dyck",
+    "date": "2018-03-18T22:55:29-04:00",
+    "hash": "eeb876f5704d6445e6129a9bf72725f1dfbf0cc6",
+    "parents": "46c2321b434880441f55f103a50b8ab0d53baad4",
+    "subject": "fix some indentation."
+   },
+   {
+    "adate": "2018-02-21T10:46:31-08:00",
+    "author": "Brian Terlson",
+    "date": "2018-02-21T10:46:31-08:00",
+    "hash": "46c2321b434880441f55f103a50b8ab0d53baad4",
+    "parents": "aef3fbd758d02281f48358de4c129e701fbfce7b",
+    "subject": "wip"
+   },
+   {
+    "adate": "2018-02-17T16:38:38-08:00",
+    "author": "Brian Terlson",
+    "date": "2018-02-17T16:38:38-08:00",
+    "hash": "aef3fbd758d02281f48358de4c129e701fbfce7b",
+    "parents": "167b47a32ce2b20c30e34e019499d71cd00c8443",
+    "subject": "Contains"
+   },
+   {
+    "adate": "2018-02-17T15:52:56-08:00",
+    "author": "Brian Terlson",
+    "date": "2018-02-17T15:52:56-08:00",
+    "hash": "167b47a32ce2b20c30e34e019499d71cd00c8443",
+    "parents": "17668d8d9e21628c7e162266883e7d14a80b53fc",
+    "subject": "ContainsUseStrict"
+   },
+   {
+    "adate": "2018-02-17T15:47:03-08:00",
+    "author": "Brian Terlson",
+    "date": "2018-02-17T15:47:03-08:00",
+    "hash": "17668d8d9e21628c7e162266883e7d14a80b53fc",
+    "parents": "7564af40af40940fb807a54fa33b74233de3b4ff",
+    "subject": "Fix up BoundNames"
+   },
+   {
+    "adate": "2017-09-28T14:39:44-07:00",
+    "author": "Brian Terlson",
+    "date": "2018-02-17T15:35:30-08:00",
+    "hash": "7564af40af40940fb807a54fa33b74233de3b4ff",
+    "parents": "af38faaee91888aa8810c8075ba12834f413a2d0",
+    "subject": "wip"
+   },
+   {
+    "adate": "2017-09-10T14:50:20-07:00",
+    "author": "Brian Terlson",
+    "date": "2018-02-17T15:35:29-08:00",
+    "hash": "af38faaee91888aa8810c8075ba12834f413a2d0",
+    "parents": "fa7b670644fd431559b510e13a73a07409e768b3",
+    "subject": "WIP"
+   },
+   {
+    "adate": "2017-07-24T15:19:00-07:00",
+    "author": "Brian Terlson",
+    "date": "2018-02-17T15:35:27-08:00",
+    "hash": "fa7b670644fd431559b510e13a73a07409e768b3",
+    "parents": "9f1f60c38bbfc827ab9f27008f3be717302375dd",
+    "subject": "Update some calling conventions"
+   }
+  ],
+  "title": "Add aoid and update calling conventions for directed operations",
+  "updated_at": "2020-02-28T04:16:25Z"
+ },
+ {
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2017-03-03T10:10:04Z",
   "head": "62ac9b4e1d7aabb01e933fd4ac00a04a860bcf70",
   "login": "anba",
