@@ -1,3 +1,17 @@
+html.help {
+    height: 100%;
+}
+
+html.help body {
+    height: 100%;
+}
+
+html.help #container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
 /* ==== controller ==== */
 
 #controller {
@@ -254,4 +268,60 @@ option.mod {
 }
 .single-section-button:active {
     transform: scale(0.95);
+}
+
+/* ==== help ==== */
+
+#help {
+    display: none;
+}
+
+html.help #help {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+html.help #help .margin-top {
+    flex: 1;
+    background: linear-gradient(180deg,
+                                rgba(255,255,255,0) 16px,
+                                rgba(248,241,255,0.4) 40px);
+}
+html.help #help .margin-bottom {
+    background-color: rgba(248,241,255,0.4);
+    flex: 2;
+}
+
+html.help #help .help-container {
+    background-color: rgba(248,241,255,0.4);
+}
+
+html.help #help .help-box {
+    margin: auto;
+    width: 500px;
+    border-radius: 8px;
+    border: 1px solid #c0c0c0;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #808080;
+}
+
+html.help #help .help-box h1 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+html.help #help .help-box * + h1 {
+    margin-top: 1em;
+}
+
+html.help #help .help-box ol {
+    margin: 8px 0;
+}
+
+html.help #help .help-box p {
+    margin: 8px 0 0 0;
+    padding: 0 1em;
 }

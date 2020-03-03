@@ -909,8 +909,10 @@ class Comparator {
       count++;
     }
 
-    if (count === 0) {
-      this.secHit.textContent = `No difference (changes in markup or something)`;
+    if (this.fromRev.value === this.toRev.value) {
+      this.secHit.textContent = "";
+    } else if (count === 0) {
+      this.secHit.textContent = "No difference (changes in markup or something)";
     } else if (count === 1) {
       this.secHit.textContent = `${count} section found`;
     } else {
@@ -1022,6 +1024,14 @@ class Comparator {
   }
 
   async compare() {
+    if (this.fromRev.value === this.toRev.value) {
+      document.documentElement.classList.add("help");
+      this.result.textContent = "";
+      this.diffStat.textContent = "";
+      return;
+    }
+    document.documentElement.classList.remove("help");
+
     const secList = [];
     if (this.secList.value === "combined") {
       this.result.classList.add("combined");

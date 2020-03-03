@@ -75,7 +75,7 @@
           </div>
         </div>
       </div>
-      <label class="filter-label" for="sec-list">Section(s)</label>
+      <label class="filter-label" for="sec-list">Section</label>
       <div class="filter-container">
         <select id="sec-list" onchange="onSecListChange()"></select>
         <span id="sec-hit"></span>
@@ -103,6 +103,30 @@
     </div>
   </header>
   <div id="result"></div>
+  <div id="help">
+    <div class="margin-top"></div>
+    <div class="help-container">
+      <div class="help-box">
+        <h1>Usage</h1>
+        <ol>
+          <li>
+            Select <strong>PR</strong>,
+            single <strong>Revision</strong>,
+            or search them by <strong>Search</strong> field,
+            or select <strong>From</strong>/<strong>To</strong> range
+          </li>
+          <li>
+            Select <strong>Section</strong> to compare
+          </li>
+        </ol>
+        <h1>Found Problems?</h1>
+        <p>
+          <a href="https://github.com/arai-a/ecma262-compare/issues/new">File an Issue</a>!
+        </p>
+      </div>
+    </div>
+    <div class="margin-bottom"></div>
+  </div>
   <div id="work-box-container">
   </div>
 </div>
