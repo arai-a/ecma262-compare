@@ -1806,5 +1806,37 @@
   "hash": "85ce767c86a1a8ed719fe97e978028bff819d1f2",
   "parents": "7acacc524213058a2368b5fa751fac7ea08ba230",
   "subject": "Meta: update @alrra/travis-scripts"
+ },
+ {
+  "adate": "2018-03-21T09:45:11+00:00",
+  "author": "Jordan Harband",
+  "date": "2018-03-21T02:45:11-07:00",
+  "hash": "4c2df13f4194057f09b920ee88712e5a70b1a556",
+  "parents": "81be357744a8c8a9be96ef5559e2a5fa8eb90704",
+  "subject": "Editorial: create a ThrowCompletion abstract operation to reduce boilerplate of creating an abrupt completion (#1142)"
+ },
+ {
+  "adate": "2016-08-22T12:03:52-07:00",
+  "author": "Michael Ficarra",
+  "date": "2016-08-22T12:03:52-07:00",
+  "hash": "0e10c9f29fca1385980c08a7d5e7bb3eb775e2e4",
+  "parents": "adca8e60bb89bc192bff28444d5d55337e387cd3",
+  "subject": "Editorial: TypeArray -> TypedArray (#675)"
+ },
+ {
+  "adate": "2016-07-13T23:19:07+01:00",
+  "author": "Thomas Wood",
+  "date": "2016-07-13T15:19:07-07:00",
+  "hash": "40edb3a95a475c1b251141ac681b8793129d9a6d",
+  "parents": "9746dbf8092e34313a9fb1b5d304b0fd412238e7",
+  "subject": "Editorial: Fix a trivial typo (toLocalString \u2192 toLocaleString) (#628)"
+ },
+ {
+  "adate": "2016-03-29T13:28:01-07:00",
+  "author": "Lee Byron",
+  "date": "2016-03-29T14:38:46-07:00",
+  "hash": "bdeb97ca492086b66e8646c431e4a6c2cdc176d0",
+  "parents": "3e6f53cf06939ed9eb9df66f0508d8c02131f14a",
+  "subject": "Meta: Break export additions into micro-proposals"
  }
 ]

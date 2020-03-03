@@ -2822,5 +2822,137 @@
   ],
   "title": "Editorial: Fix SubstitutionTemplate ArgumentListEvaluation",
   "updated_at": "2019-02-28T19:53:52Z"
+ },
+ {
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
+  "created_at": "2016-08-22T19:39:43Z",
+  "head": "fc6f098d15ae37eb6e973533dba2a9a6f702f8bd",
+  "login": "jswalden",
+  "number": 676,
+  "ref": "clarify-antecdent",
+  "revs": [
+   {
+    "adate": "2016-08-22T12:32:33-07:00",
+    "author": "Jeff Walden",
+    "date": "2016-08-22T13:27:50-07:00",
+    "hash": "fc6f098d15ae37eb6e973533dba2a9a6f702f8bd",
+    "parents": "0e10c9f29fca1385980c08a7d5e7bb3eb775e2e4",
+    "subject": "Common up two requirements shared by all three Annex B.3.3 use cases, and use more precise language to specify an antecedent within one of the requirements."
+   }
+  ],
+  "title": "Annex B.3.3 use cases have a universally-shared bullet with imprecise language",
+  "updated_at": "2020-02-28T04:16:28Z"
+ },
+ {
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
+  "created_at": "2016-07-21T21:55:39Z",
+  "head": "549f627cd0694996ccb839900e9d90aa4a4d8c0e",
+  "login": "msaboff",
+  "number": 641,
+  "ref": "string-len",
+  "revs": [
+   {
+    "adate": "2016-07-21T13:35:57-07:00",
+    "author": "Michael Saboff",
+    "date": "2016-07-21T13:35:57-07:00",
+    "hash": "549f627cd0694996ccb839900e9d90aa4a4d8c0e",
+    "parents": "40edb3a95a475c1b251141ac681b8793129d9a6d",
+    "subject": "Unify String and Array maximum lengths"
+   }
+  ],
+  "title": "Unify String and Array maximum lengths",
+  "updated_at": "2020-02-28T04:16:28Z"
+ },
+ {
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
+  "created_at": "2016-04-16T18:28:04Z",
+  "head": "339445d38cdb08e7bd32a9c0f7c5770f9e011fb7",
+  "login": "jmdyck",
+  "number": 545,
+  "ref": "operation_headers",
+  "revs": [
+   {
+    "adate": "2016-04-16T14:19:39-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-02-23T20:20:29-05:00",
+    "hash": "339445d38cdb08e7bd32a9c0f7c5770f9e011fb7",
+    "parents": "e55ab3453a8e25a5b211549e568643184c92347c",
+    "subject": "Introduce operation-headers"
+   },
+   {
+    "adate": "2020-02-20T15:08:33-05:00",
+    "author": "Michael Dyck",
+    "date": "2020-02-23T20:14:58-05:00",
+    "hash": "e55ab3453a8e25a5b211549e568643184c92347c",
+    "parents": "2431eb385e4315471abd33f710b4ed5644e1b002",
+    "subject": "Editorial: supply args to IteratorBindingInitialization"
+   }
+  ],
+  "title": "Replace each abstract op's preamble with a structured 'header'.",
+  "updated_at": "2020-02-28T04:16:28Z"
+ },
+ {
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
+  "created_at": "2016-04-12T22:05:47Z",
+  "head": "75aa9e61f3d2c9823ff3ae6ddf49d5bcd6cdf4b5",
+  "login": "gibson042",
+  "number": 539,
+  "ref": "gh-531",
+  "revs": [
+   {
+    "adate": "2018-03-27T16:56:12-04:00",
+    "author": "Richard Gibson",
+    "date": "2018-03-27T16:56:12-04:00",
+    "hash": "75aa9e61f3d2c9823ff3ae6ddf49d5bcd6cdf4b5",
+    "parents": "6fc3bfe206cbf9321b3b69040a486a879d8218bd",
+    "subject": "Fix minor formatting issues"
+   },
+   {
+    "adate": "2018-03-27T03:24:07-04:00",
+    "author": "Richard Gibson",
+    "date": "2018-03-27T03:24:07-04:00",
+    "hash": "6fc3bfe206cbf9321b3b69040a486a879d8218bd",
+    "parents": "a5ba49693419feb95a05eff268c4391f2e028d77",
+    "subject": "Clarify built-in function length"
+   },
+   {
+    "adate": "2018-03-23T22:56:50-04:00",
+    "author": "Richard Gibson",
+    "date": "2018-03-23T22:56:50-04:00",
+    "hash": "a5ba49693419feb95a05eff268c4391f2e028d77",
+    "parents": "4993487ebd85b579e9a4e2b188f69e87365e8071",
+    "subject": "Remove unnecessary section self-reference"
+   },
+   {
+    "adate": "2016-04-12T18:02:04-04:00",
+    "author": "Richard Gibson",
+    "date": "2018-03-23T22:24:07-04:00",
+    "hash": "4993487ebd85b579e9a4e2b188f69e87365e8071",
+    "parents": "4c2df13f4194057f09b920ee88712e5a70b1a556",
+    "subject": "Editorial: Remove function-specific text from object-specific section"
+   }
+  ],
+  "title": "Editorial: Remove function-specific text from object-specific section",
+  "updated_at": "2020-02-28T04:16:29Z"
+ },
+ {
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
+  "created_at": "2016-03-30T17:22:57Z",
+  "head": "974421bb71e0108888e2735507e2d4590fb1dd81",
+  "login": "efaust",
+  "number": 508,
+  "ref": "master",
+  "revs": [
+   {
+    "adate": "2016-03-30T10:19:45-07:00",
+    "author": "Eric Faust",
+    "date": "2016-03-30T10:19:45-07:00",
+    "hash": "974421bb71e0108888e2735507e2d4590fb1dd81",
+    "parents": "bdeb97ca492086b66e8646c431e4a6c2cdc176d0",
+    "subject": "Normative: Cross-realm tail position calls may consume resources."
+   }
+  ],
+  "title": "Allow cross-realm tail calls to consume linear resources.",
+  "updated_at": "2020-02-28T04:16:30Z"
  }
 ]
