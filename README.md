@@ -20,10 +20,14 @@ This branch contains 2 things:
 * Comparator
   * `index.html`
   * `js/compare.js`
+  * `js/path-diff-worker.js`
+  * `js/tree-diff-worker.js`
   * `style/compare.css`
   * `style/base.css`
   * `style/ecmarkup.css`  
     The copy of `ecmarkup.css` file from recent spec
+  * `img/*.png`
+  * `img/*.ico`
 * Rendered revisions and PRs history index
   * `rendered_revs.html`
   * `rendered_prs.html`
@@ -48,6 +52,9 @@ This branch contains 2 things:
     Extracted section data for `{SHA}` revision, used by the comparator
   * `history/PR/{PR}/{SHA}/*`  
     Other resources for the rendered page
+* Linter settings
+  * `.eslintrc.js`
+  * `package.json`
 
 ### Scripts to update the history data
 
