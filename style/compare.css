@@ -325,3 +325,42 @@ html.help #help .help-box p {
     margin: 8px 0 0 0;
     padding: 0 1em;
 }
+
+/* ==== message ==== */
+
+#message-overlay {
+    display: none;
+}
+
+#message-overlay.shown {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+#message-overlay.shown .margin-top {
+    flex: 1;
+}
+#message-overlay.shown .margin-bottom {
+    flex: 1;
+}
+
+#message-overlay.shown .message-container {
+}
+
+#message-overlay.shown #message-box {
+    margin: auto;
+    width: 50%;
+    border-radius: 8px;
+    border: 2px solid rgb(185,115,255);
+    background-color: #ffffff;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #000000;
+}

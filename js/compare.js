@@ -512,8 +512,12 @@ class Comparator {
     this.revsAndPRsList = document.getElementById("revs-and-prs-list");
     this.revsAndPRs = [];
     this.revsAndPRsMap = {};
+    this.messageOverlay = document.getElementById("message-overlay");
+    this.messageBox = document.getElementById("message-box");
 
     this.currentQuery = "";
+
+    this.missingPR = undefined;
   }
 
   async run() {
@@ -717,6 +721,9 @@ class Comparator {
       if (hash in this.revMap) {
         this.revFilter.value = hash;
         this.selectFromToForRev(hash);
+      } else {
+        this.selectLatestRev("from");
+        this.selectLatestRev("to");
       }
 
       this.prFilter.value = "-";
@@ -726,6 +733,10 @@ class Comparator {
         this.prFilter.value = prnum;
         this.selectFromToForPR(prnum);
         this.updatePRLink(prnum);
+      } else {
+        this.selectLatestRev("from");
+        this.selectLatestRev("to");
+        this.missingPR = prnum;
       }
 
       this.revFilter.value = "-";
@@ -734,12 +745,16 @@ class Comparator {
         const from = params.from;
         if (from in this.revMap) {
           this.fromRev.value = from;
+        } else {
+          this.selectLatestRev("from");
         }
       }
       if ("to" in params) {
         const to = params.to;
         if (to in this.revMap) {
           this.toRev.value = to;
+        } else {
+          this.selectLatestRev("to");
         }
       }
 
@@ -778,6 +793,11 @@ class Comparator {
         this.toRev.value = hash;
       }
     }
+  }
+
+  selectLatestRev(type) {
+    const list = type === "from" ? this.fromRev : this.toRev;
+    list.value = list.getElementsByTagName("option")[0].value;
   }
 
   updatePRLink(prnum) {
@@ -1024,12 +1044,24 @@ class Comparator {
   }
 
   async compare() {
-    if (this.fromRev.value === this.toRev.value) {
+    const isSameRev = this.fromRev.value === this.toRev.value;
+    const empty = isSameRev || this.missingPR;
+    if (empty) {
+      if (this.missingPR) {
+        this.messageOverlay.classList.add("shown");
+        this.messageBox.textContent = `PR #${this.missingPR} is not found. This can happen if the the history data isn't yet deployed. Try again 10 minutes later.`;
+        this.missingPR = undefined;
+      } else {
+        this.messageBox.textContent = "";
+      }
+
       document.documentElement.classList.add("help");
       this.result.textContent = "";
       this.diffStat.textContent = "";
       return;
     }
+    this.messageBox.textContent = "";
+    this.messageOverlay.classList.remove("shown");
     document.documentElement.classList.remove("help");
 
     const secList = [];
@@ -1512,6 +1544,11 @@ class Comparator {
     }
   }
 
+  async onMessageOverlayClick() {
+    this.messageBox.textContent = "";
+    this.messageOverlay.classList.remove("shown");
+  }
+
   async onPopState() {
     if (window.location.search === this.currentQuery) {
       return;
@@ -1584,6 +1621,11 @@ function onSearchKeyDown(e) {
 /* exported onSearchInput */
 function onSearchInput() {
   comparator.onSearchInput().catch(e => console.error(e));
+}
+
+/* exported onMessageOverlayClick */
+function onMessageOverlayClick() {
+  comparator.onMessageOverlayClick().catch(e => console.error(e));
 }
 
 window.addEventListener("popstate", () => {
