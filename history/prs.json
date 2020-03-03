@@ -2825,6 +2825,82 @@
  },
  {
   "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
+  "created_at": "2018-10-25T21:21:09Z",
+  "head": "03e88c42cafa52610e7f918caa79a2e5f1269413",
+  "login": "gibson042",
+  "number": 1335,
+  "ref": "2018-10-link-to-historical-editions",
+  "revs": [
+   {
+    "adate": "2019-09-01T19:29:42-04:00",
+    "author": "Richard Gibson",
+    "date": "2019-10-03T14:01:15-04:00",
+    "hash": "03e88c42cafa52610e7f918caa79a2e5f1269413",
+    "parents": "5538b56b2894ab98283c1820a0f626dc1a0a28bf",
+    "subject": "Update working draft URL"
+   },
+   {
+    "adate": "2018-10-29T21:37:23-04:00",
+    "author": "Richard Gibson",
+    "date": "2019-10-03T13:59:45-04:00",
+    "hash": "5538b56b2894ab98283c1820a0f626dc1a0a28bf",
+    "parents": "d1ac237a77b22d6741337ec23115721150420db9",
+    "subject": "Link to the root ECMA-262 page rather than only to past editions"
+   },
+   {
+    "adate": "2018-10-25T17:19:10-04:00",
+    "author": "Richard Gibson",
+    "date": "2019-10-03T13:55:50-04:00",
+    "hash": "d1ac237a77b22d6741337ec23115721150420db9",
+    "parents": "ad1adc8b1cab4cd51216c583d1a9b880a29ece60",
+    "subject": "Add a link to the collection of historical editions"
+   }
+  ],
+  "title": "Editorial: Add a link to the collection of historical editions",
+  "updated_at": "2020-02-28T04:16:21Z"
+ },
+ {
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
+  "created_at": "2018-10-11T16:44:37Z",
+  "head": "95d4da973518ba3cabddddf8125d57d21a9a2da9",
+  "login": "TimothyGu",
+  "number": 1326,
+  "ref": "await-explanation",
+  "revs": [
+   {
+    "adate": "2018-10-11T09:44:00-07:00",
+    "author": "Timothy Gu",
+    "date": "2018-10-11T10:01:59-07:00",
+    "hash": "95d4da973518ba3cabddddf8125d57d21a9a2da9",
+    "parents": "578dd55b4dc727355ec28ffaeecd69196ba8a6d8",
+    "subject": "Editorial: Correct variable terminology"
+   }
+  ],
+  "title": "Editorial: Correct variable terminology",
+  "updated_at": "2020-02-28T04:16:21Z"
+ },
+ {
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
+  "created_at": "2018-10-09T15:26:27Z",
+  "head": "267715a6bec624d85ed7f2db7a8d1b37748d8b34",
+  "login": "devsnek",
+  "number": 1321,
+  "ref": "normative/extending-null",
+  "revs": [
+   {
+    "adate": "2018-10-09T10:05:56-05:00",
+    "author": "Gus Caplan",
+    "date": "2018-12-28T19:00:36-06:00",
+    "hash": "267715a6bec624d85ed7f2db7a8d1b37748d8b34",
+    "parents": "7acacc524213058a2368b5fa751fac7ea08ba230",
+    "subject": "Normative: Fix extending null"
+   }
+  ],
+  "title": "Normative: Fix extending null",
+  "updated_at": "2020-02-28T04:16:22Z"
+ },
+ {
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2018-09-27T16:01:07Z",
   "head": "a2575e96df0f3c294b17a03199a31547597b88e4",
   "login": "ljharb",
