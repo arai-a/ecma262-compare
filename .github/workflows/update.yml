@@ -102,6 +102,7 @@ jobs:
         make post
       env:
         UPDATED_PR_LIST: ${{ steps.prs.outputs.updated_pr_list }}
+        POST_TOKEN: ${{secrets.POST_TOKEN}}
     - name: Commit PR comments JSON
       # Fails if all PRs are commented.
       continue-on-error: true
