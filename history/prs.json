@@ -2825,6 +2825,130 @@
  },
  {
   "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
+  "created_at": "2018-09-27T16:01:07Z",
+  "head": "a2575e96df0f3c294b17a03199a31547597b88e4",
+  "login": "ljharb",
+  "number": 1314,
+  "ref": "luke_skywalker",
+  "revs": [
+   {
+    "adate": "2019-11-24T13:26:33-08:00",
+    "author": "Jordan Harband",
+    "date": "2020-02-13T13:28:49-08:00",
+    "hash": "a2575e96df0f3c294b17a03199a31547597b88e4",
+    "parents": "b88efa8f74861e51206323ec0a24d29beac8cf32",
+    "subject": "fixup: update figure-2.png"
+   },
+   {
+    "adate": "2019-11-20T16:16:38-08:00",
+    "author": "Jordan Harband",
+    "date": "2020-02-13T13:28:49-08:00",
+    "hash": "b88efa8f74861e51206323ec0a24d29beac8cf32",
+    "parents": "824d6bf2a74b05a330266a09c6820ca96ae8b54b",
+    "subject": "fixup: convert from %% to normal intrinsics notation"
+   },
+   {
+    "adate": "2018-09-27T11:58:58-04:00",
+    "author": "Jordan Harband",
+    "date": "2020-02-13T13:28:48-08:00",
+    "hash": "824d6bf2a74b05a330266a09c6820ca96ae8b54b",
+    "parents": "823aad1e08b5680229d67283371912950d19e581",
+    "subject": "Editorial: Convert @@ notation to %% notation for well-known Symbols (#1314)"
+   }
+  ],
+  "title": "Editorial: Convert @@ notation to intrinsics notation for well-known Symbols",
+  "updated_at": "2020-02-28T04:16:22Z"
+ },
+ {
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
+  "created_at": "2018-08-16T06:03:06Z",
+  "head": "2782dd793e1e21e8b51340956e6eacf56485a27e",
+  "login": "isiahmeadows",
+  "number": 1288,
+  "ref": "iterator-getmethod",
+  "revs": [
+   {
+    "adate": "2018-08-16T01:40:38-04:00",
+    "author": "Isiah Meadows",
+    "date": "2018-08-16T11:27:51-04:00",
+    "hash": "2782dd793e1e21e8b51340956e6eacf56485a27e",
+    "parents": "62225e4dd20b3221c9e7b9bd02374064d31e6b34",
+    "subject": "Normative: Use GetMethod instead of GetV to get iterator `next`"
+   }
+  ],
+  "title": "Normative: Use GetMethod instead of GetV to get iterator `next`",
+  "updated_at": "2020-02-28T04:16:22Z"
+ },
+ {
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
+  "created_at": "2018-07-31T01:54:39Z",
+  "head": "ed7725f204390be34debc8f190e496f627a1ebae",
+  "login": "cscott",
+  "number": 1277,
+  "ref": "array-splice-typo",
+  "revs": [
+   {
+    "adate": "2018-07-30T21:50:59-04:00",
+    "author": "C. Scott Ananian",
+    "date": "2018-07-30T21:50:59-04:00",
+    "hash": "ed7725f204390be34debc8f190e496f627a1ebae",
+    "parents": "0ceb728a1adbffe42b26972a6541fd7f398b1557",
+    "subject": "Editorial: Step 12 of Array#splice sets the length of the result Array"
+   }
+  ],
+  "title": "Editorial: Step 12 of Array#splice sets the length of the result Array",
+  "updated_at": "2020-02-28T04:16:23Z"
+ },
+ {
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
+  "created_at": "2018-06-20T15:04:36Z",
+  "head": "60107eb1c0944b5846156a68dc04554b6a2eed56",
+  "login": "IgnoredAmbience",
+  "number": 1241,
+  "ref": "editorial-complete-property-descriptor",
+  "revs": [
+   {
+    "adate": "2018-06-20T15:59:58+01:00",
+    "author": "Thomas Wood",
+    "date": "2018-06-20T15:59:58+01:00",
+    "hash": "60107eb1c0944b5846156a68dc04554b6a2eed56",
+    "parents": "727656a0ffd13d156df51ee65ec7e19ecf24c57f",
+    "subject": "Editorial: Consistency for the term \"fully populated Property Descriptor\""
+   }
+  ],
+  "title": "Editorial: Consistency for the term \"fully populated Property Descriptor\"",
+  "updated_at": "2020-02-28T04:16:23Z"
+ },
+ {
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
+  "created_at": "2018-06-17T20:22:41Z",
+  "head": "6a3609b0126819a24c2b7cb3c2dd1d19402af3ba",
+  "login": "ryzokuken",
+  "number": 1234,
+  "ref": "editorial-1170",
+  "revs": [
+   {
+    "adate": "2018-06-18T08:48:26+05:30",
+    "author": "Ujjwal Sharma",
+    "date": "2018-06-18T08:48:26+05:30",
+    "hash": "6a3609b0126819a24c2b7cb3c2dd1d19402af3ba",
+    "parents": "7dd6f4d69435acc1416e96284478173ebfdea4ee",
+    "subject": "fixup! Editorial: move Section 25.6 Promise Objects"
+   },
+   {
+    "adate": "2018-06-18T01:38:37+05:30",
+    "author": "Ujjwal Sharma",
+    "date": "2018-06-18T01:51:41+05:30",
+    "hash": "7dd6f4d69435acc1416e96284478173ebfdea4ee",
+    "parents": "1f5aebe796d39c7446897e55786f7533f1afe593",
+    "subject": "Editorial: move Section 25.6 Promise Objects"
+   }
+  ],
+  "title": "Editorial: move Section 25.6 Promise Objects",
+  "updated_at": "2020-02-28T04:16:23Z"
+ },
+ {
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2018-06-15T15:57:42Z",
   "head": "5a746848105fb27b647cb211944b0dc9a024136c",
   "login": "tc39",
