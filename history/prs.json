@@ -2825,6 +2825,138 @@
  },
  {
   "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
+  "created_at": "2017-03-03T10:10:04Z",
+  "head": "62ac9b4e1d7aabb01e933fd4ac00a04a860bcf70",
+  "login": "anba",
+  "number": 835,
+  "ref": "atomics-cleanup",
+  "revs": [
+   {
+    "adate": "2017-03-03T01:52:09-08:00",
+    "author": "Andr\u00e9 Bargull",
+    "date": "2017-03-03T01:52:09-08:00",
+    "hash": "62ac9b4e1d7aabb01e933fd4ac00a04a860bcf70",
+    "parents": "8e56f87a235130a319a8adcc4b99bd4acc336aef",
+    "subject": "Directly compute the absolute buffer address in ValidateAtomicAccess"
+   },
+   {
+    "adate": "2017-03-03T01:44:45-08:00",
+    "author": "Andr\u00e9 Bargull",
+    "date": "2017-03-03T01:44:45-08:00",
+    "hash": "8e56f87a235130a319a8adcc4b99bd4acc336aef",
+    "parents": "5b1c3e5ea837e755b940d1bd62c0d41a325ac759",
+    "subject": "Remove boolean parameter ValidateSharedIntegerTypedArray with List"
+   },
+   {
+    "adate": "2017-03-03T01:36:35-08:00",
+    "author": "Andr\u00e9 Bargull",
+    "date": "2017-03-03T01:36:35-08:00",
+    "hash": "5b1c3e5ea837e755b940d1bd62c0d41a325ac759",
+    "parents": "034985e7946539a93621fed305b81764b3e037be",
+    "subject": "Partially revert f1239ca6282c874c8d98b8656779139ce80f0cb8 and instead replace AtomicLoad with GetValueFromBuffer in Atomics.wake"
+   },
+   {
+    "adate": "2017-03-03T01:29:15-08:00",
+    "author": "Andr\u00e9 Bargull",
+    "date": "2017-03-03T01:29:15-08:00",
+    "hash": "034985e7946539a93621fed305b81764b3e037be",
+    "parents": "6390c2f1b34b309895d31d8c0512eac8660a0210",
+    "subject": "Add missing local variable for [[ArrayBufferData]] in Atomics.wait/wake"
+   }
+  ],
+  "title": "Small Atomics changes to reduce duplications",
+  "updated_at": "2020-02-28T04:16:26Z"
+ },
+ {
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
+  "created_at": "2017-01-05T18:50:28Z",
+  "head": "eb17cb609b68567c410f1151b7eee445f9511efb",
+  "login": "bterlson",
+  "number": 762,
+  "ref": "fix-class-super",
+  "revs": [
+   {
+    "adate": "2017-01-05T11:03:25-08:00",
+    "author": "Brian Terlson",
+    "date": "2017-01-05T11:03:25-08:00",
+    "hash": "eb17cb609b68567c410f1151b7eee445f9511efb",
+    "parents": "b660b68ac682b403240fc6f1ebf7de12d1dc5db6",
+    "subject": "Editorial: BindThisValue still might fail in some cases"
+   },
+   {
+    "adate": "2017-01-05T10:44:15-08:00",
+    "author": "Brian Terlson",
+    "date": "2017-01-05T10:44:18-08:00",
+    "hash": "b660b68ac682b403240fc6f1ebf7de12d1dc5db6",
+    "parents": "aebf014403a3e641fb1622aec47c40f051943527",
+    "subject": "Normative: do not call super constructor when ThisBindingStatus is already initialized"
+   }
+  ],
+  "title": "Normative: do not call super constructor when ThisBindingStatus is already initialized",
+  "updated_at": "2020-02-28T04:16:26Z"
+ },
+ {
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
+  "created_at": "2016-12-28T16:06:02Z",
+  "head": "0718a9001778e13471d8c72cad2a06ae649677a7",
+  "login": "littledan",
+  "number": 758,
+  "ref": "nan-relax",
+  "revs": [
+   {
+    "adate": "2016-12-28T16:37:01+01:00",
+    "author": "Dan Ehrenberg",
+    "date": "2018-03-08T17:01:00+01:00",
+    "hash": "0718a9001778e13471d8c72cad2a06ae649677a7",
+    "parents": "0e1b4c287d4a8a976bf3396f4d810ddc63d12820",
+    "subject": "Normative: Allow NaN values to be *optionally* canoncalized"
+   }
+  ],
+  "title": "Normative: Allow NaN values to be *optionally* canoncalized",
+  "updated_at": "2020-02-28T04:16:27Z"
+ },
+ {
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
+  "created_at": "2016-11-18T22:23:43Z",
+  "head": "20c8dda5aed3197181cbd109e7ee76d4bd5780d6",
+  "login": "domenic",
+  "number": 735,
+  "ref": "fix-jobs",
+  "revs": [
+   {
+    "adate": "2016-11-18T17:18:44-05:00",
+    "author": "Domenic Denicola",
+    "date": "2017-05-31T16:12:51-04:00",
+    "hash": "20c8dda5aed3197181cbd109e7ee76d4bd5780d6",
+    "parents": "0719f44aab93215ed9a626b2f45bd34f36916834",
+    "subject": "Layering: fix the jobs infrastructure"
+   }
+  ],
+  "title": "Layering: fix the jobs infrastructure",
+  "updated_at": "2020-02-28T04:16:27Z"
+ },
+ {
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
+  "created_at": "2016-09-12T18:56:24Z",
+  "head": "dbb366c9b9cd1e555d84281bb2781dd1c8149df3",
+  "login": "domenic",
+  "number": 688,
+  "ref": "host-defineproperty",
+  "revs": [
+   {
+    "adate": "2016-09-12T14:55:54-04:00",
+    "author": "Domenic Denicola",
+    "date": "2016-09-12T14:55:54-04:00",
+    "hash": "dbb366c9b9cd1e555d84281bb2781dd1c8149df3",
+    "parents": "c2e2dd2015733e438ae8c30179315978306c6851",
+    "subject": "Layering: add HostObjectDefinePropertyReturnFalse"
+   }
+  ],
+  "title": "Layering: add HostObjectDefinePropertyReturnFalse",
+  "updated_at": "2020-02-28T04:16:28Z"
+ },
+ {
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2016-08-22T19:39:43Z",
   "head": "fc6f098d15ae37eb6e973533dba2a9a6f702f8bd",
   "login": "jswalden",
