@@ -65,6 +65,7 @@ jobs:
       run: |
         curl -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.comments_hash.outputs.sha}}/Makefile
         curl -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.comments_hash.outputs.sha}}/build.py
+        curl -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.comments_hash.outputs.sha}}/config.json
         curl -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.comments_hash.outputs.sha}}/pr-comments.json
     - name: Run pr-comments Bootstrap
       run: make bootstrap
@@ -73,6 +74,7 @@ jobs:
       run: |
         rm Makefile
         rm build.py
+        rm config.json
         rm pr-comments.json
 
     # ==== Checkout if history or PR comments needs to be updated ====
