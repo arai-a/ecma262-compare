@@ -104,11 +104,11 @@ class PostPRComments:
             comments['posted'].append(prnum)
             Logger.info('Posting to PR {}'.format(prnum))
 
-            body = '\
+            body = """\
 Here\'s diff for this PR.
 {}?pr={}
 (It may take 10 minutes or more before the latest data getting deployed.)
-'.format(Config.PAGE_URL, prnum)
+""".format(Config.PAGE_URL, prnum)
 
             # Testing now
             GitHubAPI.post('issues/2/comments', [], {
