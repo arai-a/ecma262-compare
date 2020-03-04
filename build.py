@@ -435,6 +435,14 @@ class RevisionRenderer:
                        cwd=LocalRepository.DIR,
                        check=True)
 
+        script_relative_path = os.path.join('scripts',
+                                            'insert_snapshot_warning.js')
+        script_path = os.path.join(LocalRepository.DIR, script_relative_path)
+        if os.path.exists(script_path):
+            subprocess.run(['node', script_relative_path],
+                           cwd=LocalRepository.DIR,
+                           check=False)
+
         if not os.path.exists(repo_out_index_path):
             # Some intermediate commit might fail building.
             # (and npm returns 0...)
