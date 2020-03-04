@@ -1,8 +1,5 @@
 name: Update revisions and PRs
 
-#  push:
-#    branches:
-#      - master
 on:
   schedule:
     # Every 30 minutes
@@ -17,6 +14,9 @@ jobs:
       uses: actions/setup-python@v1
       with:
         python-version: "3.7"
+
+    # ==== Bootstrap for history update ====
+
     - name: Get gh-pages hash
       run: |
         curl \
@@ -24,50 +24,114 @@ jobs:
         --header 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}' \
         --header 'content-type: application/json' | \
         python -c 'import sys; import json; print("##[set-output name=sha;]{}".format(json.loads(sys.stdin.read())["commit"]["sha"]))'
-      id: hash
-    - name: Download Bootstrap
+      id: pages_hash
+    - name: Download gh-pages Bootstrap
       run: |
-        curl -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.hash.outputs.sha}}/Makefile
-        curl -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.hash.outputs.sha}}/build.py
-        curl -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.hash.outputs.sha}}/config.json
-        curl -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.hash.outputs.sha}}/history/revs.json
-        curl -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.hash.outputs.sha}}/history/prs.json
-        curl -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.hash.outputs.sha}}/requirements.txt
+        curl -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.pages_hash.outputs.sha}}/Makefile
+        curl -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.pages_hash.outputs.sha}}/build.py
+        curl -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.pages_hash.outputs.sha}}/config.json
+        curl -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.pages_hash.outputs.sha}}/history/revs.json
+        curl -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.pages_hash.outputs.sha}}/history/prs.json
+        curl -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.pages_hash.outputs.sha}}/requirements.txt
         mkdir -p history
         mv revs.json history
         mv prs.json history
     - name: Setup virtualenv
       run: make py-venv-bootstrap
-    - name: Run Bootstrap
+    - name: Run gh-pages Bootstrap
       run: make bootstrap
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-      id: bootstrap
-    - name: Remove Bootstrap
+      id: pages_bootstrap
+    - name: Remove gh-pages Bootstrap
       run: |
         rm Makefile
         rm build.py
         rm config.json
         rm -rf history
         rm requirements.txt
+
+    # ==== Bootstrap for posting PR comments ====
+
+    - name: Get pr-comments hash
+      run: |
+        curl \
+        --url https://api.github.com/repos/${{ github.repository }}/branches/pr-comments \
+        --header 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}' \
+        --header 'content-type: application/json' | \
+        python -c 'import sys; import json; print("##[set-output name=sha;]{}".format(json.loads(sys.stdin.read())["commit"]["sha"]))'
+      id: comments_hash
+    - name: Download pr-comments Bootstrap
+      run: |
+        curl -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.comments_hash.outputs.sha}}/Makefile
+        curl -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.comments_hash.outputs.sha}}/build.py
+        curl -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.comments_hash.outputs.sha}}/pr-comments.json
+    - name: Run pr-comments Bootstrap
+      run: make bootstrap
+      id: comments_bootstrap
+    - name: Remove pr-comments Bootstrap
+      run: |
+        rm Makefile
+        rm build.py
+        rm pr-comments.json
+
+    # ==== Checkout if history or PR comments needs to be updated ====
+
     - name: Checkout
-      if: steps.bootstrap.outputs.update == 'Yes'
+      if: steps.pages_bootstrap.outputs.update == 'Yes' || steps.comments_bootstrap.outputs.update == 'Yes'
       uses: actions/checkout@v1
       with:
         ref: gh-pages
+    - name: Set git profile
+      if: steps.pages_bootstrap.outputs.update == 'Yes' || steps.comments_bootstrap.outputs.update == 'Yes'
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
     - name: Setup virtualenv
-      if: steps.bootstrap.outputs.update == 'Yes'
+      if: steps.pages_bootstrap.outputs.update == 'Yes' || steps.comments_bootstrap.outputs.update == 'Yes'
       run: make py-venv
+
+    # ==== Post PR comments for previous update ====
+
+    - name: Checkout pr-comments
+      if: steps.comments_bootstrap.outputs.update == 'Yes'
+      run: |
+        git checkout pr-comments
+    - name: Post PR comments
+      if: steps.comments_bootstrap.outputs.update == 'Yes'
+      run: make post
+      env:
+        POST_TOKEN: ${{secrets.POST_TOKEN}}
+    - name: Commit PR comments JSON
+      if: steps.comments_bootstrap.outputs.update == 'Yes'
+      run: |
+        git add pr-comments.json
+        git commit -m "Post PR comments"
+    - name: Push PR comments JSON changes
+      continue-on-error: true
+      if: steps.comments_bootstrap.outputs.update == 'Yes'
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: pr-comments
+        force: false
+    - name: Checkout gh-pages
+      if: steps.comments_bootstrap.outputs.update == 'Yes'
+      run: |
+        git checkout gh-pages
+
+    # ==== Update history ====
+
     - name: Clone ecma262
-      if: steps.bootstrap.outputs.update == 'Yes'
+      if: steps.pages_bootstrap.outputs.update == 'Yes'
       run: make clone
     - name: Update revisions
-      if: steps.bootstrap.outputs.update_revs == 'Yes'
+      if: steps.pages_bootstrap.outputs.update_revs == 'Yes'
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
       run: make update5
     - name: Update PRs
-      if: steps.bootstrap.outputs.update_prs == 'Yes'
+      if: steps.pages_bootstrap.outputs.update_prs == 'Yes'
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
       run: make pr5
@@ -77,41 +141,38 @@ jobs:
       # This can happen if a PR got new change, and then merged between
       # bootstrap and update.
       continue-on-error: true
-      if: steps.bootstrap.outputs.update == 'Yes'
+      if: steps.pages_bootstrap.outputs.update == 'Yes'
       run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
         git add history
         git commit -m "update history"
     - name: Push changes
       continue-on-error: true
-      if: steps.bootstrap.outputs.update == 'Yes'
+      if: steps.pages_bootstrap.outputs.update == 'Yes'
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: gh-pages
         force: false
+
+    # ==== Store PR comments data for the next run ====
+
     - name: Checkout pr-comments
       if: steps.prs.outputs.updated_pr_list != ''
       run: |
         git checkout pr-comments
-    - name: Post PR comments data
+    - name: Store PR comments data
       if: steps.prs.outputs.updated_pr_list != ''
-      run: |
-        make store
-        make post
+      run: make store
       env:
         UPDATED_PR_LIST: ${{ steps.prs.outputs.updated_pr_list }}
         POST_TOKEN: ${{secrets.POST_TOKEN}}
     - name: Commit PR comments JSON
-      # Fails if all PRs are commented.
+      # Fails if all PRs are already commented.
       continue-on-error: true
       if: steps.prs.outputs.updated_pr_list != ''
       run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
         git add pr-comments.json
-        git commit -m "update PR comments"
+        git commit -m "Store PR comments"
     - name: Push PR comments JSON changes
       continue-on-error: true
       if: steps.prs.outputs.updated_pr_list != ''
