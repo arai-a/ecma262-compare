@@ -1197,7 +1197,11 @@ class Comparator {
 
         box = document.getElementById(`excluded-${id}`);
         if (box) {
-          box.id = "";
+          const parentInsDel = this.findParentInsDel(box);
+          if (parentInsDel) {
+            this.splitUp(parentInsDel, box);
+          }
+
           box.replaceWith(workBox);
         } else {
           box = workBox;
@@ -1260,6 +1264,52 @@ class Comparator {
     for (const div of [...box.getElementsByTagName("div")]) {
       if (div.id && div.id.startsWith("excluded-")) {
         div.textContent = "";
+      }
+    }
+  }
+
+  findParentInsDel(node) {
+    while (node && node != this.result) {
+      if (node.classList.contains("htmldiff-change")) {
+        return node;
+      }
+      node = node.parentNode;
+    }
+    return null;
+  }
+
+  splitUp(ancestor, node) {
+    while (node) {
+      const last = node.parentNode === ancestor;
+
+      while (node.previousSibling &&
+             node.previousSibling.nodeType === Node.TEXT_NODE &&
+             /^\s*$/.test(node.previousSibling.textContent)) {
+        node.previousSibling.remove();
+      }
+
+      while (node.nextSibling &&
+             node.nextSibling.nodeType === Node.TEXT_NODE &&
+             /^\s*$/.test(node.nextSibling.textContent)) {
+        node.nextSibling.remove();
+      }
+
+      const parent = node.parentNode;
+      if (node === parent.firstChild) {
+        parent.before(node);
+      } else if (node === parent.firstChild) {
+        parent.after(node);
+      } else {
+        const clonedParent = parent.cloneNode(false);
+        parent.after(clonedParent);
+        while (node.nextSibling) {
+          clonedParent.appendChild(node.nextSibling);
+        }
+        parent.after(node);
+      }
+
+      if (last) {
+        break;
       }
     }
   }
