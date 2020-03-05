@@ -84,7 +84,7 @@ jobs:
       uses: actions/checkout@v1
       with:
         ref: gh-pages
-    - name: Set git profile
+    - name: Set Git Profile
       if: steps.pages_bootstrap.outputs.update == 'Yes' || steps.comments_bootstrap.outputs.update == 'Yes'
       run: |
         git config --local user.email "action@github.com"
