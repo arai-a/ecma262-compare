@@ -105,7 +105,7 @@ class PostPRComments:
             Logger.info('Posting to PR {}'.format(prnum))
 
             body = """\
-Here\'s diff for this PR.
+Here's diff view for this PR.
 {}?pr={}
 (It may take 10 minutes or more before the latest data getting deployed.)
 """.format(Config.PAGE_URL, prnum)
