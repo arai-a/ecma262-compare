@@ -13,7 +13,7 @@ class DateUtils {
   }
 }
 
-class RenderedPageList {
+class SnapshotList {
   async run(type) {
     await this.loadResources();
 
@@ -83,16 +83,16 @@ class RenderedPageList {
 
       diffCell.appendChild(diffLink);
 
-      const renderedCell = document.createElement("td");
-      renderedCell.classList.add("rendered-cell");
-      row.appendChild(renderedCell);
+      const snapshotCell = document.createElement("td");
+      snapshotCell.classList.add("snapshot-cell");
+      row.appendChild(snapshotCell);
 
-      const renderedLink = document.createElement("a");
-      renderedLink.href = `./history/${rev.hash}/index.html`;
-      renderedLink.textContent = "Rendered page";
+      const snapshotLink = document.createElement("a");
+      snapshotLink.href = `./history/${rev.hash}/index.html`;
+      snapshotLink.textContent = "Snapshot";
       subject.appendChild(link);
 
-      renderedCell.appendChild(renderedLink);
+      snapshotCell.appendChild(snapshotLink);
 
       list.appendChild(row);
     }
@@ -142,16 +142,16 @@ class RenderedPageList {
 
       diffCell.appendChild(diffLink);
 
-      const renderedCell = document.createElement("td");
-      renderedCell.classList.add("rendered-cell");
-      row.appendChild(renderedCell);
+      const snapshotCell = document.createElement("td");
+      snapshotCell.classList.add("snapshot-cell");
+      row.appendChild(snapshotCell);
 
-      const renderedLink = document.createElement("a");
-      renderedLink.href = `./history/PR/${pr.number}/${pr.head}/index.html`;
-      renderedLink.textContent = "Rendered page";
+      const snapshotLink = document.createElement("a");
+      snapshotLink.href = `./history/PR/${pr.number}/${pr.head}/index.html`;
+      snapshotLink.textContent = "Snapshot";
       subject.appendChild(link);
 
-      renderedCell.appendChild(renderedLink);
+      snapshotCell.appendChild(snapshotLink);
 
       list.appendChild(row);
     }
@@ -160,5 +160,5 @@ class RenderedPageList {
 
 /* exported onBodyLoad */
 function onBodyLoad(type) {
-  new RenderedPageList().run(type).catch(e => console.error(e));
+  new SnapshotList().run(type).catch(e => console.error(e));
 }

@@ -1314,10 +1314,10 @@ class Comparator {
     }
   }
 
-  // Replace links into the same document to links into rendered page.
+  // Replace links into the same document to links into snapshot.
   async fixupLink(type) {
-    const fromRenderedPage = `./history/${this.fromRev.value}/index.html`;
-    const toRenderedPage = `./history/${this.toRev.value}/index.html`;
+    const fromSnapshot = `./history/${this.fromRev.value}/index.html`;
+    const toSnapshot = `./history/${this.toRev.value}/index.html`;
 
     const links = this.result.getElementsByTagName("a");
 
@@ -1347,11 +1347,11 @@ class Comparator {
         continue;
       }
       if (type === "from") {
-        link.href = `${fromRenderedPage}${href}`;
+        link.href = `${fromSnapshot}${href}`;
       } else if (type === "to") {
-        link.href = `${toRenderedPage}${href}`;
+        link.href = `${toSnapshot}${href}`;
       } else {
-        link.href = `${toRenderedPage}${href}`;
+        link.href = `${toSnapshot}${href}`;
       }
     }
   }
