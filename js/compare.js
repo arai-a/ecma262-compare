@@ -736,7 +736,9 @@ class Comparator {
       } else {
         this.selectLatestRev("from");
         this.selectLatestRev("to");
-        this.missingPR = prnum;
+        if (prnum != "-") {
+          this.missingPR = prnum;
+        }
       }
 
       this.revFilter.value = "-";
