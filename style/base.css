@@ -59,7 +59,7 @@ header nav a {
     font-weight: bold;
     border-radius: 8px;
     border: 2px solid rgb(185,115,255);
-    background-color: #ffffff;
+    background-color: #ffffff !important;
     padding: 2px;
     margin-inline-start: 8px;
 }
