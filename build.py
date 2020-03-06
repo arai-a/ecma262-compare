@@ -373,7 +373,7 @@ class SectionsExtractor:
 
                 links = node.xpath('./a')
                 if len(links) == 0:
-                    continue;
+                    continue
                 a = links[0]
 
                 if a.text in sec_nums or a.text in figure_nums:
