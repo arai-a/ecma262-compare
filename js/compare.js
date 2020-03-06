@@ -1174,8 +1174,6 @@ class Comparator {
 
       this.diffStat.textContent = "";
     }
-
-    this.addSingleSectionButtons();
   }
 
   getSectionHTML(data, secId) {
@@ -1243,6 +1241,7 @@ class Comparator {
       }
       this.fixupExcluded(type, box);
       this.fixupLink(type, box);
+      this.addSingleSectionButtons(box);
     }
 
     this.diffStat.textContent = "";
@@ -1425,14 +1424,10 @@ class Comparator {
   }
 
   // Add button to show single section.
-  addSingleSectionButtons() {
-    const clauses = this.result.getElementsByTagName("emu-clause");
-    const annex = this.result.getElementsByTagName("emu-annex");
+  addSingleSectionButtons(box) {
+    const clauses = box.getElementsByTagName("emu-clause");
+    const annex = box.getElementsByTagName("emu-annex");
     const sections = [...clauses, ...annex];
-
-    if (sections.length < 2) {
-      return;
-    }
 
     for (const section of sections) {
       const id = section.id;
@@ -1446,6 +1441,10 @@ class Comparator {
       }
 
       const h1 = h1s[0];
+
+      if (h1.getElementsByClassName("single-section-button").length > 0) {
+        continue;
+      }
 
       const button = document.createElement("button");
       button.classList.add("single-section-button");
