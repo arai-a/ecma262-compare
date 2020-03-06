@@ -253,21 +253,7 @@ option.mod {
 /* ==== single section button ==== */
 
 .single-section-button {
-    color: rgb(185,115,255);
-    font-weight: bold;
-    border-radius: 8px;
-    border: 2px solid rgb(185,115,255);
-    background-color: #ffffff;
-    padding: 2px;
-    margin-inline-start: 8px;
     position: absolute;
-}
-
-.single-section-button:hover {
-    transform: scale(1.05);
-}
-.single-section-button:active {
-    transform: scale(0.95);
 }
 
 /* ==== help ==== */

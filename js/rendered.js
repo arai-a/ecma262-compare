@@ -20,7 +20,7 @@ class SnapshotList {
     if (type === "revs") {
       this.populateRevList();
     } else {
-      this.populatePRList();
+      this.populatePRList("num", -1);
     }
   }
 
@@ -98,9 +98,55 @@ class SnapshotList {
     }
   }
 
-  populatePRList() {
+  populatePRList(sortBy, order) {
     const list = document.getElementById("pr-list");
-    for (const pr of this.prs) {
+    list.textContent = "";
+
+    {
+      const row = document.createElement("tr");
+
+      const headerCell = document.createElement("td");
+      row.appendChild(headerCell);
+
+      const sortByNum = document.createElement("button");
+      sortByNum.classList.add("round-button");
+      sortByNum.textContent = "Sort by PR number";
+      sortByNum.addEventListener("click", () => {
+        this.populatePRList("num", -order);
+      });
+
+      const sortByDate = document.createElement("button");
+      sortByDate.classList.add("round-button");
+      sortByDate.textContent = "Sort by commit date";
+      sortByDate.addEventListener("click", () => {
+        this.populatePRList("date", -order);
+      });
+
+      headerCell.appendChild(sortByNum);
+      headerCell.appendChild(sortByDate);
+
+      const diffCell = document.createElement("td");
+      diffCell.classList.add("diff-cell");
+      row.appendChild(diffCell);
+
+      const snapshotCell = document.createElement("td");
+      snapshotCell.classList.add("snapshot-cell");
+      row.appendChild(snapshotCell);
+
+      list.appendChild(row);
+    }
+
+    const sorter = sortBy === "num"
+          ? (a, b) => {
+            return (a.number - b.number) * order;
+          }
+          : (a, b) => {
+            const da = new Date(a.revs[0].date);
+            const db = new Date(b.revs[0].date);
+            return (da.getTime() - db.getTime()) * order;
+          };
+
+    for (const pr of this.prs.sort(sorter)) {
       const row = document.createElement("tr");
 
       const summaryCell = document.createElement("td");

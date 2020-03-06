@@ -945,7 +945,7 @@ class Comparator {
       } else {
         opt.textContent = `${mark} ${secId}`;
       }
-      opt.className = stat;
+      opt.classList.add("stat");
 
       this.secList.appendChild(opt);
       count++;
@@ -1344,11 +1344,13 @@ class Comparator {
             id in this.fromSecData.map &&
             this.fromSecData.map[id] !== this.toSecData.map[id]) {
           const del = document.createElement("del");
-          del.className = "htmldiff-del htmldiff-change";
+          del.classList.add("htmldiff-del");
+          del.classList.add(" htmldiff-change");
           del.textContent = this.fromSecData.map[id];
 
           const ins = document.createElement("ins");
-          ins.className = "htmldiff-ins htmldiff-change";
+          ins.classList.add("htmldiff-ins");
+          ins.classList.add("htmldiff-change");
           ins.textContent = this.toSecData.map[id];
 
           node.textContent = "";
@@ -1496,6 +1498,7 @@ class Comparator {
 
       const button = document.createElement("button");
       button.classList.add("single-section-button");
+      button.classList.add("round-button");
       button.textContent = "show single section";
       button.addEventListener("click", () => {
         window.scrollTo({

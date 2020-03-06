@@ -51,3 +51,22 @@ header nav a {
     width: 32px;
     height: 32px;
 }
+
+/* ==== round button ==== */
+
+.round-button {
+    color: rgb(185,115,255);
+    font-weight: bold;
+    border-radius: 8px;
+    border: 2px solid rgb(185,115,255);
+    background-color: #ffffff;
+    padding: 2px;
+    margin-inline-start: 8px;
+}
+
+.round-button:hover {
+    transform: scale(1.05);
+}
+.round-button:active {
+    transform: scale(0.95);
+}
