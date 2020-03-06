@@ -471,6 +471,44 @@ class DateUtils {
       return d;
     }
   }
+
+  static toRelativeTime(d) {
+    try {
+      const date = new Date(d);
+      const now = new Date();
+      const sec = Math.floor(now.getTime() - date.getTime()) / 1000;
+      if (sec < 0) {
+        return "";
+      }
+      if (sec <= 1) {
+        return "now, ";
+      }
+      if (sec < 60) {
+        return `${sec} seconds ago, `;
+      }
+      const min = Math.floor(sec / 60);
+      if (min == 1) {
+        return "1 minute ago, ";
+      }
+      if (min < 60) {
+        return `${min} minutes ago, `;
+      }
+      const hour = Math.floor(min / 60);
+      if (hour == 1) {
+        return "1 hour ago, ";
+      }
+      if (min < 24) {
+        return `${hour} hours ago, `;
+      }
+      const day = Math.floor(hour / 24);
+      if (day == 1) {
+        return "yesterday, ";
+      }
+      return `${day} days ago, `;
+    } catch (e) {
+      return "";
+    }
+  }
 }
 
 // ECMAScript Language Specification Comparator
@@ -841,7 +879,9 @@ class Comparator {
         note.textContent = "";
       }
       author.textContent = `by ${pr.revs[0].author}`;
-      date.textContent = `(${DateUtils.toReadable(pr.revs[0].date)})`;
+
+      const d = pr.revs[0].date;
+      date.textContent = `(${DateUtils.toRelativeTime(d)}${DateUtils.toReadable(d)})`;
     } else if (name in this.revMap) {
       const rev = this.revMap[name];
 
@@ -849,7 +889,9 @@ class Comparator {
       subjectLink.href = `${REPO_URL}/commit/${rev.hash}`;
       note.textContent = "";
       author.textContent = `by ${rev.author}`;
-      date.textContent = `(${DateUtils.toReadable(rev.date)})`;
+
+      const d = rev.date;
+      date.textContent = `(${DateUtils.toRelativeTime(d)}${DateUtils.toReadable(d)})`;
     } else {
       subjectLink.textContent = "-";
       subjectLink.removeAttribute("href");
