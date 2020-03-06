@@ -319,7 +319,7 @@ class HTMLTreeDiff {
   splitTextInto(childNodes, text) {
     while (true) {
       const spaceIndex = text.search(/\s[^\s]/);
-      const punctIndex = text.search(/[.,:;?!\-_()[\]]/);
+      const punctIndex = text.search(/[.,:;?!()[\]]/);
       if (spaceIndex === -1 && punctIndex === -1) {
         break;
       }
@@ -866,6 +866,28 @@ class Comparator {
       this.getSecData("from"),
       this.getSecData("to")
     ]);
+
+    {
+      const map = {};
+      for (const id in this.fromSecData.secData) {
+        map[id] = this.fromSecData.secData[id].num;
+      }
+      for (const id in this.fromSecData.figData) {
+        map[id] = this.fromSecData.figData[id];
+      }
+      this.fromSecData.map = map;
+    }
+    {
+      const map = {};
+      for (const id in this.toSecData.secData) {
+        map[id] = this.toSecData.secData[id].num;
+      }
+      for (const id in this.toSecData.figData) {
+        map[id] = this.toSecData.figData[id];
+      }
+      this.toSecData.map = map;
+    }
+
     this.diffStat.textContent = "";
 
     this.secHit.textContent = "";
@@ -942,7 +964,7 @@ class Comparator {
 
   async getSecData(id) {
     const hash = this.hashOf(id);
-    return this.getJSON(`./history/${hash}/sections.json`);
+    return this.getJSON(`./history/${hash}/sections.json?v2`);
   }
 
   // Returns hash for selected item in "from" or "to" list.
@@ -1203,6 +1225,7 @@ class Comparator {
           }
 
           box.replaceWith(workBox);
+          box = workBox;
         } else {
           box = workBox;
           this.result.appendChild(box);
@@ -1218,10 +1241,8 @@ class Comparator {
           this.result.appendChild(box);
         }
       }
-    }
-
-    if (!this.abortProcessing) {
-      await this.fixupLink(type);
+      this.fixupExcluded(type, box);
+      this.fixupLink(type, box);
     }
 
     this.diffStat.textContent = "";
@@ -1314,31 +1335,78 @@ class Comparator {
     }
   }
 
+  fixupExcluded(type, box) {
+    const fixup = (node, id) => {
+      if (type === "diff") {
+        if (id in this.toSecData.map &&
+            id in this.fromSecData.map &&
+            this.fromSecData.map[id] != this.toSecData.map[id]) {
+          const del = document.createElement("del");
+          del.className = "htmldiff-del htmldiff-change";
+          del.textContent = this.fromSecData.map[id];
+
+          const ins = document.createElement("ins");
+          ins.className = "htmldiff-ins htmldiff-change";
+          ins.textContent = this.toSecData.map[id];
+
+          node.textContent = "";
+          node.appendChild(del);
+          node.appendChild(ins);
+
+          return;
+        }
+
+        if (id in this.toSecData.map) {
+          node.textContent = this.toSecData.map[id];
+        } else {
+          node.textContent = this.fromSecData.map[id];
+        }
+        return;
+      }
+
+      if (type === "from") {
+        node.textContent = this.fromSecData.map[id];
+      } else {
+        node.textContent = this.toSecData.map[id];
+      }
+    };
+
+    const nums = box.getElementsByClassName("excluded-secnum");
+    for (const node of [...nums]) {
+      node.classList.remove("excluded-secnum");
+
+      const id = node.getAttribute("excluded-id");
+      node.removeAttribute("excluded-id");
+
+      fixup(node, id);
+    }
+
+    const caps = box.getElementsByClassName("excluded-caption-num");
+    for (const node of [...caps]) {
+      node.classList.remove("excluded-caption-num");
+
+      const id = node.getAttribute("excluded-id");
+      node.removeAttribute("excluded-id");
+      fixup(node, id);
+    }
+
+    const refs = box.getElementsByClassName("excluded-xref");
+    for (const node of [...refs]) {
+      node.classList.remove("excluded-xref");
+
+      const id = node.getAttribute("excluded-id");
+      node.removeAttribute("excluded-id");
+      fixup(node, id);
+    }
+  }
+
   // Replace links into the same document to links into snapshot.
-  async fixupLink(type) {
+  fixupLink(type, box) {
     const fromSnapshot = `./history/${this.fromRev.value}/index.html`;
     const toSnapshot = `./history/${this.toRev.value}/index.html`;
 
-    const links = this.result.getElementsByTagName("a");
-
-    const BLOCK_LIMIT = 50;
-    let lastSleep = Date.now();
-    let i = 0;
-
-    const len = links.length;
-
+    const links = box.getElementsByTagName("a");
     for (const link of links) {
-      i++;
-      if (Date.now() > lastSleep + BLOCK_LIMIT) {
-        this.diffStat.textContent = `fixing links up... ${i}/${len}`;
-        await sleep(1);
-        lastSleep = Date.now();
-
-        if (this.abortProcessing) {
-          break;
-        }
-      }
-
       if (!link.hasAttribute("href")) {
         continue;
       }
@@ -1369,12 +1437,12 @@ class Comparator {
     for (const section of sections) {
       const id = section.id;
       if (!id) {
-        return;
+        continue;
       }
 
       const h1s = section.getElementsByTagName("h1");
       if (h1s.length === 0) {
-        return;
+        continue;
       }
 
       const h1 = h1s[0];

@@ -301,6 +301,12 @@ class SectionsExtractor:
             secnum = h1.xpath('./span[@class="secnum"]')[0]
             num = cls.__get_text(secnum)
 
+            for child in secnum.getchildren():
+                secnum.remove(child)
+            secnum.attrib['class'] += ' excluded-secnum'
+            secnum.attrib['excluded-id'] = id
+            secnum.text = '#{}'.format(id)
+
             title = cls.__get_text(h1).replace(num, '')
 
             sec_list.append(id)
@@ -308,6 +314,72 @@ class SectionsExtractor:
             sec_title_map[id] = title
 
         return sec_list, sec_num_map, sec_title_map
+
+    @classmethod
+    def __get_figure_list(cls, dom):
+        import lxml.html
+        figure_num_map = dict()
+
+        caption_pat = re.compile(r'^((Table|Figure) \d+)')
+
+        n = 1
+
+        for node in dom.xpath('//emu-figure') + dom.xpath('//emu-table'):
+            if 'id' in node.attrib:
+                id = node.attrib['id']
+            else:
+                id = 'table-noid-{}'.format(n)
+                n += 1
+
+            captions = node.xpath('.//figcaption')
+            if len(captions) == 0:
+                continue
+
+            caption = captions[0]
+
+            m = caption_pat.search(caption.text)
+            if not m:
+                continue
+
+            tail = caption_pat.sub('', caption.text)
+            caption.text = ''
+
+            num = lxml.html.Element('span', {'class': 'excluded-caption-num',
+                                             'excluded-id': id})
+            num.text = '#{}'.format(id)
+            num.tail = tail
+            caption.insert(0, num)
+
+            figure_num_map[id] = m.group(1)
+
+        return figure_num_map
+
+    @classmethod
+    def __replace_xref(cls, dom, sec_num_map, figure_num_map):
+        sec_nums = set()
+        for (id, num) in sec_num_map.items():
+            sec_nums.add(num)
+        figure_nums = set()
+        for (id, num) in figure_num_map.items():
+            figure_nums.add(num)
+
+        for node in dom.xpath('//emu-xref'):
+            if 'href' in node.attrib:
+                href = node.attrib['href']
+
+                if not href.startswith('#'):
+                    continue
+                id = href[1:]
+
+                links = node.xpath('./a')
+                if len(links) == 0:
+                    continue;
+                a = links[0]
+
+                if a.text in sec_nums or a.text in figure_nums:
+                    a.attrib['class'] = 'excluded-xref'
+                    a.attrib['excluded-id'] = id
+                    a.text = '#{}'.format(id)
 
     @classmethod
     def __exclude_subsections(cls, dom, sec_list, sec_num_map, sec_title_map):
@@ -366,12 +438,15 @@ class SectionsExtractor:
         dom = lxml.html.fromstring(html)
         cls.remove_emu_ids(dom)
         sec_list, sec_num_map, sec_title_map = cls.__get_sec_list(dom)
+        figure_num_map = cls.__get_figure_list(dom)
+        cls.__replace_xref(dom, sec_num_map, figure_num_map)
         cls.__exclude_subsections(dom, sec_list, sec_num_map, sec_title_map)
         sec_data = cls.__to_data(dom, sec_list, sec_num_map, sec_title_map)
 
         return {
             'secList': sec_list,
-            'secData': sec_data
+            'secData': sec_data,
+            'figData': figure_num_map,
         }
 
 

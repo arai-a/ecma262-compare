@@ -2,11 +2,27 @@
  {
   "base": "4307b77f1732186a6c67352c92b91f55de76387a",
   "created_at": "2020-03-04T22:22:02Z",
-  "head": "e3432d9785aca2c328f27dd123d4c43e47e0641e",
+  "head": "880dcfef1057a571a04463720bab0c5aa83f5255",
   "login": "syg",
   "number": 1889,
   "ref": "abstract-closure",
   "revs": [
+   {
+    "adate": "2020-03-05T16:38:36-08:00",
+    "author": "Shu-yu Guo",
+    "date": "2020-03-05T16:38:36-08:00",
+    "hash": "880dcfef1057a571a04463720bab0c5aa83f5255",
+    "parents": "22a53e0741a74df0b813f02da2d049f8b3836e11",
+    "subject": "Relax the vacuously true Completion Record restriction."
+   },
+   {
+    "adate": "2020-03-05T16:18:48-08:00",
+    "author": "Shu-yu Guo",
+    "date": "2020-03-05T16:18:48-08:00",
+    "hash": "22a53e0741a74df0b813f02da2d049f8b3836e11",
+    "parents": "e3432d9785aca2c328f27dd123d4c43e47e0641e",
+    "subject": "Address review comments."
+   },
    {
     "adate": "2020-03-04T17:45:13-08:00",
     "author": "Shu-yu Guo",
@@ -49,7 +65,7 @@
    }
   ],
   "title": "Editorial: Introduce abstract closure and use them in RegExps",
-  "updated_at": "2020-03-05T01:48:41Z"
+  "updated_at": "2020-03-06T00:39:00Z"
  },
  {
   "base": "4307b77f1732186a6c67352c92b91f55de76387a",
@@ -72,7 +88,7 @@
   "updated_at": "2020-02-28T05:00:49Z"
  },
  {
-  "base": "2431eb385e4315471abd33f710b4ed5644e1b002",
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2020-02-23T11:05:41Z",
   "head": "64d8f2d1702b0e88e1eeb305e6821d854bc4f675",
   "login": "uhyo",
@@ -105,10 +121,10 @@
    }
   ],
   "title": "Editorial: fix misleading uses of 'operator'",
-  "updated_at": "2020-02-27T00:59:38Z"
+  "updated_at": "2020-02-28T04:15:56Z"
  },
  {
-  "base": "8e5ae7b621922ca289e8b6fb19b4d6d4e0750182",
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2020-02-18T13:37:09Z",
   "head": "5fdc6a8ae0a49b72e6d9636c5dde558790ec9351",
   "login": "uhyo",
@@ -125,10 +141,10 @@
    }
   ],
   "title": "Editorial: correct 'import * circularity' to 'export * circularity'",
-  "updated_at": "2020-02-18T13:37:09Z"
+  "updated_at": "2020-02-28T04:15:56Z"
  },
  {
-  "base": "823aad1e08b5680229d67283371912950d19e581",
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2020-02-14T22:07:06Z",
   "head": "9c564f91f4e232da2183ff184168b6485a72c9b7",
   "login": "jmdyck",
@@ -145,10 +161,10 @@
    }
   ],
   "title": "Editorial: Set [[SourceText]] inside OrdinaryFunctionCreate",
-  "updated_at": "2020-02-15T17:40:29Z"
+  "updated_at": "2020-02-28T04:15:57Z"
  },
  {
-  "base": "787642ad2d159c8358a8782c9414f6d5fb6efa6f",
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2020-02-10T00:24:45Z",
   "head": "7644ce6dd587b8a5f4c63e3c2573943f1d4528af",
   "login": "tc39",
@@ -165,10 +181,10 @@
    }
   ],
   "title": "Normative: Use CharacterValue for RegExpUnicodeEscapeSequence",
-  "updated_at": "2020-02-12T17:36:13Z"
+  "updated_at": "2020-03-04T23:13:24Z"
  },
  {
-  "base": "2431eb385e4315471abd33f710b4ed5644e1b002",
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2020-02-09T02:32:37Z",
   "head": "f7b8c791fcb00ac075beecf612e134e670f1a9f4",
   "login": "jmdyck",
@@ -201,10 +217,10 @@
    }
   ],
   "title": "Editorial: Annex A tweaks",
-  "updated_at": "2020-02-21T21:38:54Z"
+  "updated_at": "2020-02-28T04:15:57Z"
  },
  {
-  "base": "2431eb385e4315471abd33f710b4ed5644e1b002",
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2020-02-09T02:20:19Z",
   "head": "7e3ff427a973cbbbdbbb249dc7bcb6453206f920",
   "login": "jmdyck",
@@ -229,10 +245,10 @@
    }
   ],
   "title": "Normative: Make B.1.{1,2} normative",
-  "updated_at": "2020-02-24T02:26:53Z"
+  "updated_at": "2020-02-28T04:15:58Z"
  },
  {
-  "base": "787642ad2d159c8358a8782c9414f6d5fb6efa6f",
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2020-02-05T17:02:01Z",
   "head": "80204781ab8a4a64ce46439128286e617de66add",
   "login": "jmdyck",
@@ -321,10 +337,10 @@
    }
   ],
   "title": " Editorial: Extract operation 'ParsePattern'",
-  "updated_at": "2020-02-10T00:54:57Z"
+  "updated_at": "2020-02-28T04:15:58Z"
  },
  {
-  "base": "e5c0f84610df095de6256e6cf083f4a901e67fde",
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2020-01-31T22:54:28Z",
   "head": "36f1f910098a9e39b2cdb9bcd03ec1b0e60fc7af",
   "login": "rkirsling",
@@ -357,10 +373,10 @@
    }
   ],
   "title": "Editorial: Improve consistency of backtick use for built-ins.",
-  "updated_at": "2020-02-07T08:30:18Z"
+  "updated_at": "2020-02-28T04:15:58Z"
  },
  {
-  "base": "73ad5993a7c8cf8192fa485a91887437fa6b48ab",
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2020-01-12T22:05:56Z",
   "head": "c92f745cb0e079c9304cd162886ef700b21ae676",
   "login": "rkirsling",
@@ -377,10 +393,10 @@
    }
   ],
   "title": "Editorial: Let code wrap in tables-in-notes.",
-  "updated_at": "2020-01-13T00:19:42Z"
+  "updated_at": "2020-02-28T04:15:59Z"
  },
  {
-  "base": "63be86408b2c01899d6fd565db9a85d76a56de42",
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2020-01-09T19:55:48Z",
   "head": "0f086d773b29df3a913b425ff52be24de530c0e5",
   "login": "EB-Forks",
@@ -397,10 +413,10 @@
    }
   ],
   "title": "editorial: Improve\u00a0`Array.[[DefineOwnProperty]]` length\u00a0variable\u00a0names",
-  "updated_at": "2020-01-15T06:15:18Z"
+  "updated_at": "2020-02-28T04:15:59Z"
  },
  {
-  "base": "cb73c69d861db21506c0246197fd87b723d6cdb4",
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2020-01-03T22:14:01Z",
   "head": "297f7fb6aae58f28b80e0bdfe7d0604c2de190ce",
   "login": "bathos",
@@ -417,10 +433,10 @@
    }
   ],
   "title": "Editorial: Lookahead single-element shorthand permits terminal sequences",
-  "updated_at": "2020-01-05T07:57:47Z"
+  "updated_at": "2020-02-28T04:15:59Z"
  },
  {
-  "base": "ecb4178012d6b4d9abc13fcbd45f5c6394b832ce",
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2019-12-27T10:11:46Z",
   "head": "50ac1a69febc0faf0bbc7c800c5419869534d6be",
   "login": "bathos",
@@ -437,10 +453,10 @@
    }
   ],
   "title": "Editorial: Add aoid for CaseBlockEvaluation so it gets auto-linked / ref-counted",
-  "updated_at": "2020-01-03T22:21:36Z"
+  "updated_at": "2020-02-28T04:15:59Z"
  },
  {
-  "base": "ecb4178012d6b4d9abc13fcbd45f5c6394b832ce",
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2019-12-15T18:14:36Z",
   "head": "7c80f1d8890b200bb93665096e61f2e6f74243d9",
   "login": "bathos",
@@ -457,10 +473,10 @@
    }
   ],
   "title": "Normative: Remove steps 2 and 4 from ProxyCreate",
-  "updated_at": "2020-02-05T00:57:54Z"
+  "updated_at": "2020-02-28T04:16:00Z"
  },
  {
-  "base": "618479affe6b55bfca47fd058ce3a837a7d6c46c",
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2019-12-03T21:32:25Z",
   "head": "4243c0bf4dc1ed28b6ebd0a1628378e8b643e0c6",
   "login": "brabalan",
@@ -477,10 +493,10 @@
    }
   ],
   "title": "Editorial: adding ids to individual algorithms of equality semantics",
-  "updated_at": "2020-02-12T23:24:36Z"
+  "updated_at": "2020-02-28T04:16:00Z"
  },
  {
-  "base": "618479affe6b55bfca47fd058ce3a837a7d6c46c",
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2019-12-02T22:32:56Z",
   "head": "032ed20663c50a3b20a811b499ddaff07082d5b2",
   "login": "ljharb",
@@ -497,10 +513,10 @@
    }
   ],
   "title": "WIP: Meta: add script to land PRs",
-  "updated_at": "2019-12-11T21:52:51Z"
+  "updated_at": "2020-02-28T04:16:00Z"
  },
  {
-  "base": "c77f0081a197eeaaf5589bc7ebe306b1cc5c9162",
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2019-11-14T18:12:07Z",
   "head": "30e7b07b4f002bc530c98ed2f1dbc2b70195824a",
   "login": "shvaikalesh",
@@ -573,10 +589,10 @@
    }
   ],
   "title": "Editorial: Rename predicate function parameter of Array methods",
-  "updated_at": "2019-11-18T23:16:58Z"
+  "updated_at": "2020-02-28T04:16:01Z"
  },
  {
-  "base": "edeeafa68a4350733157e643228e309258c960de",
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2019-11-14T17:17:20Z",
   "head": "05205eefc9379fbf3f55683199dca3a816d26170",
   "login": "devsnek",
@@ -593,10 +609,10 @@
    }
   ],
   "title": "Editorial: A couple fixes from OrdinaryFunctionCreate and undefined arguments",
-  "updated_at": "2020-02-01T08:02:31Z"
+  "updated_at": "2020-02-28T04:16:01Z"
  },
  {
-  "base": "823aad1e08b5680229d67283371912950d19e581",
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2019-11-13T01:11:03Z",
   "head": "45ea73a22f9dcd80d6d4836f8abd6b5b62b0f736",
   "login": "ljharb",
@@ -613,10 +629,10 @@
    }
   ],
   "title": "Normative: make async iterators next/return/throw not pass `undefined` when value is absent",
-  "updated_at": "2020-02-13T21:30:11Z"
+  "updated_at": "2020-02-28T04:16:02Z"
  },
  {
-  "base": "9c8d03c1f1a0306d01e8422b28cde757093bd216",
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2019-10-17T02:16:37Z",
   "head": "9dc4c0dce326e1367e9603fafe62d6458e4ceec6",
   "login": "michaelficarra",
@@ -657,10 +673,10 @@
    }
   ],
   "title": "function implementation hiding",
-  "updated_at": "2019-12-03T05:08:52Z"
+  "updated_at": "2020-02-28T04:16:03Z"
  },
  {
-  "base": "8fd2e014fa52a1c932686904a7b46eb742fe3112",
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2019-10-09T01:54:47Z",
   "head": "1ab6c465dc3e8f744e2d81cc40271d718a68510c",
   "login": "gibson042",
@@ -725,10 +741,10 @@
    }
   ],
   "title": "Normative: Update GetSubstitution to match reality",
-  "updated_at": "2019-11-26T02:10:38Z"
+  "updated_at": "2020-03-05T21:15:13Z"
  },
  {
-  "base": "98813bcb6c865932048677f918a16fa7fa9cccdc",
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2019-10-08T01:11:31Z",
   "head": "a222ba635a0b666995e58048c26943b058be7813",
   "login": "gibson042",
@@ -753,10 +769,10 @@
    }
   ],
   "title": "Editorial: Formally disambiguate the non-Annex-B grammar",
-  "updated_at": "2020-01-03T16:41:29Z"
+  "updated_at": "2020-02-28T04:16:04Z"
  },
  {
-  "base": "bdcd53150ef7c49d53347e1fe124e965850ca474",
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2019-10-01T16:29:45Z",
   "head": "ead3d3f6c4cd5cb13266bb226c4d9b58e49e29c3",
   "login": "rbuckton",
@@ -781,10 +797,10 @@
    }
   ],
   "title": "Normative: add RegExp Match Indices",
-  "updated_at": "2019-10-03T18:35:39Z"
+  "updated_at": "2020-02-28T04:16:04Z"
  },
  {
-  "base": "823aad1e08b5680229d67283371912950d19e581",
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2019-09-16T20:16:16Z",
   "head": "dfd5a6d68e68c81eb243145a07ac0c4ad58839ed",
   "login": "jmdyck",
@@ -841,10 +857,10 @@
    }
   ],
   "title": "Editorial: Eliminate Lexical Environment",
-  "updated_at": "2020-02-13T21:43:33Z"
+  "updated_at": "2020-02-28T04:16:05Z"
  },
  {
-  "base": "85f905aff137a7f0872c48e16d6b883b7b46212a",
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2019-09-05T18:14:27Z",
   "head": "1afead8afd80e05738394f6bbe854d4f7083c291",
   "login": "devsnek",
@@ -869,10 +885,10 @@
    }
   ],
   "title": "[WIP] meta: show diffs on pr renders",
-  "updated_at": "2019-09-06T19:31:56Z"
+  "updated_at": "2020-02-28T04:16:05Z"
  },
  {
-  "base": "85f905aff137a7f0872c48e16d6b883b7b46212a",
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2019-09-04T20:40:49Z",
   "head": "ffa6cba4b76f99d858eb93d7a582006704ecd2d8",
   "login": "Gurigraphics",
@@ -913,10 +929,10 @@
    }
   ],
   "title": "meta: make \"new feature\" issue template clearer",
-  "updated_at": "2019-09-06T15:44:39Z"
+  "updated_at": "2020-02-28T04:16:06Z"
  },
  {
-  "base": "85f905aff137a7f0872c48e16d6b883b7b46212a",
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2019-08-14T20:38:19Z",
   "head": "74182ab0111fbdf903137be67d104a66d6d72c8c",
   "login": "devsnek",
@@ -933,10 +949,10 @@
    }
   ],
   "title": "Normative: Prevent DFS invariants from being broken",
-  "updated_at": "2019-10-16T05:56:18Z"
+  "updated_at": "2020-02-28T04:16:06Z"
  },
  {
-  "base": "8f0f69279b5f9e12ebe8f7052322b93d17e36b54",
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2019-08-14T13:49:07Z",
   "head": "f8e205ddf32a6ad25d6b48a1db8faed0c3534197",
   "login": "Ms2ger",
@@ -1449,10 +1465,10 @@
    }
   ],
   "title": "Normative: Add public and private class fields, static class features, private methods & getters/setters",
-  "updated_at": "2019-09-05T15:04:14Z"
+  "updated_at": "2020-02-28T04:16:07Z"
  },
  {
-  "base": "8f0f69279b5f9e12ebe8f7052322b93d17e36b54",
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2019-08-14T10:50:49Z",
   "head": "9889a39127749a62d81dd25cdc98d51be8760f26",
   "login": "Ms2ger",
@@ -1549,10 +1565,10 @@
    }
   ],
   "title": "(ignore) Normative: Add private methods and getter/setters.",
-  "updated_at": "2019-09-02T19:56:55Z"
+  "updated_at": "2020-02-28T04:16:07Z"
  },
  {
-  "base": "8f0f69279b5f9e12ebe8f7052322b93d17e36b54",
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2019-08-11T19:19:56Z",
   "head": "10cf07662ed7e75a06033b332b58758878cc3bec",
   "login": "devsnek",
@@ -1593,10 +1609,10 @@
    }
   ],
   "title": "Editorial: enable built-in async and sync generator functions to be specified",
-  "updated_at": "2019-11-14T06:25:28Z"
+  "updated_at": "2020-02-28T04:16:07Z"
  },
  {
-  "base": "8f0f69279b5f9e12ebe8f7052322b93d17e36b54",
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2019-08-09T03:42:42Z",
   "head": "922cbdc1fe9421e0e24533fc6f219733e8d1be71",
   "login": "jhnaldo",
@@ -1613,10 +1629,10 @@
    }
   ],
   "title": "Editorial: Fixed error for already unwrapped completion records",
-  "updated_at": "2019-11-06T23:17:48Z"
+  "updated_at": "2020-02-28T04:16:08Z"
  },
  {
-  "base": "8f0f69279b5f9e12ebe8f7052322b93d17e36b54",
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2019-08-09T03:07:51Z",
   "head": "0ad518535b5d60adc2a6320f0dae7c51a0ac2285",
   "login": "jhnaldo",
@@ -1633,10 +1649,10 @@
    }
   ],
   "title": "Editorial: Added more missing cases for ExpectedArgumentCount for FormalParameters and FormalParameterList",
-  "updated_at": "2019-08-09T17:26:23Z"
+  "updated_at": "2020-02-28T04:16:08Z"
  },
  {
-  "base": "8f0f69279b5f9e12ebe8f7052322b93d17e36b54",
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2019-08-09T03:03:32Z",
   "head": "1d2e43da9d6ef7ebd7256281fe43d0eeb5da3a91",
   "login": "jhnaldo",
@@ -1653,10 +1669,10 @@
    }
   ],
   "title": "Editorial: Resolved ambiguous VarScopedDeclarations for IterationStatement",
-  "updated_at": "2019-08-09T21:50:49Z"
+  "updated_at": "2020-02-28T04:16:08Z"
  },
  {
-  "base": "8f0f69279b5f9e12ebe8f7052322b93d17e36b54",
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2019-08-09T03:01:02Z",
   "head": "6965b3b38c6f4076ff1aa7df8dfaa9c3d65893a2",
   "login": "jhnaldo",
@@ -1673,10 +1689,10 @@
    }
   ],
   "title": "Editorial: Remove assertion in InitializeBinding of Object Environment Record",
-  "updated_at": "2019-11-13T05:25:30Z"
+  "updated_at": "2020-02-28T04:16:08Z"
  },
  {
-  "base": "8f0f69279b5f9e12ebe8f7052322b93d17e36b54",
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2019-08-06T11:04:04Z",
   "head": "e733b20a81782a04322ec2a16c1d108c981fbbf1",
   "login": "Ms2ger",
@@ -1765,10 +1781,10 @@
    }
   ],
   "title": "(ignore) Normative: Add public and private class fields",
-  "updated_at": "2020-01-27T17:28:07Z"
+  "updated_at": "2020-02-28T04:16:09Z"
  },
  {
-  "base": "787642ad2d159c8358a8782c9414f6d5fb6efa6f",
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2019-07-31T13:07:07Z",
   "head": "71589836a594c16843d52d84b0b2a7d68cb65459",
   "login": "jmdyck",
@@ -1921,10 +1937,10 @@
    }
   ],
   "title": "Normative: Make B.1 \"Additional Syntax\" normative",
-  "updated_at": "2020-02-09T02:19:34Z"
+  "updated_at": "2020-02-28T04:16:09Z"
  },
  {
-  "base": "787642ad2d159c8358a8782c9414f6d5fb6efa6f",
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2019-07-13T02:30:44Z",
   "head": "ad07165a3a1f09df9714e4a319551646cc62dd41",
   "login": "jmdyck",
@@ -1965,10 +1981,10 @@
    }
   ],
   "title": "Editorial: Replace terms \"integer index\" and \"array index\"",
-  "updated_at": "2020-02-06T21:08:34Z"
+  "updated_at": "2020-02-28T04:16:10Z"
  },
  {
-  "base": "dc1e21c454bd316810be1c0e7af0131a2d7f38e9",
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2019-07-06T21:49:09Z",
   "head": "1e2638baede3313517fc4a9da761d9afe8e8f4c1",
   "login": "jmdyck",
@@ -2009,10 +2025,10 @@
    }
   ],
   "title": "Editorial: Tweak format of *.prototype.sort",
-  "updated_at": "2019-07-08T14:56:59Z"
+  "updated_at": "2020-02-28T04:16:11Z"
  },
  {
-  "base": "a95e95a63bc1fd7d71f089ad1d68be0cce4caf34",
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2019-06-20T15:52:23Z",
   "head": "306e0b43b860144000cd79c5954b3832ab1a34b5",
   "login": "mikesamuel",
@@ -2029,7 +2045,7 @@
    }
   ],
   "title": "Editorial: Provide context for HostImportModuleDynamically requirement",
-  "updated_at": "2019-06-21T14:19:36Z"
+  "updated_at": "2020-02-28T04:16:11Z"
  },
  {
   "base": "4307b77f1732186a6c67352c92b91f55de76387a",
@@ -2129,10 +2145,10 @@
    }
   ],
   "title": "Layering: Allow hosts to cleanly specify Promise Job semantics",
-  "updated_at": "2020-03-05T02:20:21Z"
+  "updated_at": "2020-03-05T18:05:00Z"
  },
  {
-  "base": "e3707ac9e14b75b9513d6b09c394dee6473c5ddf",
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2019-06-14T08:26:37Z",
   "head": "09445f5630acc2d3c47a77195cf3e059606ee18b",
   "login": "szuend",
@@ -2245,10 +2261,10 @@
    }
   ],
   "title": "Normative: A more precise Array.prototype.sort",
-  "updated_at": "2020-02-10T06:59:10Z"
+  "updated_at": "2020-02-28T04:16:12Z"
  },
  {
-  "base": "a25df663ddaa8f0b976f0411681635f587be63e0",
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2019-06-07T05:23:36Z",
   "head": "ea5d20db0396bf27079fb33537e01dd75ee41ad7",
   "login": "michaelficarra",
@@ -2345,10 +2361,10 @@
    }
   ],
   "title": "change how ReturnIfAbrupt and its shorthands are specified",
-  "updated_at": "2019-11-14T13:57:17Z"
+  "updated_at": "2020-02-28T04:16:13Z"
  },
  {
-  "base": "c808fe2b7bcc71ff22b06fe96b4260edcc4be5ba",
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2019-06-04T19:23:13Z",
   "head": "e42a39ac4b59e5aa62fc83726df2aa4b60d7b1e0",
   "login": "michaelficarra",
@@ -2365,10 +2381,10 @@
    }
   ],
   "title": "Editorial: remove useless step of ReturnIfAbrupt expansion",
-  "updated_at": "2019-11-14T06:08:07Z"
+  "updated_at": "2020-02-28T04:16:13Z"
  },
  {
-  "base": "693e09a4b9ce52b060ceda897b042c3f83f0a738",
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2019-05-31T05:11:14Z",
   "head": "88c606ebf48faeba45eca5bd1b4c7d6d1e71c45c",
   "login": "gibson042",
@@ -2473,10 +2489,10 @@
    }
   ],
   "title": "Normative: Use Number arithmetic for constructing dates and times",
-  "updated_at": "2019-10-06T16:49:32Z"
+  "updated_at": "2020-02-28T04:16:14Z"
  },
  {
-  "base": "a5375bdad264c8aa264d9c44f57408087761069e",
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2019-05-28T19:13:24Z",
   "head": "80546f0496dafffeed842cb456a5f8693d435069",
   "login": "shvaikalesh",
@@ -2493,10 +2509,10 @@
    }
   ],
   "title": "Normative: Guard TypedArray methods from non-exotic receivers",
-  "updated_at": "2019-08-22T10:42:58Z"
+  "updated_at": "2020-02-28T04:16:14Z"
  },
  {
-  "base": "1595e86b09414b669fcdd23e576ec912685d5f2b",
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2019-05-28T03:19:22Z",
   "head": "86ded1df9ac36aa4ec954a8d1ccbe7d47e117d49",
   "login": "jmdyck",
@@ -2513,10 +2529,10 @@
    }
   ],
   "title": "Editorial: Define + use StringToNumber, and better define NumericValue",
-  "updated_at": "2019-10-24T21:54:15Z"
+  "updated_at": "2020-02-28T04:16:15Z"
  },
  {
-  "base": "1595e86b09414b669fcdd23e576ec912685d5f2b",
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2019-04-29T20:16:52Z",
   "head": "77e9f1bdc8a9005dde346e8ecc465f4fb8f6d9fb",
   "login": "jmdyck",
@@ -2541,10 +2557,10 @@
    }
   ],
   "title": "Editorial: Clarify and expand the discussion of terminal symbols",
-  "updated_at": "2019-10-24T21:55:10Z"
+  "updated_at": "2020-02-28T04:16:15Z"
  },
  {
-  "base": "69d9e638031c6a16199cbd844b13ccd4b14826b5",
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2019-04-26T03:26:23Z",
   "head": "4b2517039e53c7cea471a4bc432d883d8c5f6683",
   "login": "jmdyck",
@@ -2569,10 +2585,10 @@
    }
   ],
   "title": "Editorial: Remove unused steps from definitions of Contains",
-  "updated_at": "2020-02-13T21:21:04Z"
+  "updated_at": "2020-02-28T04:16:15Z"
  },
  {
-  "base": "69d9e638031c6a16199cbd844b13ccd4b14826b5",
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2019-04-26T00:56:27Z",
   "head": "dd9d1d2c2246b60b7b1b9dcea353de773ba78598",
   "login": "ljharb",
@@ -2589,10 +2605,10 @@
    }
   ],
   "title": "Normative: specify web reality for Array.prototype.join with cyclic values",
-  "updated_at": "2019-04-26T18:47:06Z"
+  "updated_at": "2020-02-28T04:16:16Z"
  },
  {
-  "base": "f158df16b4bfa4d8d1efa7407ebfe8eeb339f4fd",
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2019-04-24T18:13:12Z",
   "head": "7244f340581a62d1bb4b1c009cef7564206777ac",
   "login": "ljharb",
@@ -2609,10 +2625,10 @@
    }
   ],
   "title": "Normative: correct spec bug in `RegExp.prototype[Symbol.matchAll]`",
-  "updated_at": "2019-07-23T20:42:29Z"
+  "updated_at": "2020-02-28T04:16:16Z"
  },
  {
-  "base": "a09fc232c137800dbf51b6204f37fdede4ba1646",
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2019-04-04T18:34:49Z",
   "head": "85105c567933960c4993b50643810526c7f05eee",
   "login": "dandclark",
@@ -2653,10 +2669,10 @@
    }
   ],
   "title": "Layering: Add GetRequestedModules() to Module Record",
-  "updated_at": "2019-04-17T15:36:40Z"
+  "updated_at": "2020-02-28T04:16:17Z"
  },
  {
-  "base": "a09fc232c137800dbf51b6204f37fdede4ba1646",
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2019-04-03T16:22:52Z",
   "head": "e344423989fe2599f5ffc86065ac12c28176170e",
   "login": "tc39",
@@ -2673,10 +2689,10 @@
    }
   ],
   "title": "Provide HostEnsureCanCompileString implementors more context",
-  "updated_at": "2019-04-30T07:06:32Z"
+  "updated_at": "2020-02-28T04:16:17Z"
  },
  {
-  "base": "a09fc232c137800dbf51b6204f37fdede4ba1646",
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2019-03-28T19:52:48Z",
   "head": "b6cc8db432c117c9dee96a1a9314e56b669fb51f",
   "login": "leobalter",
@@ -2693,10 +2709,10 @@
    }
   ],
   "title": "Normative: Extend specs to observe WebReality for HTMLCloseComment",
-  "updated_at": "2019-04-03T17:26:48Z"
+  "updated_at": "2020-02-28T04:16:18Z"
  },
  {
-  "base": "8f0f69279b5f9e12ebe8f7052322b93d17e36b54",
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2019-03-21T20:42:11Z",
   "head": "b3bfef067a59548ef763903a4e59ef1891508bc0",
   "login": "anba",
@@ -2729,10 +2745,10 @@
    }
   ],
   "title": "Set \"name\" property for anonymous functions",
-  "updated_at": "2019-12-05T20:17:32Z"
+  "updated_at": "2020-03-02T05:05:13Z"
  },
  {
-  "base": "a09fc232c137800dbf51b6204f37fdede4ba1646",
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2019-03-01T17:43:31Z",
   "head": "343b55373369a219086fd1fe1cead3dfc1122500",
   "login": "viktmv",
@@ -2757,10 +2773,10 @@
    }
   ],
   "title": "Editorial: Fix description of [[ThisMode]] internal slot of Function Object",
-  "updated_at": "2020-01-03T06:06:57Z"
+  "updated_at": "2020-02-28T04:16:19Z"
  },
  {
-  "base": "257cae9f69068704fc9e89a729f54bd7977c9161",
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2019-01-31T16:29:04Z",
   "head": "45b775fc0aefce68aaab7f1f242a6373ce2f7584",
   "login": "bmeck",
@@ -2777,10 +2793,10 @@
    }
   ],
   "title": "Editorial: Add missing has operation to property operations",
-  "updated_at": "2019-05-29T22:07:56Z"
+  "updated_at": "2020-02-28T04:16:19Z"
  },
  {
-  "base": "85ce767c86a1a8ed719fe97e978028bff819d1f2",
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2019-01-18T19:28:43Z",
   "head": "a2b0457bb1560d1674d624b4233d499df324a7fb",
   "login": "bmeck",
@@ -2797,10 +2813,10 @@
    }
   ],
   "title": "Allow hosts to reuse an existing Realm Intrinsics record",
-  "updated_at": "2019-12-19T01:14:37Z"
+  "updated_at": "2020-02-28T04:16:19Z"
  },
  {
-  "base": "693e09a4b9ce52b060ceda897b042c3f83f0a738",
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2019-01-18T18:19:39Z",
   "head": "a6a7b5069e37dec40fac0c2662f81404a57be29e",
   "login": "gibson042",
@@ -2881,10 +2897,10 @@
    }
   ],
   "title": "Editorial: Explain why *_SAFE_INTEGER magnitude is not a power of two",
-  "updated_at": "2019-10-06T16:56:21Z"
+  "updated_at": "2020-02-28T04:16:20Z"
  },
  {
-  "base": "85ce767c86a1a8ed719fe97e978028bff819d1f2",
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2019-01-14T19:02:26Z",
   "head": "f83865d2209a18287e05c8dab578d69ab497c9af",
   "login": "zenparsing",
@@ -2901,10 +2917,10 @@
    }
   ],
   "title": "Normative: Suppress GetMethod errors in IteratorClose",
-  "updated_at": "2019-11-18T22:43:32Z"
+  "updated_at": "2020-02-28T04:16:20Z"
  },
  {
-  "base": "85ce767c86a1a8ed719fe97e978028bff819d1f2",
+  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2019-01-13T06:00:18Z",
   "head": "5a50eca06776073cdabe58d9478d71dddf3e75e0",
   "login": "TimothyGu",
@@ -2921,7 +2937,7 @@
    }
   ],
   "title": "Editorial: Fix SubstitutionTemplate ArgumentListEvaluation",
-  "updated_at": "2019-02-28T19:53:52Z"
+  "updated_at": "2020-02-28T04:16:20Z"
  },
  {
   "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
