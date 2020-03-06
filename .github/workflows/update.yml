@@ -108,8 +108,10 @@ jobs:
       if: steps.comments_bootstrap.outputs.update == 'Yes'
       run: |
         git add pr-comments.json
+        set +e
         git diff --cached --quiet
         echo "##[set-output name=modified;]$?"
+        set -e
       id: comments_post
     - name: Commit PR comments JSON
       if: steps.comments_post.outputs.modified == '1'
@@ -148,8 +150,10 @@ jobs:
       if: steps.pages_bootstrap.outputs.update == 'Yes'
       run: |
         git add history
+        set +e
         git diff --cached --quiet
         echo "##[set-output name=modified;]$?"
+        set -e
       id: pages_add
     - name: Commit history
       if: steps.pages_add.outputs.modified == '1'
@@ -179,8 +183,10 @@ jobs:
       if: steps.prs.outputs.updated_pr_list != ''
       run: |
         git add pr-comments.json
+        set +e
         git diff --cached --quiet
         echo "##[set-output name=modified;]$?"
+        set -e
       id: comments_add
     - name: Commit PR comments JSON
       if: steps.comments_add.outputs.modified == '1'
