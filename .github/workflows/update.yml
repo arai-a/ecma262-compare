@@ -108,15 +108,21 @@ jobs:
       if: steps.comments_bootstrap.outputs.update == 'Yes'
       run: |
         git add pr-comments.json
+        git diff --cached --quiet
+        echo "##[set-output name=modified;]$?"
+      id: comments_post
+    - name: Commit PR comments JSON
+      if: steps.comments_post.outputs.modified == '1'
+      run: |
         git commit -m "Post PR comments"
     - name: Push PR comments JSON changes
-      continue-on-error: true
-      if: steps.comments_bootstrap.outputs.update == 'Yes'
+      if: steps.comments_post.outputs.modified == '1'
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: pr-comments
         force: false
+
     - name: Checkout gh-pages
       if: steps.comments_bootstrap.outputs.update == 'Yes'
       run: |
@@ -138,18 +144,19 @@ jobs:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
       run: make pr5
       id: prs
-    - name: Commit files
-      # Fails if no files to commit
-      # This can happen if a PR got new change, and then merged between
-      # bootstrap and update.
-      continue-on-error: true
+    - name: Add history
       if: steps.pages_bootstrap.outputs.update == 'Yes'
       run: |
         git add history
+        git diff --cached --quiet
+        echo "##[set-output name=modified;]$?"
+      id: pages_add
+    - name: Commit history
+      if: steps.pages_add.outputs.modified == '1'
+      run: |
         git commit -m "update history"
-    - name: Push changes
-      continue-on-error: true
-      if: steps.pages_bootstrap.outputs.update == 'Yes'
+    - name: Push history changes
+      if: steps.pages_add.outputs.modified == '1'
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -168,16 +175,19 @@ jobs:
       env:
         UPDATED_PR_LIST: ${{ steps.prs.outputs.updated_pr_list }}
         POST_TOKEN: ${{secrets.POST_TOKEN}}
-    - name: Commit PR comments JSON
-      # Fails if all PRs are already commented.
-      continue-on-error: true
+    - name: Add PR comments JSON
       if: steps.prs.outputs.updated_pr_list != ''
       run: |
         git add pr-comments.json
+        git diff --cached --quiet
+        echo "##[set-output name=modified;]$?"
+      id: comments_add
+    - name: Commit PR comments JSON
+      if: steps.comments_add.outputs.modified == '1'
+      run: |
         git commit -m "Store PR comments"
     - name: Push PR comments JSON changes
-      continue-on-error: true
-      if: steps.prs.outputs.updated_pr_list != ''
+      if: steps.comments_add.outputs.modified == '1'
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
