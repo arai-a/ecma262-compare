@@ -1345,7 +1345,7 @@ class Comparator {
             this.fromSecData.map[id] !== this.toSecData.map[id]) {
           const del = document.createElement("del");
           del.classList.add("htmldiff-del");
-          del.classList.add(" htmldiff-change");
+          del.classList.add("htmldiff-change");
           del.textContent = this.fromSecData.map[id];
 
           const ins = document.createElement("ins");
