@@ -1,6 +1,26 @@
 [
  {
   "base": "4307b77f1732186a6c67352c92b91f55de76387a",
+  "created_at": "2020-03-06T17:58:49Z",
+  "head": "cf3d3b5fa5adf0c35d33f851b491c3c084f936bf",
+  "login": "tc39",
+  "number": 1890,
+  "ref": "json-state",
+  "revs": [
+   {
+    "adate": "2020-03-06T09:44:53-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-03-06T09:57:36-08:00",
+    "hash": "cf3d3b5fa5adf0c35d33f851b491c3c084f936bf",
+    "parents": "4307b77f1732186a6c67352c92b91f55de76387a",
+    "subject": "Editorial: pass necessary arguments to SerializeJSON*"
+   }
+  ],
+  "title": "Editorial: pass necessary arguments to SerializeJSON*",
+  "updated_at": "2020-03-06T17:58:49Z"
+ },
+ {
+  "base": "4307b77f1732186a6c67352c92b91f55de76387a",
   "created_at": "2020-03-04T22:22:02Z",
   "head": "880dcfef1057a571a04463720bab0c5aa83f5255",
   "login": "syg",
