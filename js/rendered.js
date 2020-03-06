@@ -128,7 +128,7 @@ class SnapshotList {
       authorAndDate.appendChild(author);
 
       const date = document.createElement("span");
-      date.textContent = ` (${DateUtils.toReadable(pr.updated_at)})`;
+      date.textContent = ` (${DateUtils.toReadable(pr.revs[0].date)})`;
       authorAndDate.appendChild(date);
 
       const diffCell = document.createElement("td");
