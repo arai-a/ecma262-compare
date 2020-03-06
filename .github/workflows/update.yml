@@ -1,6 +1,8 @@
 name: Update revisions and PRs
 
 on:
+  push:
+    branches: master
   schedule:
     # Every 30 minutes
     - cron:  '*/30 * * * *'
