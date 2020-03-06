@@ -14,7 +14,7 @@ This branch is to track comments for PRs in ecma262 repository.
 
 * `build.py`  
   Script to track the comment info, and post comment
-* config.json  
+* `config.json`  
   Configuration for PR comments
 * `pr-comments.json`  
   Contains information abotu which PR is updated, and which PR is already commented
