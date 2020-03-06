@@ -881,6 +881,7 @@ class Comparator {
       author.textContent = `by ${pr.revs[0].author}`;
 
       const d = pr.revs[0].date;
+      date.title = d;
       date.textContent = `(${DateUtils.toRelativeTime(d)}${DateUtils.toReadable(d)})`;
     } else if (name in this.revMap) {
       const rev = this.revMap[name];
@@ -891,6 +892,7 @@ class Comparator {
       author.textContent = `by ${rev.author}`;
 
       const d = rev.date;
+      date.title = d;
       date.textContent = `(${DateUtils.toRelativeTime(d)}${DateUtils.toReadable(d)})`;
     } else {
       subjectLink.textContent = "-";
