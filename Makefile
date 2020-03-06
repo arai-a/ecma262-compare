@@ -50,7 +50,7 @@ lint-setup:
 	npm install
 
 lint:
-	npx eslint js/rendered.js
+	npx eslint js/snapshot.js
 	npx eslint js/compare.js
 	npx eslint js/path-diff-worker.js
 	npx eslint js/tree-diff-worker.js

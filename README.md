@@ -28,30 +28,30 @@ This branch contains 2 things:
     The copy of `ecmarkup.css` file from recent spec
   * `img/*.png`
   * `img/*.ico`
-* Rendered revisions and PRs history index
-  * `rendered_revs.html`
-  * `rendered_prs.html`
-  * `js/rendered.js`
-  * `style/rendered.css`
+* Index of revisions and PRs snapshots
+  * `snapshot_revs.html`
+  * `snapshot_prs.html`
+  * `js/snapshot.js`
+  * `style/snapshot.css`
 * History data
   * `history/revs.json`  
     The list of the metadata for already-merged revisions
   * `history/prs.json`  
     The list of the metadata for PRs
   * `history/{SHA}/index.html`  
-    Rendered page for `{SHA}` revision
+    Snapshot of `{SHA}` revision
   * `history/{SHA}/sections.json`  
     Extracted section data for `{SHA}` revision, used by the comparator
   * `history/{SHA}/*`  
-    Other resources for the rendered page
+    Other resources for the snapshot
   * `history/PR/{PR}/info.json`  
     Some metadata for the PR
   * `history/PR/{PR}/{SHA}/index.html`  
-    Rendered page for `{SHA}` revision
+    Snapshot of `{SHA}` revision
   * `history/PR/{PR}/{SHA}/sections.json`  
     Extracted section data for `{SHA}` revision, used by the comparator
   * `history/PR/{PR}/{SHA}/*`  
-    Other resources for the rendered page
+    Other resources for the snapshot
 * Linter settings
   * `.eslintrc.js`
   * `package.json`
