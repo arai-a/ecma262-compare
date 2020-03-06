@@ -1242,7 +1242,9 @@ class Comparator {
       this.fixupExcluded(type, box);
       this.fixupLink(type, box);
       this.fixupImages(type, box);
-      this.addSingleSectionButtons(box);
+      if (sections.size > 1) {
+        this.addSingleSectionButtons(box);
+      }
     }
 
     this.diffStat.textContent = "";
