@@ -66,6 +66,11 @@ option.mod {
 
 /* ==== revision info ==== */
 
+#from-history-link,
+#to-history-link {
+    display: none;
+}
+
 #from-rev-subject,
 #to-rev-subject {
     font-size: 0.8em;

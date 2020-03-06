@@ -668,6 +668,11 @@ class Comparator {
       menu.firstChild.remove();
     }
 
+    const opt = document.createElement("option");
+    opt.value = "-";
+    opt.textContent = "-";
+    menu.appendChild(opt);
+
     for (const rev of this.revs) {
       const opt = document.createElement("option");
       opt.value = rev.hash;
@@ -762,8 +767,8 @@ class Comparator {
         this.revFilter.value = hash;
         this.selectFromToForRev(hash);
       } else {
-        this.selectLatestRev("from");
-        this.selectLatestRev("to");
+        this.fromRev.value = "-";
+        this.toRev.value = "-";
       }
 
       this.prFilter.value = "-";
@@ -774,8 +779,8 @@ class Comparator {
         this.selectFromToForPR(prnum);
         this.updatePRLink(prnum);
       } else {
-        this.selectLatestRev("from");
-        this.selectLatestRev("to");
+        this.fromRev.value = "-";
+        this.toRev.value = "-";
         if (prnum != "-") {
           this.missingPR = prnum;
         }
@@ -788,7 +793,7 @@ class Comparator {
         if (from in this.revMap) {
           this.fromRev.value = from;
         } else {
-          this.selectLatestRev("from");
+          this.fromRev.value = "-";
         }
       }
       if ("to" in params) {
@@ -796,7 +801,7 @@ class Comparator {
         if (to in this.revMap) {
           this.toRev.value = to;
         } else {
-          this.selectLatestRev("to");
+          this.toRev.value = "-";
         }
       }
 
@@ -837,11 +842,6 @@ class Comparator {
     }
   }
 
-  selectLatestRev(type) {
-    const list = type === "from" ? this.fromRev : this.toRev;
-    list.value = list.getElementsByTagName("option")[0].value;
-  }
-
   updatePRLink(prnum) {
     if (prnum in this.prMap) {
       const pr = this.prMap[prnum];
@@ -853,8 +853,19 @@ class Comparator {
   }
 
   updateHistoryLink() {
-    this.fromLink.href = `./history/${this.fromRev.value}/index.html`;
-    this.toLink.href = `./history/${this.toRev.value}/index.html`;
+    if (this.fromRev.value === "-") {
+      this.fromLink.style.display = "none";
+    } else {
+      this.fromLink.style.display = "inline";
+      this.fromLink.href = `./history/${this.fromRev.value}/index.html`;
+    }
+
+    if (this.toRev.value === "-") {
+      this.toLink.style.display = "none";
+    } else {
+      this.toLink.style.display = "inline";
+      this.toLink.href = `./history/${this.toRev.value}/index.html`;
+    }
   }
 
   updateRevInfo() {
@@ -909,10 +920,20 @@ class Comparator {
     this.result.textContent = "";
     this.diffStat.textContent = "";
 
+
+    while (this.secList.firstChild) {
+      this.secList.firstChild.remove();
+    }
+
+    if (this.fromRev.value === "-" ||
+        this.toRev.value === "-") {
+      return;
+    }
+
     this.diffStat.textContent = "Loading...";
     [this.fromSecData, this.toSecData] = await Promise.all([
-      this.getSecData("from"),
-      this.getSecData("to")
+      this.getSecData(this.fromRev.value),
+      this.getSecData(this.toRev.value)
     ]);
 
     {
@@ -939,10 +960,6 @@ class Comparator {
     this.diffStat.textContent = "";
 
     this.secHit.textContent = "";
-
-    while (this.secList.firstChild) {
-      this.secList.firstChild.remove();
-    }
 
     const fromSecSet = new Set(this.fromSecData.secList);
     const toSecSet = new Set(this.toSecData.secList);
@@ -1010,14 +1027,8 @@ class Comparator {
     }
   }
 
-  async getSecData(id) {
-    const hash = this.hashOf(id);
+  async getSecData(hash) {
     return this.getJSON(`./history/${hash}/sections.json?v2`);
-  }
-
-  // Returns hash for selected item in "from" or "to" list.
-  hashOf(id) {
-    return document.getElementById(`${id}-rev`).value;
   }
 
   // Returns a string representation of section number+title that is comparable
@@ -1092,11 +1103,11 @@ class Comparator {
         params.push(`id=${encodeURIComponent(id)}`);
       }
     } else {
-      const from = this.hashOf("from");
-      const to = this.hashOf("to");
-      if (from !== to) {
-        params.push(`from=${this.hashOf("from")}`);
-        params.push(`to=${this.hashOf("to")}`);
+      const from = this.fromRev.value;
+      const to = this.toRev.value;
+      if (from !== "-" && to !== "-" && from !== to) {
+        params.push(`from=${from}`);
+        params.push(`to=${to}`);
         if (id !== "combined") {
           params.push(`id=${encodeURIComponent(id)}`);
         }
@@ -1115,7 +1126,8 @@ class Comparator {
 
   async compare() {
     const isSameRev = this.fromRev.value === this.toRev.value;
-    const empty = isSameRev || this.missingPR;
+    const missingRev = this.fromRev.value === "-" || this.toRev.value === "-";
+    const empty = isSameRev || this.missingPR || missingRev;
     if (empty) {
       if (this.missingPR) {
         this.messageOverlay.classList.add("shown");
