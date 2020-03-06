@@ -1241,6 +1241,7 @@ class Comparator {
       }
       this.fixupExcluded(type, box);
       this.fixupLink(type, box);
+      this.fixupImages(type, box);
       this.addSingleSectionButtons(box);
     }
 
@@ -1289,7 +1290,7 @@ class Comparator {
   }
 
   findParentInsDel(node) {
-    while (node && node != this.result) {
+    while (node && node !== this.result) {
       if (node.classList.contains("htmldiff-change")) {
         return node;
       }
@@ -1339,7 +1340,7 @@ class Comparator {
       if (type === "diff") {
         if (id in this.toSecData.map &&
             id in this.fromSecData.map &&
-            this.fromSecData.map[id] != this.toSecData.map[id]) {
+            this.fromSecData.map[id] !== this.toSecData.map[id]) {
           const del = document.createElement("del");
           del.className = "htmldiff-del htmldiff-change";
           del.textContent = this.fromSecData.map[id];
@@ -1419,6 +1420,51 @@ class Comparator {
         link.href = `${toSnapshot}${href}`;
       } else {
         link.href = `${toSnapshot}${href}`;
+      }
+    }
+  }
+
+  fixupImages(type, box) {
+    const fromSnapshotBase = `./history/${this.fromRev.value}/`;
+    const toSnapshotBase = `./history/${this.toRev.value}/`;
+
+    const imgs = box.getElementsByTagName("img");
+    for (const img of imgs) {
+      if (!img.hasAttribute("src")) {
+        continue;
+      }
+      const src = img.getAttribute("src");
+
+      if (src.startsWith("http") || src.startsWith("./history")) {
+        continue;
+      }
+
+      if (type === "from") {
+        img.src = `${fromSnapshotBase}${src}`;
+      } else if (type === "to") {
+        img.src = `${toSnapshotBase}${src}`;
+      } else {
+        img.src = `${toSnapshotBase}${src}`;
+      }
+    }
+
+    const objs = box.getElementsByTagName("object");
+    for (const obj of objs) {
+      if (!obj.hasAttribute("data")) {
+        continue;
+      }
+      const data = obj.getAttribute("data");
+
+      if (data.startsWith("http") || data.startsWith("./history")) {
+        continue;
+      }
+
+      if (type === "from") {
+        obj.data = `${fromSnapshotBase}${data}`;
+      } else if (type === "to") {
+        obj.data = `${toSnapshotBase}${data}`;
+      } else {
+        obj.data = `${toSnapshotBase}${data}`;
       }
     }
   }
