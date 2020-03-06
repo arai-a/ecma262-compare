@@ -77,7 +77,7 @@ class SnapshotList {
       row.appendChild(diffCell);
 
       const diffLink = document.createElement("a");
-      diffLink.href = `./#from=${parent}&to=${rev.hash}&id=combined`;
+      diffLink.href = `./?rev=${rev.hash}`;
       diffLink.textContent = "Compare";
       subject.appendChild(link);
 
@@ -182,7 +182,7 @@ class SnapshotList {
       row.appendChild(diffCell);
 
       const diffLink = document.createElement("a");
-      diffLink.href = `./#pr=${pr.number}`;
+      diffLink.href = `./?pr=${pr.number}`;
       diffLink.textContent = "Compare";
       subject.appendChild(link);
 
