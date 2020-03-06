@@ -267,12 +267,14 @@ class HTMLTreeDiff {
     }
 
     if (node.previousSibling) {
-      if (this.isBlock(node.previousSibling)) {
+      if (node.previousSibling.nodeType === Node.COMMENT_NODE ||
+          this.isBlock(node.previousSibling)) {
         return true;
       }
     }
     if (node.nextSibling) {
-      if (this.isBlock(node.nextSibling)) {
+      if (node.nextSibling.nodeType === Node.COMMENT_NODE ||
+          this.isBlock(node.nextSibling)) {
         return true;
       }
     }
