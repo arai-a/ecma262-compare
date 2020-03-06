@@ -112,14 +112,20 @@ class SnapshotList {
       sortByNum.classList.add("round-button");
       sortByNum.textContent = "Sort by PR number";
       sortByNum.addEventListener("click", () => {
-        this.populatePRList("num", -order);
+        if (sortBy === "num") {
+          order = -order;
+        }
+        this.populatePRList("num", order);
       });
 
       const sortByDate = document.createElement("button");
       sortByDate.classList.add("round-button");
       sortByDate.textContent = "Sort by commit date";
       sortByDate.addEventListener("click", () => {
-        this.populatePRList("date", -order);
+        if (sortBy === "date") {
+          order = -order;
+        }
+        this.populatePRList("date", order);
       });
 
       headerCell.appendChild(sortByNum);
