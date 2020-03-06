@@ -30,6 +30,11 @@ class SnapshotList {
       this.getJSON("./history/prs.json?20200217a"),
     ]);
 
+    this.revMap = {};
+    for (const rev of this.revs) {
+      this.revMap[rev.hash] = rev;
+    }
+
     this.prMap = {};
     for (const pr of this.prs) {
       this.prMap[pr.number] = pr;
@@ -76,12 +81,16 @@ class SnapshotList {
       diffCell.classList.add("diff-cell");
       row.appendChild(diffCell);
 
-      const diffLink = document.createElement("a");
-      diffLink.href = `./?rev=${rev.hash}`;
-      diffLink.textContent = "Compare";
-      subject.appendChild(link);
+      if (parent in this.revMap) {
+        const diffLink = document.createElement("a");
+        diffLink.href = `./?rev=${rev.hash}`;
+        diffLink.textContent = "Compare";
+        subject.appendChild(link);
 
-      diffCell.appendChild(diffLink);
+        diffCell.appendChild(diffLink);
+      } else {
+        diffCell.textContent = "-";
+      }
 
       const snapshotCell = document.createElement("td");
       snapshotCell.classList.add("snapshot-cell");
