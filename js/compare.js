@@ -499,7 +499,7 @@ class DateUtils {
       if (hour == 1) {
         return "1 hour ago, ";
       }
-      if (min < 24) {
+      if (hour < 24) {
         return `${hour} hours ago, `;
       }
       const day = Math.floor(hour / 24);
