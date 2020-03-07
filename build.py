@@ -671,7 +671,7 @@ class PRs:
         for parent in PRInfo.parents(pr):
             RevisionRenderer.run(parent, None, skip_cache)
 
-        cls.UPDATED_PRS.append(prnum)
+        cls.UPDATED_PRS.append('{}={}'.format(prnum, pr['head']))
 
         return True
 
