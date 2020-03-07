@@ -8,8 +8,8 @@
 <link rel="apple-touch-icon" href="./img/ecma262-compare.png" sizes="256x256" type="image/png">
 <link href="./style/ecmarkup.css" rel="stylesheet">
 <link href="./style/base.css?20200306-c" rel="stylesheet">
-<link href="./style/compare.css?20200307-b" rel="stylesheet">
-<script type="text/javascript" src="./js/compare.js?20200307-b"></script>
+<link href="./style/compare.css?20200307-c" rel="stylesheet">
+<script type="text/javascript" src="./js/compare.js?20200307-c"></script>
 </head>
 <body onload="onBodyLoad()">
 <div id="container">
@@ -25,6 +25,13 @@
     </div>
     <div id="collapse-control" title="Collapse/expand header"
          onclick="onCollapseControlClick()">
+    </div>
+    <div id="collapsed-header-line">
+      <a id="collapsed-header-line-subject-link"></a>
+      <span id="collapsed-header-line-subject">
+      </span>
+      <span id="collapsed-header-line-author-and-date"></span>
+      <span id="collapsed-header-line-stat"></span>
     </div>
     <div id="github-link">
       <a href="https://github.com/arai-a/ecma262-compare"><img src="./img/github.png" alt="GitHub repository" title="GitHub repository"></a>

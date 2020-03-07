@@ -14,6 +14,10 @@ html.help #container {
 
 /* ==== collapse ==== */
 
+#collapsed-header-line {
+    display: none;
+}
+
 #header.collapsed {
     box-sizing: border-box;
     min-height: 40px;
@@ -22,6 +26,15 @@ html.help #container {
 
 #header.collapsed nav {
     display: none;
+}
+
+#header.collapsed h1 {
+    display: none;
+}
+
+#header.collapsed #collapsed-header-line {
+    display: block;
+    margin: 0 80px;
 }
 
 #collapse-control {
@@ -43,6 +56,21 @@ html.help #container {
 
 #header.collapsed #collapse-control:before {
     content: "▼";
+}
+
+#collapsed-header-line-subject-link {
+    font-size: 1em;
+}
+#collapsed-header-line-subject {
+    font-size: 1em;
+}
+#collapsed-header-line-author-and-date {
+    font-size: 0.9em;
+    color: #707070;
+}
+#collapsed-header-line-stat {
+    font-size: 0.8em;
+    color: #707070;
 }
 
 /* ==== controller ==== */

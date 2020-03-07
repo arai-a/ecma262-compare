@@ -531,6 +531,11 @@ class Comparator {
     this.abortProcessing = false;
 
     this.header = document.getElementById("header");
+    this.collapsedHeaderLine = document.getElementById("collapsed-header-line");
+    this.collapsedSubject = document.getElementById("collapsed-header-line-subject");
+    this.collapsedSubjectLink = document.getElementById("collapsed-header-line-subject-link");
+    this.collapsedAuthor = document.getElementById("collapsed-header-line-author-and-date");
+    this.collapsedStat = document.getElementById("collapsed-header-line-stat");
     this.prFilter = document.getElementById("pr-filter");
     this.revFilter = document.getElementById("rev-filter");
     this.fromRev = document.getElementById("from-rev");
@@ -890,6 +895,7 @@ class Comparator {
   updateRevInfo() {
     this.updateRevInfoFor("from", this.fromRev.value);
     this.updateRevInfoFor("to", this.toRev.value);
+    this.updateCollapsedHeaderLine();
   }
 
   updateRevInfoFor(id, name) {
@@ -935,9 +941,58 @@ class Comparator {
     }
   }
 
+  updateCollapsedHeaderLine() {
+    const MAX_TITLE_LENGTH = 80;
+
+    const prnum = this.prFilter.value;
+    if (prnum in this.prMap) {
+      const pr = this.prMap[prnum];
+
+      let title = pr.title;
+      if (title.length > MAX_TITLE_LENGTH) {
+        title = title.slice(0, MAX_TITLE_LENGTH - 1) + "\u2026";
+      }
+      this.collapsedSubjectLink.textContent = `PR ${pr.number}`;
+      this.collapsedSubjectLink.href = `${REPO_URL}/pull/${pr.number}`;
+      this.collapsedSubject.textContent = `: ${title}`;
+      this.collapsedAuthor.textContent = `(${pr.login}/${pr.ref})`;
+      return;
+    }
+
+    const MAX_SUBJECT_LENGTH = 80;
+
+    const hash = this.revFilter.value;
+    if (hash in this.revMap) {
+      const rev = this.revMap[hash];
+
+      let subject = rev.subject;
+      if (subject.length > MAX_SUBJECT_LENGTH) {
+        subject = subject.slice(0, MAX_SUBJECT_LENGTH - 1) + "\u2026";
+      }
+      this.collapsedSubjectLink.textContent =`${hash.slice(0,8)}`;
+      this.collapsedSubjectLink.href = `${REPO_URL}/commit/${rev.hash}`;
+      this.collapsedSubject.textContent =`${subject}`;
+      this.collapsedAuthor.textContent = `by ${rev.author} (${DateUtils.toReadable(rev.date)})`;
+      return;
+    }
+
+    const from = this.fromRev.value;
+    const to = this.toRev.value;
+    if (from in this.revMap && to in this.revMap) {
+      this.collapsedSubjectLink.textContent = "";
+      this.collapsedSubject.textContent = `${from.slice(0,8)} .. ${to.slice(0,8)}`;
+      this.collapsedAuthor.textContent = "";
+      return;
+    }
+
+    this.collapsedSubjectLink.textContent = "";
+    this.collapsedSubject.textContent = "";
+    this.collapsedAuthor.textContent = "";
+  }
+
   async updateSectionList() {
     this.result.textContent = "";
-    this.diffStat.textContent = "";
+    this.setStat("");
 
 
     while (this.secList.firstChild) {
@@ -949,7 +1004,7 @@ class Comparator {
       return;
     }
 
-    this.diffStat.textContent = "Loading...";
+    this.setStat("Loading...");
     [this.fromSecData, this.toSecData] = await Promise.all([
       this.getSecData(this.fromRev.value),
       this.getSecData(this.toRev.value)
@@ -976,7 +1031,7 @@ class Comparator {
       this.toSecData.map = map;
     }
 
-    this.diffStat.textContent = "";
+    this.setStat("");
 
     this.secHit.textContent = "";
 
@@ -1044,6 +1099,11 @@ class Comparator {
     } else {
       this.secHit.textContent = `${count} sections found`;
     }
+  }
+
+  setStat(t) {
+    this.collapsedStat.textContent = t;
+    this.diffStat.textContent = t;
   }
 
   async getSecData(hash) {
@@ -1158,7 +1218,7 @@ class Comparator {
     if (empty) {
       if (this.missingPR) {
         this.messageOverlay.classList.add("shown");
-        this.messageBox.textContent = `PR #${this.missingPR} is not found. This can happen if the the history data isn't yet deployed. Try again 10 minutes later.`;
+        this.messageBox.textContent = `PR ${this.missingPR} is not found. This can happen if the the history data isn't yet deployed. Try again 10 minutes later.`;
         this.missingPR = undefined;
       } else {
         this.messageBox.textContent = "";
@@ -1166,7 +1226,7 @@ class Comparator {
 
       document.documentElement.classList.add("help");
       this.result.textContent = "";
-      this.diffStat.textContent = "";
+      this.setStat("");
       return;
     }
     this.messageBox.textContent = "";
@@ -1228,7 +1288,7 @@ class Comparator {
         this.scroller.style.display = "block";
       }
 
-      this.diffStat.textContent = `+${ins} -${del}${note}`;
+      this.setStat(`+${ins} -${del}${note}`);
     } else {
       this.scroller.style.display = "none";
       this.result.classList.remove("diff-view");
@@ -1259,7 +1319,7 @@ class Comparator {
         this.result.textContent = "";
       }
 
-      this.diffStat.textContent = "";
+      this.setStat("");
     }
   }
 
@@ -1288,7 +1348,7 @@ class Comparator {
     this.result.textContent = "";
     for (const [id, HTML] of sections) {
       i++;
-      this.diffStat.textContent = `generating sections... ${i}/${len}`;
+      this.setStat(`generating sections... ${i}/${len}`);
       if (this.abortProcessing) {
         break;
       }
@@ -1334,7 +1394,7 @@ class Comparator {
       }
     }
 
-    this.diffStat.textContent = "";
+    this.setStat("");
 
     this.processing = false;
   }
