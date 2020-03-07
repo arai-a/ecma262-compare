@@ -80,11 +80,13 @@ class StorePRComments:
             Logger.info('UPDATED_PR_LIST is empty')
             return
 
-        updated = map(lambda x: int(x), updated.split(','))
+        updated = updated.split(',')
 
         comments = FileUtils.read_json(Paths.COMMENTS_PATH)
 
-        for prnum in updated:
+        for prnum_sha in updated:
+            prnum, sha = pnum_sha.split('=')
+            prnum = int(prnum)
             if prnum in comments['posted']:
                 Logger.info('PR {} is already commented'.format(prnum))
                 continue
