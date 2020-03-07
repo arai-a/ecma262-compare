@@ -51,82 +51,82 @@ jobs:
         rm -rf history
         rm requirements.txt
 
-    # ==== Bootstrap for posting PR comments ====
+    # ==== Bootstrap for posting PR status ====
 
-    - name: Get pr-comments hash
+    - name: Get pr-status hash
       run: |
         curl \
-        --url https://api.github.com/repos/${{ github.repository }}/branches/pr-comments \
+        --url https://api.github.com/repos/${{ github.repository }}/branches/pr-status \
         --header 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}' \
         --header 'content-type: application/json' | \
         python -c 'import sys; import json; print("##[set-output name=sha;]{}".format(json.loads(sys.stdin.read())["commit"]["sha"]))'
-      id: comments_hash
-    - name: Download pr-comments Bootstrap
+      id: status_hash
+    - name: Download pr-status Bootstrap
       run: |
-        curl -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.comments_hash.outputs.sha}}/Makefile
-        curl -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.comments_hash.outputs.sha}}/build.py
-        curl -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.comments_hash.outputs.sha}}/config.json
-        curl -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.comments_hash.outputs.sha}}/pr-comments.json
-    - name: Run pr-comments Bootstrap
+        curl -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.status_hash.outputs.sha}}/Makefile
+        curl -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.status_hash.outputs.sha}}/build.py
+        curl -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.status_hash.outputs.sha}}/config.json
+        curl -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.status_hash.outputs.sha}}/pr-status.json
+    - name: Run pr-status Bootstrap
       run: make bootstrap
-      id: comments_bootstrap
-    - name: Remove pr-comments Bootstrap
+      id: status_bootstrap
+    - name: Remove pr-status Bootstrap
       run: |
         rm Makefile
         rm build.py
         rm config.json
-        rm pr-comments.json
+        rm pr-status.json
 
-    # ==== Checkout if history or PR comments needs to be updated ====
+    # ==== Checkout if history or PR status needs to be updated ====
 
     - name: Checkout
-      if: steps.pages_bootstrap.outputs.update == 'Yes' || steps.comments_bootstrap.outputs.update == 'Yes'
+      if: steps.pages_bootstrap.outputs.update == 'Yes' || steps.status_bootstrap.outputs.update == 'Yes'
       uses: actions/checkout@v1
       with:
         ref: gh-pages
     - name: Set Git Profile
-      if: steps.pages_bootstrap.outputs.update == 'Yes' || steps.comments_bootstrap.outputs.update == 'Yes'
+      if: steps.pages_bootstrap.outputs.update == 'Yes' || steps.status_bootstrap.outputs.update == 'Yes'
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
     - name: Setup virtualenv
-      if: steps.pages_bootstrap.outputs.update == 'Yes' || steps.comments_bootstrap.outputs.update == 'Yes'
+      if: steps.pages_bootstrap.outputs.update == 'Yes' || steps.status_bootstrap.outputs.update == 'Yes'
       run: make py-venv
 
-    # ==== Post PR comments for previous update ====
+    # ==== Post PR status for previous update ====
 
-    - name: Checkout pr-comments
-      if: steps.comments_bootstrap.outputs.update == 'Yes'
+    - name: Checkout pr-status
+      if: steps.status_bootstrap.outputs.update == 'Yes'
       run: |
-        git checkout pr-comments
-    - name: Post PR comments
-      if: steps.comments_bootstrap.outputs.update == 'Yes'
+        git checkout pr-status
+    - name: Post PR status
+      if: steps.status_bootstrap.outputs.update == 'Yes'
       run: make post
       env:
         POST_TOKEN: ${{secrets.POST_TOKEN}}
-    - name: Commit PR comments JSON
-      if: steps.comments_bootstrap.outputs.update == 'Yes'
+    - name: Commit PR status JSON
+      if: steps.status_bootstrap.outputs.update == 'Yes'
       run: |
-        git add pr-comments.json
+        git add pr-status.json
         set +e
         git diff --cached --quiet
         echo "##[set-output name=modified;]$?"
         set -e
-      id: comments_post
-    - name: Commit PR comments JSON
-      if: steps.comments_post.outputs.modified == '1'
+      id: status_post
+    - name: Commit PR status JSON
+      if: steps.status_post.outputs.modified == '1'
       run: |
-        git commit -m "Post PR comments"
-    - name: Push PR comments JSON changes
-      if: steps.comments_post.outputs.modified == '1'
+        git commit -m "Post PR status"
+    - name: Push PR status JSON changes
+      if: steps.status_post.outputs.modified == '1'
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: pr-comments
+        branch: pr-status
         force: false
 
     - name: Checkout gh-pages
-      if: steps.comments_bootstrap.outputs.update == 'Yes'
+      if: steps.status_bootstrap.outputs.update == 'Yes'
       run: |
         git checkout gh-pages
 
@@ -167,35 +167,35 @@ jobs:
         branch: gh-pages
         force: false
 
-    # ==== Store PR comments data for the next run ====
+    # ==== Store PR status data for the next run ====
 
-    - name: Checkout pr-comments
+    - name: Checkout pr-status
       if: steps.prs.outputs.updated_pr_list != ''
       run: |
-        git checkout pr-comments
-    - name: Store PR comments data
+        git checkout pr-status
+    - name: Store PR status data
       if: steps.prs.outputs.updated_pr_list != ''
       run: make store
       env:
         UPDATED_PR_LIST: ${{ steps.prs.outputs.updated_pr_list }}
         POST_TOKEN: ${{secrets.POST_TOKEN}}
-    - name: Add PR comments JSON
+    - name: Add PR status JSON
       if: steps.prs.outputs.updated_pr_list != ''
       run: |
-        git add pr-comments.json
+        git add pr-status.json
         set +e
         git diff --cached --quiet
         echo "##[set-output name=modified;]$?"
         set -e
-      id: comments_add
-    - name: Commit PR comments JSON
-      if: steps.comments_add.outputs.modified == '1'
+      id: status_add
+    - name: Commit PR status JSON
+      if: steps.status_add.outputs.modified == '1'
       run: |
-        git commit -m "Store PR comments"
-    - name: Push PR comments JSON changes
-      if: steps.comments_add.outputs.modified == '1'
+        git commit -m "Store PR status"
+    - name: Push PR status JSON changes
+      if: steps.status_add.outputs.modified == '1'
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: pr-comments
+        branch: pr-status
         force: false
