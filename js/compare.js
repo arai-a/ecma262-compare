@@ -516,6 +516,8 @@ class DateUtils {
 // ECMAScript Language Specification Comparator
 class Comparator {
   constructor() {
+    this.headerCollapsed = false;
+
     // The `sections.json` data for the currently selected "from" revision.
     this.fromSecData = {};
 
@@ -528,6 +530,7 @@ class Comparator {
     // Set to `True` to tell the currently ongoing diff calculation to abort.
     this.abortProcessing = false;
 
+    this.header = document.getElementById("header");
     this.prFilter = document.getElementById("pr-filter");
     this.revFilter = document.getElementById("rev-filter");
     this.fromRev = document.getElementById("from-rev");
@@ -734,6 +737,14 @@ class Comparator {
       } catch (e) {}
     }
 
+    if ("collapsed" in queryParams) {
+      this.headerCollapsed = true;
+      this.updateHeader();
+    } else {
+      this.headerCollapsed = false;
+      this.updateHeader();
+    }
+
     let section;
     if ("id" in queryParams) {
       section = queryParams.id;
@@ -757,6 +768,14 @@ class Comparator {
       });
     } else {
       this.updateUI("from-to", {});
+    }
+  }
+
+  updateHeader() {
+    if (this.headerCollapsed) {
+      this.header.classList.add("collapsed");
+    } else {
+      this.header.classList.remove("collapsed");
     }
   }
 
@@ -1086,7 +1105,7 @@ class Comparator {
       .replace(/ href="[^"]+"/g, "");
   }
 
-  updateURL() {
+  updateURL(replace=false) {
     const id = this.secList.value;
 
     const params = [];
@@ -1114,13 +1133,21 @@ class Comparator {
       }
     }
 
+    if (this.headerCollapsed) {
+      params.push("collapsed=1");
+    }
+
     const query = params.length > 0 ? `?${params.join("&")}` : "";
     if (query !== this.currentQuery) {
       this.currentQuery = query;
-      window.history.pushState(
-        {},
-        document.title,
-        window.location.origin + window.location.pathname + query);
+
+      const url = window.location.origin + window.location.pathname + query;
+
+      if (replace) {
+        window.history.replaceState({}, document.title, url);
+      } else {
+        window.history.pushState({}, document.title, url);
+      }
     }
   }
 
@@ -1777,6 +1804,12 @@ class Comparator {
     this.messageOverlay.classList.remove("shown");
   }
 
+  async onCollapseControlClick() {
+    this.headerCollapsed = !this.headerCollapsed;
+    this.updateHeader();
+    this.updateURL(true);
+  }
+
   async onPopState() {
     if (window.location.search === this.currentQuery) {
       return;
@@ -1854,6 +1887,11 @@ function onSearchInput() {
 /* exported onMessageOverlayClick */
 function onMessageOverlayClick() {
   comparator.onMessageOverlayClick().catch(e => console.error(e));
+}
+
+/* exported onCollapseControlClick */
+function onCollapseControlClick() {
+  comparator.onCollapseControlClick().catch(e => console.error(e));
 }
 
 window.addEventListener("popstate", () => {

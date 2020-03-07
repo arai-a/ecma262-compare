@@ -12,6 +12,39 @@ html.help #container {
     flex-direction: column;
 }
 
+/* ==== collapse ==== */
+
+#header.collapsed {
+    box-sizing: border-box;
+    min-height: 40px;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+#header.collapsed nav {
+    display: none;
+}
+
+#collapse-control {
+    position: absolute;
+    left: 44px;
+    top: 4px;
+    width: 16px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    font-size: 16px;
+    color: #41811b;
+    cursor: pointer;
+}
+
+#collapse-control:before {
+    content: "▲";
+}
+
+#header.collapsed #collapse-control:before {
+    content: "▼";
+}
+
 /* ==== controller ==== */
 
 #controller {
@@ -20,6 +53,10 @@ html.help #container {
     display: grid;
     width: 100%;
     grid-template-columns: 8em 1fr;
+}
+
+#header.collapsed #controller {
+    display: none;
 }
 
 /* ==== filter ==== */
@@ -96,6 +133,10 @@ option.mod {
     flex-direction: row;
 }
 
+#header.collapsed #tabs {
+    display: none;
+}
+
 #view-from-tab,
 #view-to-tab,
 #view-diff-tab {
@@ -142,6 +183,11 @@ option.mod {
     border-radius: 20px;
     border: 2px solid rgb(185,115,255);
     background-color: white;
+    opacity: 0.5;
+}
+
+#scroller:hover {
+    opacity: 1;
 }
 
 #scroll-up-container, #scroll-down-container {
@@ -149,6 +195,7 @@ option.mod {
 }
 
 #scroll-up, #scroll-down {
+    cursor: pointer;
     display: block;
     width: 32px;
     height: 32px;

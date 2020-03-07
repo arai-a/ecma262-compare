@@ -8,12 +8,12 @@
 <link rel="apple-touch-icon" href="./img/ecma262-compare.png" sizes="256x256" type="image/png">
 <link href="./style/ecmarkup.css" rel="stylesheet">
 <link href="./style/base.css?20200306-c" rel="stylesheet">
-<link href="./style/compare.css?20200307-a" rel="stylesheet">
-<script type="text/javascript" src="./js/compare.js?20200307-a"></script>
+<link href="./style/compare.css?20200307-b" rel="stylesheet">
+<script type="text/javascript" src="./js/compare.js?20200307-b"></script>
 </head>
 <body onload="onBodyLoad()">
 <div id="container">
-  <header>
+  <header id="header">
     <h1>ECMAScript Language Specification Comparator</h1>
     <nav class="nav">
       <a href="./">Comparator</a>
@@ -22,6 +22,9 @@
     </nav>
     <div id="logo">
       <img class="logo-img" src="./img/ecma262-compare-64.png" alt="logo">
+    </div>
+    <div id="collapse-control" title="Collapse/expand header"
+         onclick="onCollapseControlClick()">
     </div>
     <div id="github-link">
       <a href="https://github.com/arai-a/ecma262-compare"><img src="./img/github.png" alt="GitHub repository" title="GitHub repository"></a>
@@ -109,6 +112,7 @@
       <div class="help-box">
         <h1>Usage</h1>
         <ol>
+          <li>Expand header by clicking "▼", if collapsed</li>
           <li>
             Select <strong>PR</strong>,
             single <strong>Revision</strong>,
