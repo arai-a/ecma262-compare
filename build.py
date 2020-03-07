@@ -115,7 +115,7 @@ class PostPRStatus:
                 'context': 'ecma262-compare',
                 'state': 'success',
                 'target_url': url,
-                'description': 'Diff the output HTMLs',
+                'description': 'Compare the output HTML',
             })
 
         status['new'] = []
