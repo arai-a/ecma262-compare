@@ -106,7 +106,7 @@ class PostPRComments:
 
             body = """\
 Here's diff view for this PR.
-{}?pr={}
+{}?pr={}&collapsed=1
 (It may take 10 minutes or more before the latest data getting deployed.)
 """.format(Config.PAGE_URL, prnum)
 
