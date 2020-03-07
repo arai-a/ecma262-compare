@@ -151,15 +151,13 @@ class SnapshotList {
       list.appendChild(row);
     }
 
-    const sorter = sortBy === "num"
-          ? (a, b) => {
-            return (a.number - b.number) * order;
-          }
-          : (a, b) => {
-            const da = new Date(a.revs[0].date);
-            const db = new Date(b.revs[0].date);
-            return (da.getTime() - db.getTime()) * order;
-          };
+    const sorter = sortBy === "num" ? (a, b) => {
+      return (a.number - b.number) * order;
+    } : (a, b) => {
+      const da = new Date(a.revs[0].date);
+      const db = new Date(b.revs[0].date);
+      return (da.getTime() - db.getTime()) * order;
+    };
 
     for (const pr of this.prs.sort(sorter)) {
       const row = document.createElement("tr");

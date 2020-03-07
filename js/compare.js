@@ -489,21 +489,21 @@ class DateUtils {
         return `${sec} seconds ago, `;
       }
       const min = Math.floor(sec / 60);
-      if (min == 1) {
+      if (min === 1) {
         return "1 minute ago, ";
       }
       if (min < 60) {
         return `${min} minutes ago, `;
       }
       const hour = Math.floor(min / 60);
-      if (hour == 1) {
+      if (hour === 1) {
         return "1 hour ago, ";
       }
       if (hour < 24) {
         return `${hour} hours ago, `;
       }
       const day = Math.floor(hour / 24);
-      if (day == 1) {
+      if (day === 1) {
         return "yesterday, ";
       }
       return `${day} days ago, `;
@@ -805,7 +805,7 @@ class Comparator {
       } else {
         this.fromRev.value = "-";
         this.toRev.value = "-";
-        if (prnum != "-") {
+        if (prnum !== "-") {
           this.missingPR = prnum;
         }
       }
@@ -1084,7 +1084,7 @@ class Comparator {
       } else {
         opt.textContent = `${mark} ${secId}`;
       }
-      opt.classList.add("stat");
+      opt.classList.add(stat);
 
       this.secList.appendChild(opt);
       count++;
