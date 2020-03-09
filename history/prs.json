@@ -42,11 +42,19 @@
  {
   "base": "4307b77f1732186a6c67352c92b91f55de76387a",
   "created_at": "2020-03-04T22:22:02Z",
-  "head": "72d6687836fc4c5fe4e6b74771db49a557c66fa8",
+  "head": "941a3d50b339a566c70597852f849bb43b6a4a25",
   "login": "syg",
   "number": 1889,
   "ref": "abstract-closure",
   "revs": [
+   {
+    "adate": "2020-03-09T11:14:38-07:00",
+    "author": "Shu-yu Guo",
+    "date": "2020-03-09T11:14:38-07:00",
+    "hash": "941a3d50b339a566c70597852f849bb43b6a4a25",
+    "parents": "72d6687836fc4c5fe4e6b74771db49a557c66fa8",
+    "subject": "Editorial: Clarify verbiage of abstract closure capturing"
+   },
    {
     "adate": "2020-03-06T11:51:58-08:00",
     "author": "Shu-yu Guo",
@@ -113,7 +121,7 @@
    }
   ],
   "title": "Editorial: Introduce abstract closure and use them in RegExps",
-  "updated_at": "2020-03-06T19:52:15Z"
+  "updated_at": "2020-03-09T18:15:32Z"
  },
  {
   "base": "4307b77f1732186a6c67352c92b91f55de76387a",
