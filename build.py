@@ -104,7 +104,7 @@ class PostPRStatus:
             status['posted'].append(prnum_sha)
             Logger.info('Posting to PR {}'.format(prnum_sha))
 
-            prnum, sha = pnum_sha.split('=')
+            prnum, sha = prnum_sha.split('=')
 
             url = '{}?pr={}&collapsed=1'.format(Config.PAGE_URL, prnum)
 
