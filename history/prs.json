@@ -1,5 +1,25 @@
 [
  {
+  "base": "c59502090e2c250cd7e457b5506b92db6b21d153",
+  "created_at": "2020-03-10T03:24:46Z",
+  "head": "0749ab467229ae6ceb1fedf64f4ab84c84117723",
+  "login": "syg",
+  "number": 1893,
+  "ref": "small-fixup",
+  "revs": [
+   {
+    "adate": "2020-03-09T20:23:27-07:00",
+    "author": "Shu-yu Guo",
+    "date": "2020-03-09T20:23:27-07:00",
+    "hash": "0749ab467229ae6ceb1fedf64f4ab84c84117723",
+    "parents": "c59502090e2c250cd7e457b5506b92db6b21d153",
+    "subject": "[editorial] Fix typo in NewPromiseReactionJob"
+   }
+  ],
+  "title": "[editorial] Fix typo in NewPromiseReactionJob",
+  "updated_at": "2020-03-10T03:31:11Z"
+ },
+ {
   "base": "4307b77f1732186a6c67352c92b91f55de76387a",
   "created_at": "2020-03-07T10:51:24Z",
   "head": "698e98ee30a732efebddb2b2775c7974c7334a44",
@@ -38,90 +58,6 @@
   ],
   "title": "Editorial: pass necessary arguments to SerializeJSON*",
   "updated_at": "2020-03-06T17:58:49Z"
- },
- {
-  "base": "4307b77f1732186a6c67352c92b91f55de76387a",
-  "created_at": "2020-03-04T22:22:02Z",
-  "head": "941a3d50b339a566c70597852f849bb43b6a4a25",
-  "login": "syg",
-  "number": 1889,
-  "ref": "abstract-closure",
-  "revs": [
-   {
-    "adate": "2020-03-09T11:14:38-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-03-09T11:14:38-07:00",
-    "hash": "941a3d50b339a566c70597852f849bb43b6a4a25",
-    "parents": "72d6687836fc4c5fe4e6b74771db49a557c66fa8",
-    "subject": "Editorial: Clarify verbiage of abstract closure capturing"
-   },
-   {
-    "adate": "2020-03-06T11:51:58-08:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-03-06T11:51:58-08:00",
-    "hash": "72d6687836fc4c5fe4e6b74771db49a557c66fa8",
-    "parents": "880dcfef1057a571a04463720bab0c5aa83f5255",
-    "subject": "Editorial: jmdyck comments"
-   },
-   {
-    "adate": "2020-03-05T16:38:36-08:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-03-05T16:38:36-08:00",
-    "hash": "880dcfef1057a571a04463720bab0c5aa83f5255",
-    "parents": "22a53e0741a74df0b813f02da2d049f8b3836e11",
-    "subject": "Relax the vacuously true Completion Record restriction."
-   },
-   {
-    "adate": "2020-03-05T16:18:48-08:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-03-05T16:18:48-08:00",
-    "hash": "22a53e0741a74df0b813f02da2d049f8b3836e11",
-    "parents": "e3432d9785aca2c328f27dd123d4c43e47e0641e",
-    "subject": "Address review comments."
-   },
-   {
-    "adate": "2020-03-04T17:45:13-08:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-03-04T17:45:13-08:00",
-    "hash": "e3432d9785aca2c328f27dd123d4c43e47e0641e",
-    "parents": "ef6a683b99c0962fbd5c7f8a4b81b160ecdc7891",
-    "subject": "Editorial: Fix return capitalization and add missing capture."
-   },
-   {
-    "adate": "2020-03-04T17:33:42-08:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-03-04T17:33:42-08:00",
-    "hash": "ef6a683b99c0962fbd5c7f8a4b81b160ecdc7891",
-    "parents": "1dff4720c598b4c8022f867fa4712df0d60fe364",
-    "subject": "Editorial: Add missing assert for a Continuation."
-   },
-   {
-    "adate": "2020-03-04T17:28:54-08:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-03-04T17:28:54-08:00",
-    "hash": "1dff4720c598b4c8022f867fa4712df0d60fe364",
-    "parents": "5376e169a9ccc78e842484236f308274fcfab7b5",
-    "subject": "Editorial: Forgot _s around y."
-   },
-   {
-    "adate": "2020-03-04T14:19:04-08:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-03-04T17:07:30-08:00",
-    "hash": "5376e169a9ccc78e842484236f308274fcfab7b5",
-    "parents": "aa759f35c014a49be1b16c66930a4bbe816cb205",
-    "subject": "Editorial: Use abstract closures in RegExps"
-   },
-   {
-    "adate": "2020-03-02T17:59:23-08:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-03-04T17:07:30-08:00",
-    "hash": "aa759f35c014a49be1b16c66930a4bbe816cb205",
-    "parents": "4307b77f1732186a6c67352c92b91f55de76387a",
-    "subject": "Editorial: Add the abstract closure specification type"
-   }
-  ],
-  "title": "Editorial: Introduce abstract closure and use them in RegExps",
-  "updated_at": "2020-03-09T18:15:32Z"
  },
  {
   "base": "4307b77f1732186a6c67352c92b91f55de76387a",
@@ -2102,138 +2038,6 @@
   ],
   "title": "Editorial: Provide context for HostImportModuleDynamically requirement",
   "updated_at": "2020-02-28T04:16:11Z"
- },
- {
-  "base": "4307b77f1732186a6c67352c92b91f55de76387a",
-  "created_at": "2019-06-20T14:18:13Z",
-  "head": "043669d9dc0277d2ca4a8d2bb698e871ff989f80",
-  "login": "littledan",
-  "number": 1597,
-  "ref": "enqueue-promise-job",
-  "revs": [
-   {
-    "adate": "2020-03-06T15:07:54-08:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-03-06T15:07:54-08:00",
-    "hash": "043669d9dc0277d2ca4a8d2bb698e871ff989f80",
-    "parents": "6dd771955808b19215a2b44892f9d8e873ddcfc8",
-    "subject": "I obviously need a linter"
-   },
-   {
-    "adate": "2020-03-06T12:11:40-08:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-03-06T12:11:40-08:00",
-    "hash": "6dd771955808b19215a2b44892f9d8e873ddcfc8",
-    "parents": "d6fe1b886dfae9d0e52d60312f52f20340239f79",
-    "subject": "Editorial: bakkot review"
-   },
-   {
-    "adate": "2020-03-05T18:19:54-08:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-03-05T18:19:54-08:00",
-    "hash": "d6fe1b886dfae9d0e52d60312f52f20340239f79",
-    "parents": "411cbcf8147d427e435de44c512f081935305989",
-    "subject": "Layering: Pass entry realm to HostEnqueuePromiseJob."
-   },
-   {
-    "adate": "2020-03-05T17:19:47-08:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-03-05T17:19:47-08:00",
-    "hash": "411cbcf8147d427e435de44c512f081935305989",
-    "parents": "e6420230c886f562530b9a879399bcc97e91dbcf",
-    "subject": "Editorial: Add oldids and stop referring to (micro)tasks."
-   },
-   {
-    "adate": "2020-03-04T18:18:09-08:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-03-04T18:18:09-08:00",
-    "hash": "e6420230c886f562530b9a879399bcc97e91dbcf",
-    "parents": "e36a223a944a6491ce55416d41b03709994698f5",
-    "subject": "Editorial: Remove EnqueueJob indirection entirely."
-   },
-   {
-    "adate": "2020-03-04T17:25:31-08:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-03-04T17:31:33-08:00",
-    "hash": "e36a223a944a6491ce55416d41b03709994698f5",
-    "parents": "1f935d5d29fb5a66938d735a268476996ff6dc76",
-    "subject": "Remove the PendingJob record and change job enqueue host operations to take a single abstract closure."
-   },
-   {
-    "adate": "2020-03-04T17:10:07-08:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-03-04T17:31:33-08:00",
-    "hash": "1f935d5d29fb5a66938d735a268476996ff6dc76",
-    "parents": "76e8097d5eae714562790a00c950fb5414544219",
-    "subject": "Editorial: Remove mention of job queues."
-   },
-   {
-    "adate": "2020-03-04T16:52:52-08:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-03-04T17:31:32-08:00",
-    "hash": "76e8097d5eae714562790a00c950fb5414544219",
-    "parents": "c45795541caf388a912c015e2f42bfec968f12d8",
-    "subject": "Editorial: Use abstract closures in jobs."
-   },
-   {
-    "adate": "2020-02-26T18:33:22-08:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-03-04T17:31:32-08:00",
-    "hash": "c45795541caf388a912c015e2f42bfec968f12d8",
-    "parents": "2ac99284f72e60687d0c481476fde7096fdf399c",
-    "subject": "Editorial: Small fixes"
-   },
-   {
-    "adate": "2020-02-26T15:20:09-08:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-03-04T17:31:32-08:00",
-    "hash": "2ac99284f72e60687d0c481476fde7096fdf399c",
-    "parents": "1c4867b8dc5951e08c9c9c75490db6a336d8856d",
-    "subject": "Revert \"Editorial: Specialize EnqueueJob to EnqueuePromiseJob\""
-   },
-   {
-    "adate": "2020-02-21T23:37:01+01:00",
-    "author": "Daniel Ehrenberg",
-    "date": "2020-03-04T17:31:32-08:00",
-    "hash": "1c4867b8dc5951e08c9c9c75490db6a336d8856d",
-    "parents": "d2a81ab433588edc41cc8493d731e7e47e1f1253",
-    "subject": "Editorial: Explain generality of comment"
-   },
-   {
-    "adate": "2020-02-20T21:19:23+01:00",
-    "author": "Daniel Ehrenberg",
-    "date": "2020-03-04T17:31:32-08:00",
-    "hash": "d2a81ab433588edc41cc8493d731e7e47e1f1253",
-    "parents": "d5385d50a8621f0af11266c409a8036176e76fc8",
-    "subject": "Editorial: Remove editorial comment"
-   },
-   {
-    "adate": "2020-02-20T12:42:59+01:00",
-    "author": "Daniel Ehrenberg",
-    "date": "2020-03-04T17:31:32-08:00",
-    "hash": "d5385d50a8621f0af11266c409a8036176e76fc8",
-    "parents": "2d4a42a748e748389e70b2362a64777c1cad3da0",
-    "subject": "Editorial: Fix nits to EnqueuePromiseJob"
-   },
-   {
-    "adate": "2020-02-12T16:32:56-08:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-03-04T17:31:31-08:00",
-    "hash": "2d4a42a748e748389e70b2362a64777c1cad3da0",
-    "parents": "1edbeba4feccdbc94d79d8c59816213ee866b4b1",
-    "subject": "Editorial: Specialize EnqueueJob to EnqueuePromiseJob"
-   },
-   {
-    "adate": "2016-11-18T17:18:44-05:00",
-    "author": "Domenic Denicola",
-    "date": "2020-03-04T17:31:31-08:00",
-    "hash": "1edbeba4feccdbc94d79d8c59816213ee866b4b1",
-    "parents": "4307b77f1732186a6c67352c92b91f55de76387a",
-    "subject": "Layering: Refactor Job queues for host scheduling"
-   }
-  ],
-  "title": "Layering: Allow hosts to cleanly specify Promise Job semantics",
-  "updated_at": "2020-03-06T23:08:11Z"
  },
  {
   "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
