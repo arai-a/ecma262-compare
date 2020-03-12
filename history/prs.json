@@ -17,7 +17,7 @@
    }
   ],
   "title": "Normative: Update Unicode property lists per Unicode v13",
-  "updated_at": "2020-03-11T17:41:13Z"
+  "updated_at": "2020-03-11T21:35:28Z"
  },
  {
   "base": "4307b77f1732186a6c67352c92b91f55de76387a",
@@ -57,7 +57,7 @@
    }
   ],
   "title": "Editorial: pass necessary arguments to SerializeJSON*",
-  "updated_at": "2020-03-06T17:58:49Z"
+  "updated_at": "2020-03-06T19:50:56Z"
  },
  {
   "base": "4307b77f1732186a6c67352c92b91f55de76387a",
@@ -77,43 +77,7 @@
    }
   ],
   "title": "Editorial: Add subscripts to BindingIdentifier static semantics.",
-  "updated_at": "2020-02-28T05:00:49Z"
- },
- {
-  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
-  "created_at": "2020-02-23T11:05:41Z",
-  "head": "64d8f2d1702b0e88e1eeb305e6821d854bc4f675",
-  "login": "uhyo",
-  "number": 1881,
-  "ref": "fix-operator",
-  "revs": [
-   {
-    "adate": "2020-02-27T09:57:21+09:00",
-    "author": "uhyo",
-    "date": "2020-02-27T09:57:21+09:00",
-    "hash": "64d8f2d1702b0e88e1eeb305e6821d854bc4f675",
-    "parents": "147c4d90f0ee135b7b3ce16032b04fe1bdbc3c91",
-    "subject": "Update spec.html"
-   },
-   {
-    "adate": "2020-02-24T14:04:01+09:00",
-    "author": "uhyo",
-    "date": "2020-02-24T14:06:45+09:00",
-    "hash": "147c4d90f0ee135b7b3ce16032b04fe1bdbc3c91",
-    "parents": "161b02cb1092ae16e42a42ec131b3118142149d7",
-    "subject": "Update spec.html"
-   },
-   {
-    "adate": "2020-02-23T19:47:34+09:00",
-    "author": "uhyo",
-    "date": "2020-02-23T20:04:46+09:00",
-    "hash": "161b02cb1092ae16e42a42ec131b3118142149d7",
-    "parents": "2431eb385e4315471abd33f710b4ed5644e1b002",
-    "subject": "Editorial: fix misleading uses of 'operator'"
-   }
-  ],
-  "title": "Editorial: fix misleading uses of 'operator'",
-  "updated_at": "2020-02-28T04:15:56Z"
+  "updated_at": "2020-03-12T17:00:48Z"
  },
  {
   "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
@@ -153,7 +117,7 @@
    }
   ],
   "title": "Editorial: Set [[SourceText]] inside OrdinaryFunctionCreate",
-  "updated_at": "2020-02-28T04:15:57Z"
+  "updated_at": "2020-03-11T22:14:09Z"
  },
  {
   "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
@@ -1601,7 +1565,7 @@
    }
   ],
   "title": "Editorial: enable built-in async and sync generator functions to be specified",
-  "updated_at": "2020-02-28T04:16:07Z"
+  "updated_at": "2020-03-11T22:30:17Z"
  },
  {
   "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
@@ -2153,7 +2117,7 @@
    }
   ],
   "title": "Normative: A more precise Array.prototype.sort",
-  "updated_at": "2020-02-28T04:16:12Z"
+  "updated_at": "2020-03-09T06:55:55Z"
  },
  {
   "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
