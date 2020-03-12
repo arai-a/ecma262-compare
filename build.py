@@ -455,7 +455,7 @@ class SectionsExtractor:
 
 
 class SectionsComparator:
-    ATTR_PAT = re.compile(r' (aoid|href)="[^"]+"', re.G)
+    ATTR_PAT = re.compile(r' (aoid|href)="[^"]+"')
 
     @classmethod
     def compare(cls, from_sec_data, to_sec_data):
@@ -464,38 +464,45 @@ class SectionsComparator:
         from_sec_set = set(from_sec_data['secList'])
         to_sec_set = set(to_sec_data['secList'])
 
-        d_from_sec_list = []
-        d_from_sec_list = []
-        d_from_sec_data = dict()
-        d_from_sec_data = dict()
+        diff_from_sec_list = []
+        diff_to_sec_list = []
+        diff_from_sec_data = dict()
+        diff_to_sec_data = dict()
 
         for sec_id in sec_ids:
             if sec_id in from_sec_set:
                 if sec_id in to_sec_set:
-                    if not cls.is_changed(from_sec_data, to_sec_data, sec_id):
+                    if not cls.is_changed(sec_id, from_sec_data, to_sec_data):
                         continue
 
-                    d_from_sec_list.append(sec_id)
-                    d_to_sec_list.append(sec_id)
-                    d_from_sec_data[sec_id] = from_sec_data['secData'][sec_id]
-                    d_to_sec_data[sec_id] = to_sec_data['secData'][sec_id]
+                    diff_from_sec_list.append(sec_id)
+                    diff_to_sec_list.append(sec_id)
+                    diff_from_sec_data[sec_id] = \
+                        from_sec_data['secData'][sec_id]
+                    diff_to_sec_data[sec_id] = to_sec_data['secData'][sec_id]
                 else:
-                    d_from_sec_list.append(sec_id)
-                    d_from_sec_data[sec_id] = from_sec_data['secData'][sec_id]
+                    diff_from_sec_list.append(sec_id)
+                    diff_from_sec_data[sec_id] = \
+                        from_sec_data['secData'][sec_id]
             else:
-                d_to_sec_list.append(sec_id)
-                d_to_sec_data[sec_id] = to_sec_data['secData'][sec_id]
+                diff_to_sec_list.append(sec_id)
+                diff_to_sec_data[sec_id] = to_sec_data['secData'][sec_id]
+
+        diff_from_fig_data = \
+            cls.filter_fig_data(diff_from_sec_data, from_sec_data['figData'])
+        diff_to_fig_data = \
+            cls.filter_fig_data(diff_to_sec_data, to_sec_data['figData'])
 
         return {
             'from': {
-                'secList': d_from_sec_list,
-                'secData': d_from_sec_data,
-                'figData': from_sec_data['figData'],
+                'secList': diff_from_sec_list,
+                'secData': diff_from_sec_data,
+                'figData': diff_from_fig_data,
             },
             'to': {
-                'secList': d_to_sec_list,
-                'secData': d_to_sec_data,
-                'figData': to_sec_data['figData'],
+                'secList': diff_to_sec_list,
+                'secData': diff_to_sec_data,
+                'figData': diff_to_fig_data,
             },
         }
 
@@ -516,6 +523,18 @@ class SectionsComparator:
         # Comparator#filterAttributeForComparison in js/compare.js
 
         return cls.ATTR_PAT.sub('', s)
+
+    @classmethod
+    def filter_fig_data(cls, sec_data, fig_data):
+        html = ' '.join(map(lambda d: d['html'], sec_data.values()))
+
+        result = dict()
+
+        for (fig_id, name) in fig_data.items():
+            if fig_id in html:
+                result[fig_id] = name;
+
+        return result
 
 
 class RevisionRenderer:
@@ -644,8 +663,13 @@ class RevisionRenderer:
 
         diff_json = SectionsComparator.compare(from_json, to_json)
 
-        parent_diff_json = json.dumps(data)
-        FileUtils.write(parent_diff_path, json.dumps(diff_json)
+        result = json.dumps(diff_json)
+        if len(result) > 1024 * 1024:
+            Logger.info('SKIP: {} is too large ({})'.format(
+                parent_diff_path, len(result)))
+            return False
+
+        FileUtils.write(parent_diff_path, result)
 
         return True
 
@@ -653,11 +677,11 @@ class RevisionRenderer:
     def run(cls, sha, prnum, skip_cache):
         updated1 = cls.__html(sha, prnum, skip_cache)
         updated2 = cls.__json(sha, prnum, skip_cache)
-        return updated1 or updated2 or updated3
+        return updated1 or updated2
 
     @classmethod
     def run_parent(cls, sha, prnum, parent_sha, skip_cache):
-        return cls.__parent_json(sha, prnum, skip_cache)
+        return cls.__parent_json(sha, prnum, parent_sha, skip_cache)
 
 
 class Revisions:
@@ -691,7 +715,7 @@ class Revisions:
     def __update_revset(revset, count, skip_cache):
         LocalRepository.fetch('origin', 'master')
 
-        revs = LocalRepository.revs(revset)
+        revs = list(LocalRepository.revs(revset))
 
         updated_any = False
 
@@ -701,12 +725,15 @@ class Revisions:
             i += 1
             Logger.info('{}/{}'.format(i, len(revs)))
 
-            sha = rev['sha']
-            parent = rev['parent'].split(' ')[0]
+            sha = rev['hash']
+            parent = rev['parents'].split(' ')[0]
 
             updated1 = RevisionRenderer.run(sha, None, skip_cache)
-            updated2 = RevisionRenderer.run_parent(sha, None, parent, skip_cache)
-            if updated1 or updated2:
+            updated2 = RevisionRenderer.run_parent(sha, None, parent,
+                                                   skip_cache)
+            updated = updated1 or updated2
+
+            if updated:
                 updated_any = True
 
             if count is not None:
@@ -757,7 +784,7 @@ class PRs:
 
         if not skip_cache and CacheChecker.is_pr_cached(pr):
             Logger.info('skip PR {} (cached)'.format(prnum))
-            return False
+            #return False
 
         FileUtils.mkdir_p(Paths.rev_parent_dir(prnum))
 
@@ -777,7 +804,8 @@ class PRs:
                 first_parent = parent
             RevisionRenderer.run(parent, None, skip_cache)
 
-        RevisionRenderer.run_parent(pr['head'], prnum, first_parent, skip_cache)
+        RevisionRenderer.run_parent(pr['head'], prnum, first_parent,
+                                    skip_cache)
 
         cls.UPDATED_PRS.append('{}={}'.format(prnum, pr['head']))
 

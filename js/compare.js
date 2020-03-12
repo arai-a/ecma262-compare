@@ -601,6 +601,9 @@ class Comparator {
 
   async getJSON(path) {
     const response = await fetch(path);
+    if (!response.ok) {
+      return undefined;
+    }
     return response.json();
   }
 
@@ -1005,10 +1008,24 @@ class Comparator {
     }
 
     this.setStat("Loading...");
-    [this.fromSecData, this.toSecData] = await Promise.all([
-      this.getSecData(this.fromRev.value),
-      this.getSecData(this.toRev.value)
-    ]);
+
+    let found = false;
+    const toHash = this.toRev.value;
+    if (this.getParentOf(toHash) === this.fromRev.value) {
+      const result = await this.getJSON(`./history/${toHash}/parent_diff.json`);
+      if (result) {
+        this.fromSecData = result.from;
+        this.toSecData = result.to;
+        found = true;
+      }
+    }
+
+    if (!found) {
+      [this.fromSecData, this.toSecData] = await Promise.all([
+        this.getSecData(this.fromRev.value),
+        this.getSecData(this.toRev.value)
+      ]);
+    }
 
     {
       const map = {};
@@ -1099,6 +1116,22 @@ class Comparator {
     } else {
       this.secHit.textContent = `${count} sections found`;
     }
+  }
+
+  getParentOf(hash) {
+    const m = hash.match(/PR\/(\d+)\/(.+)/);
+    if (m) {
+      const prnum = m[1];
+      const pr = this.prMap[prnum];
+      return pr.parent;
+    }
+
+    if (hash in this.revMap) {
+      const rev = this.revMap[hash];
+      return this.getFirstParent(rev);
+    }
+
+    return null;
   }
 
   setStat(t) {
