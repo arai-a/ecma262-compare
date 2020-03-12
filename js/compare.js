@@ -1059,12 +1059,12 @@ class Comparator {
 
       if (fromSecSet.has(secId)) {
         if (toSecSet.has(secId)) {
-          if (this.isChanged(secId)) {
-            stat = "mod";
-            mark = "-+";
-          } else {
+          if (!this.isChanged(secId)) {
             continue;
           }
+
+          stat = "mod";
+          mark = "-+";
         } else {
           stat = "del";
           mark = "-\u00A0";
@@ -1142,13 +1142,7 @@ class Comparator {
   // Returns whether the section is changed, added, or removed between from/to
   // revisions.
   isChanged(secId) {
-    if (!(secId in this.fromSecData.secData)) {
-      return true;
-    }
-    if (!(secId in this.toSecData.secData)) {
-      return true;
-    }
-
+    // This should be synced with SectionsComparator#is_changed in build.py
     const fromHTML = this.fromSecData.secData[secId].html;
     const toHTML = this.toSecData.secData[secId].html;
 
@@ -1160,9 +1154,11 @@ class Comparator {
 
   // Filter attributes that should be ignored when comparing 2 revisions.
   filterAttributeForComparison(s) {
+    // This should be synced with
+    // SectionsComparator#filter_attribute_for_comparison in build.py
+
     return s
-      .replace(/ aoid="[^"]+"/g, "")
-      .replace(/ href="[^"]+"/g, "");
+      .replace(/ (aoid|href)="[^"]+"/g, "");
   }
 
   updateURL(replace=false) {

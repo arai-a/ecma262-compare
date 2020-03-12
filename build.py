@@ -90,6 +90,10 @@ class Paths:
         return os.path.join(cls.rev_dir(sha, prnum), 'sections.json')
 
     @classmethod
+    def parent_diff_path(cls, sha, prnum=None):
+        return os.path.join(cls.rev_dir(sha, prnum), 'parent_diff.json')
+
+    @classmethod
     def index_path(cls, sha, prnum=None):
         return os.path.join(cls.rev_dir(sha, prnum), 'index.html')
 
@@ -450,6 +454,70 @@ class SectionsExtractor:
         }
 
 
+class SectionsComparator:
+    ATTR_PAT = re.compile(r' (aoid|href)="[^"]+"', re.G)
+
+    @classmethod
+    def compare(cls, from_sec_data, to_sec_data):
+        sec_ids = set(from_sec_data['secList'] + from_sec_data['secList'])
+
+        from_sec_set = set(from_sec_data['secList'])
+        to_sec_set = set(to_sec_data['secList'])
+
+        d_from_sec_list = []
+        d_from_sec_list = []
+        d_from_sec_data = dict()
+        d_from_sec_data = dict()
+
+        for sec_id in sec_ids:
+            if sec_id in from_sec_set:
+                if sec_id in to_sec_set:
+                    if not cls.is_changed(from_sec_data, to_sec_data, sec_id):
+                        continue
+
+                    d_from_sec_list.append(sec_id)
+                    d_to_sec_list.append(sec_id)
+                    d_from_sec_data[sec_id] = from_sec_data['secData'][sec_id]
+                    d_to_sec_data[sec_id] = to_sec_data['secData'][sec_id]
+                else:
+                    d_from_sec_list.append(sec_id)
+                    d_from_sec_data[sec_id] = from_sec_data['secData'][sec_id]
+            else:
+                d_to_sec_list.append(sec_id)
+                d_to_sec_data[sec_id] = to_sec_data['secData'][sec_id]
+
+        return {
+            'from': {
+                'secList': d_from_sec_list,
+                'secData': d_from_sec_data,
+                'figData': from_sec_data['figData'],
+            },
+            'to': {
+                'secList': d_to_sec_list,
+                'secData': d_to_sec_data,
+                'figData': to_sec_data['figData'],
+            },
+        }
+
+    @classmethod
+    def is_changed(cls, sec_id, from_sec_data, to_sec_data):
+        # This should be synced with Comparator#isChanged in js/compare.js
+        from_html = from_sec_data['secData'][sec_id]['html']
+        to_html = to_sec_data['secData'][sec_id]['html']
+
+        filtered_from_html = cls.filter_attribute_for_comparison(from_html)
+        filtered_to_html = cls.filter_attribute_for_comparison(to_html)
+
+        return filtered_from_html != filtered_to_html
+
+    @classmethod
+    def filter_attribute_for_comparison(cls, s):
+        # This should be synced with
+        # Comparator#filterAttributeForComparison in js/compare.js
+
+        return cls.ATTR_PAT.sub('', s)
+
+
 class RevisionRenderer:
     __MONTHS = {
         '01': 'January',
@@ -554,11 +622,42 @@ class RevisionRenderer:
 
         return True
 
+    def __parent_json(sha, prnum, parent, skip_cache):
+        parent_diff_path = Paths.parent_diff_path(sha, prnum)
+        if not skip_cache and os.path.exists(parent_diff_path):
+            Logger.info('skip {} (cached)'.format(parent_diff_path))
+            return False
+
+        sections_path = Paths.sections_path(sha, prnum)
+        parent_sections_path = Paths.sections_path(parent, None)
+        if not os.path.exists(sections_path):
+            Logger.info('{} not found'.format(sections_path))
+            return False
+        if not os.path.exists(parent_sections_path):
+            Logger.info('{} not found'.format(parent_sections_path))
+            return False
+
+        Logger.info(parent_diff_path)
+
+        to_json = FileUtils.read_json(sections_path)
+        from_json = FileUtils.read_json(parent_sections_path)
+
+        diff_json = SectionsComparator.compare(from_json, to_json)
+
+        parent_diff_json = json.dumps(data)
+        FileUtils.write(parent_diff_path, json.dumps(diff_json)
+
+        return True
+
     @classmethod
     def run(cls, sha, prnum, skip_cache):
         updated1 = cls.__html(sha, prnum, skip_cache)
         updated2 = cls.__json(sha, prnum, skip_cache)
-        return updated1 or updated2
+        return updated1 or updated2 or updated3
+
+    @classmethod
+    def run_parent(cls, sha, prnum, parent_sha, skip_cache):
+        return cls.__parent_json(sha, prnum, skip_cache)
 
 
 class Revisions:
@@ -592,18 +691,22 @@ class Revisions:
     def __update_revset(revset, count, skip_cache):
         LocalRepository.fetch('origin', 'master')
 
-        shas = list(LocalRepository.log(revset + ['--pretty=%H']))
+        revs = LocalRepository.revs(revset)
 
         updated_any = False
 
         i = 0
         # Update from older revisions
-        for sha in reversed(shas):
+        for rev in reversed(revs):
             i += 1
-            Logger.info('{}/{}'.format(i, len(shas)))
+            Logger.info('{}/{}'.format(i, len(revs)))
 
-            updated = RevisionRenderer.run(sha, None, skip_cache)
-            if updated:
+            sha = rev['sha']
+            parent = rev['parent'].split(' ')[0]
+
+            updated1 = RevisionRenderer.run(sha, None, skip_cache)
+            updated2 = RevisionRenderer.run_parent(sha, None, parent, skip_cache)
+            if updated1 or updated2:
                 updated_any = True
 
             if count is not None:
@@ -668,8 +771,13 @@ class PRs:
         info_json = json.dumps(pr)
         FileUtils.write(Paths.pr_info_path(prnum), info_json)
 
+        first_parent = None
         for parent in PRInfo.parents(pr):
+            if not first_parent:
+                first_parent = parent
             RevisionRenderer.run(parent, None, skip_cache)
+
+        RevisionRenderer.run_parent(pr['head'], prnum, first_parent, skip_cache)
 
         cls.UPDATED_PRS.append('{}={}'.format(prnum, pr['head']))
 
