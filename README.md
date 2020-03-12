@@ -42,6 +42,8 @@ This branch contains 2 things:
     Snapshot of `{SHA}` revision
   * `history/{SHA}/sections.json`  
     Extracted section data for `{SHA}` revision, used by the comparator
+  * `history/{SHA}/parent_diff.json`  
+    Partial data of `sections.json` for `{SHA}` and parent, for diff between them
   * `history/{SHA}/*`  
     Other resources for the snapshot
   * `history/PR/{PR}/info.json`  
@@ -50,6 +52,8 @@ This branch contains 2 things:
     Snapshot of `{SHA}` revision
   * `history/PR/{PR}/{SHA}/sections.json`  
     Extracted section data for `{SHA}` revision, used by the comparator
+  * `history/PR/{PR}/{SHA}/parent_diff.json`  
+    Partial data of `sections.json` for `{PR}` and parent, for diff between them
   * `history/PR/{PR}/{SHA}/*`  
     Other resources for the snapshot
 * Linter settings
