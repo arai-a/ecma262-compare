@@ -4,6 +4,8 @@ on:
   schedule:
     # Every 30 minutes
     - cron:  '*/30 * * * *'
+  push:
+    branch: master
 
 jobs:
   build:
