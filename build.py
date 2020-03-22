@@ -784,7 +784,7 @@ class PRs:
 
         if not skip_cache and CacheChecker.is_pr_cached(pr):
             Logger.info('skip PR {} (cached)'.format(prnum))
-            #return False
+            return False
 
         FileUtils.mkdir_p(Paths.rev_parent_dir(prnum))
 
