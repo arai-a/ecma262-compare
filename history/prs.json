@@ -20,9 +20,9 @@
   "updated_at": "2020-03-11T21:35:28Z"
  },
  {
-  "base": "4307b77f1732186a6c67352c92b91f55de76387a",
+  "base": "bbe73d1c1387b4c86e82750c8129a791deb6f9bd",
   "created_at": "2020-03-07T10:51:24Z",
-  "head": "698e98ee30a732efebddb2b2775c7974c7334a44",
+  "head": "7062929deff5c22a83ba9d13acb1b7d395eb153a",
   "login": "devsnek",
   "number": 1892,
   "ref": "import-meta",
@@ -30,14 +30,14 @@
    {
     "adate": "2020-03-07T02:38:44-08:00",
     "author": "Gus Caplan",
-    "date": "2020-03-07T14:08:55-08:00",
-    "hash": "698e98ee30a732efebddb2b2775c7974c7334a44",
-    "parents": "4307b77f1732186a6c67352c92b91f55de76387a",
+    "date": "2020-03-21T21:27:55-05:00",
+    "hash": "7062929deff5c22a83ba9d13acb1b7d395eb153a",
+    "parents": "bbe73d1c1387b4c86e82750c8129a791deb6f9bd",
     "subject": "Normative: add import.meta"
    }
   ],
   "title": "Normative: add import.meta",
-  "updated_at": "2020-03-07T22:09:06Z"
+  "updated_at": "2020-03-22T02:29:18Z"
  },
  {
   "base": "4307b77f1732186a6c67352c92b91f55de76387a",
@@ -60,9 +60,9 @@
   "updated_at": "2020-03-12T17:00:48Z"
  },
  {
-  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
+  "base": "c695f9af6e5f68c069d6295b9d7ed16b41b4d8a1",
   "created_at": "2020-02-14T22:07:06Z",
-  "head": "9c564f91f4e232da2183ff184168b6485a72c9b7",
+  "head": "fbc4b874782ca1870bd8cd9868db965cbe360ed9",
   "login": "jmdyck",
   "number": 1870,
   "ref": "set_SourceText",
@@ -70,14 +70,14 @@
    {
     "adate": "2020-02-14T14:20:03-05:00",
     "author": "Michael Dyck",
-    "date": "2020-02-14T14:20:03-05:00",
-    "hash": "9c564f91f4e232da2183ff184168b6485a72c9b7",
-    "parents": "823aad1e08b5680229d67283371912950d19e581",
+    "date": "2020-03-19T21:16:58-04:00",
+    "hash": "fbc4b874782ca1870bd8cd9868db965cbe360ed9",
+    "parents": "c695f9af6e5f68c069d6295b9d7ed16b41b4d8a1",
     "subject": "Editorial: Set [[SourceText]] inside OrdinaryFunctionCreate"
    }
   ],
   "title": "Editorial: Set [[SourceText]] inside OrdinaryFunctionCreate",
-  "updated_at": "2020-03-11T22:14:09Z"
+  "updated_at": "2020-03-20T15:33:49Z"
  },
  {
   "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
@@ -128,9 +128,9 @@
   "updated_at": "2020-02-28T04:15:58Z"
  },
  {
-  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
+  "base": "c695f9af6e5f68c069d6295b9d7ed16b41b4d8a1",
   "created_at": "2020-02-05T17:02:01Z",
-  "head": "80204781ab8a4a64ce46439128286e617de66add",
+  "head": "0593dc93063b3407111870b116b33ef40380cac4",
   "login": "jmdyck",
   "number": 1866,
   "ref": "ParsePattern",
@@ -138,86 +138,86 @@
    {
     "adate": "2020-02-05T10:51:12-05:00",
     "author": "Michael Dyck",
-    "date": "2020-02-05T17:48:08-05:00",
-    "hash": "80204781ab8a4a64ce46439128286e617de66add",
-    "parents": "ff6b78fad795afe3d7f48624680a17a322c7b91a",
+    "date": "2020-03-19T17:12:57-04:00",
+    "hash": "0593dc93063b3407111870b116b33ef40380cac4",
+    "parents": "a3b085498a8f982fe78dfb63c28fd84bf6aa9f01",
     "subject": "Editorial: Extract operation 'ParsePattern'"
    },
    {
     "adate": "2020-02-05T10:34:23-05:00",
     "author": "Michael Dyck",
-    "date": "2020-02-05T10:34:23-05:00",
-    "hash": "ff6b78fad795afe3d7f48624680a17a322c7b91a",
-    "parents": "d5e1a79c39e37ce42afe03ee6a83b1168367a1f9",
+    "date": "2020-03-19T17:11:01-04:00",
+    "hash": "a3b085498a8f982fe78dfb63c28fd84bf6aa9f01",
+    "parents": "3fb6c229bda3a584a74986ab82670952514aefc5",
     "subject": "REI: Factor out the last sentence of each 'Parse' step"
    },
    {
     "adate": "2020-02-05T10:31:14-05:00",
     "author": "Michael Dyck",
-    "date": "2020-02-05T10:31:14-05:00",
-    "hash": "d5e1a79c39e37ce42afe03ee6a83b1168367a1f9",
-    "parents": "57a49cfe661c56c679b19c60707a86dbee615a4e",
+    "date": "2020-03-19T17:11:01-04:00",
+    "hash": "3fb6c229bda3a584a74986ab82670952514aefc5",
+    "parents": "24e5fe2304f48c692139a14cd5ce3a48b57b3ec7",
     "subject": "REI: Split the 'If'"
    },
    {
     "adate": "2020-02-05T10:28:36-05:00",
     "author": "Michael Dyck",
-    "date": "2020-02-05T10:28:36-05:00",
-    "hash": "57a49cfe661c56c679b19c60707a86dbee615a4e",
-    "parents": "7ea87a0f670ad0d223d8953ba4c86c0a304f940c",
+    "date": "2020-03-19T17:11:01-04:00",
+    "hash": "24e5fe2304f48c692139a14cd5ce3a48b57b3ec7",
+    "parents": "c047112daa389e99e50ed4406b92d799e0941398",
     "subject": "REI: Reword a step slightly"
    },
    {
     "adate": "2020-02-05T10:25:15-05:00",
     "author": "Michael Dyck",
-    "date": "2020-02-05T10:25:15-05:00",
-    "hash": "7ea87a0f670ad0d223d8953ba4c86c0a304f940c",
-    "parents": "2c470f426f1741dd1ea5fddbbabda65803d77155",
+    "date": "2020-03-19T17:11:01-04:00",
+    "hash": "c047112daa389e99e50ed4406b92d799e0941398",
+    "parents": "7c0d5404f3a78f5259720f26ccc0cfae334e44b5",
     "subject": "REI: Rename `_pText_` as `_patternText_`"
    },
    {
     "adate": "2020-02-05T10:22:55-05:00",
     "author": "Michael Dyck",
-    "date": "2020-02-05T10:22:55-05:00",
-    "hash": "2c470f426f1741dd1ea5fddbbabda65803d77155",
-    "parents": "25e1177436cd8aa2c7626579ff6e884448942678",
+    "date": "2020-03-19T17:11:01-04:00",
+    "hash": "7c0d5404f3a78f5259720f26ccc0cfae334e44b5",
+    "parents": "50073bcb3863ce015ccce33b0ae0b39c06fa135e",
     "subject": "REI: swap the order of the 2 arms of the 'If'"
    },
    {
     "adate": "2020-02-05T10:21:24-05:00",
     "author": "Michael Dyck",
-    "date": "2020-02-05T10:21:24-05:00",
-    "hash": "25e1177436cd8aa2c7626579ff6e884448942678",
-    "parents": "1d005713072dc578dfb459f9d81335d2e8583672",
+    "date": "2020-03-19T17:11:01-04:00",
+    "hash": "50073bcb3863ce015ccce33b0ae0b39c06fa135e",
+    "parents": "6e8e9aaf5d7b58a3730f363ff89da1e7478478a5",
     "subject": "REI: Replace `_BMP_` with its complement `_u_`"
    },
    {
     "adate": "2020-02-05T10:19:34-05:00",
     "author": "Michael Dyck",
-    "date": "2020-02-05T10:19:34-05:00",
-    "hash": "1d005713072dc578dfb459f9d81335d2e8583672",
-    "parents": "25558d186bd0ed9998b399c2473c94bd4eb0cd65",
+    "date": "2020-03-19T17:11:01-04:00",
+    "hash": "6e8e9aaf5d7b58a3730f363ff89da1e7478478a5",
+    "parents": "c109011c51a11e8628e7f92d0c59a704aff3f187",
     "subject": "IVREL: Factor out the last sentence of each 'Parse' step"
    },
    {
     "adate": "2020-02-05T10:13:00-05:00",
     "author": "Michael Dyck",
-    "date": "2020-02-05T10:13:00-05:00",
-    "hash": "25558d186bd0ed9998b399c2473c94bd4eb0cd65",
-    "parents": "1d40b0ada76a6f688a4d1f23ddc5ac4d8ed7f653",
+    "date": "2020-03-19T17:11:01-04:00",
+    "hash": "c109011c51a11e8628e7f92d0c59a704aff3f187",
+    "parents": "93d38423439d5de7a18d09463cdc6ad98085014b",
     "subject": "IVREL: Introduce `_u_`"
    },
    {
     "adate": "2020-02-05T10:08:23-05:00",
     "author": "Michael Dyck",
-    "date": "2020-02-05T10:08:23-05:00",
-    "hash": "1d40b0ada76a6f688a4d1f23ddc5ac4d8ed7f653",
-    "parents": "787642ad2d159c8358a8782c9414f6d5fb6efa6f",
+    "date": "2020-03-19T17:11:01-04:00",
+    "hash": "93d38423439d5de7a18d09463cdc6ad98085014b",
+    "parents": "c695f9af6e5f68c069d6295b9d7ed16b41b4d8a1",
     "subject": "IVREL: introduce an 'Else'"
    }
   ],
   "title": " Editorial: Extract operation 'ParsePattern'",
-  "updated_at": "2020-02-28T04:15:58Z"
+  "updated_at": "2020-03-19T22:36:30Z"
  },
  {
   "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
@@ -680,9 +680,9 @@
   "updated_at": "2020-02-28T04:16:04Z"
  },
  {
-  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
+  "base": "c695f9af6e5f68c069d6295b9d7ed16b41b4d8a1",
   "created_at": "2019-09-16T20:16:16Z",
-  "head": "dfd5a6d68e68c81eb243145a07ac0c4ad58839ed",
+  "head": "c973d511dbcc9cf66ac39ff654301215cdce0616",
   "login": "jmdyck",
   "number": 1697,
   "ref": "eliminate-lex-env",
@@ -690,54 +690,54 @@
    {
     "adate": "2019-09-16T15:29:19-04:00",
     "author": "Michael Dyck",
-    "date": "2020-02-13T16:42:32-05:00",
-    "hash": "dfd5a6d68e68c81eb243145a07ac0c4ad58839ed",
-    "parents": "3c6743681bf27239eb7ad2654bb7cc397accf466",
+    "date": "2020-03-19T18:38:45-04:00",
+    "hash": "c973d511dbcc9cf66ac39ff654301215cdce0616",
+    "parents": "48a4f8f5cd80b4d2e35a540fb38b5d508b7abc1a",
     "subject": "Specify a particular subtype of Environment Record"
    },
    {
     "adate": "2019-09-16T14:05:50-04:00",
     "author": "Michael Dyck",
-    "date": "2020-02-13T16:42:32-05:00",
-    "hash": "3c6743681bf27239eb7ad2654bb7cc397accf466",
-    "parents": "51e01d9522fff6615234f73611b7a66977f9933e",
+    "date": "2020-03-19T18:38:45-04:00",
+    "hash": "48a4f8f5cd80b4d2e35a540fb38b5d508b7abc1a",
+    "parents": "a22ce8f682799cfb88556f504291015ff6a8450e",
     "subject": "Add <dfn> elements for subtypes of Environment Record"
    },
    {
     "adate": "2019-09-16T12:57:39-04:00",
     "author": "Michael Dyck",
-    "date": "2020-02-13T16:42:32-05:00",
-    "hash": "51e01d9522fff6615234f73611b7a66977f9933e",
-    "parents": "6114846f5066ddf70e899b95eaa9d003207c84c6",
+    "date": "2020-03-19T18:38:45-04:00",
+    "hash": "a22ce8f682799cfb88556f504291015ff6a8450e",
+    "parents": "8702203be5c14819715dd1bfdaeecc1b6ac1f634",
     "subject": "Reorg the intro for Environment Records and the former Lexical Environments"
    },
    {
     "adate": "2019-09-16T10:26:02-04:00",
     "author": "Michael Dyck",
-    "date": "2020-02-13T16:42:32-05:00",
-    "hash": "6114846f5066ddf70e899b95eaa9d003207c84c6",
-    "parents": "6c7a318f688245946d691f1323a314a04fbc91b5",
+    "date": "2020-03-19T18:38:45-04:00",
+    "hash": "8702203be5c14819715dd1bfdaeecc1b6ac1f634",
+    "parents": "0e5250d060681d2e1470ce836357f81ca98e3b5e",
     "subject": "Eliminate remaining mentions of Lexical Environment"
    },
    {
     "adate": "2019-09-16T10:08:07-04:00",
     "author": "Michael Dyck",
-    "date": "2020-02-13T16:42:32-05:00",
-    "hash": "6c7a318f688245946d691f1323a314a04fbc91b5",
-    "parents": "d695118179c0761e499789482a655eea492f3768",
+    "date": "2020-03-19T18:37:32-04:00",
+    "hash": "0e5250d060681d2e1470ce836357f81ca98e3b5e",
+    "parents": "82ab88e082841ce85c686b200562297fd23502bd",
     "subject": "Merge Lexical Environment into Environment Record in algorithms"
    },
    {
     "adate": "2019-09-15T20:14:44-04:00",
     "author": "Michael Dyck",
-    "date": "2020-02-13T16:41:14-05:00",
-    "hash": "d695118179c0761e499789482a655eea492f3768",
-    "parents": "823aad1e08b5680229d67283371912950d19e581",
+    "date": "2020-03-19T18:37:31-04:00",
+    "hash": "82ab88e082841ce85c686b200562297fd23502bd",
+    "parents": "c695f9af6e5f68c069d6295b9d7ed16b41b4d8a1",
     "subject": "Replace \"outer environment reference\" with [[OuterEnv]]"
    }
   ],
   "title": "Editorial: Eliminate Lexical Environment",
-  "updated_at": "2020-02-28T04:16:05Z"
+  "updated_at": "2020-03-19T23:26:43Z"
  },
  {
   "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
@@ -2464,40 +2464,56 @@
   "updated_at": "2020-02-28T04:16:18Z"
  },
  {
-  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
+  "base": "2b8561cffb67b8cd669dd26980c07fe7648495a6",
   "created_at": "2019-03-21T20:42:11Z",
-  "head": "b3bfef067a59548ef763903a4e59ef1891508bc0",
+  "head": "947915575df2a6f4b04fb3b7c37fdef61d1a57bf",
   "login": "anba",
   "number": 1490,
   "ref": "anon-empty-name",
   "revs": [
    {
-    "adate": "2019-03-20T10:33:35-07:00",
+    "adate": "2020-03-18T11:07:31-07:00",
     "author": "Andr\u00e9 Bargull",
-    "date": "2019-08-15T11:14:24-07:00",
-    "hash": "b3bfef067a59548ef763903a4e59ef1891508bc0",
-    "parents": "36a81a0b5eb1a4aa5a3a5a59dadabdbc8717c228",
+    "date": "2020-03-18T11:07:31-07:00",
+    "hash": "947915575df2a6f4b04fb3b7c37fdef61d1a57bf",
+    "parents": "2367ce36bfc2e1ef058aef763f8c53b7d258a50a",
+    "subject": "Change Evaluation to forward to NamedEvaluation for anonymous functions"
+   },
+   {
+    "adate": "2020-03-16T03:50:34-07:00",
+    "author": "Andr\u00e9 Bargull",
+    "date": "2020-03-16T03:54:17-07:00",
+    "hash": "2367ce36bfc2e1ef058aef763f8c53b7d258a50a",
+    "parents": "30587a7bae3d903c698f880fc3abe1216203deb1",
     "subject": "Respecify 'anonymous function' to mean the 'name' property is the empty string instead of being absent"
    },
    {
-    "adate": "2019-03-20T10:33:34-07:00",
+    "adate": "2020-03-16T03:50:34-07:00",
     "author": "Andr\u00e9 Bargull",
-    "date": "2019-08-15T11:02:25-07:00",
-    "hash": "36a81a0b5eb1a4aa5a3a5a59dadabdbc8717c228",
-    "parents": "6ee249e53b02f76f1a09c2d0a7e5ad3c218fb558",
-    "subject": "Set function name when creating a function"
+    "date": "2020-03-16T03:54:16-07:00",
+    "hash": "30587a7bae3d903c698f880fc3abe1216203deb1",
+    "parents": "96f4b0612b6970a0eec8a03865cebc8e548a48c2",
+    "subject": "Create 'name' property before the 'prototype' property"
    },
    {
-    "adate": "2019-03-20T10:33:33-07:00",
+    "adate": "2020-03-16T03:50:33-07:00",
     "author": "Andr\u00e9 Bargull",
-    "date": "2019-08-15T10:59:21-07:00",
-    "hash": "6ee249e53b02f76f1a09c2d0a7e5ad3c218fb558",
-    "parents": "8f0f69279b5f9e12ebe8f7052322b93d17e36b54",
+    "date": "2020-03-16T03:50:33-07:00",
+    "hash": "96f4b0612b6970a0eec8a03865cebc8e548a48c2",
+    "parents": "6f09a5186495cfda3e545b48228b5a306bbf969b",
+    "subject": "Set 'name' property for anonymous functions to the empty string"
+   },
+   {
+    "adate": "2020-03-16T03:50:32-07:00",
+    "author": "Andr\u00e9 Bargull",
+    "date": "2020-03-16T03:50:32-07:00",
+    "hash": "6f09a5186495cfda3e545b48228b5a306bbf969b",
+    "parents": "2b8561cffb67b8cd669dd26980c07fe7648495a6",
     "subject": "Changed NamedEvaluation to no longer forward to normal Evaluation"
    }
   ],
   "title": "Set \"name\" property for anonymous functions",
-  "updated_at": "2020-03-02T05:05:13Z"
+  "updated_at": "2020-03-19T23:07:00Z"
  },
  {
   "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
