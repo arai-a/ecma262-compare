@@ -1,5 +1,101 @@
 [
  {
+  "base": "c695f9af6e5f68c069d6295b9d7ed16b41b4d8a1",
+  "created_at": "2020-03-21T04:20:23Z",
+  "head": "a8e6832493fe2cef51ab2b7d7616e8fd2fc3c1a0",
+  "login": "jmdyck",
+  "number": 1910,
+  "ref": "ClassElementKind",
+  "revs": [
+   {
+    "adate": "2019-05-29T00:35:36-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-03-21T00:12:32-04:00",
+    "hash": "a8e6832493fe2cef51ab2b7d7616e8fd2fc3c1a0",
+    "parents": "c695f9af6e5f68c069d6295b9d7ed16b41b4d8a1",
+    "subject": "Editorial: Define+use `ClassElementKind`"
+   }
+  ],
+  "title": "Editorial: Define+use `ClassElementKind`",
+  "updated_at": "2020-03-21T21:35:42Z"
+ },
+ {
+  "base": "c695f9af6e5f68c069d6295b9d7ed16b41b4d8a1",
+  "created_at": "2020-03-20T22:16:56Z",
+  "head": "c16516742ffc509cf90ebdc916fe8272a764707f",
+  "login": "syg",
+  "number": 1908,
+  "ref": "atomics-on-abs",
+  "revs": [
+   {
+    "adate": "2020-03-20T15:13:40-07:00",
+    "author": "Shu-yu Guo",
+    "date": "2020-03-20T15:13:40-07:00",
+    "hash": "c16516742ffc509cf90ebdc916fe8272a764707f",
+    "parents": "7d238524af9af164faaa1b70377da49b8c42d728",
+    "subject": "Normative: Allow Atomics methods to work on ArrayBuffers."
+   },
+   {
+    "adate": "2020-03-20T14:45:51-07:00",
+    "author": "Shu-yu Guo",
+    "date": "2020-03-20T14:45:51-07:00",
+    "hash": "7d238524af9af164faaa1b70377da49b8c42d728",
+    "parents": "a810c60ca594dac05b9ff3fc3697e2b029ae4e98",
+    "subject": "Normative: Rename ValidateSharedIntegerTypedArray to ValidateIntegerTypedArray."
+   },
+   {
+    "adate": "2020-03-20T14:29:11-07:00",
+    "author": "Shu-yu Guo",
+    "date": "2020-03-20T14:32:56-07:00",
+    "hash": "a810c60ca594dac05b9ff3fc3697e2b029ae4e98",
+    "parents": "2b8561cffb67b8cd669dd26980c07fe7648495a6",
+    "subject": "Editorial: Use abstract closures instead of semantic functions (#1895)"
+   }
+  ],
+  "title": "Normative: Allow Atomics methods on ArrayBuffers",
+  "updated_at": "2020-03-21T21:45:17Z"
+ },
+ {
+  "base": "c695f9af6e5f68c069d6295b9d7ed16b41b4d8a1",
+  "created_at": "2020-03-20T21:32:19Z",
+  "head": "a810c60ca594dac05b9ff3fc3697e2b029ae4e98",
+  "login": "syg",
+  "number": 1907,
+  "ref": "semantic-functions-to-abstract-closures",
+  "revs": [
+   {
+    "adate": "2020-03-20T14:29:11-07:00",
+    "author": "Shu-yu Guo",
+    "date": "2020-03-20T14:32:56-07:00",
+    "hash": "a810c60ca594dac05b9ff3fc3697e2b029ae4e98",
+    "parents": "2b8561cffb67b8cd669dd26980c07fe7648495a6",
+    "subject": "Editorial: Use abstract closures instead of semantic functions (#1895)"
+   }
+  ],
+  "title": "Editorial: Use abstract closures instead of semantic functions (#1895)",
+  "updated_at": "2020-03-21T21:30:38Z"
+ },
+ {
+  "base": "2b8561cffb67b8cd669dd26980c07fe7648495a6",
+  "created_at": "2020-03-18T23:08:14Z",
+  "head": "261ca976e27ea103862a9f35625ae167c215a931",
+  "login": "tc39",
+  "number": 1903,
+  "ref": "optional-sab",
+  "revs": [
+   {
+    "adate": "2020-03-18T15:59:47-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-03-18T16:03:52-07:00",
+    "hash": "261ca976e27ea103862a9f35625ae167c215a931",
+    "parents": "2b8561cffb67b8cd669dd26980c07fe7648495a6",
+    "subject": "Normative: make SharedArrayBuffer optional"
+   }
+  ],
+  "title": "Normative: make SharedArrayBuffer optional",
+  "updated_at": "2020-03-19T22:35:49Z"
+ },
+ {
   "base": "9a9753bd5c83df657b51e78e8ebeac8ae6bd591f",
   "created_at": "2020-03-11T17:36:28Z",
   "head": "2725eb338e185d86a31670fe9dcfe13ee4b46362",
