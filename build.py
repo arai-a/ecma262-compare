@@ -778,11 +778,11 @@ class PRs:
         FileUtils.write(Paths.PRS_PATH, prs_json)
 
     @classmethod
-    def __update_with(cls, data, skip_cache):
+    def __update_with(cls, data, skip_cache, full_check):
         pr = PRInfo.create(data)
         prnum = pr['number']
 
-        if not skip_cache and CacheChecker.is_pr_cached(pr):
+        if not full_check and not skip_cache and CacheChecker.is_pr_cached(pr):
             Logger.info('skip PR {} (cached)'.format(prnum))
             return False
 
@@ -812,14 +812,14 @@ class PRs:
         return True
 
     @classmethod
-    def update(cls, prnum, skip_cache):
+    def update(cls, prnum, skip_cache, full_check):
         data = RemoteRepository.pr(prnum)
-        result = cls.__update_with(data, skip_cache)
+        result = cls.__update_with(data, skip_cache, full_check)
         cls.__set_output()
         return result
 
     @classmethod
-    def update_all(cls, count, skip_cache):
+    def update_all(cls, count, skip_cache, full_check):
         raw_prs = list(RemoteRepository.prs())
 
         i = 0
@@ -828,7 +828,7 @@ class PRs:
             i += 1
             Logger.info('{}/{} PR {}'.format(i, len(raw_prs), data['number']))
 
-            updated = cls.__update_with(data, skip_cache)
+            updated = cls.__update_with(data, skip_cache, full_check)
             if count is not None:
                 if updated:
                     count -= 1
@@ -919,6 +919,8 @@ parser = argparse.ArgumentParser(description='Update ecma262 history data')
 
 parser.add_argument('--skip-cache', action='store_true',
                     help='Skip cache')
+parser.add_argument('--full-check', action='store_true',
+                    help='Check all PR data, instead of light-weight cache check')
 parser.add_argument('--skip-list', action='store_true',
                     help='Skip updating list')
 subparsers = parser.add_subparsers(dest='command')
@@ -965,12 +967,12 @@ elif args.command == 'revs':
     Revisions.update_cache()
 elif args.command == 'pr':
     if args.PR_NUMBER == 'all':
-        updated = PRs.update_all(args.c, args.skip_cache)
+        updated = PRs.update_all(args.c, args.skip_cache, args.full_check)
         if not args.skip_list and updated:
             PRs.update_cache()
             Revisions.update_cache()
     else:
-        updated = PRs.update(int(args.PR_NUMBER), args.skip_cache)
+        updated = PRs.update(int(args.PR_NUMBER), args.skip_cache, args.full_check)
         if not args.skip_list and updated:
             PRs.update_cache()
             Revisions.update_cache()
