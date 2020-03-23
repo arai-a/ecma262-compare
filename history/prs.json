@@ -1,6 +1,26 @@
 [
  {
   "base": "bbe73d1c1387b4c86e82750c8129a791deb6f9bd",
+  "created_at": "2020-03-22T23:52:05Z",
+  "head": "d0af1e3eea81a3305ba7c3f27d70974b55e304db",
+  "login": "kmiller68",
+  "number": 1912,
+  "ref": "promise-functions-iteration-consistency",
+  "revs": [
+   {
+    "adate": "2020-03-22T16:43:44-07:00",
+    "author": "Keith Miller",
+    "date": "2020-03-22T16:43:44-07:00",
+    "hash": "d0af1e3eea81a3305ba7c3f27d70974b55e304db",
+    "parents": "bbe73d1c1387b4c86e82750c8129a791deb6f9bd",
+    "subject": "This change makes promise.{all,allSettled,race} behave more like a canonical JS implementation.  In particular, the resolve property is now checked to be callable before beginning iteration on the first argument."
+   }
+  ],
+  "title": "Promise.{all,allSettled,race} should check resolve is a function before opening their iteratable",
+  "updated_at": "2020-03-22T23:54:00Z"
+ },
+ {
+  "base": "bbe73d1c1387b4c86e82750c8129a791deb6f9bd",
   "created_at": "2020-03-22T23:29:04Z",
   "head": "e7aae32a0570550ca833493716a8abaa96d37adc",
   "login": "bakkot",
