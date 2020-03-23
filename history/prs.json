@@ -2,11 +2,27 @@
  {
   "base": "bbe73d1c1387b4c86e82750c8129a791deb6f9bd",
   "created_at": "2020-03-23T11:15:57Z",
-  "head": "8864cd3568b67628c5f7aeae14c497f09c416072",
+  "head": "e89a76d3c222581172eba977dac57d8e71631dcf",
   "login": "wentout",
   "number": 1913,
   "ref": "master",
   "revs": [
+   {
+    "adate": "2020-03-23T19:24:54+03:00",
+    "author": "went.out",
+    "date": "2020-03-23T19:24:54+03:00",
+    "hash": "e89a76d3c222581172eba977dac57d8e71631dcf",
+    "parents": "ac91728f5e1cc14da02c464e268495bfe1176f9a",
+    "subject": "additional link to prototype"
+   },
+   {
+    "adate": "2020-03-23T19:13:56+03:00",
+    "author": "went.out",
+    "date": "2020-03-23T19:13:56+03:00",
+    "hash": "ac91728f5e1cc14da02c464e268495bfe1176f9a",
+    "parents": "8864cd3568b67628c5f7aeae14c497f09c416072",
+    "subject": "derived -> inherited"
+   },
    {
     "adate": "2020-03-23T14:06:23+03:00",
     "author": "went.out",
@@ -17,7 +33,7 @@
    }
   ],
   "title": "special note of null",
-  "updated_at": "2020-03-23T11:18:15Z"
+  "updated_at": "2020-03-23T16:25:16Z"
  },
  {
   "base": "bbe73d1c1387b4c86e82750c8129a791deb6f9bd",
