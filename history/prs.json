@@ -22,11 +22,19 @@
  {
   "base": "bbe73d1c1387b4c86e82750c8129a791deb6f9bd",
   "created_at": "2020-03-22T23:29:04Z",
-  "head": "e7aae32a0570550ca833493716a8abaa96d37adc",
+  "head": "c89126261adbfe5280e56f2f98f46061ad30e3d0",
   "login": "bakkot",
   "number": 1911,
   "ref": "feature-request-link",
   "revs": [
+   {
+    "adate": "2020-03-22T23:31:50-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-03-22T23:31:50-07:00",
+    "hash": "c89126261adbfe5280e56f2f98f46061ad30e3d0",
+    "parents": "e7aae32a0570550ca833493716a8abaa96d37adc",
+    "subject": "allow blank issues"
+   },
    {
     "adate": "2020-03-22T16:21:37-07:00",
     "author": "Kevin Gibbons",
@@ -37,7 +45,7 @@
    }
   ],
   "title": "Meta: replace feature request template with link",
-  "updated_at": "2020-03-22T23:30:14Z"
+  "updated_at": "2020-03-23T06:32:03Z"
  },
  {
   "base": "c695f9af6e5f68c069d6295b9d7ed16b41b4d8a1",
