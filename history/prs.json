@@ -38,11 +38,19 @@
  {
   "base": "4b6d77d42ebcdcf0592124dc910913c1948b130c",
   "created_at": "2020-03-23T11:15:57Z",
-  "head": "78f1a4fd7a41d33aa49f1fb3ab3b8b85d7ed348c",
+  "head": "359078285218f775d537a4ad531233f2884421e2",
   "login": "wentout",
   "number": 1913,
   "ref": "master",
   "revs": [
+   {
+    "adate": "2020-03-24T14:35:41+03:00",
+    "author": "went.out",
+    "date": "2020-03-24T14:35:41+03:00",
+    "hash": "359078285218f775d537a4ad531233f2884421e2",
+    "parents": "78f1a4fd7a41d33aa49f1fb3ab3b8b85d7ed348c",
+    "subject": "typo fix"
+   },
    {
     "adate": "2020-03-24T14:27:01+03:00",
     "author": "went.out",
@@ -101,7 +109,7 @@
    }
   ],
   "title": "Editorial: special note of null",
-  "updated_at": "2020-03-24T11:27:26Z"
+  "updated_at": "2020-03-24T11:35:58Z"
  },
  {
   "base": "bbe73d1c1387b4c86e82750c8129a791deb6f9bd",
