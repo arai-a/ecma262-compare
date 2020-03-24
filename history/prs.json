@@ -2,11 +2,19 @@
  {
   "base": "4b6d77d42ebcdcf0592124dc910913c1948b130c",
   "created_at": "2020-03-24T06:47:21Z",
-  "head": "6bb541fda29ee5544d8522e948050272e31eb0df",
+  "head": "a42d6d453734d0871e22ae681d9289d51e0127c9",
   "login": "tc39",
   "number": 1914,
   "ref": "consistent-headers",
   "revs": [
+   {
+    "adate": "2020-03-24T14:36:01-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-03-24T14:36:14-07:00",
+    "hash": "a42d6d453734d0871e22ae681d9289d51e0127c9",
+    "parents": "6bb541fda29ee5544d8522e948050272e31eb0df",
+    "subject": "fix a couple typos"
+   },
    {
     "adate": "2020-03-23T22:26:14-07:00",
     "author": "Kevin Gibbons",
@@ -33,7 +41,7 @@
    }
   ],
   "title": "Editorial: use consistent wording for abstract operation preambles",
-  "updated_at": "2020-03-24T06:50:09Z"
+  "updated_at": "2020-03-24T21:52:30Z"
  },
  {
   "base": "4b6d77d42ebcdcf0592124dc910913c1948b130c",
