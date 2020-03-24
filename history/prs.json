@@ -36,13 +36,29 @@
   "updated_at": "2020-03-24T06:50:09Z"
  },
  {
-  "base": "bbe73d1c1387b4c86e82750c8129a791deb6f9bd",
+  "base": "4b6d77d42ebcdcf0592124dc910913c1948b130c",
   "created_at": "2020-03-23T11:15:57Z",
-  "head": "e89a76d3c222581172eba977dac57d8e71631dcf",
+  "head": "4febdf4b28d5fa9f118320ee6a3820244cd1af01",
   "login": "wentout",
   "number": 1913,
   "ref": "master",
   "revs": [
+   {
+    "adate": "2020-03-24T13:07:58+03:00",
+    "author": "went.out",
+    "date": "2020-03-24T13:07:58+03:00",
+    "hash": "4febdf4b28d5fa9f118320ee6a3820244cd1af01",
+    "parents": "d92c03671ead82b4860a72a4bc3ce56fde35b1c8 4b6d77d42ebcdcf0592124dc910913c1948b130c",
+    "subject": "Merge remote-tracking branch 'upstream/master'"
+   },
+   {
+    "adate": "2020-03-24T13:03:08+03:00",
+    "author": "went.out",
+    "date": "2020-03-24T13:03:08+03:00",
+    "hash": "d92c03671ead82b4860a72a4bc3ce56fde35b1c8",
+    "parents": "e89a76d3c222581172eba977dac57d8e71631dcf",
+    "subject": "reverting note of Null type primitive"
+   },
    {
     "adate": "2020-03-23T19:24:54+03:00",
     "author": "went.out",
@@ -68,8 +84,8 @@
     "subject": "special note of null primitive"
    }
   ],
-  "title": "special note of null",
-  "updated_at": "2020-03-23T16:25:16Z"
+  "title": "Editorial: special note of null",
+  "updated_at": "2020-03-24T10:09:37Z"
  },
  {
   "base": "bbe73d1c1387b4c86e82750c8129a791deb6f9bd",
