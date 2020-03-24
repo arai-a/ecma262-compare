@@ -1,5 +1,41 @@
 [
  {
+  "base": "4b6d77d42ebcdcf0592124dc910913c1948b130c",
+  "created_at": "2020-03-24T06:47:21Z",
+  "head": "6bb541fda29ee5544d8522e948050272e31eb0df",
+  "login": "tc39",
+  "number": 1914,
+  "ref": "consistent-headers",
+  "revs": [
+   {
+    "adate": "2020-03-23T22:26:14-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-03-23T23:50:00-07:00",
+    "hash": "6bb541fda29ee5544d8522e948050272e31eb0df",
+    "parents": "4976861226470b3446ef32d8754a71bcd810290e",
+    "subject": "manual fixes"
+   },
+   {
+    "adate": "2020-03-23T22:15:00-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-03-23T23:50:00-07:00",
+    "hash": "4976861226470b3446ef32d8754a71bcd810290e",
+    "parents": "dcfe5c1196fe26f35a58b3cb790859e9a7ee3499",
+    "subject": "remove uninteresting preambles"
+   },
+   {
+    "adate": "2020-03-23T22:12:04-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-03-23T23:50:00-07:00",
+    "hash": "dcfe5c1196fe26f35a58b3cb790859e9a7ee3499",
+    "parents": "4b6d77d42ebcdcf0592124dc910913c1948b130c",
+    "subject": "copy generated file"
+   }
+  ],
+  "title": "Editorial: use consistent wording for abstract operation preambles",
+  "updated_at": "2020-03-24T06:50:09Z"
+ },
+ {
   "base": "bbe73d1c1387b4c86e82750c8129a791deb6f9bd",
   "created_at": "2020-03-23T11:15:57Z",
   "head": "e89a76d3c222581172eba977dac57d8e71631dcf",
@@ -989,26 +1025,6 @@
    }
   ],
   "title": "meta: make \"new feature\" issue template clearer",
-  "updated_at": "2020-02-28T04:16:06Z"
- },
- {
-  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
-  "created_at": "2019-08-14T20:38:19Z",
-  "head": "74182ab0111fbdf903137be67d104a66d6d72c8c",
-  "login": "devsnek",
-  "number": 1669,
-  "ref": "fix/evaluate-timing",
-  "revs": [
-   {
-    "adate": "2019-08-14T15:33:25-05:00",
-    "author": "Gus Caplan",
-    "date": "2019-09-04T22:14:11-07:00",
-    "hash": "74182ab0111fbdf903137be67d104a66d6d72c8c",
-    "parents": "85f905aff137a7f0872c48e16d6b883b7b46212a",
-    "subject": "Normative: Prevent DFS invariants from being broken (#1669)"
-   }
-  ],
-  "title": "Normative: Prevent DFS invariants from being broken",
   "updated_at": "2020-02-28T04:16:06Z"
  },
  {
@@ -3433,26 +3449,6 @@
    }
   ],
   "title": "Normative: Allow NaN values to be *optionally* canoncalized",
-  "updated_at": "2020-02-28T04:16:27Z"
- },
- {
-  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
-  "created_at": "2016-11-18T22:23:43Z",
-  "head": "20c8dda5aed3197181cbd109e7ee76d4bd5780d6",
-  "login": "domenic",
-  "number": 735,
-  "ref": "fix-jobs",
-  "revs": [
-   {
-    "adate": "2016-11-18T17:18:44-05:00",
-    "author": "Domenic Denicola",
-    "date": "2017-05-31T16:12:51-04:00",
-    "hash": "20c8dda5aed3197181cbd109e7ee76d4bd5780d6",
-    "parents": "0719f44aab93215ed9a626b2f45bd34f36916834",
-    "subject": "Layering: fix the jobs infrastructure"
-   }
-  ],
-  "title": "Layering: fix the jobs infrastructure",
   "updated_at": "2020-02-28T04:16:27Z"
  },
  {
