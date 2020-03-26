@@ -21,26 +21,6 @@
  },
  {
   "base": "4b6d77d42ebcdcf0592124dc910913c1948b130c",
-  "created_at": "2020-03-25T04:51:05Z",
-  "head": "2bc8472f6cdae4d6f428b5c18f1309639f762c89",
-  "login": "jhnaldo",
-  "number": 1915,
-  "ref": "iterationKind",
-  "revs": [
-   {
-    "adate": "2020-03-25T13:32:29+09:00",
-    "author": "jhnaldo",
-    "date": "2020-03-25T14:55:41-07:00",
-    "hash": "2bc8472f6cdae4d6f428b5c18f1309639f762c89",
-    "parents": "4b6d77d42ebcdcf0592124dc910913c1948b130c",
-    "subject": "Editorial: added ~async-iterate~ in assertion of ForIn/OfHeadEvaluation (#1915)"
-   }
-  ],
-  "title": "Editorial: added ~async-iterate~ in assertion of ForIn/OfHeadEvaluation",
-  "updated_at": "2020-03-25T21:55:50Z"
- },
- {
-  "base": "4b6d77d42ebcdcf0592124dc910913c1948b130c",
   "created_at": "2020-03-24T06:47:21Z",
   "head": "a42d6d453734d0871e22ae681d9289d51e0127c9",
   "login": "tc39",
@@ -346,26 +326,6 @@
   ],
   "title": "Normative: add import.meta",
   "updated_at": "2020-03-22T02:29:18Z"
- },
- {
-  "base": "4b6d77d42ebcdcf0592124dc910913c1948b130c",
-  "created_at": "2020-02-27T12:55:57Z",
-  "head": "567bd0e7358545572c41549beb8d41ec64f3378c",
-  "login": "marjakh",
-  "number": 1885,
-  "ref": "add-subscripts-to-identifier-static-semantics",
-  "revs": [
-   {
-    "adate": "2020-02-27T13:56:29+01:00",
-    "author": "Marja H\u00f6ltt\u00e4",
-    "date": "2020-03-25T15:00:36-07:00",
-    "hash": "567bd0e7358545572c41549beb8d41ec64f3378c",
-    "parents": "4b6d77d42ebcdcf0592124dc910913c1948b130c",
-    "subject": "Editorial: Add subscripts to BindingIdentifier static semantics. (#1885)"
-   }
-  ],
-  "title": "Editorial: Add subscripts to BindingIdentifier static semantics.",
-  "updated_at": "2020-03-25T22:00:49Z"
  },
  {
   "base": "c695f9af6e5f68c069d6295b9d7ed16b41b4d8a1",
@@ -1753,26 +1713,6 @@
  },
  {
   "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
-  "created_at": "2019-08-09T03:42:42Z",
-  "head": "922cbdc1fe9421e0e24533fc6f219733e8d1be71",
-  "login": "jhnaldo",
-  "number": 1664,
-  "ref": "pr5",
-  "revs": [
-   {
-    "adate": "2019-08-09T12:38:07+09:00",
-    "author": "jhnaldo",
-    "date": "2019-08-09T12:38:07+09:00",
-    "hash": "922cbdc1fe9421e0e24533fc6f219733e8d1be71",
-    "parents": "8f0f69279b5f9e12ebe8f7052322b93d17e36b54",
-    "subject": "Editorial: Fixed error for already unwrapped completion records"
-   }
-  ],
-  "title": "Editorial: Fixed error for already unwrapped completion records",
-  "updated_at": "2020-02-28T04:16:08Z"
- },
- {
-  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2019-08-09T03:07:51Z",
   "head": "0ad518535b5d60adc2a6320f0dae7c51a0ac2285",
   "login": "jhnaldo",
@@ -1812,13 +1752,21 @@
   "updated_at": "2020-02-28T04:16:08Z"
  },
  {
-  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
+  "base": "6826d313a905d05e02daec1f4d2f22b911c960b4",
   "created_at": "2019-08-09T03:01:02Z",
-  "head": "6965b3b38c6f4076ff1aa7df8dfaa9c3d65893a2",
+  "head": "033f9d071c691f307cebab894466ba994b786ff7",
   "login": "jhnaldo",
   "number": 1660,
   "ref": "pr1",
   "revs": [
+   {
+    "adate": "2020-03-26T10:56:27+09:00",
+    "author": "jhnaldo",
+    "date": "2020-03-26T10:56:27+09:00",
+    "hash": "033f9d071c691f307cebab894466ba994b786ff7",
+    "parents": "6965b3b38c6f4076ff1aa7df8dfaa9c3d65893a2",
+    "subject": "Editorial: Removed unnecessary explanation and a step"
+   },
    {
     "adate": "2019-08-09T11:50:59+09:00",
     "author": "jhnaldo",
@@ -1829,7 +1777,7 @@
    }
   ],
   "title": "Editorial: Remove assertion in InitializeBinding of Object Environment Record",
-  "updated_at": "2020-02-28T04:16:08Z"
+  "updated_at": "2020-03-26T01:56:37Z"
  },
  {
   "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
