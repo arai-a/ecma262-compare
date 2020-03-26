@@ -1,6 +1,26 @@
 [
  {
   "base": "a8955334e72730f272ce2388a0f5176873ecdae0",
+  "created_at": "2020-03-26T08:53:11Z",
+  "head": "8b371e73d09fe49d15e7e8a170668b2c55c04b7e",
+  "login": "wentout",
+  "number": 1919,
+  "ref": "sunk_cost",
+  "revs": [
+   {
+    "adate": "2020-03-26T11:23:33+03:00",
+    "author": "went.out",
+    "date": "2020-03-26T11:26:51+03:00",
+    "hash": "8b371e73d09fe49d15e7e8a170668b2c55c04b7e",
+    "parents": "a8955334e72730f272ce2388a0f5176873ecdae0",
+    "subject": "Editorial: added cauton note of sunk cost for typeof null"
+   }
+  ],
+  "title": "Editorial: sunk note for null",
+  "updated_at": "2020-03-26T08:53:11Z"
+ },
+ {
+  "base": "a8955334e72730f272ce2388a0f5176873ecdae0",
   "created_at": "2020-03-26T06:44:43Z",
   "head": "afbd765112b54bb2485fb872761d0288e3ce9e7f",
   "login": "michaelficarra",
@@ -82,98 +102,6 @@
   ],
   "title": "Editorial: use consistent wording for abstract operation preambles",
   "updated_at": "2020-03-24T21:52:30Z"
- },
- {
-  "base": "4b6d77d42ebcdcf0592124dc910913c1948b130c",
-  "created_at": "2020-03-23T11:15:57Z",
-  "head": "44828e15452ceee784a3e15f20277cd51aaba0cb",
-  "login": "wentout",
-  "number": 1913,
-  "ref": "master",
-  "revs": [
-   {
-    "adate": "2020-03-25T21:13:47+03:00",
-    "author": "went.out",
-    "date": "2020-03-25T21:13:47+03:00",
-    "hash": "44828e15452ceee784a3e15f20277cd51aaba0cb",
-    "parents": "92f7edaa56b72fb69b74e24d896057729503d384",
-    "subject": "primitive values"
-   },
-   {
-    "adate": "2020-03-25T20:53:49+03:00",
-    "author": "went.out",
-    "date": "2020-03-25T21:05:45+03:00",
-    "hash": "92f7edaa56b72fb69b74e24d896057729503d384",
-    "parents": "359078285218f775d537a4ad531233f2884421e2",
-    "subject": "1. getting rid of design enforcement 2. correcting connection with inheritance and prototype chain 3. attemt to keep irrevertable meanings"
-   },
-   {
-    "adate": "2020-03-24T14:35:41+03:00",
-    "author": "went.out",
-    "date": "2020-03-24T14:35:41+03:00",
-    "hash": "359078285218f775d537a4ad531233f2884421e2",
-    "parents": "78f1a4fd7a41d33aa49f1fb3ab3b8b85d7ed348c",
-    "subject": "typo fix"
-   },
-   {
-    "adate": "2020-03-24T14:27:01+03:00",
-    "author": "went.out",
-    "date": "2020-03-24T14:27:01+03:00",
-    "hash": "78f1a4fd7a41d33aa49f1fb3ab3b8b85d7ed348c",
-    "parents": "1e84d85d6a614ece3aa4377b015b0d86f8ad0b55",
-    "subject": "additional separiation Null type from null value"
-   },
-   {
-    "adate": "2020-03-24T13:56:38+03:00",
-    "author": "went.out",
-    "date": "2020-03-24T13:57:31+03:00",
-    "hash": "1e84d85d6a614ece3aa4377b015b0d86f8ad0b55",
-    "parents": "4febdf4b28d5fa9f118320ee6a3820244cd1af01",
-    "subject": "changes from discussion"
-   },
-   {
-    "adate": "2020-03-24T13:07:58+03:00",
-    "author": "went.out",
-    "date": "2020-03-24T13:07:58+03:00",
-    "hash": "4febdf4b28d5fa9f118320ee6a3820244cd1af01",
-    "parents": "d92c03671ead82b4860a72a4bc3ce56fde35b1c8 4b6d77d42ebcdcf0592124dc910913c1948b130c",
-    "subject": "Merge remote-tracking branch 'upstream/master'"
-   },
-   {
-    "adate": "2020-03-24T13:03:08+03:00",
-    "author": "went.out",
-    "date": "2020-03-24T13:03:08+03:00",
-    "hash": "d92c03671ead82b4860a72a4bc3ce56fde35b1c8",
-    "parents": "e89a76d3c222581172eba977dac57d8e71631dcf",
-    "subject": "reverting note of Null type primitive"
-   },
-   {
-    "adate": "2020-03-23T19:24:54+03:00",
-    "author": "went.out",
-    "date": "2020-03-23T19:24:54+03:00",
-    "hash": "e89a76d3c222581172eba977dac57d8e71631dcf",
-    "parents": "ac91728f5e1cc14da02c464e268495bfe1176f9a",
-    "subject": "additional link to prototype"
-   },
-   {
-    "adate": "2020-03-23T19:13:56+03:00",
-    "author": "went.out",
-    "date": "2020-03-23T19:13:56+03:00",
-    "hash": "ac91728f5e1cc14da02c464e268495bfe1176f9a",
-    "parents": "8864cd3568b67628c5f7aeae14c497f09c416072",
-    "subject": "derived -> inherited"
-   },
-   {
-    "adate": "2020-03-23T14:06:23+03:00",
-    "author": "went.out",
-    "date": "2020-03-23T14:06:23+03:00",
-    "hash": "8864cd3568b67628c5f7aeae14c497f09c416072",
-    "parents": "bbe73d1c1387b4c86e82750c8129a791deb6f9bd",
-    "subject": "special note of null primitive"
-   }
-  ],
-  "title": "Editorial: special note of null",
-  "updated_at": "2020-03-25T18:19:27Z"
  },
  {
   "base": "bbe73d1c1387b4c86e82750c8129a791deb6f9bd",
