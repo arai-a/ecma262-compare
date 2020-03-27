@@ -1,25 +1,5 @@
 [
  {
-  "base": "a8955334e72730f272ce2388a0f5176873ecdae0",
-  "created_at": "2020-03-26T06:44:43Z",
-  "head": "afbd765112b54bb2485fb872761d0288e3ce9e7f",
-  "login": "michaelficarra",
-  "number": 1918,
-  "ref": "getownpropertykeys",
-  "revs": [
-   {
-    "adate": "2020-03-25T23:40:28-07:00",
-    "author": "Michael Ficarra",
-    "date": "2020-03-25T23:40:28-07:00",
-    "hash": "afbd765112b54bb2485fb872761d0288e3ce9e7f",
-    "parents": "a8955334e72730f272ce2388a0f5176873ecdae0",
-    "subject": "use spec-internal enum in GetOwnPropertyKeys AO"
-   }
-  ],
-  "title": "use spec-internal enum in GetOwnPropertyKeys AO",
-  "updated_at": "2020-03-26T06:47:49Z"
- },
- {
   "base": "4b6d77d42ebcdcf0592124dc910913c1948b130c",
   "created_at": "2020-03-25T11:00:54Z",
   "head": "7838b3a0e9e85d5e640c1ff39c43bf397bdad4d7",
@@ -3460,9 +3440,9 @@
   "updated_at": "2020-02-28T04:16:28Z"
  },
  {
-  "base": "c695f9af6e5f68c069d6295b9d7ed16b41b4d8a1",
+  "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
   "created_at": "2016-04-16T18:28:04Z",
-  "head": "99af4b9aebabb30fd7e08a4d26ada29050ecaddd",
+  "head": "cfdaab72ccc39b6e2882771fb4455585c229b71e",
   "login": "jmdyck",
   "number": 545,
   "ref": "operation_headers",
@@ -3470,38 +3450,14 @@
    {
     "adate": "2016-04-16T14:19:39-04:00",
     "author": "Michael Dyck",
-    "date": "2020-03-19T12:00:48-04:00",
-    "hash": "99af4b9aebabb30fd7e08a4d26ada29050ecaddd",
-    "parents": "a46adac79a777563759426666e4be7a986340574",
+    "date": "2020-03-27T15:15:12-04:00",
+    "hash": "cfdaab72ccc39b6e2882771fb4455585c229b71e",
+    "parents": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
     "subject": "Introduce operation-headers"
-   },
-   {
-    "adate": "2020-03-19T11:17:07-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-03-19T11:21:01-04:00",
-    "hash": "a46adac79a777563759426666e4be7a986340574",
-    "parents": "319a167bc31804c6dbb29b931687a9f02b9d5ec0",
-    "subject": "Editorial: insert missing underscores for aliases"
-   },
-   {
-    "adate": "2020-03-19T01:03:27-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-03-19T11:21:01-04:00",
-    "hash": "319a167bc31804c6dbb29b931687a9f02b9d5ec0",
-    "parents": "38c9327474409126e82a6a9589e745b99ae6cc1e",
-    "subject": "Editorial: insert \"the Record\" before record 'constructor'"
-   },
-   {
-    "adate": "2020-03-19T01:03:01-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-03-19T11:21:01-04:00",
-    "hash": "38c9327474409126e82a6a9589e745b99ae6cc1e",
-    "parents": "c695f9af6e5f68c069d6295b9d7ed16b41b4d8a1",
-    "subject": "Markup: delete 'es6num' comments"
    }
   ],
   "title": "Replace each abstract op's preamble with a structured 'header'.",
-  "updated_at": "2020-03-21T01:57:29Z"
+  "updated_at": "2020-03-27T19:15:43Z"
  },
  {
   "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
