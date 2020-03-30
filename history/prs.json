@@ -1,12 +1,40 @@
 [
  {
+  "base": "0f74f8cdd206bdbf2b308ad18ae64a1e75522f02",
+  "created_at": "2020-03-30T22:32:25Z",
+  "head": "07c8835b623a78e0e9a24470230aa7d24541e053",
+  "login": "michaelficarra",
+  "number": 1921,
+  "ref": "localtza",
+  "revs": [
+   {
+    "adate": "2020-03-30T15:31:34-07:00",
+    "author": "Michael Ficarra",
+    "date": "2020-03-30T15:31:34-07:00",
+    "hash": "07c8835b623a78e0e9a24470230aa7d24541e053",
+    "parents": "0f74f8cdd206bdbf2b308ad18ae64a1e75522f02",
+    "subject": "fix auto-linking of LocalTZA abstract op"
+   }
+  ],
+  "title": "fix auto-linking of LocalTZA abstract op",
+  "updated_at": "2020-03-30T22:32:25Z"
+ },
+ {
   "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
   "created_at": "2020-03-27T22:23:25Z",
-  "head": "9f286bf63a621aec5e4811a2f017346a96b68ea0",
+  "head": "89e1a8ac8f1077a16247b71ecdeffc3b3cf374b8",
   "login": "rkirsling",
   "number": 1920,
   "ref": "forbidden-extensions-402",
   "revs": [
+   {
+    "adate": "2020-03-30T15:35:53-07:00",
+    "author": "Ross Kirsling",
+    "date": "2020-03-30T15:35:53-07:00",
+    "hash": "89e1a8ac8f1077a16247b71ecdeffc3b3cf374b8",
+    "parents": "9f286bf63a621aec5e4811a2f017346a96b68ea0",
+    "subject": "Address feedback."
+   },
    {
     "adate": "2020-03-27T16:59:03-07:00",
     "author": "Ross Kirsling",
@@ -24,8 +52,8 @@
     "subject": "Editorial: Forbidden extensions misses a few 402 methods."
    }
   ],
-  "title": "Normative: Update 402 method list in Forbidden Extensions",
-  "updated_at": "2020-03-28T00:01:22Z"
+  "title": "Normative: Generically forbid 402 method extensions in Forbidden Extensions",
+  "updated_at": "2020-03-30T22:36:03Z"
  },
  {
   "base": "4b6d77d42ebcdcf0592124dc910913c1948b130c",
