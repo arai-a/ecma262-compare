@@ -1,6 +1,26 @@
 [
  {
   "base": "3d2f0d499cf7d504ed45b86068022af6b3feb71a",
+  "created_at": "2020-03-31T04:04:33Z",
+  "head": "9814b69082d666bcc339cfcbc80be5144891c023",
+  "login": "shvaikalesh",
+  "number": 1923,
+  "ref": "use-type-notation",
+  "revs": [
+   {
+    "adate": "2020-03-31T07:01:44+03:00",
+    "author": "Alexey Shvayka",
+    "date": "2020-03-31T07:01:44+03:00",
+    "hash": "9814b69082d666bcc339cfcbc80be5144891c023",
+    "parents": "3d2f0d499cf7d504ed45b86068022af6b3feb71a",
+    "subject": "Editorial: Align wording of [[OwnPropertyKeys]] methods"
+   }
+  ],
+  "title": "Editorial: Align wording of [[OwnPropertyKeys]] methods",
+  "updated_at": "2020-03-31T04:04:33Z"
+ },
+ {
+  "base": "3d2f0d499cf7d504ed45b86068022af6b3feb71a",
   "created_at": "2020-03-31T03:42:01Z",
   "head": "7557a77bee53f67f7c9e0466f70cff83664583db",
   "login": "shvaikalesh",
