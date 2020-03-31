@@ -1,23 +1,23 @@
 [
  {
-  "base": "0f74f8cdd206bdbf2b308ad18ae64a1e75522f02",
-  "created_at": "2020-03-30T22:32:25Z",
-  "head": "07c8835b623a78e0e9a24470230aa7d24541e053",
-  "login": "michaelficarra",
-  "number": 1921,
-  "ref": "localtza",
+  "base": "3d2f0d499cf7d504ed45b86068022af6b3feb71a",
+  "created_at": "2020-03-31T03:42:01Z",
+  "head": "7557a77bee53f67f7c9e0466f70cff83664583db",
+  "login": "shvaikalesh",
+  "number": 1922,
+  "ref": "flatmap-not-present-as-undefined",
   "revs": [
    {
-    "adate": "2020-03-30T15:31:34-07:00",
-    "author": "Michael Ficarra",
-    "date": "2020-03-30T15:31:34-07:00",
-    "hash": "07c8835b623a78e0e9a24470230aa7d24541e053",
-    "parents": "0f74f8cdd206bdbf2b308ad18ae64a1e75522f02",
-    "subject": "fix auto-linking of LocalTZA abstract op"
+    "adate": "2020-03-31T06:40:56+03:00",
+    "author": "Alexey Shvayka",
+    "date": "2020-03-31T06:40:56+03:00",
+    "hash": "7557a77bee53f67f7c9e0466f70cff83664583db",
+    "parents": "3d2f0d499cf7d504ed45b86068022af6b3feb71a",
+    "subject": "Editorial: Treat not present flatMap parameter as undefined"
    }
   ],
-  "title": "fix auto-linking of LocalTZA abstract op",
-  "updated_at": "2020-03-30T22:32:25Z"
+  "title": "Editorial: Treat not present flatMap parameter as undefined",
+  "updated_at": "2020-03-31T03:42:01Z"
  },
  {
   "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
@@ -478,26 +478,6 @@
   ],
   "title": "Editorial: Improve consistency of backtick use for built-ins.",
   "updated_at": "2020-02-28T04:15:58Z"
- },
- {
-  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
-  "created_at": "2020-01-12T22:05:56Z",
-  "head": "c92f745cb0e079c9304cd162886ef700b21ae676",
-  "login": "rkirsling",
-  "number": 1844,
-  "ref": "make-table-48-fit",
-  "revs": [
-   {
-    "adate": "2020-01-12T14:03:41-08:00",
-    "author": "Ross Kirsling",
-    "date": "2020-01-12T14:03:41-08:00",
-    "hash": "c92f745cb0e079c9304cd162886ef700b21ae676",
-    "parents": "73ad5993a7c8cf8192fa485a91887437fa6b48ab",
-    "subject": "Editorial: Let code wrap in tables-in-notes."
-   }
-  ],
-  "title": "Editorial: Let code wrap in tables-in-notes.",
-  "updated_at": "2020-02-28T04:15:59Z"
  },
  {
   "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
