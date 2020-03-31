@@ -1,5 +1,25 @@
 [
  {
+  "base": "ecee0e315c636566573652c77e10fbc5524b7eed",
+  "created_at": "2020-03-31T18:07:11Z",
+  "head": "a401309dca9fdc3eea1fb2c2ddeace67a6c8b00c",
+  "login": "mathiasbynens",
+  "number": 1928,
+  "ref": "add-namespace-export",
+  "revs": [
+   {
+    "adate": "2020-03-31T20:06:08+02:00",
+    "author": "Mathias Bynens",
+    "date": "2020-03-31T20:07:40+02:00",
+    "hash": "a401309dca9fdc3eea1fb2c2ddeace67a6c8b00c",
+    "parents": "ecee0e315c636566573652c77e10fbc5524b7eed",
+    "subject": "Editorial: List module namespace exports as new in the 11th edition"
+   }
+  ],
+  "title": "Editorial: List module namespace exports as new in the 11th edition",
+  "updated_at": "2020-03-31T18:26:52Z"
+ },
+ {
   "base": "3d2f0d499cf7d504ed45b86068022af6b3feb71a",
   "created_at": "2020-03-31T06:27:38Z",
   "head": "5ea67efeb4f58f45ac796983e36a39d3eb565a55",
@@ -21,26 +41,6 @@
  },
  {
   "base": "3d2f0d499cf7d504ed45b86068022af6b3feb71a",
-  "created_at": "2020-03-31T05:33:05Z",
-  "head": "14434659892a8e3ce2d3ded111190d4e79326c0a",
-  "login": "shvaikalesh",
-  "number": 1925,
-  "ref": "substitution-template-early-error",
-  "revs": [
-   {
-    "adate": "2020-03-31T08:32:37+03:00",
-    "author": "Alexey Shvayka",
-    "date": "2020-03-31T08:32:37+03:00",
-    "hash": "14434659892a8e3ce2d3ded111190d4e79326c0a",
-    "parents": "3d2f0d499cf7d504ed45b86068022af6b3feb71a",
-    "subject": "Editorial: Fix TemplateStrings early error for SubstitutionTemplate"
-   }
-  ],
-  "title": "Editorial: Fix TemplateStrings early error for SubstitutionTemplate",
-  "updated_at": "2020-03-31T05:33:05Z"
- },
- {
-  "base": "3d2f0d499cf7d504ed45b86068022af6b3feb71a",
   "created_at": "2020-03-31T05:14:49Z",
   "head": "d0e836d8507cb2cc498cb3887a4d351ba0643cb2",
   "login": "shvaikalesh",
@@ -58,46 +58,6 @@
   ],
   "title": "Editorial: Tweak Array exotic object internal methods",
   "updated_at": "2020-03-31T05:28:59Z"
- },
- {
-  "base": "3d2f0d499cf7d504ed45b86068022af6b3feb71a",
-  "created_at": "2020-03-31T04:04:33Z",
-  "head": "9814b69082d666bcc339cfcbc80be5144891c023",
-  "login": "shvaikalesh",
-  "number": 1923,
-  "ref": "use-type-notation",
-  "revs": [
-   {
-    "adate": "2020-03-31T07:01:44+03:00",
-    "author": "Alexey Shvayka",
-    "date": "2020-03-31T07:01:44+03:00",
-    "hash": "9814b69082d666bcc339cfcbc80be5144891c023",
-    "parents": "3d2f0d499cf7d504ed45b86068022af6b3feb71a",
-    "subject": "Editorial: Align wording of [[OwnPropertyKeys]] methods"
-   }
-  ],
-  "title": "Editorial: Align wording of [[OwnPropertyKeys]] methods",
-  "updated_at": "2020-03-31T04:04:33Z"
- },
- {
-  "base": "3d2f0d499cf7d504ed45b86068022af6b3feb71a",
-  "created_at": "2020-03-31T03:42:01Z",
-  "head": "7557a77bee53f67f7c9e0466f70cff83664583db",
-  "login": "shvaikalesh",
-  "number": 1922,
-  "ref": "flatmap-not-present-as-undefined",
-  "revs": [
-   {
-    "adate": "2020-03-31T06:40:56+03:00",
-    "author": "Alexey Shvayka",
-    "date": "2020-03-31T06:40:56+03:00",
-    "hash": "7557a77bee53f67f7c9e0466f70cff83664583db",
-    "parents": "3d2f0d499cf7d504ed45b86068022af6b3feb71a",
-    "subject": "Editorial: Treat not present flatMap parameter as undefined"
-   }
-  ],
-  "title": "Editorial: Treat not present flatMap parameter as undefined",
-  "updated_at": "2020-03-31T03:42:01Z"
  },
  {
   "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
