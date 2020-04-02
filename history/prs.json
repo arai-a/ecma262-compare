@@ -324,24 +324,32 @@
   "updated_at": "2020-03-20T15:33:49Z"
  },
  {
-  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
+  "base": "c02a0919815b4ed7d77dfc6125b2847d3f7ed91c",
   "created_at": "2020-02-10T00:24:45Z",
-  "head": "7644ce6dd587b8a5f4c63e3c2573943f1d4528af",
+  "head": "d374ff9cfe903642486e3b8381419d57b96f1a04",
   "login": "tc39",
   "number": 1869,
   "ref": "sv-regexp-unicode-escape-sequence",
   "revs": [
    {
+    "adate": "2020-04-01T16:40:38-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-04-01T17:04:05-07:00",
+    "hash": "d374ff9cfe903642486e3b8381419d57b96f1a04",
+    "parents": "1f46ad2c689cc504c0d24c395e312c117f9c61b1",
+    "subject": "allow all escapes in group names"
+   },
+   {
     "adate": "2020-02-09T16:18:46-08:00",
     "author": "Kevin Gibbons",
-    "date": "2020-02-09T16:18:46-08:00",
-    "hash": "7644ce6dd587b8a5f4c63e3c2573943f1d4528af",
-    "parents": "787642ad2d159c8358a8782c9414f6d5fb6efa6f",
-    "subject": "Normative: Use CharacterValue for RegExpUnicodeEscapeSequence"
+    "date": "2020-04-01T16:38:24-07:00",
+    "hash": "1f46ad2c689cc504c0d24c395e312c117f9c61b1",
+    "parents": "c02a0919815b4ed7d77dfc6125b2847d3f7ed91c",
+    "subject": "rebase"
    }
   ],
   "title": "Normative: Use CharacterValue for RegExpUnicodeEscapeSequence",
-  "updated_at": "2020-03-04T23:13:24Z"
+  "updated_at": "2020-04-02T00:04:13Z"
  },
  {
   "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
