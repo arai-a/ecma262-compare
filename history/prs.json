@@ -2,11 +2,19 @@
  {
   "base": "184bc60b8f6938749f2fae37fad70caacf84234d",
   "created_at": "2020-04-02T15:49:19Z",
-  "head": "a2cf9dd4fb822b6e1c632f4dbac6ea9c1d1ebba1",
+  "head": "cb7104e50a0942db106c89d7440da649cafeb00e",
   "login": "tc39",
   "number": 1932,
   "ref": "allow-unescaped",
   "revs": [
+   {
+    "adate": "2020-04-02T09:23:57-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-04-02T09:23:57-07:00",
+    "hash": "cb7104e50a0942db106c89d7440da649cafeb00e",
+    "parents": "a2cf9dd4fb822b6e1c632f4dbac6ea9c1d1ebba1",
+    "subject": "rephrase early errors"
+   },
    {
     "adate": "2020-04-02T08:17:36-07:00",
     "author": "Kevin Gibbons",
@@ -17,7 +25,7 @@
    }
   ],
   "title": "Normative: allow non-BMP characters in capture group names",
-  "updated_at": "2020-04-02T15:49:19Z"
+  "updated_at": "2020-04-02T16:33:52Z"
  },
  {
   "base": "184bc60b8f6938749f2fae37fad70caacf84234d",
