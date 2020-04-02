@@ -1,6 +1,46 @@
 [
  {
   "base": "184bc60b8f6938749f2fae37fad70caacf84234d",
+  "created_at": "2020-04-02T15:49:19Z",
+  "head": "a2cf9dd4fb822b6e1c632f4dbac6ea9c1d1ebba1",
+  "login": "tc39",
+  "number": 1932,
+  "ref": "allow-unescaped",
+  "revs": [
+   {
+    "adate": "2020-04-02T08:17:36-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-04-02T08:17:59-07:00",
+    "hash": "a2cf9dd4fb822b6e1c632f4dbac6ea9c1d1ebba1",
+    "parents": "184bc60b8f6938749f2fae37fad70caacf84234d",
+    "subject": "Normative: allow non-BMP characters in capture group names"
+   }
+  ],
+  "title": "Normative: allow non-BMP characters in capture group names",
+  "updated_at": "2020-04-02T15:49:19Z"
+ },
+ {
+  "base": "184bc60b8f6938749f2fae37fad70caacf84234d",
+  "created_at": "2020-04-02T15:42:56Z",
+  "head": "cb7eb6dd3f04ade00c395148a208dc4a561959d8",
+  "login": "tc39",
+  "number": 1931,
+  "ref": "is-valid-regexp",
+  "revs": [
+   {
+    "adate": "2020-04-02T08:33:35-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-04-02T08:40:56-07:00",
+    "hash": "cb7eb6dd3f04ade00c395148a208dc4a561959d8",
+    "parents": "184bc60b8f6938749f2fae37fad70caacf84234d",
+    "subject": "Editorial: use correct source text for IsValidRegularExpressionLiteral"
+   }
+  ],
+  "title": "Editorial: use correct source text for IsValidRegularExpressionLiteral",
+  "updated_at": "2020-04-02T15:42:56Z"
+ },
+ {
+  "base": "184bc60b8f6938749f2fae37fad70caacf84234d",
   "created_at": "2020-04-02T04:36:32Z",
   "head": "7375121c562594519a0801354dd9afc45ab09133",
   "login": "jmdyck",
