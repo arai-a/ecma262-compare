@@ -1,5 +1,25 @@
 [
  {
+  "base": "d0583d8f72787cd9130c571bdffeeeb07d2b8193",
+  "created_at": "2020-04-07T09:28:10Z",
+  "head": "84a969901cda37c544c2900191a203ea5f5b06c0",
+  "login": "mathiasbynens",
+  "number": 1939,
+  "ref": "add-aliases",
+  "revs": [
+   {
+    "adate": "2020-04-07T11:26:32+02:00",
+    "author": "Mathias Bynens",
+    "date": "2020-04-07T11:26:32+02:00",
+    "hash": "84a969901cda37c544c2900191a203ea5f5b06c0",
+    "parents": "d0583d8f72787cd9130c571bdffeeeb07d2b8193",
+    "subject": "Normative: Update RegExp property aliases per Unicode v13"
+   }
+  ],
+  "title": "Normative: Update RegExp property aliases per Unicode v13",
+  "updated_at": "2020-04-07T09:28:10Z"
+ },
+ {
   "base": "980e1ccf1d37a3c890dc5fe5a36275710459c122",
   "created_at": "2020-04-06T21:39:28Z",
   "head": "d8381042c4ca3deff8c8e03190ae2fa75a67e659",
