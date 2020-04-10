@@ -264,42 +264,6 @@
   "updated_at": "2020-03-25T11:00:54Z"
  },
  {
-  "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
-  "created_at": "2020-03-24T06:47:21Z",
-  "head": "8f7305c5d84866cc81981e47ba19238fa036fbde",
-  "login": "tc39",
-  "number": 1914,
-  "ref": "consistent-headers",
-  "revs": [
-   {
-    "adate": "2020-03-27T13:35:30-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2020-03-27T13:47:42-07:00",
-    "hash": "8f7305c5d84866cc81981e47ba19238fa036fbde",
-    "parents": "59837a92c22ba80a068bfddbc499b0d86b6162ef",
-    "subject": "add \"when called\""
-   },
-   {
-    "adate": "2020-03-24T14:33:23-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2020-03-27T13:46:17-07:00",
-    "hash": "59837a92c22ba80a068bfddbc499b0d86b6162ef",
-    "parents": "159eb38a18053e3910d38f10a29d19f94c42f034",
-    "subject": "add preambles even when they contain no additional information"
-   },
-   {
-    "adate": "2020-03-23T22:12:04-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2020-03-27T13:33:25-07:00",
-    "hash": "159eb38a18053e3910d38f10a29d19f94c42f034",
-    "parents": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
-    "subject": "consistent headers"
-   }
-  ],
-  "title": "Editorial: use consistent wording for abstract operation preambles",
-  "updated_at": "2020-03-27T20:47:55Z"
- },
- {
   "base": "bbe73d1c1387b4c86e82750c8129a791deb6f9bd",
   "created_at": "2020-03-22T23:52:05Z",
   "head": "54602e3a98f5ee53fa22697d5349f884f0e1eb8f",
@@ -592,40 +556,48 @@
   "updated_at": "2020-03-19T22:36:30Z"
  },
  {
-  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
+  "base": "a3a9551b5244a5d82aba32fb469a73b32564e7e3",
   "created_at": "2020-01-31T22:54:28Z",
-  "head": "36f1f910098a9e39b2cdb9bcd03ec1b0e60fc7af",
+  "head": "2a34bc5f0c64cbb3a3914d9d766afb11863d8e6c",
   "login": "rkirsling",
   "number": 1860,
   "ref": "builtin-backticks",
   "revs": [
    {
+    "adate": "2020-04-09T16:32:45-07:00",
+    "author": "Ross Kirsling",
+    "date": "2020-04-09T16:32:45-07:00",
+    "hash": "2a34bc5f0c64cbb3a3914d9d766afb11863d8e6c",
+    "parents": "424b5192c8cc5f70a5fb662decaea7c05c5f5136",
+    "subject": "Update PR following rebase."
+   },
+   {
     "adate": "2020-01-31T23:28:07-08:00",
     "author": "Ross Kirsling",
-    "date": "2020-01-31T23:28:07-08:00",
-    "hash": "36f1f910098a9e39b2cdb9bcd03ec1b0e60fc7af",
-    "parents": "2b83a58bc98a7e4621c5e00a3b97a8807d6f9c14",
+    "date": "2020-04-09T16:18:18-07:00",
+    "hash": "424b5192c8cc5f70a5fb662decaea7c05c5f5136",
+    "parents": "f7afea5b670ed7f8878a1bd4c4e981420934a31d",
     "subject": "Remove remaining backticks for \"<built-in> constructor\"."
    },
    {
     "adate": "2020-01-31T14:21:23-08:00",
     "author": "Ross Kirsling",
-    "date": "2020-01-31T14:51:36-08:00",
-    "hash": "2b83a58bc98a7e4621c5e00a3b97a8807d6f9c14",
-    "parents": "42712d235b35d7e6bd4d56ef5de24cafc7001787",
+    "date": "2020-04-09T16:17:48-07:00",
+    "hash": "f7afea5b670ed7f8878a1bd4c4e981420934a31d",
+    "parents": "4e0bd387045be5404f110d1c46d46c01e2132613",
     "subject": "Add missing backticks for a few functions."
    },
    {
     "adate": "2020-01-31T14:19:23-08:00",
     "author": "Ross Kirsling",
-    "date": "2020-01-31T14:51:24-08:00",
-    "hash": "42712d235b35d7e6bd4d56ef5de24cafc7001787",
-    "parents": "e5c0f84610df095de6256e6cf083f4a901e67fde",
+    "date": "2020-04-09T16:17:48-07:00",
+    "hash": "4e0bd387045be5404f110d1c46d46c01e2132613",
+    "parents": "a3a9551b5244a5d82aba32fb469a73b32564e7e3",
     "subject": "Remove backticks around built-in names where appropriate."
    }
   ],
   "title": "Editorial: Improve consistency of backtick use for built-ins.",
-  "updated_at": "2020-02-28T04:15:58Z"
+  "updated_at": "2020-04-09T23:33:06Z"
  },
  {
   "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
