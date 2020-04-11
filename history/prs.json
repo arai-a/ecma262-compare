@@ -88,66 +88,6 @@
   "updated_at": "2020-04-03T17:44:39Z"
  },
  {
-  "base": "980e1ccf1d37a3c890dc5fe5a36275710459c122",
-  "created_at": "2020-04-02T19:47:40Z",
-  "head": "7ed7bd0f3ed309ce8817b8c27d826986528ae58a",
-  "login": "jmdyck",
-  "number": 1935,
-  "ref": "editorial",
-  "revs": [
-   {
-    "adate": "2020-04-02T15:25:35-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-04-02T16:29:01-04:00",
-    "hash": "7ed7bd0f3ed309ce8817b8c27d826986528ae58a",
-    "parents": "8cc087fb252984310e1ceb255eae9e78d3d1d831",
-    "subject": "Editorial: Change `_P_` to `_pText_` in tail of alg step"
-   },
-   {
-    "adate": "2020-04-02T15:00:35-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-04-02T16:29:01-04:00",
-    "hash": "8cc087fb252984310e1ceb255eae9e78d3d1d831",
-    "parents": "8963d7cb1f24521c2c6f896214b0afe3087c545b",
-    "subject": "Editorial: Reference new productions from Annex A"
-   },
-   {
-    "adate": "2020-04-02T14:59:59-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-04-02T16:29:01-04:00",
-    "hash": "8963d7cb1f24521c2c6f896214b0afe3087c545b",
-    "parents": "00f007d6e58d0a49a77042ff247c72c963422767",
-    "subject": "Editorial: Delete extraneous space in early error rule"
-   },
-   {
-    "adate": "2020-04-02T14:58:50-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-04-02T16:29:01-04:00",
-    "hash": "00f007d6e58d0a49a77042ff247c72c963422767",
-    "parents": "214117b70221faba3bad4c783907ffbd1fd4f62e",
-    "subject": "Editorial: surround nonterminals with pipes"
-   },
-   {
-    "adate": "2020-04-02T14:57:27-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-04-02T16:29:01-04:00",
-    "hash": "214117b70221faba3bad4c783907ffbd1fd4f62e",
-    "parents": "061e1ec289185f8120d18cbea4c5337042e52bdb",
-    "subject": "Editorial: Insert '&gt;' before \"any Unicode code point\" prose"
-   },
-   {
-    "adate": "2020-04-02T14:52:43-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-04-02T16:29:01-04:00",
-    "hash": "061e1ec289185f8120d18cbea4c5337042e52bdb",
-    "parents": "1b7ca8d5c87f2655acf976ae72efcbf75f48ca15",
-    "subject": "Editorial: change '?U' to '+U' for RegExpUnicodeEscapeSequence"
-   }
-  ],
-  "title": "Editorial: quick fixes for recent merges",
-  "updated_at": "2020-04-02T21:30:02Z"
- },
- {
   "base": "dac6b8cc8e62073bebe52cfb72cd4ee028c215c6",
   "created_at": "2020-04-02T16:59:59Z",
   "head": "afcfd86df39039ab7b2cccce004cd58b7f6e037b",
@@ -2756,58 +2696,6 @@
   "updated_at": "2020-02-28T04:16:18Z"
  },
  {
-  "base": "2b8561cffb67b8cd669dd26980c07fe7648495a6",
-  "created_at": "2019-03-21T20:42:11Z",
-  "head": "947915575df2a6f4b04fb3b7c37fdef61d1a57bf",
-  "login": "anba",
-  "number": 1490,
-  "ref": "anon-empty-name",
-  "revs": [
-   {
-    "adate": "2020-03-18T11:07:31-07:00",
-    "author": "Andr\u00e9 Bargull",
-    "date": "2020-03-18T11:07:31-07:00",
-    "hash": "947915575df2a6f4b04fb3b7c37fdef61d1a57bf",
-    "parents": "2367ce36bfc2e1ef058aef763f8c53b7d258a50a",
-    "subject": "Change Evaluation to forward to NamedEvaluation for anonymous functions"
-   },
-   {
-    "adate": "2020-03-16T03:50:34-07:00",
-    "author": "Andr\u00e9 Bargull",
-    "date": "2020-03-16T03:54:17-07:00",
-    "hash": "2367ce36bfc2e1ef058aef763f8c53b7d258a50a",
-    "parents": "30587a7bae3d903c698f880fc3abe1216203deb1",
-    "subject": "Respecify 'anonymous function' to mean the 'name' property is the empty string instead of being absent"
-   },
-   {
-    "adate": "2020-03-16T03:50:34-07:00",
-    "author": "Andr\u00e9 Bargull",
-    "date": "2020-03-16T03:54:16-07:00",
-    "hash": "30587a7bae3d903c698f880fc3abe1216203deb1",
-    "parents": "96f4b0612b6970a0eec8a03865cebc8e548a48c2",
-    "subject": "Create 'name' property before the 'prototype' property"
-   },
-   {
-    "adate": "2020-03-16T03:50:33-07:00",
-    "author": "Andr\u00e9 Bargull",
-    "date": "2020-03-16T03:50:33-07:00",
-    "hash": "96f4b0612b6970a0eec8a03865cebc8e548a48c2",
-    "parents": "6f09a5186495cfda3e545b48228b5a306bbf969b",
-    "subject": "Set 'name' property for anonymous functions to the empty string"
-   },
-   {
-    "adate": "2020-03-16T03:50:32-07:00",
-    "author": "Andr\u00e9 Bargull",
-    "date": "2020-03-16T03:50:32-07:00",
-    "hash": "6f09a5186495cfda3e545b48228b5a306bbf969b",
-    "parents": "2b8561cffb67b8cd669dd26980c07fe7648495a6",
-    "subject": "Changed NamedEvaluation to no longer forward to normal Evaluation"
-   }
-  ],
-  "title": "Set \"name\" property for anonymous functions",
-  "updated_at": "2020-03-19T23:07:00Z"
- },
- {
   "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2019-03-01T17:43:31Z",
   "head": "343b55373369a219086fd1fe1cead3dfc1122500",
@@ -3580,9 +3468,9 @@
   "updated_at": "2020-02-28T04:16:28Z"
  },
  {
-  "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
+  "base": "c21b280a2c46e92decf3efeca9e9da35d5b9f622",
   "created_at": "2016-04-16T18:28:04Z",
-  "head": "cfdaab72ccc39b6e2882771fb4455585c229b71e",
+  "head": "c64e31179c4892f13006aa6b11ffb7e4beccdb58",
   "login": "jmdyck",
   "number": 545,
   "ref": "operation_headers",
@@ -3590,14 +3478,14 @@
    {
     "adate": "2016-04-16T14:19:39-04:00",
     "author": "Michael Dyck",
-    "date": "2020-03-27T15:15:12-04:00",
-    "hash": "cfdaab72ccc39b6e2882771fb4455585c229b71e",
-    "parents": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
+    "date": "2020-04-11T17:04:42-04:00",
+    "hash": "c64e31179c4892f13006aa6b11ffb7e4beccdb58",
+    "parents": "c21b280a2c46e92decf3efeca9e9da35d5b9f622",
     "subject": "Introduce operation-headers"
    }
   ],
   "title": "Replace each abstract op's preamble with a structured 'header'.",
-  "updated_at": "2020-03-27T19:15:43Z"
+  "updated_at": "2020-04-11T21:05:12Z"
  },
  {
   "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
