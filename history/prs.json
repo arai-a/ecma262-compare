@@ -1,6 +1,26 @@
 [
  {
   "base": "c21b280a2c46e92decf3efeca9e9da35d5b9f622",
+  "created_at": "2020-04-13T19:29:20Z",
+  "head": "712e7405b09ea7c09fbbcc3adacd8914f8002dd3",
+  "login": "shvaikalesh",
+  "number": 1944,
+  "ref": "create-dynamic-function-note",
+  "revs": [
+   {
+    "adate": "2020-04-13T20:42:04+03:00",
+    "author": "Alexey Shvayka",
+    "date": "2020-04-13T22:28:22+03:00",
+    "hash": "712e7405b09ea7c09fbbcc3adacd8914f8002dd3",
+    "parents": "c21b280a2c46e92decf3efeca9e9da35d5b9f622",
+    "subject": "Editorial: Clarify notes on async functions in CreateDynamicFunction"
+   }
+  ],
+  "title": "Editorial: Clarify notes on async functions in CreateDynamicFunction",
+  "updated_at": "2020-04-13T19:29:20Z"
+ },
+ {
+  "base": "c21b280a2c46e92decf3efeca9e9da35d5b9f622",
   "created_at": "2020-04-12T19:43:55Z",
   "head": "60f1b64e3e56caa91a580a88ff8a4d63befc1114",
   "login": "tc39",
@@ -1769,26 +1789,6 @@
    }
   ],
   "title": "Editorial: Added more missing cases for ExpectedArgumentCount for FormalParameters and FormalParameterList",
-  "updated_at": "2020-02-28T04:16:08Z"
- },
- {
-  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
-  "created_at": "2019-08-09T03:03:32Z",
-  "head": "1d2e43da9d6ef7ebd7256281fe43d0eeb5da3a91",
-  "login": "jhnaldo",
-  "number": 1661,
-  "ref": "pr2",
-  "revs": [
-   {
-    "adate": "2019-08-09T11:51:49+09:00",
-    "author": "jhnaldo",
-    "date": "2019-08-09T11:51:49+09:00",
-    "hash": "1d2e43da9d6ef7ebd7256281fe43d0eeb5da3a91",
-    "parents": "8f0f69279b5f9e12ebe8f7052322b93d17e36b54",
-    "subject": "Editorial: Resolved ambiguous VarScopedDeclarations for IterationStatement"
-   }
-  ],
-  "title": "Editorial: Resolved ambiguous VarScopedDeclarations for IterationStatement",
   "updated_at": "2020-02-28T04:16:08Z"
  },
  {
