@@ -426,11 +426,19 @@
  {
   "base": "c21b280a2c46e92decf3efeca9e9da35d5b9f622",
   "created_at": "2020-02-05T17:02:01Z",
-  "head": "ecc90c4cd1a46d16da6b8e9aa2e4104f380c55da",
+  "head": "dc32b6bd6aa3ef6990704730d3843dce7897306c",
   "login": "jmdyck",
   "number": 1866,
   "ref": "ParsePattern",
   "revs": [
+   {
+    "adate": "2020-04-12T23:56:09-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-04-12T23:56:09-04:00",
+    "hash": "dc32b6bd6aa3ef6990704730d3843dce7897306c",
+    "parents": "ecc90c4cd1a46d16da6b8e9aa2e4104f380c55da",
+    "subject": "IVREL: Make the final test a bit cleaner"
+   },
    {
     "adate": "2020-04-12T15:52:15-04:00",
     "author": "Michael Dyck",
@@ -529,7 +537,7 @@
    }
   ],
   "title": " Editorial: Extract operation 'ParsePattern'",
-  "updated_at": "2020-04-12T22:08:33Z"
+  "updated_at": "2020-04-13T03:57:19Z"
  },
  {
   "base": "a3a9551b5244a5d82aba32fb469a73b32564e7e3",
