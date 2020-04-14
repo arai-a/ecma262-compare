@@ -1,5 +1,25 @@
 [
  {
+  "base": "46a8869f4105029cd8b1fcdef22cef3011d3e8a1",
+  "created_at": "2020-04-14T16:16:28Z",
+  "head": "ddd0082fcd61c2d23eae9107450601a39879d3d2",
+  "login": "devsnek",
+  "number": 1948,
+  "ref": "fix-func-tostring",
+  "revs": [
+   {
+    "adate": "2020-04-14T11:15:51-05:00",
+    "author": "Gus Caplan",
+    "date": "2020-04-14T11:15:51-05:00",
+    "hash": "ddd0082fcd61c2d23eae9107450601a39879d3d2",
+    "parents": "46a8869f4105029cd8b1fcdef22cef3011d3e8a1",
+    "subject": "Normative: fix Function toString on builtins"
+   }
+  ],
+  "title": "Normative: fix Function toString on builtins",
+  "updated_at": "2020-04-14T16:16:28Z"
+ },
+ {
   "base": "95bd54faee229e752dd2094a4a6b8c07b5e7c4e6",
   "created_at": "2020-04-14T00:58:37Z",
   "head": "a8fcc111cf48d7f0dfb22ec8d38d03c29f45def4",
@@ -58,26 +78,6 @@
   ],
   "title": "Editorial: Clarify notes on async functions in CreateDynamicFunction",
   "updated_at": "2020-04-13T19:29:20Z"
- },
- {
-  "base": "c21b280a2c46e92decf3efeca9e9da35d5b9f622",
-  "created_at": "2020-04-12T19:43:55Z",
-  "head": "60f1b64e3e56caa91a580a88ff8a4d63befc1114",
-  "login": "tc39",
-  "number": 1943,
-  "ref": "fix-b.3.3.6",
-  "revs": [
-   {
-    "adate": "2020-04-12T12:40:36-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2020-04-12T12:40:36-07:00",
-    "hash": "60f1b64e3e56caa91a580a88ff8a4d63befc1114",
-    "parents": "c21b280a2c46e92decf3efeca9e9da35d5b9f622",
-    "subject": "Editorial: use correct check in B.3.3.6"
-   }
-  ],
-  "title": "Editorial: use correct check in B.3.3.6",
-  "updated_at": "2020-04-12T19:49:25Z"
  },
  {
   "base": "d0583d8f72787cd9130c571bdffeeeb07d2b8193",
