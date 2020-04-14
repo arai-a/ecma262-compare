@@ -1,5 +1,25 @@
 [
  {
+  "base": "95bd54faee229e752dd2094a4a6b8c07b5e7c4e6",
+  "created_at": "2020-04-14T00:58:37Z",
+  "head": "a8fcc111cf48d7f0dfb22ec8d38d03c29f45def4",
+  "login": "rkirsling",
+  "number": 1946,
+  "ref": "align-25.{2,3,7}.1",
+  "revs": [
+   {
+    "adate": "2020-04-13T17:50:48-07:00",
+    "author": "Ross Kirsling",
+    "date": "2020-04-13T17:50:48-07:00",
+    "hash": "a8fcc111cf48d7f0dfb22ec8d38d03c29f45def4",
+    "parents": "95bd54faee229e752dd2094a4a6b8c07b5e7c4e6",
+    "subject": "Editorial: Align wording of \"The *Function Constructor\" sections\""
+   }
+  ],
+  "title": "Editorial: Align wording of The *Function Constructor sections",
+  "updated_at": "2020-04-14T00:59:42Z"
+ },
+ {
   "base": "c21b280a2c46e92decf3efeca9e9da35d5b9f622",
   "created_at": "2020-04-13T20:45:37Z",
   "head": "0cb5b4d253747e343e0556c9ebf008d83081dbd8",
@@ -578,50 +598,6 @@
   ],
   "title": " Editorial: Extract operation 'ParsePattern'",
   "updated_at": "2020-04-13T03:57:19Z"
- },
- {
-  "base": "a3a9551b5244a5d82aba32fb469a73b32564e7e3",
-  "created_at": "2020-01-31T22:54:28Z",
-  "head": "2a34bc5f0c64cbb3a3914d9d766afb11863d8e6c",
-  "login": "rkirsling",
-  "number": 1860,
-  "ref": "builtin-backticks",
-  "revs": [
-   {
-    "adate": "2020-04-09T16:32:45-07:00",
-    "author": "Ross Kirsling",
-    "date": "2020-04-09T16:32:45-07:00",
-    "hash": "2a34bc5f0c64cbb3a3914d9d766afb11863d8e6c",
-    "parents": "424b5192c8cc5f70a5fb662decaea7c05c5f5136",
-    "subject": "Update PR following rebase."
-   },
-   {
-    "adate": "2020-01-31T23:28:07-08:00",
-    "author": "Ross Kirsling",
-    "date": "2020-04-09T16:18:18-07:00",
-    "hash": "424b5192c8cc5f70a5fb662decaea7c05c5f5136",
-    "parents": "f7afea5b670ed7f8878a1bd4c4e981420934a31d",
-    "subject": "Remove remaining backticks for \"<built-in> constructor\"."
-   },
-   {
-    "adate": "2020-01-31T14:21:23-08:00",
-    "author": "Ross Kirsling",
-    "date": "2020-04-09T16:17:48-07:00",
-    "hash": "f7afea5b670ed7f8878a1bd4c4e981420934a31d",
-    "parents": "4e0bd387045be5404f110d1c46d46c01e2132613",
-    "subject": "Add missing backticks for a few functions."
-   },
-   {
-    "adate": "2020-01-31T14:19:23-08:00",
-    "author": "Ross Kirsling",
-    "date": "2020-04-09T16:17:48-07:00",
-    "hash": "4e0bd387045be5404f110d1c46d46c01e2132613",
-    "parents": "a3a9551b5244a5d82aba32fb469a73b32564e7e3",
-    "subject": "Remove backticks around built-in names where appropriate."
-   }
-  ],
-  "title": "Editorial: Improve consistency of backtick use for built-ins.",
-  "updated_at": "2020-04-09T23:33:06Z"
  },
  {
   "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
