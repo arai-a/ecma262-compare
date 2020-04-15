@@ -1,43 +1,23 @@
 [
  {
-  "base": "46a8869f4105029cd8b1fcdef22cef3011d3e8a1",
-  "created_at": "2020-04-14T18:27:17Z",
-  "head": "9352535810a21688dd58ae3536d9164a72804ef9",
-  "login": "devsnek",
-  "number": 1949,
-  "ref": "fix-indirect-eval-getthisenvironment",
-  "revs": [
-   {
-    "adate": "2020-04-14T13:25:51-05:00",
-    "author": "Gus Caplan",
-    "date": "2020-04-14T16:13:03-05:00",
-    "hash": "9352535810a21688dd58ae3536d9164a72804ef9",
-    "parents": "46a8869f4105029cd8b1fcdef22cef3011d3e8a1",
-    "subject": "Editorial: Fix indirect eval environment check"
-   }
-  ],
-  "title": "Editorial: Fix indirect eval environment check",
-  "updated_at": "2020-04-14T21:13:14Z"
- },
- {
-  "base": "46a8869f4105029cd8b1fcdef22cef3011d3e8a1",
+  "base": "cbe3b05777940a3b026b370e4b8d3220dc08e7cc",
   "created_at": "2020-04-14T16:16:28Z",
-  "head": "ddd0082fcd61c2d23eae9107450601a39879d3d2",
+  "head": "c7358d29280021cb49f397fe953831948a145f04",
   "login": "devsnek",
   "number": 1948,
   "ref": "fix-func-tostring",
   "revs": [
    {
-    "adate": "2020-04-14T11:15:51-05:00",
+    "adate": "2020-04-15T13:24:27-05:00",
     "author": "Gus Caplan",
-    "date": "2020-04-14T11:15:51-05:00",
-    "hash": "ddd0082fcd61c2d23eae9107450601a39879d3d2",
-    "parents": "46a8869f4105029cd8b1fcdef22cef3011d3e8a1",
+    "date": "2020-04-15T13:25:32-05:00",
+    "hash": "c7358d29280021cb49f397fe953831948a145f04",
+    "parents": "cbe3b05777940a3b026b370e4b8d3220dc08e7cc",
     "subject": "Normative: fix Function toString on builtins"
    }
   ],
   "title": "Normative: fix Function toString on builtins",
-  "updated_at": "2020-04-14T16:16:28Z"
+  "updated_at": "2020-04-15T18:25:37Z"
  },
  {
   "base": "95bd54faee229e752dd2094a4a6b8c07b5e7c4e6",
