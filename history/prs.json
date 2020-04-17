@@ -1040,9 +1040,9 @@
   "updated_at": "2020-02-28T04:16:04Z"
  },
  {
-  "base": "c21b280a2c46e92decf3efeca9e9da35d5b9f622",
+  "base": "cbe3b05777940a3b026b370e4b8d3220dc08e7cc",
   "created_at": "2019-09-16T20:16:16Z",
-  "head": "94b6a4f4452ffbf8d25a09327275867f2bc95ef4",
+  "head": "0361cf0144b71a187b1a2572e011919fb95041b1",
   "login": "jmdyck",
   "number": 1697,
   "ref": "eliminate-lex-env",
@@ -1050,54 +1050,54 @@
    {
     "adate": "2019-09-16T15:29:19-04:00",
     "author": "Michael Dyck",
-    "date": "2020-04-13T12:07:54-04:00",
-    "hash": "94b6a4f4452ffbf8d25a09327275867f2bc95ef4",
-    "parents": "cd571900b48cb3a22c77b1e2f2ec40c208ea059b",
+    "date": "2020-04-16T22:05:53-04:00",
+    "hash": "0361cf0144b71a187b1a2572e011919fb95041b1",
+    "parents": "87a7bca9a6cf65181b165ac059fa342260a1b711",
     "subject": "Specify a particular subtype of Environment Record"
    },
    {
     "adate": "2019-09-16T14:05:50-04:00",
     "author": "Michael Dyck",
-    "date": "2020-04-13T12:07:54-04:00",
-    "hash": "cd571900b48cb3a22c77b1e2f2ec40c208ea059b",
-    "parents": "9eceb9a372ef61c45d6376465a308b84b85c812a",
+    "date": "2020-04-16T22:05:53-04:00",
+    "hash": "87a7bca9a6cf65181b165ac059fa342260a1b711",
+    "parents": "7bd2b21c715898cfe8a78fd07664f495a8cca667",
     "subject": "Add <dfn> elements for subtypes of Environment Record"
    },
    {
     "adate": "2019-09-16T12:57:39-04:00",
     "author": "Michael Dyck",
-    "date": "2020-04-13T12:07:54-04:00",
-    "hash": "9eceb9a372ef61c45d6376465a308b84b85c812a",
-    "parents": "cfc3151abac205d15dc07483b78ecffd0cfbb252",
+    "date": "2020-04-16T22:05:53-04:00",
+    "hash": "7bd2b21c715898cfe8a78fd07664f495a8cca667",
+    "parents": "f47aa2606c02fc62c534ef28c200d36921258e53",
     "subject": "Reorg the intro for Environment Records and the former Lexical Environments"
    },
    {
     "adate": "2019-09-16T10:26:02-04:00",
     "author": "Michael Dyck",
-    "date": "2020-04-13T12:07:54-04:00",
-    "hash": "cfc3151abac205d15dc07483b78ecffd0cfbb252",
-    "parents": "904d942a17cd9e480c9d96d1845c29b703dfad6c",
+    "date": "2020-04-16T22:05:53-04:00",
+    "hash": "f47aa2606c02fc62c534ef28c200d36921258e53",
+    "parents": "14d8e61934565fe6a954024086e9f97d391e2c03",
     "subject": "Eliminate remaining mentions of Lexical Environment"
    },
    {
     "adate": "2019-09-16T10:08:07-04:00",
     "author": "Michael Dyck",
-    "date": "2020-04-13T11:50:25-04:00",
-    "hash": "904d942a17cd9e480c9d96d1845c29b703dfad6c",
-    "parents": "6f2da45d1009cf3110d297dc78920163e65f48be",
+    "date": "2020-04-16T22:05:53-04:00",
+    "hash": "14d8e61934565fe6a954024086e9f97d391e2c03",
+    "parents": "69abd7bafdb52cf09a4c2e011dda604554af1871",
     "subject": "Merge Lexical Environment into Environment Record in algorithms"
    },
    {
     "adate": "2019-09-15T20:14:44-04:00",
     "author": "Michael Dyck",
-    "date": "2020-04-13T11:46:09-04:00",
-    "hash": "6f2da45d1009cf3110d297dc78920163e65f48be",
-    "parents": "c21b280a2c46e92decf3efeca9e9da35d5b9f622",
+    "date": "2020-04-16T21:58:03-04:00",
+    "hash": "69abd7bafdb52cf09a4c2e011dda604554af1871",
+    "parents": "cbe3b05777940a3b026b370e4b8d3220dc08e7cc",
     "subject": "Replace \"outer environment reference\" with [[OuterEnv]]"
    }
   ],
   "title": "Editorial: Eliminate Lexical Environment",
-  "updated_at": "2020-04-13T16:40:39Z"
+  "updated_at": "2020-04-17T02:07:01Z"
  },
  {
   "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
@@ -3544,9 +3544,9 @@
   "updated_at": "2020-02-28T04:16:28Z"
  },
  {
-  "base": "c21b280a2c46e92decf3efeca9e9da35d5b9f622",
+  "base": "cbe3b05777940a3b026b370e4b8d3220dc08e7cc",
   "created_at": "2016-04-16T18:28:04Z",
-  "head": "c64e31179c4892f13006aa6b11ffb7e4beccdb58",
+  "head": "7004e1cde96a6f0e9c2ddfa03cab230a6fe37e17",
   "login": "jmdyck",
   "number": 545,
   "ref": "operation_headers",
@@ -3554,14 +3554,14 @@
    {
     "adate": "2016-04-16T14:19:39-04:00",
     "author": "Michael Dyck",
-    "date": "2020-04-11T17:04:42-04:00",
-    "hash": "c64e31179c4892f13006aa6b11ffb7e4beccdb58",
-    "parents": "c21b280a2c46e92decf3efeca9e9da35d5b9f622",
+    "date": "2020-04-16T22:12:10-04:00",
+    "hash": "7004e1cde96a6f0e9c2ddfa03cab230a6fe37e17",
+    "parents": "cbe3b05777940a3b026b370e4b8d3220dc08e7cc",
     "subject": "Introduce operation-headers"
    }
   ],
   "title": "Replace each abstract op's preamble with a structured 'header'.",
-  "updated_at": "2020-04-11T21:05:12Z"
+  "updated_at": "2020-04-17T02:12:39Z"
  },
  {
   "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
