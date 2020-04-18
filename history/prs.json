@@ -1,6 +1,34 @@
 [
  {
   "base": "cbe3b05777940a3b026b370e4b8d3220dc08e7cc",
+  "created_at": "2020-04-18T03:32:32Z",
+  "head": "6155722fb4c77ab8795d7e813c795dd619ecc7b0",
+  "login": "jmdyck",
+  "number": 1953,
+  "ref": "preambles",
+  "revs": [
+   {
+    "adate": "2020-04-17T23:22:43-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-04-17T23:23:41-04:00",
+    "hash": "6155722fb4c77ab8795d7e813c795dd619ecc7b0",
+    "parents": "2206edd0e1fc2e16fab4ef50928df43d5c9d67e8",
+    "subject": "Editorial: Convert the preambles of the SortCompare operations"
+   },
+   {
+    "adate": "2020-04-13T17:44:47-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-04-17T22:58:27-04:00",
+    "hash": "2206edd0e1fc2e16fab4ef50928df43d5c9d67e8",
+    "parents": "c21b280a2c46e92decf3efeca9e9da35d5b9f622",
+    "subject": "Editorial: Convert the preambles of some numeric methods"
+   }
+  ],
+  "title": "Editorial: Convert more abstract operation preambles",
+  "updated_at": "2020-04-18T03:51:20Z"
+ },
+ {
+  "base": "cbe3b05777940a3b026b370e4b8d3220dc08e7cc",
   "created_at": "2020-04-16T23:19:07Z",
   "head": "4054122af12604d154cb2b14efbeb5af35924c11",
   "login": "syg",
