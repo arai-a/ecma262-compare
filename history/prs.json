@@ -1,6 +1,46 @@
 [
  {
   "base": "cbe3b05777940a3b026b370e4b8d3220dc08e7cc",
+  "created_at": "2020-04-19T05:55:22Z",
+  "head": "3471f7090bf03123322c675e4e0c08e71d21aa8c",
+  "login": "jhnaldo",
+  "number": 1956,
+  "ref": "bug-in-numberbitwiseop",
+  "revs": [
+   {
+    "adate": "2020-04-19T13:16:31+09:00",
+    "author": "jhnaldo",
+    "date": "2020-04-19T13:16:31+09:00",
+    "hash": "3471f7090bf03123322c675e4e0c08e71d21aa8c",
+    "parents": "cbe3b05777940a3b026b370e4b8d3220dc08e7cc",
+    "subject": "Normative: Fixed bug in NumberBitwiseOp"
+   }
+  ],
+  "title": "Normative: Fixed bug in NumberBitwiseOp",
+  "updated_at": "2020-04-19T05:55:22Z"
+ },
+ {
+  "base": "cbe3b05777940a3b026b370e4b8d3220dc08e7cc",
+  "created_at": "2020-04-19T05:47:45Z",
+  "head": "35030f4e52af4e20d40a6477c1502b1ee5a3858f",
+  "login": "jhnaldo",
+  "number": 1955,
+  "ref": "bug-in-number-unsignedrightshift",
+  "revs": [
+   {
+    "adate": "2020-04-19T13:23:37+09:00",
+    "author": "jhnaldo",
+    "date": "2020-04-19T13:23:37+09:00",
+    "hash": "35030f4e52af4e20d40a6477c1502b1ee5a3858f",
+    "parents": "cbe3b05777940a3b026b370e4b8d3220dc08e7cc",
+    "subject": "Normative: Fixed bug in Number::unsignedRightShift"
+   }
+  ],
+  "title": "Normative: Fixed bug in Number::unsignedRightShift",
+  "updated_at": "2020-04-19T05:51:21Z"
+ },
+ {
+  "base": "cbe3b05777940a3b026b370e4b8d3220dc08e7cc",
   "created_at": "2020-04-19T04:30:00Z",
   "head": "549673f5d902a6098c29c258f82159d59dce4f82",
   "login": "jhnaldo",
