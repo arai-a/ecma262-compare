@@ -1,5 +1,25 @@
 [
  {
+  "base": "e328f367135f19f0ba52f268f96ec59694200feb",
+  "created_at": "2020-04-19T17:13:18Z",
+  "head": "3e5634941c1efd4a15e57de613eae9eadf327c03",
+  "login": "devsnek",
+  "number": 1958,
+  "ref": "fix-template-step",
+  "revs": [
+   {
+    "adate": "2020-04-19T12:11:39-05:00",
+    "author": "Gus Caplan",
+    "date": "2020-04-19T12:11:39-05:00",
+    "hash": "3e5634941c1efd4a15e57de613eae9eadf327c03",
+    "parents": "cbe3b05777940a3b026b370e4b8d3220dc08e7cc",
+    "subject": "Editorial: reorder step in GetTemplateObject"
+   }
+  ],
+  "title": "Editorial: reorder step in GetTemplateObject",
+  "updated_at": "2020-04-19T17:13:18Z"
+ },
+ {
   "base": "cbe3b05777940a3b026b370e4b8d3220dc08e7cc",
   "created_at": "2020-04-19T05:55:22Z",
   "head": "3471f7090bf03123322c675e4e0c08e71d21aa8c",
