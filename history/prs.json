@@ -1,6 +1,26 @@
 [
  {
   "base": "e328f367135f19f0ba52f268f96ec59694200feb",
+  "created_at": "2020-04-20T03:53:18Z",
+  "head": "444c69aad6807dca9b4e063602a4d7ffaa0d488b",
+  "login": "jhnaldo",
+  "number": 1959,
+  "ref": "array-set-length-range-error",
+  "revs": [
+   {
+    "adate": "2020-04-20T12:45:07+09:00",
+    "author": "jhnaldo",
+    "date": "2020-04-20T12:45:07+09:00",
+    "hash": "444c69aad6807dca9b4e063602a4d7ffaa0d488b",
+    "parents": "e328f367135f19f0ba52f268f96ec59694200feb",
+    "subject": "Editorial: Ambiguous notation `\u2260` in ArraySetLength"
+   }
+  ],
+  "title": "Editorial: Ambiguous notation `\u2260` in ArraySetLength",
+  "updated_at": "2020-04-20T03:53:18Z"
+ },
+ {
+  "base": "e328f367135f19f0ba52f268f96ec59694200feb",
   "created_at": "2020-04-19T17:13:18Z",
   "head": "3e5634941c1efd4a15e57de613eae9eadf327c03",
   "login": "devsnek",
