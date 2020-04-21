@@ -1,5 +1,41 @@
 [
  {
+  "base": "f3c2860a6a9c1355f090da067134569a8b6833ed",
+  "created_at": "2020-04-21T01:12:50Z",
+  "head": "5fd63d4c0fc3f2ef2a83dd888cf960e833c5ccf3",
+  "login": "jmdyck",
+  "number": 1961,
+  "ref": "compound_assignment",
+  "revs": [
+   {
+    "adate": "2020-04-20T20:28:16-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-04-20T20:36:45-04:00",
+    "hash": "5fd63d4c0fc3f2ef2a83dd888cf960e833c5ccf3",
+    "parents": "f28984e9400c935b68ae003ee71e7bc497c9708f",
+    "subject": "Editorial: Factor out EvaluateNumericBinaryExpression"
+   },
+   {
+    "adate": "2020-04-20T18:57:08-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-04-20T20:36:45-04:00",
+    "hash": "f28984e9400c935b68ae003ee71e7bc497c9708f",
+    "parents": "622a27ab316152143a86369d038e3bd9e79b666d",
+    "subject": "Editorial: Eliminate the `A : A @ B` pseudo-production"
+   },
+   {
+    "adate": "2020-04-20T18:43:42-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-04-20T20:36:45-04:00",
+    "hash": "622a27ab316152143a86369d038e3bd9e79b666d",
+    "parents": "e328f367135f19f0ba52f268f96ec59694200feb",
+    "subject": "Editorial: Factor out ApplyNumericBinaryOperator"
+   }
+  ],
+  "title": "Editorial: refactoring the evaluation semantics of compound assignment",
+  "updated_at": "2020-04-21T01:15:47Z"
+ },
+ {
   "base": "e328f367135f19f0ba52f268f96ec59694200feb",
   "created_at": "2020-04-20T03:53:18Z",
   "head": "444c69aad6807dca9b4e063602a4d7ffaa0d488b",
@@ -98,34 +134,6 @@
   ],
   "title": "Editorial: Fixed typos in variable name `oldvalue`",
   "updated_at": "2020-04-19T04:30:01Z"
- },
- {
-  "base": "cbe3b05777940a3b026b370e4b8d3220dc08e7cc",
-  "created_at": "2020-04-18T03:32:32Z",
-  "head": "6155722fb4c77ab8795d7e813c795dd619ecc7b0",
-  "login": "jmdyck",
-  "number": 1953,
-  "ref": "preambles",
-  "revs": [
-   {
-    "adate": "2020-04-17T23:22:43-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-04-17T23:23:41-04:00",
-    "hash": "6155722fb4c77ab8795d7e813c795dd619ecc7b0",
-    "parents": "2206edd0e1fc2e16fab4ef50928df43d5c9d67e8",
-    "subject": "Editorial: Convert the preambles of the SortCompare operations"
-   },
-   {
-    "adate": "2020-04-13T17:44:47-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-04-17T22:58:27-04:00",
-    "hash": "2206edd0e1fc2e16fab4ef50928df43d5c9d67e8",
-    "parents": "c21b280a2c46e92decf3efeca9e9da35d5b9f622",
-    "subject": "Editorial: Convert the preambles of some numeric methods"
-   }
-  ],
-  "title": "Editorial: Convert more abstract operation preambles",
-  "updated_at": "2020-04-18T03:51:20Z"
  },
  {
   "base": "cbe3b05777940a3b026b370e4b8d3220dc08e7cc",
