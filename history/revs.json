@@ -1,5 +1,21 @@
 [
  {
+  "adate": "2020-04-19T13:16:31+09:00",
+  "author": "jhnaldo",
+  "date": "2020-04-22T14:56:00-07:00",
+  "hash": "c6fc82359a808d84fc8696669018dba82089b08d",
+  "parents": "16387ec787ad6be47dbe45245143e4b38ac55672",
+  "subject": "Normative: Fixed bug in NumberBitwiseOp (#1956)"
+ },
+ {
+  "adate": "2020-04-19T13:23:37+09:00",
+  "author": "jhnaldo",
+  "date": "2020-04-22T14:52:09-07:00",
+  "hash": "16387ec787ad6be47dbe45245143e4b38ac55672",
+  "parents": "0f694ba85ed5b04eea908bd1e35d0fa32250e327",
+  "subject": "Normative: Fixed bug in Number::unsignedRightShift (#1955)"
+ },
+ {
   "adate": "2020-04-13T17:50:48-07:00",
   "author": "Ross Kirsling",
   "date": "2020-04-22T14:30:53-07:00",
