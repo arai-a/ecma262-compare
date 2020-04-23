@@ -140,9 +140,9 @@
   "updated_at": "2020-04-22T14:05:42Z"
  },
  {
-  "base": "f3c2860a6a9c1355f090da067134569a8b6833ed",
+  "base": "28c3b0423566af092e9bb1f848b7320a237d4d69",
   "created_at": "2020-04-21T01:12:50Z",
-  "head": "5fd63d4c0fc3f2ef2a83dd888cf960e833c5ccf3",
+  "head": "2852d424ff3a87f6cf03ad960f39cdd9581488e6",
   "login": "jmdyck",
   "number": 1961,
   "ref": "compound_assignment",
@@ -150,30 +150,46 @@
    {
     "adate": "2020-04-20T20:28:16-04:00",
     "author": "Michael Dyck",
-    "date": "2020-04-20T20:36:45-04:00",
-    "hash": "5fd63d4c0fc3f2ef2a83dd888cf960e833c5ccf3",
-    "parents": "f28984e9400c935b68ae003ee71e7bc497c9708f",
+    "date": "2020-04-23T16:57:35-04:00",
+    "hash": "2852d424ff3a87f6cf03ad960f39cdd9581488e6",
+    "parents": "2a467adbfbc74c07e08e59f26c3fd5fd0dbfb178",
     "subject": "Editorial: Factor out EvaluateNumericBinaryExpression"
    },
    {
     "adate": "2020-04-20T18:57:08-04:00",
     "author": "Michael Dyck",
-    "date": "2020-04-20T20:36:45-04:00",
-    "hash": "f28984e9400c935b68ae003ee71e7bc497c9708f",
-    "parents": "622a27ab316152143a86369d038e3bd9e79b666d",
+    "date": "2020-04-23T16:57:35-04:00",
+    "hash": "2a467adbfbc74c07e08e59f26c3fd5fd0dbfb178",
+    "parents": "3457478cf55f5b0a540e638bc15d334ee71d9956",
     "subject": "Editorial: Eliminate the `A : A @ B` pseudo-production"
+   },
+   {
+    "adate": "2020-04-23T16:56:29-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-04-23T16:57:35-04:00",
+    "hash": "3457478cf55f5b0a540e638bc15d334ee71d9956",
+    "parents": "ff64832bce460ca2aa0cbea8ef0047774a96b670",
+    "subject": "possible fixup: use lookup table in ApplyNumericBinaryOperator"
+   },
+   {
+    "adate": "2020-04-23T16:35:04-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-04-23T16:37:53-04:00",
+    "hash": "ff64832bce460ca2aa0cbea8ef0047774a96b670",
+    "parents": "fc7c91ec9e9c207b796b025728a28edc0af9040a",
+    "subject": "possible fixup: replace text-manipulation with lookup table"
    },
    {
     "adate": "2020-04-20T18:43:42-04:00",
     "author": "Michael Dyck",
-    "date": "2020-04-20T20:36:45-04:00",
-    "hash": "622a27ab316152143a86369d038e3bd9e79b666d",
-    "parents": "e328f367135f19f0ba52f268f96ec59694200feb",
+    "date": "2020-04-23T16:11:20-04:00",
+    "hash": "fc7c91ec9e9c207b796b025728a28edc0af9040a",
+    "parents": "28c3b0423566af092e9bb1f848b7320a237d4d69",
     "subject": "Editorial: Factor out ApplyNumericBinaryOperator"
    }
   ],
   "title": "Editorial: refactoring the evaluation semantics of compound assignment",
-  "updated_at": "2020-04-21T01:15:47Z"
+  "updated_at": "2020-04-23T21:00:35Z"
  },
  {
   "base": "cbe3b05777940a3b026b370e4b8d3220dc08e7cc",
