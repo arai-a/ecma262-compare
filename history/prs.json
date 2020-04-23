@@ -1116,64 +1116,72 @@
   "updated_at": "2020-02-28T04:16:04Z"
  },
  {
-  "base": "cbe3b05777940a3b026b370e4b8d3220dc08e7cc",
+  "base": "28c3b0423566af092e9bb1f848b7320a237d4d69",
   "created_at": "2019-09-16T20:16:16Z",
-  "head": "0361cf0144b71a187b1a2572e011919fb95041b1",
+  "head": "bdd37712e268b9c62d335092733b6f20e3a31f89",
   "login": "jmdyck",
   "number": 1697,
   "ref": "eliminate-lex-env",
   "revs": [
    {
+    "adate": "2020-04-23T15:03:51-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-04-23T15:43:19-04:00",
+    "hash": "bdd37712e268b9c62d335092733b6f20e3a31f89",
+    "parents": "5b0e8060eb9c1447022a555af8a3d2bd02d7e1ed",
+    "subject": "Rename _lex_ to _env_ and _thisLex_ to _thisEnv_"
+   },
+   {
     "adate": "2019-09-16T15:29:19-04:00",
     "author": "Michael Dyck",
-    "date": "2020-04-16T22:05:53-04:00",
-    "hash": "0361cf0144b71a187b1a2572e011919fb95041b1",
-    "parents": "87a7bca9a6cf65181b165ac059fa342260a1b711",
+    "date": "2020-04-23T15:43:19-04:00",
+    "hash": "5b0e8060eb9c1447022a555af8a3d2bd02d7e1ed",
+    "parents": "9a08ccc5d04749d03e3f0a8ba25e9b0be2c6acf6",
     "subject": "Specify a particular subtype of Environment Record"
    },
    {
     "adate": "2019-09-16T14:05:50-04:00",
     "author": "Michael Dyck",
-    "date": "2020-04-16T22:05:53-04:00",
-    "hash": "87a7bca9a6cf65181b165ac059fa342260a1b711",
-    "parents": "7bd2b21c715898cfe8a78fd07664f495a8cca667",
+    "date": "2020-04-23T14:41:26-04:00",
+    "hash": "9a08ccc5d04749d03e3f0a8ba25e9b0be2c6acf6",
+    "parents": "0ad427b68cd42e472f9d1609965e5dadc4e61546",
     "subject": "Add <dfn> elements for subtypes of Environment Record"
    },
    {
     "adate": "2019-09-16T12:57:39-04:00",
     "author": "Michael Dyck",
-    "date": "2020-04-16T22:05:53-04:00",
-    "hash": "7bd2b21c715898cfe8a78fd07664f495a8cca667",
-    "parents": "f47aa2606c02fc62c534ef28c200d36921258e53",
+    "date": "2020-04-23T14:41:26-04:00",
+    "hash": "0ad427b68cd42e472f9d1609965e5dadc4e61546",
+    "parents": "6aeb9f77cc86f007937199f9967d91a967054a94",
     "subject": "Reorg the intro for Environment Records and the former Lexical Environments"
    },
    {
     "adate": "2019-09-16T10:26:02-04:00",
     "author": "Michael Dyck",
-    "date": "2020-04-16T22:05:53-04:00",
-    "hash": "f47aa2606c02fc62c534ef28c200d36921258e53",
-    "parents": "14d8e61934565fe6a954024086e9f97d391e2c03",
+    "date": "2020-04-23T14:41:26-04:00",
+    "hash": "6aeb9f77cc86f007937199f9967d91a967054a94",
+    "parents": "7cae1a48be69f92e1638f4ab4ef26111331598fc",
     "subject": "Eliminate remaining mentions of Lexical Environment"
    },
    {
     "adate": "2019-09-16T10:08:07-04:00",
     "author": "Michael Dyck",
-    "date": "2020-04-16T22:05:53-04:00",
-    "hash": "14d8e61934565fe6a954024086e9f97d391e2c03",
-    "parents": "69abd7bafdb52cf09a4c2e011dda604554af1871",
+    "date": "2020-04-23T14:41:26-04:00",
+    "hash": "7cae1a48be69f92e1638f4ab4ef26111331598fc",
+    "parents": "2096c1084bbd07e9b4d77c3ecb11e40bfb84b41d",
     "subject": "Merge Lexical Environment into Environment Record in algorithms"
    },
    {
     "adate": "2019-09-15T20:14:44-04:00",
     "author": "Michael Dyck",
-    "date": "2020-04-16T21:58:03-04:00",
-    "hash": "69abd7bafdb52cf09a4c2e011dda604554af1871",
-    "parents": "cbe3b05777940a3b026b370e4b8d3220dc08e7cc",
+    "date": "2020-04-23T11:41:04-04:00",
+    "hash": "2096c1084bbd07e9b4d77c3ecb11e40bfb84b41d",
+    "parents": "28c3b0423566af092e9bb1f848b7320a237d4d69",
     "subject": "Replace \"outer environment reference\" with [[OuterEnv]]"
    }
   ],
   "title": "Editorial: Eliminate Lexical Environment",
-  "updated_at": "2020-04-17T02:07:01Z"
+  "updated_at": "2020-04-23T19:57:36Z"
  },
  {
   "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
