@@ -56,86 +56,6 @@
   "updated_at": "2020-04-21T01:15:47Z"
  },
  {
-  "base": "e328f367135f19f0ba52f268f96ec59694200feb",
-  "created_at": "2020-04-19T17:13:18Z",
-  "head": "3e5634941c1efd4a15e57de613eae9eadf327c03",
-  "login": "devsnek",
-  "number": 1958,
-  "ref": "fix-template-step",
-  "revs": [
-   {
-    "adate": "2020-04-19T12:11:39-05:00",
-    "author": "Gus Caplan",
-    "date": "2020-04-19T12:11:39-05:00",
-    "hash": "3e5634941c1efd4a15e57de613eae9eadf327c03",
-    "parents": "cbe3b05777940a3b026b370e4b8d3220dc08e7cc",
-    "subject": "Editorial: reorder step in GetTemplateObject"
-   }
-  ],
-  "title": "Editorial: reorder step in GetTemplateObject",
-  "updated_at": "2020-04-19T17:13:18Z"
- },
- {
-  "base": "cbe3b05777940a3b026b370e4b8d3220dc08e7cc",
-  "created_at": "2020-04-19T05:55:22Z",
-  "head": "3471f7090bf03123322c675e4e0c08e71d21aa8c",
-  "login": "jhnaldo",
-  "number": 1956,
-  "ref": "bug-in-numberbitwiseop",
-  "revs": [
-   {
-    "adate": "2020-04-19T13:16:31+09:00",
-    "author": "jhnaldo",
-    "date": "2020-04-19T13:16:31+09:00",
-    "hash": "3471f7090bf03123322c675e4e0c08e71d21aa8c",
-    "parents": "cbe3b05777940a3b026b370e4b8d3220dc08e7cc",
-    "subject": "Normative: Fixed bug in NumberBitwiseOp"
-   }
-  ],
-  "title": "Normative: Fixed bug in NumberBitwiseOp",
-  "updated_at": "2020-04-19T05:55:22Z"
- },
- {
-  "base": "cbe3b05777940a3b026b370e4b8d3220dc08e7cc",
-  "created_at": "2020-04-19T05:47:45Z",
-  "head": "35030f4e52af4e20d40a6477c1502b1ee5a3858f",
-  "login": "jhnaldo",
-  "number": 1955,
-  "ref": "bug-in-number-unsignedrightshift",
-  "revs": [
-   {
-    "adate": "2020-04-19T13:23:37+09:00",
-    "author": "jhnaldo",
-    "date": "2020-04-19T13:23:37+09:00",
-    "hash": "35030f4e52af4e20d40a6477c1502b1ee5a3858f",
-    "parents": "cbe3b05777940a3b026b370e4b8d3220dc08e7cc",
-    "subject": "Normative: Fixed bug in Number::unsignedRightShift"
-   }
-  ],
-  "title": "Normative: Fixed bug in Number::unsignedRightShift",
-  "updated_at": "2020-04-19T05:51:21Z"
- },
- {
-  "base": "cbe3b05777940a3b026b370e4b8d3220dc08e7cc",
-  "created_at": "2020-04-19T04:30:00Z",
-  "head": "549673f5d902a6098c29c258f82159d59dce4f82",
-  "login": "jhnaldo",
-  "number": 1954,
-  "ref": "oldvalue-typos",
-  "revs": [
-   {
-    "adate": "2020-04-19T12:43:12+09:00",
-    "author": "jhnaldo",
-    "date": "2020-04-19T12:43:12+09:00",
-    "hash": "549673f5d902a6098c29c258f82159d59dce4f82",
-    "parents": "cbe3b05777940a3b026b370e4b8d3220dc08e7cc",
-    "subject": "Editorial: Fixed typos in variable name `oldvalue`"
-   }
-  ],
-  "title": "Editorial: Fixed typos in variable name `oldvalue`",
-  "updated_at": "2020-04-19T04:30:01Z"
- },
- {
   "base": "cbe3b05777940a3b026b370e4b8d3220dc08e7cc",
   "created_at": "2020-04-16T23:19:07Z",
   "head": "4054122af12604d154cb2b14efbeb5af35924c11",
@@ -190,66 +110,6 @@
   ],
   "title": "Normative: fix Function toString on builtins",
   "updated_at": "2020-04-16T02:24:01Z"
- },
- {
-  "base": "95bd54faee229e752dd2094a4a6b8c07b5e7c4e6",
-  "created_at": "2020-04-14T00:58:37Z",
-  "head": "a8fcc111cf48d7f0dfb22ec8d38d03c29f45def4",
-  "login": "rkirsling",
-  "number": 1946,
-  "ref": "align-25.{2,3,7}.1",
-  "revs": [
-   {
-    "adate": "2020-04-13T17:50:48-07:00",
-    "author": "Ross Kirsling",
-    "date": "2020-04-13T17:50:48-07:00",
-    "hash": "a8fcc111cf48d7f0dfb22ec8d38d03c29f45def4",
-    "parents": "95bd54faee229e752dd2094a4a6b8c07b5e7c4e6",
-    "subject": "Editorial: Align wording of \"The *Function Constructor\" sections\""
-   }
-  ],
-  "title": "Editorial: Align wording of The *Function Constructor sections",
-  "updated_at": "2020-04-14T00:59:42Z"
- },
- {
-  "base": "c21b280a2c46e92decf3efeca9e9da35d5b9f622",
-  "created_at": "2020-04-13T20:45:37Z",
-  "head": "0cb5b4d253747e343e0556c9ebf008d83081dbd8",
-  "login": "ljharb",
-  "number": 1945,
-  "ref": "ibble",
-  "revs": [
-   {
-    "adate": "2020-04-13T13:43:53-07:00",
-    "author": "Jordan Harband",
-    "date": "2020-04-13T13:43:55-07:00",
-    "hash": "0cb5b4d253747e343e0556c9ebf008d83081dbd8",
-    "parents": "c21b280a2c46e92decf3efeca9e9da35d5b9f622",
-    "subject": "Editorial: s/constructable/constructible"
-   }
-  ],
-  "title": "Editorial: s/constructable/constructible",
-  "updated_at": "2020-04-13T20:52:33Z"
- },
- {
-  "base": "c21b280a2c46e92decf3efeca9e9da35d5b9f622",
-  "created_at": "2020-04-13T19:29:20Z",
-  "head": "712e7405b09ea7c09fbbcc3adacd8914f8002dd3",
-  "login": "shvaikalesh",
-  "number": 1944,
-  "ref": "create-dynamic-function-note",
-  "revs": [
-   {
-    "adate": "2020-04-13T20:42:04+03:00",
-    "author": "Alexey Shvayka",
-    "date": "2020-04-13T22:28:22+03:00",
-    "hash": "712e7405b09ea7c09fbbcc3adacd8914f8002dd3",
-    "parents": "c21b280a2c46e92decf3efeca9e9da35d5b9f622",
-    "subject": "Editorial: Clarify notes on async functions in CreateDynamicFunction"
-   }
-  ],
-  "title": "Editorial: Clarify notes on async functions in CreateDynamicFunction",
-  "updated_at": "2020-04-13T19:29:20Z"
  },
  {
   "base": "d0583d8f72787cd9130c571bdffeeeb07d2b8193",
@@ -3660,9 +3520,9 @@
   "updated_at": "2020-02-28T04:16:28Z"
  },
  {
-  "base": "e328f367135f19f0ba52f268f96ec59694200feb",
+  "base": "e07a0edf7be0e9e572c21488bd04f1514c240121",
   "created_at": "2016-04-16T18:28:04Z",
-  "head": "085a7c68bb8ec7693c4aad1909165c2d6af6c76d",
+  "head": "5c0d44af55fd40a363c3280bbb4be429fb4501f6",
   "login": "jmdyck",
   "number": 545,
   "ref": "operation_headers",
@@ -3670,14 +3530,14 @@
    {
     "adate": "2016-04-16T14:19:39-04:00",
     "author": "Michael Dyck",
-    "date": "2020-04-19T10:45:29-04:00",
-    "hash": "085a7c68bb8ec7693c4aad1909165c2d6af6c76d",
-    "parents": "e328f367135f19f0ba52f268f96ec59694200feb",
+    "date": "2020-04-22T19:51:04-04:00",
+    "hash": "5c0d44af55fd40a363c3280bbb4be429fb4501f6",
+    "parents": "e07a0edf7be0e9e572c21488bd04f1514c240121",
     "subject": "Introduce operation-headers"
    }
   ],
   "title": "Replace each abstract op's preamble with a structured 'header'.",
-  "updated_at": "2020-04-19T14:46:19Z"
+  "updated_at": "2020-04-22T23:51:40Z"
  },
  {
   "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
