@@ -2,11 +2,19 @@
  {
   "base": "0b988b7700de675331ac360d164c978d6ea452ec",
   "created_at": "2020-04-24T08:48:04Z",
-  "head": "f8a1efb0437a64978965c18782e4e678ac957f76",
+  "head": "bfaf8957a138ff7f90a1326374cc20dd0fe5bf2b",
   "login": "jhnaldo",
   "number": 1967,
   "ref": "global-prototype-restriction",
   "revs": [
+   {
+    "adate": "2020-04-24T19:55:37+09:00",
+    "author": "jhnaldo",
+    "date": "2020-04-24T19:55:37+09:00",
+    "hash": "bfaf8957a138ff7f90a1326374cc20dd0fe5bf2b",
+    "parents": "f8a1efb0437a64978965c18782e4e678ac957f76",
+    "subject": "Editorial: Revised the sentence"
+   },
    {
     "adate": "2020-04-24T17:35:51+09:00",
     "author": "jhnaldo",
@@ -17,7 +25,7 @@
    }
   ],
   "title": "Editorial: Restriction on [[Prototype]] of the global object",
-  "updated_at": "2020-04-24T08:48:04Z"
+  "updated_at": "2020-04-24T10:59:17Z"
  },
  {
   "base": "28c3b0423566af092e9bb1f848b7320a237d4d69",
