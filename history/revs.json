@@ -1,5 +1,45 @@
 [
  {
+  "adate": "2019-09-16T14:05:50-04:00",
+  "author": "Michael Dyck",
+  "date": "2020-04-23T16:34:30-07:00",
+  "hash": "ca9abf6e9df9204df5b4a3c13d3a370049cf527e",
+  "parents": "e98d1238900b2043f19c86ed781750609458b5f2",
+  "subject": "Editorial: Add <dfn> elements for subtypes of Environment Record (#1697)"
+ },
+ {
+  "adate": "2019-09-16T12:57:39-04:00",
+  "author": "Michael Dyck",
+  "date": "2020-04-23T16:34:30-07:00",
+  "hash": "e98d1238900b2043f19c86ed781750609458b5f2",
+  "parents": "6f70907e715e33c9d3d4cc623425d2cb90139ef0",
+  "subject": "Editorial: Reorg the intro for Environment Records and the former Lexical Environments (#1697)"
+ },
+ {
+  "adate": "2019-09-16T10:26:02-04:00",
+  "author": "Michael Dyck",
+  "date": "2020-04-23T16:34:30-07:00",
+  "hash": "6f70907e715e33c9d3d4cc623425d2cb90139ef0",
+  "parents": "88cc6abf01ed2edf0355a6a6b53f09fa12113695",
+  "subject": "Editorial: Eliminate remaining mentions of Lexical Environment (#1697)"
+ },
+ {
+  "adate": "2019-09-16T10:08:07-04:00",
+  "author": "Michael Dyck",
+  "date": "2020-04-23T16:34:29-07:00",
+  "hash": "88cc6abf01ed2edf0355a6a6b53f09fa12113695",
+  "parents": "13fc82f76fc274fc6c16d5cb57a1d7fa0d048657",
+  "subject": "Editorial: Merge Lexical Environment into Environment Record in algorithms (#1697)"
+ },
+ {
+  "adate": "2019-09-15T20:14:44-04:00",
+  "author": "Michael Dyck",
+  "date": "2020-04-23T16:34:29-07:00",
+  "hash": "13fc82f76fc274fc6c16d5cb57a1d7fa0d048657",
+  "parents": "28c3b0423566af092e9bb1f848b7320a237d4d69",
+  "subject": "Editorial: Replace \"outer environment reference\" with [[OuterEnv]] (#1697)"
+ },
+ {
   "adate": "2020-04-02T09:31:34-07:00",
   "author": "Michael Ficarra",
   "date": "2020-04-22T17:12:42-07:00",
