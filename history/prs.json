@@ -2,11 +2,19 @@
  {
   "base": "28c3b0423566af092e9bb1f848b7320a237d4d69",
   "created_at": "2020-04-23T12:44:14Z",
-  "head": "5f5321bac197ea7a9713f2571371acafd3aefbf6",
+  "head": "e0ea0718a78fd289a940941f3101e67c7f50ea8d",
   "login": "jhnaldo",
   "number": 1966,
   "ref": "unambiguous-if-statement-syntax",
   "revs": [
+   {
+    "adate": "2020-04-24T11:18:22+09:00",
+    "author": "jhnaldo",
+    "date": "2020-04-24T11:18:22+09:00",
+    "hash": "e0ea0718a78fd289a940941f3101e67c7f50ea8d",
+    "parents": "5f5321bac197ea7a9713f2571371acafd3aefbf6",
+    "subject": "Editorial: Forwarded [Else] parameter to more statements."
+   },
    {
     "adate": "2020-04-23T21:34:42+09:00",
     "author": "jhnaldo",
@@ -17,7 +25,7 @@
    }
   ],
   "title": "Editorial: Unambiguous grammar for IfStatement",
-  "updated_at": "2020-04-23T12:44:14Z"
+  "updated_at": "2020-04-24T02:20:57Z"
  },
  {
   "base": "28c3b0423566af092e9bb1f848b7320a237d4d69",
