@@ -1,6 +1,26 @@
 [
  {
   "base": "0b988b7700de675331ac360d164c978d6ea452ec",
+  "created_at": "2020-04-25T00:11:41Z",
+  "head": "c0a0e51366a50b4053c044abe799e81861133412",
+  "login": "gibson042",
+  "number": 1969,
+  "ref": "2020-04-for-in-iterator",
+  "revs": [
+   {
+    "adate": "2020-04-24T19:57:07-04:00",
+    "author": "Richard Gibson",
+    "date": "2020-04-24T19:57:15-04:00",
+    "hash": "c0a0e51366a50b4053c044abe799e81861133412",
+    "parents": "0b988b7700de675331ac360d164c978d6ea452ec",
+    "subject": "Normative: Return an iterator *record* for for...in heads"
+   }
+  ],
+  "title": "Normative: Return an iterator *record* for for...in heads",
+  "updated_at": "2020-04-25T00:11:41Z"
+ },
+ {
+  "base": "0b988b7700de675331ac360d164c978d6ea452ec",
   "created_at": "2020-04-24T17:00:59Z",
   "head": "4cb899d023eb6b6f92b59dd2cade29eccb4d35eb",
   "login": "mgaudet",
