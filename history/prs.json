@@ -1,6 +1,58 @@
 [
  {
   "base": "0b988b7700de675331ac360d164c978d6ea452ec",
+  "created_at": "2020-04-27T03:08:31Z",
+  "head": "5ead4afa0d82a1294b315d06d645601e185c8198",
+  "login": "jmdyck",
+  "number": 1974,
+  "ref": "preambles",
+  "revs": [
+   {
+    "adate": "2020-04-26T22:49:38-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-04-26T22:49:38-04:00",
+    "hash": "5ead4afa0d82a1294b315d06d645601e185c8198",
+    "parents": "4a3fa869b9acf25cccb5c4c2e6c5482cea4fd9f2",
+    "subject": "Editorial: Add standard preambles for numeric methods that don't have one"
+   },
+   {
+    "adate": "2020-04-26T22:35:33-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-04-26T22:49:22-04:00",
+    "hash": "4a3fa869b9acf25cccb5c4c2e6c5482cea4fd9f2",
+    "parents": "2b81c78ec64d3ea56c1b142e67931ae52b1f4bf8",
+    "subject": "Editorial: Convert the preambles of 6 Number methods"
+   },
+   {
+    "adate": "2020-04-26T22:20:59-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-04-26T22:20:59-04:00",
+    "hash": "2b81c78ec64d3ea56c1b142e67931ae52b1f4bf8",
+    "parents": "ee52d639f2e82cf24620d89a34e111afb4666bec",
+    "subject": "Editorial: Convert Number::subtract's prose into an emu-alg"
+   },
+   {
+    "adate": "2020-04-26T22:13:01-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-04-26T22:13:01-04:00",
+    "hash": "ee52d639f2e82cf24620d89a34e111afb4666bec",
+    "parents": "3c4ddd5f52b6072e2200f78ed5af665b41d57161",
+    "subject": "Editorial: Move commutative/associative sentences to Notes"
+   },
+   {
+    "adate": "2020-04-26T22:05:34-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-04-26T22:05:34-04:00",
+    "hash": "3c4ddd5f52b6072e2200f78ed5af665b41d57161",
+    "parents": "0b988b7700de675331ac360d164c978d6ea452ec",
+    "subject": "Editorial: Move talk of operators out of Number methods."
+   }
+  ],
+  "title": "Editorial: Complete standard preambles for numeric methods",
+  "updated_at": "2020-04-27T03:09:47Z"
+ },
+ {
+  "base": "0b988b7700de675331ac360d164c978d6ea452ec",
   "created_at": "2020-04-26T20:28:54Z",
   "head": "cdac556a578b5ff8eed5e454afede43579054e45",
   "login": "shvaikalesh",
@@ -18,26 +70,6 @@
   ],
   "title": "Editorial: Reorder a few steps in String.prototype.split",
   "updated_at": "2020-04-26T20:28:54Z"
- },
- {
-  "base": "0b988b7700de675331ac360d164c978d6ea452ec",
-  "created_at": "2020-04-26T12:56:11Z",
-  "head": "88a17bd853ec4db4cc7d40cbeb3016080e679b35",
-  "login": "chicoxyzzy",
-  "number": 1972,
-  "ref": "remove_timeclip_note",
-  "revs": [
-   {
-    "adate": "2020-04-26T15:53:46+03:00",
-    "author": "chicoxyzzy",
-    "date": "2020-04-26T15:53:46+03:00",
-    "hash": "88a17bd853ec4db4cc7d40cbeb3016080e679b35",
-    "parents": "0b988b7700de675331ac360d164c978d6ea452ec",
-    "subject": "Editorial: remove a note from TimeClip abstract operation algorithm"
-   }
-  ],
-  "title": "Editorial: remove a note from TimeClip abstract operation algorithm",
-  "updated_at": "2020-04-26T12:56:11Z"
  },
  {
   "base": "0b988b7700de675331ac360d164c978d6ea452ec",
