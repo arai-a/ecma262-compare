@@ -1,5 +1,65 @@
 [
  {
+  "base": "91656886df8eef3f804b4af4b85bdd7650288435",
+  "created_at": "2020-04-29T22:48:57Z",
+  "head": "d4be785d2f88ec5ce890ab8fb18ccb65f5aad34e",
+  "login": "syg",
+  "number": 1979,
+  "ref": "lowercase-abstract-closure",
+  "revs": [
+   {
+    "adate": "2020-04-29T15:48:13-07:00",
+    "author": "Shu-yu Guo",
+    "date": "2020-04-29T15:49:16-07:00",
+    "hash": "d4be785d2f88ec5ce890ab8fb18ccb65f5aad34e",
+    "parents": "91656886df8eef3f804b4af4b85bdd7650288435",
+    "subject": "Editorial: Lowercase abstract closure for dfn linking"
+   }
+  ],
+  "title": "Editorial: Lowercase abstract closure for dfn linking",
+  "updated_at": "2020-04-29T22:55:21Z"
+ },
+ {
+  "base": "91656886df8eef3f804b4af4b85bdd7650288435",
+  "created_at": "2020-04-29T22:42:18Z",
+  "head": "3a79d653b382a7f5bad999f455e084913fc54d4e",
+  "login": "shvaikalesh",
+  "number": 1978,
+  "ref": "fix-has-instance-casing",
+  "revs": [
+   {
+    "adate": "2020-04-30T01:40:37+03:00",
+    "author": "Alexey Shvayka",
+    "date": "2020-04-30T01:40:37+03:00",
+    "hash": "3a79d653b382a7f5bad999f455e084913fc54d4e",
+    "parents": "b907cc9f1c54a0d71256d523f8974376a8579910",
+    "subject": "Editorial: Fix casing of @@hasInstance well-known symbol"
+   }
+  ],
+  "title": "Editorial: Fix casing of @@hasInstance well-known symbol",
+  "updated_at": "2020-04-29T22:42:18Z"
+ },
+ {
+  "base": "91656886df8eef3f804b4af4b85bdd7650288435",
+  "created_at": "2020-04-29T22:31:52Z",
+  "head": "193d60f1c631c6d12f3e675f4afd884e8bf4fc30",
+  "login": "shvaikalesh",
+  "number": 1977,
+  "ref": "assert-set-integrity-level",
+  "revs": [
+   {
+    "adate": "2020-04-30T01:28:50+03:00",
+    "author": "Alexey Shvayka",
+    "date": "2020-04-30T01:28:50+03:00",
+    "hash": "193d60f1c631c6d12f3e675f4afd884e8bf4fc30",
+    "parents": "b907cc9f1c54a0d71256d523f8974376a8579910",
+    "subject": "Editorial: Use DefinePropertyOrThrow and ! prefix in GetTemplateObject"
+   }
+  ],
+  "title": "Editorial: Use DefinePropertyOrThrow and ! prefix in GetTemplateObject",
+  "updated_at": "2020-04-29T22:31:52Z"
+ },
+ {
   "base": "0b988b7700de675331ac360d164c978d6ea452ec",
   "created_at": "2020-04-27T03:08:31Z",
   "head": "65ad87328ebabc7af3599f58a2bc0063703e6e09",
@@ -58,26 +118,6 @@
   ],
   "title": "Editorial: Complete standard preambles for numeric methods",
   "updated_at": "2020-04-29T01:42:46Z"
- },
- {
-  "base": "0b988b7700de675331ac360d164c978d6ea452ec",
-  "created_at": "2020-04-26T20:28:54Z",
-  "head": "cdac556a578b5ff8eed5e454afede43579054e45",
-  "login": "shvaikalesh",
-  "number": 1973,
-  "ref": "regexp-split-reorder-steps",
-  "revs": [
-   {
-    "adate": "2020-04-26T23:04:08+03:00",
-    "author": "Alexey Shvayka",
-    "date": "2020-04-26T23:06:24+03:00",
-    "hash": "cdac556a578b5ff8eed5e454afede43579054e45",
-    "parents": "0b988b7700de675331ac360d164c978d6ea452ec",
-    "subject": "Editorial: Reorder a few steps in String.prototype.split"
-   }
-  ],
-  "title": "Editorial: Reorder a few steps in String.prototype.split",
-  "updated_at": "2020-04-26T20:28:54Z"
  },
  {
   "base": "0b988b7700de675331ac360d164c978d6ea452ec",
@@ -508,42 +548,6 @@
   "updated_at": "2020-03-31T06:30:14Z"
  },
  {
-  "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
-  "created_at": "2020-03-27T22:23:25Z",
-  "head": "89e1a8ac8f1077a16247b71ecdeffc3b3cf374b8",
-  "login": "rkirsling",
-  "number": 1920,
-  "ref": "forbidden-extensions-402",
-  "revs": [
-   {
-    "adate": "2020-03-30T15:35:53-07:00",
-    "author": "Ross Kirsling",
-    "date": "2020-03-30T15:35:53-07:00",
-    "hash": "89e1a8ac8f1077a16247b71ecdeffc3b3cf374b8",
-    "parents": "9f286bf63a621aec5e4811a2f017346a96b68ea0",
-    "subject": "Address feedback."
-   },
-   {
-    "adate": "2020-03-27T16:59:03-07:00",
-    "author": "Ross Kirsling",
-    "date": "2020-03-27T17:00:37-07:00",
-    "hash": "9f286bf63a621aec5e4811a2f017346a96b68ea0",
-    "parents": "800b441b798258b9f8252901322911ce573070c6",
-    "subject": "Genericize text."
-   },
-   {
-    "adate": "2020-03-27T15:20:43-07:00",
-    "author": "Ross Kirsling",
-    "date": "2020-03-27T15:20:43-07:00",
-    "hash": "800b441b798258b9f8252901322911ce573070c6",
-    "parents": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
-    "subject": "Editorial: Forbidden extensions misses a few 402 methods."
-   }
-  ],
-  "title": "Normative: Generically forbid 402 method extensions in Forbidden Extensions",
-  "updated_at": "2020-03-30T22:36:03Z"
- },
- {
   "base": "4b6d77d42ebcdcf0592124dc910913c1948b130c",
   "created_at": "2020-03-25T11:00:54Z",
   "head": "7838b3a0e9e85d5e640c1ff39c43bf397bdad4d7",
@@ -918,26 +922,6 @@
   ],
   "title": "Editorial: Add aoid for CaseBlockEvaluation so it gets auto-linked / ref-counted",
   "updated_at": "2020-02-28T04:15:59Z"
- },
- {
-  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
-  "created_at": "2019-12-15T18:14:36Z",
-  "head": "7c80f1d8890b200bb93665096e61f2e6f74243d9",
-  "login": "bathos",
-  "number": 1814,
-  "ref": "remove-sensitivity-to-revocation-from-proxy-create",
-  "revs": [
-   {
-    "adate": "2019-12-15T13:02:35-05:00",
-    "author": "Darien Maillet Valentine",
-    "date": "2019-12-15T13:02:35-05:00",
-    "hash": "7c80f1d8890b200bb93665096e61f2e6f74243d9",
-    "parents": "8c3fb1f0ed9b55ea1ca075b82e3525e469bd1b6b",
-    "subject": "Remove steps 2 and 4 from ProxyCreate (#1798)"
-   }
-  ],
-  "title": "Normative: Remove steps 2 and 4 from ProxyCreate",
-  "updated_at": "2020-02-28T04:16:00Z"
  },
  {
   "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
@@ -3161,26 +3145,6 @@
    }
   ],
   "title": "Editorial: Add a link to the collection of historical editions",
-  "updated_at": "2020-02-28T04:16:21Z"
- },
- {
-  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
-  "created_at": "2018-10-11T16:44:37Z",
-  "head": "95d4da973518ba3cabddddf8125d57d21a9a2da9",
-  "login": "TimothyGu",
-  "number": 1326,
-  "ref": "await-explanation",
-  "revs": [
-   {
-    "adate": "2018-10-11T09:44:00-07:00",
-    "author": "Timothy Gu",
-    "date": "2018-10-11T10:01:59-07:00",
-    "hash": "95d4da973518ba3cabddddf8125d57d21a9a2da9",
-    "parents": "578dd55b4dc727355ec28ffaeecd69196ba8a6d8",
-    "subject": "Editorial: Correct variable terminology"
-   }
-  ],
-  "title": "Editorial: Correct variable terminology",
   "updated_at": "2020-02-28T04:16:21Z"
  },
  {
