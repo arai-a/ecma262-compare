@@ -136,13 +136,21 @@
   "updated_at": "2020-04-24T10:59:17Z"
  },
  {
-  "base": "28c3b0423566af092e9bb1f848b7320a237d4d69",
+  "base": "bccffc5bf316d1dc1f44a6da168951ac45cbfa69",
   "created_at": "2020-04-23T12:44:14Z",
-  "head": "e0ea0718a78fd289a940941f3101e67c7f50ea8d",
+  "head": "1497bd4b13fbf463615e45fc2c4cbc2d285373d8",
   "login": "jhnaldo",
   "number": 1966,
   "ref": "unambiguous-if-statement-syntax",
   "revs": [
+   {
+    "adate": "2020-04-30T00:45:09+09:00",
+    "author": "Jihyeok Park",
+    "date": "2020-04-30T00:45:09+09:00",
+    "hash": "1497bd4b13fbf463615e45fc2c4cbc2d285373d8",
+    "parents": "e0ea0718a78fd289a940941f3101e67c7f50ea8d bccffc5bf316d1dc1f44a6da168951ac45cbfa69",
+    "subject": "Merge branch 'master' into unambiguous-if-statement-syntax"
+   },
    {
     "adate": "2020-04-24T11:18:22+09:00",
     "author": "jhnaldo",
@@ -161,7 +169,7 @@
    }
   ],
   "title": "Editorial: Unambiguous grammar for IfStatement",
-  "updated_at": "2020-04-24T02:20:57Z"
+  "updated_at": "2020-04-29T15:45:12Z"
  },
  {
   "base": "0b988b7700de675331ac360d164c978d6ea452ec",
@@ -272,13 +280,21 @@
   "updated_at": "2020-04-24T18:03:27Z"
  },
  {
-  "base": "f3c2860a6a9c1355f090da067134569a8b6833ed",
+  "base": "bccffc5bf316d1dc1f44a6da168951ac45cbfa69",
   "created_at": "2020-04-22T14:05:42Z",
-  "head": "8d27210e9e2ea943d93fed43301d367a09a83e87",
+  "head": "a81e793b65f0250091e9c6ece910f36c7cb4b80b",
   "login": "jhnaldo",
   "number": 1963,
   "ref": "is-minus-zero",
   "revs": [
+   {
+    "adate": "2020-04-30T00:45:56+09:00",
+    "author": "Jihyeok Park",
+    "date": "2020-04-30T00:45:56+09:00",
+    "hash": "a81e793b65f0250091e9c6ece910f36c7cb4b80b",
+    "parents": "8d27210e9e2ea943d93fed43301d367a09a83e87 bccffc5bf316d1dc1f44a6da168951ac45cbfa69",
+    "subject": "Merge branch 'master' into is-minus-zero"
+   },
    {
     "adate": "2020-04-22T23:01:07+09:00",
     "author": "jhnaldo",
@@ -289,7 +305,7 @@
    }
   ],
   "title": "Editorial: Using `is -0` instead of `= -0` in StringGetOwnProperty",
-  "updated_at": "2020-04-22T14:05:42Z"
+  "updated_at": "2020-04-29T15:45:57Z"
  },
  {
   "base": "0b988b7700de675331ac360d164c978d6ea452ec",
