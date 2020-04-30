@@ -1,43 +1,23 @@
 [
  {
-  "base": "91656886df8eef3f804b4af4b85bdd7650288435",
-  "created_at": "2020-04-29T22:48:57Z",
-  "head": "d4be785d2f88ec5ce890ab8fb18ccb65f5aad34e",
-  "login": "syg",
-  "number": 1979,
-  "ref": "lowercase-abstract-closure",
+  "base": "aee7b692337ff4d2fe303944dba1042498679585",
+  "created_at": "2020-04-30T04:58:17Z",
+  "head": "2cc1ac1d95cffacc6a08a6027cca7357f449f9ce",
+  "login": "ljharb",
+  "number": 1980,
+  "ref": "begin_deploy_preview",
   "revs": [
    {
-    "adate": "2020-04-29T15:48:13-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-04-29T15:49:16-07:00",
-    "hash": "d4be785d2f88ec5ce890ab8fb18ccb65f5aad34e",
-    "parents": "91656886df8eef3f804b4af4b85bdd7650288435",
-    "subject": "Editorial: Lowercase abstract closure for dfn linking"
+    "adate": "2020-04-29T16:35:04-07:00",
+    "author": "Jordan Harband",
+    "date": "2020-04-29T16:35:04-07:00",
+    "hash": "2cc1ac1d95cffacc6a08a6027cca7357f449f9ce",
+    "parents": "aee7b692337ff4d2fe303944dba1042498679585",
+    "subject": "[meta] add Begin deploy preview"
    }
   ],
-  "title": "Editorial: Lowercase abstract closure for dfn linking",
-  "updated_at": "2020-04-29T22:55:21Z"
- },
- {
-  "base": "91656886df8eef3f804b4af4b85bdd7650288435",
-  "created_at": "2020-04-29T22:42:18Z",
-  "head": "3a79d653b382a7f5bad999f455e084913fc54d4e",
-  "login": "shvaikalesh",
-  "number": 1978,
-  "ref": "fix-has-instance-casing",
-  "revs": [
-   {
-    "adate": "2020-04-30T01:40:37+03:00",
-    "author": "Alexey Shvayka",
-    "date": "2020-04-30T01:40:37+03:00",
-    "hash": "3a79d653b382a7f5bad999f455e084913fc54d4e",
-    "parents": "b907cc9f1c54a0d71256d523f8974376a8579910",
-    "subject": "Editorial: Fix casing of @@hasInstance well-known symbol"
-   }
-  ],
-  "title": "Editorial: Fix casing of @@hasInstance well-known symbol",
-  "updated_at": "2020-04-29T22:42:18Z"
+  "title": "[meta] add Begin deploy preview",
+  "updated_at": "2020-04-30T04:58:17Z"
  },
  {
   "base": "91656886df8eef3f804b4af4b85bdd7650288435",
@@ -118,34 +98,6 @@
   ],
   "title": "Editorial: Complete standard preambles for numeric methods",
   "updated_at": "2020-04-29T01:42:46Z"
- },
- {
-  "base": "0b988b7700de675331ac360d164c978d6ea452ec",
-  "created_at": "2020-04-25T00:11:41Z",
-  "head": "dfec7b8d05fdb07f9a6a847aa7bf50ff9a85b26d",
-  "login": "gibson042",
-  "number": 1969,
-  "ref": "2020-04-for-in-iterator",
-  "revs": [
-   {
-    "adate": "2020-04-27T10:11:22-04:00",
-    "author": "Richard Gibson",
-    "date": "2020-04-27T10:11:22-04:00",
-    "hash": "dfec7b8d05fdb07f9a6a847aa7bf50ff9a85b26d",
-    "parents": "c0a0e51366a50b4053c044abe799e81861133412",
-    "subject": "Editorial: Minimize changes by inlining the relevant parts of GetIterator"
-   },
-   {
-    "adate": "2020-04-24T19:57:07-04:00",
-    "author": "Richard Gibson",
-    "date": "2020-04-24T19:57:15-04:00",
-    "hash": "c0a0e51366a50b4053c044abe799e81861133412",
-    "parents": "0b988b7700de675331ac360d164c978d6ea452ec",
-    "subject": "Normative: Return an iterator *record* for for...in heads"
-   }
-  ],
-  "title": "Normative: Return an iterator *record* for for...in heads",
-  "updated_at": "2020-04-27T14:12:30Z"
  },
  {
   "base": "0b988b7700de675331ac360d164c978d6ea452ec",
@@ -698,26 +650,6 @@
   ],
   "title": "Normative: Update Unicode property lists per Unicode v13",
   "updated_at": "2020-03-11T21:35:28Z"
- },
- {
-  "base": "0b988b7700de675331ac360d164c978d6ea452ec",
-  "created_at": "2020-02-14T22:07:06Z",
-  "head": "75c5ffddccda3f07f117032db7bb16e6de253b8f",
-  "login": "jmdyck",
-  "number": 1870,
-  "ref": "set_SourceText",
-  "revs": [
-   {
-    "adate": "2020-02-14T14:20:03-05:00",
-    "author": "Michael Dyck",
-    "date": "2020-04-25T14:30:22-04:00",
-    "hash": "75c5ffddccda3f07f117032db7bb16e6de253b8f",
-    "parents": "0b988b7700de675331ac360d164c978d6ea452ec",
-    "subject": "Editorial: Set [[SourceText]] inside OrdinaryFunctionCreate"
-   }
-  ],
-  "title": "Editorial: Set [[SourceText]] inside OrdinaryFunctionCreate",
-  "updated_at": "2020-04-25T18:34:56Z"
  },
  {
   "base": "0b988b7700de675331ac360d164c978d6ea452ec",
@@ -3070,26 +3002,6 @@
   ],
   "title": "Editorial: Explain why *_SAFE_INTEGER magnitude is not a power of two",
   "updated_at": "2020-02-28T04:16:20Z"
- },
- {
-  "base": "980e1ccf1d37a3c890dc5fe5a36275710459c122",
-  "created_at": "2019-01-14T19:02:26Z",
-  "head": "f8bfba242332ed3267a4b8e075904041486e26fc",
-  "login": "zenparsing",
-  "number": 1408,
-  "ref": "iterator-close-get-method",
-  "revs": [
-   {
-    "adate": "2019-01-14T10:41:19-08:00",
-    "author": "Kevin Smith",
-    "date": "2020-04-06T00:05:23-07:00",
-    "hash": "f8bfba242332ed3267a4b8e075904041486e26fc",
-    "parents": "980e1ccf1d37a3c890dc5fe5a36275710459c122",
-    "subject": "Normative: Suppress GetMethod errors in IteratorClose (#1408)"
-   }
-  ],
-  "title": "Normative: Suppress GetMethod errors in IteratorClose",
-  "updated_at": "2020-04-06T07:05:34Z"
  },
  {
   "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
