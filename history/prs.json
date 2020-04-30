@@ -1,25 +1,5 @@
 [
  {
-  "base": "aee7b692337ff4d2fe303944dba1042498679585",
-  "created_at": "2020-04-30T04:58:17Z",
-  "head": "1f9825e6547853da43ae18f4d72aebaefb06eae8",
-  "login": "ljharb",
-  "number": 1980,
-  "ref": "begin_deploy_preview",
-  "revs": [
-   {
-    "adate": "2020-04-29T16:35:04-07:00",
-    "author": "Jordan Harband",
-    "date": "2020-04-30T10:51:25-07:00",
-    "hash": "1f9825e6547853da43ae18f4d72aebaefb06eae8",
-    "parents": "aee7b692337ff4d2fe303944dba1042498679585",
-    "subject": "[meta] add Begin deploy preview; remove netlify"
-   }
-  ],
-  "title": "[meta] add Begin deploy preview",
-  "updated_at": "2020-04-30T18:02:47Z"
- },
- {
   "base": "91656886df8eef3f804b4af4b85bdd7650288435",
   "created_at": "2020-04-29T22:31:52Z",
   "head": "193d60f1c631c6d12f3e675f4afd884e8bf4fc30",
@@ -164,112 +144,120 @@
   "updated_at": "2020-04-29T15:45:12Z"
  },
  {
-  "base": "0b988b7700de675331ac360d164c978d6ea452ec",
+  "base": "1f9825e6547853da43ae18f4d72aebaefb06eae8",
   "created_at": "2020-04-23T03:57:52Z",
-  "head": "c988faf3c500fb3ff93a40ef9945312e63011086",
+  "head": "b6da19128b3eeae3eb737339cc1ed745ee863267",
   "login": "jmdyck",
   "number": 1965,
   "ref": "editorial",
   "revs": [
    {
+    "adate": "2020-04-30T16:44:23-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-04-30T16:44:23-04:00",
+    "hash": "b6da19128b3eeae3eb737339cc1ed745ee863267",
+    "parents": "c6f9cf5a5d795a41d34cbf968620989076449a6a",
+    "subject": "Editorial: Change \"step 3\" to \"step 4\" in Note"
+   },
+   {
     "adate": "2020-04-24T13:54:11-04:00",
     "author": "Michael Dyck",
-    "date": "2020-04-24T13:54:11-04:00",
-    "hash": "c988faf3c500fb3ff93a40ef9945312e63011086",
-    "parents": "aaabe3249ec7775798882452f535831e3d54654d",
+    "date": "2020-04-30T14:27:14-04:00",
+    "hash": "c6f9cf5a5d795a41d34cbf968620989076449a6a",
+    "parents": "fceb65d9356e12fac6eee6754621d657019c0482",
     "subject": "Editorial: Change \"lexical environment\" to \"Environment Record\""
    },
    {
     "adate": "2020-04-22T23:46:11-04:00",
     "author": "Michael Dyck",
-    "date": "2020-04-24T13:46:15-04:00",
-    "hash": "aaabe3249ec7775798882452f535831e3d54654d",
-    "parents": "a582abc81eac9ccc43b3b0b3fd7ab51fc1ffbd98",
+    "date": "2020-04-30T14:27:14-04:00",
+    "hash": "fceb65d9356e12fac6eee6754621d657019c0482",
+    "parents": "35c2a003e70eb0a4e711e31a97d517ed8db025d1",
     "subject": "Editorial: Insert a comma in SetDefaultGlobalBindings()"
    },
    {
     "adate": "2020-04-22T23:43:03-04:00",
     "author": "Michael Dyck",
-    "date": "2020-04-24T13:46:15-04:00",
-    "hash": "a582abc81eac9ccc43b3b0b3fd7ab51fc1ffbd98",
-    "parents": "83740791f83dfdd61dd5d3469a93025b82d9a29e",
+    "date": "2020-04-30T14:27:14-04:00",
+    "hash": "35c2a003e70eb0a4e711e31a97d517ed8db025d1",
+    "parents": "cc3bc059a951edfb64d952b1e3941d03f5dd497e",
     "subject": "Editorial: Change \"which\" to \"that\""
    },
    {
     "adate": "2020-04-22T23:39:17-04:00",
     "author": "Michael Dyck",
-    "date": "2020-04-24T13:46:15-04:00",
-    "hash": "83740791f83dfdd61dd5d3469a93025b82d9a29e",
-    "parents": "12a689e046c9b10e14d8c269e65514b0d68b1469",
+    "date": "2020-04-30T14:27:14-04:00",
+    "hash": "cc3bc059a951edfb64d952b1e3941d03f5dd497e",
+    "parents": "07363ac71b1e54608085bbbf42aa834dbdb898a3",
     "subject": "Editorial: Drop grammatical parameters from 'use' productions"
    },
    {
     "adate": "2020-04-18T21:07:32-04:00",
     "author": "Michael Dyck",
-    "date": "2020-04-24T13:46:15-04:00",
-    "hash": "12a689e046c9b10e14d8c269e65514b0d68b1469",
-    "parents": "c86f262ec5925ceef22edfec4b6d97b77a4253bd",
+    "date": "2020-04-30T14:27:14-04:00",
+    "hash": "07363ac71b1e54608085bbbf42aa834dbdb898a3",
+    "parents": "e35c9bafd16ea8e703434ba61e2b0b65e1187345",
     "subject": "Editorial: Delete \"as a parameter\" after \"is present\""
    },
    {
     "adate": "2020-04-22T23:30:20-04:00",
     "author": "Michael Dyck",
-    "date": "2020-04-24T13:46:15-04:00",
-    "hash": "c86f262ec5925ceef22edfec4b6d97b77a4253bd",
-    "parents": "987d04bffd8c7f9bdec7d3f8c9a75252ac406308",
+    "date": "2020-04-30T14:27:14-04:00",
+    "hash": "e35c9bafd16ea8e703434ba61e2b0b65e1187345",
+    "parents": "832a4bed17f54d9905ac25e9ae4eeb8a6c63c05e",
     "subject": "Editorial: Fix typo: \"GeneratorObject\" -> \"generator object\""
    },
    {
     "adate": "2020-04-22T23:29:13-04:00",
     "author": "Michael Dyck",
-    "date": "2020-04-24T13:46:15-04:00",
-    "hash": "987d04bffd8c7f9bdec7d3f8c9a75252ac406308",
-    "parents": "d5476f2feba3b4528c2d16159f7ce16819235510",
+    "date": "2020-04-30T14:27:14-04:00",
+    "hash": "832a4bed17f54d9905ac25e9ae4eeb8a6c63c05e",
+    "parents": "9c8a0b4ac083f06af403a40b3ee3888ee87932eb",
     "subject": "Editorial: Fix typo: \"Descritor\" -> \"Descriptor\""
    },
    {
     "adate": "2020-04-22T23:16:17-04:00",
     "author": "Michael Dyck",
-    "date": "2020-04-24T13:46:15-04:00",
-    "hash": "d5476f2feba3b4528c2d16159f7ce16819235510",
-    "parents": "d1d13c187387efddcba24405b7df6834fe555043",
+    "date": "2020-04-30T14:27:14-04:00",
+    "hash": "9c8a0b4ac083f06af403a40b3ee3888ee87932eb",
+    "parents": "a203ca24a86e0c5c87185390a66a0d6e31a1f7b8",
     "subject": "Editorial: Change step 7 to step 6 in SortCompare note"
    },
    {
     "adate": "2020-04-22T23:00:14-04:00",
     "author": "Michael Dyck",
-    "date": "2020-04-24T13:46:15-04:00",
-    "hash": "d1d13c187387efddcba24405b7df6834fe555043",
-    "parents": "9d046c38db1f70c92b8f91966315267a9177ab9b",
+    "date": "2020-04-30T14:27:14-04:00",
+    "hash": "a203ca24a86e0c5c87185390a66a0d6e31a1f7b8",
+    "parents": "b330f62c3ca16364ce4204ecb3e223c204154c16",
     "subject": "Editorial: Change \"Step 2.a\" to \"Step 2.b\" in RepeatMatcher note"
    },
    {
     "adate": "2020-04-22T22:45:22-04:00",
     "author": "Michael Dyck",
-    "date": "2020-04-24T13:46:15-04:00",
-    "hash": "9d046c38db1f70c92b8f91966315267a9177ab9b",
-    "parents": "5d20ef2ae974c418468423d49617d264b8d10d2c",
+    "date": "2020-04-30T14:27:14-04:00",
+    "hash": "b330f62c3ca16364ce4204ecb3e223c204154c16",
+    "parents": "7e83bd64c70d3ff88a70a2caca2d3029b7cf0bcf",
     "subject": "Editorial: Delete <emu-note> in TimeClip clause"
    },
    {
     "adate": "2020-04-22T22:28:17-04:00",
     "author": "Michael Dyck",
-    "date": "2020-04-24T13:46:14-04:00",
-    "hash": "5d20ef2ae974c418468423d49617d264b8d10d2c",
-    "parents": "2ef21b6657061a97e1f9f2c929e49f9033d7b185",
+    "date": "2020-04-30T14:27:14-04:00",
+    "hash": "7e83bd64c70d3ff88a70a2caca2d3029b7cf0bcf",
+    "parents": "8e29adbd06690649976b18064b29b18bbb8f3e8b",
     "subject": "Editorial: Move an <emu-note> element"
    },
    {
     "adate": "2020-04-22T22:15:27-04:00",
     "author": "Michael Dyck",
-    "date": "2020-04-24T13:46:14-04:00",
-    "hash": "2ef21b6657061a97e1f9f2c929e49f9033d7b185",
-    "parents": "0b988b7700de675331ac360d164c978d6ea452ec",
+    "date": "2020-04-30T14:27:13-04:00",
+    "hash": "8e29adbd06690649976b18064b29b18bbb8f3e8b",
+    "parents": "1f9825e6547853da43ae18f4d72aebaefb06eae8",
     "subject": "Editorial: Reinstate an SDO rule"
    }
   ],
   "title": "Editorial: quick fixes",
-  "updated_at": "2020-04-24T18:03:27Z"
+  "updated_at": "2020-04-30T20:54:43Z"
  },
  {
   "base": "bccffc5bf316d1dc1f44a6da168951ac45cbfa69",
