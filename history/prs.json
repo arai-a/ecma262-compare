@@ -288,9 +288,9 @@
   "updated_at": "2020-04-29T15:45:57Z"
  },
  {
-  "base": "0b988b7700de675331ac360d164c978d6ea452ec",
+  "base": "1f9825e6547853da43ae18f4d72aebaefb06eae8",
   "created_at": "2020-04-21T01:12:50Z",
-  "head": "23cf76b57f583df0eb50dc51a274b4f36db22f67",
+  "head": "7eb7a4849cea8e5e9d7d6a24e4e4fd14a94a10f1",
   "login": "jmdyck",
   "number": 1961,
   "ref": "compound_assignment",
@@ -298,30 +298,30 @@
    {
     "adate": "2020-04-20T20:28:16-04:00",
     "author": "Michael Dyck",
-    "date": "2020-04-24T18:14:54-04:00",
-    "hash": "23cf76b57f583df0eb50dc51a274b4f36db22f67",
-    "parents": "7c2f16447c6993da46ad46cc0392aeb653556892",
-    "subject": "Editorial: Factor out EvaluateNumericBinaryExpression"
+    "date": "2020-04-30T22:22:44-04:00",
+    "hash": "7eb7a4849cea8e5e9d7d6a24e4e4fd14a94a10f1",
+    "parents": "4b54fbf371193d4fd08e17b9168b0f31453e6d66",
+    "subject": "Editorial: Factor out EvaluateStringOrNumericBinaryExpression"
    },
    {
     "adate": "2020-04-20T18:57:08-04:00",
     "author": "Michael Dyck",
-    "date": "2020-04-24T18:14:54-04:00",
-    "hash": "7c2f16447c6993da46ad46cc0392aeb653556892",
-    "parents": "f77c740d85124f5fda90d8cf366d771dab839858",
+    "date": "2020-04-30T22:22:44-04:00",
+    "hash": "4b54fbf371193d4fd08e17b9168b0f31453e6d66",
+    "parents": "f522d4bf5e3138b3deb60fa4e834a6f344fdc3da",
     "subject": "Editorial: Eliminate the `A : A @ B` pseudo-production"
    },
    {
     "adate": "2020-04-20T18:43:42-04:00",
     "author": "Michael Dyck",
-    "date": "2020-04-24T18:14:41-04:00",
-    "hash": "f77c740d85124f5fda90d8cf366d771dab839858",
-    "parents": "0b988b7700de675331ac360d164c978d6ea452ec",
-    "subject": "Editorial: Factor out ApplyNumericBinaryOperator"
+    "date": "2020-04-30T22:22:41-04:00",
+    "hash": "f522d4bf5e3138b3deb60fa4e834a6f344fdc3da",
+    "parents": "1f9825e6547853da43ae18f4d72aebaefb06eae8",
+    "subject": "Editorial: Factor out ApplyStringOrNumericBinaryOperator"
    }
   ],
   "title": "Editorial: refactoring the evaluation semantics of compound assignment",
-  "updated_at": "2020-04-24T22:28:22Z"
+  "updated_at": "2020-05-01T02:27:48Z"
  },
  {
   "base": "cbe3b05777940a3b026b370e4b8d3220dc08e7cc",
