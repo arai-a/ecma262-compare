@@ -1,5 +1,29 @@
 [
  {
+  "adate": "2020-04-20T20:28:16-04:00",
+  "author": "Michael Dyck",
+  "date": "2020-05-01T12:01:18-07:00",
+  "hash": "8300e6d6bef684ee0ba15be10d37d572ce673d45",
+  "parents": "0ef6871bb61f883263564112bdb640c20ff285eb",
+  "subject": "Editorial: Factor out EvaluateStringOrNumericBinaryExpression (#1961)"
+ },
+ {
+  "adate": "2020-04-20T18:57:08-04:00",
+  "author": "Michael Dyck",
+  "date": "2020-05-01T12:01:18-07:00",
+  "hash": "0ef6871bb61f883263564112bdb640c20ff285eb",
+  "parents": "f1e7aefa330a9bc2e12dbe8e518eedb178c17287",
+  "subject": "Editorial: Eliminate the `A : A @ B` pseudo-production (#1961)"
+ },
+ {
+  "adate": "2020-04-20T18:43:42-04:00",
+  "author": "Michael Dyck",
+  "date": "2020-05-01T12:01:17-07:00",
+  "hash": "f1e7aefa330a9bc2e12dbe8e518eedb178c17287",
+  "parents": "1f9825e6547853da43ae18f4d72aebaefb06eae8",
+  "subject": "Editorial: Factor out ApplyStringOrNumericBinaryOperator (#1961)"
+ },
+ {
   "adate": "2020-04-29T16:35:04-07:00",
   "author": "Jordan Harband",
   "date": "2020-04-30T10:51:25-07:00",
