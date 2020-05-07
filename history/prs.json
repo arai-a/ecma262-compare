@@ -144,178 +144,6 @@
   "updated_at": "2020-04-29T15:45:12Z"
  },
  {
-  "base": "1f9825e6547853da43ae18f4d72aebaefb06eae8",
-  "created_at": "2020-04-23T03:57:52Z",
-  "head": "1049c71a2f1e3e6e3e444dc42449364159178488",
-  "login": "jmdyck",
-  "number": 1965,
-  "ref": "editorial",
-  "revs": [
-   {
-    "adate": "2020-04-30T16:44:23-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-04-30T22:32:41-04:00",
-    "hash": "1049c71a2f1e3e6e3e444dc42449364159178488",
-    "parents": "03384d243146a31ca3ef1da6e0a0fab04b450ce2",
-    "subject": "Editorial: Change \"step 3\" to \"step 4\" in Note"
-   },
-   {
-    "adate": "2020-04-24T13:54:11-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-04-30T22:32:41-04:00",
-    "hash": "03384d243146a31ca3ef1da6e0a0fab04b450ce2",
-    "parents": "6c250aa0dd71c6a4558bad8fd914cea69e6fe9e1",
-    "subject": "Editorial: Change \"lexical environment\" to \"Environment Record\""
-   },
-   {
-    "adate": "2020-04-22T23:46:11-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-04-30T22:32:41-04:00",
-    "hash": "6c250aa0dd71c6a4558bad8fd914cea69e6fe9e1",
-    "parents": "73dbc97cef7e349296fa300ca067302f35cf8d52",
-    "subject": "Editorial: Insert a comma in SetDefaultGlobalBindings()"
-   },
-   {
-    "adate": "2020-04-22T23:43:03-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-04-30T22:32:41-04:00",
-    "hash": "73dbc97cef7e349296fa300ca067302f35cf8d52",
-    "parents": "07363ac71b1e54608085bbbf42aa834dbdb898a3",
-    "subject": "Editorial: Change \"which\" to \"that\""
-   },
-   {
-    "adate": "2020-04-18T21:07:32-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-04-30T14:27:14-04:00",
-    "hash": "07363ac71b1e54608085bbbf42aa834dbdb898a3",
-    "parents": "e35c9bafd16ea8e703434ba61e2b0b65e1187345",
-    "subject": "Editorial: Delete \"as a parameter\" after \"is present\""
-   },
-   {
-    "adate": "2020-04-22T23:30:20-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-04-30T14:27:14-04:00",
-    "hash": "e35c9bafd16ea8e703434ba61e2b0b65e1187345",
-    "parents": "832a4bed17f54d9905ac25e9ae4eeb8a6c63c05e",
-    "subject": "Editorial: Fix typo: \"GeneratorObject\" -> \"generator object\""
-   },
-   {
-    "adate": "2020-04-22T23:29:13-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-04-30T14:27:14-04:00",
-    "hash": "832a4bed17f54d9905ac25e9ae4eeb8a6c63c05e",
-    "parents": "9c8a0b4ac083f06af403a40b3ee3888ee87932eb",
-    "subject": "Editorial: Fix typo: \"Descritor\" -> \"Descriptor\""
-   },
-   {
-    "adate": "2020-04-22T23:16:17-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-04-30T14:27:14-04:00",
-    "hash": "9c8a0b4ac083f06af403a40b3ee3888ee87932eb",
-    "parents": "a203ca24a86e0c5c87185390a66a0d6e31a1f7b8",
-    "subject": "Editorial: Change step 7 to step 6 in SortCompare note"
-   },
-   {
-    "adate": "2020-04-22T23:00:14-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-04-30T14:27:14-04:00",
-    "hash": "a203ca24a86e0c5c87185390a66a0d6e31a1f7b8",
-    "parents": "b330f62c3ca16364ce4204ecb3e223c204154c16",
-    "subject": "Editorial: Change \"Step 2.a\" to \"Step 2.b\" in RepeatMatcher note"
-   },
-   {
-    "adate": "2020-04-22T22:45:22-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-04-30T14:27:14-04:00",
-    "hash": "b330f62c3ca16364ce4204ecb3e223c204154c16",
-    "parents": "7e83bd64c70d3ff88a70a2caca2d3029b7cf0bcf",
-    "subject": "Editorial: Delete <emu-note> in TimeClip clause"
-   },
-   {
-    "adate": "2020-04-22T22:28:17-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-04-30T14:27:14-04:00",
-    "hash": "7e83bd64c70d3ff88a70a2caca2d3029b7cf0bcf",
-    "parents": "8e29adbd06690649976b18064b29b18bbb8f3e8b",
-    "subject": "Editorial: Move an <emu-note> element"
-   },
-   {
-    "adate": "2020-04-22T22:15:27-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-04-30T14:27:13-04:00",
-    "hash": "8e29adbd06690649976b18064b29b18bbb8f3e8b",
-    "parents": "1f9825e6547853da43ae18f4d72aebaefb06eae8",
-    "subject": "Editorial: Reinstate an SDO rule"
-   }
-  ],
-  "title": "Editorial: quick fixes",
-  "updated_at": "2020-05-01T02:40:54Z"
- },
- {
-  "base": "bccffc5bf316d1dc1f44a6da168951ac45cbfa69",
-  "created_at": "2020-04-22T14:05:42Z",
-  "head": "a81e793b65f0250091e9c6ece910f36c7cb4b80b",
-  "login": "jhnaldo",
-  "number": 1963,
-  "ref": "is-minus-zero",
-  "revs": [
-   {
-    "adate": "2020-04-30T00:45:56+09:00",
-    "author": "Jihyeok Park",
-    "date": "2020-04-30T00:45:56+09:00",
-    "hash": "a81e793b65f0250091e9c6ece910f36c7cb4b80b",
-    "parents": "8d27210e9e2ea943d93fed43301d367a09a83e87 bccffc5bf316d1dc1f44a6da168951ac45cbfa69",
-    "subject": "Merge branch 'master' into is-minus-zero"
-   },
-   {
-    "adate": "2020-04-22T23:01:07+09:00",
-    "author": "jhnaldo",
-    "date": "2020-04-22T23:01:07+09:00",
-    "hash": "8d27210e9e2ea943d93fed43301d367a09a83e87",
-    "parents": "f3c2860a6a9c1355f090da067134569a8b6833ed",
-    "subject": "Editorial: Using `is -0` instead of `= -0` in StringGetOwnProperty"
-   }
-  ],
-  "title": "Editorial: Using `is -0` instead of `= -0` in StringGetOwnProperty",
-  "updated_at": "2020-04-29T15:45:57Z"
- },
- {
-  "base": "1f9825e6547853da43ae18f4d72aebaefb06eae8",
-  "created_at": "2020-04-21T01:12:50Z",
-  "head": "8300e6d6bef684ee0ba15be10d37d572ce673d45",
-  "login": "jmdyck",
-  "number": 1961,
-  "ref": "compound_assignment",
-  "revs": [
-   {
-    "adate": "2020-04-20T20:28:16-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-05-01T12:01:18-07:00",
-    "hash": "8300e6d6bef684ee0ba15be10d37d572ce673d45",
-    "parents": "0ef6871bb61f883263564112bdb640c20ff285eb",
-    "subject": "Editorial: Factor out EvaluateStringOrNumericBinaryExpression (#1961)"
-   },
-   {
-    "adate": "2020-04-20T18:57:08-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-05-01T12:01:18-07:00",
-    "hash": "0ef6871bb61f883263564112bdb640c20ff285eb",
-    "parents": "f1e7aefa330a9bc2e12dbe8e518eedb178c17287",
-    "subject": "Editorial: Eliminate the `A : A @ B` pseudo-production (#1961)"
-   },
-   {
-    "adate": "2020-04-20T18:43:42-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-05-01T12:01:17-07:00",
-    "hash": "f1e7aefa330a9bc2e12dbe8e518eedb178c17287",
-    "parents": "1f9825e6547853da43ae18f4d72aebaefb06eae8",
-    "subject": "Editorial: Factor out ApplyStringOrNumericBinaryOperator (#1961)"
-   }
-  ],
-  "title": "Editorial: refactoring the evaluation semantics of compound assignment",
-  "updated_at": "2020-05-01T19:01:32Z"
- },
- {
   "base": "cbe3b05777940a3b026b370e4b8d3220dc08e7cc",
   "created_at": "2020-04-16T23:19:07Z",
   "head": "4054122af12604d154cb2b14efbeb5af35924c11",
@@ -564,9 +392,9 @@
   "updated_at": "2020-03-25T00:12:45Z"
  },
  {
-  "base": "4b6d77d42ebcdcf0592124dc910913c1948b130c",
+  "base": "8678817de67956c26d3e5541df485751ac4c8839",
   "created_at": "2020-03-20T21:32:19Z",
-  "head": "6fa3b1a64a7f34e3d6d848698757f0fac3189775",
+  "head": "ca1fb579d0a033833fa4f75f37183f0a4342ea3a",
   "login": "syg",
   "number": 1907,
   "ref": "semantic-functions-to-abstract-closures",
@@ -574,22 +402,22 @@
    {
     "adate": "2020-03-23T11:21:27-07:00",
     "author": "Shu-yu Guo",
-    "date": "2020-03-24T16:59:39-07:00",
-    "hash": "6fa3b1a64a7f34e3d6d848698757f0fac3189775",
-    "parents": "200359902204c30be244847616c8e0ce98dea95a",
+    "date": "2020-05-06T17:05:34-07:00",
+    "hash": "ca1fb579d0a033833fa4f75f37183f0a4342ea3a",
+    "parents": "1b221131133bf2c28ac40321bc6d850189bee5d0",
     "subject": "Editorial: Add a sentence in Data Blocks about bytes"
    },
    {
     "adate": "2020-03-20T14:29:11-07:00",
     "author": "Shu-yu Guo",
-    "date": "2020-03-24T16:59:39-07:00",
-    "hash": "200359902204c30be244847616c8e0ce98dea95a",
-    "parents": "4b6d77d42ebcdcf0592124dc910913c1948b130c",
+    "date": "2020-05-06T15:54:33-07:00",
+    "hash": "1b221131133bf2c28ac40321bc6d850189bee5d0",
+    "parents": "8678817de67956c26d3e5541df485751ac4c8839",
     "subject": "Editorial: Use abstract closures instead of semantic functions (#1895)"
    }
   ],
   "title": "Editorial: Use abstract closures instead of semantic functions (#1895)",
-  "updated_at": "2020-03-25T00:01:21Z"
+  "updated_at": "2020-05-07T00:06:01Z"
  },
  {
   "base": "2b8561cffb67b8cd669dd26980c07fe7648495a6",
