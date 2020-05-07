@@ -108,13 +108,29 @@
   "updated_at": "2020-04-24T10:59:17Z"
  },
  {
-  "base": "bccffc5bf316d1dc1f44a6da168951ac45cbfa69",
+  "base": "8678817de67956c26d3e5541df485751ac4c8839",
   "created_at": "2020-04-23T12:44:14Z",
-  "head": "1497bd4b13fbf463615e45fc2c4cbc2d285373d8",
+  "head": "007322c92d7885712ed71a2d801ac5117c7173f7",
   "login": "jhnaldo",
   "number": 1966,
   "ref": "unambiguous-if-statement-syntax",
   "revs": [
+   {
+    "adate": "2020-05-07T15:44:36+09:00",
+    "author": "jhnaldo",
+    "date": "2020-05-07T15:44:36+09:00",
+    "hash": "007322c92d7885712ed71a2d801ac5117c7173f7",
+    "parents": "ef04b9b83b386e730d090858d6dea81f2a1c58c6",
+    "subject": "Revised using only lookahead check"
+   },
+   {
+    "adate": "2020-05-07T15:40:39+09:00",
+    "author": "Jihyeok Park",
+    "date": "2020-05-07T15:40:39+09:00",
+    "hash": "ef04b9b83b386e730d090858d6dea81f2a1c58c6",
+    "parents": "1497bd4b13fbf463615e45fc2c4cbc2d285373d8 8678817de67956c26d3e5541df485751ac4c8839",
+    "subject": "Merge branch 'master' into unambiguous-if-statement-syntax"
+   },
    {
     "adate": "2020-04-30T00:45:09+09:00",
     "author": "Jihyeok Park",
@@ -141,7 +157,7 @@
    }
   ],
   "title": "Editorial: Unambiguous grammar for IfStatement",
-  "updated_at": "2020-04-29T15:45:12Z"
+  "updated_at": "2020-05-07T06:46:28Z"
  },
  {
   "base": "cbe3b05777940a3b026b370e4b8d3220dc08e7cc",
