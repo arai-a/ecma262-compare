@@ -49,66 +49,6 @@
  },
  {
   "base": "0b988b7700de675331ac360d164c978d6ea452ec",
-  "created_at": "2020-04-27T03:08:31Z",
-  "head": "65ad87328ebabc7af3599f58a2bc0063703e6e09",
-  "login": "jmdyck",
-  "number": 1974,
-  "ref": "preambles",
-  "revs": [
-   {
-    "adate": "2020-04-28T21:40:28-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-04-28T21:40:28-04:00",
-    "hash": "65ad87328ebabc7af3599f58a2bc0063703e6e09",
-    "parents": "5ead4afa0d82a1294b315d06d645601e185c8198",
-    "subject": "fixup for 4th commit: Revert \"approximation to\" -> \"approximation of\""
-   },
-   {
-    "adate": "2020-04-26T22:49:38-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-04-26T22:49:38-04:00",
-    "hash": "5ead4afa0d82a1294b315d06d645601e185c8198",
-    "parents": "4a3fa869b9acf25cccb5c4c2e6c5482cea4fd9f2",
-    "subject": "Editorial: Add standard preambles for numeric methods that don't have one"
-   },
-   {
-    "adate": "2020-04-26T22:35:33-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-04-26T22:49:22-04:00",
-    "hash": "4a3fa869b9acf25cccb5c4c2e6c5482cea4fd9f2",
-    "parents": "2b81c78ec64d3ea56c1b142e67931ae52b1f4bf8",
-    "subject": "Editorial: Convert the preambles of 6 Number methods"
-   },
-   {
-    "adate": "2020-04-26T22:20:59-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-04-26T22:20:59-04:00",
-    "hash": "2b81c78ec64d3ea56c1b142e67931ae52b1f4bf8",
-    "parents": "ee52d639f2e82cf24620d89a34e111afb4666bec",
-    "subject": "Editorial: Convert Number::subtract's prose into an emu-alg"
-   },
-   {
-    "adate": "2020-04-26T22:13:01-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-04-26T22:13:01-04:00",
-    "hash": "ee52d639f2e82cf24620d89a34e111afb4666bec",
-    "parents": "3c4ddd5f52b6072e2200f78ed5af665b41d57161",
-    "subject": "Editorial: Move commutative/associative sentences to Notes"
-   },
-   {
-    "adate": "2020-04-26T22:05:34-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-04-26T22:05:34-04:00",
-    "hash": "3c4ddd5f52b6072e2200f78ed5af665b41d57161",
-    "parents": "0b988b7700de675331ac360d164c978d6ea452ec",
-    "subject": "Editorial: Move talk of operators out of Number methods."
-   }
-  ],
-  "title": "Editorial: Complete standard preambles for numeric methods",
-  "updated_at": "2020-04-29T01:42:46Z"
- },
- {
-  "base": "0b988b7700de675331ac360d164c978d6ea452ec",
   "created_at": "2020-04-24T08:48:04Z",
   "head": "bfaf8957a138ff7f90a1326374cc20dd0fe5bf2b",
   "login": "jhnaldo",
@@ -512,120 +452,112 @@
   "updated_at": "2020-04-25T18:59:34Z"
  },
  {
-  "base": "c21b280a2c46e92decf3efeca9e9da35d5b9f622",
+  "base": "4518438c3fe03b56f8ef4cc28ed9ad285cbffd0c",
   "created_at": "2020-02-05T17:02:01Z",
-  "head": "dc32b6bd6aa3ef6990704730d3843dce7897306c",
+  "head": "f5a6e1530d24a2af4f539dd38175f7565ea31fe2",
   "login": "jmdyck",
   "number": 1866,
   "ref": "ParsePattern",
   "revs": [
    {
-    "adate": "2020-04-12T23:56:09-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-04-12T23:56:09-04:00",
-    "hash": "dc32b6bd6aa3ef6990704730d3843dce7897306c",
-    "parents": "ecc90c4cd1a46d16da6b8e9aa2e4104f380c55da",
-    "subject": "IVREL: Make the final test a bit cleaner"
-   },
-   {
     "adate": "2020-04-12T15:52:15-04:00",
     "author": "Michael Dyck",
-    "date": "2020-04-12T17:28:44-04:00",
-    "hash": "ecc90c4cd1a46d16da6b8e9aa2e4104f380c55da",
-    "parents": "527813bcbce9d3a1bf4d736abcd3ada84915a4c6",
+    "date": "2020-05-10T16:44:02-04:00",
+    "hash": "f5a6e1530d24a2af4f539dd38175f7565ea31fe2",
+    "parents": "7bbc789bcc017d5133bb0828509051a5eb68d2f4",
     "subject": "IVREL: simplify"
    },
    {
     "adate": "2020-02-05T10:51:12-05:00",
     "author": "Michael Dyck",
-    "date": "2020-04-12T17:28:23-04:00",
-    "hash": "527813bcbce9d3a1bf4d736abcd3ada84915a4c6",
-    "parents": "1b3dac8cb44ed900fc9de90691c0a99fabb6a6d2",
+    "date": "2020-05-10T16:43:53-04:00",
+    "hash": "7bbc789bcc017d5133bb0828509051a5eb68d2f4",
+    "parents": "0f54f2e933a3b2b54817e1bfd06ca3739d968113",
     "subject": "Editorial: Extract operation 'ParsePattern'"
    },
    {
     "adate": "2020-02-05T10:34:23-05:00",
     "author": "Michael Dyck",
-    "date": "2020-04-12T16:45:36-04:00",
-    "hash": "1b3dac8cb44ed900fc9de90691c0a99fabb6a6d2",
-    "parents": "3e4d13561cdca062de07d4b39a0c0d9fbae59b07",
+    "date": "2020-05-10T16:26:49-04:00",
+    "hash": "0f54f2e933a3b2b54817e1bfd06ca3739d968113",
+    "parents": "876974658685369cf95f73f75a8e8a0efd1e639b",
     "subject": "REI: Factor out the last sentence of each 'Parse' step"
    },
    {
     "adate": "2020-02-05T10:31:14-05:00",
     "author": "Michael Dyck",
-    "date": "2020-04-12T16:45:36-04:00",
-    "hash": "3e4d13561cdca062de07d4b39a0c0d9fbae59b07",
-    "parents": "50c2a838fa88139a06e50b494f73b0df229acba1",
+    "date": "2020-05-10T16:26:49-04:00",
+    "hash": "876974658685369cf95f73f75a8e8a0efd1e639b",
+    "parents": "be8ab031611da6a5b8c40aa6134a233374f2351a",
     "subject": "REI: Split the 'If'"
    },
    {
     "adate": "2020-02-05T10:28:36-05:00",
     "author": "Michael Dyck",
-    "date": "2020-04-12T16:45:36-04:00",
-    "hash": "50c2a838fa88139a06e50b494f73b0df229acba1",
-    "parents": "fd914972c73acb8f47fea9bb2ed861cce00821ca",
+    "date": "2020-05-10T16:26:48-04:00",
+    "hash": "be8ab031611da6a5b8c40aa6134a233374f2351a",
+    "parents": "a5b3d7c7789abb8afdf201574c7e3825a587ca06",
     "subject": "REI: Reword a step slightly"
    },
    {
     "adate": "2020-02-05T10:25:15-05:00",
     "author": "Michael Dyck",
-    "date": "2020-04-12T16:45:36-04:00",
-    "hash": "fd914972c73acb8f47fea9bb2ed861cce00821ca",
-    "parents": "59ca07cc03bae5ad2fae8fd59609eb01730dc645",
+    "date": "2020-05-10T16:26:48-04:00",
+    "hash": "a5b3d7c7789abb8afdf201574c7e3825a587ca06",
+    "parents": "4910e28d19386fabe0cb99c07faa1c876bcd7015",
     "subject": "REI: Rename `_pText_` as `_patternText_`"
    },
    {
     "adate": "2020-02-05T10:22:55-05:00",
     "author": "Michael Dyck",
-    "date": "2020-04-12T16:45:36-04:00",
-    "hash": "59ca07cc03bae5ad2fae8fd59609eb01730dc645",
-    "parents": "3940a47d0cb8d0e11619f4ff2d155ea34b27501c",
+    "date": "2020-05-10T16:26:48-04:00",
+    "hash": "4910e28d19386fabe0cb99c07faa1c876bcd7015",
+    "parents": "9e10be720fcd21016afe6df621c9cf7a80d4f0fe",
     "subject": "REI: swap the order of the 2 arms of the 'If'"
    },
    {
     "adate": "2020-02-05T10:21:24-05:00",
     "author": "Michael Dyck",
-    "date": "2020-04-12T16:45:36-04:00",
-    "hash": "3940a47d0cb8d0e11619f4ff2d155ea34b27501c",
-    "parents": "5e05f75bb6e8b0fb7bb782839694434185014880",
+    "date": "2020-05-10T16:26:48-04:00",
+    "hash": "9e10be720fcd21016afe6df621c9cf7a80d4f0fe",
+    "parents": "3f5a6f9999da792b6e8f3bc3146eb268c7509f4c",
     "subject": "REI: Replace `_BMP_` with its complement `_u_`"
    },
    {
     "adate": "2020-02-05T10:19:34-05:00",
     "author": "Michael Dyck",
-    "date": "2020-04-12T16:45:33-04:00",
-    "hash": "5e05f75bb6e8b0fb7bb782839694434185014880",
-    "parents": "a7c5c4013aa9dd83b51fc6923ac3a1c3ae56b116",
+    "date": "2020-05-10T16:26:48-04:00",
+    "hash": "3f5a6f9999da792b6e8f3bc3146eb268c7509f4c",
+    "parents": "3144afdb9ca47844e4e4cf9416491bca15dc8c7d",
     "subject": "IVREL: Factor out the last sentence of each 'Parse' step"
    },
    {
     "adate": "2020-04-12T15:14:46-04:00",
     "author": "Michael Dyck",
-    "date": "2020-04-12T16:42:42-04:00",
-    "hash": "a7c5c4013aa9dd83b51fc6923ac3a1c3ae56b116",
-    "parents": "5f625221b21fdc00ca4772a7d15931f732879626",
+    "date": "2020-05-10T16:26:48-04:00",
+    "hash": "3144afdb9ca47844e4e4cf9416491bca15dc8c7d",
+    "parents": "f89a69ae3cba9380ae03c5952538e64f8e641b8b",
     "subject": "IVREL: Rename `_pText_` as `_patternText_`"
    },
    {
     "adate": "2020-02-05T10:13:00-05:00",
     "author": "Michael Dyck",
-    "date": "2020-04-12T16:40:09-04:00",
-    "hash": "5f625221b21fdc00ca4772a7d15931f732879626",
-    "parents": "27d9fa588f03b482eeff41def3e81279c0f2bc4b",
+    "date": "2020-05-10T16:26:48-04:00",
+    "hash": "f89a69ae3cba9380ae03c5952538e64f8e641b8b",
+    "parents": "68a9e2738603fffe83946c0389f971f9d6647d29",
     "subject": "IVREL: Introduce `_u_`"
    },
    {
     "adate": "2020-02-05T10:08:23-05:00",
     "author": "Michael Dyck",
-    "date": "2020-04-12T16:38:09-04:00",
-    "hash": "27d9fa588f03b482eeff41def3e81279c0f2bc4b",
-    "parents": "c21b280a2c46e92decf3efeca9e9da35d5b9f622",
+    "date": "2020-05-10T16:26:48-04:00",
+    "hash": "68a9e2738603fffe83946c0389f971f9d6647d29",
+    "parents": "4518438c3fe03b56f8ef4cc28ed9ad285cbffd0c",
     "subject": "IVREL: introduce an 'Else'"
    }
   ],
   "title": " Editorial: Extract operation 'ParsePattern'",
-  "updated_at": "2020-04-13T03:57:19Z"
+  "updated_at": "2020-05-10T21:03:21Z"
  },
  {
   "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
