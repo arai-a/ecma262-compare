@@ -1,5 +1,25 @@
 [
  {
+  "base": "0fb85afae0a7f290da3f552ebd3c1fa11e2ef2df",
+  "created_at": "2020-05-09T07:07:12Z",
+  "head": "9b723f9806cca1fd3fa2829ab56a30d6117fc22f",
+  "login": "annevk",
+  "number": 1986,
+  "ref": "annevk/ishtmll",
+  "revs": [
+   {
+    "adate": "2020-05-09T09:06:51+02:00",
+    "author": "Anne van Kesteren",
+    "date": "2020-05-09T09:06:51+02:00",
+    "hash": "9b723f9806cca1fd3fa2829ab56a30d6117fc22f",
+    "parents": "0fb85afae0a7f290da3f552ebd3c1fa11e2ef2df",
+    "subject": "Define [[IsHTMLL]] internal slot"
+   }
+  ],
+  "title": "Define [[IsHTMLL]] internal slot",
+  "updated_at": "2020-05-10T04:52:04Z"
+ },
+ {
   "base": "8678817de67956c26d3e5541df485751ac4c8839",
   "created_at": "2020-05-07T22:54:50Z",
   "head": "ef0495ac3d4e0c0c3145f85deb34dcf53ee327b9",
@@ -26,26 +46,6 @@
   ],
   "title": "Layering: Refine execution context requirements for Jobs",
   "updated_at": "2020-05-08T22:29:56Z"
- },
- {
-  "base": "91656886df8eef3f804b4af4b85bdd7650288435",
-  "created_at": "2020-04-29T22:31:52Z",
-  "head": "193d60f1c631c6d12f3e675f4afd884e8bf4fc30",
-  "login": "shvaikalesh",
-  "number": 1977,
-  "ref": "assert-set-integrity-level",
-  "revs": [
-   {
-    "adate": "2020-04-30T01:28:50+03:00",
-    "author": "Alexey Shvayka",
-    "date": "2020-04-30T01:28:50+03:00",
-    "hash": "193d60f1c631c6d12f3e675f4afd884e8bf4fc30",
-    "parents": "b907cc9f1c54a0d71256d523f8974376a8579910",
-    "subject": "Editorial: Use DefinePropertyOrThrow and ! prefix in GetTemplateObject"
-   }
-  ],
-  "title": "Editorial: Use DefinePropertyOrThrow and ! prefix in GetTemplateObject",
-  "updated_at": "2020-04-29T22:31:52Z"
  },
  {
   "base": "0b988b7700de675331ac360d164c978d6ea452ec",
