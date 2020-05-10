@@ -997,50 +997,6 @@
  },
  {
   "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
-  "created_at": "2019-09-04T20:40:49Z",
-  "head": "ffa6cba4b76f99d858eb93d7a582006704ecd2d8",
-  "login": "Gurigraphics",
-  "number": 1687,
-  "ref": "patch-1",
-  "revs": [
-   {
-    "adate": "2019-09-05T19:09:41-03:00",
-    "author": "Gurigraphics",
-    "date": "2019-09-05T19:09:41-03:00",
-    "hash": "ffa6cba4b76f99d858eb93d7a582006704ecd2d8",
-    "parents": "096b319bb1bc0ce41f901986a2d5c7344f8675f6",
-    "subject": "Direct link to specific topic in CONTRIBUTING.md"
-   },
-   {
-    "adate": "2019-09-05T19:03:50-03:00",
-    "author": "Gurigraphics",
-    "date": "2019-09-05T19:03:50-03:00",
-    "hash": "096b319bb1bc0ce41f901986a2d5c7344f8675f6",
-    "parents": "8d3bbba440e7eb2a05c2b33d67da6e0526d91e80",
-    "subject": "Option to encourage click"
-   },
-   {
-    "adate": "2019-09-05T18:46:36-03:00",
-    "author": "Gurigraphics",
-    "date": "2019-09-05T18:46:36-03:00",
-    "hash": "8d3bbba440e7eb2a05c2b33d67da6e0526d91e80",
-    "parents": "a8f43b33c8cac5f954c647f258a65ee309edcf21",
-    "subject": "Update .github/ISSUE_TEMPLATE/2-feature-request.md"
-   },
-   {
-    "adate": "2019-09-04T17:39:18-03:00",
-    "author": "Gurigraphics",
-    "date": "2019-09-05T11:00:51-07:00",
-    "hash": "a8f43b33c8cac5f954c647f258a65ee309edcf21",
-    "parents": "85f905aff137a7f0872c48e16d6b883b7b46212a",
-    "subject": "meta: make \"new feature\" issue template clearer (#1687)"
-   }
-  ],
-  "title": "meta: make \"new feature\" issue template clearer",
-  "updated_at": "2020-02-28T04:16:06Z"
- },
- {
-  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2019-08-14T13:49:07Z",
   "head": "f8e205ddf32a6ad25d6b48a1db8faed0c3534197",
   "login": "Ms2ger",
@@ -1698,26 +1654,6 @@
   ],
   "title": "Editorial: enable built-in async and sync generator functions to be specified",
   "updated_at": "2020-03-11T22:30:17Z"
- },
- {
-  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
-  "created_at": "2019-08-09T03:07:51Z",
-  "head": "0ad518535b5d60adc2a6320f0dae7c51a0ac2285",
-  "login": "jhnaldo",
-  "number": 1662,
-  "ref": "pr3",
-  "revs": [
-   {
-    "adate": "2019-08-09T11:55:08+09:00",
-    "author": "jhnaldo",
-    "date": "2019-08-09T11:55:08+09:00",
-    "hash": "0ad518535b5d60adc2a6320f0dae7c51a0ac2285",
-    "parents": "8f0f69279b5f9e12ebe8f7052322b93d17e36b54",
-    "subject": "Editorial: Added more missing cases for ExpectedArgumentCount for FormalParameters and FormalParameterList"
-   }
-  ],
-  "title": "Editorial: Added more missing cases for ExpectedArgumentCount for FormalParameters and FormalParameterList",
-  "updated_at": "2020-02-28T04:16:08Z"
  },
  {
   "base": "6826d313a905d05e02daec1f4d2f22b911c960b4",
@@ -3384,9 +3320,9 @@
   "updated_at": "2020-02-28T04:16:28Z"
  },
  {
-  "base": "1f9825e6547853da43ae18f4d72aebaefb06eae8",
+  "base": "4518438c3fe03b56f8ef4cc28ed9ad285cbffd0c",
   "created_at": "2016-04-16T18:28:04Z",
-  "head": "a4e54ccdd692dbb0639ad0e53575ab07be217f95",
+  "head": "db25303ce4e843347780e31ce07f240118019b65",
   "login": "jmdyck",
   "number": 545,
   "ref": "operation_headers",
@@ -3394,118 +3330,22 @@
    {
     "adate": "2016-04-16T14:19:39-04:00",
     "author": "Michael Dyck",
-    "date": "2020-04-30T17:47:44-04:00",
-    "hash": "a4e54ccdd692dbb0639ad0e53575ab07be217f95",
-    "parents": "b6da19128b3eeae3eb737339cc1ed745ee863267",
+    "date": "2020-05-10T11:22:48-04:00",
+    "hash": "db25303ce4e843347780e31ce07f240118019b65",
+    "parents": "e8b9561d186611730b449f70b950dc647c26a4f7",
     "subject": "Introduce operation-headers"
    },
    {
-    "adate": "2020-04-30T16:44:23-04:00",
+    "adate": "2020-05-10T11:16:21-04:00",
     "author": "Michael Dyck",
-    "date": "2020-04-30T16:44:23-04:00",
-    "hash": "b6da19128b3eeae3eb737339cc1ed745ee863267",
-    "parents": "c6f9cf5a5d795a41d34cbf968620989076449a6a",
-    "subject": "Editorial: Change \"step 3\" to \"step 4\" in Note"
-   },
-   {
-    "adate": "2020-04-24T13:54:11-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-04-30T14:27:14-04:00",
-    "hash": "c6f9cf5a5d795a41d34cbf968620989076449a6a",
-    "parents": "fceb65d9356e12fac6eee6754621d657019c0482",
-    "subject": "Editorial: Change \"lexical environment\" to \"Environment Record\""
-   },
-   {
-    "adate": "2020-04-22T23:46:11-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-04-30T14:27:14-04:00",
-    "hash": "fceb65d9356e12fac6eee6754621d657019c0482",
-    "parents": "35c2a003e70eb0a4e711e31a97d517ed8db025d1",
-    "subject": "Editorial: Insert a comma in SetDefaultGlobalBindings()"
-   },
-   {
-    "adate": "2020-04-22T23:43:03-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-04-30T14:27:14-04:00",
-    "hash": "35c2a003e70eb0a4e711e31a97d517ed8db025d1",
-    "parents": "cc3bc059a951edfb64d952b1e3941d03f5dd497e",
-    "subject": "Editorial: Change \"which\" to \"that\""
-   },
-   {
-    "adate": "2020-04-22T23:39:17-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-04-30T14:27:14-04:00",
-    "hash": "cc3bc059a951edfb64d952b1e3941d03f5dd497e",
-    "parents": "07363ac71b1e54608085bbbf42aa834dbdb898a3",
-    "subject": "Editorial: Drop grammatical parameters from 'use' productions"
-   },
-   {
-    "adate": "2020-04-18T21:07:32-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-04-30T14:27:14-04:00",
-    "hash": "07363ac71b1e54608085bbbf42aa834dbdb898a3",
-    "parents": "e35c9bafd16ea8e703434ba61e2b0b65e1187345",
-    "subject": "Editorial: Delete \"as a parameter\" after \"is present\""
-   },
-   {
-    "adate": "2020-04-22T23:30:20-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-04-30T14:27:14-04:00",
-    "hash": "e35c9bafd16ea8e703434ba61e2b0b65e1187345",
-    "parents": "832a4bed17f54d9905ac25e9ae4eeb8a6c63c05e",
-    "subject": "Editorial: Fix typo: \"GeneratorObject\" -> \"generator object\""
-   },
-   {
-    "adate": "2020-04-22T23:29:13-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-04-30T14:27:14-04:00",
-    "hash": "832a4bed17f54d9905ac25e9ae4eeb8a6c63c05e",
-    "parents": "9c8a0b4ac083f06af403a40b3ee3888ee87932eb",
-    "subject": "Editorial: Fix typo: \"Descritor\" -> \"Descriptor\""
-   },
-   {
-    "adate": "2020-04-22T23:16:17-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-04-30T14:27:14-04:00",
-    "hash": "9c8a0b4ac083f06af403a40b3ee3888ee87932eb",
-    "parents": "a203ca24a86e0c5c87185390a66a0d6e31a1f7b8",
-    "subject": "Editorial: Change step 7 to step 6 in SortCompare note"
-   },
-   {
-    "adate": "2020-04-22T23:00:14-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-04-30T14:27:14-04:00",
-    "hash": "a203ca24a86e0c5c87185390a66a0d6e31a1f7b8",
-    "parents": "b330f62c3ca16364ce4204ecb3e223c204154c16",
-    "subject": "Editorial: Change \"Step 2.a\" to \"Step 2.b\" in RepeatMatcher note"
-   },
-   {
-    "adate": "2020-04-22T22:45:22-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-04-30T14:27:14-04:00",
-    "hash": "b330f62c3ca16364ce4204ecb3e223c204154c16",
-    "parents": "7e83bd64c70d3ff88a70a2caca2d3029b7cf0bcf",
-    "subject": "Editorial: Delete <emu-note> in TimeClip clause"
-   },
-   {
-    "adate": "2020-04-22T22:28:17-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-04-30T14:27:14-04:00",
-    "hash": "7e83bd64c70d3ff88a70a2caca2d3029b7cf0bcf",
-    "parents": "8e29adbd06690649976b18064b29b18bbb8f3e8b",
-    "subject": "Editorial: Move an <emu-note> element"
-   },
-   {
-    "adate": "2020-04-22T22:15:27-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-04-30T14:27:13-04:00",
-    "hash": "8e29adbd06690649976b18064b29b18bbb8f3e8b",
-    "parents": "1f9825e6547853da43ae18f4d72aebaefb06eae8",
-    "subject": "Editorial: Reinstate an SDO rule"
+    "date": "2020-05-10T11:16:21-04:00",
+    "hash": "e8b9561d186611730b449f70b950dc647c26a4f7",
+    "parents": "5370c6cc6e35c48f1d4e46e4aff4b76d6479323b",
+    "subject": "Editorial: insert space before left paren"
    }
   ],
   "title": "Replace each abstract op's preamble with a structured 'header'.",
-  "updated_at": "2020-04-30T21:48:24Z"
+  "updated_at": "2020-05-10T15:24:16Z"
  },
  {
   "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
