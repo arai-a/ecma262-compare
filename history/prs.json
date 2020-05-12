@@ -76,13 +76,29 @@
   "updated_at": "2020-04-24T10:59:17Z"
  },
  {
-  "base": "0fb85afae0a7f290da3f552ebd3c1fa11e2ef2df",
+  "base": "bd868f20b8c574ad6689fba014b62a1dba819e56",
   "created_at": "2020-04-23T12:44:14Z",
-  "head": "889905b217af78ddc7d9171ab61e06c92cf6d8ee",
+  "head": "c68bf11171a35458c59910fb17fd66fa9c22e832",
   "login": "jhnaldo",
   "number": 1966,
   "ref": "unambiguous-if-statement-syntax",
   "revs": [
+   {
+    "adate": "2020-05-12T10:46:14+09:00",
+    "author": "jhnaldo",
+    "date": "2020-05-12T10:46:14+09:00",
+    "hash": "c68bf11171a35458c59910fb17fd66fa9c22e832",
+    "parents": "f59b87f6214e41489d2160c0219a4c1e077b1d9c",
+    "subject": "Added a note about lookahead"
+   },
+   {
+    "adate": "2020-05-12T10:38:11+09:00",
+    "author": "Jihyeok Park",
+    "date": "2020-05-12T10:38:11+09:00",
+    "hash": "f59b87f6214e41489d2160c0219a4c1e077b1d9c",
+    "parents": "889905b217af78ddc7d9171ab61e06c92cf6d8ee bd868f20b8c574ad6689fba014b62a1dba819e56",
+    "subject": "Merge branch 'master' into unambiguous-if-statement-syntax"
+   },
    {
     "adate": "2020-05-09T16:07:41+09:00",
     "author": "Jihyeok Park",
@@ -133,7 +149,7 @@
    }
   ],
   "title": "Editorial: Unambiguous grammar for IfStatement",
-  "updated_at": "2020-05-09T07:07:42Z"
+  "updated_at": "2020-05-12T01:51:13Z"
  },
  {
   "base": "cbe3b05777940a3b026b370e4b8d3220dc08e7cc",
