@@ -782,11 +782,19 @@
  {
   "base": "0fb85afae0a7f290da3f552ebd3c1fa11e2ef2df",
   "created_at": "2019-10-17T02:16:37Z",
-  "head": "22a21227d67e0d58d06be8bc50918b49c705f128",
+  "head": "844032dfa719f2ff3d619f9661470f11439ef7cf",
   "login": "michaelficarra",
   "number": 1739,
   "ref": "function-implementation-hiding",
   "revs": [
+   {
+    "adate": "2020-05-12T10:53:43-07:00",
+    "author": "Michael Ficarra",
+    "date": "2020-05-12T10:53:43-07:00",
+    "hash": "844032dfa719f2ff3d619f9661470f11439ef7cf",
+    "parents": "22a21227d67e0d58d06be8bc50918b49c705f128",
+    "subject": "make direct evals static"
+   },
    {
     "adate": "2020-05-09T17:33:37-07:00",
     "author": "Michael Ficarra",
@@ -805,7 +813,7 @@
    }
   ],
   "title": "function implementation hiding",
-  "updated_at": "2020-05-10T00:33:59Z"
+  "updated_at": "2020-05-12T17:55:15Z"
  },
  {
   "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
