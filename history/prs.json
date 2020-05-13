@@ -1,5 +1,25 @@
 [
  {
+  "base": "bd868f20b8c574ad6689fba014b62a1dba819e56",
+  "created_at": "2020-05-13T17:00:02Z",
+  "head": "20584f5d3d4adf93fe3fd263ed566c2ef305c1cf",
+  "login": "michaelficarra",
+  "number": 1992,
+  "ref": "unicode-table-lists",
+  "revs": [
+   {
+    "adate": "2020-05-13T09:54:26-07:00",
+    "author": "Michael Ficarra",
+    "date": "2020-05-13T09:54:26-07:00",
+    "hash": "20584f5d3d4adf93fe3fd263ed566c2ef305c1cf",
+    "parents": "bd868f20b8c574ad6689fba014b62a1dba819e56",
+    "subject": "editorial: use real table rows instead of ULs in Unicode tables"
+   }
+  ],
+  "title": "editorial: use real table rows instead of ULs in Unicode tables",
+  "updated_at": "2020-05-13T17:03:22Z"
+ },
+ {
   "base": "0fb85afae0a7f290da3f552ebd3c1fa11e2ef2df",
   "created_at": "2020-05-09T07:07:12Z",
   "head": "9b723f9806cca1fd3fa2829ab56a30d6117fc22f",
