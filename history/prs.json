@@ -2,11 +2,19 @@
  {
   "base": "bd868f20b8c574ad6689fba014b62a1dba819e56",
   "created_at": "2020-05-13T17:00:02Z",
-  "head": "1b2aaac509ce2d6ff116bdd2de0194aaa9b5ada9",
+  "head": "315095a80a056c2f71fa399dfea84fac262d4a6d",
   "login": "michaelficarra",
   "number": 1992,
   "ref": "unicode-table-lists",
   "revs": [
+   {
+    "adate": "2020-05-13T12:55:34-07:00",
+    "author": "Michael Ficarra",
+    "date": "2020-05-13T12:55:34-07:00",
+    "hash": "315095a80a056c2f71fa399dfea84fac262d4a6d",
+    "parents": "1b2aaac509ce2d6ff116bdd2de0194aaa9b5ada9",
+    "subject": "quote rowspan value"
+   },
    {
     "adate": "2020-05-13T09:54:26-07:00",
     "author": "Michael Ficarra",
@@ -17,7 +25,7 @@
    }
   ],
   "title": "editorial: use real table rows instead of ULs in Unicode tables",
-  "updated_at": "2020-05-13T17:10:24Z"
+  "updated_at": "2020-05-13T19:57:45Z"
  },
  {
   "base": "0fb85afae0a7f290da3f552ebd3c1fa11e2ef2df",
