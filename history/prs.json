@@ -808,40 +808,48 @@
   "updated_at": "2020-04-27T23:27:07Z"
  },
  {
-  "base": "0fb85afae0a7f290da3f552ebd3c1fa11e2ef2df",
+  "base": "bd868f20b8c574ad6689fba014b62a1dba819e56",
   "created_at": "2019-10-17T02:16:37Z",
-  "head": "844032dfa719f2ff3d619f9661470f11439ef7cf",
+  "head": "caf3fe7bae1b073693a74045ceb03e8ad0d5e67a",
   "login": "michaelficarra",
   "number": 1739,
   "ref": "function-implementation-hiding",
   "revs": [
    {
+    "adate": "2020-05-13T15:16:41-07:00",
+    "author": "Michael Ficarra",
+    "date": "2020-05-13T15:24:02-07:00",
+    "hash": "caf3fe7bae1b073693a74045ceb03e8ad0d5e67a",
+    "parents": "221a5c55315da6129a3e5329154e59b9bd212999",
+    "subject": "put back evalContext's Function component"
+   },
+   {
     "adate": "2020-05-12T10:53:43-07:00",
     "author": "Michael Ficarra",
-    "date": "2020-05-12T10:53:43-07:00",
-    "hash": "844032dfa719f2ff3d619f9661470f11439ef7cf",
-    "parents": "22a21227d67e0d58d06be8bc50918b49c705f128",
+    "date": "2020-05-13T15:24:02-07:00",
+    "hash": "221a5c55315da6129a3e5329154e59b9bd212999",
+    "parents": "b661871b9106c2c56df92414c50a66654333a7d1",
     "subject": "make direct evals static"
    },
    {
     "adate": "2020-05-09T17:33:37-07:00",
     "author": "Michael Ficarra",
-    "date": "2020-05-09T17:33:37-07:00",
-    "hash": "22a21227d67e0d58d06be8bc50918b49c705f128",
-    "parents": "06de41c4c0378848fec21abcfac07badde8d59a7",
+    "date": "2020-05-13T15:24:02-07:00",
+    "hash": "b661871b9106c2c56df92414c50a66654333a7d1",
+    "parents": "5156e3fa9c6757a2af2b9c22c52922008421447e",
     "subject": "address review from @bakkot"
    },
    {
     "adate": "2019-10-15T19:01:42-07:00",
     "author": "Michael Ficarra",
-    "date": "2020-05-08T19:14:39-07:00",
-    "hash": "06de41c4c0378848fec21abcfac07badde8d59a7",
-    "parents": "0fb85afae0a7f290da3f552ebd3c1fa11e2ef2df",
+    "date": "2020-05-13T15:24:02-07:00",
+    "hash": "5156e3fa9c6757a2af2b9c22c52922008421447e",
+    "parents": "bd868f20b8c574ad6689fba014b62a1dba819e56",
     "subject": "function implementation hiding"
    }
   ],
   "title": "function implementation hiding",
-  "updated_at": "2020-05-12T17:55:15Z"
+  "updated_at": "2020-05-13T22:24:12Z"
  },
  {
   "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
