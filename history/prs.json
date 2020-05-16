@@ -910,11 +910,19 @@
  {
   "base": "bd868f20b8c574ad6689fba014b62a1dba819e56",
   "created_at": "2019-10-17T02:16:37Z",
-  "head": "caf3fe7bae1b073693a74045ceb03e8ad0d5e67a",
+  "head": "2449ea6f2567de1356674fd29e63aba9c29a4a36",
   "login": "michaelficarra",
   "number": 1739,
   "ref": "function-implementation-hiding",
   "revs": [
+   {
+    "adate": "2020-05-15T17:13:51-07:00",
+    "author": "Michael Ficarra",
+    "date": "2020-05-15T17:13:51-07:00",
+    "hash": "2449ea6f2567de1356674fd29e63aba9c29a4a36",
+    "parents": "caf3fe7bae1b073693a74045ceb03e8ad0d5e67a",
+    "subject": "update to \"hide source\""
+   },
    {
     "adate": "2020-05-13T15:16:41-07:00",
     "author": "Michael Ficarra",
@@ -949,7 +957,7 @@
    }
   ],
   "title": "function implementation hiding",
-  "updated_at": "2020-05-13T22:24:12Z"
+  "updated_at": "2020-05-16T00:14:05Z"
  },
  {
   "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
