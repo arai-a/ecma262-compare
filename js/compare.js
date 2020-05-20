@@ -565,7 +565,8 @@ class Comparator {
 
     this.currentQuery = "";
 
-    this.missingPR = undefined;
+    this.notfoundPR = undefined;
+    this.notfoundRev = undefined;
   }
 
   async run() {
@@ -796,6 +797,7 @@ class Comparator {
       } else {
         this.fromRev.value = "-";
         this.toRev.value = "-";
+        this.notfoundRev = hash;
       }
 
       this.prFilter.value = "-";
@@ -809,7 +811,7 @@ class Comparator {
         this.fromRev.value = "-";
         this.toRev.value = "-";
         if (prnum !== "-") {
-          this.missingPR = prnum;
+          this.notfoundPR = prnum;
         }
       }
 
@@ -1243,12 +1245,16 @@ class Comparator {
   async compare() {
     const isSameRev = this.fromRev.value === this.toRev.value;
     const missingRev = this.fromRev.value === "-" || this.toRev.value === "-";
-    const empty = isSameRev || this.missingPR || missingRev;
+    const empty = isSameRev || this.notfoundPR || missingRev;
     if (empty) {
-      if (this.missingPR) {
+      if (this.notfoundPR) {
         this.messageOverlay.classList.add("shown");
-        this.messageBox.textContent = `PR ${this.missingPR} is not found. This can happen if the the history data isn't yet deployed. Try again 10 minutes later.`;
-        this.missingPR = undefined;
+        this.messageBox.textContent = `PR ${this.notfoundPR} is not found. This can happen if the the history data isn't yet deployed. Try again 10 minutes later.`;
+        this.notfoundPR = undefined;
+      } else if (this.notfoundRev) {
+        this.messageOverlay.classList.add("shown");
+        this.messageBox.textContent = `Revision ${this.notfoundRev} is not found. This can happen if the revision is too old.`;
+        this.notfoundRev = undefined;
       } else {
         this.messageBox.textContent = "";
       }
