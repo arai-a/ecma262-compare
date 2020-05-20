@@ -1,6 +1,26 @@
 [
  {
   "base": "bd868f20b8c574ad6689fba014b62a1dba819e56",
+  "created_at": "2020-05-20T20:42:37Z",
+  "head": "8a0648ac2f4d3df2134c77938edbe71cc3143edf",
+  "login": "devsnek",
+  "number": 2000,
+  "ref": "tailcall",
+  "revs": [
+   {
+    "adate": "2020-05-20T15:41:12-05:00",
+    "author": "Gus Caplan",
+    "date": "2020-05-20T15:41:12-05:00",
+    "hash": "8a0648ac2f4d3df2134c77938edbe71cc3143edf",
+    "parents": "cbe3b05777940a3b026b370e4b8d3220dc08e7cc",
+    "subject": "Editorial: refactor tail calls"
+   }
+  ],
+  "title": "Editorial: refactor tail calls",
+  "updated_at": "2020-05-20T20:42:37Z"
+ },
+ {
+  "base": "bd868f20b8c574ad6689fba014b62a1dba819e56",
   "created_at": "2020-05-19T06:48:54Z",
   "head": "732a11565fb704c72f6daf9bc94cb75dc4542339",
   "login": "ljharb",
