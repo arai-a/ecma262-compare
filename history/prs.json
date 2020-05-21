@@ -1,46 +1,6 @@
 [
  {
   "base": "bd868f20b8c574ad6689fba014b62a1dba819e56",
-  "created_at": "2020-05-20T20:42:37Z",
-  "head": "8a0648ac2f4d3df2134c77938edbe71cc3143edf",
-  "login": "devsnek",
-  "number": 2000,
-  "ref": "tailcall",
-  "revs": [
-   {
-    "adate": "2020-05-20T15:41:12-05:00",
-    "author": "Gus Caplan",
-    "date": "2020-05-20T15:41:12-05:00",
-    "hash": "8a0648ac2f4d3df2134c77938edbe71cc3143edf",
-    "parents": "cbe3b05777940a3b026b370e4b8d3220dc08e7cc",
-    "subject": "Editorial: refactor tail calls"
-   }
-  ],
-  "title": "Editorial: refactor tail calls",
-  "updated_at": "2020-05-20T20:42:37Z"
- },
- {
-  "base": "bd868f20b8c574ad6689fba014b62a1dba819e56",
-  "created_at": "2020-05-19T06:48:54Z",
-  "head": "732a11565fb704c72f6daf9bc94cb75dc4542339",
-  "login": "ljharb",
-  "number": 1998,
-  "ref": "bitwise_consistency",
-  "revs": [
-   {
-    "adate": "2020-05-18T23:44:49-07:00",
-    "author": "Jordan Harband",
-    "date": "2020-05-19T20:57:53-07:00",
-    "hash": "732a11565fb704c72f6daf9bc94cb75dc4542339",
-    "parents": "bd868f20b8c574ad6689fba014b62a1dba819e56",
-    "subject": "Editorial: make `NumberBitwiseOp`, `BigIntBitwiseOp`, `ByteListBitwiseOp` consistent"
-   }
-  ],
-  "title": "Editorial: make `NumberBitwiseOp`, `BigIntBitwiseOp`, `ByteListBitwiseOp` consistent",
-  "updated_at": "2020-05-20T03:57:31Z"
- },
- {
-  "base": "bd868f20b8c574ad6689fba014b62a1dba819e56",
   "created_at": "2020-05-17T15:43:11Z",
   "head": "f81df999358a4b3a7c62be5021f240ff1628e247",
   "login": "EB-Forks",
@@ -58,34 +18,6 @@
   ],
   "title": "Editorial: Add\u00a0`<dfn>` to\u00a0well\u2011known\u00a0symbols",
   "updated_at": "2020-05-17T15:47:21Z"
- },
- {
-  "base": "bd868f20b8c574ad6689fba014b62a1dba819e56",
-  "created_at": "2020-05-16T05:41:13Z",
-  "head": "69ad7cd1fb5e6ee18bdfdbf4527a78e68d6eac05",
-  "login": "bakkot",
-  "number": 1995,
-  "ref": "bump-ecmarkup",
-  "revs": [
-   {
-    "adate": "2020-05-15T22:43:45-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2020-05-19T15:40:53-07:00",
-    "hash": "69ad7cd1fb5e6ee18bdfdbf4527a78e68d6eac05",
-    "parents": "92e173fe7c108c7780f80f136c91d8f54142f493",
-    "subject": "Editorial: mark example algorithm as example"
-   },
-   {
-    "adate": "2020-05-15T22:34:44-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2020-05-19T15:40:49-07:00",
-    "hash": "92e173fe7c108c7780f80f136c91d8f54142f493",
-    "parents": "bd868f20b8c574ad6689fba014b62a1dba819e56",
-    "subject": "Meta: bump ecmarkup, enforce linting"
-   }
-  ],
-  "title": "Meta: bump ecmarkup, enforce linting",
-  "updated_at": "2020-05-19T22:44:23Z"
  },
  {
   "base": "bd868f20b8c574ad6689fba014b62a1dba819e56",
@@ -194,34 +126,6 @@
   ],
   "title": "Editorial: Standardize preambles for internal methods and concrete methods",
   "updated_at": "2020-05-16T21:23:10Z"
- },
- {
-  "base": "bd868f20b8c574ad6689fba014b62a1dba819e56",
-  "created_at": "2020-05-13T17:00:02Z",
-  "head": "315095a80a056c2f71fa399dfea84fac262d4a6d",
-  "login": "michaelficarra",
-  "number": 1992,
-  "ref": "unicode-table-lists",
-  "revs": [
-   {
-    "adate": "2020-05-13T12:55:34-07:00",
-    "author": "Michael Ficarra",
-    "date": "2020-05-13T12:55:34-07:00",
-    "hash": "315095a80a056c2f71fa399dfea84fac262d4a6d",
-    "parents": "1b2aaac509ce2d6ff116bdd2de0194aaa9b5ada9",
-    "subject": "quote rowspan value"
-   },
-   {
-    "adate": "2020-05-13T09:54:26-07:00",
-    "author": "Michael Ficarra",
-    "date": "2020-05-13T10:08:48-07:00",
-    "hash": "1b2aaac509ce2d6ff116bdd2de0194aaa9b5ada9",
-    "parents": "bd868f20b8c574ad6689fba014b62a1dba819e56",
-    "subject": "editorial: use real table rows instead of ULs in Unicode tables"
-   }
-  ],
-  "title": "editorial: use real table rows instead of ULs in Unicode tables",
-  "updated_at": "2020-05-13T19:57:45Z"
  },
  {
   "base": "0fb85afae0a7f290da3f552ebd3c1fa11e2ef2df",
@@ -440,9 +344,9 @@
   "updated_at": "2020-04-16T02:24:01Z"
  },
  {
-  "base": "d0583d8f72787cd9130c571bdffeeeb07d2b8193",
+  "base": "fc9b7a021ddc5edbbfbf6f111f7f64a8db3dcda2",
   "created_at": "2020-04-07T09:28:10Z",
-  "head": "84a969901cda37c544c2900191a203ea5f5b06c0",
+  "head": "a71b8d1497facc9c4ba03f9ef4171efa2665b428",
   "login": "mathiasbynens",
   "number": 1939,
   "ref": "add-aliases",
@@ -450,34 +354,14 @@
    {
     "adate": "2020-04-07T11:26:32+02:00",
     "author": "Mathias Bynens",
-    "date": "2020-04-07T11:26:32+02:00",
-    "hash": "84a969901cda37c544c2900191a203ea5f5b06c0",
-    "parents": "d0583d8f72787cd9130c571bdffeeeb07d2b8193",
+    "date": "2020-05-21T13:41:31-07:00",
+    "hash": "a71b8d1497facc9c4ba03f9ef4171efa2665b428",
+    "parents": "fc9b7a021ddc5edbbfbf6f111f7f64a8db3dcda2",
     "subject": "Normative: Update RegExp property aliases per Unicode v13"
    }
   ],
   "title": "Normative: Update RegExp property aliases per Unicode v13",
-  "updated_at": "2020-04-07T09:28:10Z"
- },
- {
-  "base": "980e1ccf1d37a3c890dc5fe5a36275710459c122",
-  "created_at": "2020-04-06T21:39:28Z",
-  "head": "d8381042c4ca3deff8c8e03190ae2fa75a67e659",
-  "login": "shvaikalesh",
-  "number": 1938,
-  "ref": "number-prototype-early-return-throw",
-  "revs": [
-   {
-    "adate": "2020-04-01T00:19:49+03:00",
-    "author": "Alexey Shvayka",
-    "date": "2020-04-01T00:19:49+03:00",
-    "hash": "d8381042c4ca3deff8c8e03190ae2fa75a67e659",
-    "parents": "3d2f0d499cf7d504ed45b86068022af6b3feb71a",
-    "subject": "Editorial: Early return & throw in Number.prototype.to* methods"
-   }
-  ],
-  "title": "Editorial: Early return & throw in Number.prototype.to* methods",
-  "updated_at": "2020-04-06T21:56:05Z"
+  "updated_at": "2020-05-21T20:49:12Z"
  },
  {
   "base": "980e1ccf1d37a3c890dc5fe5a36275710459c122",
@@ -630,26 +514,6 @@
   ],
   "title": "Normative: make SharedArrayBuffer optional",
   "updated_at": "2020-03-19T22:35:49Z"
- },
- {
-  "base": "bd868f20b8c574ad6689fba014b62a1dba819e56",
-  "created_at": "2020-03-11T17:36:28Z",
-  "head": "c1c1299244cd6e57fd47623636c7fe890c57c615",
-  "login": "mathiasbynens",
-  "number": 1896,
-  "ref": "unicode-13-scripts",
-  "revs": [
-   {
-    "adate": "2020-03-11T14:35:51-03:00",
-    "author": "Mathias Bynens",
-    "date": "2020-05-12T08:53:28+02:00",
-    "hash": "c1c1299244cd6e57fd47623636c7fe890c57c615",
-    "parents": "bd868f20b8c574ad6689fba014b62a1dba819e56",
-    "subject": "Normative: Update Unicode property lists per Unicode v13"
-   }
-  ],
-  "title": "Normative: Update Unicode property lists per Unicode v13",
-  "updated_at": "2020-05-14T05:26:51Z"
  },
  {
   "base": "0b988b7700de675331ac360d164c978d6ea452ec",
