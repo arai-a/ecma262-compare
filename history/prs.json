@@ -22,11 +22,19 @@
  {
   "base": "e1c717927b7018c2e2f346b21c517d988f3c12c7",
   "created_at": "2020-05-21T21:48:07Z",
-  "head": "1cf3238225f01fb0e26a46d203287779224704bd",
+  "head": "e841641d437bde5d552c307c5fae9f869183cc03",
   "login": "michaelficarra",
   "number": 2004,
   "ref": "GH-2002",
   "revs": [
+   {
+    "adate": "2020-05-21T15:43:50-07:00",
+    "author": "Michael Ficarra",
+    "date": "2020-05-21T15:43:50-07:00",
+    "hash": "e841641d437bde5d552c307c5fae9f869183cc03",
+    "parents": "1cf3238225f01fb0e26a46d203287779224704bd",
+    "subject": "32-bit"
+   },
    {
     "adate": "2020-05-21T14:45:59-07:00",
     "author": "Michael Ficarra",
@@ -37,7 +45,7 @@
    }
   ],
   "title": "fixes #2002: more precise definition of NumberBitwiseOp and ByteListBitwiseOp",
-  "updated_at": "2020-05-21T21:53:35Z"
+  "updated_at": "2020-05-21T22:48:07Z"
  },
  {
   "base": "bd868f20b8c574ad6689fba014b62a1dba819e56",
