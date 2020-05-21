@@ -3,5 +3,9 @@
   "api_url": "https://api.github.com/repos/tc39/ecma262/",
   "first_rev": "948baad6d2e026dd637e27d7abc93cbac31597fa",
   "update_first_rev": "948baad6d2e026dd637e27d7abc93cbac31597fa",
-  "first_pr": 1
+  "first_pr": 1,
+  "ignore_revs": [
+    "db92ffacaf2a1eee78f3afde1bf4efe17e3c97bd",
+    "705ebc5d688d7903ccb29e8a711a6775d49bb9ba"
+  ]
 }

@@ -63,6 +63,7 @@ class Config:
     FIRST_REV = __config['first_rev']
     UPDATE_FIRST_REV = __config['update_first_rev']
     FIRST_PR = __config['first_pr']
+    IGNORE_REVS = __config['ignore_revs']
 
 
 class Paths:
@@ -675,6 +676,10 @@ class RevisionRenderer:
 
     @classmethod
     def run(cls, sha, prnum, skip_cache):
+        if sha in Config.IGNORE_REVS:
+            Logger.info('Skipping broken revision {}'.format(sha))
+            return False
+
         updated1 = cls.__html(sha, prnum, skip_cache)
         updated2 = cls.__json(sha, prnum, skip_cache)
         return updated1 or updated2
