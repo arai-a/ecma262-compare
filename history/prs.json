@@ -1,23 +1,23 @@
 [
  {
-  "base": "fc8964ff2cbbaf6c4c2b2e1f448508ec5a63db40",
-  "created_at": "2020-05-22T14:17:46Z",
-  "head": "64be28e4d67da7a6698d9fc0117148159f643997",
-  "login": "bantic",
-  "number": 2006,
-  "ref": "editorial-typo-fix-abstract-operations",
+  "base": "b23239f86039291ee9c92d1c2ba7d089bdb4b60e",
+  "created_at": "2020-05-22T17:36:53Z",
+  "head": "a14ccc2a86b2ea1de82bc20ef822a86a043e9fe1",
+  "login": "caiolima",
+  "number": 2007,
+  "ref": "mathematical-values-fix",
   "revs": [
    {
-    "adate": "2020-05-22T10:12:29-04:00",
-    "author": "Cory",
-    "date": "2020-05-22T10:12:29-04:00",
-    "hash": "64be28e4d67da7a6698d9fc0117148159f643997",
+    "adate": "2020-04-27T15:59:38-03:00",
+    "author": "Caio Lima",
+    "date": "2020-05-22T14:37:42-03:00",
+    "hash": "a14ccc2a86b2ea1de82bc20ef822a86a043e9fe1",
     "parents": "fc8964ff2cbbaf6c4c2b2e1f448508ec5a63db40",
-    "subject": "Editorial: Remove extra \"to\" in Abstract Operations"
+    "subject": "Changing the default numeric type to be mathematical values"
    }
   ],
-  "title": "Editorial: Remove extra \"to\" in Abstract Operations",
-  "updated_at": "2020-05-22T14:17:46Z"
+  "title": "Editorial: Make numeric values and operations default to mathematical values",
+  "updated_at": "2020-05-22T20:59:10Z"
  },
  {
   "base": "bd868f20b8c574ad6689fba014b62a1dba819e56",
