@@ -1,53 +1,5 @@
 [
  {
-  "base": "e1c717927b7018c2e2f346b21c517d988f3c12c7",
-  "created_at": "2020-05-21T21:52:57Z",
-  "head": "5405632732f8d5fcce3cc8394283aac141461aca",
-  "login": "michaelficarra",
-  "number": 2005,
-  "ref": "GH-2003",
-  "revs": [
-   {
-    "adate": "2020-05-21T14:50:37-07:00",
-    "author": "Michael Ficarra",
-    "date": "2020-05-21T14:50:37-07:00",
-    "hash": "5405632732f8d5fcce3cc8394283aac141461aca",
-    "parents": "e1c717927b7018c2e2f346b21c517d988f3c12c7",
-    "subject": "fixes #2003: consistent wording of \"two's complement\""
-   }
-  ],
-  "title": "fixes #2003: consistent wording of \"two's complement\"",
-  "updated_at": "2020-05-21T22:05:17Z"
- },
- {
-  "base": "e1c717927b7018c2e2f346b21c517d988f3c12c7",
-  "created_at": "2020-05-21T21:48:07Z",
-  "head": "e841641d437bde5d552c307c5fae9f869183cc03",
-  "login": "michaelficarra",
-  "number": 2004,
-  "ref": "GH-2002",
-  "revs": [
-   {
-    "adate": "2020-05-21T15:43:50-07:00",
-    "author": "Michael Ficarra",
-    "date": "2020-05-21T15:43:50-07:00",
-    "hash": "e841641d437bde5d552c307c5fae9f869183cc03",
-    "parents": "1cf3238225f01fb0e26a46d203287779224704bd",
-    "subject": "32-bit"
-   },
-   {
-    "adate": "2020-05-21T14:45:59-07:00",
-    "author": "Michael Ficarra",
-    "date": "2020-05-21T14:45:59-07:00",
-    "hash": "1cf3238225f01fb0e26a46d203287779224704bd",
-    "parents": "e1c717927b7018c2e2f346b21c517d988f3c12c7",
-    "subject": "fixes #2002: more precise def. of NumberBitwiseOp and ByteListBitwiseOp"
-   }
-  ],
-  "title": "fixes #2002: more precise definition of NumberBitwiseOp and ByteListBitwiseOp",
-  "updated_at": "2020-05-21T22:48:07Z"
- },
- {
   "base": "bd868f20b8c574ad6689fba014b62a1dba819e56",
   "created_at": "2020-05-17T15:43:11Z",
   "head": "f81df999358a4b3a7c62be5021f240ff1628e247",
@@ -390,26 +342,6 @@
   ],
   "title": "Normative: fix Function toString on builtins",
   "updated_at": "2020-04-16T02:24:01Z"
- },
- {
-  "base": "fc9b7a021ddc5edbbfbf6f111f7f64a8db3dcda2",
-  "created_at": "2020-04-07T09:28:10Z",
-  "head": "a71b8d1497facc9c4ba03f9ef4171efa2665b428",
-  "login": "mathiasbynens",
-  "number": 1939,
-  "ref": "add-aliases",
-  "revs": [
-   {
-    "adate": "2020-04-07T11:26:32+02:00",
-    "author": "Mathias Bynens",
-    "date": "2020-05-21T13:41:31-07:00",
-    "hash": "a71b8d1497facc9c4ba03f9ef4171efa2665b428",
-    "parents": "fc9b7a021ddc5edbbfbf6f111f7f64a8db3dcda2",
-    "subject": "Normative: Update RegExp property aliases per Unicode v13"
-   }
-  ],
-  "title": "Normative: Update RegExp property aliases per Unicode v13",
-  "updated_at": "2020-05-21T20:49:12Z"
  },
  {
   "base": "980e1ccf1d37a3c890dc5fe5a36275710459c122",
@@ -1752,9 +1684,9 @@
   "updated_at": "2020-03-11T22:30:17Z"
  },
  {
-  "base": "6826d313a905d05e02daec1f4d2f22b911c960b4",
+  "base": "fc8964ff2cbbaf6c4c2b2e1f448508ec5a63db40",
   "created_at": "2019-08-09T03:01:02Z",
-  "head": "033f9d071c691f307cebab894466ba994b786ff7",
+  "head": "9ff4f3610160f5393930cc199178441fdc345a13",
   "login": "jhnaldo",
   "number": 1660,
   "ref": "pr1",
@@ -1762,22 +1694,22 @@
    {
     "adate": "2020-03-26T10:56:27+09:00",
     "author": "jhnaldo",
-    "date": "2020-03-26T10:56:27+09:00",
-    "hash": "033f9d071c691f307cebab894466ba994b786ff7",
-    "parents": "6965b3b38c6f4076ff1aa7df8dfaa9c3d65893a2",
+    "date": "2020-05-21T21:58:21-07:00",
+    "hash": "9ff4f3610160f5393930cc199178441fdc345a13",
+    "parents": "3fc29aabba039e948bf68456e5c485c077bdf619",
     "subject": "Editorial: Removed unnecessary explanation and a step"
    },
    {
     "adate": "2019-08-09T11:50:59+09:00",
     "author": "jhnaldo",
-    "date": "2019-08-09T11:50:59+09:00",
-    "hash": "6965b3b38c6f4076ff1aa7df8dfaa9c3d65893a2",
-    "parents": "8f0f69279b5f9e12ebe8f7052322b93d17e36b54",
+    "date": "2020-05-21T21:56:26-07:00",
+    "hash": "3fc29aabba039e948bf68456e5c485c077bdf619",
+    "parents": "fc8964ff2cbbaf6c4c2b2e1f448508ec5a63db40",
     "subject": "Editorial: Remove assertion in InitializeBinding of Object Environment Record"
    }
   ],
   "title": "Editorial: Remove assertion in InitializeBinding of Object Environment Record",
-  "updated_at": "2020-03-26T01:56:37Z"
+  "updated_at": "2020-05-22T04:59:09Z"
  },
  {
   "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
