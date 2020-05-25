@@ -628,112 +628,24 @@
   "updated_at": "2020-04-25T18:59:34Z"
  },
  {
-  "base": "4518438c3fe03b56f8ef4cc28ed9ad285cbffd0c",
+  "base": "b23239f86039291ee9c92d1c2ba7d089bdb4b60e",
   "created_at": "2020-02-05T17:02:01Z",
-  "head": "f5a6e1530d24a2af4f539dd38175f7565ea31fe2",
+  "head": "035917a2e25536b2012ffb8e8e7c8e29772df759",
   "login": "jmdyck",
   "number": 1866,
   "ref": "ParsePattern",
   "revs": [
    {
-    "adate": "2020-04-12T15:52:15-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-05-10T16:44:02-04:00",
-    "hash": "f5a6e1530d24a2af4f539dd38175f7565ea31fe2",
-    "parents": "7bbc789bcc017d5133bb0828509051a5eb68d2f4",
-    "subject": "IVREL: simplify"
-   },
-   {
-    "adate": "2020-02-05T10:51:12-05:00",
-    "author": "Michael Dyck",
-    "date": "2020-05-10T16:43:53-04:00",
-    "hash": "7bbc789bcc017d5133bb0828509051a5eb68d2f4",
-    "parents": "0f54f2e933a3b2b54817e1bfd06ca3739d968113",
-    "subject": "Editorial: Extract operation 'ParsePattern'"
-   },
-   {
-    "adate": "2020-02-05T10:34:23-05:00",
-    "author": "Michael Dyck",
-    "date": "2020-05-10T16:26:49-04:00",
-    "hash": "0f54f2e933a3b2b54817e1bfd06ca3739d968113",
-    "parents": "876974658685369cf95f73f75a8e8a0efd1e639b",
-    "subject": "REI: Factor out the last sentence of each 'Parse' step"
-   },
-   {
-    "adate": "2020-02-05T10:31:14-05:00",
-    "author": "Michael Dyck",
-    "date": "2020-05-10T16:26:49-04:00",
-    "hash": "876974658685369cf95f73f75a8e8a0efd1e639b",
-    "parents": "be8ab031611da6a5b8c40aa6134a233374f2351a",
-    "subject": "REI: Split the 'If'"
-   },
-   {
-    "adate": "2020-02-05T10:28:36-05:00",
-    "author": "Michael Dyck",
-    "date": "2020-05-10T16:26:48-04:00",
-    "hash": "be8ab031611da6a5b8c40aa6134a233374f2351a",
-    "parents": "a5b3d7c7789abb8afdf201574c7e3825a587ca06",
-    "subject": "REI: Reword a step slightly"
-   },
-   {
-    "adate": "2020-02-05T10:25:15-05:00",
-    "author": "Michael Dyck",
-    "date": "2020-05-10T16:26:48-04:00",
-    "hash": "a5b3d7c7789abb8afdf201574c7e3825a587ca06",
-    "parents": "4910e28d19386fabe0cb99c07faa1c876bcd7015",
-    "subject": "REI: Rename `_pText_` as `_patternText_`"
-   },
-   {
-    "adate": "2020-02-05T10:22:55-05:00",
-    "author": "Michael Dyck",
-    "date": "2020-05-10T16:26:48-04:00",
-    "hash": "4910e28d19386fabe0cb99c07faa1c876bcd7015",
-    "parents": "9e10be720fcd21016afe6df621c9cf7a80d4f0fe",
-    "subject": "REI: swap the order of the 2 arms of the 'If'"
-   },
-   {
-    "adate": "2020-02-05T10:21:24-05:00",
-    "author": "Michael Dyck",
-    "date": "2020-05-10T16:26:48-04:00",
-    "hash": "9e10be720fcd21016afe6df621c9cf7a80d4f0fe",
-    "parents": "3f5a6f9999da792b6e8f3bc3146eb268c7509f4c",
-    "subject": "REI: Replace `_BMP_` with its complement `_u_`"
-   },
-   {
-    "adate": "2020-02-05T10:19:34-05:00",
-    "author": "Michael Dyck",
-    "date": "2020-05-10T16:26:48-04:00",
-    "hash": "3f5a6f9999da792b6e8f3bc3146eb268c7509f4c",
-    "parents": "3144afdb9ca47844e4e4cf9416491bca15dc8c7d",
-    "subject": "IVREL: Factor out the last sentence of each 'Parse' step"
-   },
-   {
-    "adate": "2020-04-12T15:14:46-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-05-10T16:26:48-04:00",
-    "hash": "3144afdb9ca47844e4e4cf9416491bca15dc8c7d",
-    "parents": "f89a69ae3cba9380ae03c5952538e64f8e641b8b",
-    "subject": "IVREL: Rename `_pText_` as `_patternText_`"
-   },
-   {
-    "adate": "2020-02-05T10:13:00-05:00",
-    "author": "Michael Dyck",
-    "date": "2020-05-10T16:26:48-04:00",
-    "hash": "f89a69ae3cba9380ae03c5952538e64f8e641b8b",
-    "parents": "68a9e2738603fffe83946c0389f971f9d6647d29",
-    "subject": "IVREL: Introduce `_u_`"
-   },
-   {
     "adate": "2020-02-05T10:08:23-05:00",
     "author": "Michael Dyck",
-    "date": "2020-05-10T16:26:48-04:00",
-    "hash": "68a9e2738603fffe83946c0389f971f9d6647d29",
+    "date": "2020-05-25T15:50:13-04:00",
+    "hash": "035917a2e25536b2012ffb8e8e7c8e29772df759",
     "parents": "4518438c3fe03b56f8ef4cc28ed9ad285cbffd0c",
-    "subject": "IVREL: introduce an 'Else'"
+    "subject": "Editorial: Extract operation 'ParsePattern'"
    }
   ],
   "title": " Editorial: Extract operation 'ParsePattern'",
-  "updated_at": "2020-05-10T21:03:21Z"
+  "updated_at": "2020-05-25T19:50:38Z"
  },
  {
   "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
