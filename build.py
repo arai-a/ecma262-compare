@@ -12,6 +12,10 @@ import sys
 import urllib.request
 
 
+class BuildFailureException(Exception):
+    pass
+
+
 class Logger:
     def info(s):
         print('[INFO] {}'.format(s))
@@ -48,6 +52,13 @@ class FileUtils:
         with open(path, 'w') as f:
             f.write(text)
 
+    def write_formatted_json(path, data):
+        text = json.dumps(data,
+                          indent=1,
+                          separators=(',', ': '),
+                          sort_keys=True)
+        FileUtils.write(path, text)
+
     def mkdir_p(path):
         if not os.path.exists(path):
             os.makedirs(path)
@@ -55,6 +66,7 @@ class FileUtils:
 
 class Config:
     __config_path = os.path.join('.', 'config.json')
+    __broken_revs_path = os.path.join('.', 'broken_revs.json')
 
     __config = FileUtils.read_json(__config_path)
 
@@ -63,7 +75,12 @@ class Config:
     FIRST_REV = __config['first_rev']
     UPDATE_FIRST_REV = __config['update_first_rev']
     FIRST_PR = __config['first_pr']
-    IGNORE_REVS = __config['ignore_revs']
+    BROKEN_REVS = FileUtils.read_json(__broken_revs_path)
+
+    @classmethod
+    def add_broken_rev(cls, rev):
+        cls.BROKEN_REVS.append(rev)
+        FileUtils.write_formatted_json(cls.__broken_revs_path, cls.BROKEN_REVS)
 
 
 class Paths:
@@ -594,9 +611,12 @@ class RevisionRenderer:
         repo_out_dir = os.path.join(LocalRepository.DIR, 'out')
         repo_out_index_path = os.path.join(repo_out_dir, 'index.html')
 
-        subprocess.run(['npm', 'run', '--silent', 'build'],
-                       cwd=LocalRepository.DIR,
-                       check=True)
+        try:
+            subprocess.run(['npm', 'run', '--silent', 'build'],
+                           cwd=LocalRepository.DIR,
+                           check=True)
+        except:
+            raise BuildFailureException()
 
         script_relative_path = os.path.join('scripts',
                                             'insert_snapshot_warning.js')
@@ -676,13 +696,18 @@ class RevisionRenderer:
 
     @classmethod
     def run(cls, sha, prnum, skip_cache):
-        if sha in Config.IGNORE_REVS:
+        if sha in Config.BROKEN_REVS:
             Logger.info('Skipping broken revision {}'.format(sha))
             return False
 
-        updated1 = cls.__html(sha, prnum, skip_cache)
-        updated2 = cls.__json(sha, prnum, skip_cache)
-        return updated1 or updated2
+        try:
+            updated1 = cls.__html(sha, prnum, skip_cache)
+            updated2 = cls.__json(sha, prnum, skip_cache)
+            return updated1 or updated2
+        except BuildFailureException:
+            Config.add_broken_rev(sha)
+            Logger.info('Skipping build failure {}'.format(sha))
+            return False
 
     @classmethod
     def run_parent(cls, sha, prnum, parent_sha, skip_cache):
