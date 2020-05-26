@@ -1,5 +1,85 @@
 [
  {
+  "base": "51289e82883bd3526260540e847470a676f10b6c",
+  "created_at": "2020-05-25T23:15:50Z",
+  "head": "505947269b0209e5c16e0a450519a7b15d634233",
+  "login": "tc39",
+  "number": 2014,
+  "ref": "rename-unicode-ops",
+  "revs": [
+   {
+    "adate": "2020-05-25T15:58:55-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-05-25T16:12:59-07:00",
+    "hash": "505947269b0209e5c16e0a450519a7b15d634233",
+    "parents": "a4b10b2f1ac62c763e11180ccc61f4a4099d3cd3",
+    "subject": "Editorial: rename UTF16DecodeString to UTF16CodeUnitsToCodePoints"
+   },
+   {
+    "adate": "2020-05-25T15:58:50-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-05-25T16:12:59-07:00",
+    "hash": "a4b10b2f1ac62c763e11180ccc61f4a4099d3cd3",
+    "parents": "b1f32bcbe1962122e677b75abc571991178a478d",
+    "subject": "Editorial: rename UTF16DecodeSurrogatePair to UTF16SurrogatePairToCodePoint"
+   },
+   {
+    "adate": "2020-05-25T15:58:46-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-05-25T16:12:59-07:00",
+    "hash": "b1f32bcbe1962122e677b75abc571991178a478d",
+    "parents": "8df6dd875c41bed810e31a5019196cbd39e4a258",
+    "subject": "Editorial: rename UTF16Encode to UTF16CodePointsToCodeUnits"
+   },
+   {
+    "adate": "2020-05-25T15:58:40-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-05-25T16:12:57-07:00",
+    "hash": "8df6dd875c41bed810e31a5019196cbd39e4a258",
+    "parents": "a37b0f29dbffecbb75317d607b57d087839da06c",
+    "subject": "Editorial: reword some usages of UTF16CodePointToCodeUnits"
+   },
+   {
+    "adate": "2020-05-25T15:58:34-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-05-25T15:58:34-07:00",
+    "hash": "a37b0f29dbffecbb75317d607b57d087839da06c",
+    "parents": "51289e82883bd3526260540e847470a676f10b6c",
+    "subject": "Editorial: rename UTF16Encoding to UTF16CodePointToCodeUnits"
+   }
+  ],
+  "title": "Editorial: Rename Unicode encoding/decoding operations",
+  "updated_at": "2020-05-25T23:16:02Z"
+ },
+ {
+  "base": "b23239f86039291ee9c92d1c2ba7d089bdb4b60e",
+  "created_at": "2020-05-25T21:24:06Z",
+  "head": "676e207f46b6b872c13e18ae2fbe1fb9ac8a0358",
+  "login": "jmdyck",
+  "number": 2013,
+  "ref": "ParseText",
+  "revs": [
+   {
+    "adate": "2020-05-25T17:11:36-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-05-25T17:11:36-04:00",
+    "hash": "676e207f46b6b872c13e18ae2fbe1fb9ac8a0358",
+    "parents": "4268efc03388035eac0b9beaa39b9032e50cc660",
+    "subject": "Editorial: Extract operation ParseText"
+   },
+   {
+    "adate": "2020-05-25T17:05:23-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-05-25T17:05:23-04:00",
+    "hash": "4268efc03388035eac0b9beaa39b9032e50cc660",
+    "parents": "b23239f86039291ee9c92d1c2ba7d089bdb4b60e",
+    "subject": "Editorial: Delete \"as modified\" wording in Note for JSON.parse."
+   }
+  ],
+  "title": "Editorial: Extract operation ParseText",
+  "updated_at": "2020-05-25T21:24:06Z"
+ },
+ {
   "base": "b23239f86039291ee9c92d1c2ba7d089bdb4b60e",
   "created_at": "2020-05-25T08:57:54Z",
   "head": "3476c0540a09e439a5791141cf3a3fff3a808500",
@@ -18,42 +98,6 @@
   ],
   "title": "add discourse to readme",
   "updated_at": "2020-05-25T08:57:54Z"
- },
- {
-  "base": "b23239f86039291ee9c92d1c2ba7d089bdb4b60e",
-  "created_at": "2020-05-24T14:40:40Z",
-  "head": "88df31547d2c5562614b9b0a7f281c51f548756d",
-  "login": "codehag",
-  "number": 2010,
-  "ref": "searchfox",
-  "revs": [
-   {
-    "adate": "2020-05-25T09:32:35+02:00",
-    "author": "yulia",
-    "date": "2020-05-25T09:32:35+02:00",
-    "hash": "88df31547d2c5562614b9b0a7f281c51f548756d",
-    "parents": "3be84682ffcc8e2a8c8f893d69e040453b046607",
-    "subject": "Update README.md"
-   },
-   {
-    "adate": "2020-05-24T17:36:35+02:00",
-    "author": "yulia",
-    "date": "2020-05-24T17:36:35+02:00",
-    "hash": "3be84682ffcc8e2a8c8f893d69e040453b046607",
-    "parents": "d8af18e1573a6e1ec3898132d0553eb525e849d7",
-    "subject": "Update README.md"
-   },
-   {
-    "adate": "2020-05-24T16:39:39+02:00",
-    "author": "codehag",
-    "date": "2020-05-24T16:39:39+02:00",
-    "hash": "d8af18e1573a6e1ec3898132d0553eb525e849d7",
-    "parents": "b23239f86039291ee9c92d1c2ba7d089bdb4b60e",
-    "subject": "add searchfox link to readme"
-   }
-  ],
-  "title": "add searchfox link to readme",
-  "updated_at": "2020-05-25T07:40:05Z"
  },
  {
   "base": "b23239f86039291ee9c92d1c2ba7d089bdb4b60e",
@@ -2648,13 +2692,37 @@
   "updated_at": "2020-02-28T04:16:18Z"
  },
  {
-  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
+  "base": "51289e82883bd3526260540e847470a676f10b6c",
   "created_at": "2019-03-01T17:43:31Z",
-  "head": "343b55373369a219086fd1fe1cead3dfc1122500",
+  "head": "a17c49f2f750f46a48138b5241b63e61aed05da4",
   "login": "viktmv",
   "number": 1463,
   "ref": "master",
   "revs": [
+   {
+    "adate": "2020-05-25T17:34:52-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-05-25T17:34:52-07:00",
+    "hash": "a17c49f2f750f46a48138b5241b63e61aed05da4",
+    "parents": "d43d844b020651334ffa24b6c783cb841023e257",
+    "subject": "s/the/any other/"
+   },
+   {
+    "adate": "2020-05-25T17:07:23-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-05-25T17:07:23-07:00",
+    "hash": "d43d844b020651334ffa24b6c783cb841023e257",
+    "parents": "1e04d23766e5401fdbd365d86824ce1d2b9404c0",
+    "subject": "refer to ToObject"
+   },
+   {
+    "adate": "2020-05-25T17:04:22-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-05-25T17:04:22-07:00",
+    "hash": "1e04d23766e5401fdbd365d86824ce1d2b9404c0",
+    "parents": "343b55373369a219086fd1fe1cead3dfc1122500 51289e82883bd3526260540e847470a676f10b6c",
+    "subject": "Merge branch 'master' into master"
+   },
    {
     "adate": "2019-03-01T13:52:00-05:00",
     "author": "viktmv",
@@ -2673,7 +2741,7 @@
    }
   ],
   "title": "Editorial: Fix description of [[ThisMode]] internal slot of Function Object",
-  "updated_at": "2020-02-28T04:16:19Z"
+  "updated_at": "2020-05-26T00:37:02Z"
  },
  {
   "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
@@ -2894,26 +2962,6 @@
   ],
   "title": "Editorial: Convert @@ notation to intrinsics notation for well-known Symbols",
   "updated_at": "2020-05-01T03:50:15Z"
- },
- {
-  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
-  "created_at": "2018-08-16T06:03:06Z",
-  "head": "2782dd793e1e21e8b51340956e6eacf56485a27e",
-  "login": "isiahmeadows",
-  "number": 1288,
-  "ref": "iterator-getmethod",
-  "revs": [
-   {
-    "adate": "2018-08-16T01:40:38-04:00",
-    "author": "Isiah Meadows",
-    "date": "2018-08-16T11:27:51-04:00",
-    "hash": "2782dd793e1e21e8b51340956e6eacf56485a27e",
-    "parents": "62225e4dd20b3221c9e7b9bd02374064d31e6b34",
-    "subject": "Normative: Use GetMethod instead of GetV to get iterator `next`"
-   }
-  ],
-  "title": "Normative: Use GetMethod instead of GetV to get iterator `next`",
-  "updated_at": "2020-02-28T04:16:22Z"
  },
  {
   "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
