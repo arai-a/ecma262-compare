@@ -130,11 +130,27 @@
  {
   "base": "b23239f86039291ee9c92d1c2ba7d089bdb4b60e",
   "created_at": "2020-05-22T17:36:53Z",
-  "head": "9068aefb5e7d916916590a487c527fc4ef02fc7b",
+  "head": "c402bb317bc1bf47ea14e6eb2a97bd768e5fa0c3",
   "login": "caiolima",
   "number": 2007,
   "ref": "mathematical-values-fix",
   "revs": [
+   {
+    "adate": "2020-05-26T15:45:06-03:00",
+    "author": "Caio Lima",
+    "date": "2020-05-26T15:45:06-03:00",
+    "hash": "c402bb317bc1bf47ea14e6eb2a97bd768e5fa0c3",
+    "parents": "e72abdf83fa51fbb6246ea7883fb5c7cc3f1a913",
+    "subject": "Adjusting type usage of '+' operator"
+   },
+   {
+    "adate": "2020-05-26T11:16:07-03:00",
+    "author": "Caio Lima",
+    "date": "2020-05-26T11:42:39-03:00",
+    "hash": "e72abdf83fa51fbb6246ea7883fb5c7cc3f1a913",
+    "parents": "9068aefb5e7d916916590a487c527fc4ef02fc7b",
+    "subject": "Defining and using 'integral Number'"
+   },
    {
     "adate": "2020-05-25T16:18:17-03:00",
     "author": "Caio Lima",
@@ -153,7 +169,7 @@
    }
   ],
   "title": "Editorial: Make numeric values and operations default to mathematical values",
-  "updated_at": "2020-05-25T19:19:34Z"
+  "updated_at": "2020-05-26T18:55:41Z"
  },
  {
   "base": "7479ade585c62b4af2c66898fc0b64731f97adc6",
