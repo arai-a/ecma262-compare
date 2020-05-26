@@ -105,6 +105,9 @@ html.help #container {
 #search {
     width: calc(100% - 44px);
 }
+#sec-search {
+    width: calc(100% - 44px);
+}
 
 .filter-label {
     font-weight: bold;

@@ -7,9 +7,9 @@
 <link rel="shortcut icon" href="./img/ecma262-compare.png" sizes="256x256" type="image/png">
 <link rel="apple-touch-icon" href="./img/ecma262-compare.png" sizes="256x256" type="image/png">
 <link href="./style/ecmarkup.css" rel="stylesheet">
-<link href="./style/base.css?20200306-c" rel="stylesheet">
-<link href="./style/compare.css?20200307-c" rel="stylesheet">
-<script type="text/javascript" src="./js/compare.js?20200313-a"></script>
+<link href="./style/base.css?20200526-a" rel="stylesheet">
+<link href="./style/compare.css?20200526-a" rel="stylesheet">
+<script type="text/javascript" src="./js/compare.js?20200526-a"></script>
 </head>
 <body onload="onBodyLoad()">
 <div id="container">
@@ -87,8 +87,24 @@
       </div>
       <label class="filter-label" for="sec-list">Section</label>
       <div class="filter-container">
-        <select id="sec-list" onchange="onSecListChange()"></select>
-        <span id="sec-hit"></span>
+        <div>
+          <input id="sec-search"
+                 placeholder="search section by section number, id, title"
+                 list="sec-data-list"
+                 oninput="onSecSearchInput()"
+                 onkeydown="onSecSearchKeyDown(event)">
+          <datalist id="sec-data-list"></datalist>
+        </div>
+        <div>
+          <select id="sec-list" onchange="onSecListChange()"></select>
+          <span id="sec-hit"></span>
+        </div>
+        <div>
+          <input id="sec-all" type="checkbox" onchange="onSecAllChange()">
+          <label for="sec-all">List all sections</label>
+          <input id="sec-subtree" type="checkbox" onchange="onSecSubTreeChange()">
+          <label for="sec-subtree">Use combined view for subtree</label>
+        </div>
       </div>
     </div>
     <div id="tabs">

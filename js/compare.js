@@ -541,6 +541,11 @@ class Comparator {
     this.fromRev = document.getElementById("from-rev");
     this.toRev = document.getElementById("to-rev");
     this.secList = document.getElementById("sec-list");
+    this.secIdList = [];
+    this.secSearchField = document.getElementById("sec-search");
+    this.secDataMap = {};
+    this.secAll = document.getElementById("sec-all");
+    this.secSubtree = document.getElementById("sec-subtree");
     this.prLink = document.getElementById("pr-link");
     this.fromLink = document.getElementById("from-history-link");
     this.toLink = document.getElementById("to-history-link");
@@ -558,6 +563,7 @@ class Comparator {
     this.scroller = document.getElementById("scroller");
     this.searchField = document.getElementById("search");
     this.revsAndPRsList = document.getElementById("revs-and-prs-list");
+    this.secDataList = document.getElementById("sec-data-list");
     this.revsAndPRs = [];
     this.revsAndPRsMap = {};
     this.messageOverlay = document.getElementById("message-overlay");
@@ -567,6 +573,8 @@ class Comparator {
 
     this.notfoundPR = undefined;
     this.notfoundRev = undefined;
+
+    this.compareTimer = null;
   }
 
   async run() {
@@ -759,6 +767,18 @@ class Comparator {
       section = queryParams.id;
     }
 
+    if ("secAll" in queryParams) {
+      this.secAll.checked = true;
+    } else {
+      this.secAll.checked = false;
+    }
+
+    if ("secSubtree" in queryParams) {
+      this.secSubtree.checked = true;
+    } else {
+      this.secSubtree.checked = false;
+    }
+
     if ("rev" in queryParams) {
       this.updateUI("rev", {
         rev: queryParams.rev,
@@ -844,7 +864,7 @@ class Comparator {
 
     if ("section" in params && params.section) {
       this.secList.value = params.section;
-    } else {
+    } else if (!this.secAll.checked) {
       this.secList.value = "combined";
     }
 
@@ -999,11 +1019,6 @@ class Comparator {
     this.result.textContent = "";
     this.setStat("");
 
-
-    while (this.secList.firstChild) {
-      this.secList.firstChild.remove();
-    }
-
     if (this.fromRev.value === "-" ||
         this.toRev.value === "-") {
       return;
@@ -1013,7 +1028,7 @@ class Comparator {
 
     let found = false;
     const toHash = this.toRev.value;
-    if (this.getParentOf(toHash) === this.fromRev.value) {
+    if (!this.secAll.checked && this.getParentOf(toHash) === this.fromRev.value) {
       const result = await this.getJSON(`./history/${toHash}/parent_diff.json`);
       if (result) {
         this.fromSecData = result.from;
@@ -1050,13 +1065,30 @@ class Comparator {
       this.toSecData.map = map;
     }
 
+    await this.populateSectionList();
+  }
+
+  async populateSectionList() {
+    this.result.textContent = "";
     this.setStat("");
+
+    const prevValue = this.secList.value;
+
+    while (this.secList.firstChild) {
+      this.secList.firstChild.remove();
+    }
+    while (this.secDataList.firstChild) {
+      this.secDataList.firstChild.remove();
+    }
+    this.secIdList = [];
 
     this.secHit.textContent = "";
 
     const fromSecSet = new Set(this.fromSecData.secList);
     const toSecSet = new Set(this.toSecData.secList);
     const secSet = new Set(this.fromSecData.secList.concat(this.toSecData.secList));
+
+    const showAll = this.secAll.checked;
 
     const opt = document.createElement("option");
     opt.value = "combined";
@@ -1076,19 +1108,40 @@ class Comparator {
       let stat;
       let mark;
 
-      if (fromSecSet.has(secId)) {
-        if (toSecSet.has(secId)) {
-          if (!this.isChanged(secId)) {
-            continue;
-          }
+      let fromNum = "";
+      let toNum = "";
 
-          stat = "mod";
-          mark = "-+";
+      if (fromSecSet.has(secId)) {
+        fromNum = this.fromSecData.secData[secId].num;
+
+        if (toSecSet.has(secId)) {
+          toNum = this.toSecData.secData[secId].num;
+
+          if (!this.isChanged(secId)) {
+            if (showAll) {
+              stat = "same";
+              mark = "  ";
+            } else {
+              this.secIdList.push({
+                fromNum,
+                id: secId,
+                stat: "same",
+                toNum,
+              });
+              continue;
+            }
+          } else {
+            stat = "mod";
+            mark = "-+";
+          }
         } else {
           stat = "del";
           mark = "-\u00A0";
         }
       } else {
+        const toSec = this.toSecData.secData[secId];
+        toNum = toSec.num;
+
         stat = "ins";
         mark = "+\u00A0";
       }
@@ -1106,7 +1159,25 @@ class Comparator {
       opt.classList.add(stat);
 
       this.secList.appendChild(opt);
-      count++;
+      if (secId === prevValue) {
+        this.secList.value = secId;
+      }
+
+      this.secDataMap[title] = secId;
+
+      const dataOpt = document.createElement("option");
+      dataOpt.textContent = title;
+      this.secDataList.appendChild(dataOpt);
+
+      this.secIdList.push({
+        fromNum,
+        id: secId,
+        stat,
+        toNum,
+      });
+      if (stat !== "same") {
+        count++;
+      }
     }
 
     if (this.fromRev.value === this.toRev.value) {
@@ -1114,9 +1185,9 @@ class Comparator {
     } else if (count === 0) {
       this.secHit.textContent = "No difference (changes in markup or something)";
     } else if (count === 1) {
-      this.secHit.textContent = `${count} section found`;
+      this.secHit.textContent = `${count} section differs`;
     } else {
-      this.secHit.textContent = `${count} sections found`;
+      this.secHit.textContent = `${count} sections differ`;
     }
   }
 
@@ -1163,15 +1234,23 @@ class Comparator {
   getSectionTitle(secId) {
     if (secId in this.fromSecData.secData) {
       const sec = this.fromSecData.secData[secId];
-      return `${sec.num} ${sec.title}`;
+      return `${sec.num} ${this.filterSecTitle(sec.title)}`;
     }
 
     if (secId in this.toSecData.secData) {
       const sec = this.toSecData.secData[secId];
-      return `${sec.num} ${sec.title}`;
+      return `${sec.num} ${this.filterSecTitle(sec.title)}`;
     }
 
     return "";
+  }
+
+  filterSecTitle(title) {
+    const m = title.match(/^(#[^ ]+)+ +(.+)/);
+    if (!m) {
+      return title;
+    }
+    return `[${m[1]}] ${m[2]}`;
   }
 
   // Returns whether the section is changed, added, or removed between from/to
@@ -1224,6 +1303,13 @@ class Comparator {
       }
     }
 
+    if (this.secAll.checked) {
+      params.push(`secAll=true`);
+    }
+    if (this.secSubtree.checked) {
+      params.push(`secSubtree=true`);
+    }
+
     if (this.headerCollapsed) {
       params.push("collapsed=1");
     }
@@ -1272,10 +1358,44 @@ class Comparator {
     if (this.secList.value === "combined") {
       this.result.classList.add("combined");
 
-      for (const opt of this.secList.children) {
-        const id = opt.value;
-        if (id === "combined") {
+      for (const { stat, id }  of this.secIdList) {
+        if (stat === "same") {
           continue;
+        }
+
+        const fromHTML = this.getSectionHTML(this.fromSecData, id);
+        const toHTML = this.getSectionHTML(this.toSecData, id);
+        secList.push([id, fromHTML, toHTML]);
+      }
+    } else if (this.secSubtree.checked) {
+      const rootId = this.secList.value;
+
+      let fromRootNum = "";
+      let toRootNum = "";
+      if (rootId in this.fromSecData.secData) {
+        fromRootNum = this.fromSecData.secData[rootId].num;
+      }
+      if (rootId in this.toSecData.secData) {
+        toRootNum = this.toSecData.secData[rootId].num;
+      }
+      this.result.classList.add("combined");
+
+      for (const { stat, id, fromNum, toNum } of this.secIdList) {
+        if (stat === "same") {
+          continue;
+        }
+
+        if (fromRootNum && fromNum) {
+          if (fromRootNum !== fromNum &&
+              !fromNum.startsWith(fromRootNum + ".")) {
+            continue;
+          }
+        }
+        if (toRootNum && toNum) {
+          if (toRootNum !== toNum &&
+              !toNum.startsWith(toRootNum + ".")) {
+            continue;
+          }
         }
 
         const fromHTML = this.getSectionHTML(this.fromSecData, id);
@@ -1905,6 +2025,37 @@ class Comparator {
     this.updateURL(true);
   }
 
+  async onSecSearchInput() {
+    const query = this.secSearchField.value.trim();
+    if (query in this.secDataMap) {
+      this.secList.value = this.secDataMap[query];
+      await this.onSecListChange();
+    }
+  }
+
+  async onSecSearchKeyDown(event) {
+    if (event.key !== "Enter") {
+      return;
+    }
+
+    const query = this.secSearchField.value.trim();
+    if (query in this.secDataMap) {
+      this.secList.value = this.secDataMap[query];
+      await this.onSecListChange();
+    }
+  }
+
+  async onSecAllChange() {
+    this.updateURL();
+    await this.updateSectionList();
+    await this.compare();
+  }
+
+  async onSecSubTreeChange() {
+    this.updateURL();
+    await this.compare();
+  }
+
   async onPopState() {
     if (window.location.search === this.currentQuery) {
       return;
@@ -1987,6 +2138,26 @@ function onMessageOverlayClick() {
 /* exported onCollapseControlClick */
 function onCollapseControlClick() {
   comparator.onCollapseControlClick().catch(e => console.error(e));
+}
+
+/* exported onSecSearchInput */
+function onSecSearchInput() {
+  comparator.onSecSearchInput().catch(e => console.error(e));
+}
+
+/* exported onSecSearchKeyDown */
+function onSecSearchKeyDown(event) {
+  comparator.onSecSearchKeyDown(event).catch(e => console.error(e));
+}
+
+/* exported onSecAllChange */
+function onSecAllChange() {
+  comparator.onSecAllChange().catch(e => console.error(e));
+}
+
+/* exported onSecSubTreeChange */
+function onSecSubTreeChange() {
+  comparator.onSecSubTreeChange().catch(e => console.error(e));
 }
 
 window.addEventListener("popstate", () => {

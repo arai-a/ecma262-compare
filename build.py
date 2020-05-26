@@ -550,7 +550,7 @@ class SectionsComparator:
 
         for (fig_id, name) in fig_data.items():
             if fig_id in html:
-                result[fig_id] = name;
+                result[fig_id] = name
 
         return result
 
@@ -615,7 +615,7 @@ class RevisionRenderer:
             subprocess.run(['npm', 'run', '--silent', 'build'],
                            cwd=LocalRepository.DIR,
                            check=True)
-        except:
+        except Exception:
             raise BuildFailureException()
 
         script_relative_path = os.path.join('scripts',
@@ -950,7 +950,8 @@ parser = argparse.ArgumentParser(description='Update ecma262 history data')
 parser.add_argument('--skip-cache', action='store_true',
                     help='Skip cache')
 parser.add_argument('--full-check', action='store_true',
-                    help='Check all PR data, instead of light-weight cache check')
+                    help='Check all PR data, instead of light-weight cache \
+                    check')
 parser.add_argument('--skip-list', action='store_true',
                     help='Skip updating list')
 subparsers = parser.add_subparsers(dest='command')
@@ -1002,7 +1003,8 @@ elif args.command == 'pr':
             PRs.update_cache()
             Revisions.update_cache()
     else:
-        updated = PRs.update(int(args.PR_NUMBER), args.skip_cache, args.full_check)
+        updated = PRs.update(int(args.PR_NUMBER), args.skip_cache,
+                             args.full_check)
         if not args.skip_list and updated:
             PRs.update_cache()
             Revisions.update_cache()
