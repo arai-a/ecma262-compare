@@ -32,6 +32,7 @@ jobs:
         curl -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.pages_hash.outputs.sha}}/Makefile
         curl -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.pages_hash.outputs.sha}}/build.py
         curl -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.pages_hash.outputs.sha}}/config.json
+        curl -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.pages_hash.outputs.sha}}/broken_revs.json
         curl -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.pages_hash.outputs.sha}}/history/revs.json
         curl -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.pages_hash.outputs.sha}}/history/prs.json
         curl -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.pages_hash.outputs.sha}}/requirements.txt
@@ -50,6 +51,7 @@ jobs:
         rm Makefile
         rm build.py
         rm config.json
+        rm broken_revs.json
         rm -rf history
         rm requirements.txt
 
