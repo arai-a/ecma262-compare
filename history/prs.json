@@ -700,26 +700,6 @@
   "updated_at": "2020-04-25T18:59:34Z"
  },
  {
-  "base": "51289e82883bd3526260540e847470a676f10b6c",
-  "created_at": "2020-02-05T17:02:01Z",
-  "head": "d14a2829381c5a0c179540655f6946d63c1d75e4",
-  "login": "jmdyck",
-  "number": 1866,
-  "ref": "ParsePattern",
-  "revs": [
-   {
-    "adate": "2020-02-05T10:08:23-05:00",
-    "author": "Michael Dyck",
-    "date": "2020-05-25T19:08:14-07:00",
-    "hash": "d14a2829381c5a0c179540655f6946d63c1d75e4",
-    "parents": "51289e82883bd3526260540e847470a676f10b6c",
-    "subject": "Editorial: Extract operation 'ParsePattern' (#1866)"
-   }
-  ],
-  "title": " Editorial: Extract operation 'ParsePattern'",
-  "updated_at": "2020-05-26T02:07:05Z"
- },
- {
   "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
   "created_at": "2020-01-09T19:55:48Z",
   "head": "0f086d773b29df3a913b425ff52be24de530c0e5",
@@ -2720,56 +2700,24 @@
   "updated_at": "2020-02-28T04:16:18Z"
  },
  {
-  "base": "51289e82883bd3526260540e847470a676f10b6c",
+  "base": "d14a2829381c5a0c179540655f6946d63c1d75e4",
   "created_at": "2019-03-01T17:43:31Z",
-  "head": "a17c49f2f750f46a48138b5241b63e61aed05da4",
+  "head": "d5fdc6dc2552da66d43808d6968f61d0535588ec",
   "login": "viktmv",
   "number": 1463,
   "ref": "master",
   "revs": [
    {
-    "adate": "2020-05-25T17:34:52-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2020-05-25T17:34:52-07:00",
-    "hash": "a17c49f2f750f46a48138b5241b63e61aed05da4",
-    "parents": "d43d844b020651334ffa24b6c783cb841023e257",
-    "subject": "s/the/any other/"
-   },
-   {
-    "adate": "2020-05-25T17:07:23-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2020-05-25T17:07:23-07:00",
-    "hash": "d43d844b020651334ffa24b6c783cb841023e257",
-    "parents": "1e04d23766e5401fdbd365d86824ce1d2b9404c0",
-    "subject": "refer to ToObject"
-   },
-   {
-    "adate": "2020-05-25T17:04:22-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2020-05-25T17:04:22-07:00",
-    "hash": "1e04d23766e5401fdbd365d86824ce1d2b9404c0",
-    "parents": "343b55373369a219086fd1fe1cead3dfc1122500 51289e82883bd3526260540e847470a676f10b6c",
-    "subject": "Merge branch 'master' into master"
-   },
-   {
-    "adate": "2019-03-01T13:52:00-05:00",
-    "author": "viktmv",
-    "date": "2019-03-01T13:52:00-05:00",
-    "hash": "343b55373369a219086fd1fe1cead3dfc1122500",
-    "parents": "6cb3e528bf6cccbc8ff907593e2fe6ec9d522f84",
-    "subject": "Editorial: Expand on [[ThisMode]] description"
-   },
-   {
     "adate": "2019-03-01T12:37:40-05:00",
     "author": "viktmv",
-    "date": "2019-03-01T12:37:40-05:00",
-    "hash": "6cb3e528bf6cccbc8ff907593e2fe6ec9d522f84",
-    "parents": "a09fc232c137800dbf51b6204f37fdede4ba1646",
-    "subject": "Editorial: Fix description of [[ThisMode]] internal slot of Function Object"
+    "date": "2020-05-25T23:03:57-07:00",
+    "hash": "d5fdc6dc2552da66d43808d6968f61d0535588ec",
+    "parents": "d14a2829381c5a0c179540655f6946d63c1d75e4",
+    "subject": "Editorial: Fix description of [[ThisMode]] internal slot of Function Object (#1463)"
    }
   ],
   "title": "Editorial: Fix description of [[ThisMode]] internal slot of Function Object",
-  "updated_at": "2020-05-26T00:37:02Z"
+  "updated_at": "2020-05-26T06:03:21Z"
  },
  {
   "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
