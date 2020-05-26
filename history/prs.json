@@ -108,26 +108,6 @@
   "updated_at": "2020-05-26T14:07:44Z"
  },
  {
-  "base": "d14a2829381c5a0c179540655f6946d63c1d75e4",
-  "created_at": "2020-05-25T08:57:54Z",
-  "head": "f189778e17ba8b315777d270333ba4b3502e435f",
-  "login": "codehag",
-  "number": 2012,
-  "ref": "add-discourse",
-  "revs": [
-   {
-    "adate": "2020-05-25T10:57:03+02:00",
-    "author": "codehag",
-    "date": "2020-05-26T10:27:21+02:00",
-    "hash": "f189778e17ba8b315777d270333ba4b3502e435f",
-    "parents": "b23239f86039291ee9c92d1c2ba7d089bdb4b60e",
-    "subject": "add discourse to readme"
-   }
-  ],
-  "title": "Meta: add discourse to readme",
-  "updated_at": "2020-05-26T08:27:40Z"
- },
- {
   "base": "b23239f86039291ee9c92d1c2ba7d089bdb4b60e",
   "created_at": "2020-05-24T10:38:16Z",
   "head": "9c06d72dca9e00e6a09ef8eac0e72ee226973f70",
@@ -176,13 +156,29 @@
   "updated_at": "2020-05-25T19:19:34Z"
  },
  {
-  "base": "bd868f20b8c574ad6689fba014b62a1dba819e56",
+  "base": "7479ade585c62b4af2c66898fc0b64731f97adc6",
   "created_at": "2020-05-17T15:43:11Z",
-  "head": "f81df999358a4b3a7c62be5021f240ff1628e247",
+  "head": "1b0d853dacc1d4ee2012f19aa4a4e38af57bd35f",
   "login": "EB-Forks",
   "number": 1996,
   "ref": "fix/add-dfn-to-symbol-properties",
   "revs": [
+   {
+    "adate": "2020-05-26T20:25:00+02:00",
+    "author": "ExE Boss",
+    "date": "2020-05-26T20:26:06+02:00",
+    "hash": "1b0d853dacc1d4ee2012f19aa4a4e38af57bd35f",
+    "parents": "f212663a26c4e87b5fdfd7eb2e6960766d4b8496 7479ade585c62b4af2c66898fc0b64731f97adc6",
+    "subject": "Merge branch 'master' into fix/add-dfn-to-symbol-properties"
+   },
+   {
+    "adate": "2020-05-26T20:20:00+02:00",
+    "author": "ExE Boss",
+    "date": "2020-05-26T20:24:29+02:00",
+    "hash": "f212663a26c4e87b5fdfd7eb2e6960766d4b8496",
+    "parents": "f81df999358a4b3a7c62be5021f240ff1628e247",
+    "subject": "Address\u00a0review\u00a0comments"
+   },
    {
     "adate": "2020-05-17T17:40:00+02:00",
     "author": "ExE Boss",
@@ -193,7 +189,7 @@
    }
   ],
   "title": "Editorial: Add\u00a0`<dfn>` to\u00a0well\u2011known\u00a0symbols",
-  "updated_at": "2020-05-17T15:47:21Z"
+  "updated_at": "2020-05-26T18:32:13Z"
  },
  {
   "base": "bd868f20b8c574ad6689fba014b62a1dba819e56",
@@ -2698,26 +2694,6 @@
   ],
   "title": "Normative: Extend specs to observe WebReality for HTMLCloseComment",
   "updated_at": "2020-02-28T04:16:18Z"
- },
- {
-  "base": "d14a2829381c5a0c179540655f6946d63c1d75e4",
-  "created_at": "2019-03-01T17:43:31Z",
-  "head": "d5fdc6dc2552da66d43808d6968f61d0535588ec",
-  "login": "viktmv",
-  "number": 1463,
-  "ref": "master",
-  "revs": [
-   {
-    "adate": "2019-03-01T12:37:40-05:00",
-    "author": "viktmv",
-    "date": "2020-05-25T23:03:57-07:00",
-    "hash": "d5fdc6dc2552da66d43808d6968f61d0535588ec",
-    "parents": "d14a2829381c5a0c179540655f6946d63c1d75e4",
-    "subject": "Editorial: Fix description of [[ThisMode]] internal slot of Function Object (#1463)"
-   }
-  ],
-  "title": "Editorial: Fix description of [[ThisMode]] internal slot of Function Object",
-  "updated_at": "2020-05-26T06:03:21Z"
  },
  {
   "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
