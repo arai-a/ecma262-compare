@@ -1766,11 +1766,19 @@
  {
   "base": "fc8964ff2cbbaf6c4c2b2e1f448508ec5a63db40",
   "created_at": "2019-08-09T03:01:02Z",
-  "head": "9ff4f3610160f5393930cc199178441fdc345a13",
+  "head": "44f47a3d1a39fca73fc3586b4281c40e7766c85c",
   "login": "jhnaldo",
   "number": 1660,
   "ref": "pr1",
   "revs": [
+   {
+    "adate": "2020-05-27T08:38:14-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-05-27T08:38:14-07:00",
+    "hash": "44f47a3d1a39fca73fc3586b4281c40e7766c85c",
+    "parents": "9ff4f3610160f5393930cc199178441fdc345a13",
+    "subject": "Editorial: remove another redundant step"
+   },
    {
     "adate": "2020-03-26T10:56:27+09:00",
     "author": "jhnaldo",
@@ -1789,7 +1797,7 @@
    }
   ],
   "title": "Editorial: Remove assertion in InitializeBinding of Object Environment Record",
-  "updated_at": "2020-05-22T04:59:09Z"
+  "updated_at": "2020-05-27T15:55:38Z"
  },
  {
   "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
