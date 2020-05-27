@@ -28,9 +28,9 @@
   "updated_at": "2020-05-26T02:35:26Z"
  },
  {
-  "base": "51289e82883bd3526260540e847470a676f10b6c",
+  "base": "7479ade585c62b4af2c66898fc0b64731f97adc6",
   "created_at": "2020-05-25T23:15:50Z",
-  "head": "505947269b0209e5c16e0a450519a7b15d634233",
+  "head": "351241613af2be0732ab9c654c1260a8de50fc74",
   "login": "tc39",
   "number": 2014,
   "ref": "rename-unicode-ops",
@@ -38,46 +38,46 @@
    {
     "adate": "2020-05-25T15:58:55-07:00",
     "author": "Kevin Gibbons",
-    "date": "2020-05-25T16:12:59-07:00",
-    "hash": "505947269b0209e5c16e0a450519a7b15d634233",
-    "parents": "a4b10b2f1ac62c763e11180ccc61f4a4099d3cd3",
-    "subject": "Editorial: rename UTF16DecodeString to UTF16CodeUnitsToCodePoints"
+    "date": "2020-05-26T20:47:56-07:00",
+    "hash": "351241613af2be0732ab9c654c1260a8de50fc74",
+    "parents": "3cdb5741fcd9a5d1e5b5ebdef102f62ae00a1a73",
+    "subject": "Editorial: rename UTF16DecodeString to StringToCodePoints"
    },
    {
     "adate": "2020-05-25T15:58:50-07:00",
     "author": "Kevin Gibbons",
-    "date": "2020-05-25T16:12:59-07:00",
-    "hash": "a4b10b2f1ac62c763e11180ccc61f4a4099d3cd3",
-    "parents": "b1f32bcbe1962122e677b75abc571991178a478d",
+    "date": "2020-05-26T20:47:56-07:00",
+    "hash": "3cdb5741fcd9a5d1e5b5ebdef102f62ae00a1a73",
+    "parents": "4e082e159f9b9378bc00905d9085cd3466bd60db",
     "subject": "Editorial: rename UTF16DecodeSurrogatePair to UTF16SurrogatePairToCodePoint"
    },
    {
     "adate": "2020-05-25T15:58:46-07:00",
     "author": "Kevin Gibbons",
-    "date": "2020-05-25T16:12:59-07:00",
-    "hash": "b1f32bcbe1962122e677b75abc571991178a478d",
-    "parents": "8df6dd875c41bed810e31a5019196cbd39e4a258",
-    "subject": "Editorial: rename UTF16Encode to UTF16CodePointsToCodeUnits"
+    "date": "2020-05-26T20:47:56-07:00",
+    "hash": "4e082e159f9b9378bc00905d9085cd3466bd60db",
+    "parents": "a290af8d12a4a0f0367bc12193e0d17d8b12bde2",
+    "subject": "Editorial: rename UTF16Encode to CodePointsToString"
    },
    {
     "adate": "2020-05-25T15:58:40-07:00",
     "author": "Kevin Gibbons",
-    "date": "2020-05-25T16:12:57-07:00",
-    "hash": "8df6dd875c41bed810e31a5019196cbd39e4a258",
-    "parents": "a37b0f29dbffecbb75317d607b57d087839da06c",
-    "subject": "Editorial: reword some usages of UTF16CodePointToCodeUnits"
+    "date": "2020-05-26T20:47:37-07:00",
+    "hash": "a290af8d12a4a0f0367bc12193e0d17d8b12bde2",
+    "parents": "d08934f32ae47241ded2ee711f9c1f6dc094197c",
+    "subject": "Editorial: reword some usages of CodePointToUTF16CodeUnits"
    },
    {
     "adate": "2020-05-25T15:58:34-07:00",
     "author": "Kevin Gibbons",
-    "date": "2020-05-25T15:58:34-07:00",
-    "hash": "a37b0f29dbffecbb75317d607b57d087839da06c",
-    "parents": "51289e82883bd3526260540e847470a676f10b6c",
-    "subject": "Editorial: rename UTF16Encoding to UTF16CodePointToCodeUnits"
+    "date": "2020-05-26T20:45:21-07:00",
+    "hash": "d08934f32ae47241ded2ee711f9c1f6dc094197c",
+    "parents": "7479ade585c62b4af2c66898fc0b64731f97adc6",
+    "subject": "Editorial: rename UTF16Encoding to CodePointToUTF16CodeUnits"
    }
   ],
   "title": "Editorial: Rename Unicode encoding/decoding operations",
-  "updated_at": "2020-05-25T23:16:02Z"
+  "updated_at": "2020-05-27T03:51:02Z"
  },
  {
   "base": "7479ade585c62b4af2c66898fc0b64731f97adc6",
