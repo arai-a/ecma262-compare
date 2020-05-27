@@ -1,5 +1,57 @@
 [
  {
+  "base": "7479ade585c62b4af2c66898fc0b64731f97adc6",
+  "created_at": "2020-05-27T21:01:06Z",
+  "head": "f00e14cb71ff7b8478fe96db8be396aad1802ce6",
+  "login": "tc39",
+  "number": 2016,
+  "ref": "bump-ecmarkup",
+  "revs": [
+   {
+    "adate": "2020-05-27T14:02:29-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-05-27T14:02:29-07:00",
+    "hash": "f00e14cb71ff7b8478fe96db8be396aad1802ce6",
+    "parents": "9cf040cb59987f393f3a7d2ddc0c8c00e3cf3035",
+    "subject": "Editorial: add missing space in abstract operation header"
+   },
+   {
+    "adate": "2020-05-27T14:02:04-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-05-27T14:02:04-07:00",
+    "hash": "9cf040cb59987f393f3a7d2ddc0c8c00e3cf3035",
+    "parents": "a96021bab1105abead81d83f0ca29bbd8947a4b4",
+    "subject": "Editorial: *this* value, not *this* object"
+   },
+   {
+    "adate": "2020-05-27T13:59:25-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-05-27T13:59:25-07:00",
+    "hash": "a96021bab1105abead81d83f0ca29bbd8947a4b4",
+    "parents": "66f83dc1481ef159435764a1dce7be4ea2e9d95c",
+    "subject": "Editorial: empty String, not empty string"
+   },
+   {
+    "adate": "2020-05-27T13:58:27-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-05-27T13:58:27-07:00",
+    "hash": "66f83dc1481ef159435764a1dce7be4ea2e9d95c",
+    "parents": "d1e869fefa87845d4ae64c018bc0d6159052c41e",
+    "subject": "Editorial: use Oxford spelling for behaviour"
+   },
+   {
+    "adate": "2020-05-27T13:57:49-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-05-27T13:57:49-07:00",
+    "hash": "d1e869fefa87845d4ae64c018bc0d6159052c41e",
+    "parents": "7479ade585c62b4af2c66898fc0b64731f97adc6",
+    "subject": "Meta: bump ecmarkup"
+   }
+  ],
+  "title": "Meta: bump ecmarkup",
+  "updated_at": "2020-05-27T21:04:14Z"
+ },
+ {
   "base": "51289e82883bd3526260540e847470a676f10b6c",
   "created_at": "2020-05-26T02:28:50Z",
   "head": "dba0bac088c39237d9899de3c7e4cfec49f7c7cc",
