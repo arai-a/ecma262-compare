@@ -130,11 +130,19 @@
  {
   "base": "b23239f86039291ee9c92d1c2ba7d089bdb4b60e",
   "created_at": "2020-05-22T17:36:53Z",
-  "head": "1d16205e1c4d3f315f4bcbe60922d8ac24e37d54",
+  "head": "2dad42da23fb42a0e21f2c3cc3e738837d456da2",
   "login": "caiolima",
   "number": 2007,
   "ref": "mathematical-values-fix",
   "revs": [
+   {
+    "adate": "2020-05-27T15:30:39-03:00",
+    "author": "Caio Lima",
+    "date": "2020-05-27T15:30:39-03:00",
+    "hash": "2dad42da23fb42a0e21f2c3cc3e738837d456da2",
+    "parents": "1d16205e1c4d3f315f4bcbe60922d8ac24e37d54",
+    "subject": "Fixing some indexes usage to use MV instead of MV to avoid infinity loop"
+   },
    {
     "adate": "2020-05-27T13:54:10-03:00",
     "author": "Caio Lima",
@@ -177,7 +185,7 @@
    }
   ],
   "title": "Editorial: Make numeric values and operations default to mathematical values",
-  "updated_at": "2020-05-27T16:54:45Z"
+  "updated_at": "2020-05-27T18:30:57Z"
  },
  {
   "base": "7479ade585c62b4af2c66898fc0b64731f97adc6",
