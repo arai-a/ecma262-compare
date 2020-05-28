@@ -1018,7 +1018,7 @@
  {
   "base": "7479ade585c62b4af2c66898fc0b64731f97adc6",
   "created_at": "2019-10-17T02:16:37Z",
-  "head": "223caaa27e6f6250f7c22cdfb13c4c3dc62db927",
+  "head": "9c3c9cc8554487aa24d49c12c78e1bb976a6a6e1",
   "login": "michaelficarra",
   "number": 1739,
   "ref": "function-implementation-hiding",
@@ -1026,22 +1026,22 @@
    {
     "adate": "2020-05-27T17:12:32-07:00",
     "author": "Michael Ficarra",
-    "date": "2020-05-27T17:12:32-07:00",
-    "hash": "223caaa27e6f6250f7c22cdfb13c4c3dc62db927",
-    "parents": "3243025c15b1452a92a61c2039c414922dae4e27",
+    "date": "2020-05-28T11:06:32-07:00",
+    "hash": "9c3c9cc8554487aa24d49c12c78e1bb976a6a6e1",
+    "parents": "49a28f827a12b1fc945e16e21891834dc762be49",
     "subject": "WIP stack trace censorship using the \"sensitive\" directive"
    },
    {
     "adate": "2020-05-27T17:11:54-07:00",
     "author": "Michael Ficarra",
-    "date": "2020-05-27T17:11:54-07:00",
-    "hash": "3243025c15b1452a92a61c2039c414922dae4e27",
-    "parents": "b23239f86039291ee9c92d1c2ba7d089bdb4b60e",
+    "date": "2020-05-28T11:06:25-07:00",
+    "hash": "49a28f827a12b1fc945e16e21891834dc762be49",
+    "parents": "7479ade585c62b4af2c66898fc0b64731f97adc6",
     "subject": "function source hiding with the \"hide source\" directive"
    }
   ],
   "title": "Normative: function implementation hiding",
-  "updated_at": "2020-05-28T00:44:07Z"
+  "updated_at": "2020-05-28T18:06:44Z"
  },
  {
   "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
