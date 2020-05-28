@@ -1,6 +1,26 @@
 [
  {
   "base": "7479ade585c62b4af2c66898fc0b64731f97adc6",
+  "created_at": "2020-05-28T16:02:11Z",
+  "head": "047845f8be08d2d0dc7b823f63072bcd65a48a05",
+  "login": "michaelficarra",
+  "number": 2017,
+  "ref": "the-empty-string-value",
+  "revs": [
+   {
+    "adate": "2020-05-28T08:59:40-07:00",
+    "author": "Michael Ficarra",
+    "date": "2020-05-28T08:59:40-07:00",
+    "hash": "047845f8be08d2d0dc7b823f63072bcd65a48a05",
+    "parents": "7479ade585c62b4af2c66898fc0b64731f97adc6",
+    "subject": "Editorial: fix inconsistent phrase \"the empty String value\""
+   }
+  ],
+  "title": "Editorial: fix inconsistent phrase \"the empty String value\"",
+  "updated_at": "2020-05-28T16:02:11Z"
+ },
+ {
+  "base": "7479ade585c62b4af2c66898fc0b64731f97adc6",
   "created_at": "2020-05-27T21:01:06Z",
   "head": "f00e14cb71ff7b8478fe96db8be396aad1802ce6",
   "login": "tc39",
