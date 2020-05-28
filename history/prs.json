@@ -22,54 +22,54 @@
  {
   "base": "7479ade585c62b4af2c66898fc0b64731f97adc6",
   "created_at": "2020-05-27T21:01:06Z",
-  "head": "f00e14cb71ff7b8478fe96db8be396aad1802ce6",
+  "head": "3f104be6ccb6447e75412c33f420b5bca8009c5b",
   "login": "tc39",
   "number": 2016,
   "ref": "bump-ecmarkup",
   "revs": [
    {
+    "adate": "2020-05-27T13:57:49-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-05-28T12:51:22-07:00",
+    "hash": "3f104be6ccb6447e75412c33f420b5bca8009c5b",
+    "parents": "a57942283c7f722ca088a395c23c3bdca61fed2d",
+    "subject": "Meta: bump ecmarkup (#2016)"
+   },
+   {
     "adate": "2020-05-27T14:02:29-07:00",
     "author": "Kevin Gibbons",
-    "date": "2020-05-27T14:02:29-07:00",
-    "hash": "f00e14cb71ff7b8478fe96db8be396aad1802ce6",
-    "parents": "9cf040cb59987f393f3a7d2ddc0c8c00e3cf3035",
-    "subject": "Editorial: add missing space in abstract operation header"
+    "date": "2020-05-28T12:51:22-07:00",
+    "hash": "a57942283c7f722ca088a395c23c3bdca61fed2d",
+    "parents": "95e5e77fc29df087ad895659870aee36292bbef5",
+    "subject": "Editorial: add missing space in abstract operation header (#2016)"
    },
    {
     "adate": "2020-05-27T14:02:04-07:00",
     "author": "Kevin Gibbons",
-    "date": "2020-05-27T14:02:04-07:00",
-    "hash": "9cf040cb59987f393f3a7d2ddc0c8c00e3cf3035",
-    "parents": "a96021bab1105abead81d83f0ca29bbd8947a4b4",
-    "subject": "Editorial: *this* value, not *this* object"
+    "date": "2020-05-28T12:51:21-07:00",
+    "hash": "95e5e77fc29df087ad895659870aee36292bbef5",
+    "parents": "fe4f9abaec3bd1a1c93fdca464f64e05611eb2ac",
+    "subject": "Editorial: *this* value, not *this* object (#2016)"
    },
    {
     "adate": "2020-05-27T13:59:25-07:00",
     "author": "Kevin Gibbons",
-    "date": "2020-05-27T13:59:25-07:00",
-    "hash": "a96021bab1105abead81d83f0ca29bbd8947a4b4",
-    "parents": "66f83dc1481ef159435764a1dce7be4ea2e9d95c",
-    "subject": "Editorial: empty String, not empty string"
+    "date": "2020-05-28T12:51:21-07:00",
+    "hash": "fe4f9abaec3bd1a1c93fdca464f64e05611eb2ac",
+    "parents": "d6ee7dd76f875335e3c2651084f919faffee8488",
+    "subject": "Editorial: empty String, not empty string (#2016)"
    },
    {
     "adate": "2020-05-27T13:58:27-07:00",
     "author": "Kevin Gibbons",
-    "date": "2020-05-27T13:58:27-07:00",
-    "hash": "66f83dc1481ef159435764a1dce7be4ea2e9d95c",
-    "parents": "d1e869fefa87845d4ae64c018bc0d6159052c41e",
-    "subject": "Editorial: use Oxford spelling for behaviour"
-   },
-   {
-    "adate": "2020-05-27T13:57:49-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2020-05-27T13:57:49-07:00",
-    "hash": "d1e869fefa87845d4ae64c018bc0d6159052c41e",
+    "date": "2020-05-28T12:51:21-07:00",
+    "hash": "d6ee7dd76f875335e3c2651084f919faffee8488",
     "parents": "7479ade585c62b4af2c66898fc0b64731f97adc6",
-    "subject": "Meta: bump ecmarkup"
+    "subject": "Editorial: use Oxford spelling for behaviour (#2016)"
    }
   ],
   "title": "Meta: bump ecmarkup",
-  "updated_at": "2020-05-27T21:04:14Z"
+  "updated_at": "2020-05-28T19:50:22Z"
  },
  {
   "base": "51289e82883bd3526260540e847470a676f10b6c",
