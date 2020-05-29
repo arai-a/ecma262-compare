@@ -22,7 +22,7 @@
  {
   "base": "32fe1a621c485080f6e1a1c0cc13a772b3f601bd",
   "created_at": "2020-05-29T02:13:37Z",
-  "head": "0a7ae748c4df820767646f8aca96fec83a87fd02",
+  "head": "b40f0ee80104146b524d422d27e8b4e92144df83",
   "login": "jmdyck",
   "number": 2018,
   "ref": "sequence-of-code-units",
@@ -30,24 +30,24 @@
    {
     "adate": "2020-05-28T21:39:56-04:00",
     "author": "Michael Dyck",
-    "date": "2020-05-28T22:08:38-04:00",
-    "hash": "0a7ae748c4df820767646f8aca96fec83a87fd02",
-    "parents": "18410b761ce97bf2c08e4069d0a70d213f088e58",
+    "date": "2020-05-29T09:53:13-04:00",
+    "hash": "b40f0ee80104146b524d422d27e8b4e92144df83",
+    "parents": "231ecf760cbe1fd74a4eef711784ea3aa6ae3b60",
     "subject": "Editorial: Have SV, TV, TRV, and UTF16Encoding return a String"
    },
    {
     "adate": "2020-05-28T21:02:17-04:00",
     "author": "Michael Dyck",
-    "date": "2020-05-28T22:08:38-04:00",
-    "hash": "18410b761ce97bf2c08e4069d0a70d213f088e58",
-    "parents": "336defb7d3668d69d880da25b514947cbfa8ee01",
+    "date": "2020-05-29T09:53:13-04:00",
+    "hash": "231ecf760cbe1fd74a4eef711784ea3aa6ae3b60",
+    "parents": "914b671bf874448430ac1d97ccce392231001899",
     "subject": "Editorial: Use MV of Hex4Digits rather than SV"
    },
    {
     "adate": "2020-05-28T20:56:59-04:00",
     "author": "Michael Dyck",
-    "date": "2020-05-28T22:08:38-04:00",
-    "hash": "336defb7d3668d69d880da25b514947cbfa8ee01",
+    "date": "2020-05-29T09:51:47-04:00",
+    "hash": "914b671bf874448430ac1d97ccce392231001899",
     "parents": "845d4b76fa053588e2955c4138c49e4e06136dc8",
     "subject": "Editorial: Introduce MV of HexEscapeSequence"
    },
@@ -68,8 +68,8 @@
     "subject": "Editorial: Delete 3 chain rules for SV"
    }
   ],
-  "title": "Have SV, TV, TRV, and UTF16Encoding return a String rather than a sequence of code units",
-  "updated_at": "2020-05-29T02:13:37Z"
+  "title": "Editorial: Have SV, TV, TRV, and UTF16Encoding return a String rather than a sequence of code units",
+  "updated_at": "2020-05-29T13:59:53Z"
  },
  {
   "base": "51289e82883bd3526260540e847470a676f10b6c",
