@@ -1,5 +1,41 @@
 [
  {
+  "base": "9e48030ca8c696a7137fdd533fc4bf4db16b7685",
+  "created_at": "2020-05-29T18:54:15Z",
+  "head": "91851a375520e04cf49a7466e25dc28a645860cc",
+  "login": "gibson042",
+  "number": 2021,
+  "ref": "2020-05-substring-consistency",
+  "revs": [
+   {
+    "adate": "2020-05-29T14:15:41-04:00",
+    "author": "Richard Gibson",
+    "date": "2020-05-29T14:50:10-04:00",
+    "hash": "91851a375520e04cf49a7466e25dc28a645860cc",
+    "parents": "77b4c7c5fa9e49102a1421b545397494e1d63c7a",
+    "subject": "Editorial: Rename substr variables"
+   },
+   {
+    "adate": "2020-05-29T13:20:37-04:00",
+    "author": "Richard Gibson",
+    "date": "2020-05-29T14:50:10-04:00",
+    "hash": "77b4c7c5fa9e49102a1421b545397494e1d63c7a",
+    "parents": "00771fa7e39957c9089c7f39513f7cb24f0750a1",
+    "subject": "Editorial: Use [start, end) indices rather than count and start"
+   },
+   {
+    "adate": "2020-05-29T13:05:47-04:00",
+    "author": "Richard Gibson",
+    "date": "2020-05-29T14:50:10-04:00",
+    "hash": "00771fa7e39957c9089c7f39513f7cb24f0750a1",
+    "parents": "0b988b7700de675331ac360d164c978d6ea452ec",
+    "subject": "Editorial: Use consistent language for extracting substrings"
+   }
+  ],
+  "title": "Editorial: Use consistent language for extracting substrings",
+  "updated_at": "2020-05-29T18:54:15Z"
+ },
+ {
   "base": "32fe1a621c485080f6e1a1c0cc13a772b3f601bd",
   "created_at": "2020-05-29T08:27:41Z",
   "head": "86e5a5677e4bdbafe241da32583892e1143e28ea",
@@ -2630,34 +2666,6 @@
   ],
   "title": "Editorial: Clarify and expand the discussion of terminal symbols",
   "updated_at": "2020-05-10T21:36:12Z"
- },
- {
-  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
-  "created_at": "2019-04-26T03:26:23Z",
-  "head": "4b2517039e53c7cea471a4bc432d883d8c5f6683",
-  "login": "jmdyck",
-  "number": 1519,
-  "ref": "resolve_831",
-  "revs": [
-   {
-    "adate": "2019-04-25T23:17:06-04:00",
-    "author": "Michael Dyck",
-    "date": "2019-04-25T23:17:06-04:00",
-    "hash": "4b2517039e53c7cea471a4bc432d883d8c5f6683",
-    "parents": "b6f3f5e81f04548c67c24cd319a6909e224da7f4",
-    "subject": "Editorial: simplify definitions of Contains"
-   },
-   {
-    "adate": "2019-04-25T22:57:52-04:00",
-    "author": "Michael Dyck",
-    "date": "2019-04-25T22:57:52-04:00",
-    "hash": "b6f3f5e81f04548c67c24cd319a6909e224da7f4",
-    "parents": "69d9e638031c6a16199cbd844b13ccd4b14826b5",
-    "subject": "Editorial: Remove unused steps from definitions of Contains"
-   }
-  ],
-  "title": "Editorial: Remove unused steps from definitions of Contains",
-  "updated_at": "2020-02-28T04:16:15Z"
  },
  {
   "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
