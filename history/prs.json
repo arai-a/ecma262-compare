@@ -3012,88 +3012,96 @@
   "updated_at": "2020-02-28T04:16:19Z"
  },
  {
-  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
+  "base": "b25c59273f407974e0c7d9372a2c9f71bb1f21c4",
   "created_at": "2019-01-18T18:19:39Z",
-  "head": "a6a7b5069e37dec40fac0c2662f81404a57be29e",
+  "head": "c5983c93eb5aaa33ef1df0c197a2c8687dcfa7a8",
   "login": "gibson042",
   "number": 1418,
   "ref": "2019-01-explain-SAFE_INTEGER",
   "revs": [
    {
+    "adate": "2020-05-31T19:24:52-04:00",
+    "author": "Richard Gibson",
+    "date": "2020-05-31T19:25:00-04:00",
+    "hash": "c5983c93eb5aaa33ef1df0c197a2c8687dcfa7a8",
+    "parents": "9a30590079fba6cb02052ca063c225d0de42b60a",
+    "subject": "Editorial: Explicitly specify mathematical integer dependence"
+   },
+   {
     "adate": "2019-01-30T12:58:55-05:00",
     "author": "Richard Gibson",
-    "date": "2019-10-06T12:55:14-04:00",
-    "hash": "a6a7b5069e37dec40fac0c2662f81404a57be29e",
-    "parents": "4c3b44b9badbd1ad238a16e251662bc632f401aa",
+    "date": "2020-05-31T19:25:00-04:00",
+    "hash": "9a30590079fba6cb02052ca063c225d0de42b60a",
+    "parents": "fff039d423027452fdb171a8eba56e297be54366",
     "subject": "Use the spec-defined \"the Number value for\" phrase"
    },
    {
     "adate": "2019-01-29T18:01:14-05:00",
     "author": "Richard Gibson",
-    "date": "2019-10-06T12:55:14-04:00",
-    "hash": "4c3b44b9badbd1ad238a16e251662bc632f401aa",
-    "parents": "9c0732843f78d257d63e18189cd5ee020d4dfb1e",
+    "date": "2020-05-31T19:25:00-04:00",
+    "hash": "fff039d423027452fdb171a8eba56e297be54366",
+    "parents": "c79da7c3345794affcc832bd34bd1314c48d7900",
     "subject": "Make \"safe\" a definition, and reference it"
    },
    {
     "adate": "2019-01-29T17:56:23-05:00",
     "author": "Richard Gibson",
-    "date": "2019-10-06T12:55:14-04:00",
-    "hash": "9c0732843f78d257d63e18189cd5ee020d4dfb1e",
-    "parents": "41ddc28da1f0be598c1cdf409b6c24582c685b60",
+    "date": "2020-05-31T19:25:00-04:00",
+    "hash": "c79da7c3345794affcc832bd34bd1314c48d7900",
+    "parents": "99cd66794624fa21405afbabd7130cda7542dde1",
     "subject": "Incorporate prose suggestion from @tabatkins"
    },
    {
     "adate": "2019-01-29T17:41:28-05:00",
     "author": "Richard Gibson",
-    "date": "2019-10-06T12:55:14-04:00",
-    "hash": "41ddc28da1f0be598c1cdf409b6c24582c685b60",
-    "parents": "c62904610cee845a7f77051ef6d315406e29aa66",
+    "date": "2020-05-31T19:25:00-04:00",
+    "hash": "99cd66794624fa21405afbabd7130cda7542dde1",
+    "parents": "a23116eaf73e2731458ac78320a89fac5aa53a5b",
     "subject": "Accept improved definition of \"safe\""
    },
    {
     "adate": "2019-01-29T16:22:00-05:00",
     "author": "Richard Gibson",
-    "date": "2019-10-06T12:55:13-04:00",
-    "hash": "c62904610cee845a7f77051ef6d315406e29aa66",
-    "parents": "9c1ca73a518241918c88ca81e875aa124eff00ad",
+    "date": "2020-05-31T19:25:00-04:00",
+    "hash": "a23116eaf73e2731458ac78320a89fac5aa53a5b",
+    "parents": "3fa83eae3b591defbe1075be14fa430787e38655",
     "subject": "Restore \"exactly representable\" phrase and explain basis in IEEE 754"
    },
    {
     "adate": "2019-01-21T12:40:48-05:00",
     "author": "Richard Gibson",
-    "date": "2019-10-06T12:55:13-04:00",
-    "hash": "9c1ca73a518241918c88ca81e875aa124eff00ad",
-    "parents": "ed8a3119bb08fb7198cc9feef622e06261b714dc",
+    "date": "2020-05-31T19:25:00-04:00",
+    "hash": "3fa83eae3b591defbe1075be14fa430787e38655",
+    "parents": "5dddb50b75742b4ef83b3aa57137ef14cfd2bcf5",
     "subject": "Fix typo"
    },
    {
     "adate": "2019-01-21T12:19:25-05:00",
     "author": "Richard Gibson",
-    "date": "2019-10-06T12:55:13-04:00",
-    "hash": "ed8a3119bb08fb7198cc9feef622e06261b714dc",
-    "parents": "9a914a4d650e5bb8452d348c926bc2334104cee4",
+    "date": "2020-05-31T19:25:00-04:00",
+    "hash": "5dddb50b75742b4ef83b3aa57137ef14cfd2bcf5",
+    "parents": "61d7808ed42d5b0f526be06dc3afbecb7985bbc8",
     "subject": "Improve wording"
    },
    {
     "adate": "2019-01-18T13:23:46-05:00",
     "author": "Richard Gibson",
-    "date": "2019-10-06T12:55:13-04:00",
-    "hash": "9a914a4d650e5bb8452d348c926bc2334104cee4",
-    "parents": "75adffca9c7bc41f252e9386c8ad7deefa3040cf",
+    "date": "2020-05-31T19:25:00-04:00",
+    "hash": "61d7808ed42d5b0f526be06dc3afbecb7985bbc8",
+    "parents": "e53fb40aed271c7cd7875f3e7b787919cffc6b08",
     "subject": "Add note to Number.isSafeInteger"
    },
    {
     "adate": "2019-01-18T13:05:18-05:00",
     "author": "Richard Gibson",
-    "date": "2019-10-06T12:55:11-04:00",
-    "hash": "75adffca9c7bc41f252e9386c8ad7deefa3040cf",
-    "parents": "693e09a4b9ce52b060ceda897b042c3f83f0a738",
+    "date": "2020-05-31T19:25:00-04:00",
+    "hash": "e53fb40aed271c7cd7875f3e7b787919cffc6b08",
+    "parents": "b25c59273f407974e0c7d9372a2c9f71bb1f21c4",
     "subject": "Editorial: Explain why *_SAFE_INTEGER magnitude is not a power of two"
    }
   ],
   "title": "Editorial: Explain why *_SAFE_INTEGER magnitude is not a power of two",
-  "updated_at": "2020-02-28T04:16:20Z"
+  "updated_at": "2020-05-31T23:25:23Z"
  },
  {
   "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
