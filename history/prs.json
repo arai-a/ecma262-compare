@@ -1,6 +1,46 @@
 [
  {
   "base": "b25c59273f407974e0c7d9372a2c9f71bb1f21c4",
+  "created_at": "2020-05-31T07:45:48Z",
+  "head": "8b5c096e9158b867f1a7555cde3666511e49022d",
+  "login": "EB-Forks",
+  "number": 2026,
+  "ref": "editorial/intrinsics/native-error-constructors",
+  "revs": [
+   {
+    "adate": "2020-05-31T09:45:00+02:00",
+    "author": "ExE Boss",
+    "date": "2020-05-31T09:46:38+02:00",
+    "hash": "8b5c096e9158b867f1a7555cde3666511e49022d",
+    "parents": "b25c59273f407974e0c7d9372a2c9f71bb1f21c4",
+    "subject": "Editorial: Add\u00a0<dfn>s for\u00a0native\u00a0error\u00a0constructors"
+   }
+  ],
+  "title": "Editorial: Add\u00a0<dfn>s for\u00a0native\u00a0error\u00a0constructors",
+  "updated_at": "2020-05-31T07:58:24Z"
+ },
+ {
+  "base": "b25c59273f407974e0c7d9372a2c9f71bb1f21c4",
+  "created_at": "2020-05-31T07:39:18Z",
+  "head": "790e2c65b0a487800a666736f10dc99f51c94c5a",
+  "login": "EB-Forks",
+  "number": 2025,
+  "ref": "editorial/intrinsics/typedarray-subclass-constructors",
+  "revs": [
+   {
+    "adate": "2020-05-31T09:35:00+02:00",
+    "author": "ExE Boss",
+    "date": "2020-05-31T09:35:49+02:00",
+    "hash": "790e2c65b0a487800a666736f10dc99f51c94c5a",
+    "parents": "b25c59273f407974e0c7d9372a2c9f71bb1f21c4",
+    "subject": "Editorial: Add\u00a0<dfn>s for\u00a0TypedArray subclass\u00a0constructors"
+   }
+  ],
+  "title": "Editorial: Add\u00a0<dfn>s for\u00a0TypedArray subclass\u00a0constructors",
+  "updated_at": "2020-05-31T07:42:09Z"
+ },
+ {
+  "base": "b25c59273f407974e0c7d9372a2c9f71bb1f21c4",
   "created_at": "2020-05-31T07:29:33Z",
   "head": "76c24a0a85bf1272b5d2bf3dbe0840be1f58d067",
   "login": "EB-Forks",
