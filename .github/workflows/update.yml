@@ -154,6 +154,7 @@ jobs:
       if: steps.pages_bootstrap.outputs.update == 'Yes'
       run: |
         git add history
+        git add broken_revs.json
         set +e
         git diff --cached --quiet
         echo "##[set-output name=modified;]$?"
