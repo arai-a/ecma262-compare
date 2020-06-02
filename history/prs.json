@@ -1,6 +1,26 @@
 [
  {
   "base": "b25c59273f407974e0c7d9372a2c9f71bb1f21c4",
+  "created_at": "2020-06-02T00:41:49Z",
+  "head": "151e16a1c0b4a9a1cc49a28a3949ef45ae9320fc",
+  "login": "jridgewell",
+  "number": 2030,
+  "ref": "logical-assignment",
+  "revs": [
+   {
+    "adate": "2020-06-01T20:34:20-04:00",
+    "author": "Justin Ridgewell",
+    "date": "2020-06-01T20:34:20-04:00",
+    "hash": "151e16a1c0b4a9a1cc49a28a3949ef45ae9320fc",
+    "parents": "b25c59273f407974e0c7d9372a2c9f71bb1f21c4",
+    "subject": "Normative: Add Logical Assignment Operators"
+   }
+  ],
+  "title": "Normative: Add Logical Assignment Operators",
+  "updated_at": "2020-06-02T00:41:49Z"
+ },
+ {
+  "base": "b25c59273f407974e0c7d9372a2c9f71bb1f21c4",
   "created_at": "2020-05-31T22:48:44Z",
   "head": "eb02c3cab75f8972fa60f2a6d4b094f6f3751cf7",
   "login": "gibson042",
