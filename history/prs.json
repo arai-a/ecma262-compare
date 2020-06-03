@@ -1,6 +1,34 @@
 [
  {
   "base": "b25c59273f407974e0c7d9372a2c9f71bb1f21c4",
+  "created_at": "2020-06-03T18:36:53Z",
+  "head": "6f12eabb17cf34d6ef723e947ba85ef9e7f7add6",
+  "login": "tc39",
+  "number": 2033,
+  "ref": "bump-ecmarkup",
+  "revs": [
+   {
+    "adate": "2020-06-03T11:36:38-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-06-03T11:36:38-07:00",
+    "hash": "6f12eabb17cf34d6ef723e947ba85ef9e7f7add6",
+    "parents": "0e399e73c0aec8e17ad888f0d3c165dd83f9a69e",
+    "subject": "Editorial: delete some stray blank lines"
+   },
+   {
+    "adate": "2020-06-03T11:32:56-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-06-03T11:32:56-07:00",
+    "hash": "0e399e73c0aec8e17ad888f0d3c165dd83f9a69e",
+    "parents": "b25c59273f407974e0c7d9372a2c9f71bb1f21c4",
+    "subject": "Meta: bump ecmarkup"
+   }
+  ],
+  "title": "Meta: bump ecmarkup",
+  "updated_at": "2020-06-03T18:36:53Z"
+ },
+ {
+  "base": "b25c59273f407974e0c7d9372a2c9f71bb1f21c4",
   "created_at": "2020-06-02T00:41:49Z",
   "head": "f0e23c2d43aca118f766c08ab35fc903ce2cb69f",
   "login": "jridgewell",
