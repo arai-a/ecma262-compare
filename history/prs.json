@@ -486,11 +486,19 @@
  {
   "base": "b23239f86039291ee9c92d1c2ba7d089bdb4b60e",
   "created_at": "2020-05-22T17:36:53Z",
-  "head": "2dad42da23fb42a0e21f2c3cc3e738837d456da2",
+  "head": "5fa06130ba5651276f04f3cb8783cdfddc94394b",
   "login": "caiolima",
   "number": 2007,
   "ref": "mathematical-values-fix",
   "revs": [
+   {
+    "adate": "2020-06-04T11:35:38-03:00",
+    "author": "Caio Lima",
+    "date": "2020-06-04T11:35:38-03:00",
+    "hash": "5fa06130ba5651276f04f3cb8783cdfddc94394b",
+    "parents": "2dad42da23fb42a0e21f2c3cc3e738837d456da2",
+    "subject": "Removing subscript of operators and removing all comparisons using '+0' as operand"
+   },
    {
     "adate": "2020-05-27T15:30:39-03:00",
     "author": "Caio Lima",
@@ -541,7 +549,7 @@
    }
   ],
   "title": "Editorial: Make numeric values and operations default to mathematical values",
-  "updated_at": "2020-05-27T18:30:57Z"
+  "updated_at": "2020-06-04T14:35:51Z"
  },
  {
   "base": "7479ade585c62b4af2c66898fc0b64731f97adc6",
