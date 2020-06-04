@@ -980,9 +980,9 @@
   "updated_at": "2020-03-25T11:00:54Z"
  },
  {
-  "base": "bbe73d1c1387b4c86e82750c8129a791deb6f9bd",
+  "base": "12a546b92275a0e2f834017db2727bb9c6f6c8fd",
   "created_at": "2020-03-22T23:52:05Z",
-  "head": "54602e3a98f5ee53fa22697d5349f884f0e1eb8f",
+  "head": "abc3c3240b98d32d79f029c43b3eec2332e98315",
   "login": "kmiller68",
   "number": 1912,
   "ref": "promise-functions-iteration-consistency",
@@ -990,22 +990,22 @@
    {
     "adate": "2020-03-23T10:46:31-07:00",
     "author": "Keith Miller",
-    "date": "2020-03-23T10:46:31-07:00",
-    "hash": "54602e3a98f5ee53fa22697d5349f884f0e1eb8f",
-    "parents": "d0af1e3eea81a3305ba7c3f27d70974b55e304db",
+    "date": "2020-06-04T16:06:59-07:00",
+    "hash": "abc3c3240b98d32d79f029c43b3eec2332e98315",
+    "parents": "6c22beb65318fd3aac049c5da5d006b50b576479",
     "subject": "Address Jordan's / Kevin's feedback."
    },
    {
     "adate": "2020-03-22T16:43:44-07:00",
     "author": "Keith Miller",
-    "date": "2020-03-22T16:43:44-07:00",
-    "hash": "d0af1e3eea81a3305ba7c3f27d70974b55e304db",
-    "parents": "bbe73d1c1387b4c86e82750c8129a791deb6f9bd",
+    "date": "2020-06-04T16:05:08-07:00",
+    "hash": "6c22beb65318fd3aac049c5da5d006b50b576479",
+    "parents": "12a546b92275a0e2f834017db2727bb9c6f6c8fd",
     "subject": "This change makes promise.{all,allSettled,race} behave more like a canonical JS implementation.  In particular, the resolve property is now checked to be callable before beginning iteration on the first argument."
    }
   ],
   "title": "Promise.{all,allSettled,race} should check resolve is a function before opening their iteratable",
-  "updated_at": "2020-03-23T17:50:28Z"
+  "updated_at": "2020-06-04T23:10:14Z"
  },
  {
   "base": "4b6d77d42ebcdcf0592124dc910913c1948b130c",
