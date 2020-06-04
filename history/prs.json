@@ -1,34 +1,6 @@
 [
  {
   "base": "b25c59273f407974e0c7d9372a2c9f71bb1f21c4",
-  "created_at": "2020-06-03T18:36:53Z",
-  "head": "6f12eabb17cf34d6ef723e947ba85ef9e7f7add6",
-  "login": "tc39",
-  "number": 2033,
-  "ref": "bump-ecmarkup",
-  "revs": [
-   {
-    "adate": "2020-06-03T11:36:38-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2020-06-03T11:36:38-07:00",
-    "hash": "6f12eabb17cf34d6ef723e947ba85ef9e7f7add6",
-    "parents": "0e399e73c0aec8e17ad888f0d3c165dd83f9a69e",
-    "subject": "Editorial: delete some stray blank lines"
-   },
-   {
-    "adate": "2020-06-03T11:32:56-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2020-06-03T11:32:56-07:00",
-    "hash": "0e399e73c0aec8e17ad888f0d3c165dd83f9a69e",
-    "parents": "b25c59273f407974e0c7d9372a2c9f71bb1f21c4",
-    "subject": "Meta: bump ecmarkup"
-   }
-  ],
-  "title": "Meta: bump ecmarkup",
-  "updated_at": "2020-06-03T18:36:53Z"
- },
- {
-  "base": "b25c59273f407974e0c7d9372a2c9f71bb1f21c4",
   "created_at": "2020-06-02T00:41:49Z",
   "head": "f0e23c2d43aca118f766c08ab35fc903ce2cb69f",
   "login": "jridgewell",
@@ -2424,9 +2396,9 @@
   "updated_at": "2020-02-28T04:16:09Z"
  },
  {
-  "base": "c21b280a2c46e92decf3efeca9e9da35d5b9f622",
+  "base": "12a546b92275a0e2f834017db2727bb9c6f6c8fd",
   "created_at": "2019-07-13T02:30:44Z",
-  "head": "2da2dcfd02ff139942c0aab3f6a215ac2b7d0c33",
+  "head": "a550dc8ad2055a725e0032a9f83123e022a13555",
   "login": "jmdyck",
   "number": 1623,
   "ref": "index_strings",
@@ -2434,38 +2406,38 @@
    {
     "adate": "2019-07-12T11:59:54-04:00",
     "author": "Michael Dyck",
-    "date": "2020-04-13T14:17:00-04:00",
-    "hash": "2da2dcfd02ff139942c0aab3f6a215ac2b7d0c33",
-    "parents": "4b8ec01551f248e760ef58f111de64f5d913ddf0",
+    "date": "2020-06-03T22:44:17-04:00",
+    "hash": "a550dc8ad2055a725e0032a9f83123e022a13555",
+    "parents": "fbcfdfce4760a2a2371ec96d7416fd728497bd1f",
     "subject": "Editorial: some minor rewordings"
    },
    {
     "adate": "2019-07-12T11:12:43-04:00",
     "author": "Michael Dyck",
-    "date": "2020-04-13T14:17:00-04:00",
-    "hash": "4b8ec01551f248e760ef58f111de64f5d913ddf0",
-    "parents": "95c535929c1496081bd57b51e55dbe1c5f311bcd",
+    "date": "2020-06-03T22:44:17-04:00",
+    "hash": "fbcfdfce4760a2a2371ec96d7416fd728497bd1f",
+    "parents": "5db57402bcbefe022af59817b1552c4dbe25c370",
     "subject": "Editorial: Replace \"array index\" with \"Uint32-string\""
    },
    {
     "adate": "2019-07-12T10:23:31-04:00",
     "author": "Michael Dyck",
-    "date": "2020-04-13T14:17:00-04:00",
-    "hash": "95c535929c1496081bd57b51e55dbe1c5f311bcd",
-    "parents": "aeb1ad883f7f1af341760922b172f217c146ef91",
+    "date": "2020-06-03T22:44:17-04:00",
+    "hash": "5db57402bcbefe022af59817b1552c4dbe25c370",
+    "parents": "154bc2e2cbe81aa1837b84d42690de9f221f4dd0",
     "subject": "Editorial: Replace \"integer index\" with \"Uint53-string\""
    },
    {
     "adate": "2019-07-12T21:58:00-04:00",
     "author": "Michael Dyck",
-    "date": "2020-04-13T14:15:23-04:00",
-    "hash": "aeb1ad883f7f1af341760922b172f217c146ef91",
-    "parents": "c21b280a2c46e92decf3efeca9e9da35d5b9f622",
+    "date": "2020-06-03T22:05:34-04:00",
+    "hash": "154bc2e2cbe81aa1837b84d42690de9f221f4dd0",
+    "parents": "12a546b92275a0e2f834017db2727bb9c6f6c8fd",
     "subject": "Editorial: Fix wording in Note for Arguments exotic objects"
    }
   ],
   "title": "Editorial: Replace terms \"integer index\" and \"array index\"",
-  "updated_at": "2020-04-13T18:27:37Z"
+  "updated_at": "2020-06-04T02:45:20Z"
  },
  {
   "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
@@ -3596,9 +3568,9 @@
   "updated_at": "2020-02-28T04:16:28Z"
  },
  {
-  "base": "b23239f86039291ee9c92d1c2ba7d089bdb4b60e",
+  "base": "12a546b92275a0e2f834017db2727bb9c6f6c8fd",
   "created_at": "2016-04-16T18:28:04Z",
-  "head": "6114f23708c8b897653c4160f15c10fcb430c84b",
+  "head": "80a69478c366e0506e8b4357c1d3e009605952eb",
   "login": "jmdyck",
   "number": 545,
   "ref": "operation_headers",
@@ -3606,30 +3578,46 @@
    {
     "adate": "2016-04-16T14:19:39-04:00",
     "author": "Michael Dyck",
-    "date": "2020-05-24T08:14:39-04:00",
-    "hash": "6114f23708c8b897653c4160f15c10fcb430c84b",
-    "parents": "d15a83b26abc986d3dfb539be188caab97ed9fbf",
+    "date": "2020-06-03T22:49:09-04:00",
+    "hash": "80a69478c366e0506e8b4357c1d3e009605952eb",
+    "parents": "a7f430a3b0a02bae9fdafe6288640d21f5446233",
     "subject": "Introduce operation-headers"
+   },
+   {
+    "adate": "2020-05-29T17:56:40-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-06-03T22:00:22-04:00",
+    "hash": "a7f430a3b0a02bae9fdafe6288640d21f5446233",
+    "parents": "6b54a0969b675c7bd08a8b573aa00d6c775dc9fa",
+    "subject": "Editorial: Delete \"the String value\" in GetTemplateObject"
+   },
+   {
+    "adate": "2020-05-29T17:38:43-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-06-03T22:00:22-04:00",
+    "hash": "6b54a0969b675c7bd08a8b573aa00d6c775dc9fa",
+    "parents": "40dda63c140101bd1552240b6746d9b25ad946d7",
+    "subject": "Editorial: Delete more steps in the same vein as PR #1519"
+   },
+   {
+    "adate": "2020-05-28T23:27:41-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-06-03T22:00:22-04:00",
+    "hash": "40dda63c140101bd1552240b6746d9b25ad946d7",
+    "parents": "deaaa5d75c6c7ff44f623299b61b6b89388442c6",
+    "subject": "Editorial: Fix typo: \"use\" -> \"uses\""
    },
    {
     "adate": "2020-05-23T23:54:52-04:00",
     "author": "Michael Dyck",
-    "date": "2020-05-24T08:00:56-04:00",
-    "hash": "d15a83b26abc986d3dfb539be188caab97ed9fbf",
-    "parents": "9176d79c3c947a8b0b38e077bcdf2eec06a865ca",
+    "date": "2020-06-03T22:00:22-04:00",
+    "hash": "deaaa5d75c6c7ff44f623299b61b6b89388442c6",
+    "parents": "12a546b92275a0e2f834017db2727bb9c6f6c8fd",
     "subject": "Editorial: Update a step-reference."
-   },
-   {
-    "adate": "2020-05-10T11:16:21-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-05-24T08:00:56-04:00",
-    "hash": "9176d79c3c947a8b0b38e077bcdf2eec06a865ca",
-    "parents": "b23239f86039291ee9c92d1c2ba7d089bdb4b60e",
-    "subject": "Editorial: insert space before left paren"
    }
   ],
   "title": "Replace each abstract op's preamble with a structured 'header'.",
-  "updated_at": "2020-05-24T12:15:28Z"
+  "updated_at": "2020-06-04T02:49:39Z"
  },
  {
   "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
