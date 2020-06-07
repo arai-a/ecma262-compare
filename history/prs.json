@@ -1002,11 +1002,19 @@
  {
   "base": "12a546b92275a0e2f834017db2727bb9c6f6c8fd",
   "created_at": "2020-03-22T23:52:05Z",
-  "head": "abc3c3240b98d32d79f029c43b3eec2332e98315",
+  "head": "dc589faf690734ed0b3c8ab85b7c2e82cbd34824",
   "login": "kmiller68",
   "number": 1912,
   "ref": "promise-functions-iteration-consistency",
   "revs": [
+   {
+    "adate": "2020-06-06T16:42:02-07:00",
+    "author": "Keith Miller",
+    "date": "2020-06-06T16:42:02-07:00",
+    "hash": "dc589faf690734ed0b3c8ab85b7c2e82cbd34824",
+    "parents": "abc3c3240b98d32d79f029c43b3eec2332e98315",
+    "subject": "Fix bad rebase and add `promiseResolve` argument back to `PerformPromiseRace`"
+   },
    {
     "adate": "2020-03-23T10:46:31-07:00",
     "author": "Keith Miller",
@@ -1025,7 +1033,7 @@
    }
   ],
   "title": "Promise.{all,allSettled,race} should check resolve is a function before opening their iteratable",
-  "updated_at": "2020-06-04T23:10:14Z"
+  "updated_at": "2020-06-06T23:42:45Z"
  },
  {
   "base": "4b6d77d42ebcdcf0592124dc910913c1948b130c",
