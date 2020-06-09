@@ -2,11 +2,27 @@
  {
   "base": "12a546b92275a0e2f834017db2727bb9c6f6c8fd",
   "created_at": "2020-06-09T17:41:28Z",
-  "head": "7a4e3cb43ff0f87bb889da10dfd0b2ca09242c3a",
+  "head": "e5ee7078b9e020d6eb28330673336357ba1cb343",
   "login": "littledan",
   "number": 2038,
   "ref": "symbol-as-weakmap-key",
   "revs": [
+   {
+    "adate": "2020-06-09T22:52:29+02:00",
+    "author": "Daniel Ehrenberg",
+    "date": "2020-06-09T22:52:29+02:00",
+    "hash": "e5ee7078b9e020d6eb28330673336357ba1cb343",
+    "parents": "a896f4dda6e13e00f470d8beeaa06df725aeaa6e",
+    "subject": "Editorial: Factor out HasIdentity algorithm"
+   },
+   {
+    "adate": "2020-06-09T22:46:49+02:00",
+    "author": "Daniel Ehrenberg",
+    "date": "2020-06-09T22:46:49+02:00",
+    "hash": "a896f4dda6e13e00f470d8beeaa06df725aeaa6e",
+    "parents": "7a4e3cb43ff0f87bb889da10dfd0b2ca09242c3a",
+    "subject": "Applying Richard Gibson's wording suggestions"
+   },
    {
     "adate": "2020-06-09T19:31:45+02:00",
     "author": "Daniel Ehrenberg",
@@ -17,7 +33,7 @@
    }
   ],
   "title": "Normative: Permit Symbol as WeakMap key and WeakSet entry",
-  "updated_at": "2020-06-09T17:57:10Z"
+  "updated_at": "2020-06-09T20:53:18Z"
  },
  {
   "base": "12a546b92275a0e2f834017db2727bb9c6f6c8fd",
