@@ -1,5 +1,41 @@
 [
  {
+  "base": "855093b06eaa8008ab6af99ea77880c45d49e50b",
+  "created_at": "2020-06-10T12:35:13Z",
+  "head": "85fe2e6372701d1a3515bde8d2ba07aa9038a4a4",
+  "login": "chicoxyzzy",
+  "number": 2040,
+  "ref": "promise-any",
+  "revs": [
+   {
+    "adate": "2020-06-10T15:59:21+03:00",
+    "author": "chicoxyzzy",
+    "date": "2020-06-10T15:59:21+03:00",
+    "hash": "85fe2e6372701d1a3515bde8d2ba07aa9038a4a4",
+    "parents": "a636d13cd700c05a77c35dfecd3f1519d8c34115",
+    "subject": "add missing _"
+   },
+   {
+    "adate": "2020-06-10T15:54:47+03:00",
+    "author": "chicoxyzzy",
+    "date": "2020-06-10T15:54:47+03:00",
+    "hash": "a636d13cd700c05a77c35dfecd3f1519d8c34115",
+    "parents": "e603a7f18e9b44e9a9c5c540f23379761ef27e86",
+    "subject": "remove <ins> tags"
+   },
+   {
+    "adate": "2020-06-10T15:30:59+03:00",
+    "author": "chicoxyzzy",
+    "date": "2020-06-10T15:49:34+03:00",
+    "hash": "e603a7f18e9b44e9a9c5c540f23379761ef27e86",
+    "parents": "855093b06eaa8008ab6af99ea77880c45d49e50b",
+    "subject": "Normative: Add Promise.any & AggregateError"
+   }
+  ],
+  "title": "Normative: Add Promise.any & AggregateError",
+  "updated_at": "2020-06-10T13:05:35Z"
+ },
+ {
   "base": "12a546b92275a0e2f834017db2727bb9c6f6c8fd",
   "created_at": "2020-06-09T17:41:28Z",
   "head": "e5ee7078b9e020d6eb28330673336357ba1cb343",
@@ -1044,42 +1080,6 @@
   "updated_at": "2020-03-25T11:00:54Z"
  },
  {
-  "base": "12a546b92275a0e2f834017db2727bb9c6f6c8fd",
-  "created_at": "2020-03-22T23:52:05Z",
-  "head": "dc589faf690734ed0b3c8ab85b7c2e82cbd34824",
-  "login": "kmiller68",
-  "number": 1912,
-  "ref": "promise-functions-iteration-consistency",
-  "revs": [
-   {
-    "adate": "2020-06-06T16:42:02-07:00",
-    "author": "Keith Miller",
-    "date": "2020-06-06T16:42:02-07:00",
-    "hash": "dc589faf690734ed0b3c8ab85b7c2e82cbd34824",
-    "parents": "abc3c3240b98d32d79f029c43b3eec2332e98315",
-    "subject": "Fix bad rebase and add `promiseResolve` argument back to `PerformPromiseRace`"
-   },
-   {
-    "adate": "2020-03-23T10:46:31-07:00",
-    "author": "Keith Miller",
-    "date": "2020-06-04T16:06:59-07:00",
-    "hash": "abc3c3240b98d32d79f029c43b3eec2332e98315",
-    "parents": "6c22beb65318fd3aac049c5da5d006b50b576479",
-    "subject": "Address Jordan's / Kevin's feedback."
-   },
-   {
-    "adate": "2020-03-22T16:43:44-07:00",
-    "author": "Keith Miller",
-    "date": "2020-06-04T16:05:08-07:00",
-    "hash": "6c22beb65318fd3aac049c5da5d006b50b576479",
-    "parents": "12a546b92275a0e2f834017db2727bb9c6f6c8fd",
-    "subject": "This change makes promise.{all,allSettled,race} behave more like a canonical JS implementation.  In particular, the resolve property is now checked to be callable before beginning iteration on the first argument."
-   }
-  ],
-  "title": "Promise.{all,allSettled,race} should check resolve is a function before opening their iteratable",
-  "updated_at": "2020-06-06T23:42:45Z"
- },
- {
   "base": "4b6d77d42ebcdcf0592124dc910913c1948b130c",
   "created_at": "2020-03-20T22:16:56Z",
   "head": "67e63a501b1a83e1e5cf149a2dd3b51794e1bf2e",
@@ -1338,26 +1338,6 @@
   ],
   "title": "Editorial: Rename predicate function parameter of Array methods",
   "updated_at": "2020-02-28T04:16:01Z"
- },
- {
-  "base": "b25c59273f407974e0c7d9372a2c9f71bb1f21c4",
-  "created_at": "2019-11-14T17:17:20Z",
-  "head": "5bbb9229c5c38e13d80601533fa5db13c7c80e3b",
-  "login": "devsnek",
-  "number": 1781,
-  "ref": "quikfix",
-  "revs": [
-   {
-    "adate": "2019-11-14T09:16:41-08:00",
-    "author": "Gus Caplan",
-    "date": "2020-05-30T22:17:53-07:00",
-    "hash": "5bbb9229c5c38e13d80601533fa5db13c7c80e3b",
-    "parents": "b25c59273f407974e0c7d9372a2c9f71bb1f21c4",
-    "subject": "Editorial: Treat missing parameters as undefined in BigInt functions"
-   }
-  ],
-  "title": "Editorial: A couple fixes from OrdinaryFunctionCreate and undefined arguments",
-  "updated_at": "2020-05-31T05:23:31Z"
  },
  {
   "base": "0b988b7700de675331ac360d164c978d6ea452ec",
