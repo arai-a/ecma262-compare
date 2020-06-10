@@ -1044,6 +1044,11 @@ class Comparator {
       ]);
     }
 
+    if (!this.fromSecData || !this.toSecData) {
+      this.setStat("");
+      this.result.textContent = "Failed to load data. This can happen if the build failed for the given revision.";
+    }
+
     {
       const map = {};
       for (const id in this.fromSecData.secData) {
