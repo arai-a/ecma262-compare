@@ -22,11 +22,19 @@
  {
   "base": "855093b06eaa8008ab6af99ea77880c45d49e50b",
   "created_at": "2020-06-10T12:35:13Z",
-  "head": "72eec81c4f9955f8edca67e5bf8b60ebf39aac8d",
+  "head": "18277d4038481003acc5b34669f83e71840f87ba",
   "login": "chicoxyzzy",
   "number": 2040,
   "ref": "promise-any",
   "revs": [
+   {
+    "adate": "2020-06-10T22:19:46+03:00",
+    "author": "chicoxyzzy",
+    "date": "2020-06-10T22:19:46+03:00",
+    "hash": "18277d4038481003acc5b34669f83e71840f87ba",
+    "parents": "72eec81c4f9955f8edca67e5bf8b60ebf39aac8d",
+    "subject": "surround undefined by asterisks"
+   },
    {
     "adate": "2020-06-10T17:38:16+03:00",
     "author": "chicoxyzzy",
@@ -69,7 +77,7 @@
    }
   ],
   "title": "Normative: Add Promise.any & AggregateError",
-  "updated_at": "2020-06-10T15:07:28Z"
+  "updated_at": "2020-06-10T19:19:55Z"
  },
  {
   "base": "12a546b92275a0e2f834017db2727bb9c6f6c8fd",
