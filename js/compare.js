@@ -1046,7 +1046,28 @@ class Comparator {
 
     if (!this.fromSecData || !this.toSecData) {
       this.setStat("");
-      this.result.textContent = "Failed to load data. This can happen if the build failed for the given revision.";
+      this.messageOverlay.classList.add("shown");
+
+      function filterRev(rev) {
+        const m = rev.match(/PR\/(\d+)\/(.+)/);
+        if (m) {
+          return `PR #${m[1]} (${m[2]})`;
+        }
+        return rev;
+      }
+
+      let missing = "";
+      if (!this.fromSecData) {
+        if (!this.toSecData) {
+          missing = `${filterRev(this.fromRev.value)} and ${filterRev(this.toRev.value)} are not found`;
+        } else {
+          missing = `${filterRev(this.fromRev.value)} is not found`;
+        }
+      } else {
+          missing = `${filterRev(this.toRev.value)} is not found`;
+      }
+
+      this.messageBox.textContent = `${missing}. This can happen if the build failed for the revision.`;
     }
 
     {
