@@ -876,40 +876,48 @@
   "updated_at": "2020-05-10T04:52:04Z"
  },
  {
-  "base": "8678817de67956c26d3e5541df485751ac4c8839",
+  "base": "855093b06eaa8008ab6af99ea77880c45d49e50b",
   "created_at": "2020-05-07T22:54:50Z",
-  "head": "67104a431dd41c5436dbb0cd6dea8ca0bea099f8",
+  "head": "78cbeb451aa13d2ba5c403a82c7f1f546052a105",
   "login": "syg",
   "number": 1984,
   "ref": "promise-job-invariants",
   "revs": [
    {
+    "adate": "2020-06-10T15:12:49-07:00",
+    "author": "Shu-yu Guo",
+    "date": "2020-06-10T16:11:29-07:00",
+    "hash": "78cbeb451aa13d2ba5c403a82c7f1f546052a105",
+    "parents": "fd1cd60d21bd952b320d40591bccd229065f2ad1",
+    "subject": "Address review"
+   },
+   {
     "adate": "2020-05-13T17:23:41-07:00",
     "author": "Shu-yu Guo",
-    "date": "2020-05-13T17:23:41-07:00",
-    "hash": "67104a431dd41c5436dbb0cd6dea8ca0bea099f8",
-    "parents": "ef0495ac3d4e0c0c3145f85deb34dcf53ee327b9",
+    "date": "2020-06-10T14:19:37-07:00",
+    "hash": "fd1cd60d21bd952b320d40591bccd229065f2ad1",
+    "parents": "1d5713314fea58902fa2bb66cde975be28d2e5dc",
     "subject": "Make the active script or module propagation more constrained per discussion with ljharb"
    },
    {
     "adate": "2020-05-08T15:04:08-07:00",
     "author": "Shu-yu Guo",
-    "date": "2020-05-08T15:04:08-07:00",
-    "hash": "ef0495ac3d4e0c0c3145f85deb34dcf53ee327b9",
-    "parents": "57ca40ddec49835daca0beb5855b167e55db6b4b",
+    "date": "2020-06-10T14:19:37-07:00",
+    "hash": "1d5713314fea58902fa2bb66cde975be28d2e5dc",
+    "parents": "df61f986d992125d9a3327a735c6a0dd3f706bd6",
     "subject": "Fix error creation for revoked Proxies; separate out active script propagation"
    },
    {
     "adate": "2020-05-07T15:14:28-07:00",
     "author": "Shu-yu Guo",
-    "date": "2020-05-07T15:37:32-07:00",
-    "hash": "57ca40ddec49835daca0beb5855b167e55db6b4b",
-    "parents": "8678817de67956c26d3e5541df485751ac4c8839",
+    "date": "2020-06-10T14:19:37-07:00",
+    "hash": "df61f986d992125d9a3327a735c6a0dd3f706bd6",
+    "parents": "855093b06eaa8008ab6af99ea77880c45d49e50b",
     "subject": "Layering: Refine execution context requirements for Jobs"
    }
   ],
   "title": "Layering: Refine execution context requirements for Jobs",
-  "updated_at": "2020-05-14T00:24:54Z"
+  "updated_at": "2020-06-10T23:12:53Z"
  },
  {
   "base": "0b988b7700de675331ac360d164c978d6ea452ec",
