@@ -1,5 +1,21 @@
 [
  {
+  "adate": "2020-06-09T22:22:00-07:00",
+  "author": "Keith Miller",
+  "date": "2020-06-09T22:22:00-07:00",
+  "hash": "855093b06eaa8008ab6af99ea77880c45d49e50b",
+  "parents": "ba912b0e8b901c79bb1858a2982b6c9282e4c4a2",
+  "subject": "Normative: Promise.{all,allSettled,race} should check resolve is a function before opening their iterable (#1912)"
+ },
+ {
+  "adate": "2020-06-09T22:17:21-07:00",
+  "author": "Gus Caplan",
+  "date": "2020-06-09T22:17:21-07:00",
+  "hash": "ba912b0e8b901c79bb1858a2982b6c9282e4c4a2",
+  "parents": "12a546b92275a0e2f834017db2727bb9c6f6c8fd",
+  "subject": "Editorial: Treat missing parameters as undefined in BigInt functions (#1781)"
+ },
+ {
   "adate": "2020-06-03T14:32:00-07:00",
   "author": "Kevin Gibbons",
   "date": "2020-06-03T14:32:00-07:00",
