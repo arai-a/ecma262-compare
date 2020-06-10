@@ -594,11 +594,19 @@
  {
   "base": "b23239f86039291ee9c92d1c2ba7d089bdb4b60e",
   "created_at": "2020-05-22T17:36:53Z",
-  "head": "5fa06130ba5651276f04f3cb8783cdfddc94394b",
+  "head": "56d0853a02091f14ba49d2c511abe7245226ae73",
   "login": "caiolima",
   "number": 2007,
   "ref": "mathematical-values-fix",
   "revs": [
+   {
+    "adate": "2020-06-10T11:29:15-03:00",
+    "author": "Caio Lima",
+    "date": "2020-06-10T11:29:15-03:00",
+    "hash": "56d0853a02091f14ba49d2c511abe7245226ae73",
+    "parents": "5fa06130ba5651276f04f3cb8783cdfddc94394b",
+    "subject": "Adding sbscript into +0 and -0. Removing mathematical value subscript and addressing some review comments"
+   },
    {
     "adate": "2020-06-04T11:35:38-03:00",
     "author": "Caio Lima",
@@ -657,7 +665,7 @@
    }
   ],
   "title": "Editorial: Make numeric values and operations default to mathematical values",
-  "updated_at": "2020-06-04T14:35:51Z"
+  "updated_at": "2020-06-10T14:29:17Z"
  },
  {
   "base": "7479ade585c62b4af2c66898fc0b64731f97adc6",
