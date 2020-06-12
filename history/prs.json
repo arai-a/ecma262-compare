@@ -1,5 +1,25 @@
 [
  {
+  "base": "614cfff54e42dae8e246cfa059e9c90d9e2ccebb",
+  "created_at": "2020-06-12T01:25:58Z",
+  "head": "29764fddc2ac88d40d51a0fcfad3e92d57880538",
+  "login": "rwaldron",
+  "number": 2043,
+  "ref": "numeric-separator",
+  "revs": [
+   {
+    "adate": "2020-06-01T14:49:10-04:00",
+    "author": "Rick Waldron",
+    "date": "2020-06-01T14:49:10-04:00",
+    "hash": "29764fddc2ac88d40d51a0fcfad3e92d57880538",
+    "parents": "b25c59273f407974e0c7d9372a2c9f71bb1f21c4",
+    "subject": "NumericLiteralSeparator"
+   }
+  ],
+  "title": "NumericLiteralSeparator (seeking stage 4 at next meeting)",
+  "updated_at": "2020-06-12T01:28:02Z"
+ },
+ {
   "base": "855093b06eaa8008ab6af99ea77880c45d49e50b",
   "created_at": "2020-06-10T15:36:49Z",
   "head": "fe5f260cba4aeb7126d1eaaf52912ef0bddcf238",
@@ -270,46 +290,6 @@
   ],
   "title": "Editorial: Add\u00a0<dfn>s for\u00a0native\u00a0error\u00a0constructors",
   "updated_at": "2020-05-31T11:05:59Z"
- },
- {
-  "base": "b25c59273f407974e0c7d9372a2c9f71bb1f21c4",
-  "created_at": "2020-05-31T07:39:18Z",
-  "head": "790e2c65b0a487800a666736f10dc99f51c94c5a",
-  "login": "EB-Forks",
-  "number": 2025,
-  "ref": "editorial/intrinsics/typedarray-subclass-constructors",
-  "revs": [
-   {
-    "adate": "2020-05-31T09:35:00+02:00",
-    "author": "ExE Boss",
-    "date": "2020-05-31T09:35:49+02:00",
-    "hash": "790e2c65b0a487800a666736f10dc99f51c94c5a",
-    "parents": "b25c59273f407974e0c7d9372a2c9f71bb1f21c4",
-    "subject": "Editorial: Add\u00a0<dfn>s for\u00a0TypedArray subclass\u00a0constructors"
-   }
-  ],
-  "title": "Editorial: Add\u00a0<dfn>s for\u00a0TypedArray subclass\u00a0constructors",
-  "updated_at": "2020-05-31T07:42:09Z"
- },
- {
-  "base": "b25c59273f407974e0c7d9372a2c9f71bb1f21c4",
-  "created_at": "2020-05-31T07:29:33Z",
-  "head": "76c24a0a85bf1272b5d2bf3dbe0840be1f58d067",
-  "login": "EB-Forks",
-  "number": 2024,
-  "ref": "editorial/intrinsics/bigint-prototype",
-  "revs": [
-   {
-    "adate": "2020-05-31T09:30:00+02:00",
-    "author": "ExE Boss",
-    "date": "2020-05-31T09:26:26+02:00",
-    "hash": "76c24a0a85bf1272b5d2bf3dbe0840be1f58d067",
-    "parents": "b25c59273f407974e0c7d9372a2c9f71bb1f21c4",
-    "subject": "Editorial: Add\u00a0<dfn> for\u00a0%BigInt.prototype%"
-   }
-  ],
-  "title": "Editorial: Add\u00a0<dfn> for\u00a0%BigInt.prototype%",
-  "updated_at": "2020-05-31T07:29:33Z"
  },
  {
   "base": "9e48030ca8c696a7137fdd533fc4bf4db16b7685",
@@ -710,42 +690,6 @@
   ],
   "title": "Editorial: Make numeric values and operations default to mathematical values",
   "updated_at": "2020-06-10T15:03:32Z"
- },
- {
-  "base": "7479ade585c62b4af2c66898fc0b64731f97adc6",
-  "created_at": "2020-05-17T15:43:11Z",
-  "head": "1b0d853dacc1d4ee2012f19aa4a4e38af57bd35f",
-  "login": "EB-Forks",
-  "number": 1996,
-  "ref": "fix/add-dfn-to-symbol-properties",
-  "revs": [
-   {
-    "adate": "2020-05-26T20:25:00+02:00",
-    "author": "ExE Boss",
-    "date": "2020-05-26T20:26:06+02:00",
-    "hash": "1b0d853dacc1d4ee2012f19aa4a4e38af57bd35f",
-    "parents": "f212663a26c4e87b5fdfd7eb2e6960766d4b8496 7479ade585c62b4af2c66898fc0b64731f97adc6",
-    "subject": "Merge branch 'master' into fix/add-dfn-to-symbol-properties"
-   },
-   {
-    "adate": "2020-05-26T20:20:00+02:00",
-    "author": "ExE Boss",
-    "date": "2020-05-26T20:24:29+02:00",
-    "hash": "f212663a26c4e87b5fdfd7eb2e6960766d4b8496",
-    "parents": "f81df999358a4b3a7c62be5021f240ff1628e247",
-    "subject": "Address\u00a0review\u00a0comments"
-   },
-   {
-    "adate": "2020-05-17T17:40:00+02:00",
-    "author": "ExE Boss",
-    "date": "2020-05-17T17:43:21+02:00",
-    "hash": "f81df999358a4b3a7c62be5021f240ff1628e247",
-    "parents": "bd868f20b8c574ad6689fba014b62a1dba819e56",
-    "subject": "Editorial: Add\u00a0`<dfn>` to\u00a0well\u2011known\u00a0symbols"
-   }
-  ],
-  "title": "Editorial: Add\u00a0`<dfn>` to\u00a0well\u2011known\u00a0symbols",
-  "updated_at": "2020-05-26T18:32:13Z"
  },
  {
   "base": "bd868f20b8c574ad6689fba014b62a1dba819e56",
