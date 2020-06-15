@@ -1,6 +1,26 @@
 [
  {
   "base": "83acfd45e1b55944880f09aec8c451630174c9a5",
+  "created_at": "2020-06-15T06:13:13Z",
+  "head": "8a6ebfa84ee898e3fc41f7cca67024285caba0fb",
+  "login": "ljharb",
+  "number": 2050,
+  "ref": "assertions",
+  "revs": [
+   {
+    "adate": "2020-06-14T23:12:03-07:00",
+    "author": "Jordan Harband",
+    "date": "2020-06-14T23:12:03-07:00",
+    "hash": "8a6ebfa84ee898e3fc41f7cca67024285caba0fb",
+    "parents": "83acfd45e1b55944880f09aec8c451630174c9a5",
+    "subject": "Editorial: add PromiseCapability Record assertions"
+   }
+  ],
+  "title": "Editorial: add PromiseCapability Record assertions",
+  "updated_at": "2020-06-15T06:13:13Z"
+ },
+ {
+  "base": "83acfd45e1b55944880f09aec8c451630174c9a5",
   "created_at": "2020-06-15T04:22:10Z",
   "head": "6c0dcdb258cd88287b4bd5d37b27cc4f965acab2",
   "login": "tc39",
