@@ -1,34 +1,6 @@
 [
  {
   "base": "f8e755749bca562111c8b5f067270d3eb164b523",
-  "created_at": "2020-06-15T23:19:12Z",
-  "head": "e3c56e3fdd99cdc41ee8fede146b5426d1c704b8",
-  "login": "tc39",
-  "number": 2051,
-  "ref": "number-one",
-  "revs": [
-   {
-    "adate": "2020-06-14T21:01:50-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2020-06-15T16:16:44-07:00",
-    "hash": "e3c56e3fdd99cdc41ee8fede146b5426d1c704b8",
-    "parents": "5000e172ce4b612074c761f83ad053c8fd7cea38",
-    "subject": "Editorial: make step numbers consistently 1"
-   },
-   {
-    "adate": "2020-06-15T16:15:11-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2020-06-15T16:15:18-07:00",
-    "hash": "5000e172ce4b612074c761f83ad053c8fd7cea38",
-    "parents": "f8e755749bca562111c8b5f067270d3eb164b523",
-    "subject": "Meta: bump ecmarkup"
-   }
-  ],
-  "title": "Meta: bump ecmarkup",
-  "updated_at": "2020-06-15T23:32:13Z"
- },
- {
-  "base": "f8e755749bca562111c8b5f067270d3eb164b523",
   "created_at": "2020-06-15T06:13:13Z",
   "head": "32b51d075d8c139119159eb85c1ca5bebe7ba25b",
   "login": "ljharb",
@@ -50,11 +22,35 @@
  {
   "base": "83acfd45e1b55944880f09aec8c451630174c9a5",
   "created_at": "2020-06-14T06:21:06Z",
-  "head": "d78508a7d178d9a3b095178c646ef8e9b8db2d8a",
+  "head": "4ed8bcff06aaa94e176dda57fc6d80c8a1c5538a",
   "login": "Jack-Works",
   "number": 2045,
   "ref": "generator",
   "revs": [
+   {
+    "adate": "2020-06-16T12:04:45+08:00",
+    "author": "Jack Works",
+    "date": "2020-06-16T12:04:45+08:00",
+    "hash": "4ed8bcff06aaa94e176dda57fc6d80c8a1c5538a",
+    "parents": "92d3f7e8cdd9506a129ca46aa87b8d938a300212",
+    "subject": "remove example"
+   },
+   {
+    "adate": "2020-06-16T12:01:18+08:00",
+    "author": "Jack Works",
+    "date": "2020-06-16T12:01:18+08:00",
+    "hash": "92d3f7e8cdd9506a129ca46aa87b8d938a300212",
+    "parents": "15928f50776a1bd7c898a2e14690d5adf0dc589e",
+    "subject": "rewrite builtin generator"
+   },
+   {
+    "adate": "2020-06-16T11:34:39+08:00",
+    "author": "Jack Works",
+    "date": "2020-06-16T11:34:39+08:00",
+    "hash": "15928f50776a1bd7c898a2e14690d5adf0dc589e",
+    "parents": "d78508a7d178d9a3b095178c646ef8e9b8db2d8a",
+    "subject": "convert String@@iterator to built-in generator"
+   },
    {
     "adate": "2020-06-15T11:50:30+08:00",
     "author": "Jack Works",
@@ -65,7 +61,7 @@
    }
   ],
   "title": "Editorial: Add Yield abstract operation, CreateBuiltinGeneratorFunction abs op.",
-  "updated_at": "2020-06-15T03:56:53Z"
+  "updated_at": "2020-06-16T04:05:01Z"
  },
  {
   "base": "614cfff54e42dae8e246cfa059e9c90d9e2ccebb",
