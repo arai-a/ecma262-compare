@@ -1,5 +1,25 @@
 [
  {
+  "base": "6f0a88dc1d9f02d16a66aea01aede0253be4a132",
+  "created_at": "2020-06-16T06:15:46Z",
+  "head": "e793aaa6fe643ca4553679fdc04d2dcdbe1bb230",
+  "login": "tc39",
+  "number": 2052,
+  "ref": "step-labels",
+  "revs": [
+   {
+    "adate": "2020-06-14T16:10:40-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-06-15T22:24:06-07:00",
+    "hash": "e793aaa6fe643ca4553679fdc04d2dcdbe1bb230",
+    "parents": "6f0a88dc1d9f02d16a66aea01aede0253be4a132",
+    "subject": "Editorial: use step labels rather than numbers to refer to steps"
+   }
+  ],
+  "title": "Editorial: use step labels rather than numbers to refer to steps",
+  "updated_at": "2020-06-16T06:35:44Z"
+ },
+ {
   "base": "f8e755749bca562111c8b5f067270d3eb164b523",
   "created_at": "2020-06-15T06:13:13Z",
   "head": "32b51d075d8c139119159eb85c1ca5bebe7ba25b",
@@ -22,11 +42,19 @@
  {
   "base": "6f0a88dc1d9f02d16a66aea01aede0253be4a132",
   "created_at": "2020-06-14T06:21:06Z",
-  "head": "83bd0bdc6c27f058936819ce0a26b11a41dedbaf",
+  "head": "d74d7e855ea329bf15e6f0609c8e9fc522838716",
   "login": "Jack-Works",
   "number": 2045,
   "ref": "generator",
   "revs": [
+   {
+    "adate": "2020-06-16T14:11:14+08:00",
+    "author": "Jack Works",
+    "date": "2020-06-16T14:11:14+08:00",
+    "hash": "d74d7e855ea329bf15e6f0609c8e9fc522838716",
+    "parents": "83bd0bdc6c27f058936819ce0a26b11a41dedbaf",
+    "subject": "add one more brand check"
+   },
    {
     "adate": "2020-06-16T14:01:42+08:00",
     "author": "Jack Works",
@@ -77,7 +105,7 @@
    }
   ],
   "title": "Editorial: Add Yield abstract operation, CreateBuiltinGeneratorFunction abs op.",
-  "updated_at": "2020-06-16T06:01:53Z"
+  "updated_at": "2020-06-16T06:31:03Z"
  },
  {
   "base": "614cfff54e42dae8e246cfa059e9c90d9e2ccebb",
