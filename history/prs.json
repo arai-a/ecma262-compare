@@ -1,6 +1,26 @@
 [
  {
   "base": "6f0a88dc1d9f02d16a66aea01aede0253be4a132",
+  "created_at": "2020-06-16T23:36:47Z",
+  "head": "5ad7b0c9b84888b163f2c13a30326b4c7ac3b55a",
+  "login": "rkirsling",
+  "number": 2054,
+  "ref": "sloppy-noctal-escapes",
+  "revs": [
+   {
+    "adate": "2020-06-16T16:11:40-07:00",
+    "author": "Ross Kirsling",
+    "date": "2020-06-16T16:11:40-07:00",
+    "hash": "5ad7b0c9b84888b163f2c13a30326b4c7ac3b55a",
+    "parents": "6f0a88dc1d9f02d16a66aea01aede0253be4a132",
+    "subject": "Specify \\8 and \\9 in sloppy non-template strings."
+   }
+  ],
+  "title": "Specify \\8 and \\9 in sloppy non-template strings.",
+  "updated_at": "2020-06-16T23:45:47Z"
+ },
+ {
+  "base": "6f0a88dc1d9f02d16a66aea01aede0253be4a132",
   "created_at": "2020-06-16T06:15:46Z",
   "head": "e793aaa6fe643ca4553679fdc04d2dcdbe1bb230",
   "login": "tc39",
