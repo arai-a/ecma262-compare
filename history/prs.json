@@ -22,11 +22,27 @@
  {
   "base": "6f0a88dc1d9f02d16a66aea01aede0253be4a132",
   "created_at": "2020-06-16T06:15:46Z",
-  "head": "e793aaa6fe643ca4553679fdc04d2dcdbe1bb230",
+  "head": "e727d7713d48a567930441943c9ffea1c160d618",
   "login": "tc39",
   "number": 2052,
   "ref": "step-labels",
   "revs": [
+   {
+    "adate": "2020-06-16T23:53:08-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-06-16T23:53:08-07:00",
+    "hash": "e727d7713d48a567930441943c9ffea1c160d618",
+    "parents": "ddedf83c4d1223bdcbf6509aa125e9641dc9e438",
+    "subject": "bump ecmarkdown"
+   },
+   {
+    "adate": "2020-06-16T23:52:16-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-06-16T23:52:16-07:00",
+    "hash": "ddedf83c4d1223bdcbf6509aa125e9641dc9e438",
+    "parents": "e793aaa6fe643ca4553679fdc04d2dcdbe1bb230",
+    "subject": "use correct syntax"
+   },
    {
     "adate": "2020-06-14T16:10:40-07:00",
     "author": "Kevin Gibbons",
@@ -37,7 +53,7 @@
    }
   ],
   "title": "Editorial: use step labels rather than numbers to refer to steps",
-  "updated_at": "2020-06-16T06:35:44Z"
+  "updated_at": "2020-06-17T07:01:56Z"
  },
  {
   "base": "f8e755749bca562111c8b5f067270d3eb164b523",
