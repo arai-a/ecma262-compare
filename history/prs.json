@@ -1,6 +1,46 @@
 [
  {
   "base": "6f0a88dc1d9f02d16a66aea01aede0253be4a132",
+  "created_at": "2020-06-19T04:41:07Z",
+  "head": "f8955e1911908182800294b4f5e4b2b9a0d4c5e8",
+  "login": "ljharb",
+  "number": 2057,
+  "ref": "to_string_tags",
+  "revs": [
+   {
+    "adate": "2020-06-18T21:39:50-07:00",
+    "author": "Jordan Harband",
+    "date": "2020-06-18T21:39:50-07:00",
+    "hash": "f8955e1911908182800294b4f5e4b2b9a0d4c5e8",
+    "parents": "6f0a88dc1d9f02d16a66aea01aede0253be4a132",
+    "subject": "Normative: add `Reflect[Symbol.toStringTag]`"
+   }
+  ],
+  "title": "Normative: add `Reflect[Symbol.toStringTag]`",
+  "updated_at": "2020-06-19T04:41:07Z"
+ },
+ {
+  "base": "6f0a88dc1d9f02d16a66aea01aede0253be4a132",
+  "created_at": "2020-06-19T04:32:04Z",
+  "head": "52e36d91935642c18feba4909e4cf19f2aa1f56a",
+  "login": "ljharb",
+  "number": 2056,
+  "ref": "legacy-intrinsics",
+  "revs": [
+   {
+    "adate": "2020-06-18T21:26:15-07:00",
+    "author": "Jordan Harband",
+    "date": "2020-06-18T21:26:15-07:00",
+    "hash": "52e36d91935642c18feba4909e4cf19f2aa1f56a",
+    "parents": "6f0a88dc1d9f02d16a66aea01aede0253be4a132",
+    "subject": "Editorial: remove legacy intrinsics"
+   }
+  ],
+  "title": "Editorial: remove legacy intrinsics",
+  "updated_at": "2020-06-19T04:36:08Z"
+ },
+ {
+  "base": "6f0a88dc1d9f02d16a66aea01aede0253be4a132",
   "created_at": "2020-06-16T23:36:47Z",
   "head": "5ad7b0c9b84888b163f2c13a30326b4c7ac3b55a",
   "login": "rkirsling",
@@ -18,50 +58,6 @@
   ],
   "title": "Specify \\8 and \\9 in sloppy non-template strings.",
   "updated_at": "2020-06-16T23:45:47Z"
- },
- {
-  "base": "6f0a88dc1d9f02d16a66aea01aede0253be4a132",
-  "created_at": "2020-06-16T06:15:46Z",
-  "head": "8b8addb741363289f5e3595e5986f7066c6da0b1",
-  "login": "tc39",
-  "number": 2052,
-  "ref": "step-labels",
-  "revs": [
-   {
-    "adate": "2020-06-18T16:00:13-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2020-06-18T16:00:13-07:00",
-    "hash": "8b8addb741363289f5e3595e5986f7066c6da0b1",
-    "parents": "e727d7713d48a567930441943c9ffea1c160d618",
-    "subject": "use id rather than label"
-   },
-   {
-    "adate": "2020-06-16T23:53:08-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2020-06-16T23:53:08-07:00",
-    "hash": "e727d7713d48a567930441943c9ffea1c160d618",
-    "parents": "ddedf83c4d1223bdcbf6509aa125e9641dc9e438",
-    "subject": "bump ecmarkdown"
-   },
-   {
-    "adate": "2020-06-16T23:52:16-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2020-06-16T23:52:16-07:00",
-    "hash": "ddedf83c4d1223bdcbf6509aa125e9641dc9e438",
-    "parents": "e793aaa6fe643ca4553679fdc04d2dcdbe1bb230",
-    "subject": "use correct syntax"
-   },
-   {
-    "adate": "2020-06-14T16:10:40-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2020-06-15T22:24:06-07:00",
-    "hash": "e793aaa6fe643ca4553679fdc04d2dcdbe1bb230",
-    "parents": "6f0a88dc1d9f02d16a66aea01aede0253be4a132",
-    "subject": "Editorial: use step labels rather than numbers to refer to steps"
-   }
-  ],
-  "title": "Editorial: use step labels rather than numbers to refer to steps",
-  "updated_at": "2020-06-18T23:04:53Z"
  },
  {
   "base": "6f0a88dc1d9f02d16a66aea01aede0253be4a132",
