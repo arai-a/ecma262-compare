@@ -1,6 +1,46 @@
 [
  {
   "base": "5b90b03c560f036fd38c911ac8936be889c838e2",
+  "created_at": "2020-06-23T18:52:17Z",
+  "head": "85ba8662b7c72ba6aebd903a4385db4e6312d22c",
+  "login": "ljharb",
+  "number": 2061,
+  "ref": "bigint_assertions",
+  "revs": [
+   {
+    "adate": "2020-06-23T11:47:56-07:00",
+    "author": "Jordan Harband",
+    "date": "2020-06-23T11:47:56-07:00",
+    "hash": "85ba8662b7c72ba6aebd903a4385db4e6312d22c",
+    "parents": "5b90b03c560f036fd38c911ac8936be889c838e2",
+    "subject": "Editorial: `BigIntBitwiseOp`: add missing arg types"
+   }
+  ],
+  "title": "Editorial: `BigIntBitwiseOp`: add missing arg types",
+  "updated_at": "2020-06-23T18:58:10Z"
+ },
+ {
+  "base": "5b90b03c560f036fd38c911ac8936be889c838e2",
+  "created_at": "2020-06-23T18:40:07Z",
+  "head": "c1acffa863e1e6a7715e9384f1abc4cb56c17a99",
+  "login": "EB-Forks",
+  "number": 2060,
+  "ref": "editorial/semantic-table-ids",
+  "revs": [
+   {
+    "adate": "2020-06-23T20:30:00+02:00",
+    "author": "ExE Boss",
+    "date": "2020-06-23T20:33:53+02:00",
+    "hash": "c1acffa863e1e6a7715e9384f1abc4cb56c17a99",
+    "parents": "5b90b03c560f036fd38c911ac8936be889c838e2",
+    "subject": "Editorial: Use\u00a0semantic table\u00a0IDs"
+   }
+  ],
+  "title": "Editorial: Use\u00a0semantic table\u00a0IDs",
+  "updated_at": "2020-06-23T18:41:45Z"
+ },
+ {
+  "base": "5b90b03c560f036fd38c911ac8936be889c838e2",
   "created_at": "2020-06-20T06:30:10Z",
   "head": "76471f66be8ef39202f647178409ec3e43394ea3",
   "login": "EB-Forks",
