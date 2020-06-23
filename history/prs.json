@@ -2,7 +2,7 @@
  {
   "base": "5b90b03c560f036fd38c911ac8936be889c838e2",
   "created_at": "2020-06-23T18:52:17Z",
-  "head": "85ba8662b7c72ba6aebd903a4385db4e6312d22c",
+  "head": "7a728e26d4d0770b68681e26c1224232bd4577af",
   "login": "ljharb",
   "number": 2061,
   "ref": "bigint_assertions",
@@ -10,14 +10,14 @@
    {
     "adate": "2020-06-23T11:47:56-07:00",
     "author": "Jordan Harband",
-    "date": "2020-06-23T11:47:56-07:00",
-    "hash": "85ba8662b7c72ba6aebd903a4385db4e6312d22c",
+    "date": "2020-06-23T12:34:49-07:00",
+    "hash": "7a728e26d4d0770b68681e26c1224232bd4577af",
     "parents": "5b90b03c560f036fd38c911ac8936be889c838e2",
-    "subject": "Editorial: `BigIntBitwiseOp`: add missing arg types"
+    "subject": "Editorial: `BigIntBitwiseOp`: add missing arg types (#2061)"
    }
   ],
   "title": "Editorial: `BigIntBitwiseOp`: add missing arg types",
-  "updated_at": "2020-06-23T18:58:10Z"
+  "updated_at": "2020-06-23T19:42:55Z"
  },
  {
   "base": "5b90b03c560f036fd38c911ac8936be889c838e2",
@@ -3554,26 +3554,6 @@
   ],
   "title": "Editorial: Step 12 of Array#splice sets the length of the result Array",
   "updated_at": "2020-02-28T04:16:23Z"
- },
- {
-  "base": "7479ade585c62b4af2c66898fc0b64731f97adc6",
-  "created_at": "2018-06-20T15:04:36Z",
-  "head": "31f5c305069d12fe46a3c979aa27f9efff9aeeba",
-  "login": "IgnoredAmbience",
-  "number": 1241,
-  "ref": "editorial-complete-property-descriptor",
-  "revs": [
-   {
-    "adate": "2018-06-20T15:59:58+01:00",
-    "author": "Thomas Wood",
-    "date": "2020-05-26T19:48:06-07:00",
-    "hash": "31f5c305069d12fe46a3c979aa27f9efff9aeeba",
-    "parents": "51289e82883bd3526260540e847470a676f10b6c",
-    "subject": "Editorial: Consistency for the term \"fully populated Property Descriptor\""
-   }
-  ],
-  "title": "Editorial: Consistency for the term \"fully populated Property Descriptor\"",
-  "updated_at": "2020-05-27T02:56:13Z"
  },
  {
   "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
