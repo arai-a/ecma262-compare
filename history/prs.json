@@ -1,5 +1,25 @@
 [
  {
+  "base": "8f82b21e872044b0f51245e807f10f3265301c39",
+  "created_at": "2020-06-24T03:02:58Z",
+  "head": "fb56e0f806647ec1497a8fcf3d516a26c58beca1",
+  "login": "rkirsling",
+  "number": 2063,
+  "ref": "direct-optional-eval",
+  "revs": [
+   {
+    "adate": "2020-06-23T20:01:16-07:00",
+    "author": "Ross Kirsling",
+    "date": "2020-06-23T20:01:16-07:00",
+    "hash": "fb56e0f806647ec1497a8fcf3d516a26c58beca1",
+    "parents": "8f82b21e872044b0f51245e807f10f3265301c39",
+    "subject": "Normative: Make eval?.() direct eval."
+   }
+  ],
+  "title": "Normative: Make eval?.() direct eval.",
+  "updated_at": "2020-06-24T03:13:53Z"
+ },
+ {
   "base": "5b90b03c560f036fd38c911ac8936be889c838e2",
   "created_at": "2020-06-23T18:52:17Z",
   "head": "7a728e26d4d0770b68681e26c1224232bd4577af",
