@@ -1,6 +1,26 @@
 [
  {
   "base": "8f82b21e872044b0f51245e807f10f3265301c39",
+  "created_at": "2020-06-25T18:23:58Z",
+  "head": "0c27eb4e5fbc9d832ac116f8922bf87ebcd16d08",
+  "login": "tc39",
+  "number": 2067,
+  "ref": "GH-2066",
+  "revs": [
+   {
+    "adate": "2020-06-25T11:22:32-07:00",
+    "author": "Michael Ficarra",
+    "date": "2020-06-25T11:22:32-07:00",
+    "hash": "0c27eb4e5fbc9d832ac116f8922bf87ebcd16d08",
+    "parents": "8f82b21e872044b0f51245e807f10f3265301c39",
+    "subject": "fixes #2066: add a language tag to the document body"
+   }
+  ],
+  "title": "fixes #2066: add a language tag to the document body",
+  "updated_at": "2020-06-25T18:30:14Z"
+ },
+ {
+  "base": "8f82b21e872044b0f51245e807f10f3265301c39",
   "created_at": "2020-06-24T23:18:34Z",
   "head": "ed2d412eecb20e0a688bacfd8b8fe1c17531e086",
   "login": "ljharb",
