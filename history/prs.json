@@ -182,11 +182,27 @@
  {
   "base": "6f0a88dc1d9f02d16a66aea01aede0253be4a132",
   "created_at": "2020-06-14T06:21:06Z",
-  "head": "3428ae980c19222f15c68641f5cae004eeadb554",
+  "head": "4e11f629bd015079821e5109a38d86b5b7047c4b",
   "login": "Jack-Works",
   "number": 2045,
   "ref": "generator",
   "revs": [
+   {
+    "adate": "2020-06-25T14:16:11+08:00",
+    "author": "Jack Works",
+    "date": "2020-06-25T14:16:11+08:00",
+    "hash": "4e11f629bd015079821e5109a38d86b5b7047c4b",
+    "parents": "6f12ad3a348b89d3acf3123b3b5e8b2e261d6df7",
+    "subject": "convert map iterator into built-in generator"
+   },
+   {
+    "adate": "2020-06-25T14:04:30+08:00",
+    "author": "Jack Works",
+    "date": "2020-06-25T14:04:30+08:00",
+    "hash": "6f12ad3a348b89d3acf3123b3b5e8b2e261d6df7",
+    "parents": "3428ae980c19222f15c68641f5cae004eeadb554",
+    "subject": "convert array iterator to built-in generator"
+   },
    {
     "adate": "2020-06-16T14:41:37+08:00",
     "author": "Jack Works",
@@ -253,7 +269,7 @@
    }
   ],
   "title": "Editorial: Add Yield abstract operation, CreateBuiltinGeneratorFunction abs op.",
-  "updated_at": "2020-06-16T06:41:51Z"
+  "updated_at": "2020-06-25T06:21:40Z"
  },
  {
   "base": "614cfff54e42dae8e246cfa059e9c90d9e2ccebb",
