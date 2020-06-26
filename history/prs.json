@@ -102,11 +102,19 @@
  {
   "base": "5b90b03c560f036fd38c911ac8936be889c838e2",
   "created_at": "2020-06-20T06:30:10Z",
-  "head": "76471f66be8ef39202f647178409ec3e43394ea3",
+  "head": "20c35656641cc83582d872fa1ac00ce778537855",
   "login": "EB-Forks",
   "number": 2059,
   "ref": "editorial/fix-asyncgenerator-definition",
   "revs": [
+   {
+    "adate": "2020-06-26T13:30:00+02:00",
+    "author": "ExE Boss",
+    "date": "2020-06-26T13:32:13+02:00",
+    "hash": "20c35656641cc83582d872fa1ac00ce778537855",
+    "parents": "76471f66be8ef39202f647178409ec3e43394ea3",
+    "subject": "Editorial: Sort\u00a0`<ul>`s\u00a0for\u00a0remaining Control\u00a0Abstraction\u00a0Objects"
+   },
    {
     "adate": "2020-06-20T08:30:00+02:00",
     "author": "ExE Boss",
@@ -117,7 +125,7 @@
    }
   ],
   "title": "Editorial: Fix\u00a0%Generator% and\u00a0%AsyncGenerator%\u00a0<dfn>s",
-  "updated_at": "2020-06-20T06:32:47Z"
+  "updated_at": "2020-06-26T11:30:38Z"
  },
  {
   "base": "6f0a88dc1d9f02d16a66aea01aede0253be4a132",
@@ -532,24 +540,24 @@
   "updated_at": "2020-05-31T22:06:45Z"
  },
  {
-  "base": "b25c59273f407974e0c7d9372a2c9f71bb1f21c4",
+  "base": "8f82b21e872044b0f51245e807f10f3265301c39",
   "created_at": "2020-05-31T07:45:48Z",
-  "head": "c9659bdb9c0940a59a3d5dc8c2392b40881dd3ad",
+  "head": "56f8a06d5f8b30231869988e6cd7cd8af7410dee",
   "login": "EB-Forks",
   "number": 2026,
   "ref": "editorial/intrinsics/native-error-constructors",
   "revs": [
    {
-    "adate": "2020-05-31T09:45:00+02:00",
+    "adate": "2020-06-26T13:00:00+02:00",
     "author": "ExE Boss",
-    "date": "2020-05-31T13:07:21+02:00",
-    "hash": "c9659bdb9c0940a59a3d5dc8c2392b40881dd3ad",
-    "parents": "b25c59273f407974e0c7d9372a2c9f71bb1f21c4",
+    "date": "2020-06-26T13:10:56+02:00",
+    "hash": "56f8a06d5f8b30231869988e6cd7cd8af7410dee",
+    "parents": "8f82b21e872044b0f51245e807f10f3265301c39",
     "subject": "Editorial: Add\u00a0<dfn>s for\u00a0native\u00a0error\u00a0constructors"
    }
   ],
   "title": "Editorial: Add\u00a0<dfn>s for\u00a0native\u00a0error\u00a0constructors",
-  "updated_at": "2020-05-31T11:05:59Z"
+  "updated_at": "2020-06-26T11:12:36Z"
  },
  {
   "base": "b25c59273f407974e0c7d9372a2c9f71bb1f21c4",
