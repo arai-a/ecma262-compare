@@ -60,24 +60,24 @@
   "updated_at": "2020-06-24T03:13:53Z"
  },
  {
-  "base": "5b90b03c560f036fd38c911ac8936be889c838e2",
+  "base": "7ccc22642e70efaefd5cd0b2df1668f511b3da2a",
   "created_at": "2020-06-23T18:52:17Z",
-  "head": "7a728e26d4d0770b68681e26c1224232bd4577af",
+  "head": "a4f3702259deeba04a6b22d08df92d4b88d173c8",
   "login": "ljharb",
   "number": 2061,
   "ref": "bigint_assertions",
   "revs": [
    {
-    "adate": "2020-06-23T11:47:56-07:00",
+    "adate": "2020-06-27T22:29:44-07:00",
     "author": "Jordan Harband",
-    "date": "2020-06-23T12:34:49-07:00",
-    "hash": "7a728e26d4d0770b68681e26c1224232bd4577af",
-    "parents": "5b90b03c560f036fd38c911ac8936be889c838e2",
+    "date": "2020-06-27T22:29:44-07:00",
+    "hash": "a4f3702259deeba04a6b22d08df92d4b88d173c8",
+    "parents": "7ccc22642e70efaefd5cd0b2df1668f511b3da2a",
     "subject": "Editorial: `BigIntBitwiseOp`: add missing arg types (#2061)"
    }
   ],
   "title": "Editorial: `BigIntBitwiseOp`: add missing arg types",
-  "updated_at": "2020-06-23T19:42:55Z"
+  "updated_at": "2020-06-28T05:29:52Z"
  },
  {
   "base": "5b90b03c560f036fd38c911ac8936be889c838e2",
@@ -810,26 +810,6 @@
   ],
   "title": "Editorial: Extract operation ParseText",
   "updated_at": "2020-05-26T21:15:58Z"
- },
- {
-  "base": "b25c59273f407974e0c7d9372a2c9f71bb1f21c4",
-  "created_at": "2020-05-24T10:38:16Z",
-  "head": "90d82a2f31694dab936f8471edaebe2c576214ab",
-  "login": "mathiasbynens",
-  "number": 2009,
-  "ref": "add-string-prototype-replaceall",
-  "revs": [
-   {
-    "adate": "2020-05-24T12:34:47+02:00",
-    "author": "Mathias Bynens",
-    "date": "2020-06-03T13:10:35+02:00",
-    "hash": "90d82a2f31694dab936f8471edaebe2c576214ab",
-    "parents": "b23239f86039291ee9c92d1c2ba7d089bdb4b60e",
-    "subject": "Normative: Add String.prototype.replaceAll"
-   }
-  ],
-  "title": "Normative: Add String.prototype.replaceAll",
-  "updated_at": "2020-06-03T11:12:45Z"
  },
  {
   "base": "6f0a88dc1d9f02d16a66aea01aede0253be4a132",
