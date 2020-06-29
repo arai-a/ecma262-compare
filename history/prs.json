@@ -310,11 +310,19 @@
  {
   "base": "614cfff54e42dae8e246cfa059e9c90d9e2ccebb",
   "created_at": "2020-06-12T01:25:58Z",
-  "head": "29764fddc2ac88d40d51a0fcfad3e92d57880538",
+  "head": "c585b2927e6f6ee411ba069d75e15653691c8807",
   "login": "rwaldron",
   "number": 2043,
   "ref": "numeric-separator",
   "revs": [
+   {
+    "adate": "2020-06-29T15:06:42-04:00",
+    "author": "Rick Waldron",
+    "date": "2020-06-29T15:06:42-04:00",
+    "hash": "c585b2927e6f6ee411ba069d75e15653691c8807",
+    "parents": "29764fddc2ac88d40d51a0fcfad3e92d57880538",
+    "subject": "Empty the lint trap"
+   },
    {
     "adate": "2020-06-01T14:49:10-04:00",
     "author": "Rick Waldron",
@@ -324,8 +332,8 @@
     "subject": "NumericLiteralSeparator"
    }
   ],
-  "title": "NumericLiteralSeparator (seeking stage 4 at next meeting)",
-  "updated_at": "2020-06-12T01:28:02Z"
+  "title": "Normative: add NumericLiteralSeparator",
+  "updated_at": "2020-06-29T19:07:38Z"
  },
  {
   "base": "855093b06eaa8008ab6af99ea77880c45d49e50b",
