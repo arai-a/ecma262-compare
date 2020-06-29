@@ -20,9 +20,9 @@
   "updated_at": "2020-06-29T01:25:22Z"
  },
  {
-  "base": "8f82b21e872044b0f51245e807f10f3265301c39",
+  "base": "a4f3702259deeba04a6b22d08df92d4b88d173c8",
   "created_at": "2020-06-25T18:23:58Z",
-  "head": "54d76dfc53b1a772da3f86261cc15c1d84cd3343",
+  "head": "67065d84df9cd112f1b0536cc2dd83904287f7d2",
   "login": "tc39",
   "number": 2067,
   "ref": "GH-2066",
@@ -30,14 +30,14 @@
    {
     "adate": "2020-06-25T11:22:32-07:00",
     "author": "Michael Ficarra",
-    "date": "2020-06-25T12:56:30-07:00",
-    "hash": "54d76dfc53b1a772da3f86261cc15c1d84cd3343",
-    "parents": "8f82b21e872044b0f51245e807f10f3265301c39",
-    "subject": "fixes #2066: add a language tag to the document body (and add html/head)"
+    "date": "2020-06-29T15:57:15-07:00",
+    "hash": "67065d84df9cd112f1b0536cc2dd83904287f7d2",
+    "parents": "a4f3702259deeba04a6b22d08df92d4b88d173c8",
+    "subject": "fixes #2066: add a language tag to the document (and add html/head/body)"
    }
   ],
   "title": "fixes #2066: add a language tag to the document body",
-  "updated_at": "2020-06-25T19:59:34Z"
+  "updated_at": "2020-06-29T22:57:21Z"
  },
  {
   "base": "8f82b21e872044b0f51245e807f10f3265301c39",
@@ -1066,11 +1066,19 @@
  {
   "base": "855093b06eaa8008ab6af99ea77880c45d49e50b",
   "created_at": "2020-05-07T22:54:50Z",
-  "head": "78cbeb451aa13d2ba5c403a82c7f1f546052a105",
+  "head": "47366666bb5a072326bf05850114921497023bf6",
   "login": "syg",
   "number": 1984,
   "ref": "promise-job-invariants",
   "revs": [
+   {
+    "adate": "2020-06-29T16:05:41-07:00",
+    "author": "Shu-yu Guo",
+    "date": "2020-06-29T16:05:41-07:00",
+    "hash": "47366666bb5a072326bf05850114921497023bf6",
+    "parents": "78cbeb451aa13d2ba5c403a82c7f1f546052a105",
+    "subject": "Address Kevin's review"
+   },
    {
     "adate": "2020-06-10T15:12:49-07:00",
     "author": "Shu-yu Guo",
@@ -1105,7 +1113,7 @@
    }
   ],
   "title": "Layering: Refine execution context requirements for Jobs",
-  "updated_at": "2020-06-10T23:12:53Z"
+  "updated_at": "2020-06-29T23:05:51Z"
  },
  {
   "base": "0b988b7700de675331ac360d164c978d6ea452ec",
