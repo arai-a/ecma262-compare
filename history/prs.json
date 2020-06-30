@@ -1066,11 +1066,19 @@
  {
   "base": "855093b06eaa8008ab6af99ea77880c45d49e50b",
   "created_at": "2020-05-07T22:54:50Z",
-  "head": "47366666bb5a072326bf05850114921497023bf6",
+  "head": "e43530a86ea64c2576ad54b06b8b5aeea11607ae",
   "login": "syg",
   "number": 1984,
   "ref": "promise-job-invariants",
   "revs": [
+   {
+    "adate": "2020-06-29T16:36:08-07:00",
+    "author": "Shu-yu Guo",
+    "date": "2020-06-29T16:36:08-07:00",
+    "hash": "e43530a86ea64c2576ad54b06b8b5aeea11607ae",
+    "parents": "47366666bb5a072326bf05850114921497023bf6",
+    "subject": "Address Kevin's review round 2"
+   },
    {
     "adate": "2020-06-29T16:05:41-07:00",
     "author": "Shu-yu Guo",
@@ -1113,7 +1121,7 @@
    }
   ],
   "title": "Layering: Refine execution context requirements for Jobs",
-  "updated_at": "2020-06-29T23:05:51Z"
+  "updated_at": "2020-06-29T23:39:05Z"
  },
  {
   "base": "0b988b7700de675331ac360d164c978d6ea452ec",
@@ -1642,26 +1650,6 @@
   ],
   "title": "Editorial: Rename predicate function parameter of Array methods",
   "updated_at": "2020-02-28T04:16:01Z"
- },
- {
-  "base": "a4f3702259deeba04a6b22d08df92d4b88d173c8",
-  "created_at": "2019-11-13T01:11:03Z",
-  "head": "7fef32fdc4c14562347fa8411a69c4b271c5a5f9",
-  "login": "ljharb",
-  "number": 1776,
-  "ref": "async-iterator-next",
-  "revs": [
-   {
-    "adate": "2020-06-27T22:58:57-07:00",
-    "author": "Jordan Harband",
-    "date": "2020-06-27T22:58:57-07:00",
-    "hash": "7fef32fdc4c14562347fa8411a69c4b271c5a5f9",
-    "parents": "a4f3702259deeba04a6b22d08df92d4b88d173c8",
-    "subject": "Normative: make async iterators next/return/throw not pass `undefined` when value is absent (#1776)"
-   }
-  ],
-  "title": "Normative: make async iterators next/return/throw not pass `undefined` when value is absent",
-  "updated_at": "2020-06-28T05:59:09Z"
  },
  {
   "base": "b25c59273f407974e0c7d9372a2c9f71bb1f21c4",
