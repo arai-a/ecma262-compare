@@ -20,26 +20,6 @@
   "updated_at": "2020-06-29T01:25:22Z"
  },
  {
-  "base": "a4f3702259deeba04a6b22d08df92d4b88d173c8",
-  "created_at": "2020-06-25T18:23:58Z",
-  "head": "67065d84df9cd112f1b0536cc2dd83904287f7d2",
-  "login": "tc39",
-  "number": 2067,
-  "ref": "GH-2066",
-  "revs": [
-   {
-    "adate": "2020-06-25T11:22:32-07:00",
-    "author": "Michael Ficarra",
-    "date": "2020-06-29T15:57:15-07:00",
-    "hash": "67065d84df9cd112f1b0536cc2dd83904287f7d2",
-    "parents": "a4f3702259deeba04a6b22d08df92d4b88d173c8",
-    "subject": "fixes #2066: add a language tag to the document (and add html/head/body)"
-   }
-  ],
-  "title": "fixes #2066: add a language tag to the document body",
-  "updated_at": "2020-06-29T22:57:21Z"
- },
- {
   "base": "8f82b21e872044b0f51245e807f10f3265301c39",
   "created_at": "2020-06-24T23:18:34Z",
   "head": "ed2d412eecb20e0a688bacfd8b8fe1c17531e086",
@@ -218,11 +198,19 @@
  {
   "base": "6f0a88dc1d9f02d16a66aea01aede0253be4a132",
   "created_at": "2020-06-14T06:21:06Z",
-  "head": "2f1b12d938bc5f9460d967a7a56a33342aad4aca",
+  "head": "68b75dca8959403fcfa4a7c70c0a4a628fe9576e",
   "login": "Jack-Works",
   "number": 2045,
   "ref": "generator",
   "revs": [
+   {
+    "adate": "2020-06-30T14:10:52+08:00",
+    "author": "Jack Works",
+    "date": "2020-06-30T14:10:52+08:00",
+    "hash": "68b75dca8959403fcfa4a7c70c0a4a628fe9576e",
+    "parents": "2f1b12d938bc5f9460d967a7a56a33342aad4aca",
+    "subject": "remove \"preclude steps\" from string iterator"
+   },
    {
     "adate": "2020-06-25T14:38:54+08:00",
     "author": "Jack Works",
@@ -313,7 +301,7 @@
    }
   ],
   "title": "Editorial: Add Yield abstract operation, CreateBuiltinGeneratorFunction abs op.",
-  "updated_at": "2020-06-25T06:41:19Z"
+  "updated_at": "2020-06-30T06:11:24Z"
  },
  {
   "base": "614cfff54e42dae8e246cfa059e9c90d9e2ccebb",
