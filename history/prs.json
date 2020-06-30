@@ -198,11 +198,35 @@
  {
   "base": "6f0a88dc1d9f02d16a66aea01aede0253be4a132",
   "created_at": "2020-06-14T06:21:06Z",
-  "head": "68b75dca8959403fcfa4a7c70c0a4a628fe9576e",
+  "head": "7a43fb494e4833b9b3d7281c72dcdac091de634a",
   "login": "Jack-Works",
   "number": 2045,
   "ref": "generator",
   "revs": [
+   {
+    "adate": "2020-06-30T16:44:41+08:00",
+    "author": "Jack Works",
+    "date": "2020-06-30T16:44:41+08:00",
+    "hash": "7a43fb494e4833b9b3d7281c72dcdac091de634a",
+    "parents": "8e3f3ee535dee7f939a0c5c36a201e71dad1a38c",
+    "subject": "remove preclude steps from map iterator"
+   },
+   {
+    "adate": "2020-06-30T16:41:34+08:00",
+    "author": "Jack Works",
+    "date": "2020-06-30T16:41:34+08:00",
+    "hash": "8e3f3ee535dee7f939a0c5c36a201e71dad1a38c",
+    "parents": "6f4ee418487728526d2a2ccf88fce066880a446c",
+    "subject": "remove preclude steps from array iterator"
+   },
+   {
+    "adate": "2020-06-30T16:36:36+08:00",
+    "author": "Jack Works",
+    "date": "2020-06-30T16:36:36+08:00",
+    "hash": "6f4ee418487728526d2a2ccf88fce066880a446c",
+    "parents": "68b75dca8959403fcfa4a7c70c0a4a628fe9576e",
+    "subject": "remove preclude steps from regexp string iter"
+   },
    {
     "adate": "2020-06-30T14:10:52+08:00",
     "author": "Jack Works",
@@ -301,7 +325,7 @@
    }
   ],
   "title": "Editorial: Add Yield abstract operation, CreateBuiltinGeneratorFunction abs op.",
-  "updated_at": "2020-06-30T06:11:24Z"
+  "updated_at": "2020-06-30T08:57:38Z"
  },
  {
   "base": "614cfff54e42dae8e246cfa059e9c90d9e2ccebb",
