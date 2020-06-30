@@ -102,11 +102,19 @@
  {
   "base": "5b90b03c560f036fd38c911ac8936be889c838e2",
   "created_at": "2020-06-20T06:30:10Z",
-  "head": "20c35656641cc83582d872fa1ac00ce778537855",
+  "head": "ddf0a36dbee8298a85d25fa8b42c3f013c1ff8a2",
   "login": "EB-Forks",
   "number": 2059,
   "ref": "editorial/fix-asyncgenerator-definition",
   "revs": [
+   {
+    "adate": "2020-06-30T02:30:00+02:00",
+    "author": "ExE Boss",
+    "date": "2020-06-30T02:29:54+02:00",
+    "hash": "ddf0a36dbee8298a85d25fa8b42c3f013c1ff8a2",
+    "parents": "20c35656641cc83582d872fa1ac00ce778537855",
+    "subject": "Address\u00a0review\u00a0comments"
+   },
    {
     "adate": "2020-06-26T13:30:00+02:00",
     "author": "ExE Boss",
@@ -125,7 +133,7 @@
    }
   ],
   "title": "Editorial: Fix\u00a0%Generator% and\u00a0%AsyncGenerator%\u00a0<dfn>s",
-  "updated_at": "2020-06-26T11:30:38Z"
+  "updated_at": "2020-06-30T00:32:06Z"
  },
  {
   "base": "6f0a88dc1d9f02d16a66aea01aede0253be4a132",
@@ -2464,40 +2472,24 @@
   "updated_at": "2020-03-11T22:30:17Z"
  },
  {
-  "base": "fc8964ff2cbbaf6c4c2b2e1f448508ec5a63db40",
+  "base": "18c134ee55e72395cc9aafd0edfeaf2e833c49ec",
   "created_at": "2019-08-09T03:01:02Z",
-  "head": "44f47a3d1a39fca73fc3586b4281c40e7766c85c",
+  "head": "ca60ad4270f129d7d7cf8d8f6af249abc58f10b6",
   "login": "jhnaldo",
   "number": 1660,
   "ref": "pr1",
   "revs": [
    {
-    "adate": "2020-05-27T08:38:14-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2020-05-27T08:38:14-07:00",
-    "hash": "44f47a3d1a39fca73fc3586b4281c40e7766c85c",
-    "parents": "9ff4f3610160f5393930cc199178441fdc345a13",
-    "subject": "Editorial: remove another redundant step"
-   },
-   {
-    "adate": "2020-03-26T10:56:27+09:00",
-    "author": "jhnaldo",
-    "date": "2020-05-21T21:58:21-07:00",
-    "hash": "9ff4f3610160f5393930cc199178441fdc345a13",
-    "parents": "3fc29aabba039e948bf68456e5c485c077bdf619",
-    "subject": "Editorial: Removed unnecessary explanation and a step"
-   },
-   {
     "adate": "2019-08-09T11:50:59+09:00",
     "author": "jhnaldo",
-    "date": "2020-05-21T21:56:26-07:00",
-    "hash": "3fc29aabba039e948bf68456e5c485c077bdf619",
-    "parents": "fc8964ff2cbbaf6c4c2b2e1f448508ec5a63db40",
+    "date": "2020-06-29T17:16:33-07:00",
+    "hash": "ca60ad4270f129d7d7cf8d8f6af249abc58f10b6",
+    "parents": "18c134ee55e72395cc9aafd0edfeaf2e833c49ec",
     "subject": "Editorial: Remove assertion in InitializeBinding of Object Environment Record"
    }
   ],
   "title": "Editorial: Remove assertion in InitializeBinding of Object Environment Record",
-  "updated_at": "2020-05-27T15:55:38Z"
+  "updated_at": "2020-06-30T00:20:54Z"
  },
  {
   "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
