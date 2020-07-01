@@ -218,11 +218,19 @@
  {
   "base": "346d1bcc1f4970881cc3ee780f514b9e6ded937c",
   "created_at": "2020-06-14T06:21:06Z",
-  "head": "b93f9483d33253579c94998cd54a06f215d47ad2",
+  "head": "f414ce77713be9e6c7da1797ed13eaf254ab5ba4",
   "login": "Jack-Works",
   "number": 2045,
   "ref": "generator",
   "revs": [
+   {
+    "adate": "2020-07-01T13:02:47+08:00",
+    "author": "Jack Works",
+    "date": "2020-07-01T13:02:47+08:00",
+    "hash": "f414ce77713be9e6c7da1797ed13eaf254ab5ba4",
+    "parents": "b93f9483d33253579c94998cd54a06f215d47ad2",
+    "subject": "resolve review"
+   },
    {
     "adate": "2020-07-01T10:43:45+08:00",
     "author": "Jack Works",
@@ -385,7 +393,7 @@
    }
   ],
   "title": "Editorial: Add Yield abstract operation, CreateBuiltinGeneratorFunction abs op.",
-  "updated_at": "2020-07-01T03:06:52Z"
+  "updated_at": "2020-07-01T05:03:46Z"
  },
  {
   "base": "00b7a2ded5695762d1b722261b4881a549503085",
