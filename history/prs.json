@@ -20,26 +20,6 @@
   "updated_at": "2020-06-30T20:01:28Z"
  },
  {
-  "base": "a4f3702259deeba04a6b22d08df92d4b88d173c8",
-  "created_at": "2020-06-29T01:25:22Z",
-  "head": "a36a7e6af285786ed0ab4c1728667a21ffda6a77",
-  "login": "jmdyck",
-  "number": 2069,
-  "ref": "relocate_StringIndexOf",
-  "revs": [
-   {
-    "adate": "2020-06-28T21:18:37-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-06-28T21:18:37-04:00",
-    "hash": "a36a7e6af285786ed0ab4c1728667a21ffda6a77",
-    "parents": "a4f3702259deeba04a6b22d08df92d4b88d173c8",
-    "subject": "Editorial: Relocate the definition of StringIndexOf"
-   }
-  ],
-  "title": "Editorial: Relocate the definition of StringIndexOf",
-  "updated_at": "2020-06-29T01:25:22Z"
- },
- {
   "base": "8f82b21e872044b0f51245e807f10f3265301c39",
   "created_at": "2020-06-24T23:18:34Z",
   "head": "ed2d412eecb20e0a688bacfd8b8fe1c17531e086",
@@ -218,11 +198,27 @@
  {
   "base": "346d1bcc1f4970881cc3ee780f514b9e6ded937c",
   "created_at": "2020-06-14T06:21:06Z",
-  "head": "f414ce77713be9e6c7da1797ed13eaf254ab5ba4",
+  "head": "5a1a048782cbc9e3e2635ced265f321e41029dd9",
   "login": "Jack-Works",
   "number": 2045,
   "ref": "generator",
   "revs": [
+   {
+    "adate": "2020-07-01T17:28:32+08:00",
+    "author": "Jack Works",
+    "date": "2020-07-01T17:28:32+08:00",
+    "hash": "5a1a048782cbc9e3e2635ced265f321e41029dd9",
+    "parents": "c02f5013791c65dd67760fe9dccd66e109c494f2",
+    "subject": "fix map iterator"
+   },
+   {
+    "adate": "2020-07-01T17:26:31+08:00",
+    "author": "Jack Works",
+    "date": "2020-07-01T17:26:31+08:00",
+    "hash": "c02f5013791c65dd67760fe9dccd66e109c494f2",
+    "parents": "f414ce77713be9e6c7da1797ed13eaf254ab5ba4",
+    "subject": "rename iteratorKind to iteratorBrand"
+   },
    {
     "adate": "2020-07-01T13:02:47+08:00",
     "author": "Jack Works",
@@ -393,7 +389,7 @@
    }
   ],
   "title": "Editorial: Add Yield abstract operation, CreateBuiltinGeneratorFunction abs op.",
-  "updated_at": "2020-07-01T05:03:46Z"
+  "updated_at": "2020-07-01T09:28:49Z"
  },
  {
   "base": "00b7a2ded5695762d1b722261b4881a549503085",
