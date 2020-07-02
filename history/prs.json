@@ -446,22 +446,30 @@
  {
   "base": "397b9d93e8614795cbb18fdebb1e67d19f27a3dd",
   "created_at": "2020-06-10T12:35:13Z",
-  "head": "aa09172ba57575286af143258441cda3ed47aea0",
+  "head": "6aad17c371482740fbb58fa1be63fba53ab112fa",
   "login": "chicoxyzzy",
   "number": 2040,
   "ref": "promise-any",
   "revs": [
    {
+    "adate": "2020-07-02T20:41:44+03:00",
+    "author": "chicoxyzzy",
+    "date": "2020-07-02T20:47:56+03:00",
+    "hash": "6aad17c371482740fbb58fa1be63fba53ab112fa",
+    "parents": "55c62b064af6561d83311363fa406ef4610d5fcb",
+    "subject": "apply review suggestions"
+   },
+   {
     "adate": "2020-06-24T16:42:58-07:00",
     "author": "chicoxyzzy",
-    "date": "2020-07-02T16:26:18+03:00",
-    "hash": "aa09172ba57575286af143258441cda3ed47aea0",
-    "parents": "8f82b21e872044b0f51245e807f10f3265301c39",
+    "date": "2020-07-02T20:46:49+03:00",
+    "hash": "55c62b064af6561d83311363fa406ef4610d5fcb",
+    "parents": "397b9d93e8614795cbb18fdebb1e67d19f27a3dd",
     "subject": "Normative: Add Promise.any & AggregateError (#2040)"
    }
   ],
   "title": "Normative: Add Promise.any & AggregateError",
-  "updated_at": "2020-07-02T13:33:14Z"
+  "updated_at": "2020-07-02T17:48:13Z"
  },
  {
   "base": "12a546b92275a0e2f834017db2727bb9c6f6c8fd",
