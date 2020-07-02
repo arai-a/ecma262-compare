@@ -168,33 +168,37 @@
   "updated_at": "2020-06-16T23:45:47Z"
  },
  {
-  "base": "34d2050120247f3ccd19f6814376e86de9b26ca3",
-  "created_at": "2020-06-15T06:13:13Z",
-  "head": "397b9d93e8614795cbb18fdebb1e67d19f27a3dd",
-  "login": "ljharb",
-  "number": 2050,
-  "ref": "assertions",
-  "revs": [
-   {
-    "adate": "2020-07-01T16:10:09-07:00",
-    "author": "Jordan Harband",
-    "date": "2020-07-01T16:10:09-07:00",
-    "hash": "397b9d93e8614795cbb18fdebb1e67d19f27a3dd",
-    "parents": "34d2050120247f3ccd19f6814376e86de9b26ca3",
-    "subject": "Editorial: add PromiseCapability Record assertions (#2050)"
-   }
-  ],
-  "title": "Editorial: add PromiseCapability Record assertions",
-  "updated_at": "2020-07-01T23:24:26Z"
- },
- {
   "base": "346d1bcc1f4970881cc3ee780f514b9e6ded937c",
   "created_at": "2020-06-14T06:21:06Z",
-  "head": "5a1a048782cbc9e3e2635ced265f321e41029dd9",
+  "head": "ae6bef20508c2f692a37dcfd1c5526ca5bceefc5",
   "login": "Jack-Works",
   "number": 2045,
   "ref": "generator",
   "revs": [
+   {
+    "adate": "2020-07-02T11:34:17+08:00",
+    "author": "Jack Works",
+    "date": "2020-07-02T11:34:17+08:00",
+    "hash": "ae6bef20508c2f692a37dcfd1c5526ca5bceefc5",
+    "parents": "52050c07393fe207fc7e1a827d96649d2eac24a1",
+    "subject": "fix typo"
+   },
+   {
+    "adate": "2020-07-02T11:31:33+08:00",
+    "author": "Jack Works",
+    "date": "2020-07-02T11:31:33+08:00",
+    "hash": "52050c07393fe207fc7e1a827d96649d2eac24a1",
+    "parents": "f59663eefa28b23c729c428153585277e8c18706",
+    "subject": "rename iterator brand to generator brand"
+   },
+   {
+    "adate": "2020-07-02T11:30:42+08:00",
+    "author": "Jack Works",
+    "date": "2020-07-02T11:30:42+08:00",
+    "hash": "f59663eefa28b23c729c428153585277e8c18706",
+    "parents": "5a1a048782cbc9e3e2635ced265f321e41029dd9",
+    "subject": "resolve review"
+   },
    {
     "adate": "2020-07-01T17:28:32+08:00",
     "author": "Jack Works",
@@ -381,7 +385,7 @@
    }
   ],
   "title": "Editorial: Add Yield abstract operation, CreateBuiltinGeneratorFunction abs op.",
-  "updated_at": "2020-07-01T09:28:49Z"
+  "updated_at": "2020-07-02T03:34:27Z"
  },
  {
   "base": "00b7a2ded5695762d1b722261b4881a549503085",
