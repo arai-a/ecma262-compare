@@ -170,11 +170,59 @@
  {
   "base": "346d1bcc1f4970881cc3ee780f514b9e6ded937c",
   "created_at": "2020-06-14T06:21:06Z",
-  "head": "0a7f5fe62939186f3beb2a4abb96a3efd4479731",
+  "head": "0610d186e7d16f6a692967c67be9bfca947bd78d",
   "login": "Jack-Works",
   "number": 2045,
   "ref": "generator",
   "revs": [
+   {
+    "adate": "2020-07-05T15:35:00+08:00",
+    "author": "Jack Works",
+    "date": "2020-07-05T15:35:00+08:00",
+    "hash": "0610d186e7d16f6a692967c67be9bfca947bd78d",
+    "parents": "524aa8c041fa695676ac716e12f2914b266d2822",
+    "subject": "fix lint error"
+   },
+   {
+    "adate": "2020-07-05T15:27:02+08:00",
+    "author": "Jack Works",
+    "date": "2020-07-05T15:27:02+08:00",
+    "hash": "524aa8c041fa695676ac716e12f2914b266d2822",
+    "parents": "4375419b794f0bdb64bad450ac6652d9b702f27b",
+    "subject": "remove term built-in generator function and CreateBuiltinGeneratorFunction"
+   },
+   {
+    "adate": "2020-07-05T15:26:09+08:00",
+    "author": "Jack Works",
+    "date": "2020-07-05T15:26:09+08:00",
+    "hash": "4375419b794f0bdb64bad450ac6652d9b702f27b",
+    "parents": "6c22dc2b005182611a8b754064d1f136bde6bd87",
+    "subject": "convert regexp iterator into the new form"
+   },
+   {
+    "adate": "2020-07-05T15:24:45+08:00",
+    "author": "Jack Works",
+    "date": "2020-07-05T15:24:45+08:00",
+    "hash": "6c22dc2b005182611a8b754064d1f136bde6bd87",
+    "parents": "bd005b21512012c498d76906d64ea77b00023c26",
+    "subject": "convert map iterator into the new form"
+   },
+   {
+    "adate": "2020-07-05T15:22:52+08:00",
+    "author": "Jack Works",
+    "date": "2020-07-05T15:22:52+08:00",
+    "hash": "bd005b21512012c498d76906d64ea77b00023c26",
+    "parents": "32735eee8ec9dba7cd45aa061cf0b2c820af7da0",
+    "subject": "convert array iterator into new form"
+   },
+   {
+    "adate": "2020-07-05T15:15:49+08:00",
+    "author": "Jack Works",
+    "date": "2020-07-05T15:15:49+08:00",
+    "hash": "32735eee8ec9dba7cd45aa061cf0b2c820af7da0",
+    "parents": "0a7f5fe62939186f3beb2a4abb96a3efd4479731",
+    "subject": "add System.Object[] string iterator to the new form"
+   },
    {
     "adate": "2020-07-05T14:55:19+08:00",
     "author": "Jack Works",
@@ -401,7 +449,7 @@
    }
   ],
   "title": "Editorial: Add Yield abstract operation, CreateBuiltinGeneratorFunction abs op.",
-  "updated_at": "2020-07-05T06:55:41Z"
+  "updated_at": "2020-07-05T07:35:13Z"
  },
  {
   "base": "00b7a2ded5695762d1b722261b4881a549503085",
