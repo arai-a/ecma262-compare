@@ -20,26 +20,6 @@
   "updated_at": "2020-07-04T17:50:49Z"
  },
  {
-  "base": "346d1bcc1f4970881cc3ee780f514b9e6ded937c",
-  "created_at": "2020-06-30T17:51:45Z",
-  "head": "26e21002ebcd5c871181d4d0c97ca7f93ee125f4",
-  "login": "bendtherules",
-  "number": 2071,
-  "ref": "2070-add-property-access-oldids",
-  "revs": [
-   {
-    "adate": "2020-07-01T01:29:31+05:30",
-    "author": "bendtherules",
-    "date": "2020-07-01T01:29:31+05:30",
-    "hash": "26e21002ebcd5c871181d4d0c97ca7f93ee125f4",
-    "parents": "346d1bcc1f4970881cc3ee780f514b9e6ded937c",
-    "subject": "Editorial: add oldids for property access"
-   }
-  ],
-  "title": "Editorial: add oldids for property access section",
-  "updated_at": "2020-06-30T20:01:28Z"
- },
- {
   "base": "8f82b21e872044b0f51245e807f10f3265301c39",
   "created_at": "2020-06-24T23:18:34Z",
   "head": "ed2d412eecb20e0a688bacfd8b8fe1c17531e086",
@@ -190,11 +170,19 @@
  {
   "base": "346d1bcc1f4970881cc3ee780f514b9e6ded937c",
   "created_at": "2020-06-14T06:21:06Z",
-  "head": "83e6d2464a4b287cf517bed995560be02659d72c",
+  "head": "0a7f5fe62939186f3beb2a4abb96a3efd4479731",
   "login": "Jack-Works",
   "number": 2045,
   "ref": "generator",
   "revs": [
+   {
+    "adate": "2020-07-05T14:55:19+08:00",
+    "author": "Jack Works",
+    "date": "2020-07-05T14:55:19+08:00",
+    "hash": "0a7f5fe62939186f3beb2a4abb96a3efd4479731",
+    "parents": "83e6d2464a4b287cf517bed995560be02659d72c",
+    "subject": "resolve review"
+   },
    {
     "adate": "2020-07-03T09:26:03+08:00",
     "author": "Jack Works",
@@ -413,7 +401,7 @@
    }
   ],
   "title": "Editorial: Add Yield abstract operation, CreateBuiltinGeneratorFunction abs op.",
-  "updated_at": "2020-07-03T01:32:40Z"
+  "updated_at": "2020-07-05T06:55:41Z"
  },
  {
   "base": "00b7a2ded5695762d1b722261b4881a549503085",
