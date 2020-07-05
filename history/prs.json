@@ -3764,24 +3764,32 @@
   "updated_at": "2020-02-28T04:16:23Z"
  },
  {
-  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
+  "base": "397b9d93e8614795cbb18fdebb1e67d19f27a3dd",
   "created_at": "2018-06-15T15:57:42Z",
-  "head": "5a746848105fb27b647cb211944b0dc9a024136c",
+  "head": "0a8bd8e4b5ce5d846c63aab435576abcffdbce73",
   "login": "tc39",
   "number": 1228,
   "ref": "pow-nans-ieee-754-2008-note",
   "revs": [
    {
+    "adate": "2020-07-04T20:27:34-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-07-04T20:29:24-07:00",
+    "hash": "0a8bd8e4b5ce5d846c63aab435576abcffdbce73",
+    "parents": "7903a604b456934e78a706a8df98d323059967f0",
+    "subject": "tweak wording"
+   },
+   {
     "adate": "2018-06-11T11:48:39-04:00",
     "author": "Rick Waldron",
-    "date": "2018-06-15T11:10:32-04:00",
-    "hash": "5a746848105fb27b647cb211944b0dc9a024136c",
-    "parents": "2a8387bb01dea08c932c92518eab74ea7008c777",
+    "date": "2020-07-04T20:29:04-07:00",
+    "hash": "7903a604b456934e78a706a8df98d323059967f0",
+    "parents": "397b9d93e8614795cbb18fdebb1e67d19f27a3dd",
     "subject": "Informative: (Exponentiation) Add NaN to exponent values whose behavior deviates from IEEE 754-2008"
    }
   ],
   "title": "Informative: (Exponentiation) Add NaN to exponent values whose behavior deviates from IEEE 754-2008",
-  "updated_at": "2020-02-28T04:16:24Z"
+  "updated_at": "2020-07-05T03:29:36Z"
  },
  {
   "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
