@@ -1,5 +1,25 @@
 [
  {
+  "base": "8d2463a388c866d34035543d72dff7f730fcf975",
+  "created_at": "2020-07-06T01:28:50Z",
+  "head": "fe62670fee6573c86349b7c0722e14f925d79713",
+  "login": "shvaikalesh",
+  "number": 2077,
+  "ref": "split-match-empty-separator",
+  "revs": [
+   {
+    "adate": "2020-07-06T03:51:51+03:00",
+    "author": "Alexey Shvayka",
+    "date": "2020-07-06T03:51:51+03:00",
+    "hash": "fe62670fee6573c86349b7c0722e14f925d79713",
+    "parents": "8d2463a388c866d34035543d72dff7f730fcf975",
+    "subject": "Editorial: Simplify String.prototype.split with empty separator"
+   }
+  ],
+  "title": "Editorial: Simplify String.prototype.split with empty separator",
+  "updated_at": "2020-07-06T01:28:50Z"
+ },
+ {
   "base": "397b9d93e8614795cbb18fdebb1e67d19f27a3dd",
   "created_at": "2020-07-04T17:50:49Z",
   "head": "6f39eacbc8fe90129ae296e08562352263b89284",
