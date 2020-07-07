@@ -62,11 +62,19 @@
  {
   "base": "397b9d93e8614795cbb18fdebb1e67d19f27a3dd",
   "created_at": "2020-07-04T17:50:49Z",
-  "head": "6f39eacbc8fe90129ae296e08562352263b89284",
+  "head": "3a0600bd2ab37525eb03e02e5da5a5f5e8d81be8",
   "login": "bendtherules",
   "number": 2076,
   "ref": "bendtherules/issue2075",
   "revs": [
+   {
+    "adate": "2020-07-07T16:52:54+05:30",
+    "author": "bendtherules",
+    "date": "2020-07-07T16:52:54+05:30",
+    "hash": "3a0600bd2ab37525eb03e02e5da5a5f5e8d81be8",
+    "parents": "6f39eacbc8fe90129ae296e08562352263b89284",
+    "subject": "Editorial: Add missing part of note in Array.find and Array.findIndex"
+   },
    {
     "adate": "2020-07-04T23:17:54+05:30",
     "author": "bendtherules",
@@ -77,7 +85,7 @@
    }
   ],
   "title": "Editorial: Add missing part in note 1 of Array.forEach ",
-  "updated_at": "2020-07-04T17:50:49Z"
+  "updated_at": "2020-07-07T11:23:06Z"
  },
  {
   "base": "8d2463a388c866d34035543d72dff7f730fcf975",
