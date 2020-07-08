@@ -81,34 +81,6 @@
  },
  {
   "base": "8d2463a388c866d34035543d72dff7f730fcf975",
-  "created_at": "2020-07-04T17:50:49Z",
-  "head": "5963804ccede1e5eb28e434a57d8e2d5c56a5333",
-  "login": "bendtherules",
-  "number": 2076,
-  "ref": "bendtherules/issue2075",
-  "revs": [
-   {
-    "adate": "2020-07-07T16:52:54+05:30",
-    "author": "bendtherules",
-    "date": "2020-07-07T17:08:29+05:30",
-    "hash": "5963804ccede1e5eb28e434a57d8e2d5c56a5333",
-    "parents": "5dbb29244f88b268584cbe558ac5db897d47f5cc",
-    "subject": "Editorial: Add missing part of note in Array.find and Array.findIndex"
-   },
-   {
-    "adate": "2020-07-04T23:17:54+05:30",
-    "author": "bendtherules",
-    "date": "2020-07-07T17:08:29+05:30",
-    "hash": "5dbb29244f88b268584cbe558ac5db897d47f5cc",
-    "parents": "8d2463a388c866d34035543d72dff7f730fcf975",
-    "subject": "Editorial: Add missing part in Array.forEach note1 Fixes #2075"
-   }
-  ],
-  "title": "Editorial: Add missing part in note 1 of Array.forEach ",
-  "updated_at": "2020-07-07T11:39:41Z"
- },
- {
-  "base": "8d2463a388c866d34035543d72dff7f730fcf975",
   "created_at": "2020-06-24T23:18:34Z",
   "head": "f5c78588c4afbe567db89a01e7d6e09d4c926bbf",
   "login": "ljharb",
@@ -1698,11 +1670,19 @@
  {
   "base": "397b9d93e8614795cbb18fdebb1e67d19f27a3dd",
   "created_at": "2020-03-18T23:08:14Z",
-  "head": "047cf82db9073f623214438a58f91dc5c710ae08",
+  "head": "30271388f69a6fb5cb6169ca336f0f775360e5cf",
   "login": "tc39",
   "number": 1903,
   "ref": "optional-sab",
   "revs": [
+   {
+    "adate": "2020-07-07T16:44:09-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-07-07T16:44:09-07:00",
+    "hash": "30271388f69a6fb5cb6169ca336f0f775360e5cf",
+    "parents": "047cf82db9073f623214438a58f91dc5c710ae08",
+    "subject": "if -> whenever"
+   },
    {
     "adate": "2020-07-04T20:54:07-07:00",
     "author": "Kevin Gibbons",
@@ -1721,7 +1701,7 @@
    }
   ],
   "title": "Normative: make SharedArrayBuffer optional",
-  "updated_at": "2020-07-05T03:57:46Z"
+  "updated_at": "2020-07-07T23:44:23Z"
  },
  {
   "base": "0b988b7700de675331ac360d164c978d6ea452ec",
