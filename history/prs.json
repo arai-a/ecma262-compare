@@ -646,11 +646,19 @@
  {
   "base": "00b7a2ded5695762d1b722261b4881a549503085",
   "created_at": "2020-06-12T01:25:58Z",
-  "head": "2eaaaa399dc88411f1fdf0487614d8c1da2db72c",
+  "head": "4d5305f74442305e2215282ee6be831c983cb406",
   "login": "rwaldron",
   "number": 2043,
   "ref": "numeric-separator",
   "revs": [
+   {
+    "adate": "2020-07-08T14:57:43-07:00",
+    "author": "Leo Balter",
+    "date": "2020-07-08T14:57:43-07:00",
+    "hash": "4d5305f74442305e2215282ee6be831c983cb406",
+    "parents": "2eaaaa399dc88411f1fdf0487614d8c1da2db72c",
+    "subject": "lint: remove empty line"
+   },
    {
     "adate": "2020-06-30T15:36:47-07:00",
     "author": "Leo Balter",
@@ -677,7 +685,7 @@
    }
   ],
   "title": "Normative: add NumericLiteralSeparator",
-  "updated_at": "2020-06-30T22:42:10Z"
+  "updated_at": "2020-07-08T21:58:01Z"
  },
  {
   "base": "855093b06eaa8008ab6af99ea77880c45d49e50b",
