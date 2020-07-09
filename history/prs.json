@@ -836,48 +836,24 @@
   "updated_at": "2020-06-06T10:54:04Z"
  },
  {
-  "base": "b25c59273f407974e0c7d9372a2c9f71bb1f21c4",
+  "base": "e08b018785606bc6465a0456a79604b149007932",
   "created_at": "2020-06-02T00:41:49Z",
-  "head": "f0e23c2d43aca118f766c08ab35fc903ce2cb69f",
+  "head": "4879950ac8b71bcf4b72d51ff68440465d70af49",
   "login": "jridgewell",
   "number": 2030,
   "ref": "logical-assignment",
   "revs": [
    {
-    "adate": "2020-06-01T22:08:40-04:00",
+    "adate": "2020-07-09T00:47:21-04:00",
     "author": "Justin Ridgewell",
-    "date": "2020-06-01T22:08:40-04:00",
-    "hash": "f0e23c2d43aca118f766c08ab35fc903ce2cb69f",
-    "parents": "86deb253a986c2e0953168059efc7525cb3e1ac1",
-    "subject": "Fix whitespace"
-   },
-   {
-    "adate": "2020-06-01T22:03:29-04:00",
-    "author": "Justin Ridgewell",
-    "date": "2020-06-01T22:03:29-04:00",
-    "hash": "86deb253a986c2e0953168059efc7525cb3e1ac1",
-    "parents": "badcc23abfabbed4acc2520eeb0aab8f7fd9c986",
-    "subject": "Add HasCallInTailPosition rules"
-   },
-   {
-    "adate": "2020-06-01T21:49:37-04:00",
-    "author": "Justin Ridgewell",
-    "date": "2020-06-01T21:49:37-04:00",
-    "hash": "badcc23abfabbed4acc2520eeb0aab8f7fd9c986",
-    "parents": "151e16a1c0b4a9a1cc49a28a3949ef45ae9320fc",
-    "subject": "Review updates"
-   },
-   {
-    "adate": "2020-06-01T20:34:20-04:00",
-    "author": "Justin Ridgewell",
-    "date": "2020-06-01T20:34:20-04:00",
-    "hash": "151e16a1c0b4a9a1cc49a28a3949ef45ae9320fc",
-    "parents": "b25c59273f407974e0c7d9372a2c9f71bb1f21c4",
+    "date": "2020-07-09T00:47:21-04:00",
+    "hash": "4879950ac8b71bcf4b72d51ff68440465d70af49",
+    "parents": "e08b018785606bc6465a0456a79604b149007932",
     "subject": "Normative: Add Logical Assignment Operators"
    }
   ],
   "title": "Normative: Add Logical Assignment Operators",
-  "updated_at": "2020-06-02T02:22:08Z"
+  "updated_at": "2020-07-09T04:47:57Z"
  },
  {
   "base": "b25c59273f407974e0c7d9372a2c9f71bb1f21c4",
