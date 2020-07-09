@@ -2,11 +2,35 @@
  {
   "base": "e08b018785606bc6465a0456a79604b149007932",
   "created_at": "2020-07-09T01:38:44Z",
-  "head": "7e4d57e8ba9ad3e7d727df541a8bda58d92e6b25",
+  "head": "dfb9a1e3b3a01b5a8212bdc9e8311f071c1dd7c0",
   "login": "syg",
   "number": 2086,
   "ref": "incumbent-host-hooks",
   "revs": [
+   {
+    "adate": "2020-07-09T12:54:38-07:00",
+    "author": "Shu-yu Guo",
+    "date": "2020-07-09T12:54:38-07:00",
+    "hash": "dfb9a1e3b3a01b5a8212bdc9e8311f071c1dd7c0",
+    "parents": "60629bfe8eb111f1f1474efa108f7b2b511cd672",
+    "subject": "Fix aoids, lint error"
+   },
+   {
+    "adate": "2020-07-09T12:43:32-07:00",
+    "author": "Shu-yu Guo",
+    "date": "2020-07-09T12:43:32-07:00",
+    "hash": "60629bfe8eb111f1f1474efa108f7b2b511cd672",
+    "parents": "d25744af856a29cebdfac4e1b84cbef158a8a9e5",
+    "subject": "Remove references to \"ambient context\""
+   },
+   {
+    "adate": "2020-07-09T12:42:59-07:00",
+    "author": "Shu-yu Guo",
+    "date": "2020-07-09T12:42:59-07:00",
+    "hash": "d25744af856a29cebdfac4e1b84cbef158a8a9e5",
+    "parents": "7e4d57e8ba9ad3e7d727df541a8bda58d92e6b25",
+    "subject": "Rework into HostMakeJobCallback and HostCallJobCallback"
+   },
    {
     "adate": "2020-07-08T18:41:51-07:00",
     "author": "Shu-yu Guo",
@@ -41,7 +65,7 @@
    }
   ],
   "title": "Add machinery to track the incumbent settings object in HTML for Job callbacks",
-  "updated_at": "2020-07-09T01:49:04Z"
+  "updated_at": "2020-07-09T19:54:50Z"
  },
  {
   "base": "e08b018785606bc6465a0456a79604b149007932",
