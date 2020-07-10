@@ -2,11 +2,19 @@
  {
   "base": "e08b018785606bc6465a0456a79604b149007932",
   "created_at": "2020-07-09T01:38:44Z",
-  "head": "471f31320d59f0baba458bf938124d5fa21f78d3",
+  "head": "20ad02d9cca69a08887b7699ea9ca0916cdc4bf0",
   "login": "syg",
   "number": 2086,
   "ref": "incumbent-host-hooks",
   "revs": [
+   {
+    "adate": "2020-07-09T16:47:46-07:00",
+    "author": "Shu-yu Guo",
+    "date": "2020-07-09T16:47:46-07:00",
+    "hash": "20ad02d9cca69a08887b7699ea9ca0916cdc4bf0",
+    "parents": "471f31320d59f0baba458bf938124d5fa21f78d3",
+    "subject": "Make argumentsList required in HostCallJobCallback and add convenience wrapper CallJobCallback"
+   },
    {
     "adate": "2020-07-09T13:15:53-07:00",
     "author": "Shu-yu Guo",
@@ -73,7 +81,7 @@
    }
   ],
   "title": "Add machinery to track the incumbent settings object in HTML for Job callbacks",
-  "updated_at": "2020-07-09T20:31:14Z"
+  "updated_at": "2020-07-09T23:48:30Z"
  },
  {
   "base": "e08b018785606bc6465a0456a79604b149007932",
@@ -1458,11 +1466,19 @@
  {
   "base": "855093b06eaa8008ab6af99ea77880c45d49e50b",
   "created_at": "2020-05-07T22:54:50Z",
-  "head": "e43530a86ea64c2576ad54b06b8b5aeea11607ae",
+  "head": "200c743a05e2752c26966cca87c3fb4cc5a844c4",
   "login": "syg",
   "number": 1984,
   "ref": "promise-job-invariants",
   "revs": [
+   {
+    "adate": "2020-07-09T17:06:05-07:00",
+    "author": "Shu-yu Guo",
+    "date": "2020-07-09T17:06:05-07:00",
+    "hash": "200c743a05e2752c26966cca87c3fb4cc5a844c4",
+    "parents": "e43530a86ea64c2576ad54b06b8b5aeea11607ae",
+    "subject": "Address ljharb review"
+   },
    {
     "adate": "2020-06-29T16:36:08-07:00",
     "author": "Shu-yu Guo",
@@ -1513,7 +1529,7 @@
    }
   ],
   "title": "Layering: Refine execution context requirements for Jobs",
-  "updated_at": "2020-06-29T23:39:05Z"
+  "updated_at": "2020-07-10T00:06:21Z"
  },
  {
   "base": "0b988b7700de675331ac360d164c978d6ea452ec",
