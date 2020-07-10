@@ -1,6 +1,26 @@
 [
  {
   "base": "e08b018785606bc6465a0456a79604b149007932",
+  "created_at": "2020-07-10T07:47:55Z",
+  "head": "53fe666cf55614d80d2d4cd6aa9ba5e6385499dc",
+  "login": "codehag",
+  "number": 2089,
+  "ref": "weakrefs-sans-cleanupsome",
+  "revs": [
+   {
+    "adate": "2020-07-08T16:35:05+02:00",
+    "author": "codehag",
+    "date": "2020-07-10T10:01:55+02:00",
+    "hash": "53fe666cf55614d80d2d4cd6aa9ba5e6385499dc",
+    "parents": "e08b018785606bc6465a0456a79604b149007932",
+    "subject": "Normative: Add Weakrefs and FinalizationRegistry"
+   }
+  ],
+  "title": "Normative: Add Weakrefs and FinalizationRegistry",
+  "updated_at": "2020-07-10T08:06:50Z"
+ },
+ {
+  "base": "e08b018785606bc6465a0456a79604b149007932",
   "created_at": "2020-07-09T01:38:44Z",
   "head": "20ad02d9cca69a08887b7699ea9ca0916cdc4bf0",
   "login": "syg",
