@@ -22,11 +22,19 @@
  {
   "base": "e08b018785606bc6465a0456a79604b149007932",
   "created_at": "2020-07-09T01:38:44Z",
-  "head": "20ad02d9cca69a08887b7699ea9ca0916cdc4bf0",
+  "head": "3d09ec3d98858e4eadc4568e1a9c11aee425b499",
   "login": "syg",
   "number": 2086,
   "ref": "incumbent-host-hooks",
   "revs": [
+   {
+    "adate": "2020-07-10T18:22:23-07:00",
+    "author": "Shu-yu Guo",
+    "date": "2020-07-10T18:22:23-07:00",
+    "hash": "3d09ec3d98858e4eadc4568e1a9c11aee425b499",
+    "parents": "20ad02d9cca69a08887b7699ea9ca0916cdc4bf0",
+    "subject": "Remove extraneous ?s"
+   },
    {
     "adate": "2020-07-09T16:47:46-07:00",
     "author": "Shu-yu Guo",
@@ -101,7 +109,7 @@
    }
   ],
   "title": "Add machinery to track the incumbent settings object in HTML for Job callbacks",
-  "updated_at": "2020-07-09T23:48:30Z"
+  "updated_at": "2020-07-11T01:22:38Z"
  },
  {
   "base": "e08b018785606bc6465a0456a79604b149007932",
