@@ -58,11 +58,19 @@
  {
   "base": "e08b018785606bc6465a0456a79604b149007932",
   "created_at": "2020-07-09T01:38:44Z",
-  "head": "3d09ec3d98858e4eadc4568e1a9c11aee425b499",
+  "head": "46065088fd163e8b38e5b6b75ba1c2ae86d70f38",
   "login": "syg",
   "number": 2086,
   "ref": "incumbent-host-hooks",
   "revs": [
+   {
+    "adate": "2020-07-13T10:03:22-07:00",
+    "author": "Shu-yu Guo",
+    "date": "2020-07-13T10:03:22-07:00",
+    "hash": "46065088fd163e8b38e5b6b75ba1c2ae86d70f38",
+    "parents": "3d09ec3d98858e4eadc4568e1a9c11aee425b499",
+    "subject": "Add ? back to default implementation"
+   },
    {
     "adate": "2020-07-10T18:22:23-07:00",
     "author": "Shu-yu Guo",
@@ -145,7 +153,7 @@
    }
   ],
   "title": "Add machinery to track the incumbent settings object in HTML for Job callbacks",
-  "updated_at": "2020-07-11T01:22:38Z"
+  "updated_at": "2020-07-13T17:03:34Z"
  },
  {
   "base": "e08b018785606bc6465a0456a79604b149007932",
