@@ -1,6 +1,26 @@
 [
  {
   "base": "e08b018785606bc6465a0456a79604b149007932",
+  "created_at": "2020-07-14T04:05:55Z",
+  "head": "6038afef6e3efc3b9c5245d167d5d2c977433511",
+  "login": "leobalter",
+  "number": 2094,
+  "ref": "2093/putvalue-strict-check",
+  "revs": [
+   {
+    "adate": "2020-07-13T21:00:12-07:00",
+    "author": "Leo Balter",
+    "date": "2020-07-13T21:00:15-07:00",
+    "hash": "6038afef6e3efc3b9c5245d167d5d2c977433511",
+    "parents": "e08b018785606bc6465a0456a79604b149007932",
+    "subject": "Normative: Verify if Binding is preserved for PutValue"
+   }
+  ],
+  "title": "Normative: Verify if Binding is preserved for PutValue",
+  "updated_at": "2020-07-14T04:26:10Z"
+ },
+ {
+  "base": "e08b018785606bc6465a0456a79604b149007932",
   "created_at": "2020-07-13T15:22:51Z",
   "head": "c6fd12b7d04ce27efb6784eae609bd13dbb27222",
   "login": "codehag",
