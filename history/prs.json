@@ -78,11 +78,19 @@
  {
   "base": "f92bc80f39fc0487fd395a471c61151fbfdf9ae2",
   "created_at": "2020-07-10T07:47:55Z",
-  "head": "b48b701604a3acd3f6a4ed1c9aae412c3100b413",
+  "head": "a69388dd501399a48553d19eb35dcd5d267e9745",
   "login": "codehag",
   "number": 2089,
   "ref": "weakrefs-sans-cleanupsome",
   "revs": [
+   {
+    "adate": "2020-07-15T21:17:20+02:00",
+    "author": "codehag",
+    "date": "2020-07-15T21:17:20+02:00",
+    "hash": "a69388dd501399a48553d19eb35dcd5d267e9745",
+    "parents": "b48b701604a3acd3f6a4ed1c9aae412c3100b413",
+    "subject": "word smithing"
+   },
    {
     "adate": "2020-07-15T18:15:10+02:00",
     "author": "codehag",
@@ -133,7 +141,7 @@
    }
   ],
   "title": "Normative: Add Weakrefs and FinalizationRegistry",
-  "updated_at": "2020-07-15T16:54:18Z"
+  "updated_at": "2020-07-15T19:17:29Z"
  },
  {
   "base": "e08b018785606bc6465a0456a79604b149007932",
