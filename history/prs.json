@@ -58,11 +58,19 @@
  {
   "base": "f92bc80f39fc0487fd395a471c61151fbfdf9ae2",
   "created_at": "2020-07-10T07:47:55Z",
-  "head": "fcead87da8e9c15a4dc06d99c98b41d23da449be",
+  "head": "9bc1e84bd5181a0389c27d97845f24447a80dc60",
   "login": "codehag",
   "number": 2089,
   "ref": "weakrefs-sans-cleanupsome",
   "revs": [
+   {
+    "adate": "2020-07-15T11:15:50+02:00",
+    "author": "codehag",
+    "date": "2020-07-15T11:15:50+02:00",
+    "hash": "9bc1e84bd5181a0389c27d97845f24447a80dc60",
+    "parents": "fcead87da8e9c15a4dc06d99c98b41d23da449be",
+    "subject": "address @bakkot's comments"
+   },
    {
     "adate": "2020-07-14T13:57:15+02:00",
     "author": "codehag",
@@ -97,7 +105,7 @@
    }
   ],
   "title": "Normative: Add Weakrefs and FinalizationRegistry",
-  "updated_at": "2020-07-14T11:58:47Z"
+  "updated_at": "2020-07-15T09:16:13Z"
  },
  {
   "base": "e08b018785606bc6465a0456a79604b149007932",
