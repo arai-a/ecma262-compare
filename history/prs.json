@@ -416,24 +416,24 @@
   "updated_at": "2020-07-06T01:28:50Z"
  },
  {
-  "base": "8d2463a388c866d34035543d72dff7f730fcf975",
+  "base": "e8fd7babb794c85137ddebd6b38baab777f4d366",
   "created_at": "2020-06-24T23:18:34Z",
-  "head": "f5c78588c4afbe567db89a01e7d6e09d4c926bbf",
+  "head": "c5b667bad7cf21088303c2ca4fee5685ba457b78",
   "login": "ljharb",
   "number": 2065,
   "ref": "degenerate",
   "revs": [
    {
-    "adate": "2020-07-05T14:02:36-07:00",
+    "adate": "2020-07-15T23:23:53-07:00",
     "author": "Jordan Harband",
-    "date": "2020-07-05T14:02:36-07:00",
-    "hash": "f5c78588c4afbe567db89a01e7d6e09d4c926bbf",
-    "parents": "8d2463a388c866d34035543d72dff7f730fcf975",
+    "date": "2020-07-15T23:23:53-07:00",
+    "hash": "c5b667bad7cf21088303c2ca4fee5685ba457b78",
+    "parents": "e8fd7babb794c85137ddebd6b38baab777f4d366",
     "subject": "Editorial: remove `%Generator%` and `%AsyncGenerator%` in favor of dotted forms"
    }
   ],
   "title": "Editorial: remove `%Generator%` and `%AsyncGenerator%` in favor of dotted forms",
-  "updated_at": "2020-07-05T21:02:45Z"
+  "updated_at": "2020-07-16T06:28:23Z"
  },
  {
   "base": "8f82b21e872044b0f51245e807f10f3265301c39",
@@ -474,34 +474,6 @@
   ],
   "title": "Editorial: Use\u00a0semantic table\u00a0IDs",
   "updated_at": "2020-07-02T16:28:54Z"
- },
- {
-  "base": "397b9d93e8614795cbb18fdebb1e67d19f27a3dd",
-  "created_at": "2020-06-20T06:30:10Z",
-  "head": "7426ddf257f23b041740a0dd6d3c85e4eadbbbf4",
-  "login": "EB-Forks",
-  "number": 2059,
-  "ref": "editorial/fix-asyncgenerator-definition",
-  "revs": [
-   {
-    "adate": "2020-07-02T17:40:00+02:00",
-    "author": "ExE Boss",
-    "date": "2020-07-02T17:37:23+02:00",
-    "hash": "7426ddf257f23b041740a0dd6d3c85e4eadbbbf4",
-    "parents": "305d2282f79b51626e4bd112696cf2d816809be7",
-    "subject": "Editorial: Fix\u00a0%Generator% and\u00a0%AsyncGenerator%\u00a0<dfn>s (#2059)"
-   },
-   {
-    "adate": "2020-07-01T16:07:09-07:00",
-    "author": "Jordan Harband",
-    "date": "2020-07-01T16:07:09-07:00",
-    "hash": "305d2282f79b51626e4bd112696cf2d816809be7",
-    "parents": "34d2050120247f3ccd19f6814376e86de9b26ca3",
-    "subject": "Editorial: change redundant \"the intrinsic object %Foo%\" to \"%Foo%\""
-   }
-  ],
-  "title": "Editorial: Fix\u00a0%Generator% and\u00a0%AsyncGenerator%\u00a0<dfn>s",
-  "updated_at": "2020-07-02T15:36:20Z"
  },
  {
   "base": "6f0a88dc1d9f02d16a66aea01aede0253be4a132",
