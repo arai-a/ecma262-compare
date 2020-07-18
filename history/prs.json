@@ -418,22 +418,22 @@
  {
   "base": "e8fd7babb794c85137ddebd6b38baab777f4d366",
   "created_at": "2020-06-24T23:18:34Z",
-  "head": "c5b667bad7cf21088303c2ca4fee5685ba457b78",
+  "head": "ed2cfc7e1b0c8cb4f694b75d6a8da8fb4212063a",
   "login": "ljharb",
   "number": 2065,
   "ref": "degenerate",
   "revs": [
    {
-    "adate": "2020-07-15T23:23:53-07:00",
+    "adate": "2020-07-17T22:44:23-07:00",
     "author": "Jordan Harband",
-    "date": "2020-07-15T23:23:53-07:00",
-    "hash": "c5b667bad7cf21088303c2ca4fee5685ba457b78",
+    "date": "2020-07-17T22:44:23-07:00",
+    "hash": "ed2cfc7e1b0c8cb4f694b75d6a8da8fb4212063a",
     "parents": "e8fd7babb794c85137ddebd6b38baab777f4d366",
     "subject": "Editorial: remove `%Generator%` and `%AsyncGenerator%` in favor of dotted forms"
    }
   ],
   "title": "Editorial: remove `%Generator%` and `%AsyncGenerator%` in favor of dotted forms",
-  "updated_at": "2020-07-16T06:28:23Z"
+  "updated_at": "2020-07-18T05:45:28Z"
  },
  {
   "base": "8f82b21e872044b0f51245e807f10f3265301c39",
@@ -1822,106 +1822,6 @@
   ],
   "title": "Editorial: Unambiguous grammar for IfStatement",
   "updated_at": "2020-06-17T23:52:08Z"
- },
- {
-  "base": "8d2463a388c866d34035543d72dff7f730fcf975",
-  "created_at": "2020-04-16T23:19:07Z",
-  "head": "0e7cb3e306b4bd7241e83ec62033752a0806bc30",
-  "login": "syg",
-  "number": 1951,
-  "ref": "host-vs-impl",
-  "revs": [
-   {
-    "adate": "2020-07-17T09:56:25-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-07-17T09:56:25-07:00",
-    "hash": "0e7cb3e306b4bd7241e83ec62033752a0806bc30",
-    "parents": "456401475810140de501393affb5b08ce5a6cf50",
-    "subject": "Add a sentence about hosts typically providing I/O"
-   },
-   {
-    "adate": "2020-07-16T16:04:20-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-07-16T16:04:20-07:00",
-    "hash": "456401475810140de501393affb5b08ce5a6cf50",
-    "parents": "3951937e2fc01032bb07cdf9fe950d821367f47c",
-    "subject": "Explicitly render Math.exp instead of using emu-xref title"
-   },
-   {
-    "adate": "2020-07-16T15:53:16-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-07-16T15:53:16-07:00",
-    "hash": "3951937e2fc01032bb07cdf9fe950d821367f47c",
-    "parents": "0ca7f297074e61ea33f2f0b84fdffde79b9df64f",
-    "subject": "Address bakkot review"
-   },
-   {
-    "adate": "2020-07-06T17:17:26-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-07-06T17:18:27-07:00",
-    "hash": "0ca7f297074e61ea33f2f0b84fdffde79b9df64f",
-    "parents": "036490076aa5dacc27497ef4bb380b1ab84e8007",
-    "subject": "Address bakkot review"
-   },
-   {
-    "adate": "2020-06-26T18:33:43-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-06-26T18:33:43-07:00",
-    "hash": "036490076aa5dacc27497ef4bb380b1ab84e8007",
-    "parents": "43c8a3a02051f30be77cf9cebac57e7cbb1757e4",
-    "subject": "Add missing aoid; remove manual links to auto-linked AOs in Annex D; small tweaks"
-   },
-   {
-    "adate": "2020-06-26T14:28:50-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-06-26T14:28:50-07:00",
-    "hash": "43c8a3a02051f30be77cf9cebac57e7cbb1757e4",
-    "parents": "43846d76e62bdbd8c20b0e7cb971023adc5cda63",
-    "subject": "xref Math.exp"
-   },
-   {
-    "adate": "2020-06-26T11:47:21-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-06-26T11:47:21-07:00",
-    "hash": "43846d76e62bdbd8c20b0e7cb971023adc5cda63",
-    "parents": "6ee0b33e9b5ec6fabe647b747c0f13c66142cf67",
-    "subject": "s/an host/a host/g"
-   },
-   {
-    "adate": "2020-06-25T18:16:11-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-06-25T18:16:11-07:00",
-    "hash": "6ee0b33e9b5ec6fabe647b747c0f13c66142cf67",
-    "parents": "9de6b85ae110ae4a6a175b73095fad51a2b6b6cc",
-    "subject": "Add specificity recommendation"
-   },
-   {
-    "adate": "2020-06-25T18:11:41-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-06-25T18:11:41-07:00",
-    "hash": "9de6b85ae110ae4a6a175b73095fad51a2b6b6cc",
-    "parents": "2957d647e746bd7fc72c4ceb86f78d24f6074641",
-    "subject": "Address review"
-   },
-   {
-    "adate": "2020-06-24T19:31:02-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-06-24T19:31:02-07:00",
-    "hash": "2957d647e746bd7fc72c4ceb86f78d24f6074641",
-    "parents": "870ba1735f8822fe33e9852402b97d290c349b50",
-    "subject": "Change back from \"implementation-approximation of\" to \"implementation-approximation to\""
-   },
-   {
-    "adate": "2020-04-16T14:32:24-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-06-24T19:23:01-07:00",
-    "hash": "870ba1735f8822fe33e9852402b97d290c349b50",
-    "parents": "8f82b21e872044b0f51245e807f10f3265301c39",
-    "subject": "Editorial: Clarify host and implementation taxonomy"
-   }
-  ],
-  "title": "Editorially distinguish host and implementation",
-  "updated_at": "2020-07-17T16:56:45Z"
  },
  {
   "base": "8f82b21e872044b0f51245e807f10f3265301c39",
