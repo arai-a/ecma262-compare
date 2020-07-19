@@ -982,11 +982,19 @@
  {
   "base": "397b9d93e8614795cbb18fdebb1e67d19f27a3dd",
   "created_at": "2020-06-10T12:35:13Z",
-  "head": "851c920df16e0283e31c623d33bf2f63e0c43a87",
+  "head": "5cb9cc6253059395100073f8ecafc934e114ad99",
   "login": "chicoxyzzy",
   "number": 2040,
   "ref": "promise-any",
   "revs": [
+   {
+    "adate": "2020-07-19T09:15:08+03:00",
+    "author": "chicoxyzzy",
+    "date": "2020-07-19T09:15:08+03:00",
+    "hash": "5cb9cc6253059395100073f8ecafc934e114ad99",
+    "parents": "851c920df16e0283e31c623d33bf2f63e0c43a87",
+    "subject": "Move IterableToList to 7.4"
+   },
    {
     "adate": "2020-07-15T03:44:24+03:00",
     "author": "chicoxyzzy",
@@ -1021,7 +1029,7 @@
    }
   ],
   "title": "Normative: Add Promise.any & AggregateError",
-  "updated_at": "2020-07-15T00:51:06Z"
+  "updated_at": "2020-07-19T06:18:14Z"
  },
  {
   "base": "12a546b92275a0e2f834017db2727bb9c6f6c8fd",
