@@ -1052,9 +1052,9 @@
   "updated_at": "2020-07-19T06:18:14Z"
  },
  {
-  "base": "12a546b92275a0e2f834017db2727bb9c6f6c8fd",
+  "base": "56032d3271949f2892745d4a8e06d1322ba7220d",
   "created_at": "2020-06-09T17:41:28Z",
-  "head": "e5ee7078b9e020d6eb28330673336357ba1cb343",
+  "head": "4d0b82c810e04f682e184e8e68eb3ac041ad30b7",
   "login": "littledan",
   "number": 2038,
   "ref": "symbol-as-weakmap-key",
@@ -1062,30 +1062,30 @@
    {
     "adate": "2020-06-09T22:52:29+02:00",
     "author": "Daniel Ehrenberg",
-    "date": "2020-06-09T22:52:29+02:00",
-    "hash": "e5ee7078b9e020d6eb28330673336357ba1cb343",
-    "parents": "a896f4dda6e13e00f470d8beeaa06df725aeaa6e",
+    "date": "2020-07-19T20:42:18+02:00",
+    "hash": "4d0b82c810e04f682e184e8e68eb3ac041ad30b7",
+    "parents": "35e574dbf44afc5f877e4b12c87e5882423c23da",
     "subject": "Editorial: Factor out HasIdentity algorithm"
    },
    {
     "adate": "2020-06-09T22:46:49+02:00",
     "author": "Daniel Ehrenberg",
-    "date": "2020-06-09T22:46:49+02:00",
-    "hash": "a896f4dda6e13e00f470d8beeaa06df725aeaa6e",
-    "parents": "7a4e3cb43ff0f87bb889da10dfd0b2ca09242c3a",
+    "date": "2020-07-19T20:42:18+02:00",
+    "hash": "35e574dbf44afc5f877e4b12c87e5882423c23da",
+    "parents": "5a30af9d06883eae9fbbdd76312892632ff14532",
     "subject": "Applying Richard Gibson's wording suggestions"
    },
    {
     "adate": "2020-06-09T19:31:45+02:00",
     "author": "Daniel Ehrenberg",
-    "date": "2020-06-09T19:32:28+02:00",
-    "hash": "7a4e3cb43ff0f87bb889da10dfd0b2ca09242c3a",
-    "parents": "12a546b92275a0e2f834017db2727bb9c6f6c8fd",
+    "date": "2020-07-19T20:42:18+02:00",
+    "hash": "5a30af9d06883eae9fbbdd76312892632ff14532",
+    "parents": "56032d3271949f2892745d4a8e06d1322ba7220d",
     "subject": "Normative: Permit Symbol as WeakMap key and WeakSet entry"
    }
   ],
   "title": "Normative: Permit Symbol as WeakMap key and WeakSet entry",
-  "updated_at": "2020-06-09T20:53:18Z"
+  "updated_at": "2020-07-19T18:42:39Z"
  },
  {
   "base": "12a546b92275a0e2f834017db2727bb9c6f6c8fd",
