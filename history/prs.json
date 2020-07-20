@@ -538,11 +538,35 @@
  {
   "base": "8d2463a388c866d34035543d72dff7f730fcf975",
   "created_at": "2020-06-14T06:21:06Z",
-  "head": "82978e955ddb5802897b205220cc4fe50ef9b6c7",
+  "head": "387d205f91fed78180b04e2b83f0fd7f9084363d",
   "login": "Jack-Works",
   "number": 2045,
   "ref": "generator",
   "revs": [
+   {
+    "adate": "2020-07-20T10:12:10+08:00",
+    "author": "Jack Works",
+    "date": "2020-07-20T10:12:10+08:00",
+    "hash": "387d205f91fed78180b04e2b83f0fd7f9084363d",
+    "parents": "b93a8118814528395aed3e9027d4938c8fd9d0c3",
+    "subject": "rename createbuiltin*generatorinstance"
+   },
+   {
+    "adate": "2020-07-20T10:06:38+08:00",
+    "author": "Jack Works",
+    "date": "2020-07-20T10:06:38+08:00",
+    "hash": "b93a8118814528395aed3e9027d4938c8fd9d0c3",
+    "parents": "d34e0e873db6a16cea6e1348d76335c2494fe1f2",
+    "subject": "move createbuiltin*generatorinstance"
+   },
+   {
+    "adate": "2020-07-20T10:04:36+08:00",
+    "author": "Jack Works",
+    "date": "2020-07-20T10:04:36+08:00",
+    "hash": "d34e0e873db6a16cea6e1348d76335c2494fe1f2",
+    "parents": "82978e955ddb5802897b205220cc4fe50ef9b6c7",
+    "subject": "move Yield abs op"
+   },
    {
     "adate": "2020-07-20T09:53:14+08:00",
     "author": "Jack Works",
@@ -920,8 +944,8 @@
     "subject": "Add built-in sync generator"
    }
   ],
-  "title": "Editorial: Add Yield abstract operation, CreateBuiltinGeneratorInstance abs op.",
-  "updated_at": "2020-07-20T01:53:26Z"
+  "title": "Editorial: Add Yield, CreateIteratorFromClosure, CreateAsyncIteratorFromClosure abs op.",
+  "updated_at": "2020-07-20T02:24:09Z"
  },
  {
   "base": "00b7a2ded5695762d1b722261b4881a549503085",
