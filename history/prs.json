@@ -1,5 +1,25 @@
 [
  {
+  "base": "56032d3271949f2892745d4a8e06d1322ba7220d",
+  "created_at": "2020-07-20T02:44:45Z",
+  "head": "06985a5f771117cc3406472f331675b059be08e5",
+  "login": "syg",
+  "number": 2103,
+  "ref": "bad-dfn-sec-ids",
+  "revs": [
+   {
+    "adate": "2020-07-19T19:42:15-07:00",
+    "author": "Shu-yu Guo",
+    "date": "2020-07-19T19:42:15-07:00",
+    "hash": "06985a5f771117cc3406472f331675b059be08e5",
+    "parents": "56032d3271949f2892745d4a8e06d1322ba7220d",
+    "subject": "Editorial: Don't use \"sec-\" prefix for dfn ids"
+   }
+  ],
+  "title": "Editorial: Don't use \"sec-\" prefix for dfn ids",
+  "updated_at": "2020-07-20T02:44:45Z"
+ },
+ {
   "base": "f92bc80f39fc0487fd395a471c61151fbfdf9ae2",
   "created_at": "2020-07-15T16:29:44Z",
   "head": "553cbfb191c4d1513e0a4c27719c1a67dd064739",
