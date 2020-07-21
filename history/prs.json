@@ -524,13 +524,45 @@
   "updated_at": "2020-06-16T23:45:47Z"
  },
  {
-  "base": "8d2463a388c866d34035543d72dff7f730fcf975",
+  "base": "8eab6e85cf9f69b41d1d61b49ff5f907e5b0ed41",
   "created_at": "2020-06-14T06:21:06Z",
-  "head": "387d205f91fed78180b04e2b83f0fd7f9084363d",
+  "head": "2e9f0a7d1373fe5b1a13509f580e2b681e159b63",
   "login": "Jack-Works",
   "number": 2045,
   "ref": "generator",
   "revs": [
+   {
+    "adate": "2020-07-21T11:45:38+08:00",
+    "author": "Jack Works",
+    "date": "2020-07-21T11:45:38+08:00",
+    "hash": "2e9f0a7d1373fe5b1a13509f580e2b681e159b63",
+    "parents": "9603e42b5f81902b208887c73f6be1727ebfa390",
+    "subject": "fix lint error"
+   },
+   {
+    "adate": "2020-07-21T11:41:03+08:00",
+    "author": "Jack Works",
+    "date": "2020-07-21T11:41:03+08:00",
+    "hash": "9603e42b5f81902b208887c73f6be1727ebfa390",
+    "parents": "4c6b2d9f88237e456586cec1d6b711718aa44085 8eab6e85cf9f69b41d1d61b49ff5f907e5b0ed41",
+    "subject": "Merge branch 'master' into generator"
+   },
+   {
+    "adate": "2020-07-21T11:36:07+08:00",
+    "author": "Jack Works",
+    "date": "2020-07-21T11:36:07+08:00",
+    "hash": "4c6b2d9f88237e456586cec1d6b711718aa44085",
+    "parents": "b058a9d2719ca2501bf05a9ab1026d29e410e468",
+    "subject": "let yield stmt use Yield abs op"
+   },
+   {
+    "adate": "2020-07-21T11:31:01+08:00",
+    "author": "Jack Works",
+    "date": "2020-07-21T11:31:01+08:00",
+    "hash": "b058a9d2719ca2501bf05a9ab1026d29e410e468",
+    "parents": "387d205f91fed78180b04e2b83f0fd7f9084363d",
+    "subject": "add oldids"
+   },
    {
     "adate": "2020-07-20T10:12:10+08:00",
     "author": "Jack Works",
@@ -933,7 +965,7 @@
    }
   ],
   "title": "Editorial: Add Yield, CreateIteratorFromClosure, CreateAsyncIteratorFromClosure abs op.",
-  "updated_at": "2020-07-20T02:24:09Z"
+  "updated_at": "2020-07-21T03:50:19Z"
  },
  {
   "base": "00b7a2ded5695762d1b722261b4881a549503085",
