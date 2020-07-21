@@ -1048,58 +1048,6 @@
   "updated_at": "2020-07-16T15:54:50Z"
  },
  {
-  "base": "397b9d93e8614795cbb18fdebb1e67d19f27a3dd",
-  "created_at": "2020-06-10T12:35:13Z",
-  "head": "5cb9cc6253059395100073f8ecafc934e114ad99",
-  "login": "chicoxyzzy",
-  "number": 2040,
-  "ref": "promise-any",
-  "revs": [
-   {
-    "adate": "2020-07-19T09:15:08+03:00",
-    "author": "chicoxyzzy",
-    "date": "2020-07-19T09:15:08+03:00",
-    "hash": "5cb9cc6253059395100073f8ecafc934e114ad99",
-    "parents": "851c920df16e0283e31c623d33bf2f63e0c43a87",
-    "subject": "Move IterableToList to 7.4"
-   },
-   {
-    "adate": "2020-07-15T03:44:24+03:00",
-    "author": "chicoxyzzy",
-    "date": "2020-07-15T03:44:24+03:00",
-    "hash": "851c920df16e0283e31c623d33bf2f63e0c43a87",
-    "parents": "eb8fb9e87387ec591770d4fe5b9e0ce4c2f98acc",
-    "subject": "More editorial fixes"
-   },
-   {
-    "adate": "2020-07-14T11:48:21+03:00",
-    "author": "chicoxyzzy",
-    "date": "2020-07-14T11:48:21+03:00",
-    "hash": "eb8fb9e87387ec591770d4fe5b9e0ce4c2f98acc",
-    "parents": "6aad17c371482740fbb58fa1be63fba53ab112fa",
-    "subject": "Editorial changes"
-   },
-   {
-    "adate": "2020-07-02T20:41:44+03:00",
-    "author": "chicoxyzzy",
-    "date": "2020-07-02T20:47:56+03:00",
-    "hash": "6aad17c371482740fbb58fa1be63fba53ab112fa",
-    "parents": "55c62b064af6561d83311363fa406ef4610d5fcb",
-    "subject": "apply review suggestions"
-   },
-   {
-    "adate": "2020-06-24T16:42:58-07:00",
-    "author": "chicoxyzzy",
-    "date": "2020-07-02T20:46:49+03:00",
-    "hash": "55c62b064af6561d83311363fa406ef4610d5fcb",
-    "parents": "397b9d93e8614795cbb18fdebb1e67d19f27a3dd",
-    "subject": "Normative: Add Promise.any & AggregateError (#2040)"
-   }
-  ],
-  "title": "Normative: Add Promise.any & AggregateError",
-  "updated_at": "2020-07-19T06:18:14Z"
- },
- {
   "base": "56032d3271949f2892745d4a8e06d1322ba7220d",
   "created_at": "2020-06-09T17:41:28Z",
   "head": "4d0b82c810e04f682e184e8e68eb3ac041ad30b7",
@@ -1908,24 +1856,32 @@
   "updated_at": "2020-06-17T23:52:08Z"
  },
  {
-  "base": "8f82b21e872044b0f51245e807f10f3265301c39",
+  "base": "69f53492cf8e735c84f8f859b930576c4ce9251b",
   "created_at": "2020-04-14T16:16:28Z",
-  "head": "bac30f4e8f0e64fdb91d0ce6a3f534a3c484f14f",
+  "head": "e417f396a276953c8329ddb89d8e523cf9cbe642",
   "login": "devsnek",
   "number": 1948,
   "ref": "fix-func-tostring",
   "revs": [
    {
+    "adate": "2020-07-21T13:21:12-05:00",
+    "author": "Gus Caplan",
+    "date": "2020-07-21T13:21:12-05:00",
+    "hash": "e417f396a276953c8329ddb89d8e523cf9cbe642",
+    "parents": "d81c2c6b0c21ebf0970ffa6739714cfd35fae683",
+    "subject": "update"
+   },
+   {
     "adate": "2020-04-15T13:24:27-05:00",
     "author": "Gus Caplan",
-    "date": "2020-06-26T13:34:58-05:00",
-    "hash": "bac30f4e8f0e64fdb91d0ce6a3f534a3c484f14f",
-    "parents": "8f82b21e872044b0f51245e807f10f3265301c39",
+    "date": "2020-07-21T13:12:11-05:00",
+    "hash": "d81c2c6b0c21ebf0970ffa6739714cfd35fae683",
+    "parents": "69f53492cf8e735c84f8f859b930576c4ce9251b",
     "subject": "Normative: fix Function toString on builtins"
    }
   ],
   "title": "Normative: fix Function toString on builtins",
-  "updated_at": "2020-06-26T18:50:37Z"
+  "updated_at": "2020-07-21T18:24:01Z"
  },
  {
   "base": "980e1ccf1d37a3c890dc5fe5a36275710459c122",
