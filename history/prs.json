@@ -1,5 +1,25 @@
 [
  {
+  "base": "69f53492cf8e735c84f8f859b930576c4ce9251b",
+  "created_at": "2020-07-21T18:55:14Z",
+  "head": "8272d887afd18a8c008dd9543d5699e3bb40a5e6",
+  "login": "EB-Forks",
+  "number": 2106,
+  "ref": "normative/add-import-meta-tostringtag",
+  "revs": [
+   {
+    "adate": "2020-07-21T21:00:00+02:00",
+    "author": "ExE Boss",
+    "date": "2020-07-21T20:58:45+02:00",
+    "hash": "8272d887afd18a8c008dd9543d5699e3bb40a5e6",
+    "parents": "69f53492cf8e735c84f8f859b930576c4ce9251b",
+    "subject": "Normative: Add\u00a0`import.meta[Symbol.toStringTag]`"
+   }
+  ],
+  "title": "Normative: Add\u00a0`import.meta[Symbol.toStringTag]`",
+  "updated_at": "2020-07-21T19:13:39Z"
+ },
+ {
   "base": "f700c03a152da7124acb6558351f536508c9c208",
   "created_at": "2020-07-20T19:09:07Z",
   "head": "162b32b44c8f3291b5cbc0eea965a8f0abb286cd",
@@ -1102,34 +1122,6 @@
   ],
   "title": "Editorial: Intrinsic\u00a0%ArrayIterator% doesn\u2019t\u00a0exist",
   "updated_at": "2020-06-06T10:54:04Z"
- },
- {
-  "base": "e08b018785606bc6465a0456a79604b149007932",
-  "created_at": "2020-06-02T00:41:49Z",
-  "head": "4886f4c6a362b48d23bffbc6d05f35e4803c5ecb",
-  "login": "jridgewell",
-  "number": 2030,
-  "ref": "logical-assignment",
-  "revs": [
-   {
-    "adate": "2020-07-20T21:39:48-04:00",
-    "author": "Justin Ridgewell",
-    "date": "2020-07-20T21:39:48-04:00",
-    "hash": "4886f4c6a362b48d23bffbc6d05f35e4803c5ecb",
-    "parents": "4879950ac8b71bcf4b72d51ff68440465d70af49",
-    "subject": "Add explicit step references to note"
-   },
-   {
-    "adate": "2020-07-09T00:47:21-04:00",
-    "author": "Justin Ridgewell",
-    "date": "2020-07-09T00:47:21-04:00",
-    "hash": "4879950ac8b71bcf4b72d51ff68440465d70af49",
-    "parents": "e08b018785606bc6465a0456a79604b149007932",
-    "subject": "Normative: Add Logical Assignment Operators"
-   }
-  ],
-  "title": "Normative: Add Logical Assignment Operators",
-  "updated_at": "2020-07-21T01:40:45Z"
  },
  {
   "base": "b25c59273f407974e0c7d9372a2c9f71bb1f21c4",
