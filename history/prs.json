@@ -232,104 +232,112 @@
   "updated_at": "2020-07-20T09:22:19Z"
  },
  {
-  "base": "e08b018785606bc6465a0456a79604b149007932",
+  "base": "a0452b6c659bbcf32b2fb48d6055399089edd3b7",
   "created_at": "2020-07-09T01:38:44Z",
-  "head": "46065088fd163e8b38e5b6b75ba1c2ae86d70f38",
+  "head": "749e5dbd014cf481b7401d875febbf773f060efb",
   "login": "syg",
   "number": 2086,
   "ref": "incumbent-host-hooks",
   "revs": [
    {
+    "adate": "2020-07-21T16:49:41-07:00",
+    "author": "Shu-yu Guo",
+    "date": "2020-07-21T16:53:23-07:00",
+    "hash": "749e5dbd014cf481b7401d875febbf773f060efb",
+    "parents": "cca8cc3e1879418f0a5c268b55bc4a75a3bf6d14",
+    "subject": "Restrict job callback hooks to web browsers"
+   },
+   {
     "adate": "2020-07-13T10:03:22-07:00",
     "author": "Shu-yu Guo",
-    "date": "2020-07-13T10:03:22-07:00",
-    "hash": "46065088fd163e8b38e5b6b75ba1c2ae86d70f38",
-    "parents": "3d09ec3d98858e4eadc4568e1a9c11aee425b499",
+    "date": "2020-07-21T16:53:23-07:00",
+    "hash": "cca8cc3e1879418f0a5c268b55bc4a75a3bf6d14",
+    "parents": "21c5fc9ac57a8baf17a37b729d6da26b3ac5418d",
     "subject": "Add ? back to default implementation"
    },
    {
     "adate": "2020-07-10T18:22:23-07:00",
     "author": "Shu-yu Guo",
-    "date": "2020-07-10T18:22:23-07:00",
-    "hash": "3d09ec3d98858e4eadc4568e1a9c11aee425b499",
-    "parents": "20ad02d9cca69a08887b7699ea9ca0916cdc4bf0",
+    "date": "2020-07-21T16:53:23-07:00",
+    "hash": "21c5fc9ac57a8baf17a37b729d6da26b3ac5418d",
+    "parents": "542f5502dfc23997f51e9cb0ef11934b8cfd66f4",
     "subject": "Remove extraneous ?s"
    },
    {
     "adate": "2020-07-09T16:47:46-07:00",
     "author": "Shu-yu Guo",
-    "date": "2020-07-09T16:47:46-07:00",
-    "hash": "20ad02d9cca69a08887b7699ea9ca0916cdc4bf0",
-    "parents": "471f31320d59f0baba458bf938124d5fa21f78d3",
+    "date": "2020-07-21T16:53:23-07:00",
+    "hash": "542f5502dfc23997f51e9cb0ef11934b8cfd66f4",
+    "parents": "d4ba103f735c4ade379c228b25d1c21e7aed8b4c",
     "subject": "Make argumentsList required in HostCallJobCallback and add convenience wrapper CallJobCallback"
    },
    {
     "adate": "2020-07-09T13:15:53-07:00",
     "author": "Shu-yu Guo",
-    "date": "2020-07-09T13:15:53-07:00",
-    "hash": "471f31320d59f0baba458bf938124d5fa21f78d3",
-    "parents": "dfb9a1e3b3a01b5a8212bdc9e8311f071c1dd7c0",
+    "date": "2020-07-21T16:53:23-07:00",
+    "hash": "d4ba103f735c4ade379c228b25d1c21e7aed8b4c",
+    "parents": "194a5dd88def19e8e06f8fa4362141ef526cbb5a",
     "subject": "Clarify that HostCallJobCallback must perform the Call, side effects and all, not just oracle the result"
    },
    {
     "adate": "2020-07-09T12:54:38-07:00",
     "author": "Shu-yu Guo",
-    "date": "2020-07-09T12:54:38-07:00",
-    "hash": "dfb9a1e3b3a01b5a8212bdc9e8311f071c1dd7c0",
-    "parents": "60629bfe8eb111f1f1474efa108f7b2b511cd672",
+    "date": "2020-07-21T16:53:22-07:00",
+    "hash": "194a5dd88def19e8e06f8fa4362141ef526cbb5a",
+    "parents": "ad4e6dce13ef2e82b6c6657b4a7a6c67970342a2",
     "subject": "Fix aoids, lint error"
    },
    {
     "adate": "2020-07-09T12:43:32-07:00",
     "author": "Shu-yu Guo",
-    "date": "2020-07-09T12:43:32-07:00",
-    "hash": "60629bfe8eb111f1f1474efa108f7b2b511cd672",
-    "parents": "d25744af856a29cebdfac4e1b84cbef158a8a9e5",
+    "date": "2020-07-21T16:53:22-07:00",
+    "hash": "ad4e6dce13ef2e82b6c6657b4a7a6c67970342a2",
+    "parents": "8a47dbd6dbc151756199efa2b2ddda99f067f0c7",
     "subject": "Remove references to \"ambient context\""
    },
    {
     "adate": "2020-07-09T12:42:59-07:00",
     "author": "Shu-yu Guo",
-    "date": "2020-07-09T12:42:59-07:00",
-    "hash": "d25744af856a29cebdfac4e1b84cbef158a8a9e5",
-    "parents": "7e4d57e8ba9ad3e7d727df541a8bda58d92e6b25",
+    "date": "2020-07-21T16:53:22-07:00",
+    "hash": "8a47dbd6dbc151756199efa2b2ddda99f067f0c7",
+    "parents": "fd1875266a7558a251aa9046f0a4d13a084e4f9b",
     "subject": "Rework into HostMakeJobCallback and HostCallJobCallback"
    },
    {
     "adate": "2020-07-08T18:41:51-07:00",
     "author": "Shu-yu Guo",
-    "date": "2020-07-08T18:41:51-07:00",
-    "hash": "7e4d57e8ba9ad3e7d727df541a8bda58d92e6b25",
-    "parents": "974e6aa652b0bd1bef7bac4e815c467a38ed264b",
+    "date": "2020-07-21T16:53:22-07:00",
+    "hash": "fd1875266a7558a251aa9046f0a4d13a084e4f9b",
+    "parents": "af65d62e58bfd63dd4a1d1dd898178b6f4271e95",
     "subject": "More typos"
    },
    {
     "adate": "2020-07-08T18:40:06-07:00",
     "author": "Shu-yu Guo",
-    "date": "2020-07-08T18:40:06-07:00",
-    "hash": "974e6aa652b0bd1bef7bac4e815c467a38ed264b",
-    "parents": "b818d137dde80eb7e74ffb33d9c86de0e7b0ba3f",
+    "date": "2020-07-21T16:53:22-07:00",
+    "hash": "af65d62e58bfd63dd4a1d1dd898178b6f4271e95",
+    "parents": "6fc576a175287f737ce890544e8f59e0e67058ca",
     "subject": "Typo"
    },
    {
     "adate": "2020-07-08T18:39:33-07:00",
     "author": "Shu-yu Guo",
-    "date": "2020-07-08T18:39:33-07:00",
-    "hash": "b818d137dde80eb7e74ffb33d9c86de0e7b0ba3f",
-    "parents": "d99bfaa8f80d9380de8c4ee96d7caf2b3f92ee04",
+    "date": "2020-07-21T16:53:21-07:00",
+    "hash": "6fc576a175287f737ce890544e8f59e0e67058ca",
+    "parents": "294ae89aec22fea430318bd4ee54e6808ed5832c",
     "subject": "Promise.then -> Promise.prototype.then"
    },
    {
     "adate": "2020-07-08T18:34:43-07:00",
     "author": "Shu-yu Guo",
-    "date": "2020-07-08T18:34:43-07:00",
-    "hash": "d99bfaa8f80d9380de8c4ee96d7caf2b3f92ee04",
-    "parents": "8d2463a388c866d34035543d72dff7f730fcf975",
+    "date": "2020-07-21T16:53:21-07:00",
+    "hash": "294ae89aec22fea430318bd4ee54e6808ed5832c",
+    "parents": "a0452b6c659bbcf32b2fb48d6055399089edd3b7",
     "subject": "Add machinery to track the incumbent settings object in HTML for Job callbacks"
    }
   ],
   "title": "Add machinery to track the incumbent settings object in HTML for Job callbacks",
-  "updated_at": "2020-07-13T17:03:34Z"
+  "updated_at": "2020-07-21T23:53:35Z"
  },
  {
   "base": "e08b018785606bc6465a0456a79604b149007932",
