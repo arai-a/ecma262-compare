@@ -1,6 +1,50 @@
 [
  {
   "base": "721293e0fff964c4cdd3397fcbc7def1de9f9b4e",
+  "created_at": "2020-07-24T22:14:39Z",
+  "head": "7fc935d70a7f0ddcc842db3373f478680a1fa7a2",
+  "login": "gibson042",
+  "number": 2112,
+  "ref": "2020-07-CharSet",
+  "revs": [
+   {
+    "adate": "2020-07-24T18:05:06-04:00",
+    "author": "Richard Gibson",
+    "date": "2020-07-24T18:05:06-04:00",
+    "hash": "7fc935d70a7f0ddcc842db3373f478680a1fa7a2",
+    "parents": "62e7d03d6657d7a8492f7c82396742c33ea262ee",
+    "subject": "Editorial: Convert WordCharacters to a common alias"
+   },
+   {
+    "adate": "2020-07-24T18:03:49-04:00",
+    "author": "Richard Gibson",
+    "date": "2020-07-24T18:03:49-04:00",
+    "hash": "62e7d03d6657d7a8492f7c82396742c33ea262ee",
+    "parents": "540edf7cbd49fe021a8dc2c1620cecdb9465c43d",
+    "subject": "Editorial: Update regular expression algorithms to use prevailing shorthand syntax"
+   },
+   {
+    "adate": "2020-07-24T14:16:35-04:00",
+    "author": "Richard Gibson",
+    "date": "2020-07-24T14:16:35-04:00",
+    "hash": "540edf7cbd49fe021a8dc2c1620cecdb9465c43d",
+    "parents": "5c447929112948a1af7dd7d14d4f171eb0056b89",
+    "subject": "Editorial: Simplify CharacterSetMatcher"
+   },
+   {
+    "adate": "2020-07-24T14:14:54-04:00",
+    "author": "Richard Gibson",
+    "date": "2020-07-24T14:14:54-04:00",
+    "hash": "5c447929112948a1af7dd7d14d4f171eb0056b89",
+    "parents": "721293e0fff964c4cdd3397fcbc7def1de9f9b4e",
+    "subject": "Editorial: Consistently use CharSet in Regular Expression Pattern Semantics"
+   }
+  ],
+  "title": "Editorial: Improve internal and external consistency of RegExp pattern semantics",
+  "updated_at": "2020-07-24T22:14:39Z"
+ },
+ {
+  "base": "721293e0fff964c4cdd3397fcbc7def1de9f9b4e",
   "created_at": "2020-07-24T16:33:37Z",
   "head": "123f3b42914e394aac92f8c665652681f1828063",
   "login": "EB-Forks",
