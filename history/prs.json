@@ -1,5 +1,25 @@
 [
  {
+  "base": "721293e0fff964c4cdd3397fcbc7def1de9f9b4e",
+  "created_at": "2020-07-24T04:37:51Z",
+  "head": "2555c3b256fba9ba1b43d0ac602e3e5802adf09c",
+  "login": "gibson042",
+  "number": 2110,
+  "ref": "2020-07-ao-rs-prefix",
+  "revs": [
+   {
+    "adate": "2020-07-23T23:32:25-04:00",
+    "author": "Richard Gibson",
+    "date": "2020-07-23T23:32:25-04:00",
+    "hash": "2555c3b256fba9ba1b43d0ac602e3e5802adf09c",
+    "parents": "721293e0fff964c4cdd3397fcbc7def1de9f9b4e",
+    "subject": "Editorial: Remove \"Runtime Semantics\" prefix from abstract operations"
+   }
+  ],
+  "title": "Editorial: Remove \"Runtime Semantics\" prefix from abstract operations",
+  "updated_at": "2020-07-24T04:37:51Z"
+ },
+ {
   "base": "a0452b6c659bbcf32b2fb48d6055399089edd3b7",
   "created_at": "2020-07-21T23:30:52Z",
   "head": "181146edf485eeb0bd58f851d1f3335c423dd13f",
@@ -26,26 +46,6 @@
   ],
   "title": "Editorial: Add\u00a0support for\u00a0Abstract\u00a0Closures to\u00a0`CreateBuiltinFunction`",
   "updated_at": "2020-07-22T19:50:42Z"
- },
- {
-  "base": "a0452b6c659bbcf32b2fb48d6055399089edd3b7",
-  "created_at": "2020-07-21T20:55:52Z",
-  "head": "2ac7065f67d5faf354e232bf3a614905bc1af463",
-  "login": "jmdyck",
-  "number": 2108,
-  "ref": "editorial",
-  "revs": [
-   {
-    "adate": "2020-07-21T16:04:40-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-07-21T16:43:12-04:00",
-    "hash": "2ac7065f67d5faf354e232bf3a614905bc1af463",
-    "parents": "a0452b6c659bbcf32b2fb48d6055399089edd3b7",
-    "subject": "Editorial: fix minor errors in step syntax"
-   }
-  ],
-  "title": "Editorial: fix minor errors in step syntax",
-  "updated_at": "2020-07-21T20:56:15Z"
  },
  {
   "base": "69f53492cf8e735c84f8f859b930576c4ce9251b",
