@@ -166,11 +166,19 @@
  {
   "base": "56032d3271949f2892745d4a8e06d1322ba7220d",
   "created_at": "2020-07-10T07:47:55Z",
-  "head": "18f779df624ea6fac30895cb720e4f48eb441f70",
+  "head": "00035151ed3c28a48dcbff2188137568e02e235f",
   "login": "codehag",
   "number": 2089,
   "ref": "weakrefs-sans-cleanupsome",
   "revs": [
+   {
+    "adate": "2020-07-24T11:37:56+02:00",
+    "author": "codehag",
+    "date": "2020-07-24T11:37:56+02:00",
+    "hash": "00035151ed3c28a48dcbff2188137568e02e235f",
+    "parents": "18f779df624ea6fac30895cb720e4f48eb441f70",
+    "subject": "first draft AO for weakref.prototype.deref"
+   },
    {
     "adate": "2020-07-20T11:17:54+02:00",
     "author": "codehag",
@@ -237,7 +245,7 @@
    }
   ],
   "title": "Normative: Add Weakrefs and FinalizationRegistry",
-  "updated_at": "2020-07-20T09:22:19Z"
+  "updated_at": "2020-07-24T09:39:37Z"
  },
  {
   "base": "a0452b6c659bbcf32b2fb48d6055399089edd3b7",
