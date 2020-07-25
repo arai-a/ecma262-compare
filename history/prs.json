@@ -698,11 +698,19 @@
  {
   "base": "8eab6e85cf9f69b41d1d61b49ff5f907e5b0ed41",
   "created_at": "2020-06-14T06:21:06Z",
-  "head": "4e2f78de4f5cc36953dc52248e214ccc8c4e708e",
+  "head": "aad59f39d6c6abcfed861ea43db6e885bc892406",
   "login": "Jack-Works",
   "number": 2045,
   "ref": "generator",
   "revs": [
+   {
+    "adate": "2020-07-25T15:12:22+08:00",
+    "author": "Jack Works",
+    "date": "2020-07-25T15:12:22+08:00",
+    "hash": "aad59f39d6c6abcfed861ea43db6e885bc892406",
+    "parents": "4e2f78de4f5cc36953dc52248e214ccc8c4e708e",
+    "subject": "convert CreateListIteratorRecord"
+   },
    {
     "adate": "2020-07-21T14:25:40+08:00",
     "author": "Jack Works",
@@ -1153,7 +1161,7 @@
    }
   ],
   "title": "Editorial: Add Yield, CreateIteratorFromClosure, CreateAsyncIteratorFromClosure abs op.",
-  "updated_at": "2020-07-21T06:25:53Z"
+  "updated_at": "2020-07-25T07:12:41Z"
  },
  {
   "base": "00b7a2ded5695762d1b722261b4881a549503085",
