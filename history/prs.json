@@ -636,24 +636,24 @@
   "updated_at": "2020-07-06T01:28:50Z"
  },
  {
-  "base": "e8fd7babb794c85137ddebd6b38baab777f4d366",
+  "base": "721293e0fff964c4cdd3397fcbc7def1de9f9b4e",
   "created_at": "2020-06-24T23:18:34Z",
-  "head": "ed2cfc7e1b0c8cb4f694b75d6a8da8fb4212063a",
+  "head": "d367d31c53cdb3949835aea8b57a9833d5ab023c",
   "login": "ljharb",
   "number": 2065,
   "ref": "degenerate",
   "revs": [
    {
-    "adate": "2020-07-17T22:44:23-07:00",
+    "adate": "2020-07-26T10:53:37-07:00",
     "author": "Jordan Harband",
-    "date": "2020-07-17T22:44:23-07:00",
-    "hash": "ed2cfc7e1b0c8cb4f694b75d6a8da8fb4212063a",
-    "parents": "e8fd7babb794c85137ddebd6b38baab777f4d366",
-    "subject": "Editorial: remove `%Generator%` and `%AsyncGenerator%` in favor of dotted forms"
+    "date": "2020-07-26T10:53:37-07:00",
+    "hash": "d367d31c53cdb3949835aea8b57a9833d5ab023c",
+    "parents": "721293e0fff964c4cdd3397fcbc7def1de9f9b4e",
+    "subject": "Editorial: remove `%Generator%` and `%AsyncGenerator%` in favor of dotted forms (#2065)"
    }
   ],
   "title": "Editorial: remove `%Generator%` and `%AsyncGenerator%` in favor of dotted forms",
-  "updated_at": "2020-07-18T05:45:28Z"
+  "updated_at": "2020-07-26T18:05:51Z"
  },
  {
   "base": "721293e0fff964c4cdd3397fcbc7def1de9f9b4e",
