@@ -1,6 +1,26 @@
 [
  {
   "base": "721293e0fff964c4cdd3397fcbc7def1de9f9b4e",
+  "created_at": "2020-07-28T10:58:41Z",
+  "head": "464b5971981725cfe5b78e41abdaeaca2592c668",
+  "login": "EB-Forks",
+  "number": 2115,
+  "ref": "editorial/create-builtin-function/fix-internal-slots-list-param",
+  "revs": [
+   {
+    "adate": "2020-07-28T13:10:00+02:00",
+    "author": "ExE Boss",
+    "date": "2020-07-28T13:09:07+02:00",
+    "hash": "464b5971981725cfe5b78e41abdaeaca2592c668",
+    "parents": "721293e0fff964c4cdd3397fcbc7def1de9f9b4e",
+    "subject": "Editorial: Fix\u00a0`internalSlotsList`\u00a0parameter of\u00a0`CreateBuiltinFunction`"
+   }
+  ],
+  "title": "Editorial: Fix\u00a0`internalSlotsList`\u00a0parameter of\u00a0`CreateBuiltinFunction`",
+  "updated_at": "2020-07-28T11:08:04Z"
+ },
+ {
+  "base": "721293e0fff964c4cdd3397fcbc7def1de9f9b4e",
   "created_at": "2020-07-26T13:13:28Z",
   "head": "9488b77e2637aa66955820440fbd5e9e9e95aafc",
   "login": "EB-Forks",
