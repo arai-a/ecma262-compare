@@ -258,11 +258,19 @@
  {
   "base": "56032d3271949f2892745d4a8e06d1322ba7220d",
   "created_at": "2020-07-10T07:47:55Z",
-  "head": "e42c51a8ca7a30506324e21fe050ef531a983bdd",
+  "head": "fe678043a1252623c36364741958936456213133",
   "login": "codehag",
   "number": 2089,
   "ref": "weakrefs-sans-cleanupsome",
   "revs": [
+   {
+    "adate": "2020-07-28T10:14:50+02:00",
+    "author": "codehag",
+    "date": "2020-07-28T10:14:50+02:00",
+    "hash": "fe678043a1252623c36364741958936456213133",
+    "parents": "e42c51a8ca7a30506324e21fe050ef531a983bdd",
+    "subject": "add finalization-registry and weakref to constructor  properties of the global object"
+   },
    {
     "adate": "2020-07-27T10:47:08+02:00",
     "author": "codehag",
@@ -353,7 +361,7 @@
    }
   ],
   "title": "Normative: Add Weakrefs and FinalizationRegistry",
-  "updated_at": "2020-07-27T08:47:44Z"
+  "updated_at": "2020-07-28T08:15:01Z"
  },
  {
   "base": "a0452b6c659bbcf32b2fb48d6055399089edd3b7",
