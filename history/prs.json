@@ -1,6 +1,26 @@
 [
  {
   "base": "721293e0fff964c4cdd3397fcbc7def1de9f9b4e",
+  "created_at": "2020-07-29T21:57:15Z",
+  "head": "65554b4b7e074cf1645c405dece99259e0b60f39",
+  "login": "tc39",
+  "number": 2118,
+  "ref": "CreateIntrinsics-aliases",
+  "revs": [
+   {
+    "adate": "2020-07-29T14:55:40-07:00",
+    "author": "Michael Ficarra",
+    "date": "2020-07-29T14:55:40-07:00",
+    "hash": "65554b4b7e074cf1645c405dece99259e0b60f39",
+    "parents": "721293e0fff964c4cdd3397fcbc7def1de9f9b4e",
+    "subject": "Editorial: use more idiomatic aliases in CreateIntrinsics definition"
+   }
+  ],
+  "title": "Editorial: use more idiomatic aliases in CreateIntrinsics definition",
+  "updated_at": "2020-07-29T21:59:44Z"
+ },
+ {
+  "base": "721293e0fff964c4cdd3397fcbc7def1de9f9b4e",
   "created_at": "2020-07-28T11:38:00Z",
   "head": "727228910eb59bc1747944f8a90fdf4981a59bbf",
   "login": "EB-Forks",
