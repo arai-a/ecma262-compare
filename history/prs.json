@@ -810,11 +810,19 @@
  {
   "base": "8eab6e85cf9f69b41d1d61b49ff5f907e5b0ed41",
   "created_at": "2020-06-14T06:21:06Z",
-  "head": "e8792b0bcf14eb5d22c21fd49871174564cc2b4e",
+  "head": "f3afd0648c3683ac040a63713fcfaefc72315bea",
   "login": "Jack-Works",
   "number": 2045,
   "ref": "generator",
   "revs": [
+   {
+    "adate": "2020-07-30T22:24:34+08:00",
+    "author": "Jack Works",
+    "date": "2020-07-30T22:24:34+08:00",
+    "hash": "f3afd0648c3683ac040a63713fcfaefc72315bea",
+    "parents": "e8792b0bcf14eb5d22c21fd49871174564cc2b4e",
+    "subject": "add assert"
+   },
    {
     "adate": "2020-07-26T11:16:28+08:00",
     "author": "Jack Works",
@@ -1281,7 +1289,7 @@
    }
   ],
   "title": "Editorial: Add Yield, CreateIteratorFromClosure, CreateAsyncIteratorFromClosure abs op.",
-  "updated_at": "2020-07-26T03:16:46Z"
+  "updated_at": "2020-07-30T14:33:18Z"
  },
  {
   "base": "00b7a2ded5695762d1b722261b4881a549503085",
