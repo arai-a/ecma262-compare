@@ -270,46 +270,22 @@
  {
   "base": "7efaa50c81d0a43ead0b158697ed1b341f76e76a",
   "created_at": "2020-07-14T04:05:55Z",
-  "head": "ea73966c3a1e3cb14a06c9c59c1c920410ebb285",
+  "head": "019d49816879fc814097914d3e3ce7c7e1b081ed",
   "login": "leobalter",
   "number": 2094,
   "ref": "2093/putvalue-strict-check",
   "revs": [
    {
-    "adate": "2020-07-30T12:00:18-07:00",
+    "adate": "2020-07-30T12:55:35-07:00",
     "author": "Leo Balter",
-    "date": "2020-07-30T12:01:57-07:00",
-    "hash": "ea73966c3a1e3cb14a06c9c59c1c920410ebb285",
-    "parents": "df428d1e98232c12b21239cec43288c57f97b13e",
-    "subject": "Apply suggestion from code review"
-   },
-   {
-    "adate": "2020-07-14T10:45:06-07:00",
-    "author": "Leo Balter",
-    "date": "2020-07-30T12:01:57-07:00",
-    "hash": "df428d1e98232c12b21239cec43288c57f97b13e",
-    "parents": "db8aa37c1e20ad2833230ceeb02b39001016fc07",
-    "subject": "Normative: Strictness check for object's SetMutableBinding"
-   },
-   {
-    "adate": "2020-07-14T10:36:30-07:00",
-    "author": "Leo Balter",
-    "date": "2020-07-30T12:01:57-07:00",
-    "hash": "db8aa37c1e20ad2833230ceeb02b39001016fc07",
-    "parents": "446cc7aa49df45a285b6ea63217484c107bc30cd",
-    "subject": "Revert \"Normative: Verify if Binding is preserved for PutValue\""
-   },
-   {
-    "adate": "2020-07-13T21:00:12-07:00",
-    "author": "Leo Balter",
-    "date": "2020-07-30T12:01:57-07:00",
-    "hash": "446cc7aa49df45a285b6ea63217484c107bc30cd",
+    "date": "2020-07-30T12:55:35-07:00",
+    "hash": "019d49816879fc814097914d3e3ce7c7e1b081ed",
     "parents": "7efaa50c81d0a43ead0b158697ed1b341f76e76a",
-    "subject": "Normative: Verify if Binding is preserved for PutValue"
+    "subject": "Normative: Verify if Binding is preserved for obj's SetMutableBinding (#2094)"
    }
   ],
   "title": "Normative: Verify if Binding is preserved for obj's SetMutableBinding",
-  "updated_at": "2020-07-30T19:06:05Z"
+  "updated_at": "2020-07-30T19:55:01Z"
  },
  {
   "base": "e08b018785606bc6465a0456a79604b149007932",
