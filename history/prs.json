@@ -268,40 +268,48 @@
   "updated_at": "2020-07-15T16:29:44Z"
  },
  {
-  "base": "f92bc80f39fc0487fd395a471c61151fbfdf9ae2",
+  "base": "7efaa50c81d0a43ead0b158697ed1b341f76e76a",
   "created_at": "2020-07-14T04:05:55Z",
-  "head": "0a0215d52676290b7d6e5bcd8ee05364dd21c393",
+  "head": "ea73966c3a1e3cb14a06c9c59c1c920410ebb285",
   "login": "leobalter",
   "number": 2094,
   "ref": "2093/putvalue-strict-check",
   "revs": [
    {
+    "adate": "2020-07-30T12:00:18-07:00",
+    "author": "Leo Balter",
+    "date": "2020-07-30T12:01:57-07:00",
+    "hash": "ea73966c3a1e3cb14a06c9c59c1c920410ebb285",
+    "parents": "df428d1e98232c12b21239cec43288c57f97b13e",
+    "subject": "Apply suggestion from code review"
+   },
+   {
     "adate": "2020-07-14T10:45:06-07:00",
     "author": "Leo Balter",
-    "date": "2020-07-14T10:53:31-07:00",
-    "hash": "0a0215d52676290b7d6e5bcd8ee05364dd21c393",
-    "parents": "ff93a3e02850c054c05707c0fc051540c31a7f4d",
+    "date": "2020-07-30T12:01:57-07:00",
+    "hash": "df428d1e98232c12b21239cec43288c57f97b13e",
+    "parents": "db8aa37c1e20ad2833230ceeb02b39001016fc07",
     "subject": "Normative: Strictness check for object's SetMutableBinding"
    },
    {
     "adate": "2020-07-14T10:36:30-07:00",
     "author": "Leo Balter",
-    "date": "2020-07-14T10:53:31-07:00",
-    "hash": "ff93a3e02850c054c05707c0fc051540c31a7f4d",
-    "parents": "2cec554dc1122325e4165ea2b235f99ff752d1bd",
+    "date": "2020-07-30T12:01:57-07:00",
+    "hash": "db8aa37c1e20ad2833230ceeb02b39001016fc07",
+    "parents": "446cc7aa49df45a285b6ea63217484c107bc30cd",
     "subject": "Revert \"Normative: Verify if Binding is preserved for PutValue\""
    },
    {
     "adate": "2020-07-13T21:00:12-07:00",
     "author": "Leo Balter",
-    "date": "2020-07-14T10:53:31-07:00",
-    "hash": "2cec554dc1122325e4165ea2b235f99ff752d1bd",
-    "parents": "f92bc80f39fc0487fd395a471c61151fbfdf9ae2",
+    "date": "2020-07-30T12:01:57-07:00",
+    "hash": "446cc7aa49df45a285b6ea63217484c107bc30cd",
+    "parents": "7efaa50c81d0a43ead0b158697ed1b341f76e76a",
     "subject": "Normative: Verify if Binding is preserved for PutValue"
    }
   ],
   "title": "Normative: Verify if Binding is preserved for obj's SetMutableBinding",
-  "updated_at": "2020-07-14T18:01:29Z"
+  "updated_at": "2020-07-30T19:06:05Z"
  },
  {
   "base": "e08b018785606bc6465a0456a79604b149007932",
@@ -786,26 +794,6 @@
   ],
   "title": "Editorial: remove legacy intrinsics",
   "updated_at": "2020-06-24T22:12:20Z"
- },
- {
-  "base": "6f0a88dc1d9f02d16a66aea01aede0253be4a132",
-  "created_at": "2020-06-16T23:36:47Z",
-  "head": "5ad7b0c9b84888b163f2c13a30326b4c7ac3b55a",
-  "login": "rkirsling",
-  "number": 2054,
-  "ref": "sloppy-noctal-escapes",
-  "revs": [
-   {
-    "adate": "2020-06-16T16:11:40-07:00",
-    "author": "Ross Kirsling",
-    "date": "2020-06-16T16:11:40-07:00",
-    "hash": "5ad7b0c9b84888b163f2c13a30326b4c7ac3b55a",
-    "parents": "6f0a88dc1d9f02d16a66aea01aede0253be4a132",
-    "subject": "Specify \\8 and \\9 in sloppy non-template strings."
-   }
-  ],
-  "title": "Specify \\8 and \\9 in sloppy non-template strings.",
-  "updated_at": "2020-06-16T23:45:47Z"
  },
  {
   "base": "8eab6e85cf9f69b41d1d61b49ff5f907e5b0ed41",
