@@ -1,6 +1,26 @@
 [
  {
   "base": "019d49816879fc814097914d3e3ce7c7e1b081ed",
+  "created_at": "2020-08-03T20:40:28Z",
+  "head": "23b6f28b6930989a361955bf1d8bb82991456d51",
+  "login": "ljharb",
+  "number": 2124,
+  "ref": "aggregate_error_proto_intrinsic",
+  "revs": [
+   {
+    "adate": "2020-08-03T13:38:58-07:00",
+    "author": "Jordan Harband",
+    "date": "2020-08-03T13:39:43-07:00",
+    "hash": "23b6f28b6930989a361955bf1d8bb82991456d51",
+    "parents": "019d49816879fc814097914d3e3ce7c7e1b081ed",
+    "subject": "Editorial: remove unused %AggregateErrorPrototype% intrinsic"
+   }
+  ],
+  "title": "Editorial: remove unused %AggregateErrorPrototype% intrinsic",
+  "updated_at": "2020-08-03T20:42:37Z"
+ },
+ {
+  "base": "019d49816879fc814097914d3e3ce7c7e1b081ed",
   "created_at": "2020-08-03T04:35:24Z",
   "head": "eff632513bb681451c4e7ca588f752059c821aea",
   "login": "ryanjduffy",
