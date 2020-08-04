@@ -218,11 +218,19 @@
  {
   "base": "721293e0fff964c4cdd3397fcbc7def1de9f9b4e",
   "created_at": "2020-07-24T22:14:39Z",
-  "head": "245d2d7052b927bb8eff6e055b94a83166a7f244",
+  "head": "6c45aff421737171d858e6361134ad5467506a06",
   "login": "gibson042",
   "number": 2112,
   "ref": "2020-07-CharSet",
   "revs": [
+   {
+    "adate": "2020-08-04T18:43:34-04:00",
+    "author": "Richard Gibson",
+    "date": "2020-08-04T18:43:34-04:00",
+    "hash": "6c45aff421737171d858e6361134ad5467506a06",
+    "parents": "245d2d7052b927bb8eff6e055b94a83166a7f244",
+    "subject": "Editorial: Avoid confusion with 0-based indexing in BackreferenceMatcher and callers"
+   },
    {
     "adate": "2020-08-04T16:00:54-04:00",
     "author": "Richard Gibson",
@@ -273,7 +281,7 @@
    }
   ],
   "title": "Editorial: Improve internal and external consistency of RegExp pattern semantics",
-  "updated_at": "2020-08-04T20:01:03Z"
+  "updated_at": "2020-08-04T22:43:41Z"
  },
  {
   "base": "721293e0fff964c4cdd3397fcbc7def1de9f9b4e",
@@ -1582,11 +1590,27 @@
  {
   "base": "e08b018785606bc6465a0456a79604b149007932",
   "created_at": "2020-05-29T18:54:15Z",
-  "head": "a92ce06464620bfdda14c0af451ff7caf251ec11",
+  "head": "4ff0e2a173a57e597bde17e2ba190f9b2a991554",
   "login": "gibson042",
   "number": 2021,
   "ref": "2020-05-substring-consistency",
   "revs": [
+   {
+    "adate": "2020-08-04T18:34:16-04:00",
+    "author": "Richard Gibson",
+    "date": "2020-08-04T18:34:16-04:00",
+    "hash": "4ff0e2a173a57e597bde17e2ba190f9b2a991554",
+    "parents": "91030e12a2a16e39de3d141c37d866029a0aab99",
+    "subject": "Editorial: DRY out unescape"
+   },
+   {
+    "adate": "2020-08-04T18:33:34-04:00",
+    "author": "Richard Gibson",
+    "date": "2020-08-04T18:33:34-04:00",
+    "hash": "91030e12a2a16e39de3d141c37d866029a0aab99",
+    "parents": "a92ce06464620bfdda14c0af451ff7caf251ec11",
+    "subject": "Editorial: Substring consistency for unescape"
+   },
    {
     "adate": "2020-07-09T21:34:17-04:00",
     "author": "Richard Gibson",
@@ -1669,7 +1693,7 @@
    }
   ],
   "title": "Editorial: Use consistent language for extracting substrings",
-  "updated_at": "2020-07-10T01:49:40Z"
+  "updated_at": "2020-08-04T22:34:25Z"
  },
  {
   "base": "32fe1a621c485080f6e1a1c0cc13a772b3f601bd",
