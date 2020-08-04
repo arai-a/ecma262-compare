@@ -22,11 +22,27 @@
  {
   "base": "019d49816879fc814097914d3e3ce7c7e1b081ed",
   "created_at": "2020-08-03T04:35:24Z",
-  "head": "eff632513bb681451c4e7ca588f752059c821aea",
+  "head": "a6dcfdaf8b84363ba07b45ba6a7330be2f2c73da",
   "login": "ryanjduffy",
   "number": 2122,
   "ref": "math-2119",
   "revs": [
+   {
+    "adate": "2020-08-03T21:45:37-07:00",
+    "author": "Ryan Duffy",
+    "date": "2020-08-03T21:45:37-07:00",
+    "hash": "a6dcfdaf8b84363ba07b45ba6a7330be2f2c73da",
+    "parents": "6a36a58e51cff6ba4a7b3126ab3d0ad9e5208c4e",
+    "subject": "clean up"
+   },
+   {
+    "adate": "2020-08-03T21:39:33-07:00",
+    "author": "Ryan Duffy",
+    "date": "2020-08-03T21:39:33-07:00",
+    "hash": "6a36a58e51cff6ba4a7b3126ab3d0ad9e5208c4e",
+    "parents": "eff632513bb681451c4e7ca588f752059c821aea",
+    "subject": "convert hypot through trunc"
+   },
    {
     "adate": "2020-08-03T09:23:15-07:00",
     "author": "Ryan Duffy",
@@ -61,7 +77,7 @@
    }
   ],
   "title": "Define Math functions using algorithm steps",
-  "updated_at": "2020-08-03T16:23:20Z"
+  "updated_at": "2020-08-04T04:45:42Z"
  },
  {
   "base": "019d49816879fc814097914d3e3ce7c7e1b081ed",
@@ -1808,120 +1824,24 @@
   "updated_at": "2020-05-26T21:15:58Z"
  },
  {
-  "base": "6f0a88dc1d9f02d16a66aea01aede0253be4a132",
+  "base": "019d49816879fc814097914d3e3ce7c7e1b081ed",
   "created_at": "2020-05-22T17:36:53Z",
-  "head": "75e084454b3465e9cae209071e2bac1591cc55d3",
+  "head": "b324ac18dae9cde5d8f2a04c502dd046fd24cd2c",
   "login": "caiolima",
   "number": 2007,
   "ref": "mathematical-values-fix",
   "revs": [
    {
-    "adate": "2020-06-17T15:16:36-03:00",
-    "author": "Caio Lima",
-    "date": "2020-06-17T15:16:36-03:00",
-    "hash": "75e084454b3465e9cae209071e2bac1591cc55d3",
-    "parents": "eea2c9b956195cf7d8064bf354389c77cedc9a9b",
-    "subject": "Adjusting BigInt literals and Abstract Operations"
-   },
-   {
-    "adate": "2020-06-17T12:56:34-03:00",
-    "author": "Caio Lima",
-    "date": "2020-06-17T12:56:34-03:00",
-    "hash": "eea2c9b956195cf7d8064bf354389c77cedc9a9b",
-    "parents": "9f877a92b865676da82a8160f72a1190ce12a80e 6f0a88dc1d9f02d16a66aea01aede0253be4a132",
-    "subject": "Merge with master"
-   },
-   {
-    "adate": "2020-06-17T12:50:12-03:00",
-    "author": "Caio Lima",
-    "date": "2020-06-17T12:50:12-03:00",
-    "hash": "9f877a92b865676da82a8160f72a1190ce12a80e",
-    "parents": "fd71886827ebc127a0f19013f3a18decffacce70",
-    "subject": "Adjusting TypedArray and Array internal slots to use MV"
-   },
-   {
-    "adate": "2020-06-16T18:17:13-03:00",
-    "author": "Caio Lima",
-    "date": "2020-06-16T18:17:13-03:00",
-    "hash": "fd71886827ebc127a0f19013f3a18decffacce70",
-    "parents": "912edba507b418725e7c56f30aca7323ebedc771",
-    "subject": "Addressing remaining changes from michaelficarra's review"
-   },
-   {
-    "adate": "2020-06-10T12:03:28-03:00",
-    "author": "Caio Lima",
-    "date": "2020-06-10T12:03:28-03:00",
-    "hash": "912edba507b418725e7c56f30aca7323ebedc771",
-    "parents": "56d0853a02091f14ba49d2c511abe7245226ae73",
-    "subject": "Removing remaining usage of 'is zero'"
-   },
-   {
-    "adate": "2020-06-10T11:29:15-03:00",
-    "author": "Caio Lima",
-    "date": "2020-06-10T11:29:15-03:00",
-    "hash": "56d0853a02091f14ba49d2c511abe7245226ae73",
-    "parents": "5fa06130ba5651276f04f3cb8783cdfddc94394b",
-    "subject": "Adding sbscript into +0 and -0. Removing mathematical value subscript and addressing some review comments"
-   },
-   {
-    "adate": "2020-06-04T11:35:38-03:00",
-    "author": "Caio Lima",
-    "date": "2020-06-04T11:35:38-03:00",
-    "hash": "5fa06130ba5651276f04f3cb8783cdfddc94394b",
-    "parents": "2dad42da23fb42a0e21f2c3cc3e738837d456da2",
-    "subject": "Removing subscript of operators and removing all comparisons using '+0' as operand"
-   },
-   {
-    "adate": "2020-05-27T15:30:39-03:00",
-    "author": "Caio Lima",
-    "date": "2020-05-27T15:30:39-03:00",
-    "hash": "2dad42da23fb42a0e21f2c3cc3e738837d456da2",
-    "parents": "1d16205e1c4d3f315f4bcbe60922d8ac24e37d54",
-    "subject": "Fixing some indexes usage to use MV instead of MV to avoid infinity loop"
-   },
-   {
-    "adate": "2020-05-27T13:54:10-03:00",
-    "author": "Caio Lima",
-    "date": "2020-05-27T13:54:10-03:00",
-    "hash": "1d16205e1c4d3f315f4bcbe60922d8ac24e37d54",
-    "parents": "c402bb317bc1bf47ea14e6eb2a97bd768e5fa0c3",
-    "subject": "Difining min, max, abs and floor only on mathematical value values"
-   },
-   {
-    "adate": "2020-05-26T15:45:06-03:00",
-    "author": "Caio Lima",
-    "date": "2020-05-26T15:45:06-03:00",
-    "hash": "c402bb317bc1bf47ea14e6eb2a97bd768e5fa0c3",
-    "parents": "e72abdf83fa51fbb6246ea7883fb5c7cc3f1a913",
-    "subject": "Adjusting type usage of '+' operator"
-   },
-   {
-    "adate": "2020-05-26T11:16:07-03:00",
-    "author": "Caio Lima",
-    "date": "2020-05-26T11:42:39-03:00",
-    "hash": "e72abdf83fa51fbb6246ea7883fb5c7cc3f1a913",
-    "parents": "9068aefb5e7d916916590a487c527fc4ef02fc7b",
-    "subject": "Defining and using 'integral Number'"
-   },
-   {
-    "adate": "2020-05-25T16:18:17-03:00",
-    "author": "Caio Lima",
-    "date": "2020-05-25T16:18:17-03:00",
-    "hash": "9068aefb5e7d916916590a487c527fc4ef02fc7b",
-    "parents": "a14ccc2a86b2ea1de82bc20ef822a86a043e9fe1",
-    "subject": "WIP - Removing subscript from 0 and using '+0' and '-0' instead"
-   },
-   {
     "adate": "2020-04-27T15:59:38-03:00",
     "author": "Caio Lima",
-    "date": "2020-05-22T14:37:42-03:00",
-    "hash": "a14ccc2a86b2ea1de82bc20ef822a86a043e9fe1",
-    "parents": "fc8964ff2cbbaf6c4c2b2e1f448508ec5a63db40",
+    "date": "2020-08-03T21:56:43-07:00",
+    "hash": "b324ac18dae9cde5d8f2a04c502dd046fd24cd2c",
+    "parents": "019d49816879fc814097914d3e3ce7c7e1b081ed",
     "subject": "Changing the default numeric type to be mathematical values"
    }
   ],
   "title": "Editorial: Make numeric values and operations default to mathematical values",
-  "updated_at": "2020-06-17T18:16:51Z"
+  "updated_at": "2020-08-04T04:59:12Z"
  },
  {
   "base": "bd868f20b8c574ad6689fba014b62a1dba819e56",
