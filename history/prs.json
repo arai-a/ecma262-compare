@@ -460,114 +460,6 @@
   "updated_at": "2020-07-13T15:22:51Z"
  },
  {
-  "base": "56032d3271949f2892745d4a8e06d1322ba7220d",
-  "created_at": "2020-07-10T07:47:55Z",
-  "head": "fe678043a1252623c36364741958936456213133",
-  "login": "codehag",
-  "number": 2089,
-  "ref": "weakrefs-sans-cleanupsome",
-  "revs": [
-   {
-    "adate": "2020-07-28T10:14:50+02:00",
-    "author": "codehag",
-    "date": "2020-07-28T10:14:50+02:00",
-    "hash": "fe678043a1252623c36364741958936456213133",
-    "parents": "e42c51a8ca7a30506324e21fe050ef531a983bdd",
-    "subject": "add finalization-registry and weakref to constructor  properties of the global object"
-   },
-   {
-    "adate": "2020-07-27T10:47:08+02:00",
-    "author": "codehag",
-    "date": "2020-07-27T10:47:08+02:00",
-    "hash": "e42c51a8ca7a30506324e21fe050ef531a983bdd",
-    "parents": "1382789247f7f01017553e546e197be037594f9e",
-    "subject": "address comments regarding  AO WeakRefDeref"
-   },
-   {
-    "adate": "2020-07-24T13:22:55+02:00",
-    "author": "codehag",
-    "date": "2020-07-24T13:22:55+02:00",
-    "hash": "1382789247f7f01017553e546e197be037594f9e",
-    "parents": "00035151ed3c28a48dcbff2188137568e02e235f",
-    "subject": "address nit"
-   },
-   {
-    "adate": "2020-07-24T11:37:56+02:00",
-    "author": "codehag",
-    "date": "2020-07-24T11:37:56+02:00",
-    "hash": "00035151ed3c28a48dcbff2188137568e02e235f",
-    "parents": "18f779df624ea6fac30895cb720e4f48eb441f70",
-    "subject": "first draft AO for weakref.prototype.deref"
-   },
-   {
-    "adate": "2020-07-20T11:17:54+02:00",
-    "author": "codehag",
-    "date": "2020-07-20T11:21:56+02:00",
-    "hash": "18f779df624ea6fac30895cb720e4f48eb441f70",
-    "parents": "1a5e1bf2ca17420fd4ca5ec4bc6b96f346c0e0ac",
-    "subject": "address round 3 comments from @bakkot"
-   },
-   {
-    "adate": "2020-07-15T21:17:20+02:00",
-    "author": "codehag",
-    "date": "2020-07-20T11:18:10+02:00",
-    "hash": "1a5e1bf2ca17420fd4ca5ec4bc6b96f346c0e0ac",
-    "parents": "1528e824581426ccb743503e8a70c39c5a108e65",
-    "subject": "word smithing"
-   },
-   {
-    "adate": "2020-07-15T18:15:10+02:00",
-    "author": "codehag",
-    "date": "2020-07-20T11:18:10+02:00",
-    "hash": "1528e824581426ccb743503e8a70c39c5a108e65",
-    "parents": "56dbcd5ea75ca6964f839347372f6ce71a72dfbd",
-    "subject": "address comments from @bakkot p2"
-   },
-   {
-    "adate": "2020-07-15T11:15:50+02:00",
-    "author": "codehag",
-    "date": "2020-07-20T11:18:10+02:00",
-    "hash": "56dbcd5ea75ca6964f839347372f6ce71a72dfbd",
-    "parents": "0c3a3c2c92e960e000dca054b5cc5f015add9e6f",
-    "subject": "address @bakkot's comments"
-   },
-   {
-    "adate": "2020-07-14T13:57:15+02:00",
-    "author": "codehag",
-    "date": "2020-07-20T11:18:10+02:00",
-    "hash": "0c3a3c2c92e960e000dca054b5cc5f015add9e6f",
-    "parents": "3292a17326739a853dc321d407d72e40d71e1da5",
-    "subject": "round 3 comments"
-   },
-   {
-    "adate": "2020-07-13T15:13:05+02:00",
-    "author": "codehag",
-    "date": "2020-07-20T11:18:10+02:00",
-    "hash": "3292a17326739a853dc321d407d72e40d71e1da5",
-    "parents": "ac251cf07e5fbd58338d77a977eaa4e911a917d9",
-    "subject": "second round of comments"
-   },
-   {
-    "adate": "2020-07-11T11:14:02+02:00",
-    "author": "codehag",
-    "date": "2020-07-20T11:18:10+02:00",
-    "hash": "ac251cf07e5fbd58338d77a977eaa4e911a917d9",
-    "parents": "1755c7ab5a09865afa991f466dd42325ccb20d0f",
-    "subject": "address initial comments and fix paragraphs"
-   },
-   {
-    "adate": "2020-07-08T16:35:05+02:00",
-    "author": "codehag",
-    "date": "2020-07-20T11:18:10+02:00",
-    "hash": "1755c7ab5a09865afa991f466dd42325ccb20d0f",
-    "parents": "56032d3271949f2892745d4a8e06d1322ba7220d",
-    "subject": "Normative: Add Weakrefs and FinalizationRegistry"
-   }
-  ],
-  "title": "Normative: Add Weakrefs and FinalizationRegistry",
-  "updated_at": "2020-07-28T08:15:01Z"
- },
- {
   "base": "a0452b6c659bbcf32b2fb48d6055399089edd3b7",
   "created_at": "2020-07-09T01:38:44Z",
   "head": "16a2c0b5eff634404ee31274b6512d9ecdbfa56c",
@@ -864,24 +756,24 @@
   "updated_at": "2020-07-06T01:28:50Z"
  },
  {
-  "base": "721293e0fff964c4cdd3397fcbc7def1de9f9b4e",
+  "base": "552407b105696bafa4e641bf2f5db61ad39c65ab",
   "created_at": "2020-06-24T23:18:34Z",
-  "head": "d367d31c53cdb3949835aea8b57a9833d5ab023c",
+  "head": "61f609acfe97554fbdb993d52eef2a0f9dc74ad8",
   "login": "ljharb",
   "number": 2065,
   "ref": "degenerate",
   "revs": [
    {
-    "adate": "2020-07-26T10:53:37-07:00",
+    "adate": "2020-08-05T15:31:55-07:00",
     "author": "Jordan Harband",
-    "date": "2020-07-26T10:53:37-07:00",
-    "hash": "d367d31c53cdb3949835aea8b57a9833d5ab023c",
-    "parents": "721293e0fff964c4cdd3397fcbc7def1de9f9b4e",
+    "date": "2020-08-05T15:31:55-07:00",
+    "hash": "61f609acfe97554fbdb993d52eef2a0f9dc74ad8",
+    "parents": "552407b105696bafa4e641bf2f5db61ad39c65ab",
     "subject": "Editorial: remove `%Generator%` and `%AsyncGenerator%` in favor of dotted forms (#2065)"
    }
   ],
   "title": "Editorial: remove `%Generator%` and `%AsyncGenerator%` in favor of dotted forms",
-  "updated_at": "2020-07-26T18:05:51Z"
+  "updated_at": "2020-08-05T22:32:45Z"
  },
  {
   "base": "721293e0fff964c4cdd3397fcbc7def1de9f9b4e",
@@ -2178,26 +2070,6 @@
   ],
   "title": "Editorial: Unambiguous grammar for IfStatement",
   "updated_at": "2020-06-17T23:52:08Z"
- },
- {
-  "base": "721293e0fff964c4cdd3397fcbc7def1de9f9b4e",
-  "created_at": "2020-04-14T16:16:28Z",
-  "head": "7dd854e7e785e04c662881f27a3386a2aecdb8b1",
-  "login": "devsnek",
-  "number": 1948,
-  "ref": "fix-func-tostring",
-  "revs": [
-   {
-    "adate": "2020-04-15T13:24:27-05:00",
-    "author": "Gus Caplan",
-    "date": "2020-07-25T19:12:04-05:00",
-    "hash": "7dd854e7e785e04c662881f27a3386a2aecdb8b1",
-    "parents": "69f53492cf8e735c84f8f859b930576c4ce9251b",
-    "subject": "Normative: fix Function toString on builtins"
-   }
-  ],
-  "title": "Normative: fix Function toString on builtins",
-  "updated_at": "2020-07-26T00:27:23Z"
  },
  {
   "base": "980e1ccf1d37a3c890dc5fe5a36275710459c122",
