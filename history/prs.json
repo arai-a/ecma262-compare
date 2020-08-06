@@ -184,24 +184,24 @@
   "updated_at": "2020-07-30T21:46:04Z"
  },
  {
-  "base": "721293e0fff964c4cdd3397fcbc7def1de9f9b4e",
+  "base": "cb3a24d910c8a7ac62ee7b2883e4b2ce54b18add",
   "created_at": "2020-07-28T10:58:41Z",
-  "head": "464b5971981725cfe5b78e41abdaeaca2592c668",
+  "head": "429cc477d6e9b388941396335ca70cc7890f10b5",
   "login": "EB-Forks",
   "number": 2115,
   "ref": "editorial/create-builtin-function/fix-internal-slots-list-param",
   "revs": [
    {
-    "adate": "2020-07-28T13:10:00+02:00",
+    "adate": "2020-08-06T20:10:00+02:00",
     "author": "ExE Boss",
-    "date": "2020-07-28T13:09:07+02:00",
-    "hash": "464b5971981725cfe5b78e41abdaeaca2592c668",
-    "parents": "721293e0fff964c4cdd3397fcbc7def1de9f9b4e",
+    "date": "2020-08-06T20:14:01+02:00",
+    "hash": "429cc477d6e9b388941396335ca70cc7890f10b5",
+    "parents": "cb3a24d910c8a7ac62ee7b2883e4b2ce54b18add",
     "subject": "Editorial: Fix\u00a0`internalSlotsList`\u00a0parameter of\u00a0`CreateBuiltinFunction`"
    }
   ],
   "title": "Editorial: Fix\u00a0`internalSlotsList`\u00a0parameter of\u00a0`CreateBuiltinFunction`",
-  "updated_at": "2020-07-28T11:08:04Z"
+  "updated_at": "2020-08-06T18:13:17Z"
  },
  {
   "base": "721293e0fff964c4cdd3397fcbc7def1de9f9b4e",
@@ -428,128 +428,24 @@
   "updated_at": "2020-07-13T15:22:51Z"
  },
  {
-  "base": "a0452b6c659bbcf32b2fb48d6055399089edd3b7",
+  "base": "cb3a24d910c8a7ac62ee7b2883e4b2ce54b18add",
   "created_at": "2020-07-09T01:38:44Z",
-  "head": "16a2c0b5eff634404ee31274b6512d9ecdbfa56c",
+  "head": "e08a3ee38d76cce567cfc63e945668c53d4b0f49",
   "login": "syg",
   "number": 2086,
   "ref": "incumbent-host-hooks",
   "revs": [
    {
-    "adate": "2020-07-29T16:53:56-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-07-29T16:53:56-07:00",
-    "hash": "16a2c0b5eff634404ee31274b6512d9ecdbfa56c",
-    "parents": "5d7042e24628dbb237a71bcf06bfd66db302f920",
-    "subject": "Address ljharb review"
-   },
-   {
-    "adate": "2020-07-21T17:16:37-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-07-21T17:16:37-07:00",
-    "hash": "5d7042e24628dbb237a71bcf06bfd66db302f920",
-    "parents": "749e5dbd014cf481b7401d875febbf773f060efb",
-    "subject": "Ouxfourd spelling"
-   },
-   {
-    "adate": "2020-07-21T16:49:41-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-07-21T16:53:23-07:00",
-    "hash": "749e5dbd014cf481b7401d875febbf773f060efb",
-    "parents": "cca8cc3e1879418f0a5c268b55bc4a75a3bf6d14",
-    "subject": "Restrict job callback hooks to web browsers"
-   },
-   {
-    "adate": "2020-07-13T10:03:22-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-07-21T16:53:23-07:00",
-    "hash": "cca8cc3e1879418f0a5c268b55bc4a75a3bf6d14",
-    "parents": "21c5fc9ac57a8baf17a37b729d6da26b3ac5418d",
-    "subject": "Add ? back to default implementation"
-   },
-   {
-    "adate": "2020-07-10T18:22:23-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-07-21T16:53:23-07:00",
-    "hash": "21c5fc9ac57a8baf17a37b729d6da26b3ac5418d",
-    "parents": "542f5502dfc23997f51e9cb0ef11934b8cfd66f4",
-    "subject": "Remove extraneous ?s"
-   },
-   {
-    "adate": "2020-07-09T16:47:46-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-07-21T16:53:23-07:00",
-    "hash": "542f5502dfc23997f51e9cb0ef11934b8cfd66f4",
-    "parents": "d4ba103f735c4ade379c228b25d1c21e7aed8b4c",
-    "subject": "Make argumentsList required in HostCallJobCallback and add convenience wrapper CallJobCallback"
-   },
-   {
-    "adate": "2020-07-09T13:15:53-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-07-21T16:53:23-07:00",
-    "hash": "d4ba103f735c4ade379c228b25d1c21e7aed8b4c",
-    "parents": "194a5dd88def19e8e06f8fa4362141ef526cbb5a",
-    "subject": "Clarify that HostCallJobCallback must perform the Call, side effects and all, not just oracle the result"
-   },
-   {
-    "adate": "2020-07-09T12:54:38-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-07-21T16:53:22-07:00",
-    "hash": "194a5dd88def19e8e06f8fa4362141ef526cbb5a",
-    "parents": "ad4e6dce13ef2e82b6c6657b4a7a6c67970342a2",
-    "subject": "Fix aoids, lint error"
-   },
-   {
-    "adate": "2020-07-09T12:43:32-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-07-21T16:53:22-07:00",
-    "hash": "ad4e6dce13ef2e82b6c6657b4a7a6c67970342a2",
-    "parents": "8a47dbd6dbc151756199efa2b2ddda99f067f0c7",
-    "subject": "Remove references to \"ambient context\""
-   },
-   {
-    "adate": "2020-07-09T12:42:59-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-07-21T16:53:22-07:00",
-    "hash": "8a47dbd6dbc151756199efa2b2ddda99f067f0c7",
-    "parents": "fd1875266a7558a251aa9046f0a4d13a084e4f9b",
-    "subject": "Rework into HostMakeJobCallback and HostCallJobCallback"
-   },
-   {
-    "adate": "2020-07-08T18:41:51-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-07-21T16:53:22-07:00",
-    "hash": "fd1875266a7558a251aa9046f0a4d13a084e4f9b",
-    "parents": "af65d62e58bfd63dd4a1d1dd898178b6f4271e95",
-    "subject": "More typos"
-   },
-   {
-    "adate": "2020-07-08T18:40:06-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-07-21T16:53:22-07:00",
-    "hash": "af65d62e58bfd63dd4a1d1dd898178b6f4271e95",
-    "parents": "6fc576a175287f737ce890544e8f59e0e67058ca",
-    "subject": "Typo"
-   },
-   {
-    "adate": "2020-07-08T18:39:33-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-07-21T16:53:21-07:00",
-    "hash": "6fc576a175287f737ce890544e8f59e0e67058ca",
-    "parents": "294ae89aec22fea430318bd4ee54e6808ed5832c",
-    "subject": "Promise.then -> Promise.prototype.then"
-   },
-   {
     "adate": "2020-07-08T18:34:43-07:00",
     "author": "Shu-yu Guo",
-    "date": "2020-07-21T16:53:21-07:00",
-    "hash": "294ae89aec22fea430318bd4ee54e6808ed5832c",
-    "parents": "a0452b6c659bbcf32b2fb48d6055399089edd3b7",
+    "date": "2020-08-06T11:11:12-07:00",
+    "hash": "e08a3ee38d76cce567cfc63e945668c53d4b0f49",
+    "parents": "cb3a24d910c8a7ac62ee7b2883e4b2ce54b18add",
     "subject": "Add machinery to track the incumbent settings object in HTML for Job callbacks"
    }
   ],
   "title": "Add machinery to track the incumbent settings object in HTML for Job callbacks",
-  "updated_at": "2020-07-29T23:54:22Z"
+  "updated_at": "2020-08-06T18:12:40Z"
  },
  {
   "base": "e08b018785606bc6465a0456a79604b149007932",
