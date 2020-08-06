@@ -1,25 +1,5 @@
 [
  {
-  "base": "cb3a24d910c8a7ac62ee7b2883e4b2ce54b18add",
-  "created_at": "2020-08-06T05:11:42Z",
-  "head": "42aba68815e481e5f11ad413d36f8e2f7ed0e39e",
-  "login": "h2oche",
-  "number": 2127,
-  "ref": "trv",
-  "revs": [
-   {
-    "adate": "2020-08-06T13:40:49+09:00",
-    "author": "h2oche",
-    "date": "2020-08-06T13:44:52+09:00",
-    "hash": "42aba68815e481e5f11ad413d36f8e2f7ed0e39e",
-    "parents": "552407b105696bafa4e641bf2f5db61ad39c65ab",
-    "subject": "Normative: Add missing case in 'Static Semantics: TV and TRV'"
-   }
-  ],
-  "title": "Normative: Add missing case in 'Static Semantics: TV and TRV'",
-  "updated_at": "2020-08-06T05:29:09Z"
- },
- {
   "base": "019d49816879fc814097914d3e3ce7c7e1b081ed",
   "created_at": "2020-08-05T00:10:45Z",
   "head": "3572cef24ccbe1ed705d53a2d398d76e9bbd83a4",
@@ -60,13 +40,21 @@
   "updated_at": "2020-08-03T20:42:37Z"
  },
  {
-  "base": "019d49816879fc814097914d3e3ce7c7e1b081ed",
+  "base": "cb3a24d910c8a7ac62ee7b2883e4b2ce54b18add",
   "created_at": "2020-08-03T04:35:24Z",
-  "head": "a6dcfdaf8b84363ba07b45ba6a7330be2f2c73da",
+  "head": "69b42b09c6f96b6dc7ddc02f0d1748943bec4e7a",
   "login": "ryanjduffy",
   "number": 2122,
   "ref": "math-2119",
   "revs": [
+   {
+    "adate": "2020-08-06T10:50:18-07:00",
+    "author": "Ryan Duffy",
+    "date": "2020-08-06T10:50:18-07:00",
+    "hash": "69b42b09c6f96b6dc7ddc02f0d1748943bec4e7a",
+    "parents": "a6dcfdaf8b84363ba07b45ba6a7330be2f2c73da cb3a24d910c8a7ac62ee7b2883e4b2ce54b18add",
+    "subject": "Merge remote-tracking branch 'upstream/master' into math-2119"
+   },
    {
     "adate": "2020-08-03T21:45:37-07:00",
     "author": "Ryan Duffy",
@@ -117,7 +105,7 @@
    }
   ],
   "title": "Define Math functions using algorithm steps",
-  "updated_at": "2020-08-04T04:45:42Z"
+  "updated_at": "2020-08-06T17:50:28Z"
  },
  {
   "base": "019d49816879fc814097914d3e3ce7c7e1b081ed",
@@ -1904,72 +1892,80 @@
   "updated_at": "2020-05-10T04:52:04Z"
  },
  {
-  "base": "855093b06eaa8008ab6af99ea77880c45d49e50b",
+  "base": "cb3a24d910c8a7ac62ee7b2883e4b2ce54b18add",
   "created_at": "2020-05-07T22:54:50Z",
-  "head": "200c743a05e2752c26966cca87c3fb4cc5a844c4",
+  "head": "24a84138a73daff23cf756315dedcdb684b67f01",
   "login": "syg",
   "number": 1984,
   "ref": "promise-job-invariants",
   "revs": [
    {
+    "adate": "2020-08-06T10:42:53-07:00",
+    "author": "Shu-yu Guo",
+    "date": "2020-08-06T10:42:53-07:00",
+    "hash": "24a84138a73daff23cf756315dedcdb684b67f01",
+    "parents": "0482883eb2323f99c38388f01e8dbb2f90072a76",
+    "subject": "Address ljharb review 2"
+   },
+   {
     "adate": "2020-07-09T17:06:05-07:00",
     "author": "Shu-yu Guo",
-    "date": "2020-07-09T17:06:05-07:00",
-    "hash": "200c743a05e2752c26966cca87c3fb4cc5a844c4",
-    "parents": "e43530a86ea64c2576ad54b06b8b5aeea11607ae",
+    "date": "2020-08-06T10:42:19-07:00",
+    "hash": "0482883eb2323f99c38388f01e8dbb2f90072a76",
+    "parents": "9b3fc7eb5cfdd7614899bab6ec0093af6871e85d",
     "subject": "Address ljharb review"
    },
    {
     "adate": "2020-06-29T16:36:08-07:00",
     "author": "Shu-yu Guo",
-    "date": "2020-06-29T16:36:08-07:00",
-    "hash": "e43530a86ea64c2576ad54b06b8b5aeea11607ae",
-    "parents": "47366666bb5a072326bf05850114921497023bf6",
+    "date": "2020-08-06T10:41:53-07:00",
+    "hash": "9b3fc7eb5cfdd7614899bab6ec0093af6871e85d",
+    "parents": "27ae8a4ac43a7f7886106ed76b8b3652349844c0",
     "subject": "Address Kevin's review round 2"
    },
    {
     "adate": "2020-06-29T16:05:41-07:00",
     "author": "Shu-yu Guo",
-    "date": "2020-06-29T16:05:41-07:00",
-    "hash": "47366666bb5a072326bf05850114921497023bf6",
-    "parents": "78cbeb451aa13d2ba5c403a82c7f1f546052a105",
+    "date": "2020-08-06T10:40:58-07:00",
+    "hash": "27ae8a4ac43a7f7886106ed76b8b3652349844c0",
+    "parents": "977e85be40d8e585c07d7a12c50db1a013c7c57b",
     "subject": "Address Kevin's review"
    },
    {
     "adate": "2020-06-10T15:12:49-07:00",
     "author": "Shu-yu Guo",
-    "date": "2020-06-10T16:11:29-07:00",
-    "hash": "78cbeb451aa13d2ba5c403a82c7f1f546052a105",
-    "parents": "fd1cd60d21bd952b320d40591bccd229065f2ad1",
+    "date": "2020-08-06T10:40:11-07:00",
+    "hash": "977e85be40d8e585c07d7a12c50db1a013c7c57b",
+    "parents": "8b16c7c59489b14e75e4e273361807028c3f4f9a",
     "subject": "Address review"
    },
    {
     "adate": "2020-05-13T17:23:41-07:00",
     "author": "Shu-yu Guo",
-    "date": "2020-06-10T14:19:37-07:00",
-    "hash": "fd1cd60d21bd952b320d40591bccd229065f2ad1",
-    "parents": "1d5713314fea58902fa2bb66cde975be28d2e5dc",
+    "date": "2020-08-06T10:38:52-07:00",
+    "hash": "8b16c7c59489b14e75e4e273361807028c3f4f9a",
+    "parents": "b7a3a6876d0dfae57aaeba2528d3dca32c1ad698",
     "subject": "Make the active script or module propagation more constrained per discussion with ljharb"
    },
    {
     "adate": "2020-05-08T15:04:08-07:00",
     "author": "Shu-yu Guo",
-    "date": "2020-06-10T14:19:37-07:00",
-    "hash": "1d5713314fea58902fa2bb66cde975be28d2e5dc",
-    "parents": "df61f986d992125d9a3327a735c6a0dd3f706bd6",
+    "date": "2020-08-06T10:38:51-07:00",
+    "hash": "b7a3a6876d0dfae57aaeba2528d3dca32c1ad698",
+    "parents": "b71d9e9de6c89bbeab850c11789f1d930214d786",
     "subject": "Fix error creation for revoked Proxies; separate out active script propagation"
    },
    {
     "adate": "2020-05-07T15:14:28-07:00",
     "author": "Shu-yu Guo",
-    "date": "2020-06-10T14:19:37-07:00",
-    "hash": "df61f986d992125d9a3327a735c6a0dd3f706bd6",
-    "parents": "855093b06eaa8008ab6af99ea77880c45d49e50b",
+    "date": "2020-08-06T10:37:54-07:00",
+    "hash": "b71d9e9de6c89bbeab850c11789f1d930214d786",
+    "parents": "cb3a24d910c8a7ac62ee7b2883e4b2ce54b18add",
     "subject": "Layering: Refine execution context requirements for Jobs"
    }
   ],
   "title": "Layering: Refine execution context requirements for Jobs",
-  "updated_at": "2020-07-10T00:06:21Z"
+  "updated_at": "2020-08-06T17:43:18Z"
  },
  {
   "base": "0b988b7700de675331ac360d164c978d6ea452ec",
