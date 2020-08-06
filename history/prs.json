@@ -1,5 +1,25 @@
 [
  {
+  "base": "cb3a24d910c8a7ac62ee7b2883e4b2ce54b18add",
+  "created_at": "2020-08-06T05:11:42Z",
+  "head": "42aba68815e481e5f11ad413d36f8e2f7ed0e39e",
+  "login": "h2oche",
+  "number": 2127,
+  "ref": "trv",
+  "revs": [
+   {
+    "adate": "2020-08-06T13:40:49+09:00",
+    "author": "h2oche",
+    "date": "2020-08-06T13:44:52+09:00",
+    "hash": "42aba68815e481e5f11ad413d36f8e2f7ed0e39e",
+    "parents": "552407b105696bafa4e641bf2f5db61ad39c65ab",
+    "subject": "Normative: Add missing case in 'Static Semantics: TV and TRV'"
+   }
+  ],
+  "title": "Normative: Add missing case in 'Static Semantics: TV and TRV'",
+  "updated_at": "2020-08-06T05:29:09Z"
+ },
+ {
   "base": "019d49816879fc814097914d3e3ce7c7e1b081ed",
   "created_at": "2020-08-05T00:10:45Z",
   "head": "3572cef24ccbe1ed705d53a2d398d76e9bbd83a4",
@@ -98,26 +118,6 @@
   ],
   "title": "Define Math functions using algorithm steps",
   "updated_at": "2020-08-04T04:45:42Z"
- },
- {
-  "base": "019d49816879fc814097914d3e3ce7c7e1b081ed",
-  "created_at": "2020-08-01T02:04:55Z",
-  "head": "5c68c295b0d5de4076359becb640146ab08a0fed",
-  "login": "tc39",
-  "number": 2121,
-  "ref": "iterator-named-eval",
-  "revs": [
-   {
-    "adate": "2020-07-31T18:58:05-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2020-07-31T18:58:05-07:00",
-    "hash": "5c68c295b0d5de4076359becb640146ab08a0fed",
-    "parents": "019d49816879fc814097914d3e3ce7c7e1b081ed",
-    "subject": "Editorial: reference correct nonterminals in IteratorDestructuringAssignmentEvaluation"
-   }
-  ],
-  "title": "Editorial: reference correct nonterminals in IteratorDestructuringAssignmentEvaluation",
-  "updated_at": "2020-08-01T02:04:55Z"
  },
  {
   "base": "019d49816879fc814097914d3e3ce7c7e1b081ed",
@@ -302,26 +302,6 @@
   ],
   "title": "Editorial: Improve internal and external consistency of RegExp pattern semantics",
   "updated_at": "2020-08-04T22:43:41Z"
- },
- {
-  "base": "721293e0fff964c4cdd3397fcbc7def1de9f9b4e",
-  "created_at": "2020-07-24T16:33:37Z",
-  "head": "123f3b42914e394aac92f8c665652681f1828063",
-  "login": "EB-Forks",
-  "number": 2111,
-  "ref": "editorial/annex-b/regexp-prototype-compile/use-requireinternalslot",
-  "revs": [
-   {
-    "adate": "2020-07-24T18:30:00+02:00",
-    "author": "ExE Boss",
-    "date": "2020-07-24T18:33:15+02:00",
-    "hash": "123f3b42914e394aac92f8c665652681f1828063",
-    "parents": "721293e0fff964c4cdd3397fcbc7def1de9f9b4e",
-    "subject": "Editorial: Use\u00a0`RequireInternalSlot` in\u00a0`RegExp.prototype.compile`"
-   }
-  ],
-  "title": "Editorial: Use\u00a0`RequireInternalSlot` in\u00a0`RegExp.prototype.compile`",
-  "updated_at": "2020-07-24T16:33:37Z"
  },
  {
   "base": "721293e0fff964c4cdd3397fcbc7def1de9f9b4e",
