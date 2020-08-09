@@ -4234,11 +4234,19 @@
  {
   "base": "397b9d93e8614795cbb18fdebb1e67d19f27a3dd",
   "created_at": "2018-06-15T15:57:42Z",
-  "head": "0a8bd8e4b5ce5d846c63aab435576abcffdbce73",
+  "head": "791ac778a74a42502e3001205d1421c74238f0ac",
   "login": "tc39",
   "number": 1228,
   "ref": "pow-nans-ieee-754-2008-note",
   "revs": [
+   {
+    "adate": "2020-08-09T15:46:37-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-08-09T15:46:37-07:00",
+    "hash": "791ac778a74a42502e3001205d1421c74238f0ac",
+    "parents": "0a8bd8e4b5ce5d846c63aab435576abcffdbce73",
+    "subject": "formatting fix"
+   },
    {
     "adate": "2020-07-04T20:27:34-07:00",
     "author": "Kevin Gibbons",
@@ -4257,7 +4265,7 @@
    }
   ],
   "title": "Informative: (Exponentiation) Add NaN to exponent values whose behavior deviates from IEEE 754-2008",
-  "updated_at": "2020-07-05T03:29:36Z"
+  "updated_at": "2020-08-09T22:46:59Z"
  },
  {
   "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
