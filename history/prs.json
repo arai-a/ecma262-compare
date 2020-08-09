@@ -1,5 +1,57 @@
 [
  {
+  "base": "a59a820d309b77177defe7f89be1370e702c54c8",
+  "created_at": "2020-08-09T00:02:38Z",
+  "head": "f8344fc7523865c90d8dd5752bbe93203c70011f",
+  "login": "jmdyck",
+  "number": 2129,
+  "ref": "editorial",
+  "revs": [
+   {
+    "adate": "2020-08-08T19:48:13-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-08-08T19:57:47-04:00",
+    "hash": "f8344fc7523865c90d8dd5752bbe93203c70011f",
+    "parents": "48dc5e84230490baf691d6c043b198e18f53812e",
+    "subject": "Editorial: Insert blank line between productions"
+   },
+   {
+    "adate": "2020-08-08T12:49:28-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-08-08T19:57:47-04:00",
+    "hash": "48dc5e84230490baf691d6c043b198e18f53812e",
+    "parents": "e4648878031f7b95b73d1e020776b5189474e86b",
+    "subject": "Editorial: Change \"a finalization registry object\" to \"a FinalizationRegistry\""
+   },
+   {
+    "adate": "2020-08-08T11:51:23-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-08-08T19:57:47-04:00",
+    "hash": "e4648878031f7b95b73d1e020776b5189474e86b",
+    "parents": "35f96ac1a4c3989251a7f7e032beedf076babc2e",
+    "subject": "Editorial: Tweak some algorithm syntax"
+   },
+   {
+    "adate": "2020-08-08T11:20:15-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-08-08T19:57:47-04:00",
+    "hash": "35f96ac1a4c3989251a7f7e032beedf076babc2e",
+    "parents": "5435b67d75c9322bad99f30960dfab3243d579a5",
+    "subject": "Editorial: Use title-case in clause heading"
+   },
+   {
+    "adate": "2020-08-08T10:38:27-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-08-08T19:57:47-04:00",
+    "hash": "5435b67d75c9322bad99f30960dfab3243d579a5",
+    "parents": "a59a820d309b77177defe7f89be1370e702c54c8",
+    "subject": "Markup: Put 2 emu-clause attributes in quotes"
+   }
+  ],
+  "title": "Editorial: quick fixes for recent merges",
+  "updated_at": "2020-08-09T00:02:38Z"
+ },
+ {
   "base": "019d49816879fc814097914d3e3ce7c7e1b081ed",
   "created_at": "2020-08-05T00:10:45Z",
   "head": "3572cef24ccbe1ed705d53a2d398d76e9bbd83a4",
@@ -1786,82 +1838,6 @@
   ],
   "title": "Define [[IsHTMLL]] internal slot",
   "updated_at": "2020-05-10T04:52:04Z"
- },
- {
-  "base": "cb3a24d910c8a7ac62ee7b2883e4b2ce54b18add",
-  "created_at": "2020-05-07T22:54:50Z",
-  "head": "24a84138a73daff23cf756315dedcdb684b67f01",
-  "login": "syg",
-  "number": 1984,
-  "ref": "promise-job-invariants",
-  "revs": [
-   {
-    "adate": "2020-08-06T10:42:53-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-08-06T10:42:53-07:00",
-    "hash": "24a84138a73daff23cf756315dedcdb684b67f01",
-    "parents": "0482883eb2323f99c38388f01e8dbb2f90072a76",
-    "subject": "Address ljharb review 2"
-   },
-   {
-    "adate": "2020-07-09T17:06:05-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-08-06T10:42:19-07:00",
-    "hash": "0482883eb2323f99c38388f01e8dbb2f90072a76",
-    "parents": "9b3fc7eb5cfdd7614899bab6ec0093af6871e85d",
-    "subject": "Address ljharb review"
-   },
-   {
-    "adate": "2020-06-29T16:36:08-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-08-06T10:41:53-07:00",
-    "hash": "9b3fc7eb5cfdd7614899bab6ec0093af6871e85d",
-    "parents": "27ae8a4ac43a7f7886106ed76b8b3652349844c0",
-    "subject": "Address Kevin's review round 2"
-   },
-   {
-    "adate": "2020-06-29T16:05:41-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-08-06T10:40:58-07:00",
-    "hash": "27ae8a4ac43a7f7886106ed76b8b3652349844c0",
-    "parents": "977e85be40d8e585c07d7a12c50db1a013c7c57b",
-    "subject": "Address Kevin's review"
-   },
-   {
-    "adate": "2020-06-10T15:12:49-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-08-06T10:40:11-07:00",
-    "hash": "977e85be40d8e585c07d7a12c50db1a013c7c57b",
-    "parents": "8b16c7c59489b14e75e4e273361807028c3f4f9a",
-    "subject": "Address review"
-   },
-   {
-    "adate": "2020-05-13T17:23:41-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-08-06T10:38:52-07:00",
-    "hash": "8b16c7c59489b14e75e4e273361807028c3f4f9a",
-    "parents": "b7a3a6876d0dfae57aaeba2528d3dca32c1ad698",
-    "subject": "Make the active script or module propagation more constrained per discussion with ljharb"
-   },
-   {
-    "adate": "2020-05-08T15:04:08-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-08-06T10:38:51-07:00",
-    "hash": "b7a3a6876d0dfae57aaeba2528d3dca32c1ad698",
-    "parents": "b71d9e9de6c89bbeab850c11789f1d930214d786",
-    "subject": "Fix error creation for revoked Proxies; separate out active script propagation"
-   },
-   {
-    "adate": "2020-05-07T15:14:28-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-08-06T10:37:54-07:00",
-    "hash": "b71d9e9de6c89bbeab850c11789f1d930214d786",
-    "parents": "cb3a24d910c8a7ac62ee7b2883e4b2ce54b18add",
-    "subject": "Layering: Refine execution context requirements for Jobs"
-   }
-  ],
-  "title": "Layering: Refine execution context requirements for Jobs",
-  "updated_at": "2020-08-06T17:43:18Z"
  },
  {
   "base": "0b988b7700de675331ac360d164c978d6ea452ec",
