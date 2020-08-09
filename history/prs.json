@@ -181,26 +181,6 @@
  },
  {
   "base": "721293e0fff964c4cdd3397fcbc7def1de9f9b4e",
-  "created_at": "2020-07-29T21:57:15Z",
-  "head": "65554b4b7e074cf1645c405dece99259e0b60f39",
-  "login": "tc39",
-  "number": 2118,
-  "ref": "CreateIntrinsics-aliases",
-  "revs": [
-   {
-    "adate": "2020-07-29T14:55:40-07:00",
-    "author": "Michael Ficarra",
-    "date": "2020-07-29T14:55:40-07:00",
-    "hash": "65554b4b7e074cf1645c405dece99259e0b60f39",
-    "parents": "721293e0fff964c4cdd3397fcbc7def1de9f9b4e",
-    "subject": "Editorial: use more idiomatic aliases in CreateIntrinsics definition"
-   }
-  ],
-  "title": "Editorial: use more idiomatic aliases in CreateIntrinsics definition",
-  "updated_at": "2020-07-29T21:59:44Z"
- },
- {
-  "base": "721293e0fff964c4cdd3397fcbc7def1de9f9b4e",
   "created_at": "2020-07-28T11:38:00Z",
   "head": "5853646dacd2bb1b51cb774632cc3f1b1e692597",
   "login": "EB-Forks",
@@ -458,26 +438,6 @@
   ],
   "title": "Editorial: add missing `!` on calls to `OrdinaryObjectCreate`",
   "updated_at": "2020-07-15T16:29:44Z"
- },
- {
-  "base": "e08b018785606bc6465a0456a79604b149007932",
-  "created_at": "2020-07-13T15:22:51Z",
-  "head": "c6fd12b7d04ce27efb6784eae609bd13dbb27222",
-  "login": "codehag",
-  "number": 2092,
-  "ref": "module-in-inner-module-evaluation",
-  "revs": [
-   {
-    "adate": "2020-07-13T17:21:26+02:00",
-    "author": "codehag",
-    "date": "2020-07-13T17:21:26+02:00",
-    "hash": "c6fd12b7d04ce27efb6784eae609bd13dbb27222",
-    "parents": "e08b018785606bc6465a0456a79604b149007932",
-    "subject": "Module Record in InnerModuleEvaluation need not be a Source Text Module Record; fixes #2091"
-   }
-  ],
-  "title": "Module Record in InnerModuleEvaluation need not be a Source Text Modu\u2026",
-  "updated_at": "2020-07-13T15:22:51Z"
  },
  {
   "base": "cb3a24d910c8a7ac62ee7b2883e4b2ce54b18add",
@@ -1870,11 +1830,19 @@
  {
   "base": "6f0a88dc1d9f02d16a66aea01aede0253be4a132",
   "created_at": "2020-04-23T12:44:14Z",
-  "head": "66cde3b2401943127fd54a3064b8ee167f30a36a",
+  "head": "c09be9d2e89b1f1a9401be030596d544dc371ddd",
   "login": "jhnaldo",
   "number": 1966,
   "ref": "unambiguous-if-statement-syntax",
   "revs": [
+   {
+    "adate": "2020-08-09T15:13:05-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-08-09T15:13:05-07:00",
+    "hash": "c09be9d2e89b1f1a9401be030596d544dc371ddd",
+    "parents": "66cde3b2401943127fd54a3064b8ee167f30a36a",
+    "subject": "apply suggestions"
+   },
    {
     "adate": "2020-06-17T16:47:32-07:00",
     "author": "Michael Ficarra",
@@ -1917,7 +1885,7 @@
    }
   ],
   "title": "Editorial: Unambiguous grammar for IfStatement",
-  "updated_at": "2020-06-17T23:52:08Z"
+  "updated_at": "2020-08-09T22:15:12Z"
  },
  {
   "base": "980e1ccf1d37a3c890dc5fe5a36275710459c122",
