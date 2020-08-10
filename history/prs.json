@@ -1966,11 +1966,19 @@
  {
   "base": "7efaa50c81d0a43ead0b158697ed1b341f76e76a",
   "created_at": "2020-03-20T22:16:56Z",
-  "head": "db9253ab060715b76949d6da75a50a648649f6f5",
+  "head": "a0c64c36112bd76f5099e538e6a4484a5c0e2bf3",
   "login": "syg",
   "number": 1908,
   "ref": "atomics-on-abs",
   "revs": [
+   {
+    "adate": "2020-08-10T14:02:20-07:00",
+    "author": "Shu-yu Guo",
+    "date": "2020-08-10T14:02:20-07:00",
+    "hash": "a0c64c36112bd76f5099e538e6a4484a5c0e2bf3",
+    "parents": "db9253ab060715b76949d6da75a50a648649f6f5",
+    "subject": "bakkot review"
+   },
    {
     "adate": "2020-07-30T14:01:46-07:00",
     "author": "Shu-yu Guo",
@@ -2037,7 +2045,7 @@
    }
   ],
   "title": "Normative: Allow Atomics methods on ArrayBuffers",
-  "updated_at": "2020-07-30T21:02:08Z"
+  "updated_at": "2020-08-10T21:02:33Z"
  },
  {
   "base": "0b988b7700de675331ac360d164c978d6ea452ec",
