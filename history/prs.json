@@ -470,11 +470,19 @@
  {
   "base": "cb3a24d910c8a7ac62ee7b2883e4b2ce54b18add",
   "created_at": "2020-07-09T01:38:44Z",
-  "head": "3de378c3a9a3dd9bc7264f259eb7e6e62e98670f",
+  "head": "d388f937d5a2af1412689a1d07d8388cc3b34556",
   "login": "syg",
   "number": 2086,
   "ref": "incumbent-host-hooks",
   "revs": [
+   {
+    "adate": "2020-08-10T14:44:36-07:00",
+    "author": "Shu-yu Guo",
+    "date": "2020-08-10T14:44:36-07:00",
+    "hash": "d388f937d5a2af1412689a1d07d8388cc3b34556",
+    "parents": "3de378c3a9a3dd9bc7264f259eb7e6e62e98670f",
+    "subject": "JobCallback -> JobCallback Record"
+   },
    {
     "adate": "2020-08-10T14:16:04-07:00",
     "author": "Shu-yu Guo",
@@ -493,7 +501,7 @@
    }
   ],
   "title": "Add machinery to track the incumbent settings object in HTML for Job callbacks",
-  "updated_at": "2020-08-10T21:32:56Z"
+  "updated_at": "2020-08-10T21:44:46Z"
  },
  {
   "base": "e08b018785606bc6465a0456a79604b149007932",
@@ -1974,11 +1982,19 @@
  {
   "base": "7efaa50c81d0a43ead0b158697ed1b341f76e76a",
   "created_at": "2020-03-20T22:16:56Z",
-  "head": "a0c64c36112bd76f5099e538e6a4484a5c0e2bf3",
+  "head": "2875529d3f6ee25b76a9342f75e4e1f7f68de1df",
   "login": "syg",
   "number": 1908,
   "ref": "atomics-on-abs",
   "revs": [
+   {
+    "adate": "2020-08-10T14:49:38-07:00",
+    "author": "Shu-yu Guo",
+    "date": "2020-08-10T14:49:38-07:00",
+    "hash": "2875529d3f6ee25b76a9342f75e4e1f7f68de1df",
+    "parents": "a0c64c36112bd76f5099e538e6a4484a5c0e2bf3",
+    "subject": "Add notes clarifying the extra detach checks"
+   },
    {
     "adate": "2020-08-10T14:02:20-07:00",
     "author": "Shu-yu Guo",
@@ -2053,7 +2069,7 @@
    }
   ],
   "title": "Normative: Allow Atomics methods on ArrayBuffers",
-  "updated_at": "2020-08-10T21:02:33Z"
+  "updated_at": "2020-08-10T22:09:40Z"
  },
  {
   "base": "0b988b7700de675331ac360d164c978d6ea452ec",
