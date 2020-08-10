@@ -672,24 +672,24 @@
   "updated_at": "2020-07-26T10:23:41Z"
  },
  {
-  "base": "8f82b21e872044b0f51245e807f10f3265301c39",
+  "base": "c8044c21b3af314897f96d7d7f086ba2d3a7d7c0",
   "created_at": "2020-06-19T04:32:04Z",
-  "head": "a77cc71b391720f651a4568a7682262518442e81",
+  "head": "d8b366b89075e3e614c45c9b3fc6609f4801f6d4",
   "login": "ljharb",
   "number": 2056,
   "ref": "legacy-intrinsics",
   "revs": [
    {
-    "adate": "2020-06-18T21:26:15-07:00",
+    "adate": "2020-08-09T22:24:55-07:00",
     "author": "Jordan Harband",
-    "date": "2020-06-24T15:11:33-07:00",
-    "hash": "a77cc71b391720f651a4568a7682262518442e81",
-    "parents": "8f82b21e872044b0f51245e807f10f3265301c39",
+    "date": "2020-08-09T22:24:55-07:00",
+    "hash": "d8b366b89075e3e614c45c9b3fc6609f4801f6d4",
+    "parents": "c8044c21b3af314897f96d7d7f086ba2d3a7d7c0",
     "subject": "Editorial: remove legacy intrinsics"
    }
   ],
   "title": "Editorial: remove legacy intrinsics",
-  "updated_at": "2020-06-24T22:12:20Z"
+  "updated_at": "2020-08-10T05:25:26Z"
  },
  {
   "base": "8eab6e85cf9f69b41d1d61b49ff5f907e5b0ed41",
@@ -4078,34 +4078,6 @@
   ],
   "title": "Editorial: Explain why *_SAFE_INTEGER magnitude is not a power of two",
   "updated_at": "2020-05-31T23:25:23Z"
- },
- {
-  "base": "397b9d93e8614795cbb18fdebb1e67d19f27a3dd",
-  "created_at": "2019-01-13T06:00:18Z",
-  "head": "7f24bc129f2a9c626cda0da199995454338beab7",
-  "login": "TimothyGu",
-  "number": 1402,
-  "ref": "template-bugfix",
-  "revs": [
-   {
-    "adate": "2020-07-04T20:41:32-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2020-07-04T20:47:05-07:00",
-    "hash": "7f24bc129f2a9c626cda0da199995454338beab7",
-    "parents": "c7c2064b8733712520c8a7218ece6e0b84caa3a8",
-    "subject": "apply suggestion"
-   },
-   {
-    "adate": "2019-01-12T21:59:31-08:00",
-    "author": "Timothy Gu",
-    "date": "2020-07-04T20:38:33-07:00",
-    "hash": "c7c2064b8733712520c8a7218ece6e0b84caa3a8",
-    "parents": "397b9d93e8614795cbb18fdebb1e67d19f27a3dd",
-    "subject": "Editorial: Fix SubstitutionTemplate ArgumentListEvaluation"
-   }
-  ],
-  "title": "Editorial: Fix SubstitutionTemplate ArgumentListEvaluation",
-  "updated_at": "2020-07-05T03:49:53Z"
  },
  {
   "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
