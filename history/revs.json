@@ -1,5 +1,21 @@
 [
  {
+  "adate": "2020-08-09T23:57:31-07:00",
+  "author": "Rick Waldron",
+  "date": "2020-08-09T23:57:31-07:00",
+  "hash": "f6c932078314d4dc661a5893b1b67764f9c54c46",
+  "parents": "00763b200435b29425a2f1521c9b141d81ce91b5",
+  "subject": "Editorial: (Exponentiation) Add NaN to exponent values whose behavior deviates from IEEE 754-2008 (#1228)"
+ },
+ {
+  "adate": "2020-08-09T23:53:12-07:00",
+  "author": "Alexey Shvayka",
+  "date": "2020-08-09T23:53:12-07:00",
+  "hash": "00763b200435b29425a2f1521c9b141d81ce91b5",
+  "parents": "c8044c21b3af314897f96d7d7f086ba2d3a7d7c0",
+  "subject": "Editorial: Simplify String.prototype.split with empty separator (#2077)"
+ },
+ {
   "adate": "2020-08-09T22:15:48-07:00",
   "author": "Timothy Gu",
   "date": "2020-08-09T22:15:48-07:00",
