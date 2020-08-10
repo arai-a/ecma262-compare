@@ -2,11 +2,19 @@
  {
   "base": "c8044c21b3af314897f96d7d7f086ba2d3a7d7c0",
   "created_at": "2020-08-10T06:01:26Z",
-  "head": "6f3e0c6f91181ef9e24d2ff1c27239eefcb1d7c4",
+  "head": "82aee3caafda6a724dc8fbff25d9f084361fd73e",
   "login": "h2oche",
   "number": 2130,
   "ref": "prop-eval",
   "revs": [
+   {
+    "adate": "2020-08-10T14:52:07+09:00",
+    "author": "h2oche",
+    "date": "2020-08-10T16:03:58+09:00",
+    "hash": "82aee3caafda6a724dc8fbff25d9f084361fd73e",
+    "parents": "6f3e0c6f91181ef9e24d2ff1c27239eefcb1d7c4",
+    "subject": "Editorial: Add missing ReturnIfAbrupt to PropertyDefinitionEvaluation"
+   },
    {
     "adate": "2020-08-10T14:52:07+09:00",
     "author": "h2oche",
@@ -17,7 +25,7 @@
    }
   ],
   "title": "Editorial: Add missing ReturnIfAbrupt to PropertyDefinitionEvaluation",
-  "updated_at": "2020-08-10T06:04:07Z"
+  "updated_at": "2020-08-10T07:09:01Z"
  },
  {
   "base": "a59a820d309b77177defe7f89be1370e702c54c8",
@@ -630,26 +638,6 @@
   ],
   "title": "Editorial: Assert that [[HomeObject]] is an ordinary object",
   "updated_at": "2020-07-06T18:52:23Z"
- },
- {
-  "base": "8d2463a388c866d34035543d72dff7f730fcf975",
-  "created_at": "2020-07-06T01:28:50Z",
-  "head": "fe62670fee6573c86349b7c0722e14f925d79713",
-  "login": "shvaikalesh",
-  "number": 2077,
-  "ref": "split-match-empty-separator",
-  "revs": [
-   {
-    "adate": "2020-07-06T03:51:51+03:00",
-    "author": "Alexey Shvayka",
-    "date": "2020-07-06T03:51:51+03:00",
-    "hash": "fe62670fee6573c86349b7c0722e14f925d79713",
-    "parents": "8d2463a388c866d34035543d72dff7f730fcf975",
-    "subject": "Editorial: Simplify String.prototype.split with empty separator"
-   }
-  ],
-  "title": "Editorial: Simplify String.prototype.split with empty separator",
-  "updated_at": "2020-07-06T01:28:50Z"
  },
  {
   "base": "552407b105696bafa4e641bf2f5db61ad39c65ab",
@@ -4222,42 +4210,6 @@
   ],
   "title": "Editorial: move Section 25.6 Promise Objects",
   "updated_at": "2020-02-28T04:16:23Z"
- },
- {
-  "base": "397b9d93e8614795cbb18fdebb1e67d19f27a3dd",
-  "created_at": "2018-06-15T15:57:42Z",
-  "head": "791ac778a74a42502e3001205d1421c74238f0ac",
-  "login": "tc39",
-  "number": 1228,
-  "ref": "pow-nans-ieee-754-2008-note",
-  "revs": [
-   {
-    "adate": "2020-08-09T15:46:37-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2020-08-09T15:46:37-07:00",
-    "hash": "791ac778a74a42502e3001205d1421c74238f0ac",
-    "parents": "0a8bd8e4b5ce5d846c63aab435576abcffdbce73",
-    "subject": "formatting fix"
-   },
-   {
-    "adate": "2020-07-04T20:27:34-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2020-07-04T20:29:24-07:00",
-    "hash": "0a8bd8e4b5ce5d846c63aab435576abcffdbce73",
-    "parents": "7903a604b456934e78a706a8df98d323059967f0",
-    "subject": "tweak wording"
-   },
-   {
-    "adate": "2018-06-11T11:48:39-04:00",
-    "author": "Rick Waldron",
-    "date": "2020-07-04T20:29:04-07:00",
-    "hash": "7903a604b456934e78a706a8df98d323059967f0",
-    "parents": "397b9d93e8614795cbb18fdebb1e67d19f27a3dd",
-    "subject": "Informative: (Exponentiation) Add NaN to exponent values whose behavior deviates from IEEE 754-2008"
-   }
-  ],
-  "title": "Informative: (Exponentiation) Add NaN to exponent values whose behavior deviates from IEEE 754-2008",
-  "updated_at": "2020-08-09T22:46:59Z"
  },
  {
   "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
