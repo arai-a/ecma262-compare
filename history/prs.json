@@ -1,6 +1,26 @@
 [
  {
   "base": "0fa70bc523f094f0ca8dd2d9cf18c3febf8efb0f",
+  "created_at": "2020-08-11T22:48:05Z",
+  "head": "c8aa6b1d1270ce8ce5482beaf91c962172fc9dfd",
+  "login": "gibson042",
+  "number": 2134,
+  "ref": "2020-08-function-contains-note-consistency",
+  "revs": [
+   {
+    "adate": "2020-08-11T18:47:07-04:00",
+    "author": "Richard Gibson",
+    "date": "2020-08-11T18:47:07-04:00",
+    "hash": "c8aa6b1d1270ce8ce5482beaf91c962172fc9dfd",
+    "parents": "0fa70bc523f094f0ca8dd2d9cf18c3febf8efb0f",
+    "subject": "Editorial: Use consistent \"...generally do not look into function definitions\" language"
+   }
+  ],
+  "title": "Editorial: Use consistent \"...generally do not look into function definitions\" language",
+  "updated_at": "2020-08-11T22:48:05Z"
+ },
+ {
+  "base": "0fa70bc523f094f0ca8dd2d9cf18c3febf8efb0f",
   "created_at": "2020-08-11T22:36:26Z",
   "head": "9b89a463a1efc4da7052c29154b8b912ee649b0b",
   "login": "gibson042",
@@ -498,26 +518,6 @@
   ],
   "title": "Editorial: add missing `!` on calls to `OrdinaryObjectCreate`",
   "updated_at": "2020-07-15T16:29:44Z"
- },
- {
-  "base": "0fa70bc523f094f0ca8dd2d9cf18c3febf8efb0f",
-  "created_at": "2020-07-09T01:38:44Z",
-  "head": "4069869e736771104006f8f00a2eb8b382b57800",
-  "login": "syg",
-  "number": 2086,
-  "ref": "incumbent-host-hooks",
-  "revs": [
-   {
-    "adate": "2020-08-11T15:35:06-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-08-11T15:35:06-07:00",
-    "hash": "4069869e736771104006f8f00a2eb8b382b57800",
-    "parents": "0fa70bc523f094f0ca8dd2d9cf18c3febf8efb0f",
-    "subject": "Normative: Add machinery to track the incumbent settings object in HTML for Job callbacks (#2086)"
-   }
-  ],
-  "title": "Normative: Add machinery to track the incumbent settings object in HTML for Job callbacks",
-  "updated_at": "2020-08-11T22:35:35Z"
  },
  {
   "base": "e08b018785606bc6465a0456a79604b149007932",
