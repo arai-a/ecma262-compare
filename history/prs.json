@@ -1609,58 +1609,6 @@
  },
  {
   "base": "7479ade585c62b4af2c66898fc0b64731f97adc6",
-  "created_at": "2020-05-25T23:15:50Z",
-  "head": "351241613af2be0732ab9c654c1260a8de50fc74",
-  "login": "tc39",
-  "number": 2014,
-  "ref": "rename-unicode-ops",
-  "revs": [
-   {
-    "adate": "2020-05-25T15:58:55-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2020-05-26T20:47:56-07:00",
-    "hash": "351241613af2be0732ab9c654c1260a8de50fc74",
-    "parents": "3cdb5741fcd9a5d1e5b5ebdef102f62ae00a1a73",
-    "subject": "Editorial: rename UTF16DecodeString to StringToCodePoints"
-   },
-   {
-    "adate": "2020-05-25T15:58:50-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2020-05-26T20:47:56-07:00",
-    "hash": "3cdb5741fcd9a5d1e5b5ebdef102f62ae00a1a73",
-    "parents": "4e082e159f9b9378bc00905d9085cd3466bd60db",
-    "subject": "Editorial: rename UTF16DecodeSurrogatePair to UTF16SurrogatePairToCodePoint"
-   },
-   {
-    "adate": "2020-05-25T15:58:46-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2020-05-26T20:47:56-07:00",
-    "hash": "4e082e159f9b9378bc00905d9085cd3466bd60db",
-    "parents": "a290af8d12a4a0f0367bc12193e0d17d8b12bde2",
-    "subject": "Editorial: rename UTF16Encode to CodePointsToString"
-   },
-   {
-    "adate": "2020-05-25T15:58:40-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2020-05-26T20:47:37-07:00",
-    "hash": "a290af8d12a4a0f0367bc12193e0d17d8b12bde2",
-    "parents": "d08934f32ae47241ded2ee711f9c1f6dc094197c",
-    "subject": "Editorial: reword some usages of CodePointToUTF16CodeUnits"
-   },
-   {
-    "adate": "2020-05-25T15:58:34-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2020-05-26T20:45:21-07:00",
-    "hash": "d08934f32ae47241ded2ee711f9c1f6dc094197c",
-    "parents": "7479ade585c62b4af2c66898fc0b64731f97adc6",
-    "subject": "Editorial: rename UTF16Encoding to CodePointToUTF16CodeUnits"
-   }
-  ],
-  "title": "Editorial: Rename Unicode encoding/decoding operations",
-  "updated_at": "2020-05-27T03:51:02Z"
- },
- {
-  "base": "7479ade585c62b4af2c66898fc0b64731f97adc6",
   "created_at": "2020-05-25T21:24:06Z",
   "head": "df6a2e9473283381b70cc2c4b07604cea9eb529e",
   "login": "jmdyck",
@@ -1992,96 +1940,24 @@
   "updated_at": "2020-03-25T11:00:54Z"
  },
  {
-  "base": "7efaa50c81d0a43ead0b158697ed1b341f76e76a",
+  "base": "29fedc2c8ad4e44c8bf9a901fdc55e2d19fd712a",
   "created_at": "2020-03-20T22:16:56Z",
-  "head": "2875529d3f6ee25b76a9342f75e4e1f7f68de1df",
+  "head": "ac0740b946108ecd5a8822ab487ab305d1808857",
   "login": "syg",
   "number": 1908,
   "ref": "atomics-on-abs",
   "revs": [
    {
-    "adate": "2020-08-10T14:49:38-07:00",
+    "adate": "2020-08-10T22:01:51-07:00",
     "author": "Shu-yu Guo",
-    "date": "2020-08-10T14:49:38-07:00",
-    "hash": "2875529d3f6ee25b76a9342f75e4e1f7f68de1df",
-    "parents": "a0c64c36112bd76f5099e538e6a4484a5c0e2bf3",
-    "subject": "Add notes clarifying the extra detach checks"
-   },
-   {
-    "adate": "2020-08-10T14:02:20-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-08-10T14:02:20-07:00",
-    "hash": "a0c64c36112bd76f5099e538e6a4484a5c0e2bf3",
-    "parents": "db9253ab060715b76949d6da75a50a648649f6f5",
-    "subject": "bakkot review"
-   },
-   {
-    "adate": "2020-07-30T14:01:46-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-07-30T14:01:46-07:00",
-    "hash": "db9253ab060715b76949d6da75a50a648649f6f5",
-    "parents": "3e2685f8693877ef03b9ee7b93a6d78184cd1c45",
-    "subject": "Add missing detach check in Atomics.load"
-   },
-   {
-    "adate": "2020-06-24T14:30:14-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-07-30T13:56:17-07:00",
-    "hash": "3e2685f8693877ef03b9ee7b93a6d78184cd1c45",
-    "parents": "e83f0701fc20aba7585abefa5ff1df7fdd46b53f",
-    "subject": "Have ValidateIntegerTypedArray use ValidateTypedArray; move [[ArrayLength]] use before possible detach point"
-   },
-   {
-    "adate": "2020-06-24T12:55:38-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-07-30T13:56:17-07:00",
-    "hash": "e83f0701fc20aba7585abefa5ff1df7fdd46b53f",
-    "parents": "fbccbc0c44330e0a6e89a6b9b26ecb53f22ad417",
-    "subject": "Add a second detachment check in ValidateAtomicAccess"
-   },
-   {
-    "adate": "2020-06-23T16:13:17-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-07-30T13:56:17-07:00",
-    "hash": "fbccbc0c44330e0a6e89a6b9b26ecb53f22ad417",
-    "parents": "b952e49c916a279e83cae71b05462ad08ab999a3",
-    "subject": "Move IsDetachedBuffer check to after all coercions"
-   },
-   {
-    "adate": "2020-06-22T14:27:25-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-07-30T13:56:17-07:00",
-    "hash": "b952e49c916a279e83cae71b05462ad08ab999a3",
-    "parents": "64442f1c806e771a3427ec5cd550792c400d919d",
-    "subject": "Remove useless assert"
-   },
-   {
-    "adate": "2020-06-22T14:02:30-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-07-30T13:56:16-07:00",
-    "hash": "64442f1c806e771a3427ec5cd550792c400d919d",
-    "parents": "2fc80cc850c8948ac73f871893b61ead991ce836",
-    "subject": "Set and return the original bytes for ABs in GetModifySetValueInBuffer"
-   },
-   {
-    "adate": "2020-06-22T14:02:23-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-07-30T13:56:16-07:00",
-    "hash": "2fc80cc850c8948ac73f871893b61ead991ce836",
-    "parents": "83455f1e4e2a6785ffa39db8e0820fda7929bb3b",
-    "subject": "Check for detached buffers"
-   },
-   {
-    "adate": "2020-03-20T14:45:51-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-07-30T13:56:16-07:00",
-    "hash": "83455f1e4e2a6785ffa39db8e0820fda7929bb3b",
-    "parents": "a0452b6c659bbcf32b2fb48d6055399089edd3b7",
-    "subject": "Normative: Allow Atomics methods to work on ArrayBuffers."
+    "date": "2020-08-10T22:01:51-07:00",
+    "hash": "ac0740b946108ecd5a8822ab487ab305d1808857",
+    "parents": "29fedc2c8ad4e44c8bf9a901fdc55e2d19fd712a",
+    "subject": "Normative: Allow Atomics methods to work on ArrayBuffers (#1908)"
    }
   ],
   "title": "Normative: Allow Atomics methods on ArrayBuffers",
-  "updated_at": "2020-08-10T22:09:40Z"
+  "updated_at": "2020-08-11T05:02:26Z"
  },
  {
   "base": "0b988b7700de675331ac360d164c978d6ea452ec",
