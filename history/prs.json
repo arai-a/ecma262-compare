@@ -1,5 +1,69 @@
 [
  {
+  "base": "0fa70bc523f094f0ca8dd2d9cf18c3febf8efb0f",
+  "created_at": "2020-08-11T22:36:26Z",
+  "head": "9b89a463a1efc4da7052c29154b8b912ee649b0b",
+  "login": "gibson042",
+  "number": 2133,
+  "ref": "2020-08-clause-ref-update",
+  "revs": [
+   {
+    "adate": "2020-08-11T18:33:12-04:00",
+    "author": "Richard Gibson",
+    "date": "2020-08-11T18:33:12-04:00",
+    "hash": "9b89a463a1efc4da7052c29154b8b912ee649b0b",
+    "parents": "389d232cbe4948e1163acaafac38b2b152e3e39e",
+    "subject": "Editorial: Missed one"
+   },
+   {
+    "adate": "2020-08-11T18:28:27-04:00",
+    "author": "Richard Gibson",
+    "date": "2020-08-11T18:28:27-04:00",
+    "hash": "389d232cbe4948e1163acaafac38b2b152e3e39e",
+    "parents": "0fa70bc523f094f0ca8dd2d9cf18c3febf8efb0f",
+    "subject": "Editorial: Update clause range references"
+   }
+  ],
+  "title": "Editorial: Update clause range references",
+  "updated_at": "2020-08-11T22:36:26Z"
+ },
+ {
+  "base": "0fa70bc523f094f0ca8dd2d9cf18c3febf8efb0f",
+  "created_at": "2020-08-11T22:12:55Z",
+  "head": "18e9a8ff7077fb01ebbd05846e6ef3f65bfced51",
+  "login": "gibson042",
+  "number": 2132,
+  "ref": "2020-08-directive-prologue-octal-escapes",
+  "revs": [
+   {
+    "adate": "2020-08-11T13:32:22-04:00",
+    "author": "Richard Gibson",
+    "date": "2020-08-11T13:55:52-04:00",
+    "hash": "18e9a8ff7077fb01ebbd05846e6ef3f65bfced51",
+    "parents": "13edbf477e4c88c0fec54e0edce6e8bdf0ef9f45",
+    "subject": "Editorial: Add explicit early errors for (n)octal escape in directive prologue"
+   },
+   {
+    "adate": "2020-08-11T13:30:15-04:00",
+    "author": "Richard Gibson",
+    "date": "2020-08-11T13:44:38-04:00",
+    "hash": "13edbf477e4c88c0fec54e0edce6e8bdf0ef9f45",
+    "parents": "602c01c612b1cf6f7bc93305d01bd7eb2c677b5d",
+    "subject": "Editorial: Move the definition of Directive Prologue out of Functions and Classes"
+   },
+   {
+    "adate": "2020-08-11T13:28:30-04:00",
+    "author": "Richard Gibson",
+    "date": "2020-08-11T13:35:16-04:00",
+    "hash": "602c01c612b1cf6f7bc93305d01bd7eb2c677b5d",
+    "parents": "f3455c20a7287b0048cf23cd3be0f0826f88ad78",
+    "subject": "Editorial: Add cross-references between strict mode explanation and entry conditions"
+   }
+  ],
+  "title": "Editorial: Add explicit early errors for (n)octal escape in directive prologue",
+  "updated_at": "2020-08-11T22:12:55Z"
+ },
+ {
   "base": "f3455c20a7287b0048cf23cd3be0f0826f88ad78",
   "created_at": "2020-08-10T23:51:13Z",
   "head": "5859ddb77461e29b32d4cf7c4ce2f286ae0d8f0e",
@@ -436,48 +500,24 @@
   "updated_at": "2020-07-15T16:29:44Z"
  },
  {
-  "base": "f3455c20a7287b0048cf23cd3be0f0826f88ad78",
+  "base": "0fa70bc523f094f0ca8dd2d9cf18c3febf8efb0f",
   "created_at": "2020-07-09T01:38:44Z",
-  "head": "bc8e6aaa1bf5062c0c66703ba5babacccc30b66a",
+  "head": "4069869e736771104006f8f00a2eb8b382b57800",
   "login": "syg",
   "number": 2086,
   "ref": "incumbent-host-hooks",
   "revs": [
    {
-    "adate": "2020-08-11T11:53:54-07:00",
+    "adate": "2020-08-11T15:35:06-07:00",
     "author": "Shu-yu Guo",
-    "date": "2020-08-11T11:53:54-07:00",
-    "hash": "bc8e6aaa1bf5062c0c66703ba5babacccc30b66a",
-    "parents": "f4812aa640fc82563f3fbf6e290575478563ce10",
-    "subject": "Fix handling of JobCallback in NewPromiseResolveThenableJob"
-   },
-   {
-    "adate": "2020-08-10T14:44:36-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-08-11T11:48:09-07:00",
-    "hash": "f4812aa640fc82563f3fbf6e290575478563ce10",
-    "parents": "022c8cc65f3e1dfbfdd8d3a686c1a8a106177c34",
-    "subject": "JobCallback -> JobCallback Record"
-   },
-   {
-    "adate": "2020-08-10T14:16:04-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-08-11T11:48:09-07:00",
-    "hash": "022c8cc65f3e1dfbfdd8d3a686c1a8a106177c34",
-    "parents": "6cb25471149bf83c69aa00ccb1b6422bf4ce673d",
-    "subject": "Add host callback stuff to the host annex; bakkot review"
-   },
-   {
-    "adate": "2020-07-08T18:34:43-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-08-11T11:48:07-07:00",
-    "hash": "6cb25471149bf83c69aa00ccb1b6422bf4ce673d",
-    "parents": "f3455c20a7287b0048cf23cd3be0f0826f88ad78",
-    "subject": "Add machinery to track the incumbent settings object in HTML for Job callbacks"
+    "date": "2020-08-11T15:35:06-07:00",
+    "hash": "4069869e736771104006f8f00a2eb8b382b57800",
+    "parents": "0fa70bc523f094f0ca8dd2d9cf18c3febf8efb0f",
+    "subject": "Normative: Add machinery to track the incumbent settings object in HTML for Job callbacks (#2086)"
    }
   ],
-  "title": "Add machinery to track the incumbent settings object in HTML for Job callbacks",
-  "updated_at": "2020-08-11T18:54:57Z"
+  "title": "Normative: Add machinery to track the incumbent settings object in HTML for Job callbacks",
+  "updated_at": "2020-08-11T22:35:35Z"
  },
  {
   "base": "e08b018785606bc6465a0456a79604b149007932",
