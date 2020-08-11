@@ -436,40 +436,48 @@
   "updated_at": "2020-07-15T16:29:44Z"
  },
  {
-  "base": "cb3a24d910c8a7ac62ee7b2883e4b2ce54b18add",
+  "base": "f3455c20a7287b0048cf23cd3be0f0826f88ad78",
   "created_at": "2020-07-09T01:38:44Z",
-  "head": "d388f937d5a2af1412689a1d07d8388cc3b34556",
+  "head": "bc8e6aaa1bf5062c0c66703ba5babacccc30b66a",
   "login": "syg",
   "number": 2086,
   "ref": "incumbent-host-hooks",
   "revs": [
    {
+    "adate": "2020-08-11T11:53:54-07:00",
+    "author": "Shu-yu Guo",
+    "date": "2020-08-11T11:53:54-07:00",
+    "hash": "bc8e6aaa1bf5062c0c66703ba5babacccc30b66a",
+    "parents": "f4812aa640fc82563f3fbf6e290575478563ce10",
+    "subject": "Fix handling of JobCallback in NewPromiseResolveThenableJob"
+   },
+   {
     "adate": "2020-08-10T14:44:36-07:00",
     "author": "Shu-yu Guo",
-    "date": "2020-08-10T14:44:36-07:00",
-    "hash": "d388f937d5a2af1412689a1d07d8388cc3b34556",
-    "parents": "3de378c3a9a3dd9bc7264f259eb7e6e62e98670f",
+    "date": "2020-08-11T11:48:09-07:00",
+    "hash": "f4812aa640fc82563f3fbf6e290575478563ce10",
+    "parents": "022c8cc65f3e1dfbfdd8d3a686c1a8a106177c34",
     "subject": "JobCallback -> JobCallback Record"
    },
    {
     "adate": "2020-08-10T14:16:04-07:00",
     "author": "Shu-yu Guo",
-    "date": "2020-08-10T14:18:06-07:00",
-    "hash": "3de378c3a9a3dd9bc7264f259eb7e6e62e98670f",
-    "parents": "e08a3ee38d76cce567cfc63e945668c53d4b0f49",
+    "date": "2020-08-11T11:48:09-07:00",
+    "hash": "022c8cc65f3e1dfbfdd8d3a686c1a8a106177c34",
+    "parents": "6cb25471149bf83c69aa00ccb1b6422bf4ce673d",
     "subject": "Add host callback stuff to the host annex; bakkot review"
    },
    {
     "adate": "2020-07-08T18:34:43-07:00",
     "author": "Shu-yu Guo",
-    "date": "2020-08-06T11:11:12-07:00",
-    "hash": "e08a3ee38d76cce567cfc63e945668c53d4b0f49",
-    "parents": "cb3a24d910c8a7ac62ee7b2883e4b2ce54b18add",
+    "date": "2020-08-11T11:48:07-07:00",
+    "hash": "6cb25471149bf83c69aa00ccb1b6422bf4ce673d",
+    "parents": "f3455c20a7287b0048cf23cd3be0f0826f88ad78",
     "subject": "Add machinery to track the incumbent settings object in HTML for Job callbacks"
    }
   ],
   "title": "Add machinery to track the incumbent settings object in HTML for Job callbacks",
-  "updated_at": "2020-08-10T21:44:46Z"
+  "updated_at": "2020-08-11T18:54:57Z"
  },
  {
   "base": "e08b018785606bc6465a0456a79604b149007932",
