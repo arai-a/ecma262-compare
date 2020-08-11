@@ -1,5 +1,37 @@
 [
  {
+  "adate": "2020-08-10T23:14:22-07:00",
+  "author": "Michael Dyck",
+  "date": "2020-08-10T23:14:22-07:00",
+  "hash": "f3455c20a7287b0048cf23cd3be0f0826f88ad78",
+  "parents": "d4069b3463730da8b8233e9c1c5a2bfaa80cd0a1",
+  "subject": "Editorial: Insert blank line between productions (#2129)"
+ },
+ {
+  "adate": "2020-08-10T23:14:21-07:00",
+  "author": "Michael Dyck",
+  "date": "2020-08-10T23:14:21-07:00",
+  "hash": "d4069b3463730da8b8233e9c1c5a2bfaa80cd0a1",
+  "parents": "79ee19659384de3c32a49c0bd36bf1e5313b4cdd",
+  "subject": "Editorial: Misc tweaks re PR #2089 (#2129)"
+ },
+ {
+  "adate": "2020-08-10T23:14:20-07:00",
+  "author": "Michael Dyck",
+  "date": "2020-08-10T23:14:20-07:00",
+  "hash": "79ee19659384de3c32a49c0bd36bf1e5313b4cdd",
+  "parents": "ac0740b946108ecd5a8822ab487ab305d1808857",
+  "subject": "Editorial: Change `_set_` to `_set_.[[WeakSetData]]` (#2129)"
+ },
+ {
+  "adate": "2020-08-10T22:01:51-07:00",
+  "author": "Shu-yu Guo",
+  "date": "2020-08-10T22:01:51-07:00",
+  "hash": "ac0740b946108ecd5a8822ab487ab305d1808857",
+  "parents": "29fedc2c8ad4e44c8bf9a901fdc55e2d19fd712a",
+  "subject": "Normative: Allow Atomics methods to work on ArrayBuffers (#1908)"
+ },
+ {
   "adate": "2020-08-10T20:46:37-07:00",
   "author": "Kevin Gibbons",
   "date": "2020-08-10T20:46:37-07:00",
