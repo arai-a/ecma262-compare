@@ -22,11 +22,27 @@
  {
   "base": "0fa70bc523f094f0ca8dd2d9cf18c3febf8efb0f",
   "created_at": "2020-08-11T22:36:26Z",
-  "head": "9b89a463a1efc4da7052c29154b8b912ee649b0b",
+  "head": "c8387b8219eaf91271c67f77ea7cd34bec14c12d",
   "login": "gibson042",
   "number": 2133,
   "ref": "2020-08-clause-ref-update",
   "revs": [
+   {
+    "adate": "2020-08-13T18:12:04-04:00",
+    "author": "Richard Gibson",
+    "date": "2020-08-13T18:12:04-04:00",
+    "hash": "c8387b8219eaf91271c67f77ea7cd34bec14c12d",
+    "parents": "3362d272de3f6746a5a22c15dfb00d013106f6d8",
+    "subject": "Editorial: Replace literal clause numbers with references"
+   },
+   {
+    "adate": "2020-08-13T12:59:59-04:00",
+    "author": "Richard Gibson",
+    "date": "2020-08-13T12:59:59-04:00",
+    "hash": "3362d272de3f6746a5a22c15dfb00d013106f6d8",
+    "parents": "9b89a463a1efc4da7052c29154b8b912ee649b0b",
+    "subject": "Editorial: Update clause range references in other sections"
+   },
    {
     "adate": "2020-08-11T18:33:12-04:00",
     "author": "Richard Gibson",
@@ -45,7 +61,7 @@
    }
   ],
   "title": "Editorial: Update clause range references",
-  "updated_at": "2020-08-11T22:36:26Z"
+  "updated_at": "2020-08-13T22:29:14Z"
  },
  {
   "base": "0fa70bc523f094f0ca8dd2d9cf18c3febf8efb0f",
@@ -1410,26 +1426,6 @@
   ],
   "title": "Editorial: Simplify spec use of bitwise operations",
   "updated_at": "2020-06-01T19:47:01Z"
- },
- {
-  "base": "4069869e736771104006f8f00a2eb8b382b57800",
-  "created_at": "2020-05-31T22:06:45Z",
-  "head": "3750b81c637c58a2168495ccb62417adf196b5b4",
-  "login": "gibson042",
-  "number": 2027,
-  "ref": "2020-05-string-concatenation",
-  "revs": [
-   {
-    "adate": "2020-08-13T12:17:32-07:00",
-    "author": "Richard Gibson",
-    "date": "2020-08-13T12:17:32-07:00",
-    "hash": "3750b81c637c58a2168495ccb62417adf196b5b4",
-    "parents": "4069869e736771104006f8f00a2eb8b382b57800",
-    "subject": "Editorial: Add specific id for string-concatenation (#2027)"
-   }
-  ],
-  "title": "Editorial: Add specific id for string-concatenation",
-  "updated_at": "2020-08-13T19:17:50Z"
  },
  {
   "base": "e08b018785606bc6465a0456a79604b149007932",
