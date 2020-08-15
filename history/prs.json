@@ -1,5 +1,25 @@
 [
  {
+  "base": "3750b81c637c58a2168495ccb62417adf196b5b4",
+  "created_at": "2020-08-15T01:59:35Z",
+  "head": "78333949bc92aec1ebeee2ff15dcdfb21b3a5a7d",
+  "login": "devsnek",
+  "number": 2136,
+  "ref": "fix-date-set",
+  "revs": [
+   {
+    "adate": "2020-08-14T20:58:04-05:00",
+    "author": "Gus Caplan",
+    "date": "2020-08-14T21:03:13-05:00",
+    "hash": "78333949bc92aec1ebeee2ff15dcdfb21b3a5a7d",
+    "parents": "3750b81c637c58a2168495ccb62417adf196b5b4",
+    "subject": "Editorial: Fix out-of-range NaNs in date set methods"
+   }
+  ],
+  "title": "Editorial: Fix out-of-range NaNs in date set methods",
+  "updated_at": "2020-08-15T02:04:33Z"
+ },
+ {
   "base": "0fa70bc523f094f0ca8dd2d9cf18c3febf8efb0f",
   "created_at": "2020-08-11T22:48:05Z",
   "head": "c8aa6b1d1270ce8ce5482beaf91c962172fc9dfd",
