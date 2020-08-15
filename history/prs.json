@@ -580,96 +580,144 @@
   "updated_at": "2020-07-15T16:29:44Z"
  },
  {
-  "base": "e08b018785606bc6465a0456a79604b149007932",
+  "base": "3750b81c637c58a2168495ccb62417adf196b5b4",
   "created_at": "2020-07-08T16:43:39Z",
-  "head": "dacedc4eceecf1596ff139248e637f72f5878c45",
+  "head": "6cd7ab4b324b62d412eddf22fa3dfe22921c4287",
   "login": "shvaikalesh",
   "number": 2085,
   "ref": "reference-as-record",
   "revs": [
    {
+    "adate": "2020-08-15T15:25:51+03:00",
+    "author": "Alexey Shvayka",
+    "date": "2020-08-15T15:27:49+03:00",
+    "hash": "6cd7ab4b324b62d412eddf22fa3dfe22921c4287",
+    "parents": "3a705d9dee57eff16406237ccbff548be8802827",
+    "subject": "Avoid redefining `base`"
+   },
+   {
+    "adate": "2020-08-15T15:25:15+03:00",
+    "author": "Alexey Shvayka",
+    "date": "2020-08-15T15:27:49+03:00",
+    "hash": "3a705d9dee57eff16406237ccbff548be8802827",
+    "parents": "b4888014e0dae89eb1dc9adbe687d594fdb105d4",
+    "subject": "Get [[Base]] after IsUnresolvableReference branch"
+   },
+   {
+    "adate": "2020-08-15T15:23:41+03:00",
+    "author": "Alexey Shvayka",
+    "date": "2020-08-15T15:27:49+03:00",
+    "hash": "b4888014e0dae89eb1dc9adbe687d594fdb105d4",
+    "parents": "29905b0be9913f6c4ce1cf24e2434e6e165c79fa",
+    "subject": "Consistently use ~empty~ with [[Base]]"
+   },
+   {
+    "adate": "2020-08-15T15:23:08+03:00",
+    "author": "Alexey Shvayka",
+    "date": "2020-08-15T15:27:48+03:00",
+    "hash": "29905b0be9913f6c4ce1cf24e2434e6e165c79fa",
+    "parents": "8145f013ab22d1e3b7f3c682f8cedf94264568d3",
+    "subject": "Consistently use absent/present with [[ThisValue]]"
+   },
+   {
+    "adate": "2020-08-15T15:20:16+03:00",
+    "author": "Alexey Shvayka",
+    "date": "2020-08-15T15:27:48+03:00",
+    "hash": "8145f013ab22d1e3b7f3c682f8cedf94264568d3",
+    "parents": "06977c4c4ba78558f333fe14627a53801dacd175",
+    "subject": "Annotate Reference table field names with `oldids`"
+   },
+   {
+    "adate": "2020-08-14T20:17:38+03:00",
+    "author": "Alexey Shvayka",
+    "date": "2020-08-15T15:27:48+03:00",
+    "hash": "06977c4c4ba78558f333fe14627a53801dacd175",
+    "parents": "7de233e77b1f0729e6c8bf902d3efae14dd6af81",
+    "subject": "Tweak wording: on => upon"
+   },
+   {
     "adate": "2020-07-08T18:33:27+03:00",
     "author": "Alexey Shvayka",
-    "date": "2020-07-08T19:33:25+03:00",
-    "hash": "dacedc4eceecf1596ff139248e637f72f5878c45",
-    "parents": "f3d2ad9180fb2eb5ea00eeb8df314b5c2e99f7c7",
+    "date": "2020-08-15T15:27:48+03:00",
+    "hash": "7de233e77b1f0729e6c8bf902d3efae14dd6af81",
+    "parents": "556b5c2751f74489036428e71c2c08ed7f5e4a24",
     "subject": "Fix typo in Completion Record prose"
    },
    {
     "adate": "2020-07-08T18:33:14+03:00",
     "author": "Alexey Shvayka",
-    "date": "2020-07-08T19:33:25+03:00",
-    "hash": "f3d2ad9180fb2eb5ea00eeb8df314b5c2e99f7c7",
-    "parents": "5497a598561bbb3a886e99fe59d959da7b2a685d",
+    "date": "2020-08-15T15:27:48+03:00",
+    "hash": "556b5c2751f74489036428e71c2c08ed7f5e4a24",
+    "parents": "28d684017229e5296db7f4cc29d91699095e6f5c",
     "subject": "Update Reference type prose"
    },
    {
     "adate": "2020-07-08T18:32:50+03:00",
     "author": "Alexey Shvayka",
-    "date": "2020-07-08T19:33:25+03:00",
-    "hash": "5497a598561bbb3a886e99fe59d959da7b2a685d",
-    "parents": "d0d5346c8325da029c0bbdff6f5122a1a4c1720c",
+    "date": "2020-08-15T15:27:48+03:00",
+    "hash": "28d684017229e5296db7f4cc29d91699095e6f5c",
+    "parents": "dac016ab3b791966f4eb2851b641437d7f3a0b09",
     "subject": "Add Reference Fields table"
    },
    {
     "adate": "2020-07-07T20:40:18+03:00",
     "author": "Alexey Shvayka",
-    "date": "2020-07-08T19:33:25+03:00",
-    "hash": "d0d5346c8325da029c0bbdff6f5122a1a4c1720c",
-    "parents": "2b37baf083509915ef18202e619cddd397872014",
+    "date": "2020-08-15T15:27:48+03:00",
+    "hash": "dac016ab3b791966f4eb2851b641437d7f3a0b09",
+    "parents": "e2c843fc2c2339a842b67dbb28f7edd93091906c",
     "subject": "Throw ReferenceError inline"
    },
    {
     "adate": "2020-07-07T20:40:11+03:00",
     "author": "Alexey Shvayka",
-    "date": "2020-07-08T19:33:25+03:00",
-    "hash": "2b37baf083509915ef18202e619cddd397872014",
-    "parents": "7ec703413abe39cbb3618c369359c0d31a3c5413",
+    "date": "2020-08-15T15:27:48+03:00",
+    "hash": "e2c843fc2c2339a842b67dbb28f7edd93091906c",
+    "parents": "5e9a5cbef60142e63614197579f164b3f64781e5",
     "subject": "Check IsUnresolvableReference before getting [[Base]]"
    },
    {
     "adate": "2020-07-07T20:38:58+03:00",
     "author": "Alexey Shvayka",
-    "date": "2020-07-08T19:33:25+03:00",
-    "hash": "7ec703413abe39cbb3618c369359c0d31a3c5413",
-    "parents": "ac0d4cf47fd919dda9b0f2db09cee7292c058014",
+    "date": "2020-08-15T15:27:47+03:00",
+    "hash": "5e9a5cbef60142e63614197579f164b3f64781e5",
+    "parents": "2d111174eb715a06918d6047620c5b6403d1f92a",
     "subject": "Construct references using record literals"
    },
    {
     "adate": "2020-07-07T20:13:15+03:00",
     "author": "Alexey Shvayka",
-    "date": "2020-07-08T19:33:22+03:00",
-    "hash": "ac0d4cf47fd919dda9b0f2db09cee7292c058014",
-    "parents": "c21ca861a541ebbe21fb8327ceaf89d715576c72",
+    "date": "2020-08-15T15:27:47+03:00",
+    "hash": "2d111174eb715a06918d6047620c5b6403d1f92a",
+    "parents": "11ca327874ec07d487491864f284034d72f1ff04",
     "subject": "Replace remaining occurences with field access"
    },
    {
     "adate": "2020-07-07T19:12:39+03:00",
     "author": "Alexey Shvayka",
-    "date": "2020-07-07T19:12:39+03:00",
-    "hash": "c21ca861a541ebbe21fb8327ceaf89d715576c72",
-    "parents": "46deceff02cab03d93e0be9c9c7a5685a245376a",
+    "date": "2020-08-15T15:27:47+03:00",
+    "hash": "11ca327874ec07d487491864f284034d72f1ff04",
+    "parents": "523550cb5feee948589ab2758a039e7a33df4ae1",
     "subject": "IsStrictReference(V) => V.[[Strict]]"
    },
    {
     "adate": "2020-07-07T19:03:11+03:00",
     "author": "Alexey Shvayka",
-    "date": "2020-07-07T19:03:11+03:00",
-    "hash": "46deceff02cab03d93e0be9c9c7a5685a245376a",
-    "parents": "2699f7d7a8baa8095cc19167e1a8524e7beca26b",
+    "date": "2020-08-15T15:27:44+03:00",
+    "hash": "523550cb5feee948589ab2758a039e7a33df4ae1",
+    "parents": "7b253510b41e160753b57615277e25e5bbe77e5d",
     "subject": "GetReferencedName(V) => V.[[ReferencedName]]"
    },
    {
     "adate": "2020-07-07T19:02:07+03:00",
     "author": "Alexey Shvayka",
-    "date": "2020-07-07T19:02:07+03:00",
-    "hash": "2699f7d7a8baa8095cc19167e1a8524e7beca26b",
-    "parents": "8d2463a388c866d34035543d72dff7f730fcf975",
+    "date": "2020-08-15T15:26:33+03:00",
+    "hash": "7b253510b41e160753b57615277e25e5bbe77e5d",
+    "parents": "3750b81c637c58a2168495ccb62417adf196b5b4",
     "subject": "GetBase(V) => V.[[Base]]"
    }
   ],
   "title": "Editorial: Make Reference type a Record value",
-  "updated_at": "2020-07-08T16:43:39Z"
+  "updated_at": "2020-08-15T12:28:51Z"
  },
  {
   "base": "8d2463a388c866d34035543d72dff7f730fcf975",
