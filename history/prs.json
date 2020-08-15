@@ -582,7 +582,7 @@
  {
   "base": "3750b81c637c58a2168495ccb62417adf196b5b4",
   "created_at": "2020-07-08T16:43:39Z",
-  "head": "6cd7ab4b324b62d412eddf22fa3dfe22921c4287",
+  "head": "90238b3945f4017344c3b8e4ee5c19fd4af6be78",
   "login": "shvaikalesh",
   "number": 2085,
   "ref": "reference-as-record",
@@ -590,34 +590,34 @@
    {
     "adate": "2020-08-15T15:25:51+03:00",
     "author": "Alexey Shvayka",
-    "date": "2020-08-15T15:27:49+03:00",
-    "hash": "6cd7ab4b324b62d412eddf22fa3dfe22921c4287",
-    "parents": "3a705d9dee57eff16406237ccbff548be8802827",
+    "date": "2020-08-15T17:16:42+03:00",
+    "hash": "90238b3945f4017344c3b8e4ee5c19fd4af6be78",
+    "parents": "981fad663c8e12c508b50ce60a3c969f5afb9b55",
     "subject": "Avoid redefining `base`"
    },
    {
     "adate": "2020-08-15T15:25:15+03:00",
     "author": "Alexey Shvayka",
-    "date": "2020-08-15T15:27:49+03:00",
-    "hash": "3a705d9dee57eff16406237ccbff548be8802827",
-    "parents": "b4888014e0dae89eb1dc9adbe687d594fdb105d4",
+    "date": "2020-08-15T17:16:42+03:00",
+    "hash": "981fad663c8e12c508b50ce60a3c969f5afb9b55",
+    "parents": "5a03a3ab8e36003788fa73c2a30524975f7d9ba5",
     "subject": "Get [[Base]] after IsUnresolvableReference branch"
-   },
-   {
-    "adate": "2020-08-15T15:23:41+03:00",
-    "author": "Alexey Shvayka",
-    "date": "2020-08-15T15:27:49+03:00",
-    "hash": "b4888014e0dae89eb1dc9adbe687d594fdb105d4",
-    "parents": "29905b0be9913f6c4ce1cf24e2434e6e165c79fa",
-    "subject": "Consistently use ~empty~ with [[Base]]"
    },
    {
     "adate": "2020-08-15T15:23:08+03:00",
     "author": "Alexey Shvayka",
-    "date": "2020-08-15T15:27:48+03:00",
-    "hash": "29905b0be9913f6c4ce1cf24e2434e6e165c79fa",
+    "date": "2020-08-15T17:16:42+03:00",
+    "hash": "5a03a3ab8e36003788fa73c2a30524975f7d9ba5",
+    "parents": "ee73d98ee40b6461cd1a90003db954cd8d544bcf",
+    "subject": "Consistently use ~empty~ with [[ThisValue]]"
+   },
+   {
+    "adate": "2020-08-15T15:23:41+03:00",
+    "author": "Alexey Shvayka",
+    "date": "2020-08-15T17:14:32+03:00",
+    "hash": "ee73d98ee40b6461cd1a90003db954cd8d544bcf",
     "parents": "8145f013ab22d1e3b7f3c682f8cedf94264568d3",
-    "subject": "Consistently use absent/present with [[ThisValue]]"
+    "subject": "Consistently use ~empty~ with [[Base]]"
    },
    {
     "adate": "2020-08-15T15:20:16+03:00",
@@ -717,7 +717,7 @@
    }
   ],
   "title": "Editorial: Make Reference type a Record value",
-  "updated_at": "2020-08-15T12:28:51Z"
+  "updated_at": "2020-08-15T14:29:20Z"
  },
  {
   "base": "8d2463a388c866d34035543d72dff7f730fcf975",
