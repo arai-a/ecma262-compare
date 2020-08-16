@@ -1722,11 +1722,19 @@
  {
   "base": "019d49816879fc814097914d3e3ce7c7e1b081ed",
   "created_at": "2020-05-22T17:36:53Z",
-  "head": "b324ac18dae9cde5d8f2a04c502dd046fd24cd2c",
+  "head": "891004b7553127deb362d554ca4031877ee1671b",
   "login": "caiolima",
   "number": 2007,
   "ref": "mathematical-values-fix",
   "revs": [
+   {
+    "adate": "2020-08-15T22:56:21-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-08-15T20:20:56-07:00",
+    "hash": "891004b7553127deb362d554ca4031877ee1671b",
+    "parents": "b324ac18dae9cde5d8f2a04c502dd046fd24cd2c",
+    "subject": "Fixes from jmdyck"
+   },
    {
     "adate": "2020-04-27T15:59:38-03:00",
     "author": "Caio Lima",
@@ -1737,7 +1745,7 @@
    }
   ],
   "title": "Editorial: Make numeric values and operations default to mathematical values",
-  "updated_at": "2020-08-04T04:59:12Z"
+  "updated_at": "2020-08-16T03:21:05Z"
  },
  {
   "base": "bd868f20b8c574ad6689fba014b62a1dba819e56",
