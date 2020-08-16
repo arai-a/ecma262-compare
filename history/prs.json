@@ -296,13 +296,29 @@
   "updated_at": "2020-08-03T20:42:37Z"
  },
  {
-  "base": "cb3a24d910c8a7ac62ee7b2883e4b2ce54b18add",
+  "base": "3750b81c637c58a2168495ccb62417adf196b5b4",
   "created_at": "2020-08-03T04:35:24Z",
-  "head": "69b42b09c6f96b6dc7ddc02f0d1748943bec4e7a",
+  "head": "f4a444d1201d0a3ff331207d881abf48e06886c0",
   "login": "ryanjduffy",
   "number": 2122,
   "ref": "math-2119",
   "revs": [
+   {
+    "adate": "2020-08-16T06:53:00-07:00",
+    "author": "Ryan Duffy",
+    "date": "2020-08-16T06:53:00-07:00",
+    "hash": "f4a444d1201d0a3ff331207d881abf48e06886c0",
+    "parents": "90958cfda3c8ee8233af8fae37680eb444a00d8d 3750b81c637c58a2168495ccb62417adf196b5b4",
+    "subject": "Merge remote-tracking branch 'upstream/master' into math-2119"
+   },
+   {
+    "adate": "2020-08-16T06:52:47-07:00",
+    "author": "Ryan Duffy",
+    "date": "2020-08-16T06:52:47-07:00",
+    "hash": "90958cfda3c8ee8233af8fae37680eb444a00d8d",
+    "parents": "69b42b09c6f96b6dc7ddc02f0d1748943bec4e7a",
+    "subject": "update for review feedback"
+   },
    {
     "adate": "2020-08-06T10:50:18-07:00",
     "author": "Ryan Duffy",
@@ -361,7 +377,7 @@
    }
   ],
   "title": "Define Math functions using algorithm steps",
-  "updated_at": "2020-08-06T17:50:28Z"
+  "updated_at": "2020-08-16T13:53:10Z"
  },
  {
   "base": "019d49816879fc814097914d3e3ce7c7e1b081ed",
