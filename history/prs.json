@@ -270,11 +270,27 @@
  {
   "base": "3750b81c637c58a2168495ccb62417adf196b5b4",
   "created_at": "2020-08-03T04:35:24Z",
-  "head": "731ad54988d55166079c03e1bfbf2d7240f72f2a",
+  "head": "d2ce32a697013c88b64e20e6f6bf4b3135c65f76",
   "login": "ryanjduffy",
   "number": 2122,
   "ref": "math-2119",
   "revs": [
+   {
+    "adate": "2020-08-17T16:15:08-07:00",
+    "author": "Ryan Duffy",
+    "date": "2020-08-17T16:15:08-07:00",
+    "hash": "d2ce32a697013c88b64e20e6f6bf4b3135c65f76",
+    "parents": "4f1df0f9f510a86489c7a74f1a6703d8bc335b99",
+    "subject": "add missing \"remove\" step"
+   },
+   {
+    "adate": "2020-08-17T16:09:46-07:00",
+    "author": "Ryan Duffy",
+    "date": "2020-08-17T16:09:46-07:00",
+    "hash": "4f1df0f9f510a86489c7a74f1a6703d8bc335b99",
+    "parents": "731ad54988d55166079c03e1bfbf2d7240f72f2a",
+    "subject": "revert hypot to maintain signature"
+   },
    {
     "adate": "2020-08-17T07:08:32-07:00",
     "author": "Ryan Duffy",
@@ -365,7 +381,7 @@
    }
   ],
   "title": "Define Math functions using algorithm steps",
-  "updated_at": "2020-08-17T14:08:41Z"
+  "updated_at": "2020-08-17T23:16:53Z"
  },
  {
   "base": "019d49816879fc814097914d3e3ce7c7e1b081ed",
