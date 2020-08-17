@@ -202,11 +202,19 @@
  {
   "base": "3750b81c637c58a2168495ccb62417adf196b5b4",
   "created_at": "2020-08-03T04:35:24Z",
-  "head": "f4a444d1201d0a3ff331207d881abf48e06886c0",
+  "head": "5fd6770ac59edbc508be92921e3962eb51707cf4",
   "login": "ryanjduffy",
   "number": 2122,
   "ref": "math-2119",
   "revs": [
+   {
+    "adate": "2020-08-17T06:38:52-07:00",
+    "author": "Ryan Duffy",
+    "date": "2020-08-17T06:38:52-07:00",
+    "hash": "5fd6770ac59edbc508be92921e3962eb51707cf4",
+    "parents": "f4a444d1201d0a3ff331207d881abf48e06886c0",
+    "subject": "move identity bail outs to the top"
+   },
    {
     "adate": "2020-08-16T06:53:00-07:00",
     "author": "Ryan Duffy",
@@ -281,7 +289,7 @@
    }
   ],
   "title": "Define Math functions using algorithm steps",
-  "updated_at": "2020-08-16T13:53:10Z"
+  "updated_at": "2020-08-17T13:39:40Z"
  },
  {
   "base": "019d49816879fc814097914d3e3ce7c7e1b081ed",
