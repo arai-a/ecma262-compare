@@ -1,6 +1,54 @@
 [
  {
   "base": "3750b81c637c58a2168495ccb62417adf196b5b4",
+  "created_at": "2020-08-17T18:46:32Z",
+  "head": "130ad99dc6582908586a0c62314134d0ddfeb0d8",
+  "login": "tc39",
+  "number": 2138,
+  "ref": "previous-value",
+  "revs": [
+   {
+    "adate": "2020-08-17T11:43:16-07:00",
+    "author": "Michael Ficarra",
+    "date": "2020-08-17T11:43:16-07:00",
+    "hash": "130ad99dc6582908586a0c62314134d0ddfeb0d8",
+    "parents": "3750b81c637c58a2168495ccb62417adf196b5b4",
+    "subject": "Editorial: remove occurrences of \"the previous value of\""
+   }
+  ],
+  "title": "Editorial: remove occurrences of \"the previous value of\"",
+  "updated_at": "2020-08-17T18:49:45Z"
+ },
+ {
+  "base": "3750b81c637c58a2168495ccb62417adf196b5b4",
+  "created_at": "2020-08-17T18:44:30Z",
+  "head": "3e32fe2114d43b2e153239932eda87902106d98b",
+  "login": "tc39",
+  "number": 2137,
+  "ref": "and-let",
+  "revs": [
+   {
+    "adate": "2020-08-17T11:57:57-07:00",
+    "author": "Michael Ficarra",
+    "date": "2020-08-17T11:57:57-07:00",
+    "hash": "3e32fe2114d43b2e153239932eda87902106d98b",
+    "parents": "2fc5b02f0f0ba1618dc361d407b4f771e5817ddc",
+    "subject": "missing dots"
+   },
+   {
+    "adate": "2020-08-17T11:36:09-07:00",
+    "author": "Michael Ficarra",
+    "date": "2020-08-17T11:36:09-07:00",
+    "hash": "2fc5b02f0f0ba1618dc361d407b4f771e5817ddc",
+    "parents": "3750b81c637c58a2168495ccb62417adf196b5b4",
+    "subject": "Editorial: replace \"and let\"/\"and return\" with better phrasing"
+   }
+  ],
+  "title": "Editorial: replace \"and let\"/\"and return\" with better phrasing",
+  "updated_at": "2020-08-17T18:58:08Z"
+ },
+ {
+  "base": "3750b81c637c58a2168495ccb62417adf196b5b4",
   "created_at": "2020-08-15T01:59:35Z",
   "head": "78333949bc92aec1ebeee2ff15dcdfb21b3a5a7d",
   "login": "devsnek",
