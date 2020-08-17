@@ -1,23 +1,43 @@
 [
  {
-  "base": "3750b81c637c58a2168495ccb62417adf196b5b4",
-  "created_at": "2020-08-17T18:46:32Z",
-  "head": "130ad99dc6582908586a0c62314134d0ddfeb0d8",
+  "base": "aa2b7bb9c1762ae23ff6fab75e8c0914ad4160d4",
+  "created_at": "2020-08-17T21:29:39Z",
+  "head": "5e7f68725d854679d7ea04a461ae291bcf0eb28b",
   "login": "tc39",
-  "number": 2138,
-  "ref": "previous-value",
+  "number": 2140,
+  "ref": "splice-arguments",
   "revs": [
    {
-    "adate": "2020-08-17T11:43:16-07:00",
+    "adate": "2020-08-17T14:28:11-07:00",
     "author": "Michael Ficarra",
-    "date": "2020-08-17T11:43:16-07:00",
-    "hash": "130ad99dc6582908586a0c62314134d0ddfeb0d8",
-    "parents": "3750b81c637c58a2168495ccb62417adf196b5b4",
-    "subject": "Editorial: remove occurrences of \"the previous value of\""
+    "date": "2020-08-17T14:28:11-07:00",
+    "hash": "5e7f68725d854679d7ea04a461ae291bcf0eb28b",
+    "parents": "aa2b7bb9c1762ae23ff6fab75e8c0914ad4160d4",
+    "subject": "Editorial: fix a minor wording oddity in the splice summary"
    }
   ],
-  "title": "Editorial: remove occurrences of \"the previous value of\"",
-  "updated_at": "2020-08-17T18:49:45Z"
+  "title": "Editorial: fix a minor wording oddity in the splice summary",
+  "updated_at": "2020-08-17T21:35:09Z"
+ },
+ {
+  "base": "aa2b7bb9c1762ae23ff6fab75e8c0914ad4160d4",
+  "created_at": "2020-08-17T21:28:02Z",
+  "head": "0090ebdf2b3c476e85d31db98e2f1c89c65fa6fc",
+  "login": "tc39",
+  "number": 2139,
+  "ref": "reified-rest-parameters",
+  "revs": [
+   {
+    "adate": "2020-08-17T14:21:29-07:00",
+    "author": "Michael Ficarra",
+    "date": "2020-08-17T14:21:29-07:00",
+    "hash": "0090ebdf2b3c476e85d31db98e2f1c89c65fa6fc",
+    "parents": "aa2b7bb9c1762ae23ff6fab75e8c0914ad4160d4",
+    "subject": "Editorial: rest parameters are reified as spec Lists"
+   }
+  ],
+  "title": "Editorial: rest parameters are reified as spec Lists",
+  "updated_at": "2020-08-17T21:28:02Z"
  },
  {
   "base": "3750b81c637c58a2168495ccb62417adf196b5b4",
