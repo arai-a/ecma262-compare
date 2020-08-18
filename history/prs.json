@@ -262,11 +262,27 @@
  {
   "base": "3750b81c637c58a2168495ccb62417adf196b5b4",
   "created_at": "2020-08-03T04:35:24Z",
-  "head": "d2ce32a697013c88b64e20e6f6bf4b3135c65f76",
+  "head": "28761f6713cdb95b5201b9d1dd67408ba42c800c",
   "login": "ryanjduffy",
   "number": 2122,
   "ref": "math-2119",
   "revs": [
+   {
+    "adate": "2020-08-17T19:31:33-07:00",
+    "author": "Ryan Duffy",
+    "date": "2020-08-17T19:31:33-07:00",
+    "hash": "28761f6713cdb95b5201b9d1dd67408ba42c800c",
+    "parents": "0d6632a4658f9284fdfb4aaff6a17ac4be68d7b0",
+    "subject": "remove intro paragraph"
+   },
+   {
+    "adate": "2020-08-17T19:30:17-07:00",
+    "author": "Ryan Duffy",
+    "date": "2020-08-17T19:30:17-07:00",
+    "hash": "0d6632a4658f9284fdfb4aaff6a17ac4be68d7b0",
+    "parents": "d2ce32a697013c88b64e20e6f6bf4b3135c65f76",
+    "subject": "integer => integral Number"
+   },
    {
     "adate": "2020-08-17T16:15:08-07:00",
     "author": "Ryan Duffy",
@@ -373,7 +389,7 @@
    }
   ],
   "title": "Define Math functions using algorithm steps",
-  "updated_at": "2020-08-17T23:16:53Z"
+  "updated_at": "2020-08-18T02:31:40Z"
  },
  {
   "base": "019d49816879fc814097914d3e3ce7c7e1b081ed",
