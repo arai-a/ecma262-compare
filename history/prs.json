@@ -1614,134 +1614,22 @@
  {
   "base": "aa2b7bb9c1762ae23ff6fab75e8c0914ad4160d4",
   "created_at": "2020-05-29T18:54:15Z",
-  "head": "254c2a885a16e1f10f9c29ad071706394d05b2f3",
+  "head": "8ff78af012967e2848d44445d313640c919729a9",
   "login": "gibson042",
   "number": 2021,
   "ref": "2020-05-substring-consistency",
   "revs": [
    {
-    "adate": "2020-08-17T17:54:48-04:00",
+    "adate": "2020-08-17T22:31:08-07:00",
     "author": "Richard Gibson",
-    "date": "2020-08-17T18:20:37-04:00",
-    "hash": "254c2a885a16e1f10f9c29ad071706394d05b2f3",
-    "parents": "2ced87cdfe11f4ff3daf6456c78093054063a10f",
-    "subject": "Editorial: Rename \"string-slice\" to \"substring\""
-   },
-   {
-    "adate": "2020-08-17T17:52:18-04:00",
-    "author": "Richard Gibson",
-    "date": "2020-08-17T18:19:16-04:00",
-    "hash": "2ced87cdfe11f4ff3daf6456c78093054063a10f",
-    "parents": "c9635e8fa9ed152781a2d0ef50ddbdf43da39c50",
-    "subject": "Editorial: Add <emu-not-ref>s for colloquial uses of \"substring\""
-   },
-   {
-    "adate": "2020-08-17T17:50:00-04:00",
-    "author": "Richard Gibson",
-    "date": "2020-08-17T18:19:16-04:00",
-    "hash": "c9635e8fa9ed152781a2d0ef50ddbdf43da39c50",
-    "parents": "be6e0791b11292871a76f9b5cfba9c242b0aca86",
-    "subject": "Editorial: Clean up String.prototype.replace(All)"
-   },
-   {
-    "adate": "2020-08-04T18:34:16-04:00",
-    "author": "Richard Gibson",
-    "date": "2020-08-17T18:19:16-04:00",
-    "hash": "be6e0791b11292871a76f9b5cfba9c242b0aca86",
-    "parents": "fe478cda5d363210fe173e0519b4493a34c0e5b1",
-    "subject": "Editorial: DRY out unescape"
-   },
-   {
-    "adate": "2020-08-04T18:33:34-04:00",
-    "author": "Richard Gibson",
-    "date": "2020-08-17T18:17:27-04:00",
-    "hash": "fe478cda5d363210fe173e0519b4493a34c0e5b1",
-    "parents": "50568cc314c168264b3f7137bd18d04b2fb2aba9",
-    "subject": "Editorial: Substring consistency for unescape"
-   },
-   {
-    "adate": "2020-07-09T21:34:17-04:00",
-    "author": "Richard Gibson",
-    "date": "2020-08-17T18:09:23-04:00",
-    "hash": "50568cc314c168264b3f7137bd18d04b2fb2aba9",
-    "parents": "1a32d4bd3cba2faa54890627ee67408bd81dbe11",
-    "subject": "Editorial: Remove unnecessary step"
-   },
-   {
-    "adate": "2020-06-01T15:24:02-04:00",
-    "author": "Richard Gibson",
-    "date": "2020-08-17T18:09:23-04:00",
-    "hash": "1a32d4bd3cba2faa54890627ee67408bd81dbe11",
-    "parents": "2af4b30dce3afe2c39a653ce69c26a1c859923f8",
-    "subject": "Editorial: Introduce and use string-slice"
-   },
-   {
-    "adate": "2020-05-31T17:58:51-04:00",
-    "author": "Richard Gibson",
-    "date": "2020-08-17T18:09:01-04:00",
-    "hash": "2af4b30dce3afe2c39a653ce69c26a1c859923f8",
-    "parents": "156c81d3a9af74648e9b1116df25bf4236fbc242",
-    "subject": "Editorial: Variable name consistency for %StringIteratorPrototype%.next"
-   },
-   {
-    "adate": "2020-05-31T12:49:45-04:00",
-    "author": "Richard Gibson",
-    "date": "2020-08-17T18:09:01-04:00",
-    "hash": "156c81d3a9af74648e9b1116df25bf4236fbc242",
-    "parents": "524b265ea3855f084ff8c4fdc789219f6fc44913",
-    "subject": "Editorial: Substring consistency for RegExpBuiltinExec"
-   },
-   {
-    "adate": "2020-05-31T12:42:51-04:00",
-    "author": "Richard Gibson",
-    "date": "2020-08-17T18:09:01-04:00",
-    "hash": "524b265ea3855f084ff8c4fdc789219f6fc44913",
-    "parents": "003128e13a19ee088d6c00ac2858720ecd5e71f5",
-    "subject": "Editorial: Substring consistency for JSON.stringify"
-   },
-   {
-    "adate": "2020-05-31T12:36:02-04:00",
-    "author": "Richard Gibson",
-    "date": "2020-08-17T18:09:01-04:00",
-    "hash": "003128e13a19ee088d6c00ac2858720ecd5e71f5",
-    "parents": "64ff2d4eee332e65cf02d6975cfc462d1a8e51cd",
-    "subject": "Editorial: Substring consistency for String.prototype.substring"
-   },
-   {
-    "adate": "2020-05-30T12:40:21-04:00",
-    "author": "Richard Gibson",
-    "date": "2020-08-17T18:09:01-04:00",
-    "hash": "64ff2d4eee332e65cf02d6975cfc462d1a8e51cd",
-    "parents": "c738c511401e5d841d16b0b4a93a334fce4db4be",
-    "subject": "Editorial: Consistency for String.prototype.{ends,starts}With"
-   },
-   {
-    "adate": "2020-05-29T14:15:41-04:00",
-    "author": "Richard Gibson",
-    "date": "2020-08-17T18:09:01-04:00",
-    "hash": "c738c511401e5d841d16b0b4a93a334fce4db4be",
-    "parents": "d195c8eb85a855ea58d150f3c932a35a811ce3ab",
-    "subject": "Editorial: Rename substr variables"
-   },
-   {
-    "adate": "2020-05-29T13:20:37-04:00",
-    "author": "Richard Gibson",
-    "date": "2020-08-17T18:09:01-04:00",
-    "hash": "d195c8eb85a855ea58d150f3c932a35a811ce3ab",
-    "parents": "814cad63f3bda539d5041d5d39b5da5463162696",
-    "subject": "Editorial: Use [start, end) indices rather than count and start"
-   },
-   {
-    "adate": "2020-05-29T13:05:47-04:00",
-    "author": "Richard Gibson",
-    "date": "2020-08-17T18:09:01-04:00",
-    "hash": "814cad63f3bda539d5041d5d39b5da5463162696",
+    "date": "2020-08-17T22:31:08-07:00",
+    "hash": "8ff78af012967e2848d44445d313640c919729a9",
     "parents": "aa2b7bb9c1762ae23ff6fab75e8c0914ad4160d4",
-    "subject": "Editorial: Use consistent language for extracting substrings"
+    "subject": "Editorial: Use consistent language for extracting substrings (#2021)"
    }
   ],
   "title": "Editorial: Use consistent language for extracting substrings",
-  "updated_at": "2020-08-17T22:24:24Z"
+  "updated_at": "2020-08-18T05:33:20Z"
  },
  {
   "base": "32fe1a621c485080f6e1a1c0cc13a772b3f601bd",
