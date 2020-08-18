@@ -1,8 +1,28 @@
 [
  {
-  "base": "aa2b7bb9c1762ae23ff6fab75e8c0914ad4160d4",
+  "base": "7fa9e21d40a5c1bfedfaecbde07592f375b452f8",
+  "created_at": "2020-08-18T22:31:54Z",
+  "head": "3f514320ac2cbc52780545b526df03c069de22ba",
+  "login": "tc39",
+  "number": 2142,
+  "ref": "be-a-new-list",
+  "revs": [
+   {
+    "adate": "2020-08-18T14:33:43-07:00",
+    "author": "Michael Ficarra",
+    "date": "2020-08-18T15:30:23-07:00",
+    "hash": "3f514320ac2cbc52780545b526df03c069de22ba",
+    "parents": "7fa9e21d40a5c1bfedfaecbde07592f375b452f8",
+    "subject": "Editorial: normalisation around List construction"
+   }
+  ],
+  "title": "Editorial: normalisation around List construction",
+  "updated_at": "2020-08-18T22:32:03Z"
+ },
+ {
+  "base": "7fa9e21d40a5c1bfedfaecbde07592f375b452f8",
   "created_at": "2020-08-17T21:28:02Z",
-  "head": "5704ef47614f95abf858d23c18074fe03652a5bb",
+  "head": "db15bad3b72c6c3ff04aa4ca10e1636deae87756",
   "login": "tc39",
   "number": 2139,
   "ref": "reified-rest-parameters",
@@ -10,8 +30,8 @@
    {
     "adate": "2020-08-18T14:56:26-07:00",
     "author": "Michael Ficarra",
-    "date": "2020-08-18T14:56:26-07:00",
-    "hash": "5704ef47614f95abf858d23c18074fe03652a5bb",
+    "date": "2020-08-18T15:29:20-07:00",
+    "hash": "db15bad3b72c6c3ff04aa4ca10e1636deae87756",
     "parents": "0090ebdf2b3c476e85d31db98e2f1c89c65fa6fc",
     "subject": "more"
    },
@@ -25,7 +45,7 @@
    }
   ],
   "title": "Editorial: rest parameters are reified as spec Lists",
-  "updated_at": "2020-08-18T21:56:35Z"
+  "updated_at": "2020-08-18T22:29:31Z"
  },
  {
   "base": "aa2b7bb9c1762ae23ff6fab75e8c0914ad4160d4",
