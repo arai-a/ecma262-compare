@@ -2,11 +2,19 @@
  {
   "base": "aa2b7bb9c1762ae23ff6fab75e8c0914ad4160d4",
   "created_at": "2020-08-17T21:28:02Z",
-  "head": "0090ebdf2b3c476e85d31db98e2f1c89c65fa6fc",
+  "head": "5704ef47614f95abf858d23c18074fe03652a5bb",
   "login": "tc39",
   "number": 2139,
   "ref": "reified-rest-parameters",
   "revs": [
+   {
+    "adate": "2020-08-18T14:56:26-07:00",
+    "author": "Michael Ficarra",
+    "date": "2020-08-18T14:56:26-07:00",
+    "hash": "5704ef47614f95abf858d23c18074fe03652a5bb",
+    "parents": "0090ebdf2b3c476e85d31db98e2f1c89c65fa6fc",
+    "subject": "more"
+   },
    {
     "adate": "2020-08-17T14:21:29-07:00",
     "author": "Michael Ficarra",
@@ -17,7 +25,7 @@
    }
   ],
   "title": "Editorial: rest parameters are reified as spec Lists",
-  "updated_at": "2020-08-17T21:28:02Z"
+  "updated_at": "2020-08-18T21:56:35Z"
  },
  {
   "base": "aa2b7bb9c1762ae23ff6fab75e8c0914ad4160d4",
