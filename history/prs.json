@@ -40,32 +40,24 @@
   "updated_at": "2020-08-17T21:28:02Z"
  },
  {
-  "base": "3750b81c637c58a2168495ccb62417adf196b5b4",
+  "base": "aa2b7bb9c1762ae23ff6fab75e8c0914ad4160d4",
   "created_at": "2020-08-17T18:44:30Z",
-  "head": "3e32fe2114d43b2e153239932eda87902106d98b",
+  "head": "2b5beb113fa1277e5828e035b1075de817b260c5",
   "login": "tc39",
   "number": 2137,
   "ref": "and-let",
   "revs": [
    {
-    "adate": "2020-08-17T11:57:57-07:00",
-    "author": "Michael Ficarra",
-    "date": "2020-08-17T11:57:57-07:00",
-    "hash": "3e32fe2114d43b2e153239932eda87902106d98b",
-    "parents": "2fc5b02f0f0ba1618dc361d407b4f771e5817ddc",
-    "subject": "missing dots"
-   },
-   {
     "adate": "2020-08-17T11:36:09-07:00",
     "author": "Michael Ficarra",
-    "date": "2020-08-17T11:36:09-07:00",
-    "hash": "2fc5b02f0f0ba1618dc361d407b4f771e5817ddc",
-    "parents": "3750b81c637c58a2168495ccb62417adf196b5b4",
+    "date": "2020-08-17T17:17:26-07:00",
+    "hash": "2b5beb113fa1277e5828e035b1075de817b260c5",
+    "parents": "aa2b7bb9c1762ae23ff6fab75e8c0914ad4160d4",
     "subject": "Editorial: replace \"and let\"/\"and return\" with better phrasing"
    }
   ],
   "title": "Editorial: replace \"and let\"/\"and return\" with better phrasing",
-  "updated_at": "2020-08-17T18:58:08Z"
+  "updated_at": "2020-08-18T00:18:19Z"
  },
  {
   "base": "3750b81c637c58a2168495ccb62417adf196b5b4",
