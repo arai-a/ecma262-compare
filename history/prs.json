@@ -1,6 +1,46 @@
 [
  {
   "base": "aead0a396d38b0db318d8b8fef66e02c1e3e0e01",
+  "created_at": "2020-08-19T16:13:35Z",
+  "head": "cc7f649322d320059c2561435937bbff28bf780a",
+  "login": "shvaikalesh",
+  "number": 2145,
+  "ref": "string-index-of-cleanup",
+  "revs": [
+   {
+    "adate": "2020-08-19T19:13:08+03:00",
+    "author": "Alexey Shvayka",
+    "date": "2020-08-19T19:13:08+03:00",
+    "hash": "cc7f649322d320059c2561435937bbff28bf780a",
+    "parents": "aead0a396d38b0db318d8b8fef66e02c1e3e0e01",
+    "subject": "Editorial: Reword StringIndexOf note and remove unused vars at its call sites"
+   }
+  ],
+  "title": "Editorial: Reword StringIndexOf note and remove unused vars at its call sites",
+  "updated_at": "2020-08-19T16:13:35Z"
+ },
+ {
+  "base": "aead0a396d38b0db318d8b8fef66e02c1e3e0e01",
+  "created_at": "2020-08-19T16:08:38Z",
+  "head": "60e6fed829bd292cff0870082e6675ad16373794",
+  "login": "shvaikalesh",
+  "number": 2144,
+  "ref": "string-includes-at",
+  "revs": [
+   {
+    "adate": "2020-08-19T18:52:39+03:00",
+    "author": "Alexey Shvayka",
+    "date": "2020-08-19T18:52:39+03:00",
+    "hash": "60e6fed829bd292cff0870082e6675ad16373794",
+    "parents": "3750b81c637c58a2168495ccb62417adf196b5b4",
+    "subject": "Editorial: Merge IsStringPrefix and SplitMatch abstract ops"
+   }
+  ],
+  "title": "Editorial: Merge IsStringPrefix and SplitMatch abstract ops",
+  "updated_at": "2020-08-19T16:23:11Z"
+ },
+ {
+  "base": "aead0a396d38b0db318d8b8fef66e02c1e3e0e01",
   "created_at": "2020-08-19T01:41:51Z",
   "head": "285329afcf5011293bbf5b85f72beff1e8b54d21",
   "login": "tc39",
