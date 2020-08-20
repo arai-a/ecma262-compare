@@ -1239,7 +1239,7 @@ class Comparator {
   }
 
   async getSecData(hash) {
-    return this.getJSON(`./history/${hash}/sections.json?v2`);
+    return this.getJSON(`./history/${hash}/sections.json`);
   }
 
   // Returns a string representation of section number+title that is comparable
@@ -1666,6 +1666,7 @@ class Comparator {
   }
 
   fixupExcluded(type, box) {
+    console.log(this.toSecData);
     const fixup = (node, id) => {
       if (type === "diff") {
         if (id in this.toSecData.map &&
@@ -1690,16 +1691,26 @@ class Comparator {
 
         if (id in this.toSecData.map) {
           node.textContent = this.toSecData.map[id];
-        } else {
+        } else if (id in this.fromSecData.map) {
           node.textContent = this.fromSecData.map[id];
+        } else {
+          node.textContent = `(${node.textContent})`;
         }
         return;
       }
 
       if (type === "from") {
-        node.textContent = this.fromSecData.map[id];
+        if (id in this.fromSecData.map) {
+          node.textContent = this.fromSecData.map[id];
+        } else {
+          node.textContent = `(${node.textContent})`;
+        }
       } else {
-        node.textContent = this.toSecData.map[id];
+        if (id in this.toSecData.map) {
+          node.textContent = this.toSecData.map[id];
+        } else {
+          node.textContent = `(${node.textContent})`;
+        }
       }
     };
 
