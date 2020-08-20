@@ -1702,7 +1702,7 @@ class Comparator {
           node.appendChild(del);
           node.appendChild(ins);
 
-          return;
+          return true;
         }
 
         if (id in this.toSecData.map) {
@@ -1710,55 +1710,59 @@ class Comparator {
         } else if (id in this.fromSecData.map) {
           node.textContent = this.fromSecData.map[id];
         } else {
-          node.textContent = `(${node.textContent})`;
-          result = false;
+          return false;
         }
-        return;
+        return true;
       }
 
       if (type === "from") {
         if (id in this.fromSecData.map) {
           node.textContent = this.fromSecData.map[id];
         } else {
-          node.textContent = `(${node.textContent})`;
-          result = false;
+          return false;
         }
       } else {
         if (id in this.toSecData.map) {
           node.textContent = this.toSecData.map[id];
         } else {
-          node.textContent = `(${node.textContent})`;
-          result = false;
+          return false;
         }
       }
+
+      return true;
     };
 
     const nums = box.getElementsByClassName("excluded-secnum");
     for (const node of [...nums]) {
-      node.classList.remove("excluded-secnum");
-
       const id = node.getAttribute("excluded-id");
-      node.removeAttribute("excluded-id");
-
-      fixup(node, id);
+      if (fixup(node, id)) {
+        node.classList.remove("excluded-secnum");
+        node.removeAttribute("excluded-id");
+      } else {
+        result = false;
+      }
     }
 
     const caps = box.getElementsByClassName("excluded-caption-num");
     for (const node of [...caps]) {
-      node.classList.remove("excluded-caption-num");
-
       const id = node.getAttribute("excluded-id");
-      node.removeAttribute("excluded-id");
-      fixup(node, id);
+      if (fixup(node, id)) {
+        node.classList.remove("excluded-caption-num");
+        node.removeAttribute("excluded-id");
+      } else {
+        result = false;
+      }
     }
 
     const refs = box.getElementsByClassName("excluded-xref");
     for (const node of [...refs]) {
-      node.classList.remove("excluded-xref");
-
       const id = node.getAttribute("excluded-id");
-      node.removeAttribute("excluded-id");
-      fixup(node, id);
+      if (fixup(node, id)) {
+        node.classList.remove("excluded-xref");
+        node.removeAttribute("excluded-id");
+      } else {
+        result = false;
+      }
     }
 
     return result;
