@@ -1015,6 +1015,37 @@ class Comparator {
     this.collapsedAuthor.textContent = "";
   }
 
+  async loadFullDiff() {
+    [this.fromSecData, this.toSecData] = await Promise.all([
+      this.getSecData(this.fromRev.value),
+      this.getSecData(this.toRev.value)
+    ]);
+  }
+
+  createSecMap() {
+    {
+      const map = {};
+      for (const id in this.fromSecData.secData) {
+        map[id] = this.fromSecData.secData[id].num;
+      }
+      for (const id in this.fromSecData.figData) {
+        map[id] = this.fromSecData.figData[id];
+      }
+      this.fromSecData.map = map;
+    }
+
+    {
+      const map = {};
+      for (const id in this.toSecData.secData) {
+        map[id] = this.toSecData.secData[id].num;
+      }
+      for (const id in this.toSecData.figData) {
+        map[id] = this.toSecData.figData[id];
+      }
+      this.toSecData.map = map;
+    }
+  }
+
   async updateSectionList() {
     this.result.textContent = "";
     this.setStat("");
@@ -1038,10 +1069,7 @@ class Comparator {
     }
 
     if (!found) {
-      [this.fromSecData, this.toSecData] = await Promise.all([
-        this.getSecData(this.fromRev.value),
-        this.getSecData(this.toRev.value)
-      ]);
+      await this.loadFullDiff();
     }
 
     if (!this.fromSecData || !this.toSecData) {
@@ -1070,26 +1098,7 @@ class Comparator {
       this.messageBox.textContent = `${missing}. This can happen if the build failed for the revision.`;
     }
 
-    {
-      const map = {};
-      for (const id in this.fromSecData.secData) {
-        map[id] = this.fromSecData.secData[id].num;
-      }
-      for (const id in this.fromSecData.figData) {
-        map[id] = this.fromSecData.figData[id];
-      }
-      this.fromSecData.map = map;
-    }
-    {
-      const map = {};
-      for (const id in this.toSecData.secData) {
-        map[id] = this.toSecData.secData[id].num;
-      }
-      for (const id in this.toSecData.figData) {
-        map[id] = this.toSecData.figData[id];
-      }
-      this.toSecData.map = map;
-    }
+    this.createSecMap();
 
     await this.populateSectionList();
   }
@@ -1567,11 +1576,17 @@ class Comparator {
           this.result.appendChild(box);
         }
       }
-      this.fixupExcluded(type, box);
+      let fixupResult = this.fixupExcluded(type, box);
       this.fixupLink(type, box);
       this.fixupImages(type, box);
       if (sections.size > 1) {
         this.addSingleSectionButtons(box);
+      }
+
+      if (!fixupResult) {
+        await this.loadFullDiff();
+        this.createSecMap();
+        this.fixupExcluded(type, box);
       }
     }
 
@@ -1666,7 +1681,8 @@ class Comparator {
   }
 
   fixupExcluded(type, box) {
-    console.log(this.toSecData);
+    let result = true;
+
     const fixup = (node, id) => {
       if (type === "diff") {
         if (id in this.toSecData.map &&
@@ -1695,6 +1711,7 @@ class Comparator {
           node.textContent = this.fromSecData.map[id];
         } else {
           node.textContent = `(${node.textContent})`;
+          result = false;
         }
         return;
       }
@@ -1704,12 +1721,14 @@ class Comparator {
           node.textContent = this.fromSecData.map[id];
         } else {
           node.textContent = `(${node.textContent})`;
+          result = false;
         }
       } else {
         if (id in this.toSecData.map) {
           node.textContent = this.toSecData.map[id];
         } else {
           node.textContent = `(${node.textContent})`;
+          result = false;
         }
       }
     };
@@ -1741,6 +1760,8 @@ class Comparator {
       node.removeAttribute("excluded-id");
       fixup(node, id);
     }
+
+    return result;
   }
 
   // Replace links into the same document to links into snapshot.
