@@ -220,33 +220,21 @@
   "updated_at": "2020-08-11T22:48:05Z"
  },
  {
-  "base": "aead0a396d38b0db318d8b8fef66e02c1e3e0e01",
-  "created_at": "2020-08-11T22:36:26Z",
-  "head": "93ac76898d9f74e39f68ac53edbad68b3822c949",
-  "login": "gibson042",
-  "number": 2133,
-  "ref": "2020-08-clause-ref-update",
-  "revs": [
-   {
-    "adate": "2020-08-19T17:10:02-07:00",
-    "author": "Richard Gibson",
-    "date": "2020-08-19T17:10:02-07:00",
-    "hash": "93ac76898d9f74e39f68ac53edbad68b3822c949",
-    "parents": "aead0a396d38b0db318d8b8fef66e02c1e3e0e01",
-    "subject": "Editorial: Update clause range references (#2133)"
-   }
-  ],
-  "title": "Editorial: Update clause range references",
-  "updated_at": "2020-08-20T00:10:15Z"
- },
- {
   "base": "0fa70bc523f094f0ca8dd2d9cf18c3febf8efb0f",
   "created_at": "2020-08-11T22:12:55Z",
-  "head": "18e9a8ff7077fb01ebbd05846e6ef3f65bfced51",
+  "head": "0f9a02ea9e3b44e4eccc8c68f82a172b69fec23e",
   "login": "gibson042",
   "number": 2132,
   "ref": "2020-08-directive-prologue-octal-escapes",
   "revs": [
+   {
+    "adate": "2020-08-20T14:41:50-04:00",
+    "author": "Richard Gibson",
+    "date": "2020-08-20T14:41:50-04:00",
+    "hash": "0f9a02ea9e3b44e4eccc8c68f82a172b69fec23e",
+    "parents": "18e9a8ff7077fb01ebbd05846e6ef3f65bfced51",
+    "subject": "Editorial: Add reference to ASI section"
+   },
    {
     "adate": "2020-08-11T13:32:22-04:00",
     "author": "Richard Gibson",
@@ -273,7 +261,7 @@
    }
   ],
   "title": "Editorial: Add explicit early errors for (n)octal escape in directive prologue",
-  "updated_at": "2020-08-11T22:12:55Z"
+  "updated_at": "2020-08-20T18:59:17Z"
  },
  {
   "base": "f3455c20a7287b0048cf23cd3be0f0826f88ad78",
