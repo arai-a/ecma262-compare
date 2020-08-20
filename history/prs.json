@@ -1702,11 +1702,19 @@
  {
   "base": "aead0a396d38b0db318d8b8fef66e02c1e3e0e01",
   "created_at": "2020-05-31T22:48:44Z",
-  "head": "e6e5aa784ddf2af2d8916bcb0dc8961897ecb33f",
+  "head": "bd3c50d8c7b695771e29d4944eb7a694051557d6",
   "login": "gibson042",
   "number": 2029,
   "ref": "2020-05-bitwise",
   "revs": [
+   {
+    "adate": "2020-08-19T21:21:41-04:00",
+    "author": "Richard Gibson",
+    "date": "2020-08-19T21:21:41-04:00",
+    "hash": "bd3c50d8c7b695771e29d4944eb7a694051557d6",
+    "parents": "e6e5aa784ddf2af2d8916bcb0dc8961897ecb33f",
+    "subject": "Editorial: Accept suggestion"
+   },
    {
     "adate": "2020-06-01T15:46:29-04:00",
     "author": "Richard Gibson",
@@ -1749,7 +1757,7 @@
    }
   ],
   "title": "Editorial: Simplify spec use of bitwise operations",
-  "updated_at": "2020-08-19T13:47:21Z"
+  "updated_at": "2020-08-20T01:21:50Z"
  },
  {
   "base": "32fe1a621c485080f6e1a1c0cc13a772b3f601bd",
