@@ -116,9 +116,9 @@
   "updated_at": "2020-08-19T20:26:15Z"
  },
  {
-  "base": "aead0a396d38b0db318d8b8fef66e02c1e3e0e01",
+  "base": "4efa95cfc13da8537aa914746260b3d97f5ffe88",
   "created_at": "2020-08-18T22:31:54Z",
-  "head": "ebbf3abecd4fc6010a433e41245e8a886e8a5a47",
+  "head": "d8902ffa8eb4768738b1a9bc0217364f2e105511",
   "login": "tc39",
   "number": 2142,
   "ref": "be-a-new-list",
@@ -126,66 +126,34 @@
    {
     "adate": "2020-08-18T14:33:43-07:00",
     "author": "Michael Ficarra",
-    "date": "2020-08-19T16:51:30-07:00",
-    "hash": "ebbf3abecd4fc6010a433e41245e8a886e8a5a47",
-    "parents": "7fa9e21d40a5c1bfedfaecbde07592f375b452f8",
+    "date": "2020-08-21T08:56:34-07:00",
+    "hash": "d8902ffa8eb4768738b1a9bc0217364f2e105511",
+    "parents": "4efa95cfc13da8537aa914746260b3d97f5ffe88",
     "subject": "Editorial: normalisation around List construction"
    }
   ],
   "title": "Editorial: normalisation around List construction",
-  "updated_at": "2020-08-19T23:51:42Z"
+  "updated_at": "2020-08-21T15:56:45Z"
  },
  {
-  "base": "93ac76898d9f74e39f68ac53edbad68b3822c949",
+  "base": "4efa95cfc13da8537aa914746260b3d97f5ffe88",
   "created_at": "2020-08-17T21:28:02Z",
-  "head": "fbe6bf6a29a3ae34ad7c04d2d68cc985fda712e0",
+  "head": "143e348b8b6567da98e67cfba2ca490396cc8e97",
   "login": "tc39",
   "number": 2139,
   "ref": "reified-rest-parameters",
   "revs": [
    {
-    "adate": "2020-08-20T19:36:22-07:00",
-    "author": "Michael Ficarra",
-    "date": "2020-08-20T19:36:22-07:00",
-    "hash": "fbe6bf6a29a3ae34ad7c04d2d68cc985fda712e0",
-    "parents": "8031424784b7c862d46348126edc5356cf9bdaf8",
-    "subject": "spacing"
-   },
-   {
-    "adate": "2020-08-20T19:26:02-07:00",
-    "author": "Michael Ficarra",
-    "date": "2020-08-20T19:33:03-07:00",
-    "hash": "8031424784b7c862d46348126edc5356cf9bdaf8",
-    "parents": "01cc6e3d5bc3d072c2e264784f40ebe057684b49",
-    "subject": "formatting"
-   },
-   {
-    "adate": "2020-08-20T19:04:51-07:00",
-    "author": "Michael Ficarra",
-    "date": "2020-08-20T19:04:51-07:00",
-    "hash": "01cc6e3d5bc3d072c2e264784f40ebe057684b49",
-    "parents": "c86d6a88ea2220442451b2e96d724eb9788efbfd",
-    "subject": "mandatory -> required"
-   },
-   {
-    "adate": "2020-08-20T17:37:58-07:00",
-    "author": "Michael Ficarra",
-    "date": "2020-08-20T17:37:58-07:00",
-    "hash": "c86d6a88ea2220442451b2e96d724eb9788efbfd",
-    "parents": "fed653512a2ba775f374d9e787af70fac4c56d73",
-    "subject": "remove <dfn>s"
-   },
-   {
     "adate": "2020-08-17T14:21:29-07:00",
     "author": "Michael Ficarra",
-    "date": "2020-08-20T14:48:45-07:00",
-    "hash": "fed653512a2ba775f374d9e787af70fac4c56d73",
-    "parents": "93ac76898d9f74e39f68ac53edbad68b3822c949",
+    "date": "2020-08-21T08:51:27-07:00",
+    "hash": "143e348b8b6567da98e67cfba2ca490396cc8e97",
+    "parents": "4efa95cfc13da8537aa914746260b3d97f5ffe88",
     "subject": "Editorial: rest parameters are reified as spec Lists"
    }
   ],
   "title": "Editorial: rest parameters are reified as spec Lists",
-  "updated_at": "2020-08-21T02:49:47Z"
+  "updated_at": "2020-08-21T15:54:09Z"
  },
  {
   "base": "aa2b7bb9c1762ae23ff6fab75e8c0914ad4160d4",
