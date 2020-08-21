@@ -1,12 +1,48 @@
 [
  {
   "base": "93ac76898d9f74e39f68ac53edbad68b3822c949",
+  "created_at": "2020-08-21T00:10:01Z",
+  "head": "5e494e3a9477a737e88e3f960b053143113e067b",
+  "login": "gibson042",
+  "number": 2150,
+  "ref": "2020-08-regexp-capture-indexing",
+  "revs": [
+   {
+    "adate": "2020-08-19T21:53:06-04:00",
+    "author": "Richard Gibson",
+    "date": "2020-08-20T20:07:01-04:00",
+    "hash": "5e494e3a9477a737e88e3f960b053143113e067b",
+    "parents": "eadf6293254a623815280cc91e9def77ee04723f",
+    "subject": "Editorial: Replace \"nth element\" with \"element at index n\""
+   },
+   {
+    "adate": "2020-08-04T15:59:24-04:00",
+    "author": "Richard Gibson",
+    "date": "2020-08-20T20:06:28-04:00",
+    "hash": "eadf6293254a623815280cc91e9def77ee04723f",
+    "parents": "93ac76898d9f74e39f68ac53edbad68b3822c949",
+    "subject": "Editorial: Add notes about the 1-based indexing of regular expression _captures_"
+   }
+  ],
+  "title": "Editorial: Add notes about the 1-based indexing of regular expression _captures_",
+  "updated_at": "2020-08-21T00:10:01Z"
+ },
+ {
+  "base": "93ac76898d9f74e39f68ac53edbad68b3822c949",
   "created_at": "2020-08-20T22:25:49Z",
-  "head": "9a256fcd35de61654b5fd3d41b4e7863a0e946c6",
+  "head": "3efd8bb7684b775e5b17ef7082be11ea2d9b8d33",
   "login": "gibson042",
   "number": 2149,
   "ref": "2020-08-ascii-consistency",
   "revs": [
+   {
+    "adate": "2020-08-20T19:46:25-04:00",
+    "author": "Richard Gibson",
+    "date": "2020-08-20T19:46:25-04:00",
+    "hash": "3efd8bb7684b775e5b17ef7082be11ea2d9b8d33",
+    "parents": "9a256fcd35de61654b5fd3d41b4e7863a0e946c6",
+    "subject": "Editorial: Restore curly quotes"
+   },
    {
     "adate": "2020-08-20T18:04:11-04:00",
     "author": "Richard Gibson",
@@ -25,7 +61,7 @@
    }
   ],
   "title": "Editorial: Replace non-ASCII quotes",
-  "updated_at": "2020-08-20T22:28:50Z"
+  "updated_at": "2020-08-20T23:46:33Z"
  },
  {
   "base": "aead0a396d38b0db318d8b8fef66e02c1e3e0e01",
@@ -632,112 +668,96 @@
   "updated_at": "2020-07-26T15:00:56Z"
  },
  {
-  "base": "4069869e736771104006f8f00a2eb8b382b57800",
+  "base": "93ac76898d9f74e39f68ac53edbad68b3822c949",
   "created_at": "2020-07-24T22:14:39Z",
-  "head": "1f968cd0f2d5f0d1074ad64dd24411442b9efa36",
+  "head": "4c9804965e0fa31385802a37b716a460186acd4e",
   "login": "gibson042",
   "number": 2112,
   "ref": "2020-07-CharSet",
   "revs": [
    {
-    "adate": "2020-08-19T21:53:06-04:00",
-    "author": "Richard Gibson",
-    "date": "2020-08-19T21:53:06-04:00",
-    "hash": "1f968cd0f2d5f0d1074ad64dd24411442b9efa36",
-    "parents": "53f7913935264ea23e062a656f7e806c5de4ee29",
-    "subject": "Editorial: Replace \"nth element\" with \"element at index n\""
-   },
-   {
     "adate": "2020-08-19T21:49:13-04:00",
     "author": "Richard Gibson",
-    "date": "2020-08-19T21:49:13-04:00",
-    "hash": "53f7913935264ea23e062a656f7e806c5de4ee29",
-    "parents": "426eb4f7cf36ea9fe1c01b2b52f19284f84e7615",
+    "date": "2020-08-20T20:01:07-04:00",
+    "hash": "4c9804965e0fa31385802a37b716a460186acd4e",
+    "parents": "d96d0ff2535fbcfdd29e8dfae66b901e89b50a7b",
     "subject": "Editorial: Revert change to =/\u2260 boolean comparison"
    },
    {
     "adate": "2020-08-12T19:26:08-04:00",
     "author": "Richard Gibson",
-    "date": "2020-08-12T19:26:08-04:00",
-    "hash": "426eb4f7cf36ea9fe1c01b2b52f19284f84e7615",
-    "parents": "01b859f3791316db215e4f69de11ef8536732f10",
+    "date": "2020-08-20T20:00:57-04:00",
+    "hash": "d96d0ff2535fbcfdd29e8dfae66b901e89b50a7b",
+    "parents": "2b64a80a684d96dd46ffb2fe2ccbd2810ab9e7c5",
     "subject": "Editorial: Changes per review"
    },
    {
     "adate": "2020-08-12T19:01:22-04:00",
     "author": "Richard Gibson",
-    "date": "2020-08-12T19:01:22-04:00",
-    "hash": "01b859f3791316db215e4f69de11ef8536732f10",
-    "parents": "20ef67cf929fc225b689bf549d4a45949d8ae14d",
+    "date": "2020-08-20T19:58:22-04:00",
+    "hash": "2b64a80a684d96dd46ffb2fe2ccbd2810ab9e7c5",
+    "parents": "2fee4b5e339742e1290e2ae2bca6fcb75076deb4",
     "subject": "Editorial: Inline the relevant portions of String.prototype.toUpperCase"
    },
    {
     "adate": "2020-08-12T18:57:03-04:00",
     "author": "Richard Gibson",
-    "date": "2020-08-12T18:57:39-04:00",
-    "hash": "20ef67cf929fc225b689bf549d4a45949d8ae14d",
-    "parents": "890e862f6ea4088125bbf5166606831767f7fb89",
+    "date": "2020-08-20T19:58:21-04:00",
+    "hash": "2fee4b5e339742e1290e2ae2bca6fcb75076deb4",
+    "parents": "20d6bfdfc65da9874f9f84414caad9b4a5e2060b",
     "subject": "Editorial: Reduce polarity flips in Canonicalize"
    },
    {
     "adate": "2020-08-04T18:43:34-04:00",
     "author": "Richard Gibson",
-    "date": "2020-08-12T18:57:39-04:00",
-    "hash": "890e862f6ea4088125bbf5166606831767f7fb89",
-    "parents": "3e875d62f6d3c4b5ab57d01f3744966697f19011",
+    "date": "2020-08-20T19:58:21-04:00",
+    "hash": "20d6bfdfc65da9874f9f84414caad9b4a5e2060b",
+    "parents": "1f249d2f106b0b00bd915a4547fc93bf91e9501a",
     "subject": "Editorial: Avoid confusion with 0-based indexing in BackreferenceMatcher and callers"
    },
    {
     "adate": "2020-08-04T16:00:54-04:00",
     "author": "Richard Gibson",
-    "date": "2020-08-12T18:57:39-04:00",
-    "hash": "3e875d62f6d3c4b5ab57d01f3744966697f19011",
-    "parents": "e82e75b2418bf6055bce181b2bc03988ad624043",
+    "date": "2020-08-20T19:58:21-04:00",
+    "hash": "1f249d2f106b0b00bd915a4547fc93bf91e9501a",
+    "parents": "e290b7b618d1e9afa024841b05469e1dfb2d2c06",
     "subject": "Editorial: Introduce a temporary spec variable to avoid an immediate overwrite"
-   },
-   {
-    "adate": "2020-08-04T15:59:24-04:00",
-    "author": "Richard Gibson",
-    "date": "2020-08-12T18:57:39-04:00",
-    "hash": "e82e75b2418bf6055bce181b2bc03988ad624043",
-    "parents": "3e79d6962d5093ca04aef94f18cc9644fce42136",
-    "subject": "Editorial: Add notes about the 1-based indexing of regular expression _captures_"
    },
    {
     "adate": "2020-07-24T18:05:06-04:00",
     "author": "Richard Gibson",
-    "date": "2020-08-12T18:57:39-04:00",
-    "hash": "3e79d6962d5093ca04aef94f18cc9644fce42136",
-    "parents": "ef14a07e9c867c643c73202975e0c0b0352aa5af",
+    "date": "2020-08-20T19:58:21-04:00",
+    "hash": "e290b7b618d1e9afa024841b05469e1dfb2d2c06",
+    "parents": "5347cf9f44839b2eb7f261c4e6000ad1e42fed6b",
     "subject": "Editorial: Convert WordCharacters to a common alias"
    },
    {
     "adate": "2020-07-24T18:03:49-04:00",
     "author": "Richard Gibson",
-    "date": "2020-08-12T18:57:39-04:00",
-    "hash": "ef14a07e9c867c643c73202975e0c0b0352aa5af",
-    "parents": "81c11c66f5b5baf25ad563e868be9440aa3124d4",
+    "date": "2020-08-20T19:58:21-04:00",
+    "hash": "5347cf9f44839b2eb7f261c4e6000ad1e42fed6b",
+    "parents": "f652f162de2e77700d923fb7c926dea5ba0b8afc",
     "subject": "Editorial: Update regular expression algorithms to use prevailing shorthand syntax"
    },
    {
     "adate": "2020-07-24T14:16:35-04:00",
     "author": "Richard Gibson",
-    "date": "2020-08-12T18:57:39-04:00",
-    "hash": "81c11c66f5b5baf25ad563e868be9440aa3124d4",
-    "parents": "2c5767d176b30a5f5279589f84d78672a1c30fd6",
+    "date": "2020-08-20T19:58:20-04:00",
+    "hash": "f652f162de2e77700d923fb7c926dea5ba0b8afc",
+    "parents": "3ec6e1bfcad2d0a784057e4e644dd8c120228080",
     "subject": "Editorial: Simplify CharacterSetMatcher"
    },
    {
     "adate": "2020-07-24T14:14:54-04:00",
     "author": "Richard Gibson",
-    "date": "2020-08-12T18:57:39-04:00",
-    "hash": "2c5767d176b30a5f5279589f84d78672a1c30fd6",
-    "parents": "4069869e736771104006f8f00a2eb8b382b57800",
+    "date": "2020-08-20T19:58:20-04:00",
+    "hash": "3ec6e1bfcad2d0a784057e4e644dd8c120228080",
+    "parents": "93ac76898d9f74e39f68ac53edbad68b3822c949",
     "subject": "Editorial: Consistently use CharSet in Regular Expression Pattern Semantics"
    }
   ],
   "title": "Editorial: Improve internal and external consistency of RegExp pattern semantics",
-  "updated_at": "2020-08-20T01:53:13Z"
+  "updated_at": "2020-08-21T00:10:09Z"
  },
  {
   "base": "721293e0fff964c4cdd3397fcbc7def1de9f9b4e",
