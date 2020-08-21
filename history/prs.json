@@ -182,11 +182,19 @@
  {
   "base": "93ac76898d9f74e39f68ac53edbad68b3822c949",
   "created_at": "2020-08-17T21:28:02Z",
-  "head": "8031424784b7c862d46348126edc5356cf9bdaf8",
+  "head": "fbe6bf6a29a3ae34ad7c04d2d68cc985fda712e0",
   "login": "tc39",
   "number": 2139,
   "ref": "reified-rest-parameters",
   "revs": [
+   {
+    "adate": "2020-08-20T19:36:22-07:00",
+    "author": "Michael Ficarra",
+    "date": "2020-08-20T19:36:22-07:00",
+    "hash": "fbe6bf6a29a3ae34ad7c04d2d68cc985fda712e0",
+    "parents": "8031424784b7c862d46348126edc5356cf9bdaf8",
+    "subject": "spacing"
+   },
    {
     "adate": "2020-08-20T19:26:02-07:00",
     "author": "Michael Ficarra",
@@ -221,7 +229,7 @@
    }
   ],
   "title": "Editorial: rest parameters are reified as spec Lists",
-  "updated_at": "2020-08-21T02:33:12Z"
+  "updated_at": "2020-08-21T02:49:47Z"
  },
  {
   "base": "aa2b7bb9c1762ae23ff6fab75e8c0914ad4160d4",
