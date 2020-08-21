@@ -678,94 +678,78 @@
  {
   "base": "93ac76898d9f74e39f68ac53edbad68b3822c949",
   "created_at": "2020-07-24T22:14:39Z",
-  "head": "4c9804965e0fa31385802a37b716a460186acd4e",
+  "head": "fa075125865895edc258541f8a4f126ca27c6132",
   "login": "gibson042",
   "number": 2112,
   "ref": "2020-07-CharSet",
   "revs": [
    {
-    "adate": "2020-08-19T21:49:13-04:00",
-    "author": "Richard Gibson",
-    "date": "2020-08-20T20:01:07-04:00",
-    "hash": "4c9804965e0fa31385802a37b716a460186acd4e",
-    "parents": "d96d0ff2535fbcfdd29e8dfae66b901e89b50a7b",
-    "subject": "Editorial: Revert change to =/\u2260 boolean comparison"
-   },
-   {
-    "adate": "2020-08-12T19:26:08-04:00",
-    "author": "Richard Gibson",
-    "date": "2020-08-20T20:00:57-04:00",
-    "hash": "d96d0ff2535fbcfdd29e8dfae66b901e89b50a7b",
-    "parents": "2b64a80a684d96dd46ffb2fe2ccbd2810ab9e7c5",
-    "subject": "Editorial: Changes per review"
-   },
-   {
     "adate": "2020-08-12T19:01:22-04:00",
     "author": "Richard Gibson",
-    "date": "2020-08-20T19:58:22-04:00",
-    "hash": "2b64a80a684d96dd46ffb2fe2ccbd2810ab9e7c5",
-    "parents": "2fee4b5e339742e1290e2ae2bca6fcb75076deb4",
+    "date": "2020-08-20T18:01:01-07:00",
+    "hash": "fa075125865895edc258541f8a4f126ca27c6132",
+    "parents": "3148a4d104b5999ee2edb9f191de29b5739f633a",
     "subject": "Editorial: Inline the relevant portions of String.prototype.toUpperCase"
    },
    {
     "adate": "2020-08-12T18:57:03-04:00",
     "author": "Richard Gibson",
-    "date": "2020-08-20T19:58:21-04:00",
-    "hash": "2fee4b5e339742e1290e2ae2bca6fcb75076deb4",
-    "parents": "20d6bfdfc65da9874f9f84414caad9b4a5e2060b",
+    "date": "2020-08-20T18:01:01-07:00",
+    "hash": "3148a4d104b5999ee2edb9f191de29b5739f633a",
+    "parents": "4b2e2f5e2d2946d5fb70c83996e17209c47f1701",
     "subject": "Editorial: Reduce polarity flips in Canonicalize"
    },
    {
     "adate": "2020-08-04T18:43:34-04:00",
     "author": "Richard Gibson",
-    "date": "2020-08-20T19:58:21-04:00",
-    "hash": "20d6bfdfc65da9874f9f84414caad9b4a5e2060b",
-    "parents": "1f249d2f106b0b00bd915a4547fc93bf91e9501a",
+    "date": "2020-08-20T18:01:00-07:00",
+    "hash": "4b2e2f5e2d2946d5fb70c83996e17209c47f1701",
+    "parents": "eb2bf978117d7fce510e73f86ad0adb921825608",
     "subject": "Editorial: Avoid confusion with 0-based indexing in BackreferenceMatcher and callers"
    },
    {
     "adate": "2020-08-04T16:00:54-04:00",
     "author": "Richard Gibson",
-    "date": "2020-08-20T19:58:21-04:00",
-    "hash": "1f249d2f106b0b00bd915a4547fc93bf91e9501a",
-    "parents": "e290b7b618d1e9afa024841b05469e1dfb2d2c06",
+    "date": "2020-08-20T17:59:11-07:00",
+    "hash": "eb2bf978117d7fce510e73f86ad0adb921825608",
+    "parents": "891833dabaa4d217c96b22c38ea9c5b75cf617a8",
     "subject": "Editorial: Introduce a temporary spec variable to avoid an immediate overwrite"
    },
    {
     "adate": "2020-07-24T18:05:06-04:00",
     "author": "Richard Gibson",
-    "date": "2020-08-20T19:58:21-04:00",
-    "hash": "e290b7b618d1e9afa024841b05469e1dfb2d2c06",
-    "parents": "5347cf9f44839b2eb7f261c4e6000ad1e42fed6b",
+    "date": "2020-08-20T17:59:11-07:00",
+    "hash": "891833dabaa4d217c96b22c38ea9c5b75cf617a8",
+    "parents": "d91f26b1368a50817386d084e332d17c378e6c99",
     "subject": "Editorial: Convert WordCharacters to a common alias"
    },
    {
     "adate": "2020-07-24T18:03:49-04:00",
     "author": "Richard Gibson",
-    "date": "2020-08-20T19:58:21-04:00",
-    "hash": "5347cf9f44839b2eb7f261c4e6000ad1e42fed6b",
-    "parents": "f652f162de2e77700d923fb7c926dea5ba0b8afc",
+    "date": "2020-08-20T17:59:10-07:00",
+    "hash": "d91f26b1368a50817386d084e332d17c378e6c99",
+    "parents": "cb138218d4ad546f69e8bef0eba7a5a73caf8927",
     "subject": "Editorial: Update regular expression algorithms to use prevailing shorthand syntax"
    },
    {
     "adate": "2020-07-24T14:16:35-04:00",
     "author": "Richard Gibson",
-    "date": "2020-08-20T19:58:20-04:00",
-    "hash": "f652f162de2e77700d923fb7c926dea5ba0b8afc",
-    "parents": "3ec6e1bfcad2d0a784057e4e644dd8c120228080",
+    "date": "2020-08-20T17:56:07-07:00",
+    "hash": "cb138218d4ad546f69e8bef0eba7a5a73caf8927",
+    "parents": "9137729742892403082a8bd91eadf7910870c870",
     "subject": "Editorial: Simplify CharacterSetMatcher"
    },
    {
     "adate": "2020-07-24T14:14:54-04:00",
     "author": "Richard Gibson",
-    "date": "2020-08-20T19:58:20-04:00",
-    "hash": "3ec6e1bfcad2d0a784057e4e644dd8c120228080",
+    "date": "2020-08-20T17:56:03-07:00",
+    "hash": "9137729742892403082a8bd91eadf7910870c870",
     "parents": "93ac76898d9f74e39f68ac53edbad68b3822c949",
     "subject": "Editorial: Consistently use CharSet in Regular Expression Pattern Semantics"
    }
   ],
   "title": "Editorial: Improve internal and external consistency of RegExp pattern semantics",
-  "updated_at": "2020-08-21T00:10:09Z"
+  "updated_at": "2020-08-21T01:04:14Z"
  },
  {
   "base": "721293e0fff964c4cdd3397fcbc7def1de9f9b4e",
