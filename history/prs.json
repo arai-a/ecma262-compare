@@ -28,40 +28,32 @@
   "updated_at": "2020-08-21T00:10:01Z"
  },
  {
-  "base": "93ac76898d9f74e39f68ac53edbad68b3822c949",
+  "base": "4efa95cfc13da8537aa914746260b3d97f5ffe88",
   "created_at": "2020-08-20T22:25:49Z",
-  "head": "3efd8bb7684b775e5b17ef7082be11ea2d9b8d33",
+  "head": "ede94de47713adfee67929597ddb6b478bc2af6c",
   "login": "gibson042",
   "number": 2149,
   "ref": "2020-08-ascii-consistency",
   "revs": [
    {
-    "adate": "2020-08-20T19:46:25-04:00",
-    "author": "Richard Gibson",
-    "date": "2020-08-20T19:46:25-04:00",
-    "hash": "3efd8bb7684b775e5b17ef7082be11ea2d9b8d33",
-    "parents": "9a256fcd35de61654b5fd3d41b4e7863a0e946c6",
-    "subject": "Editorial: Restore curly quotes"
-   },
-   {
     "adate": "2020-08-20T18:04:11-04:00",
     "author": "Richard Gibson",
-    "date": "2020-08-20T18:04:11-04:00",
-    "hash": "9a256fcd35de61654b5fd3d41b4e7863a0e946c6",
-    "parents": "2e3f27f8f1a6ff55279b8b5b19d5de680640a2ac",
+    "date": "2020-08-21T11:16:56-04:00",
+    "hash": "ede94de47713adfee67929597ddb6b478bc2af6c",
+    "parents": "9e427ee60b3a4a92fb0df64a6d871cfdd3333b26",
     "subject": "Editorial: For consistency, replace non-ASCII guillemets with \"&[lr]aquo;\" character references"
    },
    {
     "adate": "2020-08-20T17:56:16-04:00",
     "author": "Richard Gibson",
-    "date": "2020-08-20T17:56:16-04:00",
-    "hash": "2e3f27f8f1a6ff55279b8b5b19d5de680640a2ac",
-    "parents": "93ac76898d9f74e39f68ac53edbad68b3822c949",
-    "subject": "Editorial: For consistency, replace non-ASCII \"smart quotes\" with U+0022 QUOTATION MARK"
+    "date": "2020-08-21T11:15:40-04:00",
+    "hash": "9e427ee60b3a4a92fb0df64a6d871cfdd3333b26",
+    "parents": "4efa95cfc13da8537aa914746260b3d97f5ffe88",
+    "subject": "Editorial: For consistency, replace non-ASCII \"curly quotes\" with \"&[lr]dquo;\" character references"
    }
   ],
   "title": "Editorial: Replace non-ASCII quotes",
-  "updated_at": "2020-08-20T23:46:33Z"
+  "updated_at": "2020-08-21T15:19:47Z"
  },
  {
   "base": "aead0a396d38b0db318d8b8fef66e02c1e3e0e01",
