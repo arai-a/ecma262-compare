@@ -1,5 +1,41 @@
 [
  {
+  "base": "4efa95cfc13da8537aa914746260b3d97f5ffe88",
+  "created_at": "2020-08-22T22:55:18Z",
+  "head": "65146262e8d37ea05a486106742dd53a4364ce58",
+  "login": "tc39",
+  "number": 2151,
+  "ref": "numeric-separator-alt",
+  "revs": [
+   {
+    "adate": "2020-08-22T15:46:28-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-08-22T15:46:28-07:00",
+    "hash": "65146262e8d37ea05a486106742dd53a4364ce58",
+    "parents": "39a56937007ea0e4edecda3576bf0317c6f74bdd",
+    "subject": "annex a"
+   },
+   {
+    "adate": "2020-08-22T15:45:35-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-08-22T15:45:35-07:00",
+    "hash": "39a56937007ea0e4edecda3576bf0317c6f74bdd",
+    "parents": "56673b5f7978d2a1501b44f40081c669409ae623",
+    "subject": "annex b"
+   },
+   {
+    "adate": "2020-08-22T15:18:17-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-08-22T15:18:17-07:00",
+    "hash": "56673b5f7978d2a1501b44f40081c669409ae623",
+    "parents": "4efa95cfc13da8537aa914746260b3d97f5ffe88",
+    "subject": "non-annex stuff"
+   }
+  ],
+  "title": "Normative: add NumericLiteralSeparator",
+  "updated_at": "2020-08-22T23:01:01Z"
+ },
+ {
   "base": "93ac76898d9f74e39f68ac53edbad68b3822c949",
   "created_at": "2020-08-21T00:10:01Z",
   "head": "5e494e3a9477a737e88e3f960b053143113e067b",
@@ -1582,11 +1618,19 @@
  {
   "base": "4069869e736771104006f8f00a2eb8b382b57800",
   "created_at": "2020-06-12T01:25:58Z",
-  "head": "331d0718ba1f727fc7624c83d2ef6592e7804823",
+  "head": "9346e7b289fec6e5897a11ec40b37b90a796745a",
   "login": "rwaldron",
   "number": 2043,
   "ref": "numeric-separator",
   "revs": [
+   {
+    "adate": "2020-08-22T15:58:04-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-08-22T15:58:04-07:00",
+    "hash": "9346e7b289fec6e5897a11ec40b37b90a796745a",
+    "parents": "331d0718ba1f727fc7624c83d2ef6592e7804823",
+    "subject": "Fix NLS in DecimalBigIntegerLiteral"
+   },
    {
     "adate": "2020-06-29T15:06:42-04:00",
     "author": "Rick Waldron",
@@ -1605,7 +1649,7 @@
    }
   ],
   "title": "Normative: add NumericLiteralSeparator",
-  "updated_at": "2020-08-12T18:02:11Z"
+  "updated_at": "2020-08-22T23:05:37Z"
  },
  {
   "base": "e8fd7babb794c85137ddebd6b38baab777f4d366",
