@@ -93,26 +93,6 @@
  },
  {
   "base": "aead0a396d38b0db318d8b8fef66e02c1e3e0e01",
-  "created_at": "2020-08-19T17:14:34Z",
-  "head": "edf9936ed56badbb6bbb9ac5c9c44bb7631edfb6",
-  "login": "shvaikalesh",
-  "number": 2146,
-  "ref": "function-prototype-bind-length",
-  "revs": [
-   {
-    "adate": "2020-08-19T20:09:29+03:00",
-    "author": "Alexey Shvayka",
-    "date": "2020-08-19T20:09:29+03:00",
-    "hash": "edf9936ed56badbb6bbb9ac5c9c44bb7631edfb6",
-    "parents": "aead0a396d38b0db318d8b8fef66e02c1e3e0e01",
-    "subject": "Editorial: Tweak \"length\" handling in Function.prototype.bind"
-   }
-  ],
-  "title": "Editorial: Tweak \"length\" handling in Function.prototype.bind",
-  "updated_at": "2020-08-19T17:14:34Z"
- },
- {
-  "base": "aead0a396d38b0db318d8b8fef66e02c1e3e0e01",
   "created_at": "2020-08-19T16:13:35Z",
   "head": "cc7f649322d320059c2561435937bbff28bf780a",
   "login": "shvaikalesh",
@@ -174,22 +154,22 @@
  {
   "base": "4efa95cfc13da8537aa914746260b3d97f5ffe88",
   "created_at": "2020-08-17T21:28:02Z",
-  "head": "143e348b8b6567da98e67cfba2ca490396cc8e97",
+  "head": "33d67c6083ad91f37fb0e99a997da0b50a4ecab8",
   "login": "tc39",
   "number": 2139,
   "ref": "reified-rest-parameters",
   "revs": [
    {
-    "adate": "2020-08-17T14:21:29-07:00",
+    "adate": "2020-08-23T13:41:55-07:00",
     "author": "Michael Ficarra",
-    "date": "2020-08-21T08:51:27-07:00",
-    "hash": "143e348b8b6567da98e67cfba2ca490396cc8e97",
+    "date": "2020-08-23T13:41:55-07:00",
+    "hash": "33d67c6083ad91f37fb0e99a997da0b50a4ecab8",
     "parents": "4efa95cfc13da8537aa914746260b3d97f5ffe88",
-    "subject": "Editorial: rest parameters are reified as spec Lists"
+    "subject": "Editorial: rest parameters are reified as spec Lists (#2139)"
    }
   ],
   "title": "Editorial: rest parameters are reified as spec Lists",
-  "updated_at": "2020-08-21T15:54:09Z"
+  "updated_at": "2020-08-23T20:42:08Z"
  },
  {
   "base": "aa2b7bb9c1762ae23ff6fab75e8c0914ad4160d4",
@@ -318,11 +298,19 @@
  {
   "base": "3750b81c637c58a2168495ccb62417adf196b5b4",
   "created_at": "2020-08-10T06:01:26Z",
-  "head": "a96dbf5087040c25e64c7b01021f7a2d57feb2ad",
+  "head": "ba122bf05b7dca231440bb03f07a0f3742cb0faf",
   "login": "h2oche",
   "number": 2130,
   "ref": "prop-eval",
   "revs": [
+   {
+    "adate": "2020-08-23T13:43:00-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-08-23T13:43:00-07:00",
+    "hash": "ba122bf05b7dca231440bb03f07a0f3742cb0faf",
+    "parents": "a96dbf5087040c25e64c7b01021f7a2d57feb2ad",
+    "subject": "add ? in Annex B also"
+   },
    {
     "adate": "2020-08-10T14:52:07+09:00",
     "author": "h2oche",
@@ -333,7 +321,7 @@
    }
   ],
   "title": "Editorial: Add missing ReturnIfAbrupt to PropertyDefinitionEvaluation",
-  "updated_at": "2020-08-17T06:05:05Z"
+  "updated_at": "2020-08-23T20:53:30Z"
  },
  {
   "base": "019d49816879fc814097914d3e3ce7c7e1b081ed",
