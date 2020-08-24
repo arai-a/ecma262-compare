@@ -160,13 +160,21 @@
   "updated_at": "2020-08-19T20:26:15Z"
  },
  {
-  "base": "4efa95cfc13da8537aa914746260b3d97f5ffe88",
+  "base": "8d580b6a736948a6481fd5bebb74da49a1846460",
   "created_at": "2020-08-18T22:31:54Z",
-  "head": "d8902ffa8eb4768738b1a9bc0217364f2e105511",
+  "head": "cb58c3d6f9852d793a5816055c258082fac3f0ce",
   "login": "tc39",
   "number": 2142,
   "ref": "be-a-new-list",
   "revs": [
+   {
+    "adate": "2020-08-24T11:50:07-07:00",
+    "author": "Michael Ficarra",
+    "date": "2020-08-24T11:50:07-07:00",
+    "hash": "cb58c3d6f9852d793a5816055c258082fac3f0ce",
+    "parents": "d8902ffa8eb4768738b1a9bc0217364f2e105511 8d580b6a736948a6481fd5bebb74da49a1846460",
+    "subject": "Merge branch 'master' into be-a-new-list"
+   },
    {
     "adate": "2020-08-18T14:33:43-07:00",
     "author": "Michael Ficarra",
@@ -177,7 +185,7 @@
    }
   ],
   "title": "Editorial: normalisation around List construction",
-  "updated_at": "2020-08-21T15:56:45Z"
+  "updated_at": "2020-08-24T18:50:11Z"
  },
  {
   "base": "4efa95cfc13da8537aa914746260b3d97f5ffe88",
