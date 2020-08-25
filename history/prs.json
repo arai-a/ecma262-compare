@@ -188,34 +188,6 @@
   "updated_at": "2020-08-24T18:50:11Z"
  },
  {
-  "base": "8d580b6a736948a6481fd5bebb74da49a1846460",
-  "created_at": "2020-08-17T21:28:02Z",
-  "head": "899413c80ffe760e42a6d9f6e1e81b49f7e7c13f",
-  "login": "tc39",
-  "number": 2139,
-  "ref": "reified-rest-parameters",
-  "revs": [
-   {
-    "adate": "2020-08-24T16:26:26-07:00",
-    "author": "Michael Ficarra",
-    "date": "2020-08-24T16:26:26-07:00",
-    "hash": "899413c80ffe760e42a6d9f6e1e81b49f7e7c13f",
-    "parents": "33d67c6083ad91f37fb0e99a997da0b50a4ecab8 8d580b6a736948a6481fd5bebb74da49a1846460",
-    "subject": "Merge branch 'master' into reified-rest-parameters"
-   },
-   {
-    "adate": "2020-08-23T13:41:55-07:00",
-    "author": "Michael Ficarra",
-    "date": "2020-08-23T13:41:55-07:00",
-    "hash": "33d67c6083ad91f37fb0e99a997da0b50a4ecab8",
-    "parents": "4efa95cfc13da8537aa914746260b3d97f5ffe88",
-    "subject": "Editorial: rest parameters are reified as spec Lists (#2139)"
-   }
-  ],
-  "title": "Editorial: rest parameters are reified as spec Lists",
-  "updated_at": "2020-08-24T23:26:30Z"
- },
- {
   "base": "aa2b7bb9c1762ae23ff6fab75e8c0914ad4160d4",
   "created_at": "2020-08-17T18:44:30Z",
   "head": "2b5beb113fa1277e5828e035b1075de817b260c5",
@@ -318,26 +290,6 @@
   ],
   "title": "Editorial: Add explicit early errors for (n)octal escape in directive prologue",
   "updated_at": "2020-08-20T18:59:17Z"
- },
- {
-  "base": "f3455c20a7287b0048cf23cd3be0f0826f88ad78",
-  "created_at": "2020-08-10T23:51:13Z",
-  "head": "5859ddb77461e29b32d4cf7c4ce2f286ae0d8f0e",
-  "login": "ljharb",
-  "number": 2131,
-  "ref": "consistent_intrinsics",
-  "revs": [
-   {
-    "adate": "2020-08-11T10:29:53-07:00",
-    "author": "Jordan Harband",
-    "date": "2020-08-11T10:29:53-07:00",
-    "hash": "5859ddb77461e29b32d4cf7c4ce2f286ae0d8f0e",
-    "parents": "f3455c20a7287b0048cf23cd3be0f0826f88ad78",
-    "subject": "Editorial: consistently connect Prototype objects to the appropriate `.prototype` property"
-   }
-  ],
-  "title": "Editorial: consistently connect Prototype objects to the appropriate `.prototype` property",
-  "updated_at": "2020-08-11T17:30:05Z"
  },
  {
   "base": "3750b81c637c58a2168495ccb62417adf196b5b4",
@@ -1080,9 +1032,9 @@
   "updated_at": "2020-07-07T04:51:28Z"
  },
  {
-  "base": "f3455c20a7287b0048cf23cd3be0f0826f88ad78",
+  "base": "11de25489a3e325b4b4c0575847d3bb9f51c7199",
   "created_at": "2020-06-24T23:18:34Z",
-  "head": "9df207867be55d044309adb19570d5944adcab19",
+  "head": "e091a9864509230ee3f39a083229939e85e5e919",
   "login": "ljharb",
   "number": 2065,
   "ref": "degenerate",
@@ -1090,22 +1042,14 @@
    {
     "adate": "2020-08-05T15:31:55-07:00",
     "author": "Jordan Harband",
-    "date": "2020-08-11T10:30:06-07:00",
-    "hash": "9df207867be55d044309adb19570d5944adcab19",
-    "parents": "5859ddb77461e29b32d4cf7c4ce2f286ae0d8f0e",
+    "date": "2020-08-24T22:08:42-07:00",
+    "hash": "e091a9864509230ee3f39a083229939e85e5e919",
+    "parents": "11de25489a3e325b4b4c0575847d3bb9f51c7199",
     "subject": "Editorial: remove `%Generator%` and `%AsyncGenerator%` in favor of dotted forms (#2065)"
-   },
-   {
-    "adate": "2020-08-11T10:29:53-07:00",
-    "author": "Jordan Harband",
-    "date": "2020-08-11T10:29:53-07:00",
-    "hash": "5859ddb77461e29b32d4cf7c4ce2f286ae0d8f0e",
-    "parents": "f3455c20a7287b0048cf23cd3be0f0826f88ad78",
-    "subject": "Editorial: consistently connect Prototype objects to the appropriate `.prototype` property"
    }
   ],
   "title": "Editorial: remove `%Generator%` and `%AsyncGenerator%` in favor of dotted forms",
-  "updated_at": "2020-08-11T17:30:19Z"
+  "updated_at": "2020-08-25T05:09:03Z"
  },
  {
   "base": "721293e0fff964c4cdd3397fcbc7def1de9f9b4e",
