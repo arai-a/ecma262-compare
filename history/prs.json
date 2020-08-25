@@ -30,11 +30,19 @@
  {
   "base": "4efa95cfc13da8537aa914746260b3d97f5ffe88",
   "created_at": "2020-08-22T22:55:18Z",
-  "head": "ddd464e70a023fcc13300dc665192a588e202157",
+  "head": "d2d09bb2c0f6f35ece95d4d6c5662132c2fc439f",
   "login": "tc39",
   "number": 2151,
   "ref": "numeric-separator-alt",
   "revs": [
+   {
+    "adate": "2020-08-24T22:31:25-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-08-24T22:31:25-07:00",
+    "hash": "d2d09bb2c0f6f35ece95d4d6c5662132c2fc439f",
+    "parents": "ddd464e70a023fcc13300dc665192a588e202157",
+    "subject": "? -> +"
+   },
    {
     "adate": "2020-08-22T15:46:28-07:00",
     "author": "Kevin Gibbons",
@@ -61,7 +69,7 @@
    }
   ],
   "title": "Normative: add NumericLiteralSeparator",
-  "updated_at": "2020-08-22T23:18:25Z"
+  "updated_at": "2020-08-25T05:32:09Z"
  },
  {
   "base": "93ac76898d9f74e39f68ac53edbad68b3822c949",
