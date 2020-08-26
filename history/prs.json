@@ -1,5 +1,25 @@
 [
  {
+  "base": "11de25489a3e325b4b4c0575847d3bb9f51c7199",
+  "created_at": "2020-08-26T21:21:44Z",
+  "head": "b69eb3d16822925a0b62c8c2585506828f530ce8",
+  "login": "shvaikalesh",
+  "number": 2153,
+  "ref": "function-length-is-non-negative",
+  "revs": [
+   {
+    "adate": "2020-08-27T00:20:28+03:00",
+    "author": "Alexey Shvayka",
+    "date": "2020-08-27T00:20:28+03:00",
+    "hash": "b69eb3d16822925a0b62c8c2585506828f530ce8",
+    "parents": "11de25489a3e325b4b4c0575847d3bb9f51c7199",
+    "subject": "Editorial: Clarify that \"length\" value of built-in functions is non-negative"
+   }
+  ],
+  "title": "Editorial: Clarify that \"length\" value of built-in functions is non-negative",
+  "updated_at": "2020-08-26T21:35:05Z"
+ },
+ {
   "base": "8d580b6a736948a6481fd5bebb74da49a1846460",
   "created_at": "2020-08-23T23:41:45Z",
   "head": "764271eb543da614e586eb2eed19fec0ec2df641",
