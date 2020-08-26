@@ -1,5 +1,29 @@
 [
  {
+  "adate": "2020-08-26T15:25:03-07:00",
+  "author": "Richard Gibson",
+  "date": "2020-08-26T15:25:03-07:00",
+  "hash": "420e82e8b2cb4114e6dd412cc1e67f6ebc436bde",
+  "parents": "2c66f836963ed0cc94143b986841e6cbf79d517c",
+  "subject": "Editorial: Inline the relevant portions of String.prototype.toUpperCase (#2112)"
+ },
+ {
+  "adate": "2020-08-26T15:25:02-07:00",
+  "author": "Richard Gibson",
+  "date": "2020-08-26T15:25:02-07:00",
+  "hash": "2c66f836963ed0cc94143b986841e6cbf79d517c",
+  "parents": "da0a3f6d0685b3b5838c0b94dabb663495fe8271",
+  "subject": "Editorial: Reduce polarity flips in Canonicalize (#2112)"
+ },
+ {
+  "adate": "2020-08-26T15:25:01-07:00",
+  "author": "Richard Gibson",
+  "date": "2020-08-26T15:25:01-07:00",
+  "hash": "da0a3f6d0685b3b5838c0b94dabb663495fe8271",
+  "parents": "686240ced6f9c05bfed26b7b77db0ef0dd4dcc79",
+  "subject": "Editorial: Avoid confusion with 0-based indexing in BackreferenceMatcher and callers (#2112)"
+ },
+ {
   "adate": "2020-08-26T15:25:00-07:00",
   "author": "Richard Gibson",
   "date": "2020-08-26T15:25:00-07:00",
