@@ -1,5 +1,25 @@
 [
  {
+  "base": "420e82e8b2cb4114e6dd412cc1e67f6ebc436bde",
+  "created_at": "2020-08-26T23:21:12Z",
+  "head": "6322daadd5819266f3a8c90690d09c68ddf62d6b",
+  "login": "ljharb",
+  "number": 2155,
+  "ref": "enumb",
+  "revs": [
+   {
+    "adate": "2020-08-26T16:36:24-07:00",
+    "author": "Bradley Farias",
+    "date": "2020-08-26T16:36:24-07:00",
+    "hash": "6322daadd5819266f3a8c90690d09c68ddf62d6b",
+    "parents": "420e82e8b2cb4114e6dd412cc1e67f6ebc436bde",
+    "subject": "Editorial: stop using strings for special values (#2155)"
+   }
+  ],
+  "title": "Editorial: stop using strings for special values",
+  "updated_at": "2020-08-26T23:36:31Z"
+ },
+ {
   "base": "11de25489a3e325b4b4c0575847d3bb9f51c7199",
   "created_at": "2020-08-26T22:13:54Z",
   "head": "49e5892ba2820f11b2e51f1884b6c7cdbfc4df3e",
