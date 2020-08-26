@@ -1,6 +1,66 @@
 [
  {
   "base": "11de25489a3e325b4b4c0575847d3bb9f51c7199",
+  "created_at": "2020-08-26T22:13:54Z",
+  "head": "17c517d3a992e11dbc4405a167218c39ba8c474a",
+  "login": "bmeck",
+  "number": 2154,
+  "ref": "arbitrary-module-namespace-identifier-names",
+  "revs": [
+   {
+    "adate": "2020-08-26T17:43:48-05:00",
+    "author": "Bradley Farias",
+    "date": "2020-08-26T17:43:48-05:00",
+    "hash": "17c517d3a992e11dbc4405a167218c39ba8c474a",
+    "parents": "3ad0eda3523696ae0eb7412a5eac84ccd3216a83",
+    "subject": "style"
+   },
+   {
+    "adate": "2020-08-26T17:41:21-05:00",
+    "author": "Bradley Farias",
+    "date": "2020-08-26T17:41:21-05:00",
+    "hash": "3ad0eda3523696ae0eb7412a5eac84ccd3216a83",
+    "parents": "5d2c8bb62f04604741f5020ca407e56bc077852f",
+    "subject": "spaces"
+   },
+   {
+    "adate": "2020-08-26T17:37:55-05:00",
+    "author": "Bradley Farias",
+    "date": "2020-08-26T17:37:55-05:00",
+    "hash": "5d2c8bb62f04604741f5020ca407e56bc077852f",
+    "parents": "406c8166bfbb9bb93aef724bc64cc7238da3e0a4",
+    "subject": "isStringValidUnicode bug"
+   },
+   {
+    "adate": "2020-08-26T17:36:32-05:00",
+    "author": "Bradley Farias",
+    "date": "2020-08-26T17:36:32-05:00",
+    "hash": "406c8166bfbb9bb93aef724bc64cc7238da3e0a4",
+    "parents": "83f77ebc3cd5c02c88ca0702079d404865026abd",
+    "subject": "export from clause bug"
+   },
+   {
+    "adate": "2020-08-26T17:13:26-05:00",
+    "author": "Bradley Farias",
+    "date": "2020-08-26T17:13:26-05:00",
+    "hash": "83f77ebc3cd5c02c88ca0702079d404865026abd",
+    "parents": "c68f30df517accdfc072234d8e8314c606de9a6d",
+    "subject": "stop using strings for special values"
+   },
+   {
+    "adate": "2020-08-26T17:00:58-05:00",
+    "author": "Bradley Farias",
+    "date": "2020-08-26T17:00:58-05:00",
+    "hash": "c68f30df517accdfc072234d8e8314c606de9a6d",
+    "parents": "11de25489a3e325b4b4c0575847d3bb9f51c7199",
+    "subject": "Allow import/export namespace names to be any unicode string"
+   }
+  ],
+  "title": "Normative: Arbitrary module namespace identifier names",
+  "updated_at": "2020-08-26T22:44:20Z"
+ },
+ {
+  "base": "11de25489a3e325b4b4c0575847d3bb9f51c7199",
   "created_at": "2020-08-26T21:21:44Z",
   "head": "b69eb3d16822925a0b62c8c2585506828f530ce8",
   "login": "shvaikalesh",
@@ -678,82 +738,6 @@
   ],
   "title": "Editorial: Add\u00a0`IfAbruptCloseIterator`\u00a0shorthand",
   "updated_at": "2020-07-26T15:00:56Z"
- },
- {
-  "base": "93ac76898d9f74e39f68ac53edbad68b3822c949",
-  "created_at": "2020-07-24T22:14:39Z",
-  "head": "fa075125865895edc258541f8a4f126ca27c6132",
-  "login": "gibson042",
-  "number": 2112,
-  "ref": "2020-07-CharSet",
-  "revs": [
-   {
-    "adate": "2020-08-12T19:01:22-04:00",
-    "author": "Richard Gibson",
-    "date": "2020-08-20T18:01:01-07:00",
-    "hash": "fa075125865895edc258541f8a4f126ca27c6132",
-    "parents": "3148a4d104b5999ee2edb9f191de29b5739f633a",
-    "subject": "Editorial: Inline the relevant portions of String.prototype.toUpperCase"
-   },
-   {
-    "adate": "2020-08-12T18:57:03-04:00",
-    "author": "Richard Gibson",
-    "date": "2020-08-20T18:01:01-07:00",
-    "hash": "3148a4d104b5999ee2edb9f191de29b5739f633a",
-    "parents": "4b2e2f5e2d2946d5fb70c83996e17209c47f1701",
-    "subject": "Editorial: Reduce polarity flips in Canonicalize"
-   },
-   {
-    "adate": "2020-08-04T18:43:34-04:00",
-    "author": "Richard Gibson",
-    "date": "2020-08-20T18:01:00-07:00",
-    "hash": "4b2e2f5e2d2946d5fb70c83996e17209c47f1701",
-    "parents": "eb2bf978117d7fce510e73f86ad0adb921825608",
-    "subject": "Editorial: Avoid confusion with 0-based indexing in BackreferenceMatcher and callers"
-   },
-   {
-    "adate": "2020-08-04T16:00:54-04:00",
-    "author": "Richard Gibson",
-    "date": "2020-08-20T17:59:11-07:00",
-    "hash": "eb2bf978117d7fce510e73f86ad0adb921825608",
-    "parents": "891833dabaa4d217c96b22c38ea9c5b75cf617a8",
-    "subject": "Editorial: Introduce a temporary spec variable to avoid an immediate overwrite"
-   },
-   {
-    "adate": "2020-07-24T18:05:06-04:00",
-    "author": "Richard Gibson",
-    "date": "2020-08-20T17:59:11-07:00",
-    "hash": "891833dabaa4d217c96b22c38ea9c5b75cf617a8",
-    "parents": "d91f26b1368a50817386d084e332d17c378e6c99",
-    "subject": "Editorial: Convert WordCharacters to a common alias"
-   },
-   {
-    "adate": "2020-07-24T18:03:49-04:00",
-    "author": "Richard Gibson",
-    "date": "2020-08-20T17:59:10-07:00",
-    "hash": "d91f26b1368a50817386d084e332d17c378e6c99",
-    "parents": "cb138218d4ad546f69e8bef0eba7a5a73caf8927",
-    "subject": "Editorial: Update regular expression algorithms to use prevailing shorthand syntax"
-   },
-   {
-    "adate": "2020-07-24T14:16:35-04:00",
-    "author": "Richard Gibson",
-    "date": "2020-08-20T17:56:07-07:00",
-    "hash": "cb138218d4ad546f69e8bef0eba7a5a73caf8927",
-    "parents": "9137729742892403082a8bd91eadf7910870c870",
-    "subject": "Editorial: Simplify CharacterSetMatcher"
-   },
-   {
-    "adate": "2020-07-24T14:14:54-04:00",
-    "author": "Richard Gibson",
-    "date": "2020-08-20T17:56:03-07:00",
-    "hash": "9137729742892403082a8bd91eadf7910870c870",
-    "parents": "93ac76898d9f74e39f68ac53edbad68b3822c949",
-    "subject": "Editorial: Consistently use CharSet in Regular Expression Pattern Semantics"
-   }
-  ],
-  "title": "Editorial: Improve internal and external consistency of RegExp pattern semantics",
-  "updated_at": "2020-08-21T01:04:14Z"
  },
  {
   "base": "721293e0fff964c4cdd3397fcbc7def1de9f9b4e",

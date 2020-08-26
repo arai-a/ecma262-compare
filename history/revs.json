@@ -1,5 +1,45 @@
 [
  {
+  "adate": "2020-08-26T15:25:00-07:00",
+  "author": "Richard Gibson",
+  "date": "2020-08-26T15:25:00-07:00",
+  "hash": "686240ced6f9c05bfed26b7b77db0ef0dd4dcc79",
+  "parents": "b5385b04f7a033afb1c6d5279a13b0fcfe25fa2d",
+  "subject": "Editorial: Introduce a temporary spec variable to avoid an immediate overwrite (#2112)"
+ },
+ {
+  "adate": "2020-08-26T15:24:59-07:00",
+  "author": "Richard Gibson",
+  "date": "2020-08-26T15:24:59-07:00",
+  "hash": "b5385b04f7a033afb1c6d5279a13b0fcfe25fa2d",
+  "parents": "68050e780902a89fb4b4d32b2f4e2de32a4e0af4",
+  "subject": "Editorial: Convert WordCharacters to a common alias (#2112)"
+ },
+ {
+  "adate": "2020-08-26T15:24:58-07:00",
+  "author": "Richard Gibson",
+  "date": "2020-08-26T15:24:58-07:00",
+  "hash": "68050e780902a89fb4b4d32b2f4e2de32a4e0af4",
+  "parents": "124072ad7018efb4b24705c5ab8d7ebdba9aa451",
+  "subject": "Editorial: Update regular expression algorithms to use prevailing shorthand syntax (#2112)"
+ },
+ {
+  "adate": "2020-08-26T15:24:57-07:00",
+  "author": "Richard Gibson",
+  "date": "2020-08-26T15:24:57-07:00",
+  "hash": "124072ad7018efb4b24705c5ab8d7ebdba9aa451",
+  "parents": "b7c0d9d79fea37494cd7b58c2622e839a5aa4815",
+  "subject": "Editorial: Simplify CharacterSetMatcher (#2112)"
+ },
+ {
+  "adate": "2020-08-26T15:24:54-07:00",
+  "author": "Richard Gibson",
+  "date": "2020-08-26T15:24:54-07:00",
+  "hash": "b7c0d9d79fea37494cd7b58c2622e839a5aa4815",
+  "parents": "11de25489a3e325b4b4c0575847d3bb9f51c7199",
+  "subject": "Editorial: Consistently use CharSet in Regular Expression Pattern Semantics (#2112)"
+ },
+ {
   "adate": "2020-08-24T22:03:06-07:00",
   "author": "Jordan Harband",
   "date": "2020-08-24T22:03:06-07:00",
