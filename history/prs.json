@@ -124,32 +124,48 @@
   "updated_at": "2020-08-26T21:35:05Z"
  },
  {
-  "base": "8d580b6a736948a6481fd5bebb74da49a1846460",
+  "base": "420e82e8b2cb4114e6dd412cc1e67f6ebc436bde",
   "created_at": "2020-08-23T23:41:45Z",
-  "head": "764271eb543da614e586eb2eed19fec0ec2df641",
+  "head": "878d678a70b9224c7376c124b94ad0cd6442eb4a",
   "login": "tc39",
   "number": 2152,
   "ref": "for-each-order",
   "revs": [
    {
+    "adate": "2020-08-26T22:07:37-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-08-26T22:07:37-07:00",
+    "hash": "878d678a70b9224c7376c124b94ad0cd6442eb4a",
+    "parents": "0b7796fae7fdbdbcbc902daec305e0f0c16e5e18",
+    "subject": "avoid manual indexing"
+   },
+   {
+    "adate": "2020-08-26T22:03:31-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-08-26T22:03:31-07:00",
+    "hash": "0b7796fae7fdbdbcbc902daec305e0f0c16e5e18",
+    "parents": "308c31451f503527f5ff273a40683e8821dda40f",
+    "subject": "walk lists rather than repeatedly popping"
+   },
+   {
     "adate": "2020-08-23T16:23:43-07:00",
     "author": "Kevin Gibbons",
-    "date": "2020-08-23T16:33:27-07:00",
-    "hash": "764271eb543da614e586eb2eed19fec0ec2df641",
-    "parents": "93b8db08e3ad4fc550539e1beb7451714f37d66d",
+    "date": "2020-08-26T21:58:33-07:00",
+    "hash": "308c31451f503527f5ff273a40683e8821dda40f",
+    "parents": "688ce4b8c339e6d69d1e0171f65c4b6ca87f768c",
     "subject": "for each _x_ of -> for each element _x_ of"
    },
    {
     "adate": "2020-08-23T16:17:59-07:00",
     "author": "Kevin Gibbons",
-    "date": "2020-08-23T16:33:23-07:00",
-    "hash": "93b8db08e3ad4fc550539e1beb7451714f37d66d",
-    "parents": "8d580b6a736948a6481fd5bebb74da49a1846460",
+    "date": "2020-08-26T21:58:14-07:00",
+    "hash": "688ce4b8c339e6d69d1e0171f65c4b6ca87f768c",
+    "parents": "420e82e8b2cb4114e6dd412cc1e67f6ebc436bde",
     "subject": "consistently \"of\", omit order when unnecessary"
    }
   ],
   "title": "Editorial: consistency around List iteration",
-  "updated_at": "2020-08-23T23:41:45Z"
+  "updated_at": "2020-08-27T05:12:25Z"
  },
  {
   "base": "4efa95cfc13da8537aa914746260b3d97f5ffe88",
