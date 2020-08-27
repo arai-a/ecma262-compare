@@ -1112,26 +1112,6 @@
   "updated_at": "2020-07-07T04:51:28Z"
  },
  {
-  "base": "420e82e8b2cb4114e6dd412cc1e67f6ebc436bde",
-  "created_at": "2020-06-24T23:18:34Z",
-  "head": "8f67a13e1af599fb31047c6f8e35acd7586d1bd1",
-  "login": "ljharb",
-  "number": 2065,
-  "ref": "degenerate",
-  "revs": [
-   {
-    "adate": "2020-08-26T23:02:25-07:00",
-    "author": "Jordan Harband",
-    "date": "2020-08-26T23:02:25-07:00",
-    "hash": "8f67a13e1af599fb31047c6f8e35acd7586d1bd1",
-    "parents": "420e82e8b2cb4114e6dd412cc1e67f6ebc436bde",
-    "subject": "Editorial: remove `%Generator%` and `%AsyncGenerator%` in favor of dotted forms (#2065)"
-   }
-  ],
-  "title": "Editorial: remove `%Generator%` and `%AsyncGenerator%` in favor of dotted forms",
-  "updated_at": "2020-08-27T06:02:38Z"
- },
- {
   "base": "721293e0fff964c4cdd3397fcbc7def1de9f9b4e",
   "created_at": "2020-06-23T18:40:07Z",
   "head": "8f8264646a8f39c9beaf62d9283ac0b5f09b1254",
@@ -1152,24 +1132,24 @@
   "updated_at": "2020-07-26T10:23:41Z"
  },
  {
-  "base": "ac0740b946108ecd5a8822ab487ab305d1808857",
+  "base": "8f67a13e1af599fb31047c6f8e35acd7586d1bd1",
   "created_at": "2020-06-19T04:32:04Z",
-  "head": "f647a445bbe053263a836150ff0ca81d601d332f",
+  "head": "df824efc4bf23e16be799aa8d744b33630e07f70",
   "login": "ljharb",
   "number": 2056,
   "ref": "legacy-intrinsics",
   "revs": [
    {
-    "adate": "2020-08-09T22:24:55-07:00",
+    "adate": "2020-08-27T00:13:49-07:00",
     "author": "Jordan Harband",
-    "date": "2020-08-10T23:12:00-07:00",
-    "hash": "f647a445bbe053263a836150ff0ca81d601d332f",
-    "parents": "ac0740b946108ecd5a8822ab487ab305d1808857",
-    "subject": "Editorial: remove legacy intrinsics"
+    "date": "2020-08-27T00:13:49-07:00",
+    "hash": "df824efc4bf23e16be799aa8d744b33630e07f70",
+    "parents": "8f67a13e1af599fb31047c6f8e35acd7586d1bd1",
+    "subject": "Editorial: remove legacy intrinsics (#2056)"
    }
   ],
   "title": "Editorial: remove legacy intrinsics",
-  "updated_at": "2020-08-11T06:12:08Z"
+  "updated_at": "2020-08-27T07:14:20Z"
  },
  {
   "base": "aead0a396d38b0db318d8b8fef66e02c1e3e0e01",
