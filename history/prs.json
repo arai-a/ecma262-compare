@@ -2,22 +2,22 @@
  {
   "base": "420e82e8b2cb4114e6dd412cc1e67f6ebc436bde",
   "created_at": "2020-08-26T23:21:12Z",
-  "head": "6322daadd5819266f3a8c90690d09c68ddf62d6b",
+  "head": "38c4c8e21a62350655250d54d0c3fb9bcf83f520",
   "login": "ljharb",
   "number": 2155,
   "ref": "enumb",
   "revs": [
    {
-    "adate": "2020-08-26T16:36:24-07:00",
+    "adate": "2020-08-26T16:39:43-07:00",
     "author": "Bradley Farias",
-    "date": "2020-08-26T16:36:24-07:00",
-    "hash": "6322daadd5819266f3a8c90690d09c68ddf62d6b",
+    "date": "2020-08-26T16:39:43-07:00",
+    "hash": "38c4c8e21a62350655250d54d0c3fb9bcf83f520",
     "parents": "420e82e8b2cb4114e6dd412cc1e67f6ebc436bde",
     "subject": "Editorial: stop using strings for special values (#2155)"
    }
   ],
   "title": "Editorial: stop using strings for special values",
-  "updated_at": "2020-08-26T23:36:31Z"
+  "updated_at": "2020-08-26T23:47:33Z"
  },
  {
   "base": "11de25489a3e325b4b4c0575847d3bb9f51c7199",
@@ -292,32 +292,24 @@
   "updated_at": "2020-08-19T20:26:15Z"
  },
  {
-  "base": "8d580b6a736948a6481fd5bebb74da49a1846460",
+  "base": "420e82e8b2cb4114e6dd412cc1e67f6ebc436bde",
   "created_at": "2020-08-18T22:31:54Z",
-  "head": "cb58c3d6f9852d793a5816055c258082fac3f0ce",
+  "head": "aa85331f0520eb3df5f3623efaa35061533b63e8",
   "login": "tc39",
   "number": 2142,
   "ref": "be-a-new-list",
   "revs": [
    {
-    "adate": "2020-08-24T11:50:07-07:00",
-    "author": "Michael Ficarra",
-    "date": "2020-08-24T11:50:07-07:00",
-    "hash": "cb58c3d6f9852d793a5816055c258082fac3f0ce",
-    "parents": "d8902ffa8eb4768738b1a9bc0217364f2e105511 8d580b6a736948a6481fd5bebb74da49a1846460",
-    "subject": "Merge branch 'master' into be-a-new-list"
-   },
-   {
     "adate": "2020-08-18T14:33:43-07:00",
     "author": "Michael Ficarra",
-    "date": "2020-08-21T08:56:34-07:00",
-    "hash": "d8902ffa8eb4768738b1a9bc0217364f2e105511",
-    "parents": "4efa95cfc13da8537aa914746260b3d97f5ffe88",
+    "date": "2020-08-26T17:14:10-07:00",
+    "hash": "aa85331f0520eb3df5f3623efaa35061533b63e8",
+    "parents": "420e82e8b2cb4114e6dd412cc1e67f6ebc436bde",
     "subject": "Editorial: normalisation around List construction"
    }
   ],
   "title": "Editorial: normalisation around List construction",
-  "updated_at": "2020-08-24T18:50:11Z"
+  "updated_at": "2020-08-27T00:16:10Z"
  },
  {
   "base": "aa2b7bb9c1762ae23ff6fab75e8c0914ad4160d4",
@@ -494,11 +486,27 @@
  {
   "base": "aead0a396d38b0db318d8b8fef66e02c1e3e0e01",
   "created_at": "2020-08-03T04:35:24Z",
-  "head": "c4730e891113b58d741b50218c346c35bb16b9f5",
+  "head": "5a290384b1fac4ae82f5909c4e10bbca74462f67",
   "login": "ryanjduffy",
   "number": 2122,
   "ref": "math-2119",
   "revs": [
+   {
+    "adate": "2020-08-26T16:56:19-07:00",
+    "author": "Ryan Duffy",
+    "date": "2020-08-26T16:56:19-07:00",
+    "hash": "5a290384b1fac4ae82f5909c4e10bbca74462f67",
+    "parents": "4f4d4e65c67eb577eece9e80525227a7b06affdd",
+    "subject": "simplify summaries"
+   },
+   {
+    "adate": "2020-08-26T16:46:56-07:00",
+    "author": "Ryan Duffy",
+    "date": "2020-08-26T16:46:56-07:00",
+    "hash": "4f4d4e65c67eb577eece9e80525227a7b06affdd",
+    "parents": "c4730e891113b58d741b50218c346c35bb16b9f5",
+    "subject": "arc => inverse"
+   },
    {
     "adate": "2020-08-22T06:11:10-07:00",
     "author": "Ryan Duffy",
@@ -685,7 +693,7 @@
    }
   ],
   "title": "Editorial: define Math functions using algorithm steps",
-  "updated_at": "2020-08-22T13:11:56Z"
+  "updated_at": "2020-08-27T00:12:53Z"
  },
  {
   "base": "019d49816879fc814097914d3e3ce7c7e1b081ed",
