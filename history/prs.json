@@ -1,5 +1,25 @@
 [
  {
+  "base": "fb22c2b291f357210d5d35637b3cf9ec1d163314",
+  "created_at": "2020-08-29T17:00:07Z",
+  "head": "1595c96d0bafdfd56f695b10a263bf5668243487",
+  "login": "shvaikalesh",
+  "number": 2158,
+  "ref": "remove-rest-arguments-notes",
+  "revs": [
+   {
+    "adate": "2020-08-28T09:52:15+03:00",
+    "author": "Alexey Shvayka",
+    "date": "2020-08-28T09:52:15+03:00",
+    "hash": "1595c96d0bafdfd56f695b10a263bf5668243487",
+    "parents": "fb22c2b291f357210d5d35637b3cf9ec1d163314",
+    "subject": "Editorial: Remove notes on well-formed rest arguments"
+   }
+  ],
+  "title": "Editorial: Remove notes on well-formed rest arguments",
+  "updated_at": "2020-08-29T17:00:07Z"
+ },
+ {
   "base": "420e82e8b2cb4114e6dd412cc1e67f6ebc436bde",
   "created_at": "2020-08-26T23:21:12Z",
   "head": "38c4c8e21a62350655250d54d0c3fb9bcf83f520",
@@ -238,34 +258,6 @@
   ],
   "title": "Editorial: Add notes about the 1-based indexing of regular expression _captures_",
   "updated_at": "2020-08-21T00:10:01Z"
- },
- {
-  "base": "4efa95cfc13da8537aa914746260b3d97f5ffe88",
-  "created_at": "2020-08-20T22:25:49Z",
-  "head": "ede94de47713adfee67929597ddb6b478bc2af6c",
-  "login": "gibson042",
-  "number": 2149,
-  "ref": "2020-08-ascii-consistency",
-  "revs": [
-   {
-    "adate": "2020-08-20T18:04:11-04:00",
-    "author": "Richard Gibson",
-    "date": "2020-08-21T11:16:56-04:00",
-    "hash": "ede94de47713adfee67929597ddb6b478bc2af6c",
-    "parents": "9e427ee60b3a4a92fb0df64a6d871cfdd3333b26",
-    "subject": "Editorial: For consistency, replace non-ASCII guillemets with \"&[lr]aquo;\" character references"
-   },
-   {
-    "adate": "2020-08-20T17:56:16-04:00",
-    "author": "Richard Gibson",
-    "date": "2020-08-21T11:15:40-04:00",
-    "hash": "9e427ee60b3a4a92fb0df64a6d871cfdd3333b26",
-    "parents": "4efa95cfc13da8537aa914746260b3d97f5ffe88",
-    "subject": "Editorial: For consistency, replace non-ASCII \"curly quotes\" with \"&[lr]dquo;\" character references"
-   }
-  ],
-  "title": "Editorial: Replace non-ASCII quotes",
-  "updated_at": "2020-08-21T15:19:47Z"
  },
  {
   "base": "aead0a396d38b0db318d8b8fef66e02c1e3e0e01",
