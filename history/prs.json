@@ -534,11 +534,19 @@
  {
   "base": "aead0a396d38b0db318d8b8fef66e02c1e3e0e01",
   "created_at": "2020-08-03T04:35:24Z",
-  "head": "5a290384b1fac4ae82f5909c4e10bbca74462f67",
+  "head": "4b62ce8b27052aad793f145f6873aca5d7afbef0",
   "login": "ryanjduffy",
   "number": 2122,
   "ref": "math-2119",
   "revs": [
+   {
+    "adate": "2020-08-30T14:59:36-07:00",
+    "author": "Ryan Duffy",
+    "date": "2020-08-30T14:59:36-07:00",
+    "hash": "4b62ce8b27052aad793f145f6873aca5d7afbef0",
+    "parents": "5a290384b1fac4ae82f5909c4e10bbca74462f67",
+    "subject": "fix result/argument language"
+   },
    {
     "adate": "2020-08-26T16:56:19-07:00",
     "author": "Ryan Duffy",
@@ -741,7 +749,7 @@
    }
   ],
   "title": "Editorial: define Math functions using algorithm steps",
-  "updated_at": "2020-08-27T00:12:53Z"
+  "updated_at": "2020-08-30T22:01:02Z"
  },
  {
   "base": "019d49816879fc814097914d3e3ce7c7e1b081ed",
