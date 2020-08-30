@@ -958,11 +958,43 @@
  {
   "base": "3750b81c637c58a2168495ccb62417adf196b5b4",
   "created_at": "2020-07-08T16:43:39Z",
-  "head": "f123e1950d04ed8d84ecff2b7a998b3eeafcf86c",
+  "head": "1eda3bec6956f02a4c727dad9c7b4d24a434aaed",
   "login": "shvaikalesh",
   "number": 2085,
   "ref": "reference-as-record",
   "revs": [
+   {
+    "adate": "2020-08-30T22:40:42+03:00",
+    "author": "Alexey Shvayka",
+    "date": "2020-08-30T22:40:42+03:00",
+    "hash": "1eda3bec6956f02a4c727dad9c7b4d24a434aaed",
+    "parents": "d8f4575d8991344f70446404a53567d1737f8b82",
+    "subject": "Reference => Reference Record"
+   },
+   {
+    "adate": "2020-08-30T22:02:36+03:00",
+    "author": "Alexey Shvayka",
+    "date": "2020-08-30T22:02:36+03:00",
+    "hash": "d8f4575d8991344f70446404a53567d1737f8b82",
+    "parents": "ae8fb93851c7df740e8bc4b2166af094550d59d3",
+    "subject": "Clarify HasPrimitiveBase(V) asserts"
+   },
+   {
+    "adate": "2020-08-30T22:00:07+03:00",
+    "author": "Alexey Shvayka",
+    "date": "2020-08-30T22:00:07+03:00",
+    "hash": "ae8fb93851c7df740e8bc4b2166af094550d59d3",
+    "parents": "33b4025131209b71168157c29c879429d846fdc6",
+    "subject": "Drop \"then\" before \"return\""
+   },
+   {
+    "adate": "2020-08-30T21:59:28+03:00",
+    "author": "Alexey Shvayka",
+    "date": "2020-08-30T21:59:28+03:00",
+    "hash": "33b4025131209b71168157c29c879429d846fdc6",
+    "parents": "f123e1950d04ed8d84ecff2b7a998b3eeafcf86c",
+    "subject": "Refine grammar"
+   },
    {
     "adate": "2020-08-19T20:41:08+03:00",
     "author": "Alexey Shvayka",
@@ -1101,7 +1133,7 @@
    }
   ],
   "title": "Editorial: Make Reference type a Record value",
-  "updated_at": "2020-08-19T17:41:18Z"
+  "updated_at": "2020-08-30T19:51:33Z"
  },
  {
   "base": "8d2463a388c866d34035543d72dff7f730fcf975",
