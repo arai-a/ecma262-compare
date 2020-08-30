@@ -1,6 +1,26 @@
 [
  {
   "base": "fb22c2b291f357210d5d35637b3cf9ec1d163314",
+  "created_at": "2020-08-30T06:23:57Z",
+  "head": "39cba8d78b2ee96151b715497b7e278e67598e2b",
+  "login": "shvaikalesh",
+  "number": 2160,
+  "ref": "symbol-toprimitive-unused-argument",
+  "revs": [
+   {
+    "adate": "2020-08-30T09:20:42+03:00",
+    "author": "Alexey Shvayka",
+    "date": "2020-08-30T09:21:55+03:00",
+    "hash": "39cba8d78b2ee96151b715497b7e278e67598e2b",
+    "parents": "fb22c2b291f357210d5d35637b3cf9ec1d163314",
+    "subject": "Editorial: Add note on ignored argument of Symbol.prototype[@@toPrimitive]"
+   }
+  ],
+  "title": "Editorial: Add note on ignored argument of Symbol.prototype[@@toPrimitive]",
+  "updated_at": "2020-08-30T06:23:57Z"
+ },
+ {
+  "base": "fb22c2b291f357210d5d35637b3cf9ec1d163314",
   "created_at": "2020-08-30T00:14:54Z",
   "head": "ea80a120483ba007a699fc71676a87954b824c73",
   "login": "tc39",
