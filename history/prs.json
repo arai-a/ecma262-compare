@@ -164,34 +164,6 @@
   "updated_at": "2020-08-26T21:35:05Z"
  },
  {
-  "base": "2e754fd478d30a41a8941603333b637edb63a4d7",
-  "created_at": "2020-08-23T23:41:45Z",
-  "head": "2fc5bf6e3b5a9c17148f3f8ea5b8eb3c8ecdd313",
-  "login": "tc39",
-  "number": 2152,
-  "ref": "for-each-order",
-  "revs": [
-   {
-    "adate": "2020-08-23T16:17:59-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2020-09-01T20:40:22-07:00",
-    "hash": "2fc5bf6e3b5a9c17148f3f8ea5b8eb3c8ecdd313",
-    "parents": "4f7328e6ff463f03666a7b5d4a73be7c61f148fd",
-    "subject": "Editorial: consistent list iteration style"
-   },
-   {
-    "adate": "2020-09-01T20:40:09-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2020-09-01T20:40:22-07:00",
-    "hash": "4f7328e6ff463f03666a7b5d4a73be7c61f148fd",
-    "parents": "fb22c2b291f357210d5d35637b3cf9ec1d163314",
-    "subject": "Meta: bump ecmarkup to 4.1.0"
-   }
-  ],
-  "title": "Editorial: consistency around List iteration",
-  "updated_at": "2020-09-02T03:44:05Z"
- },
- {
   "base": "4efa95cfc13da8537aa914746260b3d97f5ffe88",
   "created_at": "2020-08-22T22:55:18Z",
   "head": "d2d09bb2c0f6f35ece95d4d6c5662132c2fc439f",
@@ -496,13 +468,29 @@
   "updated_at": "2020-08-03T20:42:37Z"
  },
  {
-  "base": "aead0a396d38b0db318d8b8fef66e02c1e3e0e01",
+  "base": "e67ec385599d6e2f20562f700ec77b1e9de153c1",
   "created_at": "2020-08-03T04:35:24Z",
-  "head": "607d66f5ad014bab8e25caad62a542bdd4ec4b42",
+  "head": "5409315c23b4477677a218b9ec92e10a7e75260f",
   "login": "ryanjduffy",
   "number": 2122,
   "ref": "math-2119",
   "revs": [
+   {
+    "adate": "2020-09-02T11:26:18-07:00",
+    "author": "Michael Ficarra",
+    "date": "2020-09-02T11:26:18-07:00",
+    "hash": "5409315c23b4477677a218b9ec92e10a7e75260f",
+    "parents": "2a4dae6c4f07ce59a80607ec41dbd3c1d0d4aa62 e67ec385599d6e2f20562f700ec77b1e9de153c1",
+    "subject": "Merge branch 'master' into math-2119"
+   },
+   {
+    "adate": "2020-09-02T11:21:15-07:00",
+    "author": "Michael Ficarra",
+    "date": "2020-09-02T11:21:15-07:00",
+    "hash": "2a4dae6c4f07ce59a80607ec41dbd3c1d0d4aa62",
+    "parents": "607d66f5ad014bab8e25caad62a542bdd4ec4b42",
+    "subject": "updated internal List iteration as per #2152"
+   },
    {
     "adate": "2020-08-31T20:38:34-07:00",
     "author": "Ryan Duffy",
@@ -721,7 +709,7 @@
    }
   ],
   "title": "Editorial: define Math functions using algorithm steps",
-  "updated_at": "2020-09-01T03:38:46Z"
+  "updated_at": "2020-09-02T18:26:20Z"
  },
  {
   "base": "019d49816879fc814097914d3e3ce7c7e1b081ed",
