@@ -448,26 +448,6 @@
   "updated_at": "2020-08-05T00:46:59Z"
  },
  {
-  "base": "019d49816879fc814097914d3e3ce7c7e1b081ed",
-  "created_at": "2020-08-03T20:40:28Z",
-  "head": "23b6f28b6930989a361955bf1d8bb82991456d51",
-  "login": "ljharb",
-  "number": 2124,
-  "ref": "aggregate_error_proto_intrinsic",
-  "revs": [
-   {
-    "adate": "2020-08-03T13:38:58-07:00",
-    "author": "Jordan Harband",
-    "date": "2020-08-03T13:39:43-07:00",
-    "hash": "23b6f28b6930989a361955bf1d8bb82991456d51",
-    "parents": "019d49816879fc814097914d3e3ce7c7e1b081ed",
-    "subject": "Editorial: remove unused %AggregateErrorPrototype% intrinsic"
-   }
-  ],
-  "title": "Editorial: remove unused %AggregateErrorPrototype% intrinsic",
-  "updated_at": "2020-08-03T20:42:37Z"
- },
- {
   "base": "e67ec385599d6e2f20562f700ec77b1e9de153c1",
   "created_at": "2020-08-03T04:35:24Z",
   "head": "5409315c23b4477677a218b9ec92e10a7e75260f",
@@ -1144,44 +1124,24 @@
   "updated_at": "2020-07-07T04:51:28Z"
  },
  {
-  "base": "fb22c2b291f357210d5d35637b3cf9ec1d163314",
+  "base": "9b5b0ca517bbd5137527b5b6b903477405527343",
   "created_at": "2020-06-23T18:40:07Z",
-  "head": "2a310eb3e22188241b60578fb1bd68df64a155cf",
+  "head": "4fa9dadbe47f5c76580bf2282b31333d0f36e3de",
   "login": "EB-Forks",
   "number": 2060,
   "ref": "editorial/semantic-table-ids",
   "revs": [
    {
-    "adate": "2020-08-31T19:00:00+02:00",
+    "adate": "2020-09-02T15:22:47-07:00",
     "author": "ExE Boss",
-    "date": "2020-08-31T18:57:38+02:00",
-    "hash": "2a310eb3e22188241b60578fb1bd68df64a155cf",
-    "parents": "fb22c2b291f357210d5d35637b3cf9ec1d163314",
-    "subject": "Editorial: Use\u00a0semantic table\u00a0IDs"
+    "date": "2020-09-02T15:22:47-07:00",
+    "hash": "4fa9dadbe47f5c76580bf2282b31333d0f36e3de",
+    "parents": "9b5b0ca517bbd5137527b5b6b903477405527343",
+    "subject": "Editorial: Use\u00a0semantic table\u00a0IDs (#2060)"
    }
   ],
   "title": "Editorial: Use\u00a0semantic table\u00a0IDs",
-  "updated_at": "2020-08-31T16:56:25Z"
- },
- {
-  "base": "e67ec385599d6e2f20562f700ec77b1e9de153c1",
-  "created_at": "2020-06-19T04:32:04Z",
-  "head": "9b5b0ca517bbd5137527b5b6b903477405527343",
-  "login": "ljharb",
-  "number": 2056,
-  "ref": "legacy-intrinsics",
-  "revs": [
-   {
-    "adate": "2020-09-02T15:07:21-07:00",
-    "author": "Jordan Harband",
-    "date": "2020-09-02T15:07:21-07:00",
-    "hash": "9b5b0ca517bbd5137527b5b6b903477405527343",
-    "parents": "e67ec385599d6e2f20562f700ec77b1e9de153c1",
-    "subject": "Editorial: remove legacy intrinsics (#2056)"
-   }
-  ],
-  "title": "Editorial: remove legacy intrinsics",
-  "updated_at": "2020-09-02T22:07:29Z"
+  "updated_at": "2020-09-02T22:22:59Z"
  },
  {
   "base": "aead0a396d38b0db318d8b8fef66e02c1e3e0e01",
