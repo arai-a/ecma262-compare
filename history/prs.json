@@ -1,25 +1,5 @@
 [
  {
-  "base": "d57695f8f9744b011363b130644167d069d1e72b",
-  "created_at": "2020-09-03T17:53:32Z",
-  "head": "f05f1c9bc72fd136344810a64af1cd96c7ca2779",
-  "login": "ljharb",
-  "number": 2163,
-  "ref": "require-allow-edits",
-  "revs": [
-   {
-    "adate": "2020-09-03T10:54:15-07:00",
-    "author": "Jordan Harband",
-    "date": "2020-09-03T10:54:15-07:00",
-    "hash": "f05f1c9bc72fd136344810a64af1cd96c7ca2779",
-    "parents": "d57695f8f9744b011363b130644167d069d1e72b",
-    "subject": "Meta: add \"Require Allow Edits\" action (#2163)"
-   }
-  ],
-  "title": "Meta: add \"Require Allow Edits\" action",
-  "updated_at": "2020-09-03T17:58:31Z"
- },
- {
   "base": "fb22c2b291f357210d5d35637b3cf9ec1d163314",
   "created_at": "2020-08-30T06:23:57Z",
   "head": "39cba8d78b2ee96151b715497b7e278e67598e2b",
@@ -450,11 +430,19 @@
  {
   "base": "e67ec385599d6e2f20562f700ec77b1e9de153c1",
   "created_at": "2020-08-03T04:35:24Z",
-  "head": "5409315c23b4477677a218b9ec92e10a7e75260f",
+  "head": "e8120f6f9b08b8c5375db206a9a1628730a5e079",
   "login": "ryanjduffy",
   "number": 2122,
   "ref": "math-2119",
   "revs": [
+   {
+    "adate": "2020-09-03T15:39:06-07:00",
+    "author": "Ryan Duffy",
+    "date": "2020-09-03T15:39:06-07:00",
+    "hash": "e8120f6f9b08b8c5375db206a9a1628730a5e079",
+    "parents": "5409315c23b4477677a218b9ec92e10a7e75260f",
+    "subject": "add inclusive to ranges, List order to list construction"
+   },
    {
     "adate": "2020-09-02T11:26:18-07:00",
     "author": "Michael Ficarra",
@@ -689,7 +677,7 @@
    }
   ],
   "title": "Editorial: define Math functions using algorithm steps",
-  "updated_at": "2020-09-02T18:26:20Z"
+  "updated_at": "2020-09-03T22:39:48Z"
  },
  {
   "base": "019d49816879fc814097914d3e3ce7c7e1b081ed",
