@@ -20,44 +20,24 @@
   "updated_at": "2020-08-30T06:23:57Z"
  },
  {
-  "base": "fb22c2b291f357210d5d35637b3cf9ec1d163314",
-  "created_at": "2020-08-30T00:14:54Z",
-  "head": "ea80a120483ba007a699fc71676a87954b824c73",
-  "login": "tc39",
-  "number": 2159,
-  "ref": "proxy-casing",
-  "revs": [
-   {
-    "adate": "2020-08-29T17:11:02-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2020-08-29T17:12:29-07:00",
-    "hash": "ea80a120483ba007a699fc71676a87954b824c73",
-    "parents": "fb22c2b291f357210d5d35637b3cf9ec1d163314",
-    "subject": "Editorial: consistent capitalization for \"Proxy exotic object\""
-   }
-  ],
-  "title": "Editorial: consistent capitalization for \"Proxy exotic object\"",
-  "updated_at": "2020-08-30T00:14:54Z"
- },
- {
-  "base": "e67ec385599d6e2f20562f700ec77b1e9de153c1",
+  "base": "8e0e7d19dc44153fd2d201d508b59e5525b6cc0d",
   "created_at": "2020-08-26T23:21:12Z",
-  "head": "e8f3b452ea03c6187fa48bd8b73ac966072d2cee",
+  "head": "b73e4cea2e99a28ff1b8aae05a2ce15f0f30fc33",
   "login": "ljharb",
   "number": 2155,
   "ref": "enumb",
   "revs": [
    {
-    "adate": "2020-09-02T15:05:33-07:00",
+    "adate": "2020-09-02T16:39:29-07:00",
     "author": "Bradley Farias",
-    "date": "2020-09-02T15:05:33-07:00",
-    "hash": "e8f3b452ea03c6187fa48bd8b73ac966072d2cee",
-    "parents": "e67ec385599d6e2f20562f700ec77b1e9de153c1",
+    "date": "2020-09-02T16:39:29-07:00",
+    "hash": "b73e4cea2e99a28ff1b8aae05a2ce15f0f30fc33",
+    "parents": "8e0e7d19dc44153fd2d201d508b59e5525b6cc0d",
     "subject": "Editorial: stop using strings for special values (#2155)"
    }
   ],
   "title": "Editorial: stop using strings for special values",
-  "updated_at": "2020-09-02T22:05:40Z"
+  "updated_at": "2020-09-02T23:42:20Z"
  },
  {
   "base": "11de25489a3e325b4b4c0575847d3bb9f51c7199",
@@ -884,26 +864,6 @@
   "updated_at": "2020-07-20T19:14:24Z"
  },
  {
-  "base": "f92bc80f39fc0487fd395a471c61151fbfdf9ae2",
-  "created_at": "2020-07-15T16:29:44Z",
-  "head": "553cbfb191c4d1513e0a4c27719c1a67dd064739",
-  "login": "ljharb",
-  "number": 2098,
-  "ref": "missing-!",
-  "revs": [
-   {
-    "adate": "2020-07-15T09:27:41-07:00",
-    "author": "Jordan Harband",
-    "date": "2020-07-15T09:27:49-07:00",
-    "hash": "553cbfb191c4d1513e0a4c27719c1a67dd064739",
-    "parents": "f92bc80f39fc0487fd395a471c61151fbfdf9ae2",
-    "subject": "Editorial: add missing `!` on calls to `OrdinaryObjectCreate`"
-   }
-  ],
-  "title": "Editorial: add missing `!` on calls to `OrdinaryObjectCreate`",
-  "updated_at": "2020-07-15T16:29:44Z"
- },
- {
   "base": "3750b81c637c58a2168495ccb62417adf196b5b4",
   "created_at": "2020-07-08T16:43:39Z",
   "head": "1eda3bec6956f02a4c727dad9c7b4d24a434aaed",
@@ -1122,26 +1082,6 @@
   ],
   "title": "Editorial: move CreateRegExpStringIterator",
   "updated_at": "2020-07-07T04:51:28Z"
- },
- {
-  "base": "9b5b0ca517bbd5137527b5b6b903477405527343",
-  "created_at": "2020-06-23T18:40:07Z",
-  "head": "4fa9dadbe47f5c76580bf2282b31333d0f36e3de",
-  "login": "EB-Forks",
-  "number": 2060,
-  "ref": "editorial/semantic-table-ids",
-  "revs": [
-   {
-    "adate": "2020-09-02T15:22:47-07:00",
-    "author": "ExE Boss",
-    "date": "2020-09-02T15:22:47-07:00",
-    "hash": "4fa9dadbe47f5c76580bf2282b31333d0f36e3de",
-    "parents": "9b5b0ca517bbd5137527b5b6b903477405527343",
-    "subject": "Editorial: Use\u00a0semantic table\u00a0IDs (#2060)"
-   }
-  ],
-  "title": "Editorial: Use\u00a0semantic table\u00a0IDs",
-  "updated_at": "2020-09-02T22:22:59Z"
  },
  {
   "base": "aead0a396d38b0db318d8b8fef66e02c1e3e0e01",
@@ -1678,26 +1618,6 @@
   ],
   "title": "Normative: add NumericLiteralSeparator",
   "updated_at": "2020-08-22T23:05:37Z"
- },
- {
-  "base": "e8fd7babb794c85137ddebd6b38baab777f4d366",
-  "created_at": "2020-06-10T15:36:49Z",
-  "head": "5ef1e97c117cf43d196276730fefe1d4f3146106",
-  "login": "EB-Forks",
-  "number": 2041,
-  "ref": "editorial/auto-link-dotted-intrinsics",
-  "revs": [
-   {
-    "adate": "2020-06-10T17:30:00+02:00",
-    "author": "ExE Boss",
-    "date": "2020-07-16T17:54:25+02:00",
-    "hash": "5ef1e97c117cf43d196276730fefe1d4f3146106",
-    "parents": "e8fd7babb794c85137ddebd6b38baab777f4d366",
-    "subject": "Editorial: Add\u00a0auto\u2011linking for\u00a0dotted intrinsics (#2041)"
-   }
-  ],
-  "title": "Editorial: Add\u00a0auto\u2011linking for\u00a0dotted intrinsics",
-  "updated_at": "2020-07-16T15:54:50Z"
  },
  {
   "base": "56032d3271949f2892745d4a8e06d1322ba7220d",
