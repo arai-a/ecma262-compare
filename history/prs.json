@@ -1,5 +1,25 @@
 [
  {
+  "base": "f05f1c9bc72fd136344810a64af1cd96c7ca2779",
+  "created_at": "2020-09-04T21:48:11Z",
+  "head": "cf209cc800b9b1cbda1898c55267bf394a1bf51d",
+  "login": "rkirsling",
+  "number": 2164,
+  "ref": "detached-buffer-reality",
+  "revs": [
+   {
+    "adate": "2020-09-04T14:41:23-07:00",
+    "author": "Ross Kirsling",
+    "date": "2020-09-04T14:41:23-07:00",
+    "hash": "cf209cc800b9b1cbda1898c55267bf394a1bf51d",
+    "parents": "f05f1c9bc72fd136344810a64af1cd96c7ca2779",
+    "subject": "Normative: Align detached buffer semantics with web reality"
+   }
+  ],
+  "title": "Normative: Align detached buffer semantics with web reality",
+  "updated_at": "2020-09-04T21:57:49Z"
+ },
+ {
   "base": "fb22c2b291f357210d5d35637b3cf9ec1d163314",
   "created_at": "2020-08-30T06:23:57Z",
   "head": "39cba8d78b2ee96151b715497b7e278e67598e2b",
