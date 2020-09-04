@@ -1736,40 +1736,32 @@
   "updated_at": "2020-05-29T17:21:00Z"
  },
  {
-  "base": "51289e82883bd3526260540e847470a676f10b6c",
+  "base": "f05f1c9bc72fd136344810a64af1cd96c7ca2779",
   "created_at": "2020-05-26T02:28:50Z",
-  "head": "1d1fec75a2579fbb60524a52c03abe13f4855dca",
+  "head": "3a1b2ecc36d2d0fe83311d649da7be7d76f0546c",
   "login": "tc39",
   "number": 2015,
   "ref": "dedup-atomics-math",
   "revs": [
    {
-    "adate": "2020-06-09T11:44:17-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2020-06-09T11:44:17-07:00",
-    "hash": "1d1fec75a2579fbb60524a52c03abe13f4855dca",
-    "parents": "dba0bac088c39237d9899de3c7e4cfec49f7c7cc",
-    "subject": "add oldid"
-   },
-   {
     "adate": "2020-05-25T19:22:18-07:00",
     "author": "Kevin Gibbons",
-    "date": "2020-05-25T19:22:18-07:00",
-    "hash": "dba0bac088c39237d9899de3c7e4cfec49f7c7cc",
-    "parents": "d7a0d4f9a2fceec879722cee65a65832d426e300",
+    "date": "2020-09-03T21:09:04-07:00",
+    "hash": "3a1b2ecc36d2d0fe83311d649da7be7d76f0546c",
+    "parents": "24258851d72309f56de130d524c4bbf81480d31f",
     "subject": "Editorial: remove AtomicLoad"
    },
    {
     "adate": "2020-05-25T19:13:48-07:00",
     "author": "Kevin Gibbons",
-    "date": "2020-05-25T19:16:35-07:00",
-    "hash": "d7a0d4f9a2fceec879722cee65a65832d426e300",
-    "parents": "51289e82883bd3526260540e847470a676f10b6c",
+    "date": "2020-09-03T21:07:07-07:00",
+    "hash": "24258851d72309f56de130d524c4bbf81480d31f",
+    "parents": "f05f1c9bc72fd136344810a64af1cd96c7ca2779",
     "subject": "Editorial: dedup atomics index calculations"
    }
   ],
   "title": "Editorial: deduplicate some work in atomics",
-  "updated_at": "2020-06-09T18:52:34Z"
+  "updated_at": "2020-09-04T04:21:08Z"
  },
  {
   "base": "7479ade585c62b4af2c66898fc0b64731f97adc6",
