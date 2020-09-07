@@ -331,11 +331,38 @@ class HTMLTreeDiffWorker {
     parentObj.childNodes.unshift(nodeObj);
   }
 
+  isTableRowOrCell(nodeObj) {
+    if (typeof nodeObj !== "object") {
+      return false;
+    }
+    const name = nodeObj.name;
+    return name === "tr" || name === "th" || name === "td";
+  }
+
+  isListItem(nodeObj) {
+    if (typeof nodeObj !== "object") {
+      return false;
+    }
+    const name = nodeObj.name;
+    return name === "li";
+  }
+
+  addClass(nodeObj, className) {
+    if ("class" in nodeObj.attributes) {
+      nodeObj.attributes["class"] += " " + className;
+    } else {
+      nodeObj.attributes["class"] = className;
+    }
+  }
+
   // Prepend `nodeObj` to `parentObj`'s first child, wrapping `nodeObj` with
   // `ins`.
   prependChildIns(parentObj, nodeObj) {
-    if (typeof nodeObj === "object" && nodeObj.name === "li") {
+    if (this.isListItem(nodeObj) || this.isTableRowOrCell(nodeObj)) {
       const newNodeObj = this.shallowClone(nodeObj);
+      if (this.isTableRowOrCell(nodeObj)) {
+        this.addClass(newNodeObj, "htmldiff-ins htmldiff-change");
+      }
       for (let i = nodeObj.childNodes.length - 1; i >= 0; i--) {
         const child = nodeObj.childNodes[i];
         this.prependChildIns(newNodeObj, child);
@@ -369,8 +396,11 @@ class HTMLTreeDiffWorker {
   // Prepend `nodeObj` to `parentObj`'s first child, wrapping `nodeObj` with
   // `del`.
   prependChildDel(parentObj, nodeObj) {
-    if (typeof nodeObj === "object" && nodeObj.name === "li") {
+    if (this.isListItem(nodeObj) || this.isTableRowOrCell(nodeObj)) {
       const newNodeObj = this.shallowClone(nodeObj);
+      if (this.isTableRowOrCell(nodeObj)) {
+        this.addClass(newNodeObj, "htmldiff-del htmldiff-change");
+      }
       for (let i = nodeObj.childNodes.length - 1; i >= 0; i--) {
         const child = nodeObj.childNodes[i];
         this.prependChildDel(newNodeObj, child);

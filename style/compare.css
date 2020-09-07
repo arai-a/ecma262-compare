@@ -316,15 +316,27 @@ option.mod {
 }
 
 .htmldiff-change var {
-  transition: none;
+    transition: none;
 }
 
-.htmldiff-change {
+ins.htmldiff-change, del.htmldiff-change {
     display: inline;
 }
 
 .htmldiff-del, .htmldiff-del * {
     text-decoration: line-through !important;
+}
+
+td.htmldiff-ins, th.htmldiff-ins {
+    background-color: #e0f8e0;
+}
+
+td.htmldiff-ins ins, th.htmldiff-ins ins {
+    border-bottom-style: none;
+}
+
+td.htmldiff-del, th.htmldiff-del {
+    background-color: #ffeeee;
 }
 
 /* ==== work box ==== */
