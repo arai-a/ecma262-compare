@@ -164,34 +164,6 @@
   "updated_at": "2020-08-26T21:35:05Z"
  },
  {
-  "base": "f05f1c9bc72fd136344810a64af1cd96c7ca2779",
-  "created_at": "2020-08-22T22:55:18Z",
-  "head": "38ad5b40b7750afa323fe17ed5c750f06ff235bc",
-  "login": "tc39",
-  "number": 2151,
-  "ref": "numeric-separator-alt",
-  "revs": [
-   {
-    "adate": "2020-09-06T00:11:19-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2020-09-06T00:11:19-07:00",
-    "hash": "38ad5b40b7750afa323fe17ed5c750f06ff235bc",
-    "parents": "153ca41aa3690850537e1ef59e2d6a8928a947ca",
-    "subject": "Normative: add NumericLiteralSeparator"
-   },
-   {
-    "adate": "2020-09-06T00:10:33-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2020-09-06T00:11:07-07:00",
-    "hash": "153ca41aa3690850537e1ef59e2d6a8928a947ca",
-    "parents": "f05f1c9bc72fd136344810a64af1cd96c7ca2779",
-    "subject": "Meta: bump ecmarkup to 4.1.1"
-   }
-  ],
-  "title": "Normative: add NumericLiteralSeparator",
-  "updated_at": "2020-09-06T07:12:28Z"
- },
- {
   "base": "93ac76898d9f74e39f68ac53edbad68b3822c949",
   "created_at": "2020-08-21T00:10:01Z",
   "head": "5e494e3a9477a737e88e3f960b053143113e067b",
@@ -876,184 +848,200 @@
   "updated_at": "2020-07-20T19:14:24Z"
  },
  {
-  "base": "3750b81c637c58a2168495ccb62417adf196b5b4",
+  "base": "65d5bcc81b65f822d4a8f31ece1bda30f5ca3036",
   "created_at": "2020-07-08T16:43:39Z",
-  "head": "1eda3bec6956f02a4c727dad9c7b4d24a434aaed",
+  "head": "c87dba08422f8c8651fd9fb0b031addc0c7bd2a8",
   "login": "shvaikalesh",
   "number": 2085,
   "ref": "reference-as-record",
   "revs": [
    {
+    "adate": "2020-09-07T16:00:58-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-09-07T16:20:11-07:00",
+    "hash": "c87dba08422f8c8651fd9fb0b031addc0c7bd2a8",
+    "parents": "83b26cc0c4ac9837e9379c65d4b17ff0ce35bd81",
+    "subject": "wordsmithing"
+   },
+   {
+    "adate": "2020-09-07T15:53:45-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-09-07T15:53:45-07:00",
+    "hash": "83b26cc0c4ac9837e9379c65d4b17ff0ce35bd81",
+    "parents": "f354c9b62db3ba3ac6b1d0cd2e9e65439d213314",
+    "subject": "fix grammar nit"
+   },
+   {
     "adate": "2020-08-30T22:40:42+03:00",
     "author": "Alexey Shvayka",
-    "date": "2020-08-30T22:40:42+03:00",
-    "hash": "1eda3bec6956f02a4c727dad9c7b4d24a434aaed",
-    "parents": "d8f4575d8991344f70446404a53567d1737f8b82",
+    "date": "2020-09-07T15:52:49-07:00",
+    "hash": "f354c9b62db3ba3ac6b1d0cd2e9e65439d213314",
+    "parents": "0a4aec27f98cefe7d90b3d9998539ac3f6fccb99",
     "subject": "Reference => Reference Record"
    },
    {
     "adate": "2020-08-30T22:02:36+03:00",
     "author": "Alexey Shvayka",
-    "date": "2020-08-30T22:02:36+03:00",
-    "hash": "d8f4575d8991344f70446404a53567d1737f8b82",
-    "parents": "ae8fb93851c7df740e8bc4b2166af094550d59d3",
+    "date": "2020-09-07T15:52:49-07:00",
+    "hash": "0a4aec27f98cefe7d90b3d9998539ac3f6fccb99",
+    "parents": "d2d3c47149a208b9a485028fb5b159dc870882a5",
     "subject": "Clarify HasPrimitiveBase(V) asserts"
    },
    {
     "adate": "2020-08-30T22:00:07+03:00",
     "author": "Alexey Shvayka",
-    "date": "2020-08-30T22:00:07+03:00",
-    "hash": "ae8fb93851c7df740e8bc4b2166af094550d59d3",
-    "parents": "33b4025131209b71168157c29c879429d846fdc6",
+    "date": "2020-09-07T15:52:49-07:00",
+    "hash": "d2d3c47149a208b9a485028fb5b159dc870882a5",
+    "parents": "3ba2a7bed764d078c342ac2aaf376146279cf852",
     "subject": "Drop \"then\" before \"return\""
    },
    {
     "adate": "2020-08-30T21:59:28+03:00",
     "author": "Alexey Shvayka",
-    "date": "2020-08-30T21:59:28+03:00",
-    "hash": "33b4025131209b71168157c29c879429d846fdc6",
-    "parents": "f123e1950d04ed8d84ecff2b7a998b3eeafcf86c",
+    "date": "2020-09-07T15:52:49-07:00",
+    "hash": "3ba2a7bed764d078c342ac2aaf376146279cf852",
+    "parents": "5f3303b883a956c92b75d9ce113ae5490badae94",
     "subject": "Refine grammar"
    },
    {
     "adate": "2020-08-19T20:41:08+03:00",
     "author": "Alexey Shvayka",
-    "date": "2020-08-19T20:41:08+03:00",
-    "hash": "f123e1950d04ed8d84ecff2b7a998b3eeafcf86c",
-    "parents": "90238b3945f4017344c3b8e4ee5c19fd4af6be78",
+    "date": "2020-09-07T15:52:49-07:00",
+    "hash": "5f3303b883a956c92b75d9ce113ae5490badae94",
+    "parents": "21e0941800bbd70252f75c431c3894cdea4f7b13",
     "subject": "Type(X) is Reference => X is a Reference Record"
    },
    {
     "adate": "2020-08-15T15:25:51+03:00",
     "author": "Alexey Shvayka",
-    "date": "2020-08-15T17:16:42+03:00",
-    "hash": "90238b3945f4017344c3b8e4ee5c19fd4af6be78",
-    "parents": "981fad663c8e12c508b50ce60a3c969f5afb9b55",
+    "date": "2020-09-07T15:52:49-07:00",
+    "hash": "21e0941800bbd70252f75c431c3894cdea4f7b13",
+    "parents": "d0b44ba3d438cd1bd3dc950366999aa3d403a89c",
     "subject": "Avoid redefining `base`"
    },
    {
     "adate": "2020-08-15T15:25:15+03:00",
     "author": "Alexey Shvayka",
-    "date": "2020-08-15T17:16:42+03:00",
-    "hash": "981fad663c8e12c508b50ce60a3c969f5afb9b55",
-    "parents": "5a03a3ab8e36003788fa73c2a30524975f7d9ba5",
+    "date": "2020-09-07T15:52:49-07:00",
+    "hash": "d0b44ba3d438cd1bd3dc950366999aa3d403a89c",
+    "parents": "75e60c954a5cc9531e3c24307b082d554c939940",
     "subject": "Get [[Base]] after IsUnresolvableReference branch"
    },
    {
     "adate": "2020-08-15T15:23:08+03:00",
     "author": "Alexey Shvayka",
-    "date": "2020-08-15T17:16:42+03:00",
-    "hash": "5a03a3ab8e36003788fa73c2a30524975f7d9ba5",
-    "parents": "ee73d98ee40b6461cd1a90003db954cd8d544bcf",
+    "date": "2020-09-07T15:52:49-07:00",
+    "hash": "75e60c954a5cc9531e3c24307b082d554c939940",
+    "parents": "6d98ec8d3748e1b0e742652661c6cb9154b3143e",
     "subject": "Consistently use ~empty~ with [[ThisValue]]"
    },
    {
     "adate": "2020-08-15T15:23:41+03:00",
     "author": "Alexey Shvayka",
-    "date": "2020-08-15T17:14:32+03:00",
-    "hash": "ee73d98ee40b6461cd1a90003db954cd8d544bcf",
-    "parents": "8145f013ab22d1e3b7f3c682f8cedf94264568d3",
+    "date": "2020-09-07T15:52:48-07:00",
+    "hash": "6d98ec8d3748e1b0e742652661c6cb9154b3143e",
+    "parents": "4de32ea008e6e1a596d3ec3f56837d0db18e7d95",
     "subject": "Consistently use ~empty~ with [[Base]]"
    },
    {
     "adate": "2020-08-15T15:20:16+03:00",
     "author": "Alexey Shvayka",
-    "date": "2020-08-15T15:27:48+03:00",
-    "hash": "8145f013ab22d1e3b7f3c682f8cedf94264568d3",
-    "parents": "06977c4c4ba78558f333fe14627a53801dacd175",
+    "date": "2020-09-07T15:52:48-07:00",
+    "hash": "4de32ea008e6e1a596d3ec3f56837d0db18e7d95",
+    "parents": "82f35bbbda4a302d736d99905ba83612dfbf611a",
     "subject": "Annotate Reference table field names with `oldids`"
    },
    {
     "adate": "2020-08-14T20:17:38+03:00",
     "author": "Alexey Shvayka",
-    "date": "2020-08-15T15:27:48+03:00",
-    "hash": "06977c4c4ba78558f333fe14627a53801dacd175",
-    "parents": "7de233e77b1f0729e6c8bf902d3efae14dd6af81",
+    "date": "2020-09-07T15:52:48-07:00",
+    "hash": "82f35bbbda4a302d736d99905ba83612dfbf611a",
+    "parents": "8d6a27ee1cc5b9dae587d6eff6bd1592fc4cd846",
     "subject": "Tweak wording: on => upon"
    },
    {
     "adate": "2020-07-08T18:33:27+03:00",
     "author": "Alexey Shvayka",
-    "date": "2020-08-15T15:27:48+03:00",
-    "hash": "7de233e77b1f0729e6c8bf902d3efae14dd6af81",
-    "parents": "556b5c2751f74489036428e71c2c08ed7f5e4a24",
+    "date": "2020-09-07T15:52:46-07:00",
+    "hash": "8d6a27ee1cc5b9dae587d6eff6bd1592fc4cd846",
+    "parents": "3375914c93c3f1d6ecd759f2e14f755c3c67abd4",
     "subject": "Fix typo in Completion Record prose"
    },
    {
     "adate": "2020-07-08T18:33:14+03:00",
     "author": "Alexey Shvayka",
-    "date": "2020-08-15T15:27:48+03:00",
-    "hash": "556b5c2751f74489036428e71c2c08ed7f5e4a24",
-    "parents": "28d684017229e5296db7f4cc29d91699095e6f5c",
+    "date": "2020-09-07T15:52:25-07:00",
+    "hash": "3375914c93c3f1d6ecd759f2e14f755c3c67abd4",
+    "parents": "53d55353042e4508cea6b3a9c2b071db6f9b051a",
     "subject": "Update Reference type prose"
    },
    {
     "adate": "2020-07-08T18:32:50+03:00",
     "author": "Alexey Shvayka",
-    "date": "2020-08-15T15:27:48+03:00",
-    "hash": "28d684017229e5296db7f4cc29d91699095e6f5c",
-    "parents": "dac016ab3b791966f4eb2851b641437d7f3a0b09",
+    "date": "2020-09-07T15:52:25-07:00",
+    "hash": "53d55353042e4508cea6b3a9c2b071db6f9b051a",
+    "parents": "723f04769428c79ca785cdc3ef9c34f44ae4f22c",
     "subject": "Add Reference Fields table"
    },
    {
     "adate": "2020-07-07T20:40:18+03:00",
     "author": "Alexey Shvayka",
-    "date": "2020-08-15T15:27:48+03:00",
-    "hash": "dac016ab3b791966f4eb2851b641437d7f3a0b09",
-    "parents": "e2c843fc2c2339a842b67dbb28f7edd93091906c",
+    "date": "2020-09-07T15:52:25-07:00",
+    "hash": "723f04769428c79ca785cdc3ef9c34f44ae4f22c",
+    "parents": "09623111553f060d8e7da23c6ea9da3fda3330f1",
     "subject": "Throw ReferenceError inline"
    },
    {
     "adate": "2020-07-07T20:40:11+03:00",
     "author": "Alexey Shvayka",
-    "date": "2020-08-15T15:27:48+03:00",
-    "hash": "e2c843fc2c2339a842b67dbb28f7edd93091906c",
-    "parents": "5e9a5cbef60142e63614197579f164b3f64781e5",
+    "date": "2020-09-07T15:52:25-07:00",
+    "hash": "09623111553f060d8e7da23c6ea9da3fda3330f1",
+    "parents": "b41a78e17e33b723899d98862d81b01d71264924",
     "subject": "Check IsUnresolvableReference before getting [[Base]]"
    },
    {
     "adate": "2020-07-07T20:38:58+03:00",
     "author": "Alexey Shvayka",
-    "date": "2020-08-15T15:27:47+03:00",
-    "hash": "5e9a5cbef60142e63614197579f164b3f64781e5",
-    "parents": "2d111174eb715a06918d6047620c5b6403d1f92a",
+    "date": "2020-09-07T15:52:25-07:00",
+    "hash": "b41a78e17e33b723899d98862d81b01d71264924",
+    "parents": "1a48b1c21b27a7aed6a37bbaf4c28b5cae4e5fec",
     "subject": "Construct references using record literals"
    },
    {
     "adate": "2020-07-07T20:13:15+03:00",
     "author": "Alexey Shvayka",
-    "date": "2020-08-15T15:27:47+03:00",
-    "hash": "2d111174eb715a06918d6047620c5b6403d1f92a",
-    "parents": "11ca327874ec07d487491864f284034d72f1ff04",
+    "date": "2020-09-07T15:52:25-07:00",
+    "hash": "1a48b1c21b27a7aed6a37bbaf4c28b5cae4e5fec",
+    "parents": "433356c68deb8b4c3360c136f6a73c4f271b6d7b",
     "subject": "Replace remaining occurences with field access"
    },
    {
     "adate": "2020-07-07T19:12:39+03:00",
     "author": "Alexey Shvayka",
-    "date": "2020-08-15T15:27:47+03:00",
-    "hash": "11ca327874ec07d487491864f284034d72f1ff04",
-    "parents": "523550cb5feee948589ab2758a039e7a33df4ae1",
+    "date": "2020-09-07T15:52:25-07:00",
+    "hash": "433356c68deb8b4c3360c136f6a73c4f271b6d7b",
+    "parents": "61bfd07bcecaae78d3f80ca3884acc0dbc6c9e8d",
     "subject": "IsStrictReference(V) => V.[[Strict]]"
    },
    {
     "adate": "2020-07-07T19:03:11+03:00",
     "author": "Alexey Shvayka",
-    "date": "2020-08-15T15:27:44+03:00",
-    "hash": "523550cb5feee948589ab2758a039e7a33df4ae1",
-    "parents": "7b253510b41e160753b57615277e25e5bbe77e5d",
+    "date": "2020-09-07T15:52:25-07:00",
+    "hash": "61bfd07bcecaae78d3f80ca3884acc0dbc6c9e8d",
+    "parents": "461585301ef7e20ecf59a6710544535753a9836c",
     "subject": "GetReferencedName(V) => V.[[ReferencedName]]"
    },
    {
     "adate": "2020-07-07T19:02:07+03:00",
     "author": "Alexey Shvayka",
-    "date": "2020-08-15T15:26:33+03:00",
-    "hash": "7b253510b41e160753b57615277e25e5bbe77e5d",
-    "parents": "3750b81c637c58a2168495ccb62417adf196b5b4",
+    "date": "2020-09-07T15:52:25-07:00",
+    "hash": "461585301ef7e20ecf59a6710544535753a9836c",
+    "parents": "65d5bcc81b65f822d4a8f31ece1bda30f5ca3036",
     "subject": "GetBase(V) => V.[[Base]]"
    }
   ],
   "title": "Editorial: Make Reference type a Record value",
-  "updated_at": "2020-08-30T19:51:33Z"
+  "updated_at": "2020-09-07T23:20:48Z"
  },
  {
   "base": "8d2463a388c866d34035543d72dff7f730fcf975",
@@ -1594,42 +1582,6 @@
   ],
   "title": "Editorial: Add Yield, CreateIteratorFromClosure, CreateAsyncIteratorFromClosure abs op.",
   "updated_at": "2020-08-20T02:04:23Z"
- },
- {
-  "base": "4069869e736771104006f8f00a2eb8b382b57800",
-  "created_at": "2020-06-12T01:25:58Z",
-  "head": "9346e7b289fec6e5897a11ec40b37b90a796745a",
-  "login": "rwaldron",
-  "number": 2043,
-  "ref": "numeric-separator",
-  "revs": [
-   {
-    "adate": "2020-08-22T15:58:04-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2020-08-22T15:58:04-07:00",
-    "hash": "9346e7b289fec6e5897a11ec40b37b90a796745a",
-    "parents": "331d0718ba1f727fc7624c83d2ef6592e7804823",
-    "subject": "Fix NLS in DecimalBigIntegerLiteral"
-   },
-   {
-    "adate": "2020-06-29T15:06:42-04:00",
-    "author": "Rick Waldron",
-    "date": "2020-08-12T14:00:38-04:00",
-    "hash": "331d0718ba1f727fc7624c83d2ef6592e7804823",
-    "parents": "b7a807f94b0ec953f3ed2515cfc6b17d198cef6c",
-    "subject": "Empty the lint trap"
-   },
-   {
-    "adate": "2020-06-01T14:49:10-04:00",
-    "author": "Rick Waldron",
-    "date": "2020-08-12T14:00:38-04:00",
-    "hash": "b7a807f94b0ec953f3ed2515cfc6b17d198cef6c",
-    "parents": "4069869e736771104006f8f00a2eb8b382b57800",
-    "subject": "NumericLiteralSeparator"
-   }
-  ],
-  "title": "Normative: add NumericLiteralSeparator",
-  "updated_at": "2020-08-22T23:05:37Z"
  },
  {
   "base": "56032d3271949f2892745d4a8e06d1322ba7220d",
