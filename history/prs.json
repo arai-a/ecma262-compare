@@ -1,5 +1,25 @@
 [
  {
+  "base": "65d5bcc81b65f822d4a8f31ece1bda30f5ca3036",
+  "created_at": "2020-09-08T22:58:07Z",
+  "head": "df634fe77b39bd59aeaa9a888ffebf095d5d5149",
+  "login": "shvaikalesh",
+  "number": 2167,
+  "ref": "object-define-properties-type-check",
+  "revs": [
+   {
+    "adate": "2020-09-09T00:15:29+03:00",
+    "author": "Alexey Shvayka",
+    "date": "2020-09-09T00:15:29+03:00",
+    "hash": "df634fe77b39bd59aeaa9a888ffebf095d5d5149",
+    "parents": "65d5bcc81b65f822d4a8f31ece1bda30f5ca3036",
+    "subject": "Editorial: Move Object type check out of ObjectDefineProperties"
+   }
+  ],
+  "title": "Editorial: Move Object type check out of ObjectDefineProperties",
+  "updated_at": "2020-09-08T22:58:07Z"
+ },
+ {
   "base": "f05f1c9bc72fd136344810a64af1cd96c7ca2779",
   "created_at": "2020-09-04T21:48:11Z",
   "head": "8cad57f89a5d7738e6d97d4656ddfb6745634832",
