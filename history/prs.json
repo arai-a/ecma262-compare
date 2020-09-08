@@ -40,24 +40,40 @@
   "updated_at": "2020-08-30T06:23:57Z"
  },
  {
-  "base": "8e0e7d19dc44153fd2d201d508b59e5525b6cc0d",
+  "base": "65d5bcc81b65f822d4a8f31ece1bda30f5ca3036",
   "created_at": "2020-08-26T23:21:12Z",
-  "head": "b73e4cea2e99a28ff1b8aae05a2ce15f0f30fc33",
+  "head": "870e5f7cc27ac0e7489059d3c650595b100a2796",
   "login": "ljharb",
   "number": 2155,
   "ref": "enumb",
   "revs": [
    {
+    "adate": "2020-09-07T22:21:55-07:00",
+    "author": "Jordan Harband",
+    "date": "2020-09-07T22:22:09-07:00",
+    "hash": "870e5f7cc27ac0e7489059d3c650595b100a2796",
+    "parents": "158950a9ee714bcd1281d0cfae44debed7907e8d",
+    "subject": "fixup! Editorial: stop using strings for special values (#2155)"
+   },
+   {
+    "adate": "2020-09-07T22:18:32-07:00",
+    "author": "Jordan Harband",
+    "date": "2020-09-07T22:22:09-07:00",
+    "hash": "158950a9ee714bcd1281d0cfae44debed7907e8d",
+    "parents": "dda632e4deb5ace02cf856326cbf41a3a4a54b23",
+    "subject": "fixup! Editorial: stop using strings for special values (#2155)"
+   },
+   {
     "adate": "2020-09-02T16:39:29-07:00",
     "author": "Bradley Farias",
-    "date": "2020-09-02T16:39:29-07:00",
-    "hash": "b73e4cea2e99a28ff1b8aae05a2ce15f0f30fc33",
-    "parents": "8e0e7d19dc44153fd2d201d508b59e5525b6cc0d",
+    "date": "2020-09-07T22:22:09-07:00",
+    "hash": "dda632e4deb5ace02cf856326cbf41a3a4a54b23",
+    "parents": "65d5bcc81b65f822d4a8f31ece1bda30f5ca3036",
     "subject": "Editorial: stop using strings for special values (#2155)"
    }
   ],
   "title": "Editorial: stop using strings for special values",
-  "updated_at": "2020-09-02T23:42:20Z"
+  "updated_at": "2020-09-08T05:22:56Z"
  },
  {
   "base": "11de25489a3e325b4b4c0575847d3bb9f51c7199",
