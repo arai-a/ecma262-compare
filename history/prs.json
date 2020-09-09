@@ -22,11 +22,19 @@
  {
   "base": "65d5bcc81b65f822d4a8f31ece1bda30f5ca3036",
   "created_at": "2020-09-04T21:48:11Z",
-  "head": "7a4127f154294cd58d1fa113b59df20f97ef429d",
+  "head": "8298b5c76491ed5dd23764fbb389d60ca27e861d",
   "login": "rkirsling",
   "number": 2164,
   "ref": "detached-buffer-reality",
   "revs": [
+   {
+    "adate": "2020-09-09T14:49:56-07:00",
+    "author": "Ross Kirsling",
+    "date": "2020-09-09T14:49:56-07:00",
+    "hash": "8298b5c76491ed5dd23764fbb389d60ca27e861d",
+    "parents": "7a4127f154294cd58d1fa113b59df20f97ef429d",
+    "subject": "Integer-indexed elements should be configurable."
+   },
    {
     "adate": "2020-09-09T13:08:14-07:00",
     "author": "Ross Kirsling",
@@ -69,7 +77,7 @@
    }
   ],
   "title": "Normative: Align detached buffer semantics with web reality",
-  "updated_at": "2020-09-09T20:18:18Z"
+  "updated_at": "2020-09-09T21:59:01Z"
  },
  {
   "base": "fb22c2b291f357210d5d35637b3cf9ec1d163314",
@@ -1782,34 +1790,6 @@
   ],
   "title": "Editorial: Have SV, TV, TRV, and UTF16Encoding return a String rather than a sequence of code units",
   "updated_at": "2020-05-29T17:21:00Z"
- },
- {
-  "base": "f05f1c9bc72fd136344810a64af1cd96c7ca2779",
-  "created_at": "2020-05-26T02:28:50Z",
-  "head": "87e833e92e026b260987078c5e0290debffcc162",
-  "login": "tc39",
-  "number": 2015,
-  "ref": "dedup-atomics-math",
-  "revs": [
-   {
-    "adate": "2020-09-03T22:27:53-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2020-09-04T12:51:50-07:00",
-    "hash": "87e833e92e026b260987078c5e0290debffcc162",
-    "parents": "01a9b84e5afc55a4dc2542e7957ec0e3998e2181",
-    "subject": "Editorial: remove AtomicLoad (#2015)"
-   },
-   {
-    "adate": "2020-05-25T19:13:48-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2020-09-04T12:51:50-07:00",
-    "hash": "01a9b84e5afc55a4dc2542e7957ec0e3998e2181",
-    "parents": "f05f1c9bc72fd136344810a64af1cd96c7ca2779",
-    "subject": "Editorial: dedup atomics index calculations"
-   }
-  ],
-  "title": "Editorial: deduplicate some work in atomics",
-  "updated_at": "2020-09-04T19:51:58Z"
  },
  {
   "base": "7479ade585c62b4af2c66898fc0b64731f97adc6",
