@@ -482,11 +482,19 @@
  {
   "base": "e67ec385599d6e2f20562f700ec77b1e9de153c1",
   "created_at": "2020-08-03T04:35:24Z",
-  "head": "e8120f6f9b08b8c5375db206a9a1628730a5e079",
+  "head": "e7c17df9c70b0575e0d483fc09b67fbeb50a452d",
   "login": "ryanjduffy",
   "number": 2122,
   "ref": "math-2119",
   "revs": [
+   {
+    "adate": "2020-09-09T17:03:38-07:00",
+    "author": "Ryan Duffy",
+    "date": "2020-09-09T17:03:38-07:00",
+    "hash": "e7c17df9c70b0575e0d483fc09b67fbeb50a452d",
+    "parents": "e8120f6f9b08b8c5375db206a9a1628730a5e079",
+    "subject": "plus before minus; descending order for steps; add conditions for Math.min/max"
+   },
    {
     "adate": "2020-09-03T15:39:06-07:00",
     "author": "Ryan Duffy",
@@ -729,7 +737,7 @@
    }
   ],
   "title": "Editorial: define Math functions using algorithm steps",
-  "updated_at": "2020-09-03T22:39:48Z"
+  "updated_at": "2020-09-10T00:09:43Z"
  },
  {
   "base": "019d49816879fc814097914d3e3ce7c7e1b081ed",
@@ -4362,50 +4370,6 @@
   ],
   "title": "Editorial: use \"is 0\" instead of \"is zero\" for consistency",
   "updated_at": "2020-02-28T04:16:25Z"
- },
- {
-  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
-  "created_at": "2017-03-03T10:10:04Z",
-  "head": "62ac9b4e1d7aabb01e933fd4ac00a04a860bcf70",
-  "login": "anba",
-  "number": 835,
-  "ref": "atomics-cleanup",
-  "revs": [
-   {
-    "adate": "2017-03-03T01:52:09-08:00",
-    "author": "Andr\u00e9 Bargull",
-    "date": "2017-03-03T01:52:09-08:00",
-    "hash": "62ac9b4e1d7aabb01e933fd4ac00a04a860bcf70",
-    "parents": "8e56f87a235130a319a8adcc4b99bd4acc336aef",
-    "subject": "Directly compute the absolute buffer address in ValidateAtomicAccess"
-   },
-   {
-    "adate": "2017-03-03T01:44:45-08:00",
-    "author": "Andr\u00e9 Bargull",
-    "date": "2017-03-03T01:44:45-08:00",
-    "hash": "8e56f87a235130a319a8adcc4b99bd4acc336aef",
-    "parents": "5b1c3e5ea837e755b940d1bd62c0d41a325ac759",
-    "subject": "Remove boolean parameter ValidateSharedIntegerTypedArray with List"
-   },
-   {
-    "adate": "2017-03-03T01:36:35-08:00",
-    "author": "Andr\u00e9 Bargull",
-    "date": "2017-03-03T01:36:35-08:00",
-    "hash": "5b1c3e5ea837e755b940d1bd62c0d41a325ac759",
-    "parents": "034985e7946539a93621fed305b81764b3e037be",
-    "subject": "Partially revert f1239ca6282c874c8d98b8656779139ce80f0cb8 and instead replace AtomicLoad with GetValueFromBuffer in Atomics.wake"
-   },
-   {
-    "adate": "2017-03-03T01:29:15-08:00",
-    "author": "Andr\u00e9 Bargull",
-    "date": "2017-03-03T01:29:15-08:00",
-    "hash": "034985e7946539a93621fed305b81764b3e037be",
-    "parents": "6390c2f1b34b309895d31d8c0512eac8660a0210",
-    "subject": "Add missing local variable for [[ArrayBufferData]] in Atomics.wait/wake"
-   }
-  ],
-  "title": "Small Atomics changes to reduce duplications",
-  "updated_at": "2020-02-28T04:16:26Z"
  },
  {
   "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
