@@ -1,25 +1,5 @@
 [
  {
-  "base": "5a1a2dfb3f3e7a1e5275056d0ea45a83007e5557",
-  "created_at": "2020-09-08T22:58:07Z",
-  "head": "9b37c1ac257432b0e9060b81a67ab0fc637ab0ec",
-  "login": "shvaikalesh",
-  "number": 2167,
-  "ref": "object-define-properties-type-check",
-  "revs": [
-   {
-    "adate": "2020-09-09T20:15:20-07:00",
-    "author": "Alexey Shvayka",
-    "date": "2020-09-09T20:15:20-07:00",
-    "hash": "9b37c1ac257432b0e9060b81a67ab0fc637ab0ec",
-    "parents": "5a1a2dfb3f3e7a1e5275056d0ea45a83007e5557",
-    "subject": "Editorial: Move Object type check out of ObjectDefineProperties (#2167)"
-   }
-  ],
-  "title": "Editorial: Move Object type check out of ObjectDefineProperties",
-  "updated_at": "2020-09-10T03:15:35Z"
- },
- {
   "base": "65d5bcc81b65f822d4a8f31ece1bda30f5ca3036",
   "created_at": "2020-09-04T21:48:11Z",
   "head": "8298b5c76491ed5dd23764fbb389d60ca27e861d",
@@ -266,26 +246,6 @@
   ],
   "title": "Editorial: Add notes about the 1-based indexing of regular expression _captures_",
   "updated_at": "2020-08-21T00:10:01Z"
- },
- {
-  "base": "aead0a396d38b0db318d8b8fef66e02c1e3e0e01",
-  "created_at": "2020-08-19T16:13:35Z",
-  "head": "cc7f649322d320059c2561435937bbff28bf780a",
-  "login": "shvaikalesh",
-  "number": 2145,
-  "ref": "string-index-of-cleanup",
-  "revs": [
-   {
-    "adate": "2020-08-19T19:13:08+03:00",
-    "author": "Alexey Shvayka",
-    "date": "2020-08-19T19:13:08+03:00",
-    "hash": "cc7f649322d320059c2561435937bbff28bf780a",
-    "parents": "aead0a396d38b0db318d8b8fef66e02c1e3e0e01",
-    "subject": "Editorial: Reword StringIndexOf note and remove unused vars at its call sites"
-   }
-  ],
-  "title": "Editorial: Reword StringIndexOf note and remove unused vars at its call sites",
-  "updated_at": "2020-08-19T16:13:35Z"
  },
  {
   "base": "aead0a396d38b0db318d8b8fef66e02c1e3e0e01",
@@ -806,11 +766,19 @@
  {
   "base": "65d5bcc81b65f822d4a8f31ece1bda30f5ca3036",
   "created_at": "2020-07-28T10:58:41Z",
-  "head": "b12b3c1261b15a72e623a65f2d73b60df6b2d148",
+  "head": "39be387388905ea39868a5056cc719e5b1811d10",
   "login": "ExE-Boss",
   "number": 2115,
   "ref": "editorial/create-builtin-function/fix-internal-slots-list-param",
   "revs": [
+   {
+    "adate": "2020-09-10T10:30:00+02:00",
+    "author": "ExE Boss",
+    "date": "2020-09-10T10:28:56+02:00",
+    "hash": "39be387388905ea39868a5056cc719e5b1811d10",
+    "parents": "b12b3c1261b15a72e623a65f2d73b60df6b2d148",
+    "subject": "Editorial: Improve\u00a0initialisation of\u00a0built\u2011in\u00a0function internal\u00a0slots"
+   },
    {
     "adate": "2020-09-09T09:00:00+02:00",
     "author": "ExE Boss",
@@ -829,7 +797,7 @@
    }
   ],
   "title": "Editorial: Define\u00a0required internal\u00a0slots in\u00a0`CreateBuiltinFunction`\u00a0steps",
-  "updated_at": "2020-09-09T07:07:14Z"
+  "updated_at": "2020-09-10T08:28:12Z"
  },
  {
   "base": "721293e0fff964c4cdd3397fcbc7def1de9f9b4e",
