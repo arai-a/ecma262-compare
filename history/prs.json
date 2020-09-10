@@ -288,26 +288,6 @@
   "updated_at": "2020-08-27T00:16:10Z"
  },
  {
-  "base": "6681ce795eacdfebbcc795983d37064d621da000",
-  "created_at": "2020-08-17T18:44:30Z",
-  "head": "f8dfade2cd954aeca9713db419c273953cefa52b",
-  "login": "tc39",
-  "number": 2137,
-  "ref": "and-let",
-  "revs": [
-   {
-    "adate": "2020-08-17T11:36:09-07:00",
-    "author": "Michael Ficarra",
-    "date": "2020-09-10T08:07:36-07:00",
-    "hash": "f8dfade2cd954aeca9713db419c273953cefa52b",
-    "parents": "6681ce795eacdfebbcc795983d37064d621da000",
-    "subject": "Editorial: replace \"and let\"/\"and return\" with better phrasing"
-   }
-  ],
-  "title": "Editorial: replace \"and let\"/\"and return\" with better phrasing",
-  "updated_at": "2020-09-10T15:08:02Z"
- },
- {
   "base": "3750b81c637c58a2168495ccb62417adf196b5b4",
   "created_at": "2020-08-15T01:59:35Z",
   "head": "78333949bc92aec1ebeee2ff15dcdfb21b3a5a7d",
@@ -1812,32 +1792,24 @@
   "updated_at": "2020-05-26T21:15:58Z"
  },
  {
-  "base": "93ac76898d9f74e39f68ac53edbad68b3822c949",
+  "base": "6681ce795eacdfebbcc795983d37064d621da000",
   "created_at": "2020-05-22T17:36:53Z",
-  "head": "ca910b07956f737dec5bbd0db65d5a8e5f6f0f22",
+  "head": "151c3c62c9a76c1389dec8cb98e84765f00be658",
   "login": "caiolima",
   "number": 2007,
   "ref": "mathematical-values-fix",
   "revs": [
    {
-    "adate": "2020-08-15T22:56:21-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-08-20T21:47:57-07:00",
-    "hash": "ca910b07956f737dec5bbd0db65d5a8e5f6f0f22",
-    "parents": "41f53872c9ab2d8cb7eefcd0a3e1a2a91da59475",
-    "subject": "Fixes from jmdyck"
-   },
-   {
     "adate": "2020-04-27T15:59:38-03:00",
     "author": "Caio Lima",
-    "date": "2020-08-20T21:46:55-07:00",
-    "hash": "41f53872c9ab2d8cb7eefcd0a3e1a2a91da59475",
-    "parents": "93ac76898d9f74e39f68ac53edbad68b3822c949",
+    "date": "2020-09-10T10:45:07-07:00",
+    "hash": "151c3c62c9a76c1389dec8cb98e84765f00be658",
+    "parents": "6681ce795eacdfebbcc795983d37064d621da000",
     "subject": "Changing the default numeric type to be mathematical values"
    }
   ],
   "title": "Editorial: Make numeric values and operations default to mathematical values",
-  "updated_at": "2020-08-21T04:48:20Z"
+  "updated_at": "2020-09-10T17:45:24Z"
  },
  {
   "base": "bd868f20b8c574ad6689fba014b62a1dba819e56",
