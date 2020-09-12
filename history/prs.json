@@ -1,5 +1,25 @@
 [
  {
+  "base": "8710d2b2a8906d0d41e90cfcb9f47573d8d573fb",
+  "created_at": "2020-09-12T04:57:46Z",
+  "head": "75c3c480aec360a013e98890fb94bc204f1b7451",
+  "login": "tc39",
+  "number": 2172,
+  "ref": "numbers-once",
+  "revs": [
+   {
+    "adate": "2020-09-11T21:56:51-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-09-11T21:56:51-07:00",
+    "hash": "75c3c480aec360a013e98890fb94bc204f1b7451",
+    "parents": "8710d2b2a8906d0d41e90cfcb9f47573d8d573fb",
+    "subject": "Editorial: only coerce once in Math.hypot"
+   }
+  ],
+  "title": "Editorial: only coerce once in Math.hypot",
+  "updated_at": "2020-09-12T05:01:22Z"
+ },
+ {
   "base": "faaf15785747d799af1768afb105c0114bd38a1c",
   "created_at": "2020-09-04T21:48:11Z",
   "head": "d1523ce25fec527ed6f5ef5ce09e54639fa0a36f",
@@ -426,26 +446,6 @@
   ],
   "title": "Normative: move __proto__ out of annex b",
   "updated_at": "2020-08-05T00:46:59Z"
- },
- {
-  "base": "faaf15785747d799af1768afb105c0114bd38a1c",
-  "created_at": "2020-08-03T04:35:24Z",
-  "head": "8710d2b2a8906d0d41e90cfcb9f47573d8d573fb",
-  "login": "ryanjduffy",
-  "number": 2122,
-  "ref": "math-2119",
-  "revs": [
-   {
-    "adate": "2020-09-11T21:30:17-07:00",
-    "author": "Ryan Duffy",
-    "date": "2020-09-11T21:30:17-07:00",
-    "hash": "8710d2b2a8906d0d41e90cfcb9f47573d8d573fb",
-    "parents": "faaf15785747d799af1768afb105c0114bd38a1c",
-    "subject": "Editorial: define Math functions using algorithm steps (#2122)"
-   }
-  ],
-  "title": "Editorial: define Math functions using algorithm steps",
-  "updated_at": "2020-09-12T04:35:46Z"
  },
  {
   "base": "019d49816879fc814097914d3e3ce7c7e1b081ed",
