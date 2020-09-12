@@ -430,11 +430,19 @@
  {
   "base": "e67ec385599d6e2f20562f700ec77b1e9de153c1",
   "created_at": "2020-08-03T04:35:24Z",
-  "head": "b20e5e6d1bbd0dbc7e8fe4bd0e2c74cb64f42645",
+  "head": "962dbe96cc56cf0aa6e8cee64cf8b83cf36bc5c4",
   "login": "ryanjduffy",
   "number": 2122,
   "ref": "math-2119",
   "revs": [
+   {
+    "adate": "2020-09-11T16:47:59-07:00",
+    "author": "Ryan Duffy",
+    "date": "2020-09-11T16:47:59-07:00",
+    "hash": "962dbe96cc56cf0aa6e8cee64cf8b83cf36bc5c4",
+    "parents": "b20e5e6d1bbd0dbc7e8fe4bd0e2c74cb64f42645",
+    "subject": "dedents (mostly)"
+   },
    {
     "adate": "2020-09-09T18:20:05-07:00",
     "author": "Ryan Duffy",
@@ -693,7 +701,7 @@
    }
   ],
   "title": "Editorial: define Math functions using algorithm steps",
-  "updated_at": "2020-09-10T01:20:30Z"
+  "updated_at": "2020-09-11T23:48:53Z"
  },
  {
   "base": "019d49816879fc814097914d3e3ce7c7e1b081ed",
