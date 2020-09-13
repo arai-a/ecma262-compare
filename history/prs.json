@@ -1,6 +1,50 @@
 [
  {
   "base": "8710d2b2a8906d0d41e90cfcb9f47573d8d573fb",
+  "created_at": "2020-09-13T19:29:42Z",
+  "head": "184fac970b65532009ef74f15a16b757286e7dae",
+  "login": "jmdyck",
+  "number": 2174,
+  "ref": "editorial",
+  "revs": [
+   {
+    "adate": "2020-09-13T14:58:21-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-09-13T15:27:10-04:00",
+    "hash": "184fac970b65532009ef74f15a16b757286e7dae",
+    "parents": "118b270064e5a2f372d45e6f2d7c72c1cdb41075",
+    "subject": "Editorial: Math.round: use _n_ instead of _x_"
+   },
+   {
+    "adate": "2020-09-13T14:50:53-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-09-13T15:27:10-04:00",
+    "hash": "118b270064e5a2f372d45e6f2d7c72c1cdb41075",
+    "parents": "942b325e1411532a4939003db8ed51c70ce38ab9",
+    "subject": "Editorial: Math.fround must call ToNumber on its arg"
+   },
+   {
+    "adate": "2020-09-13T14:16:40-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-09-13T15:27:10-04:00",
+    "hash": "942b325e1411532a4939003db8ed51c70ce38ab9",
+    "parents": "892df8d8151b1b8607cb3ea294cdf0856108c18d",
+    "subject": "Editorial: List Math.atan2 parameters in correct order"
+   },
+   {
+    "adate": "2020-09-13T14:03:31-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-09-13T15:27:10-04:00",
+    "hash": "892df8d8151b1b8607cb3ea294cdf0856108c18d",
+    "parents": "8710d2b2a8906d0d41e90cfcb9f47573d8d573fb",
+    "subject": "Editorial: Math.{hypot,max,min} accept zero or more arguments"
+   }
+  ],
+  "title": "Editorial: quick fixes re Math functions",
+  "updated_at": "2020-09-13T19:29:42Z"
+ },
+ {
+  "base": "8710d2b2a8906d0d41e90cfcb9f47573d8d573fb",
   "created_at": "2020-09-12T04:57:46Z",
   "head": "464d064159606b75f736d0e79b4269186762fd09",
   "login": "tc39",
