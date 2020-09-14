@@ -1,83 +1,55 @@
 [
  {
-  "base": "8710d2b2a8906d0d41e90cfcb9f47573d8d573fb",
+  "base": "575149cfd77aebcf3a129e165bd89e14caafc31c",
   "created_at": "2020-09-13T19:29:42Z",
-  "head": "184fac970b65532009ef74f15a16b757286e7dae",
+  "head": "836605d48b0b14e738e8e9bd8c5f981dad957cf4",
   "login": "jmdyck",
   "number": 2174,
   "ref": "editorial",
   "revs": [
    {
+    "adate": "2020-09-14T09:47:23-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-09-14T10:40:12-04:00",
+    "hash": "836605d48b0b14e738e8e9bd8c5f981dad957cf4",
+    "parents": "d54282d5986b96e4e9d5cea0dc50f2ee5703b0cf",
+    "subject": "Editorial: Insert \"or\" into a condition in Math.fround"
+   },
+   {
     "adate": "2020-09-13T14:58:21-04:00",
     "author": "Michael Dyck",
-    "date": "2020-09-13T15:27:10-04:00",
-    "hash": "184fac970b65532009ef74f15a16b757286e7dae",
-    "parents": "118b270064e5a2f372d45e6f2d7c72c1cdb41075",
-    "subject": "Editorial: Math.round: use _n_ instead of _x_"
+    "date": "2020-09-14T10:40:12-04:00",
+    "hash": "d54282d5986b96e4e9d5cea0dc50f2ee5703b0cf",
+    "parents": "7aaf6befe50b2946aad75c79d306fed534ee3680",
+    "subject": "Editorial: Math.round: fix typos: \"_x_\" -> \"_n_\""
    },
    {
     "adate": "2020-09-13T14:50:53-04:00",
     "author": "Michael Dyck",
-    "date": "2020-09-13T15:27:10-04:00",
-    "hash": "118b270064e5a2f372d45e6f2d7c72c1cdb41075",
-    "parents": "942b325e1411532a4939003db8ed51c70ce38ab9",
+    "date": "2020-09-14T10:31:10-04:00",
+    "hash": "7aaf6befe50b2946aad75c79d306fed534ee3680",
+    "parents": "cc0ec4b111747cbf6e3a145f8384b20601f5eb4f",
     "subject": "Editorial: Math.fround must call ToNumber on its arg"
    },
    {
     "adate": "2020-09-13T14:16:40-04:00",
     "author": "Michael Dyck",
-    "date": "2020-09-13T15:27:10-04:00",
-    "hash": "942b325e1411532a4939003db8ed51c70ce38ab9",
-    "parents": "892df8d8151b1b8607cb3ea294cdf0856108c18d",
+    "date": "2020-09-14T10:31:10-04:00",
+    "hash": "cc0ec4b111747cbf6e3a145f8384b20601f5eb4f",
+    "parents": "d9fca9001925a685603c1d6cc60c0b80d6b75b4b",
     "subject": "Editorial: List Math.atan2 parameters in correct order"
    },
    {
     "adate": "2020-09-13T14:03:31-04:00",
     "author": "Michael Dyck",
-    "date": "2020-09-13T15:27:10-04:00",
-    "hash": "892df8d8151b1b8607cb3ea294cdf0856108c18d",
-    "parents": "8710d2b2a8906d0d41e90cfcb9f47573d8d573fb",
+    "date": "2020-09-14T10:30:47-04:00",
+    "hash": "d9fca9001925a685603c1d6cc60c0b80d6b75b4b",
+    "parents": "575149cfd77aebcf3a129e165bd89e14caafc31c",
     "subject": "Editorial: Math.{hypot,max,min} accept zero or more arguments"
    }
   ],
   "title": "Editorial: quick fixes re Math functions",
-  "updated_at": "2020-09-13T19:29:42Z"
- },
- {
-  "base": "8710d2b2a8906d0d41e90cfcb9f47573d8d573fb",
-  "created_at": "2020-09-12T04:57:46Z",
-  "head": "464d064159606b75f736d0e79b4269186762fd09",
-  "login": "tc39",
-  "number": 2172,
-  "ref": "numbers-once",
-  "revs": [
-   {
-    "adate": "2020-09-12T15:34:33-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2020-09-12T15:34:33-07:00",
-    "hash": "464d064159606b75f736d0e79b4269186762fd09",
-    "parents": "fb2811b5b18e9d5cb9517554278acf015ec4ae81",
-    "subject": "Editorial: side effects before returning in Math.{hypot,max,min}"
-   },
-   {
-    "adate": "2020-09-12T15:26:15-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2020-09-12T15:26:15-07:00",
-    "hash": "fb2811b5b18e9d5cb9517554278acf015ec4ae81",
-    "parents": "75c3c480aec360a013e98890fb94bc204f1b7451",
-    "subject": "Editorial: fix -Infinity in Math.hypot"
-   },
-   {
-    "adate": "2020-09-11T21:56:51-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2020-09-11T21:56:51-07:00",
-    "hash": "75c3c480aec360a013e98890fb94bc204f1b7451",
-    "parents": "8710d2b2a8906d0d41e90cfcb9f47573d8d573fb",
-    "subject": "Editorial: only coerce once in Math.hypot"
-   }
-  ],
-  "title": "Editorial: a couple of fixes for Math",
-  "updated_at": "2020-09-12T22:35:58Z"
+  "updated_at": "2020-09-14T14:45:44Z"
  },
  {
   "base": "faaf15785747d799af1768afb105c0114bd38a1c",
@@ -138,26 +110,6 @@
   ],
   "title": "Normative: Align detached buffer semantics with web reality",
   "updated_at": "2020-09-11T00:53:00Z"
- },
- {
-  "base": "fb22c2b291f357210d5d35637b3cf9ec1d163314",
-  "created_at": "2020-08-30T06:23:57Z",
-  "head": "39cba8d78b2ee96151b715497b7e278e67598e2b",
-  "login": "shvaikalesh",
-  "number": 2160,
-  "ref": "symbol-toprimitive-unused-argument",
-  "revs": [
-   {
-    "adate": "2020-08-30T09:20:42+03:00",
-    "author": "Alexey Shvayka",
-    "date": "2020-08-30T09:21:55+03:00",
-    "hash": "39cba8d78b2ee96151b715497b7e278e67598e2b",
-    "parents": "fb22c2b291f357210d5d35637b3cf9ec1d163314",
-    "subject": "Editorial: Add note on ignored argument of Symbol.prototype[@@toPrimitive]"
-   }
-  ],
-  "title": "Editorial: Add note on ignored argument of Symbol.prototype[@@toPrimitive]",
-  "updated_at": "2020-08-30T06:23:57Z"
  },
  {
   "base": "65d5bcc81b65f822d4a8f31ece1bda30f5ca3036",
