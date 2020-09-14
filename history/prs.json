@@ -2,54 +2,22 @@
  {
   "base": "575149cfd77aebcf3a129e165bd89e14caafc31c",
   "created_at": "2020-09-13T19:29:42Z",
-  "head": "836605d48b0b14e738e8e9bd8c5f981dad957cf4",
+  "head": "d97be3ea2f451adbaae55c817d5d0ac0597a8555",
   "login": "jmdyck",
   "number": 2174,
   "ref": "editorial",
   "revs": [
    {
-    "adate": "2020-09-14T09:47:23-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-09-14T10:40:12-04:00",
-    "hash": "836605d48b0b14e738e8e9bd8c5f981dad957cf4",
-    "parents": "d54282d5986b96e4e9d5cea0dc50f2ee5703b0cf",
-    "subject": "Editorial: Insert \"or\" into a condition in Math.fround"
-   },
-   {
-    "adate": "2020-09-13T14:58:21-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-09-14T10:40:12-04:00",
-    "hash": "d54282d5986b96e4e9d5cea0dc50f2ee5703b0cf",
-    "parents": "7aaf6befe50b2946aad75c79d306fed534ee3680",
-    "subject": "Editorial: Math.round: fix typos: \"_x_\" -> \"_n_\""
-   },
-   {
-    "adate": "2020-09-13T14:50:53-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-09-14T10:31:10-04:00",
-    "hash": "7aaf6befe50b2946aad75c79d306fed534ee3680",
-    "parents": "cc0ec4b111747cbf6e3a145f8384b20601f5eb4f",
-    "subject": "Editorial: Math.fround must call ToNumber on its arg"
-   },
-   {
-    "adate": "2020-09-13T14:16:40-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-09-14T10:31:10-04:00",
-    "hash": "cc0ec4b111747cbf6e3a145f8384b20601f5eb4f",
-    "parents": "d9fca9001925a685603c1d6cc60c0b80d6b75b4b",
-    "subject": "Editorial: List Math.atan2 parameters in correct order"
-   },
-   {
     "adate": "2020-09-13T14:03:31-04:00",
     "author": "Michael Dyck",
-    "date": "2020-09-14T10:30:47-04:00",
-    "hash": "d9fca9001925a685603c1d6cc60c0b80d6b75b4b",
+    "date": "2020-09-14T13:19:42-04:00",
+    "hash": "d97be3ea2f451adbaae55c817d5d0ac0597a8555",
     "parents": "575149cfd77aebcf3a129e165bd89e14caafc31c",
-    "subject": "Editorial: Math.{hypot,max,min} accept zero or more arguments"
+    "subject": "Editorial: Quick fixes for Math functions (#2174)"
    }
   ],
   "title": "Editorial: quick fixes re Math functions",
-  "updated_at": "2020-09-14T14:45:44Z"
+  "updated_at": "2020-09-14T17:29:27Z"
  },
  {
   "base": "faaf15785747d799af1768afb105c0114bd38a1c",
