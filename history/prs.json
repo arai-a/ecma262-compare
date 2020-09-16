@@ -1,6 +1,202 @@
 [
  {
   "base": "d97be3ea2f451adbaae55c817d5d0ac0597a8555",
+  "created_at": "2020-09-16T04:44:11Z",
+  "head": "c085a92dcaec12b98c5f8446afd47679928d45ec",
+  "login": "jmdyck",
+  "number": 2176,
+  "ref": "overloaded-functions",
+  "revs": [
+   {
+    "adate": "2020-09-16T00:00:28-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-09-16T00:00:28-04:00",
+    "hash": "c085a92dcaec12b98c5f8446afd47679928d45ec",
+    "parents": "b9c7191b2bbcff18ffad178bc615355ffbfc3a05",
+    "subject": "TypeArray: wording"
+   },
+   {
+    "adate": "2020-09-15T23:59:37-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-09-15T23:59:37-04:00",
+    "hash": "b9c7191b2bbcff18ffad178bc615355ffbfc3a05",
+    "parents": "78778543429dd1159cac8b4908cdf5d08409298f",
+    "subject": "TypedArray: factor out _proto_"
+   },
+   {
+    "adate": "2020-09-15T23:57:27-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-09-15T23:57:27-04:00",
+    "hash": "78778543429dd1159cac8b4908cdf5d08409298f",
+    "parents": "2c89d9199d78412218994fea733f927e62841289",
+    "subject": "TypedArray: Transform the 3 remaining overloads into abstract operations."
+   },
+   {
+    "adate": "2020-09-15T23:40:02-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-09-15T23:40:02-04:00",
+    "hash": "2c89d9199d78412218994fea733f927e62841289",
+    "parents": "fc7f9e98b79f4e4d4fb7c3d43a404659c37c1da2",
+    "subject": "TypedArray: Factor out the creation + return of _O_"
+   },
+   {
+    "adate": "2020-09-15T23:25:41-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-09-15T23:25:41-04:00",
+    "hash": "fc7f9e98b79f4e4d4fb7c3d43a404659c37c1da2",
+    "parents": "f75a1f8f57ad0a8e98452e1bca0d0f094bb1e022",
+    "subject": "TypedArray: Inline the 2 simple overloads"
+   },
+   {
+    "adate": "2020-09-15T23:20:02-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-09-15T23:20:02-04:00",
+    "hash": "f75a1f8f57ad0a8e98452e1bca0d0f094bb1e022",
+    "parents": "35c005e089e311820d609e8910bfd83cc951694b",
+    "subject": "TypedArray: Factor out 2 steps from the start of each overload"
+   },
+   {
+    "adate": "2020-09-15T23:15:06-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-09-15T23:15:06-04:00",
+    "hash": "35c005e089e311820d609e8910bfd83cc951694b",
+    "parents": "a5eb8dcfe849bf43b891bfbab9d30f2a14470839",
+    "subject": "TypedArray: Write the unified function in pseudo-pseudocode"
+   },
+   {
+    "adate": "2020-09-15T22:56:22-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-09-15T22:56:22-04:00",
+    "hash": "a5eb8dcfe849bf43b891bfbab9d30f2a14470839",
+    "parents": "b0c78699a243a238530829331de875d18c23ceff",
+    "subject": "TypedArray: Move one of the overloads earlier"
+   },
+   {
+    "adate": "2020-09-15T22:55:38-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-09-15T22:55:38-04:00",
+    "hash": "b0c78699a243a238530829331de875d18c23ceff",
+    "parents": "d0edb4c88b2471a98079686eb3a8da93ed561003",
+    "subject": "TypedArray: Move AllocateTypedArrayBuffer later"
+   },
+   {
+    "adate": "2020-09-15T22:50:29-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-09-15T22:50:29-04:00",
+    "hash": "d0edb4c88b2471a98079686eb3a8da93ed561003",
+    "parents": "644da152d30577c7a2bbc7ea2763717029f093e0",
+    "subject": "TypedArray: Push 3 of the overloads down one level"
+   },
+   {
+    "adate": "2020-09-15T22:15:11-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-09-15T22:31:34-04:00",
+    "hash": "644da152d30577c7a2bbc7ea2763717029f093e0",
+    "parents": "f7e380de9b54dfce4b762df6f751f40e227e6279",
+    "subject": "TypedArray: First, move TypedArraySpeciesCreate and TypedArrayCreate"
+   },
+   {
+    "adate": "2020-09-15T20:35:03-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-09-15T20:35:03-04:00",
+    "hash": "f7e380de9b54dfce4b762df6f751f40e227e6279",
+    "parents": "623e41492c3bc3848d30ec912d69f275b492e846",
+    "subject": "%TA%.p.set: Rewrite function with 2 overloads"
+   },
+   {
+    "adate": "2020-09-15T20:21:58-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-09-15T20:21:58-04:00",
+    "hash": "623e41492c3bc3848d30ec912d69f275b492e846",
+    "parents": "ac5fd99b3eb431b65484fbbaa0f0273abfe693dd",
+    "subject": "%TA%.p.set: Consistently use _source_"
+   },
+   {
+    "adate": "2020-09-15T18:00:12-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-09-15T18:00:12-04:00",
+    "hash": "ac5fd99b3eb431b65484fbbaa0f0273abfe693dd",
+    "parents": "2258d4887313bc5114d837756f08786d31e57db6",
+    "subject": "%TA%.p.set: Swap the order of the overloads."
+   },
+   {
+    "adate": "2020-09-15T17:14:37-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-09-15T17:14:37-04:00",
+    "hash": "2258d4887313bc5114d837756f08786d31e57db6",
+    "parents": "e6410e58f4a73ca4d30c6313cef7af627e98ab88",
+    "subject": "Array: simplify"
+   },
+   {
+    "adate": "2020-09-15T17:13:03-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-09-15T17:13:03-04:00",
+    "hash": "e6410e58f4a73ca4d30c6313cef7af627e98ab88",
+    "parents": "14eca187938bfd0f86f927ee03cbc97d8b800eea",
+    "subject": "Array: Factor out common stuff from the start of each arm."
+   },
+   {
+    "adate": "2020-09-15T17:11:01-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-09-15T17:11:01-04:00",
+    "hash": "14eca187938bfd0f86f927ee03cbc97d8b800eea",
+    "parents": "a52f5fb6ee6505f0e507d4498b00e365abfeedf8",
+    "subject": "Array: simple join of the overloads"
+   },
+   {
+    "adate": "2020-09-15T17:01:21-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-09-15T17:01:21-04:00",
+    "hash": "a52f5fb6ee6505f0e507d4498b00e365abfeedf8",
+    "parents": "872c870defe5157c22585ac0a25dc3c1047b91b6",
+    "subject": "Date: simplify"
+   },
+   {
+    "adate": "2020-09-15T16:34:55-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-09-15T16:47:54-04:00",
+    "hash": "872c870defe5157c22585ac0a25dc3c1047b91b6",
+    "parents": "40ee09ce7db961553973cc489275552f06c41578",
+    "subject": "Date: Factor out common stuff from the end of each arm."
+   },
+   {
+    "adate": "2020-09-15T16:32:57-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-09-15T16:47:54-04:00",
+    "hash": "40ee09ce7db961553973cc489275552f06c41578",
+    "parents": "8bc46c921221f2c7e5b9e828de3c80d9e030e785",
+    "subject": "Date: Introduce _dv_ in each arm."
+   },
+   {
+    "adate": "2020-09-15T16:27:51-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-09-15T16:47:51-04:00",
+    "hash": "8bc46c921221f2c7e5b9e828de3c80d9e030e785",
+    "parents": "046d5a4c3b95a267a738878cddd3740fc64acb60",
+    "subject": "Date: Factor out stuff common to the start of each arm"
+   },
+   {
+    "adate": "2020-09-15T16:24:17-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-09-15T16:45:21-04:00",
+    "hash": "046d5a4c3b95a267a738878cddd3740fc64acb60",
+    "parents": "cc4415bbe57f160abaab07cf86e2719b4cc00b3f",
+    "subject": "Date: simple join of the 3 overloads"
+   },
+   {
+    "adate": "2020-09-15T16:11:22-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-09-15T16:11:22-04:00",
+    "hash": "cc4415bbe57f160abaab07cf86e2719b4cc00b3f",
+    "parents": "d97be3ea2f451adbaae55c817d5d0ac0597a8555",
+    "subject": "Date: First, just reorder the overloads"
+   }
+  ],
+  "title": "Editorial: Rewrite overloaded functions so each has a single definition",
+  "updated_at": "2020-09-16T04:59:51Z"
+ },
+ {
+  "base": "d97be3ea2f451adbaae55c817d5d0ac0597a8555",
   "created_at": "2020-09-15T20:38:13Z",
   "head": "1575e3e97ccc1bf4eacfb38b9e9e190c4f1affbb",
   "login": "ExE-Boss",
