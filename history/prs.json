@@ -2,11 +2,43 @@
  {
   "base": "d97be3ea2f451adbaae55c817d5d0ac0597a8555",
   "created_at": "2020-09-16T04:44:11Z",
-  "head": "c085a92dcaec12b98c5f8446afd47679928d45ec",
+  "head": "0ace32948e2f42e0ef0a5a2c248202a27a246fe2",
   "login": "jmdyck",
   "number": 2176,
   "ref": "overloaded-functions",
   "revs": [
+   {
+    "adate": "2020-09-16T22:11:00-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-09-16T22:11:00-04:00",
+    "hash": "0ace32948e2f42e0ef0a5a2c248202a27a246fe2",
+    "parents": "148e8dd25484f0a651faf908218be85c73f18cff",
+    "subject": "%TA%.p.set: insert \"nonnegative\" into description of _targetOffset_"
+   },
+   {
+    "adate": "2020-09-16T22:01:18-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-09-16T22:01:18-04:00",
+    "hash": "148e8dd25484f0a651faf908218be85c73f18cff",
+    "parents": "d386bdd37b56a9b579c89325025f37bb179f5005",
+    "subject": "all 4: Change \"single function\" to just \"function\""
+   },
+   {
+    "adate": "2020-09-16T21:55:20-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-09-16T21:55:20-04:00",
+    "hash": "d386bdd37b56a9b579c89325025f37bb179f5005",
+    "parents": "10f84b163a44ac2215695f996cb8755507cb87ee",
+    "subject": "%TA%.p.set: Rename SetTypedArrayFromOtherValue as SetTypedArrayFromArrayLike"
+   },
+   {
+    "adate": "2020-09-16T21:43:56-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-09-16T21:43:56-04:00",
+    "hash": "10f84b163a44ac2215695f996cb8755507cb87ee",
+    "parents": "c085a92dcaec12b98c5f8446afd47679928d45ec",
+    "subject": "TypedArray: Replace InitializeTypedArrayFromOtherObject"
+   },
    {
     "adate": "2020-09-16T00:00:28-04:00",
     "author": "Michael Dyck",
@@ -193,27 +225,7 @@
    }
   ],
   "title": "Editorial: Rewrite overloaded functions so each has a single definition",
-  "updated_at": "2020-09-16T04:59:51Z"
- },
- {
-  "base": "d97be3ea2f451adbaae55c817d5d0ac0597a8555",
-  "created_at": "2020-09-15T20:38:13Z",
-  "head": "1575e3e97ccc1bf4eacfb38b9e9e190c4f1affbb",
-  "login": "ExE-Boss",
-  "number": 2175,
-  "ref": "normative/object-proto-property-intializer",
-  "revs": [
-   {
-    "adate": "2020-09-15T22:40:00+02:00",
-    "author": "ExE Boss",
-    "date": "2020-09-15T22:37:41+02:00",
-    "hash": "1575e3e97ccc1bf4eacfb38b9e9e190c4f1affbb",
-    "parents": "d97be3ea2f451adbaae55c817d5d0ac0597a8555",
-    "subject": "Normative: Move\u00a0`__proto__`\u00a0initializer out\u00a0of\u00a0Annex\u00a0B"
-   }
-  ],
-  "title": "Normative: Move\u00a0`__proto__`\u00a0initializer out\u00a0of\u00a0Annex\u00a0B",
-  "updated_at": "2020-09-15T20:49:32Z"
+  "updated_at": "2020-09-17T02:26:57Z"
  },
  {
   "base": "faaf15785747d799af1768afb105c0114bd38a1c",
@@ -4229,26 +4241,6 @@
    }
   ],
   "title": "Editorial: remove unnecessary AddRestrictedFunctionProperties",
-  "updated_at": "2020-02-28T04:16:24Z"
- },
- {
-  "base": "0218a39d771a76e58ffd89e5759d53004068aa2f",
-  "created_at": "2018-02-02T01:21:57Z",
-  "head": "8a56bab45f45c1e6f64ed7be7e6c9157b37882b7",
-  "login": "tc39",
-  "number": 1088,
-  "ref": "add-license",
-  "revs": [
-   {
-    "adate": "2018-02-01T17:19:57-08:00",
-    "author": "Michael Ficarra",
-    "date": "2018-02-01T17:19:57-08:00",
-    "hash": "8a56bab45f45c1e6f64ed7be7e6c9157b37882b7",
-    "parents": "f812bc51878c9921e0497f6c3d701224d14407bf",
-    "subject": "add a LICENSE file"
-   }
-  ],
-  "title": "add a LICENSE file",
   "updated_at": "2020-02-28T04:16:24Z"
  },
  {
