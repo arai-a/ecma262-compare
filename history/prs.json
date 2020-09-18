@@ -1822,11 +1822,19 @@
  {
   "base": "d97be3ea2f451adbaae55c817d5d0ac0597a8555",
   "created_at": "2020-05-22T17:36:53Z",
-  "head": "64d610528ed25b0485552400654fb92cc691741b",
+  "head": "36f1393343fe24840ffdc853012de023fb089a35",
   "login": "caiolima",
   "number": 2007,
   "ref": "mathematical-values-fix",
   "revs": [
+   {
+    "adate": "2020-09-18T11:41:02-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-09-18T11:41:02-07:00",
+    "hash": "36f1393343fe24840ffdc853012de023fb089a35",
+    "parents": "64d610528ed25b0485552400654fb92cc691741b",
+    "subject": "fix some integer/integral Number conflations"
+   },
    {
     "adate": "2020-09-17T22:09:18-07:00",
     "author": "Michael Ficarra",
@@ -1901,7 +1909,7 @@
    }
   ],
   "title": "Editorial: Make numeric values and operations default to mathematical values",
-  "updated_at": "2020-09-18T05:09:50Z"
+  "updated_at": "2020-09-18T18:41:08Z"
  },
  {
   "base": "bd868f20b8c574ad6689fba014b62a1dba819e56",
