@@ -1758,11 +1758,59 @@
  {
   "base": "d97be3ea2f451adbaae55c817d5d0ac0597a8555",
   "created_at": "2020-05-22T17:36:53Z",
-  "head": "6033d55f0d23d40068b60a711ad8a56f29019cd0",
+  "head": "83a465e6183e9c83c0b1e87e152c2c8795c1322f",
   "login": "caiolima",
   "number": 2007,
   "ref": "mathematical-values-fix",
   "revs": [
+   {
+    "adate": "2020-09-17T18:52:33-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-09-17T18:52:33-07:00",
+    "hash": "83a465e6183e9c83c0b1e87e152c2c8795c1322f",
+    "parents": "7c716d236abcff01100535e5b2f2e3cc3693eb26",
+    "subject": "comparisons in reals"
+   },
+   {
+    "adate": "2020-09-17T18:24:19-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-09-17T18:44:23-07:00",
+    "hash": "7c716d236abcff01100535e5b2f2e3cc3693eb26",
+    "parents": "8a3e1e78616b4aba2e033b6e9df5d8ec233138a4",
+    "subject": "rename ToInteger to ToIntegerOrInfinity and make it return a math value"
+   },
+   {
+    "adate": "2020-09-17T18:22:22-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-09-17T18:22:22-07:00",
+    "hash": "8a3e1e78616b4aba2e033b6e9df5d8ec233138a4",
+    "parents": "9ec6de2161094c13d04a01b2d3ab5c56a2a3b9ca",
+    "subject": "rename IsInteger to IsIntegralNumber"
+   },
+   {
+    "adate": "2020-09-17T17:58:04-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-09-17T17:58:04-07:00",
+    "hash": "9ec6de2161094c13d04a01b2d3ab5c56a2a3b9ca",
+    "parents": "5950d0f9645b5a8a275cad95f5257411854acb4f",
+    "subject": "tweak"
+   },
+   {
+    "adate": "2020-09-17T17:46:25-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-09-17T17:46:25-07:00",
+    "hash": "5950d0f9645b5a8a275cad95f5257411854acb4f",
+    "parents": "852bb53380ab8e46dbe78e4adfc9719b77064c6a",
+    "subject": "fix usages of all abstract operations"
+   },
+   {
+    "adate": "2020-09-17T14:15:34-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-09-17T14:23:11-07:00",
+    "hash": "852bb53380ab8e46dbe78e4adfc9719b77064c6a",
+    "parents": "6033d55f0d23d40068b60a711ad8a56f29019cd0",
+    "subject": "Fix Date arithmetic"
+   },
    {
     "adate": "2020-09-14T20:34:18-07:00",
     "author": "Kevin Gibbons",
@@ -1781,7 +1829,7 @@
    }
   ],
   "title": "Editorial: Make numeric values and operations default to mathematical values",
-  "updated_at": "2020-09-15T03:34:25Z"
+  "updated_at": "2020-09-18T01:56:54Z"
  },
  {
   "base": "bd868f20b8c574ad6689fba014b62a1dba819e56",
