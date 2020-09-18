@@ -1822,11 +1822,19 @@
  {
   "base": "d97be3ea2f451adbaae55c817d5d0ac0597a8555",
   "created_at": "2020-05-22T17:36:53Z",
-  "head": "83a465e6183e9c83c0b1e87e152c2c8795c1322f",
+  "head": "64d610528ed25b0485552400654fb92cc691741b",
   "login": "caiolima",
   "number": 2007,
   "ref": "mathematical-values-fix",
   "revs": [
+   {
+    "adate": "2020-09-17T22:09:18-07:00",
+    "author": "Michael Ficarra",
+    "date": "2020-09-17T22:09:18-07:00",
+    "hash": "64d610528ed25b0485552400654fb92cc691741b",
+    "parents": "83a465e6183e9c83c0b1e87e152c2c8795c1322f",
+    "subject": "use comma separators in large numbers in prose where appropriate"
+   },
    {
     "adate": "2020-09-17T18:52:33-07:00",
     "author": "Kevin Gibbons",
@@ -1893,7 +1901,7 @@
    }
   ],
   "title": "Editorial: Make numeric values and operations default to mathematical values",
-  "updated_at": "2020-09-18T01:56:54Z"
+  "updated_at": "2020-09-18T05:09:50Z"
  },
  {
   "base": "bd868f20b8c574ad6689fba014b62a1dba819e56",
