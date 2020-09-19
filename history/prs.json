@@ -1822,11 +1822,27 @@
  {
   "base": "d97be3ea2f451adbaae55c817d5d0ac0597a8555",
   "created_at": "2020-05-22T17:36:53Z",
-  "head": "798c9ceeb15e28c98a7d356ceff6dc854efe50fe",
+  "head": "2f6cc7012d631e1f726d187916a2078659992a1e",
   "login": "caiolima",
   "number": 2007,
   "ref": "mathematical-values-fix",
   "revs": [
+   {
+    "adate": "2020-09-18T21:46:21-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-09-18T21:46:21-07:00",
+    "hash": "2f6cc7012d631e1f726d187916a2078659992a1e",
+    "parents": "3335960557a034f01aa92f66b514234381e8961f",
+    "subject": "implementation-approximate reals, not floats"
+   },
+   {
+    "adate": "2020-09-18T21:31:22-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-09-18T21:31:22-07:00",
+    "hash": "3335960557a034f01aa92f66b514234381e8961f",
+    "parents": "798c9ceeb15e28c98a7d356ceff6dc854efe50fe",
+    "subject": "grammar nit"
+   },
    {
     "adate": "2020-09-18T20:05:56-07:00",
     "author": "Kevin Gibbons",
@@ -1973,7 +1989,7 @@
    }
   ],
   "title": "Editorial: Make numeric values and operations default to mathematical values",
-  "updated_at": "2020-09-19T03:06:02Z"
+  "updated_at": "2020-09-19T04:46:28Z"
  },
  {
   "base": "bd868f20b8c574ad6689fba014b62a1dba819e56",
