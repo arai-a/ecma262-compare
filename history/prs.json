@@ -1830,11 +1830,43 @@
  {
   "base": "d97be3ea2f451adbaae55c817d5d0ac0597a8555",
   "created_at": "2020-05-22T17:36:53Z",
-  "head": "db393634bd6e16dcc2b5a4e552d565e4684ae61c",
+  "head": "0c27f17bfc74e86b6033d7b3ff96ef897c45b676",
   "login": "caiolima",
   "number": 2007,
   "ref": "mathematical-values-fix",
   "revs": [
+   {
+    "adate": "2020-09-19T20:42:43-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-09-19T20:42:43-07:00",
+    "hash": "0c27f17bfc74e86b6033d7b3ff96ef897c45b676",
+    "parents": "1887c3b7b7a00f654693a25a629b828e8f6699dc",
+    "subject": "fix comparison types"
+   },
+   {
+    "adate": "2020-09-19T20:42:13-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-09-19T20:42:13-07:00",
+    "hash": "1887c3b7b7a00f654693a25a629b828e8f6699dc",
+    "parents": "a5c1e6c6938107f9568a724abd305ecbc748bdc7",
+    "subject": "set, not let"
+   },
+   {
+    "adate": "2020-09-19T20:37:38-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-09-19T20:37:38-07:00",
+    "hash": "a5c1e6c6938107f9568a724abd305ecbc748bdc7",
+    "parents": "af92d6daad6cee68e13942df6d893393e448ecd4",
+    "subject": "fix ToIntegerOrInfinity preamble"
+   },
+   {
+    "adate": "2020-09-19T20:32:48-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-09-19T20:32:48-07:00",
+    "hash": "af92d6daad6cee68e13942df6d893393e448ecd4",
+    "parents": "db393634bd6e16dcc2b5a4e552d565e4684ae61c",
+    "subject": "fix types in TimeZoneString"
+   },
    {
     "adate": "2020-09-19T19:56:29-07:00",
     "author": "Kevin Gibbons",
@@ -2021,7 +2053,7 @@
    }
   ],
   "title": "Editorial: Make numeric values and operations default to mathematical values",
-  "updated_at": "2020-09-20T02:57:53Z"
+  "updated_at": "2020-09-20T03:42:52Z"
  },
  {
   "base": "bd868f20b8c574ad6689fba014b62a1dba819e56",
