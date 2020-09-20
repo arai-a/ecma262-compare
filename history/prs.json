@@ -552,24 +552,32 @@
   "updated_at": "2020-08-27T00:16:10Z"
  },
  {
-  "base": "3750b81c637c58a2168495ccb62417adf196b5b4",
+  "base": "d97be3ea2f451adbaae55c817d5d0ac0597a8555",
   "created_at": "2020-08-15T01:59:35Z",
-  "head": "78333949bc92aec1ebeee2ff15dcdfb21b3a5a7d",
+  "head": "365cebea8779119ddbd2d6e390e44a51a7bdc241",
   "login": "devsnek",
   "number": 2136,
   "ref": "fix-date-set",
   "revs": [
    {
+    "adate": "2020-09-20T12:11:57-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-09-20T12:12:12-07:00",
+    "hash": "365cebea8779119ddbd2d6e390e44a51a7bdc241",
+    "parents": "c30cb033dea5bbdae4dda7da280ece6c8857a795",
+    "subject": "coerce all arguments before early-return"
+   },
+   {
     "adate": "2020-08-14T20:58:04-05:00",
     "author": "Gus Caplan",
-    "date": "2020-08-14T21:03:13-05:00",
-    "hash": "78333949bc92aec1ebeee2ff15dcdfb21b3a5a7d",
-    "parents": "3750b81c637c58a2168495ccb62417adf196b5b4",
+    "date": "2020-09-20T12:12:12-07:00",
+    "hash": "c30cb033dea5bbdae4dda7da280ece6c8857a795",
+    "parents": "d97be3ea2f451adbaae55c817d5d0ac0597a8555",
     "subject": "Editorial: Fix out-of-range NaNs in date set methods"
    }
   ],
-  "title": "Editorial: Fix out-of-range NaNs in date set methods",
-  "updated_at": "2020-08-15T02:04:33Z"
+  "title": "Normative: Fix out-of-range NaNs in date set methods",
+  "updated_at": "2020-09-20T19:25:17Z"
  },
  {
   "base": "0fa70bc523f094f0ca8dd2d9cf18c3febf8efb0f",
