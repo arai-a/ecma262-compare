@@ -1830,11 +1830,19 @@
  {
   "base": "d97be3ea2f451adbaae55c817d5d0ac0597a8555",
   "created_at": "2020-05-22T17:36:53Z",
-  "head": "9dd18ec415b0bdf098f890fb6f37cb7b1c9c1620",
+  "head": "db393634bd6e16dcc2b5a4e552d565e4684ae61c",
   "login": "caiolima",
   "number": 2007,
   "ref": "mathematical-values-fix",
   "revs": [
+   {
+    "adate": "2020-09-19T19:56:29-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-09-19T19:57:45-07:00",
+    "hash": "db393634bd6e16dcc2b5a4e552d565e4684ae61c",
+    "parents": "9dd18ec415b0bdf098f890fb6f37cb7b1c9c1620",
+    "subject": "Fix types of constants in Date"
+   },
    {
     "adate": "2020-09-19T14:27:30-07:00",
     "author": "Kevin Gibbons",
@@ -2013,7 +2021,7 @@
    }
   ],
   "title": "Editorial: Make numeric values and operations default to mathematical values",
-  "updated_at": "2020-09-19T21:27:39Z"
+  "updated_at": "2020-09-20T02:57:53Z"
  },
  {
   "base": "bd868f20b8c574ad6689fba014b62a1dba819e56",
