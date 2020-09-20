@@ -554,11 +554,19 @@
  {
   "base": "d97be3ea2f451adbaae55c817d5d0ac0597a8555",
   "created_at": "2020-08-15T01:59:35Z",
-  "head": "365cebea8779119ddbd2d6e390e44a51a7bdc241",
+  "head": "4b4a4784465f340c3eb7ad452e2a90ee17841499",
   "login": "devsnek",
   "number": 2136,
   "ref": "fix-date-set",
   "revs": [
+   {
+    "adate": "2020-09-20T16:04:49-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-09-20T16:04:49-07:00",
+    "hash": "4b4a4784465f340c3eb7ad452e2a90ee17841499",
+    "parents": "365cebea8779119ddbd2d6e390e44a51a7bdc241",
+    "subject": "fix alias"
+   },
    {
     "adate": "2020-09-20T12:11:57-07:00",
     "author": "Kevin Gibbons",
@@ -577,7 +585,7 @@
    }
   ],
   "title": "Normative: Fix out-of-range NaNs in date set methods",
-  "updated_at": "2020-09-20T19:25:17Z"
+  "updated_at": "2020-09-20T23:04:54Z"
  },
  {
   "base": "0fa70bc523f094f0ca8dd2d9cf18c3febf8efb0f",
@@ -1838,11 +1846,19 @@
  {
   "base": "d97be3ea2f451adbaae55c817d5d0ac0597a8555",
   "created_at": "2020-05-22T17:36:53Z",
-  "head": "3009657af73164a7de6ed3ec442d5415c434f472",
+  "head": "f7d37a04216899eb6a11ef0490ec136f64e5d00e",
   "login": "caiolima",
   "number": 2007,
   "ref": "mathematical-values-fix",
   "revs": [
+   {
+    "adate": "2020-09-20T16:03:29-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-09-20T16:03:29-07:00",
+    "hash": "f7d37a04216899eb6a11ef0490ec136f64e5d00e",
+    "parents": "3009657af73164a7de6ed3ec442d5415c434f472",
+    "subject": "fix alias"
+   },
    {
     "adate": "2020-09-20T15:21:43-07:00",
     "author": "Kevin Gibbons",
@@ -2085,7 +2101,7 @@
    }
   ],
   "title": "Editorial: Make numeric values and operations default to mathematical values",
-  "updated_at": "2020-09-20T22:21:49Z"
+  "updated_at": "2020-09-20T23:03:36Z"
  },
  {
   "base": "bd868f20b8c574ad6689fba014b62a1dba819e56",
