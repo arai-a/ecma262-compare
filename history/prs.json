@@ -1854,11 +1854,19 @@
  {
   "base": "d97be3ea2f451adbaae55c817d5d0ac0597a8555",
   "created_at": "2020-05-22T17:36:53Z",
-  "head": "603809421cf7520b6ffd26a4df0c0b42d32c4f70",
+  "head": "602bebf9820189533f9aee4baa8003a6ad2beb17",
   "login": "caiolima",
   "number": 2007,
   "ref": "mathematical-values-fix",
   "revs": [
+   {
+    "adate": "2020-09-21T21:55:07-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-09-21T21:55:10-07:00",
+    "hash": "602bebf9820189533f9aee4baa8003a6ad2beb17",
+    "parents": "603809421cf7520b6ffd26a4df0c0b42d32c4f70",
+    "subject": "indexes must be real in Pattern::Disjunction"
+   },
    {
     "adate": "2020-09-21T18:53:13-07:00",
     "author": "Kevin Gibbons",
@@ -2133,7 +2141,7 @@
    }
   ],
   "title": "Editorial: Make numeric values and operations default to mathematical values",
-  "updated_at": "2020-09-22T01:53:20Z"
+  "updated_at": "2020-09-22T04:55:31Z"
  },
  {
   "base": "bd868f20b8c574ad6689fba014b62a1dba819e56",
