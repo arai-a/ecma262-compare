@@ -1854,11 +1854,43 @@
  {
   "base": "d3fa570c8561ba54653640889790e0cb36f87bde",
   "created_at": "2020-05-22T17:36:53Z",
-  "head": "ae47b44512c0c9c463c350d7793f6c8dadaf5d1a",
+  "head": "5ce4d1db67acbc3bef4d999e4e9f671fbf521e9f",
   "login": "caiolima",
   "number": 2007,
   "ref": "mathematical-values-fix",
   "revs": [
+   {
+    "adate": "2020-09-22T12:26:30-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-09-22T12:26:30-07:00",
+    "hash": "5ce4d1db67acbc3bef4d999e4e9f671fbf521e9f",
+    "parents": "5c409358064df07271e6f4047686fc3592aebfca",
+    "subject": "unescape: _n_ is Number"
+   },
+   {
+    "adate": "2020-09-22T12:21:08-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-09-22T12:21:08-07:00",
+    "hash": "5c409358064df07271e6f4047686fc3592aebfca",
+    "parents": "0bd39a6027f2e0179dd2c0686d4da559964ad63c",
+    "subject": "Atomics.notify returns numbers, not reals"
+   },
+   {
+    "adate": "2020-09-22T12:19:55-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-09-22T12:19:55-07:00",
+    "hash": "0bd39a6027f2e0179dd2c0686d4da559964ad63c",
+    "parents": "b6bc94bf3b6763d00680771cfce6e0eb113bacb8",
+    "subject": "as above"
+   },
+   {
+    "adate": "2020-09-22T12:18:55-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-09-22T12:18:55-07:00",
+    "hash": "b6bc94bf3b6763d00680771cfce6e0eb113bacb8",
+    "parents": "ae47b44512c0c9c463c350d7793f6c8dadaf5d1a",
+    "subject": "typedarray methods return numbers, not reals"
+   },
    {
     "adate": "2020-09-22T11:54:20-07:00",
     "author": "Kevin Gibbons",
@@ -2149,7 +2181,7 @@
    }
   ],
   "title": "Editorial: Make numeric values and operations default to mathematical values",
-  "updated_at": "2020-09-22T18:54:28Z"
+  "updated_at": "2020-09-22T19:26:37Z"
  },
  {
   "base": "bd868f20b8c574ad6689fba014b62a1dba819e56",
