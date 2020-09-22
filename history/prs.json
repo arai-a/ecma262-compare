@@ -1846,11 +1846,19 @@
  {
   "base": "d97be3ea2f451adbaae55c817d5d0ac0597a8555",
   "created_at": "2020-05-22T17:36:53Z",
-  "head": "68a4c83534b4151ce233b10e704206fb7f47e2cc",
+  "head": "603809421cf7520b6ffd26a4df0c0b42d32c4f70",
   "login": "caiolima",
   "number": 2007,
   "ref": "mathematical-values-fix",
   "revs": [
+   {
+    "adate": "2020-09-21T18:53:13-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-09-21T18:53:13-07:00",
+    "hash": "603809421cf7520b6ffd26a4df0c0b42d32c4f70",
+    "parents": "68a4c83534b4151ce233b10e704206fb7f47e2cc",
+    "subject": "StringGetOwnProperty: lengths are real"
+   },
    {
     "adate": "2020-09-21T18:15:55-07:00",
     "author": "Kevin Gibbons",
@@ -2117,7 +2125,7 @@
    }
   ],
   "title": "Editorial: Make numeric values and operations default to mathematical values",
-  "updated_at": "2020-09-22T01:16:07Z"
+  "updated_at": "2020-09-22T01:53:20Z"
  },
  {
   "base": "bd868f20b8c574ad6689fba014b62a1dba819e56",
