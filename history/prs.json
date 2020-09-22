@@ -1854,11 +1854,35 @@
  {
   "base": "d3fa570c8561ba54653640889790e0cb36f87bde",
   "created_at": "2020-05-22T17:36:53Z",
-  "head": "5ce4d1db67acbc3bef4d999e4e9f671fbf521e9f",
+  "head": "8cc032eed8f4da723d9f25907a8822997e466439",
   "login": "caiolima",
   "number": 2007,
   "ref": "mathematical-values-fix",
   "revs": [
+   {
+    "adate": "2020-09-22T13:09:27-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-09-22T13:09:27-07:00",
+    "hash": "8cc032eed8f4da723d9f25907a8822997e466439",
+    "parents": "2d9021c2ff8f17db2874854474354174a2e1d2b2",
+    "subject": "typos"
+   },
+   {
+    "adate": "2020-09-22T13:01:45-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-09-22T13:01:45-07:00",
+    "hash": "2d9021c2ff8f17db2874854474354174a2e1d2b2",
+    "parents": "c3b2a5434f5434c8727b5f8ed593bfd9fea269eb",
+    "subject": "put \"code point value of\" back pending 2181"
+   },
+   {
+    "adate": "2020-09-22T12:56:16-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-09-22T12:56:16-07:00",
+    "hash": "c3b2a5434f5434c8727b5f8ed593bfd9fea269eb",
+    "parents": "5ce4d1db67acbc3bef4d999e4e9f671fbf521e9f",
+    "subject": "charactervalue returns reals"
+   },
    {
     "adate": "2020-09-22T12:26:30-07:00",
     "author": "Kevin Gibbons",
@@ -2181,7 +2205,7 @@
    }
   ],
   "title": "Editorial: Make numeric values and operations default to mathematical values",
-  "updated_at": "2020-09-22T19:26:37Z"
+  "updated_at": "2020-09-22T20:09:36Z"
  },
  {
   "base": "bd868f20b8c574ad6689fba014b62a1dba819e56",
