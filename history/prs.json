@@ -1,54 +1,6 @@
 [
  {
   "base": "d97be3ea2f451adbaae55c817d5d0ac0597a8555",
-  "created_at": "2020-09-21T03:54:02Z",
-  "head": "a8ebc3783a6461cd0a4b41e2e74e6e79ec229651",
-  "login": "tc39",
-  "number": 2185,
-  "ref": "round-nan",
-  "revs": [
-   {
-    "adate": "2020-09-20T20:58:02-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2020-09-20T20:58:02-07:00",
-    "hash": "a8ebc3783a6461cd0a4b41e2e74e6e79ec229651",
-    "parents": "c50dc101d5deb6f289b87df5b80beff152f836fa",
-    "subject": "infinities too"
-   },
-   {
-    "adate": "2020-09-20T20:52:56-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2020-09-20T20:52:56-07:00",
-    "hash": "c50dc101d5deb6f289b87df5b80beff152f836fa",
-    "parents": "d97be3ea2f451adbaae55c817d5d0ac0597a8555",
-    "subject": "Editorial: handle NaN in Math.round"
-   }
-  ],
-  "title": "Editorial: handle NaN and infinities in Math.round",
-  "updated_at": "2020-09-21T04:01:16Z"
- },
- {
-  "base": "d97be3ea2f451adbaae55c817d5d0ac0597a8555",
-  "created_at": "2020-09-21T01:30:21Z",
-  "head": "fc4c1f344abef1563277d371e3feb540cc0a4d9a",
-  "login": "devsnek",
-  "number": 2184,
-  "ref": "patch-1",
-  "revs": [
-   {
-    "adate": "2020-09-20T20:30:03-05:00",
-    "author": "devsnek",
-    "date": "2020-09-20T20:30:03-05:00",
-    "hash": "fc4c1f344abef1563277d371e3feb540cc0a4d9a",
-    "parents": "d97be3ea2f451adbaae55c817d5d0ac0597a8555",
-    "subject": "Update link in snapshot warning"
-   }
-  ],
-  "title": "Update link in snapshot warning",
-  "updated_at": "2020-09-21T01:30:21Z"
- },
- {
-  "base": "d97be3ea2f451adbaae55c817d5d0ac0597a8555",
   "created_at": "2020-09-18T04:56:41Z",
   "head": "9ecefa6b398fbb2478af5f79d633449186589f3f",
   "login": "tc39",
@@ -1894,11 +1846,19 @@
  {
   "base": "d97be3ea2f451adbaae55c817d5d0ac0597a8555",
   "created_at": "2020-05-22T17:36:53Z",
-  "head": "71778235ab6dda6365c4b06c16e0490bd5bc8d15",
+  "head": "68a4c83534b4151ce233b10e704206fb7f47e2cc",
   "login": "caiolima",
   "number": 2007,
   "ref": "mathematical-values-fix",
   "revs": [
+   {
+    "adate": "2020-09-21T18:15:55-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-09-21T18:15:55-07:00",
+    "hash": "68a4c83534b4151ce233b10e704206fb7f47e2cc",
+    "parents": "71778235ab6dda6365c4b06c16e0490bd5bc8d15",
+    "subject": "float infinities in abstract equality"
+   },
    {
     "adate": "2020-09-20T20:38:15-07:00",
     "author": "Kevin Gibbons",
@@ -2157,7 +2117,7 @@
    }
   ],
   "title": "Editorial: Make numeric values and operations default to mathematical values",
-  "updated_at": "2020-09-21T03:38:22Z"
+  "updated_at": "2020-09-22T01:16:07Z"
  },
  {
   "base": "bd868f20b8c574ad6689fba014b62a1dba819e56",
