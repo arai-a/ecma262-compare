@@ -1854,11 +1854,19 @@
  {
   "base": "d3fa570c8561ba54653640889790e0cb36f87bde",
   "created_at": "2020-05-22T17:36:53Z",
-  "head": "62ad0a5ae07225fbce8cdce12740aa501b6522c3",
+  "head": "84c196ab0d2c40870edef84d090a54c61c25fd06",
   "login": "caiolima",
   "number": 2007,
   "ref": "mathematical-values-fix",
   "revs": [
+   {
+    "adate": "2020-09-22T19:32:30-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-09-22T19:32:30-07:00",
+    "hash": "84c196ab0d2c40870edef84d090a54c61c25fd06",
+    "parents": "62ad0a5ae07225fbce8cdce12740aa501b6522c3",
+    "subject": "AdvanceStringIndex: put type in param list"
+   },
    {
     "adate": "2020-09-22T19:05:28-07:00",
     "author": "Kevin Gibbons",
@@ -2309,7 +2317,7 @@
    }
   ],
   "title": "Editorial: Make numeric values and operations default to mathematical values",
-  "updated_at": "2020-09-23T02:05:41Z"
+  "updated_at": "2020-09-23T02:33:12Z"
  },
  {
   "base": "bd868f20b8c574ad6689fba014b62a1dba819e56",
