@@ -1,5 +1,25 @@
 [
  {
+  "base": "e4679d4ba196ab5e8959b44468d6a9feb848955c",
+  "created_at": "2020-09-23T23:25:42Z",
+  "head": "b840ed5336ccbbad19627ecc2bf5947933b1d9d0",
+  "login": "ryanjduffy",
+  "number": 2189,
+  "ref": "issue-2179",
+  "revs": [
+   {
+    "adate": "2020-09-23T15:48:40-07:00",
+    "author": "Ryan Duffy",
+    "date": "2020-09-23T15:48:40-07:00",
+    "hash": "b840ed5336ccbbad19627ecc2bf5947933b1d9d0",
+    "parents": "d97be3ea2f451adbaae55c817d5d0ac0597a8555",
+    "subject": "update add()"
+   }
+  ],
+  "title": "Convert Number abstract operations to algorithmic steps",
+  "updated_at": "2020-09-23T23:27:16Z"
+ },
+ {
   "base": "d97be3ea2f451adbaae55c817d5d0ac0597a8555",
   "created_at": "2020-09-18T04:56:41Z",
   "head": "9ecefa6b398fbb2478af5f79d633449186589f3f",
