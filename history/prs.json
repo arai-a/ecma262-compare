@@ -1854,11 +1854,75 @@
  {
   "base": "d3fa570c8561ba54653640889790e0cb36f87bde",
   "created_at": "2020-05-22T17:36:53Z",
-  "head": "684eb54801962fa4b9a339547e4bae96662393c6",
+  "head": "62ad0a5ae07225fbce8cdce12740aa501b6522c3",
   "login": "caiolima",
   "number": 2007,
   "ref": "mathematical-values-fix",
   "revs": [
+   {
+    "adate": "2020-09-22T19:05:28-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-09-22T19:05:28-07:00",
+    "hash": "62ad0a5ae07225fbce8cdce12740aa501b6522c3",
+    "parents": "65eb0062a9dd58bee886ef423d319365988f2802",
+    "subject": "better still, just don't do that"
+   },
+   {
+    "adate": "2020-09-22T19:04:58-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-09-22T19:04:58-07:00",
+    "hash": "65eb0062a9dd58bee886ef423d319365988f2802",
+    "parents": "521890048dc79c202048ba0b26a771589ac4b0d1",
+    "subject": "typo"
+   },
+   {
+    "adate": "2020-09-22T19:02:45-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-09-22T19:02:45-07:00",
+    "hash": "521890048dc79c202048ba0b26a771589ac4b0d1",
+    "parents": "844a611b8826e20121873741fd2c53269a802853",
+    "subject": "make AdvanceStringIndex take/return real integers"
+   },
+   {
+    "adate": "2020-09-22T18:51:24-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-09-22T18:51:24-07:00",
+    "hash": "844a611b8826e20121873741fd2c53269a802853",
+    "parents": "6592414218bf4c7bf09fb83646fa77e1dbbff55a",
+    "subject": "RegExpBuiltinExec: make _lastIndex_ real"
+   },
+   {
+    "adate": "2020-09-22T18:45:54-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-09-22T18:45:54-07:00",
+    "hash": "6592414218bf4c7bf09fb83646fa77e1dbbff55a",
+    "parents": "f4322c1b899495405aff8b49c128a9faee43c4d4",
+    "subject": "[[RegExpMatcher]] takes a real integer"
+   },
+   {
+    "adate": "2020-09-22T18:33:13-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-09-22T18:33:13-07:00",
+    "hash": "f4322c1b899495405aff8b49c128a9faee43c4d4",
+    "parents": "b7bfc0a14a752ca43e7b93555c406297f7343d18",
+    "subject": "missing subscript"
+   },
+   {
+    "adate": "2020-09-22T18:31:22-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-09-22T18:31:22-07:00",
+    "hash": "b7bfc0a14a752ca43e7b93555c406297f7343d18",
+    "parents": "99d1dc776ee8261640c6827d1a97aec9b021f8c7",
+    "subject": "positive 1 is just 1"
+   },
+   {
+    "adate": "2020-09-22T18:29:30-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-09-22T18:29:30-07:00",
+    "hash": "99d1dc776ee8261640c6827d1a97aec9b021f8c7",
+    "parents": "684eb54801962fa4b9a339547e4bae96662393c6",
+    "subject": "types in SortCompare prose"
+   },
    {
     "adate": "2020-09-22T17:43:15-07:00",
     "author": "Kevin Gibbons",
@@ -2245,7 +2309,7 @@
    }
   ],
   "title": "Editorial: Make numeric values and operations default to mathematical values",
-  "updated_at": "2020-09-23T00:43:51Z"
+  "updated_at": "2020-09-23T02:05:41Z"
  },
  {
   "base": "bd868f20b8c574ad6689fba014b62a1dba819e56",
