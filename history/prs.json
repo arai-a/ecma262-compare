@@ -1894,11 +1894,35 @@
  {
   "base": "e4679d4ba196ab5e8959b44468d6a9feb848955c",
   "created_at": "2020-05-22T17:36:53Z",
-  "head": "b274cf2aea88f0af9287406331cc595890883756",
+  "head": "26b9f8b8dceb9ccfaad8c12357384608c5e98531",
   "login": "caiolima",
   "number": 2007,
   "ref": "mathematical-values-fix",
   "revs": [
+   {
+    "adate": "2020-09-23T21:58:27-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-09-23T21:58:27-07:00",
+    "hash": "26b9f8b8dceb9ccfaad8c12357384608c5e98531",
+    "parents": "a853cebcce937885cf35501b41f476f15e9629cd",
+    "subject": "typos"
+   },
+   {
+    "adate": "2020-09-23T21:54:10-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-09-23T21:54:10-07:00",
+    "hash": "a853cebcce937885cf35501b41f476f15e9629cd",
+    "parents": "413bd2019d20aab55b56d15c333d587601b78d82",
+    "subject": "back out date fixes :("
+   },
+   {
+    "adate": "2020-09-23T21:24:03-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-09-23T21:24:03-07:00",
+    "hash": "413bd2019d20aab55b56d15c333d587601b78d82",
+    "parents": "b274cf2aea88f0af9287406331cc595890883756",
+    "subject": "spell positive infinity in the usual way"
+   },
    {
     "adate": "2020-09-23T21:04:51-07:00",
     "author": "Kevin Gibbons",
@@ -2381,7 +2405,7 @@
    }
   ],
   "title": "Editorial: Make numeric values and operations default to mathematical values",
-  "updated_at": "2020-09-24T04:05:07Z"
+  "updated_at": "2020-09-24T04:58:33Z"
  },
  {
   "base": "bd868f20b8c574ad6689fba014b62a1dba819e56",
