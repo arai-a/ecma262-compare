@@ -1894,11 +1894,19 @@
  {
   "base": "e4679d4ba196ab5e8959b44468d6a9feb848955c",
   "created_at": "2020-05-22T17:36:53Z",
-  "head": "e56435bb0d4783f898e608cfdf93166866f5242b",
+  "head": "b274cf2aea88f0af9287406331cc595890883756",
   "login": "caiolima",
   "number": 2007,
   "ref": "mathematical-values-fix",
   "revs": [
+   {
+    "adate": "2020-09-23T21:04:51-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-09-23T21:04:59-07:00",
+    "hash": "b274cf2aea88f0af9287406331cc595890883756",
+    "parents": "e56435bb0d4783f898e608cfdf93166866f5242b",
+    "subject": "define R, make F and Z definitions attached to the AOs rathe than subscripts"
+   },
    {
     "adate": "2020-09-22T23:25:33-07:00",
     "author": "Kevin Gibbons",
@@ -2373,7 +2381,7 @@
    }
   ],
   "title": "Editorial: Make numeric values and operations default to mathematical values",
-  "updated_at": "2020-09-23T22:25:51Z"
+  "updated_at": "2020-09-24T04:05:07Z"
  },
  {
   "base": "bd868f20b8c574ad6689fba014b62a1dba819e56",
