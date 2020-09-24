@@ -1,6 +1,26 @@
 [
  {
   "base": "e4679d4ba196ab5e8959b44468d6a9feb848955c",
+  "created_at": "2020-09-24T01:07:41Z",
+  "head": "51c12c7a9327d4ec0bde9e0d756657c02a1df6c9",
+  "login": "jmdyck",
+  "number": 2190,
+  "ref": "ScriptOrModule",
+  "revs": [
+   {
+    "adate": "2020-09-23T21:00:31-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-09-23T21:00:31-04:00",
+    "hash": "51c12c7a9327d4ec0bde9e0d756657c02a1df6c9",
+    "parents": "e4679d4ba196ab5e8959b44468d6a9feb848955c",
+    "subject": "Editorial: Drop [[ScriptOrModule]] slot for exotic built-ins"
+   }
+  ],
+  "title": "Editorial: Drop [[ScriptOrModule]] slot for exotic built-ins",
+  "updated_at": "2020-09-24T01:07:41Z"
+ },
+ {
+  "base": "e4679d4ba196ab5e8959b44468d6a9feb848955c",
   "created_at": "2020-09-23T23:25:42Z",
   "head": "b840ed5336ccbbad19627ecc2bf5947933b1d9d0",
   "login": "ryanjduffy",
