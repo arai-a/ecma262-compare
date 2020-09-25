@@ -1,6 +1,26 @@
 [
  {
   "base": "e4679d4ba196ab5e8959b44468d6a9feb848955c",
+  "created_at": "2020-09-25T16:42:33Z",
+  "head": "6f80175aee5bc302d6441e1dffa3e40f64dc0ef6",
+  "login": "rwaldron",
+  "number": 2193,
+  "ref": "annexb-lhs-callexp-assignment",
+  "revs": [
+   {
+    "adate": "2020-09-25T10:37:37-04:00",
+    "author": "Rick Waldron",
+    "date": "2020-09-25T12:41:34-04:00",
+    "hash": "6f80175aee5bc302d6441e1dffa3e40f64dc0ef6",
+    "parents": "e4679d4ba196ab5e8959b44468d6a9feb848955c",
+    "subject": "Normative: new Annex B.3 clause to specify \"AssignmentTargetType of LeftHandSideExpression : CallExpression\" web reality."
+   }
+  ],
+  "title": "Normative: new Annex B.3 clause to specify \"AssignmentTargetType of LeftHandSideExpression : CallExpression\" web reality.",
+  "updated_at": "2020-09-25T16:44:04Z"
+ },
+ {
+  "base": "e4679d4ba196ab5e8959b44468d6a9feb848955c",
   "created_at": "2020-09-24T01:07:41Z",
   "head": "51c12c7a9327d4ec0bde9e0d756657c02a1df6c9",
   "login": "jmdyck",
