@@ -1894,11 +1894,19 @@
  {
   "base": "e4679d4ba196ab5e8959b44468d6a9feb848955c",
   "created_at": "2020-05-22T17:36:53Z",
-  "head": "c14ad8726a621506954367941ab1def0bd08962e",
+  "head": "fa10c31ab8d54b77268d04ae6eb8d78c8c7769a6",
   "login": "caiolima",
   "number": 2007,
   "ref": "mathematical-values-fix",
   "revs": [
+   {
+    "adate": "2020-09-24T19:05:23-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-09-24T19:05:23-07:00",
+    "hash": "fa10c31ab8d54b77268d04ae6eb8d78c8c7769a6",
+    "parents": "c14ad8726a621506954367941ab1def0bd08962e",
+    "subject": "stray paren"
+   },
    {
     "adate": "2020-09-24T18:16:47-07:00",
     "author": "Kevin Gibbons",
@@ -2469,7 +2477,7 @@
    }
   ],
   "title": "Editorial: Make numeric values and operations default to mathematical values",
-  "updated_at": "2020-09-25T01:18:06Z"
+  "updated_at": "2020-09-25T02:05:32Z"
  },
  {
   "base": "bd868f20b8c574ad6689fba014b62a1dba819e56",
