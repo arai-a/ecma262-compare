@@ -434,11 +434,19 @@
  {
   "base": "11de25489a3e325b4b4c0575847d3bb9f51c7199",
   "created_at": "2020-08-26T22:13:54Z",
-  "head": "767c72c6de706a9ac62c84dd8a630a23b99c7a97",
+  "head": "cf251d2ac1ff6fac786f4e10aab1368e6bc27861",
   "login": "bmeck",
   "number": 2154,
   "ref": "arbitrary-module-namespace-identifier-names",
   "revs": [
+   {
+    "adate": "2020-09-28T17:14:28-05:00",
+    "author": "Bradley Farias",
+    "date": "2020-09-28T17:14:28-05:00",
+    "hash": "cf251d2ac1ff6fac786f4e10aab1368e6bc27861",
+    "parents": "767c72c6de706a9ac62c84dd8a630a23b99c7a97",
+    "subject": "abbreviated forms"
+   },
    {
     "adate": "2020-09-11T08:17:50-05:00",
     "author": "Bradley Farias",
@@ -521,7 +529,7 @@
    }
   ],
   "title": "Normative: Arbitrary module namespace identifier names",
-  "updated_at": "2020-09-11T13:18:12Z"
+  "updated_at": "2020-09-28T22:14:39Z"
  },
  {
   "base": "11de25489a3e325b4b4c0575847d3bb9f51c7199",
