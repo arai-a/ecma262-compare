@@ -477,7 +477,7 @@ class SectionsComparator:
 
     @classmethod
     def compare(cls, from_sec_data, to_sec_data):
-        sec_ids = set(from_sec_data['secList'] + from_sec_data['secList'])
+        sec_ids = set(from_sec_data['secList'] + to_sec_data['secList'])
 
         from_sec_set = set(from_sec_data['secList'])
         to_sec_set = set(to_sec_data['secList'])
