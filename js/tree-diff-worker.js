@@ -159,6 +159,57 @@ class HTMLTreeDiffWorker {
         const score01 = C[i][j-1];
         const score10 = C[i-1][j];
 
+        // WORKAROUND for #64.
+        if (i == 1 && j == 1) {
+          C[i][j] = score11;
+          D[i][j] = this.addResult(D[i-1][j-1], result);
+          continue;
+        } else if (i == 1) {
+          C[i][j] = score01;
+          if (typeof child2 === "string") {
+            const D01 = D[i][j-1];
+            D[i][j] = this.addResult(D01, {
+              del: 0,
+              ins: this.compressSpaces(child2).length,
+              same: 0,
+              state: "diff",
+              stateCount: 1,
+            });
+          } else {
+            const D01 = D[i][j-1];
+            D[i][j] = this.addResult(D01, {
+              del: 0,
+              ins: child2.textLength,
+              same: 0,
+              state: "diff",
+              stateCount: 1,
+            });
+          }
+          continue;
+        } else if (j == 1) {
+          C[i][j] = score10;
+          if (typeof child1 === "string") {
+            const D10 = D[i-1][j];
+            D[i][j] = this.addResult(D10, {
+              del: this.compressSpaces(child1).length,
+              ins: 0,
+              same: 0,
+              state: "diff",
+              stateCount: 1,
+            });
+          } else {
+            const D10 = D[i-1][j];
+            D[i][j] = this.addResult(D10, {
+              del: child1.textLength,
+              ins: 0,
+              same: 0,
+              state: "diff",
+              stateCount: 1,
+            });
+          }
+          continue;
+        }
+
         if (score11 >= score01 && score11 >= score10) {
           C[i][j] = score11;
           D[i][j] = this.addResult(D[i-1][j-1], result);
