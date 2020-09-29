@@ -114,12 +114,12 @@ class HTMLTreeDiffWorker {
       C[0][j] = 0;
     }
 
-    const D = new Array(len1 + 1);
+    const R = new Array(len1 + 1);
     for (let i = 0; i < len1 + 1; i++) {
-      D[i] = new Array(len2 + 1);
+      R[i] = new Array(len2 + 1);
     }
     for (let i = 0; i < len1 + 1; i++) {
-      D[i][0] = {
+      R[i][0] = {
         del: 0,
         ins: 0,
         same: 0,
@@ -128,7 +128,7 @@ class HTMLTreeDiffWorker {
       };
     }
     for (let j = 0; j < len2 + 1; j++) {
-      D[0][j] = {
+      R[0][j] = {
         del: 0,
         ins: 0,
         same: 0,
@@ -159,107 +159,99 @@ class HTMLTreeDiffWorker {
         const score01 = C[i][j-1];
         const score10 = C[i-1][j];
 
-        // WORKAROUND for #64.
-        if (i == 1 && j == 1) {
-          C[i][j] = score11;
-          D[i][j] = this.addResult(D[i-1][j-1], result);
-          continue;
-        } else if (i == 1) {
-          C[i][j] = score01;
-          if (typeof child2 === "string") {
-            const D01 = D[i][j-1];
-            D[i][j] = this.addResult(D01, {
-              del: 0,
-              ins: this.compressSpaces(child2).length,
-              same: 0,
-              state: "diff",
-              stateCount: 1,
-            });
-          } else {
-            const D01 = D[i][j-1];
-            D[i][j] = this.addResult(D01, {
-              del: 0,
-              ins: child2.textLength,
-              same: 0,
-              state: "diff",
-              stateCount: 1,
-            });
-          }
-          continue;
-        } else if (j == 1) {
-          C[i][j] = score10;
-          if (typeof child1 === "string") {
-            const D10 = D[i-1][j];
-            D[i][j] = this.addResult(D10, {
-              del: this.compressSpaces(child1).length,
-              ins: 0,
-              same: 0,
-              state: "diff",
-              stateCount: 1,
-            });
-          } else {
-            const D10 = D[i-1][j];
-            D[i][j] = this.addResult(D10, {
-              del: child1.textLength,
-              ins: 0,
-              same: 0,
-              state: "diff",
-              stateCount: 1,
-            });
-          }
-          continue;
-        }
+        R[i][j] = result;
 
         if (score11 >= score01 && score11 >= score10) {
           C[i][j] = score11;
-          D[i][j] = this.addResult(D[i-1][j-1], result);
         } else if (score01 > score10) {
           C[i][j] = score01;
-          if (typeof child2 === "string") {
-            const D01 = D[i][j-1];
-            D[i][j] = this.addResult(D01, {
-              del: 0,
-              ins: this.compressSpaces(child2).length,
-              same: 0,
-              state: "diff",
-              stateCount: 1,
-            });
-          } else {
-            const D01 = D[i][j-1];
-            D[i][j] = this.addResult(D01, {
-              del: 0,
-              ins: child2.textLength,
-              same: 0,
-              state: "diff",
-              stateCount: 1,
-            });
-          }
         } else {
           C[i][j] = score10;
-          if (typeof child1 === "string") {
-            const D10 = D[i-1][j];
-            D[i][j] = this.addResult(D10, {
-              del: this.compressSpaces(child1).length,
-              ins: 0,
-              same: 0,
-              state: "diff",
-              stateCount: 1,
-            });
-          } else {
-            const D10 = D[i-1][j];
-            D[i][j] = this.addResult(D10, {
-              del: child1.textLength,
-              ins: 0,
-              same: 0,
-              state: "diff",
-              stateCount: 1,
-            });
-          }
         }
       }
     }
 
-    return D[len1][len2];
+    let result = {
+      del: 0,
+      ins: 0,
+      same: 0,
+      state: "same",
+      stateCount: 1,
+    };
+
+    const ins = child2 => {
+      if (typeof child2 === "string") {
+        result = this.addResult(result, {
+          del: 0,
+          ins: this.compressSpaces(child2).length,
+          same: 0,
+          state: "diff",
+          stateCount: 1,
+        });
+      } else {
+        result = this.addResult(result, {
+          del: 0,
+          ins: child2.textLength,
+          same: 0,
+          state: "diff",
+          stateCount: 1,
+        });
+      }
+    };
+    const del = child1 => {
+      if (typeof child1 === "string") {
+        result = this.addResult(result, {
+          del: this.compressSpaces(child1).length,
+          ins: 0,
+          same: 0,
+          state: "diff",
+          stateCount: 1,
+        });
+      } else {
+        result = this.addResult(result, {
+          del: child1.textLength,
+          ins: 0,
+          same: 0,
+          state: "diff",
+          stateCount: 1,
+        });
+      }
+    };
+    const mod = r => {
+      result = this.addResult(result, r);
+    };
+    const keep = r => {
+      result = this.addResult(result, r);
+    };
+
+    for (let i = len1, j = len2; i > 0 || j > 0;) {
+      const child1 = nodeObj1.childNodes[i - 1];
+      const child2 = nodeObj2.childNodes[j - 1];
+
+      if ((i > 0 && j > 0 && C[i][j] === C[i - 1][j - 1]) ||
+          (j > 0 && C[i][j] === C[i][j - 1])) {
+        ins(child2);
+        j--;
+      } else if (i > 0 && C[i][j] === C[i - 1][j]) {
+        del(child1);
+        i--;
+      } else if (i > 0 && j > 0 && C[i][j] - C[i - 1][j - 1] < 1) {
+        if (typeof child2 === "string") {
+          ins(child2);
+          j--;
+        } else {
+          mod(R[i][j]);
+          i--;
+          j--;
+        }
+      } else {
+        keep(R[i][j]);
+        i--;
+        j--;
+      }
+    }
+
+    return result;
   }
 
   compressSpaces(s) {
@@ -348,29 +340,45 @@ class HTMLTreeDiffWorker {
 
     const C = this.LCSMapMap.get(nodeObj1).get(nodeObj2);
 
+    const ins = child2 => {
+      this.prependChildIns(parentObj, child2);
+    };
+    const del = child1 => {
+      this.prependChildDel(parentObj, child1);
+    };
+    const mod = (child1, child2) => {
+      const box = this.shallowClone(child2);
+
+      this.LCSToDiff(box, child1, child2);
+
+      this.prependChild(parentObj, box);
+    };
+    const keep = child2 => {
+      this.prependChild(parentObj, child2);
+    };
+
     for (let i = len1, j = len2; i > 0 || j > 0;) {
+      const child1 = nodeObj1.childNodes[i - 1];
+      const child2 = nodeObj2.childNodes[j - 1];
+
       if ((i > 0 && j > 0 && C[i][j] === C[i - 1][j - 1]) ||
           (j > 0 && C[i][j] === C[i][j - 1])) {
-        this.prependChildIns(parentObj, nodeObj2.childNodes[j - 1]);
+        ins(child2);
         j--;
       } else if (i > 0 && C[i][j] === C[i - 1][j]) {
-        this.prependChildDel(parentObj, nodeObj1.childNodes[i - 1]);
+        del(child1);
         i--;
       } else if (i > 0 && j > 0 && C[i][j] - C[i - 1][j - 1] < 1) {
-        if (typeof nodeObj2.childNodes[j - 1] === "string") {
-          this.prependChildIns(parentObj, nodeObj2.childNodes[j - 1]);
+        if (typeof child2 === "string") {
+          ins(child2);
           j--;
         } else {
-          const box = this.shallowClone(nodeObj2.childNodes[j - 1]);
-
-          this.LCSToDiff(box, nodeObj1.childNodes[i - 1], nodeObj2.childNodes[j - 1]);
-
-          this.prependChild(parentObj, box);
+          mod(child1, child2);
           i--;
           j--;
         }
       } else {
-        this.prependChild(parentObj, nodeObj2.childNodes[j - 1]);
+        keep(child2);
         i--;
         j--;
       }
