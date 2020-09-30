@@ -1,26 +1,6 @@
 [
  {
   "base": "e4679d4ba196ab5e8959b44468d6a9feb848955c",
-  "created_at": "2020-09-29T21:44:22Z",
-  "head": "7a24315982c46a5ab10d4efe2e5e4838c76765a4",
-  "login": "rkirsling",
-  "number": 2195,
-  "ref": "clarify-note-for-strict-delete",
-  "revs": [
-   {
-    "adate": "2020-09-29T14:42:15-07:00",
-    "author": "Ross Kirsling",
-    "date": "2020-09-29T14:42:15-07:00",
-    "hash": "7a24315982c46a5ab10d4efe2e5e4838c76765a4",
-    "parents": "e4679d4ba196ab5e8959b44468d6a9feb848955c",
-    "subject": "Editorial: Clarify note about `delete` in strict mode."
-   }
-  ],
-  "title": "Editorial: Clarify note about `delete` in strict mode.",
-  "updated_at": "2020-09-29T22:08:22Z"
- },
- {
-  "base": "e4679d4ba196ab5e8959b44468d6a9feb848955c",
   "created_at": "2020-09-25T16:42:33Z",
   "head": "6f80175aee5bc302d6441e1dffa3e40f64dc0ef6",
   "login": "rwaldron",
@@ -454,11 +434,19 @@
  {
   "base": "11de25489a3e325b4b4c0575847d3bb9f51c7199",
   "created_at": "2020-08-26T22:13:54Z",
-  "head": "ea45958f3c5fb4f71f8de795abb7fa7b0e6b1a63",
+  "head": "678bbac52270a1f7eb80cfa3af46ac2c0d559f5d",
   "login": "bmeck",
   "number": 2154,
   "ref": "arbitrary-module-namespace-identifier-names",
   "revs": [
+   {
+    "adate": "2020-09-30T10:08:02-05:00",
+    "author": "Bradley Farias",
+    "date": "2020-09-30T10:08:02-05:00",
+    "hash": "678bbac52270a1f7eb80cfa3af46ac2c0d559f5d",
+    "parents": "ea45958f3c5fb4f71f8de795abb7fa7b0e6b1a63",
+    "subject": "no infinite lookahead"
+   },
    {
     "adate": "2020-09-29T11:00:05-05:00",
     "author": "Bradley Farias",
@@ -573,7 +561,7 @@
    }
   ],
   "title": "Normative: Arbitrary module namespace identifier names",
-  "updated_at": "2020-09-29T16:00:23Z"
+  "updated_at": "2020-09-30T15:08:15Z"
  },
  {
   "base": "11de25489a3e325b4b4c0575847d3bb9f51c7199",
