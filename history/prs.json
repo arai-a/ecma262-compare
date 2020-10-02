@@ -996,26 +996,6 @@
   "updated_at": "2020-09-08T12:19:20Z"
  },
  {
-  "base": "f700c03a152da7124acb6558351f536508c9c208",
-  "created_at": "2020-07-20T19:09:07Z",
-  "head": "162b32b44c8f3291b5cbc0eea965a8f0abb286cd",
-  "login": "devsnek",
-  "number": 2105,
-  "ref": "smol-change",
-  "revs": [
-   {
-    "adate": "2020-07-20T14:07:49-05:00",
-    "author": "Gus Caplan",
-    "date": "2020-07-20T14:08:30-05:00",
-    "hash": "162b32b44c8f3291b5cbc0eea965a8f0abb286cd",
-    "parents": "f700c03a152da7124acb6558351f536508c9c208",
-    "subject": "Editorial: refactor if statement in call expression"
-   }
-  ],
-  "title": "Editorial: refactor if statement in call expression",
-  "updated_at": "2020-08-05T21:56:40Z"
- },
- {
   "base": "65d5bcc81b65f822d4a8f31ece1bda30f5ca3036",
   "created_at": "2020-07-08T16:43:39Z",
   "head": "c87dba08422f8c8651fd9fb0b031addc0c7bd2a8",
@@ -1232,33 +1212,37 @@
   "updated_at": "2020-07-07T18:25:07Z"
  },
  {
-  "base": "8d2463a388c866d34035543d72dff7f730fcf975",
-  "created_at": "2020-07-07T04:45:42Z",
-  "head": "3bf657908984d1504cff599ab267114141e68eee",
-  "login": "Huxpro",
-  "number": 2082,
-  "ref": "issue-2081",
-  "revs": [
-   {
-    "adate": "2020-07-06T21:43:16-07:00",
-    "author": "Xuan Huang",
-    "date": "2020-07-06T21:43:16-07:00",
-    "hash": "3bf657908984d1504cff599ab267114141e68eee",
-    "parents": "8d2463a388c866d34035543d72dff7f730fcf975",
-    "subject": "Editorial: move CreateRegExpStringIterator (#02081)"
-   }
-  ],
-  "title": "Editorial: move CreateRegExpStringIterator",
-  "updated_at": "2020-09-17T05:44:49Z"
- },
- {
-  "base": "e4679d4ba196ab5e8959b44468d6a9feb848955c",
+  "base": "b66ef2ca34ab2e5fbf03e9637b3fbb15ab510478",
   "created_at": "2020-06-14T06:21:06Z",
-  "head": "aed733de657de4b3d18a57c83a7f4e2d85f4fb21",
+  "head": "f42ee2448b9b13a27a4c4e27b370f6891de63653",
   "login": "Jack-Works",
   "number": 2045,
   "ref": "generator",
   "revs": [
+   {
+    "adate": "2020-10-02T20:35:27+08:00",
+    "author": "Jack Works",
+    "date": "2020-10-02T20:35:27+08:00",
+    "hash": "f42ee2448b9b13a27a4c4e27b370f6891de63653",
+    "parents": "4723ec4ff14ad7f26c083a04131558283f088fbe",
+    "subject": "fix bug"
+   },
+   {
+    "adate": "2020-10-02T20:30:13+08:00",
+    "author": "Jack Works",
+    "date": "2020-10-02T20:30:13+08:00",
+    "hash": "4723ec4ff14ad7f26c083a04131558283f088fbe",
+    "parents": "c39b024b149b799a89ad85c8dc3665395df66f13",
+    "subject": "change CreateListIteratorRecord to for of"
+   },
+   {
+    "adate": "2020-10-02T20:27:49+08:00",
+    "author": "Jack Works",
+    "date": "2020-10-02T20:27:49+08:00",
+    "hash": "c39b024b149b799a89ad85c8dc3665395df66f13",
+    "parents": "aed733de657de4b3d18a57c83a7f4e2d85f4fb21 b66ef2ca34ab2e5fbf03e9637b3fbb15ab510478",
+    "subject": "Merge branch 'master' into generator"
+   },
    {
     "adate": "2020-09-25T12:45:51+08:00",
     "author": "Jack Works",
@@ -1805,7 +1789,7 @@
    }
   ],
   "title": "Editorial: Add Yield, CreateIteratorFromClosure, CreateAsyncIteratorFromClosure abs op.",
-  "updated_at": "2020-09-25T13:51:30Z"
+  "updated_at": "2020-10-02T12:36:54Z"
  },
  {
   "base": "56032d3271949f2892745d4a8e06d1322ba7220d",
@@ -2718,66 +2702,6 @@
   ],
   "title": "Normative: Restriction on [[Prototype]] of the global object",
   "updated_at": "2020-05-02T09:06:12Z"
- },
- {
-  "base": "6f0a88dc1d9f02d16a66aea01aede0253be4a132",
-  "created_at": "2020-04-23T12:44:14Z",
-  "head": "c09be9d2e89b1f1a9401be030596d544dc371ddd",
-  "login": "jhnaldo",
-  "number": 1966,
-  "ref": "unambiguous-if-statement-syntax",
-  "revs": [
-   {
-    "adate": "2020-08-09T15:13:05-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2020-08-09T15:13:05-07:00",
-    "hash": "c09be9d2e89b1f1a9401be030596d544dc371ddd",
-    "parents": "66cde3b2401943127fd54a3064b8ee167f30a36a",
-    "subject": "apply suggestions"
-   },
-   {
-    "adate": "2020-06-17T16:47:32-07:00",
-    "author": "Michael Ficarra",
-    "date": "2020-06-17T16:47:32-07:00",
-    "hash": "66cde3b2401943127fd54a3064b8ee167f30a36a",
-    "parents": "38e7322f6ab750671d137b4933fc0a484385927f",
-    "subject": "change to emu-note; adopt @jmdyck's wording"
-   },
-   {
-    "adate": "2020-05-12T10:46:14+09:00",
-    "author": "jhnaldo",
-    "date": "2020-06-17T16:23:23-07:00",
-    "hash": "38e7322f6ab750671d137b4933fc0a484385927f",
-    "parents": "6ed58ac14cdf226de6b827ac122ef67dfd5f0eb9",
-    "subject": "Added a note about lookahead"
-   },
-   {
-    "adate": "2020-05-07T15:44:36+09:00",
-    "author": "jhnaldo",
-    "date": "2020-06-17T16:23:23-07:00",
-    "hash": "6ed58ac14cdf226de6b827ac122ef67dfd5f0eb9",
-    "parents": "d0fecd5f74bc1ef907b6211a3897e33b02490bf3",
-    "subject": "Revised using only lookahead check"
-   },
-   {
-    "adate": "2020-04-24T11:18:22+09:00",
-    "author": "jhnaldo",
-    "date": "2020-06-17T16:23:23-07:00",
-    "hash": "d0fecd5f74bc1ef907b6211a3897e33b02490bf3",
-    "parents": "2fb8f43bec9e84ffb9d97b1673e7a67f6d831168",
-    "subject": "Editorial: Forwarded [Else] parameter to more statements."
-   },
-   {
-    "adate": "2020-04-23T21:34:42+09:00",
-    "author": "jhnaldo",
-    "date": "2020-06-17T16:23:23-07:00",
-    "hash": "2fb8f43bec9e84ffb9d97b1673e7a67f6d831168",
-    "parents": "6f0a88dc1d9f02d16a66aea01aede0253be4a132",
-    "subject": "Editorial: Unambiguous grammar for IfStatement"
-   }
-  ],
-  "title": "Editorial: Unambiguous grammar for IfStatement",
-  "updated_at": "2020-08-10T06:30:29Z"
  },
  {
   "base": "980e1ccf1d37a3c890dc5fe5a36275710459c122",
