@@ -2,11 +2,19 @@
  {
   "base": "b66ef2ca34ab2e5fbf03e9637b3fbb15ab510478",
   "created_at": "2020-10-02T21:14:43Z",
-  "head": "3de8fb601206d5eb62b785b97df90a0101cbf4e5",
+  "head": "48de16f518eb82b5eb509730922672fe16c6fc11",
   "login": "daemon1024",
   "number": 2196,
   "ref": "annex-b-ref",
   "revs": [
+   {
+    "adate": "2020-10-03T14:41:30+05:30",
+    "author": "daemon1024",
+    "date": "2020-10-03T14:43:36+05:30",
+    "hash": "48de16f518eb82b5eb509730922672fe16c6fc11",
+    "parents": "3de8fb601206d5eb62b785b97df90a0101cbf4e5",
+    "subject": "fixes as suggested in reviews"
+   },
    {
     "adate": "2020-10-02T21:10:32+00:00",
     "author": "daemon1024",
@@ -17,7 +25,7 @@
    }
   ],
   "title": "Editorial : ref extended/modified steps/entries",
-  "updated_at": "2020-10-02T21:14:43Z"
+  "updated_at": "2020-10-03T09:22:41Z"
  },
  {
   "base": "e4679d4ba196ab5e8959b44468d6a9feb848955c",
