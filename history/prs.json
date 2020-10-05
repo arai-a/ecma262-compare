@@ -22,11 +22,19 @@
  {
   "base": "b66ef2ca34ab2e5fbf03e9637b3fbb15ab510478",
   "created_at": "2020-10-02T21:14:43Z",
-  "head": "48de16f518eb82b5eb509730922672fe16c6fc11",
+  "head": "f30149c7f423acbf4215cacb6694180e5b6741dc",
   "login": "daemon1024",
   "number": 2196,
   "ref": "annex-b-ref",
   "revs": [
+   {
+    "adate": "2020-10-05T17:05:39+05:30",
+    "author": "daemon1024",
+    "date": "2020-10-05T17:05:39+05:30",
+    "hash": "f30149c7f423acbf4215cacb6694180e5b6741dc",
+    "parents": "48de16f518eb82b5eb509730922672fe16c6fc11",
+    "subject": "update spec.html b.3.7.2 b.3.3.6"
+   },
    {
     "adate": "2020-10-03T14:41:30+05:30",
     "author": "daemon1024",
@@ -45,7 +53,7 @@
    }
   ],
   "title": "Editorial : ref extended/modified steps/entries",
-  "updated_at": "2020-10-03T09:22:41Z"
+  "updated_at": "2020-10-05T11:36:26Z"
  },
  {
   "base": "e4679d4ba196ab5e8959b44468d6a9feb848955c",
