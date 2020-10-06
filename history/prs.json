@@ -174,11 +174,19 @@
  {
   "base": "d97be3ea2f451adbaae55c817d5d0ac0597a8555",
   "created_at": "2020-09-16T04:44:11Z",
-  "head": "0ace32948e2f42e0ef0a5a2c248202a27a246fe2",
+  "head": "e5b69e27358d885a3a6f27a682a4dcdcb89a8d9f",
   "login": "jmdyck",
   "number": 2176,
   "ref": "overloaded-functions",
   "revs": [
+   {
+    "adate": "2020-10-05T21:18:04-04:00",
+    "author": "Michael Dyck",
+    "date": "2020-10-05T21:18:04-04:00",
+    "hash": "e5b69e27358d885a3a6f27a682a4dcdcb89a8d9f",
+    "parents": "0ace32948e2f42e0ef0a5a2c248202a27a246fe2",
+    "subject": "TypedArray: move the oldid for 'sec-typedarray-object'"
+   },
    {
     "adate": "2020-09-16T22:11:00-04:00",
     "author": "Michael Dyck",
@@ -397,7 +405,7 @@
    }
   ],
   "title": "Editorial: Rewrite overloaded functions so each has a single definition",
-  "updated_at": "2020-09-28T00:23:38Z"
+  "updated_at": "2020-10-06T01:22:20Z"
  },
  {
   "base": "faaf15785747d799af1768afb105c0114bd38a1c",
