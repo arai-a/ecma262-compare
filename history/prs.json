@@ -660,26 +660,6 @@
   "updated_at": "2020-09-30T20:49:32Z"
  },
  {
-  "base": "11de25489a3e325b4b4c0575847d3bb9f51c7199",
-  "created_at": "2020-08-26T21:21:44Z",
-  "head": "b69eb3d16822925a0b62c8c2585506828f530ce8",
-  "login": "shvaikalesh",
-  "number": 2153,
-  "ref": "function-length-is-non-negative",
-  "revs": [
-   {
-    "adate": "2020-08-27T00:20:28+03:00",
-    "author": "Alexey Shvayka",
-    "date": "2020-08-27T00:20:28+03:00",
-    "hash": "b69eb3d16822925a0b62c8c2585506828f530ce8",
-    "parents": "11de25489a3e325b4b4c0575847d3bb9f51c7199",
-    "subject": "Editorial: Clarify that \"length\" value of built-in functions is non-negative"
-   }
-  ],
-  "title": "Editorial: Clarify that \"length\" value of built-in functions is non-negative",
-  "updated_at": "2020-08-26T23:29:57Z"
- },
- {
   "base": "93ac76898d9f74e39f68ac53edbad68b3822c949",
   "created_at": "2020-08-21T00:10:01Z",
   "head": "5e494e3a9477a737e88e3f960b053143113e067b",
@@ -728,24 +708,24 @@
   "updated_at": "2020-08-20T17:11:06Z"
  },
  {
-  "base": "420e82e8b2cb4114e6dd412cc1e67f6ebc436bde",
+  "base": "2cf5a6fe3bb4293336b142c646347e7f431a8d1c",
   "created_at": "2020-08-18T22:31:54Z",
-  "head": "aa85331f0520eb3df5f3623efaa35061533b63e8",
+  "head": "3b2b5b418cefd91b8be6ae00f63404abab184120",
   "login": "tc39",
   "number": 2142,
   "ref": "be-a-new-list",
   "revs": [
    {
-    "adate": "2020-08-18T14:33:43-07:00",
+    "adate": "2020-10-07T16:01:13-07:00",
     "author": "Michael Ficarra",
-    "date": "2020-08-26T17:14:10-07:00",
-    "hash": "aa85331f0520eb3df5f3623efaa35061533b63e8",
-    "parents": "420e82e8b2cb4114e6dd412cc1e67f6ebc436bde",
-    "subject": "Editorial: normalisation around List construction"
+    "date": "2020-10-07T16:01:13-07:00",
+    "hash": "3b2b5b418cefd91b8be6ae00f63404abab184120",
+    "parents": "2cf5a6fe3bb4293336b142c646347e7f431a8d1c",
+    "subject": "Editorial: normalisation around List construction (#2142)"
    }
   ],
   "title": "Editorial: normalisation around List construction",
-  "updated_at": "2020-08-27T00:16:10Z"
+  "updated_at": "2020-10-07T23:06:39Z"
  },
  {
   "base": "d97be3ea2f451adbaae55c817d5d0ac0597a8555",
@@ -904,26 +884,6 @@
   "updated_at": "2020-09-30T22:35:37Z"
  },
  {
-  "base": "575149cfd77aebcf3a129e165bd89e14caafc31c",
-  "created_at": "2020-07-31T22:06:42Z",
-  "head": "e378a026fca3a880456036847949efe3030b32a8",
-  "login": "tc39",
-  "number": 2120,
-  "ref": "maketime-ooo",
-  "revs": [
-   {
-    "adate": "2020-09-14T13:01:57-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2020-09-14T13:01:57-07:00",
-    "hash": "e378a026fca3a880456036847949efe3030b32a8",
-    "parents": "575149cfd77aebcf3a129e165bd89e14caafc31c",
-    "subject": "Normative: explicitly specify order of operations in MakeTime (#2120)"
-   }
-  ],
-  "title": "Normative: explicitly specify order of operations in MakeTime",
-  "updated_at": "2020-09-28T13:11:27Z"
- },
- {
   "base": "e4679d4ba196ab5e8959b44468d6a9feb848955c",
   "created_at": "2020-07-28T11:38:00Z",
   "head": "394a247984d9c1833632004b4dea59904d1c1b0d",
@@ -1006,26 +966,6 @@
   ],
   "title": "Editorial: Add\u00a0`IfAbruptCloseIterator`\u00a0shorthand",
   "updated_at": "2020-09-14T12:29:33Z"
- },
- {
-  "base": "721293e0fff964c4cdd3397fcbc7def1de9f9b4e",
-  "created_at": "2020-07-24T04:37:51Z",
-  "head": "2555c3b256fba9ba1b43d0ac602e3e5802adf09c",
-  "login": "gibson042",
-  "number": 2110,
-  "ref": "2020-07-ao-rs-prefix",
-  "revs": [
-   {
-    "adate": "2020-07-23T23:32:25-04:00",
-    "author": "Richard Gibson",
-    "date": "2020-07-23T23:32:25-04:00",
-    "hash": "2555c3b256fba9ba1b43d0ac602e3e5802adf09c",
-    "parents": "721293e0fff964c4cdd3397fcbc7def1de9f9b4e",
-    "subject": "Editorial: Remove \"Runtime Semantics\" prefix from abstract operations"
-   }
-  ],
-  "title": "Editorial: Remove \"Runtime Semantics\" prefix from abstract operations",
-  "updated_at": "2020-08-09T17:48:44Z"
  },
  {
   "base": "a0452b6c659bbcf32b2fb48d6055399089edd3b7",
@@ -1916,26 +1856,6 @@
   "updated_at": "2020-07-19T18:42:39Z"
  },
  {
-  "base": "12a546b92275a0e2f834017db2727bb9c6f6c8fd",
-  "created_at": "2020-06-06T10:50:56Z",
-  "head": "8e637f19b80cd957631397badc325f24f50ca3de",
-  "login": "ExE-Boss",
-  "number": 2036,
-  "ref": "fix/well-known-instrinsic-objects/array-iterator-prototype",
-  "revs": [
-   {
-    "adate": "2020-06-06T12:50:00+02:00",
-    "author": "ExE Boss",
-    "date": "2020-06-06T12:49:45+02:00",
-    "hash": "8e637f19b80cd957631397badc325f24f50ca3de",
-    "parents": "12a546b92275a0e2f834017db2727bb9c6f6c8fd",
-    "subject": "Editorial: Intrinsic\u00a0%ArrayIterator% doesn\u2019t\u00a0exist"
-   }
-  ],
-  "title": "Editorial: Intrinsic\u00a0%ArrayIterator% doesn\u2019t\u00a0exist",
-  "updated_at": "2020-09-08T12:19:18Z"
- },
- {
   "base": "d97be3ea2f451adbaae55c817d5d0ac0597a8555",
   "created_at": "2020-05-29T02:13:37Z",
   "head": "c9b32a56bdd838215d5fdafdfeac823bef5a038d",
@@ -2818,26 +2738,6 @@
   ],
   "title": "Editorial: Remove [[HomeObject]] from function Environments",
   "updated_at": "2020-05-10T05:18:08Z"
- },
- {
-  "base": "3d2f0d499cf7d504ed45b86068022af6b3feb71a",
-  "created_at": "2020-03-31T06:27:38Z",
-  "head": "5ea67efeb4f58f45ac796983e36a39d3eb565a55",
-  "login": "bakkot",
-  "number": 1927,
-  "ref": "link-templatestrings",
-  "revs": [
-   {
-    "adate": "2020-03-30T23:27:02-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2020-03-30T23:27:02-07:00",
-    "hash": "5ea67efeb4f58f45ac796983e36a39d3eb565a55",
-    "parents": "3d2f0d499cf7d504ed45b86068022af6b3feb71a",
-    "subject": "Editorial: fix auto-linking of TemplateStrings abstract op"
-   }
-  ],
-  "title": "Editorial: fix auto-linking of TemplateStrings abstract op",
-  "updated_at": "2020-04-15T22:44:56Z"
  },
  {
   "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
