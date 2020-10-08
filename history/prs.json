@@ -1,49 +1,5 @@
 [
  {
-  "base": "24d5a8fbab6b2b407dfcc5bbaa3af813752701c6",
-  "created_at": "2020-10-05T01:31:28Z",
-  "head": "b926b1485e43bc302614fd16a9fc97913ac708ed",
-  "login": "tc39",
-  "number": 2199,
-  "ref": "B141",
-  "revs": [
-   {
-    "adate": "2020-10-07T18:56:54-06:00",
-    "author": "Michael Ficarra",
-    "date": "2020-10-07T18:56:54-06:00",
-    "hash": "b926b1485e43bc302614fd16a9fc97913ac708ed",
-    "parents": "f891097a68136b3afe419c7c913a5e55c4501b27 24d5a8fbab6b2b407dfcc5bbaa3af813752701c6",
-    "subject": "Merge branch 'master' into B141"
-   },
-   {
-    "adate": "2020-10-07T18:53:54-06:00",
-    "author": "Michael Ficarra",
-    "date": "2020-10-07T18:53:54-06:00",
-    "hash": "f891097a68136b3afe419c7c913a5e55c4501b27",
-    "parents": "bc0facee942b54ace2399376ead0d8a60a81b135",
-    "subject": "add missing modified early errors"
-   },
-   {
-    "adate": "2020-10-07T18:49:53-06:00",
-    "author": "Michael Ficarra",
-    "date": "2020-10-07T18:49:53-06:00",
-    "hash": "bc0facee942b54ace2399376ead0d8a60a81b135",
-    "parents": "53062130e6fdae790f56c46094499ffc21b4e39d",
-    "subject": "leave whitespace out"
-   },
-   {
-    "adate": "2020-10-04T18:40:15-06:00",
-    "author": "Michael Ficarra",
-    "date": "2020-10-04T19:26:51-06:00",
-    "hash": "53062130e6fdae790f56c46094499ffc21b4e39d",
-    "parents": "b66ef2ca34ab2e5fbf03e9637b3fbb15ab510478",
-    "subject": "Editorial: clarify B.1.4.1, B.3.3.4, and B.3.3.5; other minor markup"
-   }
-  ],
-  "title": "Editorial: clarify B.1.4.1, B.3.3.4, and B.3.3.5; other minor markup",
-  "updated_at": "2020-10-08T00:56:55Z"
- },
- {
   "base": "b66ef2ca34ab2e5fbf03e9637b3fbb15ab510478",
   "created_at": "2020-10-02T21:14:43Z",
   "head": "88ef981e3f598f17379f2a99c8bcb320e24ce639",
@@ -798,11 +754,27 @@
  {
   "base": "0fa70bc523f094f0ca8dd2d9cf18c3febf8efb0f",
   "created_at": "2020-08-11T22:12:55Z",
-  "head": "0f9a02ea9e3b44e4eccc8c68f82a172b69fec23e",
+  "head": "0f7492158be91b2dd742dc39dd8cbc8754a043ac",
   "login": "gibson042",
   "number": 2132,
   "ref": "2020-08-directive-prologue-octal-escapes",
   "revs": [
+   {
+    "adate": "2020-10-08T11:53:45-04:00",
+    "author": "Richard Gibson",
+    "date": "2020-10-08T11:53:45-04:00",
+    "hash": "0f7492158be91b2dd742dc39dd8cbc8754a043ac",
+    "parents": "43259e4ea85d3074fefd7ff86d7a173ecc60d289",
+    "subject": "Editorial: Add Annex B note warning about (n)octal escape sequences before \"use strict\""
+   },
+   {
+    "adate": "2020-10-08T10:43:47-04:00",
+    "author": "Richard Gibson",
+    "date": "2020-10-08T10:43:47-04:00",
+    "hash": "43259e4ea85d3074fefd7ff86d7a173ecc60d289",
+    "parents": "0f9a02ea9e3b44e4eccc8c68f82a172b69fec23e",
+    "subject": "Editorial: Remove explicit errors for (n)octal escape in directive prologue"
+   },
    {
     "adate": "2020-08-20T14:41:50-04:00",
     "author": "Richard Gibson",
@@ -837,7 +809,7 @@
    }
   ],
   "title": "Editorial: Add explicit early errors for (n)octal escape in directive prologue",
-  "updated_at": "2020-08-20T18:59:17Z"
+  "updated_at": "2020-10-08T16:00:36Z"
  },
  {
   "base": "3750b81c637c58a2168495ccb62417adf196b5b4",
