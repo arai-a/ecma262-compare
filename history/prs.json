@@ -1,12 +1,36 @@
 [
  {
-  "base": "b66ef2ca34ab2e5fbf03e9637b3fbb15ab510478",
+  "base": "24d5a8fbab6b2b407dfcc5bbaa3af813752701c6",
   "created_at": "2020-10-05T01:31:28Z",
-  "head": "53062130e6fdae790f56c46094499ffc21b4e39d",
+  "head": "b926b1485e43bc302614fd16a9fc97913ac708ed",
   "login": "tc39",
   "number": 2199,
   "ref": "B141",
   "revs": [
+   {
+    "adate": "2020-10-07T18:56:54-06:00",
+    "author": "Michael Ficarra",
+    "date": "2020-10-07T18:56:54-06:00",
+    "hash": "b926b1485e43bc302614fd16a9fc97913ac708ed",
+    "parents": "f891097a68136b3afe419c7c913a5e55c4501b27 24d5a8fbab6b2b407dfcc5bbaa3af813752701c6",
+    "subject": "Merge branch 'master' into B141"
+   },
+   {
+    "adate": "2020-10-07T18:53:54-06:00",
+    "author": "Michael Ficarra",
+    "date": "2020-10-07T18:53:54-06:00",
+    "hash": "f891097a68136b3afe419c7c913a5e55c4501b27",
+    "parents": "bc0facee942b54ace2399376ead0d8a60a81b135",
+    "subject": "add missing modified early errors"
+   },
+   {
+    "adate": "2020-10-07T18:49:53-06:00",
+    "author": "Michael Ficarra",
+    "date": "2020-10-07T18:49:53-06:00",
+    "hash": "bc0facee942b54ace2399376ead0d8a60a81b135",
+    "parents": "53062130e6fdae790f56c46094499ffc21b4e39d",
+    "subject": "leave whitespace out"
+   },
    {
     "adate": "2020-10-04T18:40:15-06:00",
     "author": "Michael Ficarra",
@@ -17,7 +41,7 @@
    }
   ],
   "title": "Editorial: clarify B.1.4.1, B.3.3.4, and B.3.3.5; other minor markup",
-  "updated_at": "2020-10-05T01:31:36Z"
+  "updated_at": "2020-10-08T00:56:55Z"
  },
  {
   "base": "b66ef2ca34ab2e5fbf03e9637b3fbb15ab510478",
@@ -140,33 +164,21 @@
   "updated_at": "2020-09-24T02:09:35Z"
  },
  {
-  "base": "d97be3ea2f451adbaae55c817d5d0ac0597a8555",
-  "created_at": "2020-09-18T04:56:41Z",
-  "head": "9ecefa6b398fbb2478af5f79d633449186589f3f",
-  "login": "tc39",
-  "number": 2182,
-  "ref": "date-formats",
-  "revs": [
-   {
-    "adate": "2020-09-17T21:52:40-07:00",
-    "author": "Michael Ficarra",
-    "date": "2020-09-17T21:52:40-07:00",
-    "hash": "9ecefa6b398fbb2478af5f79d633449186589f3f",
-    "parents": "d97be3ea2f451adbaae55c817d5d0ac0597a8555",
-    "subject": "Editorial: normalise date formatting/punctuation"
-   }
-  ],
-  "title": "Editorial: normalise date formatting/punctuation",
-  "updated_at": "2020-09-29T01:47:25Z"
- },
- {
-  "base": "d97be3ea2f451adbaae55c817d5d0ac0597a8555",
+  "base": "24d5a8fbab6b2b407dfcc5bbaa3af813752701c6",
   "created_at": "2020-09-18T03:12:46Z",
-  "head": "7d2804f5679d09a52975d468171ba9231dcc8ce1",
+  "head": "3b573e8aa71ebeae1c317ed1c5b976dd526a569c",
   "login": "tc39",
   "number": 2177,
   "ref": "hint-enums",
   "revs": [
+   {
+    "adate": "2020-10-07T18:15:38-06:00",
+    "author": "Michael Ficarra",
+    "date": "2020-10-07T18:15:38-06:00",
+    "hash": "3b573e8aa71ebeae1c317ed1c5b976dd526a569c",
+    "parents": "7d2804f5679d09a52975d468171ba9231dcc8ce1 24d5a8fbab6b2b407dfcc5bbaa3af813752701c6",
+    "subject": "Merge branch 'master' into hint-enums"
+   },
    {
     "adate": "2020-09-17T20:26:54-07:00",
     "author": "Michael Ficarra",
@@ -185,7 +197,7 @@
    }
   ],
   "title": "Editorial: replace some more internal usage of strings with spec enums",
-  "updated_at": "2020-09-25T17:44:22Z"
+  "updated_at": "2020-10-08T00:48:37Z"
  },
  {
   "base": "d97be3ea2f451adbaae55c817d5d0ac0597a8555",
@@ -1220,13 +1232,29 @@
   "updated_at": "2020-09-14T20:01:35Z"
  },
  {
-  "base": "8d2463a388c866d34035543d72dff7f730fcf975",
+  "base": "24d5a8fbab6b2b407dfcc5bbaa3af813752701c6",
   "created_at": "2020-07-07T15:15:05Z",
-  "head": "eeed2436f4a776a16d35912a1ebf8b2e44e97719",
+  "head": "47627b62888ca1afde69162432a5c320638b8f52",
   "login": "shvaikalesh",
   "number": 2084,
   "ref": "binding-rest-element-chain-production",
   "revs": [
+   {
+    "adate": "2020-10-07T18:37:42-06:00",
+    "author": "Michael Ficarra",
+    "date": "2020-10-07T18:37:42-06:00",
+    "hash": "47627b62888ca1afde69162432a5c320638b8f52",
+    "parents": "504185498723266d74c4888c9d26ca8fae55f277",
+    "subject": "remove more IteratorBindingInitialization rules"
+   },
+   {
+    "adate": "2020-10-07T18:29:26-06:00",
+    "author": "Michael Ficarra",
+    "date": "2020-10-07T18:29:26-06:00",
+    "hash": "504185498723266d74c4888c9d26ca8fae55f277",
+    "parents": "eeed2436f4a776a16d35912a1ebf8b2e44e97719 24d5a8fbab6b2b407dfcc5bbaa3af813752701c6",
+    "subject": "Merge remote-tracking branch 'origin/master' into binding-rest-element-chain-production"
+   },
    {
     "adate": "2020-07-07T18:02:42+03:00",
     "author": "Alexey Shvayka",
@@ -1237,7 +1265,7 @@
    }
   ],
   "title": "Editorial: Remove Formal[Rest]Parameter from IteratorBindingInitialization",
-  "updated_at": "2020-07-07T18:25:07Z"
+  "updated_at": "2020-10-08T01:01:15Z"
  },
  {
   "base": "b66ef2ca34ab2e5fbf03e9637b3fbb15ab510478",
