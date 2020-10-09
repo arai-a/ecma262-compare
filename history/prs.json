@@ -1,31 +1,23 @@
 [
  {
-  "base": "5b769310a97ae9ec119cdf59461df7339520e190",
-  "created_at": "2020-10-09T02:47:54Z",
-  "head": "cd5c301e349d84d0c20c1ad6ad9d268b4bb1ce9d",
+  "base": "a60d965392eccb5d8ef80cd32da6fec7655931a3",
+  "created_at": "2020-10-09T21:43:54Z",
+  "head": "90431c400cfffebb5c16cea31131a09a6433aca8",
   "login": "tc39",
-  "number": 2201,
-  "ref": "list-containing",
+  "number": 2202,
+  "ref": "apsort",
   "revs": [
    {
-    "adate": "2020-10-08T20:55:32-06:00",
+    "adate": "2020-10-09T15:28:55-06:00",
     "author": "Michael Ficarra",
-    "date": "2020-10-09T11:44:14-06:00",
-    "hash": "cd5c301e349d84d0c20c1ad6ad9d268b4bb1ce9d",
-    "parents": "3ab01aa2c21848a73f71427be1461b9758c16585",
-    "subject": "Editorial: \"List containing\" -> \"List whose elements are\""
-   },
-   {
-    "adate": "2020-10-08T20:46:11-06:00",
-    "author": "Michael Ficarra",
-    "date": "2020-10-09T11:35:57-06:00",
-    "hash": "3ab01aa2c21848a73f71427be1461b9758c16585",
-    "parents": "5b769310a97ae9ec119cdf59461df7339520e190",
-    "subject": "Editorial: normalise phrasing used to create single-element Lists"
+    "date": "2020-10-09T15:28:55-06:00",
+    "hash": "90431c400cfffebb5c16cea31131a09a6433aca8",
+    "parents": "a60d965392eccb5d8ef80cd32da6fec7655931a3",
+    "subject": "Editorial: reference %Array.prototype.sort% when sorting Lists"
    }
   ],
-  "title": "Editorial: normalise phrasing used to create Lists",
-  "updated_at": "2020-10-09T17:56:24Z"
+  "title": "Editorial: reference %Array.prototype.sort% when sorting Lists",
+  "updated_at": "2020-10-09T22:25:17Z"
  },
  {
   "base": "b66ef2ca34ab2e5fbf03e9637b3fbb15ab510478",
