@@ -1,8 +1,8 @@
 [
  {
-  "base": "97bd50814e589991ab8cde94bd6dd2e2d6389e1f",
+  "base": "5b769310a97ae9ec119cdf59461df7339520e190",
   "created_at": "2020-10-09T02:47:54Z",
-  "head": "6b3fbbcb31de19ad1bc1f3722a9644bbd5a9763b",
+  "head": "d41ae03082aed8c9526db6ae212b37bdd3127881",
   "login": "tc39",
   "number": 2201,
   "ref": "list-containing",
@@ -10,46 +10,22 @@
    {
     "adate": "2020-10-08T20:55:32-06:00",
     "author": "Michael Ficarra",
-    "date": "2020-10-08T20:55:32-06:00",
-    "hash": "6b3fbbcb31de19ad1bc1f3722a9644bbd5a9763b",
-    "parents": "1501ecf63b761f1cf8643d26cc2bb35f6ab7478c",
+    "date": "2020-10-09T10:00:32-06:00",
+    "hash": "d41ae03082aed8c9526db6ae212b37bdd3127881",
+    "parents": "a6b7d6ce3ee80e48ac0b03505e1e310829fa5839",
     "subject": "Editorial: \"List containing\" -> \"List whose elements are\""
    },
    {
     "adate": "2020-10-08T20:46:11-06:00",
     "author": "Michael Ficarra",
-    "date": "2020-10-08T20:46:11-06:00",
-    "hash": "1501ecf63b761f1cf8643d26cc2bb35f6ab7478c",
-    "parents": "d18952c869bbeb24ad00150431eeaf0547ac57a2",
+    "date": "2020-10-09T10:00:32-06:00",
+    "hash": "a6b7d6ce3ee80e48ac0b03505e1e310829fa5839",
+    "parents": "5b769310a97ae9ec119cdf59461df7339520e190",
     "subject": "Editorial: normalise phrasing used to create single-element Lists"
-   },
-   {
-    "adate": "2020-10-08T12:00:01-06:00",
-    "author": "Michael Ficarra",
-    "date": "2020-10-08T12:00:01-06:00",
-    "hash": "d18952c869bbeb24ad00150431eeaf0547ac57a2",
-    "parents": "514ec40455a8ec5afac569e1e1efce37fbd6bfda 89786a9f4dae0ac0cf12d42a1f571f36fad031ef",
-    "subject": "Merge branch 'master' into be-a-new-list"
-   },
-   {
-    "adate": "2020-10-08T11:57:58-06:00",
-    "author": "Michael Ficarra",
-    "date": "2020-10-08T11:57:58-06:00",
-    "hash": "514ec40455a8ec5afac569e1e1efce37fbd6bfda",
-    "parents": "3b2b5b418cefd91b8be6ae00f63404abab184120",
-    "subject": "Editorial: \"in order\" is implied when constructing Lists"
-   },
-   {
-    "adate": "2020-10-07T16:01:13-07:00",
-    "author": "Michael Ficarra",
-    "date": "2020-10-07T16:01:13-07:00",
-    "hash": "3b2b5b418cefd91b8be6ae00f63404abab184120",
-    "parents": "2cf5a6fe3bb4293336b142c646347e7f431a8d1c",
-    "subject": "Editorial: normalisation around List construction (#2142)"
    }
   ],
   "title": "Editorial: normalise phrasing used to create Lists",
-  "updated_at": "2020-10-09T02:58:44Z"
+  "updated_at": "2020-10-09T16:04:11Z"
  },
  {
   "base": "b66ef2ca34ab2e5fbf03e9637b3fbb15ab510478",
