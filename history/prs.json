@@ -692,34 +692,6 @@
   "updated_at": "2020-08-20T17:11:06Z"
  },
  {
-  "base": "97bd50814e589991ab8cde94bd6dd2e2d6389e1f",
-  "created_at": "2020-08-18T22:31:54Z",
-  "head": "5b769310a97ae9ec119cdf59461df7339520e190",
-  "login": "tc39",
-  "number": 2142,
-  "ref": "be-a-new-list",
-  "revs": [
-   {
-    "adate": "2020-10-08T23:03:57-07:00",
-    "author": "Michael Ficarra",
-    "date": "2020-10-08T23:03:57-07:00",
-    "hash": "5b769310a97ae9ec119cdf59461df7339520e190",
-    "parents": "c1fd11d2108c3cff635effb985e748e2a8e97d64",
-    "subject": "Editorial: \"in order\" is implied when constructing Lists (#2142)"
-   },
-   {
-    "adate": "2020-10-08T23:03:55-07:00",
-    "author": "Michael Ficarra",
-    "date": "2020-10-08T23:03:55-07:00",
-    "hash": "c1fd11d2108c3cff635effb985e748e2a8e97d64",
-    "parents": "97bd50814e589991ab8cde94bd6dd2e2d6389e1f",
-    "subject": "Editorial: normalisation around List construction (#2142)"
-   }
-  ],
-  "title": "Editorial: normalisation around List construction",
-  "updated_at": "2020-10-09T06:04:12Z"
- },
- {
   "base": "d97be3ea2f451adbaae55c817d5d0ac0597a8555",
   "created_at": "2020-08-15T01:59:35Z",
   "head": "4b4a4784465f340c3eb7ad452e2a90ee17841499",
@@ -1034,11 +1006,43 @@
  {
   "base": "65d5bcc81b65f822d4a8f31ece1bda30f5ca3036",
   "created_at": "2020-07-08T16:43:39Z",
-  "head": "c87dba08422f8c8651fd9fb0b031addc0c7bd2a8",
+  "head": "f7f86f1f12353d4ad2cbabeed89e4d448b961a5e",
   "login": "shvaikalesh",
   "number": 2085,
   "ref": "reference-as-record",
   "revs": [
+   {
+    "adate": "2020-10-09T10:41:28+03:00",
+    "author": "Alexey Shvayka",
+    "date": "2020-10-09T10:41:28+03:00",
+    "hash": "f7f86f1f12353d4ad2cbabeed89e4d448b961a5e",
+    "parents": "2ebfa6bb5e6723150d9056f638ae6797f4e4de02",
+    "subject": "Use ~unresolvable~ instead of ~empty~ with [[Base]]"
+   },
+   {
+    "adate": "2020-10-09T10:36:40+03:00",
+    "author": "Alexey Shvayka",
+    "date": "2020-10-09T10:36:40+03:00",
+    "hash": "2ebfa6bb5e6723150d9056f638ae6797f4e4de02",
+    "parents": "5168fa730a2c2e2c4f3cc19f10ae2aeecb8904cb",
+    "subject": "Remove HasPrimitiveBase(V) and call ToObject unconditionally"
+   },
+   {
+    "adate": "2020-10-09T08:58:54+03:00",
+    "author": "Alexey Shvayka",
+    "date": "2020-10-09T08:58:54+03:00",
+    "hash": "5168fa730a2c2e2c4f3cc19f10ae2aeecb8904cb",
+    "parents": "901d368a363bb851bc26a53ea4088d3e20951f7f",
+    "subject": "Add \"the\" before \"Reference Record\" in record literals"
+   },
+   {
+    "adate": "2020-10-09T08:57:22+03:00",
+    "author": "Alexey Shvayka",
+    "date": "2020-10-09T08:57:22+03:00",
+    "hash": "901d368a363bb851bc26a53ea4088d3e20951f7f",
+    "parents": "c87dba08422f8c8651fd9fb0b031addc0c7bd2a8",
+    "subject": "Fix \"Environment Record\" casing"
+   },
    {
     "adate": "2020-09-07T16:00:58-07:00",
     "author": "Kevin Gibbons",
@@ -1225,7 +1229,7 @@
    }
   ],
   "title": "Editorial: Make Reference type a Record value",
-  "updated_at": "2020-09-14T20:01:35Z"
+  "updated_at": "2020-10-09T07:41:36Z"
  },
  {
   "base": "24d5a8fbab6b2b407dfcc5bbaa3af813752701c6",
