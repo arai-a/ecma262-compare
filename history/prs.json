@@ -1938,11 +1938,27 @@
  {
   "base": "e4679d4ba196ab5e8959b44468d6a9feb848955c",
   "created_at": "2020-05-22T17:36:53Z",
-  "head": "62c2b95c6ec392a1b634090408ce48c70b6da73c",
+  "head": "06a2c14ec49663bf0296f5f022b947322cdef6f2",
   "login": "caiolima",
   "number": 2007,
   "ref": "mathematical-values-fix",
   "revs": [
+   {
+    "adate": "2020-10-10T23:55:15-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-10-10T23:55:15-07:00",
+    "hash": "06a2c14ec49663bf0296f5f022b947322cdef6f2",
+    "parents": "4481dcc9e5da0f55c6a3f78e7137c6343a86ec61",
+    "subject": "ditto for equals"
+   },
+   {
+    "adate": "2020-10-10T23:48:56-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-10-10T23:48:56-07:00",
+    "hash": "4481dcc9e5da0f55c6a3f78e7137c6343a86ec61",
+    "parents": "62c2b95c6ec392a1b634090408ce48c70b6da73c",
+    "subject": "\"is less than\" -> \"&lt;\", also tweak some wording"
+   },
    {
     "adate": "2020-10-10T23:30:31-07:00",
     "author": "Kevin Gibbons",
@@ -2561,7 +2577,7 @@
    }
   ],
   "title": "Editorial: Make numeric values and operations default to mathematical values",
-  "updated_at": "2020-10-11T06:33:19Z"
+  "updated_at": "2020-10-11T06:55:25Z"
  },
  {
   "base": "bd868f20b8c574ad6689fba014b62a1dba819e56",
