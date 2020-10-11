@@ -1,25 +1,5 @@
 [
  {
-  "base": "a60d965392eccb5d8ef80cd32da6fec7655931a3",
-  "created_at": "2020-10-09T21:43:54Z",
-  "head": "90431c400cfffebb5c16cea31131a09a6433aca8",
-  "login": "tc39",
-  "number": 2202,
-  "ref": "apsort",
-  "revs": [
-   {
-    "adate": "2020-10-09T15:28:55-06:00",
-    "author": "Michael Ficarra",
-    "date": "2020-10-09T15:28:55-06:00",
-    "hash": "90431c400cfffebb5c16cea31131a09a6433aca8",
-    "parents": "a60d965392eccb5d8ef80cd32da6fec7655931a3",
-    "subject": "Editorial: reference %Array.prototype.sort% when sorting Lists"
-   }
-  ],
-  "title": "Editorial: reference %Array.prototype.sort% when sorting Lists",
-  "updated_at": "2020-10-09T22:25:17Z"
- },
- {
   "base": "b66ef2ca34ab2e5fbf03e9637b3fbb15ab510478",
   "created_at": "2020-10-02T21:14:43Z",
   "head": "88ef981e3f598f17379f2a99c8bcb320e24ce639",
@@ -1958,11 +1938,35 @@
  {
   "base": "e4679d4ba196ab5e8959b44468d6a9feb848955c",
   "created_at": "2020-05-22T17:36:53Z",
-  "head": "2bd90fe63ce238643d7960eff812cd9f84e7c13a",
+  "head": "62c2b95c6ec392a1b634090408ce48c70b6da73c",
   "login": "caiolima",
   "number": 2007,
   "ref": "mathematical-values-fix",
   "revs": [
+   {
+    "adate": "2020-10-10T23:30:31-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-10-10T23:30:31-07:00",
+    "hash": "62c2b95c6ec392a1b634090408ce48c70b6da73c",
+    "parents": "bc9af7371db7f2123fa9fd3dbf6cbce7e3e9b948",
+    "subject": "mathemtical value for -> \u211d()"
+   },
+   {
+    "adate": "2020-10-10T23:20:26-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-10-10T23:20:26-07:00",
+    "hash": "bc9af7371db7f2123fa9fd3dbf6cbce7e3e9b948",
+    "parents": "8a3594a30eebf99cd13a588617345cf727fe0b6b",
+    "subject": "remove intermediates for coerced values"
+   },
+   {
+    "adate": "2020-10-10T23:05:30-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-10-10T23:10:34-07:00",
+    "hash": "8a3594a30eebf99cd13a588617345cf727fe0b6b",
+    "parents": "2bd90fe63ce238643d7960eff812cd9f84e7c13a",
+    "subject": "address prose wording/typo"
+   },
    {
     "adate": "2020-09-30T16:50:59-07:00",
     "author": "Kevin Gibbons",
@@ -2557,7 +2561,7 @@
    }
   ],
   "title": "Editorial: Make numeric values and operations default to mathematical values",
-  "updated_at": "2020-09-30T23:51:07Z"
+  "updated_at": "2020-10-11T06:33:19Z"
  },
  {
   "base": "bd868f20b8c574ad6689fba014b62a1dba819e56",
