@@ -1938,11 +1938,35 @@
  {
   "base": "f9be7ed17f262ccaadc8d7d7fd9f4828076f6567",
   "created_at": "2020-05-22T17:36:53Z",
-  "head": "3a9ebfff504867661b349c980ebe60112080e521",
+  "head": "d42a0faffd39e27bf722c9485e5077e281d1efdf",
   "login": "caiolima",
   "number": 2007,
   "ref": "mathematical-values-fix",
   "revs": [
+   {
+    "adate": "2020-10-13T11:33:02-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-10-13T11:33:02-07:00",
+    "hash": "d42a0faffd39e27bf722c9485e5077e281d1efdf",
+    "parents": "87bb67d36094c57f34f03b57d48d5594e6691f58",
+    "subject": "a few more prose = -> same value"
+   },
+   {
+    "adate": "2020-10-13T11:25:36-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-10-13T11:25:36-07:00",
+    "hash": "87bb67d36094c57f34f03b57d48d5594e6691f58",
+    "parents": "b914e1d2c7cc5b42738abfeb952ff7a57b32a0f3",
+    "subject": "compare numbers with \"same value as\" rather than \"=\""
+   },
+   {
+    "adate": "2020-10-13T11:24:30-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-10-13T11:24:30-07:00",
+    "hash": "b914e1d2c7cc5b42738abfeb952ff7a57b32a0f3",
+    "parents": "3a9ebfff504867661b349c980ebe60112080e521",
+    "subject": "fixup finiteness checks"
+   },
    {
     "adate": "2020-10-12T21:16:55-07:00",
     "author": "Kevin Gibbons",
@@ -2649,7 +2673,7 @@
    }
   ],
   "title": "Editorial: Make numeric values and operations default to mathematical values",
-  "updated_at": "2020-10-13T04:27:28Z"
+  "updated_at": "2020-10-13T18:34:15Z"
  },
  {
   "base": "bd868f20b8c574ad6689fba014b62a1dba819e56",
