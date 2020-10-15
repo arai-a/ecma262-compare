@@ -1676,9 +1676,9 @@
   "updated_at": "2020-07-19T18:42:39Z"
  },
  {
-  "base": "d97be3ea2f451adbaae55c817d5d0ac0597a8555",
+  "base": "f2eb02248838e3482fbb7f02a2a1455c029efa0c",
   "created_at": "2020-05-29T02:13:37Z",
-  "head": "c9b32a56bdd838215d5fdafdfeac823bef5a038d",
+  "head": "475cd0be54dce443ce293bc6c8f6fad9679b2aaf",
   "login": "jmdyck",
   "number": 2018,
   "ref": "sequence-of-code-units",
@@ -1686,62 +1686,62 @@
    {
     "adate": "2020-09-17T20:38:25-04:00",
     "author": "Michael Dyck",
-    "date": "2020-09-17T22:39:06-04:00",
-    "hash": "c9b32a56bdd838215d5fdafdfeac823bef5a038d",
-    "parents": "e02715c4cb8fa9bf345e01f5dc82b52f3f023682",
+    "date": "2020-10-15T12:02:50-04:00",
+    "hash": "475cd0be54dce443ce293bc6c8f6fad9679b2aaf",
+    "parents": "6331e50400d9515e5962b4cafaf5b41e1fb1cf2c",
     "subject": "Editorial: Explictly 'convert' numeric value to code unit"
    },
    {
     "adate": "2020-09-17T20:30:56-04:00",
     "author": "Michael Dyck",
-    "date": "2020-09-17T22:39:06-04:00",
-    "hash": "e02715c4cb8fa9bf345e01f5dc82b52f3f023682",
-    "parents": "a9eabbcde26800075ae35d8dfe4e64dbfe04b5a2",
+    "date": "2020-10-15T12:02:50-04:00",
+    "hash": "6331e50400d9515e5962b4cafaf5b41e1fb1cf2c",
+    "parents": "aa86e594f2d02b75b5a5f108f975eef799067f0b",
     "subject": "Editorial: Rename CodePointToUTF16CodeUnits to CodePointToString"
    },
    {
     "adate": "2020-05-28T21:39:56-04:00",
     "author": "Michael Dyck",
-    "date": "2020-09-17T22:39:06-04:00",
-    "hash": "a9eabbcde26800075ae35d8dfe4e64dbfe04b5a2",
-    "parents": "ec040aadbdf01fbf0d1d353d7f12bcc48e07f454",
+    "date": "2020-10-15T12:02:50-04:00",
+    "hash": "aa86e594f2d02b75b5a5f108f975eef799067f0b",
+    "parents": "909b224c9b8a940ef821084e649fe977e575bf86",
     "subject": "Editorial: Have SV, TV, TRV, and CodePointToUTF16CodeUnits return a String"
    },
    {
     "adate": "2020-05-28T21:02:17-04:00",
     "author": "Michael Dyck",
-    "date": "2020-09-17T21:55:53-04:00",
-    "hash": "ec040aadbdf01fbf0d1d353d7f12bcc48e07f454",
-    "parents": "e95f65ad024b99faee3851b38c153d38c10303ba",
+    "date": "2020-10-15T12:02:50-04:00",
+    "hash": "909b224c9b8a940ef821084e649fe977e575bf86",
+    "parents": "f6a80391d7391af5aeba23bfb1bcabc75610527a",
     "subject": "Editorial: Use MV of Hex4Digits rather than SV"
    },
    {
     "adate": "2020-05-28T20:56:59-04:00",
     "author": "Michael Dyck",
-    "date": "2020-09-17T21:55:53-04:00",
-    "hash": "e95f65ad024b99faee3851b38c153d38c10303ba",
-    "parents": "248a8c76a1b76f8bf44727739c10b14208ac1805",
+    "date": "2020-10-15T12:02:50-04:00",
+    "hash": "f6a80391d7391af5aeba23bfb1bcabc75610527a",
+    "parents": "4af97056f01888df5cb6183a92a2f602709900d9",
     "subject": "Editorial: Introduce MV of HexEscapeSequence"
    },
    {
     "adate": "2020-05-28T20:46:03-04:00",
     "author": "Michael Dyck",
-    "date": "2020-09-17T21:55:53-04:00",
-    "hash": "248a8c76a1b76f8bf44727739c10b14208ac1805",
-    "parents": "d8c1e8ede7d201f45291c32eac66b759839e5b5b",
+    "date": "2020-10-15T10:49:50-04:00",
+    "hash": "4af97056f01888df5cb6183a92a2f602709900d9",
+    "parents": "9dabc1e17a6de11691191ccd192e7875794f790f",
     "subject": "Editorial: Introduce MV of LegacyOctalEscapeSequence"
    },
    {
     "adate": "2020-05-28T20:34:53-04:00",
     "author": "Michael Dyck",
-    "date": "2020-09-17T21:55:53-04:00",
-    "hash": "d8c1e8ede7d201f45291c32eac66b759839e5b5b",
-    "parents": "d97be3ea2f451adbaae55c817d5d0ac0597a8555",
+    "date": "2020-10-15T10:49:50-04:00",
+    "hash": "9dabc1e17a6de11691191ccd192e7875794f790f",
+    "parents": "f2eb02248838e3482fbb7f02a2a1455c029efa0c",
     "subject": "Editorial: Delete 2 chain rules for SV"
    }
   ],
   "title": "Editorial: Have SV, TV, TRV, and CodePointToUTF16CodeUnits return a String rather than a sequence of code units",
-  "updated_at": "2020-09-18T05:29:43Z"
+  "updated_at": "2020-10-15T16:05:54Z"
  },
  {
   "base": "7479ade585c62b4af2c66898fc0b64731f97adc6",
