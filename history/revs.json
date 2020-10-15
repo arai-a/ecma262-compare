@@ -1,5 +1,45 @@
 [
  {
+  "adate": "2020-10-15T13:27:05-07:00",
+  "author": "Richard Gibson",
+  "date": "2020-10-15T13:27:05-07:00",
+  "hash": "b1afdde728b3af88d01da85833f3672ad442d24e",
+  "parents": "28f5a6abdb02c88fe9f98524a2e08b909496551b",
+  "subject": "Editorial: Add Annex B note warning about (n)octal escape sequences before \"use strict\" (#2132)"
+ },
+ {
+  "adate": "2020-10-15T13:27:01-07:00",
+  "author": "Richard Gibson",
+  "date": "2020-10-15T13:27:01-07:00",
+  "hash": "28f5a6abdb02c88fe9f98524a2e08b909496551b",
+  "parents": "1bb750226d5885dd669bbe799a2bf6326553d899",
+  "subject": "Editorial: Move the definition of Directive Prologue out of Functions and Classes (#2132)"
+ },
+ {
+  "adate": "2020-10-15T13:26:59-07:00",
+  "author": "Richard Gibson",
+  "date": "2020-10-15T13:26:59-07:00",
+  "hash": "1bb750226d5885dd669bbe799a2bf6326553d899",
+  "parents": "3b654e992fce81c524c797af3a786ec5cab66ff3",
+  "subject": "Editorial: Add cross-references between strict mode explanation & entry conditions, & to ASI section (#2132)"
+ },
+ {
+  "adate": "2020-10-15T13:12:32-07:00",
+  "author": "Michael Dyck",
+  "date": "2020-10-15T13:12:32-07:00",
+  "hash": "3b654e992fce81c524c797af3a786ec5cab66ff3",
+  "parents": "2f2a6d3247655c986e1b188f480990b1e16adcd7",
+  "subject": "Editorial: Rewrite overloaded functions so each has a single definition (#2176)"
+ },
+ {
+  "adate": "2020-10-15T13:12:28-07:00",
+  "author": "Michael Dyck",
+  "date": "2020-10-15T13:12:28-07:00",
+  "hash": "2f2a6d3247655c986e1b188f480990b1e16adcd7",
+  "parents": "f2eb02248838e3482fbb7f02a2a1455c029efa0c",
+  "subject": "Editorial: Move TypedArraySpeciesCreate and TypedArrayCreate (#2176)"
+ },
+ {
   "adate": "2020-10-13T13:32:22-07:00",
   "author": "Kevin Gibbons",
   "date": "2020-10-13T13:32:22-07:00",
