@@ -140,92 +140,24 @@
   "updated_at": "2020-09-24T02:09:35Z"
  },
  {
-  "base": "f2eb02248838e3482fbb7f02a2a1455c029efa0c",
-  "created_at": "2020-09-16T04:44:11Z",
-  "head": "93af01e34ce3744ce2acd64037f0d80d9bc34504",
-  "login": "jmdyck",
-  "number": 2176,
-  "ref": "overloaded-functions",
-  "revs": [
-   {
-    "adate": "2020-09-15T16:11:22-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-10-14T21:44:33-04:00",
-    "hash": "93af01e34ce3744ce2acd64037f0d80d9bc34504",
-    "parents": "f5830e5bf1938ce0fc5a2597f1e02d3dbdc78244",
-    "subject": "Editorial: Rewrite overloaded functions so each has a single definition"
-   },
-   {
-    "adate": "2020-09-15T22:15:11-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-10-14T18:29:41-04:00",
-    "hash": "f5830e5bf1938ce0fc5a2597f1e02d3dbdc78244",
-    "parents": "f2eb02248838e3482fbb7f02a2a1455c029efa0c",
-    "subject": "Editorial: Move TypedArraySpeciesCreate and TypedArrayCreate"
-   }
-  ],
-  "title": "Editorial: Rewrite overloaded functions so each has a single definition",
-  "updated_at": "2020-10-15T01:44:51Z"
- },
- {
-  "base": "faaf15785747d799af1768afb105c0114bd38a1c",
+  "base": "b1afdde728b3af88d01da85833f3672ad442d24e",
   "created_at": "2020-09-04T21:48:11Z",
-  "head": "d1523ce25fec527ed6f5ef5ce09e54639fa0a36f",
+  "head": "a4a142c4402ac87ff119461ba30d31f499242b7d",
   "login": "rkirsling",
   "number": 2164,
   "ref": "detached-buffer-reality",
   "revs": [
    {
-    "adate": "2020-09-09T14:49:56-07:00",
+    "adate": "2020-10-15T14:03:41-07:00",
     "author": "Ross Kirsling",
-    "date": "2020-09-10T17:52:51-07:00",
-    "hash": "d1523ce25fec527ed6f5ef5ce09e54639fa0a36f",
-    "parents": "7a4127f154294cd58d1fa113b59df20f97ef429d",
-    "subject": "Integer-indexed elements should be configurable."
-   },
-   {
-    "adate": "2020-09-09T13:08:14-07:00",
-    "author": "Ross Kirsling",
-    "date": "2020-09-09T13:08:14-07:00",
-    "hash": "7a4127f154294cd58d1fa113b59df20f97ef429d",
-    "parents": "5262628232b2647ffa31f32e787606e7e905035e",
-    "subject": "Ensure both non-empty paths throw in TypedArray slice."
-   },
-   {
-    "adate": "2020-09-08T12:04:55-07:00",
-    "author": "Ross Kirsling",
-    "date": "2020-09-09T12:53:25-07:00",
-    "hash": "5262628232b2647ffa31f32e787606e7e905035e",
-    "parents": "bd01d37cdbee1a87a6359c85de0bb16f1e68c334",
-    "subject": "Indicate that IntegerIndexedElementGet cannot fail."
-   },
-   {
-    "adate": "2020-09-08T13:09:57-07:00",
-    "author": "Ross Kirsling",
-    "date": "2020-09-09T12:53:24-07:00",
-    "hash": "bd01d37cdbee1a87a6359c85de0bb16f1e68c334",
-    "parents": "9237a82f0e2efaa81338fd2036a8d629c0b46c35",
-    "subject": "Fix typo."
-   },
-   {
-    "adate": "2020-09-08T13:13:26-07:00",
-    "author": "Ross Kirsling",
-    "date": "2020-09-09T12:53:24-07:00",
-    "hash": "9237a82f0e2efaa81338fd2036a8d629c0b46c35",
-    "parents": "cf209cc800b9b1cbda1898c55267bf394a1bf51d",
-    "subject": "Align style with #2007."
-   },
-   {
-    "adate": "2020-09-04T14:41:23-07:00",
-    "author": "Ross Kirsling",
-    "date": "2020-09-04T14:41:23-07:00",
-    "hash": "cf209cc800b9b1cbda1898c55267bf394a1bf51d",
-    "parents": "f05f1c9bc72fd136344810a64af1cd96c7ca2779",
-    "subject": "Normative: Align detached buffer semantics with web reality"
+    "date": "2020-10-15T14:03:41-07:00",
+    "hash": "a4a142c4402ac87ff119461ba30d31f499242b7d",
+    "parents": "b1afdde728b3af88d01da85833f3672ad442d24e",
+    "subject": "Normative: Align detached buffer semantics with web reality (#2164)"
    }
   ],
   "title": "Normative: Align detached buffer semantics with web reality",
-  "updated_at": "2020-09-28T19:48:09Z"
+  "updated_at": "2020-10-15T21:04:49Z"
  },
  {
   "base": "65d5bcc81b65f822d4a8f31ece1bda30f5ca3036",
@@ -506,66 +438,6 @@
   ],
   "title": "Editorial: Use consistent \"...generally do not look into function definitions\" language",
   "updated_at": "2020-08-16T03:40:58Z"
- },
- {
-  "base": "0fa70bc523f094f0ca8dd2d9cf18c3febf8efb0f",
-  "created_at": "2020-08-11T22:12:55Z",
-  "head": "0f7492158be91b2dd742dc39dd8cbc8754a043ac",
-  "login": "gibson042",
-  "number": 2132,
-  "ref": "2020-08-directive-prologue-octal-escapes",
-  "revs": [
-   {
-    "adate": "2020-10-08T11:53:45-04:00",
-    "author": "Richard Gibson",
-    "date": "2020-10-08T11:53:45-04:00",
-    "hash": "0f7492158be91b2dd742dc39dd8cbc8754a043ac",
-    "parents": "43259e4ea85d3074fefd7ff86d7a173ecc60d289",
-    "subject": "Editorial: Add Annex B note warning about (n)octal escape sequences before \"use strict\""
-   },
-   {
-    "adate": "2020-10-08T10:43:47-04:00",
-    "author": "Richard Gibson",
-    "date": "2020-10-08T10:43:47-04:00",
-    "hash": "43259e4ea85d3074fefd7ff86d7a173ecc60d289",
-    "parents": "0f9a02ea9e3b44e4eccc8c68f82a172b69fec23e",
-    "subject": "Editorial: Remove explicit errors for (n)octal escape in directive prologue"
-   },
-   {
-    "adate": "2020-08-20T14:41:50-04:00",
-    "author": "Richard Gibson",
-    "date": "2020-08-20T14:41:50-04:00",
-    "hash": "0f9a02ea9e3b44e4eccc8c68f82a172b69fec23e",
-    "parents": "18e9a8ff7077fb01ebbd05846e6ef3f65bfced51",
-    "subject": "Editorial: Add reference to ASI section"
-   },
-   {
-    "adate": "2020-08-11T13:32:22-04:00",
-    "author": "Richard Gibson",
-    "date": "2020-08-11T13:55:52-04:00",
-    "hash": "18e9a8ff7077fb01ebbd05846e6ef3f65bfced51",
-    "parents": "13edbf477e4c88c0fec54e0edce6e8bdf0ef9f45",
-    "subject": "Editorial: Add explicit early errors for (n)octal escape in directive prologue"
-   },
-   {
-    "adate": "2020-08-11T13:30:15-04:00",
-    "author": "Richard Gibson",
-    "date": "2020-08-11T13:44:38-04:00",
-    "hash": "13edbf477e4c88c0fec54e0edce6e8bdf0ef9f45",
-    "parents": "602c01c612b1cf6f7bc93305d01bd7eb2c677b5d",
-    "subject": "Editorial: Move the definition of Directive Prologue out of Functions and Classes"
-   },
-   {
-    "adate": "2020-08-11T13:28:30-04:00",
-    "author": "Richard Gibson",
-    "date": "2020-08-11T13:35:16-04:00",
-    "hash": "602c01c612b1cf6f7bc93305d01bd7eb2c677b5d",
-    "parents": "f3455c20a7287b0048cf23cd3be0f0826f88ad78",
-    "subject": "Editorial: Add cross-references between strict mode explanation and entry conditions"
-   }
-  ],
-  "title": "Editorial: Add explicit early errors for (n)octal escape in directive prologue",
-  "updated_at": "2020-10-08T16:00:36Z"
  },
  {
   "base": "3750b81c637c58a2168495ccb62417adf196b5b4",
@@ -1744,9 +1616,9 @@
   "updated_at": "2020-10-15T16:05:54Z"
  },
  {
-  "base": "7479ade585c62b4af2c66898fc0b64731f97adc6",
+  "base": "b1afdde728b3af88d01da85833f3672ad442d24e",
   "created_at": "2020-05-25T21:24:06Z",
-  "head": "df6a2e9473283381b70cc2c4b07604cea9eb529e",
+  "head": "70ac295787c654fe628dfc0c7d772100a1852b73",
   "login": "jmdyck",
   "number": 2013,
   "ref": "ParseText",
@@ -1754,22 +1626,22 @@
    {
     "adate": "2020-05-25T17:11:36-04:00",
     "author": "Michael Dyck",
-    "date": "2020-05-26T17:10:07-04:00",
-    "hash": "df6a2e9473283381b70cc2c4b07604cea9eb529e",
-    "parents": "6ef161ebaf6e8538955145df1815786d7727ae47",
+    "date": "2020-10-15T16:59:47-04:00",
+    "hash": "70ac295787c654fe628dfc0c7d772100a1852b73",
+    "parents": "2c97a6a354618d25dada3f10cf711e51dda06b6c",
     "subject": "Editorial: Extract operation ParseText"
    },
    {
     "adate": "2020-05-25T17:05:23-04:00",
     "author": "Michael Dyck",
-    "date": "2020-05-26T09:45:08-04:00",
-    "hash": "6ef161ebaf6e8538955145df1815786d7727ae47",
-    "parents": "d14a2829381c5a0c179540655f6946d63c1d75e4",
+    "date": "2020-10-15T15:47:26-04:00",
+    "hash": "2c97a6a354618d25dada3f10cf711e51dda06b6c",
+    "parents": "f2eb02248838e3482fbb7f02a2a1455c029efa0c",
     "subject": "Editorial: Delete \"as modified\" wording in Note for JSON.parse."
    }
   ],
   "title": "Editorial: Extract operation ParseText",
-  "updated_at": "2020-05-28T20:53:38Z"
+  "updated_at": "2020-10-15T21:04:55Z"
  },
  {
   "base": "bd868f20b8c574ad6689fba014b62a1dba819e56",
