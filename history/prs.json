@@ -854,11 +854,27 @@
  {
   "base": "f2eb02248838e3482fbb7f02a2a1455c029efa0c",
   "created_at": "2020-06-14T06:21:06Z",
-  "head": "fe0f458d02c3fafe1df84e7f55a3511c696a0c6e",
+  "head": "c814fef0b728c726624f745896c356d95b3f4edd",
   "login": "Jack-Works",
   "number": 2045,
   "ref": "generator",
   "revs": [
+   {
+    "adate": "2020-10-16T17:35:46+08:00",
+    "author": "Jack Works",
+    "date": "2020-10-16T17:35:46+08:00",
+    "hash": "c814fef0b728c726624f745896c356d95b3f4edd",
+    "parents": "8145bf34fe323d979319384edeb3c52aaeb8b42a",
+    "subject": "resolve review"
+   },
+   {
+    "adate": "2020-10-16T17:34:34+08:00",
+    "author": "Jack Works",
+    "date": "2020-10-16T17:34:34+08:00",
+    "hash": "8145bf34fe323d979319384edeb3c52aaeb8b42a",
+    "parents": "fe0f458d02c3fafe1df84e7f55a3511c696a0c6e",
+    "subject": "resolve review"
+   },
    {
     "adate": "2020-10-16T10:28:42+08:00",
     "author": "Jack Works",
@@ -1469,7 +1485,7 @@
    }
   ],
   "title": "Editorial: Add Yield, CreateIteratorFromClosure, CreateAsyncIteratorFromClosure abs op.",
-  "updated_at": "2020-10-16T02:30:26Z"
+  "updated_at": "2020-10-16T09:37:30Z"
  },
  {
   "base": "56032d3271949f2892745d4a8e06d1322ba7220d",
