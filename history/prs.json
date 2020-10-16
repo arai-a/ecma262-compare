@@ -140,26 +140,6 @@
   "updated_at": "2020-09-24T02:09:35Z"
  },
  {
-  "base": "b1afdde728b3af88d01da85833f3672ad442d24e",
-  "created_at": "2020-09-04T21:48:11Z",
-  "head": "a4a142c4402ac87ff119461ba30d31f499242b7d",
-  "login": "rkirsling",
-  "number": 2164,
-  "ref": "detached-buffer-reality",
-  "revs": [
-   {
-    "adate": "2020-10-15T14:03:41-07:00",
-    "author": "Ross Kirsling",
-    "date": "2020-10-15T14:03:41-07:00",
-    "hash": "a4a142c4402ac87ff119461ba30d31f499242b7d",
-    "parents": "b1afdde728b3af88d01da85833f3672ad442d24e",
-    "subject": "Normative: Align detached buffer semantics with web reality (#2164)"
-   }
-  ],
-  "title": "Normative: Align detached buffer semantics with web reality",
-  "updated_at": "2020-10-15T21:04:49Z"
- },
- {
   "base": "65d5bcc81b65f822d4a8f31ece1bda30f5ca3036",
   "created_at": "2020-08-26T23:21:12Z",
   "head": "870e5f7cc27ac0e7489059d3c650595b100a2796",
@@ -872,49 +852,29 @@
   "updated_at": "2020-10-09T08:22:26Z"
  },
  {
-  "base": "24d5a8fbab6b2b407dfcc5bbaa3af813752701c6",
-  "created_at": "2020-07-07T15:15:05Z",
-  "head": "47627b62888ca1afde69162432a5c320638b8f52",
-  "login": "shvaikalesh",
-  "number": 2084,
-  "ref": "binding-rest-element-chain-production",
-  "revs": [
-   {
-    "adate": "2020-10-07T18:37:42-06:00",
-    "author": "Michael Ficarra",
-    "date": "2020-10-07T18:37:42-06:00",
-    "hash": "47627b62888ca1afde69162432a5c320638b8f52",
-    "parents": "504185498723266d74c4888c9d26ca8fae55f277",
-    "subject": "remove more IteratorBindingInitialization rules"
-   },
-   {
-    "adate": "2020-10-07T18:29:26-06:00",
-    "author": "Michael Ficarra",
-    "date": "2020-10-07T18:29:26-06:00",
-    "hash": "504185498723266d74c4888c9d26ca8fae55f277",
-    "parents": "eeed2436f4a776a16d35912a1ebf8b2e44e97719 24d5a8fbab6b2b407dfcc5bbaa3af813752701c6",
-    "subject": "Merge remote-tracking branch 'origin/master' into binding-rest-element-chain-production"
-   },
-   {
-    "adate": "2020-07-07T18:02:42+03:00",
-    "author": "Alexey Shvayka",
-    "date": "2020-07-07T18:02:42+03:00",
-    "hash": "eeed2436f4a776a16d35912a1ebf8b2e44e97719",
-    "parents": "8d2463a388c866d34035543d72dff7f730fcf975",
-    "subject": "Editorial: Remove Formal[Rest]Parameter from IteratorBindingInitialization"
-   }
-  ],
-  "title": "Editorial: Remove Formal[Rest]Parameter from IteratorBindingInitialization",
-  "updated_at": "2020-10-08T01:01:15Z"
- },
- {
   "base": "f2eb02248838e3482fbb7f02a2a1455c029efa0c",
   "created_at": "2020-06-14T06:21:06Z",
-  "head": "4b9a936700f36db7fbd630daeda504d9b3eee918",
+  "head": "fe0f458d02c3fafe1df84e7f55a3511c696a0c6e",
   "login": "Jack-Works",
   "number": 2045,
   "ref": "generator",
   "revs": [
+   {
+    "adate": "2020-10-16T10:28:42+08:00",
+    "author": "Jack Works",
+    "date": "2020-10-16T10:28:42+08:00",
+    "hash": "fe0f458d02c3fafe1df84e7f55a3511c696a0c6e",
+    "parents": "2b87a34f77811f742ccf5a036505bfdb345f044f",
+    "subject": "fix bug"
+   },
+   {
+    "adate": "2020-10-16T10:15:30+08:00",
+    "author": "Jack Works",
+    "date": "2020-10-16T10:15:30+08:00",
+    "hash": "2b87a34f77811f742ccf5a036505bfdb345f044f",
+    "parents": "4b9a936700f36db7fbd630daeda504d9b3eee918",
+    "subject": "resolve review"
+   },
    {
     "adate": "2020-10-15T13:04:17+08:00",
     "author": "Jack Works",
@@ -1509,7 +1469,7 @@
    }
   ],
   "title": "Editorial: Add Yield, CreateIteratorFromClosure, CreateAsyncIteratorFromClosure abs op.",
-  "updated_at": "2020-10-15T05:05:59Z"
+  "updated_at": "2020-10-16T02:30:26Z"
  },
  {
   "base": "56032d3271949f2892745d4a8e06d1322ba7220d",
