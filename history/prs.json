@@ -854,11 +854,19 @@
  {
   "base": "f2eb02248838e3482fbb7f02a2a1455c029efa0c",
   "created_at": "2020-06-14T06:21:06Z",
-  "head": "5e0c3776aef5e027b77d91d8981abc7d22b02c95",
+  "head": "fd1eec2a92898c4989d8b7be00e69a448b532dab",
   "login": "Jack-Works",
   "number": 2045,
   "ref": "generator",
   "revs": [
+   {
+    "adate": "2020-10-17T10:24:07+08:00",
+    "author": "Jack Works",
+    "date": "2020-10-17T10:24:07+08:00",
+    "hash": "fd1eec2a92898c4989d8b7be00e69a448b532dab",
+    "parents": "5e0c3776aef5e027b77d91d8981abc7d22b02c95",
+    "subject": "resolve review"
+   },
    {
     "adate": "2020-10-16T23:13:39+08:00",
     "author": "Jack Works",
@@ -1493,7 +1501,7 @@
    }
   ],
   "title": "Editorial: Add Yield, CreateIteratorFromClosure, CreateAsyncIteratorFromClosure abs op.",
-  "updated_at": "2020-10-16T15:15:23Z"
+  "updated_at": "2020-10-17T02:25:52Z"
  },
  {
   "base": "56032d3271949f2892745d4a8e06d1322ba7220d",
@@ -1832,32 +1840,32 @@
   "updated_at": "2020-03-27T07:01:17Z"
  },
  {
-  "base": "0b988b7700de675331ac360d164c978d6ea452ec",
+  "base": "096f30b7c7ee7b12f6907bb5760496711c29b66f",
   "created_at": "2020-02-09T02:20:19Z",
-  "head": "81800b3be1eb9a302e832c04c1551f584453bad6",
+  "head": "6186f0d7285b153e4abe86ebd15488e961ed9190",
   "login": "jmdyck",
   "number": 1867,
   "ref": "make_B_literals_normative",
   "revs": [
    {
-    "adate": "2019-08-02T23:36:08-04:00",
+    "adate": "2020-10-16T16:33:56-04:00",
     "author": "Michael Dyck",
-    "date": "2020-04-25T14:50:49-04:00",
-    "hash": "81800b3be1eb9a302e832c04c1551f584453bad6",
-    "parents": "1d1cc707a12d9025c0b06af6d10c4864a4b2d312",
+    "date": "2020-10-16T22:04:41-04:00",
+    "hash": "6186f0d7285b153e4abe86ebd15488e961ed9190",
+    "parents": "e21f0b4274a2a2c4c8053ffbccedceacc37cb994",
     "subject": "Normative: Make B.1.2 \"String Literals\" normative."
    },
    {
     "adate": "2019-07-31T08:33:51-04:00",
     "author": "Michael Dyck",
-    "date": "2020-04-25T14:35:32-04:00",
-    "hash": "1d1cc707a12d9025c0b06af6d10c4864a4b2d312",
-    "parents": "0b988b7700de675331ac360d164c978d6ea452ec",
+    "date": "2020-10-16T17:34:00-04:00",
+    "hash": "e21f0b4274a2a2c4c8053ffbccedceacc37cb994",
+    "parents": "096f30b7c7ee7b12f6907bb5760496711c29b66f",
     "subject": "Normative: Make B.1.1 \"Numeric Literals\" normative."
    }
   ],
   "title": "Normative: Make B.1.{1,2} normative",
-  "updated_at": "2020-04-25T18:59:34Z"
+  "updated_at": "2020-10-17T02:29:49Z"
  },
  {
   "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
