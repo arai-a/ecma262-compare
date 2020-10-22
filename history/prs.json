@@ -1,6 +1,26 @@
 [
  {
   "base": "096f30b7c7ee7b12f6907bb5760496711c29b66f",
+  "created_at": "2020-10-22T21:52:43Z",
+  "head": "caf1545e8fd9d63e6232e82ede8e9fc1a7c4e70c",
+  "login": "syg",
+  "number": 2211,
+  "ref": "get-super-constructor-check",
+  "revs": [
+   {
+    "adate": "2020-10-22T14:30:51-07:00",
+    "author": "Shu-yu Guo",
+    "date": "2020-10-22T14:30:51-07:00",
+    "hash": "caf1545e8fd9d63e6232e82ede8e9fc1a7c4e70c",
+    "parents": "096f30b7c7ee7b12f6907bb5760496711c29b66f",
+    "subject": "Editorial: Move and fold the super constructor check into GetSuperConstructor"
+   }
+  ],
+  "title": "Editorial: Move and fold the super constructor check into GetSuperConstructor",
+  "updated_at": "2020-10-22T21:52:43Z"
+ },
+ {
+  "base": "096f30b7c7ee7b12f6907bb5760496711c29b66f",
   "created_at": "2020-10-21T01:23:08Z",
   "head": "f5e7bb9d2aa6d403e9dda36e881598f2ce94698b",
   "login": "rkirsling",
