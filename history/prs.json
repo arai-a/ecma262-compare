@@ -1,6 +1,26 @@
 [
  {
   "base": "096f30b7c7ee7b12f6907bb5760496711c29b66f",
+  "created_at": "2020-10-27T08:54:28Z",
+  "head": "53e67383c9c73283293b573150cd3947d326b162",
+  "login": "codehag",
+  "number": 2215,
+  "ref": "missing-css-normative-optional",
+  "revs": [
+   {
+    "adate": "2020-10-27T09:50:49+01:00",
+    "author": "codehag",
+    "date": "2020-10-27T09:50:49+01:00",
+    "hash": "53e67383c9c73283293b573150cd3947d326b162",
+    "parents": "096f30b7c7ee7b12f6907bb5760496711c29b66f",
+    "subject": "fixes #2214 - add normative optional styling css override"
+   }
+  ],
+  "title": "fixes #2214 - add missing normative optional styling css override",
+  "updated_at": "2020-10-27T08:54:28Z"
+ },
+ {
+  "base": "096f30b7c7ee7b12f6907bb5760496711c29b66f",
   "created_at": "2020-10-27T01:21:58Z",
   "head": "5fe0d486fc5dc3e6ed83d6d14f475c6a91f18352",
   "login": "syg",
