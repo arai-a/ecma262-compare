@@ -1,6 +1,26 @@
 [
  {
   "base": "096f30b7c7ee7b12f6907bb5760496711c29b66f",
+  "created_at": "2020-10-27T19:18:53Z",
+  "head": "a199c874864583d13d2e587180ae63c90fce6236",
+  "login": "devsnek",
+  "number": 2216,
+  "ref": "default-constructor-refactor",
+  "revs": [
+   {
+    "adate": "2020-10-27T14:18:24-05:00",
+    "author": "Gus Caplan",
+    "date": "2020-10-27T14:18:24-05:00",
+    "hash": "a199c874864583d13d2e587180ae63c90fce6236",
+    "parents": "096f30b7c7ee7b12f6907bb5760496711c29b66f",
+    "subject": "Normative: Define default constructors using spec steps"
+   }
+  ],
+  "title": "Normative: Define default constructors using spec steps",
+  "updated_at": "2020-10-27T19:36:57Z"
+ },
+ {
+  "base": "096f30b7c7ee7b12f6907bb5760496711c29b66f",
   "created_at": "2020-10-27T08:54:28Z",
   "head": "53e67383c9c73283293b573150cd3947d326b162",
   "login": "codehag",
