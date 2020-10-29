@@ -2,11 +2,19 @@
  {
   "base": "35a7d357993d1faaf672fb543ca2b0b604af45a9",
   "created_at": "2020-10-29T16:59:32Z",
-  "head": "6cc48a0e46e7f92dcdf8b8a593da092c591a7b59",
+  "head": "b8297bf331914e5f45cb7af92e3fb363b2799952",
   "login": "tc39",
   "number": 2218,
   "ref": "if-then",
   "revs": [
+   {
+    "adate": "2020-10-29T09:59:57-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-10-29T09:59:57-07:00",
+    "hash": "b8297bf331914e5f45cb7af92e3fb363b2799952",
+    "parents": "6cc48a0e46e7f92dcdf8b8a593da092c591a7b59",
+    "subject": "Editorial: consistency for single-line \"if\" algorithm steps"
+   },
    {
     "adate": "2020-10-29T09:54:36-07:00",
     "author": "Kevin Gibbons",
@@ -17,7 +25,7 @@
    }
   ],
   "title": "Editorial: consistency for single-line \"if\" algorithm steps",
-  "updated_at": "2020-10-29T17:03:33Z"
+  "updated_at": "2020-10-29T20:03:19Z"
  },
  {
   "base": "096f30b7c7ee7b12f6907bb5760496711c29b66f",
