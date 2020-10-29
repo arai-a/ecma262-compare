@@ -1,5 +1,25 @@
 [
  {
+  "base": "35a7d357993d1faaf672fb543ca2b0b604af45a9",
+  "created_at": "2020-10-29T16:59:32Z",
+  "head": "6cc48a0e46e7f92dcdf8b8a593da092c591a7b59",
+  "login": "tc39",
+  "number": 2218,
+  "ref": "if-then",
+  "revs": [
+   {
+    "adate": "2020-10-29T09:54:36-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-10-29T09:54:36-07:00",
+    "hash": "6cc48a0e46e7f92dcdf8b8a593da092c591a7b59",
+    "parents": "35a7d357993d1faaf672fb543ca2b0b604af45a9",
+    "subject": "Meta: bump ecmarkup to 4.2.1"
+   }
+  ],
+  "title": "Editorial: consistency for single-line \"if\" algorithm steps",
+  "updated_at": "2020-10-29T17:03:33Z"
+ },
+ {
   "base": "096f30b7c7ee7b12f6907bb5760496711c29b66f",
   "created_at": "2020-10-27T19:18:53Z",
   "head": "beee2f7bc01e014867cb2bfd61aa5653076b12bf",
@@ -746,26 +766,6 @@
   ],
   "title": "Normative: Add\u00a0`import.meta[Symbol.toStringTag]`",
   "updated_at": "2020-09-08T12:19:20Z"
- },
- {
-  "base": "096f30b7c7ee7b12f6907bb5760496711c29b66f",
-  "created_at": "2020-07-08T16:43:39Z",
-  "head": "35a7d357993d1faaf672fb543ca2b0b604af45a9",
-  "login": "shvaikalesh",
-  "number": 2085,
-  "ref": "reference-as-record",
-  "revs": [
-   {
-    "adate": "2020-10-28T15:41:52-07:00",
-    "author": "Alexey Shvayka",
-    "date": "2020-10-28T15:41:52-07:00",
-    "hash": "35a7d357993d1faaf672fb543ca2b0b604af45a9",
-    "parents": "096f30b7c7ee7b12f6907bb5760496711c29b66f",
-    "subject": "Editorial: Make Reference type a Record value (#2085)"
-   }
-  ],
-  "title": "Editorial: Make Reference type a Record value",
-  "updated_at": "2020-10-28T22:45:36Z"
  },
  {
   "base": "096f30b7c7ee7b12f6907bb5760496711c29b66f",
