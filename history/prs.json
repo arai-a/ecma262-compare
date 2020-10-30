@@ -2,11 +2,19 @@
  {
   "base": "a18acef2559a6f159047ca6fc0f3dd932231fefc",
   "created_at": "2020-10-30T01:30:18Z",
-  "head": "ee71702b0e7b9272f9dabad41475201394543f1f",
+  "head": "a42f54c299673e1c8c91b50ab1d007a942a513a2",
   "login": "chicoxyzzy",
   "number": 2219,
   "ref": "promise_all_promise_any_simplification",
   "revs": [
+   {
+    "adate": "2020-10-31T00:09:50+03:00",
+    "author": "chicoxyzzy",
+    "date": "2020-10-31T00:09:50+03:00",
+    "hash": "a42f54c299673e1c8c91b50ab1d007a942a513a2",
+    "parents": "ee71702b0e7b9272f9dabad41475201394543f1f",
+    "subject": "delete forgotten dot"
+   },
    {
     "adate": "2020-10-30T04:24:49+03:00",
     "author": "chicoxyzzy",
@@ -17,7 +25,7 @@
    }
   ],
   "title": "Editorial: Simplify Promise.all and Promise.any",
-  "updated_at": "2020-10-30T10:21:12Z"
+  "updated_at": "2020-10-30T21:10:08Z"
  },
  {
   "base": "096f30b7c7ee7b12f6907bb5760496711c29b66f",
