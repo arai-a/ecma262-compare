@@ -1,8 +1,8 @@
 [
  {
-  "base": "35a7d357993d1faaf672fb543ca2b0b604af45a9",
+  "base": "a18acef2559a6f159047ca6fc0f3dd932231fefc",
   "created_at": "2020-10-30T01:30:18Z",
-  "head": "71dcc0c79e72fdac1eda9422af214841834dd59f",
+  "head": "ee71702b0e7b9272f9dabad41475201394543f1f",
   "login": "chicoxyzzy",
   "number": 2219,
   "ref": "promise_all_promise_any_simplification",
@@ -10,42 +10,14 @@
    {
     "adate": "2020-10-30T04:24:49+03:00",
     "author": "chicoxyzzy",
-    "date": "2020-10-30T04:24:49+03:00",
-    "hash": "71dcc0c79e72fdac1eda9422af214841834dd59f",
+    "date": "2020-10-30T13:20:43+03:00",
+    "hash": "ee71702b0e7b9272f9dabad41475201394543f1f",
     "parents": "35a7d357993d1faaf672fb543ca2b0b604af45a9",
-    "subject": "Normative: Simplify Promise.all and Promise.any"
+    "subject": "Editorial: Simplify Promise.all and Promise.any"
    }
   ],
-  "title": "Normative: Simplify Promise.all and Promise.any",
-  "updated_at": "2020-10-30T01:32:59Z"
- },
- {
-  "base": "35a7d357993d1faaf672fb543ca2b0b604af45a9",
-  "created_at": "2020-10-29T16:59:32Z",
-  "head": "a18acef2559a6f159047ca6fc0f3dd932231fefc",
-  "login": "tc39",
-  "number": 2218,
-  "ref": "if-then",
-  "revs": [
-   {
-    "adate": "2020-10-29T15:19:41-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2020-10-29T15:19:41-07:00",
-    "hash": "a18acef2559a6f159047ca6fc0f3dd932231fefc",
-    "parents": "015b315d10d3e1078504a7e1eaf15dc4c0c234f9",
-    "subject": "Meta: bump ecmarkup to 4.2.1 (#2218)"
-   },
-   {
-    "adate": "2020-10-29T15:19:39-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2020-10-29T15:19:39-07:00",
-    "hash": "015b315d10d3e1078504a7e1eaf15dc4c0c234f9",
-    "parents": "35a7d357993d1faaf672fb543ca2b0b604af45a9",
-    "subject": "Editorial: consistency for single-line \"if\" algorithm steps (#2218)"
-   }
-  ],
-  "title": "Editorial: consistency for single-line \"if\" algorithm steps",
-  "updated_at": "2020-10-29T22:20:08Z"
+  "title": "Editorial: Simplify Promise.all and Promise.any",
+  "updated_at": "2020-10-30T10:21:12Z"
  },
  {
   "base": "096f30b7c7ee7b12f6907bb5760496711c29b66f",
