@@ -37,34 +37,6 @@
  },
  {
   "base": "a18acef2559a6f159047ca6fc0f3dd932231fefc",
-  "created_at": "2020-11-02T15:20:15Z",
-  "head": "5657da428e8c74c0ec6025b1b606b1020303a0fc",
-  "login": "tc39",
-  "number": 2220,
-  "ref": "get-ref-name",
-  "revs": [
-   {
-    "adate": "2020-11-03T13:44:29-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2020-11-03T13:44:29-08:00",
-    "hash": "5657da428e8c74c0ec6025b1b606b1020303a0fc",
-    "parents": "06cda1b9777447b767c9c3127cf8695723e6143d",
-    "subject": "Editorial: add oldid for \"super-reference\" (#2220)"
-   },
-   {
-    "adate": "2020-11-03T13:44:28-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2020-11-03T13:44:28-08:00",
-    "hash": "06cda1b9777447b767c9c3127cf8695723e6143d",
-    "parents": "a18acef2559a6f159047ca6fc0f3dd932231fefc",
-    "subject": "Editorial: replace a few stray GetReferencedName invocations (#2220)"
-   }
-  ],
-  "title": "Editorial: replace a few stray GetReferencedName invocations / re-define \"super-reference\"",
-  "updated_at": "2020-11-03T21:44:53Z"
- },
- {
-  "base": "a18acef2559a6f159047ca6fc0f3dd932231fefc",
   "created_at": "2020-10-30T01:30:18Z",
   "head": "a42f54c299673e1c8c91b50ab1d007a942a513a2",
   "login": "chicoxyzzy",
@@ -332,24 +304,24 @@
   "updated_at": "2020-10-05T15:02:31Z"
  },
  {
-  "base": "e4679d4ba196ab5e8959b44468d6a9feb848955c",
+  "base": "5657da428e8c74c0ec6025b1b606b1020303a0fc",
   "created_at": "2020-09-24T01:07:41Z",
-  "head": "51c12c7a9327d4ec0bde9e0d756657c02a1df6c9",
+  "head": "0b3a808af87a9123890767152a26599cc8fde161",
   "login": "jmdyck",
   "number": 2190,
   "ref": "ScriptOrModule",
   "revs": [
    {
-    "adate": "2020-09-23T21:00:31-04:00",
+    "adate": "2020-11-03T14:57:03-08:00",
     "author": "Michael Dyck",
-    "date": "2020-09-23T21:00:31-04:00",
-    "hash": "51c12c7a9327d4ec0bde9e0d756657c02a1df6c9",
-    "parents": "e4679d4ba196ab5e8959b44468d6a9feb848955c",
-    "subject": "Editorial: Drop [[ScriptOrModule]] slot for exotic built-ins"
+    "date": "2020-11-03T14:57:04-08:00",
+    "hash": "0b3a808af87a9123890767152a26599cc8fde161",
+    "parents": "5657da428e8c74c0ec6025b1b606b1020303a0fc",
+    "subject": "Editorial: Drop [[ScriptOrModule]] slot for exotic built-ins (#2190)"
    }
   ],
   "title": "Editorial: Drop [[ScriptOrModule]] slot for exotic built-ins",
-  "updated_at": "2020-09-24T04:26:15Z"
+  "updated_at": "2020-11-03T22:57:27Z"
  },
  {
   "base": "e4679d4ba196ab5e8959b44468d6a9feb848955c",
