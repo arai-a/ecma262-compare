@@ -2,11 +2,19 @@
  {
   "base": "a18acef2559a6f159047ca6fc0f3dd932231fefc",
   "created_at": "2020-11-03T00:20:44Z",
-  "head": "c571c1e11d6a737bb6eefe2bf297c340318201d5",
+  "head": "5302029993d25c84f917b55c0d385589b2cb6413",
   "login": "rkirsling",
   "number": 2221,
   "ref": "make-typed-array-methods-explicit",
   "revs": [
+   {
+    "adate": "2020-11-03T12:54:16-08:00",
+    "author": "Ross Kirsling",
+    "date": "2020-11-03T12:54:16-08:00",
+    "hash": "5302029993d25c84f917b55c0d385589b2cb6413",
+    "parents": "c571c1e11d6a737bb6eefe2bf297c340318201d5",
+    "subject": "Update indexOf / lastIndexOf."
+   },
    {
     "adate": "2020-11-03T12:14:23-08:00",
     "author": "Ross Kirsling",
@@ -24,8 +32,8 @@
     "subject": "Give %TypedArray% methods explicit algorithms."
    }
   ],
-  "title": "Give %TypedArray% methods explicit algorithms.",
-  "updated_at": "2020-11-03T20:14:35Z"
+  "title": "Normative: Give %TypedArray% methods explicit algorithms.",
+  "updated_at": "2020-11-03T20:54:28Z"
  },
  {
   "base": "a18acef2559a6f159047ca6fc0f3dd932231fefc",
