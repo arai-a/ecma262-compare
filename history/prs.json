@@ -38,30 +38,30 @@
  {
   "base": "a18acef2559a6f159047ca6fc0f3dd932231fefc",
   "created_at": "2020-11-02T15:20:15Z",
-  "head": "f978ea7657cca276a3f8bacd4f732ec90549e073",
+  "head": "5657da428e8c74c0ec6025b1b606b1020303a0fc",
   "login": "tc39",
   "number": 2220,
   "ref": "get-ref-name",
   "revs": [
    {
-    "adate": "2020-11-02T08:59:36-08:00",
+    "adate": "2020-11-03T13:44:29-08:00",
     "author": "Kevin Gibbons",
-    "date": "2020-11-02T08:59:36-08:00",
-    "hash": "f978ea7657cca276a3f8bacd4f732ec90549e073",
-    "parents": "60a3f0afc6f1792b0fd304078c3f92def7c361c5",
-    "subject": "Editorial: add oldid for \"super-reference\""
+    "date": "2020-11-03T13:44:29-08:00",
+    "hash": "5657da428e8c74c0ec6025b1b606b1020303a0fc",
+    "parents": "06cda1b9777447b767c9c3127cf8695723e6143d",
+    "subject": "Editorial: add oldid for \"super-reference\" (#2220)"
    },
    {
-    "adate": "2020-11-02T07:16:47-08:00",
+    "adate": "2020-11-03T13:44:28-08:00",
     "author": "Kevin Gibbons",
-    "date": "2020-11-02T07:16:47-08:00",
-    "hash": "60a3f0afc6f1792b0fd304078c3f92def7c361c5",
+    "date": "2020-11-03T13:44:28-08:00",
+    "hash": "06cda1b9777447b767c9c3127cf8695723e6143d",
     "parents": "a18acef2559a6f159047ca6fc0f3dd932231fefc",
-    "subject": "Editorial: replace a few stray GetReferencedName invocations"
+    "subject": "Editorial: replace a few stray GetReferencedName invocations (#2220)"
    }
   ],
   "title": "Editorial: replace a few stray GetReferencedName invocations / re-define \"super-reference\"",
-  "updated_at": "2020-11-02T17:02:26Z"
+  "updated_at": "2020-11-03T21:44:53Z"
  },
  {
   "base": "a18acef2559a6f159047ca6fc0f3dd932231fefc",
