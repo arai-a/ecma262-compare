@@ -224,26 +224,6 @@
   "updated_at": "2020-10-14T17:44:01Z"
  },
  {
-  "base": "0b3a808af87a9123890767152a26599cc8fde161",
-  "created_at": "2020-10-02T21:14:43Z",
-  "head": "aa1f4077730ae2826758de9034de7da6d5d620f8",
-  "login": "daemon1024",
-  "number": 2196,
-  "ref": "annex-b-ref",
-  "revs": [
-   {
-    "adate": "2020-11-04T14:23:28-08:00",
-    "author": "daemon1024",
-    "date": "2020-11-04T14:23:28-08:00",
-    "hash": "aa1f4077730ae2826758de9034de7da6d5d620f8",
-    "parents": "0b3a808af87a9123890767152a26599cc8fde161",
-    "subject": "Editorial: ref extended/modified steps/entries (#2196)"
-   }
-  ],
-  "title": "Editorial : ref extended/modified steps/entries",
-  "updated_at": "2020-11-04T22:25:49Z"
- },
- {
   "base": "b66ef2ca34ab2e5fbf03e9637b3fbb15ab510478",
   "created_at": "2020-09-25T16:42:33Z",
   "head": "4db99633b9dd07f468ea88b2a0323aedd6590e4b",
@@ -572,32 +552,24 @@
   "updated_at": "2020-08-16T03:40:58Z"
  },
  {
-  "base": "3750b81c637c58a2168495ccb62417adf196b5b4",
+  "base": "aa1f4077730ae2826758de9034de7da6d5d620f8",
   "created_at": "2020-08-10T06:01:26Z",
-  "head": "ba122bf05b7dca231440bb03f07a0f3742cb0faf",
+  "head": "889f2f30cf554b7ed812c0984626db1c8a4997c7",
   "login": "h2oche",
   "number": 2130,
   "ref": "prop-eval",
   "revs": [
    {
-    "adate": "2020-08-23T13:43:00-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2020-08-23T13:43:00-07:00",
-    "hash": "ba122bf05b7dca231440bb03f07a0f3742cb0faf",
-    "parents": "a96dbf5087040c25e64c7b01021f7a2d57feb2ad",
-    "subject": "add ? in Annex B also"
-   },
-   {
-    "adate": "2020-08-10T14:52:07+09:00",
+    "adate": "2020-11-04T15:06:46-08:00",
     "author": "h2oche",
-    "date": "2020-08-16T23:04:01-07:00",
-    "hash": "a96dbf5087040c25e64c7b01021f7a2d57feb2ad",
-    "parents": "3750b81c637c58a2168495ccb62417adf196b5b4",
+    "date": "2020-11-04T15:06:46-08:00",
+    "hash": "889f2f30cf554b7ed812c0984626db1c8a4997c7",
+    "parents": "aa1f4077730ae2826758de9034de7da6d5d620f8",
     "subject": "Editorial: Add missing ReturnIfAbrupt to NamedEvaluation steps of several algorithms (#2130)"
    }
   ],
   "title": "Editorial: Add missing ReturnIfAbrupt to PropertyDefinitionEvaluation",
-  "updated_at": "2020-08-23T20:53:30Z"
+  "updated_at": "2020-11-04T23:06:57Z"
  },
  {
   "base": "16c9901d48d8f79e83852dfe6f16d70390a221d1",
