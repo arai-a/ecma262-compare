@@ -224,56 +224,24 @@
   "updated_at": "2020-10-14T17:44:01Z"
  },
  {
-  "base": "b66ef2ca34ab2e5fbf03e9637b3fbb15ab510478",
+  "base": "0b3a808af87a9123890767152a26599cc8fde161",
   "created_at": "2020-10-02T21:14:43Z",
-  "head": "88ef981e3f598f17379f2a99c8bcb320e24ce639",
+  "head": "aa1f4077730ae2826758de9034de7da6d5d620f8",
   "login": "daemon1024",
   "number": 2196,
   "ref": "annex-b-ref",
   "revs": [
    {
-    "adate": "2020-10-06T18:38:33+00:00",
+    "adate": "2020-11-04T14:23:28-08:00",
     "author": "daemon1024",
-    "date": "2020-10-06T18:38:33+00:00",
-    "hash": "88ef981e3f598f17379f2a99c8bcb320e24ce639",
-    "parents": "aca8a861c2860cf0d6c7c32e3d7bfb1070a4c5e8",
-    "subject": "update spec.html"
-   },
-   {
-    "adate": "2020-10-06T15:46:20+05:30",
-    "author": "daemon1024",
-    "date": "2020-10-06T15:46:20+05:30",
-    "hash": "aca8a861c2860cf0d6c7c32e3d7bfb1070a4c5e8",
-    "parents": "f30149c7f423acbf4215cacb6694180e5b6741dc",
-    "subject": "update spec.html"
-   },
-   {
-    "adate": "2020-10-05T17:05:39+05:30",
-    "author": "daemon1024",
-    "date": "2020-10-05T17:05:39+05:30",
-    "hash": "f30149c7f423acbf4215cacb6694180e5b6741dc",
-    "parents": "48de16f518eb82b5eb509730922672fe16c6fc11",
-    "subject": "update spec.html b.3.7.2 b.3.3.6"
-   },
-   {
-    "adate": "2020-10-03T14:41:30+05:30",
-    "author": "daemon1024",
-    "date": "2020-10-03T14:43:36+05:30",
-    "hash": "48de16f518eb82b5eb509730922672fe16c6fc11",
-    "parents": "3de8fb601206d5eb62b785b97df90a0101cbf4e5",
-    "subject": "fixes as suggested in reviews"
-   },
-   {
-    "adate": "2020-10-02T21:10:32+00:00",
-    "author": "daemon1024",
-    "date": "2020-10-02T21:10:32+00:00",
-    "hash": "3de8fb601206d5eb62b785b97df90a0101cbf4e5",
-    "parents": "16c9901d48d8f79e83852dfe6f16d70390a221d1",
-    "subject": "Editorial : ref extended/modified steps/entries"
+    "date": "2020-11-04T14:23:28-08:00",
+    "hash": "aa1f4077730ae2826758de9034de7da6d5d620f8",
+    "parents": "0b3a808af87a9123890767152a26599cc8fde161",
+    "subject": "Editorial: ref extended/modified steps/entries (#2196)"
    }
   ],
   "title": "Editorial : ref extended/modified steps/entries",
-  "updated_at": "2020-10-06T18:48:59Z"
+  "updated_at": "2020-11-04T22:25:49Z"
  },
  {
   "base": "b66ef2ca34ab2e5fbf03e9637b3fbb15ab510478",
@@ -302,26 +270,6 @@
   ],
   "title": "Normative: new Annex B.3 clause to specify \"AssignmentTargetType of LeftHandSideExpression : CallExpression\" web reality.",
   "updated_at": "2020-10-05T15:02:31Z"
- },
- {
-  "base": "5657da428e8c74c0ec6025b1b606b1020303a0fc",
-  "created_at": "2020-09-24T01:07:41Z",
-  "head": "0b3a808af87a9123890767152a26599cc8fde161",
-  "login": "jmdyck",
-  "number": 2190,
-  "ref": "ScriptOrModule",
-  "revs": [
-   {
-    "adate": "2020-11-03T14:57:03-08:00",
-    "author": "Michael Dyck",
-    "date": "2020-11-03T14:57:04-08:00",
-    "hash": "0b3a808af87a9123890767152a26599cc8fde161",
-    "parents": "5657da428e8c74c0ec6025b1b606b1020303a0fc",
-    "subject": "Editorial: Drop [[ScriptOrModule]] slot for exotic built-ins (#2190)"
-   }
-  ],
-  "title": "Editorial: Drop [[ScriptOrModule]] slot for exotic built-ins",
-  "updated_at": "2020-11-03T22:57:27Z"
  },
  {
   "base": "e4679d4ba196ab5e8959b44468d6a9feb848955c",
