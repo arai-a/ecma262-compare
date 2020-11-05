@@ -1,5 +1,33 @@
 [
  {
+  "base": "889f2f30cf554b7ed812c0984626db1c8a4997c7",
+  "created_at": "2020-11-05T16:43:18Z",
+  "head": "8d8480f95eb2b434e421d0e29bf20c4ab33e0e45",
+  "login": "jmdyck",
+  "number": 2223,
+  "ref": "editorial",
+  "revs": [
+   {
+    "adate": "2020-11-05T11:30:18-05:00",
+    "author": "Michael Dyck",
+    "date": "2020-11-05T11:40:17-05:00",
+    "hash": "8d8480f95eb2b434e421d0e29bf20c4ab33e0e45",
+    "parents": "9e4cdaf5a768482825c2b8b239737afe0350e3a4",
+    "subject": "Markup: De-indent <emu-note>"
+   },
+   {
+    "adate": "2020-11-05T11:27:31-05:00",
+    "author": "Michael Dyck",
+    "date": "2020-11-05T11:40:17-05:00",
+    "hash": "9e4cdaf5a768482825c2b8b239737afe0350e3a4",
+    "parents": "889f2f30cf554b7ed812c0984626db1c8a4997c7",
+    "subject": "Markup: Move <emu-note> to outside <emu-table>"
+   }
+  ],
+  "title": "Markup: Quick fixes for recent merge",
+  "updated_at": "2020-11-05T16:43:18Z"
+ },
+ {
   "base": "a18acef2559a6f159047ca6fc0f3dd932231fefc",
   "created_at": "2020-11-03T00:20:44Z",
   "head": "5302029993d25c84f917b55c0d385589b2cb6413",
@@ -550,26 +578,6 @@
   ],
   "title": "Editorial: Use consistent \"...generally do not look into function definitions\" language",
   "updated_at": "2020-08-16T03:40:58Z"
- },
- {
-  "base": "aa1f4077730ae2826758de9034de7da6d5d620f8",
-  "created_at": "2020-08-10T06:01:26Z",
-  "head": "889f2f30cf554b7ed812c0984626db1c8a4997c7",
-  "login": "h2oche",
-  "number": 2130,
-  "ref": "prop-eval",
-  "revs": [
-   {
-    "adate": "2020-11-04T15:06:46-08:00",
-    "author": "h2oche",
-    "date": "2020-11-04T15:06:46-08:00",
-    "hash": "889f2f30cf554b7ed812c0984626db1c8a4997c7",
-    "parents": "aa1f4077730ae2826758de9034de7da6d5d620f8",
-    "subject": "Editorial: Add missing ReturnIfAbrupt to NamedEvaluation steps of several algorithms (#2130)"
-   }
-  ],
-  "title": "Editorial: Add missing ReturnIfAbrupt to PropertyDefinitionEvaluation",
-  "updated_at": "2020-11-04T23:06:57Z"
  },
  {
   "base": "16c9901d48d8f79e83852dfe6f16d70390a221d1",
