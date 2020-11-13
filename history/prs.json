@@ -1,6 +1,26 @@
 [
  {
   "base": "889f2f30cf554b7ed812c0984626db1c8a4997c7",
+  "created_at": "2020-11-13T02:40:10Z",
+  "head": "d94cdc3f3cac163f3cd96c14ca1d675842c4bafc",
+  "login": "tc39",
+  "number": 2227,
+  "ref": "lookahead-pedantry",
+  "revs": [
+   {
+    "adate": "2020-11-12T18:35:02-08:00",
+    "author": "Michael Ficarra",
+    "date": "2020-11-12T18:35:02-08:00",
+    "hash": "d94cdc3f3cac163f3cd96c14ca1d675842c4bafc",
+    "parents": "889f2f30cf554b7ed812c0984626db1c8a4997c7",
+    "subject": "Editorial: define how lookahead restrictions work at EOF"
+   }
+  ],
+  "title": "Editorial: define how lookahead restrictions work at EOF",
+  "updated_at": "2020-11-13T02:40:10Z"
+ },
+ {
+  "base": "889f2f30cf554b7ed812c0984626db1c8a4997c7",
   "created_at": "2020-11-10T20:29:01Z",
   "head": "35db2e7e72f29fa51dce9662054ec552ca5a10ee",
   "login": "chicoxyzzy",
