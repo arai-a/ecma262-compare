@@ -1,6 +1,26 @@
 [
  {
   "base": "889f2f30cf554b7ed812c0984626db1c8a4997c7",
+  "created_at": "2020-11-23T18:30:52Z",
+  "head": "a565dc60c3fff764fd3e5bf3f167fc84de362d1c",
+  "login": "tc39",
+  "number": 2232,
+  "ref": "bump-emu",
+  "revs": [
+   {
+    "adate": "2020-11-23T10:30:02-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-11-23T10:30:02-08:00",
+    "hash": "a565dc60c3fff764fd3e5bf3f167fc84de362d1c",
+    "parents": "889f2f30cf554b7ed812c0984626db1c8a4997c7",
+    "subject": "Meta: bump ecmarkup to 4.2.2"
+   }
+  ],
+  "title": "Meta: bump ecmarkup to 4.2.2",
+  "updated_at": "2020-11-23T18:30:52Z"
+ },
+ {
+  "base": "889f2f30cf554b7ed812c0984626db1c8a4997c7",
   "created_at": "2020-11-18T15:26:27Z",
   "head": "10610be2bb6598acc8ee3e60514db5ec05c7056f",
   "login": "jmdyck",
