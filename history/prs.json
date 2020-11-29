@@ -1876,9 +1876,9 @@
   "updated_at": "2020-05-02T09:06:12Z"
  },
  {
-  "base": "980e1ccf1d37a3c890dc5fe5a36275710459c122",
+  "base": "9cf4aa2aebe40ab3481de3b13367158d64ef2d05",
   "created_at": "2020-04-06T14:04:14Z",
-  "head": "5170a92151ddd0699e500a69e9370df33c2fb212",
+  "head": "a01604d6965e32c21c230df04fa9e23607b42ad0",
   "login": "jorendorff",
   "number": 1937,
   "ref": "rm-env-home-object",
@@ -1886,22 +1886,14 @@
    {
     "adate": "2020-04-06T08:55:33-05:00",
     "author": "Jason Orendorff",
-    "date": "2020-04-06T08:55:33-05:00",
-    "hash": "5170a92151ddd0699e500a69e9370df33c2fb212",
-    "parents": "7ddca3ae151fea7f0994c98ef027cc12c7e98735",
-    "subject": "Editorial: Remove [[HomeObject]] from function Environments. (#1358)"
-   },
-   {
-    "adate": "2020-04-06T08:43:58-05:00",
-    "author": "Jason Orendorff",
-    "date": "2020-04-06T08:54:42-05:00",
-    "hash": "7ddca3ae151fea7f0994c98ef027cc12c7e98735",
-    "parents": "980e1ccf1d37a3c890dc5fe5a36275710459c122",
-    "subject": "Editorial: Update table of function Environment Record methods."
+    "date": "2020-11-28T18:49:23-08:00",
+    "hash": "a01604d6965e32c21c230df04fa9e23607b42ad0",
+    "parents": "9cf4aa2aebe40ab3481de3b13367158d64ef2d05",
+    "subject": "Editorial: Remove [[HomeObject]] from function Environments."
    }
   ],
   "title": "Editorial: Remove [[HomeObject]] from function Environments",
-  "updated_at": "2020-05-10T05:18:08Z"
+  "updated_at": "2020-11-29T02:52:18Z"
  },
  {
   "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
