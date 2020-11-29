@@ -1596,9 +1596,9 @@
   "updated_at": "2020-07-19T18:42:39Z"
  },
  {
-  "base": "f2eb02248838e3482fbb7f02a2a1455c029efa0c",
+  "base": "9cf4aa2aebe40ab3481de3b13367158d64ef2d05",
   "created_at": "2020-05-29T02:13:37Z",
-  "head": "475cd0be54dce443ce293bc6c8f6fad9679b2aaf",
+  "head": "4c2d292bde74395193db056400c52e74890abb09",
   "login": "jmdyck",
   "number": 2018,
   "ref": "sequence-of-code-units",
@@ -1606,62 +1606,62 @@
    {
     "adate": "2020-09-17T20:38:25-04:00",
     "author": "Michael Dyck",
-    "date": "2020-10-15T12:02:50-04:00",
-    "hash": "475cd0be54dce443ce293bc6c8f6fad9679b2aaf",
-    "parents": "6331e50400d9515e5962b4cafaf5b41e1fb1cf2c",
+    "date": "2020-11-29T00:08:54-05:00",
+    "hash": "4c2d292bde74395193db056400c52e74890abb09",
+    "parents": "b96c63dfd4707fe8548f2e988ee1d616e0be03b2",
     "subject": "Editorial: Explictly 'convert' numeric value to code unit"
    },
    {
     "adate": "2020-09-17T20:30:56-04:00",
     "author": "Michael Dyck",
-    "date": "2020-10-15T12:02:50-04:00",
-    "hash": "6331e50400d9515e5962b4cafaf5b41e1fb1cf2c",
-    "parents": "aa86e594f2d02b75b5a5f108f975eef799067f0b",
-    "subject": "Editorial: Rename CodePointToUTF16CodeUnits to CodePointToString"
+    "date": "2020-11-29T00:08:22-05:00",
+    "hash": "b96c63dfd4707fe8548f2e988ee1d616e0be03b2",
+    "parents": "5069cbd1b1e5156c411cb9cb74318031fc7d6ef8",
+    "subject": "Editorial: Rename CodePointToUTF16CodeUnits to UTF16EncodeCodePoint"
    },
    {
     "adate": "2020-05-28T21:39:56-04:00",
     "author": "Michael Dyck",
-    "date": "2020-10-15T12:02:50-04:00",
-    "hash": "aa86e594f2d02b75b5a5f108f975eef799067f0b",
-    "parents": "909b224c9b8a940ef821084e649fe977e575bf86",
+    "date": "2020-11-28T23:29:30-05:00",
+    "hash": "5069cbd1b1e5156c411cb9cb74318031fc7d6ef8",
+    "parents": "7d2ad54bf74f4ca29f3432c6c16cbba341155f23",
     "subject": "Editorial: Have SV, TV, TRV, and CodePointToUTF16CodeUnits return a String"
    },
    {
     "adate": "2020-05-28T21:02:17-04:00",
     "author": "Michael Dyck",
-    "date": "2020-10-15T12:02:50-04:00",
-    "hash": "909b224c9b8a940ef821084e649fe977e575bf86",
-    "parents": "f6a80391d7391af5aeba23bfb1bcabc75610527a",
+    "date": "2020-11-28T23:29:30-05:00",
+    "hash": "7d2ad54bf74f4ca29f3432c6c16cbba341155f23",
+    "parents": "5e4d27718493fe6ccf89c225f0798fb3eae1eb7e",
     "subject": "Editorial: Use MV of Hex4Digits rather than SV"
    },
    {
     "adate": "2020-05-28T20:56:59-04:00",
     "author": "Michael Dyck",
-    "date": "2020-10-15T12:02:50-04:00",
-    "hash": "f6a80391d7391af5aeba23bfb1bcabc75610527a",
-    "parents": "4af97056f01888df5cb6183a92a2f602709900d9",
+    "date": "2020-11-28T23:29:30-05:00",
+    "hash": "5e4d27718493fe6ccf89c225f0798fb3eae1eb7e",
+    "parents": "cbf6216b3e0a7c16984abd9abd7e295a9d8db87a",
     "subject": "Editorial: Introduce MV of HexEscapeSequence"
    },
    {
     "adate": "2020-05-28T20:46:03-04:00",
     "author": "Michael Dyck",
-    "date": "2020-10-15T10:49:50-04:00",
-    "hash": "4af97056f01888df5cb6183a92a2f602709900d9",
-    "parents": "9dabc1e17a6de11691191ccd192e7875794f790f",
+    "date": "2020-11-28T23:29:30-05:00",
+    "hash": "cbf6216b3e0a7c16984abd9abd7e295a9d8db87a",
+    "parents": "0b140c714f209b763889d78cff8e77829dda4b45",
     "subject": "Editorial: Introduce MV of LegacyOctalEscapeSequence"
    },
    {
     "adate": "2020-05-28T20:34:53-04:00",
     "author": "Michael Dyck",
-    "date": "2020-10-15T10:49:50-04:00",
-    "hash": "9dabc1e17a6de11691191ccd192e7875794f790f",
-    "parents": "f2eb02248838e3482fbb7f02a2a1455c029efa0c",
+    "date": "2020-11-28T23:29:30-05:00",
+    "hash": "0b140c714f209b763889d78cff8e77829dda4b45",
+    "parents": "9cf4aa2aebe40ab3481de3b13367158d64ef2d05",
     "subject": "Editorial: Delete 2 chain rules for SV"
    }
   ],
   "title": "Editorial: Have SV, TV, TRV, and CodePointToUTF16CodeUnits return a String rather than a sequence of code units",
-  "updated_at": "2020-10-15T16:05:54Z"
+  "updated_at": "2020-11-29T05:12:58Z"
  },
  {
   "base": "b1afdde728b3af88d01da85833f3672ad442d24e",
