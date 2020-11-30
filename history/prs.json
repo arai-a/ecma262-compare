@@ -1,6 +1,26 @@
 [
  {
   "base": "d5948f7bf2a445ccd0a14ac9b06e57dcee397ed7",
+  "created_at": "2020-11-30T22:13:02Z",
+  "head": "3e5f76e37e2bafd8d570bdd77118e888def31d53",
+  "login": "tc39",
+  "number": 2238,
+  "ref": "findindex-f",
+  "revs": [
+   {
+    "adate": "2020-11-30T14:09:49-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-11-30T14:11:07-08:00",
+    "hash": "3e5f76e37e2bafd8d570bdd77118e888def31d53",
+    "parents": "d5948f7bf2a445ccd0a14ac9b06e57dcee397ed7",
+    "subject": "Editorial: fix number types in Array.prototype.findIndex / RegExp.prototype[Symbol.search]"
+   }
+  ],
+  "title": "Editorial: fix number types in Array.prototype.findIndex / RegExp.prototype[Symbol.search]",
+  "updated_at": "2020-11-30T22:13:55Z"
+ },
+ {
+  "base": "d5948f7bf2a445ccd0a14ac9b06e57dcee397ed7",
   "created_at": "2020-11-30T19:57:45Z",
   "head": "a32217697aecf50fc6a3e2e45bf1ad9ffc2f047e",
   "login": "tc39",
