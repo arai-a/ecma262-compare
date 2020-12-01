@@ -2,11 +2,19 @@
  {
   "base": "d5948f7bf2a445ccd0a14ac9b06e57dcee397ed7",
   "created_at": "2020-11-30T22:13:02Z",
-  "head": "3e5f76e37e2bafd8d570bdd77118e888def31d53",
+  "head": "0b689e3fdcb0b3f44b018151d67bac4c48097b9f",
   "login": "tc39",
   "number": 2238,
   "ref": "findindex-f",
   "revs": [
+   {
+    "adate": "2020-11-30T18:16:09-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-11-30T18:16:09-08:00",
+    "hash": "0b689e3fdcb0b3f44b018151d67bac4c48097b9f",
+    "parents": "3e5f76e37e2bafd8d570bdd77118e888def31d53",
+    "subject": "also M.p.size and S.p.size"
+   },
    {
     "adate": "2020-11-30T14:09:49-08:00",
     "author": "Kevin Gibbons",
@@ -16,8 +24,8 @@
     "subject": "Editorial: fix number types in Array.prototype.findIndex / RegExp.prototype[Symbol.search]"
    }
   ],
-  "title": "Editorial: fix number types in Array.prototype.findIndex / RegExp.prototype[Symbol.search]",
-  "updated_at": "2020-11-30T22:13:55Z"
+  "title": "Editorial: fix number types in Array.prototype.findIndex / RegExp.prototype[Symbol.search] / {Map,Set}.prototype.size",
+  "updated_at": "2020-12-01T02:17:51Z"
  },
  {
   "base": "d5948f7bf2a445ccd0a14ac9b06e57dcee397ed7",
