@@ -56,26 +56,6 @@
   "updated_at": "2020-12-01T02:17:51Z"
  },
  {
-  "base": "d5948f7bf2a445ccd0a14ac9b06e57dcee397ed7",
-  "created_at": "2020-11-30T19:57:45Z",
-  "head": "b33fbee709951243ff9750ec93e16ae72377d568",
-  "login": "tc39",
-  "number": 2237,
-  "ref": "bump-ecmarkup",
-  "revs": [
-   {
-    "adate": "2020-11-30T22:12:13-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2020-11-30T22:12:13-08:00",
-    "hash": "b33fbee709951243ff9750ec93e16ae72377d568",
-    "parents": "d5948f7bf2a445ccd0a14ac9b06e57dcee397ed7",
-    "subject": "Meta: bump ecmarkup to 4.2.3 (#2237)"
-   }
-  ],
-  "title": "Meta: bump ecmarkup to 4.2.3",
-  "updated_at": "2020-12-01T06:12:28Z"
- },
- {
   "base": "9cf4aa2aebe40ab3481de3b13367158d64ef2d05",
   "created_at": "2020-11-29T03:30:17Z",
   "head": "860ebf54f856f4f9b8ea6074a153c5ff17313772",
@@ -1660,32 +1640,32 @@
   "updated_at": "2020-07-19T18:42:39Z"
  },
  {
-  "base": "b1afdde728b3af88d01da85833f3672ad442d24e",
+  "base": "71c70769f2107088a3d9a9b840fafb5f6c672259",
   "created_at": "2020-05-25T21:24:06Z",
-  "head": "70ac295787c654fe628dfc0c7d772100a1852b73",
+  "head": "ff0b20646a4278e069c9c85355578dc82f272edc",
   "login": "jmdyck",
   "number": 2013,
   "ref": "ParseText",
   "revs": [
    {
-    "adate": "2020-05-25T17:11:36-04:00",
+    "adate": "2020-12-01T11:55:30-08:00",
     "author": "Michael Dyck",
-    "date": "2020-10-15T16:59:47-04:00",
-    "hash": "70ac295787c654fe628dfc0c7d772100a1852b73",
-    "parents": "2c97a6a354618d25dada3f10cf711e51dda06b6c",
-    "subject": "Editorial: Extract operation ParseText"
+    "date": "2020-12-01T11:55:30-08:00",
+    "hash": "ff0b20646a4278e069c9c85355578dc82f272edc",
+    "parents": "bef9806861bd0467c454eb02f4db948fac8efccd",
+    "subject": "Editorial: Extract operation ParseText (#2013)"
    },
    {
-    "adate": "2020-05-25T17:05:23-04:00",
+    "adate": "2020-12-01T11:55:17-08:00",
     "author": "Michael Dyck",
-    "date": "2020-10-15T15:47:26-04:00",
-    "hash": "2c97a6a354618d25dada3f10cf711e51dda06b6c",
-    "parents": "f2eb02248838e3482fbb7f02a2a1455c029efa0c",
-    "subject": "Editorial: Delete \"as modified\" wording in Note for JSON.parse."
+    "date": "2020-12-01T11:55:17-08:00",
+    "hash": "bef9806861bd0467c454eb02f4db948fac8efccd",
+    "parents": "71c70769f2107088a3d9a9b840fafb5f6c672259",
+    "subject": "Editorial: Delete \"as modified\" wording in Note for JSON.parse (#2013)"
    }
   ],
   "title": "Editorial: Extract operation ParseText",
-  "updated_at": "2020-10-15T21:04:55Z"
+  "updated_at": "2020-12-01T19:55:50Z"
  },
  {
   "base": "096f30b7c7ee7b12f6907bb5760496711c29b66f",
@@ -1890,26 +1870,6 @@
   ],
   "title": "Normative: Restriction on [[Prototype]] of the global object",
   "updated_at": "2020-05-02T09:06:12Z"
- },
- {
-  "base": "9cf4aa2aebe40ab3481de3b13367158d64ef2d05",
-  "created_at": "2020-04-06T14:04:14Z",
-  "head": "a01604d6965e32c21c230df04fa9e23607b42ad0",
-  "login": "jorendorff",
-  "number": 1937,
-  "ref": "rm-env-home-object",
-  "revs": [
-   {
-    "adate": "2020-04-06T08:55:33-05:00",
-    "author": "Jason Orendorff",
-    "date": "2020-11-28T18:49:23-08:00",
-    "hash": "a01604d6965e32c21c230df04fa9e23607b42ad0",
-    "parents": "9cf4aa2aebe40ab3481de3b13367158d64ef2d05",
-    "subject": "Editorial: Remove [[HomeObject]] from function Environments."
-   }
-  ],
-  "title": "Editorial: Remove [[HomeObject]] from function Environments",
-  "updated_at": "2020-11-29T02:52:18Z"
  },
  {
   "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
