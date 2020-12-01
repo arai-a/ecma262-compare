@@ -1668,9 +1668,9 @@
   "updated_at": "2020-12-01T19:55:50Z"
  },
  {
-  "base": "096f30b7c7ee7b12f6907bb5760496711c29b66f",
+  "base": "71c70769f2107088a3d9a9b840fafb5f6c672259",
   "created_at": "2020-05-15T02:53:17Z",
-  "head": "f96ff0fa630140058f552788825bc8c48c34384b",
+  "head": "61c3a4401093079b6047b4a3b42c811ae5ceb4ff",
   "login": "jmdyck",
   "number": 1994,
   "ref": "preambles",
@@ -1678,150 +1678,150 @@
    {
     "adate": "2020-10-19T22:26:27-04:00",
     "author": "Michael Dyck",
-    "date": "2020-10-19T22:26:27-04:00",
-    "hash": "f96ff0fa630140058f552788825bc8c48c34384b",
-    "parents": "89e096e1975db9b6e1018aa7d7b871c4fb577240",
+    "date": "2020-12-01T16:08:38-05:00",
+    "hash": "61c3a4401093079b6047b4a3b42c811ae5ceb4ff",
+    "parents": "9dba6b199dd58b7d245ee5683c76288a1032892f",
     "subject": "fixup for Module Rec preamble: ResolveExport's _exportName_ is a String"
    },
    {
     "adate": "2020-10-19T22:22:56-04:00",
     "author": "Michael Dyck",
-    "date": "2020-10-19T22:22:56-04:00",
-    "hash": "89e096e1975db9b6e1018aa7d7b871c4fb577240",
-    "parents": "1e71426e448fe05b4ae62f8c5b6af0438f67a64e",
+    "date": "2020-12-01T16:08:38-05:00",
+    "hash": "9dba6b199dd58b7d245ee5683c76288a1032892f",
+    "parents": "874ef6f3e056b3962af47694ec4aef1bd73ba3bc",
     "subject": "fixup for internal methods: [[Construct]]'s _newTarget_ is a constructor"
    },
    {
     "adate": "2020-10-19T22:00:58-04:00",
     "author": "Michael Dyck",
-    "date": "2020-10-19T22:10:58-04:00",
-    "hash": "1e71426e448fe05b4ae62f8c5b6af0438f67a64e",
-    "parents": "b052509d0bbe43400905c8018cb5b319ccb5d1c2",
+    "date": "2020-12-01T16:08:38-05:00",
+    "hash": "874ef6f3e056b3962af47694ec4aef1bd73ba3bc",
+    "parents": "1fd366db1aca6fc99e9ef706361f946ed1485aaa",
     "subject": "fixup for internal methods: Drop target-alias from preamble"
    },
    {
     "adate": "2020-10-19T12:15:45-04:00",
     "author": "Michael Dyck",
-    "date": "2020-10-19T12:15:45-04:00",
-    "hash": "b052509d0bbe43400905c8018cb5b319ccb5d1c2",
-    "parents": "464e21937af524733ad78230a2c98198c21c4c54",
+    "date": "2020-12-01T16:08:38-05:00",
+    "hash": "1fd366db1aca6fc99e9ef706361f946ed1485aaa",
+    "parents": "f1f4334f8e4202bf6c1d0739b5395a57b44bf01b",
     "subject": "fixup for Env Rec prep: insert comma after \"If\" clause (x5)"
    },
    {
     "adate": "2020-10-19T12:10:40-04:00",
     "author": "Michael Dyck",
-    "date": "2020-10-19T12:10:40-04:00",
-    "hash": "464e21937af524733ad78230a2c98198c21c4c54",
-    "parents": "efd3240007708c87fe7582747f1f4230f700e426",
+    "date": "2020-12-01T16:08:38-05:00",
+    "hash": "f1f4334f8e4202bf6c1d0739b5395a57b44bf01b",
+    "parents": "1bb6c803e8ec550b61e2bc88ba7cfabd74d00392",
     "subject": "fixup for EnvRec prep: delete 3 occurrences of \"simply\""
    },
    {
     "adate": "2020-10-19T12:07:01-04:00",
     "author": "Michael Dyck",
-    "date": "2020-10-19T12:07:01-04:00",
-    "hash": "efd3240007708c87fe7582747f1f4230f700e426",
-    "parents": "7f374a1ccc69d7bffb674a845c29ef4d4c6c09ad",
+    "date": "2020-12-01T16:08:38-05:00",
+    "hash": "1bb6c803e8ec550b61e2bc88ba7cfabd74d00392",
+    "parents": "f7b8f16b9b1992719843fe1ebee91e02629da689",
     "subject": "Fixup for EnvRec prep work: delete WithBaseObject note"
    },
    {
     "adate": "2020-05-14T22:13:52-04:00",
     "author": "Michael Dyck",
-    "date": "2020-10-19T11:47:48-04:00",
-    "hash": "7f374a1ccc69d7bffb674a845c29ef4d4c6c09ad",
-    "parents": "9894b6fcd9ab7e3bc99a534f468b9176c0676991",
+    "date": "2020-12-01T16:08:38-05:00",
+    "hash": "f7b8f16b9b1992719843fe1ebee91e02629da689",
+    "parents": "fd1524634e5a7d7c8a117d3cd1514301908e04c4",
     "subject": "Editorial: Declare the target-alias in the preamble"
    },
    {
     "adate": "2020-05-14T21:45:02-04:00",
     "author": "Michael Dyck",
-    "date": "2020-10-19T11:45:32-04:00",
-    "hash": "9894b6fcd9ab7e3bc99a534f468b9176c0676991",
-    "parents": "380a47e9f0ec4d0b0290ee9b72b1c3340632b0dc",
+    "date": "2020-12-01T16:08:38-05:00",
+    "hash": "fd1524634e5a7d7c8a117d3cd1514301908e04c4",
+    "parents": "c833d12b69cd88bbd0904da520cdeced700b85e1",
     "subject": "Editorial: Reword preambles of Module Record concrete methods"
    },
    {
     "adate": "2020-05-14T21:02:27-04:00",
     "author": "Michael Dyck",
-    "date": "2020-10-19T11:45:32-04:00",
-    "hash": "380a47e9f0ec4d0b0290ee9b72b1c3340632b0dc",
-    "parents": "7b053c77ef583ea16b2e23491237204ce0b6189b",
+    "date": "2020-12-01T16:08:38-05:00",
+    "hash": "c833d12b69cd88bbd0904da520cdeced700b85e1",
+    "parents": "57fb5b2cb7a56604e520e9b7bae537186e5d6650",
     "subject": "Editorial: Declare the target-alias in the preamble"
    },
    {
     "adate": "2020-05-14T20:46:40-04:00",
     "author": "Michael Dyck",
-    "date": "2020-10-19T11:39:30-04:00",
-    "hash": "7b053c77ef583ea16b2e23491237204ce0b6189b",
-    "parents": "7eabc3aa2d3c8764d2ebdf9775ce16a28091b2b8",
+    "date": "2020-12-01T16:06:05-05:00",
+    "hash": "57fb5b2cb7a56604e520e9b7bae537186e5d6650",
+    "parents": "ba46444819590bdd97e42762cab24ee08bf0f266",
     "subject": "Editorial: Reword preambles of Env Record concrete methods"
    },
    {
     "adate": "2020-05-14T20:33:12-04:00",
     "author": "Michael Dyck",
-    "date": "2020-10-19T11:34:37-04:00",
-    "hash": "7eabc3aa2d3c8764d2ebdf9775ce16a28091b2b8",
-    "parents": "1a96f3385f0414d0e13098588a711e00fd5f81f2",
+    "date": "2020-12-01T16:06:05-05:00",
+    "hash": "ba46444819590bdd97e42762cab24ee08bf0f266",
+    "parents": "15b1d90c34eb19d3f81487ed8d4958ba309164f4",
     "subject": "Editorial: Present never-invoked concrete methods more consistently."
    },
    {
     "adate": "2020-05-15T12:37:48-04:00",
     "author": "Michael Dyck",
-    "date": "2020-10-19T11:34:37-04:00",
-    "hash": "1a96f3385f0414d0e13098588a711e00fd5f81f2",
-    "parents": "04c357ef26deb60bf192c1b3c278faf181a97c91",
+    "date": "2020-12-01T16:06:05-05:00",
+    "hash": "15b1d90c34eb19d3f81487ed8d4958ba309164f4",
+    "parents": "6935304d662299d88858061770723c5b1cdd898f",
     "subject": "Editorial: Move/reword/remove some preambles for ER concrete methods"
    },
    {
     "adate": "2020-05-14T11:55:24-04:00",
     "author": "Michael Dyck",
-    "date": "2020-10-19T11:34:37-04:00",
-    "hash": "04c357ef26deb60bf192c1b3c278faf181a97c91",
-    "parents": "ed360c8a1cc5aefefae62c4068269311527ae005",
+    "date": "2020-12-01T16:06:05-05:00",
+    "hash": "6935304d662299d88858061770723c5b1cdd898f",
+    "parents": "21fd66a58f2ae355e1cc65f3542f9b3bfcaba481",
     "subject": "Editorial: For [[Construct]], _newTarget_ is an Object."
    },
    {
     "adate": "2020-05-14T11:53:18-04:00",
     "author": "Michael Dyck",
-    "date": "2020-10-19T11:32:55-04:00",
-    "hash": "ed360c8a1cc5aefefae62c4068269311527ae005",
-    "parents": "79518116949b294510f81b5162acb1355d946cbe",
+    "date": "2020-12-01T16:06:05-05:00",
+    "hash": "21fd66a58f2ae355e1cc65f3542f9b3bfcaba481",
+    "parents": "72d34184216e1a87a9a21a050deb7d4555c0b9f6",
     "subject": "Editorial: For [[Call]], _thisArgument_ is an ECMAScript language value"
    },
    {
     "adate": "2020-05-14T11:50:03-04:00",
     "author": "Michael Dyck",
-    "date": "2020-10-19T11:32:55-04:00",
-    "hash": "79518116949b294510f81b5162acb1355d946cbe",
-    "parents": "4259981383e8ca6c26a439ca47fa21e3fc7433ff",
+    "date": "2020-12-01T16:06:05-05:00",
+    "hash": "72d34184216e1a87a9a21a050deb7d4555c0b9f6",
+    "parents": "2cfdc397172baec68d592e975248fd6603684871",
     "subject": "Editorial: For [[SetPrototype]], _V_ is an Object or *null*"
    },
    {
     "adate": "2020-05-14T11:18:12-04:00",
     "author": "Michael Dyck",
-    "date": "2020-10-19T11:32:55-04:00",
-    "hash": "4259981383e8ca6c26a439ca47fa21e3fc7433ff",
-    "parents": "8a3e017bf2ebb77871875552b7c2f373ebcf60d9",
+    "date": "2020-12-01T16:06:05-05:00",
+    "hash": "2cfdc397172baec68d592e975248fd6603684871",
+    "parents": "2a00c015e020469142c23b81fcb3204f6573d865",
     "subject": "Editorial: Reword existing preambles for internal methods"
    },
    {
     "adate": "2020-05-14T00:19:01-04:00",
     "author": "Michael Dyck",
-    "date": "2020-10-19T11:30:01-04:00",
-    "hash": "8a3e017bf2ebb77871875552b7c2f373ebcf60d9",
-    "parents": "50117919d79e5aa0b2f42020e44bd26226434906",
+    "date": "2020-12-01T16:06:04-05:00",
+    "hash": "2a00c015e020469142c23b81fcb3204f6573d865",
+    "parents": "aecf3cd4bcf6b284dfc24da859d61f35eb774e8d",
     "subject": "Editorial: Delete \"(which|that) was created using the bind function\""
    },
    {
     "adate": "2020-05-14T00:14:01-04:00",
     "author": "Michael Dyck",
-    "date": "2020-10-19T11:30:01-04:00",
-    "hash": "50117919d79e5aa0b2f42020e44bd26226434906",
-    "parents": "096f30b7c7ee7b12f6907bb5760496711c29b66f",
+    "date": "2020-12-01T16:06:04-05:00",
+    "hash": "aecf3cd4bcf6b284dfc24da859d61f35eb774e8d",
+    "parents": "71c70769f2107088a3d9a9b840fafb5f6c672259",
     "subject": "Editorial: Declare the target-alias in the preamble"
    }
   ],
   "title": "Editorial: Standardize preambles for internal methods and concrete methods",
-  "updated_at": "2020-10-20T02:32:11Z"
+  "updated_at": "2020-12-01T21:22:42Z"
  },
  {
   "base": "0fb85afae0a7f290da3f552ebd3c1fa11e2ef2df",
