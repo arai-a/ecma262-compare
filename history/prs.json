@@ -3520,24 +3520,32 @@
   "updated_at": "2020-03-27T07:01:33Z"
  },
  {
-  "base": "096f30b7c7ee7b12f6907bb5760496711c29b66f",
+  "base": "ccb2d13b3fbde7b5ada3df6b2bdf9b1eb9bb7f96",
   "created_at": "2019-05-28T03:19:22Z",
-  "head": "6e26396e55bc3faa8975edb18f1d5e1a79450179",
+  "head": "2e95686826b1cce958e9cbca8a854f19a2d3961e",
   "login": "jmdyck",
   "number": 1554,
   "ref": "NumericValue",
   "revs": [
    {
-    "adate": "2019-05-27T22:20:17-04:00",
+    "adate": "2020-12-02T17:27:11-05:00",
     "author": "Michael Dyck",
-    "date": "2020-10-16T00:24:23-04:00",
-    "hash": "6e26396e55bc3faa8975edb18f1d5e1a79450179",
-    "parents": "096f30b7c7ee7b12f6907bb5760496711c29b66f",
+    "date": "2020-12-02T17:27:11-05:00",
+    "hash": "2e95686826b1cce958e9cbca8a854f19a2d3961e",
+    "parents": "ce2f9aca35e63765633eaf9fc338058a93b24312",
     "subject": "Editorial: Define + use StringToNumber"
+   },
+   {
+    "adate": "2020-12-02T15:59:08-05:00",
+    "author": "Michael Dyck",
+    "date": "2020-12-02T15:59:08-05:00",
+    "hash": "ce2f9aca35e63765633eaf9fc338058a93b24312",
+    "parents": "ccb2d13b3fbde7b5ada3df6b2bdf9b1eb9bb7f96",
+    "subject": "Editorial: Remove ToNumber's note re surrogates"
    }
   ],
   "title": "Editorial: Define + use StringToNumber, and better define NumericValue",
-  "updated_at": "2020-10-16T04:26:14Z"
+  "updated_at": "2020-12-02T22:29:37Z"
  },
  {
   "base": "e38ce0627e12ade103c17ffe1cc019fe25602c91",
