@@ -56,24 +56,24 @@
   "updated_at": "2020-12-01T02:17:51Z"
  },
  {
-  "base": "9cf4aa2aebe40ab3481de3b13367158d64ef2d05",
+  "base": "67dc0c208908bbc68fe882f0e73c4a39cf4da343",
   "created_at": "2020-11-29T03:30:17Z",
-  "head": "860ebf54f856f4f9b8ea6074a153c5ff17313772",
+  "head": "3db2f0d7d48247c1cac23d21de1ef98ac352e09c",
   "login": "jmdyck",
   "number": 2235,
   "ref": "fix_annex_b_AtomEscape",
   "revs": [
    {
-    "adate": "2020-11-28T22:20:26-05:00",
+    "adate": "2020-12-01T22:22:40-08:00",
     "author": "Michael Dyck",
-    "date": "2020-11-28T22:20:26-05:00",
-    "hash": "860ebf54f856f4f9b8ea6074a153c5ff17313772",
-    "parents": "9cf4aa2aebe40ab3481de3b13367158d64ef2d05",
-    "subject": "Editorial: Fix bug in Annex B defn of AtomEscape"
+    "date": "2020-12-01T22:22:40-08:00",
+    "hash": "3db2f0d7d48247c1cac23d21de1ef98ac352e09c",
+    "parents": "67dc0c208908bbc68fe882f0e73c4a39cf4da343",
+    "subject": "Editorial: Fix bug in Annex B defn of AtomEscape (#2235)"
    }
   ],
   "title": "Editorial: Fix bug in Annex B defn of AtomEscape",
-  "updated_at": "2020-11-29T03:37:31Z"
+  "updated_at": "2020-12-02T06:23:02Z"
  },
  {
   "base": "9cf4aa2aebe40ab3481de3b13367158d64ef2d05",
@@ -94,26 +94,6 @@
   ],
   "title": "Normative: Use onFinally's realm when creating functions in Promise.prototype.finally (fixes #2222)",
   "updated_at": "2020-11-24T08:01:11Z"
- },
- {
-  "base": "c2fc78b8eb07ad82bfa5bf76440c0eca1c1921f9",
-  "created_at": "2020-11-18T15:26:27Z",
-  "head": "67dc0c208908bbc68fe882f0e73c4a39cf4da343",
-  "login": "jmdyck",
-  "number": 2228,
-  "ref": "annex_b_term",
-  "revs": [
-   {
-    "adate": "2020-12-01T19:03:43-08:00",
-    "author": "Michael Dyck",
-    "date": "2020-12-01T19:03:43-08:00",
-    "hash": "67dc0c208908bbc68fe882f0e73c4a39cf4da343",
-    "parents": "c2fc78b8eb07ad82bfa5bf76440c0eca1c1921f9",
-    "subject": "Editorial: Swap 2 alternatives of Term in Annex B (#2228)"
-   }
-  ],
-  "title": "Editorial: Swap 2 alternatives of Term in Annex B",
-  "updated_at": "2020-12-02T03:04:18Z"
  },
  {
   "base": "889f2f30cf554b7ed812c0984626db1c8a4997c7",
