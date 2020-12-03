@@ -116,26 +116,6 @@
   "updated_at": "2020-11-10T21:44:05Z"
  },
  {
-  "base": "ccb2d13b3fbde7b5ada3df6b2bdf9b1eb9bb7f96",
-  "created_at": "2020-11-10T04:30:08Z",
-  "head": "130d9668bb59926100dfde84ca4b2b844f4bc187",
-  "login": "jmdyck",
-  "number": 2224,
-  "ref": "other_dangling_else",
-  "revs": [
-   {
-    "adate": "2020-12-02T21:52:30-08:00",
-    "author": "Michael Dyck",
-    "date": "2020-12-02T21:52:30-08:00",
-    "hash": "130d9668bb59926100dfde84ca4b2b844f4bc187",
-    "parents": "ccb2d13b3fbde7b5ada3df6b2bdf9b1eb9bb7f96",
-    "subject": "Editorial: Resolve 'dangling else' in Annex B.3.4 (#2224)"
-   }
-  ],
-  "title": "Editorial: Resolve the 'dangling else' in Annex B.3.4 as in PR #1966",
-  "updated_at": "2020-12-03T05:52:51Z"
- },
- {
   "base": "a18acef2559a6f159047ca6fc0f3dd932231fefc",
   "created_at": "2020-11-03T00:20:44Z",
   "head": "8ba16cd9e6c13b94975050284e9f85178bc6d0ec",
@@ -312,40 +292,24 @@
   "updated_at": "2020-10-21T20:55:18Z"
  },
  {
-  "base": "096f30b7c7ee7b12f6907bb5760496711c29b66f",
+  "base": "130d9668bb59926100dfde84ca4b2b844f4bc187",
   "created_at": "2020-10-17T22:45:08Z",
-  "head": "864a25d2c546553e0b603cd54ab6874c742669f1",
+  "head": "7ea0ac93ee706219ff18bb1480ca31056794ec0c",
   "login": "rkirsling",
   "number": 2207,
   "ref": "isdetachedbuffer-before-isvalidintegerindex",
   "revs": [
    {
-    "adate": "2020-11-02T12:30:40-08:00",
+    "adate": "2020-12-02T23:01:28-08:00",
     "author": "Ross Kirsling",
-    "date": "2020-11-02T12:30:40-08:00",
-    "hash": "864a25d2c546553e0b603cd54ab6874c742669f1",
-    "parents": "f7449887b0620566ad16b3721734e2497e27e677",
-    "subject": "Have IsValidIntegerIndex perform IsDetachedBuffer first."
-   },
-   {
-    "adate": "2020-10-17T16:49:01-07:00",
-    "author": "Ross Kirsling",
-    "date": "2020-10-17T16:56:16-07:00",
-    "hash": "f7449887b0620566ad16b3721734e2497e27e677",
-    "parents": "55ddba8dfc2294f1347cf016b22f27e9bf2c7ecb",
-    "subject": "Deal with [[OwnPropertyKeys]] too."
-   },
-   {
-    "adate": "2020-10-17T15:30:06-07:00",
-    "author": "Ross Kirsling",
-    "date": "2020-10-17T15:30:06-07:00",
-    "hash": "55ddba8dfc2294f1347cf016b22f27e9bf2c7ecb",
-    "parents": "096f30b7c7ee7b12f6907bb5760496711c29b66f",
-    "subject": "Editorial: IsDetachedBuffer should precede IsValidIntegerIndex"
+    "date": "2020-12-02T23:01:28-08:00",
+    "hash": "7ea0ac93ee706219ff18bb1480ca31056794ec0c",
+    "parents": "130d9668bb59926100dfde84ca4b2b844f4bc187",
+    "subject": "Editorial: IsDetachedBuffer should be checked before accessing (#2207)"
    }
   ],
-  "title": "IsDetachedBuffer should be checked before accessing [[ArrayLength]]",
-  "updated_at": "2020-11-02T20:31:18Z"
+  "title": "Normative: IsDetachedBuffer should be checked before accessing [[ArrayLength]]",
+  "updated_at": "2020-12-03T07:01:55Z"
  },
  {
   "base": "f2eb02248838e3482fbb7f02a2a1455c029efa0c",
