@@ -1,23 +1,23 @@
 [
  {
-  "base": "31f3c2b0c220cfea849a99c4f4ef22d93ddac14e",
-  "created_at": "2020-12-04T23:08:47Z",
-  "head": "590561bcbf312a4b1d7b514f230ee78c7d021b3a",
-  "login": "jmdyck",
-  "number": 2242,
-  "ref": "editorial",
+  "base": "590561bcbf312a4b1d7b514f230ee78c7d021b3a",
+  "created_at": "2020-12-05T20:00:46Z",
+  "head": "cf5338ddbfa6738ace2dcbd92fd854f214d4faa0",
+  "login": "tc39",
+  "number": 2244,
+  "ref": "evaluatecall-type",
   "revs": [
    {
-    "adate": "2020-12-04T22:06:08-08:00",
-    "author": "Michael Dyck",
-    "date": "2020-12-04T22:06:08-08:00",
-    "hash": "590561bcbf312a4b1d7b514f230ee78c7d021b3a",
-    "parents": "31f3c2b0c220cfea849a99c4f4ef22d93ddac14e",
-    "subject": "Markdown: put underscores around alias name (#2242)"
+    "adate": "2020-12-05T12:00:13-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-12-05T12:00:13-08:00",
+    "hash": "cf5338ddbfa6738ace2dcbd92fd854f214d4faa0",
+    "parents": "590561bcbf312a4b1d7b514f230ee78c7d021b3a",
+    "subject": "Editorial: fix type in preamble of EvaluateCall"
    }
   ],
-  "title": "Editorial: put underscores around alias name",
-  "updated_at": "2020-12-05T06:06:19Z"
+  "title": "Editorial: fix type in preamble of EvaluateCall",
+  "updated_at": "2020-12-05T20:00:46Z"
  },
  {
   "base": "ccb2d13b3fbde7b5ada3df6b2bdf9b1eb9bb7f96",
