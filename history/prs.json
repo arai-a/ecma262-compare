@@ -20,13 +20,21 @@
   "updated_at": "2020-12-08T06:31:39Z"
  },
  {
-  "base": "ccb2d13b3fbde7b5ada3df6b2bdf9b1eb9bb7f96",
+  "base": "b3f9b5089bcc3ddd8486379015cd11eb1427a5eb",
   "created_at": "2020-12-02T19:15:48Z",
-  "head": "d49c434221df71006a6a6bf8bcb78d2f232dbf53",
+  "head": "963c0982bb3e969f29d854674925b475d26c9b24",
   "login": "ExE-Boss",
   "number": 2240,
   "ref": "editorial/describle-waiterlist-using-records",
   "revs": [
+   {
+    "adate": "2020-12-10T01:00:00+01:00",
+    "author": "ExE Boss",
+    "date": "2020-12-10T01:08:41+01:00",
+    "hash": "963c0982bb3e969f29d854674925b475d26c9b24",
+    "parents": "d49c434221df71006a6a6bf8bcb78d2f232dbf53",
+    "subject": "fixup! Editorial: Describe\u00a0`WaiterList` using\u00a0`Record`s"
+   },
    {
     "adate": "2020-12-02T20:10:00+01:00",
     "author": "ExE Boss",
@@ -37,7 +45,7 @@
    }
   ],
   "title": "Editorial: Describe\u00a0`WaiterList` using\u00a0`Record`s",
-  "updated_at": "2020-12-02T19:58:20Z"
+  "updated_at": "2020-12-10T00:07:01Z"
  },
  {
   "base": "d5948f7bf2a445ccd0a14ac9b06e57dcee397ed7",
