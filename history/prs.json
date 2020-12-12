@@ -88,26 +88,6 @@
   "updated_at": "2020-12-10T00:07:01Z"
  },
  {
-  "base": "b3f9b5089bcc3ddd8486379015cd11eb1427a5eb",
-  "created_at": "2020-12-01T06:06:33Z",
-  "head": "0958d3dd8cba99e0fe5bbc07a73e62912934a840",
-  "login": "sffc",
-  "number": 2239,
-  "ref": "patch-1",
-  "revs": [
-   {
-    "adate": "2020-12-11T22:49:20-08:00",
-    "author": "Shane F. Carr",
-    "date": "2020-12-11T22:49:20-08:00",
-    "hash": "0958d3dd8cba99e0fe5bbc07a73e62912934a840",
-    "parents": "b3f9b5089bcc3ddd8486379015cd11eb1427a5eb",
-    "subject": "Meta: Add link to tc39/template-for-proposals (#2239)"
-   }
-  ],
-  "title": "Meta: Add link to tc39/template-for-proposals",
-  "updated_at": "2020-12-12T06:49:38Z"
- },
- {
   "base": "9cf4aa2aebe40ab3481de3b13367158d64ef2d05",
   "created_at": "2020-11-24T08:01:11Z",
   "head": "b54a7a3111d3ae380e8d838c6d42f708734ebf6d",
@@ -3940,24 +3920,24 @@
   "updated_at": "2020-07-11T17:02:07Z"
  },
  {
-  "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
+  "base": "0958d3dd8cba99e0fe5bbc07a73e62912934a840",
   "created_at": "2018-01-29T22:08:48Z",
-  "head": "654eae29d1dfaf9b84700a0851baee09b328bf0c",
+  "head": "ae09034cf6b6831aeeba9350a51dce8c6deae8d5",
   "login": "ljharb",
   "number": 1086,
   "ref": "is_zero",
   "revs": [
    {
-    "adate": "2018-01-29T14:07:13-08:00",
+    "adate": "2020-12-11T23:37:06-08:00",
     "author": "Jordan Harband",
-    "date": "2019-11-08T20:12:34-08:00",
-    "hash": "654eae29d1dfaf9b84700a0851baee09b328bf0c",
-    "parents": "d1b6707fdf2d0beee605db9e7e9df1602f1575b5",
-    "subject": "Editorial: use \"is 0\" instead of \"is zero\" for consistency (#1086)"
+    "date": "2020-12-11T23:37:06-08:00",
+    "hash": "ae09034cf6b6831aeeba9350a51dce8c6deae8d5",
+    "parents": "0958d3dd8cba99e0fe5bbc07a73e62912934a840",
+    "subject": "Editorial: fix remaining \"is zero\" (#1086)"
    }
   ],
   "title": "Editorial: use \"is 0\" instead of \"is zero\" for consistency",
-  "updated_at": "2020-03-27T07:01:41Z"
+  "updated_at": "2020-12-12T07:37:45Z"
  },
  {
   "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
