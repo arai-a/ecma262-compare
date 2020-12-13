@@ -1,5 +1,33 @@
 [
  {
+  "base": "6cc1a6a121a6bf2b0a5aacb1929cd298c9840f19",
+  "created_at": "2020-12-13T18:03:20Z",
+  "head": "92b3b2cc53a484af12ba6b3a8c7aafa65f7c2ae9",
+  "login": "tc39",
+  "number": 2252,
+  "ref": "json-parse-proto",
+  "revs": [
+   {
+    "adate": "2020-12-13T09:59:27-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-12-13T09:59:27-08:00",
+    "hash": "92b3b2cc53a484af12ba6b3a8c7aafa65f7c2ae9",
+    "parents": "7650f69600f2c1a42cfeb45d815f180bed203553",
+    "subject": "Editorial: reword conditions where B.3.1 error does not apply"
+   },
+   {
+    "adate": "2020-12-13T09:53:07-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-12-13T09:53:07-08:00",
+    "hash": "7650f69600f2c1a42cfeb45d815f180bed203553",
+    "parents": "6cc1a6a121a6bf2b0a5aacb1929cd298c9840f19",
+    "subject": "Normative: do not apply Early Error for duplicate __proto__ properties when performing JSON.parse"
+   }
+  ],
+  "title": "Normative: do not apply Early Error for duplicate __proto__ properties when performing JSON.parse",
+  "updated_at": "2020-12-13T18:03:20Z"
+ },
+ {
   "base": "b3f9b5089bcc3ddd8486379015cd11eb1427a5eb",
   "created_at": "2020-12-11T01:13:17Z",
   "head": "b0f1226d407f2e908b7ee03bfafe4dca3d6cce0d",
