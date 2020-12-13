@@ -40,13 +40,21 @@
   "updated_at": "2020-12-10T05:30:09Z"
  },
  {
-  "base": "b3f9b5089bcc3ddd8486379015cd11eb1427a5eb",
+  "base": "6cc1a6a121a6bf2b0a5aacb1929cd298c9840f19",
   "created_at": "2020-12-08T06:31:39Z",
-  "head": "bb57f9dc48e9cc72b1b5be84fbd41a71442daba7",
+  "head": "85251e68994114d50490a1ce0a0ebb64a145aea0",
   "login": "jmdyck",
   "number": 2246,
   "ref": "ExecutionContext_Record",
   "revs": [
+   {
+    "adate": "2020-12-13T10:09:19-05:00",
+    "author": "jmdyck",
+    "date": "2020-12-13T10:09:19-05:00",
+    "hash": "85251e68994114d50490a1ce0a0ebb64a145aea0",
+    "parents": "bb57f9dc48e9cc72b1b5be84fbd41a71442daba7 6cc1a6a121a6bf2b0a5aacb1929cd298c9840f19",
+    "subject": "Merge branch 'master' into ExecutionContext_Record"
+   },
    {
     "adate": "2020-12-08T01:22:55-05:00",
     "author": "Michael Dyck",
@@ -57,7 +65,7 @@
    }
   ],
   "title": "Editorial: Model execution context as a record",
-  "updated_at": "2020-12-08T06:31:39Z"
+  "updated_at": "2020-12-13T15:09:20Z"
  },
  {
   "base": "b3f9b5089bcc3ddd8486379015cd11eb1427a5eb",
@@ -3892,9 +3900,9 @@
   "updated_at": "2020-03-27T07:01:43Z"
  },
  {
-  "base": "12a546b92275a0e2f834017db2727bb9c6f6c8fd",
+  "base": "6cc1a6a121a6bf2b0a5aacb1929cd298c9840f19",
   "created_at": "2016-04-16T18:28:04Z",
-  "head": "80a69478c366e0506e8b4357c1d3e009605952eb",
+  "head": "e28959a673f26e0582300b5926a7ad6bdeef0272",
   "login": "jmdyck",
   "number": 545,
   "ref": "operation_headers",
@@ -3902,46 +3910,14 @@
    {
     "adate": "2016-04-16T14:19:39-04:00",
     "author": "Michael Dyck",
-    "date": "2020-06-03T22:49:09-04:00",
-    "hash": "80a69478c366e0506e8b4357c1d3e009605952eb",
-    "parents": "a7f430a3b0a02bae9fdafe6288640d21f5446233",
+    "date": "2020-12-13T10:07:10-05:00",
+    "hash": "e28959a673f26e0582300b5926a7ad6bdeef0272",
+    "parents": "6cc1a6a121a6bf2b0a5aacb1929cd298c9840f19",
     "subject": "Introduce operation-headers"
-   },
-   {
-    "adate": "2020-05-29T17:56:40-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-06-03T22:00:22-04:00",
-    "hash": "a7f430a3b0a02bae9fdafe6288640d21f5446233",
-    "parents": "6b54a0969b675c7bd08a8b573aa00d6c775dc9fa",
-    "subject": "Editorial: Delete \"the String value\" in GetTemplateObject"
-   },
-   {
-    "adate": "2020-05-29T17:38:43-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-06-03T22:00:22-04:00",
-    "hash": "6b54a0969b675c7bd08a8b573aa00d6c775dc9fa",
-    "parents": "40dda63c140101bd1552240b6746d9b25ad946d7",
-    "subject": "Editorial: Delete more steps in the same vein as PR #1519"
-   },
-   {
-    "adate": "2020-05-28T23:27:41-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-06-03T22:00:22-04:00",
-    "hash": "40dda63c140101bd1552240b6746d9b25ad946d7",
-    "parents": "deaaa5d75c6c7ff44f623299b61b6b89388442c6",
-    "subject": "Editorial: Fix typo: \"use\" -> \"uses\""
-   },
-   {
-    "adate": "2020-05-23T23:54:52-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-06-03T22:00:22-04:00",
-    "hash": "deaaa5d75c6c7ff44f623299b61b6b89388442c6",
-    "parents": "12a546b92275a0e2f834017db2727bb9c6f6c8fd",
-    "subject": "Editorial: Update a step-reference."
    }
   ],
   "title": "Replace each abstract op's preamble with a structured 'header'.",
-  "updated_at": "2020-07-01T21:37:57Z"
+  "updated_at": "2020-12-13T15:07:44Z"
  },
  {
   "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
