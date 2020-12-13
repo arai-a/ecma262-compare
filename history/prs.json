@@ -640,9 +640,9 @@
   "updated_at": "2020-09-30T22:35:37Z"
  },
  {
-  "base": "d5948f7bf2a445ccd0a14ac9b06e57dcee397ed7",
+  "base": "6cc1a6a121a6bf2b0a5aacb1929cd298c9840f19",
   "created_at": "2020-07-28T11:38:00Z",
-  "head": "91170ebf22b82ac63803814faba12c98c2c834a3",
+  "head": "7dbf34a36d48c601f023140e369f1f3d3ba4fa74",
   "login": "ExE-Boss",
   "number": 2116,
   "ref": "normative/create-builtin-function/add-name-and-length-parameters",
@@ -650,22 +650,22 @@
    {
     "adate": "2020-11-30T08:40:00+01:00",
     "author": "ExE Boss",
-    "date": "2020-11-30T09:58:47+01:00",
-    "hash": "91170ebf22b82ac63803814faba12c98c2c834a3",
-    "parents": "3caf419f7827fb0948596525cf6f771c0e439f3c",
+    "date": "2020-12-13T08:21:47+01:00",
+    "hash": "7dbf34a36d48c601f023140e369f1f3d3ba4fa74",
+    "parents": "050b151e1ac6f38a5bc58f4b9991f037f7bc28f0",
     "subject": "Editorial: Improve\u00a0callback variable\u00a0names\u00a0used by\u00a0`Promise`\u00a0statics"
    },
    {
     "adate": "2020-09-28T16:30:00+02:00",
     "author": "ExE Boss",
-    "date": "2020-11-30T09:58:44+01:00",
-    "hash": "3caf419f7827fb0948596525cf6f771c0e439f3c",
-    "parents": "d5948f7bf2a445ccd0a14ac9b06e57dcee397ed7",
+    "date": "2020-12-13T08:18:13+01:00",
+    "hash": "050b151e1ac6f38a5bc58f4b9991f037f7bc28f0",
+    "parents": "6cc1a6a121a6bf2b0a5aacb1929cd298c9840f19",
     "subject": "Normative: Set\u00a0function\u00a0`name` and\u00a0`length` in\u00a0`CreateBuiltinFunction`"
    }
   ],
   "title": "Normative: Set\u00a0function\u00a0`name` and\u00a0`length` in\u00a0`CreateBuiltinFunction`",
-  "updated_at": "2020-11-30T08:59:44Z"
+  "updated_at": "2020-12-13T07:33:56Z"
  },
  {
   "base": "e4679d4ba196ab5e8959b44468d6a9feb848955c",
@@ -1506,42 +1506,6 @@
   ],
   "title": "Normative: Permit Symbol as WeakMap key and WeakSet entry",
   "updated_at": "2020-07-19T18:42:39Z"
- },
- {
-  "base": "0958d3dd8cba99e0fe5bbc07a73e62912934a840",
-  "created_at": "2020-05-15T02:53:17Z",
-  "head": "3886db35a56e65c4b7fe887f28fb258f00d1c61f",
-  "login": "jmdyck",
-  "number": 1994,
-  "ref": "preambles",
-  "revs": [
-   {
-    "adate": "2020-05-14T21:45:02-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-12-12T23:50:42-05:00",
-    "hash": "3886db35a56e65c4b7fe887f28fb258f00d1c61f",
-    "parents": "c4e578de7e919cc2d5bbdc3cefab27140df28c23",
-    "subject": "Editorial: Standardize preambles for Module Record concrete methods"
-   },
-   {
-    "adate": "2020-05-15T12:37:48-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-12-12T23:34:39-05:00",
-    "hash": "c4e578de7e919cc2d5bbdc3cefab27140df28c23",
-    "parents": "1cd7031fb6ce5fb006c2cc69271cffa5bd39b4a7",
-    "subject": "Editorial: Standardize preambles for Environment Record concrete methods"
-   },
-   {
-    "adate": "2020-05-14T00:14:01-04:00",
-    "author": "Michael Dyck",
-    "date": "2020-12-12T23:17:24-05:00",
-    "hash": "1cd7031fb6ce5fb006c2cc69271cffa5bd39b4a7",
-    "parents": "b3f9b5089bcc3ddd8486379015cd11eb1427a5eb",
-    "subject": "Editorial: Standardize preambles for internal methods"
-   }
-  ],
-  "title": "Editorial: Standardize preambles for internal methods and concrete methods",
-  "updated_at": "2020-12-13T05:08:50Z"
  },
  {
   "base": "0fb85afae0a7f290da3f552ebd3c1fa11e2ef2df",
