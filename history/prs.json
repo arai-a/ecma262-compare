@@ -56,32 +56,24 @@
   "updated_at": "2020-12-14T00:45:40Z"
  },
  {
-  "base": "6cc1a6a121a6bf2b0a5aacb1929cd298c9840f19",
+  "base": "63ca90741c368a912515c56ff056b4e77fe2c64f",
   "created_at": "2020-12-13T18:03:20Z",
-  "head": "92b3b2cc53a484af12ba6b3a8c7aafa65f7c2ae9",
+  "head": "c874fcd3575399b1a02c7211281e201e2541248b",
   "login": "tc39",
   "number": 2252,
   "ref": "json-parse-proto",
   "revs": [
    {
-    "adate": "2020-12-13T09:59:27-08:00",
+    "adate": "2020-12-14T11:58:09-08:00",
     "author": "Kevin Gibbons",
-    "date": "2020-12-13T09:59:27-08:00",
-    "hash": "92b3b2cc53a484af12ba6b3a8c7aafa65f7c2ae9",
-    "parents": "7650f69600f2c1a42cfeb45d815f180bed203553",
-    "subject": "Editorial: reword conditions where B.3.1 error does not apply"
-   },
-   {
-    "adate": "2020-12-13T09:53:07-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2020-12-13T09:53:07-08:00",
-    "hash": "7650f69600f2c1a42cfeb45d815f180bed203553",
-    "parents": "6cc1a6a121a6bf2b0a5aacb1929cd298c9840f19",
-    "subject": "Normative: do not apply Early Error for duplicate __proto__ properties when performing JSON.parse"
+    "date": "2020-12-14T11:58:09-08:00",
+    "hash": "c874fcd3575399b1a02c7211281e201e2541248b",
+    "parents": "63ca90741c368a912515c56ff056b4e77fe2c64f",
+    "subject": "Normative: do not apply Early Error for duplicate __proto__ properties when performing JSON.parse (#2252)"
    }
   ],
   "title": "Normative: do not apply Early Error for duplicate __proto__ properties when performing JSON.parse",
-  "updated_at": "2020-12-13T18:03:20Z"
+  "updated_at": "2020-12-14T19:58:21Z"
  },
  {
   "base": "b3f9b5089bcc3ddd8486379015cd11eb1427a5eb",
@@ -3854,26 +3846,6 @@
   ],
   "title": "Editorial: remove unnecessary AddRestrictedFunctionProperties",
   "updated_at": "2020-07-11T17:02:07Z"
- },
- {
-  "base": "0958d3dd8cba99e0fe5bbc07a73e62912934a840",
-  "created_at": "2018-01-29T22:08:48Z",
-  "head": "b9cf4e85f9b230456811155354bda2fba9017ea5",
-  "login": "ljharb",
-  "number": 1086,
-  "ref": "is_zero",
-  "revs": [
-   {
-    "adate": "2020-12-12T13:44:15-08:00",
-    "author": "Jordan Harband",
-    "date": "2020-12-12T13:44:15-08:00",
-    "hash": "b9cf4e85f9b230456811155354bda2fba9017ea5",
-    "parents": "0958d3dd8cba99e0fe5bbc07a73e62912934a840",
-    "subject": "Editorial: fix remaining \"is zero\" (#1086)"
-   }
-  ],
-  "title": "Editorial: use \"is 0\" instead of \"is zero\" for consistency",
-  "updated_at": "2020-12-12T21:44:30Z"
  },
  {
   "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
