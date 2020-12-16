@@ -56,26 +56,6 @@
   "updated_at": "2020-12-14T00:45:40Z"
  },
  {
-  "base": "63ca90741c368a912515c56ff056b4e77fe2c64f",
-  "created_at": "2020-12-13T18:03:20Z",
-  "head": "c874fcd3575399b1a02c7211281e201e2541248b",
-  "login": "tc39",
-  "number": 2252,
-  "ref": "json-parse-proto",
-  "revs": [
-   {
-    "adate": "2020-12-14T11:58:09-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2020-12-14T11:58:09-08:00",
-    "hash": "c874fcd3575399b1a02c7211281e201e2541248b",
-    "parents": "63ca90741c368a912515c56ff056b4e77fe2c64f",
-    "subject": "Normative: do not apply Early Error for duplicate __proto__ properties when performing JSON.parse (#2252)"
-   }
-  ],
-  "title": "Normative: do not apply Early Error for duplicate __proto__ properties when performing JSON.parse",
-  "updated_at": "2020-12-14T19:58:21Z"
- },
- {
   "base": "b3f9b5089bcc3ddd8486379015cd11eb1427a5eb",
   "created_at": "2020-12-11T01:13:17Z",
   "head": "b0f1226d407f2e908b7ee03bfafe4dca3d6cce0d",
@@ -330,42 +310,6 @@
   ],
   "title": "Editorial: List the [[Construct]]-requires-[[Call]] invariant in the list of invariants",
   "updated_at": "2020-10-27T01:21:58Z"
- },
- {
-  "base": "b3f9b5089bcc3ddd8486379015cd11eb1427a5eb",
-  "created_at": "2020-10-21T01:23:08Z",
-  "head": "869005a54ad63ac79e8b656643f232265f6bfbe8",
-  "login": "rkirsling",
-  "number": 2210,
-  "ref": "integerindexedelementset-must-return-true",
-  "revs": [
-   {
-    "adate": "2020-10-21T13:46:12-07:00",
-    "author": "Ross Kirsling",
-    "date": "2020-12-10T12:21:48-08:00",
-    "hash": "869005a54ad63ac79e8b656643f232265f6bfbe8",
-    "parents": "6a20bbb044f8baac626ae0a5e2e694b18c0564fe",
-    "subject": "Do away with IntegerIndexedElementSet's return value."
-   },
-   {
-    "adate": "2020-10-21T13:33:21-07:00",
-    "author": "Ross Kirsling",
-    "date": "2020-12-10T12:16:42-08:00",
-    "hash": "6a20bbb044f8baac626ae0a5e2e694b18c0564fe",
-    "parents": "d2f8d27323bb18ebc61c365da539df7093febb3e",
-    "subject": "Add note for IntegerIndexedElementSet."
-   },
-   {
-    "adate": "2020-10-20T18:08:19-07:00",
-    "author": "Ross Kirsling",
-    "date": "2020-12-10T12:16:42-08:00",
-    "hash": "d2f8d27323bb18ebc61c365da539df7093febb3e",
-    "parents": "b3f9b5089bcc3ddd8486379015cd11eb1427a5eb",
-    "subject": "IntegerIndexedElementSet should always return true"
-   }
-  ],
-  "title": "Normative: IntegerIndexedElementSet should always indicate success",
-  "updated_at": "2020-12-10T20:30:51Z"
  },
  {
   "base": "f2eb02248838e3482fbb7f02a2a1455c029efa0c",
