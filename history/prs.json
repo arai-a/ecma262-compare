@@ -222,11 +222,19 @@
  {
   "base": "a18acef2559a6f159047ca6fc0f3dd932231fefc",
   "created_at": "2020-11-03T00:20:44Z",
-  "head": "8ba16cd9e6c13b94975050284e9f85178bc6d0ec",
+  "head": "0e31063407ec6673e80709fd1b3ee81ae718defd",
   "login": "rkirsling",
   "number": 2221,
   "ref": "make-typed-array-methods-explicit",
   "revs": [
+   {
+    "adate": "2020-12-15T23:03:39-08:00",
+    "author": "Ross Kirsling",
+    "date": "2020-12-15T23:03:39-08:00",
+    "hash": "0e31063407ec6673e80709fd1b3ee81ae718defd",
+    "parents": "8ba16cd9e6c13b94975050284e9f85178bc6d0ec",
+    "subject": "Remove misleading 'or null'."
+   },
    {
     "adate": "2020-11-30T13:37:45-08:00",
     "author": "Ross Kirsling",
@@ -261,7 +269,7 @@
    }
   ],
   "title": "Normative: Give %TypedArray% methods explicit algorithms.",
-  "updated_at": "2020-11-30T21:37:56Z"
+  "updated_at": "2020-12-16T07:03:48Z"
  },
  {
   "base": "6cc1a6a121a6bf2b0a5aacb1929cd298c9840f19",
