@@ -22,11 +22,19 @@
  {
   "base": "6cc1a6a121a6bf2b0a5aacb1929cd298c9840f19",
   "created_at": "2020-12-13T22:41:21Z",
-  "head": "4f078145633672d625bd338e59a20b1f42358f88",
+  "head": "c6150504c5ebf59c411615735a634536ab47c0ea",
   "login": "tc39",
   "number": 2254,
   "ref": "reword-lookahead",
   "revs": [
+   {
+    "adate": "2020-12-16T15:38:32-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-12-16T15:38:32-08:00",
+    "hash": "c6150504c5ebf59c411615735a634536ab47c0ea",
+    "parents": "4f078145633672d625bd338e59a20b1f42358f88",
+    "subject": "wordsmithing + add sentence about finiteness constraint on nonterminal shorthand"
+   },
    {
     "adate": "2020-12-13T15:21:26-08:00",
     "author": "Kevin Gibbons",
@@ -45,7 +53,7 @@
    }
   ],
   "title": "Editorial: reword definition of lookahead restrictions",
-  "updated_at": "2020-12-13T23:22:00Z"
+  "updated_at": "2020-12-16T23:38:38Z"
  },
  {
   "base": "6cc1a6a121a6bf2b0a5aacb1929cd298c9840f19",
@@ -94,26 +102,6 @@
   ],
   "title": "Normative: Relax the strength of Atomics.compareExchange",
   "updated_at": "2020-12-11T17:41:03Z"
- },
- {
-  "base": "ba0925031b4cecea6af41117746e44cf432d5c4a",
-  "created_at": "2020-12-10T05:26:01Z",
-  "head": "8de7b9c6b9cfb26ec93a31bd87a697c4db5e09ff",
-  "login": "jmdyck",
-  "number": 2248,
-  "ref": "length_is_Number",
-  "revs": [
-   {
-    "adate": "2020-12-16T14:25:07-08:00",
-    "author": "Michael Dyck",
-    "date": "2020-12-16T14:25:07-08:00",
-    "hash": "8de7b9c6b9cfb26ec93a31bd87a697c4db5e09ff",
-    "parents": "ba0925031b4cecea6af41117746e44cf432d5c4a",
-    "subject": "Editorial: Use Number-literal notation for a few 'length' values (#2248)"
-   }
-  ],
-  "title": "Editorial: Use Number-literal notation for a few 'length' values",
-  "updated_at": "2020-12-16T22:25:25Z"
  },
  {
   "base": "6cc1a6a121a6bf2b0a5aacb1929cd298c9840f19",
@@ -190,26 +178,6 @@
   ],
   "title": "Normative: Use onFinally's realm when creating functions in Promise.prototype.finally (fixes #2222)",
   "updated_at": "2020-11-24T08:01:11Z"
- },
- {
-  "base": "889f2f30cf554b7ed812c0984626db1c8a4997c7",
-  "created_at": "2020-11-13T02:40:10Z",
-  "head": "d94cdc3f3cac163f3cd96c14ca1d675842c4bafc",
-  "login": "tc39",
-  "number": 2227,
-  "ref": "lookahead-pedantry",
-  "revs": [
-   {
-    "adate": "2020-11-12T18:35:02-08:00",
-    "author": "Michael Ficarra",
-    "date": "2020-11-12T18:35:02-08:00",
-    "hash": "d94cdc3f3cac163f3cd96c14ca1d675842c4bafc",
-    "parents": "889f2f30cf554b7ed812c0984626db1c8a4997c7",
-    "subject": "Editorial: define how lookahead restrictions work at EOF"
-   }
-  ],
-  "title": "Editorial: define how lookahead restrictions work at EOF",
-  "updated_at": "2020-11-13T02:40:10Z"
  },
  {
   "base": "889f2f30cf554b7ed812c0984626db1c8a4997c7",
