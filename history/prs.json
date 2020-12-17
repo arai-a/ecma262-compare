@@ -1,25 +1,5 @@
 [
  {
-  "base": "8de7b9c6b9cfb26ec93a31bd87a697c4db5e09ff",
-  "created_at": "2020-12-16T20:00:43Z",
-  "head": "305b8d629100480cc4b9ca1132560ee7cc42ab32",
-  "login": "jmdyck",
-  "number": 2255,
-  "ref": "ul_within_p",
-  "revs": [
-   {
-    "adate": "2020-12-16T16:00:03-08:00",
-    "author": "Michael Dyck",
-    "date": "2020-12-16T16:00:03-08:00",
-    "hash": "305b8d629100480cc4b9ca1132560ee7cc42ab32",
-    "parents": "8de7b9c6b9cfb26ec93a31bd87a697c4db5e09ff",
-    "subject": "Markup: Move ul-within-p to outside the p (#2255)"
-   }
-  ],
-  "title": "Markup: Move ul-within-p to outside the p",
-  "updated_at": "2020-12-17T00:00:18Z"
- },
- {
   "base": "6cc1a6a121a6bf2b0a5aacb1929cd298c9840f19",
   "created_at": "2020-12-13T22:41:21Z",
   "head": "af8d1dca19db27e352e0c66dbbf30b58a5dbd54a",
@@ -94,11 +74,19 @@
  {
   "base": "b3f9b5089bcc3ddd8486379015cd11eb1427a5eb",
   "created_at": "2020-12-11T01:13:17Z",
-  "head": "b0f1226d407f2e908b7ee03bfafe4dca3d6cce0d",
+  "head": "b2f46d539a9802c9c2892975267d0d2347860202",
   "login": "syg",
   "number": 2250,
   "ref": "weaken-cas",
   "revs": [
+   {
+    "adate": "2020-12-17T09:16:15-08:00",
+    "author": "Shu-yu Guo",
+    "date": "2020-12-17T09:16:15-08:00",
+    "hash": "b2f46d539a9802c9c2892975267d0d2347860202",
+    "parents": "b0f1226d407f2e908b7ee03bfafe4dca3d6cce0d",
+    "subject": "Move second closer to the use site"
+   },
    {
     "adate": "2020-12-11T09:33:24-08:00",
     "author": "Shu-yu Guo",
@@ -109,7 +97,7 @@
    }
   ],
   "title": "Normative: Relax the strength of Atomics.compareExchange",
-  "updated_at": "2020-12-11T17:41:03Z"
+  "updated_at": "2020-12-17T17:45:10Z"
  },
  {
   "base": "6cc1a6a121a6bf2b0a5aacb1929cd298c9840f19",
