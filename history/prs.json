@@ -22,11 +22,19 @@
  {
   "base": "6cc1a6a121a6bf2b0a5aacb1929cd298c9840f19",
   "created_at": "2020-12-13T22:41:21Z",
-  "head": "c6150504c5ebf59c411615735a634536ab47c0ea",
+  "head": "af8d1dca19db27e352e0c66dbbf30b58a5dbd54a",
   "login": "tc39",
   "number": 2254,
   "ref": "reword-lookahead",
   "revs": [
+   {
+    "adate": "2020-12-16T19:05:38-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-12-16T19:05:38-08:00",
+    "hash": "af8d1dca19db27e352e0c66dbbf30b58a5dbd54a",
+    "parents": "c6150504c5ebf59c411615735a634536ab47c0ea",
+    "subject": "commasmithing"
+   },
    {
     "adate": "2020-12-16T15:38:32-08:00",
     "author": "Kevin Gibbons",
@@ -53,7 +61,7 @@
    }
   ],
   "title": "Editorial: reword definition of lookahead restrictions",
-  "updated_at": "2020-12-16T23:38:38Z"
+  "updated_at": "2020-12-17T03:05:47Z"
  },
  {
   "base": "6cc1a6a121a6bf2b0a5aacb1929cd298c9840f19",
