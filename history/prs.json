@@ -2,11 +2,19 @@
  {
   "base": "6cc1a6a121a6bf2b0a5aacb1929cd298c9840f19",
   "created_at": "2020-12-13T22:41:21Z",
-  "head": "af8d1dca19db27e352e0c66dbbf30b58a5dbd54a",
+  "head": "7351ba7bca46b8552f08797c68b450ac471567fe",
   "login": "tc39",
   "number": 2254,
   "ref": "reword-lookahead",
   "revs": [
+   {
+    "adate": "2020-12-18T09:33:57-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-12-18T09:33:57-08:00",
+    "hash": "7351ba7bca46b8552f08797c68b450ac471567fe",
+    "parents": "af8d1dca19db27e352e0c66dbbf30b58a5dbd54a",
+    "subject": "mention sets per waldemar"
+   },
    {
     "adate": "2020-12-16T19:05:38-08:00",
     "author": "Kevin Gibbons",
@@ -41,7 +49,7 @@
    }
   ],
   "title": "Editorial: reword definition of lookahead restrictions",
-  "updated_at": "2020-12-17T03:05:47Z"
+  "updated_at": "2020-12-18T17:34:53Z"
  },
  {
   "base": "6cc1a6a121a6bf2b0a5aacb1929cd298c9840f19",
