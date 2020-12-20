@@ -2,11 +2,19 @@
  {
   "base": "6cc1a6a121a6bf2b0a5aacb1929cd298c9840f19",
   "created_at": "2020-12-13T22:41:21Z",
-  "head": "7351ba7bca46b8552f08797c68b450ac471567fe",
+  "head": "dfa802a10b2be0888c606abe9913b144f3bef997",
   "login": "tc39",
   "number": 2254,
   "ref": "reword-lookahead",
   "revs": [
+   {
+    "adate": "2020-12-19T17:24:30-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-12-19T17:24:30-08:00",
+    "hash": "dfa802a10b2be0888c606abe9913b144f3bef997",
+    "parents": "7351ba7bca46b8552f08797c68b450ac471567fe",
+    "subject": "fix typo"
+   },
    {
     "adate": "2020-12-18T09:33:57-08:00",
     "author": "Kevin Gibbons",
@@ -49,7 +57,7 @@
    }
   ],
   "title": "Editorial: reword definition of lookahead restrictions",
-  "updated_at": "2020-12-18T17:34:53Z"
+  "updated_at": "2020-12-20T01:24:41Z"
  },
  {
   "base": "6cc1a6a121a6bf2b0a5aacb1929cd298c9840f19",
