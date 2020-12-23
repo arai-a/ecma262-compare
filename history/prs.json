@@ -1,63 +1,23 @@
 [
  {
-  "base": "6cc1a6a121a6bf2b0a5aacb1929cd298c9840f19",
+  "base": "305b8d629100480cc4b9ca1132560ee7cc42ab32",
   "created_at": "2020-12-13T22:41:21Z",
-  "head": "dfa802a10b2be0888c606abe9913b144f3bef997",
+  "head": "0444d3534a0669981752e03c4d26ad05fcd6715a",
   "login": "tc39",
   "number": 2254,
   "ref": "reword-lookahead",
   "revs": [
    {
-    "adate": "2020-12-19T17:24:30-08:00",
+    "adate": "2020-12-22T21:26:43-08:00",
     "author": "Kevin Gibbons",
-    "date": "2020-12-19T17:24:30-08:00",
-    "hash": "dfa802a10b2be0888c606abe9913b144f3bef997",
-    "parents": "7351ba7bca46b8552f08797c68b450ac471567fe",
-    "subject": "fix typo"
-   },
-   {
-    "adate": "2020-12-18T09:33:57-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2020-12-18T09:33:57-08:00",
-    "hash": "7351ba7bca46b8552f08797c68b450ac471567fe",
-    "parents": "af8d1dca19db27e352e0c66dbbf30b58a5dbd54a",
-    "subject": "mention sets per waldemar"
-   },
-   {
-    "adate": "2020-12-16T19:05:38-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2020-12-16T19:05:38-08:00",
-    "hash": "af8d1dca19db27e352e0c66dbbf30b58a5dbd54a",
-    "parents": "c6150504c5ebf59c411615735a634536ab47c0ea",
-    "subject": "commasmithing"
-   },
-   {
-    "adate": "2020-12-16T15:38:32-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2020-12-16T15:38:32-08:00",
-    "hash": "c6150504c5ebf59c411615735a634536ab47c0ea",
-    "parents": "4f078145633672d625bd338e59a20b1f42358f88",
-    "subject": "wordsmithing + add sentence about finiteness constraint on nonterminal shorthand"
-   },
-   {
-    "adate": "2020-12-13T15:21:26-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2020-12-13T15:21:26-08:00",
-    "hash": "4f078145633672d625bd338e59a20b1f42358f88",
-    "parents": "b9d97950893ebc3835d82092d75331248d613ee5",
-    "subject": "adopt jmdyck suggestions"
-   },
-   {
-    "adate": "2020-12-13T14:22:52-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2020-12-13T14:38:07-08:00",
-    "hash": "b9d97950893ebc3835d82092d75331248d613ee5",
-    "parents": "6cc1a6a121a6bf2b0a5aacb1929cd298c9840f19",
-    "subject": "Editorial: reword definition of lookahead restrictions"
+    "date": "2020-12-22T21:26:43-08:00",
+    "hash": "0444d3534a0669981752e03c4d26ad05fcd6715a",
+    "parents": "305b8d629100480cc4b9ca1132560ee7cc42ab32",
+    "subject": "Editorial: reword definition of lookahead restrictions (#2254)"
    }
   ],
   "title": "Editorial: reword definition of lookahead restrictions",
-  "updated_at": "2020-12-20T01:24:41Z"
+  "updated_at": "2020-12-23T05:35:06Z"
  },
  {
   "base": "6cc1a6a121a6bf2b0a5aacb1929cd298c9840f19",
