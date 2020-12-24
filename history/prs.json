@@ -1,25 +1,5 @@
 [
  {
-  "base": "305b8d629100480cc4b9ca1132560ee7cc42ab32",
-  "created_at": "2020-12-13T22:41:21Z",
-  "head": "0444d3534a0669981752e03c4d26ad05fcd6715a",
-  "login": "tc39",
-  "number": 2254,
-  "ref": "reword-lookahead",
-  "revs": [
-   {
-    "adate": "2020-12-22T21:26:43-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2020-12-22T21:26:43-08:00",
-    "hash": "0444d3534a0669981752e03c4d26ad05fcd6715a",
-    "parents": "305b8d629100480cc4b9ca1132560ee7cc42ab32",
-    "subject": "Editorial: reword definition of lookahead restrictions (#2254)"
-   }
-  ],
-  "title": "Editorial: reword definition of lookahead restrictions",
-  "updated_at": "2020-12-23T05:35:06Z"
- },
- {
   "base": "6cc1a6a121a6bf2b0a5aacb1929cd298c9840f19",
   "created_at": "2020-12-13T19:13:12Z",
   "head": "26937f5720cd2187b020281b4bd3b97ffd69767b",
@@ -1626,26 +1606,6 @@
   ],
   "title": "Editorial: Improve\u00a0`Array.[[DefineOwnProperty]]` length\u00a0variable\u00a0names",
   "updated_at": "2020-04-30T09:27:11Z"
- },
- {
-  "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
-  "created_at": "2020-01-03T22:14:01Z",
-  "head": "297f7fb6aae58f28b80e0bdfe7d0604c2de190ce",
-  "login": "bathos",
-  "number": 1828,
-  "ref": "lookahead-shorthand-correction",
-  "revs": [
-   {
-    "adate": "2020-01-03T17:01:16-05:00",
-    "author": "Darien Maillet Valentine",
-    "date": "2020-01-03T17:01:16-05:00",
-    "hash": "297f7fb6aae58f28b80e0bdfe7d0604c2de190ce",
-    "parents": "8c3fb1f0ed9b55ea1ca075b82e3525e469bd1b6b",
-    "subject": "Lookahead single-element shorthand permits terminal sequences"
-   }
-  ],
-  "title": "Editorial: Lookahead single-element shorthand permits terminal sequences",
-  "updated_at": "2020-03-27T07:01:22Z"
  },
  {
   "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
@@ -3712,32 +3672,24 @@
   "updated_at": "2020-03-27T07:01:39Z"
  },
  {
-  "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
+  "base": "0444d3534a0669981752e03c4d26ad05fcd6715a",
   "created_at": "2018-06-17T20:22:41Z",
-  "head": "6a3609b0126819a24c2b7cb3c2dd1d19402af3ba",
+  "head": "0de9fab61f0253f40904783481de1836959b3101",
   "login": "ryzokuken",
   "number": 1234,
   "ref": "editorial-1170",
   "revs": [
    {
-    "adate": "2018-06-18T08:48:26+05:30",
-    "author": "Ujjwal Sharma",
-    "date": "2018-06-18T08:48:26+05:30",
-    "hash": "6a3609b0126819a24c2b7cb3c2dd1d19402af3ba",
-    "parents": "7dd6f4d69435acc1416e96284478173ebfdea4ee",
-    "subject": "fixup! Editorial: move Section 25.6 Promise Objects"
-   },
-   {
     "adate": "2018-06-18T01:38:37+05:30",
     "author": "Ujjwal Sharma",
-    "date": "2018-06-18T01:51:41+05:30",
-    "hash": "7dd6f4d69435acc1416e96284478173ebfdea4ee",
-    "parents": "1f5aebe796d39c7446897e55786f7533f1afe593",
+    "date": "2020-12-23T18:48:26-08:00",
+    "hash": "0de9fab61f0253f40904783481de1836959b3101",
+    "parents": "0444d3534a0669981752e03c4d26ad05fcd6715a",
     "subject": "Editorial: move Section 25.6 Promise Objects"
    }
   ],
   "title": "Editorial: move Section 25.6 Promise Objects",
-  "updated_at": "2020-03-27T07:01:40Z"
+  "updated_at": "2020-12-24T02:49:09Z"
  },
  {
   "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
