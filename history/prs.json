@@ -1,6 +1,26 @@
 [
  {
   "base": "0444d3534a0669981752e03c4d26ad05fcd6715a",
+  "created_at": "2020-12-26T05:14:05Z",
+  "head": "dfa8c903c91bcb253bdc6439ea216de56bad033f",
+  "login": "tc39",
+  "number": 2258,
+  "ref": "reword-stringindexof",
+  "revs": [
+   {
+    "adate": "2020-12-25T21:09:28-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-12-25T21:09:28-08:00",
+    "hash": "dfa8c903c91bcb253bdc6439ea216de56bad033f",
+    "parents": "0444d3534a0669981752e03c4d26ad05fcd6715a",
+    "subject": "Editorial: reword StringIndexOf in terms of substring"
+   }
+  ],
+  "title": "Editorial: reword StringIndexOf in terms of substring",
+  "updated_at": "2020-12-26T05:20:44Z"
+ },
+ {
+  "base": "0444d3534a0669981752e03c4d26ad05fcd6715a",
   "created_at": "2020-12-26T04:01:15Z",
   "head": "fc1b50b8036a3d69c2d9456bb8d4ad840bc3cdac",
   "login": "tc39",
@@ -90,34 +110,6 @@
   ],
   "title": "Editorial: Standardize preambles for host-defined abstract operations",
   "updated_at": "2020-12-14T00:45:40Z"
- },
- {
-  "base": "b3f9b5089bcc3ddd8486379015cd11eb1427a5eb",
-  "created_at": "2020-12-11T01:13:17Z",
-  "head": "b2f46d539a9802c9c2892975267d0d2347860202",
-  "login": "syg",
-  "number": 2250,
-  "ref": "weaken-cas",
-  "revs": [
-   {
-    "adate": "2020-12-17T09:16:15-08:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-12-17T09:16:15-08:00",
-    "hash": "b2f46d539a9802c9c2892975267d0d2347860202",
-    "parents": "b0f1226d407f2e908b7ee03bfafe4dca3d6cce0d",
-    "subject": "Move second closer to the use site"
-   },
-   {
-    "adate": "2020-12-11T09:33:24-08:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-12-11T09:34:28-08:00",
-    "hash": "b0f1226d407f2e908b7ee03bfafe4dca3d6cce0d",
-    "parents": "b3f9b5089bcc3ddd8486379015cd11eb1427a5eb",
-    "subject": "Normative: Relax the strength of Atomics.compareExchange"
-   }
-  ],
-  "title": "Normative: Relax the strength of Atomics.compareExchange",
-  "updated_at": "2020-12-17T17:45:10Z"
  },
  {
   "base": "6cc1a6a121a6bf2b0a5aacb1929cd298c9840f19",
