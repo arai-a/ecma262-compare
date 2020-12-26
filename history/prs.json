@@ -2,11 +2,19 @@
  {
   "base": "0444d3534a0669981752e03c4d26ad05fcd6715a",
   "created_at": "2020-12-26T01:09:38Z",
-  "head": "a1227a8c350e741895f875d60ac610719565b6ee",
+  "head": "58ff065cdb583d8aa13fd270da470ab95aa46617",
   "login": "tc39",
   "number": 2256,
   "ref": "for-async-of",
   "revs": [
+   {
+    "adate": "2020-12-25T18:43:11-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-12-25T18:43:11-08:00",
+    "hash": "58ff065cdb583d8aa13fd270da470ab95aa46617",
+    "parents": "a1227a8c350e741895f875d60ac610719565b6ee",
+    "subject": "distinct tokens"
+   },
    {
     "adate": "2020-12-25T16:59:14-08:00",
     "author": "Kevin Gibbons",
@@ -17,7 +25,7 @@
    }
   ],
   "title": "Normative: forbid for-of loops with variable named async",
-  "updated_at": "2020-12-26T01:33:55Z"
+  "updated_at": "2020-12-26T02:43:21Z"
  },
  {
   "base": "6cc1a6a121a6bf2b0a5aacb1929cd298c9840f19",
