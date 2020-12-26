@@ -2,11 +2,27 @@
  {
   "base": "0444d3534a0669981752e03c4d26ad05fcd6715a",
   "created_at": "2020-12-26T04:01:15Z",
-  "head": "c7789c6d131f269499ad3a3e96de181c5a3215cc",
+  "head": "fc1b50b8036a3d69c2d9456bb8d4ad840bc3cdac",
   "login": "tc39",
   "number": 2257,
   "ref": "json-is-not-a-subset",
   "revs": [
+   {
+    "adate": "2020-12-25T20:47:09-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-12-25T20:47:09-08:00",
+    "hash": "fc1b50b8036a3d69c2d9456bb8d4ad840bc3cdac",
+    "parents": "b0ec5f150918d943026089936bcfaa97dc1ed8d7",
+    "subject": "typo"
+   },
+   {
+    "adate": "2020-12-25T20:46:04-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-12-25T20:46:04-08:00",
+    "hash": "b0ec5f150918d943026089936bcfaa97dc1ed8d7",
+    "parents": "c7789c6d131f269499ad3a3e96de181c5a3215cc",
+    "subject": "expand note to include duplicate __proto__ error"
+   },
    {
     "adate": "2020-12-25T19:52:13-08:00",
     "author": "Kevin Gibbons",
@@ -17,7 +33,7 @@
    }
   ],
   "title": "Editorial: note that JSON is not a semantic subset of ECMAScript",
-  "updated_at": "2020-12-26T04:01:15Z"
+  "updated_at": "2020-12-26T04:47:15Z"
  },
  {
   "base": "0444d3534a0669981752e03c4d26ad05fcd6715a",
