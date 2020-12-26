@@ -1,5 +1,25 @@
 [
  {
+  "base": "0444d3534a0669981752e03c4d26ad05fcd6715a",
+  "created_at": "2020-12-26T01:09:38Z",
+  "head": "a1227a8c350e741895f875d60ac610719565b6ee",
+  "login": "tc39",
+  "number": 2256,
+  "ref": "for-async-of",
+  "revs": [
+   {
+    "adate": "2020-12-25T16:59:14-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2020-12-25T17:04:29-08:00",
+    "hash": "a1227a8c350e741895f875d60ac610719565b6ee",
+    "parents": "0444d3534a0669981752e03c4d26ad05fcd6715a",
+    "subject": "Normative: forbid for-of loops with variable named async"
+   }
+  ],
+  "title": "Normative: forbid for-of loops with variable named async",
+  "updated_at": "2020-12-26T01:33:55Z"
+ },
+ {
   "base": "6cc1a6a121a6bf2b0a5aacb1929cd298c9840f19",
   "created_at": "2020-12-13T19:13:12Z",
   "head": "26937f5720cd2187b020281b4bd3b97ffd69767b",
