@@ -792,13 +792,61 @@
   "updated_at": "2020-09-08T12:19:20Z"
  },
  {
-  "base": "096f30b7c7ee7b12f6907bb5760496711c29b66f",
+  "base": "0444d3534a0669981752e03c4d26ad05fcd6715a",
   "created_at": "2020-06-14T06:21:06Z",
-  "head": "5da900bdb95ad8632eea94cc6061c0123df8eb43",
+  "head": "4296f4a530657815901838a3634491e207d4e1d0",
   "login": "Jack-Works",
   "number": 2045,
   "ref": "generator",
   "revs": [
+   {
+    "adate": "2020-12-26T11:33:38+08:00",
+    "author": "Jack Works",
+    "date": "2020-12-26T11:33:38+08:00",
+    "hash": "4296f4a530657815901838a3634491e207d4e1d0",
+    "parents": "dae0ca03622b307badee04eda410ecfa82efd50a",
+    "subject": "chore: cleanup unused args"
+   },
+   {
+    "adate": "2020-12-26T11:28:10+08:00",
+    "author": "Jack Works",
+    "date": "2020-12-26T11:28:10+08:00",
+    "hash": "dae0ca03622b307badee04eda410ecfa82efd50a",
+    "parents": "c29726393ab28ed3e7315380788870d365a5d8e8",
+    "subject": "fix: array iterator"
+   },
+   {
+    "adate": "2020-12-26T11:11:37+08:00",
+    "author": "Jack Works",
+    "date": "2020-12-26T11:11:37+08:00",
+    "hash": "c29726393ab28ed3e7315380788870d365a5d8e8",
+    "parents": "2ac0ca72e983c79636d2fba7734d19949f0385da",
+    "subject": "fix: some editoral problems"
+   },
+   {
+    "adate": "2020-12-26T11:08:10+08:00",
+    "author": "Jack Works",
+    "date": "2020-12-26T11:08:10+08:00",
+    "hash": "2ac0ca72e983c79636d2fba7734d19949f0385da",
+    "parents": "50c96f44e2ffec0a2f95d43ffe0dbc88f94a9160",
+    "subject": "fix: bugs in set iterator and map iterator"
+   },
+   {
+    "adate": "2020-12-26T11:04:23+08:00",
+    "author": "Jack Works",
+    "date": "2020-12-26T11:04:23+08:00",
+    "hash": "50c96f44e2ffec0a2f95d43ffe0dbc88f94a9160",
+    "parents": "7b9121bd2e9c7ecfb0f9d0fd1ec07fbd3b5ddb9e",
+    "subject": "fix: bug in array iterator"
+   },
+   {
+    "adate": "2020-12-26T10:55:52+08:00",
+    "author": "Jack Works",
+    "date": "2020-12-26T10:55:52+08:00",
+    "hash": "7b9121bd2e9c7ecfb0f9d0fd1ec07fbd3b5ddb9e",
+    "parents": "5da900bdb95ad8632eea94cc6061c0123df8eb43 0444d3534a0669981752e03c4d26ad05fcd6715a",
+    "subject": "Merge branch 'master' into generator"
+   },
    {
     "adate": "2020-10-21T11:13:01+08:00",
     "author": "Jack Works",
@@ -1473,7 +1521,7 @@
    }
   ],
   "title": "Editorial: Add Yield, CreateIteratorFromClosure, CreateAsyncIteratorFromClosure abs op.",
-  "updated_at": "2020-10-21T03:15:01Z"
+  "updated_at": "2020-12-26T03:33:48Z"
  },
  {
   "base": "56032d3271949f2892745d4a8e06d1322ba7220d",
