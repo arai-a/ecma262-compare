@@ -830,11 +830,19 @@
  {
   "base": "23cd62456da81921445baf8645fe332c3496f5bf",
   "created_at": "2020-06-14T06:21:06Z",
-  "head": "e3b93a48757c6b932abf87ce2b2a48c4115b7fff",
+  "head": "1ab2bc324c0c936dd5f7250a067361c57c5cfe11",
   "login": "Jack-Works",
   "number": 2045,
   "ref": "generator",
   "revs": [
+   {
+    "adate": "2020-12-27T11:35:37+08:00",
+    "author": "Jack Works",
+    "date": "2020-12-27T11:35:37+08:00",
+    "hash": "1ab2bc324c0c936dd5f7250a067361c57c5cfe11",
+    "parents": "e3b93a48757c6b932abf87ce2b2a48c4115b7fff 23cd62456da81921445baf8645fe332c3496f5bf",
+    "subject": "Merge branch 'master' into generator"
+   },
    {
     "adate": "2020-12-27T09:32:31+08:00",
     "author": "Jack Works",
@@ -845,7 +853,7 @@
    }
   ],
   "title": "Editorial: Add Yield, CreateIteratorFromClosure, CreateAsyncIteratorFromClosure abs op.",
-  "updated_at": "2020-12-27T01:35:58Z"
+  "updated_at": "2020-12-27T03:41:42Z"
  },
  {
   "base": "56032d3271949f2892745d4a8e06d1322ba7220d",
