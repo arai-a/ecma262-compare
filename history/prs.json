@@ -1,6 +1,26 @@
 [
  {
   "base": "6d6b73ab6fe3b070737a5cbded19337a8b9e4c9c",
+  "created_at": "2021-01-01T03:56:06Z",
+  "head": "f45eb697fd6570ba714263f65e22a316d6ac5620",
+  "login": "jmdyck",
+  "number": 2263,
+  "ref": "NonToken",
+  "revs": [
+   {
+    "adate": "2020-12-31T22:24:39-05:00",
+    "author": "Michael Dyck",
+    "date": "2020-12-31T22:52:43-05:00",
+    "hash": "f45eb697fd6570ba714263f65e22a316d6ac5620",
+    "parents": "6d6b73ab6fe3b070737a5cbded19337a8b9e4c9c",
+    "subject": "Editorial: Factor out 'NonToken' production"
+   }
+  ],
+  "title": "Editorial: Factor out 'NonToken' production",
+  "updated_at": "2021-01-01T03:56:14Z"
+ },
+ {
+  "base": "6d6b73ab6fe3b070737a5cbded19337a8b9e4c9c",
   "created_at": "2020-12-28T19:27:07Z",
   "head": "d5dc0cc54307cd598884a6ece2a0759d94d495ef",
   "login": "ljharb",
