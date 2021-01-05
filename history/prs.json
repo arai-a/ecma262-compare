@@ -96,26 +96,6 @@
   "updated_at": "2020-12-26T05:20:44Z"
  },
  {
-  "base": "6d6b73ab6fe3b070737a5cbded19337a8b9e4c9c",
-  "created_at": "2020-12-26T04:01:15Z",
-  "head": "b04a9d443ccb59dbeb6e28a0924158d128fce400",
-  "login": "tc39",
-  "number": 2257,
-  "ref": "json-is-not-a-subset",
-  "revs": [
-   {
-    "adate": "2021-01-04T13:49:38-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-01-04T13:49:38-08:00",
-    "hash": "b04a9d443ccb59dbeb6e28a0924158d128fce400",
-    "parents": "6d6b73ab6fe3b070737a5cbded19337a8b9e4c9c",
-    "subject": "Editorial: note that JSON is not a semantic subset of ECMAScript (#2257)"
-   }
-  ],
-  "title": "Editorial: note that JSON is not a semantic subset of ECMAScript",
-  "updated_at": "2021-01-04T21:51:00Z"
- },
- {
   "base": "0444d3534a0669981752e03c4d26ad05fcd6715a",
   "created_at": "2020-12-26T01:09:38Z",
   "head": "58ff065cdb583d8aa13fd270da470ab95aa46617",
@@ -424,24 +404,40 @@
   "updated_at": "2020-10-05T15:02:31Z"
  },
  {
-  "base": "e4679d4ba196ab5e8959b44468d6a9feb848955c",
+  "base": "b04a9d443ccb59dbeb6e28a0924158d128fce400",
   "created_at": "2020-09-23T23:25:42Z",
-  "head": "b840ed5336ccbbad19627ecc2bf5947933b1d9d0",
+  "head": "d233b038c061b536fdafce6ac5abdce29f4ac691",
   "login": "ryanjduffy",
   "number": 2189,
   "ref": "issue-2179",
   "revs": [
    {
+    "adate": "2021-01-04T17:48:16-08:00",
+    "author": "Michael Ficarra",
+    "date": "2021-01-04T17:48:16-08:00",
+    "hash": "d233b038c061b536fdafce6ac5abdce29f4ac691",
+    "parents": "f7c5557bc65b0964ef0836ed49be310fffc83a59",
+    "subject": "improved summary"
+   },
+   {
+    "adate": "2021-01-04T17:46:01-08:00",
+    "author": "Michael Ficarra",
+    "date": "2021-01-04T17:46:01-08:00",
+    "hash": "f7c5557bc65b0964ef0836ed49be310fffc83a59",
+    "parents": "86272b5245bbd2bd3fa486883b50922bb2f00e62",
+    "subject": "refactor Number::add"
+   },
+   {
     "adate": "2020-09-23T15:48:40-07:00",
     "author": "Ryan Duffy",
-    "date": "2020-09-23T15:48:40-07:00",
-    "hash": "b840ed5336ccbbad19627ecc2bf5947933b1d9d0",
-    "parents": "d97be3ea2f451adbaae55c817d5d0ac0597a8555",
+    "date": "2021-01-04T17:18:50-08:00",
+    "hash": "86272b5245bbd2bd3fa486883b50922bb2f00e62",
+    "parents": "b04a9d443ccb59dbeb6e28a0924158d128fce400",
     "subject": "update add()"
    }
   ],
   "title": "Convert Number abstract operations to algorithmic steps",
-  "updated_at": "2020-09-24T02:09:35Z"
+  "updated_at": "2021-01-05T01:48:29Z"
  },
  {
   "base": "65d5bcc81b65f822d4a8f31ece1bda30f5ca3036",
