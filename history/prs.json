@@ -2,11 +2,19 @@
  {
   "base": "b04a9d443ccb59dbeb6e28a0924158d128fce400",
   "created_at": "2021-01-05T18:36:58Z",
-  "head": "c4f243685c6e6237e4faf4801c8821cf3ca2ed71",
+  "head": "9047392afbfe5e9636c1cf2a8fe43a3b759a9ca0",
   "login": "leobalter",
   "number": 2268,
   "ref": "patch-1",
   "revs": [
+   {
+    "adate": "2021-01-05T12:34:49-08:00",
+    "author": "Leo Balter",
+    "date": "2021-01-05T12:34:49-08:00",
+    "hash": "9047392afbfe5e9636c1cf2a8fe43a3b759a9ca0",
+    "parents": "c4f243685c6e6237e4faf4801c8821cf3ca2ed71",
+    "subject": "fixup! Add ECMA-402 as a Downstream dependency"
+   },
    {
     "adate": "2021-01-05T10:36:35-08:00",
     "author": "Leo Balter",
@@ -17,7 +25,7 @@
    }
   ],
   "title": "Add ECMA-402 as a Downstream dependency",
-  "updated_at": "2021-01-05T18:47:21Z"
+  "updated_at": "2021-01-05T20:37:12Z"
  },
  {
   "base": "b04a9d443ccb59dbeb6e28a0924158d128fce400",
