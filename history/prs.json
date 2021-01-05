@@ -406,11 +406,19 @@
  {
   "base": "b04a9d443ccb59dbeb6e28a0924158d128fce400",
   "created_at": "2020-09-23T23:25:42Z",
-  "head": "d233b038c061b536fdafce6ac5abdce29f4ac691",
+  "head": "deb65e2426eba214a431da5364c9fa425f87a6fa",
   "login": "ryanjduffy",
   "number": 2189,
   "ref": "issue-2179",
   "revs": [
+   {
+    "adate": "2021-01-04T18:41:35-08:00",
+    "author": "Michael Ficarra",
+    "date": "2021-01-04T18:41:35-08:00",
+    "hash": "deb65e2426eba214a431da5364c9fa425f87a6fa",
+    "parents": "d233b038c061b536fdafce6ac5abdce29f4ac691",
+    "subject": "remainder"
+   },
    {
     "adate": "2021-01-04T17:48:16-08:00",
     "author": "Michael Ficarra",
@@ -436,8 +444,8 @@
     "subject": "update add()"
    }
   ],
-  "title": "Convert Number abstract operations to algorithmic steps",
-  "updated_at": "2021-01-05T01:48:29Z"
+  "title": "Editorial: convert Number abstract operations to algorithmic steps",
+  "updated_at": "2021-01-05T02:41:46Z"
  },
  {
   "base": "65d5bcc81b65f822d4a8f31ece1bda30f5ca3036",
