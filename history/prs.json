@@ -426,11 +426,27 @@
  {
   "base": "b04a9d443ccb59dbeb6e28a0924158d128fce400",
   "created_at": "2020-09-23T23:25:42Z",
-  "head": "e3d43e6c0b600bfb272d64848339ac3ae49f278b",
+  "head": "3a9229cc2c2499e5248314fb51ab45bb9dcc02dd",
   "login": "ryanjduffy",
   "number": 2189,
   "ref": "issue-2179",
   "revs": [
+   {
+    "adate": "2021-01-05T21:06:45-08:00",
+    "author": "Michael Ficarra",
+    "date": "2021-01-05T21:06:45-08:00",
+    "hash": "3a9229cc2c2499e5248314fb51ab45bb9dcc02dd",
+    "parents": "5ef171c21444d7ba15ca3430f29736247ef0d4ac",
+    "subject": "division symbol back to /"
+   },
+   {
+    "adate": "2021-01-05T21:04:45-08:00",
+    "author": "Michael Ficarra",
+    "date": "2021-01-05T21:04:45-08:00",
+    "hash": "5ef171c21444d7ba15ca3430f29736247ef0d4ac",
+    "parents": "e3d43e6c0b600bfb272d64848339ac3ae49f278b",
+    "subject": "exponentiate"
+   },
    {
     "adate": "2021-01-05T18:23:09-08:00",
     "author": "Michael Ficarra",
@@ -489,7 +505,7 @@
    }
   ],
   "title": "Editorial: convert Number abstract operations to algorithmic steps",
-  "updated_at": "2021-01-06T02:49:18Z"
+  "updated_at": "2021-01-06T05:08:27Z"
  },
  {
   "base": "65d5bcc81b65f822d4a8f31ece1bda30f5ca3036",
