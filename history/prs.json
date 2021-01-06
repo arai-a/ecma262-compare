@@ -1,26 +1,6 @@
 [
  {
   "base": "b04a9d443ccb59dbeb6e28a0924158d128fce400",
-  "created_at": "2021-01-05T18:36:58Z",
-  "head": "52f7285b0a108d514dd827b9bfb98f1760bd1c40",
-  "login": "leobalter",
-  "number": 2268,
-  "ref": "patch-1",
-  "revs": [
-   {
-    "adate": "2021-01-05T14:20:58-08:00",
-    "author": "Leo Balter",
-    "date": "2021-01-05T14:20:58-08:00",
-    "hash": "52f7285b0a108d514dd827b9bfb98f1760bd1c40",
-    "parents": "b04a9d443ccb59dbeb6e28a0924158d128fce400",
-    "subject": "Editorial: Add ECMA-402 as a Downstream dependency (#2268)"
-   }
-  ],
-  "title": "Editorial: Add ECMA-402 as a Downstream dependency",
-  "updated_at": "2021-01-05T22:21:06Z"
- },
- {
-  "base": "b04a9d443ccb59dbeb6e28a0924158d128fce400",
   "created_at": "2021-01-05T15:39:18Z",
   "head": "7f388324b0e7d38e1ab58035b59226773c21e103",
   "login": "codehag",
@@ -446,11 +426,27 @@
  {
   "base": "b04a9d443ccb59dbeb6e28a0924158d128fce400",
   "created_at": "2020-09-23T23:25:42Z",
-  "head": "a5daf31c4b44ea03b4480eb5e65706508292f0b8",
+  "head": "e3d43e6c0b600bfb272d64848339ac3ae49f278b",
   "login": "ryanjduffy",
   "number": 2189,
   "ref": "issue-2179",
   "revs": [
+   {
+    "adate": "2021-01-05T18:23:09-08:00",
+    "author": "Michael Ficarra",
+    "date": "2021-01-05T18:23:09-08:00",
+    "hash": "e3d43e6c0b600bfb272d64848339ac3ae49f278b",
+    "parents": "b9503883a1c9560c7e5cd5bada04389f8ea6197e",
+    "subject": "multiply"
+   },
+   {
+    "adate": "2021-01-05T15:01:04-08:00",
+    "author": "Michael Ficarra",
+    "date": "2021-01-05T15:01:04-08:00",
+    "hash": "b9503883a1c9560c7e5cd5bada04389f8ea6197e",
+    "parents": "a5daf31c4b44ea03b4480eb5e65706508292f0b8",
+    "subject": "division symbol"
+   },
    {
     "adate": "2021-01-05T14:08:08-08:00",
     "author": "Michael Ficarra",
@@ -493,7 +489,7 @@
    }
   ],
   "title": "Editorial: convert Number abstract operations to algorithmic steps",
-  "updated_at": "2021-01-05T22:08:34Z"
+  "updated_at": "2021-01-06T02:49:18Z"
  },
  {
   "base": "65d5bcc81b65f822d4a8f31ece1bda30f5ca3036",
