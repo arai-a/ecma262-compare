@@ -794,11 +794,19 @@
  {
   "base": "6cc1a6a121a6bf2b0a5aacb1929cd298c9840f19",
   "created_at": "2020-07-28T11:38:00Z",
-  "head": "35adc72a88523bd43d22cd383f3e08d8c60aa891",
+  "head": "bce3f06a26f7a8a4f610d8c67869ba01c6169f72",
   "login": "ExE-Boss",
   "number": 2116,
   "ref": "normative/create-builtin-function/add-name-and-length-parameters",
   "revs": [
+   {
+    "adate": "2021-01-07T14:34:49-08:00",
+    "author": "Shu-yu Guo",
+    "date": "2021-01-07T14:34:49-08:00",
+    "hash": "bce3f06a26f7a8a4f610d8c67869ba01c6169f72",
+    "parents": "35adc72a88523bd43d22cd383f3e08d8c60aa891",
+    "subject": "Address bakkot review"
+   },
    {
     "adate": "2021-01-07T12:29:35-08:00",
     "author": "Shu-yu Guo",
@@ -833,7 +841,7 @@
    }
   ],
   "title": "Normative: Set\u00a0function\u00a0`name` and\u00a0`length` in\u00a0`CreateBuiltinFunction`",
-  "updated_at": "2021-01-07T20:34:19Z"
+  "updated_at": "2021-01-07T22:35:02Z"
  },
  {
   "base": "e4679d4ba196ab5e8959b44468d6a9feb848955c",
