@@ -308,9 +308,9 @@
   "updated_at": "2020-12-16T07:03:48Z"
  },
  {
-  "base": "6cc1a6a121a6bf2b0a5aacb1929cd298c9840f19",
+  "base": "5f4be6e41ce9f6e1997f5e1e42af253145c6c885",
   "created_at": "2020-10-27T19:18:53Z",
-  "head": "50ef50d3fb2a5b1ffe024f05a474a1312fd84a48",
+  "head": "11584cb2b8ebc6f5bf26198eac866bbba28e241f",
   "login": "devsnek",
   "number": 2216,
   "ref": "default-constructor-refactor",
@@ -318,14 +318,14 @@
    {
     "adate": "2020-10-27T14:18:24-05:00",
     "author": "Gus Caplan",
-    "date": "2020-12-13T13:29:45-06:00",
-    "hash": "50ef50d3fb2a5b1ffe024f05a474a1312fd84a48",
-    "parents": "6cc1a6a121a6bf2b0a5aacb1929cd298c9840f19",
+    "date": "2021-01-06T18:14:45-06:00",
+    "hash": "11584cb2b8ebc6f5bf26198eac866bbba28e241f",
+    "parents": "5f4be6e41ce9f6e1997f5e1e42af253145c6c885",
     "subject": "Normative: Define default constructors using spec steps"
    }
   ],
   "title": "Normative: Define default constructors using spec steps",
-  "updated_at": "2020-12-13T19:30:00Z"
+  "updated_at": "2021-01-07T01:19:55Z"
  },
  {
   "base": "096f30b7c7ee7b12f6907bb5760496711c29b66f",
@@ -764,9 +764,9 @@
   "updated_at": "2020-09-20T23:04:54Z"
  },
  {
-  "base": "16c9901d48d8f79e83852dfe6f16d70390a221d1",
+  "base": "5f4be6e41ce9f6e1997f5e1e42af253145c6c885",
   "created_at": "2020-08-05T00:10:45Z",
-  "head": "ddd2672352c4e98e6024a25b7cf28b235309b130",
+  "head": "38e7752411d599985d416035d037e2793051f277",
   "login": "devsnek",
   "number": 2125,
   "ref": "__proto__-shenanigans",
@@ -774,9 +774,9 @@
    {
     "adate": "2020-09-30T16:35:34-06:00",
     "author": "Michael Ficarra",
-    "date": "2020-09-30T16:35:34-06:00",
-    "hash": "ddd2672352c4e98e6024a25b7cf28b235309b130",
-    "parents": "dcf03f0703cac7bf6ad96a5482da15eeb472aeda 16c9901d48d8f79e83852dfe6f16d70390a221d1",
+    "date": "2021-01-06T18:33:07-06:00",
+    "hash": "38e7752411d599985d416035d037e2793051f277",
+    "parents": "dcf03f0703cac7bf6ad96a5482da15eeb472aeda 5f4be6e41ce9f6e1997f5e1e42af253145c6c885",
     "subject": "Merge branch 'master' into __proto__-shenanigans"
    },
    {
@@ -789,7 +789,7 @@
    }
   ],
   "title": "Normative: move __proto__ out of annex b",
-  "updated_at": "2020-09-30T22:35:37Z"
+  "updated_at": "2021-01-07T00:33:16Z"
  },
  {
   "base": "6cc1a6a121a6bf2b0a5aacb1929cd298c9840f19",
