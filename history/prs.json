@@ -1,5 +1,57 @@
 [
  {
+  "base": "52bfd9f5775e368c57b8793d678fee6121797354",
+  "created_at": "2021-01-08T23:01:05Z",
+  "head": "7e0adbd1a3fb2cccd1dba1e8c4b93ccd63e43acd",
+  "login": "tc39",
+  "number": 2270,
+  "ref": "tweaks-for-nt-linking",
+  "revs": [
+   {
+    "adate": "2021-01-08T14:58:55-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-01-08T14:58:55-08:00",
+    "hash": "7e0adbd1a3fb2cccd1dba1e8c4b93ccd63e43acd",
+    "parents": "079017981905b87d7806562ebd5a19155b1ad627",
+    "subject": "Meta: bump ecmarkup to 5.0.0"
+   },
+   {
+    "adate": "2021-01-08T14:56:40-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-01-08T14:56:40-08:00",
+    "hash": "079017981905b87d7806562ebd5a19155b1ad627",
+    "parents": "8338199049007c50235a8e2e685f1d617fab2584",
+    "subject": "Editorial: use `/`, not `&divide;`"
+   },
+   {
+    "adate": "2021-01-07T23:26:45-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-01-07T23:26:45-08:00",
+    "hash": "8338199049007c50235a8e2e685f1d617fab2584",
+    "parents": "a7abda0d33803ff872c4a0b134e629a5c140b581",
+    "subject": "Markup: use bare \"example\" attribute rather than \"type=example\""
+   },
+   {
+    "adate": "2021-01-07T23:26:14-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-01-07T23:26:14-08:00",
+    "hash": "a7abda0d33803ff872c4a0b134e629a5c140b581",
+    "parents": "96f03c6a7c833b5087a27ab83dcd24234ca66f03",
+    "subject": "Markup: fix links to LegacyOctalIntegerLiteral and NonOctalDecimalIntegerLiteral in Annex C"
+   },
+   {
+    "adate": "2021-01-07T23:25:21-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-01-07T23:25:21-08:00",
+    "hash": "96f03c6a7c833b5087a27ab83dcd24234ca66f03",
+    "parents": "52bfd9f5775e368c57b8793d678fee6121797354",
+    "subject": "Markup: write URI pattern without grammarkdown notation"
+   }
+  ],
+  "title": "Meta: bump ecmarkup (and related tweaks)",
+  "updated_at": "2021-01-08T23:04:12Z"
+ },
+ {
   "base": "b04a9d443ccb59dbeb6e28a0924158d128fce400",
   "created_at": "2021-01-05T15:39:18Z",
   "head": "7f388324b0e7d38e1ab58035b59226773c21e103",
@@ -3186,26 +3238,6 @@
   ],
   "title": "Editorial: Step 12 of Array#splice sets the length of the result Array",
   "updated_at": "2020-03-27T07:01:39Z"
- },
- {
-  "base": "5f4be6e41ce9f6e1997f5e1e42af253145c6c885",
-  "created_at": "2018-06-17T20:22:41Z",
-  "head": "dcb775a0c18766370e45f286a526fdd314be8a2e",
-  "login": "ryzokuken",
-  "number": 1234,
-  "ref": "editorial-1170",
-  "revs": [
-   {
-    "adate": "2018-06-18T01:38:37+05:30",
-    "author": "Ujjwal Sharma",
-    "date": "2021-01-06T20:32:21-08:00",
-    "hash": "dcb775a0c18766370e45f286a526fdd314be8a2e",
-    "parents": "5f4be6e41ce9f6e1997f5e1e42af253145c6c885",
-    "subject": "Editorial: move Section 26.6 Promise Objects"
-   }
-  ],
-  "title": "Editorial: move Section 25.6 Promise Objects",
-  "updated_at": "2021-01-07T04:36:17Z"
  },
  {
   "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
