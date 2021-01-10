@@ -2,11 +2,19 @@
  {
   "base": "7e0adbd1a3fb2cccd1dba1e8c4b93ccd63e43acd",
   "created_at": "2021-01-10T07:42:51Z",
-  "head": "98957c8ce2230f5f9095e89d5dc22b9bdf0941f2",
+  "head": "b15c0aace9f8c2108989f27df899f18b143d5859",
   "login": "tc39",
   "number": 2271,
   "ref": "sdo-tweaks",
   "revs": [
+   {
+    "adate": "2021-01-10T10:14:31-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-01-10T10:14:31-08:00",
+    "hash": "b15c0aace9f8c2108989f27df899f18b143d5859",
+    "parents": "98957c8ce2230f5f9095e89d5dc22b9bdf0941f2",
+    "subject": "Editorial: give HasCallInTailPosition an aoid"
+   },
    {
     "adate": "2021-01-09T23:04:20-08:00",
     "author": "Kevin Gibbons",
@@ -369,7 +377,7 @@
    }
   ],
   "title": "Editorial: consolidate each SDO's definition",
-  "updated_at": "2021-01-10T07:55:00Z"
+  "updated_at": "2021-01-10T19:59:45Z"
  },
  {
   "base": "52bfd9f5775e368c57b8793d678fee6121797354",
