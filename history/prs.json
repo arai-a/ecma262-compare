@@ -1,5 +1,25 @@
 [
  {
+  "base": "52bfd9f5775e368c57b8793d678fee6121797354",
+  "created_at": "2021-01-10T23:26:13Z",
+  "head": "60e9a908a06662322984905aedd7d7cb954fd4ab",
+  "login": "tc39",
+  "number": 2272,
+  "ref": "epsilon",
+  "revs": [
+   {
+    "adate": "2021-01-10T15:24:12-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-01-10T15:24:12-08:00",
+    "hash": "60e9a908a06662322984905aedd7d7cb954fd4ab",
+    "parents": "52bfd9f5775e368c57b8793d678fee6121797354",
+    "subject": "Editorial: make EPSILON unambiguously positive"
+   }
+  ],
+  "title": "Editorial: make EPSILON unambiguously positive",
+  "updated_at": "2021-01-10T23:33:27Z"
+ },
+ {
   "base": "7e0adbd1a3fb2cccd1dba1e8c4b93ccd63e43acd",
   "created_at": "2021-01-10T07:42:51Z",
   "head": "b15c0aace9f8c2108989f27df899f18b143d5859",
