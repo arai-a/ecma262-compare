@@ -1,6 +1,26 @@
 [
  {
   "base": "cdaf1b4a9be7e3ee4b299a72a5222cd3005a7a8d",
+  "created_at": "2021-01-12T03:54:42Z",
+  "head": "4ed91a18418017259d6ac098859897d184a97eb5",
+  "login": "jmdyck",
+  "number": 2273,
+  "ref": "tweak_leftShift",
+  "revs": [
+   {
+    "adate": "2021-01-11T22:45:09-05:00",
+    "author": "Michael Dyck",
+    "date": "2021-01-11T22:45:09-05:00",
+    "hash": "4ed91a18418017259d6ac098859897d184a97eb5",
+    "parents": "cdaf1b4a9be7e3ee4b299a72a5222cd3005a7a8d",
+    "subject": "Editorial: Delete \"the Number value for\" in Number::leftShift"
+   }
+  ],
+  "title": "Editorial: Delete \"the Number value for\" in Number::leftShift",
+  "updated_at": "2021-01-12T03:55:26Z"
+ },
+ {
+  "base": "cdaf1b4a9be7e3ee4b299a72a5222cd3005a7a8d",
   "created_at": "2021-01-10T07:42:51Z",
   "head": "6342163d7444d23fe85cdd45df595623721118fa",
   "login": "tc39",
