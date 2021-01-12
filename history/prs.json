@@ -1,19 +1,27 @@
 [
  {
-  "base": "cdaf1b4a9be7e3ee4b299a72a5222cd3005a7a8d",
+  "base": "190d474c3d8728653fbf8a5a37db1de34b9c1472",
   "created_at": "2021-01-10T07:42:51Z",
-  "head": "434d711b8aee3c27a4eac7ecda68ddd7c6c3d9bc",
+  "head": "60678b49fe1ec987bacdaf8d11aa2d7bfb4c3ef1",
   "login": "tc39",
   "number": 2271,
   "ref": "sdo-tweaks",
   "revs": [
    {
-    "adate": "2021-01-11T22:39:46-08:00",
+    "adate": "2021-01-12T10:59:51-08:00",
     "author": "Kevin Gibbons",
-    "date": "2021-01-11T22:48:12-08:00",
-    "hash": "434d711b8aee3c27a4eac7ecda68ddd7c6c3d9bc",
+    "date": "2021-01-12T10:59:56-08:00",
+    "hash": "60678b49fe1ec987bacdaf8d11aa2d7bfb4c3ef1",
+    "parents": "915acd25f047c886318a4850ec29a0077e1390d5",
+    "subject": "Editorial: move HasName, IsFunctionDefinition, and IsAnonymousFunctionDefinition to Function Name Inference section"
+   },
+   {
+    "adate": "2021-01-12T10:56:43-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-01-12T10:56:43-08:00",
+    "hash": "915acd25f047c886318a4850ec29a0077e1390d5",
     "parents": "f6f05dac29b1229a9e3db39a43d96d6d36227153",
-    "subject": "Editorial: move other FNI-related SDOs to the approprite section"
+    "subject": "Editorial: consolidate NamedEvaluation"
    },
    {
     "adate": "2021-01-11T22:32:02-08:00",
@@ -345,7 +353,7 @@
    }
   ],
   "title": "Editorial: consolidate each SDO's definition",
-  "updated_at": "2021-01-12T06:51:38Z"
+  "updated_at": "2021-01-12T19:00:55Z"
  },
  {
   "base": "b04a9d443ccb59dbeb6e28a0924158d128fce400",
