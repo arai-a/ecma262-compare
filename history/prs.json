@@ -1,6 +1,34 @@
 [
  {
   "base": "190d474c3d8728653fbf8a5a37db1de34b9c1472",
+  "created_at": "2021-01-13T04:47:26Z",
+  "head": "e1f7e0fe56f8bcdc0081332949fef0aee38d0745",
+  "login": "jmdyck",
+  "number": 2274,
+  "ref": "Number_shifts",
+  "revs": [
+   {
+    "adate": "2021-01-12T23:24:04-05:00",
+    "author": "Michael Dyck",
+    "date": "2021-01-12T23:42:01-05:00",
+    "hash": "e1f7e0fe56f8bcdc0081332949fef0aee38d0745",
+    "parents": "cddb03f2d154c34603ea4fce5b1d2e1f8c57138a",
+    "subject": "Editorial: Express some Number methods more explicitly"
+   },
+   {
+    "adate": "2021-01-12T22:07:15-05:00",
+    "author": "Michael Dyck",
+    "date": "2021-01-12T23:21:03-05:00",
+    "hash": "cddb03f2d154c34603ea4fce5b1d2e1f8c57138a",
+    "parents": "190d474c3d8728653fbf8a5a37db1de34b9c1472",
+    "subject": "Editorial: Extract NumberToInt32Bits and Int32BitsToNumber"
+   }
+  ],
+  "title": "Editorial: Express some 'bitwise' Number methods more explicitly",
+  "updated_at": "2021-01-13T04:47:26Z"
+ },
+ {
+  "base": "190d474c3d8728653fbf8a5a37db1de34b9c1472",
   "created_at": "2021-01-10T07:42:51Z",
   "head": "60678b49fe1ec987bacdaf8d11aa2d7bfb4c3ef1",
   "login": "tc39",
