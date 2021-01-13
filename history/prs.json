@@ -30,11 +30,19 @@
  {
   "base": "190d474c3d8728653fbf8a5a37db1de34b9c1472",
   "created_at": "2021-01-10T07:42:51Z",
-  "head": "60678b49fe1ec987bacdaf8d11aa2d7bfb4c3ef1",
+  "head": "4cbe825e0316ca36f0aba6838163a5424f2c329e",
   "login": "tc39",
   "number": 2271,
   "ref": "sdo-tweaks",
   "revs": [
+   {
+    "adate": "2021-01-13T10:38:20-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-01-13T10:38:20-08:00",
+    "hash": "4cbe825e0316ca36f0aba6838163a5424f2c329e",
+    "parents": "60678b49fe1ec987bacdaf8d11aa2d7bfb4c3ef1",
+    "subject": "fixup! argument-type formattng"
+   },
    {
     "adate": "2021-01-12T10:59:51-08:00",
     "author": "Kevin Gibbons",
@@ -381,7 +389,7 @@
    }
   ],
   "title": "Editorial: consolidate each SDO's definition",
-  "updated_at": "2021-01-12T19:00:55Z"
+  "updated_at": "2021-01-13T18:38:48Z"
  },
  {
   "base": "b04a9d443ccb59dbeb6e28a0924158d128fce400",
