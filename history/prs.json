@@ -1,6 +1,26 @@
 [
  {
   "base": "190d474c3d8728653fbf8a5a37db1de34b9c1472",
+  "created_at": "2021-01-14T01:30:14Z",
+  "head": "7eccfd8848c81936bd19118241908d6994f0dffc",
+  "login": "jmdyck",
+  "number": 2275,
+  "ref": "AsyncFunctionExpression",
+  "revs": [
+   {
+    "adate": "2021-01-13T20:15:15-05:00",
+    "author": "Michael Dyck",
+    "date": "2021-01-13T20:26:10-05:00",
+    "hash": "7eccfd8848c81936bd19118241908d6994f0dffc",
+    "parents": "190d474c3d8728653fbf8a5a37db1de34b9c1472",
+    "subject": "Editorial: Merge the RHSs of AsyncFunctionExpression"
+   }
+  ],
+  "title": "Editorial: Merge the RHSs of AsyncFunctionExpression",
+  "updated_at": "2021-01-14T02:40:43Z"
+ },
+ {
+  "base": "190d474c3d8728653fbf8a5a37db1de34b9c1472",
   "created_at": "2021-01-13T04:47:26Z",
   "head": "e1f7e0fe56f8bcdc0081332949fef0aee38d0745",
   "login": "jmdyck",
@@ -30,11 +50,59 @@
  {
   "base": "190d474c3d8728653fbf8a5a37db1de34b9c1472",
   "created_at": "2021-01-10T07:42:51Z",
-  "head": "2f4449bf9667a5b847e03db4f4e4cec553a7813f",
+  "head": "ecd858073c965710e4ff5e2a00bbf08f462f85de",
   "login": "tc39",
   "number": 2271,
   "ref": "sdo-tweaks",
   "revs": [
+   {
+    "adate": "2021-01-13T17:53:51-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-01-13T17:53:51-08:00",
+    "hash": "ecd858073c965710e4ff5e2a00bbf08f462f85de",
+    "parents": "f7cb5cb29ea2c82640813020d62c6354af602a4e",
+    "subject": "fixup! dedup AsyncArrowFunction"
+   },
+   {
+    "adate": "2021-01-13T17:52:05-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-01-13T17:52:05-08:00",
+    "hash": "f7cb5cb29ea2c82640813020d62c6354af602a4e",
+    "parents": "1f48a71e5b84c92f6bbef88d11e6fa655a696868",
+    "subject": "fixup! merge ClassDeclarations"
+   },
+   {
+    "adate": "2021-01-13T17:48:51-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-01-13T17:48:51-08:00",
+    "hash": "1f48a71e5b84c92f6bbef88d11e6fa655a696868",
+    "parents": "94a8ce15cb4f251524aebb65a4e3e5ad78d4888c",
+    "subject": "fixup! reword intro for SDO section"
+   },
+   {
+    "adate": "2021-01-13T17:47:46-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-01-13T17:47:46-08:00",
+    "hash": "94a8ce15cb4f251524aebb65a4e3e5ad78d4888c",
+    "parents": "3c03077d298a7a1274820fde51eabc35df9a1a85",
+    "subject": "Editorial: add note about LabelledEvaluation special cases"
+   },
+   {
+    "adate": "2021-01-13T17:43:38-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-01-13T17:43:38-08:00",
+    "hash": "3c03077d298a7a1274820fde51eabc35df9a1a85",
+    "parents": "c263ffb9686193c4b3146239e7d7b5b75c0504ff",
+    "subject": "fixup! un-multiline some shorter productions"
+   },
+   {
+    "adate": "2021-01-13T17:37:00-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-01-13T17:37:00-08:00",
+    "hash": "c263ffb9686193c4b3146239e7d7b5b75c0504ff",
+    "parents": "2f4449bf9667a5b847e03db4f4e4cec553a7813f",
+    "subject": "fixup! do not duplicate AsyncFunctionExpression LHS in IsFunctionDefinition"
+   },
    {
     "adate": "2021-01-13T15:50:35-08:00",
     "author": "Kevin Gibbons",
@@ -397,7 +465,7 @@
    }
   ],
   "title": "Editorial: consolidate each SDO's definition",
-  "updated_at": "2021-01-14T00:38:14Z"
+  "updated_at": "2021-01-14T02:39:55Z"
  },
  {
   "base": "b04a9d443ccb59dbeb6e28a0924158d128fce400",
