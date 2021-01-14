@@ -50,11 +50,19 @@
  {
   "base": "190d474c3d8728653fbf8a5a37db1de34b9c1472",
   "created_at": "2021-01-10T07:42:51Z",
-  "head": "37fa7eb6c53342ef581769ded1dbb44e7eede280",
+  "head": "7bf483835e15c17b7dcb5e7f57c3fd60a1c91310",
   "login": "tc39",
   "number": 2271,
   "ref": "sdo-tweaks",
   "revs": [
+   {
+    "adate": "2021-01-13T21:02:31-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-01-13T21:02:31-08:00",
+    "hash": "7bf483835e15c17b7dcb5e7f57c3fd60a1c91310",
+    "parents": "37fa7eb6c53342ef581769ded1dbb44e7eede280",
+    "subject": "fixup! annex A ordering"
+   },
    {
     "adate": "2021-01-13T19:09:44-08:00",
     "author": "Kevin Gibbons",
@@ -481,7 +489,7 @@
    }
   ],
   "title": "Editorial: consolidate each SDO's definition",
-  "updated_at": "2021-01-14T04:09:42Z"
+  "updated_at": "2021-01-14T05:10:32Z"
  },
  {
   "base": "b04a9d443ccb59dbeb6e28a0924158d128fce400",
