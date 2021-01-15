@@ -1,5 +1,45 @@
 [
  {
+  "adate": "2021-01-14T21:07:39-08:00",
+  "author": "Kevin Gibbons",
+  "date": "2021-01-14T21:07:39-08:00",
+  "hash": "4a2cfd6a36326f1cd566ed02efb7f42df073d376",
+  "parents": "fe6b5ef37b0b740e1d66be671137a6161035021a",
+  "subject": "Editorial: consolidate LabelledEvaluation (#2271)"
+ },
+ {
+  "adate": "2021-01-14T21:07:37-08:00",
+  "author": "Kevin Gibbons",
+  "date": "2021-01-14T21:07:37-08:00",
+  "hash": "fe6b5ef37b0b740e1d66be671137a6161035021a",
+  "parents": "fb2da5a5cbbd8e084cba0e618665c0b8569069ae",
+  "subject": "Editorial: split out MethodDefinitionEvaluation from PropertyDefinitionEvaluation (#2271)"
+ },
+ {
+  "adate": "2021-01-14T21:07:32-08:00",
+  "author": "Kevin Gibbons",
+  "date": "2021-01-14T21:07:32-08:00",
+  "hash": "fb2da5a5cbbd8e084cba0e618665c0b8569069ae",
+  "parents": "33ab91d67687dd362506b397519e972a246dc211",
+  "subject": "Editorial: consolidate PropertyDefinitionEvaluation (#2271)"
+ },
+ {
+  "adate": "2021-01-14T21:07:31-08:00",
+  "author": "Kevin Gibbons",
+  "date": "2021-01-14T21:07:31-08:00",
+  "hash": "33ab91d67687dd362506b397519e972a246dc211",
+  "parents": "f0728e316680d2c19ad06fb15ed0da362941b373",
+  "subject": "Editorial: avoid overloading StringValue for RegExp capturing group identifiers (#2271)"
+ },
+ {
+  "adate": "2021-01-14T21:05:44-08:00",
+  "author": "Kevin Gibbons",
+  "date": "2021-01-14T21:05:44-08:00",
+  "hash": "f0728e316680d2c19ad06fb15ed0da362941b373",
+  "parents": "190d474c3d8728653fbf8a5a37db1de34b9c1472",
+  "subject": "Editorial: split out ForDeclarationBindingInitialization from BindingInitialization (#2271)"
+ },
+ {
   "adate": "2021-01-11T20:40:50-08:00",
   "author": "Michael Dyck",
   "date": "2021-01-11T20:40:50-08:00",
