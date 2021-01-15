@@ -1,5 +1,45 @@
 [
  {
+  "adate": "2021-01-14T21:08:45-08:00",
+  "author": "Kevin Gibbons",
+  "date": "2021-01-14T21:10:17-08:00",
+  "hash": "c8890b7770253df4a143ec509e39deb43ffb3c47",
+  "parents": "c8692d4bf15be6c856bc7de3ce0d20080ab80969",
+  "subject": "Editorial: delete case of IsFunctionDefinition covered by chain rule (#2271)"
+ },
+ {
+  "adate": "2021-01-14T21:10:14-08:00",
+  "author": "Kevin Gibbons",
+  "date": "2021-01-14T21:10:14-08:00",
+  "hash": "c8692d4bf15be6c856bc7de3ce0d20080ab80969",
+  "parents": "09b367a2bedee7aa23990a0352d7997ceacad1b0",
+  "subject": "Editorial: consolidate IsFunctionDefinition (#2271)"
+ },
+ {
+  "adate": "2021-01-14T21:08:41-08:00",
+  "author": "Kevin Gibbons",
+  "date": "2021-01-14T21:08:41-08:00",
+  "hash": "09b367a2bedee7aa23990a0352d7997ceacad1b0",
+  "parents": "88c7055a4aac077d1c612f802614f3ee862cd228",
+  "subject": "Editorial: consolidate HasName (#2271)"
+ },
+ {
+  "adate": "2021-01-14T21:08:39-08:00",
+  "author": "Kevin Gibbons",
+  "date": "2021-01-14T21:08:39-08:00",
+  "hash": "88c7055a4aac077d1c612f802614f3ee862cd228",
+  "parents": "a4972007de931b7f1b4fc78a07b228d8c73c633c",
+  "subject": "Editorial: consolidate PropName (#2271)"
+ },
+ {
+  "adate": "2021-01-14T21:08:37-08:00",
+  "author": "Kevin Gibbons",
+  "date": "2021-01-14T21:08:37-08:00",
+  "hash": "a4972007de931b7f1b4fc78a07b228d8c73c633c",
+  "parents": "3bb7f628483e1b53da1d838800d9be88a3beb155",
+  "subject": "Editorial: delete case of AssignmentTargetType covered by chain rule (#2271)"
+ },
+ {
   "adate": "2021-01-14T21:08:35-08:00",
   "author": "Kevin Gibbons",
   "date": "2021-01-14T21:08:35-08:00",
