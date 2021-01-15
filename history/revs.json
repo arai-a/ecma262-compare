@@ -1,5 +1,45 @@
 [
  {
+  "adate": "2021-01-14T21:07:51-08:00",
+  "author": "Kevin Gibbons",
+  "date": "2021-01-14T21:07:51-08:00",
+  "hash": "75bd04627b17012e48544b99e0117e2608c38c84",
+  "parents": "df05a1bc0f00ac114e1094ce6f1aa3590a69122f",
+  "subject": "Editorial: split ContainsUseStrict into FunctionBody, ConciseBody, and AsyncConciseBody cases (#2271)"
+ },
+ {
+  "adate": "2021-01-14T21:07:49-08:00",
+  "author": "Kevin Gibbons",
+  "date": "2021-01-14T21:07:49-08:00",
+  "hash": "df05a1bc0f00ac114e1094ce6f1aa3590a69122f",
+  "parents": "3babec37581050600720ee66068914978fcf1348",
+  "subject": "Editorial: consolidate ContainsExpression, IsSimpleParameterList, HasInitializer, and ExpectedArgumentCount (#2271)"
+ },
+ {
+  "adate": "2021-01-14T21:07:47-08:00",
+  "author": "Kevin Gibbons",
+  "date": "2021-01-14T21:07:47-08:00",
+  "hash": "3babec37581050600720ee66068914978fcf1348",
+  "parents": "53450878304052938d5a950276749876bb47abc3",
+  "subject": "Editorial: factor out parameter productions into their own section (#2271)"
+ },
+ {
+  "adate": "2021-01-14T21:07:43-08:00",
+  "author": "Kevin Gibbons",
+  "date": "2021-01-14T21:07:43-08:00",
+  "hash": "53450878304052938d5a950276749876bb47abc3",
+  "parents": "da3525ed0805af860764bbf878d5436fe8fcdef1",
+  "subject": "Editorial: use SDO-style dispatch in LabelledEvaluation, rather than switching in the algorithm (#2271)"
+ },
+ {
+  "adate": "2021-01-14T21:07:41-08:00",
+  "author": "Kevin Gibbons",
+  "date": "2021-01-14T21:07:41-08:00",
+  "hash": "da3525ed0805af860764bbf878d5436fe8fcdef1",
+  "parents": "4a2cfd6a36326f1cd566ed02efb7f42df073d376",
+  "subject": "Editorial: split out LoopEvaluation from LabelledEvaluation (#2271)"
+ },
+ {
   "adate": "2021-01-14T21:07:39-08:00",
   "author": "Kevin Gibbons",
   "date": "2021-01-14T21:07:39-08:00",
