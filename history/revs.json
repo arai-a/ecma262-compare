@@ -1,5 +1,45 @@
 [
  {
+  "adate": "2021-01-14T21:08:35-08:00",
+  "author": "Kevin Gibbons",
+  "date": "2021-01-14T21:08:35-08:00",
+  "hash": "3bb7f628483e1b53da1d838800d9be88a3beb155",
+  "parents": "40d0ee2d623099cff895a5d98b4673e965f1722e",
+  "subject": "Editorial: consolidate AssignmentTargetType (#2271)"
+ },
+ {
+  "adate": "2021-01-14T21:08:32-08:00",
+  "author": "Kevin Gibbons",
+  "date": "2021-01-14T21:08:32-08:00",
+  "hash": "ce30d5d89af620f1707ade07f9813236a0fdf019",
+  "parents": "7cdab8c664e4aa826716d47450383e16bc1d4c35",
+  "subject": "Editorial: consolidate BindingInitialization (#2271)"
+ },
+ {
+  "adate": "2021-01-14T21:08:30-08:00",
+  "author": "Kevin Gibbons",
+  "date": "2021-01-14T21:08:30-08:00",
+  "hash": "7cdab8c664e4aa826716d47450383e16bc1d4c35",
+  "parents": "941a048f1d8be0b85aadd0c45412b4de0b3c9293",
+  "subject": "Editorial: consolidate label-related SDOs (#2271)"
+ },
+ {
+  "adate": "2021-01-14T21:08:27-08:00",
+  "author": "Kevin Gibbons",
+  "date": "2021-01-14T21:08:27-08:00",
+  "hash": "941a048f1d8be0b85aadd0c45412b4de0b3c9293",
+  "parents": "b690ea962074c366b248b504205e7e4d3bf953b9",
+  "subject": "Editorial: consolidate StringValue (#2271)"
+ },
+ {
+  "adate": "2021-01-14T21:08:22-08:00",
+  "author": "Kevin Gibbons",
+  "date": "2021-01-14T21:08:22-08:00",
+  "hash": "b690ea962074c366b248b504205e7e4d3bf953b9",
+  "parents": "7a5f760ce50cec37529e86d385f44ef42a28641d",
+  "subject": "Editorial: invoke SV on StringLiteral directly rather than through StringValue (#2271)"
+ },
+ {
   "adate": "2021-01-14T21:08:19-08:00",
   "author": "Kevin Gibbons",
   "date": "2021-01-14T21:08:19-08:00",
