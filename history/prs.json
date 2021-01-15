@@ -50,454 +50,366 @@
  {
   "base": "190d474c3d8728653fbf8a5a37db1de34b9c1472",
   "created_at": "2021-01-10T07:42:51Z",
-  "head": "b01072a83535f8d33cb6d03d32fe4ae8ce59bd4c",
+  "head": "dca03512f53c988868f899c26ea81b4ddf8387da",
   "login": "tc39",
   "number": 2271,
   "ref": "sdo-tweaks",
   "revs": [
    {
-    "adate": "2021-01-14T19:11:59-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-01-14T19:11:59-08:00",
-    "hash": "b01072a83535f8d33cb6d03d32fe4ae8ce59bd4c",
-    "parents": "7bf483835e15c17b7dcb5e7f57c3fd60a1c91310",
-    "subject": "fixup! better order for scope analysis stuff"
-   },
-   {
-    "adate": "2021-01-13T21:02:31-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-01-13T21:02:31-08:00",
-    "hash": "7bf483835e15c17b7dcb5e7f57c3fd60a1c91310",
-    "parents": "37fa7eb6c53342ef581769ded1dbb44e7eede280",
-    "subject": "fixup! annex A ordering"
-   },
-   {
-    "adate": "2021-01-13T19:09:44-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-01-13T19:09:44-08:00",
-    "hash": "37fa7eb6c53342ef581769ded1dbb44e7eede280",
-    "parents": "f10a2216ab26b24ff3fd4a478650e6fc37df84fc",
-    "subject": "fixup! assert style"
-   },
-   {
-    "adate": "2021-01-13T18:49:09-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-01-13T18:49:09-08:00",
-    "hash": "f10a2216ab26b24ff3fd4a478650e6fc37df84fc",
-    "parents": "ecd858073c965710e4ff5e2a00bbf08f462f85de",
-    "subject": "fixup! spelling"
-   },
-   {
-    "adate": "2021-01-13T17:53:51-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-01-13T17:53:51-08:00",
-    "hash": "ecd858073c965710e4ff5e2a00bbf08f462f85de",
-    "parents": "f7cb5cb29ea2c82640813020d62c6354af602a4e",
-    "subject": "fixup! dedup AsyncArrowFunction"
-   },
-   {
-    "adate": "2021-01-13T17:52:05-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-01-13T17:52:05-08:00",
-    "hash": "f7cb5cb29ea2c82640813020d62c6354af602a4e",
-    "parents": "1f48a71e5b84c92f6bbef88d11e6fa655a696868",
-    "subject": "fixup! merge ClassDeclarations"
-   },
-   {
-    "adate": "2021-01-13T17:48:51-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-01-13T17:48:51-08:00",
-    "hash": "1f48a71e5b84c92f6bbef88d11e6fa655a696868",
-    "parents": "94a8ce15cb4f251524aebb65a4e3e5ad78d4888c",
-    "subject": "fixup! reword intro for SDO section"
-   },
-   {
     "adate": "2021-01-13T17:47:46-08:00",
     "author": "Kevin Gibbons",
-    "date": "2021-01-13T17:47:46-08:00",
-    "hash": "94a8ce15cb4f251524aebb65a4e3e5ad78d4888c",
-    "parents": "3c03077d298a7a1274820fde51eabc35df9a1a85",
+    "date": "2021-01-14T19:40:57-08:00",
+    "hash": "dca03512f53c988868f899c26ea81b4ddf8387da",
+    "parents": "5fe77fb6f3ee3169fdaff8d93dd54a43d430179e",
     "subject": "Editorial: add note about LabelledEvaluation special cases"
-   },
-   {
-    "adate": "2021-01-13T17:43:38-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-01-13T17:43:38-08:00",
-    "hash": "3c03077d298a7a1274820fde51eabc35df9a1a85",
-    "parents": "c263ffb9686193c4b3146239e7d7b5b75c0504ff",
-    "subject": "fixup! un-multiline some shorter productions"
-   },
-   {
-    "adate": "2021-01-13T17:37:00-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-01-13T17:37:00-08:00",
-    "hash": "c263ffb9686193c4b3146239e7d7b5b75c0504ff",
-    "parents": "2f4449bf9667a5b847e03db4f4e4cec553a7813f",
-    "subject": "fixup! do not duplicate AsyncFunctionExpression LHS in IsFunctionDefinition"
-   },
-   {
-    "adate": "2021-01-13T15:50:35-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-01-13T15:50:35-08:00",
-    "hash": "2f4449bf9667a5b847e03db4f4e4cec553a7813f",
-    "parents": "4cbe825e0316ca36f0aba6838163a5424f2c329e",
-    "subject": "fixup! make AsyncFunctionExpression SDOs match definition"
-   },
-   {
-    "adate": "2021-01-13T10:38:20-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-01-13T10:38:20-08:00",
-    "hash": "4cbe825e0316ca36f0aba6838163a5424f2c329e",
-    "parents": "60678b49fe1ec987bacdaf8d11aa2d7bfb4c3ef1",
-    "subject": "fixup! argument-type formattng"
    },
    {
     "adate": "2021-01-12T10:59:51-08:00",
     "author": "Kevin Gibbons",
-    "date": "2021-01-12T10:59:56-08:00",
-    "hash": "60678b49fe1ec987bacdaf8d11aa2d7bfb4c3ef1",
-    "parents": "915acd25f047c886318a4850ec29a0077e1390d5",
+    "date": "2021-01-14T19:40:57-08:00",
+    "hash": "5fe77fb6f3ee3169fdaff8d93dd54a43d430179e",
+    "parents": "e07d2116cc2fe01e1ae6126ff7ea03f4147ac35e",
     "subject": "Editorial: move HasName, IsFunctionDefinition, and IsAnonymousFunctionDefinition to Function Name Inference section"
    },
    {
     "adate": "2021-01-12T10:56:43-08:00",
     "author": "Kevin Gibbons",
-    "date": "2021-01-12T10:56:43-08:00",
-    "hash": "915acd25f047c886318a4850ec29a0077e1390d5",
-    "parents": "f6f05dac29b1229a9e3db39a43d96d6d36227153",
+    "date": "2021-01-14T19:40:57-08:00",
+    "hash": "e07d2116cc2fe01e1ae6126ff7ea03f4147ac35e",
+    "parents": "91462b4c59a2b2600c0d5e4430ef8df35c4c2275",
     "subject": "Editorial: consolidate NamedEvaluation"
    },
    {
     "adate": "2021-01-11T22:32:02-08:00",
     "author": "Kevin Gibbons",
-    "date": "2021-01-11T22:48:12-08:00",
-    "hash": "f6f05dac29b1229a9e3db39a43d96d6d36227153",
-    "parents": "964106d2aa920d263e9adb4d6ca2172bf1d597d1",
+    "date": "2021-01-14T19:40:56-08:00",
+    "hash": "91462b4c59a2b2600c0d5e4430ef8df35c4c2275",
+    "parents": "efd7283058a3a3dd62d5bf96ce995afc7d99274d",
     "subject": "Editorial: consolidate IsIdentifierRef"
    },
    {
     "adate": "2021-01-11T22:13:53-08:00",
     "author": "Kevin Gibbons",
-    "date": "2021-01-11T22:48:10-08:00",
-    "hash": "964106d2aa920d263e9adb4d6ca2172bf1d597d1",
-    "parents": "6342163d7444d23fe85cdd45df595623721118fa",
+    "date": "2021-01-14T19:40:56-08:00",
+    "hash": "efd7283058a3a3dd62d5bf96ce995afc7d99274d",
+    "parents": "cbe3edd28cadd34cf53c2bff96e91a471717eede",
     "subject": "Editorial: factor out Instantiate*FunctionExpression SDOs"
    },
    {
     "adate": "2021-01-09T22:59:49-08:00",
     "author": "Kevin Gibbons",
-    "date": "2021-01-11T14:19:50-08:00",
-    "hash": "6342163d7444d23fe85cdd45df595623721118fa",
-    "parents": "a8c505d633df725a2d715d39211edb073c35097c",
+    "date": "2021-01-14T19:40:54-08:00",
+    "hash": "cbe3edd28cadd34cf53c2bff96e91a471717eede",
+    "parents": "42a9016282cff22392431e80c085360d32a63d11",
     "subject": "Editorial: prefer multi-line productions when in groups"
    },
    {
     "adate": "2021-01-09T22:49:40-08:00",
     "author": "Kevin Gibbons",
-    "date": "2021-01-11T14:19:50-08:00",
-    "hash": "a8c505d633df725a2d715d39211edb073c35097c",
-    "parents": "32fe7c7e36821cd4af20e06848460b2c87bcc936",
+    "date": "2021-01-14T19:38:11-08:00",
+    "hash": "42a9016282cff22392431e80c085360d32a63d11",
+    "parents": "b018ed1b3f1977251c0ff7791111d1257372d7b9",
     "subject": "Editorial: consolidate ComputedPropertyContains"
    },
    {
     "adate": "2021-01-09T22:44:33-08:00",
     "author": "Kevin Gibbons",
-    "date": "2021-01-11T14:19:50-08:00",
-    "hash": "32fe7c7e36821cd4af20e06848460b2c87bcc936",
-    "parents": "f208eb5d82c1947b84119e0211d36743d6921ddd",
+    "date": "2021-01-14T19:38:11-08:00",
+    "hash": "b018ed1b3f1977251c0ff7791111d1257372d7b9",
+    "parents": "b926e615455259ee857fac8dd8af72ca0f22c459",
     "subject": "Editorial: consolidate Contains"
    },
    {
     "adate": "2021-01-09T22:17:31-08:00",
     "author": "Kevin Gibbons",
-    "date": "2021-01-11T14:19:50-08:00",
-    "hash": "f208eb5d82c1947b84119e0211d36743d6921ddd",
-    "parents": "eebd6d9eede1148f364cc3cf590a08cb0cf92a52",
+    "date": "2021-01-14T19:38:11-08:00",
+    "hash": "b926e615455259ee857fac8dd8af72ca0f22c459",
+    "parents": "b7cd385254e2a29165c0de80ba3e59e3701b0fe9",
     "subject": "Editorial: rename BindingInstantiation to ForDeclarationBindingInstantiation"
    },
    {
     "adate": "2021-01-09T21:53:32-08:00",
     "author": "Kevin Gibbons",
-    "date": "2021-01-11T14:19:50-08:00",
-    "hash": "eebd6d9eede1148f364cc3cf590a08cb0cf92a52",
-    "parents": "3ef6137fbdb525e22973d0ffa2cb8b29336be530",
+    "date": "2021-01-14T19:38:10-08:00",
+    "hash": "b7cd385254e2a29165c0de80ba3e59e3701b0fe9",
+    "parents": "a34c6803d4c574ce1532d5d1c34ed37eaed6d771",
     "subject": "Editorial: give AOIDs to other SDOs"
    },
    {
     "adate": "2021-01-09T21:36:30-08:00",
     "author": "Kevin Gibbons",
-    "date": "2021-01-11T14:19:50-08:00",
-    "hash": "3ef6137fbdb525e22973d0ffa2cb8b29336be530",
-    "parents": "8212a98eb1e7f9a5ee115556ce35c3e733434a74",
+    "date": "2021-01-14T19:38:10-08:00",
+    "hash": "a34c6803d4c574ce1532d5d1c34ed37eaed6d771",
+    "parents": "7ce6e946c57fb50db44043b643d6c82e0ea5e5b7",
     "subject": "Editorial: consolidate ModuleRequests"
    },
    {
     "adate": "2021-01-09T21:34:22-08:00",
     "author": "Kevin Gibbons",
-    "date": "2021-01-11T14:19:50-08:00",
-    "hash": "8212a98eb1e7f9a5ee115556ce35c3e733434a74",
-    "parents": "cd30afabb4cea8b4318e4048cc589d2a9d3a6fac",
+    "date": "2021-01-14T19:38:10-08:00",
+    "hash": "7ce6e946c57fb50db44043b643d6c82e0ea5e5b7",
+    "parents": "2089aa697b2d4cb266b4b6624b31fd46cbd004be",
     "subject": "Editorial: consolidate ImportEntries"
    },
    {
     "adate": "2021-01-09T21:33:11-08:00",
     "author": "Kevin Gibbons",
-    "date": "2021-01-11T14:19:50-08:00",
-    "hash": "cd30afabb4cea8b4318e4048cc589d2a9d3a6fac",
-    "parents": "999cdc2706ac1ec03640da78c2b71f68e3d67195",
+    "date": "2021-01-14T19:38:10-08:00",
+    "hash": "2089aa697b2d4cb266b4b6624b31fd46cbd004be",
+    "parents": "3f4be89fe674068ac197446ca77303157fbfef27",
     "subject": "Editorial: consolidate ExportEntries"
    },
    {
     "adate": "2021-01-09T21:32:20-08:00",
     "author": "Kevin Gibbons",
-    "date": "2021-01-11T14:19:50-08:00",
-    "hash": "999cdc2706ac1ec03640da78c2b71f68e3d67195",
-    "parents": "05ffd82aefbc300b2b899bc9586710cda823f23d",
+    "date": "2021-01-14T19:38:10-08:00",
+    "hash": "3f4be89fe674068ac197446ca77303157fbfef27",
+    "parents": "f57ef70a1728aa05b3ba4dbe4b7f6c25ce5dc6a4",
     "subject": "Editorial: consolidate ExportedNames"
    },
    {
     "adate": "2021-01-09T21:31:35-08:00",
     "author": "Kevin Gibbons",
-    "date": "2021-01-11T14:19:50-08:00",
-    "hash": "05ffd82aefbc300b2b899bc9586710cda823f23d",
-    "parents": "05f752df19784abfd4dccfefa2c2907524270646",
+    "date": "2021-01-14T19:38:10-08:00",
+    "hash": "f57ef70a1728aa05b3ba4dbe4b7f6c25ce5dc6a4",
+    "parents": "ce58287003b1807d97a1729b136d234ab4798003",
     "subject": "Editorial: consolidate ExportedBindings"
    },
    {
     "adate": "2021-01-09T21:30:18-08:00",
     "author": "Kevin Gibbons",
-    "date": "2021-01-11T14:19:50-08:00",
-    "hash": "05f752df19784abfd4dccfefa2c2907524270646",
-    "parents": "b296d5a2ffd4e70962b13d7b627721d8c7c2fe25",
+    "date": "2021-01-14T19:38:10-08:00",
+    "hash": "ce58287003b1807d97a1729b136d234ab4798003",
+    "parents": "04e5e2bd67e890dc6b44e46d7de341a2ffbc0654",
     "subject": "Editorial: consolidate HasDirectSuper"
    },
    {
     "adate": "2021-01-09T17:29:37-08:00",
     "author": "Kevin Gibbons",
-    "date": "2021-01-11T14:19:50-08:00",
-    "hash": "b296d5a2ffd4e70962b13d7b627721d8c7c2fe25",
-    "parents": "9f24d3f50e3f761ab20df3b24620fd9f9a1b3317",
+    "date": "2021-01-14T19:38:10-08:00",
+    "hash": "04e5e2bd67e890dc6b44e46d7de341a2ffbc0654",
+    "parents": "2a28cb038cdc48d6c59d6aef1be5f508df5be44f",
     "subject": "Editorial: consolidate IsDestructuring"
    },
    {
     "adate": "2021-01-09T17:25:30-08:00",
     "author": "Kevin Gibbons",
-    "date": "2021-01-11T14:19:49-08:00",
-    "hash": "9f24d3f50e3f761ab20df3b24620fd9f9a1b3317",
-    "parents": "08c7be8fb2ed35f3cfd1f74f580d32aa99de79df",
+    "date": "2021-01-14T19:38:10-08:00",
+    "hash": "2a28cb038cdc48d6c59d6aef1be5f508df5be44f",
+    "parents": "15768cc88dff2aaaa2277f5adda7179cc737d81c",
     "subject": "Editorial: consolidate ArgumentListEvaluation"
    },
    {
     "adate": "2021-01-09T17:23:18-08:00",
     "author": "Kevin Gibbons",
-    "date": "2021-01-11T14:19:49-08:00",
-    "hash": "08c7be8fb2ed35f3cfd1f74f580d32aa99de79df",
-    "parents": "480f4b4dc549e65d63901344e9f1e64083eba293",
+    "date": "2021-01-14T19:38:10-08:00",
+    "hash": "15768cc88dff2aaaa2277f5adda7179cc737d81c",
+    "parents": "cfc4222d7b176d6cbf417d299bf9eee92079b8c5",
     "subject": "Editorial: delete case of IsFunctionDefinition covered by chain rule"
    },
    {
     "adate": "2021-01-09T17:22:54-08:00",
     "author": "Kevin Gibbons",
-    "date": "2021-01-11T14:19:49-08:00",
-    "hash": "480f4b4dc549e65d63901344e9f1e64083eba293",
-    "parents": "3a11813930942b3e75b0049cf071bf43c5185228",
+    "date": "2021-01-14T19:38:10-08:00",
+    "hash": "cfc4222d7b176d6cbf417d299bf9eee92079b8c5",
+    "parents": "4221b5d4510d394db2e04732933ed9675922bbac",
     "subject": "Editorial: consolidate IsFunctionDefinition"
    },
    {
     "adate": "2021-01-09T17:15:05-08:00",
     "author": "Kevin Gibbons",
-    "date": "2021-01-11T14:19:49-08:00",
-    "hash": "3a11813930942b3e75b0049cf071bf43c5185228",
-    "parents": "d12c290d7934e6682389a772843c5fad09785785",
+    "date": "2021-01-14T19:38:09-08:00",
+    "hash": "4221b5d4510d394db2e04732933ed9675922bbac",
+    "parents": "5cd567d91ed20ae7ef91ecbf9dd697a88c029df8",
     "subject": "Editorial: consolidate HasName"
    },
    {
     "adate": "2021-01-09T17:07:37-08:00",
     "author": "Kevin Gibbons",
-    "date": "2021-01-11T14:19:49-08:00",
-    "hash": "d12c290d7934e6682389a772843c5fad09785785",
-    "parents": "5b46323311272136b0269c6bbb05b2b554062c04",
+    "date": "2021-01-14T19:38:09-08:00",
+    "hash": "5cd567d91ed20ae7ef91ecbf9dd697a88c029df8",
+    "parents": "6f1bea935cf49dc3874cbca6b327b91653b47265",
     "subject": "Editorial: consolidate PropName"
    },
    {
     "adate": "2021-01-09T16:57:45-08:00",
     "author": "Kevin Gibbons",
-    "date": "2021-01-11T14:19:49-08:00",
-    "hash": "5b46323311272136b0269c6bbb05b2b554062c04",
-    "parents": "567e0f21b6abb1af6772e378f53b414d25835a87",
+    "date": "2021-01-14T19:38:09-08:00",
+    "hash": "6f1bea935cf49dc3874cbca6b327b91653b47265",
+    "parents": "a3880f3122533747bda84de44ac964041cafbe6a",
     "subject": "Editorial: delete case of AssignmentTargetType covered by chain rule"
    },
    {
     "adate": "2021-01-09T16:57:26-08:00",
     "author": "Kevin Gibbons",
-    "date": "2021-01-11T14:19:49-08:00",
-    "hash": "567e0f21b6abb1af6772e378f53b414d25835a87",
-    "parents": "12998975687fb665dfc3dd070fcfb653bea7b51f",
+    "date": "2021-01-14T19:38:09-08:00",
+    "hash": "a3880f3122533747bda84de44ac964041cafbe6a",
+    "parents": "e45638020f59345d7efb132ebc876cb369a94d98",
     "subject": "Editorial: consolidate AssignmentTargetType"
    },
    {
     "adate": "2021-01-09T16:40:02-08:00",
     "author": "Kevin Gibbons",
-    "date": "2021-01-11T14:19:49-08:00",
-    "hash": "12998975687fb665dfc3dd070fcfb653bea7b51f",
-    "parents": "8e8102f91c440870ad8d37086cb7ad8cb8e1f5b8",
+    "date": "2021-01-14T19:38:09-08:00",
+    "hash": "e45638020f59345d7efb132ebc876cb369a94d98",
+    "parents": "4b57b6208778246ecfa0053dc1eb7926fb33724f",
     "subject": "Editorial: consolidate IteratorBindingInitialization"
    },
    {
     "adate": "2021-01-09T16:38:21-08:00",
     "author": "Kevin Gibbons",
-    "date": "2021-01-11T14:19:49-08:00",
-    "hash": "8e8102f91c440870ad8d37086cb7ad8cb8e1f5b8",
-    "parents": "de5bbd04cf65035f03bb34363af1f1166b408b98",
+    "date": "2021-01-14T19:38:09-08:00",
+    "hash": "4b57b6208778246ecfa0053dc1eb7926fb33724f",
+    "parents": "1d44d253ea9e04afe748a78a247109fca8726e65",
     "subject": "Editorial: consolidate BindingInitialization"
    },
    {
     "adate": "2021-01-09T16:16:54-08:00",
     "author": "Kevin Gibbons",
-    "date": "2021-01-11T14:19:49-08:00",
-    "hash": "de5bbd04cf65035f03bb34363af1f1166b408b98",
-    "parents": "61bab877d859ff37ddf1957996be50feee76bbad",
+    "date": "2021-01-14T19:38:09-08:00",
+    "hash": "1d44d253ea9e04afe748a78a247109fca8726e65",
+    "parents": "3060d1f6c593db44d29d553a2388412a7f53e62f",
     "subject": "Editorial: consolidate label-related SDOs"
    },
    {
     "adate": "2021-01-09T15:59:55-08:00",
     "author": "Kevin Gibbons",
-    "date": "2021-01-11T14:19:49-08:00",
-    "hash": "61bab877d859ff37ddf1957996be50feee76bbad",
-    "parents": "f4020b0c22a9e3fe976608503cd1a366236e51eb",
+    "date": "2021-01-14T19:38:09-08:00",
+    "hash": "3060d1f6c593db44d29d553a2388412a7f53e62f",
+    "parents": "c46408aea32acd808852700a782b768f9425c7dc",
     "subject": "Editorial: consolidate StringValue"
    },
    {
     "adate": "2021-01-09T12:07:01-08:00",
     "author": "Kevin Gibbons",
-    "date": "2021-01-11T14:19:49-08:00",
-    "hash": "f4020b0c22a9e3fe976608503cd1a366236e51eb",
-    "parents": "faa809bf7bf90bc4b4247e5b5177075dc64c1137",
+    "date": "2021-01-14T19:38:09-08:00",
+    "hash": "c46408aea32acd808852700a782b768f9425c7dc",
+    "parents": "bc7a90c3ed5c94db8954cf97ed1f51fb42be9640",
     "subject": "Editorial: invoke SV on StringLiteral directly rather than through StringValue"
    },
    {
     "adate": "2021-01-07T18:55:05-08:00",
     "author": "Kevin Gibbons",
-    "date": "2021-01-11T14:19:48-08:00",
-    "hash": "faa809bf7bf90bc4b4247e5b5177075dc64c1137",
-    "parents": "02de9548af88b3bf3b2d377c7adacd92689935aa",
+    "date": "2021-01-14T19:38:09-08:00",
+    "hash": "bc7a90c3ed5c94db8954cf97ed1f51fb42be9640",
+    "parents": "7e2a78f9a9da6cf887109e570c909221c799ef9e",
     "subject": "Editorial: split out the different kinds of declaration for InstantiateFunctionObject"
    },
    {
     "adate": "2021-01-07T18:43:22-08:00",
     "author": "Kevin Gibbons",
-    "date": "2021-01-11T14:19:48-08:00",
-    "hash": "02de9548af88b3bf3b2d377c7adacd92689935aa",
-    "parents": "38402d5280c66fe1c9b9a17f6a756826f2b80af1",
+    "date": "2021-01-14T19:38:08-08:00",
+    "hash": "7e2a78f9a9da6cf887109e570c909221c799ef9e",
+    "parents": "f7fa9705dab091c9f6179f3fc2a53e49f05d7fd0",
     "subject": "Editorial: split out the different kinds of body for EvaluateBody"
    },
    {
     "adate": "2021-01-07T18:10:49-08:00",
     "author": "Kevin Gibbons",
-    "date": "2021-01-11T14:19:48-08:00",
-    "hash": "38402d5280c66fe1c9b9a17f6a756826f2b80af1",
-    "parents": "05ad7a45bac623ca1ed5ecdc50d58693bcf39033",
+    "date": "2021-01-14T19:38:08-08:00",
+    "hash": "f7fa9705dab091c9f6179f3fc2a53e49f05d7fd0",
+    "parents": "7396e513a4a36db4f3b5443fffb2d8919c96563c",
     "subject": "Editorial: consolidate notes about *default* in BoundNames"
    },
    {
     "adate": "2021-01-07T18:06:28-08:00",
     "author": "Kevin Gibbons",
-    "date": "2021-01-11T14:19:48-08:00",
-    "hash": "05ad7a45bac623ca1ed5ecdc50d58693bcf39033",
-    "parents": "402525b2e2f237a1311f95c320af2e42ba09d8c5",
+    "date": "2021-01-14T19:38:06-08:00",
+    "hash": "7396e513a4a36db4f3b5443fffb2d8919c96563c",
+    "parents": "03df90dd04a26cb6fd7861059266499c1e733f46",
     "subject": "Editorial: consolidate scope-analysis related SDOs"
    },
    {
     "adate": "2021-01-07T17:43:33-08:00",
     "author": "Kevin Gibbons",
-    "date": "2021-01-11T14:19:48-08:00",
-    "hash": "402525b2e2f237a1311f95c320af2e42ba09d8c5",
-    "parents": "28d95f5ef8362379329fd2db585934ad4da697b6",
+    "date": "2021-01-14T19:18:01-08:00",
+    "hash": "03df90dd04a26cb6fd7861059266499c1e733f46",
+    "parents": "edd7480da2829f8924e180f0e53a1bcd7fca3ba0",
     "subject": "Editorial: introduce section for syntax-directed operations"
    },
    {
     "adate": "2021-01-07T17:23:34-08:00",
     "author": "Kevin Gibbons",
-    "date": "2021-01-11T14:19:48-08:00",
-    "hash": "28d95f5ef8362379329fd2db585934ad4da697b6",
-    "parents": "610adca633e539f98118d06340d76ac008b3eddb",
+    "date": "2021-01-14T19:17:35-08:00",
+    "hash": "edd7480da2829f8924e180f0e53a1bcd7fca3ba0",
+    "parents": "f1338676a8f8884a4a1faddc7f232cf361f138a2",
     "subject": "Editorial: split ContainsUseStrict into FunctionBody, ConciseBody, and AsyncConciseBody cases"
    },
    {
     "adate": "2021-01-07T17:10:31-08:00",
     "author": "Kevin Gibbons",
-    "date": "2021-01-11T14:19:48-08:00",
-    "hash": "610adca633e539f98118d06340d76ac008b3eddb",
-    "parents": "ae242165f29b73311d43bd0d5854c8315662bbad",
+    "date": "2021-01-14T19:17:35-08:00",
+    "hash": "f1338676a8f8884a4a1faddc7f232cf361f138a2",
+    "parents": "85b7f7bad50b4de72d1b06d30cc22fa121f68f3d",
     "subject": "Editorial: consolidate ContainsExpression, IsSimpleParameterList, HasInitializer, and ExpectedArgumentCount"
    },
    {
     "adate": "2021-01-07T17:03:36-08:00",
     "author": "Kevin Gibbons",
-    "date": "2021-01-11T14:19:48-08:00",
-    "hash": "ae242165f29b73311d43bd0d5854c8315662bbad",
-    "parents": "af7c16ac206655fc46fbaca8f5d41de90cb4d2df",
+    "date": "2021-01-14T19:17:34-08:00",
+    "hash": "85b7f7bad50b4de72d1b06d30cc22fa121f68f3d",
+    "parents": "91315452df45ad768db32482cc9fee48e2523a30",
     "subject": "Editorial: factor out parameter productions into their own section"
    },
    {
     "adate": "2021-01-07T16:53:47-08:00",
     "author": "Kevin Gibbons",
-    "date": "2021-01-11T14:19:48-08:00",
-    "hash": "af7c16ac206655fc46fbaca8f5d41de90cb4d2df",
-    "parents": "fea251f4645f9d4b0da021330aed54edcd193353",
+    "date": "2021-01-14T19:14:19-08:00",
+    "hash": "91315452df45ad768db32482cc9fee48e2523a30",
+    "parents": "3bd46cb3a5b5d510e1b97f24aa40ce0ba810b4e7",
     "subject": "Editorial: use SDO-style dispatch in LabelledEvaluation, rather than switching in the algorithm"
    },
    {
     "adate": "2021-01-07T16:45:42-08:00",
     "author": "Kevin Gibbons",
-    "date": "2021-01-11T14:19:48-08:00",
-    "hash": "fea251f4645f9d4b0da021330aed54edcd193353",
-    "parents": "aa322d9c9d6db8d53fa23e30ded074c55a39d82e",
+    "date": "2021-01-14T19:14:19-08:00",
+    "hash": "3bd46cb3a5b5d510e1b97f24aa40ce0ba810b4e7",
+    "parents": "12795d5b6758061f8a0f8fcb87f9eb2a4a3206a0",
     "subject": "Editorial: split out LoopEvaluation from LabelledEvaluation"
    },
    {
     "adate": "2021-01-07T16:39:18-08:00",
     "author": "Kevin Gibbons",
-    "date": "2021-01-11T14:19:48-08:00",
-    "hash": "aa322d9c9d6db8d53fa23e30ded074c55a39d82e",
-    "parents": "5ece87eda52135250fa85eaea569033add1bcc66",
+    "date": "2021-01-14T19:14:19-08:00",
+    "hash": "12795d5b6758061f8a0f8fcb87f9eb2a4a3206a0",
+    "parents": "aa441473347698243f3e636493eba8b884d6d1be",
     "subject": "Editorial: consolidate LabelledEvaluation"
    },
    {
     "adate": "2021-01-07T16:35:14-08:00",
     "author": "Kevin Gibbons",
-    "date": "2021-01-11T14:19:48-08:00",
-    "hash": "5ece87eda52135250fa85eaea569033add1bcc66",
-    "parents": "bb6fe705b8ecaba4f4923507520f2f6810af2183",
+    "date": "2021-01-14T19:14:19-08:00",
+    "hash": "aa441473347698243f3e636493eba8b884d6d1be",
+    "parents": "04322f203fbae6ec7a89e8f9ac38ccd639a6ce94",
     "subject": "Editorial: split out MethodDefinitionEvaluation from PropertyDefinitionEvaluation"
    },
    {
     "adate": "2021-01-07T16:20:28-08:00",
     "author": "Kevin Gibbons",
-    "date": "2021-01-11T14:19:48-08:00",
-    "hash": "bb6fe705b8ecaba4f4923507520f2f6810af2183",
-    "parents": "99fe4de16745405a39b92184a096fbba23bf5936",
+    "date": "2021-01-14T19:14:19-08:00",
+    "hash": "04322f203fbae6ec7a89e8f9ac38ccd639a6ce94",
+    "parents": "4c1912b10a29fffcd231bd63b77ae660a9ae8358",
     "subject": "Editorial: consolidate PropertyDefinitionEvaluation"
    },
    {
     "adate": "2021-01-07T15:48:16-08:00",
     "author": "Kevin Gibbons",
-    "date": "2021-01-11T14:19:47-08:00",
-    "hash": "99fe4de16745405a39b92184a096fbba23bf5936",
-    "parents": "465bbf2379955dc9c0fb1047b95735366ab0d43b",
+    "date": "2021-01-14T19:14:19-08:00",
+    "hash": "4c1912b10a29fffcd231bd63b77ae660a9ae8358",
+    "parents": "31ac1a0ec1446b2714ea80030ae3d8669abf7592",
     "subject": "Editorial: avoid overloading StringValue for RegExp capturing group identifiers"
    },
    {
     "adate": "2021-01-07T15:43:40-08:00",
     "author": "Kevin Gibbons",
-    "date": "2021-01-11T14:19:47-08:00",
-    "hash": "465bbf2379955dc9c0fb1047b95735366ab0d43b",
-    "parents": "cdaf1b4a9be7e3ee4b299a72a5222cd3005a7a8d",
+    "date": "2021-01-14T19:14:19-08:00",
+    "hash": "31ac1a0ec1446b2714ea80030ae3d8669abf7592",
+    "parents": "190d474c3d8728653fbf8a5a37db1de34b9c1472",
     "subject": "Editorial: split out ForDeclarationBindingInitialization from BindingInitialization"
    }
   ],
   "title": "Editorial: consolidate each SDO's definition",
-  "updated_at": "2021-01-15T03:12:36Z"
+  "updated_at": "2021-01-15T03:42:43Z"
  },
  {
   "base": "b04a9d443ccb59dbeb6e28a0924158d128fce400",
