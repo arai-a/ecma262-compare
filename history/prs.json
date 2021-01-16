@@ -200,32 +200,24 @@
   "updated_at": "2021-01-16T03:50:11Z"
  },
  {
-  "base": "6cc1a6a121a6bf2b0a5aacb1929cd298c9840f19",
+  "base": "ba3dcb5680268b2f9aa42a6e22fbc6eec3c9685f",
   "created_at": "2020-12-08T06:31:39Z",
-  "head": "85251e68994114d50490a1ce0a0ebb64a145aea0",
+  "head": "36f540241bab1d60269c6ac81be1732461cc751a",
   "login": "jmdyck",
   "number": 2246,
   "ref": "ExecutionContext_Record",
   "revs": [
    {
-    "adate": "2020-12-13T10:09:19-05:00",
-    "author": "jmdyck",
-    "date": "2020-12-13T10:09:19-05:00",
-    "hash": "85251e68994114d50490a1ce0a0ebb64a145aea0",
-    "parents": "bb57f9dc48e9cc72b1b5be84fbd41a71442daba7 6cc1a6a121a6bf2b0a5aacb1929cd298c9840f19",
-    "subject": "Merge branch 'master' into ExecutionContext_Record"
-   },
-   {
     "adate": "2020-12-08T01:22:55-05:00",
     "author": "Michael Dyck",
-    "date": "2020-12-08T01:22:55-05:00",
-    "hash": "bb57f9dc48e9cc72b1b5be84fbd41a71442daba7",
-    "parents": "b3f9b5089bcc3ddd8486379015cd11eb1427a5eb",
+    "date": "2021-01-15T23:42:18-05:00",
+    "hash": "36f540241bab1d60269c6ac81be1732461cc751a",
+    "parents": "ba3dcb5680268b2f9aa42a6e22fbc6eec3c9685f",
     "subject": "Editorial: Model execution context as a record"
    }
   ],
   "title": "Editorial: Model execution context as a record",
-  "updated_at": "2020-12-13T15:09:20Z"
+  "updated_at": "2021-01-16T04:46:17Z"
  },
  {
   "base": "b3f9b5089bcc3ddd8486379015cd11eb1427a5eb",
@@ -1088,9 +1080,9 @@
   "updated_at": "2020-03-27T07:01:17Z"
  },
  {
-  "base": "d5948f7bf2a445ccd0a14ac9b06e57dcee397ed7",
+  "base": "ba3dcb5680268b2f9aa42a6e22fbc6eec3c9685f",
   "created_at": "2020-02-09T02:20:19Z",
-  "head": "d44b89b212a0c68dc1b356a270a2d45db3d5c2bc",
+  "head": "df515623d0deadc0061a4e13d0081c292aa321b5",
   "login": "jmdyck",
   "number": 1867,
   "ref": "make_B_literals_normative",
@@ -1098,30 +1090,30 @@
    {
     "adate": "2020-11-29T21:17:53-05:00",
     "author": "Michael Dyck",
-    "date": "2020-11-29T21:17:53-05:00",
-    "hash": "d44b89b212a0c68dc1b356a270a2d45db3d5c2bc",
-    "parents": "c88e58928295ca13b5a92066c77adeadc1ed5a64",
+    "date": "2021-01-16T00:18:34-05:00",
+    "hash": "df515623d0deadc0061a4e13d0081c292aa321b5",
+    "parents": "324a35955a161ed8f0a8be52020ae1f0990f7878",
     "subject": "Editorial: Tweak two SV rules"
    },
    {
     "adate": "2020-11-29T21:16:35-05:00",
     "author": "Michael Dyck",
-    "date": "2020-11-29T21:16:35-05:00",
-    "hash": "c88e58928295ca13b5a92066c77adeadc1ed5a64",
-    "parents": "b389e38b9c525284aaa466cef9c1931789733abb",
+    "date": "2021-01-16T00:18:34-05:00",
+    "hash": "324a35955a161ed8f0a8be52020ae1f0990f7878",
+    "parents": "92cc32f42650d360ef208f54f19c4a09c2769a9e",
     "subject": "Normative: Make B.1.2 \"String Literals\" normative."
    },
    {
     "adate": "2019-07-31T08:33:51-04:00",
     "author": "Michael Dyck",
-    "date": "2020-11-29T17:00:52-05:00",
-    "hash": "b389e38b9c525284aaa466cef9c1931789733abb",
-    "parents": "d5948f7bf2a445ccd0a14ac9b06e57dcee397ed7",
+    "date": "2021-01-15T23:51:46-05:00",
+    "hash": "92cc32f42650d360ef208f54f19c4a09c2769a9e",
+    "parents": "ba3dcb5680268b2f9aa42a6e22fbc6eec3c9685f",
     "subject": "Normative: Make B.1.1 \"Numeric Literals\" normative."
    }
   ],
   "title": "Normative: Make B.1.{1,2} normative",
-  "updated_at": "2020-11-30T02:33:16Z"
+  "updated_at": "2021-01-16T05:19:55Z"
  },
  {
   "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
