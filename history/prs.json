@@ -1,8 +1,8 @@
 [
  {
-  "base": "190d474c3d8728653fbf8a5a37db1de34b9c1472",
+  "base": "ba3dcb5680268b2f9aa42a6e22fbc6eec3c9685f",
   "created_at": "2021-01-14T01:30:14Z",
-  "head": "7eccfd8848c81936bd19118241908d6994f0dffc",
+  "head": "42b9b1ff4d549ffc5800f083cc6acb8fd3cff7ae",
   "login": "jmdyck",
   "number": 2275,
   "ref": "AsyncFunctionExpression",
@@ -10,14 +10,14 @@
    {
     "adate": "2021-01-13T20:15:15-05:00",
     "author": "Michael Dyck",
-    "date": "2021-01-13T20:26:10-05:00",
-    "hash": "7eccfd8848c81936bd19118241908d6994f0dffc",
-    "parents": "190d474c3d8728653fbf8a5a37db1de34b9c1472",
+    "date": "2021-01-15T22:19:42-05:00",
+    "hash": "42b9b1ff4d549ffc5800f083cc6acb8fd3cff7ae",
+    "parents": "ba3dcb5680268b2f9aa42a6e22fbc6eec3c9685f",
     "subject": "Editorial: Merge the RHSs of AsyncFunctionExpression"
    }
   ],
   "title": "Editorial: Merge the RHSs of AsyncFunctionExpression",
-  "updated_at": "2021-01-14T02:40:43Z"
+  "updated_at": "2021-01-16T03:31:50Z"
  },
  {
   "base": "190d474c3d8728653fbf8a5a37db1de34b9c1472",
@@ -374,34 +374,6 @@
   ],
   "title": "Normative: Define default constructors using spec steps",
   "updated_at": "2021-01-07T01:19:55Z"
- },
- {
-  "base": "096f30b7c7ee7b12f6907bb5760496711c29b66f",
-  "created_at": "2020-10-27T01:21:58Z",
-  "head": "5fe0d486fc5dc3e6ed83d6d14f475c6a91f18352",
-  "login": "syg",
-  "number": 2213,
-  "ref": "construct-invariant",
-  "revs": [
-   {
-    "adate": "2020-10-26T18:19:47-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-10-26T18:20:33-07:00",
-    "hash": "5fe0d486fc5dc3e6ed83d6d14f475c6a91f18352",
-    "parents": "fc4f5375941d46bfcb4ad8339297b736270af45a",
-    "subject": "Drive-by correction of object -> target"
-   },
-   {
-    "adate": "2020-10-26T18:14:16-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2020-10-26T18:20:33-07:00",
-    "hash": "fc4f5375941d46bfcb4ad8339297b736270af45a",
-    "parents": "096f30b7c7ee7b12f6907bb5760496711c29b66f",
-    "subject": "Editorial: List the [[Construct]]-requires-[[Call]] invariant in the list of invariants"
-   }
-  ],
-  "title": "Editorial: List the [[Construct]]-requires-[[Call]] invariant in the list of invariants",
-  "updated_at": "2020-10-27T01:21:58Z"
  },
  {
   "base": "f2eb02248838e3482fbb7f02a2a1455c029efa0c",
