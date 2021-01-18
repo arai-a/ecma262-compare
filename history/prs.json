@@ -1,6 +1,26 @@
 [
  {
   "base": "ba3dcb5680268b2f9aa42a6e22fbc6eec3c9685f",
+  "created_at": "2021-01-18T21:43:12Z",
+  "head": "dd053fad71d62e776728cd09632ff741df1cfa5c",
+  "login": "ljharb",
+  "number": 2282,
+  "ref": "ApplyStringOrNumericBinaryOperator",
+  "revs": [
+   {
+    "adate": "2021-01-18T13:42:29-08:00",
+    "author": "Jordan Harband",
+    "date": "2021-01-18T13:42:29-08:00",
+    "hash": "dd053fad71d62e776728cd09632ff741df1cfa5c",
+    "parents": "ba3dcb5680268b2f9aa42a6e22fbc6eec3c9685f",
+    "subject": "Editorial: add missing assertion to ApplyStringOrNumericBinaryOperator"
+   }
+  ],
+  "title": "Editorial: add missing assertion to ApplyStringOrNumericBinaryOperator",
+  "updated_at": "2021-01-18T21:43:12Z"
+ },
+ {
+  "base": "ba3dcb5680268b2f9aa42a6e22fbc6eec3c9685f",
   "created_at": "2021-01-16T20:22:45Z",
   "head": "5c93418237a88e24d7657516df1640d6372c3dd8",
   "login": "tc39",
