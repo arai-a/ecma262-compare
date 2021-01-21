@@ -1,23 +1,23 @@
 [
  {
-  "base": "5687197db84d84c8ec16aaf532f693badc3fdcec",
-  "created_at": "2021-01-16T20:22:45Z",
-  "head": "77595f579194f5c79a02a2952f4367a8e3ce9620",
-  "login": "tc39",
-  "number": 2280,
-  "ref": "split-iterationstatement",
+  "base": "77595f579194f5c79a02a2952f4367a8e3ce9620",
+  "created_at": "2021-01-21T07:29:25Z",
+  "head": "fefa5113f6085c570d5f89479c2e2a3b07ca0745",
+  "login": "mathiasbynens",
+  "number": 2284,
+  "ref": "fix-intro-word",
   "revs": [
    {
-    "adate": "2021-01-20T19:57:46-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-01-20T19:57:46-08:00",
-    "hash": "77595f579194f5c79a02a2952f4367a8e3ce9620",
-    "parents": "5687197db84d84c8ec16aaf532f693badc3fdcec",
-    "subject": "Editorial: split up IterationStatement (#2280)"
+    "adate": "2021-01-21T08:26:01+01:00",
+    "author": "Mathias Bynens",
+    "date": "2021-01-21T08:26:01+01:00",
+    "hash": "fefa5113f6085c570d5f89479c2e2a3b07ca0745",
+    "parents": "77595f579194f5c79a02a2952f4367a8e3ce9620",
+    "subject": "Editorial: improve \u201cAbout this Specification\u201d section"
    }
   ],
-  "title": "Editorial: split up IterationStatement",
-  "updated_at": "2021-01-21T03:57:53Z"
+  "title": "Editorial: improve \u201cAbout this Specification\u201d section",
+  "updated_at": "2021-01-21T07:29:25Z"
  },
  {
   "base": "ba3dcb5680268b2f9aa42a6e22fbc6eec3c9685f",
