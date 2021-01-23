@@ -1,6 +1,26 @@
 [
  {
   "base": "77595f579194f5c79a02a2952f4367a8e3ce9620",
+  "created_at": "2021-01-23T01:29:17Z",
+  "head": "2c0b6c57b9f00159b216621eef21bde6e42cad1a",
+  "login": "syg",
+  "number": 2286,
+  "ref": "add-at-method",
+  "revs": [
+   {
+    "adate": "2021-01-22T17:27:15-08:00",
+    "author": "Shu-yu Guo",
+    "date": "2021-01-22T17:27:48-08:00",
+    "hash": "2c0b6c57b9f00159b216621eef21bde6e42cad1a",
+    "parents": "77595f579194f5c79a02a2952f4367a8e3ce9620",
+    "subject": "Normative: Add the `at` method to Array, TypedArray, and String"
+   }
+  ],
+  "title": "Normative: Add the `at` method to Array, TypedArray, and String",
+  "updated_at": "2021-01-23T01:29:17Z"
+ },
+ {
+  "base": "77595f579194f5c79a02a2952f4367a8e3ce9620",
   "created_at": "2021-01-21T07:29:25Z",
   "head": "fefa5113f6085c570d5f89479c2e2a3b07ca0745",
   "login": "mathiasbynens",
