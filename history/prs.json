@@ -1,6 +1,58 @@
 [
  {
   "base": "77595f579194f5c79a02a2952f4367a8e3ce9620",
+  "created_at": "2021-01-24T05:38:33Z",
+  "head": "81b6a51289ccb0acbcbc8bcd43479cc877d7976e",
+  "login": "jmdyck",
+  "number": 2288,
+  "ref": "declarative_Env_Rec",
+  "revs": [
+   {
+    "adate": "2021-01-24T00:30:29-05:00",
+    "author": "Michael Dyck",
+    "date": "2021-01-24T00:33:24-05:00",
+    "hash": "81b6a51289ccb0acbcbc8bcd43479cc877d7976e",
+    "parents": "42ad8ad2ffba92df5e0658b6cc25506af6f07959",
+    "subject": "Editorial: Model a binding as a Record"
+   },
+   {
+    "adate": "2021-01-23T23:59:22-05:00",
+    "author": "Michael Dyck",
+    "date": "2021-01-24T00:12:21-05:00",
+    "hash": "42ad8ad2ffba92df5e0658b6cc25506af6f07959",
+    "parents": "bd72ed453c9f387a0c323c8de3cdb241ce7020cb",
+    "subject": "Editorial: declarative Env Rec has field [[Bindings]]"
+   },
+   {
+    "adate": "2021-01-23T23:52:38-05:00",
+    "author": "Michael Dyck",
+    "date": "2021-01-24T00:11:25-05:00",
+    "hash": "bd72ed453c9f387a0c323c8de3cdb241ce7020cb",
+    "parents": "9dae0ca542cd72c88cf15b196ddabc5d01376f25",
+    "subject": "Editorial: Treat a binding as an 'alias-able' thing"
+   },
+   {
+    "adate": "2021-01-23T23:03:21-05:00",
+    "author": "Michael Dyck",
+    "date": "2021-01-23T23:03:21-05:00",
+    "hash": "9dae0ca542cd72c88cf15b196ddabc5d01376f25",
+    "parents": "d1dffffc5051cf7c49ce9071f54b599b1e9bbce9",
+    "subject": "Editorial: Have NewGlobalEnvironment invoke NewDeclarativeEnvironment"
+   },
+   {
+    "adate": "2021-01-23T22:54:21-05:00",
+    "author": "Michael Dyck",
+    "date": "2021-01-23T22:54:21-05:00",
+    "hash": "d1dffffc5051cf7c49ce9071f54b599b1e9bbce9",
+    "parents": "77595f579194f5c79a02a2952f4367a8e3ce9620",
+    "subject": "Editorial: Use declarative Env Rec's HasBinding method"
+   }
+  ],
+  "title": "Editorial: Model the bindings of a declarative Env Rec as a List of Records",
+  "updated_at": "2021-01-24T05:38:33Z"
+ },
+ {
+  "base": "77595f579194f5c79a02a2952f4367a8e3ce9620",
   "created_at": "2021-01-23T21:18:46Z",
   "head": "d31bf0162c974e88aa0f12fce43403b42f06a840",
   "login": "jmdyck",
