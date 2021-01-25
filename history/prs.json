@@ -1,26 +1,6 @@
 [
  {
   "base": "77595f579194f5c79a02a2952f4367a8e3ce9620",
-  "created_at": "2021-01-24T23:47:00Z",
-  "head": "6e633e684ed8b12245e906593bdeb4969441f3bc",
-  "login": "tc39",
-  "number": 2289,
-  "ref": "bump-emu",
-  "revs": [
-   {
-    "adate": "2021-01-25T09:35:31-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-01-25T09:35:31-08:00",
-    "hash": "6e633e684ed8b12245e906593bdeb4969441f3bc",
-    "parents": "77595f579194f5c79a02a2952f4367a8e3ce9620",
-    "subject": "Meta: bump ecmarkup to 6.0.0 (#2289)"
-   }
-  ],
-  "title": "Meta: bump ecmarkup to 6.0.0",
-  "updated_at": "2021-01-25T18:04:23Z"
- },
- {
-  "base": "77595f579194f5c79a02a2952f4367a8e3ce9620",
   "created_at": "2021-01-24T05:38:33Z",
   "head": "81b6a51289ccb0acbcbc8bcd43479cc877d7976e",
   "login": "jmdyck",
@@ -164,24 +144,24 @@
   "updated_at": "2021-01-21T07:29:25Z"
  },
  {
-  "base": "ba3dcb5680268b2f9aa42a6e22fbc6eec3c9685f",
+  "base": "6e633e684ed8b12245e906593bdeb4969441f3bc",
   "created_at": "2021-01-14T01:30:14Z",
-  "head": "42b9b1ff4d549ffc5800f083cc6acb8fd3cff7ae",
+  "head": "7dab9506c5c43d241842bc1b841de6b3d58992fb",
   "login": "jmdyck",
   "number": 2275,
   "ref": "AsyncFunctionExpression",
   "revs": [
    {
-    "adate": "2021-01-13T20:15:15-05:00",
+    "adate": "2021-01-25T12:00:43-08:00",
     "author": "Michael Dyck",
-    "date": "2021-01-15T22:19:42-05:00",
-    "hash": "42b9b1ff4d549ffc5800f083cc6acb8fd3cff7ae",
-    "parents": "ba3dcb5680268b2f9aa42a6e22fbc6eec3c9685f",
-    "subject": "Editorial: Merge the RHSs of AsyncFunctionExpression"
+    "date": "2021-01-25T12:00:43-08:00",
+    "hash": "7dab9506c5c43d241842bc1b841de6b3d58992fb",
+    "parents": "6e633e684ed8b12245e906593bdeb4969441f3bc",
+    "subject": "Editorial: Merge the RHSs of AsyncFunctionExpression (#2275)"
    }
   ],
   "title": "Editorial: Merge the RHSs of AsyncFunctionExpression",
-  "updated_at": "2021-01-16T03:31:50Z"
+  "updated_at": "2021-01-25T20:01:35Z"
  },
  {
   "base": "190d474c3d8728653fbf8a5a37db1de34b9c1472",
