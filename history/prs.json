@@ -36,9 +36,9 @@
   "updated_at": "2021-01-28T20:45:23Z"
  },
  {
-  "base": "77595f579194f5c79a02a2952f4367a8e3ce9620",
+  "base": "7dab9506c5c43d241842bc1b841de6b3d58992fb",
   "created_at": "2021-01-24T05:38:33Z",
-  "head": "81b6a51289ccb0acbcbc8bcd43479cc877d7976e",
+  "head": "894539cdfa1b0251e722f434204f0d2afad60a03",
   "login": "jmdyck",
   "number": 2288,
   "ref": "declarative_Env_Rec",
@@ -46,46 +46,46 @@
    {
     "adate": "2021-01-24T00:30:29-05:00",
     "author": "Michael Dyck",
-    "date": "2021-01-24T00:33:24-05:00",
-    "hash": "81b6a51289ccb0acbcbc8bcd43479cc877d7976e",
-    "parents": "42ad8ad2ffba92df5e0658b6cc25506af6f07959",
+    "date": "2021-01-28T17:32:33-05:00",
+    "hash": "894539cdfa1b0251e722f434204f0d2afad60a03",
+    "parents": "465d21c70c126f32c9a448d105eededaccb5fac8",
     "subject": "Editorial: Model a binding as a Record"
    },
    {
     "adate": "2021-01-23T23:59:22-05:00",
     "author": "Michael Dyck",
-    "date": "2021-01-24T00:12:21-05:00",
-    "hash": "42ad8ad2ffba92df5e0658b6cc25506af6f07959",
-    "parents": "bd72ed453c9f387a0c323c8de3cdb241ce7020cb",
+    "date": "2021-01-28T17:32:33-05:00",
+    "hash": "465d21c70c126f32c9a448d105eededaccb5fac8",
+    "parents": "ddf7bb9d46bd629ef54e3de0fc985f63b3a3a39f",
     "subject": "Editorial: declarative Env Rec has field [[Bindings]]"
    },
    {
     "adate": "2021-01-23T23:52:38-05:00",
     "author": "Michael Dyck",
-    "date": "2021-01-24T00:11:25-05:00",
-    "hash": "bd72ed453c9f387a0c323c8de3cdb241ce7020cb",
-    "parents": "9dae0ca542cd72c88cf15b196ddabc5d01376f25",
+    "date": "2021-01-28T17:32:33-05:00",
+    "hash": "ddf7bb9d46bd629ef54e3de0fc985f63b3a3a39f",
+    "parents": "d8302789ec49c025dca1df50414eb7055a0cc19e",
     "subject": "Editorial: Treat a binding as an 'alias-able' thing"
    },
    {
     "adate": "2021-01-23T23:03:21-05:00",
     "author": "Michael Dyck",
-    "date": "2021-01-23T23:03:21-05:00",
-    "hash": "9dae0ca542cd72c88cf15b196ddabc5d01376f25",
-    "parents": "d1dffffc5051cf7c49ce9071f54b599b1e9bbce9",
+    "date": "2021-01-28T17:32:32-05:00",
+    "hash": "d8302789ec49c025dca1df50414eb7055a0cc19e",
+    "parents": "8ec6d8b1b2a9c7c19ac7db404e23775ce701d7f0",
     "subject": "Editorial: Have NewGlobalEnvironment invoke NewDeclarativeEnvironment"
    },
    {
     "adate": "2021-01-23T22:54:21-05:00",
     "author": "Michael Dyck",
-    "date": "2021-01-23T22:54:21-05:00",
-    "hash": "d1dffffc5051cf7c49ce9071f54b599b1e9bbce9",
-    "parents": "77595f579194f5c79a02a2952f4367a8e3ce9620",
+    "date": "2021-01-28T17:32:32-05:00",
+    "hash": "8ec6d8b1b2a9c7c19ac7db404e23775ce701d7f0",
+    "parents": "7dab9506c5c43d241842bc1b841de6b3d58992fb",
     "subject": "Editorial: Use declarative Env Rec's HasBinding method"
    }
   ],
   "title": "Editorial: Model the bindings of a declarative Env Rec as a List of Records",
-  "updated_at": "2021-01-24T05:38:33Z"
+  "updated_at": "2021-01-28T22:33:10Z"
  },
  {
   "base": "77595f579194f5c79a02a2952f4367a8e3ce9620",
@@ -360,9 +360,9 @@
   "updated_at": "2021-01-16T03:50:11Z"
  },
  {
-  "base": "ba3dcb5680268b2f9aa42a6e22fbc6eec3c9685f",
+  "base": "7dab9506c5c43d241842bc1b841de6b3d58992fb",
   "created_at": "2020-12-08T06:31:39Z",
-  "head": "36f540241bab1d60269c6ac81be1732461cc751a",
+  "head": "1e28eeb219cd7709fe222d68aecc688691c11736",
   "login": "jmdyck",
   "number": 2246,
   "ref": "ExecutionContext_Record",
@@ -370,14 +370,14 @@
    {
     "adate": "2020-12-08T01:22:55-05:00",
     "author": "Michael Dyck",
-    "date": "2021-01-15T23:42:18-05:00",
-    "hash": "36f540241bab1d60269c6ac81be1732461cc751a",
-    "parents": "ba3dcb5680268b2f9aa42a6e22fbc6eec3c9685f",
+    "date": "2021-01-28T17:34:16-05:00",
+    "hash": "1e28eeb219cd7709fe222d68aecc688691c11736",
+    "parents": "7dab9506c5c43d241842bc1b841de6b3d58992fb",
     "subject": "Editorial: Model execution context as a record"
    }
   ],
   "title": "Editorial: Model execution context as a record",
-  "updated_at": "2021-01-16T04:46:17Z"
+  "updated_at": "2021-01-28T22:47:03Z"
  },
  {
   "base": "b3f9b5089bcc3ddd8486379015cd11eb1427a5eb",
