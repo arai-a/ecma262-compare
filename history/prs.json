@@ -128,9 +128,9 @@
   "updated_at": "2021-01-28T22:33:10Z"
  },
  {
-  "base": "77595f579194f5c79a02a2952f4367a8e3ce9620",
+  "base": "ff68b58a233443b4946bf42a6b677f83604469a0",
   "created_at": "2021-01-23T21:18:46Z",
-  "head": "8357ba30b66190cafc4d8ff881e3f5e036cd4b91",
+  "head": "7c24e5d8529f28d8f545ab6673cdcfae7f24d025",
   "login": "jmdyck",
   "number": 2287,
   "ref": "object_Env_Rec",
@@ -138,46 +138,46 @@
    {
     "adate": "2021-01-23T15:57:25-05:00",
     "author": "Michael Dyck",
-    "date": "2021-01-24T20:15:05-05:00",
-    "hash": "8357ba30b66190cafc4d8ff881e3f5e036cd4b91",
-    "parents": "6cd74fa776bea1e082c4001a45df3e6634ae86e9",
+    "date": "2021-02-03T20:22:26-05:00",
+    "hash": "7c24e5d8529f28d8f545ab6673cdcfae7f24d025",
+    "parents": "988f67f487d7fb638e892e32a4b1c8f590b9af00",
     "subject": "Editorial: Rename alias `_bindings_` to `_bindingObject_`"
    },
    {
     "adate": "2021-01-23T14:14:51-05:00",
     "author": "Michael Dyck",
-    "date": "2021-01-24T20:15:05-05:00",
-    "hash": "6cd74fa776bea1e082c4001a45df3e6634ae86e9",
-    "parents": "509c9f126341b563e0eaba0f9cfc639cd6846e7c",
+    "date": "2021-02-03T20:20:10-05:00",
+    "hash": "988f67f487d7fb638e892e32a4b1c8f590b9af00",
+    "parents": "e1d0ccd6254abcc80e86e4d866306412e0890c6a",
     "subject": "Editorial: Introduce fields to specify object Env Rec"
    },
    {
     "adate": "2021-01-23T13:50:34-05:00",
     "author": "Michael Dyck",
-    "date": "2021-01-24T20:15:00-05:00",
-    "hash": "509c9f126341b563e0eaba0f9cfc639cd6846e7c",
-    "parents": "e0c391cdde14592c7c7bb3218d317b463524b759",
+    "date": "2021-02-03T19:49:14-05:00",
+    "hash": "e1d0ccd6254abcc80e86e4d866306412e0890c6a",
+    "parents": "8a1c344d616d2d84564350686e96ac006150ec64",
     "subject": "Editorial: Add parameter to NewObjectEnvironemt"
    },
    {
     "adate": "2021-01-23T13:46:03-05:00",
     "author": "Michael Dyck",
-    "date": "2021-01-24T20:13:24-05:00",
-    "hash": "e0c391cdde14592c7c7bb3218d317b463524b759",
-    "parents": "ad2dfb0101bb9908b61c8fe4a61a69f4140e3420",
+    "date": "2021-02-03T19:49:14-05:00",
+    "hash": "8a1c344d616d2d84564350686e96ac006150ec64",
+    "parents": "c2d4e377481a3768610263771eeabe3c086eb7c9",
     "subject": "Editorial: Set _withEnvironment_ explicitly"
    },
    {
     "adate": "2021-01-23T13:42:40-05:00",
     "author": "Michael Dyck",
-    "date": "2021-01-24T20:12:32-05:00",
-    "hash": "ad2dfb0101bb9908b61c8fe4a61a69f4140e3420",
-    "parents": "77595f579194f5c79a02a2952f4367a8e3ce9620",
+    "date": "2021-02-03T19:49:14-05:00",
+    "hash": "c2d4e377481a3768610263771eeabe3c086eb7c9",
+    "parents": "ff68b58a233443b4946bf42a6b677f83604469a0",
     "subject": "Editorial: Have NewGlobalEnvironment invoke NewObjectEnvironment"
    }
   ],
   "title": "Editorial: Object Environment Record improvements",
-  "updated_at": "2021-01-25T01:18:49Z"
+  "updated_at": "2021-02-04T01:35:34Z"
  },
  {
   "base": "77595f579194f5c79a02a2952f4367a8e3ce9620",
