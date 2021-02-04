@@ -1,26 +1,6 @@
 [
  {
   "base": "ff68b58a233443b4946bf42a6b677f83604469a0",
-  "created_at": "2021-02-04T01:12:25Z",
-  "head": "c6d4fd35cae467c2ce2283d4258c70b4f4f2635f",
-  "login": "DanielRosenwasser",
-  "number": 2295,
-  "ref": "toABooleanValue",
-  "revs": [
-   {
-    "adate": "2021-02-03T17:08:58-08:00",
-    "author": "Daniel Rosenwasser",
-    "date": "2021-02-03T17:12:54-08:00",
-    "hash": "c6d4fd35cae467c2ce2283d4258c70b4f4f2635f",
-    "parents": "ff68b58a233443b4946bf42a6b677f83604469a0",
-    "subject": "Editorial: swap phrasing to indefinite article for Boolean-coercibles."
-   }
-  ],
-  "title": "Editorial: swap phrasing to indefinite article for Boolean-coercibles.",
-  "updated_at": "2021-02-04T01:13:13Z"
- },
- {
-  "base": "ff68b58a233443b4946bf42a6b677f83604469a0",
   "created_at": "2021-02-04T01:01:39Z",
   "head": "508df99009ad98ec38ed7601b45f09bc9cd19324",
   "login": "DanielRosenwasser",
@@ -128,9 +108,9 @@
   "updated_at": "2021-01-28T22:33:10Z"
  },
  {
-  "base": "ff68b58a233443b4946bf42a6b677f83604469a0",
+  "base": "d02d992ba317792759909de739d93b51a09299af",
   "created_at": "2021-01-23T21:18:46Z",
-  "head": "7c24e5d8529f28d8f545ab6673cdcfae7f24d025",
+  "head": "786c5d28ba4d27ea854ca61ab803e43d4834808d",
   "login": "jmdyck",
   "number": 2287,
   "ref": "object_Env_Rec",
@@ -138,46 +118,46 @@
    {
     "adate": "2021-01-23T15:57:25-05:00",
     "author": "Michael Dyck",
-    "date": "2021-02-03T20:22:26-05:00",
-    "hash": "7c24e5d8529f28d8f545ab6673cdcfae7f24d025",
-    "parents": "988f67f487d7fb638e892e32a4b1c8f590b9af00",
+    "date": "2021-02-04T18:04:24-05:00",
+    "hash": "786c5d28ba4d27ea854ca61ab803e43d4834808d",
+    "parents": "7ba4488fc70a3a8ad61f7f07c3e05b87a953baff",
     "subject": "Editorial: Rename alias `_bindings_` to `_bindingObject_`"
    },
    {
     "adate": "2021-01-23T14:14:51-05:00",
     "author": "Michael Dyck",
-    "date": "2021-02-03T20:20:10-05:00",
-    "hash": "988f67f487d7fb638e892e32a4b1c8f590b9af00",
-    "parents": "e1d0ccd6254abcc80e86e4d866306412e0890c6a",
+    "date": "2021-02-04T18:04:24-05:00",
+    "hash": "7ba4488fc70a3a8ad61f7f07c3e05b87a953baff",
+    "parents": "522082281f408f6d72022bb35ce6c86754837df7",
     "subject": "Editorial: Introduce fields to specify object Env Rec"
    },
    {
     "adate": "2021-01-23T13:50:34-05:00",
     "author": "Michael Dyck",
-    "date": "2021-02-03T19:49:14-05:00",
-    "hash": "e1d0ccd6254abcc80e86e4d866306412e0890c6a",
-    "parents": "8a1c344d616d2d84564350686e96ac006150ec64",
+    "date": "2021-02-04T18:04:14-05:00",
+    "hash": "522082281f408f6d72022bb35ce6c86754837df7",
+    "parents": "0b2e4b55003706b007929e36c291d2d5d47c5918",
     "subject": "Editorial: Add parameter to NewObjectEnvironemt"
    },
    {
     "adate": "2021-01-23T13:46:03-05:00",
     "author": "Michael Dyck",
-    "date": "2021-02-03T19:49:14-05:00",
-    "hash": "8a1c344d616d2d84564350686e96ac006150ec64",
-    "parents": "c2d4e377481a3768610263771eeabe3c086eb7c9",
+    "date": "2021-02-04T17:59:07-05:00",
+    "hash": "0b2e4b55003706b007929e36c291d2d5d47c5918",
+    "parents": "673aaaed8c4cc4b8d91910ffa20655ddb45f8ca5",
     "subject": "Editorial: Set _withEnvironment_ explicitly"
    },
    {
     "adate": "2021-01-23T13:42:40-05:00",
     "author": "Michael Dyck",
-    "date": "2021-02-03T19:49:14-05:00",
-    "hash": "c2d4e377481a3768610263771eeabe3c086eb7c9",
-    "parents": "ff68b58a233443b4946bf42a6b677f83604469a0",
+    "date": "2021-02-04T17:59:07-05:00",
+    "hash": "673aaaed8c4cc4b8d91910ffa20655ddb45f8ca5",
+    "parents": "d02d992ba317792759909de739d93b51a09299af",
     "subject": "Editorial: Have NewGlobalEnvironment invoke NewObjectEnvironment"
    }
   ],
   "title": "Editorial: Object Environment Record improvements",
-  "updated_at": "2021-02-04T01:35:34Z"
+  "updated_at": "2021-02-04T23:07:15Z"
  },
  {
   "base": "77595f579194f5c79a02a2952f4367a8e3ce9620",
