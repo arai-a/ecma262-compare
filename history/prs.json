@@ -1,5 +1,45 @@
 [
  {
+  "base": "ff68b58a233443b4946bf42a6b677f83604469a0",
+  "created_at": "2021-02-04T01:12:25Z",
+  "head": "c6d4fd35cae467c2ce2283d4258c70b4f4f2635f",
+  "login": "DanielRosenwasser",
+  "number": 2295,
+  "ref": "toABooleanValue",
+  "revs": [
+   {
+    "adate": "2021-02-03T17:08:58-08:00",
+    "author": "Daniel Rosenwasser",
+    "date": "2021-02-03T17:12:54-08:00",
+    "hash": "c6d4fd35cae467c2ce2283d4258c70b4f4f2635f",
+    "parents": "ff68b58a233443b4946bf42a6b677f83604469a0",
+    "subject": "Editorial: swap phrasing to indefinite article for Boolean-coercibles."
+   }
+  ],
+  "title": "Editorial: swap phrasing to indefinite article for Boolean-coercibles.",
+  "updated_at": "2021-02-04T01:13:13Z"
+ },
+ {
+  "base": "ff68b58a233443b4946bf42a6b677f83604469a0",
+  "created_at": "2021-02-04T01:01:39Z",
+  "head": "508df99009ad98ec38ed7601b45f09bc9cd19324",
+  "login": "DanielRosenwasser",
+  "number": 2294,
+  "ref": "findPhrasing",
+  "revs": [
+   {
+    "adate": "2021-02-03T16:57:21-08:00",
+    "author": "Daniel Rosenwasser",
+    "date": "2021-02-03T16:59:48-08:00",
+    "hash": "508df99009ad98ec38ed7601b45f09bc9cd19324",
+    "parents": "ff68b58a233443b4946bf42a6b677f83604469a0",
+    "subject": "Editorial: Remove unnecessary statement following heading for `find`."
+   }
+  ],
+  "title": "Editorial: Remove unnecessary statement following heading for `find`.",
+  "updated_at": "2021-02-04T01:01:39Z"
+ },
+ {
   "base": "7dab9506c5c43d241842bc1b841de6b3d58992fb",
   "created_at": "2021-01-27T22:19:35Z",
   "head": "3ad18be8e1e7aeb8e0e3a45990abe6ae28a37059",
@@ -158,26 +198,6 @@
   ],
   "title": "Normative: Add the `at` method to Array, TypedArray, and String",
   "updated_at": "2021-01-23T01:29:17Z"
- },
- {
-  "base": "7dab9506c5c43d241842bc1b841de6b3d58992fb",
-  "created_at": "2021-01-21T07:29:25Z",
-  "head": "ff68b58a233443b4946bf42a6b677f83604469a0",
-  "login": "mathiasbynens",
-  "number": 2284,
-  "ref": "fix-intro-word",
-  "revs": [
-   {
-    "adate": "2021-02-02T10:49:46-08:00",
-    "author": "Mathias Bynens",
-    "date": "2021-02-02T10:49:46-08:00",
-    "hash": "ff68b58a233443b4946bf42a6b677f83604469a0",
-    "parents": "7dab9506c5c43d241842bc1b841de6b3d58992fb",
-    "subject": "Editorial: improve \u201cAbout this Specification\u201d section (#2284)"
-   }
-  ],
-  "title": "Editorial: improve \u201cAbout this Specification\u201d section",
-  "updated_at": "2021-02-02T18:49:57Z"
  },
  {
   "base": "190d474c3d8728653fbf8a5a37db1de34b9c1472",
