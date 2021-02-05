@@ -586,11 +586,19 @@
  {
   "base": "52bfd9f5775e368c57b8793d678fee6121797354",
   "created_at": "2020-09-23T23:25:42Z",
-  "head": "d55c269bc58ed9ee7944ea983f3a2458af1c7c54",
+  "head": "e4b6ca86d0318c06c7976e558a8066a6782b2931",
   "login": "ryanjduffy",
   "number": 2189,
   "ref": "issue-2179",
   "revs": [
+   {
+    "adate": "2021-02-05T10:06:53-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-02-05T10:06:53-08:00",
+    "hash": "e4b6ca86d0318c06c7976e558a8066a6782b2931",
+    "parents": "d55c269bc58ed9ee7944ea983f3a2458af1c7c54",
+    "subject": "implementation-approximated values are already Numbers"
+   },
    {
     "adate": "2021-01-11T11:20:22-08:00",
     "author": "Michael Ficarra",
@@ -705,7 +713,7 @@
    }
   ],
   "title": "Editorial: convert Number abstract operations to algorithmic steps",
-  "updated_at": "2021-01-11T19:20:40Z"
+  "updated_at": "2021-02-05T18:07:15Z"
  },
  {
   "base": "65d5bcc81b65f822d4a8f31ece1bda30f5ca3036",
