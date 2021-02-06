@@ -2,7 +2,7 @@
  {
   "base": "d02d992ba317792759909de739d93b51a09299af",
   "created_at": "2021-02-06T14:54:33Z",
-  "head": "3e5e48f90a8418e1a27c483ef28f6adbdf24e290",
+  "head": "7b7c1a64752ea6f31cba691df1a7ec9c544c899a",
   "login": "ljharb",
   "number": 2297,
   "ref": "typedarray-element-type-dfn",
@@ -11,13 +11,13 @@
     "adate": "2021-02-06T06:52:01-08:00",
     "author": "Jordan Harband",
     "date": "2021-02-06T06:52:01-08:00",
-    "hash": "3e5e48f90a8418e1a27c483ef28f6adbdf24e290",
+    "hash": "7b7c1a64752ea6f31cba691df1a7ec9c544c899a",
     "parents": "d02d992ba317792759909de739d93b51a09299af",
-    "subject": "Editorial: add <dfn> for \"TypedArray element type\""
+    "subject": "Editorial: add <dfn> for \"TypedArray element type\" (#2297)"
    }
   ],
   "title": "Editorial: add <dfn> for \"TypedArray element type\"",
-  "updated_at": "2021-02-06T14:54:33Z"
+  "updated_at": "2021-02-06T21:40:48Z"
  },
  {
   "base": "d02d992ba317792759909de739d93b51a09299af",
@@ -630,26 +630,6 @@
   ],
   "title": "Normative: new Annex B.3 clause to specify \"AssignmentTargetType of LeftHandSideExpression : CallExpression\" web reality.",
   "updated_at": "2020-10-05T15:02:31Z"
- },
- {
-  "base": "d02d992ba317792759909de739d93b51a09299af",
-  "created_at": "2020-09-23T23:25:42Z",
-  "head": "5c9f191c9e6ccfc909817510bf74fd64ea145ac4",
-  "login": "ryanjduffy",
-  "number": 2189,
-  "ref": "issue-2179",
-  "revs": [
-   {
-    "adate": "2021-02-06T08:35:56-08:00",
-    "author": "Ryan Duffy",
-    "date": "2021-02-06T08:35:56-08:00",
-    "hash": "5c9f191c9e6ccfc909817510bf74fd64ea145ac4",
-    "parents": "d02d992ba317792759909de739d93b51a09299af",
-    "subject": "Editorial: convert Number abstract operations to algorithmic steps (#2189)"
-   }
-  ],
-  "title": "Editorial: convert Number abstract operations to algorithmic steps",
-  "updated_at": "2021-02-06T16:36:32Z"
  },
  {
   "base": "65d5bcc81b65f822d4a8f31ece1bda30f5ca3036",
