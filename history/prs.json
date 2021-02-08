@@ -1,5 +1,25 @@
 [
  {
+  "base": "5c9f191c9e6ccfc909817510bf74fd64ea145ac4",
+  "created_at": "2021-02-08T21:39:38Z",
+  "head": "225eeef4dfa7704893668915f9d5db6210aa1782",
+  "login": "nschonni",
+  "number": 2299,
+  "ref": "remove-percent",
+  "revs": [
+   {
+    "adate": "2021-02-08T16:39:03-05:00",
+    "author": "Nick Schonning",
+    "date": "2021-02-08T16:39:03-05:00",
+    "hash": "225eeef4dfa7704893668915f9d5db6210aa1782",
+    "parents": "5c9f191c9e6ccfc909817510bf74fd64ea145ac4",
+    "subject": "fix: Remove percent sign from IDs"
+   }
+  ],
+  "title": "fix: Remove percent sign from IDs",
+  "updated_at": "2021-02-08T21:39:38Z"
+ },
+ {
   "base": "d02d992ba317792759909de739d93b51a09299af",
   "created_at": "2021-02-06T14:54:33Z",
   "head": "7b7c1a64752ea6f31cba691df1a7ec9c544c899a",
@@ -60,9 +80,9 @@
   "updated_at": "2021-02-04T01:01:39Z"
  },
  {
-  "base": "d02d992ba317792759909de739d93b51a09299af",
+  "base": "5c9f191c9e6ccfc909817510bf74fd64ea145ac4",
   "created_at": "2021-01-27T22:19:35Z",
-  "head": "e3c5cd5c4288c44fa589dc0a86b06a702ae7ce8d",
+  "head": "d113e4fcaec93768a691457d291d7cf64557c79c",
   "login": "ljharb",
   "number": 2290,
   "ref": "private-fields-in-in",
@@ -70,10 +90,42 @@
    {
     "adate": "2021-01-27T14:15:07-08:00",
     "author": "Jordan Harband",
-    "date": "2021-02-05T13:11:49-08:00",
-    "hash": "e3c5cd5c4288c44fa589dc0a86b06a702ae7ce8d",
-    "parents": "53322a056748a0473c59b0208bd0a092bdd40b46",
+    "date": "2021-02-08T13:24:19-08:00",
+    "hash": "d113e4fcaec93768a691457d291d7cf64557c79c",
+    "parents": "94b1af23d6ca075c6635bcd5b96c6450ec580f51",
     "subject": "Normative: add `#x in obj` syntax (#2290)"
+   },
+   {
+    "adate": "2021-02-08T16:01:29+01:00",
+    "author": "Ms2ger",
+    "date": "2021-02-08T16:01:29+01:00",
+    "hash": "94b1af23d6ca075c6635bcd5b96c6450ec580f51",
+    "parents": "7ac7466ba85a8b6352bf124c9e709cbce171022d",
+    "subject": "Review fixes."
+   },
+   {
+    "adate": "2021-02-08T15:32:47+01:00",
+    "author": "Ms2ger",
+    "date": "2021-02-08T15:32:47+01:00",
+    "hash": "7ac7466ba85a8b6352bf124c9e709cbce171022d",
+    "parents": "c5d202d6170b6ca265aa12e5a28445efcdb2e56e",
+    "subject": "Review fixes."
+   },
+   {
+    "adate": "2021-02-08T14:35:50+01:00",
+    "author": "Ms2ger",
+    "date": "2021-02-08T14:35:50+01:00",
+    "hash": "c5d202d6170b6ca265aa12e5a28445efcdb2e56e",
+    "parents": "091ca9ce4bf492b4ea0c7c77ddd3d08a5cbd6c7e",
+    "subject": "OrdinaryFunctionCreate"
+   },
+   {
+    "adate": "2021-02-08T12:01:00+01:00",
+    "author": "Ms2ger",
+    "date": "2021-02-08T12:01:00+01:00",
+    "hash": "091ca9ce4bf492b4ea0c7c77ddd3d08a5cbd6c7e",
+    "parents": "53322a056748a0473c59b0208bd0a092bdd40b46",
+    "subject": "Editorial fixes."
    },
    {
     "adate": "2021-02-05T13:11:41-08:00",
@@ -109,7 +161,7 @@
    }
   ],
   "title": "Normative: add `#x in obj` syntax",
-  "updated_at": "2021-02-05T21:12:13Z"
+  "updated_at": "2021-02-08T21:24:37Z"
  },
  {
   "base": "7dab9506c5c43d241842bc1b841de6b3d58992fb",
