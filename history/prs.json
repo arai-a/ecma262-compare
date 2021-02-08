@@ -1602,11 +1602,19 @@
  {
   "base": "ba3dcb5680268b2f9aa42a6e22fbc6eec3c9685f",
   "created_at": "2019-08-14T13:49:07Z",
-  "head": "7ac7466ba85a8b6352bf124c9e709cbce171022d",
+  "head": "94b1af23d6ca075c6635bcd5b96c6450ec580f51",
   "login": "Ms2ger",
   "number": 1668,
   "ref": "static-fields",
   "revs": [
+   {
+    "adate": "2021-02-08T16:01:29+01:00",
+    "author": "Ms2ger",
+    "date": "2021-02-08T16:01:29+01:00",
+    "hash": "94b1af23d6ca075c6635bcd5b96c6450ec580f51",
+    "parents": "7ac7466ba85a8b6352bf124c9e709cbce171022d",
+    "subject": "Review fixes."
+   },
    {
     "adate": "2021-02-08T15:32:47+01:00",
     "author": "Ms2ger",
@@ -1665,7 +1673,7 @@
    }
   ],
   "title": "Normative: Add public and private class fields, static class features, private methods & getters/setters",
-  "updated_at": "2021-02-08T14:33:01Z"
+  "updated_at": "2021-02-08T15:01:37Z"
  },
  {
   "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
