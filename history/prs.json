@@ -2146,11 +2146,19 @@
  {
   "base": "7dab9506c5c43d241842bc1b841de6b3d58992fb",
   "created_at": "2019-06-14T08:26:37Z",
-  "head": "9feedfd788819b3ef702b5513f2c0ebcd6602e3a",
+  "head": "a1b27e087aa967a5cfbfbcb716c0d06dd248c408",
   "login": "szuend",
   "number": 1585,
   "ref": "array-sort",
   "revs": [
+   {
+    "adate": "2021-02-08T07:32:46+01:00",
+    "author": "Mathias Bynens",
+    "date": "2021-02-08T07:32:46+01:00",
+    "hash": "a1b27e087aa967a5cfbfbcb716c0d06dd248c408",
+    "parents": "9feedfd788819b3ef702b5513f2c0ebcd6602e3a",
+    "subject": "Editorial: Remove now-redundant sentence"
+   },
    {
     "adate": "2021-01-29T08:33:51+01:00",
     "author": "Simon Z\u00fcnd",
@@ -2193,7 +2201,7 @@
    }
   ],
   "title": "Normative: A more precise Array.prototype.sort",
-  "updated_at": "2021-01-29T07:34:34Z"
+  "updated_at": "2021-02-08T06:35:48Z"
  },
  {
   "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
