@@ -1,5 +1,25 @@
 [
  {
+  "base": "4233638d80edc85f6168702e20d3fbc7e9a03f10",
+  "created_at": "2021-02-10T15:55:26Z",
+  "head": "31d9ccdef3edc5fa0f918ae2c5a8147f9195ede2",
+  "login": "jmdyck",
+  "number": 2302,
+  "ref": "TypedArraySortCompare",
+  "revs": [
+   {
+    "adate": "2019-07-06T17:34:14-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-02-10T10:40:03-05:00",
+    "hash": "31d9ccdef3edc5fa0f918ae2c5a8147f9195ede2",
+    "parents": "4233638d80edc85f6168702e20d3fbc7e9a03f10",
+    "subject": "Editorial: Give TypedArraySortCompare its own sub-clause"
+   }
+  ],
+  "title": "Editorial: Give TypedArraySortCompare its own sub-clause",
+  "updated_at": "2021-02-10T15:55:26Z"
+ },
+ {
   "base": "5c9f191c9e6ccfc909817510bf74fd64ea145ac4",
   "created_at": "2021-02-08T21:39:38Z",
   "head": "225eeef4dfa7704893668915f9d5db6210aa1782",
@@ -2173,50 +2193,6 @@
  },
  {
   "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
-  "created_at": "2019-07-06T21:49:09Z",
-  "head": "1e2638baede3313517fc4a9da761d9afe8e8f4c1",
-  "login": "jmdyck",
-  "number": 1612,
-  "ref": "sort_algo",
-  "revs": [
-   {
-    "adate": "2019-07-06T17:34:14-04:00",
-    "author": "Michael Dyck",
-    "date": "2019-07-06T17:41:06-04:00",
-    "hash": "1e2638baede3313517fc4a9da761d9afe8e8f4c1",
-    "parents": "d04a12676b2bafa82d8613577c46a026e31f7fe6",
-    "subject": "Editorial: introduce TypedArraySortCompare"
-   },
-   {
-    "adate": "2019-07-06T17:18:41-04:00",
-    "author": "Michael Dyck",
-    "date": "2019-07-06T17:18:41-04:00",
-    "hash": "d04a12676b2bafa82d8613577c46a026e31f7fe6",
-    "parents": "7ea53f6803715077074bdc18c2b71e1cfbeeed36",
-    "subject": "Editorial: Move two sort order conditions"
-   },
-   {
-    "adate": "2019-07-06T17:01:27-04:00",
-    "author": "Michael Dyck",
-    "date": "2019-07-06T17:01:27-04:00",
-    "hash": "7ea53f6803715077074bdc18c2b71e1cfbeeed36",
-    "parents": "19992b62841b21210f4e68271da0edf0fa25d188",
-    "subject": "Editorial: Rewrite Array.p.sort as a unified algorithm"
-   },
-   {
-    "adate": "2019-07-06T16:29:57-04:00",
-    "author": "Michael Dyck",
-    "date": "2019-07-06T16:55:34-04:00",
-    "hash": "19992b62841b21210f4e68271da0edf0fa25d188",
-    "parents": "dc1e21c454bd316810be1c0e7af0131a2d7f38e9",
-    "subject": "Editorial: Factor out ObjectIsSparse operation"
-   }
-  ],
-  "title": "Editorial: Tweak format of *.prototype.sort",
-  "updated_at": "2020-03-27T07:01:30Z"
- },
- {
-  "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
   "created_at": "2019-06-20T15:52:23Z",
   "head": "306e0b43b860144000cd79c5954b3832ab1a34b5",
   "login": "mikesamuel",
@@ -2234,26 +2210,6 @@
   ],
   "title": "Editorial: Provide context for HostImportModuleDynamically requirement",
   "updated_at": "2020-03-27T07:01:30Z"
- },
- {
-  "base": "0b9842733631a3857f34a3ac88f8d66bf7c848a2",
-  "created_at": "2019-06-14T08:26:37Z",
-  "head": "4233638d80edc85f6168702e20d3fbc7e9a03f10",
-  "login": "szuend",
-  "number": 1585,
-  "ref": "array-sort",
-  "revs": [
-   {
-    "adate": "2021-02-09T16:37:36-08:00",
-    "author": "Simon Z\u00fcnd",
-    "date": "2021-02-09T16:37:36-08:00",
-    "hash": "4233638d80edc85f6168702e20d3fbc7e9a03f10",
-    "parents": "0b9842733631a3857f34a3ac88f8d66bf7c848a2",
-    "subject": "Normative: A more precise Array.prototype.sort (#1585)"
-   }
-  ],
-  "title": "Normative: A more precise Array.prototype.sort",
-  "updated_at": "2021-02-10T00:38:00Z"
  },
  {
   "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
