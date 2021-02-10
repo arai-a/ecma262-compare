@@ -1,34 +1,6 @@
 [
  {
   "base": "5c9f191c9e6ccfc909817510bf74fd64ea145ac4",
-  "created_at": "2021-02-08T22:52:05Z",
-  "head": "0b9842733631a3857f34a3ac88f8d66bf7c848a2",
-  "login": "tc39",
-  "number": 2301,
-  "ref": "bump-emu",
-  "revs": [
-   {
-    "adate": "2021-02-09T14:09:24-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-02-09T14:09:24-08:00",
-    "hash": "0b9842733631a3857f34a3ac88f8d66bf7c848a2",
-    "parents": "49fd6e52744c58b33ca8e809e4c6c61687c7dc53",
-    "subject": "Editorial: replace a \"<=\" with a \"\u2264\" (#2301)"
-   },
-   {
-    "adate": "2021-02-09T14:09:17-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-02-09T14:09:17-08:00",
-    "hash": "49fd6e52744c58b33ca8e809e4c6c61687c7dc53",
-    "parents": "5c9f191c9e6ccfc909817510bf74fd64ea145ac4",
-    "subject": "Meta: bump ecmarkup to 6.0.1 (#2301)"
-   }
-  ],
-  "title": "Meta: bump ecmarkup to 6.0.1",
-  "updated_at": "2021-02-09T22:17:55Z"
- },
- {
-  "base": "5c9f191c9e6ccfc909817510bf74fd64ea145ac4",
   "created_at": "2021-02-08T21:39:38Z",
   "head": "225eeef4dfa7704893668915f9d5db6210aa1782",
   "login": "nschonni",
@@ -2256,64 +2228,24 @@
   "updated_at": "2020-03-27T07:01:30Z"
  },
  {
-  "base": "7dab9506c5c43d241842bc1b841de6b3d58992fb",
+  "base": "0b9842733631a3857f34a3ac88f8d66bf7c848a2",
   "created_at": "2019-06-14T08:26:37Z",
-  "head": "a1b27e087aa967a5cfbfbcb716c0d06dd248c408",
+  "head": "4233638d80edc85f6168702e20d3fbc7e9a03f10",
   "login": "szuend",
   "number": 1585,
   "ref": "array-sort",
   "revs": [
    {
-    "adate": "2021-02-08T07:32:46+01:00",
-    "author": "Mathias Bynens",
-    "date": "2021-02-08T07:32:46+01:00",
-    "hash": "a1b27e087aa967a5cfbfbcb716c0d06dd248c408",
-    "parents": "9feedfd788819b3ef702b5513f2c0ebcd6602e3a",
-    "subject": "Editorial: Remove now-redundant sentence"
-   },
-   {
-    "adate": "2021-01-29T08:33:51+01:00",
+    "adate": "2021-02-09T16:37:36-08:00",
     "author": "Simon Z\u00fcnd",
-    "date": "2021-01-29T08:33:51+01:00",
-    "hash": "9feedfd788819b3ef702b5513f2c0ebcd6602e3a",
-    "parents": "40b9e486c847b432e219cbcd44e4b781f5f91a87",
-    "subject": "Editorial: Apply suggestions"
-   },
-   {
-    "adate": "2021-01-28T13:21:46+01:00",
-    "author": "Mathias Bynens",
-    "date": "2021-01-28T13:21:46+01:00",
-    "hash": "40b9e486c847b432e219cbcd44e4b781f5f91a87",
-    "parents": "1e294f7fb642e173c4aa023af4cfefd4b76ccb20",
-    "subject": "Editorial: Remove now-redundant sentence"
-   },
-   {
-    "adate": "2021-01-28T13:19:14+01:00",
-    "author": "Mathias Bynens",
-    "date": "2021-01-28T13:19:14+01:00",
-    "hash": "1e294f7fb642e173c4aa023af4cfefd4b76ccb20",
-    "parents": "b6a0210137c2d5d26db85bf4bf8866fedf48bb92",
-    "subject": "Editorial: Clarify %TypedArray%.prototype.sort"
-   },
-   {
-    "adate": "2021-01-28T13:09:20+01:00",
-    "author": "Mathias Bynens",
-    "date": "2021-01-28T13:09:20+01:00",
-    "hash": "b6a0210137c2d5d26db85bf4bf8866fedf48bb92",
-    "parents": "14352f7b822bb8cd0b061fdfd03faa6e48c761bd",
-    "subject": "Editorial: Address edit suggestions from feedback"
-   },
-   {
-    "adate": "2021-01-27T09:47:24+01:00",
-    "author": "Simon Z\u00fcnd",
-    "date": "2021-01-27T09:47:39+01:00",
-    "hash": "14352f7b822bb8cd0b061fdfd03faa6e48c761bd",
-    "parents": "7dab9506c5c43d241842bc1b841de6b3d58992fb",
-    "subject": "Normative: A more precise Array.prototype.sort"
+    "date": "2021-02-09T16:37:36-08:00",
+    "hash": "4233638d80edc85f6168702e20d3fbc7e9a03f10",
+    "parents": "0b9842733631a3857f34a3ac88f8d66bf7c848a2",
+    "subject": "Normative: A more precise Array.prototype.sort (#1585)"
    }
   ],
   "title": "Normative: A more precise Array.prototype.sort",
-  "updated_at": "2021-02-08T06:35:48Z"
+  "updated_at": "2021-02-10T00:38:00Z"
  },
  {
   "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
