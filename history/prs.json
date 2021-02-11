@@ -2,7 +2,7 @@
  {
   "base": "4233638d80edc85f6168702e20d3fbc7e9a03f10",
   "created_at": "2021-02-11T16:04:14Z",
-  "head": "193793f0c365f69013097f53790ea74df9c1aa2f",
+  "head": "893424047de43cdf1b6af5140cb6f8ce5216894d",
   "login": "jmdyck",
   "number": 2305,
   "ref": "SortArrayLike",
@@ -10,50 +10,42 @@
    {
     "adate": "2021-02-11T10:43:36-05:00",
     "author": "Michael Dyck",
-    "date": "2021-02-11T10:43:36-05:00",
-    "hash": "193793f0c365f69013097f53790ea74df9c1aa2f",
-    "parents": "7dd27756bfc863a7cc3d5bc20684db2804e80c02",
+    "date": "2021-02-11T15:58:09-05:00",
+    "hash": "893424047de43cdf1b6af5140cb6f8ce5216894d",
+    "parents": "88df3ed4da23adf46fd0eb02f9a66aba1c99b75d",
     "subject": "Editorial: Factor out SortArrayLike"
    },
    {
     "adate": "2021-02-11T10:32:49-05:00",
     "author": "Michael Dyck",
-    "date": "2021-02-11T10:32:49-05:00",
-    "hash": "7dd27756bfc863a7cc3d5bc20684db2804e80c02",
-    "parents": "d1794048ebac92ea793ea831920a62ef6aaec4e8",
+    "date": "2021-02-11T15:58:07-05:00",
+    "hash": "88df3ed4da23adf46fd0eb02f9a66aba1c99b75d",
+    "parents": "1b64a4a749c2fdc07decda61309dc073de08edfa",
     "subject": "Editorial: Recast SortCompare from abstract op to abstract closure"
    },
    {
     "adate": "2021-02-11T10:05:40-05:00",
     "author": "Michael Dyck",
-    "date": "2021-02-11T10:05:40-05:00",
-    "hash": "d1794048ebac92ea793ea831920a62ef6aaec4e8",
-    "parents": "ff60f5f216f7f2c4c97605d9f7d1faf9fd1df03d",
+    "date": "2021-02-11T15:57:13-05:00",
+    "hash": "1b64a4a749c2fdc07decda61309dc073de08edfa",
+    "parents": "e43a166a5116cb5d8b57fab4eca489f19d4547e5",
     "subject": "Editorial: Collapse 3 paragraphs re \"sort order\""
    },
    {
     "adate": "2021-02-11T09:57:55-05:00",
     "author": "Michael Dyck",
-    "date": "2021-02-11T09:57:55-05:00",
-    "hash": "ff60f5f216f7f2c4c97605d9f7d1faf9fd1df03d",
-    "parents": "aa3d67159ede7b42dc47bd81b6947c3ca5e9393b",
+    "date": "2021-02-11T15:57:13-05:00",
+    "hash": "e43a166a5116cb5d8b57fab4eca489f19d4547e5",
+    "parents": "ae69eb95348d053057019143c45dbb801c2dd1bb",
     "subject": "Editorial: Tweak the definition of \"sort order\""
-   },
-   {
-    "adate": "2021-02-11T09:45:43-05:00",
-    "author": "Michael Dyck",
-    "date": "2021-02-11T09:45:43-05:00",
-    "hash": "aa3d67159ede7b42dc47bd81b6947c3ca5e9393b",
-    "parents": "487c962a9788b87f7e44e9033d90c9adba91b528",
-    "subject": "Editorial: Simplify the statement of when sort order is imp-defined"
    },
    {
     "adate": "2021-02-11T09:35:05-05:00",
     "author": "Michael Dyck",
-    "date": "2021-02-11T09:35:05-05:00",
-    "hash": "487c962a9788b87f7e44e9033d90c9adba91b528",
+    "date": "2021-02-11T15:57:00-05:00",
+    "hash": "ae69eb95348d053057019143c45dbb801c2dd1bb",
     "parents": "a2a25bf6d10e18eaf28cc28bd69d13fd15f55d03",
-    "subject": "Editorial: Drop redundant condition for imp-def sort order"
+    "subject": "Editorial: Simplify the statement of when sort order is imp-defined"
    },
    {
     "adate": "2021-02-11T09:15:50-05:00",
@@ -65,7 +57,7 @@
    }
   ],
   "title": "Editorial: Factor out common `sort` functionality",
-  "updated_at": "2021-02-11T16:04:14Z"
+  "updated_at": "2021-02-11T21:13:15Z"
  },
  {
   "base": "4233638d80edc85f6168702e20d3fbc7e9a03f10",
