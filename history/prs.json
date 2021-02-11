@@ -128,9 +128,9 @@
   "updated_at": "2021-02-08T21:39:38Z"
  },
  {
-  "base": "d02d992ba317792759909de739d93b51a09299af",
+  "base": "4233638d80edc85f6168702e20d3fbc7e9a03f10",
   "created_at": "2021-02-06T14:54:33Z",
-  "head": "7b7c1a64752ea6f31cba691df1a7ec9c544c899a",
+  "head": "27cf007ab4e800009d921fd70bdc0f4f8bac7346",
   "login": "ljharb",
   "number": 2297,
   "ref": "typedarray-element-type-dfn",
@@ -138,14 +138,14 @@
    {
     "adate": "2021-02-06T06:52:01-08:00",
     "author": "Jordan Harband",
-    "date": "2021-02-06T06:52:01-08:00",
-    "hash": "7b7c1a64752ea6f31cba691df1a7ec9c544c899a",
-    "parents": "d02d992ba317792759909de739d93b51a09299af",
+    "date": "2021-02-11T12:19:45-08:00",
+    "hash": "27cf007ab4e800009d921fd70bdc0f4f8bac7346",
+    "parents": "4233638d80edc85f6168702e20d3fbc7e9a03f10",
     "subject": "Editorial: add <dfn> for \"TypedArray element type\" (#2297)"
    }
   ],
   "title": "Editorial: add <dfn> for \"TypedArray element type\"",
-  "updated_at": "2021-02-06T21:40:48Z"
+  "updated_at": "2021-02-11T20:20:28Z"
  },
  {
   "base": "d02d992ba317792759909de739d93b51a09299af",
@@ -672,64 +672,24 @@
   "updated_at": "2020-11-10T21:44:05Z"
  },
  {
-  "base": "52bfd9f5775e368c57b8793d678fee6121797354",
+  "base": "4233638d80edc85f6168702e20d3fbc7e9a03f10",
   "created_at": "2020-11-03T00:20:44Z",
-  "head": "a9e198e9202048351b9b019113fdc494c836f8b0",
+  "head": "e18f5330384f30bd43cb9e1243d22e837262fa05",
   "login": "rkirsling",
   "number": 2221,
   "ref": "make-typed-array-methods-explicit",
   "revs": [
    {
-    "adate": "2021-02-09T17:21:50-08:00",
+    "adate": "2021-02-11T12:12:57-08:00",
     "author": "Ross Kirsling",
-    "date": "2021-02-09T17:21:50-08:00",
-    "hash": "a9e198e9202048351b9b019113fdc494c836f8b0",
-    "parents": "0e31063407ec6673e80709fd1b3ee81ae718defd",
-    "subject": "Remove unnecessary phrase."
-   },
-   {
-    "adate": "2020-12-15T23:03:39-08:00",
-    "author": "Ross Kirsling",
-    "date": "2020-12-15T23:03:39-08:00",
-    "hash": "0e31063407ec6673e80709fd1b3ee81ae718defd",
-    "parents": "8ba16cd9e6c13b94975050284e9f85178bc6d0ec",
-    "subject": "Remove misleading 'or null'."
-   },
-   {
-    "adate": "2020-11-30T13:37:45-08:00",
-    "author": "Ross Kirsling",
-    "date": "2020-11-30T13:37:45-08:00",
-    "hash": "8ba16cd9e6c13b94975050284e9f85178bc6d0ec",
-    "parents": "5302029993d25c84f917b55c0d385589b2cb6413",
-    "subject": "Address feedback."
-   },
-   {
-    "adate": "2020-11-03T12:54:16-08:00",
-    "author": "Ross Kirsling",
-    "date": "2020-11-03T12:54:16-08:00",
-    "hash": "5302029993d25c84f917b55c0d385589b2cb6413",
-    "parents": "c571c1e11d6a737bb6eefe2bf297c340318201d5",
-    "subject": "Update indexOf / lastIndexOf."
-   },
-   {
-    "adate": "2020-11-03T12:14:23-08:00",
-    "author": "Ross Kirsling",
-    "date": "2020-11-03T12:14:23-08:00",
-    "hash": "c571c1e11d6a737bb6eefe2bf297c340318201d5",
-    "parents": "1cd00443914ccb489cadbe7fd9c76bffe45270c0",
-    "subject": "Use ! where appropriate."
-   },
-   {
-    "adate": "2020-11-02T15:44:28-08:00",
-    "author": "Ross Kirsling",
-    "date": "2020-11-02T16:56:43-08:00",
-    "hash": "1cd00443914ccb489cadbe7fd9c76bffe45270c0",
-    "parents": "a18acef2559a6f159047ca6fc0f3dd932231fefc",
-    "subject": "Give %TypedArray% methods explicit algorithms."
+    "date": "2021-02-11T12:12:57-08:00",
+    "hash": "e18f5330384f30bd43cb9e1243d22e837262fa05",
+    "parents": "4233638d80edc85f6168702e20d3fbc7e9a03f10",
+    "subject": "Normative: Give %TypedArray% methods explicit algorithms (#2221)"
    }
   ],
   "title": "Normative: Give %TypedArray% methods explicit algorithms.",
-  "updated_at": "2021-02-10T02:03:27Z"
+  "updated_at": "2021-02-11T20:13:19Z"
  },
  {
   "base": "5f4be6e41ce9f6e1997f5e1e42af253145c6c885",
