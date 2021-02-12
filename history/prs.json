@@ -140,24 +140,24 @@
   "updated_at": "2021-02-11T20:20:28Z"
  },
  {
-  "base": "d02d992ba317792759909de739d93b51a09299af",
+  "base": "e18f5330384f30bd43cb9e1243d22e837262fa05",
   "created_at": "2021-02-06T04:16:23Z",
-  "head": "bee221458f4ddc2ebb6b946fbbf3fd9f1bf6afa1",
+  "head": "97c2b875c7bdcdbbfc69336efaa3b7233c1b8287",
   "login": "ljharb",
   "number": 2296,
   "ref": "extra-assertion",
   "revs": [
    {
-    "adate": "2021-02-05T20:15:44-08:00",
+    "adate": "2021-02-11T15:43:17-08:00",
     "author": "Jordan Harband",
-    "date": "2021-02-05T20:15:44-08:00",
-    "hash": "bee221458f4ddc2ebb6b946fbbf3fd9f1bf6afa1",
-    "parents": "d02d992ba317792759909de739d93b51a09299af",
-    "subject": "Editorial: remove unnecessary assertion"
+    "date": "2021-02-11T15:43:17-08:00",
+    "hash": "97c2b875c7bdcdbbfc69336efaa3b7233c1b8287",
+    "parents": "e18f5330384f30bd43cb9e1243d22e837262fa05",
+    "subject": "Editorial: remove unnecessary assertion (#2296)"
    }
   ],
   "title": "Editorial: remove unnecessary assertion",
-  "updated_at": "2021-02-06T04:16:23Z"
+  "updated_at": "2021-02-11T23:43:29Z"
  },
  {
   "base": "ff68b58a233443b4946bf42a6b677f83604469a0",
@@ -662,26 +662,6 @@
   ],
   "title": "Normative: Add Promise.anySettled",
   "updated_at": "2020-11-10T21:44:05Z"
- },
- {
-  "base": "4233638d80edc85f6168702e20d3fbc7e9a03f10",
-  "created_at": "2020-11-03T00:20:44Z",
-  "head": "e18f5330384f30bd43cb9e1243d22e837262fa05",
-  "login": "rkirsling",
-  "number": 2221,
-  "ref": "make-typed-array-methods-explicit",
-  "revs": [
-   {
-    "adate": "2021-02-11T12:12:57-08:00",
-    "author": "Ross Kirsling",
-    "date": "2021-02-11T12:12:57-08:00",
-    "hash": "e18f5330384f30bd43cb9e1243d22e837262fa05",
-    "parents": "4233638d80edc85f6168702e20d3fbc7e9a03f10",
-    "subject": "Normative: Give %TypedArray% methods explicit algorithms (#2221)"
-   }
-  ],
-  "title": "Normative: Give %TypedArray% methods explicit algorithms.",
-  "updated_at": "2021-02-11T20:13:19Z"
  },
  {
   "base": "5f4be6e41ce9f6e1997f5e1e42af253145c6c885",
