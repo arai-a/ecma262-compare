@@ -120,9 +120,9 @@
   "updated_at": "2021-02-08T21:39:38Z"
  },
  {
-  "base": "4233638d80edc85f6168702e20d3fbc7e9a03f10",
+  "base": "97c2b875c7bdcdbbfc69336efaa3b7233c1b8287",
   "created_at": "2021-02-06T14:54:33Z",
-  "head": "27cf007ab4e800009d921fd70bdc0f4f8bac7346",
+  "head": "4ff267d8802d2549c2d323dcc090113fc84726cc",
   "login": "ljharb",
   "number": 2297,
   "ref": "typedarray-element-type-dfn",
@@ -130,34 +130,14 @@
    {
     "adate": "2021-02-06T06:52:01-08:00",
     "author": "Jordan Harband",
-    "date": "2021-02-11T12:19:45-08:00",
-    "hash": "27cf007ab4e800009d921fd70bdc0f4f8bac7346",
-    "parents": "4233638d80edc85f6168702e20d3fbc7e9a03f10",
+    "date": "2021-02-11T16:52:19-08:00",
+    "hash": "4ff267d8802d2549c2d323dcc090113fc84726cc",
+    "parents": "97c2b875c7bdcdbbfc69336efaa3b7233c1b8287",
     "subject": "Editorial: add <dfn> for \"TypedArray element type\" (#2297)"
    }
   ],
   "title": "Editorial: add <dfn> for \"TypedArray element type\"",
-  "updated_at": "2021-02-11T20:20:28Z"
- },
- {
-  "base": "e18f5330384f30bd43cb9e1243d22e837262fa05",
-  "created_at": "2021-02-06T04:16:23Z",
-  "head": "97c2b875c7bdcdbbfc69336efaa3b7233c1b8287",
-  "login": "ljharb",
-  "number": 2296,
-  "ref": "extra-assertion",
-  "revs": [
-   {
-    "adate": "2021-02-11T15:43:17-08:00",
-    "author": "Jordan Harband",
-    "date": "2021-02-11T15:43:17-08:00",
-    "hash": "97c2b875c7bdcdbbfc69336efaa3b7233c1b8287",
-    "parents": "e18f5330384f30bd43cb9e1243d22e837262fa05",
-    "subject": "Editorial: remove unnecessary assertion (#2296)"
-   }
-  ],
-  "title": "Editorial: remove unnecessary assertion",
-  "updated_at": "2021-02-11T23:43:29Z"
+  "updated_at": "2021-02-12T00:52:31Z"
  },
  {
   "base": "ff68b58a233443b4946bf42a6b677f83604469a0",
