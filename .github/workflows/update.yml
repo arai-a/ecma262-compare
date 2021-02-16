@@ -103,11 +103,12 @@ jobs:
       if: steps.status_bootstrap.outputs.update == 'Yes'
       run: |
         git checkout pr-status
-    - name: Post PR status
-      if: steps.status_bootstrap.outputs.update == 'Yes'
-      run: make post
-      env:
-        POST_TOKEN: ${{secrets.POST_TOKEN}}
+    #### disable for now
+    #- name: Post PR status
+    #  if: steps.status_bootstrap.outputs.update == 'Yes'
+    #  run: make post
+    #  env:
+    #    POST_TOKEN: ${{secrets.POST_TOKEN}}
     - name: Commit PR status JSON
       if: steps.status_bootstrap.outputs.update == 'Yes'
       run: |
