@@ -21,26 +21,6 @@
  },
  {
   "base": "6460fcd9ca7a6e2f8eed533395029c5edd13d672",
-  "created_at": "2021-02-19T03:50:40Z",
-  "head": "a9430ea661f9c1cffba6b26e402c2b2ede30ec7a",
-  "login": "ljharb",
-  "number": 2317,
-  "ref": "scroll-margin-top",
-  "revs": [
-   {
-    "adate": "2021-02-18T19:50:04-08:00",
-    "author": "Jordan Harband",
-    "date": "2021-02-18T19:51:59-08:00",
-    "hash": "a9430ea661f9c1cffba6b26e402c2b2ede30ec7a",
-    "parents": "6460fcd9ca7a6e2f8eed533395029c5edd13d672",
-    "subject": "Meta: add `scroll-margin-top` CSS to make for a nicer anchor experience (#2317)"
-   }
-  ],
-  "title": "Meta: add `scroll-margin-top` CSS to make for a nicer anchor experience",
-  "updated_at": "2021-02-19T03:52:12Z"
- },
- {
-  "base": "6460fcd9ca7a6e2f8eed533395029c5edd13d672",
   "created_at": "2021-02-19T02:28:41Z",
   "head": "6e8146f0d35e76777d0e9a552c7121a05025bc2c",
   "login": "syg",
@@ -588,9 +568,9 @@
   "updated_at": "2020-11-10T21:44:05Z"
  },
  {
-  "base": "5f4be6e41ce9f6e1997f5e1e42af253145c6c885",
+  "base": "a9430ea661f9c1cffba6b26e402c2b2ede30ec7a",
   "created_at": "2020-10-27T19:18:53Z",
-  "head": "11584cb2b8ebc6f5bf26198eac866bbba28e241f",
+  "head": "9588006795002cd86c8e6422167b1b7c5e4b92bc",
   "login": "devsnek",
   "number": 2216,
   "ref": "default-constructor-refactor",
@@ -598,14 +578,14 @@
    {
     "adate": "2020-10-27T14:18:24-05:00",
     "author": "Gus Caplan",
-    "date": "2021-01-06T18:14:45-06:00",
-    "hash": "11584cb2b8ebc6f5bf26198eac866bbba28e241f",
-    "parents": "5f4be6e41ce9f6e1997f5e1e42af253145c6c885",
+    "date": "2021-02-19T13:25:02-06:00",
+    "hash": "9588006795002cd86c8e6422167b1b7c5e4b92bc",
+    "parents": "6460fcd9ca7a6e2f8eed533395029c5edd13d672",
     "subject": "Normative: Define default constructors using spec steps"
    }
   ],
   "title": "Normative: Define default constructors using spec steps",
-  "updated_at": "2021-01-07T01:19:55Z"
+  "updated_at": "2021-02-19T19:29:47Z"
  },
  {
   "base": "f2eb02248838e3482fbb7f02a2a1455c029efa0c",
@@ -1754,50 +1734,6 @@
   ],
   "title": "(ignore) Normative: Add private methods and getter/setters.",
   "updated_at": "2020-07-15T21:57:15Z"
- },
- {
-  "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
-  "created_at": "2019-08-11T19:19:56Z",
-  "head": "10cf07662ed7e75a06033b332b58758878cc3bec",
-  "login": "devsnek",
-  "number": 1665,
-  "ref": "feature/built-in-suspendable-functions",
-  "revs": [
-   {
-    "adate": "2019-08-12T11:24:23-05:00",
-    "author": "Gus Caplan",
-    "date": "2019-08-12T11:24:23-05:00",
-    "hash": "10cf07662ed7e75a06033b332b58758878cc3bec",
-    "parents": "b9b079ba41805e514b2693edbeb02d8133919eaf",
-    "subject": "add normal async functions"
-   },
-   {
-    "adate": "2019-08-12T10:56:13-05:00",
-    "author": "Gus Caplan",
-    "date": "2019-08-12T10:56:13-05:00",
-    "hash": "b9b079ba41805e514b2693edbeb02d8133919eaf",
-    "parents": "6a165b42b4f54f4b483c79e2301d34bb6b02a389",
-    "subject": "set correct prototype in CreateBuiltinFunction"
-   },
-   {
-    "adate": "2019-08-11T20:43:23-05:00",
-    "author": "Gus Caplan",
-    "date": "2019-08-11T20:43:23-05:00",
-    "hash": "6a165b42b4f54f4b483c79e2301d34bb6b02a389",
-    "parents": "5c3098269d41f14531f86a0b6e2075a75eea38db",
-    "subject": "add prelude and body, fix [[Construct]]"
-   },
-   {
-    "adate": "2019-08-11T14:15:21-05:00",
-    "author": "Gus Caplan",
-    "date": "2019-08-11T14:15:21-05:00",
-    "hash": "5c3098269d41f14531f86a0b6e2075a75eea38db",
-    "parents": "8f0f69279b5f9e12ebe8f7052322b93d17e36b54",
-    "subject": "Editorial: enable built-in async and sync generator functions to be specified"
-   }
-  ],
-  "title": "Editorial: enable built-in async and sync generator functions to be specified",
-  "updated_at": "2020-03-27T07:01:27Z"
  },
  {
   "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
