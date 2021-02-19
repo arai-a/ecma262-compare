@@ -1,6 +1,26 @@
 [
  {
   "base": "6460fcd9ca7a6e2f8eed533395029c5edd13d672",
+  "created_at": "2021-02-19T13:48:29Z",
+  "head": "876fa2249338175f5b5eb4b8e9daa51a7d461749",
+  "login": "ExE-Boss",
+  "number": 2318,
+  "ref": "editorial/fix-weakref-intrinsic-dfn",
+  "revs": [
+   {
+    "adate": "2021-02-19T14:40:00+01:00",
+    "author": "ExE Boss",
+    "date": "2021-02-19T14:47:27+01:00",
+    "hash": "876fa2249338175f5b5eb4b8e9daa51a7d461749",
+    "parents": "6460fcd9ca7a6e2f8eed533395029c5edd13d672",
+    "subject": "Editorial: Fix\u00a0`<dfn>`s for\u00a0`WeakRef` and\u00a0`FinalizationRegistry`"
+   }
+  ],
+  "title": "Editorial: Fix\u00a0`<dfn>`s for\u00a0`WeakRef` and\u00a0`FinalizationRegistry`",
+  "updated_at": "2021-02-19T13:48:29Z"
+ },
+ {
+  "base": "6460fcd9ca7a6e2f8eed533395029c5edd13d672",
   "created_at": "2021-02-19T03:50:40Z",
   "head": "a9430ea661f9c1cffba6b26e402c2b2ede30ec7a",
   "login": "ljharb",
