@@ -1,26 +1,6 @@
 [
  {
   "base": "6460fcd9ca7a6e2f8eed533395029c5edd13d672",
-  "created_at": "2021-02-19T13:48:29Z",
-  "head": "876fa2249338175f5b5eb4b8e9daa51a7d461749",
-  "login": "ExE-Boss",
-  "number": 2318,
-  "ref": "editorial/fix-weakref-intrinsic-dfn",
-  "revs": [
-   {
-    "adate": "2021-02-19T14:40:00+01:00",
-    "author": "ExE Boss",
-    "date": "2021-02-19T14:47:27+01:00",
-    "hash": "876fa2249338175f5b5eb4b8e9daa51a7d461749",
-    "parents": "6460fcd9ca7a6e2f8eed533395029c5edd13d672",
-    "subject": "Editorial: Fix\u00a0`<dfn>`s for\u00a0`WeakRef` and\u00a0`FinalizationRegistry`"
-   }
-  ],
-  "title": "Editorial: Fix\u00a0`<dfn>`s for\u00a0`WeakRef` and\u00a0`FinalizationRegistry`",
-  "updated_at": "2021-02-19T13:48:29Z"
- },
- {
-  "base": "6460fcd9ca7a6e2f8eed533395029c5edd13d672",
   "created_at": "2021-02-19T02:28:41Z",
   "head": "6e8146f0d35e76777d0e9a552c7121a05025bc2c",
   "login": "syg",
@@ -568,9 +548,9 @@
   "updated_at": "2020-11-10T21:44:05Z"
  },
  {
-  "base": "a9430ea661f9c1cffba6b26e402c2b2ede30ec7a",
+  "base": "c328b0aded262172094e1d9a44be216fc67b0632",
   "created_at": "2020-10-27T19:18:53Z",
-  "head": "f10444b00451a53182f131d87acf85928909bab5",
+  "head": "8ed7a31ed7d83adc40db462880c9821d9c0d1cd8",
   "login": "devsnek",
   "number": 2216,
   "ref": "default-constructor-refactor",
@@ -578,14 +558,14 @@
    {
     "adate": "2020-10-27T14:18:24-05:00",
     "author": "Gus Caplan",
-    "date": "2021-02-19T22:04:19-06:00",
-    "hash": "f10444b00451a53182f131d87acf85928909bab5",
+    "date": "2021-02-20T15:44:38-06:00",
+    "hash": "8ed7a31ed7d83adc40db462880c9821d9c0d1cd8",
     "parents": "6460fcd9ca7a6e2f8eed533395029c5edd13d672",
     "subject": "Normative: Define default constructors using spec steps"
    }
   ],
   "title": "Normative: Define default constructors using spec steps",
-  "updated_at": "2021-02-20T04:04:27Z"
+  "updated_at": "2021-02-20T21:46:16Z"
  },
  {
   "base": "f2eb02248838e3482fbb7f02a2a1455c029efa0c",
