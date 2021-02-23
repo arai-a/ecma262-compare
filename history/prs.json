@@ -1408,136 +1408,144 @@
   "updated_at": "2020-03-27T07:01:25Z"
  },
  {
-  "base": "52bfd9f5775e368c57b8793d678fee6121797354",
+  "base": "c328b0aded262172094e1d9a44be216fc67b0632",
   "created_at": "2019-10-01T16:29:45Z",
-  "head": "8d897d4dacfb9dbf3f485d548981f5eadd1acd04",
+  "head": "ea709d2e069a1c90aedd83074c60107ebe10002d",
   "login": "rbuckton",
   "number": 1713,
   "ref": "regexp-match-indices",
   "revs": [
    {
-    "adate": "2021-01-14T23:12:14-08:00",
+    "adate": "2021-02-22T18:35:27-08:00",
     "author": "Ron Buckton",
-    "date": "2021-01-14T23:12:14-08:00",
-    "hash": "8d897d4dacfb9dbf3f485d548981f5eadd1acd04",
-    "parents": "ead3d3f6c4cd5cb13266bb226c4d9b58e49e29c3 e7b120aa2fad8b94848e005d1055ac6d6b7346fe",
-    "subject": "Merge pull request #1 from jmdyck/1713_ed"
+    "date": "2021-02-22T18:35:27-08:00",
+    "hash": "ea709d2e069a1c90aedd83074c60107ebe10002d",
+    "parents": "683300eac06751a29f231932e31182dfd688814f",
+    "subject": "Minor cleanup (wording, literals)"
+   },
+   {
+    "adate": "2021-02-22T18:11:24-08:00",
+    "author": "Ron Buckton",
+    "date": "2021-02-22T18:30:52-08:00",
+    "hash": "683300eac06751a29f231932e31182dfd688814f",
+    "parents": "e27953ef80f27a08491ee77f8991d2b6ae57d7f8",
+    "subject": "Update to include 'd' flag"
    },
    {
     "adate": "2019-10-03T01:12:30-04:00",
     "author": "Michael Dyck",
-    "date": "2019-10-03T01:12:30-04:00",
-    "hash": "e7b120aa2fad8b94848e005d1055ac6d6b7346fe",
-    "parents": "a2582ce15d538083cd2f7698a11321ee7f3b2b07",
+    "date": "2021-02-22T18:28:33-08:00",
+    "hash": "e27953ef80f27a08491ee77f8991d2b6ae57d7f8",
+    "parents": "0835ca066db467eb073a2e8e020e032c8753888b",
     "subject": "Move the \"Match Records\" clause."
    },
    {
     "adate": "2019-10-03T00:57:24-04:00",
     "author": "Michael Dyck",
-    "date": "2019-10-03T00:57:24-04:00",
-    "hash": "a2582ce15d538083cd2f7698a11321ee7f3b2b07",
-    "parents": "8f1a9d5d8b00cbae5322234c32904cf10aaba0ca",
+    "date": "2021-02-22T18:28:33-08:00",
+    "hash": "0835ca066db467eb073a2e8e020e032c8753888b",
+    "parents": "8b6dba5b14c65f6a7284cf7616c90fc263100eef",
     "subject": "Clarify the _n_th element of _captures_"
    },
    {
     "adate": "2019-10-03T00:07:01-04:00",
     "author": "Michael Dyck",
-    "date": "2019-10-03T00:07:01-04:00",
-    "hash": "8f1a9d5d8b00cbae5322234c32904cf10aaba0ca",
-    "parents": "23d78da62c9dd242f6839986ed602322cd47c72b",
+    "date": "2021-02-22T18:28:33-08:00",
+    "hash": "8b6dba5b14c65f6a7284cf7616c90fc263100eef",
+    "parents": "42f786a24efc74f72466b80b49017a050cf71cca",
     "subject": "Set -> Let"
    },
    {
     "adate": "2019-10-03T00:04:11-04:00",
     "author": "Michael Dyck",
-    "date": "2019-10-03T00:04:11-04:00",
-    "hash": "23d78da62c9dd242f6839986ed602322cd47c72b",
-    "parents": "f9382c0662037730475cca33f896c5b2c2af9cb3",
+    "date": "2021-02-22T18:28:32-08:00",
+    "hash": "42f786a24efc74f72466b80b49017a050cf71cca",
+    "parents": "f43a93a5f04247efe4c0adc85484cf65e808f594",
     "subject": "3x \"Match\" -> \"Match Record\""
    },
    {
     "adate": "2019-10-02T13:59:13-04:00",
     "author": "Michael Dyck",
-    "date": "2019-10-02T13:59:13-04:00",
-    "hash": "f9382c0662037730475cca33f896c5b2c2af9cb3",
-    "parents": "f4de52645822f469313a7d15f7230c4f7fd693fa",
+    "date": "2021-02-22T18:28:32-08:00",
+    "hash": "f43a93a5f04247efe4c0adc85484cf65e808f594",
+    "parents": "6ee5a5c1cef22bdda6582cfb323a878cc74d9e1b",
     "subject": "Insert spaces around operator."
    },
    {
     "adate": "2019-10-02T13:58:27-04:00",
     "author": "Michael Dyck",
-    "date": "2019-10-02T13:58:27-04:00",
-    "hash": "f4de52645822f469313a7d15f7230c4f7fd693fa",
-    "parents": "29085532c540cc13e27fb7e2cadb32d6119a5264",
+    "date": "2021-02-22T18:28:32-08:00",
+    "hash": "6ee5a5c1cef22bdda6582cfb323a878cc74d9e1b",
+    "parents": "e5785117818bb45540ddf6a4c05bcc74e7d46832",
     "subject": "Preamble should give parameters in same order as header."
    },
    {
     "adate": "2019-10-02T13:57:58-04:00",
     "author": "Michael Dyck",
-    "date": "2019-10-02T13:57:58-04:00",
-    "hash": "29085532c540cc13e27fb7e2cadb32d6119a5264",
-    "parents": "16b81680acf89b56adb5e68c0816251d337e55aa",
+    "date": "2021-02-22T18:28:32-08:00",
+    "hash": "e5785117818bb45540ddf6a4c05bcc74e7d46832",
+    "parents": "8b702cabb43e3ad11607f5cf8dae6c896888817c",
     "subject": "Delete space before comma."
    },
    {
     "adate": "2019-10-02T13:57:35-04:00",
     "author": "Michael Dyck",
-    "date": "2019-10-02T13:57:35-04:00",
-    "hash": "16b81680acf89b56adb5e68c0816251d337e55aa",
-    "parents": "eb19e4978563de969afcf1fadad35a746b712645",
+    "date": "2021-02-22T18:28:31-08:00",
+    "hash": "8b702cabb43e3ad11607f5cf8dae6c896888817c",
+    "parents": "2215572645ec68b6846760cde188f114bd337f56",
     "subject": "Delete extra 'with'"
    },
    {
     "adate": "2019-10-02T13:57:12-04:00",
     "author": "Michael Dyck",
-    "date": "2019-10-02T13:57:12-04:00",
-    "hash": "eb19e4978563de969afcf1fadad35a746b712645",
-    "parents": "41cb8c3fe5757470008b266b3dbace77af129d65",
+    "date": "2021-02-22T18:28:31-08:00",
+    "hash": "2215572645ec68b6846760cde188f114bd337f56",
+    "parents": "4d6ba0bdd0a71e7f09f8c34ecfa4af532ac628dd",
     "subject": "Fix typo: ':' -> ']'"
    },
    {
     "adate": "2019-10-02T13:56:05-04:00",
     "author": "Michael Dyck",
-    "date": "2019-10-02T13:56:05-04:00",
-    "hash": "41cb8c3fe5757470008b266b3dbace77af129d65",
-    "parents": "3432fe37169df6621b770146c05aa2a58b3a11b5",
+    "date": "2021-02-22T18:28:25-08:00",
+    "hash": "4d6ba0bdd0a71e7f09f8c34ecfa4af532ac628dd",
+    "parents": "815e5de70ccc247c33c1d8d87b21f30dfd31d56a",
     "subject": "Swap order of steps so that 'then' and 'else' arms have the same order."
    },
    {
     "adate": "2019-10-02T13:55:17-04:00",
     "author": "Michael Dyck",
-    "date": "2019-10-02T13:55:17-04:00",
-    "hash": "3432fe37169df6621b770146c05aa2a58b3a11b5",
-    "parents": "241181de1f4b00d2a7f816b2ff44ab183c4edea2",
+    "date": "2021-02-22T18:26:53-08:00",
+    "hash": "815e5de70ccc247c33c1d8d87b21f30dfd31d56a",
+    "parents": "bc2107e0e9777f5b8e33f1033acd604dc916f020",
     "subject": "Bugfix: de-dent algorithm step"
    },
    {
     "adate": "2019-10-02T13:54:38-04:00",
     "author": "Michael Dyck",
-    "date": "2019-10-02T13:54:38-04:00",
-    "hash": "241181de1f4b00d2a7f816b2ff44ab183c4edea2",
-    "parents": "ead3d3f6c4cd5cb13266bb226c4d9b58e49e29c3",
+    "date": "2021-02-22T18:25:39-08:00",
+    "hash": "bc2107e0e9777f5b8e33f1033acd604dc916f020",
+    "parents": "90688aac4bd7109e5eadee7558b21dbe53150cb1",
     "subject": "Delete trailing whitespace"
    },
    {
     "adate": "2019-10-01T17:30:04-07:00",
     "author": "Ron Buckton",
-    "date": "2019-10-01T17:30:04-07:00",
-    "hash": "ead3d3f6c4cd5cb13266bb226c4d9b58e49e29c3",
-    "parents": "ba92766cadb6ce464ceba2f52ceb46b2b877fdcf",
+    "date": "2021-02-22T18:25:39-08:00",
+    "hash": "90688aac4bd7109e5eadee7558b21dbe53150cb1",
+    "parents": "4e99eb5656c0930968e4c46faea334b155f8053d",
     "subject": "Apply suggestions from code review"
    },
    {
     "adate": "2019-10-01T09:28:17-07:00",
     "author": "Ron Buckton",
-    "date": "2019-10-01T17:24:54-07:00",
-    "hash": "ba92766cadb6ce464ceba2f52ceb46b2b877fdcf",
-    "parents": "20706ef77f8d4f9aa149412695363fc69e62ea88",
+    "date": "2021-02-22T18:25:32-08:00",
+    "hash": "4e99eb5656c0930968e4c46faea334b155f8053d",
+    "parents": "c328b0aded262172094e1d9a44be216fc67b0632",
     "subject": "Add spec text for regexp-match-indices"
    }
   ],
   "title": "Normative: add RegExp Match Indices",
-  "updated_at": "2021-01-15T07:13:32Z"
+  "updated_at": "2021-02-23T02:37:16Z"
  },
  {
   "base": "ba3dcb5680268b2f9aa42a6e22fbc6eec3c9685f",
