@@ -1410,11 +1410,19 @@
  {
   "base": "c328b0aded262172094e1d9a44be216fc67b0632",
   "created_at": "2019-10-01T16:29:45Z",
-  "head": "ea709d2e069a1c90aedd83074c60107ebe10002d",
+  "head": "1592ddb5061a08c2111d51643e2c42dd2293fb39",
   "login": "rbuckton",
   "number": 1713,
   "ref": "regexp-match-indices",
   "revs": [
+   {
+    "adate": "2021-02-22T19:20:28-08:00",
+    "author": "Ron Buckton",
+    "date": "2021-02-22T19:20:28-08:00",
+    "hash": "1592ddb5061a08c2111d51643e2c42dd2293fb39",
+    "parents": "ea709d2e069a1c90aedd83074c60107ebe10002d",
+    "subject": "Fix lint error"
+   },
    {
     "adate": "2021-02-22T18:35:27-08:00",
     "author": "Ron Buckton",
@@ -1545,7 +1553,7 @@
    }
   ],
   "title": "Normative: add RegExp Match Indices",
-  "updated_at": "2021-02-23T02:37:16Z"
+  "updated_at": "2021-02-23T03:20:36Z"
  },
  {
   "base": "ba3dcb5680268b2f9aa42a6e22fbc6eec3c9685f",
