@@ -1,23 +1,23 @@
 [
  {
-  "base": "c328b0aded262172094e1d9a44be216fc67b0632",
+  "base": "752fe3fa04fa6222199b87fd05adcf2b27eecc64",
   "created_at": "2021-02-23T23:45:18Z",
-  "head": "efc565736e59a2168eb637a7dcd5269e483703e0",
+  "head": "b6d13d96c480505ebd69e1e875bf9312ab976e82",
   "login": "ljharb",
   "number": 2324,
   "ref": "about",
   "revs": [
    {
-    "adate": "2021-02-23T15:44:38-08:00",
+    "adate": "2021-02-24T15:25:26-08:00",
     "author": "Jordan Harband",
-    "date": "2021-02-23T15:44:38-08:00",
-    "hash": "efc565736e59a2168eb637a7dcd5269e483703e0",
-    "parents": "c328b0aded262172094e1d9a44be216fc67b0632",
-    "subject": "Editorial: swap \"about\" and \"contributing\" sections in the intro"
+    "date": "2021-02-24T15:25:26-08:00",
+    "hash": "b6d13d96c480505ebd69e1e875bf9312ab976e82",
+    "parents": "752fe3fa04fa6222199b87fd05adcf2b27eecc64",
+    "subject": "Editorial: swap \"about\" and \"contributing\" sections in the intro (#2324)"
    }
   ],
   "title": "Editorial: swap \"about\" and \"contributing\" sections in the intro",
-  "updated_at": "2021-02-23T23:45:18Z"
+  "updated_at": "2021-02-24T23:25:34Z"
  },
  {
   "base": "c328b0aded262172094e1d9a44be216fc67b0632",
@@ -462,26 +462,6 @@
   ],
   "title": "[meta] migrate from travis-ci to Github Actions",
   "updated_at": "2020-12-28T20:39:39Z"
- },
- {
-  "base": "c328b0aded262172094e1d9a44be216fc67b0632",
-  "created_at": "2020-12-26T01:09:38Z",
-  "head": "752fe3fa04fa6222199b87fd05adcf2b27eecc64",
-  "login": "tc39",
-  "number": 2256,
-  "ref": "for-async-of",
-  "revs": [
-   {
-    "adate": "2021-02-24T12:43:53-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-02-24T12:43:53-08:00",
-    "hash": "752fe3fa04fa6222199b87fd05adcf2b27eecc64",
-    "parents": "c328b0aded262172094e1d9a44be216fc67b0632",
-    "subject": "Normative: forbid for-of loops with variable named async (#2256)"
-   }
-  ],
-  "title": "Normative: forbid for-of loops with variable named async",
-  "updated_at": "2021-02-24T20:44:06Z"
  },
  {
   "base": "d02d992ba317792759909de739d93b51a09299af",
