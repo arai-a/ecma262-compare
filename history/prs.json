@@ -1,5 +1,45 @@
 [
  {
+  "base": "c328b0aded262172094e1d9a44be216fc67b0632",
+  "created_at": "2021-02-23T23:45:18Z",
+  "head": "efc565736e59a2168eb637a7dcd5269e483703e0",
+  "login": "ljharb",
+  "number": 2324,
+  "ref": "about",
+  "revs": [
+   {
+    "adate": "2021-02-23T15:44:38-08:00",
+    "author": "Jordan Harband",
+    "date": "2021-02-23T15:44:38-08:00",
+    "hash": "efc565736e59a2168eb637a7dcd5269e483703e0",
+    "parents": "c328b0aded262172094e1d9a44be216fc67b0632",
+    "subject": "Editorial: swap \"about\" and \"contributing\" sections in the intro"
+   }
+  ],
+  "title": "Editorial: swap \"about\" and \"contributing\" sections in the intro",
+  "updated_at": "2021-02-23T23:45:18Z"
+ },
+ {
+  "base": "c328b0aded262172094e1d9a44be216fc67b0632",
+  "created_at": "2021-02-23T23:43:46Z",
+  "head": "16889013cb323c27a77333a93571669cb29ae929",
+  "login": "ljharb",
+  "number": 2323,
+  "ref": "fix_nesting",
+  "revs": [
+   {
+    "adate": "2021-02-23T15:38:04-08:00",
+    "author": "Jordan Harband",
+    "date": "2021-02-23T15:38:04-08:00",
+    "hash": "16889013cb323c27a77333a93571669cb29ae929",
+    "parents": "c328b0aded262172094e1d9a44be216fc67b0632",
+    "subject": "Editorial: properly nest \"ASI + NLT\" section under \"ASI\" section"
+   }
+  ],
+  "title": "Editorial: properly nest \"ASI + NLT\" section under \"ASI\" section",
+  "updated_at": "2021-02-23T23:43:46Z"
+ },
+ {
   "base": "6460fcd9ca7a6e2f8eed533395029c5edd13d672",
   "created_at": "2021-02-19T02:28:41Z",
   "head": "6e8146f0d35e76777d0e9a552c7121a05025bc2c",
@@ -520,32 +560,40 @@
   "updated_at": "2020-11-24T08:01:11Z"
  },
  {
-  "base": "889f2f30cf554b7ed812c0984626db1c8a4997c7",
+  "base": "c328b0aded262172094e1d9a44be216fc67b0632",
   "created_at": "2020-11-10T20:29:01Z",
-  "head": "35db2e7e72f29fa51dce9662054ec552ca5a10ee",
+  "head": "6cb7431499bb8fb8ce5857c6c6961071e244bc90",
   "login": "chicoxyzzy",
   "number": 2226,
   "ref": "promise_anysettled",
   "revs": [
    {
+    "adate": "2021-02-24T02:45:41+03:00",
+    "author": "Sergey Rubanov",
+    "date": "2021-02-24T02:50:18+03:00",
+    "hash": "6cb7431499bb8fb8ce5857c6c6961071e244bc90",
+    "parents": "c09d724617f4da2a2e54ce66ce559f3a3729077c",
+    "subject": "Small text fix"
+   },
+   {
     "adate": "2020-11-11T00:36:28+03:00",
     "author": "Sergey Rubanov",
-    "date": "2020-11-11T00:37:30+03:00",
-    "hash": "35db2e7e72f29fa51dce9662054ec552ca5a10ee",
-    "parents": "7444195837fc6f9c1e8272f3e62f555d9a0b3b4f",
+    "date": "2021-02-24T02:49:46+03:00",
+    "hash": "c09d724617f4da2a2e54ce66ce559f3a3729077c",
+    "parents": "937b7d8ece9f08ead4bc5704fb379d2905d0c8fb",
     "subject": "fix Promise.anySettled.name"
    },
    {
     "adate": "2020-11-10T23:16:09+03:00",
     "author": "Sergey Rubanov",
-    "date": "2020-11-10T23:16:09+03:00",
-    "hash": "7444195837fc6f9c1e8272f3e62f555d9a0b3b4f",
-    "parents": "889f2f30cf554b7ed812c0984626db1c8a4997c7",
+    "date": "2021-02-24T02:49:07+03:00",
+    "hash": "937b7d8ece9f08ead4bc5704fb379d2905d0c8fb",
+    "parents": "c328b0aded262172094e1d9a44be216fc67b0632",
     "subject": "Normative: Add Promise.anySettled"
    }
   ],
   "title": "Normative: Add Promise.anySettled",
-  "updated_at": "2020-11-10T21:44:05Z"
+  "updated_at": "2021-02-23T23:53:15Z"
  },
  {
   "base": "c328b0aded262172094e1d9a44be216fc67b0632",
