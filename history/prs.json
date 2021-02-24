@@ -562,11 +562,19 @@
  {
   "base": "c328b0aded262172094e1d9a44be216fc67b0632",
   "created_at": "2020-11-10T20:29:01Z",
-  "head": "6cb7431499bb8fb8ce5857c6c6961071e244bc90",
+  "head": "c68ae35ec5a801b6fe104ba7c75a61d92dcd5665",
   "login": "chicoxyzzy",
   "number": 2226,
   "ref": "promise_anysettled",
   "revs": [
+   {
+    "adate": "2021-02-24T03:17:17+03:00",
+    "author": "Sergey Rubanov",
+    "date": "2021-02-24T03:17:17+03:00",
+    "hash": "c68ae35ec5a801b6fe104ba7c75a61d92dcd5665",
+    "parents": "6cb7431499bb8fb8ce5857c6c6961071e244bc90",
+    "subject": "Use anySettled as name property for race"
+   },
    {
     "adate": "2021-02-24T02:45:41+03:00",
     "author": "Sergey Rubanov",
@@ -593,7 +601,7 @@
    }
   ],
   "title": "Normative: Add Promise.anySettled",
-  "updated_at": "2021-02-23T23:53:15Z"
+  "updated_at": "2021-02-24T00:24:50Z"
  },
  {
   "base": "c328b0aded262172094e1d9a44be216fc67b0632",
