@@ -2308,24 +2308,24 @@
   "updated_at": "2020-05-10T05:35:43Z"
  },
  {
-  "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
+  "base": "752fe3fa04fa6222199b87fd05adcf2b27eecc64",
   "created_at": "2019-05-28T19:13:24Z",
-  "head": "80546f0496dafffeed842cb456a5f8693d435069",
+  "head": "7a98ef3baa8627ca7995dcd2bb75877fc7c3ea33",
   "login": "shvaikalesh",
   "number": 1556,
   "ref": "typed-array-get-set",
   "revs": [
    {
-    "adate": "2019-05-28T22:06:07+03:00",
-    "author": "Aleksey Shvayka",
-    "date": "2019-05-28T23:43:25+03:00",
-    "hash": "80546f0496dafffeed842cb456a5f8693d435069",
-    "parents": "a5375bdad264c8aa264d9c44f57408087761069e",
-    "subject": "Normative: Guard TypedArray methods from non-exotic receivers"
+    "adate": "2021-02-25T03:17:13+02:00",
+    "author": "Alexey Shvayka",
+    "date": "2021-02-25T03:17:13+02:00",
+    "hash": "7a98ef3baa8627ca7995dcd2bb75877fc7c3ea33",
+    "parents": "752fe3fa04fa6222199b87fd05adcf2b27eecc64",
+    "subject": "Normative: Guard IntegerIndexedElementSet with receiver check"
    }
   ],
-  "title": "Normative: Guard TypedArray methods from non-exotic receivers",
-  "updated_at": "2020-03-27T07:01:33Z"
+  "title": "Normative: Guard IntegerIndexedElementSet with receiver check",
+  "updated_at": "2021-02-25T01:18:20Z"
  },
  {
   "base": "6ee57ceffaba8ef0512fe9cbe4be5697fb508b9f",
