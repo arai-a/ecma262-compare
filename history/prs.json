@@ -1,28 +1,8 @@
 [
  {
-  "base": "752fe3fa04fa6222199b87fd05adcf2b27eecc64",
-  "created_at": "2021-02-23T23:45:18Z",
-  "head": "b6d13d96c480505ebd69e1e875bf9312ab976e82",
-  "login": "ljharb",
-  "number": 2324,
-  "ref": "about",
-  "revs": [
-   {
-    "adate": "2021-02-24T15:25:26-08:00",
-    "author": "Jordan Harband",
-    "date": "2021-02-24T15:25:26-08:00",
-    "hash": "b6d13d96c480505ebd69e1e875bf9312ab976e82",
-    "parents": "752fe3fa04fa6222199b87fd05adcf2b27eecc64",
-    "subject": "Editorial: swap \"about\" and \"contributing\" sections in the intro (#2324)"
-   }
-  ],
-  "title": "Editorial: swap \"about\" and \"contributing\" sections in the intro",
-  "updated_at": "2021-02-24T23:25:34Z"
- },
- {
-  "base": "c328b0aded262172094e1d9a44be216fc67b0632",
+  "base": "b6d13d96c480505ebd69e1e875bf9312ab976e82",
   "created_at": "2021-02-23T23:43:46Z",
-  "head": "16889013cb323c27a77333a93571669cb29ae929",
+  "head": "3b68700d08bf5191e521bd2c35f1f9207f7553d2",
   "login": "ljharb",
   "number": 2323,
   "ref": "fix_nesting",
@@ -30,14 +10,14 @@
    {
     "adate": "2021-02-23T15:38:04-08:00",
     "author": "Jordan Harband",
-    "date": "2021-02-23T15:38:04-08:00",
-    "hash": "16889013cb323c27a77333a93571669cb29ae929",
+    "date": "2021-02-25T06:52:24-08:00",
+    "hash": "3b68700d08bf5191e521bd2c35f1f9207f7553d2",
     "parents": "c328b0aded262172094e1d9a44be216fc67b0632",
-    "subject": "Editorial: properly nest \"ASI + NLT\" section under \"ASI\" section"
+    "subject": "Editorial: nest ASI sections under \"ASI\" section (#2323)"
    }
   ],
-  "title": "Editorial: properly nest \"ASI + NLT\" section under \"ASI\" section",
-  "updated_at": "2021-02-23T23:43:46Z"
+  "title": "Editorial: nest ASI sections under \"ASI\" section",
+  "updated_at": "2021-02-25T14:53:22Z"
  },
  {
   "base": "6460fcd9ca7a6e2f8eed533395029c5edd13d672",
@@ -576,24 +556,24 @@
   "updated_at": "2021-02-24T00:24:50Z"
  },
  {
-  "base": "c328b0aded262172094e1d9a44be216fc67b0632",
+  "base": "b6d13d96c480505ebd69e1e875bf9312ab976e82",
   "created_at": "2020-10-27T19:18:53Z",
-  "head": "8ed7a31ed7d83adc40db462880c9821d9c0d1cd8",
+  "head": "624bcfce298c1ca51f42a0e92f0ae734babc9959",
   "login": "devsnek",
   "number": 2216,
   "ref": "default-constructor-refactor",
   "revs": [
    {
-    "adate": "2020-10-27T14:18:24-05:00",
+    "adate": "2021-02-25T06:54:23-08:00",
     "author": "Gus Caplan",
-    "date": "2021-02-20T15:44:38-06:00",
-    "hash": "8ed7a31ed7d83adc40db462880c9821d9c0d1cd8",
-    "parents": "6460fcd9ca7a6e2f8eed533395029c5edd13d672",
-    "subject": "Normative: Define default constructors using spec steps"
+    "date": "2021-02-25T06:54:23-08:00",
+    "hash": "624bcfce298c1ca51f42a0e92f0ae734babc9959",
+    "parents": "b6d13d96c480505ebd69e1e875bf9312ab976e82",
+    "subject": "Normative: Define default constructors using spec steps (#2216)"
    }
   ],
   "title": "Normative: Define default constructors using spec steps",
-  "updated_at": "2021-02-20T21:46:16Z"
+  "updated_at": "2021-02-25T14:55:21Z"
  },
  {
   "base": "f2eb02248838e3482fbb7f02a2a1455c029efa0c",
