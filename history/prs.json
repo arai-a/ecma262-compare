@@ -1398,11 +1398,19 @@
  {
   "base": "c328b0aded262172094e1d9a44be216fc67b0632",
   "created_at": "2019-10-01T16:29:45Z",
-  "head": "946c733b314d7c4bd41e96ed0e0bf66106b9923d",
+  "head": "505ed759b0c599443f70a491a187dfc915bcfad0",
   "login": "rbuckton",
   "number": 1713,
   "ref": "regexp-match-indices",
   "revs": [
+   {
+    "adate": "2021-02-25T19:17:05-08:00",
+    "author": "Ron Buckton",
+    "date": "2021-02-25T19:17:18-08:00",
+    "hash": "505ed759b0c599443f70a491a187dfc915bcfad0",
+    "parents": "946c733b314d7c4bd41e96ed0e0bf66106b9923d",
+    "subject": "Apply suggestions from code review"
+   },
    {
     "adate": "2021-02-25T13:36:24-08:00",
     "author": "Ron Buckton",
@@ -1557,7 +1565,7 @@
    }
   ],
   "title": "Normative: add RegExp Match Indices",
-  "updated_at": "2021-02-25T21:36:32Z"
+  "updated_at": "2021-02-26T03:28:09Z"
  },
  {
   "base": "ba3dcb5680268b2f9aa42a6e22fbc6eec3c9685f",
