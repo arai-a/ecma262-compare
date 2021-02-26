@@ -1,5 +1,25 @@
 [
  {
+  "base": "cdcce9e45b987f39c3352376f9d1535b438f55ea",
+  "created_at": "2021-02-26T04:09:30Z",
+  "head": "052c1ad4bfc58779858499f60fe35b4ab2a62047",
+  "login": "jmdyck",
+  "number": 2327,
+  "ref": "editorial",
+  "revs": [
+   {
+    "adate": "2021-02-25T20:18:38-05:00",
+    "author": "Michael Dyck",
+    "date": "2021-02-25T23:07:39-05:00",
+    "hash": "052c1ad4bfc58779858499f60fe35b4ab2a62047",
+    "parents": "cdcce9e45b987f39c3352376f9d1535b438f55ea",
+    "subject": "Markup: Change \"&notin;\" to \"&lt;!\" in lookahead-constraint"
+   }
+  ],
+  "title": "Markup: Change \"&notin;\" to \"&lt;!\" in lookahead-constraint",
+  "updated_at": "2021-02-26T04:09:30Z"
+ },
+ {
   "base": "6460fcd9ca7a6e2f8eed533395029c5edd13d672",
   "created_at": "2021-02-19T02:28:41Z",
   "head": "6e8146f0d35e76777d0e9a552c7121a05025bc2c",
@@ -1396,13 +1416,29 @@
   "updated_at": "2020-03-27T07:01:25Z"
  },
  {
-  "base": "c328b0aded262172094e1d9a44be216fc67b0632",
+  "base": "cdcce9e45b987f39c3352376f9d1535b438f55ea",
   "created_at": "2019-10-01T16:29:45Z",
-  "head": "505ed759b0c599443f70a491a187dfc915bcfad0",
+  "head": "9958ad7149917cad77c7212a61ba924c3f8488ae",
   "login": "rbuckton",
   "number": 1713,
   "ref": "regexp-match-indices",
   "revs": [
+   {
+    "adate": "2021-02-25T20:37:13-08:00",
+    "author": "Ron Buckton",
+    "date": "2021-02-25T20:37:13-08:00",
+    "hash": "9958ad7149917cad77c7212a61ba924c3f8488ae",
+    "parents": "ffc871b7ac17276331bc94cc26fdbf49b2df5de0",
+    "subject": "Apply suggestions from code review"
+   },
+   {
+    "adate": "2021-02-25T20:31:13-08:00",
+    "author": "Ron Buckton",
+    "date": "2021-02-25T20:31:13-08:00",
+    "hash": "ffc871b7ac17276331bc94cc26fdbf49b2df5de0",
+    "parents": "505ed759b0c599443f70a491a187dfc915bcfad0 cdcce9e45b987f39c3352376f9d1535b438f55ea",
+    "subject": "Merge branch 'master' into regexp-match-indices"
+   },
    {
     "adate": "2021-02-25T19:17:05-08:00",
     "author": "Ron Buckton",
@@ -1565,7 +1601,7 @@
    }
   ],
   "title": "Normative: add RegExp Match Indices",
-  "updated_at": "2021-02-26T03:28:09Z"
+  "updated_at": "2021-02-26T04:37:21Z"
  },
  {
   "base": "ba3dcb5680268b2f9aa42a6e22fbc6eec3c9685f",
