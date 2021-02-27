@@ -1,6 +1,42 @@
 [
  {
   "base": "cdcce9e45b987f39c3352376f9d1535b438f55ea",
+  "created_at": "2021-02-27T22:13:53Z",
+  "head": "4c2712f3ceda24e32853593f624aeda05d00779b",
+  "login": "jmdyck",
+  "number": 2330,
+  "ref": "for_each",
+  "revs": [
+   {
+    "adate": "2021-02-27T17:05:28-05:00",
+    "author": "Michael Dyck",
+    "date": "2021-02-27T17:05:28-05:00",
+    "hash": "4c2712f3ceda24e32853593f624aeda05d00779b",
+    "parents": "d8a2de8aaa1f5c0d2d6c813ae81f8b54cfee5c8f",
+    "subject": "Editorial: Drop \"in original [key] insertion order\""
+   },
+   {
+    "adate": "2021-02-27T15:48:01-05:00",
+    "author": "Michael Dyck",
+    "date": "2021-02-27T15:48:01-05:00",
+    "hash": "d8a2de8aaa1f5c0d2d6c813ae81f8b54cfee5c8f",
+    "parents": "53d5646acd14d44861264bf6f896d7ead60e1ae5",
+    "subject": "Editorial: Change \"non-negative integer\" to \"integer\""
+   },
+   {
+    "adate": "2021-02-27T10:15:52-05:00",
+    "author": "Michael Dyck",
+    "date": "2021-02-27T10:15:52-05:00",
+    "hash": "53d5646acd14d44861264bf6f896d7ead60e1ae5",
+    "parents": "cdcce9e45b987f39c3352376f9d1535b438f55ea",
+    "subject": "Editorial: Change \"that satisfies\" to \"such that\""
+   }
+  ],
+  "title": "Editorial: Consistify some \"For each\" steps",
+  "updated_at": "2021-02-27T22:18:29Z"
+ },
+ {
+  "base": "cdcce9e45b987f39c3352376f9d1535b438f55ea",
   "created_at": "2021-02-27T18:43:18Z",
   "head": "e17cc8a421308af2cbc81c3a6891daf514217f92",
   "login": "tc39",
