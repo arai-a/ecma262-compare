@@ -1,5 +1,25 @@
 [
  {
+  "base": "d9e56927df060215f849199fd9055fb39c4213de",
+  "created_at": "2021-02-28T22:45:28Z",
+  "head": "6dc87e1a7a06c5355212ddfb2f5f12aa3977c011",
+  "login": "ivan-pan",
+  "number": 2331,
+  "ref": "master",
+  "revs": [
+   {
+    "adate": "2021-02-28T23:40:08+01:00",
+    "author": "Ivan Panchenko",
+    "date": "2021-02-28T23:40:08+01:00",
+    "hash": "6dc87e1a7a06c5355212ddfb2f5f12aa3977c011",
+    "parents": "d9e56927df060215f849199fd9055fb39c4213de",
+    "subject": "Update spec.html"
+   }
+  ],
+  "title": "Editorial: Fix mistakes",
+  "updated_at": "2021-02-28T22:50:52Z"
+ },
+ {
   "base": "cdcce9e45b987f39c3352376f9d1535b438f55ea",
   "created_at": "2021-02-27T22:13:53Z",
   "head": "d1a912b72c801c7bbb957e57daa8b5993b3ba121",
@@ -610,26 +630,6 @@
   ],
   "title": "Normative: Add Promise.anySettled",
   "updated_at": "2021-02-24T00:24:50Z"
- },
- {
-  "base": "cdcce9e45b987f39c3352376f9d1535b438f55ea",
-  "created_at": "2020-10-27T19:18:53Z",
-  "head": "d9e56927df060215f849199fd9055fb39c4213de",
-  "login": "devsnek",
-  "number": 2216,
-  "ref": "default-constructor-refactor",
-  "revs": [
-   {
-    "adate": "2021-02-28T12:34:57-08:00",
-    "author": "Gus Caplan",
-    "date": "2021-02-28T12:34:57-08:00",
-    "hash": "d9e56927df060215f849199fd9055fb39c4213de",
-    "parents": "cdcce9e45b987f39c3352376f9d1535b438f55ea",
-    "subject": "Normative: Define default constructors using spec steps (#2216)"
-   }
-  ],
-  "title": "Normative: Define default constructors using spec steps",
-  "updated_at": "2021-02-28T20:35:14Z"
  },
  {
   "base": "f2eb02248838e3482fbb7f02a2a1455c029efa0c",
