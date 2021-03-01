@@ -1,6 +1,26 @@
 [
  {
   "base": "d9e56927df060215f849199fd9055fb39c4213de",
+  "created_at": "2021-03-01T15:04:10Z",
+  "head": "79fbc2b203a297793728d38568e346942ab2dc22",
+  "login": "shvaikalesh",
+  "number": 2336,
+  "ref": "module-namespace-remove-get-method",
+  "revs": [
+   {
+    "adate": "2021-03-01T14:51:49+02:00",
+    "author": "Alexey Shvayka",
+    "date": "2021-03-01T14:51:49+02:00",
+    "hash": "79fbc2b203a297793728d38568e346942ab2dc22",
+    "parents": "d9e56927df060215f849199fd9055fb39c4213de",
+    "subject": "Editorial: Remove Module Namespace's [[Get]] method"
+   }
+  ],
+  "title": "Editorial: Remove Module Namespace's [[Get]] method",
+  "updated_at": "2021-03-01T15:04:10Z"
+ },
+ {
+  "base": "d9e56927df060215f849199fd9055fb39c4213de",
   "created_at": "2021-03-01T12:03:47Z",
   "head": "831e12efb2f470576a98c2fd2976b8b57e5b765a",
   "login": "shvaikalesh",
