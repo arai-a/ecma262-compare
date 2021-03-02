@@ -100,9 +100,9 @@
   "updated_at": "2021-03-01T07:22:17Z"
  },
  {
-  "base": "d9e56927df060215f849199fd9055fb39c4213de",
+  "base": "94c6c6be7e694083393ac8cf1ee8dc8189ce8005",
   "created_at": "2021-03-01T05:03:29Z",
-  "head": "d4ab4476fc1a9ccb7db84eb03e1490df9bb6008c",
+  "head": "fd0176f649abceb7fc0934355c2999b29ced4185",
   "login": "shvaikalesh",
   "number": 2332,
   "ref": "typedarray-set-invalid-index-no-value-coercion",
@@ -110,34 +110,14 @@
    {
     "adate": "2021-03-01T06:00:20+02:00",
     "author": "Alexey Shvayka",
-    "date": "2021-03-01T06:00:20+02:00",
-    "hash": "d4ab4476fc1a9ccb7db84eb03e1490df9bb6008c",
-    "parents": "d9e56927df060215f849199fd9055fb39c4213de",
+    "date": "2021-03-02T22:17:52+02:00",
+    "hash": "fd0176f649abceb7fc0934355c2999b29ced4185",
+    "parents": "94c6c6be7e694083393ac8cf1ee8dc8189ce8005",
     "subject": "Normative: Don't coerce value if index is invalid in TypedArray [[Set]]"
    }
   ],
   "title": "Normative: Don't coerce value if index is invalid in TypedArray [[Set]]",
-  "updated_at": "2021-03-01T05:03:29Z"
- },
- {
-  "base": "d9e56927df060215f849199fd9055fb39c4213de",
-  "created_at": "2021-02-28T22:45:28Z",
-  "head": "94c6c6be7e694083393ac8cf1ee8dc8189ce8005",
-  "login": "ivan-pan",
-  "number": 2331,
-  "ref": "master",
-  "revs": [
-   {
-    "adate": "2021-03-01T14:11:57-08:00",
-    "author": "Ivan Panchenko",
-    "date": "2021-03-01T14:11:57-08:00",
-    "hash": "94c6c6be7e694083393ac8cf1ee8dc8189ce8005",
-    "parents": "d9e56927df060215f849199fd9055fb39c4213de",
-    "subject": "Editorial: Fix mistakes (#2331)"
-   }
-  ],
-  "title": "Editorial: Fix mistakes",
-  "updated_at": "2021-03-01T22:12:07Z"
+  "updated_at": "2021-03-02T20:18:19Z"
  },
  {
   "base": "cdcce9e45b987f39c3352376f9d1535b438f55ea",
