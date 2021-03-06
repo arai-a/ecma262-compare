@@ -1,59 +1,31 @@
 [
  {
-  "base": "d9fea48d771602da19e932e1e084c12bda4c9f41",
-  "created_at": "2021-03-05T21:49:11Z",
-  "head": "eb5aa2ad0c0f954f2c476cb01b43bcee457101fb",
-  "login": "tc39",
-  "number": 2340,
-  "ref": "compress-uploads",
-  "revs": [
-   {
-    "adate": "2021-03-05T13:42:49-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-03-05T13:45:55-08:00",
-    "hash": "eb5aa2ad0c0f954f2c476cb01b43bcee457101fb",
-    "parents": "94c6c6be7e694083393ac8cf1ee8dc8189ce8005",
-    "subject": "Meta: better compression during preview uploads"
-   }
-  ],
-  "title": "Meta: better compression during preview uploads",
-  "updated_at": "2021-03-05T21:49:32Z"
- },
- {
-  "base": "94c6c6be7e694083393ac8cf1ee8dc8189ce8005",
+  "base": "f12df860803dd701672a1e6da5c037ff3d4e3710",
   "created_at": "2021-03-02T22:06:36Z",
-  "head": "281ab4ac876c013a11d4cd584dd702fcae1e7dd8",
+  "head": "29c23f9ee1764c36878cfc8ca796a0d0b13ffef0",
   "login": "tc39",
   "number": 2339,
   "ref": "multipage",
   "revs": [
    {
-    "adate": "2021-03-05T13:42:49-08:00",
+    "adate": "2021-03-05T17:01:43-08:00",
     "author": "Kevin Gibbons",
-    "date": "2021-03-05T16:11:17-08:00",
-    "hash": "281ab4ac876c013a11d4cd584dd702fcae1e7dd8",
-    "parents": "2381f53a3f3baa6bc59a4c054e48ea5da446c064",
-    "subject": "THROWAWAY: Meta: better compression during preview uploads"
+    "date": "2021-03-05T17:01:43-08:00",
+    "hash": "29c23f9ee1764c36878cfc8ca796a0d0b13ffef0",
+    "parents": "1b1515d3406f1989c962e25bb2f9d5bf6d815f46",
+    "subject": "Meta: multipage builds (#2339)"
    },
    {
-    "adate": "2021-03-02T13:56:56-08:00",
+    "adate": "2021-03-05T17:01:39-08:00",
     "author": "Kevin Gibbons",
-    "date": "2021-03-02T14:02:39-08:00",
-    "hash": "2381f53a3f3baa6bc59a4c054e48ea5da446c064",
-    "parents": "f4d0ee95243bd4135082b967262a4872fbe6c426",
-    "subject": "Meta: multipage builds"
-   },
-   {
-    "adate": "2021-03-02T13:56:16-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-03-02T13:56:16-08:00",
-    "hash": "f4d0ee95243bd4135082b967262a4872fbe6c426",
-    "parents": "94c6c6be7e694083393ac8cf1ee8dc8189ce8005",
-    "subject": "Meta: bump ecmarkup to 7.0.1"
+    "date": "2021-03-05T17:01:39-08:00",
+    "hash": "1b1515d3406f1989c962e25bb2f9d5bf6d815f46",
+    "parents": "f12df860803dd701672a1e6da5c037ff3d4e3710",
+    "subject": "Meta: bump ecmarkup to 7.0.1 (#2339)"
    }
   ],
   "title": "Meta: multipage builds",
-  "updated_at": "2021-03-06T00:11:31Z"
+  "updated_at": "2021-03-06T01:02:22Z"
  },
  {
   "base": "d9e56927df060215f849199fd9055fb39c4213de",
