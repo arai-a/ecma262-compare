@@ -1,6 +1,58 @@
 [
  {
   "base": "3cd00d74bb6e8b612a426b0b7eb8a85e6c341ac9",
+  "created_at": "2021-03-17T21:31:04Z",
+  "head": "a8481ad3d7e0cb6c8e64d797d787120df5c6f910",
+  "login": "jmdyck",
+  "number": 2350,
+  "ref": "Covered_SDOs",
+  "revs": [
+   {
+    "adate": "2021-03-17T17:09:49-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-03-17T17:09:49-04:00",
+    "hash": "a8481ad3d7e0cb6c8e64d797d787120df5c6f910",
+    "parents": "0ecfc065c5bd864848802cf5ed7e6ef9eb648a57",
+    "subject": "Editorial: Unfold SDO `CoveredFormalsList`"
+   },
+   {
+    "adate": "2021-03-17T16:57:39-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-03-17T16:57:39-04:00",
+    "hash": "0ecfc065c5bd864848802cf5ed7e6ef9eb648a57",
+    "parents": "248c98a86cd663b4059eb47b4e312bebd711069b",
+    "subject": "Editorial: Eliminate one use of SDO `CoveredFormalsList`"
+   },
+   {
+    "adate": "2021-03-17T14:38:04-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-03-17T14:38:04-04:00",
+    "hash": "248c98a86cd663b4059eb47b4e312bebd711069b",
+    "parents": "fc3e37e8a46cf0709889d258caeaaff240c06cc0",
+    "subject": "Editorial: Unfold SDO `CoveredAsyncArrowHead`"
+   },
+   {
+    "adate": "2021-03-17T14:32:33-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-03-17T14:32:33-04:00",
+    "hash": "fc3e37e8a46cf0709889d258caeaaff240c06cc0",
+    "parents": "3f2cb5e3943268d748c9e8421a42973db09ab2c4",
+    "subject": "Editorial: Unfold SDO `CoveredCallExpression`"
+   },
+   {
+    "adate": "2021-03-17T14:21:17-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-03-17T14:21:17-04:00",
+    "hash": "3f2cb5e3943268d748c9e8421a42973db09ab2c4",
+    "parents": "3cd00d74bb6e8b612a426b0b7eb8a85e6c341ac9",
+    "subject": "Editorial: Unfold SDO `CoveredParenthesizedExpression`"
+   }
+  ],
+  "title": "Editorial: Eliminate `CoveredFoo` SDOs",
+  "updated_at": "2021-03-17T21:33:58Z"
+ },
+ {
+  "base": "3cd00d74bb6e8b612a426b0b7eb8a85e6c341ac9",
   "created_at": "2021-03-17T00:37:57Z",
   "head": "20f0278913acc36c23abe99170d4e8dc466c2b75",
   "login": "jmdyck",
@@ -226,26 +278,6 @@
   ],
   "title": "Markup: Change \"&notin;\" to \"&lt;!\" in lookahead-constraint",
   "updated_at": "2021-02-26T04:09:30Z"
- },
- {
-  "base": "6460fcd9ca7a6e2f8eed533395029c5edd13d672",
-  "created_at": "2021-02-19T02:28:41Z",
-  "head": "6e8146f0d35e76777d0e9a552c7121a05025bc2c",
-  "login": "syg",
-  "number": 2316,
-  "ref": "incumbents-finalizationregistry",
-  "revs": [
-   {
-    "adate": "2021-02-18T18:21:41-08:00",
-    "author": "Shu-yu Guo",
-    "date": "2021-02-18T18:21:41-08:00",
-    "hash": "6e8146f0d35e76777d0e9a552c7121a05025bc2c",
-    "parents": "df9256a079331250d7e0c8a2172aab1b9b02462f",
-    "subject": "Normative: Use HostJobCallbacks for FinalizationRegistry callbacks"
-   }
-  ],
-  "title": "Normative: Use HostJobCallbacks for FinalizationRegistry callbacks",
-  "updated_at": "2021-02-19T02:28:41Z"
  },
  {
   "base": "4233638d80edc85f6168702e20d3fbc7e9a03f10",
