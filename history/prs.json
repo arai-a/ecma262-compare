@@ -1,5 +1,57 @@
 [
  {
+  "base": "0635793819697636f062058fd89dc7f431853843",
+  "created_at": "2021-03-18T18:22:21Z",
+  "head": "79f759e7434f16fb250acbc870a01778fcf06c43",
+  "login": "jmdyck",
+  "number": 2351,
+  "ref": "small_tweaks",
+  "revs": [
+   {
+    "adate": "2021-03-18T13:54:42-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-03-18T14:13:46-04:00",
+    "hash": "79f759e7434f16fb250acbc870a01778fcf06c43",
+    "parents": "592f6beb57873566668a27872c4bb513caa3abbf",
+    "subject": "Editorial: Change \"includes\" to \"contains\""
+   },
+   {
+    "adate": "2021-03-18T13:43:03-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-03-18T14:13:46-04:00",
+    "hash": "592f6beb57873566668a27872c4bb513caa3abbf",
+    "parents": "4dee3bde0c5a0329d02291f086110bffb696c653",
+    "subject": "Editorial: Change \"headings\" to \"heading\""
+   },
+   {
+    "adate": "2021-03-18T12:41:34-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-03-18T14:13:46-04:00",
+    "hash": "4dee3bde0c5a0329d02291f086110bffb696c653",
+    "parents": "cbd58a3417a4bd8c13b3a0f59404695233b12b14",
+    "subject": "Editorial: Drop Script Record's [[Environment]] field"
+   },
+   {
+    "adate": "2021-03-18T11:00:29-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-03-18T14:13:45-04:00",
+    "hash": "cbd58a3417a4bd8c13b3a0f59404695233b12b14",
+    "parents": "786df5997128590139cdc5eda18aa4eb855d0656",
+    "subject": "Editorial: Change \"that is the same sign as _number_\""
+   },
+   {
+    "adate": "2021-03-18T10:06:05-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-03-18T14:13:45-04:00",
+    "hash": "786df5997128590139cdc5eda18aa4eb855d0656",
+    "parents": "0635793819697636f062058fd89dc7f431853843",
+    "subject": "Editorial: 5 simple tweaks that I believe are self-explanatory"
+   }
+  ],
+  "title": "Editorial: small tweaks",
+  "updated_at": "2021-03-18T18:25:51Z"
+ },
+ {
   "base": "3cd00d74bb6e8b612a426b0b7eb8a85e6c341ac9",
   "created_at": "2021-03-17T21:31:04Z",
   "head": "a8481ad3d7e0cb6c8e64d797d787120df5c6f910",
