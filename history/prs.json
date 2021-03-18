@@ -192,24 +192,24 @@
   "updated_at": "2021-03-15T16:43:57Z"
  },
  {
-  "base": "a53b61fbe9c42f2f0bda2267fb3f51d6ecd904d9",
+  "base": "dae76f88a1ee0666696554c343926a7d1f4220a7",
   "created_at": "2021-03-09T02:36:11Z",
-  "head": "31794c2f2caa1bc77b4bb1d5421e95276c1e726d",
+  "head": "d911ee22b8b976f44c8e63e5a0c58e165222bf30",
   "login": "tc39",
   "number": 2341,
   "ref": "it",
   "revs": [
    {
-    "adate": "2021-03-08T18:28:07-08:00",
+    "adate": "2021-03-18T13:12:02-07:00",
     "author": "Michael Ficarra",
-    "date": "2021-03-08T18:28:07-08:00",
-    "hash": "31794c2f2caa1bc77b4bb1d5421e95276c1e726d",
-    "parents": "a53b61fbe9c42f2f0bda2267fb3f51d6ecd904d9",
-    "subject": "Editorial: use target alias name instead of \"it\""
+    "date": "2021-03-18T13:12:02-07:00",
+    "hash": "d911ee22b8b976f44c8e63e5a0c58e165222bf30",
+    "parents": "dae76f88a1ee0666696554c343926a7d1f4220a7",
+    "subject": "Editorial: use target alias name instead of \"it\" (#2341)"
    }
   ],
   "title": "Editorial: use target alias name instead of \"it\"",
-  "updated_at": "2021-03-09T02:48:54Z"
+  "updated_at": "2021-03-18T20:12:19Z"
  },
  {
   "base": "d9e56927df060215f849199fd9055fb39c4213de",
@@ -574,58 +574,6 @@
   ],
   "title": "Editorial: Model the bindings of a declarative Env Rec as a List of Records",
   "updated_at": "2021-01-28T22:33:10Z"
- },
- {
-  "base": "d02d992ba317792759909de739d93b51a09299af",
-  "created_at": "2021-01-23T21:18:46Z",
-  "head": "786c5d28ba4d27ea854ca61ab803e43d4834808d",
-  "login": "jmdyck",
-  "number": 2287,
-  "ref": "object_Env_Rec",
-  "revs": [
-   {
-    "adate": "2021-01-23T15:57:25-05:00",
-    "author": "Michael Dyck",
-    "date": "2021-02-04T18:04:24-05:00",
-    "hash": "786c5d28ba4d27ea854ca61ab803e43d4834808d",
-    "parents": "7ba4488fc70a3a8ad61f7f07c3e05b87a953baff",
-    "subject": "Editorial: Rename alias `_bindings_` to `_bindingObject_`"
-   },
-   {
-    "adate": "2021-01-23T14:14:51-05:00",
-    "author": "Michael Dyck",
-    "date": "2021-02-04T18:04:24-05:00",
-    "hash": "7ba4488fc70a3a8ad61f7f07c3e05b87a953baff",
-    "parents": "522082281f408f6d72022bb35ce6c86754837df7",
-    "subject": "Editorial: Introduce fields to specify object Env Rec"
-   },
-   {
-    "adate": "2021-01-23T13:50:34-05:00",
-    "author": "Michael Dyck",
-    "date": "2021-02-04T18:04:14-05:00",
-    "hash": "522082281f408f6d72022bb35ce6c86754837df7",
-    "parents": "0b2e4b55003706b007929e36c291d2d5d47c5918",
-    "subject": "Editorial: Add parameter to NewObjectEnvironemt"
-   },
-   {
-    "adate": "2021-01-23T13:46:03-05:00",
-    "author": "Michael Dyck",
-    "date": "2021-02-04T17:59:07-05:00",
-    "hash": "0b2e4b55003706b007929e36c291d2d5d47c5918",
-    "parents": "673aaaed8c4cc4b8d91910ffa20655ddb45f8ca5",
-    "subject": "Editorial: Set _withEnvironment_ explicitly"
-   },
-   {
-    "adate": "2021-01-23T13:42:40-05:00",
-    "author": "Michael Dyck",
-    "date": "2021-02-04T17:59:07-05:00",
-    "hash": "673aaaed8c4cc4b8d91910ffa20655ddb45f8ca5",
-    "parents": "d02d992ba317792759909de739d93b51a09299af",
-    "subject": "Editorial: Have NewGlobalEnvironment invoke NewObjectEnvironment"
-   }
-  ],
-  "title": "Editorial: Object Environment Record improvements",
-  "updated_at": "2021-02-04T23:07:15Z"
  },
  {
   "base": "77595f579194f5c79a02a2952f4367a8e3ce9620",
