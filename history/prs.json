@@ -1,5 +1,41 @@
 [
  {
+  "base": "d911ee22b8b976f44c8e63e5a0c58e165222bf30",
+  "created_at": "2021-03-20T03:43:59Z",
+  "head": "77ad0dfa8333d4301f39c8c575931ae33af0644a",
+  "login": "jmdyck",
+  "number": 2353,
+  "ref": "rename_aliases",
+  "revs": [
+   {
+    "adate": "2021-03-19T21:16:34-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-03-19T21:16:34-04:00",
+    "hash": "77ad0dfa8333d4301f39c8c575931ae33af0644a",
+    "parents": "741ea87b3b99757288c6280bd97b36640164de12",
+    "subject": "Editorial: Rename some script-related aliases"
+   },
+   {
+    "adate": "2021-03-19T17:19:03-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-03-19T17:19:03-04:00",
+    "hash": "741ea87b3b99757288c6280bd97b36640164de12",
+    "parents": "343c057bbb34bd11543371db6d341eea9d980b61",
+    "subject": "Editorial: Rename `_scope_` to `_env_` (and similar cases)"
+   },
+   {
+    "adate": "2021-03-19T09:02:45-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-03-19T09:02:45-04:00",
+    "hash": "343c057bbb34bd11543371db6d341eea9d980b61",
+    "parents": "d911ee22b8b976f44c8e63e5a0c58e165222bf30",
+    "subject": "Editorial: Rename `_closure_` to `_function_`"
+   }
+  ],
+  "title": "Editorial: Rename some aliases",
+  "updated_at": "2021-03-20T03:43:59Z"
+ },
+ {
   "base": "0635793819697636f062058fd89dc7f431853843",
   "created_at": "2021-03-18T18:22:21Z",
   "head": "79f759e7434f16fb250acbc870a01778fcf06c43",
