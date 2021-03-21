@@ -1,6 +1,26 @@
 [
  {
   "base": "d911ee22b8b976f44c8e63e5a0c58e165222bf30",
+  "created_at": "2021-03-21T00:36:31Z",
+  "head": "eb51f00887cc0681e538e3f23783bf4a8ac91000",
+  "login": "jmdyck",
+  "number": 2355,
+  "ref": "RequireInternalSlot",
+  "revs": [
+   {
+    "adate": "2021-03-20T20:33:26-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-03-20T20:33:26-04:00",
+    "hash": "eb51f00887cc0681e538e3f23783bf4a8ac91000",
+    "parents": "d911ee22b8b976f44c8e63e5a0c58e165222bf30",
+    "subject": "Editorial: Have RequireInternalSlot return the object"
+   }
+  ],
+  "title": "Editorial: Have RequireInternalSlot return the object",
+  "updated_at": "2021-03-21T01:00:22Z"
+ },
+ {
+  "base": "d911ee22b8b976f44c8e63e5a0c58e165222bf30",
   "created_at": "2021-03-20T03:43:59Z",
   "head": "77ad0dfa8333d4301f39c8c575931ae33af0644a",
   "login": "jmdyck",
