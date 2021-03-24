@@ -1068,32 +1068,32 @@
   "updated_at": "2020-09-20T23:04:54Z"
  },
  {
-  "base": "5f4be6e41ce9f6e1997f5e1e42af253145c6c885",
+  "base": "416c1ae4f7f30da3d9dd6d88f6fede17acea82b0",
   "created_at": "2020-08-05T00:10:45Z",
-  "head": "38e7752411d599985d416035d037e2793051f277",
+  "head": "5de916eee04e04e031e2f69013724d8d4e1a6b0d",
   "login": "devsnek",
   "number": 2125,
   "ref": "__proto__-shenanigans",
   "revs": [
    {
-    "adate": "2020-09-30T16:35:34-06:00",
-    "author": "Michael Ficarra",
-    "date": "2021-01-06T18:33:07-06:00",
-    "hash": "38e7752411d599985d416035d037e2793051f277",
-    "parents": "dcf03f0703cac7bf6ad96a5482da15eeb472aeda 5f4be6e41ce9f6e1997f5e1e42af253145c6c885",
-    "subject": "Merge branch 'master' into __proto__-shenanigans"
-   },
-   {
     "adate": "2020-08-04T19:10:20-05:00",
     "author": "Gus Caplan",
-    "date": "2020-09-27T16:07:12-05:00",
-    "hash": "dcf03f0703cac7bf6ad96a5482da15eeb472aeda",
-    "parents": "e4679d4ba196ab5e8959b44468d6a9feb848955c",
-    "subject": "Normative: move __proto__ out of annex b"
+    "date": "2021-03-24T09:24:16-07:00",
+    "hash": "5de916eee04e04e031e2f69013724d8d4e1a6b0d",
+    "parents": "6dea0296f162f3d4b6aa63fb9ff0614f49cdf10c",
+    "subject": "Normative: move __proto__ out of annex b (#2125)"
+   },
+   {
+    "adate": "2021-03-24T09:18:02-07:00",
+    "author": "Jordan Harband",
+    "date": "2021-03-24T09:24:11-07:00",
+    "hash": "6dea0296f162f3d4b6aa63fb9ff0614f49cdf10c",
+    "parents": "416c1ae4f7f30da3d9dd6d88f6fede17acea82b0",
+    "subject": "Editorial: add \"Legacy\" section (#2125)"
    }
   ],
   "title": "Normative: move __proto__ out of annex b",
-  "updated_at": "2021-01-07T00:33:16Z"
+  "updated_at": "2021-03-24T16:24:33Z"
  },
  {
   "base": "e4679d4ba196ab5e8959b44468d6a9feb848955c",
