@@ -1,25 +1,5 @@
 [
  {
-  "base": "416c1ae4f7f30da3d9dd6d88f6fede17acea82b0",
-  "created_at": "2021-03-24T06:33:59Z",
-  "head": "ba8376a19f2d168e6c5fb9ef6abd6797ccc07e59",
-  "login": "h2oche",
-  "number": 2359,
-  "ref": "ifstatement-early-errors",
-  "revs": [
-   {
-    "adate": "2021-03-24T15:04:48+09:00",
-    "author": "h2oche",
-    "date": "2021-03-24T15:31:50+09:00",
-    "hash": "ba8376a19f2d168e6c5fb9ef6abd6797ccc07e59",
-    "parents": "416c1ae4f7f30da3d9dd6d88f6fede17acea82b0",
-    "subject": "Editorial: Fix early error rules of 'IfStatement'"
-   }
-  ],
-  "title": "Editorial: Fix early error rules of 'IfStatement'",
-  "updated_at": "2021-03-24T06:57:27Z"
- },
- {
   "base": "d911ee22b8b976f44c8e63e5a0c58e165222bf30",
   "created_at": "2021-03-21T17:00:17Z",
   "head": "dcb2209bfa32fd0fd008b82a7a8da85ccc1baa8a",
@@ -96,108 +76,56 @@
   "updated_at": "2021-03-20T03:43:59Z"
  },
  {
-  "base": "0635793819697636f062058fd89dc7f431853843",
-  "created_at": "2021-03-18T18:22:21Z",
-  "head": "79f759e7434f16fb250acbc870a01778fcf06c43",
-  "login": "jmdyck",
-  "number": 2351,
-  "ref": "small_tweaks",
-  "revs": [
-   {
-    "adate": "2021-03-18T13:54:42-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-03-18T14:13:46-04:00",
-    "hash": "79f759e7434f16fb250acbc870a01778fcf06c43",
-    "parents": "592f6beb57873566668a27872c4bb513caa3abbf",
-    "subject": "Editorial: Change \"includes\" to \"contains\""
-   },
-   {
-    "adate": "2021-03-18T13:43:03-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-03-18T14:13:46-04:00",
-    "hash": "592f6beb57873566668a27872c4bb513caa3abbf",
-    "parents": "4dee3bde0c5a0329d02291f086110bffb696c653",
-    "subject": "Editorial: Change \"headings\" to \"heading\""
-   },
-   {
-    "adate": "2021-03-18T12:41:34-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-03-18T14:13:46-04:00",
-    "hash": "4dee3bde0c5a0329d02291f086110bffb696c653",
-    "parents": "cbd58a3417a4bd8c13b3a0f59404695233b12b14",
-    "subject": "Editorial: Drop Script Record's [[Environment]] field"
-   },
-   {
-    "adate": "2021-03-18T11:00:29-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-03-18T14:13:45-04:00",
-    "hash": "cbd58a3417a4bd8c13b3a0f59404695233b12b14",
-    "parents": "786df5997128590139cdc5eda18aa4eb855d0656",
-    "subject": "Editorial: Change \"that is the same sign as _number_\""
-   },
-   {
-    "adate": "2021-03-18T10:06:05-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-03-18T14:13:45-04:00",
-    "hash": "786df5997128590139cdc5eda18aa4eb855d0656",
-    "parents": "0635793819697636f062058fd89dc7f431853843",
-    "subject": "Editorial: 5 simple tweaks that I believe are self-explanatory"
-   }
-  ],
-  "title": "Editorial: small tweaks",
-  "updated_at": "2021-03-18T18:25:51Z"
- },
- {
-  "base": "3cd00d74bb6e8b612a426b0b7eb8a85e6c341ac9",
+  "base": "40279cf89003bd592f22c6bf576f07b72a53b7e6",
   "created_at": "2021-03-17T21:31:04Z",
-  "head": "a8481ad3d7e0cb6c8e64d797d787120df5c6f910",
+  "head": "7cea37d366a9aa7561801e9ac027f2d047d3b27f",
   "login": "jmdyck",
   "number": 2350,
   "ref": "Covered_SDOs",
   "revs": [
    {
-    "adate": "2021-03-17T17:09:49-04:00",
+    "adate": "2021-03-24T15:58:39-07:00",
     "author": "Michael Dyck",
-    "date": "2021-03-17T17:09:49-04:00",
-    "hash": "a8481ad3d7e0cb6c8e64d797d787120df5c6f910",
-    "parents": "0ecfc065c5bd864848802cf5ed7e6ef9eb648a57",
-    "subject": "Editorial: Unfold SDO `CoveredFormalsList`"
+    "date": "2021-03-24T15:58:39-07:00",
+    "hash": "7cea37d366a9aa7561801e9ac027f2d047d3b27f",
+    "parents": "b751864939e174657f5b26fa1e7baa824daeac73",
+    "subject": "Editorial: Unfold SDO `CoveredFormalsList` (#2350)"
    },
    {
-    "adate": "2021-03-17T16:57:39-04:00",
+    "adate": "2021-03-24T15:58:36-07:00",
     "author": "Michael Dyck",
-    "date": "2021-03-17T16:57:39-04:00",
-    "hash": "0ecfc065c5bd864848802cf5ed7e6ef9eb648a57",
-    "parents": "248c98a86cd663b4059eb47b4e312bebd711069b",
-    "subject": "Editorial: Eliminate one use of SDO `CoveredFormalsList`"
+    "date": "2021-03-24T15:58:36-07:00",
+    "hash": "b751864939e174657f5b26fa1e7baa824daeac73",
+    "parents": "1db56bd859b6bab52e42a8126eeb6446bbfe476f",
+    "subject": "Editorial: Eliminate one use of SDO `CoveredFormalsList` (#2350)"
    },
    {
-    "adate": "2021-03-17T14:38:04-04:00",
+    "adate": "2021-03-24T15:58:34-07:00",
     "author": "Michael Dyck",
-    "date": "2021-03-17T14:38:04-04:00",
-    "hash": "248c98a86cd663b4059eb47b4e312bebd711069b",
-    "parents": "fc3e37e8a46cf0709889d258caeaaff240c06cc0",
-    "subject": "Editorial: Unfold SDO `CoveredAsyncArrowHead`"
+    "date": "2021-03-24T15:58:34-07:00",
+    "hash": "1db56bd859b6bab52e42a8126eeb6446bbfe476f",
+    "parents": "7d7bde4a98c4a4b096bcd06b107dea9c5f380667",
+    "subject": "Editorial: Unfold SDO `CoveredAsyncArrowHead` (#2350)"
    },
    {
-    "adate": "2021-03-17T14:32:33-04:00",
+    "adate": "2021-03-24T15:58:32-07:00",
     "author": "Michael Dyck",
-    "date": "2021-03-17T14:32:33-04:00",
-    "hash": "fc3e37e8a46cf0709889d258caeaaff240c06cc0",
-    "parents": "3f2cb5e3943268d748c9e8421a42973db09ab2c4",
-    "subject": "Editorial: Unfold SDO `CoveredCallExpression`"
+    "date": "2021-03-24T15:58:32-07:00",
+    "hash": "7d7bde4a98c4a4b096bcd06b107dea9c5f380667",
+    "parents": "54d61b8af5bd3ab2faad389e80ddcafe42f3e0d6",
+    "subject": "Editorial: Unfold SDO `CoveredCallExpression` (#2350)"
    },
    {
-    "adate": "2021-03-17T14:21:17-04:00",
+    "adate": "2021-03-24T15:58:26-07:00",
     "author": "Michael Dyck",
-    "date": "2021-03-17T14:21:17-04:00",
-    "hash": "3f2cb5e3943268d748c9e8421a42973db09ab2c4",
-    "parents": "3cd00d74bb6e8b612a426b0b7eb8a85e6c341ac9",
-    "subject": "Editorial: Unfold SDO `CoveredParenthesizedExpression`"
+    "date": "2021-03-24T15:58:26-07:00",
+    "hash": "54d61b8af5bd3ab2faad389e80ddcafe42f3e0d6",
+    "parents": "40279cf89003bd592f22c6bf576f07b72a53b7e6",
+    "subject": "Editorial: Unfold SDO `CoveredParenthesizedExpression` (#2350)"
    }
   ],
   "title": "Editorial: Eliminate `CoveredFoo` SDOs",
-  "updated_at": "2021-03-17T21:33:58Z"
+  "updated_at": "2021-03-24T22:59:43Z"
  },
  {
   "base": "3cd00d74bb6e8b612a426b0b7eb8a85e6c341ac9",
@@ -1068,9 +996,9 @@
   "updated_at": "2020-09-20T23:04:54Z"
  },
  {
-  "base": "416c1ae4f7f30da3d9dd6d88f6fede17acea82b0",
+  "base": "40279cf89003bd592f22c6bf576f07b72a53b7e6",
   "created_at": "2020-08-05T00:10:45Z",
-  "head": "5de916eee04e04e031e2f69013724d8d4e1a6b0d",
+  "head": "5956dae1d07d6dc18bbbf55ca27b3bd5e19f5034",
   "login": "devsnek",
   "number": 2125,
   "ref": "__proto__-shenanigans",
@@ -1078,22 +1006,22 @@
    {
     "adate": "2020-08-04T19:10:20-05:00",
     "author": "Gus Caplan",
-    "date": "2021-03-24T09:24:16-07:00",
-    "hash": "5de916eee04e04e031e2f69013724d8d4e1a6b0d",
-    "parents": "6dea0296f162f3d4b6aa63fb9ff0614f49cdf10c",
+    "date": "2021-03-24T15:54:32-07:00",
+    "hash": "5956dae1d07d6dc18bbbf55ca27b3bd5e19f5034",
+    "parents": "30a0444a251defeeb5c31260b9372c4b258ff679",
     "subject": "Normative: move __proto__ out of annex b (#2125)"
    },
    {
     "adate": "2021-03-24T09:18:02-07:00",
     "author": "Jordan Harband",
-    "date": "2021-03-24T09:24:11-07:00",
-    "hash": "6dea0296f162f3d4b6aa63fb9ff0614f49cdf10c",
-    "parents": "416c1ae4f7f30da3d9dd6d88f6fede17acea82b0",
+    "date": "2021-03-24T15:54:32-07:00",
+    "hash": "30a0444a251defeeb5c31260b9372c4b258ff679",
+    "parents": "40279cf89003bd592f22c6bf576f07b72a53b7e6",
     "subject": "Editorial: add \"Legacy\" section (#2125)"
    }
   ],
   "title": "Normative: move __proto__ out of annex b",
-  "updated_at": "2021-03-24T16:24:33Z"
+  "updated_at": "2021-03-24T23:10:51Z"
  },
  {
   "base": "e4679d4ba196ab5e8959b44468d6a9feb848955c",
