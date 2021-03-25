@@ -76,58 +76,6 @@
   "updated_at": "2021-03-20T03:43:59Z"
  },
  {
-  "base": "40279cf89003bd592f22c6bf576f07b72a53b7e6",
-  "created_at": "2021-03-17T21:31:04Z",
-  "head": "7cea37d366a9aa7561801e9ac027f2d047d3b27f",
-  "login": "jmdyck",
-  "number": 2350,
-  "ref": "Covered_SDOs",
-  "revs": [
-   {
-    "adate": "2021-03-24T15:58:39-07:00",
-    "author": "Michael Dyck",
-    "date": "2021-03-24T15:58:39-07:00",
-    "hash": "7cea37d366a9aa7561801e9ac027f2d047d3b27f",
-    "parents": "b751864939e174657f5b26fa1e7baa824daeac73",
-    "subject": "Editorial: Unfold SDO `CoveredFormalsList` (#2350)"
-   },
-   {
-    "adate": "2021-03-24T15:58:36-07:00",
-    "author": "Michael Dyck",
-    "date": "2021-03-24T15:58:36-07:00",
-    "hash": "b751864939e174657f5b26fa1e7baa824daeac73",
-    "parents": "1db56bd859b6bab52e42a8126eeb6446bbfe476f",
-    "subject": "Editorial: Eliminate one use of SDO `CoveredFormalsList` (#2350)"
-   },
-   {
-    "adate": "2021-03-24T15:58:34-07:00",
-    "author": "Michael Dyck",
-    "date": "2021-03-24T15:58:34-07:00",
-    "hash": "1db56bd859b6bab52e42a8126eeb6446bbfe476f",
-    "parents": "7d7bde4a98c4a4b096bcd06b107dea9c5f380667",
-    "subject": "Editorial: Unfold SDO `CoveredAsyncArrowHead` (#2350)"
-   },
-   {
-    "adate": "2021-03-24T15:58:32-07:00",
-    "author": "Michael Dyck",
-    "date": "2021-03-24T15:58:32-07:00",
-    "hash": "7d7bde4a98c4a4b096bcd06b107dea9c5f380667",
-    "parents": "54d61b8af5bd3ab2faad389e80ddcafe42f3e0d6",
-    "subject": "Editorial: Unfold SDO `CoveredCallExpression` (#2350)"
-   },
-   {
-    "adate": "2021-03-24T15:58:26-07:00",
-    "author": "Michael Dyck",
-    "date": "2021-03-24T15:58:26-07:00",
-    "hash": "54d61b8af5bd3ab2faad389e80ddcafe42f3e0d6",
-    "parents": "40279cf89003bd592f22c6bf576f07b72a53b7e6",
-    "subject": "Editorial: Unfold SDO `CoveredParenthesizedExpression` (#2350)"
-   }
-  ],
-  "title": "Editorial: Eliminate `CoveredFoo` SDOs",
-  "updated_at": "2021-03-24T22:59:43Z"
- },
- {
   "base": "3cd00d74bb6e8b612a426b0b7eb8a85e6c341ac9",
   "created_at": "2021-03-17T00:37:57Z",
   "head": "20f0278913acc36c23abe99170d4e8dc466c2b75",
@@ -996,9 +944,9 @@
   "updated_at": "2020-09-20T23:04:54Z"
  },
  {
-  "base": "40279cf89003bd592f22c6bf576f07b72a53b7e6",
+  "base": "7cea37d366a9aa7561801e9ac027f2d047d3b27f",
   "created_at": "2020-08-05T00:10:45Z",
-  "head": "5956dae1d07d6dc18bbbf55ca27b3bd5e19f5034",
+  "head": "521e75b1d1187ef3e51635d0f8916d3bd6e76d29",
   "login": "devsnek",
   "number": 2125,
   "ref": "__proto__-shenanigans",
@@ -1006,22 +954,22 @@
    {
     "adate": "2020-08-04T19:10:20-05:00",
     "author": "Gus Caplan",
-    "date": "2021-03-24T15:54:32-07:00",
-    "hash": "5956dae1d07d6dc18bbbf55ca27b3bd5e19f5034",
-    "parents": "30a0444a251defeeb5c31260b9372c4b258ff679",
+    "date": "2021-03-24T23:44:12-07:00",
+    "hash": "521e75b1d1187ef3e51635d0f8916d3bd6e76d29",
+    "parents": "24febafa4e489c50f52e0771de59fec0511a93ae",
     "subject": "Normative: move __proto__ out of annex b (#2125)"
    },
    {
     "adate": "2021-03-24T09:18:02-07:00",
     "author": "Jordan Harband",
-    "date": "2021-03-24T15:54:32-07:00",
-    "hash": "30a0444a251defeeb5c31260b9372c4b258ff679",
-    "parents": "40279cf89003bd592f22c6bf576f07b72a53b7e6",
+    "date": "2021-03-24T23:44:12-07:00",
+    "hash": "24febafa4e489c50f52e0771de59fec0511a93ae",
+    "parents": "7cea37d366a9aa7561801e9ac027f2d047d3b27f",
     "subject": "Editorial: add \"Legacy\" section (#2125)"
    }
   ],
   "title": "Normative: move __proto__ out of annex b",
-  "updated_at": "2021-03-24T23:10:51Z"
+  "updated_at": "2021-03-25T06:45:21Z"
  },
  {
   "base": "e4679d4ba196ab5e8959b44468d6a9feb848955c",
