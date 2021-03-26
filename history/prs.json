@@ -1,6 +1,26 @@
 [
  {
   "base": "7cea37d366a9aa7561801e9ac027f2d047d3b27f",
+  "created_at": "2021-03-26T04:31:40Z",
+  "head": "084c4be5f6707167decc1805cf94c656cb6c397d",
+  "login": "h2oche",
+  "number": 2362,
+  "ref": "ClassTail-contains",
+  "revs": [
+   {
+    "adate": "2021-03-26T13:22:54+09:00",
+    "author": "h2oche",
+    "date": "2021-03-26T13:22:54+09:00",
+    "hash": "084c4be5f6707167decc1805cf94c656cb6c397d",
+    "parents": "7cea37d366a9aa7561801e9ac027f2d047d3b27f",
+    "subject": "Editorial: Fix Contains algorithm of ClassTail"
+   }
+  ],
+  "title": "Editorial: Fix Contains algorithm of ClassTail",
+  "updated_at": "2021-03-26T04:50:14Z"
+ },
+ {
+  "base": "7cea37d366a9aa7561801e9ac027f2d047d3b27f",
   "created_at": "2021-03-25T20:55:46Z",
   "head": "1c01ea5eedc2b0b8033f75993b29591174a6f217",
   "login": "ptomato",
