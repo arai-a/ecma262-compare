@@ -1724,80 +1724,88 @@
   "updated_at": "2021-02-26T22:35:11Z"
  },
  {
-  "base": "ba3dcb5680268b2f9aa42a6e22fbc6eec3c9685f",
+  "base": "7cea37d366a9aa7561801e9ac027f2d047d3b27f",
   "created_at": "2019-08-14T13:49:07Z",
-  "head": "94b1af23d6ca075c6635bcd5b96c6450ec580f51",
+  "head": "2e461c94554fa1bb7fd46f35842e5bf28400e2b2",
   "login": "Ms2ger",
   "number": 1668,
   "ref": "static-fields",
   "revs": [
    {
+    "adate": "2021-03-30T13:30:51-03:00",
+    "author": "Caio Lima",
+    "date": "2021-03-30T13:30:51-03:00",
+    "hash": "2e461c94554fa1bb7fd46f35842e5bf28400e2b2",
+    "parents": "c3d193df3c1b12f81620442735f141a2a5e3c5b1",
+    "subject": "Fixing assertion on MakePrivateReference"
+   },
+   {
     "adate": "2021-02-08T16:01:29+01:00",
     "author": "Ms2ger",
-    "date": "2021-02-08T16:01:29+01:00",
-    "hash": "94b1af23d6ca075c6635bcd5b96c6450ec580f51",
-    "parents": "7ac7466ba85a8b6352bf124c9e709cbce171022d",
+    "date": "2021-03-29T11:22:15-03:00",
+    "hash": "c3d193df3c1b12f81620442735f141a2a5e3c5b1",
+    "parents": "5ea406dae1ced4e67a80129d4027e13a83edccb6",
     "subject": "Review fixes."
    },
    {
     "adate": "2021-02-08T15:32:47+01:00",
     "author": "Ms2ger",
-    "date": "2021-02-08T15:32:47+01:00",
-    "hash": "7ac7466ba85a8b6352bf124c9e709cbce171022d",
-    "parents": "c5d202d6170b6ca265aa12e5a28445efcdb2e56e",
+    "date": "2021-03-29T11:22:15-03:00",
+    "hash": "5ea406dae1ced4e67a80129d4027e13a83edccb6",
+    "parents": "205cdc11670e1fa376361404929d4c59137cc8ed",
     "subject": "Review fixes."
    },
    {
     "adate": "2021-02-08T14:35:50+01:00",
     "author": "Ms2ger",
-    "date": "2021-02-08T14:35:50+01:00",
-    "hash": "c5d202d6170b6ca265aa12e5a28445efcdb2e56e",
-    "parents": "091ca9ce4bf492b4ea0c7c77ddd3d08a5cbd6c7e",
+    "date": "2021-03-29T11:22:12-03:00",
+    "hash": "205cdc11670e1fa376361404929d4c59137cc8ed",
+    "parents": "9905db09b55c79ec48606ab2dca954610e039a21",
     "subject": "OrdinaryFunctionCreate"
    },
    {
     "adate": "2021-02-08T12:01:00+01:00",
     "author": "Ms2ger",
-    "date": "2021-02-08T12:01:00+01:00",
-    "hash": "091ca9ce4bf492b4ea0c7c77ddd3d08a5cbd6c7e",
-    "parents": "53322a056748a0473c59b0208bd0a092bdd40b46",
+    "date": "2021-03-29T11:19:02-03:00",
+    "hash": "9905db09b55c79ec48606ab2dca954610e039a21",
+    "parents": "4548ab19e51a7314572b0af0ec563550f30fc434",
     "subject": "Editorial fixes."
    },
    {
     "adate": "2021-02-05T13:11:41-08:00",
     "author": "Jordan Harband",
-    "date": "2021-02-05T13:11:41-08:00",
-    "hash": "53322a056748a0473c59b0208bd0a092bdd40b46",
-    "parents": "eabae8b3cce66ce30fc48fdbb602991270468302",
+    "date": "2021-03-29T11:19:02-03:00",
+    "hash": "4548ab19e51a7314572b0af0ec563550f30fc434",
+    "parents": "ee7dbdeecb6f2d54627ed00d44a5be767060a559",
     "subject": "fixup: more editorial corrections"
    },
    {
     "adate": "2021-02-05T08:03:51-08:00",
     "author": "Jordan Harband",
-    "date": "2021-02-05T08:03:51-08:00",
-    "hash": "eabae8b3cce66ce30fc48fdbb602991270468302",
-    "parents": "ad1a93e0cd1bd4911bb2cf19026a0d59c73a137d",
+    "date": "2021-03-29T11:19:02-03:00",
+    "hash": "ee7dbdeecb6f2d54627ed00d44a5be767060a559",
+    "parents": "f5891ed1d47e25680dd02b896f7a18de7f051fed",
     "subject": "fixup: more editorial corrections"
    },
    {
     "adate": "2021-01-28T12:34:58-08:00",
     "author": "Jordan Harband",
-    "date": "2021-01-28T12:34:58-08:00",
-    "hash": "ad1a93e0cd1bd4911bb2cf19026a0d59c73a137d",
-    "parents": "775a6d7f84807df2d4f411d2ce4f57e2b28c08c8",
+    "date": "2021-03-29T11:19:02-03:00",
+    "hash": "f5891ed1d47e25680dd02b896f7a18de7f051fed",
+    "parents": "822748b1cad531d7a47feb70565253b0f9020eb1",
     "subject": "fixup: errors from #1668"
    },
    {
     "adate": "2019-08-05T11:18:34+02:00",
     "author": "Ms2ger",
-    "date": "2021-01-19T15:17:48+01:00",
-    "hash": "775a6d7f84807df2d4f411d2ce4f57e2b28c08c8",
-    "parents": "ba3dcb5680268b2f9aa42a6e22fbc6eec3c9685f",
+    "date": "2021-03-29T11:18:57-03:00",
+    "hash": "822748b1cad531d7a47feb70565253b0f9020eb1",
+    "parents": "7cea37d366a9aa7561801e9ac027f2d047d3b27f",
     "subject": "Normative: Add public and private class fields, static class features, private methods & getters/setters"
    }
   ],
   "title": "Normative: Add public and private class fields, static class features, private methods & getters/setters",
-  "updated_at": "2021-02-08T15:01:37Z"
+  "updated_at": "2021-03-30T16:32:10Z"
  },
  {
   "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
