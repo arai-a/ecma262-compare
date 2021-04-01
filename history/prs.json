@@ -158,11 +158,19 @@
  {
   "base": "3cd00d74bb6e8b612a426b0b7eb8a85e6c341ac9",
   "created_at": "2021-03-16T00:56:55Z",
-  "head": "9125d655523c606ca1e540099e6fcd5c461a68fd",
+  "head": "c162d7aac90fdee3bb04059e7e090c816fa51668",
   "login": "jmdyck",
   "number": 2348,
   "ref": "CreateDynamicFunction_parse",
   "revs": [
+   {
+    "adate": "2021-03-31T20:31:12-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-03-31T20:31:12-04:00",
+    "hash": "c162d7aac90fdee3bb04059e7e090c816fa51668",
+    "parents": "9125d655523c606ca1e540099e6fcd5c461a68fd",
+    "subject": "squash: Drop NOTE that says ParseText enforces rules"
+   },
    {
     "adate": "2021-03-15T20:02:16-04:00",
     "author": "Michael Dyck",
@@ -173,7 +181,7 @@
    }
   ],
   "title": "Editorial: Simplify CreateDynamicFunction",
-  "updated_at": "2021-03-16T00:57:34Z"
+  "updated_at": "2021-04-01T00:33:08Z"
  },
  {
   "base": "d9e56927df060215f849199fd9055fb39c4213de",
