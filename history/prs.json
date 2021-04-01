@@ -20,24 +20,24 @@
   "updated_at": "2021-04-01T15:40:58Z"
  },
  {
-  "base": "c4c8aaed84900e57baf8ba7b284b37c9d34b4167",
+  "base": "02dcd23cecef50279d3a733792e6e5e9a9b86bf1",
   "created_at": "2021-03-31T14:24:27Z",
-  "head": "254191d7b4816dd6c13e083750a271e4c8bd3965",
+  "head": "a12b4d4420adddb660ecd3e81f3ef737b1b100d8",
   "login": "h2oche",
   "number": 2365,
   "ref": "duplicated-definitions",
   "revs": [
    {
-    "adate": "2021-03-31T23:14:28+09:00",
+    "adate": "2021-04-01T14:44:54-07:00",
     "author": "h2oche",
-    "date": "2021-04-01T16:20:55+09:00",
-    "hash": "254191d7b4816dd6c13e083750a271e4c8bd3965",
-    "parents": "7cea37d366a9aa7561801e9ac027f2d047d3b27f",
-    "subject": "Editorial: Correct usage of 'Let'/'Set' in various algorithms"
+    "date": "2021-04-01T14:44:54-07:00",
+    "hash": "a12b4d4420adddb660ecd3e81f3ef737b1b100d8",
+    "parents": "02dcd23cecef50279d3a733792e6e5e9a9b86bf1",
+    "subject": "Editorial: Correct usage of 'Let'/'Set' in various algorithms (#2365)"
    }
   ],
   "title": "Editorial: Correct usage of 'Let'/'Set' in various algorithms",
-  "updated_at": "2021-04-01T07:22:31Z"
+  "updated_at": "2021-04-01T21:45:07Z"
  },
  {
   "base": "c4c8aaed84900e57baf8ba7b284b37c9d34b4167",
@@ -154,26 +154,6 @@
   ],
   "title": "Editorial: Rename some aliases",
   "updated_at": "2021-04-01T01:19:18Z"
- },
- {
-  "base": "c4c8aaed84900e57baf8ba7b284b37c9d34b4167",
-  "created_at": "2021-03-17T00:37:57Z",
-  "head": "02dcd23cecef50279d3a733792e6e5e9a9b86bf1",
-  "login": "jmdyck",
-  "number": 2349,
-  "ref": "RegExpHasFlag",
-  "revs": [
-   {
-    "adate": "2021-04-01T13:44:56-07:00",
-    "author": "Michael Dyck",
-    "date": "2021-04-01T13:44:56-07:00",
-    "hash": "02dcd23cecef50279d3a733792e6e5e9a9b86bf1",
-    "parents": "c4c8aaed84900e57baf8ba7b284b37c9d34b4167",
-    "subject": "Editorial: Factor out abstract operation RegExpHasFlag (#2349)"
-   }
-  ],
-  "title": "Editorial: Factor out abstract operation RegExpHasFlag",
-  "updated_at": "2021-04-01T20:45:22Z"
  },
  {
   "base": "3cd00d74bb6e8b612a426b0b7eb8a85e6c341ac9",
