@@ -100,9 +100,9 @@
   "updated_at": "2021-03-21T01:00:22Z"
  },
  {
-  "base": "d911ee22b8b976f44c8e63e5a0c58e165222bf30",
+  "base": "c4c8aaed84900e57baf8ba7b284b37c9d34b4167",
   "created_at": "2021-03-20T03:43:59Z",
-  "head": "77ad0dfa8333d4301f39c8c575931ae33af0644a",
+  "head": "fc897abdecc9aeb81f889dd5bf91d35e22404ce6",
   "login": "jmdyck",
   "number": 2353,
   "ref": "rename_aliases",
@@ -110,35 +110,35 @@
    {
     "adate": "2021-03-19T21:16:34-04:00",
     "author": "Michael Dyck",
-    "date": "2021-03-19T21:16:34-04:00",
-    "hash": "77ad0dfa8333d4301f39c8c575931ae33af0644a",
-    "parents": "741ea87b3b99757288c6280bd97b36640164de12",
+    "date": "2021-03-31T21:05:25-04:00",
+    "hash": "fc897abdecc9aeb81f889dd5bf91d35e22404ce6",
+    "parents": "a653b2ce3b3af7449d1d745c02aa306e2ef2c8aa",
     "subject": "Editorial: Rename some script-related aliases"
    },
    {
     "adate": "2021-03-19T17:19:03-04:00",
     "author": "Michael Dyck",
-    "date": "2021-03-19T17:19:03-04:00",
-    "hash": "741ea87b3b99757288c6280bd97b36640164de12",
-    "parents": "343c057bbb34bd11543371db6d341eea9d980b61",
+    "date": "2021-03-31T21:03:57-04:00",
+    "hash": "a653b2ce3b3af7449d1d745c02aa306e2ef2c8aa",
+    "parents": "11694d51bc19d4d398f813f81568d153679e145d",
     "subject": "Editorial: Rename `_scope_` to `_env_` (and similar cases)"
    },
    {
     "adate": "2021-03-19T09:02:45-04:00",
     "author": "Michael Dyck",
-    "date": "2021-03-19T09:02:45-04:00",
-    "hash": "343c057bbb34bd11543371db6d341eea9d980b61",
-    "parents": "d911ee22b8b976f44c8e63e5a0c58e165222bf30",
+    "date": "2021-03-31T21:03:07-04:00",
+    "hash": "11694d51bc19d4d398f813f81568d153679e145d",
+    "parents": "c4c8aaed84900e57baf8ba7b284b37c9d34b4167",
     "subject": "Editorial: Rename `_closure_` to `_function_`"
    }
   ],
   "title": "Editorial: Rename some aliases",
-  "updated_at": "2021-03-20T03:43:59Z"
+  "updated_at": "2021-04-01T01:19:18Z"
  },
  {
-  "base": "3cd00d74bb6e8b612a426b0b7eb8a85e6c341ac9",
+  "base": "c4c8aaed84900e57baf8ba7b284b37c9d34b4167",
   "created_at": "2021-03-17T00:37:57Z",
-  "head": "20f0278913acc36c23abe99170d4e8dc466c2b75",
+  "head": "0b1fb2a7ef891a64b9f3ef83e03980779b985677",
   "login": "jmdyck",
   "number": 2349,
   "ref": "RegExpHasFlag",
@@ -146,14 +146,14 @@
    {
     "adate": "2021-03-16T20:34:36-04:00",
     "author": "Michael Dyck",
-    "date": "2021-03-16T20:34:36-04:00",
-    "hash": "20f0278913acc36c23abe99170d4e8dc466c2b75",
-    "parents": "3cd00d74bb6e8b612a426b0b7eb8a85e6c341ac9",
+    "date": "2021-03-31T20:56:18-04:00",
+    "hash": "0b1fb2a7ef891a64b9f3ef83e03980779b985677",
+    "parents": "c4c8aaed84900e57baf8ba7b284b37c9d34b4167",
     "subject": "Editorial: Factor out abstract operation RegExpHasFlag"
    }
   ],
   "title": "Editorial: Factor out abstract operation RegExpHasFlag",
-  "updated_at": "2021-03-17T00:38:53Z"
+  "updated_at": "2021-04-01T00:59:39Z"
  },
  {
   "base": "3cd00d74bb6e8b612a426b0b7eb8a85e6c341ac9",
