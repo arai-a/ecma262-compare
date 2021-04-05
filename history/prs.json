@@ -1,6 +1,26 @@
 [
  {
   "base": "417a0bb5bc3a6d7117c33cf50803483d9bd7adc1",
+  "created_at": "2021-04-05T10:33:22Z",
+  "head": "317e0119f1bcd9e8c2046a3cc363e197d8dc6f21",
+  "login": "h2oche",
+  "number": 2372,
+  "ref": "YieldExpression-vardef",
+  "revs": [
+   {
+    "adate": "2021-04-05T19:27:43+09:00",
+    "author": "h2oche",
+    "date": "2021-04-05T19:27:43+09:00",
+    "hash": "317e0119f1bcd9e8c2046a3cc363e197d8dc6f21",
+    "parents": "417a0bb5bc3a6d7117c33cf50803483d9bd7adc1",
+    "subject": "Editorial: Minor fix in evaluation of 'YieldExpression'"
+   }
+  ],
+  "title": "Editorial: Minor fix in evaluation of 'YieldExpression'",
+  "updated_at": "2021-04-05T10:33:22Z"
+ },
+ {
+  "base": "417a0bb5bc3a6d7117c33cf50803483d9bd7adc1",
   "created_at": "2021-04-05T00:21:38Z",
   "head": "19a1f033c344ce84a3c9d8500cad26b5c5357db2",
   "login": "tc39",
