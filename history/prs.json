@@ -50,11 +50,19 @@
  {
   "base": "417a0bb5bc3a6d7117c33cf50803483d9bd7adc1",
   "created_at": "2021-04-05T10:33:22Z",
-  "head": "317e0119f1bcd9e8c2046a3cc363e197d8dc6f21",
+  "head": "2200eb7cbf79285600a73adfa459b8d9af4cac06",
   "login": "h2oche",
   "number": 2372,
   "ref": "YieldExpression-vardef",
   "revs": [
+   {
+    "adate": "2021-04-06T13:21:55+09:00",
+    "author": "h2oche",
+    "date": "2021-04-06T13:21:55+09:00",
+    "hash": "2200eb7cbf79285600a73adfa459b8d9af4cac06",
+    "parents": "317e0119f1bcd9e8c2046a3cc363e197d8dc6f21",
+    "subject": "Editorial: Minor fix in [[GetOwnProperty]], [[DefineOwnProperty]] of Arguments Exotic Object"
+   },
    {
     "adate": "2021-04-05T19:27:43+09:00",
     "author": "h2oche",
@@ -64,8 +72,8 @@
     "subject": "Editorial: Minor fix in evaluation of 'YieldExpression'"
    }
   ],
-  "title": "Editorial: Minor fix in evaluation of 'YieldExpression'",
-  "updated_at": "2021-04-05T10:33:22Z"
+  "title": "Editorial: Minor fix in evaluation of 'YieldExpression' and Arguments Exotic Object",
+  "updated_at": "2021-04-06T04:42:17Z"
  },
  {
   "base": "417a0bb5bc3a6d7117c33cf50803483d9bd7adc1",
