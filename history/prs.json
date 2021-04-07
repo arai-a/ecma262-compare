@@ -22,11 +22,19 @@
  {
   "base": "417a0bb5bc3a6d7117c33cf50803483d9bd7adc1",
   "created_at": "2021-04-05T22:46:42Z",
-  "head": "5c5785d2dc8eb075b71777d11986f7c7d9cc9944",
+  "head": "fef780514c6e1d87c4e4016b993247c0a90f3556",
   "login": "tc39",
   "number": 2374,
   "ref": "more-explicit-fn-ctor",
   "revs": [
+   {
+    "adate": "2021-04-07T16:07:39-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-04-07T16:07:39-07:00",
+    "hash": "fef780514c6e1d87c4e4016b993247c0a90f3556",
+    "parents": "5c5785d2dc8eb075b71777d11986f7c7d9cc9944",
+    "subject": "more explicit"
+   },
    {
     "adate": "2021-04-05T18:33:00-07:00",
     "author": "Kevin Gibbons",
@@ -45,7 +53,7 @@
    }
   ],
   "title": "Editorial: more explicit validation in CreateDynamicFunction",
-  "updated_at": "2021-04-06T02:06:14Z"
+  "updated_at": "2021-04-07T23:08:13Z"
  },
  {
   "base": "417a0bb5bc3a6d7117c33cf50803483d9bd7adc1",
@@ -74,34 +82,6 @@
   ],
   "title": "Editorial: Minor fix in evaluation of 'YieldExpression' and Arguments Exotic Object",
   "updated_at": "2021-04-06T04:42:17Z"
- },
- {
-  "base": "417a0bb5bc3a6d7117c33cf50803483d9bd7adc1",
-  "created_at": "2021-04-05T00:21:38Z",
-  "head": "19a1f033c344ce84a3c9d8500cad26b5c5357db2",
-  "login": "tc39",
-  "number": 2369,
-  "ref": "contains-not-ref",
-  "revs": [
-   {
-    "adate": "2021-04-04T18:10:50-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-04-04T18:10:50-07:00",
-    "hash": "19a1f033c344ce84a3c9d8500cad26b5c5357db2",
-    "parents": "a342c3bc1e204c3a11d986396e3a1a65d6e731e1",
-    "subject": "empty commit to trigger CI"
-   },
-   {
-    "adate": "2021-04-04T17:21:16-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-04-04T17:21:16-07:00",
-    "hash": "a342c3bc1e204c3a11d986396e3a1a65d6e731e1",
-    "parents": "417a0bb5bc3a6d7117c33cf50803483d9bd7adc1",
-    "subject": "Editorial: suppress spurious linking of \"Contains\""
-   }
-  ],
-  "title": "Editorial: suppress spurious linking of \"Contains\"",
-  "updated_at": "2021-04-05T01:11:03Z"
  },
  {
   "base": "417a0bb5bc3a6d7117c33cf50803483d9bd7adc1",
@@ -182,26 +162,6 @@
   ],
   "title": "Normative: add error cause",
   "updated_at": "2021-03-21T17:02:19Z"
- },
- {
-  "base": "d911ee22b8b976f44c8e63e5a0c58e165222bf30",
-  "created_at": "2021-03-21T00:36:31Z",
-  "head": "eb51f00887cc0681e538e3f23783bf4a8ac91000",
-  "login": "jmdyck",
-  "number": 2355,
-  "ref": "RequireInternalSlot",
-  "revs": [
-   {
-    "adate": "2021-03-20T20:33:26-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-03-20T20:33:26-04:00",
-    "hash": "eb51f00887cc0681e538e3f23783bf4a8ac91000",
-    "parents": "d911ee22b8b976f44c8e63e5a0c58e165222bf30",
-    "subject": "Editorial: Have RequireInternalSlot return the object"
-   }
-  ],
-  "title": "Editorial: Have RequireInternalSlot return the object",
-  "updated_at": "2021-03-21T01:00:22Z"
  },
  {
   "base": "c4c8aaed84900e57baf8ba7b284b37c9d34b4167",
