@@ -1,6 +1,46 @@
 [
  {
   "base": "26061c0e5e4b62fae91a7127b46c1efa8b94c4b4",
+  "created_at": "2021-04-09T09:01:50Z",
+  "head": "7f0832c307db2b7081b694b284168b849e08caab",
+  "login": "h2oche",
+  "number": 2380,
+  "ref": "PromiseCapabilityRecord",
+  "revs": [
+   {
+    "adate": "2021-04-09T17:58:07+09:00",
+    "author": "h2oche",
+    "date": "2021-04-09T17:58:07+09:00",
+    "hash": "7f0832c307db2b7081b694b284168b849e08caab",
+    "parents": "26061c0e5e4b62fae91a7127b46c1efa8b94c4b4",
+    "subject": "Editorial: More info in 'PromiseCapability Record' table"
+   }
+  ],
+  "title": "Editorial: More info in 'PromiseCapability Record' table",
+  "updated_at": "2021-04-09T09:01:50Z"
+ },
+ {
+  "base": "26061c0e5e4b62fae91a7127b46c1efa8b94c4b4",
+  "created_at": "2021-04-09T08:22:19Z",
+  "head": "787d2ee1adeeb71fac267c291db5be47f493154d",
+  "login": "h2oche",
+  "number": 2379,
+  "ref": "OrdinaryCreateFromConstructor",
+  "revs": [
+   {
+    "adate": "2021-04-09T17:19:34+09:00",
+    "author": "h2oche",
+    "date": "2021-04-09T17:31:58+09:00",
+    "hash": "787d2ee1adeeb71fac267c291db5be47f493154d",
+    "parents": "26061c0e5e4b62fae91a7127b46c1efa8b94c4b4",
+    "subject": "Editorial: Explictly define 'internalSlotsList' in OrdinaryCreateFromConstructor"
+   }
+  ],
+  "title": "Editorial: Explicitly define default value of 'internalSlotsList' in OrdinaryCreateFromConstructor",
+  "updated_at": "2021-04-09T08:32:07Z"
+ },
+ {
+  "base": "26061c0e5e4b62fae91a7127b46c1efa8b94c4b4",
   "created_at": "2021-04-09T03:49:46Z",
   "head": "78be7530a634c978a9b12fb015c8ff88aab346d8",
   "login": "jmdyck",
