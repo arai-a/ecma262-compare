@@ -106,11 +106,19 @@
  {
   "base": "417a0bb5bc3a6d7117c33cf50803483d9bd7adc1",
   "created_at": "2021-04-05T22:46:42Z",
-  "head": "fef780514c6e1d87c4e4016b993247c0a90f3556",
+  "head": "ccb11af4852cd31ef3ca13023ea8046104fd3e6e",
   "login": "tc39",
   "number": 2374,
   "ref": "more-explicit-fn-ctor",
   "revs": [
+   {
+    "adate": "2021-04-08T22:01:46-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-04-08T22:01:46-07:00",
+    "hash": "ccb11af4852cd31ef3ca13023ea8046104fd3e6e",
+    "parents": "fef780514c6e1d87c4e4016b993247c0a90f3556",
+    "subject": "add example"
+   },
    {
     "adate": "2021-04-07T16:07:39-07:00",
     "author": "Kevin Gibbons",
@@ -137,7 +145,7 @@
    }
   ],
   "title": "Editorial: more explicit validation in CreateDynamicFunction",
-  "updated_at": "2021-04-07T23:08:13Z"
+  "updated_at": "2021-04-09T05:02:02Z"
  },
  {
   "base": "417a0bb5bc3a6d7117c33cf50803483d9bd7adc1",
