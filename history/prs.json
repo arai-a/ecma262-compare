@@ -2,11 +2,19 @@
  {
   "base": "26061c0e5e4b62fae91a7127b46c1efa8b94c4b4",
   "created_at": "2021-04-14T00:42:52Z",
-  "head": "599147ca2a97a13dd8acb85df237dcec8f417a35",
+  "head": "0ec8ba8e6973001a50ac5779e4e3a1b072c7103d",
   "login": "jmdyck",
   "number": 2386,
   "ref": "FooCompletion_ao",
   "revs": [
+   {
+    "adate": "2021-04-13T22:11:44-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-04-13T22:11:44-04:00",
+    "hash": "0ec8ba8e6973001a50ac5779e4e3a1b072c7103d",
+    "parents": "599147ca2a97a13dd8acb85df237dcec8f417a35",
+    "subject": "squash: be coy about NormalCompletion's input type"
+   },
    {
     "adate": "2021-04-13T20:35:09-04:00",
     "author": "Michael Dyck",
@@ -17,7 +25,7 @@
    }
   ],
   "title": "Editorial: Recast NormalCompletion + ThrowCompletion",
-  "updated_at": "2021-04-14T01:03:25Z"
+  "updated_at": "2021-04-14T02:13:00Z"
  },
  {
   "base": "26061c0e5e4b62fae91a7127b46c1efa8b94c4b4",
