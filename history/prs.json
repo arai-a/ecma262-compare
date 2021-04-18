@@ -2,11 +2,19 @@
  {
   "base": "26061c0e5e4b62fae91a7127b46c1efa8b94c4b4",
   "created_at": "2021-04-18T03:11:47Z",
-  "head": "bb9ccd20759a8dda82b3cff63c8fe39738559791",
+  "head": "7fa12ef75ba3c02277f59e19d0af342daef859d1",
   "login": "jmdyck",
   "number": 2391,
   "ref": "REI_step_14",
   "revs": [
+   {
+    "adate": "2021-04-17T23:53:29-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-04-17T23:53:29-04:00",
+    "hash": "7fa12ef75ba3c02277f59e19d0af342daef859d1",
+    "parents": "bb9ccd20759a8dda82b3cff63c8fe39738559791",
+    "subject": "fixup: add NOTE after step 13"
+   },
    {
     "adate": "2021-04-17T22:58:55-04:00",
     "author": "Michael Dyck",
@@ -17,7 +25,7 @@
    }
   ],
   "title": "Editorial: Simplify RegExpInitialize (step 14)",
-  "updated_at": "2021-04-18T03:11:47Z"
+  "updated_at": "2021-04-18T03:55:56Z"
  },
  {
   "base": "26061c0e5e4b62fae91a7127b46c1efa8b94c4b4",
