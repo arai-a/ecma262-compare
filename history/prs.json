@@ -1,6 +1,42 @@
 [
  {
   "base": "26061c0e5e4b62fae91a7127b46c1efa8b94c4b4",
+  "created_at": "2021-04-24T03:57:41Z",
+  "head": "458dd79d3c183d597b4b70d04fb49b8944245fbd",
+  "login": "jmdyck",
+  "number": 2392,
+  "ref": "IdentifierCodePoints",
+  "revs": [
+   {
+    "adate": "2021-04-23T23:49:12-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-04-23T23:49:12-04:00",
+    "hash": "458dd79d3c183d597b4b70d04fb49b8944245fbd",
+    "parents": "8478a51a0066c8a0ae0675214b22af3cbffe9acb",
+    "subject": "Editorial: Move 2 paragraphs down one level"
+   },
+   {
+    "adate": "2021-04-23T23:20:11-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-04-23T23:27:17-04:00",
+    "hash": "8478a51a0066c8a0ae0675214b22af3cbffe9acb",
+    "parents": "cec1c39aab7d80accb602295331100b3638428fd",
+    "subject": "Editorial: Introduce [RegExp]IdentifierCodePoint[s] SDOs"
+   },
+   {
+    "adate": "2021-04-11T20:23:26-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-04-22T10:36:36-04:00",
+    "hash": "cec1c39aab7d80accb602295331100b3638428fd",
+    "parents": "26061c0e5e4b62fae91a7127b46c1efa8b94c4b4",
+    "subject": "Editorial: Introduce `IdentifierStartChar` + `IdentifierPartChar`"
+   }
+  ],
+  "title": "Editorial: Improve specification of [RegExp]IdentifierNames",
+  "updated_at": "2021-04-24T03:57:41Z"
+ },
+ {
+  "base": "26061c0e5e4b62fae91a7127b46c1efa8b94c4b4",
   "created_at": "2021-04-18T03:11:47Z",
   "head": "7fa12ef75ba3c02277f59e19d0af342daef859d1",
   "login": "jmdyck",
