@@ -1,5 +1,25 @@
 [
  {
+  "base": "c75497982a8c07e83a13cc5d7d80cdaaa8a337bd",
+  "created_at": "2021-04-29T00:07:17Z",
+  "head": "4e44be67d4b6f0d98aed8aa1e4eff14169390eff",
+  "login": "tc39",
+  "number": 2397,
+  "ref": "return",
+  "revs": [
+   {
+    "adate": "2021-04-28T17:03:38-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-04-28T17:03:43-07:00",
+    "hash": "4e44be67d4b6f0d98aed8aa1e4eff14169390eff",
+    "parents": "c75497982a8c07e83a13cc5d7d80cdaaa8a337bd",
+    "subject": "Editorial: describe behavior for algorithms without a \"Return\""
+   }
+  ],
+  "title": "Editorial: describe behavior for algorithms without a \"Return\"",
+  "updated_at": "2021-04-29T00:07:17Z"
+ },
+ {
   "base": "26061c0e5e4b62fae91a7127b46c1efa8b94c4b4",
   "created_at": "2021-04-26T22:45:32Z",
   "head": "9d7bbbebce209d2039aa9acf54a1c6f46e3cabfe",
@@ -314,58 +334,6 @@
   ],
   "title": "Editorial: Split the \"TV and TRV\" clause into 2 clauses",
   "updated_at": "2021-04-06T03:22:45Z"
- },
- {
-  "base": "417a0bb5bc3a6d7117c33cf50803483d9bd7adc1",
-  "created_at": "2021-04-05T22:46:42Z",
-  "head": "c263627b57090698672ec74c1dd5f5d6d026f113",
-  "login": "tc39",
-  "number": 2374,
-  "ref": "more-explicit-fn-ctor",
-  "revs": [
-   {
-    "adate": "2021-04-09T09:05:21-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-04-09T09:05:21-07:00",
-    "hash": "c263627b57090698672ec74c1dd5f5d6d026f113",
-    "parents": "ccb11af4852cd31ef3ca13023ea8046104fd3e6e",
-    "subject": "apply suggestion"
-   },
-   {
-    "adate": "2021-04-08T22:01:46-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-04-08T22:01:46-07:00",
-    "hash": "ccb11af4852cd31ef3ca13023ea8046104fd3e6e",
-    "parents": "fef780514c6e1d87c4e4016b993247c0a90f3556",
-    "subject": "add example"
-   },
-   {
-    "adate": "2021-04-07T16:07:39-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-04-07T16:07:39-07:00",
-    "hash": "fef780514c6e1d87c4e4016b993247c0a90f3556",
-    "parents": "5c5785d2dc8eb075b71777d11986f7c7d9cc9944",
-    "subject": "more explicit"
-   },
-   {
-    "adate": "2021-04-05T18:33:00-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-04-05T18:33:00-07:00",
-    "hash": "5c5785d2dc8eb075b71777d11986f7c7d9cc9944",
-    "parents": "afb92eadf935ca52c0cf723868bc288e440571d7",
-    "subject": "fixup! capitalization"
-   },
-   {
-    "adate": "2021-04-05T15:45:43-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-04-05T15:45:43-07:00",
-    "hash": "afb92eadf935ca52c0cf723868bc288e440571d7",
-    "parents": "417a0bb5bc3a6d7117c33cf50803483d9bd7adc1",
-    "subject": "Editorial: more explicit validation in CreateDynamicFunction"
-   }
-  ],
-  "title": "Editorial: more explicit validation in CreateDynamicFunction",
-  "updated_at": "2021-04-09T16:17:51Z"
  },
  {
   "base": "417a0bb5bc3a6d7117c33cf50803483d9bd7adc1",
