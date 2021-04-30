@@ -30,11 +30,19 @@
  {
   "base": "c75497982a8c07e83a13cc5d7d80cdaaa8a337bd",
   "created_at": "2021-04-29T00:07:17Z",
-  "head": "f126c1697e98ba737f23d5e73b04d81e3532c5ae",
+  "head": "3443b6b46c1c21b70bb3bf54df79741331ad0a84",
   "login": "tc39",
   "number": 2397,
   "ref": "return",
   "revs": [
+   {
+    "adate": "2021-04-29T20:28:12-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-04-29T20:28:12-07:00",
+    "hash": "3443b6b46c1c21b70bb3bf54df79741331ad0a84",
+    "parents": "f126c1697e98ba737f23d5e73b04d81e3532c5ae",
+    "subject": "partially address jmdyck's comments"
+   },
    {
     "adate": "2021-04-29T13:03:52-07:00",
     "author": "Kevin Gibbons",
@@ -53,7 +61,7 @@
    }
   ],
   "title": "Editorial: describe behavior for algorithms without a \"Return\"",
-  "updated_at": "2021-04-29T20:04:06Z"
+  "updated_at": "2021-04-30T03:28:25Z"
  },
  {
   "base": "26061c0e5e4b62fae91a7127b46c1efa8b94c4b4",
