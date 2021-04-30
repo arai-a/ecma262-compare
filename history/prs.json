@@ -476,9 +476,9 @@
   "updated_at": "2021-04-16T07:30:20Z"
  },
  {
-  "base": "c4c8aaed84900e57baf8ba7b284b37c9d34b4167",
+  "base": "c75497982a8c07e83a13cc5d7d80cdaaa8a337bd",
   "created_at": "2021-03-20T03:43:59Z",
-  "head": "fc897abdecc9aeb81f889dd5bf91d35e22404ce6",
+  "head": "40d89a34f9cc265d89c644abc30f8803cdc5f99a",
   "login": "jmdyck",
   "number": 2353,
   "ref": "rename_aliases",
@@ -486,30 +486,22 @@
    {
     "adate": "2021-03-19T21:16:34-04:00",
     "author": "Michael Dyck",
-    "date": "2021-03-31T21:05:25-04:00",
-    "hash": "fc897abdecc9aeb81f889dd5bf91d35e22404ce6",
-    "parents": "a653b2ce3b3af7449d1d745c02aa306e2ef2c8aa",
-    "subject": "Editorial: Rename some script-related aliases"
+    "date": "2021-04-30T00:16:46-04:00",
+    "hash": "40d89a34f9cc265d89c644abc30f8803cdc5f99a",
+    "parents": "94c7da62ef819338e5ce507831b2c5cff22ed01a",
+    "subject": "Editorial: Rename some script-related aliases (#2353)"
    },
    {
     "adate": "2021-03-19T17:19:03-04:00",
     "author": "Michael Dyck",
-    "date": "2021-03-31T21:03:57-04:00",
-    "hash": "a653b2ce3b3af7449d1d745c02aa306e2ef2c8aa",
-    "parents": "11694d51bc19d4d398f813f81568d153679e145d",
-    "subject": "Editorial: Rename `_scope_` to `_env_` (and similar cases)"
-   },
-   {
-    "adate": "2021-03-19T09:02:45-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-03-31T21:03:07-04:00",
-    "hash": "11694d51bc19d4d398f813f81568d153679e145d",
-    "parents": "c4c8aaed84900e57baf8ba7b284b37c9d34b4167",
-    "subject": "Editorial: Rename `_closure_` to `_function_`"
+    "date": "2021-04-30T00:16:28-04:00",
+    "hash": "94c7da62ef819338e5ce507831b2c5cff22ed01a",
+    "parents": "c75497982a8c07e83a13cc5d7d80cdaaa8a337bd",
+    "subject": "Editorial: Rename `_scope_` to `_env_` (and similar cases) (#2353)"
    }
   ],
   "title": "Editorial: Rename some aliases",
-  "updated_at": "2021-04-01T01:19:18Z"
+  "updated_at": "2021-04-30T04:21:23Z"
  },
  {
   "base": "d9e56927df060215f849199fd9055fb39c4213de",
