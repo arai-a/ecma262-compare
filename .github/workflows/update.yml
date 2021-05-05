@@ -57,83 +57,86 @@ jobs:
 
     # ==== Bootstrap for posting PR status ====
 
-    - name: Get pr-status hash
-      run: |
-        curl \
-        --url https://api.github.com/repos/${{ github.repository }}/branches/pr-status \
-        --header 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}' \
-        --header 'content-type: application/json' | \
-        python -c 'import sys; import json; print("##[set-output name=sha;]{}".format(json.loads(sys.stdin.read())["commit"]["sha"]))'
-      id: status_hash
-    - name: Download pr-status Bootstrap
-      run: |
-        curl -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.status_hash.outputs.sha}}/Makefile
-        curl -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.status_hash.outputs.sha}}/build.py
-        curl -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.status_hash.outputs.sha}}/config.json
-        curl -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.status_hash.outputs.sha}}/pr-status.json
-    - name: Run pr-status Bootstrap
-      run: make bootstrap
-      id: status_bootstrap
-    - name: Remove pr-status Bootstrap
-      run: |
-        rm Makefile
-        rm build.py
-        rm config.json
-        rm pr-status.json
+    #- name: Get pr-status hash
+    #  run: |
+    #    curl \
+    #    --url https://api.github.com/repos/${{ github.repository }}/branches/pr-status \
+    #    --header 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}' \
+    #    --header 'content-type: application/json' | \
+    #    python -c 'import sys; import json; print("##[set-output name=sha;]{}".format(json.loads(sys.stdin.read())["commit"]["sha"]))'
+    #  id: status_hash
+    #- name: Download pr-status Bootstrap
+    #  run: |
+    #    curl -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.status_hash.outputs.sha}}/Makefile
+    #    curl -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.status_hash.outputs.sha}}/build.py
+    #    curl -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.status_hash.outputs.sha}}/config.json
+    #    curl -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.status_hash.outputs.sha}}/pr-status.json
+    #- name: Run pr-status Bootstrap
+    #  run: make bootstrap
+    #  id: status_bootstrap
+    #- name: Remove pr-status Bootstrap
+    #  run: |
+    #    rm Makefile
+    #    rm build.py
+    #    rm config.json
+    #    rm pr-status.json
 
     # ==== Checkout if history or PR status needs to be updated ====
 
     - name: Checkout
-      if: steps.pages_bootstrap.outputs.update == 'Yes' || steps.status_bootstrap.outputs.update == 'Yes'
+      #if: steps.pages_bootstrap.outputs.update == 'Yes' || steps.status_bootstrap.outputs.update == 'Yes'
+      if: steps.pages_bootstrap.outputs.update == 'Yes'
       uses: actions/checkout@v1
       with:
         ref: gh-pages
     - name: Set Git Profile
-      if: steps.pages_bootstrap.outputs.update == 'Yes' || steps.status_bootstrap.outputs.update == 'Yes'
+      #if: steps.pages_bootstrap.outputs.update == 'Yes' || steps.status_bootstrap.outputs.update == 'Yes'
+      if: steps.pages_bootstrap.outputs.update == 'Yes'
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
     - name: Setup virtualenv
-      if: steps.pages_bootstrap.outputs.update == 'Yes' || steps.status_bootstrap.outputs.update == 'Yes'
+      #if: steps.pages_bootstrap.outputs.update == 'Yes' || steps.status_bootstrap.outputs.update == 'Yes'
+      if: steps.pages_bootstrap.outputs.update == 'Yes'
       run: make py-venv
 
     # ==== Post PR status for previous update ====
 
-    - name: Checkout pr-status
-      if: steps.status_bootstrap.outputs.update == 'Yes'
-      run: |
-        git checkout pr-status
+    #- name: Checkout pr-status
+    #  if: steps.status_bootstrap.outputs.update == 'Yes'
+    #  run: |
+    #    git checkout pr-status
     #### disable for now
     #- name: Post PR status
     #  if: steps.status_bootstrap.outputs.update == 'Yes'
     #  run: make post
     #  env:
     #    POST_TOKEN: ${{secrets.POST_TOKEN}}
-    - name: Commit PR status JSON
-      if: steps.status_bootstrap.outputs.update == 'Yes'
-      run: |
-        git add pr-status.json
-        set +e
-        git diff --cached --quiet
-        echo "##[set-output name=modified;]$?"
-        set -e
-      id: status_post
-    - name: Commit PR status JSON
-      if: steps.status_post.outputs.modified == '1'
-      run: |
-        git commit -m "Post PR status"
-    - name: Push PR status JSON changes
-      if: steps.status_post.outputs.modified == '1'
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: pr-status
-        force: false
+    #- name: Commit PR status JSON
+    #  if: steps.status_bootstrap.outputs.update == 'Yes'
+    #  run: |
+    #    git add pr-status.json
+    #    set +e
+    #    git diff --cached --quiet
+    #    echo "##[set-output name=modified;]$?"
+    #    set -e
+    #  id: status_post
+    #- name: Commit PR status JSON
+    #  if: steps.status_post.outputs.modified == '1'
+    #  run: |
+    #    git commit -m "Post PR status"
+    #- name: Push PR status JSON changes
+    #  if: steps.status_post.outputs.modified == '1'
+    #  uses: ad-m/github-push-action@master
+    #  with:
+    #    github_token: ${{ secrets.GITHUB_TOKEN }}
+    #    branch: pr-status
+    #    force: false
 
-    - name: Checkout gh-pages
-      if: steps.status_bootstrap.outputs.update == 'Yes'
-      run: |
-        git checkout gh-pages
+    #- name: Checkout gh-pages
+    #  if: steps.status_bootstrap.outputs.update == 'Yes'
+    #  run: |
+    #    git checkout gh-pages
 
     # ==== Update history ====
 
