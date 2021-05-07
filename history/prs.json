@@ -2258,11 +2258,19 @@
  {
   "base": "26061c0e5e4b62fae91a7127b46c1efa8b94c4b4",
   "created_at": "2019-08-14T13:49:07Z",
-  "head": "f429e6d7c9e9992fad633022fa775c31879d22c6",
+  "head": "7cd9086b5bb1a1f622502dd5f8f2f20e1abe6205",
   "login": "Ms2ger",
   "number": 1668,
   "ref": "static-fields",
   "revs": [
+   {
+    "adate": "2021-05-07T15:22:28-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-05-07T15:22:28-07:00",
+    "hash": "7cd9086b5bb1a1f622502dd5f8f2f20e1abe6205",
+    "parents": "f429e6d7c9e9992fad633022fa775c31879d22c6",
+    "subject": "Editorial: rephrase assertion"
+   },
    {
     "adate": "2021-05-07T14:11:17-07:00",
     "author": "Kevin Gibbons",
@@ -2545,7 +2553,7 @@
    }
   ],
   "title": "Normative: Add public and private class fields, static class features, private methods & getters/setters",
-  "updated_at": "2021-05-07T21:43:56Z"
+  "updated_at": "2021-05-07T22:22:39Z"
  },
  {
   "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
