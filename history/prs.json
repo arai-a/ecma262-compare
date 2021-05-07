@@ -2258,11 +2258,27 @@
  {
   "base": "26061c0e5e4b62fae91a7127b46c1efa8b94c4b4",
   "created_at": "2019-08-14T13:49:07Z",
-  "head": "24227bcadcec7b4536262baf7483f25501fb52f0",
+  "head": "f429e6d7c9e9992fad633022fa775c31879d22c6",
   "login": "Ms2ger",
   "number": 1668,
   "ref": "static-fields",
   "revs": [
+   {
+    "adate": "2021-05-07T14:11:17-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-05-07T14:11:17-07:00",
+    "hash": "f429e6d7c9e9992fad633022fa775c31879d22c6",
+    "parents": "214d6eae96bfa37b9eafc1a4f99241b6555ddaa7",
+    "subject": "Editorial: drop NewPrivateName"
+   },
+   {
+    "adate": "2021-05-07T14:07:15-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-05-07T14:07:15-07:00",
+    "hash": "214d6eae96bfa37b9eafc1a4f99241b6555ddaa7",
+    "parents": "24227bcadcec7b4536262baf7483f25501fb52f0",
+    "subject": "Editorial: rephrase Private Name uniqueness"
+   },
    {
     "adate": "2021-05-06T22:51:14-07:00",
     "author": "Kevin Gibbons",
@@ -2529,7 +2545,7 @@
    }
   ],
   "title": "Normative: Add public and private class fields, static class features, private methods & getters/setters",
-  "updated_at": "2021-05-07T05:54:56Z"
+  "updated_at": "2021-05-07T21:43:56Z"
  },
  {
   "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
