@@ -724,9 +724,9 @@
   "updated_at": "2021-02-10T15:55:26Z"
  },
  {
-  "base": "26061c0e5e4b62fae91a7127b46c1efa8b94c4b4",
+  "base": "c75497982a8c07e83a13cc5d7d80cdaaa8a337bd",
   "created_at": "2021-01-27T22:19:35Z",
-  "head": "da72c3932cbaa2d7efc7f89ca224b859c17b6227",
+  "head": "4ad6933e03d8ee9f18f0e248ba1d3abf850e1418",
   "login": "ljharb",
   "number": 2290,
   "ref": "private-fields-in-in",
@@ -734,10 +734,154 @@
    {
     "adate": "2021-01-27T14:15:07-08:00",
     "author": "Jordan Harband",
-    "date": "2021-04-26T20:24:31-07:00",
-    "hash": "da72c3932cbaa2d7efc7f89ca224b859c17b6227",
-    "parents": "cf6c2cb4781e9deb6bcd2067957b2b0b5fff66cb",
+    "date": "2021-05-06T20:10:04-07:00",
+    "hash": "4ad6933e03d8ee9f18f0e248ba1d3abf850e1418",
+    "parents": "866d7dead72b0eea71b8a5b6bf3dc1cd5f817184",
     "subject": "Normative: add `#x in obj` syntax (#2290)"
+   },
+   {
+    "adate": "2021-05-06T20:02:57-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-05-06T20:02:57-07:00",
+    "hash": "866d7dead72b0eea71b8a5b6bf3dc1cd5f817184",
+    "parents": "768cd9375811e08f450562c102a217b81898aad3",
+    "subject": "Editorial: add preambles"
+   },
+   {
+    "adate": "2021-05-06T19:46:57-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-05-06T19:46:57-07:00",
+    "hash": "768cd9375811e08f450562c102a217b81898aad3",
+    "parents": "cec833d7d6fd0625b7adca535aa21c26ba5a8e78",
+    "subject": "Editorial: define HasCallInTailPosition for new OptionalChain productions"
+   },
+   {
+    "adate": "2021-05-06T19:38:20-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-05-06T19:38:20-07:00",
+    "hash": "cec833d7d6fd0625b7adca535aa21c26ba5a8e78",
+    "parents": "0e59f3d8f5891a409aa1bbd25ba3c199429575d5",
+    "subject": "fixup! typo"
+   },
+   {
+    "adate": "2021-05-06T19:37:52-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-05-06T19:37:52-07:00",
+    "hash": "0e59f3d8f5891a409aa1bbd25ba3c199429575d5",
+    "parents": "a1d2b439aea11fd4a4ebc4ed45ece2217cab4346",
+    "subject": "Editorial: fix up named evaluation usage"
+   },
+   {
+    "adate": "2021-05-06T19:29:32-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-05-06T19:29:32-07:00",
+    "hash": "a1d2b439aea11fd4a4ebc4ed45ece2217cab4346",
+    "parents": "ba31b69717a2bdb6a3b4b1863e6e71ba78491ac8",
+    "subject": "Editorial: rename NonConstructorMethodDefinitions to NonConstructorElements"
+   },
+   {
+    "adate": "2021-05-06T18:20:55-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-05-06T18:20:55-07:00",
+    "hash": "ba31b69717a2bdb6a3b4b1863e6e71ba78491ac8",
+    "parents": "d859102ee4616af69b588d753ffca20087c12168",
+    "subject": "Editorial: skip a layer of indirection in calling MethodDefinitionEvaluation"
+   },
+   {
+    "adate": "2021-05-06T18:17:27-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-05-06T18:17:27-07:00",
+    "hash": "d859102ee4616af69b588d753ffca20087c12168",
+    "parents": "a2d8a492f01ba06a239bd0a5a4ce7615aba55185",
+    "subject": "Normative: fix AllPrivateIdentifiersValid"
+   },
+   {
+    "adate": "2021-05-06T18:15:59-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-05-06T18:15:59-07:00",
+    "hash": "a2d8a492f01ba06a239bd0a5a4ce7615aba55185",
+    "parents": "3d11fee2dce9c54a9429ada1f88334adfaa6e753",
+    "subject": "Editorial: minor consistency fixes"
+   },
+   {
+    "adate": "2021-05-06T18:13:52-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-05-06T18:13:52-07:00",
+    "hash": "3d11fee2dce9c54a9429ada1f88334adfaa6e753",
+    "parents": "084ccc0202a2cae44f736b87dd5cc191afe38185",
+    "subject": "Editorial: indentation"
+   },
+   {
+    "adate": "2021-05-06T18:13:00-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-05-06T18:13:00-07:00",
+    "hash": "084ccc0202a2cae44f736b87dd5cc191afe38185",
+    "parents": "827faba3daa1cea00dd6e013688e6ab73d85b480",
+    "subject": "Editorial: drop grammar parameters from SDO"
+   },
+   {
+    "adate": "2021-05-06T18:12:10-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-05-06T18:12:10-07:00",
+    "hash": "827faba3daa1cea00dd6e013688e6ab73d85b480",
+    "parents": "f8da1209f99f7fa6718f12acc01f659b5cdf9a8a",
+    "subject": "Editorial: consistent phrasing for list containment"
+   },
+   {
+    "adate": "2021-05-06T18:10:36-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-05-06T18:10:36-07:00",
+    "hash": "f8da1209f99f7fa6718f12acc01f659b5cdf9a8a",
+    "parents": "f7c7ad1eb9e3a8f1c8a1bc8085e614dfe1d99df2",
+    "subject": "Editorial: rename an alias to avoid conflicts"
+   },
+   {
+    "adate": "2021-05-06T18:04:03-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-05-06T18:04:03-07:00",
+    "hash": "f7c7ad1eb9e3a8f1c8a1bc8085e614dfe1d99df2",
+    "parents": "862c60267d97534d1be778d479b1b39a128235c6",
+    "subject": "Editorial: tweak steps for consistency"
+   },
+   {
+    "adate": "2021-05-06T18:03:18-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-05-06T18:03:18-07:00",
+    "hash": "862c60267d97534d1be778d479b1b39a128235c6",
+    "parents": "d6330c6d7f0957fe7c88b276f5085b98234e0f00",
+    "subject": "Editorial: drop redundant type assertions"
+   },
+   {
+    "adate": "2021-05-06T18:02:29-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-05-06T18:02:29-07:00",
+    "hash": "d6330c6d7f0957fe7c88b276f5085b98234e0f00",
+    "parents": "fa2a42430b32a0f074906f68d6d078fd09d8d8cc",
+    "subject": "Editorial: fixup call to OrdinaryFunctionCreate"
+   },
+   {
+    "adate": "2021-04-30T12:06:38-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-05-06T17:44:29-07:00",
+    "hash": "fa2a42430b32a0f074906f68d6d078fd09d8d8cc",
+    "parents": "558a63cbec0e6d0de22091664de3f17e0e4eccd7",
+    "subject": "Editorial: make PrivateEnvironment its own type"
+   },
+   {
+    "adate": "2021-04-29T14:44:41-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-05-06T17:43:13-07:00",
+    "hash": "558a63cbec0e6d0de22091664de3f17e0e4eccd7",
+    "parents": "9de9d4cfadf424447f51a4d78a5b6f457dd54592",
+    "subject": "Editorial: model private methods as private fields"
+   },
+   {
+    "adate": "2021-05-05T17:46:46-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-05-06T17:35:04-07:00",
+    "hash": "9de9d4cfadf424447f51a4d78a5b6f457dd54592",
+    "parents": "cf6c2cb4781e9deb6bcd2067957b2b0b5fff66cb",
+    "subject": "Normative: use NamedEvaluation when initializing fields"
    },
    {
     "adate": "2021-04-26T16:24:08-03:00",
@@ -845,7 +989,7 @@
    }
   ],
   "title": "Normative: add `#x in obj` syntax",
-  "updated_at": "2021-04-27T03:24:47Z"
+  "updated_at": "2021-05-07T03:10:15Z"
  },
  {
   "base": "7dab9506c5c43d241842bc1b841de6b3d58992fb",
@@ -2114,11 +2258,27 @@
  {
   "base": "26061c0e5e4b62fae91a7127b46c1efa8b94c4b4",
   "created_at": "2019-08-14T13:49:07Z",
-  "head": "cec833d7d6fd0625b7adca535aa21c26ba5a8e78",
+  "head": "866d7dead72b0eea71b8a5b6bf3dc1cd5f817184",
   "login": "Ms2ger",
   "number": 1668,
   "ref": "static-fields",
   "revs": [
+   {
+    "adate": "2021-05-06T20:02:57-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-05-06T20:02:57-07:00",
+    "hash": "866d7dead72b0eea71b8a5b6bf3dc1cd5f817184",
+    "parents": "768cd9375811e08f450562c102a217b81898aad3",
+    "subject": "Editorial: add preambles"
+   },
+   {
+    "adate": "2021-05-06T19:46:57-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-05-06T19:46:57-07:00",
+    "hash": "768cd9375811e08f450562c102a217b81898aad3",
+    "parents": "cec833d7d6fd0625b7adca535aa21c26ba5a8e78",
+    "subject": "Editorial: define HasCallInTailPosition for new OptionalChain productions"
+   },
    {
     "adate": "2021-05-06T19:38:20-07:00",
     "author": "Kevin Gibbons",
@@ -2353,7 +2513,7 @@
    }
   ],
   "title": "Normative: Add public and private class fields, static class features, private methods & getters/setters",
-  "updated_at": "2021-05-07T02:40:39Z"
+  "updated_at": "2021-05-07T03:03:55Z"
  },
  {
   "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
