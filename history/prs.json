@@ -2258,11 +2258,19 @@
  {
   "base": "26061c0e5e4b62fae91a7127b46c1efa8b94c4b4",
   "created_at": "2019-08-14T13:49:07Z",
-  "head": "866d7dead72b0eea71b8a5b6bf3dc1cd5f817184",
+  "head": "a47ab4ab375520c10564b094e043123659913143",
   "login": "Ms2ger",
   "number": 1668,
   "ref": "static-fields",
   "revs": [
+   {
+    "adate": "2021-05-06T20:38:40-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-05-06T20:38:40-07:00",
+    "hash": "a47ab4ab375520c10564b094e043123659913143",
+    "parents": "866d7dead72b0eea71b8a5b6bf3dc1cd5f817184",
+    "subject": "Editorial: restructure PrivateSet to avoid early return"
+   },
    {
     "adate": "2021-05-06T20:02:57-07:00",
     "author": "Kevin Gibbons",
@@ -2513,7 +2521,7 @@
    }
   ],
   "title": "Normative: Add public and private class fields, static class features, private methods & getters/setters",
-  "updated_at": "2021-05-07T03:03:55Z"
+  "updated_at": "2021-05-07T03:51:02Z"
  },
  {
   "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
