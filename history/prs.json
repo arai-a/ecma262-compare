@@ -2258,11 +2258,35 @@
  {
   "base": "26061c0e5e4b62fae91a7127b46c1efa8b94c4b4",
   "created_at": "2019-08-14T13:49:07Z",
-  "head": "7cd9086b5bb1a1f622502dd5f8f2f20e1abe6205",
+  "head": "25963729e99f2a7fa5d017bf18252537f7ec1485",
   "login": "Ms2ger",
   "number": 1668,
   "ref": "static-fields",
   "revs": [
+   {
+    "adate": "2021-05-08T10:45:19-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-05-08T10:45:19-07:00",
+    "hash": "25963729e99f2a7fa5d017bf18252537f7ec1485",
+    "parents": "59e7640757945a845318a93b0695bff7f9ee3162",
+    "subject": "Editorial: un-abbreviate OuterPrivateEnvironment"
+   },
+   {
+    "adate": "2021-05-08T10:43:30-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-05-08T10:43:30-07:00",
+    "hash": "59e7640757945a845318a93b0695bff7f9ee3162",
+    "parents": "97b04be2630bcd645258e2c8e0d4e6b7b7268702",
+    "subject": "Editorial: rename PrivateMethodAdd to PrivateMethodOrAccessorAdd"
+   },
+   {
+    "adate": "2021-05-08T10:42:25-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-05-08T10:42:25-07:00",
+    "hash": "97b04be2630bcd645258e2c8e0d4e6b7b7268702",
+    "parents": "7cd9086b5bb1a1f622502dd5f8f2f20e1abe6205",
+    "subject": "Editorial: address jmdyck comments"
+   },
    {
     "adate": "2021-05-07T15:22:28-07:00",
     "author": "Kevin Gibbons",
@@ -2553,7 +2577,7 @@
    }
   ],
   "title": "Normative: Add public and private class fields, static class features, private methods & getters/setters",
-  "updated_at": "2021-05-07T22:22:39Z"
+  "updated_at": "2021-05-08T17:47:58Z"
  },
  {
   "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
