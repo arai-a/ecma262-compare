@@ -1840,40 +1840,40 @@
   "updated_at": "2020-03-27T07:01:17Z"
  },
  {
-  "base": "ba3dcb5680268b2f9aa42a6e22fbc6eec3c9685f",
+  "base": "c75497982a8c07e83a13cc5d7d80cdaaa8a337bd",
   "created_at": "2020-02-09T02:20:19Z",
-  "head": "df515623d0deadc0061a4e13d0081c292aa321b5",
+  "head": "459370d74bee352d8db2d4ca0971a554e644bd32",
   "login": "jmdyck",
   "number": 1867,
   "ref": "make_B_literals_normative",
   "revs": [
    {
-    "adate": "2020-11-29T21:17:53-05:00",
-    "author": "Michael Dyck",
-    "date": "2021-01-16T00:18:34-05:00",
-    "hash": "df515623d0deadc0061a4e13d0081c292aa321b5",
-    "parents": "324a35955a161ed8f0a8be52020ae1f0990f7878",
-    "subject": "Editorial: Tweak two SV rules"
-   },
-   {
     "adate": "2020-11-29T21:16:35-05:00",
     "author": "Michael Dyck",
-    "date": "2021-01-16T00:18:34-05:00",
-    "hash": "324a35955a161ed8f0a8be52020ae1f0990f7878",
-    "parents": "92cc32f42650d360ef208f54f19c4a09c2769a9e",
+    "date": "2021-05-10T16:24:56-04:00",
+    "hash": "459370d74bee352d8db2d4ca0971a554e644bd32",
+    "parents": "006a070dfeb36e48531f460a390f0258fff55483",
     "subject": "Normative: Make B.1.2 \"String Literals\" normative."
+   },
+   {
+    "adate": "2021-05-10T00:11:34-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-05-10T16:16:46-04:00",
+    "hash": "006a070dfeb36e48531f460a390f0258fff55483",
+    "parents": "2ee6058037811f631c8cff5d346b431d2e79db3a",
+    "subject": "Editorial: Copy EscapeSequence to TemplateEscapeSequence"
    },
    {
     "adate": "2019-07-31T08:33:51-04:00",
     "author": "Michael Dyck",
-    "date": "2021-01-15T23:51:46-05:00",
-    "hash": "92cc32f42650d360ef208f54f19c4a09c2769a9e",
-    "parents": "ba3dcb5680268b2f9aa42a6e22fbc6eec3c9685f",
+    "date": "2021-05-10T16:16:40-04:00",
+    "hash": "2ee6058037811f631c8cff5d346b431d2e79db3a",
+    "parents": "c75497982a8c07e83a13cc5d7d80cdaaa8a337bd",
     "subject": "Normative: Make B.1.1 \"Numeric Literals\" normative."
    }
   ],
   "title": "Normative: Make B.1.{1,2} normative",
-  "updated_at": "2021-01-16T05:19:55Z"
+  "updated_at": "2021-05-10T20:30:06Z"
  },
  {
   "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
