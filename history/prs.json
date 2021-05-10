@@ -2326,11 +2326,35 @@
  {
   "base": "26061c0e5e4b62fae91a7127b46c1efa8b94c4b4",
   "created_at": "2019-08-14T13:49:07Z",
-  "head": "f6bb9a5e1ce95a6162a38dad1da621cde4f6b9bf",
+  "head": "009a76152ccc9cda7931e5f534d1e0affc9f8438",
   "login": "Ms2ger",
   "number": 1668,
   "ref": "static-fields",
   "revs": [
+   {
+    "adate": "2021-05-10T14:52:23-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-05-10T14:52:23-07:00",
+    "hash": "009a76152ccc9cda7931e5f534d1e0affc9f8438",
+    "parents": "bdd88f0c80675ad7a0e1707c1cd8a926f2ed1f39",
+    "subject": "Markup: notes go in paragraphs"
+   },
+   {
+    "adate": "2021-05-10T14:51:06-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-05-10T14:51:06-07:00",
+    "hash": "bdd88f0c80675ad7a0e1707c1cd8a926f2ed1f39",
+    "parents": "7b917c01b3cf222b6935b1e3f2542c1d1ed5f402",
+    "subject": "Editorial: restore missing cell to table"
+   },
+   {
+    "adate": "2021-05-10T14:48:00-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-05-10T14:48:00-07:00",
+    "hash": "7b917c01b3cf222b6935b1e3f2542c1d1ed5f402",
+    "parents": "f6bb9a5e1ce95a6162a38dad1da621cde4f6b9bf",
+    "subject": "Editorial: revert now-unused change to NewDeclarativeEnvironment"
+   },
    {
     "adate": "2021-05-08T15:01:38-07:00",
     "author": "Kevin Gibbons",
@@ -2653,7 +2677,7 @@
    }
   ],
   "title": "Normative: Add public and private class fields, static class features, private methods & getters/setters",
-  "updated_at": "2021-05-08T22:02:57Z"
+  "updated_at": "2021-05-10T22:02:38Z"
  },
  {
   "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
