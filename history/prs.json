@@ -2326,11 +2326,19 @@
  {
   "base": "26061c0e5e4b62fae91a7127b46c1efa8b94c4b4",
   "created_at": "2019-08-14T13:49:07Z",
-  "head": "87568e47af541cfb3582eca3f70a93f26278cded",
+  "head": "a5844eef569ca3c5592944d91acffa5d3c1e8b62",
   "login": "Ms2ger",
   "number": 1668,
   "ref": "static-fields",
   "revs": [
+   {
+    "adate": "2021-05-12T13:54:44-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-05-12T13:54:44-07:00",
+    "hash": "a5844eef569ca3c5592944d91acffa5d3c1e8b62",
+    "parents": "87568e47af541cfb3582eca3f70a93f26278cded",
+    "subject": "Editorial: tweak ids"
+   },
    {
     "adate": "2021-05-12T12:58:53-07:00",
     "author": "Kevin Gibbons",
@@ -2701,7 +2709,7 @@
    }
   ],
   "title": "Normative: Add public and private class fields, static class features, private methods & getters/setters",
-  "updated_at": "2021-05-12T19:59:02Z"
+  "updated_at": "2021-05-12T20:54:50Z"
  },
  {
   "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
