@@ -2326,11 +2326,35 @@
  {
   "base": "26061c0e5e4b62fae91a7127b46c1efa8b94c4b4",
   "created_at": "2019-08-14T13:49:07Z",
-  "head": "009a76152ccc9cda7931e5f534d1e0affc9f8438",
+  "head": "87568e47af541cfb3582eca3f70a93f26278cded",
   "login": "Ms2ger",
   "number": 1668,
   "ref": "static-fields",
   "revs": [
+   {
+    "adate": "2021-05-12T12:58:53-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-05-12T12:58:53-07:00",
+    "hash": "87568e47af541cfb3582eca3f70a93f26278cded",
+    "parents": "51c7fa6e0f7c61b2e32bb84594b1050a89451fb1",
+    "subject": "Markup: tags"
+   },
+   {
+    "adate": "2021-05-12T12:58:30-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-05-12T12:58:30-07:00",
+    "hash": "51c7fa6e0f7c61b2e32bb84594b1050a89451fb1",
+    "parents": "ab7f31553d51ef8a5b62978f1bc129ec51e6f515",
+    "subject": "Editorial: whitespace"
+   },
+   {
+    "adate": "2021-05-12T12:50:45-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-05-12T12:50:45-07:00",
+    "hash": "ab7f31553d51ef8a5b62978f1bc129ec51e6f515",
+    "parents": "009a76152ccc9cda7931e5f534d1e0affc9f8438",
+    "subject": "Editorial: add a missing case and combine adjacent emu-grammars"
+   },
    {
     "adate": "2021-05-10T14:52:23-07:00",
     "author": "Kevin Gibbons",
@@ -2677,7 +2701,7 @@
    }
   ],
   "title": "Normative: Add public and private class fields, static class features, private methods & getters/setters",
-  "updated_at": "2021-05-10T22:02:38Z"
+  "updated_at": "2021-05-12T19:59:02Z"
  },
  {
   "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
