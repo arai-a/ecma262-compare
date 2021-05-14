@@ -2,11 +2,19 @@
  {
   "base": "56b5e8bc3dc84e51bfe5f958b9359c2db10a4d6e",
   "created_at": "2021-05-14T08:11:03Z",
-  "head": "ee280a82da9c9008cde08deadcce1507c468d2c2",
+  "head": "f462fe6480d5db46739f2b533ece7d087028a28c",
   "login": "codehag",
   "number": 2408,
   "ref": "proposal-top-level-await",
   "revs": [
+   {
+    "adate": "2021-05-14T10:53:29+02:00",
+    "author": "codehag",
+    "date": "2021-05-14T10:58:36+02:00",
+    "hash": "f462fe6480d5db46739f2b533ece7d087028a28c",
+    "parents": "ee280a82da9c9008cde08deadcce1507c468d2c2",
+    "subject": "make the linter happy"
+   },
    {
     "adate": "2021-05-14T10:06:57+02:00",
     "author": "codehag",
@@ -16,8 +24,8 @@
     "subject": "Normative: Top Level Await"
    }
   ],
-  "title": "Normative: Top Level Await",
-  "updated_at": "2021-05-14T08:45:23Z"
+  "title": "Normative: Top-level Await",
+  "updated_at": "2021-05-14T09:08:01Z"
  },
  {
   "base": "c75497982a8c07e83a13cc5d7d80cdaaa8a337bd",
