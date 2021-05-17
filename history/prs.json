@@ -2,11 +2,99 @@
  {
   "base": "56b5e8bc3dc84e51bfe5f958b9359c2db10a4d6e",
   "created_at": "2021-05-14T08:11:03Z",
-  "head": "f462fe6480d5db46739f2b533ece7d087028a28c",
+  "head": "c68b1da4961a0dee344811c425a96d3484d9bc87",
   "login": "codehag",
   "number": 2408,
   "ref": "proposal-top-level-await",
   "revs": [
+   {
+    "adate": "2021-05-17T17:56:52+02:00",
+    "author": "codehag",
+    "date": "2021-05-17T18:00:48+02:00",
+    "hash": "c68b1da4961a0dee344811c425a96d3484d9bc87",
+    "parents": "b393dab70eba92a88dc91fcb935904400a37f682",
+    "subject": "fix editorial issues raised by jmdyck"
+   },
+   {
+    "adate": "2021-05-14T23:52:14-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-05-14T23:58:29-04:00",
+    "hash": "b393dab70eba92a88dc91fcb935904400a37f682",
+    "parents": "4388ea5d067610533818f82f21fe9d1f7f0346da",
+    "subject": "Call out aliases that haven't been defined."
+   },
+   {
+    "adate": "2021-05-14T23:50:12-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-05-14T23:58:24-04:00",
+    "hash": "4388ea5d067610533818f82f21fe9d1f7f0346da",
+    "parents": "9b5d2db72bdd9eb170823f30ad8a15d7b616b4c4",
+    "subject": "Preambles for the new abstract operations"
+   },
+   {
+    "adate": "2021-05-14T23:41:51-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-05-14T23:41:51-04:00",
+    "hash": "9b5d2db72bdd9eb170823f30ad8a15d7b616b4c4",
+    "parents": "d5094a8c3d04b37bf95face62e835c94f86cfdf6",
+    "subject": "Calls to CreateBuiltinFunction are missing args"
+   },
+   {
+    "adate": "2021-05-14T23:39:09-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-05-14T23:39:09-04:00",
+    "hash": "d5094a8c3d04b37bf95face62e835c94f86cfdf6",
+    "parents": "ca47e89e450a5b00e12b4bce7bb9d6ccf4bf055a",
+    "subject": "Change \"For each Module\" to \"For each Cyclic Module Record\""
+   },
+   {
+    "adate": "2021-05-14T23:37:49-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-05-14T23:37:49-04:00",
+    "hash": "ca47e89e450a5b00e12b4bce7bb9d6ccf4bf055a",
+    "parents": "f6436535d69f8838e942032859d7d26d06363b8c",
+    "subject": "Rename CallDynamicImportResolved to CallDynamicImportFulfilled?"
+   },
+   {
+    "adate": "2021-05-14T23:35:19-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-05-14T23:35:19-04:00",
+    "hash": "f6436535d69f8838e942032859d7d26d06363b8c",
+    "parents": "5fee0e69a2fafeca1fb405a140203befab601a4e",
+    "subject": "Typographical errors"
+   },
+   {
+    "adate": "2021-05-14T23:33:15-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-05-14T23:33:15-04:00",
+    "hash": "5fee0e69a2fafeca1fb405a140203befab601a4e",
+    "parents": "1bbd13b432cf85b73d99c3c11e9c524ab4f989de",
+    "subject": "Syntax tweaks"
+   },
+   {
+    "adate": "2021-05-14T23:27:27-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-05-14T23:27:27-04:00",
+    "hash": "1bbd13b432cf85b73d99c3c11e9c524ab4f989de",
+    "parents": "3a7d413d065984317297dc440916394eda34068a",
+    "subject": "Change the 'declaration' of the [[EvaluationError]] field"
+   },
+   {
+    "adate": "2021-05-14T23:24:06-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-05-14T23:24:06-04:00",
+    "hash": "3a7d413d065984317297dc440916394eda34068a",
+    "parents": "9e56604605086ffa1cdc409bdc977fe297699304",
+    "subject": "collateral changes when replacing *undefined* with ~empty~"
+   },
+   {
+    "adate": "2021-05-14T23:17:28-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-05-14T23:17:28-04:00",
+    "hash": "9e56604605086ffa1cdc409bdc977fe297699304",
+    "parents": "f462fe6480d5db46739f2b533ece7d087028a28c",
+    "subject": "master text that got dropped in rebase-conflict-resolution?"
+   },
    {
     "adate": "2021-05-14T10:53:29+02:00",
     "author": "codehag",
@@ -25,7 +113,7 @@
    }
   ],
   "title": "Normative: Top-level Await",
-  "updated_at": "2021-05-14T09:08:01Z"
+  "updated_at": "2021-05-17T16:01:01Z"
  },
  {
   "base": "c75497982a8c07e83a13cc5d7d80cdaaa8a337bd",
