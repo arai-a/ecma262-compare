@@ -1,6 +1,26 @@
 [
  {
   "base": "56b5e8bc3dc84e51bfe5f958b9359c2db10a4d6e",
+  "created_at": "2021-05-24T07:00:16Z",
+  "head": "186ef417b9b0848339a8838186a30611cc76e8dc",
+  "login": "tc39",
+  "number": 2413,
+  "ref": "rewrite-asyncgenerator-state-machine",
+  "revs": [
+   {
+    "adate": "2021-05-23T20:02:05-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-05-23T23:36:00-07:00",
+    "hash": "186ef417b9b0848339a8838186a30611cc76e8dc",
+    "parents": "56b5e8bc3dc84e51bfe5f958b9359c2db10a4d6e",
+    "subject": "Editorial: rewrite async generator state machine"
+   }
+  ],
+  "title": "Editorial (?): Clarify the AsyncGenerator state machine",
+  "updated_at": "2021-05-24T07:00:16Z"
+ },
+ {
+  "base": "56b5e8bc3dc84e51bfe5f958b9359c2db10a4d6e",
   "created_at": "2021-05-20T16:47:04Z",
   "head": "e0cea501c750fd3cf6ed2ae9ac7afda19a310116",
   "login": "mathiasbynens",
