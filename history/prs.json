@@ -364,24 +364,32 @@
   "updated_at": "2021-04-30T03:28:25Z"
  },
  {
-  "base": "26061c0e5e4b62fae91a7127b46c1efa8b94c4b4",
+  "base": "56b5e8bc3dc84e51bfe5f958b9359c2db10a4d6e",
   "created_at": "2021-04-26T22:45:32Z",
-  "head": "9d7bbbebce209d2039aa9acf54a1c6f46e3cabfe",
+  "head": "f931795792d04ea66a8537b1c620e2fda2d9eed2",
   "login": "syg",
   "number": 2393,
   "ref": "required-sab-param",
   "revs": [
    {
+    "adate": "2021-05-25T10:57:14-07:00",
+    "author": "Shu-yu Guo",
+    "date": "2021-05-25T10:57:14-07:00",
+    "hash": "f931795792d04ea66a8537b1c620e2fda2d9eed2",
+    "parents": "100ee58982dd5d1a24e05fc2b4345369204365e7",
+    "subject": "Remove incorrect 'optional'"
+   },
+   {
     "adate": "2021-04-26T15:42:37-07:00",
     "author": "Shu-yu Guo",
-    "date": "2021-04-26T15:42:37-07:00",
-    "hash": "9d7bbbebce209d2039aa9acf54a1c6f46e3cabfe",
-    "parents": "26061c0e5e4b62fae91a7127b46c1efa8b94c4b4",
+    "date": "2021-05-25T10:56:36-07:00",
+    "hash": "100ee58982dd5d1a24e05fc2b4345369204365e7",
+    "parents": "56b5e8bc3dc84e51bfe5f958b9359c2db10a4d6e",
     "subject": "Normative: Make SharedArrayBuffer's sole parameter required"
    }
   ],
   "title": "Normative: Make SharedArrayBuffer's sole parameter required",
-  "updated_at": "2021-04-26T22:45:32Z"
+  "updated_at": "2021-05-25T17:57:34Z"
  },
  {
   "base": "26061c0e5e4b62fae91a7127b46c1efa8b94c4b4",
