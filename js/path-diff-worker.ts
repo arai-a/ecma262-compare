@@ -31,9 +31,9 @@
      name_stack = [];
      sel_stack = [];
      tag_stack = [];
-      (const t of this.tokenize(s)) {
-      switch (t.type) {
-        case "o": {
+      (const t  this.tokenize(s)) {
+       (t.type) {
+         "o": {
           name_stack.push(t.name);
            (t.id) {
             sel_stack.push(t.name + "#" + t.id);
@@ -43,13 +43,13 @@
           tag_stack.push(t.tag);
           ;
         }
-        case "c": {
+         "c": {
           name_stack.pop();
           sel_stack.pop();
           tag_stack.pop();
           ;
         }
-        case "t": {
+         "t": {
            text  t.text;
            path  sel_stack.join("/");
 
@@ -85,65 +85,65 @@
       "wbr",
     ]);
 
-    let i = 0;
-    let start = 0;
-    let prev = "";
+     i = 0;
+     start = 0;
+     prev = "";
      len = s.length;
 
     while (i < len) {
-      const c = s.charAt(i);
-      if (c === "<") {
-        if (start !== i) {
+       c = s.charAt(i);
+       (c === "<") {
+        (start !== i) {
           yield {
             text: s.slice(start, i),
             type: "t",
           };
         }
 
-        const re = /[^> \t\r\n]+/g;
+         re = /[^> \t\r\n]+/g;
         re.lastIndex = i + 1;
-        const result = re.exec(s);
+         result = re.exec(s);
 
-        const to = s.indexOf(">", i + 1);
+         to = s.indexOf(">", i + 1);
 
-        const name = result[0];
-        const tag = s.slice(i, to + 1);
+         name = result[0];
+         tag = s.slice(i, to + 1);
 
-        if (name.startsWith("/")) {
+         (name.startsWith("/")) {
           // If the current element has no content,
           // Put empty text, so that `toSeq` creates empty text inside
           // this element..
           //
           // Otherwise `toSeq` won't create any info about this element.
-          if (prev === "o") {
-            yield {
+          (prev === "o") {
+             {
               text: "",
               type: "t",
             };
           }
 
-          yield {
-            name,
+           {
+            ,
             tag,
             type: "c",
           };
           prev = "c";
-        } else if (emptyTags.has(name)) {
+        } (emptyTags.has(name)) {
           // Empty tag is treated as text.
-          yield {
+          {
             text: tag,
             type: "t",
           };
           prev = "t";
-        } else {
+        }  {
           // If there's opening tag immediately after closing tag,
           // put empty text, so that `toSeq` creates empty text at
           // parent node, between 2 elements
           // (one closed here, and one opened here).
           //
           // Otherwise `toSeq` will concatenate 2 elements if they're same.
-          if (prev === "c") {
-            yield {
+           (prev === "c") {
+             {
               text: "",
               type: "t",
             };
