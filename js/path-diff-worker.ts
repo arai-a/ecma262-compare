@@ -90,11 +90,11 @@
      prev = "";
      len = s.length;
 
-    while (i < len) {
+     (i < len) {
        c = s.charAt(i);
        (c === "<") {
         (start !== i) {
-          yield {
+           {
             text: s.slice(start, i),
             type: "t",
           };
@@ -149,13 +149,13 @@
             };
           }
 
-          let id = undefined;
-          const m = tag.match(` id="([^"]+)"`);
-          if (m) {
+           id = undefined;
+           m = tag.match(` id="([^"]+)"`);
+           (m) {
             id = m[1];
           }
 
-          yield {
+           {
             id,
             name,
             tag,
@@ -165,24 +165,24 @@
         }
         i = to + 1;
         start = i;
-      } else if (c.match(/[ \t\r\n]/)) {
-        const re = /[ \t\r\n]+/g;
+      }   (c.match(/[ \t\r\n]/)) {
+         re = /[ \t\r\n]+/g;
         re.lastIndex = start;
-        const result = re.exec(s);
-        yield {
+         result = re.exec(s);
+         {
           text: s.slice(start, i) + result[0],
           type: "t",
         };
         prev = "t";
         i += result[0].length;
         start = i;
-      } else {
+      }  {
         i++;
       }
     }
 
-    if (start < len) {
-      yield {
+     (start < len) {
+       {
         text: s.slice(start),
         type: "t",
       };
@@ -190,59 +190,59 @@
   }
 
   // Calculate the matrix for Longest Common Subsequence of 2 sequences.
-  static LCS(seq1, seq2) {
-    const len1 = seq1.length;
-    const len2 = seq2.length;
-    const C = new Array(len1 + 1);
-    for (let i = 0; i < len1 + 1; i++) {
+   LCS(seq1, seq2) {
+     len1 = seq1.length;
+     len2 = seq2.length;
+     C =  Array(len1 + 1);
+     (let i = 0; i < len1 + 1; i++) {
       C[i] = new Array(len2 + 1);
     }
-    for (let i = 0; i < len1 + 1; i++) {
+     (let i = 0; i < len1 + 1; i++) {
       C[i][0] = 0;
     }
-    for (let j = 0; j < len2 + 1; j++) {
+     (let j = 0; j < len2 + 1; j++) {
       C[0][j] = 0;
     }
 
-    function isDiff(s1, s2) {
+     isDiff(s1, s2) {
       // Do not count the difference in attributes,h.
-      return s1.text !== s2.text || s1.path !== s2.path;
+       s1.text !== s2.text || s1.path !== s2.path;
     }
 
-    for (let i = 1; i < len1 + 1; i++) {
-      for (let j = 1; j < len2 + 1; j++) {
-        if (!isDiff(seq1[i - 1], seq2[j - 1])) {
+    (let i = 1; i < len1 + 1; i++) {
+       (let j = 1; j < len2 + 1; j++) {
+         (!isDiff(seq1[i - 1], seq2[j - 1])) {
           C[i][j] = C[i-1][j-1] + 1;
-        } else {
+        }  {
           C[i][j] = Math.max(C[i][j-1], C[i-1][j]);
         }
       }
     }
 
-    return C;
+     C;
   }
 
   // Convert 2 sequences and the LCS matrix into a sequence of diff.
-  static LCSToDiff(seq1, seq2, C) {
-    const len1 = seq1.length;
-    const len2 = seq2.length;
-    const diff = [];
+   LCSToDiff(seq1, seq2, C) {
+     len1 = seq1.length;
+     len2 = seq2.length;
+     diff = [];
 
-    for (let i = len1, j = len2; i > 0 || j > 0;) {
-      if ((i > 0 && j > 0 && C[i][j] === C[i - 1][j - 1]) ||
+     (let i = len1, j = len2; i > 0 || j > 0;) {
+       ((i > 0 && j > 0 && C[i][j] === C[i - 1][j - 1]) ||
           (j > 0 && C[i][j] === C[i][j - 1])) {
         diff.push({
           item: seq2[j - 1],
           op: "+",
         });
         j--;
-      } else if (i > 0 && C[i][j] === C[i - 1][j]) {
+      }  (i > 0 && C[i][j] === C[i - 1][j]) {
         diff.push({
           item: seq1[i - 1],
           op: "-",
         });
         i--;
-      } else {
+      }  {
         diff.push({
           item: seq1[i - 1],
           item2: seq2[j - 1],
@@ -255,41 +255,41 @@
 
     diff.reverse();
 
-    return diff;
+     diff;
   }
 
   // Convert a sequence of diff into a sequence of text or empty tag, with
   // path information.
-  static diffToSeq(diff) {
-    const seq = [];
+   diffToSeq(diff) {
+     seq = [];
 
-    const INS_NAME = `ins`;
-    const INS_TAG = `<ins class="htmldiff-ins htmldiff-change">`;
-    const DEL_NAME = `del`;
-    const DEL_TAG = `<del class="htmldiff-del htmldiff-change">`;
+     INS_NAME = `ins`;
+     INS_TAG = `<ins class="htmldiff-ins htmldiff-change">`;
+     DEL_NAME = `del`;
+     DEL_TAG = `<del class="htmldiff-del htmldiff-change">`;
 
-    for (const d of diff) {
-      switch (d.op) {
-        case " ": {
+    (const d of diff) {
+       (d.op) {
+         " ": {
           seq.push(d.item);
-          break;
+          ;
         }
         case "+":
         case "-": {
-          const new_name_stack = d.item.name_stack.slice();
-          const new_sel_stack = d.item.sel_stack.slice();
-          const new_tag_stack = d.item.tag_stack.slice();
+           new_name_stack = d.item.name_stack.slice();
+           new_sel_stack = d.item.sel_stack.slice();
+           new_tag_stack = d.item.tag_stack.slice();
 
           // FIXME: Instead of the leaf, put ins/del somewhere in the stack.
           //        https://github.com/arai-a/ecma262-compare/issues/13
           switch (d.op) {
-            case "+": {
+             "+": {
               new_name_stack.push(INS_NAME);
               new_sel_stack.push(INS_NAME);
               new_tag_stack.push(INS_TAG);
               break;
             }
-            case "-": {
+             "-": {
               new_name_stack.push(DEL_NAME);
               new_sel_stack.push(DEL_NAME);
               new_tag_stack.push(DEL_TAG);
@@ -304,24 +304,24 @@
             tag_stack: new_tag_stack,
             text: d.item.text,
           });
-          break;
+          ;
         }
       }
     }
 
-    return seq;
+     seq;
   }
 
   // Convert a sequence of text or empty tag, with path information into
   // HTML fragment.
-  static fromSeq(seq) {
-    const name_stack = [];
-    const sel_stack = [];
-    const tag_stack = [];
+   fromSeq(seq) {
+     name_stack = [];
+     sel_stack = [];
+     tag_stack = [];
 
-    const ts = [];
+     ts = [];
 
-    for (const s of seq) {
+     (const s of seq) {
       let i = 0;
       // Skip common ancestor.
       for (; i < s.sel_stack.length; i++) {
