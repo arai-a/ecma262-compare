@@ -268,7 +268,7 @@
      DEL_NAME = `del`;
      DEL_TAG = `<del class="htmldiff-del htmldiff-change">`;
 
-    (const d of diff) {
+    (const d diff) {
        (d.op) {
          " ": {
           seq.push(d.item);
