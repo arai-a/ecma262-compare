@@ -2,8 +2,8 @@ name: Update revisions and PRs
 
 on:
   schedule:
-    # Every 30 minutes
-    - cron:  '*/30 * * * *'
+    # Every 10 minutes
+    - cron:  '*/10 * * * *'
   push:
     branch: master
 
@@ -15,7 +15,7 @@ jobs:
     - name: Setup Python
       uses: actions/setup-python@v1
       with:
-        python-version: "3.7"
+        python-version: "3.9"
 
     # ==== Bootstrap for history update ====
 
