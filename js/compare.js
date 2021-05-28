@@ -1370,7 +1370,7 @@ class Comparator {
     if (empty) {
       if (this.notfoundPR) {
         this.messageOverlay.classList.add("shown");
-        this.messageBox.textContent = `PR ${this.notfoundPR} is not found. This can happen if the the history data isn't yet deployed. Try again 10 minutes later.`;
+        this.messageBox.textContent = `PR ${this.notfoundPR} is not found. This can happen if recent history data hasn't been deployed yet. Try again 10 minutes later.`;
         this.notfoundPR = undefined;
       } else if (this.notfoundRev) {
         this.messageOverlay.classList.add("shown");
