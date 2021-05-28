@@ -1,57 +1,57 @@
 // Calculate diff between 2 HTML fragments, based on text+path based LCS.
 //
 // The HTML fragment shouldn't omit closing tag, if it's not empty tag.
-class HTMLPathDiffWorker {
-  static run({ type, s1, s2 }) {
-    if (type === "diff") {
-      return this.diff(s1, s2);
+ HTMLPathDiffWorker {
+   run({ type, s1, s2 }) {
+    (type === "diff") {
+      this.diff(s1, s2);
     }
-    if (type === "splitForDiff") {
-      return this.splitForDiff(s1, s2);
+     (type === "splitForDiff") {
+       this.splitForDiff(s1, s2);
     }
-    return "";
+     "";
   }
 
   // Calculate diff between 2 HTML fragments.
-  static diff(s1, s2) {
-    const seq1 = this.toSeq(s1);
-    const seq2 = this.toSeq(s2);
+   diff(s1, s2) {
+     seq1 = this.toSeq(s1);
+     seq2 = this.toSeq(s2);
 
-    const C = this.LCS(seq1, seq2);
-    const diff = this.LCSToDiff(seq1, seq2, C);
-    const seq = this.diffToSeq(diff);
+     C = this.LCS(seq1, seq2);
+     diff = this.LCSToDiff(seq1, seq2, C);
+     seq = this.diffToSeq(diff);
 
-    return this.fromSeq(seq);
+     this.fromSeq(seq);
   }
 
   // Convert a HTML fragment into a sequence of text or empty tag, with
   // path information.
-  static toSeq(s) {
-    const seq = [];
-    const name_stack = [];
-    const sel_stack = [];
-    const tag_stack = [];
-    for (const t of this.tokenize(s)) {
+   toSeq(s) {
+     seq = [];
+     name_stack = [];
+     sel_stack = [];
+     tag_stack = [];
+      (const t of this.tokenize(s)) {
       switch (t.type) {
         case "o": {
           name_stack.push(t.name);
-          if (t.id) {
+           (t.id) {
             sel_stack.push(t.name + "#" + t.id);
-          } else {
+          } {
             sel_stack.push(t.name);
           }
           tag_stack.push(t.tag);
-          break;
+          ;
         }
         case "c": {
           name_stack.pop();
           sel_stack.pop();
           tag_stack.pop();
-          break;
+          ;
         }
         case "t": {
-          const text = t.text;
-          const path = sel_stack.join("/");
+           text  t.text;
+           path  sel_stack.join("/");
 
           seq.push({
             name_stack: name_stack.slice(),
@@ -63,12 +63,12 @@ class HTMLPathDiffWorker {
         }
       }
     }
-    return seq;
+     seq;
   }
 
   // Tokenize HTML fragment into text, empty tag, opening tag, and closing tag.
-  static *tokenize(s) {
-    const emptyTags = new Set([
+   *tokenize(s) {
+     emptyTags Set([
       "area",
       "base",
       "br",
@@ -88,7 +88,7 @@ class HTMLPathDiffWorker {
     let i = 0;
     let start = 0;
     let prev = "";
-    const len = s.length;
+     len = s.length;
 
     while (i < len) {
       const c = s.charAt(i);
