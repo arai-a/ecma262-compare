@@ -1,6 +1,26 @@
 [
  {
   "base": "56b5e8bc3dc84e51bfe5f958b9359c2db10a4d6e",
+  "created_at": "2021-05-28T11:28:01Z",
+  "head": "a9c1e105543a61f894e6862405434be347689ba7",
+  "login": "mathiasbynens",
+  "number": 2418,
+  "ref": "regexp-v-flag",
+  "revs": [
+   {
+    "adate": "2021-05-28T13:25:40+02:00",
+    "author": "Mathias Bynens",
+    "date": "2021-05-28T13:25:40+02:00",
+    "hash": "a9c1e105543a61f894e6862405434be347689ba7",
+    "parents": "56b5e8bc3dc84e51bfe5f958b9359c2db10a4d6e",
+    "subject": "[Normative] Add RegExp `v` flag with set notation and properties of strings"
+   }
+  ],
+  "title": "[Normative] Add RegExp `v` flag with set notation and properties of strings",
+  "updated_at": "2021-05-28T11:28:01Z"
+ },
+ {
+  "base": "56b5e8bc3dc84e51bfe5f958b9359c2db10a4d6e",
   "created_at": "2021-05-26T23:09:49Z",
   "head": "a7b1674bf410abc127edeb5fe3ddb298fd659a9c",
   "login": "pzuraq",
