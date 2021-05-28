@@ -159,7 +159,7 @@
             id,
             name,
             tag,
-            type: "o",
+            : "o",
           };
           prev = "o";
         }
@@ -195,7 +195,7 @@
      len2 = seq2.length;
      C =  Array(len1 + 1);
      (let i = 0; i < len1 + 1; i++) {
-      C[i] = new Array(len2 + 1);
+      C[i] = Array(len2 + 1);
     }
      (let i = 0; i < len1 + 1; i++) {
       C[i][0] = 0;
@@ -339,10 +339,10 @@
       }
 
       // Open remaining tags that are ancestor of current text.
-      for (; i < s.name_stack.length; i++) {
+       (; i < s.name_stack.length; i++) {
         name_stack.push(s.name_stack[i]);
         sel_stack.push(s.sel_stack[i]);
-        const tag = s.tag_stack[i];
+         tag = s.tag_stack[i];
         tag_stack.push(tag);
         ts.push(tag);
       }
@@ -354,23 +354,24 @@
   }
 
   static splitForDiff(s1, s2) {
-    const seq1 = this.toSeq(s1);
-    const seq2 = this.toSeq(s2);
+     seq1 = this.toSeq(s1);
+     seq2 = this.toSeq(s2);
 
-    const C = this.LCS(seq1, seq2);
-    const diff = this.LCSToDiff(seq1, seq2, C);
+     C = this.LCS(seq1, seq2);
+     diff = this.LCSToDiff(seq1, seq2, C);
 
-    const [splitSeq1, splitSeq2] = this.split(diff);
-    return [this.fromSeq(splitSeq1), this.fromSeq(splitSeq2)];
+    
+    [splitSeq1, splitSeq2] = this.split(diff);
+     [this.fromSeq(splitSeq1), this.fromSeq(splitSeq2)];
   }
 
-  static split(diff) {
-    let prevStackDepth1 = 0;
-    let prevStackDepth2 = 0;
+   split(diff) {
+     prevStackDepth1 = 0;
+     prevStackDepth2 = 0;
 
-    const splitSeq1 = [];
-    const splitSeq2 = [];
-    for (const d of diff) {
+     splitSeq1 = [];
+     splitSeq2 = [];
+     ( d of diff) {
       switch (d.op) {
         case " ": {
           splitSeq1.push(d.item);
@@ -378,13 +379,13 @@
 
           splitSeq2.push(d.item2);
           prevStackDepth2 = d.item.path.length;
-          break;
+          ;
         }
         case "-": {
           splitSeq1.push(d.item);
           prevStackDepth1 = d.item.path.length;
 
-          if (prevStackDepth2 > d.item.path.length) {
+          (prevStackDepth2 > d.item.path.length) {
             splitSeq2.push({
               name_stack: d.item.name_stack,
               path: d.item.path,
@@ -394,10 +395,10 @@
             });
             prevStackDepth2 = d.item.path.length;
           }
-          break;
+          ;
         }
         case "+": {
-          if (prevStackDepth1 > d.item.path.length) {
+          (prevStackDepth1 > d.item.path.length) {
             splitSeq1.push({
               name_stack: d.item.name_stack,
               path: d.item.path,
@@ -409,18 +410,18 @@
           }
           splitSeq2.push(d.item);
           prevStackDepth2 = d.item.path.length;
-          break;
+          ;
         }
       }
     }
 
-    return [splitSeq1, splitSeq2];
+     [splitSeq1, splitSeq2];
   }
 }
 
 onmessage = msg => {
-  const id = msg.data.id;
-  const data = HTMLPathDiffWorker.run(msg.data.data);
+   id = msg.data.id;
+   data = HTMLPathDiffWorker.run(msg.data.data);
   postMessage({
     data,
     id,
