@@ -504,9 +504,9 @@
   "updated_at": "2021-05-20T12:43:44Z"
  },
  {
-  "base": "c75497982a8c07e83a13cc5d7d80cdaaa8a337bd",
+  "base": "c2a9389aa87ca91e440dbea14dbd2192270b0f64",
   "created_at": "2021-05-09T04:33:41Z",
-  "head": "68f2ec625e5dc2dd5a2fdefe535373f512186770",
+  "head": "f8fb64d7ce88e51af033675ad41c3dd87188103f",
   "login": "jmdyck",
   "number": 2406,
   "ref": "fix_some_SDOs",
@@ -514,48 +514,48 @@
    {
     "adate": "2021-05-08T23:57:58-04:00",
     "author": "Michael Dyck",
-    "date": "2021-05-08T23:57:58-04:00",
-    "hash": "68f2ec625e5dc2dd5a2fdefe535373f512186770",
-    "parents": "1ef8bef5a5ab5d7e6f820b2b5d2d2c66117eff8a",
+    "date": "2021-06-01T09:05:48-04:00",
+    "hash": "f8fb64d7ce88e51af033675ad41c3dd87188103f",
+    "parents": "c9b087e4684add6050ac113c79801368233ff70f",
     "subject": "Editorial: Drop unused defn of `VarDeclaredNames`"
    },
    {
     "adate": "2021-05-08T23:47:25-04:00",
     "author": "Michael Dyck",
-    "date": "2021-05-08T23:47:25-04:00",
-    "hash": "1ef8bef5a5ab5d7e6f820b2b5d2d2c66117eff8a",
-    "parents": "98841b487460dde656e2e5f4b903a1e23469d7fc",
+    "date": "2021-06-01T09:05:48-04:00",
+    "hash": "c9b087e4684add6050ac113c79801368233ff70f",
+    "parents": "b73e3e80dd585b71850dbec600c7e6e9a00e1081",
     "subject": "Editorial: Drop unused defns of `TopLevelVarDeclaredNames` & `TopLevelVarScopedDeclarations`"
    },
    {
     "adate": "2021-05-08T23:37:24-04:00",
     "author": "Michael Dyck",
-    "date": "2021-05-08T23:37:24-04:00",
-    "hash": "98841b487460dde656e2e5f4b903a1e23469d7fc",
-    "parents": "346502d28fb8fb857fbc516a0a874c957ff186d8",
+    "date": "2021-06-01T09:05:48-04:00",
+    "hash": "b73e3e80dd585b71850dbec600c7e6e9a00e1081",
+    "parents": "75614fe0a4cf46aeeca007b5ef13c9645025a5d9",
     "subject": "Editorial: Drop unused defns of `TopLevelLexicallyDeclaredNames` & `TopLevelLexicallyScopedDeclarations`"
    },
    {
     "adate": "2021-05-08T23:21:23-04:00",
     "author": "Michael Dyck",
-    "date": "2021-05-08T23:21:23-04:00",
-    "hash": "346502d28fb8fb857fbc516a0a874c957ff186d8",
-    "parents": "ae95c2493682a45103f346c2166e76ea93b0c521",
+    "date": "2021-06-01T09:05:48-04:00",
+    "hash": "75614fe0a4cf46aeeca007b5ef13c9645025a5d9",
+    "parents": "778e106599166956030bb1ba80adc3102fe6f51c",
     "subject": "Editorial: Drop unused defn of `MV` SDO"
    },
    {
     "adate": "2021-05-08T22:53:16-04:00",
     "author": "Michael Dyck",
-    "date": "2021-05-08T22:53:16-04:00",
-    "hash": "ae95c2493682a45103f346c2166e76ea93b0c521",
-    "parents": "1479d584239ad8d716b209d511694bca1126aa6a",
+    "date": "2021-06-01T09:05:48-04:00",
+    "hash": "778e106599166956030bb1ba80adc3102fe6f51c",
+    "parents": "f9c6b4f9a6ee9f5e9c14f635a80897ef1bfcc112",
     "subject": "Editorial: Drop unused defns of `Evaluation` SDO"
    },
    {
     "adate": "2021-05-08T22:43:56-04:00",
     "author": "Michael Dyck",
-    "date": "2021-05-08T22:43:56-04:00",
-    "hash": "1479d584239ad8d716b209d511694bca1126aa6a",
+    "date": "2021-06-01T09:05:18-04:00",
+    "hash": "f9c6b4f9a6ee9f5e9c14f635a80897ef1bfcc112",
     "parents": "3783a69a63cd380dacc4c8f9c556186d50fa1b5a",
     "subject": "Editorial: Define 4 SDOs on empty Script"
    },
@@ -569,7 +569,7 @@
    }
   ],
   "title": "Editorial: Fix some SDOs",
-  "updated_at": "2021-05-09T04:34:00Z"
+  "updated_at": "2021-06-01T13:07:45Z"
  },
  {
   "base": "c75497982a8c07e83a13cc5d7d80cdaaa8a337bd",
@@ -654,34 +654,6 @@
   ],
   "title": "Editorial: describe behavior for algorithms without a \"Return\"",
   "updated_at": "2021-04-30T03:28:25Z"
- },
- {
-  "base": "56b5e8bc3dc84e51bfe5f958b9359c2db10a4d6e",
-  "created_at": "2021-04-26T22:45:32Z",
-  "head": "f931795792d04ea66a8537b1c620e2fda2d9eed2",
-  "login": "syg",
-  "number": 2393,
-  "ref": "required-sab-param",
-  "revs": [
-   {
-    "adate": "2021-05-25T10:57:14-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2021-05-25T10:57:14-07:00",
-    "hash": "f931795792d04ea66a8537b1c620e2fda2d9eed2",
-    "parents": "100ee58982dd5d1a24e05fc2b4345369204365e7",
-    "subject": "Remove incorrect 'optional'"
-   },
-   {
-    "adate": "2021-04-26T15:42:37-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2021-05-25T10:56:36-07:00",
-    "hash": "100ee58982dd5d1a24e05fc2b4345369204365e7",
-    "parents": "56b5e8bc3dc84e51bfe5f958b9359c2db10a4d6e",
-    "subject": "Normative: Make SharedArrayBuffer's sole parameter required"
-   }
-  ],
-  "title": "Normative: Make SharedArrayBuffer's sole parameter required",
-  "updated_at": "2021-05-25T17:57:34Z"
  },
  {
   "base": "26061c0e5e4b62fae91a7127b46c1efa8b94c4b4",
