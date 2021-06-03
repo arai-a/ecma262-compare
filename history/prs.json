@@ -3556,9 +3556,9 @@
   "updated_at": "2020-03-27T07:01:43Z"
  },
  {
-  "base": "417a0bb5bc3a6d7117c33cf50803483d9bd7adc1",
+  "base": "f7264bbb5645b0d9163f6420cca250a05ba37378",
   "created_at": "2016-04-16T18:28:04Z",
-  "head": "074f2a304e63ae117369ffc0012580519e62c1d5",
+  "head": "cf17b767b305421f37e42a5fffd9aaedd69c999d",
   "login": "jmdyck",
   "number": 545,
   "ref": "operation_headers",
@@ -3566,22 +3566,22 @@
    {
     "adate": "2021-03-02T23:23:01-05:00",
     "author": "Michael Dyck",
-    "date": "2021-04-05T10:19:27-04:00",
-    "hash": "074f2a304e63ae117369ffc0012580519e62c1d5",
-    "parents": "84bd0a1d2bcdbc4fea455f5b2ac566583beefa6d",
-    "subject": "Introduce operation-headers"
+    "date": "2021-06-03T15:41:49-04:00",
+    "hash": "cf17b767b305421f37e42a5fffd9aaedd69c999d",
+    "parents": "33e5227c77cc7e65f015640e78d1af7d0ed0c481",
+    "subject": "Introduce structured headers"
    },
    {
     "adate": "2021-04-04T19:28:36-07:00",
     "author": "Kevin Gibbons",
-    "date": "2021-04-05T00:02:58-04:00",
-    "hash": "84bd0a1d2bcdbc4fea455f5b2ac566583beefa6d",
-    "parents": "417a0bb5bc3a6d7117c33cf50803483d9bd7adc1",
+    "date": "2021-06-03T15:31:25-04:00",
+    "hash": "33e5227c77cc7e65f015640e78d1af7d0ed0c481",
+    "parents": "f7264bbb5645b0d9163f6420cca250a05ba37378",
     "subject": "use ecmarkup branch"
    }
   ],
   "title": "Replace each abstract op's preamble with a structured 'header'.",
-  "updated_at": "2021-04-05T14:21:38Z"
+  "updated_at": "2021-06-03T20:00:12Z"
  },
  {
   "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
