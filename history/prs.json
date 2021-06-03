@@ -1,34 +1,6 @@
 [
  {
   "base": "56b5e8bc3dc84e51bfe5f958b9359c2db10a4d6e",
-  "created_at": "2021-05-29T00:01:18Z",
-  "head": "80774fe076dc7889099e0a3d8a3781e8c98ab461",
-  "login": "tc39",
-  "number": 2419,
-  "ref": "bump-emu",
-  "revs": [
-   {
-    "adate": "2021-05-28T17:00:07-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-05-28T17:00:34-07:00",
-    "hash": "80774fe076dc7889099e0a3d8a3781e8c98ab461",
-    "parents": "49c0ae1004c3bf9b4f38f0727897cdf7de527283",
-    "subject": "Meta: bump ecmarkup to 7.1.0"
-   },
-   {
-    "adate": "2021-05-28T16:59:53-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-05-28T17:00:03-07:00",
-    "hash": "49c0ae1004c3bf9b4f38f0727897cdf7de527283",
-    "parents": "56b5e8bc3dc84e51bfe5f958b9359c2db10a4d6e",
-    "subject": "Editorial: consistency for capitalization in notes"
-   }
-  ],
-  "title": "Meta: bump ecmarkup to 7.1.0",
-  "updated_at": "2021-05-29T00:01:18Z"
- },
- {
-  "base": "56b5e8bc3dc84e51bfe5f958b9359c2db10a4d6e",
   "created_at": "2021-05-28T11:28:01Z",
   "head": "a9c1e105543a61f894e6862405434be347689ba7",
   "login": "mathiasbynens",
@@ -884,9 +856,9 @@
   "updated_at": "2021-04-09T19:13:20Z"
  },
  {
-  "base": "26061c0e5e4b62fae91a7127b46c1efa8b94c4b4",
+  "base": "f7264bbb5645b0d9163f6420cca250a05ba37378",
   "created_at": "2021-04-08T20:37:22Z",
-  "head": "eff8944f36fbf13ba867ee192fcb76503d167ef1",
+  "head": "c4b551a4040306eb3f905ae4d8a7b5487e6a18f9",
   "login": "jmdyck",
   "number": 2377,
   "ref": "TypedArrayElementFoo",
@@ -894,42 +866,22 @@
    {
     "adate": "2021-04-08T15:43:14-04:00",
     "author": "Michael Dyck",
-    "date": "2021-04-08T15:43:14-04:00",
-    "hash": "eff8944f36fbf13ba867ee192fcb76503d167ef1",
-    "parents": "017cc81427a63b8e16fb1ffd653bfd80ad13369a",
+    "date": "2021-06-02T20:21:21-04:00",
+    "hash": "c4b551a4040306eb3f905ae4d8a7b5487e6a18f9",
+    "parents": "1cf3a8521e1cb76bb1fb566433a1dbf0a83a34c4",
     "subject": "Editorial: Introduce [[ElementType]] and [[ElementSize]] slots"
    },
    {
     "adate": "2021-04-08T15:14:37-04:00",
     "author": "Michael Dyck",
-    "date": "2021-04-08T15:14:37-04:00",
-    "hash": "017cc81427a63b8e16fb1ffd653bfd80ad13369a",
-    "parents": "26061c0e5e4b62fae91a7127b46c1efa8b94c4b4",
+    "date": "2021-06-02T20:21:21-04:00",
+    "hash": "1cf3a8521e1cb76bb1fb566433a1dbf0a83a34c4",
+    "parents": "f7264bbb5645b0d9163f6420cca250a05ba37378",
     "subject": "Editorial: Factor out TypedArrayElement{Size,Type} operations"
    }
   ],
   "title": "Editorial: Simplify getting the Element Type/Size for a TypedArray",
-  "updated_at": "2021-04-08T20:37:22Z"
- },
- {
-  "base": "26061c0e5e4b62fae91a7127b46c1efa8b94c4b4",
-  "created_at": "2021-04-08T13:16:17Z",
-  "head": "b083b70a509f845763dd18661b33c058e10da542",
-  "login": "jmdyck",
-  "number": 2376,
-  "ref": "ValidateTypedArray",
-  "revs": [
-   {
-    "adate": "2021-04-08T08:53:17-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-04-08T08:53:17-04:00",
-    "hash": "b083b70a509f845763dd18661b33c058e10da542",
-    "parents": "26061c0e5e4b62fae91a7127b46c1efa8b94c4b4",
-    "subject": "Editorial: Change ValidateTypedArray so that it doesn't return the buffer"
-   }
-  ],
-  "title": "Editorial: Change ValidateTypedArray to not return the buffer",
-  "updated_at": "2021-04-08T13:16:17Z"
+  "updated_at": "2021-06-03T00:30:10Z"
  },
  {
   "base": "417a0bb5bc3a6d7117c33cf50803483d9bd7adc1",
@@ -1296,13 +1248,21 @@
   "updated_at": "2021-05-13T06:55:16Z"
  },
  {
-  "base": "56b5e8bc3dc84e51bfe5f958b9359c2db10a4d6e",
+  "base": "f7264bbb5645b0d9163f6420cca250a05ba37378",
   "created_at": "2021-01-24T05:38:33Z",
-  "head": "fe7b168302411028e9a1388f1af6b2bf0dd2ba8a",
+  "head": "f958ce05507be77b51cccbd53946019a28a29ec2",
   "login": "jmdyck",
   "number": 2288,
   "ref": "declarative_Env_Rec",
   "revs": [
+   {
+    "adate": "2021-06-02T20:32:59-04:00",
+    "author": "jmdyck",
+    "date": "2021-06-02T20:32:59-04:00",
+    "hash": "f958ce05507be77b51cccbd53946019a28a29ec2",
+    "parents": "fe7b168302411028e9a1388f1af6b2bf0dd2ba8a f7264bbb5645b0d9163f6420cca250a05ba37378",
+    "subject": "Merge branch 'master' into declarative_Env_Rec"
+   },
    {
     "adate": "2021-01-24T00:30:29-05:00",
     "author": "Michael Dyck",
@@ -1345,7 +1305,7 @@
    }
   ],
   "title": "Editorial: Model the bindings of a declarative Env Rec as a List of Records",
-  "updated_at": "2021-05-13T15:52:23Z"
+  "updated_at": "2021-06-03T00:33:00Z"
  },
  {
   "base": "77595f579194f5c79a02a2952f4367a8e3ce9620",
@@ -1464,13 +1424,21 @@
   "updated_at": "2020-12-28T20:39:39Z"
  },
  {
-  "base": "56b5e8bc3dc84e51bfe5f958b9359c2db10a4d6e",
+  "base": "f7264bbb5645b0d9163f6420cca250a05ba37378",
   "created_at": "2020-12-08T06:31:39Z",
-  "head": "8959226c119ec5f8253fcac91326ad8bdea9f762",
+  "head": "9d9e40375a8f87e44cb0b4fd75848972eee22b37",
   "login": "jmdyck",
   "number": 2246,
   "ref": "ExecutionContext_Record",
   "revs": [
+   {
+    "adate": "2021-06-02T20:34:09-04:00",
+    "author": "jmdyck",
+    "date": "2021-06-02T20:34:09-04:00",
+    "hash": "9d9e40375a8f87e44cb0b4fd75848972eee22b37",
+    "parents": "8959226c119ec5f8253fcac91326ad8bdea9f762 f7264bbb5645b0d9163f6420cca250a05ba37378",
+    "subject": "Merge branch 'master' into ExecutionContext_Record"
+   },
    {
     "adate": "2020-12-08T01:22:55-05:00",
     "author": "Michael Dyck",
@@ -1481,7 +1449,7 @@
    }
   ],
   "title": "Editorial: Model execution context as a record",
-  "updated_at": "2021-05-13T18:06:38Z"
+  "updated_at": "2021-06-03T00:34:10Z"
  },
  {
   "base": "b3f9b5089bcc3ddd8486379015cd11eb1427a5eb",
