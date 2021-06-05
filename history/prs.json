@@ -1,5 +1,25 @@
 [
  {
+  "base": "33fe30f9a6b0dc81826f2f217167a89c025779a0",
+  "created_at": "2021-06-05T02:06:27Z",
+  "head": "3216852b65b215aa7abab8e6b9cdddc1e88f620d",
+  "login": "tc39",
+  "number": 2426,
+  "ref": "fix-math-hypot",
+  "revs": [
+   {
+    "adate": "2021-06-04T19:05:31-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-06-04T19:05:31-07:00",
+    "hash": "3216852b65b215aa7abab8e6b9cdddc1e88f620d",
+    "parents": "33fe30f9a6b0dc81826f2f217167a89c025779a0",
+    "subject": "Editorial: fix handling of infinities in Math.hypot"
+   }
+  ],
+  "title": "Editorial: fix handling of infinities in Math.hypot",
+  "updated_at": "2021-06-05T02:12:05Z"
+ },
+ {
   "base": "56b5e8bc3dc84e51bfe5f958b9359c2db10a4d6e",
   "created_at": "2021-05-28T11:28:01Z",
   "head": "a9c1e105543a61f894e6862405434be347689ba7",
