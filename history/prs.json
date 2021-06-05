@@ -286,11 +286,19 @@
  {
   "base": "56b5e8bc3dc84e51bfe5f958b9359c2db10a4d6e",
   "created_at": "2021-05-24T07:00:16Z",
-  "head": "5c328641c4722e499a0efa6b7acb9e0c8ab5a098",
+  "head": "e940e75802b14ef1bac90c20b9b276bad0fb736d",
   "login": "tc39",
   "number": 2413,
   "ref": "rewrite-asyncgenerator-state-machine",
   "revs": [
+   {
+    "adate": "2021-06-05T11:24:15-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-06-05T11:24:15-07:00",
+    "hash": "e940e75802b14ef1bac90c20b9b276bad0fb736d",
+    "parents": "5c328641c4722e499a0efa6b7acb9e0c8ab5a098",
+    "subject": "typo"
+   },
    {
     "adate": "2021-06-05T10:15:35-07:00",
     "author": "Kevin Gibbons",
@@ -341,7 +349,7 @@
    }
   ],
   "title": "Editorial: Clarify the AsyncGenerator state machine",
-  "updated_at": "2021-06-05T17:16:49Z"
+  "updated_at": "2021-06-05T18:24:20Z"
  },
  {
   "base": "56b5e8bc3dc84e51bfe5f958b9359c2db10a4d6e",
