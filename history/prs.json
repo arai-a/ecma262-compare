@@ -1,5 +1,25 @@
 [
  {
+  "base": "33fe30f9a6b0dc81826f2f217167a89c025779a0",
+  "created_at": "2021-06-08T21:37:21Z",
+  "head": "edf03b0e7ad0c4fd1853d81b31fe46088b0fbdcd",
+  "login": "jmdyck",
+  "number": 2430,
+  "ref": "tail_call_returns",
+  "revs": [
+   {
+    "adate": "2021-06-08T17:11:12-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-06-08T17:11:12-04:00",
+    "hash": "edf03b0e7ad0c4fd1853d81b31fe46088b0fbdcd",
+    "parents": "33fe30f9a6b0dc81826f2f217167a89c025779a0",
+    "subject": "Editorial: Eliminate \"weird returns\" from tail-call handling"
+   }
+  ],
+  "title": "Editorial: Eliminate \"weird returns\" from tail-call handling",
+  "updated_at": "2021-06-08T21:37:21Z"
+ },
+ {
   "base": "e940e75802b14ef1bac90c20b9b276bad0fb736d",
   "created_at": "2021-06-06T19:19:12Z",
   "head": "025405587ac080c109226ce215bfe93e207e932d",
