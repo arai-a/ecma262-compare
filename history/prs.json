@@ -96,110 +96,6 @@
   "updated_at": "2021-06-06T19:19:12Z"
  },
  {
-  "base": "33fe30f9a6b0dc81826f2f217167a89c025779a0",
-  "created_at": "2021-06-06T05:48:07Z",
-  "head": "6ee6bb7bd8b2e50f2f3e5b7ec9fb2b277d56fd3b",
-  "login": "tc39",
-  "number": 2428,
-  "ref": "fix-eval-note",
-  "revs": [
-   {
-    "adate": "2021-06-05T22:54:24-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-06-05T22:54:24-07:00",
-    "hash": "6ee6bb7bd8b2e50f2f3e5b7ec9fb2b277d56fd3b",
-    "parents": "826648fe5cb714788bf85b418575422a403e09f5",
-    "subject": "also delete dead note"
-   },
-   {
-    "adate": "2021-06-05T22:45:43-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-06-05T22:45:53-07:00",
-    "hash": "826648fe5cb714788bf85b418575422a403e09f5",
-    "parents": "33fe30f9a6b0dc81826f2f217167a89c025779a0",
-    "subject": "Editorial: fix note about var decls in eval in parameter initializers"
-   }
-  ],
-  "title": "Editorial: fix note about var decls in eval in parameter initializers",
-  "updated_at": "2021-06-06T05:54:31Z"
- },
- {
-  "base": "1272a59fc36955cf44602061f9b3d19b56865f8f",
-  "created_at": "2021-06-05T23:24:23Z",
-  "head": "3d8c15ca69b2452bf847c414319ea20bbfe24dbd",
-  "login": "tc39",
-  "number": 2427,
-  "ref": "misc-editorial-545",
-  "revs": [
-   {
-    "adate": "2021-06-09T08:30:59-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-06-09T08:30:59-07:00",
-    "hash": "3d8c15ca69b2452bf847c414319ea20bbfe24dbd",
-    "parents": "8b4556e293b71351298c4dcfdbfd488f460973a0",
-    "subject": "Editorial: emu-notes in AOs go before \"It performs...\" (#2427)"
-   },
-   {
-    "adate": "2021-06-09T08:30:56-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-06-09T08:30:56-07:00",
-    "hash": "8b4556e293b71351298c4dcfdbfd488f460973a0",
-    "parents": "3efa10e32d64cdb26ea879bb4120e253ee797fd3",
-    "subject": "Editorial: put WaiterList in its own clause (#2427)"
-   },
-   {
-    "adate": "2021-06-09T08:30:53-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-06-09T08:30:53-07:00",
-    "hash": "3efa10e32d64cdb26ea879bb4120e253ee797fd3",
-    "parents": "bdca6e1831c8109593c5caed3dc84df146a19f93",
-    "subject": "Editorial: consistency for preambles Create*Iterator AOs (#2427)"
-   },
-   {
-    "adate": "2021-06-09T08:30:52-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-06-09T08:30:52-07:00",
-    "hash": "bdca6e1831c8109593c5caed3dc84df146a19f93",
-    "parents": "4f48e83a0b903b74f62cc0b84aee94a5fa5878a2",
-    "subject": "Editorial: make preamble for LocalTZA consistent with other AOs (#2427)"
-   },
-   {
-    "adate": "2021-06-09T08:30:49-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-06-09T08:30:49-07:00",
-    "hash": "4f48e83a0b903b74f62cc0b84aee94a5fa5878a2",
-    "parents": "a4098f541a83a59b106632cd6a8e70af4719136a",
-    "subject": "Editorial: move *Instantiation notes to after their preambles (#2427)"
-   },
-   {
-    "adate": "2021-06-09T08:30:47-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-06-09T08:30:47-07:00",
-    "hash": "a4098f541a83a59b106632cd6a8e70af4719136a",
-    "parents": "c1441b61f7fc7475d75eb8830ee681129b2bfda7",
-    "subject": "Editorial: algorithms constraining memory model are not AOs (#2427)"
-   },
-   {
-    "adate": "2021-06-09T08:30:35-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-06-09T08:30:35-07:00",
-    "hash": "c1441b61f7fc7475d75eb8830ee681129b2bfda7",
-    "parents": "6b4724f554cbd7f3ff2eff6195b4fa696418fb56",
-    "subject": "Editorial: drop remaining uses of Concrete Method suffix (#2427)"
-   },
-   {
-    "adate": "2021-06-09T08:30:29-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-06-09T08:30:29-07:00",
-    "hash": "6b4724f554cbd7f3ff2eff6195b4fa696418fb56",
-    "parents": "1272a59fc36955cf44602061f9b3d19b56865f8f",
-    "subject": "Editorial: consistency for FlattenIntoArray's optional args (#2427)"
-   }
-  ],
-  "title": "Editorial: miscellaneous AO-related cleanups",
-  "updated_at": "2021-06-09T15:31:12Z"
- },
- {
   "base": "56b5e8bc3dc84e51bfe5f958b9359c2db10a4d6e",
   "created_at": "2021-05-28T11:28:01Z",
   "head": "a9c1e105543a61f894e6862405434be347689ba7",
@@ -3760,9 +3656,9 @@
   "updated_at": "2020-03-27T07:01:43Z"
  },
  {
-  "base": "33fe30f9a6b0dc81826f2f217167a89c025779a0",
+  "base": "28fb25e845ee129c02e40594670a39f552ca6888",
   "created_at": "2016-04-16T18:28:04Z",
-  "head": "72c59913df31c32085e9e82e64cfb7f811e74931",
+  "head": "df0d293fed66aa2b19baab15151191228b098e8c",
   "login": "jmdyck",
   "number": 545,
   "ref": "operation_headers",
@@ -3770,22 +3666,22 @@
    {
     "adate": "2021-03-02T23:23:01-05:00",
     "author": "Michael Dyck",
-    "date": "2021-06-05T21:10:15-04:00",
-    "hash": "72c59913df31c32085e9e82e64cfb7f811e74931",
-    "parents": "33e5227c77cc7e65f015640e78d1af7d0ed0c481",
-    "subject": "Introduce structured headers (#545)"
+    "date": "2021-06-09T19:48:33-04:00",
+    "hash": "df0d293fed66aa2b19baab15151191228b098e8c",
+    "parents": "62a7731da9bef4d328039869c646f9d868f966c2",
+    "subject": "Markup: Introduce structured headers (#545)"
    },
    {
     "adate": "2021-04-04T19:28:36-07:00",
     "author": "Kevin Gibbons",
-    "date": "2021-06-03T15:31:25-04:00",
-    "hash": "33e5227c77cc7e65f015640e78d1af7d0ed0c481",
-    "parents": "f7264bbb5645b0d9163f6420cca250a05ba37378",
+    "date": "2021-06-09T19:45:48-04:00",
+    "hash": "62a7731da9bef4d328039869c646f9d868f966c2",
+    "parents": "28fb25e845ee129c02e40594670a39f552ca6888",
     "subject": "use ecmarkup branch"
    }
   ],
   "title": "Replace each abstract op's preamble with a structured 'header'.",
-  "updated_at": "2021-06-06T01:12:55Z"
+  "updated_at": "2021-06-09T23:51:52Z"
  },
  {
   "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
