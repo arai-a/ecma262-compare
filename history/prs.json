@@ -398,11 +398,19 @@
  {
   "base": "56b5e8bc3dc84e51bfe5f958b9359c2db10a4d6e",
   "created_at": "2021-05-24T07:00:16Z",
-  "head": "e940e75802b14ef1bac90c20b9b276bad0fb736d",
+  "head": "d17e46d79d64322f4049071d7a6949f142e56ef3",
   "login": "tc39",
   "number": 2413,
   "ref": "rewrite-asyncgenerator-state-machine",
   "revs": [
+   {
+    "adate": "2021-06-11T11:25:16-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-06-11T11:25:16-07:00",
+    "hash": "d17e46d79d64322f4049071d7a6949f142e56ef3",
+    "parents": "e940e75802b14ef1bac90c20b9b276bad0fb736d",
+    "subject": "tweak wording"
+   },
    {
     "adate": "2021-06-05T11:24:15-07:00",
     "author": "Kevin Gibbons",
@@ -461,7 +469,7 @@
    }
   ],
   "title": "Editorial: Clarify the AsyncGenerator state machine",
-  "updated_at": "2021-06-05T18:24:20Z"
+  "updated_at": "2021-06-11T18:25:21Z"
  },
  {
   "base": "28fb25e845ee129c02e40594670a39f552ca6888",
@@ -722,11 +730,19 @@
  {
   "base": "c75497982a8c07e83a13cc5d7d80cdaaa8a337bd",
   "created_at": "2021-04-29T05:08:23Z",
-  "head": "c51809feca71fc612e776149074274abb4620ec4",
+  "head": "013cb9dee76551fd1c3e27d0ad2fa9e45cf07652",
   "login": "tc39",
   "number": 2398,
   "ref": "generator-start",
   "revs": [
+   {
+    "adate": "2021-06-11T11:20:17-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-06-11T11:20:17-07:00",
+    "hash": "013cb9dee76551fd1c3e27d0ad2fa9e45cf07652",
+    "parents": "c51809feca71fc612e776149074274abb4620ec4",
+    "subject": "same change for CreateAsyncIteratorFromClosure"
+   },
    {
     "adate": "2021-04-29T10:00:45-07:00",
     "author": "Kevin Gibbons",
@@ -745,7 +761,7 @@
    }
   ],
   "title": "Editorial: have CreateIteratorFromClosure provide a new execution context to GeneratorStart",
-  "updated_at": "2021-04-29T17:00:55Z"
+  "updated_at": "2021-06-11T18:21:43Z"
  },
  {
   "base": "c75497982a8c07e83a13cc5d7d80cdaaa8a337bd",
