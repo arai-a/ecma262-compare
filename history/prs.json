@@ -984,50 +984,6 @@
   "updated_at": "2021-04-09T08:32:07Z"
  },
  {
-  "base": "28fb25e845ee129c02e40594670a39f552ca6888",
-  "created_at": "2021-04-09T03:49:46Z",
-  "head": "a035e47a051c38bec31b8c4f05cf21af719e15b7",
-  "login": "jmdyck",
-  "number": 2378,
-  "ref": "comparison_as_ao",
-  "revs": [
-   {
-    "adate": "2021-06-10T00:11:05-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-06-10T00:11:05-04:00",
-    "hash": "a035e47a051c38bec31b8c4f05cf21af719e15b7",
-    "parents": "9a1719b871356adcd97af27852a7eeb89ebafe8a",
-    "subject": "Editorial: Make IsLessThan's _LeftFirst_ param required"
-   },
-   {
-    "adate": "2021-04-08T23:39:06-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-06-09T23:53:32-04:00",
-    "hash": "9a1719b871356adcd97af27852a7eeb89ebafe8a",
-    "parents": "7bd501b5c3e09bb910aec2d16618ffbf67fe5cb5",
-    "subject": "Editorial: Recast \"Strict Equality Comparison\""
-   },
-   {
-    "adate": "2021-04-08T23:21:22-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-06-09T23:53:17-04:00",
-    "hash": "7bd501b5c3e09bb910aec2d16618ffbf67fe5cb5",
-    "parents": "bc5693ac786e7540d0244348714e87fd3594c8df",
-    "subject": "Editorial: Recast \"Abstract Equality Comparison\""
-   },
-   {
-    "adate": "2021-04-08T23:19:46-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-06-09T23:52:42-04:00",
-    "hash": "bc5693ac786e7540d0244348714e87fd3594c8df",
-    "parents": "28fb25e845ee129c02e40594670a39f552ca6888",
-    "subject": "Editorial: Recast \"Abstract Relational Comparison\""
-   }
-  ],
-  "title": "Editorial: Recast comparison algorithms as proper abstract operations",
-  "updated_at": "2021-06-10T04:14:50Z"
- },
- {
   "base": "f7264bbb5645b0d9163f6420cca250a05ba37378",
   "created_at": "2021-04-08T20:37:22Z",
   "head": "c4b551a4040306eb3f905ae4d8a7b5487e6a18f9",
@@ -3192,40 +3148,48 @@
   "updated_at": "2021-03-01T03:23:35Z"
  },
  {
-  "base": "6ee57ceffaba8ef0512fe9cbe4be5697fb508b9f",
+  "base": "c7d208f639c493ac221f1c3c4bd6a5c4b4b638b6",
   "created_at": "2019-05-28T03:19:22Z",
-  "head": "7635f3d2410d4ea6b068cd00e326311e904ea518",
+  "head": "d827daf8481bee5d542c38a35ba1a829ed713357",
   "login": "jmdyck",
   "number": 1554,
   "ref": "NumericValue",
   "revs": [
    {
+    "adate": "2021-06-12T11:23:56-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-06-12T11:23:56-04:00",
+    "hash": "d827daf8481bee5d542c38a35ba1a829ed713357",
+    "parents": "ec8a174f79295a594cbcc940ee2040208b08bd0f",
+    "subject": "fixup! copy-paste mistake in NOTE"
+   },
+   {
     "adate": "2020-12-02T17:27:11-05:00",
     "author": "Michael Dyck",
-    "date": "2021-02-13T17:19:55-05:00",
-    "hash": "7635f3d2410d4ea6b068cd00e326311e904ea518",
-    "parents": "cc3a8c83aae4dba0879f044eddc30fb44defdc4e",
-    "subject": "Editorial: Define + use StringToNumber"
+    "date": "2021-06-12T11:18:46-04:00",
+    "hash": "ec8a174f79295a594cbcc940ee2040208b08bd0f",
+    "parents": "930f8eb2fd201f8e7e06f65a4c9fcd150f3621fa",
+    "subject": "Editorial: Define + use StringToNumber (#1554)"
    },
    {
     "adate": "2021-02-06T16:21:02-05:00",
     "author": "Michael Dyck",
-    "date": "2021-02-13T16:44:16-05:00",
-    "hash": "cc3a8c83aae4dba0879f044eddc30fb44defdc4e",
-    "parents": "d6502fe005f30289b8177c94f1476aff833fd743",
-    "subject": "Editorial: Change \"non white space\" to \"non-|StrWhiteSpaceChar|\""
+    "date": "2021-06-12T11:18:04-04:00",
+    "hash": "930f8eb2fd201f8e7e06f65a4c9fcd150f3621fa",
+    "parents": "667d31487932d6ef1f5c9caa52f4e20f04aa80cb",
+    "subject": "Editorial: Change \"non white space\" to \"non-|StrWhiteSpaceChar|\" (#1554)"
    },
    {
     "adate": "2020-12-02T15:59:08-05:00",
     "author": "Michael Dyck",
-    "date": "2021-02-13T16:44:16-05:00",
-    "hash": "d6502fe005f30289b8177c94f1476aff833fd743",
-    "parents": "6ee57ceffaba8ef0512fe9cbe4be5697fb508b9f",
-    "subject": "Editorial: Remove ToNumber's note re surrogates"
+    "date": "2021-06-12T11:17:47-04:00",
+    "hash": "667d31487932d6ef1f5c9caa52f4e20f04aa80cb",
+    "parents": "28fb25e845ee129c02e40594670a39f552ca6888",
+    "subject": "Editorial: Remove ToNumber's note re surrogates (#1554)"
    }
   ],
   "title": "Editorial: Define + use StringToNumber, and better define NumericValue",
-  "updated_at": "2021-02-13T22:24:28Z"
+  "updated_at": "2021-06-12T15:32:59Z"
  },
  {
   "base": "e38ce0627e12ade103c17ffe1cc019fe25602c91",
