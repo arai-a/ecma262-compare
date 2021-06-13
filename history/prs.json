@@ -1966,11 +1966,51 @@
  {
   "base": "c7d208f639c493ac221f1c3c4bd6a5c4b4b638b6",
   "created_at": "2020-07-28T10:58:41Z",
-  "head": "14360889d77eb36b6be3c6858638ff53a4d6fed6",
+  "head": "e09a32960413eac15865aceec57c9db5dd9ea143",
   "login": "ExE-Boss",
   "number": 2115,
   "ref": "editorial/create-builtin-function/fix-internal-slots-list-param",
   "revs": [
+   {
+    "adate": "2021-06-13T09:54:14+02:00",
+    "author": "ExE Boss",
+    "date": "2021-06-13T09:54:14+02:00",
+    "hash": "e09a32960413eac15865aceec57c9db5dd9ea143",
+    "parents": "14360889d77eb36b6be3c6858638ff53a4d6fed6 487fc3e2907d8f182a5ce3259a50dcbb7160a5c3",
+    "subject": "Merge\u00a0pull\u00a0request EB-Forks/ecma262#1 from\u00a0jmdyck/2115_ed"
+   },
+   {
+    "adate": "2021-06-12T23:23:15-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-06-12T23:26:06-04:00",
+    "hash": "487fc3e2907d8f182a5ce3259a50dcbb7160a5c3",
+    "parents": "5a6fa63d1cd9a7d26d686b461c1bf330bdd73980",
+    "subject": "Set [[Prototype]] before [[Extensible]]"
+   },
+   {
+    "adate": "2021-06-12T23:06:35-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-06-12T23:26:06-04:00",
+    "hash": "5a6fa63d1cd9a7d26d686b461c1bf330bdd73980",
+    "parents": "362d75a8ded82b0ab381458cf163b54d870b2e64",
+    "subject": "Reorganize"
+   },
+   {
+    "adate": "2021-06-12T22:38:09-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-06-12T22:38:09-04:00",
+    "hash": "362d75a8ded82b0ab381458cf163b54d870b2e64",
+    "parents": "8a0b58f99d9ab80ad9edbea83ba930e03a4ee9c8",
+    "subject": "_additionalInternalSlotsList_ has no need to be optional"
+   },
+   {
+    "adate": "2021-06-12T22:17:25-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-06-12T22:17:25-04:00",
+    "hash": "8a0b58f99d9ab80ad9edbea83ba930e03a4ee9c8",
+    "parents": "14360889d77eb36b6be3c6858638ff53a4d6fed6",
+    "subject": "PR #2190 dropped the [[ScriptOrModule]] slot for exotic built-ins."
+   },
    {
     "adate": "2020-09-26T00:10:00+02:00",
     "author": "ExE Boss",
@@ -2005,7 +2045,7 @@
    }
   ],
   "title": "Editorial: Define\u00a0required internal\u00a0slots in\u00a0`CreateBuiltinFunction`\u00a0steps",
-  "updated_at": "2021-06-12T20:29:27Z"
+  "updated_at": "2021-06-13T07:54:17Z"
  },
  {
   "base": "d9fea48d771602da19e932e1e084c12bda4c9f41",
