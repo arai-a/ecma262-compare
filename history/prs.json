@@ -2,11 +2,19 @@
  {
   "base": "c7d208f639c493ac221f1c3c4bd6a5c4b4b638b6",
   "created_at": "2021-06-14T21:10:46Z",
-  "head": "8c02b95c92aee5f00a48b705bd3a4701e365fc88",
+  "head": "a8f20fb2b1058e339b1f08a6894ee0436b2ee269",
   "login": "tc39",
   "number": 2435,
   "ref": "mv",
   "revs": [
+   {
+    "adate": "2021-06-14T16:45:16-06:00",
+    "author": "Michael Ficarra",
+    "date": "2021-06-14T16:45:16-06:00",
+    "hash": "a8f20fb2b1058e339b1f08a6894ee0436b2ee269",
+    "parents": "8c02b95c92aee5f00a48b705bd3a4701e365fc88",
+    "subject": "fix linting error"
+   },
    {
     "adate": "2021-06-14T15:01:20-06:00",
     "author": "Michael Ficarra",
@@ -25,7 +33,7 @@
    }
   ],
   "title": "Editorial: refactor runtime MV and add/use RoundStringMVResult",
-  "updated_at": "2021-06-14T21:19:54Z"
+  "updated_at": "2021-06-14T22:45:57Z"
  },
  {
   "base": "28fb25e845ee129c02e40594670a39f552ca6888",
