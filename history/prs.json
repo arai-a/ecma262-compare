@@ -1,5 +1,25 @@
 [
  {
+  "base": "61cc3297c96764a256b02b90005550607371a1d1",
+  "created_at": "2021-06-15T22:18:35Z",
+  "head": "757927687ee99e96e9e39a88f6122716cc3088f2",
+  "login": "mysticatea",
+  "number": 2436,
+  "ref": "move-two-passes-parsing-to-annexb",
+  "revs": [
+   {
+    "adate": "2021-06-14T12:38:54+09:00",
+    "author": "Toru Nagashima",
+    "date": "2021-06-14T12:38:54+09:00",
+    "hash": "757927687ee99e96e9e39a88f6122716cc3088f2",
+    "parents": "c7d208f639c493ac221f1c3c4bd6a5c4b4b638b6",
+    "subject": "Normative: allow named backreferences without `u` flag in non-Annex B"
+   }
+  ],
+  "title": "Normative: allow named backreferences without `u` flag in core grammar",
+  "updated_at": "2021-06-15T22:18:35Z"
+ },
+ {
   "base": "c7d208f639c493ac221f1c3c4bd6a5c4b4b638b6",
   "created_at": "2021-06-14T21:10:46Z",
   "head": "a8f20fb2b1058e339b1f08a6894ee0436b2ee269",
