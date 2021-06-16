@@ -1568,9 +1568,9 @@
   "updated_at": "2021-01-01T03:56:14Z"
  },
  {
-  "base": "6d6b73ab6fe3b070737a5cbded19337a8b9e4c9c",
+  "base": "61cc3297c96764a256b02b90005550607371a1d1",
   "created_at": "2020-12-28T19:27:07Z",
-  "head": "d5dc0cc54307cd598884a6ece2a0759d94d495ef",
+  "head": "ed611b09186d658cce61638b4a18690958a38ce3",
   "login": "ljharb",
   "number": 2260,
   "ref": "travis",
@@ -1578,22 +1578,22 @@
    {
     "adate": "2020-12-28T12:19:35-08:00",
     "author": "Jordan Harband",
-    "date": "2020-12-28T12:19:35-08:00",
-    "hash": "d5dc0cc54307cd598884a6ece2a0759d94d495ef",
-    "parents": "ec15de216f3878ce0ae9cfcf6a6641f08e2b97bd",
+    "date": "2021-06-16T14:52:05-07:00",
+    "hash": "ed611b09186d658cce61638b4a18690958a38ce3",
+    "parents": "27857dce20a97935a29ea75819be4b1d1fc5b76e",
     "subject": "do not merge: remove later"
    },
    {
     "adate": "2020-12-28T11:17:32-08:00",
     "author": "Jordan Harband",
-    "date": "2020-12-28T11:17:32-08:00",
-    "hash": "ec15de216f3878ce0ae9cfcf6a6641f08e2b97bd",
-    "parents": "6d6b73ab6fe3b070737a5cbded19337a8b9e4c9c",
+    "date": "2021-06-16T14:51:23-07:00",
+    "hash": "27857dce20a97935a29ea75819be4b1d1fc5b76e",
+    "parents": "61cc3297c96764a256b02b90005550607371a1d1",
     "subject": "[meta] migrate from travis-ci to Github Actions"
    }
   ],
   "title": "[meta] migrate from travis-ci to Github Actions",
-  "updated_at": "2020-12-28T20:39:39Z"
+  "updated_at": "2021-06-16T21:52:14Z"
  },
  {
   "base": "f7264bbb5645b0d9163f6420cca250a05ba37378",
