@@ -2120,40 +2120,24 @@
   "updated_at": "2021-03-04T15:08:11Z"
  },
  {
-  "base": "d9e56927df060215f849199fd9055fb39c4213de",
+  "base": "61cc3297c96764a256b02b90005550607371a1d1",
   "created_at": "2020-07-21T23:30:52Z",
-  "head": "c36adafc694c974f0a41cd6b89e1326884d7d906",
+  "head": "b320097dcc3d533607186276129f2c509b92e2a1",
   "login": "ExE-Boss",
   "number": 2109,
   "ref": "editorial/create-builtin-function/support-abstract-closures",
   "revs": [
    {
-    "adate": "2021-06-16T19:31:05-06:00",
-    "author": "Michael Ficarra",
-    "date": "2021-06-16T19:31:05-06:00",
-    "hash": "c36adafc694c974f0a41cd6b89e1326884d7d906",
-    "parents": "a7f95b9e1ff3560c43132b37034a5c71409002fc",
-    "subject": "change alias name"
-   },
-   {
-    "adate": "2021-06-16T18:58:10-06:00",
-    "author": "Michael Ficarra",
-    "date": "2021-06-16T18:58:10-06:00",
-    "hash": "a7f95b9e1ff3560c43132b37034a5c71409002fc",
-    "parents": "c7d208f639c493ac221f1c3c4bd6a5c4b4b638b6 faf5454e6c49893e8624b54526a0f751870ad898",
-    "subject": "Merge branch 'editorial/create-builtin-function/support-abstract-closures' of git://github.com/ExE-Boss/ecma262 into ExE-Boss-editorial/create-builtin-function/support-abstract-closures"
-   },
-   {
     "adate": "2021-02-19T14:20:00+01:00",
     "author": "ExE Boss",
-    "date": "2021-03-01T05:06:43+01:00",
-    "hash": "faf5454e6c49893e8624b54526a0f751870ad898",
-    "parents": "d9e56927df060215f849199fd9055fb39c4213de",
+    "date": "2021-06-17T11:39:59+02:00",
+    "hash": "b320097dcc3d533607186276129f2c509b92e2a1",
+    "parents": "61cc3297c96764a256b02b90005550607371a1d1",
     "subject": "Editorial: Add\u00a0support for\u00a0Abstract\u00a0Closures to\u00a0`CreateBuiltinFunction`"
    }
   ],
   "title": "Editorial: Add\u00a0support for\u00a0Abstract\u00a0Closures to\u00a0`CreateBuiltinFunction`",
-  "updated_at": "2021-06-17T01:35:46Z"
+  "updated_at": "2021-06-17T09:41:02Z"
  },
  {
   "base": "69f53492cf8e735c84f8f859b930576c4ce9251b",
