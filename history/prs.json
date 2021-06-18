@@ -1210,7 +1210,7 @@
  {
   "base": "61cc3297c96764a256b02b90005550607371a1d1",
   "created_at": "2021-03-01T21:34:48Z",
-  "head": "fde08e7fc69164c015caa91ffb27efebf328c9e3",
+  "head": "4a4882a9c737f95e7660815ab338f8d268b03eef",
   "login": "ljharb",
   "number": 2337,
   "ref": "master",
@@ -1218,22 +1218,22 @@
    {
     "adate": "2020-12-28T12:19:35-08:00",
     "author": "Jordan Harband",
-    "date": "2021-06-18T08:56:55-07:00",
-    "hash": "fde08e7fc69164c015caa91ffb27efebf328c9e3",
-    "parents": "6124c018496e91c4d642ac3110b91367e2aebdf5",
+    "date": "2021-06-18T09:22:56-07:00",
+    "hash": "4a4882a9c737f95e7660815ab338f8d268b03eef",
+    "parents": "9f29bf40175e304abc1fd8a0e503f7f9492243ff",
     "subject": "do not merge: remove later"
    },
    {
     "adate": "2020-12-28T11:17:32-08:00",
     "author": "Jordan Harband",
-    "date": "2021-06-18T08:56:53-07:00",
-    "hash": "6124c018496e91c4d642ac3110b91367e2aebdf5",
+    "date": "2021-06-18T09:22:56-07:00",
+    "hash": "9f29bf40175e304abc1fd8a0e503f7f9492243ff",
     "parents": "61cc3297c96764a256b02b90005550607371a1d1",
     "subject": "[meta] migrate from travis-ci to Github Actions"
    }
   ],
   "title": "Meta: refactor scripts to ensure /2020/ build works properly",
-  "updated_at": "2021-06-18T16:00:32Z"
+  "updated_at": "2021-06-18T16:23:07Z"
  },
  {
   "base": "417a0bb5bc3a6d7117c33cf50803483d9bd7adc1",
@@ -1586,7 +1586,7 @@
  {
   "base": "61cc3297c96764a256b02b90005550607371a1d1",
   "created_at": "2020-12-28T19:27:07Z",
-  "head": "fde08e7fc69164c015caa91ffb27efebf328c9e3",
+  "head": "4a4882a9c737f95e7660815ab338f8d268b03eef",
   "login": "ljharb",
   "number": 2260,
   "ref": "travis",
@@ -1594,22 +1594,22 @@
    {
     "adate": "2020-12-28T12:19:35-08:00",
     "author": "Jordan Harband",
-    "date": "2021-06-18T08:56:55-07:00",
-    "hash": "fde08e7fc69164c015caa91ffb27efebf328c9e3",
-    "parents": "6124c018496e91c4d642ac3110b91367e2aebdf5",
+    "date": "2021-06-18T09:22:56-07:00",
+    "hash": "4a4882a9c737f95e7660815ab338f8d268b03eef",
+    "parents": "9f29bf40175e304abc1fd8a0e503f7f9492243ff",
     "subject": "do not merge: remove later"
    },
    {
     "adate": "2020-12-28T11:17:32-08:00",
     "author": "Jordan Harband",
-    "date": "2021-06-18T08:56:53-07:00",
-    "hash": "6124c018496e91c4d642ac3110b91367e2aebdf5",
+    "date": "2021-06-18T09:22:56-07:00",
+    "hash": "9f29bf40175e304abc1fd8a0e503f7f9492243ff",
     "parents": "61cc3297c96764a256b02b90005550607371a1d1",
     "subject": "[meta] migrate from travis-ci to Github Actions"
    }
   ],
   "title": "[meta] migrate from travis-ci to Github Actions",
-  "updated_at": "2021-06-18T15:57:04Z"
+  "updated_at": "2021-06-18T16:23:04Z"
  },
  {
   "base": "f7264bbb5645b0d9163f6420cca250a05ba37378",
