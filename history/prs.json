@@ -2,78 +2,86 @@
  {
   "base": "fbdf389222155b79dfc28c143650da0ee76ddb23",
   "created_at": "2021-06-20T23:19:03Z",
-  "head": "e266aad8f963787034df759656a183f448b86241",
+  "head": "073baa24705189174116ccabbbd5b71fc04ed7ee",
   "login": "tc39",
   "number": 2439,
   "ref": "more-abstract-closures",
   "revs": [
    {
+    "adate": "2021-06-20T21:05:32-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-06-20T21:05:32-07:00",
+    "hash": "073baa24705189174116ccabbbd5b71fc04ed7ee",
+    "parents": "96c0b63a9b9745c097270d78b373020973be7b1e",
+    "subject": "Editorial: use abstract closures in MakeArg{Getter,Setter}"
+   },
+   {
     "adate": "2021-06-20T16:06:28-07:00",
     "author": "Kevin Gibbons",
-    "date": "2021-06-20T16:06:28-07:00",
-    "hash": "e266aad8f963787034df759656a183f448b86241",
-    "parents": "456c70b65e52b9cd105de2678b8a4fe149d25fa6",
+    "date": "2021-06-20T20:59:45-07:00",
+    "hash": "96c0b63a9b9745c097270d78b373020973be7b1e",
+    "parents": "decae743a76ac8ba851735febb9052ae240f091a",
     "subject": "Editorial: use abstract closure in Proxy.revocable"
    },
    {
     "adate": "2021-06-20T15:47:12-07:00",
     "author": "Kevin Gibbons",
-    "date": "2021-06-20T16:02:39-07:00",
-    "hash": "456c70b65e52b9cd105de2678b8a4fe149d25fa6",
-    "parents": "eda893ab718d1a297d104904738dc41f25fedd3a",
+    "date": "2021-06-20T20:59:45-07:00",
+    "hash": "decae743a76ac8ba851735febb9052ae240f091a",
+    "parents": "9c02c7d9827b6b2a3a7196321fe2a901e0ee1246",
     "subject": "Editorial: use abstract closures in AsyncGeneratorResumeNext"
    },
    {
     "adate": "2021-06-20T15:41:38-07:00",
     "author": "Kevin Gibbons",
-    "date": "2021-06-20T16:02:39-07:00",
-    "hash": "eda893ab718d1a297d104904738dc41f25fedd3a",
-    "parents": "a86e44e9290300783591c1a4905991847da9480f",
+    "date": "2021-06-20T20:59:41-07:00",
+    "hash": "9c02c7d9827b6b2a3a7196321fe2a901e0ee1246",
+    "parents": "fafc2d9d56c111777b96688bd9c48acd93cc1a4c",
     "subject": "Editorial: less handwaving in Promise.prototype.finally"
    },
    {
     "adate": "2021-06-20T15:38:01-07:00",
     "author": "Kevin Gibbons",
-    "date": "2021-06-20T16:02:39-07:00",
-    "hash": "a86e44e9290300783591c1a4905991847da9480f",
-    "parents": "52e9936f1f92a210ff29026138dccb406dcc3944",
+    "date": "2021-06-20T20:59:18-07:00",
+    "hash": "fafc2d9d56c111777b96688bd9c48acd93cc1a4c",
+    "parents": "892a7a563ea15ca92d49b59875114c0fba8fe9e9",
     "subject": "Editorial: use abstract closure in Promise.prototype.finally"
    },
    {
     "adate": "2021-06-20T15:20:13-07:00",
     "author": "Kevin Gibbons",
-    "date": "2021-06-20T16:02:36-07:00",
-    "hash": "52e9936f1f92a210ff29026138dccb406dcc3944",
-    "parents": "e65b753944bd53705b087e47d51e4b0a24dde74e",
+    "date": "2021-06-20T20:59:18-07:00",
+    "hash": "892a7a563ea15ca92d49b59875114c0fba8fe9e9",
+    "parents": "ab6de64b3f4b5c9bb25c235eb754d55b50bca645",
     "subject": "Editorial: use abstract closure in NewPromiseCapability"
    },
    {
     "adate": "2021-06-20T15:14:34-07:00",
     "author": "Kevin Gibbons",
-    "date": "2021-06-20T15:14:34-07:00",
-    "hash": "e65b753944bd53705b087e47d51e4b0a24dde74e",
-    "parents": "a789566005f678c21c8b818d6201906a7d018ccb",
+    "date": "2021-06-20T20:59:18-07:00",
+    "hash": "ab6de64b3f4b5c9bb25c235eb754d55b50bca645",
+    "parents": "160e00bd3dc96dd5814bca7b71711b8b41b4e68e",
     "subject": "Editorial: use abstract closure in AsyncFromSyncIteratorContinuation"
    },
    {
     "adate": "2021-06-20T15:05:27-07:00",
     "author": "Kevin Gibbons",
-    "date": "2021-06-20T15:05:27-07:00",
-    "hash": "a789566005f678c21c8b818d6201906a7d018ccb",
-    "parents": "7f898c58d85ceaf5b28bf7a23c4b9cd8ebe5b379",
+    "date": "2021-06-20T20:59:18-07:00",
+    "hash": "160e00bd3dc96dd5814bca7b71711b8b41b4e68e",
+    "parents": "f2fd99c283e3c7629273ef186f833660af7be850",
     "subject": "Editorial: use abstract closure for default constructor"
    },
    {
     "adate": "2021-06-20T13:53:35-07:00",
     "author": "Kevin Gibbons",
-    "date": "2021-06-20T13:53:35-07:00",
-    "hash": "7f898c58d85ceaf5b28bf7a23c4b9cd8ebe5b379",
+    "date": "2021-06-20T20:59:17-07:00",
+    "hash": "f2fd99c283e3c7629273ef186f833660af7be850",
     "parents": "fbdf389222155b79dfc28c143650da0ee76ddb23",
     "subject": "Editorial: use abstract closures in Await"
    }
   ],
   "title": "Editorial: use abstract closures for anonymous functions in more places",
-  "updated_at": "2021-06-20T23:19:03Z"
+  "updated_at": "2021-06-21T04:05:44Z"
  },
  {
   "base": "61cc3297c96764a256b02b90005550607371a1d1",
