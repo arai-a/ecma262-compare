@@ -106,11 +106,19 @@
  {
   "base": "c7d208f639c493ac221f1c3c4bd6a5c4b4b638b6",
   "created_at": "2021-06-14T21:10:46Z",
-  "head": "dd517634ebae3c1010fc6a492398172f589ac319",
+  "head": "c1dfa98e2fae43734c174ef44948185f74dab2cb",
   "login": "tc39",
   "number": 2435,
   "ref": "mv",
   "revs": [
+   {
+    "adate": "2021-06-22T13:39:15-06:00",
+    "author": "Michael Ficarra",
+    "date": "2021-06-22T13:39:15-06:00",
+    "hash": "c1dfa98e2fae43734c174ef44948185f74dab2cb",
+    "parents": "dd517634ebae3c1010fc6a492398172f589ac319",
+    "subject": "don't round NonDecimalIntegerLiteral"
+   },
    {
     "adate": "2021-06-22T12:18:30-06:00",
     "author": "Michael Ficarra",
@@ -177,7 +185,7 @@
    }
   ],
   "title": "Editorial: extract StringNumericValue from MV and add/use RoundStringMVResult helper",
-  "updated_at": "2021-06-22T18:18:45Z"
+  "updated_at": "2021-06-22T19:41:39Z"
  },
  {
   "base": "28fb25e845ee129c02e40594670a39f552ca6888",
