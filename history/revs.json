@@ -1,5 +1,53 @@
 [
  {
+  "adate": "2021-06-23T22:21:44-07:00",
+  "author": "Kevin Gibbons",
+  "date": "2021-06-23T22:22:32-07:00",
+  "hash": "6d3c629bca14264170f74ad64f8c0c11b379b901",
+  "parents": "08d2018808074bcff2270b4abfbe47898ae123a3",
+  "subject": "Editorial: use abstract closures in MakeArg{Getter,Setter} (#2439)"
+ },
+ {
+  "adate": "2021-06-23T22:21:33-07:00",
+  "author": "Kevin Gibbons",
+  "date": "2021-06-23T22:22:32-07:00",
+  "hash": "a5645b023b6d459878e2c646c3f99fb6229cc49a",
+  "parents": "9254e1afb61d4b1f798bb3396a4ba3d91af68088",
+  "subject": "Editorial: use abstract closure in Promise.prototype.finally (#2439)"
+ },
+ {
+  "adate": "2021-06-23T22:21:31-07:00",
+  "author": "Kevin Gibbons",
+  "date": "2021-06-23T22:22:32-07:00",
+  "hash": "9254e1afb61d4b1f798bb3396a4ba3d91af68088",
+  "parents": "b2680838fac4823b841508b9948694d269910e9d",
+  "subject": "Editorial: use abstract closure in NewPromiseCapability (#2439)"
+ },
+ {
+  "adate": "2021-06-23T22:21:30-07:00",
+  "author": "Kevin Gibbons",
+  "date": "2021-06-23T22:22:32-07:00",
+  "hash": "b2680838fac4823b841508b9948694d269910e9d",
+  "parents": "148089bfa535e069dd1ae6c658704d404512f8c3",
+  "subject": "Editorial: use abstract closure in AsyncFromSyncIteratorContinuation (#2439)"
+ },
+ {
+  "adate": "2021-06-23T22:21:24-07:00",
+  "author": "Kevin Gibbons",
+  "date": "2021-06-23T22:22:32-07:00",
+  "hash": "148089bfa535e069dd1ae6c658704d404512f8c3",
+  "parents": "2ae1ebb88a454398d6be54a941c6c178b6090f98",
+  "subject": "Editorial: use abstract closure for default constructor (#2439)"
+ },
+ {
+  "adate": "2021-06-23T22:21:13-07:00",
+  "author": "Kevin Gibbons",
+  "date": "2021-06-23T22:22:32-07:00",
+  "hash": "2ae1ebb88a454398d6be54a941c6c178b6090f98",
+  "parents": "fbdf389222155b79dfc28c143650da0ee76ddb23",
+  "subject": "Editorial: use abstract closures in Await (#2439)"
+ },
+ {
   "adate": "2021-02-19T14:20:00+01:00",
   "author": "ExE Boss",
   "date": "2021-06-20T09:26:04-07:00",

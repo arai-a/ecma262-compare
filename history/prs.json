@@ -68,90 +68,6 @@
   "updated_at": "2021-06-24T02:12:04Z"
  },
  {
-  "base": "fbdf389222155b79dfc28c143650da0ee76ddb23",
-  "created_at": "2021-06-20T23:19:03Z",
-  "head": "9eb54b22c9c6cee372e03e361c542de9d4b9eb2b",
-  "login": "tc39",
-  "number": 2439,
-  "ref": "more-abstract-closures",
-  "revs": [
-   {
-    "adate": "2021-06-20T21:05:32-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-06-23T18:59:01-07:00",
-    "hash": "9eb54b22c9c6cee372e03e361c542de9d4b9eb2b",
-    "parents": "d12e84bdbf6d5e8527513e84c69fce7b229b4220",
-    "subject": "Editorial: use abstract closures in MakeArg{Getter,Setter}"
-   },
-   {
-    "adate": "2021-06-20T16:06:28-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-06-23T18:59:01-07:00",
-    "hash": "d12e84bdbf6d5e8527513e84c69fce7b229b4220",
-    "parents": "c8106e53b68c9318234429eed89c6dcab77eee06",
-    "subject": "Editorial: use abstract closure in Proxy.revocable"
-   },
-   {
-    "adate": "2021-06-20T15:47:12-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-06-23T18:59:01-07:00",
-    "hash": "c8106e53b68c9318234429eed89c6dcab77eee06",
-    "parents": "ab54309924ac62e4beab97cd4fc66801933627e7",
-    "subject": "Editorial: use abstract closures in AsyncGeneratorResumeNext"
-   },
-   {
-    "adate": "2021-06-20T15:41:38-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-06-23T18:59:01-07:00",
-    "hash": "ab54309924ac62e4beab97cd4fc66801933627e7",
-    "parents": "bd73ec05316b3182691f99577db61ea74dddc2f7",
-    "subject": "Editorial: less handwaving in Promise.prototype.finally"
-   },
-   {
-    "adate": "2021-06-20T15:38:01-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-06-23T18:59:01-07:00",
-    "hash": "bd73ec05316b3182691f99577db61ea74dddc2f7",
-    "parents": "6ff0cd50b00b582622c492b90693477435c4bd05",
-    "subject": "Editorial: use abstract closure in Promise.prototype.finally"
-   },
-   {
-    "adate": "2021-06-20T15:20:13-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-06-23T18:59:01-07:00",
-    "hash": "6ff0cd50b00b582622c492b90693477435c4bd05",
-    "parents": "66ce82b0f1c070c18e199ac136500eff82a1f0b3",
-    "subject": "Editorial: use abstract closure in NewPromiseCapability"
-   },
-   {
-    "adate": "2021-06-20T15:14:34-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-06-23T18:59:01-07:00",
-    "hash": "66ce82b0f1c070c18e199ac136500eff82a1f0b3",
-    "parents": "cd72347b29b612b5455eceb004f8edbb5116ce36",
-    "subject": "Editorial: use abstract closure in AsyncFromSyncIteratorContinuation"
-   },
-   {
-    "adate": "2021-06-20T15:05:27-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-06-23T18:59:01-07:00",
-    "hash": "cd72347b29b612b5455eceb004f8edbb5116ce36",
-    "parents": "c3062bdaedc9d8ebe20d21fd9481dae10756bc89",
-    "subject": "Editorial: use abstract closure for default constructor"
-   },
-   {
-    "adate": "2021-06-20T13:53:35-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-06-23T18:59:00-07:00",
-    "hash": "c3062bdaedc9d8ebe20d21fd9481dae10756bc89",
-    "parents": "fbdf389222155b79dfc28c143650da0ee76ddb23",
-    "subject": "Editorial: use abstract closures in Await"
-   }
-  ],
-  "title": "Editorial: use abstract closures for anonymous functions in more places",
-  "updated_at": "2021-06-24T02:01:47Z"
- },
- {
   "base": "61cc3297c96764a256b02b90005550607371a1d1",
   "created_at": "2021-06-15T22:18:35Z",
   "head": "757927687ee99e96e9e39a88f6122716cc3088f2",
@@ -1384,9 +1300,9 @@
   "updated_at": "2021-05-13T15:12:50Z"
  },
  {
-  "base": "fbdf389222155b79dfc28c143650da0ee76ddb23",
+  "base": "6d3c629bca14264170f74ad64f8c0c11b379b901",
   "created_at": "2021-03-01T21:34:48Z",
-  "head": "45cf6b45c15fcba1307c2495cd83a504a17d8cc7",
+  "head": "863d66d483a9527a6975aa3a1dcca44d4fbc094b",
   "login": "ljharb",
   "number": 2337,
   "ref": "master",
@@ -1394,22 +1310,22 @@
    {
     "adate": "2020-12-28T12:19:35-08:00",
     "author": "Jordan Harband",
-    "date": "2021-06-20T13:13:16-07:00",
-    "hash": "45cf6b45c15fcba1307c2495cd83a504a17d8cc7",
-    "parents": "cc1baf9327089756fccff46d39ef265d3a98106c",
+    "date": "2021-06-23T22:27:10-07:00",
+    "hash": "863d66d483a9527a6975aa3a1dcca44d4fbc094b",
+    "parents": "b4e31f61f892a5fe35585b24411691bbb104d0c0",
     "subject": "do not merge: remove later"
    },
    {
-    "adate": "2020-12-28T11:17:32-08:00",
+    "adate": "2021-06-23T16:25:34-07:00",
     "author": "Jordan Harband",
-    "date": "2021-06-20T13:13:16-07:00",
-    "hash": "cc1baf9327089756fccff46d39ef265d3a98106c",
-    "parents": "fbdf389222155b79dfc28c143650da0ee76ddb23",
-    "subject": "[meta] migrate from travis-ci to Github Actions"
+    "date": "2021-06-23T22:26:04-07:00",
+    "hash": "b4e31f61f892a5fe35585b24411691bbb104d0c0",
+    "parents": "6d3c629bca14264170f74ad64f8c0c11b379b901",
+    "subject": "Meta: migrate from travis-ci to Github Actions (#2260)"
    }
   ],
   "title": "Meta: refactor scripts to ensure /2020/ build works properly",
-  "updated_at": "2021-06-20T20:13:33Z"
+  "updated_at": "2021-06-24T05:27:33Z"
  },
  {
   "base": "417a0bb5bc3a6d7117c33cf50803483d9bd7adc1",
@@ -1760,9 +1676,9 @@
   "updated_at": "2021-01-01T03:56:14Z"
  },
  {
-  "base": "fbdf389222155b79dfc28c143650da0ee76ddb23",
+  "base": "6d3c629bca14264170f74ad64f8c0c11b379b901",
   "created_at": "2020-12-28T19:27:07Z",
-  "head": "93f9915a3ee0e0e24bb59c06b8c01e0d0511fce1",
+  "head": "b4e31f61f892a5fe35585b24411691bbb104d0c0",
   "login": "ljharb",
   "number": 2260,
   "ref": "travis",
@@ -1770,14 +1686,14 @@
    {
     "adate": "2021-06-23T16:25:34-07:00",
     "author": "Jordan Harband",
-    "date": "2021-06-23T22:05:21-07:00",
-    "hash": "93f9915a3ee0e0e24bb59c06b8c01e0d0511fce1",
-    "parents": "fbdf389222155b79dfc28c143650da0ee76ddb23",
+    "date": "2021-06-23T22:26:04-07:00",
+    "hash": "b4e31f61f892a5fe35585b24411691bbb104d0c0",
+    "parents": "6d3c629bca14264170f74ad64f8c0c11b379b901",
     "subject": "Meta: migrate from travis-ci to Github Actions (#2260)"
    }
   ],
   "title": "Meta: migrate from travis-ci to Github Actions",
-  "updated_at": "2021-06-24T05:05:27Z"
+  "updated_at": "2021-06-24T05:26:11Z"
  },
  {
   "base": "f7264bbb5645b0d9163f6420cca250a05ba37378",
