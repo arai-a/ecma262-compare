@@ -257,6 +257,12 @@ class LocalRepository:
                        check=True)
 
     @classmethod
+    def reset(cls):
+        subprocess.run(['git', 'reset', '--hard'],
+                       cwd=cls.DIR,
+                       check=True)
+
+    @classmethod
     def fetch(cls, remote, branch):
         subprocess.run(['git', 'fetch', remote, branch],
                        cwd=cls.DIR,
@@ -709,6 +715,8 @@ class RevisionRenderer:
             updated2 = cls.__json(sha, prnum, skip_cache)
             return updated1 or updated2
         except BuildFailureException:
+            LocalRepository.reset()
+
             Config.add_broken_rev(sha)
             Logger.info('Skipping build failure {}'.format(sha))
             return False
