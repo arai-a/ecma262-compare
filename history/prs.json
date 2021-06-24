@@ -2,11 +2,19 @@
  {
   "base": "fbdf389222155b79dfc28c143650da0ee76ddb23",
   "created_at": "2021-06-24T02:02:32Z",
-  "head": "1d44e05b0de9274173d705446eb87243fe48d392",
+  "head": "9475b14c949392e60dc9ecca5e0664799cbbdb61",
   "login": "syg",
   "number": 2442,
   "ref": "restrict-host-hooks-completions",
   "revs": [
+   {
+    "adate": "2021-06-24T11:43:19-07:00",
+    "author": "Shu-yu Guo",
+    "date": "2021-06-24T11:43:19-07:00",
+    "hash": "9475b14c949392e60dc9ecca5e0664799cbbdb61",
+    "parents": "1d44e05b0de9274173d705446eb87243fe48d392",
+    "subject": "Missed an alias"
+   },
    {
     "adate": "2021-06-24T10:58:27-07:00",
     "author": "Shu-yu Guo",
@@ -33,7 +41,7 @@
    }
   ],
   "title": "Normative: Constrain all host hooks to return either normal or throw completions",
-  "updated_at": "2021-06-24T18:10:41Z"
+  "updated_at": "2021-06-24T19:02:35Z"
  },
  {
   "base": "fbdf389222155b79dfc28c143650da0ee76ddb23",
@@ -56,9 +64,9 @@
   "updated_at": "2021-06-23T13:25:39Z"
  },
  {
-  "base": "fbdf389222155b79dfc28c143650da0ee76ddb23",
+  "base": "6d3c629bca14264170f74ad64f8c0c11b379b901",
   "created_at": "2021-06-23T04:21:23Z",
-  "head": "9eb762e2736592446707e5b397f8609ca8333bd6",
+  "head": "5319cfe5f2fe0690c508ed220826b543a0cb9028",
   "login": "rbuckton",
   "number": 2440,
   "ref": "class-static-block",
@@ -66,8 +74,8 @@
    {
     "adate": "2021-06-23T19:11:57-07:00",
     "author": "Ron Buckton",
-    "date": "2021-06-23T19:11:57-07:00",
-    "hash": "9eb762e2736592446707e5b397f8609ca8333bd6",
+    "date": "2021-06-24T13:19:50-07:00",
+    "hash": "5319cfe5f2fe0690c508ed220826b543a0cb9028",
     "parents": "d7353ded9f4df5f0ed04d6c45ee648e9259409f1",
     "subject": "PR Feedback"
    },
@@ -81,7 +89,7 @@
    }
   ],
   "title": "Normative: Add class `static` initialization blocks",
-  "updated_at": "2021-06-24T02:12:04Z"
+  "updated_at": "2021-06-24T22:58:33Z"
  },
  {
   "base": "61cc3297c96764a256b02b90005550607371a1d1",
@@ -3848,9 +3856,9 @@
   "updated_at": "2020-03-27T07:01:43Z"
  },
  {
-  "base": "fbdf389222155b79dfc28c143650da0ee76ddb23",
+  "base": "6d3c629bca14264170f74ad64f8c0c11b379b901",
   "created_at": "2016-04-16T18:28:04Z",
-  "head": "7c142266478be17c46b44815d21728bf7285302c",
+  "head": "c8ae63de2532668888f15d3c49be2dbaad585e78",
   "login": "jmdyck",
   "number": 545,
   "ref": "operation_headers",
@@ -3858,22 +3866,22 @@
    {
     "adate": "2021-03-02T23:23:01-05:00",
     "author": "Michael Dyck",
-    "date": "2021-06-21T21:41:04-04:00",
-    "hash": "7c142266478be17c46b44815d21728bf7285302c",
-    "parents": "b49b922c9610f9e62a858cc4cbe2ae98dbafc8f2",
+    "date": "2021-06-24T14:12:40-04:00",
+    "hash": "c8ae63de2532668888f15d3c49be2dbaad585e78",
+    "parents": "32c1251d2f099f8108ba27f1211b142b73fc3f8b",
     "subject": "Markup: Introduce structured headers (#545)"
    },
    {
     "adate": "2021-04-04T19:28:36-07:00",
     "author": "Kevin Gibbons",
-    "date": "2021-06-21T21:36:08-04:00",
-    "hash": "b49b922c9610f9e62a858cc4cbe2ae98dbafc8f2",
-    "parents": "fbdf389222155b79dfc28c143650da0ee76ddb23",
+    "date": "2021-06-24T13:56:37-04:00",
+    "hash": "32c1251d2f099f8108ba27f1211b142b73fc3f8b",
+    "parents": "6d3c629bca14264170f74ad64f8c0c11b379b901",
     "subject": "use ecmarkup branch"
    }
   ],
   "title": "Replace each abstract op's preamble with a structured 'header'.",
-  "updated_at": "2021-06-22T01:45:19Z"
+  "updated_at": "2021-06-24T18:14:00Z"
  },
  {
   "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
