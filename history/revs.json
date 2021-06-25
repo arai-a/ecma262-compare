@@ -1,11 +1,35 @@
 [
  {
+  "adate": "2021-06-23T16:25:34-07:00",
+  "author": "Jordan Harband",
+  "date": "2021-06-23T22:26:04-07:00",
+  "hash": "b4e31f61f892a5fe35585b24411691bbb104d0c0",
+  "parents": "6d3c629bca14264170f74ad64f8c0c11b379b901",
+  "subject": "Meta: migrate from travis-ci to Github Actions (#2260)"
+ },
+ {
   "adate": "2021-06-23T22:21:44-07:00",
   "author": "Kevin Gibbons",
   "date": "2021-06-23T22:22:32-07:00",
   "hash": "6d3c629bca14264170f74ad64f8c0c11b379b901",
   "parents": "08d2018808074bcff2270b4abfbe47898ae123a3",
   "subject": "Editorial: use abstract closures in MakeArg{Getter,Setter} (#2439)"
+ },
+ {
+  "adate": "2021-06-23T22:21:40-07:00",
+  "author": "Kevin Gibbons",
+  "date": "2021-06-23T22:22:32-07:00",
+  "hash": "08d2018808074bcff2270b4abfbe47898ae123a3",
+  "parents": "5872981fa21b518af43a9daf504f91081577416f",
+  "subject": "Editorial: use abstract closure in Proxy.revocable (#2439)"
+ },
+ {
+  "adate": "2021-06-23T22:21:38-07:00",
+  "author": "Kevin Gibbons",
+  "date": "2021-06-23T22:22:32-07:00",
+  "hash": "5872981fa21b518af43a9daf504f91081577416f",
+  "parents": "a5645b023b6d459878e2c646c3f99fb6229cc49a",
+  "subject": "Editorial: use abstract closures in AsyncGeneratorResumeNext (#2439)"
  },
  {
   "adate": "2021-06-23T22:21:33-07:00",

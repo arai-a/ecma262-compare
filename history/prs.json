@@ -1540,24 +1540,24 @@
   "updated_at": "2021-02-10T15:55:26Z"
  },
  {
-  "base": "56b5e8bc3dc84e51bfe5f958b9359c2db10a4d6e",
+  "base": "b4e31f61f892a5fe35585b24411691bbb104d0c0",
   "created_at": "2021-01-27T22:19:35Z",
-  "head": "3918c444730d73274fb3331e0cf275c3d9c111d3",
+  "head": "b74032c0b245fcbddb41124a338fa09f865f7d1d",
   "login": "ljharb",
   "number": 2290,
   "ref": "private-fields-in-in",
   "revs": [
    {
-    "adate": "2021-05-12T16:41:34-07:00",
+    "adate": "2021-06-25T12:10:50-07:00",
     "author": "Jordan Harband",
-    "date": "2021-05-12T23:36:24-07:00",
-    "hash": "3918c444730d73274fb3331e0cf275c3d9c111d3",
-    "parents": "56b5e8bc3dc84e51bfe5f958b9359c2db10a4d6e",
+    "date": "2021-06-25T12:10:50-07:00",
+    "hash": "b74032c0b245fcbddb41124a338fa09f865f7d1d",
+    "parents": "b4e31f61f892a5fe35585b24411691bbb104d0c0",
     "subject": "Normative: add `#x in obj` syntax (#2290)"
    }
   ],
   "title": "Normative: add `#x in obj` syntax",
-  "updated_at": "2021-05-13T06:55:16Z"
+  "updated_at": "2021-06-25T19:11:06Z"
  },
  {
   "base": "f7264bbb5645b0d9163f6420cca250a05ba37378",
@@ -1706,26 +1706,6 @@
   ],
   "title": "Editorial: Factor out 'NonToken' production",
   "updated_at": "2021-01-01T03:56:14Z"
- },
- {
-  "base": "6d3c629bca14264170f74ad64f8c0c11b379b901",
-  "created_at": "2020-12-28T19:27:07Z",
-  "head": "b4e31f61f892a5fe35585b24411691bbb104d0c0",
-  "login": "ljharb",
-  "number": 2260,
-  "ref": "travis",
-  "revs": [
-   {
-    "adate": "2021-06-23T16:25:34-07:00",
-    "author": "Jordan Harband",
-    "date": "2021-06-23T22:26:04-07:00",
-    "hash": "b4e31f61f892a5fe35585b24411691bbb104d0c0",
-    "parents": "6d3c629bca14264170f74ad64f8c0c11b379b901",
-    "subject": "Meta: migrate from travis-ci to Github Actions (#2260)"
-   }
-  ],
-  "title": "Meta: migrate from travis-ci to Github Actions",
-  "updated_at": "2021-06-24T05:26:11Z"
  },
  {
   "base": "f7264bbb5645b0d9163f6420cca250a05ba37378",
