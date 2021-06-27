@@ -1,5 +1,33 @@
 [
  {
+  "base": "80efe41a59f4874c10ea9f6fdae1e2d08324e52d",
+  "created_at": "2021-06-27T15:32:45Z",
+  "head": "fdbc9a9e3018e891c600e328acbf1c49c20e39d7",
+  "login": "jmdyck",
+  "number": 2445,
+  "ref": "annex_B_pattern_ambig",
+  "revs": [
+   {
+    "adate": "2021-06-27T11:09:06-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-06-27T11:12:39-04:00",
+    "hash": "fdbc9a9e3018e891c600e328acbf1c49c20e39d7",
+    "parents": "c43cdc3728f12c93cadd2d76f204b4299bdf0287",
+    "subject": "Delete .github/workflows/*.yml"
+   },
+   {
+    "adate": "2021-06-27T10:54:12-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-06-27T10:54:12-04:00",
+    "hash": "c43cdc3728f12c93cadd2d76f204b4299bdf0287",
+    "parents": "80efe41a59f4874c10ea9f6fdae1e2d08324e52d",
+    "subject": "Editorial: Eliminate order-disambiguation from Annex B Pattern-grammar"
+   }
+  ],
+  "title": "Editorial: Eliminate order-disambiguation from Annex B Pattern-grammar",
+  "updated_at": "2021-06-27T15:35:55Z"
+ },
+ {
   "base": "fbdf389222155b79dfc28c143650da0ee76ddb23",
   "created_at": "2021-06-24T02:02:32Z",
   "head": "9475b14c949392e60dc9ecca5e0664799cbbdb61",
