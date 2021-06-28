@@ -1,6 +1,26 @@
 [
  {
   "base": "80efe41a59f4874c10ea9f6fdae1e2d08324e52d",
+  "created_at": "2021-06-28T20:48:03Z",
+  "head": "3b03d3c52ed5bf977bd5561c4e24571245b1a46e",
+  "login": "jmdyck",
+  "number": 2446,
+  "ref": "drop_grammatical_params",
+  "revs": [
+   {
+    "adate": "2021-06-20T22:03:51-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-06-28T16:46:34-04:00",
+    "hash": "3b03d3c52ed5bf977bd5561c4e24571245b1a46e",
+    "parents": "80efe41a59f4874c10ea9f6fdae1e2d08324e52d",
+    "subject": "Editorial: Drop grammatical parameters from 'use' productions"
+   }
+  ],
+  "title": "Editorial: Drop grammatical parameters from 'use' productions",
+  "updated_at": "2021-06-28T20:54:56Z"
+ },
+ {
+  "base": "80efe41a59f4874c10ea9f6fdae1e2d08324e52d",
   "created_at": "2021-06-27T15:32:45Z",
   "head": "f773ee895607d353f34ac66d3a0d331afd6cfc87",
   "login": "jmdyck",
@@ -84,9 +104,9 @@
   "updated_at": "2021-06-23T13:25:39Z"
  },
  {
-  "base": "6d3c629bca14264170f74ad64f8c0c11b379b901",
+  "base": "80efe41a59f4874c10ea9f6fdae1e2d08324e52d",
   "created_at": "2021-06-23T04:21:23Z",
-  "head": "5319cfe5f2fe0690c508ed220826b543a0cb9028",
+  "head": "3c4fd9a4765da677c0fe4faf75353685ee7da30e",
   "login": "rbuckton",
   "number": 2440,
   "ref": "class-static-block",
@@ -94,8 +114,8 @@
    {
     "adate": "2021-06-23T19:11:57-07:00",
     "author": "Ron Buckton",
-    "date": "2021-06-24T13:19:50-07:00",
-    "hash": "5319cfe5f2fe0690c508ed220826b543a0cb9028",
+    "date": "2021-06-28T13:39:10-07:00",
+    "hash": "3c4fd9a4765da677c0fe4faf75353685ee7da30e",
     "parents": "d7353ded9f4df5f0ed04d6c45ee648e9259409f1",
     "subject": "PR Feedback"
    },
@@ -109,7 +129,7 @@
    }
   ],
   "title": "Normative: Add class `static` initialization blocks",
-  "updated_at": "2021-06-24T22:58:33Z"
+  "updated_at": "2021-06-28T20:42:35Z"
  },
  {
   "base": "61cc3297c96764a256b02b90005550607371a1d1",
