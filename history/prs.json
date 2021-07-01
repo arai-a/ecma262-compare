@@ -2172,13 +2172,21 @@
   "updated_at": "2020-09-20T23:04:54Z"
  },
  {
-  "base": "7cea37d366a9aa7561801e9ac027f2d047d3b27f",
+  "base": "7a79833f0b2b338cfb5531449b9bcf5290b9ae9a",
   "created_at": "2020-08-05T00:10:45Z",
-  "head": "efca1fd8a9ac20c57b5448ddb56c82c6add0e043",
+  "head": "abbccddb107cb356efafb8398bef652463495263",
   "login": "devsnek",
   "number": 2125,
   "ref": "__proto__-shenanigans",
   "revs": [
+   {
+    "adate": "2021-07-01T14:02:25-06:00",
+    "author": "Michael Ficarra",
+    "date": "2021-07-01T14:02:25-06:00",
+    "hash": "abbccddb107cb356efafb8398bef652463495263",
+    "parents": "efca1fd8a9ac20c57b5448ddb56c82c6add0e043",
+    "subject": "dfn legacy and add emu-not-ref where appropriate"
+   },
    {
     "adate": "2020-08-04T19:10:20-05:00",
     "author": "Gus Caplan",
@@ -2197,7 +2205,7 @@
    }
   ],
   "title": "Normative: move __proto__ out of annex b",
-  "updated_at": "2021-03-26T05:36:05Z"
+  "updated_at": "2021-07-01T20:03:12Z"
  },
  {
   "base": "c7d208f639c493ac221f1c3c4bd6a5c4b4b638b6",
