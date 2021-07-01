@@ -610,9 +610,12 @@ class RevisionRenderer:
 
         LocalRepository.checkout(sha)
 
-        subprocess.run(['npm', 'install'],
-                       cwd=LocalRepository.DIR,
-                       check=True)
+        try:
+            subprocess.run(['npm', 'install'],
+                           cwd=LocalRepository.DIR,
+                           check=True)
+        except Exception:
+            raise BuildFailureException()
 
         repo_out_dir = os.path.join(LocalRepository.DIR, 'out')
         repo_out_index_path = os.path.join(repo_out_dir, 'index.html')
