@@ -628,80 +628,32 @@
   "updated_at": "2021-05-26T17:24:42Z"
  },
  {
-  "base": "56b5e8bc3dc84e51bfe5f958b9359c2db10a4d6e",
+  "base": "7a79833f0b2b338cfb5531449b9bcf5290b9ae9a",
   "created_at": "2021-05-24T07:00:16Z",
-  "head": "d17e46d79d64322f4049071d7a6949f142e56ef3",
+  "head": "18100ca0314f4c232733704284d3c31a2c0dcec4",
   "login": "tc39",
   "number": 2413,
   "ref": "rewrite-asyncgenerator-state-machine",
   "revs": [
    {
-    "adate": "2021-06-11T11:25:16-07:00",
+    "adate": "2021-07-04T16:10:54-07:00",
     "author": "Kevin Gibbons",
-    "date": "2021-06-11T11:25:16-07:00",
-    "hash": "d17e46d79d64322f4049071d7a6949f142e56ef3",
-    "parents": "e940e75802b14ef1bac90c20b9b276bad0fb736d",
-    "subject": "tweak wording"
-   },
-   {
-    "adate": "2021-06-05T11:24:15-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-06-05T11:24:15-07:00",
-    "hash": "e940e75802b14ef1bac90c20b9b276bad0fb736d",
-    "parents": "5c328641c4722e499a0efa6b7acb9e0c8ab5a098",
-    "subject": "typo"
-   },
-   {
-    "adate": "2021-06-05T10:15:35-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-06-05T10:15:35-07:00",
-    "hash": "5c328641c4722e499a0efa6b7acb9e0c8ab5a098",
-    "parents": "00e31fb14d995a6486137380655c73ec4e1c620a",
-    "subject": "whitespace"
-   },
-   {
-    "adate": "2021-06-05T10:12:26-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-06-05T10:12:26-07:00",
-    "hash": "00e31fb14d995a6486137380655c73ec4e1c620a",
-    "parents": "32a07c6801c2c82fa2b8b24044bf1de9c56014eb",
-    "subject": "address comments"
-   },
-   {
-    "adate": "2021-06-05T10:10:02-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-06-05T10:10:02-07:00",
-    "hash": "32a07c6801c2c82fa2b8b24044bf1de9c56014eb",
-    "parents": "17ced801e424739c2554cbaef8a34ccb7fdf4952",
-    "subject": "actually just preserve original realm behavior"
-   },
-   {
-    "adate": "2021-05-24T10:01:17-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-05-24T10:23:30-07:00",
-    "hash": "17ced801e424739c2554cbaef8a34ccb7fdf4952",
-    "parents": "072048187adc4907f7d00c405f3aafd7c0b3d166",
-    "subject": "typos"
-   },
-   {
-    "adate": "2021-05-24T09:54:57-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-05-24T09:54:57-07:00",
-    "hash": "072048187adc4907f7d00c405f3aafd7c0b3d166",
-    "parents": "186ef417b9b0848339a8838186a30611cc76e8dc",
-    "subject": "order steps in AsyncGenYield as in GenYield"
+    "date": "2021-07-04T16:10:54-07:00",
+    "hash": "18100ca0314f4c232733704284d3c31a2c0dcec4",
+    "parents": "641883c89fdc63cdaf48ee01fb965d65b718f3cd",
+    "subject": "use abstract closures in AsyncGeneratorAwaitReturn"
    },
    {
     "adate": "2021-05-23T20:02:05-07:00",
     "author": "Kevin Gibbons",
-    "date": "2021-05-23T23:36:00-07:00",
-    "hash": "186ef417b9b0848339a8838186a30611cc76e8dc",
-    "parents": "56b5e8bc3dc84e51bfe5f958b9359c2db10a4d6e",
+    "date": "2021-07-04T16:05:05-07:00",
+    "hash": "641883c89fdc63cdaf48ee01fb965d65b718f3cd",
+    "parents": "7a79833f0b2b338cfb5531449b9bcf5290b9ae9a",
     "subject": "Editorial: rewrite async generator state machine"
    }
   ],
   "title": "Editorial: Clarify the AsyncGenerator state machine",
-  "updated_at": "2021-06-11T18:25:21Z"
+  "updated_at": "2021-07-04T23:11:09Z"
  },
  {
   "base": "28fb25e845ee129c02e40594670a39f552ca6888",
