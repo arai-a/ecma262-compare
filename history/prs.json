@@ -412,13 +412,21 @@
   "updated_at": "2021-05-28T11:28:01Z"
  },
  {
-  "base": "56b5e8bc3dc84e51bfe5f958b9359c2db10a4d6e",
+  "base": "7a79833f0b2b338cfb5531449b9bcf5290b9ae9a",
   "created_at": "2021-05-26T23:09:49Z",
-  "head": "ff62eaa89dce5b4c8009edb1d7d7137a81dd7303",
+  "head": "8015d41b2167373c17e1f50dd7da0d257b408680",
   "login": "pzuraq",
   "number": 2417,
   "ref": "decorators",
   "revs": [
+   {
+    "adate": "2021-07-05T10:55:37-07:00",
+    "author": "Chris Garrett",
+    "date": "2021-07-05T10:55:37-07:00",
+    "hash": "8015d41b2167373c17e1f50dd7da0d257b408680",
+    "parents": "ff62eaa89dce5b4c8009edb1d7d7137a81dd7303",
+    "subject": "Make private metadata static"
+   },
    {
     "adate": "2021-05-28T08:14:28-07:00",
     "author": "Chris Garrett",
@@ -605,7 +613,7 @@
    }
   ],
   "title": "Add Class and Class Element Decorators and `accessor` Keyword",
-  "updated_at": "2021-05-28T15:14:31Z"
+  "updated_at": "2021-07-05T17:55:47Z"
  },
  {
   "base": "56b5e8bc3dc84e51bfe5f958b9359c2db10a4d6e",
