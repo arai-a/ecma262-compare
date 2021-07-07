@@ -1,6 +1,26 @@
 [
  {
   "base": "7a79833f0b2b338cfb5531449b9bcf5290b9ae9a",
+  "created_at": "2021-07-07T20:13:18Z",
+  "head": "ae8e859f99519c1b63faac394f14b22dcbf04efd",
+  "login": "tc39",
+  "number": 2451,
+  "ref": "sv-tv-trv-are-not-replaceable",
+  "revs": [
+   {
+    "adate": "2021-07-07T14:08:33-06:00",
+    "author": "Michael Ficarra",
+    "date": "2021-07-07T14:08:33-06:00",
+    "hash": "ae8e859f99519c1b63faac394f14b22dcbf04efd",
+    "parents": "7a79833f0b2b338cfb5531449b9bcf5290b9ae9a",
+    "subject": "Editorial: don't imply that SV, TV, and TRV are shorthands"
+   }
+  ],
+  "title": "Editorial: don't imply that SV, TV, and TRV are shorthands",
+  "updated_at": "2021-07-07T20:18:15Z"
+ },
+ {
+  "base": "7a79833f0b2b338cfb5531449b9bcf5290b9ae9a",
   "created_at": "2021-07-06T05:04:59Z",
   "head": "fe5552861dcb3f9d99730cbff3264cb933d2b6a4",
   "login": "tc39",
@@ -230,11 +250,19 @@
  {
   "base": "7a79833f0b2b338cfb5531449b9bcf5290b9ae9a",
   "created_at": "2021-06-14T21:10:46Z",
-  "head": "3e767d7648e8fc675125e5f75108bc5bb34e07ac",
+  "head": "1a5f82601f3c78498b72c6f63e6c2ab6c454ebef",
   "login": "tc39",
   "number": 2435,
   "ref": "mv",
   "revs": [
+   {
+    "adate": "2021-07-07T14:14:41-06:00",
+    "author": "Michael Ficarra",
+    "date": "2021-07-07T14:14:41-06:00",
+    "hash": "1a5f82601f3c78498b72c6f63e6c2ab6c454ebef",
+    "parents": "3e767d7648e8fc675125e5f75108bc5bb34e07ac",
+    "subject": "revert changes to SV/TV/TRV prose; split into #2451"
+   },
    {
     "adate": "2021-07-07T13:15:20-06:00",
     "author": "Michael Ficarra",
@@ -253,7 +281,7 @@
    }
   ],
   "title": "Editorial: extract StringNumericValue from MV and add/use RoundStringMVResult helper",
-  "updated_at": "2021-07-07T19:28:18Z"
+  "updated_at": "2021-07-07T20:16:02Z"
  },
  {
   "base": "28fb25e845ee129c02e40594670a39f552ca6888",
