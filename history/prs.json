@@ -2170,11 +2170,27 @@
  {
   "base": "7a79833f0b2b338cfb5531449b9bcf5290b9ae9a",
   "created_at": "2020-08-05T00:10:45Z",
-  "head": "ba8f83d63f0e66b216bb9ff0c35a7125f44d8032",
+  "head": "addbef51b89d2b1e0d85c5016582fcdb7e85bc2d",
   "login": "devsnek",
   "number": 2125,
   "ref": "__proto__-shenanigans",
   "revs": [
+   {
+    "adate": "2021-07-07T09:55:34-06:00",
+    "author": "Michael Ficarra",
+    "date": "2021-07-07T09:55:34-06:00",
+    "hash": "addbef51b89d2b1e0d85c5016582fcdb7e85bc2d",
+    "parents": "5f93c72080c7dba8ef395b1d8f6d3606d01d0103",
+    "subject": "remove stray emu-not-ref"
+   },
+   {
+    "adate": "2021-07-07T09:50:51-06:00",
+    "author": "Michael Ficarra",
+    "date": "2021-07-07T09:50:51-06:00",
+    "hash": "5f93c72080c7dba8ef395b1d8f6d3606d01d0103",
+    "parents": "ba8f83d63f0e66b216bb9ff0c35a7125f44d8032",
+    "subject": "fix lint errors"
+   },
    {
     "adate": "2021-07-07T09:46:48-06:00",
     "author": "Michael Ficarra",
@@ -2209,7 +2225,7 @@
    }
   ],
   "title": "Normative: move __proto__ out of annex b",
-  "updated_at": "2021-07-07T15:47:01Z"
+  "updated_at": "2021-07-07T15:55:46Z"
  },
  {
   "base": "c7d208f639c493ac221f1c3c4bd6a5c4b4b638b6",
