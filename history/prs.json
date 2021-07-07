@@ -2170,11 +2170,19 @@
  {
   "base": "7a79833f0b2b338cfb5531449b9bcf5290b9ae9a",
   "created_at": "2020-08-05T00:10:45Z",
-  "head": "abbccddb107cb356efafb8398bef652463495263",
+  "head": "ba8f83d63f0e66b216bb9ff0c35a7125f44d8032",
   "login": "devsnek",
   "number": 2125,
   "ref": "__proto__-shenanigans",
   "revs": [
+   {
+    "adate": "2021-07-07T09:46:48-06:00",
+    "author": "Michael Ficarra",
+    "date": "2021-07-07T09:46:48-06:00",
+    "hash": "ba8f83d63f0e66b216bb9ff0c35a7125f44d8032",
+    "parents": "abbccddb107cb356efafb8398bef652463495263",
+    "subject": "capital L"
+   },
    {
     "adate": "2021-07-01T14:02:25-06:00",
     "author": "Michael Ficarra",
@@ -2201,7 +2209,7 @@
    }
   ],
   "title": "Normative: move __proto__ out of annex b",
-  "updated_at": "2021-07-01T20:03:12Z"
+  "updated_at": "2021-07-07T15:47:01Z"
  },
  {
   "base": "c7d208f639c493ac221f1c3c4bd6a5c4b4b638b6",
