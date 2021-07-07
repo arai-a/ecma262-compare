@@ -2170,11 +2170,19 @@
  {
   "base": "7a79833f0b2b338cfb5531449b9bcf5290b9ae9a",
   "created_at": "2020-08-05T00:10:45Z",
-  "head": "addbef51b89d2b1e0d85c5016582fcdb7e85bc2d",
+  "head": "d9bd415c227ae3f0c021476b7772e2c6cf1e756c",
   "login": "devsnek",
   "number": 2125,
   "ref": "__proto__-shenanigans",
   "revs": [
+   {
+    "adate": "2021-07-07T10:15:55-06:00",
+    "author": "Michael Ficarra",
+    "date": "2021-07-07T10:15:55-06:00",
+    "hash": "d9bd415c227ae3f0c021476b7772e2c6cf1e756c",
+    "parents": "addbef51b89d2b1e0d85c5016582fcdb7e85bc2d",
+    "subject": "use dash in IDs"
+   },
    {
     "adate": "2021-07-07T09:55:34-06:00",
     "author": "Michael Ficarra",
@@ -2225,7 +2233,7 @@
    }
   ],
   "title": "Normative: move __proto__ out of annex b",
-  "updated_at": "2021-07-07T15:55:46Z"
+  "updated_at": "2021-07-07T16:21:43Z"
  },
  {
   "base": "c7d208f639c493ac221f1c3c4bd6a5c4b4b638b6",
