@@ -1,26 +1,6 @@
 [
  {
   "base": "7a79833f0b2b338cfb5531449b9bcf5290b9ae9a",
-  "created_at": "2021-07-07T21:25:28Z",
-  "head": "9968f938670a65287d649bdfd1a9f826d4daba70",
-  "login": "tc39",
-  "number": 2452,
-  "ref": "bump-emu",
-  "revs": [
-   {
-    "adate": "2021-07-07T14:24:08-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-07-07T14:24:08-07:00",
-    "hash": "9968f938670a65287d649bdfd1a9f826d4daba70",
-    "parents": "7a79833f0b2b338cfb5531449b9bcf5290b9ae9a",
-    "subject": "Meta: bump ecmarkup to 8.0.0"
-   }
-  ],
-  "title": "Meta: bump ecmarkup to 8.0.0",
-  "updated_at": "2021-07-07T21:28:43Z"
- },
- {
-  "base": "7a79833f0b2b338cfb5531449b9bcf5290b9ae9a",
   "created_at": "2021-07-07T20:13:18Z",
   "head": "ae8e859f99519c1b63faac394f14b22dcbf04efd",
   "login": "tc39",
@@ -664,34 +644,6 @@
   "updated_at": "2021-05-26T17:24:42Z"
  },
  {
-  "base": "7a79833f0b2b338cfb5531449b9bcf5290b9ae9a",
-  "created_at": "2021-05-24T07:00:16Z",
-  "head": "18100ca0314f4c232733704284d3c31a2c0dcec4",
-  "login": "tc39",
-  "number": 2413,
-  "ref": "rewrite-asyncgenerator-state-machine",
-  "revs": [
-   {
-    "adate": "2021-07-04T16:10:54-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-07-04T16:10:54-07:00",
-    "hash": "18100ca0314f4c232733704284d3c31a2c0dcec4",
-    "parents": "641883c89fdc63cdaf48ee01fb965d65b718f3cd",
-    "subject": "use abstract closures in AsyncGeneratorAwaitReturn"
-   },
-   {
-    "adate": "2021-05-23T20:02:05-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-07-04T16:05:05-07:00",
-    "hash": "641883c89fdc63cdaf48ee01fb965d65b718f3cd",
-    "parents": "7a79833f0b2b338cfb5531449b9bcf5290b9ae9a",
-    "subject": "Editorial: rewrite async generator state machine"
-   }
-  ],
-  "title": "Editorial: Clarify the AsyncGenerator state machine",
-  "updated_at": "2021-07-04T23:11:09Z"
- },
- {
   "base": "28fb25e845ee129c02e40594670a39f552ca6888",
   "created_at": "2021-05-20T16:47:04Z",
   "head": "b025795ad9cd115847c584957a1d141c25f934b3",
@@ -973,42 +925,6 @@
  },
  {
   "base": "c75497982a8c07e83a13cc5d7d80cdaaa8a337bd",
-  "created_at": "2021-04-29T05:08:23Z",
-  "head": "013cb9dee76551fd1c3e27d0ad2fa9e45cf07652",
-  "login": "tc39",
-  "number": 2398,
-  "ref": "generator-start",
-  "revs": [
-   {
-    "adate": "2021-06-11T11:20:17-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-06-11T11:20:17-07:00",
-    "hash": "013cb9dee76551fd1c3e27d0ad2fa9e45cf07652",
-    "parents": "c51809feca71fc612e776149074274abb4620ec4",
-    "subject": "same change for CreateAsyncIteratorFromClosure"
-   },
-   {
-    "adate": "2021-04-29T10:00:45-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-04-29T10:00:45-07:00",
-    "hash": "c51809feca71fc612e776149074274abb4620ec4",
-    "parents": "b974a3bf6b164b407edf22cd32644848d8fb3392",
-    "subject": "typos"
-   },
-   {
-    "adate": "2021-04-28T21:58:25-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-04-28T21:58:25-07:00",
-    "hash": "b974a3bf6b164b407edf22cd32644848d8fb3392",
-    "parents": "c75497982a8c07e83a13cc5d7d80cdaaa8a337bd",
-    "subject": "Editorial: have CreateIteratorFromClosure provide a new execution context to GeneratorStart"
-   }
-  ],
-  "title": "Editorial: have CreateIteratorFromClosure provide a new execution context to GeneratorStart",
-  "updated_at": "2021-06-11T18:21:43Z"
- },
- {
-  "base": "c75497982a8c07e83a13cc5d7d80cdaaa8a337bd",
   "created_at": "2021-04-29T00:07:17Z",
   "head": "3443b6b46c1c21b70bb3bf54df79741331ad0a84",
   "login": "tc39",
@@ -1136,56 +1052,72 @@
   "updated_at": "2021-04-14T02:13:00Z"
  },
  {
-  "base": "56b5e8bc3dc84e51bfe5f958b9359c2db10a4d6e",
+  "base": "f4694412639e19acab2c0dd5baac247aa7d7a889",
   "created_at": "2021-04-11T01:10:03Z",
-  "head": "d68dfa188b6cf96565ef447427abf5f2a36a3ab6",
+  "head": "5dab02482810721469ad8f4d7e81c807e9315db1",
   "login": "jmdyck",
   "number": 2382,
   "ref": "list-concatenation",
   "revs": [
    {
+    "adate": "2021-07-08T10:50:17-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-07-08T10:50:17-04:00",
+    "hash": "5dab02482810721469ad8f4d7e81c807e9315db1",
+    "parents": "dbea7f3121dc7b19a8697024726192b07b2a2ce5",
+    "subject": "Editorial: Rename _foo_ to _foo1_"
+   },
+   {
+    "adate": "2021-07-08T10:22:06-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-07-08T10:22:06-04:00",
+    "hash": "dbea7f3121dc7b19a8697024726192b07b2a2ce5",
+    "parents": "a1b9dc468492ba39b8f074cd89e8a8790c74f78b",
+    "subject": "Editorial: Factor out _propName_"
+   },
+   {
     "adate": "2021-04-10T20:25:53-04:00",
     "author": "Michael Dyck",
-    "date": "2021-05-12T23:39:54-04:00",
-    "hash": "d68dfa188b6cf96565ef447427abf5f2a36a3ab6",
-    "parents": "2e118ff57c528db06c1069f44f8ddf9ad67eb13e",
+    "date": "2021-06-24T11:29:25-04:00",
+    "hash": "a1b9dc468492ba39b8f074cd89e8a8790c74f78b",
+    "parents": "73fc2b4d33731875d093cd3761e7c62bd4df5c18",
     "subject": "Editorial: Use 'list-concatenation' more"
    },
    {
     "adate": "2021-04-10T16:25:05-04:00",
     "author": "Michael Dyck",
-    "date": "2021-05-12T23:39:54-04:00",
-    "hash": "2e118ff57c528db06c1069f44f8ddf9ad67eb13e",
-    "parents": "7445f8e7a671ac682e3f9828cc8300a3de7c552c",
+    "date": "2021-06-24T11:29:25-04:00",
+    "hash": "73fc2b4d33731875d093cd3761e7c62bd4df5c18",
+    "parents": "0062d3ccab8709fc64d31341c086ae7c4b308dbf",
     "subject": "Editorial: Use 'list-concatenation' more"
    },
    {
     "adate": "2021-04-10T16:20:24-04:00",
     "author": "Michael Dyck",
-    "date": "2021-05-12T23:39:54-04:00",
-    "hash": "7445f8e7a671ac682e3f9828cc8300a3de7c552c",
-    "parents": "50dec93009e66063801109b3393300d11139fb67",
+    "date": "2021-06-24T11:29:25-04:00",
+    "hash": "0062d3ccab8709fc64d31341c086ae7c4b308dbf",
+    "parents": "35ce85d24870eb77d44b71cf26a9ebb8b60f9516",
     "subject": "Editorial: Use 'list-concatenation' more"
    },
    {
     "adate": "2021-04-10T14:08:56-04:00",
     "author": "Michael Dyck",
-    "date": "2021-05-12T23:39:54-04:00",
-    "hash": "50dec93009e66063801109b3393300d11139fb67",
-    "parents": "a548fdd765217398709c70631d4e7cf531c9f87c",
+    "date": "2021-06-24T11:29:25-04:00",
+    "hash": "35ce85d24870eb77d44b71cf26a9ebb8b60f9516",
+    "parents": "8b1ec2cb947c4fdb828f9b9f0538e2041acca60e",
     "subject": "Editorial: Use 'list-concatenation' more"
    },
    {
     "adate": "2021-04-10T10:58:02-04:00",
     "author": "Michael Dyck",
-    "date": "2021-05-12T23:39:54-04:00",
-    "hash": "a548fdd765217398709c70631d4e7cf531c9f87c",
-    "parents": "56b5e8bc3dc84e51bfe5f958b9359c2db10a4d6e",
+    "date": "2021-06-24T11:29:25-04:00",
+    "hash": "8b1ec2cb947c4fdb828f9b9f0538e2041acca60e",
+    "parents": "6d3c629bca14264170f74ad64f8c0c11b379b901",
     "subject": "Editorial: Define+use \"list-concatenation\""
    }
   ],
   "title": "Editorial: Define+use `list-concatenation`",
-  "updated_at": "2021-05-13T03:42:07Z"
+  "updated_at": "2021-07-08T15:06:27Z"
  },
  {
   "base": "26061c0e5e4b62fae91a7127b46c1efa8b94c4b4",
