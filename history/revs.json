@@ -1,5 +1,29 @@
 [
  {
+  "adate": "2021-07-07T17:45:18-06:00",
+  "author": "Kevin Gibbons",
+  "date": "2021-07-07T17:45:18-06:00",
+  "hash": "f4694412639e19acab2c0dd5baac247aa7d7a889",
+  "parents": "d3e7c43e5a1392c71752c3ea53e6b633583e98e1",
+  "subject": "Editorial: Clarify the AsyncGenerator state machine (#2413)"
+ },
+ {
+  "adate": "2021-07-07T17:41:18-06:00",
+  "author": "Kevin Gibbons",
+  "date": "2021-07-07T17:41:18-06:00",
+  "hash": "d3e7c43e5a1392c71752c3ea53e6b633583e98e1",
+  "parents": "ef4b237891ab394075e749bb2782f81068d567be",
+  "subject": "Editorial: have Create{,Async}IteratorFromClosure provide a new execution context to GeneratorStart (#2398)"
+ },
+ {
+  "adate": "2021-07-07T17:37:13-06:00",
+  "author": "Kevin Gibbons",
+  "date": "2021-07-07T17:37:13-06:00",
+  "hash": "ef4b237891ab394075e749bb2782f81068d567be",
+  "parents": "7a79833f0b2b338cfb5531449b9bcf5290b9ae9a",
+  "subject": "Meta: bump ecmarkup to 8.0.0 (#2452)"
+ },
+ {
   "adate": "2021-06-28T19:20:55-07:00",
   "author": "Jordan Harband",
   "date": "2021-06-28T19:20:55-07:00",
