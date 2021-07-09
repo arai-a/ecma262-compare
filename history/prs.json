@@ -1,34 +1,6 @@
 [
  {
   "base": "f4694412639e19acab2c0dd5baac247aa7d7a889",
-  "created_at": "2021-07-09T07:20:07Z",
-  "head": "62a7f154fa45e644905028d6f55699de67b26720",
-  "login": "tc39",
-  "number": 2453,
-  "ref": "fix-auto-deploy",
-  "revs": [
-   {
-    "adate": "2021-07-09T00:42:10-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-07-09T00:42:10-07:00",
-    "hash": "62a7f154fa45e644905028d6f55699de67b26720",
-    "parents": "15e7c4234ae5164df722e7c4b82a6eac5fcdd029",
-    "subject": "actually, use the built-in token"
-   },
-   {
-    "adate": "2021-07-09T00:11:03-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-07-09T00:18:51-07:00",
-    "hash": "15e7c4234ae5164df722e7c4b82a6eac5fcdd029",
-    "parents": "f4694412639e19acab2c0dd5baac247aa7d7a889",
-    "subject": "Meta: fix auto-deployment"
-   }
-  ],
-  "title": "Meta: fix auto-deployment",
-  "updated_at": "2021-07-09T07:42:54Z"
- },
- {
-  "base": "f4694412639e19acab2c0dd5baac247aa7d7a889",
   "created_at": "2021-07-07T20:13:18Z",
   "head": "17e41d3c97a61583298ee4182bfbe2ac52aa7121",
   "login": "tc39",
@@ -2122,11 +2094,19 @@
  {
   "base": "7a79833f0b2b338cfb5531449b9bcf5290b9ae9a",
   "created_at": "2020-08-05T00:10:45Z",
-  "head": "d9bd415c227ae3f0c021476b7772e2c6cf1e756c",
+  "head": "9c3bc977ca9a2beedfcd9c8f022cb4044c42bc29",
   "login": "devsnek",
   "number": 2125,
   "ref": "__proto__-shenanigans",
   "revs": [
+   {
+    "adate": "2021-07-09T09:37:06-06:00",
+    "author": "Michael Ficarra",
+    "date": "2021-07-09T09:37:06-06:00",
+    "hash": "9c3bc977ca9a2beedfcd9c8f022cb4044c42bc29",
+    "parents": "d9bd415c227ae3f0c021476b7772e2c6cf1e756c",
+    "subject": "don't <dfn> legacy; clauses are what is legacy"
+   },
    {
     "adate": "2021-07-07T10:15:55-06:00",
     "author": "Michael Ficarra",
@@ -2185,7 +2165,7 @@
    }
   ],
   "title": "Normative: move __proto__ out of annex b",
-  "updated_at": "2021-07-07T16:21:43Z"
+  "updated_at": "2021-07-09T15:37:39Z"
  },
  {
   "base": "c7d208f639c493ac221f1c3c4bd6a5c4b4b638b6",
