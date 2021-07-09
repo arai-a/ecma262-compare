@@ -28,24 +28,32 @@
   "updated_at": "2021-07-09T07:42:54Z"
  },
  {
-  "base": "7a79833f0b2b338cfb5531449b9bcf5290b9ae9a",
+  "base": "f4694412639e19acab2c0dd5baac247aa7d7a889",
   "created_at": "2021-07-07T20:13:18Z",
-  "head": "ae8e859f99519c1b63faac394f14b22dcbf04efd",
+  "head": "17e41d3c97a61583298ee4182bfbe2ac52aa7121",
   "login": "tc39",
   "number": 2451,
   "ref": "sv-tv-trv-are-not-replaceable",
   "revs": [
    {
+    "adate": "2021-07-09T08:46:42-06:00",
+    "author": "Michael Ficarra",
+    "date": "2021-07-09T08:46:42-06:00",
+    "hash": "17e41d3c97a61583298ee4182bfbe2ac52aa7121",
+    "parents": "7761bdcbf5a6332683e5b3674e508a90cc33a34a",
+    "subject": "add description to TV/TRV"
+   },
+   {
     "adate": "2021-07-07T14:08:33-06:00",
     "author": "Michael Ficarra",
-    "date": "2021-07-07T14:08:33-06:00",
-    "hash": "ae8e859f99519c1b63faac394f14b22dcbf04efd",
-    "parents": "7a79833f0b2b338cfb5531449b9bcf5290b9ae9a",
+    "date": "2021-07-09T08:34:16-06:00",
+    "hash": "7761bdcbf5a6332683e5b3674e508a90cc33a34a",
+    "parents": "f4694412639e19acab2c0dd5baac247aa7d7a889",
     "subject": "Editorial: don't imply that SV, TV, and TRV are shorthands"
    }
   ],
   "title": "Editorial: don't imply that SV, TV, and TRV are shorthands",
-  "updated_at": "2021-07-07T20:18:15Z"
+  "updated_at": "2021-07-09T14:47:08Z"
  },
  {
   "base": "7a79833f0b2b338cfb5531449b9bcf5290b9ae9a",
