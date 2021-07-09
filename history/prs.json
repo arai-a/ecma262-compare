@@ -2,11 +2,19 @@
  {
   "base": "f4694412639e19acab2c0dd5baac247aa7d7a889",
   "created_at": "2021-07-09T07:20:07Z",
-  "head": "15e7c4234ae5164df722e7c4b82a6eac5fcdd029",
+  "head": "62a7f154fa45e644905028d6f55699de67b26720",
   "login": "tc39",
   "number": 2453,
   "ref": "fix-auto-deploy",
   "revs": [
+   {
+    "adate": "2021-07-09T00:42:10-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-07-09T00:42:10-07:00",
+    "hash": "62a7f154fa45e644905028d6f55699de67b26720",
+    "parents": "15e7c4234ae5164df722e7c4b82a6eac5fcdd029",
+    "subject": "actually, use the built-in token"
+   },
    {
     "adate": "2021-07-09T00:11:03-07:00",
     "author": "Kevin Gibbons",
@@ -17,7 +25,7 @@
    }
   ],
   "title": "Meta: fix auto-deployment",
-  "updated_at": "2021-07-09T07:20:07Z"
+  "updated_at": "2021-07-09T07:42:54Z"
  },
  {
   "base": "7a79833f0b2b338cfb5531449b9bcf5290b9ae9a",
