@@ -1,5 +1,45 @@
 [
  {
+  "adate": "2021-07-10T14:00:32-07:00",
+  "author": "Kevin Gibbons",
+  "date": "2021-07-10T14:00:32-07:00",
+  "hash": "aafbfe448721ef5dfeb16f6422c1fdfbe9986c7c",
+  "parents": "66ecf7bc0f3ab1c6d30ae9cbb43f94dfd7722729",
+  "subject": "Editorial: comparisons in number stringification are of floats, not reals (#2450)"
+ },
+ {
+  "adate": "2021-07-10T14:00:25-07:00",
+  "author": "Kevin Gibbons",
+  "date": "2021-07-10T14:00:25-07:00",
+  "hash": "66ecf7bc0f3ab1c6d30ae9cbb43f94dfd7722729",
+  "parents": "cae76922ea5c425152aba6848cde0511888985c9",
+  "subject": "Editorial: fix typo in Number.prototype.toExponential (#2450)"
+ },
+ {
+  "adate": "2021-07-10T13:57:05-07:00",
+  "author": "Michael Dyck",
+  "date": "2021-07-10T13:57:05-07:00",
+  "hash": "cae76922ea5c425152aba6848cde0511888985c9",
+  "parents": "47568ca070d92ae815a47a1c3dbd8c555ec72949",
+  "subject": "Editorial: Drop grammatical parameters from 'use' productions (#2446)"
+ },
+ {
+  "adate": "2021-07-10T13:51:03-07:00",
+  "author": "Michael Ficarra",
+  "date": "2021-07-10T13:51:03-07:00",
+  "hash": "47568ca070d92ae815a47a1c3dbd8c555ec72949",
+  "parents": "af5467d63201c8659272777b4b7968fb3e624f4f",
+  "subject": "Editorial: refactor runtime MV and add/use RoundStringMVResult (#2435)"
+ },
+ {
+  "adate": "2021-07-10T13:45:40-07:00",
+  "author": "Michael Dyck",
+  "date": "2021-07-10T13:45:40-07:00",
+  "hash": "af5467d63201c8659272777b4b7968fb3e624f4f",
+  "parents": "45021b4b4f90cc3976907f0603162d4291b66092",
+  "subject": "Editorial: Define+use \"list-concatenation\" (#2383)"
+ },
+ {
   "adate": "2021-07-09T09:25:17-06:00",
   "author": "Kevin Gibbons",
   "date": "2021-07-09T08:31:38-07:00",
