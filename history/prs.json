@@ -29,42 +29,6 @@
  },
  {
   "base": "7a79833f0b2b338cfb5531449b9bcf5290b9ae9a",
-  "created_at": "2021-07-06T05:04:59Z",
-  "head": "fe5552861dcb3f9d99730cbff3264cb933d2b6a4",
-  "login": "tc39",
-  "number": 2450,
-  "ref": "mix-math-fixes",
-  "revs": [
-   {
-    "adate": "2021-07-05T22:01:00-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-07-05T22:04:32-07:00",
-    "hash": "fe5552861dcb3f9d99730cbff3264cb933d2b6a4",
-    "parents": "a0ccae53004f56d68e04d59c416df40ee767591b",
-    "subject": "Editorial: restore exponent in NumericValue"
-   },
-   {
-    "adate": "2021-07-05T21:58:19-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-07-05T21:58:19-07:00",
-    "hash": "a0ccae53004f56d68e04d59c416df40ee767591b",
-    "parents": "8676274c12f2ea4de1a3832aca65e9095a2df371",
-    "subject": "Editorial: comparisons in number stringification are of floats, not reals"
-   },
-   {
-    "adate": "2021-07-05T21:48:46-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-07-05T21:48:46-07:00",
-    "hash": "8676274c12f2ea4de1a3832aca65e9095a2df371",
-    "parents": "7a79833f0b2b338cfb5531449b9bcf5290b9ae9a",
-    "subject": "Editorial: fix typo in Number.prototype.toExponential"
-   }
-  ],
-  "title": "Editorial: Miscellaneous math fixes",
-  "updated_at": "2021-07-06T05:05:17Z"
- },
- {
-  "base": "7a79833f0b2b338cfb5531449b9bcf5290b9ae9a",
   "created_at": "2021-06-30T23:33:56Z",
   "head": "5bdde7ef00387011c9c2b75943a732e484810f0c",
   "login": "syg",
@@ -118,26 +82,6 @@
   ],
   "title": "Editorial: Delete redundant xrefs from Well-Known Intrinsics table",
   "updated_at": "2021-06-30T18:11:24Z"
- },
- {
-  "base": "80efe41a59f4874c10ea9f6fdae1e2d08324e52d",
-  "created_at": "2021-06-28T20:48:03Z",
-  "head": "3b03d3c52ed5bf977bd5561c4e24571245b1a46e",
-  "login": "jmdyck",
-  "number": 2446,
-  "ref": "drop_grammatical_params",
-  "revs": [
-   {
-    "adate": "2021-06-20T22:03:51-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-06-28T16:46:34-04:00",
-    "hash": "3b03d3c52ed5bf977bd5561c4e24571245b1a46e",
-    "parents": "80efe41a59f4874c10ea9f6fdae1e2d08324e52d",
-    "subject": "Editorial: Drop grammatical parameters from 'use' productions"
-   }
-  ],
-  "title": "Editorial: Drop grammatical parameters from 'use' productions",
-  "updated_at": "2021-06-28T20:54:56Z"
  },
  {
   "base": "80efe41a59f4874c10ea9f6fdae1e2d08324e52d",
@@ -286,42 +230,6 @@
   ],
   "title": "Normative: allow named backreferences without `u` flag in core grammar",
   "updated_at": "2021-06-15T22:18:35Z"
- },
- {
-  "base": "7a79833f0b2b338cfb5531449b9bcf5290b9ae9a",
-  "created_at": "2021-06-14T21:10:46Z",
-  "head": "1a5f82601f3c78498b72c6f63e6c2ab6c454ebef",
-  "login": "tc39",
-  "number": 2435,
-  "ref": "mv",
-  "revs": [
-   {
-    "adate": "2021-07-07T14:14:41-06:00",
-    "author": "Michael Ficarra",
-    "date": "2021-07-07T14:14:41-06:00",
-    "hash": "1a5f82601f3c78498b72c6f63e6c2ab6c454ebef",
-    "parents": "3e767d7648e8fc675125e5f75108bc5bb34e07ac",
-    "subject": "revert changes to SV/TV/TRV prose; split into #2451"
-   },
-   {
-    "adate": "2021-07-07T13:15:20-06:00",
-    "author": "Michael Ficarra",
-    "date": "2021-07-07T13:15:20-06:00",
-    "hash": "3e767d7648e8fc675125e5f75108bc5bb34e07ac",
-    "parents": "5942b3d448a46240a49fb9fc225587b7887653e8",
-    "subject": "address comments"
-   },
-   {
-    "adate": "2021-06-14T14:59:54-06:00",
-    "author": "Michael Ficarra",
-    "date": "2021-07-07T10:24:10-06:00",
-    "hash": "5942b3d448a46240a49fb9fc225587b7887653e8",
-    "parents": "7a79833f0b2b338cfb5531449b9bcf5290b9ae9a",
-    "subject": "Editorial: refactor runtime MV and add/use RoundStringMVResult"
-   }
-  ],
-  "title": "Editorial: extract StringNumericValue from MV and add/use RoundStringMVResult helper",
-  "updated_at": "2021-07-07T20:16:02Z"
  },
  {
   "base": "28fb25e845ee129c02e40594670a39f552ca6888",
@@ -1090,74 +998,6 @@
   ],
   "title": "Editorial: Recast NormalCompletion + ThrowCompletion",
   "updated_at": "2021-04-14T02:13:00Z"
- },
- {
-  "base": "f4694412639e19acab2c0dd5baac247aa7d7a889",
-  "created_at": "2021-04-11T01:10:03Z",
-  "head": "5dab02482810721469ad8f4d7e81c807e9315db1",
-  "login": "jmdyck",
-  "number": 2382,
-  "ref": "list-concatenation",
-  "revs": [
-   {
-    "adate": "2021-07-08T10:50:17-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-07-08T10:50:17-04:00",
-    "hash": "5dab02482810721469ad8f4d7e81c807e9315db1",
-    "parents": "dbea7f3121dc7b19a8697024726192b07b2a2ce5",
-    "subject": "Editorial: Rename _foo_ to _foo1_"
-   },
-   {
-    "adate": "2021-07-08T10:22:06-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-07-08T10:22:06-04:00",
-    "hash": "dbea7f3121dc7b19a8697024726192b07b2a2ce5",
-    "parents": "a1b9dc468492ba39b8f074cd89e8a8790c74f78b",
-    "subject": "Editorial: Factor out _propName_"
-   },
-   {
-    "adate": "2021-04-10T20:25:53-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-06-24T11:29:25-04:00",
-    "hash": "a1b9dc468492ba39b8f074cd89e8a8790c74f78b",
-    "parents": "73fc2b4d33731875d093cd3761e7c62bd4df5c18",
-    "subject": "Editorial: Use 'list-concatenation' more"
-   },
-   {
-    "adate": "2021-04-10T16:25:05-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-06-24T11:29:25-04:00",
-    "hash": "73fc2b4d33731875d093cd3761e7c62bd4df5c18",
-    "parents": "0062d3ccab8709fc64d31341c086ae7c4b308dbf",
-    "subject": "Editorial: Use 'list-concatenation' more"
-   },
-   {
-    "adate": "2021-04-10T16:20:24-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-06-24T11:29:25-04:00",
-    "hash": "0062d3ccab8709fc64d31341c086ae7c4b308dbf",
-    "parents": "35ce85d24870eb77d44b71cf26a9ebb8b60f9516",
-    "subject": "Editorial: Use 'list-concatenation' more"
-   },
-   {
-    "adate": "2021-04-10T14:08:56-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-06-24T11:29:25-04:00",
-    "hash": "35ce85d24870eb77d44b71cf26a9ebb8b60f9516",
-    "parents": "8b1ec2cb947c4fdb828f9b9f0538e2041acca60e",
-    "subject": "Editorial: Use 'list-concatenation' more"
-   },
-   {
-    "adate": "2021-04-10T10:58:02-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-06-24T11:29:25-04:00",
-    "hash": "8b1ec2cb947c4fdb828f9b9f0538e2041acca60e",
-    "parents": "6d3c629bca14264170f74ad64f8c0c11b379b901",
-    "subject": "Editorial: Define+use \"list-concatenation\""
-   }
-  ],
-  "title": "Editorial: Define+use `list-concatenation`",
-  "updated_at": "2021-07-08T15:06:27Z"
  },
  {
   "base": "26061c0e5e4b62fae91a7127b46c1efa8b94c4b4",
@@ -2124,80 +1964,32 @@
   "updated_at": "2020-09-20T23:04:54Z"
  },
  {
-  "base": "7a79833f0b2b338cfb5531449b9bcf5290b9ae9a",
+  "base": "9ff2ef45293bd6461cd0fb2a3f0668f234222fad",
   "created_at": "2020-08-05T00:10:45Z",
-  "head": "9c3bc977ca9a2beedfcd9c8f022cb4044c42bc29",
+  "head": "dff7439066934585e62842accbd35aabfe187401",
   "login": "devsnek",
   "number": 2125,
   "ref": "__proto__-shenanigans",
   "revs": [
    {
-    "adate": "2021-07-09T09:37:06-06:00",
-    "author": "Michael Ficarra",
-    "date": "2021-07-09T09:37:06-06:00",
-    "hash": "9c3bc977ca9a2beedfcd9c8f022cb4044c42bc29",
-    "parents": "d9bd415c227ae3f0c021476b7772e2c6cf1e756c",
-    "subject": "don't <dfn> legacy; clauses are what is legacy"
-   },
-   {
-    "adate": "2021-07-07T10:15:55-06:00",
-    "author": "Michael Ficarra",
-    "date": "2021-07-07T10:15:55-06:00",
-    "hash": "d9bd415c227ae3f0c021476b7772e2c6cf1e756c",
-    "parents": "addbef51b89d2b1e0d85c5016582fcdb7e85bc2d",
-    "subject": "use dash in IDs"
-   },
-   {
-    "adate": "2021-07-07T09:55:34-06:00",
-    "author": "Michael Ficarra",
-    "date": "2021-07-07T09:55:34-06:00",
-    "hash": "addbef51b89d2b1e0d85c5016582fcdb7e85bc2d",
-    "parents": "5f93c72080c7dba8ef395b1d8f6d3606d01d0103",
-    "subject": "remove stray emu-not-ref"
-   },
-   {
-    "adate": "2021-07-07T09:50:51-06:00",
-    "author": "Michael Ficarra",
-    "date": "2021-07-07T09:50:51-06:00",
-    "hash": "5f93c72080c7dba8ef395b1d8f6d3606d01d0103",
-    "parents": "ba8f83d63f0e66b216bb9ff0c35a7125f44d8032",
-    "subject": "fix lint errors"
-   },
-   {
-    "adate": "2021-07-07T09:46:48-06:00",
-    "author": "Michael Ficarra",
-    "date": "2021-07-07T09:46:48-06:00",
-    "hash": "ba8f83d63f0e66b216bb9ff0c35a7125f44d8032",
-    "parents": "abbccddb107cb356efafb8398bef652463495263",
-    "subject": "capital L"
-   },
-   {
-    "adate": "2021-07-01T14:02:25-06:00",
-    "author": "Michael Ficarra",
-    "date": "2021-07-01T14:02:25-06:00",
-    "hash": "abbccddb107cb356efafb8398bef652463495263",
-    "parents": "efca1fd8a9ac20c57b5448ddb56c82c6add0e043",
-    "subject": "dfn legacy and add emu-not-ref where appropriate"
-   },
-   {
     "adate": "2020-08-04T19:10:20-05:00",
     "author": "Gus Caplan",
-    "date": "2021-03-25T22:35:53-07:00",
-    "hash": "efca1fd8a9ac20c57b5448ddb56c82c6add0e043",
-    "parents": "2dc47cb8263930b80199dae9d8f2be3982b28fb3",
+    "date": "2021-07-10T14:15:23-07:00",
+    "hash": "dff7439066934585e62842accbd35aabfe187401",
+    "parents": "e3051afac4ec6fa3b0cae752f0ab27996abc9508",
     "subject": "Normative: move __proto__ out of annex b (#2125)"
    },
    {
     "adate": "2021-03-24T09:18:02-07:00",
     "author": "Jordan Harband",
-    "date": "2021-03-25T22:35:53-07:00",
-    "hash": "2dc47cb8263930b80199dae9d8f2be3982b28fb3",
-    "parents": "7cea37d366a9aa7561801e9ac027f2d047d3b27f",
+    "date": "2021-07-10T14:15:23-07:00",
+    "hash": "e3051afac4ec6fa3b0cae752f0ab27996abc9508",
+    "parents": "9ff2ef45293bd6461cd0fb2a3f0668f234222fad",
     "subject": "Editorial: add \"Legacy\" section (#2125)"
    }
   ],
   "title": "Normative: move __proto__ out of annex b",
-  "updated_at": "2021-07-09T15:37:39Z"
+  "updated_at": "2021-07-10T21:29:30Z"
  },
  {
   "base": "c7d208f639c493ac221f1c3c4bd6a5c4b4b638b6",
