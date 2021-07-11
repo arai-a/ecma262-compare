@@ -3148,48 +3148,32 @@
   "updated_at": "2021-03-01T03:23:35Z"
  },
  {
-  "base": "c7d208f639c493ac221f1c3c4bd6a5c4b4b638b6",
+  "base": "9ff2ef45293bd6461cd0fb2a3f0668f234222fad",
   "created_at": "2019-05-28T03:19:22Z",
-  "head": "d827daf8481bee5d542c38a35ba1a829ed713357",
+  "head": "5319884d5fe262bf15ba3b8f5f426a889805ea2f",
   "login": "jmdyck",
   "number": 1554,
   "ref": "NumericValue",
   "revs": [
    {
-    "adate": "2021-06-12T11:23:56-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-06-12T11:23:56-04:00",
-    "hash": "d827daf8481bee5d542c38a35ba1a829ed713357",
-    "parents": "ec8a174f79295a594cbcc940ee2040208b08bd0f",
-    "subject": "fixup! copy-paste mistake in NOTE"
-   },
-   {
     "adate": "2020-12-02T17:27:11-05:00",
     "author": "Michael Dyck",
-    "date": "2021-06-12T11:18:46-04:00",
-    "hash": "ec8a174f79295a594cbcc940ee2040208b08bd0f",
-    "parents": "930f8eb2fd201f8e7e06f65a4c9fcd150f3621fa",
+    "date": "2021-07-11T00:10:54-04:00",
+    "hash": "5319884d5fe262bf15ba3b8f5f426a889805ea2f",
+    "parents": "7faf6a6900d90744c934251fec3e47d0bba553eb",
     "subject": "Editorial: Define + use StringToNumber (#1554)"
-   },
-   {
-    "adate": "2021-02-06T16:21:02-05:00",
-    "author": "Michael Dyck",
-    "date": "2021-06-12T11:18:04-04:00",
-    "hash": "930f8eb2fd201f8e7e06f65a4c9fcd150f3621fa",
-    "parents": "667d31487932d6ef1f5c9caa52f4e20f04aa80cb",
-    "subject": "Editorial: Change \"non white space\" to \"non-|StrWhiteSpaceChar|\" (#1554)"
    },
    {
     "adate": "2020-12-02T15:59:08-05:00",
     "author": "Michael Dyck",
-    "date": "2021-06-12T11:17:47-04:00",
-    "hash": "667d31487932d6ef1f5c9caa52f4e20f04aa80cb",
-    "parents": "28fb25e845ee129c02e40594670a39f552ca6888",
+    "date": "2021-07-10T22:43:58-04:00",
+    "hash": "7faf6a6900d90744c934251fec3e47d0bba553eb",
+    "parents": "9ff2ef45293bd6461cd0fb2a3f0668f234222fad",
     "subject": "Editorial: Remove ToNumber's note re surrogates (#1554)"
    }
   ],
   "title": "Editorial: Define + use StringToNumber, and better define NumericValue",
-  "updated_at": "2021-06-12T15:32:59Z"
+  "updated_at": "2021-07-11T04:26:41Z"
  },
  {
   "base": "c7d208f639c493ac221f1c3c4bd6a5c4b4b638b6",
