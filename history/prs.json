@@ -1,25 +1,5 @@
 [
  {
-  "base": "9ff2ef45293bd6461cd0fb2a3f0668f234222fad",
-  "created_at": "2021-07-13T04:17:09Z",
-  "head": "0dd806cea06101ad32525f16e0c959e381aa92d4",
-  "login": "h2oche",
-  "number": 2456,
-  "ref": "AbstractRelationalComparison",
-  "revs": [
-   {
-    "adate": "2021-07-13T12:59:04+09:00",
-    "author": "h2oche",
-    "date": "2021-07-13T12:59:04+09:00",
-    "hash": "0dd806cea06101ad32525f16e0c959e381aa92d4",
-    "parents": "9ff2ef45293bd6461cd0fb2a3f0668f234222fad",
-    "subject": "Editorial: Fix wrong assertion in IsLessThan"
-   }
-  ],
-  "title": "Editorial: Fix wrong assertion in IsLessThan",
-  "updated_at": "2021-07-13T04:48:55Z"
- },
- {
   "base": "f4694412639e19acab2c0dd5baac247aa7d7a889",
   "created_at": "2021-07-07T20:13:18Z",
   "head": "17e41d3c97a61583298ee4182bfbe2ac52aa7121",
@@ -1984,32 +1964,32 @@
   "updated_at": "2020-09-20T23:04:54Z"
  },
  {
-  "base": "9ff2ef45293bd6461cd0fb2a3f0668f234222fad",
+  "base": "2b2b45678a338eef0498b1c4976097089c2d806a",
   "created_at": "2020-08-05T00:10:45Z",
-  "head": "e5ebd1583575d60f40810ba4abf7947694d6bd7b",
+  "head": "ed383acae187c3d1e6cba2f3c6357c6c2abc728c",
   "login": "devsnek",
   "number": 2125,
   "ref": "__proto__-shenanigans",
   "revs": [
    {
-    "adate": "2021-07-12T19:34:16-07:00",
+    "adate": "2021-07-13T11:18:20-07:00",
     "author": "Gus Caplan",
-    "date": "2021-07-12T19:34:16-07:00",
-    "hash": "e5ebd1583575d60f40810ba4abf7947694d6bd7b",
-    "parents": "52c6a61e3b35b75453c75c7e5cbf76ae12cedeeb",
+    "date": "2021-07-13T11:18:20-07:00",
+    "hash": "ed383acae187c3d1e6cba2f3c6357c6c2abc728c",
+    "parents": "29a4d57c7bce3501571d1cc93cbaef07a96be928",
     "subject": "Normative: move __proto__ out of annex b (#2125)"
    },
    {
-    "adate": "2021-03-24T09:18:02-07:00",
+    "adate": "2021-07-13T11:18:19-07:00",
     "author": "Jordan Harband",
-    "date": "2021-07-12T14:51:38-07:00",
-    "hash": "52c6a61e3b35b75453c75c7e5cbf76ae12cedeeb",
-    "parents": "9ff2ef45293bd6461cd0fb2a3f0668f234222fad",
+    "date": "2021-07-13T11:18:19-07:00",
+    "hash": "29a4d57c7bce3501571d1cc93cbaef07a96be928",
+    "parents": "2b2b45678a338eef0498b1c4976097089c2d806a",
     "subject": "Editorial: add \"Legacy\" section (#2125)"
    }
   ],
   "title": "Normative: move __proto__ out of annex b",
-  "updated_at": "2021-07-13T02:42:18Z"
+  "updated_at": "2021-07-13T18:18:28Z"
  },
  {
   "base": "c7d208f639c493ac221f1c3c4bd6a5c4b4b638b6",
