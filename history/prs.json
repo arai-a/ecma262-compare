@@ -28,40 +28,24 @@
   "updated_at": "2021-07-09T14:47:08Z"
  },
  {
-  "base": "7a79833f0b2b338cfb5531449b9bcf5290b9ae9a",
+  "base": "04feb01b1044bbcab1a7b5ded0d887d3904666bb",
   "created_at": "2021-06-30T23:33:56Z",
-  "head": "5bdde7ef00387011c9c2b75943a732e484810f0c",
+  "head": "c8ee5189e15562b61f15c8351832b363ee522c93",
   "login": "syg",
   "number": 2448,
   "ref": "restrict-callables",
   "revs": [
    {
-    "adate": "2021-07-09T16:07:05-07:00",
+    "adate": "2021-07-14T20:52:48-07:00",
     "author": "Shu-yu Guo",
-    "date": "2021-07-09T16:07:05-07:00",
-    "hash": "5bdde7ef00387011c9c2b75943a732e484810f0c",
-    "parents": "47ff7718e22cffcf97ca4ae8a63b25419ad7a73c",
-    "subject": "Fix mismatched tag"
-   },
-   {
-    "adate": "2021-07-09T16:00:44-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2021-07-09T16:00:44-07:00",
-    "hash": "47ff7718e22cffcf97ca4ae8a63b25419ad7a73c",
-    "parents": "523322e038c8f93d52d97855751d1a86e1eb86f5",
-    "subject": "Match language with #2442"
-   },
-   {
-    "adate": "2021-06-30T16:30:38-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2021-06-30T16:30:38-07:00",
-    "hash": "523322e038c8f93d52d97855751d1a86e1eb86f5",
-    "parents": "7a79833f0b2b338cfb5531449b9bcf5290b9ae9a",
-    "subject": "Normative: Restrict completion values callables can return"
+    "date": "2021-07-14T20:52:48-07:00",
+    "hash": "c8ee5189e15562b61f15c8351832b363ee522c93",
+    "parents": "04feb01b1044bbcab1a7b5ded0d887d3904666bb",
+    "subject": "Normative: Restrict completion values callables can return (#2448)"
    }
   ],
   "title": "Normative: Restrict completion values callables can return",
-  "updated_at": "2021-07-09T23:07:16Z"
+  "updated_at": "2021-07-15T03:53:17Z"
  },
  {
   "base": "7a79833f0b2b338cfb5531449b9bcf5290b9ae9a",
@@ -1136,26 +1120,6 @@
   "updated_at": "2021-04-03T05:33:16Z"
  },
  {
-  "base": "f64df565e076ff14447d79fc5c5247aa8d12ab8c",
-  "created_at": "2021-03-25T20:55:46Z",
-  "head": "a44f01024c60bba3ae048d8af61d85e5f362cecd",
-  "login": "ptomato",
-  "number": 2360,
-  "ref": "designed-to-be-subclassable",
-  "revs": [
-   {
-    "adate": "2021-07-14T20:38:21-07:00",
-    "author": "Philip Chimento",
-    "date": "2021-07-14T20:38:21-07:00",
-    "hash": "a44f01024c60bba3ae048d8af61d85e5f362cecd",
-    "parents": "f64df565e076ff14447d79fc5c5247aa8d12ab8c",
-    "subject": "Editorial: Remove 'designed to be subclassable' (#2360)"
-   }
-  ],
-  "title": "Editorial: Remove 'designed to be subclassable'",
-  "updated_at": "2021-07-15T03:38:41Z"
- },
- {
   "base": "26061c0e5e4b62fae91a7127b46c1efa8b94c4b4",
   "created_at": "2021-03-21T17:00:17Z",
   "head": "13e75509fffaf1ba40275b9c506a00245a50c7b5",
@@ -2150,6 +2114,34 @@
   ],
   "title": "Define [[IsHTMLL]] internal slot",
   "updated_at": "2020-05-12T04:32:14Z"
+ },
+ {
+  "base": "7a79833f0b2b338cfb5531449b9bcf5290b9ae9a",
+  "created_at": "2020-04-24T08:48:04Z",
+  "head": "bfaf8957a138ff7f90a1326374cc20dd0fe5bf2b",
+  "login": "jhnaldo",
+  "number": 1967,
+  "ref": "global-prototype-restriction",
+  "revs": [
+   {
+    "adate": "2020-04-24T19:55:37+09:00",
+    "author": "jhnaldo",
+    "date": "2020-04-24T19:55:37+09:00",
+    "hash": "bfaf8957a138ff7f90a1326374cc20dd0fe5bf2b",
+    "parents": "f8a1efb0437a64978965c18782e4e678ac957f76",
+    "subject": "Editorial: Revised the sentence"
+   },
+   {
+    "adate": "2020-04-24T17:35:51+09:00",
+    "author": "jhnaldo",
+    "date": "2020-04-24T17:35:51+09:00",
+    "hash": "f8a1efb0437a64978965c18782e4e678ac957f76",
+    "parents": "0b988b7700de675331ac360d164c978d6ea452ec",
+    "subject": "Editorial: Restriction on [[Prototype]] of the global object"
+   }
+  ],
+  "title": "Normative: Restriction on [[Prototype]] of the global object",
+  "updated_at": "2021-06-29T02:21:03Z"
  },
  {
   "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
