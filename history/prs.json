@@ -1136,24 +1136,24 @@
   "updated_at": "2021-04-03T05:33:16Z"
  },
  {
-  "base": "7cea37d366a9aa7561801e9ac027f2d047d3b27f",
+  "base": "f64df565e076ff14447d79fc5c5247aa8d12ab8c",
   "created_at": "2021-03-25T20:55:46Z",
-  "head": "1c01ea5eedc2b0b8033f75993b29591174a6f217",
+  "head": "a44f01024c60bba3ae048d8af61d85e5f362cecd",
   "login": "ptomato",
   "number": 2360,
   "ref": "designed-to-be-subclassable",
   "revs": [
    {
-    "adate": "2021-03-25T13:30:17-07:00",
+    "adate": "2021-07-14T20:38:21-07:00",
     "author": "Philip Chimento",
-    "date": "2021-03-25T13:30:17-07:00",
-    "hash": "1c01ea5eedc2b0b8033f75993b29591174a6f217",
-    "parents": "7cea37d366a9aa7561801e9ac027f2d047d3b27f",
-    "subject": "Editorial: Remove 'designed to be subclassable'"
+    "date": "2021-07-14T20:38:21-07:00",
+    "hash": "a44f01024c60bba3ae048d8af61d85e5f362cecd",
+    "parents": "f64df565e076ff14447d79fc5c5247aa8d12ab8c",
+    "subject": "Editorial: Remove 'designed to be subclassable' (#2360)"
    }
   ],
   "title": "Editorial: Remove 'designed to be subclassable'",
-  "updated_at": "2021-03-25T21:13:12Z"
+  "updated_at": "2021-07-15T03:38:41Z"
  },
  {
   "base": "26061c0e5e4b62fae91a7127b46c1efa8b94c4b4",
@@ -2150,34 +2150,6 @@
   ],
   "title": "Define [[IsHTMLL]] internal slot",
   "updated_at": "2020-05-12T04:32:14Z"
- },
- {
-  "base": "0b988b7700de675331ac360d164c978d6ea452ec",
-  "created_at": "2020-04-24T08:48:04Z",
-  "head": "bfaf8957a138ff7f90a1326374cc20dd0fe5bf2b",
-  "login": "jhnaldo",
-  "number": 1967,
-  "ref": "global-prototype-restriction",
-  "revs": [
-   {
-    "adate": "2020-04-24T19:55:37+09:00",
-    "author": "jhnaldo",
-    "date": "2020-04-24T19:55:37+09:00",
-    "hash": "bfaf8957a138ff7f90a1326374cc20dd0fe5bf2b",
-    "parents": "f8a1efb0437a64978965c18782e4e678ac957f76",
-    "subject": "Editorial: Revised the sentence"
-   },
-   {
-    "adate": "2020-04-24T17:35:51+09:00",
-    "author": "jhnaldo",
-    "date": "2020-04-24T17:35:51+09:00",
-    "hash": "f8a1efb0437a64978965c18782e4e678ac957f76",
-    "parents": "0b988b7700de675331ac360d164c978d6ea452ec",
-    "subject": "Editorial: Restriction on [[Prototype]] of the global object"
-   }
-  ],
-  "title": "Normative: Restriction on [[Prototype]] of the global object",
-  "updated_at": "2020-05-02T09:06:12Z"
  },
  {
   "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
@@ -3670,26 +3642,6 @@
   ],
   "title": "Unify String and Array maximum lengths",
   "updated_at": "2020-03-27T07:01:43Z"
- },
- {
-  "base": "58e9d8d871d0f047539870bd3eee2b860ad2ba82",
-  "created_at": "2016-04-16T18:28:04Z",
-  "head": "d39343ea8f944fa88663ac99a68f12e85fe7f639",
-  "login": "jmdyck",
-  "number": 545,
-  "ref": "operation_headers",
-  "revs": [
-   {
-    "adate": "2021-03-02T23:23:01-05:00",
-    "author": "Michael Dyck",
-    "date": "2021-07-14T20:55:45-04:00",
-    "hash": "d39343ea8f944fa88663ac99a68f12e85fe7f639",
-    "parents": "58e9d8d871d0f047539870bd3eee2b860ad2ba82",
-    "subject": "Markup: Introduce structured headers (#545)"
-   }
-  ],
-  "title": "Replace each abstract op's preamble with a structured 'header'.",
-  "updated_at": "2021-07-15T00:56:21Z"
  },
  {
   "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
