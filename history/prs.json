@@ -1,5 +1,25 @@
 [
  {
+  "base": "c8ee5189e15562b61f15c8351832b363ee522c93",
+  "created_at": "2021-07-15T15:15:43Z",
+  "head": "69a11f4423cc982670a38cd920ce4d745887fe1f",
+  "login": "gibson042",
+  "number": 2457,
+  "ref": "2021-07-date-ao-parameter-types",
+  "revs": [
+   {
+    "adate": "2021-07-15T11:13:53-04:00",
+    "author": "Richard Gibson",
+    "date": "2021-07-15T11:13:53-04:00",
+    "hash": "69a11f4423cc982670a38cd920ce4d745887fe1f",
+    "parents": "c8ee5189e15562b61f15c8351832b363ee522c93",
+    "subject": "Editorial: Document parameter type for Date Abstract Operations"
+   }
+  ],
+  "title": "Editorial: Document parameter type for Date Abstract Operations",
+  "updated_at": "2021-07-15T15:15:43Z"
+ },
+ {
   "base": "f4694412639e19acab2c0dd5baac247aa7d7a889",
   "created_at": "2021-07-07T20:13:18Z",
   "head": "17e41d3c97a61583298ee4182bfbe2ac52aa7121",
@@ -26,26 +46,6 @@
   ],
   "title": "Editorial: don't imply that SV, TV, and TRV are shorthands",
   "updated_at": "2021-07-09T14:47:08Z"
- },
- {
-  "base": "04feb01b1044bbcab1a7b5ded0d887d3904666bb",
-  "created_at": "2021-06-30T23:33:56Z",
-  "head": "c8ee5189e15562b61f15c8351832b363ee522c93",
-  "login": "syg",
-  "number": 2448,
-  "ref": "restrict-callables",
-  "revs": [
-   {
-    "adate": "2021-07-14T20:52:48-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2021-07-14T20:52:48-07:00",
-    "hash": "c8ee5189e15562b61f15c8351832b363ee522c93",
-    "parents": "04feb01b1044bbcab1a7b5ded0d887d3904666bb",
-    "subject": "Normative: Restrict completion values callables can return (#2448)"
-   }
-  ],
-  "title": "Normative: Restrict completion values callables can return",
-  "updated_at": "2021-07-15T03:53:17Z"
  },
  {
   "base": "7a79833f0b2b338cfb5531449b9bcf5290b9ae9a",
@@ -1174,34 +1174,6 @@
   ],
   "title": "Editorial: Rename some aliases",
   "updated_at": "2021-05-13T15:12:50Z"
- },
- {
-  "base": "6d3c629bca14264170f74ad64f8c0c11b379b901",
-  "created_at": "2021-03-01T21:34:48Z",
-  "head": "863d66d483a9527a6975aa3a1dcca44d4fbc094b",
-  "login": "ljharb",
-  "number": 2337,
-  "ref": "master",
-  "revs": [
-   {
-    "adate": "2020-12-28T12:19:35-08:00",
-    "author": "Jordan Harband",
-    "date": "2021-06-23T22:27:10-07:00",
-    "hash": "863d66d483a9527a6975aa3a1dcca44d4fbc094b",
-    "parents": "b4e31f61f892a5fe35585b24411691bbb104d0c0",
-    "subject": "do not merge: remove later"
-   },
-   {
-    "adate": "2021-06-23T16:25:34-07:00",
-    "author": "Jordan Harband",
-    "date": "2021-06-23T22:26:04-07:00",
-    "hash": "b4e31f61f892a5fe35585b24411691bbb104d0c0",
-    "parents": "6d3c629bca14264170f74ad64f8c0c11b379b901",
-    "subject": "Meta: migrate from travis-ci to Github Actions (#2260)"
-   }
-  ],
-  "title": "Meta: refactor scripts to ensure /2020/ build works properly",
-  "updated_at": "2021-06-24T05:27:33Z"
  },
  {
   "base": "417a0bb5bc3a6d7117c33cf50803483d9bd7adc1",
