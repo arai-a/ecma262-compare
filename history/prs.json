@@ -1500,9 +1500,9 @@
   "updated_at": "2021-01-23T01:29:17Z"
  },
  {
-  "base": "190d474c3d8728653fbf8a5a37db1de34b9c1472",
+  "base": "6ca50dc029e9e04b6788c6a37a02b2b67eb2580d",
   "created_at": "2021-01-13T04:47:26Z",
-  "head": "e1f7e0fe56f8bcdc0081332949fef0aee38d0745",
+  "head": "fb8d9a60fe5178e59db8716c40ef0b39a2ae70b5",
   "login": "jmdyck",
   "number": 2274,
   "ref": "Number_shifts",
@@ -1510,22 +1510,22 @@
    {
     "adate": "2021-01-12T23:24:04-05:00",
     "author": "Michael Dyck",
-    "date": "2021-01-12T23:42:01-05:00",
-    "hash": "e1f7e0fe56f8bcdc0081332949fef0aee38d0745",
-    "parents": "cddb03f2d154c34603ea4fce5b1d2e1f8c57138a",
+    "date": "2021-07-18T10:36:36-04:00",
+    "hash": "fb8d9a60fe5178e59db8716c40ef0b39a2ae70b5",
+    "parents": "cbbd13fa0e482697db91bdf6fcbf54fa90d09ec6",
     "subject": "Editorial: Express some Number methods more explicitly"
    },
    {
     "adate": "2021-01-12T22:07:15-05:00",
     "author": "Michael Dyck",
-    "date": "2021-01-12T23:21:03-05:00",
-    "hash": "cddb03f2d154c34603ea4fce5b1d2e1f8c57138a",
-    "parents": "190d474c3d8728653fbf8a5a37db1de34b9c1472",
+    "date": "2021-07-18T10:36:36-04:00",
+    "hash": "cbbd13fa0e482697db91bdf6fcbf54fa90d09ec6",
+    "parents": "c8ee5189e15562b61f15c8351832b363ee522c93",
     "subject": "Editorial: Extract NumberToInt32Bits and Int32BitsToNumber"
    }
   ],
   "title": "Editorial: Express some 'bitwise' Number methods more explicitly",
-  "updated_at": "2021-01-13T04:47:26Z"
+  "updated_at": "2021-07-18T14:39:03Z"
  },
  {
   "base": "b04a9d443ccb59dbeb6e28a0924158d128fce400",
@@ -1568,9 +1568,9 @@
   "updated_at": "2021-01-01T03:56:14Z"
  },
  {
-  "base": "f4694412639e19acab2c0dd5baac247aa7d7a889",
+  "base": "6ca50dc029e9e04b6788c6a37a02b2b67eb2580d",
   "created_at": "2020-12-08T06:31:39Z",
-  "head": "9ae108b1c988493c59d6f0215b8acfc4222c8cae",
+  "head": "076766e732792e3a91396a8e0b22aab476876900",
   "login": "jmdyck",
   "number": 2246,
   "ref": "ExecutionContext_Record",
@@ -1578,14 +1578,14 @@
    {
     "adate": "2020-12-08T01:22:55-05:00",
     "author": "Michael Dyck",
-    "date": "2021-07-09T00:13:02-04:00",
-    "hash": "9ae108b1c988493c59d6f0215b8acfc4222c8cae",
-    "parents": "f4694412639e19acab2c0dd5baac247aa7d7a889",
+    "date": "2021-07-18T10:49:14-04:00",
+    "hash": "076766e732792e3a91396a8e0b22aab476876900",
+    "parents": "c8ee5189e15562b61f15c8351832b363ee522c93",
     "subject": "Editorial: Model execution context as a record"
    }
   ],
   "title": "Editorial: Model execution context as a record",
-  "updated_at": "2021-07-09T04:15:29Z"
+  "updated_at": "2021-07-18T14:53:03Z"
  },
  {
   "base": "b3f9b5089bcc3ddd8486379015cd11eb1427a5eb",
@@ -2816,9 +2816,9 @@
   "updated_at": "2021-07-11T02:37:22Z"
  },
  {
-  "base": "56b5e8bc3dc84e51bfe5f958b9359c2db10a4d6e",
+  "base": "6ca50dc029e9e04b6788c6a37a02b2b67eb2580d",
   "created_at": "2019-07-13T02:30:44Z",
-  "head": "44921461e698d6a458de2a4ad70acf69e95c1d30",
+  "head": "affceb4ca3029ca9757a46f89613ec56bc8abc20",
   "login": "jmdyck",
   "number": 1623,
   "ref": "index_strings",
@@ -2826,38 +2826,38 @@
    {
     "adate": "2019-07-12T11:59:54-04:00",
     "author": "Michael Dyck",
-    "date": "2021-05-13T14:11:03-04:00",
-    "hash": "44921461e698d6a458de2a4ad70acf69e95c1d30",
-    "parents": "4c99d4e5a7bd9812ee5640edb4f27fe00c2640a9",
+    "date": "2021-07-18T11:02:33-04:00",
+    "hash": "affceb4ca3029ca9757a46f89613ec56bc8abc20",
+    "parents": "ed758eb4a6f1ea9895e086eec4d66fcf07610335",
     "subject": "Editorial: some minor rewordings"
    },
    {
     "adate": "2019-07-12T11:12:43-04:00",
     "author": "Michael Dyck",
-    "date": "2021-05-13T14:11:03-04:00",
-    "hash": "4c99d4e5a7bd9812ee5640edb4f27fe00c2640a9",
-    "parents": "cf195f26d3c632b538c2b55e246db80a3d55328b",
+    "date": "2021-07-18T11:02:33-04:00",
+    "hash": "ed758eb4a6f1ea9895e086eec4d66fcf07610335",
+    "parents": "9e2788c413105a53ba7445bd0c922c50726a5eae",
     "subject": "Editorial: Replace \"array index\" with \"Uint32-string\""
    },
    {
     "adate": "2019-07-12T10:23:31-04:00",
     "author": "Michael Dyck",
-    "date": "2021-05-13T14:11:03-04:00",
-    "hash": "cf195f26d3c632b538c2b55e246db80a3d55328b",
-    "parents": "7173a6ea5161d035a3ffdc4b6840a4c50213c205",
+    "date": "2021-07-18T11:02:33-04:00",
+    "hash": "9e2788c413105a53ba7445bd0c922c50726a5eae",
+    "parents": "490e91ac146ab9e4215bc5e90237492756f6fd88",
     "subject": "Editorial: Replace \"integer index\" with \"Uint53-string\""
    },
    {
     "adate": "2019-07-12T21:58:00-04:00",
     "author": "Michael Dyck",
-    "date": "2021-05-13T14:11:03-04:00",
-    "hash": "7173a6ea5161d035a3ffdc4b6840a4c50213c205",
-    "parents": "56b5e8bc3dc84e51bfe5f958b9359c2db10a4d6e",
+    "date": "2021-07-18T11:00:17-04:00",
+    "hash": "490e91ac146ab9e4215bc5e90237492756f6fd88",
+    "parents": "c8ee5189e15562b61f15c8351832b363ee522c93",
     "subject": "Editorial: Fix wording in Note for Arguments exotic objects"
    }
   ],
   "title": "Editorial: Replace terms \"integer index\" and \"array index\"",
-  "updated_at": "2021-05-13T18:18:34Z"
+  "updated_at": "2021-07-18T15:09:58Z"
  },
  {
   "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
