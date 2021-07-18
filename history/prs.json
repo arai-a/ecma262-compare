@@ -1240,9 +1240,9 @@
   "updated_at": "2021-04-16T07:30:20Z"
  },
  {
-  "base": "56b5e8bc3dc84e51bfe5f958b9359c2db10a4d6e",
+  "base": "c8ee5189e15562b61f15c8351832b363ee522c93",
   "created_at": "2021-03-20T03:43:59Z",
-  "head": "61988e860125ee06797741c14ef6ca09923e43f3",
+  "head": "fc931ca49b26284a8674506a9375b8a1e4223102",
   "login": "jmdyck",
   "number": 2353,
   "ref": "rename_aliases",
@@ -1250,22 +1250,22 @@
    {
     "adate": "2021-03-19T21:16:34-04:00",
     "author": "Michael Dyck",
-    "date": "2021-05-13T11:12:42-04:00",
-    "hash": "61988e860125ee06797741c14ef6ca09923e43f3",
-    "parents": "68b4c79a9ebd7cd01ac932f301964d1f4cd324c5",
+    "date": "2021-07-17T23:49:53-04:00",
+    "hash": "fc931ca49b26284a8674506a9375b8a1e4223102",
+    "parents": "223d362a9d24af32f24297ba624950a8412f8084",
     "subject": "Editorial: Rename some script-related aliases (#2353)"
    },
    {
     "adate": "2021-03-19T17:19:03-04:00",
     "author": "Michael Dyck",
-    "date": "2021-05-13T11:12:22-04:00",
-    "hash": "68b4c79a9ebd7cd01ac932f301964d1f4cd324c5",
-    "parents": "56b5e8bc3dc84e51bfe5f958b9359c2db10a4d6e",
+    "date": "2021-07-17T23:49:53-04:00",
+    "hash": "223d362a9d24af32f24297ba624950a8412f8084",
+    "parents": "c8ee5189e15562b61f15c8351832b363ee522c93",
     "subject": "Editorial: Rename `_scope_` to `_env_` (and similar cases) (#2353)"
    }
   ],
   "title": "Editorial: Rename some aliases",
-  "updated_at": "2021-05-13T15:12:50Z"
+  "updated_at": "2021-07-18T03:54:24Z"
  },
  {
   "base": "417a0bb5bc3a6d7117c33cf50803483d9bd7adc1",
@@ -1368,9 +1368,9 @@
   "updated_at": "2021-02-26T04:09:30Z"
  },
  {
-  "base": "4233638d80edc85f6168702e20d3fbc7e9a03f10",
+  "base": "c8ee5189e15562b61f15c8351832b363ee522c93",
   "created_at": "2021-02-11T16:04:14Z",
-  "head": "893424047de43cdf1b6af5140cb6f8ce5216894d",
+  "head": "21a117ec7d7a0ac7d52957b7fb6519e82ae70ac3",
   "login": "jmdyck",
   "number": 2305,
   "ref": "SortArrayLike",
@@ -1378,54 +1378,54 @@
    {
     "adate": "2021-02-11T10:43:36-05:00",
     "author": "Michael Dyck",
-    "date": "2021-02-11T15:58:09-05:00",
-    "hash": "893424047de43cdf1b6af5140cb6f8ce5216894d",
-    "parents": "88df3ed4da23adf46fd0eb02f9a66aba1c99b75d",
+    "date": "2021-07-18T00:11:59-04:00",
+    "hash": "21a117ec7d7a0ac7d52957b7fb6519e82ae70ac3",
+    "parents": "2744c9e399f6bc14a0117f23d48c72d4708a5b31",
     "subject": "Editorial: Factor out SortArrayLike"
    },
    {
     "adate": "2021-02-11T10:32:49-05:00",
     "author": "Michael Dyck",
-    "date": "2021-02-11T15:58:07-05:00",
-    "hash": "88df3ed4da23adf46fd0eb02f9a66aba1c99b75d",
-    "parents": "1b64a4a749c2fdc07decda61309dc073de08edfa",
+    "date": "2021-07-17T23:58:31-04:00",
+    "hash": "2744c9e399f6bc14a0117f23d48c72d4708a5b31",
+    "parents": "27a1956b24f6af67a2a17f9018436bcb1a137606",
     "subject": "Editorial: Recast SortCompare from abstract op to abstract closure"
    },
    {
     "adate": "2021-02-11T10:05:40-05:00",
     "author": "Michael Dyck",
-    "date": "2021-02-11T15:57:13-05:00",
-    "hash": "1b64a4a749c2fdc07decda61309dc073de08edfa",
-    "parents": "e43a166a5116cb5d8b57fab4eca489f19d4547e5",
+    "date": "2021-07-17T23:56:10-04:00",
+    "hash": "27a1956b24f6af67a2a17f9018436bcb1a137606",
+    "parents": "4bc4003b14fa1c1b5db20a7a36133544731a2b85",
     "subject": "Editorial: Collapse 3 paragraphs re \"sort order\""
    },
    {
     "adate": "2021-02-11T09:57:55-05:00",
     "author": "Michael Dyck",
-    "date": "2021-02-11T15:57:13-05:00",
-    "hash": "e43a166a5116cb5d8b57fab4eca489f19d4547e5",
-    "parents": "ae69eb95348d053057019143c45dbb801c2dd1bb",
+    "date": "2021-07-17T23:56:10-04:00",
+    "hash": "4bc4003b14fa1c1b5db20a7a36133544731a2b85",
+    "parents": "f1c1ac3c8c3ed08038b47c19a28d4af066ffbf16",
     "subject": "Editorial: Tweak the definition of \"sort order\""
    },
    {
     "adate": "2021-02-11T09:35:05-05:00",
     "author": "Michael Dyck",
-    "date": "2021-02-11T15:57:00-05:00",
-    "hash": "ae69eb95348d053057019143c45dbb801c2dd1bb",
-    "parents": "a2a25bf6d10e18eaf28cc28bd69d13fd15f55d03",
+    "date": "2021-07-17T23:56:10-04:00",
+    "hash": "f1c1ac3c8c3ed08038b47c19a28d4af066ffbf16",
+    "parents": "5ec3978e229fc631f34a1863b09944b1274ca9da",
     "subject": "Editorial: Simplify the statement of when sort order is imp-defined"
    },
    {
     "adate": "2021-02-11T09:15:50-05:00",
     "author": "Michael Dyck",
-    "date": "2021-02-11T09:15:50-05:00",
-    "hash": "a2a25bf6d10e18eaf28cc28bd69d13fd15f55d03",
-    "parents": "4233638d80edc85f6168702e20d3fbc7e9a03f10",
+    "date": "2021-07-17T23:56:10-04:00",
+    "hash": "5ec3978e229fc631f34a1863b09944b1274ca9da",
+    "parents": "c8ee5189e15562b61f15c8351832b363ee522c93",
     "subject": "Editorial: Rename \"consistent comparison function\" as \"consistent comparator\""
    }
   ],
   "title": "Editorial: Factor out common `sort` functionality",
-  "updated_at": "2021-02-11T21:13:15Z"
+  "updated_at": "2021-07-18T04:12:20Z"
  },
  {
   "base": "4233638d80edc85f6168702e20d3fbc7e9a03f10",
