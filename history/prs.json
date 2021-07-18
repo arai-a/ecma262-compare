@@ -2708,9 +2708,9 @@
   "updated_at": "2021-02-26T22:35:11Z"
  },
  {
-  "base": "9ff2ef45293bd6461cd0fb2a3f0668f234222fad",
+  "base": "6ca50dc029e9e04b6788c6a37a02b2b67eb2580d",
   "created_at": "2019-07-31T13:07:07Z",
-  "head": "e8ca5b35767a96de879cfadc3a92e35644b56654",
+  "head": "bb4f7aa530b08d5787100fc40c8ced41d9ddb497",
   "login": "jmdyck",
   "number": 1651,
   "ref": "one-grammar",
@@ -2718,102 +2718,102 @@
    {
     "adate": "2019-08-21T16:19:59-04:00",
     "author": "Michael Dyck",
-    "date": "2021-07-10T22:28:41-04:00",
-    "hash": "e8ca5b35767a96de879cfadc3a92e35644b56654",
-    "parents": "71b8a2a08d6bcb6474a8d14f90063e1c3632d5ee",
+    "date": "2021-07-18T15:17:12-04:00",
+    "hash": "bb4f7aa530b08d5787100fc40c8ced41d9ddb497",
+    "parents": "3a19d8570acea440a2b12bd4cb12a6dc98ccc1b2",
     "subject": "Editorial: Add [N] parameter to 5 productions"
    },
    {
     "adate": "2019-08-21T16:08:32-04:00",
     "author": "Michael Dyck",
-    "date": "2021-07-10T22:28:41-04:00",
-    "hash": "71b8a2a08d6bcb6474a8d14f90063e1c3632d5ee",
-    "parents": "febd3e32348070ac958997c1e5d82760a0d2e1bf",
+    "date": "2021-07-18T15:17:12-04:00",
+    "hash": "3a19d8570acea440a2b12bd4cb12a6dc98ccc1b2",
+    "parents": "e18887a23af9689d81463186d2aa9cd3d15d509e",
     "subject": "Editorial: Merge PatternCharacter + ExtendedPatternCharacter"
    },
    {
     "adate": "2019-08-20T20:30:44-04:00",
     "author": "Michael Dyck",
-    "date": "2021-07-10T22:28:41-04:00",
-    "hash": "febd3e32348070ac958997c1e5d82760a0d2e1bf",
-    "parents": "f3759eabe1d23588e17051e292ce2b900e7aa65e",
+    "date": "2021-07-18T15:17:12-04:00",
+    "hash": "e18887a23af9689d81463186d2aa9cd3d15d509e",
+    "parents": "3ea7318edd796cf40a7b32fd511a6949b90a7c0a",
     "subject": "Editorial: Simplify the 'Atom' production"
    },
    {
     "adate": "2019-08-20T16:19:01-04:00",
     "author": "Michael Dyck",
-    "date": "2021-07-10T22:28:41-04:00",
-    "hash": "f3759eabe1d23588e17051e292ce2b900e7aa65e",
-    "parents": "5a7514fa5e4645af2f126f8078c363367e7ec99b",
+    "date": "2021-07-18T15:17:12-04:00",
+    "hash": "3ea7318edd796cf40a7b32fd511a6949b90a7c0a",
+    "parents": "893eae20376858fb9e096a53319e36d0fa3777dd",
     "subject": "Editorial: Simplify the 'Term' production"
    },
    {
     "adate": "2019-08-20T15:48:03-04:00",
     "author": "Michael Dyck",
-    "date": "2021-07-10T22:28:41-04:00",
-    "hash": "5a7514fa5e4645af2f126f8078c363367e7ec99b",
-    "parents": "657dfac0758f806c494f88965da777cb54f8970c",
+    "date": "2021-07-18T15:17:12-04:00",
+    "hash": "893eae20376858fb9e096a53319e36d0fa3777dd",
+    "parents": "9af71f4f5f221bc5f82cc64274a461ef705a5b6c",
     "subject": "Editorial: Merge 'ExtendedAtom' and 'Atom'"
    },
    {
     "adate": "2019-08-20T15:14:19-04:00",
     "author": "Michael Dyck",
-    "date": "2021-07-10T22:28:41-04:00",
-    "hash": "657dfac0758f806c494f88965da777cb54f8970c",
-    "parents": "af35d4bd2cdce73e8d46d10636232005fc12ad60",
+    "date": "2021-07-18T15:17:12-04:00",
+    "hash": "9af71f4f5f221bc5f82cc64274a461ef705a5b6c",
+    "parents": "28747b98c06f3694cc45f299d4a385b8cd39bded",
     "subject": "Editorial: Move the runtime semantics for QuantifiableAssertion"
    },
    {
     "adate": "2019-08-20T15:10:44-04:00",
     "author": "Michael Dyck",
-    "date": "2021-07-10T22:28:41-04:00",
-    "hash": "af35d4bd2cdce73e8d46d10636232005fc12ad60",
-    "parents": "a8fb2cd1d651311986a02fea100365c3c122dde2",
+    "date": "2021-07-18T15:17:12-04:00",
+    "hash": "28747b98c06f3694cc45f299d4a385b8cd39bded",
+    "parents": "2dce2393803a5b213c8da304c9cd23f4720a14a1",
     "subject": "Editorial: Simplify the 'Assertion' production"
    },
    {
     "adate": "2019-08-19T20:36:45-04:00",
     "author": "Michael Dyck",
-    "date": "2021-07-10T22:28:41-04:00",
-    "hash": "a8fb2cd1d651311986a02fea100365c3c122dde2",
-    "parents": "5435b2f556e66966f4041a818d51fcf984394f97",
+    "date": "2021-07-18T15:17:12-04:00",
+    "hash": "2dce2393803a5b213c8da304c9cd23f4720a14a1",
+    "parents": "cf03d87038380f9fc0891ecc151674a16571d292",
     "subject": "Normative: Make B.1.4 \"Regular Expressions Patterns\" normative"
    },
    {
     "adate": "2019-08-16T23:15:10-04:00",
     "author": "Michael Dyck",
-    "date": "2021-07-10T22:28:41-04:00",
-    "hash": "5435b2f556e66966f4041a818d51fcf984394f97",
-    "parents": "09cedce018078d8103b1f44f1934e20e6abdc2cd",
+    "date": "2021-07-18T15:17:12-04:00",
+    "hash": "cf03d87038380f9fc0891ecc151674a16571d292",
+    "parents": "e5a00cea907fd44de344cebdf74ab95b116618dd",
     "subject": "Editorial: Rearrange \"Syntax for Patterns\" into 4 subsections"
    },
    {
     "adate": "2019-08-16T16:13:28-04:00",
     "author": "Michael Dyck",
-    "date": "2021-07-10T22:24:44-04:00",
-    "hash": "09cedce018078d8103b1f44f1934e20e6abdc2cd",
-    "parents": "e7d602d39fed6e41287ab8de226e520171061c7a",
+    "date": "2021-07-18T14:38:52-04:00",
+    "hash": "e5a00cea907fd44de344cebdf74ab95b116618dd",
+    "parents": "1050f46d8d5f668d1e127f9895e43c3634f29d5f",
     "subject": "Markup: change clause-ids to reflect changes in clause-titles"
    },
    {
     "adate": "2019-08-16T16:12:24-04:00",
     "author": "Michael Dyck",
-    "date": "2021-07-10T22:24:43-04:00",
-    "hash": "e7d602d39fed6e41287ab8de226e520171061c7a",
-    "parents": "c8827b83b5e4baa5742efd270b53c582f5d172ad",
+    "date": "2021-07-18T14:38:52-04:00",
+    "hash": "1050f46d8d5f668d1e127f9895e43c3634f29d5f",
+    "parents": "bde452ce288feb20614e8c50ad26a618bb4b638b",
     "subject": "Editorial: Split 'Patterns' clause into two clauses"
    },
    {
     "adate": "2019-08-04T17:39:27-04:00",
     "author": "Michael Dyck",
-    "date": "2021-07-10T22:24:43-04:00",
-    "hash": "c8827b83b5e4baa5742efd270b53c582f5d172ad",
-    "parents": "9ff2ef45293bd6461cd0fb2a3f0668f234222fad",
+    "date": "2021-07-18T14:38:52-04:00",
+    "hash": "bde452ce288feb20614e8c50ad26a618bb4b638b",
+    "parents": "c8ee5189e15562b61f15c8351832b363ee522c93",
     "subject": "Normative: Make B.1.3 \"HTML-like comments\" normative"
    }
   ],
   "title": "Normative: Make B.1 \"Additional Syntax\" normative",
-  "updated_at": "2021-07-11T02:37:22Z"
+  "updated_at": "2021-07-18T19:20:31Z"
  },
  {
   "base": "6ca50dc029e9e04b6788c6a37a02b2b67eb2580d",
