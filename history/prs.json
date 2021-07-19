@@ -1538,11 +1538,19 @@
  {
   "base": "6ca50dc029e9e04b6788c6a37a02b2b67eb2580d",
   "created_at": "2021-01-05T15:39:18Z",
-  "head": "d4cfaf1ebf2d7a66541c67a78c8b903c1d4fc74f",
+  "head": "24de5653734b8c0c43b460a680ef989243fbd647",
   "login": "codehag",
   "number": 2267,
   "ref": "null-or-undefined-reference-records",
   "revs": [
+   {
+    "adate": "2021-07-18T21:31:30-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-07-18T21:31:30-07:00",
+    "hash": "24de5653734b8c0c43b460a680ef989243fbd647",
+    "parents": "d4cfaf1ebf2d7a66541c67a78c8b903c1d4fc74f",
+    "subject": "EvaluatePropertyAccessWithIdentifierKey is infallible"
+   },
    {
     "adate": "2021-01-05T13:16:40+01:00",
     "author": "codehag",
@@ -1553,7 +1561,7 @@
    }
   ],
   "title": "Normative: Allow null or undefined in Reference Records",
-  "updated_at": "2021-07-18T20:11:45Z"
+  "updated_at": "2021-07-19T04:31:43Z"
  },
  {
   "base": "6d6b73ab6fe3b070737a5cbded19337a8b9e4c9c",
