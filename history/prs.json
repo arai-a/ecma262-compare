@@ -1,5 +1,85 @@
 [
  {
+  "base": "ee2d79096a3b1c9edc34f95933d0b69ad6496758",
+  "created_at": "2021-07-20T18:55:17Z",
+  "head": "342b12e29a204c5d3abb88c9efba16f0514b97c7",
+  "login": "gibson042",
+  "number": 2468,
+  "ref": "2021-07-cleanup-own-prop-ops",
+  "revs": [
+   {
+    "adate": "2021-07-20T14:41:24-04:00",
+    "author": "Richard Gibson",
+    "date": "2021-07-20T14:53:51-04:00",
+    "hash": "342b12e29a204c5d3abb88c9efba16f0514b97c7",
+    "parents": "638a335ab71d95e12b33a11363b45600b9b90b5f",
+    "subject": "Editorial: Further refactor ValidateAndApplyPropertyDescriptor"
+   },
+   {
+    "adate": "2021-07-20T12:12:50-04:00",
+    "author": "Richard Gibson",
+    "date": "2021-07-20T14:53:51-04:00",
+    "hash": "638a335ab71d95e12b33a11363b45600b9b90b5f",
+    "parents": "0a1aa7c4a2e37f202e169bc4bffdbf04ced62a18",
+    "subject": "Editorial: Refactor ValidateAndApplyPropertyDescriptor for comprehensibility"
+   },
+   {
+    "adate": "2021-07-19T22:37:00-04:00",
+    "author": "Richard Gibson",
+    "date": "2021-07-20T14:53:51-04:00",
+    "hash": "0a1aa7c4a2e37f202e169bc4bffdbf04ced62a18",
+    "parents": "4f6c49bcddb05e84c1f5a52787531ce9ea3454bf",
+    "subject": "Editorial: Simplify the ValidateAndApplyPropertyDescriptor new-property case"
+   },
+   {
+    "adate": "2021-07-19T22:31:44-04:00",
+    "author": "Richard Gibson",
+    "date": "2021-07-20T14:53:51-04:00",
+    "hash": "4f6c49bcddb05e84c1f5a52787531ce9ea3454bf",
+    "parents": "7832626c522d8d53f38d6350aafc31fcfda69565",
+    "subject": "Editorial: Improve ValidateAndApplyPropertyDescriptor structured header"
+   },
+   {
+    "adate": "2021-07-20T12:31:37-04:00",
+    "author": "Richard Gibson",
+    "date": "2021-07-20T14:53:50-04:00",
+    "hash": "7832626c522d8d53f38d6350aafc31fcfda69565",
+    "parents": "9ebbf070c3e8806867fcf6245dda15912d706322",
+    "subject": "Editorial: Clarify Proxy [[GetOwnProperty]]"
+   },
+   {
+    "adate": "2021-07-19T22:29:06-04:00",
+    "author": "Richard Gibson",
+    "date": "2021-07-20T14:53:50-04:00",
+    "hash": "9ebbf070c3e8806867fcf6245dda15912d706322",
+    "parents": "ee2d79096a3b1c9edc34f95933d0b69ad6496758",
+    "subject": "Editorial: Merge tables in sec-property-attributes"
+   }
+  ],
+  "title": "Cleanup ValidateAndApplyPropertyDescriptor and own prop operations",
+  "updated_at": "2021-07-20T19:07:11Z"
+ },
+ {
+  "base": "ee2d79096a3b1c9edc34f95933d0b69ad6496758",
+  "created_at": "2021-07-20T18:48:01Z",
+  "head": "7e8a652d61528f9ae4c28695d34c859b19f9169d",
+  "login": "tc39",
+  "number": 2467,
+  "ref": "bump-emu",
+  "revs": [
+   {
+    "adate": "2021-07-20T11:46:23-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-07-20T11:46:23-07:00",
+    "hash": "7e8a652d61528f9ae4c28695d34c859b19f9169d",
+    "parents": "ee2d79096a3b1c9edc34f95933d0b69ad6496758",
+    "subject": "Meta: bump ecmarkup to 8.0.1"
+   }
+  ],
+  "title": "Meta: bump ecmarkup to 8.0.1",
+  "updated_at": "2021-07-20T18:49:57Z"
+ },
+ {
   "base": "c8ee5189e15562b61f15c8351832b363ee522c93",
   "created_at": "2021-07-17T14:46:26Z",
   "head": "e8efa20322d9c3c5c1ceb838b25ac6bd702f9be0",
@@ -58,26 +138,6 @@
   ],
   "title": "Editorial: install fields in default constructors",
   "updated_at": "2021-07-17T05:35:51Z"
- },
- {
-  "base": "c8ee5189e15562b61f15c8351832b363ee522c93",
-  "created_at": "2021-07-16T07:29:12Z",
-  "head": "58a0c1cbe1ba050ad30151c396488d20cfb5b320",
-  "login": "pacokwon",
-  "number": 2460,
-  "ref": "array-length-same-value",
-  "revs": [
-   {
-    "adate": "2021-07-16T16:18:45+09:00",
-    "author": "pacokwon",
-    "date": "2021-07-17T14:01:26+09:00",
-    "hash": "58a0c1cbe1ba050ad30151c396488d20cfb5b320",
-    "parents": "c8ee5189e15562b61f15c8351832b363ee522c93",
-    "subject": "Editorial: Validate array length using `SameValue`"
-   }
-  ],
-  "title": "Editorial: Validate array length using `SameValue` in `ArraySetLength` and `Array`",
-  "updated_at": "2021-07-17T05:07:34Z"
  },
  {
   "base": "c8ee5189e15562b61f15c8351832b363ee522c93",
@@ -3142,34 +3202,6 @@
   ],
   "title": "Normative: Guard IntegerIndexedElementSet with receiver check",
   "updated_at": "2021-03-01T03:23:35Z"
- },
- {
-  "base": "6ca50dc029e9e04b6788c6a37a02b2b67eb2580d",
-  "created_at": "2019-05-28T03:19:22Z",
-  "head": "37d6204945862d0a1379e771b1352a1eb158618e",
-  "login": "jmdyck",
-  "number": 1554,
-  "ref": "NumericValue",
-  "revs": [
-   {
-    "adate": "2021-07-19T11:23:04-07:00",
-    "author": "Michael Dyck",
-    "date": "2021-07-19T11:23:04-07:00",
-    "hash": "37d6204945862d0a1379e771b1352a1eb158618e",
-    "parents": "e8af6134a1eb292b97819e12a899747571af8b0c",
-    "subject": "Editorial: Define + use StringToNumber (#1554)"
-   },
-   {
-    "adate": "2021-07-19T11:22:53-07:00",
-    "author": "Michael Dyck",
-    "date": "2021-07-19T11:22:53-07:00",
-    "hash": "e8af6134a1eb292b97819e12a899747571af8b0c",
-    "parents": "6ca50dc029e9e04b6788c6a37a02b2b67eb2580d",
-    "subject": "Editorial: Remove ToNumber's note re surrogates (#1554)"
-   }
-  ],
-  "title": "Editorial: Define + use StringToNumber",
-  "updated_at": "2021-07-19T18:23:21Z"
  },
  {
   "base": "c7d208f639c493ac221f1c3c4bd6a5c4b4b638b6",
