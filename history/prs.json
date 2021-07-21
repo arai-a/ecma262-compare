@@ -1,5 +1,25 @@
 [
  {
+  "base": "f232772fde1c089a1d4cec26cc70889663b454d5",
+  "created_at": "2021-07-21T22:44:05Z",
+  "head": "6c0903dcf0cbba2d9b766c2f7c69dec5e3df825e",
+  "login": "tc39",
+  "number": 2469,
+  "ref": "notin",
+  "revs": [
+   {
+    "adate": "2021-07-21T15:42:43-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-07-21T15:42:43-07:00",
+    "hash": "6c0903dcf0cbba2d9b766c2f7c69dec5e3df825e",
+    "parents": "61f79507adbb738af26a3ddaca521468bf0d36ff",
+    "subject": "Markup: prefer `&notin;` over `&lt;!`"
+   }
+  ],
+  "title": "Markup: prefer `&notin;` over `&lt;!`",
+  "updated_at": "2021-07-21T22:44:05Z"
+ },
+ {
   "base": "ee2d79096a3b1c9edc34f95933d0b69ad6496758",
   "created_at": "2021-07-20T18:55:17Z",
   "head": "342b12e29a204c5d3abb88c9efba16f0514b97c7",
@@ -58,26 +78,6 @@
   ],
   "title": "Cleanup ValidateAndApplyPropertyDescriptor and own prop operations",
   "updated_at": "2021-07-20T19:07:11Z"
- },
- {
-  "base": "ee2d79096a3b1c9edc34f95933d0b69ad6496758",
-  "created_at": "2021-07-20T18:48:01Z",
-  "head": "7e8a652d61528f9ae4c28695d34c859b19f9169d",
-  "login": "tc39",
-  "number": 2467,
-  "ref": "bump-emu",
-  "revs": [
-   {
-    "adate": "2021-07-20T11:46:23-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-07-20T11:46:23-07:00",
-    "hash": "7e8a652d61528f9ae4c28695d34c859b19f9169d",
-    "parents": "ee2d79096a3b1c9edc34f95933d0b69ad6496758",
-    "subject": "Meta: bump ecmarkup to 8.0.1"
-   }
-  ],
-  "title": "Meta: bump ecmarkup to 8.0.1",
-  "updated_at": "2021-07-20T18:49:57Z"
  },
  {
   "base": "c8ee5189e15562b61f15c8351832b363ee522c93",
@@ -182,11 +182,19 @@
  {
   "base": "f4694412639e19acab2c0dd5baac247aa7d7a889",
   "created_at": "2021-07-07T20:13:18Z",
-  "head": "17e41d3c97a61583298ee4182bfbe2ac52aa7121",
+  "head": "a808e70987bc99bc28c59f62b8570f3d23df8b67",
   "login": "tc39",
   "number": 2451,
   "ref": "sv-tv-trv-are-not-replaceable",
   "revs": [
+   {
+    "adate": "2021-07-21T17:07:10-06:00",
+    "author": "Michael Ficarra",
+    "date": "2021-07-21T17:07:50-06:00",
+    "hash": "a808e70987bc99bc28c59f62b8570f3d23df8b67",
+    "parents": "17e41d3c97a61583298ee4182bfbe2ac52aa7121",
+    "subject": "add parentheticals"
+   },
    {
     "adate": "2021-07-09T08:46:42-06:00",
     "author": "Michael Ficarra",
@@ -205,7 +213,7 @@
    }
   ],
   "title": "Editorial: don't imply that SV, TV, and TRV are shorthands",
-  "updated_at": "2021-07-09T14:47:08Z"
+  "updated_at": "2021-07-21T23:08:26Z"
  },
  {
   "base": "7a79833f0b2b338cfb5531449b9bcf5290b9ae9a",
@@ -246,26 +254,6 @@
   ],
   "title": "Editorial: Eliminate order-disambiguation from Annex B Pattern-grammar",
   "updated_at": "2021-06-28T14:05:38Z"
- },
- {
-  "base": "ee2d79096a3b1c9edc34f95933d0b69ad6496758",
-  "created_at": "2021-06-24T02:02:32Z",
-  "head": "f811ffcea9123404b352c4aa57339a196f8d44b2",
-  "login": "syg",
-  "number": 2442,
-  "ref": "restrict-host-hooks-completions",
-  "revs": [
-   {
-    "adate": "2021-06-23T18:50:20-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2021-07-21T10:54:33-07:00",
-    "hash": "f811ffcea9123404b352c4aa57339a196f8d44b2",
-    "parents": "ee2d79096a3b1c9edc34f95933d0b69ad6496758",
-    "subject": "Normative: Constrain all host hooks to return either normal or throw completions"
-   }
-  ],
-  "title": "Normative: Constrain all host hooks to return either normal or throw completions",
-  "updated_at": "2021-07-21T18:01:37Z"
  },
  {
   "base": "7a79833f0b2b338cfb5531449b9bcf5290b9ae9a",
@@ -334,26 +322,6 @@
   ],
   "title": "Normative: allow named backreferences without `u` flag in core grammar",
   "updated_at": "2021-06-15T22:18:35Z"
- },
- {
-  "base": "28fb25e845ee129c02e40594670a39f552ca6888",
-  "created_at": "2021-06-11T17:18:46Z",
-  "head": "d426468f60071870e689725b651ed0a08c2bd9ba",
-  "login": "bocoup",
-  "number": 2433,
-  "ref": "host-compile-completion",
-  "revs": [
-   {
-    "adate": "2021-06-11T13:07:27-04:00",
-    "author": "Mike Pennisi",
-    "date": "2021-06-11T13:07:27-04:00",
-    "hash": "d426468f60071870e689725b651ed0a08c2bd9ba",
-    "parents": "28fb25e845ee129c02e40594670a39f552ca6888",
-    "subject": "Normative: restrict abstract op. completion type"
-   }
-  ],
-  "title": "Normative: restrict abstract op. completion type",
-  "updated_at": "2021-06-11T17:24:08Z"
  },
  {
   "base": "33fe30f9a6b0dc81826f2f217167a89c025779a0",
