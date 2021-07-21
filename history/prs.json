@@ -248,64 +248,24 @@
   "updated_at": "2021-06-28T14:05:38Z"
  },
  {
-  "base": "45021b4b4f90cc3976907f0603162d4291b66092",
+  "base": "ee2d79096a3b1c9edc34f95933d0b69ad6496758",
   "created_at": "2021-06-24T02:02:32Z",
-  "head": "697928223de219192f8ed45eccfcbf87978130f4",
+  "head": "f811ffcea9123404b352c4aa57339a196f8d44b2",
   "login": "syg",
   "number": 2442,
   "ref": "restrict-host-hooks-completions",
   "revs": [
    {
-    "adate": "2021-07-09T15:58:29-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2021-07-09T15:58:29-07:00",
-    "hash": "697928223de219192f8ed45eccfcbf87978130f4",
-    "parents": "aa2b28ca378648b0d053856ac0e7cb56e79672a1",
-    "subject": "Revert [[Type]] wording"
-   },
-   {
-    "adate": "2021-07-09T12:55:11-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2021-07-09T12:55:11-07:00",
-    "hash": "aa2b28ca378648b0d053856ac0e7cb56e79672a1",
-    "parents": "b53c30583cc70a5729f2456b65e07065df1fd0e4",
-    "subject": "Address michaelficarra review + dfn completion shorthands"
-   },
-   {
-    "adate": "2021-06-24T11:43:19-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2021-07-09T10:39:34-07:00",
-    "hash": "b53c30583cc70a5729f2456b65e07065df1fd0e4",
-    "parents": "c450b64ffc9a1889265ce913c4430ec43a07b77d",
-    "subject": "Missed an alias"
-   },
-   {
-    "adate": "2021-06-24T10:58:27-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2021-07-09T10:39:34-07:00",
-    "hash": "c450b64ffc9a1889265ce913c4430ec43a07b77d",
-    "parents": "1a41acfdeee58ec44dd3b2e92d2343fb6ddd7c00",
-    "subject": "Take ljharb's suggestion to use <<>> for empty list"
-   },
-   {
-    "adate": "2021-06-24T10:53:48-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2021-07-09T10:39:33-07:00",
-    "hash": "1a41acfdeee58ec44dd3b2e92d2343fb6ddd7c00",
-    "parents": "d252dfbcafd90d6236188fad7e541a7a1c11fb5f",
-    "subject": "Address jugglinmike review"
-   },
-   {
     "adate": "2021-06-23T18:50:20-07:00",
     "author": "Shu-yu Guo",
-    "date": "2021-07-09T10:39:33-07:00",
-    "hash": "d252dfbcafd90d6236188fad7e541a7a1c11fb5f",
-    "parents": "45021b4b4f90cc3976907f0603162d4291b66092",
+    "date": "2021-07-21T10:54:33-07:00",
+    "hash": "f811ffcea9123404b352c4aa57339a196f8d44b2",
+    "parents": "ee2d79096a3b1c9edc34f95933d0b69ad6496758",
     "subject": "Normative: Constrain all host hooks to return either normal or throw completions"
    }
   ],
   "title": "Normative: Constrain all host hooks to return either normal or throw completions",
-  "updated_at": "2021-07-09T22:58:42Z"
+  "updated_at": "2021-07-21T18:01:37Z"
  },
  {
   "base": "7a79833f0b2b338cfb5531449b9bcf5290b9ae9a",
