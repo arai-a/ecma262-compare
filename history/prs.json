@@ -180,42 +180,6 @@
   "updated_at": "2021-07-15T15:15:43Z"
  },
  {
-  "base": "f4694412639e19acab2c0dd5baac247aa7d7a889",
-  "created_at": "2021-07-07T20:13:18Z",
-  "head": "a808e70987bc99bc28c59f62b8570f3d23df8b67",
-  "login": "tc39",
-  "number": 2451,
-  "ref": "sv-tv-trv-are-not-replaceable",
-  "revs": [
-   {
-    "adate": "2021-07-21T17:07:10-06:00",
-    "author": "Michael Ficarra",
-    "date": "2021-07-21T17:07:50-06:00",
-    "hash": "a808e70987bc99bc28c59f62b8570f3d23df8b67",
-    "parents": "17e41d3c97a61583298ee4182bfbe2ac52aa7121",
-    "subject": "add parentheticals"
-   },
-   {
-    "adate": "2021-07-09T08:46:42-06:00",
-    "author": "Michael Ficarra",
-    "date": "2021-07-09T08:46:42-06:00",
-    "hash": "17e41d3c97a61583298ee4182bfbe2ac52aa7121",
-    "parents": "7761bdcbf5a6332683e5b3674e508a90cc33a34a",
-    "subject": "add description to TV/TRV"
-   },
-   {
-    "adate": "2021-07-07T14:08:33-06:00",
-    "author": "Michael Ficarra",
-    "date": "2021-07-09T08:34:16-06:00",
-    "hash": "7761bdcbf5a6332683e5b3674e508a90cc33a34a",
-    "parents": "f4694412639e19acab2c0dd5baac247aa7d7a889",
-    "subject": "Editorial: don't imply that SV, TV, and TRV are shorthands"
-   }
-  ],
-  "title": "Editorial: don't imply that SV, TV, and TRV are shorthands",
-  "updated_at": "2021-07-21T23:08:26Z"
- },
- {
   "base": "7a79833f0b2b338cfb5531449b9bcf5290b9ae9a",
   "created_at": "2021-06-30T18:11:24Z",
   "head": "9d2abea9f576998e0bd1728e46035b2625e09357",
@@ -686,11 +650,27 @@
  {
   "base": "6ca50dc029e9e04b6788c6a37a02b2b67eb2580d",
   "created_at": "2021-05-14T08:11:03Z",
-  "head": "8d6bdd2f09fb8b26c3789f0d0ee669333769dd29",
+  "head": "fcac9a660a1e566cad0992b8efc903c8aa593fdd",
   "login": "codehag",
   "number": 2408,
   "ref": "proposal-top-level-await",
   "revs": [
+   {
+    "adate": "2021-07-21T22:08:34-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-07-21T22:08:34-07:00",
+    "hash": "fcac9a660a1e566cad0992b8efc903c8aa593fdd",
+    "parents": "7ec842f1a81af7f5e3827ac103e333799d87137a",
+    "subject": "Editorial: more consistent returns"
+   },
+   {
+    "adate": "2021-07-21T22:01:06-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-07-21T22:01:06-07:00",
+    "hash": "7ec842f1a81af7f5e3827ac103e333799d87137a",
+    "parents": "8d6bdd2f09fb8b26c3789f0d0ee669333769dd29",
+    "subject": "Editorial: use abstract closures for built-in functions"
+   },
    {
     "adate": "2021-07-21T20:54:51-07:00",
     "author": "Kevin Gibbons",
@@ -917,7 +897,7 @@
    }
   ],
   "title": "Normative: Top-level Await",
-  "updated_at": "2021-07-22T03:54:58Z"
+  "updated_at": "2021-07-22T05:08:40Z"
  },
  {
   "base": "c2a9389aa87ca91e440dbea14dbd2192270b0f64",
@@ -2002,34 +1982,6 @@
   ],
   "title": "Normative: Fix out-of-range NaNs in date set methods",
   "updated_at": "2020-09-20T23:04:54Z"
- },
- {
-  "base": "2b2b45678a338eef0498b1c4976097089c2d806a",
-  "created_at": "2020-08-05T00:10:45Z",
-  "head": "ed383acae187c3d1e6cba2f3c6357c6c2abc728c",
-  "login": "devsnek",
-  "number": 2125,
-  "ref": "__proto__-shenanigans",
-  "revs": [
-   {
-    "adate": "2021-07-13T11:18:20-07:00",
-    "author": "Gus Caplan",
-    "date": "2021-07-13T11:18:20-07:00",
-    "hash": "ed383acae187c3d1e6cba2f3c6357c6c2abc728c",
-    "parents": "29a4d57c7bce3501571d1cc93cbaef07a96be928",
-    "subject": "Normative: move __proto__ out of annex b (#2125)"
-   },
-   {
-    "adate": "2021-07-13T11:18:19-07:00",
-    "author": "Jordan Harband",
-    "date": "2021-07-13T11:18:19-07:00",
-    "hash": "29a4d57c7bce3501571d1cc93cbaef07a96be928",
-    "parents": "2b2b45678a338eef0498b1c4976097089c2d806a",
-    "subject": "Editorial: add \"Legacy\" section (#2125)"
-   }
-  ],
-  "title": "Normative: move __proto__ out of annex b",
-  "updated_at": "2021-07-13T18:18:28Z"
  },
  {
   "base": "c7d208f639c493ac221f1c3c4bd6a5c4b4b638b6",
