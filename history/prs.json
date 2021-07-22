@@ -30,11 +30,35 @@
  {
   "base": "ee2d79096a3b1c9edc34f95933d0b69ad6496758",
   "created_at": "2021-07-20T18:55:17Z",
-  "head": "342b12e29a204c5d3abb88c9efba16f0514b97c7",
+  "head": "35cf9413e67c87c0e8e53130701c79e17d664b18",
   "login": "gibson042",
   "number": 2468,
   "ref": "2021-07-cleanup-own-prop-ops",
   "revs": [
+   {
+    "adate": "2021-07-22T15:15:06-04:00",
+    "author": "Richard Gibson",
+    "date": "2021-07-22T15:23:50-04:00",
+    "hash": "35cf9413e67c87c0e8e53130701c79e17d664b18",
+    "parents": "23154a61d2c6f0e7f63cd65280258c542ddd4a4f",
+    "subject": "Editorial: Rename alias"
+   },
+   {
+    "adate": "2021-07-22T15:03:27-04:00",
+    "author": "Richard Gibson",
+    "date": "2021-07-22T15:22:04-04:00",
+    "hash": "23154a61d2c6f0e7f63cd65280258c542ddd4a4f",
+    "parents": "68622b2825febd2bbe4c3a22fa06b6120620c5c8",
+    "subject": "Editorial: Merge checks that effect [[Value]]/[[Data]] immutability"
+   },
+   {
+    "adate": "2021-07-22T15:03:08-04:00",
+    "author": "Richard Gibson",
+    "date": "2021-07-22T15:03:08-04:00",
+    "hash": "68622b2825febd2bbe4c3a22fa06b6120620c5c8",
+    "parents": "342b12e29a204c5d3abb88c9efba16f0514b97c7",
+    "subject": "Editorial: Add \"fully populated Property Descriptor\" definition and assertion"
+   },
    {
     "adate": "2021-07-20T14:41:24-04:00",
     "author": "Richard Gibson",
@@ -85,7 +109,7 @@
    }
   ],
   "title": "Cleanup ValidateAndApplyPropertyDescriptor and own prop operations",
-  "updated_at": "2021-07-20T19:07:11Z"
+  "updated_at": "2021-07-22T19:34:02Z"
  },
  {
   "base": "c8ee5189e15562b61f15c8351832b363ee522c93",
@@ -1950,26 +1974,6 @@
   ],
   "title": "Normative: Fix out-of-range NaNs in date set methods",
   "updated_at": "2020-09-20T23:04:54Z"
- },
- {
-  "base": "9a2737c75296a1cc5df3d61a59e0470cb7428b74",
-  "created_at": "2020-07-28T10:58:41Z",
-  "head": "e7610a874f390aca90d8c059a95eb38e375a156c",
-  "login": "ExE-Boss",
-  "number": 2115,
-  "ref": "editorial/create-builtin-function/fix-internal-slots-list-param",
-  "revs": [
-   {
-    "adate": "2021-07-22T10:48:05-07:00",
-    "author": "ExE Boss",
-    "date": "2021-07-22T10:48:05-07:00",
-    "hash": "e7610a874f390aca90d8c059a95eb38e375a156c",
-    "parents": "9a2737c75296a1cc5df3d61a59e0470cb7428b74",
-    "subject": "Editorial: Fix\u00a0`internalSlotsList`\u00a0parameter of\u00a0`CreateBuiltinFunction` (#2115)"
-   }
-  ],
-  "title": "Editorial: Define\u00a0required internal\u00a0slots in\u00a0`CreateBuiltinFunction`\u00a0steps",
-  "updated_at": "2021-07-22T17:49:07Z"
  },
  {
   "base": "d9fea48d771602da19e932e1e084c12bda4c9f41",
