@@ -1954,22 +1954,22 @@
  {
   "base": "9a2737c75296a1cc5df3d61a59e0470cb7428b74",
   "created_at": "2020-07-28T10:58:41Z",
-  "head": "a1d076fedd5ad334df6d4018379455679fb9770c",
+  "head": "e7610a874f390aca90d8c059a95eb38e375a156c",
   "login": "ExE-Boss",
   "number": 2115,
   "ref": "editorial/create-builtin-function/fix-internal-slots-list-param",
   "revs": [
    {
-    "adate": "2020-08-31T16:50:00+02:00",
+    "adate": "2021-07-22T10:48:05-07:00",
     "author": "ExE Boss",
-    "date": "2021-07-21T23:33:47-07:00",
-    "hash": "a1d076fedd5ad334df6d4018379455679fb9770c",
+    "date": "2021-07-22T10:48:05-07:00",
+    "hash": "e7610a874f390aca90d8c059a95eb38e375a156c",
     "parents": "9a2737c75296a1cc5df3d61a59e0470cb7428b74",
-    "subject": "Editorial: Fix\u00a0`internalSlotsList`\u00a0parameter of\u00a0`CreateBuiltinFunction`"
+    "subject": "Editorial: Fix\u00a0`internalSlotsList`\u00a0parameter of\u00a0`CreateBuiltinFunction` (#2115)"
    }
   ],
   "title": "Editorial: Define\u00a0required internal\u00a0slots in\u00a0`CreateBuiltinFunction`\u00a0steps",
-  "updated_at": "2021-07-22T06:41:14Z"
+  "updated_at": "2021-07-22T17:49:07Z"
  },
  {
   "base": "d9fea48d771602da19e932e1e084c12bda4c9f41",
