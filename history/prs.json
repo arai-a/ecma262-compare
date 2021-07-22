@@ -686,11 +686,59 @@
  {
   "base": "6ca50dc029e9e04b6788c6a37a02b2b67eb2580d",
   "created_at": "2021-05-14T08:11:03Z",
-  "head": "2fab27af4d3843c975bb9e78ab8ce5c8729b8ff9",
+  "head": "35f6ba05fb4fb3698d22f5b375ffa1be050312db",
   "login": "codehag",
   "number": 2408,
   "ref": "proposal-top-level-await",
   "revs": [
+   {
+    "adate": "2021-07-21T19:45:06-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-07-21T19:45:06-07:00",
+    "hash": "35f6ba05fb4fb3698d22f5b375ffa1be050312db",
+    "parents": "b123cfb7428fd2802cd65c4d1b255ea4f406c659",
+    "subject": "Editorial: note possibility for parallel execution in example"
+   },
+   {
+    "adate": "2021-07-21T19:43:46-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-07-21T19:43:46-07:00",
+    "hash": "b123cfb7428fd2802cd65c4d1b255ea4f406c659",
+    "parents": "5a0edba0501f00b069659ddeae82d151cf1fef36",
+    "subject": "Editorial: GatherAsyncParentCompletions -> GatherAvailableAncestors"
+   },
+   {
+    "adate": "2021-07-21T19:40:42-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-07-21T19:40:42-07:00",
+    "hash": "5a0edba0501f00b069659ddeae82d151cf1fef36",
+    "parents": "9a4743005f4caeee64d0fd213c1528305e5ac8e1",
+    "subject": "Editorial: tweak descriptions of [[CycleRoot]] and [[TopLevelCapability]]"
+   },
+   {
+    "adate": "2021-07-21T19:33:18-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-07-21T19:33:18-07:00",
+    "hash": "9a4743005f4caeee64d0fd213c1528305e5ac8e1",
+    "parents": "a269c89aec8f1e68a728c0a51127fd1a19fd7a89",
+    "subject": "Editorial: tweak description of Evaluate"
+   },
+   {
+    "adate": "2021-07-21T19:29:41-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-07-21T19:29:41-07:00",
+    "hash": "a269c89aec8f1e68a728c0a51127fd1a19fd7a89",
+    "parents": "190b0ef30fae4f93d82b737ce2c13c7aa959a180",
+    "subject": "Editorial: minor tweaks and typos"
+   },
+   {
+    "adate": "2021-07-21T19:24:50-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-07-21T19:24:50-07:00",
+    "hash": "190b0ef30fae4f93d82b737ce2c13c7aa959a180",
+    "parents": "2fab27af4d3843c975bb9e78ab8ce5c8729b8ff9",
+    "subject": "Editorial: consistently PromiseCapability Record"
+   },
    {
     "adate": "2021-07-18T16:48:59-07:00",
     "author": "Kevin Gibbons",
@@ -861,7 +909,7 @@
    }
   ],
   "title": "Normative: Top-level Await",
-  "updated_at": "2021-07-19T00:13:44Z"
+  "updated_at": "2021-07-22T02:45:23Z"
  },
  {
   "base": "c2a9389aa87ca91e440dbea14dbd2192270b0f64",
