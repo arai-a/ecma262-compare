@@ -653,7 +653,7 @@ class RevisionRenderer:
             distutils.dir_util.remove_tree(rev_dir)
 
         multipage_dir = os.path.join(repo_out_dir, 'multipage')
-        if not os.path.exists(multipage_dir):
+        if os.path.exists(multipage_dir):
             distutils.dir_util.remove_tree(multipage_dir)
 
         distutils.dir_util.copy_tree(repo_out_dir, rev_dir)
