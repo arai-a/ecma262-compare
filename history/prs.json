@@ -1,23 +1,31 @@
 [
  {
-  "base": "f232772fde1c089a1d4cec26cc70889663b454d5",
-  "created_at": "2021-07-21T22:44:05Z",
-  "head": "6c0903dcf0cbba2d9b766c2f7c69dec5e3df825e",
+  "base": "9a2737c75296a1cc5df3d61a59e0470cb7428b74",
+  "created_at": "2021-07-22T05:36:16Z",
+  "head": "b0fb7bc15bd62862a88801f42e59d9606230de23",
   "login": "tc39",
-  "number": 2469,
-  "ref": "notin",
+  "number": 2470,
+  "ref": "propertydefinitionevaluation",
   "revs": [
    {
-    "adate": "2021-07-21T15:42:43-07:00",
+    "adate": "2021-07-21T22:32:15-07:00",
     "author": "Kevin Gibbons",
-    "date": "2021-07-21T15:42:43-07:00",
-    "hash": "6c0903dcf0cbba2d9b766c2f7c69dec5e3df825e",
-    "parents": "61f79507adbb738af26a3ddaca521468bf0d36ff",
-    "subject": "Markup: prefer `&notin;` over `&lt;!`"
+    "date": "2021-07-21T22:32:15-07:00",
+    "hash": "b0fb7bc15bd62862a88801f42e59d9606230de23",
+    "parents": "6bb8edce11ac6a12ca56a75442670da09e19f35b",
+    "subject": "Editorial: consolidate method cases of PropertyDefinitionEvaluation"
+   },
+   {
+    "adate": "2021-07-21T22:22:53-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-07-21T22:22:53-07:00",
+    "hash": "6bb8edce11ac6a12ca56a75442670da09e19f35b",
+    "parents": "aa948ecfcfa0d048c230287bc7a5756f257fb665",
+    "subject": "Editorial: drop constant arguments for PropertyDefinitionEvaluation and ClassElementEvaluation"
    }
   ],
-  "title": "Markup: prefer `&notin;` over `&lt;!`",
-  "updated_at": "2021-07-21T22:44:05Z"
+  "title": "Editorial: tweak PropertyDefinitionEvaluation and ClassElementEvaluation",
+  "updated_at": "2021-07-22T05:37:21Z"
  },
  {
   "base": "ee2d79096a3b1c9edc34f95933d0b69ad6496758",
@@ -78,26 +86,6 @@
   ],
   "title": "Cleanup ValidateAndApplyPropertyDescriptor and own prop operations",
   "updated_at": "2021-07-20T19:07:11Z"
- },
- {
-  "base": "c8ee5189e15562b61f15c8351832b363ee522c93",
-  "created_at": "2021-07-17T14:46:26Z",
-  "head": "e8efa20322d9c3c5c1ceb838b25ac6bd702f9be0",
-  "login": "devsnek",
-  "number": 2464,
-  "ref": "fix-uninit-fields",
-  "revs": [
-   {
-    "adate": "2021-07-17T09:44:18-05:00",
-    "author": "Gus Caplan",
-    "date": "2021-07-17T09:44:18-05:00",
-    "hash": "e8efa20322d9c3c5c1ceb838b25ac6bd702f9be0",
-    "parents": "c8ee5189e15562b61f15c8351832b363ee522c93",
-    "subject": "Editorial: initialize missing fields in OrdinaryFunctionCreate"
-   }
-  ],
-  "title": "Editorial: initialize missing slots in OrdinaryFunctionCreate",
-  "updated_at": "2021-07-17T14:46:26Z"
  },
  {
   "base": "c8ee5189e15562b61f15c8351832b363ee522c93",
@@ -1358,26 +1346,6 @@
   ],
   "title": "Normative: Don't coerce value if index is invalid in TypedArray [[Set]]",
   "updated_at": "2021-03-02T20:18:19Z"
- },
- {
-  "base": "cdcce9e45b987f39c3352376f9d1535b438f55ea",
-  "created_at": "2021-02-26T04:09:30Z",
-  "head": "052c1ad4bfc58779858499f60fe35b4ab2a62047",
-  "login": "jmdyck",
-  "number": 2327,
-  "ref": "editorial",
-  "revs": [
-   {
-    "adate": "2021-02-25T20:18:38-05:00",
-    "author": "Michael Dyck",
-    "date": "2021-02-25T23:07:39-05:00",
-    "hash": "052c1ad4bfc58779858499f60fe35b4ab2a62047",
-    "parents": "cdcce9e45b987f39c3352376f9d1535b438f55ea",
-    "subject": "Markup: Change \"&notin;\" to \"&lt;!\" in lookahead-constraint"
-   }
-  ],
-  "title": "Markup: Change \"&notin;\" to \"&lt;!\" in lookahead-constraint",
-  "updated_at": "2021-02-26T04:09:30Z"
  },
  {
   "base": "c8ee5189e15562b61f15c8351832b363ee522c93",
