@@ -1,5 +1,33 @@
 [
  {
+  "base": "e7610a874f390aca90d8c059a95eb38e375a156c",
+  "created_at": "2021-07-24T20:38:43Z",
+  "head": "57063750b5ef9fc8c3857b6634d5b6a8d30afa41",
+  "login": "gibson042",
+  "number": 2471,
+  "ref": "2021-07-tweak-toPrecision",
+  "revs": [
+   {
+    "adate": "2021-07-24T16:37:50-04:00",
+    "author": "Richard Gibson",
+    "date": "2021-07-24T16:37:50-04:00",
+    "hash": "57063750b5ef9fc8c3857b6634d5b6a8d30afa41",
+    "parents": "0d77b35ec5a7a371b3e5b44ce12936955798c4d3",
+    "subject": "Editorial: Use more standard patterns in Number.prototype.toPrecision"
+   },
+   {
+    "adate": "2021-07-24T16:37:16-04:00",
+    "author": "Richard Gibson",
+    "date": "2021-07-24T16:37:16-04:00",
+    "hash": "0d77b35ec5a7a371b3e5b44ce12936955798c4d3",
+    "parents": "e7610a874f390aca90d8c059a95eb38e375a156c",
+    "subject": "Editorial: Clarify the determination of _e_ and _n_ in Number.prototype.toPrecision"
+   }
+  ],
+  "title": "Editorial: Improve the clarity and consistency of Number.prototype.toPrecision",
+  "updated_at": "2021-07-24T20:42:21Z"
+ },
+ {
   "base": "9a2737c75296a1cc5df3d61a59e0470cb7428b74",
   "created_at": "2021-07-22T05:36:16Z",
   "head": "b0fb7bc15bd62862a88801f42e59d9606230de23",
