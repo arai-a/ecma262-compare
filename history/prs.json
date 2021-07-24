@@ -1188,9 +1188,9 @@
   "updated_at": "2021-06-03T00:30:10Z"
  },
  {
-  "base": "417a0bb5bc3a6d7117c33cf50803483d9bd7adc1",
+  "base": "e7610a874f390aca90d8c059a95eb38e375a156c",
   "created_at": "2021-04-06T03:17:18Z",
-  "head": "37f8cafabf1388d74bd8b3078422821b12e03232",
+  "head": "2eceddbaddbe188ba7c084b31b98aadaccc76a84",
   "login": "jmdyck",
   "number": 2375,
   "ref": "TV_and_TRV",
@@ -1198,14 +1198,14 @@
    {
     "adate": "2021-04-05T23:08:27-04:00",
     "author": "Michael Dyck",
-    "date": "2021-04-05T23:08:27-04:00",
-    "hash": "37f8cafabf1388d74bd8b3078422821b12e03232",
-    "parents": "417a0bb5bc3a6d7117c33cf50803483d9bd7adc1",
+    "date": "2021-07-23T20:31:00-04:00",
+    "hash": "2eceddbaddbe188ba7c084b31b98aadaccc76a84",
+    "parents": "9a2737c75296a1cc5df3d61a59e0470cb7428b74",
     "subject": "Editorial: Split the \"TV and TRV\" clause into 2 clauses"
    }
   ],
   "title": "Editorial: Split the \"TV and TRV\" clause into 2 clauses",
-  "updated_at": "2021-04-06T03:22:45Z"
+  "updated_at": "2021-07-24T00:34:59Z"
  },
  {
   "base": "417a0bb5bc3a6d7117c33cf50803483d9bd7adc1",
@@ -2120,64 +2120,80 @@
   "updated_at": "2020-03-27T07:01:17Z"
  },
  {
-  "base": "9ff2ef45293bd6461cd0fb2a3f0668f234222fad",
+  "base": "e7610a874f390aca90d8c059a95eb38e375a156c",
   "created_at": "2020-02-09T02:20:19Z",
-  "head": "c4f8a8e2c118a83a716491907e52174de5236e9a",
+  "head": "d3139c6a30c19bb1ae51c863e53949d04feeaf73",
   "login": "jmdyck",
   "number": 1867,
   "ref": "make_B_literals_normative",
   "revs": [
    {
+    "adate": "2021-07-23T21:24:36-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-07-23T21:25:58-04:00",
+    "hash": "d3139c6a30c19bb1ae51c863e53949d04feeaf73",
+    "parents": "67d8ff23d6aa270bc2b13e0ab191dd30ad56d433",
+    "subject": "squash: \"Legacy\" re B.1.2 String Literals"
+   },
+   {
     "adate": "2021-06-10T11:33:30-04:00",
     "author": "Michael Dyck",
-    "date": "2021-07-10T22:14:38-04:00",
-    "hash": "c4f8a8e2c118a83a716491907e52174de5236e9a",
-    "parents": "6be0e08c8e30ef319a2ca5cc57c6b36685a70b53",
+    "date": "2021-07-23T21:25:58-04:00",
+    "hash": "67d8ff23d6aa270bc2b13e0ab191dd30ad56d433",
+    "parents": "dbaa1ad2266a3937f10ca383ee56fb60e1dd8350",
     "subject": "squash: tweaks re B.1.2 String Literals"
    },
    {
     "adate": "2021-05-26T13:53:08-04:00",
     "author": "Michael Dyck",
-    "date": "2021-07-10T22:14:37-04:00",
-    "hash": "6be0e08c8e30ef319a2ca5cc57c6b36685a70b53",
-    "parents": "d4b486b61ecda297853de8acab87b29854037d4e",
+    "date": "2021-07-23T21:25:58-04:00",
+    "hash": "dbaa1ad2266a3937f10ca383ee56fb60e1dd8350",
+    "parents": "08139684bf315b0d5719496dcbee2704e30b7eaf",
     "subject": "squash: Handle StrictZeroEscapeSequence differently"
    },
    {
     "adate": "2020-11-29T21:16:35-05:00",
     "author": "Michael Dyck",
-    "date": "2021-07-10T22:14:37-04:00",
-    "hash": "d4b486b61ecda297853de8acab87b29854037d4e",
-    "parents": "9e40a4d82ece9275d2c7e05a54d7c62e10b9bc62",
+    "date": "2021-07-23T21:25:58-04:00",
+    "hash": "08139684bf315b0d5719496dcbee2704e30b7eaf",
+    "parents": "22ed359f216879f85c2a61e2ee9146acf6450d75",
     "subject": "Normative: Make B.1.2 \"String Literals\" normative."
    },
    {
     "adate": "2021-05-10T00:11:34-04:00",
     "author": "Michael Dyck",
-    "date": "2021-07-10T22:14:37-04:00",
-    "hash": "9e40a4d82ece9275d2c7e05a54d7c62e10b9bc62",
-    "parents": "e77351af0148be22158aaad5df0de7c3a41bb496",
+    "date": "2021-07-23T21:25:58-04:00",
+    "hash": "22ed359f216879f85c2a61e2ee9146acf6450d75",
+    "parents": "2a8a1e62903149751a81bb6b0702f7b57a448f3c",
     "subject": "Editorial: Copy EscapeSequence to TemplateEscapeSequence"
+   },
+   {
+    "adate": "2021-07-23T21:23:51-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-07-23T21:25:58-04:00",
+    "hash": "2a8a1e62903149751a81bb6b0702f7b57a448f3c",
+    "parents": "59951ee2e0ec5606e72f8f464a8de1fda3740f86",
+    "subject": "squash: \"Legacy\" re B.1.1 Numeric Literals"
    },
    {
     "adate": "2021-06-10T10:47:13-04:00",
     "author": "Michael Dyck",
-    "date": "2021-07-10T22:14:37-04:00",
-    "hash": "e77351af0148be22158aaad5df0de7c3a41bb496",
-    "parents": "87c3f7e44ca77c8f00aaeb41c2fd36d76bf601f2",
+    "date": "2021-07-23T20:55:28-04:00",
+    "hash": "59951ee2e0ec5606e72f8f464a8de1fda3740f86",
+    "parents": "914d6f9a6daae6e0eb1afcc59793e1ed98d6baf7",
     "subject": "squash: tweaks re B.1.1 Numeric Literals"
    },
    {
     "adate": "2019-07-31T08:33:51-04:00",
     "author": "Michael Dyck",
-    "date": "2021-07-10T22:14:37-04:00",
-    "hash": "87c3f7e44ca77c8f00aaeb41c2fd36d76bf601f2",
-    "parents": "9ff2ef45293bd6461cd0fb2a3f0668f234222fad",
+    "date": "2021-07-23T20:55:28-04:00",
+    "hash": "914d6f9a6daae6e0eb1afcc59793e1ed98d6baf7",
+    "parents": "9a2737c75296a1cc5df3d61a59e0470cb7428b74",
     "subject": "Normative: Make B.1.1 \"Numeric Literals\" normative."
    }
   ],
   "title": "Normative: Make B.1.{1,2} normative",
-  "updated_at": "2021-07-11T02:22:43Z"
+  "updated_at": "2021-07-24T01:28:27Z"
  },
  {
   "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
@@ -2628,9 +2644,9 @@
   "updated_at": "2021-02-26T22:35:11Z"
  },
  {
-  "base": "6ca50dc029e9e04b6788c6a37a02b2b67eb2580d",
+  "base": "e7610a874f390aca90d8c059a95eb38e375a156c",
   "created_at": "2019-07-31T13:07:07Z",
-  "head": "bb4f7aa530b08d5787100fc40c8ced41d9ddb497",
+  "head": "cdbf14fd99d39a728ae86315d09ef7a2a7fec438",
   "login": "jmdyck",
   "number": 1651,
   "ref": "one-grammar",
@@ -2638,102 +2654,102 @@
    {
     "adate": "2019-08-21T16:19:59-04:00",
     "author": "Michael Dyck",
-    "date": "2021-07-18T15:17:12-04:00",
-    "hash": "bb4f7aa530b08d5787100fc40c8ced41d9ddb497",
-    "parents": "3a19d8570acea440a2b12bd4cb12a6dc98ccc1b2",
+    "date": "2021-07-23T21:36:04-04:00",
+    "hash": "cdbf14fd99d39a728ae86315d09ef7a2a7fec438",
+    "parents": "a6bb719bcf29256314069ea76682d4652d3cd5f2",
     "subject": "Editorial: Add [N] parameter to 5 productions"
    },
    {
     "adate": "2019-08-21T16:08:32-04:00",
     "author": "Michael Dyck",
-    "date": "2021-07-18T15:17:12-04:00",
-    "hash": "3a19d8570acea440a2b12bd4cb12a6dc98ccc1b2",
-    "parents": "e18887a23af9689d81463186d2aa9cd3d15d509e",
+    "date": "2021-07-23T21:36:04-04:00",
+    "hash": "a6bb719bcf29256314069ea76682d4652d3cd5f2",
+    "parents": "7a471da8c6a9cb732c3dfdaf27a76639bec6064e",
     "subject": "Editorial: Merge PatternCharacter + ExtendedPatternCharacter"
    },
    {
     "adate": "2019-08-20T20:30:44-04:00",
     "author": "Michael Dyck",
-    "date": "2021-07-18T15:17:12-04:00",
-    "hash": "e18887a23af9689d81463186d2aa9cd3d15d509e",
-    "parents": "3ea7318edd796cf40a7b32fd511a6949b90a7c0a",
+    "date": "2021-07-23T21:36:04-04:00",
+    "hash": "7a471da8c6a9cb732c3dfdaf27a76639bec6064e",
+    "parents": "fd5771f8a24670edceff39eca2d16028d68f3206",
     "subject": "Editorial: Simplify the 'Atom' production"
    },
    {
     "adate": "2019-08-20T16:19:01-04:00",
     "author": "Michael Dyck",
-    "date": "2021-07-18T15:17:12-04:00",
-    "hash": "3ea7318edd796cf40a7b32fd511a6949b90a7c0a",
-    "parents": "893eae20376858fb9e096a53319e36d0fa3777dd",
+    "date": "2021-07-23T21:36:04-04:00",
+    "hash": "fd5771f8a24670edceff39eca2d16028d68f3206",
+    "parents": "9ff16dfb4059a6497a436219dab2fa4345115375",
     "subject": "Editorial: Simplify the 'Term' production"
    },
    {
     "adate": "2019-08-20T15:48:03-04:00",
     "author": "Michael Dyck",
-    "date": "2021-07-18T15:17:12-04:00",
-    "hash": "893eae20376858fb9e096a53319e36d0fa3777dd",
-    "parents": "9af71f4f5f221bc5f82cc64274a461ef705a5b6c",
+    "date": "2021-07-23T21:36:04-04:00",
+    "hash": "9ff16dfb4059a6497a436219dab2fa4345115375",
+    "parents": "934e7f7fc4afc0a9d34d16949930cc84c7c8e453",
     "subject": "Editorial: Merge 'ExtendedAtom' and 'Atom'"
    },
    {
     "adate": "2019-08-20T15:14:19-04:00",
     "author": "Michael Dyck",
-    "date": "2021-07-18T15:17:12-04:00",
-    "hash": "9af71f4f5f221bc5f82cc64274a461ef705a5b6c",
-    "parents": "28747b98c06f3694cc45f299d4a385b8cd39bded",
+    "date": "2021-07-23T21:36:04-04:00",
+    "hash": "934e7f7fc4afc0a9d34d16949930cc84c7c8e453",
+    "parents": "3d054c35551522e47be1186905e3d6fccac58915",
     "subject": "Editorial: Move the runtime semantics for QuantifiableAssertion"
    },
    {
     "adate": "2019-08-20T15:10:44-04:00",
     "author": "Michael Dyck",
-    "date": "2021-07-18T15:17:12-04:00",
-    "hash": "28747b98c06f3694cc45f299d4a385b8cd39bded",
-    "parents": "2dce2393803a5b213c8da304c9cd23f4720a14a1",
+    "date": "2021-07-23T21:36:04-04:00",
+    "hash": "3d054c35551522e47be1186905e3d6fccac58915",
+    "parents": "79fc8b6cf1892fa0e237c0649526f6b19b0a3d43",
     "subject": "Editorial: Simplify the 'Assertion' production"
    },
    {
     "adate": "2019-08-19T20:36:45-04:00",
     "author": "Michael Dyck",
-    "date": "2021-07-18T15:17:12-04:00",
-    "hash": "2dce2393803a5b213c8da304c9cd23f4720a14a1",
-    "parents": "cf03d87038380f9fc0891ecc151674a16571d292",
+    "date": "2021-07-23T21:36:04-04:00",
+    "hash": "79fc8b6cf1892fa0e237c0649526f6b19b0a3d43",
+    "parents": "d613a0efd3ba7453512cf694c58fc1a4cd63feb0",
     "subject": "Normative: Make B.1.4 \"Regular Expressions Patterns\" normative"
    },
    {
     "adate": "2019-08-16T23:15:10-04:00",
     "author": "Michael Dyck",
-    "date": "2021-07-18T15:17:12-04:00",
-    "hash": "cf03d87038380f9fc0891ecc151674a16571d292",
-    "parents": "e5a00cea907fd44de344cebdf74ab95b116618dd",
+    "date": "2021-07-23T21:34:45-04:00",
+    "hash": "d613a0efd3ba7453512cf694c58fc1a4cd63feb0",
+    "parents": "7e0408361a0920195b8ad52d32dcf19fc0a8a4fd",
     "subject": "Editorial: Rearrange \"Syntax for Patterns\" into 4 subsections"
    },
    {
     "adate": "2019-08-16T16:13:28-04:00",
     "author": "Michael Dyck",
-    "date": "2021-07-18T14:38:52-04:00",
-    "hash": "e5a00cea907fd44de344cebdf74ab95b116618dd",
-    "parents": "1050f46d8d5f668d1e127f9895e43c3634f29d5f",
+    "date": "2021-07-23T21:29:22-04:00",
+    "hash": "7e0408361a0920195b8ad52d32dcf19fc0a8a4fd",
+    "parents": "9ff6edb5acc619a164fd52b4e0e45fe9ee5059aa",
     "subject": "Markup: change clause-ids to reflect changes in clause-titles"
    },
    {
     "adate": "2019-08-16T16:12:24-04:00",
     "author": "Michael Dyck",
-    "date": "2021-07-18T14:38:52-04:00",
-    "hash": "1050f46d8d5f668d1e127f9895e43c3634f29d5f",
-    "parents": "bde452ce288feb20614e8c50ad26a618bb4b638b",
+    "date": "2021-07-23T21:29:22-04:00",
+    "hash": "9ff6edb5acc619a164fd52b4e0e45fe9ee5059aa",
+    "parents": "f321fe00ca20bdfe57e00072f1a4ec5dbc48c502",
     "subject": "Editorial: Split 'Patterns' clause into two clauses"
    },
    {
     "adate": "2019-08-04T17:39:27-04:00",
     "author": "Michael Dyck",
-    "date": "2021-07-18T14:38:52-04:00",
-    "hash": "bde452ce288feb20614e8c50ad26a618bb4b638b",
-    "parents": "c8ee5189e15562b61f15c8351832b363ee522c93",
+    "date": "2021-07-23T21:29:22-04:00",
+    "hash": "f321fe00ca20bdfe57e00072f1a4ec5dbc48c502",
+    "parents": "9a2737c75296a1cc5df3d61a59e0470cb7428b74",
     "subject": "Normative: Make B.1.3 \"HTML-like comments\" normative"
    }
   ],
   "title": "Normative: Make B.1 \"Additional Syntax\" normative",
-  "updated_at": "2021-07-18T19:20:31Z"
+  "updated_at": "2021-07-24T01:38:41Z"
  },
  {
   "base": "6ca50dc029e9e04b6788c6a37a02b2b67eb2580d",
