@@ -2,11 +2,27 @@
  {
   "base": "e7610a874f390aca90d8c059a95eb38e375a156c",
   "created_at": "2021-07-24T20:38:43Z",
-  "head": "57063750b5ef9fc8c3857b6634d5b6a8d30afa41",
+  "head": "c81a5d467d1e83e3435d49ffc659a31da3ea4428",
   "login": "gibson042",
   "number": 2471,
   "ref": "2021-07-tweak-toPrecision",
   "revs": [
+   {
+    "adate": "2021-07-25T11:08:34-04:00",
+    "author": "Richard Gibson",
+    "date": "2021-07-25T11:08:34-04:00",
+    "hash": "c81a5d467d1e83e3435d49ffc659a31da3ea4428",
+    "parents": "12e86dba7bde736f310a513e071565c446b72df8",
+    "subject": "Editorial: Parenthesize for readability"
+   },
+   {
+    "adate": "2021-07-25T10:43:10-04:00",
+    "author": "Richard Gibson",
+    "date": "2021-07-25T10:43:10-04:00",
+    "hash": "12e86dba7bde736f310a513e071565c446b72df8",
+    "parents": "57063750b5ef9fc8c3857b6634d5b6a8d30afa41",
+    "subject": "Editorial: Fix typo"
+   },
    {
     "adate": "2021-07-24T16:37:50-04:00",
     "author": "Richard Gibson",
@@ -25,7 +41,7 @@
    }
   ],
   "title": "Editorial: Improve the clarity and consistency of Number.prototype.toPrecision",
-  "updated_at": "2021-07-24T20:42:21Z"
+  "updated_at": "2021-07-25T15:08:46Z"
  },
  {
   "base": "9a2737c75296a1cc5df3d61a59e0470cb7428b74",
