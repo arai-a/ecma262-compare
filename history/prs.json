@@ -1,5 +1,25 @@
 [
  {
+  "base": "99b36f0591bf809bd2ea64a7bd2294606f4bef1f",
+  "created_at": "2021-07-29T17:16:49Z",
+  "head": "ff99eec815ebef485f03e790eaad7222433d1396",
+  "login": "jmdyck",
+  "number": 2473,
+  "ref": "this_PropertyDefinition",
+  "revs": [
+   {
+    "adate": "2021-07-29T13:04:43-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-07-29T13:04:43-04:00",
+    "hash": "ff99eec815ebef485f03e790eaad7222433d1396",
+    "parents": "99b36f0591bf809bd2ea64a7bd2294606f4bef1f",
+    "subject": "Editorial: Change |PropertyDefinition| to |ObjectLiteral|"
+   }
+  ],
+  "title": "Editorial: Change |PropertyDefinition| to |ObjectLiteral|",
+  "updated_at": "2021-07-29T17:16:49Z"
+ },
+ {
   "base": "e7610a874f390aca90d8c059a95eb38e375a156c",
   "created_at": "2021-07-24T20:38:43Z",
   "head": "c81a5d467d1e83e3435d49ffc659a31da3ea4428",
@@ -42,34 +62,6 @@
   ],
   "title": "Editorial: Improve the clarity and consistency of Number.prototype.toPrecision",
   "updated_at": "2021-07-25T15:08:46Z"
- },
- {
-  "base": "9a2737c75296a1cc5df3d61a59e0470cb7428b74",
-  "created_at": "2021-07-22T05:36:16Z",
-  "head": "b0fb7bc15bd62862a88801f42e59d9606230de23",
-  "login": "tc39",
-  "number": 2470,
-  "ref": "propertydefinitionevaluation",
-  "revs": [
-   {
-    "adate": "2021-07-21T22:32:15-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-07-21T22:32:15-07:00",
-    "hash": "b0fb7bc15bd62862a88801f42e59d9606230de23",
-    "parents": "6bb8edce11ac6a12ca56a75442670da09e19f35b",
-    "subject": "Editorial: consolidate method cases of PropertyDefinitionEvaluation"
-   },
-   {
-    "adate": "2021-07-21T22:22:53-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-07-21T22:22:53-07:00",
-    "hash": "6bb8edce11ac6a12ca56a75442670da09e19f35b",
-    "parents": "aa948ecfcfa0d048c230287bc7a5756f257fb665",
-    "subject": "Editorial: drop constant arguments for PropertyDefinitionEvaluation and ClassElementEvaluation"
-   }
-  ],
-  "title": "Editorial: tweak PropertyDefinitionEvaluation and ClassElementEvaluation",
-  "updated_at": "2021-07-22T05:37:21Z"
  },
  {
   "base": "ee2d79096a3b1c9edc34f95933d0b69ad6496758",
@@ -1182,26 +1174,6 @@
   ],
   "title": "Editorial: Simplify getting the Element Type/Size for a TypedArray",
   "updated_at": "2021-06-03T00:30:10Z"
- },
- {
-  "base": "e7610a874f390aca90d8c059a95eb38e375a156c",
-  "created_at": "2021-04-06T03:17:18Z",
-  "head": "2eceddbaddbe188ba7c084b31b98aadaccc76a84",
-  "login": "jmdyck",
-  "number": 2375,
-  "ref": "TV_and_TRV",
-  "revs": [
-   {
-    "adate": "2021-04-05T23:08:27-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-07-23T20:31:00-04:00",
-    "hash": "2eceddbaddbe188ba7c084b31b98aadaccc76a84",
-    "parents": "9a2737c75296a1cc5df3d61a59e0470cb7428b74",
-    "subject": "Editorial: Split the \"TV and TRV\" clause into 2 clauses"
-   }
-  ],
-  "title": "Editorial: Split the \"TV and TRV\" clause into 2 clauses",
-  "updated_at": "2021-07-24T00:34:59Z"
  },
  {
   "base": "417a0bb5bc3a6d7117c33cf50803483d9bd7adc1",
