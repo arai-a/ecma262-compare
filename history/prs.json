@@ -66,11 +66,19 @@
  {
   "base": "ee2d79096a3b1c9edc34f95933d0b69ad6496758",
   "created_at": "2021-07-20T18:55:17Z",
-  "head": "35cf9413e67c87c0e8e53130701c79e17d664b18",
+  "head": "27c8d9beba159e35a46cb6e6226905e48a492c33",
   "login": "gibson042",
   "number": 2468,
   "ref": "2021-07-cleanup-own-prop-ops",
   "revs": [
+   {
+    "adate": "2021-07-30T14:48:02-04:00",
+    "author": "Richard Gibson",
+    "date": "2021-07-30T14:48:02-04:00",
+    "hash": "27c8d9beba159e35a46cb6e6226905e48a492c33",
+    "parents": "35cf9413e67c87c0e8e53130701c79e17d664b18",
+    "subject": "Editorial: Remove field name indirection"
+   },
    {
     "adate": "2021-07-22T15:15:06-04:00",
     "author": "Richard Gibson",
@@ -145,7 +153,7 @@
    }
   ],
   "title": "Cleanup ValidateAndApplyPropertyDescriptor and own prop operations",
-  "updated_at": "2021-07-22T19:34:02Z"
+  "updated_at": "2021-07-30T18:56:46Z"
  },
  {
   "base": "c8ee5189e15562b61f15c8351832b363ee522c93",
