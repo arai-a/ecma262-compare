@@ -1,6 +1,42 @@
 [
  {
   "base": "99b36f0591bf809bd2ea64a7bd2294606f4bef1f",
+  "created_at": "2021-08-02T02:54:40Z",
+  "head": "7a6ee9cba65c7bc858ae32b80a52e091ea90ceec",
+  "login": "gibson042",
+  "number": 2475,
+  "ref": "2021-08-update-nlth-restricted-productions",
+  "revs": [
+   {
+    "adate": "2021-08-01T22:53:58-04:00",
+    "author": "Richard Gibson",
+    "date": "2021-08-01T22:53:58-04:00",
+    "hash": "7a6ee9cba65c7bc858ae32b80a52e091ea90ceec",
+    "parents": "e41468bfdce4a6c860116953b8472622f6e8ef76",
+    "subject": "Editorial: Use consistent production ordering"
+   },
+   {
+    "adate": "2021-08-01T22:53:45-04:00",
+    "author": "Richard Gibson",
+    "date": "2021-08-01T22:53:45-04:00",
+    "hash": "e41468bfdce4a6c860116953b8472622f6e8ef76",
+    "parents": "0db3fc661a97d90ec9b49f6ec4f8b7a4cc43c281",
+    "subject": "Editorial: Use consistent wording"
+   },
+   {
+    "adate": "2021-08-01T22:53:18-04:00",
+    "author": "Richard Gibson",
+    "date": "2021-08-01T22:53:18-04:00",
+    "hash": "0db3fc661a97d90ec9b49f6ec4f8b7a4cc43c281",
+    "parents": "99b36f0591bf809bd2ea64a7bd2294606f4bef1f",
+    "subject": "Editorial: Update restricted productions summary"
+   }
+  ],
+  "title": "Editorial: Update restricted productions summary",
+  "updated_at": "2021-08-02T02:54:40Z"
+ },
+ {
+  "base": "99b36f0591bf809bd2ea64a7bd2294606f4bef1f",
   "created_at": "2021-07-29T17:16:49Z",
   "head": "ff99eec815ebef485f03e790eaad7222433d1396",
   "login": "jmdyck",
