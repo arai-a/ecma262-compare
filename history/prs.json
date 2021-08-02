@@ -1,6 +1,26 @@
 [
  {
   "base": "99b36f0591bf809bd2ea64a7bd2294606f4bef1f",
+  "created_at": "2021-08-02T22:26:05Z",
+  "head": "4848029fec397c610afde0bca9befc725d8b7829",
+  "login": "gibson042",
+  "number": 2477,
+  "ref": "2021-08-fix-IteratorBindingInitialization-aliases",
+  "revs": [
+   {
+    "adate": "2021-08-02T18:25:18-04:00",
+    "author": "Richard Gibson",
+    "date": "2021-08-02T18:25:18-04:00",
+    "hash": "4848029fec397c610afde0bca9befc725d8b7829",
+    "parents": "99b36f0591bf809bd2ea64a7bd2294606f4bef1f",
+    "subject": "Editorial: Fix alias use in IteratorBindingInitialization"
+   }
+  ],
+  "title": "Editorial: Fix alias use in IteratorBindingInitialization",
+  "updated_at": "2021-08-02T22:26:05Z"
+ },
+ {
+  "base": "99b36f0591bf809bd2ea64a7bd2294606f4bef1f",
   "created_at": "2021-08-02T09:57:20Z",
   "head": "46ffcdb65e3627546cc2b8ce46f5e1ce4fff2465",
   "login": "Kingwl",
