@@ -1,6 +1,98 @@
 [
  {
   "base": "99b36f0591bf809bd2ea64a7bd2294606f4bef1f",
+  "created_at": "2021-08-07T05:18:17Z",
+  "head": "dc1358a4f1e7b0715b8e47699cb062d057dfb2d8",
+  "login": "jmdyck",
+  "number": 2484,
+  "ref": "GetSubstitution",
+  "revs": [
+   {
+    "adate": "2021-08-07T01:07:13-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-08-07T01:07:13-04:00",
+    "hash": "dc1358a4f1e7b0715b8e47699cb062d057dfb2d8",
+    "parents": "96569497e4c49e4604bea4f6c107ab900d1ed3a0",
+    "subject": "squash: cleanup"
+   },
+   {
+    "adate": "2021-08-07T01:06:19-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-08-07T01:06:19-04:00",
+    "hash": "96569497e4c49e4604bea4f6c107ab900d1ed3a0",
+    "parents": "c4be031aa2fa47da81ef6d2d806da71ae9a3d605",
+    "subject": "squash: handle the default case"
+   },
+   {
+    "adate": "2021-08-07T01:04:08-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-08-07T01:04:08-04:00",
+    "hash": "c4be031aa2fa47da81ef6d2d806da71ae9a3d605",
+    "parents": "00bab9a821c106ddc6be63f7574ef3d36f3b88e7",
+    "subject": "squash: handled named references"
+   },
+   {
+    "adate": "2021-08-07T00:59:48-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-08-07T00:59:48-04:00",
+    "hash": "00bab9a821c106ddc6be63f7574ef3d36f3b88e7",
+    "parents": "8ab9dcd1fbd612136d444ca495b7307d742a736e",
+    "subject": "squash: handle numeric references"
+   },
+   {
+    "adate": "2021-08-07T00:56:09-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-08-07T00:56:09-04:00",
+    "hash": "8ab9dcd1fbd612136d444ca495b7307d742a736e",
+    "parents": "6fc41b9e84fdfe953ffc306cf64b2bf14ae6c7ff",
+    "subject": "squash: Handle the 4 easy cases"
+   },
+   {
+    "adate": "2021-08-07T00:25:22-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-08-07T00:25:22-04:00",
+    "hash": "6fc41b9e84fdfe953ffc306cf64b2bf14ae6c7ff",
+    "parents": "1481dc18a2705d07f3bde02fa1d70bf13314bc09",
+    "subject": "Editorial: Incorporate GetSubstitution's table into the algorithm"
+   },
+   {
+    "adate": "2021-08-07T00:19:38-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-08-07T00:19:38-04:00",
+    "hash": "1481dc18a2705d07f3bde02fa1d70bf13314bc09",
+    "parents": "5aaf6515ebcfb9e4c29dcf4b122428f7013c9a0a",
+    "subject": "Editorial: fix the type-assertion for _captures_ in GetSubstitution"
+   },
+   {
+    "adate": "2021-08-07T00:15:29-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-08-07T00:15:29-04:00",
+    "hash": "5aaf6515ebcfb9e4c29dcf4b122428f7013c9a0a",
+    "parents": "94903b4b9e3d6c2235c1690fae11445682ca20e3",
+    "subject": "Editorial: minor refactoring in GetSubstitution"
+   },
+   {
+    "adate": "2021-08-07T00:05:08-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-08-07T00:05:08-04:00",
+    "hash": "94903b4b9e3d6c2235c1690fae11445682ca20e3",
+    "parents": "2634c59fabe5b1220bd4aaf8f77cbd5eb45d4ca9",
+    "subject": "Editorial: minor refactoring in GetSubstitution"
+   },
+   {
+    "adate": "2021-08-06T23:56:47-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-08-06T23:56:47-04:00",
+    "hash": "2634c59fabe5b1220bd4aaf8f77cbd5eb45d4ca9",
+    "parents": "99b36f0591bf809bd2ea64a7bd2294606f4bef1f",
+    "subject": "Editorial: minor refactoring in String.prototype.replace"
+   }
+  ],
+  "title": "Editorial: Incorporate GetSubstitution's table into the algorithm",
+  "updated_at": "2021-08-07T05:18:54Z"
+ },
+ {
+  "base": "99b36f0591bf809bd2ea64a7bd2294606f4bef1f",
   "created_at": "2021-08-05T03:30:07Z",
   "head": "6d6d948f86d8bf31f5b712b0fbd7951853b2ccc2",
   "login": "tc39",
