@@ -94,11 +94,19 @@
  {
   "base": "99b36f0591bf809bd2ea64a7bd2294606f4bef1f",
   "created_at": "2021-08-05T03:30:07Z",
-  "head": "6d6d948f86d8bf31f5b712b0fbd7951853b2ccc2",
+  "head": "44c36233e271cca301c87ac3021b13dcd6cb8c11",
   "login": "tc39",
   "number": 2483,
   "ref": "move-assertions-to-metadata",
   "revs": [
+   {
+    "adate": "2021-08-09T11:17:58-06:00",
+    "author": "Michael Ficarra",
+    "date": "2021-08-09T11:17:58-06:00",
+    "hash": "44c36233e271cca301c87ac3021b13dcd6cb8c11",
+    "parents": "6d6d948f86d8bf31f5b712b0fbd7951853b2ccc2",
+    "subject": "address some comments"
+   },
    {
     "adate": "2021-08-05T08:54:45-06:00",
     "author": "Michael Ficarra",
@@ -117,7 +125,7 @@
    }
   ],
   "title": "Editorial: move assertions about AO parameter types into AO header metadata",
-  "updated_at": "2021-08-05T15:27:11Z"
+  "updated_at": "2021-08-09T17:18:10Z"
  },
  {
   "base": "99b36f0591bf809bd2ea64a7bd2294606f4bef1f",
