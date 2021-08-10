@@ -1,5 +1,25 @@
 [
  {
+  "base": "f37104b592b903531b5be73a688bef4629c9afa7",
+  "created_at": "2021-08-10T14:50:26Z",
+  "head": "b780983dc6c0aeca418d1732e27ba42866d54fb1",
+  "login": "gibson042",
+  "number": 2485,
+  "ref": "2021-08-next-method-consistency",
+  "revs": [
+   {
+    "adate": "2021-08-10T10:49:47-04:00",
+    "author": "Richard Gibson",
+    "date": "2021-08-10T10:49:47-04:00",
+    "hash": "b780983dc6c0aeca418d1732e27ba42866d54fb1",
+    "parents": "f37104b592b903531b5be73a688bef4629c9afa7",
+    "subject": "Editorial: Improve `next` method definition consistency"
+   }
+  ],
+  "title": "Editorial: Improve `next` method definition consistency",
+  "updated_at": "2021-08-10T14:50:26Z"
+ },
+ {
   "base": "99b36f0591bf809bd2ea64a7bd2294606f4bef1f",
   "created_at": "2021-08-07T05:18:17Z",
   "head": "dc1358a4f1e7b0715b8e47699cb062d057dfb2d8",
