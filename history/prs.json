@@ -516,13 +516,21 @@
   "updated_at": "2021-07-28T15:42:37Z"
  },
  {
-  "base": "80efe41a59f4874c10ea9f6fdae1e2d08324e52d",
+  "base": "f37104b592b903531b5be73a688bef4629c9afa7",
   "created_at": "2021-06-23T04:21:23Z",
-  "head": "3c4fd9a4765da677c0fe4faf75353685ee7da30e",
+  "head": "243fb1072cedb59270babde92940942250dc9a97",
   "login": "rbuckton",
   "number": 2440,
   "ref": "class-static-block",
   "revs": [
+   {
+    "adate": "2021-08-12T15:03:25-07:00",
+    "author": "Ron Buckton",
+    "date": "2021-08-12T15:03:25-07:00",
+    "hash": "243fb1072cedb59270babde92940942250dc9a97",
+    "parents": "3c4fd9a4765da677c0fe4faf75353685ee7da30e f37104b592b903531b5be73a688bef4629c9afa7",
+    "subject": "Merge branch 'master' into class-static-block"
+   },
    {
     "adate": "2021-06-23T19:11:57-07:00",
     "author": "Ron Buckton",
@@ -541,7 +549,7 @@
    }
   ],
   "title": "Normative: Add class `static` initialization blocks",
-  "updated_at": "2021-06-28T20:42:35Z"
+  "updated_at": "2021-08-12T22:07:57Z"
  },
  {
   "base": "61cc3297c96764a256b02b90005550607371a1d1",
