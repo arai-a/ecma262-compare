@@ -2340,80 +2340,40 @@
   "updated_at": "2020-03-27T07:01:17Z"
  },
  {
-  "base": "e7610a874f390aca90d8c059a95eb38e375a156c",
+  "base": "f37104b592b903531b5be73a688bef4629c9afa7",
   "created_at": "2020-02-09T02:20:19Z",
-  "head": "d3139c6a30c19bb1ae51c863e53949d04feeaf73",
+  "head": "f79dfd2655dd8d707ce2b7e110920c4e2ebc3aca",
   "login": "jmdyck",
   "number": 1867,
   "ref": "make_B_literals_normative",
   "revs": [
    {
-    "adate": "2021-07-23T21:24:36-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-07-23T21:25:58-04:00",
-    "hash": "d3139c6a30c19bb1ae51c863e53949d04feeaf73",
-    "parents": "67d8ff23d6aa270bc2b13e0ab191dd30ad56d433",
-    "subject": "squash: \"Legacy\" re B.1.2 String Literals"
-   },
-   {
-    "adate": "2021-06-10T11:33:30-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-07-23T21:25:58-04:00",
-    "hash": "67d8ff23d6aa270bc2b13e0ab191dd30ad56d433",
-    "parents": "dbaa1ad2266a3937f10ca383ee56fb60e1dd8350",
-    "subject": "squash: tweaks re B.1.2 String Literals"
-   },
-   {
-    "adate": "2021-05-26T13:53:08-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-07-23T21:25:58-04:00",
-    "hash": "dbaa1ad2266a3937f10ca383ee56fb60e1dd8350",
-    "parents": "08139684bf315b0d5719496dcbee2704e30b7eaf",
-    "subject": "squash: Handle StrictZeroEscapeSequence differently"
-   },
-   {
     "adate": "2020-11-29T21:16:35-05:00",
     "author": "Michael Dyck",
-    "date": "2021-07-23T21:25:58-04:00",
-    "hash": "08139684bf315b0d5719496dcbee2704e30b7eaf",
-    "parents": "22ed359f216879f85c2a61e2ee9146acf6450d75",
-    "subject": "Normative: Make B.1.2 \"String Literals\" normative."
+    "date": "2021-08-12T16:12:09-04:00",
+    "hash": "f79dfd2655dd8d707ce2b7e110920c4e2ebc3aca",
+    "parents": "9fed3876c936dc79e5a11924596ae4347f603f6c",
+    "subject": "Normative: Make B.1.2 \"String Literals\" normative (#1867)"
    },
    {
     "adate": "2021-05-10T00:11:34-04:00",
     "author": "Michael Dyck",
-    "date": "2021-07-23T21:25:58-04:00",
-    "hash": "22ed359f216879f85c2a61e2ee9146acf6450d75",
-    "parents": "2a8a1e62903149751a81bb6b0702f7b57a448f3c",
-    "subject": "Editorial: Copy EscapeSequence to TemplateEscapeSequence"
-   },
-   {
-    "adate": "2021-07-23T21:23:51-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-07-23T21:25:58-04:00",
-    "hash": "2a8a1e62903149751a81bb6b0702f7b57a448f3c",
-    "parents": "59951ee2e0ec5606e72f8f464a8de1fda3740f86",
-    "subject": "squash: \"Legacy\" re B.1.1 Numeric Literals"
-   },
-   {
-    "adate": "2021-06-10T10:47:13-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-07-23T20:55:28-04:00",
-    "hash": "59951ee2e0ec5606e72f8f464a8de1fda3740f86",
-    "parents": "914d6f9a6daae6e0eb1afcc59793e1ed98d6baf7",
-    "subject": "squash: tweaks re B.1.1 Numeric Literals"
+    "date": "2021-08-12T16:11:57-04:00",
+    "hash": "9fed3876c936dc79e5a11924596ae4347f603f6c",
+    "parents": "4a2e017775c47594a8a2d52ac1eaae8c43c2521a",
+    "subject": "Editorial: Copy EscapeSequence to TemplateEscapeSequence (#1867)"
    },
    {
     "adate": "2019-07-31T08:33:51-04:00",
     "author": "Michael Dyck",
-    "date": "2021-07-23T20:55:28-04:00",
-    "hash": "914d6f9a6daae6e0eb1afcc59793e1ed98d6baf7",
-    "parents": "9a2737c75296a1cc5df3d61a59e0470cb7428b74",
-    "subject": "Normative: Make B.1.1 \"Numeric Literals\" normative."
+    "date": "2021-08-12T14:18:46-04:00",
+    "hash": "4a2e017775c47594a8a2d52ac1eaae8c43c2521a",
+    "parents": "f37104b592b903531b5be73a688bef4629c9afa7",
+    "subject": "Normative: Make B.1.1 \"Numeric Literals\" normative (#1867)"
    }
   ],
   "title": "Normative: Make B.1.{1,2} normative",
-  "updated_at": "2021-07-24T01:28:27Z"
+  "updated_at": "2021-08-12T20:20:29Z"
  },
  {
   "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
