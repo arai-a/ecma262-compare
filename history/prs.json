@@ -886,11 +886,19 @@
  {
   "base": "f37104b592b903531b5be73a688bef4629c9afa7",
   "created_at": "2021-05-14T08:11:03Z",
-  "head": "06ed824a0cd91708cf4ea87add31665ec55ab2ce",
+  "head": "5f09f0eaf5e2f51a0965bd68e00b0b5dd47978c7",
   "login": "codehag",
   "number": 2408,
   "ref": "proposal-top-level-await",
   "revs": [
+   {
+    "adate": "2021-08-13T13:55:06-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-08-13T13:55:06-07:00",
+    "hash": "5f09f0eaf5e2f51a0965bd68e00b0b5dd47978c7",
+    "parents": "06ed824a0cd91708cf4ea87add31665ec55ab2ce",
+    "subject": "Editorial: expand \"async\" shorthand"
+   },
    {
     "adate": "2021-08-08T18:49:17-07:00",
     "author": "Kevin Gibbons",
@@ -1149,7 +1157,7 @@
    }
   ],
   "title": "Normative: Top-level Await",
-  "updated_at": "2021-08-09T01:57:46Z"
+  "updated_at": "2021-08-13T20:55:29Z"
  },
  {
   "base": "c2a9389aa87ca91e440dbea14dbd2192270b0f64",
