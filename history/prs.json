@@ -2,11 +2,19 @@
  {
   "base": "0e25cc26f8a8444b3aa60819483a62f76a7042a2",
   "created_at": "2021-08-15T22:25:13Z",
-  "head": "1fe02b9cebddbafdff94e5a68b0e88cad28d4577",
+  "head": "6b145d47a04cf062bddd4ea0f5ba9b4d490510d1",
   "login": "tc39",
   "number": 2489,
   "ref": "x-object",
   "revs": [
+   {
+    "adate": "2021-08-16T15:02:28-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-08-16T15:02:28-07:00",
+    "hash": "6b145d47a04cf062bddd4ea0f5ba9b4d490510d1",
+    "parents": "1fe02b9cebddbafdff94e5a68b0e88cad28d4577",
+    "subject": "grammar"
+   },
    {
     "adate": "2021-08-16T09:19:57-07:00",
     "author": "Kevin Gibbons",
@@ -97,7 +105,7 @@
    }
   ],
   "title": "Editorial: \"an Array\", not \"an Array object\" [etc]",
-  "updated_at": "2021-08-16T16:20:04Z"
+  "updated_at": "2021-08-16T22:02:37Z"
  },
  {
   "base": "99b36f0591bf809bd2ea64a7bd2294606f4bef1f",
