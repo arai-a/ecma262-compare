@@ -656,13 +656,29 @@
   "updated_at": "2021-07-28T15:42:37Z"
  },
  {
-  "base": "f37104b592b903531b5be73a688bef4629c9afa7",
+  "base": "f8053dfc8b8a3804ee854c614a6210ec416c8ced",
   "created_at": "2021-06-23T04:21:23Z",
-  "head": "243fb1072cedb59270babde92940942250dc9a97",
+  "head": "7a6936cf9f13edf2d10f1b266b1901ef04bd80e4",
   "login": "rbuckton",
   "number": 2440,
   "ref": "class-static-block",
   "revs": [
+   {
+    "adate": "2021-08-17T20:50:04-07:00",
+    "author": "Ron Buckton",
+    "date": "2021-08-17T20:50:04-07:00",
+    "hash": "7a6936cf9f13edf2d10f1b266b1901ef04bd80e4",
+    "parents": "8d7021d446cfd4a2e256df6621230349e622ce8a",
+    "subject": "PR Feedback"
+   },
+   {
+    "adate": "2021-08-17T16:14:04-07:00",
+    "author": "Ron Buckton",
+    "date": "2021-08-17T16:14:04-07:00",
+    "hash": "8d7021d446cfd4a2e256df6621230349e622ce8a",
+    "parents": "243fb1072cedb59270babde92940942250dc9a97 f8053dfc8b8a3804ee854c614a6210ec416c8ced",
+    "subject": "Merge branch 'master' into class-static-block"
+   },
    {
     "adate": "2021-08-12T15:03:25-07:00",
     "author": "Ron Buckton",
@@ -689,7 +705,7 @@
    }
   ],
   "title": "Normative: Add class `static` initialization blocks",
-  "updated_at": "2021-08-12T22:07:57Z"
+  "updated_at": "2021-08-18T03:50:12Z"
  },
  {
   "base": "61cc3297c96764a256b02b90005550607371a1d1",
