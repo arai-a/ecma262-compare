@@ -1,5 +1,41 @@
 [
  {
+  "base": "f72dd1650d62b98d008f169dced06c72aa6986d9",
+  "created_at": "2021-08-19T21:43:09Z",
+  "head": "1795566eef5004fd6ef32393bde014565d31e057",
+  "login": "tc39",
+  "number": 2492,
+  "ref": "plural-dfns",
+  "revs": [
+   {
+    "adate": "2021-08-19T14:37:14-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-08-19T14:42:23-07:00",
+    "hash": "1795566eef5004fd6ef32393bde014565d31e057",
+    "parents": "04a4201fedf7658d1129e1634f208cc985f954da",
+    "subject": "Markup: emu-not-ref some uses of \"byte-value\", un-dfn \"type\""
+   },
+   {
+    "adate": "2021-08-19T14:20:55-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-08-19T14:42:22-07:00",
+    "hash": "04a4201fedf7658d1129e1634f208cc985f954da",
+    "parents": "b81040819f53b3b2c703245897a4bff6f28b049c",
+    "subject": "Markup: add pluralizations for definitions as appropriate"
+   },
+   {
+    "adate": "2021-08-19T13:56:43-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-08-19T13:56:43-07:00",
+    "hash": "b81040819f53b3b2c703245897a4bff6f28b049c",
+    "parents": "f72dd1650d62b98d008f169dced06c72aa6986d9",
+    "subject": "Meta: bump ecmarkup to 9.0.0"
+   }
+  ],
+  "title": "Markup: auto-link plural forms of terms",
+  "updated_at": "2021-08-19T21:43:09Z"
+ },
+ {
   "base": "f8053dfc8b8a3804ee854c614a6210ec416c8ced",
   "created_at": "2021-08-17T15:17:26Z",
   "head": "d72e80d625a3393822be25657a682f48f69c1c0a",
