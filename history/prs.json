@@ -512,9 +512,9 @@
   "updated_at": "2021-07-17T05:35:51Z"
  },
  {
-  "base": "c8ee5189e15562b61f15c8351832b363ee522c93",
+  "base": "f72dd1650d62b98d008f169dced06c72aa6986d9",
   "created_at": "2021-07-16T05:36:01Z",
-  "head": "1b0958108f0c8c20709b96ea7ae3a3b9d8df8be3",
+  "head": "ea2e942850a72486d9cffacae0b575441088096b",
   "login": "h2oche",
   "number": 2459,
   "ref": "DefaultConstructor",
@@ -522,14 +522,14 @@
    {
     "adate": "2021-07-16T14:13:29+09:00",
     "author": "h2oche",
-    "date": "2021-07-16T14:13:29+09:00",
-    "hash": "1b0958108f0c8c20709b96ea7ae3a3b9d8df8be3",
-    "parents": "c8ee5189e15562b61f15c8351832b363ee522c93",
+    "date": "2021-08-19T09:55:58+09:00",
+    "hash": "ea2e942850a72486d9cffacae0b575441088096b",
+    "parents": "f72dd1650d62b98d008f169dced06c72aa6986d9",
     "subject": "Editorial: Set [[Construct]] for default constructor in ClassDefinitionEvaluation"
    }
   ],
   "title": "Editorial: Set [[Construct]] for default constructor in ClassDefiniti\u2026",
-  "updated_at": "2021-07-16T06:11:40Z"
+  "updated_at": "2021-08-19T00:57:19Z"
  },
  {
   "base": "c8ee5189e15562b61f15c8351832b363ee522c93",
@@ -1162,26 +1162,6 @@
   ],
   "title": "Editorial: Simplify RegExpInitialize (step 14)",
   "updated_at": "2021-04-18T03:55:56Z"
- },
- {
-  "base": "c8ee5189e15562b61f15c8351832b363ee522c93",
-  "created_at": "2021-04-14T00:42:52Z",
-  "head": "68b2b914e4d442520c45f3afe589004403a17279",
-  "login": "jmdyck",
-  "number": 2386,
-  "ref": "FooCompletion_ao",
-  "revs": [
-   {
-    "adate": "2021-04-13T20:35:09-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-07-17T23:20:52-04:00",
-    "hash": "68b2b914e4d442520c45f3afe589004403a17279",
-    "parents": "c8ee5189e15562b61f15c8351832b363ee522c93",
-    "subject": "Editorial: Recast NormalCompletion + ThrowCompletion"
-   }
-  ],
-  "title": "Editorial: Recast NormalCompletion + ThrowCompletion",
-  "updated_at": "2021-07-18T03:24:11Z"
  },
  {
   "base": "26061c0e5e4b62fae91a7127b46c1efa8b94c4b4",
