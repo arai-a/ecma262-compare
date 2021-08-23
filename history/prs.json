@@ -50,11 +50,27 @@
  {
   "base": "f72dd1650d62b98d008f169dced06c72aa6986d9",
   "created_at": "2021-08-19T21:43:09Z",
-  "head": "72a6ad8b73244be359bd675dfe3d52dccec56d77",
+  "head": "d3063858ee536f7f1ddc754b04f2897a3c079272",
   "login": "tc39",
   "number": 2492,
   "ref": "plural-dfns",
   "revs": [
+   {
+    "adate": "2021-08-23T13:07:56-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-08-23T13:11:47-07:00",
+    "hash": "d3063858ee536f7f1ddc754b04f2897a3c079272",
+    "parents": "77688771f234fb3f84b2b0bc4a3c85704b93bab5",
+    "subject": "fix lint: undefine \"Set\" type, add missing s"
+   },
+   {
+    "adate": "2021-08-23T13:07:02-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-08-23T13:07:10-07:00",
+    "hash": "77688771f234fb3f84b2b0bc4a3c85704b93bab5",
+    "parents": "72a6ad8b73244be359bd675dfe3d52dccec56d77",
+    "subject": "fixup! bump ecmarkup again"
+   },
    {
     "adate": "2021-08-23T10:45:04-07:00",
     "author": "Kevin Gibbons",
@@ -105,7 +121,7 @@
    }
   ],
   "title": "Markup: auto-link plural forms of terms",
-  "updated_at": "2021-08-23T17:46:13Z"
+  "updated_at": "2021-08-23T20:17:56Z"
  },
  {
   "base": "f8053dfc8b8a3804ee854c614a6210ec416c8ced",
