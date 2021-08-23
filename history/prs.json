@@ -50,11 +50,35 @@
  {
   "base": "f72dd1650d62b98d008f169dced06c72aa6986d9",
   "created_at": "2021-08-19T21:43:09Z",
-  "head": "1795566eef5004fd6ef32393bde014565d31e057",
+  "head": "72a6ad8b73244be359bd675dfe3d52dccec56d77",
   "login": "tc39",
   "number": 2492,
   "ref": "plural-dfns",
   "revs": [
+   {
+    "adate": "2021-08-23T10:45:04-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-08-23T10:45:04-07:00",
+    "hash": "72a6ad8b73244be359bd675dfe3d52dccec56d77",
+    "parents": "ae5d91ad6e3b7e1746baec872e9c80facb693c18",
+    "subject": "FinalizationRegistries -> FinalizationRegistrys"
+   },
+   {
+    "adate": "2021-08-23T10:44:38-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-08-23T10:44:38-07:00",
+    "hash": "ae5d91ad6e3b7e1746baec872e9c80facb693c18",
+    "parents": "641d156c683fcc5100e515f33d2aa7247b449e96",
+    "subject": "missed an s"
+   },
+   {
+    "adate": "2021-08-23T10:44:17-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-08-23T10:44:17-07:00",
+    "hash": "641d156c683fcc5100e515f33d2aa7247b449e96",
+    "parents": "1795566eef5004fd6ef32393bde014565d31e057",
+    "subject": "indexes -> indices"
+   },
    {
     "adate": "2021-08-19T14:37:14-07:00",
     "author": "Kevin Gibbons",
@@ -81,7 +105,7 @@
    }
   ],
   "title": "Markup: auto-link plural forms of terms",
-  "updated_at": "2021-08-19T21:43:09Z"
+  "updated_at": "2021-08-23T17:46:13Z"
  },
  {
   "base": "f8053dfc8b8a3804ee854c614a6210ec416c8ced",
