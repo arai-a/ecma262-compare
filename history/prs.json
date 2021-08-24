@@ -1,5 +1,41 @@
 [
  {
+  "base": "717f45bd38f46cbb13968518a01b55e1a2c36a2f",
+  "created_at": "2021-08-24T20:41:55Z",
+  "head": "ae51d94ebfb09a3d172580132f08d2d085f38e82",
+  "login": "jmdyck",
+  "number": 2497,
+  "ref": "quick_fixes",
+  "revs": [
+   {
+    "adate": "2021-08-24T16:33:49-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-08-24T16:33:49-04:00",
+    "hash": "ae51d94ebfb09a3d172580132f08d2d085f38e82",
+    "parents": "7c6ca20fc7067a80387d4300bcefe1c09eff2324",
+    "subject": "Editorial: Drop unused _arrayTypeName_ in Atomics.notify"
+   },
+   {
+    "adate": "2021-08-24T15:51:46-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-08-24T15:51:46-04:00",
+    "hash": "7c6ca20fc7067a80387d4300bcefe1c09eff2324",
+    "parents": "fd2d711f034f81324b2db4c0360bdba9f0858112",
+    "subject": "Editorial: Insert hyphen into \"specification level\""
+   },
+   {
+    "adate": "2021-08-24T09:42:16-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-08-24T15:08:01-04:00",
+    "hash": "fd2d711f034f81324b2db4c0360bdba9f0858112",
+    "parents": "717f45bd38f46cbb13968518a01b55e1a2c36a2f",
+    "subject": "Markup: Insert space before attribute name"
+   }
+  ],
+  "title": "Editorial: Quick fixes",
+  "updated_at": "2021-08-24T20:53:07Z"
+ },
+ {
   "base": "f72dd1650d62b98d008f169dced06c72aa6986d9",
   "created_at": "2021-08-23T03:18:19Z",
   "head": "9478f2b6959840292a0a8ab6e20ef6519be1bb17",
@@ -22,11 +58,27 @@
  {
   "base": "f72dd1650d62b98d008f169dced06c72aa6986d9",
   "created_at": "2021-08-20T22:16:22Z",
-  "head": "5b04b151bf54301e2c850516ebd0e2cc4ec74fa0",
+  "head": "779361e6a2798061e92d0d7c4b7686a6142fb6c4",
   "login": "syg",
   "number": 2493,
   "ref": "relative-indexing-at",
   "revs": [
+   {
+    "adate": "2021-08-24T16:56:44-04:00",
+    "author": "Shu-yu Guo",
+    "date": "2021-08-24T16:56:44-04:00",
+    "hash": "779361e6a2798061e92d0d7c4b7686a6142fb6c4",
+    "parents": "4d7a9bb99d368e94f7c55ff79fe0b48c0ef9e623",
+    "subject": "Define mathematical operators over extended reals"
+   },
+   {
+    "adate": "2021-08-24T16:40:08-04:00",
+    "author": "Shu-yu Guo",
+    "date": "2021-08-24T16:40:08-04:00",
+    "hash": "4d7a9bb99d368e94f7c55ff79fe0b48c0ef9e623",
+    "parents": "5b04b151bf54301e2c850516ebd0e2cc4ec74fa0",
+    "subject": "Replace \"string value of length 1\" language with substring"
+   },
    {
     "adate": "2021-08-20T18:22:34-04:00",
     "author": "Shu-yu Guo",
@@ -45,7 +97,7 @@
    }
   ],
   "title": "Normative: Add relative indexing method at()",
-  "updated_at": "2021-08-20T22:35:43Z"
+  "updated_at": "2021-08-24T20:58:58Z"
  },
  {
   "base": "f8053dfc8b8a3804ee854c614a6210ec416c8ced",
