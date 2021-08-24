@@ -1132,9 +1132,9 @@
   "updated_at": "2021-04-09T08:32:07Z"
  },
  {
-  "base": "f7264bbb5645b0d9163f6420cca250a05ba37378",
+  "base": "717f45bd38f46cbb13968518a01b55e1a2c36a2f",
   "created_at": "2021-04-08T20:37:22Z",
-  "head": "c4b551a4040306eb3f905ae4d8a7b5487e6a18f9",
+  "head": "2e18808863759a49499f1e71329c0d1b4f99aeb5",
   "login": "jmdyck",
   "number": 2377,
   "ref": "TypedArrayElementFoo",
@@ -1142,22 +1142,30 @@
    {
     "adate": "2021-04-08T15:43:14-04:00",
     "author": "Michael Dyck",
-    "date": "2021-06-02T20:21:21-04:00",
-    "hash": "c4b551a4040306eb3f905ae4d8a7b5487e6a18f9",
-    "parents": "1cf3a8521e1cb76bb1fb566433a1dbf0a83a34c4",
+    "date": "2021-08-24T11:07:45-04:00",
+    "hash": "2e18808863759a49499f1e71329c0d1b4f99aeb5",
+    "parents": "248462934d67255382f4e407bb18a8fe6c661ff9",
     "subject": "Editorial: Introduce [[ElementType]] and [[ElementSize]] slots"
    },
    {
     "adate": "2021-04-08T15:14:37-04:00",
     "author": "Michael Dyck",
-    "date": "2021-06-02T20:21:21-04:00",
-    "hash": "1cf3a8521e1cb76bb1fb566433a1dbf0a83a34c4",
-    "parents": "f7264bbb5645b0d9163f6420cca250a05ba37378",
+    "date": "2021-08-24T11:06:34-04:00",
+    "hash": "248462934d67255382f4e407bb18a8fe6c661ff9",
+    "parents": "dd3432d3601d6c104c72f491a727be4c18aa10f2",
     "subject": "Editorial: Factor out TypedArrayElement{Size,Type} operations"
+   },
+   {
+    "adate": "2021-08-24T09:42:16-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-08-24T09:43:33-04:00",
+    "hash": "dd3432d3601d6c104c72f491a727be4c18aa10f2",
+    "parents": "717f45bd38f46cbb13968518a01b55e1a2c36a2f",
+    "subject": "missing space in 2492"
    }
   ],
   "title": "Editorial: Simplify getting the Element Type/Size for a TypedArray",
-  "updated_at": "2021-06-03T00:30:10Z"
+  "updated_at": "2021-08-24T15:13:15Z"
  },
  {
   "base": "417a0bb5bc3a6d7117c33cf50803483d9bd7adc1",
@@ -1324,9 +1332,9 @@
   "updated_at": "2021-03-02T20:18:19Z"
  },
  {
-  "base": "c8ee5189e15562b61f15c8351832b363ee522c93",
+  "base": "717f45bd38f46cbb13968518a01b55e1a2c36a2f",
   "created_at": "2021-02-11T16:04:14Z",
-  "head": "21a117ec7d7a0ac7d52957b7fb6519e82ae70ac3",
+  "head": "47b840da3cd15087d13c8360a71c33e3ebdb1f10",
   "login": "jmdyck",
   "number": 2305,
   "ref": "SortArrayLike",
@@ -1334,54 +1342,62 @@
    {
     "adate": "2021-02-11T10:43:36-05:00",
     "author": "Michael Dyck",
-    "date": "2021-07-18T00:11:59-04:00",
-    "hash": "21a117ec7d7a0ac7d52957b7fb6519e82ae70ac3",
-    "parents": "2744c9e399f6bc14a0117f23d48c72d4708a5b31",
+    "date": "2021-08-24T11:28:21-04:00",
+    "hash": "47b840da3cd15087d13c8360a71c33e3ebdb1f10",
+    "parents": "4e7c82e922d68e71a86bfb4a6ba2e040194cb528",
     "subject": "Editorial: Factor out SortArrayLike"
    },
    {
     "adate": "2021-02-11T10:32:49-05:00",
     "author": "Michael Dyck",
-    "date": "2021-07-17T23:58:31-04:00",
-    "hash": "2744c9e399f6bc14a0117f23d48c72d4708a5b31",
-    "parents": "27a1956b24f6af67a2a17f9018436bcb1a137606",
+    "date": "2021-08-24T11:28:21-04:00",
+    "hash": "4e7c82e922d68e71a86bfb4a6ba2e040194cb528",
+    "parents": "0102e771147fe969cca4e43d0a74fada0c15b46e",
     "subject": "Editorial: Recast SortCompare from abstract op to abstract closure"
    },
    {
     "adate": "2021-02-11T10:05:40-05:00",
     "author": "Michael Dyck",
-    "date": "2021-07-17T23:56:10-04:00",
-    "hash": "27a1956b24f6af67a2a17f9018436bcb1a137606",
-    "parents": "4bc4003b14fa1c1b5db20a7a36133544731a2b85",
+    "date": "2021-08-24T11:26:30-04:00",
+    "hash": "0102e771147fe969cca4e43d0a74fada0c15b46e",
+    "parents": "6486633bf93a21c290db9d3b31d4b678a5e520c5",
     "subject": "Editorial: Collapse 3 paragraphs re \"sort order\""
    },
    {
     "adate": "2021-02-11T09:57:55-05:00",
     "author": "Michael Dyck",
-    "date": "2021-07-17T23:56:10-04:00",
-    "hash": "4bc4003b14fa1c1b5db20a7a36133544731a2b85",
-    "parents": "f1c1ac3c8c3ed08038b47c19a28d4af066ffbf16",
+    "date": "2021-08-24T11:26:30-04:00",
+    "hash": "6486633bf93a21c290db9d3b31d4b678a5e520c5",
+    "parents": "2479b35711d45d9c62c74b377ca1066b6734bfb8",
     "subject": "Editorial: Tweak the definition of \"sort order\""
    },
    {
     "adate": "2021-02-11T09:35:05-05:00",
     "author": "Michael Dyck",
-    "date": "2021-07-17T23:56:10-04:00",
-    "hash": "f1c1ac3c8c3ed08038b47c19a28d4af066ffbf16",
-    "parents": "5ec3978e229fc631f34a1863b09944b1274ca9da",
+    "date": "2021-08-24T11:24:48-04:00",
+    "hash": "2479b35711d45d9c62c74b377ca1066b6734bfb8",
+    "parents": "0d006c939ce97c60bed4228151943bf1934c8602",
     "subject": "Editorial: Simplify the statement of when sort order is imp-defined"
    },
    {
     "adate": "2021-02-11T09:15:50-05:00",
     "author": "Michael Dyck",
-    "date": "2021-07-17T23:56:10-04:00",
-    "hash": "5ec3978e229fc631f34a1863b09944b1274ca9da",
-    "parents": "c8ee5189e15562b61f15c8351832b363ee522c93",
+    "date": "2021-08-24T11:15:17-04:00",
+    "hash": "0d006c939ce97c60bed4228151943bf1934c8602",
+    "parents": "dd3432d3601d6c104c72f491a727be4c18aa10f2",
     "subject": "Editorial: Rename \"consistent comparison function\" as \"consistent comparator\""
+   },
+   {
+    "adate": "2021-08-24T09:42:16-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-08-24T09:43:33-04:00",
+    "hash": "dd3432d3601d6c104c72f491a727be4c18aa10f2",
+    "parents": "717f45bd38f46cbb13968518a01b55e1a2c36a2f",
+    "subject": "missing space in 2492"
    }
   ],
   "title": "Editorial: Factor out common `sort` functionality",
-  "updated_at": "2021-07-18T04:12:20Z"
+  "updated_at": "2021-08-24T15:31:34Z"
  },
  {
   "base": "6ca50dc029e9e04b6788c6a37a02b2b67eb2580d",
