@@ -70,118 +70,22 @@
  {
   "base": "9cea9d20c5b7982c82fd5294fca93b6fdf390436",
   "created_at": "2021-08-15T22:25:13Z",
-  "head": "334d4847ccde5ae6a8f42a8df998d86c0cedfdf3",
+  "head": "cbc170511cae2bced2d24d69c502ee4138433bf0",
   "login": "tc39",
   "number": 2489,
   "ref": "x-object",
   "revs": [
    {
-    "adate": "2021-08-23T18:51:51-07:00",
+    "adate": "2021-08-23T19:26:59-07:00",
     "author": "Kevin Gibbons",
-    "date": "2021-08-23T18:51:51-07:00",
-    "hash": "334d4847ccde5ae6a8f42a8df998d86c0cedfdf3",
-    "parents": "70ca5e64bc80c27cc4242acf8e9a17ac4ac79e05",
-    "subject": "FinalizationRegistries -> FinalizationRegistrys"
-   },
-   {
-    "adate": "2021-08-16T15:02:28-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-08-23T18:51:28-07:00",
-    "hash": "70ca5e64bc80c27cc4242acf8e9a17ac4ac79e05",
-    "parents": "7cccda7a0868f0c693d225e0db9ec907ff504f7a",
-    "subject": "grammar"
-   },
-   {
-    "adate": "2021-08-16T09:19:57-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-08-23T18:51:26-07:00",
-    "hash": "7cccda7a0868f0c693d225e0db9ec907ff504f7a",
-    "parents": "0288344aeceb24cfebefd1ffc2cfcf355b0d5438",
-    "subject": "wordsmithing"
-   },
-   {
-    "adate": "2021-08-15T15:15:14-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-08-23T18:51:09-07:00",
-    "hash": "0288344aeceb24cfebefd1ffc2cfcf355b0d5438",
-    "parents": "250efe728a066b1cd85c2a873eb2be08640b2d5d",
-    "subject": "add note on Set vs Set object"
-   },
-   {
-    "adate": "2021-08-15T15:03:36-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-08-23T18:50:47-07:00",
-    "hash": "250efe728a066b1cd85c2a873eb2be08640b2d5d",
-    "parents": "8f2881745412030b53a70172a90c937ebf1a2db1",
-    "subject": "a few last X object -> X cases"
-   },
-   {
-    "adate": "2021-08-15T14:32:28-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-08-23T18:50:47-07:00",
-    "hash": "8f2881745412030b53a70172a90c937ebf1a2db1",
-    "parents": "e0672d316c7892d2872c9e6f22be6d1b86d74abe",
-    "subject": "Map,Set object -> Map,Set"
-   },
-   {
-    "adate": "2021-08-15T14:21:03-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-08-23T18:50:44-07:00",
-    "hash": "e0672d316c7892d2872c9e6f22be6d1b86d74abe",
-    "parents": "7a503b6094bbe1200d0b3163fa66d1c33ec1bc23",
-    "subject": "some tweaks around \"promise\""
-   },
-   {
-    "adate": "2021-08-15T14:17:16-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-08-23T18:50:12-07:00",
-    "hash": "7a503b6094bbe1200d0b3163fa66d1c33ec1bc23",
-    "parents": "29b7b73deb153488e59fc26303b9df10fb1b1e7e",
-    "subject": "ArrayBuffer object -> ArrayBuffer"
-   },
-   {
-    "adate": "2021-08-15T13:51:13-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-08-23T18:50:11-07:00",
-    "hash": "29b7b73deb153488e59fc26303b9df10fb1b1e7e",
-    "parents": "625c239d1d196244a9da95bd358064ecfc62bfcc",
-    "subject": "TypedArray object -> TypedArray"
-   },
-   {
-    "adate": "2021-08-15T13:45:16-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-08-23T18:49:06-07:00",
-    "hash": "625c239d1d196244a9da95bd358064ecfc62bfcc",
-    "parents": "589d6bb5da716bc131cc79ede402522666536869",
-    "subject": "async generator object -> AsyncGenerator"
-   },
-   {
-    "adate": "2021-08-15T13:42:03-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-08-23T18:49:06-07:00",
-    "hash": "589d6bb5da716bc131cc79ede402522666536869",
-    "parents": "865ca015e6c7a8df0f2d96a73b968f9ec4e00410",
-    "subject": "Generator object -> Generator"
-   },
-   {
-    "adate": "2021-08-15T13:38:55-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-08-23T18:49:06-07:00",
-    "hash": "865ca015e6c7a8df0f2d96a73b968f9ec4e00410",
-    "parents": "8cb3b688e3cee4e8d4d41287b4b8319081539695",
-    "subject": "Date object -> Date"
-   },
-   {
-    "adate": "2021-08-15T12:56:07-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-08-23T18:49:04-07:00",
-    "hash": "8cb3b688e3cee4e8d4d41287b4b8319081539695",
+    "date": "2021-08-23T19:26:59-07:00",
+    "hash": "cbc170511cae2bced2d24d69c502ee4138433bf0",
     "parents": "9cea9d20c5b7982c82fd5294fca93b6fdf390436",
-    "subject": "Array object -> Array, proxy object -> Proxy object"
+    "subject": "Editorial: \"an Array\", not \"an Array object\" (#2489)"
    }
   ],
   "title": "Editorial: \"an Array\", not \"an Array object\" [etc]",
-  "updated_at": "2021-08-24T01:54:32Z"
+  "updated_at": "2021-08-24T02:27:47Z"
  },
  {
   "base": "99b36f0591bf809bd2ea64a7bd2294606f4bef1f",
