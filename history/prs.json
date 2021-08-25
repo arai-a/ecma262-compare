@@ -176,26 +176,6 @@
   "updated_at": "2021-08-07T05:18:54Z"
  },
  {
-  "base": "886cc56ac70d8be969a55c43feb2f5c2cb9c69c1",
-  "created_at": "2021-08-05T03:30:07Z",
-  "head": "1e21bcaf1c5bb2927390be40756cfbb28264e9c6",
-  "login": "tc39",
-  "number": 2483,
-  "ref": "move-assertions-to-metadata",
-  "revs": [
-   {
-    "adate": "2021-08-04T21:23:08-06:00",
-    "author": "Michael Ficarra",
-    "date": "2021-08-25T10:45:30-06:00",
-    "hash": "1e21bcaf1c5bb2927390be40756cfbb28264e9c6",
-    "parents": "886cc56ac70d8be969a55c43feb2f5c2cb9c69c1",
-    "subject": "move assertions about AO parameter types into AO header metadata"
-   }
-  ],
-  "title": "Editorial: move assertions about AO parameter types into AO header metadata",
-  "updated_at": "2021-08-25T16:48:08Z"
- },
- {
   "base": "99b36f0591bf809bd2ea64a7bd2294606f4bef1f",
   "created_at": "2021-08-05T02:27:35Z",
   "head": "dd8d4cbcd0c0ba4fa229bf9a9c9d53720e7d3eef",
@@ -888,9 +868,9 @@
   "updated_at": "2021-05-26T17:24:42Z"
  },
  {
-  "base": "c2a9389aa87ca91e440dbea14dbd2192270b0f64",
+  "base": "4fde51429522cfd3feb09f2a023af30ff1f5a27d",
   "created_at": "2021-05-09T04:33:41Z",
-  "head": "f8fb64d7ce88e51af033675ad41c3dd87188103f",
+  "head": "0b1f1caa276e8adfbc98bcc43d7061a9a0bf09b6",
   "login": "jmdyck",
   "number": 2406,
   "ref": "fix_some_SDOs",
@@ -898,62 +878,62 @@
    {
     "adate": "2021-05-08T23:57:58-04:00",
     "author": "Michael Dyck",
-    "date": "2021-06-01T09:05:48-04:00",
-    "hash": "f8fb64d7ce88e51af033675ad41c3dd87188103f",
-    "parents": "c9b087e4684add6050ac113c79801368233ff70f",
+    "date": "2021-08-25T14:58:41-07:00",
+    "hash": "0b1f1caa276e8adfbc98bcc43d7061a9a0bf09b6",
+    "parents": "252b346ec9b7c220eee22118e95c26bcefded300",
     "subject": "Editorial: Drop unused defn of `VarDeclaredNames`"
    },
    {
     "adate": "2021-05-08T23:47:25-04:00",
     "author": "Michael Dyck",
-    "date": "2021-06-01T09:05:48-04:00",
-    "hash": "c9b087e4684add6050ac113c79801368233ff70f",
-    "parents": "b73e3e80dd585b71850dbec600c7e6e9a00e1081",
+    "date": "2021-08-25T14:58:41-07:00",
+    "hash": "252b346ec9b7c220eee22118e95c26bcefded300",
+    "parents": "9a077ffa0c179d043eab2c24a7ce0f48c5d022c4",
     "subject": "Editorial: Drop unused defns of `TopLevelVarDeclaredNames` & `TopLevelVarScopedDeclarations`"
    },
    {
     "adate": "2021-05-08T23:37:24-04:00",
     "author": "Michael Dyck",
-    "date": "2021-06-01T09:05:48-04:00",
-    "hash": "b73e3e80dd585b71850dbec600c7e6e9a00e1081",
-    "parents": "75614fe0a4cf46aeeca007b5ef13c9645025a5d9",
+    "date": "2021-08-25T14:58:41-07:00",
+    "hash": "9a077ffa0c179d043eab2c24a7ce0f48c5d022c4",
+    "parents": "7e27541a5b5ac0417fa78b3e9016eab25fa9f0aa",
     "subject": "Editorial: Drop unused defns of `TopLevelLexicallyDeclaredNames` & `TopLevelLexicallyScopedDeclarations`"
    },
    {
     "adate": "2021-05-08T23:21:23-04:00",
     "author": "Michael Dyck",
-    "date": "2021-06-01T09:05:48-04:00",
-    "hash": "75614fe0a4cf46aeeca007b5ef13c9645025a5d9",
-    "parents": "778e106599166956030bb1ba80adc3102fe6f51c",
+    "date": "2021-08-25T14:58:40-07:00",
+    "hash": "7e27541a5b5ac0417fa78b3e9016eab25fa9f0aa",
+    "parents": "a43376e432dde01191c9f6bf72883d612cee9cec",
     "subject": "Editorial: Drop unused defn of `MV` SDO"
    },
    {
     "adate": "2021-05-08T22:53:16-04:00",
     "author": "Michael Dyck",
-    "date": "2021-06-01T09:05:48-04:00",
-    "hash": "778e106599166956030bb1ba80adc3102fe6f51c",
-    "parents": "f9c6b4f9a6ee9f5e9c14f635a80897ef1bfcc112",
+    "date": "2021-08-25T14:58:40-07:00",
+    "hash": "a43376e432dde01191c9f6bf72883d612cee9cec",
+    "parents": "f7c26f0196a450dba398b288ff1ac8ee55ab0eb6",
     "subject": "Editorial: Drop unused defns of `Evaluation` SDO"
    },
    {
     "adate": "2021-05-08T22:43:56-04:00",
     "author": "Michael Dyck",
-    "date": "2021-06-01T09:05:18-04:00",
-    "hash": "f9c6b4f9a6ee9f5e9c14f635a80897ef1bfcc112",
-    "parents": "3783a69a63cd380dacc4c8f9c556186d50fa1b5a",
+    "date": "2021-08-25T14:58:40-07:00",
+    "hash": "f7c26f0196a450dba398b288ff1ac8ee55ab0eb6",
+    "parents": "6296078aa6d84a4b441982ea761a2248e32229a8",
     "subject": "Editorial: Define 4 SDOs on empty Script"
    },
    {
     "adate": "2021-05-08T22:26:42-04:00",
     "author": "Michael Dyck",
-    "date": "2021-05-08T22:26:42-04:00",
-    "hash": "3783a69a63cd380dacc4c8f9c556186d50fa1b5a",
-    "parents": "c75497982a8c07e83a13cc5d7d80cdaaa8a337bd",
+    "date": "2021-08-25T14:58:40-07:00",
+    "hash": "6296078aa6d84a4b441982ea761a2248e32229a8",
+    "parents": "4fde51429522cfd3feb09f2a023af30ff1f5a27d",
     "subject": "Editorial: Define `Evaluation` for BindingIdentifier"
    }
   ],
   "title": "Editorial: Fix some SDOs",
-  "updated_at": "2021-06-01T13:07:45Z"
+  "updated_at": "2021-08-25T21:59:36Z"
  },
  {
   "base": "c75497982a8c07e83a13cc5d7d80cdaaa8a337bd",
@@ -1876,24 +1856,24 @@
   "updated_at": "2020-09-20T23:04:54Z"
  },
  {
-  "base": "e7610a874f390aca90d8c059a95eb38e375a156c",
+  "base": "4fde51429522cfd3feb09f2a023af30ff1f5a27d",
   "created_at": "2020-07-26T13:13:28Z",
-  "head": "40e88d3b4a60cae40e97904c180b770513da16c5",
+  "head": "56ed133fb890f0c6e291ca696d8adf18891b72a6",
   "login": "ExE-Boss",
   "number": 2113,
   "ref": "editorial/if-abrupt-close-iterator",
   "revs": [
    {
-    "adate": "2020-07-26T17:00:00+02:00",
+    "adate": "2021-08-25T15:00:55-07:00",
     "author": "ExE Boss",
-    "date": "2021-07-23T10:01:36+02:00",
-    "hash": "40e88d3b4a60cae40e97904c180b770513da16c5",
-    "parents": "e7610a874f390aca90d8c059a95eb38e375a156c",
-    "subject": "Editorial: Add\u00a0`IfAbruptCloseIterator`\u00a0shorthand"
+    "date": "2021-08-25T15:00:55-07:00",
+    "hash": "56ed133fb890f0c6e291ca696d8adf18891b72a6",
+    "parents": "4fde51429522cfd3feb09f2a023af30ff1f5a27d",
+    "subject": "Editorial: Add\u00a0`IfAbruptCloseIterator`\u00a0shorthand (#2113)"
    }
   ],
   "title": "Editorial: Add\u00a0`IfAbruptCloseIterator`\u00a0shorthand",
-  "updated_at": "2021-07-23T08:02:43Z"
+  "updated_at": "2021-08-25T22:04:29Z"
  },
  {
   "base": "69f53492cf8e735c84f8f859b930576c4ce9251b",
