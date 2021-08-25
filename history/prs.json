@@ -1332,9 +1332,9 @@
   "updated_at": "2021-03-02T20:18:19Z"
  },
  {
-  "base": "717f45bd38f46cbb13968518a01b55e1a2c36a2f",
+  "base": "886cc56ac70d8be969a55c43feb2f5c2cb9c69c1",
   "created_at": "2021-02-11T16:04:14Z",
-  "head": "47b840da3cd15087d13c8360a71c33e3ebdb1f10",
+  "head": "26a743a9deb7c097c570ec7a2d07f4843223da00",
   "login": "jmdyck",
   "number": 2305,
   "ref": "SortArrayLike",
@@ -1342,62 +1342,54 @@
    {
     "adate": "2021-02-11T10:43:36-05:00",
     "author": "Michael Dyck",
-    "date": "2021-08-24T11:28:21-04:00",
-    "hash": "47b840da3cd15087d13c8360a71c33e3ebdb1f10",
-    "parents": "4e7c82e922d68e71a86bfb4a6ba2e040194cb528",
+    "date": "2021-08-24T22:24:28-04:00",
+    "hash": "26a743a9deb7c097c570ec7a2d07f4843223da00",
+    "parents": "09d657e91921bb7302aac3a40a1e01948876359c",
     "subject": "Editorial: Factor out SortArrayLike"
    },
    {
     "adate": "2021-02-11T10:32:49-05:00",
     "author": "Michael Dyck",
-    "date": "2021-08-24T11:28:21-04:00",
-    "hash": "4e7c82e922d68e71a86bfb4a6ba2e040194cb528",
-    "parents": "0102e771147fe969cca4e43d0a74fada0c15b46e",
+    "date": "2021-08-24T22:24:28-04:00",
+    "hash": "09d657e91921bb7302aac3a40a1e01948876359c",
+    "parents": "5a9c460e766f5d3e310e036978c191dfe166b2d6",
     "subject": "Editorial: Recast SortCompare from abstract op to abstract closure"
    },
    {
     "adate": "2021-02-11T10:05:40-05:00",
     "author": "Michael Dyck",
-    "date": "2021-08-24T11:26:30-04:00",
-    "hash": "0102e771147fe969cca4e43d0a74fada0c15b46e",
-    "parents": "6486633bf93a21c290db9d3b31d4b678a5e520c5",
+    "date": "2021-08-24T22:24:28-04:00",
+    "hash": "5a9c460e766f5d3e310e036978c191dfe166b2d6",
+    "parents": "8702aefdee69ddb1e6e305e93a3743cebfe9987a",
     "subject": "Editorial: Collapse 3 paragraphs re \"sort order\""
    },
    {
     "adate": "2021-02-11T09:57:55-05:00",
     "author": "Michael Dyck",
-    "date": "2021-08-24T11:26:30-04:00",
-    "hash": "6486633bf93a21c290db9d3b31d4b678a5e520c5",
-    "parents": "2479b35711d45d9c62c74b377ca1066b6734bfb8",
+    "date": "2021-08-24T22:24:28-04:00",
+    "hash": "8702aefdee69ddb1e6e305e93a3743cebfe9987a",
+    "parents": "232f146acdb6b064121b65aeccdb00b39a4f4fd1",
     "subject": "Editorial: Tweak the definition of \"sort order\""
    },
    {
     "adate": "2021-02-11T09:35:05-05:00",
     "author": "Michael Dyck",
-    "date": "2021-08-24T11:24:48-04:00",
-    "hash": "2479b35711d45d9c62c74b377ca1066b6734bfb8",
-    "parents": "0d006c939ce97c60bed4228151943bf1934c8602",
+    "date": "2021-08-24T22:24:28-04:00",
+    "hash": "232f146acdb6b064121b65aeccdb00b39a4f4fd1",
+    "parents": "923ae5569104f8f7e47791e7dc430752ff2c2987",
     "subject": "Editorial: Simplify the statement of when sort order is imp-defined"
    },
    {
     "adate": "2021-02-11T09:15:50-05:00",
     "author": "Michael Dyck",
-    "date": "2021-08-24T11:15:17-04:00",
-    "hash": "0d006c939ce97c60bed4228151943bf1934c8602",
-    "parents": "dd3432d3601d6c104c72f491a727be4c18aa10f2",
+    "date": "2021-08-24T22:24:27-04:00",
+    "hash": "923ae5569104f8f7e47791e7dc430752ff2c2987",
+    "parents": "886cc56ac70d8be969a55c43feb2f5c2cb9c69c1",
     "subject": "Editorial: Rename \"consistent comparison function\" as \"consistent comparator\""
-   },
-   {
-    "adate": "2021-08-24T09:42:16-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-08-24T09:43:33-04:00",
-    "hash": "dd3432d3601d6c104c72f491a727be4c18aa10f2",
-    "parents": "717f45bd38f46cbb13968518a01b55e1a2c36a2f",
-    "subject": "missing space in 2492"
    }
   ],
   "title": "Editorial: Factor out common `sort` functionality",
-  "updated_at": "2021-08-24T15:31:34Z"
+  "updated_at": "2021-08-25T02:25:47Z"
  },
  {
   "base": "6ca50dc029e9e04b6788c6a37a02b2b67eb2580d",
@@ -1420,9 +1412,9 @@
   "updated_at": "2021-07-18T14:08:45Z"
  },
  {
-  "base": "6ca50dc029e9e04b6788c6a37a02b2b67eb2580d",
+  "base": "886cc56ac70d8be969a55c43feb2f5c2cb9c69c1",
   "created_at": "2021-01-24T05:38:33Z",
-  "head": "c48c4f0b76f3c956fa549c1856b217ade431a5ca",
+  "head": "584126804c796415b078ed9fb5bdd10f4c2c4e51",
   "login": "jmdyck",
   "number": 2288,
   "ref": "declarative_Env_Rec",
@@ -1430,46 +1422,46 @@
    {
     "adate": "2021-01-24T00:30:29-05:00",
     "author": "Michael Dyck",
-    "date": "2021-07-18T10:11:57-04:00",
-    "hash": "c48c4f0b76f3c956fa549c1856b217ade431a5ca",
-    "parents": "5a8bd8cf9cbb5be1bbe8f774dd0898f79070f0ee",
+    "date": "2021-08-24T22:27:17-04:00",
+    "hash": "584126804c796415b078ed9fb5bdd10f4c2c4e51",
+    "parents": "a73afb535bb664c900888bc49a5b2cc855a5e9c2",
     "subject": "Editorial: Model a binding as a Record"
    },
    {
     "adate": "2021-01-23T23:59:22-05:00",
     "author": "Michael Dyck",
-    "date": "2021-07-18T10:11:57-04:00",
-    "hash": "5a8bd8cf9cbb5be1bbe8f774dd0898f79070f0ee",
-    "parents": "b8b7202a076e4abee72974feaa9bc2309867d800",
+    "date": "2021-08-24T22:27:17-04:00",
+    "hash": "a73afb535bb664c900888bc49a5b2cc855a5e9c2",
+    "parents": "c23339cd0619783aa4387a97abae2214bf3d47bd",
     "subject": "Editorial: declarative Env Rec has field [[Bindings]]"
    },
    {
     "adate": "2021-01-23T23:52:38-05:00",
     "author": "Michael Dyck",
-    "date": "2021-07-18T10:11:57-04:00",
-    "hash": "b8b7202a076e4abee72974feaa9bc2309867d800",
-    "parents": "da8d6ea67b2b7623d205843f02501605d7bc6ce8",
+    "date": "2021-08-24T22:27:17-04:00",
+    "hash": "c23339cd0619783aa4387a97abae2214bf3d47bd",
+    "parents": "3a7379c132da7569e2ad5a5a5318ac6a69c8bcfa",
     "subject": "Editorial: Treat a binding as an 'alias-able' thing"
    },
    {
     "adate": "2021-01-23T23:03:21-05:00",
     "author": "Michael Dyck",
-    "date": "2021-07-18T10:11:57-04:00",
-    "hash": "da8d6ea67b2b7623d205843f02501605d7bc6ce8",
-    "parents": "df8bdbdcb20b49117931464e38bef97e6cf29c82",
+    "date": "2021-08-24T22:27:17-04:00",
+    "hash": "3a7379c132da7569e2ad5a5a5318ac6a69c8bcfa",
+    "parents": "14bdb7bfb5a8c464c0397eb7bc47fc8340441bea",
     "subject": "Editorial: Have NewGlobalEnvironment invoke NewDeclarativeEnvironment"
    },
    {
     "adate": "2021-01-23T22:54:21-05:00",
     "author": "Michael Dyck",
-    "date": "2021-07-18T10:09:43-04:00",
-    "hash": "df8bdbdcb20b49117931464e38bef97e6cf29c82",
-    "parents": "c8ee5189e15562b61f15c8351832b363ee522c93",
+    "date": "2021-08-24T22:27:17-04:00",
+    "hash": "14bdb7bfb5a8c464c0397eb7bc47fc8340441bea",
+    "parents": "886cc56ac70d8be969a55c43feb2f5c2cb9c69c1",
     "subject": "Editorial: Use declarative Env Rec's HasBinding method"
    }
   ],
   "title": "Editorial: Model the bindings of a declarative Env Rec as a List of Records",
-  "updated_at": "2021-07-18T14:16:23Z"
+  "updated_at": "2021-08-25T02:28:14Z"
  },
  {
   "base": "77595f579194f5c79a02a2952f4367a8e3ce9620",
@@ -1540,9 +1532,9 @@
   "updated_at": "2021-01-01T03:56:14Z"
  },
  {
-  "base": "f8053dfc8b8a3804ee854c614a6210ec416c8ced",
+  "base": "886cc56ac70d8be969a55c43feb2f5c2cb9c69c1",
   "created_at": "2020-12-08T06:31:39Z",
-  "head": "c02e1b41b03192e7e08cc28ffbb90c2e34a69b63",
+  "head": "ca7af05cd52da78f39ea16f3be07468e31c40c5a",
   "login": "jmdyck",
   "number": 2246,
   "ref": "ExecutionContext_Record",
@@ -1550,14 +1542,14 @@
    {
     "adate": "2020-12-08T01:22:55-05:00",
     "author": "Michael Dyck",
-    "date": "2021-08-16T23:58:40-04:00",
-    "hash": "c02e1b41b03192e7e08cc28ffbb90c2e34a69b63",
-    "parents": "f8053dfc8b8a3804ee854c614a6210ec416c8ced",
+    "date": "2021-08-24T22:30:36-04:00",
+    "hash": "ca7af05cd52da78f39ea16f3be07468e31c40c5a",
+    "parents": "886cc56ac70d8be969a55c43feb2f5c2cb9c69c1",
     "subject": "Editorial: Model execution context as a record"
    }
   ],
   "title": "Editorial: Model execution context as a record",
-  "updated_at": "2021-08-17T04:13:25Z"
+  "updated_at": "2021-08-25T02:31:36Z"
  },
  {
   "base": "b3f9b5089bcc3ddd8486379015cd11eb1427a5eb",
@@ -2616,9 +2608,9 @@
   "updated_at": "2021-08-17T14:48:17Z"
  },
  {
-  "base": "6ca50dc029e9e04b6788c6a37a02b2b67eb2580d",
+  "base": "886cc56ac70d8be969a55c43feb2f5c2cb9c69c1",
   "created_at": "2019-07-13T02:30:44Z",
-  "head": "affceb4ca3029ca9757a46f89613ec56bc8abc20",
+  "head": "1b09e4bf0b2af30d8753c3e93913e74978c3b859",
   "login": "jmdyck",
   "number": 1623,
   "ref": "index_strings",
@@ -2626,38 +2618,38 @@
    {
     "adate": "2019-07-12T11:59:54-04:00",
     "author": "Michael Dyck",
-    "date": "2021-07-18T11:02:33-04:00",
-    "hash": "affceb4ca3029ca9757a46f89613ec56bc8abc20",
-    "parents": "ed758eb4a6f1ea9895e086eec4d66fcf07610335",
+    "date": "2021-08-24T22:33:04-04:00",
+    "hash": "1b09e4bf0b2af30d8753c3e93913e74978c3b859",
+    "parents": "1fbb0d5bd82f7d16d2d407af2f013276d19896d4",
     "subject": "Editorial: some minor rewordings"
    },
    {
     "adate": "2019-07-12T11:12:43-04:00",
     "author": "Michael Dyck",
-    "date": "2021-07-18T11:02:33-04:00",
-    "hash": "ed758eb4a6f1ea9895e086eec4d66fcf07610335",
-    "parents": "9e2788c413105a53ba7445bd0c922c50726a5eae",
+    "date": "2021-08-24T22:33:04-04:00",
+    "hash": "1fbb0d5bd82f7d16d2d407af2f013276d19896d4",
+    "parents": "8b30a569da64d8237d42b36be0e3c14fe2921a06",
     "subject": "Editorial: Replace \"array index\" with \"Uint32-string\""
    },
    {
     "adate": "2019-07-12T10:23:31-04:00",
     "author": "Michael Dyck",
-    "date": "2021-07-18T11:02:33-04:00",
-    "hash": "9e2788c413105a53ba7445bd0c922c50726a5eae",
-    "parents": "490e91ac146ab9e4215bc5e90237492756f6fd88",
+    "date": "2021-08-24T22:33:04-04:00",
+    "hash": "8b30a569da64d8237d42b36be0e3c14fe2921a06",
+    "parents": "a6797bc43b2721e8975ef7c8c6fe165d9a591ebf",
     "subject": "Editorial: Replace \"integer index\" with \"Uint53-string\""
    },
    {
     "adate": "2019-07-12T21:58:00-04:00",
     "author": "Michael Dyck",
-    "date": "2021-07-18T11:00:17-04:00",
-    "hash": "490e91ac146ab9e4215bc5e90237492756f6fd88",
-    "parents": "c8ee5189e15562b61f15c8351832b363ee522c93",
+    "date": "2021-08-24T22:33:04-04:00",
+    "hash": "a6797bc43b2721e8975ef7c8c6fe165d9a591ebf",
+    "parents": "886cc56ac70d8be969a55c43feb2f5c2cb9c69c1",
     "subject": "Editorial: Fix wording in Note for Arguments exotic objects"
    }
   ],
   "title": "Editorial: Replace terms \"integer index\" and \"array index\"",
-  "updated_at": "2021-07-18T15:09:58Z"
+  "updated_at": "2021-08-25T02:34:28Z"
  },
  {
   "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
