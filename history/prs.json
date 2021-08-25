@@ -548,13 +548,21 @@
   "updated_at": "2021-07-28T15:42:37Z"
  },
  {
-  "base": "f8053dfc8b8a3804ee854c614a6210ec416c8ced",
+  "base": "886cc56ac70d8be969a55c43feb2f5c2cb9c69c1",
   "created_at": "2021-06-23T04:21:23Z",
-  "head": "61941724463718d1773dd1282fac417e9903783c",
+  "head": "3a335f7e61aa5c50d650d3eeb6a124188e1bf9f2",
   "login": "rbuckton",
   "number": 2440,
   "ref": "class-static-block",
   "revs": [
+   {
+    "adate": "2021-08-24T17:38:32-07:00",
+    "author": "Ron Buckton",
+    "date": "2021-08-24T18:10:48-07:00",
+    "hash": "3a335f7e61aa5c50d650d3eeb6a124188e1bf9f2",
+    "parents": "61941724463718d1773dd1282fac417e9903783c",
+    "subject": "Editor PR Feedback"
+   },
    {
     "adate": "2021-08-17T20:50:04-07:00",
     "author": "Ron Buckton",
@@ -597,7 +605,7 @@
    }
   ],
   "title": "Normative: Add class `static` initialization blocks",
-  "updated_at": "2021-08-18T19:54:42Z"
+  "updated_at": "2021-08-25T01:10:58Z"
  },
  {
   "base": "61cc3297c96764a256b02b90005550607371a1d1",
@@ -1140,40 +1148,24 @@
   "updated_at": "2021-04-09T08:32:07Z"
  },
  {
-  "base": "717f45bd38f46cbb13968518a01b55e1a2c36a2f",
+  "base": "886cc56ac70d8be969a55c43feb2f5c2cb9c69c1",
   "created_at": "2021-04-08T20:37:22Z",
-  "head": "2e18808863759a49499f1e71329c0d1b4f99aeb5",
+  "head": "0e8220a5a4805333570cb5810c2e7add3c02d367",
   "login": "jmdyck",
   "number": 2377,
   "ref": "TypedArrayElementFoo",
   "revs": [
    {
-    "adate": "2021-04-08T15:43:14-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-08-24T11:07:45-04:00",
-    "hash": "2e18808863759a49499f1e71329c0d1b4f99aeb5",
-    "parents": "248462934d67255382f4e407bb18a8fe6c661ff9",
-    "subject": "Editorial: Introduce [[ElementType]] and [[ElementSize]] slots"
-   },
-   {
     "adate": "2021-04-08T15:14:37-04:00",
     "author": "Michael Dyck",
-    "date": "2021-08-24T11:06:34-04:00",
-    "hash": "248462934d67255382f4e407bb18a8fe6c661ff9",
-    "parents": "dd3432d3601d6c104c72f491a727be4c18aa10f2",
+    "date": "2021-08-24T21:09:38-04:00",
+    "hash": "0e8220a5a4805333570cb5810c2e7add3c02d367",
+    "parents": "886cc56ac70d8be969a55c43feb2f5c2cb9c69c1",
     "subject": "Editorial: Factor out TypedArrayElement{Size,Type} operations"
-   },
-   {
-    "adate": "2021-08-24T09:42:16-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-08-24T09:43:33-04:00",
-    "hash": "dd3432d3601d6c104c72f491a727be4c18aa10f2",
-    "parents": "717f45bd38f46cbb13968518a01b55e1a2c36a2f",
-    "subject": "missing space in 2492"
    }
   ],
   "title": "Editorial: Simplify getting the Element Type/Size for a TypedArray",
-  "updated_at": "2021-08-24T15:13:15Z"
+  "updated_at": "2021-08-25T01:12:34Z"
  },
  {
   "base": "417a0bb5bc3a6d7117c33cf50803483d9bd7adc1",
