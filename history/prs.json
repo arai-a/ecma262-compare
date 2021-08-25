@@ -1,41 +1,5 @@
 [
  {
-  "base": "717f45bd38f46cbb13968518a01b55e1a2c36a2f",
-  "created_at": "2021-08-24T20:41:55Z",
-  "head": "ae51d94ebfb09a3d172580132f08d2d085f38e82",
-  "login": "jmdyck",
-  "number": 2497,
-  "ref": "quick_fixes",
-  "revs": [
-   {
-    "adate": "2021-08-24T16:33:49-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-08-24T16:33:49-04:00",
-    "hash": "ae51d94ebfb09a3d172580132f08d2d085f38e82",
-    "parents": "7c6ca20fc7067a80387d4300bcefe1c09eff2324",
-    "subject": "Editorial: Drop unused _arrayTypeName_ in Atomics.notify"
-   },
-   {
-    "adate": "2021-08-24T15:51:46-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-08-24T15:51:46-04:00",
-    "hash": "7c6ca20fc7067a80387d4300bcefe1c09eff2324",
-    "parents": "fd2d711f034f81324b2db4c0360bdba9f0858112",
-    "subject": "Editorial: Insert hyphen into \"specification level\""
-   },
-   {
-    "adate": "2021-08-24T09:42:16-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-08-24T15:08:01-04:00",
-    "hash": "fd2d711f034f81324b2db4c0360bdba9f0858112",
-    "parents": "717f45bd38f46cbb13968518a01b55e1a2c36a2f",
-    "subject": "Markup: Insert space before attribute name"
-   }
-  ],
-  "title": "Editorial: Quick fixes",
-  "updated_at": "2021-08-24T20:53:07Z"
- },
- {
   "base": "f72dd1650d62b98d008f169dced06c72aa6986d9",
   "created_at": "2021-08-23T03:18:19Z",
   "head": "9478f2b6959840292a0a8ab6e20ef6519be1bb17",
@@ -524,9 +488,9 @@
   "updated_at": "2021-07-15T15:15:43Z"
  },
  {
-  "base": "717f45bd38f46cbb13968518a01b55e1a2c36a2f",
+  "base": "886cc56ac70d8be969a55c43feb2f5c2cb9c69c1",
   "created_at": "2021-06-30T18:11:24Z",
-  "head": "0a940e821635a5cd952e2373e3ccd126c9d8c3d5",
+  "head": "db0e37ee42ec5eec263f1b97c08fa7ebb0fcadcb",
   "login": "jmdyck",
   "number": 2447,
   "ref": "wki_xrefs",
@@ -534,22 +498,14 @@
    {
     "adate": "2021-06-30T11:19:57-04:00",
     "author": "Michael Dyck",
-    "date": "2021-08-24T10:44:15-04:00",
-    "hash": "0a940e821635a5cd952e2373e3ccd126c9d8c3d5",
-    "parents": "dd3432d3601d6c104c72f491a727be4c18aa10f2",
+    "date": "2021-08-24T20:24:00-04:00",
+    "hash": "db0e37ee42ec5eec263f1b97c08fa7ebb0fcadcb",
+    "parents": "886cc56ac70d8be969a55c43feb2f5c2cb9c69c1",
     "subject": "Editorial: Delete redundant xrefs from Well-Known Intrinsics table"
-   },
-   {
-    "adate": "2021-08-24T09:42:16-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-08-24T09:43:33-04:00",
-    "hash": "dd3432d3601d6c104c72f491a727be4c18aa10f2",
-    "parents": "717f45bd38f46cbb13968518a01b55e1a2c36a2f",
-    "subject": "missing space in 2492"
    }
   ],
   "title": "Editorial: Delete redundant xrefs from Well-Known Intrinsics table",
-  "updated_at": "2021-08-24T14:55:46Z"
+  "updated_at": "2021-08-25T00:25:05Z"
  },
  {
   "base": "f8053dfc8b8a3804ee854c614a6210ec416c8ced",
