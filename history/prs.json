@@ -1,6 +1,26 @@
 [
  {
   "base": "56ed133fb890f0c6e291ca696d8adf18891b72a6",
+  "created_at": "2021-08-26T06:04:31Z",
+  "head": "4fed3349bd46c8e3044c7b8c2f667aa90138bd21",
+  "login": "tc39",
+  "number": 2500,
+  "ref": "fix-fdi-note",
+  "revs": [
+   {
+    "adate": "2021-08-25T22:44:06-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-08-25T23:04:13-07:00",
+    "hash": "4fed3349bd46c8e3044c7b8c2f667aa90138bd21",
+    "parents": "56ed133fb890f0c6e291ca696d8adf18891b72a6",
+    "subject": "Editorial: tweak note in FunctionDeclarationInstantiation"
+   }
+  ],
+  "title": "Editorial: tweak note in FunctionDeclarationInstantiation",
+  "updated_at": "2021-08-26T06:04:31Z"
+ },
+ {
+  "base": "56ed133fb890f0c6e291ca696d8adf18891b72a6",
   "created_at": "2021-08-26T00:33:22Z",
   "head": "886c1cf022185dd090121d90399f1a2332012b46",
   "login": "tc39",
