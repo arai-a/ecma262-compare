@@ -1,5 +1,25 @@
 [
  {
+  "base": "56ed133fb890f0c6e291ca696d8adf18891b72a6",
+  "created_at": "2021-08-26T00:33:22Z",
+  "head": "886c1cf022185dd090121d90399f1a2332012b46",
+  "login": "tc39",
+  "number": 2499,
+  "ref": "GH-2494",
+  "revs": [
+   {
+    "adate": "2021-08-25T18:30:28-06:00",
+    "author": "Michael Ficarra",
+    "date": "2021-08-25T18:30:28-06:00",
+    "hash": "886c1cf022185dd090121d90399f1a2332012b46",
+    "parents": "56ed133fb890f0c6e291ca696d8adf18891b72a6",
+    "subject": "Editorial: fix slight ambiguity in ToPrimitive note about Dates"
+   }
+  ],
+  "title": "Editorial: fix slight ambiguity in ToPrimitive note about Dates",
+  "updated_at": "2021-08-26T00:33:22Z"
+ },
+ {
   "base": "f72dd1650d62b98d008f169dced06c72aa6986d9",
   "created_at": "2021-08-23T03:18:19Z",
   "head": "9478f2b6959840292a0a8ab6e20ef6519be1bb17",
