@@ -2,11 +2,19 @@
  {
   "base": "56ed133fb890f0c6e291ca696d8adf18891b72a6",
   "created_at": "2021-08-26T07:11:01Z",
-  "head": "d12ce15d190fd7ee406484b8fd43d3ad1f50cfdf",
+  "head": "f128a827db7457777a0a5c0c3146d57c130247ad",
   "login": "gibson042",
   "number": 2501,
   "ref": "2021-08-refactor-index-conversion",
   "revs": [
+   {
+    "adate": "2021-08-27T12:36:44-04:00",
+    "author": "Richard Gibson",
+    "date": "2021-08-27T12:38:29-04:00",
+    "hash": "f128a827db7457777a0a5c0c3146d57c130247ad",
+    "parents": "d12ce15d190fd7ee406484b8fd43d3ad1f50cfdf",
+    "subject": "remove observable double-ToNumber"
+   },
    {
     "adate": "2021-08-26T02:45:41-04:00",
     "author": "Richard Gibson",
@@ -33,7 +41,7 @@
    }
   ],
   "title": "Clarify ToIndex, ToLength, and ToIntegerOrInfinity",
-  "updated_at": "2021-08-26T07:11:01Z"
+  "updated_at": "2021-08-27T16:40:34Z"
  },
  {
   "base": "56ed133fb890f0c6e291ca696d8adf18891b72a6",
