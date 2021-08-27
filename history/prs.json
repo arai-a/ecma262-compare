@@ -98,11 +98,19 @@
  {
   "base": "f72dd1650d62b98d008f169dced06c72aa6986d9",
   "created_at": "2021-08-20T22:16:22Z",
-  "head": "7726100102891d1abb339002da93f160a4a0a3d5",
+  "head": "b1a89e8287b64e11b84bee8b5014a9ce502ab165",
   "login": "syg",
   "number": 2493,
   "ref": "relative-indexing-at",
   "revs": [
+   {
+    "adate": "2021-08-26T21:38:09-04:00",
+    "author": "Shu-yu Guo",
+    "date": "2021-08-26T21:38:09-04:00",
+    "hash": "b1a89e8287b64e11b84bee8b5014a9ce502ab165",
+    "parents": "7726100102891d1abb339002da93f160a4a0a3d5",
+    "subject": "? -> ! for TypedArray#at"
+   },
    {
     "adate": "2021-08-25T18:55:20-04:00",
     "author": "Shu-yu Guo",
@@ -145,7 +153,7 @@
    }
   ],
   "title": "Normative: Add relative indexing method at()",
-  "updated_at": "2021-08-25T22:57:44Z"
+  "updated_at": "2021-08-27T01:38:24Z"
  },
  {
   "base": "f8053dfc8b8a3804ee854c614a6210ec416c8ced",
