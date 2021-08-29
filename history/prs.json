@@ -1,6 +1,94 @@
 [
  {
   "base": "56ed133fb890f0c6e291ca696d8adf18891b72a6",
+  "created_at": "2021-08-29T02:44:05Z",
+  "head": "afa799e9b18d76e806648ac70c9f5a6c6cdf5863",
+  "login": "tc39",
+  "number": 2505,
+  "ref": "contains-arguments-async-generator",
+  "revs": [
+   {
+    "adate": "2021-08-28T19:37:13-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-08-28T19:37:13-07:00",
+    "hash": "afa799e9b18d76e806648ac70c9f5a6c6cdf5863",
+    "parents": "7216320753b3df8258ad69127dd1dd6d212d47a2",
+    "subject": "Normative: add missing AsyncGenerator cases to ContainsArguments"
+   },
+   {
+    "adate": "2021-08-28T19:34:54-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-08-28T19:34:54-07:00",
+    "hash": "7216320753b3df8258ad69127dd1dd6d212d47a2",
+    "parents": "56ed133fb890f0c6e291ca696d8adf18891b72a6",
+    "subject": "Editorial: collapse like cases in ContainsArguments"
+   }
+  ],
+  "title": "Normative: add missing AsyncGenerator cases to ContainsArguments",
+  "updated_at": "2021-08-29T02:44:33Z"
+ },
+ {
+  "base": "56ed133fb890f0c6e291ca696d8adf18891b72a6",
+  "created_at": "2021-08-29T02:25:42Z",
+  "head": "a204a54a0ae2436a54f4f3639c86f3f3c3bcdd92",
+  "login": "tc39",
+  "number": 2504,
+  "ref": "private-name-ao-argument-order",
+  "revs": [
+   {
+    "adate": "2021-08-28T19:17:03-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-08-28T19:17:03-07:00",
+    "hash": "a204a54a0ae2436a54f4f3639c86f3f3c3bcdd92",
+    "parents": "a8541507cfb25ed7215fc85b038738e04a910ef6",
+    "subject": "Editorial: swap order of arguments to DefineMethodProperty"
+   },
+   {
+    "adate": "2021-08-28T19:13:31-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-08-28T19:13:31-07:00",
+    "hash": "a8541507cfb25ed7215fc85b038738e04a910ef6",
+    "parents": "cad8156723b455a58829e68b25c5fdc8f3513f2e",
+    "subject": "Editorial: swap order of arguments to PrivateSet"
+   },
+   {
+    "adate": "2021-08-28T19:12:58-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-08-28T19:12:58-07:00",
+    "hash": "cad8156723b455a58829e68b25c5fdc8f3513f2e",
+    "parents": "7a5199b664371212b6a294697d5884a2d912778b",
+    "subject": "Editorial: swap order of arguments to PrivateGet"
+   },
+   {
+    "adate": "2021-08-28T19:12:26-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-08-28T19:12:26-07:00",
+    "hash": "7a5199b664371212b6a294697d5884a2d912778b",
+    "parents": "59038786ace61e2ac51413b00a7d8c9f607802cd",
+    "subject": "Editorial: swap order of arguments to PrivateMethodOrAccessorAdd"
+   },
+   {
+    "adate": "2021-08-28T19:11:29-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-08-28T19:11:29-07:00",
+    "hash": "59038786ace61e2ac51413b00a7d8c9f607802cd",
+    "parents": "cd551c2e663b7f963b411685614624b1b16246a6",
+    "subject": "Editorial: swap order of arguments to PrivateFieldAdd"
+   },
+   {
+    "adate": "2021-08-28T19:10:41-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-08-28T19:10:41-07:00",
+    "hash": "cd551c2e663b7f963b411685614624b1b16246a6",
+    "parents": "56ed133fb890f0c6e291ca696d8adf18891b72a6",
+    "subject": "Editorial: swap order of arguments to PrivateElementFind"
+   }
+  ],
+  "title": "Editorial: make the order of parameters for class field AOs more consistent",
+  "updated_at": "2021-08-29T02:25:42Z"
+ },
+ {
+  "base": "56ed133fb890f0c6e291ca696d8adf18891b72a6",
   "created_at": "2021-08-26T07:11:01Z",
   "head": "f128a827db7457777a0a5c0c3146d57c130247ad",
   "login": "gibson042",
