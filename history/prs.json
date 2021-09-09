@@ -173,26 +173,6 @@
  },
  {
   "base": "f72dd1650d62b98d008f169dced06c72aa6986d9",
-  "created_at": "2021-08-23T03:18:19Z",
-  "head": "9478f2b6959840292a0a8ab6e20ef6519be1bb17",
-  "login": "tc39",
-  "number": 2495,
-  "ref": "prepare-for-tail-call-phrasing",
-  "revs": [
-   {
-    "adate": "2021-08-22T19:00:09-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-08-22T20:18:40-07:00",
-    "hash": "9478f2b6959840292a0a8ab6e20ef6519be1bb17",
-    "parents": "f72dd1650d62b98d008f169dced06c72aa6986d9",
-    "subject": "Normative: phrase tail calls as discarding resources rather than popping execution context stack"
-   }
-  ],
-  "title": "Normative: phrase tail calls as discarding resources rather than popping execution context stack",
-  "updated_at": "2021-08-23T03:19:42Z"
- },
- {
-  "base": "f72dd1650d62b98d008f169dced06c72aa6986d9",
   "created_at": "2021-08-20T22:16:22Z",
   "head": "b1a89e8287b64e11b84bee8b5014a9ce502ab165",
   "login": "syg",
@@ -412,40 +392,24 @@
   "updated_at": "2021-08-06T07:01:06Z"
  },
  {
-  "base": "99b36f0591bf809bd2ea64a7bd2294606f4bef1f",
+  "base": "a7054ce6d0c9547259dd0a0c0cd8407ac24b9bbf",
   "created_at": "2021-08-02T02:54:40Z",
-  "head": "7a6ee9cba65c7bc858ae32b80a52e091ea90ceec",
+  "head": "0b4872dcb00b8686d8159ecb9a7f9c5b37718577",
   "login": "gibson042",
   "number": 2475,
   "ref": "2021-08-update-nlth-restricted-productions",
   "revs": [
    {
-    "adate": "2021-08-01T22:53:58-04:00",
+    "adate": "2021-09-08T21:59:20-07:00",
     "author": "Richard Gibson",
-    "date": "2021-08-01T22:53:58-04:00",
-    "hash": "7a6ee9cba65c7bc858ae32b80a52e091ea90ceec",
-    "parents": "e41468bfdce4a6c860116953b8472622f6e8ef76",
-    "subject": "Editorial: Use consistent production ordering"
-   },
-   {
-    "adate": "2021-08-01T22:53:45-04:00",
-    "author": "Richard Gibson",
-    "date": "2021-08-01T22:53:45-04:00",
-    "hash": "e41468bfdce4a6c860116953b8472622f6e8ef76",
-    "parents": "0db3fc661a97d90ec9b49f6ec4f8b7a4cc43c281",
-    "subject": "Editorial: Use consistent wording"
-   },
-   {
-    "adate": "2021-08-01T22:53:18-04:00",
-    "author": "Richard Gibson",
-    "date": "2021-08-01T22:53:18-04:00",
-    "hash": "0db3fc661a97d90ec9b49f6ec4f8b7a4cc43c281",
-    "parents": "99b36f0591bf809bd2ea64a7bd2294606f4bef1f",
-    "subject": "Editorial: Update restricted productions summary"
+    "date": "2021-09-08T21:59:20-07:00",
+    "hash": "0b4872dcb00b8686d8159ecb9a7f9c5b37718577",
+    "parents": "a7054ce6d0c9547259dd0a0c0cd8407ac24b9bbf",
+    "subject": "Editorial: Update restricted productions summary (#2475)"
    }
   ],
   "title": "Editorial: Update restricted productions summary",
-  "updated_at": "2021-08-02T02:54:40Z"
+  "updated_at": "2021-09-09T04:59:36Z"
  },
  {
   "base": "e7610a874f390aca90d8c059a95eb38e375a156c",
@@ -684,66 +648,6 @@
   "updated_at": "2021-09-06T15:41:59Z"
  },
  {
-  "base": "886cc56ac70d8be969a55c43feb2f5c2cb9c69c1",
-  "created_at": "2021-06-23T04:21:23Z",
-  "head": "3a335f7e61aa5c50d650d3eeb6a124188e1bf9f2",
-  "login": "rbuckton",
-  "number": 2440,
-  "ref": "class-static-block",
-  "revs": [
-   {
-    "adate": "2021-08-24T17:38:32-07:00",
-    "author": "Ron Buckton",
-    "date": "2021-08-24T18:10:48-07:00",
-    "hash": "3a335f7e61aa5c50d650d3eeb6a124188e1bf9f2",
-    "parents": "61941724463718d1773dd1282fac417e9903783c",
-    "subject": "Editor PR Feedback"
-   },
-   {
-    "adate": "2021-08-17T20:50:04-07:00",
-    "author": "Ron Buckton",
-    "date": "2021-08-18T12:54:35-07:00",
-    "hash": "61941724463718d1773dd1282fac417e9903783c",
-    "parents": "8d7021d446cfd4a2e256df6621230349e622ce8a",
-    "subject": "PR Feedback"
-   },
-   {
-    "adate": "2021-08-17T16:14:04-07:00",
-    "author": "Ron Buckton",
-    "date": "2021-08-17T16:14:04-07:00",
-    "hash": "8d7021d446cfd4a2e256df6621230349e622ce8a",
-    "parents": "243fb1072cedb59270babde92940942250dc9a97 f8053dfc8b8a3804ee854c614a6210ec416c8ced",
-    "subject": "Merge branch 'master' into class-static-block"
-   },
-   {
-    "adate": "2021-08-12T15:03:25-07:00",
-    "author": "Ron Buckton",
-    "date": "2021-08-12T15:03:25-07:00",
-    "hash": "243fb1072cedb59270babde92940942250dc9a97",
-    "parents": "3c4fd9a4765da677c0fe4faf75353685ee7da30e f37104b592b903531b5be73a688bef4629c9afa7",
-    "subject": "Merge branch 'master' into class-static-block"
-   },
-   {
-    "adate": "2021-06-23T19:11:57-07:00",
-    "author": "Ron Buckton",
-    "date": "2021-06-28T13:39:10-07:00",
-    "hash": "3c4fd9a4765da677c0fe4faf75353685ee7da30e",
-    "parents": "d7353ded9f4df5f0ed04d6c45ee648e9259409f1",
-    "subject": "PR Feedback"
-   },
-   {
-    "adate": "2021-06-22T21:19:32-07:00",
-    "author": "Ron Buckton",
-    "date": "2021-06-22T21:19:32-07:00",
-    "hash": "d7353ded9f4df5f0ed04d6c45ee648e9259409f1",
-    "parents": "fbdf389222155b79dfc28c143650da0ee76ddb23",
-    "subject": "Adds spec text from proposal-class-static-block"
-   }
-  ],
-  "title": "Normative: Add class `static` initialization blocks",
-  "updated_at": "2021-08-25T01:10:58Z"
- },
- {
   "base": "61cc3297c96764a256b02b90005550607371a1d1",
   "created_at": "2021-06-15T22:18:35Z",
   "head": "757927687ee99e96e9e39a88f6122716cc3088f2",
@@ -762,26 +666,6 @@
   ],
   "title": "Normative: allow named backreferences without `u` flag in core grammar",
   "updated_at": "2021-06-15T22:18:35Z"
- },
- {
-  "base": "33fe30f9a6b0dc81826f2f217167a89c025779a0",
-  "created_at": "2021-06-08T21:37:21Z",
-  "head": "edf03b0e7ad0c4fd1853d81b31fe46088b0fbdcd",
-  "login": "jmdyck",
-  "number": 2430,
-  "ref": "tail_call_returns",
-  "revs": [
-   {
-    "adate": "2021-06-08T17:11:12-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-06-08T17:11:12-04:00",
-    "hash": "edf03b0e7ad0c4fd1853d81b31fe46088b0fbdcd",
-    "parents": "33fe30f9a6b0dc81826f2f217167a89c025779a0",
-    "subject": "Editorial: Eliminate \"weird returns\" from tail-call handling"
-   }
-  ],
-  "title": "Editorial: Eliminate \"weird returns\" from tail-call handling",
-  "updated_at": "2021-06-08T21:37:21Z"
  },
  {
   "base": "e7610a874f390aca90d8c059a95eb38e375a156c",
@@ -1034,26 +918,6 @@
   ],
   "title": "Add Class and Class Element Decorators and `accessor` Keyword",
   "updated_at": "2021-07-05T17:55:47Z"
- },
- {
-  "base": "56b5e8bc3dc84e51bfe5f958b9359c2db10a4d6e",
-  "created_at": "2021-05-26T06:04:49Z",
-  "head": "ddef0ffe544f006f8d2efae745059b72d7f35c01",
-  "login": "jamiebuilds",
-  "number": 2415,
-  "ref": "object-hasown",
-  "revs": [
-   {
-    "adate": "2021-05-25T23:02:51-07:00",
-    "author": "Jamie Kyle",
-    "date": "2021-05-26T09:56:25-07:00",
-    "hash": "ddef0ffe544f006f8d2efae745059b72d7f35c01",
-    "parents": "56b5e8bc3dc84e51bfe5f958b9359c2db10a4d6e",
-    "subject": "Add Object.hasOwn spec text"
-   }
-  ],
-  "title": "Normative: Add `Object.hasOwn`",
-  "updated_at": "2021-05-26T17:24:42Z"
  },
  {
   "base": "4fde51429522cfd3feb09f2a023af30ff1f5a27d",
