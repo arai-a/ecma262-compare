@@ -1,5 +1,33 @@
 [
  {
+  "base": "3aafa2406c3718044a64da1d64697e3e432e21ef",
+  "created_at": "2021-09-11T02:20:51Z",
+  "head": "b9bb508ff6f9b37f2ebc9ab3fa54b8f473e58e1e",
+  "login": "tc39",
+  "number": 2509,
+  "ref": "fix-cos",
+  "revs": [
+   {
+    "adate": "2021-09-10T19:30:53-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-09-10T19:30:53-07:00",
+    "hash": "b9bb508ff6f9b37f2ebc9ab3fa54b8f473e58e1e",
+    "parents": "8c3a5aa920bc34e33627f3c6bf8154f4a3860728",
+    "subject": "Editorial: fix typo in Math.cosh"
+   },
+   {
+    "adate": "2021-09-10T19:18:04-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-09-10T19:18:04-07:00",
+    "hash": "8c3a5aa920bc34e33627f3c6bf8154f4a3860728",
+    "parents": "3aafa2406c3718044a64da1d64697e3e432e21ef",
+    "subject": "Editorial: fix typo in Math.cos"
+   }
+  ],
+  "title": "Editorial: fix typos in Math.cos and Math.cosh",
+  "updated_at": "2021-09-11T02:38:17Z"
+ },
+ {
   "base": "56ed133fb890f0c6e291ca696d8adf18891b72a6",
   "created_at": "2021-08-29T02:44:05Z",
   "head": "59aaf8a638df22ac48ba7a461c4b7ea5ce47db1c",
@@ -172,66 +200,6 @@
   "updated_at": "2021-08-26T00:33:22Z"
  },
  {
-  "base": "f72dd1650d62b98d008f169dced06c72aa6986d9",
-  "created_at": "2021-08-20T22:16:22Z",
-  "head": "b1a89e8287b64e11b84bee8b5014a9ce502ab165",
-  "login": "syg",
-  "number": 2493,
-  "ref": "relative-indexing-at",
-  "revs": [
-   {
-    "adate": "2021-08-26T21:38:09-04:00",
-    "author": "Shu-yu Guo",
-    "date": "2021-08-26T21:38:09-04:00",
-    "hash": "b1a89e8287b64e11b84bee8b5014a9ce502ab165",
-    "parents": "7726100102891d1abb339002da93f160a4a0a3d5",
-    "subject": "? -> ! for TypedArray#at"
-   },
-   {
-    "adate": "2021-08-25T18:55:20-04:00",
-    "author": "Shu-yu Guo",
-    "date": "2021-08-25T18:55:20-04:00",
-    "hash": "7726100102891d1abb339002da93f160a4a0a3d5",
-    "parents": "779361e6a2798061e92d0d7c4b7686a6142fb6c4",
-    "subject": "\"undefined\" -> \"not defined\" for indeterminate forms"
-   },
-   {
-    "adate": "2021-08-24T16:56:44-04:00",
-    "author": "Shu-yu Guo",
-    "date": "2021-08-24T16:56:44-04:00",
-    "hash": "779361e6a2798061e92d0d7c4b7686a6142fb6c4",
-    "parents": "4d7a9bb99d368e94f7c55ff79fe0b48c0ef9e623",
-    "subject": "Define mathematical operators over extended reals"
-   },
-   {
-    "adate": "2021-08-24T16:40:08-04:00",
-    "author": "Shu-yu Guo",
-    "date": "2021-08-24T16:40:08-04:00",
-    "hash": "4d7a9bb99d368e94f7c55ff79fe0b48c0ef9e623",
-    "parents": "5b04b151bf54301e2c850516ebd0e2cc4ec74fa0",
-    "subject": "Replace \"string value of length 1\" language with substring"
-   },
-   {
-    "adate": "2021-08-20T18:22:34-04:00",
-    "author": "Shu-yu Guo",
-    "date": "2021-08-20T18:22:34-04:00",
-    "hash": "5b04b151bf54301e2c850516ebd0e2cc4ec74fa0",
-    "parents": "7a9e08e93c39ef1c1f365ae40729e69046ed7bb8",
-    "subject": "Fix if-then style"
-   },
-   {
-    "adate": "2021-08-20T18:14:26-04:00",
-    "author": "Shu-yu Guo",
-    "date": "2021-08-20T18:14:26-04:00",
-    "hash": "7a9e08e93c39ef1c1f365ae40729e69046ed7bb8",
-    "parents": "f72dd1650d62b98d008f169dced06c72aa6986d9",
-    "subject": "Normative: Add relative indexing method at()"
-   }
-  ],
-  "title": "Normative: Add relative indexing method at()",
-  "updated_at": "2021-08-27T01:38:24Z"
- },
- {
   "base": "f8053dfc8b8a3804ee854c614a6210ec416c8ced",
   "created_at": "2021-08-17T15:17:26Z",
   "head": "d72e80d625a3393822be25657a682f48f69c1c0a",
@@ -390,26 +358,6 @@
   ],
   "title": "Normative: Add array-find-from-last",
   "updated_at": "2021-08-06T07:01:06Z"
- },
- {
-  "base": "a7054ce6d0c9547259dd0a0c0cd8407ac24b9bbf",
-  "created_at": "2021-08-02T02:54:40Z",
-  "head": "0b4872dcb00b8686d8159ecb9a7f9c5b37718577",
-  "login": "gibson042",
-  "number": 2475,
-  "ref": "2021-08-update-nlth-restricted-productions",
-  "revs": [
-   {
-    "adate": "2021-09-08T21:59:20-07:00",
-    "author": "Richard Gibson",
-    "date": "2021-09-08T21:59:20-07:00",
-    "hash": "0b4872dcb00b8686d8159ecb9a7f9c5b37718577",
-    "parents": "a7054ce6d0c9547259dd0a0c0cd8407ac24b9bbf",
-    "subject": "Editorial: Update restricted productions summary (#2475)"
-   }
-  ],
-  "title": "Editorial: Update restricted productions summary",
-  "updated_at": "2021-09-09T04:59:36Z"
  },
  {
   "base": "e7610a874f390aca90d8c059a95eb38e375a156c",
