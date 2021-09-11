@@ -22,11 +22,19 @@
  {
   "base": "3aafa2406c3718044a64da1d64697e3e432e21ef",
   "created_at": "2021-09-11T02:20:51Z",
-  "head": "b9bb508ff6f9b37f2ebc9ab3fa54b8f473e58e1e",
+  "head": "18d422ea3b2e7cc70dc6b54c8305e10b04792c25",
   "login": "tc39",
   "number": 2509,
   "ref": "fix-cos",
   "revs": [
+   {
+    "adate": "2021-09-11T10:24:03-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-09-11T10:24:03-07:00",
+    "hash": "18d422ea3b2e7cc70dc6b54c8305e10b04792c25",
+    "parents": "b9bb508ff6f9b37f2ebc9ab3fa54b8f473e58e1e",
+    "subject": "take two"
+   },
    {
     "adate": "2021-09-10T19:30:53-07:00",
     "author": "Kevin Gibbons",
@@ -45,7 +53,7 @@
    }
   ],
   "title": "Editorial: fix typos in Math.cos and Math.cosh",
-  "updated_at": "2021-09-11T02:38:17Z"
+  "updated_at": "2021-09-11T17:37:46Z"
  },
  {
   "base": "56ed133fb890f0c6e291ca696d8adf18891b72a6",
