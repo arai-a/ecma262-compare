@@ -1,5 +1,49 @@
 [
  {
+  "base": "5306e2a1e700573285245e8ef69c26c3eb6ccef3",
+  "created_at": "2021-09-14T03:07:21Z",
+  "head": "92917ebd0ec382cc558cb9b576234aa098b2d1b5",
+  "login": "jmdyck",
+  "number": 2513,
+  "ref": "quick_fixes_2",
+  "revs": [
+   {
+    "adate": "2021-09-13T21:16:22-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-09-13T23:02:18-04:00",
+    "hash": "92917ebd0ec382cc558cb9b576234aa098b2d1b5",
+    "parents": "e0c631c473ad994a6b5de98b2adda50a017af2b7",
+    "subject": "Editorial: Fix minor typos"
+   },
+   {
+    "adate": "2021-09-13T21:03:43-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-09-13T23:02:18-04:00",
+    "hash": "e0c631c473ad994a6b5de98b2adda50a017af2b7",
+    "parents": "5282abf28383ae9846d262290d9b1bc8b2c1a513",
+    "subject": "Editorial: Eliminate \"either\" at start of parameter 'type'"
+   },
+   {
+    "adate": "2021-09-13T17:34:31-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-09-13T23:02:18-04:00",
+    "hash": "5282abf28383ae9846d262290d9b1bc8b2c1a513",
+    "parents": "68fcd5b8bcdb132256d94343750261e6d6a0cff5",
+    "subject": "Editorial: Move the defining production for GeneratorMethod"
+   },
+   {
+    "adate": "2021-09-13T17:27:55-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-09-13T23:02:18-04:00",
+    "hash": "68fcd5b8bcdb132256d94343750261e6d6a0cff5",
+    "parents": "5306e2a1e700573285245e8ef69c26c3eb6ccef3",
+    "subject": "Editorial: Move AsyncGeneratorMethod in Annex A"
+   }
+  ],
+  "title": "Editorial: Quick fixes",
+  "updated_at": "2021-09-14T03:07:21Z"
+ },
+ {
   "base": "3aafa2406c3718044a64da1d64697e3e432e21ef",
   "created_at": "2021-09-12T01:33:10Z",
   "head": "ceb170c80ca5bad36a358b4408a9f3db9c482ba9",
@@ -18,70 +62,6 @@
   ],
   "title": "Markup: have SDOs use structured headers",
   "updated_at": "2021-09-12T01:33:10Z"
- },
- {
-  "base": "3aafa2406c3718044a64da1d64697e3e432e21ef",
-  "created_at": "2021-09-11T15:16:45Z",
-  "head": "5a53b6e3400b5e13c0e3e0fe1dd1ab3a70aaa225",
-  "login": "gibson042",
-  "number": 2510,
-  "ref": "2021-09-samevalue",
-  "revs": [
-   {
-    "adate": "2021-09-13T18:56:17-04:00",
-    "author": "Richard Gibson",
-    "date": "2021-09-13T18:56:17-04:00",
-    "hash": "5a53b6e3400b5e13c0e3e0fe1dd1ab3a70aaa225",
-    "parents": "82bf6788c3e1b0e2f9709d75e23b08faff33d791",
-    "subject": "Editorial: Tweak wording"
-   },
-   {
-    "adate": "2021-09-11T11:12:50-04:00",
-    "author": "Richard Gibson",
-    "date": "2021-09-11T11:12:50-04:00",
-    "hash": "82bf6788c3e1b0e2f9709d75e23b08faff33d791",
-    "parents": "3aafa2406c3718044a64da1d64697e3e432e21ef",
-    "subject": "Editorial: Make the behavior of SameValue and SameValueZero a little more clear"
-   }
-  ],
-  "title": "Editorial: Make the behavior of SameValue and SameValueZero a little more clear",
-  "updated_at": "2021-09-13T22:59:28Z"
- },
- {
-  "base": "3aafa2406c3718044a64da1d64697e3e432e21ef",
-  "created_at": "2021-09-11T02:20:51Z",
-  "head": "18d422ea3b2e7cc70dc6b54c8305e10b04792c25",
-  "login": "tc39",
-  "number": 2509,
-  "ref": "fix-cos",
-  "revs": [
-   {
-    "adate": "2021-09-11T10:24:03-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-09-11T10:24:03-07:00",
-    "hash": "18d422ea3b2e7cc70dc6b54c8305e10b04792c25",
-    "parents": "b9bb508ff6f9b37f2ebc9ab3fa54b8f473e58e1e",
-    "subject": "take two"
-   },
-   {
-    "adate": "2021-09-10T19:30:53-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-09-10T19:30:53-07:00",
-    "hash": "b9bb508ff6f9b37f2ebc9ab3fa54b8f473e58e1e",
-    "parents": "8c3a5aa920bc34e33627f3c6bf8154f4a3860728",
-    "subject": "Editorial: fix typo in Math.cosh"
-   },
-   {
-    "adate": "2021-09-10T19:18:04-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-09-10T19:18:04-07:00",
-    "hash": "8c3a5aa920bc34e33627f3c6bf8154f4a3860728",
-    "parents": "3aafa2406c3718044a64da1d64697e3e432e21ef",
-    "subject": "Editorial: fix typo in Math.cos"
-   }
-  ],
-  "title": "Editorial: fix typos in Math.cos and Math.cosh",
-  "updated_at": "2021-09-11T17:37:46Z"
  },
  {
   "base": "56ed133fb890f0c6e291ca696d8adf18891b72a6",
@@ -110,66 +90,6 @@
   ],
   "title": "Normative: add missing AsyncGenerator cases to ContainsArguments",
   "updated_at": "2021-08-29T03:00:00Z"
- },
- {
-  "base": "56ed133fb890f0c6e291ca696d8adf18891b72a6",
-  "created_at": "2021-08-29T02:25:42Z",
-  "head": "a204a54a0ae2436a54f4f3639c86f3f3c3bcdd92",
-  "login": "tc39",
-  "number": 2504,
-  "ref": "private-name-ao-argument-order",
-  "revs": [
-   {
-    "adate": "2021-08-28T19:17:03-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-08-28T19:17:03-07:00",
-    "hash": "a204a54a0ae2436a54f4f3639c86f3f3c3bcdd92",
-    "parents": "a8541507cfb25ed7215fc85b038738e04a910ef6",
-    "subject": "Editorial: swap order of arguments to DefineMethodProperty"
-   },
-   {
-    "adate": "2021-08-28T19:13:31-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-08-28T19:13:31-07:00",
-    "hash": "a8541507cfb25ed7215fc85b038738e04a910ef6",
-    "parents": "cad8156723b455a58829e68b25c5fdc8f3513f2e",
-    "subject": "Editorial: swap order of arguments to PrivateSet"
-   },
-   {
-    "adate": "2021-08-28T19:12:58-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-08-28T19:12:58-07:00",
-    "hash": "cad8156723b455a58829e68b25c5fdc8f3513f2e",
-    "parents": "7a5199b664371212b6a294697d5884a2d912778b",
-    "subject": "Editorial: swap order of arguments to PrivateGet"
-   },
-   {
-    "adate": "2021-08-28T19:12:26-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-08-28T19:12:26-07:00",
-    "hash": "7a5199b664371212b6a294697d5884a2d912778b",
-    "parents": "59038786ace61e2ac51413b00a7d8c9f607802cd",
-    "subject": "Editorial: swap order of arguments to PrivateMethodOrAccessorAdd"
-   },
-   {
-    "adate": "2021-08-28T19:11:29-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-08-28T19:11:29-07:00",
-    "hash": "59038786ace61e2ac51413b00a7d8c9f607802cd",
-    "parents": "cd551c2e663b7f963b411685614624b1b16246a6",
-    "subject": "Editorial: swap order of arguments to PrivateFieldAdd"
-   },
-   {
-    "adate": "2021-08-28T19:10:41-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-08-28T19:10:41-07:00",
-    "hash": "cd551c2e663b7f963b411685614624b1b16246a6",
-    "parents": "56ed133fb890f0c6e291ca696d8adf18891b72a6",
-    "subject": "Editorial: swap order of arguments to PrivateElementFind"
-   }
-  ],
-  "title": "Editorial: make the order of parameters for class field AOs more consistent",
-  "updated_at": "2021-08-29T02:25:42Z"
  },
  {
   "base": "56ed133fb890f0c6e291ca696d8adf18891b72a6",
@@ -214,46 +134,6 @@
   ],
   "title": "Clarify ToIndex, ToLength, and ToIntegerOrInfinity",
   "updated_at": "2021-08-27T16:40:34Z"
- },
- {
-  "base": "56ed133fb890f0c6e291ca696d8adf18891b72a6",
-  "created_at": "2021-08-26T06:04:31Z",
-  "head": "4fed3349bd46c8e3044c7b8c2f667aa90138bd21",
-  "login": "tc39",
-  "number": 2500,
-  "ref": "fix-fdi-note",
-  "revs": [
-   {
-    "adate": "2021-08-25T22:44:06-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-08-25T23:04:13-07:00",
-    "hash": "4fed3349bd46c8e3044c7b8c2f667aa90138bd21",
-    "parents": "56ed133fb890f0c6e291ca696d8adf18891b72a6",
-    "subject": "Editorial: tweak note in FunctionDeclarationInstantiation"
-   }
-  ],
-  "title": "Editorial: tweak note in FunctionDeclarationInstantiation",
-  "updated_at": "2021-08-26T06:04:31Z"
- },
- {
-  "base": "23ac241f65f16310bc4fe45bdafddf590c5aed70",
-  "created_at": "2021-08-26T00:33:22Z",
-  "head": "493934cba26f72231ce8871ac3c5c09ef8d84e62",
-  "login": "tc39",
-  "number": 2499,
-  "ref": "GH-2494",
-  "revs": [
-   {
-    "adate": "2021-09-13T17:01:09-07:00",
-    "author": "Michael Ficarra",
-    "date": "2021-09-13T17:01:09-07:00",
-    "hash": "493934cba26f72231ce8871ac3c5c09ef8d84e62",
-    "parents": "23ac241f65f16310bc4fe45bdafddf590c5aed70",
-    "subject": "Editorial: fix slight ambiguity in ToPrimitive note about Dates (#2499)"
-   }
-  ],
-  "title": "Editorial: fix slight ambiguity in ToPrimitive note about Dates",
-  "updated_at": "2021-09-14T00:01:22Z"
  },
  {
   "base": "f8053dfc8b8a3804ee854c614a6210ec416c8ced",
