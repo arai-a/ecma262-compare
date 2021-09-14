@@ -760,72 +760,80 @@
   "updated_at": "2021-07-05T17:55:47Z"
  },
  {
-  "base": "4fde51429522cfd3feb09f2a023af30ff1f5a27d",
+  "base": "b3e6dfe61966b9a0eded9c7c5bd037b01e10abf2",
   "created_at": "2021-05-09T04:33:41Z",
-  "head": "0b1f1caa276e8adfbc98bcc43d7061a9a0bf09b6",
+  "head": "02153565c0404a36fec378576956d61a6a9f80b5",
   "login": "jmdyck",
   "number": 2406,
   "ref": "fix_some_SDOs",
   "revs": [
    {
+    "adate": "2021-09-14T11:22:43-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-09-14T11:22:43-04:00",
+    "hash": "02153565c0404a36fec378576956d61a6a9f80b5",
+    "parents": "705ced77c889af3376910849440f7494d69d70f7",
+    "subject": "Editorial: Remove all definitions of MV that are covered by the chain rule"
+   },
+   {
     "adate": "2021-05-08T23:57:58-04:00",
     "author": "Michael Dyck",
-    "date": "2021-08-25T14:58:41-07:00",
-    "hash": "0b1f1caa276e8adfbc98bcc43d7061a9a0bf09b6",
-    "parents": "252b346ec9b7c220eee22118e95c26bcefded300",
+    "date": "2021-09-14T10:22:11-04:00",
+    "hash": "705ced77c889af3376910849440f7494d69d70f7",
+    "parents": "98f8ffd570f567f9cf6a6d500d8a9f55cf779e3f",
     "subject": "Editorial: Drop unused defn of `VarDeclaredNames`"
    },
    {
     "adate": "2021-05-08T23:47:25-04:00",
     "author": "Michael Dyck",
-    "date": "2021-08-25T14:58:41-07:00",
-    "hash": "252b346ec9b7c220eee22118e95c26bcefded300",
-    "parents": "9a077ffa0c179d043eab2c24a7ce0f48c5d022c4",
+    "date": "2021-09-14T10:22:11-04:00",
+    "hash": "98f8ffd570f567f9cf6a6d500d8a9f55cf779e3f",
+    "parents": "ed7d9fd54191da5b12f278d8ad02d6c9af7957ad",
     "subject": "Editorial: Drop unused defns of `TopLevelVarDeclaredNames` & `TopLevelVarScopedDeclarations`"
    },
    {
     "adate": "2021-05-08T23:37:24-04:00",
     "author": "Michael Dyck",
-    "date": "2021-08-25T14:58:41-07:00",
-    "hash": "9a077ffa0c179d043eab2c24a7ce0f48c5d022c4",
-    "parents": "7e27541a5b5ac0417fa78b3e9016eab25fa9f0aa",
+    "date": "2021-09-14T10:22:11-04:00",
+    "hash": "ed7d9fd54191da5b12f278d8ad02d6c9af7957ad",
+    "parents": "24beef1e31e33929d61e657310b6639daa4a832d",
     "subject": "Editorial: Drop unused defns of `TopLevelLexicallyDeclaredNames` & `TopLevelLexicallyScopedDeclarations`"
    },
    {
     "adate": "2021-05-08T23:21:23-04:00",
     "author": "Michael Dyck",
-    "date": "2021-08-25T14:58:40-07:00",
-    "hash": "7e27541a5b5ac0417fa78b3e9016eab25fa9f0aa",
-    "parents": "a43376e432dde01191c9f6bf72883d612cee9cec",
+    "date": "2021-09-14T10:22:11-04:00",
+    "hash": "24beef1e31e33929d61e657310b6639daa4a832d",
+    "parents": "50783fd66164eacf1460262a89dd7938408aea3f",
     "subject": "Editorial: Drop unused defn of `MV` SDO"
    },
    {
     "adate": "2021-05-08T22:53:16-04:00",
     "author": "Michael Dyck",
-    "date": "2021-08-25T14:58:40-07:00",
-    "hash": "a43376e432dde01191c9f6bf72883d612cee9cec",
-    "parents": "f7c26f0196a450dba398b288ff1ac8ee55ab0eb6",
+    "date": "2021-09-14T10:22:11-04:00",
+    "hash": "50783fd66164eacf1460262a89dd7938408aea3f",
+    "parents": "da46b88d56ee97c0dd1e4a5adfde22811ced2861",
     "subject": "Editorial: Drop unused defns of `Evaluation` SDO"
    },
    {
     "adate": "2021-05-08T22:43:56-04:00",
     "author": "Michael Dyck",
-    "date": "2021-08-25T14:58:40-07:00",
-    "hash": "f7c26f0196a450dba398b288ff1ac8ee55ab0eb6",
-    "parents": "6296078aa6d84a4b441982ea761a2248e32229a8",
+    "date": "2021-09-14T10:22:11-04:00",
+    "hash": "da46b88d56ee97c0dd1e4a5adfde22811ced2861",
+    "parents": "48d3aa7100c30eff783bcfb0f45840e446a3203f",
     "subject": "Editorial: Define 4 SDOs on empty Script"
    },
    {
     "adate": "2021-05-08T22:26:42-04:00",
     "author": "Michael Dyck",
-    "date": "2021-08-25T14:58:40-07:00",
-    "hash": "6296078aa6d84a4b441982ea761a2248e32229a8",
-    "parents": "4fde51429522cfd3feb09f2a023af30ff1f5a27d",
+    "date": "2021-09-14T10:18:59-04:00",
+    "hash": "48d3aa7100c30eff783bcfb0f45840e446a3203f",
+    "parents": "b3e6dfe61966b9a0eded9c7c5bd037b01e10abf2",
     "subject": "Editorial: Define `Evaluation` for BindingIdentifier"
    }
   ],
   "title": "Editorial: Fix some SDOs",
-  "updated_at": "2021-08-25T21:59:36Z"
+  "updated_at": "2021-09-14T15:27:37Z"
  },
  {
   "base": "c75497982a8c07e83a13cc5d7d80cdaaa8a337bd",
