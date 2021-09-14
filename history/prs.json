@@ -236,32 +236,24 @@
   "updated_at": "2021-08-26T06:04:31Z"
  },
  {
-  "base": "56ed133fb890f0c6e291ca696d8adf18891b72a6",
+  "base": "23ac241f65f16310bc4fe45bdafddf590c5aed70",
   "created_at": "2021-08-26T00:33:22Z",
-  "head": "c58c432e800fdf899a2f689e1cdf770b1ed6b6d4",
+  "head": "493934cba26f72231ce8871ac3c5c09ef8d84e62",
   "login": "tc39",
   "number": 2499,
   "ref": "GH-2494",
   "revs": [
    {
-    "adate": "2021-09-13T17:10:27-06:00",
+    "adate": "2021-09-13T17:01:09-07:00",
     "author": "Michael Ficarra",
-    "date": "2021-09-13T17:10:27-06:00",
-    "hash": "c58c432e800fdf899a2f689e1cdf770b1ed6b6d4",
-    "parents": "886c1cf022185dd090121d90399f1a2332012b46",
-    "subject": "accept suggestion"
-   },
-   {
-    "adate": "2021-08-25T18:30:28-06:00",
-    "author": "Michael Ficarra",
-    "date": "2021-08-25T18:30:28-06:00",
-    "hash": "886c1cf022185dd090121d90399f1a2332012b46",
-    "parents": "56ed133fb890f0c6e291ca696d8adf18891b72a6",
-    "subject": "Editorial: fix slight ambiguity in ToPrimitive note about Dates"
+    "date": "2021-09-13T17:01:09-07:00",
+    "hash": "493934cba26f72231ce8871ac3c5c09ef8d84e62",
+    "parents": "23ac241f65f16310bc4fe45bdafddf590c5aed70",
+    "subject": "Editorial: fix slight ambiguity in ToPrimitive note about Dates (#2499)"
    }
   ],
   "title": "Editorial: fix slight ambiguity in ToPrimitive note about Dates",
-  "updated_at": "2021-09-13T23:11:23Z"
+  "updated_at": "2021-09-14T00:01:22Z"
  },
  {
   "base": "f8053dfc8b8a3804ee854c614a6210ec416c8ced",
@@ -374,26 +366,6 @@
   ],
   "title": "Editorial: Incorporate GetSubstitution's table into the algorithm",
   "updated_at": "2021-08-07T05:18:54Z"
- },
- {
-  "base": "99b36f0591bf809bd2ea64a7bd2294606f4bef1f",
-  "created_at": "2021-08-05T02:27:35Z",
-  "head": "dd8d4cbcd0c0ba4fa229bf9a9c9d53720e7d3eef",
-  "login": "tc39",
-  "number": 2482,
-  "ref": "block-continue",
-  "revs": [
-   {
-    "adate": "2021-08-04T19:20:58-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-08-04T19:21:17-07:00",
-    "hash": "dd8d4cbcd0c0ba4fa229bf9a9c9d53720e7d3eef",
-    "parents": "99b36f0591bf809bd2ea64a7bd2294606f4bef1f",
-    "subject": "Normative: `continue` labels should not pass through blocks"
-   }
-  ],
-  "title": "Normative: `continue` labels should not pass through blocks",
-  "updated_at": "2021-08-05T02:27:35Z"
  },
  {
   "base": "99b36f0591bf809bd2ea64a7bd2294606f4bef1f",
@@ -1001,26 +973,6 @@
  },
  {
   "base": "c75497982a8c07e83a13cc5d7d80cdaaa8a337bd",
-  "created_at": "2021-05-04T20:03:41Z",
-  "head": "06c153cddbf37e56f8acc4d81aa7dc5ec876191f",
-  "login": "aduh95",
-  "number": 2404,
-  "ref": "aggregateError-on-global-object",
-  "revs": [
-   {
-    "adate": "2021-05-04T21:59:42+02:00",
-    "author": "Antoine du Hamel",
-    "date": "2021-05-04T21:59:42+02:00",
-    "hash": "06c153cddbf37e56f8acc4d81aa7dc5ec876191f",
-    "parents": "c75497982a8c07e83a13cc5d7d80cdaaa8a337bd",
-    "subject": "Editorial: add missing constructor property of the global object"
-   }
-  ],
-  "title": "Editorial: add missing constructor property of the global object",
-  "updated_at": "2021-05-04T20:03:41Z"
- },
- {
-  "base": "c75497982a8c07e83a13cc5d7d80cdaaa8a337bd",
   "created_at": "2021-04-29T00:07:17Z",
   "head": "3443b6b46c1c21b70bb3bf54df79741331ad0a84",
   "login": "tc39",
@@ -1474,26 +1426,6 @@
   ],
   "title": "Editorial: Model the bindings of a declarative Env Rec as a List of Records",
   "updated_at": "2021-08-25T02:28:14Z"
- },
- {
-  "base": "77595f579194f5c79a02a2952f4367a8e3ce9620",
-  "created_at": "2021-01-23T01:29:17Z",
-  "head": "2c0b6c57b9f00159b216621eef21bde6e42cad1a",
-  "login": "syg",
-  "number": 2286,
-  "ref": "add-at-method",
-  "revs": [
-   {
-    "adate": "2021-01-22T17:27:15-08:00",
-    "author": "Shu-yu Guo",
-    "date": "2021-01-22T17:27:48-08:00",
-    "hash": "2c0b6c57b9f00159b216621eef21bde6e42cad1a",
-    "parents": "77595f579194f5c79a02a2952f4367a8e3ce9620",
-    "subject": "Normative: Add the `at` method to Array, TypedArray, and String"
-   }
-  ],
-  "title": "Normative: Add the `at` method to Array, TypedArray, and String",
-  "updated_at": "2021-01-23T01:29:17Z"
  },
  {
   "base": "6ca50dc029e9e04b6788c6a37a02b2b67eb2580d",
