@@ -1,5 +1,25 @@
 [
  {
+  "base": "0bd3ace93009a4dbf6b26deaaef06105aa497bc8",
+  "created_at": "2021-09-14T17:11:16Z",
+  "head": "885a91e8cdb3961364e4eb1166981bd5f7505622",
+  "login": "ljharb",
+  "number": 2517,
+  "ref": "thirteenth",
+  "revs": [
+   {
+    "adate": "2021-09-14T09:54:17-07:00",
+    "author": "Jordan Harband",
+    "date": "2021-09-14T09:54:17-07:00",
+    "hash": "885a91e8cdb3961364e4eb1166981bd5f7505622",
+    "parents": "0bd3ace93009a4dbf6b26deaaef06105aa497bc8",
+    "subject": "Meta: twelfth -> thirteenth"
+   }
+  ],
+  "title": "Meta: twelfth -> thirteenth",
+  "updated_at": "2021-09-14T17:11:16Z"
+ },
+ {
   "base": "b3e6dfe61966b9a0eded9c7c5bd037b01e10abf2",
   "created_at": "2021-09-14T12:18:42Z",
   "head": "9fb13739069ceeb29415c629f3fde88df52aacb9",
@@ -760,82 +780,6 @@
   "updated_at": "2021-07-05T17:55:47Z"
  },
  {
-  "base": "b3e6dfe61966b9a0eded9c7c5bd037b01e10abf2",
-  "created_at": "2021-05-09T04:33:41Z",
-  "head": "02153565c0404a36fec378576956d61a6a9f80b5",
-  "login": "jmdyck",
-  "number": 2406,
-  "ref": "fix_some_SDOs",
-  "revs": [
-   {
-    "adate": "2021-09-14T11:22:43-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-09-14T11:22:43-04:00",
-    "hash": "02153565c0404a36fec378576956d61a6a9f80b5",
-    "parents": "705ced77c889af3376910849440f7494d69d70f7",
-    "subject": "Editorial: Remove all definitions of MV that are covered by the chain rule"
-   },
-   {
-    "adate": "2021-05-08T23:57:58-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-09-14T10:22:11-04:00",
-    "hash": "705ced77c889af3376910849440f7494d69d70f7",
-    "parents": "98f8ffd570f567f9cf6a6d500d8a9f55cf779e3f",
-    "subject": "Editorial: Drop unused defn of `VarDeclaredNames`"
-   },
-   {
-    "adate": "2021-05-08T23:47:25-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-09-14T10:22:11-04:00",
-    "hash": "98f8ffd570f567f9cf6a6d500d8a9f55cf779e3f",
-    "parents": "ed7d9fd54191da5b12f278d8ad02d6c9af7957ad",
-    "subject": "Editorial: Drop unused defns of `TopLevelVarDeclaredNames` & `TopLevelVarScopedDeclarations`"
-   },
-   {
-    "adate": "2021-05-08T23:37:24-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-09-14T10:22:11-04:00",
-    "hash": "ed7d9fd54191da5b12f278d8ad02d6c9af7957ad",
-    "parents": "24beef1e31e33929d61e657310b6639daa4a832d",
-    "subject": "Editorial: Drop unused defns of `TopLevelLexicallyDeclaredNames` & `TopLevelLexicallyScopedDeclarations`"
-   },
-   {
-    "adate": "2021-05-08T23:21:23-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-09-14T10:22:11-04:00",
-    "hash": "24beef1e31e33929d61e657310b6639daa4a832d",
-    "parents": "50783fd66164eacf1460262a89dd7938408aea3f",
-    "subject": "Editorial: Drop unused defn of `MV` SDO"
-   },
-   {
-    "adate": "2021-05-08T22:53:16-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-09-14T10:22:11-04:00",
-    "hash": "50783fd66164eacf1460262a89dd7938408aea3f",
-    "parents": "da46b88d56ee97c0dd1e4a5adfde22811ced2861",
-    "subject": "Editorial: Drop unused defns of `Evaluation` SDO"
-   },
-   {
-    "adate": "2021-05-08T22:43:56-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-09-14T10:22:11-04:00",
-    "hash": "da46b88d56ee97c0dd1e4a5adfde22811ced2861",
-    "parents": "48d3aa7100c30eff783bcfb0f45840e446a3203f",
-    "subject": "Editorial: Define 4 SDOs on empty Script"
-   },
-   {
-    "adate": "2021-05-08T22:26:42-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-09-14T10:18:59-04:00",
-    "hash": "48d3aa7100c30eff783bcfb0f45840e446a3203f",
-    "parents": "b3e6dfe61966b9a0eded9c7c5bd037b01e10abf2",
-    "subject": "Editorial: Define `Evaluation` for BindingIdentifier"
-   }
-  ],
-  "title": "Editorial: Fix some SDOs",
-  "updated_at": "2021-09-14T15:27:37Z"
- },
- {
   "base": "c75497982a8c07e83a13cc5d7d80cdaaa8a337bd",
   "created_at": "2021-04-29T00:07:17Z",
   "head": "3443b6b46c1c21b70bb3bf54df79741331ad0a84",
@@ -1340,9 +1284,9 @@
   "updated_at": "2021-01-01T03:56:14Z"
  },
  {
-  "base": "886cc56ac70d8be969a55c43feb2f5c2cb9c69c1",
+  "base": "b3e6dfe61966b9a0eded9c7c5bd037b01e10abf2",
   "created_at": "2020-12-08T06:31:39Z",
-  "head": "ca7af05cd52da78f39ea16f3be07468e31c40c5a",
+  "head": "9104ef2200ba831753afa106914d780d8dbd1cda",
   "login": "jmdyck",
   "number": 2246,
   "ref": "ExecutionContext_Record",
@@ -1350,14 +1294,14 @@
    {
     "adate": "2020-12-08T01:22:55-05:00",
     "author": "Michael Dyck",
-    "date": "2021-08-24T22:30:36-04:00",
-    "hash": "ca7af05cd52da78f39ea16f3be07468e31c40c5a",
-    "parents": "886cc56ac70d8be969a55c43feb2f5c2cb9c69c1",
+    "date": "2021-09-14T12:24:50-04:00",
+    "hash": "9104ef2200ba831753afa106914d780d8dbd1cda",
+    "parents": "b3e6dfe61966b9a0eded9c7c5bd037b01e10abf2",
     "subject": "Editorial: Model execution context as a record"
    }
   ],
   "title": "Editorial: Model execution context as a record",
-  "updated_at": "2021-08-25T02:31:36Z"
+  "updated_at": "2021-09-14T16:34:33Z"
  },
  {
   "base": "b3f9b5089bcc3ddd8486379015cd11eb1427a5eb",
@@ -2288,9 +2232,9 @@
   "updated_at": "2021-02-26T22:35:11Z"
  },
  {
-  "base": "f8053dfc8b8a3804ee854c614a6210ec416c8ced",
+  "base": "b3e6dfe61966b9a0eded9c7c5bd037b01e10abf2",
   "created_at": "2019-07-31T13:07:07Z",
-  "head": "3d4c11fbb7edc9f7e51c2ed98e502bea558a9586",
+  "head": "5d412ebafee94af982ed09150fa343e54bf3714f",
   "login": "jmdyck",
   "number": 1651,
   "ref": "one-grammar",
@@ -2298,107 +2242,107 @@
    {
     "adate": "2019-08-21T16:19:59-04:00",
     "author": "Michael Dyck",
-    "date": "2021-08-17T10:47:49-04:00",
-    "hash": "3d4c11fbb7edc9f7e51c2ed98e502bea558a9586",
-    "parents": "b6e28912fe6d39e727a367f26994cc0868b4d390",
+    "date": "2021-09-14T12:35:02-04:00",
+    "hash": "5d412ebafee94af982ed09150fa343e54bf3714f",
+    "parents": "2853857d526c7144a847b24bc74f40b16815af0a",
     "subject": "Editorial: Add [N] parameter to 5 productions"
    },
    {
     "adate": "2019-08-21T16:08:32-04:00",
     "author": "Michael Dyck",
-    "date": "2021-08-17T10:47:49-04:00",
-    "hash": "b6e28912fe6d39e727a367f26994cc0868b4d390",
-    "parents": "32799795e377fe89f0f3f4533af7cd63556cf48c",
+    "date": "2021-09-14T12:35:02-04:00",
+    "hash": "2853857d526c7144a847b24bc74f40b16815af0a",
+    "parents": "9e07e5ff968fa220e9ab0392ba1c02592490d572",
     "subject": "Editorial: Merge PatternCharacter + ExtendedPatternCharacter"
    },
    {
     "adate": "2019-08-20T20:30:44-04:00",
     "author": "Michael Dyck",
-    "date": "2021-08-17T10:47:49-04:00",
-    "hash": "32799795e377fe89f0f3f4533af7cd63556cf48c",
-    "parents": "a8cfb956fed5caac4a2449933df3d72c5b7e7b85",
+    "date": "2021-09-14T12:35:02-04:00",
+    "hash": "9e07e5ff968fa220e9ab0392ba1c02592490d572",
+    "parents": "d95033a3cab647f2e9b1dfee1efe5ff9588c32c4",
     "subject": "Editorial: Simplify the 'Atom' production"
    },
    {
     "adate": "2019-08-20T16:19:01-04:00",
     "author": "Michael Dyck",
-    "date": "2021-08-17T10:47:49-04:00",
-    "hash": "a8cfb956fed5caac4a2449933df3d72c5b7e7b85",
-    "parents": "2eb566fd1e3b7c0d58e8a12fb95094693f81b34d",
+    "date": "2021-09-14T12:35:02-04:00",
+    "hash": "d95033a3cab647f2e9b1dfee1efe5ff9588c32c4",
+    "parents": "8e986fa7ce0d010fcabc5f2eeeb52b5593a36f77",
     "subject": "Editorial: Simplify the 'Term' production"
    },
    {
     "adate": "2019-08-20T15:48:03-04:00",
     "author": "Michael Dyck",
-    "date": "2021-08-17T10:47:49-04:00",
-    "hash": "2eb566fd1e3b7c0d58e8a12fb95094693f81b34d",
-    "parents": "55641be186456752faebf1e3baecef74a5fcdb81",
+    "date": "2021-09-14T12:35:02-04:00",
+    "hash": "8e986fa7ce0d010fcabc5f2eeeb52b5593a36f77",
+    "parents": "53c48e51784bca32ac8c7c9c47e4c920ae5ffc8b",
     "subject": "Editorial: Merge 'ExtendedAtom' and 'Atom'"
    },
    {
     "adate": "2019-08-20T15:14:19-04:00",
     "author": "Michael Dyck",
-    "date": "2021-08-17T10:47:49-04:00",
-    "hash": "55641be186456752faebf1e3baecef74a5fcdb81",
-    "parents": "8545450f4037abdf83969ab64682cd5427ed7c99",
+    "date": "2021-09-14T12:35:02-04:00",
+    "hash": "53c48e51784bca32ac8c7c9c47e4c920ae5ffc8b",
+    "parents": "f319d60e4e036957514053b2d9a642a6107671cf",
     "subject": "Editorial: Move the runtime semantics for QuantifiableAssertion"
    },
    {
     "adate": "2019-08-20T15:10:44-04:00",
     "author": "Michael Dyck",
-    "date": "2021-08-17T10:47:49-04:00",
-    "hash": "8545450f4037abdf83969ab64682cd5427ed7c99",
-    "parents": "e7c5fee8af94ac0eefe8a134d7cc86471a9b7045",
+    "date": "2021-09-14T12:35:02-04:00",
+    "hash": "f319d60e4e036957514053b2d9a642a6107671cf",
+    "parents": "e40fb4b9acec1d234569ccf52acfbbaf50d3f82d",
     "subject": "Editorial: Simplify the 'Assertion' production"
    },
    {
     "adate": "2019-08-19T20:36:45-04:00",
     "author": "Michael Dyck",
-    "date": "2021-08-17T10:47:32-04:00",
-    "hash": "e7c5fee8af94ac0eefe8a134d7cc86471a9b7045",
-    "parents": "1cc5037ad21eb8f8bc181eaf7651ab9e3b9ca078",
+    "date": "2021-09-14T12:35:02-04:00",
+    "hash": "e40fb4b9acec1d234569ccf52acfbbaf50d3f82d",
+    "parents": "b04336577ab90f27e0a431d7608dcabccca51ca5",
     "subject": "Normative: Make B.1.4 \"Regular Expressions Patterns\" normative"
    },
    {
     "adate": "2019-08-16T23:15:10-04:00",
     "author": "Michael Dyck",
-    "date": "2021-08-17T10:24:59-04:00",
-    "hash": "1cc5037ad21eb8f8bc181eaf7651ab9e3b9ca078",
-    "parents": "edcada08169527271a2b761fe5ebe1caa0820457",
+    "date": "2021-09-14T12:35:02-04:00",
+    "hash": "b04336577ab90f27e0a431d7608dcabccca51ca5",
+    "parents": "6a8fbb7e59f06301c8c8b08e2a0e28d96bb90aab",
     "subject": "Editorial: Rearrange \"Syntax for Patterns\" into 4 subsections"
    },
    {
     "adate": "2019-08-16T16:13:28-04:00",
     "author": "Michael Dyck",
-    "date": "2021-08-17T00:01:34-04:00",
-    "hash": "edcada08169527271a2b761fe5ebe1caa0820457",
-    "parents": "74608606eb2de4d1b7f16eabd22d5ea88f15fff8",
+    "date": "2021-09-14T12:35:02-04:00",
+    "hash": "6a8fbb7e59f06301c8c8b08e2a0e28d96bb90aab",
+    "parents": "817c306a9e7451bbd07dd8cafe0055a9a26e6708",
     "subject": "Markup: change clause-ids to reflect changes in clause-titles"
    },
    {
     "adate": "2019-08-16T16:12:24-04:00",
     "author": "Michael Dyck",
-    "date": "2021-08-16T23:59:16-04:00",
-    "hash": "74608606eb2de4d1b7f16eabd22d5ea88f15fff8",
-    "parents": "1c3b888122c56927f55e3cb729b42fd9ab6d479b",
+    "date": "2021-09-14T12:35:01-04:00",
+    "hash": "817c306a9e7451bbd07dd8cafe0055a9a26e6708",
+    "parents": "1802345e8db6d7f0e2ea14e7c7fe8ef15c62486d",
     "subject": "Editorial: Split 'Patterns' clause into two clauses"
    },
    {
     "adate": "2019-08-04T17:39:27-04:00",
     "author": "Michael Dyck",
-    "date": "2021-08-16T23:59:16-04:00",
-    "hash": "1c3b888122c56927f55e3cb729b42fd9ab6d479b",
-    "parents": "f8053dfc8b8a3804ee854c614a6210ec416c8ced",
+    "date": "2021-09-14T12:35:01-04:00",
+    "hash": "1802345e8db6d7f0e2ea14e7c7fe8ef15c62486d",
+    "parents": "b3e6dfe61966b9a0eded9c7c5bd037b01e10abf2",
     "subject": "Normative: Make B.1.3 \"HTML-like comments\" normative"
    }
   ],
   "title": "Normative: Make B.1 \"Additional Syntax\" normative",
-  "updated_at": "2021-08-17T14:48:17Z"
+  "updated_at": "2021-09-14T16:37:32Z"
  },
  {
-  "base": "886cc56ac70d8be969a55c43feb2f5c2cb9c69c1",
+  "base": "0bd3ace93009a4dbf6b26deaaef06105aa497bc8",
   "created_at": "2019-07-13T02:30:44Z",
-  "head": "1b09e4bf0b2af30d8753c3e93913e74978c3b859",
+  "head": "0bdbf87dba11783dbd158c8e533e9f07f3c78cf9",
   "login": "jmdyck",
   "number": 1623,
   "ref": "index_strings",
@@ -2406,38 +2350,38 @@
    {
     "adate": "2019-07-12T11:59:54-04:00",
     "author": "Michael Dyck",
-    "date": "2021-08-24T22:33:04-04:00",
-    "hash": "1b09e4bf0b2af30d8753c3e93913e74978c3b859",
-    "parents": "1fbb0d5bd82f7d16d2d407af2f013276d19896d4",
+    "date": "2021-09-14T12:37:55-04:00",
+    "hash": "0bdbf87dba11783dbd158c8e533e9f07f3c78cf9",
+    "parents": "710300654c9d4ff011bc595c41015416933c2ccd",
     "subject": "Editorial: some minor rewordings"
    },
    {
     "adate": "2019-07-12T11:12:43-04:00",
     "author": "Michael Dyck",
-    "date": "2021-08-24T22:33:04-04:00",
-    "hash": "1fbb0d5bd82f7d16d2d407af2f013276d19896d4",
-    "parents": "8b30a569da64d8237d42b36be0e3c14fe2921a06",
+    "date": "2021-09-14T12:37:55-04:00",
+    "hash": "710300654c9d4ff011bc595c41015416933c2ccd",
+    "parents": "0ee327e04654f731885fd63360bf521929756c89",
     "subject": "Editorial: Replace \"array index\" with \"Uint32-string\""
    },
    {
     "adate": "2019-07-12T10:23:31-04:00",
     "author": "Michael Dyck",
-    "date": "2021-08-24T22:33:04-04:00",
-    "hash": "8b30a569da64d8237d42b36be0e3c14fe2921a06",
-    "parents": "a6797bc43b2721e8975ef7c8c6fe165d9a591ebf",
+    "date": "2021-09-14T12:37:55-04:00",
+    "hash": "0ee327e04654f731885fd63360bf521929756c89",
+    "parents": "c7b22f032953975a64cf8cb3b4ce623f78f3ab81",
     "subject": "Editorial: Replace \"integer index\" with \"Uint53-string\""
    },
    {
     "adate": "2019-07-12T21:58:00-04:00",
     "author": "Michael Dyck",
-    "date": "2021-08-24T22:33:04-04:00",
-    "hash": "a6797bc43b2721e8975ef7c8c6fe165d9a591ebf",
-    "parents": "886cc56ac70d8be969a55c43feb2f5c2cb9c69c1",
+    "date": "2021-09-14T12:37:55-04:00",
+    "hash": "c7b22f032953975a64cf8cb3b4ce623f78f3ab81",
+    "parents": "b3e6dfe61966b9a0eded9c7c5bd037b01e10abf2",
     "subject": "Editorial: Fix wording in Note for Arguments exotic objects"
    }
   ],
   "title": "Editorial: Replace terms \"integer index\" and \"array index\"",
-  "updated_at": "2021-08-25T02:34:28Z"
+  "updated_at": "2021-09-14T16:39:14Z"
  },
  {
   "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",

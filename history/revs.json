@@ -1,5 +1,53 @@
 [
  {
+  "adate": "2021-09-14T09:26:02-07:00",
+  "author": "Michael Dyck",
+  "date": "2021-09-14T09:26:02-07:00",
+  "hash": "0bd3ace93009a4dbf6b26deaaef06105aa497bc8",
+  "parents": "5bd4919f34c9f3416ac3e3fb79fe19dbae51a851",
+  "subject": "Editorial: Remove all definitions of MV that are covered by the chain rule (#2406)"
+ },
+ {
+  "adate": "2021-09-14T09:25:53-07:00",
+  "author": "Michael Dyck",
+  "date": "2021-09-14T09:25:53-07:00",
+  "hash": "faf9431751919821000abeaa9fedf4eb840d845d",
+  "parents": "37b0138630f856d58ea2dbde2b4b95a397ecc75f",
+  "subject": "Editorial: Drop unused defns of `TopLevelLexicallyDeclaredNames` & `TopLevelLexicallyScopedDeclarations` (#2406)"
+ },
+ {
+  "adate": "2021-09-14T09:25:51-07:00",
+  "author": "Michael Dyck",
+  "date": "2021-09-14T09:25:51-07:00",
+  "hash": "37b0138630f856d58ea2dbde2b4b95a397ecc75f",
+  "parents": "fe30285847eaa999518bc85979e9be8eda2447cf",
+  "subject": "Editorial: Drop unused defn of `MV` SDO (#2406)"
+ },
+ {
+  "adate": "2021-09-14T09:25:48-07:00",
+  "author": "Michael Dyck",
+  "date": "2021-09-14T09:25:48-07:00",
+  "hash": "fe30285847eaa999518bc85979e9be8eda2447cf",
+  "parents": "5500c9617e704be50fe02738c2bf2d0b4bd26930",
+  "subject": "Editorial: Drop unused defns of `Evaluation` SDO (#2406)"
+ },
+ {
+  "adate": "2021-09-14T09:25:43-07:00",
+  "author": "Michael Dyck",
+  "date": "2021-09-14T09:25:43-07:00",
+  "hash": "5500c9617e704be50fe02738c2bf2d0b4bd26930",
+  "parents": "6271e38d9a146be9e4f6ef75e4760002cde9f9e5",
+  "subject": "Editorial: Define 4 SDOs on empty Script (#2406)"
+ },
+ {
+  "adate": "2021-09-14T09:25:34-07:00",
+  "author": "Michael Dyck",
+  "date": "2021-09-14T09:25:34-07:00",
+  "hash": "6271e38d9a146be9e4f6ef75e4760002cde9f9e5",
+  "parents": "b3e6dfe61966b9a0eded9c7c5bd037b01e10abf2",
+  "subject": "Editorial: Define `Evaluation` for BindingIdentifier (#2406)"
+ },
+ {
   "adate": "2021-09-13T20:57:16-07:00",
   "author": "Michael Dyck",
   "date": "2021-09-13T20:57:16-07:00",
