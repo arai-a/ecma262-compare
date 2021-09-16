@@ -1,11 +1,43 @@
 [
  {
+  "adate": "2021-09-15T22:23:20-07:00",
+  "author": "Kevin Gibbons",
+  "date": "2021-09-15T22:23:20-07:00",
+  "hash": "6326912ad901eed99c799833abd60e00a2764436",
+  "parents": "f125a9626bfacd1e867d2428efe2a1db4d4052cf",
+  "subject": "Editorial: collapse like cases in ContainsArguments (#2505)"
+ },
+ {
+  "adate": "2021-09-15T22:18:22-07:00",
+  "author": "Daniel D. Beck",
+  "date": "2021-09-15T22:18:22-07:00",
+  "hash": "f125a9626bfacd1e867d2428efe2a1db4d4052cf",
+  "parents": "0bd3ace93009a4dbf6b26deaaef06105aa497bc8",
+  "subject": "Editorial: disambiguate `with` statement's status (#2441)"
+ },
+ {
   "adate": "2021-09-14T09:26:02-07:00",
   "author": "Michael Dyck",
   "date": "2021-09-14T09:26:02-07:00",
   "hash": "0bd3ace93009a4dbf6b26deaaef06105aa497bc8",
   "parents": "5bd4919f34c9f3416ac3e3fb79fe19dbae51a851",
   "subject": "Editorial: Remove all definitions of MV that are covered by the chain rule (#2406)"
+ },
+ {
+  "adate": "2021-09-14T09:25:57-07:00",
+  "author": "Michael Dyck",
+  "date": "2021-09-14T09:25:57-07:00",
+  "hash": "5bd4919f34c9f3416ac3e3fb79fe19dbae51a851",
+  "parents": "6b15b423bc4850f693e23d77c7aee3e8a9cea781",
+  "subject": "Editorial: Drop unused defn of `VarDeclaredNames` (#2406)"
+ },
+ {
+  "adate": "2021-09-14T09:25:55-07:00",
+  "author": "Michael Dyck",
+  "date": "2021-09-14T09:25:55-07:00",
+  "hash": "6b15b423bc4850f693e23d77c7aee3e8a9cea781",
+  "parents": "faf9431751919821000abeaa9fedf4eb840d845d",
+  "subject": "Editorial: Drop unused defns of `TopLevelVarDeclaredNames` & `TopLevelVarScopedDeclarations` (#2406)"
  },
  {
   "adate": "2021-09-14T09:25:53-07:00",
