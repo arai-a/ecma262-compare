@@ -448,26 +448,6 @@
   "updated_at": "2021-07-15T15:15:43Z"
  },
  {
-  "base": "886cc56ac70d8be969a55c43feb2f5c2cb9c69c1",
-  "created_at": "2021-06-30T18:11:24Z",
-  "head": "db0e37ee42ec5eec263f1b97c08fa7ebb0fcadcb",
-  "login": "jmdyck",
-  "number": 2447,
-  "ref": "wki_xrefs",
-  "revs": [
-   {
-    "adate": "2021-06-30T11:19:57-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-08-24T20:24:00-04:00",
-    "hash": "db0e37ee42ec5eec263f1b97c08fa7ebb0fcadcb",
-    "parents": "886cc56ac70d8be969a55c43feb2f5c2cb9c69c1",
-    "subject": "Editorial: Delete redundant xrefs from Well-Known Intrinsics table"
-   }
-  ],
-  "title": "Editorial: Delete redundant xrefs from Well-Known Intrinsics table",
-  "updated_at": "2021-08-25T00:25:05Z"
- },
- {
   "base": "b3e6dfe61966b9a0eded9c7c5bd037b01e10abf2",
   "created_at": "2021-06-27T15:32:45Z",
   "head": "628be4a339e44ac3f05704be06a0398c365dbc62",
@@ -490,11 +470,19 @@
  {
   "base": "56ed133fb890f0c6e291ca696d8adf18891b72a6",
   "created_at": "2021-06-23T13:25:39Z",
-  "head": "d53361d58fb8e1a389a41eced3c59cd5b50c1a6f",
+  "head": "281ab55f30f50fbfb4b02707bb738078d40a346d",
   "login": "ddbeck",
   "number": 2441,
   "ref": "note-with-statement",
   "revs": [
+   {
+    "adate": "2021-09-15T19:31:18-06:00",
+    "author": "Michael Ficarra",
+    "date": "2021-09-15T19:31:18-06:00",
+    "hash": "281ab55f30f50fbfb4b02707bb738078d40a346d",
+    "parents": "d53361d58fb8e1a389a41eced3c59cd5b50c1a6f",
+    "subject": "adopt suggested wording"
+   },
    {
     "adate": "2021-06-22T18:37:22+01:00",
     "author": "Daniel D. Beck",
@@ -505,7 +493,7 @@
    }
   ],
   "title": "Editorial: disambiguate `with` statement's status",
-  "updated_at": "2021-09-06T15:41:59Z"
+  "updated_at": "2021-09-16T01:36:12Z"
  },
  {
   "base": "61cc3297c96764a256b02b90005550607371a1d1",
