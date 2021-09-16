@@ -1,6 +1,26 @@
 [
  {
   "base": "0bd3ace93009a4dbf6b26deaaef06105aa497bc8",
+  "created_at": "2021-09-16T02:58:10Z",
+  "head": "747aa9578d0f93781e1e1f03ed0d4942ba896069",
+  "login": "tc39",
+  "number": 2519,
+  "ref": "GH-2516",
+  "revs": [
+   {
+    "adate": "2021-09-15T20:52:39-06:00",
+    "author": "Michael Ficarra",
+    "date": "2021-09-15T20:52:39-06:00",
+    "hash": "747aa9578d0f93781e1e1f03ed0d4942ba896069",
+    "parents": "0bd3ace93009a4dbf6b26deaaef06105aa497bc8",
+    "subject": "remove gratuitous detail in note about UTF-8 encoding"
+   }
+  ],
+  "title": "remove gratuitous detail in note about UTF-8 encoding",
+  "updated_at": "2021-09-16T02:58:23Z"
+ },
+ {
+  "base": "0bd3ace93009a4dbf6b26deaaef06105aa497bc8",
   "created_at": "2021-09-14T17:11:16Z",
   "head": "885a91e8cdb3961364e4eb1166981bd5f7505622",
   "login": "ljharb",
