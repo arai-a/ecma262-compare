@@ -1,6 +1,34 @@
 [
  {
   "base": "0bd3ace93009a4dbf6b26deaaef06105aa497bc8",
+  "created_at": "2021-09-16T04:11:13Z",
+  "head": "c490504ba9de435faf2f4d87113c6bff7831fba4",
+  "login": "js-choi",
+  "number": 2520,
+  "ref": "patch-1",
+  "revs": [
+   {
+    "adate": "2021-09-16T00:40:26-04:00",
+    "author": "J.\u00a0S.\u00a0Choi",
+    "date": "2021-09-16T00:40:26-04:00",
+    "hash": "c490504ba9de435faf2f4d87113c6bff7831fba4",
+    "parents": "c23434b1faa99ea39aaf8ad8bdefd66dc21ac1a8",
+    "subject": "Update CONTRIBUTING.md"
+   },
+   {
+    "adate": "2021-09-16T00:10:21-04:00",
+    "author": "J.\u00a0S.\u00a0Choi",
+    "date": "2021-09-16T00:10:21-04:00",
+    "hash": "c23434b1faa99ea39aaf8ad8bdefd66dc21ac1a8",
+    "parents": "0bd3ace93009a4dbf6b26deaaef06105aa497bc8",
+    "subject": "CONTRIBUTING.md: Update IRC to Matrix"
+   }
+  ],
+  "title": "CONTRIBUTING.md: Update IRC to Matrix",
+  "updated_at": "2021-09-16T04:40:27Z"
+ },
+ {
+  "base": "0bd3ace93009a4dbf6b26deaaef06105aa497bc8",
   "created_at": "2021-09-16T02:58:10Z",
   "head": "747aa9578d0f93781e1e1f03ed0d4942ba896069",
   "login": "tc39",
