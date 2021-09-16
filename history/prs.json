@@ -174,11 +174,19 @@
  {
   "base": "2e131c21e8f598b167064485ca592ab5906b1c36",
   "created_at": "2021-08-07T05:18:17Z",
-  "head": "8f2e8c896e20fc1ddd9e027a4c1dfc09d846c9b2",
+  "head": "d7ca3790050490f91d3398e32e5e05627cf30a5b",
   "login": "jmdyck",
   "number": 2484,
   "ref": "GetSubstitution",
   "revs": [
+   {
+    "adate": "2021-09-16T10:10:35-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-09-16T10:20:32-04:00",
+    "hash": "d7ca3790050490f91d3398e32e5e05627cf30a5b",
+    "parents": "8f2e8c896e20fc1ddd9e027a4c1dfc09d846c9b2",
+    "subject": "Editorial: Change `the _index_<sup>th</sup> element of _captures_`"
+   },
    {
     "adate": "2021-08-07T01:07:13-04:00",
     "author": "Michael Dyck",
@@ -253,7 +261,7 @@
    }
   ],
   "title": "Editorial: Incorporate GetSubstitution's table into the algorithm",
-  "updated_at": "2021-09-16T13:20:31Z"
+  "updated_at": "2021-09-16T14:29:00Z"
  },
  {
   "base": "99b36f0591bf809bd2ea64a7bd2294606f4bef1f",
