@@ -109,34 +109,6 @@
  },
  {
   "base": "56ed133fb890f0c6e291ca696d8adf18891b72a6",
-  "created_at": "2021-08-29T02:44:05Z",
-  "head": "59aaf8a638df22ac48ba7a461c4b7ea5ce47db1c",
-  "login": "tc39",
-  "number": 2505,
-  "ref": "contains-arguments-async-generator",
-  "revs": [
-   {
-    "adate": "2021-08-28T19:37:13-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-08-28T19:59:49-07:00",
-    "hash": "59aaf8a638df22ac48ba7a461c4b7ea5ce47db1c",
-    "parents": "7216320753b3df8258ad69127dd1dd6d212d47a2",
-    "subject": "Normative: add missing AsyncGenerator cases to ContainsArguments"
-   },
-   {
-    "adate": "2021-08-28T19:34:54-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-08-28T19:34:54-07:00",
-    "hash": "7216320753b3df8258ad69127dd1dd6d212d47a2",
-    "parents": "56ed133fb890f0c6e291ca696d8adf18891b72a6",
-    "subject": "Editorial: collapse like cases in ContainsArguments"
-   }
-  ],
-  "title": "Normative: add missing AsyncGenerator cases to ContainsArguments",
-  "updated_at": "2021-08-29T03:00:00Z"
- },
- {
-  "base": "56ed133fb890f0c6e291ca696d8adf18891b72a6",
   "created_at": "2021-08-26T07:11:01Z",
   "head": "f128a827db7457777a0a5c0c3146d57c130247ad",
   "login": "gibson042",
@@ -200,9 +172,9 @@
   "updated_at": "2021-08-17T15:17:26Z"
  },
  {
-  "base": "b3e6dfe61966b9a0eded9c7c5bd037b01e10abf2",
+  "base": "2e131c21e8f598b167064485ca592ab5906b1c36",
   "created_at": "2021-08-07T05:18:17Z",
-  "head": "d89851f80b08136437192b8d9c0eef1311bbe8f6",
+  "head": "8f2e8c896e20fc1ddd9e027a4c1dfc09d846c9b2",
   "login": "jmdyck",
   "number": 2484,
   "ref": "GetSubstitution",
@@ -210,86 +182,78 @@
    {
     "adate": "2021-08-07T01:07:13-04:00",
     "author": "Michael Dyck",
-    "date": "2021-09-14T08:53:19-04:00",
-    "hash": "d89851f80b08136437192b8d9c0eef1311bbe8f6",
-    "parents": "10cca19762a7dae21311bb55a39f0b42f893cfd2",
+    "date": "2021-09-16T00:13:51-04:00",
+    "hash": "8f2e8c896e20fc1ddd9e027a4c1dfc09d846c9b2",
+    "parents": "c7d9dfe606c6c7d7172dc2c7082f34abd40b5701",
     "subject": "squash: cleanup"
    },
    {
     "adate": "2021-08-07T01:06:19-04:00",
     "author": "Michael Dyck",
-    "date": "2021-09-14T08:53:19-04:00",
-    "hash": "10cca19762a7dae21311bb55a39f0b42f893cfd2",
-    "parents": "2881e3947202e27a56399327ca3410353bd58e94",
+    "date": "2021-09-16T00:13:49-04:00",
+    "hash": "c7d9dfe606c6c7d7172dc2c7082f34abd40b5701",
+    "parents": "960281e7ff95a3c89735b548a553254ee43a7bd0",
     "subject": "squash: handle the default case"
    },
    {
     "adate": "2021-08-07T01:04:08-04:00",
     "author": "Michael Dyck",
-    "date": "2021-09-14T08:53:19-04:00",
-    "hash": "2881e3947202e27a56399327ca3410353bd58e94",
-    "parents": "db7df6fc77bab675162dc8c772b6b0c8645c6b6d",
+    "date": "2021-09-16T00:13:09-04:00",
+    "hash": "960281e7ff95a3c89735b548a553254ee43a7bd0",
+    "parents": "802882b60f186b8859c2484a54cc89522ef0e4ad",
     "subject": "squash: handled named references"
    },
    {
     "adate": "2021-08-07T00:59:48-04:00",
     "author": "Michael Dyck",
-    "date": "2021-09-14T08:53:19-04:00",
-    "hash": "db7df6fc77bab675162dc8c772b6b0c8645c6b6d",
-    "parents": "5b3d5a4d3b4b2dee6bf2979bc3e3c717c6bdd567",
+    "date": "2021-09-16T00:10:49-04:00",
+    "hash": "802882b60f186b8859c2484a54cc89522ef0e4ad",
+    "parents": "20469043574a816b235495bfbc4abd61654ac75a",
     "subject": "squash: handle numeric references"
    },
    {
     "adate": "2021-08-07T00:56:09-04:00",
     "author": "Michael Dyck",
-    "date": "2021-09-14T08:53:19-04:00",
-    "hash": "5b3d5a4d3b4b2dee6bf2979bc3e3c717c6bdd567",
-    "parents": "da59fd38e7fec085d3f77f202a7e9607e52bfa4b",
+    "date": "2021-09-15T23:15:54-04:00",
+    "hash": "20469043574a816b235495bfbc4abd61654ac75a",
+    "parents": "751051232792bcf58b7510ce6aab611cb9fbe7b4",
     "subject": "squash: Handle the 4 easy cases"
    },
    {
     "adate": "2021-08-07T00:25:22-04:00",
     "author": "Michael Dyck",
-    "date": "2021-09-14T08:53:19-04:00",
-    "hash": "da59fd38e7fec085d3f77f202a7e9607e52bfa4b",
-    "parents": "d02106e3a7b10f30fbb9009cc64338b10fbfd181",
+    "date": "2021-09-15T23:15:19-04:00",
+    "hash": "751051232792bcf58b7510ce6aab611cb9fbe7b4",
+    "parents": "ec29b8c042fe1fdc49dea04a2368e334bbaa4c9e",
     "subject": "Editorial: Incorporate GetSubstitution's table into the algorithm"
    },
    {
     "adate": "2021-08-07T00:19:38-04:00",
     "author": "Michael Dyck",
-    "date": "2021-09-14T08:53:19-04:00",
-    "hash": "d02106e3a7b10f30fbb9009cc64338b10fbfd181",
-    "parents": "f7057588e6e726be6675118f1d7ae35679d4ca8c",
+    "date": "2021-09-15T23:14:23-04:00",
+    "hash": "ec29b8c042fe1fdc49dea04a2368e334bbaa4c9e",
+    "parents": "8a9ac631d7d1568b330abb60d2ff2c48c21631d2",
     "subject": "Editorial: fix the type-assertion for _captures_ in GetSubstitution"
-   },
-   {
-    "adate": "2021-08-07T00:15:29-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-09-14T08:53:18-04:00",
-    "hash": "f7057588e6e726be6675118f1d7ae35679d4ca8c",
-    "parents": "47b3ee9cee23aa5f0f61d9e9ea36c9126e474901",
-    "subject": "Editorial: minor refactoring in GetSubstitution"
    },
    {
     "adate": "2021-08-07T00:05:08-04:00",
     "author": "Michael Dyck",
-    "date": "2021-09-14T08:53:18-04:00",
-    "hash": "47b3ee9cee23aa5f0f61d9e9ea36c9126e474901",
-    "parents": "b5eefb74a37b8334b634ef7cf1af44262cae22b2",
-    "subject": "Editorial: minor refactoring in GetSubstitution"
+    "date": "2021-09-15T23:13:08-04:00",
+    "hash": "8a9ac631d7d1568b330abb60d2ff2c48c21631d2",
+    "parents": "c84f1dd86c33089d4325fad1756a97ae1ae33182",
+    "subject": "Editorial: Rename _replacement_ in GetSubstitution"
    },
    {
     "adate": "2021-08-06T23:56:47-04:00",
     "author": "Michael Dyck",
-    "date": "2021-09-14T08:53:18-04:00",
-    "hash": "b5eefb74a37b8334b634ef7cf1af44262cae22b2",
-    "parents": "b3e6dfe61966b9a0eded9c7c5bd037b01e10abf2",
+    "date": "2021-09-14T20:12:25-04:00",
+    "hash": "c84f1dd86c33089d4325fad1756a97ae1ae33182",
+    "parents": "0bd3ace93009a4dbf6b26deaaef06105aa497bc8",
     "subject": "Editorial: minor refactoring in String.prototype.replace"
    }
   ],
   "title": "Editorial: Incorporate GetSubstitution's table into the algorithm",
-  "updated_at": "2021-09-14T13:21:39Z"
+  "updated_at": "2021-09-16T13:20:31Z"
  },
  {
   "base": "99b36f0591bf809bd2ea64a7bd2294606f4bef1f",
@@ -514,42 +478,6 @@
   ],
   "title": "Editorial: Eliminate order-disambiguation from Annex B Pattern-grammar",
   "updated_at": "2021-09-14T13:24:35Z"
- },
- {
-  "base": "56ed133fb890f0c6e291ca696d8adf18891b72a6",
-  "created_at": "2021-06-23T13:25:39Z",
-  "head": "627420acb2c050fb10305d01b1fb57d9e729b401",
-  "login": "ddbeck",
-  "number": 2441,
-  "ref": "note-with-statement",
-  "revs": [
-   {
-    "adate": "2021-09-15T19:52:42-06:00",
-    "author": "Michael Ficarra",
-    "date": "2021-09-15T19:52:42-06:00",
-    "hash": "627420acb2c050fb10305d01b1fb57d9e729b401",
-    "parents": "281ab55f30f50fbfb4b02707bb738078d40a346d",
-    "subject": "destructuring assignment"
-   },
-   {
-    "adate": "2021-09-15T19:31:18-06:00",
-    "author": "Michael Ficarra",
-    "date": "2021-09-15T19:31:18-06:00",
-    "hash": "281ab55f30f50fbfb4b02707bb738078d40a346d",
-    "parents": "d53361d58fb8e1a389a41eced3c59cd5b50c1a6f",
-    "subject": "adopt suggested wording"
-   },
-   {
-    "adate": "2021-06-22T18:37:22+01:00",
-    "author": "Daniel D. Beck",
-    "date": "2021-09-06T16:36:46+01:00",
-    "hash": "d53361d58fb8e1a389a41eced3c59cd5b50c1a6f",
-    "parents": "56ed133fb890f0c6e291ca696d8adf18891b72a6",
-    "subject": "Editorial: disambiguate `with` statement's status"
-   }
-  ],
-  "title": "Editorial: disambiguate `with` statement's status",
-  "updated_at": "2021-09-16T01:57:38Z"
  },
  {
   "base": "61cc3297c96764a256b02b90005550607371a1d1",
