@@ -470,11 +470,19 @@
  {
   "base": "56ed133fb890f0c6e291ca696d8adf18891b72a6",
   "created_at": "2021-06-23T13:25:39Z",
-  "head": "281ab55f30f50fbfb4b02707bb738078d40a346d",
+  "head": "627420acb2c050fb10305d01b1fb57d9e729b401",
   "login": "ddbeck",
   "number": 2441,
   "ref": "note-with-statement",
   "revs": [
+   {
+    "adate": "2021-09-15T19:52:42-06:00",
+    "author": "Michael Ficarra",
+    "date": "2021-09-15T19:52:42-06:00",
+    "hash": "627420acb2c050fb10305d01b1fb57d9e729b401",
+    "parents": "281ab55f30f50fbfb4b02707bb738078d40a346d",
+    "subject": "destructuring assignment"
+   },
    {
     "adate": "2021-09-15T19:31:18-06:00",
     "author": "Michael Ficarra",
@@ -493,7 +501,7 @@
    }
   ],
   "title": "Editorial: disambiguate `with` statement's status",
-  "updated_at": "2021-09-16T01:36:12Z"
+  "updated_at": "2021-09-16T01:57:38Z"
  },
  {
   "base": "61cc3297c96764a256b02b90005550607371a1d1",
