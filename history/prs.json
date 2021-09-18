@@ -1,26 +1,6 @@
 [
  {
   "base": "de264f623673a5c52845120dcafbdfefe98660b1",
-  "created_at": "2021-09-17T18:26:02Z",
-  "head": "f0a9110ff37252d63d4d505093f53c6b84f8c5af",
-  "login": "jmdyck",
-  "number": 2524,
-  "ref": "BigInt_algs",
-  "revs": [
-   {
-    "adate": "2021-09-17T14:16:08-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-09-17T14:16:08-04:00",
-    "hash": "f0a9110ff37252d63d4d505093f53c6b84f8c5af",
-    "parents": "de264f623673a5c52845120dcafbdfefe98660b1",
-    "subject": "Editorial: Provide <emu-alg> for 6 BigInt methods"
-   }
-  ],
-  "title": "Editorial: Provide `<emu-alg>` for 6 BigInt methods",
-  "updated_at": "2021-09-17T18:27:55Z"
- },
- {
-  "base": "de264f623673a5c52845120dcafbdfefe98660b1",
   "created_at": "2021-09-17T16:20:54Z",
   "head": "1102b667da9b4a8a6f1b37385835fc132a8a5b54",
   "login": "tc39",
@@ -108,24 +88,32 @@
   "updated_at": "2021-09-14T12:19:11Z"
  },
  {
-  "base": "3aafa2406c3718044a64da1d64697e3e432e21ef",
+  "base": "38562e740de1e44ce7c97b8a984173fca5344015",
   "created_at": "2021-09-12T01:33:10Z",
-  "head": "ceb170c80ca5bad36a358b4408a9f3db9c482ba9",
+  "head": "3b8391e9b07dba57092576789bd41d0f1e888666",
   "login": "tc39",
   "number": 2512,
   "ref": "sdo-descriptions",
   "revs": [
    {
+    "adate": "2021-09-18T11:39:17-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-09-18T11:39:59-07:00",
+    "hash": "3b8391e9b07dba57092576789bd41d0f1e888666",
+    "parents": "1516f5e9406c0127567c0452e98a2ec1d87d5c69",
+    "subject": "multiline"
+   },
+   {
     "adate": "2021-09-11T18:28:18-07:00",
     "author": "Kevin Gibbons",
-    "date": "2021-09-11T18:28:18-07:00",
-    "hash": "ceb170c80ca5bad36a358b4408a9f3db9c482ba9",
-    "parents": "3aafa2406c3718044a64da1d64697e3e432e21ef",
-    "subject": "Markup: have SDOs use structured headers"
+    "date": "2021-09-18T11:39:55-07:00",
+    "hash": "1516f5e9406c0127567c0452e98a2ec1d87d5c69",
+    "parents": "38562e740de1e44ce7c97b8a984173fca5344015",
+    "subject": "Editorial: have SDOs use structured headers"
    }
   ],
   "title": "Markup: have SDOs use structured headers",
-  "updated_at": "2021-09-12T01:33:10Z"
+  "updated_at": "2021-09-18T18:40:37Z"
  },
  {
   "base": "56ed133fb890f0c6e291ca696d8adf18891b72a6",
