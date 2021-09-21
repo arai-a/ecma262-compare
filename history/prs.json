@@ -1,5 +1,25 @@
 [
  {
+  "base": "1e23cef16096204de43c50e6108b2d0d86307244",
+  "created_at": "2021-09-21T22:04:21Z",
+  "head": "ff975a8876a63c6140549c9936f611fdab31eec9",
+  "login": "tc39",
+  "number": 2527,
+  "ref": "ecmascript-value",
+  "revs": [
+   {
+    "adate": "2021-09-21T15:58:05-06:00",
+    "author": "Michael Ficarra",
+    "date": "2021-09-21T16:03:56-06:00",
+    "hash": "ff975a8876a63c6140549c9936f611fdab31eec9",
+    "parents": "1e23cef16096204de43c50e6108b2d0d86307244",
+    "subject": "Editorial: \"ECMAScript value\" -> \"ECMAScript language value\""
+   }
+  ],
+  "title": "Editorial: \"ECMAScript value\" -> \"ECMAScript language value\"",
+  "updated_at": "2021-09-21T22:10:15Z"
+ },
+ {
   "base": "de264f623673a5c52845120dcafbdfefe98660b1",
   "created_at": "2021-09-17T16:20:54Z",
   "head": "1102b667da9b4a8a6f1b37385835fc132a8a5b54",
@@ -86,42 +106,6 @@
   ],
   "title": "Normative: List new Unicode v14 `Script`/`Script_Extensions` values",
   "updated_at": "2021-09-14T12:19:11Z"
- },
- {
-  "base": "38562e740de1e44ce7c97b8a984173fca5344015",
-  "created_at": "2021-09-12T01:33:10Z",
-  "head": "306a502c6a18f5373304092e1f99cbc5df14f56a",
-  "login": "tc39",
-  "number": 2512,
-  "ref": "sdo-descriptions",
-  "revs": [
-   {
-    "adate": "2021-09-20T19:46:58-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-09-20T19:46:58-07:00",
-    "hash": "306a502c6a18f5373304092e1f99cbc5df14f56a",
-    "parents": "3b8391e9b07dba57092576789bd41d0f1e888666",
-    "subject": "address jmdyck comments"
-   },
-   {
-    "adate": "2021-09-18T11:39:17-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-09-18T11:39:59-07:00",
-    "hash": "3b8391e9b07dba57092576789bd41d0f1e888666",
-    "parents": "1516f5e9406c0127567c0452e98a2ec1d87d5c69",
-    "subject": "multiline"
-   },
-   {
-    "adate": "2021-09-11T18:28:18-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-09-18T11:39:55-07:00",
-    "hash": "1516f5e9406c0127567c0452e98a2ec1d87d5c69",
-    "parents": "38562e740de1e44ce7c97b8a984173fca5344015",
-    "subject": "Editorial: have SDOs use structured headers"
-   }
-  ],
-  "title": "Markup: have SDOs use structured headers",
-  "updated_at": "2021-09-21T03:01:34Z"
  },
  {
   "base": "56ed133fb890f0c6e291ca696d8adf18891b72a6",
