@@ -1,6 +1,26 @@
 [
  {
   "base": "1e23cef16096204de43c50e6108b2d0d86307244",
+  "created_at": "2021-09-21T22:37:38Z",
+  "head": "5af73dfbb6fab0857ec4ef35825a70727849a102",
+  "login": "tc39",
+  "number": 2528,
+  "ref": "frompropertydescriptor",
+  "revs": [
+   {
+    "adate": "2021-09-21T16:35:41-06:00",
+    "author": "Michael Ficarra",
+    "date": "2021-09-21T16:35:41-06:00",
+    "hash": "5af73dfbb6fab0857ec4ef35825a70727849a102",
+    "parents": "1e23cef16096204de43c50e6108b2d0d86307244",
+    "subject": "Editorial: inline infallible CreateDataPropertyOrThrow calls"
+   }
+  ],
+  "title": "Editorial: inline infallible CreateDataPropertyOrThrow calls",
+  "updated_at": "2021-09-21T22:40:59Z"
+ },
+ {
+  "base": "1e23cef16096204de43c50e6108b2d0d86307244",
   "created_at": "2021-09-21T22:04:21Z",
   "head": "ff975a8876a63c6140549c9936f611fdab31eec9",
   "login": "tc39",
