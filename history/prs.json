@@ -90,11 +90,19 @@
  {
   "base": "38562e740de1e44ce7c97b8a984173fca5344015",
   "created_at": "2021-09-12T01:33:10Z",
-  "head": "3b8391e9b07dba57092576789bd41d0f1e888666",
+  "head": "306a502c6a18f5373304092e1f99cbc5df14f56a",
   "login": "tc39",
   "number": 2512,
   "ref": "sdo-descriptions",
   "revs": [
+   {
+    "adate": "2021-09-20T19:46:58-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-09-20T19:46:58-07:00",
+    "hash": "306a502c6a18f5373304092e1f99cbc5df14f56a",
+    "parents": "3b8391e9b07dba57092576789bd41d0f1e888666",
+    "subject": "address jmdyck comments"
+   },
    {
     "adate": "2021-09-18T11:39:17-07:00",
     "author": "Kevin Gibbons",
@@ -113,7 +121,7 @@
    }
   ],
   "title": "Markup: have SDOs use structured headers",
-  "updated_at": "2021-09-18T18:40:37Z"
+  "updated_at": "2021-09-21T03:01:34Z"
  },
  {
   "base": "56ed133fb890f0c6e291ca696d8adf18891b72a6",
