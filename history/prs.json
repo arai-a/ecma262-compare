@@ -1,5 +1,217 @@
 [
  {
+  "base": "b3c9c3d6985e40939685312023b3f9874fb10425",
+  "created_at": "2021-09-23T04:32:45Z",
+  "head": "1d2ea67e9fa6ad2007fb3d1a807c445952f67c5a",
+  "login": "tc39",
+  "number": 2532,
+  "ref": "keep-old-years",
+  "revs": [
+   {
+    "adate": "2021-09-22T21:46:53-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-09-22T21:46:53-07:00",
+    "hash": "1d2ea67e9fa6ad2007fb3d1a807c445952f67c5a",
+    "parents": "098fd78cf547b610188912401b236d1a2d273885",
+    "subject": "es20XX -> 20XX"
+   },
+   {
+    "adate": "2021-09-22T21:21:31-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-09-22T21:25:02-07:00",
+    "hash": "098fd78cf547b610188912401b236d1a2d273885",
+    "parents": "b3c9c3d6985e40939685312023b3f9874fb10425",
+    "subject": "Meta: Keep old years in gh-pages"
+   }
+  ],
+  "title": "Meta: Keep old years in gh-pages",
+  "updated_at": "2021-09-23T04:47:22Z"
+ },
+ {
+  "base": "b3c9c3d6985e40939685312023b3f9874fb10425",
+  "created_at": "2021-09-23T04:32:25Z",
+  "head": "56079e29d728cebfefd725ba9bf9e27edcc3e5ea",
+  "login": "jmdyck",
+  "number": 2531,
+  "ref": "Pattern_ops",
+  "revs": [
+   {
+    "adate": "2021-09-22T21:49:28-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-09-22T21:49:28-04:00",
+    "hash": "56079e29d728cebfefd725ba9bf9e27edcc3e5ea",
+    "parents": "fda81eb8fecadeeed77aa23a8472584095e89ed7",
+    "subject": "Editorial: Drop Compile rules that are handled by the chain rule"
+   },
+   {
+    "adate": "2021-09-22T21:36:29-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-09-22T21:36:29-04:00",
+    "hash": "fda81eb8fecadeeed77aa23a8472584095e89ed7",
+    "parents": "25cf714b1c258e59fb8eb3058baa46ddbd452c75",
+    "subject": "Editorial: Introduce CompilePattern SDO"
+   },
+   {
+    "adate": "2021-09-22T20:46:08-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-09-22T21:00:49-04:00",
+    "hash": "25cf714b1c258e59fb8eb3058baa46ddbd452c75",
+    "parents": "15d481b2e27b117e11f7ec0f7953ef7c40dd0d21",
+    "subject": "Editorial: Introduce CompileSubpattern SDO"
+   },
+   {
+    "adate": "2021-09-22T19:38:39-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-09-22T21:00:49-04:00",
+    "hash": "15d481b2e27b117e11f7ec0f7953ef7c40dd0d21",
+    "parents": "2ae713c0765bf5c25e96de066df530195b1b8638",
+    "subject": "Editorial: Introduce CompileAssertion SDO"
+   },
+   {
+    "adate": "2021-09-22T18:13:32-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-09-22T21:00:49-04:00",
+    "hash": "2ae713c0765bf5c25e96de066df530195b1b8638",
+    "parents": "5e6ab5c3f96e9e8f78247babf9c63886f66b1fc3",
+    "subject": "Editorial: Introduce CompileQuantifier SDO"
+   },
+   {
+    "adate": "2021-09-22T18:03:46-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-09-22T21:00:49-04:00",
+    "hash": "5e6ab5c3f96e9e8f78247babf9c63886f66b1fc3",
+    "parents": "209b8477f84e82f60f7f8bd6eda2ed5747578749",
+    "subject": "Editorial: Introduce CompileQuantifierPrefix SDO"
+   },
+   {
+    "adate": "2021-09-22T17:48:01-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-09-22T21:00:49-04:00",
+    "hash": "209b8477f84e82f60f7f8bd6eda2ed5747578749",
+    "parents": "14211816a738453e93c0c80ce0bcb9926f2e00a1",
+    "subject": "Editorial: Introduce CompileAtom SDO"
+   },
+   {
+    "adate": "2021-09-22T17:15:48-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-09-22T21:00:48-04:00",
+    "hash": "14211816a738453e93c0c80ce0bcb9926f2e00a1",
+    "parents": "5cd422145ab06211dcacb14135b969bd8be046e6",
+    "subject": "Editorial: Introduce CompileCharacterClass SDO"
+   },
+   {
+    "adate": "2021-09-22T17:00:28-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-09-22T21:00:48-04:00",
+    "hash": "5cd422145ab06211dcacb14135b969bd8be046e6",
+    "parents": "065ea53dabf89d27a28306f42e9491e0e0a665c8",
+    "subject": "Editorial: Introduce CompileToCharSet SDO"
+   },
+   {
+    "adate": "2021-09-22T14:11:54-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-09-22T14:11:54-04:00",
+    "hash": "065ea53dabf89d27a28306f42e9491e0e0a665c8",
+    "parents": "6191affd08a58899ddb11acb682075bd1ae086dd",
+    "subject": "Editorial: When evaluating a |CharacterClass|, return a Record"
+   },
+   {
+    "adate": "2021-09-22T13:55:06-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-09-22T13:55:06-04:00",
+    "hash": "6191affd08a58899ddb11acb682075bd1ae086dd",
+    "parents": "2c13097417d2cefd9fd600d998cb5cbaf1b0fe84",
+    "subject": "Editorial: When evaluating a |QuantifierPrefix|, return a Record"
+   },
+   {
+    "adate": "2021-09-22T13:38:34-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-09-22T13:38:34-04:00",
+    "hash": "2c13097417d2cefd9fd600d998cb5cbaf1b0fe84",
+    "parents": "f23a5b9719933bed2b610841f79f5d8bc6f2adee",
+    "subject": "Editorial: When evaluating a |Quantifier|, return a Record"
+   },
+   {
+    "adate": "2021-09-21T23:56:37-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-09-21T23:56:37-04:00",
+    "hash": "f23a5b9719933bed2b610841f79f5d8bc6f2adee",
+    "parents": "dd52542234790f3d4f1fa77571daeb40bd061a20",
+    "subject": "Editorial: Move some abstract operations in the \"Pattern Semantics\" clause"
+   },
+   {
+    "adate": "2021-09-21T23:09:06-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-09-21T23:09:06-04:00",
+    "hash": "dd52542234790f3d4f1fa77571daeb40bd061a20",
+    "parents": "4dc92a99ed0f08d53f6608748555993da03c78bf",
+    "subject": "Editorial: Move the evaluation rules for |CharacterClassEscape|"
+   },
+   {
+    "adate": "2021-09-21T22:59:04-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-09-21T22:59:04-04:00",
+    "hash": "4dc92a99ed0f08d53f6608748555993da03c78bf",
+    "parents": "482b63266a03248fcaeef0474de19c3323b5614d",
+    "subject": "Editorial: Inline the evaluation rule for |DecimalEscape|"
+   },
+   {
+    "adate": "2021-09-21T22:36:20-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-09-21T22:36:20-04:00",
+    "hash": "482b63266a03248fcaeef0474de19c3323b5614d",
+    "parents": "1e23cef16096204de43c50e6108b2d0d86307244",
+    "subject": "Editorial: Inline the evaluation rule for |CharacterEscape|"
+   }
+  ],
+  "title": "Editorial: Re-cast Pattern \"evaluation\" rules as 8 conventional SDOs",
+  "updated_at": "2021-09-23T04:32:25Z"
+ },
+ {
+  "base": "b3c9c3d6985e40939685312023b3f9874fb10425",
+  "created_at": "2021-09-23T04:19:01Z",
+  "head": "cb4f2250b6bdbc364c4acaa7f63130df04747836",
+  "login": "jmdyck",
+  "number": 2530,
+  "ref": "quick_fixes_3",
+  "revs": [
+   {
+    "adate": "2021-09-23T00:13:47-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-09-23T00:13:47-04:00",
+    "hash": "cb4f2250b6bdbc364c4acaa7f63130df04747836",
+    "parents": "297bc014090be0e856ee93cfd030db63d9c207c9",
+    "subject": "Editorial: Change \"host defined\" to \"host-defined\""
+   },
+   {
+    "adate": "2021-09-23T00:11:48-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-09-23T00:11:48-04:00",
+    "hash": "297bc014090be0e856ee93cfd030db63d9c207c9",
+    "parents": "89a714a0efadf111a2b9c928e8b20dc556fa8f7b",
+    "subject": "Editorial: Rephrase two parameter 'types'"
+   },
+   {
+    "adate": "2021-09-22T23:56:44-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-09-22T23:56:44-04:00",
+    "hash": "89a714a0efadf111a2b9c928e8b20dc556fa8f7b",
+    "parents": "58f1262b933181303e0a89257b5d314e9886007d",
+    "subject": "Editorial: Fix prose re Record field values"
+   },
+   {
+    "adate": "2021-09-22T23:42:00-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-09-22T23:42:00-04:00",
+    "hash": "58f1262b933181303e0a89257b5d314e9886007d",
+    "parents": "b3c9c3d6985e40939685312023b3f9874fb10425",
+    "subject": "Markup: Structured header for [[GetPrototypeOf]] of module NS object"
+   }
+  ],
+  "title": "Editorial: Quick fixes",
+  "updated_at": "2021-09-23T04:19:01Z"
+ },
+ {
   "base": "1e23cef16096204de43c50e6108b2d0d86307244",
   "created_at": "2021-09-21T22:37:38Z",
   "head": "5af73dfbb6fab0857ec4ef35825a70727849a102",
@@ -66,58 +278,6 @@
   ],
   "title": "Normative: List new Unicode v14 `Script`/`Script_Extensions` values",
   "updated_at": "2021-09-14T12:19:11Z"
- },
- {
-  "base": "56ed133fb890f0c6e291ca696d8adf18891b72a6",
-  "created_at": "2021-08-26T07:11:01Z",
-  "head": "ee0b7758169d072343dc6e43a09996a38ce4802a",
-  "login": "gibson042",
-  "number": 2501,
-  "ref": "2021-08-refactor-index-conversion",
-  "revs": [
-   {
-    "adate": "2021-09-22T12:17:04-04:00",
-    "author": "Richard Gibson",
-    "date": "2021-09-22T12:17:04-04:00",
-    "hash": "ee0b7758169d072343dc6e43a09996a38ce4802a",
-    "parents": "f128a827db7457777a0a5c0c3146d57c130247ad",
-    "subject": "Editorial: Accept suggestion"
-   },
-   {
-    "adate": "2021-08-27T12:36:44-04:00",
-    "author": "Richard Gibson",
-    "date": "2021-08-27T12:38:29-04:00",
-    "hash": "f128a827db7457777a0a5c0c3146d57c130247ad",
-    "parents": "d12ce15d190fd7ee406484b8fd43d3ad1f50cfdf",
-    "subject": "remove observable double-ToNumber"
-   },
-   {
-    "adate": "2021-08-26T02:45:41-04:00",
-    "author": "Richard Gibson",
-    "date": "2021-08-26T02:45:41-04:00",
-    "hash": "d12ce15d190fd7ee406484b8fd43d3ad1f50cfdf",
-    "parents": "8086d89dc815abc9fbc1e2d4e244b630d1b9db58",
-    "subject": "Editorial: Clarify ToIntegerOrInfinity"
-   },
-   {
-    "adate": "2021-08-26T02:44:13-04:00",
-    "author": "Richard Gibson",
-    "date": "2021-08-26T02:44:13-04:00",
-    "hash": "8086d89dc815abc9fbc1e2d4e244b630d1b9db58",
-    "parents": "461c65cc1b83d48ff1f0a53ec032948118979165",
-    "subject": "Editorial: Clarify ToLength"
-   },
-   {
-    "adate": "2021-08-26T02:40:11-04:00",
-    "author": "Richard Gibson",
-    "date": "2021-08-26T02:41:08-04:00",
-    "hash": "461c65cc1b83d48ff1f0a53ec032948118979165",
-    "parents": "886cc56ac70d8be969a55c43feb2f5c2cb9c69c1",
-    "subject": "Editorial: Clarify ToIndex"
-   }
-  ],
-  "title": "Clarify ToIndex, ToLength, and ToIntegerOrInfinity",
-  "updated_at": "2021-09-22T16:37:37Z"
  },
  {
   "base": "2e131c21e8f598b167064485ca592ab5906b1c36",
@@ -970,26 +1130,6 @@
   ],
   "title": "Editorial: Rework Module Namespace's [[Get]] method",
   "updated_at": "2021-04-03T22:13:31Z"
- },
- {
-  "base": "d9e56927df060215f849199fd9055fb39c4213de",
-  "created_at": "2021-03-01T12:03:47Z",
-  "head": "831e12efb2f470576a98c2fd2976b8b57e5b765a",
-  "login": "shvaikalesh",
-  "number": 2335,
-  "ref": "module-namespace-add-getprototypeof-method",
-  "revs": [
-   {
-    "adate": "2021-03-01T13:46:04+02:00",
-    "author": "Alexey Shvayka",
-    "date": "2021-03-01T13:58:47+02:00",
-    "hash": "831e12efb2f470576a98c2fd2976b8b57e5b765a",
-    "parents": "d9e56927df060215f849199fd9055fb39c4213de",
-    "subject": "Editorial: Define Module Namespace's [[GetPrototypeOf]] method"
-   }
-  ],
-  "title": "Editorial: Define Module Namespace's [[GetPrototypeOf]] method",
-  "updated_at": "2021-03-01T12:03:47Z"
  },
  {
   "base": "d9e56927df060215f849199fd9055fb39c4213de",
