@@ -876,9 +876,9 @@
   "updated_at": "2021-04-30T03:28:25Z"
  },
  {
-  "base": "f8053dfc8b8a3804ee854c614a6210ec416c8ced",
+  "base": "e4c9f6359996a63296f13f961a12dbbf339ccbb7",
   "created_at": "2021-04-24T03:57:41Z",
-  "head": "b9fcd20807494aa3d016bd44938f9c5ed0a21b9c",
+  "head": "0c5694abba42c89d4583ad31ec7dac1a6a040c5f",
   "login": "jmdyck",
   "number": 2392,
   "ref": "IdentifierCodePoints",
@@ -886,30 +886,30 @@
    {
     "adate": "2021-04-23T23:49:12-04:00",
     "author": "Michael Dyck",
-    "date": "2021-08-16T21:33:25-04:00",
-    "hash": "b9fcd20807494aa3d016bd44938f9c5ed0a21b9c",
-    "parents": "4fd13c561e965220bda13ecb61826a5ca9c79995",
+    "date": "2021-09-24T16:39:26-04:00",
+    "hash": "0c5694abba42c89d4583ad31ec7dac1a6a040c5f",
+    "parents": "bca1b55effde6a490b7ee3da3a2d5dd4485d73ed",
     "subject": "Editorial: Move 2 paragraphs down one level"
    },
    {
     "adate": "2021-04-23T23:20:11-04:00",
     "author": "Michael Dyck",
-    "date": "2021-08-16T21:33:25-04:00",
-    "hash": "4fd13c561e965220bda13ecb61826a5ca9c79995",
-    "parents": "1f5c14d7e1e0fdf958cc4228b9bc00eefdc56e2c",
+    "date": "2021-09-24T16:39:26-04:00",
+    "hash": "bca1b55effde6a490b7ee3da3a2d5dd4485d73ed",
+    "parents": "aa7b3aa78b327ae7636db0e8d02954f2ee1e8a9d",
     "subject": "Editorial: Introduce [RegExp]IdentifierCodePoint[s] SDOs"
    },
    {
     "adate": "2021-04-11T20:23:26-04:00",
     "author": "Michael Dyck",
-    "date": "2021-08-16T21:33:25-04:00",
-    "hash": "1f5c14d7e1e0fdf958cc4228b9bc00eefdc56e2c",
-    "parents": "f8053dfc8b8a3804ee854c614a6210ec416c8ced",
+    "date": "2021-09-24T16:24:18-04:00",
+    "hash": "aa7b3aa78b327ae7636db0e8d02954f2ee1e8a9d",
+    "parents": "e4c9f6359996a63296f13f961a12dbbf339ccbb7",
     "subject": "Editorial: Introduce `IdentifierStartChar` + `IdentifierPartChar`"
    }
   ],
   "title": "Editorial: Improve specification of [RegExp]IdentifierNames",
-  "updated_at": "2021-08-17T01:37:13Z"
+  "updated_at": "2021-09-24T20:47:14Z"
  },
  {
   "base": "26061c0e5e4b62fae91a7127b46c1efa8b94c4b4",
@@ -1056,9 +1056,9 @@
   "updated_at": "2021-04-16T07:30:20Z"
  },
  {
-  "base": "b3e6dfe61966b9a0eded9c7c5bd037b01e10abf2",
+  "base": "e4c9f6359996a63296f13f961a12dbbf339ccbb7",
   "created_at": "2021-03-20T03:43:59Z",
-  "head": "366e0c56c5945c0315d237cb9621a6e00b1f78e9",
+  "head": "4505fa90f961e81801a00bc15a78fbdf60674018",
   "login": "jmdyck",
   "number": 2353,
   "ref": "rename_aliases",
@@ -1066,22 +1066,22 @@
    {
     "adate": "2021-03-19T21:16:34-04:00",
     "author": "Michael Dyck",
-    "date": "2021-09-14T11:54:35-04:00",
-    "hash": "366e0c56c5945c0315d237cb9621a6e00b1f78e9",
-    "parents": "645ee5a4187cf5c40213c9d2aa51dd47225dc427",
+    "date": "2021-09-24T17:02:53-04:00",
+    "hash": "4505fa90f961e81801a00bc15a78fbdf60674018",
+    "parents": "56adf4f3d2a0e4d95129c17d4a08bc195e61dfa8",
     "subject": "Editorial: Rename some script-related aliases (#2353)"
    },
    {
     "adate": "2021-03-19T17:19:03-04:00",
     "author": "Michael Dyck",
-    "date": "2021-09-14T11:54:35-04:00",
-    "hash": "645ee5a4187cf5c40213c9d2aa51dd47225dc427",
-    "parents": "b3e6dfe61966b9a0eded9c7c5bd037b01e10abf2",
+    "date": "2021-09-24T17:02:53-04:00",
+    "hash": "56adf4f3d2a0e4d95129c17d4a08bc195e61dfa8",
+    "parents": "e4c9f6359996a63296f13f961a12dbbf339ccbb7",
     "subject": "Editorial: Rename `_scope_` to `_env_` (and similar cases) (#2353)"
    }
   ],
   "title": "Editorial: Rename some aliases",
-  "updated_at": "2021-09-14T15:57:07Z"
+  "updated_at": "2021-09-24T21:08:43Z"
  },
  {
   "base": "417a0bb5bc3a6d7117c33cf50803483d9bd7adc1",
