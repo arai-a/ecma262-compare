@@ -751,7 +751,7 @@ class Revisions:
 
         parent = None
         for release in Config.RELEASES:
-            rev = list(LocalRepository.revs(['origin/{}'.format(release)]))[0]
+            rev = list(LocalRepository.revs([release]))[0]
             rev['release'] = release
             if parent:
                 rev['parents'] = parent
@@ -803,7 +803,7 @@ class Revisions:
         revs = []
         for release in Config.RELEASES:
             LocalRepository.fetch('origin', release)
-            rev = list(LocalRepository.revs(['origin/{}'.format(release)]))[0]
+            rev = list(LocalRepository.revs([release]))[0]
             revs.append(rev)
 
         updated_any = False

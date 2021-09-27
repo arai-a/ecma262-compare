@@ -4064,57 +4064,57 @@
   "subject": "Editorial: Tweak casing of \"empty String\" and \"Number value\" (#1780)"
  },
  {
-  "adate": "2021-09-22T19:42:22-07:00",
-  "author": "Kevin Gibbons",
-  "date": "2021-09-22T19:55:19-07:00",
-  "hash": "0b458053c44299f204632312821a3083c479294b",
-  "parents": "b154ce84698377ab53fe88c889633263607f4423",
+  "adate": "2016-03-04T20:17:40-05:00",
+  "author": "Mike Pennisi",
+  "date": "2016-03-25T12:24:10-07:00",
+  "hash": "b154ce84698377ab53fe88c889633263607f4423",
+  "parents": "6a9099db8281872fa9c96fcad93c937868f1158d",
   "release": "es2016",
-  "subject": "Meta: tweaks for es2016 branch"
+  "subject": "Normative: Limit application of Annex B extension"
  },
  {
-  "adate": "2021-09-22T19:51:13-07:00",
-  "author": "Kevin Gibbons",
-  "date": "2021-09-22T20:22:49-07:00",
-  "hash": "101dfd3bc6ea0fe96b9bc801c42c7903799dd99d",
-  "parents": "0b458053c44299f204632312821a3083c479294b",
+  "adate": "2017-06-05T18:17:44-07:00",
+  "author": "Brian Terlson",
+  "date": "2017-06-05T18:17:44-07:00",
+  "hash": "7301daf5ab1f0959b203c2e63ecccb21fe13d5e5",
+  "parents": "b154ce84698377ab53fe88c889633263607f4423",
   "release": "es2017",
-  "subject": "Meta: tweaks for es2017 branch"
+  "subject": "Editorial: ES2017 introduction updates"
  },
  {
-  "adate": "2021-09-22T19:58:12-07:00",
-  "author": "Kevin Gibbons",
-  "date": "2021-09-22T20:00:47-07:00",
-  "hash": "fd98c97252f28f6a2ab1a8e754dd6ef4b3ecca52",
-  "parents": "101dfd3bc6ea0fe96b9bc801c42c7903799dd99d",
+  "adate": "2018-06-27T12:16:26-07:00",
+  "author": "Brian Terlson",
+  "date": "2018-06-27T12:16:26-07:00",
+  "hash": "0d37f42998733743c294209884120d722384f095",
+  "parents": "7301daf5ab1f0959b203c2e63ecccb21fe13d5e5",
   "release": "es2018",
-  "subject": "Meta: tweaks for es2018 branch"
+  "subject": "Update es2018 metadata for final standard"
  },
  {
-  "adate": "2021-09-22T20:03:59-07:00",
-  "author": "Kevin Gibbons",
-  "date": "2021-09-22T20:04:05-07:00",
-  "hash": "a8a59dd002ee40507e93f2b169abdcc2d6cc4426",
-  "parents": "fd98c97252f28f6a2ab1a8e754dd6ef4b3ecca52",
+  "adate": "2019-02-28T22:58:26-08:00",
+  "author": "Jordan Harband",
+  "date": "2019-02-28T22:58:26-08:00",
+  "hash": "bc6fd169661d8737d7087bb822ef2a9c7148ac0b",
+  "parents": "0d37f42998733743c294209884120d722384f095",
   "release": "es2019",
-  "subject": "Meta: tweaks for es2019 branch"
+  "subject": "Meta: add PDF printing CSS"
  },
  {
-  "adate": "2021-09-22T20:07:48-07:00",
-  "author": "Kevin Gibbons",
-  "date": "2021-09-22T20:25:21-07:00",
-  "hash": "156c59d958ae71fb141604211e6f15a9cd5de491",
-  "parents": "a8a59dd002ee40507e93f2b169abdcc2d6cc4426",
+  "adate": "2020-04-30T01:40:37+03:00",
+  "author": "Alexey Shvayka",
+  "date": "2020-05-01T14:49:30-07:00",
+  "hash": "dfd5ea2ec5862de21b005737650ba08bc57271fa",
+  "parents": "bc6fd169661d8737d7087bb822ef2a9c7148ac0b",
   "release": "es2020",
-  "subject": "Meta: tweaks for es2020 branch"
+  "subject": "Editorial: Fix casing of @@hasInstance well-known symbol (#1978)"
  },
  {
-  "adate": "2021-09-22T20:09:53-07:00",
-  "author": "Kevin Gibbons",
-  "date": "2021-09-22T20:28:35-07:00",
-  "hash": "41ddcc284ba20945658b96f4c89cc549ab11da30",
-  "parents": "156c59d958ae71fb141604211e6f15a9cd5de491",
+  "adate": "2021-03-09T06:56:46+01:00",
+  "author": "Mathias Bynens",
+  "date": "2021-03-08T22:23:39-08:00",
+  "hash": "fc85c50181b2b8d7d75f034800528d87fda6b654",
+  "parents": "dfd5ea2ec5862de21b005737650ba08bc57271fa",
   "release": "es2021",
-  "subject": "Meta: tweaks for es2021 branch"
+  "subject": "Editorial: Clarify ES2021 Array.prototype.sort change (#2342)"
  }
 ]

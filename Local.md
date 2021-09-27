@@ -70,3 +70,15 @@ $ ./venv/bin/python build.py pr all
 ```
 
 It retrieves the list of PRs and update each PR.
+
+## Update all releases
+
+```
+$ make releases
+```
+
+or 
+
+```
+$ ./venv/bin/python build.py rev releases
+```
