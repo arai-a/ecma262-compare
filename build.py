@@ -75,6 +75,7 @@ class Config:
     FIRST_REV = __config['first_rev']
     UPDATE_FIRST_REV = __config['update_first_rev']
     FIRST_PR = __config['first_pr']
+    RELEASES = __config['releases']
     BROKEN_REVS = FileUtils.read_json(__broken_revs_path)
 
     @classmethod
@@ -748,6 +749,15 @@ class Revisions:
 
         revs.sort(key=lambda rev: rev['date'], reverse=True)
 
+        parent = None
+        for release in Config.RELEASES:
+            rev = list(LocalRepository.revs(['origin/{}'.format(release)]))[0]
+            rev['release'] = release
+            if parent:
+                rev['parents'] = parent
+            parent = rev['hash']
+            revs.append(rev)
+
         revs = unique(lambda rev: rev['hash'],
                       filter(CacheChecker.has_sections_json, revs))
 
@@ -789,11 +799,45 @@ class Revisions:
 
         return updated_any
 
+    def __update_releases(releases, count, skip_cache):
+        revs = []
+        for release in Config.RELEASES:
+            LocalRepository.fetch('origin', release)
+            rev = list(LocalRepository.revs(['origin/{}'.format(release)]))[0]
+            revs.append(rev)
+
+        updated_any = False
+
+        i = 0
+        # Update from older revisions
+        for rev in reversed(revs):
+            i += 1
+            Logger.info('{}/{}'.format(i, len(revs)))
+
+            sha = rev['hash']
+
+            updated = RevisionRenderer.run(sha, None, skip_cache)
+
+            if updated:
+                updated_any = True
+
+            if count is not None:
+                if updated:
+                    count -= 1
+                    if count == 0:
+                        break
+
+        return updated_any
+
     @classmethod
     def update_all(cls, count, skip_cache):
         return cls.__update_revset(
             ['{}^..{}'.format(Config.UPDATE_FIRST_REV, 'origin/master')],
             count, skip_cache)
+
+    @classmethod
+    def update_releases(cls, count, skip_cache):
+        return cls.__update_releases(Config.RELEASES, count, skip_cache)
 
     @classmethod
     def update(cls, target_rev, skip_cache):
@@ -1003,6 +1047,10 @@ if args.command == 'clone':
 elif args.command == 'rev':
     if args.REV == 'all':
         updated = Revisions.update_all(args.c, args.skip_cache)
+        if not args.skip_list and updated:
+            Revisions.update_cache()
+    elif args.REV == 'releases':
+        updated = Revisions.update_releases(args.c, args.skip_cache)
         if not args.skip_list and updated:
             Revisions.update_cache()
     else:

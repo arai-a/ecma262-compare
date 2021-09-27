@@ -677,7 +677,11 @@ class Comparator {
       if (subject.length > MAX_SUBJECT_LENGTH) {
         subject = subject.slice(0, MAX_SUBJECT_LENGTH - 1) + "\u2026";
       }
-      opt.textContent = `${rev.hash} (${DateUtils.toReadable(rev.date)}) ${subject}`;
+      if ("release" in rev) {
+        opt.textContent = `${rev.release} (${DateUtils.toReadable(rev.date)}) ${subject}`;
+      } else {
+        opt.textContent = `${rev.hash} (${DateUtils.toReadable(rev.date)}) ${subject}`;
+      }
       menu.appendChild(opt);
     }
   }
@@ -693,10 +697,23 @@ class Comparator {
     opt.textContent = "-";
     menu.appendChild(opt);
 
+    const releases = [];
+
     for (const rev of this.revs) {
+      if ("release" in rev) {
+        releases.push(rev);
+        continue;
+      }
       const opt = document.createElement("option");
       opt.value = rev.hash;
       opt.textContent = `${rev.hash} (${DateUtils.toReadable(rev.date)})`;
+      menu.appendChild(opt);
+    }
+
+    for (const rev of releases) {
+      const opt = document.createElement("option");
+      opt.value = rev.hash;
+      opt.textContent = `${rev.release} ${DateUtils.toReadable(rev.date)})`;
       menu.appendChild(opt);
     }
 
@@ -723,7 +740,12 @@ class Comparator {
 
     for (const rev of this.revs) {
       const value = rev.hash;
-      const label = `${rev.hash} (${DateUtils.toReadable(rev.date)}) ${rev.subject}`;
+      let label;
+      if ("release" in rev) {
+        label = `${rev.release} (${DateUtils.toReadable(rev.date)}) ${rev.subject}`;
+      } else {
+        label = `${rev.hash} (${DateUtils.toReadable(rev.date)}) ${rev.subject}`;
+      }
       revsAndPRs.push({ label, value });
       map[label] = value;
 

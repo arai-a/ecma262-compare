@@ -28,6 +28,9 @@ update1:
 update5:
 	$(PYTHON) build.py rev -c 5 all
 
+releases:
+	$(PYTHON) build.py rev releases
+
 pr:
 	$(PYTHON) build.py pr all
 
