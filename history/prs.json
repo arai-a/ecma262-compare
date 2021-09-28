@@ -550,11 +550,19 @@
  {
   "base": "c8ee5189e15562b61f15c8351832b363ee522c93",
   "created_at": "2021-07-15T15:15:43Z",
-  "head": "69a11f4423cc982670a38cd920ce4d745887fe1f",
+  "head": "0915353ccc381805f30026954a7c659ad2fd72be",
   "login": "gibson042",
   "number": 2457,
   "ref": "2021-07-date-ao-parameter-types",
   "revs": [
+   {
+    "adate": "2021-09-27T20:03:36-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-09-27T20:03:36-07:00",
+    "hash": "0915353ccc381805f30026954a7c659ad2fd72be",
+    "parents": "69a11f4423cc982670a38cd920ce4d745887fe1f",
+    "subject": "fixup! move type to header"
+   },
    {
     "adate": "2021-07-15T11:13:53-04:00",
     "author": "Richard Gibson",
@@ -565,7 +573,7 @@
    }
   ],
   "title": "Editorial: Document parameter type for Date Abstract Operations",
-  "updated_at": "2021-07-15T15:15:43Z"
+  "updated_at": "2021-09-28T03:04:36Z"
  },
  {
   "base": "b3e6dfe61966b9a0eded9c7c5bd037b01e10abf2",
