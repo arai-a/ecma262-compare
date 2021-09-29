@@ -1,6 +1,26 @@
 [
  {
   "base": "59b748526265944dd214eb93f7d7c92a0050d3c3",
+  "created_at": "2021-09-29T04:33:36Z",
+  "head": "8e65afde3815b155527e98de3fabeb3ce7d54074",
+  "login": "ljharb",
+  "number": 2537,
+  "ref": "fix_typo",
+  "revs": [
+   {
+    "adate": "2021-09-28T21:49:09-07:00",
+    "author": "Jordan Harband",
+    "date": "2021-09-28T21:49:09-07:00",
+    "hash": "8e65afde3815b155527e98de3fabeb3ce7d54074",
+    "parents": "59b748526265944dd214eb93f7d7c92a0050d3c3",
+    "subject": "Editorial: `lastIndexOf`: fix typo from #2536 (#2537)"
+   }
+  ],
+  "title": "Editorial: `lastIndexOf`: fix typo from #2536",
+  "updated_at": "2021-09-29T04:49:16Z"
+ },
+ {
+  "base": "59b748526265944dd214eb93f7d7c92a0050d3c3",
   "created_at": "2021-09-23T04:32:25Z",
   "head": "0439757a319208352d6576e4d6f1dc7b9a84a535",
   "login": "jmdyck",
