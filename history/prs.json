@@ -1,28 +1,8 @@
 [
  {
-  "base": "1901514ff9aaf2041fc89f9007848910db5bac9e",
-  "created_at": "2021-09-28T01:31:42Z",
-  "head": "c5cc36a2db2242949848ae2a98abe6ae983ed716",
-  "login": "ljharb",
-  "number": 2536,
-  "ref": "lastindexof",
-  "revs": [
-   {
-    "adate": "2021-09-28T09:42:48-07:00",
-    "author": "Jordan Harband",
-    "date": "2021-09-28T09:42:48-07:00",
-    "hash": "c5cc36a2db2242949848ae2a98abe6ae983ed716",
-    "parents": "1901514ff9aaf2041fc89f9007848910db5bac9e",
-    "subject": "Editorial: `String.prototype.lastIndexOf`: use explicit algorithm steps (#2536)"
-   }
-  ],
-  "title": "Editorial: `String.prototype.lastIndexOf`: use explicit algorithm steps",
-  "updated_at": "2021-09-28T16:47:54Z"
- },
- {
-  "base": "b3c9c3d6985e40939685312023b3f9874fb10425",
+  "base": "59b748526265944dd214eb93f7d7c92a0050d3c3",
   "created_at": "2021-09-23T04:32:25Z",
-  "head": "56079e29d728cebfefd725ba9bf9e27edcc3e5ea",
+  "head": "0439757a319208352d6576e4d6f1dc7b9a84a535",
   "login": "jmdyck",
   "number": 2531,
   "ref": "Pattern_ops",
@@ -30,134 +10,150 @@
    {
     "adate": "2021-09-22T21:49:28-04:00",
     "author": "Michael Dyck",
-    "date": "2021-09-22T21:49:28-04:00",
-    "hash": "56079e29d728cebfefd725ba9bf9e27edcc3e5ea",
-    "parents": "fda81eb8fecadeeed77aa23a8472584095e89ed7",
+    "date": "2021-09-28T23:27:48-04:00",
+    "hash": "0439757a319208352d6576e4d6f1dc7b9a84a535",
+    "parents": "2742321a773b5d55402d1c88b3ae21ab0f6175ca",
     "subject": "Editorial: Drop Compile rules that are handled by the chain rule"
+   },
+   {
+    "adate": "2021-09-28T23:27:20-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-09-28T23:27:20-04:00",
+    "hash": "2742321a773b5d55402d1c88b3ae21ab0f6175ca",
+    "parents": "26fde7bfdaae0fa488bf4c39693251d7d1cef788",
+    "subject": "FIXUP: Delete comma in description of CompilePattern"
    },
    {
     "adate": "2021-09-22T21:36:29-04:00",
     "author": "Michael Dyck",
-    "date": "2021-09-22T21:36:29-04:00",
-    "hash": "fda81eb8fecadeeed77aa23a8472584095e89ed7",
-    "parents": "25cf714b1c258e59fb8eb3058baa46ddbd452c75",
+    "date": "2021-09-28T23:26:42-04:00",
+    "hash": "26fde7bfdaae0fa488bf4c39693251d7d1cef788",
+    "parents": "f924ce3fbb080d25648433d16b5a1b5c344f8050",
     "subject": "Editorial: Introduce CompilePattern SDO"
    },
    {
     "adate": "2021-09-22T20:46:08-04:00",
     "author": "Michael Dyck",
-    "date": "2021-09-22T21:00:49-04:00",
-    "hash": "25cf714b1c258e59fb8eb3058baa46ddbd452c75",
-    "parents": "15d481b2e27b117e11f7ec0f7953ef7c40dd0d21",
+    "date": "2021-09-28T23:26:42-04:00",
+    "hash": "f924ce3fbb080d25648433d16b5a1b5c344f8050",
+    "parents": "81d548b7d3a68061e0067f96f168979744d6d82f",
     "subject": "Editorial: Introduce CompileSubpattern SDO"
    },
    {
     "adate": "2021-09-22T19:38:39-04:00",
     "author": "Michael Dyck",
-    "date": "2021-09-22T21:00:49-04:00",
-    "hash": "15d481b2e27b117e11f7ec0f7953ef7c40dd0d21",
-    "parents": "2ae713c0765bf5c25e96de066df530195b1b8638",
+    "date": "2021-09-28T23:26:42-04:00",
+    "hash": "81d548b7d3a68061e0067f96f168979744d6d82f",
+    "parents": "ae11e8c8b60b55dae0864905489c73f428f4d9b4",
     "subject": "Editorial: Introduce CompileAssertion SDO"
    },
    {
     "adate": "2021-09-22T18:13:32-04:00",
     "author": "Michael Dyck",
-    "date": "2021-09-22T21:00:49-04:00",
-    "hash": "2ae713c0765bf5c25e96de066df530195b1b8638",
-    "parents": "5e6ab5c3f96e9e8f78247babf9c63886f66b1fc3",
+    "date": "2021-09-28T23:26:42-04:00",
+    "hash": "ae11e8c8b60b55dae0864905489c73f428f4d9b4",
+    "parents": "a5460fdf5e023ee677abbb91ef7111e4527a6a57",
     "subject": "Editorial: Introduce CompileQuantifier SDO"
    },
    {
     "adate": "2021-09-22T18:03:46-04:00",
     "author": "Michael Dyck",
-    "date": "2021-09-22T21:00:49-04:00",
-    "hash": "5e6ab5c3f96e9e8f78247babf9c63886f66b1fc3",
-    "parents": "209b8477f84e82f60f7f8bd6eda2ed5747578749",
+    "date": "2021-09-28T23:26:42-04:00",
+    "hash": "a5460fdf5e023ee677abbb91ef7111e4527a6a57",
+    "parents": "4af9e0181351cd7718349e3c914e9a7285c57f1e",
     "subject": "Editorial: Introduce CompileQuantifierPrefix SDO"
    },
    {
     "adate": "2021-09-22T17:48:01-04:00",
     "author": "Michael Dyck",
-    "date": "2021-09-22T21:00:49-04:00",
-    "hash": "209b8477f84e82f60f7f8bd6eda2ed5747578749",
-    "parents": "14211816a738453e93c0c80ce0bcb9926f2e00a1",
+    "date": "2021-09-28T23:26:42-04:00",
+    "hash": "4af9e0181351cd7718349e3c914e9a7285c57f1e",
+    "parents": "904c6418c6ac1b85683163b625730b5001a48338",
     "subject": "Editorial: Introduce CompileAtom SDO"
    },
    {
     "adate": "2021-09-22T17:15:48-04:00",
     "author": "Michael Dyck",
-    "date": "2021-09-22T21:00:48-04:00",
-    "hash": "14211816a738453e93c0c80ce0bcb9926f2e00a1",
-    "parents": "5cd422145ab06211dcacb14135b969bd8be046e6",
+    "date": "2021-09-28T23:26:42-04:00",
+    "hash": "904c6418c6ac1b85683163b625730b5001a48338",
+    "parents": "f64981b16d87eb1054e2f9199419f09a12f68648",
     "subject": "Editorial: Introduce CompileCharacterClass SDO"
+   },
+   {
+    "adate": "2021-09-28T23:25:32-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-09-28T23:25:32-04:00",
+    "hash": "f64981b16d87eb1054e2f9199419f09a12f68648",
+    "parents": "7bd1f2d8504873572b7f93e31abfe136091b58e2",
+    "subject": "FIXUP: tweak CompileToCharSet wording as suggested by bakkot"
    },
    {
     "adate": "2021-09-22T17:00:28-04:00",
     "author": "Michael Dyck",
-    "date": "2021-09-22T21:00:48-04:00",
-    "hash": "5cd422145ab06211dcacb14135b969bd8be046e6",
-    "parents": "065ea53dabf89d27a28306f42e9491e0e0a665c8",
+    "date": "2021-09-24T15:56:25-04:00",
+    "hash": "7bd1f2d8504873572b7f93e31abfe136091b58e2",
+    "parents": "3c81cb8408953249d4c813155f5b25fc6b07e223",
     "subject": "Editorial: Introduce CompileToCharSet SDO"
    },
    {
     "adate": "2021-09-22T14:11:54-04:00",
     "author": "Michael Dyck",
-    "date": "2021-09-22T14:11:54-04:00",
-    "hash": "065ea53dabf89d27a28306f42e9491e0e0a665c8",
-    "parents": "6191affd08a58899ddb11acb682075bd1ae086dd",
+    "date": "2021-09-24T15:56:25-04:00",
+    "hash": "3c81cb8408953249d4c813155f5b25fc6b07e223",
+    "parents": "a651992072d8d4109eb792a0c6586a6fcae60191",
     "subject": "Editorial: When evaluating a |CharacterClass|, return a Record"
    },
    {
     "adate": "2021-09-22T13:55:06-04:00",
     "author": "Michael Dyck",
-    "date": "2021-09-22T13:55:06-04:00",
-    "hash": "6191affd08a58899ddb11acb682075bd1ae086dd",
-    "parents": "2c13097417d2cefd9fd600d998cb5cbaf1b0fe84",
+    "date": "2021-09-24T15:56:25-04:00",
+    "hash": "a651992072d8d4109eb792a0c6586a6fcae60191",
+    "parents": "82b753fc43bfb7290b6de742e44e5a00a61a2cb7",
     "subject": "Editorial: When evaluating a |QuantifierPrefix|, return a Record"
    },
    {
     "adate": "2021-09-22T13:38:34-04:00",
     "author": "Michael Dyck",
-    "date": "2021-09-22T13:38:34-04:00",
-    "hash": "2c13097417d2cefd9fd600d998cb5cbaf1b0fe84",
-    "parents": "f23a5b9719933bed2b610841f79f5d8bc6f2adee",
+    "date": "2021-09-24T15:56:25-04:00",
+    "hash": "82b753fc43bfb7290b6de742e44e5a00a61a2cb7",
+    "parents": "907df29244759d5713d119eb57a368d52456c904",
     "subject": "Editorial: When evaluating a |Quantifier|, return a Record"
    },
    {
     "adate": "2021-09-21T23:56:37-04:00",
     "author": "Michael Dyck",
-    "date": "2021-09-21T23:56:37-04:00",
-    "hash": "f23a5b9719933bed2b610841f79f5d8bc6f2adee",
-    "parents": "dd52542234790f3d4f1fa77571daeb40bd061a20",
+    "date": "2021-09-24T15:56:25-04:00",
+    "hash": "907df29244759d5713d119eb57a368d52456c904",
+    "parents": "e4369b5383d2fee7b6adebce670aab5abfef021c",
     "subject": "Editorial: Move some abstract operations in the \"Pattern Semantics\" clause"
    },
    {
     "adate": "2021-09-21T23:09:06-04:00",
     "author": "Michael Dyck",
-    "date": "2021-09-21T23:09:06-04:00",
-    "hash": "dd52542234790f3d4f1fa77571daeb40bd061a20",
-    "parents": "4dc92a99ed0f08d53f6608748555993da03c78bf",
+    "date": "2021-09-24T15:56:25-04:00",
+    "hash": "e4369b5383d2fee7b6adebce670aab5abfef021c",
+    "parents": "9aef7db7686afb6b82ef8ee2e0c3d1c7d6aa116d",
     "subject": "Editorial: Move the evaluation rules for |CharacterClassEscape|"
    },
    {
     "adate": "2021-09-21T22:59:04-04:00",
     "author": "Michael Dyck",
-    "date": "2021-09-21T22:59:04-04:00",
-    "hash": "4dc92a99ed0f08d53f6608748555993da03c78bf",
-    "parents": "482b63266a03248fcaeef0474de19c3323b5614d",
+    "date": "2021-09-24T15:56:25-04:00",
+    "hash": "9aef7db7686afb6b82ef8ee2e0c3d1c7d6aa116d",
+    "parents": "e3107e2786ed1e9e6b9b23a6fb29bf35f69ada59",
     "subject": "Editorial: Inline the evaluation rule for |DecimalEscape|"
    },
    {
     "adate": "2021-09-21T22:36:20-04:00",
     "author": "Michael Dyck",
-    "date": "2021-09-21T22:36:20-04:00",
-    "hash": "482b63266a03248fcaeef0474de19c3323b5614d",
-    "parents": "1e23cef16096204de43c50e6108b2d0d86307244",
+    "date": "2021-09-24T15:56:25-04:00",
+    "hash": "e3107e2786ed1e9e6b9b23a6fb29bf35f69ada59",
+    "parents": "e4c9f6359996a63296f13f961a12dbbf339ccbb7",
     "subject": "Editorial: Inline the evaluation rule for |CharacterEscape|"
    }
   ],
   "title": "Editorial: Re-cast Pattern \"evaluation\" rules as 8 conventional SDOs",
-  "updated_at": "2021-09-23T04:32:25Z"
+  "updated_at": "2021-09-29T03:39:51Z"
  },
  {
   "base": "b3c9c3d6985e40939685312023b3f9874fb10425",
