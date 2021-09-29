@@ -1,11 +1,35 @@
 [
  {
+  "adate": "2021-09-28T10:40:51-07:00",
+  "author": "Jordan Harband",
+  "date": "2021-09-28T10:40:51-07:00",
+  "hash": "59b748526265944dd214eb93f7d7c92a0050d3c3",
+  "parents": "1901514ff9aaf2041fc89f9007848910db5bac9e",
+  "subject": "Editorial: `String.prototype.lastIndexOf`: use explicit algorithm steps (#2536)"
+ },
+ {
   "adate": "2021-09-27T18:35:05-07:00",
   "author": "Michael Dyck",
   "date": "2021-09-27T18:35:05-07:00",
   "hash": "1901514ff9aaf2041fc89f9007848910db5bac9e",
   "parents": "6d2ba3cdf5b28686fa68d9404df351eed8f8566b",
   "subject": "Editorial: Move 2 paragraphs down one level (#2392)"
+ },
+ {
+  "adate": "2021-09-27T18:35:01-07:00",
+  "author": "Michael Dyck",
+  "date": "2021-09-27T18:35:01-07:00",
+  "hash": "6d2ba3cdf5b28686fa68d9404df351eed8f8566b",
+  "parents": "a50d2742544241ed49d8d95cafe86f0361516ccf",
+  "subject": "Editorial: Introduce [RegExp]IdentifierCodePoint[s] SDOs (#2392)"
+ },
+ {
+  "adate": "2021-09-27T18:34:54-07:00",
+  "author": "Michael Dyck",
+  "date": "2021-09-27T18:34:54-07:00",
+  "hash": "a50d2742544241ed49d8d95cafe86f0361516ccf",
+  "parents": "e4c9f6359996a63296f13f961a12dbbf339ccbb7",
+  "subject": "Editorial: Introduce `IdentifierStartChar` + `IdentifierPartChar` (#2392)"
  },
  {
   "adate": "2021-09-23T20:24:11-07:00",
