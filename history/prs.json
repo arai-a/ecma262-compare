@@ -268,9 +268,9 @@
   "updated_at": "2021-09-14T12:19:11Z"
  },
  {
-  "base": "2e131c21e8f598b167064485ca592ab5906b1c36",
+  "base": "47e17da255e6636f89860ce9ea79e72b252fd2ad",
   "created_at": "2021-08-07T05:18:17Z",
-  "head": "d7ca3790050490f91d3398e32e5e05627cf30a5b",
+  "head": "5ca0e59550d3c965849400979adcf022542ca4f4",
   "login": "jmdyck",
   "number": 2484,
   "ref": "GetSubstitution",
@@ -278,86 +278,54 @@
    {
     "adate": "2021-09-16T10:10:35-04:00",
     "author": "Michael Dyck",
-    "date": "2021-09-16T10:20:32-04:00",
-    "hash": "d7ca3790050490f91d3398e32e5e05627cf30a5b",
-    "parents": "8f2e8c896e20fc1ddd9e027a4c1dfc09d846c9b2",
+    "date": "2021-09-30T09:56:58-04:00",
+    "hash": "5ca0e59550d3c965849400979adcf022542ca4f4",
+    "parents": "e997751951514abf7d6e03fa28c6f9180d165353",
     "subject": "Editorial: Change `the _index_<sup>th</sup> element of _captures_`"
    },
    {
-    "adate": "2021-08-07T01:07:13-04:00",
+    "adate": "2021-09-30T09:55:31-04:00",
     "author": "Michael Dyck",
-    "date": "2021-09-16T00:13:51-04:00",
-    "hash": "8f2e8c896e20fc1ddd9e027a4c1dfc09d846c9b2",
-    "parents": "c7d9dfe606c6c7d7172dc2c7082f34abd40b5701",
-    "subject": "squash: cleanup"
-   },
-   {
-    "adate": "2021-08-07T01:06:19-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-09-16T00:13:49-04:00",
-    "hash": "c7d9dfe606c6c7d7172dc2c7082f34abd40b5701",
-    "parents": "960281e7ff95a3c89735b548a553254ee43a7bd0",
-    "subject": "squash: handle the default case"
-   },
-   {
-    "adate": "2021-08-07T01:04:08-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-09-16T00:13:09-04:00",
-    "hash": "960281e7ff95a3c89735b548a553254ee43a7bd0",
-    "parents": "802882b60f186b8859c2484a54cc89522ef0e4ad",
-    "subject": "squash: handled named references"
-   },
-   {
-    "adate": "2021-08-07T00:59:48-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-09-16T00:10:49-04:00",
-    "hash": "802882b60f186b8859c2484a54cc89522ef0e4ad",
-    "parents": "20469043574a816b235495bfbc4abd61654ac75a",
-    "subject": "squash: handle numeric references"
-   },
-   {
-    "adate": "2021-08-07T00:56:09-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-09-15T23:15:54-04:00",
-    "hash": "20469043574a816b235495bfbc4abd61654ac75a",
-    "parents": "751051232792bcf58b7510ce6aab611cb9fbe7b4",
-    "subject": "squash: Handle the 4 easy cases"
+    "date": "2021-09-30T09:56:32-04:00",
+    "hash": "e997751951514abf7d6e03fa28c6f9180d165353",
+    "parents": "0ac9cf63fd285d400c09bf401854490669908566",
+    "subject": "FIXUP: Add parenthetical re `$'`"
    },
    {
     "adate": "2021-08-07T00:25:22-04:00",
     "author": "Michael Dyck",
-    "date": "2021-09-15T23:15:19-04:00",
-    "hash": "751051232792bcf58b7510ce6aab611cb9fbe7b4",
-    "parents": "ec29b8c042fe1fdc49dea04a2368e334bbaa4c9e",
+    "date": "2021-09-30T09:52:25-04:00",
+    "hash": "0ac9cf63fd285d400c09bf401854490669908566",
+    "parents": "a59263af6e715641f96297593f5ac5f360a6a53c",
     "subject": "Editorial: Incorporate GetSubstitution's table into the algorithm"
    },
    {
     "adate": "2021-08-07T00:19:38-04:00",
     "author": "Michael Dyck",
-    "date": "2021-09-15T23:14:23-04:00",
-    "hash": "ec29b8c042fe1fdc49dea04a2368e334bbaa4c9e",
-    "parents": "8a9ac631d7d1568b330abb60d2ff2c48c21631d2",
+    "date": "2021-09-30T09:51:11-04:00",
+    "hash": "a59263af6e715641f96297593f5ac5f360a6a53c",
+    "parents": "97151f01719f865f885dd4dca1e7aa4aefc79e63",
     "subject": "Editorial: fix the type-assertion for _captures_ in GetSubstitution"
    },
    {
     "adate": "2021-08-07T00:05:08-04:00",
     "author": "Michael Dyck",
-    "date": "2021-09-15T23:13:08-04:00",
-    "hash": "8a9ac631d7d1568b330abb60d2ff2c48c21631d2",
-    "parents": "c84f1dd86c33089d4325fad1756a97ae1ae33182",
+    "date": "2021-09-30T09:51:11-04:00",
+    "hash": "97151f01719f865f885dd4dca1e7aa4aefc79e63",
+    "parents": "650a192050be21c1ae5e6711a509fa90dfb066df",
     "subject": "Editorial: Rename _replacement_ in GetSubstitution"
    },
    {
     "adate": "2021-08-06T23:56:47-04:00",
     "author": "Michael Dyck",
-    "date": "2021-09-14T20:12:25-04:00",
-    "hash": "c84f1dd86c33089d4325fad1756a97ae1ae33182",
-    "parents": "0bd3ace93009a4dbf6b26deaaef06105aa497bc8",
+    "date": "2021-09-30T09:51:11-04:00",
+    "hash": "650a192050be21c1ae5e6711a509fa90dfb066df",
+    "parents": "47e17da255e6636f89860ce9ea79e72b252fd2ad",
     "subject": "Editorial: minor refactoring in String.prototype.replace"
    }
   ],
   "title": "Editorial: Incorporate GetSubstitution's table into the algorithm",
-  "updated_at": "2021-09-16T14:29:00Z"
+  "updated_at": "2021-09-30T14:06:29Z"
  },
  {
   "base": "99b36f0591bf809bd2ea64a7bd2294606f4bef1f",
@@ -542,34 +510,6 @@
   ],
   "title": "Editorial: install fields in default constructors",
   "updated_at": "2021-07-17T05:35:51Z"
- },
- {
-  "base": "c8ee5189e15562b61f15c8351832b363ee522c93",
-  "created_at": "2021-07-15T15:15:43Z",
-  "head": "0915353ccc381805f30026954a7c659ad2fd72be",
-  "login": "gibson042",
-  "number": 2457,
-  "ref": "2021-07-date-ao-parameter-types",
-  "revs": [
-   {
-    "adate": "2021-09-27T20:03:36-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-09-27T20:03:36-07:00",
-    "hash": "0915353ccc381805f30026954a7c659ad2fd72be",
-    "parents": "69a11f4423cc982670a38cd920ce4d745887fe1f",
-    "subject": "fixup! move type to header"
-   },
-   {
-    "adate": "2021-07-15T11:13:53-04:00",
-    "author": "Richard Gibson",
-    "date": "2021-07-15T11:13:53-04:00",
-    "hash": "69a11f4423cc982670a38cd920ce4d745887fe1f",
-    "parents": "c8ee5189e15562b61f15c8351832b363ee522c93",
-    "subject": "Editorial: Document parameter type for Date Abstract Operations"
-   }
-  ],
-  "title": "Editorial: Document parameter type for Date Abstract Operations",
-  "updated_at": "2021-09-28T03:04:36Z"
  },
  {
   "base": "b3e6dfe61966b9a0eded9c7c5bd037b01e10abf2",
