@@ -1,5 +1,25 @@
 [
  {
+  "base": "d03c1ec6e235a5180fa772b6178727c17974cb14",
+  "created_at": "2021-10-07T01:40:15Z",
+  "head": "39225e29f12689c830dd4d27ee00dab58832beab",
+  "login": "tc39",
+  "number": 2545,
+  "ref": "no-tco-for-await",
+  "revs": [
+   {
+    "adate": "2021-10-06T15:39:00-10:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-10-06T15:39:00-10:00",
+    "hash": "39225e29f12689c830dd4d27ee00dab58832beab",
+    "parents": "d03c1ec6e235a5180fa772b6178727c17974cb14",
+    "subject": "Editorial: delete stray for-await-of rules in HasCallInTailPosition"
+   }
+  ],
+  "title": "Editorial: delete stray for-await-of rules in HasCallInTailPosition",
+  "updated_at": "2021-10-07T01:40:35Z"
+ },
+ {
   "base": "59b748526265944dd214eb93f7d7c92a0050d3c3",
   "created_at": "2021-09-23T04:32:25Z",
   "head": "0439757a319208352d6576e4d6f1dc7b9a84a535",
@@ -2578,26 +2598,6 @@
   ],
   "title": "Normative: Use Number arithmetic for constructing dates and times",
   "updated_at": "2020-05-10T05:35:43Z"
- },
- {
-  "base": "d9e56927df060215f849199fd9055fb39c4213de",
-  "created_at": "2019-05-28T19:13:24Z",
-  "head": "8539513b94073eaf54e5e89620c571352d009fd0",
-  "login": "shvaikalesh",
-  "number": 1556,
-  "ref": "typed-array-get-set",
-  "revs": [
-   {
-    "adate": "2021-02-25T03:17:13+02:00",
-    "author": "Alexey Shvayka",
-    "date": "2021-03-01T05:14:07+02:00",
-    "hash": "8539513b94073eaf54e5e89620c571352d009fd0",
-    "parents": "d9e56927df060215f849199fd9055fb39c4213de",
-    "subject": "Normative: Guard IntegerIndexedElementSet with receiver check"
-   }
-  ],
-  "title": "Normative: Guard IntegerIndexedElementSet with receiver check",
-  "updated_at": "2021-03-01T03:23:35Z"
  },
  {
   "base": "d9e56927df060215f849199fd9055fb39c4213de",
