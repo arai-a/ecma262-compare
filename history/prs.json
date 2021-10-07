@@ -2,11 +2,19 @@
  {
   "base": "d03c1ec6e235a5180fa772b6178727c17974cb14",
   "created_at": "2021-10-07T03:01:59Z",
-  "head": "0545b3ea8cb90b88f07b81110c12b9a60e54661f",
+  "head": "afdea7af981167cfb00b908906f3ba503c58580e",
   "login": "tc39",
   "number": 2546,
   "ref": "numeric-methods",
   "revs": [
+   {
+    "adate": "2021-10-07T10:47:17-06:00",
+    "author": "Michael Ficarra",
+    "date": "2021-10-07T10:47:17-06:00",
+    "hash": "afdea7af981167cfb00b908906f3ba503c58580e",
+    "parents": "0545b3ea8cb90b88f07b81110c12b9a60e54661f",
+    "subject": "fixes"
+   },
    {
     "adate": "2021-10-06T20:57:28-06:00",
     "author": "Michael Ficarra",
@@ -17,7 +25,7 @@
    }
   ],
   "title": "Editorial: refer to numeric methods as we do other AOs",
-  "updated_at": "2021-10-07T03:11:35Z"
+  "updated_at": "2021-10-07T16:48:57Z"
  },
  {
   "base": "d03c1ec6e235a5180fa772b6178727c17974cb14",
