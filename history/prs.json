@@ -1,6 +1,26 @@
 [
  {
   "base": "d03c1ec6e235a5180fa772b6178727c17974cb14",
+  "created_at": "2021-10-10T03:05:58Z",
+  "head": "e1e00a4ebfc76d70234f44ef1169a844efde1594",
+  "login": "jmdyck",
+  "number": 2549,
+  "ref": "StringToBigInt",
+  "revs": [
+   {
+    "adate": "2021-10-09T22:47:17-04:00",
+    "author": "Michael Dyck",
+    "date": "2021-10-09T22:47:17-04:00",
+    "hash": "e1e00a4ebfc76d70234f44ef1169a844efde1594",
+    "parents": "d03c1ec6e235a5180fa772b6178727c17974cb14",
+    "subject": "Editorial: Define StringToBigInt with an algorithm + grammar"
+   }
+  ],
+  "title": "Editorial: Define StringToBigInt with an algorithm + grammar",
+  "updated_at": "2021-10-10T03:05:58Z"
+ },
+ {
+  "base": "d03c1ec6e235a5180fa772b6178727c17974cb14",
   "created_at": "2021-10-08T21:56:35Z",
   "head": "a5ba1ae3a48e8cffb1e6051bc97dceace591af20",
   "login": "syg",
