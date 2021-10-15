@@ -236,26 +236,6 @@
   "updated_at": "2021-10-07T16:48:57Z"
  },
  {
-  "base": "d03c1ec6e235a5180fa772b6178727c17974cb14",
-  "created_at": "2021-10-07T01:40:15Z",
-  "head": "39225e29f12689c830dd4d27ee00dab58832beab",
-  "login": "tc39",
-  "number": 2545,
-  "ref": "no-tco-for-await",
-  "revs": [
-   {
-    "adate": "2021-10-06T15:39:00-10:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-10-06T15:39:00-10:00",
-    "hash": "39225e29f12689c830dd4d27ee00dab58832beab",
-    "parents": "d03c1ec6e235a5180fa772b6178727c17974cb14",
-    "subject": "Editorial: delete stray for-await-of rules in HasCallInTailPosition"
-   }
-  ],
-  "title": "Editorial: delete stray for-await-of rules in HasCallInTailPosition",
-  "updated_at": "2021-10-07T01:40:35Z"
- },
- {
   "base": "59b748526265944dd214eb93f7d7c92a0050d3c3",
   "created_at": "2021-09-23T04:32:25Z",
   "head": "0439757a319208352d6576e4d6f1dc7b9a84a535",
@@ -474,34 +454,6 @@
   ],
   "title": "Editorial: inline infallible CreateDataPropertyOrThrow calls",
   "updated_at": "2021-09-21T22:40:59Z"
- },
- {
-  "base": "de264f623673a5c52845120dcafbdfefe98660b1",
-  "created_at": "2021-09-17T16:20:54Z",
-  "head": "1102b667da9b4a8a6f1b37385835fc132a8a5b54",
-  "login": "tc39",
-  "number": 2523,
-  "ref": "exponentiate-returns-Number",
-  "revs": [
-   {
-    "adate": "2021-09-17T11:07:40-06:00",
-    "author": "Michael Ficarra",
-    "date": "2021-09-17T11:07:40-06:00",
-    "hash": "1102b667da9b4a8a6f1b37385835fc132a8a5b54",
-    "parents": "06eb2721356526b1dc86b718f4896c85e69135a0",
-    "subject": "other numeric methods"
-   },
-   {
-    "adate": "2021-09-17T10:18:22-06:00",
-    "author": "Michael Ficarra",
-    "date": "2021-09-17T10:18:22-06:00",
-    "hash": "06eb2721356526b1dc86b718f4896c85e69135a0",
-    "parents": "de264f623673a5c52845120dcafbdfefe98660b1",
-    "subject": "Normative: require Number::exponentiate to return a Number value"
-   }
-  ],
-  "title": "Normative: require implementation-approximated numeric methods to return a Number value",
-  "updated_at": "2021-09-17T17:12:18Z"
  },
  {
   "base": "b3e6dfe61966b9a0eded9c7c5bd037b01e10abf2",
@@ -1816,32 +1768,40 @@
   "updated_at": "2020-08-27T06:03:17Z"
  },
  {
-  "base": "d03c1ec6e235a5180fa772b6178727c17974cb14",
+  "base": "17d8e4663bc09e707e9d8260955c419cd1c3b8b2",
   "created_at": "2020-08-19T16:08:38Z",
-  "head": "166ef10ad986aea2a6406ed995d4200f366c544c",
+  "head": "5d7fa09a6ce4845ba92bcbf39fa0ee198b64ad37",
   "login": "shvaikalesh",
   "number": 2144,
   "ref": "string-includes-at",
   "revs": [
    {
+    "adate": "2021-10-14T23:42:11-07:00",
+    "author": "Jordan Harband",
+    "date": "2021-10-14T23:42:11-07:00",
+    "hash": "5d7fa09a6ce4845ba92bcbf39fa0ee198b64ad37",
+    "parents": "e7f942bac2c9f37529b4537994a9d940697800f4",
+    "subject": "fixup: review feedback"
+   },
+   {
     "adate": "2021-10-06T21:50:16-07:00",
     "author": "Jordan Harband",
-    "date": "2021-10-06T21:53:48-07:00",
-    "hash": "166ef10ad986aea2a6406ed995d4200f366c544c",
-    "parents": "64bf5e5b8fd2d8fa25e0854d2e62fcc044d834b0",
+    "date": "2021-10-14T23:36:46-07:00",
+    "hash": "e7f942bac2c9f37529b4537994a9d940697800f4",
+    "parents": "6653f3bdf27c8a1cb58966a7186e27ffafecbec7",
     "subject": "squash: Editorial: refactor `IsStringPrefix` and `String.prototype.split` to use `StringIndexOf`; remove `SplitMatch` (#2144)"
    },
    {
     "adate": "2020-08-19T18:52:39+03:00",
     "author": "Alexey Shvayka",
-    "date": "2021-10-06T21:42:08-07:00",
-    "hash": "64bf5e5b8fd2d8fa25e0854d2e62fcc044d834b0",
-    "parents": "d03c1ec6e235a5180fa772b6178727c17974cb14",
+    "date": "2021-10-14T23:36:13-07:00",
+    "hash": "6653f3bdf27c8a1cb58966a7186e27ffafecbec7",
+    "parents": "17d8e4663bc09e707e9d8260955c419cd1c3b8b2",
     "subject": "Editorial: Merge IsStringPrefix and SplitMatch abstract ops"
    }
   ],
   "title": "Editorial: Merge IsStringPrefix and SplitMatch abstract ops",
-  "updated_at": "2021-10-07T04:53:55Z"
+  "updated_at": "2021-10-15T06:42:31Z"
  },
  {
   "base": "d97be3ea2f451adbaae55c817d5d0ac0597a8555",
@@ -2870,34 +2830,6 @@
   ],
   "title": "Normative: Guard IntegerIndexedElementSet with receiver check",
   "updated_at": "2021-03-01T03:23:35Z"
- },
- {
-  "base": "c7d208f639c493ac221f1c3c4bd6a5c4b4b638b6",
-  "created_at": "2019-04-29T20:16:52Z",
-  "head": "f632c2ae05f6fb1dd1ab98a031fd3a9bb88e90e4",
-  "login": "jmdyck",
-  "number": 1522,
-  "ref": "re_1510",
-  "revs": [
-   {
-    "adate": "2019-04-29T16:05:34-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-06-15T01:00:54-04:00",
-    "hash": "f632c2ae05f6fb1dd1ab98a031fd3a9bb88e90e4",
-    "parents": "80bfb8403610ab7fa92811c4efb13f4d4cc758e9",
-    "subject": "Editorial: Mention the two other forms of terminal symbol"
-   },
-   {
-    "adate": "2019-04-29T16:03:34-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-06-15T00:56:46-04:00",
-    "hash": "80bfb8403610ab7fa92811c4efb13f4d4cc758e9",
-    "parents": "c7d208f639c493ac221f1c3c4bd6a5c4b4b638b6",
-    "subject": "Editorial: Clarify the discussion of terminal symbols"
-   }
-  ],
-  "title": "Editorial: Clarify and expand the discussion of terminal symbols",
-  "updated_at": "2021-06-15T05:06:53Z"
  },
  {
   "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
