@@ -1770,11 +1770,19 @@
  {
   "base": "17d8e4663bc09e707e9d8260955c419cd1c3b8b2",
   "created_at": "2020-08-19T16:08:38Z",
-  "head": "5d7fa09a6ce4845ba92bcbf39fa0ee198b64ad37",
+  "head": "ea1a136f120be4972d80dd75b50e685865179d2b",
   "login": "shvaikalesh",
   "number": 2144,
   "ref": "string-includes-at",
   "revs": [
+   {
+    "adate": "2021-10-14T23:57:25-07:00",
+    "author": "Jordan Harband",
+    "date": "2021-10-14T23:57:25-07:00",
+    "hash": "ea1a136f120be4972d80dd75b50e685865179d2b",
+    "parents": "5d7fa09a6ce4845ba92bcbf39fa0ee198b64ad37",
+    "subject": "fixup: review feedback"
+   },
    {
     "adate": "2021-10-14T23:42:11-07:00",
     "author": "Jordan Harband",
@@ -1801,7 +1809,7 @@
    }
   ],
   "title": "Editorial: Merge IsStringPrefix and SplitMatch abstract ops",
-  "updated_at": "2021-10-15T06:42:31Z"
+  "updated_at": "2021-10-15T07:12:10Z"
  },
  {
   "base": "d97be3ea2f451adbaae55c817d5d0ac0597a8555",
