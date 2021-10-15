@@ -1,5 +1,13 @@
 [
  {
+  "adate": "2021-10-15T10:48:13-07:00",
+  "author": "Alexey Shvayka",
+  "date": "2021-10-15T10:48:13-07:00",
+  "hash": "82438c3374272607094f65dbd33c73a5db5b762c",
+  "parents": "17d8e4663bc09e707e9d8260955c419cd1c3b8b2",
+  "subject": "Editorial: refactor `IsStringPrefix` and `String.prototype.split` to use `StringIndexOf`; remove `SplitMatch` (#2144)"
+ },
+ {
   "adate": "2021-10-14T22:33:35-07:00",
   "author": "Kevin Gibbons",
   "date": "2021-10-14T22:33:35-07:00",
