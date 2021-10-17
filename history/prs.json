@@ -1172,13 +1172,37 @@
   "updated_at": "2021-04-06T04:42:17Z"
  },
  {
-  "base": "d03c1ec6e235a5180fa772b6178727c17974cb14",
+  "base": "82438c3374272607094f65dbd33c73a5db5b762c",
   "created_at": "2021-03-21T17:00:17Z",
-  "head": "557304704d08c48c32541ec88a8f4742273fc5e6",
+  "head": "0ca327f3620f1830a1089142a38ac5ebf1d7ca45",
   "login": "legendecas",
   "number": 2356,
   "ref": "proposal-error-cause",
   "revs": [
+   {
+    "adate": "2021-10-17T14:50:33+08:00",
+    "author": "legendecas",
+    "date": "2021-10-17T14:50:33+08:00",
+    "hash": "0ca327f3620f1830a1089142a38ac5ebf1d7ca45",
+    "parents": "3ae0d0a01af6d4002d9c4ef4ab756a6cab97876b",
+    "subject": "fixup!"
+   },
+   {
+    "adate": "2021-10-17T14:48:37+08:00",
+    "author": "legendecas",
+    "date": "2021-10-17T14:48:37+08:00",
+    "hash": "3ae0d0a01af6d4002d9c4ef4ab756a6cab97876b",
+    "parents": "0e4d4b52ae7d188b0001b6c5f31bde4585800d06 82438c3374272607094f65dbd33c73a5db5b762c",
+    "subject": "Merge remote-tracking branch 'upstream/master' into proposal-error-cause"
+   },
+   {
+    "adate": "2021-10-17T14:47:18+08:00",
+    "author": "legendecas",
+    "date": "2021-10-17T14:47:18+08:00",
+    "hash": "0e4d4b52ae7d188b0001b6c5f31bde4585800d06",
+    "parents": "557304704d08c48c32541ec88a8f4742273fc5e6",
+    "subject": "fixup!"
+   },
    {
     "adate": "2021-10-15T11:01:25+08:00",
     "author": "legendecas",
@@ -1205,7 +1229,7 @@
    }
   ],
   "title": "Normative: add error cause",
-  "updated_at": "2021-10-15T03:02:50Z"
+  "updated_at": "2021-10-17T06:58:22Z"
  },
  {
   "base": "e4c9f6359996a63296f13f961a12dbbf339ccbb7",
