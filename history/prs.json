@@ -236,32 +236,24 @@
   "updated_at": "2021-10-13T01:25:59Z"
  },
  {
-  "base": "17d8e4663bc09e707e9d8260955c419cd1c3b8b2",
+  "base": "82438c3374272607094f65dbd33c73a5db5b762c",
   "created_at": "2021-10-07T03:01:59Z",
-  "head": "d1c1837de8af687782ea0c628fc07caa1301fea0",
+  "head": "a714cfdc5d7e5f831fd74c6aab1963ea3b6f1413",
   "login": "tc39",
   "number": 2546,
   "ref": "numeric-methods",
   "revs": [
    {
-    "adate": "2021-10-15T11:15:04-06:00",
+    "adate": "2021-10-20T15:15:15-07:00",
     "author": "Michael Ficarra",
-    "date": "2021-10-15T11:17:00-06:00",
-    "hash": "d1c1837de8af687782ea0c628fc07caa1301fea0",
-    "parents": "db0b3040e8cc2759d0060c36853d16db43dfc88e",
-    "subject": "address comments"
-   },
-   {
-    "adate": "2021-10-06T20:57:28-06:00",
-    "author": "Michael Ficarra",
-    "date": "2021-10-15T11:17:00-06:00",
-    "hash": "db0b3040e8cc2759d0060c36853d16db43dfc88e",
-    "parents": "17d8e4663bc09e707e9d8260955c419cd1c3b8b2",
-    "subject": "Editorial: refer to numeric methods as we do other AOs"
+    "date": "2021-10-20T15:15:15-07:00",
+    "hash": "a714cfdc5d7e5f831fd74c6aab1963ea3b6f1413",
+    "parents": "82438c3374272607094f65dbd33c73a5db5b762c",
+    "subject": "Editorial: refer to numeric methods as we do other AOs (#2546)"
    }
   ],
   "title": "Editorial: refer to numeric methods as we do other AOs",
-  "updated_at": "2021-10-15T17:17:06Z"
+  "updated_at": "2021-10-20T22:15:23Z"
  },
  {
   "base": "59b748526265944dd214eb93f7d7c92a0050d3c3",
