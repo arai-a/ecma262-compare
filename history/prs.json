@@ -1182,11 +1182,19 @@
  {
   "base": "82438c3374272607094f65dbd33c73a5db5b762c",
   "created_at": "2021-03-21T17:00:17Z",
-  "head": "0ca327f3620f1830a1089142a38ac5ebf1d7ca45",
+  "head": "c6c4b52d5b7b16a4aacaab6a2aea430b5c290efb",
   "login": "legendecas",
   "number": 2356,
   "ref": "proposal-error-cause",
   "revs": [
+   {
+    "adate": "2021-10-21T10:46:14+08:00",
+    "author": "legendecas",
+    "date": "2021-10-21T10:46:14+08:00",
+    "hash": "c6c4b52d5b7b16a4aacaab6a2aea430b5c290efb",
+    "parents": "0ca327f3620f1830a1089142a38ac5ebf1d7ca45",
+    "subject": "fixup!"
+   },
    {
     "adate": "2021-10-17T14:50:33+08:00",
     "author": "legendecas",
@@ -1237,7 +1245,7 @@
    }
   ],
   "title": "Normative: add error cause",
-  "updated_at": "2021-10-17T06:58:22Z"
+  "updated_at": "2021-10-21T02:46:22Z"
  },
  {
   "base": "e4c9f6359996a63296f13f961a12dbbf339ccbb7",
