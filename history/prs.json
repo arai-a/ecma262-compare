@@ -104,9 +104,9 @@
   "updated_at": "2021-10-21T01:26:04Z"
  },
  {
-  "base": "d03c1ec6e235a5180fa772b6178727c17974cb14",
+  "base": "6fdfc8f52474a00c2b27e68e02c3fba585efc875",
   "created_at": "2021-10-08T00:09:44Z",
-  "head": "ba9380a842cc2b8901105bfc5a9276a569e10292",
+  "head": "69d0904aa104b166a11d22d75c3d3a8a0b43ce74",
   "login": "tc39",
   "number": 2547,
   "ref": "GH-1796",
@@ -114,134 +114,118 @@
    {
     "adate": "2021-10-12T19:25:49-06:00",
     "author": "Michael Ficarra",
-    "date": "2021-10-12T19:25:49-06:00",
-    "hash": "ba9380a842cc2b8901105bfc5a9276a569e10292",
-    "parents": "c8750d366990af67234226dba65ec34764ee495e",
+    "date": "2021-10-21T12:41:23-06:00",
+    "hash": "69d0904aa104b166a11d22d75c3d3a8a0b43ce74",
+    "parents": "ad602f7d07e98751237d6a7edc24ea4d899f9345",
     "subject": "more return types"
    },
    {
     "adate": "2021-10-11T12:24:10-06:00",
     "author": "Michael Ficarra",
-    "date": "2021-10-11T12:24:10-06:00",
-    "hash": "c8750d366990af67234226dba65ec34764ee495e",
-    "parents": "1448c35af21234a1460fe9bbf36aecb42605525d",
+    "date": "2021-10-21T12:41:23-06:00",
+    "hash": "ad602f7d07e98751237d6a7edc24ea4d899f9345",
+    "parents": "94a51cd6375f2f6d6f337cf758787d99ec0c21ad",
     "subject": "more return types"
    },
    {
     "adate": "2021-10-08T17:26:27-06:00",
     "author": "Michael Ficarra",
-    "date": "2021-10-08T17:26:27-06:00",
-    "hash": "1448c35af21234a1460fe9bbf36aecb42605525d",
-    "parents": "0cf3fe29f65e3f997cb05ce60c4c3f85b46ac73e",
+    "date": "2021-10-21T12:41:23-06:00",
+    "hash": "94a51cd6375f2f6d6f337cf758787d99ec0c21ad",
+    "parents": "0ada7a6d5f1a6b4b23357dbecb54d2358999cc86",
     "subject": "more return types"
    },
    {
     "adate": "2021-10-07T18:02:07-06:00",
     "author": "Michael Ficarra",
-    "date": "2021-10-07T18:02:07-06:00",
-    "hash": "0cf3fe29f65e3f997cb05ce60c4c3f85b46ac73e",
-    "parents": "d8358bd6ccf62149a45ff90f8c5f93b3967bbc88",
+    "date": "2021-10-21T12:41:23-06:00",
+    "hash": "0ada7a6d5f1a6b4b23357dbecb54d2358999cc86",
+    "parents": "f44bc3f759aff62d557c6ee679955367076b9527",
     "subject": "ApplyStringOrNumericBinaryOperator"
    },
    {
     "adate": "2021-10-07T17:17:01-06:00",
     "author": "Michael Ficarra",
-    "date": "2021-10-07T17:17:01-06:00",
-    "hash": "d8358bd6ccf62149a45ff90f8c5f93b3967bbc88",
-    "parents": "a32d09ebc137e86f4ad107874c19583e31d59ac4",
+    "date": "2021-10-21T12:41:22-06:00",
+    "hash": "f44bc3f759aff62d557c6ee679955367076b9527",
+    "parents": "e8804ec4fea7f0f23a414c7f2e50c29daef9b3ee",
     "subject": "table 2"
    },
    {
     "adate": "2021-09-23T18:50:39-06:00",
     "author": "Michael Ficarra",
-    "date": "2021-10-07T17:09:30-06:00",
-    "hash": "a32d09ebc137e86f4ad107874c19583e31d59ac4",
-    "parents": "5ab8a3313fed9bc9a18997432d69742593ebff94",
+    "date": "2021-10-21T12:41:22-06:00",
+    "hash": "e8804ec4fea7f0f23a414c7f2e50c29daef9b3ee",
+    "parents": "29d5b0bff716f292701286d6898dff58a4da5fc2",
     "subject": "stuff"
    },
    {
     "adate": "2021-09-21T15:56:48-06:00",
     "author": "Michael Ficarra",
-    "date": "2021-10-07T17:09:30-06:00",
-    "hash": "5ab8a3313fed9bc9a18997432d69742593ebff94",
-    "parents": "00b1c9c30eb3e756657454d88a4bcf6f9988071b",
+    "date": "2021-10-21T12:41:22-06:00",
+    "hash": "29d5b0bff716f292701286d6898dff58a4da5fc2",
+    "parents": "f0609e27598511f86d12d9680e6c7e5f1d88ae8d",
     "subject": "more return annotations"
    },
    {
     "adate": "2021-09-20T18:46:26-06:00",
     "author": "Michael Ficarra",
-    "date": "2021-10-07T17:09:30-06:00",
-    "hash": "00b1c9c30eb3e756657454d88a4bcf6f9988071b",
-    "parents": "1c84ae16a10ab931960b64014544d4f3d60859d8",
+    "date": "2021-10-21T12:41:22-06:00",
+    "hash": "f0609e27598511f86d12d9680e6c7e5f1d88ae8d",
+    "parents": "5089455cae2b8b2781b8a583d08421b0498059b3",
     "subject": "more return types"
    },
    {
     "adate": "2021-09-20T18:45:06-06:00",
     "author": "Michael Ficarra",
-    "date": "2021-10-07T17:09:29-06:00",
-    "hash": "1c84ae16a10ab931960b64014544d4f3d60859d8",
-    "parents": "e2102e5a8359374061fda48f074dfbf28e3ec788",
+    "date": "2021-10-21T12:41:22-06:00",
+    "hash": "5089455cae2b8b2781b8a583d08421b0498059b3",
+    "parents": "6be02fd5b95f87fd08bfbe94a90a8a5e930039e2",
     "subject": "no implicit returns"
    },
    {
     "adate": "2021-09-17T12:03:50-06:00",
     "author": "Michael Ficarra",
-    "date": "2021-10-07T17:09:28-06:00",
-    "hash": "e2102e5a8359374061fda48f074dfbf28e3ec788",
-    "parents": "a7594b802b7d08fadea5a11cd054ff7fa00f69da",
+    "date": "2021-10-21T12:41:22-06:00",
+    "hash": "6be02fd5b95f87fd08bfbe94a90a8a5e930039e2",
+    "parents": "ef90143fb13b668fbf1f5beb752657c39a494fe2",
     "subject": "ecmarkup 9.3.0"
    },
    {
     "adate": "2021-09-16T19:07:53-06:00",
     "author": "Michael Ficarra",
-    "date": "2021-10-07T17:09:13-06:00",
-    "hash": "a7594b802b7d08fadea5a11cd054ff7fa00f69da",
-    "parents": "25259ef43948bd42336050c6edfb226b731d0885",
+    "date": "2021-10-21T12:41:22-06:00",
+    "hash": "ef90143fb13b668fbf1f5beb752657c39a494fe2",
+    "parents": "feeb406b349284c3736f0d5f6686c168583a6f59",
     "subject": "add some return types"
    },
    {
     "adate": "2021-09-16T16:05:41-06:00",
     "author": "Michael Ficarra",
-    "date": "2021-10-07T17:09:12-06:00",
-    "hash": "25259ef43948bd42336050c6edfb226b731d0885",
-    "parents": "4790cbfdcd2ec15db082780f6de13a8d854395eb",
+    "date": "2021-10-21T12:41:22-06:00",
+    "hash": "feeb406b349284c3736f0d5f6686c168583a6f59",
+    "parents": "6cd6158d93d842962faa9a5d45efe73dd0d557a4",
     "subject": "update ecmarkup"
    },
    {
     "adate": "2021-09-15T14:33:27-06:00",
     "author": "Michael Ficarra",
-    "date": "2021-10-07T17:08:48-06:00",
-    "hash": "4790cbfdcd2ec15db082780f6de13a8d854395eb",
-    "parents": "066ffe959581d393bf2c605de51bdfc099ebef04",
+    "date": "2021-10-21T12:41:22-06:00",
+    "hash": "6cd6158d93d842962faa9a5d45efe73dd0d557a4",
+    "parents": "92682667622b78a07162d130d8180917468c0d36",
     "subject": "remove the provision for treating normal completions as their [[Value]]"
    },
    {
     "adate": "2021-09-15T14:31:38-06:00",
     "author": "Michael Ficarra",
-    "date": "2021-10-07T17:08:48-06:00",
-    "hash": "066ffe959581d393bf2c605de51bdfc099ebef04",
-    "parents": "afdea7af981167cfb00b908906f3ba503c58580e",
+    "date": "2021-10-21T12:41:21-06:00",
+    "hash": "92682667622b78a07162d130d8180917468c0d36",
+    "parents": "6fdfc8f52474a00c2b27e68e02c3fba585efc875",
     "subject": "remove the provision for implicit wrapping in normal completion"
-   },
-   {
-    "adate": "2021-10-07T10:47:17-06:00",
-    "author": "Michael Ficarra",
-    "date": "2021-10-07T10:47:17-06:00",
-    "hash": "afdea7af981167cfb00b908906f3ba503c58580e",
-    "parents": "0545b3ea8cb90b88f07b81110c12b9a60e54661f",
-    "subject": "fixes"
-   },
-   {
-    "adate": "2021-10-06T20:57:28-06:00",
-    "author": "Michael Ficarra",
-    "date": "2021-10-06T21:11:29-06:00",
-    "hash": "0545b3ea8cb90b88f07b81110c12b9a60e54661f",
-    "parents": "d03c1ec6e235a5180fa772b6178727c17974cb14",
-    "subject": "Editorial: refer to numeric methods as we do other AOs"
    }
   ],
   "title": "Editorial: remove implicit wrapping/unwrapping of completion records",
-  "updated_at": "2021-10-13T01:25:59Z"
+  "updated_at": "2021-10-21T18:41:47Z"
  },
  {
   "base": "59b748526265944dd214eb93f7d7c92a0050d3c3",
@@ -398,50 +382,6 @@
   ],
   "title": "Editorial: Re-cast Pattern \"evaluation\" rules as 8 conventional SDOs",
   "updated_at": "2021-09-29T03:39:51Z"
- },
- {
-  "base": "b3c9c3d6985e40939685312023b3f9874fb10425",
-  "created_at": "2021-09-23T04:19:01Z",
-  "head": "cb4f2250b6bdbc364c4acaa7f63130df04747836",
-  "login": "jmdyck",
-  "number": 2530,
-  "ref": "quick_fixes_3",
-  "revs": [
-   {
-    "adate": "2021-09-23T00:13:47-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-09-23T00:13:47-04:00",
-    "hash": "cb4f2250b6bdbc364c4acaa7f63130df04747836",
-    "parents": "297bc014090be0e856ee93cfd030db63d9c207c9",
-    "subject": "Editorial: Change \"host defined\" to \"host-defined\""
-   },
-   {
-    "adate": "2021-09-23T00:11:48-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-09-23T00:11:48-04:00",
-    "hash": "297bc014090be0e856ee93cfd030db63d9c207c9",
-    "parents": "89a714a0efadf111a2b9c928e8b20dc556fa8f7b",
-    "subject": "Editorial: Rephrase two parameter 'types'"
-   },
-   {
-    "adate": "2021-09-22T23:56:44-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-09-22T23:56:44-04:00",
-    "hash": "89a714a0efadf111a2b9c928e8b20dc556fa8f7b",
-    "parents": "58f1262b933181303e0a89257b5d314e9886007d",
-    "subject": "Editorial: Fix prose re Record field values"
-   },
-   {
-    "adate": "2021-09-22T23:42:00-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-09-22T23:42:00-04:00",
-    "hash": "58f1262b933181303e0a89257b5d314e9886007d",
-    "parents": "b3c9c3d6985e40939685312023b3f9874fb10425",
-    "subject": "Markup: Structured header for [[GetPrototypeOf]] of module NS object"
-   }
-  ],
-  "title": "Editorial: Quick fixes",
-  "updated_at": "2021-09-23T04:19:01Z"
  },
  {
   "base": "1e23cef16096204de43c50e6108b2d0d86307244",
@@ -714,26 +654,6 @@
   ],
   "title": "Cleanup ValidateAndApplyPropertyDescriptor and own prop operations",
   "updated_at": "2021-07-30T18:56:46Z"
- },
- {
-  "base": "c8ee5189e15562b61f15c8351832b363ee522c93",
-  "created_at": "2021-07-17T05:04:28Z",
-  "head": "595310eaedcfcdad17e16ef720f811700558e19c",
-  "login": "devsnek",
-  "number": 2462,
-  "ref": "fix-priv-default",
-  "revs": [
-   {
-    "adate": "2021-07-17T00:01:27-05:00",
-    "author": "Gus Caplan",
-    "date": "2021-07-17T00:35:41-05:00",
-    "hash": "595310eaedcfcdad17e16ef720f811700558e19c",
-    "parents": "c8ee5189e15562b61f15c8351832b363ee522c93",
-    "subject": "Editorial: install private fields in default base constructor"
-   }
-  ],
-  "title": "Editorial: install fields in default constructors",
-  "updated_at": "2021-07-17T05:35:51Z"
  },
  {
   "base": "b3e6dfe61966b9a0eded9c7c5bd037b01e10abf2",
