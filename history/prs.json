@@ -1,23 +1,23 @@
 [
  {
-  "base": "f534fd664a9887992748be007ff2895ff30448b1",
-  "created_at": "2021-10-22T05:48:22Z",
-  "head": "de090f7fa296dd23720b0a1d60b6391da1c8bdaa",
+  "base": "3bbd41370db5ff9cf0e6ac968278304d448586a6",
+  "created_at": "2021-10-22T20:04:36Z",
+  "head": "848979ff4c6f67c750a34a24602d8d0109b78627",
   "login": "tc39",
-  "number": 2553,
-  "ref": "regex-direction-enum",
+  "number": 2554,
+  "ref": "more-direction",
   "revs": [
    {
-    "adate": "2021-10-21T22:46:42-07:00",
+    "adate": "2021-10-22T13:03:42-07:00",
     "author": "Kevin Gibbons",
-    "date": "2021-10-21T22:46:42-07:00",
-    "hash": "de090f7fa296dd23720b0a1d60b6391da1c8bdaa",
-    "parents": "f534fd664a9887992748be007ff2895ff30448b1",
-    "subject": "Editorial: Use spec enums for direction instead of 1 and -1"
+    "date": "2021-10-22T13:03:42-07:00",
+    "hash": "848979ff4c6f67c750a34a24602d8d0109b78627",
+    "parents": "3bbd41370db5ff9cf0e6ac968278304d448586a6",
+    "subject": "Editorial: Fix up a couple missed cases of _direction_ parameter"
    }
   ],
-  "title": "Editorial: Use spec enums for direction instead of 1 and -1",
-  "updated_at": "2021-10-22T05:48:22Z"
+  "title": "Editorial: Fix up a couple missed cases of _direction_ parameter",
+  "updated_at": "2021-10-22T20:07:47Z"
  },
  {
   "base": "82438c3374272607094f65dbd33c73a5db5b762c",
