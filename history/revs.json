@@ -1,5 +1,53 @@
 [
  {
+  "adate": "2021-09-22T21:49:28-04:00",
+  "author": "Michael Dyck",
+  "date": "2021-10-21T22:03:49-04:00",
+  "hash": "f534fd664a9887992748be007ff2895ff30448b1",
+  "parents": "05ed23c3cc148d7bf7e596fa1501fb47f87d1534",
+  "subject": "Editorial: Drop Compile rules that are handled by the chain rule (#2531)"
+ },
+ {
+  "adate": "2021-09-22T13:38:34-04:00",
+  "author": "Michael Dyck",
+  "date": "2021-10-21T22:03:12-04:00",
+  "hash": "3f83f0bff663de45722b3e3270e45f5b02e0d9b5",
+  "parents": "5a64ba161665cb04c02c6ee86bf229a77ecc5ccf",
+  "subject": "Editorial: When evaluating a |Quantifier|, return a Record (#2531)"
+ },
+ {
+  "adate": "2021-09-21T23:56:37-04:00",
+  "author": "Michael Dyck",
+  "date": "2021-10-21T22:03:07-04:00",
+  "hash": "5a64ba161665cb04c02c6ee86bf229a77ecc5ccf",
+  "parents": "c8cb9439ac2d8417e326b60a1d48453272c11298",
+  "subject": "Editorial: Move some abstract operations in the \"Pattern Semantics\" clause (#2531)"
+ },
+ {
+  "adate": "2021-09-21T23:09:06-04:00",
+  "author": "Michael Dyck",
+  "date": "2021-10-21T22:02:59-04:00",
+  "hash": "c8cb9439ac2d8417e326b60a1d48453272c11298",
+  "parents": "f3f0a37bda6491fdee3c25f7b6627dedf9e2c540",
+  "subject": "Editorial: Move the evaluation rules for |CharacterClassEscape| (#2531)"
+ },
+ {
+  "adate": "2021-09-21T22:59:04-04:00",
+  "author": "Michael Dyck",
+  "date": "2021-10-21T22:02:14-04:00",
+  "hash": "f3f0a37bda6491fdee3c25f7b6627dedf9e2c540",
+  "parents": "18802a7ae54524bd140359b8f6011f3106f288f3",
+  "subject": "Editorial: Inline the evaluation rule for |DecimalEscape| (#2531)"
+ },
+ {
+  "adate": "2021-09-21T22:36:20-04:00",
+  "author": "Michael Dyck",
+  "date": "2021-10-21T22:01:41-04:00",
+  "hash": "18802a7ae54524bd140359b8f6011f3106f288f3",
+  "parents": "6fdfc8f52474a00c2b27e68e02c3fba585efc875",
+  "subject": "Editorial: Inline the evaluation rule for |CharacterEscape| (#2531)"
+ },
+ {
   "adate": "2021-10-20T23:25:19-07:00",
   "author": "Michael Dyck",
   "date": "2021-10-20T23:25:19-07:00",
