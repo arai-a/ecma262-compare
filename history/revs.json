@@ -8,6 +8,46 @@
   "subject": "Editorial: Drop Compile rules that are handled by the chain rule (#2531)"
  },
  {
+  "adate": "2021-09-22T17:48:01-04:00",
+  "author": "Michael Dyck",
+  "date": "2021-10-21T22:03:29-04:00",
+  "hash": "25664156d951450aa3ee352e740b17af45a9c51b",
+  "parents": "451459a45f16213dc4796ae0f8ca401dccdcbdf3",
+  "subject": "Editorial: Introduce CompileAtom SDO (#2531)"
+ },
+ {
+  "adate": "2021-09-22T17:15:48-04:00",
+  "author": "Michael Dyck",
+  "date": "2021-10-21T22:03:26-04:00",
+  "hash": "451459a45f16213dc4796ae0f8ca401dccdcbdf3",
+  "parents": "aaba268f60a0360acfea68465073fb51767e9e96",
+  "subject": "Editorial: Introduce CompileCharacterClass SDO (#2531)"
+ },
+ {
+  "adate": "2021-09-22T17:00:28-04:00",
+  "author": "Michael Dyck",
+  "date": "2021-10-21T22:03:22-04:00",
+  "hash": "aaba268f60a0360acfea68465073fb51767e9e96",
+  "parents": "6901687683351d2c5118b4267348e5275147b431",
+  "subject": "Editorial: Introduce CompileToCharSet SDO (#2531)"
+ },
+ {
+  "adate": "2021-09-22T14:11:54-04:00",
+  "author": "Michael Dyck",
+  "date": "2021-10-21T22:03:19-04:00",
+  "hash": "6901687683351d2c5118b4267348e5275147b431",
+  "parents": "aa99b034e1f72dee06959e70f5255a2466a77f17",
+  "subject": "Editorial: When evaluating a |CharacterClass|, return a Record (#2531)"
+ },
+ {
+  "adate": "2021-09-22T13:55:06-04:00",
+  "author": "Michael Dyck",
+  "date": "2021-10-21T22:03:16-04:00",
+  "hash": "aa99b034e1f72dee06959e70f5255a2466a77f17",
+  "parents": "3f83f0bff663de45722b3e3270e45f5b02e0d9b5",
+  "subject": "Editorial: When evaluating a |QuantifierPrefix|, return a Record (#2531)"
+ },
+ {
   "adate": "2021-09-22T13:38:34-04:00",
   "author": "Michael Dyck",
   "date": "2021-10-21T22:03:12-04:00",
