@@ -8,6 +8,46 @@
   "subject": "Editorial: Drop Compile rules that are handled by the chain rule (#2531)"
  },
  {
+  "adate": "2021-09-22T21:36:29-04:00",
+  "author": "Michael Dyck",
+  "date": "2021-10-21T22:03:46-04:00",
+  "hash": "05ed23c3cc148d7bf7e596fa1501fb47f87d1534",
+  "parents": "b5e20b0959d169dc61d8077539caa393f1981574",
+  "subject": "Editorial: Introduce CompilePattern SDO (#2531)"
+ },
+ {
+  "adate": "2021-09-22T20:46:08-04:00",
+  "author": "Michael Dyck",
+  "date": "2021-10-21T22:03:43-04:00",
+  "hash": "b5e20b0959d169dc61d8077539caa393f1981574",
+  "parents": "0c6d0983560662ecc71b0b4022112861ed3b0c0f",
+  "subject": "Editorial: Introduce CompileSubpattern SDO (#2531)"
+ },
+ {
+  "adate": "2021-09-22T19:38:39-04:00",
+  "author": "Michael Dyck",
+  "date": "2021-10-21T22:03:39-04:00",
+  "hash": "0c6d0983560662ecc71b0b4022112861ed3b0c0f",
+  "parents": "9bba3b26a5b207365c912d4f3a8023ba7b43aa7f",
+  "subject": "Editorial: Introduce CompileAssertion SDO (#2531)"
+ },
+ {
+  "adate": "2021-09-22T18:13:32-04:00",
+  "author": "Michael Dyck",
+  "date": "2021-10-21T22:03:35-04:00",
+  "hash": "9bba3b26a5b207365c912d4f3a8023ba7b43aa7f",
+  "parents": "50d287764c8f88a6771dc3660f2194400ff07f3c",
+  "subject": "Editorial: Introduce CompileQuantifier SDO (#2531)"
+ },
+ {
+  "adate": "2021-09-22T18:03:46-04:00",
+  "author": "Michael Dyck",
+  "date": "2021-10-21T22:03:32-04:00",
+  "hash": "50d287764c8f88a6771dc3660f2194400ff07f3c",
+  "parents": "25664156d951450aa3ee352e740b17af45a9c51b",
+  "subject": "Editorial: Introduce CompileQuantifierPrefix SDO (#2531)"
+ },
+ {
   "adate": "2021-09-22T17:48:01-04:00",
   "author": "Michael Dyck",
   "date": "2021-10-21T22:03:29-04:00",
