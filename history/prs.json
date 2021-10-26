@@ -818,30 +818,22 @@
  {
   "base": "aa5157ace04854441780d7b9b17b18aad0d6d361",
   "created_at": "2021-04-18T03:11:47Z",
-  "head": "81d584276e27d5dc6487d310e41275dac4ee6e5d",
+  "head": "c57bbe005131bd6f55b04a6b1d0c5022cdf88a42",
   "login": "jmdyck",
   "number": 2391,
   "ref": "REI_step_14",
   "revs": [
    {
-    "adate": "2021-04-17T23:53:29-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-10-25T19:59:08-04:00",
-    "hash": "81d584276e27d5dc6487d310e41275dac4ee6e5d",
-    "parents": "166c324e7b4e4877a365908ca74378effd1dd798",
-    "subject": "fixup: add NOTE after step 13"
-   },
-   {
     "adate": "2021-04-17T22:58:55-04:00",
     "author": "Michael Dyck",
-    "date": "2021-10-25T19:58:17-04:00",
-    "hash": "166c324e7b4e4877a365908ca74378effd1dd798",
+    "date": "2021-10-25T21:41:12-04:00",
+    "hash": "c57bbe005131bd6f55b04a6b1d0c5022cdf88a42",
     "parents": "aa5157ace04854441780d7b9b17b18aad0d6d361",
-    "subject": "Editorial: Simplify RegExpInitialize (step 14)"
+    "subject": "Editorial: Simplify RegExpInitialize (#2391)"
    }
   ],
-  "title": "Editorial: Simplify RegExpInitialize (step 14)",
-  "updated_at": "2021-10-26T00:24:04Z"
+  "title": "Editorial: Simplify RegExpInitialize",
+  "updated_at": "2021-10-26T01:47:16Z"
  },
  {
   "base": "26061c0e5e4b62fae91a7127b46c1efa8b94c4b4",
