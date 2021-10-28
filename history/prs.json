@@ -1,5 +1,33 @@
 [
  {
+  "base": "267fdbdc716677bc9934906a498cf9bad4bfb70d",
+  "created_at": "2021-10-28T14:41:29Z",
+  "head": "624be10e7638090571c7b604e766310b5520b55f",
+  "login": "arhadthedev",
+  "number": 2559,
+  "ref": "white-space",
+  "revs": [
+   {
+    "adate": "2021-10-28T16:52:29+03:00",
+    "author": "Oleg Iarygin",
+    "date": "2021-10-28T16:52:29+03:00",
+    "hash": "624be10e7638090571c7b604e766310b5520b55f",
+    "parents": "6366966da881dd02eb027c6904fd306ced0f5610",
+    "subject": "Remove <SP> and <NBSP> as introduced by <USP>"
+   },
+   {
+    "adate": "2021-10-28T16:41:48+03:00",
+    "author": "Oleg Iarygin",
+    "date": "2021-10-28T16:41:48+03:00",
+    "hash": "6366966da881dd02eb027c6904fd306ced0f5610",
+    "parents": "f534fd664a9887992748be007ff2895ff30448b1",
+    "subject": "Remove a note about Zs that duplicates the grammar"
+   }
+  ],
+  "title": "Editorial: Remove <SP> and <NBSP> as the ones already included by <USP>",
+  "updated_at": "2021-10-28T14:44:59Z"
+ },
+ {
   "base": "82438c3374272607094f65dbd33c73a5db5b762c",
   "created_at": "2021-10-20T21:48:08Z",
   "head": "34975c8ed6d7d0a0c92de009b7dd6dd54274bc2b",
@@ -528,9 +556,9 @@
   "updated_at": "2021-06-15T22:18:35Z"
  },
  {
-  "base": "e7610a874f390aca90d8c059a95eb38e375a156c",
+  "base": "267fdbdc716677bc9934906a498cf9bad4bfb70d",
   "created_at": "2021-06-06T19:19:12Z",
-  "head": "6a7e4a61341baffaf369e29a61dd21ff61136b6e",
+  "head": "177b3eb7d4103744b44e4b9283a2506d034c0ba8",
   "login": "tc39",
   "number": 2429,
   "ref": "execution-context-return",
@@ -538,22 +566,22 @@
    {
     "adate": "2021-07-24T17:17:44-07:00",
     "author": "Kevin Gibbons",
-    "date": "2021-07-24T17:40:24-07:00",
-    "hash": "6a7e4a61341baffaf369e29a61dd21ff61136b6e",
-    "parents": "38144fae5d31e074c3132ff8949057c3f78e037f",
+    "date": "2021-10-28T07:35:22-07:00",
+    "hash": "177b3eb7d4103744b44e4b9283a2506d034c0ba8",
+    "parents": "d5e407891da3d1517bb47399d3ee120ce3a8d7b0",
     "subject": "address jmdyck comments"
    },
    {
     "adate": "2021-06-06T11:34:09-07:00",
     "author": "Kevin Gibbons",
-    "date": "2021-07-24T17:16:24-07:00",
-    "hash": "38144fae5d31e074c3132ff8949057c3f78e037f",
-    "parents": "e7610a874f390aca90d8c059a95eb38e375a156c",
+    "date": "2021-10-28T07:35:21-07:00",
+    "hash": "d5e407891da3d1517bb47399d3ee120ce3a8d7b0",
+    "parents": "267fdbdc716677bc9934906a498cf9bad4bfb70d",
     "subject": "Editorial: do not use \"Return\" to transfer control between execution contexts"
    }
   ],
   "title": "Editorial: do not use \"Return\" to transfer control between execution contexts",
-  "updated_at": "2021-07-25T00:40:40Z"
+  "updated_at": "2021-10-28T14:35:33Z"
  },
  {
   "base": "82438c3374272607094f65dbd33c73a5db5b762c",
