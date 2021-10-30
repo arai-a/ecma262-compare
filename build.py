@@ -736,7 +736,7 @@ class Revisions:
 
     def update_cache():
         revs = list(LocalRepository.revs(
-            ['{}^..{}'.format(Config.FIRST_REV, 'origin/master')]))
+            ['{}^..{}'.format(Config.FIRST_REV, 'origin/main')]))
 
         parents = set()
         for pr in PRs.get_cache():
@@ -768,7 +768,7 @@ class Revisions:
         FileUtils.write(Paths.REVS_PATH, revs_json)
 
     def __update_revset(revset, count, skip_cache):
-        LocalRepository.fetch('origin', 'master')
+        LocalRepository.fetch('origin', 'main')
 
         revs = list(LocalRepository.revs(revset))
 
@@ -832,7 +832,7 @@ class Revisions:
     @classmethod
     def update_all(cls, count, skip_cache):
         return cls.__update_revset(
-            ['{}^..{}'.format(Config.UPDATE_FIRST_REV, 'origin/master')],
+            ['{}^..{}'.format(Config.UPDATE_FIRST_REV, 'origin/main')],
             count, skip_cache)
 
     @classmethod
@@ -882,7 +882,7 @@ class PRs:
         RevisionRenderer.run(pr['head'], prnum, skip_cache)
 
         pr['revs'] = list(LocalRepository.revs(
-            ['origin/master..{}'.format(pr['head'])]))
+            ['origin/main..{}'.format(pr['head'])]))
 
         info_json = json.dumps(pr)
         FileUtils.write(Paths.pr_info_path(prnum), info_json)
