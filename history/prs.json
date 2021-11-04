@@ -1,6 +1,58 @@
 [
  {
   "base": "b1b89ae916c30858b9b87744ddd50972b16edcfb",
+  "created_at": "2021-11-04T02:22:46Z",
+  "head": "79c5f0e9cb6d13cf2c297aa75bfe49cf5d7b331d",
+  "login": "tc39",
+  "number": 2566,
+  "ref": "rm-special-module-strings",
+  "revs": [
+   {
+    "adate": "2021-11-03T18:12:00-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-11-03T19:12:08-07:00",
+    "hash": "79c5f0e9cb6d13cf2c297aa75bfe49cf5d7b331d",
+    "parents": "557e4e85b93f66bf27c1f997be17d9f55aac81b1",
+    "subject": "expand note about \"*default*\""
+   },
+   {
+    "adate": "2021-11-03T17:20:32-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-11-03T18:59:09-07:00",
+    "hash": "557e4e85b93f66bf27c1f997be17d9f55aac81b1",
+    "parents": "ee4e6a60874dca1b2c679e7bbb45c84240da19ea",
+    "subject": "rename \"ambiguous\" in ResolveExport return value"
+   },
+   {
+    "adate": "2021-11-03T17:18:42-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-11-03T18:59:09-07:00",
+    "hash": "ee4e6a60874dca1b2c679e7bbb45c84240da19ea",
+    "parents": "a7f431629cc28eac64344161dc79035b937096f1",
+    "subject": "rename \"*namespace*\" in ResolvedBinding [[BindingName]]"
+   },
+   {
+    "adate": "2021-11-03T16:40:05-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-11-03T18:59:09-07:00",
+    "hash": "a7f431629cc28eac64344161dc79035b937096f1",
+    "parents": "a7f8c9e8855dc7dc52db9e81170a2fe5e919a499",
+    "subject": "rename \"*\" in ImportEntry [[ImportName]]"
+   },
+   {
+    "adate": "2021-11-03T16:28:27-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-11-03T18:59:07-07:00",
+    "hash": "a7f8c9e8855dc7dc52db9e81170a2fe5e919a499",
+    "parents": "b1b89ae916c30858b9b87744ddd50972b16edcfb",
+    "subject": "rename \"*\" in ExportEntry [[ImportName]]"
+   }
+  ],
+  "title": "Editorial: mostly stop using strings for special values",
+  "updated_at": "2021-11-04T02:22:46Z"
+ },
+ {
+  "base": "b1b89ae916c30858b9b87744ddd50972b16edcfb",
   "created_at": "2021-11-02T06:25:30Z",
   "head": "24f41bd8d6820a63e3b975a99eb814a95325d8b6",
   "login": "tc39",
