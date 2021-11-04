@@ -2,11 +2,19 @@
  {
   "base": "b1b89ae916c30858b9b87744ddd50972b16edcfb",
   "created_at": "2021-11-04T02:22:46Z",
-  "head": "3f52d23c8131d2dd4fb17f1dfe5082b40e94b1ca",
+  "head": "4469b437c61e334dd83231ea391aefbefcbf6f12",
   "login": "tc39",
   "number": 2566,
   "ref": "rm-special-module-strings",
   "revs": [
+   {
+    "adate": "2021-11-04T15:33:57-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-11-04T15:33:57-07:00",
+    "hash": "4469b437c61e334dd83231ea391aefbefcbf6f12",
+    "parents": "3f52d23c8131d2dd4fb17f1dfe5082b40e94b1ca",
+    "subject": "fixup! missing comma"
+   },
    {
     "adate": "2021-11-04T15:02:44-07:00",
     "author": "Kevin Gibbons",
@@ -57,7 +65,7 @@
    }
   ],
   "title": "Editorial: mostly stop using strings for special values",
-  "updated_at": "2021-11-04T22:13:02Z"
+  "updated_at": "2021-11-04T22:34:04Z"
  },
  {
   "base": "b1b89ae916c30858b9b87744ddd50972b16edcfb",
