@@ -2,11 +2,19 @@
  {
   "base": "b1b89ae916c30858b9b87744ddd50972b16edcfb",
   "created_at": "2021-11-04T02:22:46Z",
-  "head": "79c5f0e9cb6d13cf2c297aa75bfe49cf5d7b331d",
+  "head": "3f52d23c8131d2dd4fb17f1dfe5082b40e94b1ca",
   "login": "tc39",
   "number": 2566,
   "ref": "rm-special-module-strings",
   "revs": [
+   {
+    "adate": "2021-11-04T15:02:44-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-11-04T15:02:44-07:00",
+    "hash": "3f52d23c8131d2dd4fb17f1dfe5082b40e94b1ca",
+    "parents": "79c5f0e9cb6d13cf2c297aa75bfe49cf5d7b331d",
+    "subject": "fixup! typo in note"
+   },
    {
     "adate": "2021-11-03T18:12:00-07:00",
     "author": "Kevin Gibbons",
@@ -49,7 +57,7 @@
    }
   ],
   "title": "Editorial: mostly stop using strings for special values",
-  "updated_at": "2021-11-04T02:22:46Z"
+  "updated_at": "2021-11-04T22:13:02Z"
  },
  {
   "base": "b1b89ae916c30858b9b87744ddd50972b16edcfb",
@@ -1086,26 +1094,6 @@
   ],
   "title": "Editorial: Minor fix in evaluation of 'YieldExpression' and Arguments Exotic Object",
   "updated_at": "2021-04-06T04:42:17Z"
- },
- {
-  "base": "267fdbdc716677bc9934906a498cf9bad4bfb70d",
-  "created_at": "2021-03-21T17:00:17Z",
-  "head": "f98c080c39978fa7db49b09c3919626060a566bb",
-  "login": "legendecas",
-  "number": 2356,
-  "ref": "proposal-error-cause",
-  "revs": [
-   {
-    "adate": "2021-10-27T09:12:02-07:00",
-    "author": "legendecas",
-    "date": "2021-10-27T09:12:02-07:00",
-    "hash": "f98c080c39978fa7db49b09c3919626060a566bb",
-    "parents": "267fdbdc716677bc9934906a498cf9bad4bfb70d",
-    "subject": "Normative: add error cause (#2356)"
-   }
-  ],
-  "title": "Normative: add error cause",
-  "updated_at": "2021-10-27T16:12:10Z"
  },
  {
   "base": "e4c9f6359996a63296f13f961a12dbbf339ccbb7",
