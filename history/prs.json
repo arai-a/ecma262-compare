@@ -2,62 +2,54 @@
  {
   "base": "02bf300a65a90bd7b77450e4eefd7ef2cfbfa5ed",
   "created_at": "2021-11-04T02:22:46Z",
-  "head": "411274a650d96bfdb071ba866ad72f7b3bfeafc5",
+  "head": "722165eca5e192f1f923c6e612cb8f1064d90241",
   "login": "tc39",
   "number": 2566,
   "ref": "rm-special-module-strings",
   "revs": [
    {
-    "adate": "2021-11-05T13:26:40-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-11-05T15:10:26-07:00",
-    "hash": "411274a650d96bfdb071ba866ad72f7b3bfeafc5",
-    "parents": "79f8dbb71c1b1ebf30550c5c81af2b3cccbba5bd",
-    "subject": "fixup! avoid passing enum to SameValue"
-   },
-   {
     "adate": "2021-11-03T18:12:00-07:00",
     "author": "Kevin Gibbons",
-    "date": "2021-11-05T10:17:59-07:00",
-    "hash": "79f8dbb71c1b1ebf30550c5c81af2b3cccbba5bd",
-    "parents": "2298429460d47cf53b560d224fbdede89931d945",
+    "date": "2021-11-05T16:19:39-07:00",
+    "hash": "722165eca5e192f1f923c6e612cb8f1064d90241",
+    "parents": "60f24d896fae2abaafae913d893f271cbdfc75a3",
     "subject": "Editorial: Expand note about \"*default*\""
    },
    {
     "adate": "2021-11-03T17:20:32-07:00",
     "author": "Kevin Gibbons",
-    "date": "2021-11-05T10:17:55-07:00",
-    "hash": "2298429460d47cf53b560d224fbdede89931d945",
-    "parents": "ce17bc30bc243a44a336d0efa225c5747a82513b",
+    "date": "2021-11-05T16:19:38-07:00",
+    "hash": "60f24d896fae2abaafae913d893f271cbdfc75a3",
+    "parents": "02fae2ce8948303e77037c4364af1317364b2ad3",
     "subject": "Editorial: Rename \"ambiguous\" in ResolveExport return value"
    },
    {
     "adate": "2021-11-03T17:18:42-07:00",
     "author": "Kevin Gibbons",
-    "date": "2021-11-05T10:17:50-07:00",
-    "hash": "ce17bc30bc243a44a336d0efa225c5747a82513b",
-    "parents": "615fb40b413c97df473c4679cecf780f5c3dd647",
+    "date": "2021-11-05T16:19:11-07:00",
+    "hash": "02fae2ce8948303e77037c4364af1317364b2ad3",
+    "parents": "b7795783f7e4df3816967c999cd2d17b051c2bc1",
     "subject": "Editorial: Rename \"*namespace*\" in ResolvedBinding [[BindingName]]"
    },
    {
     "adate": "2021-11-03T16:40:05-07:00",
     "author": "Kevin Gibbons",
-    "date": "2021-11-05T10:17:43-07:00",
-    "hash": "615fb40b413c97df473c4679cecf780f5c3dd647",
-    "parents": "c8e1e6e9e5e546dccb63342cc38aca4a1153ce37",
+    "date": "2021-11-05T16:18:45-07:00",
+    "hash": "b7795783f7e4df3816967c999cd2d17b051c2bc1",
+    "parents": "1d58e5daadaaa2d2c0760d4d23f6d5131fe0b034",
     "subject": "Editorial: Rename \"*\" in ImportEntry [[ImportName]]"
    },
    {
     "adate": "2021-11-03T16:28:27-07:00",
     "author": "Kevin Gibbons",
-    "date": "2021-11-05T10:16:29-07:00",
-    "hash": "c8e1e6e9e5e546dccb63342cc38aca4a1153ce37",
-    "parents": "b1b89ae916c30858b9b87744ddd50972b16edcfb",
+    "date": "2021-11-05T16:18:45-07:00",
+    "hash": "1d58e5daadaaa2d2c0760d4d23f6d5131fe0b034",
+    "parents": "02bf300a65a90bd7b77450e4eefd7ef2cfbfa5ed",
     "subject": "Editorial: Rename \"*\" in ExportEntry [[ImportName]]"
    }
   ],
   "title": "Editorial: mostly stop using strings for special values",
-  "updated_at": "2021-11-05T22:10:31Z"
+  "updated_at": "2021-11-05T23:19:46Z"
  },
  {
   "base": "b1b89ae916c30858b9b87744ddd50972b16edcfb",
