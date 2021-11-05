@@ -2,11 +2,19 @@
  {
   "base": "02bf300a65a90bd7b77450e4eefd7ef2cfbfa5ed",
   "created_at": "2021-11-04T02:22:46Z",
-  "head": "79f8dbb71c1b1ebf30550c5c81af2b3cccbba5bd",
+  "head": "f05c83af11ef6011dbdbd9cf04c5069e6cee9b22",
   "login": "tc39",
   "number": 2566,
   "ref": "rm-special-module-strings",
   "revs": [
+   {
+    "adate": "2021-11-05T13:26:40-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-11-05T13:27:10-07:00",
+    "hash": "f05c83af11ef6011dbdbd9cf04c5069e6cee9b22",
+    "parents": "79f8dbb71c1b1ebf30550c5c81af2b3cccbba5bd",
+    "subject": "fixup! avoid passing enum to SameValue"
+   },
    {
     "adate": "2021-11-03T18:12:00-07:00",
     "author": "Kevin Gibbons",
@@ -49,7 +57,7 @@
    }
   ],
   "title": "Editorial: mostly stop using strings for special values",
-  "updated_at": "2021-11-05T17:18:12Z"
+  "updated_at": "2021-11-05T20:27:15Z"
  },
  {
   "base": "b1b89ae916c30858b9b87744ddd50972b16edcfb",
