@@ -1,71 +1,55 @@
 [
  {
-  "base": "b1b89ae916c30858b9b87744ddd50972b16edcfb",
+  "base": "02bf300a65a90bd7b77450e4eefd7ef2cfbfa5ed",
   "created_at": "2021-11-04T02:22:46Z",
-  "head": "4469b437c61e334dd83231ea391aefbefcbf6f12",
+  "head": "79f8dbb71c1b1ebf30550c5c81af2b3cccbba5bd",
   "login": "tc39",
   "number": 2566,
   "ref": "rm-special-module-strings",
   "revs": [
    {
-    "adate": "2021-11-04T15:33:57-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-11-04T15:33:57-07:00",
-    "hash": "4469b437c61e334dd83231ea391aefbefcbf6f12",
-    "parents": "3f52d23c8131d2dd4fb17f1dfe5082b40e94b1ca",
-    "subject": "fixup! missing comma"
-   },
-   {
-    "adate": "2021-11-04T15:02:44-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-11-04T15:02:44-07:00",
-    "hash": "3f52d23c8131d2dd4fb17f1dfe5082b40e94b1ca",
-    "parents": "79c5f0e9cb6d13cf2c297aa75bfe49cf5d7b331d",
-    "subject": "fixup! typo in note"
-   },
-   {
     "adate": "2021-11-03T18:12:00-07:00",
     "author": "Kevin Gibbons",
-    "date": "2021-11-03T19:12:08-07:00",
-    "hash": "79c5f0e9cb6d13cf2c297aa75bfe49cf5d7b331d",
-    "parents": "557e4e85b93f66bf27c1f997be17d9f55aac81b1",
-    "subject": "expand note about \"*default*\""
+    "date": "2021-11-05T10:17:59-07:00",
+    "hash": "79f8dbb71c1b1ebf30550c5c81af2b3cccbba5bd",
+    "parents": "2298429460d47cf53b560d224fbdede89931d945",
+    "subject": "Editorial: Expand note about \"*default*\""
    },
    {
     "adate": "2021-11-03T17:20:32-07:00",
     "author": "Kevin Gibbons",
-    "date": "2021-11-03T18:59:09-07:00",
-    "hash": "557e4e85b93f66bf27c1f997be17d9f55aac81b1",
-    "parents": "ee4e6a60874dca1b2c679e7bbb45c84240da19ea",
-    "subject": "rename \"ambiguous\" in ResolveExport return value"
+    "date": "2021-11-05T10:17:55-07:00",
+    "hash": "2298429460d47cf53b560d224fbdede89931d945",
+    "parents": "ce17bc30bc243a44a336d0efa225c5747a82513b",
+    "subject": "Editorial: Rename \"ambiguous\" in ResolveExport return value"
    },
    {
     "adate": "2021-11-03T17:18:42-07:00",
     "author": "Kevin Gibbons",
-    "date": "2021-11-03T18:59:09-07:00",
-    "hash": "ee4e6a60874dca1b2c679e7bbb45c84240da19ea",
-    "parents": "a7f431629cc28eac64344161dc79035b937096f1",
-    "subject": "rename \"*namespace*\" in ResolvedBinding [[BindingName]]"
+    "date": "2021-11-05T10:17:50-07:00",
+    "hash": "ce17bc30bc243a44a336d0efa225c5747a82513b",
+    "parents": "615fb40b413c97df473c4679cecf780f5c3dd647",
+    "subject": "Editorial: Rename \"*namespace*\" in ResolvedBinding [[BindingName]]"
    },
    {
     "adate": "2021-11-03T16:40:05-07:00",
     "author": "Kevin Gibbons",
-    "date": "2021-11-03T18:59:09-07:00",
-    "hash": "a7f431629cc28eac64344161dc79035b937096f1",
-    "parents": "a7f8c9e8855dc7dc52db9e81170a2fe5e919a499",
-    "subject": "rename \"*\" in ImportEntry [[ImportName]]"
+    "date": "2021-11-05T10:17:43-07:00",
+    "hash": "615fb40b413c97df473c4679cecf780f5c3dd647",
+    "parents": "c8e1e6e9e5e546dccb63342cc38aca4a1153ce37",
+    "subject": "Editorial: Rename \"*\" in ImportEntry [[ImportName]]"
    },
    {
     "adate": "2021-11-03T16:28:27-07:00",
     "author": "Kevin Gibbons",
-    "date": "2021-11-03T18:59:07-07:00",
-    "hash": "a7f8c9e8855dc7dc52db9e81170a2fe5e919a499",
+    "date": "2021-11-05T10:16:29-07:00",
+    "hash": "c8e1e6e9e5e546dccb63342cc38aca4a1153ce37",
     "parents": "b1b89ae916c30858b9b87744ddd50972b16edcfb",
-    "subject": "rename \"*\" in ExportEntry [[ImportName]]"
+    "subject": "Editorial: Rename \"*\" in ExportEntry [[ImportName]]"
    }
   ],
   "title": "Editorial: mostly stop using strings for special values",
-  "updated_at": "2021-11-04T22:34:04Z"
+  "updated_at": "2021-11-05T17:18:12Z"
  },
  {
   "base": "b1b89ae916c30858b9b87744ddd50972b16edcfb",
