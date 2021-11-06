@@ -1,57 +1,5 @@
 [
  {
-  "base": "02bf300a65a90bd7b77450e4eefd7ef2cfbfa5ed",
-  "created_at": "2021-11-04T02:22:46Z",
-  "head": "722165eca5e192f1f923c6e612cb8f1064d90241",
-  "login": "tc39",
-  "number": 2566,
-  "ref": "rm-special-module-strings",
-  "revs": [
-   {
-    "adate": "2021-11-03T18:12:00-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-11-05T16:19:39-07:00",
-    "hash": "722165eca5e192f1f923c6e612cb8f1064d90241",
-    "parents": "60f24d896fae2abaafae913d893f271cbdfc75a3",
-    "subject": "Editorial: Expand note about \"*default*\""
-   },
-   {
-    "adate": "2021-11-03T17:20:32-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-11-05T16:19:38-07:00",
-    "hash": "60f24d896fae2abaafae913d893f271cbdfc75a3",
-    "parents": "02fae2ce8948303e77037c4364af1317364b2ad3",
-    "subject": "Editorial: Rename \"ambiguous\" in ResolveExport return value"
-   },
-   {
-    "adate": "2021-11-03T17:18:42-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-11-05T16:19:11-07:00",
-    "hash": "02fae2ce8948303e77037c4364af1317364b2ad3",
-    "parents": "b7795783f7e4df3816967c999cd2d17b051c2bc1",
-    "subject": "Editorial: Rename \"*namespace*\" in ResolvedBinding [[BindingName]]"
-   },
-   {
-    "adate": "2021-11-03T16:40:05-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-11-05T16:18:45-07:00",
-    "hash": "b7795783f7e4df3816967c999cd2d17b051c2bc1",
-    "parents": "1d58e5daadaaa2d2c0760d4d23f6d5131fe0b034",
-    "subject": "Editorial: Rename \"*\" in ImportEntry [[ImportName]]"
-   },
-   {
-    "adate": "2021-11-03T16:28:27-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-11-05T16:18:45-07:00",
-    "hash": "1d58e5daadaaa2d2c0760d4d23f6d5131fe0b034",
-    "parents": "02bf300a65a90bd7b77450e4eefd7ef2cfbfa5ed",
-    "subject": "Editorial: Rename \"*\" in ExportEntry [[ImportName]]"
-   }
-  ],
-  "title": "Editorial: mostly stop using strings for special values",
-  "updated_at": "2021-11-05T23:19:46Z"
- },
- {
   "base": "b1b89ae916c30858b9b87744ddd50972b16edcfb",
   "created_at": "2021-11-02T06:25:30Z",
   "head": "a69689fcb0eddc38723b9cb02fdbbc30af770708",
@@ -1452,180 +1400,24 @@
   "updated_at": "2020-10-05T15:02:31Z"
  },
  {
-  "base": "65d5bcc81b65f822d4a8f31ece1bda30f5ca3036",
-  "created_at": "2020-08-26T23:21:12Z",
-  "head": "870e5f7cc27ac0e7489059d3c650595b100a2796",
-  "login": "ljharb",
-  "number": 2155,
-  "ref": "enumb",
-  "revs": [
-   {
-    "adate": "2020-09-07T22:21:55-07:00",
-    "author": "Jordan Harband",
-    "date": "2020-09-07T22:22:09-07:00",
-    "hash": "870e5f7cc27ac0e7489059d3c650595b100a2796",
-    "parents": "158950a9ee714bcd1281d0cfae44debed7907e8d",
-    "subject": "fixup! Editorial: stop using strings for special values (#2155)"
-   },
-   {
-    "adate": "2020-09-07T22:18:32-07:00",
-    "author": "Jordan Harband",
-    "date": "2020-09-07T22:22:09-07:00",
-    "hash": "158950a9ee714bcd1281d0cfae44debed7907e8d",
-    "parents": "dda632e4deb5ace02cf856326cbf41a3a4a54b23",
-    "subject": "fixup! Editorial: stop using strings for special values (#2155)"
-   },
-   {
-    "adate": "2020-09-02T16:39:29-07:00",
-    "author": "Bradley Farias",
-    "date": "2020-09-07T22:22:09-07:00",
-    "hash": "dda632e4deb5ace02cf856326cbf41a3a4a54b23",
-    "parents": "65d5bcc81b65f822d4a8f31ece1bda30f5ca3036",
-    "subject": "Editorial: stop using strings for special values (#2155)"
-   }
-  ],
-  "title": "Editorial: stop using strings for special values",
-  "updated_at": "2020-09-08T20:17:58Z"
- },
- {
-  "base": "11de25489a3e325b4b4c0575847d3bb9f51c7199",
+  "base": "3da56831eaa4c8029d0c69445d5099ce6c2b0c5e",
   "created_at": "2020-08-26T22:13:54Z",
-  "head": "fafc4198bd42d98ed28ccd9a2f0ee18883d16348",
+  "head": "98e1faa5a22cf389f55c827108025b90d3909679",
   "login": "bmeck",
   "number": 2154,
   "ref": "arbitrary-module-namespace-identifier-names",
   "revs": [
    {
-    "adate": "2020-09-30T15:49:22-05:00",
-    "author": "Bradley Farias",
-    "date": "2020-09-30T15:49:22-05:00",
-    "hash": "fafc4198bd42d98ed28ccd9a2f0ee18883d16348",
-    "parents": "678bbac52270a1f7eb80cfa3af46ac2c0d559f5d",
-    "subject": "fixup"
-   },
-   {
-    "adate": "2020-09-30T10:08:02-05:00",
-    "author": "Bradley Farias",
-    "date": "2020-09-30T10:08:02-05:00",
-    "hash": "678bbac52270a1f7eb80cfa3af46ac2c0d559f5d",
-    "parents": "ea45958f3c5fb4f71f8de795abb7fa7b0e6b1a63",
-    "subject": "no infinite lookahead"
-   },
-   {
-    "adate": "2020-09-29T11:00:05-05:00",
-    "author": "Bradley Farias",
-    "date": "2020-09-29T11:00:05-05:00",
-    "hash": "ea45958f3c5fb4f71f8de795abb7fa7b0e6b1a63",
-    "parents": "dedda1939640bb28a9002da22d02c8b37c8ae767",
-    "subject": "fixup"
-   },
-   {
-    "adate": "2020-09-29T09:06:46-05:00",
-    "author": "Bradley Farias",
-    "date": "2020-09-29T09:06:46-05:00",
-    "hash": "dedda1939640bb28a9002da22d02c8b37c8ae767",
-    "parents": "272cf6b33d1e2be49fa1d71f773bc1ab65c40a04",
-    "subject": "Missing form"
-   },
-   {
-    "adate": "2020-09-28T18:16:33-05:00",
-    "author": "Bradley Farias",
-    "date": "2020-09-28T18:16:33-05:00",
-    "hash": "272cf6b33d1e2be49fa1d71f773bc1ab65c40a04",
-    "parents": "cf251d2ac1ff6fac786f4e10aab1368e6bc27861",
-    "subject": "lint"
-   },
-   {
-    "adate": "2020-09-28T17:14:28-05:00",
-    "author": "Bradley Farias",
-    "date": "2020-09-28T17:14:28-05:00",
-    "hash": "cf251d2ac1ff6fac786f4e10aab1368e6bc27861",
-    "parents": "767c72c6de706a9ac62c84dd8a630a23b99c7a97",
-    "subject": "abbreviated forms"
-   },
-   {
-    "adate": "2020-09-11T08:17:50-05:00",
-    "author": "Bradley Farias",
-    "date": "2020-09-11T08:17:50-05:00",
-    "hash": "767c72c6de706a9ac62c84dd8a630a23b99c7a97",
-    "parents": "49e5892ba2820f11b2e51f1884b6c7cdbfc4df3e",
-    "subject": "fixup"
-   },
-   {
-    "adate": "2020-08-26T17:52:51-05:00",
-    "author": "Bradley Farias",
-    "date": "2020-08-26T17:52:51-05:00",
-    "hash": "49e5892ba2820f11b2e51f1884b6c7cdbfc4df3e",
-    "parents": "d786811e655117c598ff30fe0540887a740b5db9",
-    "subject": "star shouldnt be a string"
-   },
-   {
-    "adate": "2020-08-26T17:48:17-05:00",
-    "author": "Bradley Farias",
-    "date": "2020-08-26T17:48:17-05:00",
-    "hash": "d786811e655117c598ff30fe0540887a740b5db9",
-    "parents": "cd03c4032d9994692ba99d9e2336c72f580de0c0",
-    "subject": "forgot to redo some stuff"
-   },
-   {
-    "adate": "2020-08-26T17:46:45-05:00",
-    "author": "Bradley Farias",
-    "date": "2020-08-26T17:46:45-05:00",
-    "hash": "cd03c4032d9994692ba99d9e2336c72f580de0c0",
-    "parents": "17c517d3a992e11dbc4405a167218c39ba8c474a",
-    "subject": "typo"
-   },
-   {
-    "adate": "2020-08-26T17:43:48-05:00",
-    "author": "Bradley Farias",
-    "date": "2020-08-26T17:43:48-05:00",
-    "hash": "17c517d3a992e11dbc4405a167218c39ba8c474a",
-    "parents": "3ad0eda3523696ae0eb7412a5eac84ccd3216a83",
-    "subject": "style"
-   },
-   {
-    "adate": "2020-08-26T17:41:21-05:00",
-    "author": "Bradley Farias",
-    "date": "2020-08-26T17:41:21-05:00",
-    "hash": "3ad0eda3523696ae0eb7412a5eac84ccd3216a83",
-    "parents": "5d2c8bb62f04604741f5020ca407e56bc077852f",
-    "subject": "spaces"
-   },
-   {
-    "adate": "2020-08-26T17:37:55-05:00",
-    "author": "Bradley Farias",
-    "date": "2020-08-26T17:37:55-05:00",
-    "hash": "5d2c8bb62f04604741f5020ca407e56bc077852f",
-    "parents": "406c8166bfbb9bb93aef724bc64cc7238da3e0a4",
-    "subject": "isStringValidUnicode bug"
-   },
-   {
-    "adate": "2020-08-26T17:36:32-05:00",
-    "author": "Bradley Farias",
-    "date": "2020-08-26T17:36:32-05:00",
-    "hash": "406c8166bfbb9bb93aef724bc64cc7238da3e0a4",
-    "parents": "83f77ebc3cd5c02c88ca0702079d404865026abd",
-    "subject": "export from clause bug"
-   },
-   {
-    "adate": "2020-08-26T17:13:26-05:00",
-    "author": "Bradley Farias",
-    "date": "2020-08-26T17:13:26-05:00",
-    "hash": "83f77ebc3cd5c02c88ca0702079d404865026abd",
-    "parents": "c68f30df517accdfc072234d8e8314c606de9a6d",
-    "subject": "stop using strings for special values"
-   },
-   {
     "adate": "2020-08-26T17:00:58-05:00",
     "author": "Bradley Farias",
-    "date": "2020-08-26T17:00:58-05:00",
-    "hash": "c68f30df517accdfc072234d8e8314c606de9a6d",
-    "parents": "11de25489a3e325b4b4c0575847d3bb9f51c7199",
+    "date": "2021-11-05T17:26:58-07:00",
+    "hash": "98e1faa5a22cf389f55c827108025b90d3909679",
+    "parents": "3da56831eaa4c8029d0c69445d5099ce6c2b0c5e",
     "subject": "Allow import/export namespace names to be any unicode string"
    }
   ],
   "title": "Normative: Arbitrary module namespace identifier names",
-  "updated_at": "2020-09-30T20:49:32Z"
+  "updated_at": "2021-11-06T00:29:02Z"
  },
  {
   "base": "93ac76898d9f74e39f68ac53edbad68b3822c949",
