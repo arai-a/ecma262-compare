@@ -60,48 +60,64 @@
   "updated_at": "2021-11-06T05:28:18Z"
  },
  {
-  "base": "b1b89ae916c30858b9b87744ddd50972b16edcfb",
+  "base": "3da56831eaa4c8029d0c69445d5099ce6c2b0c5e",
   "created_at": "2021-11-02T06:25:30Z",
-  "head": "a69689fcb0eddc38723b9cb02fdbbc30af770708",
+  "head": "d91360e7b9e1238bba34810620dc9579f3f829ab",
   "login": "tc39",
   "number": 2564,
   "ref": "auto-format",
   "revs": [
    {
-    "adate": "2021-11-03T21:54:04-07:00",
+    "adate": "2021-11-09T09:01:55-08:00",
     "author": "Kevin Gibbons",
-    "date": "2021-11-03T21:54:04-07:00",
-    "hash": "a69689fcb0eddc38723b9cb02fdbbc30af770708",
-    "parents": "24f41bd8d6820a63e3b975a99eb814a95325d8b6",
-    "subject": "fixup! multiline comments"
+    "date": "2021-11-09T09:01:55-08:00",
+    "hash": "d91360e7b9e1238bba34810620dc9579f3f829ab",
+    "parents": "f3c651798e235bcef490334521b05f1714610e6e",
+    "subject": "revertme! npm run format"
+   },
+   {
+    "adate": "2021-11-09T08:48:19-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-11-09T08:56:43-08:00",
+    "hash": "f3c651798e235bcef490334521b05f1714610e6e",
+    "parents": "0822c7177843c8829253ee4265fc85a6a69e0fd3",
+    "subject": "revertme! add stray space"
+   },
+   {
+    "adate": "2021-11-08T18:38:03-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-11-09T08:56:41-08:00",
+    "hash": "0822c7177843c8829253ee4265fc85a6a69e0fd3",
+    "parents": "7316f82b4294e1d780eaf16b213bf6527b9ed0bf",
+    "subject": "Meta: bump ecmarkup to 9.6.0 and add workflow action to enforce formatting"
    },
    {
     "adate": "2021-11-01T23:13:49-07:00",
     "author": "Kevin Gibbons",
-    "date": "2021-11-01T23:13:49-07:00",
-    "hash": "24f41bd8d6820a63e3b975a99eb814a95325d8b6",
-    "parents": "a03c38f11dcd89eefc3b29b55a0bbc72abc18595",
+    "date": "2021-11-09T08:48:47-08:00",
+    "hash": "7316f82b4294e1d780eaf16b213bf6527b9ed0bf",
+    "parents": "43c78f4168e5f51490b148b5a8afabcc7af0df6a",
     "subject": "Markup: auto-format"
    },
    {
     "adate": "2021-11-01T23:09:59-07:00",
     "author": "Kevin Gibbons",
-    "date": "2021-11-01T23:09:59-07:00",
-    "hash": "a03c38f11dcd89eefc3b29b55a0bbc72abc18595",
-    "parents": "1080327e15c508811650eff8b0d6dd6608a5abf3",
+    "date": "2021-11-09T08:46:02-08:00",
+    "hash": "43c78f4168e5f51490b148b5a8afabcc7af0df6a",
+    "parents": "317132cb80b5daa25b4523e43f518834e1c36600",
     "subject": "Markup: add \"emu-format ignore\" comments"
    },
    {
     "adate": "2021-11-01T23:08:28-07:00",
     "author": "Kevin Gibbons",
-    "date": "2021-11-01T23:09:55-07:00",
-    "hash": "1080327e15c508811650eff8b0d6dd6608a5abf3",
-    "parents": "267fdbdc716677bc9934906a498cf9bad4bfb70d",
+    "date": "2021-11-09T08:46:02-08:00",
+    "hash": "317132cb80b5daa25b4523e43f518834e1c36600",
+    "parents": "3da56831eaa4c8029d0c69445d5099ce6c2b0c5e",
     "subject": "Markup: consistently put tbody contents at same indent as tbody"
    }
   ],
   "title": "Markup: auto-format",
-  "updated_at": "2021-11-04T04:57:09Z"
+  "updated_at": "2021-11-09T17:02:00Z"
  },
  {
   "base": "267fdbdc716677bc9934906a498cf9bad4bfb70d",
