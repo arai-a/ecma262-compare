@@ -22,11 +22,19 @@
  {
   "base": "3da56831eaa4c8029d0c69445d5099ce6c2b0c5e",
   "created_at": "2021-11-07T03:54:54Z",
-  "head": "5160a1f503820a6d1b2f41d62eb507d34341bb4b",
+  "head": "143ed8caaafb004c82bdd7086c4bb4e4e9680dc9",
   "login": "jmdyck",
   "number": 2572,
   "ref": "match_sense",
   "revs": [
+   {
+    "adate": "2021-11-09T16:42:57-05:00",
+    "author": "Michael Dyck",
+    "date": "2021-11-09T16:42:57-05:00",
+    "hash": "143ed8caaafb004c82bdd7086c4bb4e4e9680dc9",
+    "parents": "5160a1f503820a6d1b2f41d62eb507d34341bb4b",
+    "subject": "FIXUP: \"conform to the grammar for\" -> \"have the syntax of\""
+   },
    {
     "adate": "2021-11-06T23:33:57-04:00",
     "author": "Michael Dyck",
@@ -37,7 +45,7 @@
    }
   ],
   "title": "Editorial: Be consistent about the sense of \"match\"",
-  "updated_at": "2021-11-07T03:54:54Z"
+  "updated_at": "2021-11-09T21:46:03Z"
  },
  {
   "base": "3da56831eaa4c8029d0c69445d5099ce6c2b0c5e",
@@ -126,26 +134,6 @@
   ],
   "title": "Markup: auto-format",
   "updated_at": "2021-11-09T19:33:08Z"
- },
- {
-  "base": "267fdbdc716677bc9934906a498cf9bad4bfb70d",
-  "created_at": "2021-10-30T00:42:53Z",
-  "head": "a703d37d5568a782a2f7a312e29876b33a102640",
-  "login": "jridgewell",
-  "number": 2561,
-  "ref": "find-note",
-  "revs": [
-   {
-    "adate": "2021-10-29T20:41:52-04:00",
-    "author": "Justin Ridgewell",
-    "date": "2021-10-29T20:41:52-04:00",
-    "hash": "a703d37d5568a782a2f7a312e29876b33a102640",
-    "parents": "267fdbdc716677bc9934906a498cf9bad4bfb70d",
-    "subject": "find/findIndex: update note about delete before visit"
-   }
-  ],
-  "title": "find/findIndex: update note about delete before visit",
-  "updated_at": "2021-10-30T00:48:35Z"
  },
  {
   "base": "267fdbdc716677bc9934906a498cf9bad4bfb70d",
