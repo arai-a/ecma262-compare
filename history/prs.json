@@ -62,11 +62,19 @@
  {
   "base": "3da56831eaa4c8029d0c69445d5099ce6c2b0c5e",
   "created_at": "2021-11-02T06:25:30Z",
-  "head": "d91360e7b9e1238bba34810620dc9579f3f829ab",
+  "head": "07744ac4f104f0bd7b8c546773ad1061d8c0a456",
   "login": "tc39",
   "number": 2564,
   "ref": "auto-format",
   "revs": [
+   {
+    "adate": "2021-11-09T11:18:00-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-11-09T11:28:43-08:00",
+    "hash": "07744ac4f104f0bd7b8c546773ad1061d8c0a456",
+    "parents": "d91360e7b9e1238bba34810620dc9579f3f829ab",
+    "subject": "fixup! multi-line paragraph formatting"
+   },
    {
     "adate": "2021-11-09T09:01:55-08:00",
     "author": "Kevin Gibbons",
@@ -117,7 +125,7 @@
    }
   ],
   "title": "Markup: auto-format",
-  "updated_at": "2021-11-09T17:02:00Z"
+  "updated_at": "2021-11-09T19:33:08Z"
  },
  {
   "base": "267fdbdc716677bc9934906a498cf9bad4bfb70d",
