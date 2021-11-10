@@ -42,11 +42,43 @@
  {
   "base": "3da56831eaa4c8029d0c69445d5099ce6c2b0c5e",
   "created_at": "2021-11-07T03:54:54Z",
-  "head": "143ed8caaafb004c82bdd7086c4bb4e4e9680dc9",
+  "head": "0c08d54248f1b4b414317632c674119162c7621e",
   "login": "jmdyck",
   "number": 2572,
   "ref": "match_sense",
   "revs": [
+   {
+    "adate": "2021-11-09T20:28:33-05:00",
+    "author": "Michael Dyck",
+    "date": "2021-11-09T20:28:33-05:00",
+    "hash": "0c08d54248f1b4b414317632c674119162c7621e",
+    "parents": "07d4a5a105481562c1a5a666ec8b8e754e62f5bf",
+    "subject": "Editorial: Reword an Annex B insertion re strict mode"
+   },
+   {
+    "adate": "2021-11-09T20:10:52-05:00",
+    "author": "Michael Dyck",
+    "date": "2021-11-09T20:27:46-05:00",
+    "hash": "07d4a5a105481562c1a5a666ec8b8e754e62f5bf",
+    "parents": "db7623f10af8410bc2ff572518a0f9b0ed6bfb26",
+    "subject": "Editorial: Consistify the \"always throw\" early error wording"
+   },
+   {
+    "adate": "2021-11-09T19:24:51-05:00",
+    "author": "Michael Dyck",
+    "date": "2021-11-09T19:24:51-05:00",
+    "hash": "db7623f10af8410bc2ff572518a0f9b0ed6bfb26",
+    "parents": "b2d561e3db15326dbc6a5d086f1f25e18813e042",
+    "subject": "Editorial: Change a few \"code\" to \"source text\""
+   },
+   {
+    "adate": "2021-11-09T17:27:49-05:00",
+    "author": "Michael Dyck",
+    "date": "2021-11-09T19:12:18-05:00",
+    "hash": "b2d561e3db15326dbc6a5d086f1f25e18813e042",
+    "parents": "143ed8caaafb004c82bdd7086c4bb4e4e9680dc9",
+    "subject": "Editorial: Change most \"source code\" to \"source text\""
+   },
    {
     "adate": "2021-11-09T16:42:57-05:00",
     "author": "Michael Dyck",
@@ -65,7 +97,7 @@
    }
   ],
   "title": "Editorial: Be consistent about the sense of \"match\"",
-  "updated_at": "2021-11-09T21:46:03Z"
+  "updated_at": "2021-11-10T02:52:31Z"
  },
  {
   "base": "3da56831eaa4c8029d0c69445d5099ce6c2b0c5e",
