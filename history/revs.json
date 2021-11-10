@@ -1,5 +1,37 @@
 [
  {
+  "adate": "2021-11-10T15:11:58-08:00",
+  "author": "Kevin Gibbons",
+  "date": "2021-11-10T15:11:58-08:00",
+  "hash": "27d319f2778790596d1e88e380f8f96380e993ff",
+  "parents": "9db919c2cc2ea1fe9502b29c1252c32ec0aba1cb",
+  "subject": "Meta: bump ecmarkup to 9.6.1 and add workflow action to enforce formatting (#2564)"
+ },
+ {
+  "adate": "2021-11-10T15:11:53-08:00",
+  "author": "Kevin Gibbons",
+  "date": "2021-11-10T15:11:53-08:00",
+  "hash": "9db919c2cc2ea1fe9502b29c1252c32ec0aba1cb",
+  "parents": "95466829872940993510dcd0cf5d0e88d171d54f",
+  "subject": "Markup: auto-format (#2564)"
+ },
+ {
+  "adate": "2021-11-10T15:11:49-08:00",
+  "author": "Kevin Gibbons",
+  "date": "2021-11-10T15:11:49-08:00",
+  "hash": "95466829872940993510dcd0cf5d0e88d171d54f",
+  "parents": "9d6f3fd7b157f92f42e1df115f941dde2adfc186",
+  "subject": "Markup: add \"emu-format ignore\" comments (#2564)"
+ },
+ {
+  "adate": "2021-11-10T15:11:44-08:00",
+  "author": "Kevin Gibbons",
+  "date": "2021-11-10T15:11:44-08:00",
+  "hash": "9d6f3fd7b157f92f42e1df115f941dde2adfc186",
+  "parents": "e83b57d264e2990c7d04d95f771f21077cde7451",
+  "subject": "Markup: consistently put tbody contents at same indent as tbody (#2564)"
+ },
+ {
   "adate": "2021-11-10T15:07:01-08:00",
   "author": "Oleg Iarygin",
   "date": "2021-11-10T15:07:01-08:00",
