@@ -1,5 +1,25 @@
 [
  {
+  "base": "a65c59a3ddd61aabe296e813a905de6b9a83149a",
+  "created_at": "2021-11-10T01:25:52Z",
+  "head": "f2b1bfbf3c67368d9e19c21b327818f3dae3d78d",
+  "login": "tc39",
+  "number": 2574,
+  "ref": "has-the-value",
+  "revs": [
+   {
+    "adate": "2021-11-09T18:21:51-07:00",
+    "author": "Michael Ficarra",
+    "date": "2021-11-09T18:21:51-07:00",
+    "hash": "f2b1bfbf3c67368d9e19c21b327818f3dae3d78d",
+    "parents": "a65c59a3ddd61aabe296e813a905de6b9a83149a",
+    "subject": "Editorial: replace most occurrences of \"has the value\" with \"is\""
+   }
+  ],
+  "title": "Editorial: replace most occurrences of \"has the value\" with \"is\"",
+  "updated_at": "2021-11-10T01:25:52Z"
+ },
+ {
   "base": "3da56831eaa4c8029d0c69445d5099ce6c2b0c5e",
   "created_at": "2021-11-09T04:11:02Z",
   "head": "c83cfabeb39df7a49140e6da1f48fa7367a9fa10",
@@ -270,11 +290,19 @@
  {
   "base": "6fdfc8f52474a00c2b27e68e02c3fba585efc875",
   "created_at": "2021-10-08T00:09:44Z",
-  "head": "0a3a1e5647b2e28a9866134a6aeeb66ca05708a4",
+  "head": "5a9fe05ee1dbc6ae12ffee046a68dc174ac2aa2a",
   "login": "tc39",
   "number": 2547,
   "ref": "GH-1796",
   "revs": [
+   {
+    "adate": "2021-11-09T18:15:49-07:00",
+    "author": "Michael Ficarra",
+    "date": "2021-11-09T18:15:49-07:00",
+    "hash": "5a9fe05ee1dbc6ae12ffee046a68dc174ac2aa2a",
+    "parents": "0a3a1e5647b2e28a9866134a6aeeb66ca05708a4",
+    "subject": "return types for enc record concrete methods (and they're wrong)"
+   },
    {
     "adate": "2021-11-05T19:32:38-06:00",
     "author": "Michael Ficarra",
@@ -405,7 +433,7 @@
    }
   ],
   "title": "Editorial: remove implicit wrapping/unwrapping of completion records",
-  "updated_at": "2021-11-06T01:32:47Z"
+  "updated_at": "2021-11-10T01:16:09Z"
  },
  {
   "base": "267fdbdc716677bc9934906a498cf9bad4bfb70d",
