@@ -49,26 +49,6 @@
  },
  {
   "base": "3da56831eaa4c8029d0c69445d5099ce6c2b0c5e",
-  "created_at": "2021-11-09T04:11:02Z",
-  "head": "c83cfabeb39df7a49140e6da1f48fa7367a9fa10",
-  "login": "jmdyck",
-  "number": 2573,
-  "ref": "ambiguous-this-property",
-  "revs": [
-   {
-    "adate": "2021-11-08T22:43:22-05:00",
-    "author": "Michael Dyck",
-    "date": "2021-11-08T23:06:37-05:00",
-    "hash": "c83cfabeb39df7a49140e6da1f48fa7367a9fa10",
-    "parents": "3da56831eaa4c8029d0c69445d5099ce6c2b0c5e",
-    "subject": "Editorial: Disambiguate \"This property\""
-   }
-  ],
-  "title": "Editorial: Disambiguate \"This property\"",
-  "updated_at": "2021-11-09T04:17:55Z"
- },
- {
-  "base": "3da56831eaa4c8029d0c69445d5099ce6c2b0c5e",
   "created_at": "2021-11-07T03:54:54Z",
   "head": "0c08d54248f1b4b414317632c674119162c7621e",
   "login": "jmdyck",
@@ -148,72 +128,48 @@
   "updated_at": "2021-11-06T05:28:18Z"
  },
  {
-  "base": "3da56831eaa4c8029d0c69445d5099ce6c2b0c5e",
+  "base": "e83b57d264e2990c7d04d95f771f21077cde7451",
   "created_at": "2021-11-02T06:25:30Z",
-  "head": "07744ac4f104f0bd7b8c546773ad1061d8c0a456",
+  "head": "27d319f2778790596d1e88e380f8f96380e993ff",
   "login": "tc39",
   "number": 2564,
   "ref": "auto-format",
   "revs": [
    {
-    "adate": "2021-11-09T11:18:00-08:00",
+    "adate": "2021-11-10T15:11:58-08:00",
     "author": "Kevin Gibbons",
-    "date": "2021-11-09T11:28:43-08:00",
-    "hash": "07744ac4f104f0bd7b8c546773ad1061d8c0a456",
-    "parents": "d91360e7b9e1238bba34810620dc9579f3f829ab",
-    "subject": "fixup! multi-line paragraph formatting"
+    "date": "2021-11-10T15:11:58-08:00",
+    "hash": "27d319f2778790596d1e88e380f8f96380e993ff",
+    "parents": "9db919c2cc2ea1fe9502b29c1252c32ec0aba1cb",
+    "subject": "Meta: bump ecmarkup to 9.6.1 and add workflow action to enforce formatting (#2564)"
    },
    {
-    "adate": "2021-11-09T09:01:55-08:00",
+    "adate": "2021-11-10T15:11:53-08:00",
     "author": "Kevin Gibbons",
-    "date": "2021-11-09T09:01:55-08:00",
-    "hash": "d91360e7b9e1238bba34810620dc9579f3f829ab",
-    "parents": "f3c651798e235bcef490334521b05f1714610e6e",
-    "subject": "revertme! npm run format"
+    "date": "2021-11-10T15:11:53-08:00",
+    "hash": "9db919c2cc2ea1fe9502b29c1252c32ec0aba1cb",
+    "parents": "95466829872940993510dcd0cf5d0e88d171d54f",
+    "subject": "Markup: auto-format (#2564)"
    },
    {
-    "adate": "2021-11-09T08:48:19-08:00",
+    "adate": "2021-11-10T15:11:49-08:00",
     "author": "Kevin Gibbons",
-    "date": "2021-11-09T08:56:43-08:00",
-    "hash": "f3c651798e235bcef490334521b05f1714610e6e",
-    "parents": "0822c7177843c8829253ee4265fc85a6a69e0fd3",
-    "subject": "revertme! add stray space"
+    "date": "2021-11-10T15:11:49-08:00",
+    "hash": "95466829872940993510dcd0cf5d0e88d171d54f",
+    "parents": "9d6f3fd7b157f92f42e1df115f941dde2adfc186",
+    "subject": "Markup: add \"emu-format ignore\" comments (#2564)"
    },
    {
-    "adate": "2021-11-08T18:38:03-08:00",
+    "adate": "2021-11-10T15:11:44-08:00",
     "author": "Kevin Gibbons",
-    "date": "2021-11-09T08:56:41-08:00",
-    "hash": "0822c7177843c8829253ee4265fc85a6a69e0fd3",
-    "parents": "7316f82b4294e1d780eaf16b213bf6527b9ed0bf",
-    "subject": "Meta: bump ecmarkup to 9.6.0 and add workflow action to enforce formatting"
-   },
-   {
-    "adate": "2021-11-01T23:13:49-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-11-09T08:48:47-08:00",
-    "hash": "7316f82b4294e1d780eaf16b213bf6527b9ed0bf",
-    "parents": "43c78f4168e5f51490b148b5a8afabcc7af0df6a",
-    "subject": "Markup: auto-format"
-   },
-   {
-    "adate": "2021-11-01T23:09:59-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-11-09T08:46:02-08:00",
-    "hash": "43c78f4168e5f51490b148b5a8afabcc7af0df6a",
-    "parents": "317132cb80b5daa25b4523e43f518834e1c36600",
-    "subject": "Markup: add \"emu-format ignore\" comments"
-   },
-   {
-    "adate": "2021-11-01T23:08:28-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-11-09T08:46:02-08:00",
-    "hash": "317132cb80b5daa25b4523e43f518834e1c36600",
-    "parents": "3da56831eaa4c8029d0c69445d5099ce6c2b0c5e",
-    "subject": "Markup: consistently put tbody contents at same indent as tbody"
+    "date": "2021-11-10T15:11:44-08:00",
+    "hash": "9d6f3fd7b157f92f42e1df115f941dde2adfc186",
+    "parents": "e83b57d264e2990c7d04d95f771f21077cde7451",
+    "subject": "Markup: consistently put tbody contents at same indent as tbody (#2564)"
    }
   ],
   "title": "Markup: auto-format",
-  "updated_at": "2021-11-09T19:33:08Z"
+  "updated_at": "2021-11-10T23:13:20Z"
  },
  {
   "base": "267fdbdc716677bc9934906a498cf9bad4bfb70d",
@@ -234,34 +190,6 @@
   ],
   "title": "Editorial: document forbidden extension",
   "updated_at": "2021-10-29T02:26:11Z"
- },
- {
-  "base": "267fdbdc716677bc9934906a498cf9bad4bfb70d",
-  "created_at": "2021-10-28T14:41:29Z",
-  "head": "23be2cb01ec406952b4084e10befa534d2842305",
-  "login": "arhadthedev",
-  "number": 2559,
-  "ref": "white-space",
-  "revs": [
-   {
-    "adate": "2021-10-28T16:52:29+03:00",
-    "author": "Oleg Iarygin",
-    "date": "2021-10-30T21:34:34+03:00",
-    "hash": "23be2cb01ec406952b4084e10befa534d2842305",
-    "parents": "6366966da881dd02eb027c6904fd306ced0f5610",
-    "subject": "Remove <SP> and <NBSP> as introduced by <USP>"
-   },
-   {
-    "adate": "2021-10-28T16:41:48+03:00",
-    "author": "Oleg Iarygin",
-    "date": "2021-10-28T16:41:48+03:00",
-    "hash": "6366966da881dd02eb027c6904fd306ced0f5610",
-    "parents": "f534fd664a9887992748be007ff2895ff30448b1",
-    "subject": "Remove a note about Zs that duplicates the grammar"
-   }
-  ],
-  "title": "Editorial: Remove <SP> and <NBSP> as the ones already included by <USP>",
-  "updated_at": "2021-10-30T18:36:14Z"
  },
  {
   "base": "82438c3374272607094f65dbd33c73a5db5b762c",
@@ -1566,58 +1494,6 @@
   ],
   "title": "Normative: new Annex B.3 clause to specify \"AssignmentTargetType of LeftHandSideExpression : CallExpression\" web reality.",
   "updated_at": "2020-10-05T15:02:31Z"
- },
- {
-  "base": "3da56831eaa4c8029d0c69445d5099ce6c2b0c5e",
-  "created_at": "2020-08-26T22:13:54Z",
-  "head": "459c25d07da545e7f85511a08f34b4ea024370da",
-  "login": "bmeck",
-  "number": 2154,
-  "ref": "arbitrary-module-namespace-identifier-names",
-  "revs": [
-   {
-    "adate": "2021-11-08T10:06:05-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-11-08T10:06:05-08:00",
-    "hash": "459c25d07da545e7f85511a08f34b4ea024370da",
-    "parents": "3e8d738d171fe961e4cdd4d90d52e6ffa4c8c6c8",
-    "subject": "address jmdyck comments"
-   },
-   {
-    "adate": "2021-11-06T09:57:57-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-11-06T10:02:42-07:00",
-    "hash": "3e8d738d171fe961e4cdd4d90d52e6ffa4c8c6c8",
-    "parents": "a3453852ea33e54466ab8e6fc54fa160a1bb3dd5",
-    "subject": "refactor"
-   },
-   {
-    "adate": "2021-11-06T10:00:51-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-11-06T10:02:10-07:00",
-    "hash": "a3453852ea33e54466ab8e6fc54fa160a1bb3dd5",
-    "parents": "3e10244a986c618161593e1b9eb10898eb6aae28",
-    "subject": "fix some typos"
-   },
-   {
-    "adate": "2021-11-05T17:47:11-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-11-05T17:47:11-07:00",
-    "hash": "3e10244a986c618161593e1b9eb10898eb6aae28",
-    "parents": "98e1faa5a22cf389f55c827108025b90d3909679",
-    "subject": "address exe-boss comments"
-   },
-   {
-    "adate": "2020-08-26T17:00:58-05:00",
-    "author": "Bradley Farias",
-    "date": "2021-11-05T17:26:58-07:00",
-    "hash": "98e1faa5a22cf389f55c827108025b90d3909679",
-    "parents": "3da56831eaa4c8029d0c69445d5099ce6c2b0c5e",
-    "subject": "Allow import/export namespace names to be any unicode string"
-   }
-  ],
-  "title": "Normative: Arbitrary module namespace identifier names",
-  "updated_at": "2021-11-08T18:06:11Z"
  },
  {
   "base": "93ac76898d9f74e39f68ac53edbad68b3822c949",
