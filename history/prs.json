@@ -128,50 +128,6 @@
   "updated_at": "2021-11-06T05:28:18Z"
  },
  {
-  "base": "e83b57d264e2990c7d04d95f771f21077cde7451",
-  "created_at": "2021-11-02T06:25:30Z",
-  "head": "27d319f2778790596d1e88e380f8f96380e993ff",
-  "login": "tc39",
-  "number": 2564,
-  "ref": "auto-format",
-  "revs": [
-   {
-    "adate": "2021-11-10T15:11:58-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-11-10T15:11:58-08:00",
-    "hash": "27d319f2778790596d1e88e380f8f96380e993ff",
-    "parents": "9db919c2cc2ea1fe9502b29c1252c32ec0aba1cb",
-    "subject": "Meta: bump ecmarkup to 9.6.1 and add workflow action to enforce formatting (#2564)"
-   },
-   {
-    "adate": "2021-11-10T15:11:53-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-11-10T15:11:53-08:00",
-    "hash": "9db919c2cc2ea1fe9502b29c1252c32ec0aba1cb",
-    "parents": "95466829872940993510dcd0cf5d0e88d171d54f",
-    "subject": "Markup: auto-format (#2564)"
-   },
-   {
-    "adate": "2021-11-10T15:11:49-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-11-10T15:11:49-08:00",
-    "hash": "95466829872940993510dcd0cf5d0e88d171d54f",
-    "parents": "9d6f3fd7b157f92f42e1df115f941dde2adfc186",
-    "subject": "Markup: add \"emu-format ignore\" comments (#2564)"
-   },
-   {
-    "adate": "2021-11-10T15:11:44-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-11-10T15:11:44-08:00",
-    "hash": "9d6f3fd7b157f92f42e1df115f941dde2adfc186",
-    "parents": "e83b57d264e2990c7d04d95f771f21077cde7451",
-    "subject": "Markup: consistently put tbody contents at same indent as tbody (#2564)"
-   }
-  ],
-  "title": "Markup: auto-format",
-  "updated_at": "2021-11-10T23:13:20Z"
- },
- {
   "base": "267fdbdc716677bc9934906a498cf9bad4bfb70d",
   "created_at": "2021-10-29T02:26:11Z",
   "head": "c57d411523b451460ff161614b8210320b658a85",
@@ -220,9 +176,9 @@
   "updated_at": "2021-10-20T21:54:49Z"
  },
  {
-  "base": "3da56831eaa4c8029d0c69445d5099ce6c2b0c5e",
+  "base": "27d319f2778790596d1e88e380f8f96380e993ff",
   "created_at": "2021-10-10T19:28:15Z",
-  "head": "b4b74ab876cfb2f839cdc3fc9025aadaae20d16f",
+  "head": "ca95f7a2fe97f0ba074e8dd47ab8661c9bc612bc",
   "login": "EricIO",
   "number": 2550,
   "ref": "master",
@@ -230,14 +186,14 @@
    {
     "adate": "2021-10-10T21:19:47+02:00",
     "author": "Eric Skoglund",
-    "date": "2021-11-07T22:57:19+01:00",
-    "hash": "b4b74ab876cfb2f839cdc3fc9025aadaae20d16f",
+    "date": "2021-11-11T22:19:09+01:00",
+    "hash": "ca95f7a2fe97f0ba074e8dd47ab8661c9bc612bc",
     "parents": "6143bae9bf9e6f6c61e67e7252b28b597a977b8c",
     "subject": "Normative: Clarify validity of negative expanded year 0."
    }
   ],
   "title": "Normative: Clarify validity of negative expanded year 0.",
-  "updated_at": "2021-11-07T22:12:28Z"
+  "updated_at": "2021-11-11T21:19:31Z"
  },
  {
   "base": "a714cfdc5d7e5f831fd74c6aab1963ea3b6f1413",
