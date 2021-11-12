@@ -48,9 +48,9 @@
   "updated_at": "2021-11-10T01:25:52Z"
  },
  {
-  "base": "3da56831eaa4c8029d0c69445d5099ce6c2b0c5e",
+  "base": "27d319f2778790596d1e88e380f8f96380e993ff",
   "created_at": "2021-11-07T03:54:54Z",
-  "head": "0c08d54248f1b4b414317632c674119162c7621e",
+  "head": "98086ba5cf281a4161f238979b08e8a12a23aacb",
   "login": "jmdyck",
   "number": 2572,
   "ref": "match_sense",
@@ -58,54 +58,54 @@
    {
     "adate": "2021-11-09T20:28:33-05:00",
     "author": "Michael Dyck",
-    "date": "2021-11-09T20:28:33-05:00",
-    "hash": "0c08d54248f1b4b414317632c674119162c7621e",
-    "parents": "07d4a5a105481562c1a5a666ec8b8e754e62f5bf",
+    "date": "2021-11-11T20:22:09-05:00",
+    "hash": "98086ba5cf281a4161f238979b08e8a12a23aacb",
+    "parents": "24c6e39ffa4c33e88003bcc93559f70834148e7b",
     "subject": "Editorial: Reword an Annex B insertion re strict mode"
    },
    {
     "adate": "2021-11-09T20:10:52-05:00",
     "author": "Michael Dyck",
-    "date": "2021-11-09T20:27:46-05:00",
-    "hash": "07d4a5a105481562c1a5a666ec8b8e754e62f5bf",
-    "parents": "db7623f10af8410bc2ff572518a0f9b0ed6bfb26",
+    "date": "2021-11-11T20:22:09-05:00",
+    "hash": "24c6e39ffa4c33e88003bcc93559f70834148e7b",
+    "parents": "8f7c1aee803a5f6576d67e9067a9c72b9b51c319",
     "subject": "Editorial: Consistify the \"always throw\" early error wording"
    },
    {
     "adate": "2021-11-09T19:24:51-05:00",
     "author": "Michael Dyck",
-    "date": "2021-11-09T19:24:51-05:00",
-    "hash": "db7623f10af8410bc2ff572518a0f9b0ed6bfb26",
-    "parents": "b2d561e3db15326dbc6a5d086f1f25e18813e042",
+    "date": "2021-11-11T20:22:09-05:00",
+    "hash": "8f7c1aee803a5f6576d67e9067a9c72b9b51c319",
+    "parents": "1e3e4c90cc7687279634a58858a0663bee3874e4",
     "subject": "Editorial: Change a few \"code\" to \"source text\""
    },
    {
     "adate": "2021-11-09T17:27:49-05:00",
     "author": "Michael Dyck",
-    "date": "2021-11-09T19:12:18-05:00",
-    "hash": "b2d561e3db15326dbc6a5d086f1f25e18813e042",
-    "parents": "143ed8caaafb004c82bdd7086c4bb4e4e9680dc9",
+    "date": "2021-11-11T20:22:09-05:00",
+    "hash": "1e3e4c90cc7687279634a58858a0663bee3874e4",
+    "parents": "ca8f1d9240b00a89d5b63be16c6cc8108606ebd1",
     "subject": "Editorial: Change most \"source code\" to \"source text\""
    },
    {
     "adate": "2021-11-09T16:42:57-05:00",
     "author": "Michael Dyck",
-    "date": "2021-11-09T16:42:57-05:00",
-    "hash": "143ed8caaafb004c82bdd7086c4bb4e4e9680dc9",
-    "parents": "5160a1f503820a6d1b2f41d62eb507d34341bb4b",
+    "date": "2021-11-11T20:19:18-05:00",
+    "hash": "ca8f1d9240b00a89d5b63be16c6cc8108606ebd1",
+    "parents": "3f1cbb029f3fb83285232945e28c461c8b2d92ea",
     "subject": "FIXUP: \"conform to the grammar for\" -> \"have the syntax of\""
    },
    {
     "adate": "2021-11-06T23:33:57-04:00",
     "author": "Michael Dyck",
-    "date": "2021-11-06T23:40:13-04:00",
-    "hash": "5160a1f503820a6d1b2f41d62eb507d34341bb4b",
-    "parents": "3da56831eaa4c8029d0c69445d5099ce6c2b0c5e",
+    "date": "2021-11-11T20:19:18-05:00",
+    "hash": "3f1cbb029f3fb83285232945e28c461c8b2d92ea",
+    "parents": "27d319f2778790596d1e88e380f8f96380e993ff",
     "subject": "Editorial: Be consistent about the sense of \"match\""
    }
   ],
-  "title": "Editorial: Be consistent about the sense of \"match\"",
-  "updated_at": "2021-11-10T02:52:31Z"
+  "title": "Editorial: Be consistent about the sense of \"match\" (and other phrasing)",
+  "updated_at": "2021-11-12T01:45:00Z"
  },
  {
   "base": "3da56831eaa4c8029d0c69445d5099ce6c2b0c5e",
@@ -420,9 +420,9 @@
   "updated_at": "2021-09-14T12:19:11Z"
  },
  {
-  "base": "47e17da255e6636f89860ce9ea79e72b252fd2ad",
+  "base": "27d319f2778790596d1e88e380f8f96380e993ff",
   "created_at": "2021-08-07T05:18:17Z",
-  "head": "5ca0e59550d3c965849400979adcf022542ca4f4",
+  "head": "2fceaebea3ea43a00205256d36cd526d63c4be88",
   "login": "jmdyck",
   "number": 2484,
   "ref": "GetSubstitution",
@@ -430,54 +430,54 @@
    {
     "adate": "2021-09-16T10:10:35-04:00",
     "author": "Michael Dyck",
-    "date": "2021-09-30T09:56:58-04:00",
-    "hash": "5ca0e59550d3c965849400979adcf022542ca4f4",
-    "parents": "e997751951514abf7d6e03fa28c6f9180d165353",
+    "date": "2021-11-11T20:28:53-05:00",
+    "hash": "2fceaebea3ea43a00205256d36cd526d63c4be88",
+    "parents": "b2a9b996369be5559d5ca969cdba8a4d9fe2d6c5",
     "subject": "Editorial: Change `the _index_<sup>th</sup> element of _captures_`"
    },
    {
     "adate": "2021-09-30T09:55:31-04:00",
     "author": "Michael Dyck",
-    "date": "2021-09-30T09:56:32-04:00",
-    "hash": "e997751951514abf7d6e03fa28c6f9180d165353",
-    "parents": "0ac9cf63fd285d400c09bf401854490669908566",
+    "date": "2021-11-11T20:28:53-05:00",
+    "hash": "b2a9b996369be5559d5ca969cdba8a4d9fe2d6c5",
+    "parents": "b6a461163ce0328e016564e5e6ec10e48500148f",
     "subject": "FIXUP: Add parenthetical re `$'`"
    },
    {
     "adate": "2021-08-07T00:25:22-04:00",
     "author": "Michael Dyck",
-    "date": "2021-09-30T09:52:25-04:00",
-    "hash": "0ac9cf63fd285d400c09bf401854490669908566",
-    "parents": "a59263af6e715641f96297593f5ac5f360a6a53c",
+    "date": "2021-11-11T20:28:53-05:00",
+    "hash": "b6a461163ce0328e016564e5e6ec10e48500148f",
+    "parents": "8f0721a4e7fda5d55088ec401bfd871ae152e4b4",
     "subject": "Editorial: Incorporate GetSubstitution's table into the algorithm"
    },
    {
     "adate": "2021-08-07T00:19:38-04:00",
     "author": "Michael Dyck",
-    "date": "2021-09-30T09:51:11-04:00",
-    "hash": "a59263af6e715641f96297593f5ac5f360a6a53c",
-    "parents": "97151f01719f865f885dd4dca1e7aa4aefc79e63",
+    "date": "2021-11-11T20:27:38-05:00",
+    "hash": "8f0721a4e7fda5d55088ec401bfd871ae152e4b4",
+    "parents": "b2d50b52ef7ce66d9d22f045338a621185898267",
     "subject": "Editorial: fix the type-assertion for _captures_ in GetSubstitution"
    },
    {
     "adate": "2021-08-07T00:05:08-04:00",
     "author": "Michael Dyck",
-    "date": "2021-09-30T09:51:11-04:00",
-    "hash": "97151f01719f865f885dd4dca1e7aa4aefc79e63",
-    "parents": "650a192050be21c1ae5e6711a509fa90dfb066df",
+    "date": "2021-11-11T20:27:37-05:00",
+    "hash": "b2d50b52ef7ce66d9d22f045338a621185898267",
+    "parents": "58b0c9fc855ad4927de66e7857f6d0c0bc5cc19a",
     "subject": "Editorial: Rename _replacement_ in GetSubstitution"
    },
    {
     "adate": "2021-08-06T23:56:47-04:00",
     "author": "Michael Dyck",
-    "date": "2021-09-30T09:51:11-04:00",
-    "hash": "650a192050be21c1ae5e6711a509fa90dfb066df",
-    "parents": "47e17da255e6636f89860ce9ea79e72b252fd2ad",
+    "date": "2021-11-11T20:27:37-05:00",
+    "hash": "58b0c9fc855ad4927de66e7857f6d0c0bc5cc19a",
+    "parents": "27d319f2778790596d1e88e380f8f96380e993ff",
     "subject": "Editorial: minor refactoring in String.prototype.replace"
    }
   ],
   "title": "Editorial: Incorporate GetSubstitution's table into the algorithm",
-  "updated_at": "2021-09-30T14:06:29Z"
+  "updated_at": "2021-11-12T01:55:49Z"
  },
  {
   "base": "82438c3374272607094f65dbd33c73a5db5b762c",
@@ -1256,9 +1256,9 @@
   "updated_at": "2021-07-18T14:08:45Z"
  },
  {
-  "base": "b3e6dfe61966b9a0eded9c7c5bd037b01e10abf2",
+  "base": "27d319f2778790596d1e88e380f8f96380e993ff",
   "created_at": "2021-01-24T05:38:33Z",
-  "head": "097ae971692f148963606fd80d55636a2f26ac32",
+  "head": "03eeaf86c07310d0adf9e247390e305611d20095",
   "login": "jmdyck",
   "number": 2288,
   "ref": "declarative_Env_Rec",
@@ -1266,46 +1266,46 @@
    {
     "adate": "2021-01-24T00:30:29-05:00",
     "author": "Michael Dyck",
-    "date": "2021-09-14T12:02:51-04:00",
-    "hash": "097ae971692f148963606fd80d55636a2f26ac32",
-    "parents": "e767acd9ab4e5247572a44058d64c67df9252383",
+    "date": "2021-11-11T20:51:59-05:00",
+    "hash": "03eeaf86c07310d0adf9e247390e305611d20095",
+    "parents": "685bfffb645996f59ddf024238dda24162ec899f",
     "subject": "Editorial: Model a binding as a Record"
    },
    {
     "adate": "2021-01-23T23:59:22-05:00",
     "author": "Michael Dyck",
-    "date": "2021-09-14T12:02:51-04:00",
-    "hash": "e767acd9ab4e5247572a44058d64c67df9252383",
-    "parents": "6621d0ee4eb716f60d749fcfd17fc68754e9e5e9",
+    "date": "2021-11-11T20:51:59-05:00",
+    "hash": "685bfffb645996f59ddf024238dda24162ec899f",
+    "parents": "4709fa024e091572199d15781b1541863a98e506",
     "subject": "Editorial: declarative Env Rec has field [[Bindings]]"
    },
    {
     "adate": "2021-01-23T23:52:38-05:00",
     "author": "Michael Dyck",
-    "date": "2021-09-14T12:02:51-04:00",
-    "hash": "6621d0ee4eb716f60d749fcfd17fc68754e9e5e9",
-    "parents": "7266f8b8d4875d7d03da0619b32d66166a942588",
+    "date": "2021-11-11T20:42:24-05:00",
+    "hash": "4709fa024e091572199d15781b1541863a98e506",
+    "parents": "53f97627dc06daad73250369a641f49eeb48ce71",
     "subject": "Editorial: Treat a binding as an 'alias-able' thing"
    },
    {
     "adate": "2021-01-23T23:03:21-05:00",
     "author": "Michael Dyck",
-    "date": "2021-09-14T12:02:51-04:00",
-    "hash": "7266f8b8d4875d7d03da0619b32d66166a942588",
-    "parents": "358f733faa8d947966d7c50b8e537b9f05dad89d",
+    "date": "2021-11-11T20:42:24-05:00",
+    "hash": "53f97627dc06daad73250369a641f49eeb48ce71",
+    "parents": "49278273b6efef52046afa1a827e96255fa42d1e",
     "subject": "Editorial: Have NewGlobalEnvironment invoke NewDeclarativeEnvironment"
    },
    {
     "adate": "2021-01-23T22:54:21-05:00",
     "author": "Michael Dyck",
-    "date": "2021-09-14T12:02:51-04:00",
-    "hash": "358f733faa8d947966d7c50b8e537b9f05dad89d",
-    "parents": "b3e6dfe61966b9a0eded9c7c5bd037b01e10abf2",
+    "date": "2021-11-11T20:42:24-05:00",
+    "hash": "49278273b6efef52046afa1a827e96255fa42d1e",
+    "parents": "27d319f2778790596d1e88e380f8f96380e993ff",
     "subject": "Editorial: Use declarative Env Rec's HasBinding method"
    }
   ],
   "title": "Editorial: Model the bindings of a declarative Env Rec as a List of Records",
-  "updated_at": "2021-09-14T16:10:47Z"
+  "updated_at": "2021-11-12T01:54:22Z"
  },
  {
   "base": "b3e6dfe61966b9a0eded9c7c5bd037b01e10abf2",
