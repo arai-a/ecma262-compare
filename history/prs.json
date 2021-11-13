@@ -750,11 +750,43 @@
  {
   "base": "82438c3374272607094f65dbd33c73a5db5b762c",
   "created_at": "2021-05-28T11:28:01Z",
-  "head": "b7ac2622152d938ca00eb157f89e4031d513dfb6",
+  "head": "961245ce2c2a8cd8318c6848f86f14b754679fe3",
   "login": "mathiasbynens",
   "number": 2418,
   "ref": "regexp-v-flag",
   "revs": [
+   {
+    "adate": "2021-11-12T19:34:30-08:00",
+    "author": "Frank Tang",
+    "date": "2021-11-12T19:34:30-08:00",
+    "hash": "961245ce2c2a8cd8318c6848f86f14b754679fe3",
+    "parents": "d0245323472c6ec7e1d591d721d8b817f02c4ea7",
+    "subject": "Change \"Canonicalize\""
+   },
+   {
+    "adate": "2021-11-12T19:30:25-08:00",
+    "author": "Frank Tang",
+    "date": "2021-11-12T19:30:25-08:00",
+    "hash": "d0245323472c6ec7e1d591d721d8b817f02c4ea7",
+    "parents": "1aed8f120fbb233db5adf10bf958b82bb7ca9ffd",
+    "subject": "Change \"CharacterSetMatcher\""
+   },
+   {
+    "adate": "2021-11-12T19:23:51-08:00",
+    "author": "Frank Tang",
+    "date": "2021-11-12T19:23:51-08:00",
+    "hash": "1aed8f120fbb233db5adf10bf958b82bb7ca9ffd",
+    "parents": "5e387db73c3c5d755c3d5e03b4298c5468c7fc5d",
+    "subject": "Change \"Pattern\""
+   },
+   {
+    "adate": "2021-11-12T19:18:44-08:00",
+    "author": "Frank Tang",
+    "date": "2021-11-12T19:18:44-08:00",
+    "hash": "5e387db73c3c5d755c3d5e03b4298c5468c7fc5d",
+    "parents": "b7ac2622152d938ca00eb157f89e4031d513dfb6",
+    "subject": "Change \"Notation\""
+   },
    {
     "adate": "2021-11-12T19:04:11-08:00",
     "author": "Frank Tang",
@@ -805,7 +837,7 @@
    }
   ],
   "title": "Normative: Add RegExp `v` flag with set notation and properties of strings",
-  "updated_at": "2021-11-13T03:04:30Z"
+  "updated_at": "2021-11-13T03:36:39Z"
  },
  {
   "base": "7a79833f0b2b338cfb5531449b9bcf5290b9ae9a",
