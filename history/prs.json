@@ -750,11 +750,19 @@
  {
   "base": "82438c3374272607094f65dbd33c73a5db5b762c",
   "created_at": "2021-05-28T11:28:01Z",
-  "head": "5bab439dbf51e0387745fb54407aa1ed198843b0",
+  "head": "50af22585433c7ed5290a89a202ec14cece0bffd",
   "login": "mathiasbynens",
   "number": 2418,
   "ref": "regexp-v-flag",
   "revs": [
+   {
+    "adate": "2021-11-12T20:47:01-08:00",
+    "author": "Frank Tang",
+    "date": "2021-11-12T20:47:01-08:00",
+    "hash": "50af22585433c7ed5290a89a202ec14cece0bffd",
+    "parents": "5bab439dbf51e0387745fb54407aa1ed198843b0",
+    "subject": "Change \"CharacterClassEscape\""
+   },
    {
     "adate": "2021-11-12T20:13:05-08:00",
     "author": "Frank Tang",
@@ -861,7 +869,7 @@
    }
   ],
   "title": "Normative: Add RegExp `v` flag with set notation and properties of strings",
-  "updated_at": "2021-11-13T04:13:15Z"
+  "updated_at": "2021-11-13T04:47:13Z"
  },
  {
   "base": "7a79833f0b2b338cfb5531449b9bcf5290b9ae9a",
