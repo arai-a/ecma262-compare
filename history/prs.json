@@ -750,11 +750,35 @@
  {
   "base": "82438c3374272607094f65dbd33c73a5db5b762c",
   "created_at": "2021-05-28T11:28:01Z",
-  "head": "1f46eea4047be0987220fdd98919d6482a26fa1e",
+  "head": "b6ec5cc0baec4a09977a387b102f24c3710e06ff",
   "login": "mathiasbynens",
   "number": 2418,
   "ref": "regexp-v-flag",
   "revs": [
+   {
+    "adate": "2021-11-13T00:13:02-08:00",
+    "author": "Frank Tang",
+    "date": "2021-11-13T00:13:02-08:00",
+    "hash": "b6ec5cc0baec4a09977a387b102f24c3710e06ff",
+    "parents": "21e78b0f5c89352489b0d5fed1d1f32cd0cb0f18",
+    "subject": "Add \"ClassContents\", \"ClassUnion\", and \"ClassIntersection\""
+   },
+   {
+    "adate": "2021-11-12T23:51:21-08:00",
+    "author": "Frank Tang",
+    "date": "2021-11-12T23:51:21-08:00",
+    "hash": "21e78b0f5c89352489b0d5fed1d1f32cd0cb0f18",
+    "parents": "e124d6cbacf8114fd0e843f36e4e4d15925d60de",
+    "subject": "Add \"ClassSubtraction\" and \"ClassOperand\""
+   },
+   {
+    "adate": "2021-11-12T23:41:00-08:00",
+    "author": "Frank Tang",
+    "date": "2021-11-12T23:41:00-08:00",
+    "hash": "e124d6cbacf8114fd0e843f36e4e4d15925d60de",
+    "parents": "1f46eea4047be0987220fdd98919d6482a26fa1e",
+    "subject": "Add \"NestedClass\" and \"ClassRange\""
+   },
    {
     "adate": "2021-11-12T23:06:23-08:00",
     "author": "Frank Tang",
@@ -925,7 +949,7 @@
    }
   ],
   "title": "Normative: Add RegExp `v` flag with set notation and properties of strings",
-  "updated_at": "2021-11-13T07:06:48Z"
+  "updated_at": "2021-11-13T08:13:40Z"
  },
  {
   "base": "7a79833f0b2b338cfb5531449b9bcf5290b9ae9a",
