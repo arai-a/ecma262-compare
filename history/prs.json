@@ -20,32 +20,40 @@
   "updated_at": "2021-11-12T02:02:37Z"
  },
  {
-  "base": "a65c59a3ddd61aabe296e813a905de6b9a83149a",
+  "base": "27d319f2778790596d1e88e380f8f96380e993ff",
   "created_at": "2021-11-10T03:44:10Z",
-  "head": "76ef27327230d88e9c765c482da75ff791baefd9",
+  "head": "12d1e95c1f56f236d9471c7f46ef8d353bbd1660",
   "login": "jmdyck",
   "number": 2575,
   "ref": "same-value-properties",
   "revs": [
    {
+    "adate": "2021-11-13T17:21:35-05:00",
+    "author": "Michael Dyck",
+    "date": "2021-11-13T17:47:52-05:00",
+    "hash": "12d1e95c1f56f236d9471c7f46ef8d353bbd1660",
+    "parents": "5261728c5327b80b3f0d59396577b6d42bf4deba",
+    "subject": "squash: In the sentences affected by this PR, refer to properties by just the final property name"
+   },
+   {
     "adate": "2021-11-10T09:47:20-05:00",
     "author": "Michael Dyck",
-    "date": "2021-11-10T09:47:20-05:00",
-    "hash": "76ef27327230d88e9c765c482da75ff791baefd9",
-    "parents": "fbc949ae683efb40f81868bf8a7c23b7d1141d93",
+    "date": "2021-11-11T20:16:08-05:00",
+    "hash": "5261728c5327b80b3f0d59396577b6d42bf4deba",
+    "parents": "faa4b2acef9c1fe0ea50742c70ab14bdbcb91ee0",
     "subject": "fixup: ljharb's suggestion: use percent-references"
    },
    {
     "adate": "2021-11-09T15:18:51-05:00",
     "author": "Michael Dyck",
-    "date": "2021-11-09T22:40:02-05:00",
-    "hash": "fbc949ae683efb40f81868bf8a7c23b7d1141d93",
-    "parents": "a65c59a3ddd61aabe296e813a905de6b9a83149a",
+    "date": "2021-11-11T20:16:08-05:00",
+    "hash": "faa4b2acef9c1fe0ea50742c70ab14bdbcb91ee0",
+    "parents": "27d319f2778790596d1e88e380f8f96380e993ff",
     "subject": "Editorial: Consistify prose for same-value properties"
    }
   ],
   "title": "Editorial: Consistify prose for same-value properties",
-  "updated_at": "2021-11-10T15:05:03Z"
+  "updated_at": "2021-11-13T23:00:49Z"
  },
  {
   "base": "a65c59a3ddd61aabe296e813a905de6b9a83149a",
