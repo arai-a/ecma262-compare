@@ -750,11 +750,19 @@
  {
   "base": "82438c3374272607094f65dbd33c73a5db5b762c",
   "created_at": "2021-05-28T11:28:01Z",
-  "head": "9b7d7af4bfc975f29e64ec8f7b6b8a512359f660",
+  "head": "b802c55ab170e3768543b3ee176e2d9862799b87",
   "login": "mathiasbynens",
   "number": 2418,
   "ref": "regexp-v-flag",
   "revs": [
+   {
+    "adate": "2021-11-12T21:20:14-08:00",
+    "author": "Frank Tang",
+    "date": "2021-11-12T21:20:14-08:00",
+    "hash": "b802c55ab170e3768543b3ee176e2d9862799b87",
+    "parents": "9b7d7af4bfc975f29e64ec8f7b6b8a512359f660",
+    "subject": "Change \"Atom\""
+   },
    {
     "adate": "2021-11-12T21:05:43-08:00",
     "author": "Frank Tang",
@@ -885,7 +893,7 @@
    }
   ],
   "title": "Normative: Add RegExp `v` flag with set notation and properties of strings",
-  "updated_at": "2021-11-13T05:05:59Z"
+  "updated_at": "2021-11-13T05:20:23Z"
  },
  {
   "base": "7a79833f0b2b338cfb5531449b9bcf5290b9ae9a",
