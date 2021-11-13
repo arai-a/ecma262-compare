@@ -750,11 +750,35 @@
  {
   "base": "82438c3374272607094f65dbd33c73a5db5b762c",
   "created_at": "2021-05-28T11:28:01Z",
-  "head": "8da5603d468cc4ef275ccd5af83e7701ae35a589",
+  "head": "b7ac2622152d938ca00eb157f89e4031d513dfb6",
   "login": "mathiasbynens",
   "number": 2418,
   "ref": "regexp-v-flag",
   "revs": [
+   {
+    "adate": "2021-11-12T19:04:11-08:00",
+    "author": "Frank Tang",
+    "date": "2021-11-12T19:04:11-08:00",
+    "hash": "b7ac2622152d938ca00eb157f89e4031d513dfb6",
+    "parents": "65131af95d08eef2bdcc9e622a5579405ff19efe",
+    "subject": "Change \"Pattern Semantics\""
+   },
+   {
+    "adate": "2021-11-12T18:58:59-08:00",
+    "author": "Frank Tang",
+    "date": "2021-11-12T18:58:59-08:00",
+    "hash": "65131af95d08eef2bdcc9e622a5579405ff19efe",
+    "parents": "6858c1a956f982ab1540644174953533993c72c5",
+    "subject": "Change \"IsValidRegularExpressionLiteral\""
+   },
+   {
+    "adate": "2021-11-12T18:52:34-08:00",
+    "author": "Frank Tang",
+    "date": "2021-11-12T18:52:34-08:00",
+    "hash": "6858c1a956f982ab1540644174953533993c72c5",
+    "parents": "8da5603d468cc4ef275ccd5af83e7701ae35a589",
+    "subject": "Change \"RegExpInitialize\""
+   },
    {
     "adate": "2021-11-12T18:47:21-08:00",
     "author": "Frank Tang",
@@ -781,7 +805,7 @@
    }
   ],
   "title": "Normative: Add RegExp `v` flag with set notation and properties of strings",
-  "updated_at": "2021-11-13T02:47:35Z"
+  "updated_at": "2021-11-13T03:04:30Z"
  },
  {
   "base": "7a79833f0b2b338cfb5531449b9bcf5290b9ae9a",
