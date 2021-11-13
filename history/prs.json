@@ -750,11 +750,27 @@
  {
   "base": "82438c3374272607094f65dbd33c73a5db5b762c",
   "created_at": "2021-05-28T11:28:01Z",
-  "head": "5fe8dd03ba781d62106ff282184e858f8d959a03",
+  "head": "cc54c57bf5a7f25c0519dc0464400d406afd5602",
   "login": "mathiasbynens",
   "number": 2418,
   "ref": "regexp-v-flag",
   "revs": [
+   {
+    "adate": "2021-11-13T01:37:42-08:00",
+    "author": "Frank Tang",
+    "date": "2021-11-13T01:37:42-08:00",
+    "hash": "cc54c57bf5a7f25c0519dc0464400d406afd5602",
+    "parents": "11a91d794d223875510ba91fd0884e37762464d6",
+    "subject": "Add first group in \"Static Semantics: MaybeStrings\" except 2"
+   },
+   {
+    "adate": "2021-11-13T01:22:15-08:00",
+    "author": "Frank Tang",
+    "date": "2021-11-13T01:22:15-08:00",
+    "hash": "11a91d794d223875510ba91fd0884e37762464d6",
+    "parents": "5fe8dd03ba781d62106ff282184e858f8d959a03",
+    "subject": "Change \"Static Semantics: CharacterValue\""
+   },
    {
     "adate": "2021-11-13T01:09:29-08:00",
     "author": "Frank Tang",
@@ -973,7 +989,7 @@
    }
   ],
   "title": "Normative: Add RegExp `v` flag with set notation and properties of strings",
-  "updated_at": "2021-11-13T09:09:53Z"
+  "updated_at": "2021-11-13T09:39:12Z"
  },
  {
   "base": "7a79833f0b2b338cfb5531449b9bcf5290b9ae9a",
