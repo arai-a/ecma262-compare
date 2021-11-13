@@ -750,11 +750,35 @@
  {
   "base": "82438c3374272607094f65dbd33c73a5db5b762c",
   "created_at": "2021-05-28T11:28:01Z",
-  "head": "961245ce2c2a8cd8318c6848f86f14b754679fe3",
+  "head": "5bab439dbf51e0387745fb54407aa1ed198843b0",
   "login": "mathiasbynens",
   "number": 2418,
   "ref": "regexp-v-flag",
   "revs": [
+   {
+    "adate": "2021-11-12T20:13:05-08:00",
+    "author": "Frank Tang",
+    "date": "2021-11-12T20:13:05-08:00",
+    "hash": "5bab439dbf51e0387745fb54407aa1ed198843b0",
+    "parents": "30a9a599e19654db1ec69d0448686d81ff0ac303",
+    "subject": "add \"CodePointComplement\""
+   },
+   {
+    "adate": "2021-11-12T20:05:46-08:00",
+    "author": "Frank Tang",
+    "date": "2021-11-12T20:05:46-08:00",
+    "hash": "30a9a599e19654db1ec69d0448686d81ff0ac303",
+    "parents": "b37df7ca8b87a2b09cdf3d45c34a9b44b343fd1b",
+    "subject": "Add \"GetAllCharacters\""
+   },
+   {
+    "adate": "2021-11-12T19:58:26-08:00",
+    "author": "Frank Tang",
+    "date": "2021-11-12T19:58:26-08:00",
+    "hash": "b37df7ca8b87a2b09cdf3d45c34a9b44b343fd1b",
+    "parents": "961245ce2c2a8cd8318c6848f86f14b754679fe3",
+    "subject": "Add \"MaybeSimpleCaseFolding\""
+   },
    {
     "adate": "2021-11-12T19:34:30-08:00",
     "author": "Frank Tang",
@@ -837,7 +861,7 @@
    }
   ],
   "title": "Normative: Add RegExp `v` flag with set notation and properties of strings",
-  "updated_at": "2021-11-13T03:36:39Z"
+  "updated_at": "2021-11-13T04:13:15Z"
  },
  {
   "base": "7a79833f0b2b338cfb5531449b9bcf5290b9ae9a",
