@@ -750,11 +750,19 @@
  {
   "base": "82438c3374272607094f65dbd33c73a5db5b762c",
   "created_at": "2021-05-28T11:28:01Z",
-  "head": "f63e575e467ad1c40c42bbf55cdc9b04fe9b8703",
+  "head": "1f46eea4047be0987220fdd98919d6482a26fa1e",
   "login": "mathiasbynens",
   "number": 2418,
   "ref": "regexp-v-flag",
   "revs": [
+   {
+    "adate": "2021-11-12T23:06:23-08:00",
+    "author": "Frank Tang",
+    "date": "2021-11-12T23:06:23-08:00",
+    "hash": "1f46eea4047be0987220fdd98919d6482a26fa1e",
+    "parents": "f63e575e467ad1c40c42bbf55cdc9b04fe9b8703",
+    "subject": "Add \"ClassStrings\" and \"MoreClassStrings\""
+   },
    {
     "adate": "2021-11-12T22:46:23-08:00",
     "author": "Frank Tang",
@@ -917,7 +925,7 @@
    }
   ],
   "title": "Normative: Add RegExp `v` flag with set notation and properties of strings",
-  "updated_at": "2021-11-13T06:46:37Z"
+  "updated_at": "2021-11-13T07:06:48Z"
  },
  {
   "base": "7a79833f0b2b338cfb5531449b9bcf5290b9ae9a",
