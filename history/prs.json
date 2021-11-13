@@ -254,11 +254,19 @@
  {
   "base": "6fdfc8f52474a00c2b27e68e02c3fba585efc875",
   "created_at": "2021-10-08T00:09:44Z",
-  "head": "5a9fe05ee1dbc6ae12ffee046a68dc174ac2aa2a",
+  "head": "0cbd188e621c57b48342ec338332f1c2934ef8c7",
   "login": "tc39",
   "number": 2547,
   "ref": "GH-1796",
   "revs": [
+   {
+    "adate": "2021-11-12T17:19:50-07:00",
+    "author": "Michael Ficarra",
+    "date": "2021-11-12T17:19:50-07:00",
+    "hash": "0cbd188e621c57b48342ec338332f1c2934ef8c7",
+    "parents": "5a9fe05ee1dbc6ae12ffee046a68dc174ac2aa2a",
+    "subject": "more likely-incorrect environment record return types"
+   },
    {
     "adate": "2021-11-09T18:15:49-07:00",
     "author": "Michael Ficarra",
@@ -397,7 +405,7 @@
    }
   ],
   "title": "Editorial: remove implicit wrapping/unwrapping of completion records",
-  "updated_at": "2021-11-10T01:16:09Z"
+  "updated_at": "2021-11-13T00:20:24Z"
  },
  {
   "base": "267fdbdc716677bc9934906a498cf9bad4bfb70d",
