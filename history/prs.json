@@ -750,11 +750,27 @@
  {
   "base": "82438c3374272607094f65dbd33c73a5db5b762c",
   "created_at": "2021-05-28T11:28:01Z",
-  "head": "49a291a8785faf95b3420e87f69473bd4cde4bab",
+  "head": "8da5603d468cc4ef275ccd5af83e7701ae35a589",
   "login": "mathiasbynens",
   "number": 2418,
   "ref": "regexp-v-flag",
   "revs": [
+   {
+    "adate": "2021-11-12T18:47:21-08:00",
+    "author": "Frank Tang",
+    "date": "2021-11-12T18:47:21-08:00",
+    "hash": "8da5603d468cc4ef275ccd5af83e7701ae35a589",
+    "parents": "4a9197b6ce7c3fe3a797d82c39b9354f7762eb06",
+    "subject": "Add \"get RegExp.prototype.unicodeSets\""
+   },
+   {
+    "adate": "2021-11-12T18:26:00-08:00",
+    "author": "Frank Tang",
+    "date": "2021-11-12T18:26:00-08:00",
+    "hash": "4a9197b6ce7c3fe3a797d82c39b9354f7762eb06",
+    "parents": "49a291a8785faf95b3420e87f69473bd4cde4bab",
+    "subject": "Change UnicodeMatchProperty and add Table"
+   },
    {
     "adate": "2021-05-28T13:25:40+02:00",
     "author": "Mathias Bynens",
@@ -765,7 +781,7 @@
    }
   ],
   "title": "Normative: Add RegExp `v` flag with set notation and properties of strings",
-  "updated_at": "2021-10-18T06:38:45Z"
+  "updated_at": "2021-11-13T02:47:35Z"
  },
  {
   "base": "7a79833f0b2b338cfb5531449b9bcf5290b9ae9a",
