@@ -750,11 +750,19 @@
  {
   "base": "82438c3374272607094f65dbd33c73a5db5b762c",
   "created_at": "2021-05-28T11:28:01Z",
-  "head": "c5bcc0c7a7e3847255cd9ce5cb5f4294829f283c",
+  "head": "8ddee567dfd5ee04cce58c36a774f9feb4564a5b",
   "login": "mathiasbynens",
   "number": 2418,
   "ref": "regexp-v-flag",
   "revs": [
+   {
+    "adate": "2021-11-13T02:30:17-08:00",
+    "author": "Frank Tang",
+    "date": "2021-11-13T02:30:17-08:00",
+    "hash": "8ddee567dfd5ee04cce58c36a774f9feb4564a5b",
+    "parents": "c5bcc0c7a7e3847255cd9ce5cb5f4294829f283c",
+    "subject": "Add the last part of  Static Semantics: MaybeStrings"
+   },
    {
     "adate": "2021-11-13T02:15:26-08:00",
     "author": "Frank Tang",
@@ -1013,7 +1021,7 @@
    }
   ],
   "title": "Normative: Add RegExp `v` flag with set notation and properties of strings",
-  "updated_at": "2021-11-13T10:16:05Z"
+  "updated_at": "2021-11-13T10:30:44Z"
  },
  {
   "base": "7a79833f0b2b338cfb5531449b9bcf5290b9ae9a",
