@@ -22,6 +22,7 @@ This branch contains 2 things:
   * `js/compare.js`
   * `js/path-diff-worker.js`
   * `js/tree-diff-worker.js`
+  * `js/gunzip.wasm.js`
   * `style/compare.css`
   * `style/base.css`
   * `style/ecmarkup.css`  
@@ -33,6 +34,10 @@ This branch contains 2 things:
   * `snapshot_prs.html`
   * `js/snapshot.js`
   * `style/snapshot.css`
+* Source of `gunzip.wasm`
+  * `lib/Cargo.toml`
+  * `lib/Makefile`
+  * `lib/src/lib.rs`
 * History data
   * `history/revs.json`  
     The list of the metadata for already-merged revisions
