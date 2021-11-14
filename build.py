@@ -4,6 +4,7 @@ import argparse
 import distutils
 import distutils.dir_util
 import glob
+import gzip
 import json
 import os
 import re
@@ -44,13 +45,30 @@ class FileUtils:
         with open(path, 'r') as in_file:
             return in_file.read()
 
+    def read_b(path):
+        with open(path, 'rb') as in_file:
+            return in_file.read()
+
     @classmethod
     def read_json(cls, path):
         return json.loads(cls.read(path))
 
+    @classmethod
+    def read_json_gz(cls, path):
+        print(path)
+        return json.loads(gzip.decompress(cls.read_b(path)).decode())
+
     def write(path, text):
         with open(path, 'w') as f:
             f.write(text)
+
+    def write_b(path, text):
+        with open(path, 'wb') as f:
+            f.write(text)
+
+    @classmethod
+    def write_json_gz(cls, path, data):
+        cls.write_b(path, gzip.compress(json.dumps(data).encode()))
 
     def write_formatted_json(path, data):
         text = json.dumps(data,
@@ -106,11 +124,11 @@ class Paths:
 
     @classmethod
     def sections_path(cls, sha, prnum=None):
-        return os.path.join(cls.rev_dir(sha, prnum), 'sections.json')
+        return os.path.join(cls.rev_dir(sha, prnum), 'sections.json.gz')
 
     @classmethod
     def parent_diff_path(cls, sha, prnum=None):
-        return os.path.join(cls.rev_dir(sha, prnum), 'parent_diff.json')
+        return os.path.join(cls.rev_dir(sha, prnum), 'parent_diff.json.gz')
 
     @classmethod
     def index_path(cls, sha, prnum=None):
@@ -671,8 +689,7 @@ class RevisionRenderer:
         data = SectionsExtractor.extract(
             FileUtils.read(Paths.index_path(sha, prnum)))
 
-        sections_json = json.dumps(data)
-        FileUtils.write(sections_path, sections_json)
+        FileUtils.write_json_gz(sections_path, data)
 
         return True
 
@@ -693,18 +710,18 @@ class RevisionRenderer:
 
         Logger.info(parent_diff_path)
 
-        to_json = FileUtils.read_json(sections_path)
-        from_json = FileUtils.read_json(parent_sections_path)
+        to_json = FileUtils.read_json_gz(sections_path)
+        from_json = FileUtils.read_json_gz(parent_sections_path)
 
         diff_json = SectionsComparator.compare(from_json, to_json)
 
-        result = json.dumps(diff_json)
+        result = gzip.compress(json.dumps(diff_json).encode())
         if len(result) > 1024 * 1024:
             Logger.info('SKIP: {} is too large ({})'.format(
                 parent_diff_path, len(result)))
             return False
 
-        FileUtils.write(parent_diff_path, result)
+        FileUtils.write_b(parent_diff_path, result)
 
         return True
 

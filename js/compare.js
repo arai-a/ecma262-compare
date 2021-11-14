@@ -6,6 +6,108 @@ function sleep(t) {
   return new Promise(r => setTimeout(r, t));
 }
 
+// ==== BEGIN: copied and modified from wasm-pack binding ====
+
+let wasm;
+
+let cachegetUint8Memory0 = null;
+function getUint8Memory0() {
+  if (cachegetUint8Memory0 === null || cachegetUint8Memory0.buffer !== wasm.memory.buffer) {
+    cachegetUint8Memory0 = new Uint8Array(wasm.memory.buffer);
+  }
+  return cachegetUint8Memory0;
+}
+
+let WASM_VECTOR_LEN = 0;
+
+function passArray8ToWasm0(arg, malloc) {
+  const ptr = malloc(arg.length * 1);
+  getUint8Memory0().set(arg, ptr / 1);
+  WASM_VECTOR_LEN = arg.length;
+  return ptr;
+}
+
+let cachegetInt32Memory0 = null;
+function getInt32Memory0() {
+  if (cachegetInt32Memory0 === null || cachegetInt32Memory0.buffer !== wasm.memory.buffer) {
+    cachegetInt32Memory0 = new Int32Array(wasm.memory.buffer);
+  }
+  return cachegetInt32Memory0;
+}
+
+function getArrayU8FromWasm0(ptr, len) {
+  return getUint8Memory0().subarray(ptr / 1, ptr / 1 + len);
+}
+
+/**
+ * @param {Uint8Array} data
+ * @returns {Uint8Array}
+ */
+async function decompress(data) {
+  if (!wasm) {
+    await init();
+  }
+
+  try {
+    const retptr = wasm.__wbindgen_add_to_stack_pointer(-16);
+    var ptr0 = passArray8ToWasm0(data, wasm.__wbindgen_malloc);
+    var len0 = WASM_VECTOR_LEN;
+    wasm.decompress(retptr, ptr0, len0);
+    var r0 = getInt32Memory0()[retptr / 4 + 0];
+    var r1 = getInt32Memory0()[retptr / 4 + 1];
+    var v1 = getArrayU8FromWasm0(r0, r1).slice();
+    wasm.__wbindgen_free(r0, r1 * 1);
+    return v1;
+  } finally {
+    wasm.__wbindgen_add_to_stack_pointer(16);
+  }
+}
+
+async function load(module, imports) {
+  if (typeof Response === 'function' && module instanceof Response) {
+    if (typeof WebAssembly.instantiateStreaming === 'function') {
+      try {
+        return await WebAssembly.instantiateStreaming(module, imports);
+
+      } catch (e) {
+        if (module.headers.get('Content-Type') != 'application/wasm') {
+          console.warn("`WebAssembly.instantiateStreaming` failed because your server does not serve wasm with `application/wasm` MIME type. Falling back to `WebAssembly.instantiate` which is slower. Original error:\n", e);
+
+        } else {
+          throw e;
+        }
+      }
+    }
+
+    const bytes = await module.arrayBuffer();
+    return await WebAssembly.instantiate(bytes, imports);
+
+  } else {
+    const instance = await WebAssembly.instantiate(module, imports);
+
+    if (instance instanceof WebAssembly.Instance) {
+      return { instance, module };
+
+    } else {
+      return instance;
+    }
+  }
+}
+
+async function init() {
+  const input = fetch("js/gunzip.wasm");
+
+  const imports = {};
+  const { instance, module } = await load(await input, imports);
+
+  wasm = instance.exports;
+  init.__wbindgen_wasm_module = module;
+
+  return wasm;
+}
+
+// ==== END ====
+
 // Insert list marker into list element.
 //
 // While creating diff, extra list element can be added.
@@ -616,6 +718,17 @@ class Comparator {
     return response.json();
   }
 
+  async getJSON_GZ(path) {
+    const response = await fetch(path);
+    if (!response.ok) {
+      return undefined;
+    }
+    const buf = await response.arrayBuffer();
+    const arr = await decompress(new Uint8Array(buf));
+    const decoder = new TextDecoder();
+    return JSON.parse(decoder.decode(arr));
+  }
+
   populateLists() {
     this.populatePRs(this.prFilter);
     this.populateRevs(this.revFilter);
@@ -1082,7 +1195,7 @@ class Comparator {
     let found = false;
     const toHash = this.toRev.value;
     if (!this.secAll.checked && this.getParentOf(toHash) === this.fromRev.value) {
-      const result = await this.getJSON(`./history/${toHash}/parent_diff.json`);
+      const result = await this.getJSON_GZ(`./history/${toHash}/parent_diff.json.gz`);
       if (result) {
         this.fromSecData = result.from;
         this.toSecData = result.to;
@@ -1270,7 +1383,7 @@ class Comparator {
   }
 
   async getSecData(hash) {
-    return this.getJSON(`./history/${hash}/sections.json`);
+    return this.getJSON_GZ(`./history/${hash}/sections.json.gz`);
   }
 
   // Returns a string representation of section number+title that is comparable
