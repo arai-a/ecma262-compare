@@ -746,11 +746,35 @@
  {
   "base": "82438c3374272607094f65dbd33c73a5db5b762c",
   "created_at": "2021-05-28T11:28:01Z",
-  "head": "1468c2502b32401343a542fdc7f7b106e868795d",
+  "head": "2c542b30c80125d6b5df40c21d4901c3c4c29eac",
   "login": "mathiasbynens",
   "number": 2418,
   "ref": "regexp-v-flag",
   "revs": [
+   {
+    "adate": "2021-11-16T11:32:24-08:00",
+    "author": "Frank Tang",
+    "date": "2021-11-16T11:32:24-08:00",
+    "hash": "2c542b30c80125d6b5df40c21d4901c3c4c29eac",
+    "parents": "1753c6d7d3a9a6d3822498e939c2ec5133aab109",
+    "subject": "Remove unnecessary comments"
+   },
+   {
+    "adate": "2021-11-16T11:30:34-08:00",
+    "author": "Frank Tang",
+    "date": "2021-11-16T11:30:34-08:00",
+    "hash": "1753c6d7d3a9a6d3822498e939c2ec5133aab109",
+    "parents": "e982e638feded05e7efe1ee6e4d568e9f03dc649",
+    "subject": "Fix NestedClass :: \\ CharacterClassEscape[+UnicodeMode]"
+   },
+   {
+    "adate": "2021-11-16T11:26:32-08:00",
+    "author": "Frank Tang",
+    "date": "2021-11-16T11:26:32-08:00",
+    "hash": "e982e638feded05e7efe1ee6e4d568e9f03dc649",
+    "parents": "1468c2502b32401343a542fdc7f7b106e868795d",
+    "subject": "Fix last 4 bugs"
+   },
    {
     "adate": "2021-11-15T23:13:20-08:00",
     "author": "Frank Tang",
@@ -1033,7 +1057,7 @@
    }
   ],
   "title": "Normative: Add RegExp `v` flag with set notation and properties of strings",
-  "updated_at": "2021-11-16T07:14:16Z"
+  "updated_at": "2021-11-16T19:32:36Z"
  },
  {
   "base": "7a79833f0b2b338cfb5531449b9bcf5290b9ae9a",
