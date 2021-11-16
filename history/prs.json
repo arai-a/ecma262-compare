@@ -1,26 +1,6 @@
 [
  {
   "base": "27d319f2778790596d1e88e380f8f96380e993ff",
-  "created_at": "2021-11-12T02:02:37Z",
-  "head": "b558094201fbcf53caeeb00baf247cb32e8364d6",
-  "login": "tc39",
-  "number": 2577,
-  "ref": "typos",
-  "revs": [
-   {
-    "adate": "2021-11-11T17:58:50-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-11-11T18:00:13-08:00",
-    "hash": "b558094201fbcf53caeeb00baf247cb32e8364d6",
-    "parents": "27d319f2778790596d1e88e380f8f96380e993ff",
-    "subject": "Editorial: fix a couple typos"
-   }
-  ],
-  "title": "Editorial: fix a couple typos",
-  "updated_at": "2021-11-12T02:02:37Z"
- },
- {
-  "base": "27d319f2778790596d1e88e380f8f96380e993ff",
   "created_at": "2021-11-10T03:44:10Z",
   "head": "12d1e95c1f56f236d9471c7f46ef8d353bbd1660",
   "login": "jmdyck",
@@ -262,11 +242,19 @@
  {
   "base": "27d319f2778790596d1e88e380f8f96380e993ff",
   "created_at": "2021-10-08T00:09:44Z",
-  "head": "ac7a2420c9fa466f8b2903e0d5f94e5c9ae63a83",
+  "head": "e4aa02dc8ac9cd14bd3d6a4d2a2b1e4fc680f74e",
   "login": "tc39",
   "number": 2547,
   "ref": "GH-1796",
   "revs": [
+   {
+    "adate": "2021-11-15T19:08:31-07:00",
+    "author": "Michael Ficarra",
+    "date": "2021-11-15T19:08:31-07:00",
+    "hash": "e4aa02dc8ac9cd14bd3d6a4d2a2b1e4fc680f74e",
+    "parents": "ac7a2420c9fa466f8b2903e0d5f94e5c9ae63a83",
+    "subject": "more return types"
+   },
    {
     "adate": "2021-11-12T18:05:36-07:00",
     "author": "Michael Ficarra",
@@ -421,7 +409,7 @@
    }
   ],
   "title": "Editorial: remove implicit wrapping/unwrapping of completion records",
-  "updated_at": "2021-11-13T01:08:18Z"
+  "updated_at": "2021-11-16T02:08:42Z"
  },
  {
   "base": "267fdbdc716677bc9934906a498cf9bad4bfb70d",
