@@ -746,11 +746,19 @@
  {
   "base": "82438c3374272607094f65dbd33c73a5db5b762c",
   "created_at": "2021-05-28T11:28:01Z",
-  "head": "57e7cec43dba693b44497681dbb9c54d5d2925e3",
+  "head": "1468c2502b32401343a542fdc7f7b106e868795d",
   "login": "mathiasbynens",
   "number": 2418,
   "ref": "regexp-v-flag",
   "revs": [
+   {
+    "adate": "2021-11-15T23:13:20-08:00",
+    "author": "Frank Tang",
+    "date": "2021-11-15T23:13:20-08:00",
+    "hash": "1468c2502b32401343a542fdc7f7b106e868795d",
+    "parents": "57e7cec43dba693b44497681dbb9c54d5d2925e3",
+    "subject": "Fix two mistakes"
+   },
    {
     "adate": "2021-11-14T19:35:20-08:00",
     "author": "Frank Tang",
@@ -1025,7 +1033,7 @@
    }
   ],
   "title": "Normative: Add RegExp `v` flag with set notation and properties of strings",
-  "updated_at": "2021-11-15T03:35:39Z"
+  "updated_at": "2021-11-16T07:14:16Z"
  },
  {
   "base": "7a79833f0b2b338cfb5531449b9bcf5290b9ae9a",
