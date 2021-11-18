@@ -56,86 +56,6 @@
   "updated_at": "2021-11-10T01:25:52Z"
  },
  {
-  "base": "27d319f2778790596d1e88e380f8f96380e993ff",
-  "created_at": "2021-11-07T03:54:54Z",
-  "head": "98086ba5cf281a4161f238979b08e8a12a23aacb",
-  "login": "jmdyck",
-  "number": 2572,
-  "ref": "match_sense",
-  "revs": [
-   {
-    "adate": "2021-11-09T20:28:33-05:00",
-    "author": "Michael Dyck",
-    "date": "2021-11-11T20:22:09-05:00",
-    "hash": "98086ba5cf281a4161f238979b08e8a12a23aacb",
-    "parents": "24c6e39ffa4c33e88003bcc93559f70834148e7b",
-    "subject": "Editorial: Reword an Annex B insertion re strict mode"
-   },
-   {
-    "adate": "2021-11-09T20:10:52-05:00",
-    "author": "Michael Dyck",
-    "date": "2021-11-11T20:22:09-05:00",
-    "hash": "24c6e39ffa4c33e88003bcc93559f70834148e7b",
-    "parents": "8f7c1aee803a5f6576d67e9067a9c72b9b51c319",
-    "subject": "Editorial: Consistify the \"always throw\" early error wording"
-   },
-   {
-    "adate": "2021-11-09T19:24:51-05:00",
-    "author": "Michael Dyck",
-    "date": "2021-11-11T20:22:09-05:00",
-    "hash": "8f7c1aee803a5f6576d67e9067a9c72b9b51c319",
-    "parents": "1e3e4c90cc7687279634a58858a0663bee3874e4",
-    "subject": "Editorial: Change a few \"code\" to \"source text\""
-   },
-   {
-    "adate": "2021-11-09T17:27:49-05:00",
-    "author": "Michael Dyck",
-    "date": "2021-11-11T20:22:09-05:00",
-    "hash": "1e3e4c90cc7687279634a58858a0663bee3874e4",
-    "parents": "ca8f1d9240b00a89d5b63be16c6cc8108606ebd1",
-    "subject": "Editorial: Change most \"source code\" to \"source text\""
-   },
-   {
-    "adate": "2021-11-09T16:42:57-05:00",
-    "author": "Michael Dyck",
-    "date": "2021-11-11T20:19:18-05:00",
-    "hash": "ca8f1d9240b00a89d5b63be16c6cc8108606ebd1",
-    "parents": "3f1cbb029f3fb83285232945e28c461c8b2d92ea",
-    "subject": "FIXUP: \"conform to the grammar for\" -> \"have the syntax of\""
-   },
-   {
-    "adate": "2021-11-06T23:33:57-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-11-11T20:19:18-05:00",
-    "hash": "3f1cbb029f3fb83285232945e28c461c8b2d92ea",
-    "parents": "27d319f2778790596d1e88e380f8f96380e993ff",
-    "subject": "Editorial: Be consistent about the sense of \"match\""
-   }
-  ],
-  "title": "Editorial: Be consistent about the sense of \"match\" (and other phrasing)",
-  "updated_at": "2021-11-12T01:45:00Z"
- },
- {
-  "base": "3da56831eaa4c8029d0c69445d5099ce6c2b0c5e",
-  "created_at": "2021-11-06T05:28:18Z",
-  "head": "858c76622f20a43a3caa7abd7f31d27798ebe705",
-  "login": "gibson042",
-  "number": 2571,
-  "ref": "2021-11-source-text-matched-by",
-  "revs": [
-   {
-    "adate": "2021-11-06T01:26:54-04:00",
-    "author": "Richard Gibson",
-    "date": "2021-11-06T01:26:54-04:00",
-    "hash": "858c76622f20a43a3caa7abd7f31d27798ebe705",
-    "parents": "3da56831eaa4c8029d0c69445d5099ce6c2b0c5e",
-    "subject": "Editorial: Increase precision for referencing source text of a Parse Node"
-   }
-  ],
-  "title": "Editorial: Increase precision for referencing source text of a Parse Node",
-  "updated_at": "2021-11-06T05:28:18Z"
- },
- {
   "base": "267fdbdc716677bc9934906a498cf9bad4bfb70d",
   "created_at": "2021-10-29T02:26:11Z",
   "head": "c57d411523b451460ff161614b8210320b658a85",
@@ -184,24 +104,24 @@
   "updated_at": "2021-10-20T21:54:49Z"
  },
  {
-  "base": "27d319f2778790596d1e88e380f8f96380e993ff",
+  "base": "425c7791fc264f02e73eb7b9f14053fc6f430cdd",
   "created_at": "2021-10-10T19:28:15Z",
-  "head": "ca95f7a2fe97f0ba074e8dd47ab8661c9bc612bc",
+  "head": "aff5c9769312012dfa9837b3f5aa58f7ee7c2c8c",
   "login": "EricIO",
   "number": 2550,
   "ref": "master",
   "revs": [
    {
-    "adate": "2021-10-10T21:19:47+02:00",
+    "adate": "2021-11-17T23:07:01-08:00",
     "author": "Eric Skoglund",
-    "date": "2021-11-11T22:19:09+01:00",
-    "hash": "ca95f7a2fe97f0ba074e8dd47ab8661c9bc612bc",
-    "parents": "6143bae9bf9e6f6c61e67e7252b28b597a977b8c",
-    "subject": "Normative: Clarify validity of negative expanded year 0."
+    "date": "2021-11-17T23:07:01-08:00",
+    "hash": "aff5c9769312012dfa9837b3f5aa58f7ee7c2c8c",
+    "parents": "425c7791fc264f02e73eb7b9f14053fc6f430cdd",
+    "subject": "Normative: Clarify validity of negative expanded year 0 (#2550)"
    }
   ],
   "title": "Normative: Clarify validity of negative expanded year 0.",
-  "updated_at": "2021-11-11T21:19:31Z"
+  "updated_at": "2021-11-18T07:07:27Z"
  },
  {
   "base": "a714cfdc5d7e5f831fd74c6aab1963ea3b6f1413",
