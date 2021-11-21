@@ -54,6 +54,7 @@ lint-setup:
 
 lint:
 	npx eslint js/snapshot.js
+	npx eslint js/snapshot-loader.js
 	npx eslint js/compare.js
 	npx eslint js/base.js
 	npx eslint js/path-diff-worker.js

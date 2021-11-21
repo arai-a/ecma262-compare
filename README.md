@@ -32,8 +32,11 @@ This branch contains 2 things:
 * Index of revisions and PRs snapshots
   * `snapshot_revs.html`
   * `snapshot_prs.html`
-  * `js/snapshot.js`
+  * `js/snapshot-list.js`
   * `style/snapshot.css`
+* Snapshot loader
+  * `snapshot.html`
+  * `js/snapshot-loader.js`
 * Source of `gunzip.wasm`
   * `lib/Cargo.toml`
   * `lib/Makefile`
@@ -43,22 +46,22 @@ This branch contains 2 things:
     The list of the metadata for already-merged revisions
   * `history/prs.json`  
     The list of the metadata for PRs
-  * `history/{SHA}/index.html`  
+  * `history/{SHA}/index.html.gz`  
     Snapshot of `{SHA}` revision
-  * `history/{SHA}/sections.json`  
+  * `history/{SHA}/sections.json.gz`  
     Extracted section data for `{SHA}` revision, used by the comparator
   * `history/{SHA}/parent_diff.json`  
-    Partial data of `sections.json` for `{SHA}` and parent, for diff between them
+    Partial data of `sections.json.gz` for `{SHA}` and parent, for diff between them
   * `history/{SHA}/*`  
     Other resources for the snapshot
   * `history/PR/{PR}/info.json`  
     Some metadata for the PR
-  * `history/PR/{PR}/{SHA}/index.html`  
+  * `history/PR/{PR}/{SHA}/index.html.gz`  
     Snapshot of `{SHA}` revision
-  * `history/PR/{PR}/{SHA}/sections.json`  
+  * `history/PR/{PR}/{SHA}/sections.json.gz`  
     Extracted section data for `{SHA}` revision, used by the comparator
   * `history/PR/{PR}/{SHA}/parent_diff.json`  
-    Partial data of `sections.json` for `{PR}` and parent, for diff between them
+    Partial data of `sections.json.gz` for `{PR}` and parent, for diff between them
   * `history/PR/{PR}/{SHA}/*`  
     Other resources for the snapshot
 * Linter settings

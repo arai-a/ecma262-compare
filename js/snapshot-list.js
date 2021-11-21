@@ -66,7 +66,7 @@ class SnapshotList extends Base {
       row.appendChild(snapshotCell);
 
       const snapshotLink = document.createElement("a");
-      snapshotLink.href = `./history/${rev.hash}/index.html`;
+      snapshotLink.href = `./snapshot.html?rev=${rev.hash}`;
       snapshotLink.textContent = "Snapshot";
       subject.appendChild(link);
 
@@ -175,7 +175,7 @@ class SnapshotList extends Base {
       row.appendChild(snapshotCell);
 
       const snapshotLink = document.createElement("a");
-      snapshotLink.href = `./history/PR/${pr.number}/${pr.head}/index.html`;
+      snapshotLink.href = `./snapshot.html?pr=${pr.number}`;
       snapshotLink.textContent = "Snapshot";
       subject.appendChild(link);
 

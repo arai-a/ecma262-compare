@@ -50,12 +50,15 @@ class FileUtils:
             return in_file.read()
 
     @classmethod
+    def read_gz(cls, path):
+        return gzip.decompress(cls.read_b(path)).decode()
+
+    @classmethod
     def read_json(cls, path):
         return json.loads(cls.read(path))
 
     @classmethod
     def read_json_gz(cls, path):
-        print(path)
         return json.loads(gzip.decompress(cls.read_b(path)).decode())
 
     def write(path, text):
@@ -65,6 +68,10 @@ class FileUtils:
     def write_b(path, text):
         with open(path, 'wb') as f:
             f.write(text)
+
+    @classmethod
+    def write_gz(cls, path, text):
+        cls.write_b(path, gzip.compress(text.encode()))
 
     @classmethod
     def write_json_gz(cls, path, data):
@@ -132,7 +139,7 @@ class Paths:
 
     @classmethod
     def index_path(cls, sha, prnum=None):
-        return os.path.join(cls.rev_dir(sha, prnum), 'index.html')
+        return os.path.join(cls.rev_dir(sha, prnum), 'index.html.gz')
 
 
 class GitHubAPI:
@@ -638,6 +645,7 @@ class RevisionRenderer:
 
         repo_out_dir = os.path.join(LocalRepository.DIR, 'out')
         repo_out_index_path = os.path.join(repo_out_dir, 'index.html')
+        repo_out_index_gz_path = os.path.join(repo_out_dir, 'index.html.gz')
 
         try:
             subprocess.run(['npm', 'run', '--silent', 'build'],
@@ -675,6 +683,10 @@ class RevisionRenderer:
         if os.path.exists(multipage_dir):
             distutils.dir_util.remove_tree(multipage_dir)
 
+        content = FileUtils.read(repo_out_index_path)
+        FileUtils.write_gz(repo_out_index_gz_path, content)
+        os.remove(repo_out_index_path)
+
         distutils.dir_util.copy_tree(repo_out_dir, rev_dir)
         return True
 
@@ -687,7 +699,7 @@ class RevisionRenderer:
         Logger.info(sections_path)
 
         data = SectionsExtractor.extract(
-            FileUtils.read(Paths.index_path(sha, prnum)))
+            FileUtils.read_gz(Paths.index_path(sha, prnum)))
 
         FileUtils.write_json_gz(sections_path, data)
 

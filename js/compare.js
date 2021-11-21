@@ -851,15 +851,25 @@ class Comparator extends Base {
       this.fromLink.style.display = "none";
     } else {
       this.fromLink.style.display = "inline";
-      this.fromLink.href = `./history/${this.fromRev.value}/index.html`;
+      this.fromLink.href = this.toSnapshotURL(this.fromRev.value);
     }
 
     if (this.toRev.value === "-") {
       this.toLink.style.display = "none";
     } else {
       this.toLink.style.display = "inline";
-      this.toLink.href = `./history/${this.toRev.value}/index.html`;
+      this.toLink.href = this.toSnapshotURL(this.toRev.value);
     }
+  }
+
+  toSnapshotURL(name) {
+    const m = name.match(/PR\/(\d+)\/(.+)/);
+    if (m) {
+      const prnum = m[1];
+      return `./snapshot.html?pr=${prnum}`;
+    }
+
+    return `./snapshot.html?rev=${name}`;
   }
 
   updateRevInfo() {
@@ -1713,8 +1723,8 @@ class Comparator extends Base {
 
   // Replace links into the same document to links into snapshot.
   fixupLink(type, box) {
-    const fromSnapshot = `./history/${this.fromRev.value}/index.html`;
-    const toSnapshot = `./history/${this.toRev.value}/index.html`;
+    const fromSnapshot = this.toSnapshotURL(this.fromRev.value);
+    const toSnapshot = this.toSnapshotURL(this.toRev.value);
 
     const links = box.getElementsByTagName("a");
     for (const link of links) {
