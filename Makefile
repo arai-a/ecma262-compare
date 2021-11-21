@@ -53,7 +53,7 @@ lint-setup:
 	npm install
 
 lint:
-	npx eslint js/snapshot.js
+	npx eslint js/snapshot-list.js
 	npx eslint js/snapshot-loader.js
 	npx eslint js/compare.js
 	npx eslint js/base.js
