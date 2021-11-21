@@ -408,9 +408,9 @@ class HTMLTreeDiffWorker {
 
   addClass(nodeObj, className) {
     if ("class" in nodeObj.attributes) {
-      nodeObj.attributes["class"] += " " + className;
+      nodeObj.attributes.class += " " + className;
     } else {
-      nodeObj.attributes["class"] = className;
+      nodeObj.attributes.class = className;
     }
   }
 

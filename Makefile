@@ -55,6 +55,7 @@ lint-setup:
 lint:
 	npx eslint js/snapshot.js
 	npx eslint js/compare.js
+	npx eslint js/base.js
 	npx eslint js/path-diff-worker.js
 	npx eslint js/tree-diff-worker.js
 	flake8 build.py

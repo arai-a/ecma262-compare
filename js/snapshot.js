@@ -1,19 +1,10 @@
 "use strict";
 
+/* global DateUtils, Base */
+
 const REPO_URL = "https://github.com/tc39/ecma262";
 
-class DateUtils {
-  static toReadable(d) {
-    try {
-      const date = new Date(d);
-      return date.toISOString().replace("T", " ").replace(/\.\d+Z$/, "");
-    } catch (e) {
-      return d;
-    }
-  }
-}
-
-class SnapshotList {
+class SnapshotList extends Base {
   async run(type) {
     await this.loadResources();
 
@@ -22,28 +13,6 @@ class SnapshotList {
     } else {
       this.populatePRList("num", -1);
     }
-  }
-
-  async loadResources() {
-    [this.revs, this.prs] = await Promise.all([
-      this.getJSON("./history/revs.json"),
-      this.getJSON("./history/prs.json?20200217a"),
-    ]);
-
-    this.revMap = {};
-    for (const rev of this.revs) {
-      this.revMap[rev.hash] = rev;
-    }
-
-    this.prMap = {};
-    for (const pr of this.prs) {
-      this.prMap[pr.number] = pr;
-    }
-  }
-
-  async getJSON(path) {
-    const response = await fetch(path);
-    return response.json();
   }
 
   populateRevList() {
