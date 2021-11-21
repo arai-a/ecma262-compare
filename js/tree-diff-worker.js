@@ -1,3 +1,5 @@
+"use strict";
+
 class HTMLTreeDiffWorker {
   constructor() {
     this.LCSMapMap = new Map();

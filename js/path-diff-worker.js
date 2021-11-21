@@ -1,3 +1,5 @@
+"use strict";
+
 // Calculate diff between 2 HTML fragments, based on text+path based LCS.
 //
 // The HTML fragment shouldn't omit closing tag, if it's not empty tag.
