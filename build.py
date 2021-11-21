@@ -168,13 +168,15 @@ class GitHubAPI:
     @classmethod
     def call_pages(cls, path, query=[]):
         page = 1
+        PER_PAGE = 100
+        query = query + [['per_page', str(PER_PAGE)]]
         data = cls.call(path, query)
-        if len(data) == 30:
+        if len(data) == PER_PAGE:
             while True:
                 page += 1
                 next_data = cls.call(path, query + [['page', str(page)]])
                 data += next_data
-                if len(next_data) != 30:
+                if len(next_data) != PER_PAGE:
                     break
         return data
 
