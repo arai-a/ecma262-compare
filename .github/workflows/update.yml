@@ -10,6 +10,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    concurrency: build
 
     steps:
     - name: Setup Python
