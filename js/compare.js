@@ -3,6 +3,7 @@
 /* global DateUtils, Base */
 
 const REPO_URL = "https://github.com/tc39/ecma262";
+const REPO_API_URL = "https://api.github.com/repos/tc39/ecma262";
 
 function sleep(t) {
   return new Promise(r => setTimeout(r, t));
@@ -1325,7 +1326,32 @@ class Comparator extends Base {
     if (empty) {
       if (this.notfoundPR) {
         this.messageOverlay.classList.add("shown");
-        this.messageBox.textContent = `PR ${this.notfoundPR} is not found. This can happen if recent history data hasn't been deployed yet. Try again 10 minutes later.`;
+        this.messageBox.textContent = "";
+
+        const p = document.createElement("p");
+        p.textContent = `PR ${this.notfoundPR} is not found. This can happen in the following cases:`;
+        this.messageBox.appendChild(p);
+
+        const ul = document.createElement("ul");
+        let li;
+
+        li = document.createElement("li");
+        li.textContent = `The PR data is not yet built, or not yet deployed. In this case try again after 10 minutes`;
+        ul.appendChild(li);
+
+        li = document.createElement("li");
+        li.textContent = `The PR is already closed `;
+        const mapButton = document.createElement("button");
+        mapButton.textContent = `Try checking merged revision (uses GitHub API)`;
+        const prnum = this.notfoundPR;
+        mapButton.addEventListener("click", () => {
+          this.mapClosedPR(prnum);
+        });
+        li.appendChild(mapButton);
+        ul.appendChild(li);
+
+        this.messageBox.appendChild(ul);
+
         this.notfoundPR = undefined;
       } else if (this.notfoundRev) {
         this.messageOverlay.classList.add("shown");
@@ -2029,7 +2055,14 @@ class Comparator extends Base {
     }
   }
 
-  async onMessageOverlayClick() {
+  async onMessageOverlayClick(event) {
+    let node = event.target;
+    while (node) {
+      if (node === this.messageBox) {
+        return;
+      }
+      node = node.parentNode;
+    }
     this.messageBox.textContent = "";
     this.messageOverlay.classList.remove("shown");
   }
@@ -2078,6 +2111,36 @@ class Comparator extends Base {
     this.currentQuery = window.location.search;
 
     await this.parseQuery();
+  }
+
+  async mapClosedPR(prnum) {
+    try {
+      const prdata = await this.getJSON(`${REPO_API_URL}/pulls/${prnum}`);
+
+      if (prdata.state === "open") {
+        this.messageOverlay.classList.add("shown");
+        this.messageBox.textContent = "PR is open. Try again after 10 minutes";
+        document.documentElement.classList.add("help");
+        return;
+      }
+
+      const to = prdata.head.sha;
+      const from = prdata.base.sha;
+
+      await this.updateUI("from-to", {
+        from,
+        section: undefined,
+        to,
+      });
+
+      this.messageBox.textContent = "";
+      this.messageOverlay.classList.remove("shown");
+    } catch (e) {
+      this.messageOverlay.classList.add("shown");
+      this.messageBox.textContent = "Cannot find PR data";
+      document.documentElement.classList.add("help");
+      console.error(e);
+    }
   }
 }
 
@@ -2146,8 +2209,8 @@ function onSearchInput() {
 }
 
 /* exported onMessageOverlayClick */
-function onMessageOverlayClick() {
-  comparator.onMessageOverlayClick().catch(e => console.error(e));
+function onMessageOverlayClick(event) {
+  comparator.onMessageOverlayClick(event).catch(e => console.error(e));
 }
 
 /* exported onCollapseControlClick */
