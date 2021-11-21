@@ -20,9 +20,10 @@ This branch contains 2 things:
 * Comparator
   * `index.html`
   * `js/compare.js`
+  * `js/base.js`
   * `js/path-diff-worker.js`
   * `js/tree-diff-worker.js`
-  * `js/gunzip.wasm.js`
+  * `js/gunzip.wasm`
   * `style/compare.css`
   * `style/base.css`
   * `style/ecmarkup.css`  
@@ -47,20 +48,20 @@ This branch contains 2 things:
   * `history/prs.json`  
     The list of the metadata for PRs
   * `history/{SHA}/index.html.gz`  
-    Snapshot of `{SHA}` revision
+    Compressed snapshot of `{SHA}` revision
   * `history/{SHA}/sections.json.gz`  
     Extracted section data for `{SHA}` revision, used by the comparator
-  * `history/{SHA}/parent_diff.json`  
+  * `history/{SHA}/parent_diff.json.gz`  
     Partial data of `sections.json.gz` for `{SHA}` and parent, for diff between them
   * `history/{SHA}/*`  
     Other resources for the snapshot
   * `history/PR/{PR}/info.json`  
     Some metadata for the PR
   * `history/PR/{PR}/{SHA}/index.html.gz`  
-    Snapshot of `{SHA}` revision
+    Compressed snapshot of `{SHA}` revision
   * `history/PR/{PR}/{SHA}/sections.json.gz`  
     Extracted section data for `{SHA}` revision, used by the comparator
-  * `history/PR/{PR}/{SHA}/parent_diff.json`  
+  * `history/PR/{PR}/{SHA}/parent_diff.json.gz`  
     Partial data of `sections.json.gz` for `{PR}` and parent, for diff between them
   * `history/PR/{PR}/{SHA}/*`  
     Other resources for the snapshot
