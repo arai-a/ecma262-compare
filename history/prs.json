@@ -1,23 +1,23 @@
 [
  {
   "base": "c5f683e61d5dce703650f1c90d2309c46f8c157a",
-  "created_at": "2021-11-25T04:29:32Z",
-  "head": "6cb0a42693025d2023a1efba56421ee80aba1de0",
-  "login": "SirJosh3917",
-  "number": 2586,
-  "ref": "functionbody-evaluation-simplification",
+  "created_at": "2021-11-25T12:20:30Z",
+  "head": "2a90481674802a693a5c541762b4da5e73e4d931",
+  "login": "ExE-Boss",
+  "number": 2588,
+  "ref": "editorial/promise-constructor/static-methods/use-abstract-closures",
   "revs": [
    {
-    "adate": "2021-11-24T23:04:46-05:00",
-    "author": "SirJosh3917",
-    "date": "2021-11-24T23:04:46-05:00",
-    "hash": "6cb0a42693025d2023a1efba56421ee80aba1de0",
+    "adate": "2021-11-25T13:10:00+01:00",
+    "author": "ExE Boss",
+    "date": "2021-11-25T13:11:17+01:00",
+    "hash": "2a90481674802a693a5c541762b4da5e73e4d931",
     "parents": "c5f683e61d5dce703650f1c90d2309c46f8c157a",
-    "subject": "fix: simplify evaluation of FunctionBody and friends"
+    "subject": "Editorial: Use\u00a0abstract\u00a0closures in\u00a0`Promise` static\u00a0methods"
    }
   ],
-  "title": "Editorial: Simplify runtime semantics for EvaluateBody",
-  "updated_at": "2021-11-25T04:35:28Z"
+  "title": "Editorial: Use\u00a0abstract\u00a0closures in\u00a0`Promise` static\u00a0methods",
+  "updated_at": "2021-11-25T12:20:30Z"
  },
  {
   "base": "267fdbdc716677bc9934906a498cf9bad4bfb70d",
