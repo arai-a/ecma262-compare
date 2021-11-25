@@ -1,23 +1,23 @@
 [
  {
-  "base": "e06c80c2c83888aac8497b463e9f269886637570",
-  "created_at": "2021-11-19T23:34:57Z",
-  "head": "c65e73f44764a81abb0ce9e8a67923ccec44ae18",
-  "login": "tc39",
-  "number": 2583,
-  "ref": "bump-ecmarkup",
+  "base": "c5f683e61d5dce703650f1c90d2309c46f8c157a",
+  "created_at": "2021-11-25T04:29:32Z",
+  "head": "6cb0a42693025d2023a1efba56421ee80aba1de0",
+  "login": "SirJosh3917",
+  "number": 2586,
+  "ref": "functionbody-evaluation-simplification",
   "revs": [
    {
-    "adate": "2021-11-19T15:34:34-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-11-19T16:16:17-08:00",
-    "hash": "c65e73f44764a81abb0ce9e8a67923ccec44ae18",
-    "parents": "e06c80c2c83888aac8497b463e9f269886637570",
-    "subject": "Meta: bump ecmarkup to 9.6.3"
+    "adate": "2021-11-24T23:04:46-05:00",
+    "author": "SirJosh3917",
+    "date": "2021-11-24T23:04:46-05:00",
+    "hash": "6cb0a42693025d2023a1efba56421ee80aba1de0",
+    "parents": "c5f683e61d5dce703650f1c90d2309c46f8c157a",
+    "subject": "fix: simplify evaluation of FunctionBody and friends"
    }
   ],
-  "title": "Meta: bump ecmarkup to 9.6.3",
-  "updated_at": "2021-11-20T00:24:42Z"
+  "title": "Editorial: Simplify runtime semantics for EvaluateBody",
+  "updated_at": "2021-11-25T04:35:28Z"
  },
  {
   "base": "267fdbdc716677bc9934906a498cf9bad4bfb70d",
