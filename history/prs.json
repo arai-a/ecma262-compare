@@ -1,6 +1,26 @@
 [
  {
   "base": "c5f683e61d5dce703650f1c90d2309c46f8c157a",
+  "created_at": "2021-11-26T12:06:57Z",
+  "head": "c647cefa59d93ec47a69f067b810ae974f60fe16",
+  "login": "arhadthedev",
+  "number": 2590,
+  "ref": "npm-run-windows",
+  "revs": [
+   {
+    "adate": "2021-11-26T14:55:32+03:00",
+    "author": "Oleg Iarygin",
+    "date": "2021-11-26T14:55:32+03:00",
+    "hash": "c647cefa59d93ec47a69f067b810ae974f60fe16",
+    "parents": "c5f683e61d5dce703650f1c90d2309c46f8c157a",
+    "subject": "Make `npm run build-*` working on Windows"
+   }
+  ],
+  "title": "Meta: make `npm run build-*` working on Windows",
+  "updated_at": "2021-11-26T12:16:19Z"
+ },
+ {
+  "base": "c5f683e61d5dce703650f1c90d2309c46f8c157a",
   "created_at": "2021-11-26T10:11:41Z",
   "head": "3986e1e7f0ee1744b50da7fbdaaa8a08579496c3",
   "login": "ExE-Boss",
