@@ -186,11 +186,19 @@
  {
   "base": "c5f683e61d5dce703650f1c90d2309c46f8c157a",
   "created_at": "2021-11-26T12:06:57Z",
-  "head": "55cd4fbd8bb2b34863bd629acc71ea0929e7db8b",
+  "head": "06b2229c8c19bed103e95a881262d8644a95aeac",
   "login": "arhadthedev",
   "number": 2590,
   "ref": "npm-run-windows",
   "revs": [
+   {
+    "adate": "2021-11-30T23:27:59+03:00",
+    "author": "Oleg Iarygin",
+    "date": "2021-11-30T23:27:59+03:00",
+    "hash": "06b2229c8c19bed103e95a881262d8644a95aeac",
+    "parents": "55cd4fbd8bb2b34863bd629acc71ea0929e7db8b",
+    "subject": "Replace cpy-cli with cpx to reduce dependencies"
+   },
    {
     "adate": "2021-11-26T19:14:43+03:00",
     "author": "Oleg Iarygin",
@@ -209,7 +217,7 @@
    }
   ],
   "title": "Meta: make `npm run build-*` working on Windows",
-  "updated_at": "2021-11-26T16:21:28Z"
+  "updated_at": "2021-11-30T20:32:12Z"
  },
  {
   "base": "c5f683e61d5dce703650f1c90d2309c46f8c157a",
