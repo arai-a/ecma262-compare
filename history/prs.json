@@ -206,11 +206,19 @@
  {
   "base": "c5f683e61d5dce703650f1c90d2309c46f8c157a",
   "created_at": "2021-11-26T12:06:57Z",
-  "head": "05338f5d96ec8e134dd94a961b284722c2300ee1",
+  "head": "72e788ff0af37171d3ab58a8dc4a9daa9e19162b",
   "login": "arhadthedev",
   "number": 2590,
   "ref": "npm-run-windows",
   "revs": [
+   {
+    "adate": "2021-12-06T01:42:42+03:00",
+    "author": "Oleg Iarygin",
+    "date": "2021-12-06T01:46:35+03:00",
+    "hash": "72e788ff0af37171d3ab58a8dc4a9daa9e19162b",
+    "parents": "05338f5d96ec8e134dd94a961b284722c2300ee1",
+    "subject": "Use built-in Node functions instead of packages"
+   },
    {
     "adate": "2021-12-01T00:01:31+03:00",
     "author": "Oleg Iarygin",
@@ -245,7 +253,7 @@
    }
   ],
   "title": "Meta: make `npm run build-*` working on Windows",
-  "updated_at": "2021-11-30T22:11:21Z"
+  "updated_at": "2021-12-05T22:57:50Z"
  },
  {
   "base": "c5f683e61d5dce703650f1c90d2309c46f8c157a",
