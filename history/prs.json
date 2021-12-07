@@ -226,11 +226,19 @@
  {
   "base": "c5f683e61d5dce703650f1c90d2309c46f8c157a",
   "created_at": "2021-11-26T12:06:57Z",
-  "head": "72e788ff0af37171d3ab58a8dc4a9daa9e19162b",
+  "head": "1f76865a989ba035596d5b3b83111446bb30bd6b",
   "login": "arhadthedev",
   "number": 2590,
   "ref": "npm-run-windows",
   "revs": [
+   {
+    "adate": "2021-12-07T21:54:25+03:00",
+    "author": "Oleg Iarygin",
+    "date": "2021-12-07T21:54:25+03:00",
+    "hash": "1f76865a989ba035596d5b3b83111446bb30bd6b",
+    "parents": "72e788ff0af37171d3ab58a8dc4a9daa9e19162b",
+    "subject": "Trigger rebuild to ci.tc39.es/preview/tc39/ecma262/pull/2590"
+   },
    {
     "adate": "2021-12-06T01:42:42+03:00",
     "author": "Oleg Iarygin",
@@ -273,7 +281,7 @@
    }
   ],
   "title": "Meta: make `npm run build-*` working on Windows",
-  "updated_at": "2021-12-05T22:57:50Z"
+  "updated_at": "2021-12-07T19:01:41Z"
  },
  {
   "base": "c5f683e61d5dce703650f1c90d2309c46f8c157a",
