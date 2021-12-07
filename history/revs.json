@@ -1,5 +1,45 @@
 [
  {
+  "adate": "2021-12-07T07:40:10-08:00",
+  "author": "Michael Dyck",
+  "date": "2021-12-07T07:40:10-08:00",
+  "hash": "f2671cac42f6d3f64c1a407790668a6130057512",
+  "parents": "99c03119499452dbe00a93f72eecf6637b65dcd8",
+  "subject": "Editorial: Change `the _index_<sup>th</sup> element of _captures_` (#2484)"
+ },
+ {
+  "adate": "2021-12-07T07:40:06-08:00",
+  "author": "Michael Dyck",
+  "date": "2021-12-07T07:40:06-08:00",
+  "hash": "99c03119499452dbe00a93f72eecf6637b65dcd8",
+  "parents": "9070c0490715993afeebfcd9f660475e66760d48",
+  "subject": "Editorial: Incorporate GetSubstitution's table into the algorithm (#2484)"
+ },
+ {
+  "adate": "2021-12-07T07:40:04-08:00",
+  "author": "Michael Dyck",
+  "date": "2021-12-07T07:40:04-08:00",
+  "hash": "9070c0490715993afeebfcd9f660475e66760d48",
+  "parents": "ecd2c68912fa1085063fe50ced65b6bebabf7509",
+  "subject": "Editorial: fix the type-assertion for _captures_ in GetSubstitution (#2484)"
+ },
+ {
+  "adate": "2021-12-07T07:40:02-08:00",
+  "author": "Michael Dyck",
+  "date": "2021-12-07T07:40:02-08:00",
+  "hash": "ecd2c68912fa1085063fe50ced65b6bebabf7509",
+  "parents": "d02575c272198ccacf17b289fe35e8db72cfb1af",
+  "subject": "Editorial: Rename _replacement_ in GetSubstitution (#2484)"
+ },
+ {
+  "adate": "2021-12-07T07:39:53-08:00",
+  "author": "Michael Dyck",
+  "date": "2021-12-07T07:39:53-08:00",
+  "hash": "d02575c272198ccacf17b289fe35e8db72cfb1af",
+  "parents": "c5f683e61d5dce703650f1c90d2309c46f8c157a",
+  "subject": "Editorial: minor refactoring in String.prototype.replace (#2484)"
+ },
+ {
   "adate": "2021-11-19T21:23:39-08:00",
   "author": "Kevin Gibbons",
   "date": "2021-11-19T21:23:39-08:00",
