@@ -1,5 +1,25 @@
 [
  {
+  "base": "f2671cac42f6d3f64c1a407790668a6130057512",
+  "created_at": "2021-12-07T18:18:25Z",
+  "head": "f2734ddf51072d9cb3d07e2398616afa55696d1c",
+  "login": "ljharb",
+  "number": 2595,
+  "ref": "splice",
+  "revs": [
+   {
+    "adate": "2021-12-07T10:16:52-08:00",
+    "author": "Jordan Harband",
+    "date": "2021-12-07T10:16:52-08:00",
+    "hash": "f2734ddf51072d9cb3d07e2398616afa55696d1c",
+    "parents": "f2671cac42f6d3f64c1a407790668a6130057512",
+    "subject": "Editorial: simplify Array.prototype.splice"
+   }
+  ],
+  "title": "Editorial: simplify Array.prototype.splice",
+  "updated_at": "2021-12-07T18:33:37Z"
+ },
+ {
   "base": "c5f683e61d5dce703650f1c90d2309c46f8c157a",
   "created_at": "2021-12-01T14:48:43Z",
   "head": "6c897a906639ed525994d95e265f5b0242c2d187",
@@ -618,58 +638,6 @@
   ],
   "title": "Normative: List new Unicode v14 `Script`/`Script_Extensions` values",
   "updated_at": "2021-09-14T12:19:11Z"
- },
- {
-  "base": "27d319f2778790596d1e88e380f8f96380e993ff",
-  "created_at": "2021-08-07T05:18:17Z",
-  "head": "eb7ec68074fd12073135f7e039ecea28cfa12973",
-  "login": "jmdyck",
-  "number": 2484,
-  "ref": "GetSubstitution",
-  "revs": [
-   {
-    "adate": "2021-09-16T10:10:35-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-11-11T23:58:36-05:00",
-    "hash": "eb7ec68074fd12073135f7e039ecea28cfa12973",
-    "parents": "af13beb01b7e704985a8f8fadb17ba6812f324fd",
-    "subject": "Editorial: Change `the _index_<sup>th</sup> element of _captures_`"
-   },
-   {
-    "adate": "2021-08-07T00:25:22-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-11-11T23:58:36-05:00",
-    "hash": "af13beb01b7e704985a8f8fadb17ba6812f324fd",
-    "parents": "8f0721a4e7fda5d55088ec401bfd871ae152e4b4",
-    "subject": "Editorial: Incorporate GetSubstitution's table into the algorithm"
-   },
-   {
-    "adate": "2021-08-07T00:19:38-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-11-11T20:27:38-05:00",
-    "hash": "8f0721a4e7fda5d55088ec401bfd871ae152e4b4",
-    "parents": "b2d50b52ef7ce66d9d22f045338a621185898267",
-    "subject": "Editorial: fix the type-assertion for _captures_ in GetSubstitution"
-   },
-   {
-    "adate": "2021-08-07T00:05:08-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-11-11T20:27:37-05:00",
-    "hash": "b2d50b52ef7ce66d9d22f045338a621185898267",
-    "parents": "58b0c9fc855ad4927de66e7857f6d0c0bc5cc19a",
-    "subject": "Editorial: Rename _replacement_ in GetSubstitution"
-   },
-   {
-    "adate": "2021-08-06T23:56:47-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-11-11T20:27:37-05:00",
-    "hash": "58b0c9fc855ad4927de66e7857f6d0c0bc5cc19a",
-    "parents": "27d319f2778790596d1e88e380f8f96380e993ff",
-    "subject": "Editorial: minor refactoring in String.prototype.replace"
-   }
-  ],
-  "title": "Editorial: Incorporate GetSubstitution's table into the algorithm",
-  "updated_at": "2021-11-12T04:59:53Z"
  },
  {
   "base": "82438c3374272607094f65dbd33c73a5db5b762c",
