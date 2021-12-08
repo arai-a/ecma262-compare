@@ -1,25 +1,5 @@
 [
  {
-  "base": "f2671cac42f6d3f64c1a407790668a6130057512",
-  "created_at": "2021-12-07T18:18:25Z",
-  "head": "193211a3d889a61e74ef7da1475dfa356e029f29",
-  "login": "ljharb",
-  "number": 2595,
-  "ref": "splice",
-  "revs": [
-   {
-    "adate": "2021-12-07T14:16:00-08:00",
-    "author": "Jordan Harband",
-    "date": "2021-12-07T14:16:00-08:00",
-    "hash": "193211a3d889a61e74ef7da1475dfa356e029f29",
-    "parents": "f2671cac42f6d3f64c1a407790668a6130057512",
-    "subject": "Editorial: simplify Array.prototype.splice (#2595)"
-   }
-  ],
-  "title": "Editorial: simplify Array.prototype.splice",
-  "updated_at": "2021-12-07T22:16:28Z"
- },
- {
   "base": "c5f683e61d5dce703650f1c90d2309c46f8c157a",
   "created_at": "2021-12-01T14:48:43Z",
   "head": "6c897a906639ed525994d95e265f5b0242c2d187",
@@ -224,64 +204,56 @@
   "updated_at": "2021-11-29T08:24:08Z"
  },
  {
-  "base": "c5f683e61d5dce703650f1c90d2309c46f8c157a",
+  "base": "193211a3d889a61e74ef7da1475dfa356e029f29",
   "created_at": "2021-11-26T12:06:57Z",
-  "head": "1f76865a989ba035596d5b3b83111446bb30bd6b",
+  "head": "86c2f3d81e3d340ae9ab3c012b289f3a49d50889",
   "login": "arhadthedev",
   "number": 2590,
   "ref": "npm-run-windows",
   "revs": [
    {
-    "adate": "2021-12-07T21:54:25+03:00",
-    "author": "Oleg Iarygin",
-    "date": "2021-12-07T21:54:25+03:00",
-    "hash": "1f76865a989ba035596d5b3b83111446bb30bd6b",
-    "parents": "72e788ff0af37171d3ab58a8dc4a9daa9e19162b",
-    "subject": "Trigger rebuild to ci.tc39.es/preview/tc39/ecma262/pull/2590"
-   },
-   {
     "adate": "2021-12-06T01:42:42+03:00",
     "author": "Oleg Iarygin",
-    "date": "2021-12-06T01:46:35+03:00",
-    "hash": "72e788ff0af37171d3ab58a8dc4a9daa9e19162b",
-    "parents": "05338f5d96ec8e134dd94a961b284722c2300ee1",
+    "date": "2021-12-06T01:42:42+03:00",
+    "hash": "86c2f3d81e3d340ae9ab3c012b289f3a49d50889",
+    "parents": "73ad7d81c95aaf745ca018a7ca9365d4725dc571",
     "subject": "Use built-in Node functions instead of packages"
    },
    {
     "adate": "2021-12-01T00:01:31+03:00",
     "author": "Oleg Iarygin",
     "date": "2021-12-01T00:01:31+03:00",
-    "hash": "05338f5d96ec8e134dd94a961b284722c2300ee1",
-    "parents": "06b2229c8c19bed103e95a881262d8644a95aeac",
+    "hash": "73ad7d81c95aaf745ca018a7ca9365d4725dc571",
+    "parents": "247e0d2770495441b437e0212d2a6fe2882eeabb",
     "subject": "Cleanup after package change"
    },
    {
     "adate": "2021-11-30T23:27:59+03:00",
     "author": "Oleg Iarygin",
     "date": "2021-11-30T23:27:59+03:00",
-    "hash": "06b2229c8c19bed103e95a881262d8644a95aeac",
-    "parents": "55cd4fbd8bb2b34863bd629acc71ea0929e7db8b",
+    "hash": "247e0d2770495441b437e0212d2a6fe2882eeabb",
+    "parents": "ffbadce744dd9cc82ffcf70fa2933e0b320f786a",
     "subject": "Replace cpy-cli with cpx to reduce dependencies"
    },
    {
     "adate": "2021-11-26T19:14:43+03:00",
     "author": "Oleg Iarygin",
     "date": "2021-11-26T19:14:43+03:00",
-    "hash": "55cd4fbd8bb2b34863bd629acc71ea0929e7db8b",
-    "parents": "3d721ae0dc4a6b57ea48d8de641c8f8cef60072e",
+    "hash": "ffbadce744dd9cc82ffcf70fa2933e0b320f786a",
+    "parents": "2fe9dc993a021341b4e2c23756cad1b56ca6c780",
     "subject": "Stick to the latest major version of the utils"
    },
    {
     "adate": "2021-11-26T14:55:32+03:00",
     "author": "Oleg Iarygin",
     "date": "2021-11-26T14:55:32+03:00",
-    "hash": "3d721ae0dc4a6b57ea48d8de641c8f8cef60072e",
-    "parents": "c5f683e61d5dce703650f1c90d2309c46f8c157a",
+    "hash": "2fe9dc993a021341b4e2c23756cad1b56ca6c780",
+    "parents": "193211a3d889a61e74ef7da1475dfa356e029f29",
     "subject": "Meta: make `npm run build-*` working on Windows"
    }
   ],
   "title": "Meta: make `npm run build-*` working on Windows",
-  "updated_at": "2021-12-07T19:01:41Z"
+  "updated_at": "2021-12-08T00:04:36Z"
  },
  {
   "base": "c5f683e61d5dce703650f1c90d2309c46f8c157a",
