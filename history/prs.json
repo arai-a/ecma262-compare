@@ -276,26 +276,6 @@
   "updated_at": "2021-11-29T07:39:15Z"
  },
  {
-  "base": "c5f683e61d5dce703650f1c90d2309c46f8c157a",
-  "created_at": "2021-11-25T12:20:30Z",
-  "head": "2a90481674802a693a5c541762b4da5e73e4d931",
-  "login": "ExE-Boss",
-  "number": 2588,
-  "ref": "editorial/promise-constructor/static-methods/use-abstract-closures",
-  "revs": [
-   {
-    "adate": "2021-11-25T13:10:00+01:00",
-    "author": "ExE Boss",
-    "date": "2021-11-25T13:11:17+01:00",
-    "hash": "2a90481674802a693a5c541762b4da5e73e4d931",
-    "parents": "c5f683e61d5dce703650f1c90d2309c46f8c157a",
-    "subject": "Editorial: Use\u00a0abstract\u00a0closures in\u00a0`Promise` static\u00a0methods"
-   }
-  ],
-  "title": "Editorial: Use\u00a0abstract\u00a0closures in\u00a0`Promise` static\u00a0methods",
-  "updated_at": "2021-11-25T12:20:30Z"
- },
- {
   "base": "267fdbdc716677bc9934906a498cf9bad4bfb70d",
   "created_at": "2021-10-29T02:26:11Z",
   "head": "c57d411523b451460ff161614b8210320b658a85",
@@ -364,40 +344,56 @@
   "updated_at": "2021-11-18T07:07:27Z"
  },
  {
-  "base": "a714cfdc5d7e5f831fd74c6aab1963ea3b6f1413",
+  "base": "193211a3d889a61e74ef7da1475dfa356e029f29",
   "created_at": "2021-10-08T21:56:35Z",
-  "head": "aa792d58eaa699f9e6f8e036f5aada8fa15ce4c4",
+  "head": "d00c81d9e31d76b35cb6a99a0495cb2738a5e197",
   "login": "syg",
   "number": 2548,
   "ref": "can-call-user-code",
   "revs": [
    {
-    "adate": "2021-10-20T14:13:34-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2021-10-20T18:25:55-07:00",
-    "hash": "aa792d58eaa699f9e6f8e036f5aada8fa15ce4c4",
-    "parents": "badfe04da69272ded28a978a8eb1dc7a55e8e6f5",
-    "subject": "Add some suppressions for false positives"
+    "adate": "2021-12-08T17:50:46-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-12-08T17:50:46-08:00",
+    "hash": "d00c81d9e31d76b35cb6a99a0495cb2738a5e197",
+    "parents": "979f09ff50d660d2055f187bade9093ec457f75f",
+    "subject": "Meta: bump ecmarkup to 9.6.4"
    },
    {
-    "adate": "2021-10-08T15:05:49-07:00",
+    "adate": "2021-12-08T16:25:33-08:00",
     "author": "Shu-yu Guo",
-    "date": "2021-10-20T18:24:17-07:00",
-    "hash": "badfe04da69272ded28a978a8eb1dc7a55e8e6f5",
-    "parents": "e34e11af2a0ec14b910e3d8011a9a208d52829b3",
-    "subject": "Update ecmarkup"
+    "date": "2021-12-08T17:29:46-08:00",
+    "hash": "979f09ff50d660d2055f187bade9093ec457f75f",
+    "parents": "a24017b59928517a28df0cd99f3f60f5e18d9ba1",
+    "subject": "Change built-in iterators' calls to ? Yield inside ACs to ! GeneratorYield"
+   },
+   {
+    "adate": "2021-12-08T16:28:46-08:00",
+    "author": "Shu-yu Guo",
+    "date": "2021-12-08T17:29:38-08:00",
+    "hash": "a24017b59928517a28df0cd99f3f60f5e18d9ba1",
+    "parents": "bac10dd12deafa8e99e51aa4db90f8f23d164fae",
+    "subject": "Mark some missing Reflect internal method calls as can-call-user-code"
+   },
+   {
+    "adate": "2021-12-08T15:51:08-08:00",
+    "author": "Shu-yu Guo",
+    "date": "2021-12-08T15:51:08-08:00",
+    "hash": "bac10dd12deafa8e99e51aa4db90f8f23d164fae",
+    "parents": "2a2f5ab0fd292e36a06631ce86957fc91c6d5a68",
+    "subject": "Mark generator bodies as can-call-user-code"
    },
    {
     "adate": "2021-10-08T14:31:55-07:00",
     "author": "Shu-yu Guo",
-    "date": "2021-10-20T18:24:17-07:00",
-    "hash": "e34e11af2a0ec14b910e3d8011a9a208d52829b3",
-    "parents": "a714cfdc5d7e5f831fd74c6aab1963ea3b6f1413",
+    "date": "2021-12-08T13:24:14-08:00",
+    "hash": "2a2f5ab0fd292e36a06631ce86957fc91c6d5a68",
+    "parents": "193211a3d889a61e74ef7da1475dfa356e029f29",
     "subject": "Editorial: Annotate can-call-user-code AOs"
    }
   ],
   "title": "Editorial: Can-call-user-code annotation",
-  "updated_at": "2021-10-21T01:26:04Z"
+  "updated_at": "2021-12-09T01:50:58Z"
  },
  {
   "base": "193211a3d889a61e74ef7da1475dfa356e029f29",
