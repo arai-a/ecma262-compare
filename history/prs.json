@@ -1,5 +1,25 @@
 [
  {
+  "base": "193211a3d889a61e74ef7da1475dfa356e029f29",
+  "created_at": "2021-12-10T19:59:17Z",
+  "head": "97ff3baa3c39b282676d6f007dd73b0f3bf875cc",
+  "login": "syg",
+  "number": 2597,
+  "ref": "sdo-invocation-for2of",
+  "revs": [
+   {
+    "adate": "2021-12-10T11:57:35-08:00",
+    "author": "Shu-yu Guo",
+    "date": "2021-12-10T11:57:35-08:00",
+    "hash": "97ff3baa3c39b282676d6f007dd73b0f3bf875cc",
+    "parents": "193211a3d889a61e74ef7da1475dfa356e029f29",
+    "subject": "Editorial: Use \"SDO of |Foo|\" form for all SDO invocations"
+   }
+  ],
+  "title": "Editorial: Use \"SDO of |Foo|\" form for all SDO invocations",
+  "updated_at": "2021-12-10T19:59:17Z"
+ },
+ {
   "base": "c5f683e61d5dce703650f1c90d2309c46f8c157a",
   "created_at": "2021-12-01T14:48:43Z",
   "head": "91607863551f3656c3f15b1a3c6312f7316a561e",
@@ -186,11 +206,19 @@
  {
   "base": "c5f683e61d5dce703650f1c90d2309c46f8c157a",
   "created_at": "2021-11-28T05:25:14Z",
-  "head": "c300bcfd462a29bd8e9b82e9c8860b731678f342",
+  "head": "2a943e626adc28daaf2fffc12e12f319d5b9eab1",
   "login": "ExE-Boss",
   "number": 2591,
   "ref": "editorial/add-iterator-record-type",
   "revs": [
+   {
+    "adate": "2021-12-10T21:15:00+01:00",
+    "author": "ExE Boss",
+    "date": "2021-12-10T21:15:46+01:00",
+    "hash": "2a943e626adc28daaf2fffc12e12f319d5b9eab1",
+    "parents": "c300bcfd462a29bd8e9b82e9c8860b731678f342",
+    "subject": "fixup! Editorial: Add\u00a0`Iterator\u00a0Record`\u00a0type"
+   },
    {
     "adate": "2021-11-29T09:20:00+01:00",
     "author": "ExE Boss",
@@ -209,7 +237,7 @@
    }
   ],
   "title": "Editorial: Add\u00a0`Iterator\u00a0Record`\u00a0type",
-  "updated_at": "2021-11-29T08:24:08Z"
+  "updated_at": "2021-12-10T20:16:13Z"
  },
  {
   "base": "193211a3d889a61e74ef7da1475dfa356e029f29",
