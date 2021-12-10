@@ -2,11 +2,19 @@
  {
   "base": "c5f683e61d5dce703650f1c90d2309c46f8c157a",
   "created_at": "2021-12-01T14:48:43Z",
-  "head": "6c897a906639ed525994d95e265f5b0242c2d187",
+  "head": "91607863551f3656c3f15b1a3c6312f7316a561e",
   "login": "gibson042",
   "number": 2594,
   "ref": "2021-12-external-spec-values",
   "revs": [
+   {
+    "adate": "2021-12-09T18:48:59-05:00",
+    "author": "Richard Gibson",
+    "date": "2021-12-09T18:48:59-05:00",
+    "hash": "91607863551f3656c3f15b1a3c6312f7316a561e",
+    "parents": "6c897a906639ed525994d95e265f5b0242c2d187",
+    "subject": "Editorial: Use <code> for values from other specifications"
+   },
    {
     "adate": "2021-12-01T09:47:12-05:00",
     "author": "Richard Gibson",
@@ -17,7 +25,7 @@
    }
   ],
   "title": "Editorial: Treat values from other specifications as internal values",
-  "updated_at": "2021-12-01T14:57:26Z"
+  "updated_at": "2021-12-09T23:49:35Z"
  },
  {
   "base": "c5f683e61d5dce703650f1c90d2309c46f8c157a",
