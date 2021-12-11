@@ -636,6 +636,8 @@ class RevisionRenderer:
 
         Logger.info(index_path)
 
+        LocalRepository.reset()
+
         LocalRepository.checkout(sha)
 
         try:
@@ -690,6 +692,8 @@ class RevisionRenderer:
         os.remove(repo_out_index_path)
 
         distutils.dir_util.copy_tree(repo_out_dir, rev_dir)
+
+        
         return True
 
     def __json(sha, prnum, skip_cache):
