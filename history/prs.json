@@ -986,11 +986,27 @@
  {
   "base": "012af13cb8d7ba78a3125086a2cd9059a1f8a4e8",
   "created_at": "2021-05-28T11:28:01Z",
-  "head": "761f65484bf09433735c1af91d8a6ce41adca2d5",
+  "head": "f6b0f57db36bf0cd96426aefcb927b3213ce344a",
   "login": "mathiasbynens",
   "number": 2418,
   "ref": "regexp-v-flag",
   "revs": [
+   {
+    "adate": "2021-12-11T13:20:34-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-12-11T13:20:34-08:00",
+    "hash": "f6b0f57db36bf0cd96426aefcb927b3213ce344a",
+    "parents": "bef0bb8f59de562fdce6123841ced0d866ab62ba",
+    "subject": "format"
+   },
+   {
+    "adate": "2021-12-11T13:19:21-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-12-11T13:19:21-08:00",
+    "hash": "bef0bb8f59de562fdce6123841ced0d866ab62ba",
+    "parents": "761f65484bf09433735c1af91d8a6ce41adca2d5",
+    "subject": "fix ClassStrings semantics"
+   },
    {
     "adate": "2021-12-10T23:15:10-08:00",
     "author": "Kevin Gibbons",
@@ -1009,7 +1025,7 @@
    }
   ],
   "title": "Normative: Add RegExp `v` flag with set notation and properties of strings",
-  "updated_at": "2021-12-11T07:54:33Z"
+  "updated_at": "2021-12-11T21:21:57Z"
  },
  {
   "base": "7a79833f0b2b338cfb5531449b9bcf5290b9ae9a",
