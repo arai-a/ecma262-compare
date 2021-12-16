@@ -380,160 +380,184 @@
   "updated_at": "2021-11-18T07:07:27Z"
  },
  {
-  "base": "193211a3d889a61e74ef7da1475dfa356e029f29",
+  "base": "012af13cb8d7ba78a3125086a2cd9059a1f8a4e8",
   "created_at": "2021-10-08T21:56:35Z",
-  "head": "30516d4f0d138e75a3e3e9e3afc17d38a5f5590e",
+  "head": "ce8d4b36c89494241a619d211ea74af4bf3a996b",
   "login": "syg",
   "number": 2548,
   "ref": "can-call-user-code",
   "revs": [
    {
+    "adate": "2021-12-15T17:25:01-08:00",
+    "author": "Shu-yu Guo",
+    "date": "2021-12-15T17:25:01-08:00",
+    "hash": "ce8d4b36c89494241a619d211ea74af4bf3a996b",
+    "parents": "4ec961fe61dce0199a50815ad123c6d797bbffc7",
+    "subject": "Tag \"Resume the suspended evaluation of\" as user-code"
+   },
+   {
+    "adate": "2021-12-15T17:12:01-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-12-15T17:12:01-08:00",
+    "hash": "4ec961fe61dce0199a50815ad123c6d797bbffc7",
+    "parents": "8af652d9802b49d016de96eb8ff23ff461e85acb",
+    "subject": "Meta: bump ecmarkup to 9.7.1"
+   },
+   {
+    "adate": "2021-12-15T16:56:42-08:00",
+    "author": "Shu-yu Guo",
+    "date": "2021-12-15T16:56:42-08:00",
+    "hash": "8af652d9802b49d016de96eb8ff23ff461e85acb",
+    "parents": "77d4ba058691b2f22dddd0995b32c7340240d776",
+    "subject": "Switch to [fence-effects=\"user-code\"]"
+   },
+   {
     "adate": "2021-12-10T17:33:02-08:00",
     "author": "Kevin Gibbons",
-    "date": "2021-12-10T17:33:02-08:00",
-    "hash": "30516d4f0d138e75a3e3e9e3afc17d38a5f5590e",
-    "parents": "750b352241aa9233b85f3deeb4516123f3369ce5",
+    "date": "2021-12-15T16:54:43-08:00",
+    "hash": "77d4ba058691b2f22dddd0995b32c7340240d776",
+    "parents": "a1093e49c7316428f8d4a4ab8fbf70cc66d705f6",
     "subject": "Move user-code effect to the Resume line in GeneratorResumeAbrupt"
    },
    {
     "adate": "2021-12-10T17:22:02-08:00",
     "author": "Shu-yu Guo",
-    "date": "2021-12-10T17:22:02-08:00",
-    "hash": "750b352241aa9233b85f3deeb4516123f3369ce5",
-    "parents": "c5bf1135e120d0cfca90eb04846a5e5f57c7e6dc",
+    "date": "2021-12-15T16:54:42-08:00",
+    "hash": "a1093e49c7316428f8d4a4ab8fbf70cc66d705f6",
+    "parents": "9a9add0733dceeb3a5e388b863828130721812ac",
     "subject": "Move user-code effect to the Resume line in [Async]GeneratorResume"
    },
    {
     "adate": "2021-12-10T15:20:58-08:00",
     "author": "Shu-yu Guo",
-    "date": "2021-12-10T15:21:24-08:00",
-    "hash": "c5bf1135e120d0cfca90eb04846a5e5f57c7e6dc",
-    "parents": "9a55c12bfa105bf3ee2f1be3d83f9fcb26785185",
+    "date": "2021-12-15T16:54:42-08:00",
+    "hash": "9a9add0733dceeb3a5e388b863828130721812ac",
+    "parents": "9ef7e52423adcb8f68e7d85b4c8743d8a8e0441f",
     "subject": "Move manually added user-code effects to be around the callee only for consistency with autolinked links"
    },
    {
     "adate": "2021-12-10T15:01:34-08:00",
     "author": "Shu-yu Guo",
-    "date": "2021-12-10T15:03:44-08:00",
-    "hash": "9a55c12bfa105bf3ee2f1be3d83f9fcb26785185",
-    "parents": "c11f8b345a77d86a1849b5d2b39f8f6b200e11fc",
+    "date": "2021-12-15T16:54:42-08:00",
+    "hash": "9ef7e52423adcb8f68e7d85b4c8743d8a8e0441f",
+    "parents": "4b8b0d631bcd1943533f2b076805a7ac4a71f01e",
     "subject": "Add fences for GeneratorStart; suppress some built-in iterators"
    },
    {
     "adate": "2021-12-10T11:46:41-08:00",
     "author": "Shu-yu Guo",
-    "date": "2021-12-10T15:03:44-08:00",
-    "hash": "c11f8b345a77d86a1849b5d2b39f8f6b200e11fc",
-    "parents": "75e1fc9f3a0f9ee5c67dc7ebf17cf1c590802f6e",
+    "date": "2021-12-15T16:54:42-08:00",
+    "hash": "4b8b0d631bcd1943533f2b076805a7ac4a71f01e",
+    "parents": "339b40d60eba91821f09dd175738b39432bb305c",
     "subject": "Revert \"Mark generator bodies as can-call-user-code\""
    },
    {
     "adate": "2021-12-09T19:41:12-08:00",
     "author": "Kevin Gibbons",
-    "date": "2021-12-09T19:41:12-08:00",
-    "hash": "75e1fc9f3a0f9ee5c67dc7ebf17cf1c590802f6e",
-    "parents": "993760332d0211b0a141c1e33824dc02fb64ea24",
+    "date": "2021-12-15T16:54:42-08:00",
+    "hash": "339b40d60eba91821f09dd175738b39432bb305c",
+    "parents": "4bb8cb0160b35953cb33cfdc7164387d847b38a4",
     "subject": "Meta: bump ecmarkup to 9.6.5"
    },
    {
     "adate": "2021-12-09T17:20:41-08:00",
     "author": "Shu-yu Guo",
-    "date": "2021-12-09T17:20:41-08:00",
-    "hash": "993760332d0211b0a141c1e33824dc02fb64ea24",
-    "parents": "3b6389774fae224f4f8f119576de5eb8357ed53c",
+    "date": "2021-12-15T16:54:42-08:00",
+    "hash": "4bb8cb0160b35953cb33cfdc7164387d847b38a4",
+    "parents": "268e9d9c2a9c71e9ca114ff06d5566ec97720ba4",
     "subject": "Move misplaced </emu-meta>"
    },
    {
     "adate": "2021-12-09T17:08:12-08:00",
     "author": "Shu-yu Guo",
-    "date": "2021-12-09T17:08:12-08:00",
-    "hash": "3b6389774fae224f4f8f119576de5eb8357ed53c",
-    "parents": "307aeddc06d02536463c2eb918c2bed327f3ca13",
+    "date": "2021-12-15T16:54:42-08:00",
+    "hash": "268e9d9c2a9c71e9ca114ff06d5566ec97720ba4",
+    "parents": "a5214367d198c31b9f30caf2412c37825e5c936a",
     "subject": "Fix typo"
    },
    {
     "adate": "2021-12-09T16:54:49-08:00",
     "author": "Shu-yu Guo",
-    "date": "2021-12-09T17:03:31-08:00",
-    "hash": "307aeddc06d02536463c2eb918c2bed327f3ca13",
-    "parents": "27908cc2793501387ffd8e9b3ce52c828903b8c4",
+    "date": "2021-12-15T16:54:41-08:00",
+    "hash": "a5214367d198c31b9f30caf2412c37825e5c936a",
+    "parents": "e20e5469583b2bab59a5069ef683c61dbad9d8da",
     "subject": "Suppress \"result of evaluating script\" in JSON.parse"
    },
    {
     "adate": "2021-12-09T16:25:34-08:00",
     "author": "Shu-yu Guo",
-    "date": "2021-12-09T17:03:31-08:00",
-    "hash": "27908cc2793501387ffd8e9b3ce52c828903b8c4",
-    "parents": "18fceff97ade27622ca9b39f9d202b5bbaab51fc",
+    "date": "2021-12-15T16:54:41-08:00",
+    "hash": "e20e5469583b2bab59a5069ef683c61dbad9d8da",
+    "parents": "5fddf23a96d78bd96ce0996b93dc0e2d329f3c4b",
     "subject": "Suppress some false positives"
    },
    {
     "adate": "2021-12-09T15:50:00-08:00",
     "author": "Shu-yu Guo",
-    "date": "2021-12-09T17:03:31-08:00",
-    "hash": "18fceff97ade27622ca9b39f9d202b5bbaab51fc",
-    "parents": "aff7ec08d55c072483b71c410cb98dd6c2e78713",
+    "date": "2021-12-15T16:54:41-08:00",
+    "hash": "5fddf23a96d78bd96ce0996b93dc0e2d329f3c4b",
+    "parents": "fb1cdb22d95a76abe25aed633434f5a565a3759a",
     "subject": "Add user-code emu-meta to environment record concrete methods"
    },
    {
     "adate": "2021-12-09T15:31:17-08:00",
     "author": "Shu-yu Guo",
-    "date": "2021-12-09T17:03:30-08:00",
-    "hash": "aff7ec08d55c072483b71c410cb98dd6c2e78713",
-    "parents": "58e402fb35a1a521251612192c1df9bb37341fca",
+    "date": "2021-12-15T16:54:41-08:00",
+    "hash": "fb1cdb22d95a76abe25aed633434f5a565a3759a",
+    "parents": "f58f313067e2b918a9b7ff235aee0bd304f51746",
     "subject": "Remove now unneeded <dt>effects</dt> with new ecmarkup emu-meta propagation"
    },
    {
     "adate": "2021-12-09T15:29:01-08:00",
     "author": "Shu-yu Guo",
-    "date": "2021-12-09T17:03:30-08:00",
-    "hash": "58e402fb35a1a521251612192c1df9bb37341fca",
-    "parents": "d00c81d9e31d76b35cb6a99a0495cb2738a5e197",
+    "date": "2021-12-15T16:54:41-08:00",
+    "hash": "f58f313067e2b918a9b7ff235aee0bd304f51746",
+    "parents": "535b7975d06838b56a579667a74b4c21f43625f1",
     "subject": "Add user-code emu-metas to missing internal methods"
    },
    {
     "adate": "2021-12-08T17:50:46-08:00",
     "author": "Kevin Gibbons",
-    "date": "2021-12-08T17:50:46-08:00",
-    "hash": "d00c81d9e31d76b35cb6a99a0495cb2738a5e197",
-    "parents": "979f09ff50d660d2055f187bade9093ec457f75f",
+    "date": "2021-12-15T16:54:41-08:00",
+    "hash": "535b7975d06838b56a579667a74b4c21f43625f1",
+    "parents": "1fdf1e5373f043b59bc67bc8703f37e2acf8a9da",
     "subject": "Meta: bump ecmarkup to 9.6.4"
    },
    {
     "adate": "2021-12-08T16:25:33-08:00",
     "author": "Shu-yu Guo",
-    "date": "2021-12-08T17:29:46-08:00",
-    "hash": "979f09ff50d660d2055f187bade9093ec457f75f",
-    "parents": "a24017b59928517a28df0cd99f3f60f5e18d9ba1",
+    "date": "2021-12-15T16:54:41-08:00",
+    "hash": "1fdf1e5373f043b59bc67bc8703f37e2acf8a9da",
+    "parents": "170108b58d8c00273040cf244c75d8ec71328e03",
     "subject": "Change built-in iterators' calls to ? Yield inside ACs to ! GeneratorYield"
    },
    {
     "adate": "2021-12-08T16:28:46-08:00",
     "author": "Shu-yu Guo",
-    "date": "2021-12-08T17:29:38-08:00",
-    "hash": "a24017b59928517a28df0cd99f3f60f5e18d9ba1",
-    "parents": "bac10dd12deafa8e99e51aa4db90f8f23d164fae",
+    "date": "2021-12-15T16:54:40-08:00",
+    "hash": "170108b58d8c00273040cf244c75d8ec71328e03",
+    "parents": "0b1992f6418f2bf08316b65ccbbe204291e1fc92",
     "subject": "Mark some missing Reflect internal method calls as can-call-user-code"
    },
    {
     "adate": "2021-12-08T15:51:08-08:00",
     "author": "Shu-yu Guo",
-    "date": "2021-12-08T15:51:08-08:00",
-    "hash": "bac10dd12deafa8e99e51aa4db90f8f23d164fae",
-    "parents": "2a2f5ab0fd292e36a06631ce86957fc91c6d5a68",
+    "date": "2021-12-15T16:54:40-08:00",
+    "hash": "0b1992f6418f2bf08316b65ccbbe204291e1fc92",
+    "parents": "f05408375e8193af3f392066c28ad285443203ef",
     "subject": "Mark generator bodies as can-call-user-code"
    },
    {
     "adate": "2021-10-08T14:31:55-07:00",
     "author": "Shu-yu Guo",
-    "date": "2021-12-08T13:24:14-08:00",
-    "hash": "2a2f5ab0fd292e36a06631ce86957fc91c6d5a68",
-    "parents": "193211a3d889a61e74ef7da1475dfa356e029f29",
+    "date": "2021-12-15T16:54:40-08:00",
+    "hash": "f05408375e8193af3f392066c28ad285443203ef",
+    "parents": "012af13cb8d7ba78a3125086a2cd9059a1f8a4e8",
     "subject": "Editorial: Annotate can-call-user-code AOs"
    }
   ],
   "title": "Editorial: Can-call-user-code annotation",
-  "updated_at": "2021-12-11T01:33:28Z"
+  "updated_at": "2021-12-16T01:25:19Z"
  },
  {
   "base": "193211a3d889a61e74ef7da1475dfa356e029f29",
