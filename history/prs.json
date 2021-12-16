@@ -1,5 +1,25 @@
 [
  {
+  "base": "012af13cb8d7ba78a3125086a2cd9059a1f8a4e8",
+  "created_at": "2021-12-16T00:20:12Z",
+  "head": "c761d5498989f2ba7d6dae47ee695998377fb6a4",
+  "login": "gibson042",
+  "number": 2598,
+  "ref": "2021-12-uppercase-lowercase",
+  "revs": [
+   {
+    "adate": "2021-12-15T19:19:08-05:00",
+    "author": "Richard Gibson",
+    "date": "2021-12-15T19:19:12-05:00",
+    "hash": "c761d5498989f2ba7d6dae47ee695998377fb6a4",
+    "parents": "012af13cb8d7ba78a3125086a2cd9059a1f8a4e8",
+    "subject": "Editorial: Standardize the spelling of \"uppercase\" and \"lowercase\""
+   }
+  ],
+  "title": "Editorial: Standardize the spelling of \"uppercase\" and \"lowercase\"",
+  "updated_at": "2021-12-16T00:20:12Z"
+ },
+ {
   "base": "c5f683e61d5dce703650f1c90d2309c46f8c157a",
   "created_at": "2021-12-01T14:48:43Z",
   "head": "91607863551f3656c3f15b1a3c6312f7316a561e",
@@ -1802,26 +1822,6 @@
   ],
   "title": "Normative: Fix out-of-range NaNs in date set methods",
   "updated_at": "2020-09-20T23:04:54Z"
- },
- {
-  "base": "69f53492cf8e735c84f8f859b930576c4ce9251b",
-  "created_at": "2020-07-21T18:55:14Z",
-  "head": "8272d887afd18a8c008dd9543d5699e3bb40a5e6",
-  "login": "ExE-Boss",
-  "number": 2106,
-  "ref": "normative/add-import-meta-tostringtag",
-  "revs": [
-   {
-    "adate": "2020-07-21T21:00:00+02:00",
-    "author": "ExE Boss",
-    "date": "2020-07-21T20:58:45+02:00",
-    "hash": "8272d887afd18a8c008dd9543d5699e3bb40a5e6",
-    "parents": "69f53492cf8e735c84f8f859b930576c4ce9251b",
-    "subject": "Normative: Add\u00a0`import.meta[Symbol.toStringTag]`"
-   }
-  ],
-  "title": "Normative: Add\u00a0`import.meta[Symbol.toStringTag]`",
-  "updated_at": "2020-09-08T12:19:20Z"
  },
  {
   "base": "56032d3271949f2892745d4a8e06d1322ba7220d",
