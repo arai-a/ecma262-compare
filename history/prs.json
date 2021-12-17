@@ -382,11 +382,19 @@
  {
   "base": "012af13cb8d7ba78a3125086a2cd9059a1f8a4e8",
   "created_at": "2021-10-08T21:56:35Z",
-  "head": "2e7e2f4aa79c172a0ca6bd940619b49f2122e5fa",
+  "head": "0211cd8565ea3b77094e4c56fc6f5a38dde2ebf4",
   "login": "syg",
   "number": 2548,
   "ref": "can-call-user-code",
   "revs": [
+   {
+    "adate": "2021-12-16T16:56:27-08:00",
+    "author": "Shu-yu Guo",
+    "date": "2021-12-16T16:56:37-08:00",
+    "hash": "0211cd8565ea3b77094e4c56fc6f5a38dde2ebf4",
+    "parents": "2e7e2f4aa79c172a0ca6bd940619b49f2122e5fa",
+    "subject": "Remove annotations from module namespace exotic objects' internal methods"
+   },
    {
     "adate": "2021-12-15T19:03:49-08:00",
     "author": "Shu-yu Guo",
@@ -565,16 +573,24 @@
    }
   ],
   "title": "Editorial: Can-call-user-code annotation",
-  "updated_at": "2021-12-16T03:11:17Z"
+  "updated_at": "2021-12-17T00:56:53Z"
  },
  {
   "base": "193211a3d889a61e74ef7da1475dfa356e029f29",
   "created_at": "2021-10-08T00:09:44Z",
-  "head": "311e639fddfc1e7b8c28e0d2e9e7deb72303b10d",
+  "head": "625cc63fd6b7cd480688089bfaf1b35af498e971",
   "login": "tc39",
   "number": 2547,
   "ref": "GH-1796",
   "revs": [
+   {
+    "adate": "2021-12-16T18:53:55-07:00",
+    "author": "Michael Ficarra",
+    "date": "2021-12-16T18:53:55-07:00",
+    "hash": "625cc63fd6b7cd480688089bfaf1b35af498e971",
+    "parents": "311e639fddfc1e7b8c28e0d2e9e7deb72303b10d",
+    "subject": "more return types"
+   },
    {
     "adate": "2021-12-09T15:52:29-07:00",
     "author": "Michael Ficarra",
@@ -753,7 +769,7 @@
    }
   ],
   "title": "Editorial: remove implicit wrapping/unwrapping of completion records",
-  "updated_at": "2021-12-09T22:53:02Z"
+  "updated_at": "2021-12-17T01:54:35Z"
  },
  {
   "base": "267fdbdc716677bc9934906a498cf9bad4bfb70d",
