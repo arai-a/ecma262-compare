@@ -1,12 +1,20 @@
 [
  {
-  "base": "012af13cb8d7ba78a3125086a2cd9059a1f8a4e8",
+  "base": "a2da384e5577aa3c4e423c5f2535a44a94551376",
   "created_at": "2021-12-17T02:56:25Z",
-  "head": "9da23ec28efcad53708540842ddc7626eaef57fc",
+  "head": "f3c4d29fc2bfb6b5579d0a6921cd2383413f9bf0",
   "login": "mhofman",
   "number": 2600,
   "ref": "fix-async-from-sync-close",
   "revs": [
+   {
+    "adate": "2021-12-20T23:26:57+00:00",
+    "author": "Mathieu Hofman",
+    "date": "2021-12-21T18:55:28+00:00",
+    "hash": "f3c4d29fc2bfb6b5579d0a6921cd2383413f9bf0",
+    "parents": "9da23ec28efcad53708540842ddc7626eaef57fc",
+    "subject": "Do not close when iterator has already been requested closed"
+   },
    {
     "adate": "2021-12-17T19:09:43+00:00",
     "author": "Mathieu Hofman",
@@ -33,7 +41,7 @@
    }
   ],
   "title": "Normative: Close sync iterator when async wrapper yields rejection",
-  "updated_at": "2021-12-17T19:22:09Z"
+  "updated_at": "2021-12-21T18:56:20Z"
  },
  {
   "base": "c5f683e61d5dce703650f1c90d2309c46f8c157a",
