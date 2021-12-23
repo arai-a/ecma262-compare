@@ -724,13 +724,21 @@
   "updated_at": "2021-10-28T13:56:18Z"
  },
  {
-  "base": "b3e6dfe61966b9a0eded9c7c5bd037b01e10abf2",
+  "base": "a2da384e5577aa3c4e423c5f2535a44a94551376",
   "created_at": "2021-09-14T12:18:42Z",
-  "head": "9fb13739069ceeb29415c629f3fde88df52aacb9",
+  "head": "6f6c23285fa21d9d06f763111d6f89608f912e2e",
   "login": "mathiasbynens",
   "number": 2515,
   "ref": "unicode-14-property-escapes",
   "revs": [
+   {
+    "adate": "2021-12-23T10:10:17-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-12-23T10:11:36-08:00",
+    "hash": "6f6c23285fa21d9d06f763111d6f89608f912e2e",
+    "parents": "9fb13739069ceeb29415c629f3fde88df52aacb9",
+    "subject": "Editorial: note provenance of spellings in Script Values and General Category tables"
+   },
    {
     "adate": "2021-09-14T14:14:22+02:00",
     "author": "Mathias Bynens",
@@ -741,7 +749,7 @@
    }
   ],
   "title": "Normative: List new Unicode v14 `Script`/`Script_Extensions` values",
-  "updated_at": "2021-09-14T12:19:11Z"
+  "updated_at": "2021-12-23T18:13:03Z"
  },
  {
   "base": "82438c3374272607094f65dbd33c73a5db5b762c",
