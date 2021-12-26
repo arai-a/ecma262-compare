@@ -1036,208 +1036,24 @@
   "updated_at": "2021-12-11T21:44:58Z"
  },
  {
-  "base": "7a79833f0b2b338cfb5531449b9bcf5290b9ae9a",
+  "base": "a2da384e5577aa3c4e423c5f2535a44a94551376",
   "created_at": "2021-05-26T23:09:49Z",
-  "head": "8015d41b2167373c17e1f50dd7da0d257b408680",
+  "head": "f210f0e35649ae274b88b95415eddd717b594208",
   "login": "pzuraq",
   "number": 2417,
   "ref": "decorators",
   "revs": [
    {
-    "adate": "2021-07-05T10:55:37-07:00",
-    "author": "Chris Garrett",
-    "date": "2021-07-05T10:55:37-07:00",
-    "hash": "8015d41b2167373c17e1f50dd7da0d257b408680",
-    "parents": "ff62eaa89dce5b4c8009edb1d7d7137a81dd7303",
-    "subject": "Make private metadata static"
-   },
-   {
-    "adate": "2021-05-28T08:14:28-07:00",
-    "author": "Chris Garrett",
-    "date": "2021-05-28T08:14:28-07:00",
-    "hash": "ff62eaa89dce5b4c8009edb1d7d7137a81dd7303",
-    "parents": "a7b1674bf410abc127edeb5fe3ddb298fd659a9c 65f36ea57e79177e9773b7355f8f3f72a875969e",
-    "subject": "Merge pull request #2 from jmdyck/2417_ed"
-   },
-   {
-    "adate": "2021-05-28T09:05:16-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-05-28T09:18:34-04:00",
-    "hash": "65f36ea57e79177e9773b7355f8f3f72a875969e",
-    "parents": "57bd25ca30bbdcc755f5c05cdb6ae95addfeea89",
-    "subject": "Reference new productions in Annex A"
-   },
-   {
-    "adate": "2021-05-28T09:04:34-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-05-28T09:18:34-04:00",
-    "hash": "57bd25ca30bbdcc755f5c05cdb6ae95addfeea89",
-    "parents": "c8655b286d3537bff8036c8cef12a931e4556a66",
-    "subject": "Change CreateDecoratorAccessObject arg"
-   },
-   {
-    "adate": "2021-05-28T09:03:28-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-05-28T09:18:34-04:00",
-    "hash": "c8655b286d3537bff8036c8cef12a931e4556a66",
-    "parents": "eb21cb9d1cd332b438de46baf07cc0acf0f692a3",
-    "subject": "Swap args in call to CreateDecoratorContextObject"
-   },
-   {
-    "adate": "2021-05-28T08:55:15-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-05-28T09:18:34-04:00",
-    "hash": "eb21cb9d1cd332b438de46baf07cc0acf0f692a3",
-    "parents": "ddece0ea94fad829e14e1a9588b29b790d631476",
-    "subject": "Add _initializers_ parameter to CreateDecoratorContextObject"
-   },
-   {
-    "adate": "2021-05-28T08:50:49-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-05-28T09:18:34-04:00",
-    "hash": "ddece0ea94fad829e14e1a9588b29b790d631476",
-    "parents": "327a9db4685e396e699079f0ed93e332a21e6a87",
-    "subject": "Move up the Let for _staticMetadataList_"
-   },
-   {
-    "adate": "2021-05-28T08:48:54-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-05-28T09:18:34-04:00",
-    "hash": "327a9db4685e396e699079f0ed93e332a21e6a87",
-    "parents": "1df48688c06aa8b989a6afdcf10dcb4a05b3ee93",
-    "subject": "Ensure that a SetDecoratorMetadata function returns a value"
-   },
-   {
-    "adate": "2021-05-28T08:47:11-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-05-28T09:18:33-04:00",
-    "hash": "1df48688c06aa8b989a6afdcf10dcb4a05b3ee93",
-    "parents": "9a541dbde4a1f8362088ac73db6dde5e4188c4ff",
-    "subject": "PrivateSet doesn't return a value"
-   },
-   {
-    "adate": "2021-05-28T08:45:37-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-05-28T09:18:33-04:00",
-    "hash": "9a541dbde4a1f8362088ac73db6dde5e4188c4ff",
-    "parents": "e86c426fe6cb94056134126964a81d64a960a61a",
-    "subject": "Typos"
-   },
-   {
-    "adate": "2021-05-28T08:43:23-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-05-28T09:18:33-04:00",
-    "hash": "e86c426fe6cb94056134126964a81d64a960a61a",
-    "parents": "e531581f935954319bf39017de8c539f0d7f2382",
-    "subject": "I'm pretty sure this '_metadataObj_' should be '_metadataObjForKey_'"
-   },
-   {
-    "adate": "2021-05-28T08:42:28-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-05-28T09:18:33-04:00",
-    "hash": "e531581f935954319bf39017de8c539f0d7f2382",
-    "parents": "7fd11b90c07cefd4edd55a545b4ef9f97ad25e12",
-    "subject": "Presumably PrivateValueSetter will be called with a value"
-   },
-   {
-    "adate": "2021-05-28T08:40:58-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-05-28T09:18:33-04:00",
-    "hash": "7fd11b90c07cefd4edd55a545b4ef9f97ad25e12",
-    "parents": "556329ab5adff80608e5e584d91b33c9fadf074d",
-    "subject": "References to undefined operations"
-   },
-   {
-    "adate": "2021-05-28T08:35:16-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-05-28T09:18:33-04:00",
-    "hash": "556329ab5adff80608e5e584d91b33c9fadf074d",
-    "parents": "d1c881affb4a3c81eff13454ac883b5c1f673adc",
-    "subject": "References to undefined aliases."
-   },
-   {
-    "adate": "2021-05-28T08:31:07-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-05-28T09:18:33-04:00",
-    "hash": "d1c881affb4a3c81eff13454ac883b5c1f673adc",
-    "parents": "52a73a4224fc4619353cecc6a07a537ba1e8c365",
-    "subject": "'type' of _metadataList_"
-   },
-   {
-    "adate": "2021-05-28T08:27:25-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-05-28T09:18:33-04:00",
-    "hash": "52a73a4224fc4619353cecc6a07a537ba1e8c365",
-    "parents": "9f2769d0a59819939fd9a53dc0a2f60b20ae0947",
-    "subject": "algorithm syntax"
-   },
-   {
-    "adate": "2021-05-28T08:21:44-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-05-28T08:21:44-04:00",
-    "hash": "9f2769d0a59819939fd9a53dc0a2f60b20ae0947",
-    "parents": "1c8f318c7ccd192edfb5ffec061d67d2ade434b5",
-    "subject": "? and !"
-   },
-   {
-    "adate": "2021-05-28T08:18:50-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-05-28T08:18:50-04:00",
-    "hash": "1c8f318c7ccd192edfb5ffec061d67d2ade434b5",
-    "parents": "b1151de5b1d2493ad31266339a8f873f5d250fe1",
-    "subject": "Capitalization"
-   },
-   {
-    "adate": "2021-05-28T08:15:27-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-05-28T08:15:27-04:00",
-    "hash": "b1151de5b1d2493ad31266339a8f873f5d250fe1",
-    "parents": "d1d30ca1a80eb26a736ec17efdc02d92ed932a02",
-    "subject": "abstract op preambles: standard wording"
-   },
-   {
-    "adate": "2021-05-28T08:08:54-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-05-28T08:08:54-04:00",
-    "hash": "d1d30ca1a80eb26a736ec17efdc02d92ed932a02",
-    "parents": "65a13ae8c7e7582a9d61b54fc54a9966d8244f0b",
-    "subject": "emu-clause tags: shorten ids, add type=\"sdo\""
-   },
-   {
-    "adate": "2021-05-28T08:00:21-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-05-28T08:00:21-04:00",
-    "hash": "65a13ae8c7e7582a9d61b54fc54a9966d8244f0b",
-    "parents": "f201d42c12654f8742a13872f13ce576830d1ba9",
-    "subject": "Third argument to Call() is a List"
-   },
-   {
-    "adate": "2021-05-28T07:54:14-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-05-28T07:54:14-04:00",
-    "hash": "f201d42c12654f8742a13872f13ce576830d1ba9",
-    "parents": "20c2efd0236bac0297cd70bae56c4ff7b206eb4f",
-    "subject": "Change literal angle quotes to HTML entities."
-   },
-   {
-    "adate": "2021-05-28T07:49:21-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-05-28T07:49:21-04:00",
-    "hash": "20c2efd0236bac0297cd70bae56c4ff7b206eb4f",
-    "parents": "a7b1674bf410abc127edeb5fe3ddb298fd659a9c",
-    "subject": "Preserve defunct ids via 'oldids'"
-   },
-   {
     "adate": "2021-04-05T14:48:43-07:00",
     "author": "Chris Garrett",
-    "date": "2021-05-27T08:04:34-07:00",
-    "hash": "a7b1674bf410abc127edeb5fe3ddb298fd659a9c",
-    "parents": "56b5e8bc3dc84e51bfe5f958b9359c2db10a4d6e",
+    "date": "2021-12-25T23:44:33-05:00",
+    "hash": "f210f0e35649ae274b88b95415eddd717b594208",
+    "parents": "a2da384e5577aa3c4e423c5f2535a44a94551376",
     "subject": "Add Class and Class Element Decorators and `accessor` Keyword"
    }
   ],
   "title": "Add Class and Class Element Decorators and `accessor` Keyword",
-  "updated_at": "2021-07-05T17:55:47Z"
+  "updated_at": "2021-12-26T04:45:29Z"
  },
  {
   "base": "c75497982a8c07e83a13cc5d7d80cdaaa8a337bd",
