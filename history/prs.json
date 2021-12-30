@@ -1,6 +1,26 @@
 [
  {
   "base": "a2da384e5577aa3c4e423c5f2535a44a94551376",
+  "created_at": "2021-12-30T06:02:47Z",
+  "head": "28755c9cd454cc35881766f82aaec20fd7183042",
+  "login": "tc39",
+  "number": 2603,
+  "ref": "note-exec-weirdness",
+  "revs": [
+   {
+    "adate": "2021-12-29T22:01:08-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2021-12-29T22:01:08-08:00",
+    "hash": "28755c9cd454cc35881766f82aaec20fd7183042",
+    "parents": "a2da384e5577aa3c4e423c5f2535a44a94551376",
+    "subject": "Editorial: Note how edge case in GetSubstitution can arise"
+   }
+  ],
+  "title": "Editorial: Note how edge case in GetSubstitution can arise",
+  "updated_at": "2021-12-30T06:02:47Z"
+ },
+ {
+  "base": "a2da384e5577aa3c4e423c5f2535a44a94551376",
   "created_at": "2021-12-21T21:48:52Z",
   "head": "95b80de7567c5ec556dd691c275997b276c30820",
   "login": "jmdyck",
