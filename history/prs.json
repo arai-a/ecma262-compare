@@ -1,6 +1,26 @@
 [
  {
   "base": "a2da384e5577aa3c4e423c5f2535a44a94551376",
+  "created_at": "2022-01-03T17:40:42Z",
+  "head": "9c212d8883f4c91a1cd6c6d532181f40c6d288bf",
+  "login": "nicolo-ribaudo",
+  "number": 2606,
+  "ref": "sortcompare-comparefn-param",
+  "revs": [
+   {
+    "adate": "2022-01-03T18:35:13+01:00",
+    "author": "Nicol\u00f2 Ribaudo",
+    "date": "2022-01-03T18:43:25+01:00",
+    "hash": "9c212d8883f4c91a1cd6c6d532181f40c6d288bf",
+    "parents": "a2da384e5577aa3c4e423c5f2535a44a94551376",
+    "subject": "Explicitly pass `_comparefn_` to SortCompare"
+   }
+  ],
+  "title": "Editorial: Explicitly pass `_comparefn_` to SortCompare",
+  "updated_at": "2022-01-03T17:43:32Z"
+ },
+ {
+  "base": "a2da384e5577aa3c4e423c5f2535a44a94551376",
   "created_at": "2022-01-02T16:23:13Z",
   "head": "f1d8bf993ac0c7d6740e8c0a7df5f410c9069f58",
   "login": "jmdyck",
