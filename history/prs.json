@@ -1,8 +1,8 @@
 [
  {
-  "base": "a2da384e5577aa3c4e423c5f2535a44a94551376",
+  "base": "93183b81cb03116b75019615d148b5f788e70edf",
   "created_at": "2022-01-03T17:40:42Z",
-  "head": "9c212d8883f4c91a1cd6c6d532181f40c6d288bf",
+  "head": "169864704e4d9c766808f9400173a6e83eabdd35",
   "login": "nicolo-ribaudo",
   "number": 2606,
   "ref": "sortcompare-comparefn-param",
@@ -10,14 +10,14 @@
    {
     "adate": "2022-01-03T18:35:13+01:00",
     "author": "Nicol\u00f2 Ribaudo",
-    "date": "2022-01-03T18:43:25+01:00",
-    "hash": "9c212d8883f4c91a1cd6c6d532181f40c6d288bf",
-    "parents": "a2da384e5577aa3c4e423c5f2535a44a94551376",
-    "subject": "Explicitly pass `_comparefn_` to SortCompare"
+    "date": "2022-01-05T15:19:25-08:00",
+    "hash": "169864704e4d9c766808f9400173a6e83eabdd35",
+    "parents": "93183b81cb03116b75019615d148b5f788e70edf",
+    "subject": "Editorial: Explicitly pass `_comparefn_` to SortCompare (#2606)"
    }
   ],
   "title": "Editorial: Explicitly pass `_comparefn_` to SortCompare",
-  "updated_at": "2022-01-03T17:43:32Z"
+  "updated_at": "2022-01-05T23:21:04Z"
  },
  {
   "base": "a2da384e5577aa3c4e423c5f2535a44a94551376",
@@ -852,34 +852,6 @@
   "updated_at": "2021-10-28T13:56:18Z"
  },
  {
-  "base": "a2da384e5577aa3c4e423c5f2535a44a94551376",
-  "created_at": "2021-09-14T12:18:42Z",
-  "head": "6f6c23285fa21d9d06f763111d6f89608f912e2e",
-  "login": "mathiasbynens",
-  "number": 2515,
-  "ref": "unicode-14-property-escapes",
-  "revs": [
-   {
-    "adate": "2021-12-23T10:10:17-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-12-23T10:11:36-08:00",
-    "hash": "6f6c23285fa21d9d06f763111d6f89608f912e2e",
-    "parents": "9fb13739069ceeb29415c629f3fde88df52aacb9",
-    "subject": "Editorial: note provenance of spellings in Script Values and General Category tables"
-   },
-   {
-    "adate": "2021-09-14T14:14:22+02:00",
-    "author": "Mathias Bynens",
-    "date": "2021-09-14T14:14:22+02:00",
-    "hash": "9fb13739069ceeb29415c629f3fde88df52aacb9",
-    "parents": "b3e6dfe61966b9a0eded9c7c5bd037b01e10abf2",
-    "subject": "Normative: List new Unicode v14 `Script`/`Script_Extensions` values"
-   }
-  ],
-  "title": "Normative: List new Unicode v14 `Script`/`Script_Extensions` values",
-  "updated_at": "2021-12-23T18:13:03Z"
- },
- {
   "base": "82438c3374272607094f65dbd33c73a5db5b762c",
   "created_at": "2021-08-02T09:57:20Z",
   "head": "fb0e866461c1b5515b3b18820637b8fa6c795e48",
@@ -960,9 +932,9 @@
   "updated_at": "2021-07-25T15:08:46Z"
  },
  {
-  "base": "a2da384e5577aa3c4e423c5f2535a44a94551376",
+  "base": "93183b81cb03116b75019615d148b5f788e70edf",
   "created_at": "2021-07-20T18:55:17Z",
-  "head": "b2c38622ac150a8e53b8b0d27e13f00d0df584d9",
+  "head": "212c50f032a49b44d8cfa3be88eb77bdc2684f72",
   "login": "gibson042",
   "number": 2468,
   "ref": "2021-07-cleanup-own-prop-ops",
@@ -970,94 +942,94 @@
    {
     "adate": "2022-01-04T23:31:12-08:00",
     "author": "Jordan Harband",
-    "date": "2022-01-04T23:31:12-08:00",
-    "hash": "b2c38622ac150a8e53b8b0d27e13f00d0df584d9",
-    "parents": "dbffc5dfa8010afd26a811d72a5ea52596dca2ea",
+    "date": "2022-01-05T15:20:25-08:00",
+    "hash": "212c50f032a49b44d8cfa3be88eb77bdc2684f72",
+    "parents": "768805a1b217efd99166fed31cd19426d503ac29",
     "subject": "fixup: make three independent branches"
    },
    {
     "adate": "2021-07-30T14:48:02-04:00",
     "author": "Richard Gibson",
-    "date": "2022-01-04T23:25:15-08:00",
-    "hash": "dbffc5dfa8010afd26a811d72a5ea52596dca2ea",
-    "parents": "b330ac868b59de804f42e2b79b6ee80fa4ebb531",
+    "date": "2022-01-05T15:20:24-08:00",
+    "hash": "768805a1b217efd99166fed31cd19426d503ac29",
+    "parents": "e3426abb66ee209a09e67eca63edcf17fa853a71",
     "subject": "Editorial: Remove field name indirection"
    },
    {
     "adate": "2021-07-22T15:15:06-04:00",
     "author": "Richard Gibson",
-    "date": "2022-01-04T23:25:11-08:00",
-    "hash": "b330ac868b59de804f42e2b79b6ee80fa4ebb531",
-    "parents": "4d0f1c9e6f44808effa95d77bf4dc0c9f16aa22f",
+    "date": "2022-01-05T15:20:24-08:00",
+    "hash": "e3426abb66ee209a09e67eca63edcf17fa853a71",
+    "parents": "c4b61369cf4285dbedbbbeb66d81a9cd89026531",
     "subject": "Editorial: Rename alias"
    },
    {
     "adate": "2021-07-22T15:03:27-04:00",
     "author": "Richard Gibson",
-    "date": "2022-01-04T23:25:08-08:00",
-    "hash": "4d0f1c9e6f44808effa95d77bf4dc0c9f16aa22f",
-    "parents": "6cc171e0c21473d5e937ebcad3f410990a0f242f",
+    "date": "2022-01-05T15:20:24-08:00",
+    "hash": "c4b61369cf4285dbedbbbeb66d81a9cd89026531",
+    "parents": "f871399c16ade20b84f95e059741aa41e4ad19a6",
     "subject": "Editorial: Merge checks that effect [[Value]]/[[Data]] immutability"
    },
    {
     "adate": "2021-07-22T15:03:08-04:00",
     "author": "Richard Gibson",
-    "date": "2022-01-04T23:25:03-08:00",
-    "hash": "6cc171e0c21473d5e937ebcad3f410990a0f242f",
-    "parents": "d97af3ce9e95614114b3040b0e4ea7adea77ee13",
+    "date": "2022-01-05T15:20:24-08:00",
+    "hash": "f871399c16ade20b84f95e059741aa41e4ad19a6",
+    "parents": "a99d414b31c75aee21414125311c47b21f2b4b03",
     "subject": "Editorial: Add \"fully populated Property Descriptor\" definition and assertion"
    },
    {
     "adate": "2021-07-20T14:41:24-04:00",
     "author": "Richard Gibson",
-    "date": "2022-01-04T23:25:00-08:00",
-    "hash": "d97af3ce9e95614114b3040b0e4ea7adea77ee13",
-    "parents": "89e60a670ae1f34c08379393bab6ad416380c53a",
+    "date": "2022-01-05T15:20:24-08:00",
+    "hash": "a99d414b31c75aee21414125311c47b21f2b4b03",
+    "parents": "e1f621b96b4b9ea850f9974f8d6e8f6459829950",
     "subject": "Editorial: Further refactor ValidateAndApplyPropertyDescriptor"
    },
    {
     "adate": "2021-07-20T12:12:50-04:00",
     "author": "Richard Gibson",
-    "date": "2022-01-04T23:24:57-08:00",
-    "hash": "89e60a670ae1f34c08379393bab6ad416380c53a",
-    "parents": "d7ad8be831e6b76f1b0d906a2e92616d2eef264e",
+    "date": "2022-01-05T15:20:23-08:00",
+    "hash": "e1f621b96b4b9ea850f9974f8d6e8f6459829950",
+    "parents": "199f7ccffa9819204f8413cb4ce86216fe8e5991",
     "subject": "Editorial: Refactor ValidateAndApplyPropertyDescriptor for comprehensibility"
    },
    {
     "adate": "2021-07-19T22:37:00-04:00",
     "author": "Richard Gibson",
-    "date": "2022-01-04T23:24:53-08:00",
-    "hash": "d7ad8be831e6b76f1b0d906a2e92616d2eef264e",
-    "parents": "412f549b348845234e9f8994c4ebed39952659fa",
+    "date": "2022-01-05T15:20:23-08:00",
+    "hash": "199f7ccffa9819204f8413cb4ce86216fe8e5991",
+    "parents": "318cb6cec027924c79e01c61e2ee3f5c8ead116d",
     "subject": "Editorial: Simplify the ValidateAndApplyPropertyDescriptor new-property case"
    },
    {
     "adate": "2021-07-19T22:31:44-04:00",
     "author": "Richard Gibson",
-    "date": "2022-01-04T23:24:50-08:00",
-    "hash": "412f549b348845234e9f8994c4ebed39952659fa",
-    "parents": "3fc383f4b26014e6f84188af977872bb78897380",
+    "date": "2022-01-05T15:20:23-08:00",
+    "hash": "318cb6cec027924c79e01c61e2ee3f5c8ead116d",
+    "parents": "eb9fab828f41e75cd76eef4421dd671a94690308",
     "subject": "Editorial: Improve ValidateAndApplyPropertyDescriptor structured header"
    },
    {
     "adate": "2021-07-20T12:31:37-04:00",
     "author": "Richard Gibson",
-    "date": "2022-01-04T23:24:46-08:00",
-    "hash": "3fc383f4b26014e6f84188af977872bb78897380",
-    "parents": "3bc2c8ee7abc4f262e36822b70805cdd4b289937",
+    "date": "2022-01-05T15:20:23-08:00",
+    "hash": "eb9fab828f41e75cd76eef4421dd671a94690308",
+    "parents": "fffb7aef885c621c5ff2e99de8003aa3e62f4130",
     "subject": "Editorial: Clarify Proxy [[GetOwnProperty]]"
    },
    {
     "adate": "2021-07-19T22:29:06-04:00",
     "author": "Richard Gibson",
-    "date": "2022-01-04T23:24:44-08:00",
-    "hash": "3bc2c8ee7abc4f262e36822b70805cdd4b289937",
-    "parents": "a2da384e5577aa3c4e423c5f2535a44a94551376",
+    "date": "2022-01-05T15:20:22-08:00",
+    "hash": "fffb7aef885c621c5ff2e99de8003aa3e62f4130",
+    "parents": "93183b81cb03116b75019615d148b5f788e70edf",
     "subject": "Editorial: Merge tables in sec-property-attributes"
    }
   ],
   "title": "Cleanup ValidateAndApplyPropertyDescriptor and own prop operations",
-  "updated_at": "2022-01-05T07:31:39Z"
+  "updated_at": "2022-01-05T23:20:36Z"
  },
  {
   "base": "b3e6dfe61966b9a0eded9c7c5bd037b01e10abf2",
@@ -1482,26 +1454,6 @@
   ],
   "title": "Editorial: Factor out common `sort` functionality",
   "updated_at": "2021-08-25T02:25:47Z"
- },
- {
-  "base": "6ca50dc029e9e04b6788c6a37a02b2b67eb2580d",
-  "created_at": "2021-02-10T15:55:26Z",
-  "head": "bb18dcc6604b4186eeaede8efdf4a3b7b8529363",
-  "login": "jmdyck",
-  "number": 2302,
-  "ref": "TypedArraySortCompare",
-  "revs": [
-   {
-    "adate": "2019-07-06T17:34:14-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-07-18T10:08:21-04:00",
-    "hash": "bb18dcc6604b4186eeaede8efdf4a3b7b8529363",
-    "parents": "c8ee5189e15562b61f15c8351832b363ee522c93",
-    "subject": "Editorial: Give TypedArraySortCompare its own sub-clause"
-   }
-  ],
-  "title": "Editorial: Give TypedArraySortCompare its own sub-clause",
-  "updated_at": "2021-07-18T14:08:45Z"
  },
  {
   "base": "27d319f2778790596d1e88e380f8f96380e993ff",
