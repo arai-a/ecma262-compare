@@ -744,9 +744,9 @@
   "updated_at": "2022-01-06T01:23:44Z"
  },
  {
-  "base": "a2da384e5577aa3c4e423c5f2535a44a94551376",
+  "base": "93183b81cb03116b75019615d148b5f788e70edf",
   "created_at": "2021-10-08T00:09:44Z",
-  "head": "7c5f301dc2f0da665a3a79c0ac60509439086a03",
+  "head": "72f7102a041836875ea6d4aa4f1755cb27abec72",
   "login": "tc39",
   "number": 2547,
   "ref": "GH-1796",
@@ -754,102 +754,102 @@
    {
     "adate": "2021-12-30T18:54:20-07:00",
     "author": "Michael Ficarra",
-    "date": "2021-12-30T18:54:20-07:00",
-    "hash": "7c5f301dc2f0da665a3a79c0ac60509439086a03",
-    "parents": "10ecd474128e7da1091912204f7d097127127944",
+    "date": "2022-01-06T15:43:49-07:00",
+    "hash": "72f7102a041836875ea6d4aa4f1755cb27abec72",
+    "parents": "c048e4d14da0b19bfef66cb5dc88a9c67d351351",
     "subject": "good progress"
    },
    {
     "adate": "2021-12-29T17:47:23-07:00",
     "author": "Michael Ficarra",
-    "date": "2021-12-29T17:47:23-07:00",
-    "hash": "10ecd474128e7da1091912204f7d097127127944",
-    "parents": "2b1f0b999680b39a592baf361a2eb0701882e66e",
+    "date": "2022-01-06T15:43:49-07:00",
+    "hash": "c048e4d14da0b19bfef66cb5dc88a9c67d351351",
+    "parents": "87c4493fee29a0522afef3d4551c97a9b98ed302",
     "subject": "more stuff"
    },
    {
     "adate": "2021-12-29T17:16:14-07:00",
     "author": "Michael Ficarra",
-    "date": "2021-12-29T17:16:14-07:00",
-    "hash": "2b1f0b999680b39a592baf361a2eb0701882e66e",
-    "parents": "bbc3c4b0a2b3cc737a35803fe8fa5241e1e1c3ef",
+    "date": "2022-01-06T15:43:49-07:00",
+    "hash": "87c4493fee29a0522afef3d4551c97a9b98ed302",
+    "parents": "d3cebf44fa17641a1dbae2a061fe7ad34971ccfc",
     "subject": "more return types"
    },
    {
     "adate": "2021-10-08T17:26:27-06:00",
     "author": "Michael Ficarra",
-    "date": "2021-12-22T14:50:49-07:00",
-    "hash": "bbc3c4b0a2b3cc737a35803fe8fa5241e1e1c3ef",
-    "parents": "c27f76e26ac3cf5e243a2203346ed35113d10558",
+    "date": "2022-01-06T15:43:49-07:00",
+    "hash": "d3cebf44fa17641a1dbae2a061fe7ad34971ccfc",
+    "parents": "773fb732dbe546601f6a3951473296d09a6e8237",
     "subject": "more return types"
    },
    {
     "adate": "2021-10-07T18:02:07-06:00",
     "author": "Michael Ficarra",
-    "date": "2021-12-22T14:50:48-07:00",
-    "hash": "c27f76e26ac3cf5e243a2203346ed35113d10558",
-    "parents": "abc01aac946181b8406f56bf79bc9304ed9266cd",
+    "date": "2022-01-06T15:43:49-07:00",
+    "hash": "773fb732dbe546601f6a3951473296d09a6e8237",
+    "parents": "bb860043e06455e72b60886e34b6b212189651ba",
     "subject": "ApplyStringOrNumericBinaryOperator"
    },
    {
     "adate": "2021-10-07T17:17:01-06:00",
     "author": "Michael Ficarra",
-    "date": "2021-12-22T14:50:48-07:00",
-    "hash": "abc01aac946181b8406f56bf79bc9304ed9266cd",
-    "parents": "fcce029cd6f2eab0b84c896e95d36e820c087cd8",
+    "date": "2022-01-06T15:43:49-07:00",
+    "hash": "bb860043e06455e72b60886e34b6b212189651ba",
+    "parents": "dba0f4b92342ebfbddd0f1ecfcb555fb247f9152",
     "subject": "table 2"
    },
    {
     "adate": "2021-09-20T18:46:26-06:00",
     "author": "Michael Ficarra",
-    "date": "2021-12-22T14:50:48-07:00",
-    "hash": "fcce029cd6f2eab0b84c896e95d36e820c087cd8",
-    "parents": "b92f8a6d127d0099d1681597476ba5e574477a1a",
+    "date": "2022-01-06T15:43:49-07:00",
+    "hash": "dba0f4b92342ebfbddd0f1ecfcb555fb247f9152",
+    "parents": "32b4fe0b1d3a16342ecf1a975135fb8087826203",
     "subject": "more return types"
    },
    {
     "adate": "2021-09-20T18:45:06-06:00",
     "author": "Michael Ficarra",
-    "date": "2021-12-22T14:50:48-07:00",
-    "hash": "b92f8a6d127d0099d1681597476ba5e574477a1a",
-    "parents": "6d2c59e963d93d29970d24495524cd1fee5a8bda",
+    "date": "2022-01-06T15:43:49-07:00",
+    "hash": "32b4fe0b1d3a16342ecf1a975135fb8087826203",
+    "parents": "d21913ffcb7df8d8afc68fb8e64bd48f8eb5e7a2",
     "subject": "no implicit returns"
    },
    {
     "adate": "2021-09-16T19:07:53-06:00",
     "author": "Michael Ficarra",
-    "date": "2021-12-22T14:50:47-07:00",
-    "hash": "6d2c59e963d93d29970d24495524cd1fee5a8bda",
-    "parents": "f67a880bf8a0ffb4ed8838fa0e0ea69f047a962f",
+    "date": "2022-01-06T15:43:49-07:00",
+    "hash": "d21913ffcb7df8d8afc68fb8e64bd48f8eb5e7a2",
+    "parents": "8563178fdd697c1f608182d7e7e81c4e3603fe61",
     "subject": "add some return types"
    },
    {
     "adate": "2021-09-16T16:05:41-06:00",
     "author": "Michael Ficarra",
-    "date": "2021-12-22T14:50:47-07:00",
-    "hash": "f67a880bf8a0ffb4ed8838fa0e0ea69f047a962f",
-    "parents": "290f66406fd68d462b6fe87477b2aa05b2a0e2a8",
+    "date": "2022-01-06T15:43:49-07:00",
+    "hash": "8563178fdd697c1f608182d7e7e81c4e3603fe61",
+    "parents": "500cbd68d3394a0365cc72b0ab6d6d6f015e86b7",
     "subject": "update ecmarkup"
    },
    {
     "adate": "2021-09-15T14:33:27-06:00",
     "author": "Michael Ficarra",
-    "date": "2021-12-22T14:50:47-07:00",
-    "hash": "290f66406fd68d462b6fe87477b2aa05b2a0e2a8",
-    "parents": "426785768bcdfb3a95b4524a83af64811c9aa9fc",
+    "date": "2022-01-06T15:43:49-07:00",
+    "hash": "500cbd68d3394a0365cc72b0ab6d6d6f015e86b7",
+    "parents": "500157a8a0d04d27f50449a80706d16bad2cfa79",
     "subject": "remove the provision for treating normal completions as their [[Value]]"
    },
    {
     "adate": "2021-09-15T14:31:38-06:00",
     "author": "Michael Ficarra",
-    "date": "2021-12-22T14:50:47-07:00",
-    "hash": "426785768bcdfb3a95b4524a83af64811c9aa9fc",
-    "parents": "a2da384e5577aa3c4e423c5f2535a44a94551376",
+    "date": "2022-01-06T15:43:49-07:00",
+    "hash": "500157a8a0d04d27f50449a80706d16bad2cfa79",
+    "parents": "93183b81cb03116b75019615d148b5f788e70edf",
     "subject": "remove the provision for implicit wrapping in normal completion"
    }
   ],
   "title": "Editorial: remove implicit wrapping/unwrapping of completion records",
-  "updated_at": "2021-12-31T01:54:34Z"
+  "updated_at": "2022-01-06T22:43:58Z"
  },
  {
   "base": "267fdbdc716677bc9934906a498cf9bad4bfb70d",
