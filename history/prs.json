@@ -296,9 +296,9 @@
   "updated_at": "2021-12-09T23:49:35Z"
  },
  {
-  "base": "c5f683e61d5dce703650f1c90d2309c46f8c157a",
+  "base": "2d612452d1115cbdd21b9a607aab6c9408552734",
   "created_at": "2021-11-29T02:09:26Z",
-  "head": "1c01a56a0d4c8558e35954cada209e2255e77b6a",
+  "head": "22c324ab964c1c5a6c44da5fd63690f590bb5b46",
   "login": "jmdyck",
   "number": 2592,
   "ref": "intrinsics_prose",
@@ -306,150 +306,150 @@
    {
     "adate": "2021-11-28T11:00:36-05:00",
     "author": "Michael Dyck",
-    "date": "2021-11-28T17:28:07-05:00",
-    "hash": "1c01a56a0d4c8558e35954cada209e2255e77b6a",
-    "parents": "b5175d26dd341dbc6137581b1f1718986331280f",
+    "date": "2022-01-10T17:11:37-05:00",
+    "hash": "22c324ab964c1c5a6c44da5fd63690f590bb5b46",
+    "parents": "45bf0f6c48494a5aec4aaf056077dfa2a3b63308",
     "subject": "Intrinsic functions: Eliminate some occurrences of \"is used to\""
    },
    {
     "adate": "2021-11-28T10:35:11-05:00",
     "author": "Michael Dyck",
-    "date": "2021-11-28T17:25:14-05:00",
-    "hash": "b5175d26dd341dbc6137581b1f1718986331280f",
-    "parents": "d001c963c2ee56d3ffb5303fc1ed67924f2cb8b4",
+    "date": "2022-01-10T17:11:37-05:00",
+    "hash": "45bf0f6c48494a5aec4aaf056077dfa2a3b63308",
+    "parents": "699c803e6c2f6c4953b9a56acde9e7826130b876",
     "subject": "Intrinsic functions: Convert passive to active in preambles"
    },
    {
     "adate": "2021-11-27T23:11:34-05:00",
     "author": "Michael Dyck",
-    "date": "2021-11-28T17:00:54-05:00",
-    "hash": "d001c963c2ee56d3ffb5303fc1ed67924f2cb8b4",
-    "parents": "32afae0832234f4710c3564b552a44be3f5eb06b",
+    "date": "2022-01-10T17:11:37-05:00",
+    "hash": "699c803e6c2f6c4953b9a56acde9e7826130b876",
+    "parents": "d3bb5afdc429f6a2949faad3c6b3e6e8afb2b429",
     "subject": "Intrinsic functions: Consistify how a function's defining clause refers to it"
    },
    {
     "adate": "2021-11-26T14:46:57-05:00",
     "author": "Michael Dyck",
-    "date": "2021-11-28T16:44:53-05:00",
-    "hash": "32afae0832234f4710c3564b552a44be3f5eb06b",
-    "parents": "aa8e6ba6a8281948cc2da81159ec8f9d9f9f5344",
+    "date": "2022-01-10T17:08:31-05:00",
+    "hash": "d3bb5afdc429f6a2949faad3c6b3e6e8afb2b429",
+    "parents": "1525b0b828d4fe2ac8fd44fa531876f6bf6b2877",
     "subject": "Intrinsic functions: Don't elide the subject"
    },
    {
     "adate": "2021-11-25T14:52:47-05:00",
     "author": "Michael Dyck",
-    "date": "2021-11-28T16:39:06-05:00",
-    "hash": "aa8e6ba6a8281948cc2da81159ec8f9d9f9f5344",
-    "parents": "c5b9e471451a54c2f6699598bbe9190303f000c9",
+    "date": "2022-01-10T16:50:24-05:00",
+    "hash": "1525b0b828d4fe2ac8fd44fa531876f6bf6b2877",
+    "parents": "525030ae8ea2bbcd31eb941c287af2c19edd2f0c",
     "subject": "Intrinsic functions: Elimininate \"When\""
    },
    {
     "adate": "2021-11-25T14:21:52-05:00",
     "author": "Michael Dyck",
-    "date": "2021-11-28T16:39:05-05:00",
-    "hash": "c5b9e471451a54c2f6699598bbe9190303f000c9",
-    "parents": "f794a95c31486a59fdedfc81b56f0b9b49f65eb4",
+    "date": "2022-01-10T16:50:24-05:00",
+    "hash": "525030ae8ea2bbcd31eb941c287af2c19edd2f0c",
+    "parents": "7147eefe60d945aeb5170df2ae8a7633ed745f6d",
     "subject": "Intrinsic functions: Consistify the \"following steps\" phrasing (5)"
    },
    {
     "adate": "2021-11-25T13:07:23-05:00",
     "author": "Michael Dyck",
-    "date": "2021-11-28T16:39:05-05:00",
-    "hash": "f794a95c31486a59fdedfc81b56f0b9b49f65eb4",
-    "parents": "57dc1e4afa3dd3a69277b3ccda6ea1dd5c18ff73",
+    "date": "2022-01-10T16:50:24-05:00",
+    "hash": "7147eefe60d945aeb5170df2ae8a7633ed745f6d",
+    "parents": "652837e4f71d1b774d8f4510c8a052e41aeefc2e",
     "subject": "Intrinsic functions: Consistify the \"following steps\" phrasing (4)"
    },
    {
     "adate": "2021-11-25T12:52:17-05:00",
     "author": "Michael Dyck",
-    "date": "2021-11-28T16:39:05-05:00",
-    "hash": "57dc1e4afa3dd3a69277b3ccda6ea1dd5c18ff73",
-    "parents": "a4172ef0c09c48ea24d4d1bf9b6dd1f2397f96e8",
+    "date": "2022-01-10T16:50:24-05:00",
+    "hash": "652837e4f71d1b774d8f4510c8a052e41aeefc2e",
+    "parents": "b175ab4c984c6a5bdb160ba625fe8caf9a51c346",
     "subject": "Intrinsic functions: Consistify the \"following steps\" phrasing (3)"
    },
    {
     "adate": "2021-11-25T09:20:11-05:00",
     "author": "Michael Dyck",
-    "date": "2021-11-28T16:39:05-05:00",
-    "hash": "a4172ef0c09c48ea24d4d1bf9b6dd1f2397f96e8",
-    "parents": "b2a2feca6e71255e4fb40f78621b7ccaf7d4f9b4",
+    "date": "2022-01-10T16:50:24-05:00",
+    "hash": "b175ab4c984c6a5bdb160ba625fe8caf9a51c346",
+    "parents": "c880f325b56c278549615210daa9c9ec69e97ad0",
     "subject": "Intrinsic functions: Consistify the \"following steps\" phrasing (2)"
    },
    {
     "adate": "2021-11-25T09:13:54-05:00",
     "author": "Michael Dyck",
-    "date": "2021-11-28T16:39:05-05:00",
-    "hash": "b2a2feca6e71255e4fb40f78621b7ccaf7d4f9b4",
-    "parents": "f2f3d3e35bc1d65beee1ea58d972010adf323913",
+    "date": "2022-01-10T16:50:24-05:00",
+    "hash": "c880f325b56c278549615210daa9c9ec69e97ad0",
+    "parents": "954db68dc5c265314401777566894eff5b7330f6",
     "subject": "Intrinsic functions: Consistify the \"following steps\" phrasing (1)"
    },
    {
     "adate": "2021-11-24T15:06:36-05:00",
     "author": "Michael Dyck",
-    "date": "2021-11-28T16:39:05-05:00",
-    "hash": "f2f3d3e35bc1d65beee1ea58d972010adf323913",
-    "parents": "b9ac439a978d8847ac48794d9e12fd2ef9438c30",
+    "date": "2022-01-10T16:50:23-05:00",
+    "hash": "954db68dc5c265314401777566894eff5b7330f6",
+    "parents": "55abac7f50ec9c223046e7867b17fcbfcf57d34f",
     "subject": "Intrinsic functions: Don't repeat the parameter list in the preamble (2)"
    },
    {
     "adate": "2021-11-24T15:22:11-05:00",
     "author": "Michael Dyck",
-    "date": "2021-11-28T16:39:05-05:00",
-    "hash": "b9ac439a978d8847ac48794d9e12fd2ef9438c30",
-    "parents": "7a83a49073004ad16ecd11cd68bb7d34533aa3fe",
+    "date": "2022-01-10T16:50:23-05:00",
+    "hash": "55abac7f50ec9c223046e7867b17fcbfcf57d34f",
+    "parents": "dfd6e8843b818b98d3db4c18a50befc4d9d19c36",
     "subject": "Intrinsic functions: Don't repeat the parameter list in the preamble (1)"
    },
    {
     "adate": "2021-11-25T23:55:23-05:00",
     "author": "Michael Dyck",
-    "date": "2021-11-28T16:39:05-05:00",
-    "hash": "7a83a49073004ad16ecd11cd68bb7d34533aa3fe",
-    "parents": "72b6b7edc929c25ead035d47aa95933d1607be2e",
+    "date": "2022-01-10T16:50:23-05:00",
+    "hash": "dfd6e8843b818b98d3db4c18a50befc4d9d19c36",
+    "parents": "bace7172e73758ad28b817fe88be7c234042f75f",
     "subject": "Editorial: Change \"function\" to \"method\" in several spots"
    },
    {
     "adate": "2021-11-25T23:09:24-05:00",
     "author": "Michael Dyck",
-    "date": "2021-11-28T16:39:05-05:00",
-    "hash": "72b6b7edc929c25ead035d47aa95933d1607be2e",
-    "parents": "665060f02577295b687a5bc453b3dd7dd1842b8b",
+    "date": "2022-01-10T16:50:23-05:00",
+    "hash": "bace7172e73758ad28b817fe88be7c234042f75f",
+    "parents": "562ecb938c924804df435f7b27446f328d89ceab",
     "subject": "Editorial: Change \"method\" to \"function\" in several spots"
    },
    {
     "adate": "2021-11-25T09:46:50-05:00",
     "author": "Michael Dyck",
-    "date": "2021-11-28T16:38:50-05:00",
-    "hash": "665060f02577295b687a5bc453b3dd7dd1842b8b",
-    "parents": "d8e21b645582e1275ff5936c361efa0284175118",
+    "date": "2022-01-10T16:50:23-05:00",
+    "hash": "562ecb938c924804df435f7b27446f328d89ceab",
+    "parents": "d24ae7faccb093db35c2a2da2eb2a9f9d3289bf9",
     "subject": "Editorial: Convert imperative to indicative in preambles"
    },
    {
     "adate": "2021-11-25T09:06:00-05:00",
     "author": "Michael Dyck",
-    "date": "2021-11-26T16:45:07-05:00",
-    "hash": "d8e21b645582e1275ff5936c361efa0284175118",
-    "parents": "fef6d20efcaa80497a8a5f91dbfac9312a571777",
+    "date": "2022-01-10T16:50:23-05:00",
+    "hash": "d24ae7faccb093db35c2a2da2eb2a9f9d3289bf9",
+    "parents": "80d92f5bc213cb85852f7d476fcce6afecd5ce23",
     "subject": "Editorial: Fix repetition in preamble"
    },
    {
     "adate": "2021-11-24T21:37:31-05:00",
     "author": "Michael Dyck",
-    "date": "2021-11-26T16:45:07-05:00",
-    "hash": "fef6d20efcaa80497a8a5f91dbfac9312a571777",
-    "parents": "802fc2def752fab6594cfc8301e603eb79c10fdf",
+    "date": "2022-01-10T16:50:23-05:00",
+    "hash": "80d92f5bc213cb85852f7d476fcce6afecd5ce23",
+    "parents": "b1dc5d96151ff312ed9184812c22ebd08cb4cf72",
     "subject": "Editorial: Delete \"of an object _F_\" in preamble"
    },
    {
     "adate": "2021-11-26T16:42:09-05:00",
     "author": "Michael Dyck",
-    "date": "2021-11-26T16:42:09-05:00",
-    "hash": "802fc2def752fab6594cfc8301e603eb79c10fdf",
-    "parents": "e06c80c2c83888aac8497b463e9f269886637570",
+    "date": "2022-01-10T16:50:22-05:00",
+    "hash": "b1dc5d96151ff312ed9184812c22ebd08cb4cf72",
+    "parents": "2d612452d1115cbdd21b9a607aab6c9408552734",
     "subject": "Editorial: Rearrange %TypedArray%.prototype.set's preamble."
    }
   ],
   "title": "Editorial: Consistify prose for intrinsic functions ",
-  "updated_at": "2021-11-29T02:28:11Z"
+  "updated_at": "2022-01-10T22:20:01Z"
  },
  {
   "base": "c5f683e61d5dce703650f1c90d2309c46f8c157a",
