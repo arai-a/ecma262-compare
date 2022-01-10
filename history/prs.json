@@ -744,13 +744,21 @@
   "updated_at": "2021-10-28T13:56:18Z"
  },
  {
-  "base": "82438c3374272607094f65dbd33c73a5db5b762c",
+  "base": "2d612452d1115cbdd21b9a607aab6c9408552734",
   "created_at": "2021-08-02T09:57:20Z",
-  "head": "fb0e866461c1b5515b3b18820637b8fa6c795e48",
+  "head": "8cbba9e1c41d390d53a484fce9985a06a9d990ed",
   "login": "Kingwl",
   "number": 2476,
   "ref": "add_proposal_array_find_from_last",
   "revs": [
+   {
+    "adate": "2022-01-10T20:19:28+08:00",
+    "author": "Wenlu Wang",
+    "date": "2022-01-10T20:19:28+08:00",
+    "hash": "8cbba9e1c41d390d53a484fce9985a06a9d990ed",
+    "parents": "fb0e866461c1b5515b3b18820637b8fa6c795e48 2d612452d1115cbdd21b9a607aab6c9408552734",
+    "subject": "Merge branch 'main' into add_proposal_array_find_from_last"
+   },
    {
     "adate": "2021-10-17T14:41:02+08:00",
     "author": "Wenlu Wang",
@@ -777,7 +785,7 @@
    }
   ],
   "title": "Normative: Add array-find-from-last",
-  "updated_at": "2021-10-17T06:41:06Z"
+  "updated_at": "2022-01-10T12:19:32Z"
  },
  {
   "base": "e7610a874f390aca90d8c059a95eb38e375a156c",
