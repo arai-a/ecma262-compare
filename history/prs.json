@@ -1,5 +1,25 @@
 [
  {
+  "base": "f0c051bfe544c7b42b357c7a4a0af197bff1e8c9",
+  "created_at": "2022-01-12T06:41:27Z",
+  "head": "382a8dc1fce120e3b50e4a24708c6d5ed013794c",
+  "login": "p51lee",
+  "number": 2619,
+  "ref": "main",
+  "revs": [
+   {
+    "adate": "2022-01-12T15:31:17+09:00",
+    "author": "jhnaldo",
+    "date": "2022-01-12T15:31:17+09:00",
+    "hash": "382a8dc1fce120e3b50e4a24708c6d5ed013794c",
+    "parents": "f0c051bfe544c7b42b357c7a4a0af197bff1e8c9",
+    "subject": "Markup: add `sdo` types to `emu-clause` in missing parts"
+   }
+  ],
+  "title": "Markup: add `sdo` types to `emu-clause` in missing parts",
+  "updated_at": "2022-01-12T06:41:27Z"
+ },
+ {
   "base": "2d612452d1115cbdd21b9a607aab6c9408552734",
   "created_at": "2022-01-11T04:54:57Z",
   "head": "db788375c4ca8737317bc5213910719bc18b16cf",
