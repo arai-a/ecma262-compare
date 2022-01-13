@@ -40,13 +40,21 @@
   "updated_at": "2022-01-12T23:40:26Z"
  },
  {
-  "base": "f0c051bfe544c7b42b357c7a4a0af197bff1e8c9",
+  "base": "b9efa97280875bb8698f4a70586a408018ea87f9",
   "created_at": "2022-01-12T06:41:27Z",
-  "head": "382a8dc1fce120e3b50e4a24708c6d5ed013794c",
+  "head": "41687a5947f5ed444385af6f3db48e1f0f96e295",
   "login": "p51lee",
   "number": 2619,
   "ref": "main",
   "revs": [
+   {
+    "adate": "2022-01-13T15:10:59+09:00",
+    "author": "Jihyeok Park",
+    "date": "2022-01-13T15:10:59+09:00",
+    "hash": "41687a5947f5ed444385af6f3db48e1f0f96e295",
+    "parents": "382a8dc1fce120e3b50e4a24708c6d5ed013794c b9efa97280875bb8698f4a70586a408018ea87f9",
+    "subject": "Merge branch 'main' into main"
+   },
    {
     "adate": "2022-01-12T15:31:17+09:00",
     "author": "jhnaldo",
@@ -57,7 +65,7 @@
    }
   ],
   "title": "Markup: add `sdo` types to `emu-clause` in missing parts",
-  "updated_at": "2022-01-12T06:41:27Z"
+  "updated_at": "2022-01-13T06:11:00Z"
  },
  {
   "base": "2d612452d1115cbdd21b9a607aab6c9408552734",
