@@ -226,11 +226,19 @@
  {
   "base": "c5f683e61d5dce703650f1c90d2309c46f8c157a",
   "created_at": "2021-12-01T14:48:43Z",
-  "head": "91607863551f3656c3f15b1a3c6312f7316a561e",
+  "head": "b389e09f96e48f58b3cc74d95d54a3683cfa7767",
   "login": "gibson042",
   "number": 2594,
   "ref": "2021-12-external-spec-values",
   "revs": [
+   {
+    "adate": "2022-01-13T16:30:33-05:00",
+    "author": "Richard Gibson",
+    "date": "2022-01-13T16:30:33-05:00",
+    "hash": "b389e09f96e48f58b3cc74d95d54a3683cfa7767",
+    "parents": "91607863551f3656c3f15b1a3c6312f7316a561e",
+    "subject": "Editorial: Fix UCD file name"
+   },
    {
     "adate": "2021-12-09T18:48:59-05:00",
     "author": "Richard Gibson",
@@ -248,8 +256,8 @@
     "subject": "Editorial: Treat values from other specifications as internal values"
    }
   ],
-  "title": "Editorial: Treat values from other specifications as internal values",
-  "updated_at": "2021-12-09T23:49:35Z"
+  "title": "Editorial: Consistently represent values from other specifications",
+  "updated_at": "2022-01-13T21:30:40Z"
  },
  {
   "base": "2d612452d1115cbdd21b9a607aab6c9408552734",
