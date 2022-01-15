@@ -1878,11 +1878,27 @@
  {
   "base": "d9ab5c0c04d7f6edfa6c0932adccc92189e67d1a",
   "created_at": "2019-10-01T16:29:45Z",
-  "head": "d7ba59b53e778123bfda55f247feab75171f2ba6",
+  "head": "dadf196088fa270314b833c9401d1e67102661f1",
   "login": "rbuckton",
   "number": 1713,
   "ref": "regexp-match-indices",
   "revs": [
+   {
+    "adate": "2022-01-14T17:57:12-08:00",
+    "author": "Ron Buckton",
+    "date": "2022-01-14T18:02:33-08:00",
+    "hash": "dadf196088fa270314b833c9401d1e67102661f1",
+    "parents": "6a936955d73a3e6054239717bc08b91b94073a01",
+    "subject": "PR feedback and move Input derivation out of CompilePattern"
+   },
+   {
+    "adate": "2022-01-14T12:53:52-08:00",
+    "author": "Ron Buckton",
+    "date": "2022-01-14T12:53:52-08:00",
+    "hash": "6a936955d73a3e6054239717bc08b91b94073a01",
+    "parents": "d7ba59b53e778123bfda55f247feab75171f2ba6",
+    "subject": "Switch hasIndices to use RegExpHasFlag"
+   },
    {
     "adate": "2022-01-13T17:51:21-08:00",
     "author": "Ron Buckton",
@@ -2029,7 +2045,7 @@
    }
   ],
   "title": "Normative: add RegExp Match Indices",
-  "updated_at": "2022-01-14T01:51:31Z"
+  "updated_at": "2022-01-15T02:02:46Z"
  },
  {
   "base": "8e65afde3815b155527e98de3fabeb3ce7d54074",
