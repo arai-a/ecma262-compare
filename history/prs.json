@@ -1,6 +1,26 @@
 [
  {
   "base": "d9ab5c0c04d7f6edfa6c0932adccc92189e67d1a",
+  "created_at": "2022-01-16T04:43:27Z",
+  "head": "3f2aa08814033a0c7676a24a22604f795bcaa542",
+  "login": "jmdyck",
+  "number": 2625,
+  "ref": "NcapturingParens",
+  "revs": [
+   {
+    "adate": "2022-01-15T23:30:16-05:00",
+    "author": "Michael Dyck",
+    "date": "2022-01-15T23:30:16-05:00",
+    "hash": "3f2aa08814033a0c7676a24a22604f795bcaa542",
+    "parents": "d9ab5c0c04d7f6edfa6c0932adccc92189e67d1a",
+    "subject": "Editorial: Eliminate `_NcapturingParens_` from Early Error rules + grammar"
+   }
+  ],
+  "title": "Editorial: Eliminate `_NcapturingParens_` from Early Error rules + grammar",
+  "updated_at": "2022-01-16T04:49:05Z"
+ },
+ {
+  "base": "d9ab5c0c04d7f6edfa6c0932adccc92189e67d1a",
   "created_at": "2022-01-14T01:41:14Z",
   "head": "d2d980427af926c708c7bf738b97cd3c4231420b",
   "login": "jmdyck",
