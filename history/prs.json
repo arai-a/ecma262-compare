@@ -22,11 +22,19 @@
  {
   "base": "d9ab5c0c04d7f6edfa6c0932adccc92189e67d1a",
   "created_at": "2022-01-16T16:27:57Z",
-  "head": "f168c8aaf0afcf9ad4fec76c4360985955e6dd03",
+  "head": "9f7ead6397ba036d4d3c238772a976985b5f9a63",
   "login": "Rahmon",
   "number": 2626,
   "ref": "chore/consistent-wording-for-sdo-application-with-arguments-issue-2616",
   "revs": [
+   {
+    "adate": "2022-01-17T07:40:09-03:00",
+    "author": "Ramon",
+    "date": "2022-01-17T07:40:09-03:00",
+    "hash": "9f7ead6397ba036d4d3c238772a976985b5f9a63",
+    "parents": "f168c8aaf0afcf9ad4fec76c4360985955e6dd03",
+    "subject": "Replace 'using' for 'with'"
+   },
    {
     "adate": "2022-01-16T13:23:31-03:00",
     "author": "Ramon",
@@ -45,7 +53,7 @@
    }
   ],
   "title": "Editorial: Use consistent wording for SDO application with argument(s) ",
-  "updated_at": "2022-01-16T16:58:05Z"
+  "updated_at": "2022-01-17T10:41:14Z"
  },
  {
   "base": "d9ab5c0c04d7f6edfa6c0932adccc92189e67d1a",
