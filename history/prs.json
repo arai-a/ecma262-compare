@@ -1,5 +1,25 @@
 [
  {
+  "base": "41dac9e2ddf1c4f58ff8f02bb015ea0564eda42a",
+  "created_at": "2022-01-19T22:54:35Z",
+  "head": "e3a36b4b9e39602a48f3faf92e897bb3ef95e415",
+  "login": "tc39",
+  "number": 2629,
+  "ref": "bump-ecmarkup",
+  "revs": [
+   {
+    "adate": "2022-01-19T14:52:40-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2022-01-19T14:52:40-08:00",
+    "hash": "e3a36b4b9e39602a48f3faf92e897bb3ef95e415",
+    "parents": "41dac9e2ddf1c4f58ff8f02bb015ea0564eda42a",
+    "subject": "Meta: bump ecmarkup to 9.8.0"
+   }
+  ],
+  "title": "Meta: bump ecmarkup to 9.8.0",
+  "updated_at": "2022-01-19T22:55:19Z"
+ },
+ {
   "base": "d9ab5c0c04d7f6edfa6c0932adccc92189e67d1a",
   "created_at": "2022-01-17T05:41:01Z",
   "head": "0456a5ed44b0189731a046458d33726669b12ff5",
@@ -342,50 +362,6 @@
   ],
   "title": "Normative: Close sync iterator when async wrapper yields rejection",
   "updated_at": "2021-12-21T18:56:20Z"
- },
- {
-  "base": "d9ab5c0c04d7f6edfa6c0932adccc92189e67d1a",
-  "created_at": "2021-12-01T14:48:43Z",
-  "head": "4c8e33f4481cbdfc71616fa0525c454f7c19f98a",
-  "login": "gibson042",
-  "number": 2594,
-  "ref": "2021-12-external-spec-values",
-  "revs": [
-   {
-    "adate": "2022-01-19T16:14:08-05:00",
-    "author": "Richard Gibson",
-    "date": "2022-01-19T16:14:08-05:00",
-    "hash": "4c8e33f4481cbdfc71616fa0525c454f7c19f98a",
-    "parents": "db15bb2cc24217cd413e94a77bcd7a19237deda7",
-    "subject": "Editorial: Add links to Unicode Character Database files"
-   },
-   {
-    "adate": "2022-01-13T16:30:33-05:00",
-    "author": "Richard Gibson",
-    "date": "2022-01-19T16:08:36-05:00",
-    "hash": "db15bb2cc24217cd413e94a77bcd7a19237deda7",
-    "parents": "2e4235968d142bb51076ec4d8eb97176a302e4f8",
-    "subject": "Editorial: Fix UCD file name"
-   },
-   {
-    "adate": "2021-12-09T18:48:59-05:00",
-    "author": "Richard Gibson",
-    "date": "2022-01-19T16:08:36-05:00",
-    "hash": "2e4235968d142bb51076ec4d8eb97176a302e4f8",
-    "parents": "051bd4609ddbebcb19b44ac7c3c59c550e66d4c5",
-    "subject": "Editorial: Use <code> for values from other specifications"
-   },
-   {
-    "adate": "2021-12-01T09:47:12-05:00",
-    "author": "Richard Gibson",
-    "date": "2022-01-19T16:08:36-05:00",
-    "hash": "051bd4609ddbebcb19b44ac7c3c59c550e66d4c5",
-    "parents": "d9ab5c0c04d7f6edfa6c0932adccc92189e67d1a",
-    "subject": "Editorial: Treat values from other specifications as internal values"
-   }
-  ],
-  "title": "Editorial: Consistently represent values from other specifications",
-  "updated_at": "2022-01-19T21:17:42Z"
  },
  {
   "base": "2d612452d1115cbdd21b9a607aab6c9408552734",
