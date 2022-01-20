@@ -96,9 +96,9 @@
   "updated_at": "2022-01-16T04:49:05Z"
  },
  {
-  "base": "d9ab5c0c04d7f6edfa6c0932adccc92189e67d1a",
+  "base": "41dac9e2ddf1c4f58ff8f02bb015ea0564eda42a",
   "created_at": "2022-01-14T01:41:14Z",
-  "head": "d2d980427af926c708c7bf738b97cd3c4231420b",
+  "head": "45bb26f09cce9e00a2bc0623cd5b7a13773c3e8f",
   "login": "jmdyck",
   "number": 2624,
   "ref": "is_absent",
@@ -106,26 +106,34 @@
    {
     "adate": "2022-01-13T20:14:49-05:00",
     "author": "Michael Dyck",
-    "date": "2022-01-13T20:34:09-05:00",
-    "hash": "d2d980427af926c708c7bf738b97cd3c4231420b",
-    "parents": "0207841c5372ad44bb8827603ed6a9f5242bd580",
+    "date": "2022-01-19T20:54:31-05:00",
+    "hash": "45bb26f09cce9e00a2bc0623cd5b7a13773c3e8f",
+    "parents": "4a29fe46d848a4816eda28fcecfd45681d74b0d1",
     "subject": "Editorial: Simplify IsFooDescriptor ops"
    },
    {
     "adate": "2022-01-13T20:00:00-05:00",
     "author": "Michael Dyck",
-    "date": "2022-01-13T20:34:09-05:00",
-    "hash": "0207841c5372ad44bb8827603ed6a9f5242bd580",
-    "parents": "5c7c27fe615ea4a3c74585e0d1a89f692bd8830c",
+    "date": "2022-01-19T20:54:31-05:00",
+    "hash": "4a29fe46d848a4816eda28fcecfd45681d74b0d1",
+    "parents": "e541e21ee1ae5da1100cf22026e68a3a69a884d9",
     "subject": "Editorial: Eliminate \"present\" or \"absent\" fields"
+   },
+   {
+    "adate": "2022-01-19T20:53:54-05:00",
+    "author": "Michael Dyck",
+    "date": "2022-01-19T20:53:54-05:00",
+    "hash": "e541e21ee1ae5da1100cf22026e68a3a69a884d9",
+    "parents": "0cd53f1fba2990312adea57927174b6879fb797c",
+    "subject": "fixup: \"otherwise to X\" -> \"and to X otherwise\""
    },
    {
     "adate": "2022-01-13T19:36:02-05:00",
     "author": "Michael Dyck",
-    "date": "2022-01-13T20:34:08-05:00",
-    "hash": "5c7c27fe615ea4a3c74585e0d1a89f692bd8830c",
+    "date": "2022-01-19T20:15:29-05:00",
+    "hash": "0cd53f1fba2990312adea57927174b6879fb797c",
     "parents": "231d96fc38e05b53472967d7ba4b490a0acbe736",
-    "subject": "Editorial: Factor out \"set by _Desc_ or default\""
+    "subject": "Editorial: Use consistent phrasing in ValidateAndApplyPropertyDescriptor"
    },
    {
     "adate": "2022-01-13T19:54:32-05:00",
@@ -137,7 +145,7 @@
    }
   ],
   "title": "Editorial: Eliminate \"present\" and \"absent\" fields",
-  "updated_at": "2022-01-14T01:41:14Z"
+  "updated_at": "2022-01-20T01:58:29Z"
  },
  {
   "base": "d9ab5c0c04d7f6edfa6c0932adccc92189e67d1a",
@@ -698,11 +706,19 @@
  {
   "base": "d9ab5c0c04d7f6edfa6c0932adccc92189e67d1a",
   "created_at": "2021-10-08T00:09:44Z",
-  "head": "21f82eb53deaa4d67dfdb9063f988dfd5f856108",
+  "head": "5dac806123c94afd649485ba2017e3a80ff6b5e8",
   "login": "tc39",
   "number": 2547,
   "ref": "GH-1796",
   "revs": [
+   {
+    "adate": "2022-01-19T18:28:32-07:00",
+    "author": "Michael Ficarra",
+    "date": "2022-01-19T18:28:32-07:00",
+    "hash": "5dac806123c94afd649485ba2017e3a80ff6b5e8",
+    "parents": "21f82eb53deaa4d67dfdb9063f988dfd5f856108",
+    "subject": "more return types"
+   },
    {
     "adate": "2022-01-11T19:49:23-07:00",
     "author": "Michael Ficarra",
@@ -833,7 +849,7 @@
    }
   ],
   "title": "Editorial: remove implicit wrapping/unwrapping of completion records",
-  "updated_at": "2022-01-19T20:38:53Z"
+  "updated_at": "2022-01-20T01:28:43Z"
  },
  {
   "base": "267fdbdc716677bc9934906a498cf9bad4bfb70d",
