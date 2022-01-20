@@ -1,81 +1,5 @@
 [
  {
-  "base": "41dac9e2ddf1c4f58ff8f02bb015ea0564eda42a",
-  "created_at": "2022-01-19T22:54:35Z",
-  "head": "e3a36b4b9e39602a48f3faf92e897bb3ef95e415",
-  "login": "tc39",
-  "number": 2629,
-  "ref": "bump-ecmarkup",
-  "revs": [
-   {
-    "adate": "2022-01-19T14:52:40-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2022-01-19T14:52:40-08:00",
-    "hash": "e3a36b4b9e39602a48f3faf92e897bb3ef95e415",
-    "parents": "41dac9e2ddf1c4f58ff8f02bb015ea0564eda42a",
-    "subject": "Meta: bump ecmarkup to 9.8.0"
-   }
-  ],
-  "title": "Meta: bump ecmarkup to 9.8.0",
-  "updated_at": "2022-01-19T22:55:19Z"
- },
- {
-  "base": "d9ab5c0c04d7f6edfa6c0932adccc92189e67d1a",
-  "created_at": "2022-01-17T05:41:01Z",
-  "head": "0456a5ed44b0189731a046458d33726669b12ff5",
-  "login": "p51lee",
-  "number": 2627,
-  "ref": "add-example",
-  "revs": [
-   {
-    "adate": "2022-01-17T14:30:24+09:00",
-    "author": "p51lee",
-    "date": "2022-01-17T14:37:35+09:00",
-    "hash": "0456a5ed44b0189731a046458d33726669b12ff5",
-    "parents": "d9ab5c0c04d7f6edfa6c0932adccc92189e67d1a",
-    "subject": "Markup: add missing `example` attributes to example algorithms"
-   }
-  ],
-  "title": "Markup: add missing `example` attributes to example algorithms",
-  "updated_at": "2022-01-17T05:41:01Z"
- },
- {
-  "base": "d9ab5c0c04d7f6edfa6c0932adccc92189e67d1a",
-  "created_at": "2022-01-16T16:27:57Z",
-  "head": "9f7ead6397ba036d4d3c238772a976985b5f9a63",
-  "login": "Rahmon",
-  "number": 2626,
-  "ref": "chore/consistent-wording-for-sdo-application-with-arguments-issue-2616",
-  "revs": [
-   {
-    "adate": "2022-01-17T07:40:09-03:00",
-    "author": "Ramon",
-    "date": "2022-01-17T07:40:09-03:00",
-    "hash": "9f7ead6397ba036d4d3c238772a976985b5f9a63",
-    "parents": "f168c8aaf0afcf9ad4fec76c4360985955e6dd03",
-    "subject": "Replace 'using' for 'with'"
-   },
-   {
-    "adate": "2022-01-16T13:23:31-03:00",
-    "author": "Ramon",
-    "date": "2022-01-16T13:23:31-03:00",
-    "hash": "f168c8aaf0afcf9ad4fec76c4360985955e6dd03",
-    "parents": "9dcc927c3b029af04ae50d1eb20799f1cc1b38c1",
-    "subject": "Replace 'passing' for 'using'"
-   },
-   {
-    "adate": "2022-01-16T13:17:52-03:00",
-    "author": "Ramon",
-    "date": "2022-01-16T13:17:52-03:00",
-    "hash": "9dcc927c3b029af04ae50d1eb20799f1cc1b38c1",
-    "parents": "d9ab5c0c04d7f6edfa6c0932adccc92189e67d1a",
-    "subject": "Replace 'as the arguments' to keep wording consistency"
-   }
-  ],
-  "title": "Editorial: Use consistent wording for SDO application with argument(s) ",
-  "updated_at": "2022-01-17T10:41:14Z"
- },
- {
   "base": "d9ab5c0c04d7f6edfa6c0932adccc92189e67d1a",
   "created_at": "2022-01-16T04:43:27Z",
   "head": "3f2aa08814033a0c7676a24a22604f795bcaa542",
@@ -608,9 +532,9 @@
   "updated_at": "2021-11-18T07:07:27Z"
  },
  {
-  "base": "d9ab5c0c04d7f6edfa6c0932adccc92189e67d1a",
+  "base": "b64ac7fb4ae0a7c1a3332274e51c9664b47b4363",
   "created_at": "2021-10-08T00:09:44Z",
-  "head": "5dac806123c94afd649485ba2017e3a80ff6b5e8",
+  "head": "8c5a8ec4cbafe46f0fe2b407f6b7b48f1de266dc",
   "login": "tc39",
   "number": 2547,
   "ref": "GH-1796",
@@ -618,142 +542,142 @@
    {
     "adate": "2022-01-19T18:28:32-07:00",
     "author": "Michael Ficarra",
-    "date": "2022-01-19T18:28:32-07:00",
-    "hash": "5dac806123c94afd649485ba2017e3a80ff6b5e8",
-    "parents": "21f82eb53deaa4d67dfdb9063f988dfd5f856108",
+    "date": "2022-01-20T08:54:12-07:00",
+    "hash": "8c5a8ec4cbafe46f0fe2b407f6b7b48f1de266dc",
+    "parents": "71edba015c9c2f7d0d609d6470117a766f03f7ea",
     "subject": "more return types"
    },
    {
     "adate": "2022-01-11T19:49:23-07:00",
     "author": "Michael Ficarra",
-    "date": "2022-01-19T13:37:01-07:00",
-    "hash": "21f82eb53deaa4d67dfdb9063f988dfd5f856108",
-    "parents": "530980e1e687a115e12c6c80675aac64dbba0db1",
+    "date": "2022-01-20T08:54:11-07:00",
+    "hash": "71edba015c9c2f7d0d609d6470117a766f03f7ea",
+    "parents": "2c113659a160a8cbfd40131deced5e0da21d85c4",
     "subject": "tons of stuff"
    },
    {
     "adate": "2022-01-10T21:16:59-07:00",
     "author": "Michael Ficarra",
-    "date": "2022-01-19T13:36:14-07:00",
-    "hash": "530980e1e687a115e12c6c80675aac64dbba0db1",
-    "parents": "636aae06d7836ce26a24187f6efc8f96f1bfe91d",
+    "date": "2022-01-20T08:52:28-07:00",
+    "hash": "2c113659a160a8cbfd40131deced5e0da21d85c4",
+    "parents": "679dbf5794e9952f1f808d93c36c5406d23ead68",
     "subject": "more stuff"
    },
    {
     "adate": "2022-01-10T19:15:31-07:00",
     "author": "Michael Ficarra",
-    "date": "2022-01-19T13:36:13-07:00",
-    "hash": "636aae06d7836ce26a24187f6efc8f96f1bfe91d",
-    "parents": "45914e352dadc54345f3d2ae678148f0c1d7c522",
+    "date": "2022-01-20T08:51:39-07:00",
+    "hash": "679dbf5794e9952f1f808d93c36c5406d23ead68",
+    "parents": "cb0700b5b61c90088fe94e306d499a01d4c9a967",
     "subject": "more return types"
    },
    {
     "adate": "2022-01-07T17:52:33-07:00",
     "author": "Michael Ficarra",
-    "date": "2022-01-19T13:35:48-07:00",
-    "hash": "45914e352dadc54345f3d2ae678148f0c1d7c522",
-    "parents": "fd967d9384e38f683e657d3790aa755462681d79",
+    "date": "2022-01-20T08:50:23-07:00",
+    "hash": "cb0700b5b61c90088fe94e306d499a01d4c9a967",
+    "parents": "6928fd501d4d677872e13e74d190ab0f9fb7670d",
     "subject": "return types"
    },
    {
     "adate": "2021-12-30T18:54:20-07:00",
     "author": "Michael Ficarra",
-    "date": "2022-01-19T13:35:05-07:00",
-    "hash": "fd967d9384e38f683e657d3790aa755462681d79",
-    "parents": "e77f26603d95fe4ca67d3befaf016fcdb2c663bf",
+    "date": "2022-01-20T08:50:23-07:00",
+    "hash": "6928fd501d4d677872e13e74d190ab0f9fb7670d",
+    "parents": "722f2351ba2b580bfaf54a4ce35c15909b6c8e58",
     "subject": "good progress"
    },
    {
     "adate": "2021-12-29T17:47:23-07:00",
     "author": "Michael Ficarra",
-    "date": "2022-01-19T13:29:26-07:00",
-    "hash": "e77f26603d95fe4ca67d3befaf016fcdb2c663bf",
-    "parents": "974d6fd03e3b659b6dcc22d26b85794c0dbec324",
+    "date": "2022-01-20T08:50:23-07:00",
+    "hash": "722f2351ba2b580bfaf54a4ce35c15909b6c8e58",
+    "parents": "b31f4ef31dc6c091b1bfd6a8811c5cac75f27a9d",
     "subject": "more stuff"
    },
    {
     "adate": "2021-12-29T17:16:14-07:00",
     "author": "Michael Ficarra",
-    "date": "2022-01-19T13:28:05-07:00",
-    "hash": "974d6fd03e3b659b6dcc22d26b85794c0dbec324",
-    "parents": "215d9cf82e5b8f840efb60653e40afcbf83a38e3",
+    "date": "2022-01-20T08:50:23-07:00",
+    "hash": "b31f4ef31dc6c091b1bfd6a8811c5cac75f27a9d",
+    "parents": "8bab156787a0a3391d295133547b51056e67447c",
     "subject": "more return types"
    },
    {
     "adate": "2021-10-08T17:26:27-06:00",
     "author": "Michael Ficarra",
-    "date": "2022-01-19T13:23:54-07:00",
-    "hash": "215d9cf82e5b8f840efb60653e40afcbf83a38e3",
-    "parents": "d18e255fcd4689229ed549411a58200574255fc7",
+    "date": "2022-01-20T08:50:22-07:00",
+    "hash": "8bab156787a0a3391d295133547b51056e67447c",
+    "parents": "1c9c5d644b350768d5b19bd9339792242a988903",
     "subject": "more return types"
    },
    {
     "adate": "2021-10-07T18:02:07-06:00",
     "author": "Michael Ficarra",
-    "date": "2022-01-19T13:20:38-07:00",
-    "hash": "d18e255fcd4689229ed549411a58200574255fc7",
-    "parents": "b916d471a312ff6aef483300ef9660581f5c1526",
+    "date": "2022-01-20T08:47:57-07:00",
+    "hash": "1c9c5d644b350768d5b19bd9339792242a988903",
+    "parents": "ec0a33d0d82175d677656fade9209a1b174358d7",
     "subject": "ApplyStringOrNumericBinaryOperator"
    },
    {
     "adate": "2021-10-07T17:17:01-06:00",
     "author": "Michael Ficarra",
-    "date": "2022-01-19T13:20:38-07:00",
-    "hash": "b916d471a312ff6aef483300ef9660581f5c1526",
-    "parents": "8eed729a3397bae0f0ab726c09fbcda9277bee86",
+    "date": "2022-01-20T08:47:57-07:00",
+    "hash": "ec0a33d0d82175d677656fade9209a1b174358d7",
+    "parents": "543f9835f3b1bee2c585be6ac4a06ca2f8085344",
     "subject": "table 2"
    },
    {
     "adate": "2021-09-20T18:46:26-06:00",
     "author": "Michael Ficarra",
-    "date": "2022-01-19T13:20:38-07:00",
-    "hash": "8eed729a3397bae0f0ab726c09fbcda9277bee86",
-    "parents": "21fd61b0e89d1b00930bc8a0f03b85b3e92bfac6",
+    "date": "2022-01-20T08:47:56-07:00",
+    "hash": "543f9835f3b1bee2c585be6ac4a06ca2f8085344",
+    "parents": "f33eb19e9c4b14744b1f31cc0d3b302c701997e3",
     "subject": "more return types"
    },
    {
     "adate": "2021-09-20T18:45:06-06:00",
     "author": "Michael Ficarra",
-    "date": "2022-01-19T13:20:36-07:00",
-    "hash": "21fd61b0e89d1b00930bc8a0f03b85b3e92bfac6",
-    "parents": "1b69522687b124c35d77e0bd94761502c272ab63",
+    "date": "2022-01-20T08:47:56-07:00",
+    "hash": "f33eb19e9c4b14744b1f31cc0d3b302c701997e3",
+    "parents": "e5ed41a9538c27c535d44044741c804123fe3c1b",
     "subject": "no implicit returns"
    },
    {
     "adate": "2021-09-16T19:07:53-06:00",
     "author": "Michael Ficarra",
-    "date": "2022-01-19T13:19:57-07:00",
-    "hash": "1b69522687b124c35d77e0bd94761502c272ab63",
-    "parents": "12a8d6dc068c027d5c2396465b426a699f9e0f5b",
+    "date": "2022-01-20T08:47:56-07:00",
+    "hash": "e5ed41a9538c27c535d44044741c804123fe3c1b",
+    "parents": "30fc2340ba9f91c179a61dc85ac7af58294a3f3c",
     "subject": "add some return types"
    },
    {
     "adate": "2021-09-16T16:05:41-06:00",
     "author": "Michael Ficarra",
-    "date": "2022-01-19T13:19:57-07:00",
-    "hash": "12a8d6dc068c027d5c2396465b426a699f9e0f5b",
-    "parents": "ad1b40f159599064cf9fbc85dea4ed7b85cd1dd3",
+    "date": "2022-01-20T08:47:56-07:00",
+    "hash": "30fc2340ba9f91c179a61dc85ac7af58294a3f3c",
+    "parents": "2a638d62db0c713f3d335b6b42847115cf62034b",
     "subject": "update ecmarkup"
    },
    {
     "adate": "2021-09-15T14:33:27-06:00",
     "author": "Michael Ficarra",
-    "date": "2022-01-19T13:19:57-07:00",
-    "hash": "ad1b40f159599064cf9fbc85dea4ed7b85cd1dd3",
-    "parents": "9192b498cb0c8646310dceab60922da485a4b4d8",
+    "date": "2022-01-20T08:47:56-07:00",
+    "hash": "2a638d62db0c713f3d335b6b42847115cf62034b",
+    "parents": "f0037f4401d94a2bd90d5a3db18a42703161eb88",
     "subject": "remove the provision for treating normal completions as their [[Value]]"
    },
    {
     "adate": "2021-09-15T14:31:38-06:00",
     "author": "Michael Ficarra",
-    "date": "2022-01-19T13:19:57-07:00",
-    "hash": "9192b498cb0c8646310dceab60922da485a4b4d8",
-    "parents": "d9ab5c0c04d7f6edfa6c0932adccc92189e67d1a",
+    "date": "2022-01-20T08:47:56-07:00",
+    "hash": "f0037f4401d94a2bd90d5a3db18a42703161eb88",
+    "parents": "b64ac7fb4ae0a7c1a3332274e51c9664b47b4363",
     "subject": "remove the provision for implicit wrapping in normal completion"
    }
   ],
   "title": "Editorial: remove implicit wrapping/unwrapping of completion records",
-  "updated_at": "2022-01-20T01:28:43Z"
+  "updated_at": "2022-01-20T15:54:24Z"
  },
  {
   "base": "267fdbdc716677bc9934906a498cf9bad4bfb70d",
