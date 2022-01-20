@@ -308,32 +308,24 @@
   "updated_at": "2022-01-05T23:21:04Z"
  },
  {
-  "base": "a2da384e5577aa3c4e423c5f2535a44a94551376",
+  "base": "5c4ccc674b2bb74936b046c3dae5cb7e41f46a44",
   "created_at": "2021-12-30T06:02:47Z",
-  "head": "7cf6a9199077dff302d6af914a008e9ba7a7b9a1",
+  "head": "ba8ebd2e71054b7701fdbcc5efae92e14f15b1a4",
   "login": "tc39",
   "number": 2603,
   "ref": "note-exec-weirdness",
   "revs": [
    {
-    "adate": "2022-01-19T15:19:53-08:00",
+    "adate": "2022-01-19T19:48:45-08:00",
     "author": "Kevin Gibbons",
-    "date": "2022-01-19T15:19:53-08:00",
-    "hash": "7cf6a9199077dff302d6af914a008e9ba7a7b9a1",
-    "parents": "28755c9cd454cc35881766f82aaec20fd7183042",
-    "subject": "iff -> only if"
-   },
-   {
-    "adate": "2021-12-29T22:01:08-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-12-29T22:01:08-08:00",
-    "hash": "28755c9cd454cc35881766f82aaec20fd7183042",
-    "parents": "a2da384e5577aa3c4e423c5f2535a44a94551376",
-    "subject": "Editorial: Note how edge case in GetSubstitution can arise"
+    "date": "2022-01-19T19:48:45-08:00",
+    "hash": "ba8ebd2e71054b7701fdbcc5efae92e14f15b1a4",
+    "parents": "5c4ccc674b2bb74936b046c3dae5cb7e41f46a44",
+    "subject": "Editorial: Note how edge case in GetSubstitution can arise (#2603)"
    }
   ],
   "title": "Editorial: Note how edge case in GetSubstitution can arise",
-  "updated_at": "2022-01-19T23:21:40Z"
+  "updated_at": "2022-01-20T03:49:06Z"
  },
  {
   "base": "a2da384e5577aa3c4e423c5f2535a44a94551376",
@@ -662,26 +654,6 @@
   ],
   "title": "Editorial: document forbidden extension",
   "updated_at": "2021-10-29T02:26:11Z"
- },
- {
-  "base": "d9ab5c0c04d7f6edfa6c0932adccc92189e67d1a",
-  "created_at": "2021-10-20T21:48:08Z",
-  "head": "3336f31b0acfc0d530f133d5f8f5dfd430bc2df2",
-  "login": "jmdyck",
-  "number": 2552,
-  "ref": "fix_3_param_types",
-  "revs": [
-   {
-    "adate": "2021-10-20T17:37:03-04:00",
-    "author": "Michael Dyck",
-    "date": "2022-01-19T14:16:33-05:00",
-    "hash": "3336f31b0acfc0d530f133d5f8f5dfd430bc2df2",
-    "parents": "d9ab5c0c04d7f6edfa6c0932adccc92189e67d1a",
-    "subject": "Editorial: Fix a param type for InnerModuleLinking"
-   }
-  ],
-  "title": "Editorial: Fix parameter type in InnerModuleLinking",
-  "updated_at": "2022-01-19T19:20:58Z"
  },
  {
   "base": "425c7791fc264f02e73eb7b9f14053fc6f430cdd",
@@ -1214,34 +1186,6 @@
   ],
   "title": "Editorial: Minor fix in evaluation of 'YieldExpression' and Arguments Exotic Object",
   "updated_at": "2021-04-06T04:42:17Z"
- },
- {
-  "base": "e4c9f6359996a63296f13f961a12dbbf339ccbb7",
-  "created_at": "2021-03-20T03:43:59Z",
-  "head": "4505fa90f961e81801a00bc15a78fbdf60674018",
-  "login": "jmdyck",
-  "number": 2353,
-  "ref": "rename_aliases",
-  "revs": [
-   {
-    "adate": "2021-03-19T21:16:34-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-09-24T17:02:53-04:00",
-    "hash": "4505fa90f961e81801a00bc15a78fbdf60674018",
-    "parents": "56adf4f3d2a0e4d95129c17d4a08bc195e61dfa8",
-    "subject": "Editorial: Rename some script-related aliases (#2353)"
-   },
-   {
-    "adate": "2021-03-19T17:19:03-04:00",
-    "author": "Michael Dyck",
-    "date": "2021-09-24T17:02:53-04:00",
-    "hash": "56adf4f3d2a0e4d95129c17d4a08bc195e61dfa8",
-    "parents": "e4c9f6359996a63296f13f961a12dbbf339ccbb7",
-    "subject": "Editorial: Rename `_scope_` to `_env_` (and similar cases) (#2353)"
-   }
-  ],
-  "title": "Editorial: Rename some aliases",
-  "updated_at": "2021-09-24T21:08:43Z"
  },
  {
   "base": "417a0bb5bc3a6d7117c33cf50803483d9bd7adc1",
