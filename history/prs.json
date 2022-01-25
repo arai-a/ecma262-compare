@@ -214,11 +214,19 @@
  {
   "base": "b64ac7fb4ae0a7c1a3332274e51c9664b47b4363",
   "created_at": "2021-12-17T02:56:25Z",
-  "head": "da31741ff482e5edd5441efd3dca91afce6de167",
+  "head": "cb6782157106c6e4e305da943ad4108a2be6b54d",
   "login": "mhofman",
   "number": 2600,
   "ref": "fix-async-from-sync-close",
   "revs": [
+   {
+    "adate": "2022-01-25T22:21:53+00:00",
+    "author": "Mathieu Hofman",
+    "date": "2022-01-25T22:21:53+00:00",
+    "hash": "cb6782157106c6e4e305da943ad4108a2be6b54d",
+    "parents": "da31741ff482e5edd5441efd3dca91afce6de167",
+    "subject": "Remove extraneous ?"
+   },
    {
     "adate": "2022-01-25T21:04:28+00:00",
     "author": "Mathieu Hofman",
@@ -277,7 +285,7 @@
    }
   ],
   "title": "Normative: Close sync iterator when async wrapper yields rejection",
-  "updated_at": "2022-01-25T21:08:42Z"
+  "updated_at": "2022-01-25T22:22:06Z"
  },
  {
   "base": "2d612452d1115cbdd21b9a607aab6c9408552734",
