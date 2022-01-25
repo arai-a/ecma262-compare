@@ -28,7 +28,18 @@ class SnapshotLoader extends Base {
                                        `href="${url.pathname}${url.search}#`);
 
     const base = `<base href="./history/${hash}/">`;
+
     document.documentElement.innerHTML = base + fixedSource;
+
+    const script = document.createElement("script");
+    script.addEventListener("load", () => {
+      window.document.dispatchEvent(new Event("DOMContentLoaded", {
+        bubbles: true,
+        cancelable: true
+      }));
+    });
+    script.setAttribute("src", "ecmarkup.js");
+    document.body.appendChild(script);
 
     if (window.location.hash) {
       const id = window.location.hash.slice(1);
