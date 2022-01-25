@@ -21,8 +21,14 @@ class SnapshotLoader extends Base {
 
   async loadIndex(hash) {
     const source = await this.getIndex(hash);
+
+    const url = new URL(document.location.href);
+
+    const fixedSource = source.replace(/href="#/g,
+                                       `href="${url.pathname}${url.search}#`);
+
     const base = `<base href="./history/${hash}/">`;
-    document.documentElement.innerHTML = base + source;
+    document.documentElement.innerHTML = base + fixedSource;
 
     if (window.location.hash) {
       const id = window.location.hash.slice(1);
