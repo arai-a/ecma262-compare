@@ -1048,13 +1048,37 @@
   "updated_at": "2021-10-28T14:35:33Z"
  },
  {
-  "base": "012af13cb8d7ba78a3125086a2cd9059a1f8a4e8",
+  "base": "b64ac7fb4ae0a7c1a3332274e51c9664b47b4363",
   "created_at": "2021-05-28T11:28:01Z",
-  "head": "0e2593e589c084e860943b9c3324d20e04739b6a",
+  "head": "49883820c79185bf350e81119f4b79d1cdb5099d",
   "login": "mathiasbynens",
   "number": 2418,
   "ref": "regexp-v-flag",
   "revs": [
+   {
+    "adate": "2022-01-26T15:27:28+01:00",
+    "author": "Mathias Bynens",
+    "date": "2022-01-26T15:38:06+01:00",
+    "hash": "49883820c79185bf350e81119f4b79d1cdb5099d",
+    "parents": "0a2663c85e293dd584ec215e32d91fe028dd5d57",
+    "subject": "Fix ParsePattern error handling"
+   },
+   {
+    "adate": "2022-01-26T15:25:31+01:00",
+    "author": "Mathias Bynens",
+    "date": "2022-01-26T15:25:31+01:00",
+    "hash": "0a2663c85e293dd584ec215e32d91fe028dd5d57",
+    "parents": "8761b99ef85381e53df2fbd5b65a10db6607254a",
+    "subject": "Address feedback"
+   },
+   {
+    "adate": "2022-01-26T15:15:09+01:00",
+    "author": "Mathias Bynens",
+    "date": "2022-01-26T15:15:09+01:00",
+    "hash": "8761b99ef85381e53df2fbd5b65a10db6607254a",
+    "parents": "0e2593e589c084e860943b9c3324d20e04739b6a",
+    "subject": "Fix another typo"
+   },
    {
     "adate": "2022-01-26T15:14:48+01:00",
     "author": "Mathias Bynens",
@@ -1153,7 +1177,7 @@
    }
   ],
   "title": "Normative: Add RegExp `v` flag with set notation and properties of strings",
-  "updated_at": "2022-01-26T14:14:53Z"
+  "updated_at": "2022-01-26T14:38:12Z"
  },
  {
   "base": "a2da384e5577aa3c4e423c5f2535a44a94551376",
