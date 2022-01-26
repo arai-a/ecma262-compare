@@ -1050,11 +1050,75 @@
  {
   "base": "012af13cb8d7ba78a3125086a2cd9059a1f8a4e8",
   "created_at": "2021-05-28T11:28:01Z",
-  "head": "9ad33ae554aa546b27d159353520c80d440ebfa4",
+  "head": "0e2593e589c084e860943b9c3324d20e04739b6a",
   "login": "mathiasbynens",
   "number": 2418,
   "ref": "regexp-v-flag",
   "revs": [
+   {
+    "adate": "2022-01-26T15:14:48+01:00",
+    "author": "Mathias Bynens",
+    "date": "2022-01-26T15:14:48+01:00",
+    "hash": "0e2593e589c084e860943b9c3324d20e04739b6a",
+    "parents": "15eaa356c05503438a69b40f8f48892ff7ef267f",
+    "subject": "Fix typo"
+   },
+   {
+    "adate": "2022-01-26T15:13:59+01:00",
+    "author": "Mathias Bynens",
+    "date": "2022-01-26T15:13:59+01:00",
+    "hash": "15eaa356c05503438a69b40f8f48892ff7ef267f",
+    "parents": "901a1064a7edf9e0318ebeb25cc112467d84c382",
+    "subject": "Rephrase \u201cthe subtraction of CharSet X minus CharSet Y\u201d"
+   },
+   {
+    "adate": "2022-01-26T15:10:59+01:00",
+    "author": "Mathias Bynens",
+    "date": "2022-01-26T15:10:59+01:00",
+    "hash": "901a1064a7edf9e0318ebeb25cc112467d84c382",
+    "parents": "84a0501156f9e2391e94e83465d060d850f915e4",
+    "subject": "Pass `direction` argument"
+   },
+   {
+    "adate": "2022-01-26T15:07:33+01:00",
+    "author": "Mathias Bynens",
+    "date": "2022-01-26T15:07:33+01:00",
+    "hash": "84a0501156f9e2391e94e83465d060d850f915e4",
+    "parents": "bc4d9506f12db39499ef472824efa534ce966589",
+    "subject": "Omit \u201cthe CharSet returned by\u201d"
+   },
+   {
+    "adate": "2022-01-26T15:06:08+01:00",
+    "author": "Mathias Bynens",
+    "date": "2022-01-26T15:06:08+01:00",
+    "hash": "bc4d9506f12db39499ef472824efa534ce966589",
+    "parents": "3e2f5a9974006b49d3da740a91057f36fe24299e",
+    "subject": "Omit lookahead-constraints from non-defining productions"
+   },
+   {
+    "adate": "2022-01-26T15:02:14+01:00",
+    "author": "Mathias Bynens",
+    "date": "2022-01-26T15:02:14+01:00",
+    "hash": "3e2f5a9974006b49d3da740a91057f36fe24299e",
+    "parents": "c8fa1e35793c6fcb91636279fe7f6a6b9a5c9f81",
+    "subject": "Simplify \u201cthe list of Unicode code points that is SourceText\u201d to \u201cSourceText\u201d"
+   },
+   {
+    "adate": "2022-01-26T14:58:02+01:00",
+    "author": "Mathias Bynens",
+    "date": "2022-01-26T14:58:02+01:00",
+    "hash": "c8fa1e35793c6fcb91636279fe7f6a6b9a5c9f81",
+    "parents": "422978afa2259883d4593061bb93b0ddf4af6018",
+    "subject": "Omit grammatical parameters in non-defining productions where applicable"
+   },
+   {
+    "adate": "2022-01-26T14:54:51+01:00",
+    "author": "Mathias Bynens",
+    "date": "2022-01-26T14:54:51+01:00",
+    "hash": "422978afa2259883d4593061bb93b0ddf4af6018",
+    "parents": "9ad33ae554aa546b27d159353520c80d440ebfa4",
+    "subject": "Wrap [UnicodeSetsMode] in <sub> where applicable"
+   },
    {
     "adate": "2021-12-11T13:20:34-08:00",
     "author": "Kevin Gibbons",
@@ -1089,7 +1153,7 @@
    }
   ],
   "title": "Normative: Add RegExp `v` flag with set notation and properties of strings",
-  "updated_at": "2021-12-11T21:44:58Z"
+  "updated_at": "2022-01-26T14:14:53Z"
  },
  {
   "base": "a2da384e5577aa3c4e423c5f2535a44a94551376",
