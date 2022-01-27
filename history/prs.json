@@ -1444,64 +1444,56 @@
   "updated_at": "2022-01-11T01:59:06Z"
  },
  {
-  "base": "d9ab5c0c04d7f6edfa6c0932adccc92189e67d1a",
+  "base": "b64ac7fb4ae0a7c1a3332274e51c9664b47b4363",
   "created_at": "2021-01-24T05:38:33Z",
-  "head": "47fddef94e2cb98db9c3dd7af49864ddaadbfa69",
+  "head": "7d473b268494ce377ebba0a655ec0d1ece931001",
   "login": "jmdyck",
   "number": 2288,
   "ref": "declarative_Env_Rec",
   "revs": [
    {
-    "adate": "2022-01-19T15:28:47-05:00",
-    "author": "Michael Dyck",
-    "date": "2022-01-19T15:28:47-05:00",
-    "hash": "47fddef94e2cb98db9c3dd7af49864ddaadbfa69",
-    "parents": "79ee370fd461e5b1ac1a41a4b71c0b5b7be68182",
-    "subject": "fixup: replace [[IsInitialized]] field with ~uninitialized~ possibility in [[BoundValue]]"
-   },
-   {
     "adate": "2021-01-24T00:30:29-05:00",
     "author": "Michael Dyck",
-    "date": "2022-01-19T14:28:26-05:00",
-    "hash": "79ee370fd461e5b1ac1a41a4b71c0b5b7be68182",
-    "parents": "fa15c983ee77b6a95c9b2953244b4cd7001c3671",
-    "subject": "Editorial: Model a binding as a Record"
+    "date": "2022-01-26T21:21:36-05:00",
+    "hash": "7d473b268494ce377ebba0a655ec0d1ece931001",
+    "parents": "e6bc0f8c64cbbf8050e4ebd32669aff507b25398",
+    "subject": "Editorial: Model a declarative binding as a Record"
    },
    {
     "adate": "2021-01-23T23:59:22-05:00",
     "author": "Michael Dyck",
-    "date": "2022-01-19T14:28:26-05:00",
-    "hash": "fa15c983ee77b6a95c9b2953244b4cd7001c3671",
-    "parents": "fc817c1230f3a0f287b05162809c5594543413e1",
+    "date": "2022-01-26T19:45:57-05:00",
+    "hash": "e6bc0f8c64cbbf8050e4ebd32669aff507b25398",
+    "parents": "3a56e9848ec99177f79475138dbd98fb82a94c51",
     "subject": "Editorial: declarative Env Rec has field [[Bindings]]"
    },
    {
     "adate": "2021-01-23T23:52:38-05:00",
     "author": "Michael Dyck",
-    "date": "2022-01-19T14:28:26-05:00",
-    "hash": "fc817c1230f3a0f287b05162809c5594543413e1",
-    "parents": "16cd1d4367227a43784d8deb872cbaa488df7405",
+    "date": "2022-01-20T22:30:26-05:00",
+    "hash": "3a56e9848ec99177f79475138dbd98fb82a94c51",
+    "parents": "9ad699ca6a379ab028d90383421fe49586c19328",
     "subject": "Editorial: Treat a binding as an 'alias-able' thing"
    },
    {
     "adate": "2021-01-23T23:03:21-05:00",
     "author": "Michael Dyck",
-    "date": "2022-01-19T14:28:26-05:00",
-    "hash": "16cd1d4367227a43784d8deb872cbaa488df7405",
-    "parents": "a1e00a2ccb077d0a48c0a61fd7264dd69af9fc8b",
+    "date": "2022-01-20T22:30:26-05:00",
+    "hash": "9ad699ca6a379ab028d90383421fe49586c19328",
+    "parents": "a8bcfa8d30b89c3cc2816ac59b583560b1e4430a",
     "subject": "Editorial: Have NewGlobalEnvironment invoke NewDeclarativeEnvironment"
    },
    {
     "adate": "2021-01-23T22:54:21-05:00",
     "author": "Michael Dyck",
-    "date": "2022-01-19T14:28:26-05:00",
-    "hash": "a1e00a2ccb077d0a48c0a61fd7264dd69af9fc8b",
-    "parents": "d9ab5c0c04d7f6edfa6c0932adccc92189e67d1a",
+    "date": "2022-01-20T22:30:26-05:00",
+    "hash": "a8bcfa8d30b89c3cc2816ac59b583560b1e4430a",
+    "parents": "b64ac7fb4ae0a7c1a3332274e51c9664b47b4363",
     "subject": "Editorial: Use declarative Env Rec's HasBinding method"
    }
   ],
   "title": "Editorial: Model the bindings of a declarative Env Rec as a List of Records",
-  "updated_at": "2022-01-19T20:32:46Z"
+  "updated_at": "2022-01-27T02:27:31Z"
  },
  {
   "base": "b3e6dfe61966b9a0eded9c7c5bd037b01e10abf2",
