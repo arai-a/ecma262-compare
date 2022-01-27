@@ -622,11 +622,19 @@
  {
   "base": "b64ac7fb4ae0a7c1a3332274e51c9664b47b4363",
   "created_at": "2021-10-08T00:09:44Z",
-  "head": "35c4eb5b44981d37d027a97b650a689296f86b0e",
+  "head": "8c47585754c736e4c7f592084203e2c597458ba7",
   "login": "tc39",
   "number": 2547,
   "ref": "GH-1796",
   "revs": [
+   {
+    "adate": "2022-01-27T14:44:02-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2022-01-27T14:44:02-08:00",
+    "hash": "8c47585754c736e4c7f592084203e2c597458ba7",
+    "parents": "35c4eb5b44981d37d027a97b650a689296f86b0e",
+    "subject": "fix return types for MOP methods"
+   },
    {
     "adate": "2022-01-27T13:32:36-08:00",
     "author": "Kevin Gibbons",
@@ -885,7 +893,7 @@
    }
   ],
   "title": "Editorial: remove implicit wrapping/unwrapping of completion records",
-  "updated_at": "2022-01-27T21:32:39Z"
+  "updated_at": "2022-01-27T22:44:08Z"
  },
  {
   "base": "267fdbdc716677bc9934906a498cf9bad4bfb70d",
