@@ -126,54 +126,46 @@
  {
   "base": "b64ac7fb4ae0a7c1a3332274e51c9664b47b4363",
   "created_at": "2022-01-14T01:41:14Z",
-  "head": "7e1d9c93165f7ae5b61a9b2a38ae17a8d859e546",
+  "head": "f936b4e824d18dea4a5135762fec90ed0bf9b464",
   "login": "jmdyck",
   "number": 2624,
   "ref": "is_absent",
   "revs": [
    {
-    "adate": "2022-01-20T16:56:25-05:00",
-    "author": "Michael Dyck",
-    "date": "2022-01-20T16:56:25-05:00",
-    "hash": "7e1d9c93165f7ae5b61a9b2a38ae17a8d859e546",
-    "parents": "f6a3db28e926544cf0791ae0cca483628537404c",
-    "subject": "fixup (for commit 2): \"if it has the field\" -> \"if _Desc_ has that field\""
-   },
-   {
     "adate": "2022-01-13T20:14:49-05:00",
     "author": "Michael Dyck",
-    "date": "2022-01-20T14:06:41-05:00",
-    "hash": "f6a3db28e926544cf0791ae0cca483628537404c",
-    "parents": "cc491a3990745bc155e94b0881c341f40dce5c08",
+    "date": "2022-02-01T21:58:07-05:00",
+    "hash": "f936b4e824d18dea4a5135762fec90ed0bf9b464",
+    "parents": "08b09c6ecdc94cacb5cdfdaa515750aae84ae987",
     "subject": "Editorial: Simplify IsFooDescriptor ops (#2624)"
    },
    {
     "adate": "2022-01-13T20:00:00-05:00",
     "author": "Michael Dyck",
-    "date": "2022-01-20T14:06:23-05:00",
-    "hash": "cc491a3990745bc155e94b0881c341f40dce5c08",
-    "parents": "dd590584b1f2d6afbdec236b897119e29721cb43",
+    "date": "2022-02-01T21:58:07-05:00",
+    "hash": "08b09c6ecdc94cacb5cdfdaa515750aae84ae987",
+    "parents": "6cd61f64955bfa3070b897dc080cd285682c2564",
     "subject": "Editorial: Eliminate \"present\" or \"absent\" fields (#2624)"
    },
    {
     "adate": "2022-01-13T19:36:02-05:00",
     "author": "Michael Dyck",
-    "date": "2022-01-20T14:06:11-05:00",
-    "hash": "dd590584b1f2d6afbdec236b897119e29721cb43",
-    "parents": "dbd6b48db815c3f3bdeaa1c94f29e35d2d9526c4",
+    "date": "2022-02-01T21:57:47-05:00",
+    "hash": "6cd61f64955bfa3070b897dc080cd285682c2564",
+    "parents": "b75d9e324a52de99fb413a4af9bdc7988f077b15",
     "subject": "Editorial: Use consistent phrasing in ValidateAndApplyPropertyDescriptor (#2624)"
    },
    {
     "adate": "2022-01-13T19:54:32-05:00",
     "author": "Michael Dyck",
-    "date": "2022-01-20T14:05:48-05:00",
-    "hash": "dbd6b48db815c3f3bdeaa1c94f29e35d2d9526c4",
-    "parents": "d9ab5c0c04d7f6edfa6c0932adccc92189e67d1a",
+    "date": "2022-01-20T19:50:00-05:00",
+    "hash": "b75d9e324a52de99fb413a4af9bdc7988f077b15",
+    "parents": "b64ac7fb4ae0a7c1a3332274e51c9664b47b4363",
     "subject": "Editorial: Eliminate `_rec_.[[Field]] is absent` (#2624)"
    }
   ],
   "title": "Editorial: Eliminate \"present\" and \"absent\" fields",
-  "updated_at": "2022-01-20T22:13:16Z"
+  "updated_at": "2022-02-02T03:00:09Z"
  },
  {
   "base": "d9ab5c0c04d7f6edfa6c0932adccc92189e67d1a",
