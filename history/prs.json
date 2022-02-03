@@ -1,23 +1,23 @@
 [
  {
-  "base": "b8070961debf63012bb9ae7189851ed2382ce752",
-  "created_at": "2022-02-02T23:01:56Z",
-  "head": "15a7d8af7c8d589b401d93a8c3bdade5375bf75e",
-  "login": "ljharb",
-  "number": 2648,
-  "ref": "completion-record-link",
+  "base": "15a7d8af7c8d589b401d93a8c3bdade5375bf75e",
+  "created_at": "2022-02-03T00:11:16Z",
+  "head": "bad6988ab34ced476e50a07ee10a098162a12bbc",
+  "login": "tc39",
+  "number": 2649,
+  "ref": "stable-Unicode-property-spellings",
   "revs": [
    {
-    "adate": "2022-02-02T15:08:55-08:00",
-    "author": "Jordan Harband",
-    "date": "2022-02-02T15:08:55-08:00",
-    "hash": "15a7d8af7c8d589b401d93a8c3bdade5375bf75e",
+    "adate": "2022-02-02T17:08:00-07:00",
+    "author": "Michael Ficarra",
+    "date": "2022-02-02T17:08:00-07:00",
+    "hash": "bad6988ab34ced476e50a07ee10a098162a12bbc",
     "parents": "b8070961debf63012bb9ae7189851ed2382ce752",
-    "subject": "Editorial: NormalCompletion/ThrowCompletion create a Completion Record (#2648)"
+    "subject": "Normative: remove tables of Unicode property values and aliases"
    }
   ],
-  "title": "Editorial: NormalCompletion/ThrowCompletion create a Completion Record",
-  "updated_at": "2022-02-02T23:08:59Z"
+  "title": "Normative: remove tables of Unicode property values and aliases",
+  "updated_at": "2022-02-03T00:12:16Z"
  },
  {
   "base": "b64ac7fb4ae0a7c1a3332274e51c9664b47b4363",
