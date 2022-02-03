@@ -670,11 +670,35 @@
  {
   "base": "b8070961debf63012bb9ae7189851ed2382ce752",
   "created_at": "2021-10-08T00:09:44Z",
-  "head": "cc009ed52f089194b94e2094587815066bd584e8",
+  "head": "0245ec86f10d52e505c3f63f3a613469b5024964",
   "login": "tc39",
   "number": 2547,
   "ref": "GH-1796",
   "revs": [
+   {
+    "adate": "2022-02-02T18:37:41-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2022-02-02T18:37:41-08:00",
+    "hash": "0245ec86f10d52e505c3f63f3a613469b5024964",
+    "parents": "4d2d75979083ff78ae0697780237636e2f819020",
+    "subject": "refine some completion records"
+   },
+   {
+    "adate": "2022-02-02T18:29:24-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2022-02-02T18:29:24-08:00",
+    "hash": "4d2d75979083ff78ae0697780237636e2f819020",
+    "parents": "539c9baa76b475c9bc2a1aaee12937f8c705b7a5",
+    "subject": "ensure concrete method types are compatible"
+   },
+   {
+    "adate": "2022-02-02T18:01:10-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2022-02-02T18:01:10-08:00",
+    "hash": "539c9baa76b475c9bc2a1aaee12937f8c705b7a5",
+    "parents": "cc009ed52f089194b94e2094587815066bd584e8",
+    "subject": "make some things not abrupt"
+   },
    {
     "adate": "2022-02-02T17:00:24-08:00",
     "author": "Kevin Gibbons",
@@ -989,7 +1013,7 @@
    }
   ],
   "title": "Editorial: remove implicit wrapping/unwrapping of completion records",
-  "updated_at": "2022-02-03T01:45:22Z"
+  "updated_at": "2022-02-03T02:37:56Z"
  },
  {
   "base": "267fdbdc716677bc9934906a498cf9bad4bfb70d",
