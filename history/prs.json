@@ -670,11 +670,19 @@
  {
   "base": "b8070961debf63012bb9ae7189851ed2382ce752",
   "created_at": "2021-10-08T00:09:44Z",
-  "head": "1897937247b448313b1724677998d34259e6fbad",
+  "head": "cc009ed52f089194b94e2094587815066bd584e8",
   "login": "tc39",
   "number": 2547,
   "ref": "GH-1796",
   "revs": [
+   {
+    "adate": "2022-02-02T17:00:24-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2022-02-02T17:00:24-08:00",
+    "hash": "cc009ed52f089194b94e2094587815066bd584e8",
+    "parents": "1897937247b448313b1724677998d34259e6fbad",
+    "subject": "ensure things do not return completions if they are always asserted to return normally"
+   },
    {
     "adate": "2022-01-31T17:46:21-08:00",
     "author": "Kevin Gibbons",
@@ -981,7 +989,7 @@
    }
   ],
   "title": "Editorial: remove implicit wrapping/unwrapping of completion records",
-  "updated_at": "2022-02-02T21:02:42Z"
+  "updated_at": "2022-02-03T01:45:22Z"
  },
  {
   "base": "267fdbdc716677bc9934906a498cf9bad4bfb70d",
