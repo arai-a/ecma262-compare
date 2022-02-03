@@ -678,11 +678,35 @@
  {
   "base": "b8070961debf63012bb9ae7189851ed2382ce752",
   "created_at": "2021-10-08T00:09:44Z",
-  "head": "659a6084154b8bbab174ad00d8da33aff85c76df",
+  "head": "fea368ef72693d455e85017e85c81af56734c100",
   "login": "tc39",
   "number": 2547,
   "ref": "GH-1796",
   "revs": [
+   {
+    "adate": "2022-02-03T14:26:29-07:00",
+    "author": "Michael Ficarra",
+    "date": "2022-02-03T14:26:29-07:00",
+    "hash": "fea368ef72693d455e85017e85c81af56734c100",
+    "parents": "f621372e5656dc828229a52b9d9dbd6a2a607488",
+    "subject": "clarify that Evaluation and built-in functions return completions"
+   },
+   {
+    "adate": "2022-02-03T14:19:43-07:00",
+    "author": "Michael Ficarra",
+    "date": "2022-02-03T14:19:43-07:00",
+    "hash": "f621372e5656dc828229a52b9d9dbd6a2a607488",
+    "parents": "28a40b2d0054fe6af0c24690f91c5e81e38eb908",
+    "subject": "remove unneeded NormalCompletion wrapper at return sites"
+   },
+   {
+    "adate": "2022-02-03T13:43:14-07:00",
+    "author": "Michael Ficarra",
+    "date": "2022-02-03T13:43:14-07:00",
+    "hash": "28a40b2d0054fe6af0c24690f91c5e81e38eb908",
+    "parents": "659a6084154b8bbab174ad00d8da33aff85c76df",
+    "subject": "fix type of MethodDefinitionEvaluation"
+   },
    {
     "adate": "2022-02-03T10:45:56-07:00",
     "author": "Michael Ficarra",
@@ -1053,7 +1077,7 @@
    }
   ],
   "title": "Editorial: remove implicit wrapping/unwrapping of completion records",
-  "updated_at": "2022-02-03T17:46:34Z"
+  "updated_at": "2022-02-03T21:26:46Z"
  },
  {
   "base": "267fdbdc716677bc9934906a498cf9bad4bfb70d",
@@ -1866,26 +1890,6 @@
   ],
   "title": "Editorial: Add notes about the 1-based indexing of regular expression _captures_",
   "updated_at": "2020-08-27T06:03:17Z"
- },
- {
-  "base": "a2da384e5577aa3c4e423c5f2535a44a94551376",
-  "created_at": "2020-08-15T01:59:35Z",
-  "head": "03fcd36c2c3f919e0692bbd16dec0935f5dbb284",
-  "login": "devsnek",
-  "number": 2136,
-  "ref": "fix-date-set",
-  "revs": [
-   {
-    "adate": "2020-08-14T20:58:04-05:00",
-    "author": "Gus Caplan",
-    "date": "2021-12-29T16:14:44-08:00",
-    "hash": "03fcd36c2c3f919e0692bbd16dec0935f5dbb284",
-    "parents": "a2da384e5577aa3c4e423c5f2535a44a94551376",
-    "subject": "Normative: Fix out-of-range NaNs in date set methods"
-   }
-  ],
-  "title": "Normative: Fix out-of-range NaNs in date set methods",
-  "updated_at": "2021-12-30T00:16:15Z"
  },
  {
   "base": "56032d3271949f2892745d4a8e06d1322ba7220d",
