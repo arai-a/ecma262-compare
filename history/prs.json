@@ -678,11 +678,19 @@
  {
   "base": "ca53334e343bf804fcbb9dbe8882eb52a75aa283",
   "created_at": "2021-10-08T00:09:44Z",
-  "head": "240bf80876fc4369943862bbbd06644ffd429718",
+  "head": "1bbc7a7b5485a1aaae16b852d978527014a90af7",
   "login": "tc39",
   "number": 2547,
   "ref": "GH-1796",
   "revs": [
+   {
+    "adate": "2022-02-03T18:49:38-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2022-02-03T18:49:38-08:00",
+    "hash": "1bbc7a7b5485a1aaae16b852d978527014a90af7",
+    "parents": "240bf80876fc4369943862bbbd06644ffd429718",
+    "subject": "no one uses CompletePropertyDescriptor"
+   },
    {
     "adate": "2022-02-03T15:51:40-08:00",
     "author": "Kevin Gibbons",
@@ -1125,7 +1133,7 @@
    }
   ],
   "title": "Editorial: remove implicit wrapping/unwrapping of completion records",
-  "updated_at": "2022-02-03T23:52:07Z"
+  "updated_at": "2022-02-04T02:49:44Z"
  },
  {
   "base": "267fdbdc716677bc9934906a498cf9bad4bfb70d",
@@ -2284,13 +2292,21 @@
   "updated_at": "2020-03-27T07:01:25Z"
  },
  {
-  "base": "b64ac7fb4ae0a7c1a3332274e51c9664b47b4363",
+  "base": "ca53334e343bf804fcbb9dbe8882eb52a75aa283",
   "created_at": "2019-10-01T16:29:45Z",
-  "head": "0fe72deef6a2032928e91f92cdcc95223f90b01d",
+  "head": "58e18b7fa8d7e8595a2ee08e6fd1a8d4b859c526",
   "login": "rbuckton",
   "number": 1713,
   "ref": "regexp-match-indices",
   "revs": [
+   {
+    "adate": "2022-02-03T19:10:19-08:00",
+    "author": "Ron Buckton",
+    "date": "2022-02-03T19:12:52-08:00",
+    "hash": "58e18b7fa8d7e8595a2ee08e6fd1a8d4b859c526",
+    "parents": "0fe72deef6a2032928e91f92cdcc95223f90b01d",
+    "subject": "Rename several AOs plus other PR feedback"
+   },
    {
     "adate": "2022-01-14T17:57:12-08:00",
     "author": "Ron Buckton",
@@ -2453,7 +2469,7 @@
    }
   ],
   "title": "Normative: add RegExp Match Indices",
-  "updated_at": "2022-01-24T18:37:36Z"
+  "updated_at": "2022-02-04T03:13:01Z"
  },
  {
   "base": "8e65afde3815b155527e98de3fabeb3ce7d54074",
