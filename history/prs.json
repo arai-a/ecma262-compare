@@ -678,11 +678,59 @@
  {
   "base": "ca53334e343bf804fcbb9dbe8882eb52a75aa283",
   "created_at": "2021-10-08T00:09:44Z",
-  "head": "dfe6b885e6bb02bdbf1c20ddfb47b06f84d1b726",
+  "head": "f7ee978176a573be2c60bbf4fb38a78cf68c09ea",
   "login": "tc39",
   "number": 2547,
   "ref": "GH-1796",
   "revs": [
+   {
+    "adate": "2022-02-09T10:57:01-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2022-02-09T10:57:01-08:00",
+    "hash": "f7ee978176a573be2c60bbf4fb38a78cf68c09ea",
+    "parents": "d6d70b000227f2acccfdd120d4effb1ca6c61fe3",
+    "subject": "AsyncGeneratorUnwrapYieldResumption can return normally"
+   },
+   {
+    "adate": "2022-02-09T10:55:47-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2022-02-09T10:55:47-08:00",
+    "hash": "d6d70b000227f2acccfdd120d4effb1ca6c61fe3",
+    "parents": "c928b8bba6534d9884938668b1ce75e9b33b5835",
+    "subject": "mark some HasBinding calls as non-abrupt"
+   },
+   {
+    "adate": "2022-02-09T10:47:44-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2022-02-09T10:47:44-08:00",
+    "hash": "c928b8bba6534d9884938668b1ce75e9b33b5835",
+    "parents": "c8b25dc11a2ed5091b355154774500721813f52c",
+    "subject": "waiterlist holds signifiers"
+   },
+   {
+    "adate": "2022-02-09T10:47:26-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2022-02-09T10:47:26-08:00",
+    "hash": "c8b25dc11a2ed5091b355154774500721813f52c",
+    "parents": "06336b8117c5a9aa2e308715fedd2cb99865ee9a",
+    "subject": "propertydefinitionevaluation returns unused"
+   },
+   {
+    "adate": "2022-02-09T10:46:42-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2022-02-09T10:46:42-08:00",
+    "hash": "06336b8117c5a9aa2e308715fedd2cb99865ee9a",
+    "parents": "94d980e3114b4973e202609bb51a782000aafa10",
+    "subject": "construct returns an object"
+   },
+   {
+    "adate": "2022-02-09T10:27:33-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2022-02-09T10:27:33-08:00",
+    "hash": "94d980e3114b4973e202609bb51a782000aafa10",
+    "parents": "dfe6b885e6bb02bdbf1c20ddfb47b06f84d1b726",
+    "subject": "dfn agent signifier"
+   },
    {
     "adate": "2022-02-08T23:13:27-05:00",
     "author": "Michael Dyck",
@@ -1221,7 +1269,7 @@
    }
   ],
   "title": "Editorial: remove implicit wrapping/unwrapping of completion records",
-  "updated_at": "2022-02-09T18:20:59Z"
+  "updated_at": "2022-02-09T19:01:16Z"
  },
  {
   "base": "267fdbdc716677bc9934906a498cf9bad4bfb70d",
