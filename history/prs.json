@@ -1466,11 +1466,19 @@
  {
   "base": "b64ac7fb4ae0a7c1a3332274e51c9664b47b4363",
   "created_at": "2021-05-28T11:28:01Z",
-  "head": "6765e07d545b132dd8eccac9140a58ec26b323f5",
+  "head": "51ea7579f76d80a8143c9ef94cc6548ec0f3b3af",
   "login": "mathiasbynens",
   "number": 2418,
   "ref": "regexp-v-flag",
   "revs": [
+   {
+    "adate": "2022-02-10T13:31:44-08:00",
+    "author": "Markus Scherer",
+    "date": "2022-02-10T13:31:44-08:00",
+    "hash": "51ea7579f76d80a8143c9ef94cc6548ec0f3b3af",
+    "parents": "6765e07d545b132dd8eccac9140a58ec26b323f5",
+    "subject": "ClassRange normative Syntax Error"
+   },
    {
     "adate": "2022-02-10T11:41:29-08:00",
     "author": "Markus Scherer",
@@ -1625,7 +1633,7 @@
    }
   ],
   "title": "Normative: Add RegExp `v` flag with set notation and properties of strings",
-  "updated_at": "2022-02-10T19:42:39Z"
+  "updated_at": "2022-02-10T21:32:03Z"
  },
  {
   "base": "a2da384e5577aa3c4e423c5f2535a44a94551376",
