@@ -1466,11 +1466,27 @@
  {
   "base": "b64ac7fb4ae0a7c1a3332274e51c9664b47b4363",
   "created_at": "2021-05-28T11:28:01Z",
-  "head": "a6174b623661ff2c3ebe53448bb1c38429d09e35",
+  "head": "aba13902c1286e7b04d08159847872d76bc85a35",
   "login": "mathiasbynens",
   "number": 2418,
   "ref": "regexp-v-flag",
   "revs": [
+   {
+    "adate": "2022-02-10T15:38:27-08:00",
+    "author": "Markus Scherer",
+    "date": "2022-02-10T15:38:27-08:00",
+    "hash": "aba13902c1286e7b04d08159847872d76bc85a35",
+    "parents": "d6a8342c162f245f8baccaecb2e9410a88f1439a",
+    "subject": "LoneUnicodePropertyNameOrValue yields CharSetElements which can be strings"
+   },
+   {
+    "adate": "2022-02-10T15:21:36-08:00",
+    "author": "Markus Scherer",
+    "date": "2022-02-10T15:21:36-08:00",
+    "hash": "d6a8342c162f245f8baccaecb2e9410a88f1439a",
+    "parents": "a6174b623661ff2c3ebe53448bb1c38429d09e35",
+    "subject": "GetAllCharacters() AO \u2192 AllCharacters notation"
+   },
    {
     "adate": "2022-02-10T14:41:24-08:00",
     "author": "Markus Scherer",
@@ -1657,7 +1673,7 @@
    }
   ],
   "title": "Normative: Add RegExp `v` flag with set notation and properties of strings",
-  "updated_at": "2022-02-10T22:53:08Z"
+  "updated_at": "2022-02-10T23:38:55Z"
  },
  {
   "base": "a2da384e5577aa3c4e423c5f2535a44a94551376",
