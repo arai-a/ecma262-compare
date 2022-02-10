@@ -1466,11 +1466,19 @@
  {
   "base": "b64ac7fb4ae0a7c1a3332274e51c9664b47b4363",
   "created_at": "2021-05-28T11:28:01Z",
-  "head": "73d434a53e5c044c73b1040055028042bf0b014f",
+  "head": "a6174b623661ff2c3ebe53448bb1c38429d09e35",
   "login": "mathiasbynens",
   "number": 2418,
   "ref": "regexp-v-flag",
   "revs": [
+   {
+    "adate": "2022-02-10T14:41:24-08:00",
+    "author": "Markus Scherer",
+    "date": "2022-02-10T14:41:24-08:00",
+    "hash": "a6174b623661ff2c3ebe53448bb1c38429d09e35",
+    "parents": "73d434a53e5c044c73b1040055028042bf0b014f",
+    "subject": "rename maybesimplecasefolding clause id"
+   },
    {
     "adate": "2022-02-10T14:19:23-08:00",
     "author": "Markus Scherer",
@@ -1649,7 +1657,7 @@
    }
   ],
   "title": "Normative: Add RegExp `v` flag with set notation and properties of strings",
-  "updated_at": "2022-02-10T22:19:39Z"
+  "updated_at": "2022-02-10T22:53:08Z"
  },
  {
   "base": "a2da384e5577aa3c4e423c5f2535a44a94551376",
