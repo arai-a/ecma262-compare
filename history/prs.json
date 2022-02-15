@@ -778,11 +778,19 @@
  {
   "base": "ca53334e343bf804fcbb9dbe8882eb52a75aa283",
   "created_at": "2021-10-08T00:09:44Z",
-  "head": "a2918ad36cb92aebbaf6b4aebafec8f8b612fc1b",
+  "head": "604023019d7c3674b781bbcbabdfc1182ff9e416",
   "login": "tc39",
   "number": 2547,
   "ref": "GH-1796",
   "revs": [
+   {
+    "adate": "2022-02-15T10:18:54-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2022-02-15T10:18:54-08:00",
+    "hash": "604023019d7c3674b781bbcbabdfc1182ff9e416",
+    "parents": "a2918ad36cb92aebbaf6b4aebafec8f8b612fc1b",
+    "subject": "disambiguate some types"
+   },
    {
     "adate": "2022-02-14T15:37:53-08:00",
     "author": "Kevin Gibbons",
@@ -1393,7 +1401,7 @@
    }
   ],
   "title": "Editorial: remove implicit wrapping/unwrapping of completion records",
-  "updated_at": "2022-02-14T23:37:59Z"
+  "updated_at": "2022-02-15T18:19:01Z"
  },
  {
   "base": "267fdbdc716677bc9934906a498cf9bad4bfb70d",
