@@ -390,11 +390,27 @@
  {
   "base": "ca53334e343bf804fcbb9dbe8882eb52a75aa283",
   "created_at": "2022-01-03T17:40:42Z",
-  "head": "05dc1a2d0279e140dfea42edc4cbb515e846c891",
+  "head": "daf68744751458dff09b93e8e3572a569178071d",
   "login": "nicolo-ribaudo",
   "number": 2606,
   "ref": "sortcompare-comparefn-param",
   "revs": [
+   {
+    "adate": "2022-02-16T19:36:04+01:00",
+    "author": "Nicol\u00f2 Ribaudo",
+    "date": "2022-02-16T19:36:04+01:00",
+    "hash": "daf68744751458dff09b93e8e3572a569178071d",
+    "parents": "8b8489ea5a873796ded80cdbbe54f677f9a1995e",
+    "subject": "Add oldids to TypedArray"
+   },
+   {
+    "adate": "2022-02-16T19:31:54+01:00",
+    "author": "Nicol\u00f2 Ribaudo",
+    "date": "2022-02-16T19:31:54+01:00",
+    "hash": "8b8489ea5a873796ded80cdbbe54f677f9a1995e",
+    "parents": "05dc1a2d0279e140dfea42edc4cbb515e846c891",
+    "subject": "Use oldids"
+   },
    {
     "adate": "2022-01-03T18:35:13+01:00",
     "author": "Nicol\u00f2 Ribaudo",
@@ -405,7 +421,7 @@
    }
   ],
   "title": " Editorial: Define SortCompare as an Abstract Closure",
-  "updated_at": "2022-02-16T18:15:05Z"
+  "updated_at": "2022-02-16T18:36:10Z"
  },
  {
   "base": "b64ac7fb4ae0a7c1a3332274e51c9664b47b4363",
@@ -2064,9 +2080,9 @@
   "updated_at": "2021-03-02T20:18:19Z"
  },
  {
-  "base": "2d612452d1115cbdd21b9a607aab6c9408552734",
+  "base": "ca53334e343bf804fcbb9dbe8882eb52a75aa283",
   "created_at": "2021-02-11T16:04:14Z",
-  "head": "aeea3da30320eb40926ce36661e8d8735068e421",
+  "head": "ba05014efa10fedb6fa6b58d781a80653707f4aa",
   "login": "jmdyck",
   "number": 2305,
   "ref": "SortArrayLike",
@@ -2074,54 +2090,38 @@
    {
     "adate": "2021-02-11T10:43:36-05:00",
     "author": "Michael Dyck",
-    "date": "2022-01-10T20:33:53-05:00",
-    "hash": "aeea3da30320eb40926ce36661e8d8735068e421",
-    "parents": "c7e45b2f95759b4e0afd9d74f8fdc92b636e642c",
-    "subject": "Editorial: Factor out SortArrayLike"
+    "date": "2022-02-16T13:39:13-05:00",
+    "hash": "ba05014efa10fedb6fa6b58d781a80653707f4aa",
+    "parents": "9538428a5c8f1ec90f5e33695acc4369f8b60aa9",
+    "subject": "Editorial: Factor out SortIndexedProperties"
    },
    {
     "adate": "2021-02-11T10:32:49-05:00",
     "author": "Michael Dyck",
-    "date": "2022-01-10T20:33:53-05:00",
-    "hash": "c7e45b2f95759b4e0afd9d74f8fdc92b636e642c",
-    "parents": "df33e58035e96c0ebd5d6d356016014f05d1fe6e",
+    "date": "2022-02-16T13:32:47-05:00",
+    "hash": "9538428a5c8f1ec90f5e33695acc4369f8b60aa9",
+    "parents": "a9a4900cbf7ebf07a0e75d9f08781af3edb5b35e",
     "subject": "Editorial: Recast SortCompare from abstract op to abstract closure"
-   },
-   {
-    "adate": "2021-02-11T10:05:40-05:00",
-    "author": "Michael Dyck",
-    "date": "2022-01-10T20:21:12-05:00",
-    "hash": "df33e58035e96c0ebd5d6d356016014f05d1fe6e",
-    "parents": "2c87c7bd694bbdedf4ff522b7c9a9c766b37e986",
-    "subject": "Editorial: Collapse 3 paragraphs re \"sort order\""
    },
    {
     "adate": "2021-02-11T09:57:55-05:00",
     "author": "Michael Dyck",
-    "date": "2022-01-10T20:21:12-05:00",
-    "hash": "2c87c7bd694bbdedf4ff522b7c9a9c766b37e986",
-    "parents": "8b448d0ab9b7a4e7d2b88e3aa3d88ab8e5dee6e1",
+    "date": "2022-02-16T12:31:10-05:00",
+    "hash": "a9a4900cbf7ebf07a0e75d9f08781af3edb5b35e",
+    "parents": "3ef73801bc933babe992ae51f32f622ddbe29454",
     "subject": "Editorial: Tweak the definition of \"sort order\""
-   },
-   {
-    "adate": "2021-02-11T09:35:05-05:00",
-    "author": "Michael Dyck",
-    "date": "2022-01-10T20:21:12-05:00",
-    "hash": "8b448d0ab9b7a4e7d2b88e3aa3d88ab8e5dee6e1",
-    "parents": "60659b0b60c3942086c49d28e68d3a83e3de0883",
-    "subject": "Editorial: Simplify the statement of when sort order is imp-defined"
    },
    {
     "adate": "2021-02-11T09:15:50-05:00",
     "author": "Michael Dyck",
-    "date": "2022-01-10T20:21:12-05:00",
-    "hash": "60659b0b60c3942086c49d28e68d3a83e3de0883",
-    "parents": "2d612452d1115cbdd21b9a607aab6c9408552734",
+    "date": "2022-02-16T12:21:21-05:00",
+    "hash": "3ef73801bc933babe992ae51f32f622ddbe29454",
+    "parents": "ca53334e343bf804fcbb9dbe8882eb52a75aa283",
     "subject": "Editorial: Rename \"consistent comparison function\" as \"consistent comparator\""
    }
   ],
   "title": "Editorial: Factor out common `sort` functionality",
-  "updated_at": "2022-01-11T01:59:06Z"
+  "updated_at": "2022-02-16T18:44:40Z"
  },
  {
   "base": "b64ac7fb4ae0a7c1a3332274e51c9664b47b4363",
