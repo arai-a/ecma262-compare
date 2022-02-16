@@ -1,5 +1,45 @@
 [
  {
+  "adate": "2022-02-16T15:18:11-08:00",
+  "author": "Michael Dyck",
+  "date": "2022-02-16T15:18:11-08:00",
+  "hash": "1c7ae4ba8dd7b4753a32f734fe3de6eeaa79bb8d",
+  "parents": "b3c29fd9aa85d38c814f9be6584d945a577975d3",
+  "subject": "Editorial: Simplify IsFooDescriptor ops (#2624)"
+ },
+ {
+  "adate": "2022-02-16T15:18:10-08:00",
+  "author": "Michael Dyck",
+  "date": "2022-02-16T15:18:10-08:00",
+  "hash": "b3c29fd9aa85d38c814f9be6584d945a577975d3",
+  "parents": "3d18997cc6a5f91c61402ca1c73f97218a9c9996",
+  "subject": "Editorial: Eliminate \"present\" or \"absent\" fields (#2624)"
+ },
+ {
+  "adate": "2022-02-16T15:18:09-08:00",
+  "author": "Michael Dyck",
+  "date": "2022-02-16T15:18:09-08:00",
+  "hash": "3d18997cc6a5f91c61402ca1c73f97218a9c9996",
+  "parents": "0b357497a0477f1bd6ae03f4d56c21a02ab6da2b",
+  "subject": "Editorial: Use consistent phrasing in ValidateAndApplyPropertyDescriptor (#2624)"
+ },
+ {
+  "adate": "2022-02-16T15:18:08-08:00",
+  "author": "Michael Dyck",
+  "date": "2022-02-16T15:18:08-08:00",
+  "hash": "0b357497a0477f1bd6ae03f4d56c21a02ab6da2b",
+  "parents": "85d910c022cc61fd280b22c267d073a6d84f48bf",
+  "subject": "Editorial: Eliminate `_rec_.[[Field]] is absent` (#2624)"
+ },
+ {
+  "adate": "2022-02-16T15:14:36-08:00",
+  "author": "ExE Boss",
+  "date": "2022-02-16T15:14:36-08:00",
+  "hash": "85d910c022cc61fd280b22c267d073a6d84f48bf",
+  "parents": "ca53334e343bf804fcbb9dbe8882eb52a75aa283",
+  "subject": "Editorial: Add\u00a0`Iterator\u00a0Record`\u00a0type (#2591)"
+ },
+ {
   "adate": "2022-02-03T10:34:03-08:00",
   "author": "Gus Caplan",
   "date": "2022-02-03T10:34:03-08:00",
