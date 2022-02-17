@@ -1,26 +1,6 @@
 [
  {
   "base": "1c7ae4ba8dd7b4753a32f734fe3de6eeaa79bb8d",
-  "created_at": "2022-02-17T18:12:51Z",
-  "head": "cf7145ea3f14943b5aea7d5e05c771f31f989606",
-  "login": "ljharb",
-  "number": 2667,
-  "ref": "notify-waiter",
-  "revs": [
-   {
-    "adate": "2022-02-17T10:11:39-08:00",
-    "author": "Jordan Harband",
-    "date": "2022-02-17T10:13:35-08:00",
-    "hash": "cf7145ea3f14943b5aea7d5e05c771f31f989606",
-    "parents": "1c7ae4ba8dd7b4753a32f734fe3de6eeaa79bb8d",
-    "subject": "Editorial: disambiguate NotifyWaiter calls (#2667)"
-   }
-  ],
-  "title": "Editorial: disambiguate NotifyWaiter calls",
-  "updated_at": "2022-02-17T18:14:05Z"
- },
- {
-  "base": "1c7ae4ba8dd7b4753a32f734fe3de6eeaa79bb8d",
   "created_at": "2022-02-15T21:45:02Z",
   "head": "105a7d653a477bff823f27518b4640a92fd0e4bc",
   "login": "ljharb",
@@ -1408,80 +1388,48 @@
   "updated_at": "2021-03-02T20:18:19Z"
  },
  {
-  "base": "ca53334e343bf804fcbb9dbe8882eb52a75aa283",
+  "base": "cf7145ea3f14943b5aea7d5e05c771f31f989606",
   "created_at": "2021-02-11T16:04:14Z",
-  "head": "c7cf19dd63f3d362d0f65598f0c2d129583602e1",
+  "head": "5f4e0753bda8f856fe791383351613765346e1a9",
   "login": "jmdyck",
   "number": 2305,
   "ref": "SortArrayLike",
   "revs": [
    {
-    "adate": "2022-02-17T10:12:12-05:00",
-    "author": "Michael Dyck",
-    "date": "2022-02-17T10:12:12-05:00",
-    "hash": "c7cf19dd63f3d362d0f65598f0c2d129583602e1",
-    "parents": "82057431136fda4fb030f3affd00741deca97e7b",
-    "subject": "fixup for commit 4: Reorder the A.p.sort() imp-def sentence"
-   },
-   {
-    "adate": "2022-02-17T10:05:56-05:00",
-    "author": "Michael Dyck",
-    "date": "2022-02-17T10:05:56-05:00",
-    "hash": "82057431136fda4fb030f3affd00741deca97e7b",
-    "parents": "e1dd870adc44f8bd9a1fb9926da3fb49b2dc0b95",
-    "subject": "fixup for commit 3: unswap those two emu-notes"
-   },
-   {
-    "adate": "2022-02-16T17:05:47-05:00",
-    "author": "Michael Dyck",
-    "date": "2022-02-16T17:05:47-05:00",
-    "hash": "e1dd870adc44f8bd9a1fb9926da3fb49b2dc0b95",
-    "parents": "6c15f11107d7bf64d6fbbe658fed245254f34447",
-    "subject": "fixup (for commit 4): Move A.p.sort's extra criterion for imp-def sort order"
-   },
-   {
-    "adate": "2022-02-16T16:44:30-05:00",
-    "author": "Michael Dyck",
-    "date": "2022-02-16T16:44:30-05:00",
-    "hash": "6c15f11107d7bf64d6fbbe658fed245254f34447",
-    "parents": "ba05014efa10fedb6fa6b58d781a80653707f4aa",
-    "subject": "fixup (for commit 1): drop redundant link"
-   },
-   {
     "adate": "2021-02-11T10:43:36-05:00",
     "author": "Michael Dyck",
-    "date": "2022-02-16T13:39:13-05:00",
-    "hash": "ba05014efa10fedb6fa6b58d781a80653707f4aa",
-    "parents": "9538428a5c8f1ec90f5e33695acc4369f8b60aa9",
+    "date": "2022-02-17T16:11:26-05:00",
+    "hash": "5f4e0753bda8f856fe791383351613765346e1a9",
+    "parents": "bb076124cbf47db3263bfeb33d9c55f19bd90914",
     "subject": "Editorial: Factor out SortIndexedProperties"
    },
    {
     "adate": "2021-02-11T10:32:49-05:00",
     "author": "Michael Dyck",
-    "date": "2022-02-16T13:32:47-05:00",
-    "hash": "9538428a5c8f1ec90f5e33695acc4369f8b60aa9",
-    "parents": "a9a4900cbf7ebf07a0e75d9f08781af3edb5b35e",
+    "date": "2022-02-17T16:06:54-05:00",
+    "hash": "bb076124cbf47db3263bfeb33d9c55f19bd90914",
+    "parents": "8a53867ca5094487d6b5297f7d97b336c3bb407b",
     "subject": "Editorial: Recast SortCompare from abstract op to abstract closure"
    },
    {
     "adate": "2021-02-11T09:57:55-05:00",
     "author": "Michael Dyck",
-    "date": "2022-02-16T12:31:10-05:00",
-    "hash": "a9a4900cbf7ebf07a0e75d9f08781af3edb5b35e",
-    "parents": "3ef73801bc933babe992ae51f32f622ddbe29454",
+    "date": "2022-02-17T16:03:49-05:00",
+    "hash": "8a53867ca5094487d6b5297f7d97b336c3bb407b",
+    "parents": "8f32571b3e58987edb18d0e88605a165649e9ac0",
     "subject": "Editorial: Tweak the definition of \"sort order\""
    },
    {
     "adate": "2021-02-11T09:15:50-05:00",
     "author": "Michael Dyck",
-    "date": "2022-02-16T12:21:21-05:00",
-    "hash": "3ef73801bc933babe992ae51f32f622ddbe29454",
+    "date": "2022-02-17T16:03:49-05:00",
+    "hash": "8f32571b3e58987edb18d0e88605a165649e9ac0",
     "parents": "ca53334e343bf804fcbb9dbe8882eb52a75aa283",
     "subject": "Editorial: Rename \"consistent comparison function\" as \"consistent comparator\""
    }
   ],
   "title": "Editorial: Factor out common `sort` functionality",
-  "updated_at": "2022-02-17T15:13:11Z"
+  "updated_at": "2022-02-17T21:19:23Z"
  },
  {
   "base": "b64ac7fb4ae0a7c1a3332274e51c9664b47b4363",
