@@ -7528,12 +7528,1516 @@
   "subject": "Meta: update @alrra/travis-scripts"
  },
  {
+  "adate": "2018-11-06T22:14:11-05:00",
+  "author": "Matthew Carter",
+  "date": "2018-11-07T11:58:20-08:00",
+  "hash": "7acacc524213058a2368b5fa751fac7ea08ba230",
+  "parents": "2af655fe01b922ea32a64f050de62239046918c2",
+  "subject": "Editorial: Update abstract line of JSON.stringify section (#1345)"
+ },
+ {
+  "adate": "2018-11-01T14:46:03-07:00",
+  "author": "Dale Bustad",
+  "date": "2018-11-01T14:46:03-07:00",
+  "hash": "2af655fe01b922ea32a64f050de62239046918c2",
+  "parents": "9da8fb6ae36899341a3694a4c6af111981b60831",
+  "subject": "Editorial: Fence non-terminal token for NotCodePoint/CodePoint. (#1337)"
+ },
+ {
+  "adate": "2018-10-24T20:49:55+02:00",
+  "author": "Mathias Bynens",
+  "date": "2018-10-24T11:49:55-07:00",
+  "hash": "9da8fb6ae36899341a3694a4c6af111981b60831",
+  "parents": "f47d5d5b2f455994dd3d4889849a65a64c97ecd7",
+  "subject": "Normative: Use array indices instead of integer indices in OrdinaryOwnPropertyKeys (#1242)"
+ },
+ {
+  "adate": "2018-10-24T10:49:43-07:00",
+  "author": "Brian Terlson",
+  "date": "2018-10-24T10:49:43-07:00",
+  "hash": "f47d5d5b2f455994dd3d4889849a65a64c97ecd7",
+  "parents": "3e38b659850ec49ccf49f74ec1290795825b956a",
+  "subject": "Editorial: fix typo in section id"
+ },
+ {
+  "adate": "2018-10-24T18:47:53+02:00",
+  "author": "Mathias Bynens",
+  "date": "2018-10-24T09:47:53-07:00",
+  "hash": "3e38b659850ec49ccf49f74ec1290795825b956a",
+  "parents": "578dd55b4dc727355ec28ffaeecd69196ba8a6d8",
+  "subject": "Normative: Fix [[OwnPropertyKeys]]() for String exotic objects (#1243)"
+ },
+ {
   "adate": "2018-10-11T10:04:50-07:00",
   "author": "Timothy Gu",
   "date": "2018-10-11T10:04:50-07:00",
   "hash": "5d64fca0f6e38373fb79e523c0ed2d825853a02c",
   "parents": "fc9ecdcd74294d0ca3146d4b274e2a8e79565dc3",
   "subject": "Editorial: Add explicit Return to Await (#1328)"
+ },
+ {
+  "adate": "2018-02-21T15:10:34+01:00",
+  "author": "Andreas Woess",
+  "date": "2018-10-05T14:34:25-07:00",
+  "hash": "578dd55b4dc727355ec28ffaeecd69196ba8a6d8",
+  "parents": "8af002384f9bd5e19496b88d768a73a18d411b32",
+  "subject": "Normative: Add missing return if IteratorComplete to ForIn/OfBodyEvaluation (#1111)"
+ },
+ {
+  "adate": "2018-09-18T16:36:23-05:00",
+  "author": "Gus Caplan",
+  "date": "2018-09-19T11:48:35-07:00",
+  "hash": "8af002384f9bd5e19496b88d768a73a18d411b32",
+  "parents": "691173a72434ccf0ac7cc0104d1eecb6d0c740e7",
+  "subject": "Editorial: fix some Iterator call completions (#1310)"
+ },
+ {
+  "adate": "2018-06-07T10:04:19+02:00",
+  "author": "Mathias Bynens",
+  "date": "2018-09-12T11:36:17-07:00",
+  "hash": "691173a72434ccf0ac7cc0104d1eecb6d0c740e7",
+  "parents": "44e80585bcf293d1e644d74f13b0462bec5df57f",
+  "subject": "Normative: Update Unicode property lists per Unicode v11 (#1218)"
+ },
+ {
+  "adate": "2018-08-30T01:10:55-04:00",
+  "author": "Timothy Gu",
+  "date": "2018-09-05T17:16:54-07:00",
+  "hash": "44e80585bcf293d1e644d74f13b0462bec5df57f",
+  "parents": "f3e73e7225827cade38adb81c85b8c1795874a25",
+  "subject": "Normative: Add missing GetValue() to TemplateLiteral evaluation"
+ },
+ {
+  "adate": "2018-08-14T22:22:49-04:00",
+  "author": "Michael Dyck",
+  "date": "2018-09-05T17:15:06-07:00",
+  "hash": "f3e73e7225827cade38adb81c85b8c1795874a25",
+  "parents": "c3a51abf6dc73c7723400319a78426916763b168",
+  "subject": "Editorial: Add a Return step to ModuleDeclarationEnvironmentSetup (#1266)"
+ },
+ {
+  "adate": "2018-08-10T00:14:39-04:00",
+  "author": "Michael Dyck",
+  "date": "2018-09-05T17:15:06-07:00",
+  "hash": "c3a51abf6dc73c7723400319a78426916763b168",
+  "parents": "72df49de86480158e7762a337da02ade7e91febb",
+  "subject": "Editorial: Fix PerformPromiseThen's 'return' step (#1266)"
+ },
+ {
+  "adate": "2018-08-09T23:38:31-04:00",
+  "author": "Michael Dyck",
+  "date": "2018-09-05T17:15:06-07:00",
+  "hash": "72df49de86480158e7762a337da02ade7e91febb",
+  "parents": "4dc4aa5c53edb916ebe7990ec6d6fb9a2136fa35",
+  "subject": "Editorial: _Type_ -> _type_ (#1266)"
+ },
+ {
+  "adate": "2018-08-09T22:44:41-04:00",
+  "author": "Michael Dyck",
+  "date": "2018-09-05T17:15:05-07:00",
+  "hash": "4dc4aa5c53edb916ebe7990ec6d6fb9a2136fa35",
+  "parents": "1a0b732730e4fdcedec16b7e5bea2d6778c6e8ba",
+  "subject": "Editorial: semicolon to period (#1266)"
+ },
+ {
+  "adate": "2018-08-09T22:14:20-04:00",
+  "author": "Michael Dyck",
+  "date": "2018-09-05T17:15:05-07:00",
+  "hash": "1a0b732730e4fdcedec16b7e5bea2d6778c6e8ba",
+  "parents": "0033dd99b7f3726e1646f7d3b7a531df94a9f0ef",
+  "subject": "Editorial: tweak PerformPromiseThen preamble (#1266)"
+ },
+ {
+  "adate": "2018-08-05T10:36:30-04:00",
+  "author": "Michael Dyck",
+  "date": "2018-09-05T17:15:05-07:00",
+  "hash": "0033dd99b7f3726e1646f7d3b7a531df94a9f0ef",
+  "parents": "204905e1edc6c9760c30d23e6884fb226777e439",
+  "subject": "Editorial: tabs to spaces (#1266)"
+ },
+ {
+  "adate": "2018-07-23T23:06:43-04:00",
+  "author": "Michael Dyck",
+  "date": "2018-09-05T17:15:05-07:00",
+  "hash": "204905e1edc6c9760c30d23e6884fb226777e439",
+  "parents": "4d0b57c17384756ea6bbee15b84a7b28c11275a3",
+  "subject": "Editorial: fix type error in 'Valid Chosen Reads' (#1266)"
+ },
+ {
+  "adate": "2018-07-21T23:25:00-04:00",
+  "author": "Michael Dyck",
+  "date": "2018-09-05T17:15:05-07:00",
+  "hash": "4d0b57c17384756ea6bbee15b84a7b28c11275a3",
+  "parents": "b056d9f4502c9f39784d64ceeb35665f6a91997d",
+  "subject": "Editorial: set up the active function in the alg, not the preamble (#1266)"
+ },
+ {
+  "adate": "2018-07-20T23:17:17-04:00",
+  "author": "Michael Dyck",
+  "date": "2018-09-05T17:15:05-07:00",
+  "hash": "b056d9f4502c9f39784d64ceeb35665f6a91997d",
+  "parents": "ecd1127b4583bcdcf3b67916d626daa58b91c602",
+  "subject": "Editorial: add \u2018!\u2019 to call to StringCreate() (#1266)"
+ },
+ {
+  "adate": "2018-07-20T21:42:31-04:00",
+  "author": "Michael Dyck",
+  "date": "2018-09-05T17:15:05-07:00",
+  "hash": "ecd1127b4583bcdcf3b67916d626daa58b91c602",
+  "parents": "2d8b67bb7ab9cde9ce41472597516b68c8b0cb7b",
+  "subject": "Editorial: tweak 4 constructor preambles (#1266)"
+ },
+ {
+  "adate": "2018-07-20T21:41:32-04:00",
+  "author": "Michael Dyck",
+  "date": "2018-09-05T17:15:04-07:00",
+  "hash": "2d8b67bb7ab9cde9ce41472597516b68c8b0cb7b",
+  "parents": "d27f0ec12eec69264d6283d67a85341f90109936",
+  "subject": "Editorial: tweak two constructor headers (#1266)"
+ },
+ {
+  "adate": "2018-07-18T23:44:52-04:00",
+  "author": "Michael Dyck",
+  "date": "2018-09-05T17:15:04-07:00",
+  "hash": "d27f0ec12eec69264d6283d67a85341f90109936",
+  "parents": "d751daa86fefa6b0bc902f3bb6244d1abc4ee54b",
+  "subject": "Editorial: delete space for empty arg list (#1266)"
+ },
+ {
+  "adate": "2018-07-18T23:39:57-04:00",
+  "author": "Michael Dyck",
+  "date": "2018-09-05T17:15:04-07:00",
+  "hash": "d751daa86fefa6b0bc902f3bb6244d1abc4ee54b",
+  "parents": "fcd2fc9bd2f78c626432394997949a37d64059b1",
+  "subject": "Editorial: tweak syntax of code unit 'literals' (#1266)"
+ },
+ {
+  "adate": "2018-07-15T22:22:38-04:00",
+  "author": "Michael Dyck",
+  "date": "2018-09-05T17:15:04-07:00",
+  "hash": "fcd2fc9bd2f78c626432394997949a37d64059b1",
+  "parents": "9ce8b389edd469f7c3fa2e1a879a2f07a06dd8f5",
+  "subject": "Editorial: refactor Object.assign (#1266)"
+ },
+ {
+  "adate": "2018-07-15T22:11:59-04:00",
+  "author": "Michael Dyck",
+  "date": "2018-09-05T17:15:04-07:00",
+  "hash": "9ce8b389edd469f7c3fa2e1a879a2f07a06dd8f5",
+  "parents": "a35d469f1d9a7bccb9c466fe21255efd40106c82",
+  "subject": "Editorial: add 4th argument to Set() call (#1266)"
+ },
+ {
+  "adate": "2018-07-15T22:09:48-04:00",
+  "author": "Michael Dyck",
+  "date": "2018-09-05T17:15:04-07:00",
+  "hash": "a35d469f1d9a7bccb9c466fe21255efd40106c82",
+  "parents": "80e83eb4483f2617219bcd8458ffec59ae4fdbd6",
+  "subject": "Editorial: fix a couple capitalization errors (#1266)"
+ },
+ {
+  "adate": "2018-07-15T22:01:44-04:00",
+  "author": "Michael Dyck",
+  "date": "2018-09-05T17:15:04-07:00",
+  "hash": "80e83eb4483f2617219bcd8458ffec59ae4fdbd6",
+  "parents": "6fa99fade493f65db065eaae043f7ae6289705da",
+  "subject": "Editorial: eliminate \"do X and do Y\" (#1266)"
+ },
+ {
+  "adate": "2018-07-15T21:48:44-04:00",
+  "author": "Michael Dyck",
+  "date": "2018-09-05T17:15:03-07:00",
+  "hash": "6fa99fade493f65db065eaae043f7ae6289705da",
+  "parents": "c35da71d302324c6f9387ff9f23cbb557776789f",
+  "subject": "Editorial: put '?' before some calls to ToUint32() (#1266)"
+ },
+ {
+  "adate": "2018-07-15T21:43:35-04:00",
+  "author": "Michael Dyck",
+  "date": "2018-09-05T17:15:03-07:00",
+  "hash": "c35da71d302324c6f9387ff9f23cbb557776789f",
+  "parents": "bfb13de5543b77e03bc084662c63754318710626",
+  "subject": "Editorial: put '!' before more calls to ToInteger() (#1266)"
+ },
+ {
+  "adate": "2018-07-15T21:25:59-04:00",
+  "author": "Michael Dyck",
+  "date": "2018-09-05T17:15:03-07:00",
+  "hash": "bfb13de5543b77e03bc084662c63754318710626",
+  "parents": "77a3974fc08cf1a0613091ec371d2380b247d81c",
+  "subject": "Editorial: put '!' before some calls to ToInteger() (#1266)"
+ },
+ {
+  "adate": "2018-07-15T21:10:50-04:00",
+  "author": "Michael Dyck",
+  "date": "2018-09-05T17:15:03-07:00",
+  "hash": "77a3974fc08cf1a0613091ec371d2380b247d81c",
+  "parents": "70d63193c2699e292b15da92889792ec6476612f",
+  "subject": "Editorial: phrase an assertion more conventionally (#1266)"
+ },
+ {
+  "adate": "2018-07-15T20:56:27-04:00",
+  "author": "Michael Dyck",
+  "date": "2018-09-05T17:15:03-07:00",
+  "hash": "70d63193c2699e292b15da92889792ec6476612f",
+  "parents": "af7eb7b863e4593bbcf9113b6fce50473d30f441",
+  "subject": "Editorial: convert parentheticals to assertions (#1266)"
+ },
+ {
+  "adate": "2018-07-15T20:44:46-04:00",
+  "author": "Michael Dyck",
+  "date": "2018-09-05T17:15:03-07:00",
+  "hash": "af7eb7b863e4593bbcf9113b6fce50473d30f441",
+  "parents": "540c1d315a65200dee18bec87d9ef5dc9b11fbdd",
+  "subject": "Editorial: \"element\" -> \"code unit\" for String (#1266)"
+ },
+ {
+  "adate": "2018-07-15T22:18:24-04:00",
+  "author": "Michael Dyck",
+  "date": "2018-09-05T17:15:03-07:00",
+  "hash": "540c1d315a65200dee18bec87d9ef5dc9b11fbdd",
+  "parents": "78bd746694acfc167382991486bddd0e178111a5",
+  "subject": "Editorial: \"Set\" -> \"Let\" (#1266)"
+ },
+ {
+  "adate": "2018-07-15T20:22:24-04:00",
+  "author": "Michael Dyck",
+  "date": "2018-09-05T17:15:02-07:00",
+  "hash": "78bd746694acfc167382991486bddd0e178111a5",
+  "parents": "cf9bdc9ec7b98a867c6a987751a2fbb866c158ae",
+  "subject": "Editorial: \"Let\" -> \"Set\" (#1266)"
+ },
+ {
+  "adate": "2018-07-15T20:04:44-04:00",
+  "author": "Michael Dyck",
+  "date": "2018-09-05T17:15:02-07:00",
+  "hash": "cf9bdc9ec7b98a867c6a987751a2fbb866c158ae",
+  "parents": "d413c888ece21afc319b1ce0978f466eb46e2314",
+  "subject": "Editorial: \"Let\" -> \"Set\" (#1266)"
+ },
+ {
+  "adate": "2018-07-15T17:32:13-04:00",
+  "author": "Michael Dyck",
+  "date": "2018-09-05T17:15:02-07:00",
+  "hash": "d413c888ece21afc319b1ce0978f466eb46e2314",
+  "parents": "2727d1f632811feaa67acfd1261bcc84ba64f578",
+  "subject": "Editorial: \"Let\" -> \"Set\" (#1266)"
+ },
+ {
+  "adate": "2018-07-15T17:13:43-04:00",
+  "author": "Michael Dyck",
+  "date": "2018-09-05T17:15:02-07:00",
+  "hash": "2727d1f632811feaa67acfd1261bcc84ba64f578",
+  "parents": "97cbf92c569480e4c6e1c153b849608e031173d7",
+  "subject": "Editorial: \"Let _x_ be _x_ - 1\" -> \"Decrease _x_ by 1\" (#1266)"
+ },
+ {
+  "adate": "2018-07-15T17:00:14-04:00",
+  "author": "Michael Dyck",
+  "date": "2018-09-05T17:15:02-07:00",
+  "hash": "97cbf92c569480e4c6e1c153b849608e031173d7",
+  "parents": "ecbae5a58bb1fffeb11bf7ecf90d850bedace953",
+  "subject": "Editorial: \"Let _x_ be _x_ + 1\" -> \"Increase _x_ by 1\" (#1266)"
+ },
+ {
+  "adate": "2018-07-13T17:22:19-04:00",
+  "author": "Michael Dyck",
+  "date": "2018-09-05T17:15:02-07:00",
+  "hash": "ecbae5a58bb1fffeb11bf7ecf90d850bedace953",
+  "parents": "35035d6c10d916cbc1f39acbeed6abe244342c57",
+  "subject": "Editorial: Eliminate the phrase \"is called on\" (#1266)"
+ },
+ {
+  "adate": "2018-07-13T17:21:24-04:00",
+  "author": "Michael Dyck",
+  "date": "2018-09-05T17:15:02-07:00",
+  "hash": "35035d6c10d916cbc1f39acbeed6abe244342c57",
+  "parents": "f36143ab5a193c46cc3a98ec8aceb24395ba3723",
+  "subject": "Editorial: fix a sentence in `ArrayBuffer.isView` (#1266)"
+ },
+ {
+  "adate": "2018-07-13T17:20:02-04:00",
+  "author": "Michael Dyck",
+  "date": "2018-09-05T17:15:02-07:00",
+  "hash": "f36143ab5a193c46cc3a98ec8aceb24395ba3723",
+  "parents": "4e9ea8f75f0f1aeb3fb3ea53b780da86ce958581",
+  "subject": "Editorial: be more consistent re backticks (#1266)"
+ },
+ {
+  "adate": "2018-07-13T09:03:33-04:00",
+  "author": "Michael Dyck",
+  "date": "2018-09-05T17:15:01-07:00",
+  "hash": "4e9ea8f75f0f1aeb3fb3ea53b780da86ce958581",
+  "parents": "e1d1e4626e5d58f7b07d9d0fc719ca9fc302cd13",
+  "subject": "Editorial: insert underscores around parameter name \"proto\" (#1266)"
+ },
+ {
+  "adate": "2018-07-13T08:48:06-04:00",
+  "author": "Michael Dyck",
+  "date": "2018-09-05T17:15:01-07:00",
+  "hash": "e1d1e4626e5d58f7b07d9d0fc719ca9fc302cd13",
+  "parents": "dfc67bc35b11c9c8c00f2054e8a4b7e50a507a3a",
+  "subject": "Editorial: insert space in header (#1266)"
+ },
+ {
+  "adate": "2018-07-12T20:27:31-04:00",
+  "author": "Michael Dyck",
+  "date": "2018-09-05T17:15:01-07:00",
+  "hash": "dfc67bc35b11c9c8c00f2054e8a4b7e50a507a3a",
+  "parents": "ef0cf19e78b227c768751b13d877fa27bfb38266",
+  "subject": "Markup: change an <ol> to an <emu-alg> (#1266)"
+ },
+ {
+  "adate": "2018-03-10T11:52:43+00:00",
+  "author": "Conrad Watt",
+  "date": "2018-08-23T13:00:20-07:00",
+  "hash": "ef0cf19e78b227c768751b13d877fa27bfb38266",
+  "parents": "4dbbbda2b03f75f136b77ce03bf43304a53ac940",
+  "subject": "Normative: strengthen wait-notify synchronization (#1127)"
+ },
+ {
+  "adate": "2018-03-10T11:50:51+00:00",
+  "author": "Conrad Watt",
+  "date": "2018-08-23T13:00:20-07:00",
+  "hash": "4dbbbda2b03f75f136b77ce03bf43304a53ac940",
+  "parents": "62225e4dd20b3221c9e7b9bd02374064d31e6b34",
+  "subject": "Editorial: rename EventLists internal property to EventsRecords (#1127)"
+ },
+ {
+  "adate": "2018-08-13T12:47:51-07:00",
+  "author": "Logan Smyth",
+  "date": "2018-08-15T12:37:41-07:00",
+  "hash": "62225e4dd20b3221c9e7b9bd02374064d31e6b34",
+  "parents": "d560d3be3128d7d22bb57a5859ada15d95e2acc7",
+  "subject": "Normative: Use GetValue to evaluate class heritage (#1286)"
+ },
+ {
+  "adate": "2018-08-10T18:08:57-04:00",
+  "author": "Timothy Gu",
+  "date": "2018-08-15T12:30:18-07:00",
+  "hash": "d560d3be3128d7d22bb57a5859ada15d95e2acc7",
+  "parents": "21ac6cbe31e4b3ca4a553334d66f979cd315f781",
+  "subject": "Editorial: Remove some extraneous \"result of performing\" (#1285)"
+ },
+ {
+  "adate": "2018-06-14T20:34:01-05:00",
+  "author": "Ross Kirsling",
+  "date": "2018-08-09T14:35:20-07:00",
+  "hash": "21ac6cbe31e4b3ca4a553334d66f979cd315f781",
+  "parents": "a7139c5038bdc87a5e6424a518e832b56855fbe8",
+  "subject": "Editorial: [[Extensible]] description should reference EIM invariants (#1226)"
+ },
+ {
+  "adate": "2018-03-21T11:35:01+00:00",
+  "author": "Jordan Harband",
+  "date": "2018-08-09T13:03:27-07:00",
+  "hash": "a7139c5038bdc87a5e6424a518e832b56855fbe8",
+  "parents": "e8727ee90d641851ae1cc18af6171c65b6228dbc",
+  "subject": "Editorial: refactor PerformPromiseThen to allow no capability (#1146)"
+ },
+ {
+  "adate": "2018-04-04T22:48:04-04:00",
+  "author": "Michael Dyck",
+  "date": "2018-08-09T13:00:57-07:00",
+  "hash": "e8727ee90d641851ae1cc18af6171c65b6228dbc",
+  "parents": "89e3938c790c38939ccd730a633ebc700aec652e",
+  "subject": "Editorial: ensure spaces around binary operators (#1162)"
+ },
+ {
+  "adate": "2018-06-18T21:46:55-07:00",
+  "author": "Ross Kirsling",
+  "date": "2018-08-09T12:52:08-07:00",
+  "hash": "89e3938c790c38939ccd730a633ebc700aec652e",
+  "parents": "89d6f91fdb459b2cb61e6116f58d3a8f729c2026",
+  "subject": "Editorial: use `length` consistently (#1239)"
+ },
+ {
+  "adate": "2018-08-05T15:31:32-05:00",
+  "author": "Gus Caplan",
+  "date": "2018-08-09T12:50:13-07:00",
+  "hash": "89d6f91fdb459b2cb61e6116f58d3a8f729c2026",
+  "parents": "5d61c349db122222d130d3572de1ab87f69e897e",
+  "subject": "Editorial: fix a few variable names (#1279)"
+ },
+ {
+  "adate": "2018-07-02T22:53:04-04:00",
+  "author": "Richard Gibson",
+  "date": "2018-08-03T15:29:57-07:00",
+  "hash": "5d61c349db122222d130d3572de1ab87f69e897e",
+  "parents": "76aa1bfcecff98bd7e291cd94b5ef74516baf4b5",
+  "subject": "Editorial: Update date-time format language (#1252)"
+ },
+ {
+  "adate": "2018-08-03T01:03:34+02:00",
+  "author": "Claude Pache",
+  "date": "2018-08-02T16:03:34-07:00",
+  "hash": "76aa1bfcecff98bd7e291cd94b5ef74516baf4b5",
+  "parents": "827ce4a3fe2aa4c52e78ca45620920108e7f7129",
+  "subject": "Editorial: Correct note to say Date.prototype.toString is not generic (#1269)"
+ },
+ {
+  "adate": "2018-08-02T14:58:22-07:00",
+  "author": "Brian Terlson",
+  "date": "2018-08-02T14:58:26-07:00",
+  "hash": "827ce4a3fe2aa4c52e78ca45620920108e7f7129",
+  "parents": "11ef5d46b1147688a44b345e685a9264ac9968f1",
+  "subject": "Editorial: Add @bmeck and @ljharb to the editors list"
+ },
+ {
+  "adate": "2018-08-01T13:53:58-07:00",
+  "author": "Brian Terlson",
+  "date": "2018-08-01T13:54:04-07:00",
+  "hash": "11ef5d46b1147688a44b345e685a9264ac9968f1",
+  "parents": "fb23016a1e9df4db092b2861f8b048d6aa457cd0",
+  "subject": "Editorial: fix grammar annotations: s/[&gt;/[>/g"
+ },
+ {
+  "adate": "2018-06-08T13:29:43-04:00",
+  "author": "Rick Waldron",
+  "date": "2018-08-01T12:47:17-07:00",
+  "hash": "fb23016a1e9df4db092b2861f8b048d6aa457cd0",
+  "parents": "2724be0f9aeb6265c60935334a3bdc293b2c4b4e",
+  "subject": "Normative: Rename Atomics.wake => Atomics.notify (#1220)"
+ },
+ {
+  "adate": "2018-07-24T15:08:17-07:00",
+  "author": "JeffH",
+  "date": "2018-08-01T12:44:31-07:00",
+  "hash": "2724be0f9aeb6265c60935334a3bdc293b2c4b4e",
+  "parents": "2e2a3d430cba6fb108d03e4c6176ed17d4854c7b",
+  "subject": "Editorial: Add %JSONStringify% intrinsic object (#1272)"
+ },
+ {
+  "adate": "2018-03-21T01:52:54+00:00",
+  "author": "Andrew Paprocki",
+  "date": "2018-08-01T12:33:41-07:00",
+  "hash": "2e2a3d430cba6fb108d03e4c6176ed17d4854c7b",
+  "parents": "8cbb735c730f35efe4841720c9c7e8ab35d61201",
+  "subject": "Normative: Cleanup Time Values and Time Range (#1144)"
+ },
+ {
+  "adate": "2018-03-06T07:31:51-08:00",
+  "author": "Andre\u0301 Bargull",
+  "date": "2018-08-01T12:09:52-07:00",
+  "hash": "02f414c785332a68da2e9563ae883db375e1714a",
+  "parents": "0ceb728a1adbffe42b26972a6541fd7f398b1557",
+  "subject": "Normative: Restore early SyntaxError for strict mode assignment to eval/arguments (#1132)"
+ },
+ {
+  "adate": "2018-08-01T11:43:27-07:00",
+  "author": "Jordan Harband",
+  "date": "2018-08-01T11:43:27-07:00",
+  "hash": "8cbb735c730f35efe4841720c9c7e8ab35d61201",
+  "parents": "02f414c785332a68da2e9563ae883db375e1714a",
+  "subject": "Editorial: use `nonnegative` instead of `non-negative`, per usage counts"
+ },
+ {
+  "adate": "2018-07-11T18:26:53-05:00",
+  "author": "Gus Caplan",
+  "date": "2018-07-11T18:26:53-05:00",
+  "hash": "0ceb728a1adbffe42b26972a6541fd7f398b1557",
+  "parents": "60beb210d8fc5dcbc3c4eb4f0aef718531ac603c",
+  "subject": "Editorial: fix variable name in Promise.race"
+ },
+ {
+  "adate": "2018-07-11T13:11:02-07:00",
+  "author": "Jordan Harband",
+  "date": "2018-07-11T13:11:02-07:00",
+  "hash": "60beb210d8fc5dcbc3c4eb4f0aef718531ac603c",
+  "parents": "871f915188625adf0a2a6d940f48820d281ef5f6",
+  "subject": "Editorial: create addIterableFromEntries abstract operation"
+ },
+ {
+  "adate": "2018-07-10T17:44:59-05:00",
+  "author": "Gus Caplan",
+  "date": "2018-07-10T15:44:59-07:00",
+  "hash": "dd269df67d37409a6f2099a842b8f5c75ee6fc24",
+  "parents": "bae3b66dc24dca6e6be89169f3e1da4cb8632d4a",
+  "subject": "Editorial: remove trailing space (#1259)"
+ },
+ {
+  "adate": "2018-07-09T20:52:46+02:00",
+  "author": "Maya Lekova",
+  "date": "2018-07-09T11:52:46-07:00",
+  "hash": "bae3b66dc24dca6e6be89169f3e1da4cb8632d4a",
+  "parents": "2e454c930cde7140c7b47c6d39fefe090558a831",
+  "subject": "Editorial: Simplify %AsyncFromSyncIteratorPrototype% methods (#1248)"
+ },
+ {
+  "adate": "2018-07-09T19:47:46+02:00",
+  "author": "GeorgNeis",
+  "date": "2018-07-09T10:47:46-07:00",
+  "hash": "2e454c930cde7140c7b47c6d39fefe090558a831",
+  "parents": "ca9d88a180570e5700c2f4e643477093e7fe5ac1",
+  "subject": "Editorial: Remove bogus assertion in GetModuleNamespace. (#1249)"
+ },
+ {
+  "adate": "2018-07-09T13:15:58-04:00",
+  "author": "jmdyck",
+  "date": "2018-07-09T10:15:58-07:00",
+  "hash": "ca9d88a180570e5700c2f4e643477093e7fe5ac1",
+  "parents": "e7dc63fb5d1c26beada9ffc12dc78aa6548f1fb5",
+  "subject": "Editorial: Update annex A with missing syntax"
+ },
+ {
+  "adate": "2018-06-27T15:28:20-04:00",
+  "author": "jmdyck",
+  "date": "2018-06-27T12:28:20-07:00",
+  "hash": "e7dc63fb5d1c26beada9ffc12dc78aa6548f1fb5",
+  "parents": "39cc6ee70261b062553b1101fe1a5bcb28085927",
+  "subject": "Editorial: enforce spaces-around-punctuation rules (#1225)"
+ },
+ {
+  "adate": "2018-06-28T00:57:28+05:30",
+  "author": "Ujjwal Sharma",
+  "date": "2018-06-27T12:27:28-07:00",
+  "hash": "39cc6ee70261b062553b1101fe1a5bcb28085927",
+  "parents": "8b23a30866a69283edb78e2c8e326a921f9828e9",
+  "subject": "Editorial: remove example for global object (#1247)"
+ },
+ {
+  "adate": "2018-06-27T12:08:26-07:00",
+  "author": "Brian Terlson",
+  "date": "2018-06-27T12:16:42-07:00",
+  "hash": "8b23a30866a69283edb78e2c8e326a921f9828e9",
+  "parents": "727656a0ffd13d156df51ee65ec7e19ecf24c57f",
+  "subject": "Editorial: Add intro prose for ES2018"
+ },
+ {
+  "adate": "2018-06-19T04:13:03+05:30",
+  "author": "Ujjwal Sharma",
+  "date": "2018-06-18T15:43:03-07:00",
+  "hash": "727656a0ffd13d156df51ee65ec7e19ecf24c57f",
+  "parents": "b9822df4448e578184d5e8dc476c6df448de60a1",
+  "subject": "Editorial: remove unused variables in ArraySetLength (#1231)"
+ },
+ {
+  "adate": "2018-06-19T03:31:27+05:30",
+  "author": "Ujjwal Sharma",
+  "date": "2018-06-18T15:01:27-07:00",
+  "hash": "b9822df4448e578184d5e8dc476c6df448de60a1",
+  "parents": "496e172fd3a76a7cf299e95be671769c4aed7723",
+  "subject": "Editorial: fix typo in Section 6.4.2 (#1233)"
+ },
+ {
+  "adate": "2018-06-18T14:41:34-07:00",
+  "author": "Jordan Harband",
+  "date": "2018-06-18T14:41:34-07:00",
+  "hash": "496e172fd3a76a7cf299e95be671769c4aed7723",
+  "parents": "1f5aebe796d39c7446897e55786f7533f1afe593",
+  "subject": "Editorial: remove useless es6num comments (#1237)"
+ },
+ {
+  "adate": "2018-06-17T00:32:19+05:30",
+  "author": "Ujjwal Sharma",
+  "date": "2018-06-17T00:32:19+05:30",
+  "hash": "1f5aebe796d39c7446897e55786f7533f1afe593",
+  "parents": "2a8387bb01dea08c932c92518eab74ea7008c777",
+  "subject": "Meta: add package-lock.json to gitignore"
+ },
+ {
+  "adate": "2018-06-13T18:20:06-05:00",
+  "author": "Ross Kirsling",
+  "date": "2018-06-13T16:20:06-07:00",
+  "hash": "2a8387bb01dea08c932c92518eab74ea7008c777",
+  "parents": "602000339be12e66791c16f1c937d8bea0283cca",
+  "subject": " Editorial: Built-ins needn't initialize [[Extensible]] to true (#1215)"
+ },
+ {
+  "adate": "2018-06-13T16:02:13-07:00",
+  "author": "Michael Ficarra",
+  "date": "2018-06-13T16:02:13-07:00",
+  "hash": "602000339be12e66791c16f1c937d8bea0283cca",
+  "parents": "557f2c1e3d3228646fabf0daff8d77b48bda247b",
+  "subject": "Editorial: Describe clause 27 (memory model) in section 4.4 (organisation) (#1190)"
+ },
+ {
+  "adate": "2018-06-13T18:47:59-04:00",
+  "author": "Richard Gibson",
+  "date": "2018-06-13T15:47:59-07:00",
+  "hash": "557f2c1e3d3228646fabf0daff8d77b48bda247b",
+  "parents": "04af92db314b49a5a6e007ab921e6347ac733a2c",
+  "subject": "Editorial: Refactor QuoteJSONString (and propagate improvements) (#1216)"
+ },
+ {
+  "adate": "2018-06-13T18:44:59-04:00",
+  "author": "Richard Gibson",
+  "date": "2018-06-13T15:44:59-07:00",
+  "hash": "04af92db314b49a5a6e007ab921e6347ac733a2c",
+  "parents": "6f3116bd7a2987e10c6cbe02308f0fc54bf604ee",
+  "subject": "Editorial: Introduce and use Unicode \"surrogate\" definitions (#1217)"
+ },
+ {
+  "adate": "2018-06-13T14:50:00-07:00",
+  "author": "Brian Terlson",
+  "date": "2018-06-13T14:50:00-07:00",
+  "hash": "6f3116bd7a2987e10c6cbe02308f0fc54bf604ee",
+  "parents": "f6493fc15a403c6b0bf900b904ef36c8df6061ac",
+  "subject": "meta: update ecmarkup, require node 10 for building"
+ },
+ {
+  "adate": "2018-06-04T13:54:34-04:00",
+  "author": "jmdyck",
+  "date": "2018-06-04T10:54:34-07:00",
+  "hash": "d93490299eb2cbde88fb20ad6a1a61b3970750c6",
+  "parents": "e17e789ba94c7a7ace549425f3629b4525ea2049",
+  "subject": "Editorial: Misc Editorial (#1202)"
+ },
+ {
+  "adate": "2018-06-03T19:23:34-07:00",
+  "author": "Ross Kirsling",
+  "date": "2018-06-03T19:23:34-07:00",
+  "hash": "c4126e6d03afa524d53f37f525dd85381a85d723",
+  "parents": "1f18029055b1a0adbb80eafe91b7a99c5cdf50c1",
+  "subject": "Editorial: Don't explicitly set [[Extensible]] to true"
+ },
+ {
+  "adate": "2018-05-29T23:24:14-07:00",
+  "author": "Jordan Harband",
+  "date": "2018-05-29T23:24:14-07:00",
+  "hash": "1f18029055b1a0adbb80eafe91b7a99c5cdf50c1",
+  "parents": "d93490299eb2cbde88fb20ad6a1a61b3970750c6",
+  "subject": "Editorial: reduce recursion in NumberToString"
+ },
+ {
+  "adate": "2018-05-24T15:50:49-04:00",
+  "author": "Justin Ridgewell",
+  "date": "2018-05-24T15:50:49-04:00",
+  "hash": "871f915188625adf0a2a6d940f48820d281ef5f6",
+  "parents": "cef8d4906c66c4e66f32ed894dfb0fc74efbf694",
+  "subject": "Normative: Evaluate `this` binding first in SuperProperty"
+ },
+ {
+  "adate": "2018-05-23T19:39:46+01:00",
+  "author": "Ingvar Stepanyan",
+  "date": "2018-05-23T19:39:46+01:00",
+  "hash": "4a0b2ade87d263529ac903893130cf4b4f1e4c76",
+  "parents": "255b35a650c936eff7423b4275c5de38f77e7f22",
+  "subject": "Editorial: separate `let [` into two tokens"
+ },
+ {
+  "adate": "2018-05-18T16:55:33-04:00",
+  "author": "jmdyck",
+  "date": "2018-05-18T13:55:33-07:00",
+  "hash": "e17e789ba94c7a7ace549425f3629b4525ea2049",
+  "parents": "43ba3905409c4a7033a3f1fa1b648dda601bc2dc",
+  "subject": "Editorial: clarify that [[Construct]] implies [[Call]] (#1196)"
+ },
+ {
+  "adate": "2018-05-17T17:56:55-04:00",
+  "author": "jmdyck",
+  "date": "2018-05-17T14:56:55-07:00",
+  "hash": "43ba3905409c4a7033a3f1fa1b648dda601bc2dc",
+  "parents": "01c0944ed544972569ab77d879b00578c85e8ca1",
+  "subject": "Editorial: use <ul> to list characteristics of intrinsics (#1125)"
+ },
+ {
+  "adate": "2018-05-17T17:10:45-04:00",
+  "author": "John Musgrave",
+  "date": "2018-05-17T14:10:45-07:00",
+  "hash": "01c0944ed544972569ab77d879b00578c85e8ca1",
+  "parents": "53e895fa0c6aa2009fd9b2fea207e3b4106ee10c",
+  "subject": "Editorial: specify Date.parse cannot return an abrupt completion (#1179)"
+ },
+ {
+  "adate": "2018-05-17T16:53:57-04:00",
+  "author": "Lin Clark",
+  "date": "2018-05-17T13:53:57-07:00",
+  "hash": "53e895fa0c6aa2009fd9b2fea207e3b4106ee10c",
+  "parents": "a956a03e47d92c3889ab1bfd178ca436585aac22",
+  "subject": "Editorial: Fix incorrect [[Status]] value from errored to evaluated (#1186)"
+ },
+ {
+  "adate": "2018-05-14T17:19:03-04:00",
+  "author": "jmdyck",
+  "date": "2018-05-14T14:19:03-07:00",
+  "hash": "a956a03e47d92c3889ab1bfd178ca436585aac22",
+  "parents": "e5b66059c566a64b666dc28bedd86b9aae4df414",
+  "subject": "Editorial: clarify that [[Construct]] implies [[Call]] (#1187)"
+ },
+ {
+  "adate": "2018-05-15T05:46:05+09:00",
+  "author": "Toru Nagashima",
+  "date": "2018-05-14T13:46:05-07:00",
+  "hash": "e5b66059c566a64b666dc28bedd86b9aae4df414",
+  "parents": "38a771f50fb95b04f9b2134c0a27a4b99eaed89a",
+  "subject": "Normative: add RegExp lookbehind assertions to annex B (#1102)"
+ },
+ {
+  "adate": "2018-05-14T13:13:40-07:00",
+  "author": "Jordan Harband",
+  "date": "2018-05-14T13:13:40-07:00",
+  "hash": "38a771f50fb95b04f9b2134c0a27a4b99eaed89a",
+  "parents": "cbe4679cffd45277d2074dad7cd6bdda1c979ce7",
+  "subject": "Editorial: fix section IDs for some async generator sections. (#1141)"
+ },
+ {
+  "adate": "2018-05-07T17:35:41-04:00",
+  "author": "Richard Gibson",
+  "date": "2018-05-07T17:35:41-04:00",
+  "hash": "cef8d4906c66c4e66f32ed894dfb0fc74efbf694",
+  "parents": "beddafc35ed1c9ce411083648ab544b87a88c518",
+  "subject": "Normative: Extend ECMA-262 syntax into a superset of JSON"
+ },
+ {
+  "adate": "2018-04-24T18:55:47-07:00",
+  "author": "Michael Ficarra",
+  "date": "2018-04-24T18:55:47-07:00",
+  "hash": "beddafc35ed1c9ce411083648ab544b87a88c518",
+  "parents": "9e6bf1848f013121a5f16356008a7b51d213006a",
+  "subject": "Normative: allow catch bindings to be omitted"
+ },
+ {
+  "adate": "2018-04-23T13:36:01-04:00",
+  "author": "jmdyck",
+  "date": "2018-04-23T10:36:01-07:00",
+  "hash": "cbe4679cffd45277d2074dad7cd6bdda1c979ce7",
+  "parents": "cff300b04f8e302a34e2cd28ebb9730a7f15d872",
+  "subject": "Editorial: Misc Editorial (#1182)"
+ },
+ {
+  "adate": "2018-04-20T21:29:13-04:00",
+  "author": "musgravejw",
+  "date": "2018-04-20T21:29:13-04:00",
+  "hash": "9e6bf1848f013121a5f16356008a7b51d213006a",
+  "parents": "aeb2026a22b09b3c615388b78f737afc8d9117ad",
+  "subject": "Normative: specify RequireObjectCoercible as first step in destructuring assignment semantics"
+ },
+ {
+  "adate": "2018-04-19T22:42:42+02:00",
+  "author": "Daniel Ehrenberg",
+  "date": "2018-04-19T13:42:42-07:00",
+  "hash": "cff300b04f8e302a34e2cd28ebb9730a7f15d872",
+  "parents": "59d73dc08ea371866c1d9d45843e6752f26a48e4",
+  "subject": "Layering: Check for the correct owner in DetachArrayBuffer (#1112)"
+ },
+ {
+  "adate": "2018-04-20T05:19:49+09:00",
+  "author": "Toru Nagashima",
+  "date": "2018-04-19T13:19:49-07:00",
+  "hash": "59d73dc08ea371866c1d9d45843e6752f26a48e4",
+  "parents": "d8974e925c2c5ff9b2fcce4d6b1bdfd7563e0f23",
+  "subject": "Normative: FlagText allows s (#1123)"
+ },
+ {
+  "adate": "2018-04-19T13:18:41-07:00",
+  "author": "J.\u00a0S.\u00a0Choi",
+  "date": "2018-04-19T13:18:41-07:00",
+  "hash": "d8974e925c2c5ff9b2fcce4d6b1bdfd7563e0f23",
+  "parents": "1b2cb5f79c526cc997cc093cf1d9029dd91be4ce",
+  "subject": "Editorial: Added missing sentence periods (#1108)"
+ },
+ {
+  "adate": "2018-04-19T22:13:59+02:00",
+  "author": "Tobie Langel",
+  "date": "2018-04-19T13:13:59-07:00",
+  "hash": "1b2cb5f79c526cc997cc093cf1d9029dd91be4ce",
+  "parents": "a66650d478f4d5eeabe4c1e4729d3f537f202682",
+  "subject": "Editorial: add a SetFunctionLength abstract operation (#1096)"
+ },
+ {
+  "adate": "2018-04-19T22:54:08+03:00",
+  "author": "Mathias Bynens",
+  "date": "2018-04-19T12:54:08-07:00",
+  "hash": "a66650d478f4d5eeabe4c1e4729d3f537f202682",
+  "parents": "2c99857e892c4703f4763ec6fbd9049bbf9fe9b5",
+  "subject": "Editorial: Fix typo (#1116)"
+ },
+ {
+  "adate": "2018-04-19T12:53:15-07:00",
+  "author": "Jordan Harband",
+  "date": "2018-04-19T12:53:15-07:00",
+  "hash": "2c99857e892c4703f4763ec6fbd9049bbf9fe9b5",
+  "parents": "7da0ec4bdb719223c73d1af18315e6a9807df55a",
+  "subject": "Editorial: Move global object dfn to the Global Object section (#1153)"
+ },
+ {
+  "adate": "2018-04-20T01:21:46+05:30",
+  "author": "Abhishek koserwal",
+  "date": "2018-04-19T12:51:46-07:00",
+  "hash": "7da0ec4bdb719223c73d1af18315e6a9807df55a",
+  "parents": "4ecd2641e50e9fdb8b442ed71d49a18b94785f21",
+  "subject": "Editorial: Move AsyncFunctionCreate into 9.2 ECMAScript Function (#1173)"
+ },
+ {
+  "adate": "2018-04-17T19:00:48-04:00",
+  "author": "jmdyck",
+  "date": "2018-04-17T16:00:48-07:00",
+  "hash": "4ecd2641e50e9fdb8b442ed71d49a18b94785f21",
+  "parents": "1c6fb24ef7b29558593ce6fd4310c3bc4fe67d82",
+  "subject": "Editorial: Misc Editorial (#1161)"
+ },
+ {
+  "adate": "2018-04-11T18:48:01-04:00",
+  "author": "Jory Burson",
+  "date": "2018-04-12T00:48:01+02:00",
+  "hash": "1c6fb24ef7b29558593ce6fd4310c3bc4fe67d82",
+  "parents": "4c2df13f4194057f09b920ee88712e5a70b1a556",
+  "subject": "Add CoC.md reference file (#1168)"
+ },
+ {
+  "adate": "2018-04-06T00:12:04+01:00",
+  "author": "Justin Ridgewell",
+  "date": "2018-04-06T00:12:04+01:00",
+  "hash": "255b35a650c936eff7423b4275c5de38f77e7f22",
+  "parents": "c4126e6d03afa524d53f37f525dd85381a85d723",
+  "subject": "Editorial: Default littleEndian to false in DataView.p.getInt32"
+ },
+ {
+  "adate": "2018-03-21T09:45:11+00:00",
+  "author": "Jordan Harband",
+  "date": "2018-03-21T02:45:11-07:00",
+  "hash": "4c2df13f4194057f09b920ee88712e5a70b1a556",
+  "parents": "81be357744a8c8a9be96ef5559e2a5fa8eb90704",
+  "subject": "Editorial: create a ThrowCompletion abstract operation to reduce boilerplate of creating an abrupt completion (#1142)"
+ },
+ {
+  "adate": "2018-03-21T00:50:01+00:00",
+  "author": "Jordan Harband",
+  "date": "2018-03-21T00:50:01+00:00",
+  "hash": "580749541645a4fbfbcdf2e6a37752b925c65ab4",
+  "parents": "0f3818a119778f3f29391dcd78bff5de50d7bf9c",
+  "subject": "Editorial: add spaces after commas in lists"
+ },
+ {
+  "adate": "2018-03-21T00:17:47+00:00",
+  "author": "Jordan Harband",
+  "date": "2018-03-21T00:17:47+00:00",
+  "hash": "0f3818a119778f3f29391dcd78bff5de50d7bf9c",
+  "parents": "2b11253b72108f82e4e959f38228e09277e045b9",
+  "subject": "Editorial: fix spacing in Abstract Operation headings"
+ },
+ {
+  "adate": "2018-03-20T23:59:21+00:00",
+  "author": "Jordan Harband",
+  "date": "2018-03-20T23:59:21+00:00",
+  "hash": "2b11253b72108f82e4e959f38228e09277e045b9",
+  "parents": "864f87602f60818d343021f695e5e247b05fb78f",
+  "subject": "Editorial: fix spacing in named Record creations"
+ },
+ {
+  "adate": "2018-03-20T23:56:24+00:00",
+  "author": "Jordan Harband",
+  "date": "2018-03-20T23:56:24+00:00",
+  "hash": "864f87602f60818d343021f695e5e247b05fb78f",
+  "parents": "4a0b2ade87d263529ac903893130cf4b4f1e4c76",
+  "subject": "Editorial: fix spacing in Record literal creations"
+ },
+ {
+  "adate": "2018-03-20T21:54:53-04:00",
+  "author": "Michael Dyck",
+  "date": "2018-03-20T21:54:53-04:00",
+  "hash": "dd09c20c67604b01ef6c592392e1c199f1e39fb8",
+  "parents": "580749541645a4fbfbcdf2e6a37752b925c65ab4",
+  "subject": "Editorial: insert space before parameter-list a few times"
+ },
+ {
+  "adate": "2018-03-20T21:34:12-04:00",
+  "author": "Michael Dyck",
+  "date": "2018-03-20T21:34:12-04:00",
+  "hash": "f6493fc15a403c6b0bf900b904ef36c8df6061ac",
+  "parents": "015388129b79493bfed7b95da509c0e8beb05ecc",
+  "subject": "Editorial: consistify spaces inside angle-brackets"
+ },
+ {
+  "adate": "2018-03-20T21:12:12-04:00",
+  "author": "Michael Dyck",
+  "date": "2018-03-20T21:12:12-04:00",
+  "hash": "015388129b79493bfed7b95da509c0e8beb05ecc",
+  "parents": "dd09c20c67604b01ef6c592392e1c199f1e39fb8",
+  "subject": "Editorial: delete space from arg-less arg-list."
+ },
+ {
+  "adate": "2018-03-20T06:57:25-04:00",
+  "author": "jmdyck",
+  "date": "2018-03-20T03:57:25-07:00",
+  "hash": "81be357744a8c8a9be96ef5559e2a5fa8eb90704",
+  "parents": "5ff8c1f9c0072e664cf2c9eabe2d93d740bfbd4f",
+  "subject": "Editorial: Misc Editorial (#1122)"
+ },
+ {
+  "adate": "2018-03-20T10:53:18+00:00",
+  "author": "Charmander",
+  "date": "2018-03-20T03:53:18-07:00",
+  "hash": "5ff8c1f9c0072e664cf2c9eabe2d93d740bfbd4f",
+  "parents": "0e1b4c287d4a8a976bf3396f4d810ddc63d12820",
+  "subject": "Editorial: Fix \u201cperspective\u201d \u2192 \u201cprospective\u201d (#1117)"
+ },
+ {
+  "adate": "2018-02-21T12:06:17-08:00",
+  "author": "Brian Terlson",
+  "date": "2018-02-21T12:06:17-08:00",
+  "hash": "0e1b4c287d4a8a976bf3396f4d810ddc63d12820",
+  "parents": "9f1f60c38bbfc827ab9f27008f3be717302375dd",
+  "subject": "Editorial: rename EnumerableOwnProperties to EnumerableOwnPropertyNames (#1113)"
+ },
+ {
+  "adate": "2018-02-16T12:56:11-05:00",
+  "author": "Caridy Pati\u00f1o",
+  "date": "2018-02-16T09:56:11-08:00",
+  "hash": "9f1f60c38bbfc827ab9f27008f3be717302375dd",
+  "parents": "4b2198595da6599ad6a9390c8225646803faf3a2",
+  "subject": "Meta: 2018 is missing the js and css files from the build (#1103)"
+ },
+ {
+  "adate": "2018-02-15T15:00:27-08:00",
+  "author": "Brian Terlson",
+  "date": "2018-02-15T15:00:27-08:00",
+  "hash": "4b2198595da6599ad6a9390c8225646803faf3a2",
+  "parents": "6a3a0929691c620f52e40864b00bd59cc62984a7",
+  "subject": "Editorial: master is now ES2019"
+ },
+ {
+  "adate": "2018-02-15T14:49:00-08:00",
+  "author": "Brian Terlson",
+  "date": "2018-02-15T14:49:00-08:00",
+  "hash": "6a3a0929691c620f52e40864b00bd59cc62984a7",
+  "parents": "9b8ff87a3d1bec461f38cea6a1c440d7c964814f",
+  "subject": "Meta: package.json updates for ES2018"
+ },
+ {
+  "adate": "2018-02-15T17:44:01-05:00",
+  "author": "jmdyck",
+  "date": "2018-02-15T14:44:01-08:00",
+  "hash": "9b8ff87a3d1bec461f38cea6a1c440d7c964814f",
+  "parents": "b564aa94785aa5651342b02980380bf06ab44d59",
+  "subject": "Editorial: Simply CreateBuiltinFunction"
+ },
+ {
+  "adate": "2018-02-15T12:28:32-05:00",
+  "author": "Domenic Denicola",
+  "date": "2018-02-15T09:28:32-08:00",
+  "hash": "b564aa94785aa5651342b02980380bf06ab44d59",
+  "parents": "c8a60accb9073f31783238185018246f3936092e",
+  "subject": "Normative: add async iteration (#1066)"
+ },
+ {
+  "adate": "2018-02-13T16:00:02-05:00",
+  "author": "jmdyck",
+  "date": "2018-02-13T13:00:02-08:00",
+  "hash": "c8a60accb9073f31783238185018246f3936092e",
+  "parents": "5aa011f45a96a0089438a9cf56d22866048ea189",
+  "subject": "Meta: Add paragraph about resolving conflicts with master. (#1099)"
+ },
+ {
+  "adate": "2018-02-13T21:58:54+01:00",
+  "author": "Alan Schmitt",
+  "date": "2018-02-13T12:58:54-08:00",
+  "hash": "5aa011f45a96a0089438a9cf56d22866048ea189",
+  "parents": "4b4b83d52f13aa9b800bcc93ef66d1035a3b4d74",
+  "subject": "Normative: provide default prototype and realm values for CreateBuiltinFunction (#1044)"
+ },
+ {
+  "adate": "2018-02-13T13:04:32-05:00",
+  "author": "jmdyck",
+  "date": "2018-02-13T10:04:32-08:00",
+  "hash": "4b4b83d52f13aa9b800bcc93ef66d1035a3b4d74",
+  "parents": "17ebeea7386e2411e56f58f20c8d442ce91f5f42",
+  "subject": "Editorial: misc editorial (#1100)"
+ },
+ {
+  "adate": "2018-02-13T00:18:55+00:00",
+  "author": "Keith Cirkel",
+  "date": "2018-02-12T16:18:55-08:00",
+  "hash": "17ebeea7386e2411e56f58f20c8d442ce91f5f42",
+  "parents": "528eb61fde1c4ad2cf1cbfe050cf1493be8682fd",
+  "subject": "Normative: Add Object Rest Spread (#1048)"
+ },
+ {
+  "adate": "2018-02-08T12:17:30-05:00",
+  "author": "Michael Dyck",
+  "date": "2018-02-08T12:17:30-05:00",
+  "hash": "528eb61fde1c4ad2cf1cbfe050cf1493be8682fd",
+  "parents": "17da467f20b94ff7812d7e1e087a1ecdddb037b9",
+  "subject": "Markup: insert <p>...</p> tags"
+ },
+ {
+  "adate": "2018-02-08T12:14:50-05:00",
+  "author": "Michael Dyck",
+  "date": "2018-02-08T12:14:50-05:00",
+  "hash": "17da467f20b94ff7812d7e1e087a1ecdddb037b9",
+  "parents": "03bd376d6c641f527e9dba8d702d1ed5b369c8a7",
+  "subject": "Markup: tweak note re parsing the same String multiple times."
+ },
+ {
+  "adate": "2018-02-08T12:14:01-05:00",
+  "author": "Michael Dyck",
+  "date": "2018-02-08T12:14:01-05:00",
+  "hash": "03bd376d6c641f527e9dba8d702d1ed5b369c8a7",
+  "parents": "6e04f0612ea31de60348253bcb8969a6ebc71344",
+  "subject": "Markup: fix well-formedness error"
+ },
+ {
+  "adate": "2018-01-27T13:02:06-05:00",
+  "author": "Michael Dyck",
+  "date": "2018-02-08T11:46:45-05:00",
+  "hash": "6e04f0612ea31de60348253bcb8969a6ebc71344",
+  "parents": "d26d24a921b580cc1aec1a842d182216877e2060",
+  "subject": "Editorial: add _direction_ to BackreferenceMatcher's param list"
+ },
+ {
+  "adate": "2018-01-27T11:27:44-05:00",
+  "author": "Michael Dyck",
+  "date": "2018-02-08T11:46:45-05:00",
+  "hash": "d26d24a921b580cc1aec1a842d182216877e2060",
+  "parents": "b756cef2421512fa77c4c1bd138756df8bcc6611",
+  "subject": "Editorial: misc tweaks re lookbehind assertions"
+ },
+ {
+  "adate": "2018-01-25T18:38:17-05:00",
+  "author": "Michael Dyck",
+  "date": "2018-02-08T11:46:45-05:00",
+  "hash": "b756cef2421512fa77c4c1bd138756df8bcc6611",
+  "parents": "0d79be59e4197942d99297d099b6722299f39438",
+  "subject": "Editorial: avoid reusing/overwriting metavariable _p_"
+ },
+ {
+  "adate": "2018-01-25T18:15:24-05:00",
+  "author": "Michael Dyck",
+  "date": "2018-02-08T11:46:45-05:00",
+  "hash": "0d79be59e4197942d99297d099b6722299f39438",
+  "parents": "e3d9effc108ef48f6b6c4a5fb609de4cf21c7512",
+  "subject": "Editorial: tweak UnicodePropertyValueExpression eval algs"
+ },
+ {
+  "adate": "2018-01-25T17:57:46-05:00",
+  "author": "Michael Dyck",
+  "date": "2018-02-08T11:46:45-05:00",
+  "hash": "e3d9effc108ef48f6b6c4a5fb609de4cf21c7512",
+  "parents": "9a4fa7acd897df352c8b476fa729c2d668c0c6db",
+  "subject": "Editorial: reorder UnicodePropertyValueExpression-related prodns"
+ },
+ {
+  "adate": "2018-01-25T16:29:26-05:00",
+  "author": "Michael Dyck",
+  "date": "2018-02-08T11:46:45-05:00",
+  "hash": "9a4fa7acd897df352c8b476fa729c2d668c0c6db",
+  "parents": "607e7d153f1567af9f1ccb18fd489f73987c07c1",
+  "subject": "Editorial: Put algorithm before supporting tables"
+ },
+ {
+  "adate": "2018-01-25T16:04:33-05:00",
+  "author": "Michael Dyck",
+  "date": "2018-02-08T11:46:44-05:00",
+  "hash": "607e7d153f1567af9f1ccb18fd489f73987c07c1",
+  "parents": "392b8d97d1357c9cb78d9fe06bf233c56731bcc4",
+  "subject": "Editorial: tighten up the \"must support/must not support\" wording"
+ },
+ {
+  "adate": "2018-01-25T15:52:34-05:00",
+  "author": "Michael Dyck",
+  "date": "2018-02-08T11:46:44-05:00",
+  "hash": "392b8d97d1357c9cb78d9fe06bf233c56731bcc4",
+  "parents": "6a5870cb1b1721089d463867a13e59d5de049731",
+  "subject": "Editorial: move a sentence about property values"
+ },
+ {
+  "adate": "2018-01-25T14:59:41-05:00",
+  "author": "Michael Dyck",
+  "date": "2018-02-08T11:46:44-05:00",
+  "hash": "6a5870cb1b1721089d463867a13e59d5de049731",
+  "parents": "2a7bb571fa05d002f96e83c31f2beb36a9dfa457",
+  "subject": "Editorial: |True| -> &ldquo;True&rdquo;"
+ },
+ {
+  "adate": "2018-01-25T14:58:27-05:00",
+  "author": "Michael Dyck",
+  "date": "2018-02-08T11:46:44-05:00",
+  "hash": "2a7bb571fa05d002f96e83c31f2beb36a9dfa457",
+  "parents": "2ad9c5f586c18d0f4d2e7dcfbc211d7435440f55",
+  "subject": "Editorial: `General_Category` -> &ldquo;General_Category&rdquo;"
+ },
+ {
+  "adate": "2018-01-25T13:16:27-05:00",
+  "author": "Michael Dyck",
+  "date": "2018-02-08T11:46:44-05:00",
+  "hash": "2ad9c5f586c18d0f4d2e7dcfbc211d7435440f55",
+  "parents": "0fc5f7166b8cfe2cacf0cb9865735b7e6461c6f9",
+  "subject": "Editorial: delete extraneous backslashes"
+ },
+ {
+  "adate": "2018-01-25T13:11:36-05:00",
+  "author": "Michael Dyck",
+  "date": "2018-02-08T11:46:44-05:00",
+  "hash": "0fc5f7166b8cfe2cacf0cb9865735b7e6461c6f9",
+  "parents": "f2ed8605282d947841881057fce9c1925c0cb668",
+  "subject": "Editorial: Add [?U] to RHS occurrences of CharacterClassEscape"
+ },
+ {
+  "adate": "2018-01-25T13:02:52-05:00",
+  "author": "Michael Dyck",
+  "date": "2018-02-08T11:46:44-05:00",
+  "hash": "f2ed8605282d947841881057fce9c1925c0cb668",
+  "parents": "57b25af39139a12974bb9a9cf380e4dfde21e8a7",
+  "subject": "Markup: <emu-nt>Foo</emu-nt> -> |Foo|"
+ },
+ {
+  "adate": "2018-01-25T12:58:27-05:00",
+  "author": "Michael Dyck",
+  "date": "2018-02-08T11:46:44-05:00",
+  "hash": "57b25af39139a12974bb9a9cf380e4dfde21e8a7",
+  "parents": "cd12b08763ba4924f609c314ae597fd38550bf29",
+  "subject": "Editorial: right-single-quotation-mark -> apostrophe twice"
+ },
+ {
+  "adate": "2018-01-25T12:56:10-05:00",
+  "author": "Michael Dyck",
+  "date": "2018-02-08T11:46:44-05:00",
+  "hash": "cd12b08763ba4924f609c314ae597fd38550bf29",
+  "parents": "feaa75152c7e0c3c5034610174ca2d905e9688f5",
+  "subject": "Markup: entity-encode &ldquo; and &rdquo;"
+ },
+ {
+  "adate": "2018-01-24T17:23:12-05:00",
+  "author": "Michael Dyck",
+  "date": "2018-02-08T11:46:44-05:00",
+  "hash": "feaa75152c7e0c3c5034610174ca2d905e9688f5",
+  "parents": "35ab8d553802cf6ba68b9e11815896f03351f1b3",
+  "subject": "Editorial: add \"then\" to \"If\" step"
+ },
+ {
+  "adate": "2018-01-24T17:17:54-05:00",
+  "author": "Michael Dyck",
+  "date": "2018-02-08T11:46:44-05:00",
+  "hash": "35ab8d553802cf6ba68b9e11815896f03351f1b3",
+  "parents": "f09e8013e56a32bc7b1c3ebf4d92b8b47cacf1bb",
+  "subject": "Editorial: move PromiseResolve clause into Promise.resolve clause"
+ },
+ {
+  "adate": "2018-01-24T17:14:42-05:00",
+  "author": "Michael Dyck",
+  "date": "2018-02-08T11:46:44-05:00",
+  "hash": "f09e8013e56a32bc7b1c3ebf4d92b8b47cacf1bb",
+  "parents": "a1f915b1e858b8e876706ac1580bb4497c9b6365",
+  "subject": "Editorial: tweak indentation"
+ },
+ {
+  "adate": "2018-01-24T16:15:09-05:00",
+  "author": "Michael Dyck",
+  "date": "2018-02-08T11:46:44-05:00",
+  "hash": "a1f915b1e858b8e876706ac1580bb4497c9b6365",
+  "parents": "261bc182c468a126cd76ef7f639b1292ddc357c5",
+  "subject": "Editorial: remove `_` RHS from RegExpIdentifierPart"
+ },
+ {
+  "adate": "2018-01-24T15:39:31-05:00",
+  "author": "Michael Dyck",
+  "date": "2018-02-08T11:46:44-05:00",
+  "hash": "261bc182c468a126cd76ef7f639b1292ddc357c5",
+  "parents": "7b2fe1140a3a2d44afa5c13e6eaf798d23b42ea9",
+  "subject": "Editorial: \"Let\" -> \"Set\" for already-bound metavariable"
+ },
+ {
+  "adate": "2018-01-24T15:13:32-05:00",
+  "author": "Michael Dyck",
+  "date": "2018-02-08T11:46:44-05:00",
+  "hash": "7b2fe1140a3a2d44afa5c13e6eaf798d23b42ea9",
+  "parents": "f5cddb22db909cbbea59a9a5340041b9d3a01dbc",
+  "subject": "Editorial: \"|Term|\" -> \"the located |GroupSpecifier|\""
+ },
+ {
+  "adate": "2018-01-24T13:57:57-05:00",
+  "author": "Michael Dyck",
+  "date": "2018-02-08T11:46:44-05:00",
+  "hash": "f5cddb22db909cbbea59a9a5340041b9d3a01dbc",
+  "parents": "577f76f89f9bacacba6755ec8cc2ae55d98be391",
+  "subject": "Editorial: add _namedCaptures_ parameter to GetSubstitution()"
+ },
+ {
+  "adate": "2018-01-24T14:14:11-05:00",
+  "author": "Michael Dyck",
+  "date": "2018-02-08T11:46:44-05:00",
+  "hash": "577f76f89f9bacacba6755ec8cc2ae55d98be391",
+  "parents": "956e0945fbb7c7ac603861a99a541a162336c47e",
+  "subject": "Editorial: \"Abstract Operation\" -> \"( _n_ )\" in header"
+ },
+ {
+  "adate": "2018-01-24T14:01:23-05:00",
+  "author": "Michael Dyck",
+  "date": "2018-02-08T11:46:44-05:00",
+  "hash": "956e0945fbb7c7ac603861a99a541a162336c47e",
+  "parents": "63b6d2707dfe95e9e1a772f4848db107872314b3",
+  "subject": "Editorial: move BackreferenceMatcher to a more appropriate location"
+ },
+ {
+  "adate": "2018-01-24T16:03:23-05:00",
+  "author": "Michael Dyck",
+  "date": "2018-02-08T11:46:44-05:00",
+  "hash": "63b6d2707dfe95e9e1a772f4848db107872314b3",
+  "parents": "9a455bc4b253d7d0c1f266814765c751314e468f",
+  "subject": "Editorial: move StringValue-for-RegExpIdentifierName clause"
+ },
+ {
+  "adate": "2018-01-24T12:09:41-05:00",
+  "author": "Michael Dyck",
+  "date": "2018-02-08T11:46:43-05:00",
+  "hash": "9a455bc4b253d7d0c1f266814765c751314e468f",
+  "parents": "c478751636d1529f5b6b02298ef807ef07dc5dcc",
+  "subject": "Editorial: delete \"this following\""
+ },
+ {
+  "adate": "2018-01-24T02:18:15-05:00",
+  "author": "Michael Dyck",
+  "date": "2018-02-08T11:46:43-05:00",
+  "hash": "c478751636d1529f5b6b02298ef807ef07dc5dcc",
+  "parents": "1f2d1cb2c3b0f6736601c13388079dc1582b1db3",
+  "subject": "Editorial: recap \"left-capturing parentheses\" more concisely."
+ },
+ {
+  "adate": "2018-01-24T02:00:30-05:00",
+  "author": "Michael Dyck",
+  "date": "2018-02-08T11:46:43-05:00",
+  "hash": "1f2d1cb2c3b0f6736601c13388079dc1582b1db3",
+  "parents": "22e7117378af1e296fc26cb913949228865d5f92",
+  "subject": "Editorial: invert \"Let the enclosed substring be _groupName_\""
+ },
+ {
+  "adate": "2018-01-24T01:57:49-05:00",
+  "author": "Michael Dyck",
+  "date": "2018-02-08T11:46:43-05:00",
+  "hash": "22e7117378af1e296fc26cb913949228865d5f92",
+  "parents": "076284db0c968d93e5c5e7903936088d4ec0f4af",
+  "subject": "Editorial: move the paren before \"U+003E\" to after"
+ },
+ {
+  "adate": "2018-01-24T01:56:27-05:00",
+  "author": "Michael Dyck",
+  "date": "2018-02-08T11:46:43-05:00",
+  "hash": "076284db0c968d93e5c5e7903936088d4ec0f4af",
+  "parents": "2ac876fe638ec396b8942a2ab8d611b9e9ae0bf5",
+  "subject": "Editorial: \"Otherwise\" -> \"Else\""
+ },
+ {
+  "adate": "2018-01-24T01:45:22-05:00",
+  "author": "Michael Dyck",
+  "date": "2018-02-08T11:46:43-05:00",
+  "hash": "2ac876fe638ec396b8942a2ab8d611b9e9ae0bf5",
+  "parents": "0a3b5a812e4662faa914ae455f1de82dc0c9ef4d",
+  "subject": "Editorial: insert hyphen in \"left-capturing\""
+ },
+ {
+  "adate": "2018-01-24T01:04:28-05:00",
+  "author": "Michael Dyck",
+  "date": "2018-02-08T11:46:43-05:00",
+  "hash": "0a3b5a812e4662faa914ae455f1de82dc0c9ef4d",
+  "parents": "7c9b35e5f1175b4cfdd35ff554db8e714a668ac4",
+  "subject": "Editorial: \"enclosing RegExp\" -> \"enclosing |Pattern|\""
+ },
+ {
+  "adate": "2018-01-24T00:11:26-05:00",
+  "author": "Michael Dyck",
+  "date": "2018-02-08T11:46:43-05:00",
+  "hash": "7c9b35e5f1175b4cfdd35ff554db8e714a668ac4",
+  "parents": "3c8d7fc9eb51f94bc0bc95fceabf12ceb461447f",
+  "subject": "Editorial: fix mentions of Atom :: `(` Disjunction `)`"
+ },
+ {
+  "adate": "2018-01-24T00:00:09-05:00",
+  "author": "Michael Dyck",
+  "date": "2018-02-08T11:46:43-05:00",
+  "hash": "3c8d7fc9eb51f94bc0bc95fceabf12ceb461447f",
+  "parents": "342fdb0f1225383842f865c1ca69bdab7ded331f",
+  "subject": "Editorial: elide unnecessary grammar params in non-defining prodns"
+ },
+ {
+  "adate": "2018-01-23T23:54:47-05:00",
+  "author": "Michael Dyck",
+  "date": "2018-02-08T11:46:43-05:00",
+  "hash": "342fdb0f1225383842f865c1ca69bdab7ded331f",
+  "parents": "0e04451352c16b4b21ad21a7e50a7074ee6dc80c",
+  "subject": "Editorial: consistify grammar params in defining prodns"
+ },
+ {
+  "adate": "2018-01-23T21:54:58-05:00",
+  "author": "Michael Dyck",
+  "date": "2018-02-08T11:46:43-05:00",
+  "hash": "0e04451352c16b4b21ad21a7e50a7074ee6dc80c",
+  "parents": "b4081da5e2cf2f98d030ef19cac83c0b9ff3ca2f",
+  "subject": "Editorial: tweak some indentation"
+ },
+ {
+  "adate": "2018-01-23T21:42:42-05:00",
+  "author": "Michael Dyck",
+  "date": "2018-02-08T11:46:43-05:00",
+  "hash": "b4081da5e2cf2f98d030ef19cac83c0b9ff3ca2f",
+  "parents": "ec1cd8c775b922ebe0b76060964506fba887ff27",
+  "subject": "Editorial: entity-encode < and >"
+ },
+ {
+  "adate": "2018-01-04T22:21:05-05:00",
+  "author": "Michael Dyck",
+  "date": "2018-02-08T11:46:43-05:00",
+  "hash": "ec1cd8c775b922ebe0b76060964506fba887ff27",
+  "parents": "0f1d570f6442b9055f833ff8ad02686603f9dd0b",
+  "subject": "Editorial: Remove '_' RHS for IdentifierPart"
+ },
+ {
+  "adate": "2018-01-04T13:16:14-05:00",
+  "author": "Michael Dyck",
+  "date": "2018-02-08T11:46:43-05:00",
+  "hash": "0f1d570f6442b9055f833ff8ad02686603f9dd0b",
+  "parents": "12dc5708b3f6877fd0c4e489c1b509a812efdd53",
+  "subject": "Editorial: resolve \"LocalTimeZoneAdjustment\" vs \"LocalTZA\" inconsistency"
+ },
+ {
+  "adate": "2018-01-04T13:14:20-05:00",
+  "author": "Michael Dyck",
+  "date": "2018-02-08T11:46:43-05:00",
+  "hash": "12dc5708b3f6877fd0c4e489c1b509a812efdd53",
+  "parents": "d7f1c6cbed2514aef131576643a9d330c592746a",
+  "subject": "Editorial: fix typo \"algorthm\""
+ },
+ {
+  "adate": "2018-01-04T13:03:14-05:00",
+  "author": "Michael Dyck",
+  "date": "2018-02-08T11:46:43-05:00",
+  "hash": "d7f1c6cbed2514aef131576643a9d330c592746a",
+  "parents": "cf8c857aa7aceff5cb716da2804defd7b26b6429",
+  "subject": "Editorial: add '*' around 'true' and 'false'"
+ },
+ {
+  "adate": "2018-01-04T13:00:21-05:00",
+  "author": "Michael Dyck",
+  "date": "2018-02-08T11:46:43-05:00",
+  "hash": "cf8c857aa7aceff5cb716da2804defd7b26b6429",
+  "parents": "dbf775128d390a157731d76220d6b044d9aff91c",
+  "subject": "Editorial: delete extra spaces and add a dot"
+ },
+ {
+  "adate": "2018-01-04T12:55:37-05:00",
+  "author": "Michael Dyck",
+  "date": "2018-02-08T11:46:43-05:00",
+  "hash": "dbf775128d390a157731d76220d6b044d9aff91c",
+  "parents": "c564154d815f91219c86a6e980a833941c33b5f1",
+  "subject": "Editorial: delete extraneous dot"
+ },
+ {
+  "adate": "2018-01-04T12:52:11-05:00",
+  "author": "Michael Dyck",
+  "date": "2018-02-08T11:46:42-05:00",
+  "hash": "c564154d815f91219c86a6e980a833941c33b5f1",
+  "parents": "8df2809d0909832cfe6b30152a885600ce76a62f",
+  "subject": "Editorial: insert missing </emu-eqn>"
+ },
+ {
+  "adate": "2017-12-20T22:13:01-05:00",
+  "author": "Michael Dyck",
+  "date": "2018-02-08T11:46:42-05:00",
+  "hash": "8df2809d0909832cfe6b30152a885600ce76a62f",
+  "parents": "6f1aa96edb03e0e3e3ff87f3dffe93e3d61947ad",
+  "subject": "Editorial: add more lookahead-restrictions to NotEscapeSequence"
+ },
+ {
+  "adate": "2018-02-07T23:42:02+01:00",
+  "author": "Daniel Ehrenberg",
+  "date": "2018-02-07T14:42:02-08:00",
+  "hash": "6f1aa96edb03e0e3e3ff87f3dffe93e3d61947ad",
+  "parents": "f812bc51878c9921e0497f6c3d701224d14407bf",
+  "subject": "Normative: Cache templates per site, rather than by contents (#890)"
+ },
+ {
+  "adate": "2018-02-01T15:01:53-08:00",
+  "author": "Conrad Watt",
+  "date": "2018-02-01T15:01:53-08:00",
+  "hash": "f812bc51878c9921e0497f6c3d701224d14407bf",
+  "parents": "314549b1437f9e2c1994938aae1cc0cbffc09e2f",
+  "subject": "Editorial: fix grammar of synchronizes-with conditions (#1065)"
+ },
+ {
+  "adate": "2018-01-30T15:38:57-08:00",
+  "author": "Jordan Harband",
+  "date": "2018-01-30T15:38:57-08:00",
+  "hash": "314549b1437f9e2c1994938aae1cc0cbffc09e2f",
+  "parents": "bf8a9be462d76cf86b5906e3ccad6a91568199f9",
+  "subject": "Normative: add explicit \"length\" property info for ThenFinally/CatchFinally (#1083)"
+ },
+ {
+  "adate": "2018-01-26T14:06:33-08:00",
+  "author": "Mathias Bynens",
+  "date": "2018-01-26T14:06:33-08:00",
+  "hash": "bf8a9be462d76cf86b5906e3ccad6a91568199f9",
+  "parents": "0ae3582a32125f560ecac540c5444a05e92e5a41",
+  "subject": "Normative: Add RegExp lookbehind assertions (#1029)"
+ },
+ {
+  "adate": "2018-01-25T09:07:05-08:00",
+  "author": "Mathias Bynens",
+  "date": "2018-01-25T09:07:05-08:00",
+  "hash": "0ae3582a32125f560ecac540c5444a05e92e5a41",
+  "parents": "b1a633f60470fd9611ecefc3a8f28fc58b51379a",
+  "subject": "Normative: Add RegExp Unicode property escapes (#1041)"
+ },
+ {
+  "adate": "2018-01-24T10:18:37-08:00",
+  "author": "Jordan Harband",
+  "date": "2018-01-24T10:18:37-08:00",
+  "hash": "b1a633f60470fd9611ecefc3a8f28fc58b51379a",
+  "parents": "1ac24ee348272f49900ba2cf202de67b43d9a46a",
+  "subject": "Normative: Add Promise.prototype.finally (#1073)"
+ },
+ {
+  "adate": "2018-01-24T09:32:29-08:00",
+  "author": "Daniel Ehrenberg",
+  "date": "2018-01-24T09:32:29-08:00",
+  "hash": "1ac24ee348272f49900ba2cf202de67b43d9a46a",
+  "parents": "95ec0c6e67af8e6294225e090613bf4e87fed446",
+  "subject": "Meta: Link to the new contributor form (#1074)"
+ },
+ {
+  "adate": "2018-01-23T13:23:57-08:00",
+  "author": "Mathias Bynens",
+  "date": "2018-01-23T13:23:57-08:00",
+  "hash": "95ec0c6e67af8e6294225e090613bf4e87fed446",
+  "parents": "99be2005c5560c4f72d4cf48e4b2a55a165fd26c",
+  "subject": "[Normative] Add RegExp named capture groups (#1027)"
+ },
+ {
+  "adate": "2018-01-18T00:23:55+01:00",
+  "author": "Mathias Bynens",
+  "date": "2018-01-17T15:23:55-08:00",
+  "hash": "99be2005c5560c4f72d4cf48e4b2a55a165fd26c",
+  "parents": "8fadde42cf6a9879b4ab0cb6142b31c4ee501667",
+  "subject": "Editorial: Linkify some terms (#1068)"
+ },
+ {
+  "adate": "2018-01-12T11:09:21-08:00",
+  "author": "Ronald Eddy Jr",
+  "date": "2018-01-12T11:09:21-08:00",
+  "hash": "8fadde42cf6a9879b4ab0cb6142b31c4ee501667",
+  "parents": "7e94e28e6b446e794a223187859b715a44638dea",
+  "subject": "Meta: contributing.md: Update HTTP -> HTTPS (#1054)"
+ },
+ {
+  "adate": "2017-10-31T13:13:19-07:00",
+  "author": "Jeff Walden",
+  "date": "2017-10-31T13:13:19-07:00",
+  "hash": "aeb2026a22b09b3c615388b78f737afc8d9117ad",
+  "parents": "d0d31dc2a86d3aeeb2298f5f13937781ec9f6e8e",
+  "subject": "Normative: Check whether the buffer passed to the `DataView` constructor is detached one last time before returning the fresh `DataView` in case creating the fresh `DataView` object incidentally detached the buffer."
+ },
+ {
+  "adate": "2017-09-22T14:52:24+02:00",
+  "author": "Andr\u00e9 Bargull",
+  "date": "2017-09-22T14:52:24+02:00",
+  "hash": "d0d31dc2a86d3aeeb2298f5f13937781ec9f6e8e",
+  "parents": "caf89a1880a9596c66eddf6ca5bcfa39d300670c",
+  "subject": "Normative: Remove detached array buffer check prior to calling CloneArrayBuffer"
+ },
+ {
+  "adate": "2017-04-12T00:08:29+02:00",
+  "author": "Daniel Ehrenberg",
+  "date": "2017-04-12T00:08:29+02:00",
+  "hash": "caf89a1880a9596c66eddf6ca5bcfa39d300670c",
+  "parents": "e4bfa86455336fabf30f4c3c756d00b9d029667a",
+  "subject": "Normative: Create global properties for sloppy function hosting as vars"
+ },
+ {
+  "adate": "2017-03-27T06:34:14+02:00",
+  "author": "Georg Neis",
+  "date": "2017-03-27T06:34:14+02:00",
+  "hash": "e4bfa86455336fabf30f4c3c756d00b9d029667a",
+  "parents": "dd269df67d37409a6f2099a842b8f5c75ee6fc24",
+  "subject": "Normative: Relax [[DefineOwnProperty]] on module namespace exotic objects."
  },
  {
   "adate": "2016-03-04T20:17:40-05:00",
