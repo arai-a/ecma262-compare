@@ -2,11 +2,19 @@
  {
   "base": "7575f745f26e9f66b2be481144f37ac4a8a9f1c4",
   "created_at": "2022-02-25T22:31:11Z",
-  "head": "90850fbfb8328d8574e36dd9c7265527ee626433",
+  "head": "564f8a275690d96b4e03b45e72eae157a59c5ead",
   "login": "tc39",
   "number": 2675,
   "ref": "publish-biblio",
   "revs": [
+   {
+    "adate": "2022-02-25T15:59:29-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2022-02-25T15:59:29-08:00",
+    "hash": "564f8a275690d96b4e03b45e72eae157a59c5ead",
+    "parents": "90850fbfb8328d8574e36dd9c7265527ee626433",
+    "subject": "use commit timestamp"
+   },
    {
     "adate": "2022-02-25T12:59:02-08:00",
     "author": "Kevin Gibbons",
@@ -17,7 +25,7 @@
    }
   ],
   "title": "Meta: publish biblio to npm",
-  "updated_at": "2022-02-25T22:38:54Z"
+  "updated_at": "2022-02-26T00:21:33Z"
  },
  {
   "base": "7575f745f26e9f66b2be481144f37ac4a8a9f1c4",
