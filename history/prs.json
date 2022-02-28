@@ -664,9 +664,9 @@
   "updated_at": "2021-12-08T00:04:36Z"
  },
  {
-  "base": "c5f683e61d5dce703650f1c90d2309c46f8c157a",
+  "base": "7575f745f26e9f66b2be481144f37ac4a8a9f1c4",
   "created_at": "2021-11-26T10:11:41Z",
-  "head": "200ee52f2ad2cb91694b1aa29a4abe837f95373d",
+  "head": "10fba2d1d3f40325245e838e97ca86156863aa82",
   "login": "ExE-Boss",
   "number": 2589,
   "ref": "editorial/structured-headers/specification-types",
@@ -674,14 +674,14 @@
    {
     "adate": "2021-11-26T11:00:00+01:00",
     "author": "ExE Boss",
-    "date": "2021-11-29T08:38:30+01:00",
-    "hash": "200ee52f2ad2cb91694b1aa29a4abe837f95373d",
-    "parents": "c5f683e61d5dce703650f1c90d2309c46f8c157a",
+    "date": "2022-02-28T18:34:14+01:00",
+    "hash": "10fba2d1d3f40325245e838e97ca86156863aa82",
+    "parents": "7575f745f26e9f66b2be481144f37ac4a8a9f1c4",
     "subject": "Editorial: Complete\u00a0structured\u00a0headers in\u00a0\u201cSpecification\u00a0Types\u201d"
    }
   ],
   "title": "Editorial: Complete\u00a0structured\u00a0headers in\u00a0\u201cSpecification\u00a0Types\u201d",
-  "updated_at": "2021-11-29T07:39:15Z"
+  "updated_at": "2022-02-28T17:46:04Z"
  },
  {
   "base": "267fdbdc716677bc9934906a498cf9bad4bfb70d",
@@ -1376,9 +1376,9 @@
   "updated_at": "2022-02-28T01:51:56Z"
  },
  {
-  "base": "b64ac7fb4ae0a7c1a3332274e51c9664b47b4363",
+  "base": "7575f745f26e9f66b2be481144f37ac4a8a9f1c4",
   "created_at": "2021-01-24T05:38:33Z",
-  "head": "7d473b268494ce377ebba0a655ec0d1ece931001",
+  "head": "af9acc5860583b8efb0a8942af72e2e901e8bc7e",
   "login": "jmdyck",
   "number": 2288,
   "ref": "declarative_Env_Rec",
@@ -1386,51 +1386,51 @@
    {
     "adate": "2021-01-24T00:30:29-05:00",
     "author": "Michael Dyck",
-    "date": "2022-01-26T21:21:36-05:00",
-    "hash": "7d473b268494ce377ebba0a655ec0d1ece931001",
-    "parents": "e6bc0f8c64cbbf8050e4ebd32669aff507b25398",
+    "date": "2022-02-28T12:30:52-05:00",
+    "hash": "af9acc5860583b8efb0a8942af72e2e901e8bc7e",
+    "parents": "0a0ac511fedc55b5622a374b3866b7a8e3ff00b3",
     "subject": "Editorial: Model a declarative binding as a Record"
    },
    {
     "adate": "2021-01-23T23:59:22-05:00",
     "author": "Michael Dyck",
-    "date": "2022-01-26T19:45:57-05:00",
-    "hash": "e6bc0f8c64cbbf8050e4ebd32669aff507b25398",
-    "parents": "3a56e9848ec99177f79475138dbd98fb82a94c51",
+    "date": "2022-02-28T12:20:27-05:00",
+    "hash": "0a0ac511fedc55b5622a374b3866b7a8e3ff00b3",
+    "parents": "99e47e2b7ac13269505a2927d81fdbc5004d64e2",
     "subject": "Editorial: declarative Env Rec has field [[Bindings]]"
    },
    {
     "adate": "2021-01-23T23:52:38-05:00",
     "author": "Michael Dyck",
-    "date": "2022-01-20T22:30:26-05:00",
-    "hash": "3a56e9848ec99177f79475138dbd98fb82a94c51",
-    "parents": "9ad699ca6a379ab028d90383421fe49586c19328",
+    "date": "2022-02-28T11:56:29-05:00",
+    "hash": "99e47e2b7ac13269505a2927d81fdbc5004d64e2",
+    "parents": "45829f936bbb78058f957ae647b8d043427f5d11",
     "subject": "Editorial: Treat a binding as an 'alias-able' thing"
    },
    {
     "adate": "2021-01-23T23:03:21-05:00",
     "author": "Michael Dyck",
-    "date": "2022-01-20T22:30:26-05:00",
-    "hash": "9ad699ca6a379ab028d90383421fe49586c19328",
-    "parents": "a8bcfa8d30b89c3cc2816ac59b583560b1e4430a",
+    "date": "2022-02-28T09:42:51-05:00",
+    "hash": "45829f936bbb78058f957ae647b8d043427f5d11",
+    "parents": "0c4217241d463d69fde4649367adf940a5025c48",
     "subject": "Editorial: Have NewGlobalEnvironment invoke NewDeclarativeEnvironment"
    },
    {
     "adate": "2021-01-23T22:54:21-05:00",
     "author": "Michael Dyck",
-    "date": "2022-01-20T22:30:26-05:00",
-    "hash": "a8bcfa8d30b89c3cc2816ac59b583560b1e4430a",
-    "parents": "b64ac7fb4ae0a7c1a3332274e51c9664b47b4363",
+    "date": "2022-02-28T09:16:51-05:00",
+    "hash": "0c4217241d463d69fde4649367adf940a5025c48",
+    "parents": "7575f745f26e9f66b2be481144f37ac4a8a9f1c4",
     "subject": "Editorial: Use declarative Env Rec's HasBinding method"
    }
   ],
   "title": "Editorial: Model the bindings of a declarative Env Rec as a List of Records",
-  "updated_at": "2022-01-27T02:27:31Z"
+  "updated_at": "2022-02-28T17:40:35Z"
  },
  {
-  "base": "b3e6dfe61966b9a0eded9c7c5bd037b01e10abf2",
+  "base": "7575f745f26e9f66b2be481144f37ac4a8a9f1c4",
   "created_at": "2021-01-13T04:47:26Z",
-  "head": "5ba0f51b53b9bccc91a846fdd05bebbe4d78f8f0",
+  "head": "70b8e03b81a4659d380f4ef475491731440e25d8",
   "login": "jmdyck",
   "number": 2274,
   "ref": "Number_shifts",
@@ -1438,27 +1438,27 @@
    {
     "adate": "2021-01-12T23:24:04-05:00",
     "author": "Michael Dyck",
-    "date": "2021-09-14T12:11:16-04:00",
-    "hash": "5ba0f51b53b9bccc91a846fdd05bebbe4d78f8f0",
-    "parents": "2419255926b3d9775cd15601988a9bd05546e39f",
+    "date": "2022-02-28T13:19:37-05:00",
+    "hash": "70b8e03b81a4659d380f4ef475491731440e25d8",
+    "parents": "46dc7ab1dc57a3efe9fa2320dbf8ef1bbd34ff8b",
     "subject": "Editorial: Express some Number methods more explicitly"
    },
    {
     "adate": "2021-01-12T22:07:15-05:00",
     "author": "Michael Dyck",
-    "date": "2021-09-14T12:11:16-04:00",
-    "hash": "2419255926b3d9775cd15601988a9bd05546e39f",
-    "parents": "b3e6dfe61966b9a0eded9c7c5bd037b01e10abf2",
+    "date": "2022-02-28T13:19:37-05:00",
+    "hash": "46dc7ab1dc57a3efe9fa2320dbf8ef1bbd34ff8b",
+    "parents": "7575f745f26e9f66b2be481144f37ac4a8a9f1c4",
     "subject": "Editorial: Extract NumberToInt32Bits and Int32BitsToNumber"
    }
   ],
   "title": "Editorial: Express some 'bitwise' Number methods more explicitly",
-  "updated_at": "2021-09-14T16:13:31Z"
+  "updated_at": "2022-02-28T18:20:53Z"
  },
  {
-  "base": "b64ac7fb4ae0a7c1a3332274e51c9664b47b4363",
+  "base": "7575f745f26e9f66b2be481144f37ac4a8a9f1c4",
   "created_at": "2020-12-08T06:31:39Z",
-  "head": "ca700659ecfc98beff5be344011a631275ecdd2f",
+  "head": "4228d338df79c557a30ad55284b5d83938d516b3",
   "login": "jmdyck",
   "number": 2246,
   "ref": "ExecutionContext_Record",
@@ -1466,14 +1466,14 @@
    {
     "adate": "2020-12-08T01:22:55-05:00",
     "author": "Michael Dyck",
-    "date": "2022-01-20T21:00:26-05:00",
-    "hash": "ca700659ecfc98beff5be344011a631275ecdd2f",
-    "parents": "b64ac7fb4ae0a7c1a3332274e51c9664b47b4363",
+    "date": "2022-02-28T12:59:04-05:00",
+    "hash": "4228d338df79c557a30ad55284b5d83938d516b3",
+    "parents": "7575f745f26e9f66b2be481144f37ac4a8a9f1c4",
     "subject": "Editorial: Model execution context as a record"
    }
   ],
   "title": "Editorial: Model execution context as a record",
-  "updated_at": "2022-01-21T02:01:47Z"
+  "updated_at": "2022-02-28T18:04:33Z"
  },
  {
   "base": "b3f9b5089bcc3ddd8486379015cd11eb1427a5eb",
@@ -1664,9 +1664,9 @@
   "updated_at": "2021-06-29T02:21:03Z"
  },
  {
-  "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
+  "base": "7575f745f26e9f66b2be481144f37ac4a8a9f1c4",
   "created_at": "2020-01-09T19:55:48Z",
-  "head": "0f086d773b29df3a913b425ff52be24de530c0e5",
+  "head": "896a476f0cd8c2cac27d2fcd7fdf030d68589188",
   "login": "ExE-Boss",
   "number": 1838,
   "ref": "editorial/improve-array-defineownproperty-length-variable-names",
@@ -1674,14 +1674,14 @@
    {
     "adate": "2020-01-09T20:50:00+01:00",
     "author": "ExE Boss",
-    "date": "2020-01-09T20:47:42+01:00",
-    "hash": "0f086d773b29df3a913b425ff52be24de530c0e5",
-    "parents": "63be86408b2c01899d6fd565db9a85d76a56de42",
-    "subject": "editorial: Improve\u00a0`Array.[[DefineOwnProperty]]` length\u00a0variable\u00a0names"
+    "date": "2022-02-28T18:41:49+01:00",
+    "hash": "896a476f0cd8c2cac27d2fcd7fdf030d68589188",
+    "parents": "7575f745f26e9f66b2be481144f37ac4a8a9f1c4",
+    "subject": "Editorial: Improve\u00a0`Array.[[DefineOwnProperty]]` length\u00a0variable\u00a0names"
    }
   ],
   "title": "Editorial: Improve\u00a0`Array.[[DefineOwnProperty]]` length\u00a0variable\u00a0names",
-  "updated_at": "2020-04-30T09:27:11Z"
+  "updated_at": "2022-02-28T17:46:02Z"
  },
  {
   "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
