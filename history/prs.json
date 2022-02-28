@@ -1332,9 +1332,9 @@
   "updated_at": "2021-03-02T20:18:19Z"
  },
  {
-  "base": "cf7145ea3f14943b5aea7d5e05c771f31f989606",
+  "base": "7575f745f26e9f66b2be481144f37ac4a8a9f1c4",
   "created_at": "2021-02-11T16:04:14Z",
-  "head": "5f4e0753bda8f856fe791383351613765346e1a9",
+  "head": "f5a156cfe99361e34f23645a1ade8f644c6a535d",
   "login": "jmdyck",
   "number": 2305,
   "ref": "SortArrayLike",
@@ -1342,38 +1342,38 @@
    {
     "adate": "2021-02-11T10:43:36-05:00",
     "author": "Michael Dyck",
-    "date": "2022-02-17T16:11:26-05:00",
-    "hash": "5f4e0753bda8f856fe791383351613765346e1a9",
-    "parents": "bb076124cbf47db3263bfeb33d9c55f19bd90914",
+    "date": "2022-02-27T20:50:11-05:00",
+    "hash": "f5a156cfe99361e34f23645a1ade8f644c6a535d",
+    "parents": "4583b539dafd9278c6bc05f377ac4558ef45b5b6",
     "subject": "Editorial: Factor out SortIndexedProperties"
    },
    {
     "adate": "2021-02-11T10:32:49-05:00",
     "author": "Michael Dyck",
-    "date": "2022-02-17T16:06:54-05:00",
-    "hash": "bb076124cbf47db3263bfeb33d9c55f19bd90914",
-    "parents": "8a53867ca5094487d6b5297f7d97b336c3bb407b",
+    "date": "2022-02-27T20:37:27-05:00",
+    "hash": "4583b539dafd9278c6bc05f377ac4558ef45b5b6",
+    "parents": "959b53b12e8494d6d2e3e95e05bc15fa20b10f54",
     "subject": "Editorial: Recast SortCompare from abstract op to abstract closure"
    },
    {
     "adate": "2021-02-11T09:57:55-05:00",
     "author": "Michael Dyck",
-    "date": "2022-02-17T16:03:49-05:00",
-    "hash": "8a53867ca5094487d6b5297f7d97b336c3bb407b",
-    "parents": "8f32571b3e58987edb18d0e88605a165649e9ac0",
+    "date": "2022-02-27T20:25:14-05:00",
+    "hash": "959b53b12e8494d6d2e3e95e05bc15fa20b10f54",
+    "parents": "768a7a99ab693800332fe3b6cb4de59b1ed932fa",
     "subject": "Editorial: Tweak the definition of \"sort order\""
    },
    {
     "adate": "2021-02-11T09:15:50-05:00",
     "author": "Michael Dyck",
-    "date": "2022-02-17T16:03:49-05:00",
-    "hash": "8f32571b3e58987edb18d0e88605a165649e9ac0",
-    "parents": "ca53334e343bf804fcbb9dbe8882eb52a75aa283",
+    "date": "2022-02-27T20:25:14-05:00",
+    "hash": "768a7a99ab693800332fe3b6cb4de59b1ed932fa",
+    "parents": "7575f745f26e9f66b2be481144f37ac4a8a9f1c4",
     "subject": "Editorial: Rename \"consistent comparison function\" as \"consistent comparator\""
    }
   ],
   "title": "Editorial: Factor out common `sort` functionality",
-  "updated_at": "2022-02-17T21:19:23Z"
+  "updated_at": "2022-02-28T01:51:56Z"
  },
  {
   "base": "b64ac7fb4ae0a7c1a3332274e51c9664b47b4363",
