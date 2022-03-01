@@ -1,6 +1,42 @@
 [
  {
   "base": "7575f745f26e9f66b2be481144f37ac4a8a9f1c4",
+  "created_at": "2022-03-01T16:38:38Z",
+  "head": "792e93fe2257ccfef88a888c2755dd8b7050d5fe",
+  "login": "jmdyck",
+  "number": 2676,
+  "ref": "abrupt_to_throw",
+  "revs": [
+   {
+    "adate": "2022-03-01T11:00:33-05:00",
+    "author": "Michael Dyck",
+    "date": "2022-03-01T11:19:27-05:00",
+    "hash": "792e93fe2257ccfef88a888c2755dd8b7050d5fe",
+    "parents": "6f3cfb75d79c3770c4c39250b205c55aae6328e9",
+    "subject": "Change more \"abrupt completion\" to \"throw completion\""
+   },
+   {
+    "adate": "2022-03-01T10:58:49-05:00",
+    "author": "Michael Dyck",
+    "date": "2022-03-01T10:58:49-05:00",
+    "hash": "6f3cfb75d79c3770c4c39250b205c55aae6328e9",
+    "parents": "8734bc8a2da05c0a0b6cf418e8b435c157b0d794",
+    "subject": "Host hooks can only return normal and throw completions"
+   },
+   {
+    "adate": "2022-02-28T20:08:27-05:00",
+    "author": "Michael Dyck",
+    "date": "2022-02-28T20:08:27-05:00",
+    "hash": "8734bc8a2da05c0a0b6cf418e8b435c157b0d794",
+    "parents": "7575f745f26e9f66b2be481144f37ac4a8a9f1c4",
+    "subject": "Internal methods can only return normal and throw completions"
+   }
+  ],
+  "title": "Editorial: Change many \"abrupt completion\" to \"throw completion\"",
+  "updated_at": "2022-03-01T16:38:38Z"
+ },
+ {
+  "base": "7575f745f26e9f66b2be481144f37ac4a8a9f1c4",
   "created_at": "2022-02-25T22:31:11Z",
   "head": "564f8a275690d96b4e03b45e72eae157a59c5ead",
   "login": "tc39",
