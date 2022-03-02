@@ -64,32 +64,24 @@
   "updated_at": "2022-03-02T18:46:54Z"
  },
  {
-  "base": "7575f745f26e9f66b2be481144f37ac4a8a9f1c4",
+  "base": "0bf22a91aa8ebe9ab9a8cf189c092ae98c82ffab",
   "created_at": "2022-02-25T22:31:11Z",
-  "head": "564f8a275690d96b4e03b45e72eae157a59c5ead",
+  "head": "39ff7ce1941b5b92d3b186ac3f5742a1e01b6ff9",
   "login": "tc39",
   "number": 2675,
   "ref": "publish-biblio",
   "revs": [
    {
-    "adate": "2022-02-25T15:59:29-08:00",
+    "adate": "2022-03-02T15:35:15-08:00",
     "author": "Kevin Gibbons",
-    "date": "2022-02-25T15:59:29-08:00",
-    "hash": "564f8a275690d96b4e03b45e72eae157a59c5ead",
-    "parents": "90850fbfb8328d8574e36dd9c7265527ee626433",
-    "subject": "use commit timestamp"
-   },
-   {
-    "adate": "2022-02-25T12:59:02-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2022-02-25T14:27:21-08:00",
-    "hash": "90850fbfb8328d8574e36dd9c7265527ee626433",
-    "parents": "7575f745f26e9f66b2be481144f37ac4a8a9f1c4",
-    "subject": "Meta: publish biblio to npm"
+    "date": "2022-03-02T15:35:15-08:00",
+    "hash": "39ff7ce1941b5b92d3b186ac3f5742a1e01b6ff9",
+    "parents": "0bf22a91aa8ebe9ab9a8cf189c092ae98c82ffab",
+    "subject": "Meta: publish biblio to npm (#2393)"
    }
   ],
   "title": "Meta: publish biblio to npm",
-  "updated_at": "2022-02-26T00:21:33Z"
+  "updated_at": "2022-03-02T23:36:03Z"
  },
  {
   "base": "7575f745f26e9f66b2be481144f37ac4a8a9f1c4",
@@ -110,26 +102,6 @@
   ],
   "title": "Remove callerRealm from HostEnsureCanCompileStrings",
   "updated_at": "2022-02-25T10:37:50Z"
- },
- {
-  "base": "7575f745f26e9f66b2be481144f37ac4a8a9f1c4",
-  "created_at": "2022-02-15T21:45:02Z",
-  "head": "27e03ea7aac665fc99dbe89a8b071eb369b333dc",
-  "login": "ljharb",
-  "number": 2666,
-  "ref": "new-list",
-  "revs": [
-   {
-    "adate": "2022-02-24T10:19:54-08:00",
-    "author": "Jordan Harband",
-    "date": "2022-02-24T10:19:54-08:00",
-    "hash": "27e03ea7aac665fc99dbe89a8b071eb369b333dc",
-    "parents": "7575f745f26e9f66b2be481144f37ac4a8a9f1c4",
-    "subject": "Editorial: more consistently use \"a new empty List\" vs \"&laquo; &raquo;\" (#2666)"
-   }
-  ],
-  "title": "Editorial: \"a new empty List\" -> \"&laquo; &raquo;\"",
-  "updated_at": "2022-02-24T18:27:12Z"
  },
  {
   "base": "7575f745f26e9f66b2be481144f37ac4a8a9f1c4",
