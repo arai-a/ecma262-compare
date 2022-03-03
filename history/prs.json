@@ -1,5 +1,25 @@
 [
  {
+  "base": "e212096f6242648d0eb2ffcb1ea100163a4422c5",
+  "created_at": "2022-03-03T00:18:41Z",
+  "head": "c37e75c3f9280ce5667ff52fbcb9eca03564c294",
+  "login": "tc39",
+  "number": 2680,
+  "ref": "fix-biblio-publish",
+  "revs": [
+   {
+    "adate": "2022-03-02T16:17:49-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2022-03-02T16:17:49-08:00",
+    "hash": "c37e75c3f9280ce5667ff52fbcb9eca03564c294",
+    "parents": "e212096f6242648d0eb2ffcb1ea100163a4422c5",
+    "subject": "Meta: fix biblio publish job, take 2"
+   }
+  ],
+  "title": "Meta: fix biblio publish job, take 2",
+  "updated_at": "2022-03-03T00:18:41Z"
+ },
+ {
   "base": "7575f745f26e9f66b2be481144f37ac4a8a9f1c4",
   "created_at": "2022-03-02T21:12:41Z",
   "head": "85471b77dc964db4a8b281b0dab7c8378460c536",
@@ -62,26 +82,6 @@
   ],
   "title": "Editorial: Change many \"abrupt completion\" to \"throw completion\"",
   "updated_at": "2022-03-02T18:46:54Z"
- },
- {
-  "base": "0bf22a91aa8ebe9ab9a8cf189c092ae98c82ffab",
-  "created_at": "2022-02-25T22:31:11Z",
-  "head": "39ff7ce1941b5b92d3b186ac3f5742a1e01b6ff9",
-  "login": "tc39",
-  "number": 2675,
-  "ref": "publish-biblio",
-  "revs": [
-   {
-    "adate": "2022-03-02T15:35:15-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2022-03-02T15:35:15-08:00",
-    "hash": "39ff7ce1941b5b92d3b186ac3f5742a1e01b6ff9",
-    "parents": "0bf22a91aa8ebe9ab9a8cf189c092ae98c82ffab",
-    "subject": "Meta: publish biblio to npm (#2393)"
-   }
-  ],
-  "title": "Meta: publish biblio to npm",
-  "updated_at": "2022-03-02T23:36:03Z"
  },
  {
   "base": "7575f745f26e9f66b2be481144f37ac4a8a9f1c4",
