@@ -1172,24 +1172,32 @@
   "updated_at": "2022-02-11T16:45:04Z"
  },
  {
-  "base": "a2da384e5577aa3c4e423c5f2535a44a94551376",
+  "base": "cbd5493ae4d0ad72e4e658e47764638c025c2edf",
   "created_at": "2021-05-26T23:09:49Z",
-  "head": "1874b05e78b434ed0cc45215a357c6e64b60884f",
+  "head": "8829947236bed350997684203af62a07dbad2784",
   "login": "pzuraq",
   "number": 2417,
   "ref": "decorators",
   "revs": [
    {
+    "adate": "2022-03-01T22:03:33-05:00",
+    "author": "Chris Hewell Garrett",
+    "date": "2022-03-03T10:05:22-05:00",
+    "hash": "8829947236bed350997684203af62a07dbad2784",
+    "parents": "6dc4dfd18f299fd2234ceaae84d48fd1d5f8121e",
+    "subject": "Updates"
+   },
+   {
     "adate": "2021-04-05T14:48:43-07:00",
     "author": "Chris Garrett",
-    "date": "2021-12-26T08:52:46-05:00",
-    "hash": "1874b05e78b434ed0cc45215a357c6e64b60884f",
-    "parents": "a2da384e5577aa3c4e423c5f2535a44a94551376",
+    "date": "2022-02-28T12:33:00-05:00",
+    "hash": "6dc4dfd18f299fd2234ceaae84d48fd1d5f8121e",
+    "parents": "7575f745f26e9f66b2be481144f37ac4a8a9f1c4",
     "subject": "Add Class and Class Element Decorators and `accessor` Keyword"
    }
   ],
   "title": "Add Class and Class Element Decorators and `accessor` Keyword",
-  "updated_at": "2021-12-26T13:53:01Z"
+  "updated_at": "2022-03-03T15:18:20Z"
  },
  {
   "base": "c75497982a8c07e83a13cc5d7d80cdaaa8a337bd",
