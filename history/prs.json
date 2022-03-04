@@ -1306,11 +1306,19 @@
  {
   "base": "7575f745f26e9f66b2be481144f37ac4a8a9f1c4",
   "created_at": "2021-04-08T20:37:22Z",
-  "head": "1e59a515b349540db0f4bb39e40b6b3a0d9dd5ee",
+  "head": "a1db9458b86554f07763a7944fb3bb07d470895f",
   "login": "jmdyck",
   "number": 2377,
   "ref": "TypedArrayElementFoo",
   "revs": [
+   {
+    "adate": "2022-03-04T17:03:43-05:00",
+    "author": "Michael Dyck",
+    "date": "2022-03-04T17:03:43-05:00",
+    "hash": "a1db9458b86554f07763a7944fb3bb07d470895f",
+    "parents": "1e59a515b349540db0f4bb39e40b6b3a0d9dd5ee",
+    "subject": "Editorial: Minor tweaks"
+   },
    {
     "adate": "2021-04-08T15:14:37-04:00",
     "author": "Michael Dyck",
@@ -1321,7 +1329,7 @@
    }
   ],
   "title": "Editorial: Simplify getting the Element Type/Size for a TypedArray",
-  "updated_at": "2022-02-28T14:15:08Z"
+  "updated_at": "2022-03-04T22:11:40Z"
  },
  {
   "base": "417a0bb5bc3a6d7117c33cf50803483d9bd7adc1",
