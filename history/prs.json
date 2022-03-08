@@ -1,5 +1,25 @@
 [
  {
+  "base": "7913cea54f83459dd1a0f70c4f464e93434a8dda",
+  "created_at": "2022-03-08T16:52:19Z",
+  "head": "e56aa974215fd10391a4ae14cdddc4e1b91b94f9",
+  "login": "tc39",
+  "number": 2684,
+  "ref": "move-object-assignment-prod",
+  "revs": [
+   {
+    "adate": "2022-03-08T08:47:23-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2022-03-08T08:47:23-08:00",
+    "hash": "e56aa974215fd10391a4ae14cdddc4e1b91b94f9",
+    "parents": "7913cea54f83459dd1a0f70c4f464e93434a8dda",
+    "subject": "Editorial: tweak DestructuringAssignmentEvaluation"
+   }
+  ],
+  "title": "Editorial: tweak DestructuringAssignmentEvaluation",
+  "updated_at": "2022-03-08T16:52:29Z"
+ },
+ {
   "base": "cbd5493ae4d0ad72e4e658e47764638c025c2edf",
   "created_at": "2022-03-05T04:30:05Z",
   "head": "9e725c9a679f8f1b78de144e85b00487ab59529b",
@@ -26,26 +46,6 @@
   ],
   "title": "Normative: handle broken promises in AsyncGenerator.prototype.return",
   "updated_at": "2022-03-05T04:34:47Z"
- },
- {
-  "base": "cbd5493ae4d0ad72e4e658e47764638c025c2edf",
-  "created_at": "2022-03-04T02:41:40Z",
-  "head": "f0342b6ab690652cd632de2c5932dc7fb6a184d9",
-  "login": "jmdyck",
-  "number": 2682,
-  "ref": "bare_completion",
-  "revs": [
-   {
-    "adate": "2022-03-03T21:10:55-05:00",
-    "author": "Michael Dyck",
-    "date": "2022-03-03T21:10:55-05:00",
-    "hash": "f0342b6ab690652cd632de2c5932dc7fb6a184d9",
-    "parents": "cbd5493ae4d0ad72e4e658e47764638c025c2edf",
-    "subject": "Editorial: Eliminate 'bare' uses of \"completion\""
-   }
-  ],
-  "title": "Editorial: Eliminate 'bare' uses of \"completion\"",
-  "updated_at": "2022-03-04T02:41:40Z"
  },
  {
   "base": "cbd5493ae4d0ad72e4e658e47764638c025c2edf",
