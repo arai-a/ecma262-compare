@@ -1326,11 +1326,19 @@
  {
   "base": "7575f745f26e9f66b2be481144f37ac4a8a9f1c4",
   "created_at": "2021-04-08T20:37:22Z",
-  "head": "a1db9458b86554f07763a7944fb3bb07d470895f",
+  "head": "2b360daab21bb90350c9c849b8db23a055a14ae1",
   "login": "jmdyck",
   "number": 2377,
   "ref": "TypedArrayElementFoo",
   "revs": [
+   {
+    "adate": "2022-03-09T14:23:20-05:00",
+    "author": "Michael Dyck",
+    "date": "2022-03-09T14:23:20-05:00",
+    "hash": "2b360daab21bb90350c9c849b8db23a055a14ae1",
+    "parents": "a1db9458b86554f07763a7944fb3bb07d470895f",
+    "subject": "fixup: in Atomics.store, simplify a condition"
+   },
    {
     "adate": "2022-03-04T17:03:43-05:00",
     "author": "Michael Dyck",
@@ -1349,7 +1357,7 @@
    }
   ],
   "title": "Editorial: Simplify getting the Element Type/Size for a TypedArray",
-  "updated_at": "2022-03-04T22:11:40Z"
+  "updated_at": "2022-03-09T19:28:52Z"
  },
  {
   "base": "417a0bb5bc3a6d7117c33cf50803483d9bd7adc1",
