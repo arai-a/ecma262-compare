@@ -1,5 +1,37 @@
 [
  {
+  "adate": "2022-03-09T15:01:12-08:00",
+  "author": "Michael Dyck",
+  "date": "2022-03-09T15:01:12-08:00",
+  "hash": "27257a04e2f66f2ec581a73262897bc0f25e28f0",
+  "parents": "1043ca4b2d1d6d8206703eed3ef240d711440f73",
+  "subject": "Editorial: Factor out SortIndexedProperties (#2305)"
+ },
+ {
+  "adate": "2022-03-09T15:01:07-08:00",
+  "author": "Michael Dyck",
+  "date": "2022-03-09T15:01:07-08:00",
+  "hash": "1043ca4b2d1d6d8206703eed3ef240d711440f73",
+  "parents": "641e8a8f1ea9800934c5193b911612a82914ff96",
+  "subject": "Editorial: Recast SortCompare from abstract op to abstract closure (#2305)"
+ },
+ {
+  "adate": "2022-03-09T15:01:03-08:00",
+  "author": "Michael Dyck",
+  "date": "2022-03-09T15:01:03-08:00",
+  "hash": "641e8a8f1ea9800934c5193b911612a82914ff96",
+  "parents": "306c075223473cc0a868d0fd4c45b708caf57a8e",
+  "subject": "Editorial: Tweak the definition of \"sort order\" (#2305)"
+ },
+ {
+  "adate": "2022-03-09T15:00:57-08:00",
+  "author": "Michael Dyck",
+  "date": "2022-03-09T15:00:57-08:00",
+  "hash": "306c075223473cc0a868d0fd4c45b708caf57a8e",
+  "parents": "a90670d526c97eaeefeb1bf4f5f7dbc6a1d17d13",
+  "subject": "Editorial: Rename \"consistent comparison function\" as \"consistent comparator\" (#2305)"
+ },
+ {
   "adate": "2022-03-09T13:01:39-08:00",
   "author": "Michael Dyck",
   "date": "2022-03-09T13:01:39-08:00",
