@@ -1,6 +1,26 @@
 [
  {
   "base": "27257a04e2f66f2ec581a73262897bc0f25e28f0",
+  "created_at": "2022-03-10T21:59:09Z",
+  "head": "7c5c3450ad8ab837016063b3eeef1d2ff0dd10e7",
+  "login": "ljharb",
+  "number": 2689,
+  "ref": "biblio-sha",
+  "revs": [
+   {
+    "adate": "2022-03-10T14:08:31-08:00",
+    "author": "Jordan Harband",
+    "date": "2022-03-10T14:08:31-08:00",
+    "hash": "7c5c3450ad8ab837016063b3eeef1d2ff0dd10e7",
+    "parents": "27257a04e2f66f2ec581a73262897bc0f25e28f0",
+    "subject": "Meta: biblio: add `specSHA` field to package.json every publish (#2689)"
+   }
+  ],
+  "title": "Meta: biblio: add `specSHA` field to package.json every publish",
+  "updated_at": "2022-03-10T22:13:57Z"
+ },
+ {
+  "base": "27257a04e2f66f2ec581a73262897bc0f25e28f0",
   "created_at": "2022-03-10T01:41:20Z",
   "head": "8f4f819469c4b8f504999c5e2f37a5d43fe6e4d2",
   "login": "tc39",
