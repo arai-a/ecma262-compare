@@ -1,6 +1,26 @@
 [
  {
   "base": "27257a04e2f66f2ec581a73262897bc0f25e28f0",
+  "created_at": "2022-03-10T01:41:20Z",
+  "head": "8f4f819469c4b8f504999c5e2f37a5d43fe6e4d2",
+  "login": "tc39",
+  "number": 2688,
+  "ref": "use-replaces-step",
+  "revs": [
+   {
+    "adate": "2022-03-09T18:30:56-07:00",
+    "author": "Michael Ficarra",
+    "date": "2022-03-09T18:33:49-07:00",
+    "hash": "8f4f819469c4b8f504999c5e2f37a5d43fe6e4d2",
+    "parents": "27257a04e2f66f2ec581a73262897bc0f25e28f0",
+    "subject": "Editorial: work around ecmarkup limit with replacement step numbering"
+   }
+  ],
+  "title": "Editorial: work around ecmarkup limititation with replacement step numbering",
+  "updated_at": "2022-03-10T01:59:30Z"
+ },
+ {
+  "base": "27257a04e2f66f2ec581a73262897bc0f25e28f0",
   "created_at": "2022-03-10T00:53:01Z",
   "head": "87d7d1c8cb7824df471cf1a6810707afb9d7320c",
   "login": "tc39",
