@@ -1,5 +1,45 @@
 [
  {
+  "base": "27257a04e2f66f2ec581a73262897bc0f25e28f0",
+  "created_at": "2022-03-10T00:53:01Z",
+  "head": "87d7d1c8cb7824df471cf1a6810707afb9d7320c",
+  "login": "tc39",
+  "number": 2687,
+  "ref": "GH-2685",
+  "revs": [
+   {
+    "adate": "2022-03-09T17:51:47-07:00",
+    "author": "Michael Ficarra",
+    "date": "2022-03-09T17:51:47-07:00",
+    "hash": "87d7d1c8cb7824df471cf1a6810707afb9d7320c",
+    "parents": "27257a04e2f66f2ec581a73262897bc0f25e28f0",
+    "subject": "Editorial: fix ambiguity in Annex B definition of typeof semantics"
+   }
+  ],
+  "title": "Editorial: fix ambiguity in Annex B definition of typeof semantics",
+  "updated_at": "2022-03-10T00:53:01Z"
+ },
+ {
+  "base": "27257a04e2f66f2ec581a73262897bc0f25e28f0",
+  "created_at": "2022-03-10T00:01:35Z",
+  "head": "de60cc531cb1da1125a4fe4e3ff64afe81daba07",
+  "login": "tc39",
+  "number": 2686,
+  "ref": "GH-2305-followup",
+  "revs": [
+   {
+    "adate": "2022-03-09T17:00:09-07:00",
+    "author": "Michael Ficarra",
+    "date": "2022-03-09T17:00:09-07:00",
+    "hash": "de60cc531cb1da1125a4fe4e3ff64afe81daba07",
+    "parents": "27257a04e2f66f2ec581a73262897bc0f25e28f0",
+    "subject": "Editorial: eliminate unnecessary phrasing that explains how return works"
+   }
+  ],
+  "title": "Editorial: eliminate unnecessary phrasing that explains how return works",
+  "updated_at": "2022-03-10T00:05:23Z"
+ },
+ {
   "base": "7913cea54f83459dd1a0f70c4f464e93434a8dda",
   "created_at": "2022-03-08T16:52:19Z",
   "head": "e56aa974215fd10391a4ae14cdddc4e1b91b94f9",
@@ -1410,50 +1450,6 @@
   ],
   "title": "Normative: Don't coerce value if index is invalid in TypedArray [[Set]]",
   "updated_at": "2021-03-02T20:18:19Z"
- },
- {
-  "base": "a90670d526c97eaeefeb1bf4f5f7dbc6a1d17d13",
-  "created_at": "2021-02-11T16:04:14Z",
-  "head": "87cb50bbce7ae4b8c8b62afea4160f226d7f4b4e",
-  "login": "jmdyck",
-  "number": 2305,
-  "ref": "SortArrayLike",
-  "revs": [
-   {
-    "adate": "2021-02-11T10:43:36-05:00",
-    "author": "Michael Dyck",
-    "date": "2022-03-09T17:11:03-05:00",
-    "hash": "87cb50bbce7ae4b8c8b62afea4160f226d7f4b4e",
-    "parents": "372899959628b9ffc8470deedc589c8d20e467ce",
-    "subject": "Editorial: Factor out SortIndexedProperties"
-   },
-   {
-    "adate": "2021-02-11T10:32:49-05:00",
-    "author": "Michael Dyck",
-    "date": "2022-03-09T17:05:22-05:00",
-    "hash": "372899959628b9ffc8470deedc589c8d20e467ce",
-    "parents": "b7d371006cb870ec7f85169d5168d530f9d6cb4f",
-    "subject": "Editorial: Recast SortCompare from abstract op to abstract closure"
-   },
-   {
-    "adate": "2021-02-11T09:57:55-05:00",
-    "author": "Michael Dyck",
-    "date": "2022-03-09T17:05:22-05:00",
-    "hash": "b7d371006cb870ec7f85169d5168d530f9d6cb4f",
-    "parents": "8f68248d28873d111608b6692e663ce98c6f6357",
-    "subject": "Editorial: Tweak the definition of \"sort order\""
-   },
-   {
-    "adate": "2021-02-11T09:15:50-05:00",
-    "author": "Michael Dyck",
-    "date": "2022-03-09T17:05:16-05:00",
-    "hash": "8f68248d28873d111608b6692e663ce98c6f6357",
-    "parents": "a90670d526c97eaeefeb1bf4f5f7dbc6a1d17d13",
-    "subject": "Editorial: Rename \"consistent comparison function\" as \"consistent comparator\""
-   }
-  ],
-  "title": "Editorial: Factor out common `sort` functionality",
-  "updated_at": "2022-03-09T22:29:17Z"
  },
  {
   "base": "7575f745f26e9f66b2be481144f37ac4a8a9f1c4",
