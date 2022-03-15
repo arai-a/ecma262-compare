@@ -1,5 +1,49 @@
 [
  {
+  "base": "ada486f269a68f099d378a84254e21bdba0410a7",
+  "created_at": "2022-03-15T04:48:20Z",
+  "head": "8ef9b1b473473ee5bee3a3258cc127f8f4e59b41",
+  "login": "jmdyck",
+  "number": 2691,
+  "ref": "use_type_syntax_more",
+  "revs": [
+   {
+    "adate": "2022-03-15T00:27:06-04:00",
+    "author": "Michael Dyck",
+    "date": "2022-03-15T00:27:06-04:00",
+    "hash": "8ef9b1b473473ee5bee3a3258cc127f8f4e59b41",
+    "parents": "f424c36988ed8c42f6dbf07b7b89855f50470a01",
+    "subject": "Editorial: Reword the 'type' syntax of fields"
+   },
+   {
+    "adate": "2022-03-14T23:58:02-04:00",
+    "author": "Michael Dyck",
+    "date": "2022-03-14T23:58:02-04:00",
+    "hash": "f424c36988ed8c42f6dbf07b7b89855f50470a01",
+    "parents": "69dca38376add66dfe7f7a27c72b6d8803972980",
+    "subject": "Editorial: Add 'Type' column to some internal slots tables"
+   },
+   {
+    "adate": "2022-03-14T23:37:39-04:00",
+    "author": "Michael Dyck",
+    "date": "2022-03-14T23:37:39-04:00",
+    "hash": "69dca38376add66dfe7f7a27c72b6d8803972980",
+    "parents": "75b7b84d085c62cf46dae4bc11e7dfaa232d35c7",
+    "subject": "Editorial: Reword 'types' of internal slots"
+   },
+   {
+    "adate": "2022-03-14T23:30:59-04:00",
+    "author": "Michael Dyck",
+    "date": "2022-03-14T23:30:59-04:00",
+    "hash": "75b7b84d085c62cf46dae4bc11e7dfaa232d35c7",
+    "parents": "ada486f269a68f099d378a84254e21bdba0410a7",
+    "subject": "Editorial: Reword 'types' of interface properties"
+   }
+  ],
+  "title": "Editorial: Expand the use of 'type' syntax",
+  "updated_at": "2022-03-15T04:50:54Z"
+ },
+ {
   "base": "27257a04e2f66f2ec581a73262897bc0f25e28f0",
   "created_at": "2022-03-10T01:41:20Z",
   "head": "8f4f819469c4b8f504999c5e2f37a5d43fe6e4d2",
