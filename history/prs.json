@@ -1,5 +1,25 @@
 [
  {
+  "base": "bcfd7eef2f27fb45b4b573976a973af9c6164a4a",
+  "created_at": "2022-03-16T22:46:21Z",
+  "head": "87ba5e941ed2fc673933a1e2fb89ef71b93265df",
+  "login": "ljharb",
+  "number": 2697,
+  "ref": "stringpad",
+  "revs": [
+   {
+    "adate": "2022-03-16T15:54:17-07:00",
+    "author": "Jordan Harband",
+    "date": "2022-03-16T16:00:47-07:00",
+    "hash": "87ba5e941ed2fc673933a1e2fb89ef71b93265df",
+    "parents": "bcfd7eef2f27fb45b4b573976a973af9c6164a4a",
+    "subject": "Editorial: `StringPad`: refactor to be completionless (#2697)"
+   }
+  ],
+  "title": "Editorial: `StringPad`: refactor to be completionless",
+  "updated_at": "2022-03-16T23:06:34Z"
+ },
+ {
   "base": "ada486f269a68f099d378a84254e21bdba0410a7",
   "created_at": "2022-03-16T20:31:38Z",
   "head": "81af862d0872fb4d643c038e6da46a9699dc9dcc",
@@ -106,86 +126,6 @@
   ],
   "title": "Editorial: Expand the use of 'type' syntax",
   "updated_at": "2022-03-15T04:50:54Z"
- },
- {
-  "base": "27257a04e2f66f2ec581a73262897bc0f25e28f0",
-  "created_at": "2022-03-10T01:41:20Z",
-  "head": "8f4f819469c4b8f504999c5e2f37a5d43fe6e4d2",
-  "login": "tc39",
-  "number": 2688,
-  "ref": "use-replaces-step",
-  "revs": [
-   {
-    "adate": "2022-03-09T18:30:56-07:00",
-    "author": "Michael Ficarra",
-    "date": "2022-03-09T18:33:49-07:00",
-    "hash": "8f4f819469c4b8f504999c5e2f37a5d43fe6e4d2",
-    "parents": "27257a04e2f66f2ec581a73262897bc0f25e28f0",
-    "subject": "Editorial: work around ecmarkup limit with replacement step numbering"
-   }
-  ],
-  "title": "Editorial: work around ecmarkup limititation with replacement step numbering",
-  "updated_at": "2022-03-10T01:59:30Z"
- },
- {
-  "base": "27257a04e2f66f2ec581a73262897bc0f25e28f0",
-  "created_at": "2022-03-10T00:53:01Z",
-  "head": "87d7d1c8cb7824df471cf1a6810707afb9d7320c",
-  "login": "tc39",
-  "number": 2687,
-  "ref": "GH-2685",
-  "revs": [
-   {
-    "adate": "2022-03-09T17:51:47-07:00",
-    "author": "Michael Ficarra",
-    "date": "2022-03-09T17:51:47-07:00",
-    "hash": "87d7d1c8cb7824df471cf1a6810707afb9d7320c",
-    "parents": "27257a04e2f66f2ec581a73262897bc0f25e28f0",
-    "subject": "Editorial: fix ambiguity in Annex B definition of typeof semantics"
-   }
-  ],
-  "title": "Editorial: fix ambiguity in Annex B definition of typeof semantics",
-  "updated_at": "2022-03-10T00:53:01Z"
- },
- {
-  "base": "27257a04e2f66f2ec581a73262897bc0f25e28f0",
-  "created_at": "2022-03-10T00:01:35Z",
-  "head": "de60cc531cb1da1125a4fe4e3ff64afe81daba07",
-  "login": "tc39",
-  "number": 2686,
-  "ref": "GH-2305-followup",
-  "revs": [
-   {
-    "adate": "2022-03-09T17:00:09-07:00",
-    "author": "Michael Ficarra",
-    "date": "2022-03-09T17:00:09-07:00",
-    "hash": "de60cc531cb1da1125a4fe4e3ff64afe81daba07",
-    "parents": "27257a04e2f66f2ec581a73262897bc0f25e28f0",
-    "subject": "Editorial: eliminate unnecessary phrasing that explains how return works"
-   }
-  ],
-  "title": "Editorial: eliminate unnecessary phrasing that explains how return works",
-  "updated_at": "2022-03-10T00:05:23Z"
- },
- {
-  "base": "7913cea54f83459dd1a0f70c4f464e93434a8dda",
-  "created_at": "2022-03-08T16:52:19Z",
-  "head": "e56aa974215fd10391a4ae14cdddc4e1b91b94f9",
-  "login": "tc39",
-  "number": 2684,
-  "ref": "move-object-assignment-prod",
-  "revs": [
-   {
-    "adate": "2022-03-08T08:47:23-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2022-03-08T08:47:23-08:00",
-    "hash": "e56aa974215fd10391a4ae14cdddc4e1b91b94f9",
-    "parents": "7913cea54f83459dd1a0f70c4f464e93434a8dda",
-    "subject": "Editorial: tweak DestructuringAssignmentEvaluation"
-   }
-  ],
-  "title": "Editorial: tweak DestructuringAssignmentEvaluation",
-  "updated_at": "2022-03-08T16:52:29Z"
  },
  {
   "base": "cbd5493ae4d0ad72e4e658e47764638c025c2edf",
@@ -2126,34 +2066,6 @@
   ],
   "title": "Editorial: Formally disambiguate the non-Annex-B grammar",
   "updated_at": "2020-03-27T07:01:25Z"
- },
- {
-  "base": "ada486f269a68f099d378a84254e21bdba0410a7",
-  "created_at": "2019-10-01T16:29:45Z",
-  "head": "efc369b2322287f3b946d6fdaa7811a381bd4164",
-  "login": "rbuckton",
-  "number": 1713,
-  "ref": "regexp-match-indices",
-  "revs": [
-   {
-    "adate": "2022-03-10T18:58:41-07:00",
-    "author": "Michael Ficarra",
-    "date": "2022-03-10T18:59:03-07:00",
-    "hash": "efc369b2322287f3b946d6fdaa7811a381bd4164",
-    "parents": "97c1679bde2bf7a55170c29300386b011c19df4e",
-    "subject": "editorial feedback"
-   },
-   {
-    "adate": "2019-10-01T09:28:17-07:00",
-    "author": "Ron Buckton",
-    "date": "2022-03-10T18:10:20-07:00",
-    "hash": "97c1679bde2bf7a55170c29300386b011c19df4e",
-    "parents": "ada486f269a68f099d378a84254e21bdba0410a7",
-    "subject": "Normative: add RegExp match indices, including RegExp d flag"
-   }
-  ],
-  "title": "Normative: add RegExp Match Indices",
-  "updated_at": "2022-03-11T02:01:40Z"
  },
  {
   "base": "8e65afde3815b155527e98de3fabeb3ce7d54074",
