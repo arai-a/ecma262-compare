@@ -1,6 +1,26 @@
 [
  {
   "base": "bcfd7eef2f27fb45b4b573976a973af9c6164a4a",
+  "created_at": "2022-03-17T03:14:50Z",
+  "head": "1e98a9f17e906a194905c171bfda0977b1e21f07",
+  "login": "jmdyck",
+  "number": 2698,
+  "ref": "quick_fix",
+  "revs": [
+   {
+    "adate": "2022-03-16T23:10:10-04:00",
+    "author": "Michael Dyck",
+    "date": "2022-03-16T23:10:10-04:00",
+    "hash": "1e98a9f17e906a194905c171bfda0977b1e21f07",
+    "parents": "bcfd7eef2f27fb45b4b573976a973af9c6164a4a",
+    "subject": "Editorial: Fix the return-type of CompilePattern"
+   }
+  ],
+  "title": "Editorial: Fix the return-type of CompilePattern",
+  "updated_at": "2022-03-17T03:17:37Z"
+ },
+ {
+  "base": "bcfd7eef2f27fb45b4b573976a973af9c6164a4a",
   "created_at": "2022-03-16T22:46:21Z",
   "head": "87ba5e941ed2fc673933a1e2fb89ef71b93265df",
   "login": "ljharb",
