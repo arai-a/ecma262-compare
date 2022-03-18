@@ -1,5 +1,25 @@
 [
  {
+  "base": "8d9522cc84c1bcedc49e4c9e8272b72615e407cf",
+  "created_at": "2022-03-18T06:35:58Z",
+  "head": "c6004df1fb08892829e048c9a0b73cdf213b9b3b",
+  "login": "h2oche",
+  "number": 2700,
+  "ref": "NumberMultiply",
+  "revs": [
+   {
+    "adate": "2022-03-18T15:01:11+09:00",
+    "author": "h2oche",
+    "date": "2022-03-18T15:01:11+09:00",
+    "hash": "c6004df1fb08892829e048c9a0b73cdf213b9b3b",
+    "parents": "8d9522cc84c1bcedc49e4c9e8272b72615e407cf",
+    "subject": "Editorial: Handled -0 case in 'Number::multiply'"
+   }
+  ],
+  "title": "Editorial: Handled -0 case in 'Number::multiply'",
+  "updated_at": "2022-03-18T06:44:04Z"
+ },
+ {
   "base": "bcfd7eef2f27fb45b4b573976a973af9c6164a4a",
   "created_at": "2022-03-17T10:42:21Z",
   "head": "04f0a6e9a2952230fb1990c9d27ff0e62cff19e2",
