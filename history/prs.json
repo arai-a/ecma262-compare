@@ -120,50 +120,6 @@
   "updated_at": "2022-03-16T20:40:01Z"
  },
  {
-  "base": "bcfd7eef2f27fb45b4b573976a973af9c6164a4a",
-  "created_at": "2022-03-15T04:48:20Z",
-  "head": "8d9522cc84c1bcedc49e4c9e8272b72615e407cf",
-  "login": "jmdyck",
-  "number": 2691,
-  "ref": "use_type_syntax_more",
-  "revs": [
-   {
-    "adate": "2022-03-17T16:33:51-07:00",
-    "author": "Michael Dyck",
-    "date": "2022-03-17T16:33:51-07:00",
-    "hash": "8d9522cc84c1bcedc49e4c9e8272b72615e407cf",
-    "parents": "681e4488f4ea5f857e2726959f56e5ac7a0ea1ee",
-    "subject": "Editorial: Reword the 'type' syntax of fields (#2691)"
-   },
-   {
-    "adate": "2022-03-17T16:33:49-07:00",
-    "author": "Michael Dyck",
-    "date": "2022-03-17T16:33:49-07:00",
-    "hash": "681e4488f4ea5f857e2726959f56e5ac7a0ea1ee",
-    "parents": "2c46aa6b0ea524304a03d4aefc48348930362f7b",
-    "subject": "Editorial: Add 'Type' column to some internal slots tables (#2691)"
-   },
-   {
-    "adate": "2022-03-17T16:33:46-07:00",
-    "author": "Michael Dyck",
-    "date": "2022-03-17T16:33:46-07:00",
-    "hash": "2c46aa6b0ea524304a03d4aefc48348930362f7b",
-    "parents": "25411f33c36d88c86580d3382eee5e34aa2fe286",
-    "subject": "Editorial: Reword 'types' of internal slots (#2691)"
-   },
-   {
-    "adate": "2022-03-17T16:33:37-07:00",
-    "author": "Michael Dyck",
-    "date": "2022-03-17T16:33:37-07:00",
-    "hash": "25411f33c36d88c86580d3382eee5e34aa2fe286",
-    "parents": "bcfd7eef2f27fb45b4b573976a973af9c6164a4a",
-    "subject": "Editorial: Reword 'types' of interface properties (#2691)"
-   }
-  ],
-  "title": "Editorial: Expand the use of 'type' syntax",
-  "updated_at": "2022-03-17T23:34:04Z"
- },
- {
   "base": "cbd5493ae4d0ad72e4e658e47764638c025c2edf",
   "created_at": "2022-03-05T04:30:05Z",
   "head": "9e725c9a679f8f1b78de144e85b00487ab59529b",
@@ -684,9 +640,9 @@
   "updated_at": "2022-01-26T00:56:42Z"
  },
  {
-  "base": "27257a04e2f66f2ec581a73262897bc0f25e28f0",
+  "base": "8d9522cc84c1bcedc49e4c9e8272b72615e407cf",
   "created_at": "2021-11-29T02:09:26Z",
-  "head": "c66bdd8dc016c7bfd2ad9f7f06e3bff4adf2eff0",
+  "head": "eb573c5f2e887b96985da950e33e77788b321e9c",
   "login": "jmdyck",
   "number": 2592,
   "ref": "intrinsics_prose",
@@ -694,150 +650,150 @@
    {
     "adate": "2021-11-28T11:00:36-05:00",
     "author": "Michael Dyck",
-    "date": "2022-03-09T22:23:28-05:00",
-    "hash": "c66bdd8dc016c7bfd2ad9f7f06e3bff4adf2eff0",
-    "parents": "2ecaec283e1d5fdeaad1fe9de7450eb358bc3676",
+    "date": "2022-03-17T23:13:36-04:00",
+    "hash": "eb573c5f2e887b96985da950e33e77788b321e9c",
+    "parents": "28687f3e19c8c3d0dbca170d71b7b206447c8c82",
     "subject": "Intrinsic functions: Eliminate some occurrences of \"is used to\""
    },
    {
     "adate": "2021-11-28T10:35:11-05:00",
     "author": "Michael Dyck",
-    "date": "2022-03-09T22:23:28-05:00",
-    "hash": "2ecaec283e1d5fdeaad1fe9de7450eb358bc3676",
-    "parents": "09d545449489a178cf6676aa211a8ab841d210c6",
+    "date": "2022-03-17T23:13:36-04:00",
+    "hash": "28687f3e19c8c3d0dbca170d71b7b206447c8c82",
+    "parents": "99c31dc1db06a21acf2439275f4a13b71d64d4f8",
     "subject": "Intrinsic functions: Convert passive to active in preambles"
    },
    {
     "adate": "2021-11-27T23:11:34-05:00",
     "author": "Michael Dyck",
-    "date": "2022-03-09T22:23:13-05:00",
-    "hash": "09d545449489a178cf6676aa211a8ab841d210c6",
-    "parents": "50f1aa87063be7805a6eaf952f8e5edae2070cac",
+    "date": "2022-03-17T23:13:36-04:00",
+    "hash": "99c31dc1db06a21acf2439275f4a13b71d64d4f8",
+    "parents": "abbae160d883b0aa9b3d0d882fdea0ce9fe97a38",
     "subject": "Intrinsic functions: Consistify how a function's defining clause refers to it"
    },
    {
     "adate": "2021-11-26T14:46:57-05:00",
     "author": "Michael Dyck",
-    "date": "2022-03-09T22:09:11-05:00",
-    "hash": "50f1aa87063be7805a6eaf952f8e5edae2070cac",
-    "parents": "16f9efb08b303f858530e8f8e4af54bdbfac50e2",
+    "date": "2022-03-17T23:13:36-04:00",
+    "hash": "abbae160d883b0aa9b3d0d882fdea0ce9fe97a38",
+    "parents": "0ba9fb9de66fa54b3f16f2409061648fea0d63b0",
     "subject": "Intrinsic functions: Don't elide the subject"
    },
    {
     "adate": "2021-11-25T14:52:47-05:00",
     "author": "Michael Dyck",
-    "date": "2022-03-09T22:09:10-05:00",
-    "hash": "16f9efb08b303f858530e8f8e4af54bdbfac50e2",
-    "parents": "0f8813459f5f6f4ada44e80b4d2a9c880b704e88",
+    "date": "2022-03-17T23:13:36-04:00",
+    "hash": "0ba9fb9de66fa54b3f16f2409061648fea0d63b0",
+    "parents": "1adfb05bbb47883877283c6aa279611e9e453261",
     "subject": "Intrinsic functions: Elimininate \"When\""
    },
    {
     "adate": "2021-11-25T14:21:52-05:00",
     "author": "Michael Dyck",
-    "date": "2022-03-09T22:09:10-05:00",
-    "hash": "0f8813459f5f6f4ada44e80b4d2a9c880b704e88",
-    "parents": "c89417718447e5e916a7c5a0f023a7d6cba817f7",
+    "date": "2022-03-17T23:13:36-04:00",
+    "hash": "1adfb05bbb47883877283c6aa279611e9e453261",
+    "parents": "bc4ba720dc9e07f3b7359fb11089568a193e0805",
     "subject": "Intrinsic functions: Consistify the \"following steps\" phrasing (5)"
    },
    {
     "adate": "2021-11-25T13:07:23-05:00",
     "author": "Michael Dyck",
-    "date": "2022-03-09T22:09:10-05:00",
-    "hash": "c89417718447e5e916a7c5a0f023a7d6cba817f7",
-    "parents": "5131820a11dbf50eb1b7421c39cc917107b36328",
+    "date": "2022-03-17T23:13:36-04:00",
+    "hash": "bc4ba720dc9e07f3b7359fb11089568a193e0805",
+    "parents": "03526a796a362323db69a0a3d275b2e3b3284e5b",
     "subject": "Intrinsic functions: Consistify the \"following steps\" phrasing (4)"
    },
    {
     "adate": "2021-11-25T12:52:17-05:00",
     "author": "Michael Dyck",
-    "date": "2022-03-09T22:09:10-05:00",
-    "hash": "5131820a11dbf50eb1b7421c39cc917107b36328",
-    "parents": "2e2265fafa6302dd40886800d9f9ed705b08aa55",
+    "date": "2022-03-17T23:13:36-04:00",
+    "hash": "03526a796a362323db69a0a3d275b2e3b3284e5b",
+    "parents": "6c347256f0b88eaedb530d91d95cd66707b671c5",
     "subject": "Intrinsic functions: Consistify the \"following steps\" phrasing (3)"
    },
    {
     "adate": "2021-11-25T09:20:11-05:00",
     "author": "Michael Dyck",
-    "date": "2022-03-09T22:09:10-05:00",
-    "hash": "2e2265fafa6302dd40886800d9f9ed705b08aa55",
-    "parents": "b5015cf498459d2d1d26f02a160f92bee8408491",
+    "date": "2022-03-17T23:13:35-04:00",
+    "hash": "6c347256f0b88eaedb530d91d95cd66707b671c5",
+    "parents": "fb1a59a509d595dd5d7b7bdfbc34d5b94e151e67",
     "subject": "Intrinsic functions: Consistify the \"following steps\" phrasing (2)"
    },
    {
     "adate": "2021-11-25T09:13:54-05:00",
     "author": "Michael Dyck",
-    "date": "2022-03-09T22:09:10-05:00",
-    "hash": "b5015cf498459d2d1d26f02a160f92bee8408491",
-    "parents": "747e2b28d213f3b05c5b8b2a02c69fdd5bc2f026",
+    "date": "2022-03-17T22:38:14-04:00",
+    "hash": "fb1a59a509d595dd5d7b7bdfbc34d5b94e151e67",
+    "parents": "5dc1db267edfbe9965f6f2b10612726511ac75c0",
     "subject": "Intrinsic functions: Consistify the \"following steps\" phrasing (1)"
    },
    {
     "adate": "2021-11-24T15:06:36-05:00",
     "author": "Michael Dyck",
-    "date": "2022-03-09T22:09:10-05:00",
-    "hash": "747e2b28d213f3b05c5b8b2a02c69fdd5bc2f026",
-    "parents": "6d92d142e5aeb867b89c4185b00be5de51b25256",
+    "date": "2022-03-17T22:38:13-04:00",
+    "hash": "5dc1db267edfbe9965f6f2b10612726511ac75c0",
+    "parents": "b284b0ff9937e7fd055458fcc5c369a843b47e45",
     "subject": "Intrinsic functions: Don't repeat the parameter list in the preamble (2)"
    },
    {
     "adate": "2021-11-24T15:22:11-05:00",
     "author": "Michael Dyck",
-    "date": "2022-03-09T22:09:09-05:00",
-    "hash": "6d92d142e5aeb867b89c4185b00be5de51b25256",
-    "parents": "97b2e8592c43dbda9ef82a8893c00ef71cc2fb55",
+    "date": "2022-03-17T22:38:13-04:00",
+    "hash": "b284b0ff9937e7fd055458fcc5c369a843b47e45",
+    "parents": "f0fcdbf4104326f4ef842dade5e93fe48381e9b0",
     "subject": "Intrinsic functions: Don't repeat the parameter list in the preamble (1)"
    },
    {
     "adate": "2021-11-25T23:55:23-05:00",
     "author": "Michael Dyck",
-    "date": "2022-03-09T22:09:09-05:00",
-    "hash": "97b2e8592c43dbda9ef82a8893c00ef71cc2fb55",
-    "parents": "c7001a39e16f5e5ebdc3d69cc90150311040cd50",
+    "date": "2022-03-17T22:38:13-04:00",
+    "hash": "f0fcdbf4104326f4ef842dade5e93fe48381e9b0",
+    "parents": "48e2e7d808a41f2d925f1fea7bcb789380fb0af7",
     "subject": "Editorial: Change \"function\" to \"method\" in several spots"
    },
    {
     "adate": "2021-11-25T23:09:24-05:00",
     "author": "Michael Dyck",
-    "date": "2022-03-09T21:59:14-05:00",
-    "hash": "c7001a39e16f5e5ebdc3d69cc90150311040cd50",
-    "parents": "eecbeabe4df6d520069cbcebcd42927294f3b416",
+    "date": "2022-03-17T22:38:13-04:00",
+    "hash": "48e2e7d808a41f2d925f1fea7bcb789380fb0af7",
+    "parents": "e3884f003aeef341a6a1e3d06cd446f870040023",
     "subject": "Editorial: Change \"method\" to \"function\" in several spots"
    },
    {
     "adate": "2021-11-25T09:46:50-05:00",
     "author": "Michael Dyck",
-    "date": "2022-03-09T21:59:14-05:00",
-    "hash": "eecbeabe4df6d520069cbcebcd42927294f3b416",
-    "parents": "50857d548654ed197489093a8b4d7f5b38897dec",
+    "date": "2022-03-17T22:38:13-04:00",
+    "hash": "e3884f003aeef341a6a1e3d06cd446f870040023",
+    "parents": "45a338e6ef579536edf7a5cd289c5c78fb6a01f2",
     "subject": "Editorial: Convert imperative to indicative in preambles"
    },
    {
     "adate": "2021-11-25T09:06:00-05:00",
     "author": "Michael Dyck",
-    "date": "2022-03-09T21:59:14-05:00",
-    "hash": "50857d548654ed197489093a8b4d7f5b38897dec",
-    "parents": "605cc9938c48ba240300fd0c394ad65ebf39a9e8",
+    "date": "2022-03-17T22:38:13-04:00",
+    "hash": "45a338e6ef579536edf7a5cd289c5c78fb6a01f2",
+    "parents": "b6b24b97db42fc52510422fde5dc200f6c656599",
     "subject": "Editorial: Fix repetition in preamble"
    },
    {
     "adate": "2021-11-24T21:37:31-05:00",
     "author": "Michael Dyck",
-    "date": "2022-03-09T21:59:14-05:00",
-    "hash": "605cc9938c48ba240300fd0c394ad65ebf39a9e8",
-    "parents": "0c5abcb9f7d4b108faa67df86fe388f975c63e94",
+    "date": "2022-03-17T22:38:13-04:00",
+    "hash": "b6b24b97db42fc52510422fde5dc200f6c656599",
+    "parents": "35aa697f9b592b6cc56033a1e2bc75006e74d1aa",
     "subject": "Editorial: Delete \"of an object _F_\" in preamble"
    },
    {
     "adate": "2021-11-26T16:42:09-05:00",
     "author": "Michael Dyck",
-    "date": "2022-03-09T21:59:14-05:00",
-    "hash": "0c5abcb9f7d4b108faa67df86fe388f975c63e94",
-    "parents": "27257a04e2f66f2ec581a73262897bc0f25e28f0",
+    "date": "2022-03-17T22:38:13-04:00",
+    "hash": "35aa697f9b592b6cc56033a1e2bc75006e74d1aa",
+    "parents": "bcfd7eef2f27fb45b4b573976a973af9c6164a4a",
     "subject": "Editorial: Rearrange %TypedArray%.prototype.set's preamble."
    }
   ],
   "title": "Editorial: Consistify prose for intrinsic functions ",
-  "updated_at": "2022-03-10T03:27:19Z"
+  "updated_at": "2022-03-18T03:16:04Z"
  },
  {
   "base": "193211a3d889a61e74ef7da1475dfa356e029f29",
@@ -1556,9 +1512,9 @@
   "updated_at": "2021-03-02T20:18:19Z"
  },
  {
-  "base": "7575f745f26e9f66b2be481144f37ac4a8a9f1c4",
+  "base": "8d9522cc84c1bcedc49e4c9e8272b72615e407cf",
   "created_at": "2021-01-24T05:38:33Z",
-  "head": "af9acc5860583b8efb0a8942af72e2e901e8bc7e",
+  "head": "15b7e069482d5f267979d7cdabb344f71ebe8d93",
   "login": "jmdyck",
   "number": 2288,
   "ref": "declarative_Env_Rec",
@@ -1566,46 +1522,46 @@
    {
     "adate": "2021-01-24T00:30:29-05:00",
     "author": "Michael Dyck",
-    "date": "2022-02-28T12:30:52-05:00",
-    "hash": "af9acc5860583b8efb0a8942af72e2e901e8bc7e",
-    "parents": "0a0ac511fedc55b5622a374b3866b7a8e3ff00b3",
+    "date": "2022-03-17T23:22:00-04:00",
+    "hash": "15b7e069482d5f267979d7cdabb344f71ebe8d93",
+    "parents": "38c7e31ef3bce93acdc8c0c3319a2b291894b86e",
     "subject": "Editorial: Model a declarative binding as a Record"
    },
    {
     "adate": "2021-01-23T23:59:22-05:00",
     "author": "Michael Dyck",
-    "date": "2022-02-28T12:20:27-05:00",
-    "hash": "0a0ac511fedc55b5622a374b3866b7a8e3ff00b3",
-    "parents": "99e47e2b7ac13269505a2927d81fdbc5004d64e2",
+    "date": "2022-03-17T23:21:02-04:00",
+    "hash": "38c7e31ef3bce93acdc8c0c3319a2b291894b86e",
+    "parents": "e3cb7ca8975880478da716861de63b3c90e2725b",
     "subject": "Editorial: declarative Env Rec has field [[Bindings]]"
    },
    {
     "adate": "2021-01-23T23:52:38-05:00",
     "author": "Michael Dyck",
-    "date": "2022-02-28T11:56:29-05:00",
-    "hash": "99e47e2b7ac13269505a2927d81fdbc5004d64e2",
-    "parents": "45829f936bbb78058f957ae647b8d043427f5d11",
+    "date": "2022-03-17T23:20:15-04:00",
+    "hash": "e3cb7ca8975880478da716861de63b3c90e2725b",
+    "parents": "af5008ba44b089bbc5a06ccc9fc7ad586ca8c4eb",
     "subject": "Editorial: Treat a binding as an 'alias-able' thing"
    },
    {
     "adate": "2021-01-23T23:03:21-05:00",
     "author": "Michael Dyck",
-    "date": "2022-02-28T09:42:51-05:00",
-    "hash": "45829f936bbb78058f957ae647b8d043427f5d11",
-    "parents": "0c4217241d463d69fde4649367adf940a5025c48",
+    "date": "2022-03-17T23:18:27-04:00",
+    "hash": "af5008ba44b089bbc5a06ccc9fc7ad586ca8c4eb",
+    "parents": "9c7bf014d3a422e1038b2f9f06d32ded5b66a700",
     "subject": "Editorial: Have NewGlobalEnvironment invoke NewDeclarativeEnvironment"
    },
    {
     "adate": "2021-01-23T22:54:21-05:00",
     "author": "Michael Dyck",
-    "date": "2022-02-28T09:16:51-05:00",
-    "hash": "0c4217241d463d69fde4649367adf940a5025c48",
-    "parents": "7575f745f26e9f66b2be481144f37ac4a8a9f1c4",
+    "date": "2022-03-17T23:18:27-04:00",
+    "hash": "9c7bf014d3a422e1038b2f9f06d32ded5b66a700",
+    "parents": "bcfd7eef2f27fb45b4b573976a973af9c6164a4a",
     "subject": "Editorial: Use declarative Env Rec's HasBinding method"
    }
   ],
   "title": "Editorial: Model the bindings of a declarative Env Rec as a List of Records",
-  "updated_at": "2022-02-28T17:40:35Z"
+  "updated_at": "2022-03-18T03:24:58Z"
  },
  {
   "base": "7575f745f26e9f66b2be481144f37ac4a8a9f1c4",
