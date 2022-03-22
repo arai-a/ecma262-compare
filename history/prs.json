@@ -1,6 +1,42 @@
 [
  {
   "base": "8d9522cc84c1bcedc49e4c9e8272b72615e407cf",
+  "created_at": "2022-03-22T19:44:59Z",
+  "head": "c83031524e330888cfe95ac6534df47be77195de",
+  "login": "gibson042",
+  "number": 2705,
+  "ref": "2022-03-property-and-field-reference-consistency",
+  "revs": [
+   {
+    "adate": "2022-03-22T15:30:06-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-03-22T15:30:06-04:00",
+    "hash": "c83031524e330888cfe95ac6534df47be77195de",
+    "parents": "50a3fd42b03fee28df01effa1fc0bcede41d7433",
+    "subject": "Editorial: Clarify that GetSuperBase assists property lookups _on_ `super`"
+   },
+   {
+    "adate": "2022-03-22T15:24:24-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-03-22T15:24:24-04:00",
+    "hash": "50a3fd42b03fee28df01effa1fc0bcede41d7433",
+    "parents": "c2f6c95beef2b5c98a9c939fc6ac7b1f6699eef2",
+    "subject": "Editorial: Refer to Record _fields_ rather than _properties_"
+   },
+   {
+    "adate": "2022-03-22T15:22:41-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-03-22T15:22:41-04:00",
+    "hash": "c2f6c95beef2b5c98a9c939fc6ac7b1f6699eef2",
+    "parents": "8d9522cc84c1bcedc49e4c9e8272b72615e407cf",
+    "subject": "Editorial: Consistently represent property names as language values"
+   }
+  ],
+  "title": "Editorial: Improve consistency of property and record field names",
+  "updated_at": "2022-03-22T19:47:14Z"
+ },
+ {
+  "base": "8d9522cc84c1bcedc49e4c9e8272b72615e407cf",
   "created_at": "2022-03-21T22:36:24Z",
   "head": "f6f015b0766d5fd0f9cde9b3ed40465e2a89e56c",
   "login": "jmdyck",
