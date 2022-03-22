@@ -1182,11 +1182,27 @@
  {
   "base": "8d9522cc84c1bcedc49e4c9e8272b72615e407cf",
   "created_at": "2021-05-28T11:28:01Z",
-  "head": "d0fd9b7403dfc42cfb71b35fd025164fe35d2087",
+  "head": "9a3f17526c668c0b0aaf758e36f5f5c0654eb62c",
   "login": "mathiasbynens",
   "number": 2418,
   "ref": "regexp-v-flag",
   "revs": [
+   {
+    "adate": "2022-03-22T22:00:21+01:00",
+    "author": "Mathias Bynens",
+    "date": "2022-03-22T22:00:21+01:00",
+    "hash": "9a3f17526c668c0b0aaf758e36f5f5c0654eb62c",
+    "parents": "fb1ec2ddc6d5bbe9f771b0483c36699d228c45d0",
+    "subject": "Make `AllCharacters` more precise (#5)"
+   },
+   {
+    "adate": "2022-03-22T22:00:06+01:00",
+    "author": "Mathias Bynens",
+    "date": "2022-03-22T22:00:06+01:00",
+    "hash": "fb1ec2ddc6d5bbe9f771b0483c36699d228c45d0",
+    "parents": "d0fd9b7403dfc42cfb71b35fd025164fe35d2087",
+    "subject": "Tweak `MaybeSimpleCaseFolding` per @waldemarhorwat\u2019s suggestions (#6)"
+   },
    {
     "adate": "2022-03-22T15:26:11+01:00",
     "author": "Mathias Bynens",
@@ -1413,7 +1429,7 @@
    }
   ],
   "title": "Normative: Add RegExp `v` flag with set notation and properties of strings",
-  "updated_at": "2022-03-22T14:31:10Z"
+  "updated_at": "2022-03-22T21:00:24Z"
  },
  {
   "base": "ada486f269a68f099d378a84254e21bdba0410a7",
