@@ -2,11 +2,19 @@
  {
   "base": "8d9522cc84c1bcedc49e4c9e8272b72615e407cf",
   "created_at": "2022-03-23T03:08:21Z",
-  "head": "38c2516f53e332d88e3a5f03d683aa1cc2d7d8c2",
+  "head": "e5dfdb0673b343ea52019929b0d112486b09901d",
   "login": "gibson042",
   "number": 2707,
   "ref": "2022-03-locale-sensitive",
   "revs": [
+   {
+    "adate": "2022-03-23T00:11:29-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-03-23T00:11:29-04:00",
+    "hash": "e5dfdb0673b343ea52019929b0d112486b09901d",
+    "parents": "38c2516f53e332d88e3a5f03d683aa1cc2d7d8c2",
+    "subject": "Editorial: Capitalize \"Unicode Standard\""
+   },
    {
     "adate": "2022-03-22T23:05:27-04:00",
     "author": "Richard Gibson",
@@ -33,7 +41,7 @@
    }
   ],
   "title": "Editorial: Improve text for \"locale-sensitive\" operations",
-  "updated_at": "2022-03-23T03:08:21Z"
+  "updated_at": "2022-03-23T04:12:08Z"
  },
  {
   "base": "8d9522cc84c1bcedc49e4c9e8272b72615e407cf",
