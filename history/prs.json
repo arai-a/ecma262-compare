@@ -1,6 +1,26 @@
 [
  {
   "base": "8d9522cc84c1bcedc49e4c9e8272b72615e407cf",
+  "created_at": "2022-03-24T01:42:43Z",
+  "head": "8c154b1b9272730e6ae6d5c354555fe90d21ce8a",
+  "login": "gibson042",
+  "number": 2710,
+  "ref": "2022-03-fix-typo",
+  "revs": [
+   {
+    "adate": "2022-03-23T21:40:57-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-03-23T21:40:57-04:00",
+    "hash": "8c154b1b9272730e6ae6d5c354555fe90d21ce8a",
+    "parents": "8d9522cc84c1bcedc49e4c9e8272b72615e407cf",
+    "subject": "Editorial: Fix typo"
+   }
+  ],
+  "title": "Editorial: Fix typo",
+  "updated_at": "2022-03-24T01:42:43Z"
+ },
+ {
+  "base": "8d9522cc84c1bcedc49e4c9e8272b72615e407cf",
   "created_at": "2022-03-23T23:17:48Z",
   "head": "2e3a2ef10fbf435d8ec7d5b0ecfc1215f5d2bfa1",
   "login": "syg",
@@ -74,11 +94,19 @@
  {
   "base": "8d9522cc84c1bcedc49e4c9e8272b72615e407cf",
   "created_at": "2022-03-23T03:08:21Z",
-  "head": "e5dfdb0673b343ea52019929b0d112486b09901d",
+  "head": "9d8dadf72a57e9587973eb35b20c93734cbb7ae8",
   "login": "gibson042",
   "number": 2707,
   "ref": "2022-03-locale-sensitive",
   "revs": [
+   {
+    "adate": "2022-03-23T21:56:32-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-03-23T21:56:32-04:00",
+    "hash": "9d8dadf72a57e9587973eb35b20c93734cbb7ae8",
+    "parents": "e5dfdb0673b343ea52019929b0d112486b09901d",
+    "subject": "Editorial: Accept suggestions"
+   },
    {
     "adate": "2022-03-23T00:11:29-04:00",
     "author": "Richard Gibson",
@@ -113,7 +141,7 @@
    }
   ],
   "title": "Editorial: Improve text for \"locale-sensitive\" operations",
-  "updated_at": "2022-03-23T04:12:08Z"
+  "updated_at": "2022-03-24T01:56:55Z"
  },
  {
   "base": "8d9522cc84c1bcedc49e4c9e8272b72615e407cf",
