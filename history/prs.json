@@ -2,11 +2,19 @@
  {
   "base": "8d9522cc84c1bcedc49e4c9e8272b72615e407cf",
   "created_at": "2022-03-23T23:17:48Z",
-  "head": "319bf69b4cab82729b581b12af1443a4f137b6d1",
+  "head": "2e3a2ef10fbf435d8ec7d5b0ecfc1215f5d2bfa1",
   "login": "syg",
   "number": 2709,
   "ref": "es2022-changelog",
   "revs": [
+   {
+    "adate": "2022-03-23T17:05:31-07:00",
+    "author": "Shu-yu Guo",
+    "date": "2022-03-23T17:05:31-07:00",
+    "hash": "2e3a2ef10fbf435d8ec7d5b0ecfc1215f5d2bfa1",
+    "parents": "319bf69b4cab82729b581b12af1443a4f137b6d1",
+    "subject": "Address review"
+   },
    {
     "adate": "2022-03-23T16:26:09-07:00",
     "author": "Shu-yu Guo",
@@ -25,7 +33,7 @@
    }
   ],
   "title": "Editorial: Add ES2022 features",
-  "updated_at": "2022-03-23T23:26:27Z"
+  "updated_at": "2022-03-24T00:05:56Z"
  },
  {
   "base": "8d9522cc84c1bcedc49e4c9e8272b72615e407cf",
