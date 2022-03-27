@@ -1,5 +1,29 @@
 [
  {
+  "adate": "2022-03-27T13:35:39-05:00",
+  "author": "Michael Dyck",
+  "date": "2022-03-27T13:35:39-05:00",
+  "hash": "700b994f05a20353acb1328b6c5bded0d1eda4fe",
+  "parents": "67d329574757160d35a08a12566d8255e8893520",
+  "subject": "Editorial: Fix the return-type of CompilePattern (#2698)"
+ },
+ {
+  "adate": "2022-03-27T13:25:02-05:00",
+  "author": "Jordan Harband",
+  "date": "2022-03-27T13:25:02-05:00",
+  "hash": "67d329574757160d35a08a12566d8255e8893520",
+  "parents": "caa6e3fad6441d446dd3d7c6ea0aead68c9c48dc",
+  "subject": "Editorial: `ToZeroPaddedDecimalString`: this AO is nonsensical on a negative integer (#2715)"
+ },
+ {
+  "adate": "2022-03-27T10:29:36-05:00",
+  "author": "Jordan Harband",
+  "date": "2022-03-27T10:29:36-05:00",
+  "hash": "caa6e3fad6441d446dd3d7c6ea0aead68c9c48dc",
+  "parents": "4ef927684dfe2234a7b75d62420ea97fa3d5629d",
+  "subject": "Editorial: MakeMatchIndicesIndexPairArray: avoid creating a property on undefined (#2714)"
+ },
+ {
   "adate": "2022-03-26T23:35:58-05:00",
   "author": "h2oche",
   "date": "2022-03-26T23:35:58-05:00",
