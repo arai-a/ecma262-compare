@@ -108,9 +108,9 @@
   "updated_at": "2022-03-24T22:00:09Z"
  },
  {
-  "base": "700b994f05a20353acb1328b6c5bded0d1eda4fe",
+  "base": "6114646387385c881bc0b78d4589eecdd984b7b8",
   "created_at": "2022-03-23T23:17:48Z",
-  "head": "1b8c8103211626dcd08e55cae971a18afa618e50",
+  "head": "9d440aefa584bcc0d76dd4de611eabcc4f687043",
   "login": "syg",
   "number": 2709,
   "ref": "es2022-changelog",
@@ -119,65 +119,13 @@
     "adate": "2022-03-27T13:47:34-05:00",
     "author": "Shu-yu Guo",
     "date": "2022-03-27T13:47:34-05:00",
-    "hash": "1b8c8103211626dcd08e55cae971a18afa618e50",
-    "parents": "700b994f05a20353acb1328b6c5bded0d1eda4fe",
+    "hash": "9d440aefa584bcc0d76dd4de611eabcc4f687043",
+    "parents": "6114646387385c881bc0b78d4589eecdd984b7b8",
     "subject": "Editorial: Add ES2022 features (#2709)"
    }
   ],
   "title": "Editorial: Add ES2022 features",
-  "updated_at": "2022-03-27T18:48:21Z"
- },
- {
-  "base": "8d9522cc84c1bcedc49e4c9e8272b72615e407cf",
-  "created_at": "2022-03-23T03:08:21Z",
-  "head": "9d8dadf72a57e9587973eb35b20c93734cbb7ae8",
-  "login": "gibson042",
-  "number": 2707,
-  "ref": "2022-03-locale-sensitive",
-  "revs": [
-   {
-    "adate": "2022-03-23T21:56:32-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-03-23T21:56:32-04:00",
-    "hash": "9d8dadf72a57e9587973eb35b20c93734cbb7ae8",
-    "parents": "e5dfdb0673b343ea52019929b0d112486b09901d",
-    "subject": "Editorial: Accept suggestions"
-   },
-   {
-    "adate": "2022-03-23T00:11:29-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-03-23T00:11:29-04:00",
-    "hash": "e5dfdb0673b343ea52019929b0d112486b09901d",
-    "parents": "38c2516f53e332d88e3a5f03d683aa1cc2d7d8c2",
-    "subject": "Editorial: Capitalize \"Unicode Standard\""
-   },
-   {
-    "adate": "2022-03-22T23:05:27-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-03-22T23:05:27-04:00",
-    "hash": "38c2516f53e332d88e3a5f03d683aa1cc2d7d8c2",
-    "parents": "e163af3f735caf389ddba068f11e9cdb89c5e28d",
-    "subject": "Editorial: Improve the description of String.prototype.localeCompare"
-   },
-   {
-    "adate": "2022-03-22T23:02:21-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-03-22T23:02:21-04:00",
-    "hash": "e163af3f735caf389ddba068f11e9cdb89c5e28d",
-    "parents": "1f13d6f7746eaaa2fa39b52f11c53e7e22fe3268",
-    "subject": "Editorial: Align String.prototype.localeCompare with ECMA-402"
-   },
-   {
-    "adate": "2022-03-22T22:04:54-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-03-22T22:05:58-04:00",
-    "hash": "1f13d6f7746eaaa2fa39b52f11c53e7e22fe3268",
-    "parents": "8d9522cc84c1bcedc49e4c9e8272b72615e407cf",
-    "subject": "Editorial: Standardize the spelling of \"locale-sensitive\""
-   }
-  ],
-  "title": "Editorial: Improve text for \"locale-sensitive\" operations",
-  "updated_at": "2022-03-24T01:56:55Z"
+  "updated_at": "2022-03-28T03:53:01Z"
  },
  {
   "base": "8d9522cc84c1bcedc49e4c9e8272b72615e407cf",
