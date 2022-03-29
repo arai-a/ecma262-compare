@@ -1202,11 +1202,19 @@
  {
   "base": "8d9522cc84c1bcedc49e4c9e8272b72615e407cf",
   "created_at": "2021-05-28T11:28:01Z",
-  "head": "63028710f1eb4c8200aee7f96b6272f42b064ca5",
+  "head": "27e8ac82237d3b0b0f18a5bebacb7454d521c2cc",
   "login": "mathiasbynens",
   "number": 2418,
   "ref": "regexp-v-flag",
   "revs": [
+   {
+    "adate": "2022-03-29T09:46:17+02:00",
+    "author": "Mathias Bynens",
+    "date": "2022-03-29T09:46:17+02:00",
+    "hash": "27e8ac82237d3b0b0f18a5bebacb7454d521c2cc",
+    "parents": "63028710f1eb4c8200aee7f96b6272f42b064ca5",
+    "subject": "Add more differentiation between u and v (#9)"
+   },
    {
     "adate": "2022-03-29T09:23:37+02:00",
     "author": "Mathias Bynens",
@@ -1473,7 +1481,7 @@
    }
   ],
   "title": "Normative: Add RegExp `v` flag with set notation and properties of strings",
-  "updated_at": "2022-03-29T07:23:40Z"
+  "updated_at": "2022-03-29T07:48:12Z"
  },
  {
   "base": "ada486f269a68f099d378a84254e21bdba0410a7",
