@@ -1,5 +1,81 @@
 [
  {
+  "base": "07c7b5ce987e63782c74d37cea3a5df7d4dedbb6",
+  "created_at": "2022-03-30T13:32:57Z",
+  "head": "29d2d9bf7f7f8954c5c6387822e20498284c1e44",
+  "login": "jmdyck",
+  "number": 2716,
+  "ref": "RegExp_Record",
+  "revs": [
+   {
+    "adate": "2022-01-17T00:19:45-05:00",
+    "author": "Michael Dyck",
+    "date": "2022-03-30T09:11:53-04:00",
+    "hash": "29d2d9bf7f7f8954c5c6387822e20498284c1e44",
+    "parents": "35ad58cc1cc27d1c9d6bed60b6b6a30aefb0dcfa",
+    "subject": "Make _Input_ a component of State"
+   },
+   {
+    "adate": "2022-01-16T23:33:14-05:00",
+    "author": "Michael Dyck",
+    "date": "2022-03-30T09:11:53-04:00",
+    "hash": "35ad58cc1cc27d1c9d6bed60b6b6a30aefb0dcfa",
+    "parents": "28b9b474244483400ebb8eb73e4ad6fba1fe1d5b",
+    "subject": "Pass _Input_ explicitly"
+   },
+   {
+    "adate": "2022-01-16T22:33:32-05:00",
+    "author": "Michael Dyck",
+    "date": "2022-03-30T09:11:53-04:00",
+    "hash": "28b9b474244483400ebb8eb73e4ad6fba1fe1d5b",
+    "parents": "592e51506dd13db0c6d0eea394d3b1d93d0246e1",
+    "subject": "'Calculate' _InputLength_ as needed"
+   },
+   {
+    "adate": "2022-01-15T10:50:57-05:00",
+    "author": "Michael Dyck",
+    "date": "2022-03-30T09:11:53-04:00",
+    "hash": "592e51506dd13db0c6d0eea394d3b1d93d0246e1",
+    "parents": "4bec5529747379a9648218930fe6fa7568cab9f1",
+    "subject": "Replace `_NcapturingParens_` with `_rer_.[[NcapturingParens]]`"
+   },
+   {
+    "adate": "2022-01-14T23:56:11-05:00",
+    "author": "Michael Dyck",
+    "date": "2022-03-30T09:11:53-04:00",
+    "hash": "4bec5529747379a9648218930fe6fa7568cab9f1",
+    "parents": "ed47433ac2ae624e523c80684b144a99988fbc35",
+    "subject": "Replace the `_WordCharacters_` global alias with `_rer_.[[WordCharacters]]`"
+   },
+   {
+    "adate": "2022-01-14T22:32:20-05:00",
+    "author": "Michael Dyck",
+    "date": "2022-03-30T09:11:53-04:00",
+    "hash": "ed47433ac2ae624e523c80684b144a99988fbc35",
+    "parents": "22685b4d3610a625f84c33fca7347c1d2e8228e3",
+    "subject": "Replace the 'flag' aliases with fields in RegExp Record"
+   },
+   {
+    "adate": "2022-01-14T22:06:13-05:00",
+    "author": "Michael Dyck",
+    "date": "2022-03-30T09:11:40-04:00",
+    "hash": "22685b4d3610a625f84c33fca7347c1d2e8228e3",
+    "parents": "c86854178a42fbc191a75ad2b049c1bdbf341299",
+    "subject": "Introduce RegExp Records"
+   },
+   {
+    "adate": "2022-01-15T23:30:16-05:00",
+    "author": "Michael Dyck",
+    "date": "2022-03-29T20:46:00-04:00",
+    "hash": "c86854178a42fbc191a75ad2b049c1bdbf341299",
+    "parents": "07c7b5ce987e63782c74d37cea3a5df7d4dedbb6",
+    "subject": "Editorial: Eliminate `_NcapturingParens_` from Early Error rules + grammar"
+   }
+  ],
+  "title": "Editorial: Eliminate RegExp's \"global aliases\" ",
+  "updated_at": "2022-03-30T13:34:32Z"
+ },
+ {
   "base": "ec54f81f44c37b824a46daab3dd8d243f33e90b7",
   "created_at": "2022-03-27T04:11:17Z",
   "head": "f19997261eb62e9a104e2b029e73b0a8bea8b296",
