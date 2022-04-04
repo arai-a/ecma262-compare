@@ -1,6 +1,34 @@
 [
  {
   "base": "07c7b5ce987e63782c74d37cea3a5df7d4dedbb6",
+  "created_at": "2022-04-04T21:17:43Z",
+  "head": "1d01bca164d8bbebca8142176ba0245f0fab9b27",
+  "login": "jmdyck",
+  "number": 2722,
+  "ref": "CapturingGroupName",
+  "revs": [
+   {
+    "adate": "2022-04-04T16:54:39-04:00",
+    "author": "Michael Dyck",
+    "date": "2022-04-04T16:54:39-04:00",
+    "hash": "1d01bca164d8bbebca8142176ba0245f0fab9b27",
+    "parents": "4da1502a7c8fb5ee7d98d818726f17f4a9665bb4",
+    "subject": "Editorial: Factor out GroupSpecifiersThatMatch AO"
+   },
+   {
+    "adate": "2022-04-04T09:32:49-04:00",
+    "author": "Michael Dyck",
+    "date": "2022-04-04T09:32:49-04:00",
+    "hash": "4da1502a7c8fb5ee7d98d818726f17f4a9665bb4",
+    "parents": "07c7b5ce987e63782c74d37cea3a5df7d4dedbb6",
+    "subject": "Editorial: Fix wording bug by tweaking CapturingGroupName"
+   }
+  ],
+  "title": "Editorial: Fix wording bug by tweaking CapturingGroupName",
+  "updated_at": "2022-04-04T21:17:43Z"
+ },
+ {
+  "base": "07c7b5ce987e63782c74d37cea3a5df7d4dedbb6",
   "created_at": "2022-04-03T03:38:06Z",
   "head": "54105b4cf53287a643b417cccb2aba4c609fe2ed",
   "login": "tc39",
