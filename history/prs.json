@@ -1,26 +1,6 @@
 [
  {
   "base": "07c7b5ce987e63782c74d37cea3a5df7d4dedbb6",
-  "created_at": "2022-04-04T22:54:33Z",
-  "head": "3b50a33f0df62b4ad4d405c1d549dc988171481b",
-  "login": "syg",
-  "number": 2723,
-  "ref": "TA-p-sort-no-detach-throw",
-  "revs": [
-   {
-    "adate": "2022-04-04T15:51:54-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2022-04-04T15:51:54-07:00",
-    "hash": "3b50a33f0df62b4ad4d405c1d549dc988171481b",
-    "parents": "ee2d79096a3b1c9edc34f95933d0b69ad6496758",
-    "subject": "Normative: Remove detach check in TypedArray.prototype.sort comparator"
-   }
-  ],
-  "title": "Normative: Remove detach check in TypedArray.prototype.sort comparator",
-  "updated_at": "2022-04-04T23:02:04Z"
- },
- {
-  "base": "07c7b5ce987e63782c74d37cea3a5df7d4dedbb6",
   "created_at": "2022-04-04T21:17:43Z",
   "head": "1d01bca164d8bbebca8142176ba0245f0fab9b27",
   "login": "jmdyck",
@@ -141,26 +121,6 @@
  },
  {
   "base": "07c7b5ce987e63782c74d37cea3a5df7d4dedbb6",
-  "created_at": "2022-03-31T15:59:37Z",
-  "head": "efb411f2f2a6f0e242849a8cc8d7e21bbcdff543",
-  "login": "codehag",
-  "number": 2717,
-  "ref": "stapl",
-  "revs": [
-   {
-    "adate": "2022-03-31T17:22:23+02:00",
-    "author": "Yulia Startsev",
-    "date": "2022-03-31T18:10:40+02:00",
-    "hash": "efb411f2f2a6f0e242849a8cc8d7e21bbcdff543",
-    "parents": "07c7b5ce987e63782c74d37cea3a5df7d4dedbb6",
-    "subject": "Normative: Add APL syntax to the language"
-   }
-  ],
-  "title": "Normative: Add APL to the language",
-  "updated_at": "2022-03-31T16:10:49Z"
- },
- {
-  "base": "07c7b5ce987e63782c74d37cea3a5df7d4dedbb6",
   "created_at": "2022-03-30T13:32:57Z",
   "head": "29d2d9bf7f7f8954c5c6387822e20498284c1e44",
   "login": "jmdyck",
@@ -236,24 +196,24 @@
   "updated_at": "2022-03-30T13:34:32Z"
  },
  {
-  "base": "ec54f81f44c37b824a46daab3dd8d243f33e90b7",
+  "base": "e0c74e1a229895e36cebab346832436693c79c2c",
   "created_at": "2022-03-27T04:11:17Z",
-  "head": "f19997261eb62e9a104e2b029e73b0a8bea8b296",
+  "head": "320e19595326831a59bb27c2dc0e14ae619d7358",
   "login": "tc39",
   "number": 2713,
   "ref": "no-namespace",
   "revs": [
    {
-    "adate": "2022-03-26T21:09:21-07:00",
+    "adate": "2022-04-06T15:30:40-07:00",
     "author": "Kevin Gibbons",
-    "date": "2022-03-26T21:09:21-07:00",
-    "hash": "f19997261eb62e9a104e2b029e73b0a8bea8b296",
-    "parents": "ec54f81f44c37b824a46daab3dd8d243f33e90b7",
-    "subject": "Editorial: remove namespace from algorithm conventions clause"
+    "date": "2022-04-06T15:30:40-07:00",
+    "hash": "320e19595326831a59bb27c2dc0e14ae619d7358",
+    "parents": "e0c74e1a229895e36cebab346832436693c79c2c",
+    "subject": "Editorial: remove namespace from algorithm conventions clause (#2713)"
    }
   ],
   "title": "Editorial: remove namespace from algorithm conventions clause",
-  "updated_at": "2022-03-27T04:11:17Z"
+  "updated_at": "2022-04-06T22:31:13Z"
  },
  {
   "base": "8d9522cc84c1bcedc49e4c9e8272b72615e407cf",
