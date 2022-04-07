@@ -1,5 +1,25 @@
 [
  {
+  "base": "9fec769e709749381a3fef3edf0b6d687751fe83",
+  "created_at": "2022-04-07T08:12:26Z",
+  "head": "546b44a080e877958f951456c2f56bfc90f47136",
+  "login": "Jack-Works",
+  "number": 2726,
+  "ref": "simplify-Proxy.revocable",
+  "revs": [
+   {
+    "adate": "2022-04-07T16:11:23+08:00",
+    "author": "Jack Works",
+    "date": "2022-04-07T16:11:23+08:00",
+    "hash": "546b44a080e877958f951456c2f56bfc90f47136",
+    "parents": "9fec769e709749381a3fef3edf0b6d687751fe83",
+    "subject": "Editoral: Simplify Proxy.revocable revoke function"
+   }
+  ],
+  "title": "Editoral: Simplify Proxy.revocable revoke function",
+  "updated_at": "2022-04-07T08:12:26Z"
+ },
+ {
   "base": "07c7b5ce987e63782c74d37cea3a5df7d4dedbb6",
   "created_at": "2022-04-04T21:17:43Z",
   "head": "1d01bca164d8bbebca8142176ba0245f0fab9b27",
@@ -62,26 +82,6 @@
   ],
   "title": "Normative: allow duplicate named capture groups",
   "updated_at": "2022-04-05T03:42:42Z"
- },
- {
-  "base": "07c7b5ce987e63782c74d37cea3a5df7d4dedbb6",
-  "created_at": "2022-04-01T23:31:48Z",
-  "head": "4ee703c7f1d0b4cb1d22184006f3a2e3bd05933e",
-  "login": "tc39",
-  "number": 2720,
-  "ref": "sort-effects",
-  "revs": [
-   {
-    "adate": "2022-04-01T16:31:28-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2022-04-01T16:31:28-07:00",
-    "hash": "4ee703c7f1d0b4cb1d22184006f3a2e3bd05933e",
-    "parents": "07c7b5ce987e63782c74d37cea3a5df7d4dedbb6",
-    "subject": "Editorial: mark user code in SortIndexedProperties"
-   }
-  ],
-  "title": "Editorial: mark user code in SortIndexedProperties",
-  "updated_at": "2022-04-01T23:39:40Z"
  },
  {
   "base": "07c7b5ce987e63782c74d37cea3a5df7d4dedbb6",
@@ -194,26 +194,6 @@
   ],
   "title": "Editorial: Eliminate RegExp's \"global aliases\" ",
   "updated_at": "2022-03-30T13:34:32Z"
- },
- {
-  "base": "e0c74e1a229895e36cebab346832436693c79c2c",
-  "created_at": "2022-03-27T04:11:17Z",
-  "head": "320e19595326831a59bb27c2dc0e14ae619d7358",
-  "login": "tc39",
-  "number": 2713,
-  "ref": "no-namespace",
-  "revs": [
-   {
-    "adate": "2022-04-06T15:30:40-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2022-04-06T15:30:40-07:00",
-    "hash": "320e19595326831a59bb27c2dc0e14ae619d7358",
-    "parents": "e0c74e1a229895e36cebab346832436693c79c2c",
-    "subject": "Editorial: remove namespace from algorithm conventions clause (#2713)"
-   }
-  ],
-  "title": "Editorial: remove namespace from algorithm conventions clause",
-  "updated_at": "2022-04-06T22:31:13Z"
  },
  {
   "base": "8d9522cc84c1bcedc49e4c9e8272b72615e407cf",
