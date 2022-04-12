@@ -740,24 +740,32 @@
   "updated_at": "2022-02-28T13:01:23Z"
  },
  {
-  "base": "7575f745f26e9f66b2be481144f37ac4a8a9f1c4",
+  "base": "22cc56ab08fcab92a865978c0aa5c6f1d8ce250f",
   "created_at": "2022-01-16T04:43:27Z",
-  "head": "197ec6f83863413f7c29fd956955ae1ca57d528d",
+  "head": "456c80572863113c8be2d7796fcffe3c5c52ddcb",
   "login": "jmdyck",
   "number": 2625,
   "ref": "NcapturingParens",
   "revs": [
    {
+    "adate": "2022-04-12T00:20:07-04:00",
+    "author": "Michael Dyck",
+    "date": "2022-04-12T00:20:07-04:00",
+    "hash": "456c80572863113c8be2d7796fcffe3c5c52ddcb",
+    "parents": "60a8a641cd26dc33f6ea5d194cdd754ae324f449",
+    "subject": "fixup: address comments from bakkot"
+   },
+   {
     "adate": "2022-01-15T23:30:16-05:00",
     "author": "Michael Dyck",
-    "date": "2022-02-27T23:45:04-05:00",
-    "hash": "197ec6f83863413f7c29fd956955ae1ca57d528d",
-    "parents": "7575f745f26e9f66b2be481144f37ac4a8a9f1c4",
+    "date": "2022-04-11T22:24:58-04:00",
+    "hash": "60a8a641cd26dc33f6ea5d194cdd754ae324f449",
+    "parents": "22cc56ab08fcab92a865978c0aa5c6f1d8ce250f",
     "subject": "Editorial: Eliminate `_NcapturingParens_` from Early Error rules + grammar"
    }
   ],
   "title": "Editorial: Eliminate `_NcapturingParens_` from Early Error rules + grammar",
-  "updated_at": "2022-02-28T04:46:03Z"
+  "updated_at": "2022-04-12T04:41:40Z"
  },
  {
   "base": "d9ab5c0c04d7f6edfa6c0932adccc92189e67d1a",
