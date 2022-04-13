@@ -1,5 +1,25 @@
 [
  {
+  "base": "22cc56ab08fcab92a865978c0aa5c6f1d8ce250f",
+  "created_at": "2022-04-13T19:18:18Z",
+  "head": "dcfbb4165c5992a52677c7d3ac7be3ca2a64c600",
+  "login": "ljharb",
+  "number": 2732,
+  "ref": "splice_simplify_redux",
+  "revs": [
+   {
+    "adate": "2022-04-13T12:17:23-07:00",
+    "author": "Jordan Harband",
+    "date": "2022-04-13T12:17:25-07:00",
+    "hash": "dcfbb4165c5992a52677c7d3ac7be3ca2a64c600",
+    "parents": "22cc56ab08fcab92a865978c0aa5c6f1d8ce250f",
+    "subject": "Editorial: `splice`: consolidate redundant count variables"
+   }
+  ],
+  "title": "Editorial: `splice`: consolidate redundant count variables",
+  "updated_at": "2022-04-13T19:18:19Z"
+ },
+ {
   "base": "184e4ae34fa66be735e1300f9802a6dde4ab9c8c",
   "created_at": "2022-04-11T20:58:26Z",
   "head": "074e3e196d22743cbcc7d9684e75c6a13ddcaee3",
