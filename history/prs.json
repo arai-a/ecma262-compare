@@ -736,13 +736,29 @@
   "updated_at": "2022-02-28T13:01:23Z"
  },
  {
-  "base": "22cc56ab08fcab92a865978c0aa5c6f1d8ce250f",
+  "base": "db572a0aa34c8d54b57f33b4c1d68b650c90b45b",
   "created_at": "2022-01-16T04:43:27Z",
-  "head": "456c80572863113c8be2d7796fcffe3c5c52ddcb",
+  "head": "a9389ea7d40403f58e1e2ce81a37bf473fec6b33",
   "login": "jmdyck",
   "number": 2625,
   "ref": "NcapturingParens",
   "revs": [
+   {
+    "adate": "2022-04-13T22:18:21-04:00",
+    "author": "Michael Dyck",
+    "date": "2022-04-13T22:18:21-04:00",
+    "hash": "a9389ea7d40403f58e1e2ce81a37bf473fec6b33",
+    "parents": "028c9c5a5ce60753988391bd0d0a14f8f3738d59",
+    "subject": "fixup: Add a <dfn> around \"left-capturing parenthesis\""
+   },
+   {
+    "adate": "2022-04-13T21:43:35-04:00",
+    "author": "Michael Dyck",
+    "date": "2022-04-13T22:01:32-04:00",
+    "hash": "028c9c5a5ce60753988391bd0d0a14f8f3738d59",
+    "parents": "456c80572863113c8be2d7796fcffe3c5c52ddcb",
+    "subject": "fixup: Prepend \"Count\" to \"LeftCapturingParens{Within,Before}\""
+   },
    {
     "adate": "2022-04-12T00:20:07-04:00",
     "author": "Michael Dyck",
@@ -761,7 +777,7 @@
    }
   ],
   "title": "Editorial: Eliminate `_NcapturingParens_` from Early Error rules + grammar",
-  "updated_at": "2022-04-12T04:41:40Z"
+  "updated_at": "2022-04-14T02:19:02Z"
  },
  {
   "base": "d9ab5c0c04d7f6edfa6c0932adccc92189e67d1a",
