@@ -37,26 +37,6 @@
  },
  {
   "base": "4f72173f519821597b505a79c0f3a4451fb927e0",
-  "created_at": "2022-04-14T15:47:51Z",
-  "head": "00140020e4746d08ea667a2a63bc17acf51c4896",
-  "login": "gibson042",
-  "number": 2738,
-  "ref": "2022-04-unicode-vocabulary",
-  "revs": [
-   {
-    "adate": "2022-04-14T11:45:33-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-04-14T11:46:45-04:00",
-    "hash": "00140020e4746d08ea667a2a63bc17acf51c4896",
-    "parents": "4f72173f519821597b505a79c0f3a4451fb927e0",
-    "subject": "Editorial: Use proper Unicode vocabulary"
-   }
-  ],
-  "title": "Editorial: Use proper Unicode vocabulary",
-  "updated_at": "2022-04-14T15:49:17Z"
- },
- {
-  "base": "4f72173f519821597b505a79c0f3a4451fb927e0",
   "created_at": "2022-04-14T15:44:51Z",
   "head": "cb261456ebf493667cad1222d35f11f0f514b3bc",
   "login": "gibson042",
@@ -92,24 +72,24 @@
   "updated_at": "2022-04-14T15:44:51Z"
  },
  {
-  "base": "246b77b202f367abb5ba7308a8bc2d23d8a68e79",
+  "base": "432571ebe7d33d594780c818311d82e182b4b89f",
   "created_at": "2022-04-13T22:00:36Z",
-  "head": "cf99126ea2a3389f3d0f34ee8c0d6c2f64166073",
+  "head": "e090868e821c8f236b4106838ce586cfd2f954cc",
   "login": "ljharb",
   "number": 2735,
   "ref": "construct-optional",
   "revs": [
    {
-    "adate": "2022-04-13T14:59:50-07:00",
+    "adate": "2022-04-14T12:08:31-07:00",
     "author": "Jordan Harband",
-    "date": "2022-04-13T15:47:05-07:00",
-    "hash": "cf99126ea2a3389f3d0f34ee8c0d6c2f64166073",
-    "parents": "246b77b202f367abb5ba7308a8bc2d23d8a68e79",
+    "date": "2022-04-14T12:08:31-07:00",
+    "hash": "e090868e821c8f236b4106838ce586cfd2f954cc",
+    "parents": "432571ebe7d33d594780c818311d82e182b4b89f",
     "subject": "Editorial: clarify that built-in functions may lack [[Construct]] (#2735)"
    }
   ],
   "title": "Editorial: clarify that built-in functions may lack [[Construct]]",
-  "updated_at": "2022-04-13T22:47:18Z"
+  "updated_at": "2022-04-14T19:08:45Z"
  },
  {
   "base": "184e4ae34fa66be735e1300f9802a6dde4ab9c8c",
