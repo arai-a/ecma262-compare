@@ -1,23 +1,23 @@
 [
  {
-  "base": "e090868e821c8f236b4106838ce586cfd2f954cc",
+  "base": "be5db329f7a63cd909db15dab4623b102a6c1fff",
   "created_at": "2022-04-19T20:52:03Z",
-  "head": "94c43b2e4b174e232ff02f344d3bf3be90e79f8f",
+  "head": "3c546c7a2f2b35d87ca5db77ac58dc1aab159946",
   "login": "linusg",
   "number": 2748,
   "ref": "editorial-string-from-char-code-unused-variable",
   "revs": [
    {
-    "adate": "2022-04-19T22:50:58+02:00",
+    "adate": "2022-04-19T16:32:57-07:00",
     "author": "Linus Groh",
-    "date": "2022-04-19T22:51:30+02:00",
-    "hash": "94c43b2e4b174e232ff02f344d3bf3be90e79f8f",
-    "parents": "e090868e821c8f236b4106838ce586cfd2f954cc",
-    "subject": "Editorial: Remove unused variable from String.fromCharCode()"
+    "date": "2022-04-19T16:32:57-07:00",
+    "hash": "3c546c7a2f2b35d87ca5db77ac58dc1aab159946",
+    "parents": "be5db329f7a63cd909db15dab4623b102a6c1fff",
+    "subject": "Editorial: Remove unused variable from String.fromCharCode() (#2748)"
    }
   ],
   "title": "Editorial: Remove unused variable from String.fromCharCode()",
-  "updated_at": "2022-04-19T20:52:03Z"
+  "updated_at": "2022-04-19T23:33:14Z"
  },
  {
   "base": "e090868e821c8f236b4106838ce586cfd2f954cc",
@@ -678,42 +678,6 @@
   ],
   "title": "Editorial: Eliminate RegExp's \"global aliases\" ",
   "updated_at": "2022-04-14T03:56:59Z"
- },
- {
-  "base": "8d9522cc84c1bcedc49e4c9e8272b72615e407cf",
-  "created_at": "2022-03-24T22:08:24Z",
-  "head": "1272573ab8796a3f927237a1d403ee6126354118",
-  "login": "gibson042",
-  "number": 2712,
-  "ref": "2022-03-tweak-CanonicalNumericIndexString",
-  "revs": [
-   {
-    "adate": "2022-04-11T17:00:25-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-04-11T17:00:25-04:00",
-    "hash": "1272573ab8796a3f927237a1d403ee6126354118",
-    "parents": "5c7f329e0a6fb90f8b04f448fe02975ff7bb2491",
-    "subject": "Editorial: Add a defined term variant for \"canonical numeric strings\""
-   },
-   {
-    "adate": "2022-03-24T18:07:36-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-03-24T18:07:36-04:00",
-    "hash": "5c7f329e0a6fb90f8b04f448fe02975ff7bb2491",
-    "parents": "007258b5aa77f18d91f1c3028c354c2c5024a77f",
-    "subject": "Editorial: Align the algorithm steps of CanonicalNumericIndexString with its description"
-   },
-   {
-    "adate": "2022-03-24T18:06:49-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-03-24T18:06:49-04:00",
-    "hash": "007258b5aa77f18d91f1c3028c354c2c5024a77f",
-    "parents": "8d9522cc84c1bcedc49e4c9e8272b72615e407cf",
-    "subject": "Editorial: Upgrade \"canonical numeric string\" to a linkable definition"
-   }
-  ],
-  "title": "Editorial: Align the algorithm steps and description of CanonicalNumericIndexString",
-  "updated_at": "2022-04-11T21:00:33Z"
  },
  {
   "base": "8d9522cc84c1bcedc49e4c9e8272b72615e407cf",
