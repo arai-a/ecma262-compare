@@ -528,88 +528,88 @@
   "updated_at": "2022-04-05T03:42:42Z"
  },
  {
-  "base": "db572a0aa34c8d54b57f33b4c1d68b650c90b45b",
+  "base": "918e0e961595f57fd44c060bace6f16d874f4ba8",
   "created_at": "2022-03-30T13:32:57Z",
-  "head": "e1fc0dadb2eab820c733cac9053f33b372032c8f",
+  "head": "72314cd0b51930e898754433cb3274f2bb3c4c0d",
   "login": "jmdyck",
   "number": 2716,
   "ref": "RegExp_Record",
   "revs": [
    {
+    "adate": "2022-04-20T23:46:33-04:00",
+    "author": "Michael Dyck",
+    "date": "2022-04-20T23:46:33-04:00",
+    "hash": "72314cd0b51930e898754433cb3274f2bb3c4c0d",
+    "parents": "d03079ad5d9a9f870308c1c58280d1fd8e1e075e",
+    "subject": "fixup: Change \"[[NcapturingParens]]\" to \"[[CapturingGroupsCount]]\""
+   },
+   {
     "adate": "2022-04-13T23:29:11-04:00",
     "author": "Michael Dyck",
-    "date": "2022-04-13T23:56:28-04:00",
-    "hash": "e1fc0dadb2eab820c733cac9053f33b372032c8f",
-    "parents": "1f7d009e966db19f52c403071cc8f3655bd58236",
+    "date": "2022-04-20T23:32:42-04:00",
+    "hash": "d03079ad5d9a9f870308c1c58280d1fd8e1e075e",
+    "parents": "0e6d7a668aa78aa98aae665c621cd0c1ac701044",
     "subject": "fixup: Avoid \"_rer_.[[Unicode]]\" when defining \"all characters\""
    },
    {
     "adate": "2022-01-17T00:19:45-05:00",
     "author": "Michael Dyck",
-    "date": "2022-04-12T17:23:39-04:00",
-    "hash": "1f7d009e966db19f52c403071cc8f3655bd58236",
-    "parents": "754316c9c8711d88e4bcc52302bf2a4dd2bd37da",
+    "date": "2022-04-20T23:32:42-04:00",
+    "hash": "0e6d7a668aa78aa98aae665c621cd0c1ac701044",
+    "parents": "afa5c1af13445e4ec7c2b5abde0296585b5d1cf2",
     "subject": "Make _Input_ a component of State"
    },
    {
     "adate": "2022-01-16T23:33:14-05:00",
     "author": "Michael Dyck",
-    "date": "2022-04-12T17:23:39-04:00",
-    "hash": "754316c9c8711d88e4bcc52302bf2a4dd2bd37da",
-    "parents": "a315599c0f4d0c4166cda3be1abc744e0f8ee0a3",
+    "date": "2022-04-20T23:31:18-04:00",
+    "hash": "afa5c1af13445e4ec7c2b5abde0296585b5d1cf2",
+    "parents": "372a8248460b5f26845101f2d026ac3097519a19",
     "subject": "Pass _Input_ explicitly"
    },
    {
     "adate": "2022-01-16T22:33:32-05:00",
     "author": "Michael Dyck",
-    "date": "2022-04-12T17:23:39-04:00",
-    "hash": "a315599c0f4d0c4166cda3be1abc744e0f8ee0a3",
-    "parents": "fbd00684870c1a21ad9ffc611092881cc145fc71",
+    "date": "2022-04-20T23:29:44-04:00",
+    "hash": "372a8248460b5f26845101f2d026ac3097519a19",
+    "parents": "a309a8ac77cece0ca8ae76f3ee3048c01bb25d32",
     "subject": "'Calculate' _InputLength_ as needed"
    },
    {
     "adate": "2022-01-15T10:50:57-05:00",
     "author": "Michael Dyck",
-    "date": "2022-04-12T17:23:39-04:00",
-    "hash": "fbd00684870c1a21ad9ffc611092881cc145fc71",
-    "parents": "466cf288b4159c167989885ac1e408c0a8622168",
+    "date": "2022-04-20T23:29:44-04:00",
+    "hash": "a309a8ac77cece0ca8ae76f3ee3048c01bb25d32",
+    "parents": "c94761e77154c7ed68d6e99e82a6a7aa1e3e9831",
     "subject": "Replace `_NcapturingParens_` with `_rer_.[[NcapturingParens]]`"
    },
    {
     "adate": "2022-01-14T23:56:11-05:00",
     "author": "Michael Dyck",
-    "date": "2022-04-12T17:23:39-04:00",
-    "hash": "466cf288b4159c167989885ac1e408c0a8622168",
-    "parents": "1d3004cfa834a7a06e1360e5037a28463c708428",
+    "date": "2022-04-20T23:29:04-04:00",
+    "hash": "c94761e77154c7ed68d6e99e82a6a7aa1e3e9831",
+    "parents": "6f31427ee63952f5aee533afee4716786b1ac765",
     "subject": "Replace the `_WordCharacters_` global alias with `_rer_.[[WordCharacters]]`"
    },
    {
     "adate": "2022-01-14T22:32:20-05:00",
     "author": "Michael Dyck",
-    "date": "2022-04-12T17:23:39-04:00",
-    "hash": "1d3004cfa834a7a06e1360e5037a28463c708428",
-    "parents": "99dbf349719212c133f5edcdc15ea531c720e3cc",
+    "date": "2022-04-20T23:29:04-04:00",
+    "hash": "6f31427ee63952f5aee533afee4716786b1ac765",
+    "parents": "2544dfe399ba3ab7a90406afbb04ad176607fb0d",
     "subject": "Replace the 'flag' aliases with fields in RegExp Record"
    },
    {
     "adate": "2022-01-14T22:06:13-05:00",
     "author": "Michael Dyck",
-    "date": "2022-04-12T17:23:39-04:00",
-    "hash": "99dbf349719212c133f5edcdc15ea531c720e3cc",
-    "parents": "e22f85c2bca7e2dd617a682277324ae0c24d173c",
+    "date": "2022-04-20T23:29:03-04:00",
+    "hash": "2544dfe399ba3ab7a90406afbb04ad176607fb0d",
+    "parents": "918e0e961595f57fd44c060bace6f16d874f4ba8",
     "subject": "Introduce RegExp Records"
-   },
-   {
-    "adate": "2022-01-15T23:30:16-05:00",
-    "author": "Michael Dyck",
-    "date": "2022-04-12T17:23:39-04:00",
-    "hash": "e22f85c2bca7e2dd617a682277324ae0c24d173c",
-    "parents": "22cc56ab08fcab92a865978c0aa5c6f1d8ce250f",
-    "subject": "Editorial: Eliminate `_NcapturingParens_` from Early Error rules + grammar"
    }
   ],
   "title": "Editorial: Eliminate RegExp's \"global aliases\" ",
-  "updated_at": "2022-04-14T03:56:59Z"
+  "updated_at": "2022-04-21T03:47:26Z"
  },
  {
   "base": "8d9522cc84c1bcedc49e4c9e8272b72615e407cf",
@@ -826,26 +826,6 @@
   ],
   "title": "Move class and method related abstract operations to more relevant section",
   "updated_at": "2022-03-02T21:12:59Z"
- },
- {
-  "base": "918e0e961595f57fd44c060bace6f16d874f4ba8",
-  "created_at": "2022-03-01T16:38:38Z",
-  "head": "48bb7983f05e34b01996d3d8a766cf0ad5723c2c",
-  "login": "jmdyck",
-  "number": 2676,
-  "ref": "abrupt_to_throw",
-  "revs": [
-   {
-    "adate": "2022-02-28T20:08:27-05:00",
-    "author": "Michael Dyck",
-    "date": "2022-04-20T22:22:56-04:00",
-    "hash": "48bb7983f05e34b01996d3d8a766cf0ad5723c2c",
-    "parents": "918e0e961595f57fd44c060bace6f16d874f4ba8",
-    "subject": "Editorial: Change many \"abrupt completion\" to \"throw completion\" (PR #2676)"
-   }
-  ],
-  "title": "Editorial: Change many \"abrupt completion\" to \"throw completion\"",
-  "updated_at": "2022-04-21T02:52:24Z"
  },
  {
   "base": "07c7b5ce987e63782c74d37cea3a5df7d4dedbb6",
