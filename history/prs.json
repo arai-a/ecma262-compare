@@ -672,13 +672,29 @@
   "updated_at": "2022-03-24T22:00:09Z"
  },
  {
-  "base": "8d9522cc84c1bcedc49e4c9e8272b72615e407cf",
+  "base": "ad096b3b2fc27c3cd2524974fe76ab8d041e4290",
   "created_at": "2022-03-22T19:44:59Z",
-  "head": "c83031524e330888cfe95ac6534df47be77195de",
+  "head": "a8dcb554679fef6a58e36d234d5733e1592b47f7",
   "login": "gibson042",
   "number": 2705,
   "ref": "2022-03-property-and-field-reference-consistency",
   "revs": [
+   {
+    "adate": "2022-04-21T13:25:58-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-04-21T13:25:58-04:00",
+    "hash": "a8dcb554679fef6a58e36d234d5733e1592b47f7",
+    "parents": "a1a0c41cb277829c1ba0b9b64175ba29f3f26207",
+    "subject": "Editorial: Avoid unnecessary repetition"
+   },
+   {
+    "adate": "2022-04-21T13:10:49-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-04-21T13:12:30-04:00",
+    "hash": "a1a0c41cb277829c1ba0b9b64175ba29f3f26207",
+    "parents": "c83031524e330888cfe95ac6534df47be77195de",
+    "subject": "Editorial: Revert the change from \"`super` property accesses\""
+   },
    {
     "adate": "2022-03-22T15:30:06-04:00",
     "author": "Richard Gibson",
@@ -705,7 +721,7 @@
    }
   ],
   "title": "Editorial: Improve consistency of property and record field names",
-  "updated_at": "2022-03-22T19:47:14Z"
+  "updated_at": "2022-04-21T17:32:04Z"
  },
  {
   "base": "ada486f269a68f099d378a84254e21bdba0410a7",
