@@ -1,25 +1,5 @@
 [
  {
-  "base": "be5db329f7a63cd909db15dab4623b102a6c1fff",
-  "created_at": "2022-04-19T20:52:03Z",
-  "head": "3c546c7a2f2b35d87ca5db77ac58dc1aab159946",
-  "login": "linusg",
-  "number": 2748,
-  "ref": "editorial-string-from-char-code-unused-variable",
-  "revs": [
-   {
-    "adate": "2022-04-19T16:32:57-07:00",
-    "author": "Linus Groh",
-    "date": "2022-04-19T16:32:57-07:00",
-    "hash": "3c546c7a2f2b35d87ca5db77ac58dc1aab159946",
-    "parents": "be5db329f7a63cd909db15dab4623b102a6c1fff",
-    "subject": "Editorial: Remove unused variable from String.fromCharCode() (#2748)"
-   }
-  ],
-  "title": "Editorial: Remove unused variable from String.fromCharCode()",
-  "updated_at": "2022-04-19T23:33:14Z"
- },
- {
   "base": "e090868e821c8f236b4106838ce586cfd2f954cc",
   "created_at": "2022-04-19T18:47:40Z",
   "head": "1088cdcb4f053f9a79300bc33423e45a7dc60037",
@@ -476,57 +456,9 @@
   "updated_at": "2022-04-11T22:13:30Z"
  },
  {
-  "base": "9fec769e709749381a3fef3edf0b6d687751fe83",
-  "created_at": "2022-04-09T22:34:39Z",
-  "head": "847430c76ffe84df3f0ce4b359d8c51f5c524243",
-  "login": "tc39",
-  "number": 2729,
-  "ref": "fix-annex-b-named-capturing-groups",
-  "revs": [
-   {
-    "adate": "2022-04-11T19:18:45-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2022-04-11T19:18:45-07:00",
-    "hash": "847430c76ffe84df3f0ce4b359d8c51f5c524243",
-    "parents": "ce08446d6bfb05d8bec20e68954c86342b1be66b",
-    "subject": "jmdyck review"
-   },
-   {
-    "adate": "2022-04-09T15:28:14-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2022-04-09T15:28:14-07:00",
-    "hash": "ce08446d6bfb05d8bec20e68954c86342b1be66b",
-    "parents": "9fec769e709749381a3fef3edf0b6d687751fe83",
-    "subject": "Normative: allow named capture groups in Annex B non-u regex grammar"
-   }
-  ],
-  "title": "Normative: allow named capture groups in Annex B non-u regex grammar",
-  "updated_at": "2022-04-12T02:18:50Z"
- },
- {
-  "base": "9fec769e709749381a3fef3edf0b6d687751fe83",
-  "created_at": "2022-04-08T18:51:52Z",
-  "head": "4327d96e5cee6727eff2affeebb50a1dcedbacf5",
-  "login": "jamiebuilds",
-  "number": 2727,
-  "ref": "stringnumericliteral-no-sep",
-  "revs": [
-   {
-    "adate": "2022-04-08T11:51:51-07:00",
-    "author": "Jamie Kyle",
-    "date": "2022-04-08T11:51:51-07:00",
-    "hash": "4327d96e5cee6727eff2affeebb50a1dcedbacf5",
-    "parents": "9fec769e709749381a3fef3edf0b6d687751fe83",
-    "subject": "Editorial: Note that StringNumericLiteral cannot contain NumericLiteralSeparator"
-   }
-  ],
-  "title": "Editorial: Note that StringNumericLiteral cannot contain NumericLiteralSeparator",
-  "updated_at": "2022-04-08T18:52:24Z"
- },
- {
-  "base": "432571ebe7d33d594780c818311d82e182b4b89f",
+  "base": "918e0e961595f57fd44c060bace6f16d874f4ba8",
   "created_at": "2022-04-04T21:17:43Z",
-  "head": "b6ac2bd9ce37655e65dad6fb7f3a2515f0ca5b3d",
+  "head": "e50cac461dfcc55d6791bbedebb0292810b68808",
   "login": "jmdyck",
   "number": 2722,
   "ref": "CapturingGroupName",
@@ -534,30 +466,30 @@
    {
     "adate": "2022-04-14T21:45:27-04:00",
     "author": "Michael Dyck",
-    "date": "2022-04-14T21:45:27-04:00",
-    "hash": "b6ac2bd9ce37655e65dad6fb7f3a2515f0ca5b3d",
-    "parents": "fd3717e37f435a0ab36d7d9593e9fc7b070d0651",
+    "date": "2022-04-20T22:51:04-04:00",
+    "hash": "e50cac461dfcc55d6791bbedebb0292810b68808",
+    "parents": "8fe14201d2c7cf928df32fe85ea575752b9403b7",
     "subject": "fixup: Eliminate \"the located |GroupSpecifier|\""
    },
    {
     "adate": "2022-04-04T16:54:39-04:00",
     "author": "Michael Dyck",
-    "date": "2022-04-12T17:22:18-04:00",
-    "hash": "fd3717e37f435a0ab36d7d9593e9fc7b070d0651",
-    "parents": "3167e806016bafc21bd94f0ae1a669cd0608e8a3",
+    "date": "2022-04-20T22:49:54-04:00",
+    "hash": "8fe14201d2c7cf928df32fe85ea575752b9403b7",
+    "parents": "840060885692dd17f293b1f5c31ffb3a0ccf73da",
     "subject": "Editorial: Factor out GroupSpecifiersThatMatch AO"
    },
    {
     "adate": "2022-04-04T09:32:49-04:00",
     "author": "Michael Dyck",
-    "date": "2022-04-12T17:22:18-04:00",
-    "hash": "3167e806016bafc21bd94f0ae1a669cd0608e8a3",
-    "parents": "22cc56ab08fcab92a865978c0aa5c6f1d8ce250f",
+    "date": "2022-04-20T22:45:25-04:00",
+    "hash": "840060885692dd17f293b1f5c31ffb3a0ccf73da",
+    "parents": "918e0e961595f57fd44c060bace6f16d874f4ba8",
     "subject": "Editorial: Fix wording bug by tweaking CapturingGroupName"
    }
   ],
   "title": "Editorial: Fix wording bug by tweaking CapturingGroupName",
-  "updated_at": "2022-04-15T02:40:09Z"
+  "updated_at": "2022-04-21T03:05:32Z"
  },
  {
   "base": "07c7b5ce987e63782c74d37cea3a5df7d4dedbb6",
@@ -896,40 +828,24 @@
   "updated_at": "2022-03-02T21:12:59Z"
  },
  {
-  "base": "27257a04e2f66f2ec581a73262897bc0f25e28f0",
+  "base": "918e0e961595f57fd44c060bace6f16d874f4ba8",
   "created_at": "2022-03-01T16:38:38Z",
-  "head": "3938e8b8495c801c356474bcec65d52e6c933320",
+  "head": "48bb7983f05e34b01996d3d8a766cf0ad5723c2c",
   "login": "jmdyck",
   "number": 2676,
   "ref": "abrupt_to_throw",
   "revs": [
    {
-    "adate": "2022-03-01T11:00:33-05:00",
-    "author": "Michael Dyck",
-    "date": "2022-03-09T21:25:20-05:00",
-    "hash": "3938e8b8495c801c356474bcec65d52e6c933320",
-    "parents": "b6c9cd799dfcad01ffbd40e3486cf4bc62f730c1",
-    "subject": "Change more \"abrupt completion\" to \"throw completion\""
-   },
-   {
-    "adate": "2022-03-01T10:58:49-05:00",
-    "author": "Michael Dyck",
-    "date": "2022-03-09T21:03:01-05:00",
-    "hash": "b6c9cd799dfcad01ffbd40e3486cf4bc62f730c1",
-    "parents": "ec2f273ad8339c03d13d228b910316c8c8942812",
-    "subject": "Host hooks can only return normal and throw completions"
-   },
-   {
     "adate": "2022-02-28T20:08:27-05:00",
     "author": "Michael Dyck",
-    "date": "2022-03-09T21:03:01-05:00",
-    "hash": "ec2f273ad8339c03d13d228b910316c8c8942812",
-    "parents": "27257a04e2f66f2ec581a73262897bc0f25e28f0",
-    "subject": "Internal methods can only return normal and throw completions"
+    "date": "2022-04-20T22:22:56-04:00",
+    "hash": "48bb7983f05e34b01996d3d8a766cf0ad5723c2c",
+    "parents": "918e0e961595f57fd44c060bace6f16d874f4ba8",
+    "subject": "Editorial: Change many \"abrupt completion\" to \"throw completion\" (PR #2676)"
    }
   ],
   "title": "Editorial: Change many \"abrupt completion\" to \"throw completion\"",
-  "updated_at": "2022-03-10T02:26:32Z"
+  "updated_at": "2022-04-21T02:52:24Z"
  },
  {
   "base": "07c7b5ce987e63782c74d37cea3a5df7d4dedbb6",
@@ -1122,58 +1038,6 @@
   ],
   "title": "Editorial: Factor out ExoticBuiltinCallOrConstruct",
   "updated_at": "2022-02-28T13:01:23Z"
- },
- {
-  "base": "db572a0aa34c8d54b57f33b4c1d68b650c90b45b",
-  "created_at": "2022-01-16T04:43:27Z",
-  "head": "f14b31037650026b7f0231ade8a1f038967cbc3a",
-  "login": "jmdyck",
-  "number": 2625,
-  "ref": "NcapturingParens",
-  "revs": [
-   {
-    "adate": "2022-04-13T23:35:01-04:00",
-    "author": "Michael Dyck",
-    "date": "2022-04-13T23:35:01-04:00",
-    "hash": "f14b31037650026b7f0231ade8a1f038967cbc3a",
-    "parents": "a9389ea7d40403f58e1e2ce81a37bf473fec6b33",
-    "subject": "fixup: Add \"This section is amended\" notes for the new AOs"
-   },
-   {
-    "adate": "2022-04-13T22:18:21-04:00",
-    "author": "Michael Dyck",
-    "date": "2022-04-13T22:18:21-04:00",
-    "hash": "a9389ea7d40403f58e1e2ce81a37bf473fec6b33",
-    "parents": "028c9c5a5ce60753988391bd0d0a14f8f3738d59",
-    "subject": "fixup: Add a <dfn> around \"left-capturing parenthesis\""
-   },
-   {
-    "adate": "2022-04-13T21:43:35-04:00",
-    "author": "Michael Dyck",
-    "date": "2022-04-13T22:01:32-04:00",
-    "hash": "028c9c5a5ce60753988391bd0d0a14f8f3738d59",
-    "parents": "456c80572863113c8be2d7796fcffe3c5c52ddcb",
-    "subject": "fixup: Prepend \"Count\" to \"LeftCapturingParens{Within,Before}\""
-   },
-   {
-    "adate": "2022-04-12T00:20:07-04:00",
-    "author": "Michael Dyck",
-    "date": "2022-04-12T00:20:07-04:00",
-    "hash": "456c80572863113c8be2d7796fcffe3c5c52ddcb",
-    "parents": "60a8a641cd26dc33f6ea5d194cdd754ae324f449",
-    "subject": "fixup: address comments from bakkot"
-   },
-   {
-    "adate": "2022-01-15T23:30:16-05:00",
-    "author": "Michael Dyck",
-    "date": "2022-04-11T22:24:58-04:00",
-    "hash": "60a8a641cd26dc33f6ea5d194cdd754ae324f449",
-    "parents": "22cc56ab08fcab92a865978c0aa5c6f1d8ce250f",
-    "subject": "Editorial: Eliminate `_NcapturingParens_` from Early Error rules + grammar"
-   }
-  ],
-  "title": "Editorial: Eliminate `_NcapturingParens_` from Early Error rules + grammar",
-  "updated_at": "2022-04-14T03:37:39Z"
  },
  {
   "base": "d9ab5c0c04d7f6edfa6c0932adccc92189e67d1a",
