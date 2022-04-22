@@ -1,5 +1,53 @@
 [
  {
+  "base": "c2edb328a457b4960fe174908efaaa0f31ea45a5",
+  "created_at": "2022-04-22T17:17:43Z",
+  "head": "e47fa579e1479e2721d8979a24ddb2f1ef47898a",
+  "login": "gibson042",
+  "number": 2751,
+  "ref": "2022-04-operator-operand-agreement",
+  "revs": [
+   {
+    "adate": "2022-04-22T13:13:45-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-04-22T13:13:45-04:00",
+    "hash": "e47fa579e1479e2721d8979a24ddb2f1ef47898a",
+    "parents": "2d84577d9fb46693657ec3ffb38a860eceb5efd1",
+    "subject": "Editorial: Reference IEEE 754 using their vocabulary"
+   },
+   {
+    "adate": "2022-04-22T13:12:05-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-04-22T13:12:05-04:00",
+    "hash": "2d84577d9fb46693657ec3ffb38a860eceb5efd1",
+    "parents": "c2edb328a457b4960fe174908efaaa0f31ea45a5",
+    "subject": "Editorial: Replace mixtures of spec aliases with language operators"
+   }
+  ],
+  "title": "Editorial: Replace mixtures of spec aliases with language operators",
+  "updated_at": "2022-04-22T17:17:43Z"
+ },
+ {
+  "base": "c2edb328a457b4960fe174908efaaa0f31ea45a5",
+  "created_at": "2022-04-22T17:07:35Z",
+  "head": "d7d7fb260b45f665bccb6b6586bd4ee8c7e4ca5d",
+  "login": "gibson042",
+  "number": 2750,
+  "ref": "2022-04-subtraction-consistency",
+  "revs": [
+   {
+    "adate": "2022-04-22T13:05:26-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-04-22T13:05:26-04:00",
+    "hash": "d7d7fb260b45f665bccb6b6586bd4ee8c7e4ca5d",
+    "parents": "c2edb328a457b4960fe174908efaaa0f31ea45a5",
+    "subject": "Editorial: Consistently use U+002D `-` rather than U+2212 `\u2212` for subtraction"
+   }
+  ],
+  "title": "Editorial: Consistently use U+002D `-` rather than U+2212 `\u2212` for subtraction",
+  "updated_at": "2022-04-22T17:07:35Z"
+ },
+ {
   "base": "e090868e821c8f236b4106838ce586cfd2f954cc",
   "created_at": "2022-04-19T18:47:40Z",
   "head": "1088cdcb4f053f9a79300bc33423e45a7dc60037",
@@ -428,34 +476,6 @@
   "updated_at": "2022-04-14T15:44:51Z"
  },
  {
-  "base": "184e4ae34fa66be735e1300f9802a6dde4ab9c8c",
-  "created_at": "2022-04-11T20:58:26Z",
-  "head": "074e3e196d22743cbcc7d9684e75c6a13ddcaee3",
-  "login": "gibson042",
-  "number": 2730,
-  "ref": "2022-04-mathematical-conventions",
-  "revs": [
-   {
-    "adate": "2022-04-11T18:11:54-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-04-11T18:11:54-04:00",
-    "hash": "074e3e196d22743cbcc7d9684e75c6a13ddcaee3",
-    "parents": "1450270e1b4aad9e4572780f4b7affff15cc1653",
-    "subject": "Editorial: Revert change to `[> but only if \u2026 &gt; \u2026]`"
-   },
-   {
-    "adate": "2022-04-11T16:36:54-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-04-11T16:36:54-04:00",
-    "hash": "1450270e1b4aad9e4572780f4b7affff15cc1653",
-    "parents": "184e4ae34fa66be735e1300f9802a6dde4ab9c8c",
-    "subject": "Editorial: Improve consistency of mathematical conventions"
-   }
-  ],
-  "title": "Editorial: Improve consistency of mathematical conventions",
-  "updated_at": "2022-04-11T22:13:30Z"
- },
- {
   "base": "918e0e961595f57fd44c060bace6f16d874f4ba8",
   "created_at": "2022-04-04T21:17:43Z",
   "head": "e50cac461dfcc55d6791bbedebb0292810b68808",
@@ -672,58 +692,6 @@
   "updated_at": "2022-03-24T22:00:09Z"
  },
  {
-  "base": "ad096b3b2fc27c3cd2524974fe76ab8d041e4290",
-  "created_at": "2022-03-22T19:44:59Z",
-  "head": "a8dcb554679fef6a58e36d234d5733e1592b47f7",
-  "login": "gibson042",
-  "number": 2705,
-  "ref": "2022-03-property-and-field-reference-consistency",
-  "revs": [
-   {
-    "adate": "2022-04-21T13:25:58-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-04-21T13:25:58-04:00",
-    "hash": "a8dcb554679fef6a58e36d234d5733e1592b47f7",
-    "parents": "a1a0c41cb277829c1ba0b9b64175ba29f3f26207",
-    "subject": "Editorial: Avoid unnecessary repetition"
-   },
-   {
-    "adate": "2022-04-21T13:10:49-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-04-21T13:12:30-04:00",
-    "hash": "a1a0c41cb277829c1ba0b9b64175ba29f3f26207",
-    "parents": "c83031524e330888cfe95ac6534df47be77195de",
-    "subject": "Editorial: Revert the change from \"`super` property accesses\""
-   },
-   {
-    "adate": "2022-03-22T15:30:06-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-03-22T15:30:06-04:00",
-    "hash": "c83031524e330888cfe95ac6534df47be77195de",
-    "parents": "50a3fd42b03fee28df01effa1fc0bcede41d7433",
-    "subject": "Editorial: Clarify that GetSuperBase assists property lookups _on_ `super`"
-   },
-   {
-    "adate": "2022-03-22T15:24:24-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-03-22T15:24:24-04:00",
-    "hash": "50a3fd42b03fee28df01effa1fc0bcede41d7433",
-    "parents": "c2f6c95beef2b5c98a9c939fc6ac7b1f6699eef2",
-    "subject": "Editorial: Refer to Record _fields_ rather than _properties_"
-   },
-   {
-    "adate": "2022-03-22T15:22:41-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-03-22T15:22:41-04:00",
-    "hash": "c2f6c95beef2b5c98a9c939fc6ac7b1f6699eef2",
-    "parents": "8d9522cc84c1bcedc49e4c9e8272b72615e407cf",
-    "subject": "Editorial: Consistently represent property names as language values"
-   }
-  ],
-  "title": "Editorial: Improve consistency of property and record field names",
-  "updated_at": "2022-04-21T17:32:04Z"
- },
- {
   "base": "ada486f269a68f099d378a84254e21bdba0410a7",
   "created_at": "2022-03-16T20:31:38Z",
   "head": "81af862d0872fb4d643c038e6da46a9699dc9dcc",
@@ -842,50 +810,6 @@
   ],
   "title": "Move class and method related abstract operations to more relevant section",
   "updated_at": "2022-03-02T21:12:59Z"
- },
- {
-  "base": "07c7b5ce987e63782c74d37cea3a5df7d4dedbb6",
-  "created_at": "2022-02-23T10:46:29Z",
-  "head": "02022f6e5d3ecd1fd5f1a35ce55018b87ef0cb36",
-  "login": "antosart",
-  "number": 2670,
-  "ref": "remove-caller-realm",
-  "revs": [
-   {
-    "adate": "2022-04-21T16:58:37-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2022-04-21T16:58:37-07:00",
-    "hash": "02022f6e5d3ecd1fd5f1a35ce55018b87ef0cb36",
-    "parents": "5cc08b4d8e495ef09cdaf43c6595892b14b31272",
-    "subject": "fixup naming nit"
-   },
-   {
-    "adate": "2022-04-09T21:49:21-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2022-04-09T21:49:21-07:00",
-    "hash": "5cc08b4d8e495ef09cdaf43c6595892b14b31272",
-    "parents": "60f85e395568977c717dec620451cb8f4cb48d9d",
-    "subject": "add note about realm concordence"
-   },
-   {
-    "adate": "2022-03-28T12:32:15-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2022-03-28T12:32:15-07:00",
-    "hash": "60f85e395568977c717dec620451cb8f4cb48d9d",
-    "parents": "3df5372521c669ac781415228acefa25380983f8 07c7b5ce987e63782c74d37cea3a5df7d4dedbb6",
-    "subject": "Merge branch 'main' into remove-caller-realm"
-   },
-   {
-    "adate": "2022-02-21T14:16:06+01:00",
-    "author": "Antonio Sartori",
-    "date": "2022-02-25T11:37:25+01:00",
-    "hash": "3df5372521c669ac781415228acefa25380983f8",
-    "parents": "cf7145ea3f14943b5aea7d5e05c771f31f989606",
-    "subject": "Remove callerRealm from HostEnsureCanCompileStrings"
-   }
-  ],
-  "title": "Remove callerRealm from HostEnsureCanCompileStrings",
-  "updated_at": "2022-04-21T23:58:55Z"
  },
  {
   "base": "7575f745f26e9f66b2be481144f37ac4a8a9f1c4",
