@@ -1,5 +1,25 @@
 [
  {
+  "base": "fedc61a19201f3d4ae23921ab1aeff417e84ff9c",
+  "created_at": "2022-04-23T22:40:20Z",
+  "head": "34882bb99d94dd33f45a4615fd6d00c83dc162ef",
+  "login": "tc39",
+  "number": 2754,
+  "ref": "bump-emu",
+  "revs": [
+   {
+    "adate": "2022-04-23T15:39:32-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2022-04-23T15:39:32-07:00",
+    "hash": "34882bb99d94dd33f45a4615fd6d00c83dc162ef",
+    "parents": "fedc61a19201f3d4ae23921ab1aeff417e84ff9c",
+    "subject": "Meta: bump ecmarkup to 12.0.3"
+   }
+  ],
+  "title": "Meta: bump ecmarkup to 12.0.3",
+  "updated_at": "2022-04-23T22:40:31Z"
+ },
+ {
   "base": "c2edb328a457b4960fe174908efaaa0f31ea45a5",
   "created_at": "2022-04-22T17:17:43Z",
   "head": "e47fa579e1479e2721d8979a24ddb2f1ef47898a",
@@ -26,26 +46,6 @@
   ],
   "title": "Editorial: Replace mixtures of spec aliases with language operators",
   "updated_at": "2022-04-22T17:17:43Z"
- },
- {
-  "base": "c2edb328a457b4960fe174908efaaa0f31ea45a5",
-  "created_at": "2022-04-22T17:07:35Z",
-  "head": "d7d7fb260b45f665bccb6b6586bd4ee8c7e4ca5d",
-  "login": "gibson042",
-  "number": 2750,
-  "ref": "2022-04-subtraction-consistency",
-  "revs": [
-   {
-    "adate": "2022-04-22T13:05:26-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-04-22T13:05:26-04:00",
-    "hash": "d7d7fb260b45f665bccb6b6586bd4ee8c7e4ca5d",
-    "parents": "c2edb328a457b4960fe174908efaaa0f31ea45a5",
-    "subject": "Editorial: Consistently use U+002D `-` rather than U+2212 `\u2212` for subtraction"
-   }
-  ],
-  "title": "Editorial: Consistently use U+002D `-` rather than U+2212 `\u2212` for subtraction",
-  "updated_at": "2022-04-22T17:07:35Z"
  },
  {
   "base": "e090868e821c8f236b4106838ce586cfd2f954cc",
