@@ -1922,11 +1922,19 @@
  {
   "base": "ada486f269a68f099d378a84254e21bdba0410a7",
   "created_at": "2021-05-26T23:09:49Z",
-  "head": "f4776865626caa2ca587d274a0215997fb6cb63d",
+  "head": "87c267d3fa393b8464f164fd93b6885c7e90d128",
   "login": "pzuraq",
   "number": 2417,
   "ref": "decorators",
   "revs": [
+   {
+    "adate": "2022-04-24T12:20:29-04:00",
+    "author": "Chris Hewell Garrett",
+    "date": "2022-04-24T12:20:29-04:00",
+    "hash": "87c267d3fa393b8464f164fd93b6885c7e90d128",
+    "parents": "f4776865626caa2ca587d274a0215997fb6cb63d",
+    "subject": "isPrivate, isStatic -> private, static"
+   },
    {
     "adate": "2022-03-29T08:41:08-04:00",
     "author": "Chris Hewell Garrett",
@@ -1961,7 +1969,7 @@
    }
   ],
   "title": "Add Class and Class Element Decorators and `accessor` Keyword",
-  "updated_at": "2022-03-29T12:42:44Z"
+  "updated_at": "2022-04-24T16:20:42Z"
  },
  {
   "base": "c75497982a8c07e83a13cc5d7d80cdaaa8a337bd",
