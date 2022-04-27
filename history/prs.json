@@ -448,40 +448,56 @@
   "updated_at": "2022-04-14T15:44:51Z"
  },
  {
-  "base": "918e0e961595f57fd44c060bace6f16d874f4ba8",
+  "base": "a8ac2a662a7651092d06383479845e34241ee970",
   "created_at": "2022-04-04T21:17:43Z",
-  "head": "e50cac461dfcc55d6791bbedebb0292810b68808",
+  "head": "dbb1b41e1168a734c44ba22fbcf6b8d1f3998911",
   "login": "jmdyck",
   "number": 2722,
   "ref": "CapturingGroupName",
   "revs": [
    {
-    "adate": "2022-04-14T21:45:27-04:00",
+    "adate": "2022-04-27T15:06:23-04:00",
     "author": "Michael Dyck",
-    "date": "2022-04-20T22:51:04-04:00",
-    "hash": "e50cac461dfcc55d6791bbedebb0292810b68808",
-    "parents": "8fe14201d2c7cf928df32fe85ea575752b9403b7",
-    "subject": "fixup: Eliminate \"the located |GroupSpecifier|\""
+    "date": "2022-04-27T15:08:10-04:00",
+    "hash": "dbb1b41e1168a734c44ba22fbcf6b8d1f3998911",
+    "parents": "94692269d20d4e30731be6073a7e803f7e825e34",
+    "subject": "squash?: Reword the early error rule involving CapturingGroupName"
+   },
+   {
+    "adate": "2022-04-27T14:30:08-04:00",
+    "author": "Michael Dyck",
+    "date": "2022-04-27T15:08:10-04:00",
+    "hash": "94692269d20d4e30731be6073a7e803f7e825e34",
+    "parents": "7064a2b7d41386666f4a7d87a57e750a095d2977",
+    "subject": "squash?: Extend CapturingGroupName to GroupSpecifier"
+   },
+   {
+    "adate": "2022-04-27T14:07:22-04:00",
+    "author": "Michael Dyck",
+    "date": "2022-04-27T15:08:10-04:00",
+    "hash": "7064a2b7d41386666f4a7d87a57e750a095d2977",
+    "parents": "83e3fbb79e244bbe0cd2362d402e8a1e195f7e37",
+    "subject": "Editorial: Change GroupSpecifier from nillable to optional"
    },
    {
     "adate": "2022-04-04T16:54:39-04:00",
     "author": "Michael Dyck",
-    "date": "2022-04-20T22:49:54-04:00",
-    "hash": "8fe14201d2c7cf928df32fe85ea575752b9403b7",
-    "parents": "840060885692dd17f293b1f5c31ffb3a0ccf73da",
+    "date": "2022-04-27T15:08:10-04:00",
+    "hash": "83e3fbb79e244bbe0cd2362d402e8a1e195f7e37",
+    "parents": "d61b2b962e9e0b0d313e1b004e4cb563ccc2e67a",
     "subject": "Editorial: Factor out GroupSpecifiersThatMatch AO"
    },
    {
     "adate": "2022-04-04T09:32:49-04:00",
     "author": "Michael Dyck",
-    "date": "2022-04-20T22:45:25-04:00",
-    "hash": "840060885692dd17f293b1f5c31ffb3a0ccf73da",
-    "parents": "918e0e961595f57fd44c060bace6f16d874f4ba8",
+    "date": "2022-04-26T20:59:35-04:00",
+    "hash": "d61b2b962e9e0b0d313e1b004e4cb563ccc2e67a",
+    "parents": "a8ac2a662a7651092d06383479845e34241ee970",
     "subject": "Editorial: Fix wording bug by tweaking CapturingGroupName"
    }
   ],
   "title": "Editorial: Fix wording bug by tweaking CapturingGroupName",
-  "updated_at": "2022-04-21T03:05:32Z"
+  "updated_at": "2022-04-27T19:20:48Z"
  },
  {
   "base": "07c7b5ce987e63782c74d37cea3a5df7d4dedbb6",
