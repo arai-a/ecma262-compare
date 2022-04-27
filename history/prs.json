@@ -1,5 +1,33 @@
 [
  {
+  "base": "f6ddcadfa294c915e2daaaa6b75bce097e0fcf5b",
+  "created_at": "2022-04-27T21:09:22Z",
+  "head": "7f87fd91a5c4e9ad8bc91902fda701f47a2ae2e0",
+  "login": "gibson042",
+  "number": 2757,
+  "ref": "2022-04-comparison-mathematical-values",
+  "revs": [
+   {
+    "adate": "2022-04-27T16:58:20-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-04-27T17:07:10-04:00",
+    "hash": "7f87fd91a5c4e9ad8bc91902fda701f47a2ae2e0",
+    "parents": "fd59bf870d95312ff6eaf380c6fe14e9acc8bc97",
+    "subject": "Editorial: Convert SortCompare output before comparing it against mathematical zero"
+   },
+   {
+    "adate": "2022-04-27T16:56:50-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-04-27T17:05:01-04:00",
+    "hash": "fd59bf870d95312ff6eaf380c6fe14e9acc8bc97",
+    "parents": "f6ddcadfa294c915e2daaaa6b75bce097e0fcf5b",
+    "subject": "Editorial: Specify required localeCompare Number output for canonically equivalent strings"
+   }
+  ],
+  "title": "Editorial: Properly handle comparison results as Number values",
+  "updated_at": "2022-04-27T21:09:22Z"
+ },
+ {
   "base": "a8ac2a662a7651092d06383479845e34241ee970",
   "created_at": "2022-04-27T16:46:54Z",
   "head": "d0093b4b84771f7702b0edc5a2c4f08c85e8891c",
@@ -1026,26 +1054,6 @@
   ],
   "title": "Editorial: Define both integer index and array index using closed intervals",
   "updated_at": "2022-01-08T19:45:36Z"
- },
- {
-  "base": "93183b81cb03116b75019615d148b5f788e70edf",
-  "created_at": "2022-01-08T03:55:25Z",
-  "head": "bc1a90a46139e672760104bd90380d81db2a3893",
-  "login": "jmdyck",
-  "number": 2610,
-  "ref": "GDI_takes_a_Script",
-  "revs": [
-   {
-    "adate": "2022-01-07T22:30:35-05:00",
-    "author": "Michael Dyck",
-    "date": "2022-01-07T22:33:23-05:00",
-    "hash": "bc1a90a46139e672760104bd90380d81db2a3893",
-    "parents": "93183b81cb03116b75019615d148b5f788e70edf",
-    "subject": "Editorial: GlobalDeclarationInstantiation takes a |Script|"
-   }
-  ],
-  "title": "Editorial: GlobalDeclarationInstantiation takes a Script",
-  "updated_at": "2022-01-08T03:55:25Z"
  },
  {
   "base": "b64ac7fb4ae0a7c1a3332274e51c9664b47b4363",
