@@ -50,11 +50,19 @@
  {
   "base": "c2edb328a457b4960fe174908efaaa0f31ea45a5",
   "created_at": "2022-04-22T17:17:43Z",
-  "head": "e47fa579e1479e2721d8979a24ddb2f1ef47898a",
+  "head": "db67bb8dae8b86a3ea2d6f618692b7e70a921a74",
   "login": "gibson042",
   "number": 2751,
   "ref": "2022-04-operator-operand-agreement",
   "revs": [
+   {
+    "adate": "2022-04-27T19:10:29-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-04-27T19:10:29-04:00",
+    "hash": "db67bb8dae8b86a3ea2d6f618692b7e70a921a74",
+    "parents": "e47fa579e1479e2721d8979a24ddb2f1ef47898a",
+    "subject": "Editorial: Accept editor suggestion"
+   },
    {
     "adate": "2022-04-22T13:13:45-04:00",
     "author": "Richard Gibson",
@@ -73,7 +81,7 @@
    }
   ],
   "title": "Editorial: Replace mixtures of spec aliases with language operators",
-  "updated_at": "2022-04-22T17:17:43Z"
+  "updated_at": "2022-04-27T23:10:57Z"
  },
  {
   "base": "e090868e821c8f236b4106838ce586cfd2f954cc",
@@ -982,26 +990,6 @@
   ],
   "title": "Editorial: Factor out ExoticBuiltinCallOrConstruct",
   "updated_at": "2022-04-21T14:04:03Z"
- },
- {
-  "base": "d9ab5c0c04d7f6edfa6c0932adccc92189e67d1a",
-  "created_at": "2022-01-13T20:29:42Z",
-  "head": "f8f01032d712d101edbf5c07bc680140f2a4b30e",
-  "login": "gibson042",
-  "number": 2622,
-  "ref": "2022-01-phrasing-consistency",
-  "revs": [
-   {
-    "adate": "2022-01-13T15:26:40-05:00",
-    "author": "Richard Gibson",
-    "date": "2022-01-13T15:26:40-05:00",
-    "hash": "f8f01032d712d101edbf5c07bc680140f2a4b30e",
-    "parents": "d9ab5c0c04d7f6edfa6c0932adccc92189e67d1a",
-    "subject": "Editorial: Use consistent phrasing for parameters that are Number or BigInt"
-   }
-  ],
-  "title": "Editorial: Use consistent phrasing for parameters that are Number or BigInt",
-  "updated_at": "2022-01-13T20:29:42Z"
  },
  {
   "base": "2d612452d1115cbdd21b9a607aab6c9408552734",
