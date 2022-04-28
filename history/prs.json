@@ -284,88 +284,96 @@
   "updated_at": "2022-04-22T18:06:48Z"
  },
  {
-  "base": "e090868e821c8f236b4106838ce586cfd2f954cc",
+  "base": "8e64031fd925db73ed26ac5eefd2daada0b50407",
   "created_at": "2022-04-18T15:17:05Z",
-  "head": "ce76c9e92deb221f990b8da68d58e9e0b902ed8e",
+  "head": "efc0813dadae9ba51d4df9e572db09a87f70a6c7",
   "login": "jmdyck",
   "number": 2744,
   "ref": "Evaluation",
   "revs": [
    {
+    "adate": "2022-04-27T23:10:51-04:00",
+    "author": "Michael Dyck",
+    "date": "2022-04-27T23:50:24-04:00",
+    "hash": "efc0813dadae9ba51d4df9e572db09a87f70a6c7",
+    "parents": "8cef845733da50ca50156e6b1ac5968a54e05aa8",
+    "subject": "fixup: Add index to new \"Evaluation\" home section"
+   },
+   {
     "adate": "2022-04-17T21:05:12-04:00",
     "author": "Michael Dyck",
-    "date": "2022-04-18T11:08:47-04:00",
-    "hash": "ce76c9e92deb221f990b8da68d58e9e0b902ed8e",
-    "parents": "d613230a9faac5ce21308adead6bc2a168bd3af6",
+    "date": "2022-04-26T20:55:33-04:00",
+    "hash": "8cef845733da50ca50156e6b1ac5968a54e05aa8",
+    "parents": "c697301d525dd8c242a43da964d3509273472654",
     "subject": "Fix bug: Prevent mis-application of Implicit Normal Completion"
    },
    {
     "adate": "2022-04-17T21:00:07-04:00",
     "author": "Michael Dyck",
-    "date": "2022-04-18T11:08:47-04:00",
-    "hash": "d613230a9faac5ce21308adead6bc2a168bd3af6",
-    "parents": "4e983294245fe13e51e1152938f032fc8cd4605a",
+    "date": "2022-04-26T20:55:33-04:00",
+    "hash": "c697301d525dd8c242a43da964d3509273472654",
+    "parents": "7b713966dd5b892ec72237d0610731448621c806",
     "subject": "Change more `Completion()` to `?` (bugfix)"
    },
    {
     "adate": "2022-03-08T23:46:53-05:00",
     "author": "Michael Dyck",
-    "date": "2022-04-18T11:08:47-04:00",
-    "hash": "4e983294245fe13e51e1152938f032fc8cd4605a",
-    "parents": "52706a241e36ca85246eea2c2b14f6d2c3a70453",
+    "date": "2022-04-26T20:55:33-04:00",
+    "hash": "7b713966dd5b892ec72237d0610731448621c806",
+    "parents": "e5eee21aff21a03674001039002263e1733bfee8",
     "subject": "Change more `Completion()` to `?` (GetValue simple)"
    },
    {
     "adate": "2022-03-08T21:06:35-05:00",
     "author": "Michael Dyck",
-    "date": "2022-04-18T11:05:23-04:00",
-    "hash": "52706a241e36ca85246eea2c2b14f6d2c3a70453",
-    "parents": "b2ba0007d3fdfb1da7bfc0b10952b601792becd9",
+    "date": "2022-04-26T20:55:33-04:00",
+    "hash": "e5eee21aff21a03674001039002263e1733bfee8",
+    "parents": "b155432b49bbb48678813f6a968b5c88972b5131",
     "subject": "Change more `Completion()` to `?` (GetValue tricky)"
    },
    {
     "adate": "2022-04-17T19:34:33-04:00",
     "author": "Michael Dyck",
-    "date": "2022-04-18T10:09:05-04:00",
-    "hash": "b2ba0007d3fdfb1da7bfc0b10952b601792becd9",
-    "parents": "0df6091c9c37130dcb643b2f198aa7c16f94890f",
+    "date": "2022-04-26T20:55:33-04:00",
+    "hash": "b155432b49bbb48678813f6a968b5c88972b5131",
+    "parents": "482c5ac0311fe1768623f02a851c958a7538c36d",
     "subject": "Change more `Completion()` to `?` (Return)"
    },
    {
     "adate": "2022-03-08T16:44:06-05:00",
     "author": "Michael Dyck",
-    "date": "2022-04-18T10:08:00-04:00",
-    "hash": "0df6091c9c37130dcb643b2f198aa7c16f94890f",
-    "parents": "c8db72902d96e6d01b77f901b2dc4070ebf47be8",
+    "date": "2022-04-26T20:55:33-04:00",
+    "hash": "482c5ac0311fe1768623f02a851c958a7538c36d",
+    "parents": "2d1f2f77b93868f9c0f3aa2117c6943b506e7b8c",
     "subject": "Change some `Completion()` to `?` (ReturnIfAbrupt)"
    },
    {
     "adate": "2022-04-17T23:58:50-04:00",
     "author": "Michael Dyck",
-    "date": "2022-04-18T10:07:43-04:00",
-    "hash": "c8db72902d96e6d01b77f901b2dc4070ebf47be8",
-    "parents": "1a58d1559ce60f2f83d01bfbaa1bc785831a521f",
+    "date": "2022-04-26T20:55:33-04:00",
+    "hash": "2d1f2f77b93868f9c0f3aa2117c6943b506e7b8c",
+    "parents": "7a0582b102e84d764e594de26f830d1769f85620",
     "subject": "Wrap `Completion()` around occurrences of \"Evaluation of X\""
    },
    {
     "adate": "2022-04-17T23:51:13-04:00",
     "author": "Michael Dyck",
-    "date": "2022-04-17T23:58:02-04:00",
-    "hash": "1a58d1559ce60f2f83d01bfbaa1bc785831a521f",
-    "parents": "2dfbdc07d78345da04ed72ea88c282c522fee5d3",
+    "date": "2022-04-26T20:55:32-04:00",
+    "hash": "7a0582b102e84d764e594de26f830d1769f85620",
+    "parents": "b5480d2638f53450a84336759788943952edb4a9",
     "subject": "Change \"the result of evaluating X\" to \"Evaluation of X\""
    },
    {
     "adate": "2022-04-17T10:38:19-04:00",
     "author": "Michael Dyck",
-    "date": "2022-04-17T20:31:13-04:00",
-    "hash": "2dfbdc07d78345da04ed72ea88c282c522fee5d3",
-    "parents": "e090868e821c8f236b4106838ce586cfd2f954cc",
+    "date": "2022-04-26T20:55:32-04:00",
+    "hash": "b5480d2638f53450a84336759788943952edb4a9",
+    "parents": "a8ac2a662a7651092d06383479845e34241ee970",
     "subject": "Make a 'home' section for Evaluation"
    }
   ],
   "title": "Editorial: Make `Evaluation` more like regular SDOs",
-  "updated_at": "2022-04-18T15:26:47Z"
+  "updated_at": "2022-04-28T03:56:25Z"
  },
  {
   "base": "8e64031fd925db73ed26ac5eefd2daada0b50407",
