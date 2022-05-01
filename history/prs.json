@@ -1,5 +1,41 @@
 [
  {
+  "base": "714fa3dd1e8237ae9c666146270f81880089eca5",
+  "created_at": "2022-05-01T12:52:58Z",
+  "head": "ac376519cedfd313777129143ad7cc3dcfec879d",
+  "login": "linusg",
+  "number": 2759,
+  "ref": "editorial-update-createnonenumerabledataproperty",
+  "revs": [
+   {
+    "adate": "2022-05-01T14:45:16+02:00",
+    "author": "Linus Groh",
+    "date": "2022-05-01T14:48:43+02:00",
+    "hash": "ac376519cedfd313777129143ad7cc3dcfec879d",
+    "parents": "9f141383d7753131fe02c7431db4caefb04b0e1c",
+    "subject": "Editorial: Call [[DefineOwnProperty]] in CreateNonEnumerableDataProperty"
+   },
+   {
+    "adate": "2022-05-01T14:36:23+02:00",
+    "author": "Linus Groh",
+    "date": "2022-05-01T14:48:42+02:00",
+    "hash": "9f141383d7753131fe02c7431db4caefb04b0e1c",
+    "parents": "6741e45aefc02e2341cb06fa09d4ee2b36361a1e",
+    "subject": "Editorial: Correct notes in Create{Method,NonEnumerableData}Property"
+   },
+   {
+    "adate": "2022-05-01T14:31:56+02:00",
+    "author": "Linus Groh",
+    "date": "2022-05-01T14:48:42+02:00",
+    "hash": "6741e45aefc02e2341cb06fa09d4ee2b36361a1e",
+    "parents": "e090868e821c8f236b4106838ce586cfd2f954cc",
+    "subject": "Editorial: Drop 'OrThrow' from CreateNonEnumerableDataPropertyOrThrow"
+   }
+  ],
+  "title": "Editorial: Drop 'OrThrow' from CreateNonEnumerableDataPropertyOrThrow + some small changes",
+  "updated_at": "2022-05-01T12:52:58Z"
+ },
+ {
   "base": "f6ddcadfa294c915e2daaaa6b75bce097e0fcf5b",
   "created_at": "2022-04-27T21:09:22Z",
   "head": "7f87fd91a5c4e9ad8bc91902fda701f47a2ae2e0",
