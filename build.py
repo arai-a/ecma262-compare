@@ -12,6 +12,16 @@ import subprocess
 import sys
 import urllib.request
 
+def test_if_non_bmp_supported_by_lxml():
+    import lxml.html
+    import lxml.etree
+
+    source = "<p>𝔽</p>"
+    dom = lxml.html.fromstring(source)
+    out = lxml.etree.tostring(dom, method='html').decode()
+    return source == out
+
+is_non_bmp_supported_by_lxml = test_if_non_bmp_supported_by_lxml()
 
 class BuildFailureException(Exception):
     pass
@@ -344,13 +354,29 @@ class SectionsExtractor:
         )
 
     @classmethod
+    def __get_parent_id(cls, node):
+        p = node.getparent()
+        while p.tag not in ['emu-clause', 'emu-annex']:
+            p = p.getparent()
+            if p is None:
+                return None
+        return p.attrib['id']
+
+    @classmethod
     def __get_sec_list(cls, dom):
         sec_list = []
+        sec_tree_map = dict()
         sec_num_map = dict()
         sec_title_map = dict()
 
         for node in cls.__get_sec_nodes(dom):
             id = node.attrib['id']
+
+            if id not in sec_tree_map:
+                sec_tree_map[id] = dict()
+            sec_tree_item = sec_tree_map[id]
+            sec_tree_item['parent'] = cls.__get_parent_id(node)
+            sec_tree_item['tree_node'] = [id, []]
 
             h1 = node.xpath('./h1')[0]
 
@@ -369,7 +395,19 @@ class SectionsExtractor:
             sec_num_map[id] = num
             sec_title_map[id] = title
 
-        return sec_list, sec_num_map, sec_title_map
+        sec_tree = []
+        for id in sec_list:
+            sec_tree_item = sec_tree_map[id]
+            tree_node = sec_tree_item['tree_node']
+
+            parent_id = sec_tree_item['parent']
+            if parent_id and parent_id in sec_tree_map:
+                parent = sec_tree_map[parent_id]
+                parent['tree_node'][1].append(tree_node)
+            else:
+                sec_tree.append(tree_node)
+
+        return sec_list, sec_tree, sec_num_map, sec_title_map
 
     @classmethod
     def __get_figure_list(cls, dom):
@@ -491,9 +529,17 @@ class SectionsExtractor:
     def extract(cls, html):
         import lxml.html
 
+        if not is_non_bmp_supported_by_lxml:
+            # non-BMP is not supported properly on lxml on M1 mac
+            # convert to entiry reference manually.
+            html = re.sub('[\U00010000-\U0010ffff]',
+                          lambda x: '&#' + str(ord(x.group(0))) + ';',
+                          html)
+
         dom = lxml.html.fromstring(html)
+
         cls.remove_emu_ids(dom)
-        sec_list, sec_num_map, sec_title_map = cls.__get_sec_list(dom)
+        sec_list, sec_tree, sec_num_map, sec_title_map = cls.__get_sec_list(dom)
         figure_num_map = cls.__get_figure_list(dom)
         cls.__replace_xref(dom, sec_num_map, figure_num_map)
         cls.__exclude_subsections(dom, sec_list, sec_num_map, sec_title_map)
@@ -501,6 +547,7 @@ class SectionsExtractor:
 
         return {
             'secList': sec_list,
+            'secTree': sec_tree,
             'secData': sec_data,
             'figData': figure_num_map,
         }
@@ -515,6 +562,16 @@ class SectionsComparator:
 
         from_sec_set = set(from_sec_data['secList'])
         to_sec_set = set(to_sec_data['secList'])
+
+        if 'secTree' in from_sec_data:
+            from_sec_tree = from_sec_data['secTree']
+        else:
+            from_sec_tree = []
+
+        if 'secTree' in to_sec_data:
+            to_sec_tree = to_sec_data['secTree']
+        else:
+            to_sec_tree = []
 
         diff_from_sec_list = []
         diff_to_sec_list = []
@@ -548,11 +605,13 @@ class SectionsComparator:
         return {
             'from': {
                 'secList': diff_from_sec_list,
+                'secTree': from_sec_tree,
                 'secData': diff_from_sec_data,
                 'figData': diff_from_fig_data,
             },
             'to': {
                 'secList': diff_to_sec_list,
+                'secTree': to_sec_tree,
                 'secData': diff_to_sec_data,
                 'figData': diff_to_fig_data,
             },
@@ -693,7 +752,6 @@ class RevisionRenderer:
 
         distutils.dir_util.copy_tree(repo_out_dir, rev_dir)
 
-        
         return True
 
     def __json(sha, prnum, skip_cache):
@@ -763,6 +821,18 @@ class RevisionRenderer:
     @classmethod
     def run_parent(cls, sha, prnum, parent_sha, skip_cache):
         return cls.__parent_json(sha, prnum, parent_sha, skip_cache)
+
+    @classmethod
+    def update_json(cls, sha, prnum):
+        if sha in Config.BROKEN_REVS:
+            Logger.info('Skipping broken revision {}'.format(sha))
+            return False
+
+        cls.__json(sha, prnum, False)
+
+    @classmethod
+    def update_parent_json(cls, sha, prnum, parent_sha):
+        return cls.__parent_json(sha, prnum, parent_sha, False)
 
 
 class Revisions:
@@ -968,6 +1038,27 @@ class PRs:
             ','.join(map(str, cls.UPDATED_PRS))))
 
 
+class JSONUpdater:
+    def run():
+        revs = Revisions.get_cache()
+        prs = PRs.get_cache()
+
+        for rev in revs:
+            RevisionRenderer.update_json(rev['hash'], None)
+
+        for pr in prs:
+            RevisionRenderer.update_json(pr['head'], pr['number'])
+
+        for rev in revs:
+            parent = rev['parents'].split(' ')[0]
+            RevisionRenderer.update_parent_json(rev['hash'], None, parent)
+
+        for pr in prs:
+            parent = PRInfo.parents(pr)[0]:
+            RevisionRenderer.update_parent_json(pr['head'], pr['number'],
+                                                prent)
+
+
 class Bootstrap:
     def run():
         has_new = False
@@ -1108,6 +1199,8 @@ elif args.command == 'pr':
             Revisions.update_cache()
 elif args.command == 'prs':
     PRs.update_cache()
+elif args.command == 'update-json':
+    JSONUpdater.run()
 elif args.command == 'bootstrap':
     Bootstrap.run()
 elif args.command == 'gc':
