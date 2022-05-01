@@ -2124,13 +2124,27 @@ class Comparator extends Base {
         return;
       }
 
-      const to = prdata.head.sha;
-      const from = prdata.base.sha;
+      if (!prdata.merged) {
+        this.messageOverlay.classList.add("shown");
+        this.messageBox.textContent = `This PR wasn't merged`;
+        document.documentElement.classList.add("help");
 
-      await this.updateUI("from-to", {
-        from,
+        return;
+      }
+
+      const rev = prdata.merge_commit_sha;
+
+      if (!(rev in this.revMap)) {
+        this.messageOverlay.classList.add("shown");
+        this.messageBox.textContent = `Merge commit (${rev}) are not found`;
+        document.documentElement.classList.add("help");
+
+        return;
+      }
+
+      await this.updateUI("rev", {
+        rev,
         section: undefined,
-        to,
       });
 
       this.messageBox.textContent = "";
