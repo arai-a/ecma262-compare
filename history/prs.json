@@ -1,8 +1,28 @@
 [
  {
   "base": "714fa3dd1e8237ae9c666146270f81880089eca5",
+  "created_at": "2022-05-01T13:47:11Z",
+  "head": "d48ae4353d5e1b9c4cc9486c1cbf3f1233975d9f",
+  "login": "linusg",
+  "number": 2760,
+  "ref": "meta-update-pr-template",
+  "revs": [
+   {
+    "adate": "2022-05-01T14:55:59+02:00",
+    "author": "Linus Groh",
+    "date": "2022-05-01T14:55:59+02:00",
+    "hash": "d48ae4353d5e1b9c4cc9486c1cbf3f1233975d9f",
+    "parents": "e090868e821c8f236b4106838ce586cfd2f954cc",
+    "subject": "Meta: Update URLs to WebIDL spec/issue tracker in pull request template"
+   }
+  ],
+  "title": "Meta: Update URLs to WebIDL spec/issue tracker in pull request template",
+  "updated_at": "2022-05-01T13:47:11Z"
+ },
+ {
+  "base": "714fa3dd1e8237ae9c666146270f81880089eca5",
   "created_at": "2022-05-01T12:52:58Z",
-  "head": "ac376519cedfd313777129143ad7cc3dcfec879d",
+  "head": "1dca8c0b4a8d025074c4f79d6b365ad1676ba402",
   "login": "linusg",
   "number": 2759,
   "ref": "editorial-update-createnonenumerabledataproperty",
@@ -10,30 +30,30 @@
    {
     "adate": "2022-05-01T14:45:16+02:00",
     "author": "Linus Groh",
-    "date": "2022-05-01T14:48:43+02:00",
-    "hash": "ac376519cedfd313777129143ad7cc3dcfec879d",
-    "parents": "9f141383d7753131fe02c7431db4caefb04b0e1c",
+    "date": "2022-05-01T16:04:17+02:00",
+    "hash": "1dca8c0b4a8d025074c4f79d6b365ad1676ba402",
+    "parents": "6cbb0035969b439e5b7d4c3fbd41ed2946d1143f",
     "subject": "Editorial: Call [[DefineOwnProperty]] in CreateNonEnumerableDataProperty"
    },
    {
     "adate": "2022-05-01T14:36:23+02:00",
     "author": "Linus Groh",
-    "date": "2022-05-01T14:48:42+02:00",
-    "hash": "9f141383d7753131fe02c7431db4caefb04b0e1c",
-    "parents": "6741e45aefc02e2341cb06fa09d4ee2b36361a1e",
+    "date": "2022-05-01T16:04:17+02:00",
+    "hash": "6cbb0035969b439e5b7d4c3fbd41ed2946d1143f",
+    "parents": "4aa30c5a8bde0746fccd55d889d74bc33c9cb70f",
     "subject": "Editorial: Correct notes in Create{Method,NonEnumerableData}Property"
    },
    {
     "adate": "2022-05-01T14:31:56+02:00",
     "author": "Linus Groh",
-    "date": "2022-05-01T14:48:42+02:00",
-    "hash": "6741e45aefc02e2341cb06fa09d4ee2b36361a1e",
-    "parents": "e090868e821c8f236b4106838ce586cfd2f954cc",
+    "date": "2022-05-01T16:04:17+02:00",
+    "hash": "4aa30c5a8bde0746fccd55d889d74bc33c9cb70f",
+    "parents": "714fa3dd1e8237ae9c666146270f81880089eca5",
     "subject": "Editorial: Drop 'OrThrow' from CreateNonEnumerableDataPropertyOrThrow"
    }
   ],
   "title": "Editorial: Drop 'OrThrow' from CreateNonEnumerableDataPropertyOrThrow + some small changes",
-  "updated_at": "2022-05-01T12:52:58Z"
+  "updated_at": "2022-05-01T14:11:51Z"
  },
  {
   "base": "f6ddcadfa294c915e2daaaa6b75bce097e0fcf5b",
