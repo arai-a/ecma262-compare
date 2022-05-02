@@ -12,6 +12,8 @@ import subprocess
 import sys
 import urllib.request
 
+JSON_VERSION = '1'
+
 def test_if_non_bmp_supported_by_lxml():
     import lxml.html
     import lxml.etree
@@ -546,6 +548,7 @@ class SectionsExtractor:
         sec_data = cls.__to_data(dom, sec_list, sec_num_map, sec_title_map)
 
         return {
+            'VERSION': JSON_VERSION,
             'secList': sec_list,
             'secTree': sec_tree,
             'secData': sec_data,
@@ -603,6 +606,7 @@ class SectionsComparator:
             cls.filter_fig_data(diff_to_sec_data, to_sec_data['figData'])
 
         return {
+            'VERSION': JSON_VERSION,
             'from': {
                 'secList': diff_from_sec_list,
                 'secTree': from_sec_tree,
@@ -754,11 +758,17 @@ class RevisionRenderer:
 
         return True
 
-    def __json(sha, prnum, skip_cache):
+    def __json(sha, prnum, skip_cache, check_version):
         sections_path = Paths.sections_path(sha, prnum)
         if not skip_cache and os.path.exists(sections_path):
             Logger.info('skip {} (cached)'.format(sections_path))
             return False
+
+        if check_version and os.path.exists(sections_path):
+            data = FileUtils.read_json_gz(sections_path)
+            if 'VERSION' in data and data['VERSION'] == JSON_VERSION:
+                Logger.info('skip {} (same version)'.format(sections_path))
+                return False
 
         Logger.info(sections_path)
 
@@ -769,7 +779,7 @@ class RevisionRenderer:
 
         return True
 
-    def __parent_json(sha, prnum, parent, skip_cache):
+    def __parent_json(sha, prnum, parent, skip_cache, check_version):
         parent_diff_path = Paths.parent_diff_path(sha, prnum)
         if not skip_cache and os.path.exists(parent_diff_path):
             Logger.info('skip {} (cached)'.format(parent_diff_path))
@@ -783,6 +793,15 @@ class RevisionRenderer:
         if not os.path.exists(parent_sections_path):
             Logger.info('{} not found'.format(parent_sections_path))
             return False
+
+        if check_version and os.path.exists(parent_diff_path):
+            try:
+                data = FileUtils.read_json_gz(parent_diff_path)
+                if 'VERSION' in data and data['VERSION'] == JSON_VERSION:
+                    Logger.info('skip {} (same version)'.format(parent_diff_path))
+                    return False
+            except:
+                pass
 
         Logger.info(parent_diff_path)
 
@@ -809,7 +828,7 @@ class RevisionRenderer:
 
         try:
             updated1 = cls.__html(sha, prnum, skip_cache)
-            updated2 = cls.__json(sha, prnum, skip_cache)
+            updated2 = cls.__json(sha, prnum, skip_cache, False)
             return updated1 or updated2
         except BuildFailureException:
             LocalRepository.reset()
@@ -820,7 +839,7 @@ class RevisionRenderer:
 
     @classmethod
     def run_parent(cls, sha, prnum, parent_sha, skip_cache):
-        return cls.__parent_json(sha, prnum, parent_sha, skip_cache)
+        return cls.__parent_json(sha, prnum, parent_sha, skip_cache, False)
 
     @classmethod
     def update_json(cls, sha, prnum):
@@ -828,11 +847,11 @@ class RevisionRenderer:
             Logger.info('Skipping broken revision {}'.format(sha))
             return False
 
-        cls.__json(sha, prnum, False)
+        cls.__json(sha, prnum, True, True)
 
     @classmethod
     def update_parent_json(cls, sha, prnum, parent_sha):
-        return cls.__parent_json(sha, prnum, parent_sha, False)
+        return cls.__parent_json(sha, prnum, parent_sha, True, True)
 
 
 class Revisions:
@@ -1039,24 +1058,54 @@ class PRs:
 
 
 class JSONUpdater:
-    def run():
+    def run(target, chunk, total_chunks):
         revs = Revisions.get_cache()
         prs = PRs.get_cache()
 
+        rev_dict = dict()
         for rev in revs:
-            RevisionRenderer.update_json(rev['hash'], None)
+            rev_dict[rev['hash']] = True
 
-        for pr in prs:
-            RevisionRenderer.update_json(pr['head'], pr['number'])
+        if target in ['both', 'sections']:
+            i = 0
+            for rev in revs:
+                if (i % total_chunks) + 1 != chunk:
+                    i += 1
+                    continue
+                i += 1
+                RevisionRenderer.update_json(rev['hash'], None)
 
-        for rev in revs:
-            parent = rev['parents'].split(' ')[0]
-            RevisionRenderer.update_parent_json(rev['hash'], None, parent)
+            i = 0
+            for pr in prs:
+                if (i % total_chunks) + 1 != chunk:
+                    i += 1
+                    continue
+                i += 1
+                RevisionRenderer.update_json(pr['head'], pr['number'])
 
-        for pr in prs:
-            parent = PRInfo.parents(pr)[0]:
-            RevisionRenderer.update_parent_json(pr['head'], pr['number'],
-                                                prent)
+        if target in ['both', 'parent_diff']:
+            i = 0
+            for rev in revs:
+                if (i % total_chunks) + 1 != chunk:
+                    i += 1
+                    continue
+                i += 1
+                parent = rev['parents'].split(' ')[0]
+                if parent not in rev_dict:
+                    continue
+                RevisionRenderer.update_parent_json(rev['hash'], None, parent)
+
+            i = 0
+            for pr in prs:
+                if (i % total_chunks) + 1 != chunk:
+                    i += 1
+                    continue
+                i += 1
+                parent = PRInfo.parents(pr)[0]
+                if parent not in rev_dict:
+                    continue
+                RevisionRenderer.update_parent_json(pr['head'], pr['number'],
+                                                    parent)
 
 
 class Bootstrap:
@@ -1162,6 +1211,15 @@ parser_pr.add_argument('-c', type=int,
                        help='Maximum number of PRs to handle')
 subparsers.add_parser('prs',
                       help='Update prs.json')
+parser_json = subparsers.add_parser('update-json',
+                      help='Update sections.json.gz and parent_diff.json.gz for all revisions and PRs')
+parser_json.add_argument('-c', type=int, default=1,
+                         help='Number of chunks')
+parser_json.add_argument('-i', type=int, default=1,
+                         help='Chunk index')
+parser_json.add_argument('-t', choices=['both', 'sections', 'parent_diff'],
+                         default='both',
+                         help='Target')
 subparsers.add_parser('bootstrap',
                       help='Perform bootstrap for CI')
 subparsers.add_parser('gc',
@@ -1200,7 +1258,7 @@ elif args.command == 'pr':
 elif args.command == 'prs':
     PRs.update_cache()
 elif args.command == 'update-json':
-    JSONUpdater.run()
+    JSONUpdater.run(args.t, args.i, args.c)
 elif args.command == 'bootstrap':
     Bootstrap.run()
 elif args.command == 'gc':
