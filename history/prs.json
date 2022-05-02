@@ -1,6 +1,26 @@
 [
  {
   "base": "714fa3dd1e8237ae9c666146270f81880089eca5",
+  "created_at": "2022-05-02T15:09:32Z",
+  "head": "f16f031bd23e552109343c59dd7de7abb5522992",
+  "login": "linusg",
+  "number": 2764,
+  "ref": "editorial-env-record-concrete-methods",
+  "revs": [
+   {
+    "adate": "2022-05-02T17:08:21+02:00",
+    "author": "Linus Groh",
+    "date": "2022-05-02T17:29:16+02:00",
+    "hash": "f16f031bd23e552109343c59dd7de7abb5522992",
+    "parents": "714fa3dd1e8237ae9c666146270f81880089eca5",
+    "subject": "Editorial: Mark concrete method calls of Environment Records with ?/!"
+   }
+  ],
+  "title": "Editorial: Mark concrete method calls of Environment Records with ?/!",
+  "updated_at": "2022-05-02T16:01:38Z"
+ },
+ {
+  "base": "714fa3dd1e8237ae9c666146270f81880089eca5",
   "created_at": "2022-05-01T13:47:11Z",
   "head": "d98a84f74ee986e0fefb66a9e9216eda910cc912",
   "login": "linusg",
