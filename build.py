@@ -530,6 +530,8 @@ class SectionsExtractor:
 
     @classmethod
     def extract(cls, html):
+        global is_non_bmp_supported_by_lxml
+
         import lxml.html
 
         if is_non_bmp_supported_by_lxml is None:
