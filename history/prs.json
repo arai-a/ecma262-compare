@@ -1,6 +1,26 @@
 [
  {
   "base": "714fa3dd1e8237ae9c666146270f81880089eca5",
+  "created_at": "2022-05-02T16:36:29Z",
+  "head": "ce4eaf1768a695f09c4dbd0b938bda9d845ecd5b",
+  "login": "linusg",
+  "number": 2765,
+  "ref": "editorial-fix-accessor-descriptor-check",
+  "revs": [
+   {
+    "adate": "2022-05-02T18:36:29+02:00",
+    "author": "Linus Groh",
+    "date": "2022-05-02T18:36:29+02:00",
+    "hash": "ce4eaf1768a695f09c4dbd0b938bda9d845ecd5b",
+    "parents": "714fa3dd1e8237ae9c666146270f81880089eca5",
+    "subject": "Editorial: Fix descriptor kind check in ValidateAndApplyPropertyDescriptor"
+   }
+  ],
+  "title": "Editorial: Fix descriptor kind check in ValidateAndApplyPropertyDescriptor",
+  "updated_at": "2022-05-02T16:42:44Z"
+ },
+ {
+  "base": "714fa3dd1e8237ae9c666146270f81880089eca5",
   "created_at": "2022-05-02T15:09:32Z",
   "head": "f16f031bd23e552109343c59dd7de7abb5522992",
   "login": "linusg",
