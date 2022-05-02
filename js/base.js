@@ -154,8 +154,8 @@ class DateUtils {
 class Base {
   async loadResources() {
     [this.revs, this.prs] = await Promise.all([
-      this.getJSON("./history/revs.json"),
-      this.getJSON("./history/prs.json"),
+      this.getJSON(`./history/revs.json?${Date.now()}`),
+      this.getJSON(`./history/prs.json?${Date.now()}`),
     ]);
 
     this.revMap = {};

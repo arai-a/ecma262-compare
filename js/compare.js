@@ -5,6 +5,8 @@
 const REPO_URL = "https://github.com/tc39/ecma262";
 const REPO_API_URL = "https://api.github.com/repos/tc39/ecma262";
 
+const JSON_VERSION = "1";
+
 function sleep(t) {
   return new Promise(r => setTimeout(r, t));
 }
@@ -479,6 +481,12 @@ class Comparator extends Base {
 
     // The `sections.json` data for the currently selected "to" revision.
     this.toSecData = {};
+
+    // The cache of converted this.fromSecData.secTree.
+    this.fromSecTree = null;
+
+    // The cache of converted this.toSecData.secTree.
+    this.toSecTree = null;
 
     // `True` if diff calculation is ongoing.
     this.processing = false;
@@ -1016,10 +1024,13 @@ class Comparator extends Base {
     let found = false;
     const toHash = this.toRev.value;
     if (!this.secAll.checked && this.getParentOf(toHash) === this.fromRev.value) {
-      const result = await this.getJSON_GZ(`./history/${toHash}/parent_diff.json.gz`);
+      const result = await this.getJSON_GZ(`./history/${toHash}/parent_diff.json.gz?${JSON_VERSION}`);
       if (result) {
         this.fromSecData = result.from;
         this.toSecData = result.to;
+
+        this.fromSecTree = null;
+        this.toSecTree = null;
         found = true;
       }
     }
@@ -1204,7 +1215,7 @@ class Comparator extends Base {
   }
 
   async getSecData(hash) {
-    return this.getJSON_GZ(`./history/${hash}/sections.json.gz`);
+    return this.getJSON_GZ(`./history/${hash}/sections.json.gz?${JSON_VERSION}`);
   }
 
   // Returns a string representation of section number+title that is comparable
@@ -1543,8 +1554,13 @@ class Comparator extends Base {
           box.replaceWith(workBox);
           box = workBox;
         } else {
-          box = workBox;
-          this.result.appendChild(box);
+          box = this.getNearestExcludedInnerBox(id, type);
+          if (box) {
+            box.appendChild(workBox);
+          } else {
+            box = workBox;
+            this.result.appendChild(box);
+          }
         }
       } else {
         box = document.getElementById(`excluded-${id}`);
@@ -1552,9 +1568,16 @@ class Comparator extends Base {
           box.id = "";
           box.innerHTML = HTML;
         } else {
-          box = document.createElement("div");
-          box.innerHTML = HTML;
-          this.result.appendChild(box);
+          box = this.getNearestExcludedInnerBox(id, type);
+          if (box) {
+            const tmpBox = document.createElement("div");
+            tmpBox.innerHTML = HTML;
+            box.appendChild(tmpBox);
+          } else {
+            const tmpBox = document.createElement("div");
+            tmpBox.innerHTML = HTML;
+            this.result.appendChild(tmpBox);
+          }
         }
       }
       const fixupResult = this.fixupExcluded(type, box);
@@ -1574,6 +1597,75 @@ class Comparator extends Base {
     this.setStat("");
 
     this.processing = false;
+  }
+
+  convertSecTreeNode(node, parent, map) {
+    const result = {
+      id: node[0],
+      children: [],
+      parent,
+    };
+    map.set(result.id, result);
+
+    for (const child of node[1]) {
+      result.children.push(this.convertSecTreeNode(child, result, map));
+    }
+    return result;
+  }
+
+  convertSecTree(tree) {
+    const result = {
+      id: "-root-",
+      children: [],
+      parent: null,
+      map: new Map(),
+    };
+
+    for (const child of tree) {
+      result.children.push(this.convertSecTreeNode(child, result, result.map));
+    }
+    return result;
+  }
+
+  findNearestExcluded(id, tree) {
+    const node = tree.map.get(id);
+    if (!node) {
+      return [null, ""];
+    }
+
+    for (let p = node.parent; p; p = p.parent) {
+      const box = document.getElementById(`excluded-${p.id}`);
+      if (box) {
+        return [box, p.id];
+      }
+    }
+
+    return [null, ""];
+  }
+
+  getNearestExcludedInnerBox(id, type) {
+    if (!this.fromSecTree) {
+      this.fromSecTree = this.convertSecTree(this.fromSecData.secTree);
+    }
+    if (!this.toSecTree) {
+      this.toSecTree = this.convertSecTree(this.toSecData.secTree);
+    }
+
+    // NOTE: diff mode uses toSecTree.
+    let tree = type === "from" ? this.fromSecTree : this.toSecTree;
+
+    const [box, box_id] = this.findNearestExcluded(id, this.fromSecTree);
+    if (!box) {
+      return null;
+    }
+    let innerBox = document.getElementById(`inner-${box_id}`);
+    if (!innerBox) {
+      innerBox = document.createElement("div");
+      innerBox.id = `inner-${box_id}`;
+      box.after(innerBox);
+    }
+
+    return innerBox;
   }
 
   async createDiff(box, fromHTML, toHTML) {
