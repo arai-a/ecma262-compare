@@ -23,7 +23,8 @@ def test_if_non_bmp_supported_by_lxml():
     out = lxml.etree.tostring(dom, method='html').decode()
     return source == out
 
-is_non_bmp_supported_by_lxml = test_if_non_bmp_supported_by_lxml()
+# Lazily populate
+is_non_bmp_supported_by_lxml = None
 
 class BuildFailureException(Exception):
     pass
@@ -530,6 +531,9 @@ class SectionsExtractor:
     @classmethod
     def extract(cls, html):
         import lxml.html
+
+        if is_non_bmp_supported_by_lxml is None:
+            is_non_bmp_supported_by_lxml = test_if_non_bmp_supported_by_lxml()
 
         if not is_non_bmp_supported_by_lxml:
             # non-BMP is not supported properly on lxml on M1 mac
