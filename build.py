@@ -538,8 +538,11 @@ class SectionsExtractor:
             is_non_bmp_supported_by_lxml = test_if_non_bmp_supported_by_lxml()
 
         if not is_non_bmp_supported_by_lxml:
-            # non-BMP is not supported properly on lxml on M1 mac
-            # convert to entiry reference manually.
+            # non-BMP is not supported properly on macOS's built-in libxml,
+            # and if lxml is built locally (e.g. on M1 mac), it results in
+            # broken output.
+            #
+            # Convert them to entiry reference manually.
             html = re.sub('[\U00010000-\U0010ffff]',
                           lambda x: '&#' + str(ord(x.group(0))) + ';',
                           html)

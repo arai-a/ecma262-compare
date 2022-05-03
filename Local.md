@@ -8,6 +8,8 @@ $ make init
 
 This creates virtualenv for other commands, and clones https://github.com/tc39/ecma262/ .
 
+WARNING: There's an issue with built-in `libxml` that cannot handle non-BMP characters (UCS-4LE) on macOS, and if `lxml` is built locally (for example on M1 mac, that doesn't have pre-built binary on PyPI), `build.py` works with fallback mode (see `is_non_bmp_supported_by_lxml`)
+
 ## Prepare GitHub API Token
 
 Create `token.json` file with following content (replacing `GITHUB_TOKEN` with your personal access token), to increase the GitHub API access limit.
