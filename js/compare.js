@@ -1568,15 +1568,15 @@ class Comparator extends Base {
           box.id = "";
           box.innerHTML = HTML;
         } else {
-          box = this.getNearestExcludedInnerBox(id, type);
-          if (box) {
-            const tmpBox = document.createElement("div");
-            tmpBox.innerHTML = HTML;
-            box.appendChild(tmpBox);
+          const excludedInner = this.getNearestExcludedInnerBox(id, type);
+          if (excludedInner) {
+            box = document.createElement("div");
+            box.innerHTML = HTML;
+            excludedInner.appendChild(box);
           } else {
-            const tmpBox = document.createElement("div");
-            tmpBox.innerHTML = HTML;
-            this.result.appendChild(tmpBox);
+            box = document.createElement("div");
+            box.innerHTML = HTML;
+            this.result.appendChild(box);
           }
         }
       }
