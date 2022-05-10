@@ -1,6 +1,34 @@
 [
  {
   "base": "656f0cf5dc1f7b8cccd6eef8146c4a037ae9106a",
+  "created_at": "2022-05-10T20:03:32Z",
+  "head": "7f39ada1dd0a789538c5837237cff25b977453aa",
+  "login": "gibson042",
+  "number": 2773,
+  "ref": "2022-05-numeric-string-grammar",
+  "revs": [
+   {
+    "adate": "2022-05-10T16:01:18-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-05-10T16:01:18-04:00",
+    "hash": "7f39ada1dd0a789538c5837237cff25b977453aa",
+    "parents": "f9dbf8cac0b741edf126b42e80216a418c3ffeca",
+    "subject": "Editorial: Make the numeric string grammar summary more similar to other grammars"
+   },
+   {
+    "adate": "2022-05-10T15:58:17-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-05-10T15:58:20-04:00",
+    "hash": "f9dbf8cac0b741edf126b42e80216a418c3ffeca",
+    "parents": "656f0cf5dc1f7b8cccd6eef8146c4a037ae9106a",
+    "subject": "Editorial: Imply semantics for \":::\" grammars"
+   }
+  ],
+  "title": "Editorial: Improve the numeric string grammar summary",
+  "updated_at": "2022-05-10T20:03:45Z"
+ },
+ {
+  "base": "656f0cf5dc1f7b8cccd6eef8146c4a037ae9106a",
   "created_at": "2022-05-09T22:16:54Z",
   "head": "d1812b2b4b9c8a1da903006163f27bf795b722b2",
   "login": "jridgewell",
