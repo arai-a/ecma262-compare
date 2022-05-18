@@ -1,6 +1,26 @@
 [
  {
   "base": "7c120199bf159960d46e216aa090887c1e2e584c",
+  "created_at": "2022-05-18T01:33:47Z",
+  "head": "f9c1d01fb9492b13a6aec88b51aca37cd9497e37",
+  "login": "rbuckton",
+  "number": 2779,
+  "ref": "add-missing-d-flag",
+  "revs": [
+   {
+    "adate": "2022-05-17T18:29:29-07:00",
+    "author": "Ron Buckton",
+    "date": "2022-05-17T18:30:32-07:00",
+    "hash": "f9c1d01fb9492b13a6aec88b51aca37cd9497e37",
+    "parents": "7c120199bf159960d46e216aa090887c1e2e584c",
+    "subject": "Add missing flag character to IsValidRegularExpressionLiteral"
+   }
+  ],
+  "title": "Normative: Add missing `d` flag character to IsValidRegularExpressionLiteral",
+  "updated_at": "2022-05-18T01:47:45Z"
+ },
+ {
+  "base": "7c120199bf159960d46e216aa090887c1e2e584c",
   "created_at": "2022-05-17T14:08:31Z",
   "head": "c2cebc8477bd9e0fe07c3e16e40ab991298ebbf2",
   "login": "acutmore",
