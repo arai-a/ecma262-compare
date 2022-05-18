@@ -1794,11 +1794,19 @@
  {
   "base": "8d9522cc84c1bcedc49e4c9e8272b72615e407cf",
   "created_at": "2021-05-28T11:28:01Z",
-  "head": "2665cf83ba29863ad469f2e0226c114203b35394",
+  "head": "8402aa7da4214fcfb98f582532d650f2264b1219",
   "login": "mathiasbynens",
   "number": 2418,
   "ref": "regexp-v-flag",
   "revs": [
+   {
+    "adate": "2022-05-18T17:34:38+02:00",
+    "author": "Mathias Bynens",
+    "date": "2022-05-18T17:34:38+02:00",
+    "hash": "8402aa7da4214fcfb98f582532d650f2264b1219",
+    "parents": "2665cf83ba29863ad469f2e0226c114203b35394",
+    "subject": "Check for either `u` or `v` flags where applicable (#13)"
+   },
    {
     "adate": "2022-05-05T19:16:33+02:00",
     "author": "Mathias Bynens",
@@ -2113,7 +2121,7 @@
    }
   ],
   "title": "Normative: Add RegExp `v` flag with set notation and properties of strings",
-  "updated_at": "2022-05-05T17:16:35Z"
+  "updated_at": "2022-05-18T15:49:25Z"
  },
  {
   "base": "ada486f269a68f099d378a84254e21bdba0410a7",
