@@ -1,6 +1,58 @@
 [
  {
   "base": "7ae3ecf219bfaa02bb7f6dd1a668f152ff53e846",
+  "created_at": "2022-05-24T18:00:30Z",
+  "head": "ead9d54ed3a435615058d4ea5476dd37080ee26e",
+  "login": "gibson042",
+  "number": 2783,
+  "ref": "2022-05-refactor-raw",
+  "revs": [
+   {
+    "adate": "2022-05-24T13:49:21-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-05-24T13:49:21-04:00",
+    "hash": "ead9d54ed3a435615058d4ea5476dd37080ee26e",
+    "parents": "7b4d42489f1743931b01c74feb8f25926d43c2bf",
+    "subject": "Editorial: Rename aliases in String.raw for clarity and consistency"
+   },
+   {
+    "adate": "2022-05-24T13:34:23-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-05-24T13:34:23-04:00",
+    "hash": "7b4d42489f1743931b01c74feb8f25926d43c2bf",
+    "parents": "c5251cb52d0239ad9d254e78a5bbd3e13237d3ed",
+    "subject": "Editorial: Clarify String.raw substitution handling"
+   },
+   {
+    "adate": "2022-05-24T13:29:41-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-05-24T13:29:41-04:00",
+    "hash": "c5251cb52d0239ad9d254e78a5bbd3e13237d3ed",
+    "parents": "60e3e24e3f794e9a08b7b205689b9ed15d5182c2",
+    "subject": "Editorial: Align String.raw with Array.prototype.join"
+   },
+   {
+    "adate": "2022-05-24T12:59:07-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-05-24T13:17:35-04:00",
+    "hash": "60e3e24e3f794e9a08b7b205689b9ed15d5182c2",
+    "parents": "df65df6c41e05a7a6ebc974314e8872026425a6d",
+    "subject": "Editorial: Refactor String.raw in anticipation of generalization"
+   },
+   {
+    "adate": "2022-05-24T12:50:19-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-05-24T12:50:19-04:00",
+    "hash": "df65df6c41e05a7a6ebc974314e8872026425a6d",
+    "parents": "7ae3ecf219bfaa02bb7f6dd1a668f152ff53e846",
+    "subject": "Editorial: Simplify String.raw by replacing List operations with String operations"
+   }
+  ],
+  "title": "Editorial: Refactor String.raw in anticipation of generalization",
+  "updated_at": "2022-05-24T18:01:25Z"
+ },
+ {
+  "base": "7ae3ecf219bfaa02bb7f6dd1a668f152ff53e846",
   "created_at": "2022-05-20T01:14:09Z",
   "head": "02619ae758b042d163c904d6b48be7d2500d1c40",
   "login": "ptomato",
