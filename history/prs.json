@@ -1,8 +1,8 @@
 [
  {
-  "base": "7c120199bf159960d46e216aa090887c1e2e584c",
+  "base": "7ae3ecf219bfaa02bb7f6dd1a668f152ff53e846",
   "created_at": "2022-05-20T01:14:09Z",
-  "head": "cef812dbd4a65fb20f524f310f5a0364dd6a405f",
+  "head": "02619ae758b042d163c904d6b48be7d2500d1c40",
   "login": "ptomato",
   "number": 2781,
   "ref": "default-time-zone",
@@ -10,14 +10,14 @@
    {
     "adate": "2022-05-19T18:02:22-07:00",
     "author": "Philip Chimento",
-    "date": "2022-05-19T18:21:43-07:00",
-    "hash": "cef812dbd4a65fb20f524f310f5a0364dd6a405f",
+    "date": "2022-05-23T16:39:27-07:00",
+    "hash": "02619ae758b042d163c904d6b48be7d2500d1c40",
     "parents": "7c120199bf159960d46e216aa090887c1e2e584c",
     "subject": "Normative: Use DefaultTimeZone to get the local time zone for Date"
    }
   ],
   "title": "Normative: Use DefaultTimeZone to get the local time zone for Date",
-  "updated_at": "2022-05-20T01:35:22Z"
+  "updated_at": "2022-05-23T23:40:26Z"
  },
  {
   "base": "7c120199bf159960d46e216aa090887c1e2e584c",
@@ -266,26 +266,6 @@
   ],
   "title": "Editorial: Fix descriptor kind check in ValidateAndApplyPropertyDescriptor",
   "updated_at": "2022-05-02T18:38:26Z"
- },
- {
-  "base": "714fa3dd1e8237ae9c666146270f81880089eca5",
-  "created_at": "2022-05-02T15:09:32Z",
-  "head": "f16f031bd23e552109343c59dd7de7abb5522992",
-  "login": "linusg",
-  "number": 2764,
-  "ref": "editorial-env-record-concrete-methods",
-  "revs": [
-   {
-    "adate": "2022-05-02T17:08:21+02:00",
-    "author": "Linus Groh",
-    "date": "2022-05-02T17:29:16+02:00",
-    "hash": "f16f031bd23e552109343c59dd7de7abb5522992",
-    "parents": "714fa3dd1e8237ae9c666146270f81880089eca5",
-    "subject": "Editorial: Mark concrete method calls of Environment Records with ?/!"
-   }
-  ],
-  "title": "Editorial: Mark concrete method calls of Environment Records with ?/!",
-  "updated_at": "2022-05-02T16:01:38Z"
  },
  {
   "base": "714fa3dd1e8237ae9c666146270f81880089eca5",
