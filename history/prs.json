@@ -122,11 +122,19 @@
  {
   "base": "7c120199bf159960d46e216aa090887c1e2e584c",
   "created_at": "2022-05-17T14:08:31Z",
-  "head": "41e11c8ee596d6b49e03cfbbd08ae01ec05de0ed",
+  "head": "3ef1f311ee6e67f11a0c78acde91154b3881a4da",
   "login": "acutmore",
   "number": 2777,
   "ref": "symbols-as-weakmap-keys",
   "revs": [
+   {
+    "adate": "2022-05-25T18:41:18+01:00",
+    "author": "Ashley Claymore",
+    "date": "2022-05-25T18:41:18+01:00",
+    "hash": "3ef1f311ee6e67f11a0c78acde91154b3881a4da",
+    "parents": "41e11c8ee596d6b49e03cfbbd08ae01ec05de0ed",
+    "subject": "Apply suggestions from code review"
+   },
    {
     "adate": "2022-05-18T13:18:55+01:00",
     "author": "Ashley Claymore",
@@ -201,7 +209,7 @@
    }
   ],
   "title": "[Stage 2 Draft] - Symbols as WeakMap keys",
-  "updated_at": "2022-05-18T12:26:24Z"
+  "updated_at": "2022-05-25T17:43:47Z"
  },
  {
   "base": "656f0cf5dc1f7b8cccd6eef8146c4a037ae9106a",
@@ -346,54 +354,6 @@
   ],
   "title": "Editorial: Correct notes in Create{Method,NonEnumerableData}Property ",
   "updated_at": "2022-05-01T15:48:17Z"
- },
- {
-  "base": "f6ddcadfa294c915e2daaaa6b75bce097e0fcf5b",
-  "created_at": "2022-04-27T21:09:22Z",
-  "head": "7f87fd91a5c4e9ad8bc91902fda701f47a2ae2e0",
-  "login": "gibson042",
-  "number": 2757,
-  "ref": "2022-04-comparison-mathematical-values",
-  "revs": [
-   {
-    "adate": "2022-04-27T16:58:20-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-04-27T17:07:10-04:00",
-    "hash": "7f87fd91a5c4e9ad8bc91902fda701f47a2ae2e0",
-    "parents": "fd59bf870d95312ff6eaf380c6fe14e9acc8bc97",
-    "subject": "Editorial: Convert SortCompare output before comparing it against mathematical zero"
-   },
-   {
-    "adate": "2022-04-27T16:56:50-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-04-27T17:05:01-04:00",
-    "hash": "fd59bf870d95312ff6eaf380c6fe14e9acc8bc97",
-    "parents": "f6ddcadfa294c915e2daaaa6b75bce097e0fcf5b",
-    "subject": "Editorial: Specify required localeCompare Number output for canonically equivalent strings"
-   }
-  ],
-  "title": "Editorial: Properly handle comparison results as Number values",
-  "updated_at": "2022-04-27T21:09:22Z"
- },
- {
-  "base": "a8ac2a662a7651092d06383479845e34241ee970",
-  "created_at": "2022-04-27T16:46:54Z",
-  "head": "d0093b4b84771f7702b0edc5a2c4f08c85e8891c",
-  "login": "gibson042",
-  "number": 2755,
-  "ref": "2022-04-missing-vs",
-  "revs": [
-   {
-    "adate": "2022-04-27T12:46:26-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-04-27T12:46:26-04:00",
-    "hash": "d0093b4b84771f7702b0edc5a2c4f08c85e8891c",
-    "parents": "a8ac2a662a7651092d06383479845e34241ee970",
-    "subject": "Editorial: Add missing preposition"
-   }
-  ],
-  "title": "Editorial: Add missing preposition",
-  "updated_at": "2022-04-27T16:46:54Z"
  },
  {
   "base": "c2edb328a457b4960fe174908efaaa0f31ea45a5",
