@@ -432,40 +432,40 @@
   "updated_at": "2022-04-27T23:10:57Z"
  },
  {
-  "base": "e090868e821c8f236b4106838ce586cfd2f954cc",
+  "base": "7ae3ecf219bfaa02bb7f6dd1a668f152ff53e846",
   "created_at": "2022-04-19T18:47:40Z",
-  "head": "1088cdcb4f053f9a79300bc33423e45a7dc60037",
+  "head": "d6464b03e8ce5cc86db5d4c141f911f904ce77b0",
   "login": "gibson042",
   "number": 2747,
   "ref": "2022-04-explicit-getstringindex",
   "revs": [
    {
+    "adate": "2022-05-25T09:31:47-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-05-25T09:32:39-04:00",
+    "hash": "d6464b03e8ce5cc86db5d4c141f911f904ce77b0",
+    "parents": "5dbd0bb9404024b3418a7f5059750147629e7b3a",
+    "subject": "Editorial: Accept suggestions"
+   },
+   {
     "adate": "2022-04-19T14:44:31-04:00",
     "author": "Richard Gibson",
-    "date": "2022-04-19T14:44:31-04:00",
-    "hash": "1088cdcb4f053f9a79300bc33423e45a7dc60037",
-    "parents": "a7ef2cfe494079c2817350bb5e7f21cf69b878ff",
+    "date": "2022-05-25T09:32:39-04:00",
+    "hash": "5dbd0bb9404024b3418a7f5059750147629e7b3a",
+    "parents": "961dca22539e7c1f2730b2d12a16e99d73503b35",
     "subject": "Editorial: Make an alias name more clear"
    },
    {
     "adate": "2022-04-19T14:42:04-04:00",
     "author": "Richard Gibson",
-    "date": "2022-04-19T14:42:04-04:00",
-    "hash": "a7ef2cfe494079c2817350bb5e7f21cf69b878ff",
-    "parents": "ec6bf0bb596fb245c920106715707312d5750dcf",
+    "date": "2022-05-25T09:32:39-04:00",
+    "hash": "961dca22539e7c1f2730b2d12a16e99d73503b35",
+    "parents": "7ae3ecf219bfaa02bb7f6dd1a668f152ff53e846",
     "subject": "Editorial: Make the steps of GetStringIndex more explicit"
-   },
-   {
-    "adate": "2022-04-19T12:14:56-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-04-19T12:14:56-04:00",
-    "hash": "ec6bf0bb596fb245c920106715707312d5750dcf",
-    "parents": "e090868e821c8f236b4106838ce586cfd2f954cc",
-    "subject": "Editorial: Use consistent phrasing for string length"
    }
   ],
   "title": "Editorial: Make the steps of GetStringIndex more explicit",
-  "updated_at": "2022-04-19T18:51:48Z"
+  "updated_at": "2022-05-25T13:48:36Z"
  },
  {
   "base": "714fa3dd1e8237ae9c666146270f81880089eca5",
@@ -778,11 +778,19 @@
  {
   "base": "4f72173f519821597b505a79c0f3a4451fb927e0",
   "created_at": "2022-04-14T15:44:51Z",
-  "head": "cb261456ebf493667cad1222d35f11f0f514b3bc",
+  "head": "79a2a9be9932cd9dacadabd0392b42ac134e30e1",
   "login": "gibson042",
   "number": 2737,
   "ref": "2022-04-string-lessthan",
   "revs": [
+   {
+    "adate": "2022-05-25T09:54:11-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-05-25T09:54:11-04:00",
+    "hash": "79a2a9be9932cd9dacadabd0392b42ac134e30e1",
+    "parents": "cb261456ebf493667cad1222d35f11f0f514b3bc",
+    "subject": "Editorial: Accept suggestions"
+   },
    {
     "adate": "2022-04-14T11:42:29-04:00",
     "author": "Richard Gibson",
@@ -809,7 +817,7 @@
    }
   ],
   "title": "Editorial: Make the steps of IsLessThan for String values more explicit",
-  "updated_at": "2022-04-14T15:44:51Z"
+  "updated_at": "2022-05-25T13:54:28Z"
  },
  {
   "base": "7ae3ecf219bfaa02bb7f6dd1a668f152ff53e846",
