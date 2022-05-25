@@ -934,11 +934,19 @@
  {
   "base": "8d9522cc84c1bcedc49e4c9e8272b72615e407cf",
   "created_at": "2022-03-24T21:56:34Z",
-  "head": "b745b634a4241528a394ab18ba6c6fdd5bb229c5",
+  "head": "30b82629c7b5ba533b1f587943e7f5e5785a5193",
   "login": "gibson042",
   "number": 2711,
   "ref": "2022-03-string-value-consistency",
   "revs": [
+   {
+    "adate": "2022-05-25T10:26:05-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-05-25T10:26:05-04:00",
+    "hash": "30b82629c7b5ba533b1f587943e7f5e5785a5193",
+    "parents": "b745b634a4241528a394ab18ba6c6fdd5bb229c5",
+    "subject": "Editorial: Accept suggestions"
+   },
    {
     "adate": "2022-03-24T17:32:05-04:00",
     "author": "Richard Gibson",
@@ -989,7 +997,7 @@
    }
   ],
   "title": "Editorial: Improve consistency of referring to String values",
-  "updated_at": "2022-03-24T22:00:09Z"
+  "updated_at": "2022-05-25T14:26:13Z"
  },
  {
   "base": "ada486f269a68f099d378a84254e21bdba0410a7",
