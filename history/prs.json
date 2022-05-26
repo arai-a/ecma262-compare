@@ -101,26 +101,6 @@
  },
  {
   "base": "7c120199bf159960d46e216aa090887c1e2e584c",
-  "created_at": "2022-05-18T01:33:47Z",
-  "head": "f9c1d01fb9492b13a6aec88b51aca37cd9497e37",
-  "login": "rbuckton",
-  "number": 2779,
-  "ref": "add-missing-d-flag",
-  "revs": [
-   {
-    "adate": "2022-05-17T18:29:29-07:00",
-    "author": "Ron Buckton",
-    "date": "2022-05-17T18:30:32-07:00",
-    "hash": "f9c1d01fb9492b13a6aec88b51aca37cd9497e37",
-    "parents": "7c120199bf159960d46e216aa090887c1e2e584c",
-    "subject": "Add missing flag character to IsValidRegularExpressionLiteral"
-   }
-  ],
-  "title": "Normative: Add missing `d` flag character to IsValidRegularExpressionLiteral",
-  "updated_at": "2022-05-18T01:47:45Z"
- },
- {
-  "base": "7c120199bf159960d46e216aa090887c1e2e584c",
   "created_at": "2022-05-17T14:08:31Z",
   "head": "3ef1f311ee6e67f11a0c78acde91154b3881a4da",
   "login": "acutmore",
@@ -684,65 +664,21 @@
   "updated_at": "2022-04-28T03:56:25Z"
  },
  {
-  "base": "a8ac2a662a7651092d06383479845e34241ee970",
-  "created_at": "2022-04-14T16:14:09Z",
-  "head": "5dccb2c14e6b8d19b92c1b610534ff91f32a6ae9",
-  "login": "gibson042",
-  "number": 2739,
-  "ref": "2022-04-simplify-GetSubstitution",
-  "revs": [
-   {
-    "adate": "2022-04-14T17:33:51-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-04-26T18:32:22-04:00",
-    "hash": "5dccb2c14e6b8d19b92c1b610534ff91f32a6ae9",
-    "parents": "2fa723086d55a1e22739c9c0dea709ed235ec8ca",
-    "subject": "Editorial: Improve an inequality"
-   },
-   {
-    "adate": "2022-04-14T17:27:40-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-04-26T18:32:22-04:00",
-    "hash": "2fa723086d55a1e22739c9c0dea709ed235ec8ca",
-    "parents": "a139ec09f0bac5f9b8f066452b1ed228aada81e9",
-    "subject": "Editorial: Introduce an alias"
-   },
-   {
-    "adate": "2022-04-14T12:08:45-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-04-26T18:32:22-04:00",
-    "hash": "a139ec09f0bac5f9b8f066452b1ed228aada81e9",
-    "parents": "f433a6971c5e10936e703cfcee05a619234533c3",
-    "subject": "Editorial: Make an alias name more clear"
-   },
-   {
-    "adate": "2022-04-14T12:04:13-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-04-26T18:32:22-04:00",
-    "hash": "f433a6971c5e10936e703cfcee05a619234533c3",
-    "parents": "129dc47773efd34c0b46f74122807cb6cab670f8",
-    "subject": "Editorial: Combine out-of-bounds index branches in GetSubstitution"
-   },
-   {
-    "adate": "2022-04-14T11:57:16-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-04-26T18:32:22-04:00",
-    "hash": "129dc47773efd34c0b46f74122807cb6cab670f8",
-    "parents": "a8ac2a662a7651092d06383479845e34241ee970",
-    "subject": "Editorial: Remove an unnecessary \"for each\" step from GetSubstitution"
-   }
-  ],
-  "title": "Editorial: Simplify GetSubstitution",
-  "updated_at": "2022-04-26T22:34:20Z"
- },
- {
   "base": "4f72173f519821597b505a79c0f3a4451fb927e0",
   "created_at": "2022-04-14T15:44:51Z",
-  "head": "79a2a9be9932cd9dacadabd0392b42ac134e30e1",
+  "head": "fbf5721c531871c1d4e450c5c78302553140f9e2",
   "login": "gibson042",
   "number": 2737,
   "ref": "2022-04-string-lessthan",
   "revs": [
+   {
+    "adate": "2022-05-26T03:26:38-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-05-26T03:26:38-04:00",
+    "hash": "fbf5721c531871c1d4e450c5c78302553140f9e2",
+    "parents": "79a2a9be9932cd9dacadabd0392b42ac134e30e1",
+    "subject": "Editorial: Remove unused IsStringPrefix operation"
+   },
    {
     "adate": "2022-05-25T09:54:11-04:00",
     "author": "Richard Gibson",
@@ -777,7 +713,7 @@
    }
   ],
   "title": "Editorial: Make the steps of IsLessThan for String values more explicit",
-  "updated_at": "2022-05-25T13:54:28Z"
+  "updated_at": "2022-05-26T07:26:49Z"
  },
  {
   "base": "7ae3ecf219bfaa02bb7f6dd1a668f152ff53e846",
