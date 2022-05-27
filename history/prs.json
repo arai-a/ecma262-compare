@@ -102,11 +102,35 @@
  {
   "base": "7c120199bf159960d46e216aa090887c1e2e584c",
   "created_at": "2022-05-17T14:08:31Z",
-  "head": "3ef1f311ee6e67f11a0c78acde91154b3881a4da",
+  "head": "59c5105eaff4a698db8c1c9db667de384441542f",
   "login": "acutmore",
   "number": 2777,
   "ref": "symbols-as-weakmap-keys",
   "revs": [
+   {
+    "adate": "2022-05-27T14:38:03+01:00",
+    "author": "Ashley Claymore",
+    "date": "2022-05-27T14:38:03+01:00",
+    "hash": "59c5105eaff4a698db8c1c9db667de384441542f",
+    "parents": "0559815ae7c66ebc6d9fa1e53369605277fbe0c6",
+    "subject": "explicitly state that well-known symbols are 'live'"
+   },
+   {
+    "adate": "2022-05-27T14:31:15+01:00",
+    "author": "Ashley Claymore",
+    "date": "2022-05-27T14:31:15+01:00",
+    "hash": "0559815ae7c66ebc6d9fa1e53369605277fbe0c6",
+    "parents": "86a1f38884cb2d0975747a322a1667658ee83a64",
+    "subject": "fix refs"
+   },
+   {
+    "adate": "2022-05-27T14:22:45+01:00",
+    "author": "Ashley Claymore",
+    "date": "2022-05-27T14:22:45+01:00",
+    "hash": "86a1f38884cb2d0975747a322a1667658ee83a64",
+    "parents": "3ef1f311ee6e67f11a0c78acde91154b3881a4da",
+    "subject": "always say 'object' before 'symbol'"
+   },
    {
     "adate": "2022-05-25T18:41:18+01:00",
     "author": "Ashley Claymore",
@@ -189,7 +213,7 @@
    }
   ],
   "title": "[Stage 2 Draft] - Symbols as WeakMap keys",
-  "updated_at": "2022-05-25T17:43:47Z"
+  "updated_at": "2022-05-27T13:38:17Z"
  },
  {
   "base": "656f0cf5dc1f7b8cccd6eef8146c4a037ae9106a",
@@ -662,58 +686,6 @@
   ],
   "title": "Editorial: Make `Evaluation` more like regular SDOs",
   "updated_at": "2022-04-28T03:56:25Z"
- },
- {
-  "base": "4f72173f519821597b505a79c0f3a4451fb927e0",
-  "created_at": "2022-04-14T15:44:51Z",
-  "head": "fbf5721c531871c1d4e450c5c78302553140f9e2",
-  "login": "gibson042",
-  "number": 2737,
-  "ref": "2022-04-string-lessthan",
-  "revs": [
-   {
-    "adate": "2022-05-26T03:26:38-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-05-26T03:26:38-04:00",
-    "hash": "fbf5721c531871c1d4e450c5c78302553140f9e2",
-    "parents": "79a2a9be9932cd9dacadabd0392b42ac134e30e1",
-    "subject": "Editorial: Remove unused IsStringPrefix operation"
-   },
-   {
-    "adate": "2022-05-25T09:54:11-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-05-25T09:54:11-04:00",
-    "hash": "79a2a9be9932cd9dacadabd0392b42ac134e30e1",
-    "parents": "cb261456ebf493667cad1222d35f11f0f514b3bc",
-    "subject": "Editorial: Accept suggestions"
-   },
-   {
-    "adate": "2022-04-14T11:42:29-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-04-14T11:42:29-04:00",
-    "hash": "cb261456ebf493667cad1222d35f11f0f514b3bc",
-    "parents": "8439e309e32bd5bba576396fb2656b3038588d2f",
-    "subject": "Editorial: Improve the note describing IsLessThan for String values"
-   },
-   {
-    "adate": "2022-04-14T11:25:08-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-04-14T11:25:08-04:00",
-    "hash": "8439e309e32bd5bba576396fb2656b3038588d2f",
-    "parents": "1c1369b42e112455c69fc144c39c5613e0157841",
-    "subject": "Editorial: Improve alias names in the steps of IsLessThan for String values"
-   },
-   {
-    "adate": "2022-04-14T11:20:42-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-04-14T11:20:42-04:00",
-    "hash": "1c1369b42e112455c69fc144c39c5613e0157841",
-    "parents": "db572a0aa34c8d54b57f33b4c1d68b650c90b45b",
-    "subject": "Editorial: Make the steps of IsLessThan for String values more explicit"
-   }
-  ],
-  "title": "Editorial: Make the steps of IsLessThan for String values more explicit",
-  "updated_at": "2022-05-26T07:26:49Z"
  },
  {
   "base": "7ae3ecf219bfaa02bb7f6dd1a668f152ff53e846",
