@@ -2,11 +2,19 @@
  {
   "base": "4ec3cd3524281de65a69370a5370f5f3f0914030",
   "created_at": "2022-05-30T15:35:40Z",
-  "head": "8b1dfc585242f54cf6836ec698d54ff086abb310",
+  "head": "85eec61e2a149492bbf5dabaa312d8c56ce4edc5",
   "login": "gibson042",
   "number": 2787,
   "ref": "2022-05-code-point-typos",
   "revs": [
+   {
+    "adate": "2022-05-30T14:32:46-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-05-30T14:32:46-04:00",
+    "hash": "85eec61e2a149492bbf5dabaa312d8c56ce4edc5",
+    "parents": "8b1dfc585242f54cf6836ec698d54ff086abb310",
+    "subject": "Editorial: Accept suggestions"
+   },
    {
     "adate": "2022-05-30T11:33:19-04:00",
     "author": "Richard Gibson",
@@ -33,7 +41,7 @@
    }
   ],
   "title": "Editorial: Differentiate code point identity (U+\u2026) from value (MV, usually hex)",
-  "updated_at": "2022-05-30T15:35:40Z"
+  "updated_at": "2022-05-30T18:32:59Z"
  },
  {
   "base": "7ae3ecf219bfaa02bb7f6dd1a668f152ff53e846",
