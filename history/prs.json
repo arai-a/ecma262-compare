@@ -1,6 +1,26 @@
 [
  {
   "base": "4ec3cd3524281de65a69370a5370f5f3f0914030",
+  "created_at": "2022-06-02T20:57:38Z",
+  "head": "7f45c77c3f0fbfbc327e2f60e281c3b3139fbf34",
+  "login": "gibson042",
+  "number": 2791,
+  "ref": "2022-06-check-regexp-by-flags",
+  "revs": [
+   {
+    "adate": "2022-06-02T16:38:28-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-06-02T16:38:28-04:00",
+    "hash": "7f45c77c3f0fbfbc327e2f60e281c3b3139fbf34",
+    "parents": "4ec3cd3524281de65a69370a5370f5f3f0914030",
+    "subject": "Normative: Always check regular expression flags by \"flags\""
+   }
+  ],
+  "title": "Normative: Always check regular expression flags by \"flags\"",
+  "updated_at": "2022-06-02T21:12:57Z"
+ },
+ {
+  "base": "4ec3cd3524281de65a69370a5370f5f3f0914030",
   "created_at": "2022-06-02T05:04:32Z",
   "head": "fbfe5ac16f24aa7fb01ea824f4b2ceb920541ee8",
   "login": "h2oche",
