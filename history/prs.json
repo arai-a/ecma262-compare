@@ -848,96 +848,112 @@
   "updated_at": "2022-05-25T02:37:30Z"
  },
  {
-  "base": "714fa3dd1e8237ae9c666146270f81880089eca5",
+  "base": "4ec3cd3524281de65a69370a5370f5f3f0914030",
   "created_at": "2022-03-30T13:32:57Z",
-  "head": "112ef1a4f24ca99d40c96efa38243353211a8a64",
+  "head": "5567056ee38c73455d50be37a52bb4869d06fa9c",
   "login": "jmdyck",
   "number": 2716,
   "ref": "RegExp_Record",
   "revs": [
    {
+    "adate": "2022-06-02T16:00:25-04:00",
+    "author": "Michael Dyck",
+    "date": "2022-06-02T16:02:08-04:00",
+    "hash": "5567056ee38c73455d50be37a52bb4869d06fa9c",
+    "parents": "c3cd34d30f28f98e1baf1bd20d896208d189e2e2",
+    "subject": "fixup: Fully initialize _rer_ in a single step"
+   },
+   {
+    "adate": "2022-06-02T15:52:46-04:00",
+    "author": "Michael Dyck",
+    "date": "2022-06-02T16:01:24-04:00",
+    "hash": "c3cd34d30f28f98e1baf1bd20d896208d189e2e2",
+    "parents": "e6d724d9a9698b1f095878258ccee80423b6042f",
+    "subject": "fixup: Eliminate RegExp Record's [[WordCharacters]] field"
+   },
+   {
     "adate": "2022-05-04T21:24:00-04:00",
     "author": "Michael Dyck",
-    "date": "2022-05-04T21:24:00-04:00",
-    "hash": "112ef1a4f24ca99d40c96efa38243353211a8a64",
-    "parents": "1e856dc7c8700dbddcb1d995eee9c0a1d51ac10c",
+    "date": "2022-06-02T14:20:40-04:00",
+    "hash": "e6d724d9a9698b1f095878258ccee80423b6042f",
+    "parents": "5ef6b7e4ddbf61043f7cc3ce34446ee0f0709893",
     "subject": "fixup: s/characters/elements/ in \"the number of characters in _Input_\" (x5)"
    },
    {
     "adate": "2022-04-20T23:46:33-04:00",
     "author": "Michael Dyck",
-    "date": "2022-04-28T09:40:50-04:00",
-    "hash": "1e856dc7c8700dbddcb1d995eee9c0a1d51ac10c",
-    "parents": "68cefa35210debb248e5c711207f30b8f381d449",
+    "date": "2022-06-02T14:20:40-04:00",
+    "hash": "5ef6b7e4ddbf61043f7cc3ce34446ee0f0709893",
+    "parents": "be3e2ace1c15e30eb93efe99c0f5c041848490cd",
     "subject": "fixup: Change \"[[NcapturingParens]]\" to \"[[CapturingGroupsCount]]\""
    },
    {
     "adate": "2022-04-13T23:29:11-04:00",
     "author": "Michael Dyck",
-    "date": "2022-04-28T09:40:50-04:00",
-    "hash": "68cefa35210debb248e5c711207f30b8f381d449",
-    "parents": "bf15fc69f6fb22850001309145b8c2371c9d1339",
+    "date": "2022-06-02T14:20:40-04:00",
+    "hash": "be3e2ace1c15e30eb93efe99c0f5c041848490cd",
+    "parents": "13ed7d47407ad203a70d3edc64a12f98dc13cbfd",
     "subject": "fixup: Avoid \"_rer_.[[Unicode]]\" when defining \"all characters\""
    },
    {
     "adate": "2022-01-17T00:19:45-05:00",
     "author": "Michael Dyck",
-    "date": "2022-04-28T09:40:50-04:00",
-    "hash": "bf15fc69f6fb22850001309145b8c2371c9d1339",
-    "parents": "450bb40c56716804be58c686d532e58537294681",
+    "date": "2022-06-02T14:20:40-04:00",
+    "hash": "13ed7d47407ad203a70d3edc64a12f98dc13cbfd",
+    "parents": "603699411f27933dc6bda8655d6c70cfd5292936",
     "subject": "Make _Input_ a component of State"
    },
    {
     "adate": "2022-01-16T23:33:14-05:00",
     "author": "Michael Dyck",
-    "date": "2022-04-28T09:40:50-04:00",
-    "hash": "450bb40c56716804be58c686d532e58537294681",
-    "parents": "853f26d11bf574fbd68fe3beab696865fab86599",
+    "date": "2022-06-02T14:20:40-04:00",
+    "hash": "603699411f27933dc6bda8655d6c70cfd5292936",
+    "parents": "a947a7a0d724eafff01f0c05f2e337c49c014ca7",
     "subject": "Pass _Input_ explicitly"
    },
    {
     "adate": "2022-01-16T22:33:32-05:00",
     "author": "Michael Dyck",
-    "date": "2022-04-28T09:40:50-04:00",
-    "hash": "853f26d11bf574fbd68fe3beab696865fab86599",
-    "parents": "4301d49b930e3f9ea0698f09e6e505f13c42a349",
+    "date": "2022-06-02T14:20:40-04:00",
+    "hash": "a947a7a0d724eafff01f0c05f2e337c49c014ca7",
+    "parents": "10ba7810c5d89f8f5541f7a9fb93e7a87e1378cd",
     "subject": "'Calculate' _InputLength_ as needed"
    },
    {
     "adate": "2022-01-15T10:50:57-05:00",
     "author": "Michael Dyck",
-    "date": "2022-04-28T09:40:50-04:00",
-    "hash": "4301d49b930e3f9ea0698f09e6e505f13c42a349",
-    "parents": "de27053fc31f3a0c77c3267b84fb29444ce2b5e6",
+    "date": "2022-06-02T14:20:40-04:00",
+    "hash": "10ba7810c5d89f8f5541f7a9fb93e7a87e1378cd",
+    "parents": "f7035342b1c7870a09c6e0b7a49b23a9c7fdb1ba",
     "subject": "Replace `_NcapturingParens_` with `_rer_.[[NcapturingParens]]`"
    },
    {
     "adate": "2022-01-14T23:56:11-05:00",
     "author": "Michael Dyck",
-    "date": "2022-04-28T09:40:50-04:00",
-    "hash": "de27053fc31f3a0c77c3267b84fb29444ce2b5e6",
-    "parents": "3ab1a40849a85a43727bce70fba2af1252442d62",
+    "date": "2022-06-02T14:20:40-04:00",
+    "hash": "f7035342b1c7870a09c6e0b7a49b23a9c7fdb1ba",
+    "parents": "5d81ed99f02f73c9b8937f0b5e610329f5db64b5",
     "subject": "Replace the `_WordCharacters_` global alias with `_rer_.[[WordCharacters]]`"
    },
    {
     "adate": "2022-01-14T22:32:20-05:00",
     "author": "Michael Dyck",
-    "date": "2022-04-28T09:40:50-04:00",
-    "hash": "3ab1a40849a85a43727bce70fba2af1252442d62",
-    "parents": "74ee50261cde933cc05bb7f91c705ebb26b92f18",
+    "date": "2022-06-02T14:20:40-04:00",
+    "hash": "5d81ed99f02f73c9b8937f0b5e610329f5db64b5",
+    "parents": "f38afe4332e370d148754c77269562622d508c7c",
     "subject": "Replace the 'flag' aliases with fields in RegExp Record"
    },
    {
     "adate": "2022-01-14T22:06:13-05:00",
     "author": "Michael Dyck",
-    "date": "2022-04-28T09:40:50-04:00",
-    "hash": "74ee50261cde933cc05bb7f91c705ebb26b92f18",
-    "parents": "714fa3dd1e8237ae9c666146270f81880089eca5",
+    "date": "2022-06-02T14:20:40-04:00",
+    "hash": "f38afe4332e370d148754c77269562622d508c7c",
+    "parents": "4ec3cd3524281de65a69370a5370f5f3f0914030",
     "subject": "Introduce RegExp Records"
    }
   ],
   "title": "Editorial: Eliminate RegExp's \"global aliases\" ",
-  "updated_at": "2022-05-05T01:32:03Z"
+  "updated_at": "2022-06-02T20:11:50Z"
  },
  {
   "base": "8d9522cc84c1bcedc49e4c9e8272b72615e407cf",
