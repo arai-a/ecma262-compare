@@ -2,11 +2,27 @@
  {
   "base": "4ec3cd3524281de65a69370a5370f5f3f0914030",
   "created_at": "2022-06-02T05:04:32Z",
-  "head": "72033008284369461d258bd287889169d95d9700",
+  "head": "fbfe5ac16f24aa7fb01ea824f4b2ceb920541ee8",
   "login": "h2oche",
   "number": 2790,
   "ref": "consistify-miscellaneous-phrases",
   "revs": [
+   {
+    "adate": "2022-06-02T14:49:56+09:00",
+    "author": "h2oche",
+    "date": "2022-06-02T14:49:56+09:00",
+    "hash": "fbfe5ac16f24aa7fb01ea824f4b2ceb920541ee8",
+    "parents": "7e316a89580f15b5d74a4ce0bd04d86da4c29dc6",
+    "subject": "Editorial: Remove unnecessary prefix 'the String' for string literal"
+   },
+   {
+    "adate": "2022-06-02T14:35:55+09:00",
+    "author": "h2oche",
+    "date": "2022-06-02T14:35:55+09:00",
+    "hash": "7e316a89580f15b5d74a4ce0bd04d86da4c29dc6",
+    "parents": "72033008284369461d258bd287889169d95d9700",
+    "subject": "Editorial: Use consistent wording for appending an element to list"
+   },
    {
     "adate": "2022-06-02T13:57:43+09:00",
     "author": "h2oche",
@@ -41,7 +57,7 @@
    }
   ],
   "title": "Editorial: Consistify miscellaneous phrases",
-  "updated_at": "2022-06-02T05:04:32Z"
+  "updated_at": "2022-06-02T05:50:47Z"
  },
  {
   "base": "4ec3cd3524281de65a69370a5370f5f3f0914030",
