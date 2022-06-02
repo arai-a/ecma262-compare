@@ -870,11 +870,19 @@
  {
   "base": "4ec3cd3524281de65a69370a5370f5f3f0914030",
   "created_at": "2022-03-30T13:32:57Z",
-  "head": "5567056ee38c73455d50be37a52bb4869d06fa9c",
+  "head": "8bc23e95abe6184e5b04c094a550cbfcb770d997",
   "login": "jmdyck",
   "number": 2716,
   "ref": "RegExp_Record",
   "revs": [
+   {
+    "adate": "2022-06-02T18:58:04-04:00",
+    "author": "Michael Dyck",
+    "date": "2022-06-02T18:58:04-04:00",
+    "hash": "8bc23e95abe6184e5b04c094a550cbfcb770d997",
+    "parents": "5567056ee38c73455d50be37a52bb4869d06fa9c",
+    "subject": "fixup: Call CountLeftCapturingParensWithin(_parseResult_) in a separate step"
+   },
    {
     "adate": "2022-06-02T16:00:25-04:00",
     "author": "Michael Dyck",
@@ -973,7 +981,7 @@
    }
   ],
   "title": "Editorial: Eliminate RegExp's \"global aliases\" ",
-  "updated_at": "2022-06-02T20:11:50Z"
+  "updated_at": "2022-06-02T22:59:08Z"
  },
  {
   "base": "8d9522cc84c1bcedc49e4c9e8272b72615e407cf",
