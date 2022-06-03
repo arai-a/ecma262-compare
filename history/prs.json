@@ -1054,11 +1054,27 @@
  {
   "base": "ada486f269a68f099d378a84254e21bdba0410a7",
   "created_at": "2022-03-16T20:31:38Z",
-  "head": "81af862d0872fb4d643c038e6da46a9699dc9dcc",
+  "head": "abc203e67f2de61c8ca00694fb70c320f77a2149",
   "login": "gibson042",
   "number": 2695,
   "ref": "2022-03-buitin-function-tostring-name",
   "revs": [
+   {
+    "adate": "2022-06-03T17:30:07-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-06-03T17:30:07-04:00",
+    "hash": "abc203e67f2de61c8ca00694fb70c320f77a2149",
+    "parents": "03cfd6e2e1a4c90ef52434baa914a73633661967",
+    "subject": "Editorial: Simplify grammar"
+   },
+   {
+    "adate": "2022-06-03T17:14:26-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-06-03T17:14:26-04:00",
+    "hash": "03cfd6e2e1a4c90ef52434baa914a73633661967",
+    "parents": "81af862d0872fb4d643c038e6da46a9699dc9dcc",
+    "subject": "Editorial: Update normative requirements to Assert steps"
+   },
    {
     "adate": "2022-03-16T16:39:55-04:00",
     "author": "Richard Gibson",
@@ -1093,7 +1109,7 @@
    }
   ],
   "title": "Normative: Allow toString of a built-in function to output a computed property name",
-  "updated_at": "2022-03-16T20:40:01Z"
+  "updated_at": "2022-06-03T21:30:43Z"
  },
  {
   "base": "cbd5493ae4d0ad72e4e658e47764638c025c2edf",
