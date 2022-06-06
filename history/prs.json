@@ -850,11 +850,19 @@
  {
   "base": "7ae3ecf219bfaa02bb7f6dd1a668f152ff53e846",
   "created_at": "2022-04-03T03:38:06Z",
-  "head": "2140ce7b02559248005395802f8fe0fed5fcc931",
+  "head": "7bf3f400e5004842633ec1c83f9b8474b756fa75",
   "login": "tc39",
   "number": 2721,
   "ref": "duplicate-named-capture-groups",
   "revs": [
+   {
+    "adate": "2022-06-06T12:50:29-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2022-06-06T12:50:29-07:00",
+    "hash": "7bf3f400e5004842633ec1c83f9b8474b756fa75",
+    "parents": "2140ce7b02559248005395802f8fe0fed5fcc931",
+    "subject": "remove restriction on backreferences across alternatives"
+   },
    {
     "adate": "2022-04-02T20:32:25-07:00",
     "author": "Kevin Gibbons",
@@ -865,7 +873,7 @@
    }
   ],
   "title": "Normative: allow duplicate named capture groups",
-  "updated_at": "2022-05-25T02:37:30Z"
+  "updated_at": "2022-06-06T19:51:56Z"
  },
  {
   "base": "4ec3cd3524281de65a69370a5370f5f3f0914030",
