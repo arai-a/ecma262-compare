@@ -266,11 +266,19 @@
  {
   "base": "7c120199bf159960d46e216aa090887c1e2e584c",
   "created_at": "2022-05-17T14:08:31Z",
-  "head": "eb8774125bed57046f9607b5e54f588d7fc40d78",
+  "head": "e05aa56b3d6863249d4e045e7810fda398ac60f3",
   "login": "acutmore",
   "number": 2777,
   "ref": "symbols-as-weakmap-keys",
   "revs": [
+   {
+    "adate": "2022-06-07T17:23:19+01:00",
+    "author": "Ashley Claymore",
+    "date": "2022-06-07T17:23:19+01:00",
+    "hash": "e05aa56b3d6863249d4e045e7810fda398ac60f3",
+    "parents": "eb8774125bed57046f9607b5e54f588d7fc40d78",
+    "subject": "Apply suggestion from Mathieu"
+   },
    {
     "adate": "2022-06-07T16:09:35+01:00",
     "author": "Ashley Claymore",
@@ -401,7 +409,7 @@
    }
   ],
   "title": "[Stage 2 Draft] - Symbols as WeakMap keys",
-  "updated_at": "2022-06-07T15:09:59Z"
+  "updated_at": "2022-06-07T16:50:45Z"
  },
  {
   "base": "656f0cf5dc1f7b8cccd6eef8146c4a037ae9106a",
