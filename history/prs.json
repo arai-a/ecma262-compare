@@ -894,11 +894,19 @@
  {
   "base": "7ae3ecf219bfaa02bb7f6dd1a668f152ff53e846",
   "created_at": "2022-04-03T03:38:06Z",
-  "head": "50229597ae6dc81323cdaf4659dc0e5dc81e843c",
+  "head": "61e7436a9e2dafdc79b1cc24f4504e4c52ef8bb3",
   "login": "tc39",
   "number": 2721,
   "ref": "duplicate-named-capture-groups",
   "revs": [
+   {
+    "adate": "2022-06-07T11:21:18-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2022-06-07T11:21:18-07:00",
+    "hash": "61e7436a9e2dafdc79b1cc24f4504e4c52ef8bb3",
+    "parents": "50229597ae6dc81323cdaf4659dc0e5dc81e843c",
+    "subject": "simplify per gibson042"
+   },
    {
     "adate": "2022-06-07T08:39:35-07:00",
     "author": "Kevin Gibbons",
@@ -957,7 +965,7 @@
    }
   ],
   "title": "Normative: allow duplicate named capture groups",
-  "updated_at": "2022-06-07T15:39:40Z"
+  "updated_at": "2022-06-07T18:22:57Z"
  },
  {
   "base": "4ec3cd3524281de65a69370a5370f5f3f0914030",
