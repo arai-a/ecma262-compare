@@ -266,11 +266,19 @@
  {
   "base": "7c120199bf159960d46e216aa090887c1e2e584c",
   "created_at": "2022-05-17T14:08:31Z",
-  "head": "2bf4ed60cd1e601d428dc35156c7a3b7e49c4086",
+  "head": "eb8774125bed57046f9607b5e54f588d7fc40d78",
   "login": "acutmore",
   "number": 2777,
   "ref": "symbols-as-weakmap-keys",
   "revs": [
+   {
+    "adate": "2022-06-07T16:09:35+01:00",
+    "author": "Ashley Claymore",
+    "date": "2022-06-07T16:09:35+01:00",
+    "hash": "eb8774125bed57046f9607b5e54f588d7fc40d78",
+    "parents": "2bf4ed60cd1e601d428dc35156c7a3b7e49c4086",
+    "subject": "Revert \"explicitly state that well-known symbols are 'live'\""
+   },
    {
     "adate": "2022-06-01T12:08:17+01:00",
     "author": "Ashley Claymore",
@@ -393,7 +401,7 @@
    }
   ],
   "title": "[Stage 2 Draft] - Symbols as WeakMap keys",
-  "updated_at": "2022-06-01T11:10:15Z"
+  "updated_at": "2022-06-07T15:09:59Z"
  },
  {
   "base": "656f0cf5dc1f7b8cccd6eef8146c4a037ae9106a",
