@@ -1,5 +1,25 @@
 [
  {
+  "base": "f0e4ae8d31afbad55f03d423c200d7d7467ca49a",
+  "created_at": "2022-06-16T13:50:22Z",
+  "head": "f2d38813f7f29f851525e71af37a3e2637656b71",
+  "login": "gibson042",
+  "number": 2799,
+  "ref": "2022-02-iterabletolist-typed",
+  "revs": [
+   {
+    "adate": "2022-06-16T09:40:29-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-06-16T09:48:04-04:00",
+    "hash": "f2d38813f7f29f851525e71af37a3e2637656b71",
+    "parents": "f0e4ae8d31afbad55f03d423c200d7d7467ca49a",
+    "subject": "Editorial: Add an optional type restriction to IterableToList"
+   }
+  ],
+  "title": "Editorial: Add an optional type restriction to IterableToList",
+  "updated_at": "2022-06-16T13:50:22Z"
+ },
+ {
   "base": "affe7d8b7d766c07c1e3abcb587ee4c035e26160",
   "created_at": "2022-06-13T17:40:17Z",
   "head": "e101d19f512b0ebd2f46c52c964688372e3b4029",
@@ -518,26 +538,6 @@
   ],
   "title": "Editorial: Specify Map/Set forEach more explicitly",
   "updated_at": "2022-05-03T16:47:52Z"
- },
- {
-  "base": "affe7d8b7d766c07c1e3abcb587ee4c035e26160",
-  "created_at": "2022-05-02T16:36:29Z",
-  "head": "aaf4d625ddd5779bd8dfab799168e58124c031a4",
-  "login": "linusg",
-  "number": 2765,
-  "ref": "editorial-fix-accessor-descriptor-check",
-  "revs": [
-   {
-    "adate": "2022-05-02T18:36:29+02:00",
-    "author": "Linus Groh",
-    "date": "2022-06-13T11:50:22-07:00",
-    "hash": "aaf4d625ddd5779bd8dfab799168e58124c031a4",
-    "parents": "affe7d8b7d766c07c1e3abcb587ee4c035e26160",
-    "subject": "Editorial: Fix descriptor kind check in ValidateAndApplyPropertyDescriptor"
-   }
-  ],
-  "title": "Editorial: Fix descriptor kind check in ValidateAndApplyPropertyDescriptor",
-  "updated_at": "2022-06-13T19:13:52Z"
  },
  {
   "base": "4ec3cd3524281de65a69370a5370f5f3f0914030",
