@@ -1,6 +1,26 @@
 [
  {
   "base": "f0e4ae8d31afbad55f03d423c200d7d7467ca49a",
+  "created_at": "2022-06-22T15:19:04Z",
+  "head": "c730766ada1b63bf0b3d85112f5e302211491281",
+  "login": "nicolo-ribaudo",
+  "number": 2801,
+  "ref": "import-specifier-string",
+  "revs": [
+   {
+    "adate": "2022-06-22T17:18:30+02:00",
+    "author": "Nicol\u00f2 Ribaudo",
+    "date": "2022-06-22T17:19:42+02:00",
+    "hash": "c730766ada1b63bf0b3d85112f5e302211491281",
+    "parents": "f0e4ae8d31afbad55f03d423c200d7d7467ca49a",
+    "subject": "Editorial: `HostImportModuleDynamically`'s specifier can be any string"
+   }
+  ],
+  "title": "Editorial: `HostImportModuleDynamically`'s specifier can be any string",
+  "updated_at": "2022-06-22T15:19:52Z"
+ },
+ {
+  "base": "f0e4ae8d31afbad55f03d423c200d7d7467ca49a",
   "created_at": "2022-06-17T10:55:52Z",
   "head": "a6bec4bde57b54c36f635f31bcc8d9967ee0901a",
   "login": "F3n67u",
