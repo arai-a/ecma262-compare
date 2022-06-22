@@ -1,6 +1,26 @@
 [
  {
   "base": "f0e4ae8d31afbad55f03d423c200d7d7467ca49a",
+  "created_at": "2022-06-22T23:02:52Z",
+  "head": "dd5ba7fcd6e6ee5b5c9a586a606fc1ccde449bcd",
+  "login": "syg",
+  "number": 2802,
+  "ref": "reword-inheritance",
+  "revs": [
+   {
+    "adate": "2022-06-22T16:01:43-07:00",
+    "author": "Shu-yu Guo",
+    "date": "2022-06-22T16:01:43-07:00",
+    "hash": "dd5ba7fcd6e6ee5b5c9a586a606fc1ccde449bcd",
+    "parents": "f0e4ae8d31afbad55f03d423c200d7d7467ca49a",
+    "subject": "Editorial: Clarify data property inheritance"
+   }
+  ],
+  "title": "Editorial: Clarify data property inheritance",
+  "updated_at": "2022-06-22T23:02:53Z"
+ },
+ {
+  "base": "f0e4ae8d31afbad55f03d423c200d7d7467ca49a",
   "created_at": "2022-06-22T15:19:04Z",
   "head": "c730766ada1b63bf0b3d85112f5e302211491281",
   "login": "nicolo-ribaudo",
@@ -58,26 +78,6 @@
   ],
   "title": "Editorial: Add an optional type restriction to IterableToList",
   "updated_at": "2022-06-16T13:50:22Z"
- },
- {
-  "base": "affe7d8b7d766c07c1e3abcb587ee4c035e26160",
-  "created_at": "2022-06-13T17:40:17Z",
-  "head": "e101d19f512b0ebd2f46c52c964688372e3b4029",
-  "login": "gibson042",
-  "number": 2796,
-  "ref": "2022-06-copydataproperties-exclude-values",
-  "revs": [
-   {
-    "adate": "2022-06-13T13:38:54-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-06-13T13:38:54-04:00",
-    "hash": "e101d19f512b0ebd2f46c52c964688372e3b4029",
-    "parents": "affe7d8b7d766c07c1e3abcb587ee4c035e26160",
-    "subject": "Editorial: Extend CopyDataProperties to support excluding properties by value"
-   }
-  ],
-  "title": "Editorial: Extend CopyDataProperties to support excluding properties by value",
-  "updated_at": "2022-06-13T17:40:17Z"
  },
  {
   "base": "4ec3cd3524281de65a69370a5370f5f3f0914030",
