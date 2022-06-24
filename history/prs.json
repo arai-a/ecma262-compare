@@ -2,7 +2,7 @@
  {
   "base": "f0e4ae8d31afbad55f03d423c200d7d7467ca49a",
   "created_at": "2022-06-24T11:01:16Z",
-  "head": "038bb878b241ce02be1da5d3b32c5cbd0e84b999",
+  "head": "16efbacf3f14cac9709d07ef58790c860f04844c",
   "login": "nicolo-ribaudo",
   "number": 2806,
   "ref": "resolve-imported-module-cache-per-realm",
@@ -10,14 +10,14 @@
    {
     "adate": "2022-06-24T12:38:57+02:00",
     "author": "Nicol\u00f2 Ribaudo",
-    "date": "2022-06-24T12:43:38+02:00",
-    "hash": "038bb878b241ce02be1da5d3b32c5cbd0e84b999",
+    "date": "2022-06-24T19:05:41+02:00",
+    "hash": "16efbacf3f14cac9709d07ef58790c860f04844c",
     "parents": "f0e4ae8d31afbad55f03d423c200d7d7467ca49a",
     "subject": "Clarify that the `HostResolveImportedModule` cache is per-Realm"
    }
   ],
   "title": "Clarify that the `HostResolveImportedModule` cache is per-Realm",
-  "updated_at": "2022-06-24T11:01:16Z"
+  "updated_at": "2022-06-24T17:05:47Z"
  },
  {
   "base": "f0e4ae8d31afbad55f03d423c200d7d7467ca49a",
@@ -1066,26 +1066,6 @@
   ],
   "title": "Normative: allow duplicate named capture groups",
   "updated_at": "2022-06-07T18:22:57Z"
- },
- {
-  "base": "f0e4ae8d31afbad55f03d423c200d7d7467ca49a",
-  "created_at": "2022-03-30T13:32:57Z",
-  "head": "c0cc70588fb2130cb2110cfccda380964041958c",
-  "login": "jmdyck",
-  "number": 2716,
-  "ref": "RegExp_Record",
-  "revs": [
-   {
-    "adate": "2022-01-14T22:06:13-05:00",
-    "author": "Michael Dyck",
-    "date": "2022-06-24T12:54:13-04:00",
-    "hash": "c0cc70588fb2130cb2110cfccda380964041958c",
-    "parents": "4ec3cd3524281de65a69370a5370f5f3f0914030",
-    "subject": "Editorial: Eliminate RegExp's \"global aliases\" (#2716)"
-   }
-  ],
-  "title": "Editorial: Eliminate RegExp's \"global aliases\" ",
-  "updated_at": "2022-06-24T16:57:04Z"
  },
  {
   "base": "8d9522cc84c1bcedc49e4c9e8272b72615e407cf",
