@@ -1,6 +1,26 @@
 [
  {
   "base": "f0e4ae8d31afbad55f03d423c200d7d7467ca49a",
+  "created_at": "2022-06-24T11:01:16Z",
+  "head": "038bb878b241ce02be1da5d3b32c5cbd0e84b999",
+  "login": "nicolo-ribaudo",
+  "number": 2806,
+  "ref": "resolve-imported-module-cache-per-realm",
+  "revs": [
+   {
+    "adate": "2022-06-24T12:38:57+02:00",
+    "author": "Nicol\u00f2 Ribaudo",
+    "date": "2022-06-24T12:43:38+02:00",
+    "hash": "038bb878b241ce02be1da5d3b32c5cbd0e84b999",
+    "parents": "f0e4ae8d31afbad55f03d423c200d7d7467ca49a",
+    "subject": "Clarify that the `HostResolveImportedModule` cache is per-Realm"
+   }
+  ],
+  "title": "Clarify that the `HostResolveImportedModule` cache is per-Realm",
+  "updated_at": "2022-06-24T11:01:16Z"
+ },
+ {
+  "base": "f0e4ae8d31afbad55f03d423c200d7d7467ca49a",
   "created_at": "2022-06-23T13:50:15Z",
   "head": "cbcaef1f8f6127e1fb5fb4e6df2eb181174d1b75",
   "login": "tc39",
