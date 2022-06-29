@@ -1728,13 +1728,21 @@
   "updated_at": "2022-06-02T18:43:03Z"
  },
  {
-  "base": "e090868e821c8f236b4106838ce586cfd2f954cc",
+  "base": "24dc57f66b1152295a1fad076e142e5a9da8d58e",
   "created_at": "2021-11-26T12:06:57Z",
-  "head": "9c68946f2496a3fa66992a9d55993607e6a8c3e8",
+  "head": "6da77f6b6eb84e56c6bc4a99f29b40f6e969ab17",
   "login": "arhadthedev",
   "number": 2590,
   "ref": "npm-run-windows",
   "revs": [
+   {
+    "adate": "2022-06-29T21:08:31+03:00",
+    "author": "Oleg Iarygin",
+    "date": "2022-06-29T21:08:31+03:00",
+    "hash": "6da77f6b6eb84e56c6bc4a99f29b40f6e969ab17",
+    "parents": "9c68946f2496a3fa66992a9d55993607e6a8c3e8 24dc57f66b1152295a1fad076e142e5a9da8d58e",
+    "subject": "Merge branch 'main' into npm-run-windows"
+   },
    {
     "adate": "2022-04-15T21:46:16+03:00",
     "author": "Oleg Iarygin",
@@ -1785,7 +1793,7 @@
    }
   ],
   "title": "Meta: make `npm run build-*` working on Windows",
-  "updated_at": "2022-04-15T18:47:08Z"
+  "updated_at": "2022-06-29T18:08:35Z"
  },
  {
   "base": "7575f745f26e9f66b2be481144f37ac4a8a9f1c4",
