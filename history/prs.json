@@ -2,11 +2,19 @@
  {
   "base": "24dc57f66b1152295a1fad076e142e5a9da8d58e",
   "created_at": "2022-06-26T19:17:52Z",
-  "head": "24fa31acecadbfdb1d883753fed1711453c78f2f",
+  "head": "863bb39a31b3fdcc057e861e258a6b6ebfea2576",
   "login": "tc39",
   "number": 2807,
   "ref": "no-window-private",
   "revs": [
+   {
+    "adate": "2022-07-03T20:32:05-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2022-07-03T20:32:05-07:00",
+    "hash": "863bb39a31b3fdcc057e861e258a6b6ebfea2576",
+    "parents": "24fa31acecadbfdb1d883753fed1711453c78f2f",
+    "subject": "restrict to web browsers"
+   },
    {
     "adate": "2022-06-26T12:09:38-07:00",
     "author": "Kevin Gibbons",
@@ -17,7 +25,7 @@
    }
   ],
   "title": "Normative: allow host exotic objects to reject private fields",
-  "updated_at": "2022-06-26T19:17:52Z"
+  "updated_at": "2022-07-04T03:32:11Z"
  },
  {
   "base": "f0e4ae8d31afbad55f03d423c200d7d7467ca49a",
@@ -38,34 +46,6 @@
   ],
   "title": "Clarify that the `HostResolveImportedModule` cache is per-Realm",
   "updated_at": "2022-06-24T17:05:47Z"
- },
- {
-  "base": "f0e4ae8d31afbad55f03d423c200d7d7467ca49a",
-  "created_at": "2022-06-22T23:02:52Z",
-  "head": "fa21d8e042ef80fdb1ed07beae1ce454961a3c32",
-  "login": "syg",
-  "number": 2802,
-  "ref": "reword-inheritance",
-  "revs": [
-   {
-    "adate": "2022-06-28T17:15:42-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2022-06-28T17:15:42-07:00",
-    "hash": "fa21d8e042ef80fdb1ed07beae1ce454961a3c32",
-    "parents": "dd5ba7fcd6e6ee5b5c9a586a606fc1ccde449bcd",
-    "subject": "Reword"
-   },
-   {
-    "adate": "2022-06-22T16:01:43-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2022-06-22T16:01:43-07:00",
-    "hash": "dd5ba7fcd6e6ee5b5c9a586a606fc1ccde449bcd",
-    "parents": "f0e4ae8d31afbad55f03d423c200d7d7467ca49a",
-    "subject": "Editorial: Clarify data property inheritance"
-   }
-  ],
-  "title": "Editorial: Clarify data property inheritance",
-  "updated_at": "2022-06-29T00:16:43Z"
  },
  {
   "base": "f0e4ae8d31afbad55f03d423c200d7d7467ca49a",
