@@ -1,23 +1,23 @@
 [
  {
-  "base": "f6bec3de382b2c1f11c41cfb96e52d77fbdd73c6",
-  "created_at": "2022-07-05T17:56:24Z",
-  "head": "27b41c77f691762388c792f8092a4cb4e6f026ed",
+  "base": "e61fbe1162d3b6b80848c3535cece3e36f4c08fb",
+  "created_at": "2022-07-06T21:12:41Z",
+  "head": "0374d6a1fcd4f2169e5004f555ea3d0092daa3c8",
   "login": "tc39",
-  "number": 2811,
-  "ref": "link-relations",
+  "number": 2812,
+  "ref": "bigint-conversion",
   "revs": [
    {
-    "adate": "2022-07-05T11:54:36-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-07-05T11:54:36-06:00",
-    "hash": "27b41c77f691762388c792f8092a4cb4e6f026ed",
-    "parents": "f6bec3de382b2c1f11c41cfb96e52d77fbdd73c6",
-    "subject": "Editorial: link plural form of Relation to its dfn site"
+    "adate": "2022-07-06T14:07:46-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2022-07-06T14:07:46-07:00",
+    "hash": "0374d6a1fcd4f2169e5004f555ea3d0092daa3c8",
+    "parents": "24dc57f66b1152295a1fad076e142e5a9da8d58e",
+    "subject": "Normative: only coerce once in BigInt constructor"
    }
   ],
-  "title": "Editorial: link plural form of Relation to its dfn site",
-  "updated_at": "2022-07-05T18:06:25Z"
+  "title": "Normative: only coerce once in BigInt constructor",
+  "updated_at": "2022-07-06T21:18:03Z"
  },
  {
   "base": "f6bec3de382b2c1f11c41cfb96e52d77fbdd73c6",
