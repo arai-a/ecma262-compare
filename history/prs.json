@@ -1,6 +1,26 @@
 [
  {
   "base": "e61fbe1162d3b6b80848c3535cece3e36f4c08fb",
+  "created_at": "2022-07-07T16:24:44Z",
+  "head": "4a8b4a46841175cdfdf6cdce55935709802c3259",
+  "login": "ljharb",
+  "number": 2816,
+  "ref": "hashbang",
+  "revs": [
+   {
+    "adate": "2022-07-07T09:23:27-07:00",
+    "author": "Jordan Harband",
+    "date": "2022-07-07T09:27:43-07:00",
+    "hash": "4a8b4a46841175cdfdf6cdce55935709802c3259",
+    "parents": "e61fbe1162d3b6b80848c3535cece3e36f4c08fb",
+    "subject": "Normative: add hashbang comments"
+   }
+  ],
+  "title": "Normative: add hashbang comments",
+  "updated_at": "2022-07-07T16:27:50Z"
+ },
+ {
+  "base": "e61fbe1162d3b6b80848c3535cece3e36f4c08fb",
   "created_at": "2022-07-07T08:40:27Z",
   "head": "2ecf56460c3deb63c738fb878d346972917feb34",
   "login": "h2oche",
@@ -210,26 +230,6 @@
   ],
   "title": "Editorial: Add an optional type restriction to IterableToList",
   "updated_at": "2022-06-16T13:50:22Z"
- },
- {
-  "base": "4ec3cd3524281de65a69370a5370f5f3f0914030",
-  "created_at": "2022-06-08T06:27:37Z",
-  "head": "6a92a37fb31c4c94271bac4ec57a4c99d94d3faa",
-  "login": "h2oche",
-  "number": 2795,
-  "ref": "missing-return-if-abrupt",
-  "revs": [
-   {
-    "adate": "2022-06-08T15:20:09+09:00",
-    "author": "h2oche",
-    "date": "2022-06-08T15:20:09+09:00",
-    "hash": "6a92a37fb31c4c94271bac4ec57a4c99d94d3faa",
-    "parents": "4ec3cd3524281de65a69370a5370f5f3f0914030",
-    "subject": "Editorial: Missing unwrapping of normal completion records"
-   }
-  ],
-  "title": "Editorial: Missing unwrapping of normal completion records",
-  "updated_at": "2022-06-08T06:27:37Z"
  },
  {
   "base": "4ec3cd3524281de65a69370a5370f5f3f0914030",
