@@ -1322,11 +1322,19 @@
  {
   "base": "ada486f269a68f099d378a84254e21bdba0410a7",
   "created_at": "2022-03-16T20:31:38Z",
-  "head": "abc203e67f2de61c8ca00694fb70c320f77a2149",
+  "head": "0d0d3fe4343e00a6d6f9acafbbe65138362dcf76",
   "login": "gibson042",
   "number": 2695,
   "ref": "2022-03-buitin-function-tostring-name",
   "revs": [
+   {
+    "adate": "2022-07-12T16:44:20-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-07-12T16:44:20-04:00",
+    "hash": "0d0d3fe4343e00a6d6f9acafbbe65138362dcf76",
+    "parents": "abc203e67f2de61c8ca00694fb70c320f77a2149",
+    "subject": "Editorial: Respond to PR feedback"
+   },
    {
     "adate": "2022-06-03T17:30:07-04:00",
     "author": "Richard Gibson",
@@ -1377,7 +1385,7 @@
    }
   ],
   "title": "Normative: Allow toString of a built-in function to output a computed property name",
-  "updated_at": "2022-06-03T21:30:43Z"
+  "updated_at": "2022-07-12T20:46:14Z"
  },
  {
   "base": "cbd5493ae4d0ad72e4e658e47764638c025c2edf",
