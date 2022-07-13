@@ -1342,11 +1342,19 @@
  {
   "base": "ada486f269a68f099d378a84254e21bdba0410a7",
   "created_at": "2022-03-16T20:31:38Z",
-  "head": "0d0d3fe4343e00a6d6f9acafbbe65138362dcf76",
+  "head": "22fdf80305febc61014002c3365da5d20387b693",
   "login": "gibson042",
   "number": 2695,
   "ref": "2022-03-buitin-function-tostring-name",
   "revs": [
+   {
+    "adate": "2022-07-13T15:42:37-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-07-13T15:42:37-04:00",
+    "hash": "22fdf80305febc61014002c3365da5d20387b693",
+    "parents": "0d0d3fe4343e00a6d6f9acafbbe65138362dcf76",
+    "subject": "Editorial: Explicitly constrain native-code function text to |NativeFunction|"
+   },
    {
     "adate": "2022-07-12T16:44:20-04:00",
     "author": "Richard Gibson",
@@ -1405,7 +1413,7 @@
    }
   ],
   "title": "Normative: Allow toString of a built-in function to output a computed property name",
-  "updated_at": "2022-07-12T20:46:14Z"
+  "updated_at": "2022-07-13T19:43:03Z"
  },
  {
   "base": "cbd5493ae4d0ad72e4e658e47764638c025c2edf",
@@ -1930,74 +1938,6 @@
   ],
   "title": "Editorial: Consistify prose for intrinsic functions ",
   "updated_at": "2022-06-02T18:43:03Z"
- },
- {
-  "base": "24dc57f66b1152295a1fad076e142e5a9da8d58e",
-  "created_at": "2021-11-26T12:06:57Z",
-  "head": "6da77f6b6eb84e56c6bc4a99f29b40f6e969ab17",
-  "login": "arhadthedev",
-  "number": 2590,
-  "ref": "npm-run-windows",
-  "revs": [
-   {
-    "adate": "2022-06-29T21:08:31+03:00",
-    "author": "Oleg Iarygin",
-    "date": "2022-06-29T21:08:31+03:00",
-    "hash": "6da77f6b6eb84e56c6bc4a99f29b40f6e969ab17",
-    "parents": "9c68946f2496a3fa66992a9d55993607e6a8c3e8 24dc57f66b1152295a1fad076e142e5a9da8d58e",
-    "subject": "Merge branch 'main' into npm-run-windows"
-   },
-   {
-    "adate": "2022-04-15T21:46:16+03:00",
-    "author": "Oleg Iarygin",
-    "date": "2022-04-15T21:46:16+03:00",
-    "hash": "9c68946f2496a3fa66992a9d55993607e6a8c3e8",
-    "parents": "86c2f3d81e3d340ae9ab3c012b289f3a49d50889 e090868e821c8f236b4106838ce586cfd2f954cc",
-    "subject": "Merge branch 'main' into npm-run-windows"
-   },
-   {
-    "adate": "2021-12-06T01:42:42+03:00",
-    "author": "Oleg Iarygin",
-    "date": "2021-12-06T01:42:42+03:00",
-    "hash": "86c2f3d81e3d340ae9ab3c012b289f3a49d50889",
-    "parents": "73ad7d81c95aaf745ca018a7ca9365d4725dc571",
-    "subject": "Use built-in Node functions instead of packages"
-   },
-   {
-    "adate": "2021-12-01T00:01:31+03:00",
-    "author": "Oleg Iarygin",
-    "date": "2021-12-01T00:01:31+03:00",
-    "hash": "73ad7d81c95aaf745ca018a7ca9365d4725dc571",
-    "parents": "247e0d2770495441b437e0212d2a6fe2882eeabb",
-    "subject": "Cleanup after package change"
-   },
-   {
-    "adate": "2021-11-30T23:27:59+03:00",
-    "author": "Oleg Iarygin",
-    "date": "2021-11-30T23:27:59+03:00",
-    "hash": "247e0d2770495441b437e0212d2a6fe2882eeabb",
-    "parents": "ffbadce744dd9cc82ffcf70fa2933e0b320f786a",
-    "subject": "Replace cpy-cli with cpx to reduce dependencies"
-   },
-   {
-    "adate": "2021-11-26T19:14:43+03:00",
-    "author": "Oleg Iarygin",
-    "date": "2021-11-26T19:14:43+03:00",
-    "hash": "ffbadce744dd9cc82ffcf70fa2933e0b320f786a",
-    "parents": "2fe9dc993a021341b4e2c23756cad1b56ca6c780",
-    "subject": "Stick to the latest major version of the utils"
-   },
-   {
-    "adate": "2021-11-26T14:55:32+03:00",
-    "author": "Oleg Iarygin",
-    "date": "2021-11-26T14:55:32+03:00",
-    "hash": "2fe9dc993a021341b4e2c23756cad1b56ca6c780",
-    "parents": "193211a3d889a61e74ef7da1475dfa356e029f29",
-    "subject": "Meta: make `npm run build-*` working on Windows"
-   }
-  ],
-  "title": "Meta: make `npm run build-*` working on Windows",
-  "updated_at": "2022-06-29T18:08:35Z"
  },
  {
   "base": "7575f745f26e9f66b2be481144f37ac4a8a9f1c4",
