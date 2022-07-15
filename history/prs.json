@@ -1,5 +1,25 @@
 [
  {
+  "base": "5f31dd64de39e1a4c74aeb9bde2887acadb5e5e9",
+  "created_at": "2022-07-15T15:21:34Z",
+  "head": "6fdc07733069887e79ddb66393cca265a029fff8",
+  "login": "gibson042",
+  "number": 2828,
+  "ref": "2022-07-fix-function-prototype-tostring",
+  "revs": [
+   {
+    "adate": "2022-07-15T11:19:30-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-07-15T11:19:30-04:00",
+    "hash": "6fdc07733069887e79ddb66393cca265a029fff8",
+    "parents": "5f31dd64de39e1a4c74aeb9bde2887acadb5e5e9",
+    "subject": "Editorial: Fix ambiguities and type mismatches in Function.prototype.toString"
+   }
+  ],
+  "title": "Editorial: Fix ambiguities and type mismatches in Function.prototype.toString",
+  "updated_at": "2022-07-15T15:21:34Z"
+ },
+ {
   "base": "358fcc9e5d3dfec3368a29d883f7849a4f6ae4b6",
   "created_at": "2022-07-13T12:40:36Z",
   "head": "9919a803cec1a3bfbf5ff5b96f85b9648d66523e",
