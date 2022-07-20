@@ -1,23 +1,23 @@
 [
  {
-  "base": "5f31dd64de39e1a4c74aeb9bde2887acadb5e5e9",
-  "created_at": "2022-07-18T14:08:08Z",
-  "head": "caa0d17c076a3f3dd4001971dcae022527dc1b8f",
-  "login": "littledan",
-  "number": 2830,
-  "ref": "patch-4",
+  "base": "cf86f1cdc28e809170733d74ea64fd0f3dd79f78",
+  "created_at": "2022-07-20T21:12:19Z",
+  "head": "c611248fc09f6ce363a9059fcc58c6225e23419c",
+  "login": "ljharb",
+  "number": 2832,
+  "ref": "ipr-check",
   "revs": [
    {
-    "adate": "2022-07-18T10:07:55-04:00",
-    "author": "Daniel Ehrenberg",
-    "date": "2022-07-18T10:07:55-04:00",
-    "hash": "caa0d17c076a3f3dd4001971dcae022527dc1b8f",
-    "parents": "5f31dd64de39e1a4c74aeb9bde2887acadb5e5e9",
-    "subject": "Specification text uses alternate policy"
+    "adate": "2022-06-18T13:23:13-05:00",
+    "author": "Jordan Harband",
+    "date": "2022-07-20T14:39:19-07:00",
+    "hash": "c611248fc09f6ce363a9059fcc58c6225e23419c",
+    "parents": "cf86f1cdc28e809170733d74ea64fd0f3dd79f78",
+    "subject": "Meta: fix ipr-check; incorporate emeriti"
    }
   ],
-  "title": "Specification text uses alternate policy",
-  "updated_at": "2022-07-18T14:08:08Z"
+  "title": "Meta: fix ipr-check; incorporate emeriti",
+  "updated_at": "2022-07-20T21:39:23Z"
  },
  {
   "base": "5f31dd64de39e1a4c74aeb9bde2887acadb5e5e9",
