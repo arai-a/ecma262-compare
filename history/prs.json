@@ -22,11 +22,19 @@
  {
   "base": "cf86f1cdc28e809170733d74ea64fd0f3dd79f78",
   "created_at": "2022-07-20T22:28:25Z",
-  "head": "d4cc65d69697908e20f7ec72f17fa4e4f133db2d",
+  "head": "ca62e4a23476a258b8f5412d10226a95d52dddf4",
   "login": "gibson042",
   "number": 2833,
   "ref": "2022-07-createbuiltinfunction-call-consistency",
   "revs": [
+   {
+    "adate": "2022-07-21T16:09:08-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-07-21T16:09:08-04:00",
+    "hash": "ca62e4a23476a258b8f5412d10226a95d52dddf4",
+    "parents": "d4cc65d69697908e20f7ec72f17fa4e4f133db2d",
+    "subject": "Editorial: Ensure a unique implicit name for built-in functions that are used for distinct properties"
+   },
    {
     "adate": "2022-07-21T10:40:14-04:00",
     "author": "Richard Gibson",
@@ -69,7 +77,7 @@
    }
   ],
   "title": "Editorial: Specify _prefix_ for non-specific uses of CreateBuiltinFunction",
-  "updated_at": "2022-07-21T14:46:03Z"
+  "updated_at": "2022-07-21T20:10:54Z"
  },
  {
   "base": "cf86f1cdc28e809170733d74ea64fd0f3dd79f78",
