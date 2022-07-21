@@ -22,11 +22,27 @@
  {
   "base": "cf86f1cdc28e809170733d74ea64fd0f3dd79f78",
   "created_at": "2022-07-20T22:28:25Z",
-  "head": "f2268424cfdc65406402ecf512193b8625df46ad",
+  "head": "d4cc65d69697908e20f7ec72f17fa4e4f133db2d",
   "login": "gibson042",
   "number": 2833,
   "ref": "2022-07-createbuiltinfunction-call-consistency",
   "revs": [
+   {
+    "adate": "2022-07-21T10:40:14-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-07-21T10:40:14-04:00",
+    "hash": "d4cc65d69697908e20f7ec72f17fa4e4f133db2d",
+    "parents": "0770c6f519ae7ae0ee80b1210d5e022649f24691",
+    "subject": "Editorial: Replace CreateBuiltinFunction name and prefix prose with a list of rules"
+   },
+   {
+    "adate": "2022-07-21T10:20:45-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-07-21T10:20:45-04:00",
+    "hash": "0770c6f519ae7ae0ee80b1210d5e022649f24691",
+    "parents": "f2268424cfdc65406402ecf512193b8625df46ad",
+    "subject": "Editorial: Reword the implicit naming of built-in functions"
+   },
    {
     "adate": "2022-07-20T18:22:46-04:00",
     "author": "Richard Gibson",
@@ -52,8 +68,8 @@
     "subject": "Editorial: Move CreateBuiltinFunction note into its description"
    }
   ],
-  "title": "Editorial: Specify _prefix_ for every call to CreateBuiltinFunction",
-  "updated_at": "2022-07-20T22:28:25Z"
+  "title": "Editorial: Specify _prefix_ for non-specific uses of CreateBuiltinFunction",
+  "updated_at": "2022-07-21T14:46:03Z"
  },
  {
   "base": "cf86f1cdc28e809170733d74ea64fd0f3dd79f78",
