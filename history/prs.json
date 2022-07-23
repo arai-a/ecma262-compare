@@ -1,6 +1,34 @@
 [
  {
   "base": "cf86f1cdc28e809170733d74ea64fd0f3dd79f78",
+  "created_at": "2022-07-22T23:54:16Z",
+  "head": "10cbd42bc1a280bd978b5095696930d3ce7d4bcf",
+  "login": "tc39",
+  "number": 2837,
+  "ref": "code-dfns",
+  "revs": [
+   {
+    "adate": "2022-07-22T17:55:25-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-07-22T17:55:25-06:00",
+    "hash": "10cbd42bc1a280bd978b5095696930d3ce7d4bcf",
+    "parents": "5ffd519996e1ebea197bddfd99fd6ab447b86331",
+    "subject": "add ECMAScript code execution contexts"
+   },
+   {
+    "adate": "2022-07-22T17:52:47-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-07-22T17:52:47-06:00",
+    "hash": "5ffd519996e1ebea197bddfd99fd6ab447b86331",
+    "parents": "cf86f1cdc28e809170733d74ea64fd0f3dd79f78",
+    "subject": "Editorial: add missing `<dfn>`s for different kinds of code"
+   }
+  ],
+  "title": "Editorial: add missing `<dfn>`s for different kinds of code",
+  "updated_at": "2022-07-22T23:55:41Z"
+ },
+ {
+  "base": "cf86f1cdc28e809170733d74ea64fd0f3dd79f78",
   "created_at": "2022-07-22T03:59:59Z",
   "head": "efe8cda6a01ee1d4592414b75738b97abc3aa900",
   "login": "devsnek",
@@ -246,11 +274,19 @@
  {
   "base": "cf86f1cdc28e809170733d74ea64fd0f3dd79f78",
   "created_at": "2022-07-08T02:09:31Z",
-  "head": "d4cae8460de111ceca71a41a1adc670865f87f79",
+  "head": "f96e5b903ced9052d540d97bd7e7d487cfb2d195",
   "login": "tc39",
   "number": 2820,
   "ref": "ecmascript-code",
   "revs": [
+   {
+    "adate": "2022-07-22T17:58:35-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-07-22T17:58:35-06:00",
+    "hash": "f96e5b903ced9052d540d97bd7e7d487cfb2d195",
+    "parents": "d4cae8460de111ceca71a41a1adc670865f87f79",
+    "subject": "extract dfns"
+   },
    {
     "adate": "2022-07-22T17:32:48-06:00",
     "author": "Michael Ficarra",
@@ -284,8 +320,8 @@
     "subject": "Editorial: replace ECMAScript \"code\" with \"programs\" or \"source text\""
    }
   ],
-  "title": "Editorial: replace ECMAScript \"code\" with \"programs\" or \"source text\" as appropriate",
-  "updated_at": "2022-07-22T23:32:57Z"
+  "title": "Editorial: replace ECMAScript \"code\" with \"source text\" as appropriate",
+  "updated_at": "2022-07-23T00:02:31Z"
  },
  {
   "base": "358fcc9e5d3dfec3368a29d883f7849a4f6ae4b6",
