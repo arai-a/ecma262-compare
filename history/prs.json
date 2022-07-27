@@ -29,26 +29,6 @@
  },
  {
   "base": "cf86f1cdc28e809170733d74ea64fd0f3dd79f78",
-  "created_at": "2022-07-22T03:59:59Z",
-  "head": "efe8cda6a01ee1d4592414b75738b97abc3aa900",
-  "login": "devsnek",
-  "number": 2836,
-  "ref": "useless-capture",
-  "revs": [
-   {
-    "adate": "2022-07-21T20:59:18-07:00",
-    "author": "Gus Caplan",
-    "date": "2022-07-21T20:59:18-07:00",
-    "hash": "efe8cda6a01ee1d4592414b75738b97abc3aa900",
-    "parents": "cf86f1cdc28e809170733d74ea64fd0f3dd79f78",
-    "subject": "Editorial: remove unused capture in %TypedArray%.prototype.sort"
-   }
-  ],
-  "title": "Editorial: remove unused capture in %TypedArray%.prototype.sort",
-  "updated_at": "2022-07-22T03:59:59Z"
- },
- {
-  "base": "cf86f1cdc28e809170733d74ea64fd0f3dd79f78",
   "created_at": "2022-07-21T23:23:54Z",
   "head": "d20d329631c276ad38910b1ed0de9b980bccc60f",
   "login": "gibson042",
@@ -98,11 +78,19 @@
  {
   "base": "cf86f1cdc28e809170733d74ea64fd0f3dd79f78",
   "created_at": "2022-07-20T22:28:25Z",
-  "head": "ca62e4a23476a258b8f5412d10226a95d52dddf4",
+  "head": "5d5368c89ff53674cab0334399b4727823450677",
   "login": "gibson042",
   "number": 2833,
   "ref": "2022-07-createbuiltinfunction-call-consistency",
   "revs": [
+   {
+    "adate": "2022-07-27T15:01:10-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-07-27T15:01:10-04:00",
+    "hash": "5d5368c89ff53674cab0334399b4727823450677",
+    "parents": "ca62e4a23476a258b8f5412d10226a95d52dddf4",
+    "subject": "Editorial: Clean up the text specifying implicit built-in function name"
+   },
    {
     "adate": "2022-07-21T16:09:08-04:00",
     "author": "Richard Gibson",
@@ -153,7 +141,7 @@
    }
   ],
   "title": "Editorial: Specify _prefix_ for non-specific uses of CreateBuiltinFunction",
-  "updated_at": "2022-07-21T20:10:54Z"
+  "updated_at": "2022-07-27T19:01:40Z"
  },
  {
   "base": "cf86f1cdc28e809170733d74ea64fd0f3dd79f78",
