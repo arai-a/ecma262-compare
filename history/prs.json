@@ -1,6 +1,66 @@
 [
  {
   "base": "70baf25692ae7d1f6ce51d64a535777f92ca1425",
+  "created_at": "2022-07-28T19:00:52Z",
+  "head": "6f814e864b543fae9bce22f1dc9553bef1e85c1b",
+  "login": "gibson042",
+  "number": 2839,
+  "ref": "gh-2570-consolidate-ascii",
+  "revs": [
+   {
+    "adate": "2022-07-28T14:56:23-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-07-28T14:56:28-04:00",
+    "hash": "6f814e864b543fae9bce22f1dc9553bef1e85c1b",
+    "parents": "f5964a555543aac663bf351f495da505775d2b68",
+    "subject": "Editorial: Replace |ControlLetter| with |AsciiLetter|"
+   },
+   {
+    "adate": "2022-07-28T14:45:26-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-07-28T14:53:12-04:00",
+    "hash": "f5964a555543aac663bf351f495da505775d2b68",
+    "parents": "b035910dae6b9d4df92e9dea35c24d482914eb76",
+    "subject": "Editorial: Refactor `escape` for clarity"
+   },
+   {
+    "adate": "2022-07-28T14:44:25-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-07-28T14:53:12-04:00",
+    "hash": "b035910dae6b9d4df92e9dea35c24d482914eb76",
+    "parents": "3c235cfce5c9f50abfd494910e0acf411ca5513c",
+    "subject": "Editorial: Remove \"URI Syntax and Semantics\""
+   },
+   {
+    "adate": "2022-07-28T14:39:28-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-07-28T14:39:28-04:00",
+    "hash": "3c235cfce5c9f50abfd494910e0acf411ca5513c",
+    "parents": "92984adaaa830eacb90d22928ff3885c423ca059",
+    "subject": "Editorial: Refactor URI Handling Functions for clarity"
+   },
+   {
+    "adate": "2022-07-28T14:37:33-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-07-28T14:37:33-04:00",
+    "hash": "92984adaaa830eacb90d22928ff3885c423ca059",
+    "parents": "f66b48132045e771b520101a973e38d3d493c58e",
+    "subject": "Editorial: Refer to Unicode Basic Latin as \"block\" rather than \"range\""
+   },
+   {
+    "adate": "2022-07-28T14:33:58-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-07-28T14:33:58-04:00",
+    "hash": "f66b48132045e771b520101a973e38d3d493c58e",
+    "parents": "70baf25692ae7d1f6ce51d64a535777f92ca1425",
+    "subject": "Editorial: Introduce a definition for ASCII word characters"
+   }
+  ],
+  "title": "Editorial: Consolidate use of ASCII subsets",
+  "updated_at": "2022-07-28T19:00:52Z"
+ },
+ {
+  "base": "70baf25692ae7d1f6ce51d64a535777f92ca1425",
   "created_at": "2022-07-22T23:54:16Z",
   "head": "733ecf3f8cd3b5f56a2fce33aa4af5b2b84fc120",
   "login": "tc39",
@@ -354,26 +414,6 @@
   ],
   "title": "Normative: avoid mostly-redundant `await` in async `yield*`",
   "updated_at": "2022-07-07T19:44:12Z"
- },
- {
-  "base": "358fcc9e5d3dfec3368a29d883f7849a4f6ae4b6",
-  "created_at": "2022-07-07T17:43:22Z",
-  "head": "5d0c32c832ef02f403313432fada4b932b236bc2",
-  "login": "tc39",
-  "number": 2818,
-  "ref": "async-generator-yield-await",
-  "revs": [
-   {
-    "adate": "2022-07-07T09:50:45-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2022-07-07T10:31:53-07:00",
-    "hash": "5d0c32c832ef02f403313432fada4b932b236bc2",
-    "parents": "e61fbe1162d3b6b80848c3535cece3e36f4c08fb",
-    "subject": "Normative: avoid triggering `throw` in corner case in async generators using yield*"
-   }
-  ],
-  "title": "Normative: avoid triggering `throw` in corner case in async generators",
-  "updated_at": "2022-07-07T17:43:22Z"
  },
  {
   "base": "e61fbe1162d3b6b80848c3535cece3e36f4c08fb",
