@@ -1,31 +1,39 @@
 [
  {
-  "base": "cf86f1cdc28e809170733d74ea64fd0f3dd79f78",
+  "base": "70baf25692ae7d1f6ce51d64a535777f92ca1425",
   "created_at": "2022-07-22T23:54:16Z",
-  "head": "10cbd42bc1a280bd978b5095696930d3ce7d4bcf",
+  "head": "733ecf3f8cd3b5f56a2fce33aa4af5b2b84fc120",
   "login": "tc39",
   "number": 2837,
   "ref": "code-dfns",
   "revs": [
    {
+    "adate": "2022-07-27T20:38:23-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-07-27T20:38:40-06:00",
+    "hash": "733ecf3f8cd3b5f56a2fce33aa4af5b2b84fc120",
+    "parents": "713b8128454cae8518cced1416739671b0a43b04",
+    "subject": "add ID"
+   },
+   {
     "adate": "2022-07-22T17:55:25-06:00",
     "author": "Michael Ficarra",
-    "date": "2022-07-22T17:55:25-06:00",
-    "hash": "10cbd42bc1a280bd978b5095696930d3ce7d4bcf",
-    "parents": "5ffd519996e1ebea197bddfd99fd6ab447b86331",
+    "date": "2022-07-27T20:38:40-06:00",
+    "hash": "713b8128454cae8518cced1416739671b0a43b04",
+    "parents": "f37baf05b1e54b211ef73d5dc925a9658bf10c20",
     "subject": "add ECMAScript code execution contexts"
    },
    {
     "adate": "2022-07-22T17:52:47-06:00",
     "author": "Michael Ficarra",
-    "date": "2022-07-22T17:52:47-06:00",
-    "hash": "5ffd519996e1ebea197bddfd99fd6ab447b86331",
-    "parents": "cf86f1cdc28e809170733d74ea64fd0f3dd79f78",
+    "date": "2022-07-27T20:38:40-06:00",
+    "hash": "f37baf05b1e54b211ef73d5dc925a9658bf10c20",
+    "parents": "70baf25692ae7d1f6ce51d64a535777f92ca1425",
     "subject": "Editorial: add missing `<dfn>`s for different kinds of code"
    }
   ],
   "title": "Editorial: add missing `<dfn>`s for different kinds of code",
-  "updated_at": "2022-07-22T23:55:41Z"
+  "updated_at": "2022-07-28T02:41:04Z"
  },
  {
   "base": "cf86f1cdc28e809170733d74ea64fd0f3dd79f78",
@@ -232,84 +240,100 @@
   "updated_at": "2022-07-11T21:35:03Z"
  },
  {
-  "base": "358fcc9e5d3dfec3368a29d883f7849a4f6ae4b6",
+  "base": "70baf25692ae7d1f6ce51d64a535777f92ca1425",
   "created_at": "2022-07-08T23:59:15Z",
-  "head": "45047b2d97389fa5df99a92a23ecfac388e0d32f",
+  "head": "2f8081dc47934ba0653e4c010d8de56a5da17296",
   "login": "tc39",
   "number": 2821,
   "ref": "identity",
   "revs": [
    {
+    "adate": "2022-07-27T20:24:54-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-07-27T20:25:49-06:00",
+    "hash": "2f8081dc47934ba0653e4c010d8de56a5da17296",
+    "parents": "721bc95a8548bfc7ecb7df06f11df553a509626b",
+    "subject": "updates based on editor feedback"
+   },
+   {
     "adate": "2022-07-11T15:34:08-06:00",
     "author": "Michael Ficarra",
-    "date": "2022-07-11T15:34:08-06:00",
-    "hash": "45047b2d97389fa5df99a92a23ecfac388e0d32f",
-    "parents": "81500a519001ba9a115c1bb88f3ae735df5be477",
+    "date": "2022-07-27T20:25:49-06:00",
+    "hash": "721bc95a8548bfc7ecb7df06f11df553a509626b",
+    "parents": "698ffc15c1559aa0bd890aebbfefe584cbb8185a",
     "subject": "pull out to #2822"
    },
    {
     "adate": "2022-07-08T17:55:36-06:00",
     "author": "Michael Ficarra",
-    "date": "2022-07-08T17:55:36-06:00",
-    "hash": "81500a519001ba9a115c1bb88f3ae735df5be477",
-    "parents": "358fcc9e5d3dfec3368a29d883f7849a4f6ae4b6",
+    "date": "2022-07-27T20:25:49-06:00",
+    "hash": "698ffc15c1559aa0bd890aebbfefe584cbb8185a",
+    "parents": "70baf25692ae7d1f6ce51d64a535777f92ca1425",
     "subject": "fixes #2405: clarify spec values that have identity and its implications"
    }
   ],
   "title": "fixes #2405: clarify spec values that have identity and its implications",
-  "updated_at": "2022-07-11T21:34:31Z"
+  "updated_at": "2022-07-28T02:27:44Z"
  },
  {
-  "base": "cf86f1cdc28e809170733d74ea64fd0f3dd79f78",
+  "base": "70baf25692ae7d1f6ce51d64a535777f92ca1425",
   "created_at": "2022-07-08T02:09:31Z",
-  "head": "f96e5b903ced9052d540d97bd7e7d487cfb2d195",
+  "head": "224358fa2a41cda928addf0e532f87e74019709a",
   "login": "tc39",
   "number": 2820,
   "ref": "ecmascript-code",
   "revs": [
    {
+    "adate": "2022-07-27T20:34:02-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-07-27T20:34:41-06:00",
+    "hash": "224358fa2a41cda928addf0e532f87e74019709a",
+    "parents": "50d507bb3954a1ae5d5ff1e4024e26ed2058449b",
+    "subject": "editor call feedback"
+   },
+   {
     "adate": "2022-07-22T17:58:35-06:00",
     "author": "Michael Ficarra",
-    "date": "2022-07-22T17:58:35-06:00",
-    "hash": "f96e5b903ced9052d540d97bd7e7d487cfb2d195",
-    "parents": "d4cae8460de111ceca71a41a1adc670865f87f79",
+    "date": "2022-07-27T20:34:41-06:00",
+    "hash": "50d507bb3954a1ae5d5ff1e4024e26ed2058449b",
+    "parents": "007cabc6b37bffe64c8c7936035ddfc73d081108",
     "subject": "extract dfns"
    },
    {
     "adate": "2022-07-22T17:32:48-06:00",
     "author": "Michael Ficarra",
-    "date": "2022-07-22T17:32:48-06:00",
-    "hash": "d4cae8460de111ceca71a41a1adc670865f87f79",
-    "parents": "b4ad34ae55bb87a8944ff09226a307d9ea2ce102",
+    "date": "2022-07-27T20:34:41-06:00",
+    "hash": "007cabc6b37bffe64c8c7936035ddfc73d081108",
+    "parents": "e5f368254e369cf328756850eb79dd9d37f91ca7",
     "subject": "missed one"
    },
    {
     "adate": "2022-07-22T16:10:54-06:00",
     "author": "Michael Ficarra",
-    "date": "2022-07-22T16:10:54-06:00",
-    "hash": "b4ad34ae55bb87a8944ff09226a307d9ea2ce102",
-    "parents": "10f54e823ee00840be9612edea817781e276103d",
+    "date": "2022-07-27T20:34:41-06:00",
+    "hash": "e5f368254e369cf328756850eb79dd9d37f91ca7",
+    "parents": "c85dac5f20e9b07a1a3c7064360bdb6b447cf5a3",
     "subject": "Revert \"Editorial: replace ECMAScript \"code\" with \"programs\""
    },
    {
     "adate": "2022-07-07T19:40:27-06:00",
     "author": "Michael Ficarra",
-    "date": "2022-07-22T14:17:12-06:00",
-    "hash": "10f54e823ee00840be9612edea817781e276103d",
-    "parents": "c6f40d99f5112cfbe378717884e3fe8390d54d33",
+    "date": "2022-07-27T20:34:41-06:00",
+    "hash": "c85dac5f20e9b07a1a3c7064360bdb6b447cf5a3",
+    "parents": "f4072a29c5035e7f5f325060e8e8a178c0b35a1c",
     "subject": "dfn \"ECMAScript code execution context\""
    },
    {
     "adate": "2022-07-07T19:31:26-06:00",
     "author": "Michael Ficarra",
-    "date": "2022-07-22T14:17:12-06:00",
-    "hash": "c6f40d99f5112cfbe378717884e3fe8390d54d33",
-    "parents": "cf86f1cdc28e809170733d74ea64fd0f3dd79f78",
+    "date": "2022-07-27T20:34:41-06:00",
+    "hash": "f4072a29c5035e7f5f325060e8e8a178c0b35a1c",
+    "parents": "70baf25692ae7d1f6ce51d64a535777f92ca1425",
     "subject": "Editorial: replace ECMAScript \"code\" with \"programs\" or \"source text\""
    }
   ],
   "title": "Editorial: replace ECMAScript \"code\" with \"source text\" as appropriate",
-  "updated_at": "2022-07-23T00:02:31Z"
+  "updated_at": "2022-07-28T03:15:31Z"
  },
  {
   "base": "358fcc9e5d3dfec3368a29d883f7849a4f6ae4b6",
