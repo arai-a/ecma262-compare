@@ -1,5 +1,25 @@
 [
  {
+  "base": "cdbf72e09b6f269478b534c2531adc410ce27e71",
+  "created_at": "2022-07-30T09:08:41Z",
+  "head": "ca12cc3c6d4cc2433a4b6c9342e7634bcf286ad2",
+  "login": "tc39",
+  "number": 2841,
+  "ref": "dependabot/npm_and_yarn/ws-7.5.9",
+  "revs": [
+   {
+    "adate": "2022-07-30T21:09:28+12:00",
+    "author": "Jordan Harband",
+    "date": "2022-07-30T21:10:44+12:00",
+    "hash": "ca12cc3c6d4cc2433a4b6c9342e7634bcf286ad2",
+    "parents": "912d79311007b8e16bb073712ed68668c80886ea",
+    "subject": "Meta: `npm update ws json-schema lodash jsdom ajv`"
+   }
+  ],
+  "title": "Meta: `npm update ws json-schema lodash jsdom ajv`",
+  "updated_at": "2022-07-30T09:11:33Z"
+ },
+ {
   "base": "70baf25692ae7d1f6ce51d64a535777f92ca1425",
   "created_at": "2022-07-30T07:09:13Z",
   "head": "1493eb41f6af1ef6bc8f0c8bf09b9637def485e8",
@@ -80,42 +100,6 @@
   "updated_at": "2022-07-28T19:00:52Z"
  },
  {
-  "base": "70baf25692ae7d1f6ce51d64a535777f92ca1425",
-  "created_at": "2022-07-22T23:54:16Z",
-  "head": "733ecf3f8cd3b5f56a2fce33aa4af5b2b84fc120",
-  "login": "tc39",
-  "number": 2837,
-  "ref": "code-dfns",
-  "revs": [
-   {
-    "adate": "2022-07-27T20:38:23-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-07-27T20:38:40-06:00",
-    "hash": "733ecf3f8cd3b5f56a2fce33aa4af5b2b84fc120",
-    "parents": "713b8128454cae8518cced1416739671b0a43b04",
-    "subject": "add ID"
-   },
-   {
-    "adate": "2022-07-22T17:55:25-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-07-27T20:38:40-06:00",
-    "hash": "713b8128454cae8518cced1416739671b0a43b04",
-    "parents": "f37baf05b1e54b211ef73d5dc925a9658bf10c20",
-    "subject": "add ECMAScript code execution contexts"
-   },
-   {
-    "adate": "2022-07-22T17:52:47-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-07-27T20:38:40-06:00",
-    "hash": "f37baf05b1e54b211ef73d5dc925a9658bf10c20",
-    "parents": "70baf25692ae7d1f6ce51d64a535777f92ca1425",
-    "subject": "Editorial: add missing `<dfn>`s for different kinds of code"
-   }
-  ],
-  "title": "Editorial: add missing `<dfn>`s for different kinds of code",
-  "updated_at": "2022-07-28T02:41:04Z"
- },
- {
   "base": "cf86f1cdc28e809170733d74ea64fd0f3dd79f78",
   "created_at": "2022-07-21T23:23:54Z",
   "head": "d20d329631c276ad38910b1ed0de9b980bccc60f",
@@ -142,26 +126,6 @@
   ],
   "title": "Editorial: Update ECMA-402 and -404 references",
   "updated_at": "2022-07-21T23:23:54Z"
- },
- {
-  "base": "cf86f1cdc28e809170733d74ea64fd0f3dd79f78",
-  "created_at": "2022-07-21T04:48:20Z",
-  "head": "0dc032a4c533ee43a0791ee0bd6539f9d32df948",
-  "login": "h2oche",
-  "number": 2834,
-  "ref": "CharacterValue",
-  "revs": [
-   {
-    "adate": "2022-07-21T13:46:01+09:00",
-    "author": "h2oche",
-    "date": "2022-07-21T13:46:01+09:00",
-    "hash": "0dc032a4c533ee43a0791ee0bd6539f9d32df948",
-    "parents": "cf86f1cdc28e809170733d74ea64fd0f3dd79f78",
-    "subject": "Editorial: Fix typo in CharacterValue"
-   }
-  ],
-  "title": "Editorial: Fix typo in CharacterValue",
-  "updated_at": "2022-07-21T04:48:20Z"
  },
  {
   "base": "cf86f1cdc28e809170733d74ea64fd0f3dd79f78",
@@ -1098,26 +1062,6 @@
   ],
   "title": "Remove Job from Promise Resolve Functions",
   "updated_at": "2022-05-09T23:00:07Z"
- },
- {
-  "base": "fb5e39af09b926f36538bc62b87f5b7b5370f9e7",
-  "created_at": "2022-05-04T19:08:37Z",
-  "head": "9ce88e51bc525ff234c55355c7ff5464f8d7d37e",
-  "login": "gibson042",
-  "number": 2768,
-  "ref": "2022-05-iteration-alias-declaration",
-  "revs": [
-   {
-    "adate": "2022-05-04T15:03:57-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-05-04T15:03:57-04:00",
-    "hash": "9ce88e51bc525ff234c55355c7ff5464f8d7d37e",
-    "parents": "fb5e39af09b926f36538bc62b87f5b7b5370f9e7",
-    "subject": "Editorial: Declare iteration aliases as close to iterations as practical"
-   }
-  ],
-  "title": "Editorial: Declare iteration aliases as close to iterations as practical",
-  "updated_at": "2022-05-04T19:08:37Z"
  },
  {
   "base": "fb5e39af09b926f36538bc62b87f5b7b5370f9e7",
