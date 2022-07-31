@@ -1356,9 +1356,9 @@
   "updated_at": "2022-04-28T13:53:54Z"
  },
  {
-  "base": "f0e4ae8d31afbad55f03d423c200d7d7467ca49a",
+  "base": "cdbf72e09b6f269478b534c2531adc410ce27e71",
   "created_at": "2022-04-18T15:17:05Z",
-  "head": "f8a37c6a4c3495a7e8e24330a62cb97dde8713d7",
+  "head": "a4c7da98437940da99ced5becce149763ef8f167",
   "login": "jmdyck",
   "number": 2744,
   "ref": "Evaluation",
@@ -1366,78 +1366,38 @@
    {
     "adate": "2022-04-17T21:05:12-04:00",
     "author": "Michael Dyck",
-    "date": "2022-06-02T14:25:48-04:00",
-    "hash": "f8a37c6a4c3495a7e8e24330a62cb97dde8713d7",
-    "parents": "8747f4f85dabb54a399a56a607d84d40295df990",
-    "subject": "Fix bug: Prevent mis-application of Implicit Normal Completion"
-   },
-   {
-    "adate": "2022-04-17T21:00:07-04:00",
-    "author": "Michael Dyck",
-    "date": "2022-06-02T14:25:48-04:00",
-    "hash": "8747f4f85dabb54a399a56a607d84d40295df990",
-    "parents": "31174eae4f9ec898ceda3a5985765fa1dcd8c023",
-    "subject": "Change more `Completion()` to `?` (bugfix)"
-   },
-   {
-    "adate": "2022-03-08T23:46:53-05:00",
-    "author": "Michael Dyck",
-    "date": "2022-06-02T14:25:48-04:00",
-    "hash": "31174eae4f9ec898ceda3a5985765fa1dcd8c023",
-    "parents": "7e75c277aa98c4ae92b6865e4a527ff3fea0486c",
-    "subject": "Change more `Completion()` to `?` (GetValue simple)"
-   },
-   {
-    "adate": "2022-03-08T21:06:35-05:00",
-    "author": "Michael Dyck",
-    "date": "2022-06-02T14:25:48-04:00",
-    "hash": "7e75c277aa98c4ae92b6865e4a527ff3fea0486c",
-    "parents": "68817d7a85ea7063a7d284fc55de82e80435823e",
-    "subject": "Change more `Completion()` to `?` (GetValue tricky)"
-   },
-   {
-    "adate": "2022-04-17T19:34:33-04:00",
-    "author": "Michael Dyck",
-    "date": "2022-06-02T14:25:47-04:00",
-    "hash": "68817d7a85ea7063a7d284fc55de82e80435823e",
-    "parents": "8a98420c30b8ce93f9a64168bd070952217a6539",
-    "subject": "Change more `Completion()` to `?` (Return)"
-   },
-   {
-    "adate": "2022-03-08T16:44:06-05:00",
-    "author": "Michael Dyck",
-    "date": "2022-06-02T14:25:47-04:00",
-    "hash": "8a98420c30b8ce93f9a64168bd070952217a6539",
-    "parents": "aff4872e266b3efb9b777af3379a284e1fb24a66",
-    "subject": "Change some `Completion()` to `?` (ReturnIfAbrupt)"
+    "date": "2022-07-30T22:21:02-04:00",
+    "hash": "a4c7da98437940da99ced5becce149763ef8f167",
+    "parents": "ea48cf5d1e2b75562222c48422ae12bf0923fa03",
+    "subject": "Editorial: Bugfix: Prevent mis-application of Implicit Normal Completion (#2744)"
    },
    {
     "adate": "2022-04-17T23:58:50-04:00",
     "author": "Michael Dyck",
-    "date": "2022-06-02T14:25:47-04:00",
-    "hash": "aff4872e266b3efb9b777af3379a284e1fb24a66",
-    "parents": "f8b64b23d9014a81421406cb6c1b5bf5afb9e2ff",
-    "subject": "Wrap `Completion()` around occurrences of \"Evaluation of X\""
+    "date": "2022-07-30T22:18:52-04:00",
+    "hash": "ea48cf5d1e2b75562222c48422ae12bf0923fa03",
+    "parents": "63199110f776388987609788eb6e802530169a2b",
+    "subject": "Editorial: Mark invocations of Evaluation with `?` or `Completion()` (#2744)"
    },
    {
     "adate": "2022-04-17T23:51:13-04:00",
     "author": "Michael Dyck",
-    "date": "2022-06-02T14:25:47-04:00",
-    "hash": "f8b64b23d9014a81421406cb6c1b5bf5afb9e2ff",
-    "parents": "78edf8783b45ad7d02c7ec0864a757e407286a4e",
-    "subject": "Change \"the result of evaluating X\" to \"Evaluation of X\""
+    "date": "2022-07-30T21:51:55-04:00",
+    "hash": "63199110f776388987609788eb6e802530169a2b",
+    "parents": "a4a6fadfc46d2beb60719b50fb81b7d595ae358b",
+    "subject": "Editorial: Change \"the result of evaluating X\" to \"Evaluation of X\" (#2744)"
    },
    {
     "adate": "2022-04-17T10:38:19-04:00",
     "author": "Michael Dyck",
-    "date": "2022-06-02T14:25:47-04:00",
-    "hash": "78edf8783b45ad7d02c7ec0864a757e407286a4e",
-    "parents": "4ec3cd3524281de65a69370a5370f5f3f0914030",
-    "subject": "Make a 'home' section for Evaluation"
+    "date": "2022-07-30T21:50:05-04:00",
+    "hash": "a4a6fadfc46d2beb60719b50fb81b7d595ae358b",
+    "parents": "cdbf72e09b6f269478b534c2531adc410ce27e71",
+    "subject": "Editorial: Make a 'home' section for Evaluation (#2744)"
    }
   ],
   "title": "Editorial: Make `Evaluation` more like regular SDOs",
-  "updated_at": "2022-06-17T03:41:56Z"
+  "updated_at": "2022-07-31T02:36:14Z"
  },
  {
   "base": "7ae3ecf219bfaa02bb7f6dd1a668f152ff53e846",
