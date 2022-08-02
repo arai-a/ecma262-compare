@@ -1,25 +1,5 @@
 [
  {
-  "base": "cdbf72e09b6f269478b534c2531adc410ce27e71",
-  "created_at": "2022-07-30T09:08:41Z",
-  "head": "ca12cc3c6d4cc2433a4b6c9342e7634bcf286ad2",
-  "login": "tc39",
-  "number": 2841,
-  "ref": "dependabot/npm_and_yarn/ws-7.5.9",
-  "revs": [
-   {
-    "adate": "2022-07-30T21:09:28+12:00",
-    "author": "Jordan Harband",
-    "date": "2022-07-30T21:10:44+12:00",
-    "hash": "ca12cc3c6d4cc2433a4b6c9342e7634bcf286ad2",
-    "parents": "912d79311007b8e16bb073712ed68668c80886ea",
-    "subject": "Meta: `npm update ws json-schema lodash jsdom ajv`"
-   }
-  ],
-  "title": "Meta: `npm update ws json-schema lodash jsdom ajv`",
-  "updated_at": "2022-07-30T09:11:33Z"
- },
- {
   "base": "70baf25692ae7d1f6ce51d64a535777f92ca1425",
   "created_at": "2022-07-30T07:09:13Z",
   "head": "1493eb41f6af1ef6bc8f0c8bf09b9637def485e8",
@@ -500,32 +480,32 @@
   "updated_at": "2022-07-06T21:18:03Z"
  },
  {
-  "base": "24dc57f66b1152295a1fad076e142e5a9da8d58e",
+  "base": "cdbf72e09b6f269478b534c2531adc410ce27e71",
   "created_at": "2022-06-26T19:17:52Z",
-  "head": "863bb39a31b3fdcc057e861e258a6b6ebfea2576",
+  "head": "039d735b6fc89a4b26f8c66e3828c64494b7680a",
   "login": "tc39",
   "number": 2807,
   "ref": "no-window-private",
   "revs": [
    {
-    "adate": "2022-07-03T20:32:05-07:00",
+    "adate": "2022-08-02T14:30:19-07:00",
     "author": "Kevin Gibbons",
-    "date": "2022-07-03T20:32:05-07:00",
-    "hash": "863bb39a31b3fdcc057e861e258a6b6ebfea2576",
-    "parents": "24fa31acecadbfdb1d883753fed1711453c78f2f",
-    "subject": "restrict to web browsers"
+    "date": "2022-08-02T14:32:50-07:00",
+    "hash": "039d735b6fc89a4b26f8c66e3828c64494b7680a",
+    "parents": "156c7952b2d97d81292386b6ce250cf69153ee33",
+    "subject": "Editorial: note browser-specific host hooks in Annex B"
    },
    {
     "adate": "2022-06-26T12:09:38-07:00",
     "author": "Kevin Gibbons",
-    "date": "2022-06-26T12:12:29-07:00",
-    "hash": "24fa31acecadbfdb1d883753fed1711453c78f2f",
-    "parents": "24dc57f66b1152295a1fad076e142e5a9da8d58e",
+    "date": "2022-08-02T14:25:31-07:00",
+    "hash": "156c7952b2d97d81292386b6ce250cf69153ee33",
+    "parents": "358fcc9e5d3dfec3368a29d883f7849a4f6ae4b6",
     "subject": "Normative: allow host exotic objects to reject private fields"
    }
   ],
   "title": "Normative: allow host exotic objects to reject private fields",
-  "updated_at": "2022-07-04T03:32:11Z"
+  "updated_at": "2022-08-02T21:33:52Z"
  },
  {
   "base": "f0e4ae8d31afbad55f03d423c200d7d7467ca49a",
