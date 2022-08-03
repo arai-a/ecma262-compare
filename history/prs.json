@@ -1,59 +1,87 @@
 [
  {
-  "base": "df65a85d02acce7a850ad811fa4b530a7cbb4f28",
+  "base": "8edfa9b852fa1cdd95bbee4c78554d76b968b8d3",
+  "created_at": "2022-08-03T21:55:25Z",
+  "head": "a604f3dcae6db63b941413b5b716f597a7c779e3",
+  "login": "tc39",
+  "number": 2843,
+  "ref": "move-RegExpHasFlag",
+  "revs": [
+   {
+    "adate": "2022-08-03T15:54:32-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-08-03T15:57:58-06:00",
+    "hash": "a604f3dcae6db63b941413b5b716f597a7c779e3",
+    "parents": "8edfa9b852fa1cdd95bbee4c78554d76b968b8d3",
+    "subject": "Editorial: move RegExpHasFlag out of the dotAll section"
+   }
+  ],
+  "title": "Editorial: move RegExpHasFlag out of the dotAll section",
+  "updated_at": "2022-08-03T21:59:34Z"
+ },
+ {
+  "base": "0981442a6104c6e51e797384e7dd6e3551d88ae2",
   "created_at": "2022-08-03T21:19:42Z",
-  "head": "dd8eb8fe252a3097a70e45b265adeed0fa0e5de7",
+  "head": "3ddbd426decbeedd74d34ab89cace5f9f82d4f74",
   "login": "tc39",
   "number": 2842,
   "ref": "get-value",
   "revs": [
    {
-    "adate": "2022-08-03T14:25:58-07:00",
+    "adate": "2022-08-03T15:15:34-07:00",
     "author": "Kevin Gibbons",
-    "date": "2022-08-03T14:25:58-07:00",
-    "hash": "dd8eb8fe252a3097a70e45b265adeed0fa0e5de7",
-    "parents": "5c7b1d4436d46ad4aefac4addf402439bbe31ad4",
+    "date": "2022-08-03T15:18:09-07:00",
+    "hash": "3ddbd426decbeedd74d34ab89cace5f9f82d4f74",
+    "parents": "eddb7f1b5335cd7a10e896b5c3b7738f746e829f",
     "subject": "Editorial: GetValue and PutValue do not need to unwrap Completion Records"
+   },
+   {
+    "adate": "2022-08-03T15:15:25-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2022-08-03T15:18:09-07:00",
+    "hash": "eddb7f1b5335cd7a10e896b5c3b7738f746e829f",
+    "parents": "6fbfcd3c691d29938010851b39103ccd6f80dcf1",
+    "subject": "Editorial: further refactor ForIn/OfBodyEvaluation"
    },
    {
     "adate": "2022-08-03T14:25:48-07:00",
     "author": "Kevin Gibbons",
-    "date": "2022-08-03T14:25:55-07:00",
-    "hash": "5c7b1d4436d46ad4aefac4addf402439bbe31ad4",
-    "parents": "f45919c5e195b5a884e4f9f535cb88a990c4fb0c",
+    "date": "2022-08-03T15:18:09-07:00",
+    "hash": "6fbfcd3c691d29938010851b39103ccd6f80dcf1",
+    "parents": "6bec9b58116b3203f41009af960e6b7046e82d2e",
     "subject": "Editorial: tweak ForIn/OfBodyEvaluation"
    },
    {
     "adate": "2022-08-03T14:10:23-07:00",
     "author": "Kevin Gibbons",
-    "date": "2022-08-03T14:16:36-07:00",
-    "hash": "f45919c5e195b5a884e4f9f535cb88a990c4fb0c",
-    "parents": "df65a85d02acce7a850ad811fa4b530a7cbb4f28",
+    "date": "2022-08-03T15:18:09-07:00",
+    "hash": "6bec9b58116b3203f41009af960e6b7046e82d2e",
+    "parents": "0981442a6104c6e51e797384e7dd6e3551d88ae2",
     "subject": "Editorial: unwrap Completion Records before passing to GetValue"
    }
   ],
   "title": "Editorial: GetValue and PutValue do not need to unwrap Completion Records",
-  "updated_at": "2022-08-03T21:26:14Z"
+  "updated_at": "2022-08-03T22:19:52Z"
  },
  {
-  "base": "cdbf72e09b6f269478b534c2531adc410ce27e71",
+  "base": "0981442a6104c6e51e797384e7dd6e3551d88ae2",
   "created_at": "2022-07-30T09:08:41Z",
-  "head": "ca12cc3c6d4cc2433a4b6c9342e7634bcf286ad2",
+  "head": "0f9ecafa317c7ac602189e6d35edd2ec554a31c3",
   "login": "tc39",
   "number": 2841,
   "ref": "dependabot/npm_and_yarn/ws-7.5.9",
   "revs": [
    {
-    "adate": "2022-07-30T21:09:28+12:00",
+    "adate": "2022-08-03T15:18:29-07:00",
     "author": "Jordan Harband",
-    "date": "2022-07-30T21:10:44+12:00",
-    "hash": "ca12cc3c6d4cc2433a4b6c9342e7634bcf286ad2",
-    "parents": "912d79311007b8e16bb073712ed68668c80886ea",
-    "subject": "Meta: `npm update ws json-schema lodash jsdom ajv`"
+    "date": "2022-08-03T15:18:29-07:00",
+    "hash": "0f9ecafa317c7ac602189e6d35edd2ec554a31c3",
+    "parents": "0981442a6104c6e51e797384e7dd6e3551d88ae2",
+    "subject": "Meta: `npm update ws json-schema lodash jsdom ajv` (#2841)"
    }
   ],
   "title": "Meta: `npm update ws json-schema lodash jsdom ajv`",
-  "updated_at": "2022-08-03T18:32:10Z"
+  "updated_at": "2022-08-03T22:18:41Z"
  },
  {
   "base": "70baf25692ae7d1f6ce51d64a535777f92ca1425",
@@ -230,26 +258,6 @@
   ],
   "title": "Editorial: Specify _prefix_ for non-specific uses of CreateBuiltinFunction",
   "updated_at": "2022-07-27T19:01:40Z"
- },
- {
-  "base": "cf86f1cdc28e809170733d74ea64fd0f3dd79f78",
-  "created_at": "2022-07-20T21:12:19Z",
-  "head": "c611248fc09f6ce363a9059fcc58c6225e23419c",
-  "login": "ljharb",
-  "number": 2832,
-  "ref": "ipr-check",
-  "revs": [
-   {
-    "adate": "2022-06-18T13:23:13-05:00",
-    "author": "Jordan Harband",
-    "date": "2022-07-20T14:39:19-07:00",
-    "hash": "c611248fc09f6ce363a9059fcc58c6225e23419c",
-    "parents": "cf86f1cdc28e809170733d74ea64fd0f3dd79f78",
-    "subject": "Meta: fix ipr-check; incorporate emeriti"
-   }
-  ],
-  "title": "Meta: fix ipr-check; incorporate emeriti",
-  "updated_at": "2022-07-20T21:39:23Z"
  },
  {
   "base": "5f31dd64de39e1a4c74aeb9bde2887acadb5e5e9",
@@ -620,24 +628,24 @@
   "updated_at": "2022-06-16T13:50:22Z"
  },
  {
-  "base": "4ec3cd3524281de65a69370a5370f5f3f0914030",
+  "base": "0981442a6104c6e51e797384e7dd6e3551d88ae2",
   "created_at": "2022-06-02T20:57:38Z",
-  "head": "7f45c77c3f0fbfbc327e2f60e281c3b3139fbf34",
+  "head": "35b7eb21a57090d59762f39a6ec39316a24580d0",
   "login": "gibson042",
   "number": 2791,
   "ref": "2022-06-check-regexp-by-flags",
   "revs": [
    {
-    "adate": "2022-06-02T16:38:28-04:00",
+    "adate": "2022-08-03T15:19:45-07:00",
     "author": "Richard Gibson",
-    "date": "2022-06-02T16:38:28-04:00",
-    "hash": "7f45c77c3f0fbfbc327e2f60e281c3b3139fbf34",
-    "parents": "4ec3cd3524281de65a69370a5370f5f3f0914030",
-    "subject": "Normative: Always check regular expression flags by \"flags\""
+    "date": "2022-08-03T15:19:45-07:00",
+    "hash": "35b7eb21a57090d59762f39a6ec39316a24580d0",
+    "parents": "0981442a6104c6e51e797384e7dd6e3551d88ae2",
+    "subject": "Normative: Always check regular expression flags by \"flags\" (#2791)"
    }
   ],
   "title": "Normative: Always check regular expression flags by \"flags\"",
-  "updated_at": "2022-06-02T21:12:57Z"
+  "updated_at": "2022-08-03T22:20:05Z"
  },
  {
   "base": "df65a85d02acce7a850ad811fa4b530a7cbb4f28",
@@ -1946,26 +1954,6 @@
   ],
   "title": "Editorial: document forbidden extension",
   "updated_at": "2021-10-29T02:26:11Z"
- },
- {
-  "base": "425c7791fc264f02e73eb7b9f14053fc6f430cdd",
-  "created_at": "2021-10-10T19:28:15Z",
-  "head": "aff5c9769312012dfa9837b3f5aa58f7ee7c2c8c",
-  "login": "EricIO",
-  "number": 2550,
-  "ref": "master",
-  "revs": [
-   {
-    "adate": "2021-11-17T23:07:01-08:00",
-    "author": "Eric Skoglund",
-    "date": "2021-11-17T23:07:01-08:00",
-    "hash": "aff5c9769312012dfa9837b3f5aa58f7ee7c2c8c",
-    "parents": "425c7791fc264f02e73eb7b9f14053fc6f430cdd",
-    "subject": "Normative: Clarify validity of negative expanded year 0 (#2550)"
-   }
-  ],
-  "title": "Normative: Clarify validity of negative expanded year 0.",
-  "updated_at": "2021-11-18T07:07:27Z"
  },
  {
   "base": "267fdbdc716677bc9934906a498cf9bad4bfb70d",
