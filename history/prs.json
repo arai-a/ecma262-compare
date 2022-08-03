@@ -1,5 +1,41 @@
 [
  {
+  "base": "df65a85d02acce7a850ad811fa4b530a7cbb4f28",
+  "created_at": "2022-08-03T21:19:42Z",
+  "head": "dd8eb8fe252a3097a70e45b265adeed0fa0e5de7",
+  "login": "tc39",
+  "number": 2842,
+  "ref": "get-value",
+  "revs": [
+   {
+    "adate": "2022-08-03T14:25:58-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2022-08-03T14:25:58-07:00",
+    "hash": "dd8eb8fe252a3097a70e45b265adeed0fa0e5de7",
+    "parents": "5c7b1d4436d46ad4aefac4addf402439bbe31ad4",
+    "subject": "Editorial: GetValue and PutValue do not need to unwrap Completion Records"
+   },
+   {
+    "adate": "2022-08-03T14:25:48-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2022-08-03T14:25:55-07:00",
+    "hash": "5c7b1d4436d46ad4aefac4addf402439bbe31ad4",
+    "parents": "f45919c5e195b5a884e4f9f535cb88a990c4fb0c",
+    "subject": "Editorial: tweak ForIn/OfBodyEvaluation"
+   },
+   {
+    "adate": "2022-08-03T14:10:23-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2022-08-03T14:16:36-07:00",
+    "hash": "f45919c5e195b5a884e4f9f535cb88a990c4fb0c",
+    "parents": "df65a85d02acce7a850ad811fa4b530a7cbb4f28",
+    "subject": "Editorial: unwrap Completion Records before passing to GetValue"
+   }
+  ],
+  "title": "Editorial: GetValue and PutValue do not need to unwrap Completion Records",
+  "updated_at": "2022-08-03T21:26:14Z"
+ },
+ {
   "base": "cdbf72e09b6f269478b534c2531adc410ce27e71",
   "created_at": "2022-07-30T09:08:41Z",
   "head": "ca12cc3c6d4cc2433a4b6c9342e7634bcf286ad2",
@@ -264,34 +300,6 @@
   "updated_at": "2022-07-13T12:40:36Z"
  },
  {
-  "base": "df65a85d02acce7a850ad811fa4b530a7cbb4f28",
-  "created_at": "2022-07-11T21:32:26Z",
-  "head": "fe986b46731ecaa11a84c915a39b8acabb0e4ee0",
-  "login": "tc39",
-  "number": 2822,
-  "ref": "move-dfn-for-maths-values",
-  "revs": [
-   {
-    "adate": "2022-08-03T14:48:39-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-08-03T14:48:39-06:00",
-    "hash": "fe986b46731ecaa11a84c915a39b8acabb0e4ee0",
-    "parents": "f287a43d00753b945927e28371984c0cdc4bdb17",
-    "subject": "address comments"
-   },
-   {
-    "adate": "2022-07-11T15:29:36-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-08-03T14:05:59-06:00",
-    "hash": "f287a43d00753b945927e28371984c0cdc4bdb17",
-    "parents": "df65a85d02acce7a850ad811fa4b530a7cbb4f28",
-    "subject": "change dfn for \"mathematical value\" and add \"mathematical value of\""
-   }
-  ],
-  "title": "change dfn for \"mathematical value\" and add \"mathematical value of\"",
-  "updated_at": "2022-08-03T20:57:40Z"
- },
- {
   "base": "70baf25692ae7d1f6ce51d64a535777f92ca1425",
   "created_at": "2022-07-08T23:59:15Z",
   "head": "2f8081dc47934ba0653e4c010d8de56a5da17296",
@@ -534,26 +542,6 @@
   ],
   "title": "Normative: allow host exotic objects to reject private fields",
   "updated_at": "2022-08-02T21:33:52Z"
- },
- {
-  "base": "f0e4ae8d31afbad55f03d423c200d7d7467ca49a",
-  "created_at": "2022-06-24T11:01:16Z",
-  "head": "16efbacf3f14cac9709d07ef58790c860f04844c",
-  "login": "nicolo-ribaudo",
-  "number": 2806,
-  "ref": "resolve-imported-module-cache-per-realm",
-  "revs": [
-   {
-    "adate": "2022-06-24T12:38:57+02:00",
-    "author": "Nicol\u00f2 Ribaudo",
-    "date": "2022-06-24T19:05:41+02:00",
-    "hash": "16efbacf3f14cac9709d07ef58790c860f04844c",
-    "parents": "f0e4ae8d31afbad55f03d423c200d7d7467ca49a",
-    "subject": "Clarify that the `HostResolveImportedModule` cache is per-Realm"
-   }
-  ],
-  "title": "Clarify that the `HostResolveImportedModule` cache is per-Realm",
-  "updated_at": "2022-06-24T17:05:47Z"
  },
  {
   "base": "f0e4ae8d31afbad55f03d423c200d7d7467ca49a",
