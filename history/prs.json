@@ -264,24 +264,32 @@
   "updated_at": "2022-07-13T12:40:36Z"
  },
  {
-  "base": "358fcc9e5d3dfec3368a29d883f7849a4f6ae4b6",
+  "base": "df65a85d02acce7a850ad811fa4b530a7cbb4f28",
   "created_at": "2022-07-11T21:32:26Z",
-  "head": "811a3242dfa63267ffa73bd7a030f81804efacdb",
+  "head": "fe986b46731ecaa11a84c915a39b8acabb0e4ee0",
   "login": "tc39",
   "number": 2822,
   "ref": "move-dfn-for-maths-values",
   "revs": [
    {
+    "adate": "2022-08-03T14:48:39-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-08-03T14:48:39-06:00",
+    "hash": "fe986b46731ecaa11a84c915a39b8acabb0e4ee0",
+    "parents": "f287a43d00753b945927e28371984c0cdc4bdb17",
+    "subject": "address comments"
+   },
+   {
     "adate": "2022-07-11T15:29:36-06:00",
     "author": "Michael Ficarra",
-    "date": "2022-07-11T15:29:36-06:00",
-    "hash": "811a3242dfa63267ffa73bd7a030f81804efacdb",
-    "parents": "358fcc9e5d3dfec3368a29d883f7849a4f6ae4b6",
+    "date": "2022-08-03T14:05:59-06:00",
+    "hash": "f287a43d00753b945927e28371984c0cdc4bdb17",
+    "parents": "df65a85d02acce7a850ad811fa4b530a7cbb4f28",
     "subject": "change dfn for \"mathematical value\" and add \"mathematical value of\""
    }
   ],
   "title": "change dfn for \"mathematical value\" and add \"mathematical value of\"",
-  "updated_at": "2022-07-11T21:35:03Z"
+  "updated_at": "2022-08-03T20:57:40Z"
  },
  {
   "base": "70baf25692ae7d1f6ce51d64a535777f92ca1425",
@@ -644,13 +652,21 @@
   "updated_at": "2022-06-02T21:12:57Z"
  },
  {
-  "base": "4ec3cd3524281de65a69370a5370f5f3f0914030",
+  "base": "df65a85d02acce7a850ad811fa4b530a7cbb4f28",
   "created_at": "2022-06-02T05:04:32Z",
-  "head": "7e316a89580f15b5d74a4ce0bd04d86da4c29dc6",
+  "head": "d38f8ea5047e19e45a4afc1a5b11a2162861844c",
   "login": "h2oche",
   "number": 2790,
   "ref": "consistify-miscellaneous-phrases",
   "revs": [
+   {
+    "adate": "2022-08-03T13:54:48-07:00",
+    "author": "Michael Ficarra",
+    "date": "2022-08-03T13:54:48-07:00",
+    "hash": "d38f8ea5047e19e45a4afc1a5b11a2162861844c",
+    "parents": "7e316a89580f15b5d74a4ce0bd04d86da4c29dc6 df65a85d02acce7a850ad811fa4b530a7cbb4f28",
+    "subject": "Merge branch 'main' into consistify-miscellaneous-phrases"
+   },
    {
     "adate": "2022-06-02T14:35:55+09:00",
     "author": "h2oche",
@@ -693,7 +709,7 @@
    }
   ],
   "title": "Editorial: Consistify miscellaneous phrases",
-  "updated_at": "2022-06-08T06:30:18Z"
+  "updated_at": "2022-08-03T20:54:49Z"
  },
  {
   "base": "4ec3cd3524281de65a69370a5370f5f3f0914030",
@@ -1356,50 +1372,6 @@
   "updated_at": "2022-04-28T13:53:54Z"
  },
  {
-  "base": "cdbf72e09b6f269478b534c2531adc410ce27e71",
-  "created_at": "2022-04-18T15:17:05Z",
-  "head": "a4c7da98437940da99ced5becce149763ef8f167",
-  "login": "jmdyck",
-  "number": 2744,
-  "ref": "Evaluation",
-  "revs": [
-   {
-    "adate": "2022-04-17T21:05:12-04:00",
-    "author": "Michael Dyck",
-    "date": "2022-07-30T22:21:02-04:00",
-    "hash": "a4c7da98437940da99ced5becce149763ef8f167",
-    "parents": "ea48cf5d1e2b75562222c48422ae12bf0923fa03",
-    "subject": "Editorial: Bugfix: Prevent mis-application of Implicit Normal Completion (#2744)"
-   },
-   {
-    "adate": "2022-04-17T23:58:50-04:00",
-    "author": "Michael Dyck",
-    "date": "2022-07-30T22:18:52-04:00",
-    "hash": "ea48cf5d1e2b75562222c48422ae12bf0923fa03",
-    "parents": "63199110f776388987609788eb6e802530169a2b",
-    "subject": "Editorial: Mark invocations of Evaluation with `?` or `Completion()` (#2744)"
-   },
-   {
-    "adate": "2022-04-17T23:51:13-04:00",
-    "author": "Michael Dyck",
-    "date": "2022-07-30T21:51:55-04:00",
-    "hash": "63199110f776388987609788eb6e802530169a2b",
-    "parents": "a4a6fadfc46d2beb60719b50fb81b7d595ae358b",
-    "subject": "Editorial: Change \"the result of evaluating X\" to \"Evaluation of X\" (#2744)"
-   },
-   {
-    "adate": "2022-04-17T10:38:19-04:00",
-    "author": "Michael Dyck",
-    "date": "2022-07-30T21:50:05-04:00",
-    "hash": "a4a6fadfc46d2beb60719b50fb81b7d595ae358b",
-    "parents": "cdbf72e09b6f269478b534c2531adc410ce27e71",
-    "subject": "Editorial: Make a 'home' section for Evaluation (#2744)"
-   }
-  ],
-  "title": "Editorial: Make `Evaluation` more like regular SDOs",
-  "updated_at": "2022-07-31T02:36:14Z"
- },
- {
   "base": "7ae3ecf219bfaa02bb7f6dd1a668f152ff53e846",
   "created_at": "2022-04-03T03:38:06Z",
   "head": "61e7436a9e2dafdc79b1cc24f4504e4c52ef8bb3",
@@ -1946,34 +1918,6 @@
   ],
   "title": "Normative: Close sync iterator when async wrapper yields rejection",
   "updated_at": "2022-01-26T00:56:42Z"
- },
- {
-  "base": "cdbf72e09b6f269478b534c2531adc410ce27e71",
-  "created_at": "2021-11-29T02:09:26Z",
-  "head": "2d3ecadb42d1f1c0d03d32cfbee06ac8ca25f3ac",
-  "login": "jmdyck",
-  "number": 2592,
-  "ref": "intrinsics_prose",
-  "revs": [
-   {
-    "adate": "2022-08-03T11:44:58-07:00",
-    "author": "Michael Dyck",
-    "date": "2022-08-03T11:44:58-07:00",
-    "hash": "2d3ecadb42d1f1c0d03d32cfbee06ac8ca25f3ac",
-    "parents": "539a242c98bfd7ca135f26c272c1b0a7436a4559",
-    "subject": "Editorial: Consistify prose for intrinsic functions (#2592)"
-   },
-   {
-    "adate": "2022-08-03T11:44:57-07:00",
-    "author": "Michael Dyck",
-    "date": "2022-08-03T11:44:57-07:00",
-    "hash": "539a242c98bfd7ca135f26c272c1b0a7436a4559",
-    "parents": "cdbf72e09b6f269478b534c2531adc410ce27e71",
-    "subject": "Editorial: Fix a few function preambles (#2592)"
-   }
-  ],
-  "title": "Editorial: Consistify prose for intrinsic functions ",
-  "updated_at": "2022-08-03T18:45:07Z"
  },
  {
   "base": "7575f745f26e9f66b2be481144f37ac4a8a9f1c4",
