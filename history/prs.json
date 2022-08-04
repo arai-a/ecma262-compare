@@ -1,5 +1,25 @@
 [
  {
+  "base": "0981442a6104c6e51e797384e7dd6e3551d88ae2",
+  "created_at": "2022-08-04T07:25:35Z",
+  "head": "055690a19a035fa88d5f85bc9d3d17bb44474a9a",
+  "login": "anba",
+  "number": 2844,
+  "ref": "substr-infinity",
+  "revs": [
+   {
+    "adate": "2022-08-04T09:07:31+02:00",
+    "author": "Andr\u00e9 Bargull",
+    "date": "2022-08-04T09:07:31+02:00",
+    "hash": "055690a19a035fa88d5f85bc9d3d17bb44474a9a",
+    "parents": "df65a85d02acce7a850ad811fa4b530a7cbb4f28",
+    "subject": "Editorial: Revert unintentional normative change for String.prototype.substr"
+   }
+  ],
+  "title": "Editorial: Revert unintentional normative change for String.prototype.substr",
+  "updated_at": "2022-08-04T07:33:23Z"
+ },
+ {
   "base": "8edfa9b852fa1cdd95bbee4c78554d76b968b8d3",
   "created_at": "2022-08-03T21:55:25Z",
   "head": "a604f3dcae6db63b941413b5b716f597a7c779e3",
