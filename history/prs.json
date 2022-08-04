@@ -22,11 +22,59 @@
  {
   "base": "0981442a6104c6e51e797384e7dd6e3551d88ae2",
   "created_at": "2022-08-03T21:19:42Z",
-  "head": "3ddbd426decbeedd74d34ab89cace5f9f82d4f74",
+  "head": "2f9e98c9d5af77951dc4f7712623cae481034f5f",
   "login": "tc39",
   "number": 2842,
   "ref": "get-value",
   "revs": [
+   {
+    "adate": "2022-08-03T22:05:30-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2022-08-03T22:05:30-07:00",
+    "hash": "2f9e98c9d5af77951dc4f7712623cae481034f5f",
+    "parents": "67290b6fd4fe46a50c5d65c65a7da1137b436334",
+    "subject": "fixup: constrain PutValue type"
+   },
+   {
+    "adate": "2022-08-03T22:00:59-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2022-08-03T22:00:59-07:00",
+    "hash": "67290b6fd4fe46a50c5d65c65a7da1137b436334",
+    "parents": "9da025eb8fbb94ec6c925d93c618296ede5ddc77",
+    "subject": "fixup: drop \"either\""
+   },
+   {
+    "adate": "2022-08-03T22:00:29-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2022-08-03T22:00:29-07:00",
+    "hash": "9da025eb8fbb94ec6c925d93c618296ede5ddc77",
+    "parents": "73f2743ebb27e462bc5f922bf2aa34508e474fef",
+    "subject": "fixup: InitializeReferencedBinding also does not need to unwrap"
+   },
+   {
+    "adate": "2022-08-03T21:59:02-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2022-08-03T21:59:02-07:00",
+    "hash": "73f2743ebb27e462bc5f922bf2aa34508e474fef",
+    "parents": "b97d2b55bb9ea035a26e4e5f959775a3bdc906c9",
+    "subject": "Editorial: initializing let/const bindings is infallible"
+   },
+   {
+    "adate": "2022-08-03T21:50:14-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2022-08-03T21:50:14-07:00",
+    "hash": "b97d2b55bb9ea035a26e4e5f959775a3bdc906c9",
+    "parents": "9435110eb3170c9372b2c41627a38800ab991432",
+    "subject": "fixup: swap order in ForIn/OfBodyEvaluation"
+   },
+   {
+    "adate": "2022-08-03T21:48:49-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2022-08-03T21:48:49-07:00",
+    "hash": "9435110eb3170c9372b2c41627a38800ab991432",
+    "parents": "3ddbd426decbeedd74d34ab89cace5f9f82d4f74",
+    "subject": "fixup: even further refactor ForIn/OfBodyEvaluation"
+   },
    {
     "adate": "2022-08-03T15:15:34-07:00",
     "author": "Kevin Gibbons",
@@ -61,7 +109,7 @@
    }
   ],
   "title": "Editorial: GetValue and PutValue do not need to unwrap Completion Records",
-  "updated_at": "2022-08-03T22:19:52Z"
+  "updated_at": "2022-08-04T05:08:17Z"
  },
  {
   "base": "0981442a6104c6e51e797384e7dd6e3551d88ae2",
