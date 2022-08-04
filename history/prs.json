@@ -132,26 +132,6 @@
   "updated_at": "2022-08-04T05:08:17Z"
  },
  {
-  "base": "0981442a6104c6e51e797384e7dd6e3551d88ae2",
-  "created_at": "2022-07-30T09:08:41Z",
-  "head": "0f9ecafa317c7ac602189e6d35edd2ec554a31c3",
-  "login": "tc39",
-  "number": 2841,
-  "ref": "dependabot/npm_and_yarn/ws-7.5.9",
-  "revs": [
-   {
-    "adate": "2022-08-03T15:18:29-07:00",
-    "author": "Jordan Harband",
-    "date": "2022-08-03T15:18:29-07:00",
-    "hash": "0f9ecafa317c7ac602189e6d35edd2ec554a31c3",
-    "parents": "0981442a6104c6e51e797384e7dd6e3551d88ae2",
-    "subject": "Meta: `npm update ws json-schema lodash jsdom ajv` (#2841)"
-   }
-  ],
-  "title": "Meta: `npm update ws json-schema lodash jsdom ajv`",
-  "updated_at": "2022-08-03T22:18:41Z"
- },
- {
   "base": "70baf25692ae7d1f6ce51d64a535777f92ca1425",
   "created_at": "2022-07-30T07:09:13Z",
   "head": "1493eb41f6af1ef6bc8f0c8bf09b9637def485e8",
@@ -572,26 +552,6 @@
   "updated_at": "2022-07-07T08:05:20Z"
  },
  {
-  "base": "e61fbe1162d3b6b80848c3535cece3e36f4c08fb",
-  "created_at": "2022-07-06T21:12:41Z",
-  "head": "0374d6a1fcd4f2169e5004f555ea3d0092daa3c8",
-  "login": "tc39",
-  "number": 2812,
-  "ref": "bigint-conversion",
-  "revs": [
-   {
-    "adate": "2022-07-06T14:07:46-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2022-07-06T14:07:46-07:00",
-    "hash": "0374d6a1fcd4f2169e5004f555ea3d0092daa3c8",
-    "parents": "24dc57f66b1152295a1fad076e142e5a9da8d58e",
-    "subject": "Normative: only coerce once in BigInt constructor"
-   }
-  ],
-  "title": "Normative: only coerce once in BigInt constructor",
-  "updated_at": "2022-07-06T21:18:03Z"
- },
- {
   "base": "cdbf72e09b6f269478b534c2531adc410ce27e71",
   "created_at": "2022-06-26T19:17:52Z",
   "head": "039d735b6fc89a4b26f8c66e3828c64494b7680a",
@@ -694,26 +654,6 @@
   ],
   "title": "Editorial: Add an optional type restriction to IterableToList",
   "updated_at": "2022-06-16T13:50:22Z"
- },
- {
-  "base": "0981442a6104c6e51e797384e7dd6e3551d88ae2",
-  "created_at": "2022-06-02T20:57:38Z",
-  "head": "35b7eb21a57090d59762f39a6ec39316a24580d0",
-  "login": "gibson042",
-  "number": 2791,
-  "ref": "2022-06-check-regexp-by-flags",
-  "revs": [
-   {
-    "adate": "2022-08-03T15:19:45-07:00",
-    "author": "Richard Gibson",
-    "date": "2022-08-03T15:19:45-07:00",
-    "hash": "35b7eb21a57090d59762f39a6ec39316a24580d0",
-    "parents": "0981442a6104c6e51e797384e7dd6e3551d88ae2",
-    "subject": "Normative: Always check regular expression flags by \"flags\" (#2791)"
-   }
-  ],
-  "title": "Normative: Always check regular expression flags by \"flags\"",
-  "updated_at": "2022-08-03T22:20:05Z"
  },
  {
   "base": "df65a85d02acce7a850ad811fa4b530a7cbb4f28",
@@ -892,24 +832,32 @@
   "updated_at": "2022-05-24T18:01:25Z"
  },
  {
-  "base": "7ae3ecf219bfaa02bb7f6dd1a668f152ff53e846",
+  "base": "f51220064c6387953cf749615b73a315564f77c6",
   "created_at": "2022-05-20T01:14:09Z",
-  "head": "16dacb60cda2ebac0efac143c5c36451042b5931",
+  "head": "20ee1981a4d59f155e9ab2d7fcb541b233d2fbe1",
   "login": "ptomato",
   "number": 2781,
   "ref": "default-time-zone",
   "revs": [
    {
+    "adate": "2022-08-04T12:12:09-07:00",
+    "author": "Philip Chimento",
+    "date": "2022-08-04T12:12:09-07:00",
+    "hash": "20ee1981a4d59f155e9ab2d7fcb541b233d2fbe1",
+    "parents": "f529de6c6cb97bf7ef83e0819f47383dc9d774cb",
+    "subject": "Address code review comments (squash before merging)"
+   },
+   {
     "adate": "2022-05-19T18:02:22-07:00",
     "author": "Philip Chimento",
-    "date": "2022-05-24T12:54:12-07:00",
-    "hash": "16dacb60cda2ebac0efac143c5c36451042b5931",
-    "parents": "7c120199bf159960d46e216aa090887c1e2e584c",
+    "date": "2022-08-04T10:31:29-07:00",
+    "hash": "f529de6c6cb97bf7ef83e0819f47383dc9d774cb",
+    "parents": "0981442a6104c6e51e797384e7dd6e3551d88ae2",
     "subject": "Normative: Use DefaultTimeZone to get the local time zone for Date"
    }
   ],
   "title": "Normative: Use DefaultTimeZone to get the local time zone for Date",
-  "updated_at": "2022-05-24T19:54:51Z"
+  "updated_at": "2022-08-04T19:14:20Z"
  },
  {
   "base": "7c120199bf159960d46e216aa090887c1e2e584c",
