@@ -1704,32 +1704,40 @@
   "updated_at": "2022-03-10T02:45:10Z"
  },
  {
-  "base": "15a7d8af7c8d589b401d93a8c3bdade5375bf75e",
+  "base": "0981442a6104c6e51e797384e7dd6e3551d88ae2",
   "created_at": "2022-02-03T00:11:16Z",
-  "head": "3a55d888277060a189fa3ec20d8c63b2d4e02a5b",
+  "head": "5f8603723eaabe35f7860e08ca90db2281a63c7c",
   "login": "tc39",
   "number": 2649,
   "ref": "stable-Unicode-property-spellings",
   "revs": [
    {
+    "adate": "2022-08-03T19:51:55-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-08-03T19:52:41-06:00",
+    "hash": "5f8603723eaabe35f7860e08ca90db2281a63c7c",
+    "parents": "7438005d798a71c4ff2487fc4796a6f3de2dce59",
+    "subject": "move note"
+   },
+   {
     "adate": "2022-02-03T08:31:08-07:00",
     "author": "Michael Ficarra",
-    "date": "2022-02-03T08:31:08-07:00",
-    "hash": "3a55d888277060a189fa3ec20d8c63b2d4e02a5b",
-    "parents": "bad6988ab34ced476e50a07ee10a098162a12bbc",
+    "date": "2022-08-03T19:40:35-06:00",
+    "hash": "7438005d798a71c4ff2487fc4796a6f3de2dce59",
+    "parents": "7e9bb8637a88d70f0098daa667a3b988aa3cff85",
     "subject": "minor wording improvements"
    },
    {
     "adate": "2022-02-02T17:08:00-07:00",
     "author": "Michael Ficarra",
-    "date": "2022-02-02T17:08:00-07:00",
-    "hash": "bad6988ab34ced476e50a07ee10a098162a12bbc",
-    "parents": "b8070961debf63012bb9ae7189851ed2382ce752",
+    "date": "2022-08-03T19:40:34-06:00",
+    "hash": "7e9bb8637a88d70f0098daa667a3b988aa3cff85",
+    "parents": "0981442a6104c6e51e797384e7dd6e3551d88ae2",
     "subject": "Normative: remove tables of Unicode property values and aliases"
    }
   ],
   "title": "Normative: remove tables of Unicode property values and aliases",
-  "updated_at": "2022-02-03T15:31:31Z"
+  "updated_at": "2022-08-04T01:59:48Z"
  },
  {
   "base": "714fa3dd1e8237ae9c666146270f81880089eca5",
