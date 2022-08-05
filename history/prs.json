@@ -20,26 +20,6 @@
   "updated_at": "2022-08-04T07:33:23Z"
  },
  {
-  "base": "8edfa9b852fa1cdd95bbee4c78554d76b968b8d3",
-  "created_at": "2022-08-03T21:55:25Z",
-  "head": "a604f3dcae6db63b941413b5b716f597a7c779e3",
-  "login": "tc39",
-  "number": 2843,
-  "ref": "move-RegExpHasFlag",
-  "revs": [
-   {
-    "adate": "2022-08-03T15:54:32-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-08-03T15:57:58-06:00",
-    "hash": "a604f3dcae6db63b941413b5b716f597a7c779e3",
-    "parents": "8edfa9b852fa1cdd95bbee4c78554d76b968b8d3",
-    "subject": "Editorial: move RegExpHasFlag out of the dotAll section"
-   }
-  ],
-  "title": "Editorial: move RegExpHasFlag out of the dotAll section",
-  "updated_at": "2022-08-03T21:59:34Z"
- },
- {
   "base": "0981442a6104c6e51e797384e7dd6e3551d88ae2",
   "created_at": "2022-08-03T21:19:42Z",
   "head": "2f9e98c9d5af77951dc4f7712623cae481034f5f",
@@ -154,11 +134,27 @@
  {
   "base": "70baf25692ae7d1f6ce51d64a535777f92ca1425",
   "created_at": "2022-07-28T19:00:52Z",
-  "head": "6f814e864b543fae9bce22f1dc9553bef1e85c1b",
+  "head": "f457afdec7e00ed2b9720fef02ab29f4fd3d4a93",
   "login": "gibson042",
   "number": 2839,
   "ref": "gh-2570-consolidate-ascii",
   "revs": [
+   {
+    "adate": "2022-08-04T21:50:33-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-08-04T21:50:33-04:00",
+    "hash": "f457afdec7e00ed2b9720fef02ab29f4fd3d4a93",
+    "parents": "7fdb9956091a86636d0ac50722f4e138deffd443",
+    "subject": "Editorial: Revert change referencing AsciiLetter from IdentifierStartChar"
+   },
+   {
+    "adate": "2022-08-04T21:50:02-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-08-04T21:50:02-04:00",
+    "hash": "7fdb9956091a86636d0ac50722f4e138deffd443",
+    "parents": "6f814e864b543fae9bce22f1dc9553bef1e85c1b",
+    "subject": "Editorial: Separate words in ids with dash"
+   },
    {
     "adate": "2022-07-28T14:56:23-04:00",
     "author": "Richard Gibson",
@@ -209,7 +205,7 @@
    }
   ],
   "title": "Editorial: Consolidate use of ASCII subsets",
-  "updated_at": "2022-07-28T19:00:52Z"
+  "updated_at": "2022-08-05T01:51:26Z"
  },
  {
   "base": "cf86f1cdc28e809170733d74ea64fd0f3dd79f78",
