@@ -1,6 +1,26 @@
 [
  {
   "base": "ffe1ace1c0334b8b3816d3778ae3132d7fd1feb7",
+  "created_at": "2022-08-08T21:34:58Z",
+  "head": "6d77246de951fdd7618dec6eb849bd9535ba6306",
+  "login": "gibson042",
+  "number": 2852,
+  "ref": "2022-08-replaced-padded-prose",
+  "revs": [
+   {
+    "adate": "2022-08-08T17:34:03-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-08-08T17:34:03-04:00",
+    "hash": "6d77246de951fdd7618dec6eb849bd9535ba6306",
+    "parents": "ffe1ace1c0334b8b3816d3778ae3132d7fd1feb7",
+    "subject": "Editorial: Use StringPad rather than \"padded\" prose"
+   }
+  ],
+  "title": "Editorial: Use StringPad rather than \"padded\" prose",
+  "updated_at": "2022-08-08T21:38:10Z"
+ },
+ {
+  "base": "ffe1ace1c0334b8b3816d3778ae3132d7fd1feb7",
   "created_at": "2022-08-08T18:48:03Z",
   "head": "d4d7282a20c43e48c012812a96ef700563181042",
   "login": "tc39",
@@ -242,11 +262,19 @@
  {
   "base": "70baf25692ae7d1f6ce51d64a535777f92ca1425",
   "created_at": "2022-07-28T19:00:52Z",
-  "head": "f457afdec7e00ed2b9720fef02ab29f4fd3d4a93",
+  "head": "c157f7746f09ae357c673b2d962030cfb74ab88b",
   "login": "gibson042",
   "number": 2839,
   "ref": "gh-2570-consolidate-ascii",
   "revs": [
+   {
+    "adate": "2022-08-08T17:25:49-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-08-08T17:25:49-04:00",
+    "hash": "c157f7746f09ae357c673b2d962030cfb74ab88b",
+    "parents": "f457afdec7e00ed2b9720fef02ab29f4fd3d4a93",
+    "subject": "Editorial: Use StringPad rather than \"padded\" prose in Encode and escape"
+   },
    {
     "adate": "2022-08-04T21:50:33-04:00",
     "author": "Richard Gibson",
@@ -313,7 +341,7 @@
    }
   ],
   "title": "Editorial: Consolidate use of ASCII subsets",
-  "updated_at": "2022-08-05T01:51:26Z"
+  "updated_at": "2022-08-08T21:35:47Z"
  },
  {
   "base": "cf86f1cdc28e809170733d74ea64fd0f3dd79f78",
@@ -1834,11 +1862,19 @@
  {
   "base": "0981442a6104c6e51e797384e7dd6e3551d88ae2",
   "created_at": "2022-02-03T00:11:16Z",
-  "head": "5f8603723eaabe35f7860e08ca90db2281a63c7c",
+  "head": "e7496c38c3742a5ae4c40784593755a9b4a91925",
   "login": "tc39",
   "number": 2649,
   "ref": "stable-Unicode-property-spellings",
   "revs": [
+   {
+    "adate": "2022-08-08T15:24:32-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-08-08T15:24:32-06:00",
+    "hash": "e7496c38c3742a5ae4c40784593755a9b4a91925",
+    "parents": "5f8603723eaabe35f7860e08ca90db2281a63c7c",
+    "subject": "new note wording"
+   },
    {
     "adate": "2022-08-03T19:51:55-06:00",
     "author": "Michael Ficarra",
@@ -1865,7 +1901,7 @@
    }
   ],
   "title": "Normative: remove tables of Unicode property values and aliases",
-  "updated_at": "2022-08-04T01:59:48Z"
+  "updated_at": "2022-08-08T21:25:41Z"
  },
  {
   "base": "714fa3dd1e8237ae9c666146270f81880089eca5",
