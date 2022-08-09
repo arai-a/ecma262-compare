@@ -292,9 +292,9 @@
   "updated_at": "2022-07-30T07:09:13Z"
  },
  {
-  "base": "70baf25692ae7d1f6ce51d64a535777f92ca1425",
+  "base": "ffe1ace1c0334b8b3816d3778ae3132d7fd1feb7",
   "created_at": "2022-07-28T19:00:52Z",
-  "head": "c157f7746f09ae357c673b2d962030cfb74ab88b",
+  "head": "612b42f006403ccf83f1a8bacc0e94a1f8488322",
   "login": "gibson042",
   "number": 2839,
   "ref": "gh-2570-consolidate-ascii",
@@ -302,78 +302,78 @@
    {
     "adate": "2022-08-08T17:25:49-04:00",
     "author": "Richard Gibson",
-    "date": "2022-08-08T17:25:49-04:00",
-    "hash": "c157f7746f09ae357c673b2d962030cfb74ab88b",
-    "parents": "f457afdec7e00ed2b9720fef02ab29f4fd3d4a93",
+    "date": "2022-08-08T22:50:55-04:00",
+    "hash": "612b42f006403ccf83f1a8bacc0e94a1f8488322",
+    "parents": "49c1f1b6f06f8f6cc96542da37100715b2c86b57",
     "subject": "Editorial: Use StringPad rather than \"padded\" prose in Encode and escape"
    },
    {
     "adate": "2022-08-04T21:50:33-04:00",
     "author": "Richard Gibson",
-    "date": "2022-08-04T21:50:33-04:00",
-    "hash": "f457afdec7e00ed2b9720fef02ab29f4fd3d4a93",
-    "parents": "7fdb9956091a86636d0ac50722f4e138deffd443",
+    "date": "2022-08-08T22:50:55-04:00",
+    "hash": "49c1f1b6f06f8f6cc96542da37100715b2c86b57",
+    "parents": "f532840448bb24daccd8f07f8be5586e74fdfcf3",
     "subject": "Editorial: Revert change referencing AsciiLetter from IdentifierStartChar"
    },
    {
     "adate": "2022-08-04T21:50:02-04:00",
     "author": "Richard Gibson",
-    "date": "2022-08-04T21:50:02-04:00",
-    "hash": "7fdb9956091a86636d0ac50722f4e138deffd443",
-    "parents": "6f814e864b543fae9bce22f1dc9553bef1e85c1b",
+    "date": "2022-08-08T22:50:55-04:00",
+    "hash": "f532840448bb24daccd8f07f8be5586e74fdfcf3",
+    "parents": "97ca70548608013afb3bb00b293fc7658817db60",
     "subject": "Editorial: Separate words in ids with dash"
    },
    {
     "adate": "2022-07-28T14:56:23-04:00",
     "author": "Richard Gibson",
-    "date": "2022-07-28T14:56:28-04:00",
-    "hash": "6f814e864b543fae9bce22f1dc9553bef1e85c1b",
-    "parents": "f5964a555543aac663bf351f495da505775d2b68",
+    "date": "2022-08-08T22:50:55-04:00",
+    "hash": "97ca70548608013afb3bb00b293fc7658817db60",
+    "parents": "e508c27673c596f067f3782f98c089d0a9fb8b01",
     "subject": "Editorial: Replace |ControlLetter| with |AsciiLetter|"
    },
    {
     "adate": "2022-07-28T14:45:26-04:00",
     "author": "Richard Gibson",
-    "date": "2022-07-28T14:53:12-04:00",
-    "hash": "f5964a555543aac663bf351f495da505775d2b68",
-    "parents": "b035910dae6b9d4df92e9dea35c24d482914eb76",
+    "date": "2022-08-08T22:50:53-04:00",
+    "hash": "e508c27673c596f067f3782f98c089d0a9fb8b01",
+    "parents": "865786f296def591e215aca9c9baff9bc8b462be",
     "subject": "Editorial: Refactor `escape` for clarity"
    },
    {
     "adate": "2022-07-28T14:44:25-04:00",
     "author": "Richard Gibson",
-    "date": "2022-07-28T14:53:12-04:00",
-    "hash": "b035910dae6b9d4df92e9dea35c24d482914eb76",
-    "parents": "3c235cfce5c9f50abfd494910e0acf411ca5513c",
+    "date": "2022-08-08T22:47:49-04:00",
+    "hash": "865786f296def591e215aca9c9baff9bc8b462be",
+    "parents": "baab39c797f4905e10d266335b5ca93f27d7bd2f",
     "subject": "Editorial: Remove \"URI Syntax and Semantics\""
    },
    {
     "adate": "2022-07-28T14:39:28-04:00",
     "author": "Richard Gibson",
-    "date": "2022-07-28T14:39:28-04:00",
-    "hash": "3c235cfce5c9f50abfd494910e0acf411ca5513c",
-    "parents": "92984adaaa830eacb90d22928ff3885c423ca059",
+    "date": "2022-08-08T22:47:47-04:00",
+    "hash": "baab39c797f4905e10d266335b5ca93f27d7bd2f",
+    "parents": "0402fba3a0fe00c40e6cb0feabe1ae1444b39cb6",
     "subject": "Editorial: Refactor URI Handling Functions for clarity"
    },
    {
     "adate": "2022-07-28T14:37:33-04:00",
     "author": "Richard Gibson",
-    "date": "2022-07-28T14:37:33-04:00",
-    "hash": "92984adaaa830eacb90d22928ff3885c423ca059",
-    "parents": "f66b48132045e771b520101a973e38d3d493c58e",
+    "date": "2022-08-08T22:32:07-04:00",
+    "hash": "0402fba3a0fe00c40e6cb0feabe1ae1444b39cb6",
+    "parents": "f649a22dd1b7d4e0e31dace1a51f1659a5e38090",
     "subject": "Editorial: Refer to Unicode Basic Latin as \"block\" rather than \"range\""
    },
    {
     "adate": "2022-07-28T14:33:58-04:00",
     "author": "Richard Gibson",
-    "date": "2022-07-28T14:33:58-04:00",
-    "hash": "f66b48132045e771b520101a973e38d3d493c58e",
-    "parents": "70baf25692ae7d1f6ce51d64a535777f92ca1425",
+    "date": "2022-08-08T22:32:07-04:00",
+    "hash": "f649a22dd1b7d4e0e31dace1a51f1659a5e38090",
+    "parents": "ffe1ace1c0334b8b3816d3778ae3132d7fd1feb7",
     "subject": "Editorial: Introduce a definition for ASCII word characters"
    }
   ],
   "title": "Editorial: Consolidate use of ASCII subsets",
-  "updated_at": "2022-08-08T21:35:47Z"
+  "updated_at": "2022-08-09T02:52:36Z"
  },
  {
   "base": "cf86f1cdc28e809170733d74ea64fd0f3dd79f78",
@@ -820,64 +820,64 @@
   "updated_at": "2022-06-16T13:50:22Z"
  },
  {
-  "base": "df65a85d02acce7a850ad811fa4b530a7cbb4f28",
+  "base": "ffe1ace1c0334b8b3816d3778ae3132d7fd1feb7",
   "created_at": "2022-06-02T05:04:32Z",
-  "head": "d38f8ea5047e19e45a4afc1a5b11a2162861844c",
+  "head": "039b7e432be28ec349113824558a56720ac3697d",
   "login": "h2oche",
   "number": 2790,
   "ref": "consistify-miscellaneous-phrases",
   "revs": [
    {
-    "adate": "2022-08-03T13:54:48-07:00",
+    "adate": "2022-08-08T19:43:53-06:00",
     "author": "Michael Ficarra",
-    "date": "2022-08-03T13:54:48-07:00",
-    "hash": "d38f8ea5047e19e45a4afc1a5b11a2162861844c",
-    "parents": "7e316a89580f15b5d74a4ce0bd04d86da4c29dc6 df65a85d02acce7a850ad811fa4b530a7cbb4f28",
-    "subject": "Merge branch 'main' into consistify-miscellaneous-phrases"
+    "date": "2022-08-08T19:44:24-06:00",
+    "hash": "039b7e432be28ec349113824558a56720ac3697d",
+    "parents": "14916547b6d88d89d67f40b33dacf4f3d0ec0663",
+    "subject": "use \"add\" instead of \"append\" for adding to sets"
    },
    {
     "adate": "2022-06-02T14:35:55+09:00",
     "author": "h2oche",
-    "date": "2022-06-02T14:35:55+09:00",
-    "hash": "7e316a89580f15b5d74a4ce0bd04d86da4c29dc6",
-    "parents": "72033008284369461d258bd287889169d95d9700",
+    "date": "2022-08-08T19:44:24-06:00",
+    "hash": "14916547b6d88d89d67f40b33dacf4f3d0ec0663",
+    "parents": "87976ff6227f4383321e83c8cdc0b01619a98563",
     "subject": "Editorial: Use consistent wording for appending an element to list"
    },
    {
     "adate": "2022-06-02T13:57:43+09:00",
     "author": "h2oche",
-    "date": "2022-06-02T13:57:43+09:00",
-    "hash": "72033008284369461d258bd287889169d95d9700",
-    "parents": "cb9c327783cd115d60119c8b5aac5d8c97a59a17",
+    "date": "2022-08-08T19:44:24-06:00",
+    "hash": "87976ff6227f4383321e83c8cdc0b01619a98563",
+    "parents": "e2b6f9bec3fd129d10bbfc3fd2cabe2e7b8168d0",
     "subject": "Editorial: Use consistent wording for referring to the running execution context"
    },
    {
     "adate": "2022-06-02T13:51:07+09:00",
     "author": "h2oche",
-    "date": "2022-06-02T13:51:07+09:00",
-    "hash": "cb9c327783cd115d60119c8b5aac5d8c97a59a17",
-    "parents": "0adea3e5311ac73463421ffd78662c2f3fa5930d",
+    "date": "2022-08-08T19:44:23-06:00",
+    "hash": "e2b6f9bec3fd129d10bbfc3fd2cabe2e7b8168d0",
+    "parents": "44e8a53a82e9dfb8bea1a1aa4f675f76d1937cf7",
     "subject": "Editorial: Use consistent wording for the active function object"
    },
    {
     "adate": "2022-06-02T13:47:13+09:00",
     "author": "h2oche",
-    "date": "2022-06-02T13:47:13+09:00",
-    "hash": "0adea3e5311ac73463421ffd78662c2f3fa5930d",
-    "parents": "c5053cad1ff96917e5ac4fb748ad7494009f4404",
+    "date": "2022-08-08T19:44:23-06:00",
+    "hash": "44e8a53a82e9dfb8bea1a1aa4f675f76d1937cf7",
+    "parents": "55e77afda8b0a707d9bc7412385540ebbff5e45b",
     "subject": "Editorial: Use consistent wording for checking empty list"
    },
    {
     "adate": "2022-06-02T13:40:03+09:00",
     "author": "h2oche",
-    "date": "2022-06-02T13:40:03+09:00",
-    "hash": "c5053cad1ff96917e5ac4fb748ad7494009f4404",
-    "parents": "4ec3cd3524281de65a69370a5370f5f3f0914030",
+    "date": "2022-08-08T19:44:23-06:00",
+    "hash": "55e77afda8b0a707d9bc7412385540ebbff5e45b",
+    "parents": "ffe1ace1c0334b8b3816d3778ae3132d7fd1feb7",
     "subject": "Editorial: Use consistent wording for 'the sole element of'"
    }
   ],
   "title": "Editorial: Consistify miscellaneous phrases",
-  "updated_at": "2022-08-03T20:54:49Z"
+  "updated_at": "2022-08-09T01:46:24Z"
  },
  {
   "base": "4ec3cd3524281de65a69370a5370f5f3f0914030",
