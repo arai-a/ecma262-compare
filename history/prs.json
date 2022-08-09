@@ -1,26 +1,6 @@
 [
  {
   "base": "ffe1ace1c0334b8b3816d3778ae3132d7fd1feb7",
-  "created_at": "2022-08-08T21:34:58Z",
-  "head": "6d77246de951fdd7618dec6eb849bd9535ba6306",
-  "login": "gibson042",
-  "number": 2852,
-  "ref": "2022-08-replaced-padded-prose",
-  "revs": [
-   {
-    "adate": "2022-08-08T17:34:03-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-08-08T17:34:03-04:00",
-    "hash": "6d77246de951fdd7618dec6eb849bd9535ba6306",
-    "parents": "ffe1ace1c0334b8b3816d3778ae3132d7fd1feb7",
-    "subject": "Editorial: Use StringPad rather than \"padded\" prose"
-   }
-  ],
-  "title": "Editorial: Use StringPad rather than \"padded\" prose",
-  "updated_at": "2022-08-08T21:38:10Z"
- },
- {
-  "base": "ffe1ace1c0334b8b3816d3778ae3132d7fd1feb7",
   "created_at": "2022-08-08T18:48:03Z",
   "head": "d4d7282a20c43e48c012812a96ef700563181042",
   "login": "tc39",
@@ -745,26 +725,6 @@
  },
  {
   "base": "f0e4ae8d31afbad55f03d423c200d7d7467ca49a",
-  "created_at": "2022-06-22T15:19:04Z",
-  "head": "c730766ada1b63bf0b3d85112f5e302211491281",
-  "login": "nicolo-ribaudo",
-  "number": 2801,
-  "ref": "import-specifier-string",
-  "revs": [
-   {
-    "adate": "2022-06-22T17:18:30+02:00",
-    "author": "Nicol\u00f2 Ribaudo",
-    "date": "2022-06-22T17:19:42+02:00",
-    "hash": "c730766ada1b63bf0b3d85112f5e302211491281",
-    "parents": "f0e4ae8d31afbad55f03d423c200d7d7467ca49a",
-    "subject": "Editorial: `HostImportModuleDynamically`'s specifier can be any string"
-   }
-  ],
-  "title": "Editorial: `HostImportModuleDynamically`'s specifier can be any string",
-  "updated_at": "2022-06-22T15:19:52Z"
- },
- {
-  "base": "f0e4ae8d31afbad55f03d423c200d7d7467ca49a",
   "created_at": "2022-06-17T10:55:52Z",
   "head": "2c19663306376f28f71d29206594608e5a694d6b",
   "login": "F3n67u",
@@ -818,66 +778,6 @@
   ],
   "title": "Editorial: Add an optional type restriction to IterableToList",
   "updated_at": "2022-06-16T13:50:22Z"
- },
- {
-  "base": "ffe1ace1c0334b8b3816d3778ae3132d7fd1feb7",
-  "created_at": "2022-06-02T05:04:32Z",
-  "head": "039b7e432be28ec349113824558a56720ac3697d",
-  "login": "h2oche",
-  "number": 2790,
-  "ref": "consistify-miscellaneous-phrases",
-  "revs": [
-   {
-    "adate": "2022-08-08T19:43:53-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-08-08T19:44:24-06:00",
-    "hash": "039b7e432be28ec349113824558a56720ac3697d",
-    "parents": "14916547b6d88d89d67f40b33dacf4f3d0ec0663",
-    "subject": "use \"add\" instead of \"append\" for adding to sets"
-   },
-   {
-    "adate": "2022-06-02T14:35:55+09:00",
-    "author": "h2oche",
-    "date": "2022-08-08T19:44:24-06:00",
-    "hash": "14916547b6d88d89d67f40b33dacf4f3d0ec0663",
-    "parents": "87976ff6227f4383321e83c8cdc0b01619a98563",
-    "subject": "Editorial: Use consistent wording for appending an element to list"
-   },
-   {
-    "adate": "2022-06-02T13:57:43+09:00",
-    "author": "h2oche",
-    "date": "2022-08-08T19:44:24-06:00",
-    "hash": "87976ff6227f4383321e83c8cdc0b01619a98563",
-    "parents": "e2b6f9bec3fd129d10bbfc3fd2cabe2e7b8168d0",
-    "subject": "Editorial: Use consistent wording for referring to the running execution context"
-   },
-   {
-    "adate": "2022-06-02T13:51:07+09:00",
-    "author": "h2oche",
-    "date": "2022-08-08T19:44:23-06:00",
-    "hash": "e2b6f9bec3fd129d10bbfc3fd2cabe2e7b8168d0",
-    "parents": "44e8a53a82e9dfb8bea1a1aa4f675f76d1937cf7",
-    "subject": "Editorial: Use consistent wording for the active function object"
-   },
-   {
-    "adate": "2022-06-02T13:47:13+09:00",
-    "author": "h2oche",
-    "date": "2022-08-08T19:44:23-06:00",
-    "hash": "44e8a53a82e9dfb8bea1a1aa4f675f76d1937cf7",
-    "parents": "55e77afda8b0a707d9bc7412385540ebbff5e45b",
-    "subject": "Editorial: Use consistent wording for checking empty list"
-   },
-   {
-    "adate": "2022-06-02T13:40:03+09:00",
-    "author": "h2oche",
-    "date": "2022-08-08T19:44:23-06:00",
-    "hash": "55e77afda8b0a707d9bc7412385540ebbff5e45b",
-    "parents": "ffe1ace1c0334b8b3816d3778ae3132d7fd1feb7",
-    "subject": "Editorial: Use consistent wording for 'the sole element of'"
-   }
-  ],
-  "title": "Editorial: Consistify miscellaneous phrases",
-  "updated_at": "2022-08-09T01:46:24Z"
  },
  {
   "base": "4ec3cd3524281de65a69370a5370f5f3f0914030",
@@ -1264,24 +1164,32 @@
   "updated_at": "2022-05-09T23:00:07Z"
  },
  {
-  "base": "fb5e39af09b926f36538bc62b87f5b7b5370f9e7",
+  "base": "cb4224156c54156f30c18c50784c1b0148ebfae5",
   "created_at": "2022-05-03T16:47:52Z",
-  "head": "e285fede94def1242a2b4089341d1c0e514abba9",
+  "head": "ed90883fdc74f8aa312de8cbf093c453cebb7f78",
   "login": "tc39",
   "number": 2766,
   "ref": "map-foreach",
   "revs": [
    {
+    "adate": "2022-08-09T12:26:51-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2022-08-09T12:27:01-07:00",
+    "hash": "ed90883fdc74f8aa312de8cbf093c453cebb7f78",
+    "parents": "69f2e2295eed5b54c5d834c9b4f71fca8424053e",
+    "subject": "fixup: reorder loop head"
+   },
+   {
     "adate": "2022-05-03T09:39:31-07:00",
     "author": "Kevin Gibbons",
-    "date": "2022-05-03T09:39:31-07:00",
-    "hash": "e285fede94def1242a2b4089341d1c0e514abba9",
-    "parents": "fb5e39af09b926f36538bc62b87f5b7b5370f9e7",
+    "date": "2022-08-09T12:26:57-07:00",
+    "hash": "69f2e2295eed5b54c5d834c9b4f71fca8424053e",
+    "parents": "cb4224156c54156f30c18c50784c1b0148ebfae5",
     "subject": "Editorial: Specify Map/Set forEach more explicitly"
    }
   ],
   "title": "Editorial: Specify Map/Set forEach more explicitly",
-  "updated_at": "2022-05-03T16:47:52Z"
+  "updated_at": "2022-08-09T19:27:11Z"
  },
  {
   "base": "4ec3cd3524281de65a69370a5370f5f3f0914030",
@@ -1934,26 +1842,6 @@
   ],
   "title": "Normative: remove tables of Unicode property values and aliases",
   "updated_at": "2022-08-08T21:25:41Z"
- },
- {
-  "base": "714fa3dd1e8237ae9c666146270f81880089eca5",
-  "created_at": "2022-01-26T05:12:20Z",
-  "head": "6a6872595426b6a6e4e6e18f94c874414c94b6d1",
-  "login": "jmdyck",
-  "number": 2640,
-  "ref": "Capitalize_ER",
-  "revs": [
-   {
-    "adate": "2022-01-25T22:46:44-05:00",
-    "author": "Michael Dyck",
-    "date": "2022-04-28T09:58:43-04:00",
-    "hash": "6a6872595426b6a6e4e6e18f94c874414c94b6d1",
-    "parents": "714fa3dd1e8237ae9c666146270f81880089eca5",
-    "subject": "Editorial: Capitalize Environment Record subtype names"
-   }
-  ],
-  "title": "Editorial: Capitalize Environment Record subtype names",
-  "updated_at": "2022-04-28T14:00:24Z"
  },
  {
   "base": "ad096b3b2fc27c3cd2524974fe76ab8d041e4290",
