@@ -1,5 +1,45 @@
 [
  {
+  "adate": "2022-08-10T15:02:07-07:00",
+  "author": "Richard Gibson",
+  "date": "2022-08-10T15:02:07-07:00",
+  "hash": "1f4b4644b4fd22a2257c0b946199b7cc8b3d7072",
+  "parents": "72cc97566ad2b7ec17036625bc8a1ccf6cbb1b8e",
+  "subject": "Editorial: Make the numeric string grammar summary more similar to other grammars (#2773)"
+ },
+ {
+  "adate": "2022-08-10T15:02:04-07:00",
+  "author": "Richard Gibson",
+  "date": "2022-08-10T15:02:04-07:00",
+  "hash": "72cc97566ad2b7ec17036625bc8a1ccf6cbb1b8e",
+  "parents": "0c363d002d4a4de7fb69456f15da5383a005aa0c",
+  "subject": "Editorial: Imply semantics for \":::\" grammars (#2773)"
+ },
+ {
+  "adate": "2022-08-10T14:58:08-07:00",
+  "author": "Kevin Gibbons",
+  "date": "2022-08-10T14:58:08-07:00",
+  "hash": "0c363d002d4a4de7fb69456f15da5383a005aa0c",
+  "parents": "88858cf68cd577c6fd5d4b3d4a4e9bef96e78783",
+  "subject": "Editorial: Specify Map/Set forEach more explicitly (#2766)"
+ },
+ {
+  "adate": "2022-08-10T14:50:20-07:00",
+  "author": "Linus Groh",
+  "date": "2022-08-10T14:50:20-07:00",
+  "hash": "88858cf68cd577c6fd5d4b3d4a4e9bef96e78783",
+  "parents": "3620f11e3d75b225fabd43d922dae5cfb976df79",
+  "subject": "Editorial: Correct notes in Create{Method,NonEnumerableData}Property (#2759)"
+ },
+ {
+  "adate": "2022-08-10T14:42:51-07:00",
+  "author": "Alexey Shvayka",
+  "date": "2022-08-10T14:42:51-07:00",
+  "hash": "3620f11e3d75b225fabd43d922dae5cfb976df79",
+  "parents": "cb4224156c54156f30c18c50784c1b0148ebfae5",
+  "subject": "Normative: Guard IntegerIndexedElementSet with receiver check (#1556)"
+ },
+ {
   "adate": "2022-08-08T22:57:29-07:00",
   "author": "Nicol\u00f2 Ribaudo",
   "date": "2022-08-08T22:57:29-07:00",

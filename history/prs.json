@@ -536,66 +536,6 @@
   "updated_at": "2022-07-28T02:27:44Z"
  },
  {
-  "base": "70baf25692ae7d1f6ce51d64a535777f92ca1425",
-  "created_at": "2022-07-08T02:09:31Z",
-  "head": "224358fa2a41cda928addf0e532f87e74019709a",
-  "login": "tc39",
-  "number": 2820,
-  "ref": "ecmascript-code",
-  "revs": [
-   {
-    "adate": "2022-07-27T20:34:02-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-07-27T20:34:41-06:00",
-    "hash": "224358fa2a41cda928addf0e532f87e74019709a",
-    "parents": "50d507bb3954a1ae5d5ff1e4024e26ed2058449b",
-    "subject": "editor call feedback"
-   },
-   {
-    "adate": "2022-07-22T17:58:35-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-07-27T20:34:41-06:00",
-    "hash": "50d507bb3954a1ae5d5ff1e4024e26ed2058449b",
-    "parents": "007cabc6b37bffe64c8c7936035ddfc73d081108",
-    "subject": "extract dfns"
-   },
-   {
-    "adate": "2022-07-22T17:32:48-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-07-27T20:34:41-06:00",
-    "hash": "007cabc6b37bffe64c8c7936035ddfc73d081108",
-    "parents": "e5f368254e369cf328756850eb79dd9d37f91ca7",
-    "subject": "missed one"
-   },
-   {
-    "adate": "2022-07-22T16:10:54-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-07-27T20:34:41-06:00",
-    "hash": "e5f368254e369cf328756850eb79dd9d37f91ca7",
-    "parents": "c85dac5f20e9b07a1a3c7064360bdb6b447cf5a3",
-    "subject": "Revert \"Editorial: replace ECMAScript \"code\" with \"programs\""
-   },
-   {
-    "adate": "2022-07-07T19:40:27-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-07-27T20:34:41-06:00",
-    "hash": "c85dac5f20e9b07a1a3c7064360bdb6b447cf5a3",
-    "parents": "f4072a29c5035e7f5f325060e8e8a178c0b35a1c",
-    "subject": "dfn \"ECMAScript code execution context\""
-   },
-   {
-    "adate": "2022-07-07T19:31:26-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-07-27T20:34:41-06:00",
-    "hash": "f4072a29c5035e7f5f325060e8e8a178c0b35a1c",
-    "parents": "70baf25692ae7d1f6ce51d64a535777f92ca1425",
-    "subject": "Editorial: replace ECMAScript \"code\" with \"programs\" or \"source text\""
-   }
-  ],
-  "title": "Editorial: replace ECMAScript \"code\" with \"source text\" as appropriate",
-  "updated_at": "2022-07-28T03:15:31Z"
- },
- {
   "base": "358fcc9e5d3dfec3368a29d883f7849a4f6ae4b6",
   "created_at": "2022-07-07T19:42:09Z",
   "head": "4978c218ced394434857765fed68d8bf20e073fb",
@@ -698,11 +638,19 @@
  {
   "base": "cdbf72e09b6f269478b534c2531adc410ce27e71",
   "created_at": "2022-06-26T19:17:52Z",
-  "head": "039d735b6fc89a4b26f8c66e3828c64494b7680a",
+  "head": "539d48006705447c5b6c90e17eda261beb358f6a",
   "login": "tc39",
   "number": 2807,
   "ref": "no-window-private",
   "revs": [
+   {
+    "adate": "2022-08-10T15:00:28-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2022-08-10T15:00:28-07:00",
+    "hash": "539d48006705447c5b6c90e17eda261beb358f6a",
+    "parents": "039d735b6fc89a4b26f8c66e3828c64494b7680a",
+    "subject": "be more precise about non-exotic requirement"
+   },
    {
     "adate": "2022-08-02T14:30:19-07:00",
     "author": "Kevin Gibbons",
@@ -721,7 +669,7 @@
    }
   ],
   "title": "Normative: allow host exotic objects to reject private fields",
-  "updated_at": "2022-08-02T21:33:52Z"
+  "updated_at": "2022-08-10T22:00:50Z"
  },
  {
   "base": "f0e4ae8d31afbad55f03d423c200d7d7467ca49a",
@@ -798,50 +746,6 @@
   ],
   "title": "Editorial: Fix remaining phrases using 'the number of code units in' for string length",
   "updated_at": "2022-06-02T03:27:47Z"
- },
- {
-  "base": "4ec3cd3524281de65a69370a5370f5f3f0914030",
-  "created_at": "2022-05-30T15:35:40Z",
-  "head": "85eec61e2a149492bbf5dabaa312d8c56ce4edc5",
-  "login": "gibson042",
-  "number": 2787,
-  "ref": "2022-05-code-point-typos",
-  "revs": [
-   {
-    "adate": "2022-05-30T14:32:46-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-05-30T14:32:46-04:00",
-    "hash": "85eec61e2a149492bbf5dabaa312d8c56ce4edc5",
-    "parents": "8b1dfc585242f54cf6836ec698d54ff086abb310",
-    "subject": "Editorial: Accept suggestions"
-   },
-   {
-    "adate": "2022-05-30T11:33:19-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-05-30T11:33:19-04:00",
-    "hash": "8b1dfc585242f54cf6836ec698d54ff086abb310",
-    "parents": "5235d1dc7a8342ddefcee998fe4600446a756dbf",
-    "subject": "Editorial: Remove text suggesting that JSON text may include a non-string property key"
-   },
-   {
-    "adate": "2022-05-30T11:32:04-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-05-30T11:32:04-04:00",
-    "hash": "5235d1dc7a8342ddefcee998fe4600446a756dbf",
-    "parents": "1689359847d7d2af51e3554e0cee6a780886f9c8",
-    "subject": "Editorial: Fix typo"
-   },
-   {
-    "adate": "2022-05-30T11:31:31-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-05-30T11:31:31-04:00",
-    "hash": "1689359847d7d2af51e3554e0cee6a780886f9c8",
-    "parents": "4ec3cd3524281de65a69370a5370f5f3f0914030",
-    "subject": "Editorial: Differentiate code point identity (U+\u2026) from value (MV, usually hex)"
-   }
-  ],
-  "title": "Editorial: Differentiate code point identity (U+\u2026) from value (MV, usually hex)",
-  "updated_at": "2022-05-30T18:32:59Z"
  },
  {
   "base": "7ae3ecf219bfaa02bb7f6dd1a668f152ff53e846",
@@ -1109,34 +1013,6 @@
  },
  {
   "base": "656f0cf5dc1f7b8cccd6eef8146c4a037ae9106a",
-  "created_at": "2022-05-10T20:03:32Z",
-  "head": "7f39ada1dd0a789538c5837237cff25b977453aa",
-  "login": "gibson042",
-  "number": 2773,
-  "ref": "2022-05-numeric-string-grammar",
-  "revs": [
-   {
-    "adate": "2022-05-10T16:01:18-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-05-10T16:01:18-04:00",
-    "hash": "7f39ada1dd0a789538c5837237cff25b977453aa",
-    "parents": "f9dbf8cac0b741edf126b42e80216a418c3ffeca",
-    "subject": "Editorial: Make the numeric string grammar summary more similar to other grammars"
-   },
-   {
-    "adate": "2022-05-10T15:58:17-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-05-10T15:58:20-04:00",
-    "hash": "f9dbf8cac0b741edf126b42e80216a418c3ffeca",
-    "parents": "656f0cf5dc1f7b8cccd6eef8146c4a037ae9106a",
-    "subject": "Editorial: Imply semantics for \":::\" grammars"
-   }
-  ],
-  "title": "Editorial: Improve the numeric string grammar summary",
-  "updated_at": "2022-05-10T20:03:45Z"
- },
- {
-  "base": "656f0cf5dc1f7b8cccd6eef8146c4a037ae9106a",
   "created_at": "2022-05-09T22:16:54Z",
   "head": "d1812b2b4b9c8a1da903006163f27bf795b722b2",
   "login": "jridgewell",
@@ -1162,62 +1038,6 @@
   ],
   "title": "Remove Job from Promise Resolve Functions",
   "updated_at": "2022-05-09T23:00:07Z"
- },
- {
-  "base": "cb4224156c54156f30c18c50784c1b0148ebfae5",
-  "created_at": "2022-05-03T16:47:52Z",
-  "head": "ed90883fdc74f8aa312de8cbf093c453cebb7f78",
-  "login": "tc39",
-  "number": 2766,
-  "ref": "map-foreach",
-  "revs": [
-   {
-    "adate": "2022-08-09T12:26:51-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2022-08-09T12:27:01-07:00",
-    "hash": "ed90883fdc74f8aa312de8cbf093c453cebb7f78",
-    "parents": "69f2e2295eed5b54c5d834c9b4f71fca8424053e",
-    "subject": "fixup: reorder loop head"
-   },
-   {
-    "adate": "2022-05-03T09:39:31-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2022-08-09T12:26:57-07:00",
-    "hash": "69f2e2295eed5b54c5d834c9b4f71fca8424053e",
-    "parents": "cb4224156c54156f30c18c50784c1b0148ebfae5",
-    "subject": "Editorial: Specify Map/Set forEach more explicitly"
-   }
-  ],
-  "title": "Editorial: Specify Map/Set forEach more explicitly",
-  "updated_at": "2022-08-09T19:27:11Z"
- },
- {
-  "base": "4ec3cd3524281de65a69370a5370f5f3f0914030",
-  "created_at": "2022-05-01T12:52:58Z",
-  "head": "ba0337f47a66d8c5ba68c6e62e9756da5ea40284",
-  "login": "linusg",
-  "number": 2759,
-  "ref": "editorial-update-createnonenumerabledataproperty",
-  "revs": [
-   {
-    "adate": "2022-05-01T17:46:00+02:00",
-    "author": "Linus Groh",
-    "date": "2022-06-06T20:37:00+01:00",
-    "hash": "ba0337f47a66d8c5ba68c6e62e9756da5ea40284",
-    "parents": "6eb7b59d2763e49553944bb7a2480a9dcd441a42",
-    "subject": "Editorial: Call DefinePropertyOrThrow in CreateMethodProperty"
-   },
-   {
-    "adate": "2022-05-01T14:36:23+02:00",
-    "author": "Linus Groh",
-    "date": "2022-06-06T20:36:42+01:00",
-    "hash": "6eb7b59d2763e49553944bb7a2480a9dcd441a42",
-    "parents": "4ec3cd3524281de65a69370a5370f5f3f0914030",
-    "subject": "Editorial: Correct notes in Create{Method,NonEnumerableData}Property"
-   }
-  ],
-  "title": "Editorial: Correct notes in Create{Method,NonEnumerableData}Property ",
-  "updated_at": "2022-06-06T19:37:41Z"
  },
  {
   "base": "c2edb328a457b4960fe174908efaaa0f31ea45a5",
@@ -3690,26 +3510,6 @@
   ],
   "title": "Normative: Use Number arithmetic for constructing dates and times",
   "updated_at": "2020-05-10T05:35:43Z"
- },
- {
-  "base": "d9e56927df060215f849199fd9055fb39c4213de",
-  "created_at": "2019-05-28T19:13:24Z",
-  "head": "8539513b94073eaf54e5e89620c571352d009fd0",
-  "login": "shvaikalesh",
-  "number": 1556,
-  "ref": "typed-array-get-set",
-  "revs": [
-   {
-    "adate": "2021-02-25T03:17:13+02:00",
-    "author": "Alexey Shvayka",
-    "date": "2021-03-01T05:14:07+02:00",
-    "hash": "8539513b94073eaf54e5e89620c571352d009fd0",
-    "parents": "d9e56927df060215f849199fd9055fb39c4213de",
-    "subject": "Normative: Guard IntegerIndexedElementSet with receiver check"
-   }
-  ],
-  "title": "Normative: Guard IntegerIndexedElementSet with receiver check",
-  "updated_at": "2021-03-01T03:23:35Z"
  },
  {
   "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
