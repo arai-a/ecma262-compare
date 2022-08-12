@@ -2,11 +2,19 @@
  {
   "base": "63e56ae852266c3fa5c1fa053e71ac46cdfc2304",
   "created_at": "2022-08-10T23:44:45Z",
-  "head": "41bdc7ceaf6838a0f5342409c90b56c04a0dc83f",
+  "head": "b62621dba75817e37437650b0b0f3337d750f701",
   "login": "tc39",
   "number": 2853,
   "ref": "enum",
   "revs": [
+   {
+    "adate": "2022-08-12T10:33:04-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-08-12T10:33:04-06:00",
+    "hash": "b62621dba75817e37437650b0b0f3337d750f701",
+    "parents": "41bdc7ceaf6838a0f5342409c90b56c04a0dc83f",
+    "subject": "address feedback"
+   },
    {
     "adate": "2022-07-08T17:55:36-06:00",
     "author": "Michael Ficarra",
@@ -17,7 +25,7 @@
    }
   ],
   "title": "Editorial: properly define and `<dfn>` spec enums",
-  "updated_at": "2022-08-10T23:54:36Z"
+  "updated_at": "2022-08-12T16:33:45Z"
  },
  {
   "base": "ffe1ace1c0334b8b3816d3778ae3132d7fd1feb7",
