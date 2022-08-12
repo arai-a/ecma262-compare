@@ -110,11 +110,19 @@
  {
   "base": "63e56ae852266c3fa5c1fa053e71ac46cdfc2304",
   "created_at": "2022-08-06T00:03:50Z",
-  "head": "7cce6c6c364c0e9b0a0c25faa6ed0b2e4a037c2d",
+  "head": "81129217591513ed4c4b6dbd0274e356249bafa0",
   "login": "tc39",
   "number": 2848,
   "ref": "inclusive-range",
   "revs": [
+   {
+    "adate": "2022-08-12T12:16:29-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-08-12T12:16:29-06:00",
+    "hash": "81129217591513ed4c4b6dbd0274e356249bafa0",
+    "parents": "7cce6c6c364c0e9b0a0c25faa6ed0b2e4a037c2d",
+    "subject": "fix markup error"
+   },
    {
     "adate": "2022-08-12T11:23:53-06:00",
     "author": "Michael Ficarra",
@@ -165,7 +173,7 @@
    }
   ],
   "title": "Editorial: consistency in phrasing of ranges and inclusivity/exclusivity",
-  "updated_at": "2022-08-12T17:24:48Z"
+  "updated_at": "2022-08-12T18:16:38Z"
  },
  {
   "base": "0981442a6104c6e51e797384e7dd6e3551d88ae2",
@@ -622,34 +630,6 @@
   ],
   "title": "Editorial: Fix wrong assertion in 'DefineMethodProperty'",
   "updated_at": "2022-07-07T08:05:20Z"
- },
- {
-  "base": "63e56ae852266c3fa5c1fa053e71ac46cdfc2304",
-  "created_at": "2022-06-26T19:17:52Z",
-  "head": "4bfe5057a590f93d8608672c43a2e69e8129d0f7",
-  "login": "tc39",
-  "number": 2807,
-  "ref": "no-window-private",
-  "revs": [
-   {
-    "adate": "2022-08-12T10:46:24-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2022-08-12T10:46:24-07:00",
-    "hash": "4bfe5057a590f93d8608672c43a2e69e8129d0f7",
-    "parents": "a705b0d275bc25110d20ab1e744f3f89fc982ba8",
-    "subject": "Editorial: note browser-specific host hooks in Annex B (#2807)"
-   },
-   {
-    "adate": "2022-08-12T10:46:17-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2022-08-12T10:46:17-07:00",
-    "hash": "a705b0d275bc25110d20ab1e744f3f89fc982ba8",
-    "parents": "63e56ae852266c3fa5c1fa053e71ac46cdfc2304",
-    "subject": "Normative: allow host exotic objects to reject private fields (#2807)"
-   }
-  ],
-  "title": "Normative: allow host exotic objects to reject private fields",
-  "updated_at": "2022-08-12T17:46:41Z"
  },
  {
   "base": "f0e4ae8d31afbad55f03d423c200d7d7467ca49a",
