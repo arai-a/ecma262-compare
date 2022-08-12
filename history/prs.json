@@ -110,11 +110,19 @@
  {
   "base": "63e56ae852266c3fa5c1fa053e71ac46cdfc2304",
   "created_at": "2022-08-06T00:03:50Z",
-  "head": "c91172f31d2dfd8bcec04e8f5e18c869f4832bb9",
+  "head": "7cce6c6c364c0e9b0a0c25faa6ed0b2e4a037c2d",
   "login": "tc39",
   "number": 2848,
   "ref": "inclusive-range",
   "revs": [
+   {
+    "adate": "2022-08-12T11:23:53-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-08-12T11:23:53-06:00",
+    "hash": "7cce6c6c364c0e9b0a0c25faa6ed0b2e4a037c2d",
+    "parents": "c91172f31d2dfd8bcec04e8f5e18c869f4832bb9",
+    "subject": "tweaks and examples"
+   },
    {
     "adate": "2022-08-10T19:35:04-06:00",
     "author": "Michael Ficarra",
@@ -157,7 +165,7 @@
    }
   ],
   "title": "Editorial: consistency in phrasing of ranges and inclusivity/exclusivity",
-  "updated_at": "2022-08-11T02:02:24Z"
+  "updated_at": "2022-08-12T17:24:48Z"
  },
  {
   "base": "0981442a6104c6e51e797384e7dd6e3551d88ae2",
@@ -616,40 +624,32 @@
   "updated_at": "2022-07-07T08:05:20Z"
  },
  {
-  "base": "cdbf72e09b6f269478b534c2531adc410ce27e71",
+  "base": "63e56ae852266c3fa5c1fa053e71ac46cdfc2304",
   "created_at": "2022-06-26T19:17:52Z",
-  "head": "539d48006705447c5b6c90e17eda261beb358f6a",
+  "head": "4bfe5057a590f93d8608672c43a2e69e8129d0f7",
   "login": "tc39",
   "number": 2807,
   "ref": "no-window-private",
   "revs": [
    {
-    "adate": "2022-08-10T15:00:28-07:00",
+    "adate": "2022-08-12T10:46:24-07:00",
     "author": "Kevin Gibbons",
-    "date": "2022-08-10T15:00:28-07:00",
-    "hash": "539d48006705447c5b6c90e17eda261beb358f6a",
-    "parents": "039d735b6fc89a4b26f8c66e3828c64494b7680a",
-    "subject": "be more precise about non-exotic requirement"
+    "date": "2022-08-12T10:46:24-07:00",
+    "hash": "4bfe5057a590f93d8608672c43a2e69e8129d0f7",
+    "parents": "a705b0d275bc25110d20ab1e744f3f89fc982ba8",
+    "subject": "Editorial: note browser-specific host hooks in Annex B (#2807)"
    },
    {
-    "adate": "2022-08-02T14:30:19-07:00",
+    "adate": "2022-08-12T10:46:17-07:00",
     "author": "Kevin Gibbons",
-    "date": "2022-08-02T14:32:50-07:00",
-    "hash": "039d735b6fc89a4b26f8c66e3828c64494b7680a",
-    "parents": "156c7952b2d97d81292386b6ce250cf69153ee33",
-    "subject": "Editorial: note browser-specific host hooks in Annex B"
-   },
-   {
-    "adate": "2022-06-26T12:09:38-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2022-08-02T14:25:31-07:00",
-    "hash": "156c7952b2d97d81292386b6ce250cf69153ee33",
-    "parents": "358fcc9e5d3dfec3368a29d883f7849a4f6ae4b6",
-    "subject": "Normative: allow host exotic objects to reject private fields"
+    "date": "2022-08-12T10:46:17-07:00",
+    "hash": "a705b0d275bc25110d20ab1e744f3f89fc982ba8",
+    "parents": "63e56ae852266c3fa5c1fa053e71ac46cdfc2304",
+    "subject": "Normative: allow host exotic objects to reject private fields (#2807)"
    }
   ],
   "title": "Normative: allow host exotic objects to reject private fields",
-  "updated_at": "2022-08-10T22:00:50Z"
+  "updated_at": "2022-08-12T17:46:41Z"
  },
  {
   "base": "f0e4ae8d31afbad55f03d423c200d7d7467ca49a",
