@@ -20,26 +20,6 @@
   "updated_at": "2022-08-15T16:24:43Z"
  },
  {
-  "base": "353970cd7ab0dfdb915267c5326071226bd384b2",
-  "created_at": "2022-08-14T16:24:25Z",
-  "head": "29a5ee240958ebb4c5f103d4636c38b68212be83",
-  "login": "tc39",
-  "number": 2855,
-  "ref": "fix-set-typo",
-  "revs": [
-   {
-    "adate": "2022-08-14T09:23:35-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2022-08-14T09:23:35-07:00",
-    "hash": "29a5ee240958ebb4c5f103d4636c38b68212be83",
-    "parents": "353970cd7ab0dfdb915267c5326071226bd384b2",
-    "subject": "Editorial: fix typo in Set.prototype.forEach"
-   }
-  ],
-  "title": "Editorial: fix typo in Set.prototype.forEach",
-  "updated_at": "2022-08-14T16:53:52Z"
- },
- {
   "base": "4bfe5057a590f93d8608672c43a2e69e8129d0f7",
   "created_at": "2022-08-13T02:25:10Z",
   "head": "945a61f37c71099d0661db28940288bef09d9166",
@@ -634,26 +614,6 @@
   ],
   "title": "Editorial: IfAbrupt macros only take completion records",
   "updated_at": "2022-07-07T17:23:46Z"
- },
- {
-  "base": "353970cd7ab0dfdb915267c5326071226bd384b2",
-  "created_at": "2022-07-07T16:24:44Z",
-  "head": "8e88f24d59fb83287baa4bf308eccc1751e19cd3",
-  "login": "ljharb",
-  "number": 2816,
-  "ref": "hashbang",
-  "revs": [
-   {
-    "adate": "2022-07-07T09:23:27-07:00",
-    "author": "Jordan Harband",
-    "date": "2022-08-14T20:20:26-07:00",
-    "hash": "8e88f24d59fb83287baa4bf308eccc1751e19cd3",
-    "parents": "353970cd7ab0dfdb915267c5326071226bd384b2",
-    "subject": "Normative: add hashbang comments"
-   }
-  ],
-  "title": "Normative: add hashbang comments",
-  "updated_at": "2022-08-15T03:20:28Z"
  },
  {
   "base": "e61fbe1162d3b6b80848c3535cece3e36f4c08fb",
