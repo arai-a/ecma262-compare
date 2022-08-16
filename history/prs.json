@@ -1476,32 +1476,40 @@
   "updated_at": "2022-03-05T04:34:47Z"
  },
  {
-  "base": "ffe1ace1c0334b8b3816d3778ae3132d7fd1feb7",
+  "base": "9bfbf9011467f44c17def1a914043d6740617b6b",
   "created_at": "2022-03-03T04:23:30Z",
-  "head": "fc06e9ed60f2474de1252b98fb82cd1143b21aef",
+  "head": "6aba31420fac9ad5b3eb6f75f732b459706683f5",
   "login": "jmdyck",
   "number": 2681,
   "ref": "CES_closure",
   "revs": [
    {
+    "adate": "2022-08-15T22:42:47-04:00",
+    "author": "Michael Dyck",
+    "date": "2022-08-15T22:42:47-04:00",
+    "hash": "6aba31420fac9ad5b3eb6f75f732b459706683f5",
+    "parents": "a73e056dd16f16d2a22d35ad22314cec0228ffd4",
+    "subject": "fixup: Change \"invoked\" to \"called with no arguments\""
+   },
+   {
     "adate": "2022-03-02T13:05:13-05:00",
     "author": "Michael Dyck",
-    "date": "2022-08-05T21:39:20-04:00",
-    "hash": "fc06e9ed60f2474de1252b98fb82cd1143b21aef",
-    "parents": "dfaeeb31e9833c68c7f6e3ca5954ffde9552af9a",
+    "date": "2022-08-15T20:03:22-04:00",
+    "hash": "a73e056dd16f16d2a22d35ad22314cec0228ffd4",
+    "parents": "43825e15f85184335cd443df25e94da4ed6dde59",
     "subject": "fixup: Reduce the number of captured aliases"
    },
    {
     "adate": "2022-03-01T21:18:32-05:00",
     "author": "Michael Dyck",
-    "date": "2022-08-05T21:37:45-04:00",
-    "hash": "dfaeeb31e9833c68c7f6e3ca5954ffde9552af9a",
-    "parents": "ffe1ace1c0334b8b3816d3778ae3132d7fd1feb7",
+    "date": "2022-08-15T20:03:22-04:00",
+    "hash": "43825e15f85184335cd443df25e94da4ed6dde59",
+    "parents": "9bfbf9011467f44c17def1a914043d6740617b6b",
     "subject": "Editorial: Use Abstract Closure to set the code eval state"
    }
   ],
   "title": "Editorial: Use Abstract Closure to set the code eval state",
-  "updated_at": "2022-08-06T03:36:27Z"
+  "updated_at": "2022-08-16T02:43:51Z"
  },
  {
   "base": "7575f745f26e9f66b2be481144f37ac4a8a9f1c4",
@@ -1544,9 +1552,9 @@
   "updated_at": "2022-02-28T02:16:27Z"
  },
  {
-  "base": "27257a04e2f66f2ec581a73262897bc0f25e28f0",
+  "base": "9bfbf9011467f44c17def1a914043d6740617b6b",
   "created_at": "2022-02-13T20:18:38Z",
-  "head": "1bb271ee84d4b08ff8219236faace22570c2c421",
+  "head": "4e953c279529d033a1a2b7759bfde3f0abe5fe58",
   "login": "jmdyck",
   "number": 2664,
   "ref": "RunSuspendedContext",
@@ -1554,54 +1562,54 @@
    {
     "adate": "2022-02-12T10:27:05-05:00",
     "author": "Michael Dyck",
-    "date": "2022-03-09T21:36:02-05:00",
-    "hash": "1bb271ee84d4b08ff8219236faace22570c2c421",
-    "parents": "a4ad751550b91c226efd8c8a8be04ff08d354cb9",
+    "date": "2022-08-15T21:23:23-04:00",
+    "hash": "4e953c279529d033a1a2b7759bfde3f0abe5fe58",
+    "parents": "2533dc0a19c18284de62508e4aa5376e62b50fc4",
     "subject": "Clean up after the previous refactoring"
    },
    {
     "adate": "2022-02-12T10:14:24-05:00",
     "author": "Michael Dyck",
-    "date": "2022-03-09T21:33:11-05:00",
-    "hash": "a4ad751550b91c226efd8c8a8be04ff08d354cb9",
-    "parents": "e0629f64765a81bd67f06c718aa180f59fcbff14",
+    "date": "2022-08-15T21:23:23-04:00",
+    "hash": "2533dc0a19c18284de62508e4aa5376e62b50fc4",
+    "parents": "35e3cf5c01a091b01e4caf13f485f145a41fa268",
     "subject": "Factor out RunSuspendedContext abstract operation"
    },
    {
     "adate": "2022-02-12T10:08:51-05:00",
     "author": "Michael Dyck",
-    "date": "2022-03-09T21:31:17-05:00",
-    "hash": "e0629f64765a81bd67f06c718aa180f59fcbff14",
-    "parents": "4804d2015bcd9eab523de010063cd434ca2e1d2e",
+    "date": "2022-08-15T21:23:23-04:00",
+    "hash": "35e3cf5c01a091b01e4caf13f485f145a41fa268",
+    "parents": "cfd2c06d9200894cc5ed6aae55c5de3b56173f44",
     "subject": "Preliminary tweaks before next commit"
    },
    {
     "adate": "2022-02-13T14:22:23-05:00",
     "author": "Michael Dyck",
-    "date": "2022-03-09T21:31:17-05:00",
-    "hash": "4804d2015bcd9eab523de010063cd434ca2e1d2e",
-    "parents": "9e91b4149a2753350502339f09b992e3bdb645da",
-    "subject": "Move \"Suspend the currently running execution context\" steps"
+    "date": "2022-08-15T21:23:15-04:00",
+    "hash": "cfd2c06d9200894cc5ed6aae55c5de3b56173f44",
+    "parents": "0bcd618212e266aa8d66188420079784d6119d76",
+    "subject": "Move \"Suspend the running execution context\" steps"
    },
    {
     "adate": "2022-02-13T14:16:44-05:00",
     "author": "Michael Dyck",
-    "date": "2022-03-09T21:31:16-05:00",
-    "hash": "9e91b4149a2753350502339f09b992e3bdb645da",
-    "parents": "761e8fdee4690a0fb017850534dd3121190d0171",
+    "date": "2022-08-15T21:23:15-04:00",
+    "hash": "0bcd618212e266aa8d66188420079784d6119d76",
+    "parents": "57a6a1a1059602969dcde47572709fd6cddcd5ef",
     "subject": "AsyncFunctionStart: Add \"Suspend _runningContext_\""
    },
    {
     "adate": "2022-02-13T14:14:46-05:00",
     "author": "Michael Dyck",
-    "date": "2022-03-09T21:31:16-05:00",
-    "hash": "761e8fdee4690a0fb017850534dd3121190d0171",
-    "parents": "27257a04e2f66f2ec581a73262897bc0f25e28f0",
-    "subject": "ExecuteModule: Distribute \"Suspend the currently running execution context\""
+    "date": "2022-08-15T21:23:08-04:00",
+    "hash": "57a6a1a1059602969dcde47572709fd6cddcd5ef",
+    "parents": "9bfbf9011467f44c17def1a914043d6740617b6b",
+    "subject": "ExecuteModule: Distribute \"Suspend the running execution context\""
    }
   ],
   "title": "Editorial: Factor out AO RunSuspendedContext()",
-  "updated_at": "2022-03-10T02:45:10Z"
+  "updated_at": "2022-08-16T01:24:30Z"
  },
  {
   "base": "0981442a6104c6e51e797384e7dd6e3551d88ae2",
@@ -2548,9 +2556,9 @@
   "updated_at": "2021-03-02T20:18:19Z"
  },
  {
-  "base": "8d9522cc84c1bcedc49e4c9e8272b72615e407cf",
+  "base": "9bfbf9011467f44c17def1a914043d6740617b6b",
   "created_at": "2021-01-24T05:38:33Z",
-  "head": "15b7e069482d5f267979d7cdabb344f71ebe8d93",
+  "head": "7a256c13da797f3535ef974572bf29abcc73ab74",
   "login": "jmdyck",
   "number": 2288,
   "ref": "declarative_Env_Rec",
@@ -2558,46 +2566,46 @@
    {
     "adate": "2021-01-24T00:30:29-05:00",
     "author": "Michael Dyck",
-    "date": "2022-03-17T23:22:00-04:00",
-    "hash": "15b7e069482d5f267979d7cdabb344f71ebe8d93",
-    "parents": "38c7e31ef3bce93acdc8c0c3319a2b291894b86e",
+    "date": "2022-08-15T21:48:14-04:00",
+    "hash": "7a256c13da797f3535ef974572bf29abcc73ab74",
+    "parents": "6e9ffda73bd0fd9ba6f31d7c74291025aa34ce71",
     "subject": "Editorial: Model a declarative binding as a Record"
    },
    {
     "adate": "2021-01-23T23:59:22-05:00",
     "author": "Michael Dyck",
-    "date": "2022-03-17T23:21:02-04:00",
-    "hash": "38c7e31ef3bce93acdc8c0c3319a2b291894b86e",
-    "parents": "e3cb7ca8975880478da716861de63b3c90e2725b",
-    "subject": "Editorial: declarative Env Rec has field [[Bindings]]"
+    "date": "2022-08-15T21:47:37-04:00",
+    "hash": "6e9ffda73bd0fd9ba6f31d7c74291025aa34ce71",
+    "parents": "609115ab5c1edb77e91a1ea8b5d7f304ab7f191a",
+    "subject": "Editorial: Declarative Env Rec has field [[Bindings]]"
    },
    {
     "adate": "2021-01-23T23:52:38-05:00",
     "author": "Michael Dyck",
-    "date": "2022-03-17T23:20:15-04:00",
-    "hash": "e3cb7ca8975880478da716861de63b3c90e2725b",
-    "parents": "af5008ba44b089bbc5a06ccc9fc7ad586ca8c4eb",
+    "date": "2022-08-15T21:46:06-04:00",
+    "hash": "609115ab5c1edb77e91a1ea8b5d7f304ab7f191a",
+    "parents": "c167583d1bd17fd9f8acce642f1cdfa43d36ea40",
     "subject": "Editorial: Treat a binding as an 'alias-able' thing"
    },
    {
     "adate": "2021-01-23T23:03:21-05:00",
     "author": "Michael Dyck",
-    "date": "2022-03-17T23:18:27-04:00",
-    "hash": "af5008ba44b089bbc5a06ccc9fc7ad586ca8c4eb",
-    "parents": "9c7bf014d3a422e1038b2f9f06d32ded5b66a700",
+    "date": "2022-08-15T21:46:06-04:00",
+    "hash": "c167583d1bd17fd9f8acce642f1cdfa43d36ea40",
+    "parents": "f288bef1b2d8b3938e441fc45cdfd755ce9a95ce",
     "subject": "Editorial: Have NewGlobalEnvironment invoke NewDeclarativeEnvironment"
    },
    {
     "adate": "2021-01-23T22:54:21-05:00",
     "author": "Michael Dyck",
-    "date": "2022-03-17T23:18:27-04:00",
-    "hash": "9c7bf014d3a422e1038b2f9f06d32ded5b66a700",
-    "parents": "bcfd7eef2f27fb45b4b573976a973af9c6164a4a",
-    "subject": "Editorial: Use declarative Env Rec's HasBinding method"
+    "date": "2022-08-15T21:45:59-04:00",
+    "hash": "f288bef1b2d8b3938e441fc45cdfd755ce9a95ce",
+    "parents": "9bfbf9011467f44c17def1a914043d6740617b6b",
+    "subject": "Editorial: Use Declarative Env Rec's HasBinding method"
    }
   ],
   "title": "Editorial: Model the bindings of a declarative Env Rec as a List of Records",
-  "updated_at": "2022-03-18T03:24:58Z"
+  "updated_at": "2022-08-16T01:49:03Z"
  },
  {
   "base": "7575f745f26e9f66b2be481144f37ac4a8a9f1c4",
@@ -2628,9 +2636,9 @@
   "updated_at": "2022-02-28T20:39:06Z"
  },
  {
-  "base": "ffe1ace1c0334b8b3816d3778ae3132d7fd1feb7",
+  "base": "9bfbf9011467f44c17def1a914043d6740617b6b",
   "created_at": "2020-12-08T06:31:39Z",
-  "head": "357dfe5ab3bc48cc5037c111b3ce62442396c60c",
+  "head": "6eb252ee4e06eddb8bf1bc9426843aae698c4756",
   "login": "jmdyck",
   "number": 2246,
   "ref": "ExecutionContext_Record",
@@ -2638,14 +2646,14 @@
    {
     "adate": "2020-12-08T01:22:55-05:00",
     "author": "Michael Dyck",
-    "date": "2022-08-05T22:16:25-04:00",
-    "hash": "357dfe5ab3bc48cc5037c111b3ce62442396c60c",
-    "parents": "ffe1ace1c0334b8b3816d3778ae3132d7fd1feb7",
+    "date": "2022-08-15T21:52:45-04:00",
+    "hash": "6eb252ee4e06eddb8bf1bc9426843aae698c4756",
+    "parents": "9bfbf9011467f44c17def1a914043d6740617b6b",
     "subject": "Editorial: Model execution context as a record"
    }
   ],
   "title": "Editorial: Model execution context as a record",
-  "updated_at": "2022-08-06T03:37:56Z"
+  "updated_at": "2022-08-16T01:57:47Z"
  },
  {
   "base": "b3f9b5089bcc3ddd8486379015cd11eb1427a5eb",
@@ -3204,9 +3212,9 @@
   "updated_at": "2021-09-29T21:52:34Z"
  },
  {
-  "base": "ffe1ace1c0334b8b3816d3778ae3132d7fd1feb7",
+  "base": "9bfbf9011467f44c17def1a914043d6740617b6b",
   "created_at": "2019-07-13T02:30:44Z",
-  "head": "afe5a0b0cf7b57cd7272f044ce84319647f84a5c",
+  "head": "e415d8a127a7f4bb5638b5b45451069bacf40e1b",
   "login": "jmdyck",
   "number": 1623,
   "ref": "index_strings",
@@ -3214,38 +3222,38 @@
    {
     "adate": "2019-07-12T11:59:54-04:00",
     "author": "Michael Dyck",
-    "date": "2022-08-05T22:30:46-04:00",
-    "hash": "afe5a0b0cf7b57cd7272f044ce84319647f84a5c",
-    "parents": "acc4b9bccb480290cc6e4a2635d59ca6fdc583bb",
+    "date": "2022-08-15T22:01:38-04:00",
+    "hash": "e415d8a127a7f4bb5638b5b45451069bacf40e1b",
+    "parents": "c33dc24d50ed36db9e8e5c4ac5fca94e5de7aa81",
     "subject": "Editorial: some minor rewordings"
    },
    {
     "adate": "2019-07-12T11:12:43-04:00",
     "author": "Michael Dyck",
-    "date": "2022-08-05T22:30:46-04:00",
-    "hash": "acc4b9bccb480290cc6e4a2635d59ca6fdc583bb",
-    "parents": "6f549e32a41539b7ced5d49c845ea292ff0da9e3",
+    "date": "2022-08-15T22:01:38-04:00",
+    "hash": "c33dc24d50ed36db9e8e5c4ac5fca94e5de7aa81",
+    "parents": "3c0917b742cf0dee63b6ea098a8cea87f9e268aa",
     "subject": "Editorial: Replace \"array index\" with \"Uint32-string\""
    },
    {
     "adate": "2019-07-12T10:23:31-04:00",
     "author": "Michael Dyck",
-    "date": "2022-08-05T22:30:46-04:00",
-    "hash": "6f549e32a41539b7ced5d49c845ea292ff0da9e3",
-    "parents": "83049e926b895f1260e336d467b6df7e78bd270a",
+    "date": "2022-08-15T22:00:34-04:00",
+    "hash": "3c0917b742cf0dee63b6ea098a8cea87f9e268aa",
+    "parents": "d353bb944f567585fadaa82634397636be7e529d",
     "subject": "Editorial: Replace \"integer index\" with \"Uint53-string\""
    },
    {
     "adate": "2019-07-12T21:58:00-04:00",
     "author": "Michael Dyck",
-    "date": "2022-08-05T22:28:30-04:00",
-    "hash": "83049e926b895f1260e336d467b6df7e78bd270a",
-    "parents": "ffe1ace1c0334b8b3816d3778ae3132d7fd1feb7",
+    "date": "2022-08-15T21:59:42-04:00",
+    "hash": "d353bb944f567585fadaa82634397636be7e529d",
+    "parents": "9bfbf9011467f44c17def1a914043d6740617b6b",
     "subject": "Editorial: Fix wording in Note for Arguments exotic objects"
    }
   ],
   "title": "Editorial: Replace terms \"integer index\" and \"array index\"",
-  "updated_at": "2022-08-06T03:38:58Z"
+  "updated_at": "2022-08-16T02:04:09Z"
  },
  {
   "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
