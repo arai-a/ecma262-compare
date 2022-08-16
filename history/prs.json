@@ -1104,9 +1104,9 @@
   "updated_at": "2022-06-07T04:53:29Z"
  },
  {
-  "base": "ffe1ace1c0334b8b3816d3778ae3132d7fd1feb7",
+  "base": "9bfbf9011467f44c17def1a914043d6740617b6b",
   "created_at": "2022-04-18T18:39:42Z",
-  "head": "fbcea078900957cecca6c80f514153d1b5065050",
+  "head": "52366a35818fe68e1a2e6188efea1fecd343be5c",
   "login": "jmdyck",
   "number": 2745,
   "ref": "unknown",
@@ -1114,158 +1114,158 @@
    {
     "adate": "2022-04-16T16:29:16-04:00",
     "author": "Michael Dyck",
-    "date": "2022-08-05T21:27:45-04:00",
-    "hash": "fbcea078900957cecca6c80f514153d1b5065050",
-    "parents": "8fc60972f0539228b92afe3a2961854b76860265",
+    "date": "2022-08-15T19:58:49-04:00",
+    "hash": "52366a35818fe68e1a2e6188efea1fecd343be5c",
+    "parents": "007ab66bfda7add97517fb0fad420309bb6e34fe",
     "subject": "31x \"unknown\" -> miscellaneous"
    },
    {
     "adate": "2022-04-16T16:26:05-04:00",
     "author": "Michael Dyck",
-    "date": "2022-08-05T21:27:45-04:00",
-    "hash": "8fc60972f0539228b92afe3a2961854b76860265",
-    "parents": "ed1936b1f61c75dad46faef41899ed961e25fefc",
+    "date": "2022-08-15T19:58:49-04:00",
+    "hash": "007ab66bfda7add97517fb0fad420309bb6e34fe",
+    "parents": "cc61866712ea1b23d0bf540013db169cb970518a",
     "subject": "3x \"unknown\" -> \"a property key\""
    },
    {
     "adate": "2022-04-16T16:24:46-04:00",
     "author": "Michael Dyck",
-    "date": "2022-08-05T21:27:44-04:00",
-    "hash": "ed1936b1f61c75dad46faef41899ed961e25fefc",
-    "parents": "f0de46c2baca989830e7d4acdb44d0b7538cfa64",
+    "date": "2022-08-15T19:58:49-04:00",
+    "hash": "cc61866712ea1b23d0bf540013db169cb970518a",
+    "parents": "e7f21448a771b310621d5d7d9c4a8c1e95d2675b",
     "subject": "5x \"unknown\" -> \"a List of ECMAScript language values\""
    },
    {
     "adate": "2022-04-16T16:23:46-04:00",
     "author": "Michael Dyck",
-    "date": "2022-08-05T21:27:44-04:00",
-    "hash": "f0de46c2baca989830e7d4acdb44d0b7538cfa64",
-    "parents": "35ff749b6e0cfa3b96b64fb41711ec554a40715f",
+    "date": "2022-08-15T19:58:49-04:00",
+    "hash": "e7f21448a771b310621d5d7d9c4a8c1e95d2675b",
+    "parents": "700d07bd97d7ce1a0a25eba36e11fd87e61e0442",
     "subject": "5x \"unknown\" -> \"a Realm Record\""
    },
    {
     "adate": "2022-04-16T16:18:30-04:00",
     "author": "Michael Dyck",
-    "date": "2022-08-05T21:27:44-04:00",
-    "hash": "35ff749b6e0cfa3b96b64fb41711ec554a40715f",
-    "parents": "c71dec2556295c9d1721f2857d254290f17b04e2",
+    "date": "2022-08-15T19:58:49-04:00",
+    "hash": "700d07bd97d7ce1a0a25eba36e11fd87e61e0442",
+    "parents": "94dca4c038528f22126bd31cd32c459a8e7132a8",
     "subject": "5x \"unknown\" -> \"a constructor\""
    },
    {
     "adate": "2022-04-16T16:17:14-04:00",
     "author": "Michael Dyck",
-    "date": "2022-08-05T21:27:44-04:00",
-    "hash": "c71dec2556295c9d1721f2857d254290f17b04e2",
-    "parents": "f8c01f57e3689b809e6dda7d8db1c937f6478185",
+    "date": "2022-08-15T19:58:49-04:00",
+    "hash": "94dca4c038528f22126bd31cd32c459a8e7132a8",
+    "parents": "30037b8264c6ebe04ce970f8096804ee474ca5b6",
     "subject": "6x \"unknown\" -> \"a Boolean\""
    },
    {
     "adate": "2022-04-16T16:15:41-04:00",
     "author": "Michael Dyck",
-    "date": "2022-08-05T21:27:44-04:00",
-    "hash": "f8c01f57e3689b809e6dda7d8db1c937f6478185",
-    "parents": "23b1170dc6abd87ca69c2a581e6148232a3691fa",
+    "date": "2022-08-15T19:58:49-04:00",
+    "hash": "30037b8264c6ebe04ce970f8096804ee474ca5b6",
+    "parents": "287f4eef3483feafca4e359dff541cfea2e67143",
     "subject": "6x \"unknown\" -> \"a PrivateEnvironment Record or *null*\""
    },
    {
     "adate": "2022-04-16T16:14:01-04:00",
     "author": "Michael Dyck",
-    "date": "2022-08-05T21:27:44-04:00",
-    "hash": "23b1170dc6abd87ca69c2a581e6148232a3691fa",
-    "parents": "19c33805edc273b010f2d4bf9bbaefb0143dc8aa",
+    "date": "2022-08-15T19:58:49-04:00",
+    "hash": "287f4eef3483feafca4e359dff541cfea2e67143",
+    "parents": "688d9e86a6a8ab54ad087cec844fd7a49b492e39",
     "subject": "6x \"unknown\" -> \"a Promise\""
    },
    {
     "adate": "2022-04-16T16:12:55-04:00",
     "author": "Michael Dyck",
-    "date": "2022-08-05T21:27:44-04:00",
-    "hash": "19c33805edc273b010f2d4bf9bbaefb0143dc8aa",
-    "parents": "c5d136f01d4bc88f500bc5ac1d4c6b8bb386744d",
+    "date": "2022-08-15T19:58:49-04:00",
+    "hash": "688d9e86a6a8ab54ad087cec844fd7a49b492e39",
+    "parents": "1063009aabb191cf0dff8b0d104aca3326517aa9",
     "subject": "6x \"unknown\" -> \"a String or ~empty~\""
    },
    {
     "adate": "2022-04-16T16:11:25-04:00",
     "author": "Michael Dyck",
-    "date": "2022-08-05T21:27:44-04:00",
-    "hash": "c5d136f01d4bc88f500bc5ac1d4c6b8bb386744d",
-    "parents": "99b6db3385ff53105d380f2bb0a088d463254b00",
+    "date": "2022-08-15T19:58:49-04:00",
+    "hash": "1063009aabb191cf0dff8b0d104aca3326517aa9",
+    "parents": "cccc1191ab37de45b5bafff1f64dba6a20ce64dd",
     "subject": "6x \"unknown\" -> \"a TypedArray element type\""
    },
    {
     "adate": "2022-04-16T16:10:03-04:00",
     "author": "Michael Dyck",
-    "date": "2022-08-05T21:27:44-04:00",
-    "hash": "99b6db3385ff53105d380f2bb0a088d463254b00",
-    "parents": "1ef08336cfa90b2fc20fc895a9fd13ce5c789e62",
+    "date": "2022-08-15T19:58:49-04:00",
+    "hash": "cccc1191ab37de45b5bafff1f64dba6a20ce64dd",
+    "parents": "4b2b256324fe2f9e10af5592d59b8816bcd4e94a",
     "subject": "6x \"unknown\" -> \"an Environment Record\""
    },
    {
     "adate": "2022-04-16T16:08:06-04:00",
     "author": "Michael Dyck",
-    "date": "2022-08-05T21:27:44-04:00",
-    "hash": "1ef08336cfa90b2fc20fc895a9fd13ce5c789e62",
-    "parents": "45074cdfae8af24a0e8d7bb83a360deebb3dbefb",
+    "date": "2022-08-15T19:58:49-04:00",
+    "hash": "4b2b256324fe2f9e10af5592d59b8816bcd4e94a",
+    "parents": "6a849fc6d64ea204d2bcc1983124145795148454",
     "subject": "7x \"unknown\" -> \"an Environment Record or *undefined*\""
    },
    {
     "adate": "2022-04-16T16:05:40-04:00",
     "author": "Michael Dyck",
-    "date": "2022-08-05T21:27:44-04:00",
-    "hash": "45074cdfae8af24a0e8d7bb83a360deebb3dbefb",
-    "parents": "1f788d9a1cc49aa47470bd368b210edd30c92109",
+    "date": "2022-08-15T19:58:49-04:00",
+    "hash": "6a849fc6d64ea204d2bcc1983124145795148454",
+    "parents": "b123ba8aedc7eb0c256dbe1c38ad911b6442a7d5",
     "subject": "8x \"unknown\" -> \"an Iterator Record\""
    },
    {
     "adate": "2022-04-16T16:01:04-04:00",
     "author": "Michael Dyck",
-    "date": "2022-08-05T21:27:44-04:00",
-    "hash": "1f788d9a1cc49aa47470bd368b210edd30c92109",
-    "parents": "7cf0c91dc5edbf6407934225da36344bd8d05f54",
+    "date": "2022-08-15T19:58:49-04:00",
+    "hash": "b123ba8aedc7eb0c256dbe1c38ad911b6442a7d5",
+    "parents": "1954c62bb665595bb3b576aad94be91474f73fcf",
     "subject": "10x \"unknown\" -> some kind of Parse Node"
    },
    {
     "adate": "2022-04-16T15:58:33-04:00",
     "author": "Michael Dyck",
-    "date": "2022-08-05T21:27:43-04:00",
-    "hash": "7cf0c91dc5edbf6407934225da36344bd8d05f54",
-    "parents": "44731afa2be638f286d936b785434ab1e3902b3b",
+    "date": "2022-08-15T19:58:49-04:00",
+    "hash": "1954c62bb665595bb3b576aad94be91474f73fcf",
+    "parents": "021f801b86aa0ddc8aea9502b6cbd88a4fabb991",
     "subject": "10x \"unknown\" -> \"a function object\""
    },
    {
     "adate": "2022-04-16T15:56:14-04:00",
     "author": "Michael Dyck",
-    "date": "2022-08-05T21:27:43-04:00",
-    "hash": "44731afa2be638f286d936b785434ab1e3902b3b",
-    "parents": "7e595825884446f69c78b2d44fca584bda51b45d",
+    "date": "2022-08-15T19:58:49-04:00",
+    "hash": "021f801b86aa0ddc8aea9502b6cbd88a4fabb991",
+    "parents": "244d75ff56ea27db0f3cb421e8d784336343e1f3",
     "subject": "13x \"unknown\" -> \"a String\""
    },
    {
     "adate": "2022-04-16T15:52:52-04:00",
     "author": "Michael Dyck",
-    "date": "2022-08-05T21:27:43-04:00",
-    "hash": "7e595825884446f69c78b2d44fca584bda51b45d",
-    "parents": "118d2ebb4cf0a6a22d4e583a9958bc53023c7c60",
+    "date": "2022-08-15T19:41:57-04:00",
+    "hash": "244d75ff56ea27db0f3cb421e8d784336343e1f3",
+    "parents": "5ed7ae4024d892c192309e498075af3722a8d5d6",
     "subject": "17x \"unknown\" -> \"a List of Strings\""
    },
    {
     "adate": "2022-04-16T15:50:30-04:00",
     "author": "Michael Dyck",
-    "date": "2022-08-05T21:27:43-04:00",
-    "hash": "118d2ebb4cf0a6a22d4e583a9958bc53023c7c60",
-    "parents": "14c3b13039ef718a4047288483382a0a2b0ed281",
+    "date": "2022-08-15T19:41:57-04:00",
+    "hash": "5ed7ae4024d892c192309e498075af3722a8d5d6",
+    "parents": "61aca320d631e15a9ff07243623eb870b8061f52",
     "subject": "17x \"unknown\" -> \"an Object\""
    },
    {
     "adate": "2022-04-16T15:47:56-04:00",
     "author": "Michael Dyck",
-    "date": "2022-08-05T21:27:43-04:00",
-    "hash": "14c3b13039ef718a4047288483382a0a2b0ed281",
-    "parents": "ffe1ace1c0334b8b3816d3778ae3132d7fd1feb7",
+    "date": "2022-08-15T19:41:15-04:00",
+    "hash": "61aca320d631e15a9ff07243623eb870b8061f52",
+    "parents": "9bfbf9011467f44c17def1a914043d6740617b6b",
     "subject": "75x \"unknown\" -> \"an ECMAScript language value\""
    }
   ],
   "title": "Editorial: Almost eliminate \"unknown\" as a parameter type",
-  "updated_at": "2022-08-06T03:35:51Z"
+  "updated_at": "2022-08-16T00:01:35Z"
  },
  {
   "base": "7ae3ecf219bfaa02bb7f6dd1a668f152ff53e846",
