@@ -22,11 +22,19 @@
  {
   "base": "cd0692b082e9092a5b64aa5a8ba6ebb48161bfb2",
   "created_at": "2022-08-13T02:25:10Z",
-  "head": "74f90f24da8e896d89c894990b78cbf453c73ea6",
+  "head": "30ae91e0ab9fa16d4378fc50b2557827a7520589",
   "login": "tc39",
   "number": 2854,
   "ref": "GH-2847",
   "revs": [
+   {
+    "adate": "2022-08-16T16:28:31-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-08-16T16:28:31-06:00",
+    "hash": "30ae91e0ab9fa16d4378fc50b2557827a7520589",
+    "parents": "74f90f24da8e896d89c894990b78cbf453c73ea6",
+    "subject": "fix errors"
+   },
    {
     "adate": "2022-08-16T13:55:29-06:00",
     "author": "Michael Ficarra",
@@ -77,7 +85,7 @@
    }
   ],
   "title": "fixes #2847: clarify string representation of numbers with radix \u2260 10",
-  "updated_at": "2022-08-16T19:57:53Z"
+  "updated_at": "2022-08-16T22:28:48Z"
  },
  {
   "base": "ffe1ace1c0334b8b3816d3778ae3132d7fd1feb7",
