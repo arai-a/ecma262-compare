@@ -170,11 +170,19 @@
  {
   "base": "cd0692b082e9092a5b64aa5a8ba6ebb48161bfb2",
   "created_at": "2022-08-06T00:03:50Z",
-  "head": "19bd4f621f27b83e73efd92e5598c0ea45a9bb06",
+  "head": "8dbdc4fa2ae16a36fd36bd12a20a575dbcfcb50d",
   "login": "tc39",
   "number": 2848,
   "ref": "inclusive-range",
   "revs": [
+   {
+    "adate": "2022-08-16T14:37:28-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-08-16T14:37:28-06:00",
+    "hash": "8dbdc4fa2ae16a36fd36bd12a20a575dbcfcb50d",
+    "parents": "19bd4f621f27b83e73efd92e5598c0ea45a9bb06",
+    "subject": "requested changes"
+   },
    {
     "adate": "2022-08-16T09:01:42-06:00",
     "author": "Michael Ficarra",
@@ -233,7 +241,7 @@
    }
   ],
   "title": "Editorial: consistency in phrasing of ranges and inclusivity/exclusivity",
-  "updated_at": "2022-08-16T15:17:21Z"
+  "updated_at": "2022-08-16T20:40:45Z"
  },
  {
   "base": "0981442a6104c6e51e797384e7dd6e3551d88ae2",
