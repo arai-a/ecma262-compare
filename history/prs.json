@@ -42,11 +42,19 @@
  {
   "base": "cd0692b082e9092a5b64aa5a8ba6ebb48161bfb2",
   "created_at": "2022-08-13T02:25:10Z",
-  "head": "75f3f222909f724e46accfe01c5fc7749ce41bcb",
+  "head": "7b511a3e9c2802bd1e12fd41e3456da57b49fb9f",
   "login": "tc39",
   "number": 2854,
   "ref": "GH-2847",
   "revs": [
+   {
+    "adate": "2022-08-17T16:54:08-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-08-17T16:54:08-06:00",
+    "hash": "7b511a3e9c2802bd1e12fd41e3456da57b49fb9f",
+    "parents": "75f3f222909f724e46accfe01c5fc7749ce41bcb",
+    "subject": "add note about scientific E notation"
+   },
    {
     "adate": "2022-08-17T10:22:17-06:00",
     "author": "Michael Ficarra",
@@ -113,7 +121,7 @@
    }
   ],
   "title": "fixes #2847: clarify string representation of numbers with radix \u2260 10",
-  "updated_at": "2022-08-17T16:22:30Z"
+  "updated_at": "2022-08-17T22:56:31Z"
  },
  {
   "base": "ffe1ace1c0334b8b3816d3778ae3132d7fd1feb7",
