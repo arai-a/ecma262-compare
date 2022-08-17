@@ -1,6 +1,26 @@
 [
  {
   "base": "cd0692b082e9092a5b64aa5a8ba6ebb48161bfb2",
+  "created_at": "2022-08-17T08:05:55Z",
+  "head": "7bfd429686ddb40df4c27bc1b83710b6e95362d1",
+  "login": "antony-jeong",
+  "number": 2861,
+  "ref": "bugfix",
+  "revs": [
+   {
+    "adate": "2022-08-17T16:49:23+09:00",
+    "author": "antony-jeong",
+    "date": "2022-08-17T16:49:23+09:00",
+    "hash": "7bfd429686ddb40df4c27bc1b83710b6e95362d1",
+    "parents": "cd0692b082e9092a5b64aa5a8ba6ebb48161bfb2",
+    "subject": "Add NormalCompletion to steps 7.4.11.1.b and 23.1.5.1.1.b.iii"
+   }
+  ],
+  "title": "Editorial: Fix completion in CreateListIteratorRecord and CreateArrayIterator",
+  "updated_at": "2022-08-17T09:06:42Z"
+ },
+ {
+  "base": "cd0692b082e9092a5b64aa5a8ba6ebb48161bfb2",
   "created_at": "2022-08-16T20:14:03Z",
   "head": "f4bce58a779979702a536f0535072f29aad7766f",
   "login": "tc39",
