@@ -1,6 +1,26 @@
 [
  {
   "base": "cd0692b082e9092a5b64aa5a8ba6ebb48161bfb2",
+  "created_at": "2022-08-18T02:29:00Z",
+  "head": "1a65fde699e1a3674075bd1f5a931d6c03c36552",
+  "login": "tc39",
+  "number": 2862,
+  "ref": "square-bracket-empty",
+  "revs": [
+   {
+    "adate": "2022-08-17T20:24:00-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-08-17T20:24:00-06:00",
+    "hash": "1a65fde699e1a3674075bd1f5a931d6c03c36552",
+    "parents": "cd0692b082e9092a5b64aa5a8ba6ebb48161bfb2",
+    "subject": "replace implicit `~[empty]~` in ForBodyEvaluation with explicit `~empty~`"
+   }
+  ],
+  "title": "Editorial: replace implicit `~[empty]~` in ForBodyEvaluation with explicit `~empty~`",
+  "updated_at": "2022-08-18T02:36:28Z"
+ },
+ {
+  "base": "cd0692b082e9092a5b64aa5a8ba6ebb48161bfb2",
   "created_at": "2022-08-17T08:05:55Z",
   "head": "7bfd429686ddb40df4c27bc1b83710b6e95362d1",
   "login": "antony-jeong",
@@ -42,11 +62,19 @@
  {
   "base": "cd0692b082e9092a5b64aa5a8ba6ebb48161bfb2",
   "created_at": "2022-08-13T02:25:10Z",
-  "head": "7b511a3e9c2802bd1e12fd41e3456da57b49fb9f",
+  "head": "1e4d99d0fb1b3ecbd5c6e53f994212121d76fb5b",
   "login": "tc39",
   "number": 2854,
   "ref": "GH-2847",
   "revs": [
+   {
+    "adate": "2022-08-17T20:05:33-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-08-17T20:05:33-06:00",
+    "hash": "1e4d99d0fb1b3ecbd5c6e53f994212121d76fb5b",
+    "parents": "7b511a3e9c2802bd1e12fd41e3456da57b49fb9f",
+    "subject": "zeroes"
+   },
    {
     "adate": "2022-08-17T16:54:08-06:00",
     "author": "Michael Ficarra",
@@ -121,7 +149,7 @@
    }
   ],
   "title": "fixes #2847: clarify string representation of numbers with radix \u2260 10",
-  "updated_at": "2022-08-17T22:56:31Z"
+  "updated_at": "2022-08-18T02:05:41Z"
  },
  {
   "base": "ffe1ace1c0334b8b3816d3778ae3132d7fd1feb7",
@@ -734,11 +762,27 @@
  {
   "base": "f0e4ae8d31afbad55f03d423c200d7d7467ca49a",
   "created_at": "2022-06-17T10:55:52Z",
-  "head": "2c19663306376f28f71d29206594608e5a694d6b",
+  "head": "f0270e14188253f64ee06d5c6b5ed4e0e9e5d29b",
   "login": "F3n67u",
   "number": 2800,
   "ref": "fix/case",
   "revs": [
+   {
+    "adate": "2022-08-18T09:20:46+08:00",
+    "author": "Feng Yu",
+    "date": "2022-08-18T09:20:46+08:00",
+    "hash": "f0270e14188253f64ee06d5c6b5ed4e0e9e5d29b",
+    "parents": "e8cb855becd1200237a79eb8dfce69f869a32501",
+    "subject": "fix list problem 2"
+   },
+   {
+    "adate": "2022-08-18T09:19:35+08:00",
+    "author": "Feng Yu",
+    "date": "2022-08-18T09:19:35+08:00",
+    "hash": "e8cb855becd1200237a79eb8dfce69f869a32501",
+    "parents": "2c19663306376f28f71d29206594608e5a694d6b",
+    "subject": "fix list problem"
+   },
    {
     "adate": "2022-06-23T08:45:05+08:00",
     "author": "Feng Yu",
@@ -765,7 +809,7 @@
    }
   ],
   "title": "Editorial: Consistently capitalize List when refer to spec data structure",
-  "updated_at": "2022-06-23T00:46:09Z"
+  "updated_at": "2022-08-18T01:22:01Z"
  },
  {
   "base": "f0e4ae8d31afbad55f03d423c200d7d7467ca49a",
