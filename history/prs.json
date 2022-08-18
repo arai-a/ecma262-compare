@@ -22,11 +22,19 @@
  {
   "base": "cd0692b082e9092a5b64aa5a8ba6ebb48161bfb2",
   "created_at": "2022-08-18T02:29:00Z",
-  "head": "1a65fde699e1a3674075bd1f5a931d6c03c36552",
+  "head": "d63f5edcd7919bdcee04e5142b8b3197fa1edb22",
   "login": "tc39",
   "number": 2862,
   "ref": "square-bracket-empty",
   "revs": [
+   {
+    "adate": "2022-08-18T08:23:19-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-08-18T08:23:19-06:00",
+    "hash": "d63f5edcd7919bdcee04e5142b8b3197fa1edb22",
+    "parents": "1a65fde699e1a3674075bd1f5a931d6c03c36552",
+    "subject": "single line declarations"
+   },
    {
     "adate": "2022-08-17T20:24:00-06:00",
     "author": "Michael Ficarra",
@@ -37,7 +45,7 @@
    }
   ],
   "title": "Editorial: replace implicit `~[empty]~` in ForBodyEvaluation with explicit `~empty~`",
-  "updated_at": "2022-08-18T02:36:28Z"
+  "updated_at": "2022-08-18T15:17:47Z"
  },
  {
   "base": "cd0692b082e9092a5b64aa5a8ba6ebb48161bfb2",
