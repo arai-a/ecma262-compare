@@ -1,51 +1,23 @@
 [
  {
-  "base": "868fe7a8502adb7234011df4ba7470b12e7d7528",
+  "base": "4bb59ee35092a37c0cff3fce5619da3cb733a775",
   "created_at": "2022-08-18T09:32:10Z",
-  "head": "8e1932fec78d99a030681055ec6aa76bd43ee3e7",
+  "head": "bb949dbde8e75273c223b2e0bd18bb5fe76aba61",
   "login": "PSuHyeon",
   "number": 2863,
   "ref": "main",
   "revs": [
    {
-    "adate": "2022-08-18T17:58:40+09:00",
+    "adate": "2022-08-19T11:58:04-07:00",
     "author": "suhyeonPark",
-    "date": "2022-08-18T17:58:40+09:00",
-    "hash": "8e1932fec78d99a030681055ec6aa76bd43ee3e7",
-    "parents": "868fe7a8502adb7234011df4ba7470b12e7d7528",
-    "subject": "BugFix for Exponentiation of number and bigint"
+    "date": "2022-08-19T11:58:04-07:00",
+    "hash": "bb949dbde8e75273c223b2e0bd18bb5fe76aba61",
+    "parents": "4bb59ee35092a37c0cff3fce5619da3cb733a775",
+    "subject": "Editorial: bugfix for exponentiation of Number and BigInt (#2863)"
    }
   ],
-  "title": "BugFix for exponentiation of number and bigint",
-  "updated_at": "2022-08-18T09:32:10Z"
- },
- {
-  "base": "cd0692b082e9092a5b64aa5a8ba6ebb48161bfb2",
-  "created_at": "2022-08-18T02:29:00Z",
-  "head": "d63f5edcd7919bdcee04e5142b8b3197fa1edb22",
-  "login": "tc39",
-  "number": 2862,
-  "ref": "square-bracket-empty",
-  "revs": [
-   {
-    "adate": "2022-08-18T08:23:19-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-08-18T08:23:19-06:00",
-    "hash": "d63f5edcd7919bdcee04e5142b8b3197fa1edb22",
-    "parents": "1a65fde699e1a3674075bd1f5a931d6c03c36552",
-    "subject": "single line declarations"
-   },
-   {
-    "adate": "2022-08-17T20:24:00-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-08-17T20:24:00-06:00",
-    "hash": "1a65fde699e1a3674075bd1f5a931d6c03c36552",
-    "parents": "cd0692b082e9092a5b64aa5a8ba6ebb48161bfb2",
-    "subject": "replace implicit `~[empty]~` in ForBodyEvaluation with explicit `~empty~`"
-   }
-  ],
-  "title": "Editorial: replace implicit `~[empty]~` in ForBodyEvaluation with explicit `~empty~`",
-  "updated_at": "2022-08-18T15:17:47Z"
+  "title": "Editorial: bugfix for exponentiation of Number and BigInt",
+  "updated_at": "2022-08-19T19:05:50Z"
  },
  {
   "base": "cd0692b082e9092a5b64aa5a8ba6ebb48161bfb2",
@@ -242,42 +214,6 @@
   ],
   "title": "Editorial: Revert unintentional normative change for String.prototype.substr",
   "updated_at": "2022-08-04T07:33:23Z"
- },
- {
-  "base": "868fe7a8502adb7234011df4ba7470b12e7d7528",
-  "created_at": "2022-08-03T21:19:42Z",
-  "head": "b38fb1353b98a009f3e238c26aa280b0694d1f71",
-  "login": "tc39",
-  "number": 2842,
-  "ref": "get-value",
-  "revs": [
-   {
-    "adate": "2022-08-19T10:57:45-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2022-08-19T10:57:45-07:00",
-    "hash": "b38fb1353b98a009f3e238c26aa280b0694d1f71",
-    "parents": "6fdf3a93a192e33aedaf25efcdff61fd5334debe",
-    "subject": "Editorial: AOs do not need to unwrap passed-in Completion Records (#2842)"
-   },
-   {
-    "adate": "2022-08-19T10:57:41-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2022-08-19T10:57:41-07:00",
-    "hash": "6fdf3a93a192e33aedaf25efcdff61fd5334debe",
-    "parents": "8f5f33887490c98e2271cb51e46e6b10a834055c",
-    "subject": "Editorial: unwrap Completion Records before passing to GetValue (#2842)"
-   },
-   {
-    "adate": "2022-08-19T10:57:38-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2022-08-19T10:57:38-07:00",
-    "hash": "8f5f33887490c98e2271cb51e46e6b10a834055c",
-    "parents": "868fe7a8502adb7234011df4ba7470b12e7d7528",
-    "subject": "Editorial: initializing let/const bindings is infallible (#2842)"
-   }
-  ],
-  "title": "Editorial: GetValue and PutValue do not need to unwrap Completion Records",
-  "updated_at": "2022-08-19T17:58:01Z"
  },
  {
   "base": "70baf25692ae7d1f6ce51d64a535777f92ca1425",
@@ -582,26 +518,6 @@
   ],
   "title": "Normative: avoid mostly-redundant `await` in async `yield*`",
   "updated_at": "2022-07-07T19:44:12Z"
- },
- {
-  "base": "e61fbe1162d3b6b80848c3535cece3e36f4c08fb",
-  "created_at": "2022-07-07T17:23:46Z",
-  "head": "131e1455a840c9e44b439897ae58cc43938a325f",
-  "login": "tc39",
-  "number": 2817,
-  "ref": "if-abrupt-completions",
-  "revs": [
-   {
-    "adate": "2022-07-07T10:20:05-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2022-07-07T10:23:30-07:00",
-    "hash": "131e1455a840c9e44b439897ae58cc43938a325f",
-    "parents": "e61fbe1162d3b6b80848c3535cece3e36f4c08fb",
-    "subject": "Editorial: IfAbrupt macros only take completion records"
-   }
-  ],
-  "title": "Editorial: IfAbrupt macros only take completion records",
-  "updated_at": "2022-07-07T17:23:46Z"
  },
  {
   "base": "e61fbe1162d3b6b80848c3535cece3e36f4c08fb",
