@@ -1,6 +1,26 @@
 [
  {
   "base": "d57585b0acf7c5b60bffbcdcdba911909d6b96ff",
+  "created_at": "2022-08-19T22:08:14Z",
+  "head": "a75d6817b3af44a1047b960a8453de4784280450",
+  "login": "tc39",
+  "number": 2865,
+  "ref": "IsNoTearConfiguration",
+  "revs": [
+   {
+    "adate": "2022-08-19T16:01:32-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-08-19T16:01:32-06:00",
+    "hash": "a75d6817b3af44a1047b960a8453de4784280450",
+    "parents": "d57585b0acf7c5b60bffbcdcdba911909d6b96ff",
+    "subject": "Editorial: simplify IsNoTearConfiguration"
+   }
+  ],
+  "title": "Editorial: simplify IsNoTearConfiguration",
+  "updated_at": "2022-08-19T22:08:14Z"
+ },
+ {
+  "base": "d57585b0acf7c5b60bffbcdcdba911909d6b96ff",
   "created_at": "2022-08-18T09:32:10Z",
   "head": "4ddc187de6813c4026fbc2a3754fbdf3cc5bae66",
   "login": "PSuHyeon",
