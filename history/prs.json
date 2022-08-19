@@ -1,28 +1,8 @@
 [
  {
-  "base": "4bb59ee35092a37c0cff3fce5619da3cb733a775",
-  "created_at": "2022-08-19T21:10:55Z",
-  "head": "fbe66c8d04bfbd749c3faedd75c4c5dd9e928d1f",
-  "login": "tc39",
-  "number": 2864,
-  "ref": "bump-emu",
-  "revs": [
-   {
-    "adate": "2022-08-19T14:07:39-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2022-08-19T14:10:38-07:00",
-    "hash": "fbe66c8d04bfbd749c3faedd75c4c5dd9e928d1f",
-    "parents": "4bb59ee35092a37c0cff3fce5619da3cb733a775",
-    "subject": "Meta: bump ecmarkup to 14.1.1"
-   }
-  ],
-  "title": "Meta: bump ecmarkup to 14.1.1",
-  "updated_at": "2022-08-19T21:11:42Z"
- },
- {
-  "base": "4bb59ee35092a37c0cff3fce5619da3cb733a775",
+  "base": "d57585b0acf7c5b60bffbcdcdba911909d6b96ff",
   "created_at": "2022-08-18T09:32:10Z",
-  "head": "bb949dbde8e75273c223b2e0bd18bb5fe76aba61",
+  "head": "4ddc187de6813c4026fbc2a3754fbdf3cc5bae66",
   "login": "PSuHyeon",
   "number": 2863,
   "ref": "main",
@@ -31,13 +11,13 @@
     "adate": "2022-08-19T11:58:04-07:00",
     "author": "suhyeonPark",
     "date": "2022-08-19T11:58:04-07:00",
-    "hash": "bb949dbde8e75273c223b2e0bd18bb5fe76aba61",
-    "parents": "4bb59ee35092a37c0cff3fce5619da3cb733a775",
+    "hash": "4ddc187de6813c4026fbc2a3754fbdf3cc5bae66",
+    "parents": "d57585b0acf7c5b60bffbcdcdba911909d6b96ff",
     "subject": "Editorial: bugfix for exponentiation of Number and BigInt (#2863)"
    }
   ],
   "title": "Editorial: bugfix for exponentiation of Number and BigInt",
-  "updated_at": "2022-08-19T19:05:50Z"
+  "updated_at": "2022-08-19T21:36:25Z"
  },
  {
   "base": "cd0692b082e9092a5b64aa5a8ba6ebb48161bfb2",
