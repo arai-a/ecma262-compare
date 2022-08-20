@@ -1,6 +1,26 @@
 [
  {
   "base": "d57585b0acf7c5b60bffbcdcdba911909d6b96ff",
+  "created_at": "2022-08-20T03:16:33Z",
+  "head": "f09158b3b81dfbd9c707080fa2cd5fcf7c85f291",
+  "login": "tc39",
+  "number": 2866,
+  "ref": "GH-2860",
+  "revs": [
+   {
+    "adate": "2022-08-19T21:02:45-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-08-19T21:11:40-06:00",
+    "hash": "f09158b3b81dfbd9c707080fa2cd5fcf7c85f291",
+    "parents": "d57585b0acf7c5b60bffbcdcdba911909d6b96ff",
+    "subject": "Editorial: clarify BigInt.prototype.toString for non-decimal radices"
+   }
+  ],
+  "title": "Editorial: clarify BigInt.prototype.toString for non-decimal radices",
+  "updated_at": "2022-08-20T03:16:33Z"
+ },
+ {
+  "base": "d57585b0acf7c5b60bffbcdcdba911909d6b96ff",
   "created_at": "2022-08-19T22:08:14Z",
   "head": "a75d6817b3af44a1047b960a8453de4784280450",
   "login": "tc39",
