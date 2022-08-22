@@ -2,11 +2,19 @@
  {
   "base": "d57585b0acf7c5b60bffbcdcdba911909d6b96ff",
   "created_at": "2022-08-22T22:54:13Z",
-  "head": "32f18867eef4ed719d5d7d5a41a6d352301d3d11",
+  "head": "a21c5ed4e6c369d0dc83b1af6bb227fd766cc1e6",
   "login": "tc39",
   "number": 2867,
   "ref": "bigint-samevalue",
   "revs": [
+   {
+    "adate": "2022-08-22T17:25:36-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-08-22T17:25:36-06:00",
+    "hash": "a21c5ed4e6c369d0dc83b1af6bb227fd766cc1e6",
+    "parents": "32f18867eef4ed719d5d7d5a41a6d352301d3d11",
+    "subject": "fix type of SameValueNonNumber"
+   },
    {
     "adate": "2022-08-22T16:56:02-06:00",
     "author": "Michael Ficarra",
@@ -25,7 +33,7 @@
    }
   ],
   "title": "Editorial: get rid of BigInt::sameValue and BigInt::sameValueZero",
-  "updated_at": "2022-08-22T23:17:37Z"
+  "updated_at": "2022-08-22T23:41:52Z"
  },
  {
   "base": "d57585b0acf7c5b60bffbcdcdba911909d6b96ff",
