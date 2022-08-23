@@ -550,11 +550,27 @@
  {
   "base": "d57585b0acf7c5b60bffbcdcdba911909d6b96ff",
   "created_at": "2022-07-08T23:59:15Z",
-  "head": "bdf6f83ccf35e5aa3f3562256c32d91d60482889",
+  "head": "0cc9059566cfb3d95318ee9e53a342f125f16794",
   "login": "tc39",
   "number": 2821,
   "ref": "identity",
   "revs": [
+   {
+    "adate": "2022-08-22T20:58:18-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-08-22T20:58:18-06:00",
+    "hash": "0cc9059566cfb3d95318ee9e53a342f125f16794",
+    "parents": "30e3a39e2d3dd602354c9bfb817315bd038cd3a2",
+    "subject": "more phrasing"
+   },
+   {
+    "adate": "2022-08-22T19:51:59-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-08-22T19:53:32-06:00",
+    "hash": "30e3a39e2d3dd602354c9bfb817315bd038cd3a2",
+    "parents": "bdf6f83ccf35e5aa3f3562256c32d91d60482889",
+    "subject": "more phrasing updates"
+   },
    {
     "adate": "2022-08-22T16:35:56-06:00",
     "author": "Michael Ficarra",
@@ -573,7 +589,7 @@
    }
   ],
   "title": "fixes #2405: clarify spec values that have identity and its implications",
-  "updated_at": "2022-08-22T22:36:14Z"
+  "updated_at": "2022-08-23T02:59:36Z"
  },
  {
   "base": "358fcc9e5d3dfec3368a29d883f7849a4f6ae4b6",
