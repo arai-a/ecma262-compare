@@ -85,26 +85,6 @@
  },
  {
   "base": "d57585b0acf7c5b60bffbcdcdba911909d6b96ff",
-  "created_at": "2022-08-19T22:08:14Z",
-  "head": "a75d6817b3af44a1047b960a8453de4784280450",
-  "login": "tc39",
-  "number": 2865,
-  "ref": "IsNoTearConfiguration",
-  "revs": [
-   {
-    "adate": "2022-08-19T16:01:32-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-08-19T16:01:32-06:00",
-    "hash": "a75d6817b3af44a1047b960a8453de4784280450",
-    "parents": "d57585b0acf7c5b60bffbcdcdba911909d6b96ff",
-    "subject": "Editorial: simplify IsNoTearConfiguration"
-   }
-  ],
-  "title": "Editorial: simplify IsNoTearConfiguration",
-  "updated_at": "2022-08-19T22:08:14Z"
- },
- {
-  "base": "d57585b0acf7c5b60bffbcdcdba911909d6b96ff",
   "created_at": "2022-08-18T09:32:10Z",
   "head": "4ddc187de6813c4026fbc2a3754fbdf3cc5bae66",
   "login": "PSuHyeon",
@@ -578,11 +558,19 @@
  {
   "base": "d57585b0acf7c5b60bffbcdcdba911909d6b96ff",
   "created_at": "2022-07-08T23:59:15Z",
-  "head": "ee404a527597b25121c4f4f9c1cdf14051432d1f",
+  "head": "376e8f879c7fdcf0ef77fb415fdc9e9610f3fc03",
   "login": "tc39",
   "number": 2821,
   "ref": "identity",
   "revs": [
+   {
+    "adate": "2022-08-24T16:45:03-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-08-24T16:45:03-06:00",
+    "hash": "376e8f879c7fdcf0ef77fb415fdc9e9610f3fc03",
+    "parents": "ee404a527597b25121c4f4f9c1cdf14051432d1f",
+    "subject": "IsNoTearConfiguration"
+   },
    {
     "adate": "2022-08-24T13:06:20-06:00",
     "author": "Michael Ficarra",
@@ -705,7 +693,7 @@
    }
   ],
   "title": "fixes #2405: clarify spec values that have identity and its implications",
-  "updated_at": "2022-08-24T19:06:29Z"
+  "updated_at": "2022-08-24T22:55:44Z"
  },
  {
   "base": "358fcc9e5d3dfec3368a29d883f7849a4f6ae4b6",
