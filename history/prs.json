@@ -206,11 +206,27 @@
  {
   "base": "cd0692b082e9092a5b64aa5a8ba6ebb48161bfb2",
   "created_at": "2022-08-06T00:03:50Z",
-  "head": "39abbe29bfe0a7b5df5a3bb6c62aaba1d250c2e7",
+  "head": "cb6b625bc93244ea99bd1e0149458a79809c04ce",
   "login": "tc39",
   "number": 2848,
   "ref": "inclusive-range",
   "revs": [
+   {
+    "adate": "2022-08-24T17:57:43-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-08-24T17:57:43-06:00",
+    "hash": "cb6b625bc93244ea99bd1e0149458a79809c04ce",
+    "parents": "d9d623657103210a664c82a9233e2b35b2710f6e",
+    "subject": "loops use chained comparison again"
+   },
+   {
+    "adate": "2022-08-24T17:50:39-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-08-24T17:50:39-06:00",
+    "hash": "d9d623657103210a664c82a9233e2b35b2710f6e",
+    "parents": "39abbe29bfe0a7b5df5a3bb6c62aaba1d250c2e7",
+    "subject": "change definition again"
+   },
    {
     "adate": "2022-08-24T08:57:44-06:00",
     "author": "Michael Ficarra",
@@ -285,7 +301,7 @@
    }
   ],
   "title": "Editorial: consistency in phrasing of ranges and inclusivity/exclusivity",
-  "updated_at": "2022-08-24T14:58:25Z"
+  "updated_at": "2022-08-25T00:04:42Z"
  },
  {
   "base": "0981442a6104c6e51e797384e7dd6e3551d88ae2",
