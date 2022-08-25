@@ -1,6 +1,26 @@
 [
  {
   "base": "d57585b0acf7c5b60bffbcdcdba911909d6b96ff",
+  "created_at": "2022-08-25T05:22:45Z",
+  "head": "f0417e34013d56c47dd4355c0cc32b8b860ab9d8",
+  "login": "ljharb",
+  "number": 2872,
+  "ref": "ipr",
+  "revs": [
+   {
+    "adate": "2022-08-24T22:33:32-07:00",
+    "author": "Jordan Harband",
+    "date": "2022-08-24T22:33:32-07:00",
+    "hash": "f0417e34013d56c47dd4355c0cc32b8b860ab9d8",
+    "parents": "d57585b0acf7c5b60bffbcdcdba911909d6b96ff",
+    "subject": "Meta: properly fix IPR script (#2872)"
+   }
+  ],
+  "title": "Meta: properly fix IPR script (#2872)",
+  "updated_at": "2022-08-25T05:33:53Z"
+ },
+ {
+  "base": "d57585b0acf7c5b60bffbcdcdba911909d6b96ff",
   "created_at": "2022-08-23T11:19:46Z",
   "head": "4039274b3bd1c61fb82d59a32d8928e0cee3c6f3",
   "login": "ikravets",
