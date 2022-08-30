@@ -1,6 +1,26 @@
 [
  {
   "base": "dceb9e45fa04ff37a213095e97a28da81bf213ec",
+  "created_at": "2022-08-30T15:14:24Z",
+  "head": "46e7d64a5bebcd9f5d131003bedc3b19f8f73aae",
+  "login": "tc39",
+  "number": 2875,
+  "ref": "is-not-finite",
+  "revs": [
+   {
+    "adate": "2022-08-29T16:53:52-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-08-30T09:10:23-06:00",
+    "hash": "46e7d64a5bebcd9f5d131003bedc3b19f8f73aae",
+    "parents": "dceb9e45fa04ff37a213095e97a28da81bf213ec",
+    "subject": "use \"is not finite\" in more places where appropriate and add dfn"
+   }
+  ],
+  "title": "Editorial: use \"is not finite\" in more places where appropriate and add dfn for \"finite\" so they link",
+  "updated_at": "2022-08-30T15:14:24Z"
+ },
+ {
+  "base": "dceb9e45fa04ff37a213095e97a28da81bf213ec",
   "created_at": "2022-08-30T03:55:46Z",
   "head": "98a54e93b633b6c62fa036ba75373c8bcb95bf52",
   "login": "tc39",
@@ -2848,9 +2868,9 @@
   "updated_at": "2022-02-28T20:39:06Z"
  },
  {
-  "base": "9bfbf9011467f44c17def1a914043d6740617b6b",
+  "base": "dceb9e45fa04ff37a213095e97a28da81bf213ec",
   "created_at": "2020-12-08T06:31:39Z",
-  "head": "6eb252ee4e06eddb8bf1bc9426843aae698c4756",
+  "head": "2e8aa771bb706c28af562043e1ad29c430fb2a51",
   "login": "jmdyck",
   "number": 2246,
   "ref": "ExecutionContext_Record",
@@ -2858,14 +2878,14 @@
    {
     "adate": "2020-12-08T01:22:55-05:00",
     "author": "Michael Dyck",
-    "date": "2022-08-15T21:52:45-04:00",
-    "hash": "6eb252ee4e06eddb8bf1bc9426843aae698c4756",
-    "parents": "9bfbf9011467f44c17def1a914043d6740617b6b",
+    "date": "2022-08-30T10:31:31-04:00",
+    "hash": "2e8aa771bb706c28af562043e1ad29c430fb2a51",
+    "parents": "dceb9e45fa04ff37a213095e97a28da81bf213ec",
     "subject": "Editorial: Model execution context as a record"
    }
   ],
   "title": "Editorial: Model execution context as a record",
-  "updated_at": "2022-08-16T01:57:47Z"
+  "updated_at": "2022-08-30T14:55:44Z"
  },
  {
   "base": "b3f9b5089bcc3ddd8486379015cd11eb1427a5eb",
