@@ -2,11 +2,27 @@
  {
   "base": "dceb9e45fa04ff37a213095e97a28da81bf213ec",
   "created_at": "2022-08-30T03:55:46Z",
-  "head": "7fe180b215202664f9b0c955af8d156f389f79aa",
+  "head": "98a54e93b633b6c62fa036ba75373c8bcb95bf52",
   "login": "tc39",
   "number": 2874,
   "ref": "GH-2870",
   "revs": [
+   {
+    "adate": "2022-08-29T22:34:35-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-08-29T22:34:35-06:00",
+    "hash": "98a54e93b633b6c62fa036ba75373c8bcb95bf52",
+    "parents": "d44cf66b0506d576376919d9efa3c2f4dd028e5e",
+    "subject": "grammar"
+   },
+   {
+    "adate": "2022-08-29T22:29:49-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-08-29T22:29:49-06:00",
+    "hash": "d44cf66b0506d576376919d9efa3c2f4dd028e5e",
+    "parents": "7fe180b215202664f9b0c955af8d156f389f79aa",
+    "subject": "a Object"
+   },
    {
     "adate": "2022-08-29T21:48:35-06:00",
     "author": "Michael Ficarra",
@@ -17,7 +33,7 @@
    }
   ],
   "title": "Editorial: avoid using Type macro for simple type tests",
-  "updated_at": "2022-08-30T03:56:27Z"
+  "updated_at": "2022-08-30T04:34:58Z"
  },
  {
   "base": "dceb9e45fa04ff37a213095e97a28da81bf213ec",
@@ -204,104 +220,120 @@
   "updated_at": "2022-08-08T03:40:11Z"
  },
  {
-  "base": "cd0692b082e9092a5b64aa5a8ba6ebb48161bfb2",
+  "base": "dceb9e45fa04ff37a213095e97a28da81bf213ec",
   "created_at": "2022-08-06T00:03:50Z",
-  "head": "cb6b625bc93244ea99bd1e0149458a79809c04ce",
+  "head": "4bc999dfba270cc8b08b278cff77dd65ebff56a9",
   "login": "tc39",
   "number": 2848,
   "ref": "inclusive-range",
   "revs": [
    {
+    "adate": "2022-08-29T22:46:12-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-08-29T22:47:16-06:00",
+    "hash": "4bc999dfba270cc8b08b278cff77dd65ebff56a9",
+    "parents": "c4ecfbe5281bf467af1d8791ce18de0ad6f58667",
+    "subject": "use DecimalDigit"
+   },
+   {
+    "adate": "2022-08-29T22:43:51-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-08-29T22:47:16-06:00",
+    "hash": "c4ecfbe5281bf467af1d8791ce18de0ad6f58667",
+    "parents": "9ed7058b18c3eef111b14e215224d469dd522f4f",
+    "subject": "fix"
+   },
+   {
     "adate": "2022-08-24T17:57:43-06:00",
     "author": "Michael Ficarra",
-    "date": "2022-08-24T17:57:43-06:00",
-    "hash": "cb6b625bc93244ea99bd1e0149458a79809c04ce",
-    "parents": "d9d623657103210a664c82a9233e2b35b2710f6e",
+    "date": "2022-08-29T22:47:16-06:00",
+    "hash": "9ed7058b18c3eef111b14e215224d469dd522f4f",
+    "parents": "23f0e1b4fadc50989ca6f4ab11f18eb6b3aeba55",
     "subject": "loops use chained comparison again"
    },
    {
     "adate": "2022-08-24T17:50:39-06:00",
     "author": "Michael Ficarra",
-    "date": "2022-08-24T17:50:39-06:00",
-    "hash": "d9d623657103210a664c82a9233e2b35b2710f6e",
-    "parents": "39abbe29bfe0a7b5df5a3bb6c62aaba1d250c2e7",
+    "date": "2022-08-29T22:47:16-06:00",
+    "hash": "23f0e1b4fadc50989ca6f4ab11f18eb6b3aeba55",
+    "parents": "723e8244e9425383db25c37b1d77a6673ab69eef",
     "subject": "change definition again"
    },
    {
     "adate": "2022-08-24T08:57:44-06:00",
     "author": "Michael Ficarra",
-    "date": "2022-08-24T08:57:44-06:00",
-    "hash": "39abbe29bfe0a7b5df5a3bb6c62aaba1d250c2e7",
-    "parents": "8dbdc4fa2ae16a36fd36bd12a20a575dbcfcb50d",
+    "date": "2022-08-29T22:47:16-06:00",
+    "hash": "723e8244e9425383db25c37b1d77a6673ab69eef",
+    "parents": "edc37c24126481679f8aeba3512d13b79061e16e",
     "subject": "more wordsmithing"
    },
    {
     "adate": "2022-08-16T14:37:28-06:00",
     "author": "Michael Ficarra",
-    "date": "2022-08-16T14:37:28-06:00",
-    "hash": "8dbdc4fa2ae16a36fd36bd12a20a575dbcfcb50d",
-    "parents": "19bd4f621f27b83e73efd92e5598c0ea45a9bb06",
+    "date": "2022-08-29T22:47:15-06:00",
+    "hash": "edc37c24126481679f8aeba3512d13b79061e16e",
+    "parents": "2cf9b69a97f4991825821f6a8f55a76764184e32",
     "subject": "requested changes"
    },
    {
     "adate": "2022-08-16T09:01:42-06:00",
     "author": "Michael Ficarra",
-    "date": "2022-08-16T09:01:42-06:00",
-    "hash": "19bd4f621f27b83e73efd92e5598c0ea45a9bb06",
-    "parents": "f411b501e7f750408b157c49bdee0e5cca8d5f70",
+    "date": "2022-08-29T22:47:15-06:00",
+    "hash": "2cf9b69a97f4991825821f6a8f55a76764184e32",
+    "parents": "7b9bb56113c97750509019ab30ad787799f0c81a",
     "subject": "be more explicit about mutual exclusion of inclusivity/exclusivity"
    },
    {
     "adate": "2022-08-12T11:23:53-06:00",
     "author": "Michael Ficarra",
-    "date": "2022-08-16T08:59:14-06:00",
-    "hash": "f411b501e7f750408b157c49bdee0e5cca8d5f70",
-    "parents": "23f7a83c02bb4cd6431c0a49107dfd26fdf0ffc0",
+    "date": "2022-08-29T22:47:15-06:00",
+    "hash": "7b9bb56113c97750509019ab30ad787799f0c81a",
+    "parents": "2d599166da253b9bef29864d27639ebbb2746cb7",
     "subject": "tweaks and examples"
    },
    {
     "adate": "2022-08-10T19:35:04-06:00",
     "author": "Michael Ficarra",
-    "date": "2022-08-16T08:58:45-06:00",
-    "hash": "23f7a83c02bb4cd6431c0a49107dfd26fdf0ffc0",
-    "parents": "ee4ef295acb4066808efba9aa1e32d3bcecd96c9",
+    "date": "2022-08-29T22:47:15-06:00",
+    "hash": "2d599166da253b9bef29864d27639ebbb2746cb7",
+    "parents": "b01def73d902e2fcefe7bf60d5856611a4526b1c",
     "subject": "interval bounds are no longer exclusive by default"
    },
    {
     "adate": "2022-08-10T19:26:18-06:00",
     "author": "Michael Ficarra",
-    "date": "2022-08-16T08:58:45-06:00",
-    "hash": "ee4ef295acb4066808efba9aa1e32d3bcecd96c9",
-    "parents": "2dde7545c2f8cc1e0ce42bdbd7ed69af26f7d1ea",
+    "date": "2022-08-29T22:47:15-06:00",
+    "hash": "b01def73d902e2fcefe7bf60d5856611a4526b1c",
+    "parents": "c63785063cd76ae17742060f5f57922f559e91a8",
     "subject": "subvert ecmarkup lint error"
    },
    {
     "adate": "2022-08-10T19:19:54-06:00",
     "author": "Michael Ficarra",
-    "date": "2022-08-16T08:58:45-06:00",
-    "hash": "2dde7545c2f8cc1e0ce42bdbd7ed69af26f7d1ea",
-    "parents": "913b21399692507d84de217c1e9758befb27d345",
+    "date": "2022-08-29T22:47:15-06:00",
+    "hash": "c63785063cd76ae17742060f5f57922f559e91a8",
+    "parents": "412db61f550249819ced6fdc3cc4c9eaf9a16597",
     "subject": "use more intervals"
    },
    {
     "adate": "2022-08-10T18:07:21-06:00",
     "author": "Michael Ficarra",
-    "date": "2022-08-16T08:58:45-06:00",
-    "hash": "913b21399692507d84de217c1e9758befb27d345",
-    "parents": "2657ac63930c0bbfc8a7f409bf74be9ac3558909",
+    "date": "2022-08-29T22:47:15-06:00",
+    "hash": "412db61f550249819ced6fdc3cc4c9eaf9a16597",
+    "parents": "50aec2d769b443b4f85ff365fbe4b26d55d347b6",
     "subject": "order -0 before +0 ... I'm sorry"
    },
    {
     "adate": "2022-08-05T17:58:47-06:00",
     "author": "Michael Ficarra",
-    "date": "2022-08-16T08:58:45-06:00",
-    "hash": "2657ac63930c0bbfc8a7f409bf74be9ac3558909",
-    "parents": "cd0692b082e9092a5b64aa5a8ba6ebb48161bfb2",
+    "date": "2022-08-29T22:47:15-06:00",
+    "hash": "50aec2d769b443b4f85ff365fbe4b26d55d347b6",
+    "parents": "dceb9e45fa04ff37a213095e97a28da81bf213ec",
     "subject": "Editorial: consistency in phrasing of ranges and inclusivity/exclusivity"
    }
   ],
   "title": "Editorial: consistency in phrasing of ranges and inclusivity/exclusivity",
-  "updated_at": "2022-08-25T00:04:42Z"
+  "updated_at": "2022-08-30T04:59:14Z"
  },
  {
   "base": "0981442a6104c6e51e797384e7dd6e3551d88ae2",
@@ -574,11 +606,19 @@
  {
   "base": "d57585b0acf7c5b60bffbcdcdba911909d6b96ff",
   "created_at": "2022-07-08T23:59:15Z",
-  "head": "d9dd8178e3844140c13026207ba17b808178d4a8",
+  "head": "99c88bfdd717c66a97b72b180d08dd73ae550fb3",
   "login": "tc39",
   "number": 2821,
   "ref": "identity",
   "revs": [
+   {
+    "adate": "2022-08-29T22:27:34-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-08-29T22:27:34-06:00",
+    "hash": "99c88bfdd717c66a97b72b180d08dd73ae550fb3",
+    "parents": "d9dd8178e3844140c13026207ba17b808178d4a8",
+    "subject": "more \"is not finite\""
+   },
    {
     "adate": "2022-08-29T16:53:52-06:00",
     "author": "Michael Ficarra",
@@ -749,7 +789,7 @@
    }
   ],
   "title": "fixes #2405: clarify spec values that have identity and its implications",
-  "updated_at": "2022-08-30T02:49:25Z"
+  "updated_at": "2022-08-30T05:10:09Z"
  },
  {
   "base": "358fcc9e5d3dfec3368a29d883f7849a4f6ae4b6",
