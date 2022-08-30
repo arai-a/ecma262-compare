@@ -1,6 +1,46 @@
 [
  {
   "base": "dceb9e45fa04ff37a213095e97a28da81bf213ec",
+  "created_at": "2022-08-30T16:04:08Z",
+  "head": "033ca340a4c42d86bb32593431a2644e5827e5c3",
+  "login": "tc39",
+  "number": 2877,
+  "ref": "comparison-consistency",
+  "revs": [
+   {
+    "adate": "2022-07-08T17:55:36-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-08-30T10:01:33-06:00",
+    "hash": "033ca340a4c42d86bb32593431a2644e5827e5c3",
+    "parents": "dceb9e45fa04ff37a213095e97a28da81bf213ec",
+    "subject": "various editorial changes for comparisons"
+   }
+  ],
+  "title": "various editorial changes for comparisons",
+  "updated_at": "2022-08-30T16:04:08Z"
+ },
+ {
+  "base": "dceb9e45fa04ff37a213095e97a28da81bf213ec",
+  "created_at": "2022-08-30T16:03:26Z",
+  "head": "d400bb5e8696595c8c07a4294733cbcf613b4f7c",
+  "login": "tc39",
+  "number": 2876,
+  "ref": "backslash-d",
+  "revs": [
+   {
+    "adate": "2022-08-30T09:54:48-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-08-30T09:54:48-06:00",
+    "hash": "d400bb5e8696595c8c07a4294733cbcf613b4f7c",
+    "parents": "dceb9e45fa04ff37a213095e97a28da81bf213ec",
+    "subject": "define `\\d` semantics in a similar way to `\\s`, avoiding char range"
+   }
+  ],
+  "title": "Editorial: define `\\d` semantics in a similar way to `\\s`, avoiding character range",
+  "updated_at": "2022-08-30T16:04:30Z"
+ },
+ {
+  "base": "dceb9e45fa04ff37a213095e97a28da81bf213ec",
   "created_at": "2022-08-30T15:14:24Z",
   "head": "46e7d64a5bebcd9f5d131003bedc3b19f8f73aae",
   "login": "tc39",
@@ -242,11 +282,27 @@
  {
   "base": "dceb9e45fa04ff37a213095e97a28da81bf213ec",
   "created_at": "2022-08-06T00:03:50Z",
-  "head": "4bc999dfba270cc8b08b278cff77dd65ebff56a9",
+  "head": "e1fd6c71b7beaf6db649eab748f0a728adfa7e6f",
   "login": "tc39",
   "number": 2848,
   "ref": "inclusive-range",
   "revs": [
+   {
+    "adate": "2022-08-30T09:57:23-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-08-30T10:09:44-06:00",
+    "hash": "e1fd6c71b7beaf6db649eab748f0a728adfa7e6f",
+    "parents": "b187b7cc44195d27dde2fa8c5c246192bb348f12",
+    "subject": "update ecmarkup"
+   },
+   {
+    "adate": "2022-08-30T09:56:47-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-08-30T09:56:47-06:00",
+    "hash": "b187b7cc44195d27dde2fa8c5c246192bb348f12",
+    "parents": "4bc999dfba270cc8b08b278cff77dd65ebff56a9",
+    "subject": "back out `\\d` change"
+   },
    {
     "adate": "2022-08-29T22:46:12-06:00",
     "author": "Michael Ficarra",
@@ -353,7 +409,7 @@
    }
   ],
   "title": "Editorial: consistency in phrasing of ranges and inclusivity/exclusivity",
-  "updated_at": "2022-08-30T04:59:14Z"
+  "updated_at": "2022-08-30T16:10:57Z"
  },
  {
   "base": "0981442a6104c6e51e797384e7dd6e3551d88ae2",
