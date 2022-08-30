@@ -1,6 +1,26 @@
 [
  {
   "base": "dceb9e45fa04ff37a213095e97a28da81bf213ec",
+  "created_at": "2022-08-30T03:55:46Z",
+  "head": "7fe180b215202664f9b0c955af8d156f389f79aa",
+  "login": "tc39",
+  "number": 2874,
+  "ref": "GH-2870",
+  "revs": [
+   {
+    "adate": "2022-08-29T21:48:35-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-08-29T21:48:35-06:00",
+    "hash": "7fe180b215202664f9b0c955af8d156f389f79aa",
+    "parents": "dceb9e45fa04ff37a213095e97a28da81bf213ec",
+    "subject": "avoid using Type macro for simple type tests"
+   }
+  ],
+  "title": "Editorial: avoid using Type macro for simple type tests",
+  "updated_at": "2022-08-30T03:56:27Z"
+ },
+ {
+  "base": "dceb9e45fa04ff37a213095e97a28da81bf213ec",
   "created_at": "2022-08-23T11:19:46Z",
   "head": "a836506f7270d29e195a4fbe388387b53f917e7a",
   "login": "ikravets",
@@ -554,11 +574,19 @@
  {
   "base": "d57585b0acf7c5b60bffbcdcdba911909d6b96ff",
   "created_at": "2022-07-08T23:59:15Z",
-  "head": "04f5e4a30f1750e6ca7eb3f58b3ee4460890673e",
+  "head": "d9dd8178e3844140c13026207ba17b808178d4a8",
   "login": "tc39",
   "number": 2821,
   "ref": "identity",
   "revs": [
+   {
+    "adate": "2022-08-29T16:53:52-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-08-29T17:55:13-06:00",
+    "hash": "d9dd8178e3844140c13026207ba17b808178d4a8",
+    "parents": "04f5e4a30f1750e6ca7eb3f58b3ee4460890673e",
+    "subject": "is not finite"
+   },
    {
     "adate": "2022-08-29T15:48:21-06:00",
     "author": "Michael Ficarra",
@@ -721,7 +749,7 @@
    }
   ],
   "title": "fixes #2405: clarify spec values that have identity and its implications",
-  "updated_at": "2022-08-29T21:48:37Z"
+  "updated_at": "2022-08-30T02:49:25Z"
  },
  {
   "base": "358fcc9e5d3dfec3368a29d883f7849a4f6ae4b6",
