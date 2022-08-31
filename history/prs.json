@@ -42,11 +42,19 @@
  {
   "base": "dceb9e45fa04ff37a213095e97a28da81bf213ec",
   "created_at": "2022-08-31T02:26:59Z",
-  "head": "fea028a1e12275e3c25c56e3c9a8bdf648108dc3",
+  "head": "cbcb761ac5e54fd929c1985ac7fa80849a0ad54f",
   "login": "tc39",
   "number": 2879,
   "ref": "SourceText-string",
   "revs": [
+   {
+    "adate": "2022-08-31T16:33:35-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-08-31T16:33:35-06:00",
+    "hash": "cbcb761ac5e54fd929c1985ac7fa80849a0ad54f",
+    "parents": "fea028a1e12275e3c25c56e3c9a8bdf648108dc3",
+    "subject": "add oldids"
+   },
    {
     "adate": "2022-08-30T20:23:26-06:00",
     "author": "Michael Ficarra",
@@ -57,7 +65,7 @@
    }
   ],
   "title": "Editorial: remove some unnecessary complexity due to the SourceText AO",
-  "updated_at": "2022-08-31T02:26:59Z"
+  "updated_at": "2022-08-31T22:33:57Z"
  },
  {
   "base": "dceb9e45fa04ff37a213095e97a28da81bf213ec",
@@ -364,40 +372,32 @@
   "updated_at": "2022-08-26T09:08:57Z"
  },
  {
-  "base": "d57585b0acf7c5b60bffbcdcdba911909d6b96ff",
+  "base": "a02f895f67acc60b05f6c91362071f1340df51fc",
   "created_at": "2022-08-22T22:54:13Z",
-  "head": "a21c5ed4e6c369d0dc83b1af6bb227fd766cc1e6",
+  "head": "6b036fbdc0d0d26fb0fd4d2733612d13592de36a",
   "login": "tc39",
   "number": 2867,
   "ref": "bigint-samevalue",
   "revs": [
    {
-    "adate": "2022-08-22T17:25:36-06:00",
+    "adate": "2022-08-31T16:32:02-06:00",
     "author": "Michael Ficarra",
-    "date": "2022-08-22T17:25:36-06:00",
-    "hash": "a21c5ed4e6c369d0dc83b1af6bb227fd766cc1e6",
-    "parents": "32f18867eef4ed719d5d7d5a41a6d352301d3d11",
-    "subject": "fix type of SameValueNonNumber"
-   },
-   {
-    "adate": "2022-08-22T16:56:02-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-08-22T16:56:02-06:00",
-    "hash": "32f18867eef4ed719d5d7d5a41a6d352301d3d11",
-    "parents": "a80058c29dd6d1adbac0ea4997e8b78613c6f13e",
-    "subject": "inline BigInt::equal"
+    "date": "2022-08-31T16:32:02-06:00",
+    "hash": "6b036fbdc0d0d26fb0fd4d2733612d13592de36a",
+    "parents": "f571bd6938750e05be16cf8d2301cbeeb85d5925",
+    "subject": "add oldids"
    },
    {
     "adate": "2022-08-22T16:49:55-06:00",
     "author": "Michael Ficarra",
-    "date": "2022-08-22T16:51:07-06:00",
-    "hash": "a80058c29dd6d1adbac0ea4997e8b78613c6f13e",
-    "parents": "d57585b0acf7c5b60bffbcdcdba911909d6b96ff",
+    "date": "2022-08-31T16:25:12-06:00",
+    "hash": "f571bd6938750e05be16cf8d2301cbeeb85d5925",
+    "parents": "a02f895f67acc60b05f6c91362071f1340df51fc",
     "subject": "Editorial: get rid of BigInt::sameValue and BigInt::sameValueZero"
    }
   ],
   "title": "Editorial: get rid of BigInt::sameValue and BigInt::sameValueZero",
-  "updated_at": "2022-08-22T23:41:52Z"
+  "updated_at": "2022-08-31T22:32:13Z"
  },
  {
   "base": "d57585b0acf7c5b60bffbcdcdba911909d6b96ff",
