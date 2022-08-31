@@ -1,23 +1,111 @@
 [
  {
   "base": "dceb9e45fa04ff37a213095e97a28da81bf213ec",
+  "created_at": "2022-08-31T02:26:59Z",
+  "head": "fea028a1e12275e3c25c56e3c9a8bdf648108dc3",
+  "login": "tc39",
+  "number": 2879,
+  "ref": "SourceText-string",
+  "revs": [
+   {
+    "adate": "2022-08-30T20:23:26-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-08-30T20:23:26-06:00",
+    "hash": "fea028a1e12275e3c25c56e3c9a8bdf648108dc3",
+    "parents": "dceb9e45fa04ff37a213095e97a28da81bf213ec",
+    "subject": "Editorial: remove some unnecessary complexity due to the SourceText AO"
+   }
+  ],
+  "title": "Editorial: remove some unnecessary complexity due to the SourceText AO",
+  "updated_at": "2022-08-31T02:26:59Z"
+ },
+ {
+  "base": "dceb9e45fa04ff37a213095e97a28da81bf213ec",
+  "created_at": "2022-08-31T01:44:51Z",
+  "head": "3738f15de0643a2d08381ef6a29f9067f54469ef",
+  "login": "tc39",
+  "number": 2878,
+  "ref": "fromCharCode-refactoring",
+  "revs": [
+   {
+    "adate": "2022-08-30T20:28:36-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-08-30T20:28:36-06:00",
+    "hash": "3738f15de0643a2d08381ef6a29f9067f54469ef",
+    "parents": "5fb63262c4fa38bb8df9140a6ab2ace3c106dcd7",
+    "subject": "append doesn't change aliases"
+   },
+   {
+    "adate": "2022-08-30T19:41:43-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-08-30T19:41:43-06:00",
+    "hash": "5fb63262c4fa38bb8df9140a6ab2ace3c106dcd7",
+    "parents": "dceb9e45fa04ff37a213095e97a28da81bf213ec",
+    "subject": "Editorial: refactor String.fromCharCode to build a String directly"
+   }
+  ],
+  "title": "Editorial: refactor String.fromCharCode to build a String directly",
+  "updated_at": "2022-08-31T02:49:20Z"
+ },
+ {
+  "base": "dceb9e45fa04ff37a213095e97a28da81bf213ec",
   "created_at": "2022-08-30T16:04:08Z",
-  "head": "033ca340a4c42d86bb32593431a2644e5827e5c3",
+  "head": "35370b1de6cb7ded21cdb1611d321c5a2dfff3f1",
   "login": "tc39",
   "number": 2877,
   "ref": "comparison-consistency",
   "revs": [
    {
+    "adate": "2022-08-30T20:34:45-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-08-30T20:34:45-06:00",
+    "hash": "35370b1de6cb7ded21cdb1611d321c5a2dfff3f1",
+    "parents": "587acaa929f53105848b1cea02f5380334f1c62c",
+    "subject": "is that of"
+   },
+   {
+    "adate": "2022-08-30T20:30:50-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-08-30T20:30:50-06:00",
+    "hash": "587acaa929f53105848b1cea02f5380334f1c62c",
+    "parents": "29f16482dcc5be9c3588333cb497a6f55837e5f3",
+    "subject": "phrasing"
+   },
+   {
+    "adate": "2022-08-30T20:07:12-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-08-30T20:07:12-06:00",
+    "hash": "29f16482dcc5be9c3588333cb497a6f55837e5f3",
+    "parents": "7953e984bdc905a349532d40a210cdaea88910e0",
+    "subject": "more phrasing"
+   },
+   {
+    "adate": "2022-08-30T19:34:31-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-08-30T19:34:31-06:00",
+    "hash": "7953e984bdc905a349532d40a210cdaea88910e0",
+    "parents": "44fadb14331ac0aa466eb59ea83ab8b50fefcd2a",
+    "subject": "more phrasing"
+   },
+   {
     "adate": "2022-07-08T17:55:36-06:00",
     "author": "Michael Ficarra",
-    "date": "2022-08-30T10:01:33-06:00",
-    "hash": "033ca340a4c42d86bb32593431a2644e5827e5c3",
-    "parents": "dceb9e45fa04ff37a213095e97a28da81bf213ec",
+    "date": "2022-08-30T17:47:53-06:00",
+    "hash": "44fadb14331ac0aa466eb59ea83ab8b50fefcd2a",
+    "parents": "d0b74836158bf2a0a672366c89f1f0513271272d",
     "subject": "various editorial changes for comparisons"
+   },
+   {
+    "adate": "2022-07-08T17:55:36-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-08-30T09:27:49-06:00",
+    "hash": "d0b74836158bf2a0a672366c89f1f0513271272d",
+    "parents": "dceb9e45fa04ff37a213095e97a28da81bf213ec",
+    "subject": "fixes #2405: clarify spec values that have identity and its implications"
    }
   ],
   "title": "various editorial changes for comparisons",
-  "updated_at": "2022-08-30T16:04:08Z"
+  "updated_at": "2022-08-31T02:34:51Z"
  },
  {
   "base": "dceb9e45fa04ff37a213095e97a28da81bf213ec",
@@ -1174,11 +1262,19 @@
  {
   "base": "7ae3ecf219bfaa02bb7f6dd1a668f152ff53e846",
   "created_at": "2022-04-19T18:47:40Z",
-  "head": "c8b823e03bd922a38fac6efc05329484ea7e792f",
+  "head": "5cbe35701602d532bfafd67a6071f30c30f95361",
   "login": "gibson042",
   "number": 2747,
   "ref": "2022-04-explicit-getstringindex",
   "revs": [
+   {
+    "adate": "2022-08-30T23:42:28-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-08-30T23:42:28-04:00",
+    "hash": "5cbe35701602d532bfafd67a6071f30c30f95361",
+    "parents": "c8b823e03bd922a38fac6efc05329484ea7e792f",
+    "subject": "Editorial: Unabbreviate alias names"
+   },
    {
     "adate": "2022-06-07T00:53:05-04:00",
     "author": "Richard Gibson",
@@ -1213,7 +1309,7 @@
    }
   ],
   "title": "Editorial: Make the steps of GetStringIndex more explicit",
-  "updated_at": "2022-06-07T04:53:29Z"
+  "updated_at": "2022-08-31T03:43:19Z"
  },
  {
   "base": "dceb9e45fa04ff37a213095e97a28da81bf213ec",
