@@ -318,11 +318,19 @@
  {
   "base": "dceb9e45fa04ff37a213095e97a28da81bf213ec",
   "created_at": "2022-08-30T03:55:46Z",
-  "head": "98a54e93b633b6c62fa036ba75373c8bcb95bf52",
+  "head": "814d4ad6a7a6598273064e8d7e860a17837cac85",
   "login": "tc39",
   "number": 2874,
   "ref": "GH-2870",
   "revs": [
+   {
+    "adate": "2022-08-31T16:51:07-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-08-31T16:51:07-06:00",
+    "hash": "814d4ad6a7a6598273064e8d7e860a17837cac85",
+    "parents": "98a54e93b633b6c62fa036ba75373c8bcb95bf52",
+    "subject": "add dfns for types that will be tested"
+   },
    {
     "adate": "2022-08-29T22:34:35-06:00",
     "author": "Michael Ficarra",
@@ -349,7 +357,7 @@
    }
   ],
   "title": "Editorial: avoid using Type macro for simple type tests",
-  "updated_at": "2022-08-30T04:34:58Z"
+  "updated_at": "2022-08-31T22:58:17Z"
  },
  {
   "base": "dceb9e45fa04ff37a213095e97a28da81bf213ec",
