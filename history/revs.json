@@ -1,5 +1,21 @@
 [
  {
+  "adate": "2022-09-01T11:30:42-07:00",
+  "author": "Michael Ficarra",
+  "date": "2022-09-01T11:30:42-07:00",
+  "hash": "f660b14006077c85fc06a63bc160083e9fc7ca46",
+  "parents": "9a5caa4ffb785aa76e20923ea63ca71ef49bb1b0",
+  "subject": "Editorial: get rid of BigInt::sameValue and BigInt::sameValueZero (#2867)"
+ },
+ {
+  "adate": "2022-09-01T10:59:46-07:00",
+  "author": "Michael Ficarra",
+  "date": "2022-09-01T10:59:46-07:00",
+  "hash": "9a5caa4ffb785aa76e20923ea63ca71ef49bb1b0",
+  "parents": "ff191ce886ba80845867d3cdeffb8bf51f438ac5",
+  "subject": "Editorial: clarify BigInt.prototype.toString for non-decimal radices (#2866)"
+ },
+ {
   "adate": "2022-09-01T10:34:03-07:00",
   "author": "Michael Ficarra",
   "date": "2022-09-01T10:34:03-07:00",
