@@ -2986,11 +2986,59 @@
  {
   "base": "dceb9e45fa04ff37a213095e97a28da81bf213ec",
   "created_at": "2020-12-08T06:31:39Z",
-  "head": "2e8aa771bb706c28af562043e1ad29c430fb2a51",
+  "head": "84ca7d45c4c1988bdeaa7d3b0ab30534cec1e5b6",
   "login": "jmdyck",
   "number": 2246,
   "ref": "ExecutionContext_Record",
   "revs": [
+   {
+    "adate": "2022-08-31T23:46:33-04:00",
+    "author": "Michael Dyck",
+    "date": "2022-08-31T23:46:33-04:00",
+    "hash": "84ca7d45c4c1988bdeaa7d3b0ab30534cec1e5b6",
+    "parents": "85703b133c5dae35437743d0701a918843d574d4",
+    "subject": "fixup: \"execution context\" -> \"ExecutionContext Record\" in some prose"
+   },
+   {
+    "adate": "2022-08-31T23:31:55-04:00",
+    "author": "Michael Dyck",
+    "date": "2022-08-31T23:41:39-04:00",
+    "hash": "85703b133c5dae35437743d0701a918843d574d4",
+    "parents": "2b5a9e2a4971af34924aa9439ab49ba4f8dc2b04",
+    "subject": "fixup: \"execution context\" -> \"ExecutionContext Record\" in some alg steps"
+   },
+   {
+    "adate": "2022-08-31T23:13:29-04:00",
+    "author": "Michael Dyck",
+    "date": "2022-08-31T23:36:33-04:00",
+    "hash": "2b5a9e2a4971af34924aa9439ab49ba4f8dc2b04",
+    "parents": "4c0918d3b20c51d272caca2a464e7a08ffa49757",
+    "subject": "fixup: Avoid saying \"that execution context\" by naming it"
+   },
+   {
+    "adate": "2022-08-31T20:30:10-04:00",
+    "author": "Michael Dyck",
+    "date": "2022-08-31T23:36:33-04:00",
+    "hash": "4c0918d3b20c51d272caca2a464e7a08ffa49757",
+    "parents": "330390fab17decc89951e77c26e94725efd47324",
+    "subject": "fixup: \"execution context\" -> \"ExecutionContext Record\" in record-field tables"
+   },
+   {
+    "adate": "2022-08-31T20:24:28-04:00",
+    "author": "Michael Dyck",
+    "date": "2022-08-31T23:36:33-04:00",
+    "hash": "330390fab17decc89951e77c26e94725efd47324",
+    "parents": "e18d7741065e730d85aad27731828a10e3b1278e",
+    "subject": "fixup: \"execution context\" -> \"ExecutionContext Record\" in AO headers"
+   },
+   {
+    "adate": "2022-08-31T23:32:48-04:00",
+    "author": "Michael Dyck",
+    "date": "2022-08-31T23:36:33-04:00",
+    "hash": "e18d7741065e730d85aad27731828a10e3b1278e",
+    "parents": "2e8aa771bb706c28af562043e1ad29c430fb2a51",
+    "subject": "fixup: \"execution context\" -> \"ExecutionContext Record\" in the <dfn> of ECMAScript code execution contexts"
+   },
    {
     "adate": "2020-12-08T01:22:55-05:00",
     "author": "Michael Dyck",
@@ -3001,7 +3049,7 @@
    }
   ],
   "title": "Editorial: Model execution context as a record",
-  "updated_at": "2022-08-30T14:55:44Z"
+  "updated_at": "2022-09-01T03:53:29Z"
  },
  {
   "base": "b3f9b5089bcc3ddd8486379015cd11eb1427a5eb",
