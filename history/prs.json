@@ -428,34 +428,6 @@
   "updated_at": "2022-08-31T22:32:13Z"
  },
  {
-  "base": "d57585b0acf7c5b60bffbcdcdba911909d6b96ff",
-  "created_at": "2022-08-20T03:16:33Z",
-  "head": "f300500c66eb56e2eb5b12d42a11aa960765ad35",
-  "login": "tc39",
-  "number": 2866,
-  "ref": "GH-2860",
-  "revs": [
-   {
-    "adate": "2022-08-19T21:39:04-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-08-19T21:39:04-06:00",
-    "hash": "f300500c66eb56e2eb5b12d42a11aa960765ad35",
-    "parents": "f09158b3b81dfbd9c707080fa2cd5fcf7c85f291",
-    "subject": "remove unnecessary `!`"
-   },
-   {
-    "adate": "2022-08-19T21:02:45-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-08-19T21:11:40-06:00",
-    "hash": "f09158b3b81dfbd9c707080fa2cd5fcf7c85f291",
-    "parents": "d57585b0acf7c5b60bffbcdcdba911909d6b96ff",
-    "subject": "Editorial: clarify BigInt.prototype.toString for non-decimal radices"
-   }
-  ],
-  "title": "Editorial: clarify BigInt.prototype.toString for non-decimal radices",
-  "updated_at": "2022-08-20T03:40:18Z"
- },
- {
   "base": "cd0692b082e9092a5b64aa5a8ba6ebb48161bfb2",
   "created_at": "2022-08-17T08:05:55Z",
   "head": "7bfd429686ddb40df4c27bc1b83710b6e95362d1",
