@@ -1,5 +1,25 @@
 [
  {
+  "base": "3c29c062590cb2725c3230bf5dba8bc268e25a11",
+  "created_at": "2022-09-01T17:26:13Z",
+  "head": "397f27451c53815fffc09705a790a93153579bc5",
+  "login": "tc39",
+  "number": 2883,
+  "ref": "NumericToRawBytes-byte-ordering",
+  "revs": [
+   {
+    "adate": "2022-09-01T11:23:46-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-09-01T11:23:46-06:00",
+    "hash": "397f27451c53815fffc09705a790a93153579bc5",
+    "parents": "a02f895f67acc60b05f6c91362071f1340df51fc",
+    "subject": "Editorial: in NumericToRawBytes, consolidate byte ordering decision"
+   }
+  ],
+  "title": "Editorial: in NumericToRawBytes, consolidate byte ordering decision",
+  "updated_at": "2022-09-01T17:26:13Z"
+ },
+ {
   "base": "a02f895f67acc60b05f6c91362071f1340df51fc",
   "created_at": "2022-08-31T19:56:33Z",
   "head": "2ad3f9cf59bc50e00e07b961d2b0eb36ce356cd9",
@@ -1096,26 +1116,6 @@
   "updated_at": "2022-06-16T13:50:22Z"
  },
  {
-  "base": "4ec3cd3524281de65a69370a5370f5f3f0914030",
-  "created_at": "2022-06-02T03:22:55Z",
-  "head": "70f132c5b79df6dd4fc0967003ca001bbdeafebd",
-  "login": "h2oche",
-  "number": 2788,
-  "ref": "consistify-the-length-of-string",
-  "revs": [
-   {
-    "adate": "2022-06-02T12:16:31+09:00",
-    "author": "h2oche",
-    "date": "2022-06-02T12:27:35+09:00",
-    "hash": "70f132c5b79df6dd4fc0967003ca001bbdeafebd",
-    "parents": "4ec3cd3524281de65a69370a5370f5f3f0914030",
-    "subject": "Editorial: Fix remaining phrases using 'the number of code units in' for string length"
-   }
-  ],
-  "title": "Editorial: Fix remaining phrases using 'the number of code units in' for string length",
-  "updated_at": "2022-06-02T03:27:47Z"
- },
- {
   "base": "7ae3ecf219bfaa02bb7f6dd1a668f152ff53e846",
   "created_at": "2022-05-24T18:00:30Z",
   "head": "ead9d54ed3a435615058d4ea5476dd37080ee26e",
@@ -1958,50 +1958,6 @@
   ],
   "title": "Editorial: Factor out AO RunSuspendedContext()",
   "updated_at": "2022-08-16T01:24:30Z"
- },
- {
-  "base": "0981442a6104c6e51e797384e7dd6e3551d88ae2",
-  "created_at": "2022-02-03T00:11:16Z",
-  "head": "e7496c38c3742a5ae4c40784593755a9b4a91925",
-  "login": "tc39",
-  "number": 2649,
-  "ref": "stable-Unicode-property-spellings",
-  "revs": [
-   {
-    "adate": "2022-08-08T15:24:32-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-08-08T15:24:32-06:00",
-    "hash": "e7496c38c3742a5ae4c40784593755a9b4a91925",
-    "parents": "5f8603723eaabe35f7860e08ca90db2281a63c7c",
-    "subject": "new note wording"
-   },
-   {
-    "adate": "2022-08-03T19:51:55-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-08-03T19:52:41-06:00",
-    "hash": "5f8603723eaabe35f7860e08ca90db2281a63c7c",
-    "parents": "7438005d798a71c4ff2487fc4796a6f3de2dce59",
-    "subject": "move note"
-   },
-   {
-    "adate": "2022-02-03T08:31:08-07:00",
-    "author": "Michael Ficarra",
-    "date": "2022-08-03T19:40:35-06:00",
-    "hash": "7438005d798a71c4ff2487fc4796a6f3de2dce59",
-    "parents": "7e9bb8637a88d70f0098daa667a3b988aa3cff85",
-    "subject": "minor wording improvements"
-   },
-   {
-    "adate": "2022-02-02T17:08:00-07:00",
-    "author": "Michael Ficarra",
-    "date": "2022-08-03T19:40:34-06:00",
-    "hash": "7e9bb8637a88d70f0098daa667a3b988aa3cff85",
-    "parents": "0981442a6104c6e51e797384e7dd6e3551d88ae2",
-    "subject": "Normative: remove tables of Unicode property values and aliases"
-   }
-  ],
-  "title": "Normative: remove tables of Unicode property values and aliases",
-  "updated_at": "2022-08-08T21:25:41Z"
  },
  {
   "base": "ad096b3b2fc27c3cd2524974fe76ab8d041e4290",
