@@ -1,39 +1,23 @@
 [
  {
-  "base": "aacf6d3a2b450498a26eac7c7b986776bd4f5402",
-  "created_at": "2022-09-01T21:23:44Z",
-  "head": "d0679aba5bf9dac63862cdd6217fa60f24425846",
-  "login": "syg",
-  "number": 2884,
-  "ref": "tointeger-note",
+  "base": "f2aed96a7a66588c2a713d5dc0012b2af7dbdc1e",
+  "created_at": "2022-09-02T03:35:15Z",
+  "head": "218dad57293b3e2975873ab2731398cf89a60871",
+  "login": "jmdyck",
+  "number": 2885,
+  "ref": "fixes_for_2874",
   "revs": [
    {
-    "adate": "2022-09-01T14:36:45-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2022-09-01T14:36:45-07:00",
-    "hash": "d0679aba5bf9dac63862cdd6217fa60f24425846",
-    "parents": "4a0a48cabc0e51f6075825b30a449c5f6b1d6300",
-    "subject": "Oops changed wrong location"
-   },
-   {
-    "adate": "2022-09-01T14:35:43-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2022-09-01T14:35:43-07:00",
-    "hash": "4a0a48cabc0e51f6075825b30a449c5f6b1d6300",
-    "parents": "b4a6dd45aec126f38ec340082e4d83fb8891b6e0",
-    "subject": "Address review"
-   },
-   {
-    "adate": "2022-09-01T14:20:05-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2022-09-01T14:23:22-07:00",
-    "hash": "b4a6dd45aec126f38ec340082e4d83fb8891b6e0",
-    "parents": "aacf6d3a2b450498a26eac7c7b986776bd4f5402",
-    "subject": "Editorial: Add note that roundtripping ToIntegerOrInfinity never produces -0"
+    "adate": "2022-09-01T22:48:27-04:00",
+    "author": "Michael Dyck",
+    "date": "2022-09-01T23:28:14-04:00",
+    "hash": "218dad57293b3e2975873ab2731398cf89a60871",
+    "parents": "f2aed96a7a66588c2a713d5dc0012b2af7dbdc1e",
+    "subject": "Editorial: quick fixes for PR #2874"
    }
   ],
-  "title": "Editorial: Add note that roundtripping ToIntegerOrInfinity never produces -0",
-  "updated_at": "2022-09-01T21:40:59Z"
+  "title": "Editorial: quick fixes for PR #2874",
+  "updated_at": "2022-09-02T03:55:26Z"
  },
  {
   "base": "3c29c062590cb2725c3230bf5dba8bc268e25a11",
