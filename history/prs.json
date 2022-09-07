@@ -1,26 +1,6 @@
 [
  {
   "base": "d4c14505e1a0bcae4465488707a2b06c58530f1d",
-  "created_at": "2022-09-07T01:40:52Z",
-  "head": "bc64daae94c77971bf4daf09d55ea08911b9bfab",
-  "login": "tc39",
-  "number": 2900,
-  "ref": "single-var-decl",
-  "revs": [
-   {
-    "adate": "2022-09-06T18:38:50-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2022-09-06T18:40:04-07:00",
-    "hash": "bc64daae94c77971bf4daf09d55ea08911b9bfab",
-    "parents": "3cf8e30e47dd1f010b7d86929670f1e8c51ecc43",
-    "subject": "Editorial: split variable declarations into their own lines in JSON.stringify"
-   }
-  ],
-  "title": "Editorial: split variable declarations into their own lines in JSON.stringify",
-  "updated_at": "2022-09-07T01:40:52Z"
- },
- {
-  "base": "d4c14505e1a0bcae4465488707a2b06c58530f1d",
   "created_at": "2022-09-06T16:59:14Z",
   "head": "86bb6fdab772617e125015c2f5efb9849e30ea1a",
   "login": "tc39",
@@ -292,13 +272,21 @@
   "updated_at": "2022-09-06T17:06:48Z"
  },
  {
-  "base": "a02f895f67acc60b05f6c91362071f1340df51fc",
+  "base": "2c78e6f6b5bc6bfbf79dd8a12a9593e5b57afcd2",
   "created_at": "2022-08-30T16:04:08Z",
-  "head": "9aa18038620452eb8ad28bb47702413c9cd4391a",
+  "head": "5bfe4b6d02931b0f171840f185d906b084a63e9f",
   "login": "tc39",
   "number": 2877,
   "ref": "comparison-consistency",
   "revs": [
+   {
+    "adate": "2022-09-07T14:35:59-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-09-07T14:36:15-06:00",
+    "hash": "5bfe4b6d02931b0f171840f185d906b084a63e9f",
+    "parents": "9aa18038620452eb8ad28bb47702413c9cd4391a",
+    "subject": "phrasing"
+   },
    {
     "adate": "2022-08-31T14:54:24-06:00",
     "author": "Michael Ficarra",
@@ -453,7 +441,7 @@
    }
   ],
   "title": "various editorial changes for comparisons",
-  "updated_at": "2022-08-31T20:54:36Z"
+  "updated_at": "2022-09-07T20:36:21Z"
  },
  {
   "base": "dceb9e45fa04ff37a213095e97a28da81bf213ec",
