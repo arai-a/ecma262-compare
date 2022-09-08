@@ -1,23 +1,83 @@
 [
  {
-  "base": "d4c14505e1a0bcae4465488707a2b06c58530f1d",
+  "base": "b0863962041d6d5cb32bd363bf7567a9b00b3f69",
+  "created_at": "2022-09-08T03:22:21Z",
+  "head": "1fbe3fba5ea1a1c078c65247e537af72a1e3a3dc",
+  "login": "tc39",
+  "number": 2901,
+  "ref": "add-declared-attributes",
+  "revs": [
+   {
+    "adate": "2022-09-07T20:14:01-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2022-09-07T20:20:04-07:00",
+    "hash": "1fbe3fba5ea1a1c078c65247e537af72a1e3a3dc",
+    "parents": "2ca44df88be19a13d16b1b14d6612fc6f9d53b2e",
+    "subject": "Markup: replace HTML entities with the Unicode characters they represent"
+   },
+   {
+    "adate": "2022-09-07T20:12:39-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2022-09-07T20:20:04-07:00",
+    "hash": "2ca44df88be19a13d16b1b14d6612fc6f9d53b2e",
+    "parents": "357195815df53dcad4b43abf655fb6795d732e96",
+    "subject": "Meta: bump ecmarkup to 15.0.0"
+   },
+   {
+    "adate": "2022-09-07T20:17:23-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2022-09-07T20:20:04-07:00",
+    "hash": "357195815df53dcad4b43abf655fb6795d732e96",
+    "parents": "8a1330b53b8ead0118c534886b23b88a02624d40",
+    "subject": "Editorial: remove some unused variables in algorithms"
+   },
+   {
+    "adate": "2022-09-05T13:51:48-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2022-09-07T20:17:56-07:00",
+    "hash": "8a1330b53b8ead0118c534886b23b88a02624d40",
+    "parents": "b0863962041d6d5cb32bd363bf7567a9b00b3f69",
+    "subject": "Markup: mark certain non-obvious variable declarations"
+   },
+   {
+    "adate": "2022-09-05T08:43:52-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2022-09-07T20:17:36-07:00",
+    "hash": "b0863962041d6d5cb32bd363bf7567a9b00b3f69",
+    "parents": "2c78e6f6b5bc6bfbf79dd8a12a9593e5b57afcd2",
+    "subject": "Editorial: combine the two subclauses for HasCallInTailPosition"
+   }
+  ],
+  "title": "Meta: bump ecmarkup to 15.0.0 and apply new formatting/lint rules",
+  "updated_at": "2022-09-08T03:22:21Z"
+ },
+ {
+  "base": "2c78e6f6b5bc6bfbf79dd8a12a9593e5b57afcd2",
   "created_at": "2022-09-06T16:59:14Z",
-  "head": "86bb6fdab772617e125015c2f5efb9849e30ea1a",
+  "head": "de864dfadb28f77fa46d2160d6e28de091cb2c9d",
   "login": "tc39",
   "number": 2899,
   "ref": "EnumerableOwnProperties",
   "revs": [
    {
+    "adate": "2022-09-07T20:00:36-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-09-07T20:02:01-06:00",
+    "hash": "de864dfadb28f77fa46d2160d6e28de091cb2c9d",
+    "parents": "cfb42574f28e7eb337119a1e8fa2f577a43cd961",
+    "subject": "update alias names"
+   },
+   {
     "adate": "2022-09-06T10:57:23-06:00",
     "author": "Michael Ficarra",
-    "date": "2022-09-06T10:57:23-06:00",
-    "hash": "86bb6fdab772617e125015c2f5efb9849e30ea1a",
-    "parents": "d4c14505e1a0bcae4465488707a2b06c58530f1d",
+    "date": "2022-09-07T20:02:01-06:00",
+    "hash": "cfb42574f28e7eb337119a1e8fa2f577a43cd961",
+    "parents": "2c78e6f6b5bc6bfbf79dd8a12a9593e5b57afcd2",
     "subject": "Editorial: rename EnumerableOwnPropertyNames to EnumerableOwnProperties"
    }
   ],
   "title": "Editorial: rename EnumerableOwnPropertyNames to EnumerableOwnProperties",
-  "updated_at": "2022-09-06T17:17:30Z"
+  "updated_at": "2022-09-08T02:03:22Z"
  },
  {
   "base": "3cf8e30e47dd1f010b7d86929670f1e8c51ecc43",
@@ -48,9 +108,9 @@
   "updated_at": "2022-09-05T18:50:04Z"
  },
  {
-  "base": "3cf8e30e47dd1f010b7d86929670f1e8c51ecc43",
+  "base": "2c78e6f6b5bc6bfbf79dd8a12a9593e5b57afcd2",
   "created_at": "2022-09-05T15:46:53Z",
-  "head": "fba721f0913f9f0368f8b7c3bfa6b5fe429c11f6",
+  "head": "b0863962041d6d5cb32bd363bf7567a9b00b3f69",
   "login": "tc39",
   "number": 2896,
   "ref": "combine-has-call-in-tail-position",
@@ -58,14 +118,14 @@
    {
     "adate": "2022-09-05T08:43:52-07:00",
     "author": "Kevin Gibbons",
-    "date": "2022-09-05T08:43:52-07:00",
-    "hash": "fba721f0913f9f0368f8b7c3bfa6b5fe429c11f6",
-    "parents": "3cf8e30e47dd1f010b7d86929670f1e8c51ecc43",
+    "date": "2022-09-07T20:17:36-07:00",
+    "hash": "b0863962041d6d5cb32bd363bf7567a9b00b3f69",
+    "parents": "2c78e6f6b5bc6bfbf79dd8a12a9593e5b57afcd2",
     "subject": "Editorial: combine the two subclauses for HasCallInTailPosition"
    }
   ],
   "title": "Editorial: combine the two subclauses for HasCallInTailPosition",
-  "updated_at": "2022-09-05T15:47:14Z"
+  "updated_at": "2022-09-08T03:17:41Z"
  },
  {
   "base": "3cf8e30e47dd1f010b7d86929670f1e8c51ecc43",
