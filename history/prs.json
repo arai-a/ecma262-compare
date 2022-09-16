@@ -412,9 +412,9 @@
   "updated_at": "2022-09-06T17:06:48Z"
  },
  {
-  "base": "e30935dab5e7e1dd197252970031ea5315b2003d",
+  "base": "4f47c67c9635030432db966e412796ad692a257a",
   "created_at": "2022-08-30T16:04:08Z",
-  "head": "288c70c8eb5b1d4910012d43c2b5e2715626b91a",
+  "head": "4de8aaba43b05ee3464385766d1a592f754efc34",
   "login": "tc39",
   "number": 2877,
   "ref": "comparison-consistency",
@@ -422,14 +422,22 @@
    {
     "adate": "2022-07-08T17:55:36-06:00",
     "author": "Michael Ficarra",
-    "date": "2022-09-16T13:54:08-06:00",
-    "hash": "288c70c8eb5b1d4910012d43c2b5e2715626b91a",
-    "parents": "e30935dab5e7e1dd197252970031ea5315b2003d",
+    "date": "2022-09-16T15:45:44-06:00",
+    "hash": "4de8aaba43b05ee3464385766d1a592f754efc34",
+    "parents": "4f47c67c9635030432db966e412796ad692a257a",
     "subject": "various editorial changes for comparisons"
+   },
+   {
+    "adate": "2022-09-16T15:24:47-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-09-16T15:24:47-06:00",
+    "hash": "4f47c67c9635030432db966e412796ad692a257a",
+    "parents": "e30935dab5e7e1dd197252970031ea5315b2003d",
+    "subject": "Editorial: misc minor editorial changes"
    }
   ],
   "title": "various editorial changes for comparisons",
-  "updated_at": "2022-09-16T20:11:21Z"
+  "updated_at": "2022-09-16T21:51:26Z"
  },
  {
   "base": "dceb9e45fa04ff37a213095e97a28da81bf213ec",
