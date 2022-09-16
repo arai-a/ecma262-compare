@@ -392,200 +392,24 @@
   "updated_at": "2022-09-06T17:06:48Z"
  },
  {
-  "base": "2c78e6f6b5bc6bfbf79dd8a12a9593e5b57afcd2",
+  "base": "e30935dab5e7e1dd197252970031ea5315b2003d",
   "created_at": "2022-08-30T16:04:08Z",
-  "head": "6b1c8ac79d27e2a8d948bb4258422c87948e3088",
+  "head": "288c70c8eb5b1d4910012d43c2b5e2715626b91a",
   "login": "tc39",
   "number": 2877,
   "ref": "comparison-consistency",
   "revs": [
    {
-    "adate": "2022-09-16T12:13:06-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-09-16T12:13:06-06:00",
-    "hash": "6b1c8ac79d27e2a8d948bb4258422c87948e3088",
-    "parents": "d21cc1120413075f4472eaeaa6a7053f76847aed",
-    "subject": "more contains usage"
-   },
-   {
-    "adate": "2022-09-16T10:33:46-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-09-16T10:33:46-06:00",
-    "hash": "d21cc1120413075f4472eaeaa6a7053f76847aed",
-    "parents": "c40c946a471317bf5b4fc6a76f749eeadda0ea00",
-    "subject": "editorial"
-   },
-   {
-    "adate": "2022-09-15T21:04:27-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-09-15T21:04:27-06:00",
-    "hash": "c40c946a471317bf5b4fc6a76f749eeadda0ea00",
-    "parents": "5bfe4b6d02931b0f171840f185d906b084a63e9f",
-    "subject": "phrasing"
-   },
-   {
-    "adate": "2022-09-07T14:35:59-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-09-07T14:36:15-06:00",
-    "hash": "5bfe4b6d02931b0f171840f185d906b084a63e9f",
-    "parents": "9aa18038620452eb8ad28bb47702413c9cd4391a",
-    "subject": "phrasing"
-   },
-   {
-    "adate": "2022-08-31T14:54:24-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-08-31T14:54:24-06:00",
-    "hash": "9aa18038620452eb8ad28bb47702413c9cd4391a",
-    "parents": "7a3f99995b8ddb1c4af0bfbdc596698c700f493c",
-    "subject": "more \"the X that is\""
-   },
-   {
-    "adate": "2022-08-31T14:50:16-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-08-31T14:50:16-06:00",
-    "hash": "7a3f99995b8ddb1c4af0bfbdc596698c700f493c",
-    "parents": "46547d646abe95502f59b46e89562339080691bb",
-    "subject": "phrasing"
-   },
-   {
-    "adate": "2022-08-31T14:44:51-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-08-31T14:44:51-06:00",
-    "hash": "46547d646abe95502f59b46e89562339080691bb",
-    "parents": "5d53d99bdde8f7d25afcc1a0b838891f551c8546",
-    "subject": "the number of elements of -> in"
-   },
-   {
-    "adate": "2022-08-31T14:44:40-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-08-31T14:44:40-06:00",
-    "hash": "5d53d99bdde8f7d25afcc1a0b838891f551c8546",
-    "parents": "61df202bfaacf363aef4b8b58e702e3c0739c848",
-    "subject": "phrasing"
-   },
-   {
-    "adate": "2022-08-31T14:40:06-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-08-31T14:40:06-06:00",
-    "hash": "61df202bfaacf363aef4b8b58e702e3c0739c848",
-    "parents": "3ab7f10c4122ba98808b0cc3d164a5b5d73f854d",
-    "subject": "enums are compared with \"is\" and \"is not\""
-   },
-   {
-    "adate": "2022-08-31T14:34:43-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-08-31T14:34:43-06:00",
-    "hash": "3ab7f10c4122ba98808b0cc3d164a5b5d73f854d",
-    "parents": "76dcaccd5ae2bf44a21aac1ff79468ceba5adfcc",
-    "subject": "make the test positive"
-   },
-   {
-    "adate": "2022-08-31T14:05:38-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-08-31T14:19:21-06:00",
-    "hash": "76dcaccd5ae2bf44a21aac1ff79468ceba5adfcc",
-    "parents": "095f8ae2dcae974c854b0cfc3d6d6f4f9a9d9cf7",
-    "subject": "low-hanging fruit"
-   },
-   {
-    "adate": "2022-08-31T13:50:25-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-08-31T13:50:25-06:00",
-    "hash": "095f8ae2dcae974c854b0cfc3d6d6f4f9a9d9cf7",
-    "parents": "e64da4d8231be2c23e24195224aa1533b243f8a2",
-    "subject": "phrasing"
-   },
-   {
-    "adate": "2022-08-31T12:29:29-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-08-31T12:29:52-06:00",
-    "hash": "e64da4d8231be2c23e24195224aa1533b243f8a2",
-    "parents": "cf2ea6ca25003acb0bc7bd0b6f13dccb2564ba9c",
-    "subject": "phrasing"
-   },
-   {
-    "adate": "2022-08-31T11:52:39-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-08-31T11:52:39-06:00",
-    "hash": "cf2ea6ca25003acb0bc7bd0b6f13dccb2564ba9c",
-    "parents": "1fb2d09916b9d779cd2167a3b622a1c4f5e7b34a",
-    "subject": "phrasing"
-   },
-   {
-    "adate": "2022-08-31T10:43:07-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-08-31T10:43:24-06:00",
-    "hash": "1fb2d09916b9d779cd2167a3b622a1c4f5e7b34a",
-    "parents": "6869ac397494af38faadb25a31874091c4de63a6",
-    "subject": "phrasing"
-   },
-   {
-    "adate": "2022-08-31T09:04:06-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-08-31T09:04:06-06:00",
-    "hash": "6869ac397494af38faadb25a31874091c4de63a6",
-    "parents": "051a9bc7d822f9d8a2eb7a4ac92b9996313d65d6",
-    "subject": "use length"
-   },
-   {
-    "adate": "2022-08-31T09:02:36-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-08-31T09:02:36-06:00",
-    "hash": "051a9bc7d822f9d8a2eb7a4ac92b9996313d65d6",
-    "parents": "35370b1de6cb7ded21cdb1611d321c5a2dfff3f1",
-    "subject": "fixup"
-   },
-   {
-    "adate": "2022-08-30T20:34:45-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-08-30T20:34:45-06:00",
-    "hash": "35370b1de6cb7ded21cdb1611d321c5a2dfff3f1",
-    "parents": "587acaa929f53105848b1cea02f5380334f1c62c",
-    "subject": "is that of"
-   },
-   {
-    "adate": "2022-08-30T20:30:50-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-08-30T20:30:50-06:00",
-    "hash": "587acaa929f53105848b1cea02f5380334f1c62c",
-    "parents": "29f16482dcc5be9c3588333cb497a6f55837e5f3",
-    "subject": "phrasing"
-   },
-   {
-    "adate": "2022-08-30T20:07:12-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-08-30T20:07:12-06:00",
-    "hash": "29f16482dcc5be9c3588333cb497a6f55837e5f3",
-    "parents": "7953e984bdc905a349532d40a210cdaea88910e0",
-    "subject": "more phrasing"
-   },
-   {
-    "adate": "2022-08-30T19:34:31-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-08-30T19:34:31-06:00",
-    "hash": "7953e984bdc905a349532d40a210cdaea88910e0",
-    "parents": "44fadb14331ac0aa466eb59ea83ab8b50fefcd2a",
-    "subject": "more phrasing"
-   },
-   {
     "adate": "2022-07-08T17:55:36-06:00",
     "author": "Michael Ficarra",
-    "date": "2022-08-30T17:47:53-06:00",
-    "hash": "44fadb14331ac0aa466eb59ea83ab8b50fefcd2a",
-    "parents": "d0b74836158bf2a0a672366c89f1f0513271272d",
+    "date": "2022-09-16T13:54:08-06:00",
+    "hash": "288c70c8eb5b1d4910012d43c2b5e2715626b91a",
+    "parents": "e30935dab5e7e1dd197252970031ea5315b2003d",
     "subject": "various editorial changes for comparisons"
-   },
-   {
-    "adate": "2022-07-08T17:55:36-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-08-30T09:27:49-06:00",
-    "hash": "d0b74836158bf2a0a672366c89f1f0513271272d",
-    "parents": "dceb9e45fa04ff37a213095e97a28da81bf213ec",
-    "subject": "fixes #2405: clarify spec values that have identity and its implications"
    }
   ],
   "title": "various editorial changes for comparisons",
-  "updated_at": "2022-09-16T18:13:17Z"
+  "updated_at": "2022-09-16T20:11:21Z"
  },
  {
   "base": "dceb9e45fa04ff37a213095e97a28da81bf213ec",
