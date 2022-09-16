@@ -394,11 +394,19 @@
  {
   "base": "2c78e6f6b5bc6bfbf79dd8a12a9593e5b57afcd2",
   "created_at": "2022-08-30T16:04:08Z",
-  "head": "d21cc1120413075f4472eaeaa6a7053f76847aed",
+  "head": "6b1c8ac79d27e2a8d948bb4258422c87948e3088",
   "login": "tc39",
   "number": 2877,
   "ref": "comparison-consistency",
   "revs": [
+   {
+    "adate": "2022-09-16T12:13:06-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-09-16T12:13:06-06:00",
+    "hash": "6b1c8ac79d27e2a8d948bb4258422c87948e3088",
+    "parents": "d21cc1120413075f4472eaeaa6a7053f76847aed",
+    "subject": "more contains usage"
+   },
    {
     "adate": "2022-09-16T10:33:46-06:00",
     "author": "Michael Ficarra",
@@ -577,7 +585,7 @@
    }
   ],
   "title": "various editorial changes for comparisons",
-  "updated_at": "2022-09-16T16:33:57Z"
+  "updated_at": "2022-09-16T18:13:17Z"
  },
  {
   "base": "dceb9e45fa04ff37a213095e97a28da81bf213ec",
