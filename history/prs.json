@@ -1,6 +1,26 @@
 [
  {
   "base": "e30935dab5e7e1dd197252970031ea5315b2003d",
+  "created_at": "2022-09-16T03:11:13Z",
+  "head": "72da80044cf197c4f2a3e47bd211aa22f5f5aa76",
+  "login": "tc39",
+  "number": 2906,
+  "ref": "qwertyuiop",
+  "revs": [
+   {
+    "adate": "2022-09-15T21:09:03-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-09-15T21:09:03-06:00",
+    "hash": "72da80044cf197c4f2a3e47bd211aa22f5f5aa76",
+    "parents": "e30935dab5e7e1dd197252970031ea5315b2003d",
+    "subject": "Editorial: tweak a code sample"
+   }
+  ],
+  "title": "Editorial: tweak a code sample",
+  "updated_at": "2022-09-16T03:15:13Z"
+ },
+ {
+  "base": "e30935dab5e7e1dd197252970031ea5315b2003d",
   "created_at": "2022-09-15T14:35:44Z",
   "head": "36635e064d85aa9d403776d8532eb516695f65b3",
   "login": "nicolo-ribaudo",
@@ -354,11 +374,19 @@
  {
   "base": "2c78e6f6b5bc6bfbf79dd8a12a9593e5b57afcd2",
   "created_at": "2022-08-30T16:04:08Z",
-  "head": "5bfe4b6d02931b0f171840f185d906b084a63e9f",
+  "head": "c40c946a471317bf5b4fc6a76f749eeadda0ea00",
   "login": "tc39",
   "number": 2877,
   "ref": "comparison-consistency",
   "revs": [
+   {
+    "adate": "2022-09-15T21:04:27-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-09-15T21:04:27-06:00",
+    "hash": "c40c946a471317bf5b4fc6a76f749eeadda0ea00",
+    "parents": "5bfe4b6d02931b0f171840f185d906b084a63e9f",
+    "subject": "phrasing"
+   },
    {
     "adate": "2022-09-07T14:35:59-06:00",
     "author": "Michael Ficarra",
@@ -521,7 +549,7 @@
    }
   ],
   "title": "various editorial changes for comparisons",
-  "updated_at": "2022-09-07T20:36:21Z"
+  "updated_at": "2022-09-16T03:04:47Z"
  },
  {
   "base": "dceb9e45fa04ff37a213095e97a28da81bf213ec",
@@ -592,13 +620,21 @@
   "updated_at": "2022-08-26T09:08:57Z"
  },
  {
-  "base": "cd0692b082e9092a5b64aa5a8ba6ebb48161bfb2",
+  "base": "e30935dab5e7e1dd197252970031ea5315b2003d",
   "created_at": "2022-08-17T08:05:55Z",
-  "head": "7bfd429686ddb40df4c27bc1b83710b6e95362d1",
+  "head": "be471b0afccb94387e0c8036d7a6ec86732fc57c",
   "login": "antony-jeong",
   "number": 2861,
   "ref": "bugfix",
   "revs": [
+   {
+    "adate": "2022-09-16T12:16:45+09:00",
+    "author": "Jeong Seunghyeon",
+    "date": "2022-09-16T12:16:45+09:00",
+    "hash": "be471b0afccb94387e0c8036d7a6ec86732fc57c",
+    "parents": "7bfd429686ddb40df4c27bc1b83710b6e95362d1 e30935dab5e7e1dd197252970031ea5315b2003d",
+    "subject": "Merge branch 'main' into bugfix"
+   },
    {
     "adate": "2022-08-17T16:49:23+09:00",
     "author": "antony-jeong",
@@ -609,7 +645,7 @@
    }
   ],
   "title": "Editorial: Fix completion in CreateListIteratorRecord and CreateArrayIterator",
-  "updated_at": "2022-08-17T09:06:42Z"
+  "updated_at": "2022-09-16T03:16:49Z"
  },
  {
   "base": "d4c14505e1a0bcae4465488707a2b06c58530f1d",
