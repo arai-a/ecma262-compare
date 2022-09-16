@@ -1,6 +1,26 @@
 [
  {
   "base": "e30935dab5e7e1dd197252970031ea5315b2003d",
+  "created_at": "2022-09-16T16:50:13Z",
+  "head": "f0333e00d6003991312740b394ed9f4561005185",
+  "login": "tc39",
+  "number": 2908,
+  "ref": "equal-range",
+  "revs": [
+   {
+    "adate": "2022-09-16T10:35:47-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-09-16T10:35:47-06:00",
+    "hash": "f0333e00d6003991312740b394ed9f4561005185",
+    "parents": "e30935dab5e7e1dd197252970031ea5315b2003d",
+    "subject": "use consistent wording in [[NoTear]] explanation for read/write events"
+   }
+  ],
+  "title": "Editorial: use consistent wording in [[NoTear]] explanation for read/write events",
+  "updated_at": "2022-09-16T16:50:13Z"
+ },
+ {
+  "base": "e30935dab5e7e1dd197252970031ea5315b2003d",
   "created_at": "2022-09-16T03:11:13Z",
   "head": "72da80044cf197c4f2a3e47bd211aa22f5f5aa76",
   "login": "tc39",
@@ -374,11 +394,19 @@
  {
   "base": "2c78e6f6b5bc6bfbf79dd8a12a9593e5b57afcd2",
   "created_at": "2022-08-30T16:04:08Z",
-  "head": "c40c946a471317bf5b4fc6a76f749eeadda0ea00",
+  "head": "d21cc1120413075f4472eaeaa6a7053f76847aed",
   "login": "tc39",
   "number": 2877,
   "ref": "comparison-consistency",
   "revs": [
+   {
+    "adate": "2022-09-16T10:33:46-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-09-16T10:33:46-06:00",
+    "hash": "d21cc1120413075f4472eaeaa6a7053f76847aed",
+    "parents": "c40c946a471317bf5b4fc6a76f749eeadda0ea00",
+    "subject": "editorial"
+   },
    {
     "adate": "2022-09-15T21:04:27-06:00",
     "author": "Michael Ficarra",
@@ -549,7 +577,7 @@
    }
   ],
   "title": "various editorial changes for comparisons",
-  "updated_at": "2022-09-16T03:04:47Z"
+  "updated_at": "2022-09-16T16:33:57Z"
  },
  {
   "base": "dceb9e45fa04ff37a213095e97a28da81bf213ec",
