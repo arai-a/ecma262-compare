@@ -2,11 +2,19 @@
  {
   "base": "e30935dab5e7e1dd197252970031ea5315b2003d",
   "created_at": "2022-09-16T21:28:30Z",
-  "head": "4f47c67c9635030432db966e412796ad692a257a",
+  "head": "e6707ab6250701b0a143f9e1e16178ce45cb3f32",
   "login": "tc39",
   "number": 2909,
   "ref": "misc-editorial",
   "revs": [
+   {
+    "adate": "2022-09-19T10:03:57-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-09-19T10:03:57-06:00",
+    "hash": "e6707ab6250701b0a143f9e1e16178ce45cb3f32",
+    "parents": "4f47c67c9635030432db966e412796ad692a257a",
+    "subject": "address comments"
+   },
    {
     "adate": "2022-09-16T15:24:47-06:00",
     "author": "Michael Ficarra",
@@ -17,7 +25,7 @@
    }
   ],
   "title": "Editorial: misc minor editorial changes",
-  "updated_at": "2022-09-16T21:28:30Z"
+  "updated_at": "2022-09-19T16:05:25Z"
  },
  {
   "base": "e30935dab5e7e1dd197252970031ea5315b2003d",
@@ -412,9 +420,9 @@
   "updated_at": "2022-09-06T17:06:48Z"
  },
  {
-  "base": "4f47c67c9635030432db966e412796ad692a257a",
+  "base": "e6707ab6250701b0a143f9e1e16178ce45cb3f32",
   "created_at": "2022-08-30T16:04:08Z",
-  "head": "4de8aaba43b05ee3464385766d1a592f754efc34",
+  "head": "a54475d6c2957f75320391f97468846cc0c8b7a2",
   "login": "tc39",
   "number": 2877,
   "ref": "comparison-consistency",
@@ -422,10 +430,18 @@
    {
     "adate": "2022-07-08T17:55:36-06:00",
     "author": "Michael Ficarra",
-    "date": "2022-09-16T15:45:44-06:00",
-    "hash": "4de8aaba43b05ee3464385766d1a592f754efc34",
-    "parents": "4f47c67c9635030432db966e412796ad692a257a",
+    "date": "2022-09-19T10:05:06-06:00",
+    "hash": "a54475d6c2957f75320391f97468846cc0c8b7a2",
+    "parents": "e6707ab6250701b0a143f9e1e16178ce45cb3f32",
     "subject": "various editorial changes for comparisons"
+   },
+   {
+    "adate": "2022-09-19T10:03:57-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-09-19T10:03:57-06:00",
+    "hash": "e6707ab6250701b0a143f9e1e16178ce45cb3f32",
+    "parents": "4f47c67c9635030432db966e412796ad692a257a",
+    "subject": "address comments"
    },
    {
     "adate": "2022-09-16T15:24:47-06:00",
@@ -437,7 +453,7 @@
    }
   ],
   "title": "various editorial changes for comparisons",
-  "updated_at": "2022-09-16T21:51:26Z"
+  "updated_at": "2022-09-19T16:08:27Z"
  },
  {
   "base": "dceb9e45fa04ff37a213095e97a28da81bf213ec",
