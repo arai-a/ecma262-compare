@@ -42,11 +42,19 @@
  {
   "base": "e30935dab5e7e1dd197252970031ea5315b2003d",
   "created_at": "2022-09-16T21:28:30Z",
-  "head": "e6707ab6250701b0a143f9e1e16178ce45cb3f32",
+  "head": "c588eb0207005bef05bbc931baf77f74d1cf63e7",
   "login": "tc39",
   "number": 2909,
   "ref": "misc-editorial",
   "revs": [
+   {
+    "adate": "2022-09-20T15:39:24-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-09-20T15:39:24-06:00",
+    "hash": "c588eb0207005bef05bbc931baf77f74d1cf63e7",
+    "parents": "e6707ab6250701b0a143f9e1e16178ce45cb3f32",
+    "subject": "back out interval change"
+   },
    {
     "adate": "2022-09-19T10:03:57-06:00",
     "author": "Michael Ficarra",
@@ -65,7 +73,7 @@
    }
   ],
   "title": "Editorial: misc minor editorial changes",
-  "updated_at": "2022-09-19T16:05:25Z"
+  "updated_at": "2022-09-20T21:44:23Z"
  },
  {
   "base": "e30935dab5e7e1dd197252970031ea5315b2003d",
@@ -468,9 +476,9 @@
   "updated_at": "2022-09-06T17:06:48Z"
  },
  {
-  "base": "e6707ab6250701b0a143f9e1e16178ce45cb3f32",
+  "base": "c588eb0207005bef05bbc931baf77f74d1cf63e7",
   "created_at": "2022-08-30T16:04:08Z",
-  "head": "a54475d6c2957f75320391f97468846cc0c8b7a2",
+  "head": "445a7fe3bf66318c3a1e90cd54ce7a83fc6f9c97",
   "login": "tc39",
   "number": 2877,
   "ref": "comparison-consistency",
@@ -478,10 +486,18 @@
    {
     "adate": "2022-07-08T17:55:36-06:00",
     "author": "Michael Ficarra",
-    "date": "2022-09-19T10:05:06-06:00",
-    "hash": "a54475d6c2957f75320391f97468846cc0c8b7a2",
-    "parents": "e6707ab6250701b0a143f9e1e16178ce45cb3f32",
+    "date": "2022-09-20T15:39:55-06:00",
+    "hash": "445a7fe3bf66318c3a1e90cd54ce7a83fc6f9c97",
+    "parents": "c588eb0207005bef05bbc931baf77f74d1cf63e7",
     "subject": "various editorial changes for comparisons"
+   },
+   {
+    "adate": "2022-09-20T15:39:24-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-09-20T15:39:24-06:00",
+    "hash": "c588eb0207005bef05bbc931baf77f74d1cf63e7",
+    "parents": "e6707ab6250701b0a143f9e1e16178ce45cb3f32",
+    "subject": "back out interval change"
    },
    {
     "adate": "2022-09-19T10:03:57-06:00",
@@ -501,7 +517,7 @@
    }
   ],
   "title": "various editorial changes for comparisons",
-  "updated_at": "2022-09-19T16:08:27Z"
+  "updated_at": "2022-09-20T21:40:01Z"
  },
  {
   "base": "dceb9e45fa04ff37a213095e97a28da81bf213ec",
@@ -688,9 +704,9 @@
   "updated_at": "2022-09-03T02:47:01Z"
  },
  {
-  "base": "dceb9e45fa04ff37a213095e97a28da81bf213ec",
+  "base": "e30935dab5e7e1dd197252970031ea5315b2003d",
   "created_at": "2022-08-06T00:03:50Z",
-  "head": "e1fd6c71b7beaf6db649eab748f0a728adfa7e6f",
+  "head": "a61e503c069a7424f7cccb73b4294a50c7663b23",
   "login": "tc39",
   "number": 2848,
   "ref": "inclusive-range",
@@ -698,126 +714,22 @@
    {
     "adate": "2022-08-30T09:57:23-06:00",
     "author": "Michael Ficarra",
-    "date": "2022-08-30T10:09:44-06:00",
-    "hash": "e1fd6c71b7beaf6db649eab748f0a728adfa7e6f",
-    "parents": "b187b7cc44195d27dde2fa8c5c246192bb348f12",
+    "date": "2022-09-20T15:30:06-06:00",
+    "hash": "a61e503c069a7424f7cccb73b4294a50c7663b23",
+    "parents": "d0421651afa475517c9fe30ee72b0b04b1e16c87",
     "subject": "update ecmarkup"
-   },
-   {
-    "adate": "2022-08-30T09:56:47-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-08-30T09:56:47-06:00",
-    "hash": "b187b7cc44195d27dde2fa8c5c246192bb348f12",
-    "parents": "4bc999dfba270cc8b08b278cff77dd65ebff56a9",
-    "subject": "back out `\\d` change"
-   },
-   {
-    "adate": "2022-08-29T22:46:12-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-08-29T22:47:16-06:00",
-    "hash": "4bc999dfba270cc8b08b278cff77dd65ebff56a9",
-    "parents": "c4ecfbe5281bf467af1d8791ce18de0ad6f58667",
-    "subject": "use DecimalDigit"
-   },
-   {
-    "adate": "2022-08-29T22:43:51-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-08-29T22:47:16-06:00",
-    "hash": "c4ecfbe5281bf467af1d8791ce18de0ad6f58667",
-    "parents": "9ed7058b18c3eef111b14e215224d469dd522f4f",
-    "subject": "fix"
-   },
-   {
-    "adate": "2022-08-24T17:57:43-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-08-29T22:47:16-06:00",
-    "hash": "9ed7058b18c3eef111b14e215224d469dd522f4f",
-    "parents": "23f0e1b4fadc50989ca6f4ab11f18eb6b3aeba55",
-    "subject": "loops use chained comparison again"
-   },
-   {
-    "adate": "2022-08-24T17:50:39-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-08-29T22:47:16-06:00",
-    "hash": "23f0e1b4fadc50989ca6f4ab11f18eb6b3aeba55",
-    "parents": "723e8244e9425383db25c37b1d77a6673ab69eef",
-    "subject": "change definition again"
-   },
-   {
-    "adate": "2022-08-24T08:57:44-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-08-29T22:47:16-06:00",
-    "hash": "723e8244e9425383db25c37b1d77a6673ab69eef",
-    "parents": "edc37c24126481679f8aeba3512d13b79061e16e",
-    "subject": "more wordsmithing"
-   },
-   {
-    "adate": "2022-08-16T14:37:28-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-08-29T22:47:15-06:00",
-    "hash": "edc37c24126481679f8aeba3512d13b79061e16e",
-    "parents": "2cf9b69a97f4991825821f6a8f55a76764184e32",
-    "subject": "requested changes"
-   },
-   {
-    "adate": "2022-08-16T09:01:42-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-08-29T22:47:15-06:00",
-    "hash": "2cf9b69a97f4991825821f6a8f55a76764184e32",
-    "parents": "7b9bb56113c97750509019ab30ad787799f0c81a",
-    "subject": "be more explicit about mutual exclusion of inclusivity/exclusivity"
-   },
-   {
-    "adate": "2022-08-12T11:23:53-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-08-29T22:47:15-06:00",
-    "hash": "7b9bb56113c97750509019ab30ad787799f0c81a",
-    "parents": "2d599166da253b9bef29864d27639ebbb2746cb7",
-    "subject": "tweaks and examples"
-   },
-   {
-    "adate": "2022-08-10T19:35:04-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-08-29T22:47:15-06:00",
-    "hash": "2d599166da253b9bef29864d27639ebbb2746cb7",
-    "parents": "b01def73d902e2fcefe7bf60d5856611a4526b1c",
-    "subject": "interval bounds are no longer exclusive by default"
-   },
-   {
-    "adate": "2022-08-10T19:26:18-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-08-29T22:47:15-06:00",
-    "hash": "b01def73d902e2fcefe7bf60d5856611a4526b1c",
-    "parents": "c63785063cd76ae17742060f5f57922f559e91a8",
-    "subject": "subvert ecmarkup lint error"
-   },
-   {
-    "adate": "2022-08-10T19:19:54-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-08-29T22:47:15-06:00",
-    "hash": "c63785063cd76ae17742060f5f57922f559e91a8",
-    "parents": "412db61f550249819ced6fdc3cc4c9eaf9a16597",
-    "subject": "use more intervals"
-   },
-   {
-    "adate": "2022-08-10T18:07:21-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-08-29T22:47:15-06:00",
-    "hash": "412db61f550249819ced6fdc3cc4c9eaf9a16597",
-    "parents": "50aec2d769b443b4f85ff365fbe4b26d55d347b6",
-    "subject": "order -0 before +0 ... I'm sorry"
    },
    {
     "adate": "2022-08-05T17:58:47-06:00",
     "author": "Michael Ficarra",
-    "date": "2022-08-29T22:47:15-06:00",
-    "hash": "50aec2d769b443b4f85ff365fbe4b26d55d347b6",
-    "parents": "dceb9e45fa04ff37a213095e97a28da81bf213ec",
+    "date": "2022-09-20T15:30:04-06:00",
+    "hash": "d0421651afa475517c9fe30ee72b0b04b1e16c87",
+    "parents": "e30935dab5e7e1dd197252970031ea5315b2003d",
     "subject": "Editorial: consistency in phrasing of ranges and inclusivity/exclusivity"
    }
   ],
   "title": "Editorial: consistency in phrasing of ranges and inclusivity/exclusivity",
-  "updated_at": "2022-08-30T16:10:57Z"
+  "updated_at": "2022-09-20T21:30:17Z"
  },
  {
   "base": "0981442a6104c6e51e797384e7dd6e3551d88ae2",
