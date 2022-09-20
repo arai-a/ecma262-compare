@@ -862,11 +862,19 @@
  {
   "base": "ffe1ace1c0334b8b3816d3778ae3132d7fd1feb7",
   "created_at": "2022-07-28T19:00:52Z",
-  "head": "612b42f006403ccf83f1a8bacc0e94a1f8488322",
+  "head": "0bef1aa7906ff5f4774c24efb3820447769a1505",
   "login": "gibson042",
   "number": 2839,
   "ref": "gh-2570-consolidate-ascii",
   "revs": [
+   {
+    "adate": "2022-09-20T16:27:07-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-09-20T16:27:07-04:00",
+    "hash": "0bef1aa7906ff5f4774c24efb3820447769a1505",
+    "parents": "612b42f006403ccf83f1a8bacc0e94a1f8488322",
+    "subject": "Editorial: Add a definite article before \"ASCII word characters\""
+   },
    {
     "adate": "2022-08-08T17:25:49-04:00",
     "author": "Richard Gibson",
@@ -941,7 +949,7 @@
    }
   ],
   "title": "Editorial: Consolidate use of ASCII subsets",
-  "updated_at": "2022-08-09T02:52:36Z"
+  "updated_at": "2022-09-20T20:35:41Z"
  },
  {
   "base": "cf86f1cdc28e809170733d74ea64fd0f3dd79f78",
