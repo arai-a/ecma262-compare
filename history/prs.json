@@ -1,6 +1,26 @@
 [
  {
   "base": "e30935dab5e7e1dd197252970031ea5315b2003d",
+  "created_at": "2022-09-20T00:48:32Z",
+  "head": "d29640fd56817c5ed6995671471dd63e79506476",
+  "login": "tc39",
+  "number": 2911,
+  "ref": "relation-introductions",
+  "revs": [
+   {
+    "adate": "2022-09-19T18:46:27-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-09-19T18:46:27-06:00",
+    "hash": "d29640fd56817c5ed6995671471dd63e79506476",
+    "parents": "e30935dab5e7e1dd197252970031ea5315b2003d",
+    "subject": "Editorial: mention each of the aliases being defined in a relation"
+   }
+  ],
+  "title": "Editorial: mention each of the aliases being defined in a relation",
+  "updated_at": "2022-09-20T00:53:45Z"
+ },
+ {
+  "base": "e30935dab5e7e1dd197252970031ea5315b2003d",
   "created_at": "2022-09-19T16:40:27Z",
   "head": "345e9e00797e0a214c05132a235d6fbb055a2e1f",
   "login": "tc39",
