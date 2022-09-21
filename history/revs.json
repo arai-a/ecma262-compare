@@ -1,11 +1,35 @@
 [
  {
+  "adate": "2022-09-20T16:23:56-07:00",
+  "author": "Michael Ficarra",
+  "date": "2022-09-20T16:23:56-07:00",
+  "hash": "1a6584159374d4afb9303d55b361ec9935e927b1",
+  "parents": "1615b06abc65c678d4f58d4320adfd768e8e6cd7",
+  "subject": "Editorial: use consistent wording in [[NoTear]] explanation for read/write events (#2908)"
+ },
+ {
   "adate": "2022-09-20T16:20:11-07:00",
   "author": "Richard Gibson",
   "date": "2022-09-20T16:20:11-07:00",
   "hash": "1615b06abc65c678d4f58d4320adfd768e8e6cd7",
   "parents": "5cb7f70a8cefffbb7acfa503fb76fc0039d3d022",
   "subject": "Editorial: Add a definite article before \"ASCII word characters\" (#2839)"
+ },
+ {
+  "adate": "2022-09-20T16:20:09-07:00",
+  "author": "Richard Gibson",
+  "date": "2022-09-20T16:20:09-07:00",
+  "hash": "5cb7f70a8cefffbb7acfa503fb76fc0039d3d022",
+  "parents": "d8039339a378818bd1eabc5d02886e4d31c6fbcf",
+  "subject": "Editorial: Use StringPad rather than \"padded\" prose in Encode and escape (#2839)"
+ },
+ {
+  "adate": "2022-09-20T16:20:06-07:00",
+  "author": "Richard Gibson",
+  "date": "2022-09-20T16:20:06-07:00",
+  "hash": "d8039339a378818bd1eabc5d02886e4d31c6fbcf",
+  "parents": "e970f56898075b5561df532ace1bef6a4c3946cb",
+  "subject": "Editorial: Replace |ControlLetter| with |AsciiLetter| (#2839)"
  },
  {
   "adate": "2022-09-20T16:20:04-07:00",
