@@ -77,26 +77,6 @@
  },
  {
   "base": "e30935dab5e7e1dd197252970031ea5315b2003d",
-  "created_at": "2022-09-16T16:50:13Z",
-  "head": "f0333e00d6003991312740b394ed9f4561005185",
-  "login": "tc39",
-  "number": 2908,
-  "ref": "equal-range",
-  "revs": [
-   {
-    "adate": "2022-09-16T10:35:47-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-09-16T10:35:47-06:00",
-    "hash": "f0333e00d6003991312740b394ed9f4561005185",
-    "parents": "e30935dab5e7e1dd197252970031ea5315b2003d",
-    "subject": "use consistent wording in [[NoTear]] explanation for read/write events"
-   }
-  ],
-  "title": "Editorial: use consistent wording in [[NoTear]] explanation for read/write events",
-  "updated_at": "2022-09-16T16:50:13Z"
- },
- {
-  "base": "e30935dab5e7e1dd197252970031ea5315b2003d",
   "created_at": "2022-09-16T03:11:13Z",
   "head": "72da80044cf197c4f2a3e47bd211aa22f5f5aa76",
   "login": "tc39",
@@ -772,98 +752,6 @@
   "updated_at": "2022-07-30T07:09:13Z"
  },
  {
-  "base": "ffe1ace1c0334b8b3816d3778ae3132d7fd1feb7",
-  "created_at": "2022-07-28T19:00:52Z",
-  "head": "0bef1aa7906ff5f4774c24efb3820447769a1505",
-  "login": "gibson042",
-  "number": 2839,
-  "ref": "gh-2570-consolidate-ascii",
-  "revs": [
-   {
-    "adate": "2022-09-20T16:27:07-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-09-20T16:27:07-04:00",
-    "hash": "0bef1aa7906ff5f4774c24efb3820447769a1505",
-    "parents": "612b42f006403ccf83f1a8bacc0e94a1f8488322",
-    "subject": "Editorial: Add a definite article before \"ASCII word characters\""
-   },
-   {
-    "adate": "2022-08-08T17:25:49-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-08-08T22:50:55-04:00",
-    "hash": "612b42f006403ccf83f1a8bacc0e94a1f8488322",
-    "parents": "49c1f1b6f06f8f6cc96542da37100715b2c86b57",
-    "subject": "Editorial: Use StringPad rather than \"padded\" prose in Encode and escape"
-   },
-   {
-    "adate": "2022-08-04T21:50:33-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-08-08T22:50:55-04:00",
-    "hash": "49c1f1b6f06f8f6cc96542da37100715b2c86b57",
-    "parents": "f532840448bb24daccd8f07f8be5586e74fdfcf3",
-    "subject": "Editorial: Revert change referencing AsciiLetter from IdentifierStartChar"
-   },
-   {
-    "adate": "2022-08-04T21:50:02-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-08-08T22:50:55-04:00",
-    "hash": "f532840448bb24daccd8f07f8be5586e74fdfcf3",
-    "parents": "97ca70548608013afb3bb00b293fc7658817db60",
-    "subject": "Editorial: Separate words in ids with dash"
-   },
-   {
-    "adate": "2022-07-28T14:56:23-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-08-08T22:50:55-04:00",
-    "hash": "97ca70548608013afb3bb00b293fc7658817db60",
-    "parents": "e508c27673c596f067f3782f98c089d0a9fb8b01",
-    "subject": "Editorial: Replace |ControlLetter| with |AsciiLetter|"
-   },
-   {
-    "adate": "2022-07-28T14:45:26-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-08-08T22:50:53-04:00",
-    "hash": "e508c27673c596f067f3782f98c089d0a9fb8b01",
-    "parents": "865786f296def591e215aca9c9baff9bc8b462be",
-    "subject": "Editorial: Refactor `escape` for clarity"
-   },
-   {
-    "adate": "2022-07-28T14:44:25-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-08-08T22:47:49-04:00",
-    "hash": "865786f296def591e215aca9c9baff9bc8b462be",
-    "parents": "baab39c797f4905e10d266335b5ca93f27d7bd2f",
-    "subject": "Editorial: Remove \"URI Syntax and Semantics\""
-   },
-   {
-    "adate": "2022-07-28T14:39:28-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-08-08T22:47:47-04:00",
-    "hash": "baab39c797f4905e10d266335b5ca93f27d7bd2f",
-    "parents": "0402fba3a0fe00c40e6cb0feabe1ae1444b39cb6",
-    "subject": "Editorial: Refactor URI Handling Functions for clarity"
-   },
-   {
-    "adate": "2022-07-28T14:37:33-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-08-08T22:32:07-04:00",
-    "hash": "0402fba3a0fe00c40e6cb0feabe1ae1444b39cb6",
-    "parents": "f649a22dd1b7d4e0e31dace1a51f1659a5e38090",
-    "subject": "Editorial: Refer to Unicode Basic Latin as \"block\" rather than \"range\""
-   },
-   {
-    "adate": "2022-07-28T14:33:58-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-08-08T22:32:07-04:00",
-    "hash": "f649a22dd1b7d4e0e31dace1a51f1659a5e38090",
-    "parents": "ffe1ace1c0334b8b3816d3778ae3132d7fd1feb7",
-    "subject": "Editorial: Introduce a definition for ASCII word characters"
-   }
-  ],
-  "title": "Editorial: Consolidate use of ASCII subsets",
-  "updated_at": "2022-09-20T20:35:41Z"
- },
- {
   "base": "cf86f1cdc28e809170733d74ea64fd0f3dd79f78",
   "created_at": "2022-07-21T23:23:54Z",
   "head": "d20d329631c276ad38910b1ed0de9b980bccc60f",
@@ -1192,24 +1080,32 @@
   "updated_at": "2022-05-24T18:01:25Z"
  },
  {
-  "base": "a02f895f67acc60b05f6c91362071f1340df51fc",
+  "base": "1615b06abc65c678d4f58d4320adfd768e8e6cd7",
   "created_at": "2022-05-20T01:14:09Z",
-  "head": "0f1769e252796d8d3cbafb93a296d99f7bab3c00",
+  "head": "52eac70a91153ef607943912df7a045568381d14",
   "login": "ptomato",
   "number": 2781,
   "ref": "default-time-zone",
   "revs": [
    {
+    "adate": "2022-09-20T16:35:44-07:00",
+    "author": "Philip Chimento",
+    "date": "2022-09-20T16:38:40-07:00",
+    "hash": "52eac70a91153ef607943912df7a045568381d14",
+    "parents": "f190df64667107d966c0cdcae3b71e0a608368ea",
+    "subject": "(squash before merging) Address code review comments"
+   },
+   {
     "adate": "2022-05-19T18:02:22-07:00",
     "author": "Philip Chimento",
-    "date": "2022-08-31T14:57:02-07:00",
-    "hash": "0f1769e252796d8d3cbafb93a296d99f7bab3c00",
-    "parents": "a02f895f67acc60b05f6c91362071f1340df51fc",
+    "date": "2022-09-20T16:38:40-07:00",
+    "hash": "f190df64667107d966c0cdcae3b71e0a608368ea",
+    "parents": "1615b06abc65c678d4f58d4320adfd768e8e6cd7",
     "subject": "Normative: Use DefaultTimeZone to get the local time zone for Date"
    }
   ],
   "title": "Normative: Use DefaultTimeZone to get the local time zone for Date",
-  "updated_at": "2022-08-31T21:57:36Z"
+  "updated_at": "2022-09-20T23:56:08Z"
  },
  {
   "base": "7c120199bf159960d46e216aa090887c1e2e584c",
