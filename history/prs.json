@@ -21,66 +21,6 @@
  },
  {
   "base": "e30935dab5e7e1dd197252970031ea5315b2003d",
-  "created_at": "2022-09-19T16:40:27Z",
-  "head": "345e9e00797e0a214c05132a235d6fbb055a2e1f",
-  "login": "tc39",
-  "number": 2910,
-  "ref": "non-empty",
-  "revs": [
-   {
-    "adate": "2022-09-19T10:37:43-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-09-19T10:37:43-06:00",
-    "hash": "345e9e00797e0a214c05132a235d6fbb055a2e1f",
-    "parents": "e30935dab5e7e1dd197252970031ea5315b2003d",
-    "subject": "fixes #2907: replace any occurrences of \"nonempty\" with \"non-empty\""
-   }
-  ],
-  "title": "Editorial: replace any occurrences of \"nonempty\" with \"non-empty\"",
-  "updated_at": "2022-09-19T16:40:28Z"
- },
- {
-  "base": "1a6584159374d4afb9303d55b361ec9935e927b1",
-  "created_at": "2022-09-16T21:28:30Z",
-  "head": "1f67a0db1c0a3d913863671119ee0ac94fbd3f65",
-  "login": "tc39",
-  "number": 2909,
-  "ref": "misc-editorial",
-  "revs": [
-   {
-    "adate": "2022-09-20T17:02:29-07:00",
-    "author": "Michael Ficarra",
-    "date": "2022-09-20T17:02:29-07:00",
-    "hash": "1f67a0db1c0a3d913863671119ee0ac94fbd3f65",
-    "parents": "1a6584159374d4afb9303d55b361ec9935e927b1",
-    "subject": "Editorial: misc minor editorial changes (#2909)"
-   }
-  ],
-  "title": "Editorial: misc minor editorial changes",
-  "updated_at": "2022-09-21T00:02:50Z"
- },
- {
-  "base": "e30935dab5e7e1dd197252970031ea5315b2003d",
-  "created_at": "2022-09-16T03:11:13Z",
-  "head": "72da80044cf197c4f2a3e47bd211aa22f5f5aa76",
-  "login": "tc39",
-  "number": 2906,
-  "ref": "qwertyuiop",
-  "revs": [
-   {
-    "adate": "2022-09-15T21:09:03-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-09-15T21:09:03-06:00",
-    "hash": "72da80044cf197c4f2a3e47bd211aa22f5f5aa76",
-    "parents": "e30935dab5e7e1dd197252970031ea5315b2003d",
-    "subject": "Editorial: tweak a code sample"
-   }
-  ],
-  "title": "Editorial: tweak a code sample",
-  "updated_at": "2022-09-16T03:15:13Z"
- },
- {
-  "base": "e30935dab5e7e1dd197252970031ea5315b2003d",
   "created_at": "2022-09-15T14:35:44Z",
   "head": "407474b8d121c037be86596db294ebc1b8aa286d",
   "login": "nicolo-ribaudo",
@@ -226,26 +166,6 @@
   ],
   "title": "Editorial: combine the two subclauses for HasCallInTailPosition",
   "updated_at": "2022-09-08T03:17:41Z"
- },
- {
-  "base": "3cf8e30e47dd1f010b7d86929670f1e8c51ecc43",
-  "created_at": "2022-09-04T20:21:17Z",
-  "head": "b49d6cd8a19c99328ed535c8729350d0f1ade632",
-  "login": "jmdyck",
-  "number": 2894,
-  "ref": "ScriptEvaluation_tweak",
-  "revs": [
-   {
-    "adate": "2022-09-04T16:17:09-04:00",
-    "author": "Michael Dyck",
-    "date": "2022-09-04T16:17:09-04:00",
-    "hash": "b49d6cd8a19c99328ed535c8729350d0f1ade632",
-    "parents": "3cf8e30e47dd1f010b7d86929670f1e8c51ecc43",
-    "subject": "Editorial: Tweak ScriptEvaluation"
-   }
-  ],
-  "title": "Editorial: Tweak ScriptEvaluation",
-  "updated_at": "2022-09-04T20:27:40Z"
  },
  {
   "base": "2c78e6f6b5bc6bfbf79dd8a12a9593e5b57afcd2",
@@ -440,9 +360,9 @@
   "updated_at": "2022-09-06T17:06:48Z"
  },
  {
-  "base": "c588eb0207005bef05bbc931baf77f74d1cf63e7",
+  "base": "8a6d0f17f8af8fc05cbe59aefc349fb598699398",
   "created_at": "2022-08-30T16:04:08Z",
-  "head": "445a7fe3bf66318c3a1e90cd54ce7a83fc6f9c97",
+  "head": "5dfe50cfe19d708692fb1e5090a82a285625c6a1",
   "login": "tc39",
   "number": 2877,
   "ref": "comparison-consistency",
@@ -450,38 +370,14 @@
    {
     "adate": "2022-07-08T17:55:36-06:00",
     "author": "Michael Ficarra",
-    "date": "2022-09-20T15:39:55-06:00",
-    "hash": "445a7fe3bf66318c3a1e90cd54ce7a83fc6f9c97",
-    "parents": "c588eb0207005bef05bbc931baf77f74d1cf63e7",
+    "date": "2022-09-22T09:32:38-06:00",
+    "hash": "5dfe50cfe19d708692fb1e5090a82a285625c6a1",
+    "parents": "8a6d0f17f8af8fc05cbe59aefc349fb598699398",
     "subject": "various editorial changes for comparisons"
-   },
-   {
-    "adate": "2022-09-20T15:39:24-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-09-20T15:39:24-06:00",
-    "hash": "c588eb0207005bef05bbc931baf77f74d1cf63e7",
-    "parents": "e6707ab6250701b0a143f9e1e16178ce45cb3f32",
-    "subject": "back out interval change"
-   },
-   {
-    "adate": "2022-09-19T10:03:57-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-09-19T10:03:57-06:00",
-    "hash": "e6707ab6250701b0a143f9e1e16178ce45cb3f32",
-    "parents": "4f47c67c9635030432db966e412796ad692a257a",
-    "subject": "address comments"
-   },
-   {
-    "adate": "2022-09-16T15:24:47-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-09-16T15:24:47-06:00",
-    "hash": "4f47c67c9635030432db966e412796ad692a257a",
-    "parents": "e30935dab5e7e1dd197252970031ea5315b2003d",
-    "subject": "Editorial: misc minor editorial changes"
    }
   ],
   "title": "various editorial changes for comparisons",
-  "updated_at": "2022-09-20T21:40:01Z"
+  "updated_at": "2022-09-22T15:33:29Z"
  },
  {
   "base": "dceb9e45fa04ff37a213095e97a28da81bf213ec",
@@ -550,34 +446,6 @@
   ],
   "title": "Editorial: define thenable",
   "updated_at": "2022-08-26T09:08:57Z"
- },
- {
-  "base": "e30935dab5e7e1dd197252970031ea5315b2003d",
-  "created_at": "2022-08-17T08:05:55Z",
-  "head": "be471b0afccb94387e0c8036d7a6ec86732fc57c",
-  "login": "antony-jeong",
-  "number": 2861,
-  "ref": "bugfix",
-  "revs": [
-   {
-    "adate": "2022-09-16T12:16:45+09:00",
-    "author": "Jeong Seunghyeon",
-    "date": "2022-09-16T12:16:45+09:00",
-    "hash": "be471b0afccb94387e0c8036d7a6ec86732fc57c",
-    "parents": "7bfd429686ddb40df4c27bc1b83710b6e95362d1 e30935dab5e7e1dd197252970031ea5315b2003d",
-    "subject": "Merge branch 'main' into bugfix"
-   },
-   {
-    "adate": "2022-08-17T16:49:23+09:00",
-    "author": "antony-jeong",
-    "date": "2022-08-17T16:49:23+09:00",
-    "hash": "7bfd429686ddb40df4c27bc1b83710b6e95362d1",
-    "parents": "cd0692b082e9092a5b64aa5a8ba6ebb48161bfb2",
-    "subject": "Add NormalCompletion to steps 7.4.11.1.b and 23.1.5.1.1.b.iii"
-   }
-  ],
-  "title": "Editorial: Fix completion in CreateListIteratorRecord and CreateArrayIterator",
-  "updated_at": "2022-09-16T03:16:49Z"
  },
  {
   "base": "d4c14505e1a0bcae4465488707a2b06c58530f1d",
@@ -694,26 +562,6 @@
   ],
   "title": "Editorial: consistency in phrasing of ranges and inclusivity/exclusivity",
   "updated_at": "2022-09-20T21:30:17Z"
- },
- {
-  "base": "0981442a6104c6e51e797384e7dd6e3551d88ae2",
-  "created_at": "2022-08-04T07:25:35Z",
-  "head": "055690a19a035fa88d5f85bc9d3d17bb44474a9a",
-  "login": "anba",
-  "number": 2844,
-  "ref": "substr-infinity",
-  "revs": [
-   {
-    "adate": "2022-08-04T09:07:31+02:00",
-    "author": "Andr\u00e9 Bargull",
-    "date": "2022-08-04T09:07:31+02:00",
-    "hash": "055690a19a035fa88d5f85bc9d3d17bb44474a9a",
-    "parents": "df65a85d02acce7a850ad811fa4b530a7cbb4f28",
-    "subject": "Editorial: Revert unintentional normative change for String.prototype.substr"
-   }
-  ],
-  "title": "Editorial: Revert unintentional normative change for String.prototype.substr",
-  "updated_at": "2022-08-04T07:33:23Z"
  },
  {
   "base": "70baf25692ae7d1f6ce51d64a535777f92ca1425",
