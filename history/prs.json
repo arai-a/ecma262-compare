@@ -1,25 +1,5 @@
 [
  {
-  "base": "8a6d0f17f8af8fc05cbe59aefc349fb598699398",
-  "created_at": "2022-09-23T00:36:37Z",
-  "head": "af2dda27e0f155f341d0910c05449d8fb44790fb",
-  "login": "jmdyck",
-  "number": 2912,
-  "ref": "quick_fix",
-  "revs": [
-   {
-    "adate": "2022-09-22T19:55:14-04:00",
-    "author": "Michael Dyck",
-    "date": "2022-09-22T20:25:50-04:00",
-    "hash": "af2dda27e0f155f341d0910c05449d8fb44790fb",
-    "parents": "8a6d0f17f8af8fc05cbe59aefc349fb598699398",
-    "subject": "Editorial: Add 'AsciiLetter' to Annex A"
-   }
-  ],
-  "title": "Editorial: Add 'AsciiLetter' to Annex A",
-  "updated_at": "2022-09-23T00:58:10Z"
- },
- {
   "base": "e30935dab5e7e1dd197252970031ea5315b2003d",
   "created_at": "2022-09-20T00:48:32Z",
   "head": "d29640fd56817c5ed6995671471dd63e79506476",
@@ -292,26 +272,6 @@
   "updated_at": "2022-09-23T01:19:23Z"
  },
  {
-  "base": "8a6d0f17f8af8fc05cbe59aefc349fb598699398",
-  "created_at": "2022-09-04T01:01:03Z",
-  "head": "e3c02dbfa5996c1a64e8d1c1e4941a7f937b9409",
-  "login": "jmdyck",
-  "number": 2887,
-  "ref": "immutable_string",
-  "revs": [
-   {
-    "adate": "2022-09-03T20:52:24-04:00",
-    "author": "Michael Dyck",
-    "date": "2022-09-22T23:36:29-04:00",
-    "hash": "e3c02dbfa5996c1a64e8d1c1e4941a7f937b9409",
-    "parents": "8a6d0f17f8af8fc05cbe59aefc349fb598699398",
-    "subject": "Editorial: Eliminate mutable String values (#2887)"
-   }
-  ],
-  "title": "Editorial: Eliminate mutable String values",
-  "updated_at": "2022-09-23T03:37:40Z"
- },
- {
   "base": "3cf8e30e47dd1f010b7d86929670f1e8c51ecc43",
   "created_at": "2022-09-03T00:44:57Z",
   "head": "a0eff8e2874e8232049ba2964efebcd7b5a82f61",
@@ -437,34 +397,6 @@
  },
  {
   "base": "dceb9e45fa04ff37a213095e97a28da81bf213ec",
-  "created_at": "2022-08-30T15:14:24Z",
-  "head": "df02db5fb96cc5b61f280d252e5504e507100b15",
-  "login": "tc39",
-  "number": 2875,
-  "ref": "is-not-finite",
-  "revs": [
-   {
-    "adate": "2022-08-30T18:32:39-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-08-30T18:32:39-06:00",
-    "hash": "df02db5fb96cc5b61f280d252e5504e507100b15",
-    "parents": "46e7d64a5bebcd9f5d131003bedc3b19f8f73aae",
-    "subject": "more cases"
-   },
-   {
-    "adate": "2022-08-29T16:53:52-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-08-30T09:10:23-06:00",
-    "hash": "46e7d64a5bebcd9f5d131003bedc3b19f8f73aae",
-    "parents": "dceb9e45fa04ff37a213095e97a28da81bf213ec",
-    "subject": "use \"is not finite\" in more places where appropriate and add dfn"
-   }
-  ],
-  "title": "Editorial: use \"is not finite\" in more places where appropriate and add dfn for \"finite\" so they link",
-  "updated_at": "2022-08-31T00:34:59Z"
- },
- {
-  "base": "dceb9e45fa04ff37a213095e97a28da81bf213ec",
   "created_at": "2022-08-23T11:19:46Z",
   "head": "a836506f7270d29e195a4fbe388387b53f917e7a",
   "login": "ikravets",
@@ -482,34 +414,6 @@
   ],
   "title": "Editorial: define thenable",
   "updated_at": "2022-08-26T09:08:57Z"
- },
- {
-  "base": "d4c14505e1a0bcae4465488707a2b06c58530f1d",
-  "created_at": "2022-08-16T20:14:03Z",
-  "head": "650942b7f6cd787c3037b287bf9d095fcafbf120",
-  "login": "tc39",
-  "number": 2859,
-  "ref": "GH-2565",
-  "revs": [
-   {
-    "adate": "2022-09-06T11:01:27-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-09-06T11:01:27-06:00",
-    "hash": "650942b7f6cd787c3037b287bf9d095fcafbf120",
-    "parents": "2315adf94dc35e496bff06a4200feec5e080ddf0",
-    "subject": "revert change in headers"
-   },
-   {
-    "adate": "2022-08-16T14:10:04-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-09-06T11:00:25-06:00",
-    "hash": "2315adf94dc35e496bff06a4200feec5e080ddf0",
-    "parents": "d4c14505e1a0bcae4465488707a2b06c58530f1d",
-    "subject": "fixes #2565: add stars around null values that are missing them"
-   }
-  ],
-  "title": "Editorial: add stars around null values that are missing them",
-  "updated_at": "2022-09-06T17:01:48Z"
  },
  {
   "base": "8a6d0f17f8af8fc05cbe59aefc349fb598699398",
@@ -950,11 +854,19 @@
  {
   "base": "1615b06abc65c678d4f58d4320adfd768e8e6cd7",
   "created_at": "2022-05-20T01:14:09Z",
-  "head": "52eac70a91153ef607943912df7a045568381d14",
+  "head": "1688afc59b5aa5c6757e96fc13f5f4d16ad6a3d3",
   "login": "ptomato",
   "number": 2781,
   "ref": "default-time-zone",
   "revs": [
+   {
+    "adate": "2022-09-23T14:47:42-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2022-09-23T14:47:42-07:00",
+    "hash": "1688afc59b5aa5c6757e96fc13f5f4d16ad6a3d3",
+    "parents": "52eac70a91153ef607943912df7a045568381d14",
+    "subject": "fixup: use StringToNumber"
+   },
    {
     "adate": "2022-09-20T16:35:44-07:00",
     "author": "Philip Chimento",
@@ -973,7 +885,7 @@
    }
   ],
   "title": "Normative: Use DefaultTimeZone to get the local time zone for Date",
-  "updated_at": "2022-09-20T23:56:08Z"
+  "updated_at": "2022-09-23T21:49:26Z"
  },
  {
   "base": "7c120199bf159960d46e216aa090887c1e2e584c",
@@ -1214,34 +1126,6 @@
   ],
   "title": "Editorial: Replace mixtures of spec aliases with language operators",
   "updated_at": "2022-04-27T23:10:57Z"
- },
- {
-  "base": "8a6d0f17f8af8fc05cbe59aefc349fb598699398",
-  "created_at": "2022-04-18T18:39:42Z",
-  "head": "18a82b5121ab954db2f0914d3c6959c4d6fb0277",
-  "login": "jmdyck",
-  "number": 2745,
-  "ref": "unknown",
-  "revs": [
-   {
-    "adate": "2022-04-16T15:47:56-04:00",
-    "author": "Michael Dyck",
-    "date": "2022-09-22T23:30:23-04:00",
-    "hash": "18a82b5121ab954db2f0914d3c6959c4d6fb0277",
-    "parents": "285255feed20645a59a564c672bb834c7f27ad11",
-    "subject": "Editorial: Eliminate \"unknown\" as a parameter type (#2745)"
-   },
-   {
-    "adate": "2022-09-02T23:23:05-04:00",
-    "author": "Michael Dyck",
-    "date": "2022-09-22T23:30:23-04:00",
-    "hash": "285255feed20645a59a564c672bb834c7f27ad11",
-    "parents": "8a6d0f17f8af8fc05cbe59aefc349fb598699398",
-    "subject": "Editorial: Don't use SameValue in DetachArrayBuffer (#2745)"
-   }
-  ],
-  "title": "Editorial: Eliminate \"unknown\" as a parameter type",
-  "updated_at": "2022-09-23T03:32:48Z"
  },
  {
   "base": "7ae3ecf219bfaa02bb7f6dd1a668f152ff53e846",
@@ -3634,98 +3518,6 @@
   ],
   "title": "Allow hosts to reuse an existing Realm Intrinsics record",
   "updated_at": "2020-03-27T07:01:37Z"
- },
- {
-  "base": "8a6d0f17f8af8fc05cbe59aefc349fb598699398",
-  "created_at": "2019-01-18T18:19:39Z",
-  "head": "f2b2c0554e551ea033ae459a476a536bc945e7b8",
-  "login": "gibson042",
-  "number": 1418,
-  "ref": "2019-01-explain-SAFE_INTEGER",
-  "revs": [
-   {
-    "adate": "2022-09-22T14:21:06-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-09-22T14:27:29-04:00",
-    "hash": "f2b2c0554e551ea033ae459a476a536bc945e7b8",
-    "parents": "a6796173cf4a19e0269d7e24a22f752a53e3e3aa",
-    "subject": "Editorial: Update to Oxford spelling"
-   },
-   {
-    "adate": "2019-01-30T12:58:55-05:00",
-    "author": "Richard Gibson",
-    "date": "2022-09-22T14:27:27-04:00",
-    "hash": "a6796173cf4a19e0269d7e24a22f752a53e3e3aa",
-    "parents": "3c62886fe695a7364f3da2824eac73c532437283",
-    "subject": "Use the spec-defined \"the Number value for\" phrase"
-   },
-   {
-    "adate": "2019-01-29T18:01:14-05:00",
-    "author": "Richard Gibson",
-    "date": "2022-09-22T14:26:55-04:00",
-    "hash": "3c62886fe695a7364f3da2824eac73c532437283",
-    "parents": "aabcf444308150ca057ed9b10b9310a9109106c9",
-    "subject": "Make \"safe\" a definition, and reference it"
-   },
-   {
-    "adate": "2019-01-29T17:56:23-05:00",
-    "author": "Richard Gibson",
-    "date": "2022-09-22T14:26:24-04:00",
-    "hash": "aabcf444308150ca057ed9b10b9310a9109106c9",
-    "parents": "a5fecdef42da0220e69b2d0649123c55a46887c6",
-    "subject": "Incorporate prose suggestion from @tabatkins"
-   },
-   {
-    "adate": "2019-01-29T17:41:28-05:00",
-    "author": "Richard Gibson",
-    "date": "2022-09-22T14:26:21-04:00",
-    "hash": "a5fecdef42da0220e69b2d0649123c55a46887c6",
-    "parents": "6616dfb68105df51d42d6089109ba48a32f6e9b3",
-    "subject": "Accept improved definition of \"safe\""
-   },
-   {
-    "adate": "2019-01-29T16:22:00-05:00",
-    "author": "Richard Gibson",
-    "date": "2022-09-22T14:25:26-04:00",
-    "hash": "6616dfb68105df51d42d6089109ba48a32f6e9b3",
-    "parents": "4b80631b76bd392979a14cfaca81cb52444e8b74",
-    "subject": "Restore \"exactly representable\" phrase and explain basis in IEEE 754"
-   },
-   {
-    "adate": "2019-01-21T12:40:48-05:00",
-    "author": "Richard Gibson",
-    "date": "2022-09-22T14:25:26-04:00",
-    "hash": "4b80631b76bd392979a14cfaca81cb52444e8b74",
-    "parents": "4db1c2fc9d4cea8eee021b98b151868777ae0984",
-    "subject": "Fix typo"
-   },
-   {
-    "adate": "2019-01-21T12:19:25-05:00",
-    "author": "Richard Gibson",
-    "date": "2022-09-22T14:25:26-04:00",
-    "hash": "4db1c2fc9d4cea8eee021b98b151868777ae0984",
-    "parents": "ebe817ccdb33376413355cf9fe057c97d45f95eb",
-    "subject": "Improve wording"
-   },
-   {
-    "adate": "2019-01-18T13:23:46-05:00",
-    "author": "Richard Gibson",
-    "date": "2022-09-22T14:25:23-04:00",
-    "hash": "ebe817ccdb33376413355cf9fe057c97d45f95eb",
-    "parents": "4efba6689d91805c97a52bcf73ad20fc16fd77c0",
-    "subject": "Add note to Number.isSafeInteger"
-   },
-   {
-    "adate": "2019-01-18T13:05:18-05:00",
-    "author": "Richard Gibson",
-    "date": "2022-09-22T14:23:17-04:00",
-    "hash": "4efba6689d91805c97a52bcf73ad20fc16fd77c0",
-    "parents": "cd0692b082e9092a5b64aa5a8ba6ebb48161bfb2",
-    "subject": "Editorial: Explain why *_SAFE_INTEGER magnitude is not a power of two"
-   }
-  ],
-  "title": "Editorial: Explain why *_SAFE_INTEGER magnitude is not a power of two",
-  "updated_at": "2022-09-22T18:28:20Z"
  },
  {
   "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
