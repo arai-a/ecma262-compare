@@ -1,5 +1,45 @@
 [
  {
+  "adate": "2022-09-22T22:43:53-07:00",
+  "author": "Michael Ficarra",
+  "date": "2022-09-22T22:43:53-07:00",
+  "hash": "088e1294f4afc21fd3538469f65e5d42395ed212",
+  "parents": "04aaea28f60cc21f441322f70109e71dc92ed0ad",
+  "subject": "Editorial: use \"is not finite\" in more places where appropriate and add dfn (#2875)"
+ },
+ {
+  "adate": "2022-09-22T22:38:42-07:00",
+  "author": "Michael Ficarra",
+  "date": "2022-09-22T22:38:42-07:00",
+  "hash": "04aaea28f60cc21f441322f70109e71dc92ed0ad",
+  "parents": "fd4924049b40a5efe2f14ce6dc791e146d75f385",
+  "subject": "Editorial: add stars around null values that are missing them (#2859)"
+ },
+ {
+  "adate": "2022-09-22T22:32:08-07:00",
+  "author": "Michael Dyck",
+  "date": "2022-09-22T22:32:08-07:00",
+  "hash": "fd4924049b40a5efe2f14ce6dc791e146d75f385",
+  "parents": "3efc1ccfafe7849a5675c9fab8bf3a375682daf4",
+  "subject": "Editorial: Eliminate \"unknown\" as a parameter type (#2745)"
+ },
+ {
+  "adate": "2022-09-22T22:32:03-07:00",
+  "author": "Michael Dyck",
+  "date": "2022-09-22T22:32:03-07:00",
+  "hash": "3efc1ccfafe7849a5675c9fab8bf3a375682daf4",
+  "parents": "9a5b72bb3e6c23546493c9dc6020190c36c743e9",
+  "subject": "Editorial: Don't use SameValue in DetachArrayBuffer (#2745)"
+ },
+ {
+  "adate": "2022-09-22T22:28:01-07:00",
+  "author": "Richard Gibson",
+  "date": "2022-09-22T22:28:01-07:00",
+  "hash": "9a5b72bb3e6c23546493c9dc6020190c36c743e9",
+  "parents": "8a6d0f17f8af8fc05cbe59aefc349fb598699398",
+  "subject": "Editorial: Explain why *_SAFE_INTEGER magnitude is not a power of two (#1418)"
+ },
+ {
   "adate": "2022-09-21T15:13:20-07:00",
   "author": "Michael Ficarra",
   "date": "2022-09-21T15:13:20-07:00",
