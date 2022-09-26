@@ -1,25 +1,5 @@
 [
  {
-  "base": "a35ec3c174fe1a76092fe28ada3b93544a145a8f",
-  "created_at": "2022-09-24T00:43:07Z",
-  "head": "a899a04d9689c96de2eb53aeef4b7d8fc34196fa",
-  "login": "jmdyck",
-  "number": 2913,
-  "ref": "quick_fix",
-  "revs": [
-   {
-    "adate": "2022-09-23T20:12:54-04:00",
-    "author": "Michael Dyck",
-    "date": "2022-09-23T20:34:35-04:00",
-    "hash": "a899a04d9689c96de2eb53aeef4b7d8fc34196fa",
-    "parents": "a35ec3c174fe1a76092fe28ada3b93544a145a8f",
-    "subject": "Editorial: Fix alias name"
-   }
-  ],
-  "title": "Editorial: Fix alias name",
-  "updated_at": "2022-09-24T00:45:29Z"
- },
- {
   "base": "e30935dab5e7e1dd197252970031ea5315b2003d",
   "created_at": "2022-09-20T00:48:32Z",
   "head": "d29640fd56817c5ed6995671471dd63e79506476",
@@ -882,11 +862,19 @@
  {
   "base": "1615b06abc65c678d4f58d4320adfd768e8e6cd7",
   "created_at": "2022-05-20T01:14:09Z",
-  "head": "1688afc59b5aa5c6757e96fc13f5f4d16ad6a3d3",
+  "head": "99ef07524080f1a0900d05f5718f33eda9724935",
   "login": "ptomato",
   "number": 2781,
   "ref": "default-time-zone",
   "revs": [
+   {
+    "adate": "2022-09-26T09:31:14-07:00",
+    "author": "Philip Chimento",
+    "date": "2022-09-26T09:31:14-07:00",
+    "hash": "99ef07524080f1a0900d05f5718f33eda9724935",
+    "parents": "1688afc59b5aa5c6757e96fc13f5f4d16ad6a3d3",
+    "subject": "fixup: Address review comments"
+   },
    {
     "adate": "2022-09-23T14:47:42-07:00",
     "author": "Kevin Gibbons",
@@ -913,7 +901,7 @@
    }
   ],
   "title": "Normative: Use DefaultTimeZone to get the local time zone for Date",
-  "updated_at": "2022-09-23T21:49:26Z"
+  "updated_at": "2022-09-26T16:35:33Z"
  },
  {
   "base": "7c120199bf159960d46e216aa090887c1e2e584c",
