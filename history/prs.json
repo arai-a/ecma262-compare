@@ -1,6 +1,54 @@
 [
  {
   "base": "231f2709f4d888f13df2907e1b6b5cd5920e0ff3",
+  "created_at": "2022-09-27T20:46:32Z",
+  "head": "8d5e5ca90e0f53fa0153ae7daab54b7af4bf544b",
+  "login": "gibson042",
+  "number": 2918,
+  "ref": "2022-09-substring-matching-indices",
+  "revs": [
+   {
+    "adate": "2022-09-27T16:45:18-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-09-27T16:45:18-04:00",
+    "hash": "8d5e5ca90e0f53fa0153ae7daab54b7af4bf544b",
+    "parents": "231f2709f4d888f13df2907e1b6b5cd5920e0ff3",
+    "subject": "Editorial: Add a missing check in String.prototype.substring"
+   }
+  ],
+  "title": "Editorial: Add a missing check in String.prototype.substring",
+  "updated_at": "2022-09-27T20:46:32Z"
+ },
+ {
+  "base": "231f2709f4d888f13df2907e1b6b5cd5920e0ff3",
+  "created_at": "2022-09-27T20:40:10Z",
+  "head": "4d9afd2bc29f4cfcf7336f255d1c2969ccf73edb",
+  "login": "gibson042",
+  "number": 2917,
+  "ref": "2022-09-more-clamping",
+  "revs": [
+   {
+    "adate": "2022-09-27T16:00:13-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-09-27T16:00:13-04:00",
+    "hash": "4d9afd2bc29f4cfcf7336f255d1c2969ccf73edb",
+    "parents": "d8240454c2186e0939fed0141061617b824b141e",
+    "subject": "Editorial: Introduce ToClampedIndex for relative-to-start-or-end index values"
+   },
+   {
+    "adate": "2022-09-26T21:47:01-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-09-27T15:01:22-04:00",
+    "hash": "d8240454c2186e0939fed0141061617b824b141e",
+    "parents": "511066bb29ee9e89aacabc1b13a0e05176532e4d",
+    "subject": "Editorial: Make better use of clamping without introducing temporary aliases"
+   }
+  ],
+  "title": "Editorial: Make better use of clamping",
+  "updated_at": "2022-09-27T20:40:10Z"
+ },
+ {
+  "base": "231f2709f4d888f13df2907e1b6b5cd5920e0ff3",
   "created_at": "2022-09-27T01:31:54Z",
   "head": "f9e78da7468d673573edef7f0a5cff06f96d1823",
   "login": "tc39",
