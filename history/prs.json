@@ -22,30 +22,38 @@
  {
   "base": "231f2709f4d888f13df2907e1b6b5cd5920e0ff3",
   "created_at": "2022-09-27T20:40:10Z",
-  "head": "4d9afd2bc29f4cfcf7336f255d1c2969ccf73edb",
+  "head": "b3d9d85d05317eb94fe631951e7c1737780abbf4",
   "login": "gibson042",
   "number": 2917,
   "ref": "2022-09-more-clamping",
   "revs": [
    {
+    "adate": "2022-09-27T20:22:59-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-09-27T20:22:59-04:00",
+    "hash": "b3d9d85d05317eb94fe631951e7c1737780abbf4",
+    "parents": "56b6a382f626d786a3eb6478b552ab9e7eb2447d",
+    "subject": "Editorial: Accept suggestions"
+   },
+   {
     "adate": "2022-09-27T16:00:13-04:00",
     "author": "Richard Gibson",
-    "date": "2022-09-27T16:00:13-04:00",
-    "hash": "4d9afd2bc29f4cfcf7336f255d1c2969ccf73edb",
-    "parents": "d8240454c2186e0939fed0141061617b824b141e",
+    "date": "2022-09-27T20:18:04-04:00",
+    "hash": "56b6a382f626d786a3eb6478b552ab9e7eb2447d",
+    "parents": "eb5d031bd8379d27bd683e588688cd8f4139fc3f",
     "subject": "Editorial: Introduce ToClampedIndex for relative-to-start-or-end index values"
    },
    {
     "adate": "2022-09-26T21:47:01-04:00",
     "author": "Richard Gibson",
-    "date": "2022-09-27T15:01:22-04:00",
-    "hash": "d8240454c2186e0939fed0141061617b824b141e",
-    "parents": "511066bb29ee9e89aacabc1b13a0e05176532e4d",
+    "date": "2022-09-27T20:18:04-04:00",
+    "hash": "eb5d031bd8379d27bd683e588688cd8f4139fc3f",
+    "parents": "231f2709f4d888f13df2907e1b6b5cd5920e0ff3",
     "subject": "Editorial: Make better use of clamping without introducing temporary aliases"
    }
   ],
   "title": "Editorial: Make better use of clamping",
-  "updated_at": "2022-09-27T20:40:10Z"
+  "updated_at": "2022-09-28T00:23:20Z"
  },
  {
   "base": "231f2709f4d888f13df2907e1b6b5cd5920e0ff3",
@@ -404,32 +412,56 @@
   "updated_at": "2022-09-01T17:26:13Z"
  },
  {
-  "base": "d4c14505e1a0bcae4465488707a2b06c58530f1d",
+  "base": "231f2709f4d888f13df2907e1b6b5cd5920e0ff3",
   "created_at": "2022-08-31T17:36:15Z",
-  "head": "fb0f6fcf08f164342b6650838285320471091bde",
+  "head": "325272c50c2c4e383c3c36884ffec6332f511366",
   "login": "tc39",
   "number": 2880,
   "ref": "dfn-charset",
   "revs": [
    {
+    "adate": "2022-09-27T19:01:02-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-09-27T19:01:02-06:00",
+    "hash": "325272c50c2c4e383c3c36884ffec6332f511366",
+    "parents": "6bb5083f3d83ee5ceb6aa8bff6dba6a40e168ba3",
+    "subject": "fixup IDs"
+   },
+   {
+    "adate": "2022-09-27T18:58:20-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-09-27T18:58:20-06:00",
+    "hash": "6bb5083f3d83ee5ceb6aa8bff6dba6a40e168ba3",
+    "parents": "463b38953d668b93f9bbb0e8f16b0e2fce0a65e8",
+    "subject": "rename Continuation to MatcherContinuation"
+   },
+   {
+    "adate": "2022-09-27T18:56:58-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-09-27T18:56:58-06:00",
+    "hash": "463b38953d668b93f9bbb0e8f16b0e2fce0a65e8",
+    "parents": "5967ab32c662099564fd8974781a32164a7a0f67",
+    "subject": "rename Range to CaptureRange"
+   },
+   {
     "adate": "2022-09-06T11:05:44-06:00",
     "author": "Michael Ficarra",
-    "date": "2022-09-06T11:05:44-06:00",
-    "hash": "fb0f6fcf08f164342b6650838285320471091bde",
-    "parents": "5313c9bcb0cb133c54315b07f092b30061bff6e3",
+    "date": "2022-09-27T17:55:18-06:00",
+    "hash": "5967ab32c662099564fd8974781a32164a7a0f67",
+    "parents": "bf3a040a0906462a9439653c83efd50897bc3e63",
     "subject": "rename State to MatchState"
    },
    {
     "adate": "2022-08-31T11:33:57-06:00",
     "author": "Michael Ficarra",
-    "date": "2022-09-06T11:02:26-06:00",
-    "hash": "5313c9bcb0cb133c54315b07f092b30061bff6e3",
-    "parents": "d4c14505e1a0bcae4465488707a2b06c58530f1d",
+    "date": "2022-09-27T17:53:42-06:00",
+    "hash": "bf3a040a0906462a9439653c83efd50897bc3e63",
+    "parents": "231f2709f4d888f13df2907e1b6b5cd5920e0ff3",
     "subject": "Editorial: dfn the Pattern data structures"
    }
   ],
   "title": "Editorial: dfn the Pattern data structures",
-  "updated_at": "2022-09-06T17:06:48Z"
+  "updated_at": "2022-09-28T01:01:12Z"
  },
  {
   "base": "8a6d0f17f8af8fc05cbe59aefc349fb598699398",
