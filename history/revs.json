@@ -8,6 +8,46 @@
   "subject": "Editorial: Subdivide the \"Grammar Notation\" section (#2888)"
  },
  {
+  "adate": "2022-09-28T22:26:59-07:00",
+  "author": "Michael Ficarra",
+  "date": "2022-09-28T22:26:59-07:00",
+  "hash": "4f4a8bef9b3eeaf5003e93d98e1b55c44e907251",
+  "parents": "af53caadb6c163f2210a9c678da7686b5e6ac087",
+  "subject": "Editorial: in NumericToRawBytes, consolidate byte ordering decision (#2883)"
+ },
+ {
+  "adate": "2022-09-28T22:22:56-07:00",
+  "author": "Michael Ficarra",
+  "date": "2022-09-28T22:22:56-07:00",
+  "hash": "af53caadb6c163f2210a9c678da7686b5e6ac087",
+  "parents": "902b540ecfbaeebc4f96781f5664f444b672e9b1",
+  "subject": "Editorial: dfn the Pattern data structures (#2880)"
+ },
+ {
+  "adate": "2022-09-28T22:15:34-07:00",
+  "author": "Michael Ficarra",
+  "date": "2022-09-28T22:15:34-07:00",
+  "hash": "902b540ecfbaeebc4f96781f5664f444b672e9b1",
+  "parents": "27ee9956ce0ab1428b17124b8c0f7df17096dfac",
+  "subject": "Editorial: define `\\d` semantics in a similar way to `\\s`, avoiding char range (#2876)"
+ },
+ {
+  "adate": "2022-09-28T22:05:11-07:00",
+  "author": "Richard Gibson",
+  "date": "2022-09-28T22:05:11-07:00",
+  "hash": "27ee9956ce0ab1428b17124b8c0f7df17096dfac",
+  "parents": "de6e64c87f100b46536806df675f7660b89dea54",
+  "subject": "Editorial: Rename aliases in String.raw for clarity and consistency (#2783)"
+ },
+ {
+  "adate": "2022-09-28T22:05:08-07:00",
+  "author": "Richard Gibson",
+  "date": "2022-09-28T22:05:08-07:00",
+  "hash": "de6e64c87f100b46536806df675f7660b89dea54",
+  "parents": "a90b70a530c0ed25155a8996fdbb89d135caef68",
+  "subject": "Editorial: Clarify String.raw substitution handling (#2783)"
+ },
+ {
   "adate": "2022-09-28T22:05:04-07:00",
   "author": "Richard Gibson",
   "date": "2022-09-28T22:05:04-07:00",
