@@ -1,63 +1,23 @@
 [
  {
   "base": "d3e5d6b043a874fa03806342da199d4a5a5d1a49",
-  "created_at": "2022-09-29T12:36:08Z",
-  "head": "07155687855181d8d62511f875f39ffe8fd45eb6",
+  "created_at": "2022-09-29T13:14:53Z",
+  "head": "913fc80affe5a290aa31fb4bcd022dbc58a69409",
   "login": "jhnaldo",
-  "number": 2922,
-  "ref": "fix-ret-ty-EvaluateClassStaticBlockBody",
-  "revs": [
-   {
-    "adate": "2022-09-29T21:25:34+09:00",
-    "author": "jhnaldo",
-    "date": "2022-09-29T21:25:34+09:00",
-    "hash": "07155687855181d8d62511f875f39ffe8fd45eb6",
-    "parents": "d3e5d6b043a874fa03806342da199d4a5a5d1a49",
-    "subject": "Fixed bugs in return type of EvaluateClassStaticBlockBody algorithm"
-   }
-  ],
-  "title": "Fixed bugs in return type of EvaluateClassStaticBlockBody algorithm",
-  "updated_at": "2022-09-29T12:36:08Z"
- },
- {
-  "base": "d3e5d6b043a874fa03806342da199d4a5a5d1a49",
-  "created_at": "2022-09-29T11:43:48Z",
-  "head": "004c3ab316bfdc2977fd6e349ad19a252cb2e4c5",
-  "login": "jhnaldo",
-  "number": 2921,
+  "number": 2923,
   "ref": "fix-type-AddEntriesFromIterable",
   "revs": [
    {
-    "adate": "2022-09-29T20:27:22+09:00",
+    "adate": "2022-09-29T22:10:21+09:00",
     "author": "jhnaldo",
-    "date": "2022-09-29T20:27:22+09:00",
-    "hash": "004c3ab316bfdc2977fd6e349ad19a252cb2e4c5",
+    "date": "2022-09-29T22:10:21+09:00",
+    "hash": "913fc80affe5a290aa31fb4bcd022dbc58a69409",
     "parents": "d3e5d6b043a874fa03806342da199d4a5a5d1a49",
     "subject": "Fixed bugs in parameter type of AddEntriesFromIterable algorithm"
    }
   ],
   "title": "Fixed bugs in parameter type of AddEntriesFromIterable algorithm",
-  "updated_at": "2022-09-29T11:43:48Z"
- },
- {
-  "base": "d3e5d6b043a874fa03806342da199d4a5a5d1a49",
-  "created_at": "2022-09-29T06:08:43Z",
-  "head": "9b88dfeac7142d8bf8659548e519ea94a0f4a9ed",
-  "login": "jhnaldo",
-  "number": 2920,
-  "ref": "fix-ret-ty-CatchClauseEvaluation",
-  "revs": [
-   {
-    "adate": "2022-09-29T14:54:48+09:00",
-    "author": "jhnaldo",
-    "date": "2022-09-29T14:54:48+09:00",
-    "hash": "9b88dfeac7142d8bf8659548e519ea94a0f4a9ed",
-    "parents": "804cc1f870f578d8df374bd5e4d5fa070ef02941",
-    "subject": "Fixed bugs in return type of CatchClauseEvaluation algorithm"
-   }
-  ],
-  "title": "Fixed bugs in return type of CatchClauseEvaluation algorithm",
-  "updated_at": "2022-09-29T06:08:43Z"
+  "updated_at": "2022-09-29T13:14:53Z"
  },
  {
   "base": "231f2709f4d888f13df2907e1b6b5cd5920e0ff3",
