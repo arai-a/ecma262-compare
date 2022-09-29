@@ -1,5 +1,53 @@
 [
  {
+  "adate": "2022-09-28T22:32:16-07:00",
+  "author": "Michael Dyck",
+  "date": "2022-09-28T22:32:16-07:00",
+  "hash": "804cc1f870f578d8df374bd5e4d5fa070ef02941",
+  "parents": "4f4a8bef9b3eeaf5003e93d98e1b55c44e907251",
+  "subject": "Editorial: Subdivide the \"Grammar Notation\" section (#2888)"
+ },
+ {
+  "adate": "2022-09-28T22:05:04-07:00",
+  "author": "Richard Gibson",
+  "date": "2022-09-28T22:05:04-07:00",
+  "hash": "a90b70a530c0ed25155a8996fdbb89d135caef68",
+  "parents": "0df3f691b7e1eb455b6cc2fcbcb63babf704d1a0",
+  "subject": "Editorial: Align String.raw with Array.prototype.join (#2783)"
+ },
+ {
+  "adate": "2022-09-28T22:05:00-07:00",
+  "author": "Richard Gibson",
+  "date": "2022-09-28T22:05:00-07:00",
+  "hash": "0df3f691b7e1eb455b6cc2fcbcb63babf704d1a0",
+  "parents": "ca31e9fbb957ef4f8ebd48ce11197f4d53770728",
+  "subject": "Editorial: Refactor String.raw in anticipation of generalization (#2783)"
+ },
+ {
+  "adate": "2022-09-28T22:04:56-07:00",
+  "author": "Richard Gibson",
+  "date": "2022-09-28T22:04:56-07:00",
+  "hash": "ca31e9fbb957ef4f8ebd48ce11197f4d53770728",
+  "parents": "7a1a92d8a8026b58fdd5c3ad5caed4cd4a19c6cc",
+  "subject": "Editorial: Simplify String.raw by replacing List operations with String operations (#2783)"
+ },
+ {
+  "adate": "2022-09-28T21:54:40-07:00",
+  "author": "Richard Gibson",
+  "date": "2022-09-28T21:54:40-07:00",
+  "hash": "7a1a92d8a8026b58fdd5c3ad5caed4cd4a19c6cc",
+  "parents": "df166688f7b9f7201619d3fc5b774ce076f9821e",
+  "subject": "Editorial: Reference IEEE 754 using their vocabulary (#2751)"
+ },
+ {
+  "adate": "2022-09-28T21:54:36-07:00",
+  "author": "Richard Gibson",
+  "date": "2022-09-28T21:54:36-07:00",
+  "hash": "df166688f7b9f7201619d3fc5b774ce076f9821e",
+  "parents": "231f2709f4d888f13df2907e1b6b5cd5920e0ff3",
+  "subject": "Editorial: Replace mixtures of spec aliases with language operators (#2751)"
+ },
+ {
   "adate": "2022-09-26T21:24:10-07:00",
   "author": "Michael Dyck",
   "date": "2022-09-26T21:24:10-07:00",

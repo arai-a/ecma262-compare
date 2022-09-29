@@ -1,5 +1,25 @@
 [
  {
+  "base": "d3e5d6b043a874fa03806342da199d4a5a5d1a49",
+  "created_at": "2022-09-29T06:08:43Z",
+  "head": "9b88dfeac7142d8bf8659548e519ea94a0f4a9ed",
+  "login": "jhnaldo",
+  "number": 2920,
+  "ref": "fix-ret-ty-CatchClauseEvaluation",
+  "revs": [
+   {
+    "adate": "2022-09-29T14:54:48+09:00",
+    "author": "jhnaldo",
+    "date": "2022-09-29T14:54:48+09:00",
+    "hash": "9b88dfeac7142d8bf8659548e519ea94a0f4a9ed",
+    "parents": "804cc1f870f578d8df374bd5e4d5fa070ef02941",
+    "subject": "Fixed bugs in return type of CatchClauseEvaluation algorithm"
+   }
+  ],
+  "title": "Fixed bugs in return type of CatchClauseEvaluation algorithm",
+  "updated_at": "2022-09-29T06:08:43Z"
+ },
+ {
   "base": "231f2709f4d888f13df2907e1b6b5cd5920e0ff3",
   "created_at": "2022-09-27T20:46:32Z",
   "head": "8d5e5ca90e0f53fa0153ae7daab54b7af4bf544b",
@@ -98,26 +118,6 @@
   ],
   "title": "Editorial: replace steps embedded in lookup tables with more typical algorithms",
   "updated_at": "2022-09-27T18:11:19Z"
- },
- {
-  "base": "231f2709f4d888f13df2907e1b6b5cd5920e0ff3",
-  "created_at": "2022-09-20T00:48:32Z",
-  "head": "2d69aac6810e9471be60dea4d1e17d32108da186",
-  "login": "tc39",
-  "number": 2911,
-  "ref": "relation-introductions",
-  "revs": [
-   {
-    "adate": "2022-09-19T18:46:27-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-09-27T17:48:11-06:00",
-    "hash": "2d69aac6810e9471be60dea4d1e17d32108da186",
-    "parents": "231f2709f4d888f13df2907e1b6b5cd5920e0ff3",
-    "subject": "Editorial: refactor remainder AOs"
-   }
-  ],
-  "title": "Editorial: refactor remainder AOs",
-  "updated_at": "2022-09-27T23:49:17Z"
  },
  {
   "base": "e30935dab5e7e1dd197252970031ea5315b2003d",
@@ -268,46 +268,6 @@
   "updated_at": "2022-09-08T03:17:41Z"
  },
  {
-  "base": "231f2709f4d888f13df2907e1b6b5cd5920e0ff3",
-  "created_at": "2022-09-04T20:03:33Z",
-  "head": "778890b34d13bcb330ea222a5d4c397e033368ef",
-  "login": "jmdyck",
-  "number": 2893,
-  "ref": "TemplateStrings_refactor",
-  "revs": [
-   {
-    "adate": "2022-09-07T17:14:20-04:00",
-    "author": "Michael Dyck",
-    "date": "2022-09-28T20:01:53-04:00",
-    "hash": "778890b34d13bcb330ea222a5d4c397e033368ef",
-    "parents": "77256bf80b684888381ddf1c000bcdd1fcc2e637",
-    "subject": "Editorial: Refactor TemplateStrings SDO"
-   }
-  ],
-  "title": "Editorial: Refactor TemplateStrings SDO",
-  "updated_at": "2022-09-29T00:05:02Z"
- },
- {
-  "base": "3cf8e30e47dd1f010b7d86929670f1e8c51ecc43",
-  "created_at": "2022-09-04T03:40:11Z",
-  "head": "8ae38ced2171276f7115a0416e3830a0611e7968",
-  "login": "jmdyck",
-  "number": 2891,
-  "ref": "NewDeclarativeEnvironment",
-  "revs": [
-   {
-    "adate": "2022-09-03T23:33:25-04:00",
-    "author": "Michael Dyck",
-    "date": "2022-09-03T23:33:25-04:00",
-    "hash": "8ae38ced2171276f7115a0416e3830a0611e7968",
-    "parents": "3cf8e30e47dd1f010b7d86929670f1e8c51ecc43",
-    "subject": "Editorial: Simplify NewGlobalEnvironment"
-   }
-  ],
-  "title": "Editorial: Have NewGlobalEnvironment invoke NewDeclarativeEnvironment",
-  "updated_at": "2022-09-04T03:40:21Z"
- },
- {
   "base": "77256bf80b684888381ddf1c000bcdd1fcc2e637",
   "created_at": "2022-09-04T02:20:57Z",
   "head": "9f03c35b9a1ec96d46280dbf42fd4deff337de99",
@@ -336,26 +296,6 @@
   "updated_at": "2022-09-27T00:32:47Z"
  },
  {
-  "base": "8a6d0f17f8af8fc05cbe59aefc349fb598699398",
-  "created_at": "2022-09-04T01:34:51Z",
-  "head": "ae6b4fbcb052a1be705bc3a471ef51a7785600f0",
-  "login": "jmdyck",
-  "number": 2888,
-  "ref": "break_up_grammar_notation",
-  "revs": [
-   {
-    "adate": "2022-09-03T21:29:17-04:00",
-    "author": "Michael Dyck",
-    "date": "2022-09-22T21:13:04-04:00",
-    "hash": "ae6b4fbcb052a1be705bc3a471ef51a7785600f0",
-    "parents": "8a6d0f17f8af8fc05cbe59aefc349fb598699398",
-    "subject": "Editorial: Subdivide the \"Grammar Notation\" section"
-   }
-  ],
-  "title": "Editorial: Subdivide the \"Grammar Notation\" section",
-  "updated_at": "2022-09-23T01:19:23Z"
- },
- {
   "base": "3cf8e30e47dd1f010b7d86929670f1e8c51ecc43",
   "created_at": "2022-09-03T00:44:57Z",
   "head": "a0eff8e2874e8232049ba2964efebcd7b5a82f61",
@@ -376,78 +316,6 @@
   "updated_at": "2022-09-03T00:44:57Z"
  },
  {
-  "base": "3c29c062590cb2725c3230bf5dba8bc268e25a11",
-  "created_at": "2022-09-01T17:26:13Z",
-  "head": "397f27451c53815fffc09705a790a93153579bc5",
-  "login": "tc39",
-  "number": 2883,
-  "ref": "NumericToRawBytes-byte-ordering",
-  "revs": [
-   {
-    "adate": "2022-09-01T11:23:46-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-09-01T11:23:46-06:00",
-    "hash": "397f27451c53815fffc09705a790a93153579bc5",
-    "parents": "a02f895f67acc60b05f6c91362071f1340df51fc",
-    "subject": "Editorial: in NumericToRawBytes, consolidate byte ordering decision"
-   }
-  ],
-  "title": "Editorial: in NumericToRawBytes, consolidate byte ordering decision",
-  "updated_at": "2022-09-01T17:26:13Z"
- },
- {
-  "base": "231f2709f4d888f13df2907e1b6b5cd5920e0ff3",
-  "created_at": "2022-08-31T17:36:15Z",
-  "head": "325272c50c2c4e383c3c36884ffec6332f511366",
-  "login": "tc39",
-  "number": 2880,
-  "ref": "dfn-charset",
-  "revs": [
-   {
-    "adate": "2022-09-27T19:01:02-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-09-27T19:01:02-06:00",
-    "hash": "325272c50c2c4e383c3c36884ffec6332f511366",
-    "parents": "6bb5083f3d83ee5ceb6aa8bff6dba6a40e168ba3",
-    "subject": "fixup IDs"
-   },
-   {
-    "adate": "2022-09-27T18:58:20-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-09-27T18:58:20-06:00",
-    "hash": "6bb5083f3d83ee5ceb6aa8bff6dba6a40e168ba3",
-    "parents": "463b38953d668b93f9bbb0e8f16b0e2fce0a65e8",
-    "subject": "rename Continuation to MatcherContinuation"
-   },
-   {
-    "adate": "2022-09-27T18:56:58-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-09-27T18:56:58-06:00",
-    "hash": "463b38953d668b93f9bbb0e8f16b0e2fce0a65e8",
-    "parents": "5967ab32c662099564fd8974781a32164a7a0f67",
-    "subject": "rename Range to CaptureRange"
-   },
-   {
-    "adate": "2022-09-06T11:05:44-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-09-27T17:55:18-06:00",
-    "hash": "5967ab32c662099564fd8974781a32164a7a0f67",
-    "parents": "bf3a040a0906462a9439653c83efd50897bc3e63",
-    "subject": "rename State to MatchState"
-   },
-   {
-    "adate": "2022-08-31T11:33:57-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-09-27T17:53:42-06:00",
-    "hash": "bf3a040a0906462a9439653c83efd50897bc3e63",
-    "parents": "231f2709f4d888f13df2907e1b6b5cd5920e0ff3",
-    "subject": "Editorial: dfn the Pattern data structures"
-   }
-  ],
-  "title": "Editorial: dfn the Pattern data structures",
-  "updated_at": "2022-09-28T01:01:12Z"
- },
- {
   "base": "231f2709f4d888f13df2907e1b6b5cd5920e0ff3",
   "created_at": "2022-08-30T16:04:08Z",
   "head": "f7f787c752b6cadb83fbceb94e2b468ae2a73db4",
@@ -466,42 +334,6 @@
   ],
   "title": "various editorial changes for comparisons",
   "updated_at": "2022-09-28T21:13:16Z"
- },
- {
-  "base": "8a6d0f17f8af8fc05cbe59aefc349fb598699398",
-  "created_at": "2022-08-30T16:03:26Z",
-  "head": "b45112deed76af92ece393f45ce4b16dfdcd1087",
-  "login": "tc39",
-  "number": 2876,
-  "ref": "backslash-d",
-  "revs": [
-   {
-    "adate": "2022-09-22T17:38:54-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-09-22T17:38:54-06:00",
-    "hash": "b45112deed76af92ece393f45ce4b16dfdcd1087",
-    "parents": "bda471140162e097d49289b9c74bb8f6e90b675b",
-    "subject": "subtract 0x30"
-   },
-   {
-    "adate": "2022-09-22T17:26:16-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-09-22T17:26:16-06:00",
-    "hash": "bda471140162e097d49289b9c74bb8f6e90b675b",
-    "parents": "21560b40bfbaeedf7806b5056f2a847b83ca1fd3",
-    "subject": "list all 10 digits"
-   },
-   {
-    "adate": "2022-08-30T09:54:48-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-09-22T17:18:25-06:00",
-    "hash": "21560b40bfbaeedf7806b5056f2a847b83ca1fd3",
-    "parents": "8a6d0f17f8af8fc05cbe59aefc349fb598699398",
-    "subject": "define `\\d` semantics in a similar way to `\\s`, avoiding char range"
-   }
-  ],
-  "title": "Editorial: define `\\d` semantics in a similar way to `\\s`, avoiding character range",
-  "updated_at": "2022-09-22T23:39:16Z"
  },
  {
   "base": "dceb9e45fa04ff37a213095e97a28da81bf213ec",
@@ -820,58 +652,6 @@
   "updated_at": "2022-06-16T13:50:22Z"
  },
  {
-  "base": "7ae3ecf219bfaa02bb7f6dd1a668f152ff53e846",
-  "created_at": "2022-05-24T18:00:30Z",
-  "head": "ead9d54ed3a435615058d4ea5476dd37080ee26e",
-  "login": "gibson042",
-  "number": 2783,
-  "ref": "2022-05-refactor-raw",
-  "revs": [
-   {
-    "adate": "2022-05-24T13:49:21-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-05-24T13:49:21-04:00",
-    "hash": "ead9d54ed3a435615058d4ea5476dd37080ee26e",
-    "parents": "7b4d42489f1743931b01c74feb8f25926d43c2bf",
-    "subject": "Editorial: Rename aliases in String.raw for clarity and consistency"
-   },
-   {
-    "adate": "2022-05-24T13:34:23-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-05-24T13:34:23-04:00",
-    "hash": "7b4d42489f1743931b01c74feb8f25926d43c2bf",
-    "parents": "c5251cb52d0239ad9d254e78a5bbd3e13237d3ed",
-    "subject": "Editorial: Clarify String.raw substitution handling"
-   },
-   {
-    "adate": "2022-05-24T13:29:41-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-05-24T13:29:41-04:00",
-    "hash": "c5251cb52d0239ad9d254e78a5bbd3e13237d3ed",
-    "parents": "60e3e24e3f794e9a08b7b205689b9ed15d5182c2",
-    "subject": "Editorial: Align String.raw with Array.prototype.join"
-   },
-   {
-    "adate": "2022-05-24T12:59:07-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-05-24T13:17:35-04:00",
-    "hash": "60e3e24e3f794e9a08b7b205689b9ed15d5182c2",
-    "parents": "df65df6c41e05a7a6ebc974314e8872026425a6d",
-    "subject": "Editorial: Refactor String.raw in anticipation of generalization"
-   },
-   {
-    "adate": "2022-05-24T12:50:19-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-05-24T12:50:19-04:00",
-    "hash": "df65df6c41e05a7a6ebc974314e8872026425a6d",
-    "parents": "7ae3ecf219bfaa02bb7f6dd1a668f152ff53e846",
-    "subject": "Editorial: Simplify String.raw by replacing List operations with String operations"
-   }
-  ],
-  "title": "Editorial: Refactor String.raw in anticipation of generalization",
-  "updated_at": "2022-05-24T18:01:25Z"
- },
- {
   "base": "1615b06abc65c678d4f58d4320adfd768e8e6cd7",
   "created_at": "2022-05-20T01:14:09Z",
   "head": "99ef07524080f1a0900d05f5718f33eda9724935",
@@ -1118,42 +898,6 @@
   ],
   "title": "Remove Job from Promise Resolve Functions",
   "updated_at": "2022-05-09T23:00:07Z"
- },
- {
-  "base": "c2edb328a457b4960fe174908efaaa0f31ea45a5",
-  "created_at": "2022-04-22T17:17:43Z",
-  "head": "db67bb8dae8b86a3ea2d6f618692b7e70a921a74",
-  "login": "gibson042",
-  "number": 2751,
-  "ref": "2022-04-operator-operand-agreement",
-  "revs": [
-   {
-    "adate": "2022-04-27T19:10:29-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-04-27T19:10:29-04:00",
-    "hash": "db67bb8dae8b86a3ea2d6f618692b7e70a921a74",
-    "parents": "e47fa579e1479e2721d8979a24ddb2f1ef47898a",
-    "subject": "Editorial: Accept editor suggestion"
-   },
-   {
-    "adate": "2022-04-22T13:13:45-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-04-22T13:13:45-04:00",
-    "hash": "e47fa579e1479e2721d8979a24ddb2f1ef47898a",
-    "parents": "2d84577d9fb46693657ec3ffb38a860eceb5efd1",
-    "subject": "Editorial: Reference IEEE 754 using their vocabulary"
-   },
-   {
-    "adate": "2022-04-22T13:12:05-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-04-22T13:12:05-04:00",
-    "hash": "2d84577d9fb46693657ec3ffb38a860eceb5efd1",
-    "parents": "c2edb328a457b4960fe174908efaaa0f31ea45a5",
-    "subject": "Editorial: Replace mixtures of spec aliases with language operators"
-   }
-  ],
-  "title": "Editorial: Replace mixtures of spec aliases with language operators",
-  "updated_at": "2022-04-27T23:10:57Z"
  },
  {
   "base": "7ae3ecf219bfaa02bb7f6dd1a668f152ff53e846",
