@@ -424,72 +424,80 @@
   "updated_at": "2022-07-21T23:23:54Z"
  },
  {
-  "base": "cf86f1cdc28e809170733d74ea64fd0f3dd79f78",
+  "base": "7043389bf409839a0129c89cd23a43ca02b25067",
   "created_at": "2022-07-20T22:28:25Z",
-  "head": "5d5368c89ff53674cab0334399b4727823450677",
+  "head": "51a5efd4651d4d3a554a005a6d6c6ab1c075113a",
   "login": "gibson042",
   "number": 2833,
   "ref": "2022-07-createbuiltinfunction-call-consistency",
   "revs": [
    {
+    "adate": "2022-09-30T15:03:30-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-09-30T15:03:30-04:00",
+    "hash": "51a5efd4651d4d3a554a005a6d6c6ab1c075113a",
+    "parents": "44141e3d32411c9d75e99febfa83798fbd7afe6b",
+    "subject": "Editorial: Remove circularity in the definition of function names"
+   },
+   {
     "adate": "2022-07-27T15:01:10-04:00",
     "author": "Richard Gibson",
-    "date": "2022-07-27T15:01:10-04:00",
-    "hash": "5d5368c89ff53674cab0334399b4727823450677",
-    "parents": "ca62e4a23476a258b8f5412d10226a95d52dddf4",
+    "date": "2022-09-30T14:10:07-04:00",
+    "hash": "44141e3d32411c9d75e99febfa83798fbd7afe6b",
+    "parents": "1f0d8ccda99bde63a82c37d91013a070bbd8a1e2",
     "subject": "Editorial: Clean up the text specifying implicit built-in function name"
    },
    {
     "adate": "2022-07-21T16:09:08-04:00",
     "author": "Richard Gibson",
-    "date": "2022-07-21T16:09:08-04:00",
-    "hash": "ca62e4a23476a258b8f5412d10226a95d52dddf4",
-    "parents": "d4cc65d69697908e20f7ec72f17fa4e4f133db2d",
+    "date": "2022-09-30T14:10:07-04:00",
+    "hash": "1f0d8ccda99bde63a82c37d91013a070bbd8a1e2",
+    "parents": "e993ca62c9e9a827ef9145deaa71bd1bfd4d92dc",
     "subject": "Editorial: Ensure a unique implicit name for built-in functions that are used for distinct properties"
    },
    {
     "adate": "2022-07-21T10:40:14-04:00",
     "author": "Richard Gibson",
-    "date": "2022-07-21T10:40:14-04:00",
-    "hash": "d4cc65d69697908e20f7ec72f17fa4e4f133db2d",
-    "parents": "0770c6f519ae7ae0ee80b1210d5e022649f24691",
+    "date": "2022-09-30T14:10:07-04:00",
+    "hash": "e993ca62c9e9a827ef9145deaa71bd1bfd4d92dc",
+    "parents": "51a178b076899b3279dc912e47243cf88ee3e832",
     "subject": "Editorial: Replace CreateBuiltinFunction name and prefix prose with a list of rules"
    },
    {
     "adate": "2022-07-21T10:20:45-04:00",
     "author": "Richard Gibson",
-    "date": "2022-07-21T10:20:45-04:00",
-    "hash": "0770c6f519ae7ae0ee80b1210d5e022649f24691",
-    "parents": "f2268424cfdc65406402ecf512193b8625df46ad",
+    "date": "2022-09-30T14:10:07-04:00",
+    "hash": "51a178b076899b3279dc912e47243cf88ee3e832",
+    "parents": "bc6d0a9b13a4f8542bc4387a1415075343731cc2",
     "subject": "Editorial: Reword the implicit naming of built-in functions"
    },
    {
     "adate": "2022-07-20T18:22:46-04:00",
     "author": "Richard Gibson",
-    "date": "2022-07-20T18:22:46-04:00",
-    "hash": "f2268424cfdc65406402ecf512193b8625df46ad",
-    "parents": "0c944760103d5e893bd1da15f07142aa56ac2305",
+    "date": "2022-09-30T14:07:57-04:00",
+    "hash": "bc6d0a9b13a4f8542bc4387a1415075343731cc2",
+    "parents": "6b2eb716178bc6b577ff4e796deb69e637701f3d",
     "subject": "Editorial: Specify _prefix_ for every call to CreateBuiltinFunction"
    },
    {
     "adate": "2022-07-20T18:21:25-04:00",
     "author": "Richard Gibson",
-    "date": "2022-07-20T18:21:25-04:00",
-    "hash": "0c944760103d5e893bd1da15f07142aa56ac2305",
-    "parents": "4c9228a0d4bbb6814e0cb94a1d198638092e60c5",
+    "date": "2022-09-30T14:07:57-04:00",
+    "hash": "6b2eb716178bc6b577ff4e796deb69e637701f3d",
+    "parents": "1d8475f257dcd544f80d6cf5f25f234c36141cbd",
     "subject": "Editorial: Remove a redundant reference to CreateBuiltinFunction"
    },
    {
     "adate": "2022-07-20T18:18:42-04:00",
     "author": "Richard Gibson",
-    "date": "2022-07-20T18:18:42-04:00",
-    "hash": "4c9228a0d4bbb6814e0cb94a1d198638092e60c5",
-    "parents": "cf86f1cdc28e809170733d74ea64fd0f3dd79f78",
+    "date": "2022-09-30T14:07:57-04:00",
+    "hash": "1d8475f257dcd544f80d6cf5f25f234c36141cbd",
+    "parents": "231f2709f4d888f13df2907e1b6b5cd5920e0ff3",
     "subject": "Editorial: Move CreateBuiltinFunction note into its description"
    }
   ],
   "title": "Editorial: Specify _prefix_ for non-specific uses of CreateBuiltinFunction",
-  "updated_at": "2022-07-27T19:01:40Z"
+  "updated_at": "2022-09-30T19:03:41Z"
  },
  {
   "base": "5f31dd64de39e1a4c74aeb9bde2887acadb5e5e9",
@@ -994,58 +1002,6 @@
   ],
   "title": "Normative: allow duplicate named capture groups",
   "updated_at": "2022-06-07T18:22:57Z"
- },
- {
-  "base": "d3e5d6b043a874fa03806342da199d4a5a5d1a49",
-  "created_at": "2022-03-24T21:56:34Z",
-  "head": "7043389bf409839a0129c89cd23a43ca02b25067",
-  "login": "gibson042",
-  "number": 2711,
-  "ref": "2022-03-string-value-consistency",
-  "revs": [
-   {
-    "adate": "2022-09-30T10:42:49-07:00",
-    "author": "Richard Gibson",
-    "date": "2022-09-30T10:42:49-07:00",
-    "hash": "7043389bf409839a0129c89cd23a43ca02b25067",
-    "parents": "3c4c2f5005cb62dceb1931f553d412d47fac362d",
-    "subject": "Editorial: Improve the description of CanonicalNumericIndexString (#2711)"
-   },
-   {
-    "adate": "2022-09-30T10:42:46-07:00",
-    "author": "Richard Gibson",
-    "date": "2022-09-30T10:42:46-07:00",
-    "hash": "3c4c2f5005cb62dceb1931f553d412d47fac362d",
-    "parents": "f068c5896b020039a9138f1e0511e75f3e9cbdef",
-    "subject": "Editorial: Replace \"String\" with \"String value\" in \u00abthe String *\"\u2026\"*\u00bb phrases (#2711)"
-   },
-   {
-    "adate": "2022-09-30T10:42:43-07:00",
-    "author": "Richard Gibson",
-    "date": "2022-09-30T10:42:43-07:00",
-    "hash": "f068c5896b020039a9138f1e0511e75f3e9cbdef",
-    "parents": "c29878f1a61e0632e153ed7f40263209d0a73862",
-    "subject": "Editorial: Clarify note about \"*default*\" (#2711)"
-   },
-   {
-    "adate": "2022-09-30T10:42:39-07:00",
-    "author": "Richard Gibson",
-    "date": "2022-09-30T10:42:39-07:00",
-    "hash": "c29878f1a61e0632e153ed7f40263209d0a73862",
-    "parents": "c98b5ffa170d27a6da3b068e54a3306c953374ba",
-    "subject": "Editorial: Explain the return value of Atomics.wait (#2711)"
-   },
-   {
-    "adate": "2022-09-30T10:42:33-07:00",
-    "author": "Richard Gibson",
-    "date": "2022-09-30T10:42:33-07:00",
-    "hash": "c98b5ffa170d27a6da3b068e54a3306c953374ba",
-    "parents": "d3e5d6b043a874fa03806342da199d4a5a5d1a49",
-    "subject": "Editorial: Remove \u00abthe [\u2026] String\u00bb before \u00ab*\"\u2026\"*\u00bb (#2711)"
-   }
-  ],
-  "title": "Editorial: Improve consistency of referring to String values",
-  "updated_at": "2022-09-30T17:43:11Z"
  },
  {
   "base": "5f31dd64de39e1a4c74aeb9bde2887acadb5e5e9",
