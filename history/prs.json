@@ -996,72 +996,56 @@
   "updated_at": "2022-06-07T18:22:57Z"
  },
  {
-  "base": "8d9522cc84c1bcedc49e4c9e8272b72615e407cf",
+  "base": "d3e5d6b043a874fa03806342da199d4a5a5d1a49",
   "created_at": "2022-03-24T21:56:34Z",
-  "head": "30b82629c7b5ba533b1f587943e7f5e5785a5193",
+  "head": "7043389bf409839a0129c89cd23a43ca02b25067",
   "login": "gibson042",
   "number": 2711,
   "ref": "2022-03-string-value-consistency",
   "revs": [
    {
-    "adate": "2022-05-25T10:26:05-04:00",
+    "adate": "2022-09-30T10:42:49-07:00",
     "author": "Richard Gibson",
-    "date": "2022-05-25T10:26:05-04:00",
-    "hash": "30b82629c7b5ba533b1f587943e7f5e5785a5193",
-    "parents": "b745b634a4241528a394ab18ba6c6fdd5bb229c5",
-    "subject": "Editorial: Accept suggestions"
+    "date": "2022-09-30T10:42:49-07:00",
+    "hash": "7043389bf409839a0129c89cd23a43ca02b25067",
+    "parents": "3c4c2f5005cb62dceb1931f553d412d47fac362d",
+    "subject": "Editorial: Improve the description of CanonicalNumericIndexString (#2711)"
    },
    {
-    "adate": "2022-03-24T17:32:05-04:00",
+    "adate": "2022-09-30T10:42:46-07:00",
     "author": "Richard Gibson",
-    "date": "2022-03-24T18:00:00-04:00",
-    "hash": "b745b634a4241528a394ab18ba6c6fdd5bb229c5",
-    "parents": "aba269fb00bb003f5abb06923c37f0c0ae6c9e8e",
-    "subject": "Editorial: Improve the description of CanonicalNumericIndexString"
+    "date": "2022-09-30T10:42:46-07:00",
+    "hash": "3c4c2f5005cb62dceb1931f553d412d47fac362d",
+    "parents": "f068c5896b020039a9138f1e0511e75f3e9cbdef",
+    "subject": "Editorial: Replace \"String\" with \"String value\" in \u00abthe String *\"\u2026\"*\u00bb phrases (#2711)"
    },
    {
-    "adate": "2022-03-24T17:22:33-04:00",
+    "adate": "2022-09-30T10:42:43-07:00",
     "author": "Richard Gibson",
-    "date": "2022-03-24T17:22:33-04:00",
-    "hash": "aba269fb00bb003f5abb06923c37f0c0ae6c9e8e",
-    "parents": "226fcd4964027ecebbd498678069f39ba2a736f3",
-    "subject": "Editorial: Correct the description of CanonicalNumericIndexString"
+    "date": "2022-09-30T10:42:43-07:00",
+    "hash": "f068c5896b020039a9138f1e0511e75f3e9cbdef",
+    "parents": "c29878f1a61e0632e153ed7f40263209d0a73862",
+    "subject": "Editorial: Clarify note about \"*default*\" (#2711)"
    },
    {
-    "adate": "2022-03-24T17:19:33-04:00",
+    "adate": "2022-09-30T10:42:39-07:00",
     "author": "Richard Gibson",
-    "date": "2022-03-24T17:19:33-04:00",
-    "hash": "226fcd4964027ecebbd498678069f39ba2a736f3",
-    "parents": "cef8ab28fb70cd0572ca36e0046764f95e4c17b3",
-    "subject": "Editorial: Replace \"String\" with \"String value\" in \u00abthe String *\"\u2026\"*\u00bb phrases"
+    "date": "2022-09-30T10:42:39-07:00",
+    "hash": "c29878f1a61e0632e153ed7f40263209d0a73862",
+    "parents": "c98b5ffa170d27a6da3b068e54a3306c953374ba",
+    "subject": "Editorial: Explain the return value of Atomics.wait (#2711)"
    },
    {
-    "adate": "2022-03-24T17:17:36-04:00",
+    "adate": "2022-09-30T10:42:33-07:00",
     "author": "Richard Gibson",
-    "date": "2022-03-24T17:18:44-04:00",
-    "hash": "cef8ab28fb70cd0572ca36e0046764f95e4c17b3",
-    "parents": "cbcb43a25f3919d932a11802200868de89103c08",
-    "subject": "Editorial: Clarify note about \"*default*\""
-   },
-   {
-    "adate": "2022-03-24T11:53:55-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-03-24T11:53:55-04:00",
-    "hash": "cbcb43a25f3919d932a11802200868de89103c08",
-    "parents": "2ec1ada1f0ed135138fcf1da0c8aac453c9ce0f3",
-    "subject": "Editorial: Explain the return value of Atomics.wait"
-   },
-   {
-    "adate": "2022-03-24T11:51:24-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-03-24T11:51:24-04:00",
-    "hash": "2ec1ada1f0ed135138fcf1da0c8aac453c9ce0f3",
-    "parents": "8d9522cc84c1bcedc49e4c9e8272b72615e407cf",
-    "subject": "Editorial: Remove \u00abthe [\u2026] String\u00bb before \u00ab*\"\u2026\"*\u00bb"
+    "date": "2022-09-30T10:42:33-07:00",
+    "hash": "c98b5ffa170d27a6da3b068e54a3306c953374ba",
+    "parents": "d3e5d6b043a874fa03806342da199d4a5a5d1a49",
+    "subject": "Editorial: Remove \u00abthe [\u2026] String\u00bb before \u00ab*\"\u2026\"*\u00bb (#2711)"
    }
   ],
   "title": "Editorial: Improve consistency of referring to String values",
-  "updated_at": "2022-05-25T14:26:13Z"
+  "updated_at": "2022-09-30T17:43:11Z"
  },
  {
   "base": "5f31dd64de39e1a4c74aeb9bde2887acadb5e5e9",
@@ -1426,26 +1410,6 @@
   ],
   "title": "Normative: Close sync iterator when async wrapper yields rejection",
   "updated_at": "2022-01-26T00:56:42Z"
- },
- {
-  "base": "7575f745f26e9f66b2be481144f37ac4a8a9f1c4",
-  "created_at": "2021-11-26T10:11:41Z",
-  "head": "10fba2d1d3f40325245e838e97ca86156863aa82",
-  "login": "ExE-Boss",
-  "number": 2589,
-  "ref": "editorial/structured-headers/specification-types",
-  "revs": [
-   {
-    "adate": "2021-11-26T11:00:00+01:00",
-    "author": "ExE Boss",
-    "date": "2022-02-28T18:34:14+01:00",
-    "hash": "10fba2d1d3f40325245e838e97ca86156863aa82",
-    "parents": "7575f745f26e9f66b2be481144f37ac4a8a9f1c4",
-    "subject": "Editorial: Complete\u00a0structured\u00a0headers in\u00a0\u201cSpecification\u00a0Types\u201d"
-   }
-  ],
-  "title": "Editorial: Complete\u00a0structured\u00a0headers in\u00a0\u201cSpecification\u00a0Types\u201d",
-  "updated_at": "2022-02-28T17:46:04Z"
  },
  {
   "base": "267fdbdc716677bc9934906a498cf9bad4bfb70d",
