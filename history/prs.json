@@ -61,26 +61,6 @@
  },
  {
   "base": "231f2709f4d888f13df2907e1b6b5cd5920e0ff3",
-  "created_at": "2022-09-27T20:46:32Z",
-  "head": "8d5e5ca90e0f53fa0153ae7daab54b7af4bf544b",
-  "login": "gibson042",
-  "number": 2918,
-  "ref": "2022-09-substring-matching-indices",
-  "revs": [
-   {
-    "adate": "2022-09-27T16:45:18-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-09-27T16:45:18-04:00",
-    "hash": "8d5e5ca90e0f53fa0153ae7daab54b7af4bf544b",
-    "parents": "231f2709f4d888f13df2907e1b6b5cd5920e0ff3",
-    "subject": "Editorial: Add a missing check in String.prototype.substring"
-   }
-  ],
-  "title": "Editorial: Add a missing check in String.prototype.substring",
-  "updated_at": "2022-09-27T20:46:32Z"
- },
- {
-  "base": "231f2709f4d888f13df2907e1b6b5cd5920e0ff3",
   "created_at": "2022-09-27T20:40:10Z",
   "head": "b3d9d85d05317eb94fe631951e7c1737780abbf4",
   "login": "gibson042",
@@ -1552,9 +1532,9 @@
   "updated_at": "2021-07-25T15:08:46Z"
  },
  {
-  "base": "8a6d0f17f8af8fc05cbe59aefc349fb598699398",
+  "base": "d3e5d6b043a874fa03806342da199d4a5a5d1a49",
   "created_at": "2021-06-27T15:32:45Z",
-  "head": "7d4b5e028f62e2365dd6dc14ef44134f2ec59ade",
+  "head": "972db1268203722b906129e59c14272ef88d8619",
   "login": "jmdyck",
   "number": 2445,
   "ref": "annex_B_pattern_ambig",
@@ -1562,14 +1542,14 @@
    {
     "adate": "2021-06-27T10:54:12-04:00",
     "author": "Michael Dyck",
-    "date": "2022-09-22T21:54:08-04:00",
-    "hash": "7d4b5e028f62e2365dd6dc14ef44134f2ec59ade",
-    "parents": "8a6d0f17f8af8fc05cbe59aefc349fb598699398",
+    "date": "2022-09-29T19:32:13-04:00",
+    "hash": "972db1268203722b906129e59c14272ef88d8619",
+    "parents": "d3e5d6b043a874fa03806342da199d4a5a5d1a49",
     "subject": "Editorial: Eliminate order-disambiguation from Annex B Pattern-grammar"
    }
   ],
   "title": "Editorial: Eliminate order-disambiguation from Annex B Pattern-grammar",
-  "updated_at": "2022-09-23T01:55:18Z"
+  "updated_at": "2022-09-29T23:33:41Z"
  },
  {
   "base": "61cc3297c96764a256b02b90005550607371a1d1",
@@ -2868,9 +2848,9 @@
   "updated_at": "2021-09-29T21:52:34Z"
  },
  {
-  "base": "3cf8e30e47dd1f010b7d86929670f1e8c51ecc43",
+  "base": "d3e5d6b043a874fa03806342da199d4a5a5d1a49",
   "created_at": "2019-07-13T02:30:44Z",
-  "head": "c47c71c921fce08a13b666bd0cfd294fc786da33",
+  "head": "b711495f1533c891d259803cad348e553110d432",
   "login": "jmdyck",
   "number": 1623,
   "ref": "index_strings",
@@ -2878,38 +2858,38 @@
    {
     "adate": "2019-07-12T11:59:54-04:00",
     "author": "Michael Dyck",
-    "date": "2022-09-02T21:57:09-04:00",
-    "hash": "c47c71c921fce08a13b666bd0cfd294fc786da33",
-    "parents": "297e8cf3a2dde7117d8ab7b01fb29165ccdff92d",
+    "date": "2022-09-29T19:18:58-04:00",
+    "hash": "b711495f1533c891d259803cad348e553110d432",
+    "parents": "2c5e17c65d717b9c4e91241ae3172aa97cea14bc",
     "subject": "Editorial: some minor rewordings"
    },
    {
     "adate": "2019-07-12T11:12:43-04:00",
     "author": "Michael Dyck",
-    "date": "2022-09-02T21:57:08-04:00",
-    "hash": "297e8cf3a2dde7117d8ab7b01fb29165ccdff92d",
-    "parents": "b23171b11e0e58bdcc9aa67297fbe5d6fb80889c",
+    "date": "2022-09-29T19:17:56-04:00",
+    "hash": "2c5e17c65d717b9c4e91241ae3172aa97cea14bc",
+    "parents": "7043393697bff1e3b94819f95db656a4a178e6b9",
     "subject": "Editorial: Replace \"array index\" with \"Uint32-string\""
    },
    {
     "adate": "2019-07-12T10:23:31-04:00",
     "author": "Michael Dyck",
-    "date": "2022-09-02T21:55:36-04:00",
-    "hash": "b23171b11e0e58bdcc9aa67297fbe5d6fb80889c",
-    "parents": "9068b6362c7cc5355b3b295b9242e8fe9604dca3",
+    "date": "2022-09-29T19:16:12-04:00",
+    "hash": "7043393697bff1e3b94819f95db656a4a178e6b9",
+    "parents": "bd8840778da3ecb9b53e7dc91d1c39a42752f522",
     "subject": "Editorial: Replace \"integer index\" with \"Uint53-string\""
    },
    {
     "adate": "2019-07-12T21:58:00-04:00",
     "author": "Michael Dyck",
-    "date": "2022-09-02T21:53:19-04:00",
-    "hash": "9068b6362c7cc5355b3b295b9242e8fe9604dca3",
-    "parents": "3cf8e30e47dd1f010b7d86929670f1e8c51ecc43",
+    "date": "2022-09-29T19:16:12-04:00",
+    "hash": "bd8840778da3ecb9b53e7dc91d1c39a42752f522",
+    "parents": "d3e5d6b043a874fa03806342da199d4a5a5d1a49",
     "subject": "Editorial: Fix wording in Note for Arguments exotic objects"
    }
   ],
   "title": "Editorial: Replace terms \"integer index\" and \"array index\"",
-  "updated_at": "2022-09-03T02:47:46Z"
+  "updated_at": "2022-09-29T23:21:43Z"
  },
  {
   "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
