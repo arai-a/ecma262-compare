@@ -2,11 +2,19 @@
  {
   "base": "7043389bf409839a0129c89cd23a43ca02b25067",
   "created_at": "2022-10-06T16:30:36Z",
-  "head": "8b11590316aea7b08f5cd4eee31dfac80ffca89e",
+  "head": "793d96fc9fd1221951036668f22f173104014d89",
   "login": "gibson042",
   "number": 2928,
   "ref": "gh-2927-abbreviate-multiple-code-points",
   "revs": [
+   {
+    "adate": "2022-10-07T12:07:24-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-10-07T12:07:24-04:00",
+    "hash": "793d96fc9fd1221951036668f22f173104014d89",
+    "parents": "8b11590316aea7b08f5cd4eee31dfac80ffca89e",
+    "subject": "Editorial: Accept grammar suggestion"
+   },
    {
     "adate": "2022-10-06T12:28:48-04:00",
     "author": "Richard Gibson",
@@ -41,7 +49,7 @@
    }
   ],
   "title": "Editorial: Document use of <ABBREV> grammar covering multiple code points",
-  "updated_at": "2022-10-06T16:30:36Z"
+  "updated_at": "2022-10-07T16:07:38Z"
  },
  {
   "base": "7043389bf409839a0129c89cd23a43ca02b25067",
