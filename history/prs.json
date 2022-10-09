@@ -1,23 +1,23 @@
 [
  {
-  "base": "43fd5f25357333d8340bfb486b8f0738e6d0d0cb",
-  "created_at": "2022-10-06T16:30:36Z",
-  "head": "442be61b5a229986649b127da09eeeada56fef72",
-  "login": "gibson042",
-  "number": 2928,
-  "ref": "gh-2927-abbreviate-multiple-code-points",
+  "base": "442be61b5a229986649b127da09eeeada56fef72",
+  "created_at": "2022-10-09T20:06:53Z",
+  "head": "d79ed0a42e4abad6390263d807dec25b7f86a9e0",
+  "login": "tc39",
+  "number": 2931,
+  "ref": "evaluation-empty-static-block",
   "revs": [
    {
-    "adate": "2022-10-09T12:42:34-07:00",
-    "author": "Richard Gibson",
-    "date": "2022-10-09T12:42:34-07:00",
-    "hash": "442be61b5a229986649b127da09eeeada56fef72",
-    "parents": "43fd5f25357333d8340bfb486b8f0738e6d0d0cb",
-    "subject": "Editorial: Document use of <ABBREV> grammar covering multiple code points (#2928)"
+    "adate": "2022-10-09T12:41:43-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2022-10-09T13:02:52-07:00",
+    "hash": "d79ed0a42e4abad6390263d807dec25b7f86a9e0",
+    "parents": "7043389bf409839a0129c89cd23a43ca02b25067",
+    "subject": "Editorial: EvaluateClassStaticBlockBody cannot throw during function instantiation"
    }
   ],
-  "title": "Editorial: Document use of <ABBREV> grammar covering multiple code points",
-  "updated_at": "2022-10-09T19:42:48Z"
+  "title": "Editorial: EvaluateClassStaticBlockBody cannot throw during function instantiation",
+  "updated_at": "2022-10-09T20:09:20Z"
  },
  {
   "base": "7043389bf409839a0129c89cd23a43ca02b25067",
