@@ -1,55 +1,23 @@
 [
  {
-  "base": "7043389bf409839a0129c89cd23a43ca02b25067",
+  "base": "43fd5f25357333d8340bfb486b8f0738e6d0d0cb",
   "created_at": "2022-10-06T16:30:36Z",
-  "head": "793d96fc9fd1221951036668f22f173104014d89",
+  "head": "442be61b5a229986649b127da09eeeada56fef72",
   "login": "gibson042",
   "number": 2928,
   "ref": "gh-2927-abbreviate-multiple-code-points",
   "revs": [
    {
-    "adate": "2022-10-07T12:07:24-04:00",
+    "adate": "2022-10-09T12:42:34-07:00",
     "author": "Richard Gibson",
-    "date": "2022-10-07T12:07:24-04:00",
-    "hash": "793d96fc9fd1221951036668f22f173104014d89",
-    "parents": "8b11590316aea7b08f5cd4eee31dfac80ffca89e",
-    "subject": "Editorial: Accept grammar suggestion"
-   },
-   {
-    "adate": "2022-10-06T12:28:48-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-10-06T12:28:48-04:00",
-    "hash": "8b11590316aea7b08f5cd4eee31dfac80ffca89e",
-    "parents": "cb2f86baec108518d15b2a945949ac8e23767887",
-    "subject": "Editorial: Align table data with headings"
-   },
-   {
-    "adate": "2022-10-06T12:28:02-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-10-06T12:28:02-04:00",
-    "hash": "cb2f86baec108518d15b2a945949ac8e23767887",
-    "parents": "cb5d9c54fe829419c7ab1b342dcb6288aa6c0ccd",
-    "subject": "Editorial: Use more accurate Unicode vocabulary"
-   },
-   {
-    "adate": "2022-10-06T12:27:32-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-10-06T12:27:32-04:00",
-    "hash": "cb5d9c54fe829419c7ab1b342dcb6288aa6c0ccd",
-    "parents": "3cd781835544631cc324fd4e2f805c7021921b3a",
-    "subject": "Editorial: Add missing reference"
-   },
-   {
-    "adate": "2022-10-06T12:26:15-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-10-06T12:26:34-04:00",
-    "hash": "3cd781835544631cc324fd4e2f805c7021921b3a",
-    "parents": "7043389bf409839a0129c89cd23a43ca02b25067",
-    "subject": "Editorial: Document use of <ABBREV> grammar covering multiple code points"
+    "date": "2022-10-09T12:42:34-07:00",
+    "hash": "442be61b5a229986649b127da09eeeada56fef72",
+    "parents": "43fd5f25357333d8340bfb486b8f0738e6d0d0cb",
+    "subject": "Editorial: Document use of <ABBREV> grammar covering multiple code points (#2928)"
    }
   ],
   "title": "Editorial: Document use of <ABBREV> grammar covering multiple code points",
-  "updated_at": "2022-10-07T16:07:38Z"
+  "updated_at": "2022-10-09T19:42:48Z"
  },
  {
   "base": "7043389bf409839a0129c89cd23a43ca02b25067",
@@ -774,58 +742,6 @@
   ],
   "title": "Editorial: Add an optional type restriction to IterableToList",
   "updated_at": "2022-06-16T13:50:22Z"
- },
- {
-  "base": "7043389bf409839a0129c89cd23a43ca02b25067",
-  "created_at": "2022-05-20T01:14:09Z",
-  "head": "7e2fc841c23f024ec86096f090b6f8b55abbeac2",
-  "login": "ptomato",
-  "number": 2781,
-  "ref": "default-time-zone",
-  "revs": [
-   {
-    "adate": "2022-10-06T14:10:31-07:00",
-    "author": "Philip Chimento",
-    "date": "2022-10-06T14:10:31-07:00",
-    "hash": "7e2fc841c23f024ec86096f090b6f8b55abbeac2",
-    "parents": "9a8741c8e1ff523eb2156836719e8feacce6d990",
-    "subject": "fixup: Address review comments"
-   },
-   {
-    "adate": "2022-09-26T09:31:14-07:00",
-    "author": "Philip Chimento",
-    "date": "2022-10-06T14:05:53-07:00",
-    "hash": "9a8741c8e1ff523eb2156836719e8feacce6d990",
-    "parents": "7ccc1f57d4e35e72e6f89f3e7142cf615e9e6f92",
-    "subject": "fixup: Address review comments"
-   },
-   {
-    "adate": "2022-09-23T14:47:42-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2022-10-06T14:05:53-07:00",
-    "hash": "7ccc1f57d4e35e72e6f89f3e7142cf615e9e6f92",
-    "parents": "df35e7fc8999db66da8166e76528c02b0578d306",
-    "subject": "fixup: use StringToNumber"
-   },
-   {
-    "adate": "2022-09-20T16:35:44-07:00",
-    "author": "Philip Chimento",
-    "date": "2022-10-06T14:05:53-07:00",
-    "hash": "df35e7fc8999db66da8166e76528c02b0578d306",
-    "parents": "8efa2cbc245a88026a946a4076252d9590cbec5c",
-    "subject": "(squash before merging) Address code review comments"
-   },
-   {
-    "adate": "2022-05-19T18:02:22-07:00",
-    "author": "Philip Chimento",
-    "date": "2022-10-06T14:05:52-07:00",
-    "hash": "8efa2cbc245a88026a946a4076252d9590cbec5c",
-    "parents": "7043389bf409839a0129c89cd23a43ca02b25067",
-    "subject": "Normative: Use DefaultTimeZone to get the local time zone for Date"
-   }
-  ],
-  "title": "Normative: Use DefaultTimeZone to get the local time zone for Date",
-  "updated_at": "2022-10-06T21:10:45Z"
  },
  {
   "base": "7c120199bf159960d46e216aa090887c1e2e584c",
