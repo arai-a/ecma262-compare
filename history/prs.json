@@ -118,11 +118,27 @@
  {
   "base": "231f2709f4d888f13df2907e1b6b5cd5920e0ff3",
   "created_at": "2022-09-27T20:40:10Z",
-  "head": "b3d9d85d05317eb94fe631951e7c1737780abbf4",
+  "head": "37cd57753aad759e8971a5f6de1c7297cbe67c2c",
   "login": "gibson042",
   "number": 2917,
   "ref": "2022-09-more-clamping",
   "revs": [
+   {
+    "adate": "2022-10-11T11:20:54-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-10-11T11:20:54-04:00",
+    "hash": "37cd57753aad759e8971a5f6de1c7297cbe67c2c",
+    "parents": "6ede16da04f6f5e5214476aa8e676942b1fa7535",
+    "subject": "Editorial: Introduce ToAbsoluteIndex for `at` methods"
+   },
+   {
+    "adate": "2022-10-11T10:54:51-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-10-11T10:54:51-04:00",
+    "hash": "6ede16da04f6f5e5214476aa8e676942b1fa7535",
+    "parents": "b3d9d85d05317eb94fe631951e7c1737780abbf4",
+    "subject": "Editorial: Revert refactoring of F.p.bind steps"
+   },
    {
     "adate": "2022-09-27T20:22:59-04:00",
     "author": "Richard Gibson",
@@ -149,7 +165,7 @@
    }
   ],
   "title": "Editorial: Make better use of clamping",
-  "updated_at": "2022-09-28T00:23:20Z"
+  "updated_at": "2022-10-11T15:21:55Z"
  },
  {
   "base": "231f2709f4d888f13df2907e1b6b5cd5920e0ff3",
