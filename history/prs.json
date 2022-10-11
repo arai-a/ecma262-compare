@@ -1,5 +1,33 @@
 [
  {
+  "base": "5d5acc928bccf1100daf1c8a156d1ee09723429d",
+  "created_at": "2022-10-11T04:47:36Z",
+  "head": "14c1abd66eb9201fb8ea0fe5789bc44e3f9480fb",
+  "login": "jmdyck",
+  "number": 2933,
+  "ref": "quick_fix",
+  "revs": [
+   {
+    "adate": "2022-10-11T00:41:10-04:00",
+    "author": "Michael Dyck",
+    "date": "2022-10-11T00:41:10-04:00",
+    "hash": "14c1abd66eb9201fb8ea0fe5789bc44e3f9480fb",
+    "parents": "850f5a712bf148fce1f909891bcc2af8c29c5d96",
+    "subject": "Editorial: Tweaks re UTCOffset"
+   },
+   {
+    "adate": "2022-10-10T20:50:04-04:00",
+    "author": "Michael Dyck",
+    "date": "2022-10-10T20:50:04-04:00",
+    "hash": "850f5a712bf148fce1f909891bcc2af8c29c5d96",
+    "parents": "5d5acc928bccf1100daf1c8a156d1ee09723429d",
+    "subject": "Editorial: Tweak the preamble of Atomics.wait"
+   }
+  ],
+  "title": "Editorial: Quick fixes",
+  "updated_at": "2022-10-11T05:16:22Z"
+ },
+ {
   "base": "442be61b5a229986649b127da09eeeada56fef72",
   "created_at": "2022-10-09T20:06:53Z",
   "head": "d79ed0a42e4abad6390263d807dec25b7f86a9e0",
