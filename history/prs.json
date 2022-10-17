@@ -394,11 +394,19 @@
  {
   "base": "7043389bf409839a0129c89cd23a43ca02b25067",
   "created_at": "2022-09-15T14:35:44Z",
-  "head": "389bf4fb0764db6f55113e39aa812c91fc456b03",
+  "head": "ab1935f5a2279aabd7f4ca1905fd918dce03122c",
   "login": "nicolo-ribaudo",
   "number": 2905,
   "ref": "refactor-import-host-hooks",
   "revs": [
+   {
+    "adate": "2022-10-17T17:53:50+02:00",
+    "author": "Nicol\u00f2 Ribaudo",
+    "date": "2022-10-17T17:53:50+02:00",
+    "hash": "ab1935f5a2279aabd7f4ca1905fd918dce03122c",
+    "parents": "389bf4fb0764db6f55113e39aa812c91fc456b03",
+    "subject": "Add missing _state_.[[IsLoading]] check"
+   },
    {
     "adate": "2022-10-07T11:00:38+02:00",
     "author": "Nicol\u00f2 Ribaudo",
@@ -441,7 +449,7 @@
    }
   ],
   "title": "Layering: Add HostLoadImportedModule hook",
-  "updated_at": "2022-10-07T09:06:24Z"
+  "updated_at": "2022-10-17T15:53:58Z"
  },
  {
   "base": "2c78e6f6b5bc6bfbf79dd8a12a9593e5b57afcd2",
