@@ -142,11 +142,19 @@
  {
   "base": "d3e5d6b043a874fa03806342da199d4a5a5d1a49",
   "created_at": "2022-09-29T13:14:53Z",
-  "head": "913fc80affe5a290aa31fb4bcd022dbc58a69409",
+  "head": "4e3c1f45cff654e7c4303e322cf91daf97140d89",
   "login": "jhnaldo",
   "number": 2923,
   "ref": "fix-type-AddEntriesFromIterable",
   "revs": [
+   {
+    "adate": "2022-10-19T16:15:14-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2022-10-19T16:15:14-07:00",
+    "hash": "4e3c1f45cff654e7c4303e322cf91daf97140d89",
+    "parents": "913fc80affe5a290aa31fb4bcd022dbc58a69409",
+    "subject": "Editorial: move adder callability check out of AddEntriesFromIterable"
+   },
    {
     "adate": "2022-09-29T22:10:21+09:00",
     "author": "jhnaldo",
@@ -157,7 +165,7 @@
    }
   ],
   "title": "Fixed bugs in parameter type of AddEntriesFromIterable algorithm",
-  "updated_at": "2022-09-29T13:14:53Z"
+  "updated_at": "2022-10-19T23:22:04Z"
  },
  {
   "base": "231f2709f4d888f13df2907e1b6b5cd5920e0ff3",
