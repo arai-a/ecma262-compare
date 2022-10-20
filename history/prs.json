@@ -140,34 +140,6 @@
   "updated_at": "2022-09-29T13:38:14Z"
  },
  {
-  "base": "d3e5d6b043a874fa03806342da199d4a5a5d1a49",
-  "created_at": "2022-09-29T13:14:53Z",
-  "head": "4e3c1f45cff654e7c4303e322cf91daf97140d89",
-  "login": "jhnaldo",
-  "number": 2923,
-  "ref": "fix-type-AddEntriesFromIterable",
-  "revs": [
-   {
-    "adate": "2022-10-19T16:15:14-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2022-10-19T16:15:14-07:00",
-    "hash": "4e3c1f45cff654e7c4303e322cf91daf97140d89",
-    "parents": "913fc80affe5a290aa31fb4bcd022dbc58a69409",
-    "subject": "Editorial: move adder callability check out of AddEntriesFromIterable"
-   },
-   {
-    "adate": "2022-09-29T22:10:21+09:00",
-    "author": "jhnaldo",
-    "date": "2022-09-29T22:10:21+09:00",
-    "hash": "913fc80affe5a290aa31fb4bcd022dbc58a69409",
-    "parents": "d3e5d6b043a874fa03806342da199d4a5a5d1a49",
-    "subject": "Fixed bugs in parameter type of AddEntriesFromIterable algorithm"
-   }
-  ],
-  "title": "Fixed bugs in parameter type of AddEntriesFromIterable algorithm",
-  "updated_at": "2022-10-19T23:22:04Z"
- },
- {
   "base": "231f2709f4d888f13df2907e1b6b5cd5920e0ff3",
   "created_at": "2022-09-27T20:40:10Z",
   "head": "df66badf1a031727539e9ad982adac17fd2a67b0",
@@ -272,64 +244,72 @@
   "updated_at": "2022-09-27T18:11:19Z"
  },
  {
-  "base": "7043389bf409839a0129c89cd23a43ca02b25067",
+  "base": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
   "created_at": "2022-09-15T14:35:44Z",
-  "head": "ab1935f5a2279aabd7f4ca1905fd918dce03122c",
+  "head": "24f5631ca109f14c7efe545ee1e4549a8123811d",
   "login": "nicolo-ribaudo",
   "number": 2905,
   "ref": "refactor-import-host-hooks",
   "revs": [
    {
+    "adate": "2022-10-20T16:13:19+02:00",
+    "author": "Nicol\u00f2 Ribaudo",
+    "date": "2022-10-20T16:13:19+02:00",
+    "hash": "24f5631ca109f14c7efe545ee1e4549a8123811d",
+    "parents": "2f4125f464b7ca446ff6af1640b5caf2022ecbf7",
+    "subject": "syg review + add missing \"Return ~unused~\" steps"
+   },
+   {
     "adate": "2022-10-17T17:53:50+02:00",
     "author": "Nicol\u00f2 Ribaudo",
-    "date": "2022-10-17T17:53:50+02:00",
-    "hash": "ab1935f5a2279aabd7f4ca1905fd918dce03122c",
-    "parents": "389bf4fb0764db6f55113e39aa812c91fc456b03",
+    "date": "2022-10-20T15:41:07+02:00",
+    "hash": "2f4125f464b7ca446ff6af1640b5caf2022ecbf7",
+    "parents": "16212e49d3f448ad061dda184ade71dc845537a0",
     "subject": "Add missing _state_.[[IsLoading]] check"
    },
    {
     "adate": "2022-10-07T11:00:38+02:00",
     "author": "Nicol\u00f2 Ribaudo",
-    "date": "2022-10-07T11:03:46+02:00",
-    "hash": "389bf4fb0764db6f55113e39aa812c91fc456b03",
-    "parents": "e5360dac04ef22043e5e9c41a7abaeb3a71c9e91",
+    "date": "2022-10-20T15:41:06+02:00",
+    "hash": "16212e49d3f448ad061dda184ade71dc845537a0",
+    "parents": "4f19f8c2a76ef12d4075decdd4d78c1f8ab306d1",
     "subject": "jmdyck review"
    },
    {
     "adate": "2022-10-05T19:44:10+02:00",
     "author": "Nicol\u00f2 Ribaudo",
-    "date": "2022-10-05T20:17:26+02:00",
-    "hash": "e5360dac04ef22043e5e9c41a7abaeb3a71c9e91",
-    "parents": "891949f11401d2311f56b8bee94d11831ae247a4",
+    "date": "2022-10-20T15:41:06+02:00",
+    "hash": "4f19f8c2a76ef12d4075decdd4d78c1f8ab306d1",
+    "parents": "273a5848b5d5bc9b176526d69fa19b3b9a4deaa1",
     "subject": "guybedford review"
    },
    {
     "adate": "2022-10-03T19:23:17+02:00",
     "author": "Nicol\u00f2 Ribaudo",
-    "date": "2022-10-03T19:23:17+02:00",
-    "hash": "891949f11401d2311f56b8bee94d11831ae247a4",
-    "parents": "d39362251cd0155dbb94d2ad675df97f76a15366",
+    "date": "2022-10-20T15:41:06+02:00",
+    "hash": "273a5848b5d5bc9b176526d69fa19b3b9a4deaa1",
+    "parents": "fdf6375f315286e994a159e57ea793c1b4eec2e9",
     "subject": "html review: FinishLoadImportedModule -> FinishLoadingImportedModule"
    },
    {
     "adate": "2022-09-20T13:00:11+02:00",
     "author": "Nicol\u00f2 Ribaudo",
-    "date": "2022-10-03T19:22:38+02:00",
-    "hash": "d39362251cd0155dbb94d2ad675df97f76a15366",
-    "parents": "1514761bbb97f98f32dd8386424dd3f23d00c276",
+    "date": "2022-10-20T15:41:05+02:00",
+    "hash": "fdf6375f315286e994a159e57ea793c1b4eec2e9",
+    "parents": "9aaeb9619d8824b338ae4295844a69d88d5b756b",
     "subject": "fix(JWK review): some wrong variable names"
    },
    {
     "adate": "2022-09-15T23:21:25+09:00",
     "author": "Nicol\u00f2 Ribaudo",
-    "date": "2022-10-03T19:22:36+02:00",
-    "hash": "1514761bbb97f98f32dd8386424dd3f23d00c276",
-    "parents": "7043389bf409839a0129c89cd23a43ca02b25067",
+    "date": "2022-10-20T15:41:05+02:00",
+    "hash": "9aaeb9619d8824b338ae4295844a69d88d5b756b",
+    "parents": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
     "subject": "Layering: Add HostLoadImportedModule hook"
    }
   ],
   "title": "Layering: Add HostLoadImportedModule hook",
-  "updated_at": "2022-10-17T15:53:58Z"
+  "updated_at": "2022-10-20T14:24:19Z"
  },
  {
   "base": "dccde53698ab1ddf942fcd571fe674418ee2a955",
@@ -454,26 +434,6 @@
   ],
   "title": "Editorial: Factor out ArrayFindViaPredicate & TypedArrayFindViaPredicate",
   "updated_at": "2022-09-05T18:50:04Z"
- },
- {
-  "base": "dccde53698ab1ddf942fcd571fe674418ee2a955",
-  "created_at": "2022-09-05T15:46:53Z",
-  "head": "f3bc5bcfc71625738eb4a1448a292017d79629dd",
-  "login": "tc39",
-  "number": 2896,
-  "ref": "combine-has-call-in-tail-position",
-  "revs": [
-   {
-    "adate": "2022-09-05T08:43:52-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2022-10-19T18:50:46-07:00",
-    "hash": "f3bc5bcfc71625738eb4a1448a292017d79629dd",
-    "parents": "dccde53698ab1ddf942fcd571fe674418ee2a955",
-    "subject": "Editorial: combine the two subclauses for HasCallInTailPosition"
-   }
-  ],
-  "title": "Editorial: combine the two subclauses for HasCallInTailPosition",
-  "updated_at": "2022-10-20T01:50:57Z"
  },
  {
   "base": "77256bf80b684888381ddf1c000bcdd1fcc2e637",
