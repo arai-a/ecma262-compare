@@ -246,11 +246,19 @@
  {
   "base": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
   "created_at": "2022-09-15T14:35:44Z",
-  "head": "24f5631ca109f14c7efe545ee1e4549a8123811d",
+  "head": "4b83bcca92eb54126e2523d4d01290f3cd8521e1",
   "login": "nicolo-ribaudo",
   "number": 2905,
   "ref": "refactor-import-host-hooks",
   "revs": [
+   {
+    "adate": "2022-10-20T20:13:42+02:00",
+    "author": "Nicol\u00f2 Ribaudo",
+    "date": "2022-10-20T20:13:42+02:00",
+    "hash": "4b83bcca92eb54126e2523d4d01290f3cd8521e1",
+    "parents": "24f5631ca109f14c7efe545ee1e4549a8123811d",
+    "subject": "Require LoadRequestedModules before ResolveExport and GetExportedNames"
+   },
    {
     "adate": "2022-10-20T16:13:19+02:00",
     "author": "Nicol\u00f2 Ribaudo",
@@ -309,7 +317,7 @@
    }
   ],
   "title": "Layering: Add HostLoadImportedModule hook",
-  "updated_at": "2022-10-20T14:24:19Z"
+  "updated_at": "2022-10-20T18:14:31Z"
  },
  {
   "base": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
@@ -420,9 +428,9 @@
   "updated_at": "2022-09-05T18:50:04Z"
  },
  {
-  "base": "77256bf80b684888381ddf1c000bcdd1fcc2e637",
+  "base": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
   "created_at": "2022-09-04T02:20:57Z",
-  "head": "9f03c35b9a1ec96d46280dbf42fd4deff337de99",
+  "head": "14fdb721f829e5ed7b6fa66aea436500c4760337",
   "login": "jmdyck",
   "number": 2889,
   "ref": "callable",
@@ -430,22 +438,22 @@
    {
     "adate": "2022-09-03T22:11:56-04:00",
     "author": "Michael Dyck",
-    "date": "2022-09-26T19:52:21-04:00",
-    "hash": "9f03c35b9a1ec96d46280dbf42fd4deff337de99",
-    "parents": "13134e8b941238f8e4ff9455d09ef735ec981f8b",
+    "date": "2022-10-20T14:34:13-04:00",
+    "hash": "14fdb721f829e5ed7b6fa66aea436500c4760337",
+    "parents": "a55843a9e7026c535e76898a4ddc233121ee7869",
     "subject": "Eliminate most other uses of \"callable\""
    },
    {
     "adate": "2022-09-03T21:47:50-04:00",
     "author": "Michael Dyck",
-    "date": "2022-09-26T19:52:21-04:00",
-    "hash": "13134e8b941238f8e4ff9455d09ef735ec981f8b",
-    "parents": "77256bf80b684888381ddf1c000bcdd1fcc2e637",
+    "date": "2022-10-20T14:34:11-04:00",
+    "hash": "a55843a9e7026c535e76898a4ddc233121ee7869",
+    "parents": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
     "subject": "Rename \"IsCallable\" as \"IsFunction\""
    }
   ],
   "title": "Editorial: Minimize use of the term \"callable\"",
-  "updated_at": "2022-09-27T00:32:47Z"
+  "updated_at": "2022-10-20T18:36:12Z"
  },
  {
   "base": "3cf8e30e47dd1f010b7d86929670f1e8c51ecc43",
