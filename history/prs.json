@@ -122,11 +122,19 @@
  {
   "base": "5d5acc928bccf1100daf1c8a156d1ee09723429d",
   "created_at": "2022-10-05T16:56:42Z",
-  "head": "126a0083ba9bf208ba6afed8d996c4e8c4537e21",
+  "head": "5e76f15be1a7a7ba8a01470d9f3d5158d03f4ddc",
   "login": "tc39",
   "number": 2926,
   "ref": "esmeta-ci-typechecking",
   "revs": [
+   {
+    "adate": "2022-10-23T08:35:12-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-10-23T08:35:12-06:00",
+    "hash": "5e76f15be1a7a7ba8a01470d9f3d5158d03f4ddc",
+    "parents": "126a0083ba9bf208ba6afed8d996c4e8c4537e21",
+    "subject": "update to rc5"
+   },
    {
     "adate": "2022-10-12T10:58:55-06:00",
     "author": "Michael Ficarra",
@@ -145,7 +153,7 @@
    }
   ],
   "title": "WIP: integrate esmeta type checker into CI",
-  "updated_at": "2022-10-12T17:26:03Z"
+  "updated_at": "2022-10-23T14:40:20Z"
  },
  {
   "base": "d3e5d6b043a874fa03806342da199d4a5a5d1a49",
