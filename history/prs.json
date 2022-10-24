@@ -2,11 +2,27 @@
  {
   "base": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
   "created_at": "2022-10-24T20:33:20Z",
-  "head": "0667b314b5761c23f714666de1731930bb720ed3",
+  "head": "4e695adc9162700b8e75556417a532b036dab089",
   "login": "tc39",
   "number": 2942,
   "ref": "add-builtin-async-function-objects",
   "revs": [
+   {
+    "adate": "2022-10-24T15:11:50-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-10-24T15:11:50-06:00",
+    "hash": "4e695adc9162700b8e75556417a532b036dab089",
+    "parents": "06f97350717578da282625f7f4dd2394b0653d23",
+    "subject": "mark completion records coming into AsyncBlockStart"
+   },
+   {
+    "adate": "2022-10-24T15:08:48-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-10-24T15:08:48-06:00",
+    "hash": "06f97350717578da282625f7f4dd2394b0653d23",
+    "parents": "0667b314b5761c23f714666de1731930bb720ed3",
+    "subject": "use AO call notation for Evaluation"
+   },
    {
     "adate": "2022-10-24T14:27:38-06:00",
     "author": "Michael Ficarra",
@@ -17,7 +33,7 @@
    }
   ],
   "title": "Editorial: support built-in async functions",
-  "updated_at": "2022-10-24T20:43:20Z"
+  "updated_at": "2022-10-24T21:20:26Z"
  },
  {
   "base": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
