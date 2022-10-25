@@ -1,6 +1,42 @@
 [
  {
   "base": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
+  "created_at": "2022-10-25T23:18:30Z",
+  "head": "5cbc32d765f8754baffdfeda3f7ddf4d2dfad1b3",
+  "login": "gibson042",
+  "number": 2946,
+  "ref": "2022-10-regexp-notes",
+  "revs": [
+   {
+    "adate": "2022-10-25T19:08:33-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-10-25T19:08:37-04:00",
+    "hash": "5cbc32d765f8754baffdfeda3f7ddf4d2dfad1b3",
+    "parents": "03926812e2043c1b5f3d7adbc00583721f033d5c",
+    "subject": "Editorial: Improve note for Canonicalize"
+   },
+   {
+    "adate": "2022-10-25T17:46:23-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-10-25T17:46:26-04:00",
+    "hash": "03926812e2043c1b5f3d7adbc00583721f033d5c",
+    "parents": "e1622f18709f5deaa0d31ec7963cc2afe366b307",
+    "subject": "Editorial: Express regular expression grammar production code point sequences contiguously"
+   },
+   {
+    "adate": "2022-10-25T17:33:08-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-10-25T17:33:08-04:00",
+    "hash": "e1622f18709f5deaa0d31ec7963cc2afe366b307",
+    "parents": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
+    "subject": "Editorial: Move notes for regular expression pattern semantics to their respective sections"
+   }
+  ],
+  "title": "Editorial: Clean up the regular expressions section",
+  "updated_at": "2022-10-25T23:18:30Z"
+ },
+ {
+  "base": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
   "created_at": "2022-10-25T21:28:04Z",
   "head": "f467387d3afd1473bf3bfe39384c4517a385c59b",
   "login": "gibson042",
