@@ -1,6 +1,26 @@
 [
  {
   "base": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
+  "created_at": "2022-10-25T21:28:04Z",
+  "head": "f467387d3afd1473bf3bfe39384c4517a385c59b",
+  "login": "gibson042",
+  "number": 2945,
+  "ref": "2022-10-remove-assignmentop-table",
+  "revs": [
+   {
+    "adate": "2022-10-25T17:08:21-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-10-25T17:08:21-04:00",
+    "hash": "f467387d3afd1473bf3bfe39384c4517a385c59b",
+    "parents": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
+    "subject": "Editorial: Remove redundant table of assignment operators"
+   }
+  ],
+  "title": "Editorial: Remove redundant table of assignment operators",
+  "updated_at": "2022-10-25T21:28:04Z"
+ },
+ {
+  "base": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
   "created_at": "2022-10-24T20:33:20Z",
   "head": "0e7b9267567c6018d684353bede7c243e2b58001",
   "login": "tc39",
