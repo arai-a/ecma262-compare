@@ -121,26 +121,6 @@
  },
  {
   "base": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
-  "created_at": "2022-10-25T21:28:04Z",
-  "head": "f467387d3afd1473bf3bfe39384c4517a385c59b",
-  "login": "gibson042",
-  "number": 2945,
-  "ref": "2022-10-remove-assignmentop-table",
-  "revs": [
-   {
-    "adate": "2022-10-25T17:08:21-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-10-25T17:08:21-04:00",
-    "hash": "f467387d3afd1473bf3bfe39384c4517a385c59b",
-    "parents": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
-    "subject": "Editorial: Remove redundant table of assignment operators"
-   }
-  ],
-  "title": "Editorial: Remove redundant table of assignment operators",
-  "updated_at": "2022-10-25T21:28:04Z"
- },
- {
-  "base": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
   "created_at": "2022-10-24T20:33:20Z",
   "head": "0e7b9267567c6018d684353bede7c243e2b58001",
   "login": "tc39",
@@ -304,13 +284,21 @@
   "updated_at": "2022-10-09T20:09:20Z"
  },
  {
-  "base": "5d5acc928bccf1100daf1c8a156d1ee09723429d",
+  "base": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
   "created_at": "2022-10-05T16:56:42Z",
-  "head": "5e76f15be1a7a7ba8a01470d9f3d5158d03f4ddc",
+  "head": "8f36c206dba46b1b28bd99b5fcb313c88f4faad0",
   "login": "tc39",
   "number": 2926,
   "ref": "esmeta-ci-typechecking",
   "revs": [
+   {
+    "adate": "2022-10-26T15:17:16-07:00",
+    "author": "Michael Ficarra",
+    "date": "2022-10-26T15:17:16-07:00",
+    "hash": "8f36c206dba46b1b28bd99b5fcb313c88f4faad0",
+    "parents": "5e76f15be1a7a7ba8a01470d9f3d5158d03f4ddc 52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
+    "subject": "Merge branch 'main' into esmeta-ci-typechecking"
+   },
    {
     "adate": "2022-10-23T08:35:12-06:00",
     "author": "Michael Ficarra",
@@ -337,7 +325,7 @@
    }
   ],
   "title": "WIP: integrate esmeta type checker into CI",
-  "updated_at": "2022-10-23T14:40:20Z"
+  "updated_at": "2022-10-26T22:22:58Z"
  },
  {
   "base": "d3e5d6b043a874fa03806342da199d4a5a5d1a49",
