@@ -1,6 +1,90 @@
 [
  {
   "base": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
+  "created_at": "2022-10-26T16:31:36Z",
+  "head": "e907c13dabcfe9295f5bfed937164a4948556f5e",
+  "login": "gibson042",
+  "number": 2949,
+  "ref": "2022-10-more-list-concat",
+  "revs": [
+   {
+    "adate": "2022-10-26T12:25:24-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-10-26T12:25:24-04:00",
+    "hash": "e907c13dabcfe9295f5bfed937164a4948556f5e",
+    "parents": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
+    "subject": "Editorial: Make better use of list-concatenation"
+   }
+  ],
+  "title": "Editorial: Make better use of list-concatenation",
+  "updated_at": "2022-10-26T16:31:36Z"
+ },
+ {
+  "base": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
+  "created_at": "2022-10-26T16:24:05Z",
+  "head": "c1daa281bc79b4c5e6f697940ef53509c5f2dfc1",
+  "login": "gibson042",
+  "number": 2948,
+  "ref": "2022-10-list-shift",
+  "revs": [
+   {
+    "adate": "2022-10-26T12:21:10-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-10-26T12:21:10-04:00",
+    "hash": "c1daa281bc79b4c5e6f697940ef53509c5f2dfc1",
+    "parents": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
+    "subject": "Editorial: Use consistent algorithm steps to consume the head of a List"
+   }
+  ],
+  "title": "Editorial: Use consistent algorithm steps to consume the head of a List",
+  "updated_at": "2022-10-26T16:24:05Z"
+ },
+ {
+  "base": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
+  "created_at": "2022-10-26T16:19:04Z",
+  "head": "1c73e9448cd2b9b2a5b87ecff4d276b00bbba08b",
+  "login": "gibson042",
+  "number": 2947,
+  "ref": "2022-10-append-to-list",
+  "revs": [
+   {
+    "adate": "2022-10-26T11:58:05-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-10-26T11:58:05-04:00",
+    "hash": "1c73e9448cd2b9b2a5b87ecff4d276b00bbba08b",
+    "parents": "5193905ef39c0d9cb130f508cef05fdd0a9b10f9",
+    "subject": "Editorial: For clarity, remove from _record_.[[Field]] rather than an alias of it"
+   },
+   {
+    "adate": "2022-10-26T11:45:25-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-10-26T11:45:25-04:00",
+    "hash": "5193905ef39c0d9cb130f508cef05fdd0a9b10f9",
+    "parents": "0460673d52731b17816a5536b5b096461df66c91",
+    "subject": "Editorial: For clarity, append to _record_.[[Field]] rather than an alias of it"
+   },
+   {
+    "adate": "2022-10-26T11:01:13-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-10-26T11:01:13-04:00",
+    "hash": "0460673d52731b17816a5536b5b096461df66c91",
+    "parents": "ed6a3c7f10c6736dee6ca1562ca82d9a1a187a93",
+    "subject": "Editorial: Reference [[EventList]] more directly"
+   },
+   {
+    "adate": "2022-10-26T10:57:45-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-10-26T10:57:45-04:00",
+    "hash": "ed6a3c7f10c6736dee6ca1562ca82d9a1a187a93",
+    "parents": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
+    "subject": "Editorial: Add aliases for Agent Events Records when working with [[EventList]]s"
+   }
+  ],
+  "title": "Editorial: For clarity, manipulate _record_.[[Field]] rather than its alias",
+  "updated_at": "2022-10-26T16:19:04Z"
+ },
+ {
+  "base": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
   "created_at": "2022-10-25T23:18:30Z",
   "head": "5cbc32d765f8754baffdfeda3f7ddf4d2dfad1b3",
   "login": "gibson042",
