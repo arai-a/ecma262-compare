@@ -22,11 +22,19 @@
  {
   "base": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
   "created_at": "2022-10-26T16:24:05Z",
-  "head": "c1daa281bc79b4c5e6f697940ef53509c5f2dfc1",
+  "head": "f7ff37aa3cd4d193f6444e161b0bd929234ec980",
   "login": "gibson042",
   "number": 2948,
   "ref": "2022-10-list-shift",
   "revs": [
+   {
+    "adate": "2022-10-27T23:27:22-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-10-27T23:27:22-04:00",
+    "hash": "f7ff37aa3cd4d193f6444e161b0bd929234ec980",
+    "parents": "c1daa281bc79b4c5e6f697940ef53509c5f2dfc1",
+    "subject": "Editorial: Simplify Atomics operations"
+   },
    {
     "adate": "2022-10-26T12:21:10-04:00",
     "author": "Richard Gibson",
@@ -37,7 +45,7 @@
    }
   ],
   "title": "Editorial: Use consistent algorithm steps to consume the head of a List",
-  "updated_at": "2022-10-26T16:24:05Z"
+  "updated_at": "2022-10-28T03:29:25Z"
  },
  {
   "base": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
