@@ -1,6 +1,34 @@
 [
  {
   "base": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
+  "created_at": "2022-10-29T16:02:31Z",
+  "head": "d69c9a9de9d4ec1c53d7c496c1cdc7ce4317ca20",
+  "login": "gibson042",
+  "number": 2950,
+  "ref": "2022-10-stringindexof-bounds",
+  "revs": [
+   {
+    "adate": "2022-10-29T12:01:45-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-10-29T12:01:45-04:00",
+    "hash": "d69c9a9de9d4ec1c53d7c496c1cdc7ce4317ca20",
+    "parents": "31377d16dd87f1cfd27c9dd20afc5b351065e9dd",
+    "subject": "Editorial: Generalize the note about when StringIndexOf is guaranteed to return -1"
+   },
+   {
+    "adate": "2022-10-29T11:13:31-04:00",
+    "author": "Richard Gibson",
+    "date": "2022-10-29T11:54:30-04:00",
+    "hash": "31377d16dd87f1cfd27c9dd20afc5b351065e9dd",
+    "parents": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
+    "subject": "Editorial: Increase consistency between the StringIndexOf notes"
+   }
+  ],
+  "title": "Editorial: Generalize the note about when StringIndexOf is guaranteed to return -1",
+  "updated_at": "2022-10-29T16:02:31Z"
+ },
+ {
+  "base": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
   "created_at": "2022-10-26T16:31:36Z",
   "head": "e907c13dabcfe9295f5bfed937164a4948556f5e",
   "login": "gibson042",
