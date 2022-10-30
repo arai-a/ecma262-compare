@@ -1,6 +1,26 @@
 [
  {
   "base": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
+  "created_at": "2022-10-30T01:58:42Z",
+  "head": "8998bd05ad575ce7fbf2208595853dcd370e4ce8",
+  "login": "jmdyck",
+  "number": 2951,
+  "ref": "fix_2540",
+  "revs": [
+   {
+    "adate": "2022-10-29T21:50:08-04:00",
+    "author": "Michael Dyck",
+    "date": "2022-10-29T21:55:37-04:00",
+    "hash": "8998bd05ad575ce7fbf2208595853dcd370e4ce8",
+    "parents": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
+    "subject": "Editorial: Fix 2 old bugs re Block-Level Function Declarations"
+   }
+  ],
+  "title": "Editorial: Fix 2 old bugs re Block-Level Function Declarations",
+  "updated_at": "2022-10-30T01:58:42Z"
+ },
+ {
+  "base": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
   "created_at": "2022-10-29T16:02:31Z",
   "head": "d69c9a9de9d4ec1c53d7c496c1cdc7ce4317ca20",
   "login": "gibson042",
