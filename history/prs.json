@@ -532,13 +532,29 @@
   "updated_at": "2022-10-11T16:27:42Z"
  },
  {
-  "base": "231f2709f4d888f13df2907e1b6b5cd5920e0ff3",
+  "base": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
   "created_at": "2022-09-27T01:31:54Z",
-  "head": "9aeef2cfaf6de8a4cf6b1e65286aadcea9b0ed6f",
+  "head": "bb621e78c12acde5d3089947325f8dc0f28898cd",
   "login": "tc39",
   "number": 2915,
   "ref": "tables-r-bad",
   "revs": [
+   {
+    "adate": "2022-11-01T13:12:31-07:00",
+    "author": "Michael Ficarra",
+    "date": "2022-11-01T13:12:31-07:00",
+    "hash": "bb621e78c12acde5d3089947325f8dc0f28898cd",
+    "parents": "506c9dfe0c28c42b3a782085d3aa526e79ae5f8e 52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
+    "subject": "Merge branch 'main' into tables-r-bad"
+   },
+   {
+    "adate": "2022-11-01T13:57:40-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-11-01T13:57:40-06:00",
+    "hash": "506c9dfe0c28c42b3a782085d3aa526e79ae5f8e",
+    "parents": "9aeef2cfaf6de8a4cf6b1e65286aadcea9b0ed6f",
+    "subject": "add either"
+   },
    {
     "adate": "2022-11-01T11:50:45-06:00",
     "author": "Michael Ficarra",
@@ -589,7 +605,7 @@
    }
   ],
   "title": "Editorial: replace steps embedded in lookup tables with more typical algorithms",
-  "updated_at": "2022-11-01T18:08:49Z"
+  "updated_at": "2022-11-01T20:12:33Z"
  },
  {
   "base": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
