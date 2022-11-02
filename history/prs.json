@@ -238,11 +238,19 @@
  {
   "base": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
   "created_at": "2022-10-24T20:33:20Z",
-  "head": "533c602b08a9699e0bccb463d713afbe4da98f43",
+  "head": "11bc7a76ec6977113355dd1c96989eacd7e742d0",
   "login": "tc39",
   "number": 2942,
   "ref": "add-builtin-async-function-objects",
   "revs": [
+   {
+    "adate": "2022-11-02T09:34:26-06:00",
+    "author": "Michael Ficarra",
+    "date": "2022-11-02T09:34:26-06:00",
+    "hash": "11bc7a76ec6977113355dd1c96989eacd7e742d0",
+    "parents": "533c602b08a9699e0bccb463d713afbe4da98f43",
+    "subject": "accept suggestions"
+   },
    {
     "adate": "2022-11-01T09:07:59-06:00",
     "author": "Michael Ficarra",
@@ -285,7 +293,7 @@
    }
   ],
   "title": "Editorial: support built-in async functions",
-  "updated_at": "2022-11-01T15:09:00Z"
+  "updated_at": "2022-11-02T15:34:44Z"
  },
  {
   "base": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
