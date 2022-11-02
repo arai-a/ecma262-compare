@@ -1,5 +1,45 @@
 [
  {
+  "adate": "2022-11-02T15:07:26-07:00",
+  "author": "Michael Ficarra",
+  "date": "2022-11-02T15:07:26-07:00",
+  "hash": "f5f5513a19fdf1ecd8e473b584804c0212a50189",
+  "parents": "0090daffc4199c561583bd537ac0737aada4760f",
+  "subject": "Editorial: replace steps embedded in lookup tables with more typical algorithms (#2915)"
+ },
+ {
+  "adate": "2022-11-02T14:55:40-07:00",
+  "author": "Kevin Gibbons",
+  "date": "2022-11-02T14:55:40-07:00",
+  "hash": "0090daffc4199c561583bd537ac0737aada4760f",
+  "parents": "771ff09cb0dc323b49cc7345ac6a929e95e0a631",
+  "subject": "Markup: replace HTML entities with the Unicode characters they represent (#2901)"
+ },
+ {
+  "adate": "2022-11-02T14:55:37-07:00",
+  "author": "Kevin Gibbons",
+  "date": "2022-11-02T14:55:37-07:00",
+  "hash": "771ff09cb0dc323b49cc7345ac6a929e95e0a631",
+  "parents": "d24f3970a39e26c4df059bb2aed95b1e83439be8",
+  "subject": "Meta: bump ecmarkup to 15.0.4 (#2901)"
+ },
+ {
+  "adate": "2022-11-02T14:55:34-07:00",
+  "author": "Kevin Gibbons",
+  "date": "2022-11-02T14:55:34-07:00",
+  "hash": "d24f3970a39e26c4df059bb2aed95b1e83439be8",
+  "parents": "4d816ec2d96bd6221d4cb105c0410535704d624c",
+  "subject": "Editorial: remove some unused variables in algorithms (#2901)"
+ },
+ {
+  "adate": "2022-11-02T14:55:28-07:00",
+  "author": "Kevin Gibbons",
+  "date": "2022-11-02T14:55:28-07:00",
+  "hash": "4d816ec2d96bd6221d4cb105c0410535704d624c",
+  "parents": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
+  "subject": "Markup: mark certain non-obvious variable declarations (#2901)"
+ },
+ {
   "adate": "2022-10-19T22:25:45-07:00",
   "author": "jhnaldo",
   "date": "2022-10-19T22:25:45-07:00",
