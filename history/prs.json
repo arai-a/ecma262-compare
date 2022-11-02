@@ -108,24 +108,24 @@
   "updated_at": "2022-10-29T16:02:31Z"
  },
  {
-  "base": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
+  "base": "a6197454c056bc55069b038e7e9a5ce1cd546950",
   "created_at": "2022-10-26T16:31:36Z",
-  "head": "e907c13dabcfe9295f5bfed937164a4948556f5e",
+  "head": "ce4290ea2de3c3867f6ba715e44f9f9484178131",
   "login": "gibson042",
   "number": 2949,
   "ref": "2022-10-more-list-concat",
   "revs": [
    {
-    "adate": "2022-10-26T12:25:24-04:00",
+    "adate": "2022-11-02T15:33:07-07:00",
     "author": "Richard Gibson",
-    "date": "2022-10-26T12:25:24-04:00",
-    "hash": "e907c13dabcfe9295f5bfed937164a4948556f5e",
-    "parents": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
-    "subject": "Editorial: Make better use of list-concatenation"
+    "date": "2022-11-02T15:33:07-07:00",
+    "hash": "ce4290ea2de3c3867f6ba715e44f9f9484178131",
+    "parents": "a6197454c056bc55069b038e7e9a5ce1cd546950",
+    "subject": "Editorial: Make better use of list-concatenation (#2949)"
    }
   ],
   "title": "Editorial: Make better use of list-concatenation",
-  "updated_at": "2022-10-26T16:31:36Z"
+  "updated_at": "2022-11-02T22:33:28Z"
  },
  {
   "base": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
@@ -416,50 +416,6 @@
   "updated_at": "2022-10-09T20:09:20Z"
  },
  {
-  "base": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
-  "created_at": "2022-10-05T16:56:42Z",
-  "head": "76d9490ff64ed9d712de3f92b385fdb11e831136",
-  "login": "tc39",
-  "number": 2926,
-  "ref": "esmeta-ci-typechecking",
-  "revs": [
-   {
-    "adate": "2022-11-01T08:50:22-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-11-01T08:51:02-06:00",
-    "hash": "76d9490ff64ed9d712de3f92b385fdb11e831136",
-    "parents": "faeef13bb341aab4b9a10c516472fd045eee1869",
-    "subject": "pin the sha"
-   },
-   {
-    "adate": "2022-10-23T08:35:12-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-11-01T08:51:02-06:00",
-    "hash": "faeef13bb341aab4b9a10c516472fd045eee1869",
-    "parents": "8096897c60a2906ebaad89b67906c4eba0880c49",
-    "subject": "update to rc5"
-   },
-   {
-    "adate": "2022-10-12T10:58:55-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-11-01T08:51:02-06:00",
-    "hash": "8096897c60a2906ebaad89b67906c4eba0880c49",
-    "parents": "26a5266680a87354023d420aa019537ba8bc3e14",
-    "subject": "add exclusions support"
-   },
-   {
-    "adate": "2022-10-05T10:54:26-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-11-01T08:51:02-06:00",
-    "hash": "26a5266680a87354023d420aa019537ba8bc3e14",
-    "parents": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
-    "subject": "integrate esmeta type checker into CI"
-   }
-  ],
-  "title": "WIP: integrate esmeta type checker into CI",
-  "updated_at": "2022-11-01T14:51:29Z"
- },
- {
   "base": "d3e5d6b043a874fa03806342da199d4a5a5d1a49",
   "created_at": "2022-09-29T13:38:14Z",
   "head": "e13755c0989ec7eec65fe20b5a1acef9661d1d5b",
@@ -538,82 +494,6 @@
   ],
   "title": "Editorial: Make better use of clamping",
   "updated_at": "2022-10-11T16:27:42Z"
- },
- {
-  "base": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
-  "created_at": "2022-09-27T01:31:54Z",
-  "head": "bb621e78c12acde5d3089947325f8dc0f28898cd",
-  "login": "tc39",
-  "number": 2915,
-  "ref": "tables-r-bad",
-  "revs": [
-   {
-    "adate": "2022-11-01T13:12:31-07:00",
-    "author": "Michael Ficarra",
-    "date": "2022-11-01T13:12:31-07:00",
-    "hash": "bb621e78c12acde5d3089947325f8dc0f28898cd",
-    "parents": "506c9dfe0c28c42b3a782085d3aa526e79ae5f8e 52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
-    "subject": "Merge branch 'main' into tables-r-bad"
-   },
-   {
-    "adate": "2022-11-01T13:57:40-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-11-01T13:57:40-06:00",
-    "hash": "506c9dfe0c28c42b3a782085d3aa526e79ae5f8e",
-    "parents": "9aeef2cfaf6de8a4cf6b1e65286aadcea9b0ed6f",
-    "subject": "add either"
-   },
-   {
-    "adate": "2022-11-01T11:50:45-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-11-01T11:50:45-06:00",
-    "hash": "9aeef2cfaf6de8a4cf6b1e65286aadcea9b0ed6f",
-    "parents": "28ee9b16e009cc4d37e2b830a35727a97a321155",
-    "subject": "typo"
-   },
-   {
-    "adate": "2022-11-01T09:48:35-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-11-01T09:48:35-06:00",
-    "hash": "28ee9b16e009cc4d37e2b830a35727a97a321155",
-    "parents": "f9e78da7468d673573edef7f0a5cff06f96d1823",
-    "subject": "address comments"
-   },
-   {
-    "adate": "2022-09-26T19:21:21-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-09-27T12:10:04-06:00",
-    "hash": "f9e78da7468d673573edef7f0a5cff06f96d1823",
-    "parents": "ee40ea18fd8d1e816d4d32266be69f6ef1583575",
-    "subject": "ToBoolean"
-   },
-   {
-    "adate": "2022-09-26T19:03:21-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-09-27T12:09:27-06:00",
-    "hash": "ee40ea18fd8d1e816d4d32266be69f6ef1583575",
-    "parents": "f957808fe13b9d8a6e939bb183e47abfe343bffc",
-    "subject": "typeof"
-   },
-   {
-    "adate": "2022-09-26T18:54:07-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-09-27T12:07:52-06:00",
-    "hash": "f957808fe13b9d8a6e939bb183e47abfe343bffc",
-    "parents": "b22017fce4015bf3f1391f75a411a4af1df19531",
-    "subject": "ToNumber"
-   },
-   {
-    "adate": "2022-09-26T18:32:31-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-09-27T12:07:16-06:00",
-    "hash": "b22017fce4015bf3f1391f75a411a4af1df19531",
-    "parents": "231f2709f4d888f13df2907e1b6b5cd5920e0ff3",
-    "subject": "ToString"
-   }
-  ],
-  "title": "Editorial: replace steps embedded in lookup tables with more typical algorithms",
-  "updated_at": "2022-11-01T20:12:33Z"
  },
  {
   "base": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
@@ -712,66 +592,6 @@
   "updated_at": "2022-10-20T15:13:12Z"
  },
  {
-  "base": "f3bc5bcfc71625738eb4a1448a292017d79629dd",
-  "created_at": "2022-09-08T03:22:21Z",
-  "head": "69197b68516ab3630902a90fd1f5c39e5d5a9f71",
-  "login": "tc39",
-  "number": 2901,
-  "ref": "add-declared-attributes",
-  "revs": [
-   {
-    "adate": "2022-10-19T19:19:00-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2022-10-19T19:19:00-07:00",
-    "hash": "69197b68516ab3630902a90fd1f5c39e5d5a9f71",
-    "parents": "b1ce54d80b11e0078e95ff82a5f97bc5bb197fdc",
-    "subject": "fixup! mark another non-obvious declaration"
-   },
-   {
-    "adate": "2022-10-19T19:18:20-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2022-10-19T19:18:31-07:00",
-    "hash": "b1ce54d80b11e0078e95ff82a5f97bc5bb197fdc",
-    "parents": "97dbc4f46b2d0c1de003348768371d9772d52cca",
-    "subject": "Markup: replace HTML entities with the Unicode characters they represent"
-   },
-   {
-    "adate": "2022-09-07T20:12:39-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2022-10-19T19:18:28-07:00",
-    "hash": "97dbc4f46b2d0c1de003348768371d9772d52cca",
-    "parents": "74028a56acb3e9c4b558024eeaafd37720b6aab5",
-    "subject": "Meta: bump ecmarkup to 15.0.4"
-   },
-   {
-    "adate": "2022-09-07T20:17:23-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2022-10-19T18:52:26-07:00",
-    "hash": "74028a56acb3e9c4b558024eeaafd37720b6aab5",
-    "parents": "40054499e087a1d544f6a57d3f805cb8aaf099ae",
-    "subject": "Editorial: remove some unused variables in algorithms"
-   },
-   {
-    "adate": "2022-09-05T13:51:48-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2022-10-19T18:52:25-07:00",
-    "hash": "40054499e087a1d544f6a57d3f805cb8aaf099ae",
-    "parents": "f3bc5bcfc71625738eb4a1448a292017d79629dd",
-    "subject": "Markup: mark certain non-obvious variable declarations"
-   },
-   {
-    "adate": "2022-09-05T08:43:52-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2022-10-19T18:50:46-07:00",
-    "hash": "f3bc5bcfc71625738eb4a1448a292017d79629dd",
-    "parents": "dccde53698ab1ddf942fcd571fe674418ee2a955",
-    "subject": "Editorial: combine the two subclauses for HasCallInTailPosition"
-   }
-  ],
-  "title": "Meta: bump ecmarkup to 15.0.0 and apply new formatting/lint rules",
-  "updated_at": "2022-10-20T02:21:20Z"
- },
- {
   "base": "3cf8e30e47dd1f010b7d86929670f1e8c51ecc43",
   "created_at": "2022-09-05T18:50:04Z",
   "head": "d6057e3a35c2e9c9da9da1d34c9d0bf65e203327",
@@ -848,168 +668,24 @@
   "updated_at": "2022-09-03T00:44:57Z"
  },
  {
-  "base": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
+  "base": "a6197454c056bc55069b038e7e9a5ce1cd546950",
   "created_at": "2022-08-30T16:04:08Z",
-  "head": "366ac99f6ba425a5f15a96944e69e456bc57ebea",
+  "head": "846a15549b5c1aa37875b86b2e6f9841422b182e",
   "login": "tc39",
   "number": 2877,
   "ref": "comparison-consistency",
   "revs": [
    {
-    "adate": "2022-11-02T11:05:01-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-11-02T11:05:01-06:00",
-    "hash": "366ac99f6ba425a5f15a96944e69e456bc57ebea",
-    "parents": "5166cfc709db3d5ab7e3d285cf496840afa15eb8",
-    "subject": "add an \"if\""
-   },
-   {
-    "adate": "2022-11-02T10:59:27-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-11-02T10:59:27-06:00",
-    "hash": "5166cfc709db3d5ab7e3d285cf496840afa15eb8",
-    "parents": "93b6a23c2e0574b0f6cdddba74733093ef4d1f36",
-    "subject": "address comments"
-   },
-   {
-    "adate": "2022-10-14T23:53:51-04:00",
-    "author": "Michael Dyck",
-    "date": "2022-11-01T16:58:57-06:00",
-    "hash": "93b6a23c2e0574b0f6cdddba74733093ef4d1f36",
-    "parents": "deb7d79828fd9843023984e10b630cff3045f5ab",
-    "subject": "Delete \"the Record { [[Key]], [[Value]] } that is\""
-   },
-   {
-    "adate": "2022-10-14T23:50:21-04:00",
-    "author": "Michael Dyck",
-    "date": "2022-11-01T16:58:57-06:00",
-    "hash": "deb7d79828fd9843023984e10b630cff3045f5ab",
-    "parents": "0508d18e975139cad499539cef6294b805daa644",
-    "subject": "\"not either\" -> \"neither\""
-   },
-   {
-    "adate": "2022-10-14T23:47:28-04:00",
-    "author": "Michael Dyck",
-    "date": "2022-11-01T16:58:57-06:00",
-    "hash": "0508d18e975139cad499539cef6294b805daa644",
-    "parents": "8b62710d4cc6e0283d95a24f44a2b8ac0753d478",
-    "subject": "\"a new unique Symbol value ...\" -> \"a new Symbol ...\""
-   },
-   {
-    "adate": "2022-10-14T23:40:24-04:00",
-    "author": "Michael Dyck",
-    "date": "2022-11-01T16:58:57-06:00",
-    "hash": "8b62710d4cc6e0283d95a24f44a2b8ac0753d478",
-    "parents": "7df38541313d67ad5c2f7c2a43869d8c8968d855",
-    "subject": "\"Type(_x_) is the same as Type(_y_)\" -> \"Type(_x_) is Type(_y_)\""
-   },
-   {
-    "adate": "2022-10-14T23:35:49-04:00",
-    "author": "Michael Dyck",
-    "date": "2022-11-01T16:58:57-06:00",
-    "hash": "7df38541313d67ad5c2f7c2a43869d8c8968d855",
-    "parents": "8acd43c8f64ad415ba4cfb758baf14abe5893243",
-    "subject": "\"the name that is _N_\" -> \"the name _N_\""
-   },
-   {
-    "adate": "2022-10-14T23:30:13-04:00",
-    "author": "Michael Dyck",
-    "date": "2022-11-01T16:58:57-06:00",
-    "hash": "8acd43c8f64ad415ba4cfb758baf14abe5893243",
-    "parents": "4652280355fcfde1162f226b5f218658a19e2338",
-    "subject": "\"contains the same\" -> \"contains any\""
-   },
-   {
-    "adate": "2022-10-14T23:15:48-04:00",
-    "author": "Michael Dyck",
-    "date": "2022-11-01T16:58:57-06:00",
-    "hash": "4652280355fcfde1162f226b5f218658a19e2338",
-    "parents": "410fd025cee4f5edeb04feaf16ba02c0a115f367",
-    "subject": "\"_C_ is in _unescapedSet_\" -> \"_unescapedSet_ contains _C_\""
-   },
-   {
-    "adate": "2022-10-14T23:15:26-04:00",
-    "author": "Michael Dyck",
-    "date": "2022-11-01T16:58:57-06:00",
-    "hash": "410fd025cee4f5edeb04feaf16ba02c0a115f367",
-    "parents": "2493367cd04643827d4cdeaeda06273abb663740",
-    "subject": "Eliminate another \"and if\""
-   },
-   {
-    "adate": "2022-10-14T22:43:12-04:00",
-    "author": "Michael Dyck",
-    "date": "2022-11-01T16:58:56-06:00",
-    "hash": "2493367cd04643827d4cdeaeda06273abb663740",
-    "parents": "0e5fd9fe07330bfe2ea037caa3a2f09c9ef18f5e",
-    "subject": "Remove the last \"or if\""
-   },
-   {
-    "adate": "2022-10-14T21:46:06-04:00",
-    "author": "Michael Dyck",
-    "date": "2022-11-01T16:58:56-06:00",
-    "hash": "0e5fd9fe07330bfe2ea037caa3a2f09c9ef18f5e",
-    "parents": "55f225700c00000336aa41d04a9dcbbd3276a9fd",
-    "subject": "Insert serial comma"
-   },
-   {
-    "adate": "2022-10-14T21:40:19-04:00",
-    "author": "Michael Dyck",
-    "date": "2022-11-01T16:58:56-06:00",
-    "hash": "55f225700c00000336aa41d04a9dcbbd3276a9fd",
-    "parents": "6ed6c5c7dc02d0b60e818d6df47f8fe2f58ed4c4",
-    "subject": "Insert \"contained\""
-   },
-   {
-    "adate": "2022-10-14T21:25:32-04:00",
-    "author": "Michael Dyck",
-    "date": "2022-11-01T16:58:56-06:00",
-    "hash": "6ed6c5c7dc02d0b60e818d6df47f8fe2f58ed4c4",
-    "parents": "2250f50bed8b29d23454e6eccc7033a601d8bd85",
-    "subject": "\"an ExportEntry Record\" -> \"the ExportEntry Record\""
-   },
-   {
-    "adate": "2022-10-14T21:38:51-04:00",
-    "author": "Michael Dyck",
-    "date": "2022-11-01T16:58:56-06:00",
-    "hash": "2250f50bed8b29d23454e6eccc7033a601d8bd85",
-    "parents": "e20e9bc662a79a4fe044bf87d92a164915921d80",
-    "subject": "Eliminate \"Else\" that's lost its \"If\""
-   },
-   {
-    "adate": "2022-10-14T21:36:31-04:00",
-    "author": "Michael Dyck",
-    "date": "2022-11-01T16:58:56-06:00",
-    "hash": "e20e9bc662a79a4fe044bf87d92a164915921d80",
-    "parents": "1015e679bd452600d2b8a374077a8ec81163105c",
-    "subject": "Insert \"FlagText of\""
-   },
-   {
-    "adate": "2022-10-14T21:24:03-04:00",
-    "author": "Michael Dyck",
-    "date": "2022-11-01T16:58:56-06:00",
-    "hash": "1015e679bd452600d2b8a374077a8ec81163105c",
-    "parents": "4886441574daecc7440c85eb40849a15af27b6f4",
-    "subject": "\"For each thing in a List\": change \"in\" to \"of\""
-   },
-   {
-    "adate": "2022-10-14T21:21:17-04:00",
-    "author": "Michael Dyck",
-    "date": "2022-11-01T16:58:56-06:00",
-    "hash": "4886441574daecc7440c85eb40849a15af27b6f4",
-    "parents": "518cf3fb468b5185b4abc679639d465456e20b1d",
-    "subject": "Simple typos"
-   },
-   {
     "adate": "2022-07-08T17:55:36-06:00",
     "author": "Michael Ficarra",
-    "date": "2022-11-01T16:58:56-06:00",
-    "hash": "518cf3fb468b5185b4abc679639d465456e20b1d",
-    "parents": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
+    "date": "2022-11-02T16:35:00-06:00",
+    "hash": "846a15549b5c1aa37875b86b2e6f9841422b182e",
+    "parents": "a6197454c056bc55069b038e7e9a5ce1cd546950",
     "subject": "various editorial changes for comparisons"
    }
   ],
   "title": "various editorial changes for comparisons",
-  "updated_at": "2022-11-02T17:05:11Z"
+  "updated_at": "2022-11-02T22:45:21Z"
  },
  {
   "base": "dceb9e45fa04ff37a213095e97a28da81bf213ec",
