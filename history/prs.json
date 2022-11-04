@@ -220,9 +220,9 @@
   "updated_at": "2022-11-02T15:34:44Z"
  },
  {
-  "base": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
+  "base": "8410f1b68b81522d3a34753e4ed9be053a162e4b",
   "created_at": "2022-10-22T02:49:09Z",
-  "head": "8ccd9c7f6b0d0598e7d28c2185ede886ca9633e2",
+  "head": "61d4e2e9b9bae66de6912e5a338575409386b138",
   "login": "jmdyck",
   "number": 2941,
   "ref": "elements_of",
@@ -230,22 +230,22 @@
    {
     "adate": "2022-10-21T22:43:07-04:00",
     "author": "Michael Dyck",
-    "date": "2022-10-21T22:43:07-04:00",
-    "hash": "8ccd9c7f6b0d0598e7d28c2185ede886ca9633e2",
-    "parents": "1c0d2a433daeb084295370f5a6e3b33009f08f63",
+    "date": "2022-11-04T16:14:16-04:00",
+    "hash": "61d4e2e9b9bae66de6912e5a338575409386b138",
+    "parents": "a275bc71e1a199ca87982f8aeccb9f7ee51128fb",
     "subject": "Change \"the number of elements of\" to \"the number of elements in\""
    },
    {
     "adate": "2022-10-21T22:12:41-04:00",
     "author": "Michael Dyck",
-    "date": "2022-10-21T22:12:41-04:00",
-    "hash": "1c0d2a433daeb084295370f5a6e3b33009f08f63",
-    "parents": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
+    "date": "2022-11-04T16:14:16-04:00",
+    "hash": "a275bc71e1a199ca87982f8aeccb9f7ee51128fb",
+    "parents": "8410f1b68b81522d3a34753e4ed9be053a162e4b",
     "subject": "Change all \"element[s] in\" to \"element[s] of\""
    }
   ],
   "title": "Editorial: Consistify re \"elements in/of\"",
-  "updated_at": "2022-10-22T02:55:06Z"
+  "updated_at": "2022-11-04T21:02:30Z"
  },
  {
   "base": "dccde53698ab1ddf942fcd571fe674418ee2a955",
@@ -436,9 +436,9 @@
   "updated_at": "2022-11-03T15:41:27Z"
  },
  {
-  "base": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
+  "base": "8410f1b68b81522d3a34753e4ed9be053a162e4b",
   "created_at": "2022-09-08T18:29:27Z",
-  "head": "5307edff34dcd11b8e84326f56717c50cf089f33",
+  "head": "87211fddae0b2a6afa0306c72d843ad2798935c8",
   "login": "jmdyck",
   "number": 2902,
   "ref": "Function_constructor_params",
@@ -446,19 +446,19 @@
    {
     "adate": "2022-09-08T14:19:44-04:00",
     "author": "Michael Dyck",
-    "date": "2022-10-20T10:57:40-04:00",
-    "hash": "5307edff34dcd11b8e84326f56717c50cf089f33",
-    "parents": "dccde53698ab1ddf942fcd571fe674418ee2a955",
+    "date": "2022-11-04T16:20:57-04:00",
+    "hash": "87211fddae0b2a6afa0306c72d843ad2798935c8",
+    "parents": "8410f1b68b81522d3a34753e4ed9be053a162e4b",
     "subject": "Editorial: Tweak the param list of Function constructors"
    }
   ],
   "title": "Editorial: Tweak the parameter list of Function constructors",
-  "updated_at": "2022-10-20T15:13:12Z"
+  "updated_at": "2022-11-04T21:03:25Z"
  },
  {
-  "base": "3cf8e30e47dd1f010b7d86929670f1e8c51ecc43",
+  "base": "8410f1b68b81522d3a34753e4ed9be053a162e4b",
   "created_at": "2022-09-05T18:50:04Z",
-  "head": "d6057e3a35c2e9c9da9da1d34c9d0bf65e203327",
+  "head": "97300d74b48e71bfa90840908863837ddf1c6715",
   "login": "jmdyck",
   "number": 2898,
   "ref": "FindViaPredicate",
@@ -466,27 +466,27 @@
    {
     "adate": "2022-09-05T13:31:07-04:00",
     "author": "Michael Dyck",
-    "date": "2022-09-05T13:53:29-04:00",
-    "hash": "d6057e3a35c2e9c9da9da1d34c9d0bf65e203327",
-    "parents": "2465bbd612c9c49052e7c963c3690b58b23c0c80",
+    "date": "2022-11-04T16:22:01-04:00",
+    "hash": "97300d74b48e71bfa90840908863837ddf1c6715",
+    "parents": "55a094cca31bcd386ddd3f682a731673c1b2561d",
     "subject": "Editorial: Factor out TypedArrayFindViaPredicate"
    },
    {
     "adate": "2022-09-05T09:45:11-04:00",
     "author": "Michael Dyck",
-    "date": "2022-09-05T13:39:52-04:00",
-    "hash": "2465bbd612c9c49052e7c963c3690b58b23c0c80",
-    "parents": "3cf8e30e47dd1f010b7d86929670f1e8c51ecc43",
+    "date": "2022-11-04T16:22:01-04:00",
+    "hash": "55a094cca31bcd386ddd3f682a731673c1b2561d",
+    "parents": "8410f1b68b81522d3a34753e4ed9be053a162e4b",
     "subject": "Editorial: Factor out ArrayFindViaPredicate"
    }
   ],
   "title": "Editorial: Factor out ArrayFindViaPredicate & TypedArrayFindViaPredicate",
-  "updated_at": "2022-09-05T18:50:04Z"
+  "updated_at": "2022-11-04T21:04:42Z"
  },
  {
-  "base": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
+  "base": "8410f1b68b81522d3a34753e4ed9be053a162e4b",
   "created_at": "2022-09-04T02:20:57Z",
-  "head": "14fdb721f829e5ed7b6fa66aea436500c4760337",
+  "head": "ca287b24a9d00ae46e4425a0ced7441ca7838904",
   "login": "jmdyck",
   "number": 2889,
   "ref": "callable",
@@ -494,22 +494,22 @@
    {
     "adate": "2022-09-03T22:11:56-04:00",
     "author": "Michael Dyck",
-    "date": "2022-10-20T14:34:13-04:00",
-    "hash": "14fdb721f829e5ed7b6fa66aea436500c4760337",
-    "parents": "a55843a9e7026c535e76898a4ddc233121ee7869",
+    "date": "2022-11-04T16:28:54-04:00",
+    "hash": "ca287b24a9d00ae46e4425a0ced7441ca7838904",
+    "parents": "9d974319da795c199e99c2e72ec74bfe304a68f3",
     "subject": "Eliminate most other uses of \"callable\""
    },
    {
     "adate": "2022-09-03T21:47:50-04:00",
     "author": "Michael Dyck",
-    "date": "2022-10-20T14:34:11-04:00",
-    "hash": "a55843a9e7026c535e76898a4ddc233121ee7869",
-    "parents": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
+    "date": "2022-11-04T16:28:54-04:00",
+    "hash": "9d974319da795c199e99c2e72ec74bfe304a68f3",
+    "parents": "8410f1b68b81522d3a34753e4ed9be053a162e4b",
     "subject": "Rename \"IsCallable\" as \"IsFunction\""
    }
   ],
   "title": "Editorial: Minimize use of the term \"callable\"",
-  "updated_at": "2022-10-20T18:36:12Z"
+  "updated_at": "2022-11-04T21:05:46Z"
  },
  {
   "base": "3cf8e30e47dd1f010b7d86929670f1e8c51ecc43",
@@ -2318,11 +2318,19 @@
  {
   "base": "8410f1b68b81522d3a34753e4ed9be053a162e4b",
   "created_at": "2020-12-08T06:31:39Z",
-  "head": "63afc943d5891f99556462b7cd1b15e6043adb71",
+  "head": "20096c3deb1083c60ce309ee44dde8b6310c8a19",
   "login": "jmdyck",
   "number": 2246,
   "ref": "ExecutionContext_Record",
   "revs": [
+   {
+    "adate": "2022-11-04T17:36:03-04:00",
+    "author": "Michael Dyck",
+    "date": "2022-11-04T17:36:03-04:00",
+    "hash": "20096c3deb1083c60ce309ee44dde8b6310c8a19",
+    "parents": "63afc943d5891f99556462b7cd1b15e6043adb71",
+    "subject": "fixup: Add \"ECMAScriptFunctionObject.Construct\" to esmeta-ignore"
+   },
    {
     "adate": "2022-08-31T23:46:33-04:00",
     "author": "Michael Dyck",
@@ -2381,7 +2389,7 @@
    }
   ],
   "title": "Editorial: Model execution context as a record",
-  "updated_at": "2022-11-04T21:09:46Z"
+  "updated_at": "2022-11-04T21:37:18Z"
  },
  {
   "base": "b3f9b5089bcc3ddd8486379015cd11eb1427a5eb",
