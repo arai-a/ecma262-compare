@@ -81,82 +81,6 @@
  },
  {
   "base": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
-  "created_at": "2022-10-29T16:02:31Z",
-  "head": "d69c9a9de9d4ec1c53d7c496c1cdc7ce4317ca20",
-  "login": "gibson042",
-  "number": 2950,
-  "ref": "2022-10-stringindexof-bounds",
-  "revs": [
-   {
-    "adate": "2022-10-29T12:01:45-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-10-29T12:01:45-04:00",
-    "hash": "d69c9a9de9d4ec1c53d7c496c1cdc7ce4317ca20",
-    "parents": "31377d16dd87f1cfd27c9dd20afc5b351065e9dd",
-    "subject": "Editorial: Generalize the note about when StringIndexOf is guaranteed to return -1"
-   },
-   {
-    "adate": "2022-10-29T11:13:31-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-10-29T11:54:30-04:00",
-    "hash": "31377d16dd87f1cfd27c9dd20afc5b351065e9dd",
-    "parents": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
-    "subject": "Editorial: Increase consistency between the StringIndexOf notes"
-   }
-  ],
-  "title": "Editorial: Generalize the note about when StringIndexOf is guaranteed to return -1",
-  "updated_at": "2022-10-29T16:02:31Z"
- },
- {
-  "base": "a6197454c056bc55069b038e7e9a5ce1cd546950",
-  "created_at": "2022-10-26T16:31:36Z",
-  "head": "ce4290ea2de3c3867f6ba715e44f9f9484178131",
-  "login": "gibson042",
-  "number": 2949,
-  "ref": "2022-10-more-list-concat",
-  "revs": [
-   {
-    "adate": "2022-11-02T15:33:07-07:00",
-    "author": "Richard Gibson",
-    "date": "2022-11-02T15:33:07-07:00",
-    "hash": "ce4290ea2de3c3867f6ba715e44f9f9484178131",
-    "parents": "a6197454c056bc55069b038e7e9a5ce1cd546950",
-    "subject": "Editorial: Make better use of list-concatenation (#2949)"
-   }
-  ],
-  "title": "Editorial: Make better use of list-concatenation",
-  "updated_at": "2022-11-02T22:33:28Z"
- },
- {
-  "base": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
-  "created_at": "2022-10-26T16:24:05Z",
-  "head": "f7ff37aa3cd4d193f6444e161b0bd929234ec980",
-  "login": "gibson042",
-  "number": 2948,
-  "ref": "2022-10-list-shift",
-  "revs": [
-   {
-    "adate": "2022-10-27T23:27:22-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-10-27T23:27:22-04:00",
-    "hash": "f7ff37aa3cd4d193f6444e161b0bd929234ec980",
-    "parents": "c1daa281bc79b4c5e6f697940ef53509c5f2dfc1",
-    "subject": "Editorial: Simplify Atomics operations"
-   },
-   {
-    "adate": "2022-10-26T12:21:10-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-10-26T12:21:10-04:00",
-    "hash": "c1daa281bc79b4c5e6f697940ef53509c5f2dfc1",
-    "parents": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
-    "subject": "Editorial: Use consistent algorithm steps to consume the head of a List"
-   }
-  ],
-  "title": "Editorial: Use consistent algorithm steps to consume the head of a List",
-  "updated_at": "2022-10-28T03:29:25Z"
- },
- {
-  "base": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
   "created_at": "2022-10-26T16:19:04Z",
   "head": "1c73e9448cd2b9b2a5b87ecff4d276b00bbba08b",
   "login": "gibson042",
@@ -322,34 +246,6 @@
   ],
   "title": "Editorial: Consistify re \"elements in/of\"",
   "updated_at": "2022-10-22T02:55:06Z"
- },
- {
-  "base": "a6197454c056bc55069b038e7e9a5ce1cd546950",
-  "created_at": "2022-10-18T14:27:29Z",
-  "head": "023d57ad89ad325817d98b16ccd85cfd04ebaeb3",
-  "login": "jmdyck",
-  "number": 2937,
-  "ref": "ClassElementEvaluation_return",
-  "revs": [
-   {
-    "adate": "2022-11-02T16:10:23-07:00",
-    "author": "Michael Ficarra",
-    "date": "2022-11-02T16:10:23-07:00",
-    "hash": "023d57ad89ad325817d98b16ccd85cfd04ebaeb3",
-    "parents": "6f9775b9a98aa1efe907e6bce2f2e99dabd28c54 a6197454c056bc55069b038e7e9a5ce1cd546950",
-    "subject": "Merge branch 'main' into ClassElementEvaluation_return"
-   },
-   {
-    "adate": "2022-10-18T10:21:55-04:00",
-    "author": "Michael Dyck",
-    "date": "2022-10-18T10:21:55-04:00",
-    "hash": "6f9775b9a98aa1efe907e6bce2f2e99dabd28c54",
-    "parents": "dccde53698ab1ddf942fcd571fe674418ee2a955",
-    "subject": "Editorial: Fix ClassElementEvaluation's return type"
-   }
-  ],
-  "title": "Editorial: Fix ClassElementEvaluation's return type",
-  "updated_at": "2022-11-02T23:15:32Z"
  },
  {
   "base": "dccde53698ab1ddf942fcd571fe674418ee2a955",
@@ -1380,24 +1276,32 @@
   "updated_at": "2022-03-02T21:12:59Z"
  },
  {
-  "base": "7575f745f26e9f66b2be481144f37ac4a8a9f1c4",
+  "base": "8410f1b68b81522d3a34753e4ed9be053a162e4b",
   "created_at": "2022-02-15T01:20:33Z",
-  "head": "17bc63d35f5bd4c6b06548b90bf1e028bceb9801",
+  "head": "87d8547b0f925e702a1c858106bf8222294d2c5a",
   "login": "jmdyck",
   "number": 2665,
   "ref": "weird_returns",
   "revs": [
    {
+    "adate": "2022-02-14T23:02:30-05:00",
+    "author": "Michael Dyck",
+    "date": "2022-11-04T16:23:31-04:00",
+    "hash": "87d8547b0f925e702a1c858106bf8222294d2c5a",
+    "parents": "2d27e354074c50a83b5a21fb74c1192fdf1b2be8",
+    "subject": "Factor out RunCallerContext"
+   },
+   {
     "adate": "2022-02-14T15:27:25-05:00",
     "author": "Michael Dyck",
-    "date": "2022-02-27T20:57:24-05:00",
-    "hash": "17bc63d35f5bd4c6b06548b90bf1e028bceb9801",
-    "parents": "7575f745f26e9f66b2be481144f37ac4a8a9f1c4",
+    "date": "2022-11-04T16:23:31-04:00",
+    "hash": "2d27e354074c50a83b5a21fb74c1192fdf1b2be8",
+    "parents": "8410f1b68b81522d3a34753e4ed9be053a162e4b",
     "subject": "Editorial: Eliminate weird `Return` notes"
    }
   ],
   "title": "Editorial: Eliminate weird `Return` notes",
-  "updated_at": "2022-02-28T02:16:27Z"
+  "updated_at": "2022-11-04T21:07:07Z"
  },
  {
   "base": "9bfbf9011467f44c17def1a914043d6740617b6b",
@@ -1708,9 +1612,9 @@
   "updated_at": "2021-07-25T15:08:46Z"
  },
  {
-  "base": "d3e5d6b043a874fa03806342da199d4a5a5d1a49",
+  "base": "8410f1b68b81522d3a34753e4ed9be053a162e4b",
   "created_at": "2021-06-27T15:32:45Z",
-  "head": "972db1268203722b906129e59c14272ef88d8619",
+  "head": "3d0639d28958b3ad2e7f2e589256d150449bb171",
   "login": "jmdyck",
   "number": 2445,
   "ref": "annex_B_pattern_ambig",
@@ -1718,14 +1622,14 @@
    {
     "adate": "2021-06-27T10:54:12-04:00",
     "author": "Michael Dyck",
-    "date": "2022-09-29T19:32:13-04:00",
-    "hash": "972db1268203722b906129e59c14272ef88d8619",
-    "parents": "d3e5d6b043a874fa03806342da199d4a5a5d1a49",
+    "date": "2022-11-04T16:30:42-04:00",
+    "hash": "3d0639d28958b3ad2e7f2e589256d150449bb171",
+    "parents": "8410f1b68b81522d3a34753e4ed9be053a162e4b",
     "subject": "Editorial: Eliminate order-disambiguation from Annex B Pattern-grammar"
    }
   ],
   "title": "Editorial: Eliminate order-disambiguation from Annex B Pattern-grammar",
-  "updated_at": "2022-09-29T23:33:41Z"
+  "updated_at": "2022-11-04T21:11:30Z"
  },
  {
   "base": "61cc3297c96764a256b02b90005550607371a1d1",
@@ -2340,9 +2244,9 @@
   "updated_at": "2021-03-02T20:18:19Z"
  },
  {
-  "base": "8a6d0f17f8af8fc05cbe59aefc349fb598699398",
+  "base": "8410f1b68b81522d3a34753e4ed9be053a162e4b",
   "created_at": "2021-01-24T05:38:33Z",
-  "head": "3bb723944d983acfa46b519a88f55318f3dcead4",
+  "head": "ac458e8a1cc9fad4362f51d0d38bb3a8ac6c1b3e",
   "login": "jmdyck",
   "number": 2288,
   "ref": "declarative_Env_Rec",
@@ -2350,46 +2254,38 @@
    {
     "adate": "2021-01-24T00:30:29-05:00",
     "author": "Michael Dyck",
-    "date": "2022-09-22T21:44:50-04:00",
-    "hash": "3bb723944d983acfa46b519a88f55318f3dcead4",
-    "parents": "af646cc9ccda534c6c9efb0fbc8d6c6b7c4104a5",
+    "date": "2022-11-04T16:26:17-04:00",
+    "hash": "ac458e8a1cc9fad4362f51d0d38bb3a8ac6c1b3e",
+    "parents": "fc1a7a4a42ddcd04ab272424d9b6ffdd374cd474",
     "subject": "Editorial: Model a declarative binding as a Record"
    },
    {
     "adate": "2021-01-23T23:59:22-05:00",
     "author": "Michael Dyck",
-    "date": "2022-09-22T21:43:41-04:00",
-    "hash": "af646cc9ccda534c6c9efb0fbc8d6c6b7c4104a5",
-    "parents": "5e03732b3f19364867110f2f36c5d96537b08e47",
+    "date": "2022-11-04T16:26:17-04:00",
+    "hash": "fc1a7a4a42ddcd04ab272424d9b6ffdd374cd474",
+    "parents": "91aa978c2f78adc05071af335d890c26b40021e2",
     "subject": "Editorial: Declarative Env Rec has field [[Bindings]]"
    },
    {
     "adate": "2021-01-23T23:52:38-05:00",
     "author": "Michael Dyck",
-    "date": "2022-09-22T21:43:41-04:00",
-    "hash": "5e03732b3f19364867110f2f36c5d96537b08e47",
-    "parents": "1f3b0479b2b0c07fe8594a50f90d7dcd09491a0c",
+    "date": "2022-11-04T16:26:17-04:00",
+    "hash": "91aa978c2f78adc05071af335d890c26b40021e2",
+    "parents": "28b615b183db19410bc4025ca318e69e73736d82",
     "subject": "Editorial: Treat a binding as an 'alias-able' thing"
-   },
-   {
-    "adate": "2021-01-23T23:03:21-05:00",
-    "author": "Michael Dyck",
-    "date": "2022-09-22T21:43:07-04:00",
-    "hash": "1f3b0479b2b0c07fe8594a50f90d7dcd09491a0c",
-    "parents": "5eef403a0563c0b129e049991d79a10f415d688f",
-    "subject": "Editorial: Have NewGlobalEnvironment invoke NewDeclarativeEnvironment"
    },
    {
     "adate": "2021-01-23T22:54:21-05:00",
     "author": "Michael Dyck",
-    "date": "2022-09-22T21:43:07-04:00",
-    "hash": "5eef403a0563c0b129e049991d79a10f415d688f",
-    "parents": "8a6d0f17f8af8fc05cbe59aefc349fb598699398",
+    "date": "2022-11-04T16:26:17-04:00",
+    "hash": "28b615b183db19410bc4025ca318e69e73736d82",
+    "parents": "8410f1b68b81522d3a34753e4ed9be053a162e4b",
     "subject": "Editorial: Use Declarative Env Rec's HasBinding method"
    }
   ],
   "title": "Editorial: Model the bindings of a declarative Env Rec as a List of Records",
-  "updated_at": "2022-09-23T01:48:45Z"
+  "updated_at": "2022-11-04T21:08:44Z"
  },
  {
   "base": "7575f745f26e9f66b2be481144f37ac4a8a9f1c4",
@@ -2420,9 +2316,9 @@
   "updated_at": "2022-02-28T20:39:06Z"
  },
  {
-  "base": "3cf8e30e47dd1f010b7d86929670f1e8c51ecc43",
+  "base": "8410f1b68b81522d3a34753e4ed9be053a162e4b",
   "created_at": "2020-12-08T06:31:39Z",
-  "head": "35c103fbffe54b11f9d45b62a27bcce7a99aa9f1",
+  "head": "63afc943d5891f99556462b7cd1b15e6043adb71",
   "login": "jmdyck",
   "number": 2246,
   "ref": "ExecutionContext_Record",
@@ -2430,62 +2326,62 @@
    {
     "adate": "2022-08-31T23:46:33-04:00",
     "author": "Michael Dyck",
-    "date": "2022-09-02T21:31:10-04:00",
-    "hash": "35c103fbffe54b11f9d45b62a27bcce7a99aa9f1",
-    "parents": "efecd9677bd6242c5ff7fa2b75b7a28962ca7507",
+    "date": "2022-11-04T16:27:11-04:00",
+    "hash": "63afc943d5891f99556462b7cd1b15e6043adb71",
+    "parents": "9db56949f21db038b41f87a4a5a55643cb5d6746",
     "subject": "fixup: \"execution context\" -> \"ExecutionContext Record\" in some prose"
    },
    {
     "adate": "2022-08-31T23:31:55-04:00",
     "author": "Michael Dyck",
-    "date": "2022-09-02T21:31:10-04:00",
-    "hash": "efecd9677bd6242c5ff7fa2b75b7a28962ca7507",
-    "parents": "bec99e7b62b389eb4c81da9d8cef0e417da66ada",
+    "date": "2022-11-04T16:27:10-04:00",
+    "hash": "9db56949f21db038b41f87a4a5a55643cb5d6746",
+    "parents": "1ebfc0c4d353c69885081ad7ec8caa408b8f1b56",
     "subject": "fixup: \"execution context\" -> \"ExecutionContext Record\" in some alg steps"
    },
    {
     "adate": "2022-08-31T23:13:29-04:00",
     "author": "Michael Dyck",
-    "date": "2022-09-02T21:31:09-04:00",
-    "hash": "bec99e7b62b389eb4c81da9d8cef0e417da66ada",
-    "parents": "2405447fce69ce9ad4723f866421d50e6977b517",
+    "date": "2022-11-04T16:27:10-04:00",
+    "hash": "1ebfc0c4d353c69885081ad7ec8caa408b8f1b56",
+    "parents": "76075be5df349fa6e4fd40faf8d74d486f783f5a",
     "subject": "fixup: Avoid saying \"that execution context\" by naming it"
    },
    {
     "adate": "2022-08-31T20:30:10-04:00",
     "author": "Michael Dyck",
-    "date": "2022-09-02T21:31:09-04:00",
-    "hash": "2405447fce69ce9ad4723f866421d50e6977b517",
-    "parents": "15d9fcf2294a4789d93d807b29892c416355e730",
+    "date": "2022-11-04T16:27:10-04:00",
+    "hash": "76075be5df349fa6e4fd40faf8d74d486f783f5a",
+    "parents": "fbc0ee72b965cb5c3727f9d8ffd0b21c9cacab2d",
     "subject": "fixup: \"execution context\" -> \"ExecutionContext Record\" in record-field tables"
    },
    {
     "adate": "2022-08-31T20:24:28-04:00",
     "author": "Michael Dyck",
-    "date": "2022-09-02T21:31:09-04:00",
-    "hash": "15d9fcf2294a4789d93d807b29892c416355e730",
-    "parents": "95e44c520f0605df883354247e6e35a13fa191cc",
+    "date": "2022-11-04T16:27:10-04:00",
+    "hash": "fbc0ee72b965cb5c3727f9d8ffd0b21c9cacab2d",
+    "parents": "49c2284e6102b1ca1abc72f788be874539bde575",
     "subject": "fixup: \"execution context\" -> \"ExecutionContext Record\" in AO headers"
    },
    {
     "adate": "2022-08-31T23:32:48-04:00",
     "author": "Michael Dyck",
-    "date": "2022-09-02T21:31:09-04:00",
-    "hash": "95e44c520f0605df883354247e6e35a13fa191cc",
-    "parents": "64266c61cd62aa4069961957f57278176f00b453",
+    "date": "2022-11-04T16:27:10-04:00",
+    "hash": "49c2284e6102b1ca1abc72f788be874539bde575",
+    "parents": "51452d7c06f14f1037c09d0ed9091ac098888512",
     "subject": "fixup: \"execution context\" -> \"ExecutionContext Record\" in the <dfn> of ECMAScript code execution contexts"
    },
    {
     "adate": "2020-12-08T01:22:55-05:00",
     "author": "Michael Dyck",
-    "date": "2022-09-02T21:31:09-04:00",
-    "hash": "64266c61cd62aa4069961957f57278176f00b453",
-    "parents": "3cf8e30e47dd1f010b7d86929670f1e8c51ecc43",
+    "date": "2022-11-04T16:27:10-04:00",
+    "hash": "51452d7c06f14f1037c09d0ed9091ac098888512",
+    "parents": "8410f1b68b81522d3a34753e4ed9be053a162e4b",
     "subject": "Editorial: Model execution context as a record"
    }
   ],
   "title": "Editorial: Model execution context as a record",
-  "updated_at": "2022-09-03T02:46:27Z"
+  "updated_at": "2022-11-04T21:09:46Z"
  },
  {
   "base": "b3f9b5089bcc3ddd8486379015cd11eb1427a5eb",
@@ -3024,9 +2920,9 @@
   "updated_at": "2021-09-29T21:52:34Z"
  },
  {
-  "base": "d3e5d6b043a874fa03806342da199d4a5a5d1a49",
+  "base": "8410f1b68b81522d3a34753e4ed9be053a162e4b",
   "created_at": "2019-07-13T02:30:44Z",
-  "head": "b711495f1533c891d259803cad348e553110d432",
+  "head": "e19f0947f0b7291e0f4cc00703a0de3e10b7363a",
   "login": "jmdyck",
   "number": 1623,
   "ref": "index_strings",
@@ -3034,38 +2930,38 @@
    {
     "adate": "2019-07-12T11:59:54-04:00",
     "author": "Michael Dyck",
-    "date": "2022-09-29T19:18:58-04:00",
-    "hash": "b711495f1533c891d259803cad348e553110d432",
-    "parents": "2c5e17c65d717b9c4e91241ae3172aa97cea14bc",
+    "date": "2022-11-04T16:29:55-04:00",
+    "hash": "e19f0947f0b7291e0f4cc00703a0de3e10b7363a",
+    "parents": "fb2de8e4ed195b717dab43bf3eb7e13a1b0f4d1b",
     "subject": "Editorial: some minor rewordings"
    },
    {
     "adate": "2019-07-12T11:12:43-04:00",
     "author": "Michael Dyck",
-    "date": "2022-09-29T19:17:56-04:00",
-    "hash": "2c5e17c65d717b9c4e91241ae3172aa97cea14bc",
-    "parents": "7043393697bff1e3b94819f95db656a4a178e6b9",
+    "date": "2022-11-04T16:29:55-04:00",
+    "hash": "fb2de8e4ed195b717dab43bf3eb7e13a1b0f4d1b",
+    "parents": "085a8f59fa468a7f08ee82f69699bfa4ea21db5d",
     "subject": "Editorial: Replace \"array index\" with \"Uint32-string\""
    },
    {
     "adate": "2019-07-12T10:23:31-04:00",
     "author": "Michael Dyck",
-    "date": "2022-09-29T19:16:12-04:00",
-    "hash": "7043393697bff1e3b94819f95db656a4a178e6b9",
-    "parents": "bd8840778da3ecb9b53e7dc91d1c39a42752f522",
+    "date": "2022-11-04T16:29:55-04:00",
+    "hash": "085a8f59fa468a7f08ee82f69699bfa4ea21db5d",
+    "parents": "724916e1d0e6ac9570a76e31166a4da856905d9b",
     "subject": "Editorial: Replace \"integer index\" with \"Uint53-string\""
    },
    {
     "adate": "2019-07-12T21:58:00-04:00",
     "author": "Michael Dyck",
-    "date": "2022-09-29T19:16:12-04:00",
-    "hash": "bd8840778da3ecb9b53e7dc91d1c39a42752f522",
-    "parents": "d3e5d6b043a874fa03806342da199d4a5a5d1a49",
+    "date": "2022-11-04T16:29:55-04:00",
+    "hash": "724916e1d0e6ac9570a76e31166a4da856905d9b",
+    "parents": "8410f1b68b81522d3a34753e4ed9be053a162e4b",
     "subject": "Editorial: Fix wording in Note for Arguments exotic objects"
    }
   ],
   "title": "Editorial: Replace terms \"integer index\" and \"array index\"",
-  "updated_at": "2022-09-29T23:21:43Z"
+  "updated_at": "2022-11-04T21:10:43Z"
  },
  {
   "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
