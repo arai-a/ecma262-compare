@@ -1,5 +1,45 @@
 [
  {
+  "adate": "2022-11-03T23:08:55-07:00",
+  "author": "Richard Gibson",
+  "date": "2022-11-03T23:08:55-07:00",
+  "hash": "8410f1b68b81522d3a34753e4ed9be053a162e4b",
+  "parents": "5e1ed48b14810cc0149945b7ca0a5fbac6ef2eb1",
+  "subject": "Editorial: Generalize the note about when StringIndexOf is guaranteed to return -1 (#2950)"
+ },
+ {
+  "adate": "2022-11-03T22:59:01-07:00",
+  "author": "Richard Gibson",
+  "date": "2022-11-03T22:59:01-07:00",
+  "hash": "5e1ed48b14810cc0149945b7ca0a5fbac6ef2eb1",
+  "parents": "2cf3528dc02d16570efb851d62bfde93e536f833",
+  "subject": "Editorial: Simplify Atomics operations (#2948)"
+ },
+ {
+  "adate": "2022-11-03T22:58:09-07:00",
+  "author": "Richard Gibson",
+  "date": "2022-11-03T22:58:09-07:00",
+  "hash": "2cf3528dc02d16570efb851d62bfde93e536f833",
+  "parents": "d1c41cb638f56c2006219418f46b48d872a6f776",
+  "subject": "Editorial: Use consistent algorithm steps to consume the head of a List (#2948)"
+ },
+ {
+  "adate": "2022-11-03T22:51:18-07:00",
+  "author": "Michael Dyck",
+  "date": "2022-11-03T22:51:18-07:00",
+  "hash": "d1c41cb638f56c2006219418f46b48d872a6f776",
+  "parents": "ce4290ea2de3c3867f6ba715e44f9f9484178131",
+  "subject": "Editorial: Fix ClassElementEvaluation's return type (#2937)"
+ },
+ {
+  "adate": "2022-11-02T15:33:07-07:00",
+  "author": "Richard Gibson",
+  "date": "2022-11-02T15:33:07-07:00",
+  "hash": "ce4290ea2de3c3867f6ba715e44f9f9484178131",
+  "parents": "a6197454c056bc55069b038e7e9a5ce1cd546950",
+  "subject": "Editorial: Make better use of list-concatenation (#2949)"
+ },
+ {
   "adate": "2022-11-02T15:21:59-07:00",
   "author": "Michael Ficarra",
   "date": "2022-11-02T15:21:59-07:00",
