@@ -1294,11 +1294,19 @@
  {
   "base": "8410f1b68b81522d3a34753e4ed9be053a162e4b",
   "created_at": "2022-02-15T01:20:33Z",
-  "head": "87d8547b0f925e702a1c858106bf8222294d2c5a",
+  "head": "eea39e04934f2e52d74d054934c122fc418a2c17",
   "login": "jmdyck",
   "number": 2665,
   "ref": "weird_returns",
   "revs": [
+   {
+    "adate": "2022-11-09T09:34:39-05:00",
+    "author": "Michael Dyck",
+    "date": "2022-11-09T09:34:39-05:00",
+    "hash": "eea39e04934f2e52d74d054934c122fc418a2c17",
+    "parents": "87d8547b0f925e702a1c858106bf8222294d2c5a",
+    "subject": "fixup: wording around `Resume`"
+   },
    {
     "adate": "2022-02-14T23:02:30-05:00",
     "author": "Michael Dyck",
@@ -1317,7 +1325,7 @@
    }
   ],
   "title": "Editorial: Eliminate weird `Return` notes",
-  "updated_at": "2022-11-04T21:07:07Z"
+  "updated_at": "2022-11-09T14:39:41Z"
  },
  {
   "base": "9bfbf9011467f44c17def1a914043d6740617b6b",
