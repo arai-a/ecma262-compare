@@ -522,11 +522,19 @@
  {
   "base": "053d34c87b14d9234d6f7f45bd61074b72ca9d69",
   "created_at": "2022-09-05T18:50:04Z",
-  "head": "5c19e5609e5d8f24eff1d438e18cd4e21bdfeef3",
+  "head": "137d591bb1ccc9fe1613aa7aa54e064c0630e370",
   "login": "jmdyck",
   "number": 2898,
   "ref": "FindViaPredicate",
   "revs": [
+   {
+    "adate": "2022-11-16T14:46:55-05:00",
+    "author": "Michael Dyck",
+    "date": "2022-11-16T14:46:55-05:00",
+    "hash": "137d591bb1ccc9fe1613aa7aa54e064c0630e370",
+    "parents": "5c19e5609e5d8f24eff1d438e18cd4e21bdfeef3",
+    "subject": "fixup: add TypedArray.p.find* to esmeta-ignore.json"
+   },
    {
     "adate": "2022-11-16T14:20:51-05:00",
     "author": "Michael Dyck",
@@ -561,7 +569,7 @@
    }
   ],
   "title": "Editorial: Factor out FindViaPredicate",
-  "updated_at": "2022-11-16T19:22:07Z"
+  "updated_at": "2022-11-16T20:18:21Z"
  },
  {
   "base": "8410f1b68b81522d3a34753e4ed9be053a162e4b",
