@@ -2428,9 +2428,9 @@
   "updated_at": "2022-02-28T20:39:06Z"
  },
  {
-  "base": "8410f1b68b81522d3a34753e4ed9be053a162e4b",
+  "base": "1bb98b35dddc1841d29526656436252b56c0d48f",
   "created_at": "2020-12-08T06:31:39Z",
-  "head": "27909cf153e502fd041c8aaf87ddc8f340b1bb5c",
+  "head": "2fe8a9962b72d18a94eb29b73afdc34ee970ed3b",
   "login": "jmdyck",
   "number": 2246,
   "ref": "ExecutionContext_Record",
@@ -2438,78 +2438,78 @@
    {
     "adate": "2022-11-16T17:52:33-05:00",
     "author": "Michael Dyck",
-    "date": "2022-11-16T17:52:33-05:00",
-    "hash": "27909cf153e502fd041c8aaf87ddc8f340b1bb5c",
-    "parents": "20096c3deb1083c60ce309ee44dde8b6310c8a19",
+    "date": "2022-11-17T10:32:49-05:00",
+    "hash": "2fe8a9962b72d18a94eb29b73afdc34ee970ed3b",
+    "parents": "88b0f22caed931aa64aec86bca742aaf0b9cd195",
     "subject": "fixup: try adding PrepareForOrdinaryCall to esmeta-ignore instead of ECMAScriptFunctionObject.Construct"
    },
    {
     "adate": "2022-11-04T17:36:03-04:00",
     "author": "Michael Dyck",
-    "date": "2022-11-04T17:36:03-04:00",
-    "hash": "20096c3deb1083c60ce309ee44dde8b6310c8a19",
-    "parents": "63afc943d5891f99556462b7cd1b15e6043adb71",
+    "date": "2022-11-17T10:32:49-05:00",
+    "hash": "88b0f22caed931aa64aec86bca742aaf0b9cd195",
+    "parents": "092f6e2d5a427315965ce6ac086db649ce5f16ca",
     "subject": "fixup: Add \"ECMAScriptFunctionObject.Construct\" to esmeta-ignore"
    },
    {
     "adate": "2022-08-31T23:46:33-04:00",
     "author": "Michael Dyck",
-    "date": "2022-11-04T16:27:11-04:00",
-    "hash": "63afc943d5891f99556462b7cd1b15e6043adb71",
-    "parents": "9db56949f21db038b41f87a4a5a55643cb5d6746",
+    "date": "2022-11-17T10:32:49-05:00",
+    "hash": "092f6e2d5a427315965ce6ac086db649ce5f16ca",
+    "parents": "284be80dc261293536775d839f0194ff8361f0d4",
     "subject": "fixup: \"execution context\" -> \"ExecutionContext Record\" in some prose"
    },
    {
     "adate": "2022-08-31T23:31:55-04:00",
     "author": "Michael Dyck",
-    "date": "2022-11-04T16:27:10-04:00",
-    "hash": "9db56949f21db038b41f87a4a5a55643cb5d6746",
-    "parents": "1ebfc0c4d353c69885081ad7ec8caa408b8f1b56",
+    "date": "2022-11-17T10:32:46-05:00",
+    "hash": "284be80dc261293536775d839f0194ff8361f0d4",
+    "parents": "97eb4b4cbb0d03810d6e2b9f841f791c37662f13",
     "subject": "fixup: \"execution context\" -> \"ExecutionContext Record\" in some alg steps"
    },
    {
     "adate": "2022-08-31T23:13:29-04:00",
     "author": "Michael Dyck",
-    "date": "2022-11-04T16:27:10-04:00",
-    "hash": "1ebfc0c4d353c69885081ad7ec8caa408b8f1b56",
-    "parents": "76075be5df349fa6e4fd40faf8d74d486f783f5a",
+    "date": "2022-11-17T10:30:06-05:00",
+    "hash": "97eb4b4cbb0d03810d6e2b9f841f791c37662f13",
+    "parents": "07df0cad772dee7ff17e43b8c49982b9ee92c701",
     "subject": "fixup: Avoid saying \"that execution context\" by naming it"
    },
    {
     "adate": "2022-08-31T20:30:10-04:00",
     "author": "Michael Dyck",
-    "date": "2022-11-04T16:27:10-04:00",
-    "hash": "76075be5df349fa6e4fd40faf8d74d486f783f5a",
-    "parents": "fbc0ee72b965cb5c3727f9d8ffd0b21c9cacab2d",
+    "date": "2022-11-17T10:30:06-05:00",
+    "hash": "07df0cad772dee7ff17e43b8c49982b9ee92c701",
+    "parents": "f056c296ba2af07e6d66fd13fb64ee3a16a1e862",
     "subject": "fixup: \"execution context\" -> \"ExecutionContext Record\" in record-field tables"
    },
    {
     "adate": "2022-08-31T20:24:28-04:00",
     "author": "Michael Dyck",
-    "date": "2022-11-04T16:27:10-04:00",
-    "hash": "fbc0ee72b965cb5c3727f9d8ffd0b21c9cacab2d",
-    "parents": "49c2284e6102b1ca1abc72f788be874539bde575",
+    "date": "2022-11-17T10:30:05-05:00",
+    "hash": "f056c296ba2af07e6d66fd13fb64ee3a16a1e862",
+    "parents": "39d0102830a22f81c95586e280f76a5b6700c97e",
     "subject": "fixup: \"execution context\" -> \"ExecutionContext Record\" in AO headers"
    },
    {
     "adate": "2022-08-31T23:32:48-04:00",
     "author": "Michael Dyck",
-    "date": "2022-11-04T16:27:10-04:00",
-    "hash": "49c2284e6102b1ca1abc72f788be874539bde575",
-    "parents": "51452d7c06f14f1037c09d0ed9091ac098888512",
+    "date": "2022-11-17T10:30:05-05:00",
+    "hash": "39d0102830a22f81c95586e280f76a5b6700c97e",
+    "parents": "68d5cfb69721e15acab4c176a340978cf2e63ad9",
     "subject": "fixup: \"execution context\" -> \"ExecutionContext Record\" in the <dfn> of ECMAScript code execution contexts"
    },
    {
     "adate": "2020-12-08T01:22:55-05:00",
     "author": "Michael Dyck",
-    "date": "2022-11-04T16:27:10-04:00",
-    "hash": "51452d7c06f14f1037c09d0ed9091ac098888512",
-    "parents": "8410f1b68b81522d3a34753e4ed9be053a162e4b",
+    "date": "2022-11-17T10:29:59-05:00",
+    "hash": "68d5cfb69721e15acab4c176a340978cf2e63ad9",
+    "parents": "1bb98b35dddc1841d29526656436252b56c0d48f",
     "subject": "Editorial: Model execution context as a record"
    }
   ],
   "title": "Editorial: Model execution context as a record",
-  "updated_at": "2022-11-16T22:53:30Z"
+  "updated_at": "2022-11-17T15:39:54Z"
  },
  {
   "base": "b3f9b5089bcc3ddd8486379015cd11eb1427a5eb",
