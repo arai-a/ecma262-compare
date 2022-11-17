@@ -22,11 +22,27 @@
  {
   "base": "8410f1b68b81522d3a34753e4ed9be053a162e4b",
   "created_at": "2022-11-10T01:16:33Z",
-  "head": "0bb7c85ce0f5b7dfc3f648d61b713486c9506ff6",
+  "head": "f641a60d0f8983dd8400a8afb24522e2b5903e14",
   "login": "gibson042",
   "number": 2955,
   "ref": "2022-11-getnonrevokedproxytarget",
   "revs": [
+   {
+    "adate": "2022-11-16T22:43:00-05:00",
+    "author": "Richard Gibson",
+    "date": "2022-11-16T22:43:00-05:00",
+    "hash": "f641a60d0f8983dd8400a8afb24522e2b5903e14",
+    "parents": "4212bf3cee012b115084003b56a6c0ca2c796a0e",
+    "subject": "Editorial: Fix formatting mistake"
+   },
+   {
+    "adate": "2022-11-16T22:38:12-05:00",
+    "author": "Richard Gibson",
+    "date": "2022-11-16T22:38:12-05:00",
+    "hash": "4212bf3cee012b115084003b56a6c0ca2c796a0e",
+    "parents": "0bb7c85ce0f5b7dfc3f648d61b713486c9506ff6",
+    "subject": "Editorial: Refactor GetNonRevokedProxyTarget into ValidateNonRevokedProxy"
+   },
    {
     "adate": "2022-11-09T20:14:16-05:00",
     "author": "Richard Gibson",
@@ -37,7 +53,7 @@
    }
   ],
   "title": "Editorial: Clarify proxy operations with a named helper operation",
-  "updated_at": "2022-11-10T02:10:17Z"
+  "updated_at": "2022-11-17T03:46:45Z"
  },
  {
   "base": "053d34c87b14d9234d6f7f45bd61074b72ca9d69",
@@ -1378,26 +1394,6 @@
   ],
   "title": "Move class and method related abstract operations to more relevant section",
   "updated_at": "2022-03-02T21:12:59Z"
- },
- {
-  "base": "053d34c87b14d9234d6f7f45bd61074b72ca9d69",
-  "created_at": "2022-02-15T01:20:33Z",
-  "head": "2d27e354074c50a83b5a21fb74c1192fdf1b2be8",
-  "login": "jmdyck",
-  "number": 2665,
-  "ref": "weird_returns",
-  "revs": [
-   {
-    "adate": "2022-02-14T15:27:25-05:00",
-    "author": "Michael Dyck",
-    "date": "2022-11-04T16:23:31-04:00",
-    "hash": "2d27e354074c50a83b5a21fb74c1192fdf1b2be8",
-    "parents": "8410f1b68b81522d3a34753e4ed9be053a162e4b",
-    "subject": "Editorial: Eliminate weird `Return` notes"
-   }
-  ],
-  "title": "Editorial: Eliminate weird `Return` notes",
-  "updated_at": "2022-11-10T16:01:04Z"
  },
  {
   "base": "9bfbf9011467f44c17def1a914043d6740617b6b",
