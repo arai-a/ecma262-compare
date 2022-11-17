@@ -1,6 +1,34 @@
 [
  {
   "base": "1bb98b35dddc1841d29526656436252b56c0d48f",
+  "created_at": "2022-11-17T21:02:22Z",
+  "head": "242ab0d039f9c29db7b2e3eb660a47d63c6ba55f",
+  "login": "jmdyck",
+  "number": 2959,
+  "ref": "Await",
+  "revs": [
+   {
+    "adate": "2022-11-17T15:53:21-05:00",
+    "author": "Michael Dyck",
+    "date": "2022-11-17T15:53:21-05:00",
+    "hash": "242ab0d039f9c29db7b2e3eb660a47d63c6ba55f",
+    "parents": "a86d20c056850b6872b366211305585dd13a6eb8",
+    "subject": "Editorial: Move the `Await` section"
+   },
+   {
+    "adate": "2022-11-17T15:33:44-05:00",
+    "author": "Michael Dyck",
+    "date": "2022-11-17T15:43:02-05:00",
+    "hash": "a86d20c056850b6872b366211305585dd13a6eb8",
+    "parents": "1bb98b35dddc1841d29526656436252b56c0d48f",
+    "subject": "Editorial: Convert 'Await' from a macro into an AO"
+   }
+  ],
+  "title": "Editorial: Convert `Await` from a shorthand to an abstract operation",
+  "updated_at": "2022-11-17T21:13:41Z"
+ },
+ {
+  "base": "1bb98b35dddc1841d29526656436252b56c0d48f",
   "created_at": "2022-11-17T06:47:06Z",
   "head": "4f057060a3f4a4d25d3e376f12e68b96488faaa3",
   "login": "tc39",
