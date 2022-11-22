@@ -2,7 +2,7 @@
  {
   "base": "a5f5f8036814185456d7ec65a670750fe50ab10c",
   "created_at": "2022-11-22T04:48:42Z",
-  "head": "514b0b45384d38b9e9aea99c7b4aec8d43658052",
+  "head": "6e98e38793d4fe7638a917003d2b7c302a57ed36",
   "login": "jmdyck",
   "number": 2962,
   "ref": "transfer",
@@ -10,24 +10,24 @@
    {
     "adate": "2022-11-21T22:50:15-05:00",
     "author": "Michael Dyck",
-    "date": "2022-11-21T23:38:03-05:00",
-    "hash": "514b0b45384d38b9e9aea99c7b4aec8d43658052",
-    "parents": "fd2b01e8c88102c54a60d802ac13c5f851a0e215",
+    "date": "2022-11-22T17:54:39-05:00",
+    "hash": "6e98e38793d4fe7638a917003d2b7c302a57ed36",
+    "parents": "2235b24a3f5f73ce905fdc2487d4e32ad53ae00d",
     "subject": "Execution Context section: Make the EC Stack subsection"
    },
    {
     "adate": "2022-11-21T22:21:11-05:00",
     "author": "Michael Dyck",
-    "date": "2022-11-21T23:38:03-05:00",
-    "hash": "fd2b01e8c88102c54a60d802ac13c5f851a0e215",
-    "parents": "6fc7e2a8ca1ea01096bf400babb4c16e2ef24503",
+    "date": "2022-11-22T17:54:39-05:00",
+    "hash": "2235b24a3f5f73ce905fdc2487d4e32ad53ae00d",
+    "parents": "50dd8161bfe230225bf74c8db05d11ef7d2d1619",
     "subject": "Execution Context section: Move a paragraph"
    },
    {
     "adate": "2022-11-21T22:10:01-05:00",
     "author": "Michael Dyck",
-    "date": "2022-11-21T23:38:03-05:00",
-    "hash": "6fc7e2a8ca1ea01096bf400babb4c16e2ef24503",
+    "date": "2022-11-22T17:54:39-05:00",
+    "hash": "50dd8161bfe230225bf74c8db05d11ef7d2d1619",
     "parents": "c03f9cee039dbb6282ac9f0e8f6092d620ed75f6",
     "subject": "Resume+Suspend: Eliminate `Suspend` steps"
    },
@@ -89,7 +89,7 @@
    }
   ],
   "title": "Editorial: Various changes around execution contexts",
-  "updated_at": "2022-11-22T04:48:42Z"
+  "updated_at": "2022-11-22T22:58:53Z"
  },
  {
   "base": "a5f5f8036814185456d7ec65a670750fe50ab10c",
