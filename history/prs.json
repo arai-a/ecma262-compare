@@ -162,11 +162,19 @@
  {
   "base": "053d34c87b14d9234d6f7f45bd61074b72ca9d69",
   "created_at": "2022-11-12T00:37:37Z",
-  "head": "46cac3302bed7597e75b2167955c4ae2cf2b1e4c",
+  "head": "1d56c91a41a516565ffb73769300fdbb705464f2",
   "login": "syg",
   "number": 2957,
   "ref": "template-array-liveness",
   "revs": [
+   {
+    "adate": "2022-11-29T01:34:44-08:00",
+    "author": "Shu-yu Guo",
+    "date": "2022-11-29T01:35:56-08:00",
+    "hash": "1d56c91a41a516565ffb73769300fdbb705464f2",
+    "parents": "46cac3302bed7597e75b2167955c4ae2cf2b1e4c",
+    "subject": "Rework"
+   },
    {
     "adate": "2022-11-11T14:32:41-08:00",
     "author": "Shu-yu Guo",
@@ -177,7 +185,7 @@
    }
   ],
   "title": "Normative: Spec liveness constraint for template objects",
-  "updated_at": "2022-11-12T00:37:57Z"
+  "updated_at": "2022-11-29T09:36:27Z"
  },
  {
   "base": "8410f1b68b81522d3a34753e4ed9be053a162e4b",
@@ -666,70 +674,78 @@
  {
   "base": "a5f5f8036814185456d7ec65a670750fe50ab10c",
   "created_at": "2022-09-15T14:35:44Z",
-  "head": "9885d32d35fc438460d68f4bc2eb2091b1962dba",
+  "head": "f2ea1adbc575b9a2bbb5afceb32cdf1ed641f157",
   "login": "nicolo-ribaudo",
   "number": 2905,
   "ref": "refactor-import-host-hooks",
   "revs": [
    {
+    "adate": "2022-11-29T10:46:42+01:00",
+    "author": "Nicol\u00f2 Ribaudo",
+    "date": "2022-11-29T10:56:14+01:00",
+    "hash": "f2ea1adbc575b9a2bbb5afceb32cdf1ed641f157",
+    "parents": "e3f89e01ad67f9b46079ae2d4c3f3c2cf6282bdb",
+    "subject": "Review by jmdyck"
+   },
+   {
     "adate": "2022-11-25T17:17:14+01:00",
     "author": "Nicol\u00f2 Ribaudo",
-    "date": "2022-11-25T17:17:14+01:00",
-    "hash": "9885d32d35fc438460d68f4bc2eb2091b1962dba",
-    "parents": "173130f8fc1ec2e5c8203493f7bf3bac88d016bc",
+    "date": "2022-11-29T10:56:13+01:00",
+    "hash": "e3f89e01ad67f9b46079ae2d4c3f3c2cf6282bdb",
+    "parents": "96e7ff34529a2311a9f6eb2c9cc9e86c3bc887fa",
     "subject": "Add xref to note"
    },
    {
     "adate": "2022-11-25T17:17:12+01:00",
     "author": "Nicol\u00f2 Ribaudo",
-    "date": "2022-11-25T17:17:12+01:00",
-    "hash": "173130f8fc1ec2e5c8203493f7bf3bac88d016bc",
-    "parents": "e0cae23d97f1fb3e7f67ecd058ac0ad40d36d4c2",
+    "date": "2022-11-29T10:56:13+01:00",
+    "hash": "96e7ff34529a2311a9f6eb2c9cc9e86c3bc887fa",
+    "parents": "b3c46848b89b18961e7fdeca233007d47f8379da",
     "subject": "Review by bakkot"
    },
    {
     "adate": "2022-11-25T17:17:10+01:00",
     "author": "Nicol\u00f2 Ribaudo",
-    "date": "2022-11-25T17:17:10+01:00",
-    "hash": "e0cae23d97f1fb3e7f67ecd058ac0ad40d36d4c2",
-    "parents": "b74c41a4c23b44481c84f1fcafb6672c37b9efae",
+    "date": "2022-11-29T10:56:12+01:00",
+    "hash": "b3c46848b89b18961e7fdeca233007d47f8379da",
+    "parents": "e9e917309d074919159734fd9434ff2a4dd1f63b",
     "subject": "> ecma262@1.0.0 format > emu-format --write spec.html"
    },
    {
     "adate": "2022-11-25T17:17:08+01:00",
     "author": "Nicol\u00f2 Ribaudo",
-    "date": "2022-11-25T17:17:08+01:00",
-    "hash": "b74c41a4c23b44481c84f1fcafb6672c37b9efae",
-    "parents": "0192bfdfad6ee4e1ceaf4b84b15b134a571a652d",
+    "date": "2022-11-29T10:56:12+01:00",
+    "hash": "e9e917309d074919159734fd9434ff2a4dd1f63b",
+    "parents": "fe6232d2735bdde0f8bbd0cceaebf0cff483bb82",
     "subject": "Review by jmdyck"
    },
    {
     "adate": "2022-11-25T17:17:06+01:00",
     "author": "Nicol\u00f2 Ribaudo",
-    "date": "2022-11-25T17:17:06+01:00",
-    "hash": "0192bfdfad6ee4e1ceaf4b84b15b134a571a652d",
-    "parents": "7f8d266b6701960f39cbdbcb7bdfe86953bf9239",
+    "date": "2022-11-29T10:56:11+01:00",
+    "hash": "fe6232d2735bdde0f8bbd0cceaebf0cff483bb82",
+    "parents": "9e030d6dd2acc7e1625d8678466a36862af0c227",
     "subject": "Fixes after rebase"
    },
    {
     "adate": "2022-11-25T17:17:02+01:00",
     "author": "Nicol\u00f2 Ribaudo",
-    "date": "2022-11-25T17:17:02+01:00",
-    "hash": "7f8d266b6701960f39cbdbcb7bdfe86953bf9239",
-    "parents": "65a770a2e7f9fd475d967712f0033fba0feb076f",
+    "date": "2022-11-29T10:56:10+01:00",
+    "hash": "9e030d6dd2acc7e1625d8678466a36862af0c227",
+    "parents": "2b7c97042552c193ae4f22cf03b21bb7e75df79e",
     "subject": "Require LoadRequestedModules before ResolveExport and GetExportedNames"
    },
    {
     "adate": "2022-11-25T17:16:58+01:00",
     "author": "Nicol\u00f2 Ribaudo",
-    "date": "2022-11-25T17:16:58+01:00",
-    "hash": "65a770a2e7f9fd475d967712f0033fba0feb076f",
-    "parents": "053d34c87b14d9234d6f7f45bd61074b72ca9d69",
+    "date": "2022-11-29T10:56:10+01:00",
+    "hash": "2b7c97042552c193ae4f22cf03b21bb7e75df79e",
+    "parents": "a5f5f8036814185456d7ec65a670750fe50ab10c",
     "subject": "Layering: Add HostLoadImportedModule hook"
    }
   ],
   "title": "Layering: Add HostLoadImportedModule hook",
-  "updated_at": "2022-11-25T16:17:38Z"
+  "updated_at": "2022-11-29T10:08:15Z"
  },
  {
   "base": "8410f1b68b81522d3a34753e4ed9be053a162e4b",
