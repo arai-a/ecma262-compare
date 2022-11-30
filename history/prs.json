@@ -1,25 +1,5 @@
 [
  {
-  "base": "e26fa783214713b0053a15010a4e76c2201c02b3",
-  "created_at": "2022-11-30T09:47:08Z",
-  "head": "a1fd020f3790acebceffd969ee6ae12b9b1e92d5",
-  "login": "tc39",
-  "number": 2966,
-  "ref": "update-esmeta",
-  "revs": [
-   {
-    "adate": "2022-11-30T02:45:37-07:00",
-    "author": "Michael Ficarra",
-    "date": "2022-11-30T02:53:04-07:00",
-    "hash": "a1fd020f3790acebceffd969ee6ae12b9b1e92d5",
-    "parents": "e26fa783214713b0053a15010a4e76c2201c02b3",
-    "subject": "upgrade esmeta to v0.1.0"
-   }
-  ],
-  "title": "Meta: upgrade esmeta to v0.1.0",
-  "updated_at": "2022-11-30T09:53:11Z"
- },
- {
   "base": "a5f5f8036814185456d7ec65a670750fe50ab10c",
   "created_at": "2022-11-29T15:42:20Z",
   "head": "9a3f2e77a82067bdabf9453a907afcdc065cc5c4",
@@ -592,9 +572,9 @@
   "updated_at": "2022-10-09T20:09:20Z"
  },
  {
-  "base": "e26fa783214713b0053a15010a4e76c2201c02b3",
+  "base": "ee74c9cb74dbfa23e62b486f5226102c345c678e",
   "created_at": "2022-09-29T13:38:14Z",
-  "head": "6b058c2ce2ce81f2ced6e3e60692924eb41104d5",
+  "head": "61e10a8ff42dd6eef637edccc25c5d3710c278bc",
   "login": "jhnaldo",
   "number": 2924,
   "ref": "fix-empty-return-type",
@@ -602,30 +582,22 @@
    {
     "adate": "2022-11-30T03:00:52-07:00",
     "author": "Michael Ficarra",
-    "date": "2022-11-30T03:00:52-07:00",
-    "hash": "6b058c2ce2ce81f2ced6e3e60692924eb41104d5",
-    "parents": "f1dc40a1cbefa37d11be1849e6b6c8e0656eb362",
+    "date": "2022-11-30T06:37:13-07:00",
+    "hash": "61e10a8ff42dd6eef637edccc25c5d3710c278bc",
+    "parents": "4f5c7e045127bda85d2b6ff4e5da66f06fc6278f",
     "subject": "update esmeta ignores"
    },
    {
     "adate": "2022-09-29T22:33:37+09:00",
     "author": "jhnaldo",
-    "date": "2022-11-30T02:59:36-07:00",
-    "hash": "f1dc40a1cbefa37d11be1849e6b6c8e0656eb362",
-    "parents": "a1fd020f3790acebceffd969ee6ae12b9b1e92d5",
+    "date": "2022-11-30T06:37:13-07:00",
+    "hash": "4f5c7e045127bda85d2b6ff4e5da66f06fc6278f",
+    "parents": "ee74c9cb74dbfa23e62b486f5226102c345c678e",
     "subject": "Fixed return types of algorithms returning ~empty~"
-   },
-   {
-    "adate": "2022-11-30T02:45:37-07:00",
-    "author": "Michael Ficarra",
-    "date": "2022-11-30T02:53:04-07:00",
-    "hash": "a1fd020f3790acebceffd969ee6ae12b9b1e92d5",
-    "parents": "e26fa783214713b0053a15010a4e76c2201c02b3",
-    "subject": "upgrade esmeta to v0.1.0"
    }
   ],
   "title": "Fixed return types of algorithms returning ~empty~",
-  "updated_at": "2022-11-30T10:01:53Z"
+  "updated_at": "2022-11-30T13:52:36Z"
  },
  {
   "base": "231f2709f4d888f13df2907e1b6b5cd5920e0ff3",
