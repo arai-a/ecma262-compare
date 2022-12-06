@@ -1,5 +1,25 @@
 [
  {
+  "base": "ee74c9cb74dbfa23e62b486f5226102c345c678e",
+  "created_at": "2022-12-06T01:22:06Z",
+  "head": "ec76259767bbcc150582880b4fca76259322c42d",
+  "login": "tc39",
+  "number": 2969,
+  "ref": "builtin-functions-are-ordinary-too",
+  "revs": [
+   {
+    "adate": "2022-12-05T18:18:31-07:00",
+    "author": "Michael Ficarra",
+    "date": "2022-12-05T18:18:31-07:00",
+    "hash": "ec76259767bbcc150582880b4fca76259322c42d",
+    "parents": "ee74c9cb74dbfa23e62b486f5226102c345c678e",
+    "subject": "Editorial: consider built-in functions to be ordinary objects"
+   }
+  ],
+  "title": "Editorial: consider built-in functions to be ordinary objects",
+  "updated_at": "2022-12-06T01:37:02Z"
+ },
+ {
   "base": "a5f5f8036814185456d7ec65a670750fe50ab10c",
   "created_at": "2022-11-29T15:42:20Z",
   "head": "9a3f2e77a82067bdabf9453a907afcdc065cc5c4",
