@@ -86,11 +86,19 @@
  {
   "base": "ee74c9cb74dbfa23e62b486f5226102c345c678e",
   "created_at": "2022-12-06T01:22:06Z",
-  "head": "ec76259767bbcc150582880b4fca76259322c42d",
+  "head": "eb70a3ae8ec0f987abee77779f935be78e64e510",
   "login": "tc39",
   "number": 2969,
   "ref": "builtin-functions-are-ordinary-too",
   "revs": [
+   {
+    "adate": "2022-12-07T15:00:04-07:00",
+    "author": "Michael Ficarra",
+    "date": "2022-12-07T15:00:04-07:00",
+    "hash": "eb70a3ae8ec0f987abee77779f935be78e64e510",
+    "parents": "ec76259767bbcc150582880b4fca76259322c42d",
+    "subject": "grammar"
+   },
    {
     "adate": "2022-12-05T18:18:31-07:00",
     "author": "Michael Ficarra",
@@ -101,7 +109,7 @@
    }
   ],
   "title": "Editorial: consider built-in functions to be ordinary objects",
-  "updated_at": "2022-12-06T01:37:02Z"
+  "updated_at": "2022-12-07T22:00:10Z"
  },
  {
   "base": "a5f5f8036814185456d7ec65a670750fe50ab10c",
@@ -958,11 +966,19 @@
  {
   "base": "ee74c9cb74dbfa23e62b486f5226102c345c678e",
   "created_at": "2022-08-30T16:04:08Z",
-  "head": "fff724a5450751bb8ae4f91d6272fd78c54b2cfe",
+  "head": "f36a44ee73df6dde4e5a9635ea584e9bd3cdb52a",
   "login": "tc39",
   "number": 2877,
   "ref": "comparison-consistency",
   "revs": [
+   {
+    "adate": "2022-12-07T14:44:27-07:00",
+    "author": "Michael Ficarra",
+    "date": "2022-12-07T14:48:24-07:00",
+    "hash": "f36a44ee73df6dde4e5a9635ea584e9bd3cdb52a",
+    "parents": "fff724a5450751bb8ae4f91d6272fd78c54b2cfe",
+    "subject": "whose [[]]"
+   },
    {
     "adate": "2022-12-07T00:29:49-05:00",
     "author": "Michael Dyck",
@@ -1021,7 +1037,7 @@
    }
   ],
   "title": "various editorial changes for comparisons",
-  "updated_at": "2022-12-07T20:56:35Z"
+  "updated_at": "2022-12-07T21:48:47Z"
  },
  {
   "base": "dceb9e45fa04ff37a213095e97a28da81bf213ec",
