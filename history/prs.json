@@ -1,96 +1,20 @@
 [
  {
-  "base": "fff724a5450751bb8ae4f91d6272fd78c54b2cfe",
-  "created_at": "2022-12-07T05:43:34Z",
-  "head": "8fb2f4b3fec21cfa4314b9f04ca2b70b5f4c048c",
-  "login": "jmdyck",
-  "number": 2970,
-  "ref": "2877_ed",
-  "revs": [
-   {
-    "adate": "2022-12-07T00:25:09-05:00",
-    "author": "Michael Dyck",
-    "date": "2022-12-07T12:56:53-08:00",
-    "hash": "8fb2f4b3fec21cfa4314b9f04ca2b70b5f4c048c",
-    "parents": "82d2cdc8147f4515309ead3c6c1c2ca62b7be76a",
-    "subject": "\"is the same Parse Node as\" -> \"is\""
-   },
-   {
-    "adate": "2022-12-06T23:17:11-05:00",
-    "author": "Michael Dyck",
-    "date": "2022-12-07T12:56:53-08:00",
-    "hash": "82d2cdc8147f4515309ead3c6c1c2ca62b7be76a",
-    "parents": "fff724a5450751bb8ae4f91d6272fd78c54b2cfe",
-    "subject": "Revert \"a new ExportEntry Record\" to \"the ExportEntry Record\""
-   },
-   {
-    "adate": "2022-12-07T00:29:49-05:00",
-    "author": "Michael Dyck",
-    "date": "2022-12-07T13:56:17-07:00",
-    "hash": "fff724a5450751bb8ae4f91d6272fd78c54b2cfe",
-    "parents": "180d6c4341a67b61d3dd031ff60f9ccc4afda7e8",
-    "subject": "\"has a binding for the name _N_\" -> \"has a binding for _N_\""
-   },
-   {
-    "adate": "2022-12-07T00:28:12-05:00",
-    "author": "Michael Dyck",
-    "date": "2022-12-07T13:56:16-07:00",
-    "hash": "180d6c4341a67b61d3dd031ff60f9ccc4afda7e8",
-    "parents": "1bb19a79c95a3a150bf361ce5d842c36d2ca1095",
-    "subject": "use standard phrasing for a set of alternatives"
-   },
-   {
-    "adate": "2022-12-07T00:26:31-05:00",
-    "author": "Michael Dyck",
-    "date": "2022-12-07T13:56:16-07:00",
-    "hash": "1bb19a79c95a3a150bf361ce5d842c36d2ca1095",
-    "parents": "90d69a6c00f6c860d8ac030e4440b06ac1459c26",
-    "subject": "\"is:\" -> \"is\""
-   },
-   {
-    "adate": "2022-12-06T23:55:20-05:00",
-    "author": "Michael Dyck",
-    "date": "2022-12-07T13:56:16-07:00",
-    "hash": "90d69a6c00f6c860d8ac030e4440b06ac1459c26",
-    "parents": "942e5ae5fa85d1269eec60272be9e37f75da3885",
-    "subject": "Eliminate \"are the same Shared Data Block values\""
-   },
-   {
-    "adate": "2022-12-06T23:39:15-05:00",
-    "author": "Michael Dyck",
-    "date": "2022-12-07T13:56:16-07:00",
-    "hash": "942e5ae5fa85d1269eec60272be9e37f75da3885",
-    "parents": "8fb9d45990cda422fa38ab22264ed4a17756e952",
-    "subject": "ToIntegerOrInfinity -> ToUint32"
-   },
-   {
-    "adate": "2022-12-06T23:21:03-05:00",
-    "author": "Michael Dyck",
-    "date": "2022-12-07T13:56:16-07:00",
-    "hash": "8fb9d45990cda422fa38ab22264ed4a17756e952",
-    "parents": "d1ec874e4b831c931aa2e86a6d276c732688a784",
-    "subject": "Don't repeat the guard within the scope of the guard"
-   },
-   {
-    "adate": "2022-07-08T17:55:36-06:00",
-    "author": "Michael Ficarra",
-    "date": "2022-12-05T14:25:01-07:00",
-    "hash": "d1ec874e4b831c931aa2e86a6d276c732688a784",
-    "parents": "ee74c9cb74dbfa23e62b486f5226102c345c678e",
-    "subject": "various editorial changes for comparisons"
-   }
-  ],
-  "title": "More suggested changes for PR #2877",
-  "updated_at": "2022-12-07T21:03:20Z"
- },
- {
   "base": "ee74c9cb74dbfa23e62b486f5226102c345c678e",
   "created_at": "2022-12-06T01:22:06Z",
-  "head": "eb70a3ae8ec0f987abee77779f935be78e64e510",
+  "head": "b88b73fcee41c15c6efb782eacc5553f908bfb71",
   "login": "tc39",
   "number": 2969,
   "ref": "builtin-functions-are-ordinary-too",
   "revs": [
+   {
+    "adate": "2022-12-07T16:09:58-07:00",
+    "author": "Michael Ficarra",
+    "date": "2022-12-07T16:09:58-07:00",
+    "hash": "b88b73fcee41c15c6efb782eacc5553f908bfb71",
+    "parents": "eb70a3ae8ec0f987abee77779f935be78e64e510",
+    "subject": "exotic"
+   },
    {
     "adate": "2022-12-07T15:00:04-07:00",
     "author": "Michael Ficarra",
@@ -109,7 +33,7 @@
    }
   ],
   "title": "Editorial: consider built-in functions to be ordinary objects",
-  "updated_at": "2022-12-07T22:00:10Z"
+  "updated_at": "2022-12-07T23:13:24Z"
  },
  {
   "base": "a5f5f8036814185456d7ec65a670750fe50ab10c",
