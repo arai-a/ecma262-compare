@@ -1,39 +1,23 @@
 [
  {
-  "base": "ee74c9cb74dbfa23e62b486f5226102c345c678e",
+  "base": "18d41aab8c068f8f00d741b1b2ee9011322c430f",
   "created_at": "2022-12-06T01:22:06Z",
-  "head": "b88b73fcee41c15c6efb782eacc5553f908bfb71",
+  "head": "907276f4e2c35c1855a8cbf77513d4b87a3e43c8",
   "login": "tc39",
   "number": 2969,
   "ref": "builtin-functions-are-ordinary-too",
   "revs": [
    {
-    "adate": "2022-12-07T16:09:58-07:00",
+    "adate": "2022-12-09T21:55:19-08:00",
     "author": "Michael Ficarra",
-    "date": "2022-12-07T16:09:58-07:00",
-    "hash": "b88b73fcee41c15c6efb782eacc5553f908bfb71",
-    "parents": "eb70a3ae8ec0f987abee77779f935be78e64e510",
-    "subject": "exotic"
-   },
-   {
-    "adate": "2022-12-07T15:00:04-07:00",
-    "author": "Michael Ficarra",
-    "date": "2022-12-07T15:00:04-07:00",
-    "hash": "eb70a3ae8ec0f987abee77779f935be78e64e510",
-    "parents": "ec76259767bbcc150582880b4fca76259322c42d",
-    "subject": "grammar"
-   },
-   {
-    "adate": "2022-12-05T18:18:31-07:00",
-    "author": "Michael Ficarra",
-    "date": "2022-12-05T18:18:31-07:00",
-    "hash": "ec76259767bbcc150582880b4fca76259322c42d",
-    "parents": "ee74c9cb74dbfa23e62b486f5226102c345c678e",
-    "subject": "Editorial: consider built-in functions to be ordinary objects"
+    "date": "2022-12-09T21:55:19-08:00",
+    "hash": "907276f4e2c35c1855a8cbf77513d4b87a3e43c8",
+    "parents": "18d41aab8c068f8f00d741b1b2ee9011322c430f",
+    "subject": "Editorial: consider built-in functions to be ordinary objects (#2969)"
    }
   ],
   "title": "Editorial: consider built-in functions to be ordinary objects",
-  "updated_at": "2022-12-07T23:13:24Z"
+  "updated_at": "2022-12-10T05:55:36Z"
  },
  {
   "base": "a5f5f8036814185456d7ec65a670750fe50ab10c",
@@ -696,90 +680,6 @@
   "updated_at": "2022-10-11T16:27:42Z"
  },
  {
-  "base": "e26fa783214713b0053a15010a4e76c2201c02b3",
-  "created_at": "2022-09-15T14:35:44Z",
-  "head": "0413272b00a32bfc10fe61ababdcee27f4d8fb34",
-  "login": "nicolo-ribaudo",
-  "number": 2905,
-  "ref": "refactor-import-host-hooks",
-  "revs": [
-   {
-    "adate": "2022-11-29T22:44:55+01:00",
-    "author": "Nicol\u00f2 Ribaudo",
-    "date": "2022-11-29T22:44:55+01:00",
-    "hash": "0413272b00a32bfc10fe61ababdcee27f4d8fb34",
-    "parents": "7e035406a130242c055b56bd698a3b8c2f1d0b5a",
-    "subject": "Review by jmdyck"
-   },
-   {
-    "adate": "2022-11-29T10:46:42+01:00",
-    "author": "Nicol\u00f2 Ribaudo",
-    "date": "2022-11-29T22:41:56+01:00",
-    "hash": "7e035406a130242c055b56bd698a3b8c2f1d0b5a",
-    "parents": "1039fa0d58b1f892eaf83beb42c5ac1598615bb7",
-    "subject": "Review by jmdyck"
-   },
-   {
-    "adate": "2022-11-25T17:17:14+01:00",
-    "author": "Nicol\u00f2 Ribaudo",
-    "date": "2022-11-29T22:41:55+01:00",
-    "hash": "1039fa0d58b1f892eaf83beb42c5ac1598615bb7",
-    "parents": "e6ec7301f6ede4f674ad36f5ea1febdc684cb4d9",
-    "subject": "Add xref to note"
-   },
-   {
-    "adate": "2022-11-25T17:17:12+01:00",
-    "author": "Nicol\u00f2 Ribaudo",
-    "date": "2022-11-29T22:41:55+01:00",
-    "hash": "e6ec7301f6ede4f674ad36f5ea1febdc684cb4d9",
-    "parents": "2bef1d9d4962d9cd30294c2773bd3ef4424e5be3",
-    "subject": "Review by bakkot"
-   },
-   {
-    "adate": "2022-11-25T17:17:10+01:00",
-    "author": "Nicol\u00f2 Ribaudo",
-    "date": "2022-11-29T22:41:54+01:00",
-    "hash": "2bef1d9d4962d9cd30294c2773bd3ef4424e5be3",
-    "parents": "7359a985c39ce279cba38cb934c8bc78dab4874d",
-    "subject": "> ecma262@1.0.0 format > emu-format --write spec.html"
-   },
-   {
-    "adate": "2022-11-25T17:17:08+01:00",
-    "author": "Nicol\u00f2 Ribaudo",
-    "date": "2022-11-29T22:41:54+01:00",
-    "hash": "7359a985c39ce279cba38cb934c8bc78dab4874d",
-    "parents": "214c92fb7398a46b178a0c042c46def43692d58a",
-    "subject": "Review by jmdyck"
-   },
-   {
-    "adate": "2022-11-25T17:17:06+01:00",
-    "author": "Nicol\u00f2 Ribaudo",
-    "date": "2022-11-29T22:41:53+01:00",
-    "hash": "214c92fb7398a46b178a0c042c46def43692d58a",
-    "parents": "475876e230e25b10d09ef8b8b853b491157e4247",
-    "subject": "Fixes after rebase"
-   },
-   {
-    "adate": "2022-11-25T17:17:02+01:00",
-    "author": "Nicol\u00f2 Ribaudo",
-    "date": "2022-11-29T22:41:53+01:00",
-    "hash": "475876e230e25b10d09ef8b8b853b491157e4247",
-    "parents": "fdc7c5f97361218b7e633cfde6105c82ff5a1af7",
-    "subject": "Require LoadRequestedModules before ResolveExport and GetExportedNames"
-   },
-   {
-    "adate": "2022-11-25T17:16:58+01:00",
-    "author": "Nicol\u00f2 Ribaudo",
-    "date": "2022-11-29T22:41:47+01:00",
-    "hash": "fdc7c5f97361218b7e633cfde6105c82ff5a1af7",
-    "parents": "e26fa783214713b0053a15010a4e76c2201c02b3",
-    "subject": "Layering: Add HostLoadImportedModule hook"
-   }
-  ],
-  "title": "Layering: Add HostLoadImportedModule hook",
-  "updated_at": "2022-11-29T21:45:54Z"
- },
- {
   "base": "053d34c87b14d9234d6f7f45bd61074b72ca9d69",
   "created_at": "2022-09-05T18:50:04Z",
   "head": "b18422ecb9e2bee5a6dfd1d8f60651472c926d6c",
@@ -1154,26 +1054,6 @@
   ],
   "title": "Editorial: Remove incorrect setting of the AsyncEvaluation state to false",
   "updated_at": "2022-07-13T12:40:36Z"
- },
- {
-  "base": "ee74c9cb74dbfa23e62b486f5226102c345c678e",
-  "created_at": "2022-07-07T19:42:09Z",
-  "head": "99b176b1997ac4f0cc3eda26b68264f050a335ca",
-  "login": "tc39",
-  "number": 2819,
-  "ref": "async-generator-yield-await-2",
-  "revs": [
-   {
-    "adate": "2022-12-04T13:33:50-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2022-12-04T13:33:50-08:00",
-    "hash": "99b176b1997ac4f0cc3eda26b68264f050a335ca",
-    "parents": "ee74c9cb74dbfa23e62b486f5226102c345c678e",
-    "subject": "Normative: avoid mostly-redundant await in async `yield*` (#2819)"
-   }
-  ],
-  "title": "Normative: avoid mostly-redundant `await` in async `yield*`",
-  "updated_at": "2022-12-04T21:34:31Z"
  },
  {
   "base": "e61fbe1162d3b6b80848c3535cece3e36f4c08fb",
