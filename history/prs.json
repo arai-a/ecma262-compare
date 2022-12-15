@@ -1,5 +1,81 @@
 [
  {
+  "base": "578f18fc041d0c507acb764ddf6bd5ed373e5519",
+  "created_at": "2022-12-15T17:53:18Z",
+  "head": "7cbb551c19082032c2ad2903938273e5d0634750",
+  "login": "gibson042",
+  "number": 2974,
+  "ref": "2022-12-string-op-consistency",
+  "revs": [
+   {
+    "adate": "2022-12-15T12:36:27-05:00",
+    "author": "Richard Gibson",
+    "date": "2022-12-15T12:36:27-05:00",
+    "hash": "7cbb551c19082032c2ad2903938273e5d0634750",
+    "parents": "ec0fbd6bf5347f3c90e7f6eb50c779a040aefd9e",
+    "subject": "Editorial: Refactor Decode for brevity and comprehensibility"
+   },
+   {
+    "adate": "2022-12-15T12:31:39-05:00",
+    "author": "Richard Gibson",
+    "date": "2022-12-15T12:31:39-05:00",
+    "hash": "ec0fbd6bf5347f3c90e7f6eb50c779a040aefd9e",
+    "parents": "21fad264aecc2cc12cef198b61d977fba30fb2a7",
+    "subject": "Editorial: Update parseFloat to make better use of ParseText"
+   },
+   {
+    "adate": "2022-12-15T12:30:12-05:00",
+    "author": "Richard Gibson",
+    "date": "2022-12-15T12:30:12-05:00",
+    "hash": "21fad264aecc2cc12cef198b61d977fba30fb2a7",
+    "parents": "5ddb495188066d6ef1ec36aa1d5b1830b16caf7c",
+    "subject": "Editorial: Align on \"code {unit,point} whose **numeric** value\" phrasing"
+   },
+   {
+    "adate": "2022-12-15T12:26:49-05:00",
+    "author": "Richard Gibson",
+    "date": "2022-12-15T12:26:49-05:00",
+    "hash": "5ddb495188066d6ef1ec36aa1d5b1830b16caf7c",
+    "parents": "bb73f5f2da46d58dacdc89ac5d60b748629b1650",
+    "subject": "Editorial: Increase consistency of IsStringWellFormedUnicode with other string operations"
+   },
+   {
+    "adate": "2022-12-15T12:24:09-05:00",
+    "author": "Richard Gibson",
+    "date": "2022-12-15T12:24:09-05:00",
+    "hash": "bb73f5f2da46d58dacdc89ac5d60b748629b1650",
+    "parents": "b1bc81655c59c2377914953da0314a0f8f1e9e3b",
+    "subject": "Editorial: Align {escape,unescape,Encode,Decode} alias names with other string operations"
+   },
+   {
+    "adate": "2022-12-15T12:20:04-05:00",
+    "author": "Richard Gibson",
+    "date": "2022-12-15T12:20:04-05:00",
+    "hash": "b1bc81655c59c2377914953da0314a0f8f1e9e3b",
+    "parents": "2d947000c457aff84db1e23b52b6296efa7e7998",
+    "subject": "Editorial: Increase consistency between {escape,unescape} and {Encode,Decode}"
+   },
+   {
+    "adate": "2022-12-15T12:02:19-05:00",
+    "author": "Richard Gibson",
+    "date": "2022-12-15T12:02:19-05:00",
+    "hash": "2d947000c457aff84db1e23b52b6296efa7e7998",
+    "parents": "c92f41f3c30957721c23141304de216ab56342b2",
+    "subject": "Editorial: Increase consistency between unescape and escape"
+   },
+   {
+    "adate": "2022-12-15T11:59:19-05:00",
+    "author": "Richard Gibson",
+    "date": "2022-12-15T11:59:19-05:00",
+    "hash": "c92f41f3c30957721c23141304de216ab56342b2",
+    "parents": "578f18fc041d0c507acb764ddf6bd5ed373e5519",
+    "subject": "Editorial: Refactor unescape for clarity"
+   }
+  ],
+  "title": "Editorial: Increase consistency and clarity of string operations",
+  "updated_at": "2022-12-15T18:03:09Z"
+ },
+ {
   "base": "907276f4e2c35c1855a8cbf77513d4b87a3e43c8",
   "created_at": "2022-12-15T00:17:37Z",
   "head": "b8a60f6c102a861fb16425cf4eb79e9fb71979a9",
@@ -166,34 +242,6 @@
   ],
   "title": "Editorial: Examine+reduce the diversity of forms in PR #2877",
   "updated_at": "2022-12-15T03:05:13Z"
- },
- {
-  "base": "18d41aab8c068f8f00d741b1b2ee9011322c430f",
-  "created_at": "2022-12-13T04:13:08Z",
-  "head": "d8a450a0f3206da4999693163ef55230a79d4dd1",
-  "login": "jhnaldo",
-  "number": 2971,
-  "ref": "fix-mutable-completion",
-  "revs": [
-   {
-    "adate": "2022-12-15T08:28:00+09:00",
-    "author": "jhnaldo",
-    "date": "2022-12-15T08:28:00+09:00",
-    "hash": "d8a450a0f3206da4999693163ef55230a79d4dd1",
-    "parents": "836745275c1e28986c9b8d0640f05d1342f7711c",
-    "subject": "Applied suggestion"
-   },
-   {
-    "adate": "2022-12-13T12:58:08+09:00",
-    "author": "jhnaldo",
-    "date": "2022-12-13T12:58:08+09:00",
-    "hash": "836745275c1e28986c9b8d0640f05d1342f7711c",
-    "parents": "18d41aab8c068f8f00d741b1b2ee9011322c430f",
-    "subject": "Editorial: Fixed mutable completion records as immutable"
-   }
-  ],
-  "title": "Editorial: Fixed mutable completion records as immutable",
-  "updated_at": "2022-12-14T23:32:41Z"
  },
  {
   "base": "a5f5f8036814185456d7ec65a670750fe50ab10c",
