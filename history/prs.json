@@ -1,6 +1,26 @@
 [
  {
   "base": "578f18fc041d0c507acb764ddf6bd5ed373e5519",
+  "created_at": "2022-12-16T18:39:16Z",
+  "head": "d5e850aa73389d759fb0dbeee37ace24bc5e5b70",
+  "login": "nicolo-ribaudo",
+  "number": 2976,
+  "ref": "B.3.4",
+  "revs": [
+   {
+    "adate": "2022-12-16T19:37:38+01:00",
+    "author": "Nicol\u00f2 Ribaudo",
+    "date": "2022-12-16T19:37:38+01:00",
+    "hash": "d5e850aa73389d759fb0dbeee37ace24bc5e5b70",
+    "parents": "578f18fc041d0c507acb764ddf6bd5ed373e5519",
+    "subject": "Editorial: higlight diff in B.3.4"
+   }
+  ],
+  "title": "Editorial: Highlight diff in B.3.4 compared to the original semantics",
+  "updated_at": "2022-12-16T18:55:29Z"
+ },
+ {
+  "base": "578f18fc041d0c507acb764ddf6bd5ed373e5519",
   "created_at": "2022-12-15T19:39:03Z",
   "head": "2fa0301d5455fdf60729381d645f9c73eda7dc54",
   "login": "gibson042",
