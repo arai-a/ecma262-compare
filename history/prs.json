@@ -300,29 +300,9 @@
   "updated_at": "2022-12-15T03:05:13Z"
  },
  {
-  "base": "a5f5f8036814185456d7ec65a670750fe50ab10c",
-  "created_at": "2022-11-29T15:42:20Z",
-  "head": "9a3f2e77a82067bdabf9453a907afcdc065cc5c4",
-  "login": "gibson042",
-  "number": 2965,
-  "ref": "gh-2914-atomics-timeouts",
-  "revs": [
-   {
-    "adate": "2022-11-29T10:39:08-05:00",
-    "author": "Richard Gibson",
-    "date": "2022-11-29T10:40:56-05:00",
-    "hash": "9a3f2e77a82067bdabf9453a907afcdc065cc5c4",
-    "parents": "a5f5f8036814185456d7ec65a670750fe50ab10c",
-    "subject": "Normative: Treat the Atomics.wait timeout as an extended mathematical lower bound"
-   }
-  ],
-  "title": "Normative: Treat the Atomics.wait timeout as an extended mathematical lower bound",
-  "updated_at": "2022-11-29T15:42:20Z"
- },
- {
-  "base": "a5f5f8036814185456d7ec65a670750fe50ab10c",
+  "base": "578f18fc041d0c507acb764ddf6bd5ed373e5519",
   "created_at": "2022-11-27T18:58:54Z",
-  "head": "d04ca2f78a6fff0772624bf768014d4aaa0b361f",
+  "head": "195ca3ddc5017d3215989e9a725a936d631ac1ee",
   "login": "jmdyck",
   "number": 2964,
   "ref": "List_of_Records",
@@ -330,14 +310,14 @@
    {
     "adate": "2022-11-27T13:43:19-05:00",
     "author": "Michael Dyck",
-    "date": "2022-11-27T13:43:19-05:00",
-    "hash": "d04ca2f78a6fff0772624bf768014d4aaa0b361f",
-    "parents": "a5f5f8036814185456d7ec65a670750fe50ab10c",
+    "date": "2022-12-17T15:32:04-05:00",
+    "hash": "195ca3ddc5017d3215989e9a725a936d631ac1ee",
+    "parents": "578f18fc041d0c507acb764ddf6bd5ed373e5519",
     "subject": "Editorial: Rephrase 2 \"List of Records\" types"
    }
   ],
   "title": "Editorial: Rephrase 2 \"List of Records\" types",
-  "updated_at": "2022-11-27T18:58:54Z"
+  "updated_at": "2022-12-17T20:43:24Z"
  },
  {
   "base": "a5f5f8036814185456d7ec65a670750fe50ab10c",
@@ -960,9 +940,9 @@
   "updated_at": "2022-10-11T16:27:42Z"
  },
  {
-  "base": "053d34c87b14d9234d6f7f45bd61074b72ca9d69",
+  "base": "578f18fc041d0c507acb764ddf6bd5ed373e5519",
   "created_at": "2022-09-05T18:50:04Z",
-  "head": "b18422ecb9e2bee5a6dfd1d8f60651472c926d6c",
+  "head": "d4129a6bf46d1eecff5a403cb9ab597b19b239ee",
   "login": "jmdyck",
   "number": 2898,
   "ref": "FindViaPredicate",
@@ -970,54 +950,54 @@
    {
     "adate": "2022-11-16T17:38:21-05:00",
     "author": "Michael Dyck",
-    "date": "2022-11-16T17:38:21-05:00",
-    "hash": "b18422ecb9e2bee5a6dfd1d8f60651472c926d6c",
-    "parents": "137d591bb1ccc9fe1613aa7aa54e064c0630e370",
+    "date": "2022-12-17T16:12:53-05:00",
+    "hash": "d4129a6bf46d1eecff5a403cb9ab597b19b239ee",
+    "parents": "29a600bd8914be028c04fc35cbb724a96efa2dbf",
     "subject": "fixup: try adding FindViaPredicate to esmeta-ignore.json instead of TypedArray.p.find*"
    },
    {
     "adate": "2022-11-16T14:46:55-05:00",
     "author": "Michael Dyck",
-    "date": "2022-11-16T14:46:55-05:00",
-    "hash": "137d591bb1ccc9fe1613aa7aa54e064c0630e370",
-    "parents": "5c19e5609e5d8f24eff1d438e18cd4e21bdfeef3",
+    "date": "2022-12-17T16:10:44-05:00",
+    "hash": "29a600bd8914be028c04fc35cbb724a96efa2dbf",
+    "parents": "f0e56be45031fce71b552e809c7eb6eb9c8c1e6b",
     "subject": "fixup: add TypedArray.p.find* to esmeta-ignore.json"
    },
    {
     "adate": "2022-11-16T14:20:51-05:00",
     "author": "Michael Dyck",
-    "date": "2022-11-16T14:20:51-05:00",
-    "hash": "5c19e5609e5d8f24eff1d438e18cd4e21bdfeef3",
-    "parents": "51f83dfb5ad0f57401e40e013a0051e8ac0cf165",
+    "date": "2022-12-17T16:10:44-05:00",
+    "hash": "f0e56be45031fce71b552e809c7eb6eb9c8c1e6b",
+    "parents": "583038ea85218c1baaef2c18dfeca9173e95c770",
     "subject": "fixup: 4x insert \"a value that coerces to\""
    },
    {
     "adate": "2022-11-15T23:48:14-05:00",
     "author": "Michael Dyck",
-    "date": "2022-11-15T23:48:50-05:00",
-    "hash": "51f83dfb5ad0f57401e40e013a0051e8ac0cf165",
-    "parents": "8705432704c80f9637ca2a039e290c5ad2c2a516",
+    "date": "2022-12-17T16:10:44-05:00",
+    "hash": "583038ea85218c1baaef2c18dfeca9173e95c770",
+    "parents": "24d0f85ecf2caa156aa9d8b3131224165ea4c76c",
     "subject": "fixup: Merge {Array,TypedArray}FindViaPredicate"
    },
    {
     "adate": "2022-09-05T13:31:07-04:00",
     "author": "Michael Dyck",
-    "date": "2022-11-15T23:48:49-05:00",
-    "hash": "8705432704c80f9637ca2a039e290c5ad2c2a516",
-    "parents": "85f1a34d46378e5330da077fe81251581291f64e",
+    "date": "2022-12-17T16:10:44-05:00",
+    "hash": "24d0f85ecf2caa156aa9d8b3131224165ea4c76c",
+    "parents": "cfce8f53c91684c024d0631bae738b7a80fe1c48",
     "subject": "Editorial: Factor out TypedArrayFindViaPredicate"
    },
    {
     "adate": "2022-09-05T09:45:11-04:00",
     "author": "Michael Dyck",
-    "date": "2022-11-15T23:48:49-05:00",
-    "hash": "85f1a34d46378e5330da077fe81251581291f64e",
-    "parents": "053d34c87b14d9234d6f7f45bd61074b72ca9d69",
+    "date": "2022-12-17T16:10:44-05:00",
+    "hash": "cfce8f53c91684c024d0631bae738b7a80fe1c48",
+    "parents": "578f18fc041d0c507acb764ddf6bd5ed373e5519",
     "subject": "Editorial: Factor out ArrayFindViaPredicate"
    }
   ],
   "title": "Editorial: Factor out FindViaPredicate",
-  "updated_at": "2022-11-16T22:46:29Z"
+  "updated_at": "2022-12-17T21:15:10Z"
  },
  {
   "base": "8410f1b68b81522d3a34753e4ed9be053a162e4b",
