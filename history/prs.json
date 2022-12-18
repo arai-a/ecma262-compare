@@ -1,6 +1,26 @@
 [
  {
   "base": "578f18fc041d0c507acb764ddf6bd5ed373e5519",
+  "created_at": "2022-12-18T16:14:12Z",
+  "head": "679be901035a56793064c3c30e6e304672d2db81",
+  "login": "gibson042",
+  "number": 2982,
+  "ref": "2022-12-bigint-value-for",
+  "revs": [
+   {
+    "adate": "2022-12-18T11:06:07-05:00",
+    "author": "Richard Gibson",
+    "date": "2022-12-18T11:06:07-05:00",
+    "hash": "679be901035a56793064c3c30e6e304672d2db81",
+    "parents": "578f18fc041d0c507acb764ddf6bd5ed373e5519",
+    "subject": "Editorial: Use linkable terms for coercion to BigInt"
+   }
+  ],
+  "title": "Editorial: Use linkable terms for coercion to BigInt",
+  "updated_at": "2022-12-18T16:14:12Z"
+ },
+ {
+  "base": "578f18fc041d0c507acb764ddf6bd5ed373e5519",
   "created_at": "2022-12-18T03:41:38Z",
   "head": "d4409d56bd35328f9be06d047ac4829efc250c0f",
   "login": "jmdyck",
