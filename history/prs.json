@@ -362,11 +362,19 @@
  {
   "base": "578f18fc041d0c507acb764ddf6bd5ed373e5519",
   "created_at": "2022-11-26T03:55:16Z",
-  "head": "be5f4a1cec9fa00a1004c7f8f920a0f399ca3953",
+  "head": "c5bf7e801527650fc6603fe24b73c5ca8e667e83",
   "login": "jmdyck",
   "number": 2963,
   "ref": "field_types",
   "revs": [
+   {
+    "adate": "2022-12-31T08:10:02-05:00",
+    "author": "Michael Dyck",
+    "date": "2022-12-31T08:10:02-05:00",
+    "hash": "c5bf7e801527650fc6603fe24b73c5ca8e667e83",
+    "parents": "be5f4a1cec9fa00a1004c7f8f920a0f399ca3953",
+    "subject": "fixup: Modify the `Meaning` of Source Text Module Record's [[Context]] field"
+   },
    {
     "adate": "2022-12-17T23:00:44-05:00",
     "author": "Michael Dyck",
@@ -393,7 +401,7 @@
    }
   ],
   "title": "Editorial: Correct the 'Value Type' of a few Record fields",
-  "updated_at": "2022-12-18T04:08:00Z"
+  "updated_at": "2022-12-31T13:12:29Z"
  },
  {
   "base": "a5f5f8036814185456d7ec65a670750fe50ab10c",
