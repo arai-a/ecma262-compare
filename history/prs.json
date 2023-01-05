@@ -238,38 +238,22 @@
  {
   "base": "21ffeee8697e5d7c30871322608e57fe7bac509e",
   "created_at": "2022-12-15T00:17:37Z",
-  "head": "c0951809958391d50db914509384050e6c859d54",
+  "head": "89ef6606792c1f2b246dae08965c0503cf7ee1ee",
   "login": "syg",
   "number": 2973,
   "ref": "allow-atomics-wait-coarsen",
   "revs": [
    {
-    "adate": "2023-01-04T17:25:12-08:00",
+    "adate": "2023-01-05T13:27:40-08:00",
     "author": "Shu-yu Guo",
-    "date": "2023-01-04T17:25:12-08:00",
-    "hash": "c0951809958391d50db914509384050e6c859d54",
-    "parents": "1be75db68cf180c4bfa2270b85573354987204c2",
-    "subject": "Address Richard's review"
-   },
-   {
-    "adate": "2022-12-14T16:50:23-08:00",
-    "author": "Shu-yu Guo",
-    "date": "2023-01-04T17:12:50-08:00",
-    "hash": "1be75db68cf180c4bfa2270b85573354987204c2",
-    "parents": "c742123669feab63d097300ec3a6a092f8777226",
-    "subject": "Address Michael's review + fix historical wake->notify search and replace error"
-   },
-   {
-    "adate": "2022-12-14T16:08:31-08:00",
-    "author": "Shu-yu Guo",
-    "date": "2023-01-04T17:12:50-08:00",
-    "hash": "c742123669feab63d097300ec3a6a092f8777226",
+    "date": "2023-01-05T13:27:40-08:00",
+    "hash": "89ef6606792c1f2b246dae08965c0503cf7ee1ee",
     "parents": "21ffeee8697e5d7c30871322608e57fe7bac509e",
-    "subject": "Normative: Allow implementations to pad timeouts in SuspendAgent"
+    "subject": "Normative: Allow implementations to pad timeouts in SuspendAgent (#2973)"
    }
   ],
   "title": "Normative: Allow implementations to pad timeouts in SuspendAgent",
-  "updated_at": "2023-01-05T01:28:42Z"
+  "updated_at": "2023-01-05T21:27:55Z"
  },
  {
   "base": "f36a44ee73df6dde4e5a9635ea584e9bd3cdb52a",
