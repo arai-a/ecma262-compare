@@ -236,72 +236,44 @@
   "updated_at": "2022-12-15T18:03:09Z"
  },
  {
-  "base": "21ffeee8697e5d7c30871322608e57fe7bac509e",
-  "created_at": "2022-12-15T00:17:37Z",
-  "head": "89ef6606792c1f2b246dae08965c0503cf7ee1ee",
-  "login": "syg",
-  "number": 2973,
-  "ref": "allow-atomics-wait-coarsen",
-  "revs": [
-   {
-    "adate": "2023-01-05T13:27:40-08:00",
-    "author": "Shu-yu Guo",
-    "date": "2023-01-05T13:27:40-08:00",
-    "hash": "89ef6606792c1f2b246dae08965c0503cf7ee1ee",
-    "parents": "21ffeee8697e5d7c30871322608e57fe7bac509e",
-    "subject": "Normative: Allow implementations to pad timeouts in SuspendAgent (#2973)"
-   }
-  ],
-  "title": "Normative: Allow implementations to pad timeouts in SuspendAgent",
-  "updated_at": "2023-01-05T21:27:55Z"
- },
- {
   "base": "f36a44ee73df6dde4e5a9635ea584e9bd3cdb52a",
   "created_at": "2022-12-14T05:00:25Z",
-  "head": "3653c70e97fa71d83c19236271d2ea66c8ab3153",
+  "head": "086bda1aaa098bf0e06cb1188c7675b1ac7ca9f7",
   "login": "jmdyck",
   "number": 2972,
   "ref": "2877_ed",
   "revs": [
    {
-    "adate": "2022-12-13T23:44:03-05:00",
+    "adate": "2023-01-05T17:40:26-05:00",
     "author": "Michael Dyck",
-    "date": "2022-12-14T22:00:58-05:00",
-    "hash": "3653c70e97fa71d83c19236271d2ea66c8ab3153",
-    "parents": "67e17343b4a80d57c858af93605b3405b5f5d6e9",
-    "subject": "3+ descriptions (cont'd)"
+    "date": "2023-01-05T17:42:51-05:00",
+    "hash": "086bda1aaa098bf0e06cb1188c7675b1ac7ca9f7",
+    "parents": "31ad0737d76a1330d5b7536cee72b6dc650ef1e5",
+    "subject": "3+ terms: 'any of' -> 'one of'"
    },
    {
-    "adate": "2022-12-13T23:36:40-05:00",
+    "adate": "2023-01-05T17:33:27-05:00",
     "author": "Michael Dyck",
-    "date": "2022-12-14T22:00:58-05:00",
-    "hash": "67e17343b4a80d57c858af93605b3405b5f5d6e9",
-    "parents": "a0da32e6a2ceac8134ce0324eeea035f27b426df",
-    "subject": "3+ descriptions (cont'd)"
+    "date": "2023-01-05T17:42:51-05:00",
+    "hash": "31ad0737d76a1330d5b7536cee72b6dc650ef1e5",
+    "parents": "e575f9c61fea35ea1ac251009498bd39d6bcd225",
+    "subject": "3+ terms: 'either' -> 'one of'"
    },
    {
-    "adate": "2022-12-13T23:17:03-05:00",
+    "adate": "2023-01-05T17:28:42-05:00",
     "author": "Michael Dyck",
-    "date": "2022-12-14T22:00:57-05:00",
-    "hash": "a0da32e6a2ceac8134ce0324eeea035f27b426df",
-    "parents": "7f3a4727d81f08d1fcbe23c25413b06b2f23d3ca",
-    "subject": "3+ descriptions"
+    "date": "2023-01-05T17:42:51-05:00",
+    "hash": "e575f9c61fea35ea1ac251009498bd39d6bcd225",
+    "parents": "39f74b5c4346d60ce817f9766c8311290373e471",
+    "subject": "3+ terms: insert 'one of'"
    },
    {
-    "adate": "2022-12-13T23:00:27-05:00",
+    "adate": "2023-01-05T17:25:19-05:00",
     "author": "Michael Dyck",
-    "date": "2022-12-14T22:00:57-05:00",
-    "hash": "7f3a4727d81f08d1fcbe23c25413b06b2f23d3ca",
-    "parents": "579bf48ca3264636c0039c71128aeaa7d83c1dbf",
-    "subject": "2 descriptions (cont'd)"
-   },
-   {
-    "adate": "2022-12-13T22:53:51-05:00",
-    "author": "Michael Dyck",
-    "date": "2022-12-14T22:00:57-05:00",
-    "hash": "579bf48ca3264636c0039c71128aeaa7d83c1dbf",
+    "date": "2023-01-05T17:25:19-05:00",
+    "hash": "39f74b5c4346d60ce817f9766c8311290373e471",
     "parents": "78decfa7927e2ef3dd9da3f9bf17d2c38a9ecbf5",
-    "subject": "2 descriptions"
+    "subject": "2 terms: insert 'either'"
    },
    {
     "adate": "2022-12-13T17:28:46-05:00",
@@ -393,7 +365,7 @@
    }
   ],
   "title": "Editorial: Examine+reduce the diversity of forms in PR #2877",
-  "updated_at": "2022-12-15T03:05:13Z"
+  "updated_at": "2023-01-05T22:57:42Z"
  },
  {
   "base": "578f18fc041d0c507acb764ddf6bd5ed373e5519",
