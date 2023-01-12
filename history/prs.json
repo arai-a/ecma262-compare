@@ -404,70 +404,6 @@
   "updated_at": "2023-01-05T22:57:42Z"
  },
  {
-  "base": "578f18fc041d0c507acb764ddf6bd5ed373e5519",
-  "created_at": "2022-11-27T18:58:54Z",
-  "head": "195ca3ddc5017d3215989e9a725a936d631ac1ee",
-  "login": "jmdyck",
-  "number": 2964,
-  "ref": "List_of_Records",
-  "revs": [
-   {
-    "adate": "2022-11-27T13:43:19-05:00",
-    "author": "Michael Dyck",
-    "date": "2022-12-17T15:32:04-05:00",
-    "hash": "195ca3ddc5017d3215989e9a725a936d631ac1ee",
-    "parents": "578f18fc041d0c507acb764ddf6bd5ed373e5519",
-    "subject": "Editorial: Rephrase 2 \"List of Records\" types"
-   }
-  ],
-  "title": "Editorial: Rephrase 2 \"List of Records\" types",
-  "updated_at": "2022-12-17T20:43:24Z"
- },
- {
-  "base": "578f18fc041d0c507acb764ddf6bd5ed373e5519",
-  "created_at": "2022-11-26T03:55:16Z",
-  "head": "c5bf7e801527650fc6603fe24b73c5ca8e667e83",
-  "login": "jmdyck",
-  "number": 2963,
-  "ref": "field_types",
-  "revs": [
-   {
-    "adate": "2022-12-31T08:10:02-05:00",
-    "author": "Michael Dyck",
-    "date": "2022-12-31T08:10:02-05:00",
-    "hash": "c5bf7e801527650fc6603fe24b73c5ca8e667e83",
-    "parents": "be5f4a1cec9fa00a1004c7f8f920a0f399ca3953",
-    "subject": "fixup: Modify the `Meaning` of Source Text Module Record's [[Context]] field"
-   },
-   {
-    "adate": "2022-12-17T23:00:44-05:00",
-    "author": "Michael Dyck",
-    "date": "2022-12-17T23:00:44-05:00",
-    "hash": "be5f4a1cec9fa00a1004c7f8f920a0f399ca3953",
-    "parents": "879399e7adfe922d9bbc2e2712391419b74acd2e",
-    "subject": "fixup: Fix Source Text Module Record's [[Context]]"
-   },
-   {
-    "adate": "2022-12-17T22:54:40-05:00",
-    "author": "Michael Dyck",
-    "date": "2022-12-17T22:54:40-05:00",
-    "hash": "879399e7adfe922d9bbc2e2712391419b74acd2e",
-    "parents": "8f58634f2b124a93af5bc06680a12e8c0cc79953",
-    "subject": "fixup: Back out tweaks for PromiseCapability Record"
-   },
-   {
-    "adate": "2022-11-25T22:32:00-05:00",
-    "author": "Michael Dyck",
-    "date": "2022-12-17T15:45:00-05:00",
-    "hash": "8f58634f2b124a93af5bc06680a12e8c0cc79953",
-    "parents": "578f18fc041d0c507acb764ddf6bd5ed373e5519",
-    "subject": "Editorial: Correct the 'Value Type' of a few Record fields"
-   }
-  ],
-  "title": "Editorial: Correct the 'Value Type' of a few Record fields",
-  "updated_at": "2022-12-31T13:12:29Z"
- },
- {
   "base": "a5f5f8036814185456d7ec65a670750fe50ab10c",
   "created_at": "2022-11-22T04:48:42Z",
   "head": "6e98e38793d4fe7638a917003d2b7c302a57ed36",
@@ -814,34 +750,6 @@
   ],
   "title": "Editorial: support built-in async functions",
   "updated_at": "2022-11-02T15:34:44Z"
- },
- {
-  "base": "e26fa783214713b0053a15010a4e76c2201c02b3",
-  "created_at": "2022-10-22T02:49:09Z",
-  "head": "33f4a15185e8e33dbec6f07e999e3077dc70602c",
-  "login": "jmdyck",
-  "number": 2941,
-  "ref": "elements_of",
-  "revs": [
-   {
-    "adate": "2022-10-21T22:43:07-04:00",
-    "author": "Michael Dyck",
-    "date": "2022-11-29T16:56:54-05:00",
-    "hash": "33f4a15185e8e33dbec6f07e999e3077dc70602c",
-    "parents": "1c88726aa306fceb8eea70c833af6779e205bd00",
-    "subject": "Change \"the number of elements of\" to \"the number of elements in\""
-   },
-   {
-    "adate": "2022-10-21T22:12:41-04:00",
-    "author": "Michael Dyck",
-    "date": "2022-11-29T16:56:20-05:00",
-    "hash": "1c88726aa306fceb8eea70c833af6779e205bd00",
-    "parents": "e26fa783214713b0053a15010a4e76c2201c02b3",
-    "subject": "Change all \"element[s] in\" to \"element[s] of\""
-   }
-  ],
-  "title": "Editorial: Consistify re \"elements in/of\"",
-  "updated_at": "2022-11-29T22:01:34Z"
  },
  {
   "base": "dccde53698ab1ddf942fcd571fe674418ee2a955",
@@ -1842,42 +1750,6 @@
   ],
   "title": "Normative: handle broken promises in AsyncGenerator.prototype.return",
   "updated_at": "2022-03-05T04:34:47Z"
- },
- {
-  "base": "9bfbf9011467f44c17def1a914043d6740617b6b",
-  "created_at": "2022-03-03T04:23:30Z",
-  "head": "6aba31420fac9ad5b3eb6f75f732b459706683f5",
-  "login": "jmdyck",
-  "number": 2681,
-  "ref": "CES_closure",
-  "revs": [
-   {
-    "adate": "2022-08-15T22:42:47-04:00",
-    "author": "Michael Dyck",
-    "date": "2022-08-15T22:42:47-04:00",
-    "hash": "6aba31420fac9ad5b3eb6f75f732b459706683f5",
-    "parents": "a73e056dd16f16d2a22d35ad22314cec0228ffd4",
-    "subject": "fixup: Change \"invoked\" to \"called with no arguments\""
-   },
-   {
-    "adate": "2022-03-02T13:05:13-05:00",
-    "author": "Michael Dyck",
-    "date": "2022-08-15T20:03:22-04:00",
-    "hash": "a73e056dd16f16d2a22d35ad22314cec0228ffd4",
-    "parents": "43825e15f85184335cd443df25e94da4ed6dde59",
-    "subject": "fixup: Reduce the number of captured aliases"
-   },
-   {
-    "adate": "2022-03-01T21:18:32-05:00",
-    "author": "Michael Dyck",
-    "date": "2022-08-15T20:03:22-04:00",
-    "hash": "43825e15f85184335cd443df25e94da4ed6dde59",
-    "parents": "9bfbf9011467f44c17def1a914043d6740617b6b",
-    "subject": "Editorial: Use Abstract Closure to set the code eval state"
-   }
-  ],
-  "title": "Editorial: Use Abstract Closure to set the code eval state",
-  "updated_at": "2022-08-16T02:43:51Z"
  },
  {
   "base": "7575f745f26e9f66b2be481144f37ac4a8a9f1c4",
