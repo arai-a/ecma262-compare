@@ -1490,11 +1490,19 @@
  {
   "base": "7c120199bf159960d46e216aa090887c1e2e584c",
   "created_at": "2022-05-18T19:09:03Z",
-  "head": "dbea7fdcb52f3d3379089956ba6ef1b8cac17ee4",
+  "head": "f3681133d363a104725507f33bb662e101be70f3",
   "login": "gibson042",
   "number": 2780,
   "ref": "2022-05-replace-legal",
   "revs": [
+   {
+    "adate": "2023-01-19T18:00:16-05:00",
+    "author": "Richard Gibson",
+    "date": "2023-01-19T18:00:20-05:00",
+    "hash": "f3681133d363a104725507f33bb662e101be70f3",
+    "parents": "dbea7fdcb52f3d3379089956ba6ef1b8cac17ee4",
+    "subject": "Editorial: Update note text to use \"allowed\" for consistency with other notes"
+   },
    {
     "adate": "2022-05-18T15:03:58-04:00",
     "author": "Richard Gibson",
@@ -1513,7 +1521,7 @@
    }
   ],
   "title": "Editorial: Replace \"legal\" with more precise language",
-  "updated_at": "2022-05-18T19:09:03Z"
+  "updated_at": "2023-01-19T23:03:06Z"
  },
  {
   "base": "874ecf9a11ddc02a223f4250169bd2724aca0643",
