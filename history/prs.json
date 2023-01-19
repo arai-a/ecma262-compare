@@ -178,11 +178,35 @@
  {
   "base": "578f18fc041d0c507acb764ddf6bd5ed373e5519",
   "created_at": "2022-12-15T17:53:18Z",
-  "head": "589f9939549fd0fb035b9e1263cccd7f847a39bc",
+  "head": "14abd327e785f0609ffd7e66e04e8e51e9b20729",
   "login": "gibson042",
   "number": 2974,
   "ref": "2022-12-string-op-consistency",
   "revs": [
+   {
+    "adate": "2023-01-18T18:53:03-05:00",
+    "author": "Richard Gibson",
+    "date": "2023-01-18T18:53:03-05:00",
+    "hash": "14abd327e785f0609ffd7e66e04e8e51e9b20729",
+    "parents": "2e446f87ec86d6c1ca6bbd44b36f31d952d526c2",
+    "subject": "Editorial: Replace \"&gt;\" with \">\" per emu-format"
+   },
+   {
+    "adate": "2023-01-18T18:49:14-05:00",
+    "author": "Richard Gibson",
+    "date": "2023-01-18T18:49:14-05:00",
+    "hash": "2e446f87ec86d6c1ca6bbd44b36f31d952d526c2",
+    "parents": "f73966bcb542940dcd8c2d03b9bcf957148490de",
+    "subject": "Editorial: Introduce ParseHexOctet to avoid awkward alias naming"
+   },
+   {
+    "adate": "2023-01-18T18:48:05-05:00",
+    "author": "Richard Gibson",
+    "date": "2023-01-18T18:48:05-05:00",
+    "hash": "f73966bcb542940dcd8c2d03b9bcf957148490de",
+    "parents": "589f9939549fd0fb035b9e1263cccd7f847a39bc",
+    "subject": "Editorial: Better align comparisons with the steps they guard"
+   },
    {
     "adate": "2023-01-14T00:06:52-05:00",
     "author": "Richard Gibson",
@@ -257,7 +281,7 @@
    }
   ],
   "title": "Editorial: Increase consistency and clarity of string operations",
-  "updated_at": "2023-01-14T05:06:56Z"
+  "updated_at": "2023-01-18T23:53:08Z"
  },
  {
   "base": "f36a44ee73df6dde4e5a9635ea584e9bd3cdb52a",
@@ -2162,34 +2186,6 @@
   ],
   "title": "Normative: allow named backreferences without `u` flag in core grammar",
   "updated_at": "2021-06-15T22:18:35Z"
- },
- {
-  "base": "267fdbdc716677bc9934906a498cf9bad4bfb70d",
-  "created_at": "2021-06-06T19:19:12Z",
-  "head": "177b3eb7d4103744b44e4b9283a2506d034c0ba8",
-  "login": "tc39",
-  "number": 2429,
-  "ref": "execution-context-return",
-  "revs": [
-   {
-    "adate": "2021-07-24T17:17:44-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-10-28T07:35:22-07:00",
-    "hash": "177b3eb7d4103744b44e4b9283a2506d034c0ba8",
-    "parents": "d5e407891da3d1517bb47399d3ee120ce3a8d7b0",
-    "subject": "address jmdyck comments"
-   },
-   {
-    "adate": "2021-06-06T11:34:09-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-10-28T07:35:21-07:00",
-    "hash": "d5e407891da3d1517bb47399d3ee120ce3a8d7b0",
-    "parents": "267fdbdc716677bc9934906a498cf9bad4bfb70d",
-    "subject": "Editorial: do not use \"Return\" to transfer control between execution contexts"
-   }
-  ],
-  "title": "Editorial: do not use \"Return\" to transfer control between execution contexts",
-  "updated_at": "2021-10-28T14:35:33Z"
  },
  {
   "base": "8d9522cc84c1bcedc49e4c9e8272b72615e407cf",
