@@ -1,46 +1,6 @@
 [
  {
   "base": "874ecf9a11ddc02a223f4250169bd2724aca0643",
-  "created_at": "2023-01-20T16:38:08Z",
-  "head": "af5fd5b9c71e295beaefb126b28b931b359e9501",
-  "login": "gibson042",
-  "number": 2999,
-  "ref": "2023-01-grammar-example",
-  "revs": [
-   {
-    "adate": "2023-01-20T11:37:43-05:00",
-    "author": "Richard Gibson",
-    "date": "2023-01-20T11:37:43-05:00",
-    "hash": "af5fd5b9c71e295beaefb126b28b931b359e9501",
-    "parents": "874ecf9a11ddc02a223f4250169bd2724aca0643",
-    "subject": "Editorial: Use the preferred indication for example grammars"
-   }
-  ],
-  "title": "Editorial: Use the preferred indication for example grammars",
-  "updated_at": "2023-01-20T16:38:08Z"
- },
- {
-  "base": "874ecf9a11ddc02a223f4250169bd2724aca0643",
-  "created_at": "2023-01-20T16:38:01Z",
-  "head": "224e94d602efe362b7681371074fb872f07f0a3c",
-  "login": "gibson042",
-  "number": 2998,
-  "ref": "2023-01-tonumeric-user-effects",
-  "revs": [
-   {
-    "adate": "2023-01-20T11:36:08-05:00",
-    "author": "Richard Gibson",
-    "date": "2023-01-20T11:36:08-05:00",
-    "hash": "224e94d602efe362b7681371074fb872f07f0a3c",
-    "parents": "874ecf9a11ddc02a223f4250169bd2724aca0643",
-    "subject": "Editorial: Indicate the lack of user effects in ToNumber(_primValue_)"
-   }
-  ],
-  "title": "Editorial: Indicate the lack of user effects in ToNumber(_primValue_)",
-  "updated_at": "2023-01-20T16:38:01Z"
- },
- {
-  "base": "874ecf9a11ddc02a223f4250169bd2724aca0643",
   "created_at": "2023-01-19T18:09:35Z",
   "head": "3140f828bb46b4c475ab7625f91453ef7321f3f7",
   "login": "acutmore",
@@ -238,11 +198,19 @@
  {
   "base": "578f18fc041d0c507acb764ddf6bd5ed373e5519",
   "created_at": "2022-12-15T17:53:18Z",
-  "head": "14abd327e785f0609ffd7e66e04e8e51e9b20729",
+  "head": "c0105cf11b1e110dc979b6771e7a0ec3d8617ab0",
   "login": "gibson042",
   "number": 2974,
   "ref": "2022-12-string-op-consistency",
   "revs": [
+   {
+    "adate": "2023-01-21T14:24:35-05:00",
+    "author": "Richard Gibson",
+    "date": "2023-01-21T14:24:35-05:00",
+    "hash": "c0105cf11b1e110dc979b6771e7a0ec3d8617ab0",
+    "parents": "14abd327e785f0609ffd7e66e04e8e51e9b20729",
+    "subject": "Editorial: Improve use of spec types"
+   },
    {
     "adate": "2023-01-18T18:53:03-05:00",
     "author": "Richard Gibson",
@@ -341,7 +309,7 @@
    }
   ],
   "title": "Editorial: Increase consistency and clarity of string operations",
-  "updated_at": "2023-01-18T23:53:08Z"
+  "updated_at": "2023-01-21T19:27:01Z"
  },
  {
   "base": "f36a44ee73df6dde4e5a9635ea584e9bd3cdb52a",
