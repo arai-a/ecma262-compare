@@ -1,5 +1,41 @@
 [
  {
+  "base": "36ce4e0db055e995552b1b47e1e53a6ed07b07b6",
+  "created_at": "2023-01-23T22:42:45Z",
+  "head": "e35d44645b0a3d924200da4eaef3309dccb45ccd",
+  "login": "rbuckton",
+  "number": 3000,
+  "ref": "explicit-resource-management",
+  "revs": [
+   {
+    "adate": "2023-01-23T18:02:27-05:00",
+    "author": "Ron Buckton",
+    "date": "2023-01-23T18:02:27-05:00",
+    "hash": "e35d44645b0a3d924200da4eaef3309dccb45ccd",
+    "parents": "b188e413a4737d1c228255b2c99cc0149048a675",
+    "subject": "Run formatter"
+   },
+   {
+    "adate": "2023-01-23T18:00:23-05:00",
+    "author": "Ron Buckton",
+    "date": "2023-01-23T18:00:23-05:00",
+    "hash": "b188e413a4737d1c228255b2c99cc0149048a675",
+    "parents": "b1c7f63751856054731dd32695aca5a51f13026a",
+    "subject": "Fix lint errors"
+   },
+   {
+    "adate": "2023-01-23T17:34:53-05:00",
+    "author": "Ron Buckton",
+    "date": "2023-01-23T17:34:53-05:00",
+    "hash": "b1c7f63751856054731dd32695aca5a51f13026a",
+    "parents": "36ce4e0db055e995552b1b47e1e53a6ed07b07b6",
+    "subject": "Spec text for proposal-explicit-resource-management"
+   }
+  ],
+  "title": "Add `using` Declarations, SuppressedError, and DisposableStack",
+  "updated_at": "2023-01-23T23:02:35Z"
+ },
+ {
   "base": "874ecf9a11ddc02a223f4250169bd2724aca0643",
   "created_at": "2023-01-19T18:09:35Z",
   "head": "25960571fc618d339a823258dc4b41f440614741",
