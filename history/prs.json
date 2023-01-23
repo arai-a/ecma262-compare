@@ -2,11 +2,91 @@
  {
   "base": "874ecf9a11ddc02a223f4250169bd2724aca0643",
   "created_at": "2023-01-19T18:09:35Z",
-  "head": "3140f828bb46b4c475ab7625f91453ef7321f3f7",
+  "head": "25960571fc618d339a823258dc4b41f440614741",
   "login": "acutmore",
   "number": 2997,
   "ref": "change-array-by-copy",
   "revs": [
+   {
+    "adate": "2023-01-23T10:47:17+00:00",
+    "author": "Ashley Claymore",
+    "date": "2023-01-23T10:47:17+00:00",
+    "hash": "25960571fc618d339a823258dc4b41f440614741",
+    "parents": "3140f828bb46b4c475ab7625f91453ef7321f3f7 0a19d002a3af4121feed979c51bf1ba7b4f07165",
+    "subject": "Apply suggestions (#2)"
+   },
+   {
+    "adate": "2023-01-19T15:13:33-05:00",
+    "author": "Michael Dyck",
+    "date": "2023-01-19T15:13:33-05:00",
+    "hash": "0a19d002a3af4121feed979c51bf1ba7b4f07165",
+    "parents": "28ae8fe9f51633d592000e01916cb90b5e042086",
+    "subject": "fixup: another type improvement"
+   },
+   {
+    "adate": "2023-01-19T15:03:20-05:00",
+    "author": "Michael Dyck",
+    "date": "2023-01-19T15:03:20-05:00",
+    "hash": "28ae8fe9f51633d592000e01916cb90b5e042086",
+    "parents": "fd7c72418f9496eee0578cb1bf1afc369a250941",
+    "subject": "Asterisks around 'true'"
+   },
+   {
+    "adate": "2023-01-19T15:02:40-05:00",
+    "author": "Michael Dyck",
+    "date": "2023-01-19T15:02:40-05:00",
+    "hash": "fd7c72418f9496eee0578cb1bf1afc369a250941",
+    "parents": "9b723be916d48653aafe5dd73799708bc6a462ec",
+    "subject": "An emu-clause's id usually starts with \"sec-\""
+   },
+   {
+    "adate": "2023-01-19T15:01:47-05:00",
+    "author": "Michael Dyck",
+    "date": "2023-01-19T15:01:47-05:00",
+    "hash": "9b723be916d48653aafe5dd73799708bc6a462ec",
+    "parents": "c629787c71d4882110f5505257afd0f59ba320c6",
+    "subject": "Use more precise types"
+   },
+   {
+    "adate": "2023-01-19T15:00:59-05:00",
+    "author": "Michael Dyck",
+    "date": "2023-01-19T15:00:59-05:00",
+    "hash": "c629787c71d4882110f5505257afd0f59ba320c6",
+    "parents": "fa4546ba05f3d6d739a9d504a96008d180268c32",
+    "subject": "ArrayCreate takes a (mathematical) integer, not a Number"
+   },
+   {
+    "adate": "2023-01-19T14:58:36-05:00",
+    "author": "Michael Dyck",
+    "date": "2023-01-19T14:58:36-05:00",
+    "hash": "fa4546ba05f3d6d739a9d504a96008d180268c32",
+    "parents": "507f6864f06f310e6a44501aa765f5eb23f4b633",
+    "subject": "Use preamble conventions from PR #2592"
+   },
+   {
+    "adate": "2023-01-19T14:54:05-05:00",
+    "author": "Michael Dyck",
+    "date": "2023-01-19T14:54:05-05:00",
+    "hash": "507f6864f06f310e6a44501aa765f5eb23f4b633",
+    "parents": "1f1e4a3cd1b04fac70e7216d49eba59801e86f79",
+    "subject": "Embed `CompareTypedArrayElements` within \"Abstract Operations for TypedArray Objects\""
+   },
+   {
+    "adate": "2023-01-19T14:51:45-05:00",
+    "author": "Michael Dyck",
+    "date": "2023-01-19T14:51:45-05:00",
+    "hash": "1f1e4a3cd1b04fac70e7216d49eba59801e86f79",
+    "parents": "30537ec0f1bae830bd6939a96be50a4e898028ea",
+    "subject": "Put sections in alphabetical order"
+   },
+   {
+    "adate": "2023-01-19T14:41:56-05:00",
+    "author": "Michael Dyck",
+    "date": "2023-01-19T14:41:56-05:00",
+    "hash": "30537ec0f1bae830bd6939a96be50a4e898028ea",
+    "parents": "3140f828bb46b4c475ab7625f91453ef7321f3f7",
+    "subject": "Re-embed SortIndexedProperties (+ CompareArrayElements) within A.p.sort section"
+   },
    {
     "adate": "2023-01-19T17:41:28+00:00",
     "author": "Ashley Claymore",
@@ -17,7 +97,7 @@
    }
   ],
   "title": "[Stage 4 Draft] Normative: Adds change-array-by-copy",
-  "updated_at": "2023-01-19T18:09:35Z"
+  "updated_at": "2023-01-23T10:47:22Z"
  },
  {
   "base": "89ef6606792c1f2b246dae08965c0503cf7ee1ee",
