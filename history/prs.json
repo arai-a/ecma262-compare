@@ -2,11 +2,19 @@
  {
   "base": "36ce4e0db055e995552b1b47e1e53a6ed07b07b6",
   "created_at": "2023-01-23T22:42:45Z",
-  "head": "e35d44645b0a3d924200da4eaef3309dccb45ccd",
+  "head": "17e0bc02992e3311268750d69e3b95a770112a3e",
   "login": "rbuckton",
   "number": 3000,
   "ref": "explicit-resource-management",
   "revs": [
+   {
+    "adate": "2023-01-23T18:30:13-05:00",
+    "author": "Ron Buckton",
+    "date": "2023-01-23T18:33:26-05:00",
+    "hash": "17e0bc02992e3311268750d69e3b95a770112a3e",
+    "parents": "e35d44645b0a3d924200da4eaef3309dccb45ccd",
+    "subject": "Fix signature for DisposeResources"
+   },
    {
     "adate": "2023-01-23T18:02:27-05:00",
     "author": "Ron Buckton",
@@ -33,7 +41,7 @@
    }
   ],
   "title": "Add `using` Declarations, SuppressedError, and DisposableStack",
-  "updated_at": "2023-01-23T23:02:35Z"
+  "updated_at": "2023-01-23T23:33:35Z"
  },
  {
   "base": "874ecf9a11ddc02a223f4250169bd2724aca0643",
