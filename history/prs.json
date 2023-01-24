@@ -2,11 +2,51 @@
  {
   "base": "36ce4e0db055e995552b1b47e1e53a6ed07b07b6",
   "created_at": "2023-01-23T22:42:45Z",
-  "head": "17e0bc02992e3311268750d69e3b95a770112a3e",
+  "head": "4b12f944ddc4f86b03cd197e14a2e3b570d839b0",
   "login": "rbuckton",
   "number": 3000,
   "ref": "explicit-resource-management",
   "revs": [
+   {
+    "adate": "2023-01-23T19:08:37-05:00",
+    "author": "Ron Buckton",
+    "date": "2023-01-23T19:08:37-05:00",
+    "hash": "4b12f944ddc4f86b03cd197e14a2e3b570d839b0",
+    "parents": "3e9b3a9e0a018904ddba014e9b0a942b7f254349",
+    "subject": "Change DisposeResources signature to return completion record"
+   },
+   {
+    "adate": "2023-01-23T18:57:36-05:00",
+    "author": "Ron Buckton",
+    "date": "2023-01-23T18:57:36-05:00",
+    "hash": "3e9b3a9e0a018904ddba014e9b0a942b7f254349",
+    "parents": "a3177e81cf2891f76792d8f3bf27ff80822a35f4",
+    "subject": "More ecmarkup signature fixes"
+   },
+   {
+    "adate": "2023-01-23T18:52:00-05:00",
+    "author": "Ron Buckton",
+    "date": "2023-01-23T18:52:00-05:00",
+    "hash": "a3177e81cf2891f76792d8f3bf27ff80822a35f4",
+    "parents": "060790ebcb043efea5cd91e79ed5248233a02e7e",
+    "subject": "Add missing ReturnIfAbrupt in DisposableStack.prototype.use"
+   },
+   {
+    "adate": "2023-01-23T18:48:50-05:00",
+    "author": "Ron Buckton",
+    "date": "2023-01-23T18:48:50-05:00",
+    "hash": "060790ebcb043efea5cd91e79ed5248233a02e7e",
+    "parents": "2fe79db06d4e0258443e3892a9040e2434d149b9",
+    "subject": "Fixes for some esmeta warnings"
+   },
+   {
+    "adate": "2023-01-23T18:43:01-05:00",
+    "author": "Ron Buckton",
+    "date": "2023-01-23T18:43:01-05:00",
+    "hash": "2fe79db06d4e0258443e3892a9040e2434d149b9",
+    "parents": "17e0bc02992e3311268750d69e3b95a770112a3e",
+    "subject": "Fixes for some esmeta warnings"
+   },
    {
     "adate": "2023-01-23T18:30:13-05:00",
     "author": "Ron Buckton",
@@ -41,7 +81,7 @@
    }
   ],
   "title": "Add `using` Declarations, SuppressedError, and DisposableStack",
-  "updated_at": "2023-01-23T23:33:35Z"
+  "updated_at": "2023-01-24T00:08:41Z"
  },
  {
   "base": "874ecf9a11ddc02a223f4250169bd2724aca0643",
