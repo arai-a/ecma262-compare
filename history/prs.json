@@ -66,11 +66,43 @@
  {
   "base": "36ce4e0db055e995552b1b47e1e53a6ed07b07b6",
   "created_at": "2023-01-23T22:42:45Z",
-  "head": "8a7e4695e98165725041db63726febfa1c5f9a7e",
+  "head": "bbafed5b4390874a87a98bdc8a66c82ae61b1131",
   "login": "rbuckton",
   "number": 3000,
   "ref": "explicit-resource-management",
   "revs": [
+   {
+    "adate": "2023-01-25T16:30:09-05:00",
+    "author": "Ron Buckton",
+    "date": "2023-01-25T16:30:09-05:00",
+    "hash": "bbafed5b4390874a87a98bdc8a66c82ae61b1131",
+    "parents": "37a2654bb07aec900ec87a7555f45080c0688bba",
+    "subject": "Run formatter again"
+   },
+   {
+    "adate": "2023-01-25T16:28:36-05:00",
+    "author": "Ron Buckton",
+    "date": "2023-01-25T16:28:36-05:00",
+    "hash": "37a2654bb07aec900ec87a7555f45080c0688bba",
+    "parents": "6c28afcc3a76686c263bb225ec539de4d680630b",
+    "subject": "Run formatter"
+   },
+   {
+    "adate": "2023-01-25T16:28:11-05:00",
+    "author": "Ron Buckton",
+    "date": "2023-01-25T16:28:11-05:00",
+    "hash": "6c28afcc3a76686c263bb225ec539de4d680630b",
+    "parents": "4e246c479319bc0afd5a4ccef2b2b8585e021cf0",
+    "subject": "Wrap UpdateEmpty calls in calls to Completion"
+   },
+   {
+    "adate": "2023-01-25T16:13:52-05:00",
+    "author": "Ron Buckton",
+    "date": "2023-01-25T16:13:52-05:00",
+    "hash": "4e246c479319bc0afd5a4ccef2b2b8585e021cf0",
+    "parents": "8a7e4695e98165725041db63726febfa1c5f9a7e",
+    "subject": "Add DisposeCapabilityRecord from tc39/proposal-explicit-resource-management#144"
+   },
    {
     "adate": "2023-01-25T14:05:03-05:00",
     "author": "Ron Buckton",
@@ -233,7 +265,7 @@
    }
   ],
   "title": "Add `using` Declarations, SuppressedError, and DisposableStack",
-  "updated_at": "2023-01-25T19:05:07Z"
+  "updated_at": "2023-01-25T21:30:14Z"
  },
  {
   "base": "874ecf9a11ddc02a223f4250169bd2724aca0643",
