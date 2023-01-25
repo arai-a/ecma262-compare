@@ -1,6 +1,70 @@
 [
  {
   "base": "36ce4e0db055e995552b1b47e1e53a6ed07b07b6",
+  "created_at": "2023-01-25T20:43:04Z",
+  "head": "0fad627aee3d2e908651a13b2fa4eae8ca3342a8",
+  "login": "gibson042",
+  "number": 3002,
+  "ref": "2023-01-remove-alg-tables",
+  "revs": [
+   {
+    "adate": "2023-01-25T15:23:40-05:00",
+    "author": "Richard Gibson",
+    "date": "2023-01-25T15:23:40-05:00",
+    "hash": "0fad627aee3d2e908651a13b2fa4eae8ca3342a8",
+    "parents": "f3f9e2bf1352c7d25968755fadef501068dfc23f",
+    "subject": "Editorial: Group the ApplyStringOrNumericBinaryOperator by type rather than operator"
+   },
+   {
+    "adate": "2023-01-25T15:21:05-05:00",
+    "author": "Richard Gibson",
+    "date": "2023-01-25T15:21:05-05:00",
+    "hash": "f3f9e2bf1352c7d25968755fadef501068dfc23f",
+    "parents": "21eb2a61acc99dbc8e4a69eb384293a6906b40b8",
+    "subject": "Editorial: Replace the ApplyStringOrNumericBinaryOperator table with explicit steps"
+   },
+   {
+    "adate": "2023-01-25T15:19:53-05:00",
+    "author": "Richard Gibson",
+    "date": "2023-01-25T15:19:53-05:00",
+    "hash": "21eb2a61acc99dbc8e4a69eb384293a6906b40b8",
+    "parents": "36ce4e0db055e995552b1b47e1e53a6ed07b07b6",
+    "subject": "Editorial: Replace the assignment operator table with code point slicing"
+   }
+  ],
+  "title": "Editorial: Replace the operator tables with explicit steps",
+  "updated_at": "2023-01-25T20:43:04Z"
+ },
+ {
+  "base": "36ce4e0db055e995552b1b47e1e53a6ed07b07b6",
+  "created_at": "2023-01-25T20:29:11Z",
+  "head": "a674fb7f515509ce33500d0688a9a6dbc9f255d8",
+  "login": "tc39",
+  "number": 3001,
+  "ref": "bump-emu",
+  "revs": [
+   {
+    "adate": "2023-01-25T12:26:28-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2023-01-25T12:26:28-08:00",
+    "hash": "a674fb7f515509ce33500d0688a9a6dbc9f255d8",
+    "parents": "4bf8f44ea18c59b350fffe3b8c5dd8c08f494513",
+    "subject": "Meta: bump ecmarkup to 16.0.1"
+   },
+   {
+    "adate": "2023-01-25T12:26:03-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2023-01-25T12:26:03-08:00",
+    "hash": "4bf8f44ea18c59b350fffe3b8c5dd8c08f494513",
+    "parents": "36ce4e0db055e995552b1b47e1e53a6ed07b07b6",
+    "subject": "Markup: explicitly annotate \"the result of evaluating\" as user-code"
+   }
+  ],
+  "title": "Meta: bump ecmarkup to 16.0.1",
+  "updated_at": "2023-01-25T20:29:11Z"
+ },
+ {
+  "base": "36ce4e0db055e995552b1b47e1e53a6ed07b07b6",
   "created_at": "2023-01-23T22:42:45Z",
   "head": "8a7e4695e98165725041db63726febfa1c5f9a7e",
   "login": "rbuckton",
