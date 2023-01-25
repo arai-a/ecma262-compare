@@ -2,11 +2,99 @@
  {
   "base": "36ce4e0db055e995552b1b47e1e53a6ed07b07b6",
   "created_at": "2023-01-23T22:42:45Z",
-  "head": "4b12f944ddc4f86b03cd197e14a2e3b570d839b0",
+  "head": "8a7e4695e98165725041db63726febfa1c5f9a7e",
   "login": "rbuckton",
   "number": 3000,
   "ref": "explicit-resource-management",
   "revs": [
+   {
+    "adate": "2023-01-25T14:05:03-05:00",
+    "author": "Ron Buckton",
+    "date": "2023-01-25T14:05:03-05:00",
+    "hash": "8a7e4695e98165725041db63726febfa1c5f9a7e",
+    "parents": "f9dbb8945fda07c96be65a90e30dcd2796277446",
+    "subject": "add description suggestion from @jmdyck"
+   },
+   {
+    "adate": "2023-01-25T14:03:51-05:00",
+    "author": "Ron Buckton",
+    "date": "2023-01-25T14:03:51-05:00",
+    "hash": "f9dbb8945fda07c96be65a90e30dcd2796277446",
+    "parents": "4b12f944ddc4f86b03cd197e14a2e3b570d839b0 1aaddf65e18dc153a82a705da93420b315711229",
+    "subject": "Merge pull request #2 from jmdyck/3000_ed"
+   },
+   {
+    "adate": "2023-01-23T21:51:15-05:00",
+    "author": "Michael Dyck",
+    "date": "2023-01-23T21:59:28-05:00",
+    "hash": "1aaddf65e18dc153a82a705da93420b315711229",
+    "parents": "24f205bfd42678c46e1590739b281e8c2159291c",
+    "subject": "misc minor fixes"
+   },
+   {
+    "adate": "2023-01-23T21:50:13-05:00",
+    "author": "Michael Dyck",
+    "date": "2023-01-23T21:59:28-05:00",
+    "hash": "24f205bfd42678c46e1590739b281e8c2159291c",
+    "parents": "38bcb2d5d890948ea026da237d4707f2f0db4142",
+    "subject": "Add 'UsingDeclaration' to Annex A"
+   },
+   {
+    "adate": "2023-01-23T21:49:17-05:00",
+    "author": "Michael Dyck",
+    "date": "2023-01-23T21:59:28-05:00",
+    "hash": "38bcb2d5d890948ea026da237d4707f2f0db4142",
+    "parents": "158c7305b6268502aca1a4bd784bed71b1df7d3d",
+    "subject": "A 'Slots' table should have a 'Type' column"
+   },
+   {
+    "adate": "2023-01-23T21:48:01-05:00",
+    "author": "Michael Dyck",
+    "date": "2023-01-23T21:59:27-05:00",
+    "hash": "158c7305b6268502aca1a4bd784bed71b1df7d3d",
+    "parents": "ed62cf088b75f3c4518d0fe95643bbf08a3dc06e",
+    "subject": "Interface names are put in `<i>` rather than `<em>`"
+   },
+   {
+    "adate": "2023-01-23T21:46:39-05:00",
+    "author": "Michael Dyck",
+    "date": "2023-01-23T21:59:27-05:00",
+    "hash": "ed62cf088b75f3c4518d0fe95643bbf08a3dc06e",
+    "parents": "1a8e9bf467d34d6a5e81ca136939609b7d24ad13",
+    "subject": "Use preamble conventions from PR #2592"
+   },
+   {
+    "adate": "2023-01-23T21:45:34-05:00",
+    "author": "Michael Dyck",
+    "date": "2023-01-23T21:59:27-05:00",
+    "hash": "1a8e9bf467d34d6a5e81ca136939609b7d24ad13",
+    "parents": "bd920f733331dae26570c9cf032d44efb91eab8c",
+    "subject": "Avoid the use of `Type()`"
+   },
+   {
+    "adate": "2023-01-23T21:43:46-05:00",
+    "author": "Michael Dyck",
+    "date": "2023-01-23T21:59:27-05:00",
+    "hash": "bd920f733331dae26570c9cf032d44efb91eab8c",
+    "parents": "e9dfcce3d045a8d8683beb4f70fc609d0eb4a231",
+    "subject": "id of AO clause doesn't need to include param names"
+   },
+   {
+    "adate": "2023-01-23T21:42:44-05:00",
+    "author": "Michael Dyck",
+    "date": "2023-01-23T21:59:25-05:00",
+    "hash": "e9dfcce3d045a8d8683beb4f70fc609d0eb4a231",
+    "parents": "461dcea5e94bc851504826e6890804e56e4a8469",
+    "subject": "Syntax of types"
+   },
+   {
+    "adate": "2023-01-23T21:39:40-05:00",
+    "author": "Michael Dyck",
+    "date": "2023-01-23T21:54:22-05:00",
+    "hash": "461dcea5e94bc851504826e6890804e56e4a8469",
+    "parents": "4b12f944ddc4f86b03cd197e14a2e3b570d839b0",
+    "subject": "Order sections by property name"
+   },
    {
     "adate": "2023-01-23T19:08:37-05:00",
     "author": "Ron Buckton",
@@ -81,7 +169,7 @@
    }
   ],
   "title": "Add `using` Declarations, SuppressedError, and DisposableStack",
-  "updated_at": "2023-01-24T00:08:41Z"
+  "updated_at": "2023-01-25T19:05:07Z"
  },
  {
   "base": "874ecf9a11ddc02a223f4250169bd2724aca0643",
