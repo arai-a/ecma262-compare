@@ -38,11 +38,27 @@
  {
   "base": "36ce4e0db055e995552b1b47e1e53a6ed07b07b6",
   "created_at": "2023-01-23T22:42:45Z",
-  "head": "bbafed5b4390874a87a98bdc8a66c82ae61b1131",
+  "head": "6942750f19e12e6847412b4fe8d37dc0345a5ddc",
   "login": "rbuckton",
   "number": 3000,
   "ref": "explicit-resource-management",
   "revs": [
+   {
+    "adate": "2023-01-26T11:33:51-05:00",
+    "author": "Ron Buckton",
+    "date": "2023-01-26T11:34:01-05:00",
+    "hash": "6942750f19e12e6847412b4fe8d37dc0345a5ddc",
+    "parents": "b9745a62cffea3822c4820c94a29536420259090",
+    "subject": "Clean up DisposeResources signature, replace UpdateEmpty with assertions"
+   },
+   {
+    "adate": "2023-01-26T11:26:12-05:00",
+    "author": "Ron Buckton",
+    "date": "2023-01-26T11:26:12-05:00",
+    "hash": "b9745a62cffea3822c4820c94a29536420259090",
+    "parents": "bbafed5b4390874a87a98bdc8a66c82ae61b1131",
+    "subject": "Fix formatting and capitalization"
+   },
    {
     "adate": "2023-01-25T16:30:09-05:00",
     "author": "Ron Buckton",
@@ -237,7 +253,7 @@
    }
   ],
   "title": "Add `using` Declarations, SuppressedError, and DisposableStack",
-  "updated_at": "2023-01-25T21:30:14Z"
+  "updated_at": "2023-01-26T16:38:45Z"
  },
  {
   "base": "874ecf9a11ddc02a223f4250169bd2724aca0643",
