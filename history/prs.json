@@ -416,32 +416,24 @@
   "updated_at": "2023-01-08T05:25:02Z"
  },
  {
-  "base": "f53141829cfd8ed6ca866818dca01b2e600065f5",
+  "base": "f1fbcc563b86f8a198b063fc51a224c5d63cc0dd",
   "created_at": "2023-01-05T04:36:58Z",
-  "head": "e1c0050eaf0b67d66700c7c29f50e70ce89f958f",
+  "head": "afb4fc50bc1a477fdcc572c04b402834c33df3c7",
   "login": "doehyunbaek",
   "number": 2994,
   "ref": "main",
   "revs": [
    {
-    "adate": "2023-01-27T17:20:29+09:00",
-    "author": "Doehyun Baek",
-    "date": "2023-01-27T17:20:29+09:00",
-    "hash": "e1c0050eaf0b67d66700c7c29f50e70ce89f958f",
-    "parents": "7b4145d8ec5338f0c65a826371fa9340670bb01b f53141829cfd8ed6ca866818dca01b2e600065f5",
-    "subject": "Merge branch 'main' into main"
-   },
-   {
     "adate": "2023-01-05T13:25:32+09:00",
     "author": "Doehyun Baek",
-    "date": "2023-01-05T13:25:32+09:00",
-    "hash": "7b4145d8ec5338f0c65a826371fa9340670bb01b",
-    "parents": "21ffeee8697e5d7c30871322608e57fe7bac509e",
+    "date": "2023-01-27T10:45:39-08:00",
+    "hash": "afb4fc50bc1a477fdcc572c04b402834c33df3c7",
+    "parents": "f1fbcc563b86f8a198b063fc51a224c5d63cc0dd",
     "subject": "Editorial: Clarify Proxy.revocable"
    }
   ],
   "title": "Editorial: Clarify Proxy.revocable",
-  "updated_at": "2023-01-27T08:21:09Z"
+  "updated_at": "2023-01-27T18:45:56Z"
  },
  {
   "base": "89ef6606792c1f2b246dae08965c0503cf7ee1ee",
@@ -1310,186 +1302,6 @@
   ],
   "title": "Editorial: Use the execution context created by InitializeEnvironment",
   "updated_at": "2022-09-03T00:44:57Z"
- },
- {
-  "base": "f53141829cfd8ed6ca866818dca01b2e600065f5",
-  "created_at": "2022-08-30T16:04:08Z",
-  "head": "40fc3341667dbfb73434e777b4eaf553cc226182",
-  "login": "tc39",
-  "number": 2877,
-  "ref": "comparison-consistency",
-  "revs": [
-   {
-    "adate": "2023-01-24T13:21:13-07:00",
-    "author": "Michael Ficarra",
-    "date": "2023-01-25T15:51:01-08:00",
-    "hash": "40fc3341667dbfb73434e777b4eaf553cc226182",
-    "parents": "437af32a0139f12a217ae45d38284be662d6a149",
-    "subject": "Update esmeta-ignore.json"
-   },
-   {
-    "adate": "2023-01-15T09:29:37-05:00",
-    "author": "Michael Dyck",
-    "date": "2023-01-25T15:51:01-08:00",
-    "hash": "437af32a0139f12a217ae45d38284be662d6a149",
-    "parents": "ee6f1a2ae32821ffc846128339db40972e947ca9",
-    "subject": "(bullet 5) 3+ types + 1 constant: put the constant last"
-   },
-   {
-    "adate": "2023-01-15T08:47:50-05:00",
-    "author": "Michael Dyck",
-    "date": "2023-01-25T15:51:01-08:00",
-    "hash": "ee6f1a2ae32821ffc846128339db40972e947ca9",
-    "parents": "7bf28d80a016bcccd293188d2820010e1bd8aa25",
-    "subject": "(bullet 4) 3+ disjuncts, all constants: insert \"one of\""
-   },
-   {
-    "adate": "2023-01-15T09:00:14-05:00",
-    "author": "Michael Dyck",
-    "date": "2023-01-25T15:51:01-08:00",
-    "hash": "7bf28d80a016bcccd293188d2820010e1bd8aa25",
-    "parents": "37aafc6f8e78800c5d9436875054938b87f085c6",
-    "subject": "(bullet 4) 3+ disjuncts, all constants: \"any of\" -> \"one of\""
-   },
-   {
-    "adate": "2023-01-15T08:55:30-05:00",
-    "author": "Michael Dyck",
-    "date": "2023-01-25T15:51:01-08:00",
-    "hash": "37aafc6f8e78800c5d9436875054938b87f085c6",
-    "parents": "c93c0832baa0971416f8577aab2b97dff56f14ad",
-    "subject": "(bullet 4) 3+ disjuncts, all constants: \"either\" -> \"one of\""
-   },
-   {
-    "adate": "2023-01-15T10:04:45-05:00",
-    "author": "Michael Dyck",
-    "date": "2023-01-25T15:51:01-08:00",
-    "hash": "c93c0832baa0971416f8577aab2b97dff56f14ad",
-    "parents": "937d3c01745ca77cf9e92ea9dc94ed5156b3fd9a",
-    "subject": "(bullet 3) 3+ disjuncts, all types: insert \"either\" (\"is not\")"
-   },
-   {
-    "adate": "2023-01-15T10:03:18-05:00",
-    "author": "Michael Dyck",
-    "date": "2023-01-25T15:51:01-08:00",
-    "hash": "937d3c01745ca77cf9e92ea9dc94ed5156b3fd9a",
-    "parents": "9d280a4879b4f53ad26884301c9ec1e637c97649",
-    "subject": "(bullet 3) 3+ disjuncts, all types: insert \"either\""
-   },
-   {
-    "adate": "2023-01-15T08:14:40-05:00",
-    "author": "Michael Dyck",
-    "date": "2023-01-25T15:51:01-08:00",
-    "hash": "9d280a4879b4f53ad26884301c9ec1e637c97649",
-    "parents": "f54fbf5227f8d46a787e2f62ff4978839cf72671",
-    "subject": "(bullet 2) 2 disjuncts, a type and a constant: put type before constant"
-   },
-   {
-    "adate": "2023-01-15T08:42:56-05:00",
-    "author": "Michael Dyck",
-    "date": "2023-01-25T15:51:01-08:00",
-    "hash": "f54fbf5227f8d46a787e2f62ff4978839cf72671",
-    "parents": "cdf3da7c294495563d7a92f749996e8b2a33ccc6",
-    "subject": "(bullet 1) 2 disjuncts, both constants: insert \"either\""
-   },
-   {
-    "adate": "2023-01-15T08:41:48-05:00",
-    "author": "Michael Dyck",
-    "date": "2023-01-25T15:51:01-08:00",
-    "hash": "cdf3da7c294495563d7a92f749996e8b2a33ccc6",
-    "parents": "28e6f1c047377a482e1da79bcd15873352a6fddf",
-    "subject": "(bullet 1) 2 disjuncts, both types: insert \"either\""
-   },
-   {
-    "adate": "2022-12-13T17:28:46-05:00",
-    "author": "Michael Dyck",
-    "date": "2023-01-25T15:51:01-08:00",
-    "hash": "28e6f1c047377a482e1da79bcd15873352a6fddf",
-    "parents": "8beb213dbaf38cd226beb9b6ace2fe39aa74d288",
-    "subject": "mixed operators without parens"
-   },
-   {
-    "adate": "2022-12-13T14:48:59-05:00",
-    "author": "Michael Dyck",
-    "date": "2023-01-25T15:51:01-08:00",
-    "hash": "8beb213dbaf38cd226beb9b6ace2fe39aa74d288",
-    "parents": "6e74be10750a3bdef45a358490f613a208b3c487",
-    "subject": "3+ sub-conditions"
-   },
-   {
-    "adate": "2022-12-12T23:29:36-05:00",
-    "author": "Michael Dyck",
-    "date": "2023-01-25T15:51:01-08:00",
-    "hash": "6e74be10750a3bdef45a358490f613a208b3c487",
-    "parents": "727036f48d6338d017f60364ddec990fc2358d96",
-    "subject": "2 sub-conditions"
-   },
-   {
-    "adate": "2022-12-07T14:44:27-07:00",
-    "author": "Michael Ficarra",
-    "date": "2023-01-25T16:45:58-07:00",
-    "hash": "727036f48d6338d017f60364ddec990fc2358d96",
-    "parents": "c96a186309d8b276c1030130dbd4d5ecf35a52f5",
-    "subject": "whose [[]]"
-   },
-   {
-    "adate": "2022-12-07T00:29:49-05:00",
-    "author": "Michael Dyck",
-    "date": "2023-01-25T16:45:58-07:00",
-    "hash": "c96a186309d8b276c1030130dbd4d5ecf35a52f5",
-    "parents": "42a487d23c5d674acf0952e5e0d81b89decdabd0",
-    "subject": "\"has a binding for the name _N_\" -> \"has a binding for _N_\""
-   },
-   {
-    "adate": "2022-12-07T00:28:12-05:00",
-    "author": "Michael Dyck",
-    "date": "2023-01-25T16:45:58-07:00",
-    "hash": "42a487d23c5d674acf0952e5e0d81b89decdabd0",
-    "parents": "a85603a4cb28f0fce563752c1296b5948a50e04f",
-    "subject": "use standard phrasing for a set of alternatives"
-   },
-   {
-    "adate": "2022-12-07T00:26:31-05:00",
-    "author": "Michael Dyck",
-    "date": "2023-01-25T16:45:58-07:00",
-    "hash": "a85603a4cb28f0fce563752c1296b5948a50e04f",
-    "parents": "ad88ec2bfd7e6bbc4aa68e69f5e37a78c6610d18",
-    "subject": "\"is:\" -> \"is\""
-   },
-   {
-    "adate": "2022-12-06T23:55:20-05:00",
-    "author": "Michael Dyck",
-    "date": "2023-01-25T16:45:58-07:00",
-    "hash": "ad88ec2bfd7e6bbc4aa68e69f5e37a78c6610d18",
-    "parents": "e3f2bc49d92bbfc43f8a0de4882e7d9d22124a54",
-    "subject": "Eliminate \"are the same Shared Data Block values\""
-   },
-   {
-    "adate": "2022-12-06T23:39:15-05:00",
-    "author": "Michael Dyck",
-    "date": "2023-01-25T16:45:58-07:00",
-    "hash": "e3f2bc49d92bbfc43f8a0de4882e7d9d22124a54",
-    "parents": "f005d6bc387201930925f9413e9f3f377fd6611c",
-    "subject": "ToIntegerOrInfinity -> ToUint32"
-   },
-   {
-    "adate": "2022-12-06T23:21:03-05:00",
-    "author": "Michael Dyck",
-    "date": "2023-01-25T16:45:58-07:00",
-    "hash": "f005d6bc387201930925f9413e9f3f377fd6611c",
-    "parents": "f87b5c7ccb5be59e51f453ee99c072f661e91b83",
-    "subject": "Don't repeat the guard within the scope of the guard"
-   },
-   {
-    "adate": "2022-07-08T17:55:36-06:00",
-    "author": "Michael Ficarra",
-    "date": "2023-01-25T16:45:55-07:00",
-    "hash": "f87b5c7ccb5be59e51f453ee99c072f661e91b83",
-    "parents": "f53141829cfd8ed6ca866818dca01b2e600065f5",
-    "subject": "various editorial changes for comparisons"
-   }
-  ],
-  "title": "various editorial changes for comparisons",
-  "updated_at": "2023-01-25T23:57:28Z"
  },
  {
   "base": "dceb9e45fa04ff37a213095e97a28da81bf213ec",
