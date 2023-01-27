@@ -1850,11 +1850,27 @@
  {
   "base": "874ecf9a11ddc02a223f4250169bd2724aca0643",
   "created_at": "2022-05-17T14:08:31Z",
-  "head": "3767ef948dbaae993689e1a9eec213259e84f342",
+  "head": "6b9bba09a8a8471b5cb81a33c3b271940c674348",
   "login": "acutmore",
   "number": 2777,
   "ref": "symbols-as-weakmap-keys",
   "revs": [
+   {
+    "adate": "2023-01-27T13:57:21+00:00",
+    "author": "Ashley Claymore",
+    "date": "2023-01-27T13:57:21+00:00",
+    "hash": "6b9bba09a8a8471b5cb81a33c3b271940c674348",
+    "parents": "deb935bbeb9103a4ea95a9e709b9d17c19690320",
+    "subject": "update identity of symbols"
+   },
+   {
+    "adate": "2023-01-27T13:33:12+00:00",
+    "author": "Ashley Claymore",
+    "date": "2023-01-27T13:56:44+00:00",
+    "hash": "deb935bbeb9103a4ea95a9e709b9d17c19690320",
+    "parents": "3767ef948dbaae993689e1a9eec213259e84f342",
+    "subject": "Apply suggestions regarding 'referent'"
+   },
    {
     "adate": "2023-01-25T12:29:33+00:00",
     "author": "Ashley Claymore",
@@ -1873,7 +1889,7 @@
    }
   ],
   "title": "[Stage 4 Draft] - Symbols as WeakMap keys",
-  "updated_at": "2023-01-25T12:29:50Z"
+  "updated_at": "2023-01-27T14:05:23Z"
  },
  {
   "base": "656f0cf5dc1f7b8cccd6eef8146c4a037ae9106a",
