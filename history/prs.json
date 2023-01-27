@@ -416,13 +416,21 @@
   "updated_at": "2023-01-08T05:25:02Z"
  },
  {
-  "base": "21ffeee8697e5d7c30871322608e57fe7bac509e",
+  "base": "f53141829cfd8ed6ca866818dca01b2e600065f5",
   "created_at": "2023-01-05T04:36:58Z",
-  "head": "7b4145d8ec5338f0c65a826371fa9340670bb01b",
+  "head": "e1c0050eaf0b67d66700c7c29f50e70ce89f958f",
   "login": "doehyunbaek",
   "number": 2994,
   "ref": "main",
   "revs": [
+   {
+    "adate": "2023-01-27T17:20:29+09:00",
+    "author": "Doehyun Baek",
+    "date": "2023-01-27T17:20:29+09:00",
+    "hash": "e1c0050eaf0b67d66700c7c29f50e70ce89f958f",
+    "parents": "7b4145d8ec5338f0c65a826371fa9340670bb01b f53141829cfd8ed6ca866818dca01b2e600065f5",
+    "subject": "Merge branch 'main' into main"
+   },
    {
     "adate": "2023-01-05T13:25:32+09:00",
     "author": "Doehyun Baek",
@@ -433,7 +441,7 @@
    }
   ],
   "title": "Editorial: Clarify Proxy.revocable",
-  "updated_at": "2023-01-05T04:36:58Z"
+  "updated_at": "2023-01-27T08:21:09Z"
  },
  {
   "base": "89ef6606792c1f2b246dae08965c0503cf7ee1ee",
