@@ -1930,11 +1930,19 @@
  {
   "base": "f53141829cfd8ed6ca866818dca01b2e600065f5",
   "created_at": "2022-01-22T17:35:52Z",
-  "head": "abb76306ee8fc521fee4a856a164be327692b977",
+  "head": "118ff832b2a7af570a721316d4b43f1596a1474b",
   "login": "jmdyck",
   "number": 2637,
   "ref": "CallOrConstruct",
   "revs": [
+   {
+    "adate": "2023-01-29T11:16:27-05:00",
+    "author": "Michael Dyck",
+    "date": "2023-01-29T11:16:27-05:00",
+    "hash": "118ff832b2a7af570a721316d4b43f1596a1474b",
+    "parents": "abb76306ee8fc521fee4a856a164be327692b977",
+    "subject": "fixup: built-in functions can't be exotic any more"
+   },
    {
     "adate": "2022-01-22T12:21:52-05:00",
     "author": "Michael Dyck",
@@ -1953,7 +1961,7 @@
    }
   ],
   "title": "Editorial: Factor out ExoticBuiltinCallOrConstruct",
-  "updated_at": "2023-01-27T02:55:12Z"
+  "updated_at": "2023-01-29T16:17:31Z"
  },
  {
   "base": "2d612452d1115cbdd21b9a607aab6c9408552734",
