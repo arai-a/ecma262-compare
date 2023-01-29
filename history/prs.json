@@ -1196,64 +1196,24 @@
   "updated_at": "2022-10-11T16:27:42Z"
  },
  {
-  "base": "36ce4e0db055e995552b1b47e1e53a6ed07b07b6",
+  "base": "f1fbcc563b86f8a198b063fc51a224c5d63cc0dd",
   "created_at": "2022-09-05T18:50:04Z",
-  "head": "7536ee08d786b7cbfa5f8c44da07ea3fd2a5145f",
+  "head": "d390b90e662d3cb29ea84736433c48d9580a0c44",
   "login": "jmdyck",
   "number": 2898,
   "ref": "FindViaPredicate",
   "revs": [
    {
-    "adate": "2022-11-16T17:38:21-05:00",
-    "author": "Michael Dyck",
-    "date": "2023-01-25T14:29:36-08:00",
-    "hash": "7536ee08d786b7cbfa5f8c44da07ea3fd2a5145f",
-    "parents": "63c23ada5331f6772788d4c6dca001c62d5d5312",
-    "subject": "fixup: try adding FindViaPredicate to esmeta-ignore.json instead of TypedArray.p.find*"
-   },
-   {
-    "adate": "2022-11-16T14:46:55-05:00",
-    "author": "Michael Dyck",
-    "date": "2023-01-25T14:29:36-08:00",
-    "hash": "63c23ada5331f6772788d4c6dca001c62d5d5312",
-    "parents": "47437cb0826812f526a131dc46136e43e2deffe5",
-    "subject": "fixup: add TypedArray.p.find* to esmeta-ignore.json"
-   },
-   {
-    "adate": "2022-11-16T14:20:51-05:00",
-    "author": "Michael Dyck",
-    "date": "2023-01-25T14:29:36-08:00",
-    "hash": "47437cb0826812f526a131dc46136e43e2deffe5",
-    "parents": "ab26abec42c2be87324fb52f57de1984ce8427d5",
-    "subject": "fixup: 4x insert \"a value that coerces to\""
-   },
-   {
-    "adate": "2022-11-15T23:48:14-05:00",
-    "author": "Michael Dyck",
-    "date": "2023-01-25T14:29:36-08:00",
-    "hash": "ab26abec42c2be87324fb52f57de1984ce8427d5",
-    "parents": "f37638b52864370d020c06eefb0b1ba1c6fd378c",
-    "subject": "fixup: Merge {Array,TypedArray}FindViaPredicate"
-   },
-   {
-    "adate": "2022-09-05T13:31:07-04:00",
-    "author": "Michael Dyck",
-    "date": "2023-01-25T14:29:36-08:00",
-    "hash": "f37638b52864370d020c06eefb0b1ba1c6fd378c",
-    "parents": "d0f1b03e645011b0a5f17dad66685e39a92351e5",
-    "subject": "Editorial: Factor out TypedArrayFindViaPredicate"
-   },
-   {
     "adate": "2022-09-05T09:45:11-04:00",
     "author": "Michael Dyck",
-    "date": "2023-01-25T14:29:36-08:00",
-    "hash": "d0f1b03e645011b0a5f17dad66685e39a92351e5",
-    "parents": "36ce4e0db055e995552b1b47e1e53a6ed07b07b6",
-    "subject": "Editorial: Factor out ArrayFindViaPredicate"
+    "date": "2023-01-29T09:35:14-05:00",
+    "hash": "d390b90e662d3cb29ea84736433c48d9580a0c44",
+    "parents": "f53141829cfd8ed6ca866818dca01b2e600065f5",
+    "subject": "Editorial: Factor out FindViaPredicate"
    }
   ],
   "title": "Editorial: Factor out FindViaPredicate",
-  "updated_at": "2023-01-25T22:29:41Z"
+  "updated_at": "2023-01-29T14:42:30Z"
  },
  {
   "base": "874ecf9a11ddc02a223f4250169bd2724aca0643",
