@@ -102,11 +102,27 @@
  {
   "base": "36ce4e0db055e995552b1b47e1e53a6ed07b07b6",
   "created_at": "2023-01-23T22:42:45Z",
-  "head": "6eaf3efb566f9f95bf59e18cc610666797df93a0",
+  "head": "da91e23fded6080102e7fd23413747acda626c07",
   "login": "rbuckton",
   "number": 3000,
   "ref": "explicit-resource-management",
   "revs": [
+   {
+    "adate": "2023-01-30T15:16:39-05:00",
+    "author": "Ron Buckton",
+    "date": "2023-01-30T15:17:00-05:00",
+    "hash": "da91e23fded6080102e7fd23413747acda626c07",
+    "parents": "e4f2d05e10cfe77f9f7560cc6af5c26e072c445d",
+    "subject": "Fix typo in using declaration early errors"
+   },
+   {
+    "adate": "2023-01-30T14:45:54-05:00",
+    "author": "Ron Buckton",
+    "date": "2023-01-30T14:45:54-05:00",
+    "hash": "e4f2d05e10cfe77f9f7560cc6af5c26e072c445d",
+    "parents": "6eaf3efb566f9f95bf59e18cc610666797df93a0",
+    "subject": "Move BindingPattern restriction for 'using' to an early error"
+   },
    {
     "adate": "2023-01-29T20:32:51-05:00",
     "author": "Ron Buckton",
@@ -341,7 +357,7 @@
    }
   ],
   "title": "Add `using` Declarations, SuppressedError, and DisposableStack",
-  "updated_at": "2023-01-30T01:32:57Z"
+  "updated_at": "2023-01-30T20:17:07Z"
  },
  {
   "base": "874ecf9a11ddc02a223f4250169bd2724aca0643",
