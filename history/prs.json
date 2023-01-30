@@ -94,11 +94,19 @@
  {
   "base": "36ce4e0db055e995552b1b47e1e53a6ed07b07b6",
   "created_at": "2023-01-23T22:42:45Z",
-  "head": "7f7b7e32fa27ff340d088b72243ad39c7625494d",
+  "head": "b1b313507486481963a2d2836242ae859032520b",
   "login": "rbuckton",
   "number": 3000,
   "ref": "explicit-resource-management",
   "revs": [
+   {
+    "adate": "2023-01-29T18:46:00-05:00",
+    "author": "Ron Buckton",
+    "date": "2023-01-29T18:46:00-05:00",
+    "hash": "b1b313507486481963a2d2836242ae859032520b",
+    "parents": "7f7b7e32fa27ff340d088b72243ad39c7625494d",
+    "subject": "Use CreateBuiltinFunction"
+   },
    {
     "adate": "2023-01-29T17:11:37-05:00",
     "author": "Ron Buckton",
@@ -317,7 +325,7 @@
    }
   ],
   "title": "Add `using` Declarations, SuppressedError, and DisposableStack",
-  "updated_at": "2023-01-29T22:11:44Z"
+  "updated_at": "2023-01-29T23:46:08Z"
  },
  {
   "base": "874ecf9a11ddc02a223f4250169bd2724aca0643",
