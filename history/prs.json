@@ -30,11 +30,19 @@
  {
   "base": "f1fbcc563b86f8a198b063fc51a224c5d63cc0dd",
   "created_at": "2023-01-29T16:59:06Z",
-  "head": "919b36d92f925bbf9d76972da617ea2730816cc1",
+  "head": "897f2a30a8983bbe287e73a64cd31af3bedb5647",
   "login": "gibson042",
   "number": 3006,
   "ref": "2023-01-main-repo-jobs",
   "revs": [
+   {
+    "adate": "2023-01-30T13:58:35-05:00",
+    "author": "Richard Gibson",
+    "date": "2023-01-30T13:58:35-05:00",
+    "hash": "897f2a30a8983bbe287e73a64cd31af3bedb5647",
+    "parents": "919b36d92f925bbf9d76972da617ea2730816cc1",
+    "subject": "Meta: Change job condition as suggested"
+   },
    {
     "adate": "2023-01-29T11:55:35-05:00",
     "author": "Richard Gibson",
@@ -45,7 +53,7 @@
    }
   ],
   "title": "Meta: Limit IPR check job to the tc39 repository",
-  "updated_at": "2023-01-29T17:06:28Z"
+  "updated_at": "2023-01-30T19:06:33Z"
  },
  {
   "base": "36ce4e0db055e995552b1b47e1e53a6ed07b07b6",
