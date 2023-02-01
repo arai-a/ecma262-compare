@@ -2,11 +2,19 @@
  {
   "base": "f1fbcc563b86f8a198b063fc51a224c5d63cc0dd",
   "created_at": "2023-01-29T19:15:10Z",
-  "head": "1557bacac261b8497f67cae7def74c74a710e108",
+  "head": "ee5ecaed400f54c2d253fd92c8c5a20e95e2dbf8",
   "login": "jmdyck",
   "number": 3007,
   "ref": "all_built-ins",
   "revs": [
+   {
+    "adate": "2023-02-01T17:37:16-05:00",
+    "author": "Michael Dyck",
+    "date": "2023-02-01T17:37:16-05:00",
+    "hash": "ee5ecaed400f54c2d253fd92c8c5a20e95e2dbf8",
+    "parents": "1557bacac261b8497f67cae7def74c74a710e108",
+    "subject": "fixup: one [[Call]] doesn't need to be a specialization of the other"
+   },
    {
     "adate": "2023-01-29T13:22:48-05:00",
     "author": "Michael Dyck",
@@ -25,7 +33,7 @@
    }
   ],
   "title": "Editorial: Re-word re built-in function implemented as ECMAScript function",
-  "updated_at": "2023-01-29T19:33:09Z"
+  "updated_at": "2023-02-01T22:43:51Z"
  },
  {
   "base": "f1fbcc563b86f8a198b063fc51a224c5d63cc0dd",
@@ -610,26 +618,6 @@
   ],
   "title": "Editorial: Use linkable terms for coercion to BigInt",
   "updated_at": "2022-12-18T16:14:12Z"
- },
- {
-  "base": "578f18fc041d0c507acb764ddf6bd5ed373e5519",
-  "created_at": "2022-12-16T18:39:16Z",
-  "head": "d5e850aa73389d759fb0dbeee37ace24bc5e5b70",
-  "login": "nicolo-ribaudo",
-  "number": 2976,
-  "ref": "B.3.4",
-  "revs": [
-   {
-    "adate": "2022-12-16T19:37:38+01:00",
-    "author": "Nicol\u00f2 Ribaudo",
-    "date": "2022-12-16T19:37:38+01:00",
-    "hash": "d5e850aa73389d759fb0dbeee37ace24bc5e5b70",
-    "parents": "578f18fc041d0c507acb764ddf6bd5ed373e5519",
-    "subject": "Editorial: higlight diff in B.3.4"
-   }
-  ],
-  "title": "Editorial: Highlight diff in B.3.4 compared to the original semantics",
-  "updated_at": "2022-12-16T18:55:29Z"
  },
  {
   "base": "578f18fc041d0c507acb764ddf6bd5ed373e5519",
