@@ -1240,9 +1240,9 @@
   "updated_at": "2023-01-29T14:42:30Z"
  },
  {
-  "base": "874ecf9a11ddc02a223f4250169bd2724aca0643",
+  "base": "8aac12603c99f94d982317832b0e03c13684ce0a",
   "created_at": "2022-09-04T02:20:57Z",
-  "head": "be6976cd76bebd06c4b7f7ab572f6f03b578f30e",
+  "head": "0aed1d1e093453241087818c2e0d899b5d7232f7",
   "login": "jmdyck",
   "number": 2889,
   "ref": "callable",
@@ -1250,22 +1250,22 @@
    {
     "adate": "2022-09-03T22:11:56-04:00",
     "author": "Michael Dyck",
-    "date": "2023-01-12T22:17:12-05:00",
-    "hash": "be6976cd76bebd06c4b7f7ab572f6f03b578f30e",
-    "parents": "1b5cb241caa5ee91904b229eb5a1bad6d15371b8",
+    "date": "2023-02-10T17:39:57-05:00",
+    "hash": "0aed1d1e093453241087818c2e0d899b5d7232f7",
+    "parents": "9e4c255020f37c34b547eae7782673a891b07b5f",
     "subject": "Eliminate most other uses of \"callable\""
    },
    {
     "adate": "2022-09-03T21:47:50-04:00",
     "author": "Michael Dyck",
-    "date": "2023-01-12T22:17:11-05:00",
-    "hash": "1b5cb241caa5ee91904b229eb5a1bad6d15371b8",
-    "parents": "874ecf9a11ddc02a223f4250169bd2724aca0643",
+    "date": "2023-02-10T17:39:56-05:00",
+    "hash": "9e4c255020f37c34b547eae7782673a891b07b5f",
+    "parents": "8aac12603c99f94d982317832b0e03c13684ce0a",
     "subject": "Rename \"IsCallable\" as \"IsFunction\""
    }
   ],
   "title": "Editorial: Minimize use of the term \"callable\"",
-  "updated_at": "2023-01-14T14:58:57Z"
+  "updated_at": "2023-02-10T22:44:01Z"
  },
  {
   "base": "3cf8e30e47dd1f010b7d86929670f1e8c51ecc43",
@@ -3344,9 +3344,9 @@
   "updated_at": "2020-03-27T07:01:25Z"
  },
  {
-  "base": "8410f1b68b81522d3a34753e4ed9be053a162e4b",
+  "base": "8aac12603c99f94d982317832b0e03c13684ce0a",
   "created_at": "2019-07-13T02:30:44Z",
-  "head": "e19f0947f0b7291e0f4cc00703a0de3e10b7363a",
+  "head": "1462bf6d7bf93a525303e77b6a68ee2458a50f9a",
   "login": "jmdyck",
   "number": 1623,
   "ref": "index_strings",
@@ -3354,38 +3354,38 @@
    {
     "adate": "2019-07-12T11:59:54-04:00",
     "author": "Michael Dyck",
-    "date": "2022-11-04T16:29:55-04:00",
-    "hash": "e19f0947f0b7291e0f4cc00703a0de3e10b7363a",
-    "parents": "fb2de8e4ed195b717dab43bf3eb7e13a1b0f4d1b",
+    "date": "2023-02-10T17:49:07-05:00",
+    "hash": "1462bf6d7bf93a525303e77b6a68ee2458a50f9a",
+    "parents": "f00c720585a2007b5d4102cfb49283d6e38d039a",
     "subject": "Editorial: some minor rewordings"
    },
    {
     "adate": "2019-07-12T11:12:43-04:00",
     "author": "Michael Dyck",
-    "date": "2022-11-04T16:29:55-04:00",
-    "hash": "fb2de8e4ed195b717dab43bf3eb7e13a1b0f4d1b",
-    "parents": "085a8f59fa468a7f08ee82f69699bfa4ea21db5d",
+    "date": "2023-02-10T17:49:04-05:00",
+    "hash": "f00c720585a2007b5d4102cfb49283d6e38d039a",
+    "parents": "18c9509f96589fbfb00c0f222249b016de0a942e",
     "subject": "Editorial: Replace \"array index\" with \"Uint32-string\""
    },
    {
     "adate": "2019-07-12T10:23:31-04:00",
     "author": "Michael Dyck",
-    "date": "2022-11-04T16:29:55-04:00",
-    "hash": "085a8f59fa468a7f08ee82f69699bfa4ea21db5d",
-    "parents": "724916e1d0e6ac9570a76e31166a4da856905d9b",
+    "date": "2023-02-10T17:44:39-05:00",
+    "hash": "18c9509f96589fbfb00c0f222249b016de0a942e",
+    "parents": "3278c20d5469792f662a76bc6ba3e9145852e5b4",
     "subject": "Editorial: Replace \"integer index\" with \"Uint53-string\""
    },
    {
     "adate": "2019-07-12T21:58:00-04:00",
     "author": "Michael Dyck",
-    "date": "2022-11-04T16:29:55-04:00",
-    "hash": "724916e1d0e6ac9570a76e31166a4da856905d9b",
-    "parents": "8410f1b68b81522d3a34753e4ed9be053a162e4b",
+    "date": "2023-02-10T17:44:39-05:00",
+    "hash": "3278c20d5469792f662a76bc6ba3e9145852e5b4",
+    "parents": "8aac12603c99f94d982317832b0e03c13684ce0a",
     "subject": "Editorial: Fix wording in Note for Arguments exotic objects"
    }
   ],
   "title": "Editorial: Replace terms \"integer index\" and \"array index\"",
-  "updated_at": "2022-11-04T21:10:43Z"
+  "updated_at": "2023-02-10T22:55:11Z"
  },
  {
   "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
