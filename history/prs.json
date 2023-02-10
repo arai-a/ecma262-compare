@@ -2768,9 +2768,9 @@
   "updated_at": "2021-03-02T20:18:19Z"
  },
  {
-  "base": "8410f1b68b81522d3a34753e4ed9be053a162e4b",
+  "base": "8aac12603c99f94d982317832b0e03c13684ce0a",
   "created_at": "2021-01-24T05:38:33Z",
-  "head": "ac458e8a1cc9fad4362f51d0d38bb3a8ac6c1b3e",
+  "head": "e023ad536c60db0e9ebec15b41a2032cfdb03cf6",
   "login": "jmdyck",
   "number": 2288,
   "ref": "declarative_Env_Rec",
@@ -2778,38 +2778,38 @@
    {
     "adate": "2021-01-24T00:30:29-05:00",
     "author": "Michael Dyck",
-    "date": "2022-11-04T16:26:17-04:00",
-    "hash": "ac458e8a1cc9fad4362f51d0d38bb3a8ac6c1b3e",
-    "parents": "fc1a7a4a42ddcd04ab272424d9b6ffdd374cd474",
+    "date": "2023-02-10T17:13:52-05:00",
+    "hash": "e023ad536c60db0e9ebec15b41a2032cfdb03cf6",
+    "parents": "cad610cc9bdd7018824ff139872bd25da08a0a67",
     "subject": "Editorial: Model a declarative binding as a Record"
    },
    {
     "adate": "2021-01-23T23:59:22-05:00",
     "author": "Michael Dyck",
-    "date": "2022-11-04T16:26:17-04:00",
-    "hash": "fc1a7a4a42ddcd04ab272424d9b6ffdd374cd474",
-    "parents": "91aa978c2f78adc05071af335d890c26b40021e2",
+    "date": "2023-02-10T17:12:10-05:00",
+    "hash": "cad610cc9bdd7018824ff139872bd25da08a0a67",
+    "parents": "5f711f4ec959b0c35af99917c04aecaacd2c7c17",
     "subject": "Editorial: Declarative Env Rec has field [[Bindings]]"
    },
    {
     "adate": "2021-01-23T23:52:38-05:00",
     "author": "Michael Dyck",
-    "date": "2022-11-04T16:26:17-04:00",
-    "hash": "91aa978c2f78adc05071af335d890c26b40021e2",
-    "parents": "28b615b183db19410bc4025ca318e69e73736d82",
+    "date": "2023-02-10T17:11:24-05:00",
+    "hash": "5f711f4ec959b0c35af99917c04aecaacd2c7c17",
+    "parents": "adbed5f76cc2f70ce99439bdcd1945eee27bff4b",
     "subject": "Editorial: Treat a binding as an 'alias-able' thing"
    },
    {
     "adate": "2021-01-23T22:54:21-05:00",
     "author": "Michael Dyck",
-    "date": "2022-11-04T16:26:17-04:00",
-    "hash": "28b615b183db19410bc4025ca318e69e73736d82",
-    "parents": "8410f1b68b81522d3a34753e4ed9be053a162e4b",
+    "date": "2023-02-10T17:11:21-05:00",
+    "hash": "adbed5f76cc2f70ce99439bdcd1945eee27bff4b",
+    "parents": "8aac12603c99f94d982317832b0e03c13684ce0a",
     "subject": "Editorial: Use Declarative Env Rec's HasBinding method"
    }
   ],
   "title": "Editorial: Model the bindings of a declarative Env Rec as a List of Records",
-  "updated_at": "2022-11-04T21:08:44Z"
+  "updated_at": "2023-02-10T22:27:02Z"
  },
  {
   "base": "7575f745f26e9f66b2be481144f37ac4a8a9f1c4",
@@ -2840,9 +2840,9 @@
   "updated_at": "2022-02-28T20:39:06Z"
  },
  {
-  "base": "874ecf9a11ddc02a223f4250169bd2724aca0643",
+  "base": "8aac12603c99f94d982317832b0e03c13684ce0a",
   "created_at": "2020-12-08T06:31:39Z",
-  "head": "6e0ef3ffebeb8710d153c6cc9903587ec3bb4a78",
+  "head": "dd8bd1e1e6e06a542af2e2282707ace69a7a3459",
   "login": "jmdyck",
   "number": 2246,
   "ref": "ExecutionContext_Record",
@@ -2850,70 +2850,70 @@
    {
     "adate": "2022-11-16T17:52:33-05:00",
     "author": "Michael Dyck",
-    "date": "2023-01-12T16:57:25-05:00",
-    "hash": "6e0ef3ffebeb8710d153c6cc9903587ec3bb4a78",
-    "parents": "b464e18c23bc066b192cc31a5d5af06fdc512313",
+    "date": "2023-02-10T17:29:35-05:00",
+    "hash": "dd8bd1e1e6e06a542af2e2282707ace69a7a3459",
+    "parents": "e2ac7f1d2569116a34f3b79a0c30d33ddab649f7",
     "subject": "fixup: try adding PrepareForOrdinaryCall to esmeta-ignore instead of ECMAScriptFunctionObject.Construct"
    },
    {
     "adate": "2022-08-31T23:46:33-04:00",
     "author": "Michael Dyck",
-    "date": "2023-01-12T16:57:24-05:00",
-    "hash": "b464e18c23bc066b192cc31a5d5af06fdc512313",
-    "parents": "c4acfc9689825fe2c5a9175bc28d68ad459e7857",
+    "date": "2023-02-10T17:29:35-05:00",
+    "hash": "e2ac7f1d2569116a34f3b79a0c30d33ddab649f7",
+    "parents": "3d04b3c5274821df9e684faedeed334cb06ab100",
     "subject": "fixup: \"execution context\" -> \"ExecutionContext Record\" in some prose"
    },
    {
     "adate": "2022-08-31T23:31:55-04:00",
     "author": "Michael Dyck",
-    "date": "2023-01-12T16:57:24-05:00",
-    "hash": "c4acfc9689825fe2c5a9175bc28d68ad459e7857",
-    "parents": "568b2a6341a5cca7a72af1b071d02ffa140f92aa",
+    "date": "2023-02-10T17:29:35-05:00",
+    "hash": "3d04b3c5274821df9e684faedeed334cb06ab100",
+    "parents": "355dd673210ea76ae4f37b4e675f9f5721d04f38",
     "subject": "fixup: \"execution context\" -> \"ExecutionContext Record\" in some alg steps"
    },
    {
     "adate": "2022-08-31T23:13:29-04:00",
     "author": "Michael Dyck",
-    "date": "2023-01-12T16:57:22-05:00",
-    "hash": "568b2a6341a5cca7a72af1b071d02ffa140f92aa",
-    "parents": "0498a2fd2c529b5b9a6cbd7b63ab1755c96dd253",
+    "date": "2023-02-10T17:29:35-05:00",
+    "hash": "355dd673210ea76ae4f37b4e675f9f5721d04f38",
+    "parents": "2785ce1bc832c539d5def974a909099443c0b451",
     "subject": "fixup: Avoid saying \"that execution context\" by naming it"
    },
    {
     "adate": "2022-08-31T20:30:10-04:00",
     "author": "Michael Dyck",
-    "date": "2023-01-12T16:52:33-05:00",
-    "hash": "0498a2fd2c529b5b9a6cbd7b63ab1755c96dd253",
-    "parents": "f3ea9b84f127f2361933473690c6a806225ad8cc",
+    "date": "2023-02-10T17:29:35-05:00",
+    "hash": "2785ce1bc832c539d5def974a909099443c0b451",
+    "parents": "77be174e7f62b2b60596f64510d6a5ce9faeaea4",
     "subject": "fixup: \"execution context\" -> \"ExecutionContext Record\" in record-field tables"
    },
    {
     "adate": "2022-08-31T20:24:28-04:00",
     "author": "Michael Dyck",
-    "date": "2023-01-12T16:50:57-05:00",
-    "hash": "f3ea9b84f127f2361933473690c6a806225ad8cc",
-    "parents": "aa2e8d91c8b4bebd85e7b6b9bb4eaf57eaff08c4",
+    "date": "2023-02-10T17:29:35-05:00",
+    "hash": "77be174e7f62b2b60596f64510d6a5ce9faeaea4",
+    "parents": "257f17e448f1aef09bb20ef9ded137ba93427a79",
     "subject": "fixup: \"execution context\" -> \"ExecutionContext Record\" in AO headers"
    },
    {
     "adate": "2022-08-31T23:32:48-04:00",
     "author": "Michael Dyck",
-    "date": "2023-01-12T16:50:57-05:00",
-    "hash": "aa2e8d91c8b4bebd85e7b6b9bb4eaf57eaff08c4",
-    "parents": "ed8f311f6778bc83b0909ecb305f74751d360b61",
+    "date": "2023-02-10T17:29:35-05:00",
+    "hash": "257f17e448f1aef09bb20ef9ded137ba93427a79",
+    "parents": "ec9dda8395499db246e8c19d4d49f8b46a23d405",
     "subject": "fixup: \"execution context\" -> \"ExecutionContext Record\" in the <dfn> of ECMAScript code execution contexts"
    },
    {
     "adate": "2020-12-08T01:22:55-05:00",
     "author": "Michael Dyck",
-    "date": "2023-01-12T16:50:54-05:00",
-    "hash": "ed8f311f6778bc83b0909ecb305f74751d360b61",
-    "parents": "874ecf9a11ddc02a223f4250169bd2724aca0643",
+    "date": "2023-02-10T17:29:31-05:00",
+    "hash": "ec9dda8395499db246e8c19d4d49f8b46a23d405",
+    "parents": "8aac12603c99f94d982317832b0e03c13684ce0a",
     "subject": "Editorial: Model execution context as a record"
    }
   ],
   "title": "Editorial: Model execution context as a record",
-  "updated_at": "2023-01-15T01:22:56Z"
+  "updated_at": "2023-02-10T22:32:54Z"
  },
  {
   "base": "b3f9b5089bcc3ddd8486379015cd11eb1427a5eb",
