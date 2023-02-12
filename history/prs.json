@@ -1928,56 +1928,48 @@
   "updated_at": "2023-01-29T16:17:31Z"
  },
  {
-  "base": "2d612452d1115cbdd21b9a607aab6c9408552734",
+  "base": "8aac12603c99f94d982317832b0e03c13684ce0a",
   "created_at": "2022-01-08T19:45:36Z",
-  "head": "679a26dca5cb5a1b2fc2396732a23002dc2f9683",
+  "head": "7833ae49b0593b3824835bd5e603f4b584afcf1d",
   "login": "gibson042",
   "number": 2613,
   "ref": "2022-01-array-index-upper-bound-clusivity",
   "revs": [
    {
-    "adate": "2022-01-08T14:10:57-05:00",
+    "adate": "2023-02-12T12:34:52-05:00",
     "author": "Richard Gibson",
-    "date": "2022-01-08T14:12:35-05:00",
-    "hash": "679a26dca5cb5a1b2fc2396732a23002dc2f9683",
-    "parents": "7248058baabe09f4ca6c5ab23df00510ad3786b4",
-    "subject": "Editorial: Merge the paragraphs defining special subsets of object property keys"
+    "date": "2023-02-12T12:59:29-05:00",
+    "hash": "7833ae49b0593b3824835bd5e603f4b584afcf1d",
+    "parents": "b9e66c01ff683df08cc2ba14021a83a2d6621dc4",
+    "subject": "Editorial: Remove redundant note"
    },
    {
-    "adate": "2022-01-08T13:50:45-05:00",
+    "adate": "2023-02-12T12:34:24-05:00",
     "author": "Richard Gibson",
-    "date": "2022-01-08T14:12:34-05:00",
-    "hash": "7248058baabe09f4ca6c5ab23df00510ad3786b4",
-    "parents": "8aab9e8d4bde0fd849c1e3294efa733c7cbb5e0c",
-    "subject": "Editorial: Define both integer index and array index using closed ranges"
+    "date": "2023-02-12T12:59:26-05:00",
+    "hash": "b9e66c01ff683df08cc2ba14021a83a2d6621dc4",
+    "parents": "badfcd94e331c19f1b39ef3b1bb016975bf39b54",
+    "subject": "Editorial: Define both integer index and array index using inclusive intervals"
+   },
+   {
+    "adate": "2022-01-08T14:10:57-05:00",
+    "author": "Richard Gibson",
+    "date": "2023-02-12T11:27:53-05:00",
+    "hash": "badfcd94e331c19f1b39ef3b1bb016975bf39b54",
+    "parents": "9e67be556b740af5faba9b6276d6fd60a276c28e",
+    "subject": "Editorial: Merge the paragraphs defining special subsets of object property keys"
    },
    {
     "adate": "2022-01-08T13:47:43-05:00",
     "author": "Richard Gibson",
-    "date": "2022-01-08T14:11:30-05:00",
-    "hash": "8aab9e8d4bde0fd849c1e3294efa733c7cbb5e0c",
-    "parents": "f7b852b7f929e21a18368a5360f155d905b9cba7",
+    "date": "2023-02-12T11:22:41-05:00",
+    "hash": "9e67be556b740af5faba9b6276d6fd60a276c28e",
+    "parents": "8aac12603c99f94d982317832b0e03c13684ce0a",
     "subject": "Editorial: Use \"property name\" rather than repeating its definition"
-   },
-   {
-    "adate": "2022-01-08T14:03:45-05:00",
-    "author": "Richard Gibson",
-    "date": "2022-01-08T14:11:30-05:00",
-    "hash": "f7b852b7f929e21a18368a5360f155d905b9cba7",
-    "parents": "77c7bd62f1e51d40e61f25819e1e8607a6ccaef0",
-    "subject": "Editorial: Reorganize CanonicalNumericIndexString"
-   },
-   {
-    "adate": "2022-01-08T13:44:11-05:00",
-    "author": "Richard Gibson",
-    "date": "2022-01-08T13:44:11-05:00",
-    "hash": "77c7bd62f1e51d40e61f25819e1e8607a6ccaef0",
-    "parents": "2d612452d1115cbdd21b9a607aab6c9408552734",
-    "subject": "Editorial: Upgrade \"canonical numeric string\" to an explicit definition"
    }
   ],
-  "title": "Editorial: Define both integer index and array index using closed intervals",
-  "updated_at": "2022-01-08T19:45:36Z"
+  "title": "Editorial: Define both integer index and array index using inclusive intervals",
+  "updated_at": "2023-02-12T18:01:59Z"
  },
  {
   "base": "b64ac7fb4ae0a7c1a3332274e51c9664b47b4363",
