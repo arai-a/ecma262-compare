@@ -1228,9 +1228,9 @@
   "updated_at": "2022-11-30T13:52:36Z"
  },
  {
-  "base": "231f2709f4d888f13df2907e1b6b5cd5920e0ff3",
+  "base": "8aac12603c99f94d982317832b0e03c13684ce0a",
   "created_at": "2022-09-27T20:40:10Z",
-  "head": "df66badf1a031727539e9ad982adac17fd2a67b0",
+  "head": "09ece783f357c80cad281f7154d32f25caeeecc3",
   "login": "gibson042",
   "number": 2917,
   "ref": "2022-09-more-clamping",
@@ -1238,54 +1238,54 @@
    {
     "adate": "2022-10-11T12:27:25-04:00",
     "author": "Richard Gibson",
-    "date": "2022-10-11T12:27:25-04:00",
-    "hash": "df66badf1a031727539e9ad982adac17fd2a67b0",
-    "parents": "37cd57753aad759e8971a5f6de1c7297cbe67c2c",
+    "date": "2023-02-13T14:06:05-05:00",
+    "hash": "09ece783f357c80cad281f7154d32f25caeeecc3",
+    "parents": "5f6d93f8e454181199040aa299f49cdc8d410ae0",
     "subject": "Editorial: Simplify ToClampedIndex"
    },
    {
     "adate": "2022-10-11T11:20:54-04:00",
     "author": "Richard Gibson",
-    "date": "2022-10-11T11:20:54-04:00",
-    "hash": "37cd57753aad759e8971a5f6de1c7297cbe67c2c",
-    "parents": "6ede16da04f6f5e5214476aa8e676942b1fa7535",
+    "date": "2023-02-13T14:04:11-05:00",
+    "hash": "5f6d93f8e454181199040aa299f49cdc8d410ae0",
+    "parents": "29ce726def1fc0f84d421b52bb597a85cecb1f6e",
     "subject": "Editorial: Introduce ToAbsoluteIndex for `at` methods"
    },
    {
     "adate": "2022-10-11T10:54:51-04:00",
     "author": "Richard Gibson",
-    "date": "2022-10-11T10:54:51-04:00",
-    "hash": "6ede16da04f6f5e5214476aa8e676942b1fa7535",
-    "parents": "b3d9d85d05317eb94fe631951e7c1737780abbf4",
+    "date": "2023-02-13T14:01:00-05:00",
+    "hash": "29ce726def1fc0f84d421b52bb597a85cecb1f6e",
+    "parents": "3376e5756f82d68c2724d040f397307766fedb07",
     "subject": "Editorial: Revert refactoring of F.p.bind steps"
    },
    {
     "adate": "2022-09-27T20:22:59-04:00",
     "author": "Richard Gibson",
-    "date": "2022-09-27T20:22:59-04:00",
-    "hash": "b3d9d85d05317eb94fe631951e7c1737780abbf4",
-    "parents": "56b6a382f626d786a3eb6478b552ab9e7eb2447d",
+    "date": "2023-02-13T13:59:25-05:00",
+    "hash": "3376e5756f82d68c2724d040f397307766fedb07",
+    "parents": "5163d5590e024108b0df0ecc5b4ee725cd306dd3",
     "subject": "Editorial: Accept suggestions"
    },
    {
     "adate": "2022-09-27T16:00:13-04:00",
     "author": "Richard Gibson",
-    "date": "2022-09-27T20:18:04-04:00",
-    "hash": "56b6a382f626d786a3eb6478b552ab9e7eb2447d",
-    "parents": "eb5d031bd8379d27bd683e588688cd8f4139fc3f",
+    "date": "2023-02-13T13:59:25-05:00",
+    "hash": "5163d5590e024108b0df0ecc5b4ee725cd306dd3",
+    "parents": "0e30ea95c076c0dcf105fbf0ec1028bb1772049b",
     "subject": "Editorial: Introduce ToClampedIndex for relative-to-start-or-end index values"
    },
    {
     "adate": "2022-09-26T21:47:01-04:00",
     "author": "Richard Gibson",
-    "date": "2022-09-27T20:18:04-04:00",
-    "hash": "eb5d031bd8379d27bd683e588688cd8f4139fc3f",
-    "parents": "231f2709f4d888f13df2907e1b6b5cd5920e0ff3",
+    "date": "2023-02-13T13:40:37-05:00",
+    "hash": "0e30ea95c076c0dcf105fbf0ec1028bb1772049b",
+    "parents": "8aac12603c99f94d982317832b0e03c13684ce0a",
     "subject": "Editorial: Make better use of clamping without introducing temporary aliases"
    }
   ],
   "title": "Editorial: Make better use of clamping",
-  "updated_at": "2022-10-11T16:27:42Z"
+  "updated_at": "2023-02-13T19:08:39Z"
  },
  {
   "base": "f1fbcc563b86f8a198b063fc51a224c5d63cc0dd",
