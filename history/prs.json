@@ -1032,9 +1032,9 @@
   "updated_at": "2023-02-13T16:26:01Z"
  },
  {
-  "base": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
+  "base": "8aac12603c99f94d982317832b0e03c13684ce0a",
   "created_at": "2022-10-25T23:18:30Z",
-  "head": "5cbc32d765f8754baffdfeda3f7ddf4d2dfad1b3",
+  "head": "3ac9aa7846f7c741e293e865ea64e459e491f457",
   "login": "gibson042",
   "number": 2946,
   "ref": "2022-10-regexp-notes",
@@ -1042,30 +1042,30 @@
    {
     "adate": "2022-10-25T19:08:33-04:00",
     "author": "Richard Gibson",
-    "date": "2022-10-25T19:08:37-04:00",
-    "hash": "5cbc32d765f8754baffdfeda3f7ddf4d2dfad1b3",
-    "parents": "03926812e2043c1b5f3d7adbc00583721f033d5c",
+    "date": "2023-02-13T13:30:03-05:00",
+    "hash": "3ac9aa7846f7c741e293e865ea64e459e491f457",
+    "parents": "6a0e33980de26a30ec30a0d8f4bcc22e9e6244c9",
     "subject": "Editorial: Improve note for Canonicalize"
    },
    {
     "adate": "2022-10-25T17:46:23-04:00",
     "author": "Richard Gibson",
-    "date": "2022-10-25T17:46:26-04:00",
-    "hash": "03926812e2043c1b5f3d7adbc00583721f033d5c",
-    "parents": "e1622f18709f5deaa0d31ec7963cc2afe366b307",
+    "date": "2023-02-13T13:19:25-05:00",
+    "hash": "6a0e33980de26a30ec30a0d8f4bcc22e9e6244c9",
+    "parents": "b68444a3a2d6cc6b0ecf4fe992e4535b363bc7f5",
     "subject": "Editorial: Express regular expression grammar production code point sequences contiguously"
    },
    {
     "adate": "2022-10-25T17:33:08-04:00",
     "author": "Richard Gibson",
-    "date": "2022-10-25T17:33:08-04:00",
-    "hash": "e1622f18709f5deaa0d31ec7963cc2afe366b307",
-    "parents": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
+    "date": "2023-02-13T13:19:25-05:00",
+    "hash": "b68444a3a2d6cc6b0ecf4fe992e4535b363bc7f5",
+    "parents": "8aac12603c99f94d982317832b0e03c13684ce0a",
     "subject": "Editorial: Move notes for regular expression pattern semantics to their respective sections"
    }
   ],
   "title": "Editorial: Clean up the regular expressions section",
-  "updated_at": "2022-10-25T23:18:30Z"
+  "updated_at": "2023-02-13T18:30:13Z"
  },
  {
   "base": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
