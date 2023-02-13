@@ -1670,11 +1670,19 @@
  {
   "base": "f1fbcc563b86f8a198b063fc51a224c5d63cc0dd",
   "created_at": "2022-05-17T14:08:31Z",
-  "head": "5abd0ba5b77d7ef6d744e514d41f4a117af23c88",
+  "head": "c76f06100cca17a6f17e44abb87fb542dbc04939",
   "login": "acutmore",
   "number": 2777,
   "ref": "symbols-as-weakmap-keys",
   "revs": [
+   {
+    "adate": "2023-02-13T17:35:40+00:00",
+    "author": "Ashley Claymore",
+    "date": "2023-02-13T17:35:40+00:00",
+    "hash": "c76f06100cca17a6f17e44abb87fb542dbc04939",
+    "parents": "5abd0ba5b77d7ef6d744e514d41f4a117af23c88",
+    "subject": "Apply suggestions from code review"
+   },
    {
     "adate": "2023-02-10T17:41:42+00:00",
     "author": "Ashley Claymore",
@@ -1693,7 +1701,7 @@
    }
   ],
   "title": "[Stage 4] - Symbols as WeakMap keys",
-  "updated_at": "2023-02-10T17:42:49Z"
+  "updated_at": "2023-02-13T18:15:51Z"
  },
  {
   "base": "656f0cf5dc1f7b8cccd6eef8146c4a037ae9106a",
