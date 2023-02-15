@@ -112,76 +112,24 @@
   "updated_at": "2023-02-01T22:43:51Z"
  },
  {
-  "base": "f1fbcc563b86f8a198b063fc51a224c5d63cc0dd",
+  "base": "8c2ad1315eabc4a4d8f78db589b002b8998d51bf",
   "created_at": "2023-01-29T16:59:06Z",
-  "head": "897f2a30a8983bbe287e73a64cd31af3bedb5647",
+  "head": "c9626d9a3bf8127620bcdb69e9b23dc3745ab628",
   "login": "gibson042",
   "number": 3006,
   "ref": "2023-01-main-repo-jobs",
   "revs": [
    {
-    "adate": "2023-01-30T13:58:35-05:00",
+    "adate": "2023-02-15T15:33:57-08:00",
     "author": "Richard Gibson",
-    "date": "2023-01-30T13:58:35-05:00",
-    "hash": "897f2a30a8983bbe287e73a64cd31af3bedb5647",
-    "parents": "919b36d92f925bbf9d76972da617ea2730816cc1",
-    "subject": "Meta: Change job condition as suggested"
-   },
-   {
-    "adate": "2023-01-29T11:55:35-05:00",
-    "author": "Richard Gibson",
-    "date": "2023-01-29T11:55:35-05:00",
-    "hash": "919b36d92f925bbf9d76972da617ea2730816cc1",
-    "parents": "f1fbcc563b86f8a198b063fc51a224c5d63cc0dd",
-    "subject": "Meta: Limit IPR check job to the tc39 repository"
+    "date": "2023-02-15T15:33:57-08:00",
+    "hash": "c9626d9a3bf8127620bcdb69e9b23dc3745ab628",
+    "parents": "8c2ad1315eabc4a4d8f78db589b002b8998d51bf",
+    "subject": "Meta: Limit IPR check job to the tc39 repository (#3006)"
    }
   ],
   "title": "Meta: Limit IPR check job to the tc39 repository",
-  "updated_at": "2023-01-30T19:06:33Z"
- },
- {
-  "base": "36ce4e0db055e995552b1b47e1e53a6ed07b07b6",
-  "created_at": "2023-01-25T20:43:04Z",
-  "head": "e1d6d58048df847e8194fcebac53aef7a1057d4c",
-  "login": "gibson042",
-  "number": 3002,
-  "ref": "2023-01-remove-alg-tables",
-  "revs": [
-   {
-    "adate": "2023-01-26T23:21:50-05:00",
-    "author": "Richard Gibson",
-    "date": "2023-01-26T23:21:50-05:00",
-    "hash": "e1d6d58048df847e8194fcebac53aef7a1057d4c",
-    "parents": "0fad627aee3d2e908651a13b2fa4eae8ca3342a8",
-    "subject": "Editorial: Accept suggestion"
-   },
-   {
-    "adate": "2023-01-25T15:23:40-05:00",
-    "author": "Richard Gibson",
-    "date": "2023-01-25T15:23:40-05:00",
-    "hash": "0fad627aee3d2e908651a13b2fa4eae8ca3342a8",
-    "parents": "f3f9e2bf1352c7d25968755fadef501068dfc23f",
-    "subject": "Editorial: Group the ApplyStringOrNumericBinaryOperator by type rather than operator"
-   },
-   {
-    "adate": "2023-01-25T15:21:05-05:00",
-    "author": "Richard Gibson",
-    "date": "2023-01-25T15:21:05-05:00",
-    "hash": "f3f9e2bf1352c7d25968755fadef501068dfc23f",
-    "parents": "21eb2a61acc99dbc8e4a69eb384293a6906b40b8",
-    "subject": "Editorial: Replace the ApplyStringOrNumericBinaryOperator table with explicit steps"
-   },
-   {
-    "adate": "2023-01-25T15:19:53-05:00",
-    "author": "Richard Gibson",
-    "date": "2023-01-25T15:19:53-05:00",
-    "hash": "21eb2a61acc99dbc8e4a69eb384293a6906b40b8",
-    "parents": "36ce4e0db055e995552b1b47e1e53a6ed07b07b6",
-    "subject": "Editorial: Replace the assignment operator table with code point slicing"
-   }
-  ],
-  "title": "Editorial: Replace the operator tables with explicit steps",
-  "updated_at": "2023-01-27T04:22:01Z"
+  "updated_at": "2023-02-15T23:34:12Z"
  },
  {
   "base": "36ce4e0db055e995552b1b47e1e53a6ed07b07b6",
@@ -998,42 +946,6 @@
   ],
   "title": "Editorial: Fix 2 old bugs re Block-Level Function Declarations",
   "updated_at": "2022-10-30T01:58:42Z"
- },
- {
-  "base": "8aac12603c99f94d982317832b0e03c13684ce0a",
-  "created_at": "2022-10-25T23:18:30Z",
-  "head": "3ac9aa7846f7c741e293e865ea64e459e491f457",
-  "login": "gibson042",
-  "number": 2946,
-  "ref": "2022-10-regexp-notes",
-  "revs": [
-   {
-    "adate": "2022-10-25T19:08:33-04:00",
-    "author": "Richard Gibson",
-    "date": "2023-02-13T13:30:03-05:00",
-    "hash": "3ac9aa7846f7c741e293e865ea64e459e491f457",
-    "parents": "6a0e33980de26a30ec30a0d8f4bcc22e9e6244c9",
-    "subject": "Editorial: Improve note for Canonicalize"
-   },
-   {
-    "adate": "2022-10-25T17:46:23-04:00",
-    "author": "Richard Gibson",
-    "date": "2023-02-13T13:19:25-05:00",
-    "hash": "6a0e33980de26a30ec30a0d8f4bcc22e9e6244c9",
-    "parents": "b68444a3a2d6cc6b0ecf4fe992e4535b363bc7f5",
-    "subject": "Editorial: Express regular expression grammar production code point sequences contiguously"
-   },
-   {
-    "adate": "2022-10-25T17:33:08-04:00",
-    "author": "Richard Gibson",
-    "date": "2023-02-13T13:19:25-05:00",
-    "hash": "b68444a3a2d6cc6b0ecf4fe992e4535b363bc7f5",
-    "parents": "8aac12603c99f94d982317832b0e03c13684ce0a",
-    "subject": "Editorial: Move notes for regular expression pattern semantics to their respective sections"
-   }
-  ],
-  "title": "Editorial: Clean up the regular expressions section",
-  "updated_at": "2023-02-13T18:30:13Z"
  },
  {
   "base": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
@@ -2188,26 +2100,6 @@
   "updated_at": "2022-11-04T21:11:30Z"
  },
  {
-  "base": "61cc3297c96764a256b02b90005550607371a1d1",
-  "created_at": "2021-06-15T22:18:35Z",
-  "head": "757927687ee99e96e9e39a88f6122716cc3088f2",
-  "login": "mysticatea",
-  "number": 2436,
-  "ref": "move-two-passes-parsing-to-annexb",
-  "revs": [
-   {
-    "adate": "2021-06-14T12:38:54+09:00",
-    "author": "Toru Nagashima",
-    "date": "2021-06-14T12:38:54+09:00",
-    "hash": "757927687ee99e96e9e39a88f6122716cc3088f2",
-    "parents": "c7d208f639c493ac221f1c3c4bd6a5c4b4b638b6",
-    "subject": "Normative: allow named backreferences without `u` flag in non-Annex B"
-   }
-  ],
-  "title": "Normative: allow named backreferences without `u` flag in core grammar",
-  "updated_at": "2021-06-15T22:18:35Z"
- },
- {
   "base": "8d9522cc84c1bcedc49e4c9e8272b72615e407cf",
   "created_at": "2021-05-28T11:28:01Z",
   "head": "a2b562aacb38ed1f01b6946535600b64d680903e",
@@ -2638,42 +2530,6 @@
   ],
   "title": "Add Class and Class Element Decorators and `accessor` Keyword",
   "updated_at": "2023-02-09T17:16:47Z"
- },
- {
-  "base": "c75497982a8c07e83a13cc5d7d80cdaaa8a337bd",
-  "created_at": "2021-04-29T00:07:17Z",
-  "head": "3443b6b46c1c21b70bb3bf54df79741331ad0a84",
-  "login": "tc39",
-  "number": 2397,
-  "ref": "return",
-  "revs": [
-   {
-    "adate": "2021-04-29T20:28:12-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-04-29T20:28:12-07:00",
-    "hash": "3443b6b46c1c21b70bb3bf54df79741331ad0a84",
-    "parents": "f126c1697e98ba737f23d5e73b04d81e3532c5ae",
-    "subject": "partially address jmdyck's comments"
-   },
-   {
-    "adate": "2021-04-29T13:03:52-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-04-29T13:03:52-07:00",
-    "hash": "f126c1697e98ba737f23d5e73b04d81e3532c5ae",
-    "parents": "4e44be67d4b6f0d98aed8aa1e4eff14169390eff",
-    "subject": "no argument-less return"
-   },
-   {
-    "adate": "2021-04-28T17:03:38-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2021-04-28T17:03:43-07:00",
-    "hash": "4e44be67d4b6f0d98aed8aa1e4eff14169390eff",
-    "parents": "c75497982a8c07e83a13cc5d7d80cdaaa8a337bd",
-    "subject": "Editorial: describe behavior for algorithms without a \"Return\""
-   }
-  ],
-  "title": "Editorial: describe behavior for algorithms without a \"Return\"",
-  "updated_at": "2021-04-30T03:28:25Z"
  },
  {
   "base": "26061c0e5e4b62fae91a7127b46c1efa8b94c4b4",
