@@ -1204,37 +1204,9 @@
   "updated_at": "2023-02-13T19:08:39Z"
  },
  {
-  "base": "b34e0d9570477a4db2f6b945344115627bf84bbe",
-  "created_at": "2022-09-05T18:50:04Z",
-  "head": "408ebe89bd9903f386053fc82bfe0863cf4fd8dc",
-  "login": "jmdyck",
-  "number": 2898,
-  "ref": "FindViaPredicate",
-  "revs": [
-   {
-    "adate": "2023-02-15T20:00:24-05:00",
-    "author": "Michael Dyck",
-    "date": "2023-02-15T20:00:24-05:00",
-    "hash": "408ebe89bd9903f386053fc82bfe0863cf4fd8dc",
-    "parents": "33bbd6ccaacb7cf08cefc23521d43aa837862bf7",
-    "subject": "fixup: Move ToBoolean() call in FindViaPredicate"
-   },
-   {
-    "adate": "2022-09-05T09:45:11-04:00",
-    "author": "Michael Dyck",
-    "date": "2023-02-10T17:00:06-05:00",
-    "hash": "33bbd6ccaacb7cf08cefc23521d43aa837862bf7",
-    "parents": "8aac12603c99f94d982317832b0e03c13684ce0a",
-    "subject": "Editorial: Factor out FindViaPredicate"
-   }
-  ],
-  "title": "Editorial: Factor out FindViaPredicate",
-  "updated_at": "2023-02-16T01:03:24Z"
- },
- {
-  "base": "8aac12603c99f94d982317832b0e03c13684ce0a",
+  "base": "a623bfb94e9d5088bd7d60709832c71bac487bbe",
   "created_at": "2022-09-04T02:20:57Z",
-  "head": "0aed1d1e093453241087818c2e0d899b5d7232f7",
+  "head": "eb1e87b23c74bf149f886f06863daee1c92dbac0",
   "login": "jmdyck",
   "number": 2889,
   "ref": "callable",
@@ -1242,22 +1214,22 @@
    {
     "adate": "2022-09-03T22:11:56-04:00",
     "author": "Michael Dyck",
-    "date": "2023-02-10T17:39:57-05:00",
-    "hash": "0aed1d1e093453241087818c2e0d899b5d7232f7",
-    "parents": "9e4c255020f37c34b547eae7782673a891b07b5f",
+    "date": "2023-02-25T11:12:20-05:00",
+    "hash": "eb1e87b23c74bf149f886f06863daee1c92dbac0",
+    "parents": "d8ccea39ea5ac85fc6814d5d91b7fbea5dc336a3",
     "subject": "Eliminate most other uses of \"callable\""
    },
    {
     "adate": "2022-09-03T21:47:50-04:00",
     "author": "Michael Dyck",
-    "date": "2023-02-10T17:39:56-05:00",
-    "hash": "9e4c255020f37c34b547eae7782673a891b07b5f",
-    "parents": "8aac12603c99f94d982317832b0e03c13684ce0a",
+    "date": "2023-02-25T11:12:18-05:00",
+    "hash": "d8ccea39ea5ac85fc6814d5d91b7fbea5dc336a3",
+    "parents": "a623bfb94e9d5088bd7d60709832c71bac487bbe",
     "subject": "Rename \"IsCallable\" as \"IsFunction\""
    }
   ],
   "title": "Editorial: Minimize use of the term \"callable\"",
-  "updated_at": "2023-02-10T22:44:01Z"
+  "updated_at": "2023-02-25T16:14:34Z"
  },
  {
   "base": "3cf8e30e47dd1f010b7d86929670f1e8c51ecc43",
