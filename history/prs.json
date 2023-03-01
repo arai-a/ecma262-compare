@@ -48,34 +48,6 @@
   "updated_at": "2023-02-16T17:57:07Z"
  },
  {
-  "base": "a623bfb94e9d5088bd7d60709832c71bac487bbe",
-  "created_at": "2023-02-15T22:02:00Z",
-  "head": "b71e0452c2f752b677c37f80962c67f5652fabda",
-  "login": "jmdyck",
-  "number": 3016,
-  "ref": "ac_shadows",
-  "revs": [
-   {
-    "adate": "2023-02-25T20:18:37-05:00",
-    "author": "Michael Dyck",
-    "date": "2023-02-25T20:18:37-05:00",
-    "hash": "b71e0452c2f752b677c37f80962c67f5652fabda",
-    "parents": "5a81b5b28962b297e43cbaad730721a801a90cc9",
-    "subject": "fixup: Rename some aliases"
-   },
-   {
-    "adate": "2023-02-15T16:58:50-05:00",
-    "author": "Michael Dyck",
-    "date": "2023-02-25T10:57:22-05:00",
-    "hash": "5a81b5b28962b297e43cbaad730721a801a90cc9",
-    "parents": "a623bfb94e9d5088bd7d60709832c71bac487bbe",
-    "subject": "Editorial: Ensure Abstract Closures don't re-use outer aliases"
-   }
-  ],
-  "title": "Editorial: Ensure Abstract Closures don't re-use outer aliases",
-  "updated_at": "2023-02-26T01:21:01Z"
- },
- {
   "base": "8aac12603c99f94d982317832b0e03c13684ce0a",
   "created_at": "2023-02-12T18:30:41Z",
   "head": "d276153a6624863c3bbd5cb9de7278b042d4f189",
@@ -776,9 +748,9 @@
   "updated_at": "2023-02-12T00:31:25Z"
  },
  {
-  "base": "b34e0d9570477a4db2f6b945344115627bf84bbe",
+  "base": "c4a8bd4075825f9c1c77e7ca1e6f8811c8a41354",
   "created_at": "2022-11-22T04:48:42Z",
-  "head": "e0d8e8f29b35b3ff138e946d56fcbeb338d9596c",
+  "head": "9967f336ca32e8a6d48d010f3a28a4658bc2f92c",
   "login": "jmdyck",
   "number": 2962,
   "ref": "transfer",
@@ -786,110 +758,110 @@
    {
     "adate": "2023-02-15T20:08:53-05:00",
     "author": "Michael Dyck",
-    "date": "2023-02-15T20:08:53-05:00",
-    "hash": "e0d8e8f29b35b3ff138e946d56fcbeb338d9596c",
-    "parents": "45b449811cb17f6f9df655c2052e7d25c1e65b84",
+    "date": "2023-02-28T20:40:02-05:00",
+    "hash": "9967f336ca32e8a6d48d010f3a28a4658bc2f92c",
+    "parents": "bc31a97fd9fb239f634300e3e9ec2eb84286f6c5",
     "subject": "fixup: Insert \"and async functions\" into note re execution contexts"
    },
    {
     "adate": "2023-02-13T11:22:33-05:00",
     "author": "Michael Dyck",
-    "date": "2023-02-13T11:22:33-05:00",
-    "hash": "45b449811cb17f6f9df655c2052e7d25c1e65b84",
-    "parents": "8f52628b19787dd39075dda6c66e71f00ad43af5",
+    "date": "2023-02-28T20:40:02-05:00",
+    "hash": "bc31a97fd9fb239f634300e3e9ec2eb84286f6c5",
+    "parents": "5e92d591112ce1bb1b3da2f856094926187306bc",
     "subject": "Eliminate certain wording around execution contexts"
    },
    {
     "adate": "2023-01-13T20:30:31-05:00",
     "author": "Michael Dyck",
-    "date": "2023-02-09T22:33:29-05:00",
-    "hash": "8f52628b19787dd39075dda6c66e71f00ad43af5",
-    "parents": "cd8ac17c2ea98094f5eda933953df6de1fcbda1b",
+    "date": "2023-02-28T20:40:01-05:00",
+    "hash": "5e92d591112ce1bb1b3da2f856094926187306bc",
+    "parents": "cd6d07ab222e10ee84f518603fd8d3704b90729e",
     "subject": "Transfer control fixup: Make 'code evaluation state' less vague"
    },
    {
     "adate": "2022-11-21T22:50:15-05:00",
     "author": "Michael Dyck",
-    "date": "2023-02-09T22:33:29-05:00",
-    "hash": "cd8ac17c2ea98094f5eda933953df6de1fcbda1b",
-    "parents": "2cba13b4c501fe28e72b4be24472c1d91c5557fe",
+    "date": "2023-02-28T20:39:01-05:00",
+    "hash": "cd6d07ab222e10ee84f518603fd8d3704b90729e",
+    "parents": "11b9897e71ad6d9e2409d7b46d1e11b34449958f",
     "subject": "Execution Context section: Make the EC Stack subsection"
    },
    {
     "adate": "2022-11-21T22:21:11-05:00",
     "author": "Michael Dyck",
-    "date": "2023-02-09T22:33:29-05:00",
-    "hash": "2cba13b4c501fe28e72b4be24472c1d91c5557fe",
-    "parents": "16de0b8a638575a50acff9418290c6af433d8730",
+    "date": "2023-02-28T20:39:01-05:00",
+    "hash": "11b9897e71ad6d9e2409d7b46d1e11b34449958f",
+    "parents": "88d8eee7840b9fa26411c65ac262a58c7ffcb11d",
     "subject": "Execution Context section: Move a paragraph"
    },
    {
     "adate": "2022-11-21T22:10:01-05:00",
     "author": "Michael Dyck",
-    "date": "2023-02-09T22:33:29-05:00",
-    "hash": "16de0b8a638575a50acff9418290c6af433d8730",
-    "parents": "564e9028358692a94aa69049c22c230c866f861d",
+    "date": "2023-02-28T20:39:01-05:00",
+    "hash": "88d8eee7840b9fa26411c65ac262a58c7ffcb11d",
+    "parents": "0b058047aebf9e173402122c0111403618fa5359",
     "subject": "Resume+Suspend: Eliminate `Suspend` steps"
    },
    {
     "adate": "2022-11-21T22:04:15-05:00",
     "author": "Michael Dyck",
-    "date": "2023-02-09T22:33:29-05:00",
-    "hash": "564e9028358692a94aa69049c22c230c866f861d",
-    "parents": "00a50e8e96b641676fa88ae505e1e23b685d712e",
+    "date": "2023-02-28T20:39:01-05:00",
+    "hash": "0b058047aebf9e173402122c0111403618fa5359",
+    "parents": "54f652a21f89ae05d08379b60d01fbe70e26ba9c",
     "subject": "Resume+Suspend: Eliminate `Resume` steps"
    },
    {
     "adate": "2022-11-21T21:39:36-05:00",
     "author": "Michael Dyck",
-    "date": "2023-02-09T22:33:29-05:00",
-    "hash": "00a50e8e96b641676fa88ae505e1e23b685d712e",
-    "parents": "e8e6ec41b1a8bf6aff1881f6339e890e0cb716ce",
+    "date": "2023-02-28T20:39:01-05:00",
+    "hash": "54f652a21f89ae05d08379b60d01fbe70e26ba9c",
+    "parents": "c15ad1ba1224d7ad49b83aa4d47c78496b8903e0",
     "subject": "Transfer control: Define \"transfer control\""
    },
    {
     "adate": "2022-11-21T20:17:05-05:00",
     "author": "Michael Dyck",
-    "date": "2023-02-09T22:33:29-05:00",
-    "hash": "e8e6ec41b1a8bf6aff1881f6339e890e0cb716ce",
-    "parents": "a69adabfebe1a748a593db6e860927700390a3c9",
+    "date": "2023-02-28T20:38:58-05:00",
+    "hash": "c15ad1ba1224d7ad49b83aa4d47c78496b8903e0",
+    "parents": "fe1b0b5583e16794ba630a2c4fc58c3d33b9514c",
     "subject": "Transfer control: Re-word some steps that talk about resuming execution contexts"
    },
    {
     "adate": "2022-11-21T17:28:17-05:00",
     "author": "Michael Dyck",
-    "date": "2023-02-09T22:33:29-05:00",
-    "hash": "a69adabfebe1a748a593db6e860927700390a3c9",
-    "parents": "7bdb9fbfbdf9eff49ea82379725c4b872fa31ad0",
+    "date": "2023-02-28T20:36:18-05:00",
+    "hash": "fe1b0b5583e16794ba630a2c4fc58c3d33b9514c",
+    "parents": "bb2b599cdcb9e8453be1bdc8d6ce69ce0942a81a",
     "subject": "Transfer control: Replace 3 \"Return\" steps"
    },
    {
     "adate": "2022-11-21T17:16:57-05:00",
     "author": "Michael Dyck",
-    "date": "2023-02-09T22:33:28-05:00",
-    "hash": "7bdb9fbfbdf9eff49ea82379725c4b872fa31ad0",
-    "parents": "272c7213e7e8cc806ebbe0bbdaeea50193b41f3d",
+    "date": "2023-02-28T20:02:52-05:00",
+    "hash": "bb2b599cdcb9e8453be1bdc8d6ce69ce0942a81a",
+    "parents": "5d590607e48220bd82ac772048ded8f709798d87",
     "subject": "(Transfer control:) Refactor GeneratorStart's Abstract Closure so that it has only one Return step."
    },
    {
     "adate": "2022-11-21T16:32:17-05:00",
     "author": "Michael Dyck",
-    "date": "2023-02-09T22:33:28-05:00",
-    "hash": "272c7213e7e8cc806ebbe0bbdaeea50193b41f3d",
-    "parents": "74b799cb725f01b05fb17383a8cf34c87e57e7e5",
+    "date": "2023-02-28T20:00:26-05:00",
+    "hash": "5d590607e48220bd82ac772048ded8f709798d87",
+    "parents": "591ff57ab2d0572c9179152e532c7adbab55d450",
     "subject": "Transfer control: Replace the 3 remaining blocking-Resume steps"
    },
    {
     "adate": "2022-11-21T16:23:54-05:00",
     "author": "Michael Dyck",
-    "date": "2023-02-09T22:33:28-05:00",
-    "hash": "74b799cb725f01b05fb17383a8cf34c87e57e7e5",
-    "parents": "8aac12603c99f94d982317832b0e03c13684ce0a",
+    "date": "2023-02-28T20:00:20-05:00",
+    "hash": "591ff57ab2d0572c9179152e532c7adbab55d450",
+    "parents": "c4a8bd4075825f9c1c77e7ca1e6f8811c8a41354",
     "subject": "Transfer control: Replace the 6 \"Resume the suspended evaluation\" steps"
    }
   ],
   "title": "Editorial: Various changes around execution contexts",
-  "updated_at": "2023-02-16T01:10:34Z"
+  "updated_at": "2023-03-01T01:42:54Z"
  },
  {
   "base": "053d34c87b14d9234d6f7f45bd61074b72ca9d69",
