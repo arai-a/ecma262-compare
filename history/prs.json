@@ -490,11 +490,19 @@
  {
   "base": "a623bfb94e9d5088bd7d60709832c71bac487bbe",
   "created_at": "2023-01-19T18:09:35Z",
-  "head": "269c803a97b7b149bb1b973e163e1eca8ac4359e",
+  "head": "bd2a5f197716a02ff226492a5225dc917342def2",
   "login": "acutmore",
   "number": 2997,
   "ref": "change-array-by-copy",
   "revs": [
+   {
+    "adate": "2023-03-02T21:28:04+00:00",
+    "author": "Ashley Claymore",
+    "date": "2023-03-02T21:28:04+00:00",
+    "hash": "bd2a5f197716a02ff226492a5225dc917342def2",
+    "parents": "269c803a97b7b149bb1b973e163e1eca8ac4359e",
+    "subject": "read-through-holes instead of do-not-detect-holes"
+   },
    {
     "adate": "2023-02-25T20:21:00+00:00",
     "author": "Ashley Claymore",
@@ -521,7 +529,7 @@
    }
   ],
   "title": "[Stage 4] Normative: Adds change-array-by-copy",
-  "updated_at": "2023-02-26T04:45:39Z"
+  "updated_at": "2023-03-02T21:30:31Z"
  },
  {
   "base": "89ef6606792c1f2b246dae08965c0503cf7ee1ee",
