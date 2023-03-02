@@ -1,6 +1,26 @@
 [
  {
   "base": "c4a8bd4075825f9c1c77e7ca1e6f8811c8a41354",
+  "created_at": "2023-03-02T20:27:41Z",
+  "head": "df7484280265bb8051561af8a08f3bea632f5505",
+  "login": "StefanOctavian",
+  "number": 3023,
+  "ref": "main",
+  "revs": [
+   {
+    "adate": "2023-03-02T21:57:51+02:00",
+    "author": "Stefan Octavian",
+    "date": "2023-03-02T21:57:51+02:00",
+    "hash": "df7484280265bb8051561af8a08f3bea632f5505",
+    "parents": "c4a8bd4075825f9c1c77e7ca1e6f8811c8a41354",
+    "subject": "Normative: moved class fields initialization step in class definitions without explicit constructors to avoid double initialization due to [[Construct]]"
+   }
+  ],
+  "title": "Normative: Avoid initializing fields twice for instances of base classes without explicit constructors",
+  "updated_at": "2023-03-02T20:27:41Z"
+ },
+ {
+  "base": "c4a8bd4075825f9c1c77e7ca1e6f8811c8a41354",
   "created_at": "2023-03-01T22:30:13Z",
   "head": "e5edb51ac9c30b7f1bb2db6e804dab0805850d3a",
   "login": "syg",
