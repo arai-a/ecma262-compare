@@ -2602,24 +2602,16 @@
  {
   "base": "c4a8bd4075825f9c1c77e7ca1e6f8811c8a41354",
   "created_at": "2021-05-26T23:09:49Z",
-  "head": "aeb48a8e37d1720e6c1ff8d2686107356e27971f",
+  "head": "1f42b91842e7e45cc6c2050b04d7b0271dd80b78",
   "login": "pzuraq",
   "number": 2417,
   "ref": "decorators",
   "revs": [
    {
-    "adate": "2023-03-06T15:17:10-05:00",
-    "author": "Chris Hewell Garrett",
-    "date": "2023-03-06T15:17:10-05:00",
-    "hash": "aeb48a8e37d1720e6c1ff8d2686107356e27971f",
-    "parents": "870ee411ea9dd2e00bb15f19a160b7f5e771687a",
-    "subject": "Additional fixes from CI"
-   },
-   {
     "adate": "2023-03-06T14:54:57-05:00",
     "author": "Chris Hewell Garrett",
-    "date": "2023-03-06T14:54:57-05:00",
-    "hash": "870ee411ea9dd2e00bb15f19a160b7f5e771687a",
+    "date": "2023-03-06T15:40:30-05:00",
+    "hash": "1f42b91842e7e45cc6c2050b04d7b0271dd80b78",
     "parents": "14425b5d8bffed885b5e314a4ceddd744d5c0639",
     "subject": "Non-normative fixes"
    },
@@ -2633,7 +2625,7 @@
    }
   ],
   "title": "Add Class and Class Element Decorators and `accessor` Keyword",
-  "updated_at": "2023-03-06T20:17:36Z"
+  "updated_at": "2023-03-06T20:40:50Z"
  },
  {
   "base": "26061c0e5e4b62fae91a7127b46c1efa8b94c4b4",
