@@ -538,11 +538,19 @@
  {
   "base": "a623bfb94e9d5088bd7d60709832c71bac487bbe",
   "created_at": "2023-01-19T18:09:35Z",
-  "head": "7f70b8a96b6a9309c25f6c33a603a627a6743699",
+  "head": "82a40c916a80b54ee784205404430b9a60f56299",
   "login": "acutmore",
   "number": 2997,
   "ref": "change-array-by-copy",
   "revs": [
+   {
+    "adate": "2023-03-08T11:08:25+00:00",
+    "author": "Ashley Claymore",
+    "date": "2023-03-08T11:08:25+00:00",
+    "hash": "82a40c916a80b54ee784205404430b9a60f56299",
+    "parents": "7f70b8a96b6a9309c25f6c33a603a627a6743699",
+    "subject": "reference typedarray-constructors table column by name not index"
+   },
    {
     "adate": "2023-03-05T20:44:20+00:00",
     "author": "Ashley Claymore",
@@ -593,7 +601,7 @@
    }
   ],
   "title": "[Stage 4] Normative: Adds change-array-by-copy",
-  "updated_at": "2023-03-05T20:45:26Z"
+  "updated_at": "2023-03-08T11:09:29Z"
  },
  {
   "base": "89ef6606792c1f2b246dae08965c0503cf7ee1ee",
