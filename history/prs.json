@@ -40,72 +40,24 @@
   "updated_at": "2023-03-15T23:07:32Z"
  },
  {
-  "base": "8d3d3cfbbe03cb041e8468bcc13d9b292d801e77",
+  "base": "6a1b8f75f53b2c1c35a2ac5a1fc18fe6b8cab86a",
   "created_at": "2023-03-09T00:28:41Z",
-  "head": "ed7d241e8fa98f2d92f0615a41580ac0c840450f",
+  "head": "e166e44075aa0c97a515414b58bf1d881068b922",
   "login": "syg",
   "number": 3027,
   "ref": "stratified-identity",
   "revs": [
    {
-    "adate": "2023-03-16T14:44:24-07:00",
+    "adate": "2023-03-16T15:58:39-07:00",
     "author": "Shu-yu Guo",
-    "date": "2023-03-16T14:44:24-07:00",
-    "hash": "ed7d241e8fa98f2d92f0615a41580ac0c840450f",
-    "parents": "31928b00804f76b2682188371bf50143e046b0ad",
-    "subject": "Swap order of Symbols"
-   },
-   {
-    "adate": "2023-03-16T13:32:50-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2023-03-16T13:32:50-07:00",
-    "hash": "31928b00804f76b2682188371bf50143e046b0ad",
-    "parents": "c26d10561557fe1b8a3695a90a740b6507bebafc",
-    "subject": "More iteration"
-   },
-   {
-    "adate": "2023-03-15T17:36:58-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2023-03-15T17:36:58-07:00",
-    "hash": "c26d10561557fe1b8a3695a90a740b6507bebafc",
-    "parents": "f32a436ce2a8fb4b74cbd3a939f493733404b786",
-    "subject": "Dropped \"to each other\""
-   },
-   {
-    "adate": "2023-03-15T17:33:13-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2023-03-15T17:33:13-07:00",
-    "hash": "f32a436ce2a8fb4b74cbd3a939f493733404b786",
-    "parents": "a1ba4839df1428f1132159a720af4747637ad2e6",
-    "subject": "Add \"(with the following special case)\" for symbols"
-   },
-   {
-    "adate": "2023-03-15T16:23:01-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2023-03-15T16:23:01-07:00",
-    "hash": "a1ba4839df1428f1132159a720af4747637ad2e6",
-    "parents": "db7eecd5ec94f746b4ec1563bb91e24b8b4fc4da",
-    "subject": "Address bakkot comments"
-   },
-   {
-    "adate": "2023-03-15T16:14:33-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2023-03-15T16:14:33-07:00",
-    "hash": "db7eecd5ec94f746b4ec1563bb91e24b8b4fc4da",
-    "parents": "c6621b4388391a4c45a864ea368340f2470c7d2c",
-    "subject": "Add missing \"for\""
-   },
-   {
-    "adate": "2023-03-08T16:26:10-08:00",
-    "author": "Shu-yu Guo",
-    "date": "2023-03-15T16:10:02-07:00",
-    "hash": "c6621b4388391a4c45a864ea368340f2470c7d2c",
-    "parents": "c4a8bd4075825f9c1c77e7ca1e6f8811c8a41354",
-    "subject": "Editorial: Split identity into spec and language identity"
+    "date": "2023-03-16T15:58:39-07:00",
+    "hash": "e166e44075aa0c97a515414b58bf1d881068b922",
+    "parents": "6a1b8f75f53b2c1c35a2ac5a1fc18fe6b8cab86a",
+    "subject": "Editorial: Split identity into spec and language identity (#3027)"
    }
   ],
   "title": "Editorial: Clarify identity as from perspective of spec vs language",
-  "updated_at": "2023-03-16T21:44:34Z"
+  "updated_at": "2023-03-16T22:58:56Z"
  },
  {
   "base": "c4a8bd4075825f9c1c77e7ca1e6f8811c8a41354",
