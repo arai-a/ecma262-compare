@@ -42,11 +42,19 @@
  {
   "base": "8d3d3cfbbe03cb041e8468bcc13d9b292d801e77",
   "created_at": "2023-03-09T00:28:41Z",
-  "head": "31928b00804f76b2682188371bf50143e046b0ad",
+  "head": "ed7d241e8fa98f2d92f0615a41580ac0c840450f",
   "login": "syg",
   "number": 3027,
   "ref": "stratified-identity",
   "revs": [
+   {
+    "adate": "2023-03-16T14:44:24-07:00",
+    "author": "Shu-yu Guo",
+    "date": "2023-03-16T14:44:24-07:00",
+    "hash": "ed7d241e8fa98f2d92f0615a41580ac0c840450f",
+    "parents": "31928b00804f76b2682188371bf50143e046b0ad",
+    "subject": "Swap order of Symbols"
+   },
    {
     "adate": "2023-03-16T13:32:50-07:00",
     "author": "Shu-yu Guo",
@@ -97,7 +105,7 @@
    }
   ],
   "title": "Editorial: Clarify identity as from perspective of spec vs language",
-  "updated_at": "2023-03-16T20:33:43Z"
+  "updated_at": "2023-03-16T21:44:34Z"
  },
  {
   "base": "c4a8bd4075825f9c1c77e7ca1e6f8811c8a41354",
