@@ -824,9 +824,9 @@
   "updated_at": "2023-02-12T00:31:25Z"
  },
  {
-  "base": "c4a8bd4075825f9c1c77e7ca1e6f8811c8a41354",
+  "base": "6e70bb698b9facc5776625fd63f03dff09686639",
   "created_at": "2022-11-22T04:48:42Z",
-  "head": "9967f336ca32e8a6d48d010f3a28a4658bc2f92c",
+  "head": "3b7e84b5c301632b18e4e45bdda69e467359a936",
   "login": "jmdyck",
   "number": 2962,
   "ref": "transfer",
@@ -834,110 +834,110 @@
    {
     "adate": "2023-02-15T20:08:53-05:00",
     "author": "Michael Dyck",
-    "date": "2023-02-28T20:40:02-05:00",
-    "hash": "9967f336ca32e8a6d48d010f3a28a4658bc2f92c",
-    "parents": "bc31a97fd9fb239f634300e3e9ec2eb84286f6c5",
+    "date": "2023-03-18T10:28:48-04:00",
+    "hash": "3b7e84b5c301632b18e4e45bdda69e467359a936",
+    "parents": "c39d41d6fe66129649334b42fe5c0af5a83a1c38",
     "subject": "fixup: Insert \"and async functions\" into note re execution contexts"
    },
    {
     "adate": "2023-02-13T11:22:33-05:00",
     "author": "Michael Dyck",
-    "date": "2023-02-28T20:40:02-05:00",
-    "hash": "bc31a97fd9fb239f634300e3e9ec2eb84286f6c5",
-    "parents": "5e92d591112ce1bb1b3da2f856094926187306bc",
+    "date": "2023-03-18T10:28:48-04:00",
+    "hash": "c39d41d6fe66129649334b42fe5c0af5a83a1c38",
+    "parents": "4ceab470e97178b70eff615544691c5c19a17bbc",
     "subject": "Eliminate certain wording around execution contexts"
    },
    {
     "adate": "2023-01-13T20:30:31-05:00",
     "author": "Michael Dyck",
-    "date": "2023-02-28T20:40:01-05:00",
-    "hash": "5e92d591112ce1bb1b3da2f856094926187306bc",
-    "parents": "cd6d07ab222e10ee84f518603fd8d3704b90729e",
+    "date": "2023-03-18T10:28:48-04:00",
+    "hash": "4ceab470e97178b70eff615544691c5c19a17bbc",
+    "parents": "3d1b29224dc736a6cab6ac89da26e017cb7078c8",
     "subject": "Transfer control fixup: Make 'code evaluation state' less vague"
    },
    {
     "adate": "2022-11-21T22:50:15-05:00",
     "author": "Michael Dyck",
-    "date": "2023-02-28T20:39:01-05:00",
-    "hash": "cd6d07ab222e10ee84f518603fd8d3704b90729e",
-    "parents": "11b9897e71ad6d9e2409d7b46d1e11b34449958f",
+    "date": "2023-03-18T10:28:48-04:00",
+    "hash": "3d1b29224dc736a6cab6ac89da26e017cb7078c8",
+    "parents": "0ed12fa54095299fbd3dadf64584454e0a230981",
     "subject": "Execution Context section: Make the EC Stack subsection"
    },
    {
     "adate": "2022-11-21T22:21:11-05:00",
     "author": "Michael Dyck",
-    "date": "2023-02-28T20:39:01-05:00",
-    "hash": "11b9897e71ad6d9e2409d7b46d1e11b34449958f",
-    "parents": "88d8eee7840b9fa26411c65ac262a58c7ffcb11d",
+    "date": "2023-03-18T10:28:48-04:00",
+    "hash": "0ed12fa54095299fbd3dadf64584454e0a230981",
+    "parents": "aed935d2ef2c9bd9b322c74e191bb84211e1be11",
     "subject": "Execution Context section: Move a paragraph"
    },
    {
     "adate": "2022-11-21T22:10:01-05:00",
     "author": "Michael Dyck",
-    "date": "2023-02-28T20:39:01-05:00",
-    "hash": "88d8eee7840b9fa26411c65ac262a58c7ffcb11d",
-    "parents": "0b058047aebf9e173402122c0111403618fa5359",
+    "date": "2023-03-18T10:28:48-04:00",
+    "hash": "aed935d2ef2c9bd9b322c74e191bb84211e1be11",
+    "parents": "a27bf2daccdba7997f4ee96e9941880f8318e8ce",
     "subject": "Resume+Suspend: Eliminate `Suspend` steps"
    },
    {
     "adate": "2022-11-21T22:04:15-05:00",
     "author": "Michael Dyck",
-    "date": "2023-02-28T20:39:01-05:00",
-    "hash": "0b058047aebf9e173402122c0111403618fa5359",
-    "parents": "54f652a21f89ae05d08379b60d01fbe70e26ba9c",
+    "date": "2023-03-18T10:28:48-04:00",
+    "hash": "a27bf2daccdba7997f4ee96e9941880f8318e8ce",
+    "parents": "6bb08ef97b80424ac8d7c17e49c5ece3063f489c",
     "subject": "Resume+Suspend: Eliminate `Resume` steps"
    },
    {
     "adate": "2022-11-21T21:39:36-05:00",
     "author": "Michael Dyck",
-    "date": "2023-02-28T20:39:01-05:00",
-    "hash": "54f652a21f89ae05d08379b60d01fbe70e26ba9c",
-    "parents": "c15ad1ba1224d7ad49b83aa4d47c78496b8903e0",
+    "date": "2023-03-18T10:28:48-04:00",
+    "hash": "6bb08ef97b80424ac8d7c17e49c5ece3063f489c",
+    "parents": "e8438afbef420bbe86809e74ae75938edf20aea1",
     "subject": "Transfer control: Define \"transfer control\""
    },
    {
     "adate": "2022-11-21T20:17:05-05:00",
     "author": "Michael Dyck",
-    "date": "2023-02-28T20:38:58-05:00",
-    "hash": "c15ad1ba1224d7ad49b83aa4d47c78496b8903e0",
-    "parents": "fe1b0b5583e16794ba630a2c4fc58c3d33b9514c",
+    "date": "2023-03-18T10:28:45-04:00",
+    "hash": "e8438afbef420bbe86809e74ae75938edf20aea1",
+    "parents": "f293706a162a7f33f750a48832b1190e183604cb",
     "subject": "Transfer control: Re-word some steps that talk about resuming execution contexts"
    },
    {
     "adate": "2022-11-21T17:28:17-05:00",
     "author": "Michael Dyck",
-    "date": "2023-02-28T20:36:18-05:00",
-    "hash": "fe1b0b5583e16794ba630a2c4fc58c3d33b9514c",
-    "parents": "bb2b599cdcb9e8453be1bdc8d6ce69ce0942a81a",
+    "date": "2023-03-18T10:28:17-04:00",
+    "hash": "f293706a162a7f33f750a48832b1190e183604cb",
+    "parents": "df21e7afe2160d0af120ef65a77e6274461f3cf3",
     "subject": "Transfer control: Replace 3 \"Return\" steps"
    },
    {
     "adate": "2022-11-21T17:16:57-05:00",
     "author": "Michael Dyck",
-    "date": "2023-02-28T20:02:52-05:00",
-    "hash": "bb2b599cdcb9e8453be1bdc8d6ce69ce0942a81a",
-    "parents": "5d590607e48220bd82ac772048ded8f709798d87",
+    "date": "2023-03-18T10:28:12-04:00",
+    "hash": "df21e7afe2160d0af120ef65a77e6274461f3cf3",
+    "parents": "1cbf56acf494e31bbd7aa34709bf2c7591a849ec",
     "subject": "(Transfer control:) Refactor GeneratorStart's Abstract Closure so that it has only one Return step."
    },
    {
     "adate": "2022-11-21T16:32:17-05:00",
     "author": "Michael Dyck",
-    "date": "2023-02-28T20:00:26-05:00",
-    "hash": "5d590607e48220bd82ac772048ded8f709798d87",
-    "parents": "591ff57ab2d0572c9179152e532c7adbab55d450",
+    "date": "2023-03-18T10:25:52-04:00",
+    "hash": "1cbf56acf494e31bbd7aa34709bf2c7591a849ec",
+    "parents": "b5cc84d3d38682de8a898fce95538dd717bd93d0",
     "subject": "Transfer control: Replace the 3 remaining blocking-Resume steps"
    },
    {
     "adate": "2022-11-21T16:23:54-05:00",
     "author": "Michael Dyck",
-    "date": "2023-02-28T20:00:20-05:00",
-    "hash": "591ff57ab2d0572c9179152e532c7adbab55d450",
-    "parents": "c4a8bd4075825f9c1c77e7ca1e6f8811c8a41354",
+    "date": "2023-03-18T10:25:52-04:00",
+    "hash": "b5cc84d3d38682de8a898fce95538dd717bd93d0",
+    "parents": "6e70bb698b9facc5776625fd63f03dff09686639",
     "subject": "Transfer control: Replace the 6 \"Resume the suspended evaluation\" steps"
    }
   ],
   "title": "Editorial: Various changes around execution contexts",
-  "updated_at": "2023-03-01T01:42:54Z"
+  "updated_at": "2023-03-18T14:39:20Z"
  },
  {
   "base": "053d34c87b14d9234d6f7f45bd61074b72ca9d69",
@@ -1634,90 +1634,6 @@
   ],
   "title": "Editorial: Add an optional type restriction to IterableToList",
   "updated_at": "2023-02-13T19:42:20Z"
- },
- {
-  "base": "5658a65fff2d2a505ef5b91b95841dcc5e788277",
-  "created_at": "2022-05-17T14:08:31Z",
-  "head": "bc02450350b4d1132b5d894731fa6252448121ea",
-  "login": "acutmore",
-  "number": 2777,
-  "ref": "symbols-as-weakmap-keys",
-  "revs": [
-   {
-    "adate": "2023-03-17T17:13:58-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2023-03-17T17:13:58-07:00",
-    "hash": "bc02450350b4d1132b5d894731fa6252448121ea",
-    "parents": "b46657607f8d6743e9433435db6af76a04a79081",
-    "subject": "mficarra comment"
-   },
-   {
-    "adate": "2023-03-17T11:46:14-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2023-03-17T11:46:14-07:00",
-    "hash": "b46657607f8d6743e9433435db6af76a04a79081",
-    "parents": "67db9cb8279b9af1821966e65845d35b85eaa972",
-    "subject": "Tweak wording in CanBeHeldWeakly"
-   },
-   {
-    "adate": "2023-02-28T14:19:10-07:00",
-    "author": "Michael Ficarra",
-    "date": "2023-03-17T11:45:40-07:00",
-    "hash": "67db9cb8279b9af1821966e65845d35b85eaa972",
-    "parents": "ba0a14a97e2237741ed9ba2921c6d4fc1eb69377",
-    "subject": "don't mess with symbol identity in symbols-as-weakmap-keys proposal"
-   },
-   {
-    "adate": "2023-03-17T11:34:12-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2023-03-17T11:34:12-07:00",
-    "hash": "ba0a14a97e2237741ed9ba2921c6d4fc1eb69377",
-    "parents": "a03a93916b47a75811421d9a722bea6799e0558a 5658a65fff2d2a505ef5b91b95841dcc5e788277",
-    "subject": "Merge remote-tracking branch 'upstream/main' into symbols-as-weakmap-keys"
-   },
-   {
-    "adate": "2023-02-26T10:03:26+00:00",
-    "author": "Ashley Claymore",
-    "date": "2023-02-26T10:03:26+00:00",
-    "hash": "a03a93916b47a75811421d9a722bea6799e0558a",
-    "parents": "e983f0b24bebf3d965bdceeaca0d663fe3a3c7e5",
-    "subject": "Apply suggestion from code review"
-   },
-   {
-    "adate": "2023-02-25T21:23:30+00:00",
-    "author": "Ashley Claymore",
-    "date": "2023-02-25T21:23:30+00:00",
-    "hash": "e983f0b24bebf3d965bdceeaca0d663fe3a3c7e5",
-    "parents": "c76f06100cca17a6f17e44abb87fb542dbc04939 a623bfb94e9d5088bd7d60709832c71bac487bbe",
-    "subject": "Merge remote-tracking branch 'origin/main' into symbols-as-weakmap-keys"
-   },
-   {
-    "adate": "2023-02-13T17:35:40+00:00",
-    "author": "Ashley Claymore",
-    "date": "2023-02-13T17:35:40+00:00",
-    "hash": "c76f06100cca17a6f17e44abb87fb542dbc04939",
-    "parents": "5abd0ba5b77d7ef6d744e514d41f4a117af23c88",
-    "subject": "Apply suggestions from code review"
-   },
-   {
-    "adate": "2023-02-10T17:41:42+00:00",
-    "author": "Ashley Claymore",
-    "date": "2023-02-10T17:41:42+00:00",
-    "hash": "5abd0ba5b77d7ef6d744e514d41f4a117af23c88",
-    "parents": "cdf551f46bfa6cfdc1ec5b7be93b08928f252ee7",
-    "subject": "Apply suggestions from code review"
-   },
-   {
-    "adate": "2023-02-06T11:04:42+00:00",
-    "author": "Ashley Claymore",
-    "date": "2023-02-06T11:11:38+00:00",
-    "hash": "cdf551f46bfa6cfdc1ec5b7be93b08928f252ee7",
-    "parents": "f1fbcc563b86f8a198b063fc51a224c5d63cc0dd",
-    "subject": "Normative: Permit Symbols as WeakMap keys"
-   }
-  ],
-  "title": "[Stage 4] - Symbols as WeakMap keys",
-  "updated_at": "2023-03-18T00:24:17Z"
  },
  {
   "base": "656f0cf5dc1f7b8cccd6eef8146c4a037ae9106a",
@@ -3026,42 +2942,6 @@
   ],
   "title": "Editorial: Add notes about the 1-based indexing of regular expression _captures_",
   "updated_at": "2020-08-27T06:03:17Z"
- },
- {
-  "base": "56032d3271949f2892745d4a8e06d1322ba7220d",
-  "created_at": "2020-06-09T17:41:28Z",
-  "head": "4d0b82c810e04f682e184e8e68eb3ac041ad30b7",
-  "login": "littledan",
-  "number": 2038,
-  "ref": "symbol-as-weakmap-key",
-  "revs": [
-   {
-    "adate": "2020-06-09T22:52:29+02:00",
-    "author": "Daniel Ehrenberg",
-    "date": "2020-07-19T20:42:18+02:00",
-    "hash": "4d0b82c810e04f682e184e8e68eb3ac041ad30b7",
-    "parents": "35e574dbf44afc5f877e4b12c87e5882423c23da",
-    "subject": "Editorial: Factor out HasIdentity algorithm"
-   },
-   {
-    "adate": "2020-06-09T22:46:49+02:00",
-    "author": "Daniel Ehrenberg",
-    "date": "2020-07-19T20:42:18+02:00",
-    "hash": "35e574dbf44afc5f877e4b12c87e5882423c23da",
-    "parents": "5a30af9d06883eae9fbbdd76312892632ff14532",
-    "subject": "Applying Richard Gibson's wording suggestions"
-   },
-   {
-    "adate": "2020-06-09T19:31:45+02:00",
-    "author": "Daniel Ehrenberg",
-    "date": "2020-07-19T20:42:18+02:00",
-    "hash": "5a30af9d06883eae9fbbdd76312892632ff14532",
-    "parents": "56032d3271949f2892745d4a8e06d1322ba7220d",
-    "subject": "Normative: Permit Symbol as WeakMap key and WeakSet entry"
-   }
-  ],
-  "title": "Normative: Permit Symbol as WeakMap key and WeakSet entry",
-  "updated_at": "2020-07-19T18:42:39Z"
  },
  {
   "base": "7a79833f0b2b338cfb5531449b9bcf5290b9ae9a",
