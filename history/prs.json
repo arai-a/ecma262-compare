@@ -1638,11 +1638,19 @@
  {
   "base": "5658a65fff2d2a505ef5b91b95841dcc5e788277",
   "created_at": "2022-05-17T14:08:31Z",
-  "head": "b46657607f8d6743e9433435db6af76a04a79081",
+  "head": "bc02450350b4d1132b5d894731fa6252448121ea",
   "login": "acutmore",
   "number": 2777,
   "ref": "symbols-as-weakmap-keys",
   "revs": [
+   {
+    "adate": "2023-03-17T17:13:58-07:00",
+    "author": "Shu-yu Guo",
+    "date": "2023-03-17T17:13:58-07:00",
+    "hash": "bc02450350b4d1132b5d894731fa6252448121ea",
+    "parents": "b46657607f8d6743e9433435db6af76a04a79081",
+    "subject": "mficarra comment"
+   },
    {
     "adate": "2023-03-17T11:46:14-07:00",
     "author": "Shu-yu Guo",
@@ -1709,7 +1717,7 @@
    }
   ],
   "title": "[Stage 4] - Symbols as WeakMap keys",
-  "updated_at": "2023-03-17T18:47:57Z"
+  "updated_at": "2023-03-18T00:24:17Z"
  },
  {
   "base": "656f0cf5dc1f7b8cccd6eef8146c4a037ae9106a",
