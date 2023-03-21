@@ -1,5 +1,45 @@
 [
  {
+  "adate": "2023-03-21T10:42:19-07:00",
+  "author": "Richard Gibson",
+  "date": "2023-03-21T10:42:19-07:00",
+  "hash": "bd9d627eae3b250f851bc39015fd105a4a110f1a",
+  "parents": "dbce678bcf535625690775dd2d8b7d6572ccf114",
+  "subject": "Editorial: Increase consistency of IsStringWellFormedUnicode with other string operations (#2974)"
+ },
+ {
+  "adate": "2023-03-21T10:42:15-07:00",
+  "author": "Richard Gibson",
+  "date": "2023-03-21T10:42:15-07:00",
+  "hash": "dbce678bcf535625690775dd2d8b7d6572ccf114",
+  "parents": "5dee43837c18aa4bb09a51d6642f31c1f2c19f1a",
+  "subject": "Editorial: Align {escape,unescape,Encode,Decode} alias names with other string operations (#2974)"
+ },
+ {
+  "adate": "2023-03-21T10:42:10-07:00",
+  "author": "Richard Gibson",
+  "date": "2023-03-21T10:42:10-07:00",
+  "hash": "5dee43837c18aa4bb09a51d6642f31c1f2c19f1a",
+  "parents": "547284ba218e47d58a2272bd27e06a533f11a0eb",
+  "subject": "Editorial: Increase consistency between {escape,unescape} and {Encode,Decode} (#2974)"
+ },
+ {
+  "adate": "2023-03-21T10:42:08-07:00",
+  "author": "Richard Gibson",
+  "date": "2023-03-21T10:42:08-07:00",
+  "hash": "547284ba218e47d58a2272bd27e06a533f11a0eb",
+  "parents": "30b9cf0aad82ee9c844159a680ded29e4d058e29",
+  "subject": "Editorial: Increase consistency between unescape and escape (#2974)"
+ },
+ {
+  "adate": "2023-03-21T10:41:56-07:00",
+  "author": "Richard Gibson",
+  "date": "2023-03-21T10:41:56-07:00",
+  "hash": "30b9cf0aad82ee9c844159a680ded29e4d058e29",
+  "parents": "6e70bb698b9facc5776625fd63f03dff09686639",
+  "subject": "Editorial: Refactor unescape for clarity (#2974)"
+ },
+ {
   "adate": "2023-03-17T21:54:34-07:00",
   "author": "Ashley Claymore",
   "date": "2023-03-17T21:54:34-07:00",
