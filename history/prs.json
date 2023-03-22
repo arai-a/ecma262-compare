@@ -1,33 +1,5 @@
 [
  {
-  "base": "6e70bb698b9facc5776625fd63f03dff09686639",
-  "created_at": "2023-03-18T22:28:49Z",
-  "head": "b80d09bcf4e63be7726740816f196e9f1f72c9ea",
-  "login": "jmdyck",
-  "number": 3031,
-  "ref": "quick_fixes_5",
-  "revs": [
-   {
-    "adate": "2023-03-18T18:22:48-04:00",
-    "author": "Michael Dyck",
-    "date": "2023-03-18T18:22:48-04:00",
-    "hash": "b80d09bcf4e63be7726740816f196e9f1f72c9ea",
-    "parents": "693205d8c7aa9f449d50541c48f64c3a38891d4d",
-    "subject": "Editorial: Mark another step as a Note"
-   },
-   {
-    "adate": "2023-03-18T18:14:54-04:00",
-    "author": "Michael Dyck",
-    "date": "2023-03-18T18:14:54-04:00",
-    "hash": "693205d8c7aa9f449d50541c48f64c3a38891d4d",
-    "parents": "6e70bb698b9facc5776625fd63f03dff09686639",
-    "subject": "Editorial: Re-word a TypedArray table lookup"
-   }
-  ],
-  "title": "Editorial: Quick follow-ups to recent merges",
-  "updated_at": "2023-03-18T22:28:49Z"
- },
- {
   "base": "8d3d3cfbbe03cb041e8468bcc13d9b292d801e77",
   "created_at": "2023-03-16T11:18:51Z",
   "head": "5312b6c7c482b9e06c774de54afc5036c6b3ed2a",
@@ -720,149 +692,9 @@
   "updated_at": "2023-02-13T16:58:31Z"
  },
  {
-  "base": "b34e0d9570477a4db2f6b945344115627bf84bbe",
-  "created_at": "2022-12-15T17:53:18Z",
-  "head": "2dc4f8eb0a90eb6fcea6ba696ff8d6e505abe5b6",
-  "login": "gibson042",
-  "number": 2974,
-  "ref": "2022-12-string-op-consistency",
-  "revs": [
-   {
-    "adate": "2023-03-20T14:31:05-04:00",
-    "author": "Richard Gibson",
-    "date": "2023-03-20T14:31:05-04:00",
-    "hash": "2dc4f8eb0a90eb6fcea6ba696ff8d6e505abe5b6",
-    "parents": "60dd968dbf53e5b4d4a42795f754500dcb2aec45",
-    "subject": "Editorial: Rename alias for clarity"
-   },
-   {
-    "adate": "2023-02-11T19:31:07-05:00",
-    "author": "Richard Gibson",
-    "date": "2023-02-11T19:31:07-05:00",
-    "hash": "60dd968dbf53e5b4d4a42795f754500dcb2aec45",
-    "parents": "f315192dd6d03d55d203536acd0409ffc2ad54e1",
-    "subject": "Editorial: Match current conventions"
-   },
-   {
-    "adate": "2023-02-10T18:56:02-05:00",
-    "author": "Richard Gibson",
-    "date": "2023-02-10T18:56:02-05:00",
-    "hash": "f315192dd6d03d55d203536acd0409ffc2ad54e1",
-    "parents": "870ad44750539cd20162fdfee1597f8958cdeb96",
-    "subject": "Editorial: Address nits"
-   },
-   {
-    "adate": "2023-01-31T14:07:43-05:00",
-    "author": "Richard Gibson",
-    "date": "2023-01-31T14:07:43-05:00",
-    "hash": "870ad44750539cd20162fdfee1597f8958cdeb96",
-    "parents": "8466a0eeeb03e26f46a2c611f01f7d74bb41d871",
-    "subject": "Editorial: Restore new editorial convention regarding \"contains\""
-   },
-   {
-    "adate": "2023-01-18T18:53:03-05:00",
-    "author": "Richard Gibson",
-    "date": "2023-01-31T14:01:50-05:00",
-    "hash": "8466a0eeeb03e26f46a2c611f01f7d74bb41d871",
-    "parents": "516f3748bf931769add145f3e60cc543a003d8c5",
-    "subject": "Editorial: Replace \"&gt;\" with \">\" per emu-format"
-   },
-   {
-    "adate": "2023-01-18T18:49:14-05:00",
-    "author": "Richard Gibson",
-    "date": "2023-01-31T14:01:49-05:00",
-    "hash": "516f3748bf931769add145f3e60cc543a003d8c5",
-    "parents": "d1315488e2a19021471a104abb9a0b3dd1795815",
-    "subject": "Editorial: Introduce ParseHexOctet to avoid awkward alias naming"
-   },
-   {
-    "adate": "2023-01-18T18:48:05-05:00",
-    "author": "Richard Gibson",
-    "date": "2023-01-31T14:01:49-05:00",
-    "hash": "d1315488e2a19021471a104abb9a0b3dd1795815",
-    "parents": "fa9239ac3e1a0b9cc03136a49f92e9dd082463a0",
-    "subject": "Editorial: Better align comparisons with the steps they guard"
-   },
-   {
-    "adate": "2023-01-14T00:06:52-05:00",
-    "author": "Richard Gibson",
-    "date": "2023-01-31T14:01:49-05:00",
-    "hash": "fa9239ac3e1a0b9cc03136a49f92e9dd082463a0",
-    "parents": "cabc97f2af0bd14b84c3af75bfe7cfd9eb0bb87b",
-    "subject": "Editorial: Remove no-op type coercion"
-   },
-   {
-    "adate": "2022-12-15T12:36:27-05:00",
-    "author": "Richard Gibson",
-    "date": "2023-01-31T14:01:49-05:00",
-    "hash": "cabc97f2af0bd14b84c3af75bfe7cfd9eb0bb87b",
-    "parents": "85e98f7843ce4288e7502f5e431e512eaddfa996",
-    "subject": "Editorial: Refactor Decode for brevity and comprehensibility"
-   },
-   {
-    "adate": "2022-12-15T12:31:39-05:00",
-    "author": "Richard Gibson",
-    "date": "2023-01-31T14:01:49-05:00",
-    "hash": "85e98f7843ce4288e7502f5e431e512eaddfa996",
-    "parents": "965ceb22a01466cdfa9a076309d13bd92449aa8a",
-    "subject": "Editorial: Update parseFloat to make better use of ParseText"
-   },
-   {
-    "adate": "2022-12-15T12:30:12-05:00",
-    "author": "Richard Gibson",
-    "date": "2023-01-31T14:01:49-05:00",
-    "hash": "965ceb22a01466cdfa9a076309d13bd92449aa8a",
-    "parents": "3d5b5ebb658a6dd662c6cc65b74629e42362f7a0",
-    "subject": "Editorial: Align on \"code {unit,point} whose **numeric** value\" phrasing"
-   },
-   {
-    "adate": "2022-12-15T12:26:49-05:00",
-    "author": "Richard Gibson",
-    "date": "2023-01-31T14:01:49-05:00",
-    "hash": "3d5b5ebb658a6dd662c6cc65b74629e42362f7a0",
-    "parents": "52a950406b0097612b997a60b5edaf8f6bac4365",
-    "subject": "Editorial: Increase consistency of IsStringWellFormedUnicode with other string operations"
-   },
-   {
-    "adate": "2022-12-15T12:24:09-05:00",
-    "author": "Richard Gibson",
-    "date": "2023-01-31T14:01:48-05:00",
-    "hash": "52a950406b0097612b997a60b5edaf8f6bac4365",
-    "parents": "4253faf4cfc385bfe711e3f3d48ede6db63c2631",
-    "subject": "Editorial: Align {escape,unescape,Encode,Decode} alias names with other string operations"
-   },
-   {
-    "adate": "2022-12-15T12:20:04-05:00",
-    "author": "Richard Gibson",
-    "date": "2023-01-31T14:01:48-05:00",
-    "hash": "4253faf4cfc385bfe711e3f3d48ede6db63c2631",
-    "parents": "996b5623dba0ed9823ea692ac44a8cf9204841fb",
-    "subject": "Editorial: Increase consistency between {escape,unescape} and {Encode,Decode}"
-   },
-   {
-    "adate": "2022-12-15T12:02:19-05:00",
-    "author": "Richard Gibson",
-    "date": "2023-01-31T13:57:38-05:00",
-    "hash": "996b5623dba0ed9823ea692ac44a8cf9204841fb",
-    "parents": "1f5af1026a7a667a3547d106f008cc67d143f369",
-    "subject": "Editorial: Increase consistency between unescape and escape"
-   },
-   {
-    "adate": "2022-12-15T11:59:19-05:00",
-    "author": "Richard Gibson",
-    "date": "2023-01-31T13:57:38-05:00",
-    "hash": "1f5af1026a7a667a3547d106f008cc67d143f369",
-    "parents": "f1fbcc563b86f8a198b063fc51a224c5d63cc0dd",
-    "subject": "Editorial: Refactor unescape for clarity"
-   }
-  ],
-  "title": "Editorial: Increase consistency and clarity of string operations",
-  "updated_at": "2023-03-20T18:31:33Z"
- },
- {
-  "base": "6e70bb698b9facc5776625fd63f03dff09686639",
+  "base": "1dd4ac89ece2730eca68c2c359848d574c120548",
   "created_at": "2022-11-22T04:48:42Z",
-  "head": "3b7e84b5c301632b18e4e45bdda69e467359a936",
+  "head": "b611e2391758b07c7724efeea5d8374c18c12b7c",
   "login": "jmdyck",
   "number": 2962,
   "ref": "transfer",
@@ -870,110 +702,110 @@
    {
     "adate": "2023-02-15T20:08:53-05:00",
     "author": "Michael Dyck",
-    "date": "2023-03-18T10:28:48-04:00",
-    "hash": "3b7e84b5c301632b18e4e45bdda69e467359a936",
-    "parents": "c39d41d6fe66129649334b42fe5c0af5a83a1c38",
+    "date": "2023-03-21T20:43:13-04:00",
+    "hash": "b611e2391758b07c7724efeea5d8374c18c12b7c",
+    "parents": "f344c6661af4ea603a267394a4645778b4e5440e",
     "subject": "fixup: Insert \"and async functions\" into note re execution contexts"
    },
    {
     "adate": "2023-02-13T11:22:33-05:00",
     "author": "Michael Dyck",
-    "date": "2023-03-18T10:28:48-04:00",
-    "hash": "c39d41d6fe66129649334b42fe5c0af5a83a1c38",
-    "parents": "4ceab470e97178b70eff615544691c5c19a17bbc",
+    "date": "2023-03-21T20:43:13-04:00",
+    "hash": "f344c6661af4ea603a267394a4645778b4e5440e",
+    "parents": "13912b3920f8f4a92650d5f1d0dd1bcdef0fe7e5",
     "subject": "Eliminate certain wording around execution contexts"
    },
    {
     "adate": "2023-01-13T20:30:31-05:00",
     "author": "Michael Dyck",
-    "date": "2023-03-18T10:28:48-04:00",
-    "hash": "4ceab470e97178b70eff615544691c5c19a17bbc",
-    "parents": "3d1b29224dc736a6cab6ac89da26e017cb7078c8",
+    "date": "2023-03-21T20:43:13-04:00",
+    "hash": "13912b3920f8f4a92650d5f1d0dd1bcdef0fe7e5",
+    "parents": "8107731a8b652a083f2d4afb466e2d5d958414ed",
     "subject": "Transfer control fixup: Make 'code evaluation state' less vague"
    },
    {
     "adate": "2022-11-21T22:50:15-05:00",
     "author": "Michael Dyck",
-    "date": "2023-03-18T10:28:48-04:00",
-    "hash": "3d1b29224dc736a6cab6ac89da26e017cb7078c8",
-    "parents": "0ed12fa54095299fbd3dadf64584454e0a230981",
+    "date": "2023-03-21T20:43:13-04:00",
+    "hash": "8107731a8b652a083f2d4afb466e2d5d958414ed",
+    "parents": "1e22fd44bd1efcaad34cb5ebf3df39d075150282",
     "subject": "Execution Context section: Make the EC Stack subsection"
    },
    {
     "adate": "2022-11-21T22:21:11-05:00",
     "author": "Michael Dyck",
-    "date": "2023-03-18T10:28:48-04:00",
-    "hash": "0ed12fa54095299fbd3dadf64584454e0a230981",
-    "parents": "aed935d2ef2c9bd9b322c74e191bb84211e1be11",
+    "date": "2023-03-21T20:43:13-04:00",
+    "hash": "1e22fd44bd1efcaad34cb5ebf3df39d075150282",
+    "parents": "149bb9c38e88c3cbc37fdf0a4d178a557d23efcb",
     "subject": "Execution Context section: Move a paragraph"
    },
    {
     "adate": "2022-11-21T22:10:01-05:00",
     "author": "Michael Dyck",
-    "date": "2023-03-18T10:28:48-04:00",
-    "hash": "aed935d2ef2c9bd9b322c74e191bb84211e1be11",
-    "parents": "a27bf2daccdba7997f4ee96e9941880f8318e8ce",
+    "date": "2023-03-21T20:43:13-04:00",
+    "hash": "149bb9c38e88c3cbc37fdf0a4d178a557d23efcb",
+    "parents": "eba74e4d8756f5952c625065dd9bffb50cb33edb",
     "subject": "Resume+Suspend: Eliminate `Suspend` steps"
    },
    {
     "adate": "2022-11-21T22:04:15-05:00",
     "author": "Michael Dyck",
-    "date": "2023-03-18T10:28:48-04:00",
-    "hash": "a27bf2daccdba7997f4ee96e9941880f8318e8ce",
-    "parents": "6bb08ef97b80424ac8d7c17e49c5ece3063f489c",
+    "date": "2023-03-21T20:43:12-04:00",
+    "hash": "eba74e4d8756f5952c625065dd9bffb50cb33edb",
+    "parents": "5e1bd895ac38eb029a44f09278d3493e5f751d5b",
     "subject": "Resume+Suspend: Eliminate `Resume` steps"
    },
    {
     "adate": "2022-11-21T21:39:36-05:00",
     "author": "Michael Dyck",
-    "date": "2023-03-18T10:28:48-04:00",
-    "hash": "6bb08ef97b80424ac8d7c17e49c5ece3063f489c",
-    "parents": "e8438afbef420bbe86809e74ae75938edf20aea1",
+    "date": "2023-03-21T20:43:12-04:00",
+    "hash": "5e1bd895ac38eb029a44f09278d3493e5f751d5b",
+    "parents": "6b8ccdc3275e030c15871e013d0fb75f2194e941",
     "subject": "Transfer control: Define \"transfer control\""
    },
    {
     "adate": "2022-11-21T20:17:05-05:00",
     "author": "Michael Dyck",
-    "date": "2023-03-18T10:28:45-04:00",
-    "hash": "e8438afbef420bbe86809e74ae75938edf20aea1",
-    "parents": "f293706a162a7f33f750a48832b1190e183604cb",
+    "date": "2023-03-21T20:43:09-04:00",
+    "hash": "6b8ccdc3275e030c15871e013d0fb75f2194e941",
+    "parents": "fc3c781a131ba9c2603119bfe9ce2e6d927cd3a2",
     "subject": "Transfer control: Re-word some steps that talk about resuming execution contexts"
    },
    {
     "adate": "2022-11-21T17:28:17-05:00",
     "author": "Michael Dyck",
-    "date": "2023-03-18T10:28:17-04:00",
-    "hash": "f293706a162a7f33f750a48832b1190e183604cb",
-    "parents": "df21e7afe2160d0af120ef65a77e6274461f3cf3",
+    "date": "2023-03-21T20:42:50-04:00",
+    "hash": "fc3c781a131ba9c2603119bfe9ce2e6d927cd3a2",
+    "parents": "06a7411dcf9092038c561c24b21a1aead958b325",
     "subject": "Transfer control: Replace 3 \"Return\" steps"
    },
    {
     "adate": "2022-11-21T17:16:57-05:00",
     "author": "Michael Dyck",
-    "date": "2023-03-18T10:28:12-04:00",
-    "hash": "df21e7afe2160d0af120ef65a77e6274461f3cf3",
-    "parents": "1cbf56acf494e31bbd7aa34709bf2c7591a849ec",
+    "date": "2023-03-21T20:42:50-04:00",
+    "hash": "06a7411dcf9092038c561c24b21a1aead958b325",
+    "parents": "d2dda4604280735a0f9dd893a9d8b53e8aab6220",
     "subject": "(Transfer control:) Refactor GeneratorStart's Abstract Closure so that it has only one Return step."
    },
    {
     "adate": "2022-11-21T16:32:17-05:00",
     "author": "Michael Dyck",
-    "date": "2023-03-18T10:25:52-04:00",
-    "hash": "1cbf56acf494e31bbd7aa34709bf2c7591a849ec",
-    "parents": "b5cc84d3d38682de8a898fce95538dd717bd93d0",
+    "date": "2023-03-21T20:42:50-04:00",
+    "hash": "d2dda4604280735a0f9dd893a9d8b53e8aab6220",
+    "parents": "62a3d61f600be250e862dd3b1874a987ecf1e159",
     "subject": "Transfer control: Replace the 3 remaining blocking-Resume steps"
    },
    {
     "adate": "2022-11-21T16:23:54-05:00",
     "author": "Michael Dyck",
-    "date": "2023-03-18T10:25:52-04:00",
-    "hash": "b5cc84d3d38682de8a898fce95538dd717bd93d0",
-    "parents": "6e70bb698b9facc5776625fd63f03dff09686639",
+    "date": "2023-03-21T20:42:50-04:00",
+    "hash": "62a3d61f600be250e862dd3b1874a987ecf1e159",
+    "parents": "1dd4ac89ece2730eca68c2c359848d574c120548",
     "subject": "Transfer control: Replace the 6 \"Resume the suspended evaluation\" steps"
    }
   ],
   "title": "Editorial: Various changes around execution contexts",
-  "updated_at": "2023-03-18T14:39:20Z"
+  "updated_at": "2023-03-22T00:46:31Z"
  },
  {
   "base": "053d34c87b14d9234d6f7f45bd61074b72ca9d69",
