@@ -252,13 +252,21 @@
   "updated_at": "2023-02-01T22:43:51Z"
  },
  {
-  "base": "36ce4e0db055e995552b1b47e1e53a6ed07b07b6",
+  "base": "b34e0d9570477a4db2f6b945344115627bf84bbe",
   "created_at": "2023-01-23T22:42:45Z",
-  "head": "c541efb9ad9a8795212b23f074511b190a9437e3",
+  "head": "3044fd90ab4c9fcfbb3304970a8315a2853d492a",
   "login": "rbuckton",
   "number": 3000,
   "ref": "explicit-resource-management",
   "revs": [
+   {
+    "adate": "2023-03-22T13:39:45-04:00",
+    "author": "Ron Buckton",
+    "date": "2023-03-22T13:39:45-04:00",
+    "hash": "3044fd90ab4c9fcfbb3304970a8315a2853d492a",
+    "parents": "c541efb9ad9a8795212b23f074511b190a9437e3",
+    "subject": "Switch back to a production parameter, update ASI note"
+   },
    {
     "adate": "2023-01-31T13:57:45-05:00",
     "author": "Ron Buckton",
@@ -533,7 +541,7 @@
    }
   ],
   "title": "Add `using` Declarations, SuppressedError, and DisposableStack",
-  "updated_at": "2023-01-31T18:57:54Z"
+  "updated_at": "2023-03-22T18:20:23Z"
  },
  {
   "base": "89ef6606792c1f2b246dae08965c0503cf7ee1ee",
