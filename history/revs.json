@@ -1,5 +1,45 @@
 [
  {
+  "adate": "2023-03-30T16:46:36-07:00",
+  "author": "Kevin Gibbons",
+  "date": "2023-03-30T16:46:36-07:00",
+  "hash": "2ac367880d620c49258c9a045833b28c3944b982",
+  "parents": "784fc65c455f037b14c28ce56ed70dc93852dc1e",
+  "subject": "Editorial: Describe changes in ES2023 (#3032)"
+ },
+ {
+  "adate": "2023-03-30T16:18:01-07:00",
+  "author": "Shu-yu Guo",
+  "date": "2023-03-30T16:18:01-07:00",
+  "hash": "784fc65c455f037b14c28ce56ed70dc93852dc1e",
+  "parents": "ff601405d8813cb980482b5f91144979da41670b",
+  "subject": "Editorial: Throw on undefined early in GetIterator (#3021)"
+ },
+ {
+  "adate": "2023-03-30T16:17:58-07:00",
+  "author": "Shu-yu Guo",
+  "date": "2023-03-30T16:17:58-07:00",
+  "hash": "ff601405d8813cb980482b5f91144979da41670b",
+  "parents": "256281144059d4137389468f4b093a51eea12678",
+  "subject": "Editorial: IterableToList -> IteratorToList (#3021)"
+ },
+ {
+  "adate": "2023-03-30T16:17:54-07:00",
+  "author": "Shu-yu Guo",
+  "date": "2023-03-30T16:17:54-07:00",
+  "hash": "256281144059d4137389468f4b093a51eea12678",
+  "parents": "956e5af16984de6f37b2bd65c433c77dc975a35c",
+  "subject": "Editorial: Make GetIterator's hint parameter required (#3021)"
+ },
+ {
+  "adate": "2023-03-30T16:17:49-07:00",
+  "author": "Shu-yu Guo",
+  "date": "2023-03-30T16:17:49-07:00",
+  "hash": "956e5af16984de6f37b2bd65c433c77dc975a35c",
+  "parents": "1dd4ac89ece2730eca68c2c359848d574c120548",
+  "subject": "Editorial: Refactor GetIterator to GetIteratorFromMethod (#3021)"
+ },
+ {
   "adate": "2023-03-21T15:05:02-07:00",
   "author": "Michael Dyck",
   "date": "2023-03-21T15:05:02-07:00",
