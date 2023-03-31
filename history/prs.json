@@ -20,34 +20,6 @@
   "updated_at": "2023-03-30T01:32:06Z"
  },
  {
-  "base": "1dd4ac89ece2730eca68c2c359848d574c120548",
-  "created_at": "2023-03-29T22:25:06Z",
-  "head": "dacb72a3244dc7ac52e9b53ad7061088ec465e71",
-  "login": "tc39",
-  "number": 3032,
-  "ref": "add-14th-para",
-  "revs": [
-   {
-    "adate": "2023-03-29T15:43:48-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2023-03-29T15:43:48-07:00",
-    "hash": "dacb72a3244dc7ac52e9b53ad7061088ec465e71",
-    "parents": "dc5e6656fc45e0f168fa3b595cdcd6fbb4a28a46",
-    "subject": "Editorial: Sign introduction"
-   },
-   {
-    "adate": "2023-03-29T15:43:22-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2023-03-29T15:43:22-07:00",
-    "hash": "dc5e6656fc45e0f168fa3b595cdcd6fbb4a28a46",
-    "parents": "1dd4ac89ece2730eca68c2c359848d574c120548",
-    "subject": "Editorial: Describe changes in ES2023"
-   }
-  ],
-  "title": "Editorial: describe changes in es2023 and sign introduction",
-  "updated_at": "2023-03-29T22:44:16Z"
- },
- {
   "base": "8d3d3cfbbe03cb041e8468bcc13d9b292d801e77",
   "created_at": "2023-03-16T11:18:51Z",
   "head": "5312b6c7c482b9e06c774de54afc5036c6b3ed2a",
@@ -88,9 +60,9 @@
   "updated_at": "2023-03-24T04:20:49Z"
  },
  {
-  "base": "1dd4ac89ece2730eca68c2c359848d574c120548",
+  "base": "1c5ca183844ab453f939f1ee6165747c8b1c64ee",
   "created_at": "2023-03-02T20:27:41Z",
-  "head": "593f564345079a2b7b4515850e968e2632a19fb2",
+  "head": "744664d35627e9d6c2b5f1eacd1102fd5097a1df",
   "login": "StefanOctavian",
   "number": 3023,
   "ref": "main",
@@ -98,14 +70,14 @@
    {
     "adate": "2023-03-02T21:57:51+02:00",
     "author": "Stefan Octavian",
-    "date": "2023-03-30T21:36:00+03:00",
-    "hash": "593f564345079a2b7b4515850e968e2632a19fb2",
-    "parents": "1dd4ac89ece2730eca68c2c359848d574c120548",
+    "date": "2023-03-31T08:06:54-07:00",
+    "hash": "744664d35627e9d6c2b5f1eacd1102fd5097a1df",
+    "parents": "1c5ca183844ab453f939f1ee6165747c8b1c64ee",
     "subject": "Normative: moved class fields initialization step in class definitions without explicit constructors to avoid double initialization due to [[Construct]]"
    }
   ],
   "title": "Normative: Avoid initializing fields twice for instances of base classes without explicit constructors",
-  "updated_at": "2023-03-30T18:36:05Z"
+  "updated_at": "2023-03-31T15:06:58Z"
  },
  {
   "base": "d00fc6a444397ef29bc11007058ac89df12aa245",
