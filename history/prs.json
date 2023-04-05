@@ -52,26 +52,6 @@
   "updated_at": "2023-04-04T19:53:59Z"
  },
  {
-  "base": "1dd4ac89ece2730eca68c2c359848d574c120548",
-  "created_at": "2023-03-30T01:32:06Z",
-  "head": "e1b97e2716bd2d60eab0944ad7ebfae7c4524556",
-  "login": "tc39",
-  "number": 3034,
-  "ref": "nextmethod-getv",
-  "revs": [
-   {
-    "adate": "2023-03-29T19:28:57-06:00",
-    "author": "Michael Ficarra",
-    "date": "2023-03-29T19:28:57-06:00",
-    "hash": "e1b97e2716bd2d60eab0944ad7ebfae7c4524556",
-    "parents": "1dd4ac89ece2730eca68c2c359848d574c120548",
-    "subject": "replace an unnecessary GetV with a Get"
-   }
-  ],
-  "title": "replace an unnecessary GetV with a Get",
-  "updated_at": "2023-03-30T01:32:06Z"
- },
- {
   "base": "8d3d3cfbbe03cb041e8468bcc13d9b292d801e77",
   "created_at": "2023-03-16T11:18:51Z",
   "head": "5312b6c7c482b9e06c774de54afc5036c6b3ed2a",
@@ -112,9 +92,9 @@
   "updated_at": "2023-03-24T04:20:49Z"
  },
  {
-  "base": "e356adc0545a1a6409c69e41b9626ad3493f6bc8",
+  "base": "81f4f9e9514a79a1b342c153e91322dc834ed57b",
   "created_at": "2023-03-02T20:27:41Z",
-  "head": "941662a16dd7e594f1e8d3c591d176bec89afae8",
+  "head": "0c32a831ceca02efc8926d87cbdb36702190fc81",
   "login": "StefanOctavian",
   "number": 3023,
   "ref": "main",
@@ -122,14 +102,14 @@
    {
     "adate": "2023-03-02T21:57:51+02:00",
     "author": "Stefan Octavian",
-    "date": "2023-04-03T19:33:32+03:00",
-    "hash": "941662a16dd7e594f1e8d3c591d176bec89afae8",
-    "parents": "e356adc0545a1a6409c69e41b9626ad3493f6bc8",
+    "date": "2023-04-05T14:50:49-07:00",
+    "hash": "0c32a831ceca02efc8926d87cbdb36702190fc81",
+    "parents": "81f4f9e9514a79a1b342c153e91322dc834ed57b",
     "subject": "Normative: moved class fields initialization step in class definitions without explicit constructors to avoid double initialization due to [[Construct]]"
    }
   ],
   "title": "Normative: Avoid initializing fields twice for instances of base classes without explicit constructors",
-  "updated_at": "2023-04-03T16:33:37Z"
+  "updated_at": "2023-04-05T22:00:42Z"
  },
  {
   "base": "d00fc6a444397ef29bc11007058ac89df12aa245",
