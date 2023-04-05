@@ -216,9 +216,9 @@
   "updated_at": "2023-02-12T18:32:17Z"
  },
  {
-  "base": "c4a8bd4075825f9c1c77e7ca1e6f8811c8a41354",
+  "base": "e356adc0545a1a6409c69e41b9626ad3493f6bc8",
   "created_at": "2023-02-05T07:20:55Z",
-  "head": "25424af5283c7f2453eed0362cec656720c5c833",
+  "head": "59429618a3d37a2d3aced7127f42ea47029a210a",
   "login": "petamoriken",
   "number": 3009,
   "ref": "normative/dont-call-regexp-@@method-on-primitives",
@@ -226,14 +226,14 @@
    {
     "adate": "2023-02-05T15:45:10+09:00",
     "author": "Kenta Moriuchi",
-    "date": "2023-03-02T17:04:49+09:00",
-    "hash": "25424af5283c7f2453eed0362cec656720c5c833",
-    "parents": "c4a8bd4075825f9c1c77e7ca1e6f8811c8a41354",
+    "date": "2023-04-05T17:55:42+09:00",
+    "hash": "59429618a3d37a2d3aced7127f42ea47029a210a",
+    "parents": "e356adc0545a1a6409c69e41b9626ad3493f6bc8",
     "subject": "Normative: Don't call @@method for `RegExp` on primitive values"
    }
   ],
   "title": "Normative: Don't call @@method for `RegExp` on primitive values",
-  "updated_at": "2023-03-02T08:05:01Z"
+  "updated_at": "2023-04-05T08:55:54Z"
  },
  {
   "base": "f1fbcc563b86f8a198b063fc51a224c5d63cc0dd",
