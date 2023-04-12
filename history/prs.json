@@ -1,26 +1,6 @@
 [
  {
   "base": "809acf68dd571def44d6db524bc8032c8cffceb5",
-  "created_at": "2023-04-12T21:06:38Z",
-  "head": "b29ba81e1b5de2be598a28cce9db87468592528f",
-  "login": "tc39",
-  "number": 3041,
-  "ref": "bump-emu",
-  "revs": [
-   {
-    "adate": "2023-04-12T14:06:08-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2023-04-12T14:06:08-07:00",
-    "hash": "b29ba81e1b5de2be598a28cce9db87468592528f",
-    "parents": "809acf68dd571def44d6db524bc8032c8cffceb5",
-    "subject": "Meta: bump ecmarkup to 16.2.0"
-   }
-  ],
-  "title": "Meta: bump ecmarkup to 16.2.0",
-  "updated_at": "2023-04-12T21:12:29Z"
- },
- {
-  "base": "809acf68dd571def44d6db524bc8032c8cffceb5",
   "created_at": "2023-04-11T17:19:20Z",
   "head": "f67385a11ca20e9cb8a8760b5ce40b68dd4b0d7b",
   "login": "tc39",
@@ -874,50 +854,50 @@
  {
   "base": "809acf68dd571def44d6db524bc8032c8cffceb5",
   "created_at": "2022-10-31T19:28:14Z",
-  "head": "8895d5defad0385b798fbcf9558de7923985400f",
+  "head": "9b6e3a351608d3ced2c9b4855f0cdecc4bc21b31",
   "login": "jmdyck",
   "number": 2952,
   "ref": "monkey_patch",
   "revs": [
    {
+    "adate": "2023-04-12T14:06:08-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2023-04-12T17:14:14-04:00",
+    "hash": "9b6e3a351608d3ced2c9b4855f0cdecc4bc21b31",
+    "parents": "bc6002ca6ba68a8bcb788f538eea06964f98df06",
+    "subject": "Meta: bump ecmarkup to 16.2.0"
+   },
+   {
     "adate": "2022-10-31T14:31:01-04:00",
     "author": "Michael Dyck",
-    "date": "2023-04-12T16:38:07-04:00",
-    "hash": "8895d5defad0385b798fbcf9558de7923985400f",
-    "parents": "d263be6c1db90499b1e0212f3722c8972924fac8",
+    "date": "2023-04-12T17:13:01-04:00",
+    "hash": "bc6002ca6ba68a8bcb788f538eea06964f98df06",
+    "parents": "72cd786119cce33bdc321186ee1da35a50444b23",
     "subject": "Editorial: Eliminate monkey-patching from \"The [[IsHTMLDDA]] Internal Slot\""
    },
    {
     "adate": "2022-10-31T14:17:20-04:00",
     "author": "Michael Dyck",
-    "date": "2023-04-12T16:38:04-04:00",
-    "hash": "d263be6c1db90499b1e0212f3722c8972924fac8",
-    "parents": "98133839f40b23af7d00e8c37063daf5f4ca3a84",
+    "date": "2023-04-12T17:13:01-04:00",
+    "hash": "72cd786119cce33bdc321186ee1da35a50444b23",
+    "parents": "dd4f63df78442bbc4ce397daef83a1ce611f9b35",
     "subject": "Editorial: Eliminate monkey-patching from \"VariableStatements in Catch Blocks\""
    },
    {
     "adate": "2022-10-31T11:05:45-04:00",
     "author": "Michael Dyck",
-    "date": "2023-04-12T16:37:24-04:00",
-    "hash": "98133839f40b23af7d00e8c37063daf5f4ca3a84",
-    "parents": "5eb9b6a4a3d238766b16bee1ffdfd85333fbcd50",
+    "date": "2023-04-12T17:13:01-04:00",
+    "hash": "dd4f63df78442bbc4ce397daef83a1ce611f9b35",
+    "parents": "866121b08a6a48d0fa75e8a68d320ca0388ed663",
     "subject": "Editorial: Eliminate monkey-patching from \"Block-Level Function Declarations...\""
    },
    {
     "adate": "2022-10-31T10:28:16-04:00",
     "author": "Michael Dyck",
-    "date": "2023-04-12T16:36:59-04:00",
-    "hash": "5eb9b6a4a3d238766b16bee1ffdfd85333fbcd50",
-    "parents": "6a8642a8abe2f962e35f935108afb964b08d442d",
-    "subject": "Editorial: Eliminate monkey-patching from \"Labelled Function Declarations\""
-   },
-   {
-    "adate": "2023-04-12T14:05:13-04:00",
-    "author": "Michael Dyck",
-    "date": "2023-04-12T15:44:38-04:00",
-    "hash": "6a8642a8abe2f962e35f935108afb964b08d442d",
+    "date": "2023-04-12T17:13:01-04:00",
+    "hash": "866121b08a6a48d0fa75e8a68d320ca0388ed663",
     "parents": "71c6a3ca846eaaba9ed2357f2d85d6cc1c6cb688",
-    "subject": "transient: Bump ecmarkup to 16.2.0"
+    "subject": "Editorial: Eliminate monkey-patching from \"Labelled Function Declarations\""
    },
    {
     "adate": "2023-04-12T15:21:18-04:00",
@@ -945,7 +925,7 @@
    }
   ],
   "title": "Editorial: Reduce Annex B's monkey-patching",
-  "updated_at": "2023-04-12T20:57:06Z"
+  "updated_at": "2023-04-12T21:15:29Z"
  },
  {
   "base": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
