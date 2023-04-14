@@ -1,5 +1,65 @@
 [
  {
+  "base": "a42e2d5f5ea956785a625a87f6c1dd8752bf0f00",
+  "created_at": "2023-04-14T18:30:05Z",
+  "head": "6693880a131f60ba835d711003ad0cf0611deb63",
+  "login": "gibson042",
+  "number": 3043,
+  "ref": "2023-04-if-else-block-agreement",
+  "revs": [
+   {
+    "adate": "2023-04-14T14:10:01-04:00",
+    "author": "Richard Gibson",
+    "date": "2023-04-14T14:10:01-04:00",
+    "hash": "6693880a131f60ba835d711003ad0cf0611deb63",
+    "parents": "8ec27ee42737b3ebd23dd20ea501472d87d1e3d4",
+    "subject": "Editorial: Update MakeFullYear to not propagate fractional Number parts"
+   },
+   {
+    "adate": "2023-04-14T14:02:26-04:00",
+    "author": "Richard Gibson",
+    "date": "2023-04-14T14:02:26-04:00",
+    "hash": "8ec27ee42737b3ebd23dd20ea501472d87d1e3d4",
+    "parents": "e4c2352645e9938692af0c3d56cdf63999a0b6c5",
+    "subject": "Editorial: Introduce MakeFullYear to cover common steps of Date(\u2026) and Date.UTC(\u2026)"
+   },
+   {
+    "adate": "2023-04-14T10:30:51-04:00",
+    "author": "Richard Gibson",
+    "date": "2023-04-14T10:30:51-04:00",
+    "hash": "e4c2352645e9938692af0c3d56cdf63999a0b6c5",
+    "parents": "db12fe80ae04cabc1ad51fd12c3b9d2e2f5930a0",
+    "subject": "Editorial: Combine Append steps in EnumerableOwnProperties"
+   },
+   {
+    "adate": "2023-04-14T10:28:59-04:00",
+    "author": "Richard Gibson",
+    "date": "2023-04-14T10:28:59-04:00",
+    "hash": "db12fe80ae04cabc1ad51fd12c3b9d2e2f5930a0",
+    "parents": "4b8af9fbb5390d5a64ec328e55f3105108e21192",
+    "subject": "Editorial: Introduce a new alias to simplify CreateArrayIterator"
+   },
+   {
+    "adate": "2023-04-14T10:25:16-04:00",
+    "author": "Richard Gibson",
+    "date": "2023-04-14T10:25:22-04:00",
+    "hash": "4b8af9fbb5390d5a64ec328e55f3105108e21192",
+    "parents": "4a04fc69bc6948dce682ff82050936dfeda1d335",
+    "subject": "Editorial: Combine GeneratorYield steps in CreateArrayIterator"
+   },
+   {
+    "adate": "2023-04-14T10:21:28-04:00",
+    "author": "Richard Gibson",
+    "date": "2023-04-14T10:21:28-04:00",
+    "hash": "4a04fc69bc6948dce682ff82050936dfeda1d335",
+    "parents": "a42e2d5f5ea956785a625a87f6c1dd8752bf0f00",
+    "subject": "Editorial: Avoid preceding a multi-step Else with a collapsed single-step If"
+   }
+  ],
+  "title": "Editorial: Avoid preceding a multi-step Else with a collapsed single-step If",
+  "updated_at": "2023-04-14T18:30:05Z"
+ },
+ {
   "base": "809acf68dd571def44d6db524bc8032c8cffceb5",
   "created_at": "2023-04-11T16:04:30Z",
   "head": "b3b3e63066c26910f649082f2d884d0ca3e31189",
