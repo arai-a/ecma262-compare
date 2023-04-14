@@ -1984,13 +1984,21 @@
   "updated_at": "2022-11-04T21:11:30Z"
  },
  {
-  "base": "8d9522cc84c1bcedc49e4c9e8272b72615e407cf",
+  "base": "b34e0d9570477a4db2f6b945344115627bf84bbe",
   "created_at": "2021-05-28T11:28:01Z",
-  "head": "a2b562aacb38ed1f01b6946535600b64d680903e",
+  "head": "ca6e148e8cd9f866932c989ca818679b8fe05824",
   "login": "mathiasbynens",
   "number": 2418,
   "ref": "regexp-v-flag",
   "revs": [
+   {
+    "adate": "2023-04-14T10:25:12+02:00",
+    "author": "Patrick Thier",
+    "date": "2023-04-14T10:25:12+02:00",
+    "hash": "ca6e148e8cd9f866932c989ca818679b8fe05824",
+    "parents": "a2b562aacb38ed1f01b6946535600b64d680903e",
+    "subject": "Fix ClassString production in CompileToCharSet (#15)"
+   },
    {
     "adate": "2022-05-30T22:00:18+00:00",
     "author": "Markus Scherer",
@@ -2321,7 +2329,7 @@
    }
   ],
   "title": "Normative: Add RegExp `v` flag with set notation and properties of strings",
-  "updated_at": "2022-05-30T22:00:22Z"
+  "updated_at": "2023-04-14T08:25:18Z"
  },
  {
   "base": "c4a8bd4075825f9c1c77e7ca1e6f8811c8a41354",
