@@ -2106,11 +2106,35 @@
  {
   "base": "ef1524eea725970c809ac1f29dc90fcfd4bb2848",
   "created_at": "2021-05-28T11:28:01Z",
-  "head": "62889bfdda7a4172c680c171763c503b90924673",
+  "head": "fb4589eafc1ee7d34ee5efe6b38c73e3cb6c45a1",
   "login": "mathiasbynens",
   "number": 2418,
   "ref": "regexp-v-flag",
   "revs": [
+   {
+    "adate": "2023-04-21T19:59:26+02:00",
+    "author": "Mathias Bynens",
+    "date": "2023-04-21T19:59:26+02:00",
+    "hash": "fb4589eafc1ee7d34ee5efe6b38c73e3cb6c45a1",
+    "parents": "077e6b9c3db5284ffec6095b36a7e85bfb29ad37",
+    "subject": "Properly define `scf`"
+   },
+   {
+    "adate": "2023-04-21T19:57:05+02:00",
+    "author": "Mathias Bynens",
+    "date": "2023-04-21T19:57:05+02:00",
+    "hash": "077e6b9c3db5284ffec6095b36a7e85bfb29ad37",
+    "parents": "11be62fc7a6671184b02c6864f9d65b81929cc68",
+    "subject": "Add `[declared=\"c\"]`"
+   },
+   {
+    "adate": "2023-04-21T19:37:17+02:00",
+    "author": "Mathias Bynens",
+    "date": "2023-04-21T19:37:17+02:00",
+    "hash": "11be62fc7a6671184b02c6864f9d65b81929cc68",
+    "parents": "62889bfdda7a4172c680c171763c503b90924673",
+    "subject": "Amend \u201cRuntime Semantics: `CompileAtom`\u201d for `AtomEscape :: CharacterClassEscape` (#18)"
+   },
    {
     "adate": "2023-04-21T09:51:14+02:00",
     "author": "Mathias Bynens",
@@ -2121,7 +2145,7 @@
    }
   ],
   "title": "Normative: Add RegExp `v` flag with set notation and properties of strings",
-  "updated_at": "2023-04-21T09:03:02Z"
+  "updated_at": "2023-04-21T17:59:45Z"
  },
  {
   "base": "c4a8bd4075825f9c1c77e7ca1e6f8811c8a41354",
