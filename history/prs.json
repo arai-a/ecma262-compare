@@ -2106,11 +2106,67 @@
  {
   "base": "ef1524eea725970c809ac1f29dc90fcfd4bb2848",
   "created_at": "2021-05-28T11:28:01Z",
-  "head": "348579dfa4c95beeb59aacf8ad9efea0e38cb47d",
+  "head": "1bb3aabab713574203433523b143ef0262cfbaff",
   "login": "mathiasbynens",
   "number": 2418,
   "ref": "regexp-v-flag",
   "revs": [
+   {
+    "adate": "2023-04-22T15:13:38-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-04-22T23:42:26+02:00",
+    "hash": "1bb3aabab713574203433523b143ef0262cfbaff",
+    "parents": "a7472320e03dc08f59ee6c41c8525e6baf8047c5",
+    "subject": "Make step 1 of EscapeRegExpPattern slightly less terrible"
+   },
+   {
+    "adate": "2023-04-22T15:04:56-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-04-22T23:42:26+02:00",
+    "hash": "a7472320e03dc08f59ee6c41c8525e6baf8047c5",
+    "parents": "5951635d9608c5d6e7e58229925e6a237feef8ec",
+    "subject": "Change a 'union' to an 'Add'"
+   },
+   {
+    "adate": "2023-04-22T15:03:50-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-04-22T23:42:26+02:00",
+    "hash": "5951635d9608c5d6e7e58229925e6a237feef8ec",
+    "parents": "afccfb993cd0fa7997a7f910129c76d475c0c3bb",
+    "subject": "The `id` attribute of an `<emu-eqn>` element usually begins with \"eqn-\""
+   },
+   {
+    "adate": "2023-04-22T15:03:01-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-04-22T23:42:26+02:00",
+    "hash": "afccfb993cd0fa7997a7f910129c76d475c0c3bb",
+    "parents": "bc580a3b63c0f188094c687b238ea85ab69d99c7",
+    "subject": "Change \"in\" to \"of\""
+   },
+   {
+    "adate": "2023-04-22T15:00:43-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-04-22T23:42:26+02:00",
+    "hash": "bc580a3b63c0f188094c687b238ea85ab69d99c7",
+    "parents": "b2dd84af3d00be71cf66aa303308deb7c0c33b8d",
+    "subject": "Change _cc_.[[CharSet]] to _cs_"
+   },
+   {
+    "adate": "2023-04-22T14:59:44-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-04-22T23:42:26+02:00",
+    "hash": "b2dd84af3d00be71cf66aa303308deb7c0c33b8d",
+    "parents": "03b0d4f9f125b22946c78b8ff83c2314a760092a",
+    "subject": "Change \"Let\" to \"Set\" as appropriate"
+   },
+   {
+    "adate": "2023-04-22T14:58:06-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-04-22T23:42:26+02:00",
+    "hash": "03b0d4f9f125b22946c78b8ff83c2314a760092a",
+    "parents": "348579dfa4c95beeb59aacf8ad9efea0e38cb47d",
+    "subject": "Declare the [[UnicodeSets]] and [[EitherUnicode]] fields!"
+   },
    {
     "adate": "2023-04-21T23:01:48-04:00",
     "author": "Michael Dyck",
@@ -2233,7 +2289,7 @@
    }
   ],
   "title": "Normative: Add RegExp `v` flag with set notation and properties of strings",
-  "updated_at": "2023-04-22T08:10:06Z"
+  "updated_at": "2023-04-22T21:42:30Z"
  },
  {
   "base": "c4a8bd4075825f9c1c77e7ca1e6f8811c8a41354",
