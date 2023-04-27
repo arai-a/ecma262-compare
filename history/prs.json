@@ -2,11 +2,19 @@
  {
   "base": "ef1524eea725970c809ac1f29dc90fcfd4bb2848",
   "created_at": "2023-04-21T00:14:03Z",
-  "head": "70ebaecd7e6f3a7d0b282d25a6107dc9902b13e5",
+  "head": "ece7f664cd192c426b9a2ebc84a6edc47772688e",
   "login": "syg",
   "number": 3049,
   "ref": "atomics-waitasync",
   "revs": [
+   {
+    "adate": "2023-04-26T16:54:08-07:00",
+    "author": "Shu-yu Guo",
+    "date": "2023-04-26T16:54:08-07:00",
+    "hash": "ece7f664cd192c426b9a2ebc84a6edc47772688e",
+    "parents": "70ebaecd7e6f3a7d0b282d25a6107dc9902b13e5",
+    "subject": "Rework how async waiting works without need for parallel steps"
+   },
    {
     "adate": "2023-04-26T14:30:28-07:00",
     "author": "Shu-yu Guo",
@@ -25,7 +33,7 @@
    }
   ],
   "title": "Normative: Add Atomics.waitAsync",
-  "updated_at": "2023-04-26T21:30:39Z"
+  "updated_at": "2023-04-26T23:55:17Z"
  },
  {
   "base": "a42e2d5f5ea956785a625a87f6c1dd8752bf0f00",
