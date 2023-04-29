@@ -50,11 +50,27 @@
  {
   "base": "ef1524eea725970c809ac1f29dc90fcfd4bb2848",
   "created_at": "2023-04-21T00:14:03Z",
-  "head": "ece7f664cd192c426b9a2ebc84a6edc47772688e",
+  "head": "14a6bd997abdff104505c8c432f1101464536a2c",
   "login": "syg",
   "number": 3049,
   "ref": "atomics-waitasync",
   "revs": [
+   {
+    "adate": "2023-04-28T17:32:18-07:00",
+    "author": "Shu-yu Guo",
+    "date": "2023-04-28T17:32:18-07:00",
+    "hash": "14a6bd997abdff104505c8c432f1101464536a2c",
+    "parents": "8dc7740cec4f433e5dae953b20f49e46e3cb8f48",
+    "subject": "jmdyck review"
+   },
+   {
+    "adate": "2023-04-28T17:27:47-07:00",
+    "author": "Shu-yu Guo",
+    "date": "2023-04-28T17:27:47-07:00",
+    "hash": "8dc7740cec4f433e5dae953b20f49e46e3cb8f48",
+    "parents": "ece7f664cd192c426b9a2ebc84a6edc47772688e",
+    "subject": "Reword agents dfn to remove reference to jobs; limit waiterlists to within current cluster"
+   },
    {
     "adate": "2023-04-26T16:54:08-07:00",
     "author": "Shu-yu Guo",
@@ -81,7 +97,7 @@
    }
   ],
   "title": "Normative: Add Atomics.waitAsync",
-  "updated_at": "2023-04-26T23:55:17Z"
+  "updated_at": "2023-04-29T00:37:16Z"
  },
  {
   "base": "a42e2d5f5ea956785a625a87f6c1dd8752bf0f00",
