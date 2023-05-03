@@ -114,11 +114,19 @@
  {
   "base": "ef1524eea725970c809ac1f29dc90fcfd4bb2848",
   "created_at": "2023-04-21T00:14:03Z",
-  "head": "249de8c8a7a7bad740ad88b76e4338ae271910b2",
+  "head": "4dafe28c09682e4ef11776fa2b89f7c987116893",
   "login": "syg",
   "number": 3049,
   "ref": "atomics-waitasync",
   "revs": [
+   {
+    "adate": "2023-05-03T14:18:14-07:00",
+    "author": "Shu-yu Guo",
+    "date": "2023-05-03T14:18:14-07:00",
+    "hash": "4dafe28c09682e4ef11776fa2b89f7c987116893",
+    "parents": "249de8c8a7a7bad740ad88b76e4338ae271910b2",
+    "subject": "jmdyck review"
+   },
    {
     "adate": "2023-05-03T11:29:28-07:00",
     "author": "Shu-yu Guo",
@@ -185,7 +193,7 @@
    }
   ],
   "title": "Normative: Add Atomics.waitAsync",
-  "updated_at": "2023-05-03T18:29:35Z"
+  "updated_at": "2023-05-03T21:41:32Z"
  },
  {
   "base": "a42e2d5f5ea956785a625a87f6c1dd8752bf0f00",
