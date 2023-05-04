@@ -440,45 +440,9 @@
   "updated_at": "2023-02-20T15:54:40Z"
  },
  {
-  "base": "8aac12603c99f94d982317832b0e03c13684ce0a",
-  "created_at": "2023-02-12T18:30:41Z",
-  "head": "d276153a6624863c3bbd5cb9de7278b042d4f189",
-  "login": "gibson042",
-  "number": 3013,
-  "ref": "2023-02-exponentiation",
-  "revs": [
-   {
-    "adate": "2023-02-12T13:32:00-05:00",
-    "author": "Richard Gibson",
-    "date": "2023-02-12T13:32:00-05:00",
-    "hash": "d276153a6624863c3bbd5cb9de7278b042d4f189",
-    "parents": "7bfaa5332f097b203668453edce13dc75d8e5b99",
-    "subject": "Editorial: Use \"through\" rather than \"-\" to express a range of letters"
-   },
-   {
-    "adate": "2023-02-12T13:17:09-05:00",
-    "author": "Richard Gibson",
-    "date": "2023-02-12T13:17:09-05:00",
-    "hash": "7bfaa5332f097b203668453edce13dc75d8e5b99",
-    "parents": "9416bafe9af932c3637dbd9a3ca3ec9c28a12ed3",
-    "subject": "Editorial: Remove <emu-eqn> from inside \ud835\udd3d(...) etc."
-   },
-   {
-    "adate": "2023-02-12T13:06:07-05:00",
-    "author": "Richard Gibson",
-    "date": "2023-02-12T13:06:07-05:00",
-    "hash": "9416bafe9af932c3637dbd9a3ca3ec9c28a12ed3",
-    "parents": "8aac12603c99f94d982317832b0e03c13684ce0a",
-    "subject": "Editorial: Always separate an exponent and a following operator with a space"
-   }
-  ],
-  "title": "Editorial: Consistently represent expressions that include exponents",
-  "updated_at": "2023-02-12T18:32:17Z"
- },
- {
-  "base": "e356adc0545a1a6409c69e41b9626ad3493f6bc8",
+  "base": "d4927f9bc3706484c75dfef4bbcf5ba826d2632e",
   "created_at": "2023-02-05T07:20:55Z",
-  "head": "59429618a3d37a2d3aced7127f42ea47029a210a",
+  "head": "f9d3b0290e1ea01d64b7aced3849c2ab247a828c",
   "login": "petamoriken",
   "number": 3009,
   "ref": "normative/dont-call-regexp-@@method-on-primitives",
@@ -486,14 +450,14 @@
    {
     "adate": "2023-02-05T15:45:10+09:00",
     "author": "Kenta Moriuchi",
-    "date": "2023-04-05T17:55:42+09:00",
-    "hash": "59429618a3d37a2d3aced7127f42ea47029a210a",
-    "parents": "e356adc0545a1a6409c69e41b9626ad3493f6bc8",
+    "date": "2023-05-04T21:46:36+09:00",
+    "hash": "f9d3b0290e1ea01d64b7aced3849c2ab247a828c",
+    "parents": "d4927f9bc3706484c75dfef4bbcf5ba826d2632e",
     "subject": "Normative: Don't call @@method for `RegExp` on primitive values"
    }
   ],
   "title": "Normative: Don't call @@method for `RegExp` on primitive values",
-  "updated_at": "2023-04-05T08:55:54Z"
+  "updated_at": "2023-05-04T12:46:55Z"
  },
  {
   "base": "f1fbcc563b86f8a198b063fc51a224c5d63cc0dd",
