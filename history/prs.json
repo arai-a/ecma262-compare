@@ -202,11 +202,19 @@
  {
   "base": "928a953f822bd7024ea3b13926d75d3c0b42b352",
   "created_at": "2023-04-21T00:14:03Z",
-  "head": "74bf9fdaa4d583f974e9b417659c81699c1ed919",
+  "head": "ab564a74a7eca36a0a384ac42c6d9aeef308e5ea",
   "login": "syg",
   "number": 3049,
   "ref": "atomics-waitasync",
   "revs": [
+   {
+    "adate": "2023-05-10T15:34:34-07:00",
+    "author": "Shu-yu Guo",
+    "date": "2023-05-10T15:34:34-07:00",
+    "hash": "ab564a74a7eca36a0a384ac42c6d9aeef308e5ea",
+    "parents": "74bf9fdaa4d583f974e9b417659c81699c1ed919",
+    "subject": "Add language clarifying HostEnqueueFooJob hooks are organized by constraints"
+   },
    {
     "adate": "2023-05-10T14:11:21-07:00",
     "author": "Shu-yu Guo",
@@ -249,7 +257,7 @@
    }
   ],
   "title": "Normative: Add Atomics.waitAsync",
-  "updated_at": "2023-05-10T21:15:41Z"
+  "updated_at": "2023-05-10T22:34:57Z"
  },
  {
   "base": "a42e2d5f5ea956785a625a87f6c1dd8752bf0f00",
