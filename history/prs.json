@@ -2,11 +2,19 @@
  {
   "base": "f682cffb67eba0a1d096fd70df56500732547283",
   "created_at": "2023-05-11T21:46:56Z",
-  "head": "3c19585c3649be942c3d5e44a59e59a433be51f2",
+  "head": "a764de8e3ed216015dcad747d8024ce95dd12f11",
   "login": "dewren99",
   "number": 3066,
   "ref": "editorial#2634",
   "revs": [
+   {
+    "adate": "2023-05-15T09:15:29-07:00",
+    "author": "Deniz Eren Evrendilek",
+    "date": "2023-05-15T09:15:29-07:00",
+    "hash": "a764de8e3ed216015dcad747d8024ce95dd12f11",
+    "parents": "3c19585c3649be942c3d5e44a59e59a433be51f2",
+    "subject": "Editorial: Add early exits to padStart and padEnd"
+   },
    {
     "adate": "2023-05-12T13:24:45-07:00",
     "author": "Deniz Evrendilek",
@@ -25,7 +33,7 @@
    }
   ],
   "title": "Editorial: take ToString and ToLength out of StringPad and make it infallible",
-  "updated_at": "2023-05-12T20:31:43Z"
+  "updated_at": "2023-05-15T16:21:31Z"
  },
  {
   "base": "f682cffb67eba0a1d096fd70df56500732547283",
