@@ -1,25 +1,5 @@
 [
  {
-  "base": "d95f42d59115def0b4339a6202e704cb7635b1d2",
-  "created_at": "2023-05-17T10:58:47Z",
-  "head": "f9098af9edc108e08f39da5f5831a7b226000030",
-  "login": "johann1301s",
-  "number": 3068,
-  "ref": "add-tau-to-math",
-  "revs": [
-   {
-    "adate": "2023-05-17T12:58:13+02:00",
-    "author": "Johannes Skuterud",
-    "date": "2023-05-17T12:58:13+02:00",
-    "hash": "f9098af9edc108e08f39da5f5831a7b226000030",
-    "parents": "d95f42d59115def0b4339a6202e704cb7635b1d2",
-    "subject": "Add tau to math"
-   }
-  ],
-  "title": "Add TAU to Math",
-  "updated_at": "2023-05-17T11:11:24Z"
- },
- {
   "base": "f682cffb67eba0a1d096fd70df56500732547283",
   "created_at": "2023-05-11T21:46:56Z",
   "head": "a764de8e3ed216015dcad747d8024ce95dd12f11",
@@ -440,32 +420,40 @@
   "updated_at": "2023-04-17T01:47:51Z"
  },
  {
-  "base": "f682cffb67eba0a1d096fd70df56500732547283",
+  "base": "d95f42d59115def0b4339a6202e704cb7635b1d2",
   "created_at": "2023-04-01T00:35:25Z",
-  "head": "37953fc67384b46015bb0d5a78e887374ca5169d",
+  "head": "856689579219ba12ee89b69bd037ec25f7b1a927",
   "login": "justingrant",
   "number": 3035,
   "ref": "refactor-tz-identifier-aos",
   "revs": [
    {
+    "adate": "2023-05-17T22:36:55-07:00",
+    "author": "Justin Grant",
+    "date": "2023-05-17T22:54:38-07:00",
+    "hash": "856689579219ba12ee89b69bd037ec25f7b1a927",
+    "parents": "598629aedf321fcf2a205e2f663b57be89c36aab",
+    "subject": "Add \"named\" to available time zone text"
+   },
+   {
     "adate": "2023-05-10T23:04:42-07:00",
     "author": "Justin Grant",
-    "date": "2023-05-10T23:09:22-07:00",
-    "hash": "37953fc67384b46015bb0d5a78e887374ca5169d",
-    "parents": "864b4e4c727cf73db9b9f29d6ab1d164a5451d07",
+    "date": "2023-05-17T22:54:38-07:00",
+    "hash": "598629aedf321fcf2a205e2f663b57be89c36aab",
+    "parents": "8f36268ef8fa59a0a57938b24738d2ffa945c82e",
     "subject": "Changes from @jmdyck review"
    },
    {
     "adate": "2023-05-10T14:18:16-07:00",
     "author": "Justin Grant",
-    "date": "2023-05-10T23:09:22-07:00",
-    "hash": "864b4e4c727cf73db9b9f29d6ab1d164a5451d07",
-    "parents": "f682cffb67eba0a1d096fd70df56500732547283",
+    "date": "2023-05-17T22:53:27-07:00",
+    "hash": "8f36268ef8fa59a0a57938b24738d2ffa945c82e",
+    "parents": "d95f42d59115def0b4339a6202e704cb7635b1d2",
     "subject": "Editorial: refactor time zone identifier spec text"
    }
   ],
   "title": "Editorial: simplify and clarify time zone identifier spec text",
-  "updated_at": "2023-05-11T06:09:33Z"
+  "updated_at": "2023-05-18T06:16:05Z"
  },
  {
   "base": "8d3d3cfbbe03cb041e8468bcc13d9b292d801e77",
