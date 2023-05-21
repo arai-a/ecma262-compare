@@ -1,5 +1,25 @@
 [
  {
+  "base": "25f974416faad6b307defba8b31bf72784c9c545",
+  "created_at": "2023-05-21T04:10:36Z",
+  "head": "66365b87ad6a1beba18fd103d85ff0a499f4c494",
+  "login": "jhnaldo",
+  "number": 3069,
+  "ref": "update-esmeta",
+  "revs": [
+   {
+    "adate": "2023-05-21T12:57:46+09:00",
+    "author": "Jihyeok Park",
+    "date": "2023-05-21T12:57:46+09:00",
+    "hash": "66365b87ad6a1beba18fd103d85ff0a499f4c494",
+    "parents": "25f974416faad6b307defba8b31bf72784c9c545",
+    "subject": "Meta: upgrade esmeta to v0.3.0"
+   }
+  ],
+  "title": "Meta: upgrade ESMeta to v0.3.0",
+  "updated_at": "2023-05-21T04:10:36Z"
+ },
+ {
   "base": "f682cffb67eba0a1d096fd70df56500732547283",
   "created_at": "2023-05-11T21:46:56Z",
   "head": "a764de8e3ed216015dcad747d8024ce95dd12f11",
@@ -112,26 +132,6 @@
   "updated_at": "2023-05-11T18:45:28Z"
  },
  {
-  "base": "d95f42d59115def0b4339a6202e704cb7635b1d2",
-  "created_at": "2023-05-08T21:19:55Z",
-  "head": "11530039358c1d1e5acd94194ed5657ca3201b4f",
-  "login": "syg",
-  "number": 3058,
-  "ref": "realm-agent-connection",
-  "revs": [
-   {
-    "adate": "2023-05-19T13:19:24-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2023-05-19T13:19:24-07:00",
-    "hash": "11530039358c1d1e5acd94194ed5657ca3201b4f",
-    "parents": "d95f42d59115def0b4339a6202e704cb7635b1d2",
-    "subject": "Editorial: add [[AgentSignifier]] to Realm Record (#3058)"
-   }
-  ],
-  "title": "Editorial: add [[AgentSignifier]] to Realm Record",
-  "updated_at": "2023-05-19T20:20:21Z"
- },
- {
   "base": "d4927f9bc3706484c75dfef4bbcf5ba826d2632e",
   "created_at": "2023-05-08T11:54:31Z",
   "head": "43b46ec31fe3ade26ab7075aebd56e6dd9bbec96",
@@ -230,26 +230,6 @@
   ],
   "title": "Editorial: Consistify `\"length\"` property 'declarations'",
   "updated_at": "2023-04-30T01:43:05Z"
- },
- {
-  "base": "ef1524eea725970c809ac1f29dc90fcfd4bb2848",
-  "created_at": "2023-04-28T18:17:40Z",
-  "head": "d5fa8a4589f28779c80656c67b917d87fd790563",
-  "login": "dewren99",
-  "number": 3052,
-  "ref": "normative#1032",
-  "revs": [
-   {
-    "adate": "2023-04-30T00:02:36-07:00",
-    "author": "Deniz Eren Evrendilek",
-    "date": "2023-04-30T00:02:36-07:00",
-    "hash": "d5fa8a4589f28779c80656c67b917d87fd790563",
-    "parents": "ef1524eea725970c809ac1f29dc90fcfd4bb2848",
-    "subject": "Normative: Disallow ArrayBuffers bigger than 2**53"
-   }
-  ],
-  "title": "Normative: Disallow ArrayBuffers bigger than 2**53",
-  "updated_at": "2023-04-30T07:05:50Z"
  },
  {
   "base": "928a953f822bd7024ea3b13926d75d3c0b42b352",
