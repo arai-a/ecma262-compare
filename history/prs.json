@@ -28,26 +28,6 @@
   "updated_at": "2023-05-24T16:13:08Z"
  },
  {
-  "base": "25f974416faad6b307defba8b31bf72784c9c545",
-  "created_at": "2023-05-21T04:10:36Z",
-  "head": "66365b87ad6a1beba18fd103d85ff0a499f4c494",
-  "login": "jhnaldo",
-  "number": 3069,
-  "ref": "update-esmeta",
-  "revs": [
-   {
-    "adate": "2023-05-21T12:57:46+09:00",
-    "author": "Jihyeok Park",
-    "date": "2023-05-21T12:57:46+09:00",
-    "hash": "66365b87ad6a1beba18fd103d85ff0a499f4c494",
-    "parents": "25f974416faad6b307defba8b31bf72784c9c545",
-    "subject": "Meta: upgrade esmeta to v0.3.0"
-   }
-  ],
-  "title": "Meta: upgrade ESMeta to v0.3.0",
-  "updated_at": "2023-05-21T04:10:36Z"
- },
- {
   "base": "f682cffb67eba0a1d096fd70df56500732547283",
   "created_at": "2023-05-11T21:46:56Z",
   "head": "a764de8e3ed216015dcad747d8024ce95dd12f11",
@@ -82,26 +62,6 @@
   ],
   "title": "Editorial: take ToString and ToLength out of StringPad and make it infallible",
   "updated_at": "2023-05-15T16:21:31Z"
- },
- {
-  "base": "f682cffb67eba0a1d096fd70df56500732547283",
-  "created_at": "2023-05-11T20:35:01Z",
-  "head": "1eadd2290f0e8193feee7d6b05ba38abeb6630a7",
-  "login": "tc39",
-  "number": 3065,
-  "ref": "use-an-interval-for-array-index",
-  "revs": [
-   {
-    "adate": "2023-05-11T14:30:03-06:00",
-    "author": "Michael Ficarra",
-    "date": "2023-05-11T14:30:03-06:00",
-    "hash": "1eadd2290f0e8193feee7d6b05ba38abeb6630a7",
-    "parents": "f682cffb67eba0a1d096fd70df56500732547283",
-    "subject": "Editorial: use interval notation to define integer/array index"
-   }
-  ],
-  "title": "Editorial: use interval notation to define integer/array index",
-  "updated_at": "2023-05-11T20:55:41Z"
  },
  {
   "base": "f682cffb67eba0a1d096fd70df56500732547283",
@@ -428,24 +388,32 @@
   "updated_at": "2023-04-17T01:47:51Z"
  },
  {
-  "base": "25f974416faad6b307defba8b31bf72784c9c545",
+  "base": "055116da1aff2a578d9e61769aa64d30ca1415b8",
   "created_at": "2023-04-01T00:35:25Z",
-  "head": "d135f47cc2d4d8b09ba3d3f226dcb675dde4eba1",
+  "head": "f0c5d50dcc88bcd2650bd305c9cc3db3b2b77f5b",
   "login": "justingrant",
   "number": 3035,
   "ref": "refactor-tz-identifier-aos",
   "revs": [
    {
+    "adate": "2023-05-24T18:46:17-07:00",
+    "author": "Justin Grant",
+    "date": "2023-05-24T18:53:22-07:00",
+    "hash": "f0c5d50dcc88bcd2650bd305c9cc3db3b2b77f5b",
+    "parents": "b955b4f5c9b50a888de0962d4b9da80dd8dea60a",
+    "subject": "Address @syg and @michaelficarra feedback"
+   },
+   {
     "adate": "2023-05-24T00:29:20-07:00",
     "author": "Justin Grant",
-    "date": "2023-05-24T00:29:55-07:00",
-    "hash": "d135f47cc2d4d8b09ba3d3f226dcb675dde4eba1",
-    "parents": "25f974416faad6b307defba8b31bf72784c9c545",
+    "date": "2023-05-24T18:53:18-07:00",
+    "hash": "b955b4f5c9b50a888de0962d4b9da80dd8dea60a",
+    "parents": "055116da1aff2a578d9e61769aa64d30ca1415b8",
     "subject": "Editorial: refactor time zone identifier spec text"
    }
   ],
   "title": "Editorial: simplify and clarify time zone identifier spec text",
-  "updated_at": "2023-05-24T07:32:21Z"
+  "updated_at": "2023-05-25T01:58:17Z"
  },
  {
   "base": "8d3d3cfbbe03cb041e8468bcc13d9b292d801e77",
