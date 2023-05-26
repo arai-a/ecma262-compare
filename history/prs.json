@@ -2,11 +2,19 @@
  {
   "base": "86614b788804fa4d6f8a803639b04ca8730e9a03",
   "created_at": "2023-05-25T23:20:02Z",
-  "head": "70a15eecddf0530a86c0c2ebac421f8a93d40c80",
+  "head": "fbdd3c16cfd556f70d1d44a270788fe88c9c1a9f",
   "login": "tc39",
   "number": 3075,
   "ref": "better-iterator-close",
   "revs": [
+   {
+    "adate": "2023-05-25T16:43:17-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2023-05-25T16:43:17-07:00",
+    "hash": "fbdd3c16cfd556f70d1d44a270788fe88c9c1a9f",
+    "parents": "70a15eecddf0530a86c0c2ebac421f8a93d40c80",
+    "subject": "npm run format"
+   },
    {
     "adate": "2023-05-25T16:15:23-07:00",
     "author": "Kevin Gibbons",
@@ -33,7 +41,7 @@
    }
   ],
   "title": "Better iterator close",
-  "updated_at": "2023-05-25T23:20:02Z"
+  "updated_at": "2023-05-25T23:43:21Z"
  },
  {
   "base": "055116da1aff2a578d9e61769aa64d30ca1415b8",
@@ -3308,9 +3316,9 @@
   "updated_at": "2020-03-27T07:01:25Z"
  },
  {
-  "base": "f682cffb67eba0a1d096fd70df56500732547283",
+  "base": "86614b788804fa4d6f8a803639b04ca8730e9a03",
   "created_at": "2019-07-13T02:30:44Z",
-  "head": "ecd795835b5959401d78d5b907d5e81f4ead77d3",
+  "head": "8f8b486d1725b6ed9927d7987c41bebb5de09a7c",
   "login": "jmdyck",
   "number": 1623,
   "ref": "index_strings",
@@ -3318,38 +3326,38 @@
    {
     "adate": "2019-07-12T11:59:54-04:00",
     "author": "Michael Dyck",
-    "date": "2023-05-11T13:54:52-04:00",
-    "hash": "ecd795835b5959401d78d5b907d5e81f4ead77d3",
-    "parents": "4070f4ffa872213868e6ac7478392e621c92269f",
+    "date": "2023-05-25T20:06:07-04:00",
+    "hash": "8f8b486d1725b6ed9927d7987c41bebb5de09a7c",
+    "parents": "3f79ac0bb51a53cea19782a64f08d59b7dc3790c",
     "subject": "Editorial: some minor rewordings"
    },
    {
     "adate": "2019-07-12T11:12:43-04:00",
     "author": "Michael Dyck",
-    "date": "2023-05-11T13:54:52-04:00",
-    "hash": "4070f4ffa872213868e6ac7478392e621c92269f",
-    "parents": "8f5c9b677bb682c155f65623cc1be38e02810701",
+    "date": "2023-05-25T20:06:02-04:00",
+    "hash": "3f79ac0bb51a53cea19782a64f08d59b7dc3790c",
+    "parents": "be00eced33092f10cdf7f31a0d64280b4c159647",
     "subject": "Editorial: Replace \"array index\" with \"Uint32-string\""
    },
    {
     "adate": "2019-07-12T10:23:31-04:00",
     "author": "Michael Dyck",
-    "date": "2023-05-11T13:54:52-04:00",
-    "hash": "8f5c9b677bb682c155f65623cc1be38e02810701",
-    "parents": "139d40eac4da1dbd802074b647525d580ecbe44f",
+    "date": "2023-05-25T20:00:21-04:00",
+    "hash": "be00eced33092f10cdf7f31a0d64280b4c159647",
+    "parents": "5cf610d00fb9c4ee07ea6ff0fe0cb568f24bb325",
     "subject": "Editorial: Replace \"integer index\" with \"Uint53-string\""
    },
    {
     "adate": "2019-07-12T21:58:00-04:00",
     "author": "Michael Dyck",
-    "date": "2023-05-11T13:54:52-04:00",
-    "hash": "139d40eac4da1dbd802074b647525d580ecbe44f",
-    "parents": "f682cffb67eba0a1d096fd70df56500732547283",
+    "date": "2023-05-25T19:52:53-04:00",
+    "hash": "5cf610d00fb9c4ee07ea6ff0fe0cb568f24bb325",
+    "parents": "86614b788804fa4d6f8a803639b04ca8730e9a03",
     "subject": "Editorial: Fix wording in Note for Arguments exotic objects"
    }
   ],
   "title": "Editorial: Replace terms \"integer index\" and \"array index\"",
-  "updated_at": "2023-05-11T18:30:04Z"
+  "updated_at": "2023-05-26T00:32:17Z"
  },
  {
   "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
