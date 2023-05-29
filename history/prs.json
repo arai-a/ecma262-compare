@@ -1,6 +1,26 @@
 [
  {
   "base": "86614b788804fa4d6f8a803639b04ca8730e9a03",
+  "created_at": "2023-05-29T22:28:41Z",
+  "head": "6b33f5ccb24ec6c5113fa0915af822a703c5ef3f",
+  "login": "gibson042",
+  "number": 3081,
+  "ref": "2023-05-snapshotownproperties",
+  "revs": [
+   {
+    "adate": "2023-05-29T18:24:38-04:00",
+    "author": "Richard Gibson",
+    "date": "2023-05-29T18:24:38-04:00",
+    "hash": "6b33f5ccb24ec6c5113fa0915af822a703c5ef3f",
+    "parents": "86614b788804fa4d6f8a803639b04ca8730e9a03",
+    "subject": "Editorial: Simplify object snapshotting"
+   }
+  ],
+  "title": "Editorial: Simplify object snapshotting",
+  "updated_at": "2023-05-29T22:28:41Z"
+ },
+ {
+  "base": "86614b788804fa4d6f8a803639b04ca8730e9a03",
   "created_at": "2023-05-27T15:43:01Z",
   "head": "bbc030224a2580f771759c24bc459e4adc25bb8c",
   "login": "gibson042",
