@@ -1,5 +1,41 @@
 [
  {
+  "base": "2bccc07ffa592b25ddd6f8283a17a3d0db896933",
+  "created_at": "2023-05-30T22:30:24Z",
+  "head": "0888c96f37faec5259989c10ca9b0f0f838cac28",
+  "login": "gibson042",
+  "number": 3083,
+  "ref": "2023-05-cleanup-touint8clamp",
+  "revs": [
+   {
+    "adate": "2023-05-30T18:20:30-04:00",
+    "author": "Richard Gibson",
+    "date": "2023-05-30T18:20:30-04:00",
+    "hash": "0888c96f37faec5259989c10ca9b0f0f838cac28",
+    "parents": "e8b8bd053975b7b81d5fcd4cf43d9d242e824bc0",
+    "subject": "Editorial: Refactor ToUint8Clamp rounding steps to check against the lower value first"
+   },
+   {
+    "adate": "2023-05-30T17:52:38-04:00",
+    "author": "Richard Gibson",
+    "date": "2023-05-30T18:14:58-04:00",
+    "hash": "e8b8bd053975b7b81d5fcd4cf43d9d242e824bc0",
+    "parents": "5cc2023a23e6835c5fee8d6e868dffc31dcc9817",
+    "subject": "Editorial: Improve ToUint8Clamp explanatory text"
+   },
+   {
+    "adate": "2023-05-30T17:51:54-04:00",
+    "author": "Richard Gibson",
+    "date": "2023-05-30T17:51:54-04:00",
+    "hash": "5cc2023a23e6835c5fee8d6e868dffc31dcc9817",
+    "parents": "2bccc07ffa592b25ddd6f8283a17a3d0db896933",
+    "subject": "Editorial: Correct misuse of \u211d in ToUint8Clamp"
+   }
+  ],
+  "title": "Editorial: Cleanup ToUint8Clamp",
+  "updated_at": "2023-05-30T22:30:24Z"
+ },
+ {
   "base": "86614b788804fa4d6f8a803639b04ca8730e9a03",
   "created_at": "2023-05-29T22:28:41Z",
   "head": "6b33f5ccb24ec6c5113fa0915af822a703c5ef3f",
