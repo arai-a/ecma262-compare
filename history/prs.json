@@ -1,12 +1,20 @@
 [
  {
-  "base": "2bccc07ffa592b25ddd6f8283a17a3d0db896933",
+  "base": "cd1a6c55366b2b612191ec8f6771a3aed2f0519d",
   "created_at": "2023-05-31T20:51:18Z",
-  "head": "fb14029930f4b552a574c9b5a2d8acd5ac5b011b",
+  "head": "6a435e17eba6cdeb4c2b69c9145f8a63a9d112bb",
   "login": "dewren99",
   "number": 3085,
   "ref": "Editorial-#2395",
   "revs": [
+   {
+    "adate": "2023-05-31T14:52:36-07:00",
+    "author": "Deniz Evrendilek",
+    "date": "2023-05-31T14:52:36-07:00",
+    "hash": "6a435e17eba6cdeb4c2b69c9145f8a63a9d112bb",
+    "parents": "fb14029930f4b552a574c9b5a2d8acd5ac5b011b",
+    "subject": "Editorial: correction for -\u221e guard"
+   },
    {
     "adate": "2023-05-31T13:50:21-07:00",
     "author": "Deniz Evrendilek",
@@ -17,7 +25,7 @@
    }
   ],
   "title": "Editorial: ToUint8Clamp guard against infinity doubles",
-  "updated_at": "2023-05-31T20:51:18Z"
+  "updated_at": "2023-05-31T22:11:23Z"
  },
  {
   "base": "2bccc07ffa592b25ddd6f8283a17a3d0db896933",
@@ -110,54 +118,6 @@
   ],
   "title": "Editorial: Simplify ToIndex",
   "updated_at": "2023-05-30T21:02:02Z"
- },
- {
-  "base": "86614b788804fa4d6f8a803639b04ca8730e9a03",
-  "created_at": "2023-05-27T13:56:29Z",
-  "head": "c58b9d5c459344cb661e1056ed92bbe7ed81d6a6",
-  "login": "jhnaldo",
-  "number": 3078,
-  "ref": "update-esmeta",
-  "revs": [
-   {
-    "adate": "2023-05-27T22:47:54+09:00",
-    "author": "Jihyeok Park",
-    "date": "2023-05-27T22:54:31+09:00",
-    "hash": "c58b9d5c459344cb661e1056ed92bbe7ed81d6a6",
-    "parents": "86614b788804fa4d6f8a803639b04ca8730e9a03",
-    "subject": "Meta: Upgrade ESMeta to v0.3.1"
-   }
-  ],
-  "title": "Meta: Upgrade ESMeta to v0.3.1",
-  "updated_at": "2023-05-27T13:56:29Z"
- },
- {
-  "base": "86614b788804fa4d6f8a803639b04ca8730e9a03",
-  "created_at": "2023-05-27T03:23:31Z",
-  "head": "b40220d4bea71c016e3055b6b6de2f201be6aa3d",
-  "login": "gibson042",
-  "number": 3077,
-  "ref": "2023-05-dfn-object-type",
-  "revs": [
-   {
-    "adate": "2023-05-30T14:25:27-04:00",
-    "author": "Richard Gibson",
-    "date": "2023-05-30T14:25:27-04:00",
-    "hash": "b40220d4bea71c016e3055b6b6de2f201be6aa3d",
-    "parents": "4dab4b8397111068663bc93c1644882917c4bdbc",
-    "subject": "Editorial: Accept phrasing suggestion"
-   },
-   {
-    "adate": "2023-05-26T23:19:53-04:00",
-    "author": "Richard Gibson",
-    "date": "2023-05-26T23:19:53-04:00",
-    "hash": "4dab4b8397111068663bc93c1644882917c4bdbc",
-    "parents": "86614b788804fa4d6f8a803639b04ca8730e9a03",
-    "subject": "Editorial: Move \"is (not) an Object\" dfn out of header text"
-   }
-  ],
-  "title": "Editorial: Move \"is (not) an Object\" dfn out of header text",
-  "updated_at": "2023-05-30T18:25:35Z"
  },
  {
   "base": "86614b788804fa4d6f8a803639b04ca8730e9a03",
@@ -360,9 +320,9 @@
   "updated_at": "2023-05-11T18:45:28Z"
  },
  {
-  "base": "055116da1aff2a578d9e61769aa64d30ca1415b8",
+  "base": "cd1a6c55366b2b612191ec8f6771a3aed2f0519d",
   "created_at": "2023-05-08T11:54:31Z",
-  "head": "891ceab25a14c38e6ffc9c78c6e3443c40c002a9",
+  "head": "2521cf53ed99c2b1a112a81abd4b05cb5d3fa5b7",
   "login": "nicolo-ribaudo",
   "number": 3057,
   "ref": "import-attributes",
@@ -370,30 +330,30 @@
    {
     "adate": "2023-05-18T14:46:49+03:00",
     "author": "Nicol\u00f2 Ribaudo",
-    "date": "2023-05-25T16:04:35+02:00",
-    "hash": "891ceab25a14c38e6ffc9c78c6e3443c40c002a9",
-    "parents": "64474186f04c64498f916ce73a6f6834c2b893f6",
+    "date": "2023-05-18T14:46:49+03:00",
+    "hash": "2521cf53ed99c2b1a112a81abd4b05cb5d3fa5b7",
+    "parents": "1ac2bb4aec408fcfedc46616976ad23e2b2ec232",
     "subject": "Updates from review"
    },
    {
     "adate": "2023-05-08T13:58:46+02:00",
     "author": "Nicol\u00f2 Ribaudo",
-    "date": "2023-05-25T16:04:35+02:00",
-    "hash": "64474186f04c64498f916ce73a6f6834c2b893f6",
-    "parents": "8bddf77731454aadcb624d558bbbd8444984d975",
+    "date": "2023-05-08T13:58:46+02:00",
+    "hash": "1ac2bb4aec408fcfedc46616976ad23e2b2ec232",
+    "parents": "6310cf987810753399544ffa3050a9c859f0f007",
     "subject": "`npm run format`"
    },
    {
     "adate": "2023-05-08T13:49:44+02:00",
     "author": "Nicol\u00f2 Ribaudo",
-    "date": "2023-05-25T16:04:34+02:00",
-    "hash": "8bddf77731454aadcb624d558bbbd8444984d975",
-    "parents": "055116da1aff2a578d9e61769aa64d30ca1415b8",
+    "date": "2023-05-08T13:49:44+02:00",
+    "hash": "6310cf987810753399544ffa3050a9c859f0f007",
+    "parents": "cd1a6c55366b2b612191ec8f6771a3aed2f0519d",
     "subject": "Add Import Attributes proposal"
    }
   ],
   "title": "Normative: Add Import Attributes",
-  "updated_at": "2023-05-25T14:04:47Z"
+  "updated_at": "2023-05-31T21:41:00Z"
  },
  {
   "base": "ef1524eea725970c809ac1f29dc90fcfd4bb2848",
@@ -590,42 +550,6 @@
   ],
   "title": "Editorial: Simplify EnumerableOwnProperties",
   "updated_at": "2023-04-17T01:47:57Z"
- },
- {
-  "base": "a42e2d5f5ea956785a625a87f6c1dd8752bf0f00",
-  "created_at": "2023-04-17T01:47:51Z",
-  "head": "db12fe80ae04cabc1ad51fd12c3b9d2e2f5930a0",
-  "login": "gibson042",
-  "number": 3044,
-  "ref": "2023-04-simplify-createarrayiterator",
-  "revs": [
-   {
-    "adate": "2023-04-14T10:28:59-04:00",
-    "author": "Richard Gibson",
-    "date": "2023-04-14T10:28:59-04:00",
-    "hash": "db12fe80ae04cabc1ad51fd12c3b9d2e2f5930a0",
-    "parents": "4b8af9fbb5390d5a64ec328e55f3105108e21192",
-    "subject": "Editorial: Introduce a new alias to simplify CreateArrayIterator"
-   },
-   {
-    "adate": "2023-04-14T10:25:16-04:00",
-    "author": "Richard Gibson",
-    "date": "2023-04-14T10:25:22-04:00",
-    "hash": "4b8af9fbb5390d5a64ec328e55f3105108e21192",
-    "parents": "4a04fc69bc6948dce682ff82050936dfeda1d335",
-    "subject": "Editorial: Combine GeneratorYield steps in CreateArrayIterator"
-   },
-   {
-    "adate": "2023-04-14T10:21:28-04:00",
-    "author": "Richard Gibson",
-    "date": "2023-04-14T10:21:28-04:00",
-    "hash": "4a04fc69bc6948dce682ff82050936dfeda1d335",
-    "parents": "a42e2d5f5ea956785a625a87f6c1dd8752bf0f00",
-    "subject": "Editorial: Avoid preceding a multi-step Else with a collapsed single-step If"
-   }
-  ],
-  "title": "Editorial: Simplify CreateArrayIterator",
-  "updated_at": "2023-04-17T01:47:51Z"
  },
  {
   "base": "2bccc07ffa592b25ddd6f8283a17a3d0db896933",
