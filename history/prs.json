@@ -1,39 +1,51 @@
 [
  {
-  "base": "2bccc07ffa592b25ddd6f8283a17a3d0db896933",
+  "base": "2a92ed0b9ba80568828dd47800334cbfab029fa2",
+  "created_at": "2023-06-01T15:25:07Z",
+  "head": "9e4074f4dd00b30e9b0a3f8f2d7d995e48eb60c2",
+  "login": "tc39",
+  "number": 3086,
+  "ref": "fix-cap",
+  "revs": [
+   {
+    "adate": "2023-06-01T08:24:12-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2023-06-01T08:24:12-07:00",
+    "hash": "9e4074f4dd00b30e9b0a3f8f2d7d995e48eb60c2",
+    "parents": "2a92ed0b9ba80568828dd47800334cbfab029fa2",
+    "subject": "Editorial: fix capitalization of \"Object type\""
+   }
+  ],
+  "title": "Editorial: fix capitalization of \"Object type\"",
+  "updated_at": "2023-06-01T16:04:10Z"
+ },
+ {
+  "base": "2a92ed0b9ba80568828dd47800334cbfab029fa2",
   "created_at": "2023-05-30T22:30:24Z",
-  "head": "0888c96f37faec5259989c10ca9b0f0f838cac28",
+  "head": "f0763c0536b47ad449ab01f89ac1f14123330e7b",
   "login": "gibson042",
   "number": 3083,
   "ref": "2023-05-cleanup-touint8clamp",
   "revs": [
    {
-    "adate": "2023-05-30T18:20:30-04:00",
+    "adate": "2023-05-30T17:51:54-04:00",
     "author": "Richard Gibson",
-    "date": "2023-05-30T18:20:30-04:00",
-    "hash": "0888c96f37faec5259989c10ca9b0f0f838cac28",
-    "parents": "e8b8bd053975b7b81d5fcd4cf43d9d242e824bc0",
-    "subject": "Editorial: Refactor ToUint8Clamp rounding steps to check against the lower value first"
+    "date": "2023-06-01T11:40:41-04:00",
+    "hash": "f0763c0536b47ad449ab01f89ac1f14123330e7b",
+    "parents": "7183b6a308d902c17f0692baef22511ca3387c75",
+    "subject": "Editorial: Refactor ToUint8Clamp for brevity and internal consistency"
    },
    {
     "adate": "2023-05-30T17:52:38-04:00",
     "author": "Richard Gibson",
-    "date": "2023-05-30T18:14:58-04:00",
-    "hash": "e8b8bd053975b7b81d5fcd4cf43d9d242e824bc0",
-    "parents": "5cc2023a23e6835c5fee8d6e868dffc31dcc9817",
+    "date": "2023-06-01T11:38:09-04:00",
+    "hash": "7183b6a308d902c17f0692baef22511ca3387c75",
+    "parents": "2a92ed0b9ba80568828dd47800334cbfab029fa2",
     "subject": "Editorial: Improve ToUint8Clamp explanatory text"
-   },
-   {
-    "adate": "2023-05-30T17:51:54-04:00",
-    "author": "Richard Gibson",
-    "date": "2023-05-30T17:51:54-04:00",
-    "hash": "5cc2023a23e6835c5fee8d6e868dffc31dcc9817",
-    "parents": "2bccc07ffa592b25ddd6f8283a17a3d0db896933",
-    "subject": "Editorial: Correct misuse of \u211d in ToUint8Clamp"
    }
   ],
   "title": "Editorial: Cleanup ToUint8Clamp",
-  "updated_at": "2023-05-30T22:30:24Z"
+  "updated_at": "2023-06-01T15:41:44Z"
  },
  {
   "base": "86614b788804fa4d6f8a803639b04ca8730e9a03",
@@ -58,11 +70,19 @@
  {
   "base": "86614b788804fa4d6f8a803639b04ca8730e9a03",
   "created_at": "2023-05-27T15:43:01Z",
-  "head": "3bc3c3faa69b4bd497a44a9ef6752eb955932cff",
+  "head": "1f3e1d12f938aab0ca67a889b0fe3d346e7602b7",
   "login": "gibson042",
   "number": 3079,
   "ref": "2023-05-simplify-toindex",
   "revs": [
+   {
+    "adate": "2023-06-01T11:32:26-04:00",
+    "author": "Richard Gibson",
+    "date": "2023-06-01T11:32:26-04:00",
+    "hash": "1f3e1d12f938aab0ca67a889b0fe3d346e7602b7",
+    "parents": "3bc3c3faa69b4bd497a44a9ef6752eb955932cff",
+    "subject": "Editorial: Reorder ToIndex steps to align with convention"
+   },
    {
     "adate": "2023-05-30T17:01:17-04:00",
     "author": "Richard Gibson",
@@ -89,7 +109,7 @@
    }
   ],
   "title": "Editorial: Simplify ToIndex",
-  "updated_at": "2023-05-30T21:02:02Z"
+  "updated_at": "2023-06-01T15:32:38Z"
  },
  {
   "base": "86614b788804fa4d6f8a803639b04ca8730e9a03",
