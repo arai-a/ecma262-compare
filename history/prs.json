@@ -22,11 +22,19 @@
  {
   "base": "2a92ed0b9ba80568828dd47800334cbfab029fa2",
   "created_at": "2023-05-30T22:30:24Z",
-  "head": "f0763c0536b47ad449ab01f89ac1f14123330e7b",
+  "head": "c6ed8f20f3cb3293f0e7685b909a6a255b82132a",
   "login": "gibson042",
   "number": 3083,
   "ref": "2023-05-cleanup-touint8clamp",
   "revs": [
+   {
+    "adate": "2023-06-01T18:54:31-04:00",
+    "author": "Richard Gibson",
+    "date": "2023-06-01T18:54:31-04:00",
+    "hash": "c6ed8f20f3cb3293f0e7685b909a6a255b82132a",
+    "parents": "f0763c0536b47ad449ab01f89ac1f14123330e7b",
+    "subject": "Editorial: Refactor ToUint8Clamp to use the clamp shorthand"
+   },
    {
     "adate": "2023-05-30T17:51:54-04:00",
     "author": "Richard Gibson",
@@ -45,7 +53,7 @@
    }
   ],
   "title": "Editorial: Cleanup ToUint8Clamp",
-  "updated_at": "2023-06-01T15:41:44Z"
+  "updated_at": "2023-06-01T23:12:51Z"
  },
  {
   "base": "86614b788804fa4d6f8a803639b04ca8730e9a03",
