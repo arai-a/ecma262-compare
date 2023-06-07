@@ -694,22 +694,30 @@
  {
   "base": "902c08f56b7e39eb45d71e4fe67114e1a21da4bd",
   "created_at": "2023-04-01T00:35:25Z",
-  "head": "c4742537b30e8029abe379ddec845729479415d7",
+  "head": "6f361077c11e2c8bd2653fcb7c0ece85c164a598",
   "login": "justingrant",
   "number": 3035,
   "ref": "refactor-tz-identifier-aos",
   "revs": [
    {
+    "adate": "2023-06-07T00:58:27-07:00",
+    "author": "Justin Grant",
+    "date": "2023-06-07T01:00:12-07:00",
+    "hash": "6f361077c11e2c8bd2653fcb7c0ece85c164a598",
+    "parents": "87c1baefaf2e22e67d99ccdab5208338edea3583",
+    "subject": "Changes from @michaelficarra feedback"
+   },
+   {
     "adate": "2023-06-06T18:24:06-07:00",
     "author": "Justin Grant",
-    "date": "2023-06-06T18:24:06-07:00",
-    "hash": "c4742537b30e8029abe379ddec845729479415d7",
-    "parents": "2bccc07ffa592b25ddd6f8283a17a3d0db896933",
+    "date": "2023-06-07T01:00:12-07:00",
+    "hash": "87c1baefaf2e22e67d99ccdab5208338edea3583",
+    "parents": "902c08f56b7e39eb45d71e4fe67114e1a21da4bd",
     "subject": "Editorial: refactor time zone identifier spec text"
    }
   ],
   "title": "Editorial: simplify and clarify time zone identifier spec text",
-  "updated_at": "2023-06-07T01:24:17Z"
+  "updated_at": "2023-06-07T08:00:25Z"
  },
  {
   "base": "8d3d3cfbbe03cb041e8468bcc13d9b292d801e77",
