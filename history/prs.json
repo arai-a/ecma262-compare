@@ -233,26 +233,6 @@
  },
  {
   "base": "86614b788804fa4d6f8a803639b04ca8730e9a03",
-  "created_at": "2023-05-29T22:28:41Z",
-  "head": "6b33f5ccb24ec6c5113fa0915af822a703c5ef3f",
-  "login": "gibson042",
-  "number": 3081,
-  "ref": "2023-05-snapshotownproperties",
-  "revs": [
-   {
-    "adate": "2023-05-29T18:24:38-04:00",
-    "author": "Richard Gibson",
-    "date": "2023-05-29T18:24:38-04:00",
-    "hash": "6b33f5ccb24ec6c5113fa0915af822a703c5ef3f",
-    "parents": "86614b788804fa4d6f8a803639b04ca8730e9a03",
-    "subject": "Editorial: Simplify object snapshotting"
-   }
-  ],
-  "title": "Editorial: Simplify object snapshotting",
-  "updated_at": "2023-05-29T22:28:41Z"
- },
- {
-  "base": "86614b788804fa4d6f8a803639b04ca8730e9a03",
   "created_at": "2023-05-27T15:43:01Z",
   "head": "1f3e1d12f938aab0ca67a889b0fe3d346e7602b7",
   "login": "gibson042",
@@ -498,11 +478,19 @@
  {
   "base": "cd1a6c55366b2b612191ec8f6771a3aed2f0519d",
   "created_at": "2023-05-08T11:54:31Z",
-  "head": "2521cf53ed99c2b1a112a81abd4b05cb5d3fa5b7",
+  "head": "8b556e5d77628714217aef241ce6f6c6a0ed17fa",
   "login": "nicolo-ribaudo",
   "number": 3057,
   "ref": "import-attributes",
   "revs": [
+   {
+    "adate": "2023-06-11T13:07:29+02:00",
+    "author": "Nicol\u00f2 Ribaudo",
+    "date": "2023-06-11T13:08:23+02:00",
+    "hash": "8b556e5d77628714217aef241ce6f6c6a0ed17fa",
+    "parents": "2521cf53ed99c2b1a112a81abd4b05cb5d3fa5b7",
+    "subject": "Changes from review"
+   },
    {
     "adate": "2023-05-18T14:46:49+03:00",
     "author": "Nicol\u00f2 Ribaudo",
@@ -529,7 +517,7 @@
    }
   ],
   "title": "Normative: Add Import Attributes",
-  "updated_at": "2023-05-31T21:41:00Z"
+  "updated_at": "2023-06-11T11:08:32Z"
  },
  {
   "base": "ef1524eea725970c809ac1f29dc90fcfd4bb2848",
