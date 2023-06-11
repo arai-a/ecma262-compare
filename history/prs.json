@@ -1,6 +1,42 @@
 [
  {
   "base": "73926a53dd032f66446533c240aae10e05c0520e",
+  "created_at": "2023-06-11T18:01:14Z",
+  "head": "179f70542ed298548863b3087f000e0909cb2bf1",
+  "login": "gibson042",
+  "number": 3096,
+  "ref": "2023-06-simplify-numeric-literal-grammar",
+  "revs": [
+   {
+    "adate": "2023-06-11T13:52:52-04:00",
+    "author": "Richard Gibson",
+    "date": "2023-06-11T13:52:52-04:00",
+    "hash": "179f70542ed298548863b3087f000e0909cb2bf1",
+    "parents": "a3ba9a7e26f3ee20cd0abc685979dbbd400638bb",
+    "subject": "Editorial: Simplify the bigint literal grammar"
+   },
+   {
+    "adate": "2023-06-11T13:18:02-04:00",
+    "author": "Richard Gibson",
+    "date": "2023-06-11T13:20:25-04:00",
+    "hash": "a3ba9a7e26f3ee20cd0abc685979dbbd400638bb",
+    "parents": "84335ab167586f31c99006cb04fc42db900bc39e",
+    "subject": "Editorial: Simplify the |LegacyOctalIntegerLiteral| grammar"
+   },
+   {
+    "adate": "2023-06-11T13:16:10-04:00",
+    "author": "Richard Gibson",
+    "date": "2023-06-11T13:20:12-04:00",
+    "hash": "84335ab167586f31c99006cb04fc42db900bc39e",
+    "parents": "73926a53dd032f66446533c240aae10e05c0520e",
+    "subject": "Editorial: Simplify the |DecimalLiteral| grammar"
+   }
+  ],
+  "title": "Editorial: Simplify the |NumericLiteral| grammar",
+  "updated_at": "2023-06-11T18:01:14Z"
+ },
+ {
+  "base": "73926a53dd032f66446533c240aae10e05c0520e",
   "created_at": "2023-06-08T18:28:35Z",
   "head": "52fed39afb49d8f9ad64ccdb514d0507cc7d9015",
   "login": "lucacasonato",
