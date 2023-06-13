@@ -494,11 +494,27 @@
  {
   "base": "cd1a6c55366b2b612191ec8f6771a3aed2f0519d",
   "created_at": "2023-05-08T11:54:31Z",
-  "head": "36eb4a8f087f58d15f20b0871057159e2519f293",
+  "head": "02357bb7528767d5afa77848119410a583cd6d7e",
   "login": "nicolo-ribaudo",
   "number": 3057,
   "ref": "import-attributes",
   "revs": [
+   {
+    "adate": "2023-06-13T14:42:44+02:00",
+    "author": "Nicol\u00f2 Ribaudo",
+    "date": "2023-06-13T14:42:44+02:00",
+    "hash": "02357bb7528767d5afa77848119410a583cd6d7e",
+    "parents": "7da5cb6fa99b3f42bcedea06c9485f9a15a08bd7",
+    "subject": "Update ImportEntries and ExportEntry to use ModuleRequest Records"
+   },
+   {
+    "adate": "2023-06-13T14:34:35+02:00",
+    "author": "Nicol\u00f2 Ribaudo",
+    "date": "2023-06-13T14:34:35+02:00",
+    "hash": "7da5cb6fa99b3f42bcedea06c9485f9a15a08bd7",
+    "parents": "36eb4a8f087f58d15f20b0871057159e2519f293",
+    "subject": "Use optional symbols to reduce grammar"
+   },
    {
     "adate": "2023-06-13T14:18:13+02:00",
     "author": "Nicol\u00f2 Ribaudo",
@@ -557,7 +573,7 @@
    }
   ],
   "title": "Normative: Add Import Attributes",
-  "updated_at": "2023-06-13T12:24:19Z"
+  "updated_at": "2023-06-13T12:51:33Z"
  },
  {
   "base": "ef1524eea725970c809ac1f29dc90fcfd4bb2848",
