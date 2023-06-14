@@ -1294,11 +1294,19 @@
  {
   "base": "73926a53dd032f66446533c240aae10e05c0520e",
   "created_at": "2022-12-18T16:14:12Z",
-  "head": "356f49ddf396ed25f63380c1c6052196abc2bd77",
+  "head": "c5885de441951107b2303dcdd3f644b53b71d7a8",
   "login": "gibson042",
   "number": 2982,
   "ref": "2022-12-bigint-value-for",
   "revs": [
+   {
+    "adate": "2023-06-14T16:25:38-06:00",
+    "author": "Michael Ficarra",
+    "date": "2023-06-14T16:25:38-06:00",
+    "hash": "c5885de441951107b2303dcdd3f644b53b71d7a8",
+    "parents": "356f49ddf396ed25f63380c1c6052196abc2bd77",
+    "subject": "accept suggestion"
+   },
    {
     "adate": "2023-06-12T12:01:48-07:00",
     "author": "Michael Ficarra",
@@ -1333,7 +1341,7 @@
    }
   ],
   "title": "Editorial: Use linkable terms for coercion to BigInt",
-  "updated_at": "2023-06-12T19:01:51Z"
+  "updated_at": "2023-06-14T22:39:59Z"
  },
  {
   "base": "8aac12603c99f94d982317832b0e03c13684ce0a",
