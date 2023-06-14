@@ -594,11 +594,19 @@
  {
   "base": "873685750986bc89a205f8afb8c63c8fa3b8ff82",
   "created_at": "2023-05-08T11:54:31Z",
-  "head": "77857a3aa0b6c450d95f25b988c3a23982959b91",
+  "head": "1b06a1fcbb1572bb0a261dd325ba6e751bee9b8f",
   "login": "nicolo-ribaudo",
   "number": 3057,
   "ref": "import-attributes",
   "revs": [
+   {
+    "adate": "2023-06-15T00:03:35+02:00",
+    "author": "Nicol\u00f2 Ribaudo",
+    "date": "2023-06-15T00:03:35+02:00",
+    "hash": "1b06a1fcbb1572bb0a261dd325ba6e751bee9b8f",
+    "parents": "77857a3aa0b6c450d95f25b988c3a23982959b91",
+    "subject": "Separate ModuleRequest and LoadedModuleRequest fields"
+   },
    {
     "adate": "2023-06-14T20:09:13+02:00",
     "author": "Nicol\u00f2 Ribaudo",
@@ -689,7 +697,7 @@
    }
   ],
   "title": "Normative: Add Import Attributes",
-  "updated_at": "2023-06-14T18:09:33Z"
+  "updated_at": "2023-06-14T22:07:39Z"
  },
  {
   "base": "ef1524eea725970c809ac1f29dc90fcfd4bb2848",
