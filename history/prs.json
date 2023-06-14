@@ -2,22 +2,54 @@
  {
   "base": "873685750986bc89a205f8afb8c63c8fa3b8ff82",
   "created_at": "2023-06-14T01:58:39Z",
-  "head": "f4284396c7b98bceef46c54320f3073491875a59",
+  "head": "0a56611db213ec26629573a547b011358324f7ae",
   "login": "zhangenming",
   "number": 3097,
   "ref": "main",
   "revs": [
    {
-    "adate": "2023-06-14T09:51:05+08:00",
+    "adate": "2023-06-14T14:07:50+08:00",
     "author": "zhangenming",
-    "date": "2023-06-14T09:51:05+08:00",
-    "hash": "f4284396c7b98bceef46c54320f3073491875a59",
+    "date": "2023-06-14T14:07:50+08:00",
+    "hash": "0a56611db213ec26629573a547b011358324f7ae",
+    "parents": "03728ac736f1d03d4c95c06ad393af4c37ace692",
+    "subject": "more line"
+   },
+   {
+    "adate": "2023-06-14T14:04:24+08:00",
+    "author": "zhangenming",
+    "date": "2023-06-14T14:04:24+08:00",
+    "hash": "03728ac736f1d03d4c95c06ad393af4c37ace692",
+    "parents": "4d4e137f2cf05519d623b0f42e23fe5174f8cb46",
+    "subject": "empty line"
+   },
+   {
+    "adate": "2023-06-14T13:46:30+08:00",
+    "author": "zhangenming",
+    "date": "2023-06-14T13:46:30+08:00",
+    "hash": "4d4e137f2cf05519d623b0f42e23fe5174f8cb46",
+    "parents": "32fd37c08584441b4b506bfb6a7962dd55f58738",
+    "subject": "<p>"
+   },
+   {
+    "adate": "2023-06-14T13:45:30+08:00",
+    "author": "zhangenming",
+    "date": "2023-06-14T13:45:30+08:00",
+    "hash": "32fd37c08584441b4b506bfb6a7962dd55f58738",
+    "parents": "e58a1fdd6d87808b49b0b3f547a88bc60ae1f9c2",
+    "subject": "object"
+   },
+   {
+    "adate": "2023-06-14T13:44:47+08:00",
+    "author": "zhangenming",
+    "date": "2023-06-14T13:44:47+08:00",
+    "hash": "e58a1fdd6d87808b49b0b3f547a88bc60ae1f9c2",
     "parents": "873685750986bc89a205f8afb8c63c8fa3b8ff82",
-    "subject": "typo"
+    "subject": "Therefore"
    }
   ],
   "title": "Editorial: Align with the wording used elsewhere.",
-  "updated_at": "2023-06-14T01:58:39Z"
+  "updated_at": "2023-06-14T06:08:02Z"
  },
  {
   "base": "73926a53dd032f66446533c240aae10e05c0520e",
