@@ -304,92 +304,24 @@
   "updated_at": "2023-06-01T19:00:57Z"
  },
  {
-  "base": "2a92ed0b9ba80568828dd47800334cbfab029fa2",
+  "base": "3e13d76b4526ffc301805a26336ba4bcec44e50a",
   "created_at": "2023-05-30T22:30:24Z",
-  "head": "ffa29601dac704b8dd9b5fa61bfdff84545b7e5e",
+  "head": "264aa2b21363fcee9056b3b09d7b577d1c31db5e",
   "login": "gibson042",
   "number": 3083,
   "ref": "2023-05-cleanup-touint8clamp",
   "revs": [
    {
-    "adate": "2023-06-01T19:19:14-04:00",
+    "adate": "2023-06-14T16:28:30-07:00",
     "author": "Richard Gibson",
-    "date": "2023-06-01T19:19:14-04:00",
-    "hash": "ffa29601dac704b8dd9b5fa61bfdff84545b7e5e",
-    "parents": "c6ed8f20f3cb3293f0e7685b909a6a255b82132a",
-    "subject": "Editorial: Mention truncation/rounding in ToLength/ToUint8Clamp descriptions"
-   },
-   {
-    "adate": "2023-06-01T18:54:31-04:00",
-    "author": "Richard Gibson",
-    "date": "2023-06-01T18:54:31-04:00",
-    "hash": "c6ed8f20f3cb3293f0e7685b909a6a255b82132a",
-    "parents": "f0763c0536b47ad449ab01f89ac1f14123330e7b",
-    "subject": "Editorial: Refactor ToUint8Clamp to use the clamp shorthand"
-   },
-   {
-    "adate": "2023-05-30T17:51:54-04:00",
-    "author": "Richard Gibson",
-    "date": "2023-06-01T11:40:41-04:00",
-    "hash": "f0763c0536b47ad449ab01f89ac1f14123330e7b",
-    "parents": "7183b6a308d902c17f0692baef22511ca3387c75",
-    "subject": "Editorial: Refactor ToUint8Clamp for brevity and internal consistency"
-   },
-   {
-    "adate": "2023-05-30T17:52:38-04:00",
-    "author": "Richard Gibson",
-    "date": "2023-06-01T11:38:09-04:00",
-    "hash": "7183b6a308d902c17f0692baef22511ca3387c75",
-    "parents": "2a92ed0b9ba80568828dd47800334cbfab029fa2",
-    "subject": "Editorial: Improve ToUint8Clamp explanatory text"
+    "date": "2023-06-14T16:28:30-07:00",
+    "hash": "264aa2b21363fcee9056b3b09d7b577d1c31db5e",
+    "parents": "3e13d76b4526ffc301805a26336ba4bcec44e50a",
+    "subject": "Editorial: Cleanup ToUint8Clamp (#3083)"
    }
   ],
   "title": "Editorial: Cleanup ToUint8Clamp",
-  "updated_at": "2023-06-01T23:31:11Z"
- },
- {
-  "base": "86614b788804fa4d6f8a803639b04ca8730e9a03",
-  "created_at": "2023-05-27T15:43:01Z",
-  "head": "1f3e1d12f938aab0ca67a889b0fe3d346e7602b7",
-  "login": "gibson042",
-  "number": 3079,
-  "ref": "2023-05-simplify-toindex",
-  "revs": [
-   {
-    "adate": "2023-06-01T11:32:26-04:00",
-    "author": "Richard Gibson",
-    "date": "2023-06-01T11:32:26-04:00",
-    "hash": "1f3e1d12f938aab0ca67a889b0fe3d346e7602b7",
-    "parents": "3bc3c3faa69b4bd497a44a9ef6752eb955932cff",
-    "subject": "Editorial: Reorder ToIndex steps to align with convention"
-   },
-   {
-    "adate": "2023-05-30T17:01:17-04:00",
-    "author": "Richard Gibson",
-    "date": "2023-05-30T17:01:17-04:00",
-    "hash": "3bc3c3faa69b4bd497a44a9ef6752eb955932cff",
-    "parents": "bbc030224a2580f771759c24bc459e4adc25bb8c",
-    "subject": "Editorial: Rephrase the ToIndex description"
-   },
-   {
-    "adate": "2023-05-27T11:34:08-04:00",
-    "author": "Richard Gibson",
-    "date": "2023-05-27T11:37:25-04:00",
-    "hash": "bbc030224a2580f771759c24bc459e4adc25bb8c",
-    "parents": "d83d0523d72e5a02625eecb72ac80ee101839d0d",
-    "subject": "Editorial: Simplify ToIndex"
-   },
-   {
-    "adate": "2023-05-27T11:31:23-04:00",
-    "author": "Richard Gibson",
-    "date": "2023-05-27T11:31:23-04:00",
-    "hash": "d83d0523d72e5a02625eecb72ac80ee101839d0d",
-    "parents": "86614b788804fa4d6f8a803639b04ca8730e9a03",
-    "subject": "Editorial: Improve the precision of the ToIndex description"
-   }
-  ],
-  "title": "Editorial: Simplify ToIndex",
-  "updated_at": "2023-06-01T15:32:38Z"
+  "updated_at": "2023-06-14T23:50:06Z"
  },
  {
   "base": "86614b788804fa4d6f8a803639b04ca8730e9a03",
@@ -762,82 +694,6 @@
   ],
   "title": "Editorial: Consistify `\"length\"` property 'declarations'",
   "updated_at": "2023-04-30T01:43:05Z"
- },
- {
-  "base": "928a953f822bd7024ea3b13926d75d3c0b42b352",
-  "created_at": "2023-04-21T00:14:03Z",
-  "head": "6da1bbe5ec0516c10a33e9da6c5b0ecc9ea53b9d",
-  "login": "syg",
-  "number": 3049,
-  "ref": "atomics-waitasync",
-  "revs": [
-   {
-    "adate": "2023-06-07T16:54:14-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2023-06-07T16:56:11-07:00",
-    "hash": "6da1bbe5ec0516c10a33e9da6c5b0ecc9ea53b9d",
-    "parents": "a1876f447bf43f04b220ec89911f3009a3220a65",
-    "subject": "Say that all job-related host hooks pass a realm for scheduling in a particular agent"
-   },
-   {
-    "adate": "2023-05-12T08:12:56-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2023-05-12T08:12:56-07:00",
-    "hash": "a1876f447bf43f04b220ec89911f3009a3220a65",
-    "parents": "ab564a74a7eca36a0a384ac42c6d9aeef308e5ea",
-    "subject": "mficarra review"
-   },
-   {
-    "adate": "2023-05-10T15:34:34-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2023-05-10T15:34:34-07:00",
-    "hash": "ab564a74a7eca36a0a384ac42c6d9aeef308e5ea",
-    "parents": "74bf9fdaa4d583f974e9b417659c81699c1ed919",
-    "subject": "Add language clarifying HostEnqueueFooJob hooks are organized by constraints"
-   },
-   {
-    "adate": "2023-05-10T14:11:21-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2023-05-10T14:11:21-07:00",
-    "hash": "74bf9fdaa4d583f974e9b417659c81699c1ed919",
-    "parents": "aa9d29494397f84f2b8c423f080b81ab4d60fdcf",
-    "subject": "Rename to HostEnqueueGenericJob"
-   },
-   {
-    "adate": "2023-05-10T14:10:58-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2023-05-10T14:10:58-07:00",
-    "hash": "aa9d29494397f84f2b8c423f080b81ab4d60fdcf",
-    "parents": "0ef2bbe4e4909999e22ea5fb0e2321cba6379128",
-    "subject": "Allow milliseconds to be non-integral and return unused"
-   },
-   {
-    "adate": "2023-04-20T16:57:58-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2023-05-10T13:41:28-07:00",
-    "hash": "0ef2bbe4e4909999e22ea5fb0e2321cba6379128",
-    "parents": "671fa9b8d04f4608ab2d9a8eff455c920a487dd5",
-    "subject": "Normative: Add Atomics.waitAsync"
-   },
-   {
-    "adate": "2023-05-09T10:42:56-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2023-05-09T10:42:56-07:00",
-    "hash": "671fa9b8d04f4608ab2d9a8eff455c920a487dd5",
-    "parents": "595638438b433cd5c0a9b8d2711468ece78af0d5",
-    "subject": "Remove remaining reference to \"code\""
-   },
-   {
-    "adate": "2023-05-08T14:17:02-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2023-05-08T14:17:02-07:00",
-    "hash": "595638438b433cd5c0a9b8d2711468ece78af0d5",
-    "parents": "ef1524eea725970c809ac1f29dc90fcfd4bb2848",
-    "subject": "Editorial: add [[AgentSignifier]] to Realm Record"
-   }
-  ],
-  "title": "Normative: Add Atomics.waitAsync",
-  "updated_at": "2023-06-08T00:01:49Z"
  },
  {
   "base": "902c08f56b7e39eb45d71e4fe67114e1a21da4bd",
