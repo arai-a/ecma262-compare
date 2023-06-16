@@ -1,5 +1,49 @@
 [
  {
+  "base": "2e2cba546820fff3d6ce4885de1e893be5304f73",
+  "created_at": "2023-06-16T20:43:20Z",
+  "head": "f7f189d7b6490db90af474b363367aac6427208b",
+  "login": "jmdyck",
+  "number": 3102,
+  "ref": "quick_fixes_6",
+  "revs": [
+   {
+    "adate": "2023-06-16T16:28:44-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-06-16T16:38:06-04:00",
+    "hash": "f7f189d7b6490db90af474b363367aac6427208b",
+    "parents": "6c9bc7b067e9568abdeb1247e37e0c50a1703f2f",
+    "subject": "Change 2x \"which\" -> \"that\""
+   },
+   {
+    "adate": "2023-06-16T16:22:32-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-06-16T16:37:48-04:00",
+    "hash": "6c9bc7b067e9568abdeb1247e37e0c50a1703f2f",
+    "parents": "7cc4acf786028cb2b5e12c5a005fe185ed8130f5",
+    "subject": "Change more 'element' to 'CharSetElement'"
+   },
+   {
+    "adate": "2023-06-16T16:16:47-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-06-16T16:37:39-04:00",
+    "hash": "7cc4acf786028cb2b5e12c5a005fe185ed8130f5",
+    "parents": "35c43a8edbd6d6cab37070ec187a47b9eb249146",
+    "subject": "In CompileAtom, copy wording-changes"
+   },
+   {
+    "adate": "2023-06-16T15:51:21-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-06-16T15:51:21-04:00",
+    "hash": "35c43a8edbd6d6cab37070ec187a47b9eb249146",
+    "parents": "2e2cba546820fff3d6ce4885de1e893be5304f73",
+    "subject": "In CharacterSetMatcher, the Matcher must capture `_A_`"
+   }
+  ],
+  "title": "Editorial: Quick fixes re PR #2418",
+  "updated_at": "2023-06-16T20:51:57Z"
+ },
+ {
   "base": "873685750986bc89a205f8afb8c63c8fa3b8ff82",
   "created_at": "2023-06-14T17:44:23Z",
   "head": "81a4504a2a5931354300ab33cb19cacf7e1bea33",
@@ -382,26 +426,6 @@
   ],
   "title": "Editorial: Fix some ?! misuses",
   "updated_at": "2023-05-24T16:13:08Z"
- },
- {
-  "base": "26b236963e5df4ee9ff837a04228c01aca01e174",
-  "created_at": "2023-05-11T21:46:56Z",
-  "head": "2e2cba546820fff3d6ce4885de1e893be5304f73",
-  "login": "dewren99",
-  "number": 3066,
-  "ref": "editorial#2634",
-  "revs": [
-   {
-    "adate": "2023-06-15T15:30:41-07:00",
-    "author": "Deniz Eren Evrendilek",
-    "date": "2023-06-15T15:30:41-07:00",
-    "hash": "2e2cba546820fff3d6ce4885de1e893be5304f73",
-    "parents": "26b236963e5df4ee9ff837a04228c01aca01e174",
-    "subject": "Editorial: take ToString and ToLength out of StringPad and make it infallible (#3066)"
-   }
-  ],
-  "title": "Editorial: take ToString and ToLength out of StringPad and make it infallible",
-  "updated_at": "2023-06-15T22:31:05Z"
  },
  {
   "base": "f682cffb67eba0a1d096fd70df56500732547283",
