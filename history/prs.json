@@ -1,6 +1,26 @@
 [
  {
   "base": "2e2cba546820fff3d6ce4885de1e893be5304f73",
+  "created_at": "2023-06-20T16:15:31Z",
+  "head": "6a0e72b31791bf1411563725021c12dd5d304970",
+  "login": "tc39",
+  "number": 3103,
+  "ref": "ecma-spec-links",
+  "revs": [
+   {
+    "adate": "2023-06-20T10:13:52-06:00",
+    "author": "Michael Ficarra",
+    "date": "2023-06-20T10:13:52-06:00",
+    "hash": "6a0e72b31791bf1411563725021c12dd5d304970",
+    "parents": "2e2cba546820fff3d6ce4885de1e893be5304f73",
+    "subject": "Editorial: update links to Ecma specs and update ECMA-402 descriptor"
+   }
+  ],
+  "title": "Editorial: update links to Ecma specs and update ECMA-402 descriptor",
+  "updated_at": "2023-06-20T16:15:31Z"
+ },
+ {
+  "base": "2e2cba546820fff3d6ce4885de1e893be5304f73",
   "created_at": "2023-06-16T20:43:20Z",
   "head": "f7f189d7b6490db90af474b363367aac6427208b",
   "login": "jmdyck",
