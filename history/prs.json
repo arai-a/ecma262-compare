@@ -1,32 +1,20 @@
 [
  {
   "base": "2e2cba546820fff3d6ce4885de1e893be5304f73",
-  "created_at": "2023-06-21T05:49:07Z",
-  "head": "a84638e0f40d17b52349e240f365a4e65db9dbdb",
-  "login": "justingrant",
-  "number": 3104,
-  "ref": "system-identifier-redundant-line",
-  "revs": [
-   {
-    "adate": "2023-06-20T22:46:55-07:00",
-    "author": "Justin Grant",
-    "date": "2023-06-20T22:46:55-07:00",
-    "hash": "a84638e0f40d17b52349e240f365a4e65db9dbdb",
-    "parents": "2e2cba546820fff3d6ce4885de1e893be5304f73",
-    "subject": "Editorial: Remove `If` in SystemTimeZoneIdentifier"
-   }
-  ],
-  "title": "Editorial: Remove unnecessary `If` in SystemTimeZoneIdentifier",
-  "updated_at": "2023-06-21T05:54:47Z"
- },
- {
-  "base": "2e2cba546820fff3d6ce4885de1e893be5304f73",
   "created_at": "2023-06-20T16:15:31Z",
-  "head": "6a0e72b31791bf1411563725021c12dd5d304970",
+  "head": "bfdd84b1a45a0169cf7132e7046787b364b0c791",
   "login": "tc39",
   "number": 3103,
   "ref": "ecma-spec-links",
   "revs": [
+   {
+    "adate": "2023-06-21T16:28:15-06:00",
+    "author": "Michael Ficarra",
+    "date": "2023-06-21T16:28:15-06:00",
+    "hash": "bfdd84b1a45a0169cf7132e7046787b364b0c791",
+    "parents": "6a0e72b31791bf1411563725021c12dd5d304970",
+    "subject": "review feedback"
+   },
    {
     "adate": "2023-06-20T10:13:52-06:00",
     "author": "Michael Ficarra",
@@ -37,7 +25,7 @@
    }
   ],
   "title": "Editorial: update links to Ecma specs and update ECMA-402 descriptor",
-  "updated_at": "2023-06-20T16:15:31Z"
+  "updated_at": "2023-06-21T22:42:48Z"
  },
  {
   "base": "2e2cba546820fff3d6ce4885de1e893be5304f73",
