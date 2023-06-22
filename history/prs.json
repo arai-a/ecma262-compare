@@ -1,31 +1,39 @@
 [
  {
-  "base": "2e2cba546820fff3d6ce4885de1e893be5304f73",
+  "base": "f609768de4d49be63244f6c984dfbef7ea8627f9",
   "created_at": "2023-06-20T16:15:31Z",
-  "head": "bfdd84b1a45a0169cf7132e7046787b364b0c791",
+  "head": "eb050e69e77920015afe6791b26b189c2d4a8a90",
   "login": "tc39",
   "number": 3103,
   "ref": "ecma-spec-links",
   "revs": [
    {
+    "adate": "2023-06-21T18:51:48-06:00",
+    "author": "Michael Ficarra",
+    "date": "2023-06-21T18:52:03-06:00",
+    "hash": "eb050e69e77920015afe6791b26b189c2d4a8a90",
+    "parents": "0c6ad79b7026d35d1af1990d50f14b7e196e2ed5",
+    "subject": "dated refs"
+   },
+   {
     "adate": "2023-06-21T16:28:15-06:00",
     "author": "Michael Ficarra",
-    "date": "2023-06-21T16:28:15-06:00",
-    "hash": "bfdd84b1a45a0169cf7132e7046787b364b0c791",
-    "parents": "6a0e72b31791bf1411563725021c12dd5d304970",
+    "date": "2023-06-21T18:52:03-06:00",
+    "hash": "0c6ad79b7026d35d1af1990d50f14b7e196e2ed5",
+    "parents": "68d3623ce9504cc97f3d99f2f2f004e189ab7002",
     "subject": "review feedback"
    },
    {
     "adate": "2023-06-20T10:13:52-06:00",
     "author": "Michael Ficarra",
-    "date": "2023-06-20T10:13:52-06:00",
-    "hash": "6a0e72b31791bf1411563725021c12dd5d304970",
-    "parents": "2e2cba546820fff3d6ce4885de1e893be5304f73",
+    "date": "2023-06-21T18:52:03-06:00",
+    "hash": "68d3623ce9504cc97f3d99f2f2f004e189ab7002",
+    "parents": "f609768de4d49be63244f6c984dfbef7ea8627f9",
     "subject": "Editorial: update links to Ecma specs and update ECMA-402 descriptor"
    }
   ],
   "title": "Editorial: update links to Ecma specs and update ECMA-402 descriptor",
-  "updated_at": "2023-06-21T22:42:48Z"
+  "updated_at": "2023-06-22T01:06:35Z"
  },
  {
   "base": "2e2cba546820fff3d6ce4885de1e893be5304f73",
