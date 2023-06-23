@@ -1,12 +1,20 @@
 [
  {
-  "base": "f609768de4d49be63244f6c984dfbef7ea8627f9",
+  "base": "0213370eeb20112fa3e3557c23504a2e8cf41e6e",
   "created_at": "2023-06-20T16:15:31Z",
-  "head": "eb050e69e77920015afe6791b26b189c2d4a8a90",
+  "head": "d13565fe887e222843733c158198f24a31579492",
   "login": "tc39",
   "number": 3103,
   "ref": "ecma-spec-links",
   "revs": [
+   {
+    "adate": "2023-06-23T07:46:00-07:00",
+    "author": "Michael Ficarra",
+    "date": "2023-06-23T07:46:00-07:00",
+    "hash": "d13565fe887e222843733c158198f24a31579492",
+    "parents": "eb050e69e77920015afe6791b26b189c2d4a8a90 0213370eeb20112fa3e3557c23504a2e8cf41e6e",
+    "subject": "Merge branch 'main' into ecma-spec-links"
+   },
    {
     "adate": "2023-06-21T18:51:48-06:00",
     "author": "Michael Ficarra",
@@ -33,7 +41,7 @@
    }
   ],
   "title": "Editorial: update links to Ecma specs and update ECMA-402 descriptor",
-  "updated_at": "2023-06-22T01:06:35Z"
+  "updated_at": "2023-06-23T14:46:08Z"
  },
  {
   "base": "2e2cba546820fff3d6ce4885de1e893be5304f73",
@@ -1406,26 +1414,6 @@
   ],
   "title": "Editorial: Reduce Annex B's monkey-patching",
   "updated_at": "2023-04-14T00:04:05Z"
- },
- {
-  "base": "a42e2d5f5ea956785a625a87f6c1dd8752bf0f00",
-  "created_at": "2022-10-30T01:58:42Z",
-  "head": "df8d91081e4050720c389e696652d3525410e69b",
-  "login": "jmdyck",
-  "number": 2951,
-  "ref": "fix_2540",
-  "revs": [
-   {
-    "adate": "2022-10-29T21:50:08-04:00",
-    "author": "Michael Dyck",
-    "date": "2023-04-13T19:59:09-04:00",
-    "hash": "df8d91081e4050720c389e696652d3525410e69b",
-    "parents": "a42e2d5f5ea956785a625a87f6c1dd8752bf0f00",
-    "subject": "Editorial: Fix 2 old bugs re Block-Level Function Declarations"
-   }
-  ],
-  "title": "Editorial: Fix 2 old bugs re Block-Level Function Declarations",
-  "updated_at": "2023-04-14T00:02:34Z"
  },
  {
   "base": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
