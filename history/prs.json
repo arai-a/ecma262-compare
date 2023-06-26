@@ -518,11 +518,27 @@
  {
   "base": "873685750986bc89a205f8afb8c63c8fa3b8ff82",
   "created_at": "2023-05-08T11:54:31Z",
-  "head": "1b06a1fcbb1572bb0a261dd325ba6e751bee9b8f",
+  "head": "e994bc61e2bb8992e4764b565d461c1d3be9ba58",
   "login": "nicolo-ribaudo",
   "number": 3057,
   "ref": "import-attributes",
   "revs": [
+   {
+    "adate": "2023-06-26T12:04:05+02:00",
+    "author": "Nicol\u00f2 Ribaudo",
+    "date": "2023-06-26T12:04:05+02:00",
+    "hash": "e994bc61e2bb8992e4764b565d461c1d3be9ba58",
+    "parents": "59db3cf338fd2471459db09dbb643e3ffea8c441",
+    "subject": "Merge `AssertClause` into `WithClause`, and fix missing SDOs"
+   },
+   {
+    "adate": "2023-06-26T11:03:57+02:00",
+    "author": "Nicol\u00f2 Ribaudo",
+    "date": "2023-06-26T11:03:57+02:00",
+    "hash": "59db3cf338fd2471459db09dbb643e3ffea8c441",
+    "parents": "1b06a1fcbb1572bb0a261dd325ba6e751bee9b8f",
+    "subject": "Validate attrs when lodaing deps and not when parsing"
+   },
    {
     "adate": "2023-06-15T00:03:35+02:00",
     "author": "Nicol\u00f2 Ribaudo",
@@ -621,7 +637,7 @@
    }
   ],
   "title": "Normative: Add Import Attributes",
-  "updated_at": "2023-06-14T22:07:39Z"
+  "updated_at": "2023-06-26T10:04:20Z"
  },
  {
   "base": "ef1524eea725970c809ac1f29dc90fcfd4bb2848",
