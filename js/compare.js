@@ -1544,7 +1544,7 @@ class Comparator extends Base {
 
         workBox.remove();
 
-        box = document.getElementById(`excluded-${id}`);
+        box = this.findExcludedBox(id);
         if (box) {
           const parentInsDel = this.findParentInsDel(box);
           if (parentInsDel) {
@@ -1597,6 +1597,27 @@ class Comparator extends Base {
     this.setStat("");
 
     this.processing = false;
+  }
+
+  findExcludedBox(id) {
+    function hasExcludedAncestor(node) {
+      node = node.parentElement;
+
+      while (node) {
+        if (node.id && node.id.startsWith("excluded-")) {
+          return true;
+        }
+        node = node.parentElement;
+      }
+      return false;
+    }
+
+    for (const box of document.querySelectorAll(`[id="excluded-${id}"]`)) {
+      if (!hasExcludedAncestor(box)) {
+        return box;
+      }
+    }
+    return null;
   }
 
   convertSecTreeNode(node, parent, map) {
