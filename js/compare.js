@@ -734,23 +734,23 @@ class Comparator extends Base {
     }
 
     if ("rev" in queryParams) {
-      this.updateUI("rev", {
+      await this.updateUI("rev", {
         rev: queryParams.rev,
         section,
       });
     } else if ("pr" in queryParams) {
-      this.updateUI("pr", {
+      await this.updateUI("pr", {
         pr: queryParams.pr,
         section,
       });
     } else if ("from" in queryParams && "to" in queryParams) {
-      this.updateUI("from-to", {
+      await this.updateUI("from-to", {
         from: queryParams.from,
         section,
         to: queryParams.to,
       });
     } else {
-      this.updateUI("from-to", {});
+      await this.updateUI("from-to", {});
     }
   }
 
@@ -1949,25 +1949,25 @@ class Comparator extends Base {
   }
 
   async onPRFilterChange() {
-    this.updateUI("pr", {
+    await this.updateUI("pr", {
       pr: this.prFilter.value,
     });
   }
 
   async onRevFilterChange() {
-    this.updateUI("rev", {
+    await this.updateUI("rev", {
       rev: this.revFilter.value,
     });
   }
 
   async onFromRevChange() {
-    this.updateUI("from-to", {
+    await this.updateUI("from-to", {
       rev: this.revFilter.value,
     });
   }
 
   async onToRevChange() {
-    this.updateUI("from-to", {
+    await this.updateUI("from-to", {
       rev: this.revFilter.value,
     });
   }
