@@ -2,11 +2,27 @@
  {
   "base": "b643e1d9bdc0e98d238a72f9988c01265306d09f",
   "created_at": "2023-07-07T01:09:00Z",
-  "head": "73f8b949dd11ea11ba8fb55297100bcd13f8ceb4",
+  "head": "cbb3788ff38364f30d86bd2b0400a170c80eadb8",
   "login": "syg",
   "number": 3116,
   "ref": "rab-stage4",
   "revs": [
+   {
+    "adate": "2023-07-10T09:20:20-07:00",
+    "author": "Shu-yu Guo",
+    "date": "2023-07-10T09:20:20-07:00",
+    "hash": "cbb3788ff38364f30d86bd2b0400a170c80eadb8",
+    "parents": "99ba6a294271cd1c1cf4aaa75e63310d24897084",
+    "subject": "Fix OOB copying in AB.p.slice"
+   },
+   {
+    "adate": "2023-07-10T09:07:27-07:00",
+    "author": "Shu-yu Guo",
+    "date": "2023-07-10T09:07:27-07:00",
+    "hash": "99ba6a294271cd1c1cf4aaa75e63310d24897084",
+    "parents": "73f8b949dd11ea11ba8fb55297100bcd13f8ceb4",
+    "subject": "Pass waitable and fix detached case for witness records"
+   },
    {
     "adate": "2023-07-07T11:05:20-07:00",
     "author": "Shu-yu Guo",
@@ -49,27 +65,7 @@
    }
   ],
   "title": "Normative: Add resizable ArrayBuffer and growable SharedArrayBuffer",
-  "updated_at": "2023-07-07T18:15:52Z"
- },
- {
-  "base": "b643e1d9bdc0e98d238a72f9988c01265306d09f",
-  "created_at": "2023-07-06T16:30:41Z",
-  "head": "a329ff7f374ece4993377a0e340f9fff7b50cec8",
-  "login": "jmdyck",
-  "number": 3115,
-  "ref": "TemplateStrings_return",
-  "revs": [
-   {
-    "adate": "2023-07-06T12:15:17-04:00",
-    "author": "Michael Dyck",
-    "date": "2023-07-07T17:46:57-04:00",
-    "hash": "a329ff7f374ece4993377a0e340f9fff7b50cec8",
-    "parents": "b643e1d9bdc0e98d238a72f9988c01265306d09f",
-    "subject": "Editorial: Fix return-type of TemplateString[s]"
-   }
-  ],
-  "title": "Editorial: Fix return-type of TemplateString[s]",
-  "updated_at": "2023-07-07T21:51:48Z"
+  "updated_at": "2023-07-10T16:21:10Z"
  },
  {
   "base": "53454a9a596d90473d2152ef04656d605162cd4c",
@@ -162,26 +158,6 @@
   ],
   "title": "Editorial: update links to Ecma specs and update ECMA-402 descriptor",
   "updated_at": "2023-06-23T14:46:08Z"
- },
- {
-  "base": "b643e1d9bdc0e98d238a72f9988c01265306d09f",
-  "created_at": "2023-06-16T20:43:20Z",
-  "head": "80e195073004bc073257809aebfef8fb9a9958ab",
-  "login": "jmdyck",
-  "number": 3102,
-  "ref": "quick_fixes_6",
-  "revs": [
-   {
-    "adate": "2023-06-16T16:16:47-04:00",
-    "author": "Michael Dyck",
-    "date": "2023-07-07T17:28:27-04:00",
-    "hash": "80e195073004bc073257809aebfef8fb9a9958ab",
-    "parents": "b643e1d9bdc0e98d238a72f9988c01265306d09f",
-    "subject": "Editorial: Small fixes re PR #2418"
-   }
-  ],
-  "title": "Editorial: Quick fixes re PR #2418",
-  "updated_at": "2023-07-07T21:37:41Z"
  },
  {
   "base": "873685750986bc89a205f8afb8c63c8fa3b8ff82",
