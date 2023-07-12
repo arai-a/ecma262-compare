@@ -1,6 +1,26 @@
 [
  {
   "base": "f3f2e250d3aca4f7280257734d042adca53c078f",
+  "created_at": "2023-07-12T22:20:14Z",
+  "head": "241e1aa04f83dc2b49f2586080a4d04e0170da41",
+  "login": "gibson042",
+  "number": 3122,
+  "ref": "2023-07-compare-and-return",
+  "revs": [
+   {
+    "adate": "2023-07-12T17:42:46-04:00",
+    "author": "Richard Gibson",
+    "date": "2023-07-12T17:42:46-04:00",
+    "hash": "241e1aa04f83dc2b49f2586080a4d04e0170da41",
+    "parents": "f3f2e250d3aca4f7280257734d042adca53c078f",
+    "subject": "Editorial: Prefer returning static values after alias comparison"
+   }
+  ],
+  "title": "Editorial: Prefer returning static values after alias comparison",
+  "updated_at": "2023-07-12T22:20:14Z"
+ },
+ {
+  "base": "f3f2e250d3aca4f7280257734d042adca53c078f",
   "created_at": "2023-07-12T07:13:55Z",
   "head": "a7c69b2deda24f3eff610468ca8ece5cc269c198",
   "login": "mathiasbynens",
