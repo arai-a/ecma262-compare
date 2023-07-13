@@ -2,11 +2,19 @@
  {
   "base": "f3f2e250d3aca4f7280257734d042adca53c078f",
   "created_at": "2023-07-13T14:10:54Z",
-  "head": "fc08de62a07e764b8b2db4a1a3f67297e8420632",
+  "head": "21c4d272840d87caff13833789fd883a4e19cda1",
   "login": "jmdyck",
   "number": 3123,
   "ref": "Date_tweaks",
   "revs": [
+   {
+    "adate": "2023-07-13T16:25:33-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-07-13T16:25:33-04:00",
+    "hash": "21c4d272840d87caff13833789fd883a4e19cda1",
+    "parents": "fc08de62a07e764b8b2db4a1a3f67297e8420632",
+    "subject": "Changes from gibson042 review"
+   },
    {
     "adate": "2023-07-13T09:51:31-04:00",
     "author": "Michael Dyck",
@@ -73,7 +81,7 @@
    }
   ],
   "title": "Editorial: Eliminate some Date cruft",
-  "updated_at": "2023-07-13T14:37:57Z"
+  "updated_at": "2023-07-13T21:11:01Z"
  },
  {
   "base": "f3f2e250d3aca4f7280257734d042adca53c078f",
