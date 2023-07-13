@@ -1,6 +1,82 @@
 [
  {
   "base": "f3f2e250d3aca4f7280257734d042adca53c078f",
+  "created_at": "2023-07-13T14:10:54Z",
+  "head": "fc08de62a07e764b8b2db4a1a3f67297e8420632",
+  "login": "jmdyck",
+  "number": 3123,
+  "ref": "Date_tweaks",
+  "revs": [
+   {
+    "adate": "2023-07-13T09:51:31-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-07-13T09:57:33-04:00",
+    "hash": "fc08de62a07e764b8b2db4a1a3f67297e8420632",
+    "parents": "8462d78f827ea1dccc559437e7689c3148577a46",
+    "subject": "Eliminate `the [[...]] internal slot of _X_`"
+   },
+   {
+    "adate": "2023-07-13T09:42:58-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-07-13T09:57:33-04:00",
+    "hash": "8462d78f827ea1dccc559437e7689c3148577a46",
+    "parents": "c4dbb0d89c3253ab4d4b4070fdc0a07c7a554df8",
+    "subject": "Eliminate `this Date object` term"
+   },
+   {
+    "adate": "2023-07-12T21:43:35-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-07-13T09:57:33-04:00",
+    "hash": "c4dbb0d89c3253ab4d4b4070fdc0a07c7a554df8",
+    "parents": "85820733d91af271578d5d7a4fae589b3a4699de",
+    "subject": "Eliminate `thisTimeValue` operation"
+   },
+   {
+    "adate": "2023-07-12T21:41:26-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-07-13T09:57:33-04:00",
+    "hash": "85820733d91af271578d5d7a4fae589b3a4699de",
+    "parents": "84ef5a6f4900d9a6d5e45d7064d13e21a3a9338b",
+    "subject": "Define ThisDateObject abstract op"
+   },
+   {
+    "adate": "2023-07-12T22:01:16-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-07-13T09:57:33-04:00",
+    "hash": "84ef5a6f4900d9a6d5e45d7064d13e21a3a9338b",
+    "parents": "2596b08ebb458f37754bc4258ba072dba9fcd3d3",
+    "subject": "Inline `thisTimeValue` in the `Date` constructor"
+   },
+   {
+    "adate": "2023-05-09T23:26:09-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-07-13T09:57:01-04:00",
+    "hash": "2596b08ebb458f37754bc4258ba072dba9fcd3d3",
+    "parents": "60591dfaa4bfa7117739cb74b7f0105d64af9577",
+    "subject": "Editorial: Eliminate 3 uses of \"this Date object\""
+   },
+   {
+    "adate": "2023-05-10T09:36:21-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-07-13T09:27:41-04:00",
+    "hash": "60591dfaa4bfa7117739cb74b7f0105d64af9577",
+    "parents": "ac98a30cc0cb56f17d08aeee76086c1252215879",
+    "subject": "Editorial: Eliminate \"this time value\" term"
+   },
+   {
+    "adate": "2023-05-10T09:25:07-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-07-12T22:40:33-04:00",
+    "hash": "ac98a30cc0cb56f17d08aeee76086c1252215879",
+    "parents": "f3f2e250d3aca4f7280257734d042adca53c078f",
+    "subject": "Editorial: Express Date.prototype.toISOString as an emu-alg"
+   }
+  ],
+  "title": "Editorial: Eliminate some Date cruft",
+  "updated_at": "2023-07-13T14:37:57Z"
+ },
+ {
+  "base": "f3f2e250d3aca4f7280257734d042adca53c078f",
   "created_at": "2023-07-12T22:20:14Z",
   "head": "241e1aa04f83dc2b49f2586080a4d04e0170da41",
   "login": "gibson042",
