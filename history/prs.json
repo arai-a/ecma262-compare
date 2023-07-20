@@ -2,104 +2,24 @@
  {
   "base": "43ed28936fd1925f209124916f32942d8e94f355",
   "created_at": "2023-07-13T14:10:54Z",
-  "head": "b523a535f32d1f9cee32fb60be562f682326ef97",
+  "head": "9e191df826ce7b27c4aa2fde2f9e1b2508d3359f",
   "login": "jmdyck",
   "number": 3123,
   "ref": "Date_tweaks",
   "revs": [
    {
-    "adate": "2023-07-20T15:30:40-04:00",
-    "author": "Michael Dyck",
-    "date": "2023-07-20T15:30:40-04:00",
-    "hash": "b523a535f32d1f9cee32fb60be562f682326ef97",
-    "parents": "e9287c29a5ede39414505e828f45ed8e826ce2db",
-    "subject": "fixup: attach oldids to `The Date Constructor`"
-   },
-   {
-    "adate": "2023-07-20T15:26:42-04:00",
-    "author": "Michael Dyck",
-    "date": "2023-07-20T15:26:42-04:00",
-    "hash": "e9287c29a5ede39414505e828f45ed8e826ce2db",
-    "parents": "e29c0931e558aaafed99e8612b47c0f8a9f8f19a",
-    "subject": "fixup: the *this* value"
-   },
-   {
-    "adate": "2023-07-20T15:08:39-04:00",
-    "author": "Michael Dyck",
-    "date": "2023-07-20T15:08:39-04:00",
-    "hash": "e29c0931e558aaafed99e8612b47c0f8a9f8f19a",
-    "parents": "847367b76f25328d4f53e326878117d4900de5b1",
-    "subject": "fixup: inline ThisDateObject"
-   },
-   {
-    "adate": "2023-07-20T09:36:22-04:00",
-    "author": "Michael Dyck",
-    "date": "2023-07-20T09:36:22-04:00",
-    "hash": "847367b76f25328d4f53e326878117d4900de5b1",
-    "parents": "8e67944f57c16d564445eb7bbbdba27abeaf300c",
-    "subject": "fixup: `_DateObject_` -> `_dateObject_`"
-   },
-   {
-    "adate": "2023-07-13T16:25:33-04:00",
-    "author": "Michael Dyck",
-    "date": "2023-07-19T20:12:08-04:00",
-    "hash": "8e67944f57c16d564445eb7bbbdba27abeaf300c",
-    "parents": "7673fafa191482147f76966df862cf5f3cd59d6d",
-    "subject": "Changes from gibson042 review"
-   },
-   {
-    "adate": "2023-07-13T09:51:31-04:00",
-    "author": "Michael Dyck",
-    "date": "2023-07-19T20:12:08-04:00",
-    "hash": "7673fafa191482147f76966df862cf5f3cd59d6d",
-    "parents": "76a019940916df2130d9bc998eaf3136285d2b86",
-    "subject": "Eliminate `the [[...]] internal slot of _X_`"
-   },
-   {
-    "adate": "2023-07-13T09:42:58-04:00",
-    "author": "Michael Dyck",
-    "date": "2023-07-19T20:12:08-04:00",
-    "hash": "76a019940916df2130d9bc998eaf3136285d2b86",
-    "parents": "b3971535fa801fe09b16bedfce27fc06de0e9d92",
-    "subject": "Eliminate `this Date object` term"
-   },
-   {
-    "adate": "2023-07-12T21:43:35-04:00",
-    "author": "Michael Dyck",
-    "date": "2023-07-19T20:12:08-04:00",
-    "hash": "b3971535fa801fe09b16bedfce27fc06de0e9d92",
-    "parents": "1bb55d22361f921a8cf58b3735e956a57b84433c",
-    "subject": "Eliminate `thisTimeValue` operation"
-   },
-   {
-    "adate": "2023-07-12T21:41:26-04:00",
-    "author": "Michael Dyck",
-    "date": "2023-07-19T20:12:08-04:00",
-    "hash": "1bb55d22361f921a8cf58b3735e956a57b84433c",
-    "parents": "a3f886a0f1a73e73bb561b1ee06aa48c1977033c",
-    "subject": "Define ThisDateObject abstract op"
-   },
-   {
-    "adate": "2023-07-12T22:01:16-04:00",
-    "author": "Michael Dyck",
-    "date": "2023-07-19T20:12:08-04:00",
-    "hash": "a3f886a0f1a73e73bb561b1ee06aa48c1977033c",
-    "parents": "c93d45262befacdf459f50208519a3702ca1dddb",
-    "subject": "Inline `thisTimeValue` in the `Date` constructor"
-   },
-   {
     "adate": "2023-05-09T23:26:09-04:00",
     "author": "Michael Dyck",
-    "date": "2023-07-19T20:12:08-04:00",
-    "hash": "c93d45262befacdf459f50208519a3702ca1dddb",
-    "parents": "583eb2deb643619ece579695389d7fba5195765c",
-    "subject": "Editorial: Eliminate 3 uses of \"this Date object\""
+    "date": "2023-07-20T16:37:28-04:00",
+    "hash": "9e191df826ce7b27c4aa2fde2f9e1b2508d3359f",
+    "parents": "18836648845b8bab68c3075899a04fd4b051949d",
+    "subject": "Editorial: Eliminate `thisTimeValue` & `this Date object`"
    },
    {
     "adate": "2023-05-10T09:36:21-04:00",
     "author": "Michael Dyck",
-    "date": "2023-07-19T20:12:08-04:00",
-    "hash": "583eb2deb643619ece579695389d7fba5195765c",
+    "date": "2023-07-20T16:36:41-04:00",
+    "hash": "18836648845b8bab68c3075899a04fd4b051949d",
     "parents": "538e275acaaca580a939de47bfd35921377d82f5",
     "subject": "Editorial: Eliminate \"this time value\" term"
    },
@@ -113,7 +33,7 @@
    }
   ],
   "title": "Editorial: Eliminate some Date cruft",
-  "updated_at": "2023-07-20T19:41:48Z"
+  "updated_at": "2023-07-20T20:43:32Z"
  },
  {
   "base": "f3f2e250d3aca4f7280257734d042adca53c078f",
@@ -538,118 +458,22 @@
  {
   "base": "43ed28936fd1925f209124916f32942d8e94f355",
   "created_at": "2023-06-05T12:27:18Z",
-  "head": "641f397eaa43ffd72b2ff21de0380050d0e5bad7",
+  "head": "d2d78c1166c2e53637ceb4d6fb16a0880e5ddccd",
   "login": "jmdyck",
   "number": 3092,
   "ref": "Date_eqns",
   "revs": [
    {
-    "adate": "2023-07-19T18:38:07-04:00",
-    "author": "Michael Dyck",
-    "date": "2023-07-19T18:38:07-04:00",
-    "hash": "641f397eaa43ffd72b2ff21de0380050d0e5bad7",
-    "parents": "ddddde7fcd0c327de0fd9a5a8b4c1776df497da9",
-    "subject": "fixup: insert [declared=\"y\"]"
-   },
-   {
-    "adate": "2023-06-06T10:16:47-04:00",
-    "author": "Michael Dyck",
-    "date": "2023-07-07T19:27:37-04:00",
-    "hash": "ddddde7fcd0c327de0fd9a5a8b4c1776df497da9",
-    "parents": "4d9b6caf791c884c1aa38fb6c9deedf3a9bb7617",
-    "subject": "Add descriptions for {Hour,Min,Sec,ms}FromTime"
-   },
-   {
-    "adate": "2023-06-06T10:07:40-04:00",
-    "author": "Michael Dyck",
-    "date": "2023-07-07T19:27:37-04:00",
-    "hash": "4d9b6caf791c884c1aa38fb6c9deedf3a9bb7617",
-    "parents": "0da895f67b45219aa82d408f8b294887a69ec91a",
-    "subject": "Refactor MonthFromTime and DateFromTime re final case"
-   },
-   {
-    "adate": "2023-06-06T09:53:44-04:00",
-    "author": "Michael Dyck",
-    "date": "2023-07-07T19:27:37-04:00",
-    "hash": "0da895f67b45219aa82d408f8b294887a69ec91a",
-    "parents": "ea0063a19cf755ced45fa798672cf667e374f999",
-    "subject": "Refactor DayFromYear"
-   },
-   {
-    "adate": "2023-06-06T09:20:18-04:00",
-    "author": "Michael Dyck",
-    "date": "2023-07-07T19:27:37-04:00",
-    "hash": "ea0063a19cf755ced45fa798672cf667e374f999",
-    "parents": "763e2c3fece0499635f7cebeeba9b2e06ce714b3",
-    "subject": "Add sentence to DaysInYear preamble."
-   },
-   {
-    "adate": "2023-06-06T09:13:02-04:00",
-    "author": "Michael Dyck",
-    "date": "2023-07-07T19:27:37-04:00",
-    "hash": "763e2c3fece0499635f7cebeeba9b2e06ce714b3",
-    "parents": "fb45c7f711cfa8713b5ee466b24c9e59516d3444",
-    "subject": "Rephrase prose rule for leap years (no parens)"
-   },
-   {
-    "adate": "2023-06-04T22:34:15-04:00",
-    "author": "Michael Dyck",
-    "date": "2023-07-07T19:27:37-04:00",
-    "hash": "fb45c7f711cfa8713b5ee466b24c9e59516d3444",
-    "parents": "f8f796be341d0168f14513f1916de5a444cc5169",
-    "subject": "Move new AOs 'up' one level"
-   },
-   {
-    "adate": "2023-06-04T21:59:59-04:00",
-    "author": "Michael Dyck",
-    "date": "2023-07-07T19:27:37-04:00",
-    "hash": "f8f796be341d0168f14513f1916de5a444cc5169",
-    "parents": "e0d3ca56bc16f90d8ff31f1708e45331752ace7a",
-    "subject": "Refactor multi-step algorithms"
-   },
-   {
-    "adate": "2023-06-04T15:55:39-04:00",
-    "author": "Michael Dyck",
-    "date": "2023-07-07T19:27:37-04:00",
-    "hash": "e0d3ca56bc16f90d8ff31f1708e45331752ace7a",
-    "parents": "04696a4b2d98806ecb1ad90c359c3d78ac0dc5cb",
-    "subject": "Convert multi-line <emu-eqn>s to AO sections"
-   },
-   {
-    "adate": "2023-06-04T11:13:26-04:00",
-    "author": "Michael Dyck",
-    "date": "2023-07-07T19:27:37-04:00",
-    "hash": "04696a4b2d98806ecb1ad90c359c3d78ac0dc5cb",
-    "parents": "2d9e20287ab87570ccfad2aeb641133621d92dcc",
-    "subject": "Convert all the single-line <emu-eqn>s into AO sections"
-   },
-   {
-    "adate": "2023-06-04T11:12:44-04:00",
-    "author": "Michael Dyck",
-    "date": "2023-07-07T19:27:37-04:00",
-    "hash": "2d9e20287ab87570ccfad2aeb641133621d92dcc",
-    "parents": "68897b3cf3dfedeb11800e9558f5f730e65db09f",
-    "subject": "Move \"DayWithinYear\" to a different spot"
-   },
-   {
-    "adate": "2023-06-04T08:39:03-04:00",
-    "author": "Michael Dyck",
-    "date": "2023-07-07T19:27:36-04:00",
-    "hash": "68897b3cf3dfedeb11800e9558f5f730e65db09f",
-    "parents": "3cad602b91d1a59ad530a508be36ec2ad629d0eb",
-    "subject": "Move the \"Hours, Minutes, Second, and Milliseconds\" section"
-   },
-   {
     "adate": "2023-06-04T08:28:06-04:00",
     "author": "Michael Dyck",
-    "date": "2023-07-07T19:27:36-04:00",
-    "hash": "3cad602b91d1a59ad530a508be36ec2ad629d0eb",
-    "parents": "f3f2e250d3aca4f7280257734d042adca53c078f",
-    "subject": "Make \"Time-related Constants\" section"
+    "date": "2023-07-20T16:55:28-04:00",
+    "hash": "d2d78c1166c2e53637ceb4d6fb16a0880e5ddccd",
+    "parents": "43ed28936fd1925f209124916f32942d8e94f355",
+    "subject": "Editorial: Convert Date-related equations into proper AOs"
    }
   ],
   "title": "Editorial: Convert Date-related equations into proper AOs",
-  "updated_at": "2023-07-19T22:39:49Z"
+  "updated_at": "2023-07-20T20:58:00Z"
  },
  {
   "base": "902c08f56b7e39eb45d71e4fe67114e1a21da4bd",
