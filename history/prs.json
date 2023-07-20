@@ -1,59 +1,39 @@
 [
  {
-  "base": "43ed28936fd1925f209124916f32942d8e94f355",
+  "base": "e59b54b7d5bd452dc9277a42073dfb4f55f63600",
   "created_at": "2023-07-13T14:10:54Z",
-  "head": "9e191df826ce7b27c4aa2fde2f9e1b2508d3359f",
+  "head": "46fd6ff40d807e5325408ded8904667a8ec62be2",
   "login": "jmdyck",
   "number": 3123,
   "ref": "Date_tweaks",
   "revs": [
    {
-    "adate": "2023-05-09T23:26:09-04:00",
+    "adate": "2023-07-20T14:58:22-07:00",
     "author": "Michael Dyck",
-    "date": "2023-07-20T16:37:28-04:00",
-    "hash": "9e191df826ce7b27c4aa2fde2f9e1b2508d3359f",
-    "parents": "18836648845b8bab68c3075899a04fd4b051949d",
-    "subject": "Editorial: Eliminate `thisTimeValue` & `this Date object`"
+    "date": "2023-07-20T14:58:22-07:00",
+    "hash": "46fd6ff40d807e5325408ded8904667a8ec62be2",
+    "parents": "533a766dafc47031e260692d3718bf0312a1f373",
+    "subject": "Editorial: Eliminate `thisTimeValue` & `this Date object` (#3123)"
    },
    {
-    "adate": "2023-05-10T09:36:21-04:00",
+    "adate": "2023-07-20T14:58:18-07:00",
     "author": "Michael Dyck",
-    "date": "2023-07-20T16:36:41-04:00",
-    "hash": "18836648845b8bab68c3075899a04fd4b051949d",
-    "parents": "538e275acaaca580a939de47bfd35921377d82f5",
-    "subject": "Editorial: Eliminate \"this time value\" term"
+    "date": "2023-07-20T14:58:18-07:00",
+    "hash": "533a766dafc47031e260692d3718bf0312a1f373",
+    "parents": "3b5281912fc64444a237d4f395b762eef3d30e62",
+    "subject": "Editorial: Eliminate \"this time value\" term (#3123)"
    },
    {
-    "adate": "2023-05-10T09:25:07-04:00",
+    "adate": "2023-07-20T14:58:00-07:00",
     "author": "Michael Dyck",
-    "date": "2023-07-19T20:12:08-04:00",
-    "hash": "538e275acaaca580a939de47bfd35921377d82f5",
-    "parents": "43ed28936fd1925f209124916f32942d8e94f355",
-    "subject": "Editorial: Express Date.prototype.toISOString as an emu-alg"
+    "date": "2023-07-20T14:58:00-07:00",
+    "hash": "3b5281912fc64444a237d4f395b762eef3d30e62",
+    "parents": "e59b54b7d5bd452dc9277a42073dfb4f55f63600",
+    "subject": "Editorial: Express Date.prototype.toISOString as an emu-alg (#3123)"
    }
   ],
   "title": "Editorial: Eliminate some Date cruft",
-  "updated_at": "2023-07-20T20:43:32Z"
- },
- {
-  "base": "f3f2e250d3aca4f7280257734d042adca53c078f",
-  "created_at": "2023-07-12T22:20:14Z",
-  "head": "241e1aa04f83dc2b49f2586080a4d04e0170da41",
-  "login": "gibson042",
-  "number": 3122,
-  "ref": "2023-07-compare-and-return",
-  "revs": [
-   {
-    "adate": "2023-07-12T17:42:46-04:00",
-    "author": "Richard Gibson",
-    "date": "2023-07-12T17:42:46-04:00",
-    "hash": "241e1aa04f83dc2b49f2586080a4d04e0170da41",
-    "parents": "f3f2e250d3aca4f7280257734d042adca53c078f",
-    "subject": "Editorial: Prefer returning static values after alias comparison"
-   }
-  ],
-  "title": "Editorial: Prefer returning static values after alias comparison",
-  "updated_at": "2023-07-12T22:20:14Z"
+  "updated_at": "2023-07-20T22:11:08Z"
  },
  {
   "base": "f3f2e250d3aca4f7280257734d042adca53c078f",
@@ -454,26 +434,6 @@
   ],
   "title": "Normative: Add Source Phase Imports",
   "updated_at": "2023-07-12T09:01:16Z"
- },
- {
-  "base": "43ed28936fd1925f209124916f32942d8e94f355",
-  "created_at": "2023-06-05T12:27:18Z",
-  "head": "d2d78c1166c2e53637ceb4d6fb16a0880e5ddccd",
-  "login": "jmdyck",
-  "number": 3092,
-  "ref": "Date_eqns",
-  "revs": [
-   {
-    "adate": "2023-06-04T08:28:06-04:00",
-    "author": "Michael Dyck",
-    "date": "2023-07-20T16:55:28-04:00",
-    "hash": "d2d78c1166c2e53637ceb4d6fb16a0880e5ddccd",
-    "parents": "43ed28936fd1925f209124916f32942d8e94f355",
-    "subject": "Editorial: Convert Date-related equations into proper AOs"
-   }
-  ],
-  "title": "Editorial: Convert Date-related equations into proper AOs",
-  "updated_at": "2023-07-20T20:58:00Z"
  },
  {
   "base": "902c08f56b7e39eb45d71e4fe67114e1a21da4bd",
