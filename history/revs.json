@@ -1,5 +1,37 @@
 [
  {
+  "adate": "2023-07-26T15:35:08-07:00",
+  "author": "Jordan Harband",
+  "date": "2023-07-26T15:35:08-07:00",
+  "hash": "f688c6f3999c731a08f4d408e5a4f976b0bbf39d",
+  "parents": "3690f29487830f06000370b2d474e99758061686",
+  "subject": "Meta: update github actions (#3133)"
+ },
+ {
+  "adate": "2023-07-26T15:27:18-07:00",
+  "author": "Michael Dyck",
+  "date": "2023-07-26T15:27:18-07:00",
+  "hash": "3690f29487830f06000370b2d474e99758061686",
+  "parents": "1983c42753bb6e8022d0853b4f0beca43c5aa4a1",
+  "subject": "Editorial: Eliminate `thisTimeValue` & `this Date object` (#3123)"
+ },
+ {
+  "adate": "2023-07-26T15:27:17-07:00",
+  "author": "Michael Dyck",
+  "date": "2023-07-26T15:27:17-07:00",
+  "hash": "1983c42753bb6e8022d0853b4f0beca43c5aa4a1",
+  "parents": "1cc4d4e934cba44c189684cf0af899e9ede0f929",
+  "subject": "Editorial: Eliminate \"this time value\" term (#3123)"
+ },
+ {
+  "adate": "2023-07-26T15:27:16-07:00",
+  "author": "Michael Dyck",
+  "date": "2023-07-26T15:27:16-07:00",
+  "hash": "1cc4d4e934cba44c189684cf0af899e9ede0f929",
+  "parents": "d1059d1e6dfa3f961229c5085fb1931760292852",
+  "subject": "Editorial: Express Date.prototype.toISOString as an emu-alg (#3123)"
+ },
+ {
   "adate": "2023-07-26T15:21:16-07:00",
   "author": "Jordan Harband",
   "date": "2023-07-26T15:21:16-07:00",
