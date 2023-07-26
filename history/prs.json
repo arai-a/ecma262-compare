@@ -40,86 +40,6 @@
   "updated_at": "2023-07-26T03:02:50Z"
  },
  {
-  "base": "57f427b18bf7e629565ac2fcf2392ba7b7d0d8fb",
-  "created_at": "2023-07-24T21:08:14Z",
-  "head": "a524f33e208e565d0a38b0d63d339fdacf71b751",
-  "login": "ljharb",
-  "number": 3128,
-  "ref": "ipr-check-redux",
-  "revs": [
-   {
-    "adate": "2023-07-26T10:50:43-07:00",
-    "author": "Jordan Harband",
-    "date": "2023-07-26T10:50:43-07:00",
-    "hash": "a524f33e208e565d0a38b0d63d339fdacf71b751",
-    "parents": "8a681e0ab6f212543db8ca814eaf3963bcc180e7",
-    "subject": "Meta: fail IPR check on commits with unknown authors (#3128)"
-   },
-   {
-    "adate": "2023-07-24T14:28:18-07:00",
-    "author": "Jordan Harband",
-    "date": "2023-07-24T14:28:18-07:00",
-    "hash": "8a681e0ab6f212543db8ca814eaf3963bcc180e7",
-    "parents": "37359d9913f48e14639260e6a6ab2a76266e425a",
-    "subject": "Revert \"Editorial: Correct desiderable to desirable (#3125)\" (#3128)"
-   },
-   {
-    "adate": "2023-07-24T14:28:13-07:00",
-    "author": "Jordan Harband",
-    "date": "2023-07-24T14:28:13-07:00",
-    "hash": "37359d9913f48e14639260e6a6ab2a76266e425a",
-    "parents": "d8ce35e1b92c0e89f1aae9a34fdaa0a73070f584",
-    "subject": "Revert \"Editorial: Correct ExportEntry.[[LocalName]] description (#3126)\" (#3128)"
-   },
-   {
-    "adate": "2023-07-24T14:28:09-07:00",
-    "author": "Jordan Harband",
-    "date": "2023-07-24T14:28:09-07:00",
-    "hash": "d8ce35e1b92c0e89f1aae9a34fdaa0a73070f584",
-    "parents": "57f427b18bf7e629565ac2fcf2392ba7b7d0d8fb",
-    "subject": "Revert \"Editorial: Correct GetExportedNames return type (#3127)\" (#3128)"
-   }
-  ],
-  "title": "Meta: fail IPR check on commits with unknown authors",
-  "updated_at": "2023-07-26T17:50:57Z"
- },
- {
-  "base": "e59b54b7d5bd452dc9277a42073dfb4f55f63600",
-  "created_at": "2023-07-13T14:10:54Z",
-  "head": "46fd6ff40d807e5325408ded8904667a8ec62be2",
-  "login": "jmdyck",
-  "number": 3123,
-  "ref": "Date_tweaks",
-  "revs": [
-   {
-    "adate": "2023-07-20T14:58:22-07:00",
-    "author": "Michael Dyck",
-    "date": "2023-07-20T14:58:22-07:00",
-    "hash": "46fd6ff40d807e5325408ded8904667a8ec62be2",
-    "parents": "533a766dafc47031e260692d3718bf0312a1f373",
-    "subject": "Editorial: Eliminate `thisTimeValue` & `this Date object` (#3123)"
-   },
-   {
-    "adate": "2023-07-20T14:58:18-07:00",
-    "author": "Michael Dyck",
-    "date": "2023-07-20T14:58:18-07:00",
-    "hash": "533a766dafc47031e260692d3718bf0312a1f373",
-    "parents": "3b5281912fc64444a237d4f395b762eef3d30e62",
-    "subject": "Editorial: Eliminate \"this time value\" term (#3123)"
-   },
-   {
-    "adate": "2023-07-20T14:58:00-07:00",
-    "author": "Michael Dyck",
-    "date": "2023-07-20T14:58:00-07:00",
-    "hash": "3b5281912fc64444a237d4f395b762eef3d30e62",
-    "parents": "e59b54b7d5bd452dc9277a42073dfb4f55f63600",
-    "subject": "Editorial: Express Date.prototype.toISOString as an emu-alg (#3123)"
-   }
-  ],
-  "title": "Editorial: Eliminate some Date cruft",
-  "updated_at": "2023-07-20T22:11:08Z"
- },
- {
   "base": "f3f2e250d3aca4f7280257734d042adca53c078f",
   "created_at": "2023-07-12T07:13:55Z",
   "head": "a7c69b2deda24f3eff610468ca8ece5cc269c198",
@@ -142,11 +62,19 @@
  {
   "base": "b643e1d9bdc0e98d238a72f9988c01265306d09f",
   "created_at": "2023-07-07T01:09:00Z",
-  "head": "7ed2216d0f161e4b9eeb7d70aae3a9816eea9ac0",
+  "head": "45da40121f5d9685286f599e1f1f901c53aad557",
   "login": "syg",
   "number": 3116,
   "ref": "rab-stage4",
   "revs": [
+   {
+    "adate": "2023-07-26T15:30:59-07:00",
+    "author": "Shu-yu Guo",
+    "date": "2023-07-26T15:30:59-07:00",
+    "hash": "45da40121f5d9685286f599e1f1f901c53aad557",
+    "parents": "7ed2216d0f161e4b9eeb7d70aae3a9816eea9ac0",
+    "subject": "Use ToIndex in grow and resize"
+   },
    {
     "adate": "2023-07-11T13:34:38-07:00",
     "author": "Shu-yu Guo",
@@ -221,7 +149,7 @@
    }
   ],
   "title": "Normative: Add resizable ArrayBuffer and growable SharedArrayBuffer",
-  "updated_at": "2023-07-11T20:34:45Z"
+  "updated_at": "2023-07-26T22:31:09Z"
  },
  {
   "base": "53454a9a596d90473d2152ef04656d605162cd4c",

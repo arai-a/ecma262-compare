@@ -1,5 +1,45 @@
 [
  {
+  "adate": "2023-07-26T15:21:16-07:00",
+  "author": "Jordan Harband",
+  "date": "2023-07-26T15:21:16-07:00",
+  "hash": "d1059d1e6dfa3f961229c5085fb1931760292852",
+  "parents": "a524f33e208e565d0a38b0d63d339fdacf71b751",
+  "subject": "Meta: one final tweak to the IPR check"
+ },
+ {
+  "adate": "2023-07-26T10:50:43-07:00",
+  "author": "Jordan Harband",
+  "date": "2023-07-26T10:50:43-07:00",
+  "hash": "a524f33e208e565d0a38b0d63d339fdacf71b751",
+  "parents": "8a681e0ab6f212543db8ca814eaf3963bcc180e7",
+  "subject": "Meta: fail IPR check on commits with unknown authors (#3128)"
+ },
+ {
+  "adate": "2023-07-24T14:28:18-07:00",
+  "author": "Jordan Harband",
+  "date": "2023-07-24T14:28:18-07:00",
+  "hash": "8a681e0ab6f212543db8ca814eaf3963bcc180e7",
+  "parents": "37359d9913f48e14639260e6a6ab2a76266e425a",
+  "subject": "Revert \"Editorial: Correct desiderable to desirable (#3125)\" (#3128)"
+ },
+ {
+  "adate": "2023-07-24T14:28:13-07:00",
+  "author": "Jordan Harband",
+  "date": "2023-07-24T14:28:13-07:00",
+  "hash": "37359d9913f48e14639260e6a6ab2a76266e425a",
+  "parents": "d8ce35e1b92c0e89f1aae9a34fdaa0a73070f584",
+  "subject": "Revert \"Editorial: Correct ExportEntry.[[LocalName]] description (#3126)\" (#3128)"
+ },
+ {
+  "adate": "2023-07-24T14:28:09-07:00",
+  "author": "Jordan Harband",
+  "date": "2023-07-24T14:28:09-07:00",
+  "hash": "d8ce35e1b92c0e89f1aae9a34fdaa0a73070f584",
+  "parents": "57f427b18bf7e629565ac2fcf2392ba7b7d0d8fb",
+  "subject": "Revert \"Editorial: Correct GetExportedNames return type (#3127)\" (#3128)"
+ },
+ {
   "adate": "2023-07-24T13:35:00-07:00",
   "author": "bojavou",
   "date": "2023-07-24T13:35:00-07:00",
