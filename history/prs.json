@@ -82,11 +82,163 @@
  {
   "base": "f688c6f3999c731a08f4d408e5a4f976b0bbf39d",
   "created_at": "2023-07-07T01:09:00Z",
-  "head": "d7f2a3a05d3628de3ee34941b91565617e8320ee",
+  "head": "5495194405bf726c437db524e98d169d7152ce40",
   "login": "syg",
   "number": 3116,
   "ref": "rab-stage4",
   "revs": [
+   {
+    "adate": "2023-07-28T15:36:16-07:00",
+    "author": "Shu-yu Guo",
+    "date": "2023-07-28T15:36:16-07:00",
+    "hash": "5495194405bf726c437db524e98d169d7152ce40",
+    "parents": "6a3c859d9468e23abc510235dc6999ddda6f6091",
+    "subject": "Fix loading of GSAB length"
+   },
+   {
+    "adate": "2023-07-28T15:15:30-07:00",
+    "author": "Shu-yu Guo",
+    "date": "2023-07-28T15:15:30-07:00",
+    "hash": "6a3c859d9468e23abc510235dc6999ddda6f6091",
+    "parents": "d7f2a3a05d3628de3ee34941b91565617e8320ee cc80a8dbb6948831492e238acf66fe7259d53b57",
+    "subject": "Merge pull request #1 from jmdyck/3116_ed"
+   },
+   {
+    "adate": "2023-07-28T17:55:24-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-07-28T17:55:24-04:00",
+    "hash": "cc80a8dbb6948831492e238acf66fe7259d53b57",
+    "parents": "fbb7561e0e99df9e3c287d4b821e3d442e0b91c2",
+    "subject": "Change `_newLength_` to `_newByteLength_`"
+   },
+   {
+    "adate": "2023-07-28T17:53:28-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-07-28T17:53:28-04:00",
+    "hash": "fbb7561e0e99df9e3c287d4b821e3d442e0b91c2",
+    "parents": "9bdf2783de4f8a373ce409ba7ad1b5443855b5dc",
+    "subject": "Add an Assert"
+   },
+   {
+    "adate": "2023-07-28T17:52:45-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-07-28T17:52:45-04:00",
+    "hash": "9bdf2783de4f8a373ce409ba7ad1b5443855b5dc",
+    "parents": "30f1b903483baf0b7a781767b9b10ef7a294b2ee",
+    "subject": "AtomicCompareExchangeInSharedBlock's `_block_` is also a *Shared* Data Block"
+   },
+   {
+    "adate": "2023-07-28T17:48:53-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-07-28T17:48:53-04:00",
+    "hash": "30f1b903483baf0b7a781767b9b10ef7a294b2ee",
+    "parents": "f5a0d9c6ee18e3ee08c9e7357e595b845dbc4aea",
+    "subject": "GetRawBytesFromSharedBlock's `_block_` is a *Shared* Data Block"
+   },
+   {
+    "adate": "2023-07-28T17:45:34-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-07-28T17:45:34-04:00",
+    "hash": "f5a0d9c6ee18e3ee08c9e7357e595b845dbc4aea",
+    "parents": "7f5e241c12f2de41bd0ce54cec0ef955cbaaa76c",
+    "subject": "GetArrayBufferMaxByteLengthOption return type"
+   },
+   {
+    "adate": "2023-07-28T17:40:23-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-07-28T17:40:23-04:00",
+    "hash": "7f5e241c12f2de41bd0ce54cec0ef955cbaaa76c",
+    "parents": "bd162badc40e1004f6e545c79ec71f62abdede4b",
+    "subject": "Change `_O_` to `_buffer_`"
+   },
+   {
+    "adate": "2023-07-28T17:32:39-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-07-28T17:32:39-04:00",
+    "hash": "bd162badc40e1004f6e545c79ec71f62abdede4b",
+    "parents": "922cfb28029c5a783a57c0db07182504ab209f08",
+    "subject": "Change `_iieoRecord_` to `_O_`"
+   },
+   {
+    "adate": "2023-07-28T17:19:35-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-07-28T17:19:35-04:00",
+    "hash": "922cfb28029c5a783a57c0db07182504ab209f08",
+    "parents": "d20b0976269820c81afb27f9145c4681237f8a01",
+    "subject": "Apply R() to result of RawBytesToNumeric"
+   },
+   {
+    "adate": "2023-07-28T16:54:41-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-07-28T16:54:41-04:00",
+    "hash": "d20b0976269820c81afb27f9145c4681237f8a01",
+    "parents": "d99a070f72deba63a4770f82bfc98e173e7be1f5",
+    "subject": "Assert that Integer-Indexed Object isn't out-of-bounds"
+   },
+   {
+    "adate": "2023-07-28T16:42:37-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-07-28T16:42:37-04:00",
+    "hash": "d99a070f72deba63a4770f82bfc98e173e7be1f5",
+    "parents": "899c9ed4579665ad7d7fa7f72d8125168d4c15be",
+    "subject": "\"_maxByteLength_ is present and not ~empty~\": expand the elision"
+   },
+   {
+    "adate": "2023-07-28T16:40:01-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-07-28T16:40:01-04:00",
+    "hash": "899c9ed4579665ad7d7fa7f72d8125168d4c15be",
+    "parents": "8e6f3084a5ec35ed16ade8bf639a0eebc85f0c34",
+    "subject": "`\"maxByteLength\"`: backticks to stars"
+   },
+   {
+    "adate": "2023-07-28T16:36:20-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-07-28T16:36:20-04:00",
+    "hash": "8e6f3084a5ec35ed16ade8bf639a0eebc85f0c34",
+    "parents": "95d356cfa2ae43181d2ad3c64c0b9963ebd799d4",
+    "subject": "\"abrupt\" is redundant in \"abrupt throw completion\""
+   },
+   {
+    "adate": "2023-07-28T16:35:28-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-07-28T16:35:28-04:00",
+    "hash": "95d356cfa2ae43181d2ad3c64c0b9963ebd799d4",
+    "parents": "47c3b712dbd320f01c25d7d3b9ddadfd0bf8b115",
+    "subject": "algorithm wording"
+   },
+   {
+    "adate": "2023-07-28T16:32:56-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-07-28T16:32:56-04:00",
+    "hash": "47c3b712dbd320f01c25d7d3b9ddadfd0bf8b115",
+    "parents": "5a31b193e3a849993c30a64f08b8f85a3a7c2865",
+    "subject": "algorithm punctuation"
+   },
+   {
+    "adate": "2023-07-28T16:22:08-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-07-28T16:22:08-04:00",
+    "hash": "5a31b193e3a849993c30a64f08b8f85a3a7c2865",
+    "parents": "315ccbfe036a4d1b47da9cf07ed8384c9664a978",
+    "subject": "Put property-sections in alphabetical order by property name"
+   },
+   {
+    "adate": "2023-07-28T16:18:08-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-07-28T16:18:08-04:00",
+    "hash": "315ccbfe036a4d1b47da9cf07ed8384c9664a978",
+    "parents": "934e1d95e4fff07a8090c3a62709b81861556fd5",
+    "subject": "Use standard phrasing for intrinsic preambles"
+   },
+   {
+    "adate": "2023-07-28T16:14:49-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-07-28T16:14:49-04:00",
+    "hash": "934e1d95e4fff07a8090c3a62709b81861556fd5",
+    "parents": "30a73595bb5d6a937ca4a50524b8b71004565046",
+    "subject": "fix malformed aliases"
+   },
    {
     "adate": "2023-07-28T11:07:37-07:00",
     "author": "Shu-yu Guo",
@@ -193,7 +345,7 @@
    }
   ],
   "title": "Normative: Add resizable ArrayBuffer and growable SharedArrayBuffer",
-  "updated_at": "2023-07-28T18:07:56Z"
+  "updated_at": "2023-07-28T22:37:18Z"
  },
  {
   "base": "53454a9a596d90473d2152ef04656d605162cd4c",
