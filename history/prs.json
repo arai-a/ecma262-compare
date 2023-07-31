@@ -82,11 +82,19 @@
  {
   "base": "f688c6f3999c731a08f4d408e5a4f976b0bbf39d",
   "created_at": "2023-07-07T01:09:00Z",
-  "head": "5495194405bf726c437db524e98d169d7152ce40",
+  "head": "ba7e529ad049430350678c578ed120db1697e200",
   "login": "syg",
   "number": 3116,
   "ref": "rab-stage4",
   "revs": [
+   {
+    "adate": "2023-07-31T16:18:11-07:00",
+    "author": "Shu-yu Guo",
+    "date": "2023-07-31T16:18:11-07:00",
+    "hash": "ba7e529ad049430350678c578ed120db1697e200",
+    "parents": "5495194405bf726c437db524e98d169d7152ce40",
+    "subject": "Amend \"Properties of AB/SAB\" sections with new internal slots"
+   },
    {
     "adate": "2023-07-28T15:36:16-07:00",
     "author": "Shu-yu Guo",
@@ -345,7 +353,7 @@
    }
   ],
   "title": "Normative: Add resizable ArrayBuffer and growable SharedArrayBuffer",
-  "updated_at": "2023-07-28T22:37:18Z"
+  "updated_at": "2023-07-31T23:18:46Z"
  },
  {
   "base": "53454a9a596d90473d2152ef04656d605162cd4c",
