@@ -1,6 +1,34 @@
 [
  {
   "base": "f688c6f3999c731a08f4d408e5a4f976b0bbf39d",
+  "created_at": "2023-08-02T01:06:11Z",
+  "head": "7d22df7d14340694e120aaa777f86b1336995f0d",
+  "login": "doehyunbaek",
+  "number": 3138,
+  "ref": "dev-ecmascript-function-object",
+  "revs": [
+   {
+    "adate": "2023-08-02T09:52:50+09:00",
+    "author": "Doehyun Baek",
+    "date": "2023-08-02T10:00:51+09:00",
+    "hash": "7d22df7d14340694e120aaa777f86b1336995f0d",
+    "parents": "49fffca0dc0c0f45b45a03f6605fd72630e1c1eb",
+    "subject": "Editorial: more precise parameter for PrepareForOrdinaryCall"
+   },
+   {
+    "adate": "2023-08-02T09:49:14+09:00",
+    "author": "Doehyun Baek",
+    "date": "2023-08-02T10:00:42+09:00",
+    "hash": "49fffca0dc0c0f45b45a03f6605fd72630e1c1eb",
+    "parents": "f688c6f3999c731a08f4d408e5a4f976b0bbf39d",
+    "subject": "Editorial: Use \"ECMAScript function object\" in type"
+   }
+  ],
+  "title": "Editorial: use \"ECMAScript function object\" for parameter types",
+  "updated_at": "2023-08-02T01:06:11Z"
+ },
+ {
+  "base": "f688c6f3999c731a08f4d408e5a4f976b0bbf39d",
   "created_at": "2023-07-27T15:13:45Z",
   "head": "5ce7994d6dfd7785703e9cea158731857a5abce3",
   "login": "VoltrexKeyva",
