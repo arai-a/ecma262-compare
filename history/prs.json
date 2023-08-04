@@ -1,23 +1,51 @@
 [
  {
   "base": "f688c6f3999c731a08f4d408e5a4f976b0bbf39d",
+  "created_at": "2023-08-04T22:49:37Z",
+  "head": "5b7ebf56d1c2b2e22dd623aef7e2f5d684da08c0",
+  "login": "sunkai9064",
+  "number": 3142,
+  "ref": "main",
+  "revs": [
+   {
+    "adate": "2023-08-05T06:44:04+08:00",
+    "author": "sunkai9064",
+    "date": "2023-08-05T06:44:04+08:00",
+    "hash": "5b7ebf56d1c2b2e22dd623aef7e2f5d684da08c0",
+    "parents": "f688c6f3999c731a08f4d408e5a4f976b0bbf39d",
+    "subject": "Rename \"to link\" to \"to load\" in the Source Text Module Records section"
+   }
+  ],
+  "title": "Rename \"to link\" to \"to load\" in the Source Text Module Records section",
+  "updated_at": "2023-08-04T22:49:37Z"
+ },
+ {
+  "base": "c316ec72f6e227d88d4ef67a3e16b486c5ca356d",
   "created_at": "2023-08-03T21:03:26Z",
-  "head": "af009e13d46e6baa932a24c448517c8a9f8d7239",
+  "head": "105fc8afa10c88bb0f7dadec76759556330436f4",
   "login": "tc39",
   "number": 3140,
   "ref": "bump-emu",
   "revs": [
    {
+    "adate": "2023-08-04T16:22:51-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2023-08-04T16:22:51-07:00",
+    "hash": "105fc8afa10c88bb0f7dadec76759556330436f4",
+    "parents": "aa6ea614eecef038ae1789e98f1d33a19c0adf49",
+    "subject": "Editorial: fix two remaining redeclaration issues"
+   },
+   {
     "adate": "2023-08-03T13:50:41-07:00",
     "author": "Kevin Gibbons",
-    "date": "2023-08-03T13:58:14-07:00",
-    "hash": "af009e13d46e6baa932a24c448517c8a9f8d7239",
-    "parents": "f688c6f3999c731a08f4d408e5a4f976b0bbf39d",
+    "date": "2023-08-04T16:17:54-07:00",
+    "hash": "aa6ea614eecef038ae1789e98f1d33a19c0adf49",
+    "parents": "c316ec72f6e227d88d4ef67a3e16b486c5ca356d",
     "subject": "Meta: bump ecmarkup to 17.1.1"
    }
   ],
   "title": "Meta: bump ecmarkup to 17.1.1",
-  "updated_at": "2023-08-03T21:03:26Z"
+  "updated_at": "2023-08-04T23:23:39Z"
  },
  {
   "base": "f688c6f3999c731a08f4d408e5a4f976b0bbf39d",
@@ -146,26 +174,6 @@
   ],
   "title": "Editorial: Change alreadyCalled from Record to Boolean",
   "updated_at": "2023-07-26T04:17:37Z"
- },
- {
-  "base": "57f427b18bf7e629565ac2fcf2392ba7b7d0d8fb",
-  "created_at": "2023-07-26T03:02:50Z",
-  "head": "b1dc32c428a6fd207a6159d68528e04185913a4b",
-  "login": "kimjg1119",
-  "number": 3131,
-  "ref": "duplicated-assign",
-  "revs": [
-   {
-    "adate": "2023-07-25T02:36:57+09:00",
-    "author": "kimjg1119",
-    "date": "2023-07-25T04:17:37+09:00",
-    "hash": "b1dc32c428a6fd207a6159d68528e04185913a4b",
-    "parents": "57f427b18bf7e629565ac2fcf2392ba7b7d0d8fb",
-    "subject": "Editorial: Correct usage of 'Let'/'Set' in algorithms"
-   }
-  ],
-  "title": "Editorial: Correct usage of 'Let'/'Set' in algorithms",
-  "updated_at": "2023-07-26T03:02:50Z"
  },
  {
   "base": "f688c6f3999c731a08f4d408e5a4f976b0bbf39d",
@@ -898,34 +906,6 @@
   ],
   "title": "Normative: make non-USV import strings a syntax error",
   "updated_at": "2023-05-11T20:54:35Z"
- },
- {
-  "base": "f688c6f3999c731a08f4d408e5a4f976b0bbf39d",
-  "created_at": "2023-05-10T19:00:36Z",
-  "head": "1bf7b6aa6569746b57249fab30c596b96e2c6edd",
-  "login": "jmdyck",
-  "number": 3063,
-  "ref": "thisFooValue",
-  "revs": [
-   {
-    "adate": "2023-05-11T14:42:41-04:00",
-    "author": "Michael Dyck",
-    "date": "2023-07-26T22:15:39-04:00",
-    "hash": "1bf7b6aa6569746b57249fab30c596b96e2c6edd",
-    "parents": "a524d98570824a7e2f87b69cf7ff26633d3fc5de",
-    "subject": "Editorial: Capitalize AOs `thisFooValue` -> `ThisFooValue`"
-   },
-   {
-    "adate": "2023-05-10T14:19:16-04:00",
-    "author": "Michael Dyck",
-    "date": "2023-07-26T22:14:03-04:00",
-    "hash": "a524d98570824a7e2f87b69cf7ff26633d3fc5de",
-    "parents": "f688c6f3999c731a08f4d408e5a4f976b0bbf39d",
-    "subject": "Editorial: Define each `thisFooValue` AO in its own section"
-   }
-  ],
-  "title": "Editorial: Define each `thisFooValue` AO in its own section",
-  "updated_at": "2023-07-27T12:53:43Z"
  },
  {
   "base": "0213370eeb20112fa3e3557c23504a2e8cf41e6e",
