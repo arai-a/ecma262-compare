@@ -1,6 +1,70 @@
 [
  {
   "base": "c316ec72f6e227d88d4ef67a3e16b486c5ca356d",
+  "created_at": "2023-08-11T16:11:17Z",
+  "head": "8f637cef10d6c7c9ffb32b78e5203041341c14ec",
+  "login": "tc39",
+  "number": 3146,
+  "ref": "built-in-constructor",
+  "revs": [
+   {
+    "adate": "2023-08-11T10:07:11-06:00",
+    "author": "Michael Ficarra",
+    "date": "2023-08-11T10:08:22-06:00",
+    "hash": "8f637cef10d6c7c9ffb32b78e5203041341c14ec",
+    "parents": "c316ec72f6e227d88d4ef67a3e16b486c5ca356d",
+    "subject": "move built-in constructor into its own T&D section"
+   }
+  ],
+  "title": "Editorial: move built-in constructor into its own Terms & Definitions section",
+  "updated_at": "2023-08-11T16:11:17Z"
+ },
+ {
+  "base": "c316ec72f6e227d88d4ef67a3e16b486c5ca356d",
+  "created_at": "2023-08-11T15:46:24Z",
+  "head": "8270de70e247744025558df2e40cf42f9eb10f62",
+  "login": "jmdyck",
+  "number": 3145,
+  "ref": "Built-In_Function_Objects",
+  "revs": [
+   {
+    "adate": "2023-08-10T23:10:00-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-08-10T23:45:51-04:00",
+    "hash": "8270de70e247744025558df2e40cf42f9eb10f62",
+    "parents": "e378b449a0ebe835a32e361d7fe7bb21574f4dee",
+    "subject": "Editorial: Reword the remains of \"Built-in Function Objects\""
+   },
+   {
+    "adate": "2023-08-10T23:42:33-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-08-10T23:42:33-04:00",
+    "hash": "e378b449a0ebe835a32e361d7fe7bb21574f4dee",
+    "parents": "6e8c0d1c59bb77925241ce6ee2c519b4bd760f59",
+    "subject": "Editorial: Move para re a property of built-in functions"
+   },
+   {
+    "adate": "2023-08-10T18:35:15-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-08-10T23:37:59-04:00",
+    "hash": "6e8c0d1c59bb77925241ce6ee2c519b4bd760f59",
+    "parents": "d84620c7bc04ea77881c2d778a50cc56cb14926d",
+    "subject": "Editorial: Delete prose that repeats step 10 of built-in [[Call]] and [[Construct]]"
+   },
+   {
+    "adate": "2023-08-10T18:25:09-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-08-10T19:48:44-04:00",
+    "hash": "d84620c7bc04ea77881c2d778a50cc56cb14926d",
+    "parents": "c316ec72f6e227d88d4ef67a3e16b486c5ca356d",
+    "subject": "Editorial: Don't say that a built-in function can be an ECMAScript function"
+   }
+  ],
+  "title": "Editorial: Stop saying that a built-in function can be implemented as an ECMAScript function",
+  "updated_at": "2023-08-11T16:03:07Z"
+ },
+ {
+  "base": "c316ec72f6e227d88d4ef67a3e16b486c5ca356d",
   "created_at": "2023-08-09T02:20:38Z",
   "head": "ab8a1c1014a18a2f029a790fc80fc95f3cc973f1",
   "login": "jmdyck",
@@ -1126,34 +1190,6 @@
   ],
   "title": "Normative: Add Import Attributes",
   "updated_at": "2023-06-28T09:19:12Z"
- },
- {
-  "base": "a42e2d5f5ea956785a625a87f6c1dd8752bf0f00",
-  "created_at": "2023-04-17T01:47:57Z",
-  "head": "ce283cd1af3af6dd231b7fca908caf0342eed66f",
-  "login": "gibson042",
-  "number": 3045,
-  "ref": "2023-04-simplify-enumerableownproperties",
-  "revs": [
-   {
-    "adate": "2023-04-14T10:30:51-04:00",
-    "author": "Richard Gibson",
-    "date": "2023-04-16T21:36:31-04:00",
-    "hash": "ce283cd1af3af6dd231b7fca908caf0342eed66f",
-    "parents": "4a04fc69bc6948dce682ff82050936dfeda1d335",
-    "subject": "Editorial: Combine Append steps in EnumerableOwnProperties"
-   },
-   {
-    "adate": "2023-04-14T10:21:28-04:00",
-    "author": "Richard Gibson",
-    "date": "2023-04-14T10:21:28-04:00",
-    "hash": "4a04fc69bc6948dce682ff82050936dfeda1d335",
-    "parents": "a42e2d5f5ea956785a625a87f6c1dd8752bf0f00",
-    "subject": "Editorial: Avoid preceding a multi-step Else with a collapsed single-step If"
-   }
-  ],
-  "title": "Editorial: Simplify EnumerableOwnProperties",
-  "updated_at": "2023-04-17T01:47:57Z"
  },
  {
   "base": "8d3d3cfbbe03cb041e8468bcc13d9b292d801e77",
