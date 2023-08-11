@@ -2696,24 +2696,32 @@
   "updated_at": "2023-03-01T04:18:48Z"
  },
  {
-  "base": "e59b54b7d5bd452dc9277a42073dfb4f55f63600",
+  "base": "c316ec72f6e227d88d4ef67a3e16b486c5ca356d",
   "created_at": "2022-01-22T17:35:52Z",
-  "head": "98ebe18a6f2fddd7d4650ceae002a560579d9197",
+  "head": "365f471cc412ccdb45a5dc7e83d2fe6e4c8be9ca",
   "login": "jmdyck",
   "number": 2637,
   "ref": "CallOrConstruct",
   "revs": [
    {
+    "adate": "2023-08-11T17:32:03-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-08-11T17:32:03-04:00",
+    "hash": "365f471cc412ccdb45a5dc7e83d2fe6e4c8be9ca",
+    "parents": "12bec5f2e9f664a08f3b4ff186bc251ccfca2e3f",
+    "subject": "fixup: \"If _thisArgument_ is ~uninitialized~, ...\""
+   },
+   {
     "adate": "2022-01-22T12:05:14-05:00",
     "author": "Michael Dyck",
-    "date": "2023-07-22T11:21:08-04:00",
-    "hash": "98ebe18a6f2fddd7d4650ceae002a560579d9197",
-    "parents": "e59b54b7d5bd452dc9277a42073dfb4f55f63600",
+    "date": "2023-08-06T10:12:20-04:00",
+    "hash": "12bec5f2e9f664a08f3b4ff186bc251ccfca2e3f",
+    "parents": "c316ec72f6e227d88d4ef67a3e16b486c5ca356d",
     "subject": "Editorial: Factor out BuiltinCallOrConstruct"
    }
   ],
   "title": "Editorial: Factor out BuiltinCallOrConstruct",
-  "updated_at": "2023-07-22T15:28:25Z"
+  "updated_at": "2023-08-11T21:50:18Z"
  },
  {
   "base": "b64ac7fb4ae0a7c1a3332274e51c9664b47b4363",
