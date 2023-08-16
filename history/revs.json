@@ -1,5 +1,45 @@
 [
  {
+  "adate": "2023-08-16T15:20:35-07:00",
+  "author": "Doehyun Baek",
+  "date": "2023-08-16T15:20:35-07:00",
+  "hash": "484fef6feee04d3dca2b3068dfd6d9b921e311cd",
+  "parents": "af95a3b8fc1d2269b709c9271a157f8af3a0f3a8",
+  "subject": "Editorial: Use \"ECMAScript function object\" in type (#3138)"
+ },
+ {
+  "adate": "2023-08-16T15:14:50-07:00",
+  "author": "Linus Groh",
+  "date": "2023-08-16T15:14:50-07:00",
+  "hash": "af95a3b8fc1d2269b709c9271a157f8af3a0f3a8",
+  "parents": "b6050336ef70c0daea31712c5457b3afaf60013c",
+  "subject": "Editorial: Add brief explainer for [[StringData]] internal slot (#3112)"
+ },
+ {
+  "adate": "2023-08-16T15:14:47-07:00",
+  "author": "Linus Groh",
+  "date": "2023-08-16T15:14:47-07:00",
+  "hash": "b6050336ef70c0daea31712c5457b3afaf60013c",
+  "parents": "1ac5e4a486c33731fb90bc3aceb36f80e56ab814",
+  "subject": "Editorial: Add \"Properties of BigInt Instances\" section (#3112)"
+ },
+ {
+  "adate": "2023-08-16T15:10:16-07:00",
+  "author": "Mathias Bynens",
+  "date": "2023-08-16T15:10:16-07:00",
+  "hash": "1ac5e4a486c33731fb90bc3aceb36f80e56ab814",
+  "parents": "b916c7609b324bf09088d4a7dc80d2eae44132ce",
+  "subject": "Editorial: Clarify RegExp grammar parameter N \u2192 NamedCaptureGroups (#3120)"
+ },
+ {
+  "adate": "2023-08-16T15:06:23-07:00",
+  "author": "Michael Dyck",
+  "date": "2023-08-16T15:06:23-07:00",
+  "hash": "b916c7609b324bf09088d4a7dc80d2eae44132ce",
+  "parents": "c316ec72f6e227d88d4ef67a3e16b486c5ca356d",
+  "subject": "Editorial: Factor out BuiltinCallOrConstruct (#2637)"
+ },
+ {
   "adate": "2023-08-05T11:02:02+12:00",
   "author": "kimjg1119",
   "date": "2023-08-05T11:02:02+12:00",
