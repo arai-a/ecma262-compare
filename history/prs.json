@@ -73,82 +73,6 @@
  },
  {
   "base": "c316ec72f6e227d88d4ef67a3e16b486c5ca356d",
-  "created_at": "2023-08-09T02:20:38Z",
-  "head": "ab8a1c1014a18a2f029a790fc80fc95f3cc973f1",
-  "login": "jmdyck",
-  "number": 3144,
-  "ref": "ECMAScript_function_object",
-  "revs": [
-   {
-    "adate": "2023-08-08T21:31:52-04:00",
-    "author": "Michael Dyck",
-    "date": "2023-08-08T22:17:37-04:00",
-    "hash": "ab8a1c1014a18a2f029a790fc80fc95f3cc973f1",
-    "parents": "c655bc5f95860cb81190bf9363524e4c0befe6dd",
-    "subject": "Calling an ECMAScript function object"
-   },
-   {
-    "adate": "2023-08-08T20:58:42-04:00",
-    "author": "Michael Dyck",
-    "date": "2023-08-08T22:17:27-04:00",
-    "hash": "c655bc5f95860cb81190bf9363524e4c0befe6dd",
-    "parents": "c316ec72f6e227d88d4ef67a3e16b486c5ca356d",
-    "subject": "Creating an ECMAScript function object"
-   }
-  ],
-  "title": "Editorial: \"a function object\" -> \"an ECMAScript function object\"",
-  "updated_at": "2023-08-09T02:23:16Z"
- },
- {
-  "base": "c316ec72f6e227d88d4ef67a3e16b486c5ca356d",
-  "created_at": "2023-08-08T21:49:29Z",
-  "head": "a6b40622f51483b38ce996ca7d038ccd0ecc14c8",
-  "login": "jmdyck",
-  "number": 3143,
-  "ref": "reinstate_thisfoovalue_ids",
-  "revs": [
-   {
-    "adate": "2023-08-08T17:47:26-04:00",
-    "author": "Michael Dyck",
-    "date": "2023-08-08T17:47:26-04:00",
-    "hash": "a6b40622f51483b38ce996ca7d038ccd0ecc14c8",
-    "parents": "c316ec72f6e227d88d4ef67a3e16b486c5ca356d",
-    "subject": "Editorial: Reinstate 5 ids"
-   }
-  ],
-  "title": "Editorial: Reinstate 5 ids",
-  "updated_at": "2023-08-08T21:53:17Z"
- },
- {
-  "base": "f688c6f3999c731a08f4d408e5a4f976b0bbf39d",
-  "created_at": "2023-08-04T22:49:37Z",
-  "head": "7cdd01774f19267d902ca61d6d11c52b601daac0",
-  "login": "sunkai9064",
-  "number": 3142,
-  "ref": "main",
-  "revs": [
-   {
-    "adate": "2023-08-09T22:00:44+08:00",
-    "author": "sunkai9064",
-    "date": "2023-08-09T22:00:44+08:00",
-    "hash": "7cdd01774f19267d902ca61d6d11c52b601daac0",
-    "parents": "5b7ebf56d1c2b2e22dd623aef7e2f5d684da08c0",
-    "subject": "Editorial: Modify the description about Source Text Module Records section"
-   },
-   {
-    "adate": "2023-08-05T06:44:04+08:00",
-    "author": "sunkai9064",
-    "date": "2023-08-05T06:44:04+08:00",
-    "hash": "5b7ebf56d1c2b2e22dd623aef7e2f5d684da08c0",
-    "parents": "f688c6f3999c731a08f4d408e5a4f976b0bbf39d",
-    "subject": "Rename \"to link\" to \"to load\" in the Source Text Module Records section"
-   }
-  ],
-  "title": "Editorial: Rename \"to link\" to \"to load\" in the Source Text Module Records section",
-  "updated_at": "2023-08-09T14:02:25Z"
- },
- {
-  "base": "c316ec72f6e227d88d4ef67a3e16b486c5ca356d",
   "created_at": "2023-08-03T21:03:26Z",
   "head": "105fc8afa10c88bb0f7dadec76759556330436f4",
   "login": "tc39",
@@ -245,34 +169,6 @@
  },
  {
   "base": "f688c6f3999c731a08f4d408e5a4f976b0bbf39d",
-  "created_at": "2023-08-02T01:06:11Z",
-  "head": "7d22df7d14340694e120aaa777f86b1336995f0d",
-  "login": "doehyunbaek",
-  "number": 3138,
-  "ref": "dev-ecmascript-function-object",
-  "revs": [
-   {
-    "adate": "2023-08-02T09:52:50+09:00",
-    "author": "Doehyun Baek",
-    "date": "2023-08-02T10:00:51+09:00",
-    "hash": "7d22df7d14340694e120aaa777f86b1336995f0d",
-    "parents": "49fffca0dc0c0f45b45a03f6605fd72630e1c1eb",
-    "subject": "Editorial: more precise parameter for PrepareForOrdinaryCall"
-   },
-   {
-    "adate": "2023-08-02T09:49:14+09:00",
-    "author": "Doehyun Baek",
-    "date": "2023-08-02T10:00:42+09:00",
-    "hash": "49fffca0dc0c0f45b45a03f6605fd72630e1c1eb",
-    "parents": "f688c6f3999c731a08f4d408e5a4f976b0bbf39d",
-    "subject": "Editorial: Use \"ECMAScript function object\" in type"
-   }
-  ],
-  "title": "Editorial: use \"ECMAScript function object\" for parameter types",
-  "updated_at": "2023-08-02T01:06:11Z"
- },
- {
-  "base": "f688c6f3999c731a08f4d408e5a4f976b0bbf39d",
   "created_at": "2023-07-27T15:13:45Z",
   "head": "5ce7994d6dfd7785703e9cea158731857a5abce3",
   "login": "VoltrexKeyva",
@@ -310,26 +206,6 @@
   ],
   "title": "Editorial: Change alreadyCalled from Record to Boolean",
   "updated_at": "2023-07-26T04:17:37Z"
- },
- {
-  "base": "f688c6f3999c731a08f4d408e5a4f976b0bbf39d",
-  "created_at": "2023-07-12T07:13:55Z",
-  "head": "2390fb472c9586a97d68e233629f0fa720a3e95a",
-  "login": "mathiasbynens",
-  "number": 3120,
-  "ref": "N-to-WithNamedCaptureGroups",
-  "revs": [
-   {
-    "adate": "2023-07-12T09:12:48+02:00",
-    "author": "Mathias Bynens",
-    "date": "2023-08-02T09:29:41+02:00",
-    "hash": "2390fb472c9586a97d68e233629f0fa720a3e95a",
-    "parents": "f688c6f3999c731a08f4d408e5a4f976b0bbf39d",
-    "subject": "Editorial: Clarify RegExp grammar parameter N \u2192 NamedCaptureGroups"
-   }
-  ],
-  "title": "Editorial: Clarify RegExp grammar parameter N \u2192 NamedCaptureGroups",
-  "updated_at": "2023-08-02T07:30:49Z"
  },
  {
   "base": "f688c6f3999c731a08f4d408e5a4f976b0bbf39d",
@@ -606,34 +482,6 @@
   ],
   "title": "Normative: Add resizable ArrayBuffer and growable SharedArrayBuffer",
   "updated_at": "2023-07-31T23:18:46Z"
- },
- {
-  "base": "53454a9a596d90473d2152ef04656d605162cd4c",
-  "created_at": "2023-07-02T15:20:53Z",
-  "head": "8785374f1a46a472a17aa73ba54300d03877ffe1",
-  "login": "linusg",
-  "number": 3112,
-  "ref": "bigint-instances",
-  "revs": [
-   {
-    "adate": "2023-07-02T16:19:14+01:00",
-    "author": "Linus Groh",
-    "date": "2023-07-02T16:19:31+01:00",
-    "hash": "8785374f1a46a472a17aa73ba54300d03877ffe1",
-    "parents": "abd003684be18be6918c9dbcbf75e8d460bad9db",
-    "subject": "Editorial: Add brief explainer for [[StringData]] internal slot"
-   },
-   {
-    "adate": "2023-07-02T16:18:33+01:00",
-    "author": "Linus Groh",
-    "date": "2023-07-02T16:18:33+01:00",
-    "hash": "abd003684be18be6918c9dbcbf75e8d460bad9db",
-    "parents": "53454a9a596d90473d2152ef04656d605162cd4c",
-    "subject": "Editorial: Add \"Properties of BigInt Instances\" section"
-   }
-  ],
-  "title": "Editorial: Add \"Properties of BigInt Instances\" section",
-  "updated_at": "2023-07-02T15:20:53Z"
  },
  {
   "base": "53454a9a596d90473d2152ef04656d605162cd4c",
@@ -2088,9 +1936,9 @@
   "updated_at": "2023-02-13T19:08:39Z"
  },
  {
-  "base": "a623bfb94e9d5088bd7d60709832c71bac487bbe",
+  "base": "0802e7da54fc870af4e6c37b048428611c449f61",
   "created_at": "2022-09-04T02:20:57Z",
-  "head": "eb1e87b23c74bf149f886f06863daee1c92dbac0",
+  "head": "124966e0a499c79097410c2aa099ff2fd9718070",
   "login": "jmdyck",
   "number": 2889,
   "ref": "callable",
@@ -2098,22 +1946,22 @@
    {
     "adate": "2022-09-03T22:11:56-04:00",
     "author": "Michael Dyck",
-    "date": "2023-02-25T11:12:20-05:00",
-    "hash": "eb1e87b23c74bf149f886f06863daee1c92dbac0",
-    "parents": "d8ccea39ea5ac85fc6814d5d91b7fbea5dc336a3",
+    "date": "2023-08-17T10:08:33-04:00",
+    "hash": "124966e0a499c79097410c2aa099ff2fd9718070",
+    "parents": "237d8911db6612b052ca1382a0c07207e7d46f5a",
     "subject": "Eliminate most other uses of \"callable\""
    },
    {
     "adate": "2022-09-03T21:47:50-04:00",
     "author": "Michael Dyck",
-    "date": "2023-02-25T11:12:18-05:00",
-    "hash": "d8ccea39ea5ac85fc6814d5d91b7fbea5dc336a3",
-    "parents": "a623bfb94e9d5088bd7d60709832c71bac487bbe",
+    "date": "2023-08-17T10:08:33-04:00",
+    "hash": "237d8911db6612b052ca1382a0c07207e7d46f5a",
+    "parents": "0802e7da54fc870af4e6c37b048428611c449f61",
     "subject": "Rename \"IsCallable\" as \"IsFunction\""
    }
   ],
   "title": "Editorial: Minimize use of the term \"callable\"",
-  "updated_at": "2023-02-25T16:14:34Z"
+  "updated_at": "2023-08-17T21:29:11Z"
  },
  {
   "base": "3cf8e30e47dd1f010b7d86929670f1e8c51ecc43",
@@ -2696,34 +2544,6 @@
   "updated_at": "2023-03-01T04:18:48Z"
  },
  {
-  "base": "c316ec72f6e227d88d4ef67a3e16b486c5ca356d",
-  "created_at": "2022-01-22T17:35:52Z",
-  "head": "365f471cc412ccdb45a5dc7e83d2fe6e4c8be9ca",
-  "login": "jmdyck",
-  "number": 2637,
-  "ref": "CallOrConstruct",
-  "revs": [
-   {
-    "adate": "2023-08-11T17:32:03-04:00",
-    "author": "Michael Dyck",
-    "date": "2023-08-11T17:32:03-04:00",
-    "hash": "365f471cc412ccdb45a5dc7e83d2fe6e4c8be9ca",
-    "parents": "12bec5f2e9f664a08f3b4ff186bc251ccfca2e3f",
-    "subject": "fixup: \"If _thisArgument_ is ~uninitialized~, ...\""
-   },
-   {
-    "adate": "2022-01-22T12:05:14-05:00",
-    "author": "Michael Dyck",
-    "date": "2023-08-06T10:12:20-04:00",
-    "hash": "12bec5f2e9f664a08f3b4ff186bc251ccfca2e3f",
-    "parents": "c316ec72f6e227d88d4ef67a3e16b486c5ca356d",
-    "subject": "Editorial: Factor out BuiltinCallOrConstruct"
-   }
-  ],
-  "title": "Editorial: Factor out BuiltinCallOrConstruct",
-  "updated_at": "2023-08-11T21:50:18Z"
- },
- {
   "base": "b64ac7fb4ae0a7c1a3332274e51c9664b47b4363",
   "created_at": "2021-12-17T02:56:25Z",
   "head": "190271360702f8b654c69258f115727921e18d26",
@@ -2892,9 +2712,9 @@
   "updated_at": "2021-07-25T15:08:46Z"
  },
  {
-  "base": "8410f1b68b81522d3a34753e4ed9be053a162e4b",
+  "base": "0802e7da54fc870af4e6c37b048428611c449f61",
   "created_at": "2021-06-27T15:32:45Z",
-  "head": "3d0639d28958b3ad2e7f2e589256d150449bb171",
+  "head": "a5ae275578799c4d6e2e3aced8eef4a0aa43172c",
   "login": "jmdyck",
   "number": 2445,
   "ref": "annex_B_pattern_ambig",
@@ -2902,14 +2722,14 @@
    {
     "adate": "2021-06-27T10:54:12-04:00",
     "author": "Michael Dyck",
-    "date": "2022-11-04T16:30:42-04:00",
-    "hash": "3d0639d28958b3ad2e7f2e589256d150449bb171",
-    "parents": "8410f1b68b81522d3a34753e4ed9be053a162e4b",
+    "date": "2023-08-17T10:15:52-04:00",
+    "hash": "a5ae275578799c4d6e2e3aced8eef4a0aa43172c",
+    "parents": "0802e7da54fc870af4e6c37b048428611c449f61",
     "subject": "Editorial: Eliminate order-disambiguation from Annex B Pattern-grammar"
    }
   ],
   "title": "Editorial: Eliminate order-disambiguation from Annex B Pattern-grammar",
-  "updated_at": "2022-11-04T21:11:30Z"
+  "updated_at": "2023-08-17T21:27:11Z"
  },
  {
   "base": "c4a8bd4075825f9c1c77e7ca1e6f8811c8a41354",
@@ -3704,9 +3524,9 @@
   "updated_at": "2020-03-27T07:01:25Z"
  },
  {
-  "base": "86614b788804fa4d6f8a803639b04ca8730e9a03",
+  "base": "0802e7da54fc870af4e6c37b048428611c449f61",
   "created_at": "2019-07-13T02:30:44Z",
-  "head": "8f8b486d1725b6ed9927d7987c41bebb5de09a7c",
+  "head": "2d77d5595aa9c296fc8e9f52aae27e9fdb5612b7",
   "login": "jmdyck",
   "number": 1623,
   "ref": "index_strings",
@@ -3714,38 +3534,38 @@
    {
     "adate": "2019-07-12T11:59:54-04:00",
     "author": "Michael Dyck",
-    "date": "2023-05-25T20:06:07-04:00",
-    "hash": "8f8b486d1725b6ed9927d7987c41bebb5de09a7c",
-    "parents": "3f79ac0bb51a53cea19782a64f08d59b7dc3790c",
+    "date": "2023-08-17T17:24:28-04:00",
+    "hash": "2d77d5595aa9c296fc8e9f52aae27e9fdb5612b7",
+    "parents": "d7236f08ff9feb9663ff22c1fc3f350f0b80b512",
     "subject": "Editorial: some minor rewordings"
    },
    {
     "adate": "2019-07-12T11:12:43-04:00",
     "author": "Michael Dyck",
-    "date": "2023-05-25T20:06:02-04:00",
-    "hash": "3f79ac0bb51a53cea19782a64f08d59b7dc3790c",
-    "parents": "be00eced33092f10cdf7f31a0d64280b4c159647",
+    "date": "2023-08-17T17:24:28-04:00",
+    "hash": "d7236f08ff9feb9663ff22c1fc3f350f0b80b512",
+    "parents": "92852265b33fb21ef2e60ad7033468f0c47d36f1",
     "subject": "Editorial: Replace \"array index\" with \"Uint32-string\""
    },
    {
     "adate": "2019-07-12T10:23:31-04:00",
     "author": "Michael Dyck",
-    "date": "2023-05-25T20:00:21-04:00",
-    "hash": "be00eced33092f10cdf7f31a0d64280b4c159647",
-    "parents": "5cf610d00fb9c4ee07ea6ff0fe0cb568f24bb325",
+    "date": "2023-08-17T17:24:28-04:00",
+    "hash": "92852265b33fb21ef2e60ad7033468f0c47d36f1",
+    "parents": "f0a4b7fba937d484b746efab3558efa36240f047",
     "subject": "Editorial: Replace \"integer index\" with \"Uint53-string\""
    },
    {
     "adate": "2019-07-12T21:58:00-04:00",
     "author": "Michael Dyck",
-    "date": "2023-05-25T19:52:53-04:00",
-    "hash": "5cf610d00fb9c4ee07ea6ff0fe0cb568f24bb325",
-    "parents": "86614b788804fa4d6f8a803639b04ca8730e9a03",
+    "date": "2023-08-17T17:24:24-04:00",
+    "hash": "f0a4b7fba937d484b746efab3558efa36240f047",
+    "parents": "0802e7da54fc870af4e6c37b048428611c449f61",
     "subject": "Editorial: Fix wording in Note for Arguments exotic objects"
    }
   ],
   "title": "Editorial: Replace terms \"integer index\" and \"array index\"",
-  "updated_at": "2023-05-26T00:32:17Z"
+  "updated_at": "2023-08-17T21:24:50Z"
  },
  {
   "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
