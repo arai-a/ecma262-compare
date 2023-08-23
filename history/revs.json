@@ -1,5 +1,37 @@
 [
  {
+  "adate": "2023-08-23T15:08:21-07:00",
+  "author": "Michael Ficarra",
+  "date": "2023-08-23T15:08:21-07:00",
+  "hash": "68881b6ce4c688e71499b435a8dac4ac0d4e7681",
+  "parents": "bb4d638355b130d6f23f86b248fb3a6d4fc4bb4f",
+  "subject": "Editorial: remove constraints on host-defined AOs that repeat signature (#3153)"
+ },
+ {
+  "adate": "2023-08-23T15:03:47-07:00",
+  "author": "Kevin Gibbons",
+  "date": "2023-08-23T15:03:47-07:00",
+  "hash": "bb4d638355b130d6f23f86b248fb3a6d4fc4bb4f",
+  "parents": "252719a1b7407864879c23a07e093d9212482e85",
+  "subject": "Meta: bump ecmarkup to 17.1.1 (#3140)"
+ },
+ {
+  "adate": "2023-08-23T15:03:43-07:00",
+  "author": "Kevin Gibbons",
+  "date": "2023-08-23T15:03:43-07:00",
+  "hash": "252719a1b7407864879c23a07e093d9212482e85",
+  "parents": "9d1f407a5d1c736cdf3fdf615a03e55f892a893b",
+  "subject": "Editorial: fix two remaining redeclaration issues (#3140)"
+ },
+ {
+  "adate": "2023-08-23T14:52:10-07:00",
+  "author": "Doehyun Baek",
+  "date": "2023-08-23T14:52:10-07:00",
+  "hash": "9d1f407a5d1c736cdf3fdf615a03e55f892a893b",
+  "parents": "0802e7da54fc870af4e6c37b048428611c449f61",
+  "subject": "Editorial: widen paramter type of IsCompatiblePropertyDescriptor (#3151)"
+ },
+ {
   "adate": "2023-08-16T16:07:06-07:00",
   "author": "Michael Dyck",
   "date": "2023-08-16T16:07:06-07:00",

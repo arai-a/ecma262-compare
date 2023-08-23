@@ -1,23 +1,23 @@
 [
  {
-  "base": "0802e7da54fc870af4e6c37b048428611c449f61",
-  "created_at": "2023-08-22T23:45:35Z",
-  "head": "b7bcb48087957a7f687cb032c8e992ed94498395",
-  "login": "tc39",
-  "number": 3153,
-  "ref": "host-defined-constraints",
+  "base": "68881b6ce4c688e71499b435a8dac4ac0d4e7681",
+  "created_at": "2023-08-23T22:34:26Z",
+  "head": "b47ed4d2475838775a899d3754bfa95107e63aea",
+  "login": "syg",
+  "number": 3154,
+  "ref": "kebab-case-enums",
   "revs": [
    {
-    "adate": "2023-08-22T17:44:32-06:00",
-    "author": "Michael Ficarra",
-    "date": "2023-08-22T17:44:32-06:00",
-    "hash": "b7bcb48087957a7f687cb032c8e992ed94498395",
+    "adate": "2023-08-23T15:33:21-07:00",
+    "author": "Shu-yu Guo",
+    "date": "2023-08-23T15:33:21-07:00",
+    "hash": "b47ed4d2475838775a899d3754bfa95107e63aea",
     "parents": "0802e7da54fc870af4e6c37b048428611c449f61",
-    "subject": "Editorial: remove constraints on host-defined AOs that repeat signature"
+    "subject": "Editorial: Make all spec enums lower kebab-case"
    }
   ],
-  "title": "Editorial: remove constraints on host-defined AOs that repeat their signature",
-  "updated_at": "2023-08-22T23:45:35Z"
+  "title": "Editorial: Make all spec enums lower kebab-case",
+  "updated_at": "2023-08-23T22:36:59Z"
  },
  {
   "base": "0802e7da54fc870af4e6c37b048428611c449f61",
@@ -38,26 +38,6 @@
   ],
   "title": "Editorial: add alt text to Ecma logo",
   "updated_at": "2023-08-20T08:40:58Z"
- },
- {
-  "base": "0802e7da54fc870af4e6c37b048428611c449f61",
-  "created_at": "2023-08-20T05:30:05Z",
-  "head": "a3c885b395cafcca70eb4597a7fa48e337e11b6a",
-  "login": "doehyunbaek",
-  "number": 3151,
-  "ref": "widen_IsCompatiblePropertyDescriptor",
-  "revs": [
-   {
-    "adate": "2023-08-20T14:13:22+09:00",
-    "author": "Doehyun Baek",
-    "date": "2023-08-20T14:27:12+09:00",
-    "hash": "a3c885b395cafcca70eb4597a7fa48e337e11b6a",
-    "parents": "0802e7da54fc870af4e6c37b048428611c449f61",
-    "subject": "Editorial: widen paramter type of IsCompatiblePropertyDescriptor"
-   }
-  ],
-  "title": "Editorial: widen paramter type of IsCompatiblePropertyDescriptor",
-  "updated_at": "2023-08-20T05:30:05Z"
  },
  {
   "base": "0802e7da54fc870af4e6c37b048428611c449f61",
@@ -158,34 +138,6 @@
   ],
   "title": "Editorial: Stop saying that a built-in function can be implemented as an ECMAScript function",
   "updated_at": "2023-08-17T23:40:34Z"
- },
- {
-  "base": "c316ec72f6e227d88d4ef67a3e16b486c5ca356d",
-  "created_at": "2023-08-03T21:03:26Z",
-  "head": "105fc8afa10c88bb0f7dadec76759556330436f4",
-  "login": "tc39",
-  "number": 3140,
-  "ref": "bump-emu",
-  "revs": [
-   {
-    "adate": "2023-08-04T16:22:51-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2023-08-04T16:22:51-07:00",
-    "hash": "105fc8afa10c88bb0f7dadec76759556330436f4",
-    "parents": "aa6ea614eecef038ae1789e98f1d33a19c0adf49",
-    "subject": "Editorial: fix two remaining redeclaration issues"
-   },
-   {
-    "adate": "2023-08-03T13:50:41-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2023-08-04T16:17:54-07:00",
-    "hash": "aa6ea614eecef038ae1789e98f1d33a19c0adf49",
-    "parents": "c316ec72f6e227d88d4ef67a3e16b486c5ca356d",
-    "subject": "Meta: bump ecmarkup to 17.1.1"
-   }
-  ],
-  "title": "Meta: bump ecmarkup to 17.1.1",
-  "updated_at": "2023-08-04T23:23:39Z"
  },
  {
   "base": "c316ec72f6e227d88d4ef67a3e16b486c5ca356d",
