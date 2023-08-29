@@ -1,6 +1,26 @@
 [
  {
   "base": "68881b6ce4c688e71499b435a8dac4ac0d4e7681",
+  "created_at": "2023-08-29T14:47:17Z",
+  "head": "da34cecafca12faf0b4b454c96e0ac2107bb8ce8",
+  "login": "gibson042",
+  "number": 3157,
+  "ref": "gh-1426-getsubstitution-dollar-nn-2",
+  "revs": [
+   {
+    "adate": "2019-10-08T21:53:05-04:00",
+    "author": "Richard Gibson",
+    "date": "2023-08-29T10:43:23-04:00",
+    "hash": "da34cecafca12faf0b4b454c96e0ac2107bb8ce8",
+    "parents": "68881b6ce4c688e71499b435a8dac4ac0d4e7681",
+    "subject": "Normative: Update GetSubstitution to match reality"
+   }
+  ],
+  "title": "Normative: Update GetSubstitution to match reality",
+  "updated_at": "2023-08-29T14:52:52Z"
+ },
+ {
+  "base": "68881b6ce4c688e71499b435a8dac4ac0d4e7681",
   "created_at": "2023-08-23T22:34:26Z",
   "head": "ce53488bfd7f22ffc236943cf228d02616aedebf",
   "login": "syg",
@@ -3482,74 +3502,6 @@
   ],
   "title": "Normative: function implementation hiding",
   "updated_at": "2020-07-11T17:01:36Z"
- },
- {
-  "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
-  "created_at": "2019-10-09T01:54:47Z",
-  "head": "1ab6c465dc3e8f744e2d81cc40271d718a68510c",
-  "login": "gibson042",
-  "number": 1732,
-  "ref": "gh-1426-GetSubstitution-dollar-nn",
-  "revs": [
-   {
-    "adate": "2019-11-25T21:10:30-05:00",
-    "author": "Richard Gibson",
-    "date": "2019-11-25T21:10:30-05:00",
-    "hash": "1ab6c465dc3e8f744e2d81cc40271d718a68510c",
-    "parents": "b66bbe3a0febeb770b519cbd0d600382123e108c",
-    "subject": "Editorial: Improve table anchor"
-   },
-   {
-    "adate": "2019-11-23T21:49:45-05:00",
-    "author": "Richard Gibson",
-    "date": "2019-11-23T21:49:45-05:00",
-    "hash": "b66bbe3a0febeb770b519cbd0d600382123e108c",
-    "parents": "603f83545dbe643fd0cffc040bba1b31505eb79b",
-    "subject": "Editorial: Replace \"the empty string\" with \"the empty String\""
-   },
-   {
-    "adate": "2019-11-13T19:07:04-05:00",
-    "author": "Richard Gibson",
-    "date": "2019-11-13T19:07:04-05:00",
-    "hash": "603f83545dbe643fd0cffc040bba1b31505eb79b",
-    "parents": "e5941f0f2b880dee9ae2823df6bacf8b9734eff7",
-    "subject": "Editorial: Be explicit when the \"longest sequence\" is empty"
-   },
-   {
-    "adate": "2019-11-13T16:08:24-05:00",
-    "author": "Richard Gibson",
-    "date": "2019-11-13T16:19:19-05:00",
-    "hash": "e5941f0f2b880dee9ae2823df6bacf8b9734eff7",
-    "parents": "19b2af12da83f48488b2afeb4f717ced1a80cf61",
-    "subject": "Normative: Account for abrupt completion of named capture replacement"
-   },
-   {
-    "adate": "2019-10-09T21:30:46-04:00",
-    "author": "Michael Dyck",
-    "date": "2019-11-13T16:19:19-05:00",
-    "hash": "19b2af12da83f48488b2afeb4f717ced1a80cf61",
-    "parents": "fdd92722f1f076b0b5979bf28b6fc6ff896e812b",
-    "subject": "Editorial: Apply suggestions from code review"
-   },
-   {
-    "adate": "2019-10-08T23:45:22-04:00",
-    "author": "Jordan Harband",
-    "date": "2019-11-13T16:19:19-05:00",
-    "hash": "fdd92722f1f076b0b5979bf28b6fc6ff896e812b",
-    "parents": "accf7f5975a6bf8c882ade705f327a196aa69f4a",
-    "subject": "Editorial: Remove extra space"
-   },
-   {
-    "adate": "2019-10-08T21:53:05-04:00",
-    "author": "Richard Gibson",
-    "date": "2019-11-13T16:19:15-05:00",
-    "hash": "accf7f5975a6bf8c882ade705f327a196aa69f4a",
-    "parents": "8fd2e014fa52a1c932686904a7b46eb742fe3112",
-    "subject": "Normative: Update GetSubstitution to match reality"
-   }
-  ],
-  "title": "Normative: Update GetSubstitution to match reality",
-  "updated_at": "2020-08-18T20:58:42Z"
  },
  {
   "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
