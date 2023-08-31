@@ -108,64 +108,72 @@
   "updated_at": "2023-08-11T16:11:17Z"
  },
  {
-  "base": "0802e7da54fc870af4e6c37b048428611c449f61",
+  "base": "68881b6ce4c688e71499b435a8dac4ac0d4e7681",
   "created_at": "2023-08-11T15:46:24Z",
-  "head": "c7ab7ca9048e7bf79eaa6364f68efaf46613a3a3",
+  "head": "cf9a79e006e1b55a8219f39a39512faea38178ed",
   "login": "jmdyck",
   "number": 3145,
   "ref": "Built-In_Function_Objects",
   "revs": [
    {
+    "adate": "2023-08-30T22:42:54-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-08-30T22:42:54-04:00",
+    "hash": "cf9a79e006e1b55a8219f39a39512faea38178ed",
+    "parents": "4be377fc96f22595a9adc672b822a408d6d98db0",
+    "subject": "fixup: respond to michaelficarra review"
+   },
+   {
     "adate": "2023-08-17T19:37:55-04:00",
     "author": "Michael Dyck",
-    "date": "2023-08-17T19:37:55-04:00",
-    "hash": "c7ab7ca9048e7bf79eaa6364f68efaf46613a3a3",
-    "parents": "02780667afa639dbf07b0ca02efb7be061a0fc5d",
+    "date": "2023-08-23T22:55:09-04:00",
+    "hash": "4be377fc96f22595a9adc672b822a408d6d98db0",
+    "parents": "9b133abd7328df81081099a5dfc90ef2b67208e7",
     "subject": "fixup: Refer to BuiltinCallOrConstruct rather than [[Call]] and [[Construct]]"
    },
    {
     "adate": "2023-08-11T15:09:52-04:00",
     "author": "Michael Dyck",
-    "date": "2023-08-17T09:15:10-04:00",
-    "hash": "02780667afa639dbf07b0ca02efb7be061a0fc5d",
-    "parents": "6bdd4ada42d3ff84cd91cf2d5f7b793468e7cc8d",
+    "date": "2023-08-23T22:55:09-04:00",
+    "hash": "9b133abd7328df81081099a5dfc90ef2b67208e7",
+    "parents": "f9c57379e26b84f1e39c08c470d4df0e98b1f9c4",
     "subject": "fixup: \"functions\" -> \"function objects\""
    },
    {
     "adate": "2023-08-10T23:10:00-04:00",
     "author": "Michael Dyck",
-    "date": "2023-08-17T09:15:09-04:00",
-    "hash": "6bdd4ada42d3ff84cd91cf2d5f7b793468e7cc8d",
-    "parents": "e0610cae5b92e8843dceef1764f4e761324161f2",
+    "date": "2023-08-23T22:55:09-04:00",
+    "hash": "f9c57379e26b84f1e39c08c470d4df0e98b1f9c4",
+    "parents": "490f90556e954c507d18a4bcc98eefdcb2777c2c",
     "subject": "Editorial: Reword the remains of \"Built-in Function Objects\""
    },
    {
     "adate": "2023-08-10T23:42:33-04:00",
     "author": "Michael Dyck",
-    "date": "2023-08-17T09:15:09-04:00",
-    "hash": "e0610cae5b92e8843dceef1764f4e761324161f2",
-    "parents": "976f5d4bbd5f4e2544285b1041406bd4f1c1740b",
+    "date": "2023-08-23T22:55:09-04:00",
+    "hash": "490f90556e954c507d18a4bcc98eefdcb2777c2c",
+    "parents": "22703ac7621dbd9769699c2d19366b788fbec52c",
     "subject": "Editorial: Move para re a property of built-in functions"
    },
    {
     "adate": "2023-08-10T18:35:15-04:00",
     "author": "Michael Dyck",
-    "date": "2023-08-17T09:15:09-04:00",
-    "hash": "976f5d4bbd5f4e2544285b1041406bd4f1c1740b",
-    "parents": "5ad00fe07fcce069d670ae3c7532d3054155c1be",
+    "date": "2023-08-23T22:55:09-04:00",
+    "hash": "22703ac7621dbd9769699c2d19366b788fbec52c",
+    "parents": "52e89853949566113bc1686f78c9f7c993b2398c",
     "subject": "Editorial: Delete prose that repeats step 10 of built-in [[Call]] and [[Construct]]"
    },
    {
     "adate": "2023-08-10T18:25:09-04:00",
     "author": "Michael Dyck",
-    "date": "2023-08-17T09:15:09-04:00",
-    "hash": "5ad00fe07fcce069d670ae3c7532d3054155c1be",
-    "parents": "0802e7da54fc870af4e6c37b048428611c449f61",
+    "date": "2023-08-23T22:55:08-04:00",
+    "hash": "52e89853949566113bc1686f78c9f7c993b2398c",
+    "parents": "68881b6ce4c688e71499b435a8dac4ac0d4e7681",
     "subject": "Editorial: Don't say that a built-in function can be an ECMAScript function"
    }
   ],
   "title": "Editorial: Stop saying that a built-in function can be implemented as an ECMAScript function",
-  "updated_at": "2023-08-17T23:40:34Z"
+  "updated_at": "2023-08-31T02:44:01Z"
  },
  {
   "base": "c316ec72f6e227d88d4ef67a3e16b486c5ca356d",
