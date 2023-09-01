@@ -20,34 +20,6 @@
   "updated_at": "2023-08-29T14:52:52Z"
  },
  {
-  "base": "68881b6ce4c688e71499b435a8dac4ac0d4e7681",
-  "created_at": "2023-08-23T22:34:26Z",
-  "head": "ce53488bfd7f22ffc236943cf228d02616aedebf",
-  "login": "syg",
-  "number": 3154,
-  "ref": "kebab-case-enums",
-  "revs": [
-   {
-    "adate": "2023-08-28T10:34:26-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2023-08-28T10:34:26-07:00",
-    "hash": "ce53488bfd7f22ffc236943cf228d02616aedebf",
-    "parents": "b47ed4d2475838775a899d3754bfa95107e63aea",
-    "subject": "Missed a few"
-   },
-   {
-    "adate": "2023-08-23T15:33:21-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2023-08-23T15:33:21-07:00",
-    "hash": "b47ed4d2475838775a899d3754bfa95107e63aea",
-    "parents": "0802e7da54fc870af4e6c37b048428611c449f61",
-    "subject": "Editorial: Make all spec enums lower kebab-case"
-   }
-  ],
-  "title": "Editorial: Make all spec enums lower kebab-case",
-  "updated_at": "2023-08-28T17:34:37Z"
- },
- {
   "base": "0802e7da54fc870af4e6c37b048428611c449f61",
   "created_at": "2023-08-20T08:40:58Z",
   "head": "e31898791ca1e6f2ecf8d6e1dd6fd1c08a5100a1",
@@ -3148,9 +3120,9 @@
   "updated_at": "2023-04-21T00:37:33Z"
  },
  {
-  "base": "0802e7da54fc870af4e6c37b048428611c449f61",
+  "base": "b12a244f3732527a652a58ff481493fd1a110ff1",
   "created_at": "2020-12-08T06:31:39Z",
-  "head": "24243216874fe40dcb50e78898632dfe29fd6f0d",
+  "head": "0693eb6a572cedc6f60c64ecae491c69679d92bd",
   "login": "jmdyck",
   "number": 2246,
   "ref": "ExecutionContext_Record",
@@ -3158,78 +3130,78 @@
    {
     "adate": "2023-08-17T19:08:56-04:00",
     "author": "Michael Dyck",
-    "date": "2023-08-17T19:08:56-04:00",
-    "hash": "24243216874fe40dcb50e78898632dfe29fd6f0d",
-    "parents": "d78e4969b40dc23c94a4545aa25cc1f6ecacbb06",
+    "date": "2023-08-31T18:02:30-04:00",
+    "hash": "0693eb6a572cedc6f60c64ecae491c69679d92bd",
+    "parents": "061ebe460df60ad7af65c63a987e493e1ef7638e",
     "subject": "fixup: drop \"ECMAScriptFunctionObject.{Call,Construct}\" from esmeta-ignore.json"
    },
    {
     "adate": "2022-11-16T17:52:33-05:00",
     "author": "Michael Dyck",
-    "date": "2023-08-17T09:51:35-04:00",
-    "hash": "d78e4969b40dc23c94a4545aa25cc1f6ecacbb06",
-    "parents": "cf1559431bc9af7d7985a459d9e646684e7967f1",
+    "date": "2023-08-31T18:02:30-04:00",
+    "hash": "061ebe460df60ad7af65c63a987e493e1ef7638e",
+    "parents": "06e47e7c1afc0fbe00cd971a119058d84ec0964e",
     "subject": "fixup: try adding PrepareForOrdinaryCall to esmeta-ignore instead of ECMAScriptFunctionObject.Construct"
    },
    {
     "adate": "2022-08-31T23:46:33-04:00",
     "author": "Michael Dyck",
-    "date": "2023-08-17T09:51:35-04:00",
-    "hash": "cf1559431bc9af7d7985a459d9e646684e7967f1",
-    "parents": "4d6fdb199e8a9c51673504f61e1fff26a2680e00",
+    "date": "2023-08-31T18:02:30-04:00",
+    "hash": "06e47e7c1afc0fbe00cd971a119058d84ec0964e",
+    "parents": "576561eb08ed28b3b228fda30ee6fa06ac969404",
     "subject": "fixup: \"execution context\" -> \"ExecutionContext Record\" in some prose"
    },
    {
     "adate": "2022-08-31T23:31:55-04:00",
     "author": "Michael Dyck",
-    "date": "2023-08-17T09:51:35-04:00",
-    "hash": "4d6fdb199e8a9c51673504f61e1fff26a2680e00",
-    "parents": "ad859990479787e28f87662bb98474eb69ef6825",
+    "date": "2023-08-31T18:02:24-04:00",
+    "hash": "576561eb08ed28b3b228fda30ee6fa06ac969404",
+    "parents": "15c77abc35fcc23918cb20bc272f71f1b6168d79",
     "subject": "fixup: \"execution context\" -> \"ExecutionContext Record\" in some alg steps"
    },
    {
     "adate": "2022-08-31T23:13:29-04:00",
     "author": "Michael Dyck",
-    "date": "2023-08-17T09:51:35-04:00",
-    "hash": "ad859990479787e28f87662bb98474eb69ef6825",
-    "parents": "378ac46832862cde34d1420e27874be68f9d2a1d",
+    "date": "2023-08-31T18:01:51-04:00",
+    "hash": "15c77abc35fcc23918cb20bc272f71f1b6168d79",
+    "parents": "15169c4ecb4cffc56b2ac8d6abc1b270189fe94e",
     "subject": "fixup: Avoid saying \"that execution context\" by naming it"
    },
    {
     "adate": "2022-08-31T20:30:10-04:00",
     "author": "Michael Dyck",
-    "date": "2023-08-17T09:51:35-04:00",
-    "hash": "378ac46832862cde34d1420e27874be68f9d2a1d",
-    "parents": "41a477149be83849ceffcd9cd456db109dbcdd34",
+    "date": "2023-08-31T18:01:51-04:00",
+    "hash": "15169c4ecb4cffc56b2ac8d6abc1b270189fe94e",
+    "parents": "9018effc342d6df871e2bfee6e6bccbd5c3ec75c",
     "subject": "fixup: \"execution context\" -> \"ExecutionContext Record\" in record-field tables"
    },
    {
     "adate": "2022-08-31T20:24:28-04:00",
     "author": "Michael Dyck",
-    "date": "2023-08-17T09:51:32-04:00",
-    "hash": "41a477149be83849ceffcd9cd456db109dbcdd34",
-    "parents": "7cd8ea6380f7fa6108ca29ed61c6bd703a4c56d7",
+    "date": "2023-08-31T18:01:51-04:00",
+    "hash": "9018effc342d6df871e2bfee6e6bccbd5c3ec75c",
+    "parents": "1baa2dee310ec6e4ef50ef77991fba8208ae4b06",
     "subject": "fixup: \"execution context\" -> \"ExecutionContext Record\" in AO headers"
    },
    {
     "adate": "2022-08-31T23:32:48-04:00",
     "author": "Michael Dyck",
-    "date": "2023-08-17T09:50:17-04:00",
-    "hash": "7cd8ea6380f7fa6108ca29ed61c6bd703a4c56d7",
-    "parents": "838d5fc1254d4a6778c02c8dab3d4f970b62457a",
+    "date": "2023-08-31T18:01:50-04:00",
+    "hash": "1baa2dee310ec6e4ef50ef77991fba8208ae4b06",
+    "parents": "785aea83fe1f474051ce88018e58d2f9f74102fd",
     "subject": "fixup: \"execution context\" -> \"ExecutionContext Record\" in the <dfn> of ECMAScript code execution contexts"
    },
    {
     "adate": "2020-12-08T01:22:55-05:00",
     "author": "Michael Dyck",
-    "date": "2023-08-17T09:50:12-04:00",
-    "hash": "838d5fc1254d4a6778c02c8dab3d4f970b62457a",
-    "parents": "0802e7da54fc870af4e6c37b048428611c449f61",
+    "date": "2023-08-31T18:01:50-04:00",
+    "hash": "785aea83fe1f474051ce88018e58d2f9f74102fd",
+    "parents": "b12a244f3732527a652a58ff481493fd1a110ff1",
     "subject": "Editorial: Model execution context as a record"
    }
   ],
   "title": "Editorial: Model execution context as a record",
-  "updated_at": "2023-08-17T23:10:48Z"
+  "updated_at": "2023-09-01T00:37:09Z"
  },
  {
   "base": "b3f9b5089bcc3ddd8486379015cd11eb1427a5eb",
