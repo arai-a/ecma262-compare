@@ -1,6 +1,34 @@
 [
  {
   "base": "b12a244f3732527a652a58ff481493fd1a110ff1",
+  "created_at": "2023-09-04T02:16:55Z",
+  "head": "e48ba76e15ce4d0babc354fa9658a105912865af",
+  "login": "jmdyck",
+  "number": 3163,
+  "ref": "is_a_foo_completion",
+  "revs": [
+   {
+    "adate": "2023-09-03T22:24:42-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-09-03T22:26:22-04:00",
+    "hash": "e48ba76e15ce4d0babc354fa9658a105912865af",
+    "parents": "d954fc82654e63ceda42aa89284dd60c4466e485",
+    "subject": "fixup: tweak esmeta-ignore.json as indicated by `typecheck`"
+   },
+   {
+    "adate": "2023-09-03T22:10:31-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-09-03T22:10:31-04:00",
+    "hash": "d954fc82654e63ceda42aa89284dd60c4466e485",
+    "parents": "b12a244f3732527a652a58ff481493fd1a110ff1",
+    "subject": "Editorial: Use \"is a foo completion\" instead of testing [[Type]] field"
+   }
+  ],
+  "title": "Editorial: Use \"is a foo completion\" instead of testing [[Type]] field",
+  "updated_at": "2023-09-04T02:34:48Z"
+ },
+ {
+  "base": "b12a244f3732527a652a58ff481493fd1a110ff1",
   "created_at": "2023-09-02T09:30:05Z",
   "head": "f9ab207d17a0ad41b744f6951297f2217a90b74c",
   "login": "hyp3rflow",
