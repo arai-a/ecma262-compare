@@ -1,6 +1,26 @@
 [
  {
   "base": "9abd594ecc5d6ed5317bc276b1854d3a1f9763ff",
+  "created_at": "2023-09-14T21:26:40Z",
+  "head": "7ccc1352eb0bece58017634ff5d4c0557e3b3990",
+  "login": "tc39",
+  "number": 3174,
+  "ref": "number-less-than-zero-checks",
+  "revs": [
+   {
+    "adate": "2023-09-14T15:11:54-06:00",
+    "author": "Michael Ficarra",
+    "date": "2023-09-14T15:11:54-06:00",
+    "hash": "7ccc1352eb0bece58017634ff5d4c0557e3b3990",
+    "parents": "9abd594ecc5d6ed5317bc276b1854d3a1f9763ff",
+    "subject": "remove unhelpful and potentially misleading checks in Number::lessThan"
+   }
+  ],
+  "title": "Editorial: remove unhelpful and potentially misleading checks in Number::lessThan",
+  "updated_at": "2023-09-14T21:39:28Z"
+ },
+ {
+  "base": "9abd594ecc5d6ed5317bc276b1854d3a1f9763ff",
   "created_at": "2023-09-12T16:33:28Z",
   "head": "86568c07e6795ced644e05e25d82b13dc9f06712",
   "login": "tc39",
