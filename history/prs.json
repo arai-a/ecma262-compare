@@ -312,72 +312,32 @@
   "updated_at": "2023-08-11T16:11:17Z"
  },
  {
-  "base": "68881b6ce4c688e71499b435a8dac4ac0d4e7681",
+  "base": "f2a24f8672aa650daafc39bace3b235f12feb9dd",
   "created_at": "2023-08-11T15:46:24Z",
-  "head": "cf9a79e006e1b55a8219f39a39512faea38178ed",
+  "head": "ce52d695d5615199a840fe8fbfce3a26c4413433",
   "login": "jmdyck",
   "number": 3145,
   "ref": "Built-In_Function_Objects",
   "revs": [
    {
-    "adate": "2023-08-30T22:42:54-04:00",
-    "author": "Michael Dyck",
-    "date": "2023-08-30T22:42:54-04:00",
-    "hash": "cf9a79e006e1b55a8219f39a39512faea38178ed",
-    "parents": "4be377fc96f22595a9adc672b822a408d6d98db0",
-    "subject": "fixup: respond to michaelficarra review"
-   },
-   {
-    "adate": "2023-08-17T19:37:55-04:00",
-    "author": "Michael Dyck",
-    "date": "2023-08-23T22:55:09-04:00",
-    "hash": "4be377fc96f22595a9adc672b822a408d6d98db0",
-    "parents": "9b133abd7328df81081099a5dfc90ef2b67208e7",
-    "subject": "fixup: Refer to BuiltinCallOrConstruct rather than [[Call]] and [[Construct]]"
-   },
-   {
-    "adate": "2023-08-11T15:09:52-04:00",
-    "author": "Michael Dyck",
-    "date": "2023-08-23T22:55:09-04:00",
-    "hash": "9b133abd7328df81081099a5dfc90ef2b67208e7",
-    "parents": "f9c57379e26b84f1e39c08c470d4df0e98b1f9c4",
-    "subject": "fixup: \"functions\" -> \"function objects\""
-   },
-   {
-    "adate": "2023-08-10T23:10:00-04:00",
-    "author": "Michael Dyck",
-    "date": "2023-08-23T22:55:09-04:00",
-    "hash": "f9c57379e26b84f1e39c08c470d4df0e98b1f9c4",
-    "parents": "490f90556e954c507d18a4bcc98eefdcb2777c2c",
-    "subject": "Editorial: Reword the remains of \"Built-in Function Objects\""
-   },
-   {
-    "adate": "2023-08-10T23:42:33-04:00",
-    "author": "Michael Dyck",
-    "date": "2023-08-23T22:55:09-04:00",
-    "hash": "490f90556e954c507d18a4bcc98eefdcb2777c2c",
-    "parents": "22703ac7621dbd9769699c2d19366b788fbec52c",
-    "subject": "Editorial: Move para re a property of built-in functions"
-   },
-   {
     "adate": "2023-08-10T18:35:15-04:00",
     "author": "Michael Dyck",
-    "date": "2023-08-23T22:55:09-04:00",
-    "hash": "22703ac7621dbd9769699c2d19366b788fbec52c",
-    "parents": "52e89853949566113bc1686f78c9f7c993b2398c",
-    "subject": "Editorial: Delete prose that repeats step 10 of built-in [[Call]] and [[Construct]]"
+    "date": "2023-09-19T19:17:37-04:00",
+    "hash": "ce52d695d5615199a840fe8fbfce3a26c4413433",
+    "parents": "ece6486c12c213e5ac08fcc3f77772b7746c1373",
+    "subject": "Editorial: Refactor 10.3 \"Built-in Function Objects\""
    },
    {
     "adate": "2023-08-10T18:25:09-04:00",
     "author": "Michael Dyck",
-    "date": "2023-08-23T22:55:08-04:00",
-    "hash": "52e89853949566113bc1686f78c9f7c993b2398c",
-    "parents": "68881b6ce4c688e71499b435a8dac4ac0d4e7681",
+    "date": "2023-08-31T17:42:34-04:00",
+    "hash": "ece6486c12c213e5ac08fcc3f77772b7746c1373",
+    "parents": "b12a244f3732527a652a58ff481493fd1a110ff1",
     "subject": "Editorial: Don't say that a built-in function can be an ECMAScript function"
    }
   ],
   "title": "Editorial: Stop saying that a built-in function can be implemented as an ECMAScript function",
-  "updated_at": "2023-08-31T02:44:01Z"
+  "updated_at": "2023-09-19T23:26:29Z"
  },
  {
   "base": "c316ec72f6e227d88d4ef67a3e16b486c5ca356d",
