@@ -1,5 +1,29 @@
 [
  {
+  "adate": "2023-09-19T15:08:59-07:00",
+  "author": "Kevin Gibbons",
+  "date": "2023-09-19T15:08:59-07:00",
+  "hash": "f2a24f8672aa650daafc39bace3b235f12feb9dd",
+  "parents": "367a07f04698539dd46d088b3593e8e79c8ab19d",
+  "subject": "Meta: bump ecmarkup to v18.0.0 (#3178)"
+ },
+ {
+  "adate": "2023-09-19T15:03:23-07:00",
+  "author": "Yongwook Choi",
+  "date": "2023-09-19T15:03:23-07:00",
+  "hash": "367a07f04698539dd46d088b3593e8e79c8ab19d",
+  "parents": "5309b9da3872f55cd6fe9c8d9b58fe3e99b1dbf3",
+  "subject": "Editorial: use proper comparison operation in LabelledEvaluation of LabelledStatement (#3162)"
+ },
+ {
+  "adate": "2023-09-19T14:59:04-07:00",
+  "author": "Michael Ficarra",
+  "date": "2023-09-19T14:59:04-07:00",
+  "hash": "5309b9da3872f55cd6fe9c8d9b58fe3e99b1dbf3",
+  "parents": "9abd594ecc5d6ed5317bc276b1854d3a1f9763ff",
+  "subject": "Editorial: remove isLittleEndian parameter of GetModifySetValueInBuffer (#3173)"
+ },
+ {
   "adate": "2023-09-12T09:41:57-07:00",
   "author": "Jordan Harband",
   "date": "2023-09-12T09:41:57-07:00",
