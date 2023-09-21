@@ -1,6 +1,26 @@
 [
  {
   "base": "f2a24f8672aa650daafc39bace3b235f12feb9dd",
+  "created_at": "2023-09-21T22:29:01Z",
+  "head": "59ab92b8dd3462a29ccdd358e59a90bc80467782",
+  "login": "jmdyck",
+  "number": 3183,
+  "ref": "DayFromYear",
+  "revs": [
+   {
+    "adate": "2023-09-21T18:26:41-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-09-21T18:26:41-04:00",
+    "hash": "59ab92b8dd3462a29ccdd358e59a90bc80467782",
+    "parents": "f2a24f8672aa650daafc39bace3b235f12feb9dd",
+    "subject": "Editorial: Fix formatting of note-step in DayFromYear"
+   }
+  ],
+  "title": "Editorial: Fix formatting of note-step in DayFromYear",
+  "updated_at": "2023-09-21T22:34:21Z"
+ },
+ {
+  "base": "f2a24f8672aa650daafc39bace3b235f12feb9dd",
   "created_at": "2023-09-21T20:58:44Z",
   "head": "135a496413837dc40389a5b0bc0f3f0330602484",
   "login": "tc39",
@@ -22,7 +42,7 @@
  {
   "base": "f2a24f8672aa650daafc39bace3b235f12feb9dd",
   "created_at": "2023-09-21T14:39:02Z",
-  "head": "3e8b025956e73a944fcab8b82abc80ef1872c433",
+  "head": "2aea21e92f577d5993d08ad253bec2b30c71c93c",
   "login": "linusg",
   "number": 3181,
   "ref": "fix-inconsistencies",
@@ -30,46 +50,46 @@
    {
     "adate": "2023-09-21T15:33:41+01:00",
     "author": "Linus Groh",
-    "date": "2023-09-21T15:44:29+01:00",
-    "hash": "3e8b025956e73a944fcab8b82abc80ef1872c433",
-    "parents": "26e3372d5fd3e5c275df1d0ca1dcbc43d9781874",
+    "date": "2023-09-21T23:15:36+01:00",
+    "hash": "2aea21e92f577d5993d08ad253bec2b30c71c93c",
+    "parents": "1244a18fb75da636a5fc046bf2ef919cf1b7bbc1",
     "subject": "Editorial: Bring {%TA%,Array}#join() and Array#toLocaleString() in sync"
    },
    {
     "adate": "2023-09-21T15:29:28+01:00",
     "author": "Linus Groh",
-    "date": "2023-09-21T15:44:29+01:00",
-    "hash": "26e3372d5fd3e5c275df1d0ca1dcbc43d9781874",
-    "parents": "c1566123e8ab3ff7520fe7eefc66f5fea8f802e5",
+    "date": "2023-09-21T15:29:28+01:00",
+    "hash": "1244a18fb75da636a5fc046bf2ef919cf1b7bbc1",
+    "parents": "3e2874e08f4a6057b364de3f5dd2802a803b8918",
     "subject": "Editorial: Rename array to O in Array#{toLocaleString,toString}()"
    },
    {
     "adate": "2023-09-21T15:23:19+01:00",
     "author": "Linus Groh",
-    "date": "2023-09-21T15:44:29+01:00",
-    "hash": "c1566123e8ab3ff7520fe7eefc66f5fea8f802e5",
-    "parents": "9ff3190459a6aec87c84b071d7479bdcae52b2a0",
+    "date": "2023-09-21T15:23:19+01:00",
+    "hash": "3e2874e08f4a6057b364de3f5dd2802a803b8918",
+    "parents": "71306419323c6df2bba0b1b68494cb3125107871",
     "subject": "Editorial: Deduplicate ToString(\ud835\udd3d(k)) in Array#{indexOf,lastIndexOf}()"
    },
    {
     "adate": "2023-09-21T15:21:04+01:00",
     "author": "Linus Groh",
-    "date": "2023-09-21T15:44:29+01:00",
-    "hash": "9ff3190459a6aec87c84b071d7479bdcae52b2a0",
-    "parents": "927ffc88de71d51408fb95524f5a267826b8662e",
+    "date": "2023-09-21T15:21:04+01:00",
+    "hash": "71306419323c6df2bba0b1b68494cb3125107871",
+    "parents": "715a83da8c11622e91e899f572e2a5e888957ced",
     "subject": "Editorial: Rename fromVal to fromValue in Array#{copyWithin,shift}()"
    },
    {
     "adate": "2023-09-21T15:18:53+01:00",
     "author": "Linus Groh",
-    "date": "2023-09-21T15:44:29+01:00",
-    "hash": "927ffc88de71d51408fb95524f5a267826b8662e",
+    "date": "2023-09-21T15:18:53+01:00",
+    "hash": "715a83da8c11622e91e899f572e2a5e888957ced",
     "parents": "f2a24f8672aa650daafc39bace3b235f12feb9dd",
     "subject": "Editorial: Compare tv against NaN in Date.prototype.toISOString()"
    }
   ],
   "title": "Editorial: Fix a couple of inconsistencies",
-  "updated_at": "2023-09-21T14:44:35Z"
+  "updated_at": "2023-09-21T22:18:37Z"
  },
  {
   "base": "9abd594ecc5d6ed5317bc276b1854d3a1f9763ff",
@@ -276,9 +296,9 @@
   "updated_at": "2023-09-04T11:26:21Z"
  },
  {
-  "base": "b12a244f3732527a652a58ff481493fd1a110ff1",
+  "base": "f2a24f8672aa650daafc39bace3b235f12feb9dd",
   "created_at": "2023-09-04T02:16:55Z",
-  "head": "e48ba76e15ce4d0babc354fa9658a105912865af",
+  "head": "0484aa7cd2119e16e65b10d965a89042142a098c",
   "login": "jmdyck",
   "number": 3163,
   "ref": "is_a_foo_completion",
@@ -286,22 +306,22 @@
    {
     "adate": "2023-09-03T22:24:42-04:00",
     "author": "Michael Dyck",
-    "date": "2023-09-03T22:26:22-04:00",
-    "hash": "e48ba76e15ce4d0babc354fa9658a105912865af",
-    "parents": "d954fc82654e63ceda42aa89284dd60c4466e485",
+    "date": "2023-09-21T17:51:05-04:00",
+    "hash": "0484aa7cd2119e16e65b10d965a89042142a098c",
+    "parents": "0f5b21fc22a46522f3c6deb04a3935a5d1718a35",
     "subject": "fixup: tweak esmeta-ignore.json as indicated by `typecheck`"
    },
    {
     "adate": "2023-09-03T22:10:31-04:00",
     "author": "Michael Dyck",
-    "date": "2023-09-03T22:10:31-04:00",
-    "hash": "d954fc82654e63ceda42aa89284dd60c4466e485",
-    "parents": "b12a244f3732527a652a58ff481493fd1a110ff1",
+    "date": "2023-09-21T17:50:53-04:00",
+    "hash": "0f5b21fc22a46522f3c6deb04a3935a5d1718a35",
+    "parents": "f2a24f8672aa650daafc39bace3b235f12feb9dd",
     "subject": "Editorial: Use \"is a foo completion\" instead of testing [[Type]] field"
    }
   ],
   "title": "Editorial: Use \"is a foo completion\" instead of testing [[Type]] field",
-  "updated_at": "2023-09-04T02:34:48Z"
+  "updated_at": "2023-09-21T22:21:27Z"
  },
  {
   "base": "68881b6ce4c688e71499b435a8dac4ac0d4e7681",
