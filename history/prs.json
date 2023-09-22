@@ -21,26 +21,6 @@
  },
  {
   "base": "f2a24f8672aa650daafc39bace3b235f12feb9dd",
-  "created_at": "2023-09-21T20:58:44Z",
-  "head": "135a496413837dc40389a5b0bc0f3f0330602484",
-  "login": "tc39",
-  "number": 3182,
-  "ref": "integer-indexed",
-  "revs": [
-   {
-    "adate": "2023-09-22T05:56:45+09:00",
-    "author": "Kevin Gibbons",
-    "date": "2023-09-22T05:56:45+09:00",
-    "hash": "135a496413837dc40389a5b0bc0f3f0330602484",
-    "parents": "f2a24f8672aa650daafc39bace3b235f12feb9dd",
-    "subject": "Markup: dfn \"integer-indexed\""
-   }
-  ],
-  "title": "Markup: dfn \"integer-indexed\"",
-  "updated_at": "2023-09-21T20:58:44Z"
- },
- {
-  "base": "f2a24f8672aa650daafc39bace3b235f12feb9dd",
   "created_at": "2023-09-21T14:39:02Z",
   "head": "2aea21e92f577d5993d08ad253bec2b30c71c93c",
   "login": "linusg",
@@ -402,34 +382,6 @@
   ],
   "title": "Editorial: move built-in constructor into its own Terms & Definitions section",
   "updated_at": "2023-08-11T16:11:17Z"
- },
- {
-  "base": "f2a24f8672aa650daafc39bace3b235f12feb9dd",
-  "created_at": "2023-08-11T15:46:24Z",
-  "head": "ce52d695d5615199a840fe8fbfce3a26c4413433",
-  "login": "jmdyck",
-  "number": 3145,
-  "ref": "Built-In_Function_Objects",
-  "revs": [
-   {
-    "adate": "2023-08-10T18:35:15-04:00",
-    "author": "Michael Dyck",
-    "date": "2023-09-19T19:17:37-04:00",
-    "hash": "ce52d695d5615199a840fe8fbfce3a26c4413433",
-    "parents": "ece6486c12c213e5ac08fcc3f77772b7746c1373",
-    "subject": "Editorial: Refactor 10.3 \"Built-in Function Objects\""
-   },
-   {
-    "adate": "2023-08-10T18:25:09-04:00",
-    "author": "Michael Dyck",
-    "date": "2023-08-31T17:42:34-04:00",
-    "hash": "ece6486c12c213e5ac08fcc3f77772b7746c1373",
-    "parents": "b12a244f3732527a652a58ff481493fd1a110ff1",
-    "subject": "Editorial: Don't say that a built-in function can be an ECMAScript function"
-   }
-  ],
-  "title": "Editorial: Stop saying that a built-in function can be implemented as an ECMAScript function",
-  "updated_at": "2023-09-19T23:26:29Z"
  },
  {
   "base": "c316ec72f6e227d88d4ef67a3e16b486c5ca356d",
@@ -1188,42 +1140,6 @@
   "updated_at": "2023-05-04T12:46:55Z"
  },
  {
-  "base": "f1fbcc563b86f8a198b063fc51a224c5d63cc0dd",
-  "created_at": "2023-01-29T19:15:10Z",
-  "head": "ee5ecaed400f54c2d253fd92c8c5a20e95e2dbf8",
-  "login": "jmdyck",
-  "number": 3007,
-  "ref": "all_built-ins",
-  "revs": [
-   {
-    "adate": "2023-02-01T17:37:16-05:00",
-    "author": "Michael Dyck",
-    "date": "2023-02-01T17:37:16-05:00",
-    "hash": "ee5ecaed400f54c2d253fd92c8c5a20e95e2dbf8",
-    "parents": "1557bacac261b8497f67cae7def74c74a710e108",
-    "subject": "fixup: one [[Call]] doesn't need to be a specialization of the other"
-   },
-   {
-    "adate": "2023-01-29T13:22:48-05:00",
-    "author": "Michael Dyck",
-    "date": "2023-01-29T13:50:09-05:00",
-    "hash": "1557bacac261b8497f67cae7def74c74a710e108",
-    "parents": "9623a99f8a73d4cec1399bdf2c182dff8d85c5c4",
-    "subject": "Editorial: All built-in functions have 10.3.1 [[Call]]"
-   },
-   {
-    "adate": "2023-01-29T13:08:22-05:00",
-    "author": "Michael Dyck",
-    "date": "2023-01-29T13:08:22-05:00",
-    "hash": "9623a99f8a73d4cec1399bdf2c182dff8d85c5c4",
-    "parents": "f53141829cfd8ed6ca866818dca01b2e600065f5",
-    "subject": "Editorial: Rearrange \"Built-in Function Objects\""
-   }
-  ],
-  "title": "Editorial: Re-word re built-in function implemented as ECMAScript function",
-  "updated_at": "2023-02-01T22:43:51Z"
- },
- {
   "base": "b34e0d9570477a4db2f6b945344115627bf84bbe",
   "created_at": "2023-01-23T22:42:45Z",
   "head": "3044fd90ab4c9fcfbb3304970a8315a2853d492a",
@@ -1604,9 +1520,9 @@
   "updated_at": "2023-02-13T16:58:31Z"
  },
  {
-  "base": "b12a244f3732527a652a58ff481493fd1a110ff1",
+  "base": "10d44bfce4640894a0ed366bb769f2700cc8839a",
   "created_at": "2022-11-22T04:48:42Z",
-  "head": "6c504e9ae3b6432091174408b72f06bb244c2c25",
+  "head": "6fd20a74c6d947a2ad401f709384809090a9b0fd",
   "login": "jmdyck",
   "number": 2962,
   "ref": "transfer",
@@ -1614,118 +1530,118 @@
    {
     "adate": "2023-02-15T20:08:53-05:00",
     "author": "Michael Dyck",
-    "date": "2023-09-02T21:05:17-04:00",
-    "hash": "6c504e9ae3b6432091174408b72f06bb244c2c25",
-    "parents": "5793f10178b4dd2e368fd0c26e46b55f8de23634",
+    "date": "2023-09-22T12:52:06-04:00",
+    "hash": "6fd20a74c6d947a2ad401f709384809090a9b0fd",
+    "parents": "d6222c733775b4a47cfb5710dcb36df9aaac9bfa",
     "subject": "fixup: Insert \"and async functions\" into note re execution contexts"
    },
    {
     "adate": "2023-02-13T11:22:33-05:00",
     "author": "Michael Dyck",
-    "date": "2023-09-02T21:05:17-04:00",
-    "hash": "5793f10178b4dd2e368fd0c26e46b55f8de23634",
-    "parents": "e90348e8dc18f6c6d02db00390b54c22a56f4c40",
+    "date": "2023-09-22T12:52:06-04:00",
+    "hash": "d6222c733775b4a47cfb5710dcb36df9aaac9bfa",
+    "parents": "968d55d5a7f56e44c45c9d8411b7b90d4dd4336f",
     "subject": "Eliminate certain wording around execution contexts"
    },
    {
     "adate": "2023-01-13T20:30:31-05:00",
     "author": "Michael Dyck",
-    "date": "2023-09-02T21:05:17-04:00",
-    "hash": "e90348e8dc18f6c6d02db00390b54c22a56f4c40",
-    "parents": "96a04c65cddf2585bfd816d45313040f4c102415",
+    "date": "2023-09-22T12:52:06-04:00",
+    "hash": "968d55d5a7f56e44c45c9d8411b7b90d4dd4336f",
+    "parents": "ed6280ddb865d5b62516bf85b2cf8c20e342ffca",
     "subject": "Transfer control fixup: Make 'code evaluation state' less vague"
    },
    {
     "adate": "2022-11-21T22:50:15-05:00",
     "author": "Michael Dyck",
-    "date": "2023-09-02T21:05:17-04:00",
-    "hash": "96a04c65cddf2585bfd816d45313040f4c102415",
-    "parents": "748d75462927dd865ce939728e131294204825b2",
+    "date": "2023-09-22T12:52:06-04:00",
+    "hash": "ed6280ddb865d5b62516bf85b2cf8c20e342ffca",
+    "parents": "ebc533fd33519c03d17ee229d992b105d9cf1214",
     "subject": "Execution Context section: Make the EC Stack subsection"
    },
    {
     "adate": "2022-11-21T22:21:11-05:00",
     "author": "Michael Dyck",
-    "date": "2023-09-02T21:05:17-04:00",
-    "hash": "748d75462927dd865ce939728e131294204825b2",
-    "parents": "3da221f88152be9c83cb562310495b39b973d888",
+    "date": "2023-09-22T12:52:06-04:00",
+    "hash": "ebc533fd33519c03d17ee229d992b105d9cf1214",
+    "parents": "31de14f0f746928d2c80ded6f3c63f45f026fef9",
     "subject": "Execution Context section: Move a paragraph"
    },
    {
     "adate": "2022-11-21T22:10:01-05:00",
     "author": "Michael Dyck",
-    "date": "2023-09-02T21:05:00-04:00",
-    "hash": "3da221f88152be9c83cb562310495b39b973d888",
-    "parents": "0baaa4934847c8f7ee1115cbfd4f32a8a593764b",
+    "date": "2023-09-22T12:52:06-04:00",
+    "hash": "31de14f0f746928d2c80ded6f3c63f45f026fef9",
+    "parents": "56c17434bf36468feaabfe956c418fc2e9002c1c",
     "subject": "Resume+Suspend: Eliminate `Suspend` steps"
    },
    {
     "adate": "2022-11-21T22:04:15-05:00",
     "author": "Michael Dyck",
-    "date": "2023-09-02T21:02:41-04:00",
-    "hash": "0baaa4934847c8f7ee1115cbfd4f32a8a593764b",
-    "parents": "efce1d10455dddfbe0ec80161eb59cffa7cd4780",
+    "date": "2023-09-22T12:52:06-04:00",
+    "hash": "56c17434bf36468feaabfe956c418fc2e9002c1c",
+    "parents": "0997a916ce27ee14f6cbeb1ef8b143274866fbb1",
     "subject": "Resume+Suspend: Eliminate `Resume` steps"
    },
    {
     "adate": "2022-11-21T21:39:36-05:00",
     "author": "Michael Dyck",
-    "date": "2023-09-02T20:52:06-04:00",
-    "hash": "efce1d10455dddfbe0ec80161eb59cffa7cd4780",
-    "parents": "7d9de8e50377e28e092c45651323aa5635a3f961",
+    "date": "2023-09-22T12:52:06-04:00",
+    "hash": "0997a916ce27ee14f6cbeb1ef8b143274866fbb1",
+    "parents": "94d85b97bd3c31c8529f30f706a6337047834763",
     "subject": "Transfer control: Define \"transfer control\""
    },
    {
     "adate": "2022-11-21T20:17:05-05:00",
     "author": "Michael Dyck",
-    "date": "2023-09-02T20:52:06-04:00",
-    "hash": "7d9de8e50377e28e092c45651323aa5635a3f961",
-    "parents": "ed9cff2db5b987a71e692102bf9434e134bed3c6",
+    "date": "2023-09-22T12:52:06-04:00",
+    "hash": "94d85b97bd3c31c8529f30f706a6337047834763",
+    "parents": "1bba70eb2fb36109a3cfd295ce165583e8c6e448",
     "subject": "Transfer control: Re-word some steps that talk about resuming execution contexts"
    },
    {
     "adate": "2022-11-21T17:28:17-05:00",
     "author": "Michael Dyck",
-    "date": "2023-09-02T20:52:06-04:00",
-    "hash": "ed9cff2db5b987a71e692102bf9434e134bed3c6",
-    "parents": "14605fa504878c5f1d7a49c5ef29bc9319c62519",
+    "date": "2023-09-22T12:52:05-04:00",
+    "hash": "1bba70eb2fb36109a3cfd295ce165583e8c6e448",
+    "parents": "45de13bf44be677f497c2fb2bf49b0d3243c37ec",
     "subject": "Transfer control: Replace 3 \"Return\" steps"
    },
    {
     "adate": "2022-11-21T17:16:57-05:00",
     "author": "Michael Dyck",
-    "date": "2023-09-02T20:52:06-04:00",
-    "hash": "14605fa504878c5f1d7a49c5ef29bc9319c62519",
-    "parents": "fbd1a8f74b0b4bc85a502cf55639d5fcba3963d4",
+    "date": "2023-09-22T12:52:05-04:00",
+    "hash": "45de13bf44be677f497c2fb2bf49b0d3243c37ec",
+    "parents": "3014fa85314abbe7cc04165f2f00ca14aa65e5d7",
     "subject": "(Transfer control:) Refactor GeneratorStart's Abstract Closure so that it has only one Return step."
    },
    {
     "adate": "2022-11-21T16:32:17-05:00",
     "author": "Michael Dyck",
-    "date": "2023-09-02T20:52:06-04:00",
-    "hash": "fbd1a8f74b0b4bc85a502cf55639d5fcba3963d4",
-    "parents": "2b5f731a2763fab4a7b99014e2dcbaaac6acc6ef",
+    "date": "2023-09-22T12:52:05-04:00",
+    "hash": "3014fa85314abbe7cc04165f2f00ca14aa65e5d7",
+    "parents": "a354ed01a58a9d78cec7d011b9bc4b16b5ecd50e",
     "subject": "Transfer control: Replace the 3 remaining blocking-Resume steps"
    },
    {
     "adate": "2022-11-21T16:23:54-05:00",
     "author": "Michael Dyck",
-    "date": "2023-09-02T20:52:05-04:00",
-    "hash": "2b5f731a2763fab4a7b99014e2dcbaaac6acc6ef",
-    "parents": "d8cb0f8382a3d4c921f49e9efe314cf6475c3e75",
+    "date": "2023-09-22T12:52:05-04:00",
+    "hash": "a354ed01a58a9d78cec7d011b9bc4b16b5ecd50e",
+    "parents": "eaf04779db57dab6ca0acdb73d77594469a02210",
     "subject": "Transfer control: Replace the 6 \"Resume the suspended evaluation\" steps"
    },
    {
     "adate": "2023-09-02T20:51:16-04:00",
     "author": "Michael Dyck",
-    "date": "2023-09-02T20:51:16-04:00",
-    "hash": "d8cb0f8382a3d4c921f49e9efe314cf6475c3e75",
-    "parents": "b12a244f3732527a652a58ff481493fd1a110ff1",
+    "date": "2023-09-22T12:51:39-04:00",
+    "hash": "eaf04779db57dab6ca0acdb73d77594469a02210",
+    "parents": "10d44bfce4640894a0ed366bb769f2700cc8839a",
     "subject": "Editorial: Eliminate \"restore <context> as the running execution context\""
    }
   ],
   "title": "Editorial: Various changes around execution contexts",
-  "updated_at": "2023-09-03T01:19:04Z"
+  "updated_at": "2023-09-22T18:41:29Z"
  },
  {
   "base": "053d34c87b14d9234d6f7f45bd61074b72ca9d69",
