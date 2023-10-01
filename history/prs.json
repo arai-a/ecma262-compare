@@ -1,6 +1,26 @@
 [
  {
   "base": "10d44bfce4640894a0ed366bb769f2700cc8839a",
+  "created_at": "2023-10-01T20:28:43Z",
+  "head": "d83f28b4f7de6b260acff7c0330db829ebf2c685",
+  "login": "linusg",
+  "number": 3187,
+  "ref": "dfn-promisereaction",
+  "revs": [
+   {
+    "adate": "2023-10-01T21:27:53+01:00",
+    "author": "Linus Groh",
+    "date": "2023-10-01T21:27:53+01:00",
+    "hash": "d83f28b4f7de6b260acff7c0330db829ebf2c685",
+    "parents": "10d44bfce4640894a0ed366bb769f2700cc8839a",
+    "subject": "Editorial: dfn PromiseReaction Records"
+   }
+  ],
+  "title": "Editorial: dfn PromiseReaction Records",
+  "updated_at": "2023-10-01T20:28:43Z"
+ },
+ {
+  "base": "10d44bfce4640894a0ed366bb769f2700cc8839a",
   "created_at": "2023-09-22T21:28:07Z",
   "head": "c5a84151a9190e9138d308beb71a651848fd3060",
   "login": "tc39",
