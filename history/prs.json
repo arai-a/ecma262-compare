@@ -1,6 +1,178 @@
 [
  {
   "base": "10d44bfce4640894a0ed366bb769f2700cc8839a",
+  "created_at": "2023-10-12T01:47:04Z",
+  "head": "39672b00345b6a53b0908c530ef6d45503be0193",
+  "login": "jmdyck",
+  "number": 3193,
+  "ref": "Date_math",
+  "revs": [
+   {
+    "adate": "2023-10-11T18:31:13-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-10-11T20:08:01-04:00",
+    "hash": "39672b00345b6a53b0908c530ef6d45503be0193",
+    "parents": "055d4f5e3a879b85376acdd14327b0895634e928",
+    "subject": "to math: MakeTime, MakeDay, DateString, TimeZoneString, Date.prototype.toUTCString (some internals only)"
+   },
+   {
+    "adate": "2023-10-11T16:55:16-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-10-11T20:08:01-04:00",
+    "hash": "055d4f5e3a879b85376acdd14327b0895634e928",
+    "parents": "19916edc3db1cb023a241b20e9b7897262a65166",
+    "subject": "to math: \"Names of months of the year\" table"
+   },
+   {
+    "adate": "2023-10-11T16:52:18-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-10-11T20:08:01-04:00",
+    "hash": "19916edc3db1cb023a241b20e9b7897262a65166",
+    "parents": "06c473f83abfc710fddd7963a7567b53a2944a53",
+    "subject": "to math: \"Names of days of the week\" table"
+   },
+   {
+    "adate": "2023-10-11T16:45:20-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-10-11T20:08:01-04:00",
+    "hash": "06c473f83abfc710fddd7963a7567b53a2944a53",
+    "parents": "2f8208f19146730be86756bec9a839182e8e1d50",
+    "subject": "to math: MillisecFromTime (return value)"
+   },
+   {
+    "adate": "2023-10-11T16:41:39-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-10-11T20:08:01-04:00",
+    "hash": "2f8208f19146730be86756bec9a839182e8e1d50",
+    "parents": "da65a2788ac24af7e5de3bfb993f742b849d756b",
+    "subject": "to math: SecFromTime (return value)"
+   },
+   {
+    "adate": "2023-10-11T16:36:38-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-10-11T20:08:01-04:00",
+    "hash": "da65a2788ac24af7e5de3bfb993f742b849d756b",
+    "parents": "737dec9c2d258f78e06fb912c059aaebb8e4a3b8",
+    "subject": "to math: MinFromTime (return value)"
+   },
+   {
+    "adate": "2023-10-11T16:31:53-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-10-11T20:08:00-04:00",
+    "hash": "737dec9c2d258f78e06fb912c059aaebb8e4a3b8",
+    "parents": "bcff412a31c2aff4986ea91a764944de5d91d6e3",
+    "subject": "to math: HourFromTime (return value)"
+   },
+   {
+    "adate": "2023-10-11T16:26:08-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-10-11T20:08:00-04:00",
+    "hash": "bcff412a31c2aff4986ea91a764944de5d91d6e3",
+    "parents": "de448ffcc308cb983f28bef78bec916e39cf896a",
+    "subject": "to math: WeekDay (return value)"
+   },
+   {
+    "adate": "2023-10-11T16:21:26-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-10-11T20:08:00-04:00",
+    "hash": "de448ffcc308cb983f28bef78bec916e39cf896a",
+    "parents": "161fecb3ddc85f2826ac6ca37893abb0de9b9f8b",
+    "subject": "to math: DateFromTime (return value + internal aliases)"
+   },
+   {
+    "adate": "2023-10-11T14:30:24-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-10-11T20:08:00-04:00",
+    "hash": "161fecb3ddc85f2826ac6ca37893abb0de9b9f8b",
+    "parents": "72b5cdb4279d4854df5b75239d7c5ad6574bd4ee",
+    "subject": "to math: MonthFromTime (return value + internal aliases)"
+   },
+   {
+    "adate": "2023-10-11T14:15:52-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-10-11T20:07:59-04:00",
+    "hash": "72b5cdb4279d4854df5b75239d7c5ad6574bd4ee",
+    "parents": "794eb58cf638d27d4883b49451a6ca1ae929c702",
+    "subject": "to math: InLeapYear (return value)"
+   },
+   {
+    "adate": "2023-10-11T14:11:51-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-10-11T20:07:28-04:00",
+    "hash": "794eb58cf638d27d4883b49451a6ca1ae929c702",
+    "parents": "5148afc8916458ace6d231f993b44241853b95c9",
+    "subject": "to math: DayWithinYear (return value)"
+   },
+   {
+    "adate": "2023-10-11T14:05:37-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-10-11T20:07:21-04:00",
+    "hash": "5148afc8916458ace6d231f993b44241853b95c9",
+    "parents": "fca5136d41fd82342c77a441946829040666b924",
+    "subject": "to math: YearFromTime (return value)"
+   },
+   {
+    "adate": "2023-10-11T13:56:05-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-10-11T20:04:16-04:00",
+    "hash": "fca5136d41fd82342c77a441946829040666b924",
+    "parents": "d8b518f19b92dfd2c87bbcf7f77dbbc9cb8d0d27",
+    "subject": "to math: TimeFromYear (parameter)"
+   },
+   {
+    "adate": "2023-10-11T13:47:38-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-10-11T20:03:30-04:00",
+    "hash": "d8b518f19b92dfd2c87bbcf7f77dbbc9cb8d0d27",
+    "parents": "48f9c26623c4fb5c850239c69cf7219500ebc3ce",
+    "subject": "to math: DayFromYear (parameter + return value)"
+   },
+   {
+    "adate": "2023-10-10T23:12:16-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-10-11T19:57:08-04:00",
+    "hash": "48f9c26623c4fb5c850239c69cf7219500ebc3ce",
+    "parents": "d4f7c1a73cd07b1282799f734894d7e20de52e52",
+    "subject": "to math: TimeWithinDay (return value)"
+   },
+   {
+    "adate": "2023-10-10T23:09:51-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-10-11T19:57:01-04:00",
+    "hash": "d4f7c1a73cd07b1282799f734894d7e20de52e52",
+    "parents": "15bd907b8b217b11b89cd764a3207d96dde11132",
+    "subject": "to math: Day (return value)"
+   },
+   {
+    "adate": "2023-10-10T22:49:04-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-10-11T19:56:55-04:00",
+    "hash": "15bd907b8b217b11b89cd764a3207d96dde11132",
+    "parents": "c0ca11c2c57f746ad33d814045361a85ab5db880",
+    "subject": "to math: msPerFoo constants"
+   },
+   {
+    "adate": "2023-10-10T22:22:09-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-10-11T10:52:12-04:00",
+    "hash": "c0ca11c2c57f746ad33d814045361a85ab5db880",
+    "parents": "bcca79c772ea42dce44ec193d259209cb7cc4fad",
+    "subject": "Editorial: Rename `msFromTime` as `MillisecFromTime`"
+   },
+   {
+    "adate": "2023-10-10T22:19:14-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-10-11T10:51:57-04:00",
+    "hash": "bcca79c772ea42dce44ec193d259209cb7cc4fad",
+    "parents": "10d44bfce4640894a0ed366bb769f2700cc8839a",
+    "subject": "Editorial: Inline `DaysInYear` into `InLeapYear`"
+   }
+  ],
+  "title": "Editorial: More tweaks to low-level Date AOs",
+  "updated_at": "2023-10-12T01:47:04Z"
+ },
+ {
+  "base": "10d44bfce4640894a0ed366bb769f2700cc8839a",
   "created_at": "2023-10-11T08:17:24Z",
   "head": "d254495219d9328bbb2c117d9fa465db6a076b9e",
   "login": "donno2048",
