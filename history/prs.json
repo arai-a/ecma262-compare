@@ -1,5 +1,65 @@
 [
  {
+  "base": "d254495219d9328bbb2c117d9fa465db6a076b9e",
+  "created_at": "2023-10-12T19:19:04Z",
+  "head": "207b6eb0070066893e35a46a66aab91eaaeaf2d8",
+  "login": "jmdyck",
+  "number": 3194,
+  "ref": "IIEO",
+  "revs": [
+   {
+    "adate": "2023-10-12T15:08:55-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-10-12T15:08:55-04:00",
+    "hash": "207b6eb0070066893e35a46a66aab91eaaeaf2d8",
+    "parents": "eec9c90ad24f4ff0710eaa895ac0165c7a29858d",
+    "subject": "Clarify that \"TypedArray exotic object\", \"TypedArray object\", and \"TypedArray\" are synonyms"
+   },
+   {
+    "adate": "2023-10-12T13:33:17-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-10-12T14:22:51-04:00",
+    "hash": "eec9c90ad24f4ff0710eaa895ac0165c7a29858d",
+    "parents": "6abbe0d729e1d1a976f847b607d43dd6d86a4051",
+    "subject": "IIEO -> TAEO: uses in ids"
+   },
+   {
+    "adate": "2023-10-12T10:54:43-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-10-12T14:13:16-04:00",
+    "hash": "6abbe0d729e1d1a976f847b607d43dd6d86a4051",
+    "parents": "03ed479421af50f9de974d5d8e65bf11112041f5",
+    "subject": "IIEO -> TAEO: uses in AO names"
+   },
+   {
+    "adate": "2023-10-12T10:42:43-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-10-12T14:12:26-04:00",
+    "hash": "03ed479421af50f9de974d5d8e65bf11112041f5",
+    "parents": "82df1e9b49f85d17d4a40eae20b23c7a17dd9a7d",
+    "subject": "IIEO -> TAEO: textual uses of the term"
+   },
+   {
+    "adate": "2023-10-12T13:36:35-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-10-12T13:36:35-04:00",
+    "hash": "82df1e9b49f85d17d4a40eae20b23c7a17dd9a7d",
+    "parents": "735aa790d1891220dc2bfa2b9c17b061de7e6e9e",
+    "subject": "Editorial: Delete 3 unnecessary `<emu-xref>`"
+   },
+   {
+    "adate": "2023-10-12T10:22:13-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-10-12T10:22:13-04:00",
+    "hash": "735aa790d1891220dc2bfa2b9c17b061de7e6e9e",
+    "parents": "d254495219d9328bbb2c117d9fa465db6a076b9e",
+    "subject": "Editorial: Rename `TypedArrayCreate` to `TypedArrayCreateFromConstructor`"
+   }
+  ],
+  "title": "Editorial: Rename \"Integer-Indexed exotic object\" as \"TypedArray exotic object\"",
+  "updated_at": "2023-10-12T19:36:40Z"
+ },
+ {
   "base": "10d44bfce4640894a0ed366bb769f2700cc8839a",
   "created_at": "2023-10-12T01:47:04Z",
   "head": "39672b00345b6a53b0908c530ef6d45503be0193",
@@ -170,26 +230,6 @@
   ],
   "title": "Editorial: More tweaks to low-level Date AOs",
   "updated_at": "2023-10-12T01:47:04Z"
- },
- {
-  "base": "10d44bfce4640894a0ed366bb769f2700cc8839a",
-  "created_at": "2023-10-11T08:17:24Z",
-  "head": "d254495219d9328bbb2c117d9fa465db6a076b9e",
-  "login": "donno2048",
-  "number": 3192,
-  "ref": "patch-1",
-  "revs": [
-   {
-    "adate": "2023-10-11T11:16:50+03:00",
-    "author": "Elisha Hollander",
-    "date": "2023-10-11T11:16:50+03:00",
-    "hash": "d254495219d9328bbb2c117d9fa465db6a076b9e",
-    "parents": "10d44bfce4640894a0ed366bb769f2700cc8839a",
-    "subject": "remove redundant parenthesis"
-   }
-  ],
-  "title": "Remove redundant parenthesis",
-  "updated_at": "2023-10-11T08:17:24Z"
  },
  {
   "base": "10d44bfce4640894a0ed366bb769f2700cc8839a",
