@@ -20,9 +20,9 @@
   "updated_at": "2023-10-13T09:58:12Z"
  },
  {
-  "base": "d254495219d9328bbb2c117d9fa465db6a076b9e",
+  "base": "5eaee2f3c52bd2d46b7d286537e5da5baf16d002",
   "created_at": "2023-10-12T19:19:04Z",
-  "head": "207b6eb0070066893e35a46a66aab91eaaeaf2d8",
+  "head": "d3b2224621bc7ee35e40abb2ae23cf2759a40ce0",
   "login": "jmdyck",
   "number": 3194,
   "ref": "IIEO",
@@ -30,54 +30,62 @@
    {
     "adate": "2023-10-12T15:08:55-04:00",
     "author": "Michael Dyck",
-    "date": "2023-10-12T15:08:55-04:00",
-    "hash": "207b6eb0070066893e35a46a66aab91eaaeaf2d8",
-    "parents": "eec9c90ad24f4ff0710eaa895ac0165c7a29858d",
+    "date": "2023-10-13T15:07:31-04:00",
+    "hash": "d3b2224621bc7ee35e40abb2ae23cf2759a40ce0",
+    "parents": "beffe2380f8a338556903040f3aa2993bdde833e",
     "subject": "Clarify that \"TypedArray exotic object\", \"TypedArray object\", and \"TypedArray\" are synonyms"
+   },
+   {
+    "adate": "2023-10-13T15:07:02-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-10-13T15:07:02-04:00",
+    "hash": "beffe2380f8a338556903040f3aa2993bdde833e",
+    "parents": "5b5c8d0a1c01cbda3d873f5b1a1ac56c8754cc51",
+    "subject": "IIEO -> TAEO: _iieoRecord_ -> _taRecord_"
    },
    {
     "adate": "2023-10-12T13:33:17-04:00",
     "author": "Michael Dyck",
-    "date": "2023-10-12T14:22:51-04:00",
-    "hash": "eec9c90ad24f4ff0710eaa895ac0165c7a29858d",
-    "parents": "6abbe0d729e1d1a976f847b607d43dd6d86a4051",
+    "date": "2023-10-13T15:02:15-04:00",
+    "hash": "5b5c8d0a1c01cbda3d873f5b1a1ac56c8754cc51",
+    "parents": "6741260a51d278feeac41f57271ab54a16bb2b5b",
     "subject": "IIEO -> TAEO: uses in ids"
    },
    {
     "adate": "2023-10-12T10:54:43-04:00",
     "author": "Michael Dyck",
-    "date": "2023-10-12T14:13:16-04:00",
-    "hash": "6abbe0d729e1d1a976f847b607d43dd6d86a4051",
-    "parents": "03ed479421af50f9de974d5d8e65bf11112041f5",
+    "date": "2023-10-13T14:52:33-04:00",
+    "hash": "6741260a51d278feeac41f57271ab54a16bb2b5b",
+    "parents": "e7ed9079fd77bba012a9def666f23217ce0ff188",
     "subject": "IIEO -> TAEO: uses in AO names"
    },
    {
     "adate": "2023-10-12T10:42:43-04:00",
     "author": "Michael Dyck",
-    "date": "2023-10-12T14:12:26-04:00",
-    "hash": "03ed479421af50f9de974d5d8e65bf11112041f5",
-    "parents": "82df1e9b49f85d17d4a40eae20b23c7a17dd9a7d",
+    "date": "2023-10-13T14:51:03-04:00",
+    "hash": "e7ed9079fd77bba012a9def666f23217ce0ff188",
+    "parents": "7f56df2afe06fb10da7f1b8fe90879a4ca23c2b1",
     "subject": "IIEO -> TAEO: textual uses of the term"
    },
    {
     "adate": "2023-10-12T13:36:35-04:00",
     "author": "Michael Dyck",
-    "date": "2023-10-12T13:36:35-04:00",
-    "hash": "82df1e9b49f85d17d4a40eae20b23c7a17dd9a7d",
-    "parents": "735aa790d1891220dc2bfa2b9c17b061de7e6e9e",
+    "date": "2023-10-13T12:26:22-04:00",
+    "hash": "7f56df2afe06fb10da7f1b8fe90879a4ca23c2b1",
+    "parents": "2791844ea7939483158ba1dda4024d52bf900067",
     "subject": "Editorial: Delete 3 unnecessary `<emu-xref>`"
    },
    {
     "adate": "2023-10-12T10:22:13-04:00",
     "author": "Michael Dyck",
-    "date": "2023-10-12T10:22:13-04:00",
-    "hash": "735aa790d1891220dc2bfa2b9c17b061de7e6e9e",
-    "parents": "d254495219d9328bbb2c117d9fa465db6a076b9e",
+    "date": "2023-10-13T12:26:08-04:00",
+    "hash": "2791844ea7939483158ba1dda4024d52bf900067",
+    "parents": "5eaee2f3c52bd2d46b7d286537e5da5baf16d002",
     "subject": "Editorial: Rename `TypedArrayCreate` to `TypedArrayCreateFromConstructor`"
    }
   ],
   "title": "Editorial: Rename \"Integer-Indexed exotic object\" as \"TypedArray exotic object\"",
-  "updated_at": "2023-10-12T19:36:40Z"
+  "updated_at": "2023-10-13T19:10:00Z"
  },
  {
   "base": "10d44bfce4640894a0ed366bb769f2700cc8839a",
@@ -612,9 +620,9 @@
   "updated_at": "2023-09-04T11:26:21Z"
  },
  {
-  "base": "f2a24f8672aa650daafc39bace3b235f12feb9dd",
+  "base": "5eaee2f3c52bd2d46b7d286537e5da5baf16d002",
   "created_at": "2023-09-04T02:16:55Z",
-  "head": "0484aa7cd2119e16e65b10d965a89042142a098c",
+  "head": "49472d1148e7b0cce654de31cd6bb3a301aafc34",
   "login": "jmdyck",
   "number": 3163,
   "ref": "is_a_foo_completion",
@@ -622,22 +630,22 @@
    {
     "adate": "2023-09-03T22:24:42-04:00",
     "author": "Michael Dyck",
-    "date": "2023-09-21T17:51:05-04:00",
-    "hash": "0484aa7cd2119e16e65b10d965a89042142a098c",
-    "parents": "0f5b21fc22a46522f3c6deb04a3935a5d1718a35",
+    "date": "2023-10-12T22:41:18-04:00",
+    "hash": "49472d1148e7b0cce654de31cd6bb3a301aafc34",
+    "parents": "cdefa95c6174aa026c8e1cc68b53c5daa9f3154b",
     "subject": "fixup: tweak esmeta-ignore.json as indicated by `typecheck`"
    },
    {
     "adate": "2023-09-03T22:10:31-04:00",
     "author": "Michael Dyck",
-    "date": "2023-09-21T17:50:53-04:00",
-    "hash": "0f5b21fc22a46522f3c6deb04a3935a5d1718a35",
-    "parents": "f2a24f8672aa650daafc39bace3b235f12feb9dd",
+    "date": "2023-10-12T22:38:05-04:00",
+    "hash": "cdefa95c6174aa026c8e1cc68b53c5daa9f3154b",
+    "parents": "5eaee2f3c52bd2d46b7d286537e5da5baf16d002",
     "subject": "Editorial: Use \"is a foo completion\" instead of testing [[Type]] field"
    }
   ],
   "title": "Editorial: Use \"is a foo completion\" instead of testing [[Type]] field",
-  "updated_at": "2023-09-21T22:21:27Z"
+  "updated_at": "2023-10-13T19:17:05Z"
  },
  {
   "base": "0802e7da54fc870af4e6c37b048428611c449f61",
@@ -2256,9 +2264,9 @@
   "updated_at": "2023-02-13T19:08:39Z"
  },
  {
-  "base": "0802e7da54fc870af4e6c37b048428611c449f61",
+  "base": "5eaee2f3c52bd2d46b7d286537e5da5baf16d002",
   "created_at": "2022-09-04T02:20:57Z",
-  "head": "124966e0a499c79097410c2aa099ff2fd9718070",
+  "head": "b2509545a421d912857342b6b5ae97efba175d2d",
   "login": "jmdyck",
   "number": 2889,
   "ref": "callable",
@@ -2266,22 +2274,22 @@
    {
     "adate": "2022-09-03T22:11:56-04:00",
     "author": "Michael Dyck",
-    "date": "2023-08-17T10:08:33-04:00",
-    "hash": "124966e0a499c79097410c2aa099ff2fd9718070",
-    "parents": "237d8911db6612b052ca1382a0c07207e7d46f5a",
+    "date": "2023-10-12T23:01:15-04:00",
+    "hash": "b2509545a421d912857342b6b5ae97efba175d2d",
+    "parents": "aaa29bdfc3268532aed7c867a1e2fda54e21459c",
     "subject": "Eliminate most other uses of \"callable\""
    },
    {
     "adate": "2022-09-03T21:47:50-04:00",
     "author": "Michael Dyck",
-    "date": "2023-08-17T10:08:33-04:00",
-    "hash": "237d8911db6612b052ca1382a0c07207e7d46f5a",
-    "parents": "0802e7da54fc870af4e6c37b048428611c449f61",
+    "date": "2023-10-12T23:01:13-04:00",
+    "hash": "aaa29bdfc3268532aed7c867a1e2fda54e21459c",
+    "parents": "5eaee2f3c52bd2d46b7d286537e5da5baf16d002",
     "subject": "Rename \"IsCallable\" as \"IsFunction\""
    }
   ],
   "title": "Editorial: Minimize use of the term \"callable\"",
-  "updated_at": "2023-08-17T21:29:11Z"
+  "updated_at": "2023-10-13T19:19:37Z"
  },
  {
   "base": "3cf8e30e47dd1f010b7d86929670f1e8c51ecc43",
@@ -3384,9 +3392,9 @@
   "updated_at": "2023-04-21T00:37:33Z"
  },
  {
-  "base": "b12a244f3732527a652a58ff481493fd1a110ff1",
+  "base": "5eaee2f3c52bd2d46b7d286537e5da5baf16d002",
   "created_at": "2020-12-08T06:31:39Z",
-  "head": "0693eb6a572cedc6f60c64ecae491c69679d92bd",
+  "head": "0cc704f1adb6c5e31a716cc67db4719730b2802c",
   "login": "jmdyck",
   "number": 2246,
   "ref": "ExecutionContext_Record",
@@ -3394,78 +3402,78 @@
    {
     "adate": "2023-08-17T19:08:56-04:00",
     "author": "Michael Dyck",
-    "date": "2023-08-31T18:02:30-04:00",
-    "hash": "0693eb6a572cedc6f60c64ecae491c69679d92bd",
-    "parents": "061ebe460df60ad7af65c63a987e493e1ef7638e",
+    "date": "2023-10-12T22:59:31-04:00",
+    "hash": "0cc704f1adb6c5e31a716cc67db4719730b2802c",
+    "parents": "e9720f530dbae093338da415f7c41c187b7d2bf7",
     "subject": "fixup: drop \"ECMAScriptFunctionObject.{Call,Construct}\" from esmeta-ignore.json"
    },
    {
     "adate": "2022-11-16T17:52:33-05:00",
     "author": "Michael Dyck",
-    "date": "2023-08-31T18:02:30-04:00",
-    "hash": "061ebe460df60ad7af65c63a987e493e1ef7638e",
-    "parents": "06e47e7c1afc0fbe00cd971a119058d84ec0964e",
+    "date": "2023-10-12T22:59:10-04:00",
+    "hash": "e9720f530dbae093338da415f7c41c187b7d2bf7",
+    "parents": "f957af9e5a22b407af94787e465e9cadc70148d7",
     "subject": "fixup: try adding PrepareForOrdinaryCall to esmeta-ignore instead of ECMAScriptFunctionObject.Construct"
    },
    {
     "adate": "2022-08-31T23:46:33-04:00",
     "author": "Michael Dyck",
-    "date": "2023-08-31T18:02:30-04:00",
-    "hash": "06e47e7c1afc0fbe00cd971a119058d84ec0964e",
-    "parents": "576561eb08ed28b3b228fda30ee6fa06ac969404",
+    "date": "2023-10-12T22:59:10-04:00",
+    "hash": "f957af9e5a22b407af94787e465e9cadc70148d7",
+    "parents": "ef63830efebcdc066b0aad66d83e0b52f76e799d",
     "subject": "fixup: \"execution context\" -> \"ExecutionContext Record\" in some prose"
    },
    {
     "adate": "2022-08-31T23:31:55-04:00",
     "author": "Michael Dyck",
-    "date": "2023-08-31T18:02:24-04:00",
-    "hash": "576561eb08ed28b3b228fda30ee6fa06ac969404",
-    "parents": "15c77abc35fcc23918cb20bc272f71f1b6168d79",
+    "date": "2023-10-12T22:59:10-04:00",
+    "hash": "ef63830efebcdc066b0aad66d83e0b52f76e799d",
+    "parents": "7dc5d346f92911ca09402a9a0dd7422f921aeeb4",
     "subject": "fixup: \"execution context\" -> \"ExecutionContext Record\" in some alg steps"
    },
    {
     "adate": "2022-08-31T23:13:29-04:00",
     "author": "Michael Dyck",
-    "date": "2023-08-31T18:01:51-04:00",
-    "hash": "15c77abc35fcc23918cb20bc272f71f1b6168d79",
-    "parents": "15169c4ecb4cffc56b2ac8d6abc1b270189fe94e",
+    "date": "2023-10-12T22:59:09-04:00",
+    "hash": "7dc5d346f92911ca09402a9a0dd7422f921aeeb4",
+    "parents": "256615d7c38860e3493feaec90fb6e301b3ff1a7",
     "subject": "fixup: Avoid saying \"that execution context\" by naming it"
    },
    {
     "adate": "2022-08-31T20:30:10-04:00",
     "author": "Michael Dyck",
-    "date": "2023-08-31T18:01:51-04:00",
-    "hash": "15169c4ecb4cffc56b2ac8d6abc1b270189fe94e",
-    "parents": "9018effc342d6df871e2bfee6e6bccbd5c3ec75c",
+    "date": "2023-10-12T22:59:09-04:00",
+    "hash": "256615d7c38860e3493feaec90fb6e301b3ff1a7",
+    "parents": "e9bc34b24aa2db863f2c55abe4ed755e0ba39fa6",
     "subject": "fixup: \"execution context\" -> \"ExecutionContext Record\" in record-field tables"
    },
    {
     "adate": "2022-08-31T20:24:28-04:00",
     "author": "Michael Dyck",
-    "date": "2023-08-31T18:01:51-04:00",
-    "hash": "9018effc342d6df871e2bfee6e6bccbd5c3ec75c",
-    "parents": "1baa2dee310ec6e4ef50ef77991fba8208ae4b06",
+    "date": "2023-10-12T22:59:09-04:00",
+    "hash": "e9bc34b24aa2db863f2c55abe4ed755e0ba39fa6",
+    "parents": "327ba8b07c548707a71ab0f59be8a11566183a21",
     "subject": "fixup: \"execution context\" -> \"ExecutionContext Record\" in AO headers"
    },
    {
     "adate": "2022-08-31T23:32:48-04:00",
     "author": "Michael Dyck",
-    "date": "2023-08-31T18:01:50-04:00",
-    "hash": "1baa2dee310ec6e4ef50ef77991fba8208ae4b06",
-    "parents": "785aea83fe1f474051ce88018e58d2f9f74102fd",
+    "date": "2023-10-12T22:59:09-04:00",
+    "hash": "327ba8b07c548707a71ab0f59be8a11566183a21",
+    "parents": "93141c93723657d415a3f4ebb899a74d807aa7ad",
     "subject": "fixup: \"execution context\" -> \"ExecutionContext Record\" in the <dfn> of ECMAScript code execution contexts"
    },
    {
     "adate": "2020-12-08T01:22:55-05:00",
     "author": "Michael Dyck",
-    "date": "2023-08-31T18:01:50-04:00",
-    "hash": "785aea83fe1f474051ce88018e58d2f9f74102fd",
-    "parents": "b12a244f3732527a652a58ff481493fd1a110ff1",
+    "date": "2023-10-12T22:59:09-04:00",
+    "hash": "93141c93723657d415a3f4ebb899a74d807aa7ad",
+    "parents": "5eaee2f3c52bd2d46b7d286537e5da5baf16d002",
     "subject": "Editorial: Model execution context as a record"
    }
   ],
   "title": "Editorial: Model execution context as a record",
-  "updated_at": "2023-09-01T00:37:09Z"
+  "updated_at": "2023-10-13T19:22:12Z"
  },
  {
   "base": "b3f9b5089bcc3ddd8486379015cd11eb1427a5eb",
@@ -3792,9 +3800,9 @@
   "updated_at": "2020-03-27T07:01:25Z"
  },
  {
-  "base": "10d44bfce4640894a0ed366bb769f2700cc8839a",
+  "base": "5eaee2f3c52bd2d46b7d286537e5da5baf16d002",
   "created_at": "2019-07-13T02:30:44Z",
-  "head": "6c7875518e209c9966cbccdb3d8aa472109b12e1",
+  "head": "b64654cff96e6db5498a90fb70273f39a6f3df8c",
   "login": "jmdyck",
   "number": 1623,
   "ref": "index_strings",
@@ -3802,38 +3810,38 @@
    {
     "adate": "2019-07-12T11:59:54-04:00",
     "author": "Michael Dyck",
-    "date": "2023-09-22T14:14:17-04:00",
-    "hash": "6c7875518e209c9966cbccdb3d8aa472109b12e1",
-    "parents": "b7379daf6419b26fc78efa248b0d104dbd3330c6",
+    "date": "2023-10-12T23:06:59-04:00",
+    "hash": "b64654cff96e6db5498a90fb70273f39a6f3df8c",
+    "parents": "9153d58b09e137910d2bb252f3288f8fe4bb1e1f",
     "subject": "Editorial: some minor rewordings"
    },
    {
     "adate": "2019-07-12T11:12:43-04:00",
     "author": "Michael Dyck",
-    "date": "2023-09-22T14:14:17-04:00",
-    "hash": "b7379daf6419b26fc78efa248b0d104dbd3330c6",
-    "parents": "258ffd52ee0cc9af7991525bdf50ae1f4b576ec4",
+    "date": "2023-10-12T23:06:58-04:00",
+    "hash": "9153d58b09e137910d2bb252f3288f8fe4bb1e1f",
+    "parents": "753c45cd13b51ceca5412a5075907bb28e876941",
     "subject": "Editorial: Replace \"array index\" with \"Uint32-string\""
    },
    {
     "adate": "2019-07-12T10:23:31-04:00",
     "author": "Michael Dyck",
-    "date": "2023-09-22T14:14:12-04:00",
-    "hash": "258ffd52ee0cc9af7991525bdf50ae1f4b576ec4",
-    "parents": "feed5b3c267513e61bb7e67d79e080f3c9219c48",
+    "date": "2023-10-12T23:06:51-04:00",
+    "hash": "753c45cd13b51ceca5412a5075907bb28e876941",
+    "parents": "9398a559cd5c74d8f9e7ffd9e850d72cdf222a2b",
     "subject": "Editorial: Replace \"integer index\" with \"Uint53-string\""
    },
    {
     "adate": "2019-07-12T21:58:00-04:00",
     "author": "Michael Dyck",
-    "date": "2023-09-22T14:10:41-04:00",
-    "hash": "feed5b3c267513e61bb7e67d79e080f3c9219c48",
-    "parents": "10d44bfce4640894a0ed366bb769f2700cc8839a",
+    "date": "2023-10-12T23:05:03-04:00",
+    "hash": "9398a559cd5c74d8f9e7ffd9e850d72cdf222a2b",
+    "parents": "5eaee2f3c52bd2d46b7d286537e5da5baf16d002",
     "subject": "Editorial: Fix wording in Note for Arguments exotic objects"
    }
   ],
   "title": "Editorial: Replace terms \"integer index\" and \"array index\"",
-  "updated_at": "2023-09-22T20:32:09Z"
+  "updated_at": "2023-10-13T19:23:04Z"
  },
  {
   "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
