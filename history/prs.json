@@ -1,6 +1,26 @@
 [
  {
   "base": "5eaee2f3c52bd2d46b7d286537e5da5baf16d002",
+  "created_at": "2023-10-17T01:37:30Z",
+  "head": "ad2040e72feae81acce54d6d1c38249704a820c2",
+  "login": "tc39",
+  "number": 3202,
+  "ref": "ValidateAndApplyPropertyDescriptor-SameValue",
+  "revs": [
+   {
+    "adate": "2023-10-16T19:33:45-06:00",
+    "author": "Michael Ficarra",
+    "date": "2023-10-16T19:33:45-06:00",
+    "hash": "ad2040e72feae81acce54d6d1c38249704a820c2",
+    "parents": "5eaee2f3c52bd2d46b7d286537e5da5baf16d002",
+    "subject": "Editorial: remove some unnecessary calls to SameValue"
+   }
+  ],
+  "title": "Editorial: remove some unnecessary calls to SameValue",
+  "updated_at": "2023-10-17T01:37:30Z"
+ },
+ {
+  "base": "5eaee2f3c52bd2d46b7d286537e5da5baf16d002",
   "created_at": "2023-10-16T18:57:40Z",
   "head": "86caf192dbcf30d7be6940367632afcabbaa031a",
   "login": "syg",
