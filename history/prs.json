@@ -800,13 +800,21 @@
   "updated_at": "2023-08-18T12:45:52Z"
  },
  {
-  "base": "c316ec72f6e227d88d4ef67a3e16b486c5ca356d",
+  "base": "5eaee2f3c52bd2d46b7d286537e5da5baf16d002",
   "created_at": "2023-08-11T16:11:17Z",
-  "head": "8f637cef10d6c7c9ffb32b78e5203041341c14ec",
+  "head": "1675b77c3fa6e06747ed7b31533433e81e6ee206",
   "login": "tc39",
   "number": 3146,
   "ref": "built-in-constructor",
   "revs": [
+   {
+    "adate": "2023-10-18T15:40:20-06:00",
+    "author": "Michael Ficarra",
+    "date": "2023-10-18T15:40:20-06:00",
+    "hash": "1675b77c3fa6e06747ed7b31533433e81e6ee206",
+    "parents": "8f637cef10d6c7c9ffb32b78e5203041341c14ec 5eaee2f3c52bd2d46b7d286537e5da5baf16d002",
+    "subject": "Merge branch 'main' into built-in-constructor"
+   },
    {
     "adate": "2023-08-11T10:07:11-06:00",
     "author": "Michael Ficarra",
@@ -817,7 +825,7 @@
    }
   ],
   "title": "Editorial: move built-in constructor into its own Terms & Definitions section",
-  "updated_at": "2023-08-11T16:11:17Z"
+  "updated_at": "2023-10-18T21:40:25Z"
  },
  {
   "base": "c316ec72f6e227d88d4ef67a3e16b486c5ca356d",
