@@ -30,11 +30,19 @@
  {
   "base": "5eaee2f3c52bd2d46b7d286537e5da5baf16d002",
   "created_at": "2023-10-16T18:57:40Z",
-  "head": "86caf192dbcf30d7be6940367632afcabbaa031a",
+  "head": "9d02032a7aa21f596efe0213c0bb72d75fbd631e",
   "login": "syg",
   "number": 3200,
   "ref": "fix-revalidateatomicaccess",
   "revs": [
+   {
+    "adate": "2023-10-18T16:14:10-07:00",
+    "author": "Shu-yu Guo",
+    "date": "2023-10-18T16:14:10-07:00",
+    "hash": "9d02032a7aa21f596efe0213c0bb72d75fbd631e",
+    "parents": "86caf192dbcf30d7be6940367632afcabbaa031a",
+    "subject": "Make the fact that the index is within a buffer more explicit"
+   },
    {
     "adate": "2023-10-16T11:56:18-07:00",
     "author": "Shu-yu Guo",
@@ -44,8 +52,8 @@
     "subject": "Editorial: Fix RevalidateAtomicAccess to check against byte length"
    }
   ],
-  "title": "Editorial: Fix RevalidateAtomicAccess to check against byte length",
-  "updated_at": "2023-10-16T18:58:44Z"
+  "title": "Normative bug fix: Fix RevalidateAtomicAccess to check against byte length",
+  "updated_at": "2023-10-18T23:14:50Z"
  },
  {
   "base": "5eaee2f3c52bd2d46b7d286537e5da5baf16d002",
@@ -956,9 +964,9 @@
   "updated_at": "2023-07-01T23:05:55Z"
  },
  {
-  "base": "9abd594ecc5d6ed5317bc276b1854d3a1f9763ff",
+  "base": "5eaee2f3c52bd2d46b7d286537e5da5baf16d002",
   "created_at": "2023-06-20T16:15:31Z",
-  "head": "444f3ca386069face2a62360b16fc6b4dda5cde2",
+  "head": "5dcfaf83b4e0ac55bbfea78eb0ae1c1cf0d5cd93",
   "login": "tc39",
   "number": 3103,
   "ref": "ecma-spec-links",
@@ -966,14 +974,14 @@
    {
     "adate": "2023-09-19T14:53:16-07:00",
     "author": "Michael Ficarra",
-    "date": "2023-09-19T14:53:16-07:00",
-    "hash": "444f3ca386069face2a62360b16fc6b4dda5cde2",
-    "parents": "9abd594ecc5d6ed5317bc276b1854d3a1f9763ff",
+    "date": "2023-10-18T17:04:47-06:00",
+    "hash": "5dcfaf83b4e0ac55bbfea78eb0ae1c1cf0d5cd93",
+    "parents": "5eaee2f3c52bd2d46b7d286537e5da5baf16d002",
     "subject": "Editorial: update links to Ecma specs and update ECMA-402 descriptor (#3013)"
    }
   ],
   "title": "Editorial: update links to Ecma specs and update ECMA-402 descriptor",
-  "updated_at": "2023-09-19T21:53:55Z"
+  "updated_at": "2023-10-18T23:04:53Z"
  },
  {
   "base": "873685750986bc89a205f8afb8c63c8fa3b8ff82",
