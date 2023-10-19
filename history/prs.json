@@ -60,88 +60,32 @@
   "updated_at": "2023-10-13T09:58:12Z"
  },
  {
-  "base": "5eaee2f3c52bd2d46b7d286537e5da5baf16d002",
+  "base": "57d53d3ca5ff0d7176cc0bf413c378b919f5dcbc",
   "created_at": "2023-10-12T19:19:04Z",
-  "head": "4e107f831a29e9f247184fea4da6c00006df3507",
+  "head": "590526c0766da580600a04016d1a4047cb1546cf",
   "login": "jmdyck",
   "number": 3194,
   "ref": "IIEO",
   "revs": [
    {
-    "adate": "2023-10-18T16:38:11-04:00",
-    "author": "Michael Dyck",
-    "date": "2023-10-18T16:38:11-04:00",
-    "hash": "4e107f831a29e9f247184fea4da6c00006df3507",
-    "parents": "740c1aab4322aa9929b449fedd52c5b5b536ab53",
-    "subject": "Change \"TypedArray exotic object\" to just \"TypedArray\""
-   },
-   {
-    "adate": "2023-10-18T16:20:18-04:00",
-    "author": "Michael Dyck",
-    "date": "2023-10-18T16:20:18-04:00",
-    "hash": "740c1aab4322aa9929b449fedd52c5b5b536ab53",
-    "parents": "d3b2224621bc7ee35e40abb2ae23cf2759a40ce0",
-    "subject": "Rename TypedArray{Get,Set} as TypedArray{Get,Set}Element"
-   },
-   {
-    "adate": "2023-10-12T15:08:55-04:00",
-    "author": "Michael Dyck",
-    "date": "2023-10-13T15:07:31-04:00",
-    "hash": "d3b2224621bc7ee35e40abb2ae23cf2759a40ce0",
-    "parents": "beffe2380f8a338556903040f3aa2993bdde833e",
-    "subject": "Clarify that \"TypedArray exotic object\", \"TypedArray object\", and \"TypedArray\" are synonyms"
-   },
-   {
-    "adate": "2023-10-13T15:07:02-04:00",
-    "author": "Michael Dyck",
-    "date": "2023-10-13T15:07:02-04:00",
-    "hash": "beffe2380f8a338556903040f3aa2993bdde833e",
-    "parents": "5b5c8d0a1c01cbda3d873f5b1a1ac56c8754cc51",
-    "subject": "IIEO -> TAEO: _iieoRecord_ -> _taRecord_"
-   },
-   {
-    "adate": "2023-10-12T13:33:17-04:00",
-    "author": "Michael Dyck",
-    "date": "2023-10-13T15:02:15-04:00",
-    "hash": "5b5c8d0a1c01cbda3d873f5b1a1ac56c8754cc51",
-    "parents": "6741260a51d278feeac41f57271ab54a16bb2b5b",
-    "subject": "IIEO -> TAEO: uses in ids"
-   },
-   {
-    "adate": "2023-10-12T10:54:43-04:00",
-    "author": "Michael Dyck",
-    "date": "2023-10-13T14:52:33-04:00",
-    "hash": "6741260a51d278feeac41f57271ab54a16bb2b5b",
-    "parents": "e7ed9079fd77bba012a9def666f23217ce0ff188",
-    "subject": "IIEO -> TAEO: uses in AO names"
-   },
-   {
     "adate": "2023-10-12T10:42:43-04:00",
     "author": "Michael Dyck",
-    "date": "2023-10-13T14:51:03-04:00",
-    "hash": "e7ed9079fd77bba012a9def666f23217ce0ff188",
-    "parents": "7f56df2afe06fb10da7f1b8fe90879a4ca23c2b1",
-    "subject": "IIEO -> TAEO: textual uses of the term"
-   },
-   {
-    "adate": "2023-10-12T13:36:35-04:00",
-    "author": "Michael Dyck",
-    "date": "2023-10-13T12:26:22-04:00",
-    "hash": "7f56df2afe06fb10da7f1b8fe90879a4ca23c2b1",
-    "parents": "2791844ea7939483158ba1dda4024d52bf900067",
-    "subject": "Editorial: Delete 3 unnecessary `<emu-xref>`"
+    "date": "2023-10-19T15:47:31-04:00",
+    "hash": "590526c0766da580600a04016d1a4047cb1546cf",
+    "parents": "8d9e15298ad406c585956cf17764c70224500ad7",
+    "subject": "Editorial: Rename \"Integer-Indexed exotic object\" as \"TypedArray\""
    },
    {
     "adate": "2023-10-12T10:22:13-04:00",
     "author": "Michael Dyck",
-    "date": "2023-10-13T12:26:08-04:00",
-    "hash": "2791844ea7939483158ba1dda4024d52bf900067",
-    "parents": "5eaee2f3c52bd2d46b7d286537e5da5baf16d002",
+    "date": "2023-10-19T14:21:38-04:00",
+    "hash": "8d9e15298ad406c585956cf17764c70224500ad7",
+    "parents": "57d53d3ca5ff0d7176cc0bf413c378b919f5dcbc",
     "subject": "Editorial: Rename `TypedArrayCreate` to `TypedArrayCreateFromConstructor`"
    }
   ],
-  "title": "Editorial: Rename \"Integer-Indexed exotic object\" as \"TypedArray exotic object\"",
-  "updated_at": "2023-10-18T20:38:53Z"
+  "title": "Editorial: Rename \"Integer-Indexed exotic object\" as \"TypedArray\"",
+  "updated_at": "2023-10-19T20:00:29Z"
  },
  {
   "base": "10d44bfce4640894a0ed366bb769f2700cc8839a",
