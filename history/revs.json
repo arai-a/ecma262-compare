@@ -1,5 +1,29 @@
 [
  {
+  "adate": "2023-10-18T21:20:36-07:00",
+  "author": "Shu-yu Guo",
+  "date": "2023-10-18T21:20:36-07:00",
+  "hash": "4b93d8ecb5a461d603a39a02b7d19e8c0c909c13",
+  "parents": "392946df627effd1d62adf26f42ba2566378c3c0",
+  "subject": "Editorial: Fix RevalidateAtomicAccess to check against byte length (#3200)"
+ },
+ {
+  "adate": "2023-10-18T21:13:10-07:00",
+  "author": "Michael Dyck",
+  "date": "2023-10-18T21:13:10-07:00",
+  "hash": "392946df627effd1d62adf26f42ba2566378c3c0",
+  "parents": "c0f727185cf5bf9e901eeb36ba4d980ed10916ea",
+  "subject": "Editorial: Change 'MatchState' from an ordered triple into a Record (#3197)"
+ },
+ {
+  "adate": "2023-10-18T21:13:01-07:00",
+  "author": "Michael Dyck",
+  "date": "2023-10-18T21:13:01-07:00",
+  "hash": "c0f727185cf5bf9e901eeb36ba4d980ed10916ea",
+  "parents": "0488c7b4ed2835208786e90e779358f610759cb8",
+  "subject": "Editorial: Change 'CaptureRange' from an ordered pair into a Record (#3197)"
+ },
+ {
   "adate": "2023-10-18T21:04:19-07:00",
   "author": "Michael Dyck",
   "date": "2023-10-18T21:04:19-07:00",
