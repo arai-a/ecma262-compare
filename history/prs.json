@@ -21,110 +21,6 @@
  },
  {
   "base": "5eaee2f3c52bd2d46b7d286537e5da5baf16d002",
-  "created_at": "2023-10-17T01:37:30Z",
-  "head": "223c401dd03b9aa71f66847db226af0db687893b",
-  "login": "tc39",
-  "number": 3202,
-  "ref": "ValidateAndApplyPropertyDescriptor-SameValue",
-  "revs": [
-   {
-    "adate": "2023-10-17T16:58:41-06:00",
-    "author": "Michael Ficarra",
-    "date": "2023-10-17T16:58:41-06:00",
-    "hash": "223c401dd03b9aa71f66847db226af0db687893b",
-    "parents": "ad2040e72feae81acce54d6d1c38249704a820c2",
-    "subject": "add another one"
-   },
-   {
-    "adate": "2023-10-16T19:33:45-06:00",
-    "author": "Michael Ficarra",
-    "date": "2023-10-16T19:33:45-06:00",
-    "hash": "ad2040e72feae81acce54d6d1c38249704a820c2",
-    "parents": "5eaee2f3c52bd2d46b7d286537e5da5baf16d002",
-    "subject": "Editorial: remove some unnecessary calls to SameValue"
-   }
-  ],
-  "title": "Editorial: remove some unnecessary calls to SameValue",
-  "updated_at": "2023-10-17T22:59:09Z"
- },
- {
-  "base": "5eaee2f3c52bd2d46b7d286537e5da5baf16d002",
-  "created_at": "2023-10-16T18:57:40Z",
-  "head": "9d02032a7aa21f596efe0213c0bb72d75fbd631e",
-  "login": "syg",
-  "number": 3200,
-  "ref": "fix-revalidateatomicaccess",
-  "revs": [
-   {
-    "adate": "2023-10-18T16:14:10-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2023-10-18T16:14:10-07:00",
-    "hash": "9d02032a7aa21f596efe0213c0bb72d75fbd631e",
-    "parents": "86caf192dbcf30d7be6940367632afcabbaa031a",
-    "subject": "Make the fact that the index is within a buffer more explicit"
-   },
-   {
-    "adate": "2023-10-16T11:56:18-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2023-10-16T11:56:18-07:00",
-    "hash": "86caf192dbcf30d7be6940367632afcabbaa031a",
-    "parents": "5eaee2f3c52bd2d46b7d286537e5da5baf16d002",
-    "subject": "Editorial: Fix RevalidateAtomicAccess to check against byte length"
-   }
-  ],
-  "title": "Normative bug fix: Fix RevalidateAtomicAccess to check against byte length",
-  "updated_at": "2023-10-18T23:14:50Z"
- },
- {
-  "base": "5eaee2f3c52bd2d46b7d286537e5da5baf16d002",
-  "created_at": "2023-10-14T19:49:46Z",
-  "head": "dc468b7841ccc30a977343a4d07565034ce3dd2f",
-  "login": "jmdyck",
-  "number": 3197,
-  "ref": "CaptureRange",
-  "revs": [
-   {
-    "adate": "2023-10-14T15:26:30-04:00",
-    "author": "Michael Dyck",
-    "date": "2023-10-14T15:26:30-04:00",
-    "hash": "dc468b7841ccc30a977343a4d07565034ce3dd2f",
-    "parents": "49941a46bd1f10c06d33ffda3935ab7be00e6dfe",
-    "subject": "Editorial: Change 'MatchState' from an ordered triple into a Record"
-   },
-   {
-    "adate": "2023-10-13T23:48:03-04:00",
-    "author": "Michael Dyck",
-    "date": "2023-10-13T23:48:03-04:00",
-    "hash": "49941a46bd1f10c06d33ffda3935ab7be00e6dfe",
-    "parents": "5eaee2f3c52bd2d46b7d286537e5da5baf16d002",
-    "subject": "Editorial: Change 'CaptureRange' from an ordered pair into a Record"
-   }
-  ],
-  "title": "Editorial: Model CaptureRange and MatchState as Records",
-  "updated_at": "2023-10-14T19:49:46Z"
- },
- {
-  "base": "5eaee2f3c52bd2d46b7d286537e5da5baf16d002",
-  "created_at": "2023-10-13T23:43:31Z",
-  "head": "bbdb09425f9770ab80efaae0a7a39619a5a7c8f0",
-  "login": "jmdyck",
-  "number": 3196,
-  "ref": "emu-xref",
-  "revs": [
-   {
-    "adate": "2023-10-13T18:45:20-04:00",
-    "author": "Michael Dyck",
-    "date": "2023-10-13T18:45:20-04:00",
-    "hash": "bbdb09425f9770ab80efaae0a7a39619a5a7c8f0",
-    "parents": "5eaee2f3c52bd2d46b7d286537e5da5baf16d002",
-    "subject": "Markup: Eliminate unnecessary <emu-xref> elements"
-   }
-  ],
-  "title": "Markup: Eliminate unnecessary <emu-xref> elements",
-  "updated_at": "2023-10-14T00:01:18Z"
- },
- {
-  "base": "5eaee2f3c52bd2d46b7d286537e5da5baf16d002",
   "created_at": "2023-10-13T09:39:05Z",
   "head": "4b17b46746e9cae0494936f5f1a8b611efa85dc8",
   "login": "legendecas",
@@ -428,26 +324,6 @@
   "updated_at": "2023-10-10T03:42:57Z"
  },
  {
-  "base": "5eaee2f3c52bd2d46b7d286537e5da5baf16d002",
-  "created_at": "2023-10-01T20:28:43Z",
-  "head": "1d5e98a36510044474ee114e78e8e6ba692ffef4",
-  "login": "linusg",
-  "number": 3187,
-  "ref": "dfn-promisereaction",
-  "revs": [
-   {
-    "adate": "2023-10-01T21:27:53+01:00",
-    "author": "Linus Groh",
-    "date": "2023-10-19T02:22:27+02:00",
-    "hash": "1d5e98a36510044474ee114e78e8e6ba692ffef4",
-    "parents": "5eaee2f3c52bd2d46b7d286537e5da5baf16d002",
-    "subject": "Editorial: dfn PromiseReaction Records"
-   }
-  ],
-  "title": "Editorial: dfn PromiseReaction Records",
-  "updated_at": "2023-10-19T00:22:36Z"
- },
- {
   "base": "10d44bfce4640894a0ed366bb769f2700cc8839a",
   "created_at": "2023-09-22T21:28:07Z",
   "head": "c5a84151a9190e9138d308beb71a651848fd3060",
@@ -488,9 +364,9 @@
   "updated_at": "2023-09-21T22:34:21Z"
  },
  {
-  "base": "f2a24f8672aa650daafc39bace3b235f12feb9dd",
+  "base": "57d53d3ca5ff0d7176cc0bf413c378b919f5dcbc",
   "created_at": "2023-09-21T14:39:02Z",
-  "head": "2aea21e92f577d5993d08ad253bec2b30c71c93c",
+  "head": "b1c4c1c456ceb444c6877821dc3f8bc872a0bed8",
   "login": "linusg",
   "number": 3181,
   "ref": "fix-inconsistencies",
@@ -498,46 +374,46 @@
    {
     "adate": "2023-09-21T15:33:41+01:00",
     "author": "Linus Groh",
-    "date": "2023-09-21T23:15:36+01:00",
-    "hash": "2aea21e92f577d5993d08ad253bec2b30c71c93c",
-    "parents": "1244a18fb75da636a5fc046bf2ef919cf1b7bbc1",
+    "date": "2023-10-19T13:54:56+02:00",
+    "hash": "b1c4c1c456ceb444c6877821dc3f8bc872a0bed8",
+    "parents": "9a86167ca0d20a909117ae678384bdaf6ebc3529",
     "subject": "Editorial: Bring {%TA%,Array}#join() and Array#toLocaleString() in sync"
    },
    {
     "adate": "2023-09-21T15:29:28+01:00",
     "author": "Linus Groh",
-    "date": "2023-09-21T15:29:28+01:00",
-    "hash": "1244a18fb75da636a5fc046bf2ef919cf1b7bbc1",
-    "parents": "3e2874e08f4a6057b364de3f5dd2802a803b8918",
+    "date": "2023-10-19T13:54:56+02:00",
+    "hash": "9a86167ca0d20a909117ae678384bdaf6ebc3529",
+    "parents": "b5f128f37422b2fa33496434ba973f51160bb9c0",
     "subject": "Editorial: Rename array to O in Array#{toLocaleString,toString}()"
    },
    {
     "adate": "2023-09-21T15:23:19+01:00",
     "author": "Linus Groh",
-    "date": "2023-09-21T15:23:19+01:00",
-    "hash": "3e2874e08f4a6057b364de3f5dd2802a803b8918",
-    "parents": "71306419323c6df2bba0b1b68494cb3125107871",
+    "date": "2023-10-19T13:54:56+02:00",
+    "hash": "b5f128f37422b2fa33496434ba973f51160bb9c0",
+    "parents": "3ae15815339b8d22e4bc4ca742dec165c355e427",
     "subject": "Editorial: Deduplicate ToString(\ud835\udd3d(k)) in Array#{indexOf,lastIndexOf}()"
    },
    {
     "adate": "2023-09-21T15:21:04+01:00",
     "author": "Linus Groh",
-    "date": "2023-09-21T15:21:04+01:00",
-    "hash": "71306419323c6df2bba0b1b68494cb3125107871",
-    "parents": "715a83da8c11622e91e899f572e2a5e888957ced",
+    "date": "2023-10-19T13:54:56+02:00",
+    "hash": "3ae15815339b8d22e4bc4ca742dec165c355e427",
+    "parents": "de10b228976d06c9e529870f80ea25afc0a0c03a",
     "subject": "Editorial: Rename fromVal to fromValue in Array#{copyWithin,shift}()"
    },
    {
     "adate": "2023-09-21T15:18:53+01:00",
     "author": "Linus Groh",
-    "date": "2023-09-21T15:18:53+01:00",
-    "hash": "715a83da8c11622e91e899f572e2a5e888957ced",
-    "parents": "f2a24f8672aa650daafc39bace3b235f12feb9dd",
+    "date": "2023-10-19T13:54:56+02:00",
+    "hash": "de10b228976d06c9e529870f80ea25afc0a0c03a",
+    "parents": "57d53d3ca5ff0d7176cc0bf413c378b919f5dcbc",
     "subject": "Editorial: Compare tv against NaN in Date.prototype.toISOString()"
    }
   ],
   "title": "Editorial: Fix a couple of inconsistencies",
-  "updated_at": "2023-09-21T22:18:37Z"
+  "updated_at": "2023-10-19T11:55:04Z"
  },
  {
   "base": "10d44bfce4640894a0ed366bb769f2700cc8839a",
@@ -826,34 +702,6 @@
   ],
   "title": "Editorial: widen paramter type of IsAnonymousFunctionDefinition",
   "updated_at": "2023-08-18T12:45:52Z"
- },
- {
-  "base": "5eaee2f3c52bd2d46b7d286537e5da5baf16d002",
-  "created_at": "2023-08-11T16:11:17Z",
-  "head": "1675b77c3fa6e06747ed7b31533433e81e6ee206",
-  "login": "tc39",
-  "number": 3146,
-  "ref": "built-in-constructor",
-  "revs": [
-   {
-    "adate": "2023-10-18T15:40:20-06:00",
-    "author": "Michael Ficarra",
-    "date": "2023-10-18T15:40:20-06:00",
-    "hash": "1675b77c3fa6e06747ed7b31533433e81e6ee206",
-    "parents": "8f637cef10d6c7c9ffb32b78e5203041341c14ec 5eaee2f3c52bd2d46b7d286537e5da5baf16d002",
-    "subject": "Merge branch 'main' into built-in-constructor"
-   },
-   {
-    "adate": "2023-08-11T10:07:11-06:00",
-    "author": "Michael Ficarra",
-    "date": "2023-08-11T10:08:22-06:00",
-    "hash": "8f637cef10d6c7c9ffb32b78e5203041341c14ec",
-    "parents": "c316ec72f6e227d88d4ef67a3e16b486c5ca356d",
-    "subject": "move built-in constructor into its own T&D section"
-   }
-  ],
-  "title": "Editorial: move built-in constructor into its own Terms & Definitions section",
-  "updated_at": "2023-10-18T21:40:25Z"
  },
  {
   "base": "c316ec72f6e227d88d4ef67a3e16b486c5ca356d",
