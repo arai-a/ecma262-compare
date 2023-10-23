@@ -28,26 +28,6 @@
   "updated_at": "2023-10-20T17:08:23Z"
  },
  {
-  "base": "57d53d3ca5ff0d7176cc0bf413c378b919f5dcbc",
-  "created_at": "2023-10-19T19:05:18Z",
-  "head": "a5d59c9c402be6a12f4a9134ad0201b427246ad1",
-  "login": "syg",
-  "number": 3205,
-  "ref": "indexedposition",
-  "revs": [
-   {
-    "adate": "2023-10-19T12:04:32-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2023-10-19T12:04:32-07:00",
-    "hash": "a5d59c9c402be6a12f4a9134ad0201b427246ad1",
-    "parents": "57d53d3ca5ff0d7176cc0bf413c378b919f5dcbc",
-    "subject": "Editorial: Rename indexedPosition to byteIndexInBuffer"
-   }
-  ],
-  "title": "Editorial: Rename indexedPosition to byteIndexInBuffer",
-  "updated_at": "2023-10-19T19:05:31Z"
- },
- {
   "base": "5eaee2f3c52bd2d46b7d286537e5da5baf16d002",
   "created_at": "2023-10-18T23:32:02Z",
   "head": "3306f7ba20db7aa5102f72b1e2af75a30bc3f263",
@@ -513,26 +493,6 @@
  },
  {
   "base": "9abd594ecc5d6ed5317bc276b1854d3a1f9763ff",
-  "created_at": "2023-09-14T21:26:40Z",
-  "head": "7ccc1352eb0bece58017634ff5d4c0557e3b3990",
-  "login": "tc39",
-  "number": 3174,
-  "ref": "number-less-than-zero-checks",
-  "revs": [
-   {
-    "adate": "2023-09-14T15:11:54-06:00",
-    "author": "Michael Ficarra",
-    "date": "2023-09-14T15:11:54-06:00",
-    "hash": "7ccc1352eb0bece58017634ff5d4c0557e3b3990",
-    "parents": "9abd594ecc5d6ed5317bc276b1854d3a1f9763ff",
-    "subject": "remove unhelpful and potentially misleading checks in Number::lessThan"
-   }
-  ],
-  "title": "Editorial: remove unhelpful and potentially misleading checks in Number::lessThan",
-  "updated_at": "2023-09-14T21:39:28Z"
- },
- {
-  "base": "9abd594ecc5d6ed5317bc276b1854d3a1f9763ff",
   "created_at": "2023-09-10T17:51:59Z",
   "head": "fa87a7b2c4170af22e81dafe241ae8f114cae942",
   "login": "Josh-Cena",
@@ -654,46 +614,6 @@
   ],
   "title": "Editorial: Use \"is a foo completion\" instead of testing [[Type]] field",
   "updated_at": "2023-10-13T19:17:05Z"
- },
- {
-  "base": "0802e7da54fc870af4e6c37b048428611c449f61",
-  "created_at": "2023-08-20T08:40:58Z",
-  "head": "e31898791ca1e6f2ecf8d6e1dd6fd1c08a5100a1",
-  "login": "VoltrexKeyva",
-  "number": 3152,
-  "ref": "add-alt-text",
-  "revs": [
-   {
-    "adate": "2023-08-20T12:05:47+03:30",
-    "author": "Mohammed Keyvanzadeh",
-    "date": "2023-08-20T12:05:47+03:30",
-    "hash": "e31898791ca1e6f2ecf8d6e1dd6fd1c08a5100a1",
-    "parents": "0802e7da54fc870af4e6c37b048428611c449f61",
-    "subject": "Editorial: add alt text to Ecma logo"
-   }
-  ],
-  "title": "Editorial: add alt text to Ecma logo",
-  "updated_at": "2023-08-20T08:40:58Z"
- },
- {
-  "base": "0802e7da54fc870af4e6c37b048428611c449f61",
-  "created_at": "2023-08-18T12:45:52Z",
-  "head": "48d2dac0ceeeac8f6cd787686114c12116f34462",
-  "login": "doehyunbaek",
-  "number": 3148,
-  "ref": "widen_IsAnonymousFunctionDefinition",
-  "revs": [
-   {
-    "adate": "2023-08-18T21:29:03+09:00",
-    "author": "Doehyun Baek",
-    "date": "2023-08-18T21:41:45+09:00",
-    "hash": "48d2dac0ceeeac8f6cd787686114c12116f34462",
-    "parents": "0802e7da54fc870af4e6c37b048428611c449f61",
-    "subject": "Editorial: widen paramter type of IsAnonymousFunctionDefinition"
-   }
-  ],
-  "title": "Editorial: widen paramter type of IsAnonymousFunctionDefinition",
-  "updated_at": "2023-08-18T12:45:52Z"
  },
  {
   "base": "c316ec72f6e227d88d4ef67a3e16b486c5ca356d",
