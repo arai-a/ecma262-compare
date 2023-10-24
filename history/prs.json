@@ -88,32 +88,32 @@
   "updated_at": "2023-10-13T09:58:12Z"
  },
  {
-  "base": "57d53d3ca5ff0d7176cc0bf413c378b919f5dcbc",
+  "base": "3d7c44ce70b987fdda2c108a942d9fc2f60b0b21",
   "created_at": "2023-10-12T19:19:04Z",
-  "head": "590526c0766da580600a04016d1a4047cb1546cf",
+  "head": "3d1618349da0e433e68f5a7b164de14e34451c5e",
   "login": "jmdyck",
   "number": 3194,
   "ref": "IIEO",
   "revs": [
    {
-    "adate": "2023-10-12T10:42:43-04:00",
+    "adate": "2023-10-24T14:40:38-07:00",
     "author": "Michael Dyck",
-    "date": "2023-10-19T15:47:31-04:00",
-    "hash": "590526c0766da580600a04016d1a4047cb1546cf",
-    "parents": "8d9e15298ad406c585956cf17764c70224500ad7",
-    "subject": "Editorial: Rename \"Integer-Indexed exotic object\" as \"TypedArray\""
+    "date": "2023-10-24T14:40:38-07:00",
+    "hash": "3d1618349da0e433e68f5a7b164de14e34451c5e",
+    "parents": "3048195432a04dd2b2d4aa435fa608bee83afe4e",
+    "subject": "Editorial: Rename \"Integer-Indexed exotic object\" as \"TypedArray\" (#3194)"
    },
    {
-    "adate": "2023-10-12T10:22:13-04:00",
+    "adate": "2023-10-24T14:40:31-07:00",
     "author": "Michael Dyck",
-    "date": "2023-10-19T14:21:38-04:00",
-    "hash": "8d9e15298ad406c585956cf17764c70224500ad7",
-    "parents": "57d53d3ca5ff0d7176cc0bf413c378b919f5dcbc",
-    "subject": "Editorial: Rename `TypedArrayCreate` to `TypedArrayCreateFromConstructor`"
+    "date": "2023-10-24T14:40:31-07:00",
+    "hash": "3048195432a04dd2b2d4aa435fa608bee83afe4e",
+    "parents": "3d7c44ce70b987fdda2c108a942d9fc2f60b0b21",
+    "subject": "Editorial: Rename `TypedArrayCreate` to `TypedArrayCreateFromConstructor` (#3194)"
    }
   ],
   "title": "Editorial: Rename \"Integer-Indexed exotic object\" as \"TypedArray\"",
-  "updated_at": "2023-10-19T20:00:29Z"
+  "updated_at": "2023-10-24T21:40:53Z"
  },
  {
   "base": "10d44bfce4640894a0ed366bb769f2700cc8839a",
@@ -453,26 +453,6 @@
  },
  {
   "base": "9abd594ecc5d6ed5317bc276b1854d3a1f9763ff",
-  "created_at": "2023-09-17T22:53:23Z",
-  "head": "3b3bfd9b5bfd074d9f4dba734ffa55c8938c89a8",
-  "login": "shvaikalesh",
-  "number": 3177,
-  "ref": "remove-duplicate-var-from-createdynamicfunction",
-  "revs": [
-   {
-    "adate": "2023-09-17T14:53:30-07:00",
-    "author": "Alexey Shvayka",
-    "date": "2023-09-17T14:53:30-07:00",
-    "hash": "3b3bfd9b5bfd074d9f4dba734ffa55c8938c89a8",
-    "parents": "9abd594ecc5d6ed5317bc276b1854d3a1f9763ff",
-    "subject": "Editorial: Remove duplicate \"current Realm\" variable from CreateDynamicFunction"
-   }
-  ],
-  "title": "Editorial: Remove duplicate \"current Realm\" variable from CreateDynamicFunction",
-  "updated_at": "2023-09-17T22:53:23Z"
- },
- {
-  "base": "9abd594ecc5d6ed5317bc276b1854d3a1f9763ff",
   "created_at": "2023-09-15T17:47:10Z",
   "head": "a9a7ed3c36a0c76d7c561261c4c63d4caca24f60",
   "login": "ljharb",
@@ -538,26 +518,6 @@
   ],
   "title": "Editorial: fix algorithm of Math.atan2",
   "updated_at": "2023-09-12T16:51:59Z"
- },
- {
-  "base": "c4d32f722f8231d43ba186e4191080862b1d5293",
-  "created_at": "2023-09-09T16:22:33Z",
-  "head": "f3f03696296628a4285ed080ce28332731a12c2a",
-  "login": "yaphi1",
-  "number": 3169,
-  "ref": "3108-fix-lessThan-assertion",
-  "revs": [
-   {
-    "adate": "2023-10-22T21:24:07-07:00",
-    "author": "Yaphi Berhanu",
-    "date": "2023-10-22T21:24:07-07:00",
-    "hash": "f3f03696296628a4285ed080ce28332731a12c2a",
-    "parents": "c4d32f722f8231d43ba186e4191080862b1d5293",
-    "subject": "Editorial: fix invalid assertion in Number::lessThan (#3169)"
-   }
-  ],
-  "title": "Editorial: fix invalid assertion in Number::lessThan",
-  "updated_at": "2023-10-23T04:27:14Z"
  },
  {
   "base": "b12a244f3732527a652a58ff481493fd1a110ff1",
