@@ -1,20 +1,104 @@
 [
  {
   "base": "3d7c44ce70b987fdda2c108a942d9fc2f60b0b21",
+  "created_at": "2023-10-29T03:33:26Z",
+  "head": "d40c4ac3aeeb618b848166139b936040ad9cd6f1",
+  "login": "jmdyck",
+  "number": 3210,
+  "ref": "SDO",
+  "revs": [
+   {
+    "adate": "2023-10-28T23:20:34-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-10-28T23:20:34-04:00",
+    "hash": "d40c4ac3aeeb618b848166139b936040ad9cd6f1",
+    "parents": "e7a369a3a9ecd7781d4f948550fe0664aa7946d1",
+    "subject": "Change \"this production\" to \"this Parse Node\""
+   },
+   {
+    "adate": "2023-10-28T23:19:28-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-10-28T23:19:28-04:00",
+    "hash": "e7a369a3a9ecd7781d4f948550fe0664aa7946d1",
+    "parents": "5d30bc7f0c5c661eb131a9eefcdf253134a251c4",
+    "subject": "Change \"this production\" (and 1 \"this phrase\") to \"this |Nonterminal|\""
+   },
+   {
+    "adate": "2023-10-28T22:58:05-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-10-28T23:08:46-04:00",
+    "hash": "5d30bc7f0c5c661eb131a9eefcdf253134a251c4",
+    "parents": "f95a864028aec6ecfed50a54be9d0353b5c03fba",
+    "subject": "Change \"the |UnaryExpression|\" to \"this |UnaryExpression|\""
+   },
+   {
+    "adate": "2023-10-28T22:55:29-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-10-28T23:08:45-04:00",
+    "hash": "f95a864028aec6ecfed50a54be9d0353b5c03fba",
+    "parents": "f4304ee454730c1f33e0bef54d97606c8bc5c261",
+    "subject": "Insert 'this' for references to LHS nonterminal"
+   },
+   {
+    "adate": "2023-10-28T15:35:18-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-10-28T23:08:45-04:00",
+    "hash": "f4304ee454730c1f33e0bef54d97606c8bc5c261",
+    "parents": "953a12069ccce9fb1e0b9f783c7cb6f457025de8",
+    "subject": "Link to \"Referring to Parse Nodes\" from `Early Error Rules`"
+   },
+   {
+    "adate": "2023-10-28T15:34:43-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-10-28T23:04:28-04:00",
+    "hash": "953a12069ccce9fb1e0b9f783c7cb6f457025de8",
+    "parents": "fec34c625b8e43bb7116482b9abd86ee8b7221b4",
+    "subject": "Create a subsection for \"Referring to Parse Nodes\""
+   },
+   {
+    "adate": "2023-10-28T15:29:41-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-10-28T15:33:54-04:00",
+    "hash": "fec34c625b8e43bb7116482b9abd86ee8b7221b4",
+    "parents": "af053ffc6454d0a93474b8173e1aad67f087fe61",
+    "subject": "Add a paragraph about the dispatching mechanism for SDOs."
+   },
+   {
+    "adate": "2023-10-28T09:59:26-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-10-28T15:33:51-04:00",
+    "hash": "af053ffc6454d0a93474b8173e1aad67f087fe61",
+    "parents": "2c88306dc595e24dff19cd48ce2e8c5e2c66a68f",
+    "subject": "Split off a subsection for \"Invoking Syntax-Directed Operations\""
+   },
+   {
+    "adate": "2023-10-28T09:53:49-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-10-28T09:53:49-04:00",
+    "hash": "2c88306dc595e24dff19cd48ce2e8c5e2c66a68f",
+    "parents": "d04454174f998e9d4dc17caf7efded52160182eb",
+    "subject": "Split off a subsection for \"Implicit Definitions for Chain Productions\""
+   },
+   {
+    "adate": "2023-10-28T09:35:28-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-10-28T09:35:28-04:00",
+    "hash": "d04454174f998e9d4dc17caf7efded52160182eb",
+    "parents": "3d7c44ce70b987fdda2c108a942d9fc2f60b0b21",
+    "subject": "Move the definition of \"source text matched by\""
+   }
+  ],
+  "title": "Editorial: Expand the \"Syntax-Directed Operations\" section",
+  "updated_at": "2023-10-29T03:33:26Z"
+ },
+ {
+  "base": "3d7c44ce70b987fdda2c108a942d9fc2f60b0b21",
   "created_at": "2023-10-27T03:02:31Z",
-  "head": "4ca0ae722fa32ecc30c5e1c93272672327f8e92e",
+  "head": "72fd4932da7c416a1aac127ae7fe4988d9bfdcdf",
   "login": "jmdyck",
   "number": 3209,
   "ref": "strict_mode",
   "revs": [
-   {
-    "adate": "2023-10-26T22:15:31-04:00",
-    "author": "Michael Dyck",
-    "date": "2023-10-26T22:44:07-04:00",
-    "hash": "4ca0ae722fa32ecc30c5e1c93272672327f8e92e",
-    "parents": "72fd4932da7c416a1aac127ae7fe4988d9bfdcdf",
-    "subject": "Change `IsStrict(this production)` to `IsStrict(this |Foo|)`"
-   },
    {
     "adate": "2023-10-26T22:40:28-04:00",
     "author": "Michael Dyck",
@@ -57,7 +141,7 @@
    }
   ],
   "title": "Editorial: Introduce IsStrict() abstract operation",
-  "updated_at": "2023-10-27T03:02:31Z"
+  "updated_at": "2023-10-29T03:38:14Z"
  },
  {
   "base": "c4d32f722f8231d43ba186e4191080862b1d5293",
