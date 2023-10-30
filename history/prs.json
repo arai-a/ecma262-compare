@@ -2,11 +2,19 @@
  {
   "base": "3d7c44ce70b987fdda2c108a942d9fc2f60b0b21",
   "created_at": "2023-10-29T14:49:20Z",
-  "head": "693ef7cab58dc2b255ecd39c630af21c1ea4c450",
+  "head": "f9eab639bcba65a0f21fa34535da71ff4f547f98",
   "login": "Jack-Works",
   "number": 3212,
   "ref": "set-is-constructor",
   "revs": [
+   {
+    "adate": "2023-10-30T11:21:36+08:00",
+    "author": "Jack Works",
+    "date": "2023-10-30T11:21:36+08:00",
+    "hash": "f9eab639bcba65a0f21fa34535da71ff4f547f98",
+    "parents": "693ef7cab58dc2b255ecd39c630af21c1ea4c450",
+    "subject": "fix: review"
+   },
    {
     "adate": "2023-10-29T22:47:12+08:00",
     "author": "Jack Works",
@@ -17,7 +25,7 @@
    }
   ],
   "title": "Editorial: call MakeClassConstructor on default class constructor",
-  "updated_at": "2023-10-29T14:59:42Z"
+  "updated_at": "2023-10-30T03:21:42Z"
  },
  {
   "base": "3d7c44ce70b987fdda2c108a942d9fc2f60b0b21",
