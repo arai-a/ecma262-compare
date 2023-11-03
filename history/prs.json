@@ -1,25 +1,5 @@
 [
  {
-  "base": "ea5ee21f74f996bbb127dbb8dfb2a7f17953daf3",
-  "created_at": "2023-11-03T21:33:59Z",
-  "head": "161618c5de42d57e4e4135fcc7a8bba1f3db7bdb",
-  "login": "tc39",
-  "number": 3215,
-  "ref": "bump-ecmarkup",
-  "revs": [
-   {
-    "adate": "2023-11-03T14:31:56-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2023-11-03T14:31:56-07:00",
-    "hash": "161618c5de42d57e4e4135fcc7a8bba1f3db7bdb",
-    "parents": "ea5ee21f74f996bbb127dbb8dfb2a7f17953daf3",
-    "subject": "Meta: bump ecmarkup to 18.1.0"
-   }
-  ],
-  "title": "Meta: bump ecmarkup to 18.1.0",
-  "updated_at": "2023-11-03T21:37:44Z"
- },
- {
   "base": "3d7c44ce70b987fdda2c108a942d9fc2f60b0b21",
   "created_at": "2023-10-29T14:49:20Z",
   "head": "f9eab639bcba65a0f21fa34535da71ff4f547f98",
@@ -288,32 +268,32 @@
   "updated_at": "2023-10-13T09:58:12Z"
  },
  {
-  "base": "3d7c44ce70b987fdda2c108a942d9fc2f60b0b21",
+  "base": "82c99bbc44e4b63e3a14ffbf0ac90ce8359c1010",
   "created_at": "2023-10-12T19:19:04Z",
-  "head": "3d1618349da0e433e68f5a7b164de14e34451c5e",
+  "head": "b1c7e602aa3c1cc25bba3d3627b68c19f6d711ae",
   "login": "jmdyck",
   "number": 3194,
   "ref": "IIEO",
   "revs": [
    {
-    "adate": "2023-10-24T14:40:38-07:00",
+    "adate": "2023-11-03T15:34:45-07:00",
     "author": "Michael Dyck",
-    "date": "2023-10-24T14:40:38-07:00",
-    "hash": "3d1618349da0e433e68f5a7b164de14e34451c5e",
-    "parents": "3048195432a04dd2b2d4aa435fa608bee83afe4e",
+    "date": "2023-11-03T15:34:45-07:00",
+    "hash": "b1c7e602aa3c1cc25bba3d3627b68c19f6d711ae",
+    "parents": "d6bdb8ab9b49c429210e4cbb52496335e5bbf540",
     "subject": "Editorial: Rename \"Integer-Indexed exotic object\" as \"TypedArray\" (#3194)"
    },
    {
-    "adate": "2023-10-24T14:40:31-07:00",
+    "adate": "2023-11-03T15:34:43-07:00",
     "author": "Michael Dyck",
-    "date": "2023-10-24T14:40:31-07:00",
-    "hash": "3048195432a04dd2b2d4aa435fa608bee83afe4e",
-    "parents": "3d7c44ce70b987fdda2c108a942d9fc2f60b0b21",
+    "date": "2023-11-03T15:34:43-07:00",
+    "hash": "d6bdb8ab9b49c429210e4cbb52496335e5bbf540",
+    "parents": "82c99bbc44e4b63e3a14ffbf0ac90ce8359c1010",
     "subject": "Editorial: Rename `TypedArrayCreate` to `TypedArrayCreateFromConstructor` (#3194)"
    }
   ],
   "title": "Editorial: Rename \"Integer-Indexed exotic object\" as \"TypedArray\"",
-  "updated_at": "2023-10-24T21:40:53Z"
+  "updated_at": "2023-11-03T22:34:54Z"
  },
  {
   "base": "10d44bfce4640894a0ed366bb769f2700cc8839a",
@@ -672,24 +652,24 @@
   "updated_at": "2023-09-15T19:00:33Z"
  },
  {
-  "base": "ea5ee21f74f996bbb127dbb8dfb2a7f17953daf3",
+  "base": "82c99bbc44e4b63e3a14ffbf0ac90ce8359c1010",
   "created_at": "2023-09-15T17:36:25Z",
-  "head": "fc28e6e1b7ed7b3a4219406e4d9f1f5c1753407c",
+  "head": "69a35bc3c1e5cfbda2d9febbd4d301b94e35abe3",
   "login": "ljharb",
   "number": 3175,
   "ref": "transfer",
   "revs": [
    {
-    "adate": "2023-11-03T10:01:00-07:00",
+    "adate": "2023-11-03T15:37:12-07:00",
     "author": "Jordan Harband",
-    "date": "2023-11-03T10:01:00-07:00",
-    "hash": "fc28e6e1b7ed7b3a4219406e4d9f1f5c1753407c",
-    "parents": "ea5ee21f74f996bbb127dbb8dfb2a7f17953daf3",
+    "date": "2023-11-03T15:37:12-07:00",
+    "hash": "69a35bc3c1e5cfbda2d9febbd4d301b94e35abe3",
+    "parents": "82c99bbc44e4b63e3a14ffbf0ac90ce8359c1010",
     "subject": "Normative: add ArrayBuffer.prototype.{detached,transfer,transferToFixedLength} (#3175)"
    }
   ],
   "title": "Normative: add ArrayBuffer.prototype.{detached,transfer,transferToFixedLength}",
-  "updated_at": "2023-11-03T17:01:10Z"
+  "updated_at": "2023-11-03T22:37:20Z"
  },
  {
   "base": "9abd594ecc5d6ed5317bc276b1854d3a1f9763ff",
@@ -720,9 +700,9 @@
   "updated_at": "2023-09-12T16:51:59Z"
  },
  {
-  "base": "5eaee2f3c52bd2d46b7d286537e5da5baf16d002",
+  "base": "82c99bbc44e4b63e3a14ffbf0ac90ce8359c1010",
   "created_at": "2023-09-04T02:16:55Z",
-  "head": "49472d1148e7b0cce654de31cd6bb3a301aafc34",
+  "head": "09cbecd8826b1f1b9d4fe13d84838311efb990ca",
   "login": "jmdyck",
   "number": 3163,
   "ref": "is_a_foo_completion",
@@ -730,22 +710,22 @@
    {
     "adate": "2023-09-03T22:24:42-04:00",
     "author": "Michael Dyck",
-    "date": "2023-10-12T22:41:18-04:00",
-    "hash": "49472d1148e7b0cce654de31cd6bb3a301aafc34",
-    "parents": "cdefa95c6174aa026c8e1cc68b53c5daa9f3154b",
+    "date": "2023-11-03T15:37:39-07:00",
+    "hash": "09cbecd8826b1f1b9d4fe13d84838311efb990ca",
+    "parents": "b82d540f55e68560df56fbd72f9b760e5057d140",
     "subject": "fixup: tweak esmeta-ignore.json as indicated by `typecheck`"
    },
    {
     "adate": "2023-09-03T22:10:31-04:00",
     "author": "Michael Dyck",
-    "date": "2023-10-12T22:38:05-04:00",
-    "hash": "cdefa95c6174aa026c8e1cc68b53c5daa9f3154b",
-    "parents": "5eaee2f3c52bd2d46b7d286537e5da5baf16d002",
+    "date": "2023-11-03T15:37:39-07:00",
+    "hash": "b82d540f55e68560df56fbd72f9b760e5057d140",
+    "parents": "82c99bbc44e4b63e3a14ffbf0ac90ce8359c1010",
     "subject": "Editorial: Use \"is a foo completion\" instead of testing [[Type]] field"
    }
   ],
   "title": "Editorial: Use \"is a foo completion\" instead of testing [[Type]] field",
-  "updated_at": "2023-10-13T19:17:05Z"
+  "updated_at": "2023-11-03T22:37:42Z"
  },
  {
   "base": "c316ec72f6e227d88d4ef67a3e16b486c5ca356d",
