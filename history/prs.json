@@ -652,24 +652,24 @@
   "updated_at": "2023-09-15T19:00:33Z"
  },
  {
-  "base": "3d7c44ce70b987fdda2c108a942d9fc2f60b0b21",
+  "base": "ea5ee21f74f996bbb127dbb8dfb2a7f17953daf3",
   "created_at": "2023-09-15T17:36:25Z",
-  "head": "a055d256244a66b98feeeb344808e6d21cbf9e73",
+  "head": "fc28e6e1b7ed7b3a4219406e4d9f1f5c1753407c",
   "login": "ljharb",
   "number": 3175,
   "ref": "transfer",
   "revs": [
    {
-    "adate": "2023-09-15T10:34:44-07:00",
+    "adate": "2023-11-03T10:01:00-07:00",
     "author": "Jordan Harband",
-    "date": "2023-10-25T15:05:23-07:00",
-    "hash": "a055d256244a66b98feeeb344808e6d21cbf9e73",
-    "parents": "3d7c44ce70b987fdda2c108a942d9fc2f60b0b21",
+    "date": "2023-11-03T10:01:00-07:00",
+    "hash": "fc28e6e1b7ed7b3a4219406e4d9f1f5c1753407c",
+    "parents": "ea5ee21f74f996bbb127dbb8dfb2a7f17953daf3",
     "subject": "Normative: add ArrayBuffer.prototype.{detached,transfer,transferToFixedLength} (#3175)"
    }
   ],
   "title": "Normative: add ArrayBuffer.prototype.{detached,transfer,transferToFixedLength}",
-  "updated_at": "2023-10-25T22:06:59Z"
+  "updated_at": "2023-11-03T17:01:10Z"
  },
  {
   "base": "9abd594ecc5d6ed5317bc276b1854d3a1f9763ff",
