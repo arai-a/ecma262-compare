@@ -200,32 +200,56 @@
   "updated_at": "2023-10-24T16:44:50Z"
  },
  {
-  "base": "ea5ee21f74f996bbb127dbb8dfb2a7f17953daf3",
+  "base": "82c99bbc44e4b63e3a14ffbf0ac90ce8359c1010",
   "created_at": "2023-10-20T17:08:23Z",
-  "head": "6698680d43787ae8aa443f791f81df700a18d57f",
+  "head": "8e8ccffc693110c3a5fa95077fc010de84ffcd99",
   "login": "jmdyck",
   "number": 3206,
   "ref": "SameValue",
   "revs": [
    {
-    "adate": "2023-10-20T12:27:59-04:00",
+    "adate": "2023-11-07T12:13:12-05:00",
     "author": "Michael Dyck",
-    "date": "2023-11-01T16:30:16-04:00",
-    "hash": "6698680d43787ae8aa443f791f81df700a18d57f",
-    "parents": "fa9ac78e9b9d12008d9bf14f484f22e08e3a9b9e",
-    "subject": "Editorial: Change some more 'SameValue' to 'is'"
+    "date": "2023-11-07T14:40:38-05:00",
+    "hash": "8e8ccffc693110c3a5fa95077fc010de84ffcd99",
+    "parents": "38de78ae8c75290f9823034a0dd28f62ece9a7ac",
+    "subject": "Change `is` to `are the same X Record` for comparison of Records"
    },
    {
-    "adate": "2023-10-20T12:18:36-04:00",
+    "adate": "2023-11-07T10:56:54-05:00",
     "author": "Michael Dyck",
-    "date": "2023-11-01T16:29:19-04:00",
-    "hash": "fa9ac78e9b9d12008d9bf14f484f22e08e3a9b9e",
+    "date": "2023-11-07T14:40:38-05:00",
+    "hash": "38de78ae8c75290f9823034a0dd28f62ece9a7ac",
+    "parents": "51a2f3a39e4f4026162f0172e42f79a9653a0080",
+    "subject": "Change `is` to `=` for comparison of math values"
+   },
+   {
+    "adate": "2023-11-06T22:31:54-05:00",
+    "author": "Michael Dyck",
+    "date": "2023-11-07T14:40:38-05:00",
+    "hash": "51a2f3a39e4f4026162f0172e42f79a9653a0080",
+    "parents": "9135c3a2b51b9689a22dadaac8b0efec626c80fb",
+    "subject": "Change `is` to `=` for comparison of BigInts"
+   },
+   {
+    "adate": "2023-11-06T22:23:50-05:00",
+    "author": "Michael Dyck",
+    "date": "2023-11-07T14:40:33-05:00",
+    "hash": "9135c3a2b51b9689a22dadaac8b0efec626c80fb",
+    "parents": "955bb8d9426c5557676fbc779a29b775578cab10",
+    "subject": "Change `SameValue` to `is` for comparison of Number values"
+   },
+   {
+    "adate": "2023-10-20T12:27:59-04:00",
+    "author": "Michael Dyck",
+    "date": "2023-11-07T14:38:15-05:00",
+    "hash": "955bb8d9426c5557676fbc779a29b775578cab10",
     "parents": "ea5ee21f74f996bbb127dbb8dfb2a7f17953daf3",
-    "subject": "Editorial: Eliminate \"are [not] the same Foo Record\""
+    "subject": "Change `SameValue` to `is` for comparison of String values"
    }
   ],
   "title": "Editorial: More changes for comparisons",
-  "updated_at": "2023-11-01T21:04:28Z"
+  "updated_at": "2023-11-07T19:45:47Z"
  },
  {
   "base": "5eaee2f3c52bd2d46b7d286537e5da5baf16d002",
