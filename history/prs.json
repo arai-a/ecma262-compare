@@ -1,6 +1,54 @@
 [
  {
   "base": "82c99bbc44e4b63e3a14ffbf0ac90ce8359c1010",
+  "created_at": "2023-11-18T19:56:53Z",
+  "head": "6521466579f154432e5496cdcc6ef0cda9d5fc11",
+  "login": "gibson042",
+  "number": 3224,
+  "ref": "2023-11-object-initializer-redundancy",
+  "revs": [
+   {
+    "adate": "2023-11-18T14:53:25-05:00",
+    "author": "Richard Gibson",
+    "date": "2023-11-18T14:54:27-05:00",
+    "hash": "6521466579f154432e5496cdcc6ef0cda9d5fc11",
+    "parents": "82c99bbc44e4b63e3a14ffbf0ac90ce8359c1010",
+    "subject": "Editorial: Remove redundant text in Object Initializer"
+   }
+  ],
+  "title": "Editorial: Remove redundant text in Object Initializer",
+  "updated_at": "2023-11-18T19:57:54Z"
+ },
+ {
+  "base": "82c99bbc44e4b63e3a14ffbf0ac90ce8359c1010",
+  "created_at": "2023-11-18T19:49:39Z",
+  "head": "b671b1b21d2ae60c25a007de025a4483b82beff6",
+  "login": "gibson042",
+  "number": 3223,
+  "ref": "2023-11-cover-grammar-text",
+  "revs": [
+   {
+    "adate": "2023-11-18T14:11:40-05:00",
+    "author": "Richard Gibson",
+    "date": "2023-11-18T14:11:40-05:00",
+    "hash": "b671b1b21d2ae60c25a007de025a4483b82beff6",
+    "parents": "e51a96ff55a68d9db9edc264416b9289d7e15a68",
+    "subject": "Editorial: Separate cover grammar text into a subsection"
+   },
+   {
+    "adate": "2023-11-18T14:03:10-05:00",
+    "author": "Richard Gibson",
+    "date": "2023-11-18T14:03:10-05:00",
+    "hash": "e51a96ff55a68d9db9edc264416b9289d7e15a68",
+    "parents": "82c99bbc44e4b63e3a14ffbf0ac90ce8359c1010",
+    "subject": "Editorial: Add <dfn>s for cover grammar linking"
+   }
+  ],
+  "title": "Editorial: Separate cover grammar text into a subsection with autolink targets",
+  "updated_at": "2023-11-18T19:49:39Z"
+ },
+ {
+  "base": "82c99bbc44e4b63e3a14ffbf0ac90ce8359c1010",
   "created_at": "2023-11-16T01:57:48Z",
   "head": "a4dbfc835e9a5f41c4e4c06f21b28fe85b0d00fc",
   "login": "ptomato",
