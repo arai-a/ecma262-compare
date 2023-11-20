@@ -2,11 +2,19 @@
  {
   "base": "82c99bbc44e4b63e3a14ffbf0ac90ce8359c1010",
   "created_at": "2023-11-20T22:30:41Z",
-  "head": "087e75309507b1366bbd6a80a459ca8e12bb4bfa",
+  "head": "36c0034f6432f29aee7a287e182a90396291ce7d",
   "login": "syg",
   "number": 3226,
   "ref": "stop-tracking-sloppy-eval-global-vars",
   "revs": [
+   {
+    "adate": "2023-11-20T15:23:26-08:00",
+    "author": "Shu-yu Guo",
+    "date": "2023-11-20T15:23:50-08:00",
+    "hash": "36c0034f6432f29aee7a287e182a90396291ce7d",
+    "parents": "087e75309507b1366bbd6a80a459ca8e12bb4bfa",
+    "subject": "Tweak note wording; fix stray word"
+   },
    {
     "adate": "2023-11-20T14:17:24-08:00",
     "author": "Shu-yu Guo",
@@ -17,7 +25,7 @@
    }
   ],
   "title": "Normative: Remove [[VarNames]] from the global",
-  "updated_at": "2023-11-20T22:31:48Z"
+  "updated_at": "2023-11-20T23:26:49Z"
  },
  {
   "base": "82c99bbc44e4b63e3a14ffbf0ac90ce8359c1010",
