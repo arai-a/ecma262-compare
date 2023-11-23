@@ -173,26 +173,6 @@
  },
  {
   "base": "82c99bbc44e4b63e3a14ffbf0ac90ce8359c1010",
-  "created_at": "2023-11-12T18:42:23Z",
-  "head": "400039d6c22c826d2da6a4c8cc2b296a47c5c766",
-  "login": "jhnaldo",
-  "number": 3219,
-  "ref": "update-esmeta",
-  "revs": [
-   {
-    "adate": "2023-11-13T03:33:23+09:00",
-    "author": "Jihyeok Park",
-    "date": "2023-11-13T03:33:23+09:00",
-    "hash": "400039d6c22c826d2da6a4c8cc2b296a47c5c766",
-    "parents": "f688c6f3999c731a08f4d408e5a4f976b0bbf39d",
-    "subject": "Meta: Upgrade ESMeta to v0.3.3"
-   }
-  ],
-  "title": "Meta: Upgrade ESMeta to v0.3.3",
-  "updated_at": "2023-11-12T18:42:23Z"
- },
- {
-  "base": "82c99bbc44e4b63e3a14ffbf0ac90ce8359c1010",
   "created_at": "2023-11-08T20:37:34Z",
   "head": "0f017325c3e7c18858f39746164f611e65743a75",
   "login": "jmdyck",
@@ -502,34 +482,6 @@
   ],
   "title": "Nomative: Propagate active ScriptOrModule with JobCallback Record",
   "updated_at": "2023-10-13T09:58:12Z"
- },
- {
-  "base": "82c99bbc44e4b63e3a14ffbf0ac90ce8359c1010",
-  "created_at": "2023-10-12T19:19:04Z",
-  "head": "b1c7e602aa3c1cc25bba3d3627b68c19f6d711ae",
-  "login": "jmdyck",
-  "number": 3194,
-  "ref": "IIEO",
-  "revs": [
-   {
-    "adate": "2023-11-03T15:34:45-07:00",
-    "author": "Michael Dyck",
-    "date": "2023-11-03T15:34:45-07:00",
-    "hash": "b1c7e602aa3c1cc25bba3d3627b68c19f6d711ae",
-    "parents": "d6bdb8ab9b49c429210e4cbb52496335e5bbf540",
-    "subject": "Editorial: Rename \"Integer-Indexed exotic object\" as \"TypedArray\" (#3194)"
-   },
-   {
-    "adate": "2023-11-03T15:34:43-07:00",
-    "author": "Michael Dyck",
-    "date": "2023-11-03T15:34:43-07:00",
-    "hash": "d6bdb8ab9b49c429210e4cbb52496335e5bbf540",
-    "parents": "82c99bbc44e4b63e3a14ffbf0ac90ce8359c1010",
-    "subject": "Editorial: Rename `TypedArrayCreate` to `TypedArrayCreateFromConstructor` (#3194)"
-   }
-  ],
-  "title": "Editorial: Rename \"Integer-Indexed exotic object\" as \"TypedArray\"",
-  "updated_at": "2023-11-03T22:34:54Z"
  },
  {
   "base": "10d44bfce4640894a0ed366bb769f2700cc8839a",
@@ -860,24 +812,24 @@
   "updated_at": "2023-11-22T17:19:02Z"
  },
  {
-  "base": "82c99bbc44e4b63e3a14ffbf0ac90ce8359c1010",
+  "base": "03e44104d41bb64c29fa5cf0937b5e62de94f98a",
   "created_at": "2023-09-15T17:47:10Z",
-  "head": "671eacaedec71d0b75d8c21698fa5fb7687a9b6d",
+  "head": "5afb5287f87b84366eb3f4c29fdb12e3b3d0903e",
   "login": "ljharb",
   "number": 3176,
   "ref": "grouping",
   "revs": [
    {
-    "adate": "2023-11-20T20:37:00-05:00",
+    "adate": "2023-11-22T20:18:28-08:00",
     "author": "Jordan Harband",
-    "date": "2023-11-22T19:00:57-08:00",
-    "hash": "671eacaedec71d0b75d8c21698fa5fb7687a9b6d",
-    "parents": "82c99bbc44e4b63e3a14ffbf0ac90ce8359c1010",
+    "date": "2023-11-22T20:18:28-08:00",
+    "hash": "5afb5287f87b84366eb3f4c29fdb12e3b3d0903e",
+    "parents": "03e44104d41bb64c29fa5cf0937b5e62de94f98a",
     "subject": "Normative: add `Object.groupBy` and `Map.groupBy` (#3176)"
    }
   ],
   "title": "Normative: add `Object.groupBy` and `Map.groupBy`",
-  "updated_at": "2023-11-23T03:01:20Z"
+  "updated_at": "2023-11-23T04:31:52Z"
  },
  {
   "base": "82c99bbc44e4b63e3a14ffbf0ac90ce8359c1010",
