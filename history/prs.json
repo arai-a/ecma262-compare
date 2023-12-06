@@ -1,5 +1,49 @@
 [
  {
+  "base": "11cbf729f31e1bb436e6d02dd623d9be02a03c77",
+  "created_at": "2023-12-05T23:58:54Z",
+  "head": "87df814d310c370a93b5540278ee1ec039e7f1a7",
+  "login": "arai-a",
+  "number": 3238,
+  "ref": "generator-prototype-intrinsic",
+  "revs": [
+   {
+    "adate": "2023-12-06T08:43:53+09:00",
+    "author": "Tooru Fujisawa",
+    "date": "2023-12-06T08:46:57+09:00",
+    "hash": "87df814d310c370a93b5540278ee1ec039e7f1a7",
+    "parents": "75d4fbe261e7d5e2fe381088639fa60bc57c18a5",
+    "subject": "Clarify the relation between Generator and generator function"
+   },
+   {
+    "adate": "2023-12-06T08:40:57+09:00",
+    "author": "Tooru Fujisawa",
+    "date": "2023-12-06T08:46:30+09:00",
+    "hash": "75d4fbe261e7d5e2fe381088639fa60bc57c18a5",
+    "parents": "e2c50b28d4321428cfad72a620cac5455162f02f",
+    "subject": "Use \"generator function\" instead of \"generator\" for GeneratorFunction instances"
+   },
+   {
+    "adate": "2023-12-06T08:44:17+09:00",
+    "author": "Tooru Fujisawa",
+    "date": "2023-12-06T08:46:19+09:00",
+    "hash": "e2c50b28d4321428cfad72a620cac5455162f02f",
+    "parents": "2404fd2dcfadfcf233ac0f0057c5c828c3c629a9",
+    "subject": "Add %AsyncGeneratorPrototype% well-known intrinsic and use it instead of AsyncGenerator.prototype"
+   },
+   {
+    "adate": "2023-12-06T08:40:41+09:00",
+    "author": "Tooru Fujisawa",
+    "date": "2023-12-06T08:45:41+09:00",
+    "hash": "2404fd2dcfadfcf233ac0f0057c5c828c3c629a9",
+    "parents": "03e44104d41bb64c29fa5cf0937b5e62de94f98a",
+    "subject": "Add %GeneratorPrototype% well-known intrinsic and use it instead of Generator.prototype (#3230)"
+   }
+  ],
+  "title": "Editorial: Add %GeneratorPrototype% and %AsyncGeneratorPrototype% well-known intrinsics (#3230)",
+  "updated_at": "2023-12-06T00:00:28Z"
+ },
+ {
   "base": "03e44104d41bb64c29fa5cf0937b5e62de94f98a",
   "created_at": "2023-12-03T22:18:40Z",
   "head": "1d598b7282b22da396420ffef4cd5b18f0f1f1b3",
@@ -38,26 +82,6 @@
   ],
   "title": "Editorial: Add missing period to AsyncFunction.prototype.constructor section (#3232)",
   "updated_at": "2023-12-03T22:22:48Z"
- },
- {
-  "base": "03e44104d41bb64c29fa5cf0937b5e62de94f98a",
-  "created_at": "2023-12-03T22:15:41Z",
-  "head": "20fd4eb79c789d98527a3ec9780d5aa19382ba63",
-  "login": "arai-a",
-  "number": 3234,
-  "ref": "generator-prototype",
-  "revs": [
-   {
-    "adate": "2023-12-04T05:58:19+09:00",
-    "author": "Tooru Fujisawa",
-    "date": "2023-12-04T05:58:19+09:00",
-    "hash": "20fd4eb79c789d98527a3ec9780d5aa19382ba63",
-    "parents": "03e44104d41bb64c29fa5cf0937b5e62de94f98a",
-    "subject": "Editorial: Use %GeneratorFunction.prototype.prototype% instead of Generator.prototype (#3230)"
-   }
-  ],
-  "title": "Editorial: Use %GeneratorFunction.prototype.prototype% instead of Generator.prototype (#3230)",
-  "updated_at": "2023-12-03T22:23:19Z"
  },
  {
   "base": "03e44104d41bb64c29fa5cf0937b5e62de94f98a",
