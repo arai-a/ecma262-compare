@@ -834,11 +834,27 @@
  {
   "base": "82c99bbc44e4b63e3a14ffbf0ac90ce8359c1010",
   "created_at": "2023-09-21T14:39:02Z",
-  "head": "7de79a45b4a4638f77c510d83f6530d3c28c89e3",
+  "head": "a32290b1c87eac47618ddd0d65dd5377e7e08ca3",
   "login": "linusg",
   "number": 3181,
   "ref": "fix-inconsistencies",
   "revs": [
+   {
+    "adate": "2023-12-13T15:34:41-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2023-12-13T15:34:41-08:00",
+    "hash": "a32290b1c87eac47618ddd0d65dd5377e7e08ca3",
+    "parents": "c20c4c05f20df91a3896cf9e5cb8735bad5de74f",
+    "subject": "back out one change to join"
+   },
+   {
+    "adate": "2023-12-13T15:31:36-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2023-12-13T15:31:36-08:00",
+    "hash": "c20c4c05f20df91a3896cf9e5cb8735bad5de74f",
+    "parents": "7de79a45b4a4638f77c510d83f6530d3c28c89e3",
+    "subject": "Revert \"Editorial: Rename array to O in Array#{toLocaleString,toString}()\""
+   },
    {
     "adate": "2023-09-21T15:33:41+01:00",
     "author": "Linus Groh",
@@ -881,7 +897,7 @@
    }
   ],
   "title": "Editorial: Fix a couple of inconsistencies",
-  "updated_at": "2023-11-07T16:32:06Z"
+  "updated_at": "2023-12-13T23:35:29Z"
  },
  {
   "base": "82c99bbc44e4b63e3a14ffbf0ac90ce8359c1010",
@@ -904,9 +920,9 @@
   "updated_at": "2023-11-03T22:37:20Z"
  },
  {
-  "base": "9abd594ecc5d6ed5317bc276b1854d3a1f9763ff",
+  "base": "160b260705129efbfdc54dc1570f9c5c8ef09f06",
   "created_at": "2023-09-10T17:51:59Z",
-  "head": "fa87a7b2c4170af22e81dafe241ae8f114cae942",
+  "head": "981184fbafe5aded2a34a3d99254a40b936d4ce0",
   "login": "Josh-Cena",
   "number": 3170,
   "ref": "fix-atan2",
@@ -914,22 +930,22 @@
    {
     "adate": "2023-09-11T17:19:24-04:00",
     "author": "Joshua Chen",
-    "date": "2023-09-12T10:51:56-06:00",
-    "hash": "fa87a7b2c4170af22e81dafe241ae8f114cae942",
-    "parents": "e9d147e37bd576884001543d5ba512eae83ae9b9",
+    "date": "2023-12-13T15:14:06-08:00",
+    "hash": "981184fbafe5aded2a34a3d99254a40b936d4ce0",
+    "parents": "298bbffe9347374a0d2e8ff2f3b963dfcd9a594f",
     "subject": "Apply suggestion"
    },
    {
     "adate": "2023-09-10T13:49:00-04:00",
     "author": "Joshua Chen",
-    "date": "2023-09-12T10:51:56-06:00",
-    "hash": "e9d147e37bd576884001543d5ba512eae83ae9b9",
-    "parents": "9abd594ecc5d6ed5317bc276b1854d3a1f9763ff",
+    "date": "2023-12-13T15:14:06-08:00",
+    "hash": "298bbffe9347374a0d2e8ff2f3b963dfcd9a594f",
+    "parents": "160b260705129efbfdc54dc1570f9c5c8ef09f06",
     "subject": "Editorial: fix algorithm of Math.atan2"
    }
   ],
   "title": "Editorial: fix algorithm of Math.atan2",
-  "updated_at": "2023-09-12T16:51:59Z"
+  "updated_at": "2023-12-13T23:14:07Z"
  },
  {
   "base": "82c99bbc44e4b63e3a14ffbf0ac90ce8359c1010",
