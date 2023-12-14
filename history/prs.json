@@ -832,72 +832,48 @@
   "updated_at": "2023-09-21T22:34:21Z"
  },
  {
-  "base": "82c99bbc44e4b63e3a14ffbf0ac90ce8359c1010",
+  "base": "160b260705129efbfdc54dc1570f9c5c8ef09f06",
   "created_at": "2023-09-21T14:39:02Z",
-  "head": "a32290b1c87eac47618ddd0d65dd5377e7e08ca3",
+  "head": "15ad0cfc313b243f913b260c6129779a8e4e2323",
   "login": "linusg",
   "number": 3181,
   "ref": "fix-inconsistencies",
   "revs": [
    {
-    "adate": "2023-12-13T15:34:41-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2023-12-13T15:34:41-08:00",
-    "hash": "a32290b1c87eac47618ddd0d65dd5377e7e08ca3",
-    "parents": "c20c4c05f20df91a3896cf9e5cb8735bad5de74f",
-    "subject": "back out one change to join"
-   },
-   {
-    "adate": "2023-12-13T15:31:36-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2023-12-13T15:31:36-08:00",
-    "hash": "c20c4c05f20df91a3896cf9e5cb8735bad5de74f",
-    "parents": "7de79a45b4a4638f77c510d83f6530d3c28c89e3",
-    "subject": "Revert \"Editorial: Rename array to O in Array#{toLocaleString,toString}()\""
-   },
-   {
     "adate": "2023-09-21T15:33:41+01:00",
     "author": "Linus Groh",
-    "date": "2023-11-07T16:28:41+00:00",
-    "hash": "7de79a45b4a4638f77c510d83f6530d3c28c89e3",
-    "parents": "c64bd11e768b1e168ddbb85fa4e036ba95aa7971",
+    "date": "2023-12-13T23:51:51+00:00",
+    "hash": "15ad0cfc313b243f913b260c6129779a8e4e2323",
+    "parents": "8687ede198263fec2f529e300a433be9538ef0dc",
     "subject": "Editorial: Bring {%TA%,Array}#join() and Array#toLocaleString() in sync"
-   },
-   {
-    "adate": "2023-09-21T15:29:28+01:00",
-    "author": "Linus Groh",
-    "date": "2023-11-07T16:28:41+00:00",
-    "hash": "c64bd11e768b1e168ddbb85fa4e036ba95aa7971",
-    "parents": "03521976ce662a1f5476aa076d1f1f32098a6214",
-    "subject": "Editorial: Rename array to O in Array#{toLocaleString,toString}()"
    },
    {
     "adate": "2023-09-21T15:23:19+01:00",
     "author": "Linus Groh",
-    "date": "2023-11-07T16:28:41+00:00",
-    "hash": "03521976ce662a1f5476aa076d1f1f32098a6214",
-    "parents": "5991a91ec3abd1576a47cba07b264ee394b6cbe3",
+    "date": "2023-12-13T23:46:50+00:00",
+    "hash": "8687ede198263fec2f529e300a433be9538ef0dc",
+    "parents": "cb6a2ae3e04315fa8de52414cbc0610f447222c3",
     "subject": "Editorial: Deduplicate ToString(\ud835\udd3d(k)) in Array#{indexOf,lastIndexOf}()"
    },
    {
     "adate": "2023-09-21T15:21:04+01:00",
     "author": "Linus Groh",
-    "date": "2023-11-07T16:28:41+00:00",
-    "hash": "5991a91ec3abd1576a47cba07b264ee394b6cbe3",
-    "parents": "3cbfa14109fb122d69bd9ec9672c2b2cbd1d5414",
+    "date": "2023-12-13T23:46:49+00:00",
+    "hash": "cb6a2ae3e04315fa8de52414cbc0610f447222c3",
+    "parents": "c29c26ea8dfb3324b48f209e0bc4b1d0e144bcbd",
     "subject": "Editorial: Rename fromVal to fromValue in Array#{copyWithin,shift}()"
    },
    {
     "adate": "2023-09-21T15:18:53+01:00",
     "author": "Linus Groh",
-    "date": "2023-11-07T16:28:41+00:00",
-    "hash": "3cbfa14109fb122d69bd9ec9672c2b2cbd1d5414",
-    "parents": "82c99bbc44e4b63e3a14ffbf0ac90ce8359c1010",
+    "date": "2023-12-13T23:46:49+00:00",
+    "hash": "c29c26ea8dfb3324b48f209e0bc4b1d0e144bcbd",
+    "parents": "160b260705129efbfdc54dc1570f9c5c8ef09f06",
     "subject": "Editorial: Compare tv against NaN in Date.prototype.toISOString()"
    }
   ],
   "title": "Editorial: Fix a couple of inconsistencies",
-  "updated_at": "2023-12-13T23:35:29Z"
+  "updated_at": "2023-12-14T00:37:34Z"
  },
  {
   "base": "82c99bbc44e4b63e3a14ffbf0ac90ce8359c1010",
