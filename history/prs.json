@@ -1,6 +1,26 @@
 [
  {
   "base": "160b260705129efbfdc54dc1570f9c5c8ef09f06",
+  "created_at": "2023-12-20T23:50:20Z",
+  "head": "eaa1cfdc13ea923ee0bf36454f5b1527887d1e71",
+  "login": "tc39",
+  "number": 3245,
+  "ref": "dynamic-intrinsics",
+  "revs": [
+   {
+    "adate": "2023-12-20T16:47:31-07:00",
+    "author": "Michael Ficarra",
+    "date": "2023-12-20T16:47:31-07:00",
+    "hash": "eaa1cfdc13ea923ee0bf36454f5b1527887d1e71",
+    "parents": "160b260705129efbfdc54dc1570f9c5c8ef09f06",
+    "subject": "Editorial: avoid using % notation with an alias"
+   }
+  ],
+  "title": "Editorial: avoid using % notation with an alias",
+  "updated_at": "2023-12-20T23:59:45Z"
+ },
+ {
+  "base": "160b260705129efbfdc54dc1570f9c5c8ef09f06",
   "created_at": "2023-12-18T17:58:12Z",
   "head": "35c0ed1de26b8092a320d9e745e6e41452f58166",
   "login": "nicolo-ribaudo",
