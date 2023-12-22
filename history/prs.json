@@ -1,6 +1,26 @@
 [
  {
   "base": "160b260705129efbfdc54dc1570f9c5c8ef09f06",
+  "created_at": "2023-12-22T02:48:35Z",
+  "head": "1ee004ca55b6b72a3cc156bb6c97f652a8025d31",
+  "login": "zhangenming",
+  "number": 3246,
+  "ref": "fix_Every",
+  "revs": [
+   {
+    "adate": "2023-12-22T10:44:40+08:00",
+    "author": "zhangenming",
+    "date": "2023-12-22T10:47:33+08:00",
+    "hash": "1ee004ca55b6b72a3cc156bb6c97f652a8025d31",
+    "parents": "160b260705129efbfdc54dc1570f9c5c8ef09f06",
+    "subject": "Editorial: An empty array will also return true."
+   }
+  ],
+  "title": "Editorial: An empty array will also return true.",
+  "updated_at": "2023-12-22T02:48:35Z"
+ },
+ {
+  "base": "160b260705129efbfdc54dc1570f9c5c8ef09f06",
   "created_at": "2023-12-20T23:50:20Z",
   "head": "eaa1cfdc13ea923ee0bf36454f5b1527887d1e71",
   "login": "tc39",
@@ -1206,11 +1226,675 @@
  {
   "base": "2e2cba546820fff3d6ce4885de1e893be5304f73",
   "created_at": "2023-06-14T01:58:39Z",
-  "head": "32fd37c08584441b4b506bfb6a7962dd55f58738",
+  "head": "a46ab5866a4dd14090da65932dcc9d9ff6c78460",
   "login": "zhangenming",
   "number": 3097,
   "ref": "main",
   "revs": [
+   {
+    "adate": "2023-12-06T15:39:20-08:00",
+    "author": "Tooru Fujisawa",
+    "date": "2023-12-22T10:43:03+08:00",
+    "hash": "a46ab5866a4dd14090da65932dcc9d9ff6c78460",
+    "parents": "79c6d85f137b053d849a115ee22d5c471eb81338",
+    "subject": "Editorial: Add missing period to `AsyncFunction.prototype.constructor` section (#3235)"
+   },
+   {
+    "adate": "2023-12-04T08:25:14-08:00",
+    "author": "Peter Klecha",
+    "date": "2023-12-22T10:43:03+08:00",
+    "hash": "79c6d85f137b053d849a115ee22d5c471eb81338",
+    "parents": "09afd9aea0241d0e0ea4e37f8a5ad6efc013c381",
+    "subject": "Normative: add `Promise.withResolvers` (#3179)"
+   },
+   {
+    "adate": "2023-11-28T09:47:18-08:00",
+    "author": "Jordan Harband",
+    "date": "2023-12-22T10:43:02+08:00",
+    "hash": "09afd9aea0241d0e0ea4e37f8a5ad6efc013c381",
+    "parents": "ab8f3b4f2f6e92c1cdda934c3330ab8a56816b5f",
+    "subject": "Normative: add `Object.groupBy` and `Map.groupBy` (#3176)"
+   },
+   {
+    "adate": "2023-11-22T19:51:56-08:00",
+    "author": "Michael Dyck",
+    "date": "2023-12-22T10:43:02+08:00",
+    "hash": "ab8f3b4f2f6e92c1cdda934c3330ab8a56816b5f",
+    "parents": "645c03487802dd5fa9d07269de341eca23250e93",
+    "subject": "Editorial: Rename \"Integer-Indexed exotic object\" as \"TypedArray\" (#3194)"
+   },
+   {
+    "adate": "2023-11-22T19:34:51-08:00",
+    "author": "Michael Dyck",
+    "date": "2023-12-22T10:43:01+08:00",
+    "hash": "645c03487802dd5fa9d07269de341eca23250e93",
+    "parents": "19b3e574616b9c43d24aac69d0d8c344d2cb4b76",
+    "subject": "Editorial: Rename `TypedArrayCreate` to `TypedArrayCreateFromConstructor` (#3194)"
+   },
+   {
+    "adate": "2023-11-22T19:30:48-08:00",
+    "author": "Jihyeok Park",
+    "date": "2023-12-22T10:43:01+08:00",
+    "hash": "19b3e574616b9c43d24aac69d0d8c344d2cb4b76",
+    "parents": "68876bc4ca0c9a95480ae9d10fd572d4679d77e4",
+    "subject": "Meta: Upgrade ESMeta to v0.3.3 (#3219)"
+   },
+   {
+    "adate": "2023-11-03T15:30:50-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2023-12-22T10:43:01+08:00",
+    "hash": "68876bc4ca0c9a95480ae9d10fd572d4679d77e4",
+    "parents": "5dd1774bc1cd8e204b46711d9ece578f25323ba2",
+    "subject": "Meta: bump ecmarkup to 18.1.0 (#3215)"
+   },
+   {
+    "adate": "2023-11-01T11:48:42-07:00",
+    "author": "Doehyun Baek",
+    "date": "2023-12-22T10:43:01+08:00",
+    "hash": "5dd1774bc1cd8e204b46711d9ece578f25323ba2",
+    "parents": "22498822770d926ba5610238fdc983dd32ce94e5",
+    "subject": "Editorial: more assertions for module AOs (#3165)"
+   },
+   {
+    "adate": "2023-11-01T11:48:37-07:00",
+    "author": "Doehyun Baek",
+    "date": "2023-12-22T10:43:01+08:00",
+    "hash": "22498822770d926ba5610238fdc983dd32ce94e5",
+    "parents": "ce2a5fe8bae3912c65c2e687487203fd5af98b80",
+    "subject": "Editorial: Narrow return type of GetExportedNames (#3165)"
+   },
+   {
+    "adate": "2023-11-01T11:30:36-07:00",
+    "author": "Doehyun Baek",
+    "date": "2023-12-22T10:43:00+08:00",
+    "hash": "ce2a5fe8bae3912c65c2e687487203fd5af98b80",
+    "parents": "0203e23c69e505181e166bc7a0e4146944f226ab",
+    "subject": "Editorial: Make parameter of EvaluatePropertyAccessWithExpressionKey more precise (#3164)"
+   },
+   {
+    "adate": "2023-10-24T14:25:36-07:00",
+    "author": "Alexey Shvayka",
+    "date": "2023-12-22T10:43:00+08:00",
+    "hash": "0203e23c69e505181e166bc7a0e4146944f226ab",
+    "parents": "bbc31593851515f971037282f1b2667f59a836b4",
+    "subject": "Editorial: Remove duplicate \"current Realm\" variable from CreateDynamicFunction (#3177)"
+   },
+   {
+    "adate": "2023-10-22T21:24:07-07:00",
+    "author": "Yaphi Berhanu",
+    "date": "2023-12-22T10:42:59+08:00",
+    "hash": "bbc31593851515f971037282f1b2667f59a836b4",
+    "parents": "1f4628efc3a7a6781c65920a5306f2ca2fe88c1a",
+    "subject": "Editorial: fix invalid assertion in Number::lessThan (#3169)"
+   },
+   {
+    "adate": "2023-10-22T21:16:41-07:00",
+    "author": "Mohammed Keyvanzadeh",
+    "date": "2023-12-22T10:42:59+08:00",
+    "hash": "1f4628efc3a7a6781c65920a5306f2ca2fe88c1a",
+    "parents": "25352680f38c07e955124c18567dad9851e6e224",
+    "subject": "Markup: add alt text to Ecma logo (#3152)"
+   },
+   {
+    "adate": "2023-10-22T21:08:32-07:00",
+    "author": "Doehyun Baek",
+    "date": "2023-12-22T10:42:58+08:00",
+    "hash": "25352680f38c07e955124c18567dad9851e6e224",
+    "parents": "bf926d69790eb6b37e6cebd890e27c8176c97488",
+    "subject": "Editorial: widen parameter type of IsAnonymousFunctionDefinition (#3148)"
+   },
+   {
+    "adate": "2023-10-20T14:43:36-07:00",
+    "author": "Shu-yu Guo",
+    "date": "2023-12-22T10:42:58+08:00",
+    "hash": "bf926d69790eb6b37e6cebd890e27c8176c97488",
+    "parents": "ad2c30b9df397a5c4fdc09041bf28b4eedd9fe25",
+    "subject": "Editorial: Rename indexedPosition to byteIndexInBuffer (#3205)"
+   },
+   {
+    "adate": "2023-10-18T21:27:45-07:00",
+    "author": "Michael Ficarra",
+    "date": "2023-12-22T10:42:57+08:00",
+    "hash": "ad2c30b9df397a5c4fdc09041bf28b4eedd9fe25",
+    "parents": "25e2093463cac2a52fc51318042301570d345aca",
+    "subject": "Editorial: remove some unnecessary calls to SameValue (#3202)"
+   },
+   {
+    "adate": "2023-10-18T21:20:36-07:00",
+    "author": "Shu-yu Guo",
+    "date": "2023-12-22T10:42:57+08:00",
+    "hash": "25e2093463cac2a52fc51318042301570d345aca",
+    "parents": "1deac9611b51ed67419a03dec91bb0f5de5a8bfc",
+    "subject": "Editorial: Fix RevalidateAtomicAccess to check against byte length (#3200)"
+   },
+   {
+    "adate": "2023-10-18T21:13:10-07:00",
+    "author": "Michael Dyck",
+    "date": "2023-12-22T10:42:57+08:00",
+    "hash": "1deac9611b51ed67419a03dec91bb0f5de5a8bfc",
+    "parents": "83886a738fd031a6eba8cd4dd11d673139dc64e9",
+    "subject": "Editorial: Change 'MatchState' from an ordered triple into a Record (#3197)"
+   },
+   {
+    "adate": "2023-10-18T21:13:01-07:00",
+    "author": "Michael Dyck",
+    "date": "2023-12-22T10:42:56+08:00",
+    "hash": "83886a738fd031a6eba8cd4dd11d673139dc64e9",
+    "parents": "6a9a26347f72cdf238a2d78191ceaadb92de93da",
+    "subject": "Editorial: Change 'CaptureRange' from an ordered pair into a Record (#3197)"
+   },
+   {
+    "adate": "2023-10-18T21:04:19-07:00",
+    "author": "Michael Dyck",
+    "date": "2023-12-22T10:42:56+08:00",
+    "hash": "6a9a26347f72cdf238a2d78191ceaadb92de93da",
+    "parents": "81332965dfbb665c75ea5ca344af4dc6f0699b64",
+    "subject": "Markup: Eliminate unnecessary <emu-xref> elements (#3196)"
+   },
+   {
+    "adate": "2023-10-18T20:56:08-07:00",
+    "author": "Linus Groh",
+    "date": "2023-12-22T10:42:56+08:00",
+    "hash": "81332965dfbb665c75ea5ca344af4dc6f0699b64",
+    "parents": "f4705c9fe55bdb593de7e19f451dd6a1841ed5c6",
+    "subject": "Editorial: dfn PromiseReaction Records (#3187)"
+   },
+   {
+    "adate": "2023-10-18T20:44:48-07:00",
+    "author": "Michael Ficarra",
+    "date": "2023-12-22T10:42:55+08:00",
+    "hash": "f4705c9fe55bdb593de7e19f451dd6a1841ed5c6",
+    "parents": "a7b6f85eca5975874ab58a779790fae46432b61f",
+    "subject": "Editorial: move built-in constructor into its own T&D section (#3146)"
+   },
+   {
+    "adate": "2023-10-12T16:24:48-07:00",
+    "author": "Richard Gibson",
+    "date": "2023-12-22T10:42:55+08:00",
+    "hash": "a7b6f85eca5975874ab58a779790fae46432b61f",
+    "parents": "4c4067e88dd75df97b53bb691808785ed7283d3c",
+    "subject": "Normative: Update GetSubstitution to match reality (#3157)"
+   },
+   {
+    "adate": "2023-10-12T15:59:59-07:00",
+    "author": "Shu-yu Guo",
+    "date": "2023-12-22T10:42:55+08:00",
+    "hash": "4c4067e88dd75df97b53bb691808785ed7283d3c",
+    "parents": "e38bd999a99410c71a19572734059dfb0460e182",
+    "subject": "Normative: Add resizable ArrayBuffer and growable SharedArrayBuffer (#3116)"
+   },
+   {
+    "adate": "2023-10-11T11:16:50+03:00",
+    "author": "Elisha Hollander",
+    "date": "2023-12-22T10:42:54+08:00",
+    "hash": "e38bd999a99410c71a19572734059dfb0460e182",
+    "parents": "c00b9a421dd4eae976b5ebb47541320ded4991cf",
+    "subject": "remove redundant parenthesis"
+   },
+   {
+    "adate": "2023-09-21T21:05:31-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2023-12-22T10:42:54+08:00",
+    "hash": "c00b9a421dd4eae976b5ebb47541320ded4991cf",
+    "parents": "d05e69e2895ad862f4b00685bcc631ee98c9feef",
+    "subject": "Markup: dfn \"integer-indexed\" (#3182)"
+   },
+   {
+    "adate": "2023-09-21T20:54:46-07:00",
+    "author": "Michael Dyck",
+    "date": "2023-12-22T10:42:54+08:00",
+    "hash": "d05e69e2895ad862f4b00685bcc631ee98c9feef",
+    "parents": "7a0bc65b525d80ea58802e69bdf599304bbbc189",
+    "subject": "Editorial: Refactor 10.3 \"Built-in Function Objects\" (#3145)"
+   },
+   {
+    "adate": "2023-09-21T20:54:41-07:00",
+    "author": "Michael Dyck",
+    "date": "2023-12-22T10:42:54+08:00",
+    "hash": "7a0bc65b525d80ea58802e69bdf599304bbbc189",
+    "parents": "2f8fe824d4ac884da97a8bd6a063cba0ddb39cce",
+    "subject": "Editorial: Don't say that a built-in function can be an ECMAScript function (#3145)"
+   },
+   {
+    "adate": "2023-09-19T15:08:59-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2023-12-22T10:42:54+08:00",
+    "hash": "2f8fe824d4ac884da97a8bd6a063cba0ddb39cce",
+    "parents": "ea8375cd246489a24850f37f028dc1d312ff6446",
+    "subject": "Meta: bump ecmarkup to v18.0.0 (#3178)"
+   },
+   {
+    "adate": "2023-09-19T15:03:23-07:00",
+    "author": "Yongwook Choi",
+    "date": "2023-12-22T10:42:53+08:00",
+    "hash": "ea8375cd246489a24850f37f028dc1d312ff6446",
+    "parents": "54c8ae2ceb64d43abd60458a2c0fdaf6dc24f0cc",
+    "subject": "Editorial: use proper comparison operation in LabelledEvaluation of LabelledStatement (#3162)"
+   },
+   {
+    "adate": "2023-09-19T14:59:04-07:00",
+    "author": "Michael Ficarra",
+    "date": "2023-12-22T10:42:53+08:00",
+    "hash": "54c8ae2ceb64d43abd60458a2c0fdaf6dc24f0cc",
+    "parents": "a12ab3562507756f14d8a3e810ee4f71add1ed0b",
+    "subject": "Editorial: remove isLittleEndian parameter of GetModifySetValueInBuffer (#3173)"
+   },
+   {
+    "adate": "2023-09-12T09:41:57-07:00",
+    "author": "Jordan Harband",
+    "date": "2023-12-22T10:42:53+08:00",
+    "hash": "a12ab3562507756f14d8a3e810ee4f71add1ed0b",
+    "parents": "368f9b7ea99b97cb49a77af217b07a403dd46063",
+    "subject": "Meta: add a commit for a user who deleted github"
+   },
+   {
+    "adate": "2023-08-30T21:22:59-07:00",
+    "author": "Shu-yu Guo",
+    "date": "2023-12-22T10:42:53+08:00",
+    "hash": "368f9b7ea99b97cb49a77af217b07a403dd46063",
+    "parents": "b4c20a13f85f67900fdb67d3c6413b8040fa9c94",
+    "subject": "Editorial: Make all spec enums lower kebab-case (#3154)"
+   },
+   {
+    "adate": "2023-08-23T15:08:21-07:00",
+    "author": "Michael Ficarra",
+    "date": "2023-12-22T10:42:52+08:00",
+    "hash": "b4c20a13f85f67900fdb67d3c6413b8040fa9c94",
+    "parents": "8ff589f703973d7fbc1e5b816dd4dffaa8b78215",
+    "subject": "Editorial: remove constraints on host-defined AOs that repeat signature (#3153)"
+   },
+   {
+    "adate": "2023-08-23T15:03:47-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2023-12-22T10:42:52+08:00",
+    "hash": "8ff589f703973d7fbc1e5b816dd4dffaa8b78215",
+    "parents": "5cd4f0641fa4f64823b0cc85263908999d3b03ba",
+    "subject": "Meta: bump ecmarkup to 17.1.1 (#3140)"
+   },
+   {
+    "adate": "2023-08-23T15:03:43-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2023-12-22T10:42:52+08:00",
+    "hash": "5cd4f0641fa4f64823b0cc85263908999d3b03ba",
+    "parents": "963086acd916cb5b7ad4f6740afa0d749bd63c94",
+    "subject": "Editorial: fix two remaining redeclaration issues (#3140)"
+   },
+   {
+    "adate": "2023-08-23T14:52:10-07:00",
+    "author": "Doehyun Baek",
+    "date": "2023-12-22T10:42:51+08:00",
+    "hash": "963086acd916cb5b7ad4f6740afa0d749bd63c94",
+    "parents": "37158f54b588e2f0ce474e04083394c3f61b9351",
+    "subject": "Editorial: widen paramter type of IsCompatiblePropertyDescriptor (#3151)"
+   },
+   {
+    "adate": "2023-08-16T16:07:06-07:00",
+    "author": "Michael Dyck",
+    "date": "2023-12-22T10:42:51+08:00",
+    "hash": "37158f54b588e2f0ce474e04083394c3f61b9351",
+    "parents": "a899984b01b70c87f168a5ef266a724d1c20a04b",
+    "subject": "Editorial: Narrow \"function object\" to \"ECMAScript function object\" (#3144)"
+   },
+   {
+    "adate": "2023-08-16T15:35:40-07:00",
+    "author": "Michael Dyck",
+    "date": "2023-12-22T10:42:51+08:00",
+    "hash": "a899984b01b70c87f168a5ef266a724d1c20a04b",
+    "parents": "742ee67e9f9b348e427ebc68c73fd06ceeef7735",
+    "subject": "Editorial: Reinstate 5 ids (#3143)"
+   },
+   {
+    "adate": "2023-08-16T15:34:53-07:00",
+    "author": "Jordan Harband",
+    "date": "2023-12-22T10:42:50+08:00",
+    "hash": "742ee67e9f9b348e427ebc68c73fd06ceeef7735",
+    "parents": "7d5cc0e7164488c0d0ffdd8ac15bf495b938c409",
+    "subject": "Meta: add another authorless commit"
+   },
+   {
+    "adate": "2023-08-16T15:24:54-07:00",
+    "author": "sunkai9064",
+    "date": "2023-12-22T10:42:50+08:00",
+    "hash": "7d5cc0e7164488c0d0ffdd8ac15bf495b938c409",
+    "parents": "4b99fbd0d49cd614ea0215bd6de34a213193cc56",
+    "subject": "Editorial: Modify the description about Source Text Module Records section (#3142)"
+   },
+   {
+    "adate": "2023-08-16T15:20:39-07:00",
+    "author": "Doehyun Baek",
+    "date": "2023-12-22T10:42:50+08:00",
+    "hash": "4b99fbd0d49cd614ea0215bd6de34a213193cc56",
+    "parents": "8824fb913f868043d4f8e17c56131ef34b0abfed",
+    "subject": "Editorial: more precise parameter for PrepareForOrdinaryCall (#3138)"
+   },
+   {
+    "adate": "2023-08-16T15:20:35-07:00",
+    "author": "Doehyun Baek",
+    "date": "2023-12-22T10:42:50+08:00",
+    "hash": "8824fb913f868043d4f8e17c56131ef34b0abfed",
+    "parents": "a3f7dc195ef9a1f3e13c0814169f7e075fb398f0",
+    "subject": "Editorial: Use \"ECMAScript function object\" in type (#3138)"
+   },
+   {
+    "adate": "2023-08-16T15:14:50-07:00",
+    "author": "Linus Groh",
+    "date": "2023-12-22T10:42:49+08:00",
+    "hash": "a3f7dc195ef9a1f3e13c0814169f7e075fb398f0",
+    "parents": "4f7a4794022c359f7ea99a0e9f2a15fe2c2c0fce",
+    "subject": "Editorial: Add brief explainer for [[StringData]] internal slot (#3112)"
+   },
+   {
+    "adate": "2023-08-16T15:14:47-07:00",
+    "author": "Linus Groh",
+    "date": "2023-12-22T10:42:49+08:00",
+    "hash": "4f7a4794022c359f7ea99a0e9f2a15fe2c2c0fce",
+    "parents": "e26868494393a5a74c82f147176f87b2e64a3eb3",
+    "subject": "Editorial: Add \"Properties of BigInt Instances\" section (#3112)"
+   },
+   {
+    "adate": "2023-08-16T15:10:16-07:00",
+    "author": "Mathias Bynens",
+    "date": "2023-12-22T10:42:49+08:00",
+    "hash": "e26868494393a5a74c82f147176f87b2e64a3eb3",
+    "parents": "a3c1f32363f16b47b7e6d4a5946ff12d51422cfc",
+    "subject": "Editorial: Clarify RegExp grammar parameter N \u2192 NamedCaptureGroups (#3120)"
+   },
+   {
+    "adate": "2023-08-16T15:06:23-07:00",
+    "author": "Michael Dyck",
+    "date": "2023-12-22T10:42:48+08:00",
+    "hash": "a3c1f32363f16b47b7e6d4a5946ff12d51422cfc",
+    "parents": "bb0bfdd27853dcd5278e81eb567d2542bbad5fd0",
+    "subject": "Editorial: Factor out BuiltinCallOrConstruct (#2637)"
+   },
+   {
+    "adate": "2023-08-05T11:02:02+12:00",
+    "author": "kimjg1119",
+    "date": "2023-12-22T10:42:48+08:00",
+    "hash": "bb0bfdd27853dcd5278e81eb567d2542bbad5fd0",
+    "parents": "394e81b14252f796b24c8754ced95fdcc9a2477b",
+    "subject": "Editorial: Correct usage of 'Let'/'Set' in algorithms (#3131)"
+   },
+   {
+    "adate": "2023-08-05T10:56:47+12:00",
+    "author": "Michael Dyck",
+    "date": "2023-12-22T10:42:48+08:00",
+    "hash": "394e81b14252f796b24c8754ced95fdcc9a2477b",
+    "parents": "c80b6dde51c78d5b33e39e5462343d63d028087f",
+    "subject": "Editorial: Capitalize AOs `thisFooValue` -> `ThisFooValue` (#3063)"
+   },
+   {
+    "adate": "2023-08-05T10:56:36+12:00",
+    "author": "Michael Dyck",
+    "date": "2023-12-22T10:42:47+08:00",
+    "hash": "c80b6dde51c78d5b33e39e5462343d63d028087f",
+    "parents": "c3bc7d5e2198dfb025e5bee63e8af934d5d1c30e",
+    "subject": "Editorial: Define each `thisFooValue` AO in its own section (#3063)"
+   },
+   {
+    "adate": "2023-07-26T15:35:08-07:00",
+    "author": "Jordan Harband",
+    "date": "2023-12-22T10:42:47+08:00",
+    "hash": "c3bc7d5e2198dfb025e5bee63e8af934d5d1c30e",
+    "parents": "ba9a5bd0a004e6dda3afda9516eeb3ea9f657c9e",
+    "subject": "Meta: update github actions (#3133)"
+   },
+   {
+    "adate": "2023-07-26T15:27:18-07:00",
+    "author": "Michael Dyck",
+    "date": "2023-12-22T10:42:47+08:00",
+    "hash": "ba9a5bd0a004e6dda3afda9516eeb3ea9f657c9e",
+    "parents": "851bf56a10532298a7b43574746a08da468513b1",
+    "subject": "Editorial: Eliminate `thisTimeValue` & `this Date object` (#3123)"
+   },
+   {
+    "adate": "2023-07-26T15:27:17-07:00",
+    "author": "Michael Dyck",
+    "date": "2023-12-22T10:42:47+08:00",
+    "hash": "851bf56a10532298a7b43574746a08da468513b1",
+    "parents": "e2639191466a9955061b74a019cf9ba625d04c65",
+    "subject": "Editorial: Eliminate \"this time value\" term (#3123)"
+   },
+   {
+    "adate": "2023-07-26T15:27:16-07:00",
+    "author": "Michael Dyck",
+    "date": "2023-12-22T10:42:46+08:00",
+    "hash": "e2639191466a9955061b74a019cf9ba625d04c65",
+    "parents": "3191bd781447ddeb53b13a50242bbc5a663e444a",
+    "subject": "Editorial: Express Date.prototype.toISOString as an emu-alg (#3123)"
+   },
+   {
+    "adate": "2023-07-26T15:21:16-07:00",
+    "author": "Jordan Harband",
+    "date": "2023-12-22T10:42:46+08:00",
+    "hash": "3191bd781447ddeb53b13a50242bbc5a663e444a",
+    "parents": "643ffa716d68b82338f755cc3164c8c1db9808d3",
+    "subject": "Meta: one final tweak to the IPR check"
+   },
+   {
+    "adate": "2023-07-26T10:50:43-07:00",
+    "author": "Jordan Harband",
+    "date": "2023-12-22T10:42:46+08:00",
+    "hash": "643ffa716d68b82338f755cc3164c8c1db9808d3",
+    "parents": "f19624f12ffa21fdd2df2b119376a7e8bc7b88b4",
+    "subject": "Meta: fail IPR check on commits with unknown authors (#3128)"
+   },
+   {
+    "adate": "2023-07-24T14:28:18-07:00",
+    "author": "Jordan Harband",
+    "date": "2023-12-22T10:42:46+08:00",
+    "hash": "f19624f12ffa21fdd2df2b119376a7e8bc7b88b4",
+    "parents": "f6ec90ed460b8bb56b1f1543e6c0a305bfc01836",
+    "subject": "Revert \"Editorial: Correct desiderable to desirable (#3125)\" (#3128)"
+   },
+   {
+    "adate": "2023-07-24T14:28:13-07:00",
+    "author": "Jordan Harband",
+    "date": "2023-12-22T10:42:46+08:00",
+    "hash": "f6ec90ed460b8bb56b1f1543e6c0a305bfc01836",
+    "parents": "e8ad0d2250243ed8ecc72c016a16e29e8c1bd133",
+    "subject": "Revert \"Editorial: Correct ExportEntry.[[LocalName]] description (#3126)\" (#3128)"
+   },
+   {
+    "adate": "2023-07-24T14:28:09-07:00",
+    "author": "Jordan Harband",
+    "date": "2023-12-22T10:42:46+08:00",
+    "hash": "e8ad0d2250243ed8ecc72c016a16e29e8c1bd133",
+    "parents": "d57b33585cacf8e6ef42547a52eaab1da0b0fb23",
+    "subject": "Revert \"Editorial: Correct GetExportedNames return type (#3127)\" (#3128)"
+   },
+   {
+    "adate": "2023-07-24T13:35:00-07:00",
+    "author": "bojavou",
+    "date": "2023-12-22T10:42:45+08:00",
+    "hash": "d57b33585cacf8e6ef42547a52eaab1da0b0fb23",
+    "parents": "e671a9f2e7a6ec488606a3b8d4b1af6d5e2d8f2f",
+    "subject": "Editorial: Correct GetExportedNames return type (#3127)"
+   },
+   {
+    "adate": "2023-07-20T14:43:43-07:00",
+    "author": "Richard Gibson",
+    "date": "2023-12-22T10:42:45+08:00",
+    "hash": "e671a9f2e7a6ec488606a3b8d4b1af6d5e2d8f2f",
+    "parents": "812c93ea742a88686eaf96cbd5f5f44333921f8c",
+    "subject": "Editorial: Prefer returning static values after alias comparison (#3122)"
+   },
+   {
+    "adate": "2023-07-20T14:37:26-07:00",
+    "author": "Michael Dyck",
+    "date": "2023-12-22T10:42:45+08:00",
+    "hash": "812c93ea742a88686eaf96cbd5f5f44333921f8c",
+    "parents": "b84017ed214bc7845e7c7a58acebf68ebf977f86",
+    "subject": "Editorial: Convert Date-related equations into proper AOs (#3092)"
+   },
+   {
+    "adate": "2023-07-19T14:58:39-07:00",
+    "author": "Joshua Chen",
+    "date": "2023-12-22T10:42:45+08:00",
+    "hash": "b84017ed214bc7845e7c7a58acebf68ebf977f86",
+    "parents": "a26975de480b4bb795005d6aa6bd9dcf9f823ab9",
+    "subject": "Editorial: add mention that RegExp is constructible (#3055)"
+   },
+   {
+    "adate": "2023-07-19T10:46:06-07:00",
+    "author": "bojavou",
+    "date": "2023-12-22T10:42:45+08:00",
+    "hash": "a26975de480b4bb795005d6aa6bd9dcf9f823ab9",
+    "parents": "eab8991c48e3d37f31cd3618353933626de4d4e1",
+    "subject": "Editorial: Correct ExportEntry.[[LocalName]] description (#3126)"
+   },
+   {
+    "adate": "2023-07-17T18:05:42-07:00",
+    "author": "bojavou",
+    "date": "2023-12-22T10:42:44+08:00",
+    "hash": "eab8991c48e3d37f31cd3618353933626de4d4e1",
+    "parents": "5b49643e37af208fda8c8b712f18b0ddf6cf44b9",
+    "subject": "Editorial: Correct desiderable to desirable (#3125)"
+   },
+   {
+    "adate": "2023-07-07T15:58:26-07:00",
+    "author": "Michael Dyck",
+    "date": "2023-12-22T10:42:44+08:00",
+    "hash": "5b49643e37af208fda8c8b712f18b0ddf6cf44b9",
+    "parents": "e009fc1e98f644ffea9731ba1ee7ef7225e76937",
+    "subject": "Editorial: Fix return-type of TemplateString[s] (#3115)"
+   },
+   {
+    "adate": "2023-07-07T15:46:15-07:00",
+    "author": "Michael Dyck",
+    "date": "2023-12-22T10:42:44+08:00",
+    "hash": "e009fc1e98f644ffea9731ba1ee7ef7225e76937",
+    "parents": "2eb7d4be63a441a0918cffd5a423e43fb1ba2acb",
+    "subject": "Editorial: Small fixes re PR #2418 (#3102)"
+   },
+   {
+    "adate": "2023-07-03T21:53:47-05:00",
+    "author": "Michael Dyck",
+    "date": "2023-12-22T10:42:44+08:00",
+    "hash": "2eb7d4be63a441a0918cffd5a423e43fb1ba2acb",
+    "parents": "0b7fd1a0de22012dce3c4f0d6928515f4e0531b9",
+    "subject": "Editorial: In CharacterSetMatcher, the Matcher must capture `_A_` (#3102, #3113)"
+   },
+   {
+    "adate": "2023-07-03T21:53:45-05:00",
+    "author": "Kevin Gibbons",
+    "date": "2023-12-22T10:42:44+08:00",
+    "hash": "0b7fd1a0de22012dce3c4f0d6928515f4e0531b9",
+    "parents": "a1013a457f84e0c174655c30f989f5b27ce8f5a5",
+    "subject": "Meta: bump ecmarkup to 17.0.2 (#3113)"
+   },
+   {
+    "adate": "2023-06-29T12:10:28-05:00",
+    "author": "Nicol\u00f2 Ribaudo",
+    "date": "2023-12-22T10:42:44+08:00",
+    "hash": "a1013a457f84e0c174655c30f989f5b27ce8f5a5",
+    "parents": "d27fe8af51bef4de1d0b4cb9b9ade31b01b0f3c1",
+    "subject": "Normative: Make HasCallInTailPosition for ImportCall always return false (#3106)"
+   },
+   {
+    "adate": "2023-06-29T12:00:13-05:00",
+    "author": "Jordan Harband",
+    "date": "2023-12-22T10:42:44+08:00",
+    "hash": "d27fe8af51bef4de1d0b4cb9b9ade31b01b0f3c1",
+    "parents": "1cd2761f27c04ca98cf8e3e83e2810a3e9ee0fe7",
+    "subject": "Editorial: rename `~Uint8C~` type to `~Uint8Clamped~` (#3105)"
+   },
+   {
+    "adate": "2023-06-29T11:54:56-05:00",
+    "author": "Michael Dyck",
+    "date": "2023-12-22T10:42:43+08:00",
+    "hash": "1cd2761f27c04ca98cf8e3e83e2810a3e9ee0fe7",
+    "parents": "366b25cd40bd7958ab5597d960e0db7a087abce1",
+    "subject": "Editorial: Consistify \"length\" property 'declarations' (#3054)"
+   },
+   {
+    "adate": "2023-06-29T09:51:16-05:00",
+    "author": "Richard Gibson",
+    "date": "2023-12-22T10:42:43+08:00",
+    "hash": "366b25cd40bd7958ab5597d960e0db7a087abce1",
+    "parents": "1a635c9619267be87ae3f3c07a25f9e86af0df8e",
+    "subject": "Editorial: Use linkable terms for coercion to BigInt (#2982)"
+   },
+   {
+    "adate": "2023-06-22T22:44:05-05:00",
+    "author": "Michael Dyck",
+    "date": "2023-12-22T10:42:43+08:00",
+    "hash": "1a635c9619267be87ae3f3c07a25f9e86af0df8e",
+    "parents": "b094e475f86e0853e3e576f92cc6c3cba09145cd",
+    "subject": "Editorial: Fix 2 old bugs re Block-Level Function Declarations (#2951)"
+   },
+   {
+    "adate": "2023-06-21T13:11:33-05:00",
+    "author": "Justin Grant",
+    "date": "2023-12-22T10:42:43+08:00",
+    "hash": "b094e475f86e0853e3e576f92cc6c3cba09145cd",
+    "parents": "fb68bc8370bdcd7e30be31e4cbe3ca16e806733e",
+    "subject": "Editorial: Remove `If` in SystemTimeZoneIdentifier (#3104)"
+   },
+   {
+    "adate": "2023-06-15T15:30:41-07:00",
+    "author": "Deniz Eren Evrendilek",
+    "date": "2023-12-22T10:42:43+08:00",
+    "hash": "fb68bc8370bdcd7e30be31e4cbe3ca16e806733e",
+    "parents": "a69f9a527ddbeb51ef77cf24d3a49e151829a82d",
+    "subject": "Editorial: take ToString and ToLength out of StringPad and make it infallible (#3066)"
+   },
+   {
+    "adate": "2023-04-21T09:51:14+02:00",
+    "author": "Mathias Bynens",
+    "date": "2023-12-22T10:42:43+08:00",
+    "hash": "a69f9a527ddbeb51ef77cf24d3a49e151829a82d",
+    "parents": "09cb602d4b31409ad07dc270e9de5142dc9f218a",
+    "subject": "Normative: Add RegExp `v` flag"
+   },
+   {
+    "adate": "2023-06-15T12:32:29-07:00",
+    "author": "Jihyeok Park",
+    "date": "2023-12-22T10:42:42+08:00",
+    "hash": "09cb602d4b31409ad07dc270e9de5142dc9f218a",
+    "parents": "25e4622f809f7b02949484e872c8e2a36c7c6f42",
+    "subject": "Meta: Upgrade ESMeta to v0.3.2 (#3100)"
+   },
+   {
+    "adate": "2023-06-14T22:03:09-07:00",
+    "author": "Michael Ficarra",
+    "date": "2023-12-22T10:42:42+08:00",
+    "hash": "25e4622f809f7b02949484e872c8e2a36c7c6f42",
+    "parents": "b2bcb8cadd8de5c1a5fc6a83ee8a36f4f64a6c53",
+    "subject": "Editorial: use standard arithmetic operators in MakeTime (#3091)"
+   },
+   {
+    "adate": "2023-06-14T18:35:33-07:00",
+    "author": "Richard Gibson",
+    "date": "2023-12-22T10:42:42+08:00",
+    "hash": "b2bcb8cadd8de5c1a5fc6a83ee8a36f4f64a6c53",
+    "parents": "160b90f2d5a99f351226d35a8dd984ce0b53356c",
+    "subject": "Editorial: Introduce MakeFullYear to cover common steps of Date(\u2026) and Date.UTC(\u2026) (#3046)"
+   },
+   {
+    "adate": "2023-06-14T16:28:30-07:00",
+    "author": "Richard Gibson",
+    "date": "2023-12-22T10:42:42+08:00",
+    "hash": "160b90f2d5a99f351226d35a8dd984ce0b53356c",
+    "parents": "a7a58eade5dd51f292769f158203234144c450c2",
+    "subject": "Editorial: Cleanup ToUint8Clamp (#3083)"
+   },
+   {
+    "adate": "2023-06-14T15:58:47-07:00",
+    "author": "Richard Gibson",
+    "date": "2023-12-22T10:42:42+08:00",
+    "hash": "a7a58eade5dd51f292769f158203234144c450c2",
+    "parents": "85f15ea6fabbd32c76defb79ff82686e4a948a39",
+    "subject": "Editorial: Simplify ToIndex (#3079)"
+   },
+   {
+    "adate": "2023-06-14T15:45:58-07:00",
+    "author": "Shu-yu Guo",
+    "date": "2023-12-22T10:42:42+08:00",
+    "hash": "85f15ea6fabbd32c76defb79ff82686e4a948a39",
+    "parents": "32fd37c08584441b4b506bfb6a7962dd55f58738",
+    "subject": "Normative: Add Atomics.waitAsync (#3049)"
+   },
    {
     "adate": "2023-06-14T13:45:30+08:00",
     "author": "zhangenming",
@@ -1229,7 +1913,7 @@
    }
   ],
   "title": "Editorial: Align with the wording used elsewhere.",
-  "updated_at": "2023-06-20T01:56:16Z"
+  "updated_at": "2023-12-22T02:43:20Z"
  },
  {
   "base": "73926a53dd032f66446533c240aae10e05c0520e",
