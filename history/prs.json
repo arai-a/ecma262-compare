@@ -3898,7 +3898,7 @@
  {
   "base": "160b260705129efbfdc54dc1570f9c5c8ef09f06",
   "created_at": "2021-12-17T02:56:25Z",
-  "head": "e705fb86642ea45b8d264dd4a9f5292d8f0011fa",
+  "head": "6602674a0109e52de47ff360950b12b9eb55db95",
   "login": "mhofman",
   "number": 2600,
   "ref": "fix-async-from-sync-close",
@@ -3906,8 +3906,8 @@
    {
     "adate": "2023-12-28T12:38:04-08:00",
     "author": "Kevin Gibbons",
-    "date": "2023-12-28T12:38:04-08:00",
-    "hash": "e705fb86642ea45b8d264dd4a9f5292d8f0011fa",
+    "date": "2023-12-28T13:14:38-08:00",
+    "hash": "6602674a0109e52de47ff360950b12b9eb55db95",
     "parents": "a2aa03c8ed629b3ca49402a912bf0ee29946c346",
     "subject": "fixup: linter issues and feedback"
    },
@@ -3921,7 +3921,7 @@
    }
   ],
   "title": "Normative: Close sync iterator when async wrapper yields rejection",
-  "updated_at": "2023-12-28T20:39:13Z"
+  "updated_at": "2023-12-28T21:14:46Z"
  },
  {
   "base": "267fdbdc716677bc9934906a498cf9bad4bfb70d",
