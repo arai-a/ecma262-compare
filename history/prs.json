@@ -1,6 +1,26 @@
 [
  {
   "base": "160b260705129efbfdc54dc1570f9c5c8ef09f06",
+  "created_at": "2023-12-28T20:21:35Z",
+  "head": "f8c7b21922bb51bb64c692023a039a0999b36896",
+  "login": "tc39",
+  "number": 3250,
+  "ref": "function-is-object",
+  "revs": [
+   {
+    "adate": "2023-12-28T12:13:17-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2023-12-28T12:20:07-08:00",
+    "hash": "f8c7b21922bb51bb64c692023a039a0999b36896",
+    "parents": "160b260705129efbfdc54dc1570f9c5c8ef09f06",
+    "subject": "Editorial: document that functions are objects"
+   }
+  ],
+  "title": "Editorial: document that functions are objects",
+  "updated_at": "2023-12-28T20:40:43Z"
+ },
+ {
+  "base": "160b260705129efbfdc54dc1570f9c5c8ef09f06",
   "created_at": "2023-12-27T02:37:27Z",
   "head": "301db349321885f218f3e2edf1cdccdca691e2bc",
   "login": "zhangenming",
@@ -3876,88 +3896,32 @@
   "updated_at": "2023-03-01T04:18:48Z"
  },
  {
-  "base": "b64ac7fb4ae0a7c1a3332274e51c9664b47b4363",
+  "base": "160b260705129efbfdc54dc1570f9c5c8ef09f06",
   "created_at": "2021-12-17T02:56:25Z",
-  "head": "190271360702f8b654c69258f115727921e18d26",
+  "head": "e705fb86642ea45b8d264dd4a9f5292d8f0011fa",
   "login": "mhofman",
   "number": 2600,
   "ref": "fix-async-from-sync-close",
   "revs": [
    {
-    "adate": "2022-01-26T00:52:23+00:00",
-    "author": "Mathieu Hofman",
-    "date": "2022-01-26T00:52:23+00:00",
-    "hash": "190271360702f8b654c69258f115727921e18d26",
-    "parents": "cb6782157106c6e4e305da943ad4108a2be6b54d",
-    "subject": "Propagate errors thrown by \"return\" in case of missing \"throw\""
-   },
-   {
-    "adate": "2022-01-25T22:21:53+00:00",
-    "author": "Mathieu Hofman",
-    "date": "2022-01-25T22:21:53+00:00",
-    "hash": "cb6782157106c6e4e305da943ad4108a2be6b54d",
-    "parents": "da31741ff482e5edd5441efd3dca91afce6de167",
-    "subject": "Remove extraneous ?"
-   },
-   {
-    "adate": "2022-01-25T21:04:28+00:00",
-    "author": "Mathieu Hofman",
-    "date": "2022-01-25T21:08:30+00:00",
-    "hash": "da31741ff482e5edd5441efd3dca91afce6de167",
-    "parents": "dc10e2f702b5039787b07b0b5f7f2e8d86ee03cf",
-    "subject": "Reject with TypeError if sync iterator missing \"throw\""
-   },
-   {
-    "adate": "2022-01-24T01:02:39+00:00",
-    "author": "Mathieu Hofman",
-    "date": "2022-01-24T01:02:39+00:00",
-    "hash": "dc10e2f702b5039787b07b0b5f7f2e8d86ee03cf",
-    "parents": "4dcbf3d19f5b449d059a81d14dfd1fcedb4aa1af",
-    "subject": "Address feedback"
-   },
-   {
-    "adate": "2022-01-22T23:41:14+00:00",
-    "author": "Mathieu Hofman",
-    "date": "2022-01-22T23:44:37+00:00",
-    "hash": "4dcbf3d19f5b449d059a81d14dfd1fcedb4aa1af",
-    "parents": "d73510fe92531373a6f3de0ffeb06c90b109248e",
-    "subject": "Close a wrapped sync iterator if it doesn't have a throw"
-   },
-   {
-    "adate": "2021-12-20T23:26:57+00:00",
-    "author": "Mathieu Hofman",
-    "date": "2022-01-22T23:44:36+00:00",
-    "hash": "d73510fe92531373a6f3de0ffeb06c90b109248e",
-    "parents": "227635ff9024ebbeb074153ba2bfdb29a0dfbde3",
-    "subject": "Do not close when iterator has already been requested closed"
-   },
-   {
-    "adate": "2021-12-17T19:09:43+00:00",
-    "author": "Mathieu Hofman",
-    "date": "2022-01-22T23:44:35+00:00",
-    "hash": "227635ff9024ebbeb074153ba2bfdb29a0dfbde3",
-    "parents": "0f76b73d3af2a10df0213d358af5bc1796703e21",
-    "subject": "Close iterator if not done, regardless of action type Close iterator on buggy promise value"
-   },
-   {
-    "adate": "2021-12-17T04:37:56+00:00",
-    "author": "Mathieu Hofman",
-    "date": "2022-01-22T23:44:34+00:00",
-    "hash": "0f76b73d3af2a10df0213d358af5bc1796703e21",
-    "parents": "0adee7158efb16759eec7f1eceeff047b3872a86",
-    "subject": "fix: do not close a done iterator"
+    "adate": "2023-12-28T12:38:04-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2023-12-28T12:38:04-08:00",
+    "hash": "e705fb86642ea45b8d264dd4a9f5292d8f0011fa",
+    "parents": "a2aa03c8ed629b3ca49402a912bf0ee29946c346",
+    "subject": "fixup: linter issues and feedback"
    },
    {
     "adate": "2021-12-17T02:22:37+00:00",
     "author": "Mathieu Hofman",
-    "date": "2022-01-22T23:44:34+00:00",
-    "hash": "0adee7158efb16759eec7f1eceeff047b3872a86",
-    "parents": "b64ac7fb4ae0a7c1a3332274e51c9664b47b4363",
+    "date": "2023-12-28T12:33:11-08:00",
+    "hash": "a2aa03c8ed629b3ca49402a912bf0ee29946c346",
+    "parents": "160b260705129efbfdc54dc1570f9c5c8ef09f06",
     "subject": "Normative: Close sync iterator when async wrapper yields rejection"
    }
   ],
   "title": "Normative: Close sync iterator when async wrapper yields rejection",
-  "updated_at": "2022-01-26T00:56:42Z"
+  "updated_at": "2023-12-28T20:39:13Z"
  },
  {
   "base": "267fdbdc716677bc9934906a498cf9bad4bfb70d",
