@@ -1,6 +1,26 @@
 [
  {
   "base": "160b260705129efbfdc54dc1570f9c5c8ef09f06",
+  "created_at": "2024-01-10T19:52:23Z",
+  "head": "35c0ed4fa90dcd19690b0a30463211c393bf31da",
+  "login": "tc39",
+  "number": 3254,
+  "ref": "fix-gop-constraint",
+  "revs": [
+   {
+    "adate": "2024-01-10T11:44:06-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2024-01-10T11:44:06-08:00",
+    "hash": "35c0ed4fa90dcd19690b0a30463211c393bf31da",
+    "parents": "160b260705129efbfdc54dc1570f9c5c8ef09f06",
+    "subject": "Editorial: fix an invariant for [[GetOwnProperty]]"
+   }
+  ],
+  "title": "Editorial: fix an invariant for [[GetOwnProperty]]",
+  "updated_at": "2024-01-10T20:15:34Z"
+ },
+ {
+  "base": "160b260705129efbfdc54dc1570f9c5c8ef09f06",
   "created_at": "2024-01-10T17:49:05Z",
   "head": "246733294c3273a71b5bef5ec58eb2d29e8ea2a1",
   "login": "tc39",
@@ -1080,32 +1100,24 @@
   "updated_at": "2023-12-13T23:14:07Z"
  },
  {
-  "base": "82c99bbc44e4b63e3a14ffbf0ac90ce8359c1010",
+  "base": "160b260705129efbfdc54dc1570f9c5c8ef09f06",
   "created_at": "2023-09-04T02:16:55Z",
-  "head": "09cbecd8826b1f1b9d4fe13d84838311efb990ca",
+  "head": "c7560a59d295080776907b96e412567e9fe92186",
   "login": "jmdyck",
   "number": 3163,
   "ref": "is_a_foo_completion",
   "revs": [
    {
-    "adate": "2023-09-03T22:24:42-04:00",
+    "adate": "2024-01-10T12:14:10-08:00",
     "author": "Michael Dyck",
-    "date": "2023-11-03T15:37:39-07:00",
-    "hash": "09cbecd8826b1f1b9d4fe13d84838311efb990ca",
-    "parents": "b82d540f55e68560df56fbd72f9b760e5057d140",
-    "subject": "fixup: tweak esmeta-ignore.json as indicated by `typecheck`"
-   },
-   {
-    "adate": "2023-09-03T22:10:31-04:00",
-    "author": "Michael Dyck",
-    "date": "2023-11-03T15:37:39-07:00",
-    "hash": "b82d540f55e68560df56fbd72f9b760e5057d140",
-    "parents": "82c99bbc44e4b63e3a14ffbf0ac90ce8359c1010",
-    "subject": "Editorial: Use \"is a foo completion\" instead of testing [[Type]] field"
+    "date": "2024-01-10T12:14:10-08:00",
+    "hash": "c7560a59d295080776907b96e412567e9fe92186",
+    "parents": "160b260705129efbfdc54dc1570f9c5c8ef09f06",
+    "subject": "Editorial: Use \"is a foo completion\" instead of testing [[Type]] field (#3163)"
    }
   ],
   "title": "Editorial: Use \"is a foo completion\" instead of testing [[Type]] field",
-  "updated_at": "2023-11-03T22:37:42Z"
+  "updated_at": "2024-01-10T20:14:26Z"
  },
  {
   "base": "c316ec72f6e227d88d4ef67a3e16b486c5ca356d",
