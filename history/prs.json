@@ -22,11 +22,19 @@
  {
   "base": "7d2644968bd56d54d2886c012d18698ff3f72c35",
   "created_at": "2024-01-11T00:58:25Z",
-  "head": "73c060b6f1734d1ab208cda9f090ba1ac3f58075",
+  "head": "5a211e1b6f4c79abfea036f8ebd7380f9e2e2085",
   "login": "syg",
   "number": 3255,
   "ref": "fix-ta-p-slice",
   "revs": [
+   {
+    "adate": "2024-01-11T10:31:10-08:00",
+    "author": "Shu-yu Guo",
+    "date": "2024-01-11T10:31:10-08:00",
+    "hash": "5a211e1b6f4c79abfea036f8ebd7380f9e2e2085",
+    "parents": "73c060b6f1734d1ab208cda9f090ba1ac3f58075",
+    "subject": "Add explicit parens"
+   },
    {
     "adate": "2024-01-10T16:54:05-08:00",
     "author": "Shu-yu Guo",
@@ -37,7 +45,7 @@
    }
   ],
   "title": "Normative: Recompute count in TA.p.slice",
-  "updated_at": "2024-01-11T01:34:21Z"
+  "updated_at": "2024-01-11T18:32:04Z"
  },
  {
   "base": "160b260705129efbfdc54dc1570f9c5c8ef09f06",
