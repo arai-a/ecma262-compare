@@ -140,48 +140,56 @@
   "updated_at": "2023-12-18T18:06:09Z"
  },
  {
-  "base": "160b260705129efbfdc54dc1570f9c5c8ef09f06",
+  "base": "22de3740fc90456b0381e4373eda42c979bba482",
   "created_at": "2023-12-05T23:58:54Z",
-  "head": "6f212d68a2552ece017fa230b35935d1516165ac",
+  "head": "92dfe49ad7f3fdc14425c95cf8dd1cf630662c6a",
   "login": "arai-a",
   "number": 3238,
   "ref": "generator-prototype-intrinsic",
   "revs": [
    {
+    "adate": "2024-01-12T21:32:29+09:00",
+    "author": "Tooru Fujisawa",
+    "date": "2024-01-12T21:32:29+09:00",
+    "hash": "92dfe49ad7f3fdc14425c95cf8dd1cf630662c6a",
+    "parents": "f4fa8a01eae9153ccda7df8d8f8c7a7ae8672dbc",
+    "subject": "Update Generator Objects Relationships figure"
+   },
+   {
     "adate": "2023-12-06T08:43:53+09:00",
     "author": "Tooru Fujisawa",
-    "date": "2023-12-10T23:17:36+09:00",
-    "hash": "6f212d68a2552ece017fa230b35935d1516165ac",
-    "parents": "9010de71fedd0ef355138b39d2e9e815db95a4ae",
+    "date": "2024-01-12T21:18:46+09:00",
+    "hash": "f4fa8a01eae9153ccda7df8d8f8c7a7ae8672dbc",
+    "parents": "9f17285958f0d3f27c7aaa50a72ba7dbe7d33b14",
     "subject": "Clarify the relation between Generator and generator function"
    },
    {
     "adate": "2023-12-06T08:40:57+09:00",
     "author": "Tooru Fujisawa",
-    "date": "2023-12-10T23:17:35+09:00",
-    "hash": "9010de71fedd0ef355138b39d2e9e815db95a4ae",
-    "parents": "ccfe8f09f5acd0202a635c9d2feaae43686329f7",
+    "date": "2024-01-12T21:18:46+09:00",
+    "hash": "9f17285958f0d3f27c7aaa50a72ba7dbe7d33b14",
+    "parents": "3cd5f7379cb933b4aa0a6e6917f88455f20c872b",
     "subject": "Use \"generator function\" instead of \"generator\" for GeneratorFunction instances"
    },
    {
     "adate": "2023-12-10T23:16:07+09:00",
     "author": "Tooru Fujisawa",
-    "date": "2023-12-10T23:17:34+09:00",
-    "hash": "ccfe8f09f5acd0202a635c9d2feaae43686329f7",
-    "parents": "6d44665b6fb8e18167b3dd628848de06f12013f9",
+    "date": "2024-01-12T21:18:45+09:00",
+    "hash": "3cd5f7379cb933b4aa0a6e6917f88455f20c872b",
+    "parents": "45f5a458acbbd18d8c79e781b28d31ab1ac2708a",
     "subject": "Add %AsyncGeneratorPrototype% well-known intrinsic and use it instead of AsyncGenerator.prototype"
    },
    {
     "adate": "2023-12-10T23:17:34+09:00",
     "author": "Tooru Fujisawa",
-    "date": "2023-12-10T23:17:34+09:00",
-    "hash": "6d44665b6fb8e18167b3dd628848de06f12013f9",
-    "parents": "03e44104d41bb64c29fa5cf0937b5e62de94f98a",
+    "date": "2024-01-12T21:18:45+09:00",
+    "hash": "45f5a458acbbd18d8c79e781b28d31ab1ac2708a",
+    "parents": "22de3740fc90456b0381e4373eda42c979bba482",
     "subject": "Add %GeneratorPrototype% well-known intrinsic and use it instead of Generator.prototype (#3230)"
    }
   ],
   "title": "Editorial: Add %GeneratorPrototype% and %AsyncGeneratorPrototype% well-known intrinsics (#3230)",
-  "updated_at": "2023-12-10T14:18:09Z"
+  "updated_at": "2024-01-12T12:35:29Z"
  },
  {
   "base": "03e44104d41bb64c29fa5cf0937b5e62de94f98a",
