@@ -2,11 +2,19 @@
  {
   "base": "329069469609d8f05ad64c328e2295c171050ce4",
   "created_at": "2024-01-25T02:27:28Z",
-  "head": "be7ec12a337b647508cd94ce5f6bc96ba54a3ae0",
+  "head": "810e4454cfacabc0d833e23317cd09a5cd2ce15e",
   "login": "tc39",
   "number": 3268,
   "ref": "iterator-step-value",
   "revs": [
+   {
+    "adate": "2024-01-25T14:31:38-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2024-01-25T14:31:38-08:00",
+    "hash": "810e4454cfacabc0d833e23317cd09a5cd2ce15e",
+    "parents": "be7ec12a337b647508cd94ce5f6bc96ba54a3ae0",
+    "subject": "fixup: typo in description"
+   },
    {
     "adate": "2024-01-24T21:54:29-08:00",
     "author": "Kevin Gibbons",
@@ -33,7 +41,7 @@
    }
   ],
   "title": "Editorial: Introduce AO combining IteratorStep and IteratorValue",
-  "updated_at": "2024-01-25T07:01:39Z"
+  "updated_at": "2024-01-25T22:31:41Z"
  },
  {
   "base": "8dafd76d8a018bdec038885b1dfcd4565e413c1f",
