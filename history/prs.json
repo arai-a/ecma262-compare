@@ -1,6 +1,26 @@
 [
  {
   "base": "329069469609d8f05ad64c328e2295c171050ce4",
+  "created_at": "2024-01-26T21:10:34Z",
+  "head": "186f01a407a131fa2c81c7f99dc6b44e803f99cb",
+  "login": "tc39",
+  "number": 3273,
+  "ref": "unwrap-completion",
+  "revs": [
+   {
+    "adate": "2024-01-26T13:09:28-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2024-01-26T13:09:28-08:00",
+    "hash": "186f01a407a131fa2c81c7f99dc6b44e803f99cb",
+    "parents": "329069469609d8f05ad64c328e2295c171050ce4",
+    "subject": "Editorial: tweak unwrapping of some normal completions"
+   }
+  ],
+  "title": "Editorial: tweak unwrapping of some normal completions",
+  "updated_at": "2024-01-26T21:20:27Z"
+ },
+ {
+  "base": "329069469609d8f05ad64c328e2295c171050ce4",
   "created_at": "2024-01-26T17:00:00Z",
   "head": "0274b052364d4388bf519a6c25bb4bfbc20d7704",
   "login": "tc39",
@@ -62,11 +82,19 @@
  {
   "base": "329069469609d8f05ad64c328e2295c171050ce4",
   "created_at": "2024-01-25T02:27:28Z",
-  "head": "ff2874a9bcade60007541c5fba10110dff4e54c8",
+  "head": "b7ca01b88809b23e18edc852339cc55849f8f17c",
   "login": "tc39",
   "number": 3268,
   "ref": "iterator-step-value",
   "revs": [
+   {
+    "adate": "2024-01-26T13:17:13-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2024-01-26T13:17:13-08:00",
+    "hash": "b7ca01b88809b23e18edc852339cc55849f8f17c",
+    "parents": "ff2874a9bcade60007541c5fba10110dff4e54c8",
+    "subject": "fixup: unwrap completions"
+   },
    {
     "adate": "2024-01-25T18:39:35-08:00",
     "author": "Kevin Gibbons",
@@ -125,7 +153,7 @@
    }
   ],
   "title": "Editorial: Introduce AO combining IteratorStep and IteratorValue",
-  "updated_at": "2024-01-26T02:39:39Z"
+  "updated_at": "2024-01-26T21:17:45Z"
  },
  {
   "base": "8dafd76d8a018bdec038885b1dfcd4565e413c1f",
