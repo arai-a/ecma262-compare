@@ -1,6 +1,46 @@
 [
  {
   "base": "329069469609d8f05ad64c328e2295c171050ce4",
+  "created_at": "2024-01-26T17:00:00Z",
+  "head": "0274b052364d4388bf519a6c25bb4bfbc20d7704",
+  "login": "tc39",
+  "number": 3272,
+  "ref": "binary64",
+  "revs": [
+   {
+    "adate": "2024-01-26T09:52:23-07:00",
+    "author": "Michael Ficarra",
+    "date": "2024-01-26T09:58:43-07:00",
+    "hash": "0274b052364d4388bf519a6c25bb4bfbc20d7704",
+    "parents": "329069469609d8f05ad64c328e2295c171050ce4",
+    "subject": "refer to binary64 by their official name in more places"
+   }
+  ],
+  "title": "Editorial: refer to binary64 values by their official name in more places",
+  "updated_at": "2024-01-26T17:00:00Z"
+ },
+ {
+  "base": "329069469609d8f05ad64c328e2295c171050ce4",
+  "created_at": "2024-01-26T16:50:18Z",
+  "head": "1da750002dadfd57789120fd1ee83f4ed992ce1e",
+  "login": "tc39",
+  "number": 3271,
+  "ref": "maths-ops-reorg",
+  "revs": [
+   {
+    "adate": "2024-01-26T09:43:45-07:00",
+    "author": "Michael Ficarra",
+    "date": "2024-01-26T09:46:31-07:00",
+    "hash": "1da750002dadfd57789120fd1ee83f4ed992ce1e",
+    "parents": "329069469609d8f05ad64c328e2295c171050ce4",
+    "subject": "reorganise the mathematical operations section a bit"
+   }
+  ],
+  "title": "Editorial: reorganise the mathematical operations section a bit",
+  "updated_at": "2024-01-26T16:50:18Z"
+ },
+ {
+  "base": "329069469609d8f05ad64c328e2295c171050ce4",
   "created_at": "2024-01-26T16:38:18Z",
   "head": "b7d2e88cc32fe34f09ed953bb37ea0bc6462fd67",
   "login": "tc39",
