@@ -2,11 +2,27 @@
  {
   "base": "329069469609d8f05ad64c328e2295c171050ce4",
   "created_at": "2024-01-25T02:27:28Z",
-  "head": "810e4454cfacabc0d833e23317cd09a5cd2ce15e",
+  "head": "1c73742b2f6b78b55670c976fbe975ea996cc4ac",
   "login": "tc39",
   "number": 3268,
   "ref": "iterator-step-value",
   "revs": [
+   {
+    "adate": "2024-01-25T17:07:05-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2024-01-25T17:07:05-08:00",
+    "hash": "1c73742b2f6b78b55670c976fbe975ea996cc4ac",
+    "parents": "cc3761d4fcde5c417bf521851cb1f5d13cc9698a",
+    "subject": "switch asserts for possibly clearer implementation"
+   },
+   {
+    "adate": "2024-01-25T17:05:19-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2024-01-25T17:05:19-08:00",
+    "hash": "cc3761d4fcde5c417bf521851cb1f5d13cc9698a",
+    "parents": "810e4454cfacabc0d833e23317cd09a5cd2ce15e",
+    "subject": "fixup: add asserts in confusing cases"
+   },
    {
     "adate": "2024-01-25T14:31:38-08:00",
     "author": "Kevin Gibbons",
@@ -41,7 +57,7 @@
    }
   ],
   "title": "Editorial: Introduce AO combining IteratorStep and IteratorValue",
-  "updated_at": "2024-01-25T22:31:41Z"
+  "updated_at": "2024-01-26T01:08:00Z"
  },
  {
   "base": "8dafd76d8a018bdec038885b1dfcd4565e413c1f",
