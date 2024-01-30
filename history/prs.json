@@ -166,11 +166,19 @@
  {
   "base": "329069469609d8f05ad64c328e2295c171050ce4",
   "created_at": "2024-01-25T02:27:28Z",
-  "head": "b7ca01b88809b23e18edc852339cc55849f8f17c",
+  "head": "6ed56393f2d27a05a42419403039ab4f61ff5f2e",
   "login": "tc39",
   "number": 3268,
   "ref": "iterator-step-value",
   "revs": [
+   {
+    "adate": "2024-01-30T15:23:29-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2024-01-30T15:23:29-08:00",
+    "hash": "6ed56393f2d27a05a42419403039ab4f61ff5f2e",
+    "parents": "b7ca01b88809b23e18edc852339cc55849f8f17c",
+    "subject": "fixup: test for throw, not abrupt"
+   },
    {
     "adate": "2024-01-26T13:17:13-08:00",
     "author": "Kevin Gibbons",
@@ -237,7 +245,7 @@
    }
   ],
   "title": "Editorial: Introduce AO combining IteratorStep and IteratorValue",
-  "updated_at": "2024-01-26T21:17:45Z"
+  "updated_at": "2024-01-30T23:26:00Z"
  },
  {
   "base": "8dafd76d8a018bdec038885b1dfcd4565e413c1f",
