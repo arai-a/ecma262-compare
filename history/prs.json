@@ -1,87 +1,23 @@
 [
  {
-  "base": "b7ca01b88809b23e18edc852339cc55849f8f17c",
-  "created_at": "2024-01-30T23:07:32Z",
-  "head": "e46362e67fb82ecae4e3dbc85b678dfac3b60dfe",
-  "login": "tc39",
-  "number": 3275,
-  "ref": "IteratorDestructuringAssignmentEvaluation",
+  "base": "6d7aa1b57f4b3390000d939fdc1920046b81d938",
+  "created_at": "2024-01-31T16:52:55Z",
+  "head": "2647c17b348f9e14e82f778b216443c5a41e60cb",
+  "login": "gibson042",
+  "number": 3276,
+  "ref": "2024-01-idempotent-iteratorclose",
   "revs": [
    {
-    "adate": "2024-01-30T16:04:17-07:00",
-    "author": "Michael Ficarra",
-    "date": "2024-01-30T16:04:17-07:00",
-    "hash": "e46362e67fb82ecae4e3dbc85b678dfac3b60dfe",
-    "parents": "b7ca01b88809b23e18edc852339cc55849f8f17c",
-    "subject": "Editorial: avoid multiple declarations of an alias"
-   },
-   {
-    "adate": "2024-01-26T13:17:13-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2024-01-26T13:17:13-08:00",
-    "hash": "b7ca01b88809b23e18edc852339cc55849f8f17c",
-    "parents": "ff2874a9bcade60007541c5fba10110dff4e54c8",
-    "subject": "fixup: unwrap completions"
-   },
-   {
-    "adate": "2024-01-25T18:39:35-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2024-01-25T18:39:35-08:00",
-    "hash": "ff2874a9bcade60007541c5fba10110dff4e54c8",
-    "parents": "1c73742b2f6b78b55670c976fbe975ea996cc4ac",
-    "subject": "missed an assert"
-   },
-   {
-    "adate": "2024-01-25T17:07:05-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2024-01-25T17:07:05-08:00",
-    "hash": "1c73742b2f6b78b55670c976fbe975ea996cc4ac",
-    "parents": "cc3761d4fcde5c417bf521851cb1f5d13cc9698a",
-    "subject": "switch asserts for possibly clearer implementation"
-   },
-   {
-    "adate": "2024-01-25T17:05:19-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2024-01-25T17:05:19-08:00",
-    "hash": "cc3761d4fcde5c417bf521851cb1f5d13cc9698a",
-    "parents": "810e4454cfacabc0d833e23317cd09a5cd2ce15e",
-    "subject": "fixup: add asserts in confusing cases"
-   },
-   {
-    "adate": "2024-01-25T14:31:38-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2024-01-25T14:31:38-08:00",
-    "hash": "810e4454cfacabc0d833e23317cd09a5cd2ce15e",
-    "parents": "be7ec12a337b647508cd94ce5f6bc96ba54a3ae0",
-    "subject": "fixup: typo in description"
-   },
-   {
-    "adate": "2024-01-24T21:54:29-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2024-01-24T23:01:35-08:00",
-    "hash": "be7ec12a337b647508cd94ce5f6bc96ba54a3ae0",
-    "parents": "1989b132a6a05a7ccbadd53989302bcb84424fa5",
-    "subject": "Editorial: set iterator record [[Done]] inside IteratorStepValue"
-   },
-   {
-    "adate": "2024-01-24T18:14:29-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2024-01-24T18:14:29-08:00",
-    "hash": "1989b132a6a05a7ccbadd53989302bcb84424fa5",
-    "parents": "d428ec4f327bb9c92745785b283d754afb66ab14",
-    "subject": "Editorial: simplify IteratorToList"
-   },
-   {
-    "adate": "2024-01-24T18:13:43-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2024-01-24T18:13:43-08:00",
-    "hash": "d428ec4f327bb9c92745785b283d754afb66ab14",
-    "parents": "a88ef724495bf0ca3d961e26885bf382aad4320c",
-    "subject": "Editorial: Introduce AO combining IteratorStep and IteratorValue"
+    "adate": "2024-01-31T11:45:47-05:00",
+    "author": "Richard Gibson",
+    "date": "2024-01-31T11:45:47-05:00",
+    "hash": "2647c17b348f9e14e82f778b216443c5a41e60cb",
+    "parents": "6d7aa1b57f4b3390000d939fdc1920046b81d938",
+    "subject": "Editorial: Simplify algorithms by making (Async)IteratorClose idempotent"
    }
   ],
-  "title": "Editorial: avoid multiple declarations of an alias",
-  "updated_at": "2024-01-30T23:07:32Z"
+  "title": "Editorial: Simplify algorithms by making (Async)IteratorClose idempotent",
+  "updated_at": "2024-01-31T17:05:37Z"
  },
  {
   "base": "329069469609d8f05ad64c328e2295c171050ce4",
@@ -162,90 +98,6 @@
   ],
   "title": "Editorial: reorganise the mathematical operations section a bit",
   "updated_at": "2024-01-26T16:50:18Z"
- },
- {
-  "base": "329069469609d8f05ad64c328e2295c171050ce4",
-  "created_at": "2024-01-25T02:27:28Z",
-  "head": "6ed56393f2d27a05a42419403039ab4f61ff5f2e",
-  "login": "tc39",
-  "number": 3268,
-  "ref": "iterator-step-value",
-  "revs": [
-   {
-    "adate": "2024-01-30T15:23:29-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2024-01-30T15:23:29-08:00",
-    "hash": "6ed56393f2d27a05a42419403039ab4f61ff5f2e",
-    "parents": "b7ca01b88809b23e18edc852339cc55849f8f17c",
-    "subject": "fixup: test for throw, not abrupt"
-   },
-   {
-    "adate": "2024-01-26T13:17:13-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2024-01-26T13:17:13-08:00",
-    "hash": "b7ca01b88809b23e18edc852339cc55849f8f17c",
-    "parents": "ff2874a9bcade60007541c5fba10110dff4e54c8",
-    "subject": "fixup: unwrap completions"
-   },
-   {
-    "adate": "2024-01-25T18:39:35-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2024-01-25T18:39:35-08:00",
-    "hash": "ff2874a9bcade60007541c5fba10110dff4e54c8",
-    "parents": "1c73742b2f6b78b55670c976fbe975ea996cc4ac",
-    "subject": "missed an assert"
-   },
-   {
-    "adate": "2024-01-25T17:07:05-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2024-01-25T17:07:05-08:00",
-    "hash": "1c73742b2f6b78b55670c976fbe975ea996cc4ac",
-    "parents": "cc3761d4fcde5c417bf521851cb1f5d13cc9698a",
-    "subject": "switch asserts for possibly clearer implementation"
-   },
-   {
-    "adate": "2024-01-25T17:05:19-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2024-01-25T17:05:19-08:00",
-    "hash": "cc3761d4fcde5c417bf521851cb1f5d13cc9698a",
-    "parents": "810e4454cfacabc0d833e23317cd09a5cd2ce15e",
-    "subject": "fixup: add asserts in confusing cases"
-   },
-   {
-    "adate": "2024-01-25T14:31:38-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2024-01-25T14:31:38-08:00",
-    "hash": "810e4454cfacabc0d833e23317cd09a5cd2ce15e",
-    "parents": "be7ec12a337b647508cd94ce5f6bc96ba54a3ae0",
-    "subject": "fixup: typo in description"
-   },
-   {
-    "adate": "2024-01-24T21:54:29-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2024-01-24T23:01:35-08:00",
-    "hash": "be7ec12a337b647508cd94ce5f6bc96ba54a3ae0",
-    "parents": "1989b132a6a05a7ccbadd53989302bcb84424fa5",
-    "subject": "Editorial: set iterator record [[Done]] inside IteratorStepValue"
-   },
-   {
-    "adate": "2024-01-24T18:14:29-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2024-01-24T18:14:29-08:00",
-    "hash": "1989b132a6a05a7ccbadd53989302bcb84424fa5",
-    "parents": "d428ec4f327bb9c92745785b283d754afb66ab14",
-    "subject": "Editorial: simplify IteratorToList"
-   },
-   {
-    "adate": "2024-01-24T18:13:43-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2024-01-24T18:13:43-08:00",
-    "hash": "d428ec4f327bb9c92745785b283d754afb66ab14",
-    "parents": "a88ef724495bf0ca3d961e26885bf382aad4320c",
-    "subject": "Editorial: Introduce AO combining IteratorStep and IteratorValue"
-   }
-  ],
-  "title": "Editorial: Introduce AO combining IteratorStep and IteratorValue",
-  "updated_at": "2024-01-30T23:26:00Z"
  },
  {
   "base": "8dafd76d8a018bdec038885b1dfcd4565e413c1f",
