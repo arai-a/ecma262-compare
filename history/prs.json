@@ -1,6 +1,34 @@
 [
  {
   "base": "6d7aa1b57f4b3390000d939fdc1920046b81d938",
+  "created_at": "2024-01-31T21:36:33Z",
+  "head": "630b915ecda0257432096d5a87db7c6e2800bee0",
+  "login": "tc39",
+  "number": 3277,
+  "ref": "fixed-width",
+  "revs": [
+   {
+    "adate": "2024-01-31T14:52:33-07:00",
+    "author": "Michael Ficarra",
+    "date": "2024-01-31T14:52:33-07:00",
+    "hash": "630b915ecda0257432096d5a87db7c6e2800bee0",
+    "parents": "29eb35c3465fa8f14b838f773219e2451d590b86",
+    "subject": "temporarily inline ecmarkup styles into spec document for previewing"
+   },
+   {
+    "adate": "2024-01-31T13:59:02-07:00",
+    "author": "Michael Ficarra",
+    "date": "2024-01-31T13:59:02-07:00",
+    "hash": "29eb35c3465fa8f14b838f773219e2451d590b86",
+    "parents": "6d7aa1b57f4b3390000d939fdc1920046b81d938",
+    "subject": "Editorial: pull in ecmarkup reduced-width document styles"
+   }
+  ],
+  "title": "Editorial: pull in ecmarkup reduced-width document styles",
+  "updated_at": "2024-01-31T21:53:00Z"
+ },
+ {
+  "base": "6d7aa1b57f4b3390000d939fdc1920046b81d938",
   "created_at": "2024-01-31T16:52:55Z",
   "head": "2647c17b348f9e14e82f778b216443c5a41e60cb",
   "login": "gibson042",
