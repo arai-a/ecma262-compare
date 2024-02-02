@@ -4024,144 +4024,24 @@
   "updated_at": "2023-08-17T21:27:11Z"
  },
  {
-  "base": "c4a8bd4075825f9c1c77e7ca1e6f8811c8a41354",
+  "base": "94bf7d52348011fa4d7ce83ebc0e98a7f2129817",
   "created_at": "2021-05-26T23:09:49Z",
-  "head": "110f95038382b20da4ffed1cefe3080a37cce7c5",
+  "head": "3f30554c06b8b78d83dabdd74c6bc4a0f242e441",
   "login": "pzuraq",
   "number": 2417,
   "ref": "decorators",
   "revs": [
    {
-    "adate": "2024-02-02T11:28:27-05:00",
-    "author": "Kristen",
-    "date": "2024-02-02T11:28:27-05:00",
-    "hash": "110f95038382b20da4ffed1cefe3080a37cce7c5",
-    "parents": "c4465e44d514c6c1dba810487ec2721ccd6b08f9 967241bfdd3babff5dad2028a880fa4727475276",
-    "subject": "Merge pull request #12 from pzuraq/call-field-accessor-initializers-after-definition"
-   },
-   {
-    "adate": "2023-11-20T13:24:32-05:00",
-    "author": "Kristen Maevyn",
-    "date": "2024-02-02T11:26:02-05:00",
-    "hash": "967241bfdd3babff5dad2028a880fa4727475276",
-    "parents": "c4465e44d514c6c1dba810487ec2721ccd6b08f9",
-    "subject": "Update field and accessor extra initializers to run after definition"
-   },
-   {
-    "adate": "2023-05-16T15:49:56-04:00",
-    "author": "Chris Hewell Garrett",
-    "date": "2023-05-16T15:49:56-04:00",
-    "hash": "c4465e44d514c6c1dba810487ec2721ccd6b08f9",
-    "parents": "823f1bf403040df586cae1a57bf4c0edc8809033",
-    "subject": "Reverse initializer order"
-   },
-   {
-    "adate": "2023-04-12T05:13:53-07:00",
-    "author": "pzuraq",
-    "date": "2023-04-12T05:13:53-07:00",
-    "hash": "823f1bf403040df586cae1a57bf4c0edc8809033",
-    "parents": "43b16eaa229335807bd3979e4136bdc9b4712183 50ce8249ad61d962f5876af600c5c9693d94ae73",
-    "subject": "Merge pull request #6 from pzuraq/call-decorators-with-correct-this"
-   },
-   {
-    "adate": "2023-04-12T05:06:03-07:00",
-    "author": "pzuraq",
-    "date": "2023-04-12T05:06:03-07:00",
-    "hash": "43b16eaa229335807bd3979e4136bdc9b4712183",
-    "parents": "444a5315579dbeb74018a362317674c9b99e6b26 39e6e3579b69bcf41f23182364e873e7b5634a11",
-    "subject": "Merge pull request #11 from pzuraq/remove-set-function-name"
-   },
-   {
-    "adate": "2023-04-12T07:45:36-04:00",
-    "author": "Chris Hewell Garrett",
-    "date": "2023-04-12T08:01:26-04:00",
-    "hash": "39e6e3579b69bcf41f23182364e873e7b5634a11",
-    "parents": "444a5315579dbeb74018a362317674c9b99e6b26",
-    "subject": "Remove setFunctionName from decorator application"
-   },
-   {
-    "adate": "2023-04-12T07:59:41-04:00",
-    "author": "Chris Hewell Garrett",
-    "date": "2023-04-12T07:59:41-04:00",
-    "hash": "50ce8249ad61d962f5876af600c5c9693d94ae73",
-    "parents": "444a5315579dbeb74018a362317674c9b99e6b26",
-    "subject": "Call decorators with their natural `this` value."
-   },
-   {
-    "adate": "2023-04-12T04:28:37-07:00",
-    "author": "pzuraq",
-    "date": "2023-04-12T04:28:37-07:00",
-    "hash": "444a5315579dbeb74018a362317674c9b99e6b26",
-    "parents": "ca35c74e7e10452d6d3b1f705a7b4466cab45f2b 5d556fe792a0eeedef8cdf154649501b1bc66e8d",
-    "subject": "Merge pull request #8 from pzuraq/set-add-initializer-function-name"
-   },
-   {
-    "adate": "2023-04-12T04:28:28-07:00",
-    "author": "pzuraq",
-    "date": "2023-04-12T04:28:28-07:00",
-    "hash": "ca35c74e7e10452d6d3b1f705a7b4466cab45f2b",
-    "parents": "e86128e13b63a3c2efc3728f76c8332756752b02 a2b63dd582175272da6a98caaab8d47186da28bf",
-    "subject": "Merge pull request #7 from pzuraq/throw-error-if-initializer-is-not-callable"
-   },
-   {
-    "adate": "2023-04-12T04:27:54-07:00",
-    "author": "pzuraq",
-    "date": "2023-04-12T04:27:54-07:00",
-    "hash": "e86128e13b63a3c2efc3728f76c8332756752b02",
-    "parents": "f604983655f4028b7ba6899f17e3a4a3e918a589 bcd170c79eebef56f1b97789aa58861eac8c0814",
-    "subject": "Merge pull request #5 from pzuraq/remove-dynamic-home-object"
-   },
-   {
-    "adate": "2023-03-07T15:01:48-05:00",
-    "author": "Chris Hewell Garrett",
-    "date": "2023-03-07T15:01:48-05:00",
-    "hash": "f604983655f4028b7ba6899f17e3a4a3e918a589",
-    "parents": "1f42b91842e7e45cc6c2050b04d7b0271dd80b78",
-    "subject": "Fixes based on feedback from @jmdyck"
-   },
-   {
-    "adate": "2023-03-06T20:30:01-05:00",
-    "author": "Chris Hewell Garrett",
-    "date": "2023-03-06T20:30:24-05:00",
-    "hash": "5d556fe792a0eeedef8cdf154649501b1bc66e8d",
-    "parents": "1f42b91842e7e45cc6c2050b04d7b0271dd80b78",
-    "subject": "Set the name of the `addInitializer` function"
-   },
-   {
-    "adate": "2023-03-06T20:20:17-05:00",
-    "author": "Chris Hewell Garrett",
-    "date": "2023-03-06T20:20:17-05:00",
-    "hash": "a2b63dd582175272da6a98caaab8d47186da28bf",
-    "parents": "1f42b91842e7e45cc6c2050b04d7b0271dd80b78",
-    "subject": "Throw an error if the value passed to `addInitializer` is not callable"
-   },
-   {
-    "adate": "2023-03-06T15:47:48-05:00",
-    "author": "Chris Hewell Garrett",
-    "date": "2023-03-06T15:47:48-05:00",
-    "hash": "bcd170c79eebef56f1b97789aa58861eac8c0814",
-    "parents": "1f42b91842e7e45cc6c2050b04d7b0271dd80b78",
-    "subject": "Remove dynamic [[HomeObject]] from decorator return values"
-   },
-   {
-    "adate": "2023-03-06T14:54:57-05:00",
-    "author": "Chris Hewell Garrett",
-    "date": "2023-03-06T15:40:30-05:00",
-    "hash": "1f42b91842e7e45cc6c2050b04d7b0271dd80b78",
-    "parents": "14425b5d8bffed885b5e314a4ceddd744d5c0639",
-    "subject": "Non-normative fixes"
-   },
-   {
     "adate": "2021-04-05T14:48:43-07:00",
-    "author": "Chris Garrett",
-    "date": "2023-03-05T22:12:35-05:00",
-    "hash": "14425b5d8bffed885b5e314a4ceddd744d5c0639",
-    "parents": "c4a8bd4075825f9c1c77e7ca1e6f8811c8a41354",
+    "author": "Kristen Hewell Garrett",
+    "date": "2024-02-02T12:01:35-05:00",
+    "hash": "3f30554c06b8b78d83dabdd74c6bc4a0f242e441",
+    "parents": "94bf7d52348011fa4d7ce83ebc0e98a7f2129817",
     "subject": "Add Class and Class Element Decorators and `accessor` Keyword"
    }
   ],
   "title": "Add Class and Class Element Decorators and `accessor` Keyword",
-  "updated_at": "2024-02-02T16:28:29Z"
+  "updated_at": "2024-02-02T17:03:10Z"
  },
  {
   "base": "26061c0e5e4b62fae91a7127b46c1efa8b94c4b4",
