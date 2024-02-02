@@ -4026,11 +4026,27 @@
  {
   "base": "c4a8bd4075825f9c1c77e7ca1e6f8811c8a41354",
   "created_at": "2021-05-26T23:09:49Z",
-  "head": "c4465e44d514c6c1dba810487ec2721ccd6b08f9",
+  "head": "110f95038382b20da4ffed1cefe3080a37cce7c5",
   "login": "pzuraq",
   "number": 2417,
   "ref": "decorators",
   "revs": [
+   {
+    "adate": "2024-02-02T11:28:27-05:00",
+    "author": "Kristen",
+    "date": "2024-02-02T11:28:27-05:00",
+    "hash": "110f95038382b20da4ffed1cefe3080a37cce7c5",
+    "parents": "c4465e44d514c6c1dba810487ec2721ccd6b08f9 967241bfdd3babff5dad2028a880fa4727475276",
+    "subject": "Merge pull request #12 from pzuraq/call-field-accessor-initializers-after-definition"
+   },
+   {
+    "adate": "2023-11-20T13:24:32-05:00",
+    "author": "Kristen Maevyn",
+    "date": "2024-02-02T11:26:02-05:00",
+    "hash": "967241bfdd3babff5dad2028a880fa4727475276",
+    "parents": "c4465e44d514c6c1dba810487ec2721ccd6b08f9",
+    "subject": "Update field and accessor extra initializers to run after definition"
+   },
    {
     "adate": "2023-05-16T15:49:56-04:00",
     "author": "Chris Hewell Garrett",
@@ -4145,7 +4161,7 @@
    }
   ],
   "title": "Add Class and Class Element Decorators and `accessor` Keyword",
-  "updated_at": "2023-05-16T19:50:08Z"
+  "updated_at": "2024-02-02T16:28:29Z"
  },
  {
   "base": "26061c0e5e4b62fae91a7127b46c1efa8b94c4b4",
