@@ -2,11 +2,19 @@
  {
   "base": "94bf7d52348011fa4d7ce83ebc0e98a7f2129817",
   "created_at": "2024-01-31T21:36:33Z",
-  "head": "41f0d898f7e24d86e9974b6d2d66ae81604ef879",
+  "head": "383e9465efa30626a8370eae93d82fc811616aa3",
   "login": "tc39",
   "number": 3277,
   "ref": "fixed-width",
   "revs": [
+   {
+    "adate": "2024-02-01T18:24:55-07:00",
+    "author": "Michael Ficarra",
+    "date": "2024-02-01T18:24:55-07:00",
+    "hash": "383e9465efa30626a8370eae93d82fc811616aa3",
+    "parents": "41f0d898f7e24d86e9974b6d2d66ae81604ef879",
+    "subject": "update ecmarkup"
+   },
    {
     "adate": "2024-01-31T13:59:02-07:00",
     "author": "Michael Ficarra",
@@ -17,7 +25,7 @@
    }
   ],
   "title": "Editorial: pull in ecmarkup reduced-width document styles",
-  "updated_at": "2024-02-01T02:55:13Z"
+  "updated_at": "2024-02-02T01:30:47Z"
  },
  {
   "base": "6d7aa1b57f4b3390000d939fdc1920046b81d938",
