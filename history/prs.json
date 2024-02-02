@@ -4026,11 +4026,35 @@
  {
   "base": "94bf7d52348011fa4d7ce83ebc0e98a7f2129817",
   "created_at": "2021-05-26T23:09:49Z",
-  "head": "9cdd8a895ffabcb1075274bb3a9de8f080755c55",
+  "head": "59003ed603d09485b957a0f579b46697f49a96a6",
   "login": "pzuraq",
   "number": 2417,
   "ref": "decorators",
   "revs": [
+   {
+    "adate": "2024-02-02T16:29:27-05:00",
+    "author": "Kristen Maevyn",
+    "date": "2024-02-02T16:29:27-05:00",
+    "hash": "59003ed603d09485b957a0f579b46697f49a96a6",
+    "parents": "daac91aad4cf22c9445b51755f98c7642ec56a85",
+    "subject": "add back and/or"
+   },
+   {
+    "adate": "2024-02-02T16:26:56-05:00",
+    "author": "Kristen Maevyn",
+    "date": "2024-02-02T16:26:56-05:00",
+    "hash": "daac91aad4cf22c9445b51755f98c7642ec56a85",
+    "parents": "e72bf2ab77d2123ae4ecfd1f344fc100425b7953",
+    "subject": "fix throw completion"
+   },
+   {
+    "adate": "2024-02-02T16:15:23-05:00",
+    "author": "Kristen Maevyn",
+    "date": "2024-02-02T16:15:23-05:00",
+    "hash": "e72bf2ab77d2123ae4ecfd1f344fc100425b7953",
+    "parents": "9cdd8a895ffabcb1075274bb3a9de8f080755c55",
+    "subject": "Update re: feedback"
+   },
    {
     "adate": "2024-02-02T13:46:48-05:00",
     "author": "Kristen Maevyn",
@@ -4049,7 +4073,7 @@
    }
   ],
   "title": "Add Class and Class Element Decorators and `accessor` Keyword",
-  "updated_at": "2024-02-02T18:49:17Z"
+  "updated_at": "2024-02-02T21:38:16Z"
  },
  {
   "base": "26061c0e5e4b62fae91a7127b46c1efa8b94c4b4",
