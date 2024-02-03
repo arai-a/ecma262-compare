@@ -1034,11 +1034,19 @@
  {
   "base": "8dafd76d8a018bdec038885b1dfcd4565e413c1f",
   "created_at": "2023-09-10T17:51:59Z",
-  "head": "648f25fb205410a43f9422e000b2f2a85bad33ab",
+  "head": "e66a1ce8dd518e9a038451fd071c57aea56bed7d",
   "login": "Josh-Cena",
   "number": 3170,
   "ref": "fix-atan2",
   "revs": [
+   {
+    "adate": "2024-02-02T20:51:32-05:00",
+    "author": "Joshua Chen",
+    "date": "2024-02-02T20:51:32-05:00",
+    "hash": "e66a1ce8dd518e9a038451fd071c57aea56bed7d",
+    "parents": "648f25fb205410a43f9422e000b2f2a85bad33ab",
+    "subject": "Fix"
+   },
    {
     "adate": "2024-01-24T19:39:04-05:00",
     "author": "Joshua Chen",
@@ -1073,7 +1081,7 @@
    }
   ],
   "title": "Editorial: fix algorithm of Math.atan2",
-  "updated_at": "2024-01-25T00:41:48Z"
+  "updated_at": "2024-02-03T01:51:34Z"
  },
  {
   "base": "c316ec72f6e227d88d4ef67a3e16b486c5ca356d",
