@@ -1112,24 +1112,24 @@
   "updated_at": "2023-07-01T23:05:55Z"
  },
  {
-  "base": "94bf7d52348011fa4d7ce83ebc0e98a7f2129817",
+  "base": "3a773fc9fae58be023228b13dbbd402ac18eeb6b",
   "created_at": "2023-06-20T16:15:31Z",
-  "head": "671b07fbf96b40fb720e4b726fedc8f79b2062e8",
+  "head": "509620e69ac372fa1a48f5b7fbf3a403fe1ea82f",
   "login": "tc39",
   "number": 3103,
   "ref": "ecma-spec-links",
   "revs": [
    {
-    "adate": "2023-09-19T14:53:16-07:00",
+    "adate": "2024-02-12T12:04:45-08:00",
     "author": "Michael Ficarra",
-    "date": "2024-01-31T19:38:13-07:00",
-    "hash": "671b07fbf96b40fb720e4b726fedc8f79b2062e8",
-    "parents": "94bf7d52348011fa4d7ce83ebc0e98a7f2129817",
+    "date": "2024-02-12T12:04:45-08:00",
+    "hash": "509620e69ac372fa1a48f5b7fbf3a403fe1ea82f",
+    "parents": "3a773fc9fae58be023228b13dbbd402ac18eeb6b",
     "subject": "Editorial: update links to Ecma specs and update ECMA-402 descriptor (#3013)"
    }
   ],
   "title": "Editorial: update links to Ecma specs and update ECMA-402 descriptor",
-  "updated_at": "2024-02-01T02:38:29Z"
+  "updated_at": "2024-02-12T20:04:53Z"
  },
  {
   "base": "873685750986bc89a205f8afb8c63c8fa3b8ff82",
@@ -4898,34 +4898,6 @@
   ],
   "title": "Provide HostEnsureCanCompileString implementors more context",
   "updated_at": "2020-06-26T11:00:25Z"
- },
- {
-  "base": "5b90b03c560f036fd38c911ac8936be889c838e2",
-  "created_at": "2019-03-28T19:52:48Z",
-  "head": "c18d51076b7625c5499e9d12bf9e68dee171e827",
-  "login": "leobalter",
-  "number": 1493,
-  "ref": "htmlclosecomment",
-  "revs": [
-   {
-    "adate": "2020-06-19T15:10:30-07:00",
-    "author": "Leo Balter",
-    "date": "2020-06-19T15:10:30-07:00",
-    "hash": "c18d51076b7625c5499e9d12bf9e68dee171e827",
-    "parents": "b6cc8db432c117c9dee96a1a9314e56b669fb51f 5b90b03c560f036fd38c911ac8936be889c838e2",
-    "subject": "Merge branch 'master' into htmlclosecomment"
-   },
-   {
-    "adate": "2019-03-28T15:50:44-04:00",
-    "author": "Leo Balter",
-    "date": "2019-03-28T15:50:44-04:00",
-    "hash": "b6cc8db432c117c9dee96a1a9314e56b669fb51f",
-    "parents": "a09fc232c137800dbf51b6204f37fdede4ba1646",
-    "subject": "Normative: Extend specs to observe WebReality for HTMLCloseComment"
-   }
-  ],
-  "title": "Normative: Extend specs to observe WebReality for HTMLCloseComment",
-  "updated_at": "2020-06-22T16:28:02Z"
  },
  {
   "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
