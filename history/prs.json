@@ -101,26 +101,6 @@
  },
  {
   "base": "160b260705129efbfdc54dc1570f9c5c8ef09f06",
-  "created_at": "2024-01-10T19:52:23Z",
-  "head": "35c0ed4fa90dcd19690b0a30463211c393bf31da",
-  "login": "tc39",
-  "number": 3254,
-  "ref": "fix-gop-constraint",
-  "revs": [
-   {
-    "adate": "2024-01-10T11:44:06-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2024-01-10T11:44:06-08:00",
-    "hash": "35c0ed4fa90dcd19690b0a30463211c393bf31da",
-    "parents": "160b260705129efbfdc54dc1570f9c5c8ef09f06",
-    "subject": "Editorial: fix an invariant for [[GetOwnProperty]]"
-   }
-  ],
-  "title": "Editorial: fix an invariant for [[GetOwnProperty]]",
-  "updated_at": "2024-01-10T20:15:34Z"
- },
- {
-  "base": "160b260705129efbfdc54dc1570f9c5c8ef09f06",
   "created_at": "2023-12-22T02:48:35Z",
   "head": "1ee004ca55b6b72a3cc156bb6c97f652a8025d31",
   "login": "zhangenming",
@@ -138,26 +118,6 @@
   ],
   "title": "Editorial: An empty array will also return true.",
   "updated_at": "2023-12-22T02:48:35Z"
- },
- {
-  "base": "160b260705129efbfdc54dc1570f9c5c8ef09f06",
-  "created_at": "2023-12-18T17:58:12Z",
-  "head": "35c0ed1de26b8092a320d9e745e6e41452f58166",
-  "login": "nicolo-ribaudo",
-  "number": 3244,
-  "ref": "script-start-with-html-closing-comment",
-  "revs": [
-   {
-    "adate": "2023-12-18T18:50:48+01:00",
-    "author": "Nicol\u00f2 Ribaudo",
-    "date": "2023-12-18T18:50:48+01:00",
-    "hash": "35c0ed1de26b8092a320d9e745e6e41452f58166",
-    "parents": "160b260705129efbfdc54dc1570f9c5c8ef09f06",
-    "subject": "Normative: Allow Annex B scripts to start with `-->`"
-   }
-  ],
-  "title": "Normative: Allow Annex B scripts to start with `-->`",
-  "updated_at": "2023-12-18T18:06:09Z"
  },
  {
   "base": "22de3740fc90456b0381e4373eda42c979bba482",
@@ -350,26 +310,6 @@
   ],
   "title": "Editorial: Separate cover grammar text into a subsection with autolink targets",
   "updated_at": "2023-11-18T19:49:39Z"
- },
- {
-  "base": "509620e69ac372fa1a48f5b7fbf3a403fe1ea82f",
-  "created_at": "2023-11-16T01:57:48Z",
-  "head": "b07ca06615b30d327047882cd933c0d8c9cde096",
-  "login": "ptomato",
-  "number": 3222,
-  "ref": "source-text-hostensurecancompilestrings",
-  "revs": [
-   {
-    "adate": "2024-02-13T21:28:44-08:00",
-    "author": "Philip Chimento",
-    "date": "2024-02-13T21:28:44-08:00",
-    "hash": "b07ca06615b30d327047882cd933c0d8c9cde096",
-    "parents": "509620e69ac372fa1a48f5b7fbf3a403fe1ea82f",
-    "subject": "Normative: Provide source text to HostEnsureCanCompileStrings (#3222)"
-   }
-  ],
-  "title": "Normative: Provide source text to HostEnsureCanCompileStrings",
-  "updated_at": "2024-02-14T05:38:04Z"
  },
  {
   "base": "82c99bbc44e4b63e3a14ffbf0ac90ce8359c1010",
@@ -620,24 +560,24 @@
   "updated_at": "2023-10-29T03:38:14Z"
  },
  {
-  "base": "c4d32f722f8231d43ba186e4191080862b1d5293",
+  "base": "e20763a873b566cd62b3a5e45d83db19eb0a1af8",
   "created_at": "2023-10-24T16:44:50Z",
-  "head": "7cb2c1a6e6832c397564c44841a5f8b3b88ecc49",
+  "head": "82467dd84a82d8ef217d78c324d1c882c3c757d5",
   "login": "jmdyck",
   "number": 3208,
   "ref": "optional_node",
   "revs": [
    {
-    "adate": "2023-10-24T12:25:54-04:00",
+    "adate": "2024-02-14T15:36:06-08:00",
     "author": "Michael Dyck",
-    "date": "2023-10-24T12:44:06-04:00",
-    "hash": "7cb2c1a6e6832c397564c44841a5f8b3b88ecc49",
-    "parents": "c4d32f722f8231d43ba186e4191080862b1d5293",
-    "subject": "Editorial: Remove `?` from `|X?| is [not] present`"
+    "date": "2024-02-14T15:36:06-08:00",
+    "hash": "82467dd84a82d8ef217d78c324d1c882c3c757d5",
+    "parents": "e20763a873b566cd62b3a5e45d83db19eb0a1af8",
+    "subject": "Editorial: Remove `?` from `|X?| is [not] present` (#3208)"
    }
   ],
   "title": "Editorial: Remove `?` from `|X?| is [not] present`",
-  "updated_at": "2023-10-24T16:44:50Z"
+  "updated_at": "2024-02-14T23:36:16Z"
  },
  {
   "base": "82c99bbc44e4b63e3a14ffbf0ac90ce8359c1010",
@@ -3074,26 +3014,6 @@
   ],
   "title": "Editorial: Improve integer index operations",
   "updated_at": "2023-02-13T17:15:08Z"
- },
- {
-  "base": "442be61b5a229986649b127da09eeeada56fef72",
-  "created_at": "2022-10-09T20:06:53Z",
-  "head": "d79ed0a42e4abad6390263d807dec25b7f86a9e0",
-  "login": "tc39",
-  "number": 2931,
-  "ref": "evaluation-empty-static-block",
-  "revs": [
-   {
-    "adate": "2022-10-09T12:41:43-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2022-10-09T13:02:52-07:00",
-    "hash": "d79ed0a42e4abad6390263d807dec25b7f86a9e0",
-    "parents": "7043389bf409839a0129c89cd23a43ca02b25067",
-    "subject": "Editorial: EvaluateClassStaticBlockBody cannot throw during function instantiation"
-   }
-  ],
-  "title": "Editorial: EvaluateClassStaticBlockBody cannot throw during function instantiation",
-  "updated_at": "2022-10-09T20:09:20Z"
  },
  {
   "base": "ee74c9cb74dbfa23e62b486f5226102c345c678e",
