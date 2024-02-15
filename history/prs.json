@@ -1,23 +1,43 @@
 [
  {
-  "base": "82467dd84a82d8ef217d78c324d1c882c3c757d5",
+  "base": "44bb0e0dc7ddc8a0a8f9968536a57da7159f60dc",
+  "created_at": "2024-02-15T20:18:43Z",
+  "head": "bef64b34900efa7034165fdcff9ad26bad385fab",
+  "login": "tc39",
+  "number": 3281,
+  "ref": "suppress-effects-islessthan",
+  "revs": [
+   {
+    "adate": "2024-02-15T12:16:08-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2024-02-15T12:16:14-08:00",
+    "hash": "bef64b34900efa7034165fdcff9ad26bad385fab",
+    "parents": "44bb0e0dc7ddc8a0a8f9968536a57da7159f60dc",
+    "subject": "Markup: coercing primtives to numerics is not user code in IsLessThan"
+   }
+  ],
+  "title": "Markup: coercing primtives to numerics is not user code in IsLessThan",
+  "updated_at": "2024-02-15T20:18:43Z"
+ },
+ {
+  "base": "1b4c6df0392936e9e82c68df6f83244e9b5bfbdd",
   "created_at": "2024-02-15T03:58:54Z",
-  "head": "19e1499bfee51f0ecf0252f5c8d2cb6834435042",
+  "head": "c6524f80fb989bcd0bc6d2671c073ce98174294b",
   "login": "ljharb",
   "number": 3279,
   "ref": "remove-create-method-property",
   "revs": [
    {
-    "adate": "2024-02-14T19:57:03-08:00",
+    "adate": "2024-02-15T12:25:31-08:00",
     "author": "Jordan Harband",
-    "date": "2024-02-14T19:57:03-08:00",
-    "hash": "19e1499bfee51f0ecf0252f5c8d2cb6834435042",
-    "parents": "82467dd84a82d8ef217d78c324d1c882c3c757d5",
-    "subject": "Editorial: replace the only instance of CreateMethodProperty with DefineMethodProperty"
+    "date": "2024-02-15T12:25:31-08:00",
+    "hash": "c6524f80fb989bcd0bc6d2671c073ce98174294b",
+    "parents": "1b4c6df0392936e9e82c68df6f83244e9b5bfbdd",
+    "subject": "Editorial: replace the only instance of CreateMethodProperty with DefineMethodProperty (#3279)"
    }
   ],
   "title": "Editorial: replace the only instance of CreateMethodProperty with DefineMethodProperty",
-  "updated_at": "2024-02-15T03:58:54Z"
+  "updated_at": "2024-02-15T20:25:45Z"
  },
  {
   "base": "82467dd84a82d8ef217d78c324d1c882c3c757d5",
@@ -934,26 +954,6 @@
   ],
   "title": "Editorial: Fix a couple of inconsistencies",
   "updated_at": "2023-12-14T00:37:34Z"
- },
- {
-  "base": "82467dd84a82d8ef217d78c324d1c882c3c757d5",
-  "created_at": "2023-09-15T17:36:25Z",
-  "head": "44bb0e0dc7ddc8a0a8f9968536a57da7159f60dc",
-  "login": "ljharb",
-  "number": 3175,
-  "ref": "transfer",
-  "revs": [
-   {
-    "adate": "2024-02-14T18:57:23-08:00",
-    "author": "Jordan Harband",
-    "date": "2024-02-14T18:57:23-08:00",
-    "hash": "44bb0e0dc7ddc8a0a8f9968536a57da7159f60dc",
-    "parents": "82467dd84a82d8ef217d78c324d1c882c3c757d5",
-    "subject": "Normative: add ArrayBuffer.prototype.{detached,transfer,transferToFixedLength} (#3175)"
-   }
-  ],
-  "title": "Normative: add ArrayBuffer.prototype.{detached,transfer,transferToFixedLength}",
-  "updated_at": "2024-02-15T02:57:32Z"
  },
  {
   "base": "c316ec72f6e227d88d4ef67a3e16b486c5ca356d",
@@ -3390,34 +3390,6 @@
   ],
   "title": "Editorial: Fix completion in GeneratorStart",
   "updated_at": "2022-07-07T08:40:27Z"
- },
- {
-  "base": "b34e0d9570477a4db2f6b945344115627bf84bbe",
-  "created_at": "2022-07-07T07:28:05Z",
-  "head": "a5c7b837026ac259f2627b0362d5e25046a00bdf",
-  "login": "h2oche",
-  "number": 2814,
-  "ref": "DefineMethodProperty",
-  "revs": [
-   {
-    "adate": "2024-02-14T16:58:02-08:00",
-    "author": "Shu-yu Guo",
-    "date": "2024-02-14T16:58:02-08:00",
-    "hash": "a5c7b837026ac259f2627b0362d5e25046a00bdf",
-    "parents": "d3d69e4c8eb7866612f43e862956c3015f954fe9",
-    "subject": "Add note and fix incorrect assert."
-   },
-   {
-    "adate": "2022-07-07T16:00:49+09:00",
-    "author": "h2oche",
-    "date": "2022-07-07T16:08:51+09:00",
-    "hash": "d3d69e4c8eb7866612f43e862956c3015f954fe9",
-    "parents": "e61fbe1162d3b6b80848c3535cece3e36f4c08fb",
-    "subject": "Editorial: Fix wrong assertion in 'DefineMethodProperty'"
-   }
-  ],
-  "title": "Editorial: Fix wrong assertion in 'DefineMethodProperty'",
-  "updated_at": "2024-02-15T01:25:47Z"
  },
  {
   "base": "f0e4ae8d31afbad55f03d423c200d7d7467ca49a",
