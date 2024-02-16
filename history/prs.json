@@ -2,11 +2,19 @@
  {
   "base": "1b4c6df0392936e9e82c68df6f83244e9b5bfbdd",
   "created_at": "2024-02-16T19:25:19Z",
-  "head": "88b109321f211667fe9a624143c2b526be45be97",
+  "head": "e633796c7426366cc706ae29eb46c46f95d57286",
   "login": "tc39",
   "number": 3282,
   "ref": "describe-2024",
   "revs": [
+   {
+    "adate": "2024-02-16T12:21:50-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2024-02-16T12:21:50-08:00",
+    "hash": "e633796c7426366cc706ae29eb46c46f95d57286",
+    "parents": "88b109321f211667fe9a624143c2b526be45be97",
+    "subject": "apply suggestion"
+   },
    {
     "adate": "2024-02-16T11:19:39-08:00",
     "author": "Kevin Gibbons",
@@ -17,7 +25,7 @@
    }
   ],
   "title": "Editorial: Describe changes in es2024",
-  "updated_at": "2024-02-16T19:25:30Z"
+  "updated_at": "2024-02-16T20:28:50Z"
  },
  {
   "base": "44bb0e0dc7ddc8a0a8f9968536a57da7159f60dc",
