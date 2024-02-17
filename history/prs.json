@@ -1,74 +1,6 @@
 [
  {
   "base": "1b4c6df0392936e9e82c68df6f83244e9b5bfbdd",
-  "created_at": "2024-02-16T19:25:19Z",
-  "head": "e633796c7426366cc706ae29eb46c46f95d57286",
-  "login": "tc39",
-  "number": 3282,
-  "ref": "describe-2024",
-  "revs": [
-   {
-    "adate": "2024-02-16T12:21:50-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2024-02-16T12:21:50-08:00",
-    "hash": "e633796c7426366cc706ae29eb46c46f95d57286",
-    "parents": "88b109321f211667fe9a624143c2b526be45be97",
-    "subject": "apply suggestion"
-   },
-   {
-    "adate": "2024-02-16T11:19:39-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2024-02-16T11:23:51-08:00",
-    "hash": "88b109321f211667fe9a624143c2b526be45be97",
-    "parents": "1b4c6df0392936e9e82c68df6f83244e9b5bfbdd",
-    "subject": "Editorial: Describe changes in es2024"
-   }
-  ],
-  "title": "Editorial: Describe changes in es2024",
-  "updated_at": "2024-02-16T20:28:50Z"
- },
- {
-  "base": "44bb0e0dc7ddc8a0a8f9968536a57da7159f60dc",
-  "created_at": "2024-02-15T20:18:43Z",
-  "head": "bef64b34900efa7034165fdcff9ad26bad385fab",
-  "login": "tc39",
-  "number": 3281,
-  "ref": "suppress-effects-islessthan",
-  "revs": [
-   {
-    "adate": "2024-02-15T12:16:08-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2024-02-15T12:16:14-08:00",
-    "hash": "bef64b34900efa7034165fdcff9ad26bad385fab",
-    "parents": "44bb0e0dc7ddc8a0a8f9968536a57da7159f60dc",
-    "subject": "Markup: coercing primtives to numerics is not user code in IsLessThan"
-   }
-  ],
-  "title": "Markup: coercing primtives to numerics is not user code in IsLessThan",
-  "updated_at": "2024-02-15T20:18:43Z"
- },
- {
-  "base": "1b4c6df0392936e9e82c68df6f83244e9b5bfbdd",
-  "created_at": "2024-02-15T03:58:54Z",
-  "head": "c6524f80fb989bcd0bc6d2671c073ce98174294b",
-  "login": "ljharb",
-  "number": 3279,
-  "ref": "remove-create-method-property",
-  "revs": [
-   {
-    "adate": "2024-02-15T12:25:31-08:00",
-    "author": "Jordan Harband",
-    "date": "2024-02-15T12:25:31-08:00",
-    "hash": "c6524f80fb989bcd0bc6d2671c073ce98174294b",
-    "parents": "1b4c6df0392936e9e82c68df6f83244e9b5bfbdd",
-    "subject": "Editorial: replace the only instance of CreateMethodProperty with DefineMethodProperty (#3279)"
-   }
-  ],
-  "title": "Editorial: replace the only instance of CreateMethodProperty with DefineMethodProperty",
-  "updated_at": "2024-02-15T20:25:45Z"
- },
- {
-  "base": "1b4c6df0392936e9e82c68df6f83244e9b5bfbdd",
   "created_at": "2024-02-15T03:49:38Z",
   "head": "d32a12e3d53c8efbd0f76da45871c2d7f4631bfa",
   "login": "tc39",
@@ -188,24 +120,24 @@
   "updated_at": "2024-01-23T02:32:40Z"
  },
  {
-  "base": "160b260705129efbfdc54dc1570f9c5c8ef09f06",
+  "base": "d502ea4acdde7e89a7e042dcc4e9123c6c75f476",
   "created_at": "2023-12-22T02:48:35Z",
-  "head": "1ee004ca55b6b72a3cc156bb6c97f652a8025d31",
+  "head": "c2f7b718f750fea0331c0b3e581d0952f1575c01",
   "login": "zhangenming",
   "number": 3246,
   "ref": "fix_Every",
   "revs": [
    {
-    "adate": "2023-12-22T10:44:40+08:00",
+    "adate": "2024-02-17T09:23:12-08:00",
     "author": "zhangenming",
-    "date": "2023-12-22T10:47:33+08:00",
-    "hash": "1ee004ca55b6b72a3cc156bb6c97f652a8025d31",
-    "parents": "160b260705129efbfdc54dc1570f9c5c8ef09f06",
-    "subject": "Editorial: An empty array will also return true."
+    "date": "2024-02-17T09:23:12-08:00",
+    "hash": "c2f7b718f750fea0331c0b3e581d0952f1575c01",
+    "parents": "d502ea4acdde7e89a7e042dcc4e9123c6c75f476",
+    "subject": "Editorial: simplify note for `Array.prototype.every` (#3246)"
    }
   ],
-  "title": "Editorial: An empty array will also return true.",
-  "updated_at": "2023-12-22T02:48:35Z"
+  "title": "Editorial: simplify note for `Array.prototype.every`",
+  "updated_at": "2024-02-17T17:26:05Z"
  },
  {
   "base": "22de3740fc90456b0381e4373eda42c979bba482",
