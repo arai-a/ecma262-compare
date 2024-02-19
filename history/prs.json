@@ -1,23 +1,23 @@
 [
  {
-  "base": "d502ea4acdde7e89a7e042dcc4e9123c6c75f476",
-  "created_at": "2024-02-18T22:11:30Z",
-  "head": "5188ef1afd1de7bacec5bea700885e4400fed592",
+  "base": "80de2f941e2a31df838422c59eb8772ae2f7d28f",
+  "created_at": "2024-02-19T20:34:21Z",
+  "head": "db0d1ae916b79ce687a069553c2faced489c57ec",
   "login": "ljharb",
-  "number": 3283,
-  "ref": "oldid",
+  "number": 3285,
+  "ref": "link",
   "revs": [
    {
-    "adate": "2024-02-18T14:10:51-08:00",
+    "adate": "2024-02-19T12:38:23-08:00",
     "author": "Jordan Harband",
-    "date": "2024-02-18T14:10:51-08:00",
-    "hash": "5188ef1afd1de7bacec5bea700885e4400fed592",
-    "parents": "d502ea4acdde7e89a7e042dcc4e9123c6c75f476",
-    "subject": "Markup: add missing oldID from #3279"
+    "date": "2024-02-19T12:38:23-08:00",
+    "hash": "db0d1ae916b79ce687a069553c2faced489c57ec",
+    "parents": "80de2f941e2a31df838422c59eb8772ae2f7d28f",
+    "subject": "Markup: fix SAB toStringTag section ID (#3285)"
    }
   ],
-  "title": "Markup: add missing oldID from #3279",
-  "updated_at": "2024-02-18T22:37:06Z"
+  "title": "Markup: fix SAB toStringTag section ID",
+  "updated_at": "2024-02-19T20:39:04Z"
  },
  {
   "base": "1b4c6df0392936e9e82c68df6f83244e9b5bfbdd",
@@ -138,26 +138,6 @@
   ],
   "title": "Editorial: Eliminate 6 `<p>` elements that say when to apply early error rules",
   "updated_at": "2024-01-23T02:32:40Z"
- },
- {
-  "base": "d502ea4acdde7e89a7e042dcc4e9123c6c75f476",
-  "created_at": "2023-12-22T02:48:35Z",
-  "head": "c2f7b718f750fea0331c0b3e581d0952f1575c01",
-  "login": "zhangenming",
-  "number": 3246,
-  "ref": "fix_Every",
-  "revs": [
-   {
-    "adate": "2024-02-17T09:23:12-08:00",
-    "author": "zhangenming",
-    "date": "2024-02-17T09:23:12-08:00",
-    "hash": "c2f7b718f750fea0331c0b3e581d0952f1575c01",
-    "parents": "d502ea4acdde7e89a7e042dcc4e9123c6c75f476",
-    "subject": "Editorial: simplify note for `Array.prototype.every` (#3246)"
-   }
-  ],
-  "title": "Editorial: simplify note for `Array.prototype.every`",
-  "updated_at": "2024-02-17T17:26:05Z"
  },
  {
   "base": "22de3740fc90456b0381e4373eda42c979bba482",
