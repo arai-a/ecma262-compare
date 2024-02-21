@@ -1,45 +1,5 @@
 [
  {
-  "base": "80de2f941e2a31df838422c59eb8772ae2f7d28f",
-  "created_at": "2024-02-19T20:34:21Z",
-  "head": "db0d1ae916b79ce687a069553c2faced489c57ec",
-  "login": "ljharb",
-  "number": 3285,
-  "ref": "link",
-  "revs": [
-   {
-    "adate": "2024-02-19T12:38:23-08:00",
-    "author": "Jordan Harband",
-    "date": "2024-02-19T12:38:23-08:00",
-    "hash": "db0d1ae916b79ce687a069553c2faced489c57ec",
-    "parents": "80de2f941e2a31df838422c59eb8772ae2f7d28f",
-    "subject": "Markup: fix SAB toStringTag section ID (#3285)"
-   }
-  ],
-  "title": "Markup: fix SAB toStringTag section ID",
-  "updated_at": "2024-02-19T20:39:04Z"
- },
- {
-  "base": "1b4c6df0392936e9e82c68df6f83244e9b5bfbdd",
-  "created_at": "2024-02-15T03:49:38Z",
-  "head": "d32a12e3d53c8efbd0f76da45871c2d7f4631bfa",
-  "login": "tc39",
-  "number": 3278,
-  "ref": "ctcpip-patch-1",
-  "revs": [
-   {
-    "adate": "2024-02-14T21:49:05-06:00",
-    "author": "Chris de Almeida",
-    "date": "2024-02-16T12:21:53-06:00",
-    "hash": "d32a12e3d53c8efbd0f76da45871c2d7f4631bfa",
-    "parents": "1b4c6df0392936e9e82c68df6f83244e9b5bfbdd",
-    "subject": "fix ecma text copyright link"
-   }
-  ],
-  "title": "fix ecma text copyright link",
-  "updated_at": "2024-02-16T18:22:45Z"
- },
- {
   "base": "6d7aa1b57f4b3390000d939fdc1920046b81d938",
   "created_at": "2024-01-31T16:52:55Z",
   "head": "2647c17b348f9e14e82f778b216443c5a41e60cb",
@@ -140,61 +100,9 @@
   "updated_at": "2024-01-23T02:32:40Z"
  },
  {
-  "base": "22de3740fc90456b0381e4373eda42c979bba482",
-  "created_at": "2023-12-05T23:58:54Z",
-  "head": "96d7e7fa4ec96cc0594ae6349b8e2a9ab54972d0",
-  "login": "arai-a",
-  "number": 3238,
-  "ref": "generator-prototype-intrinsic",
-  "revs": [
-   {
-    "adate": "2024-01-12T21:32:29+09:00",
-    "author": "Tooru Fujisawa",
-    "date": "2024-01-13T16:22:51+09:00",
-    "hash": "96d7e7fa4ec96cc0594ae6349b8e2a9ab54972d0",
-    "parents": "9215756d71646ddff388b37f786409e6fffd1137",
-    "subject": "Update Generator Objects Relationships figure"
-   },
-   {
-    "adate": "2023-12-06T08:43:53+09:00",
-    "author": "Tooru Fujisawa",
-    "date": "2024-01-13T16:22:44+09:00",
-    "hash": "9215756d71646ddff388b37f786409e6fffd1137",
-    "parents": "5c95a91644ecd0b293babca80f71429de66aeabb",
-    "subject": "Clarify the relation between Generator and generator function"
-   },
-   {
-    "adate": "2024-01-13T16:22:43+09:00",
-    "author": "Tooru Fujisawa",
-    "date": "2024-01-13T16:22:43+09:00",
-    "hash": "5c95a91644ecd0b293babca80f71429de66aeabb",
-    "parents": "b2c7d765fd775bbf90acc0b010db8d5b8f5e7ce0",
-    "subject": "Use \"generator function\" instead of \"generator\" for GeneratorFunction instances"
-   },
-   {
-    "adate": "2024-01-13T16:21:06+09:00",
-    "author": "Tooru Fujisawa",
-    "date": "2024-01-13T16:21:06+09:00",
-    "hash": "b2c7d765fd775bbf90acc0b010db8d5b8f5e7ce0",
-    "parents": "446cb7a111432e04306353f27b02eec0642b83b7",
-    "subject": "Add %AsyncGeneratorPrototype% well-known intrinsic and use it instead of AsyncGenerator.prototype"
-   },
-   {
-    "adate": "2024-01-13T16:19:53+09:00",
-    "author": "Tooru Fujisawa",
-    "date": "2024-01-13T16:19:53+09:00",
-    "hash": "446cb7a111432e04306353f27b02eec0642b83b7",
-    "parents": "22de3740fc90456b0381e4373eda42c979bba482",
-    "subject": "Add %GeneratorPrototype% well-known intrinsic and use it instead of Generator.prototype (#3230)"
-   }
-  ],
-  "title": "Editorial: Add %GeneratorPrototype% and %AsyncGeneratorPrototype% well-known intrinsics (#3230)",
-  "updated_at": "2024-01-13T07:23:28Z"
- },
- {
-  "base": "03e44104d41bb64c29fa5cf0937b5e62de94f98a",
+  "base": "fdde1c9051a76b579610ba2756e16772018effd6",
   "created_at": "2023-12-03T22:18:40Z",
-  "head": "1d598b7282b22da396420ffef4cd5b18f0f1f1b3",
+  "head": "ea93ad08c2b1d6ddacbcc597c1ccf2d8b7fa1efa",
   "login": "arai-a",
   "number": 3236,
   "ref": "well-known",
@@ -202,14 +110,14 @@
    {
     "adate": "2023-12-04T07:18:18+09:00",
     "author": "Tooru Fujisawa",
-    "date": "2023-12-04T07:18:18+09:00",
-    "hash": "1d598b7282b22da396420ffef4cd5b18f0f1f1b3",
-    "parents": "03e44104d41bb64c29fa5cf0937b5e62de94f98a",
+    "date": "2024-02-21T16:27:52-07:00",
+    "hash": "ea93ad08c2b1d6ddacbcc597c1ccf2d8b7fa1efa",
+    "parents": "fdde1c9051a76b579610ba2756e16772018effd6",
     "subject": "Editorial: Use \"well-known symbol\" term consistently (#3231)"
    }
   ],
   "title": "Editorial: Use \"well-known symbol\" term consistently (#3231)",
-  "updated_at": "2023-12-03T22:19:34Z"
+  "updated_at": "2024-02-21T23:29:35Z"
  },
  {
   "base": "03e44104d41bb64c29fa5cf0937b5e62de94f98a",
@@ -870,50 +778,6 @@
   ],
   "title": "\ud83d\udd25 remove health files (fallback to .github)",
   "updated_at": "2023-09-22T21:30:49Z"
- },
- {
-  "base": "160b260705129efbfdc54dc1570f9c5c8ef09f06",
-  "created_at": "2023-09-21T14:39:02Z",
-  "head": "15ad0cfc313b243f913b260c6129779a8e4e2323",
-  "login": "linusg",
-  "number": 3181,
-  "ref": "fix-inconsistencies",
-  "revs": [
-   {
-    "adate": "2023-09-21T15:33:41+01:00",
-    "author": "Linus Groh",
-    "date": "2023-12-13T23:51:51+00:00",
-    "hash": "15ad0cfc313b243f913b260c6129779a8e4e2323",
-    "parents": "8687ede198263fec2f529e300a433be9538ef0dc",
-    "subject": "Editorial: Bring {%TA%,Array}#join() and Array#toLocaleString() in sync"
-   },
-   {
-    "adate": "2023-09-21T15:23:19+01:00",
-    "author": "Linus Groh",
-    "date": "2023-12-13T23:46:50+00:00",
-    "hash": "8687ede198263fec2f529e300a433be9538ef0dc",
-    "parents": "cb6a2ae3e04315fa8de52414cbc0610f447222c3",
-    "subject": "Editorial: Deduplicate ToString(\ud835\udd3d(k)) in Array#{indexOf,lastIndexOf}()"
-   },
-   {
-    "adate": "2023-09-21T15:21:04+01:00",
-    "author": "Linus Groh",
-    "date": "2023-12-13T23:46:49+00:00",
-    "hash": "cb6a2ae3e04315fa8de52414cbc0610f447222c3",
-    "parents": "c29c26ea8dfb3324b48f209e0bc4b1d0e144bcbd",
-    "subject": "Editorial: Rename fromVal to fromValue in Array#{copyWithin,shift}()"
-   },
-   {
-    "adate": "2023-09-21T15:18:53+01:00",
-    "author": "Linus Groh",
-    "date": "2023-12-13T23:46:49+00:00",
-    "hash": "c29c26ea8dfb3324b48f209e0bc4b1d0e144bcbd",
-    "parents": "160b260705129efbfdc54dc1570f9c5c8ef09f06",
-    "subject": "Editorial: Compare tv against NaN in Date.prototype.toISOString()"
-   }
-  ],
-  "title": "Editorial: Fix a couple of inconsistencies",
-  "updated_at": "2023-12-14T00:37:34Z"
  },
  {
   "base": "c316ec72f6e227d88d4ef67a3e16b486c5ca356d",
