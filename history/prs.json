@@ -40,29 +40,9 @@
   "updated_at": "2024-01-31T19:02:18Z"
  },
  {
-  "base": "94bf7d52348011fa4d7ce83ebc0e98a7f2129817",
-  "created_at": "2024-01-26T17:00:00Z",
-  "head": "65b2a5fb04714abdd020e723f06df1668a6143d7",
-  "login": "tc39",
-  "number": 3272,
-  "ref": "binary64",
-  "revs": [
-   {
-    "adate": "2024-01-26T09:52:23-07:00",
-    "author": "Michael Ficarra",
-    "date": "2024-01-31T19:37:00-07:00",
-    "hash": "65b2a5fb04714abdd020e723f06df1668a6143d7",
-    "parents": "94bf7d52348011fa4d7ce83ebc0e98a7f2129817",
-    "subject": "refer to binary64 by their official name in more places"
-   }
-  ],
-  "title": "Editorial: refer to binary64 values by their official name in more places",
-  "updated_at": "2024-02-01T02:37:02Z"
- },
- {
-  "base": "94bf7d52348011fa4d7ce83ebc0e98a7f2129817",
+  "base": "f012b38779e8399191e25e82fe797cc9374f4288",
   "created_at": "2024-01-26T16:50:18Z",
-  "head": "c0b6e259a1d750141a26c851fbc39d50f19835e7",
+  "head": "8a744efbf191942b9c3f4ae68a1f7fee0a7dded1",
   "login": "tc39",
   "number": 3271,
   "ref": "maths-ops-reorg",
@@ -70,54 +50,14 @@
    {
     "adate": "2024-01-26T09:43:45-07:00",
     "author": "Michael Ficarra",
-    "date": "2024-01-31T19:36:40-07:00",
-    "hash": "c0b6e259a1d750141a26c851fbc39d50f19835e7",
-    "parents": "94bf7d52348011fa4d7ce83ebc0e98a7f2129817",
+    "date": "2024-02-21T17:39:44-07:00",
+    "hash": "8a744efbf191942b9c3f4ae68a1f7fee0a7dded1",
+    "parents": "f012b38779e8399191e25e82fe797cc9374f4288",
     "subject": "reorganise the mathematical operations section a bit"
    }
   ],
   "title": "Editorial: reorganise the mathematical operations section a bit",
-  "updated_at": "2024-02-01T02:36:42Z"
- },
- {
-  "base": "8dafd76d8a018bdec038885b1dfcd4565e413c1f",
-  "created_at": "2024-01-23T02:32:40Z",
-  "head": "3846b66aebfc70d5bd2dfdc6a4ce8fabf7c926f9",
-  "login": "jmdyck",
-  "number": 3266,
-  "ref": "kludgey_p",
-  "revs": [
-   {
-    "adate": "2024-01-22T21:13:55-05:00",
-    "author": "Michael Dyck",
-    "date": "2024-01-22T21:13:55-05:00",
-    "hash": "3846b66aebfc70d5bd2dfdc6a4ce8fabf7c926f9",
-    "parents": "8dafd76d8a018bdec038885b1dfcd4565e413c1f",
-    "subject": "Editorial: Consistify early error rules"
-   }
-  ],
-  "title": "Editorial: Eliminate 6 `<p>` elements that say when to apply early error rules",
-  "updated_at": "2024-01-23T02:32:40Z"
- },
- {
-  "base": "fdde1c9051a76b579610ba2756e16772018effd6",
-  "created_at": "2023-12-03T22:18:40Z",
-  "head": "ea93ad08c2b1d6ddacbcc597c1ccf2d8b7fa1efa",
-  "login": "arai-a",
-  "number": 3236,
-  "ref": "well-known",
-  "revs": [
-   {
-    "adate": "2023-12-04T07:18:18+09:00",
-    "author": "Tooru Fujisawa",
-    "date": "2024-02-21T16:27:52-07:00",
-    "hash": "ea93ad08c2b1d6ddacbcc597c1ccf2d8b7fa1efa",
-    "parents": "fdde1c9051a76b579610ba2756e16772018effd6",
-    "subject": "Editorial: Use \"well-known symbol\" term consistently (#3231)"
-   }
-  ],
-  "title": "Editorial: Use \"well-known symbol\" term consistently (#3231)",
-  "updated_at": "2024-02-21T23:29:35Z"
+  "updated_at": "2024-02-22T00:39:46Z"
  },
  {
   "base": "03e44104d41bb64c29fa5cf0937b5e62de94f98a",
@@ -486,58 +426,6 @@
   ],
   "title": "Editorial: Introduce IsStrict() abstract operation",
   "updated_at": "2023-10-29T03:38:14Z"
- },
- {
-  "base": "82c99bbc44e4b63e3a14ffbf0ac90ce8359c1010",
-  "created_at": "2023-10-20T17:08:23Z",
-  "head": "8e8ccffc693110c3a5fa95077fc010de84ffcd99",
-  "login": "jmdyck",
-  "number": 3206,
-  "ref": "SameValue",
-  "revs": [
-   {
-    "adate": "2023-11-07T12:13:12-05:00",
-    "author": "Michael Dyck",
-    "date": "2023-11-07T14:40:38-05:00",
-    "hash": "8e8ccffc693110c3a5fa95077fc010de84ffcd99",
-    "parents": "38de78ae8c75290f9823034a0dd28f62ece9a7ac",
-    "subject": "Change `is` to `are the same X Record` for comparison of Records"
-   },
-   {
-    "adate": "2023-11-07T10:56:54-05:00",
-    "author": "Michael Dyck",
-    "date": "2023-11-07T14:40:38-05:00",
-    "hash": "38de78ae8c75290f9823034a0dd28f62ece9a7ac",
-    "parents": "51a2f3a39e4f4026162f0172e42f79a9653a0080",
-    "subject": "Change `is` to `=` for comparison of math values"
-   },
-   {
-    "adate": "2023-11-06T22:31:54-05:00",
-    "author": "Michael Dyck",
-    "date": "2023-11-07T14:40:38-05:00",
-    "hash": "51a2f3a39e4f4026162f0172e42f79a9653a0080",
-    "parents": "9135c3a2b51b9689a22dadaac8b0efec626c80fb",
-    "subject": "Change `is` to `=` for comparison of BigInts"
-   },
-   {
-    "adate": "2023-11-06T22:23:50-05:00",
-    "author": "Michael Dyck",
-    "date": "2023-11-07T14:40:33-05:00",
-    "hash": "9135c3a2b51b9689a22dadaac8b0efec626c80fb",
-    "parents": "955bb8d9426c5557676fbc779a29b775578cab10",
-    "subject": "Change `SameValue` to `is` for comparison of Number values"
-   },
-   {
-    "adate": "2023-10-20T12:27:59-04:00",
-    "author": "Michael Dyck",
-    "date": "2023-11-07T14:38:15-05:00",
-    "hash": "955bb8d9426c5557676fbc779a29b775578cab10",
-    "parents": "ea5ee21f74f996bbb127dbb8dfb2a7f17953daf3",
-    "subject": "Change `SameValue` to `is` for comparison of String values"
-   }
-  ],
-  "title": "Editorial: More changes for comparisons",
-  "updated_at": "2023-11-07T19:45:47Z"
  },
  {
   "base": "5eaee2f3c52bd2d46b7d286537e5da5baf16d002",
@@ -1826,42 +1714,6 @@
   ],
   "title": "Better iterator close",
   "updated_at": "2023-05-25T23:43:21Z"
- },
- {
-  "base": "9abd594ecc5d6ed5317bc276b1854d3a1f9763ff",
-  "created_at": "2023-05-25T09:52:44Z",
-  "head": "4059ed8150d510ad46d492b0860efce1cdad8ae3",
-  "login": "mathiasbynens",
-  "number": 3074,
-  "ref": "unicode-15.1.0",
-  "revs": [
-   {
-    "adate": "2023-09-15T09:01:45+02:00",
-    "author": "Mathias Bynens",
-    "date": "2023-09-15T09:01:45+02:00",
-    "hash": "4059ed8150d510ad46d492b0860efce1cdad8ae3",
-    "parents": "0cbb3ad856b92a0955d881b9096ef2e6846a03b2",
-    "subject": "Remove table"
-   },
-   {
-    "adate": "2023-09-15T08:27:12+02:00",
-    "author": "Mathias Bynens",
-    "date": "2023-09-15T08:27:12+02:00",
-    "hash": "0cbb3ad856b92a0955d881b9096ef2e6846a03b2",
-    "parents": "7da6d370fa7e00051acea94eced90f12bc7e80ed 9abd594ecc5d6ed5317bc276b1854d3a1f9763ff",
-    "subject": "Merge branch 'main' into unicode-15.1.0"
-   },
-   {
-    "adate": "2023-05-25T11:50:22+02:00",
-    "author": "Mathias Bynens",
-    "date": "2023-05-25T11:50:22+02:00",
-    "hash": "7da6d370fa7e00051acea94eced90f12bc7e80ed",
-    "parents": "055116da1aff2a578d9e61769aa64d30ca1415b8",
-    "subject": "Editorial: Remove special-casing of U+200C and U+200D"
-   }
-  ],
-  "title": "Editorial: Remove special-casing of U+200C and U+200D",
-  "updated_at": "2023-09-15T07:02:21Z"
  },
  {
   "base": "25f974416faad6b307defba8b31bf72784c9c545",
