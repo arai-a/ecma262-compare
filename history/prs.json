@@ -318,11 +318,19 @@
  {
   "base": "f012b38779e8399191e25e82fe797cc9374f4288",
   "created_at": "2023-10-29T03:33:26Z",
-  "head": "5d560e0456f3ff40742cd36e4ddb89be24a833fa",
+  "head": "f90667f03782aead105216b110ebfa232e23de66",
   "login": "jmdyck",
   "number": 3210,
   "ref": "SDO",
   "revs": [
+   {
+    "adate": "2024-02-28T15:04:56-05:00",
+    "author": "Michael Dyck",
+    "date": "2024-02-28T15:04:56-05:00",
+    "hash": "f90667f03782aead105216b110ebfa232e23de66",
+    "parents": "5d560e0456f3ff40742cd36e4ddb89be24a833fa",
+    "subject": "fixup: In example, remove \"the\" before \"VarDeclaredNames\""
+   },
    {
     "adate": "2024-02-28T14:15:23-05:00",
     "author": "Michael Dyck",
@@ -421,7 +429,7 @@
    }
   ],
   "title": "Editorial: Expand the \"Syntax-Directed Operations\" section",
-  "updated_at": "2024-02-28T19:24:30Z"
+  "updated_at": "2024-02-28T20:18:50Z"
  },
  {
   "base": "3d7c44ce70b987fdda2c108a942d9fc2f60b0b21",
