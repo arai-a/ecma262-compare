@@ -40,24 +40,24 @@
   "updated_at": "2024-03-07T15:36:34Z"
  },
  {
-  "base": "ae080b8a02a8ab58980219165378001607106b67",
+  "base": "80c4419202b4ce213d30a9e6003b8b92a913edb4",
   "created_at": "2024-03-04T01:33:58Z",
-  "head": "55588cc97a5424864ac47196dac91321e9770ec3",
+  "head": "21aa00e90b505bb7c5d6314e37538b9037d2b33a",
   "login": "drakedevel",
   "number": 3292,
   "ref": "error-message-intro",
   "revs": [
    {
-    "adate": "2024-03-03T17:05:39-08:00",
+    "adate": "2024-03-20T16:06:22-07:00",
     "author": "Andrew Drake",
-    "date": "2024-03-03T17:09:53-08:00",
-    "hash": "55588cc97a5424864ac47196dac91321e9770ec3",
-    "parents": "ae080b8a02a8ab58980219165378001607106b67",
-    "subject": "Editorial: Remove \"message\" property from list of Error differences"
+    "date": "2024-03-20T16:06:22-07:00",
+    "hash": "21aa00e90b505bb7c5d6314e37538b9037d2b33a",
+    "parents": "80c4419202b4ce213d30a9e6003b8b92a913edb4",
+    "subject": "Editorial: Remove \"message\" property from list of Error differences (#3292)"
    }
   ],
   "title": "Editorial: Remove \"message\" property from list of Error differences",
-  "updated_at": "2024-03-04T01:33:58Z"
+  "updated_at": "2024-03-20T23:09:53Z"
  },
  {
   "base": "f012b38779e8399191e25e82fe797cc9374f4288",
@@ -118,26 +118,6 @@
   ],
   "title": "Editorial: Return created EC from InitializeHostDefinedRealm",
   "updated_at": "2024-03-06T23:19:46Z"
- },
- {
-  "base": "f012b38779e8399191e25e82fe797cc9374f4288",
-  "created_at": "2024-01-26T16:50:18Z",
-  "head": "8a744efbf191942b9c3f4ae68a1f7fee0a7dded1",
-  "login": "tc39",
-  "number": 3271,
-  "ref": "maths-ops-reorg",
-  "revs": [
-   {
-    "adate": "2024-01-26T09:43:45-07:00",
-    "author": "Michael Ficarra",
-    "date": "2024-02-21T17:39:44-07:00",
-    "hash": "8a744efbf191942b9c3f4ae68a1f7fee0a7dded1",
-    "parents": "f012b38779e8399191e25e82fe797cc9374f4288",
-    "subject": "reorganise the mathematical operations section a bit"
-   }
-  ],
-  "title": "Editorial: reorganise the mathematical operations section a bit",
-  "updated_at": "2024-02-22T00:39:46Z"
  },
  {
   "base": "03e44104d41bb64c29fa5cf0937b5e62de94f98a",
@@ -470,58 +450,6 @@
   ],
   "title": "Editorial: Expand the \"Syntax-Directed Operations\" section",
   "updated_at": "2024-02-28T20:18:50Z"
- },
- {
-  "base": "3d7c44ce70b987fdda2c108a942d9fc2f60b0b21",
-  "created_at": "2023-10-27T03:02:31Z",
-  "head": "72fd4932da7c416a1aac127ae7fe4988d9bfdcdf",
-  "login": "jmdyck",
-  "number": 3209,
-  "ref": "strict_mode",
-  "revs": [
-   {
-    "adate": "2023-10-26T22:40:28-04:00",
-    "author": "Michael Dyck",
-    "date": "2023-10-26T22:40:28-04:00",
-    "hash": "72fd4932da7c416a1aac127ae7fe4988d9bfdcdf",
-    "parents": "7485cf09a9ba5af49c5334a1f4de4491afecc3da",
-    "subject": "Simplify If-steps"
-   },
-   {
-    "adate": "2023-10-26T22:38:03-04:00",
-    "author": "Michael Dyck",
-    "date": "2023-10-26T22:38:03-04:00",
-    "hash": "7485cf09a9ba5af49c5334a1f4de4491afecc3da",
-    "parents": "6f773804a4279a3ea30849c662fd0fd235b950b0",
-    "subject": "Introduce IsStrict() abstract operation"
-   },
-   {
-    "adate": "2023-10-26T22:32:18-04:00",
-    "author": "Michael Dyck",
-    "date": "2023-10-26T22:32:18-04:00",
-    "hash": "6f773804a4279a3ea30849c662fd0fd235b950b0",
-    "parents": "baf40b99bc45183cf4774e9ce5d29f2b25743194",
-    "subject": "Prepend \"the source text matched by\" to \"X is strict mode code\""
-   },
-   {
-    "adate": "2022-10-22T22:19:41-04:00",
-    "author": "Michael Dyck",
-    "date": "2023-10-26T22:30:14-04:00",
-    "hash": "baf40b99bc45183cf4774e9ce5d29f2b25743194",
-    "parents": "5161a6131645cb3888e0ae7552299d5583237d06",
-    "subject": "In some \"X is contained in strict mode code\", delete \"contained in\""
-   },
-   {
-    "adate": "2023-10-25T22:35:55-04:00",
-    "author": "Michael Dyck",
-    "date": "2023-10-26T22:30:09-04:00",
-    "hash": "5161a6131645cb3888e0ae7552299d5583237d06",
-    "parents": "3d7c44ce70b987fdda2c108a942d9fc2f60b0b21",
-    "subject": "Editorial: Rename \"IsStrict\" to \"ScriptIsStrict\""
-   }
-  ],
-  "title": "Editorial: Introduce IsStrict() abstract operation",
-  "updated_at": "2023-10-29T03:38:14Z"
  },
  {
   "base": "5eaee2f3c52bd2d46b7d286537e5da5baf16d002",
@@ -878,26 +806,6 @@
   ],
   "title": "Editorial: Add <dfn> variants for \"offset time zone identifier(s)\"",
   "updated_at": "2023-07-01T23:05:55Z"
- },
- {
-  "base": "aaef979f3882af0d6faa709c5676919e38fe755f",
-  "created_at": "2023-06-14T17:44:23Z",
-  "head": "97580adc1b85eb18a4d357a181f1c5f259d8b012",
-  "login": "gibson042",
-  "number": 3099,
-  "ref": "2023-06-parsetext-string",
-  "revs": [
-   {
-    "adate": "2024-03-20T15:03:02-07:00",
-    "author": "Richard Gibson",
-    "date": "2024-03-20T15:03:02-07:00",
-    "hash": "97580adc1b85eb18a4d357a181f1c5f259d8b012",
-    "parents": "aaef979f3882af0d6faa709c5676919e38fe755f",
-    "subject": "Editorial: Generalize ParseText to support String input (#3099)"
-   }
-  ],
-  "title": "Editorial: Generalize ParseText to support String input",
-  "updated_at": "2024-03-20T22:03:08Z"
  },
  {
   "base": "26b236963e5df4ee9ff837a04228c01aca01e174",
