@@ -60,34 +60,6 @@
   "updated_at": "2024-03-04T01:33:58Z"
  },
  {
-  "base": "6c78dfcd5affaa0b3f3ef30bb2953fdf97593458",
-  "created_at": "2024-02-29T18:42:52Z",
-  "head": "4ee7ba1807b568fe2fcbcc2f38787d9bd4c7b59a",
-  "login": "gibson042",
-  "number": 3290,
-  "ref": "2024-02-stringlastindexof",
-  "revs": [
-   {
-    "adate": "2024-03-18T13:55:14-04:00",
-    "author": "Richard Gibson",
-    "date": "2024-03-18T13:55:14-04:00",
-    "hash": "4ee7ba1807b568fe2fcbcc2f38787d9bd4c7b59a",
-    "parents": "713345050982da39a2dbd7f5f93dfc66344fc338",
-    "subject": "Editorial: Update the return type for StringIndexOf and StringLastIndexOf"
-   },
-   {
-    "adate": "2024-02-29T13:40:29-05:00",
-    "author": "Richard Gibson",
-    "date": "2024-03-17T23:06:53-04:00",
-    "hash": "713345050982da39a2dbd7f5f93dfc66344fc338",
-    "parents": "6c78dfcd5affaa0b3f3ef30bb2953fdf97593458",
-    "subject": "Editorial: Introduce StringLastIndexOf"
-   }
-  ],
-  "title": "Editorial: Introduce StringLastIndexOf",
-  "updated_at": "2024-03-18T18:03:33Z"
- },
- {
   "base": "f012b38779e8399191e25e82fe797cc9374f4288",
   "created_at": "2024-02-26T20:37:58Z",
   "head": "8b7da2b49fa08c1dc74e337e45855fcb04ad81bb",
@@ -2098,11 +2070,19 @@
  {
   "base": "b34e0d9570477a4db2f6b945344115627bf84bbe",
   "created_at": "2023-01-23T22:42:45Z",
-  "head": "3044fd90ab4c9fcfbb3304970a8315a2853d492a",
+  "head": "7de74fab6bf6b159d6c3a916113b403613727211",
   "login": "rbuckton",
   "number": 3000,
   "ref": "explicit-resource-management",
   "revs": [
+   {
+    "adate": "2023-03-27T12:18:52-04:00",
+    "author": "Ron Buckton",
+    "date": "2023-03-27T12:18:52-04:00",
+    "hash": "7de74fab6bf6b159d6c3a916113b403613727211",
+    "parents": "3044fd90ab4c9fcfbb3304970a8315a2853d492a",
+    "subject": "Remove 'await' restriction per March 2023 consensus. See tc39/proposal-explicit-resource-management#153"
+   },
    {
     "adate": "2023-03-22T13:39:45-04:00",
     "author": "Ron Buckton",
@@ -2385,7 +2365,7 @@
    }
   ],
   "title": "Add `using` Declarations, SuppressedError, and DisposableStack",
-  "updated_at": "2023-03-22T18:20:23Z"
+  "updated_at": "2024-03-20T17:14:10Z"
  },
  {
   "base": "8aac12603c99f94d982317832b0e03c13684ce0a",
