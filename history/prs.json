@@ -2068,13 +2068,21 @@
   "updated_at": "2023-05-04T12:46:55Z"
  },
  {
-  "base": "b34e0d9570477a4db2f6b945344115627bf84bbe",
+  "base": "aaef979f3882af0d6faa709c5676919e38fe755f",
   "created_at": "2023-01-23T22:42:45Z",
-  "head": "7de74fab6bf6b159d6c3a916113b403613727211",
+  "head": "2705b9008bda0a7c0fefe9dca8b119fc8571d354",
   "login": "rbuckton",
   "number": 3000,
   "ref": "explicit-resource-management",
   "revs": [
+   {
+    "adate": "2024-03-20T14:51:23-04:00",
+    "author": "Ron Buckton",
+    "date": "2024-03-20T14:51:23-04:00",
+    "hash": "2705b9008bda0a7c0fefe9dca8b119fc8571d354",
+    "parents": "7de74fab6bf6b159d6c3a916113b403613727211 aaef979f3882af0d6faa709c5676919e38fe755f",
+    "subject": "Merge branch 'main' into explicit-resource-management"
+   },
    {
     "adate": "2023-03-27T12:18:52-04:00",
     "author": "Ron Buckton",
@@ -2365,7 +2373,7 @@
    }
   ],
   "title": "Add `using` Declarations, SuppressedError, and DisposableStack",
-  "updated_at": "2024-03-20T17:14:10Z"
+  "updated_at": "2024-03-20T18:51:32Z"
  },
  {
   "base": "8aac12603c99f94d982317832b0e03c13684ce0a",
