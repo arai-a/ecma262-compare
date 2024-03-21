@@ -40,26 +40,6 @@
   "updated_at": "2024-03-07T15:36:34Z"
  },
  {
-  "base": "80c4419202b4ce213d30a9e6003b8b92a913edb4",
-  "created_at": "2024-03-04T01:33:58Z",
-  "head": "21aa00e90b505bb7c5d6314e37538b9037d2b33a",
-  "login": "drakedevel",
-  "number": 3292,
-  "ref": "error-message-intro",
-  "revs": [
-   {
-    "adate": "2024-03-20T16:06:22-07:00",
-    "author": "Andrew Drake",
-    "date": "2024-03-20T16:06:22-07:00",
-    "hash": "21aa00e90b505bb7c5d6314e37538b9037d2b33a",
-    "parents": "80c4419202b4ce213d30a9e6003b8b92a913edb4",
-    "subject": "Editorial: Remove \"message\" property from list of Error differences (#3292)"
-   }
-  ],
-  "title": "Editorial: Remove \"message\" property from list of Error differences",
-  "updated_at": "2024-03-20T23:09:53Z"
- },
- {
   "base": "f012b38779e8399191e25e82fe797cc9374f4288",
   "created_at": "2024-02-26T20:37:58Z",
   "head": "8b7da2b49fa08c1dc74e337e45855fcb04ad81bb",
@@ -336,9 +316,9 @@
   "updated_at": "2023-10-30T03:21:42Z"
  },
  {
-  "base": "f012b38779e8399191e25e82fe797cc9374f4288",
+  "base": "3d5a70b1b543a776dd5e255f8bfd877bf08bdc74",
   "created_at": "2023-10-29T03:33:26Z",
-  "head": "f90667f03782aead105216b110ebfa232e23de66",
+  "head": "9e080e8a3117fb576d5ef3592b578bb7f24e8091",
   "login": "jmdyck",
   "number": 3210,
   "ref": "SDO",
@@ -346,110 +326,110 @@
    {
     "adate": "2024-02-28T15:04:56-05:00",
     "author": "Michael Dyck",
-    "date": "2024-02-28T15:04:56-05:00",
-    "hash": "f90667f03782aead105216b110ebfa232e23de66",
-    "parents": "5d560e0456f3ff40742cd36e4ddb89be24a833fa",
+    "date": "2024-03-21T14:29:31-04:00",
+    "hash": "9e080e8a3117fb576d5ef3592b578bb7f24e8091",
+    "parents": "6ebd7c42cc5dade91570a68f5af8a95859c61de2",
     "subject": "fixup: In example, remove \"the\" before \"VarDeclaredNames\""
    },
    {
     "adate": "2024-02-28T14:15:23-05:00",
     "author": "Michael Dyck",
-    "date": "2024-02-28T14:15:23-05:00",
-    "hash": "5d560e0456f3ff40742cd36e4ddb89be24a833fa",
-    "parents": "4fb14fc799baf2d8c5ceba612a02d8e2aded9ebe",
+    "date": "2024-03-21T14:29:31-04:00",
+    "hash": "6ebd7c42cc5dade91570a68f5af8a95859c61de2",
+    "parents": "74761d7be1eeb58166367dc4779a8127c6bcddb3",
     "subject": "fixup re introducing \"subject Parse Node\""
    },
    {
     "adate": "2023-10-30T22:51:24-04:00",
     "author": "Michael Dyck",
-    "date": "2024-02-24T20:54:55-05:00",
-    "hash": "4fb14fc799baf2d8c5ceba612a02d8e2aded9ebe",
-    "parents": "8da33289bb14598928d57845ba2d62a50077ff96",
+    "date": "2024-03-21T14:29:31-04:00",
+    "hash": "74761d7be1eeb58166367dc4779a8127c6bcddb3",
+    "parents": "aedc3ea8ddc60bb03c4e1ba35beece7f81577c27",
     "subject": "fixup: insert more 'this'"
    },
    {
     "adate": "2023-10-28T23:20:34-04:00",
     "author": "Michael Dyck",
-    "date": "2024-02-24T20:54:55-05:00",
-    "hash": "8da33289bb14598928d57845ba2d62a50077ff96",
-    "parents": "b128cf8fdd730ca5e9456911967fca829397c04a",
+    "date": "2024-03-21T14:29:29-04:00",
+    "hash": "aedc3ea8ddc60bb03c4e1ba35beece7f81577c27",
+    "parents": "c0ff12b5e072cc4ac8493ca240be44e59f6da7c1",
     "subject": "Change \"this production\" to \"this Parse Node\""
    },
    {
     "adate": "2023-10-28T23:19:28-04:00",
     "author": "Michael Dyck",
-    "date": "2024-02-24T20:54:55-05:00",
-    "hash": "b128cf8fdd730ca5e9456911967fca829397c04a",
-    "parents": "706cab70e0f5dc9332b87b971faa9d3481ee01bc",
+    "date": "2024-03-21T14:28:10-04:00",
+    "hash": "c0ff12b5e072cc4ac8493ca240be44e59f6da7c1",
+    "parents": "d8e4da2aa5acc35fd0f7b3a510aee38d75e90330",
     "subject": "Change \"this production\" (and 1 \"this phrase\") to \"this |Nonterminal|\""
    },
    {
     "adate": "2023-10-28T22:58:05-04:00",
     "author": "Michael Dyck",
-    "date": "2024-02-24T20:54:55-05:00",
-    "hash": "706cab70e0f5dc9332b87b971faa9d3481ee01bc",
-    "parents": "dc4cffb74f9b0562e7c166443e6e61645666d148",
+    "date": "2024-03-21T14:23:42-04:00",
+    "hash": "d8e4da2aa5acc35fd0f7b3a510aee38d75e90330",
+    "parents": "9f131de440f9f9f7a8b04f0f45002d575bb7b392",
     "subject": "Change \"the |UnaryExpression|\" to \"this |UnaryExpression|\""
    },
    {
     "adate": "2023-10-28T22:55:29-04:00",
     "author": "Michael Dyck",
-    "date": "2024-02-24T20:54:55-05:00",
-    "hash": "dc4cffb74f9b0562e7c166443e6e61645666d148",
-    "parents": "7e1b2b9cd157c27ec94fa481f20fbd09feb6537e",
+    "date": "2024-03-21T14:22:41-04:00",
+    "hash": "9f131de440f9f9f7a8b04f0f45002d575bb7b392",
+    "parents": "ee0234edbb91a4bdae146af79b258879a9b5fa86",
     "subject": "Insert 'this' for references to LHS nonterminal"
    },
    {
     "adate": "2023-10-28T15:35:18-04:00",
     "author": "Michael Dyck",
-    "date": "2024-02-24T20:54:55-05:00",
-    "hash": "7e1b2b9cd157c27ec94fa481f20fbd09feb6537e",
-    "parents": "dac808d11cfbbc42b7753a2592e4929e0eff5297",
+    "date": "2024-03-21T14:22:41-04:00",
+    "hash": "ee0234edbb91a4bdae146af79b258879a9b5fa86",
+    "parents": "f6561bdf58df680a6bea1333ad7b61834008db0d",
     "subject": "Link to \"Referring to Parse Nodes\" from `Early Error Rules`"
    },
    {
     "adate": "2023-10-28T15:34:43-04:00",
     "author": "Michael Dyck",
-    "date": "2024-02-24T20:54:54-05:00",
-    "hash": "dac808d11cfbbc42b7753a2592e4929e0eff5297",
-    "parents": "a50b9b296b2e4a233fe6f12139f14aff40c1438c",
+    "date": "2024-03-21T14:22:41-04:00",
+    "hash": "f6561bdf58df680a6bea1333ad7b61834008db0d",
+    "parents": "48d3195e90ff2ebea4d4eb86e2853df6a403df12",
     "subject": "Create a subsection for \"Referring to Parse Nodes\""
    },
    {
     "adate": "2023-10-28T15:29:41-04:00",
     "author": "Michael Dyck",
-    "date": "2024-02-24T20:54:54-05:00",
-    "hash": "a50b9b296b2e4a233fe6f12139f14aff40c1438c",
-    "parents": "e62e38db2896d4e46950c88944537993f05e57bd",
+    "date": "2024-03-21T14:22:41-04:00",
+    "hash": "48d3195e90ff2ebea4d4eb86e2853df6a403df12",
+    "parents": "c344fa29d644223e518012676cef01b0c1823d38",
     "subject": "Add a paragraph about the dispatching mechanism for SDOs."
    },
    {
     "adate": "2023-10-28T09:59:26-04:00",
     "author": "Michael Dyck",
-    "date": "2024-02-24T20:54:54-05:00",
-    "hash": "e62e38db2896d4e46950c88944537993f05e57bd",
-    "parents": "ce11f56523ed403e31e89802cf5c8f58cf548450",
+    "date": "2024-03-21T14:22:40-04:00",
+    "hash": "c344fa29d644223e518012676cef01b0c1823d38",
+    "parents": "c754a6a754b2bc0e8b748802540c56d3fcb7cf78",
     "subject": "Split off a subsection for \"Invoking Syntax-Directed Operations\""
    },
    {
     "adate": "2023-10-28T09:53:49-04:00",
     "author": "Michael Dyck",
-    "date": "2024-02-24T20:54:54-05:00",
-    "hash": "ce11f56523ed403e31e89802cf5c8f58cf548450",
-    "parents": "2fb43f9cf800da133242ba058539a66f6c5e1217",
+    "date": "2024-03-21T14:22:40-04:00",
+    "hash": "c754a6a754b2bc0e8b748802540c56d3fcb7cf78",
+    "parents": "4528c30522b6ba4b27a99fc10504cb7392e4e430",
     "subject": "Split off a subsection for \"Implicit Definitions for Chain Productions\""
    },
    {
     "adate": "2023-10-28T09:35:28-04:00",
     "author": "Michael Dyck",
-    "date": "2024-02-24T20:54:54-05:00",
-    "hash": "2fb43f9cf800da133242ba058539a66f6c5e1217",
-    "parents": "f012b38779e8399191e25e82fe797cc9374f4288",
+    "date": "2024-03-21T14:22:40-04:00",
+    "hash": "4528c30522b6ba4b27a99fc10504cb7392e4e430",
+    "parents": "3d5a70b1b543a776dd5e255f8bfd877bf08bdc74",
     "subject": "Move the definition of \"source text matched by\""
    }
   ],
   "title": "Editorial: Expand the \"Syntax-Directed Operations\" section",
-  "updated_at": "2024-02-28T20:18:50Z"
+  "updated_at": "2024-03-21T18:35:34Z"
  },
  {
   "base": "5eaee2f3c52bd2d46b7d286537e5da5baf16d002",
