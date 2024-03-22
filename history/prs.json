@@ -1986,11 +1986,27 @@
  {
   "base": "3d5a70b1b543a776dd5e255f8bfd877bf08bdc74",
   "created_at": "2023-01-23T22:42:45Z",
-  "head": "25f1bc4a4c19a0cc202d25567573d098e239b911",
+  "head": "355326679d8a288868f145b326b2f697caf58363",
   "login": "rbuckton",
   "number": 3000,
   "ref": "explicit-resource-management",
   "revs": [
+   {
+    "adate": "2024-03-22T16:30:57-04:00",
+    "author": "Ron Buckton",
+    "date": "2024-03-22T16:30:57-04:00",
+    "hash": "355326679d8a288868f145b326b2f697caf58363",
+    "parents": "25f1bc4a4c19a0cc202d25567573d098e239b911 fc327d6ded63267e4f47f37daef8fe2c6ccc0a10",
+    "subject": "Merge pull request #5 from rbuckton/fix-getdisposemethod"
+   },
+   {
+    "adate": "2024-03-22T16:27:01-04:00",
+    "author": "Ron Buckton",
+    "date": "2024-03-22T16:27:01-04:00",
+    "hash": "fc327d6ded63267e4f47f37daef8fe2c6ccc0a10",
+    "parents": "25f1bc4a4c19a0cc202d25567573d098e239b911",
+    "subject": "Add missing undefined check in GetDisposeMethod"
+   },
    {
     "adate": "2024-03-22T16:10:41-04:00",
     "author": "Ron Buckton",
@@ -2408,8 +2424,8 @@
     "subject": "Spec text for proposal-explicit-resource-management"
    }
   ],
-  "title": "Add `using` Declarations, SuppressedError, and DisposableStack",
-  "updated_at": "2024-03-22T20:10:45Z"
+  "title": "Add `using` and `await using` Declarations, SuppressedError, DisposableStack, and AsyncDisposableStack",
+  "updated_at": "2024-03-22T20:48:09Z"
  },
  {
   "base": "8aac12603c99f94d982317832b0e03c13684ce0a",
