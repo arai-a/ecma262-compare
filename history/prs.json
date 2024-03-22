@@ -1964,13 +1964,85 @@
   "updated_at": "2023-05-04T12:46:55Z"
  },
  {
-  "base": "aaef979f3882af0d6faa709c5676919e38fe755f",
+  "base": "3d5a70b1b543a776dd5e255f8bfd877bf08bdc74",
   "created_at": "2023-01-23T22:42:45Z",
-  "head": "2705b9008bda0a7c0fefe9dca8b119fc8571d354",
+  "head": "d79a18645878d80942a0d5e29ae372965525c4ce",
   "login": "rbuckton",
   "number": 3000,
   "ref": "explicit-resource-management",
   "revs": [
+   {
+    "adate": "2024-03-22T14:10:32-04:00",
+    "author": "Ron Buckton",
+    "date": "2024-03-22T14:10:32-04:00",
+    "hash": "d79a18645878d80942a0d5e29ae372965525c4ce",
+    "parents": "098e12c70e6bf81c6b85a83ce88b43dc6f9c470b 7e967181e4095576556443178fe9dfb9cc02e6c6",
+    "subject": "Merge pull request #3 from rbuckton/async-explicit-resource-management"
+   },
+   {
+    "adate": "2024-03-22T14:09:24-04:00",
+    "author": "Ron Buckton",
+    "date": "2024-03-22T14:09:24-04:00",
+    "hash": "7e967181e4095576556443178fe9dfb9cc02e6c6",
+    "parents": "4a751615d00c8cc6abdee030b3956f5608599a4a 098e12c70e6bf81c6b85a83ce88b43dc6f9c470b",
+    "subject": "Merge branch 'explicit-resource-management' into async-explicit-resource-management"
+   },
+   {
+    "adate": "2024-03-22T14:09:04-04:00",
+    "author": "Ron Buckton",
+    "date": "2024-03-22T14:09:04-04:00",
+    "hash": "098e12c70e6bf81c6b85a83ce88b43dc6f9c470b",
+    "parents": "2705b9008bda0a7c0fefe9dca8b119fc8571d354 3d5a70b1b543a776dd5e255f8bfd877bf08bdc74",
+    "subject": "Merge branch 'main' into explicit-resource-management"
+   },
+   {
+    "adate": "2024-03-22T13:41:13-04:00",
+    "author": "Ron Buckton",
+    "date": "2024-03-22T13:41:13-04:00",
+    "hash": "4a751615d00c8cc6abdee030b3956f5608599a4a",
+    "parents": "716bb8a6600d6b2e6a7de49a86a0bb3e979ff470",
+    "subject": "Remove temporary PR note"
+   },
+   {
+    "adate": "2024-03-22T13:35:18-04:00",
+    "author": "Ron Buckton",
+    "date": "2024-03-22T13:36:58-04:00",
+    "hash": "716bb8a6600d6b2e6a7de49a86a0bb3e979ff470",
+    "parents": "1e8a2ce264bbcc9e04a8181a8c7e94b75fb10f30",
+    "subject": "Fix typos and add temporary PR note"
+   },
+   {
+    "adate": "2024-03-21T18:25:26-04:00",
+    "author": "Ron Buckton",
+    "date": "2024-03-21T18:25:26-04:00",
+    "hash": "1e8a2ce264bbcc9e04a8181a8c7e94b75fb10f30",
+    "parents": "95baa1deda9e3fe6b97f036e738f82b2acbc5a19",
+    "subject": "Adopt typo fix from tc39/proposal-explicit-resource-management#217"
+   },
+   {
+    "adate": "2024-03-21T18:23:58-04:00",
+    "author": "Ron Buckton",
+    "date": "2024-03-21T18:24:59-04:00",
+    "hash": "95baa1deda9e3fe6b97f036e738f82b2acbc5a19",
+    "parents": "bb009b25c09ea70975361fbfea70c7a7777d1101",
+    "subject": "Adopt consensus changes from tc39/proposal-explicit-resource-management#180"
+   },
+   {
+    "adate": "2024-03-20T15:33:56-04:00",
+    "author": "Ron Buckton",
+    "date": "2024-03-20T15:33:56-04:00",
+    "hash": "bb009b25c09ea70975361fbfea70c7a7777d1101",
+    "parents": "f14f8ba419a39e46b80461311027ef541fd27cb0",
+    "subject": "Adopt consensus changes from tc39/proposal-explicit-resource-management#178"
+   },
+   {
+    "adate": "2024-03-20T15:11:13-04:00",
+    "author": "Ron Buckton",
+    "date": "2024-03-20T15:17:07-04:00",
+    "hash": "f14f8ba419a39e46b80461311027ef541fd27cb0",
+    "parents": "140e02ca68476f93121a67b0304bd8b03ec05139 2705b9008bda0a7c0fefe9dca8b119fc8571d354",
+    "subject": "Merge branch 'explicit-resource-management' into async-explicit-resource-management"
+   },
    {
     "adate": "2024-03-20T14:51:23-04:00",
     "author": "Ron Buckton",
@@ -1994,6 +2066,46 @@
     "hash": "3044fd90ab4c9fcfbb3304970a8315a2853d492a",
     "parents": "c541efb9ad9a8795212b23f074511b190a9437e3",
     "subject": "Switch back to a production parameter, update ASI note"
+   },
+   {
+    "adate": "2023-01-29T20:30:54-05:00",
+    "author": "Ron Buckton",
+    "date": "2023-01-31T14:07:42-05:00",
+    "hash": "140e02ca68476f93121a67b0304bd8b03ec05139",
+    "parents": "b6ebf436d1cd8d55a107572c32a919e11545e90e",
+    "subject": "Address additional editor feedback"
+   },
+   {
+    "adate": "2023-01-29T18:44:56-05:00",
+    "author": "Ron Buckton",
+    "date": "2023-01-31T14:07:42-05:00",
+    "hash": "b6ebf436d1cd8d55a107572c32a919e11545e90e",
+    "parents": "46d4a5456f79c0bc3f815a95dfee31cf59d5e33b",
+    "subject": "Address editor feedback"
+   },
+   {
+    "adate": "2023-01-29T17:13:24-05:00",
+    "author": "Ron Buckton",
+    "date": "2023-01-31T14:07:42-05:00",
+    "hash": "46d4a5456f79c0bc3f815a95dfee31cf59d5e33b",
+    "parents": "98d8b4a983689e67ec3b50ca8ed1833119573df5",
+    "subject": "Add 'either' in front of 'null or undefined'"
+   },
+   {
+    "adate": "2023-01-27T10:29:16-05:00",
+    "author": "Ron Buckton",
+    "date": "2023-01-31T14:07:42-05:00",
+    "hash": "98d8b4a983689e67ec3b50ca8ed1833119573df5",
+    "parents": "6fdae7f2bc4e024cd259d31248fde712084354ea",
+    "subject": "Run formatter"
+   },
+   {
+    "adate": "2023-01-27T10:21:39-05:00",
+    "author": "Ron Buckton",
+    "date": "2023-01-31T14:07:41-05:00",
+    "hash": "6fdae7f2bc4e024cd259d31248fde712084354ea",
+    "parents": "c541efb9ad9a8795212b23f074511b190a9437e3",
+    "subject": "Spec text for proposal-async-explicit-resource-management"
    },
    {
     "adate": "2023-01-31T13:57:45-05:00",
@@ -2269,7 +2381,7 @@
    }
   ],
   "title": "Add `using` Declarations, SuppressedError, and DisposableStack",
-  "updated_at": "2024-03-20T18:51:32Z"
+  "updated_at": "2024-03-22T18:10:34Z"
  },
  {
   "base": "8aac12603c99f94d982317832b0e03c13684ce0a",
