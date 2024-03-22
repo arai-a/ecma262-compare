@@ -2,11 +2,19 @@
  {
   "base": "6c78dfcd5affaa0b3f3ef30bb2953fdf97593458",
   "created_at": "2024-03-09T02:36:48Z",
-  "head": "800c924851d6e93b76ba14b3848bd4a23bd1712f",
+  "head": "3c272535c72b11e2355bfb359481234625d705a4",
   "login": "tc39",
   "number": 3296,
   "ref": "print",
   "revs": [
+   {
+    "adate": "2024-03-22T11:25:27-06:00",
+    "author": "Michael Ficarra",
+    "date": "2024-03-22T11:25:27-06:00",
+    "hash": "3c272535c72b11e2355bfb359481234625d705a4",
+    "parents": "800c924851d6e93b76ba14b3848bd4a23bd1712f",
+    "subject": "Update package.json"
+   },
    {
     "adate": "2024-03-08T19:36:05-07:00",
     "author": "Michael Ficarra",
@@ -17,7 +25,7 @@
    }
   ],
   "title": "WIP: changes for printing",
-  "updated_at": "2024-03-09T02:36:48Z"
+  "updated_at": "2024-03-22T17:25:27Z"
  },
  {
   "base": "6c78dfcd5affaa0b3f3ef30bb2953fdf97593458",
