@@ -1,5 +1,25 @@
 [
  {
+  "base": "3d5a70b1b543a776dd5e255f8bfd877bf08bdc74",
+  "created_at": "2024-03-22T19:44:25Z",
+  "head": "4c190c88e0ea55c1e51a2192b9a8fa02b075187b",
+  "login": "ptomato",
+  "number": 3299,
+  "ref": "sortstringlistbycodeunit",
+  "revs": [
+   {
+    "adate": "2024-03-22T12:43:50-07:00",
+    "author": "Philip Chimento",
+    "date": "2024-03-22T12:43:50-07:00",
+    "hash": "4c190c88e0ea55c1e51a2192b9a8fa02b075187b",
+    "parents": "3d5a70b1b543a776dd5e255f8bfd877bf08bdc74",
+    "subject": "Editorial: Introduce SortStringListByCodeUnit operation"
+   }
+  ],
+  "title": "Editorial: Introduce SortStringListByCodeUnit operation",
+  "updated_at": "2024-03-22T19:52:23Z"
+ },
+ {
   "base": "6c78dfcd5affaa0b3f3ef30bb2953fdf97593458",
   "created_at": "2024-03-09T02:36:48Z",
   "head": "3c272535c72b11e2355bfb359481234625d705a4",
@@ -1966,11 +1986,19 @@
  {
   "base": "3d5a70b1b543a776dd5e255f8bfd877bf08bdc74",
   "created_at": "2023-01-23T22:42:45Z",
-  "head": "d79a18645878d80942a0d5e29ae372965525c4ce",
+  "head": "25f1bc4a4c19a0cc202d25567573d098e239b911",
   "login": "rbuckton",
   "number": 3000,
   "ref": "explicit-resource-management",
   "revs": [
+   {
+    "adate": "2024-03-22T16:10:41-04:00",
+    "author": "Ron Buckton",
+    "date": "2024-03-22T16:10:41-04:00",
+    "hash": "25f1bc4a4c19a0cc202d25567573d098e239b911",
+    "parents": "d79a18645878d80942a0d5e29ae372965525c4ce",
+    "subject": "Remaining consensus updates from proposal repo"
+   },
    {
     "adate": "2024-03-22T14:10:32-04:00",
     "author": "Ron Buckton",
@@ -2381,7 +2409,7 @@
    }
   ],
   "title": "Add `using` Declarations, SuppressedError, and DisposableStack",
-  "updated_at": "2024-03-22T18:10:34Z"
+  "updated_at": "2024-03-22T20:10:45Z"
  },
  {
   "base": "8aac12603c99f94d982317832b0e03c13684ce0a",
