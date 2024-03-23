@@ -20,32 +20,48 @@
   "updated_at": "2024-03-22T19:52:23Z"
  },
  {
-  "base": "6c78dfcd5affaa0b3f3ef30bb2953fdf97593458",
+  "base": "3d5a70b1b543a776dd5e255f8bfd877bf08bdc74",
   "created_at": "2024-03-09T02:36:48Z",
-  "head": "3c272535c72b11e2355bfb359481234625d705a4",
+  "head": "ce40b88d83c22ff0e36388af50ac028edba8a0e8",
   "login": "tc39",
   "number": 3296,
   "ref": "print",
   "revs": [
    {
+    "adate": "2024-03-22T17:43:50-06:00",
+    "author": "Michael Ficarra",
+    "date": "2024-03-22T17:43:50-06:00",
+    "hash": "ce40b88d83c22ff0e36388af50ac028edba8a0e8",
+    "parents": "ddc3def808f2650e1a5491e5f0477eaf8a9489a5",
+    "subject": "caret"
+   },
+   {
+    "adate": "2024-03-22T17:34:53-06:00",
+    "author": "Michael Ficarra",
+    "date": "2024-03-22T17:35:28-06:00",
+    "hash": "ddc3def808f2650e1a5491e5f0477eaf8a9489a5",
+    "parents": "fa251baeecfea090b84bc127bb5681c699bf4d42",
+    "subject": "bump ecmarkup"
+   },
+   {
     "adate": "2024-03-22T11:25:27-06:00",
     "author": "Michael Ficarra",
-    "date": "2024-03-22T11:25:27-06:00",
-    "hash": "3c272535c72b11e2355bfb359481234625d705a4",
-    "parents": "800c924851d6e93b76ba14b3848bd4a23bd1712f",
+    "date": "2024-03-22T17:35:28-06:00",
+    "hash": "fa251baeecfea090b84bc127bb5681c699bf4d42",
+    "parents": "80ae3c48cae16ee8effef4fd70c00aa257403caf",
     "subject": "Update package.json"
    },
    {
     "adate": "2024-03-08T19:36:05-07:00",
     "author": "Michael Ficarra",
-    "date": "2024-03-08T19:36:05-07:00",
-    "hash": "800c924851d6e93b76ba14b3848bd4a23bd1712f",
-    "parents": "6c78dfcd5affaa0b3f3ef30bb2953fdf97593458",
+    "date": "2024-03-22T17:35:28-06:00",
+    "hash": "80ae3c48cae16ee8effef4fd70c00aa257403caf",
+    "parents": "3d5a70b1b543a776dd5e255f8bfd877bf08bdc74",
     "subject": "WIP: changes for printing"
    }
   ],
-  "title": "WIP: changes for printing",
-  "updated_at": "2024-03-22T17:25:27Z"
+  "title": "changes for printing",
+  "updated_at": "2024-03-22T23:58:41Z"
  },
  {
   "base": "6c78dfcd5affaa0b3f3ef30bb2953fdf97593458",
