@@ -3400,80 +3400,24 @@
   "updated_at": "2022-05-09T23:00:07Z"
  },
  {
-  "base": "7ae3ecf219bfaa02bb7f6dd1a668f152ff53e846",
+  "base": "5d8f62d6ab761960206c3f6ddf4992534fe9726f",
   "created_at": "2022-04-03T03:38:06Z",
-  "head": "61e7436a9e2dafdc79b1cc24f4504e4c52ef8bb3",
+  "head": "8dd5ab09e400149e433f4594cae3d5fa19cd833f",
   "login": "tc39",
   "number": 2721,
   "ref": "duplicate-named-capture-groups",
   "revs": [
    {
-    "adate": "2022-06-07T11:21:18-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2022-06-07T11:21:18-07:00",
-    "hash": "61e7436a9e2dafdc79b1cc24f4504e4c52ef8bb3",
-    "parents": "50229597ae6dc81323cdaf4659dc0e5dc81e843c",
-    "subject": "simplify per gibson042"
-   },
-   {
-    "adate": "2022-06-07T08:39:35-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2022-06-07T08:39:35-07:00",
-    "hash": "50229597ae6dc81323cdaf4659dc0e5dc81e843c",
-    "parents": "34545fecc5583a35dbaa7b0f0f5eb532dd9faa63",
-    "subject": "compare strings with SameValue"
-   },
-   {
-    "adate": "2022-06-07T08:31:23-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2022-06-07T08:31:23-07:00",
-    "hash": "34545fecc5583a35dbaa7b0f0f5eb532dd9faa63",
-    "parents": "2cbe509b27529b19f5f3cc1d4deb7af5cfe5cb52",
-    "subject": "make property creation order deterministic"
-   },
-   {
-    "adate": "2022-06-06T16:17:33-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2022-06-06T16:17:33-07:00",
-    "hash": "2cbe509b27529b19f5f3cc1d4deb7af5cfe5cb52",
-    "parents": "5af2ca07ab4c3bffeb11fc084ae08d7376f81104",
-    "subject": "typo"
-   },
-   {
-    "adate": "2022-06-06T15:22:43-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2022-06-06T15:22:43-07:00",
-    "hash": "5af2ca07ab4c3bffeb11fc084ae08d7376f81104",
-    "parents": "882bed3fc2fcfd06b1d731291014a7cd2e1b921d",
-    "subject": "note/justify property re-creation"
-   },
-   {
-    "adate": "2022-06-06T15:10:47-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2022-06-06T15:10:47-07:00",
-    "hash": "882bed3fc2fcfd06b1d731291014a7cd2e1b921d",
-    "parents": "7bf3f400e5004842633ec1c83f9b8474b756fa75",
-    "subject": "index captures list rather than regex"
-   },
-   {
-    "adate": "2022-06-06T12:50:29-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2022-06-06T12:50:29-07:00",
-    "hash": "7bf3f400e5004842633ec1c83f9b8474b756fa75",
-    "parents": "2140ce7b02559248005395802f8fe0fed5fcc931",
-    "subject": "remove restriction on backreferences across alternatives"
-   },
-   {
     "adate": "2022-04-02T20:32:25-07:00",
     "author": "Kevin Gibbons",
-    "date": "2022-05-24T19:37:22-07:00",
-    "hash": "2140ce7b02559248005395802f8fe0fed5fcc931",
-    "parents": "7ae3ecf219bfaa02bb7f6dd1a668f152ff53e846",
+    "date": "2024-03-28T13:28:53-07:00",
+    "hash": "8dd5ab09e400149e433f4594cae3d5fa19cd833f",
+    "parents": "5d8f62d6ab761960206c3f6ddf4992534fe9726f",
     "subject": "Normative: allow duplicate named capture groups"
    }
   ],
   "title": "Normative: allow duplicate named capture groups",
-  "updated_at": "2022-06-07T18:22:57Z"
+  "updated_at": "2024-03-28T20:32:24Z"
  },
  {
   "base": "5f31dd64de39e1a4c74aeb9bde2887acadb5e5e9",
