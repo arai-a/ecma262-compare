@@ -22,11 +22,19 @@
  {
   "base": "5d8f62d6ab761960206c3f6ddf4992534fe9726f",
   "created_at": "2024-03-28T20:54:20Z",
-  "head": "dcaa466516a295835c743ae40b02bb2c156a7540",
+  "head": "b05fb6084ccaa4ada9db999f709cc0a59e7c9f19",
   "login": "tc39",
   "number": 3306,
   "ref": "set-methods",
   "revs": [
+   {
+    "adate": "2024-03-29T16:17:00-04:00",
+    "author": "jmdyck",
+    "date": "2024-03-29T13:17:00-07:00",
+    "hash": "b05fb6084ccaa4ada9db999f709cc0a59e7c9f19",
+    "parents": "dcaa466516a295835c743ae40b02bb2c156a7540",
+    "subject": "suggested changes (to the set-methods PR) (#3308)"
+   },
    {
     "adate": "2024-03-28T13:53:51-07:00",
     "author": "Kevin Gibbons",
@@ -37,7 +45,7 @@
    }
   ],
   "title": "Normative: add set methods",
-  "updated_at": "2024-03-28T20:55:02Z"
+  "updated_at": "2024-03-29T20:17:02Z"
  },
  {
   "base": "5d8f62d6ab761960206c3f6ddf4992534fe9726f",
