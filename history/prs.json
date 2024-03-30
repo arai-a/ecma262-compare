@@ -2,24 +2,16 @@
  {
   "base": "5d8f62d6ab761960206c3f6ddf4992534fe9726f",
   "created_at": "2024-03-29T10:20:02Z",
-  "head": "01883e3a6e87a1261d12f1d8a168c3c668f1fa0f",
+  "head": "4d1a4b5afc2de2c219d7f1777052cb20de6b2735",
   "login": "rkirsling",
   "number": 3307,
   "ref": "loosen-referenced-name-in-reference-records",
   "revs": [
    {
-    "adate": "2024-03-30T18:58:55+09:00",
-    "author": "Ross Kirsling",
-    "date": "2024-03-30T18:58:55+09:00",
-    "hash": "01883e3a6e87a1261d12f1d8a168c3c668f1fa0f",
-    "parents": "1431d99d37ced73ca781bf78fa0360fb49b8edb3",
-    "subject": "Fix typo."
-   },
-   {
     "adate": "2024-03-30T18:21:57+09:00",
     "author": "Ross Kirsling",
-    "date": "2024-03-30T18:21:57+09:00",
-    "hash": "1431d99d37ced73ca781bf78fa0360fb49b8edb3",
+    "date": "2024-03-30T20:02:42+09:00",
+    "hash": "4d1a4b5afc2de2c219d7f1777052cb20de6b2735",
     "parents": "008a16699144660ca6d6ce4a9e736e01320bba4e",
     "subject": "Address feedback."
    },
@@ -33,7 +25,7 @@
    }
   ],
   "title": "Allow [[ReferencedName]] in Reference Records to be a not-yet-resolved property key.",
-  "updated_at": "2024-03-30T09:59:00Z"
+  "updated_at": "2024-03-30T11:02:45Z"
  },
  {
   "base": "5d8f62d6ab761960206c3f6ddf4992534fe9726f",
