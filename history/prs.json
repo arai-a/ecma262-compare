@@ -1,6 +1,50 @@
 [
  {
   "base": "5d8f62d6ab761960206c3f6ddf4992534fe9726f",
+  "created_at": "2024-04-01T14:48:05Z",
+  "head": "9a2743d58fa3039f630fbcbf55665d0131c6f345",
+  "login": "jmdyck",
+  "number": 3309,
+  "ref": "the_sdo_name",
+  "revs": [
+   {
+    "adate": "2024-04-01T09:17:07-04:00",
+    "author": "Michael Dyck",
+    "date": "2024-04-01T09:45:41-04:00",
+    "hash": "9a2743d58fa3039f630fbcbf55665d0131c6f345",
+    "parents": "06adc4e1e4c6f414d30c38b8eb10e1201f8b712d",
+    "subject": "rm \"The\" before SDO-name in prose"
+   },
+   {
+    "adate": "2024-04-01T09:17:36-04:00",
+    "author": "Michael Dyck",
+    "date": "2024-04-01T09:45:19-04:00",
+    "hash": "06adc4e1e4c6f414d30c38b8eb10e1201f8b712d",
+    "parents": "b9aaf5f6c603e562137cc6c25992f663819e78e4",
+    "subject": "rm \"the\" before SDO-name in prose"
+   },
+   {
+    "adate": "2024-04-01T09:04:48-04:00",
+    "author": "Michael Dyck",
+    "date": "2024-04-01T09:44:17-04:00",
+    "hash": "b9aaf5f6c603e562137cc6c25992f663819e78e4",
+    "parents": "1edffb9e6d1363f22b0434ed748a5b2b21aae6d6",
+    "subject": "rm \"The\" before SDO-name at start of one-line definitions"
+   },
+   {
+    "adate": "2024-03-31T13:12:07-04:00",
+    "author": "Michael Dyck",
+    "date": "2024-04-01T09:44:08-04:00",
+    "hash": "1edffb9e6d1363f22b0434ed748a5b2b21aae6d6",
+    "parents": "5d8f62d6ab761960206c3f6ddf4992534fe9726f",
+    "subject": "rm \"the\" before SDO-name in pseudocode"
+   }
+  ],
+  "title": "Editorial: Remove \"the\" before SDO-names",
+  "updated_at": "2024-04-01T14:49:49Z"
+ },
+ {
+  "base": "5d8f62d6ab761960206c3f6ddf4992534fe9726f",
   "created_at": "2024-03-29T10:20:02Z",
   "head": "4d1a4b5afc2de2c219d7f1777052cb20de6b2735",
   "login": "rkirsling",
