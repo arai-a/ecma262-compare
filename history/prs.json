@@ -1,6 +1,26 @@
 [
  {
   "base": "5d8f62d6ab761960206c3f6ddf4992534fe9726f",
+  "created_at": "2024-04-04T19:52:12Z",
+  "head": "ce3e17663910e10be530994a239402e662e9652f",
+  "login": "tc39",
+  "number": 3310,
+  "ref": "GH-2930",
+  "revs": [
+   {
+    "adate": "2024-04-04T13:50:42-06:00",
+    "author": "Michael Ficarra",
+    "date": "2024-04-04T13:59:24-06:00",
+    "hash": "ce3e17663910e10be530994a239402e662e9652f",
+    "parents": "5d8f62d6ab761960206c3f6ddf4992534fe9726f",
+    "subject": "WIP"
+   }
+  ],
+  "title": "Editorial: refer to code points directly by name/number instead of using aliases",
+  "updated_at": "2024-04-04T19:59:29Z"
+ },
+ {
+  "base": "5d8f62d6ab761960206c3f6ddf4992534fe9726f",
   "created_at": "2024-04-01T14:48:05Z",
   "head": "9a2743d58fa3039f630fbcbf55665d0131c6f345",
   "login": "jmdyck",
@@ -126,26 +146,6 @@
   ],
   "title": "Editorial: Generalize ToZeroPaddedDecimalString to support hexadecimal output",
   "updated_at": "2024-03-28T16:38:13Z"
- },
- {
-  "base": "3d5a70b1b543a776dd5e255f8bfd877bf08bdc74",
-  "created_at": "2024-03-27T18:22:15Z",
-  "head": "ed314408c456b4a96f38c91f5470d4c1a86d6ae2",
-  "login": "gibson042",
-  "number": 3303,
-  "ref": "2024-03-classify-u0085-next-line",
-  "revs": [
-   {
-    "adate": "2024-03-27T14:14:40-04:00",
-    "author": "Richard Gibson",
-    "date": "2024-03-27T14:14:40-04:00",
-    "hash": "ed314408c456b4a96f38c91f5470d4c1a86d6ae2",
-    "parents": "3d5a70b1b543a776dd5e255f8bfd877bf08bdc74",
-    "subject": "Editorial: Mention the special status of U+0085 NEXT LINE"
-   }
-  ],
-  "title": "Editorial: Mention the special status of U+0085 NEXT LINE",
-  "updated_at": "2024-03-27T18:22:26Z"
  },
  {
   "base": "3d5a70b1b543a776dd5e255f8bfd877bf08bdc74",
