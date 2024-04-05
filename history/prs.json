@@ -1,6 +1,42 @@
 [
  {
   "base": "5d8f62d6ab761960206c3f6ddf4992534fe9726f",
+  "created_at": "2024-04-05T05:25:19Z",
+  "head": "06701f95cdf547cf6f9721062bebf505bae3b762",
+  "login": "tc39",
+  "number": 3311,
+  "ref": "iterator-step-closes",
+  "revs": [
+   {
+    "adate": "2024-04-04T21:43:14-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2024-04-04T22:22:07-07:00",
+    "hash": "06701f95cdf547cf6f9721062bebf505bae3b762",
+    "parents": "c318f7a4fb11227a1c8cb6fd77797cc78bd9571b",
+    "subject": "Editorial: have IteratorNext close the Iterator Record"
+   },
+   {
+    "adate": "2024-04-04T21:35:19-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2024-04-04T21:45:47-07:00",
+    "hash": "c318f7a4fb11227a1c8cb6fd77797cc78bd9571b",
+    "parents": "de216f97f7499748952633987d6db8c4824ba628",
+    "subject": "fixup! Editorial: express IteratorStepValue in terms of IteratorStep and IteratorValue"
+   },
+   {
+    "adate": "2024-04-04T21:26:58-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2024-04-04T21:44:46-07:00",
+    "hash": "de216f97f7499748952633987d6db8c4824ba628",
+    "parents": "5d8f62d6ab761960206c3f6ddf4992534fe9726f",
+    "subject": "Editorial: have IteratorStep close the Iterator Record"
+   }
+  ],
+  "title": "More tweaks for the iterator handling AOs",
+  "updated_at": "2024-04-05T05:25:19Z"
+ },
+ {
+  "base": "5d8f62d6ab761960206c3f6ddf4992534fe9726f",
   "created_at": "2024-04-04T19:52:12Z",
   "head": "ce3e17663910e10be530994a239402e662e9652f",
   "login": "tc39",
