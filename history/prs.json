@@ -94,11 +94,27 @@
  {
   "base": "5d8f62d6ab761960206c3f6ddf4992534fe9726f",
   "created_at": "2024-03-28T20:54:20Z",
-  "head": "c7a52c4d8b21fe146b2c63014e04cc0e50bbdf9e",
+  "head": "359e90445b31c9c0ad62c2475e0fe195d3358ba4",
   "login": "tc39",
   "number": 3306,
   "ref": "set-methods",
   "revs": [
+   {
+    "adate": "2024-04-04T19:57:04-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2024-04-04T19:57:17-07:00",
+    "hash": "359e90445b31c9c0ad62c2475e0fe195d3358ba4",
+    "parents": "3773d563640e522e55983e7c0ad7a1775fa50880",
+    "subject": "editorial: use IteratorStepValue"
+   },
+   {
+    "adate": "2024-04-04T19:39:55-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2024-04-04T19:57:13-07:00",
+    "hash": "3773d563640e522e55983e7c0ad7a1775fa50880",
+    "parents": "c7a52c4d8b21fe146b2c63014e04cc0e50bbdf9e",
+    "subject": "editorial: use SetDataSize in Set.prototype.size"
+   },
    {
     "adate": "2024-04-03T15:28:11-07:00",
     "author": "Kevin Gibbons",
@@ -125,7 +141,7 @@
    }
   ],
   "title": "Normative: add set methods",
-  "updated_at": "2024-04-03T22:28:22Z"
+  "updated_at": "2024-04-05T03:01:43Z"
  },
  {
   "base": "5d8f62d6ab761960206c3f6ddf4992534fe9726f",
