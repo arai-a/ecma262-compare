@@ -1568,13 +1568,93 @@
   "updated_at": "2023-05-04T12:46:55Z"
  },
  {
-  "base": "3d5a70b1b543a776dd5e255f8bfd877bf08bdc74",
+  "base": "210ef20192a4c9b365460db996a0e19b70dff561",
   "created_at": "2023-01-23T22:42:45Z",
-  "head": "355326679d8a288868f145b326b2f697caf58363",
+  "head": "a7101f8834b66cb39d6afb30f4bb7e84d29e4f3e",
   "login": "rbuckton",
   "number": 3000,
   "ref": "explicit-resource-management",
   "revs": [
+   {
+    "adate": "2024-04-10T14:09:38-04:00",
+    "author": "Ron Buckton",
+    "date": "2024-04-10T14:09:38-04:00",
+    "hash": "a7101f8834b66cb39d6afb30f4bb7e84d29e4f3e",
+    "parents": "949e9dba543237b37160e7cc912f52d8e7331f72 d935b203853a7799537bc0a2143fc64901fb68f5",
+    "subject": "Merge pull request #6 from rbuckton/remove-superfluous-classbody-restriction"
+   },
+   {
+    "adate": "2024-04-10T14:08:55-04:00",
+    "author": "Ron Buckton",
+    "date": "2024-04-10T14:08:55-04:00",
+    "hash": "949e9dba543237b37160e7cc912f52d8e7331f72",
+    "parents": "2d265809f9949ddf6f6e047a0c4a61bc8ebc3c0f 53fe335654684f91d27cdc3ddb087cbe503923a7",
+    "subject": "Merge pull request #4 from rbuckton/fix-missing-lookahead-restriction"
+   },
+   {
+    "adate": "2024-04-10T14:07:30-04:00",
+    "author": "Ron Buckton",
+    "date": "2024-04-10T14:07:30-04:00",
+    "hash": "2d265809f9949ddf6f6e047a0c4a61bc8ebc3c0f",
+    "parents": "479ec8044f505d803c18a20d8a7fb5b518676c63 ee6d9aaf010289cecc3eb46e6f1deb72cb7ca17f",
+    "subject": "Merge pull request #9 from rbuckton/async-from-sync-dispose"
+   },
+   {
+    "adate": "2024-04-10T14:04:59-04:00",
+    "author": "Ron Buckton",
+    "date": "2024-04-10T14:04:59-04:00",
+    "hash": "ee6d9aaf010289cecc3eb46e6f1deb72cb7ca17f",
+    "parents": "479ec8044f505d803c18a20d8a7fb5b518676c63",
+    "subject": "Add PromiseCapability wrapper around sync dispose in an `await using`"
+   },
+   {
+    "adate": "2024-04-10T13:58:46-04:00",
+    "author": "Ron Buckton",
+    "date": "2024-04-10T13:58:46-04:00",
+    "hash": "479ec8044f505d803c18a20d8a7fb5b518676c63",
+    "parents": "355326679d8a288868f145b326b2f697caf58363 53b609c9ea754d53d4b5442eb66ba71ac3aaa52f",
+    "subject": "Merge pull request #8 from rbuckton/fix-disposecapability-leak"
+   },
+   {
+    "adate": "2024-04-10T13:57:50-04:00",
+    "author": "Ron Buckton",
+    "date": "2024-04-10T13:57:50-04:00",
+    "hash": "53b609c9ea754d53d4b5442eb66ba71ac3aaa52f",
+    "parents": "97a8acdc58f4bfcc243f2f0f41896d92f00b789f",
+    "subject": "Update text of NOTE"
+   },
+   {
+    "adate": "2024-04-10T13:55:36-04:00",
+    "author": "Ron Buckton",
+    "date": "2024-04-10T13:55:36-04:00",
+    "hash": "97a8acdc58f4bfcc243f2f0f41896d92f00b789f",
+    "parents": "b8272a5d3b866e3a956ba4160b1fe45318ab70a0",
+    "subject": "Switch to empty list"
+   },
+   {
+    "adate": "2024-03-25T15:42:34-04:00",
+    "author": "Ron Buckton",
+    "date": "2024-03-25T15:42:34-04:00",
+    "hash": "b8272a5d3b866e3a956ba4160b1fe45318ab70a0",
+    "parents": "b7015809480b0b4c894b511c5bb02a2b6721bd7a",
+    "subject": "fix formatting"
+   },
+   {
+    "adate": "2024-03-25T14:43:32-04:00",
+    "author": "Ron Buckton",
+    "date": "2024-03-25T14:43:32-04:00",
+    "hash": "b7015809480b0b4c894b511c5bb02a2b6721bd7a",
+    "parents": "355326679d8a288868f145b326b2f697caf58363",
+    "subject": "Fix DisposeCapability leak"
+   },
+   {
+    "adate": "2024-03-22T16:33:12-04:00",
+    "author": "Ron Buckton",
+    "date": "2024-03-22T16:33:12-04:00",
+    "hash": "d935b203853a7799537bc0a2143fc64901fb68f5",
+    "parents": "355326679d8a288868f145b326b2f697caf58363",
+    "subject": "Remove superfluous ClassBody restriction"
+   },
    {
     "adate": "2024-03-22T16:30:57-04:00",
     "author": "Ron Buckton",
@@ -1590,6 +1670,14 @@
     "hash": "fc327d6ded63267e4f47f37daef8fe2c6ccc0a10",
     "parents": "25f1bc4a4c19a0cc202d25567573d098e239b911",
     "subject": "Add missing undefined check in GetDisposeMethod"
+   },
+   {
+    "adate": "2024-03-22T16:24:59-04:00",
+    "author": "Ron Buckton",
+    "date": "2024-03-22T16:24:59-04:00",
+    "hash": "53fe335654684f91d27cdc3ddb087cbe503923a7",
+    "parents": "25f1bc4a4c19a0cc202d25567573d098e239b911",
+    "subject": "Fix missing lookahead restriction"
    },
    {
     "adate": "2024-03-22T16:10:41-04:00",
@@ -2009,7 +2097,7 @@
    }
   ],
   "title": "Add `using` and `await using` Declarations, SuppressedError, DisposableStack, and AsyncDisposableStack",
-  "updated_at": "2024-03-22T20:48:09Z"
+  "updated_at": "2024-04-10T18:09:41Z"
  },
  {
   "base": "8aac12603c99f94d982317832b0e03c13684ce0a",
