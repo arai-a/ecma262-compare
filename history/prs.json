@@ -306,16 +306,24 @@
  {
   "base": "5d8f62d6ab761960206c3f6ddf4992534fe9726f",
   "created_at": "2024-03-07T15:36:34Z",
-  "head": "f248964dde1220e6485b13f820e6d898a66def59",
+  "head": "77b9febd9df8e72c4f12f049bdb386b1c744c254",
   "login": "lukewarlow",
   "number": 3294,
   "ref": "codelike-hostensurecancompilestrings",
   "revs": [
    {
+    "adate": "2024-04-15T16:01:39+01:00",
+    "author": "Luke Warlow",
+    "date": "2024-04-15T16:01:39+01:00",
+    "hash": "77b9febd9df8e72c4f12f049bdb386b1c744c254",
+    "parents": "3c43358cac078afca5aeee223107c15434fbe67c",
+    "subject": "Move HostEnsureCanCompileStrings back up to original position in CreateDynamicFunction, it no longer needs moving as it doesn't need the source string."
+   },
+   {
     "adate": "2024-04-15T15:31:44+01:00",
     "author": "Luke Warlow",
-    "date": "2024-04-15T15:34:02+01:00",
-    "hash": "f248964dde1220e6485b13f820e6d898a66def59",
+    "date": "2024-04-15T15:52:04+01:00",
+    "hash": "3c43358cac078afca5aeee223107c15434fbe67c",
     "parents": "1c36fd052d5627e56cded1e38e89342ed99d5fb2",
     "subject": "Address comments"
    },
@@ -337,7 +345,7 @@
    }
   ],
   "title": "Normative: Allow CodeLike object evaluation",
-  "updated_at": "2024-04-15T14:34:23Z"
+  "updated_at": "2024-04-15T15:01:46Z"
  },
  {
   "base": "f012b38779e8399191e25e82fe797cc9374f4288",
