@@ -102,11 +102,19 @@
  {
   "base": "5d8f62d6ab761960206c3f6ddf4992534fe9726f",
   "created_at": "2024-04-01T14:48:05Z",
-  "head": "9a2743d58fa3039f630fbcbf55665d0131c6f345",
+  "head": "c272bb7a51a2c3d6a38356729ef1ce545aec8310",
   "login": "jmdyck",
   "number": 3309,
   "ref": "the_sdo_name",
   "revs": [
+   {
+    "adate": "2024-04-19T17:08:31-04:00",
+    "author": "Michael Dyck",
+    "date": "2024-04-19T17:16:51-04:00",
+    "hash": "c272bb7a51a2c3d6a38356729ef1ce545aec8310",
+    "parents": "9a2743d58fa3039f630fbcbf55665d0131c6f345",
+    "subject": "fixup: Reinstate all but one \"the\" and add a bunch more"
+   },
    {
     "adate": "2024-04-01T09:17:07-04:00",
     "author": "Michael Dyck",
@@ -141,7 +149,7 @@
    }
   ],
   "title": "Editorial: Remove \"the\" before SDO-names",
-  "updated_at": "2024-04-01T14:49:49Z"
+  "updated_at": "2024-04-19T21:29:29Z"
  },
  {
   "base": "5d8f62d6ab761960206c3f6ddf4992534fe9726f",
