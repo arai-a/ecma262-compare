@@ -1,6 +1,26 @@
 [
  {
   "base": "5d8f62d6ab761960206c3f6ddf4992534fe9726f",
+  "created_at": "2024-04-23T10:44:11Z",
+  "head": "aedfbdb5a0393404e8e0e7258e9efb978d0b3a5d",
+  "login": "rkirsling",
+  "number": 3316,
+  "ref": "remove-ispropertykey-ao",
+  "revs": [
+   {
+    "adate": "2024-04-23T19:42:03+09:00",
+    "author": "Ross Kirsling",
+    "date": "2024-04-23T19:42:03+09:00",
+    "hash": "aedfbdb5a0393404e8e0e7258e9efb978d0b3a5d",
+    "parents": "5d8f62d6ab761960206c3f6ddf4992534fe9726f",
+    "subject": "Editorial: Do away with IsPropertyKey AO."
+   }
+  ],
+  "title": "Editorial: Do away with IsPropertyKey AO.",
+  "updated_at": "2024-04-23T10:44:11Z"
+ },
+ {
+  "base": "5d8f62d6ab761960206c3f6ddf4992534fe9726f",
   "created_at": "2024-04-17T22:54:44Z",
   "head": "a8d73963d2966ae70797e4ef9a10839a2443608d",
   "login": "syg",
@@ -154,11 +174,19 @@
  {
   "base": "5d8f62d6ab761960206c3f6ddf4992534fe9726f",
   "created_at": "2024-03-29T10:20:02Z",
-  "head": "4d1a4b5afc2de2c219d7f1777052cb20de6b2735",
+  "head": "238278527704e3cbe65b33bf71a8d1d735841dd5",
   "login": "rkirsling",
   "number": 3307,
   "ref": "loosen-referenced-name-in-reference-records",
   "revs": [
+   {
+    "adate": "2024-04-23T19:45:58+09:00",
+    "author": "Ross Kirsling",
+    "date": "2024-04-23T19:45:58+09:00",
+    "hash": "238278527704e3cbe65b33bf71a8d1d735841dd5",
+    "parents": "4d1a4b5afc2de2c219d7f1777052cb20de6b2735",
+    "subject": "Update phrasing to match #3316."
+   },
    {
     "adate": "2024-03-30T18:21:57+09:00",
     "author": "Ross Kirsling",
@@ -176,8 +204,8 @@
     "subject": "Allow [[ReferencedName]] in Reference Records to be a not-yet-resolved property key."
    }
   ],
-  "title": "Allow [[ReferencedName]] in Reference Records to be a not-yet-resolved property key.",
-  "updated_at": "2024-03-30T11:02:45Z"
+  "title": "Normative: Allow [[ReferencedName]] in Reference Records to be a not-yet-resolved property key",
+  "updated_at": "2024-04-23T10:46:40Z"
  },
  {
   "base": "5d8f62d6ab761960206c3f6ddf4992534fe9726f",
