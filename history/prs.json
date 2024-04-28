@@ -1,62 +1,6 @@
 [
  {
   "base": "5d8f62d6ab761960206c3f6ddf4992534fe9726f",
-  "created_at": "2024-04-23T10:44:11Z",
-  "head": "a020e875860c8d50f8c2a3aec10988b93edcff5e",
-  "login": "rkirsling",
-  "number": 3316,
-  "ref": "remove-ispropertykey-ao",
-  "revs": [
-   {
-    "adate": "2024-04-23T22:57:10+09:00",
-    "author": "Ross Kirsling",
-    "date": "2024-04-23T22:57:10+09:00",
-    "hash": "a020e875860c8d50f8c2a3aec10988b93edcff5e",
-    "parents": "aedfbdb5a0393404e8e0e7258e9efb978d0b3a5d",
-    "subject": "Address feedback."
-   },
-   {
-    "adate": "2024-04-23T19:42:03+09:00",
-    "author": "Ross Kirsling",
-    "date": "2024-04-23T19:42:03+09:00",
-    "hash": "aedfbdb5a0393404e8e0e7258e9efb978d0b3a5d",
-    "parents": "5d8f62d6ab761960206c3f6ddf4992534fe9726f",
-    "subject": "Editorial: Do away with IsPropertyKey AO."
-   }
-  ],
-  "title": "Editorial: Do away with IsPropertyKey AO.",
-  "updated_at": "2024-04-23T13:57:17Z"
- },
- {
-  "base": "5d8f62d6ab761960206c3f6ddf4992534fe9726f",
-  "created_at": "2024-04-17T22:54:44Z",
-  "head": "1834a73925c8f2057814cb56d9b54067caffc447",
-  "login": "syg",
-  "number": 3313,
-  "ref": "editorial-syncfromasync-not-exposed-to-user-code",
-  "revs": [
-   {
-    "adate": "2024-04-24T14:07:41-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2024-04-24T14:07:41-07:00",
-    "hash": "1834a73925c8f2057814cb56d9b54067caffc447",
-    "parents": "a8d73963d2966ae70797e4ef9a10839a2443608d",
-    "subject": "Drop redundant mention that async-from-sync objects are internal"
-   },
-   {
-    "adate": "2024-04-17T15:52:36-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2024-04-17T15:54:13-07:00",
-    "hash": "a8d73963d2966ae70797e4ef9a10839a2443608d",
-    "parents": "5d8f62d6ab761960206c3f6ddf4992534fe9726f",
-    "subject": "Editorial: Call out async-from-sync iterators as internal"
-   }
-  ],
-  "title": "Editorial: Call out async-from-sync iterators as internal",
-  "updated_at": "2024-04-24T21:08:01Z"
- },
- {
-  "base": "5d8f62d6ab761960206c3f6ddf4992534fe9726f",
   "created_at": "2024-04-05T05:25:19Z",
   "head": "fbc10bef8ec186f696df35646b0430603de8392f",
   "login": "tc39",
@@ -370,26 +314,6 @@
   ],
   "title": "Editorial: For better accessibility, name all hyperlinks",
   "updated_at": "2024-03-26T14:27:53Z"
- },
- {
-  "base": "5d8f62d6ab761960206c3f6ddf4992534fe9726f",
-  "created_at": "2024-03-22T19:44:25Z",
-  "head": "ff720a9b77782616f5d63f7fd6c73d31a1515b9b",
-  "login": "ptomato",
-  "number": 3299,
-  "ref": "sortstringlistbycodeunit",
-  "revs": [
-   {
-    "adate": "2024-03-22T12:43:50-07:00",
-    "author": "Philip Chimento",
-    "date": "2024-03-29T14:18:04-07:00",
-    "hash": "ff720a9b77782616f5d63f7fd6c73d31a1515b9b",
-    "parents": "5d8f62d6ab761960206c3f6ddf4992534fe9726f",
-    "subject": "Editorial: Better phrasing for sorting Lists of Strings"
-   }
-  ],
-  "title": "Editorial: Introduce definition for sorting according to lexicographic code unit order",
-  "updated_at": "2024-03-29T21:20:46Z"
  },
  {
   "base": "5d8f62d6ab761960206c3f6ddf4992534fe9726f",
@@ -4068,9 +3992,9 @@
   "updated_at": "2020-03-27T07:01:25Z"
  },
  {
-  "base": "03e44104d41bb64c29fa5cf0937b5e62de94f98a",
+  "base": "705742e103127e1be093c8cb10006974678a78db",
   "created_at": "2019-07-13T02:30:44Z",
-  "head": "6ac9e7916eb1b9dfaf0d9cc7d38d7fbd9dac868f",
+  "head": "89504a7b8f5331bb23a4970ee728c1741ab503f2",
   "login": "jmdyck",
   "number": 1623,
   "ref": "index_strings",
@@ -4078,38 +4002,38 @@
    {
     "adate": "2019-07-12T11:59:54-04:00",
     "author": "Michael Dyck",
-    "date": "2023-11-23T09:36:23-05:00",
-    "hash": "6ac9e7916eb1b9dfaf0d9cc7d38d7fbd9dac868f",
-    "parents": "094b9ec9fb53632837cdeda75cc9a04bc4361b34",
+    "date": "2024-04-28T09:14:33-04:00",
+    "hash": "89504a7b8f5331bb23a4970ee728c1741ab503f2",
+    "parents": "8b3d4cdf66861c0ec9492e124a8ad22e02907655",
     "subject": "Editorial: some minor rewordings"
    },
    {
     "adate": "2019-07-12T11:12:43-04:00",
     "author": "Michael Dyck",
-    "date": "2023-11-23T09:36:23-05:00",
-    "hash": "094b9ec9fb53632837cdeda75cc9a04bc4361b34",
-    "parents": "2ab1226d932601eed03b58e3b7c6a559bc507b0d",
+    "date": "2024-04-28T09:14:31-04:00",
+    "hash": "8b3d4cdf66861c0ec9492e124a8ad22e02907655",
+    "parents": "fa6c85f81c890cfe448ff0addf806914c909fe07",
     "subject": "Editorial: Replace \"array index\" with \"Uint32-string\""
    },
    {
     "adate": "2019-07-12T10:23:31-04:00",
     "author": "Michael Dyck",
-    "date": "2023-11-23T09:36:21-05:00",
-    "hash": "2ab1226d932601eed03b58e3b7c6a559bc507b0d",
-    "parents": "a989ba8b69aaa12396cfbd0571d526d6c6e76cff",
+    "date": "2024-04-28T09:13:32-04:00",
+    "hash": "fa6c85f81c890cfe448ff0addf806914c909fe07",
+    "parents": "5f3cf10c7b3526fcc51e5264f11212eac6ef52a3",
     "subject": "Editorial: Replace \"integer index\" with \"Uint53-string\""
    },
    {
     "adate": "2019-07-12T21:58:00-04:00",
     "author": "Michael Dyck",
-    "date": "2023-11-23T09:32:14-05:00",
-    "hash": "a989ba8b69aaa12396cfbd0571d526d6c6e76cff",
-    "parents": "03e44104d41bb64c29fa5cf0937b5e62de94f98a",
+    "date": "2024-04-28T09:09:28-04:00",
+    "hash": "5f3cf10c7b3526fcc51e5264f11212eac6ef52a3",
+    "parents": "705742e103127e1be093c8cb10006974678a78db",
     "subject": "Editorial: Fix wording in Note for Arguments exotic objects"
    }
   ],
   "title": "Editorial: Replace terms \"integer index\" and \"array index\"",
-  "updated_at": "2023-11-23T15:23:10Z"
+  "updated_at": "2024-04-28T14:02:38Z"
  },
  {
   "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
