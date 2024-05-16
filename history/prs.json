@@ -156,40 +156,96 @@
   "updated_at": "2024-04-17T22:30:09Z"
  },
  {
-  "base": "5d8f62d6ab761960206c3f6ddf4992534fe9726f",
+  "base": "705742e103127e1be093c8cb10006974678a78db",
   "created_at": "2024-04-04T19:52:12Z",
-  "head": "89a747ae8d6f994af1134aecdab8fca47303d972",
+  "head": "13afc979913f96f6dea17717b63cbdcc0787ec93",
   "login": "tc39",
   "number": 3310,
   "ref": "GH-2930",
   "revs": [
    {
+    "adate": "2024-05-16T17:07:12-06:00",
+    "author": "Michael Ficarra",
+    "date": "2024-05-16T17:07:12-06:00",
+    "hash": "13afc979913f96f6dea17717b63cbdcc0787ec93",
+    "parents": "96a692cc67b04584fcca2629357ac822a0afe554",
+    "subject": "fix formatting"
+   },
+   {
+    "adate": "2024-05-16T17:04:25-06:00",
+    "author": "Michael Ficarra",
+    "date": "2024-05-16T17:04:25-06:00",
+    "hash": "96a692cc67b04584fcca2629357ac822a0afe554",
+    "parents": "8af0bfd44eca8c16b2a4561c4f998ec03c022e49",
+    "subject": "revert ASCIISign change"
+   },
+   {
+    "adate": "2024-05-16T17:03:18-06:00",
+    "author": "Michael Ficarra",
+    "date": "2024-05-16T17:03:18-06:00",
+    "hash": "8af0bfd44eca8c16b2a4561c4f998ec03c022e49",
+    "parents": "e1c363440fe05900809979e3ce8fe82670eeb2c7",
+    "subject": "more &lt;(LF|CR|LS|PS)&gt;"
+   },
+   {
+    "adate": "2024-05-16T16:54:37-06:00",
+    "author": "Michael Ficarra",
+    "date": "2024-05-16T16:54:37-06:00",
+    "hash": "e1c363440fe05900809979e3ce8fe82670eeb2c7",
+    "parents": "148d32d357f3e3d6379c6c1561d246ad9a5306b4",
+    "subject": "un-revert the note"
+   },
+   {
+    "adate": "2024-05-16T16:40:41-06:00",
+    "author": "Michael Ficarra",
+    "date": "2024-05-16T16:40:41-06:00",
+    "hash": "148d32d357f3e3d6379c6c1561d246ad9a5306b4",
+    "parents": "0bae1b9d909214937c9ed86859deec67f4e47e7b",
+    "subject": "feedback"
+   },
+   {
+    "adate": "2024-05-16T16:20:10-06:00",
+    "author": "Michael Ficarra",
+    "date": "2024-05-16T16:20:10-06:00",
+    "hash": "0bae1b9d909214937c9ed86859deec67f4e47e7b",
+    "parents": "9c2731d4d5877ac81e1d7fb97f15275dcc647cc9",
+    "subject": "revert note change"
+   },
+   {
+    "adate": "2024-05-16T16:16:36-06:00",
+    "author": "Michael Ficarra",
+    "date": "2024-05-16T16:16:36-06:00",
+    "hash": "9c2731d4d5877ac81e1d7fb97f15275dcc647cc9",
+    "parents": "da5c37ae622a327cb79463dd5793f33c7315e2c0",
+    "subject": "hexits"
+   },
+   {
     "adate": "2024-04-05T20:36:12-06:00",
     "author": "Michael Ficarra",
-    "date": "2024-04-05T20:36:12-06:00",
-    "hash": "89a747ae8d6f994af1134aecdab8fca47303d972",
-    "parents": "e8ea07fd707b3b51e439ccf380fde00d07c03ce7",
+    "date": "2024-05-16T15:50:46-06:00",
+    "hash": "da5c37ae622a327cb79463dd5793f33c7315e2c0",
+    "parents": "7f444393f6b1d454776fc839f3b073063e1a294b",
     "subject": "more consistent notation"
    },
    {
     "adate": "2024-04-05T20:29:07-06:00",
     "author": "Michael Ficarra",
-    "date": "2024-04-05T20:29:07-06:00",
-    "hash": "e8ea07fd707b3b51e439ccf380fde00d07c03ce7",
-    "parents": "ce3e17663910e10be530994a239402e662e9652f",
+    "date": "2024-05-16T15:50:46-06:00",
+    "hash": "7f444393f6b1d454776fc839f3b073063e1a294b",
+    "parents": "6ca33cb4fb91b92df5c199a46887c48b7867fe4d",
     "subject": "add a note about notation back"
    },
    {
     "adate": "2024-04-04T13:50:42-06:00",
     "author": "Michael Ficarra",
-    "date": "2024-04-04T13:59:24-06:00",
-    "hash": "ce3e17663910e10be530994a239402e662e9652f",
-    "parents": "5d8f62d6ab761960206c3f6ddf4992534fe9726f",
+    "date": "2024-05-16T15:50:46-06:00",
+    "hash": "6ca33cb4fb91b92df5c199a46887c48b7867fe4d",
+    "parents": "705742e103127e1be093c8cb10006974678a78db",
     "subject": "WIP"
    }
   ],
   "title": "Editorial: refer to code points directly by name/number instead of using aliases",
-  "updated_at": "2024-04-06T02:36:21Z"
+  "updated_at": "2024-05-16T23:11:52Z"
  },
  {
   "base": "5d8f62d6ab761960206c3f6ddf4992534fe9726f",
