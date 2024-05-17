@@ -158,11 +158,27 @@
  {
   "base": "705742e103127e1be093c8cb10006974678a78db",
   "created_at": "2024-04-04T19:52:12Z",
-  "head": "13afc979913f96f6dea17717b63cbdcc0787ec93",
+  "head": "8f688170561a339e2e6c6c82ee7868e60e0fd3b2",
   "login": "tc39",
   "number": 3310,
   "ref": "GH-2930",
   "revs": [
+   {
+    "adate": "2024-05-16T19:56:58-06:00",
+    "author": "Michael Ficarra",
+    "date": "2024-05-16T19:56:58-06:00",
+    "hash": "8f688170561a339e2e6c6c82ee7868e60e0fd3b2",
+    "parents": "a7c089f07e4eef137f93f9dd7e3b8abcc2013da0",
+    "subject": "typo"
+   },
+   {
+    "adate": "2024-05-16T19:07:34-06:00",
+    "author": "Michael Ficarra",
+    "date": "2024-05-16T19:07:48-06:00",
+    "hash": "a7c089f07e4eef137f93f9dd7e3b8abcc2013da0",
+    "parents": "13afc979913f96f6dea17717b63cbdcc0787ec93",
+    "subject": "everyone always forgets about Annex A"
+   },
    {
     "adate": "2024-05-16T17:07:12-06:00",
     "author": "Michael Ficarra",
@@ -245,7 +261,7 @@
    }
   ],
   "title": "Editorial: refer to code points directly by name/number instead of using aliases",
-  "updated_at": "2024-05-16T23:11:52Z"
+  "updated_at": "2024-05-17T01:57:03Z"
  },
  {
   "base": "5d8f62d6ab761960206c3f6ddf4992534fe9726f",
