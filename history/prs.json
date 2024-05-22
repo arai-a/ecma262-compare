@@ -1,26 +1,6 @@
 [
  {
   "base": "705742e103127e1be093c8cb10006974678a78db",
-  "created_at": "2024-05-21T15:10:28Z",
-  "head": "5e6df99f461a5b59657dec1a166425cee933cda7",
-  "login": "tc39",
-  "number": 3332,
-  "ref": "no-undef-realm",
-  "revs": [
-   {
-    "adate": "2024-05-21T08:07:07-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2024-05-21T08:07:07-07:00",
-    "hash": "5e6df99f461a5b59657dec1a166425cee933cda7",
-    "parents": "705742e103127e1be093c8cb10006974678a78db",
-    "subject": "Layering: the [[Realm]] of a Script Record cannot be *undefined*"
-   }
-  ],
-  "title": "Layering: the [[Realm]] of a Script Record cannot be *undefined*",
-  "updated_at": "2024-05-21T15:10:28Z"
- },
- {
-  "base": "705742e103127e1be093c8cb10006974678a78db",
   "created_at": "2024-05-16T21:25:04Z",
   "head": "94b702f7a89da0859ddab53dbfee6e8f7adca753",
   "login": "tc39",
@@ -61,48 +41,20 @@
  },
  {
   "base": "705742e103127e1be093c8cb10006974678a78db",
-  "created_at": "2024-05-10T08:22:52Z",
-  "head": "8ada8df0708b207da630f49377be5ac477d01b89",
-  "login": "jhnaldo",
-  "number": 3325,
-  "ref": "update-esmeta",
-  "revs": [
-   {
-    "adate": "2024-05-20T11:14:30+09:00",
-    "author": "Jihyeok Park",
-    "date": "2024-05-20T11:14:30+09:00",
-    "hash": "8ada8df0708b207da630f49377be5ac477d01b89",
-    "parents": "05f5fb019a6664a1d0ca8d95637b2dc079502159",
-    "subject": "Meta: Upgrade ESMeta to v0.4.1"
-   },
-   {
-    "adate": "2024-05-10T16:56:34+09:00",
-    "author": "Jihyeok Park",
-    "date": "2024-05-10T16:56:34+09:00",
-    "hash": "05f5fb019a6664a1d0ca8d95637b2dc079502159",
-    "parents": "2f9c6019765222910fbed01f6ec92d1585757034",
-    "subject": "Meta: Upgrade ESMeta to v0.4.0"
-   },
-   {
-    "adate": "2024-05-10T16:49:38+09:00",
-    "author": "Jihyeok Park",
-    "date": "2024-05-10T16:49:38+09:00",
-    "hash": "2f9c6019765222910fbed01f6ec92d1585757034",
-    "parents": "705742e103127e1be093c8cb10006974678a78db",
-    "subject": "Meta: Upgrade ESMeta to v0.4.0"
-   }
-  ],
-  "title": "Meta: Upgrade ESMeta to v0.4.1",
-  "updated_at": "2024-05-20T02:23:13Z"
- },
- {
-  "base": "705742e103127e1be093c8cb10006974678a78db",
   "created_at": "2024-05-06T23:32:17Z",
-  "head": "88849441ebb30a65ad99c478daf29b083d6b9184",
+  "head": "d499dd6d88561bf8e0337abb8dfa095bdacf7e70",
   "login": "syg",
   "number": 3321,
   "ref": "define-orders",
   "revs": [
+   {
+    "adate": "2024-05-22T15:06:39-07:00",
+    "author": "Shu-yu Guo",
+    "date": "2024-05-22T15:06:39-07:00",
+    "hash": "d499dd6d88561bf8e0337abb8dfa095bdacf7e70",
+    "parents": "88849441ebb30a65ad99c478daf29b083d6b9184",
+    "subject": "Use \"both\" when testing membership for 2 things"
+   },
    {
     "adate": "2024-05-17T13:39:06-07:00",
     "author": "Shu-yu Guo",
@@ -153,56 +105,12 @@
    }
   ],
   "title": "Editorial: Rework memory model relations",
-  "updated_at": "2024-05-17T20:47:25Z"
+  "updated_at": "2024-05-22T22:06:59Z"
  },
  {
-  "base": "5d8f62d6ab761960206c3f6ddf4992534fe9726f",
-  "created_at": "2024-04-05T05:25:19Z",
-  "head": "fbc10bef8ec186f696df35646b0430603de8392f",
-  "login": "tc39",
-  "number": 3311,
-  "ref": "iterator-step-closes",
-  "revs": [
-   {
-    "adate": "2024-04-17T15:29:44-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2024-04-17T15:29:44-07:00",
-    "hash": "fbc10bef8ec186f696df35646b0430603de8392f",
-    "parents": "06701f95cdf547cf6f9721062bebf505bae3b762",
-    "subject": "tweak description of [[Done]] slot"
-   },
-   {
-    "adate": "2024-04-04T21:43:14-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2024-04-04T22:22:07-07:00",
-    "hash": "06701f95cdf547cf6f9721062bebf505bae3b762",
-    "parents": "c318f7a4fb11227a1c8cb6fd77797cc78bd9571b",
-    "subject": "Editorial: have IteratorNext close the Iterator Record"
-   },
-   {
-    "adate": "2024-04-04T21:35:19-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2024-04-04T21:45:47-07:00",
-    "hash": "c318f7a4fb11227a1c8cb6fd77797cc78bd9571b",
-    "parents": "de216f97f7499748952633987d6db8c4824ba628",
-    "subject": "fixup! Editorial: express IteratorStepValue in terms of IteratorStep and IteratorValue"
-   },
-   {
-    "adate": "2024-04-04T21:26:58-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2024-04-04T21:44:46-07:00",
-    "hash": "de216f97f7499748952633987d6db8c4824ba628",
-    "parents": "5d8f62d6ab761960206c3f6ddf4992534fe9726f",
-    "subject": "Editorial: have IteratorStep close the Iterator Record"
-   }
-  ],
-  "title": "More tweaks for the iterator handling AOs",
-  "updated_at": "2024-04-17T22:30:09Z"
- },
- {
-  "base": "705742e103127e1be093c8cb10006974678a78db",
+  "base": "a92f3e906943ee1abdbf924a27c966524474f0c4",
   "created_at": "2024-04-04T19:52:12Z",
-  "head": "30dd718ed81baeedbc971a1e5d25ea32bc562f65",
+  "head": "93c25fc8d42f3d4a79ac6eb728cd3bc311e850b9",
   "login": "tc39",
   "number": 3310,
   "ref": "GH-2930",
@@ -210,130 +118,110 @@
    {
     "adate": "2024-05-16T20:06:55-06:00",
     "author": "Michael Ficarra",
-    "date": "2024-05-16T20:06:55-06:00",
-    "hash": "30dd718ed81baeedbc971a1e5d25ea32bc562f65",
-    "parents": "8f688170561a339e2e6c6c82ee7868e60e0fd3b2",
+    "date": "2024-05-22T15:05:00-07:00",
+    "hash": "93c25fc8d42f3d4a79ac6eb728cd3bc311e850b9",
+    "parents": "eb07d91a7650b002c8ed8b46b534c58fe44ba64b",
     "subject": "still typo"
    },
    {
     "adate": "2024-05-16T19:56:58-06:00",
     "author": "Michael Ficarra",
-    "date": "2024-05-16T19:56:58-06:00",
-    "hash": "8f688170561a339e2e6c6c82ee7868e60e0fd3b2",
-    "parents": "a7c089f07e4eef137f93f9dd7e3b8abcc2013da0",
+    "date": "2024-05-22T15:05:00-07:00",
+    "hash": "eb07d91a7650b002c8ed8b46b534c58fe44ba64b",
+    "parents": "a5c63f07d21bce92d606183c551c26a631b4665d",
     "subject": "typo"
    },
    {
     "adate": "2024-05-16T19:07:34-06:00",
     "author": "Michael Ficarra",
-    "date": "2024-05-16T19:07:48-06:00",
-    "hash": "a7c089f07e4eef137f93f9dd7e3b8abcc2013da0",
-    "parents": "13afc979913f96f6dea17717b63cbdcc0787ec93",
+    "date": "2024-05-22T15:05:00-07:00",
+    "hash": "a5c63f07d21bce92d606183c551c26a631b4665d",
+    "parents": "0a64ef7453608e0b479cdad11a261d77782422c2",
     "subject": "everyone always forgets about Annex A"
    },
    {
     "adate": "2024-05-16T17:07:12-06:00",
     "author": "Michael Ficarra",
-    "date": "2024-05-16T17:07:12-06:00",
-    "hash": "13afc979913f96f6dea17717b63cbdcc0787ec93",
-    "parents": "96a692cc67b04584fcca2629357ac822a0afe554",
+    "date": "2024-05-22T15:05:00-07:00",
+    "hash": "0a64ef7453608e0b479cdad11a261d77782422c2",
+    "parents": "cb8bd8c9e90621a72baf79be9604cef0e664d250",
     "subject": "fix formatting"
    },
    {
     "adate": "2024-05-16T17:04:25-06:00",
     "author": "Michael Ficarra",
-    "date": "2024-05-16T17:04:25-06:00",
-    "hash": "96a692cc67b04584fcca2629357ac822a0afe554",
-    "parents": "8af0bfd44eca8c16b2a4561c4f998ec03c022e49",
+    "date": "2024-05-22T15:05:00-07:00",
+    "hash": "cb8bd8c9e90621a72baf79be9604cef0e664d250",
+    "parents": "4104527695e87e4917a1ba1d305ddd5f024d0783",
     "subject": "revert ASCIISign change"
    },
    {
     "adate": "2024-05-16T17:03:18-06:00",
     "author": "Michael Ficarra",
-    "date": "2024-05-16T17:03:18-06:00",
-    "hash": "8af0bfd44eca8c16b2a4561c4f998ec03c022e49",
-    "parents": "e1c363440fe05900809979e3ce8fe82670eeb2c7",
+    "date": "2024-05-22T15:05:00-07:00",
+    "hash": "4104527695e87e4917a1ba1d305ddd5f024d0783",
+    "parents": "e15a4debd8d00629ac7a147810e9a3887a3827a9",
     "subject": "more &lt;(LF|CR|LS|PS)&gt;"
    },
    {
     "adate": "2024-05-16T16:54:37-06:00",
     "author": "Michael Ficarra",
-    "date": "2024-05-16T16:54:37-06:00",
-    "hash": "e1c363440fe05900809979e3ce8fe82670eeb2c7",
-    "parents": "148d32d357f3e3d6379c6c1561d246ad9a5306b4",
+    "date": "2024-05-22T15:05:00-07:00",
+    "hash": "e15a4debd8d00629ac7a147810e9a3887a3827a9",
+    "parents": "5d70c9edfdc1a0a7f922265ad92fe910ac1337d0",
     "subject": "un-revert the note"
    },
    {
     "adate": "2024-05-16T16:40:41-06:00",
     "author": "Michael Ficarra",
-    "date": "2024-05-16T16:40:41-06:00",
-    "hash": "148d32d357f3e3d6379c6c1561d246ad9a5306b4",
-    "parents": "0bae1b9d909214937c9ed86859deec67f4e47e7b",
+    "date": "2024-05-22T15:05:00-07:00",
+    "hash": "5d70c9edfdc1a0a7f922265ad92fe910ac1337d0",
+    "parents": "b9365c3763132800c58b8985ca2bdeb26308d620",
     "subject": "feedback"
    },
    {
     "adate": "2024-05-16T16:20:10-06:00",
     "author": "Michael Ficarra",
-    "date": "2024-05-16T16:20:10-06:00",
-    "hash": "0bae1b9d909214937c9ed86859deec67f4e47e7b",
-    "parents": "9c2731d4d5877ac81e1d7fb97f15275dcc647cc9",
+    "date": "2024-05-22T15:05:00-07:00",
+    "hash": "b9365c3763132800c58b8985ca2bdeb26308d620",
+    "parents": "80989f2e23c63efb716afa445ef47f7a4b648597",
     "subject": "revert note change"
    },
    {
     "adate": "2024-05-16T16:16:36-06:00",
     "author": "Michael Ficarra",
-    "date": "2024-05-16T16:16:36-06:00",
-    "hash": "9c2731d4d5877ac81e1d7fb97f15275dcc647cc9",
-    "parents": "da5c37ae622a327cb79463dd5793f33c7315e2c0",
+    "date": "2024-05-22T15:05:00-07:00",
+    "hash": "80989f2e23c63efb716afa445ef47f7a4b648597",
+    "parents": "85c7abf95bf178b1c15b06fe4d34741722c8b890",
     "subject": "hexits"
    },
    {
     "adate": "2024-04-05T20:36:12-06:00",
     "author": "Michael Ficarra",
-    "date": "2024-05-16T15:50:46-06:00",
-    "hash": "da5c37ae622a327cb79463dd5793f33c7315e2c0",
-    "parents": "7f444393f6b1d454776fc839f3b073063e1a294b",
+    "date": "2024-05-22T15:05:00-07:00",
+    "hash": "85c7abf95bf178b1c15b06fe4d34741722c8b890",
+    "parents": "0660251f9d6a47c6de3947b73b5a146bcb825bf8",
     "subject": "more consistent notation"
    },
    {
     "adate": "2024-04-05T20:29:07-06:00",
     "author": "Michael Ficarra",
-    "date": "2024-05-16T15:50:46-06:00",
-    "hash": "7f444393f6b1d454776fc839f3b073063e1a294b",
-    "parents": "6ca33cb4fb91b92df5c199a46887c48b7867fe4d",
+    "date": "2024-05-22T15:05:00-07:00",
+    "hash": "0660251f9d6a47c6de3947b73b5a146bcb825bf8",
+    "parents": "9137b6fcd8d9907739aa873d495a58113ef7bd54",
     "subject": "add a note about notation back"
    },
    {
     "adate": "2024-04-04T13:50:42-06:00",
     "author": "Michael Ficarra",
-    "date": "2024-05-16T15:50:46-06:00",
-    "hash": "6ca33cb4fb91b92df5c199a46887c48b7867fe4d",
-    "parents": "705742e103127e1be093c8cb10006974678a78db",
+    "date": "2024-05-22T15:05:00-07:00",
+    "hash": "9137b6fcd8d9907739aa873d495a58113ef7bd54",
+    "parents": "a92f3e906943ee1abdbf924a27c966524474f0c4",
     "subject": "WIP"
    }
   ],
   "title": "Editorial: refer to code points directly by name/number instead of using aliases",
-  "updated_at": "2024-05-17T02:07:02Z"
- },
- {
-  "base": "705742e103127e1be093c8cb10006974678a78db",
-  "created_at": "2024-04-01T14:48:05Z",
-  "head": "9a742f8afd2243341dab50d74592975c90b6bd8b",
-  "login": "jmdyck",
-  "number": 3309,
-  "ref": "the_sdo_name",
-  "revs": [
-   {
-    "adate": "2024-03-31T13:12:07-04:00",
-    "author": "Michael Dyck",
-    "date": "2024-05-17T10:48:10-04:00",
-    "hash": "9a742f8afd2243341dab50d74592975c90b6bd8b",
-    "parents": "705742e103127e1be093c8cb10006974678a78db",
-    "subject": "Editorial: Insert \"the\" before SDO-names"
-   }
-  ],
-  "title": "Editorial: Insert \"the\" before SDO-names",
-  "updated_at": "2024-05-17T14:54:34Z"
+  "updated_at": "2024-05-22T22:20:19Z"
  },
  {
   "base": "5d8f62d6ab761960206c3f6ddf4992534fe9726f",
