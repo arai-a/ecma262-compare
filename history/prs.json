@@ -138,11 +138,19 @@
  {
   "base": "a92f3e906943ee1abdbf924a27c966524474f0c4",
   "created_at": "2024-04-04T19:52:12Z",
-  "head": "93c25fc8d42f3d4a79ac6eb728cd3bc311e850b9",
+  "head": "525c12792bb2d72bfdaf22dc61b8296a143848f5",
   "login": "tc39",
   "number": 3310,
   "ref": "GH-2930",
   "revs": [
+   {
+    "adate": "2024-05-23T10:57:22-06:00",
+    "author": "Michael Ficarra",
+    "date": "2024-05-23T10:57:22-06:00",
+    "hash": "525c12792bb2d72bfdaf22dc61b8296a143848f5",
+    "parents": "93c25fc8d42f3d4a79ac6eb728cd3bc311e850b9",
+    "subject": "fix Single Character Escape Sequences table"
+   },
    {
     "adate": "2024-05-16T20:06:55-06:00",
     "author": "Michael Ficarra",
@@ -249,7 +257,7 @@
    }
   ],
   "title": "Editorial: refer to code points directly by name/number instead of using aliases",
-  "updated_at": "2024-05-22T22:20:19Z"
+  "updated_at": "2024-05-23T16:57:31Z"
  },
  {
   "base": "5d8f62d6ab761960206c3f6ddf4992534fe9726f",
