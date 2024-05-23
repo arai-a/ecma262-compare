@@ -20,24 +20,24 @@
   "updated_at": "2024-05-23T00:51:45Z"
  },
  {
-  "base": "a92f3e906943ee1abdbf924a27c966524474f0c4",
+  "base": "1babaf809575e073f07b12e4907fadae8a45b349",
   "created_at": "2024-05-16T21:25:04Z",
-  "head": "d98edcd71f4fce1a1d00efeda8321cfa541e723e",
+  "head": "c305c1117e5c435f16107dbfbdc4aa39587c069c",
   "login": "tc39",
   "number": 3330,
   "ref": "are-both",
   "revs": [
    {
-    "adate": "2024-05-16T15:17:58-06:00",
+    "adate": "2024-05-23T15:09:24-07:00",
     "author": "Michael Ficarra",
-    "date": "2024-05-22T20:19:47-06:00",
-    "hash": "d98edcd71f4fce1a1d00efeda8321cfa541e723e",
-    "parents": "a92f3e906943ee1abdbf924a27c966524474f0c4",
-    "subject": "Editorial: remove some \"are both\" usages"
+    "date": "2024-05-23T15:09:24-07:00",
+    "hash": "c305c1117e5c435f16107dbfbdc4aa39587c069c",
+    "parents": "1babaf809575e073f07b12e4907fadae8a45b349",
+    "subject": "Editorial: remove some \"are both\" usages (#3330)"
    }
   ],
   "title": "Editorial: remove some \"are both\" usages",
-  "updated_at": "2024-05-23T02:24:56Z"
+  "updated_at": "2024-05-23T22:09:32Z"
  },
  {
   "base": "705742e103127e1be093c8cb10006974678a78db",
@@ -58,106 +58,6 @@
   ],
   "title": "Normative: add `Promise.try` (#3327)",
   "updated_at": "2024-05-14T22:13:37Z"
- },
- {
-  "base": "705742e103127e1be093c8cb10006974678a78db",
-  "created_at": "2024-05-06T23:32:17Z",
-  "head": "458855fb1fc06135dc6753ffcb537004d3163859",
-  "login": "syg",
-  "number": 3321,
-  "ref": "define-orders",
-  "revs": [
-   {
-    "adate": "2024-05-23T13:03:47-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2024-05-23T13:03:47-07:00",
-    "hash": "458855fb1fc06135dc6753ffcb537004d3163859",
-    "parents": "9c652431ec17dcbdb659f88c42bcadb19658f869",
-    "subject": "Typo2"
-   },
-   {
-    "adate": "2024-05-23T11:26:26-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2024-05-23T11:26:26-07:00",
-    "hash": "9c652431ec17dcbdb659f88c42bcadb19658f869",
-    "parents": "6fb81f9a247741a65b2c5635d76166ff9b920b5a",
-    "subject": "Typo"
-   },
-   {
-    "adate": "2024-05-23T10:28:34-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2024-05-23T10:28:34-07:00",
-    "hash": "6fb81f9a247741a65b2c5635d76166ff9b920b5a",
-    "parents": "35a5df95ee3ef21df49c095f7caea292d65afd68",
-    "subject": "Change markup per jmdyck's position"
-   },
-   {
-    "adate": "2024-05-22T15:29:44-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2024-05-22T15:29:44-07:00",
-    "hash": "35a5df95ee3ef21df49c095f7caea292d65afd68",
-    "parents": "d499dd6d88561bf8e0337abb8dfa095bdacf7e70",
-    "subject": "Remove commas, add id to least relation dfn"
-   },
-   {
-    "adate": "2024-05-22T15:06:39-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2024-05-22T15:06:39-07:00",
-    "hash": "d499dd6d88561bf8e0337abb8dfa095bdacf7e70",
-    "parents": "88849441ebb30a65ad99c478daf29b083d6b9184",
-    "subject": "Use \"both\" when testing membership for 2 things"
-   },
-   {
-    "adate": "2024-05-17T13:39:06-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2024-05-17T13:39:06-07:00",
-    "hash": "88849441ebb30a65ad99c478daf29b083d6b9184",
-    "parents": "306528060f38b3aa545b36690402b8025a6101fa",
-    "subject": "Missed \"to\""
-   },
-   {
-    "adate": "2024-05-17T12:19:26-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2024-05-17T12:19:26-07:00",
-    "hash": "306528060f38b3aa545b36690402b8025a6101fa",
-    "parents": "f7c038b93e84be3239f551097ddcc425b0e2185e",
-    "subject": "Address mficarra feedback"
-   },
-   {
-    "adate": "2024-05-08T16:16:12-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2024-05-08T16:16:12-07:00",
-    "hash": "f7c038b93e84be3239f551097ddcc425b0e2185e",
-    "parents": "d5310fac20a82cc3e0226fd4d878298731f0e7e1",
-    "subject": "a -> an"
-   },
-   {
-    "adate": "2024-05-08T09:18:37-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2024-05-08T09:18:37-07:00",
-    "hash": "d5310fac20a82cc3e0226fd4d878298731f0e7e1",
-    "parents": "a1f116a5d13ff8816dd40b16251eb138435c760f",
-    "subject": "jmdyck review"
-   },
-   {
-    "adate": "2024-05-07T07:56:26-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2024-05-07T07:56:26-07:00",
-    "hash": "a1f116a5d13ff8816dd40b16251eb138435c760f",
-    "parents": "f9553baf07f3b9017f88385cf5a95f3c975a3490",
-    "subject": "Address comments"
-   },
-   {
-    "adate": "2024-05-06T16:24:09-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2024-05-06T16:24:09-07:00",
-    "hash": "f9553baf07f3b9017f88385cf5a95f3c975a3490",
-    "parents": "705742e103127e1be093c8cb10006974678a78db",
-    "subject": "Editorial: Rework memory model relations"
-   }
-  ],
-  "title": "Editorial: Rework memory model relations",
-  "updated_at": "2024-05-23T20:03:54Z"
  },
  {
   "base": "a92f3e906943ee1abdbf924a27c966524474f0c4",
@@ -1174,34 +1074,6 @@
   ],
   "title": "\ud83d\udd25 remove health files (fallback to .github)",
   "updated_at": "2023-09-22T21:30:49Z"
- },
- {
-  "base": "a92f3e906943ee1abdbf924a27c966524474f0c4",
-  "created_at": "2023-08-02T20:09:46Z",
-  "head": "6a5342c270b2658bffd4203c6c989f87168f29f7",
-  "login": "jmdyck",
-  "number": 3139,
-  "ref": "InitializeHostDefinedRealm",
-  "revs": [
-   {
-    "adate": "2023-08-02T15:48:27-04:00",
-    "author": "Michael Dyck",
-    "date": "2024-05-23T16:03:38-04:00",
-    "hash": "6a5342c270b2658bffd4203c6c989f87168f29f7",
-    "parents": "97cf799ce7467bbf5cbd7d1ae65cd5ef1019a3c0",
-    "subject": "Editorial: Tweak the return of `SetDefaultGlobalBindings`"
-   },
-   {
-    "adate": "2022-02-09T23:49:54-05:00",
-    "author": "Michael Dyck",
-    "date": "2024-05-23T15:56:16-04:00",
-    "hash": "97cf799ce7467bbf5cbd7d1ae65cd5ef1019a3c0",
-    "parents": "a92f3e906943ee1abdbf924a27c966524474f0c4",
-    "subject": "Editorial: Inline CreateRealm + SetRealmGlobalObject into InitializeHostDefinedRealm"
-   }
-  ],
-  "title": "Editorial: InitializeHostDefinedRealm-related refactorings",
-  "updated_at": "2024-05-23T20:14:35Z"
  },
  {
   "base": "0802e7da54fc870af4e6c37b048428611c449f61",
