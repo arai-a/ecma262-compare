@@ -62,11 +62,19 @@
  {
   "base": "705742e103127e1be093c8cb10006974678a78db",
   "created_at": "2024-05-06T23:32:17Z",
-  "head": "9c652431ec17dcbdb659f88c42bcadb19658f869",
+  "head": "458855fb1fc06135dc6753ffcb537004d3163859",
   "login": "syg",
   "number": 3321,
   "ref": "define-orders",
   "revs": [
+   {
+    "adate": "2024-05-23T13:03:47-07:00",
+    "author": "Shu-yu Guo",
+    "date": "2024-05-23T13:03:47-07:00",
+    "hash": "458855fb1fc06135dc6753ffcb537004d3163859",
+    "parents": "9c652431ec17dcbdb659f88c42bcadb19658f869",
+    "subject": "Typo2"
+   },
    {
     "adate": "2024-05-23T11:26:26-07:00",
     "author": "Shu-yu Guo",
@@ -149,7 +157,7 @@
    }
   ],
   "title": "Editorial: Rework memory model relations",
-  "updated_at": "2024-05-23T18:26:35Z"
+  "updated_at": "2024-05-23T20:03:54Z"
  },
  {
   "base": "a92f3e906943ee1abdbf924a27c966524474f0c4",
@@ -1170,62 +1178,30 @@
  {
   "base": "a92f3e906943ee1abdbf924a27c966524474f0c4",
   "created_at": "2023-08-02T20:09:46Z",
-  "head": "4b9eb20bc8b93547d994c266d1623317f258fa4d",
+  "head": "6a5342c270b2658bffd4203c6c989f87168f29f7",
   "login": "jmdyck",
   "number": 3139,
   "ref": "InitializeHostDefinedRealm",
   "revs": [
    {
-    "adate": "2023-08-02T14:44:48-04:00",
-    "author": "Michael Dyck",
-    "date": "2024-05-22T21:11:38-04:00",
-    "hash": "4b9eb20bc8b93547d994c266d1623317f258fa4d",
-    "parents": "3aa97fe84ccea16868fe490a0082c287a0ac1c11",
-    "subject": "Inline CreateRealm into InitializeHostDefinedRealm"
-   },
-   {
     "adate": "2023-08-02T15:48:27-04:00",
     "author": "Michael Dyck",
-    "date": "2024-05-22T21:11:38-04:00",
-    "hash": "3aa97fe84ccea16868fe490a0082c287a0ac1c11",
-    "parents": "7268f09efbcf3b249350cc86d5543c53a093a864",
-    "subject": "Tweak the return of `SetDefaultGlobalBindings`"
-   },
-   {
-    "adate": "2023-08-02T14:17:43-04:00",
-    "author": "Michael Dyck",
-    "date": "2024-05-22T21:11:38-04:00",
-    "hash": "7268f09efbcf3b249350cc86d5543c53a093a864",
-    "parents": "86fc8a7127b2817a4bd43d11d736b4b1fe6d9665",
-    "subject": "Simplify InitializeHostDefinedRealm"
-   },
-   {
-    "adate": "2023-08-02T14:14:15-04:00",
-    "author": "Michael Dyck",
-    "date": "2024-05-22T21:11:38-04:00",
-    "hash": "86fc8a7127b2817a4bd43d11d736b4b1fe6d9665",
-    "parents": "8d85f144f5261ab35c0c507043abb79bd4283099",
-    "subject": "Inline SetRealmGlobalObject into InitializeHostDefinedRealm"
-   },
-   {
-    "adate": "2022-02-09T20:56:45-05:00",
-    "author": "Michael Dyck",
-    "date": "2024-05-22T21:11:38-04:00",
-    "hash": "8d85f144f5261ab35c0c507043abb79bd4283099",
-    "parents": "b9222392348787b1fcdbfdba4f3d24a542d6e8d8",
-    "subject": "Reformat the two \"If the host requires\" steps more conventionally"
+    "date": "2024-05-23T16:03:38-04:00",
+    "hash": "6a5342c270b2658bffd4203c6c989f87168f29f7",
+    "parents": "97cf799ce7467bbf5cbd7d1ae65cd5ef1019a3c0",
+    "subject": "Editorial: Tweak the return of `SetDefaultGlobalBindings`"
    },
    {
     "adate": "2022-02-09T23:49:54-05:00",
     "author": "Michael Dyck",
-    "date": "2024-05-22T21:11:38-04:00",
-    "hash": "b9222392348787b1fcdbfdba4f3d24a542d6e8d8",
+    "date": "2024-05-23T15:56:16-04:00",
+    "hash": "97cf799ce7467bbf5cbd7d1ae65cd5ef1019a3c0",
     "parents": "a92f3e906943ee1abdbf924a27c966524474f0c4",
-    "subject": "Move InitializeHostDefinedRealm() into the 'Realms' section"
+    "subject": "Editorial: Inline CreateRealm + SetRealmGlobalObject into InitializeHostDefinedRealm"
    }
   ],
   "title": "Editorial: InitializeHostDefinedRealm-related refactorings",
-  "updated_at": "2024-05-23T14:05:34Z"
+  "updated_at": "2024-05-23T20:14:35Z"
  },
  {
   "base": "0802e7da54fc870af4e6c37b048428611c449f61",
