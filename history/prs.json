@@ -564,9 +564,9 @@
   "updated_at": "2024-04-09T13:52:21Z"
  },
  {
-  "base": "03e44104d41bb64c29fa5cf0937b5e62de94f98a",
+  "base": "a92f3e906943ee1abdbf924a27c966524474f0c4",
   "created_at": "2023-11-22T16:10:17Z",
-  "head": "5ddd8593615c8884ecda34befbb3053427491dd3",
+  "head": "8fa7cb3bb6d6428d27022279f1226173388b324c",
   "login": "jmdyck",
   "number": 3227,
   "ref": "unchecked_covering_node",
@@ -574,38 +574,38 @@
    {
     "adate": "2023-11-24T11:03:33-05:00",
     "author": "Michael Dyck",
-    "date": "2023-11-24T11:03:33-05:00",
-    "hash": "5ddd8593615c8884ecda34befbb3053427491dd3",
-    "parents": "d2f6cd1fb15d0c9defd84efe62799a730a5bb3cf",
+    "date": "2024-05-22T20:56:29-04:00",
+    "hash": "8fa7cb3bb6d6428d27022279f1226173388b324c",
+    "parents": "5398da015d807b763845c73d647a4d101226a0da",
     "subject": "Bring together all the prose about ObjectLiteral being a cover for ObjectAssignmentPattern."
    },
    {
     "adate": "2023-11-23T21:26:42-05:00",
     "author": "Michael Dyck",
-    "date": "2023-11-23T21:26:42-05:00",
-    "hash": "d2f6cd1fb15d0c9defd84efe62799a730a5bb3cf",
-    "parents": "b598519a5b883f1a4736816fcdec83a0fc724e2e",
+    "date": "2024-05-22T20:56:27-04:00",
+    "hash": "5398da015d807b763845c73d647a4d101226a0da",
+    "parents": "3d368dde6ad7923ef20e13d4ecf5bb41de21707d",
     "subject": "Move the early error rule for ObjectLiteral"
    },
    {
     "adate": "2023-11-22T10:49:02-05:00",
     "author": "Michael Dyck",
-    "date": "2023-11-23T08:58:30-05:00",
-    "hash": "b598519a5b883f1a4736816fcdec83a0fc724e2e",
-    "parents": "4eb8a932e91b60ef96542e3e2b2f6521309ae2b3",
+    "date": "2024-05-22T20:53:12-04:00",
+    "hash": "3d368dde6ad7923ef20e13d4ecf5bb41de21707d",
+    "parents": "5de9b087ca5470c8e532d9c9ebdfaa52852babdd",
     "subject": "Editorial: Delete now-redundant para + add example"
    },
    {
     "adate": "2023-11-22T09:12:23-05:00",
     "author": "Michael Dyck",
-    "date": "2023-11-23T08:58:30-05:00",
-    "hash": "4eb8a932e91b60ef96542e3e2b2f6521309ae2b3",
-    "parents": "03e44104d41bb64c29fa5cf0937b5e62de94f98a",
+    "date": "2024-05-22T20:53:12-04:00",
+    "hash": "5de9b087ca5470c8e532d9c9ebdfaa52852babdd",
+    "parents": "a92f3e906943ee1abdbf924a27c966524474f0c4",
     "subject": "Editorial: Don't check a cover for early errors"
    }
   ],
   "title": "Editorial: Don't check a cover for early errors",
-  "updated_at": "2023-11-24T16:08:24Z"
+  "updated_at": "2024-05-23T13:58:25Z"
  },
  {
   "base": "82c99bbc44e4b63e3a14ffbf0ac90ce8359c1010",
@@ -780,9 +780,9 @@
   "updated_at": "2023-10-30T03:21:42Z"
  },
  {
-  "base": "3d5a70b1b543a776dd5e255f8bfd877bf08bdc74",
+  "base": "a92f3e906943ee1abdbf924a27c966524474f0c4",
   "created_at": "2023-10-29T03:33:26Z",
-  "head": "9e080e8a3117fb576d5ef3592b578bb7f24e8091",
+  "head": "852320995dd25863309988b722615dc4138115e2",
   "login": "jmdyck",
   "number": 3210,
   "ref": "SDO",
@@ -790,110 +790,110 @@
    {
     "adate": "2024-02-28T15:04:56-05:00",
     "author": "Michael Dyck",
-    "date": "2024-03-21T14:29:31-04:00",
-    "hash": "9e080e8a3117fb576d5ef3592b578bb7f24e8091",
-    "parents": "6ebd7c42cc5dade91570a68f5af8a95859c61de2",
+    "date": "2024-05-22T21:04:49-04:00",
+    "hash": "852320995dd25863309988b722615dc4138115e2",
+    "parents": "c68f5e3e56cdf1500abbf18a8b55068cce0abbb5",
     "subject": "fixup: In example, remove \"the\" before \"VarDeclaredNames\""
    },
    {
     "adate": "2024-02-28T14:15:23-05:00",
     "author": "Michael Dyck",
-    "date": "2024-03-21T14:29:31-04:00",
-    "hash": "6ebd7c42cc5dade91570a68f5af8a95859c61de2",
-    "parents": "74761d7be1eeb58166367dc4779a8127c6bcddb3",
+    "date": "2024-05-22T21:04:49-04:00",
+    "hash": "c68f5e3e56cdf1500abbf18a8b55068cce0abbb5",
+    "parents": "ee75dca11b43b42082464e8f75727c071d55a68f",
     "subject": "fixup re introducing \"subject Parse Node\""
    },
    {
     "adate": "2023-10-30T22:51:24-04:00",
     "author": "Michael Dyck",
-    "date": "2024-03-21T14:29:31-04:00",
-    "hash": "74761d7be1eeb58166367dc4779a8127c6bcddb3",
-    "parents": "aedc3ea8ddc60bb03c4e1ba35beece7f81577c27",
+    "date": "2024-05-22T21:04:47-04:00",
+    "hash": "ee75dca11b43b42082464e8f75727c071d55a68f",
+    "parents": "4ddeb0dc33dc6d733b9224a016b75b58d41b069a",
     "subject": "fixup: insert more 'this'"
    },
    {
     "adate": "2023-10-28T23:20:34-04:00",
     "author": "Michael Dyck",
-    "date": "2024-03-21T14:29:29-04:00",
-    "hash": "aedc3ea8ddc60bb03c4e1ba35beece7f81577c27",
-    "parents": "c0ff12b5e072cc4ac8493ca240be44e59f6da7c1",
+    "date": "2024-05-22T21:03:48-04:00",
+    "hash": "4ddeb0dc33dc6d733b9224a016b75b58d41b069a",
+    "parents": "1a92abfac3c04357b4ed0d04fcc6ab1d194290df",
     "subject": "Change \"this production\" to \"this Parse Node\""
    },
    {
     "adate": "2023-10-28T23:19:28-04:00",
     "author": "Michael Dyck",
-    "date": "2024-03-21T14:28:10-04:00",
-    "hash": "c0ff12b5e072cc4ac8493ca240be44e59f6da7c1",
-    "parents": "d8e4da2aa5acc35fd0f7b3a510aee38d75e90330",
+    "date": "2024-05-22T21:03:48-04:00",
+    "hash": "1a92abfac3c04357b4ed0d04fcc6ab1d194290df",
+    "parents": "629ae15690e1e50f81f83ab24425886d9557cbd1",
     "subject": "Change \"this production\" (and 1 \"this phrase\") to \"this |Nonterminal|\""
    },
    {
     "adate": "2023-10-28T22:58:05-04:00",
     "author": "Michael Dyck",
-    "date": "2024-03-21T14:23:42-04:00",
-    "hash": "d8e4da2aa5acc35fd0f7b3a510aee38d75e90330",
-    "parents": "9f131de440f9f9f7a8b04f0f45002d575bb7b392",
+    "date": "2024-05-22T21:03:48-04:00",
+    "hash": "629ae15690e1e50f81f83ab24425886d9557cbd1",
+    "parents": "b1bf5bb29903ef44bce87cb1554a344b0d3315a8",
     "subject": "Change \"the |UnaryExpression|\" to \"this |UnaryExpression|\""
    },
    {
     "adate": "2023-10-28T22:55:29-04:00",
     "author": "Michael Dyck",
-    "date": "2024-03-21T14:22:41-04:00",
-    "hash": "9f131de440f9f9f7a8b04f0f45002d575bb7b392",
-    "parents": "ee0234edbb91a4bdae146af79b258879a9b5fa86",
+    "date": "2024-05-22T21:03:43-04:00",
+    "hash": "b1bf5bb29903ef44bce87cb1554a344b0d3315a8",
+    "parents": "40f4a70f2258cc1eb7fc172d26c492fd6f37f0ab",
     "subject": "Insert 'this' for references to LHS nonterminal"
    },
    {
     "adate": "2023-10-28T15:35:18-04:00",
     "author": "Michael Dyck",
-    "date": "2024-03-21T14:22:41-04:00",
-    "hash": "ee0234edbb91a4bdae146af79b258879a9b5fa86",
-    "parents": "f6561bdf58df680a6bea1333ad7b61834008db0d",
+    "date": "2024-05-22T21:00:26-04:00",
+    "hash": "40f4a70f2258cc1eb7fc172d26c492fd6f37f0ab",
+    "parents": "49da18153db2f7f94bb0af06add8b2327c845d2d",
     "subject": "Link to \"Referring to Parse Nodes\" from `Early Error Rules`"
    },
    {
     "adate": "2023-10-28T15:34:43-04:00",
     "author": "Michael Dyck",
-    "date": "2024-03-21T14:22:41-04:00",
-    "hash": "f6561bdf58df680a6bea1333ad7b61834008db0d",
-    "parents": "48d3195e90ff2ebea4d4eb86e2853df6a403df12",
+    "date": "2024-05-22T21:00:25-04:00",
+    "hash": "49da18153db2f7f94bb0af06add8b2327c845d2d",
+    "parents": "33c380019b29e052ba3ac6039cb42157a538f76f",
     "subject": "Create a subsection for \"Referring to Parse Nodes\""
    },
    {
     "adate": "2023-10-28T15:29:41-04:00",
     "author": "Michael Dyck",
-    "date": "2024-03-21T14:22:41-04:00",
-    "hash": "48d3195e90ff2ebea4d4eb86e2853df6a403df12",
-    "parents": "c344fa29d644223e518012676cef01b0c1823d38",
+    "date": "2024-05-22T21:00:25-04:00",
+    "hash": "33c380019b29e052ba3ac6039cb42157a538f76f",
+    "parents": "2d5de69b761904babd276c08cbe5d1e36807906e",
     "subject": "Add a paragraph about the dispatching mechanism for SDOs."
    },
    {
     "adate": "2023-10-28T09:59:26-04:00",
     "author": "Michael Dyck",
-    "date": "2024-03-21T14:22:40-04:00",
-    "hash": "c344fa29d644223e518012676cef01b0c1823d38",
-    "parents": "c754a6a754b2bc0e8b748802540c56d3fcb7cf78",
+    "date": "2024-05-22T21:00:25-04:00",
+    "hash": "2d5de69b761904babd276c08cbe5d1e36807906e",
+    "parents": "c30e7786b47c2f44f08f6430d9ecef4740034c5c",
     "subject": "Split off a subsection for \"Invoking Syntax-Directed Operations\""
    },
    {
     "adate": "2023-10-28T09:53:49-04:00",
     "author": "Michael Dyck",
-    "date": "2024-03-21T14:22:40-04:00",
-    "hash": "c754a6a754b2bc0e8b748802540c56d3fcb7cf78",
-    "parents": "4528c30522b6ba4b27a99fc10504cb7392e4e430",
+    "date": "2024-05-22T21:00:25-04:00",
+    "hash": "c30e7786b47c2f44f08f6430d9ecef4740034c5c",
+    "parents": "601d14ae2248e1cceb7ebc26862e68a2ffc8cba3",
     "subject": "Split off a subsection for \"Implicit Definitions for Chain Productions\""
    },
    {
     "adate": "2023-10-28T09:35:28-04:00",
     "author": "Michael Dyck",
-    "date": "2024-03-21T14:22:40-04:00",
-    "hash": "4528c30522b6ba4b27a99fc10504cb7392e4e430",
-    "parents": "3d5a70b1b543a776dd5e255f8bfd877bf08bdc74",
+    "date": "2024-05-22T21:00:25-04:00",
+    "hash": "601d14ae2248e1cceb7ebc26862e68a2ffc8cba3",
+    "parents": "a92f3e906943ee1abdbf924a27c966524474f0c4",
     "subject": "Move the definition of \"source text matched by\""
    }
   ],
   "title": "Editorial: Expand the \"Syntax-Directed Operations\" section",
-  "updated_at": "2024-03-21T18:35:34Z"
+  "updated_at": "2024-05-23T14:00:36Z"
  },
  {
   "base": "5eaee2f3c52bd2d46b7d286537e5da5baf16d002",
@@ -1144,72 +1144,64 @@
   "updated_at": "2023-09-22T21:30:49Z"
  },
  {
-  "base": "c316ec72f6e227d88d4ef67a3e16b486c5ca356d",
+  "base": "a92f3e906943ee1abdbf924a27c966524474f0c4",
   "created_at": "2023-08-02T20:09:46Z",
-  "head": "407c910839cddc6b5f34c547185412dc34861f10",
+  "head": "4b9eb20bc8b93547d994c266d1623317f258fa4d",
   "login": "jmdyck",
   "number": 3139,
   "ref": "InitializeHostDefinedRealm",
   "revs": [
    {
-    "adate": "2023-08-08T16:43:42-04:00",
-    "author": "Michael Dyck",
-    "date": "2023-08-08T16:43:42-04:00",
-    "hash": "407c910839cddc6b5f34c547185412dc34861f10",
-    "parents": "3876919fd4863e10ffd1da306950582de75685bb",
-    "subject": "fixup: Drop `SetDefaultGlobalBindings` from esmeta-ignore.json"
-   },
-   {
     "adate": "2023-08-02T14:44:48-04:00",
     "author": "Michael Dyck",
-    "date": "2023-08-06T09:52:23-04:00",
-    "hash": "3876919fd4863e10ffd1da306950582de75685bb",
-    "parents": "20dcc2d7ce96db99212917a9c756c46000f0a5a1",
+    "date": "2024-05-22T21:11:38-04:00",
+    "hash": "4b9eb20bc8b93547d994c266d1623317f258fa4d",
+    "parents": "3aa97fe84ccea16868fe490a0082c287a0ac1c11",
     "subject": "Inline CreateRealm into InitializeHostDefinedRealm"
    },
    {
     "adate": "2023-08-02T15:48:27-04:00",
     "author": "Michael Dyck",
-    "date": "2023-08-06T09:52:23-04:00",
-    "hash": "20dcc2d7ce96db99212917a9c756c46000f0a5a1",
-    "parents": "73c227381510f41e975a327217cb1294edd76b45",
+    "date": "2024-05-22T21:11:38-04:00",
+    "hash": "3aa97fe84ccea16868fe490a0082c287a0ac1c11",
+    "parents": "7268f09efbcf3b249350cc86d5543c53a093a864",
     "subject": "Tweak the return of `SetDefaultGlobalBindings`"
    },
    {
     "adate": "2023-08-02T14:17:43-04:00",
     "author": "Michael Dyck",
-    "date": "2023-08-06T09:52:23-04:00",
-    "hash": "73c227381510f41e975a327217cb1294edd76b45",
-    "parents": "fcd490fa0365633ebf2ab64d956df2fc53aa5793",
+    "date": "2024-05-22T21:11:38-04:00",
+    "hash": "7268f09efbcf3b249350cc86d5543c53a093a864",
+    "parents": "86fc8a7127b2817a4bd43d11d736b4b1fe6d9665",
     "subject": "Simplify InitializeHostDefinedRealm"
    },
    {
     "adate": "2023-08-02T14:14:15-04:00",
     "author": "Michael Dyck",
-    "date": "2023-08-06T09:52:23-04:00",
-    "hash": "fcd490fa0365633ebf2ab64d956df2fc53aa5793",
-    "parents": "b61fa1ced79220f58cdf772b463d411e43cc0a44",
+    "date": "2024-05-22T21:11:38-04:00",
+    "hash": "86fc8a7127b2817a4bd43d11d736b4b1fe6d9665",
+    "parents": "8d85f144f5261ab35c0c507043abb79bd4283099",
     "subject": "Inline SetRealmGlobalObject into InitializeHostDefinedRealm"
    },
    {
     "adate": "2022-02-09T20:56:45-05:00",
     "author": "Michael Dyck",
-    "date": "2023-08-06T09:52:22-04:00",
-    "hash": "b61fa1ced79220f58cdf772b463d411e43cc0a44",
-    "parents": "27746a9c2a5c8e6b06108f1eded4ed289f3dd0e7",
+    "date": "2024-05-22T21:11:38-04:00",
+    "hash": "8d85f144f5261ab35c0c507043abb79bd4283099",
+    "parents": "b9222392348787b1fcdbfdba4f3d24a542d6e8d8",
     "subject": "Reformat the two \"If the host requires\" steps more conventionally"
    },
    {
     "adate": "2022-02-09T23:49:54-05:00",
     "author": "Michael Dyck",
-    "date": "2023-08-06T09:52:22-04:00",
-    "hash": "27746a9c2a5c8e6b06108f1eded4ed289f3dd0e7",
-    "parents": "c316ec72f6e227d88d4ef67a3e16b486c5ca356d",
+    "date": "2024-05-22T21:11:38-04:00",
+    "hash": "b9222392348787b1fcdbfdba4f3d24a542d6e8d8",
+    "parents": "a92f3e906943ee1abdbf924a27c966524474f0c4",
     "subject": "Move InitializeHostDefinedRealm() into the 'Realms' section"
    }
   ],
   "title": "Editorial: InitializeHostDefinedRealm-related refactorings",
-  "updated_at": "2023-08-08T20:45:09Z"
+  "updated_at": "2024-05-23T14:05:34Z"
  },
  {
   "base": "0802e7da54fc870af4e6c37b048428611c449f61",
@@ -2528,9 +2520,9 @@
   "updated_at": "2022-11-29T09:36:27Z"
  },
  {
-  "base": "3d5a70b1b543a776dd5e255f8bfd877bf08bdc74",
+  "base": "a92f3e906943ee1abdbf924a27c966524474f0c4",
   "created_at": "2022-10-31T19:28:14Z",
-  "head": "9503bed7e71d9fdc8c18abe16d87c4b4e6979e39",
+  "head": "06e2af4a47bd749e5cbb0fb0c737221e86685a85",
   "login": "jmdyck",
   "number": 2952,
   "ref": "monkey_patch",
@@ -2538,70 +2530,70 @@
    {
     "adate": "2023-09-02T10:51:59-04:00",
     "author": "Michael Dyck",
-    "date": "2024-03-21T15:44:29-04:00",
-    "hash": "9503bed7e71d9fdc8c18abe16d87c4b4e6979e39",
-    "parents": "2c3a9d43e16796eb267f70e49fac961584c8e052",
+    "date": "2024-05-22T21:34:00-04:00",
+    "hash": "06e2af4a47bd749e5cbb0fb0c737221e86685a85",
+    "parents": "79b4b2537efe1bd0aef4ee2fdf0145a327a275a1",
     "subject": "Refactor to avoid \"and\" after the host-condition"
    },
    {
     "adate": "2023-09-02T09:46:03-04:00",
     "author": "Michael Dyck",
-    "date": "2024-03-21T15:01:06-04:00",
-    "hash": "2c3a9d43e16796eb267f70e49fac961584c8e052",
-    "parents": "58b20d4047cb4f85f78362131cf6de82a990bcfe",
+    "date": "2024-05-22T21:31:59-04:00",
+    "hash": "79b4b2537efe1bd0aef4ee2fdf0145a327a275a1",
+    "parents": "6be147566a34b2cffaab03169e86415d1260641e",
     "subject": "Change \"Let\" to \"Set\" in inlined steps in EvalDeclarationInstantiation"
    },
    {
     "adate": "2022-10-31T14:31:01-04:00",
     "author": "Michael Dyck",
-    "date": "2024-03-21T15:01:06-04:00",
-    "hash": "58b20d4047cb4f85f78362131cf6de82a990bcfe",
-    "parents": "b2ae9993847eae40f00c721517c9834695beb99b",
+    "date": "2024-05-22T21:31:59-04:00",
+    "hash": "6be147566a34b2cffaab03169e86415d1260641e",
+    "parents": "591d948366a8d22e0780e2e61200d2e7de797499",
     "subject": "Editorial: Eliminate monkey-patching from \"The [[IsHTMLDDA]] Internal Slot\""
    },
    {
     "adate": "2022-10-31T14:17:20-04:00",
     "author": "Michael Dyck",
-    "date": "2024-03-21T15:01:06-04:00",
-    "hash": "b2ae9993847eae40f00c721517c9834695beb99b",
-    "parents": "4bda74db98f8813ce7f65e02e69a3eec0ab7f396",
+    "date": "2024-05-22T21:31:57-04:00",
+    "hash": "591d948366a8d22e0780e2e61200d2e7de797499",
+    "parents": "a3607aaac1b5884b36854c024e3e5b79d36decc2",
     "subject": "Editorial: Eliminate monkey-patching from \"VariableStatements in Catch Blocks\""
    },
    {
     "adate": "2022-10-31T11:05:45-04:00",
     "author": "Michael Dyck",
-    "date": "2024-03-21T15:01:04-04:00",
-    "hash": "4bda74db98f8813ce7f65e02e69a3eec0ab7f396",
-    "parents": "4a67e0840160fd50135c39e15787552f42abb3f4",
+    "date": "2024-05-22T21:28:33-04:00",
+    "hash": "a3607aaac1b5884b36854c024e3e5b79d36decc2",
+    "parents": "b6494465e011e54dbc3a74862efa7b7e41e4ad72",
     "subject": "Editorial: Eliminate monkey-patching from \"Block-Level Function Declarations...\""
    },
    {
     "adate": "2022-10-31T10:28:16-04:00",
     "author": "Michael Dyck",
-    "date": "2024-03-21T14:43:36-04:00",
-    "hash": "4a67e0840160fd50135c39e15787552f42abb3f4",
-    "parents": "80c3d34e2cc8289988decb4929b0ac9d60d635c2",
+    "date": "2024-05-22T21:13:49-04:00",
+    "hash": "b6494465e011e54dbc3a74862efa7b7e41e4ad72",
+    "parents": "f5ec742c1f3cfeb086e5e04823f4eca92d65cd50",
     "subject": "Editorial: Eliminate monkey-patching from \"Labelled Function Declarations\""
    },
    {
     "adate": "2023-04-12T15:21:18-04:00",
     "author": "Michael Dyck",
-    "date": "2024-03-21T14:43:36-04:00",
-    "hash": "80c3d34e2cc8289988decb4929b0ac9d60d635c2",
-    "parents": "9438cabdf243e84afd012d8e71f19f6765a77e59",
+    "date": "2024-05-22T21:13:49-04:00",
+    "hash": "f5ec742c1f3cfeb086e5e04823f4eca92d65cd50",
+    "parents": "14300f98874a648e03984836eb4a1ebaaac5c9d7",
     "subject": "Editorial: Tweak the defn of \"Normative Optional\""
    },
    {
     "adate": "2022-10-31T09:57:04-04:00",
     "author": "Michael Dyck",
-    "date": "2024-03-21T14:43:36-04:00",
-    "hash": "9438cabdf243e84afd012d8e71f19f6765a77e59",
-    "parents": "3d5a70b1b543a776dd5e255f8bfd877bf08bdc74",
+    "date": "2024-05-22T21:13:48-04:00",
+    "hash": "14300f98874a648e03984836eb4a1ebaaac5c9d7",
+    "parents": "a92f3e906943ee1abdbf924a27c966524474f0c4",
     "subject": "Editorial: Link to alt FunctionDeclaration semantics"
    }
   ],
   "title": "Editorial: Reduce Annex B's monkey-patching",
-  "updated_at": "2024-03-21T19:50:37Z"
+  "updated_at": "2024-05-23T14:11:31Z"
  },
  {
   "base": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
@@ -3276,9 +3268,9 @@
   "updated_at": "2022-03-02T21:12:59Z"
  },
  {
-  "base": "c4a8bd4075825f9c1c77e7ca1e6f8811c8a41354",
+  "base": "a92f3e906943ee1abdbf924a27c966524474f0c4",
   "created_at": "2022-02-13T20:18:38Z",
-  "head": "a05d1971b8fcda38530363319986669e373cde7d",
+  "head": "c6bc6124171ff885cd6991500e0125a9f3608cdf",
   "login": "jmdyck",
   "number": 2664,
   "ref": "RunSuspendedContext",
@@ -3286,54 +3278,54 @@
    {
     "adate": "2022-02-12T10:27:05-05:00",
     "author": "Michael Dyck",
-    "date": "2023-02-28T23:13:02-05:00",
-    "hash": "a05d1971b8fcda38530363319986669e373cde7d",
-    "parents": "74b5fd72dd310faa09415cca5c60e35853d3ffc4",
+    "date": "2024-05-22T22:12:11-04:00",
+    "hash": "c6bc6124171ff885cd6991500e0125a9f3608cdf",
+    "parents": "f97c848b567683882b054675b42e337482038e6b",
     "subject": "Clean up after the previous refactoring"
    },
    {
     "adate": "2022-02-12T10:14:24-05:00",
     "author": "Michael Dyck",
-    "date": "2023-02-28T23:13:00-05:00",
-    "hash": "74b5fd72dd310faa09415cca5c60e35853d3ffc4",
-    "parents": "f2b83407dcb274d6bd9bf29e6929d36c46f0d3c5",
+    "date": "2024-05-22T22:12:11-04:00",
+    "hash": "f97c848b567683882b054675b42e337482038e6b",
+    "parents": "2e552171c6ba47d263eac1743d7d456551477284",
     "subject": "Factor out RunSuspendedContext abstract operation"
    },
    {
     "adate": "2022-02-12T10:08:51-05:00",
     "author": "Michael Dyck",
-    "date": "2023-02-28T23:12:04-05:00",
-    "hash": "f2b83407dcb274d6bd9bf29e6929d36c46f0d3c5",
-    "parents": "b04654304f9ea3928851875479b069cf81817cc2",
+    "date": "2024-05-22T22:12:11-04:00",
+    "hash": "2e552171c6ba47d263eac1743d7d456551477284",
+    "parents": "b2a4860eafcf7705a7abbd38d47f14d420a8b7ed",
     "subject": "Preliminary tweaks before next commit"
    },
    {
     "adate": "2022-02-13T14:22:23-05:00",
     "author": "Michael Dyck",
-    "date": "2023-02-28T23:12:04-05:00",
-    "hash": "b04654304f9ea3928851875479b069cf81817cc2",
-    "parents": "68b45405b22643c7e8ae922ca8703fc84efdb214",
+    "date": "2024-05-22T22:12:11-04:00",
+    "hash": "b2a4860eafcf7705a7abbd38d47f14d420a8b7ed",
+    "parents": "b4f66f7a39664fdd9be975c537688c8438731c13",
     "subject": "Move \"Suspend the running execution context\" steps"
    },
    {
     "adate": "2022-02-13T14:16:44-05:00",
     "author": "Michael Dyck",
-    "date": "2023-02-28T23:12:04-05:00",
-    "hash": "68b45405b22643c7e8ae922ca8703fc84efdb214",
-    "parents": "34907b7989f2c6652a0768878c020cde0cfd510e",
+    "date": "2024-05-22T22:12:11-04:00",
+    "hash": "b4f66f7a39664fdd9be975c537688c8438731c13",
+    "parents": "15138aad8ee398c8920a38b77f559ecc104be5c4",
     "subject": "AsyncFunctionStart: Add \"Suspend _runningContext_\""
    },
    {
     "adate": "2022-02-13T14:14:46-05:00",
     "author": "Michael Dyck",
-    "date": "2023-02-28T23:12:04-05:00",
-    "hash": "34907b7989f2c6652a0768878c020cde0cfd510e",
-    "parents": "c4a8bd4075825f9c1c77e7ca1e6f8811c8a41354",
+    "date": "2024-05-22T22:12:11-04:00",
+    "hash": "15138aad8ee398c8920a38b77f559ecc104be5c4",
+    "parents": "a92f3e906943ee1abdbf924a27c966524474f0c4",
     "subject": "ExecuteModule: Distribute \"Suspend the running execution context\""
    }
   ],
   "title": "Editorial: Factor out AO RunSuspendedContext()",
-  "updated_at": "2023-03-01T04:18:48Z"
+  "updated_at": "2024-05-23T14:13:13Z"
  },
  {
   "base": "8dafd76d8a018bdec038885b1dfcd4565e413c1f",
