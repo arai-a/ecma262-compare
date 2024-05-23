@@ -62,11 +62,19 @@
  {
   "base": "705742e103127e1be093c8cb10006974678a78db",
   "created_at": "2024-05-06T23:32:17Z",
-  "head": "35a5df95ee3ef21df49c095f7caea292d65afd68",
+  "head": "6fb81f9a247741a65b2c5635d76166ff9b920b5a",
   "login": "syg",
   "number": 3321,
   "ref": "define-orders",
   "revs": [
+   {
+    "adate": "2024-05-23T10:28:34-07:00",
+    "author": "Shu-yu Guo",
+    "date": "2024-05-23T10:28:34-07:00",
+    "hash": "6fb81f9a247741a65b2c5635d76166ff9b920b5a",
+    "parents": "35a5df95ee3ef21df49c095f7caea292d65afd68",
+    "subject": "Change markup per jmdyck's position"
+   },
    {
     "adate": "2024-05-22T15:29:44-07:00",
     "author": "Shu-yu Guo",
@@ -133,7 +141,7 @@
    }
   ],
   "title": "Editorial: Rework memory model relations",
-  "updated_at": "2024-05-22T22:31:03Z"
+  "updated_at": "2024-05-23T17:28:47Z"
  },
  {
   "base": "a92f3e906943ee1abdbf924a27c966524474f0c4",
