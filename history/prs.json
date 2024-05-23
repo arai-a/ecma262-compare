@@ -1,5 +1,25 @@
 [
  {
+  "base": "a92f3e906943ee1abdbf924a27c966524474f0c4",
+  "created_at": "2024-05-23T00:51:45Z",
+  "head": "c44edd4e96b556929d5c64c15e8f7acb5749ed48",
+  "login": "justingrant",
+  "number": 3334,
+  "ref": "remove-unicode-minus",
+  "revs": [
+   {
+    "adate": "2024-05-22T17:47:57-07:00",
+    "author": "Justin Grant",
+    "date": "2024-05-22T17:47:57-07:00",
+    "hash": "c44edd4e96b556929d5c64c15e8f7acb5749ed48",
+    "parents": "53454a9a596d90473d2152ef04656d605162cd4c",
+    "subject": "Normative: Revert U+2212 in timezone offsets"
+   }
+  ],
+  "title": "Normative: Revert U+2212 (Unicode minus sign) as a valid character in timezone offsets",
+  "updated_at": "2024-05-23T00:51:45Z"
+ },
+ {
   "base": "705742e103127e1be093c8cb10006974678a78db",
   "created_at": "2024-05-16T21:25:04Z",
   "head": "94b702f7a89da0859ddab53dbfee6e8f7adca753",
