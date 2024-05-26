@@ -1277,12 +1277,31 @@ class Comparator extends Base {
       .replace(/ (aoid|href)="[^"]+"/g, "");
   }
 
-  updateURL(replace=false) {
-    const id = this.secList.value;
+  getQueryObject() {
+    return {
+      id: this.secList.value,
+      prnum: this.prFilter.value,
+      hash: this.revFilter.value,
+      from: this.fromRev.value,
+      to: this.toRev.value,
+      secAll: this.secAll.checked,
+      secSubtree: this.secSubtree.checked,
+      headerCollapsed: this.headerCollapsed,
+    };
+  }
+
+  constructQuery(modifier) {
+    const queryObj = this.getQueryObject();
+
+    if (modifier) {
+      modifier(queryObj);
+    }
+
+    const id = queryObj.id;
 
     const params = [];
-    const prnum = this.prFilter.value;
-    const hash = this.revFilter.value;
+    const prnum = queryObj.prnum;
+    const hash = queryObj.hash;
     if (prnum !== "-") {
       params.push(`pr=${prnum}`);
       if (id !== "combined") {
@@ -1294,8 +1313,8 @@ class Comparator extends Base {
         params.push(`id=${encodeURIComponent(id)}`);
       }
     } else {
-      const from = this.fromRev.value;
-      const to = this.toRev.value;
+      const from = queryObj.from;
+      const to = queryObj.to;
       if (from !== "-" && to !== "-" && from !== to) {
         params.push(`from=${from}`);
         params.push(`to=${to}`);
@@ -1305,18 +1324,22 @@ class Comparator extends Base {
       }
     }
 
-    if (this.secAll.checked) {
+    if (queryObj.secAll) {
       params.push(`secAll=true`);
     }
-    if (this.secSubtree.checked) {
+    if (queryObj.secSubtree) {
       params.push(`secSubtree=true`);
     }
 
-    if (this.headerCollapsed) {
+    if (queryObj.headerCollapsed) {
       params.push("collapsed=1");
     }
 
-    const query = params.length > 0 ? `?${params.join("&")}` : "";
+    return params.length > 0 ? `?${params.join("&")}` : "";
+  }
+
+  updateURL(replace=false) {
+    const query = this.constructQuery();
     if (query !== this.currentQuery) {
       this.currentQuery = query;
 
@@ -1929,6 +1952,14 @@ class Comparator extends Base {
     }
   }
 
+  openSectionInNewTab(id) {
+    const url = new URL(document.location.href);
+    url.search = this.constructQuery(queryObj => {
+      queryObj.id = id;
+    });
+    window.open(url, "_blank");
+  }
+
   // Add button to show single section.
   addSingleSectionButtons(box) {
     const clauses = box.getElementsByTagName("emu-clause");
@@ -1956,13 +1987,30 @@ class Comparator extends Base {
       button.classList.add("single-section-button");
       button.classList.add("round-button");
       button.textContent = "show single section";
-      button.addEventListener("click", () => {
-        window.scrollTo({
-          left: 0,
-          top: 0,
-        });
-        this.secList.value = id;
-        this.onSecListChange().catch(e => console.error(e));
+      button.addEventListener("click", e => {
+        if (e.button === 0) {
+          if (e.metaKey) {
+            this.openSectionInNewTab(id);
+
+            e.preventDefault();
+            e.stopPropagation();
+          } else {
+            window.scrollTo({
+              left: 0,
+              top: 0,
+            });
+            this.secList.value = id;
+            this.onSecListChange().catch(e => console.error(e));
+          }
+        }
+      });
+      button.addEventListener("mousedown", e => {
+        if (e.button === 1) {
+          this.openSectionInNewTab(id);
+
+          e.preventDefault();
+          e.stopPropagation();
+        }
       });
 
       h1.appendChild(button);
