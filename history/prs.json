@@ -1,5 +1,25 @@
 [
  {
+  "base": "c305c1117e5c435f16107dbfbdc4aa39587c069c",
+  "created_at": "2024-05-30T00:26:00Z",
+  "head": "07b7b5f6be802c8b1f2f43aca7103d575cb7fa3a",
+  "login": "tc39",
+  "number": 3339,
+  "ref": "GH-2870",
+  "revs": [
+   {
+    "adate": "2024-05-29T18:17:36-06:00",
+    "author": "Michael Ficarra",
+    "date": "2024-05-29T18:23:31-06:00",
+    "hash": "07b7b5f6be802c8b1f2f43aca7103d575cb7fa3a",
+    "parents": "c305c1117e5c435f16107dbfbdc4aa39587c069c",
+    "subject": "Editorial: replace Type(...) notation with a proper Type AO"
+   }
+  ],
+  "title": "Editorial: replace Type(...) notation with a proper Type AO",
+  "updated_at": "2024-05-30T00:26:00Z"
+ },
+ {
   "base": "1babaf809575e073f07b12e4907fadae8a45b349",
   "created_at": "2024-05-27T17:48:57Z",
   "head": "f3c95058e8f6edde5daaae810b757d78c2acb96b",
@@ -318,26 +338,6 @@
   ],
   "title": "Normative: Revert U+2212 (Unicode minus sign) as a valid character in timezone offsets",
   "updated_at": "2024-05-23T00:51:45Z"
- },
- {
-  "base": "1babaf809575e073f07b12e4907fadae8a45b349",
-  "created_at": "2024-05-16T21:25:04Z",
-  "head": "c305c1117e5c435f16107dbfbdc4aa39587c069c",
-  "login": "tc39",
-  "number": 3330,
-  "ref": "are-both",
-  "revs": [
-   {
-    "adate": "2024-05-23T15:09:24-07:00",
-    "author": "Michael Ficarra",
-    "date": "2024-05-23T15:09:24-07:00",
-    "hash": "c305c1117e5c435f16107dbfbdc4aa39587c069c",
-    "parents": "1babaf809575e073f07b12e4907fadae8a45b349",
-    "subject": "Editorial: remove some \"are both\" usages (#3330)"
-   }
-  ],
-  "title": "Editorial: remove some \"are both\" usages",
-  "updated_at": "2024-05-23T22:09:32Z"
  },
  {
   "base": "705742e103127e1be093c8cb10006974678a78db",
