@@ -22,11 +22,19 @@
  {
   "base": "1babaf809575e073f07b12e4907fadae8a45b349",
   "created_at": "2024-05-27T17:48:57Z",
-  "head": "f3c95058e8f6edde5daaae810b757d78c2acb96b",
+  "head": "7fee27138d5e261ba4f1cca4b88b8e7bea4440b6",
   "login": "tc39",
   "number": 3337,
   "ref": "canonicalize-collection-index",
   "revs": [
+   {
+    "adate": "2024-05-30T12:46:26-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2024-05-30T12:46:26-07:00",
+    "hash": "7fee27138d5e261ba4f1cca4b88b8e7bea4440b6",
+    "parents": "f3c95058e8f6edde5daaae810b757d78c2acb96b",
+    "subject": "also use when new AO for lookups"
+   },
    {
     "adate": "2024-05-27T10:47:43-07:00",
     "author": "Kevin Gibbons",
@@ -37,7 +45,7 @@
    }
   ],
   "title": "Editorial: introduce CanonicalizeKeyedCollectionKey",
-  "updated_at": "2024-05-27T17:48:57Z"
+  "updated_at": "2024-05-30T19:48:06Z"
  },
  {
   "base": "1babaf809575e073f07b12e4907fadae8a45b349",
