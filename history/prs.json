@@ -21,34 +21,6 @@
  },
  {
   "base": "1babaf809575e073f07b12e4907fadae8a45b349",
-  "created_at": "2024-05-27T17:48:57Z",
-  "head": "7fee27138d5e261ba4f1cca4b88b8e7bea4440b6",
-  "login": "tc39",
-  "number": 3337,
-  "ref": "canonicalize-collection-index",
-  "revs": [
-   {
-    "adate": "2024-05-30T12:46:26-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2024-05-30T12:46:26-07:00",
-    "hash": "7fee27138d5e261ba4f1cca4b88b8e7bea4440b6",
-    "parents": "f3c95058e8f6edde5daaae810b757d78c2acb96b",
-    "subject": "also use when new AO for lookups"
-   },
-   {
-    "adate": "2024-05-27T10:47:43-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2024-05-27T10:48:20-07:00",
-    "hash": "f3c95058e8f6edde5daaae810b757d78c2acb96b",
-    "parents": "1babaf809575e073f07b12e4907fadae8a45b349",
-    "subject": "Editorial: introduce CanonicalizeKeyedCollectionKey"
-   }
-  ],
-  "title": "Editorial: introduce CanonicalizeKeyedCollectionKey",
-  "updated_at": "2024-05-30T19:48:06Z"
- },
- {
-  "base": "1babaf809575e073f07b12e4907fadae8a45b349",
   "created_at": "2024-05-25T00:35:23Z",
   "head": "0e40101d147e8809223b15cb371fc5a277346efd",
   "login": "tc39",
@@ -492,132 +464,88 @@
   "updated_at": "2024-05-23T16:57:31Z"
  },
  {
-  "base": "5d8f62d6ab761960206c3f6ddf4992534fe9726f",
-  "created_at": "2024-03-29T10:20:02Z",
-  "head": "7e98c0e3dfdd4163d9555011492b9f36c7ab0ef6",
-  "login": "rkirsling",
-  "number": 3307,
-  "ref": "loosen-referenced-name-in-reference-records",
-  "revs": [
-   {
-    "adate": "2024-05-02T10:14:11+09:00",
-    "author": "Ross Kirsling",
-    "date": "2024-05-02T10:14:41+09:00",
-    "hash": "7e98c0e3dfdd4163d9555011492b9f36c7ab0ef6",
-    "parents": "7a19d1b6b331dda386d8b5e42a521eb5d5b474a1",
-    "subject": "Address more feedback."
-   },
-   {
-    "adate": "2024-04-25T10:54:28+09:00",
-    "author": "Ross Kirsling",
-    "date": "2024-04-25T10:54:28+09:00",
-    "hash": "7a19d1b6b331dda386d8b5e42a521eb5d5b474a1",
-    "parents": "238278527704e3cbe65b33bf71a8d1d735841dd5",
-    "subject": "Address Shu's feedback."
-   },
-   {
-    "adate": "2024-04-23T19:45:58+09:00",
-    "author": "Ross Kirsling",
-    "date": "2024-04-23T19:45:58+09:00",
-    "hash": "238278527704e3cbe65b33bf71a8d1d735841dd5",
-    "parents": "4d1a4b5afc2de2c219d7f1777052cb20de6b2735",
-    "subject": "Update phrasing to match #3316."
-   },
-   {
-    "adate": "2024-03-30T18:21:57+09:00",
-    "author": "Ross Kirsling",
-    "date": "2024-03-30T20:02:42+09:00",
-    "hash": "4d1a4b5afc2de2c219d7f1777052cb20de6b2735",
-    "parents": "008a16699144660ca6d6ce4a9e736e01320bba4e",
-    "subject": "Address feedback."
-   },
-   {
-    "adate": "2024-03-29T19:14:24+09:00",
-    "author": "Ross Kirsling",
-    "date": "2024-03-29T19:14:24+09:00",
-    "hash": "008a16699144660ca6d6ce4a9e736e01320bba4e",
-    "parents": "5d8f62d6ab761960206c3f6ddf4992534fe9726f",
-    "subject": "Allow [[ReferencedName]] in Reference Records to be a not-yet-resolved property key."
-   }
-  ],
-  "title": "Normative: Allow [[ReferencedName]] in Reference Records to be a not-yet-resolved property key",
-  "updated_at": "2024-05-02T01:15:03Z"
- },
- {
-  "base": "5d8f62d6ab761960206c3f6ddf4992534fe9726f",
+  "base": "30257dd22f2e7ef1832b4cc1f5acb19f1e02e96b",
   "created_at": "2024-03-28T20:54:20Z",
-  "head": "62074723c1eca8698fa83cf179a46fa0deb6f525",
+  "head": "2b454e1a499437bb510d8b26b046be4d07ed785e",
   "login": "tc39",
   "number": 3306,
   "ref": "set-methods",
   "revs": [
    {
+    "adate": "2024-05-30T17:11:00-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2024-05-30T17:11:00-07:00",
+    "hash": "2b454e1a499437bb510d8b26b046be4d07ed785e",
+    "parents": "aa3d347c455198c5f0b1c3268853a1b6a3bc6db2",
+    "subject": "use new CanonicalizeKeyedCollectionKey AO"
+   },
+   {
     "adate": "2024-05-27T10:39:06-07:00",
     "author": "Kevin Gibbons",
-    "date": "2024-05-27T10:39:06-07:00",
-    "hash": "62074723c1eca8698fa83cf179a46fa0deb6f525",
-    "parents": "4ffe77c1ac396f202203897780431f15c2d22aaf",
+    "date": "2024-05-30T17:04:46-07:00",
+    "hash": "aa3d347c455198c5f0b1c3268853a1b6a3bc6db2",
+    "parents": "8904cf30bce72b00eac6f2a8eedad0fd91621f2e",
     "subject": "reintroduce alias"
    },
    {
     "adate": "2024-05-27T10:31:49-07:00",
     "author": "Kevin Gibbons",
-    "date": "2024-05-27T10:31:49-07:00",
-    "hash": "4ffe77c1ac396f202203897780431f15c2d22aaf",
-    "parents": "28cca1e87b2ebc64a9076544285f1d31946af78c",
+    "date": "2024-05-30T17:04:46-07:00",
+    "hash": "8904cf30bce72b00eac6f2a8eedad0fd91621f2e",
+    "parents": "a46025cca181fdd84d077811f0c41656e9ff9c50",
     "subject": "apply other michaelficarra suggestions"
    },
    {
     "adate": "2024-05-27T10:28:01-07:00",
     "author": "Kevin Gibbons",
-    "date": "2024-05-27T10:28:01-07:00",
-    "hash": "28cca1e87b2ebc64a9076544285f1d31946af78c",
-    "parents": "359e90445b31c9c0ad62c2475e0fe195d3358ba4",
+    "date": "2024-05-30T17:04:46-07:00",
+    "hash": "a46025cca181fdd84d077811f0c41656e9ff9c50",
+    "parents": "0aaf3e98ee6ae4227f7054db37261a1d04ec8e78",
     "subject": "rename [[Set]] to [[SetObject]]"
    },
    {
     "adate": "2024-04-04T19:57:04-07:00",
     "author": "Kevin Gibbons",
-    "date": "2024-04-04T19:57:17-07:00",
-    "hash": "359e90445b31c9c0ad62c2475e0fe195d3358ba4",
-    "parents": "3773d563640e522e55983e7c0ad7a1775fa50880",
+    "date": "2024-05-30T17:04:46-07:00",
+    "hash": "0aaf3e98ee6ae4227f7054db37261a1d04ec8e78",
+    "parents": "c8b47f5a5672e2a9d3748ad38049d8b9c48d3f18",
     "subject": "editorial: use IteratorStepValue"
    },
    {
     "adate": "2024-04-04T19:39:55-07:00",
     "author": "Kevin Gibbons",
-    "date": "2024-04-04T19:57:13-07:00",
-    "hash": "3773d563640e522e55983e7c0ad7a1775fa50880",
-    "parents": "c7a52c4d8b21fe146b2c63014e04cc0e50bbdf9e",
+    "date": "2024-05-30T17:04:46-07:00",
+    "hash": "c8b47f5a5672e2a9d3748ad38049d8b9c48d3f18",
+    "parents": "5b58ebc9857e7bc9b5fc004c24056640c6b56ee8",
     "subject": "editorial: use SetDataSize in Set.prototype.size"
    },
    {
     "adate": "2024-04-03T15:28:11-07:00",
     "author": "Kevin Gibbons",
-    "date": "2024-04-03T15:28:11-07:00",
-    "hash": "c7a52c4d8b21fe146b2c63014e04cc0e50bbdf9e",
-    "parents": "b05fb6084ccaa4ada9db999f709cc0a59e7c9f19",
+    "date": "2024-05-30T17:04:46-07:00",
+    "hash": "5b58ebc9857e7bc9b5fc004c24056640c6b56ee8",
+    "parents": "1360f67a5ea64c71a863e86471207c7646d154bd",
     "subject": "missing -> not-found"
    },
    {
     "adate": "2024-03-29T16:17:00-04:00",
     "author": "jmdyck",
-    "date": "2024-03-29T13:17:00-07:00",
-    "hash": "b05fb6084ccaa4ada9db999f709cc0a59e7c9f19",
-    "parents": "dcaa466516a295835c743ae40b02bb2c156a7540",
+    "date": "2024-05-30T17:04:46-07:00",
+    "hash": "1360f67a5ea64c71a863e86471207c7646d154bd",
+    "parents": "0ee8e33e6c5ea772418cbff9184646825b183cb5",
     "subject": "suggested changes (to the set-methods PR) (#3308)"
    },
    {
     "adate": "2024-03-28T13:53:51-07:00",
     "author": "Kevin Gibbons",
-    "date": "2024-03-28T13:54:01-07:00",
-    "hash": "dcaa466516a295835c743ae40b02bb2c156a7540",
-    "parents": "5d8f62d6ab761960206c3f6ddf4992534fe9726f",
+    "date": "2024-05-30T17:04:46-07:00",
+    "hash": "0ee8e33e6c5ea772418cbff9184646825b183cb5",
+    "parents": "30257dd22f2e7ef1832b4cc1f5acb19f1e02e96b",
     "subject": "Normative: add set methods"
    }
   ],
   "title": "Normative: add set methods",
-  "updated_at": "2024-05-27T17:49:36Z"
+  "updated_at": "2024-05-31T00:14:34Z"
  },
  {
   "base": "5d8f62d6ab761960206c3f6ddf4992534fe9726f",
