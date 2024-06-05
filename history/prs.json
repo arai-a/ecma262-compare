@@ -1,5 +1,25 @@
 [
  {
+  "base": "623e2c8f3e4d3e1248ad2c02f75e0511e083560f",
+  "created_at": "2024-06-05T19:58:18Z",
+  "head": "b9e724b64028b1b4a9e362ac193e08f8da0f2c09",
+  "login": "jmdyck",
+  "number": 3344,
+  "ref": "IsIntegralNumber",
+  "revs": [
+   {
+    "adate": "2024-06-05T15:41:26-04:00",
+    "author": "Michael Dyck",
+    "date": "2024-06-05T15:41:26-04:00",
+    "hash": "b9e724b64028b1b4a9e362ac193e08f8da0f2c09",
+    "parents": "623e2c8f3e4d3e1248ad2c02f75e0511e083560f",
+    "subject": "Editorial: Replace `IsIntegralNumber` with `is an integral Number`"
+   }
+  ],
+  "title": "Editorial: Replace `IsIntegralNumber` AO with `is an integral Number`",
+  "updated_at": "2024-06-05T20:05:15Z"
+ },
+ {
   "base": "30257dd22f2e7ef1832b4cc1f5acb19f1e02e96b",
   "created_at": "2024-05-31T03:57:04Z",
   "head": "78bc52910aaf123c31fab11bbc9ce330c1198bdf",
