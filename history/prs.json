@@ -1,26 +1,6 @@
 [
  {
   "base": "30257dd22f2e7ef1832b4cc1f5acb19f1e02e96b",
-  "created_at": "2024-05-31T15:48:24Z",
-  "head": "50faa98647b83041469b114d07bc1cc977d82d43",
-  "login": "gibson042",
-  "number": 3343,
-  "ref": "gibson-2024-05-groupby-coercion-collection",
-  "revs": [
-   {
-    "adate": "2024-05-31T11:44:42-04:00",
-    "author": "Richard Gibson",
-    "date": "2024-05-31T11:44:42-04:00",
-    "hash": "50faa98647b83041469b114d07bc1cc977d82d43",
-    "parents": "30257dd22f2e7ef1832b4cc1f5acb19f1e02e96b",
-    "subject": "Editorial: Better align GroupBy keyCoercion with CanonicalizeKeyedCollectionKey"
-   }
-  ],
-  "title": "Editorial: Better align GroupBy keyCoercion with CanonicalizeKeyedCollectionKey",
-  "updated_at": "2024-05-31T15:48:24Z"
- },
- {
-  "base": "30257dd22f2e7ef1832b4cc1f5acb19f1e02e96b",
   "created_at": "2024-05-31T03:57:04Z",
   "head": "78bc52910aaf123c31fab11bbc9ce330c1198bdf",
   "login": "gesa",
@@ -542,90 +522,6 @@
   ],
   "title": "Editorial: refer to code points directly by name/number instead of using aliases",
   "updated_at": "2024-05-23T16:57:31Z"
- },
- {
-  "base": "30257dd22f2e7ef1832b4cc1f5acb19f1e02e96b",
-  "created_at": "2024-03-28T20:54:20Z",
-  "head": "2b454e1a499437bb510d8b26b046be4d07ed785e",
-  "login": "tc39",
-  "number": 3306,
-  "ref": "set-methods",
-  "revs": [
-   {
-    "adate": "2024-05-30T17:11:00-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2024-05-30T17:11:00-07:00",
-    "hash": "2b454e1a499437bb510d8b26b046be4d07ed785e",
-    "parents": "aa3d347c455198c5f0b1c3268853a1b6a3bc6db2",
-    "subject": "use new CanonicalizeKeyedCollectionKey AO"
-   },
-   {
-    "adate": "2024-05-27T10:39:06-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2024-05-30T17:04:46-07:00",
-    "hash": "aa3d347c455198c5f0b1c3268853a1b6a3bc6db2",
-    "parents": "8904cf30bce72b00eac6f2a8eedad0fd91621f2e",
-    "subject": "reintroduce alias"
-   },
-   {
-    "adate": "2024-05-27T10:31:49-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2024-05-30T17:04:46-07:00",
-    "hash": "8904cf30bce72b00eac6f2a8eedad0fd91621f2e",
-    "parents": "a46025cca181fdd84d077811f0c41656e9ff9c50",
-    "subject": "apply other michaelficarra suggestions"
-   },
-   {
-    "adate": "2024-05-27T10:28:01-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2024-05-30T17:04:46-07:00",
-    "hash": "a46025cca181fdd84d077811f0c41656e9ff9c50",
-    "parents": "0aaf3e98ee6ae4227f7054db37261a1d04ec8e78",
-    "subject": "rename [[Set]] to [[SetObject]]"
-   },
-   {
-    "adate": "2024-04-04T19:57:04-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2024-05-30T17:04:46-07:00",
-    "hash": "0aaf3e98ee6ae4227f7054db37261a1d04ec8e78",
-    "parents": "c8b47f5a5672e2a9d3748ad38049d8b9c48d3f18",
-    "subject": "editorial: use IteratorStepValue"
-   },
-   {
-    "adate": "2024-04-04T19:39:55-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2024-05-30T17:04:46-07:00",
-    "hash": "c8b47f5a5672e2a9d3748ad38049d8b9c48d3f18",
-    "parents": "5b58ebc9857e7bc9b5fc004c24056640c6b56ee8",
-    "subject": "editorial: use SetDataSize in Set.prototype.size"
-   },
-   {
-    "adate": "2024-04-03T15:28:11-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2024-05-30T17:04:46-07:00",
-    "hash": "5b58ebc9857e7bc9b5fc004c24056640c6b56ee8",
-    "parents": "1360f67a5ea64c71a863e86471207c7646d154bd",
-    "subject": "missing -> not-found"
-   },
-   {
-    "adate": "2024-03-29T16:17:00-04:00",
-    "author": "jmdyck",
-    "date": "2024-05-30T17:04:46-07:00",
-    "hash": "1360f67a5ea64c71a863e86471207c7646d154bd",
-    "parents": "0ee8e33e6c5ea772418cbff9184646825b183cb5",
-    "subject": "suggested changes (to the set-methods PR) (#3308)"
-   },
-   {
-    "adate": "2024-03-28T13:53:51-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2024-05-30T17:04:46-07:00",
-    "hash": "0ee8e33e6c5ea772418cbff9184646825b183cb5",
-    "parents": "30257dd22f2e7ef1832b4cc1f5acb19f1e02e96b",
-    "subject": "Normative: add set methods"
-   }
-  ],
-  "title": "Normative: add set methods",
-  "updated_at": "2024-05-31T00:14:34Z"
  },
  {
   "base": "5d8f62d6ab761960206c3f6ddf4992534fe9726f",
@@ -2928,9 +2824,9 @@
   "updated_at": "2023-02-13T19:08:39Z"
  },
  {
-  "base": "03e44104d41bb64c29fa5cf0937b5e62de94f98a",
+  "base": "623e2c8f3e4d3e1248ad2c02f75e0511e083560f",
   "created_at": "2022-09-04T02:20:57Z",
-  "head": "a07a99f30cc95cf559137316547cb4dd4aa5edec",
+  "head": "bc7b84af5f7358c8155bff9f502f1c904da01542",
   "login": "jmdyck",
   "number": 2889,
   "ref": "callable",
@@ -2938,22 +2834,22 @@
    {
     "adate": "2022-09-03T22:11:56-04:00",
     "author": "Michael Dyck",
-    "date": "2023-11-23T09:28:10-05:00",
-    "hash": "a07a99f30cc95cf559137316547cb4dd4aa5edec",
-    "parents": "87c2e5758e4f4d06cfc61bafca609b82fc2d8585",
+    "date": "2024-06-05T14:07:45-04:00",
+    "hash": "bc7b84af5f7358c8155bff9f502f1c904da01542",
+    "parents": "b01c7aaa3c4929a13aa32722b17ab8cc4cf381e6",
     "subject": "Eliminate most other uses of \"callable\""
    },
    {
     "adate": "2022-09-03T21:47:50-04:00",
     "author": "Michael Dyck",
-    "date": "2023-11-23T09:28:08-05:00",
-    "hash": "87c2e5758e4f4d06cfc61bafca609b82fc2d8585",
-    "parents": "03e44104d41bb64c29fa5cf0937b5e62de94f98a",
+    "date": "2024-06-05T14:07:44-04:00",
+    "hash": "b01c7aaa3c4929a13aa32722b17ab8cc4cf381e6",
+    "parents": "623e2c8f3e4d3e1248ad2c02f75e0511e083560f",
     "subject": "Rename \"IsCallable\" as \"IsFunction\""
    }
   ],
   "title": "Editorial: Minimize use of the term \"callable\"",
-  "updated_at": "2023-11-23T15:22:29Z"
+  "updated_at": "2024-06-05T18:49:01Z"
  },
  {
   "base": "3cf8e30e47dd1f010b7d86929670f1e8c51ecc43",
@@ -3852,9 +3748,9 @@
   "updated_at": "2023-04-21T00:37:33Z"
  },
  {
-  "base": "a92f3e906943ee1abdbf924a27c966524474f0c4",
+  "base": "623e2c8f3e4d3e1248ad2c02f75e0511e083560f",
   "created_at": "2020-12-08T06:31:39Z",
-  "head": "11c8690a39f2c1d8d307f9daac33bb286724ce47",
+  "head": "9d229e19b28e6c96e396ea8dcc088b07baef1064",
   "login": "jmdyck",
   "number": 2246,
   "ref": "ExecutionContext_Record",
@@ -3862,78 +3758,78 @@
    {
     "adate": "2024-05-23T10:18:21-04:00",
     "author": "Michael Dyck",
-    "date": "2024-05-23T10:18:21-04:00",
-    "hash": "11c8690a39f2c1d8d307f9daac33bb286724ce47",
-    "parents": "792a368558dd42e6dc717c92cbf8b67368d38235",
+    "date": "2024-06-05T14:03:52-04:00",
+    "hash": "9d229e19b28e6c96e396ea8dcc088b07baef1064",
+    "parents": "d4b7130ad5e6b03a75733fff56848fb45867f31b",
     "subject": "fixup: delete 2 lines from esmeta-ignore.json"
    },
    {
     "adate": "2022-11-16T17:52:33-05:00",
     "author": "Michael Dyck",
-    "date": "2024-05-22T22:17:08-04:00",
-    "hash": "792a368558dd42e6dc717c92cbf8b67368d38235",
-    "parents": "c5af6747b2844e0b236db2cb66346d68f4ca806c",
+    "date": "2024-06-05T14:03:52-04:00",
+    "hash": "d4b7130ad5e6b03a75733fff56848fb45867f31b",
+    "parents": "7f703a1f8d9595271ffe1c4af04c5428f60d5f97",
     "subject": "fixup: try adding PrepareForOrdinaryCall to esmeta-ignore instead of ECMAScriptFunctionObject.Construct"
    },
    {
     "adate": "2022-08-31T23:46:33-04:00",
     "author": "Michael Dyck",
-    "date": "2024-05-22T22:16:05-04:00",
-    "hash": "c5af6747b2844e0b236db2cb66346d68f4ca806c",
-    "parents": "9510d8935083b5410cfd6bf058bdbb83c5b2dd65",
+    "date": "2024-06-05T14:03:52-04:00",
+    "hash": "7f703a1f8d9595271ffe1c4af04c5428f60d5f97",
+    "parents": "31720e7619a9e24129155371352300dc0f0285cb",
     "subject": "fixup: \"execution context\" -> \"ExecutionContext Record\" in some prose"
    },
    {
     "adate": "2022-08-31T23:31:55-04:00",
     "author": "Michael Dyck",
-    "date": "2024-05-22T22:16:05-04:00",
-    "hash": "9510d8935083b5410cfd6bf058bdbb83c5b2dd65",
-    "parents": "d6043afa24be98260a443ff25f5369e506e78bfc",
+    "date": "2024-06-05T14:03:52-04:00",
+    "hash": "31720e7619a9e24129155371352300dc0f0285cb",
+    "parents": "eedb2ca9b6cd5c5fbc06906d8e5d5efb44a4efa6",
     "subject": "fixup: \"execution context\" -> \"ExecutionContext Record\" in some alg steps"
    },
    {
     "adate": "2022-08-31T23:13:29-04:00",
     "author": "Michael Dyck",
-    "date": "2024-05-22T22:16:05-04:00",
-    "hash": "d6043afa24be98260a443ff25f5369e506e78bfc",
-    "parents": "d0a973c3822ccac1121b2d9d97e7b8b2c30b0e58",
+    "date": "2024-06-05T14:03:52-04:00",
+    "hash": "eedb2ca9b6cd5c5fbc06906d8e5d5efb44a4efa6",
+    "parents": "ddd6ec11641d100b6609c9ab5c29d13291264af6",
     "subject": "fixup: Avoid saying \"that execution context\" by naming it"
    },
    {
     "adate": "2022-08-31T20:30:10-04:00",
     "author": "Michael Dyck",
-    "date": "2024-05-22T22:16:04-04:00",
-    "hash": "d0a973c3822ccac1121b2d9d97e7b8b2c30b0e58",
-    "parents": "aa4b6af028378164fbed570fca2da492286e5032",
+    "date": "2024-06-05T14:03:52-04:00",
+    "hash": "ddd6ec11641d100b6609c9ab5c29d13291264af6",
+    "parents": "0786e0f591783ec9e99b93f86fc5e7f8147d7fd4",
     "subject": "fixup: \"execution context\" -> \"ExecutionContext Record\" in record-field tables"
    },
    {
     "adate": "2022-08-31T20:24:28-04:00",
     "author": "Michael Dyck",
-    "date": "2024-05-22T22:16:04-04:00",
-    "hash": "aa4b6af028378164fbed570fca2da492286e5032",
-    "parents": "6aba25909556f61b8252f1d4b0499aebc5a8f3f0",
+    "date": "2024-06-05T14:03:52-04:00",
+    "hash": "0786e0f591783ec9e99b93f86fc5e7f8147d7fd4",
+    "parents": "c056b233326f54b97de92e5f48a406bb080e42f5",
     "subject": "fixup: \"execution context\" -> \"ExecutionContext Record\" in AO headers"
    },
    {
     "adate": "2022-08-31T23:32:48-04:00",
     "author": "Michael Dyck",
-    "date": "2024-05-22T22:16:04-04:00",
-    "hash": "6aba25909556f61b8252f1d4b0499aebc5a8f3f0",
-    "parents": "37d64d7965f967b09343b3717bd5e1ba72228be5",
+    "date": "2024-06-05T14:03:52-04:00",
+    "hash": "c056b233326f54b97de92e5f48a406bb080e42f5",
+    "parents": "c3696ed559bc783c514d12557cdf325de89c8a2b",
     "subject": "fixup: \"execution context\" -> \"ExecutionContext Record\" in the <dfn> of ECMAScript code execution contexts"
    },
    {
     "adate": "2020-12-08T01:22:55-05:00",
     "author": "Michael Dyck",
-    "date": "2024-05-22T22:16:01-04:00",
-    "hash": "37d64d7965f967b09343b3717bd5e1ba72228be5",
-    "parents": "a92f3e906943ee1abdbf924a27c966524474f0c4",
+    "date": "2024-06-05T14:03:51-04:00",
+    "hash": "c3696ed559bc783c514d12557cdf325de89c8a2b",
+    "parents": "623e2c8f3e4d3e1248ad2c02f75e0511e083560f",
     "subject": "Editorial: Model execution context as a record"
    }
   ],
   "title": "Editorial: Model execution context as a record",
-  "updated_at": "2024-05-23T14:20:34Z"
+  "updated_at": "2024-06-05T18:48:10Z"
  },
  {
   "base": "b3f9b5089bcc3ddd8486379015cd11eb1427a5eb",
