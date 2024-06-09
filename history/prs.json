@@ -1696,176 +1696,24 @@
   "updated_at": "2023-05-11T20:54:35Z"
  },
  {
-  "base": "10d44bfce4640894a0ed366bb769f2700cc8839a",
+  "base": "4e32b345d044e3b6a4a737ef9c4396942e2597e7",
   "created_at": "2023-05-08T11:54:31Z",
-  "head": "940fcb2eda79617f0f48c246bee8e99107ab1232",
+  "head": "c14c38aba2eee02cd19a5d7a03443f15e907d97d",
   "login": "nicolo-ribaudo",
   "number": 3057,
   "ref": "import-attributes",
   "revs": [
    {
-    "adate": "2023-09-28T13:30:32+09:00",
-    "author": "Nicol\u00f2 Ribaudo",
-    "date": "2023-09-28T13:30:32+09:00",
-    "hash": "940fcb2eda79617f0f48c246bee8e99107ab1232",
-    "parents": "1cc20f09db3bf2a3292dc9ed115d04a2d5cf1fa0",
-    "subject": "Update wording"
-   },
-   {
-    "adate": "2023-09-28T13:21:32+09:00",
-    "author": "Nicol\u00f2 Ribaudo",
-    "date": "2023-09-28T13:27:58+09:00",
-    "hash": "1cc20f09db3bf2a3292dc9ed115d04a2d5cf1fa0",
-    "parents": "2580cb78d25c4aff19a6548aa71eeec76fbf1fb2",
-    "subject": "Remove support for float and bigint literal keys"
-   },
-   {
-    "adate": "2023-06-28T11:17:02+02:00",
-    "author": "Nicol\u00f2 Ribaudo",
-    "date": "2023-09-28T13:27:58+09:00",
-    "hash": "2580cb78d25c4aff19a6548aa71eeec76fbf1fb2",
-    "parents": "53aebe0c2de13a00e19d6ad3e0cabd3a6fc15172",
-    "subject": "Review"
-   },
-   {
-    "adate": "2023-06-27T16:32:32+02:00",
-    "author": "Nicol\u00f2 Ribaudo",
-    "date": "2023-09-28T13:27:58+09:00",
-    "hash": "53aebe0c2de13a00e19d6ad3e0cabd3a6fc15172",
-    "parents": "cabcd625f7468137b19760520e1a6a57a0708970",
-    "subject": "Reviews"
-   },
-   {
-    "adate": "2023-06-26T15:38:30+02:00",
-    "author": "Nicol\u00f2 Ribaudo",
-    "date": "2023-09-28T13:27:58+09:00",
-    "hash": "cabcd625f7468137b19760520e1a6a57a0708970",
-    "parents": "a1e3ec9e5d5a4a3bcb52a41d2f5db5f2ace5ed48",
-    "subject": "Simplify AttributesKeyword"
-   },
-   {
-    "adate": "2023-06-26T15:05:27+02:00",
-    "author": "Nicol\u00f2 Ribaudo",
-    "date": "2023-09-28T13:27:58+09:00",
-    "hash": "a1e3ec9e5d5a4a3bcb52a41d2f5db5f2ace5ed48",
-    "parents": "24de4077e3560cb960f1f328a229d748ee627d99",
-    "subject": "Fix type annotation"
-   },
-   {
-    "adate": "2023-06-26T12:04:05+02:00",
-    "author": "Nicol\u00f2 Ribaudo",
-    "date": "2023-09-28T13:27:57+09:00",
-    "hash": "24de4077e3560cb960f1f328a229d748ee627d99",
-    "parents": "25f4d8963b1eac95a2863fce64deed3c53e636bb",
-    "subject": "Merge `AssertClause` into `WithClause`, and fix missing SDOs"
-   },
-   {
-    "adate": "2023-06-26T11:03:57+02:00",
-    "author": "Nicol\u00f2 Ribaudo",
-    "date": "2023-09-28T13:27:57+09:00",
-    "hash": "25f4d8963b1eac95a2863fce64deed3c53e636bb",
-    "parents": "205a895cbd1fb0698081533c9b0e175560d682a5",
-    "subject": "Validate attrs when lodaing deps and not when parsing"
-   },
-   {
-    "adate": "2023-06-15T00:03:35+02:00",
-    "author": "Nicol\u00f2 Ribaudo",
-    "date": "2023-09-28T13:27:57+09:00",
-    "hash": "205a895cbd1fb0698081533c9b0e175560d682a5",
-    "parents": "4634aa11f7a6b36c71342e4b7ea9f696b43c3c2a",
-    "subject": "Separate ModuleRequest and LoadedModuleRequest fields"
-   },
-   {
-    "adate": "2023-06-14T20:09:13+02:00",
-    "author": "Nicol\u00f2 Ribaudo",
-    "date": "2023-09-28T13:27:57+09:00",
-    "hash": "4634aa11f7a6b36c71342e4b7ea9f696b43c3c2a",
-    "parents": "bbe7eafd0695b3216f258fbb9d30cbdd161b6193",
-    "subject": "Replace AttributeKey with LiteralPropertyName"
-   },
-   {
-    "adate": "2023-06-14T15:19:07+02:00",
-    "author": "Nicol\u00f2 Ribaudo",
-    "date": "2023-09-28T13:27:57+09:00",
-    "hash": "bbe7eafd0695b3216f258fbb9d30cbdd161b6193",
-    "parents": "9848e5fab0f08a59f256c7855c7f7283a4eb16e8",
-    "subject": "Review from Michael"
-   },
-   {
-    "adate": "2023-06-13T14:42:44+02:00",
-    "author": "Nicol\u00f2 Ribaudo",
-    "date": "2023-09-28T13:27:56+09:00",
-    "hash": "9848e5fab0f08a59f256c7855c7f7283a4eb16e8",
-    "parents": "151371ed8a5d4df6aa81069d336eb31d5281a3fa",
-    "subject": "Update ImportEntries and ExportEntry to use ModuleRequest Records"
-   },
-   {
-    "adate": "2023-06-13T14:34:35+02:00",
-    "author": "Nicol\u00f2 Ribaudo",
-    "date": "2023-09-28T13:27:56+09:00",
-    "hash": "151371ed8a5d4df6aa81069d336eb31d5281a3fa",
-    "parents": "94ca42b68eb8bfb0f8f780f07668cfa3e9e443a1",
-    "subject": "Use optional symbols to reduce grammar"
-   },
-   {
-    "adate": "2023-06-13T14:18:13+02:00",
-    "author": "Nicol\u00f2 Ribaudo",
-    "date": "2023-09-28T13:27:56+09:00",
-    "hash": "94ca42b68eb8bfb0f8f780f07668cfa3e9e443a1",
-    "parents": "ced6c572d4acea9157cf185e33f406f29512dee5",
-    "subject": "Remove `[no LineTerminator here]` before `with`"
-   },
-   {
-    "adate": "2023-06-13T14:17:25+02:00",
-    "author": "Nicol\u00f2 Ribaudo",
-    "date": "2023-09-28T13:27:56+09:00",
-    "hash": "ced6c572d4acea9157cf185e33f406f29512dee5",
-    "parents": "7029ee609f69fe98b77e22b6837e7d68edea806d",
-    "subject": "Add `assert` deprecated syntax to `export ... from`"
-   },
-   {
-    "adate": "2023-06-13T14:00:43+02:00",
-    "author": "Nicol\u00f2 Ribaudo",
-    "date": "2023-09-28T13:27:56+09:00",
-    "hash": "7029ee609f69fe98b77e22b6837e7d68edea806d",
-    "parents": "1417e0e57c93cd5c4d2c2f707de78ec4adf8646c",
-    "subject": "Do not re-define ImportDeclaration"
-   },
-   {
-    "adate": "2023-06-11T13:07:29+02:00",
-    "author": "Nicol\u00f2 Ribaudo",
-    "date": "2023-09-28T13:27:55+09:00",
-    "hash": "1417e0e57c93cd5c4d2c2f707de78ec4adf8646c",
-    "parents": "7838a3c41dbf1efc2a05faf5958fb162bd876689",
-    "subject": "Changes from review"
-   },
-   {
-    "adate": "2023-05-18T14:46:49+03:00",
-    "author": "Nicol\u00f2 Ribaudo",
-    "date": "2023-09-28T13:27:55+09:00",
-    "hash": "7838a3c41dbf1efc2a05faf5958fb162bd876689",
-    "parents": "e5551348fdde1ae1e73437ac13e950f6afc795e1",
-    "subject": "Updates from review"
-   },
-   {
-    "adate": "2023-05-08T13:58:46+02:00",
-    "author": "Nicol\u00f2 Ribaudo",
-    "date": "2023-09-28T13:27:55+09:00",
-    "hash": "e5551348fdde1ae1e73437ac13e950f6afc795e1",
-    "parents": "cea53e08e6c94ff8d5e36aa98d380b7d30785904",
-    "subject": "`npm run format`"
-   },
-   {
     "adate": "2023-05-08T13:49:44+02:00",
     "author": "Nicol\u00f2 Ribaudo",
-    "date": "2023-09-28T13:27:55+09:00",
-    "hash": "cea53e08e6c94ff8d5e36aa98d380b7d30785904",
-    "parents": "10d44bfce4640894a0ed366bb769f2700cc8839a",
+    "date": "2024-06-09T19:41:23+02:00",
+    "hash": "c14c38aba2eee02cd19a5d7a03443f15e907d97d",
+    "parents": "4e32b345d044e3b6a4a737ef9c4396942e2597e7",
     "subject": "Add Import Attributes proposal"
    }
   ],
   "title": "Normative: Add Import Attributes",
-  "updated_at": "2023-09-28T04:33:13Z"
+  "updated_at": "2024-06-09T17:55:20Z"
  },
  {
   "base": "d4927f9bc3706484c75dfef4bbcf5ba826d2632e",
