@@ -1830,11 +1830,27 @@
  {
   "base": "1babaf809575e073f07b12e4907fadae8a45b349",
   "created_at": "2023-01-23T22:42:45Z",
-  "head": "b3d400d94f26b3bb7a05c47f353ed0f23179b0c6",
+  "head": "f64b1c48204e9f2cf5dd5d59c0ec769d7d8b5cf3",
   "login": "rbuckton",
   "number": 3000,
   "ref": "explicit-resource-management",
   "revs": [
+   {
+    "adate": "2024-06-15T15:08:58-04:00",
+    "author": "Ron Buckton",
+    "date": "2024-06-15T15:08:58-04:00",
+    "hash": "f64b1c48204e9f2cf5dd5d59c0ec769d7d8b5cf3",
+    "parents": "b3d400d94f26b3bb7a05c47f353ed0f23179b0c6 06ac134baf878e5661b115c0e7136201d4ec4f10",
+    "subject": "Merge pull request #10 from rbuckton/deterministic-collapse-of-await-nullish"
+   },
+   {
+    "adate": "2024-06-15T15:00:50-04:00",
+    "author": "Ron Buckton",
+    "date": "2024-06-15T15:00:50-04:00",
+    "hash": "06ac134baf878e5661b115c0e7136201d4ec4f10",
+    "parents": "b3d400d94f26b3bb7a05c47f353ed0f23179b0c6",
+    "subject": "Reduce unnecessary Awaits for nullish values in blocks containing `await using`"
+   },
    {
     "adate": "2024-05-23T20:44:54-04:00",
     "author": "Ron Buckton",
@@ -2277,7 +2293,7 @@
    }
   ],
   "title": "Add `using` and `await using` Declarations, SuppressedError, DisposableStack, and AsyncDisposableStack",
-  "updated_at": "2024-05-24T00:44:57Z"
+  "updated_at": "2024-06-15T19:09:00Z"
  },
  {
   "base": "8aac12603c99f94d982317832b0e03c13684ce0a",
