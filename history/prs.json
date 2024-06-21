@@ -1,6 +1,26 @@
 [
  {
   "base": "4e32b345d044e3b6a4a737ef9c4396942e2597e7",
+  "created_at": "2024-06-21T22:02:40Z",
+  "head": "204e8dcb314b88ebcca18c551fff7c5ed139b597",
+  "login": "syg",
+  "number": 3357,
+  "ref": "tla-hang",
+  "revs": [
+   {
+    "adate": "2024-06-21T14:55:23-07:00",
+    "author": "Shu-yu Guo",
+    "date": "2024-06-21T15:01:49-07:00",
+    "hash": "204e8dcb314b88ebcca18c551fff7c5ed139b597",
+    "parents": "4e32b345d044e3b6a4a737ef9c4396942e2597e7",
+    "subject": "Normative: Fix hangs with top-level await"
+   }
+  ],
+  "title": "Normative: Fix hangs with top-level await",
+  "updated_at": "2024-06-21T22:05:44Z"
+ },
+ {
+  "base": "4e32b345d044e3b6a4a737ef9c4396942e2597e7",
   "created_at": "2024-06-14T21:57:09Z",
   "head": "f96a30439810e2782f11138e5f0a60f82fdfb00a",
   "login": "nicolo-ribaudo",
@@ -210,26 +230,6 @@
   ],
   "title": "Editorial: replace Type(...) notation with a proper Type AO",
   "updated_at": "2024-05-30T00:26:00Z"
- },
- {
-  "base": "1babaf809575e073f07b12e4907fadae8a45b349",
-  "created_at": "2024-05-25T00:35:23Z",
-  "head": "0e40101d147e8809223b15cb371fc5a277346efd",
-  "login": "tc39",
-  "number": 3336,
-  "ref": "unused-step-IDs",
-  "revs": [
-   {
-    "adate": "2024-05-24T18:31:33-06:00",
-    "author": "Michael Ficarra",
-    "date": "2024-05-24T18:31:33-06:00",
-    "hash": "0e40101d147e8809223b15cb371fc5a277346efd",
-    "parents": "1babaf809575e073f07b12e4907fadae8a45b349",
-    "subject": "Editorial: remove unused step IDs"
-   }
-  ],
-  "title": "Editorial: remove unused step IDs",
-  "updated_at": "2024-05-25T00:35:23Z"
  },
  {
   "base": "1babaf809575e073f07b12e4907fadae8a45b349",
