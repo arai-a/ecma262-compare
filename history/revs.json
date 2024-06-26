@@ -1,5 +1,21 @@
 [
  {
+  "adate": "2024-06-26T15:27:28-07:00",
+  "author": "Michael Dyck",
+  "date": "2024-06-26T15:27:28-07:00",
+  "hash": "773782efc3b8b1ff6b8c598d32dcdb82fcbbcf7a",
+  "parents": "32e88095ea8fcd4897b879807d7c58e12c62ceae",
+  "subject": "Editorial: Change some `X is Y` to `SameValue(X, Y) is *true*` (#3340)"
+ },
+ {
+  "adate": "2024-06-26T15:24:00-07:00",
+  "author": "Kevin Gibbons",
+  "date": "2024-06-26T15:24:00-07:00",
+  "hash": "32e88095ea8fcd4897b879807d7c58e12c62ceae",
+  "parents": "6363c2dd4ed0f85066281c2528a51ec027ad2605",
+  "subject": "Editorial: AsyncGeneratorAwaitReturn does not throw (#2683)"
+ },
+ {
   "adate": "2024-06-05T22:44:23-07:00",
   "author": "Michael Dyck",
   "date": "2024-06-05T22:44:23-07:00",
