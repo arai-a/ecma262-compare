@@ -198,11 +198,19 @@
  {
   "base": "30257dd22f2e7ef1832b4cc1f5acb19f1e02e96b",
   "created_at": "2024-05-31T03:57:04Z",
-  "head": "78bc52910aaf123c31fab11bbc9ce330c1198bdf",
+  "head": "290f832f7d64b22a94e2d94151e7a3ad73c41248",
   "login": "gesa",
   "number": 3342,
   "ref": "pivot-some-tables",
   "revs": [
+   {
+    "adate": "2024-06-26T19:41:25-06:00",
+    "author": "Michael Ficarra",
+    "date": "2024-06-26T19:41:25-06:00",
+    "hash": "290f832f7d64b22a94e2d94151e7a3ad73c41248",
+    "parents": "78bc52910aaf123c31fab11bbc9ce330c1198bdf",
+    "subject": "add the slashed corner cell"
+   },
    {
     "adate": "2024-05-30T20:50:50-07:00",
     "author": "Aki \ud83c\udf39",
@@ -213,7 +221,7 @@
    }
   ],
   "title": "Editorial: Pivots the tables within clause 16.2.1.5.4",
-  "updated_at": "2024-05-31T20:21:25Z"
+  "updated_at": "2024-06-27T01:42:34Z"
  },
  {
   "base": "b5097875532b0487049cf5f66f0a3e10f0c1af7e",
