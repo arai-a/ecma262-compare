@@ -124,44 +124,48 @@
   "updated_at": "2024-06-13T20:06:25Z"
  },
  {
-  "base": "4e32b345d044e3b6a4a737ef9c4396942e2597e7",
-  "created_at": "2024-06-07T18:30:32Z",
-  "head": "a57889ff6b9c932f9120f4c06681c6261ce0691e",
-  "login": "tc39",
-  "number": 3348,
-  "ref": "warn-multipage",
-  "revs": [
-   {
-    "adate": "2024-06-07T11:22:20-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2024-06-07T11:22:20-07:00",
-    "hash": "a57889ff6b9c932f9120f4c06681c6261ce0691e",
-    "parents": "4e32b345d044e3b6a4a737ef9c4396942e2597e7",
-    "subject": "also insert snapshot warning in multipage"
-   }
-  ],
-  "title": "Markup: also insert snapshot warning in multipage",
-  "updated_at": "2024-06-07T18:30:32Z"
- },
- {
-  "base": "4e32b345d044e3b6a4a737ef9c4396942e2597e7",
+  "base": "b5097875532b0487049cf5f66f0a3e10f0c1af7e",
   "created_at": "2024-06-06T16:19:49Z",
-  "head": "4b49663478dba58cfacbd62338554787014ecd55",
+  "head": "0396d4b2eb7170fd1a1d2d06844e2003f00c39fd",
   "login": "tc39",
   "number": 3346,
   "ref": "the-result-of",
   "revs": [
    {
+    "adate": "2024-06-26T17:56:09-06:00",
+    "author": "Michael Ficarra",
+    "date": "2024-06-26T17:56:09-06:00",
+    "hash": "0396d4b2eb7170fd1a1d2d06844e2003f00c39fd",
+    "parents": "a484768784a010209ccd73b9124a6e10c86ccd7e",
+    "subject": "revert bad NaN case"
+   },
+   {
+    "adate": "2024-06-26T17:55:24-06:00",
+    "author": "Michael Ficarra",
+    "date": "2024-06-26T17:55:24-06:00",
+    "hash": "a484768784a010209ccd73b9124a6e10c86ccd7e",
+    "parents": "98c731e138ac340658a0b8eabdd196305d1a73c7",
+    "subject": "revert more cases for UTF16EncodeCodePoint invocation"
+   },
+   {
+    "adate": "2024-06-26T17:53:56-06:00",
+    "author": "Michael Ficarra",
+    "date": "2024-06-26T17:53:56-06:00",
+    "hash": "98c731e138ac340658a0b8eabdd196305d1a73c7",
+    "parents": "35d31b7ac7f61deeca2b09f9534c777540dca06b",
+    "subject": "revert some cases before AO invocations"
+   },
+   {
     "adate": "2024-06-06T12:17:31-04:00",
     "author": "Michael Ficarra",
-    "date": "2024-06-06T12:17:31-04:00",
-    "hash": "4b49663478dba58cfacbd62338554787014ecd55",
-    "parents": "4e32b345d044e3b6a4a737ef9c4396942e2597e7",
+    "date": "2024-06-26T17:48:57-06:00",
+    "hash": "35d31b7ac7f61deeca2b09f9534c777540dca06b",
+    "parents": "b5097875532b0487049cf5f66f0a3e10f0c1af7e",
     "subject": "Editorial: remove some unnecessary \"the result of\" phrasing"
    }
   ],
   "title": "Editorial: remove some unnecessary \"the result of\" phrasing",
-  "updated_at": "2024-06-06T16:27:09Z"
+  "updated_at": "2024-06-26T23:56:21Z"
  },
  {
   "base": "4e32b345d044e3b6a4a737ef9c4396942e2597e7",
@@ -212,44 +216,40 @@
   "updated_at": "2024-05-31T20:21:25Z"
  },
  {
-  "base": "30257dd22f2e7ef1832b4cc1f5acb19f1e02e96b",
-  "created_at": "2024-05-31T01:52:57Z",
-  "head": "412cd8bc880af8b1c8d73025c08f0eb8b08b210d",
-  "login": "jmdyck",
-  "number": 3340,
-  "ref": "fix_3337",
-  "revs": [
-   {
-    "adate": "2024-05-30T21:50:43-04:00",
-    "author": "Michael Dyck",
-    "date": "2024-05-30T21:50:43-04:00",
-    "hash": "412cd8bc880af8b1c8d73025c08f0eb8b08b210d",
-    "parents": "30257dd22f2e7ef1832b4cc1f5acb19f1e02e96b",
-    "subject": "Editorial: Change some `X is Y` to `SameValue(X, Y) is *true*`"
-   }
-  ],
-  "title": "Editorial: Change some `X is Y` to `SameValue(X, Y) is *true*`",
-  "updated_at": "2024-05-31T01:56:33Z"
- },
- {
-  "base": "c305c1117e5c435f16107dbfbdc4aa39587c069c",
+  "base": "b5097875532b0487049cf5f66f0a3e10f0c1af7e",
   "created_at": "2024-05-30T00:26:00Z",
-  "head": "07b7b5f6be802c8b1f2f43aca7103d575cb7fa3a",
+  "head": "1481e7a3e3f9a2c5ef92320807219377daf700c2",
   "login": "tc39",
   "number": 3339,
   "ref": "GH-2870",
   "revs": [
    {
+    "adate": "2024-06-26T18:30:37-06:00",
+    "author": "Michael Ficarra",
+    "date": "2024-06-26T18:30:37-06:00",
+    "hash": "1481e7a3e3f9a2c5ef92320807219377daf700c2",
+    "parents": "bec5487bfb615809cfc3a7304024a66f674cdcea",
+    "subject": "formatting"
+   },
+   {
+    "adate": "2024-06-26T18:27:48-06:00",
+    "author": "Michael Ficarra",
+    "date": "2024-06-26T18:27:48-06:00",
+    "hash": "bec5487bfb615809cfc3a7304024a66f674cdcea",
+    "parents": "ff3ac16924da6de92999caad63b2539068305893",
+    "subject": "address feedback"
+   },
+   {
     "adate": "2024-05-29T18:17:36-06:00",
     "author": "Michael Ficarra",
-    "date": "2024-05-29T18:23:31-06:00",
-    "hash": "07b7b5f6be802c8b1f2f43aca7103d575cb7fa3a",
-    "parents": "c305c1117e5c435f16107dbfbdc4aa39587c069c",
+    "date": "2024-06-26T18:06:25-06:00",
+    "hash": "ff3ac16924da6de92999caad63b2539068305893",
+    "parents": "b5097875532b0487049cf5f66f0a3e10f0c1af7e",
     "subject": "Editorial: replace Type(...) notation with a proper Type AO"
    }
   ],
   "title": "Editorial: replace Type(...) notation with a proper Type AO",
-  "updated_at": "2024-05-30T00:26:00Z"
+  "updated_at": "2024-06-27T00:30:44Z"
  },
  {
   "base": "1babaf809575e073f07b12e4907fadae8a45b349",
@@ -3262,34 +3262,6 @@
   ],
   "title": "Normative: Allow toString of a built-in function to output a computed property name",
   "updated_at": "2022-07-15T19:32:39Z"
- },
- {
-  "base": "705742e103127e1be093c8cb10006974678a78db",
-  "created_at": "2022-03-05T04:30:05Z",
-  "head": "f32ef41550be880e11f14283e581002437ab9bc5",
-  "login": "tc39",
-  "number": 2683,
-  "ref": "fix-async-generator-assertion",
-  "revs": [
-   {
-    "adate": "2022-03-04T19:14:36-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2024-05-02T09:32:57-07:00",
-    "hash": "f32ef41550be880e11f14283e581002437ab9bc5",
-    "parents": "f4bce987cd9d3904b157b4cac4e8052c50310610",
-    "subject": "Editorial: AsyncGeneratorAwaitReturn does not throw"
-   },
-   {
-    "adate": "2022-03-04T19:12:24-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2024-05-02T09:32:13-07:00",
-    "hash": "f4bce987cd9d3904b157b4cac4e8052c50310610",
-    "parents": "705742e103127e1be093c8cb10006974678a78db",
-    "subject": "Normative: handle broken promises in AsyncGenerator.prototype.return"
-   }
-  ],
-  "title": "Normative: handle broken promises in AsyncGenerator.prototype.return",
-  "updated_at": "2024-05-02T16:35:06Z"
  },
  {
   "base": "7575f745f26e9f66b2be481144f37ac4a8a9f1c4",
