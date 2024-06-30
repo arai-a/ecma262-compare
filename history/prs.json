@@ -218,11 +218,19 @@
  {
   "base": "30257dd22f2e7ef1832b4cc1f5acb19f1e02e96b",
   "created_at": "2024-05-31T03:57:04Z",
-  "head": "290f832f7d64b22a94e2d94151e7a3ad73c41248",
+  "head": "8d1ef2c490186739ac9c91a6ecf079f69297eec3",
   "login": "gesa",
   "number": 3342,
   "ref": "pivot-some-tables",
   "revs": [
+   {
+    "adate": "2024-06-29T17:38:18-06:00",
+    "author": "Michael Ficarra",
+    "date": "2024-06-29T17:38:18-06:00",
+    "hash": "8d1ef2c490186739ac9c91a6ecf079f69297eec3",
+    "parents": "290f832f7d64b22a94e2d94151e7a3ad73c41248",
+    "subject": "singular"
+   },
    {
     "adate": "2024-06-26T19:41:25-06:00",
     "author": "Michael Ficarra",
@@ -241,7 +249,7 @@
    }
   ],
   "title": "Editorial: Pivots the tables within clause 16.2.1.5.4",
-  "updated_at": "2024-06-27T01:42:34Z"
+  "updated_at": "2024-06-29T23:38:26Z"
  },
  {
   "base": "b5097875532b0487049cf5f66f0a3e10f0c1af7e",
