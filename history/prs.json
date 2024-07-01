@@ -4572,34 +4572,6 @@
   "updated_at": "2021-10-13T20:01:38Z"
  },
  {
-  "base": "b5097875532b0487049cf5f66f0a3e10f0c1af7e",
-  "created_at": "2018-09-27T16:01:07Z",
-  "head": "7903729d7b6469684b4daa86124e2da3c1f7023b",
-  "login": "ljharb",
-  "number": 1314,
-  "ref": "luke_skywalker",
-  "revs": [
-   {
-    "adate": "2024-06-28T21:36:39-05:00",
-    "author": "Jordan Harband",
-    "date": "2024-06-28T21:36:39-05:00",
-    "hash": "7903729d7b6469684b4daa86124e2da3c1f7023b",
-    "parents": "2e67557bfa4c5b0ff53d27ef95c835e3909a9748",
-    "subject": "Editorial: Convert @@ notation to %% notation for well-known Symbols (#1314)"
-   },
-   {
-    "adate": "2024-06-27T09:59:22-07:00",
-    "author": "Jordan Harband",
-    "date": "2024-06-27T09:59:22-07:00",
-    "hash": "2e67557bfa4c5b0ff53d27ef95c835e3909a9748",
-    "parents": "b5097875532b0487049cf5f66f0a3e10f0c1af7e",
-    "subject": "Meta: update `ecmarkup` (#1314)"
-   }
-  ],
-  "title": "Editorial: Convert @@ notation to intrinsics notation for well-known Symbols",
-  "updated_at": "2024-06-29T02:37:01Z"
- },
- {
   "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
   "created_at": "2018-03-21T13:57:50Z",
   "head": "412374421e84b961a91caae71cfa2d8b8b7d0a52",
