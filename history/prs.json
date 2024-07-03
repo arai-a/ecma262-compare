@@ -1,5 +1,25 @@
 [
  {
+  "base": "3a2efec16f392294bcc5576b3b3bb695cf3c6d58",
+  "created_at": "2024-07-03T23:00:12Z",
+  "head": "4df502697d93f34414ab02ef5aade373ea28d227",
+  "login": "tc39",
+  "number": 3365,
+  "ref": "GH-3362",
+  "revs": [
+   {
+    "adate": "2024-07-03T16:57:29-06:00",
+    "author": "Michael Ficarra",
+    "date": "2024-07-03T16:57:29-06:00",
+    "hash": "4df502697d93f34414ab02ef5aade373ea28d227",
+    "parents": "3a2efec16f392294bcc5576b3b3bb695cf3c6d58",
+    "subject": "Editorial: create and assign [[PrivateElements]] slot in MakeBasicObject"
+   }
+  ],
+  "title": "Editorial: create and assign [[PrivateElements]] slot in MakeBasicObject",
+  "updated_at": "2024-07-03T23:01:09Z"
+ },
+ {
   "base": "b5097875532b0487049cf5f66f0a3e10f0c1af7e",
   "created_at": "2024-06-27T17:08:28Z",
   "head": "e16c929912a159c2bf11b643be7726632c70df7f",
