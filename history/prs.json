@@ -1,28 +1,8 @@
 [
  {
-  "base": "3a2efec16f392294bcc5576b3b3bb695cf3c6d58",
-  "created_at": "2024-07-04T02:48:00Z",
-  "head": "e3692a9326018a5933c3ed6da414d32ac9b9e099",
-  "login": "ljharb",
-  "number": 3366,
-  "ref": "ipr",
-  "revs": [
-   {
-    "adate": "2024-07-02T15:47:36-05:00",
-    "author": "Jordan Harband",
-    "date": "2024-07-02T15:47:36-05:00",
-    "hash": "e3692a9326018a5933c3ed6da414d32ac9b9e099",
-    "parents": "3a2efec16f392294bcc5576b3b3bb695cf3c6d58",
-    "subject": "Meta: check IPR form script: use a long SHA"
-   }
-  ],
-  "title": "Meta: check IPR form script: use a long SHA",
-  "updated_at": "2024-07-04T03:04:59Z"
- },
- {
-  "base": "3a2efec16f392294bcc5576b3b3bb695cf3c6d58",
+  "base": "e3692a9326018a5933c3ed6da414d32ac9b9e099",
   "created_at": "2024-07-03T23:00:12Z",
-  "head": "4df502697d93f34414ab02ef5aade373ea28d227",
+  "head": "dc3a96c951ef011e746cd74bc4290e160a1c542a",
   "login": "tc39",
   "number": 3365,
   "ref": "GH-3362",
@@ -30,14 +10,14 @@
    {
     "adate": "2024-07-03T16:57:29-06:00",
     "author": "Michael Ficarra",
-    "date": "2024-07-03T16:57:29-06:00",
-    "hash": "4df502697d93f34414ab02ef5aade373ea28d227",
-    "parents": "3a2efec16f392294bcc5576b3b3bb695cf3c6d58",
+    "date": "2024-07-04T10:02:39-05:00",
+    "hash": "dc3a96c951ef011e746cd74bc4290e160a1c542a",
+    "parents": "e3692a9326018a5933c3ed6da414d32ac9b9e099",
     "subject": "Editorial: create and assign [[PrivateElements]] slot in MakeBasicObject"
    }
   ],
   "title": "Editorial: create and assign [[PrivateElements]] slot in MakeBasicObject",
-  "updated_at": "2024-07-03T23:01:09Z"
+  "updated_at": "2024-07-04T15:02:40Z"
  },
  {
   "base": "b5097875532b0487049cf5f66f0a3e10f0c1af7e",
