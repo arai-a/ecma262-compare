@@ -62,11 +62,27 @@
  {
   "base": "4e32b345d044e3b6a4a737ef9c4396942e2597e7",
   "created_at": "2024-06-21T22:02:40Z",
-  "head": "204e8dcb314b88ebcca18c551fff7c5ed139b597",
+  "head": "0cad5d51786aed14f277f05205719bbe3a3e2b2e",
   "login": "syg",
   "number": 3357,
   "ref": "tla-hang",
   "revs": [
+   {
+    "adate": "2024-07-09T14:55:25-07:00",
+    "author": "Shu-yu Guo",
+    "date": "2024-07-09T14:55:25-07:00",
+    "hash": "0cad5d51786aed14f277f05205719bbe3a3e2b2e",
+    "parents": "001e29e2dd2d5e3d1977085a94bbdb0d2a4c3e16",
+    "subject": "Stupid tabs"
+   },
+   {
+    "adate": "2024-07-09T14:49:24-07:00",
+    "author": "Shu-yu Guo",
+    "date": "2024-07-09T14:49:24-07:00",
+    "hash": "001e29e2dd2d5e3d1977085a94bbdb0d2a4c3e16",
+    "parents": "204e8dcb314b88ebcca18c551fff7c5ed139b597",
+    "subject": "Set [[AsyncEvaluation]] to false in rejection closure for symmetry"
+   },
    {
     "adate": "2024-06-21T14:55:23-07:00",
     "author": "Shu-yu Guo",
@@ -77,7 +93,7 @@
    }
   ],
   "title": "Normative: Fix hangs with top-level await",
-  "updated_at": "2024-06-21T22:05:44Z"
+  "updated_at": "2024-07-09T21:55:33Z"
  },
  {
   "base": "4e32b345d044e3b6a4a737ef9c4396942e2597e7",
@@ -162,50 +178,6 @@
   ],
   "title": "Markup: minor fixes/improvements for PDF gen",
   "updated_at": "2024-06-13T20:06:25Z"
- },
- {
-  "base": "b5097875532b0487049cf5f66f0a3e10f0c1af7e",
-  "created_at": "2024-06-06T16:19:49Z",
-  "head": "0396d4b2eb7170fd1a1d2d06844e2003f00c39fd",
-  "login": "tc39",
-  "number": 3346,
-  "ref": "the-result-of",
-  "revs": [
-   {
-    "adate": "2024-06-26T17:56:09-06:00",
-    "author": "Michael Ficarra",
-    "date": "2024-06-26T17:56:09-06:00",
-    "hash": "0396d4b2eb7170fd1a1d2d06844e2003f00c39fd",
-    "parents": "a484768784a010209ccd73b9124a6e10c86ccd7e",
-    "subject": "revert bad NaN case"
-   },
-   {
-    "adate": "2024-06-26T17:55:24-06:00",
-    "author": "Michael Ficarra",
-    "date": "2024-06-26T17:55:24-06:00",
-    "hash": "a484768784a010209ccd73b9124a6e10c86ccd7e",
-    "parents": "98c731e138ac340658a0b8eabdd196305d1a73c7",
-    "subject": "revert more cases for UTF16EncodeCodePoint invocation"
-   },
-   {
-    "adate": "2024-06-26T17:53:56-06:00",
-    "author": "Michael Ficarra",
-    "date": "2024-06-26T17:53:56-06:00",
-    "hash": "98c731e138ac340658a0b8eabdd196305d1a73c7",
-    "parents": "35d31b7ac7f61deeca2b09f9534c777540dca06b",
-    "subject": "revert some cases before AO invocations"
-   },
-   {
-    "adate": "2024-06-06T12:17:31-04:00",
-    "author": "Michael Ficarra",
-    "date": "2024-06-26T17:48:57-06:00",
-    "hash": "35d31b7ac7f61deeca2b09f9534c777540dca06b",
-    "parents": "b5097875532b0487049cf5f66f0a3e10f0c1af7e",
-    "subject": "Editorial: remove some unnecessary \"the result of\" phrasing"
-   }
-  ],
-  "title": "Editorial: remove some unnecessary \"the result of\" phrasing",
-  "updated_at": "2024-06-26T23:56:21Z"
  },
  {
   "base": "4e32b345d044e3b6a4a737ef9c4396942e2597e7",
