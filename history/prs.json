@@ -20,24 +20,32 @@
   "updated_at": "2024-07-11T01:06:59Z"
  },
  {
-  "base": "b5097875532b0487049cf5f66f0a3e10f0c1af7e",
+  "base": "7a23e0e83597e4c8cfbbc1856a77cf8fc102e846",
   "created_at": "2024-06-27T17:08:28Z",
-  "head": "e16c929912a159c2bf11b643be7726632c70df7f",
+  "head": "e1399d7bf752e50edc6eebbf86267328426ebfe8",
   "login": "jmdyck",
   "number": 3361,
   "ref": "Contained_within_code",
   "revs": [
    {
+    "adate": "2024-07-11T13:58:34-04:00",
+    "author": "Michael Dyck",
+    "date": "2024-07-11T13:58:34-04:00",
+    "hash": "e1399d7bf752e50edc6eebbf86267328426ebfe8",
+    "parents": "f914f00b4c54dfab93d392c531bd3774076b30b3",
+    "subject": "Editorial: Eliminate \"Contained within\""
+   },
+   {
     "adate": "2024-06-27T12:20:14-04:00",
     "author": "Michael Dyck",
-    "date": "2024-06-27T12:20:14-04:00",
-    "hash": "e16c929912a159c2bf11b643be7726632c70df7f",
-    "parents": "b5097875532b0487049cf5f66f0a3e10f0c1af7e",
+    "date": "2024-07-11T08:57:58-04:00",
+    "hash": "f914f00b4c54dfab93d392c531bd3774076b30b3",
+    "parents": "7a23e0e83597e4c8cfbbc1856a77cf8fc102e846",
     "subject": "Editorial: Fix old bug in Annex B's changes to FunctionDeclarationInstantiation"
    }
   ],
   "title": "Editorial: Fix old bug in Annex B's changes to FunctionDeclarationInstantiation",
-  "updated_at": "2024-06-27T17:08:29Z"
+  "updated_at": "2024-07-11T18:04:55Z"
  },
  {
   "base": "4e32b345d044e3b6a4a737ef9c4396942e2597e7",
