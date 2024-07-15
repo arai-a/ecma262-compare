@@ -1,23 +1,23 @@
 [
  {
   "base": "7a23e0e83597e4c8cfbbc1856a77cf8fc102e846",
-  "created_at": "2024-07-14T22:32:46Z",
-  "head": "85e93f4c3894984f4317a301db0235f2b85ffc19",
-  "login": "Cachiman",
-  "number": 3373,
-  "ref": "main",
+  "created_at": "2024-07-15T09:37:43Z",
+  "head": "3f14928513a0f0160ee65ff4ca7e2eaa86a56922",
+  "login": "nicolo-ribaudo",
+  "number": 3374,
+  "ref": "fix-3160-eval-function-active-module",
   "revs": [
    {
-    "adate": "2024-07-14T18:32:27-04:00",
-    "author": "Cachiman Inc",
-    "date": "2024-07-14T18:32:27-04:00",
-    "hash": "85e93f4c3894984f4317a301db0235f2b85ffc19",
+    "adate": "2024-07-15T11:26:17+02:00",
+    "author": "Nicol\u00f2 Ribaudo",
+    "date": "2024-07-15T11:26:17+02:00",
+    "hash": "3f14928513a0f0160ee65ff4ca7e2eaa86a56922",
     "parents": "7a23e0e83597e4c8cfbbc1856a77cf8fc102e846",
-    "subject": "Create jekyll-docker.yml"
+    "subject": "Do not capture the script/module in `new Function` and `(0,eval)()`"
    }
   ],
-  "title": "Create jekyll-docker.yml",
-  "updated_at": "2024-07-14T22:32:46Z"
+  "title": "Normative: Do not capture the script/module in `new Function` and indirect `eval`",
+  "updated_at": "2024-07-15T10:13:31Z"
  },
  {
   "base": "7d0b1999d175ae52e8cbc0c3119db3d603f76fef",
