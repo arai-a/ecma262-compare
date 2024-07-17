@@ -576,24 +576,24 @@
   "updated_at": "2024-05-25T00:20:24Z"
  },
  {
-  "base": "3a2efec16f392294bcc5576b3b3bb695cf3c6d58",
+  "base": "7a23e0e83597e4c8cfbbc1856a77cf8fc102e846",
   "created_at": "2024-05-23T00:51:45Z",
-  "head": "7c3ae1dd618e957ff5f5132aaceb741d56c71f83",
+  "head": "e7f1e5d729f92dacbbae19be46591ccee22807f6",
   "login": "justingrant",
   "number": 3334,
   "ref": "remove-unicode-minus",
   "revs": [
    {
-    "adate": "2024-05-22T17:47:57-07:00",
+    "adate": "2024-07-17T10:33:45-07:00",
     "author": "Justin Grant",
-    "date": "2024-07-02T13:39:22-07:00",
-    "hash": "7c3ae1dd618e957ff5f5132aaceb741d56c71f83",
-    "parents": "3a2efec16f392294bcc5576b3b3bb695cf3c6d58",
-    "subject": "Normative: Revert U+2212 in timezone offsets"
+    "date": "2024-07-17T10:33:45-07:00",
+    "hash": "e7f1e5d729f92dacbbae19be46591ccee22807f6",
+    "parents": "7a23e0e83597e4c8cfbbc1856a77cf8fc102e846",
+    "subject": "Normative: Revert U+2212 in timezone offsets (#3334)"
    }
   ],
   "title": "Normative: Revert U+2212 (Unicode minus sign) as a valid character in timezone offsets",
-  "updated_at": "2024-07-02T20:47:55Z"
+  "updated_at": "2024-07-17T17:33:55Z"
  },
  {
   "base": "4e32b345d044e3b6a4a737ef9c4396942e2597e7",
