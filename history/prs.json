@@ -40,34 +40,6 @@
   "updated_at": "2024-07-11T01:06:59Z"
  },
  {
-  "base": "7a23e0e83597e4c8cfbbc1856a77cf8fc102e846",
-  "created_at": "2024-06-27T17:08:28Z",
-  "head": "e1399d7bf752e50edc6eebbf86267328426ebfe8",
-  "login": "jmdyck",
-  "number": 3361,
-  "ref": "Contained_within_code",
-  "revs": [
-   {
-    "adate": "2024-07-11T13:58:34-04:00",
-    "author": "Michael Dyck",
-    "date": "2024-07-11T13:58:34-04:00",
-    "hash": "e1399d7bf752e50edc6eebbf86267328426ebfe8",
-    "parents": "f914f00b4c54dfab93d392c531bd3774076b30b3",
-    "subject": "Editorial: Eliminate \"Contained within\""
-   },
-   {
-    "adate": "2024-06-27T12:20:14-04:00",
-    "author": "Michael Dyck",
-    "date": "2024-07-11T08:57:58-04:00",
-    "hash": "f914f00b4c54dfab93d392c531bd3774076b30b3",
-    "parents": "7a23e0e83597e4c8cfbbc1856a77cf8fc102e846",
-    "subject": "Editorial: Fix old bug in Annex B's changes to FunctionDeclarationInstantiation"
-   }
-  ],
-  "title": "Editorial: Fix old bug in Annex B's changes to FunctionDeclarationInstantiation",
-  "updated_at": "2024-07-11T18:04:55Z"
- },
- {
   "base": "4e32b345d044e3b6a4a737ef9c4396942e2597e7",
   "created_at": "2024-06-26T16:43:52Z",
   "head": "5484a5b7b976a6719434734622cbb2f3ef9dcc1a",
@@ -234,50 +206,6 @@
   ],
   "title": "Normative: fully define Math.sqrt",
   "updated_at": "2024-06-13T07:27:48Z"
- },
- {
-  "base": "30257dd22f2e7ef1832b4cc1f5acb19f1e02e96b",
-  "created_at": "2024-05-31T03:57:04Z",
-  "head": "8c2a0be00cbb3f4d31b1e51dcf6c8fcdd20ac609",
-  "login": "gesa",
-  "number": 3342,
-  "ref": "pivot-some-tables",
-  "revs": [
-   {
-    "adate": "2024-07-01T11:10:50-06:00",
-    "author": "Michael Ficarra",
-    "date": "2024-07-01T11:10:50-06:00",
-    "hash": "8c2a0be00cbb3f4d31b1e51dcf6c8fcdd20ac609",
-    "parents": "8d1ef2c490186739ac9c91a6ecf079f69297eec3",
-    "subject": "formatting"
-   },
-   {
-    "adate": "2024-06-29T17:38:18-06:00",
-    "author": "Michael Ficarra",
-    "date": "2024-06-29T17:38:18-06:00",
-    "hash": "8d1ef2c490186739ac9c91a6ecf079f69297eec3",
-    "parents": "290f832f7d64b22a94e2d94151e7a3ad73c41248",
-    "subject": "singular"
-   },
-   {
-    "adate": "2024-06-26T19:41:25-06:00",
-    "author": "Michael Ficarra",
-    "date": "2024-06-26T19:41:25-06:00",
-    "hash": "290f832f7d64b22a94e2d94151e7a3ad73c41248",
-    "parents": "78bc52910aaf123c31fab11bbc9ce330c1198bdf",
-    "subject": "add the slashed corner cell"
-   },
-   {
-    "adate": "2024-05-30T20:50:50-07:00",
-    "author": "Aki \ud83c\udf39",
-    "date": "2024-05-31T13:18:00-07:00",
-    "hash": "78bc52910aaf123c31fab11bbc9ce330c1198bdf",
-    "parents": "1babaf809575e073f07b12e4907fadae8a45b349",
-    "subject": "Editorial: Pivots the tables within clause 16.2.1.5.4"
-   }
-  ],
-  "title": "Editorial: Pivots the tables within clause 16.2.1.5.4",
-  "updated_at": "2024-07-01T17:11:12Z"
  },
  {
   "base": "b5097875532b0487049cf5f66f0a3e10f0c1af7e",
@@ -574,26 +502,6 @@
   ],
   "title": "integrate aspell for spelling checks",
   "updated_at": "2024-05-25T00:20:24Z"
- },
- {
-  "base": "7a23e0e83597e4c8cfbbc1856a77cf8fc102e846",
-  "created_at": "2024-05-23T00:51:45Z",
-  "head": "e7f1e5d729f92dacbbae19be46591ccee22807f6",
-  "login": "justingrant",
-  "number": 3334,
-  "ref": "remove-unicode-minus",
-  "revs": [
-   {
-    "adate": "2024-07-17T10:33:45-07:00",
-    "author": "Justin Grant",
-    "date": "2024-07-17T10:33:45-07:00",
-    "hash": "e7f1e5d729f92dacbbae19be46591ccee22807f6",
-    "parents": "7a23e0e83597e4c8cfbbc1856a77cf8fc102e846",
-    "subject": "Normative: Revert U+2212 in timezone offsets (#3334)"
-   }
-  ],
-  "title": "Normative: Revert U+2212 (Unicode minus sign) as a valid character in timezone offsets",
-  "updated_at": "2024-07-17T17:33:55Z"
  },
  {
   "base": "4e32b345d044e3b6a4a737ef9c4396942e2597e7",
@@ -1280,24 +1188,24 @@
   "updated_at": "2024-05-23T14:00:36Z"
  },
  {
-  "base": "4e32b345d044e3b6a4a737ef9c4396942e2597e7",
+  "base": "f2b2d524a56c915826e90d7a3f9daa51a49011c3",
   "created_at": "2023-10-13T09:39:05Z",
-  "head": "9812e26411666a08f484d26606b30e1ee654a89b",
+  "head": "009da3defeeac31c26a9bd2eceb8a4277eabdafc",
   "login": "legendecas",
   "number": 3195,
   "ref": "job-callback",
   "revs": [
    {
-    "adate": "2024-06-14T13:47:35+01:00",
+    "adate": "2023-10-13T17:28:16+08:00",
     "author": "Chengzhong Wu",
-    "date": "2024-06-14T13:47:35+01:00",
-    "hash": "9812e26411666a08f484d26606b30e1ee654a89b",
-    "parents": "4e32b345d044e3b6a4a737ef9c4396942e2597e7",
+    "date": "2024-07-19T18:14:28+01:00",
+    "hash": "009da3defeeac31c26a9bd2eceb8a4277eabdafc",
+    "parents": "f2b2d524a56c915826e90d7a3f9daa51a49011c3",
     "subject": "Nomative: save active scriptOrModule in JobRecord"
    }
   ],
   "title": "Normative: Propagate active ScriptOrModule with JobCallback Record",
-  "updated_at": "2024-06-14T12:56:32Z"
+  "updated_at": "2024-07-19T17:14:37Z"
  },
  {
   "base": "7a23e0e83597e4c8cfbbc1856a77cf8fc102e846",
