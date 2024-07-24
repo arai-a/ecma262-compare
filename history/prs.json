@@ -2,11 +2,19 @@
  {
   "base": "f2b2d524a56c915826e90d7a3f9daa51a49011c3",
   "created_at": "2024-07-24T08:24:32Z",
-  "head": "e0849c644c2f4f278182ecc87cf7142a8c101be9",
+  "head": "1c9228b6e4756b5b3e9ecd22383a6bf438a112c6",
   "login": "tmdghks",
   "number": 3377,
   "ref": "fix-tolength-return-type",
   "revs": [
+   {
+    "adate": "2024-07-24T23:17:31+09:00",
+    "author": "tmdghks",
+    "date": "2024-07-24T23:17:31+09:00",
+    "hash": "1c9228b6e4756b5b3e9ecd22383a6bf438a112c6",
+    "parents": "e0849c644c2f4f278182ecc87cf7142a8c101be9",
+    "subject": "Editorial: Using non-negative intetral Number insted of integral Number in ToLength"
+   },
    {
     "adate": "2024-07-24T17:18:07+09:00",
     "author": "tmdghks",
@@ -17,7 +25,7 @@
    }
   ],
   "title": "Editorial: Using non-negative integer instead of integer in ToLength",
-  "updated_at": "2024-07-24T08:37:32Z"
+  "updated_at": "2024-07-24T14:23:14Z"
  },
  {
   "base": "f2b2d524a56c915826e90d7a3f9daa51a49011c3",
