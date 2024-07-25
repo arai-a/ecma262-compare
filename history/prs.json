@@ -1,6 +1,26 @@
 [
  {
   "base": "f2b2d524a56c915826e90d7a3f9daa51a49011c3",
+  "created_at": "2024-07-25T05:17:20Z",
+  "head": "a04e9de0c6b1cc4c7bf6d9cd175acd51b8e035ad",
+  "login": "d01c2",
+  "number": 3379,
+  "ref": "assert-yield-generatorkind",
+  "revs": [
+   {
+    "adate": "2024-07-25T14:02:00+09:00",
+    "author": "Hyunjoon Kim",
+    "date": "2024-07-25T14:02:00+09:00",
+    "hash": "a04e9de0c6b1cc4c7bf6d9cd175acd51b8e035ad",
+    "parents": "f2b2d524a56c915826e90d7a3f9daa51a49011c3",
+    "subject": "Editorial: Add assertion that generatorKind is not non-generator"
+   }
+  ],
+  "title": "Editorial: Add assertion that generatorKind is not non-generator",
+  "updated_at": "2024-07-25T05:21:52Z"
+ },
+ {
+  "base": "f2b2d524a56c915826e90d7a3f9daa51a49011c3",
   "created_at": "2024-07-25T03:07:31Z",
   "head": "7a1a5dca91c54d615846b559ea4c9b586ec7c62d",
   "login": "tmdghks",
