@@ -1,6 +1,26 @@
 [
  {
   "base": "f2b2d524a56c915826e90d7a3f9daa51a49011c3",
+  "created_at": "2024-07-25T08:14:20Z",
+  "head": "104d49c1a6d5319d8fe8ea22721f8378dd5d34be",
+  "login": "tmdghks",
+  "number": 3380,
+  "ref": "fix-createdynamicfunction-newtarget-type",
+  "revs": [
+   {
+    "adate": "2024-07-25T16:56:47+09:00",
+    "author": "tmdghks",
+    "date": "2024-07-25T16:56:47+09:00",
+    "hash": "104d49c1a6d5319d8fe8ea22721f8378dd5d34be",
+    "parents": "f2b2d524a56c915826e90d7a3f9daa51a49011c3",
+    "subject": "Editorial: Widen parameter type of CreateDynamicFunction"
+   }
+  ],
+  "title": "Editorial: Widen parameter type of CreateDynamicFunction",
+  "updated_at": "2024-07-25T08:14:20Z"
+ },
+ {
+  "base": "f2b2d524a56c915826e90d7a3f9daa51a49011c3",
   "created_at": "2024-07-25T05:17:20Z",
   "head": "a04e9de0c6b1cc4c7bf6d9cd175acd51b8e035ad",
   "login": "d01c2",
