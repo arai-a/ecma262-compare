@@ -374,11 +374,35 @@
  {
   "base": "f2b2d524a56c915826e90d7a3f9daa51a49011c3",
   "created_at": "2024-05-25T00:20:24Z",
-  "head": "df401c8bc4aecf5bcf27ce1d5bc8ec2b719e74d6",
+  "head": "154e1e302ee56de743d8d50bcbb0e1d017dd79fa",
   "login": "tc39",
   "number": 3335,
   "ref": "spelling",
   "revs": [
+   {
+    "adate": "2024-07-25T19:52:43-06:00",
+    "author": "Michael Ficarra",
+    "date": "2024-07-25T19:52:43-06:00",
+    "hash": "154e1e302ee56de743d8d50bcbb0e1d017dd79fa",
+    "parents": "aab43088b51bb86c67fa64970bf88f4ba705291f",
+    "subject": "use Array map instead of Iterator map"
+   },
+   {
+    "adate": "2024-07-25T19:21:29-06:00",
+    "author": "Michael Ficarra",
+    "date": "2024-07-25T19:39:45-06:00",
+    "hash": "aab43088b51bb86c67fa64970bf88f4ba705291f",
+    "parents": "c46faa386d8927da1b0ba02f58cab5c692a6a8b5",
+    "subject": "use origin/ in front of GITHUB_BASE_REF"
+   },
+   {
+    "adate": "2024-07-25T19:07:24-06:00",
+    "author": "Michael Ficarra",
+    "date": "2024-07-25T19:07:24-06:00",
+    "hash": "c46faa386d8927da1b0ba02f58cab5c692a6a8b5",
+    "parents": "df401c8bc4aecf5bcf27ce1d5bc8ec2b719e74d6",
+    "subject": "install aspell first"
+   },
    {
     "adate": "2024-07-25T18:53:17-06:00",
     "author": "Michael Ficarra",
@@ -661,7 +685,7 @@
    }
   ],
   "title": "integrate aspell for spelling checks",
-  "updated_at": "2024-07-26T00:53:25Z"
+  "updated_at": "2024-07-26T01:59:30Z"
  },
  {
   "base": "4e32b345d044e3b6a4a737ef9c4396942e2597e7",
