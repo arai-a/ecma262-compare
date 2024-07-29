@@ -1,6 +1,98 @@
 [
  {
   "base": "f2b2d524a56c915826e90d7a3f9daa51a49011c3",
+  "created_at": "2024-07-29T00:41:48Z",
+  "head": "cb399ae108bbd44ab3ecc859699e0c5940ad60b5",
+  "login": "tc39",
+  "number": 3381,
+  "ref": "reduce-methods",
+  "revs": [
+   {
+    "adate": "2024-07-28T17:38:06-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2024-07-28T17:38:06-07:00",
+    "hash": "cb399ae108bbd44ab3ecc859699e0c5940ad60b5",
+    "parents": "11661bde7a940d3d6327433242c38e1dde654ad5",
+    "subject": "make BindThisValue return unused, as caught by linter"
+   },
+   {
+    "adate": "2024-07-28T17:37:02-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2024-07-28T17:37:02-07:00",
+    "hash": "11661bde7a940d3d6327433242c38e1dde654ad5",
+    "parents": "530c66cbff6ed6c9ddf0219186df6c15bc2a915d",
+    "subject": "make CreateImportBinding a regular AO"
+   },
+   {
+    "adate": "2024-07-28T17:35:51-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2024-07-28T17:35:51-07:00",
+    "hash": "530c66cbff6ed6c9ddf0219186df6c15bc2a915d",
+    "parents": "5770a8833039b6747721ddfa0f3dc4372e3c8aff",
+    "subject": "make CreateGlobalFunctionBinding a regular AO"
+   },
+   {
+    "adate": "2024-07-28T17:34:08-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2024-07-28T17:34:08-07:00",
+    "hash": "5770a8833039b6747721ddfa0f3dc4372e3c8aff",
+    "parents": "2cd5471f5ef404a40ef0309283649c930c4c7222",
+    "subject": "make CreateGlobalVarBinding a regular AO"
+   },
+   {
+    "adate": "2024-07-28T17:28:30-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2024-07-28T17:28:30-07:00",
+    "hash": "2cd5471f5ef404a40ef0309283649c930c4c7222",
+    "parents": "a2ae405ca1b72fd86dc87740eeb9a8d5c79c0501",
+    "subject": "make CanDeclareGlobalFunction a regular AO"
+   },
+   {
+    "adate": "2024-07-28T17:27:30-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2024-07-28T17:27:30-07:00",
+    "hash": "a2ae405ca1b72fd86dc87740eeb9a8d5c79c0501",
+    "parents": "e1a3d21bab96775c430b950a1a2dc88560f7347b",
+    "subject": "make CanDeclareGlobalVar a regular AO"
+   },
+   {
+    "adate": "2024-07-28T17:23:50-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2024-07-28T17:23:50-07:00",
+    "hash": "e1a3d21bab96775c430b950a1a2dc88560f7347b",
+    "parents": "025a467939c9ef83e016c26d6fddb85ac7546203",
+    "subject": "make HasLexicalDeclaration a regular AO"
+   },
+   {
+    "adate": "2024-07-28T17:21:49-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2024-07-28T17:21:54-07:00",
+    "hash": "025a467939c9ef83e016c26d6fddb85ac7546203",
+    "parents": "c7f2f5c997a022545e2cbef807c61ea226addd92",
+    "subject": "make HasVarDeclaration a regular AO"
+   },
+   {
+    "adate": "2024-07-28T17:18:53-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2024-07-28T17:18:53-07:00",
+    "hash": "c7f2f5c997a022545e2cbef807c61ea226addd92",
+    "parents": "2355fd4658f061934d273d5b57c34635517569a4",
+    "subject": "make GetSuperBase a regular AO"
+   },
+   {
+    "adate": "2024-07-28T17:15:45-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2024-07-28T17:15:45-07:00",
+    "hash": "2355fd4658f061934d273d5b57c34635517569a4",
+    "parents": "f2b2d524a56c915826e90d7a3f9daa51a49011c3",
+    "subject": "make BindThisValue a regular AO"
+   }
+  ],
+  "title": "Editorial: make single-implementation concrete methods into abstract operations",
+  "updated_at": "2024-07-29T00:41:48Z"
+ },
+ {
+  "base": "f2b2d524a56c915826e90d7a3f9daa51a49011c3",
   "created_at": "2024-07-25T08:14:20Z",
   "head": "104d49c1a6d5319d8fe8ea22721f8378dd5d34be",
   "login": "tmdghks",
