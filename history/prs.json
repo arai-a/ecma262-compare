@@ -1,6 +1,26 @@
 [
  {
   "base": "f2b2d524a56c915826e90d7a3f9daa51a49011c3",
+  "created_at": "2024-07-30T18:16:52Z",
+  "head": "83a42a97e533c2013f13ce754f855e7a2af0023f",
+  "login": "ljharb",
+  "number": 3382,
+  "ref": "escape",
+  "revs": [
+   {
+    "adate": "2024-07-30T11:15:13-07:00",
+    "author": "Jordan Harband",
+    "date": "2024-07-30T11:15:13-07:00",
+    "hash": "83a42a97e533c2013f13ce754f855e7a2af0023f",
+    "parents": "f2b2d524a56c915826e90d7a3f9daa51a49011c3",
+    "subject": "Normative: add `RegExp.escape`"
+   }
+  ],
+  "title": "Normative: add `RegExp.escape`",
+  "updated_at": "2024-07-30T18:16:52Z"
+ },
+ {
+  "base": "f2b2d524a56c915826e90d7a3f9daa51a49011c3",
   "created_at": "2024-07-29T00:41:48Z",
   "head": "cb399ae108bbd44ab3ecc859699e0c5940ad60b5",
   "login": "tc39",
