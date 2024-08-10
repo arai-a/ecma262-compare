@@ -1,25 +1,5 @@
 [
  {
-  "base": "4bc2d8dedb662edb8870b13d5b35d01ff5312ee9",
-  "created_at": "2024-08-08T17:29:01Z",
-  "head": "b2de1f62322eca0263653d52890ebdeb1fc676ee",
-  "login": "tc39",
-  "number": 3384,
-  "ref": "more-ids",
-  "revs": [
-   {
-    "adate": "2024-08-08T11:26:47-06:00",
-    "author": "Michael Ficarra",
-    "date": "2024-08-08T11:26:47-06:00",
-    "hash": "b2de1f62322eca0263653d52890ebdeb1fc676ee",
-    "parents": "4bc2d8dedb662edb8870b13d5b35d01ff5312ee9",
-    "subject": "Editorial: rename IDs that were embedded in emu-grammar elements back"
-   }
-  ],
-  "title": "Editorial: rename IDs that were embedded in emu-grammar elements back",
-  "updated_at": "2024-08-08T17:45:16Z"
- },
- {
   "base": "f2b2d524a56c915826e90d7a3f9daa51a49011c3",
   "created_at": "2024-07-31T11:17:01Z",
   "head": "89b27d091ad1905362fd7f67f459f9623096e29a",
@@ -2572,9 +2552,9 @@
   "updated_at": "2022-11-29T09:36:27Z"
  },
  {
-  "base": "a92f3e906943ee1abdbf924a27c966524474f0c4",
+  "base": "32fe924d97f504194c96d71217e73da2bcdb2d91",
   "created_at": "2022-10-31T19:28:14Z",
-  "head": "06e2af4a47bd749e5cbb0fb0c737221e86685a85",
+  "head": "a96ab8838fe277eac35cde33e6182f821f80c02e",
   "login": "jmdyck",
   "number": 2952,
   "ref": "monkey_patch",
@@ -2582,70 +2562,70 @@
    {
     "adate": "2023-09-02T10:51:59-04:00",
     "author": "Michael Dyck",
-    "date": "2024-05-22T21:34:00-04:00",
-    "hash": "06e2af4a47bd749e5cbb0fb0c737221e86685a85",
-    "parents": "79b4b2537efe1bd0aef4ee2fdf0145a327a275a1",
+    "date": "2024-08-09T19:28:27-04:00",
+    "hash": "a96ab8838fe277eac35cde33e6182f821f80c02e",
+    "parents": "a0f273551e4a63b04c6f749627556762defd8a11",
     "subject": "Refactor to avoid \"and\" after the host-condition"
    },
    {
     "adate": "2023-09-02T09:46:03-04:00",
     "author": "Michael Dyck",
-    "date": "2024-05-22T21:31:59-04:00",
-    "hash": "79b4b2537efe1bd0aef4ee2fdf0145a327a275a1",
-    "parents": "6be147566a34b2cffaab03169e86415d1260641e",
+    "date": "2024-08-09T19:25:17-04:00",
+    "hash": "a0f273551e4a63b04c6f749627556762defd8a11",
+    "parents": "08235dff13227df48737559e0360ff76645f7d11",
     "subject": "Change \"Let\" to \"Set\" in inlined steps in EvalDeclarationInstantiation"
    },
    {
     "adate": "2022-10-31T14:31:01-04:00",
     "author": "Michael Dyck",
-    "date": "2024-05-22T21:31:59-04:00",
-    "hash": "6be147566a34b2cffaab03169e86415d1260641e",
-    "parents": "591d948366a8d22e0780e2e61200d2e7de797499",
+    "date": "2024-08-09T19:25:17-04:00",
+    "hash": "08235dff13227df48737559e0360ff76645f7d11",
+    "parents": "9eee3673b4cbae8334251a1fdcfe27ffdbe10600",
     "subject": "Editorial: Eliminate monkey-patching from \"The [[IsHTMLDDA]] Internal Slot\""
    },
    {
     "adate": "2022-10-31T14:17:20-04:00",
     "author": "Michael Dyck",
-    "date": "2024-05-22T21:31:57-04:00",
-    "hash": "591d948366a8d22e0780e2e61200d2e7de797499",
-    "parents": "a3607aaac1b5884b36854c024e3e5b79d36decc2",
+    "date": "2024-08-09T19:25:17-04:00",
+    "hash": "9eee3673b4cbae8334251a1fdcfe27ffdbe10600",
+    "parents": "34f94d8f4596415d3039d6f71b80dde129d3536e",
     "subject": "Editorial: Eliminate monkey-patching from \"VariableStatements in Catch Blocks\""
    },
    {
     "adate": "2022-10-31T11:05:45-04:00",
     "author": "Michael Dyck",
-    "date": "2024-05-22T21:28:33-04:00",
-    "hash": "a3607aaac1b5884b36854c024e3e5b79d36decc2",
-    "parents": "b6494465e011e54dbc3a74862efa7b7e41e4ad72",
+    "date": "2024-08-09T19:24:57-04:00",
+    "hash": "34f94d8f4596415d3039d6f71b80dde129d3536e",
+    "parents": "4b409a1b51a0a3cb4ef3cbf63717703089f73360",
     "subject": "Editorial: Eliminate monkey-patching from \"Block-Level Function Declarations...\""
    },
    {
     "adate": "2022-10-31T10:28:16-04:00",
     "author": "Michael Dyck",
-    "date": "2024-05-22T21:13:49-04:00",
-    "hash": "b6494465e011e54dbc3a74862efa7b7e41e4ad72",
-    "parents": "f5ec742c1f3cfeb086e5e04823f4eca92d65cd50",
+    "date": "2024-08-09T17:41:46-04:00",
+    "hash": "4b409a1b51a0a3cb4ef3cbf63717703089f73360",
+    "parents": "59589c683a888706cba8d6ea26e551bd9a76cc37",
     "subject": "Editorial: Eliminate monkey-patching from \"Labelled Function Declarations\""
    },
    {
     "adate": "2023-04-12T15:21:18-04:00",
     "author": "Michael Dyck",
-    "date": "2024-05-22T21:13:49-04:00",
-    "hash": "f5ec742c1f3cfeb086e5e04823f4eca92d65cd50",
-    "parents": "14300f98874a648e03984836eb4a1ebaaac5c9d7",
+    "date": "2024-08-09T17:41:45-04:00",
+    "hash": "59589c683a888706cba8d6ea26e551bd9a76cc37",
+    "parents": "c5505704668c949655cf6997d9f82124a627702d",
     "subject": "Editorial: Tweak the defn of \"Normative Optional\""
    },
    {
     "adate": "2022-10-31T09:57:04-04:00",
     "author": "Michael Dyck",
-    "date": "2024-05-22T21:13:48-04:00",
-    "hash": "14300f98874a648e03984836eb4a1ebaaac5c9d7",
-    "parents": "a92f3e906943ee1abdbf924a27c966524474f0c4",
+    "date": "2024-08-09T17:41:29-04:00",
+    "hash": "c5505704668c949655cf6997d9f82124a627702d",
+    "parents": "32fe924d97f504194c96d71217e73da2bcdb2d91",
     "subject": "Editorial: Link to alt FunctionDeclaration semantics"
    }
   ],
   "title": "Editorial: Reduce Annex B's monkey-patching",
-  "updated_at": "2024-05-23T14:11:31Z"
+  "updated_at": "2024-08-10T14:50:38Z"
  },
  {
   "base": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
@@ -2848,9 +2828,9 @@
   "updated_at": "2023-02-13T19:08:39Z"
  },
  {
-  "base": "623e2c8f3e4d3e1248ad2c02f75e0511e083560f",
+  "base": "32fe924d97f504194c96d71217e73da2bcdb2d91",
   "created_at": "2022-09-04T02:20:57Z",
-  "head": "bc7b84af5f7358c8155bff9f502f1c904da01542",
+  "head": "a84ff377fa747c10c06e82bb9592ed195d7130f4",
   "login": "jmdyck",
   "number": 2889,
   "ref": "callable",
@@ -2858,22 +2838,22 @@
    {
     "adate": "2022-09-03T22:11:56-04:00",
     "author": "Michael Dyck",
-    "date": "2024-06-05T14:07:45-04:00",
-    "hash": "bc7b84af5f7358c8155bff9f502f1c904da01542",
-    "parents": "b01c7aaa3c4929a13aa32722b17ab8cc4cf381e6",
+    "date": "2024-08-09T19:42:45-04:00",
+    "hash": "a84ff377fa747c10c06e82bb9592ed195d7130f4",
+    "parents": "06506f26ff7d2bf576373a7bdf51f8e3a86ed0cf",
     "subject": "Eliminate most other uses of \"callable\""
    },
    {
     "adate": "2022-09-03T21:47:50-04:00",
     "author": "Michael Dyck",
-    "date": "2024-06-05T14:07:44-04:00",
-    "hash": "b01c7aaa3c4929a13aa32722b17ab8cc4cf381e6",
-    "parents": "623e2c8f3e4d3e1248ad2c02f75e0511e083560f",
+    "date": "2024-08-09T19:42:44-04:00",
+    "hash": "06506f26ff7d2bf576373a7bdf51f8e3a86ed0cf",
+    "parents": "32fe924d97f504194c96d71217e73da2bcdb2d91",
     "subject": "Rename \"IsCallable\" as \"IsFunction\""
    }
   ],
   "title": "Editorial: Minimize use of the term \"callable\"",
-  "updated_at": "2024-06-05T18:49:01Z"
+  "updated_at": "2024-08-10T14:51:21Z"
  },
  {
   "base": "3cf8e30e47dd1f010b7d86929670f1e8c51ecc43",
@@ -3716,9 +3696,9 @@
   "updated_at": "2023-09-03T03:04:06Z"
  },
  {
-  "base": "7a23e0e83597e4c8cfbbc1856a77cf8fc102e846",
+  "base": "32fe924d97f504194c96d71217e73da2bcdb2d91",
   "created_at": "2021-01-13T04:47:26Z",
-  "head": "56f7ee8038599665c9a111dcee3a8ce80340b5c6",
+  "head": "7fe57e848ada1e530c8059f8912137ae95e218b9",
   "login": "jmdyck",
   "number": 2274,
   "ref": "Number_shifts",
@@ -3726,27 +3706,27 @@
    {
     "adate": "2021-01-12T23:24:04-05:00",
     "author": "Michael Dyck",
-    "date": "2024-07-11T09:30:27-04:00",
-    "hash": "56f7ee8038599665c9a111dcee3a8ce80340b5c6",
-    "parents": "927c7eb6b8915e344fc3c99bf78a639144d68dc9",
+    "date": "2024-08-09T21:07:15-04:00",
+    "hash": "7fe57e848ada1e530c8059f8912137ae95e218b9",
+    "parents": "57a798c1fa76cc3ae0de35789dbe5d096355099d",
     "subject": "Editorial: Express some Number methods more explicitly"
    },
    {
     "adate": "2021-01-12T22:07:15-05:00",
     "author": "Michael Dyck",
-    "date": "2024-07-11T09:30:27-04:00",
-    "hash": "927c7eb6b8915e344fc3c99bf78a639144d68dc9",
-    "parents": "7a23e0e83597e4c8cfbbc1856a77cf8fc102e846",
+    "date": "2024-08-09T21:05:17-04:00",
+    "hash": "57a798c1fa76cc3ae0de35789dbe5d096355099d",
+    "parents": "32fe924d97f504194c96d71217e73da2bcdb2d91",
     "subject": "Editorial: Extract NumberToInt32Bits and Int32BitsToNumber"
    }
   ],
   "title": "Editorial: Express some 'bitwise' Number methods more explicitly",
-  "updated_at": "2024-07-11T17:19:20Z"
+  "updated_at": "2024-08-10T14:52:40Z"
  },
  {
-  "base": "7a23e0e83597e4c8cfbbc1856a77cf8fc102e846",
+  "base": "32fe924d97f504194c96d71217e73da2bcdb2d91",
   "created_at": "2020-12-08T06:31:39Z",
-  "head": "4029119f650c21dba0fd719e70ced6321804809f",
+  "head": "32fb60e825479212142b231e8f525b8df4981514",
   "login": "jmdyck",
   "number": 2246,
   "ref": "ExecutionContext_Record",
@@ -3754,78 +3734,78 @@
    {
     "adate": "2024-05-23T10:18:21-04:00",
     "author": "Michael Dyck",
-    "date": "2024-07-11T09:20:53-04:00",
-    "hash": "4029119f650c21dba0fd719e70ced6321804809f",
-    "parents": "2845cc67375c6ad4468b0805fb3e97f4edf473c6",
+    "date": "2024-08-09T19:38:57-04:00",
+    "hash": "32fb60e825479212142b231e8f525b8df4981514",
+    "parents": "47207ca516205fdb2c3f1f441a99fb64535a39d8",
     "subject": "fixup: delete 2 lines from esmeta-ignore.json"
    },
    {
     "adate": "2022-11-16T17:52:33-05:00",
     "author": "Michael Dyck",
-    "date": "2024-07-11T09:20:53-04:00",
-    "hash": "2845cc67375c6ad4468b0805fb3e97f4edf473c6",
-    "parents": "e47d91f3c7d9df10c706a85d3bdee2ccfff8161f",
+    "date": "2024-08-09T19:38:57-04:00",
+    "hash": "47207ca516205fdb2c3f1f441a99fb64535a39d8",
+    "parents": "a5762ae3845b0a2c1a732a2fba26127d5b270492",
     "subject": "fixup: try adding PrepareForOrdinaryCall to esmeta-ignore instead of ECMAScriptFunctionObject.Construct"
    },
    {
     "adate": "2022-08-31T23:46:33-04:00",
     "author": "Michael Dyck",
-    "date": "2024-07-11T09:20:53-04:00",
-    "hash": "e47d91f3c7d9df10c706a85d3bdee2ccfff8161f",
-    "parents": "16c75f8b9625d750f275788d27e0408a8dd9d812",
+    "date": "2024-08-09T19:38:57-04:00",
+    "hash": "a5762ae3845b0a2c1a732a2fba26127d5b270492",
+    "parents": "c329803847425aded719e86469827b5e6b3feb16",
     "subject": "fixup: \"execution context\" -> \"ExecutionContext Record\" in some prose"
    },
    {
     "adate": "2022-08-31T23:31:55-04:00",
     "author": "Michael Dyck",
-    "date": "2024-07-11T09:20:53-04:00",
-    "hash": "16c75f8b9625d750f275788d27e0408a8dd9d812",
-    "parents": "8ef6af4f881a7875ab9c59de6742af5f87a61e9b",
+    "date": "2024-08-09T19:38:57-04:00",
+    "hash": "c329803847425aded719e86469827b5e6b3feb16",
+    "parents": "16978041088101b266b2dd396fc401b2a683208e",
     "subject": "fixup: \"execution context\" -> \"ExecutionContext Record\" in some alg steps"
    },
    {
     "adate": "2022-08-31T23:13:29-04:00",
     "author": "Michael Dyck",
-    "date": "2024-07-11T09:20:53-04:00",
-    "hash": "8ef6af4f881a7875ab9c59de6742af5f87a61e9b",
-    "parents": "6a5f3994a32882a5e7c3cf3e995f2e50b7921d33",
+    "date": "2024-08-09T19:38:56-04:00",
+    "hash": "16978041088101b266b2dd396fc401b2a683208e",
+    "parents": "e7ba13e2958bf95e674c57e98f3d2f59fa1832e7",
     "subject": "fixup: Avoid saying \"that execution context\" by naming it"
    },
    {
     "adate": "2022-08-31T20:30:10-04:00",
     "author": "Michael Dyck",
-    "date": "2024-07-11T09:20:53-04:00",
-    "hash": "6a5f3994a32882a5e7c3cf3e995f2e50b7921d33",
-    "parents": "4633d9a1ce24cd86964a6a5cc65dfc7a0ccfac66",
+    "date": "2024-08-09T19:38:28-04:00",
+    "hash": "e7ba13e2958bf95e674c57e98f3d2f59fa1832e7",
+    "parents": "b6ced80725c1d3ad485f4799a25b5df3ffdc761d",
     "subject": "fixup: \"execution context\" -> \"ExecutionContext Record\" in record-field tables"
    },
    {
     "adate": "2022-08-31T20:24:28-04:00",
     "author": "Michael Dyck",
-    "date": "2024-07-11T09:20:53-04:00",
-    "hash": "4633d9a1ce24cd86964a6a5cc65dfc7a0ccfac66",
-    "parents": "467c9d92e1ca497aa6dd27913dd279ac389ad403",
+    "date": "2024-08-09T19:38:28-04:00",
+    "hash": "b6ced80725c1d3ad485f4799a25b5df3ffdc761d",
+    "parents": "88e910d3f8452a91b464595b566929f74a400785",
     "subject": "fixup: \"execution context\" -> \"ExecutionContext Record\" in AO headers"
    },
    {
     "adate": "2022-08-31T23:32:48-04:00",
     "author": "Michael Dyck",
-    "date": "2024-07-11T09:20:53-04:00",
-    "hash": "467c9d92e1ca497aa6dd27913dd279ac389ad403",
-    "parents": "013d0f8c7d1fc6003a6ec81095a969355d59dd58",
+    "date": "2024-08-09T19:38:28-04:00",
+    "hash": "88e910d3f8452a91b464595b566929f74a400785",
+    "parents": "19644e305c373f57f9a873b8a189582d6e9f20f3",
     "subject": "fixup: \"execution context\" -> \"ExecutionContext Record\" in the <dfn> of ECMAScript code execution contexts"
    },
    {
     "adate": "2020-12-08T01:22:55-05:00",
     "author": "Michael Dyck",
-    "date": "2024-07-11T09:20:53-04:00",
-    "hash": "013d0f8c7d1fc6003a6ec81095a969355d59dd58",
-    "parents": "7a23e0e83597e4c8cfbbc1856a77cf8fc102e846",
+    "date": "2024-08-09T19:38:23-04:00",
+    "hash": "19644e305c373f57f9a873b8a189582d6e9f20f3",
+    "parents": "32fe924d97f504194c96d71217e73da2bcdb2d91",
     "subject": "Editorial: Model execution context as a record"
    }
   ],
   "title": "Editorial: Model execution context as a record",
-  "updated_at": "2024-07-11T17:20:07Z"
+  "updated_at": "2024-08-10T14:53:29Z"
  },
  {
   "base": "b3f9b5089bcc3ddd8486379015cd11eb1427a5eb",
@@ -4152,9 +4132,9 @@
   "updated_at": "2020-03-27T07:01:25Z"
  },
  {
-  "base": "705742e103127e1be093c8cb10006974678a78db",
+  "base": "32fe924d97f504194c96d71217e73da2bcdb2d91",
   "created_at": "2019-07-13T02:30:44Z",
-  "head": "89504a7b8f5331bb23a4970ee728c1741ab503f2",
+  "head": "d96d052a1dcdcc664f1e7af77a608c2032e65bd9",
   "login": "jmdyck",
   "number": 1623,
   "ref": "index_strings",
@@ -4162,38 +4142,38 @@
    {
     "adate": "2019-07-12T11:59:54-04:00",
     "author": "Michael Dyck",
-    "date": "2024-04-28T09:14:33-04:00",
-    "hash": "89504a7b8f5331bb23a4970ee728c1741ab503f2",
-    "parents": "8b3d4cdf66861c0ec9492e124a8ad22e02907655",
+    "date": "2024-08-09T21:09:40-04:00",
+    "hash": "d96d052a1dcdcc664f1e7af77a608c2032e65bd9",
+    "parents": "d6eb36ef4bac46b39a12f3a29188b3a51b9124d4",
     "subject": "Editorial: some minor rewordings"
    },
    {
     "adate": "2019-07-12T11:12:43-04:00",
     "author": "Michael Dyck",
-    "date": "2024-04-28T09:14:31-04:00",
-    "hash": "8b3d4cdf66861c0ec9492e124a8ad22e02907655",
-    "parents": "fa6c85f81c890cfe448ff0addf806914c909fe07",
+    "date": "2024-08-09T21:09:40-04:00",
+    "hash": "d6eb36ef4bac46b39a12f3a29188b3a51b9124d4",
+    "parents": "e928c92391f9932a320eb08ab5e7e53a83931e14",
     "subject": "Editorial: Replace \"array index\" with \"Uint32-string\""
    },
    {
     "adate": "2019-07-12T10:23:31-04:00",
     "author": "Michael Dyck",
-    "date": "2024-04-28T09:13:32-04:00",
-    "hash": "fa6c85f81c890cfe448ff0addf806914c909fe07",
-    "parents": "5f3cf10c7b3526fcc51e5264f11212eac6ef52a3",
+    "date": "2024-08-09T21:09:38-04:00",
+    "hash": "e928c92391f9932a320eb08ab5e7e53a83931e14",
+    "parents": "a7fd088f3d7f252039f03e4e3a91859eb11b7bd3",
     "subject": "Editorial: Replace \"integer index\" with \"Uint53-string\""
    },
    {
     "adate": "2019-07-12T21:58:00-04:00",
     "author": "Michael Dyck",
-    "date": "2024-04-28T09:09:28-04:00",
-    "hash": "5f3cf10c7b3526fcc51e5264f11212eac6ef52a3",
-    "parents": "705742e103127e1be093c8cb10006974678a78db",
+    "date": "2024-08-09T21:08:49-04:00",
+    "hash": "a7fd088f3d7f252039f03e4e3a91859eb11b7bd3",
+    "parents": "32fe924d97f504194c96d71217e73da2bcdb2d91",
     "subject": "Editorial: Fix wording in Note for Arguments exotic objects"
    }
   ],
   "title": "Editorial: Replace terms \"integer index\" and \"array index\"",
-  "updated_at": "2024-04-28T14:02:38Z"
+  "updated_at": "2024-08-10T14:54:56Z"
  },
  {
   "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
