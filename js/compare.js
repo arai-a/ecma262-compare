@@ -1883,7 +1883,7 @@ class Comparator extends Base {
     return result;
   }
 
-  // Replace links into the same document to links into diff, or snapshot.
+  // Replace links into the same document to links into diff.
   fixupLinks(type, box) {
     const secIdSet = new Set();
     for (const { _, id }  of this.secIdList) {
@@ -1904,15 +1904,26 @@ class Comparator extends Base {
       }
 
       const id = href.slice(1);
-      if (secIdSet.has(id)) {
+
+      if (id.startsWith("sec-")) {
+        const hasDiff = secIdSet.has(id);
+
         const url = new URL(document.location.href);
         url.search = this.constructQuery(queryObj => {
           queryObj.id = id;
+          if (!hasDiff) {
+            queryObj.secAll = true;
+          }
         });
         link.href = url;
+
         link.addEventListener("click", async e => {
           e.preventDefault();
 
+          if (!hasDiff) {
+            this.secAll.checked = true;
+            await this.updateSectionList();
+          }
           this.secList.value = id;
           this.updateURL();
           await this.compare();
