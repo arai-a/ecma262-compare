@@ -19,17 +19,23 @@ class SnapshotLoader extends Base {
     return this.getTextGZ(`./history/${hash}/index.html.gz`);
   }
 
+  fixSource(url, source) {
+    return source
+      .replace(/href="#/g,
+               `href="${url.pathname}${url.search}#`)
+      .replace(/<link rel="stylesheet" href="assets\/ecmarkup.css">/,
+               `<link rel="stylesheet" href="/ecma262-compare/style/ecmarkup.css">`)
+      .replace(/<link rel="stylesheet" href="assets\/print.css" media="print">/, "");
+  }
+
   async loadIndex(hash) {
     const source = await this.getIndex(hash);
 
     const url = new URL(document.location.href);
 
-    const fixedSource = source.replace(/href="#/g,
-                                       `href="${url.pathname}${url.search}#`);
-
     const base = `<base href="./history/${hash}/">`;
 
-    document.documentElement.innerHTML = base + fixedSource;
+    document.documentElement.innerHTML = base + this.fixSource(url, source);
 
     const script = document.createElement("script");
     script.addEventListener("load", () => {

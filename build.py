@@ -755,9 +755,24 @@ class RevisionRenderer:
         if os.path.exists(rev_dir):
             distutils.dir_util.remove_tree(rev_dir)
 
+        # Use the same structure
+
+        assets_js_path = os.path.join(repo_out_dir, 'assets', 'ecmarkup.js')
+        if os.path.exists(assets_js_path):
+            js_path = os.path.join(repo_out_dir, 'ecmarkup.js')
+            os.rename(assets_js_path, js_path)
+
+        # Remove unnecessary files
+
         multipage_dir = os.path.join(repo_out_dir, 'multipage')
         if os.path.exists(multipage_dir):
             distutils.dir_util.remove_tree(multipage_dir)
+
+        assets_dir = os.path.join(repo_out_dir, 'assets')
+        if os.path.exists(assets_dir):
+            distutils.dir_util.remove_tree(assets_dir)
+
+        # Compress files
 
         content = FileUtils.read(repo_out_index_path)
         FileUtils.write_gz(repo_out_index_gz_path, content)
