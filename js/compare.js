@@ -1604,7 +1604,7 @@ class Comparator extends Base {
         }
       }
       const fixupResult = this.fixupExcluded(type, box);
-      this.fixupLink(type, box);
+      this.fixupLinks(type, box);
       this.fixupImages(type, box);
       if (sections.size > 1) {
         this.addSingleSectionButtons(box);
@@ -1883,8 +1883,13 @@ class Comparator extends Base {
     return result;
   }
 
-  // Replace links into the same document to links into snapshot.
-  fixupLink(type, box) {
+  // Replace links into the same document to links into diff, or snapshot.
+  fixupLinks(type, box) {
+    const secIdSet = new Set();
+    for (const { _, id }  of this.secIdList) {
+      secIdSet.add(id);
+    }
+
     const fromSnapshot = this.toSnapshotURL(this.fromRev.value);
     const toSnapshot = this.toSnapshotURL(this.toRev.value);
 
@@ -1897,6 +1902,24 @@ class Comparator extends Base {
       if (!href.startsWith("#")) {
         continue;
       }
+
+      const id = href.slice(1);
+      if (secIdSet.has(id)) {
+        const url = new URL(document.location.href);
+        url.search = this.constructQuery(queryObj => {
+          queryObj.id = id;
+        });
+        link.href = url;
+        link.addEventListener("click", async e => {
+          e.preventDefault();
+
+          this.secList.value = id;
+          this.updateURL();
+          await this.compare();
+        });
+        continue;
+      }
+
       if (type === "from") {
         link.href = `${fromSnapshot}${href}`;
       } else if (type === "to") {
