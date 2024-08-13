@@ -1,5 +1,37 @@
 [
  {
+  "adate": "2024-08-09T16:08:48-07:00",
+  "author": "Kevin Gibbons",
+  "date": "2024-08-09T17:14:24-07:00",
+  "hash": "f439eccd5adaac04e5f29bb926aefd7899855b3e",
+  "parents": "4cb5a6980e20be76c648f113c4cc762342172df3",
+  "subject": "Editorial: rename ~awaiting-return~ state to ~draining-queue~"
+ },
+ {
+  "adate": "2024-06-12T15:12:14-07:00",
+  "author": "Kevin Gibbons",
+  "date": "2024-08-09T17:14:24-07:00",
+  "hash": "4cb5a6980e20be76c648f113c4cc762342172df3",
+  "parents": "bf2e2fee67f0236daa19a3c3182f09b4a96e582c",
+  "subject": "Normative: guard against reentrancy in AsyncGenerator.prototype.return"
+ },
+ {
+  "adate": "2024-06-12T15:11:55-07:00",
+  "author": "Kevin Gibbons",
+  "date": "2024-08-09T17:14:24-07:00",
+  "hash": "bf2e2fee67f0236daa19a3c3182f09b4a96e582c",
+  "parents": "9df72d55abb582df31e9afa4be02b953c2813bde",
+  "subject": "Editorial: more precise type for EnqueueResolveInAgentJob"
+ },
+ {
+  "adate": "2024-06-12T15:11:12-07:00",
+  "author": "Kevin Gibbons",
+  "date": "2024-08-09T17:14:23-07:00",
+  "hash": "9df72d55abb582df31e9afa4be02b953c2813bde",
+  "parents": "32fe924d97f504194c96d71217e73da2bcdb2d91",
+  "subject": "Editorial: mark various side-effecting Promise resolutions"
+ },
+ {
   "adate": "2024-08-09T14:10:34+12:00",
   "author": "Michael Ficarra",
   "date": "2024-08-09T14:10:34+12:00",
