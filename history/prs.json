@@ -1,5 +1,25 @@
 [
  {
+  "base": "f439eccd5adaac04e5f29bb926aefd7899855b3e",
+  "created_at": "2024-08-13T20:57:55Z",
+  "head": "c0b4efaa63ea6536d4bc00c9832183a4f0eec0d0",
+  "login": "tc39",
+  "number": 3390,
+  "ref": "no-audit-in-ci",
+  "revs": [
+   {
+    "adate": "2024-08-13T13:57:17-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2024-08-13T13:57:17-07:00",
+    "hash": "c0b4efaa63ea6536d4bc00c9832183a4f0eec0d0",
+    "parents": "f439eccd5adaac04e5f29bb926aefd7899855b3e",
+    "subject": "Meta: do not npm audit in CI"
+   }
+  ],
+  "title": "Meta: do not npm audit in CI",
+  "updated_at": "2024-08-13T21:00:02Z"
+ },
+ {
   "base": "f2b2d524a56c915826e90d7a3f9daa51a49011c3",
   "created_at": "2024-07-31T11:17:01Z",
   "head": "89b27d091ad1905362fd7f67f459f9623096e29a",
