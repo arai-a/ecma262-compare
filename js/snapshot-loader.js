@@ -19,12 +19,14 @@ class SnapshotLoader extends Base {
     return this.getTextGZ(`./history/${hash}/index.html.gz`);
   }
 
-  fixSource(url, source) {
+  fixSource(url, base, source) {
     return source
       .replace(/href="#/g,
                `href="${url.pathname}${url.search}#`)
+      .replace(/src="img/g,
+               `src="${base}/img`)
       .replace(/<link rel="stylesheet" href="assets\/ecmarkup.css">/,
-               `<link rel="stylesheet" href="/ecma262-compare/style/ecmarkup.css">`)
+               `<link rel="stylesheet" href="style/ecmarkup.css">`)
       .replace(/<link rel="stylesheet" href="assets\/print.css" media="print">/, "");
   }
 
@@ -32,10 +34,8 @@ class SnapshotLoader extends Base {
     const source = await this.getIndex(hash);
 
     const url = new URL(document.location.href);
-
-    const base = `<base href="./history/${hash}/">`;
-
-    document.documentElement.innerHTML = base + this.fixSource(url, source);
+    const base = `history/${hash}`;
+    document.documentElement.innerHTML = this.fixSource(url, base, source);
 
     const script = document.createElement("script");
     script.addEventListener("load", () => {
@@ -44,7 +44,7 @@ class SnapshotLoader extends Base {
         cancelable: true
       }));
     });
-    script.setAttribute("src", "ecmarkup.js");
+    script.setAttribute("src", `${base}/ecmarkup.js`);
     document.body.appendChild(script);
 
     if (window.location.hash) {
