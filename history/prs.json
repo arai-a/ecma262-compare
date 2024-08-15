@@ -536,32 +536,24 @@
   "updated_at": "2024-06-13T20:06:25Z"
  },
  {
-  "base": "4e32b345d044e3b6a4a737ef9c4396942e2597e7",
+  "base": "f439eccd5adaac04e5f29bb926aefd7899855b3e",
   "created_at": "2024-06-06T15:51:01Z",
-  "head": "a51a392462bab47fdc1cd8cbb22a9eaedcdf4e5c",
+  "head": "14676dbdff141af58071df59f7af5d2965f9043c",
   "login": "tc39",
   "number": 3345,
   "ref": "exact-sqrt",
   "revs": [
    {
-    "adate": "2024-06-13T10:27:19+03:00",
+    "adate": "2024-08-15T14:47:24-07:00",
     "author": "Michael Ficarra",
-    "date": "2024-06-13T10:27:19+03:00",
-    "hash": "a51a392462bab47fdc1cd8cbb22a9eaedcdf4e5c",
-    "parents": "8d6aeb9d147a8672410224d859b288c8045868ad",
-    "subject": "sqrt is now precisely specified here"
-   },
-   {
-    "adate": "2024-06-06T11:45:26-04:00",
-    "author": "Michael Ficarra",
-    "date": "2024-06-06T11:45:26-04:00",
-    "hash": "8d6aeb9d147a8672410224d859b288c8045868ad",
-    "parents": "4e32b345d044e3b6a4a737ef9c4396942e2597e7",
-    "subject": "Normative: fully define Math.sqrt"
+    "date": "2024-08-15T14:47:24-07:00",
+    "hash": "14676dbdff141af58071df59f7af5d2965f9043c",
+    "parents": "f439eccd5adaac04e5f29bb926aefd7899855b3e",
+    "subject": "Normative: fully define Math.sqrt (#3345)"
    }
   ],
   "title": "Normative: fully define Math.sqrt",
-  "updated_at": "2024-06-13T07:27:48Z"
+  "updated_at": "2024-08-15T21:47:33Z"
  },
  {
   "base": "b5097875532b0487049cf5f66f0a3e10f0c1af7e",
