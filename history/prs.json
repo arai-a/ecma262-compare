@@ -1,89 +1,5 @@
 [
  {
-  "base": "78c923781d90c310f69a6fc05221ea12afd1f62a",
-  "created_at": "2024-08-17T14:52:26Z",
-  "head": "46248ac3165314a4ede3be397c4dd37efb42ddce",
-  "login": "jmdyck",
-  "number": 3398,
-  "ref": "3395_ed",
-  "revs": [
-   {
-    "adate": "2024-08-17T10:48:13-04:00",
-    "author": "Michael Dyck",
-    "date": "2024-08-17T10:48:13-04:00",
-    "hash": "46248ac3165314a4ede3be397c4dd37efb42ddce",
-    "parents": "590dfa584d684388ab50bac8d0e3e1ae45f593a7",
-    "subject": "%WrapForValidIteratorPrototype% is an ordinary object?"
-   },
-   {
-    "adate": "2024-08-17T10:44:54-04:00",
-    "author": "Michael Dyck",
-    "date": "2024-08-17T10:44:54-04:00",
-    "hash": "590dfa584d684388ab50bac8d0e3e1ae45f593a7",
-    "parents": "2a44180ecd25ebb4380ce540290612cc56b315f4",
-    "subject": "Add a <p><ul> to \"Properties of the Iterator Constructor\""
-   },
-   {
-    "adate": "2024-08-17T10:42:59-04:00",
-    "author": "Michael Dyck",
-    "date": "2024-08-17T10:42:59-04:00",
-    "hash": "2a44180ecd25ebb4380ce540290612cc56b315f4",
-    "parents": "ebd2a54e4b6b25ddbc3def1083d7acd7efef5cce",
-    "subject": "Wording tweaks"
-   },
-   {
-    "adate": "2024-08-17T10:39:27-04:00",
-    "author": "Michael Dyck",
-    "date": "2024-08-17T10:39:27-04:00",
-    "hash": "ebd2a54e4b6b25ddbc3def1083d7acd7efef5cce",
-    "parents": "b8d788079c9ee869c47bb787a4177e3d3c54ff8d",
-    "subject": "Declare %IteratorHelperPrototype% and %WrapForValidIteratorPrototype%"
-   },
-   {
-    "adate": "2024-08-17T10:36:22-04:00",
-    "author": "Michael Dyck",
-    "date": "2024-08-17T10:36:22-04:00",
-    "hash": "b8d788079c9ee869c47bb787a4177e3d3c54ff8d",
-    "parents": "262cb4faf64242a8b921d93f090d7436ce496021",
-    "subject": "Use better (more consistent) ids"
-   },
-   {
-    "adate": "2024-08-17T10:26:42-04:00",
-    "author": "Michael Dyck",
-    "date": "2024-08-17T10:26:42-04:00",
-    "hash": "262cb4faf64242a8b921d93f090d7436ce496021",
-    "parents": "a7d53a1affa2444cb55a9bf78560deab880344a1",
-    "subject": "Convert @@ notation to intrinsics notation (PR #1314)"
-   },
-   {
-    "adate": "2024-08-17T10:09:56-04:00",
-    "author": "Michael Dyck",
-    "date": "2024-08-17T10:09:56-04:00",
-    "hash": "a7d53a1affa2444cb55a9bf78560deab880344a1",
-    "parents": "78c923781d90c310f69a6fc05221ea12afd1f62a",
-    "subject": "reorder the Iterator.* and Iterator.prototype.* sections"
-   },
-   {
-    "adate": "2024-08-16T16:09:26-06:00",
-    "author": "Michael Ficarra",
-    "date": "2024-08-16T17:14:27-06:00",
-    "hash": "78c923781d90c310f69a6fc05221ea12afd1f62a",
-    "parents": "0bf3656d6535223a9834d3a8ab1e1fd8efe565ff",
-    "subject": "rename enums in GetIteratorFlattenable"
-   },
-   {
-    "adate": "2024-08-15T19:57:17-06:00",
-    "author": "Michael Ficarra",
-    "date": "2024-08-16T09:24:24-06:00",
-    "hash": "0bf3656d6535223a9834d3a8ab1e1fd8efe565ff",
-    "parents": "f439eccd5adaac04e5f29bb926aefd7899855b3e",
-    "subject": "Normative: add Iterator Helpers"
-   }
-  ],
-  "title": "Editorial suggestions for PR #3395",
-  "updated_at": "2024-08-17T14:52:26Z"
- },
- {
   "base": "f439eccd5adaac04e5f29bb926aefd7899855b3e",
   "created_at": "2024-08-16T03:56:07Z",
   "head": "8e2797a82e5c6fbbfde8b10d0b59514f9a4b9181",
@@ -176,32 +92,88 @@
   "updated_at": "2024-08-16T18:23:21Z"
  },
  {
-  "base": "f439eccd5adaac04e5f29bb926aefd7899855b3e",
+  "base": "ac21460fedf4b926520b06c9820bdbebad596a8b",
   "created_at": "2024-08-16T02:07:51Z",
-  "head": "78c923781d90c310f69a6fc05221ea12afd1f62a",
+  "head": "189e3d6e86703d4f276005e596b4b76cf6bdb590",
   "login": "tc39",
   "number": 3395,
   "ref": "iterator-helpers-integration",
   "revs": [
    {
+    "adate": "2024-08-17T10:48:13-04:00",
+    "author": "Michael Dyck",
+    "date": "2024-08-19T10:27:13-07:00",
+    "hash": "189e3d6e86703d4f276005e596b4b76cf6bdb590",
+    "parents": "94f5b539bf82858a6ab41d256a2e1f9198fc47a2",
+    "subject": "%WrapForValidIteratorPrototype% is an ordinary object?"
+   },
+   {
+    "adate": "2024-08-17T10:44:54-04:00",
+    "author": "Michael Dyck",
+    "date": "2024-08-19T10:27:13-07:00",
+    "hash": "94f5b539bf82858a6ab41d256a2e1f9198fc47a2",
+    "parents": "b6493a29f9a5b005d62994bbf56c8a1a6bc23586",
+    "subject": "Add a <p><ul> to \"Properties of the Iterator Constructor\""
+   },
+   {
+    "adate": "2024-08-17T10:42:59-04:00",
+    "author": "Michael Dyck",
+    "date": "2024-08-19T10:27:13-07:00",
+    "hash": "b6493a29f9a5b005d62994bbf56c8a1a6bc23586",
+    "parents": "d15a810a6f24409c6c6dfeb3df2dfcf830361565",
+    "subject": "Wording tweaks"
+   },
+   {
+    "adate": "2024-08-17T10:39:27-04:00",
+    "author": "Michael Dyck",
+    "date": "2024-08-19T10:27:13-07:00",
+    "hash": "d15a810a6f24409c6c6dfeb3df2dfcf830361565",
+    "parents": "603e75a7b93b8b9e8f373923258f0a0131ee4265",
+    "subject": "Declare %IteratorHelperPrototype% and %WrapForValidIteratorPrototype%"
+   },
+   {
+    "adate": "2024-08-17T10:36:22-04:00",
+    "author": "Michael Dyck",
+    "date": "2024-08-19T10:27:13-07:00",
+    "hash": "603e75a7b93b8b9e8f373923258f0a0131ee4265",
+    "parents": "2d0a802c3b0017aa07b6816d57693dc965df0e85",
+    "subject": "Use better (more consistent) ids"
+   },
+   {
+    "adate": "2024-08-17T10:26:42-04:00",
+    "author": "Michael Dyck",
+    "date": "2024-08-19T10:27:13-07:00",
+    "hash": "2d0a802c3b0017aa07b6816d57693dc965df0e85",
+    "parents": "befba178de08db4015503b517c15ba9ae0997eb2",
+    "subject": "Convert @@ notation to intrinsics notation (PR #1314)"
+   },
+   {
+    "adate": "2024-08-17T10:09:56-04:00",
+    "author": "Michael Dyck",
+    "date": "2024-08-19T10:27:13-07:00",
+    "hash": "befba178de08db4015503b517c15ba9ae0997eb2",
+    "parents": "3f42217f196c7b8c4ccaf707c0a8061cbea68c24",
+    "subject": "reorder the Iterator.* and Iterator.prototype.* sections"
+   },
+   {
     "adate": "2024-08-16T16:09:26-06:00",
     "author": "Michael Ficarra",
-    "date": "2024-08-16T17:14:27-06:00",
-    "hash": "78c923781d90c310f69a6fc05221ea12afd1f62a",
-    "parents": "0bf3656d6535223a9834d3a8ab1e1fd8efe565ff",
+    "date": "2024-08-19T10:27:13-07:00",
+    "hash": "3f42217f196c7b8c4ccaf707c0a8061cbea68c24",
+    "parents": "f7c23afeccdca7a3781b0081f090c569733213a1",
     "subject": "rename enums in GetIteratorFlattenable"
    },
    {
     "adate": "2024-08-15T19:57:17-06:00",
     "author": "Michael Ficarra",
-    "date": "2024-08-16T09:24:24-06:00",
-    "hash": "0bf3656d6535223a9834d3a8ab1e1fd8efe565ff",
-    "parents": "f439eccd5adaac04e5f29bb926aefd7899855b3e",
+    "date": "2024-08-19T10:27:13-07:00",
+    "hash": "f7c23afeccdca7a3781b0081f090c569733213a1",
+    "parents": "ac21460fedf4b926520b06c9820bdbebad596a8b",
     "subject": "Normative: add Iterator Helpers"
    }
   ],
   "title": "Normative: add Iterator Helpers",
-  "updated_at": "2024-08-16T23:14:41Z"
+  "updated_at": "2024-08-19T17:27:15Z"
  },
  {
   "base": "f439eccd5adaac04e5f29bb926aefd7899855b3e",
@@ -621,42 +593,6 @@
  },
  {
   "base": "4e32b345d044e3b6a4a737ef9c4396942e2597e7",
-  "created_at": "2024-06-21T22:02:40Z",
-  "head": "0cad5d51786aed14f277f05205719bbe3a3e2b2e",
-  "login": "syg",
-  "number": 3357,
-  "ref": "tla-hang",
-  "revs": [
-   {
-    "adate": "2024-07-09T14:55:25-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2024-07-09T14:55:25-07:00",
-    "hash": "0cad5d51786aed14f277f05205719bbe3a3e2b2e",
-    "parents": "001e29e2dd2d5e3d1977085a94bbdb0d2a4c3e16",
-    "subject": "Stupid tabs"
-   },
-   {
-    "adate": "2024-07-09T14:49:24-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2024-07-09T14:49:24-07:00",
-    "hash": "001e29e2dd2d5e3d1977085a94bbdb0d2a4c3e16",
-    "parents": "204e8dcb314b88ebcca18c551fff7c5ed139b597",
-    "subject": "Set [[AsyncEvaluation]] to false in rejection closure for symmetry"
-   },
-   {
-    "adate": "2024-06-21T14:55:23-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2024-06-21T15:01:49-07:00",
-    "hash": "204e8dcb314b88ebcca18c551fff7c5ed139b597",
-    "parents": "4e32b345d044e3b6a4a737ef9c4396942e2597e7",
-    "subject": "Normative: Fix hangs with top-level await"
-   }
-  ],
-  "title": "Normative: Fix hangs with top-level await",
-  "updated_at": "2024-07-09T21:55:33Z"
- },
- {
-  "base": "4e32b345d044e3b6a4a737ef9c4396942e2597e7",
   "created_at": "2024-06-14T21:57:09Z",
   "head": "f96a30439810e2782f11138e5f0a60f82fdfb00a",
   "login": "nicolo-ribaudo",
@@ -738,26 +674,6 @@
   ],
   "title": "Markup: minor fixes/improvements for PDF gen",
   "updated_at": "2024-06-13T20:06:25Z"
- },
- {
-  "base": "f439eccd5adaac04e5f29bb926aefd7899855b3e",
-  "created_at": "2024-06-06T15:51:01Z",
-  "head": "14676dbdff141af58071df59f7af5d2965f9043c",
-  "login": "tc39",
-  "number": 3345,
-  "ref": "exact-sqrt",
-  "revs": [
-   {
-    "adate": "2024-08-15T14:47:24-07:00",
-    "author": "Michael Ficarra",
-    "date": "2024-08-15T14:47:24-07:00",
-    "hash": "14676dbdff141af58071df59f7af5d2965f9043c",
-    "parents": "f439eccd5adaac04e5f29bb926aefd7899855b3e",
-    "subject": "Normative: fully define Math.sqrt (#3345)"
-   }
-  ],
-  "title": "Normative: fully define Math.sqrt",
-  "updated_at": "2024-08-15T21:47:33Z"
  },
  {
   "base": "b5097875532b0487049cf5f66f0a3e10f0c1af7e",
