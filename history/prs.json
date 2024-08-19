@@ -94,11 +94,19 @@
  {
   "base": "ac21460fedf4b926520b06c9820bdbebad596a8b",
   "created_at": "2024-08-16T02:07:51Z",
-  "head": "189e3d6e86703d4f276005e596b4b76cf6bdb590",
+  "head": "657409877110b95723d13a2376219dcba42f836d",
   "login": "tc39",
   "number": 3395,
   "ref": "iterator-helpers-integration",
   "revs": [
+   {
+    "adate": "2024-08-19T11:44:59-06:00",
+    "author": "Michael Ficarra",
+    "date": "2024-08-19T11:44:59-06:00",
+    "hash": "657409877110b95723d13a2376219dcba42f836d",
+    "parents": "189e3d6e86703d4f276005e596b4b76cf6bdb590",
+    "subject": "change parameter name for forEach"
+   },
    {
     "adate": "2024-08-17T10:48:13-04:00",
     "author": "Michael Dyck",
@@ -173,7 +181,7 @@
    }
   ],
   "title": "Normative: add Iterator Helpers",
-  "updated_at": "2024-08-19T17:27:15Z"
+  "updated_at": "2024-08-19T17:45:09Z"
  },
  {
   "base": "f439eccd5adaac04e5f29bb926aefd7899855b3e",
