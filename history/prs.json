@@ -94,11 +94,19 @@
  {
   "base": "ac21460fedf4b926520b06c9820bdbebad596a8b",
   "created_at": "2024-08-16T02:07:51Z",
-  "head": "657409877110b95723d13a2376219dcba42f836d",
+  "head": "c8e3556a6bec65f8caa6044dcb6b0b1f817aec99",
   "login": "tc39",
   "number": 3395,
   "ref": "iterator-helpers-integration",
   "revs": [
+   {
+    "adate": "2024-08-20T14:52:36-06:00",
+    "author": "Michael Ficarra",
+    "date": "2024-08-20T14:52:36-06:00",
+    "hash": "c8e3556a6bec65f8caa6044dcb6b0b1f817aec99",
+    "parents": "657409877110b95723d13a2376219dcba42f836d",
+    "subject": "accept jmdyck's suggestions"
+   },
    {
     "adate": "2024-08-19T11:44:59-06:00",
     "author": "Michael Ficarra",
@@ -181,7 +189,7 @@
    }
   ],
   "title": "Normative: add Iterator Helpers",
-  "updated_at": "2024-08-19T17:45:09Z"
+  "updated_at": "2024-08-20T20:56:34Z"
  },
  {
   "base": "f439eccd5adaac04e5f29bb926aefd7899855b3e",
