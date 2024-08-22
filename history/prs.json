@@ -304,13 +304,29 @@
   "updated_at": "2024-08-13T22:10:55Z"
  },
  {
-  "base": "f2b2d524a56c915826e90d7a3f9daa51a49011c3",
+  "base": "f439eccd5adaac04e5f29bb926aefd7899855b3e",
   "created_at": "2024-07-31T11:17:01Z",
-  "head": "89b27d091ad1905362fd7f67f459f9623096e29a",
+  "head": "1e1e13227128475089eddc5547a0e5b7f32f4590",
   "login": "jhnaldo",
   "number": 3383,
   "ref": "init-generator-state",
   "revs": [
+   {
+    "adate": "2024-08-21T20:00:16-06:00",
+    "author": "Michael Ficarra",
+    "date": "2024-08-21T20:00:16-06:00",
+    "hash": "1e1e13227128475089eddc5547a0e5b7f32f4590",
+    "parents": "1f33115a7b04da0281cbf1b842313df1812c3a9b",
+    "subject": "fix assertions in GeneratorStart and AsyncGeneratorStart"
+   },
+   {
+    "adate": "2024-08-21T19:58:15-06:00",
+    "author": "Michael Ficarra",
+    "date": "2024-08-21T19:58:15-06:00",
+    "hash": "1f33115a7b04da0281cbf1b842313df1812c3a9b",
+    "parents": "89b27d091ad1905362fd7f67f459f9623096e29a",
+    "subject": "initialise to ~suspended-start~ instead"
+   },
    {
     "adate": "2024-07-31T19:55:36+09:00",
     "author": "Jihyeok Park",
@@ -321,7 +337,7 @@
    }
   ],
   "title": "Editorial: Initialize [[GeneratorState]] and [[AsyncGeneratorState]] with `undefined`",
-  "updated_at": "2024-07-31T11:17:01Z"
+  "updated_at": "2024-08-22T02:02:43Z"
  },
  {
   "base": "f2b2d524a56c915826e90d7a3f9daa51a49011c3",
