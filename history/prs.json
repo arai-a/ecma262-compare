@@ -310,11 +310,27 @@
  {
   "base": "f439eccd5adaac04e5f29bb926aefd7899855b3e",
   "created_at": "2024-07-31T11:17:01Z",
-  "head": "1e1e13227128475089eddc5547a0e5b7f32f4590",
+  "head": "abae20cb0bbdd1533bd4147ea440563cb3626168",
   "login": "jhnaldo",
   "number": 3383,
   "ref": "init-generator-state",
   "revs": [
+   {
+    "adate": "2024-08-23T16:35:14-06:00",
+    "author": "Michael Ficarra",
+    "date": "2024-08-23T16:35:14-06:00",
+    "hash": "abae20cb0bbdd1533bd4147ea440563cb3626168",
+    "parents": "ce6885a08aa6f0296a798d5018464a7e6c0b0809",
+    "subject": "remove unneccessary assignments to [[{,Async}GeneratorStart]]"
+   },
+   {
+    "adate": "2024-08-23T16:31:51-06:00",
+    "author": "Michael Ficarra",
+    "date": "2024-08-23T16:31:51-06:00",
+    "hash": "ce6885a08aa6f0296a798d5018464a7e6c0b0809",
+    "parents": "1e1e13227128475089eddc5547a0e5b7f32f4590",
+    "subject": "update types of [[GeneratorState]] and [[AsyncGeneratorState]]"
+   },
    {
     "adate": "2024-08-21T20:00:16-06:00",
     "author": "Michael Ficarra",
@@ -341,7 +357,7 @@
    }
   ],
   "title": "Editorial: Initialize [[GeneratorState]] and [[AsyncGeneratorState]] with `undefined`",
-  "updated_at": "2024-08-22T02:02:43Z"
+  "updated_at": "2024-08-23T22:35:50Z"
  },
  {
   "base": "f2b2d524a56c915826e90d7a3f9daa51a49011c3",
