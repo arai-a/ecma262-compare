@@ -308,24 +308,24 @@
   "updated_at": "2024-08-14T12:11:42Z"
  },
  {
-  "base": "f439eccd5adaac04e5f29bb926aefd7899855b3e",
+  "base": "ac21460fedf4b926520b06c9820bdbebad596a8b",
   "created_at": "2024-08-13T20:57:55Z",
-  "head": "febcb0df44a8b45a7a092b45d96d089e0fa17a4c",
+  "head": "964bdbf6f0db612ce44752ffb2638383f1f08ab3",
   "login": "tc39",
   "number": 3390,
   "ref": "no-audit-in-ci",
   "revs": [
    {
-    "adate": "2024-08-14T09:51:07+12:00",
+    "adate": "2024-08-25T20:23:02-07:00",
     "author": "Kevin Gibbons",
-    "date": "2024-08-14T09:51:07+12:00",
-    "hash": "febcb0df44a8b45a7a092b45d96d089e0fa17a4c",
-    "parents": "f439eccd5adaac04e5f29bb926aefd7899855b3e",
+    "date": "2024-08-25T20:23:02-07:00",
+    "hash": "964bdbf6f0db612ce44752ffb2638383f1f08ab3",
+    "parents": "ac21460fedf4b926520b06c9820bdbebad596a8b",
     "subject": "Meta: do not npm audit in CI (#3390)"
    }
   ],
   "title": "Meta: do not npm audit in CI",
-  "updated_at": "2024-08-13T22:10:55Z"
+  "updated_at": "2024-08-26T03:23:07Z"
  },
  {
   "base": "f439eccd5adaac04e5f29bb926aefd7899855b3e",
