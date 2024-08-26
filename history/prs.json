@@ -80,24 +80,24 @@
   "updated_at": "2024-08-25T04:37:21Z"
  },
  {
-  "base": "ac21460fedf4b926520b06c9820bdbebad596a8b",
+  "base": "6ece111aa3b5914b771b8e0358afed6f6cfd5654",
   "created_at": "2024-08-23T19:42:53Z",
-  "head": "49b61b2a1472767b7e1dd703b767b4830711668e",
+  "head": "815aa8a4d68ce24bec81ba6789c37d55bc87b54a",
   "login": "gibson042",
   "number": 3400,
   "ref": "gh-3261-clamp-substring-length",
   "revs": [
    {
-    "adate": "2024-08-23T15:40:44-04:00",
+    "adate": "2024-08-26T11:16:08-07:00",
     "author": "Richard Gibson",
-    "date": "2024-08-23T15:40:44-04:00",
-    "hash": "49b61b2a1472767b7e1dd703b767b4830711668e",
-    "parents": "ac21460fedf4b926520b06c9820bdbebad596a8b",
-    "subject": "Editorial: Clamp size before using with \"substring of\""
+    "date": "2024-08-26T11:16:08-07:00",
+    "hash": "815aa8a4d68ce24bec81ba6789c37d55bc87b54a",
+    "parents": "6ece111aa3b5914b771b8e0358afed6f6cfd5654",
+    "subject": "Editorial: Clamp size before using with \"substring of\" (#3400)"
    }
   ],
   "title": "Editorial: Clamp size before using with \"substring of\"",
-  "updated_at": "2024-08-23T19:42:53Z"
+  "updated_at": "2024-08-26T18:16:20Z"
  },
  {
   "base": "ac21460fedf4b926520b06c9820bdbebad596a8b",
@@ -318,34 +318,6 @@
   ],
   "title": "Assert that Evaluation in JSON.parse does not throw",
   "updated_at": "2024-08-14T17:06:16Z"
- },
- {
-  "base": "6c621d2efb89ac03a0e4a1fbc8f721b206a5027e",
-  "created_at": "2024-08-14T14:26:40Z",
-  "head": "95ae7e25a5a2808b73607c9e909973edb6af6e84",
-  "login": "ishon19",
-  "number": 3393,
-  "ref": "fix/3389-broken-external-link-in-number-tostring",
-  "revs": [
-   {
-    "adate": "2024-08-26T11:59:18-04:00",
-    "author": "Shreyans Pathak",
-    "date": "2024-08-26T11:59:18-04:00",
-    "hash": "95ae7e25a5a2808b73607c9e909973edb6af6e84",
-    "parents": "6ece111aa3b5914b771b8e0358afed6f6cfd5654",
-    "subject": "fix: use new web archive URL"
-   },
-   {
-    "adate": "2024-08-25T21:50:59-07:00",
-    "author": "Shreyans Pathak",
-    "date": "2024-08-25T21:50:59-07:00",
-    "hash": "6ece111aa3b5914b771b8e0358afed6f6cfd5654",
-    "parents": "6c621d2efb89ac03a0e4a1fbc8f721b206a5027e",
-    "subject": "Markup: Update broken link in `Number::toString` (#3393)"
-   }
-  ],
-  "title": "Markup: Update broken link in `Number::toString`",
-  "updated_at": "2024-08-26T16:06:55Z"
  },
  {
   "base": "282c013e43978ae23561eeb9caa13b2b9547ff7d",
