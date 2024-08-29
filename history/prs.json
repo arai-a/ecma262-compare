@@ -42,7 +42,7 @@
  {
   "base": "815aa8a4d68ce24bec81ba6789c37d55bc87b54a",
   "created_at": "2024-08-28T22:14:20Z",
-  "head": "b60601180ecf246a151c72df8a819c00dbefa14f",
+  "head": "221a9345b991d2a3e5703107add43a48330f066e",
   "login": "ljharb",
   "number": 3408,
   "ref": "same-type",
@@ -50,14 +50,14 @@
    {
     "adate": "2024-08-28T19:31:54-07:00",
     "author": "Jordan Harband",
-    "date": "2024-08-28T19:31:54-07:00",
-    "hash": "b60601180ecf246a151c72df8a819c00dbefa14f",
+    "date": "2024-08-29T09:12:44-07:00",
+    "hash": "221a9345b991d2a3e5703107add43a48330f066e",
     "parents": "815aa8a4d68ce24bec81ba6789c37d55bc87b54a",
     "subject": "Editorial: add `SameType` AO (#3408)"
    }
   ],
   "title": "Editorial: add `SameType` AO",
-  "updated_at": "2024-08-29T02:33:21Z"
+  "updated_at": "2024-08-29T16:12:56Z"
  },
  {
   "base": "815aa8a4d68ce24bec81ba6789c37d55bc87b54a",
@@ -78,34 +78,6 @@
   ],
   "title": "Editorial: [[HomeObject]] is always an ordinary object",
   "updated_at": "2024-08-27T15:29:58Z"
- },
- {
-  "base": "6ece111aa3b5914b771b8e0358afed6f6cfd5654",
-  "created_at": "2024-08-26T19:14:45Z",
-  "head": "617c989c0e1f1c2701dd631bfb499c276b9af248",
-  "login": "tc39",
-  "number": 3406,
-  "ref": "avoid-field-enumeration",
-  "revs": [
-   {
-    "adate": "2024-08-26T13:24:46-06:00",
-    "author": "Michael Ficarra",
-    "date": "2024-08-26T13:24:46-06:00",
-    "hash": "617c989c0e1f1c2701dd631bfb499c276b9af248",
-    "parents": "003920a0a978627ff90cc86c5a4a59ce7fe0f48f",
-    "subject": "a \u2192 an"
-   },
-   {
-    "adate": "2024-08-26T13:11:15-06:00",
-    "author": "Michael Ficarra",
-    "date": "2024-08-26T13:11:15-06:00",
-    "hash": "003920a0a978627ff90cc86c5a4a59ce7fe0f48f",
-    "parents": "6ece111aa3b5914b771b8e0358afed6f6cfd5654",
-    "subject": "Editorial: avoid field enumeration in ValidateAndApplyPropertyDescriptor"
-   }
-  ],
-  "title": "Editorial: avoid field enumeration in ValidateAndApplyPropertyDescriptor",
-  "updated_at": "2024-08-26T19:24:56Z"
  },
  {
   "base": "6c621d2efb89ac03a0e4a1fbc8f721b206a5027e",
