@@ -21,13 +21,18 @@ class SnapshotLoader extends Base {
 
   fixSource(url, base, source) {
     return source
-      .replace(/href="#/g,
-               `href="${url.pathname}${url.search}#`)
-      .replace(/src="img/g,
-               `src="${base}/img`)
-      .replace(/<link rel="stylesheet" href="assets\/ecmarkup.css">/,
-               `<link rel="stylesheet" href="style/ecmarkup.css">`)
-      .replace(/<link rel="stylesheet" href="assets\/print.css" media="print">/, "");
+      .replace(
+        /href="#/g,
+        `href="${url.pathname}${url.search}#`)
+      .replace(
+        /src="img/g,
+        `src="${base}/img`)
+      .replace(
+        /<link rel="stylesheet" href="assets\/ecmarkup.css">/,
+        `<link rel="stylesheet" href="style/ecmarkup.css">`)
+      .replace(
+        /<link rel="stylesheet" href="assets\/print.css" media="print">/,
+        "");
   }
 
   async loadIndex(hash) {

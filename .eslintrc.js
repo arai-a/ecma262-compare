@@ -39,7 +39,6 @@ module.exports = {
       "error",
       { "allowEmptyCatch": true }
     ],
-    "sort-keys": "error",
     "consistent-return": "error",
     "dot-notation": "error",
     "no-array-constructor": "error",

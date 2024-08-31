@@ -1577,7 +1577,7 @@ class Comparator extends Base {
           box.replaceWith(workBox);
           box = workBox;
         } else {
-          box = this.getNearestExcludedInnerBox(id, type);
+          box = this.getNearestExcludedInnerBox(id);
           if (box) {
             box.appendChild(workBox);
           } else {
@@ -1591,7 +1591,7 @@ class Comparator extends Base {
           box.id = "";
           box.innerHTML = HTML;
         } else {
-          const excludedInner = this.getNearestExcludedInnerBox(id, type);
+          const excludedInner = this.getNearestExcludedInnerBox(id);
           if (excludedInner) {
             box = document.createElement("div");
             box.innerHTML = HTML;
@@ -1687,16 +1687,13 @@ class Comparator extends Base {
     return [null, ""];
   }
 
-  getNearestExcludedInnerBox(id, type) {
+  getNearestExcludedInnerBox(id) {
     if (!this.fromSecTree) {
       this.fromSecTree = this.convertSecTree(this.fromSecData.secTree);
     }
     if (!this.toSecTree) {
       this.toSecTree = this.convertSecTree(this.toSecData.secTree);
     }
-
-    // NOTE: diff mode uses toSecTree.
-    let tree = type === "from" ? this.fromSecTree : this.toSecTree;
 
     const [box, box_id] = this.findNearestExcluded(id, this.fromSecTree);
     if (!box) {

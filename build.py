@@ -14,6 +14,7 @@ import urllib.request
 
 JSON_VERSION = '1'
 
+
 def test_if_non_bmp_supported_by_lxml():
     import lxml.html
     import lxml.etree
@@ -23,8 +24,10 @@ def test_if_non_bmp_supported_by_lxml():
     out = lxml.etree.tostring(dom, method='html').decode()
     return source == out
 
+
 # Lazily populate
 is_non_bmp_supported_by_lxml = None
+
 
 class BuildFailureException(Exception):
     pass
@@ -550,7 +553,7 @@ class SectionsExtractor:
         dom = lxml.html.fromstring(html)
 
         cls.remove_emu_ids(dom)
-        sec_list, sec_tree, sec_num_map, sec_title_map = cls.__get_sec_list(dom)
+        sec_list, sec_tree, sec_num_map, sec_title_map = cls.__get_sec_list(dom)   # NOQA: E501
         figure_num_map = cls.__get_figure_list(dom)
         cls.__replace_xref(dom, sec_num_map, figure_num_map)
         cls.__exclude_subsections(dom, sec_list, sec_num_map, sec_title_map)
@@ -822,9 +825,10 @@ class RevisionRenderer:
             try:
                 data = FileUtils.read_json_gz(parent_diff_path)
                 if 'VERSION' in data and data['VERSION'] == JSON_VERSION:
-                    Logger.info('skip {} (same version)'.format(parent_diff_path))
+                    Logger.info('skip {} (same version)'.format(
+                        parent_diff_path))
                     return False
-            except:
+            except:  # NOQA: E722
                 pass
 
         Logger.info(parent_diff_path)
@@ -1236,7 +1240,7 @@ parser_pr.add_argument('-c', type=int,
 subparsers.add_parser('prs',
                       help='Update prs.json')
 parser_json = subparsers.add_parser('update-json',
-                      help='Update sections.json.gz and parent_diff.json.gz for all revisions and PRs')
+                                    help='Update sections.json.gz and parent_diff.json.gz for all revisions and PRs')  # NOQA: E501
 parser_json.add_argument('-c', type=int, default=1,
                          help='Number of chunks')
 parser_json.add_argument('-i', type=int, default=1,
