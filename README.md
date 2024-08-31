@@ -27,7 +27,9 @@ This branch contains 2 things:
   * `style/compare.css`
   * `style/base.css`
   * `style/ecmarkup.css`  
-    The copy of `ecmarkup.css` file from recent spec
+    The copy of `ecmarkup.css` file from the recent spec
+  * `style/*.woff2`  
+    The copy of font files from the recent spec
   * `img/*.png`
   * `img/*.ico`
 * Index of revisions and PRs snapshots
@@ -75,10 +77,17 @@ This branch contains 2 things:
   Script to build the history data
 * `config.json`  
   Configuration for the history data
+* `broken_revs.json`  
+  The list of ecma262 revisions known to fail building
 * `requirements.txt`  
   The list of python modules to install on setup
 * `Makefile`  
   Makefile for both automation and local run
+
+### Wrappers for maintenance
+
+* `update_json.sh`
+* `update_parent_json.sh`
 
 ## Local run
 
