@@ -1,3 +1,7 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
 ECMA262_COMPARE := $(dir $(firstword $(MAKEFILE_LIST)))
 VENV_BIN_DIR := $(ECMA262_COMPARE)venv/bin
 PIP := $(VENV_BIN_DIR)/pip
