@@ -588,24 +588,24 @@
   "updated_at": "2024-07-25T05:21:52Z"
  },
  {
-  "base": "f2b2d524a56c915826e90d7a3f9daa51a49011c3",
+  "base": "9d945cf2d9e30524314d10114833ba40640e959b",
   "created_at": "2024-07-25T03:07:31Z",
-  "head": "1ff79be6d6ee9497d9bc55de599d0ca7fb155606",
+  "head": "d9d77ad3f8717748f80972fe54f8b7628200a412",
   "login": "tmdghks",
   "number": 3378,
   "ref": "fix-expectedargumentcount-return-type",
   "revs": [
    {
-    "adate": "2024-07-25T11:48:05+09:00",
+    "adate": "2024-09-02T16:31:31-07:00",
     "author": "tmdghks",
-    "date": "2024-07-25T15:01:09+09:00",
-    "hash": "1ff79be6d6ee9497d9bc55de599d0ca7fb155606",
-    "parents": "f2b2d524a56c915826e90d7a3f9daa51a49011c3",
-    "subject": "Editorial: Narrow `integer` into `non-negative integer` in return type of ExpectedArgumentCount"
+    "date": "2024-09-02T16:31:31-07:00",
+    "hash": "d9d77ad3f8717748f80972fe54f8b7628200a412",
+    "parents": "9d945cf2d9e30524314d10114833ba40640e959b",
+    "subject": "Editorial: Narrow `integer` into `non-negative integer` in return type of ExpectedArgumentCount (#3378)"
    }
   ],
   "title": "Editorial: Narrow `integer` into `non-negative integer` in return type of ExpectedArgumentCount",
-  "updated_at": "2024-07-25T06:18:39Z"
+  "updated_at": "2024-09-02T23:32:53Z"
  },
  {
   "base": "f2b2d524a56c915826e90d7a3f9daa51a49011c3",
@@ -634,26 +634,6 @@
   ],
   "title": "Editorial: Using non-negative integer instead of integer in ToLength",
   "updated_at": "2024-07-24T14:23:14Z"
- },
- {
-  "base": "c4f433e0b79e70d8a9bffde0d71661aa583d0144",
-  "created_at": "2024-07-24T06:07:26Z",
-  "head": "9d945cf2d9e30524314d10114833ba40640e959b",
-  "login": "d01c2",
-  "number": 3376,
-  "ref": "promise-resolve-type",
-  "revs": [
-   {
-    "adate": "2024-09-02T15:08:12-07:00",
-    "author": "Hyunjoon Kim",
-    "date": "2024-09-02T15:08:12-07:00",
-    "hash": "9d945cf2d9e30524314d10114833ba40640e959b",
-    "parents": "c4f433e0b79e70d8a9bffde0d71661aa583d0144",
-    "subject": "Editorial: Using Object instead of Constructor in PromiseResolve (#3376)"
-   }
-  ],
-  "title": "Editorial: Using Object instead of constructor in PromiseResolve",
-  "updated_at": "2024-09-02T22:08:29Z"
  },
  {
   "base": "7a23e0e83597e4c8cfbbc1856a77cf8fc102e846",
