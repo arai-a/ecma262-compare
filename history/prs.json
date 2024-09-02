@@ -1,6 +1,26 @@
 [
  {
   "base": "815aa8a4d68ce24bec81ba6789c37d55bc87b54a",
+  "created_at": "2024-09-01T23:58:23Z",
+  "head": "d063694bae534c4602162f6ef642f4ad2d45ab4e",
+  "login": "tc39",
+  "number": 3411,
+  "ref": "simplify-drain-queue",
+  "revs": [
+   {
+    "adate": "2024-09-01T16:54:15-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2024-09-01T16:54:28-07:00",
+    "hash": "d063694bae534c4602162f6ef642f4ad2d45ab4e",
+    "parents": "815aa8a4d68ce24bec81ba6789c37d55bc87b54a",
+    "subject": "Editorial: simplify AsyncGeneratorDrainQueue"
+   }
+  ],
+  "title": "Editorial: simplify AsyncGeneratorDrainQueue",
+  "updated_at": "2024-09-01T23:58:23Z"
+ },
+ {
+  "base": "815aa8a4d68ce24bec81ba6789c37d55bc87b54a",
   "created_at": "2024-08-29T02:33:12Z",
   "head": "2525dd5aae64176a19d28260a82911d1241b677e",
   "login": "ljharb",
@@ -3072,32 +3092,56 @@
   "updated_at": "2023-02-13T17:15:08Z"
  },
  {
-  "base": "ee74c9cb74dbfa23e62b486f5226102c345c678e",
+  "base": "815aa8a4d68ce24bec81ba6789c37d55bc87b54a",
   "created_at": "2022-09-29T13:38:14Z",
-  "head": "61e10a8ff42dd6eef637edccc25c5d3710c278bc",
+  "head": "0d6023d7fa7494bd0efa819efb0aaf8131a4fc92",
   "login": "jhnaldo",
   "number": 2924,
   "ref": "fix-empty-return-type",
   "revs": [
    {
+    "adate": "2024-09-01T17:57:11-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2024-09-01T17:57:11-07:00",
+    "hash": "0d6023d7fa7494bd0efa819efb0aaf8131a4fc92",
+    "parents": "8cff0e0bacf7ab552b20088ec53157785dd12c38",
+    "subject": "un-nest some logic"
+   },
+   {
+    "adate": "2024-09-01T17:35:26-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2024-09-01T17:36:42-07:00",
+    "hash": "8cff0e0bacf7ab552b20088ec53157785dd12c38",
+    "parents": "e659d999df4830bd4829d9d4e9efa7bc0e67cb80",
+    "subject": "update esmeta-ignore.json"
+   },
+   {
+    "adate": "2024-09-01T17:27:21-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2024-09-01T17:36:34-07:00",
+    "hash": "e659d999df4830bd4829d9d4e9efa7bc0e67cb80",
+    "parents": "76f73ce9706106a278cada5d0f04e955c401e276",
+    "subject": "Editorial: make EvaluateBody return return/throw completion"
+   },
+   {
     "adate": "2022-11-30T03:00:52-07:00",
     "author": "Michael Ficarra",
-    "date": "2022-11-30T06:37:13-07:00",
-    "hash": "61e10a8ff42dd6eef637edccc25c5d3710c278bc",
-    "parents": "4f5c7e045127bda85d2b6ff4e5da66f06fc6278f",
+    "date": "2024-09-01T16:59:46-07:00",
+    "hash": "76f73ce9706106a278cada5d0f04e955c401e276",
+    "parents": "ba2fd751948c8fa7e0fd9d2052c046985a7805a0",
     "subject": "update esmeta ignores"
    },
    {
     "adate": "2022-09-29T22:33:37+09:00",
     "author": "jhnaldo",
-    "date": "2022-11-30T06:37:13-07:00",
-    "hash": "4f5c7e045127bda85d2b6ff4e5da66f06fc6278f",
-    "parents": "ee74c9cb74dbfa23e62b486f5226102c345c678e",
+    "date": "2024-09-01T16:59:14-07:00",
+    "hash": "ba2fd751948c8fa7e0fd9d2052c046985a7805a0",
+    "parents": "815aa8a4d68ce24bec81ba6789c37d55bc87b54a",
     "subject": "Fixed return types of algorithms returning ~empty~"
    }
   ],
   "title": "Fixed return types of algorithms returning ~empty~",
-  "updated_at": "2022-11-30T13:52:36Z"
+  "updated_at": "2024-09-02T00:57:42Z"
  },
  {
   "base": "8aac12603c99f94d982317832b0e03c13684ce0a",
