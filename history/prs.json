@@ -636,52 +636,24 @@
   "updated_at": "2024-07-24T14:23:14Z"
  },
  {
-  "base": "f2b2d524a56c915826e90d7a3f9daa51a49011c3",
+  "base": "c4f433e0b79e70d8a9bffde0d71661aa583d0144",
   "created_at": "2024-07-24T06:07:26Z",
-  "head": "200d93e7a9a1da6bccd6c37385b3ca7a12d71a22",
+  "head": "9d945cf2d9e30524314d10114833ba40640e959b",
   "login": "d01c2",
   "number": 3376,
   "ref": "promise-resolve-type",
   "revs": [
    {
-    "adate": "2024-07-24T14:56:45+09:00",
+    "adate": "2024-09-02T15:08:12-07:00",
     "author": "Hyunjoon Kim",
-    "date": "2024-07-24T14:56:45+09:00",
-    "hash": "200d93e7a9a1da6bccd6c37385b3ca7a12d71a22",
-    "parents": "f2b2d524a56c915826e90d7a3f9daa51a49011c3",
-    "subject": "Editorial: Using Object instead of Constructor in PromiseResolve"
+    "date": "2024-09-02T15:08:12-07:00",
+    "hash": "9d945cf2d9e30524314d10114833ba40640e959b",
+    "parents": "c4f433e0b79e70d8a9bffde0d71661aa583d0144",
+    "subject": "Editorial: Using Object instead of Constructor in PromiseResolve (#3376)"
    }
   ],
   "title": "Editorial: Using Object instead of constructor in PromiseResolve",
-  "updated_at": "2024-07-24T06:07:26Z"
- },
- {
-  "base": "4bc2d8dedb662edb8870b13d5b35d01ff5312ee9",
-  "created_at": "2024-07-23T10:47:15Z",
-  "head": "ae183768695c87d91d8513cbc9c90c061718a6ce",
-  "login": "denlove",
-  "number": 3375,
-  "ref": "ecma-types",
-  "revs": [
-   {
-    "adate": "2024-08-08T16:10:20+03:00",
-    "author": "Denis",
-    "date": "2024-08-08T16:10:20+03:00",
-    "hash": "ae183768695c87d91d8513cbc9c90c061718a6ce",
-    "parents": "438e4c5586a660b81fa9b4c531790aa8a92b59a9 4bc2d8dedb662edb8870b13d5b35d01ff5312ee9",
-    "subject": "Merge branch 'main' into ecma-types"
-   },
-   {
-    "adate": "2024-07-23T13:35:35+03:00",
-    "author": "Denis",
-    "date": "2024-07-26T22:22:31+03:00",
-    "hash": "438e4c5586a660b81fa9b4c531790aa8a92b59a9",
-    "parents": "f2b2d524a56c915826e90d7a3f9daa51a49011c3",
-    "subject": "Editorial: replace non-existent type 'Reference' with type 'Reference Record' and its link"
-   }
-  ],
-  "title": "Editorial: replace non-existent type 'Reference' with type 'Reference Record' and its link",
-  "updated_at": "2024-08-08T13:18:38Z"
+  "updated_at": "2024-09-02T22:08:29Z"
  },
  {
   "base": "7a23e0e83597e4c8cfbbc1856a77cf8fc102e846",
