@@ -548,24 +548,24 @@
   "updated_at": "2024-07-29T00:41:48Z"
  },
  {
-  "base": "f2b2d524a56c915826e90d7a3f9daa51a49011c3",
+  "base": "d9d77ad3f8717748f80972fe54f8b7628200a412",
   "created_at": "2024-07-25T08:14:20Z",
-  "head": "104d49c1a6d5319d8fe8ea22721f8378dd5d34be",
+  "head": "62bb5c575327996050ac9cd32124c8efde38f666",
   "login": "tmdghks",
   "number": 3380,
   "ref": "fix-createdynamicfunction-newtarget-type",
   "revs": [
    {
-    "adate": "2024-07-25T16:56:47+09:00",
+    "adate": "2024-09-02T20:32:16-07:00",
     "author": "tmdghks",
-    "date": "2024-07-25T16:56:47+09:00",
-    "hash": "104d49c1a6d5319d8fe8ea22721f8378dd5d34be",
-    "parents": "f2b2d524a56c915826e90d7a3f9daa51a49011c3",
-    "subject": "Editorial: Widen parameter type of CreateDynamicFunction"
+    "date": "2024-09-02T20:32:16-07:00",
+    "hash": "62bb5c575327996050ac9cd32124c8efde38f666",
+    "parents": "d9d77ad3f8717748f80972fe54f8b7628200a412",
+    "subject": "Editorial: Widen parameter type of CreateDynamicFunction (#3380)"
    }
   ],
   "title": "Editorial: Widen parameter type of CreateDynamicFunction",
-  "updated_at": "2024-07-25T08:14:20Z"
+  "updated_at": "2024-09-03T03:33:51Z"
  },
  {
   "base": "f2b2d524a56c915826e90d7a3f9daa51a49011c3",
@@ -586,26 +586,6 @@
   ],
   "title": "Editorial: Add assertion that generatorKind is not non-generator",
   "updated_at": "2024-07-25T05:21:52Z"
- },
- {
-  "base": "9d945cf2d9e30524314d10114833ba40640e959b",
-  "created_at": "2024-07-25T03:07:31Z",
-  "head": "d9d77ad3f8717748f80972fe54f8b7628200a412",
-  "login": "tmdghks",
-  "number": 3378,
-  "ref": "fix-expectedargumentcount-return-type",
-  "revs": [
-   {
-    "adate": "2024-09-02T16:31:31-07:00",
-    "author": "tmdghks",
-    "date": "2024-09-02T16:31:31-07:00",
-    "hash": "d9d77ad3f8717748f80972fe54f8b7628200a412",
-    "parents": "9d945cf2d9e30524314d10114833ba40640e959b",
-    "subject": "Editorial: Narrow `integer` into `non-negative integer` in return type of ExpectedArgumentCount (#3378)"
-   }
-  ],
-  "title": "Editorial: Narrow `integer` into `non-negative integer` in return type of ExpectedArgumentCount",
-  "updated_at": "2024-09-02T23:32:53Z"
  },
  {
   "base": "f2b2d524a56c915826e90d7a3f9daa51a49011c3",
