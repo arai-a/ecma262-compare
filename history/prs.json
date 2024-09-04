@@ -1,6 +1,46 @@
 [
  {
   "base": "62bb5c575327996050ac9cd32124c8efde38f666",
+  "created_at": "2024-09-04T21:33:12Z",
+  "head": "5eb569a30ffebf5f3809d79ddd92d90ffaeb22be",
+  "login": "tc39",
+  "number": 3415,
+  "ref": "ReturnCompletion",
+  "revs": [
+   {
+    "adate": "2024-09-04T15:28:14-06:00",
+    "author": "Michael Ficarra",
+    "date": "2024-09-04T15:28:14-06:00",
+    "hash": "5eb569a30ffebf5f3809d79ddd92d90ffaeb22be",
+    "parents": "62bb5c575327996050ac9cd32124c8efde38f666",
+    "subject": "Editorial: add a ReturnCompletion AO, mirroring Normal/Throw"
+   }
+  ],
+  "title": "Editorial: add a ReturnCompletion AO, mirroring NormalCompletion/ThrowCompletion",
+  "updated_at": "2024-09-04T21:37:37Z"
+ },
+ {
+  "base": "62bb5c575327996050ac9cd32124c8efde38f666",
+  "created_at": "2024-09-04T21:21:37Z",
+  "head": "5baded9ba8b847599989387bc9cd62c2739bc2f2",
+  "login": "tc39",
+  "number": 3414,
+  "ref": "NormalCompletion",
+  "revs": [
+   {
+    "adate": "2024-09-04T15:18:08-06:00",
+    "author": "Michael Ficarra",
+    "date": "2024-09-04T15:18:08-06:00",
+    "hash": "5baded9ba8b847599989387bc9cd62c2739bc2f2",
+    "parents": "62bb5c575327996050ac9cd32124c8efde38f666",
+    "subject": "Editorial: consistently use NormalCompletion"
+   }
+  ],
+  "title": "Editorial: consistently use NormalCompletion",
+  "updated_at": "2024-09-04T21:21:37Z"
+ },
+ {
+  "base": "62bb5c575327996050ac9cd32124c8efde38f666",
   "created_at": "2024-09-03T16:03:00Z",
   "head": "21057df08ce4b02f14884725b50cc535792b3ace",
   "login": "gibson042",
