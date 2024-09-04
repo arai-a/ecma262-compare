@@ -2,11 +2,19 @@
  {
   "base": "62bb5c575327996050ac9cd32124c8efde38f666",
   "created_at": "2024-09-04T21:33:12Z",
-  "head": "5eb569a30ffebf5f3809d79ddd92d90ffaeb22be",
+  "head": "38edfa73d083b31711b81a689633dcbdaed08f3e",
   "login": "tc39",
   "number": 3415,
   "ref": "ReturnCompletion",
   "revs": [
+   {
+    "adate": "2024-09-04T15:26:41-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2024-09-04T15:26:41-07:00",
+    "hash": "38edfa73d083b31711b81a689633dcbdaed08f3e",
+    "parents": "5eb569a30ffebf5f3809d79ddd92d90ffaeb22be",
+    "subject": "Meta: bump ecmarkup to 19.1.0"
+   },
    {
     "adate": "2024-09-04T15:28:14-06:00",
     "author": "Michael Ficarra",
@@ -17,7 +25,7 @@
    }
   ],
   "title": "Editorial: add a ReturnCompletion AO, mirroring NormalCompletion/ThrowCompletion",
-  "updated_at": "2024-09-04T21:37:37Z"
+  "updated_at": "2024-09-04T22:28:18Z"
  },
  {
   "base": "62bb5c575327996050ac9cd32124c8efde38f666",
