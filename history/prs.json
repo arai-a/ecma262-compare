@@ -374,11 +374,19 @@
  {
   "base": "62bb5c575327996050ac9cd32124c8efde38f666",
   "created_at": "2024-08-16T02:07:51Z",
-  "head": "6f6e260d84d7ebd876b1a54dc0d798ff728b54b0",
+  "head": "0cb237632732c9ac602f59c9af9914a691ea3368",
   "login": "tc39",
   "number": 3395,
   "ref": "iterator-helpers-integration",
   "revs": [
+   {
+    "adate": "2024-09-04T17:35:49-06:00",
+    "author": "Michael Ficarra",
+    "date": "2024-09-04T18:03:00-06:00",
+    "hash": "0cb237632732c9ac602f59c9af9914a691ea3368",
+    "parents": "6f6e260d84d7ebd876b1a54dc0d798ff728b54b0",
+    "subject": "return ~unused~ from closures passed to GeneratorStart"
+   },
    {
     "adate": "2024-08-20T14:52:36-06:00",
     "author": "Michael Ficarra",
@@ -469,7 +477,7 @@
    }
   ],
   "title": "Normative: add Iterator Helpers",
-  "updated_at": "2024-09-04T16:34:50Z"
+  "updated_at": "2024-09-05T00:03:16Z"
  },
  {
   "base": "f439eccd5adaac04e5f29bb926aefd7899855b3e",
