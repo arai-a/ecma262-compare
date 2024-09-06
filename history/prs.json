@@ -2,30 +2,30 @@
  {
   "base": "afecb99a04a109e44651052bc17240ffd2b1a079",
   "created_at": "2024-09-06T05:08:53Z",
-  "head": "c8bec089881a81af9f75b10bb02b3fcb3cb0d280",
+  "head": "442c1061f178c24dc448b09d39d5c2b834fc404a",
   "login": "ljharb",
   "number": 3420,
   "ref": "strip-types",
   "revs": [
    {
-    "adate": "2024-09-05T22:05:22-07:00",
+    "adate": "2024-09-05T22:52:42-07:00",
     "author": "Jordan Harband",
-    "date": "2024-09-05T22:05:22-07:00",
-    "hash": "c8bec089881a81af9f75b10bb02b3fcb3cb0d280",
-    "parents": "c7f4823efccd6dda27b746f4f4df0a1d9f0fc0e9",
-    "subject": "Editorial: remove `Type()` AO-like macro"
+    "date": "2024-09-05T22:52:42-07:00",
+    "hash": "442c1061f178c24dc448b09d39d5c2b834fc404a",
+    "parents": "19a1b8f385848284996223f5938f2851fd018d1b",
+    "subject": "Editorial: remove `Type()` AO-like macro (#3420)"
    },
    {
-    "adate": "2024-09-05T22:04:08-07:00",
+    "adate": "2024-09-05T22:52:41-07:00",
     "author": "Jordan Harband",
-    "date": "2024-09-05T22:04:08-07:00",
-    "hash": "c7f4823efccd6dda27b746f4f4df0a1d9f0fc0e9",
+    "date": "2024-09-05T22:52:41-07:00",
+    "hash": "19a1b8f385848284996223f5938f2851fd018d1b",
     "parents": "afecb99a04a109e44651052bc17240ffd2b1a079",
-    "subject": "Editorial: `ApplyStringOrNumericBinaryOperator`: refactor into two explicit tables"
+    "subject": "Editorial: `ApplyStringOrNumericBinaryOperator`: refactor into two explicit tables (#3420)"
    }
   ],
   "title": "Editorial: remove Type() AO",
-  "updated_at": "2024-09-06T05:08:53Z"
+  "updated_at": "2024-09-06T05:52:49Z"
  },
  {
   "base": "afecb99a04a109e44651052bc17240ffd2b1a079",
