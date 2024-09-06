@@ -1,51 +1,59 @@
 [
  {
-  "base": "62bb5c575327996050ac9cd32124c8efde38f666",
-  "created_at": "2024-09-05T11:03:36Z",
-  "head": "864ab13a1bdd8c1e7b128b377abf99ebfc5f9613",
-  "login": "Rockyspade",
-  "number": 3416,
-  "ref": "patch-1",
+  "base": "afecb99a04a109e44651052bc17240ffd2b1a079",
+  "created_at": "2024-09-06T02:07:08Z",
+  "head": "401529bf974de4c75e56239ce05238452196061d",
+  "login": "jmdyck",
+  "number": 3419,
+  "ref": "quick_fixes_7",
   "revs": [
    {
-    "adate": "2024-09-05T04:00:13-07:00",
-    "author": "RockySpain",
-    "date": "2024-09-05T04:00:13-07:00",
-    "hash": "864ab13a1bdd8c1e7b128b377abf99ebfc5f9613",
-    "parents": "62bb5c575327996050ac9cd32124c8efde38f666",
-    "subject": "Rename CONTRIBUTING.md to CONTRIBUTING.md Rockyspade) ecma262"
+    "adate": "2024-09-05T21:56:45-04:00",
+    "author": "Michael Dyck",
+    "date": "2024-09-05T21:56:45-04:00",
+    "hash": "401529bf974de4c75e56239ce05238452196061d",
+    "parents": "6d6515a69ddd723fa8e220db7928a995b2544894",
+    "subject": "Editorial: Quick fixes for CreateListFromArrayLike"
    }
   ],
-  "title": "Rename CONTRIBUTING.md to CONTRIBUTING.md Rockyspade) ecma262",
-  "updated_at": "2024-09-05T11:03:36Z"
+  "title": "Editorial: Quick fixes for CreateListFromArrayLike",
+  "updated_at": "2024-09-06T02:07:08Z"
  },
  {
-  "base": "62bb5c575327996050ac9cd32124c8efde38f666",
+  "base": "afecb99a04a109e44651052bc17240ffd2b1a079",
   "created_at": "2024-09-04T21:33:12Z",
-  "head": "38edfa73d083b31711b81a689633dcbdaed08f3e",
+  "head": "92e273ced068e867deee6dc6171121f7dcb1ab69",
   "login": "tc39",
   "number": 3415,
   "ref": "ReturnCompletion",
   "revs": [
    {
+    "adate": "2024-09-05T18:14:07-06:00",
+    "author": "Michael Ficarra",
+    "date": "2024-09-05T17:14:36-07:00",
+    "hash": "92e273ced068e867deee6dc6171121f7dcb1ab69",
+    "parents": "5650cc180cc7e46f2803d6b875c2bb4af7d27114",
+    "subject": "review feedback"
+   },
+   {
     "adate": "2024-09-04T15:26:41-07:00",
     "author": "Kevin Gibbons",
-    "date": "2024-09-04T15:26:41-07:00",
-    "hash": "38edfa73d083b31711b81a689633dcbdaed08f3e",
-    "parents": "5eb569a30ffebf5f3809d79ddd92d90ffaeb22be",
+    "date": "2024-09-05T17:14:36-07:00",
+    "hash": "5650cc180cc7e46f2803d6b875c2bb4af7d27114",
+    "parents": "982481752c745aba8f93c7813ddc122b490dd8d3",
     "subject": "Meta: bump ecmarkup to 19.1.0"
    },
    {
     "adate": "2024-09-04T15:28:14-06:00",
     "author": "Michael Ficarra",
-    "date": "2024-09-04T15:28:14-06:00",
-    "hash": "5eb569a30ffebf5f3809d79ddd92d90ffaeb22be",
-    "parents": "62bb5c575327996050ac9cd32124c8efde38f666",
+    "date": "2024-09-05T17:14:36-07:00",
+    "hash": "982481752c745aba8f93c7813ddc122b490dd8d3",
+    "parents": "afecb99a04a109e44651052bc17240ffd2b1a079",
     "subject": "Editorial: add a ReturnCompletion AO, mirroring Normal/Throw"
    }
   ],
   "title": "Editorial: add a ReturnCompletion AO, mirroring NormalCompletion/ThrowCompletion",
-  "updated_at": "2024-09-04T22:28:18Z"
+  "updated_at": "2024-09-06T01:20:45Z"
  },
  {
   "base": "62bb5c575327996050ac9cd32124c8efde38f666",
@@ -114,66 +122,6 @@
   ],
   "title": "Editorial: simplify AsyncGeneratorDrainQueue",
   "updated_at": "2024-09-01T23:58:23Z"
- },
- {
-  "base": "815aa8a4d68ce24bec81ba6789c37d55bc87b54a",
-  "created_at": "2024-08-29T02:33:12Z",
-  "head": "2525dd5aae64176a19d28260a82911d1241b677e",
-  "login": "ljharb",
-  "number": 3410,
-  "ref": "avoid-the-type-of",
-  "revs": [
-   {
-    "adate": "2024-08-28T19:32:51-07:00",
-    "author": "Jordan Harband",
-    "date": "2024-08-29T14:18:38-07:00",
-    "hash": "2525dd5aae64176a19d28260a82911d1241b677e",
-    "parents": "815aa8a4d68ce24bec81ba6789c37d55bc87b54a",
-    "subject": "Editorial: avoid \"The Type of\" (#3410)"
-   }
-  ],
-  "title": "Editorial: avoid \"The Type of\"",
-  "updated_at": "2024-08-29T21:18:54Z"
- },
- {
-  "base": "815aa8a4d68ce24bec81ba6789c37d55bc87b54a",
-  "created_at": "2024-08-28T22:16:58Z",
-  "head": "bc0e504d77d7f6a1008e0dec4da8b89b79bca087",
-  "login": "ljharb",
-  "number": 3409,
-  "ref": "CreateListFromArrayLike",
-  "revs": [
-   {
-    "adate": "2024-08-28T15:20:10-07:00",
-    "author": "Jordan Harband",
-    "date": "2024-08-29T13:18:39-07:00",
-    "hash": "bc0e504d77d7f6a1008e0dec4da8b89b79bca087",
-    "parents": "815aa8a4d68ce24bec81ba6789c37d55bc87b54a",
-    "subject": "Editorial: `CreateListFromArrayLike`: change element type list to a 2-state enum (#3409)"
-   }
-  ],
-  "title": "Editorial: `CreateListFromArrayLike`: change element type list to a 2-state enum",
-  "updated_at": "2024-08-29T20:18:45Z"
- },
- {
-  "base": "815aa8a4d68ce24bec81ba6789c37d55bc87b54a",
-  "created_at": "2024-08-28T22:14:20Z",
-  "head": "221a9345b991d2a3e5703107add43a48330f066e",
-  "login": "ljharb",
-  "number": 3408,
-  "ref": "same-type",
-  "revs": [
-   {
-    "adate": "2024-08-28T19:31:54-07:00",
-    "author": "Jordan Harband",
-    "date": "2024-08-29T09:12:44-07:00",
-    "hash": "221a9345b991d2a3e5703107add43a48330f066e",
-    "parents": "815aa8a4d68ce24bec81ba6789c37d55bc87b54a",
-    "subject": "Editorial: add `SameType` AO (#3408)"
-   }
-  ],
-  "title": "Editorial: add `SameType` AO",
-  "updated_at": "2024-08-29T16:12:56Z"
  },
  {
   "base": "815aa8a4d68ce24bec81ba6789c37d55bc87b54a",
