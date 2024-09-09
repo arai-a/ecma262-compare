@@ -1,6 +1,26 @@
 [
  {
   "base": "92aa8e08cd014e0bddff46c00e11023b893490ff",
+  "created_at": "2024-09-09T12:24:06Z",
+  "head": "e72a6a86671d07790834b1d715a696d2a97235c2",
+  "login": "susisu",
+  "number": 3423,
+  "ref": "tweak-string-prototype-matchall-description",
+  "revs": [
+   {
+    "adate": "2024-09-09T21:21:45+09:00",
+    "author": "Susisu",
+    "date": "2024-09-09T21:21:45+09:00",
+    "hash": "e72a6a86671d07790834b1d715a696d2a97235c2",
+    "parents": "92aa8e08cd014e0bddff46c00e11023b893490ff",
+    "subject": "Editorial: String.prototype.matchAll iterators won't return null"
+   }
+  ],
+  "title": "Editorial: String.prototype.matchAll iterators won't return null",
+  "updated_at": "2024-09-09T12:24:06Z"
+ },
+ {
+  "base": "92aa8e08cd014e0bddff46c00e11023b893490ff",
   "created_at": "2024-09-06T05:08:53Z",
   "head": "fcd19b5d91581360834467fbbb78b9b6792bfb41",
   "login": "ljharb",
