@@ -84,9 +84,9 @@
   "updated_at": "2024-09-06T20:08:48Z"
  },
  {
-  "base": "afecb99a04a109e44651052bc17240ffd2b1a079",
+  "base": "92aa8e08cd014e0bddff46c00e11023b893490ff",
   "created_at": "2024-09-04T21:33:12Z",
-  "head": "92e273ced068e867deee6dc6171121f7dcb1ab69",
+  "head": "ce9ed0bdf7a8be6613855b127cb995ebee800814",
   "login": "tc39",
   "number": 3415,
   "ref": "ReturnCompletion",
@@ -94,30 +94,30 @@
    {
     "adate": "2024-09-05T18:14:07-06:00",
     "author": "Michael Ficarra",
-    "date": "2024-09-05T17:14:36-07:00",
-    "hash": "92e273ced068e867deee6dc6171121f7dcb1ab69",
-    "parents": "5650cc180cc7e46f2803d6b875c2bb4af7d27114",
+    "date": "2024-09-19T18:10:38-06:00",
+    "hash": "ce9ed0bdf7a8be6613855b127cb995ebee800814",
+    "parents": "eceb3d9f40bca3b7cbc2ae989d35e664f7b38a46",
     "subject": "review feedback"
    },
    {
     "adate": "2024-09-04T15:26:41-07:00",
     "author": "Kevin Gibbons",
-    "date": "2024-09-05T17:14:36-07:00",
-    "hash": "5650cc180cc7e46f2803d6b875c2bb4af7d27114",
-    "parents": "982481752c745aba8f93c7813ddc122b490dd8d3",
+    "date": "2024-09-19T18:10:38-06:00",
+    "hash": "eceb3d9f40bca3b7cbc2ae989d35e664f7b38a46",
+    "parents": "0e141636a8b3c29d80fb6d28f063cf930f60aef9",
     "subject": "Meta: bump ecmarkup to 19.1.0"
    },
    {
     "adate": "2024-09-04T15:28:14-06:00",
     "author": "Michael Ficarra",
-    "date": "2024-09-05T17:14:36-07:00",
-    "hash": "982481752c745aba8f93c7813ddc122b490dd8d3",
-    "parents": "afecb99a04a109e44651052bc17240ffd2b1a079",
+    "date": "2024-09-19T18:10:38-06:00",
+    "hash": "0e141636a8b3c29d80fb6d28f063cf930f60aef9",
+    "parents": "92aa8e08cd014e0bddff46c00e11023b893490ff",
     "subject": "Editorial: add a ReturnCompletion AO, mirroring Normal/Throw"
    }
   ],
   "title": "Editorial: add a ReturnCompletion AO, mirroring NormalCompletion/ThrowCompletion",
-  "updated_at": "2024-09-06T01:20:45Z"
+  "updated_at": "2024-09-20T00:13:21Z"
  },
  {
   "base": "62bb5c575327996050ac9cd32124c8efde38f666",
@@ -406,11 +406,19 @@
  {
   "base": "92aa8e08cd014e0bddff46c00e11023b893490ff",
   "created_at": "2024-08-16T02:07:51Z",
-  "head": "fc4354bba86b52a4e0e04db349109c59a7c9958a",
+  "head": "322876c91bc3837f323185d8c37e96b206714bf9",
   "login": "tc39",
   "number": 3395,
   "ref": "iterator-helpers-integration",
   "revs": [
+   {
+    "adate": "2024-09-19T17:50:23-06:00",
+    "author": "Michael Ficarra",
+    "date": "2024-09-19T17:50:23-06:00",
+    "hash": "322876c91bc3837f323185d8c37e96b206714bf9",
+    "parents": "fc4354bba86b52a4e0e04db349109c59a7c9958a",
+    "subject": "ReturnCompletion(*undefined*) instead of NormalCompletion(~unused~)"
+   },
    {
     "adate": "2024-09-17T18:42:27-06:00",
     "author": "Michael Ficarra",
@@ -517,7 +525,7 @@
    }
   ],
   "title": "Normative: add Iterator Helpers",
-  "updated_at": "2024-09-18T00:52:02Z"
+  "updated_at": "2024-09-19T23:52:45Z"
  },
  {
   "base": "f439eccd5adaac04e5f29bb926aefd7899855b3e",
