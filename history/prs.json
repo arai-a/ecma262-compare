@@ -64,70 +64,6 @@
   "updated_at": "2024-09-21T05:30:11Z"
  },
  {
-  "base": "92aa8e08cd014e0bddff46c00e11023b893490ff",
-  "created_at": "2024-09-06T05:08:53Z",
-  "head": "fcd19b5d91581360834467fbbb78b9b6792bfb41",
-  "login": "ljharb",
-  "number": 3420,
-  "ref": "strip-types",
-  "revs": [
-   {
-    "adate": "2024-09-06T13:08:41-07:00",
-    "author": "Jordan Harband",
-    "date": "2024-09-06T13:08:41-07:00",
-    "hash": "fcd19b5d91581360834467fbbb78b9b6792bfb41",
-    "parents": "579e0d2892c35c8d5bb45fecad0bcb19a2c664d4",
-    "subject": "Editorial: remove `Type()` AO-like macro (#3420)"
-   },
-   {
-    "adate": "2024-09-06T13:08:40-07:00",
-    "author": "Jordan Harband",
-    "date": "2024-09-06T13:08:40-07:00",
-    "hash": "579e0d2892c35c8d5bb45fecad0bcb19a2c664d4",
-    "parents": "92aa8e08cd014e0bddff46c00e11023b893490ff",
-    "subject": "Editorial: `ApplyStringOrNumericBinaryOperator`: refactor into two explicit tables (#3420)"
-   }
-  ],
-  "title": "Editorial: remove Type() AO",
-  "updated_at": "2024-09-06T20:08:48Z"
- },
- {
-  "base": "92aa8e08cd014e0bddff46c00e11023b893490ff",
-  "created_at": "2024-09-04T21:33:12Z",
-  "head": "ce9ed0bdf7a8be6613855b127cb995ebee800814",
-  "login": "tc39",
-  "number": 3415,
-  "ref": "ReturnCompletion",
-  "revs": [
-   {
-    "adate": "2024-09-05T18:14:07-06:00",
-    "author": "Michael Ficarra",
-    "date": "2024-09-19T18:10:38-06:00",
-    "hash": "ce9ed0bdf7a8be6613855b127cb995ebee800814",
-    "parents": "eceb3d9f40bca3b7cbc2ae989d35e664f7b38a46",
-    "subject": "review feedback"
-   },
-   {
-    "adate": "2024-09-04T15:26:41-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2024-09-19T18:10:38-06:00",
-    "hash": "eceb3d9f40bca3b7cbc2ae989d35e664f7b38a46",
-    "parents": "0e141636a8b3c29d80fb6d28f063cf930f60aef9",
-    "subject": "Meta: bump ecmarkup to 19.1.0"
-   },
-   {
-    "adate": "2024-09-04T15:28:14-06:00",
-    "author": "Michael Ficarra",
-    "date": "2024-09-19T18:10:38-06:00",
-    "hash": "0e141636a8b3c29d80fb6d28f063cf930f60aef9",
-    "parents": "92aa8e08cd014e0bddff46c00e11023b893490ff",
-    "subject": "Editorial: add a ReturnCompletion AO, mirroring Normal/Throw"
-   }
-  ],
-  "title": "Editorial: add a ReturnCompletion AO, mirroring NormalCompletion/ThrowCompletion",
-  "updated_at": "2024-09-20T00:13:21Z"
- },
- {
   "base": "62bb5c575327996050ac9cd32124c8efde38f666",
   "created_at": "2024-09-04T21:21:37Z",
   "head": "5baded9ba8b847599989387bc9cd62c2739bc2f2",
@@ -412,9 +348,9 @@
   "updated_at": "2024-09-03T19:55:42Z"
  },
  {
-  "base": "92aa8e08cd014e0bddff46c00e11023b893490ff",
+  "base": "7df8f590e9f3c57a2783c5c26eeb631fe211f51b",
   "created_at": "2024-08-16T02:07:51Z",
-  "head": "322876c91bc3837f323185d8c37e96b206714bf9",
+  "head": "380047ced50a7064447c2c679ea00017d025403a",
   "login": "tc39",
   "number": 3395,
   "ref": "iterator-helpers-integration",
@@ -422,118 +358,118 @@
    {
     "adate": "2024-09-19T17:50:23-06:00",
     "author": "Michael Ficarra",
-    "date": "2024-09-19T17:50:23-06:00",
-    "hash": "322876c91bc3837f323185d8c37e96b206714bf9",
-    "parents": "fc4354bba86b52a4e0e04db349109c59a7c9958a",
+    "date": "2024-09-23T15:10:11-06:00",
+    "hash": "380047ced50a7064447c2c679ea00017d025403a",
+    "parents": "d4c0e3ccc512680982454e0051baa5dcf5cb8b84",
     "subject": "ReturnCompletion(*undefined*) instead of NormalCompletion(~unused~)"
    },
    {
     "adate": "2024-09-17T18:42:27-06:00",
     "author": "Michael Ficarra",
-    "date": "2024-09-17T17:52:01-07:00",
-    "hash": "fc4354bba86b52a4e0e04db349109c59a7c9958a",
-    "parents": "bab25b513a5a42c33969063ce3c8a2941792bd40",
+    "date": "2024-09-23T15:10:11-06:00",
+    "hash": "d4c0e3ccc512680982454e0051baa5dcf5cb8b84",
+    "parents": "48fd36914857cf97b11c8aa4b579762cc35b8180",
     "subject": "the AC passed to CreateIteratorFromClosure should return completions"
    },
    {
     "adate": "2024-09-04T17:35:49-06:00",
     "author": "Michael Ficarra",
-    "date": "2024-09-17T17:52:01-07:00",
-    "hash": "bab25b513a5a42c33969063ce3c8a2941792bd40",
-    "parents": "e6ce04f0508730070fec626944087d96b947acb7",
+    "date": "2024-09-23T15:10:11-06:00",
+    "hash": "48fd36914857cf97b11c8aa4b579762cc35b8180",
+    "parents": "5b3db4afb646428127a137571422d5d2f8ff988e",
     "subject": "return ~unused~ from closures passed to GeneratorStart"
    },
    {
     "adate": "2024-08-20T14:52:36-06:00",
     "author": "Michael Ficarra",
-    "date": "2024-09-17T17:52:01-07:00",
-    "hash": "e6ce04f0508730070fec626944087d96b947acb7",
-    "parents": "ff41ae65039e0bbd07969b8dd0ff7ee975a35ee7",
+    "date": "2024-09-23T15:10:11-06:00",
+    "hash": "5b3db4afb646428127a137571422d5d2f8ff988e",
+    "parents": "a8ad965bcff2f336582255a2f0fa4c17c1a1c631",
     "subject": "accept jmdyck's suggestions"
    },
    {
     "adate": "2024-08-19T11:44:59-06:00",
     "author": "Michael Ficarra",
-    "date": "2024-09-17T17:52:01-07:00",
-    "hash": "ff41ae65039e0bbd07969b8dd0ff7ee975a35ee7",
-    "parents": "8564a9023dbc919380bbcd9521d38208537fe23f",
+    "date": "2024-09-23T15:10:10-06:00",
+    "hash": "a8ad965bcff2f336582255a2f0fa4c17c1a1c631",
+    "parents": "9a54fa66b4ef4584ac7a48f182f141c3a531de6f",
     "subject": "change parameter name for forEach"
    },
    {
     "adate": "2024-08-17T10:48:13-04:00",
     "author": "Michael Dyck",
-    "date": "2024-09-17T17:52:01-07:00",
-    "hash": "8564a9023dbc919380bbcd9521d38208537fe23f",
-    "parents": "17bdea3f50bf094f87c9b927ace658ea32506d7c",
+    "date": "2024-09-23T15:10:10-06:00",
+    "hash": "9a54fa66b4ef4584ac7a48f182f141c3a531de6f",
+    "parents": "18b59318ab76a862d28dfa682329096953acf04d",
     "subject": "%WrapForValidIteratorPrototype% is an ordinary object?"
    },
    {
     "adate": "2024-08-17T10:44:54-04:00",
     "author": "Michael Dyck",
-    "date": "2024-09-17T17:52:01-07:00",
-    "hash": "17bdea3f50bf094f87c9b927ace658ea32506d7c",
-    "parents": "9c99fa39daa67e2ca78c3c6fdb440a1504e82b02",
+    "date": "2024-09-23T15:10:10-06:00",
+    "hash": "18b59318ab76a862d28dfa682329096953acf04d",
+    "parents": "e0ef2e81436ed7e1c755a622a3d94309bb7261cf",
     "subject": "Add a <p><ul> to \"Properties of the Iterator Constructor\""
    },
    {
     "adate": "2024-08-17T10:42:59-04:00",
     "author": "Michael Dyck",
-    "date": "2024-09-17T17:52:01-07:00",
-    "hash": "9c99fa39daa67e2ca78c3c6fdb440a1504e82b02",
-    "parents": "e0970b1c2f81a95005f4f0fb3aff558593f7d3e5",
+    "date": "2024-09-23T15:10:10-06:00",
+    "hash": "e0ef2e81436ed7e1c755a622a3d94309bb7261cf",
+    "parents": "b068cd5107d7d61920b14440ff04f96f2a04462d",
     "subject": "Wording tweaks"
    },
    {
     "adate": "2024-08-17T10:39:27-04:00",
     "author": "Michael Dyck",
-    "date": "2024-09-17T17:52:01-07:00",
-    "hash": "e0970b1c2f81a95005f4f0fb3aff558593f7d3e5",
-    "parents": "96fdfbfe1920ac0898e3d6aa71ecb6b78a48ba9c",
+    "date": "2024-09-23T15:10:10-06:00",
+    "hash": "b068cd5107d7d61920b14440ff04f96f2a04462d",
+    "parents": "a3c122150460b42cc98f409938df55c9aec80445",
     "subject": "Declare %IteratorHelperPrototype% and %WrapForValidIteratorPrototype%"
    },
    {
     "adate": "2024-08-17T10:36:22-04:00",
     "author": "Michael Dyck",
-    "date": "2024-09-17T17:52:01-07:00",
-    "hash": "96fdfbfe1920ac0898e3d6aa71ecb6b78a48ba9c",
-    "parents": "ce3f0077a7dbcc5584780cbbbb09cff8c7acad73",
+    "date": "2024-09-23T15:10:10-06:00",
+    "hash": "a3c122150460b42cc98f409938df55c9aec80445",
+    "parents": "a40b31aacc806c843bfc391a4225b81e51f36843",
     "subject": "Use better (more consistent) ids"
    },
    {
     "adate": "2024-08-17T10:26:42-04:00",
     "author": "Michael Dyck",
-    "date": "2024-09-17T17:52:01-07:00",
-    "hash": "ce3f0077a7dbcc5584780cbbbb09cff8c7acad73",
-    "parents": "67099e243bde0fafbbe1ce2eb7463aa87d3805ff",
+    "date": "2024-09-23T15:10:10-06:00",
+    "hash": "a40b31aacc806c843bfc391a4225b81e51f36843",
+    "parents": "b6e155e73ff5ecae102ff9435bc6a630900b2e00",
     "subject": "Convert @@ notation to intrinsics notation (PR #1314)"
    },
    {
     "adate": "2024-08-17T10:09:56-04:00",
     "author": "Michael Dyck",
-    "date": "2024-09-17T17:52:01-07:00",
-    "hash": "67099e243bde0fafbbe1ce2eb7463aa87d3805ff",
-    "parents": "a9e5473bb19678b07b2c0d6a0841420cbd9c0e06",
+    "date": "2024-09-23T15:10:10-06:00",
+    "hash": "b6e155e73ff5ecae102ff9435bc6a630900b2e00",
+    "parents": "d411a53d3e2579a9229394cb9dbf6f22cacea195",
     "subject": "reorder the Iterator.* and Iterator.prototype.* sections"
    },
    {
     "adate": "2024-08-16T16:09:26-06:00",
     "author": "Michael Ficarra",
-    "date": "2024-09-17T17:52:01-07:00",
-    "hash": "a9e5473bb19678b07b2c0d6a0841420cbd9c0e06",
-    "parents": "e49b1db4169057686251ae2c82da9c6ce4e3ee6d",
+    "date": "2024-09-23T15:10:09-06:00",
+    "hash": "d411a53d3e2579a9229394cb9dbf6f22cacea195",
+    "parents": "1f510feb67e626d3312dd65d4a013f8ef3efd6f7",
     "subject": "rename enums in GetIteratorFlattenable"
    },
    {
     "adate": "2024-08-15T19:57:17-06:00",
     "author": "Michael Ficarra",
-    "date": "2024-09-17T17:52:01-07:00",
-    "hash": "e49b1db4169057686251ae2c82da9c6ce4e3ee6d",
-    "parents": "92aa8e08cd014e0bddff46c00e11023b893490ff",
+    "date": "2024-09-23T15:10:09-06:00",
+    "hash": "1f510feb67e626d3312dd65d4a013f8ef3efd6f7",
+    "parents": "7df8f590e9f3c57a2783c5c26eeb631fe211f51b",
     "subject": "Normative: add Iterator Helpers"
    }
   ],
   "title": "Normative: add Iterator Helpers",
-  "updated_at": "2024-09-19T23:52:45Z"
+  "updated_at": "2024-09-23T21:12:34Z"
  },
  {
   "base": "f439eccd5adaac04e5f29bb926aefd7899855b3e",
@@ -902,42 +838,6 @@
   ],
   "title": "Markup: minor fixes/improvements for PDF gen",
   "updated_at": "2024-06-13T20:06:25Z"
- },
- {
-  "base": "b5097875532b0487049cf5f66f0a3e10f0c1af7e",
-  "created_at": "2024-05-30T00:26:00Z",
-  "head": "1481e7a3e3f9a2c5ef92320807219377daf700c2",
-  "login": "tc39",
-  "number": 3339,
-  "ref": "GH-2870",
-  "revs": [
-   {
-    "adate": "2024-06-26T18:30:37-06:00",
-    "author": "Michael Ficarra",
-    "date": "2024-06-26T18:30:37-06:00",
-    "hash": "1481e7a3e3f9a2c5ef92320807219377daf700c2",
-    "parents": "bec5487bfb615809cfc3a7304024a66f674cdcea",
-    "subject": "formatting"
-   },
-   {
-    "adate": "2024-06-26T18:27:48-06:00",
-    "author": "Michael Ficarra",
-    "date": "2024-06-26T18:27:48-06:00",
-    "hash": "bec5487bfb615809cfc3a7304024a66f674cdcea",
-    "parents": "ff3ac16924da6de92999caad63b2539068305893",
-    "subject": "address feedback"
-   },
-   {
-    "adate": "2024-05-29T18:17:36-06:00",
-    "author": "Michael Ficarra",
-    "date": "2024-06-26T18:06:25-06:00",
-    "hash": "ff3ac16924da6de92999caad63b2539068305893",
-    "parents": "b5097875532b0487049cf5f66f0a3e10f0c1af7e",
-    "subject": "Editorial: replace Type(...) notation with a proper Type AO"
-   }
-  ],
-  "title": "Editorial: replace Type(...) notation with a proper Type AO",
-  "updated_at": "2024-06-27T00:30:44Z"
  },
  {
   "base": "4e32b345d044e3b6a4a737ef9c4396942e2597e7",
