@@ -1,5 +1,37 @@
 [
  {
+  "adate": "2024-09-23T12:15:46-07:00",
+  "author": "Michael Ficarra",
+  "date": "2024-09-23T12:15:46-07:00",
+  "hash": "7df8f590e9f3c57a2783c5c26eeb631fe211f51b",
+  "parents": "95b799728955189b9044ec448267a1c2ba9f380a",
+  "subject": "Editorial: add a ReturnCompletion AO, mirroring Normal/Throw (#3415)"
+ },
+ {
+  "adate": "2024-09-23T12:15:38-07:00",
+  "author": "Kevin Gibbons",
+  "date": "2024-09-23T12:15:38-07:00",
+  "hash": "95b799728955189b9044ec448267a1c2ba9f380a",
+  "parents": "fcd19b5d91581360834467fbbb78b9b6792bfb41",
+  "subject": "Meta: bump ecmarkup to 19.1.0 (#3415)"
+ },
+ {
+  "adate": "2024-09-06T13:08:41-07:00",
+  "author": "Jordan Harband",
+  "date": "2024-09-06T13:08:41-07:00",
+  "hash": "fcd19b5d91581360834467fbbb78b9b6792bfb41",
+  "parents": "579e0d2892c35c8d5bb45fecad0bcb19a2c664d4",
+  "subject": "Editorial: remove `Type()` AO-like macro (#3420)"
+ },
+ {
+  "adate": "2024-09-06T13:08:40-07:00",
+  "author": "Jordan Harband",
+  "date": "2024-09-06T13:08:40-07:00",
+  "hash": "579e0d2892c35c8d5bb45fecad0bcb19a2c664d4",
+  "parents": "92aa8e08cd014e0bddff46c00e11023b893490ff",
+  "subject": "Editorial: `ApplyStringOrNumericBinaryOperator`: refactor into two explicit tables (#3420)"
+ },
+ {
   "adate": "2024-09-05T21:56:45-04:00",
   "author": "Michael Dyck",
   "date": "2024-09-06T10:24:41-07:00",
