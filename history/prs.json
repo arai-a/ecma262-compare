@@ -1312,13 +1312,37 @@
   "updated_at": "2023-11-18T19:49:39Z"
  },
  {
-  "base": "82c99bbc44e4b63e3a14ffbf0ac90ce8359c1010",
+  "base": "f439eccd5adaac04e5f29bb926aefd7899855b3e",
   "created_at": "2023-11-15T21:52:40Z",
-  "head": "7f39d7b365e45a3e9251834c2af93124965bbb07",
+  "head": "5a694e4e35b43f6cc6243573ba5beb083d92029e",
   "login": "rbuckton",
   "number": 3221,
   "ref": "regexp-modifiers",
   "revs": [
+   {
+    "adate": "2024-09-26T17:48:04-04:00",
+    "author": "Ron Buckton",
+    "date": "2024-09-26T17:48:04-04:00",
+    "hash": "5a694e4e35b43f6cc6243573ba5beb083d92029e",
+    "parents": "0d2db20f99c379cede28c3bcb16b6d4536cae970",
+    "subject": "Address PR feedback from @michaelficarra"
+   },
+   {
+    "adate": "2024-09-26T17:43:36-04:00",
+    "author": "Ron Buckton",
+    "date": "2024-09-26T17:43:36-04:00",
+    "hash": "0d2db20f99c379cede28c3bcb16b6d4536cae970",
+    "parents": "a33dceda606d8f06d787aa7ec397c8786c48d810",
+    "subject": "Address PR feedback from @jmdyck"
+   },
+   {
+    "adate": "2024-09-26T17:41:59-04:00",
+    "author": "Ron Buckton",
+    "date": "2024-09-26T17:41:59-04:00",
+    "hash": "a33dceda606d8f06d787aa7ec397c8786c48d810",
+    "parents": "7f39d7b365e45a3e9251834c2af93124965bbb07 a92f3e906943ee1abdbf924a27c966524474f0c4",
+    "subject": "Merge branch 'main' into regexp-modifiers"
+   },
    {
     "adate": "2023-11-15T16:48:53-05:00",
     "author": "Ron Buckton",
@@ -1329,7 +1353,7 @@
    }
   ],
   "title": "Add spec text for RegExp Modifiers",
-  "updated_at": "2023-11-15T21:52:40Z"
+  "updated_at": "2024-09-26T21:48:09Z"
  },
  {
   "base": "82c99bbc44e4b63e3a14ffbf0ac90ce8359c1010",
