@@ -1334,11 +1334,27 @@
  {
   "base": "7df8f590e9f3c57a2783c5c26eeb631fe211f51b",
   "created_at": "2023-11-15T21:52:40Z",
-  "head": "8e288c77a92c923b9f028b58c5678fc361464d4f",
+  "head": "374b90bb53b234c01c4ab186be727af4fcb3ca16",
   "login": "rbuckton",
   "number": 3221,
   "ref": "regexp-modifiers",
   "revs": [
+   {
+    "adate": "2024-09-27T19:55:26-04:00",
+    "author": "Ron Buckton",
+    "date": "2024-09-27T19:55:26-04:00",
+    "hash": "374b90bb53b234c01c4ab186be727af4fcb3ca16",
+    "parents": "9a0069f5b4161ed576bd5eebb8f34c1d7bc1ab9a",
+    "subject": "Add assertion to UpdateModifiers"
+   },
+   {
+    "adate": "2024-09-27T19:53:52-04:00",
+    "author": "Ron Buckton",
+    "date": "2024-09-27T19:53:52-04:00",
+    "hash": "9a0069f5b4161ed576bd5eebb8f34c1d7bc1ab9a",
+    "parents": "8e288c77a92c923b9f028b58c5678fc361464d4f",
+    "subject": "Use else-if when handling modifiers"
+   },
    {
     "adate": "2024-09-27T12:13:44-04:00",
     "author": "Ron Buckton",
@@ -1381,7 +1397,7 @@
    }
   ],
   "title": "Add spec text for RegExp Modifiers",
-  "updated_at": "2024-09-27T16:13:46Z"
+  "updated_at": "2024-09-27T23:55:49Z"
  },
  {
   "base": "82c99bbc44e4b63e3a14ffbf0ac90ce8359c1010",
