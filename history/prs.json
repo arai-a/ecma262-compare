@@ -1,26 +1,6 @@
 [
  {
   "base": "7df8f590e9f3c57a2783c5c26eeb631fe211f51b",
-  "created_at": "2024-10-02T08:23:26Z",
-  "head": "af7f3d6164fc86b4ce9396842f487221460c8c10",
-  "login": "kimjg1119",
-  "number": 3434,
-  "ref": "fix-empty",
-  "revs": [
-   {
-    "adate": "2024-10-02T16:41:30+09:00",
-    "author": "Jungyeom Kim",
-    "date": "2024-10-02T17:59:26+09:00",
-    "hash": "af7f3d6164fc86b4ce9396842f487221460c8c10",
-    "parents": "7df8f590e9f3c57a2783c5c26eeb631fe211f51b",
-    "subject": "Fix; some functions can return empty"
-   }
-  ],
-  "title": "Normative: Fix omitted return types of functions that can return empty",
-  "updated_at": "2024-10-02T08:59:32Z"
- },
- {
-  "base": "7df8f590e9f3c57a2783c5c26eeb631fe211f51b",
   "created_at": "2024-09-27T22:42:09Z",
   "head": "7f53968d993601f07563bdfaffa3c6e547674e8f",
   "login": "LegionMammal978",
@@ -76,9 +56,9 @@
   "updated_at": "2024-09-09T17:34:19Z"
  },
  {
-  "base": "92aa8e08cd014e0bddff46c00e11023b893490ff",
+  "base": "7df8f590e9f3c57a2783c5c26eeb631fe211f51b",
   "created_at": "2024-09-09T12:24:06Z",
-  "head": "ea3f999681dd312d0fdf7c077b9e414d59c07b00",
+  "head": "b688e11e5a5688a964c37f086aa8c21624de2cff",
   "login": "susisu",
   "number": 3423,
   "ref": "tweak-string-prototype-matchall-description",
@@ -86,22 +66,22 @@
    {
     "adate": "2024-09-21T14:29:52+09:00",
     "author": "Susisu",
-    "date": "2024-09-21T14:29:52+09:00",
-    "hash": "ea3f999681dd312d0fdf7c077b9e414d59c07b00",
-    "parents": "e72a6a86671d07790834b1d715a696d2a97235c2",
+    "date": "2024-10-02T16:14:10-06:00",
+    "hash": "b688e11e5a5688a964c37f086aa8c21624de2cff",
+    "parents": "9ab85e74e55c6886db7d6cc4d619fd586268fa1c",
     "subject": "Editorial: add more explanation on match results"
    },
    {
     "adate": "2024-09-09T21:21:45+09:00",
     "author": "Susisu",
-    "date": "2024-09-09T21:21:45+09:00",
-    "hash": "e72a6a86671d07790834b1d715a696d2a97235c2",
-    "parents": "92aa8e08cd014e0bddff46c00e11023b893490ff",
+    "date": "2024-10-02T16:14:10-06:00",
+    "hash": "9ab85e74e55c6886db7d6cc4d619fd586268fa1c",
+    "parents": "7df8f590e9f3c57a2783c5c26eeb631fe211f51b",
     "subject": "Editorial: String.prototype.matchAll iterators won't return null"
    }
   ],
   "title": "Editorial: String.prototype.matchAll iterators won't return null",
-  "updated_at": "2024-09-21T05:30:11Z"
+  "updated_at": "2024-10-02T22:14:12Z"
  },
  {
   "base": "62bb5c575327996050ac9cd32124c8efde38f666",
@@ -390,11 +370,19 @@
  {
   "base": "7df8f590e9f3c57a2783c5c26eeb631fe211f51b",
   "created_at": "2024-08-16T02:07:51Z",
-  "head": "380047ced50a7064447c2c679ea00017d025403a",
+  "head": "60fcae2c7bfc65b6382534c824abd13855bea4c8",
   "login": "tc39",
   "number": 3395,
   "ref": "iterator-helpers-integration",
   "revs": [
+   {
+    "adate": "2024-10-02T16:06:41-06:00",
+    "author": "Michael Ficarra",
+    "date": "2024-10-02T16:06:41-06:00",
+    "hash": "60fcae2c7bfc65b6382534c824abd13855bea4c8",
+    "parents": "380047ced50a7064447c2c679ea00017d025403a",
+    "subject": "address Shu's feedback"
+   },
    {
     "adate": "2024-09-19T17:50:23-06:00",
     "author": "Michael Ficarra",
@@ -509,7 +497,7 @@
    }
   ],
   "title": "Normative: add Iterator Helpers",
-  "updated_at": "2024-09-23T21:12:34Z"
+  "updated_at": "2024-10-02T22:07:02Z"
  },
  {
   "base": "f439eccd5adaac04e5f29bb926aefd7899855b3e",
@@ -1172,24 +1160,32 @@
   "updated_at": "2024-05-07T11:26:06Z"
  },
  {
-  "base": "f012b38779e8399191e25e82fe797cc9374f4288",
+  "base": "7df8f590e9f3c57a2783c5c26eeb631fe211f51b",
   "created_at": "2024-02-26T20:37:58Z",
-  "head": "8b7da2b49fa08c1dc74e337e45855fcb04ad81bb",
+  "head": "097a439ab17f9d9ebdec5244238969c05bdb0fb2",
   "login": "tutizaraz",
   "number": 3287,
   "ref": "normative-update-OrdinaryCreateFromConstructor-first-arg-to-function-object",
   "revs": [
    {
+    "adate": "2024-10-02T15:15:00-07:00",
+    "author": "Shu-yu Guo",
+    "date": "2024-10-02T16:17:40-06:00",
+    "hash": "097a439ab17f9d9ebdec5244238969c05bdb0fb2",
+    "parents": "b3b70e3c98cb9f559775bc848f73bdc65f166953",
+    "subject": "Revert description"
+   },
+   {
     "adate": "2024-02-26T21:30:29+01:00",
     "author": "tutizaraz",
-    "date": "2024-02-26T21:30:29+01:00",
-    "hash": "8b7da2b49fa08c1dc74e337e45855fcb04ad81bb",
-    "parents": "f012b38779e8399191e25e82fe797cc9374f4288",
+    "date": "2024-10-02T16:17:40-06:00",
+    "hash": "b3b70e3c98cb9f559775bc848f73bdc65f166953",
+    "parents": "7df8f590e9f3c57a2783c5c26eeb631fe211f51b",
     "subject": "clarify first argument of OrdinaryCreateFromConstructor as function object"
    }
   ],
-  "title": "Normative: OrdinaryCreateFromConstructor has wrong parameter type",
-  "updated_at": "2024-02-26T20:38:43Z"
+  "title": "Editorial: OrdinaryCreateFromConstructor has wrong parameter type",
+  "updated_at": "2024-10-02T22:17:42Z"
  },
  {
   "base": "6d7aa1b57f4b3390000d939fdc1920046b81d938",
@@ -3156,56 +3152,64 @@
   "updated_at": "2023-02-13T17:15:08Z"
  },
  {
-  "base": "815aa8a4d68ce24bec81ba6789c37d55bc87b54a",
+  "base": "7df8f590e9f3c57a2783c5c26eeb631fe211f51b",
   "created_at": "2022-09-29T13:38:14Z",
-  "head": "0d6023d7fa7494bd0efa819efb0aaf8131a4fc92",
+  "head": "5f19284d4b8453c2557bd23df8a4a2b3e170bf68",
   "login": "jhnaldo",
   "number": 2924,
   "ref": "fix-empty-return-type",
   "revs": [
    {
+    "adate": "2024-10-02T15:06:43-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2024-10-02T15:07:01-07:00",
+    "hash": "5f19284d4b8453c2557bd23df8a4a2b3e170bf68",
+    "parents": "c420c0d29bfce614240c5ded6e4903ebf3c251cd",
+    "subject": "use new ReturnCompletion AO"
+   },
+   {
     "adate": "2024-09-01T17:57:11-07:00",
     "author": "Kevin Gibbons",
-    "date": "2024-09-01T17:57:11-07:00",
-    "hash": "0d6023d7fa7494bd0efa819efb0aaf8131a4fc92",
-    "parents": "8cff0e0bacf7ab552b20088ec53157785dd12c38",
+    "date": "2024-10-02T15:07:01-07:00",
+    "hash": "c420c0d29bfce614240c5ded6e4903ebf3c251cd",
+    "parents": "a1ddc340b91e02cd4d1cc6818312be8491024f99",
     "subject": "un-nest some logic"
    },
    {
     "adate": "2024-09-01T17:35:26-07:00",
     "author": "Kevin Gibbons",
-    "date": "2024-09-01T17:36:42-07:00",
-    "hash": "8cff0e0bacf7ab552b20088ec53157785dd12c38",
-    "parents": "e659d999df4830bd4829d9d4e9efa7bc0e67cb80",
+    "date": "2024-10-02T15:07:01-07:00",
+    "hash": "a1ddc340b91e02cd4d1cc6818312be8491024f99",
+    "parents": "405c47f3171e72ddae5158d6c6134b47f12f19da",
     "subject": "update esmeta-ignore.json"
    },
    {
     "adate": "2024-09-01T17:27:21-07:00",
     "author": "Kevin Gibbons",
-    "date": "2024-09-01T17:36:34-07:00",
-    "hash": "e659d999df4830bd4829d9d4e9efa7bc0e67cb80",
-    "parents": "76f73ce9706106a278cada5d0f04e955c401e276",
+    "date": "2024-10-02T15:07:01-07:00",
+    "hash": "405c47f3171e72ddae5158d6c6134b47f12f19da",
+    "parents": "222a5cbb58fe8fb8f50e3b3a61175a7a1d6543f0",
     "subject": "Editorial: make EvaluateBody return return/throw completion"
    },
    {
     "adate": "2022-11-30T03:00:52-07:00",
     "author": "Michael Ficarra",
-    "date": "2024-09-01T16:59:46-07:00",
-    "hash": "76f73ce9706106a278cada5d0f04e955c401e276",
-    "parents": "ba2fd751948c8fa7e0fd9d2052c046985a7805a0",
+    "date": "2024-10-02T15:07:01-07:00",
+    "hash": "222a5cbb58fe8fb8f50e3b3a61175a7a1d6543f0",
+    "parents": "17441023b648eb318206dde1888a0cd02306e779",
     "subject": "update esmeta ignores"
    },
    {
     "adate": "2022-09-29T22:33:37+09:00",
     "author": "jhnaldo",
-    "date": "2024-09-01T16:59:14-07:00",
-    "hash": "ba2fd751948c8fa7e0fd9d2052c046985a7805a0",
-    "parents": "815aa8a4d68ce24bec81ba6789c37d55bc87b54a",
+    "date": "2024-10-02T15:07:01-07:00",
+    "hash": "17441023b648eb318206dde1888a0cd02306e779",
+    "parents": "7df8f590e9f3c57a2783c5c26eeb631fe211f51b",
     "subject": "Fixed return types of algorithms returning ~empty~"
    }
   ],
   "title": "Fixed return types of algorithms returning ~empty~",
-  "updated_at": "2024-09-02T00:57:42Z"
+  "updated_at": "2024-10-02T22:07:07Z"
  },
  {
   "base": "8aac12603c99f94d982317832b0e03c13684ce0a",
