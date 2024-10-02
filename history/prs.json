@@ -1162,11 +1162,19 @@
  {
   "base": "7df8f590e9f3c57a2783c5c26eeb631fe211f51b",
   "created_at": "2024-02-26T20:37:58Z",
-  "head": "097a439ab17f9d9ebdec5244238969c05bdb0fb2",
+  "head": "84b70ba80fb4f1fe2311a3275ad44766947e14f4",
   "login": "tutizaraz",
   "number": 3287,
   "ref": "normative-update-OrdinaryCreateFromConstructor-first-arg-to-function-object",
   "revs": [
+   {
+    "adate": "2024-10-02T16:19:07-07:00",
+    "author": "Shu-yu Guo",
+    "date": "2024-10-02T16:19:07-07:00",
+    "hash": "84b70ba80fb4f1fe2311a3275ad44766947e14f4",
+    "parents": "097a439ab17f9d9ebdec5244238969c05bdb0fb2",
+    "subject": "Quell esmeta"
+   },
    {
     "adate": "2024-10-02T15:15:00-07:00",
     "author": "Shu-yu Guo",
@@ -1185,7 +1193,7 @@
    }
   ],
   "title": "Editorial: OrdinaryCreateFromConstructor has wrong parameter type",
-  "updated_at": "2024-10-02T22:17:42Z"
+  "updated_at": "2024-10-02T23:25:54Z"
  },
  {
   "base": "6d7aa1b57f4b3390000d939fdc1920046b81d938",
