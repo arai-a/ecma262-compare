@@ -1,6 +1,26 @@
 [
  {
   "base": "7df8f590e9f3c57a2783c5c26eeb631fe211f51b",
+  "created_at": "2024-10-02T08:23:26Z",
+  "head": "1a3c0274ecc62efd61d94b4ab4100d3478a56f29",
+  "login": "kimjg1119",
+  "number": 3434,
+  "ref": "fix-empty",
+  "revs": [
+   {
+    "adate": "2024-10-02T16:41:30+09:00",
+    "author": "Jungyeom Kim",
+    "date": "2024-10-02T16:56:12+09:00",
+    "hash": "1a3c0274ecc62efd61d94b4ab4100d3478a56f29",
+    "parents": "7df8f590e9f3c57a2783c5c26eeb631fe211f51b",
+    "subject": "Fix; some functions can return empty"
+   }
+  ],
+  "title": "Normative: Fix omitted return types of functions that can return empty",
+  "updated_at": "2024-10-02T08:23:26Z"
+ },
+ {
+  "base": "7df8f590e9f3c57a2783c5c26eeb631fe211f51b",
   "created_at": "2024-09-27T22:42:09Z",
   "head": "7f53968d993601f07563bdfaffa3c6e547674e8f",
   "login": "LegionMammal978",
