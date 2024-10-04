@@ -1,5 +1,33 @@
 [
  {
+  "base": "45bbe89d4b15fe6a6e7e8f96bdfb861f7b0975bc",
+  "created_at": "2024-10-04T09:19:45Z",
+  "head": "72ea10f8074780caf57ba8f057092293215fb97f",
+  "login": "kimjg1119",
+  "number": 3437,
+  "ref": "create-builtin-object",
+  "revs": [
+   {
+    "adate": "2024-10-04T18:33:18+09:00",
+    "author": "Jun Gyeom Kim",
+    "date": "2024-10-04T18:33:18+09:00",
+    "hash": "72ea10f8074780caf57ba8f057092293215fb97f",
+    "parents": "4e2ef14f057074ae72065ddbf8c9025d132a35ef 45bbe89d4b15fe6a6e7e8f96bdfb861f7b0975bc",
+    "subject": "Merge branch 'main' into create-builtin-object"
+   },
+   {
+    "adate": "2024-10-04T18:03:04+09:00",
+    "author": "Jungyeom Kim",
+    "date": "2024-10-04T18:03:04+09:00",
+    "hash": "4e2ef14f057074ae72065ddbf8c9025d132a35ef",
+    "parents": "7df8f590e9f3c57a2783c5c26eeb631fe211f51b",
+    "subject": "Restrict to builtin object"
+   }
+  ],
+  "title": "Editorial: Narrow return type of CreateBuiltinFunction",
+  "updated_at": "2024-10-04T09:33:19Z"
+ },
+ {
   "base": "7df8f590e9f3c57a2783c5c26eeb631fe211f51b",
   "created_at": "2024-09-27T22:42:09Z",
   "head": "7f53968d993601f07563bdfaffa3c6e547674e8f",
