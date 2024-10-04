@@ -1,6 +1,34 @@
 [
  {
   "base": "45bbe89d4b15fe6a6e7e8f96bdfb861f7b0975bc",
+  "created_at": "2024-10-04T10:50:27Z",
+  "head": "cad8ec8d454cd04e03cc01945e9a2f7f059e12bb",
+  "login": "kimjg1119",
+  "number": 3438,
+  "ref": "create-iterator-from-closure",
+  "revs": [
+   {
+    "adate": "2024-10-04T19:51:01+09:00",
+    "author": "Jun Gyeom Kim",
+    "date": "2024-10-04T19:51:01+09:00",
+    "hash": "cad8ec8d454cd04e03cc01945e9a2f7f059e12bb",
+    "parents": "56f2afec0b52aa6084c91434e943cbd52fca74fb 45bbe89d4b15fe6a6e7e8f96bdfb861f7b0975bc",
+    "subject": "Merge branch 'main' into create-iterator-from-closure"
+   },
+   {
+    "adate": "2024-10-04T19:45:31+09:00",
+    "author": "Jungyeom Kim",
+    "date": "2024-10-04T19:45:31+09:00",
+    "hash": "56f2afec0b52aa6084c91434e943cbd52fca74fb",
+    "parents": "7df8f590e9f3c57a2783c5c26eeb631fe211f51b",
+    "subject": "change undefined to suspended-start"
+   }
+  ],
+  "title": "Normative: Using suspended-start instead of undefined in GeneratorState initialization",
+  "updated_at": "2024-10-04T10:51:02Z"
+ },
+ {
+  "base": "45bbe89d4b15fe6a6e7e8f96bdfb861f7b0975bc",
   "created_at": "2024-10-04T09:19:45Z",
   "head": "72ea10f8074780caf57ba8f057092293215fb97f",
   "login": "kimjg1119",
