@@ -112,26 +112,6 @@
   "updated_at": "2024-09-09T17:34:19Z"
  },
  {
-  "base": "45bbe89d4b15fe6a6e7e8f96bdfb861f7b0975bc",
-  "created_at": "2024-09-09T12:24:06Z",
-  "head": "76814cbd5d7842c2a99d28e6e8c7833f1de5bee0",
-  "login": "susisu",
-  "number": 3423,
-  "ref": "tweak-string-prototype-matchall-description",
-  "revs": [
-   {
-    "adate": "2024-10-04T15:11:56+07:00",
-    "author": "Susisu",
-    "date": "2024-10-04T15:11:56+07:00",
-    "hash": "76814cbd5d7842c2a99d28e6e8c7833f1de5bee0",
-    "parents": "45bbe89d4b15fe6a6e7e8f96bdfb861f7b0975bc",
-    "subject": "Editorial: String.prototype.matchAll iterators won't return null (#3423)"
-   }
-  ],
-  "title": "Editorial: String.prototype.matchAll iterators won't return null",
-  "updated_at": "2024-10-04T08:19:30Z"
- },
- {
   "base": "62bb5c575327996050ac9cd32124c8efde38f666",
   "created_at": "2024-09-03T16:03:00Z",
   "head": "21057df08ce4b02f14884725b50cc535792b3ace",
