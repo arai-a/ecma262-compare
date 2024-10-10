@@ -1,5 +1,37 @@
 [
  {
+  "adate": "2024-10-10T15:16:19+09:00",
+  "author": "Kevin Gibbons",
+  "date": "2024-10-10T15:16:19+09:00",
+  "hash": "6de33c0ffe340c3b71a6a02b9ea6ad08d003b039",
+  "parents": "ce4382c4dbf078e54c39964a8750b79dce71b5e8",
+  "subject": "Editorial: drop mention of stability from Array.prototype.sort introduction (#3424)"
+ },
+ {
+  "adate": "2024-10-10T15:16:18+09:00",
+  "author": "Kevin Gibbons",
+  "date": "2024-10-10T15:16:18+09:00",
+  "hash": "ce4382c4dbf078e54c39964a8750b79dce71b5e8",
+  "parents": "a07fcd1b94f65daa5bdb541b01a177f44cb1ccaa",
+  "subject": "Normative: toSorted is implementation-defined for inconsistent toString (#3424)"
+ },
+ {
+  "adate": "2024-10-10T15:16:17+09:00",
+  "author": "Kevin Gibbons",
+  "date": "2024-10-10T15:16:17+09:00",
+  "hash": "a07fcd1b94f65daa5bdb541b01a177f44cb1ccaa",
+  "parents": "ac511f477bf6dc32644f6c37e91494b8a2232bc2",
+  "subject": "Normative: toSorted methods must be stable (#3424)"
+ },
+ {
+  "adate": "2024-10-10T15:16:15+09:00",
+  "author": "Jordan Harband",
+  "date": "2024-10-10T15:16:15+09:00",
+  "hash": "ac511f477bf6dc32644f6c37e91494b8a2232bc2",
+  "parents": "76814cbd5d7842c2a99d28e6e8c7833f1de5bee0",
+  "subject": "Meta: fix IPR check"
+ },
+ {
   "adate": "2024-10-04T15:11:56+07:00",
   "author": "Susisu",
   "date": "2024-10-04T15:11:56+07:00",
