@@ -1,5 +1,25 @@
 [
  {
+  "base": "d72630f1ad8d4af5834dfb5f18e9d134a17ba5a3",
+  "created_at": "2024-10-16T18:52:54Z",
+  "head": "8a7876184f8cc6a42d54abfc753a1c23d56152d6",
+  "login": "codehag",
+  "number": 3450,
+  "ref": "remove-species-TA-SAB-AB",
+  "revs": [
+   {
+    "adate": "2024-10-16T20:50:37+02:00",
+    "author": "Yulia Startsev",
+    "date": "2024-10-16T20:50:37+02:00",
+    "hash": "8a7876184f8cc6a42d54abfc753a1c23d56152d6",
+    "parents": "6b4217b05e43d8064beceaf351760145bb7626ab",
+    "subject": "Normative: Remove Species check for TypedArrays ArrayBuffers and SharedArrayBuffers"
+   }
+  ],
+  "title": "Normative: Remove Species check for TypedArrays ArrayBuffers and SharedArrayBuffers",
+  "updated_at": "2024-10-16T18:54:52Z"
+ },
+ {
   "base": "76814cbd5d7842c2a99d28e6e8c7833f1de5bee0",
   "created_at": "2024-10-09T17:00:29Z",
   "head": "fade9249ee12f657ebe95d4d214daa4e21ec92f9",
@@ -858,34 +878,6 @@
   ],
   "title": "Markup: minor fixes/improvements for PDF gen",
   "updated_at": "2024-06-13T20:06:25Z"
- },
- {
-  "base": "6b4217b05e43d8064beceaf351760145bb7626ab",
-  "created_at": "2024-05-14T22:13:37Z",
-  "head": "d72630f1ad8d4af5834dfb5f18e9d134a17ba5a3",
-  "login": "ljharb",
-  "number": 3327,
-  "ref": "promise.try",
-  "revs": [
-   {
-    "adate": "2024-10-15T17:31:15-07:00",
-    "author": "Jordan Harband",
-    "date": "2024-10-15T17:31:15-07:00",
-    "hash": "d72630f1ad8d4af5834dfb5f18e9d134a17ba5a3",
-    "parents": "1c4ba244e28e7424d83f5f107a6ee6cde1f1cd13",
-    "subject": "Normative: add `Promise.try` (#3327)"
-   },
-   {
-    "adate": "2024-10-15T17:31:11-07:00",
-    "author": "Jordan Harband",
-    "date": "2024-10-15T17:31:11-07:00",
-    "hash": "1c4ba244e28e7424d83f5f107a6ee6cde1f1cd13",
-    "parents": "6b4217b05e43d8064beceaf351760145bb7626ab",
-    "subject": "Meta: update actions; install sbt; pin to ubuntu 22"
-   }
-  ],
-  "title": "Normative: add `Promise.try` (#3327)",
-  "updated_at": "2024-10-16T00:31:24Z"
  },
  {
   "base": "a92f3e906943ee1abdbf924a27c966524474f0c4",
