@@ -862,22 +862,30 @@
  {
   "base": "6b4217b05e43d8064beceaf351760145bb7626ab",
   "created_at": "2024-05-14T22:13:37Z",
-  "head": "6ba853a862ec4a361d792a4202486fae5124c3b8",
+  "head": "d72630f1ad8d4af5834dfb5f18e9d134a17ba5a3",
   "login": "ljharb",
   "number": 3327,
   "ref": "promise.try",
   "revs": [
    {
-    "adate": "2024-10-15T14:09:51-07:00",
+    "adate": "2024-10-15T17:31:15-07:00",
     "author": "Jordan Harband",
-    "date": "2024-10-15T14:09:51-07:00",
-    "hash": "6ba853a862ec4a361d792a4202486fae5124c3b8",
-    "parents": "6b4217b05e43d8064beceaf351760145bb7626ab",
+    "date": "2024-10-15T17:31:15-07:00",
+    "hash": "d72630f1ad8d4af5834dfb5f18e9d134a17ba5a3",
+    "parents": "1c4ba244e28e7424d83f5f107a6ee6cde1f1cd13",
     "subject": "Normative: add `Promise.try` (#3327)"
+   },
+   {
+    "adate": "2024-10-15T17:31:11-07:00",
+    "author": "Jordan Harband",
+    "date": "2024-10-15T17:31:11-07:00",
+    "hash": "1c4ba244e28e7424d83f5f107a6ee6cde1f1cd13",
+    "parents": "6b4217b05e43d8064beceaf351760145bb7626ab",
+    "subject": "Meta: update actions; install sbt; pin to ubuntu 22"
    }
   ],
   "title": "Normative: add `Promise.try` (#3327)",
-  "updated_at": "2024-10-15T21:10:00Z"
+  "updated_at": "2024-10-16T00:31:24Z"
  },
  {
   "base": "a92f3e906943ee1abdbf924a27c966524474f0c4",
