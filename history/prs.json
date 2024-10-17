@@ -1,33 +1,5 @@
 [
  {
-  "base": "d72630f1ad8d4af5834dfb5f18e9d134a17ba5a3",
-  "created_at": "2024-10-16T18:52:54Z",
-  "head": "5c744fd2a2810129a83762f3b6bae9ba18177cd6",
-  "login": "codehag",
-  "number": 3450,
-  "ref": "remove-species-TA-SAB-AB",
-  "revs": [
-   {
-    "adate": "2024-10-17T11:03:00+02:00",
-    "author": "Yulia Startsev",
-    "date": "2024-10-17T11:03:00+02:00",
-    "hash": "5c744fd2a2810129a83762f3b6bae9ba18177cd6",
-    "parents": "77ad7fef14647171c7a718f0e5cc4cdd5dc32195",
-    "subject": "address review comments"
-   },
-   {
-    "adate": "2024-10-16T20:50:37+02:00",
-    "author": "Yulia Startsev",
-    "date": "2024-10-16T22:02:49+02:00",
-    "hash": "77ad7fef14647171c7a718f0e5cc4cdd5dc32195",
-    "parents": "6b4217b05e43d8064beceaf351760145bb7626ab",
-    "subject": "Normative: Remove Species check for TypedArrays ArrayBuffers and SharedArrayBuffers"
-   }
-  ],
-  "title": "Normative: Remove Species check for TypedArrays ArrayBuffers and SharedArrayBuffers",
-  "updated_at": "2024-10-17T09:03:11Z"
- },
- {
   "base": "76814cbd5d7842c2a99d28e6e8c7833f1de5bee0",
   "created_at": "2024-10-09T17:00:29Z",
   "head": "fade9249ee12f657ebe95d4d214daa4e21ec92f9",
