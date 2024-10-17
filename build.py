@@ -730,7 +730,7 @@ class RevisionRenderer:
         repo_out_index_gz_path = os.path.join(repo_out_dir, 'index.html.gz')
 
         try:
-            subprocess.run(['npm', 'run', '--silent', 'build'],
+            subprocess.run(['npm', 'run', '--silent', 'build-only'],
                            cwd=LocalRepository.DIR,
                            check=True)
         except Exception:
