@@ -2,11 +2,27 @@
  {
   "base": "2e161460ba8d084b734bb90e2379f43ceb3e8140",
   "created_at": "2024-10-18T19:24:47Z",
-  "head": "c29a7ecf6020cfbf2ebb3b24c5cebeb9741d055f",
+  "head": "89fb8be94d9620fa73f91d1a9a547d1e959291fb",
   "login": "syg",
   "number": 3453,
   "ref": "varlengthta-nonextensible",
   "revs": [
+   {
+    "adate": "2024-10-18T13:09:07-07:00",
+    "author": "Shu-yu Guo",
+    "date": "2024-10-18T13:09:07-07:00",
+    "hash": "89fb8be94d9620fa73f91d1a9a547d1e959291fb",
+    "parents": "153f59a682b94701b0ce89b7d5edd4022378a6b8",
+    "subject": "Actuall use [[PreventExtensions]]"
+   },
+   {
+    "adate": "2024-10-18T12:42:05-07:00",
+    "author": "Shu-yu Guo",
+    "date": "2024-10-18T12:42:05-07:00",
+    "hash": "153f59a682b94701b0ce89b7d5edd4022378a6b8",
+    "parents": "c29a7ecf6020cfbf2ebb3b24c5cebeb9741d055f",
+    "subject": "Factor out IsFixedLengthTypedArray AO"
+   },
    {
     "adate": "2024-10-18T12:20:25-07:00",
     "author": "Shu-yu Guo",
@@ -17,7 +33,7 @@
    }
   ],
   "title": "Normative: Return false in [[PreventExtensions]] for variable length TypedArrays",
-  "updated_at": "2024-10-18T19:39:30Z"
+  "updated_at": "2024-10-18T20:09:32Z"
  },
  {
   "base": "2e161460ba8d084b734bb90e2379f43ceb3e8140",
