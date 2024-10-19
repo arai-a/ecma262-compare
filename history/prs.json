@@ -1,6 +1,58 @@
 [
  {
   "base": "2e161460ba8d084b734bb90e2379f43ceb3e8140",
+  "created_at": "2024-10-19T19:32:43Z",
+  "head": "b130b105b821d52857c41e61951f9b7b98b52745",
+  "login": "jmdyck",
+  "number": 3454,
+  "ref": "quick_fixes_8",
+  "revs": [
+   {
+    "adate": "2024-10-19T15:22:34-04:00",
+    "author": "Michael Dyck",
+    "date": "2024-10-19T15:30:12-04:00",
+    "hash": "b130b105b821d52857c41e61951f9b7b98b52745",
+    "parents": "b8e10f33e61e0e0c27f1dc95929e9ac5e5a15f4f",
+    "subject": "Editorial: Fix two simple typos"
+   },
+   {
+    "adate": "2024-10-19T14:59:23-04:00",
+    "author": "Michael Dyck",
+    "date": "2024-10-19T15:30:12-04:00",
+    "hash": "b8e10f33e61e0e0c27f1dc95929e9ac5e5a15f4f",
+    "parents": "e464cb4c9d6af20be727fbfd56290021ae5ef4be",
+    "subject": "Editorial: Fix Promise.try preamble"
+   },
+   {
+    "adate": "2024-10-19T14:30:13-04:00",
+    "author": "Michael Dyck",
+    "date": "2024-10-19T15:30:12-04:00",
+    "hash": "e464cb4c9d6af20be727fbfd56290021ae5ef4be",
+    "parents": "88afac25808598f107214842e9c22122cbcd7d2d",
+    "subject": "Editorial: Fix CreateListFromArrayLike preamble"
+   },
+   {
+    "adate": "2024-10-19T15:18:59-04:00",
+    "author": "Michael Dyck",
+    "date": "2024-10-19T15:30:12-04:00",
+    "hash": "88afac25808598f107214842e9c22122cbcd7d2d",
+    "parents": "f36827deb27b337a1030b4797069f5ff3cea3eac",
+    "subject": "Editorial: Change \"Yield\" to \"GeneratorYield\" in two Note-steps"
+   },
+   {
+    "adate": "2024-10-19T15:13:01-04:00",
+    "author": "Michael Dyck",
+    "date": "2024-10-19T15:29:26-04:00",
+    "hash": "f36827deb27b337a1030b4797069f5ff3cea3eac",
+    "parents": "2e161460ba8d084b734bb90e2379f43ceb3e8140",
+    "subject": "Editorial: Change \"the String value\" to \"the value\" in a Note"
+   }
+  ],
+  "title": "Editorial: Miscellaneous quick fixes",
+  "updated_at": "2024-10-19T19:32:43Z"
+ },
+ {
+  "base": "2e161460ba8d084b734bb90e2379f43ceb3e8140",
   "created_at": "2024-10-18T19:24:47Z",
   "head": "374b2bcb2bbe0ba1144b61637aebf6a99434213c",
   "login": "syg",
