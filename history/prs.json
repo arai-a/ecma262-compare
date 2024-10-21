@@ -1,6 +1,54 @@
 [
  {
   "base": "961f269c227b7892c21487d82b28d3e8b86e0d4f",
+  "created_at": "2024-10-21T21:47:19Z",
+  "head": "58bf5d87ca885c0451d22ab30bf1e0024b49017d",
+  "login": "tc39",
+  "number": 3457,
+  "ref": "iterator-helpers-fix",
+  "revs": [
+   {
+    "adate": "2024-10-21T14:43:10-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2024-10-21T14:43:10-07:00",
+    "hash": "58bf5d87ca885c0451d22ab30bf1e0024b49017d",
+    "parents": "961f269c227b7892c21487d82b28d3e8b86e0d4f",
+    "subject": "Editorial: fix IteratorClose call in %IteratorHelperPrototype%.return"
+   }
+  ],
+  "title": "Editorial: fix IteratorClose call in %IteratorHelperPrototype%.return",
+  "updated_at": "2024-10-21T21:47:19Z"
+ },
+ {
+  "base": "961f269c227b7892c21487d82b28d3e8b86e0d4f",
+  "created_at": "2024-10-21T21:41:56Z",
+  "head": "713457e97ff8e5d6ddf4f0777b07808afb523d11",
+  "login": "linusg",
+  "number": 3456,
+  "ref": "iterator",
+  "revs": [
+   {
+    "adate": "2024-10-21T22:39:52+01:00",
+    "author": "Linus Groh",
+    "date": "2024-10-21T22:39:52+01:00",
+    "hash": "713457e97ff8e5d6ddf4f0777b07808afb523d11",
+    "parents": "fa55f4e1ce6ff0746393bbcd2ffce787f91ef093",
+    "subject": "Editorial: Fix typo in FinalizationRegistry global property link id"
+   },
+   {
+    "adate": "2024-10-21T22:38:27+01:00",
+    "author": "Linus Groh",
+    "date": "2024-10-21T22:38:27+01:00",
+    "hash": "fa55f4e1ce6ff0746393bbcd2ffce787f91ef093",
+    "parents": "961f269c227b7892c21487d82b28d3e8b86e0d4f",
+    "subject": "Editorial: Add Iterator to global object properties"
+   }
+  ],
+  "title": "Editorial: Add Iterator to global object properties",
+  "updated_at": "2024-10-21T21:44:24Z"
+ },
+ {
+  "base": "961f269c227b7892c21487d82b28d3e8b86e0d4f",
   "created_at": "2024-10-19T19:32:43Z",
   "head": "1fb61b0c8d82cbf2a6d06e593370533910c71b4d",
   "login": "jmdyck",
