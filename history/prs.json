@@ -1,23 +1,59 @@
 [
  {
   "base": "961f269c227b7892c21487d82b28d3e8b86e0d4f",
+  "created_at": "2024-10-22T01:14:15Z",
+  "head": "a136b631ac785790234af859d0a13600b9989a11",
+  "login": "tc39",
+  "number": 3460,
+  "ref": "prototype-prototype-prototype",
+  "revs": [
+   {
+    "adate": "2024-10-21T19:11:04-06:00",
+    "author": "Michael Ficarra",
+    "date": "2024-10-21T19:11:04-06:00",
+    "hash": "a136b631ac785790234af859d0a13600b9989a11",
+    "parents": "961f269c227b7892c21487d82b28d3e8b86e0d4f",
+    "subject": "Editorial: eliminate extra verbosity with %GeneratorPrototype% refs"
+   }
+  ],
+  "title": "Editorial: eliminate extra verbosity with %GeneratorPrototype% references",
+  "updated_at": "2024-10-22T01:14:15Z"
+ },
+ {
+  "base": "961f269c227b7892c21487d82b28d3e8b86e0d4f",
   "created_at": "2024-10-22T00:17:45Z",
-  "head": "9bcc6fe52e037acca5bcc871b03bfd9c64a58237",
+  "head": "533b0ea780701a1b1611a9bacc9ca53aec059f2c",
   "login": "tc39",
   "number": 3459,
   "ref": "GH-3455",
   "revs": [
    {
+    "adate": "2024-10-21T19:36:19-06:00",
+    "author": "Michael Ficarra",
+    "date": "2024-10-21T19:41:14-06:00",
+    "hash": "533b0ea780701a1b1611a9bacc9ca53aec059f2c",
+    "parents": "0ceef6f7eeb5c9ccebff166b83ebf6980c6040b9",
+    "subject": "stray comma"
+   },
+   {
+    "adate": "2024-10-21T19:35:37-06:00",
+    "author": "Michael Ficarra",
+    "date": "2024-10-21T19:40:38-06:00",
+    "hash": "0ceef6f7eeb5c9ccebff166b83ebf6980c6040b9",
+    "parents": "aedc649720673def77442946375609668fddb906",
+    "subject": "capital I for X Iterator objects"
+   },
+   {
     "adate": "2024-10-21T18:12:30-06:00",
     "author": "Michael Ficarra",
-    "date": "2024-10-21T18:22:38-06:00",
-    "hash": "9bcc6fe52e037acca5bcc871b03bfd9c64a58237",
+    "date": "2024-10-21T19:12:51-06:00",
+    "hash": "aedc649720673def77442946375609668fddb906",
     "parents": "961f269c227b7892c21487d82b28d3e8b86e0d4f",
     "subject": "Editorial: fix linking and change spelling of iterator interfaces"
    }
   ],
   "title": "Editorial: fix linking and change spelling of iterator interfaces",
-  "updated_at": "2024-10-22T00:22:43Z"
+  "updated_at": "2024-10-22T01:41:26Z"
  },
  {
   "base": "961f269c227b7892c21487d82b28d3e8b86e0d4f",
