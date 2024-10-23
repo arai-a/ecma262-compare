@@ -400,9 +400,9 @@
   "updated_at": "2024-09-01T23:58:23Z"
  },
  {
-  "base": "815aa8a4d68ce24bec81ba6789c37d55bc87b54a",
+  "base": "54e795f30bfaff87125aae16eaded64fff0d7f24",
   "created_at": "2024-08-27T15:25:55Z",
-  "head": "753e63938b9dce2ead8c27ee993c6e6939b5ad33",
+  "head": "fceabf7f2e9fa1778159f04be728197d1e0be481",
   "login": "anba",
   "number": 3407,
   "ref": "ordinary-home-object",
@@ -410,42 +410,14 @@
    {
     "adate": "2024-08-27T17:18:07+02:00",
     "author": "Andr\u00e9 Bargull",
-    "date": "2024-08-27T17:29:52+02:00",
-    "hash": "753e63938b9dce2ead8c27ee993c6e6939b5ad33",
-    "parents": "6c621d2efb89ac03a0e4a1fbc8f721b206a5027e",
+    "date": "2024-10-23T16:07:08-07:00",
+    "hash": "fceabf7f2e9fa1778159f04be728197d1e0be481",
+    "parents": "54e795f30bfaff87125aae16eaded64fff0d7f24",
     "subject": "Editorial: [[HomeObject]] is always an ordinary object"
    }
   ],
   "title": "Editorial: [[HomeObject]] is always an ordinary object",
-  "updated_at": "2024-08-27T15:29:58Z"
- },
- {
-  "base": "6c621d2efb89ac03a0e4a1fbc8f721b206a5027e",
-  "created_at": "2024-08-26T05:41:38Z",
-  "head": "0561c0d16350d2d7169bdde35254bfc4d10125c2",
-  "login": "anba",
-  "number": 3404,
-  "ref": "frozen-nan",
-  "revs": [
-   {
-    "adate": "2024-10-23T15:06:56-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2024-10-23T15:06:56-07:00",
-    "hash": "0561c0d16350d2d7169bdde35254bfc4d10125c2",
-    "parents": "0676b40cbaeb4e82b138d2b1526474ca2d28f525",
-    "subject": "add note"
-   },
-   {
-    "adate": "2024-08-26T07:32:18+02:00",
-    "author": "Andr\u00e9 Bargull",
-    "date": "2024-08-26T07:32:18+02:00",
-    "hash": "0676b40cbaeb4e82b138d2b1526474ca2d28f525",
-    "parents": "6c621d2efb89ac03a0e4a1fbc8f721b206a5027e",
-    "subject": "Editorial: Don't allow writing NaN to frozen properties"
-   }
-  ],
-  "title": "Editorial: Don't allow writing NaN to frozen properties",
-  "updated_at": "2024-10-23T22:07:05Z"
+  "updated_at": "2024-10-23T23:07:19Z"
  },
  {
   "base": "6c621d2efb89ac03a0e4a1fbc8f721b206a5027e",
@@ -804,32 +776,24 @@
   "updated_at": "2024-07-25T05:21:52Z"
  },
  {
-  "base": "f2b2d524a56c915826e90d7a3f9daa51a49011c3",
+  "base": "961f269c227b7892c21487d82b28d3e8b86e0d4f",
   "created_at": "2024-07-24T08:24:32Z",
-  "head": "1c9228b6e4756b5b3e9ecd22383a6bf438a112c6",
+  "head": "efc849bf0e584e1ff69ae9b7b06190d1eb2a3db8",
   "login": "tmdghks",
   "number": 3377,
   "ref": "fix-tolength-return-type",
   "revs": [
    {
-    "adate": "2024-07-24T23:17:31+09:00",
+    "adate": "2024-10-23T15:48:47-07:00",
     "author": "tmdghks",
-    "date": "2024-07-24T23:17:31+09:00",
-    "hash": "1c9228b6e4756b5b3e9ecd22383a6bf438a112c6",
-    "parents": "e0849c644c2f4f278182ecc87cf7142a8c101be9",
-    "subject": "Editorial: Using non-negative intetral Number insted of integral Number in ToLength"
-   },
-   {
-    "adate": "2024-07-24T17:18:07+09:00",
-    "author": "tmdghks",
-    "date": "2024-07-24T17:32:29+09:00",
-    "hash": "e0849c644c2f4f278182ecc87cf7142a8c101be9",
-    "parents": "f2b2d524a56c915826e90d7a3f9daa51a49011c3",
-    "subject": "Editorial: Using non-negative integer instead of integer in ToLength"
+    "date": "2024-10-23T15:48:47-07:00",
+    "hash": "efc849bf0e584e1ff69ae9b7b06190d1eb2a3db8",
+    "parents": "be9427b200ca8ea84d0eaeeb16c5d7526f736671",
+    "subject": "Editorial: Using non-negative intetral Number insted of integral Number in ToLength (#3377)"
    }
   ],
-  "title": "Editorial: Using non-negative integer instead of integer in ToLength",
-  "updated_at": "2024-07-24T14:23:14Z"
+  "title": "Editorial: Using non-negative integral Number instead of integral Number in ToLength",
+  "updated_at": "2024-10-23T22:48:56Z"
  },
  {
   "base": "7a23e0e83597e4c8cfbbc1856a77cf8fc102e846",
