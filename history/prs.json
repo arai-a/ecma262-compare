@@ -22,11 +22,19 @@
  {
   "base": "961f269c227b7892c21487d82b28d3e8b86e0d4f",
   "created_at": "2024-10-22T00:17:45Z",
-  "head": "533b0ea780701a1b1611a9bacc9ca53aec059f2c",
+  "head": "17ee72e9714a7bad72acea5da7cac94355938f51",
   "login": "tc39",
   "number": 3459,
   "ref": "GH-3455",
   "revs": [
+   {
+    "adate": "2024-10-22T18:22:12-06:00",
+    "author": "Michael Ficarra",
+    "date": "2024-10-22T18:22:12-06:00",
+    "hash": "17ee72e9714a7bad72acea5da7cac94355938f51",
+    "parents": "533b0ea780701a1b1611a9bacc9ca53aec059f2c",
+    "subject": "remaining \"Iterator Objects\""
+   },
    {
     "adate": "2024-10-21T19:36:19-06:00",
     "author": "Michael Ficarra",
@@ -53,7 +61,7 @@
    }
   ],
   "title": "Editorial: fix linking and change spelling of iterator interfaces",
-  "updated_at": "2024-10-22T01:41:26Z"
+  "updated_at": "2024-10-23T00:27:28Z"
  },
  {
   "base": "961f269c227b7892c21487d82b28d3e8b86e0d4f",
