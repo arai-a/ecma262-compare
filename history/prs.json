@@ -1,6 +1,26 @@
 [
  {
   "base": "961f269c227b7892c21487d82b28d3e8b86e0d4f",
+  "created_at": "2024-10-23T02:59:24Z",
+  "head": "6689cef9c9a5d89a6024521fd457d0a37f9d7d68",
+  "login": "zhangenming",
+  "number": 3461,
+  "ref": "patch-2",
+  "revs": [
+   {
+    "adate": "2024-10-23T10:57:46+08:00",
+    "author": "zhangenming",
+    "date": "2024-10-23T10:57:46+08:00",
+    "hash": "6689cef9c9a5d89a6024521fd457d0a37f9d7d68",
+    "parents": "961f269c227b7892c21487d82b28d3e8b86e0d4f",
+    "subject": "."
+   }
+  ],
+  "title": "Editorial: change name for consistency.",
+  "updated_at": "2024-10-23T02:59:24Z"
+ },
+ {
+  "base": "961f269c227b7892c21487d82b28d3e8b86e0d4f",
   "created_at": "2024-10-22T01:14:15Z",
   "head": "a136b631ac785790234af859d0a13600b9989a11",
   "login": "tc39",
