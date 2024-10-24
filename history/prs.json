@@ -304,32 +304,24 @@
   "updated_at": "2024-10-09T17:01:13Z"
  },
  {
-  "base": "45bbe89d4b15fe6a6e7e8f96bdfb861f7b0975bc",
+  "base": "fceabf7f2e9fa1778159f04be728197d1e0be481",
   "created_at": "2024-10-04T10:50:27Z",
-  "head": "cad8ec8d454cd04e03cc01945e9a2f7f059e12bb",
+  "head": "4a0ad6ba2432e4fd28f5d512f8599261958b0ee9",
   "login": "kimjg1119",
   "number": 3438,
   "ref": "create-iterator-from-closure",
   "revs": [
    {
-    "adate": "2024-10-04T19:51:01+09:00",
-    "author": "Jun Gyeom Kim",
-    "date": "2024-10-04T19:51:01+09:00",
-    "hash": "cad8ec8d454cd04e03cc01945e9a2f7f059e12bb",
-    "parents": "56f2afec0b52aa6084c91434e943cbd52fca74fb 45bbe89d4b15fe6a6e7e8f96bdfb861f7b0975bc",
-    "subject": "Merge branch 'main' into create-iterator-from-closure"
-   },
-   {
-    "adate": "2024-10-04T19:45:31+09:00",
+    "adate": "2024-10-24T18:01:46-05:00",
     "author": "Jungyeom Kim",
-    "date": "2024-10-04T19:45:31+09:00",
-    "hash": "56f2afec0b52aa6084c91434e943cbd52fca74fb",
-    "parents": "7df8f590e9f3c57a2783c5c26eeb631fe211f51b",
-    "subject": "change undefined to suspended-start"
+    "date": "2024-10-24T18:01:46-05:00",
+    "hash": "4a0ad6ba2432e4fd28f5d512f8599261958b0ee9",
+    "parents": "fceabf7f2e9fa1778159f04be728197d1e0be481",
+    "subject": "Editorial: Use suspended-start instead of `undefined` in GeneratorState initialization (#3438)"
    }
   ],
-  "title": "Normative: Using suspended-start instead of undefined in GeneratorState initialization",
-  "updated_at": "2024-10-04T10:51:02Z"
+  "title": "Editorial: use suspended-start instead of `undefined` in GeneratorState initialization",
+  "updated_at": "2024-10-24T23:02:24Z"
  },
  {
   "base": "7df8f590e9f3c57a2783c5c26eeb631fe211f51b",
@@ -398,26 +390,6 @@
   ],
   "title": "Editorial: simplify AsyncGeneratorDrainQueue",
   "updated_at": "2024-09-01T23:58:23Z"
- },
- {
-  "base": "54e795f30bfaff87125aae16eaded64fff0d7f24",
-  "created_at": "2024-08-27T15:25:55Z",
-  "head": "fceabf7f2e9fa1778159f04be728197d1e0be481",
-  "login": "anba",
-  "number": 3407,
-  "ref": "ordinary-home-object",
-  "revs": [
-   {
-    "adate": "2024-08-27T17:18:07+02:00",
-    "author": "Andr\u00e9 Bargull",
-    "date": "2024-10-23T16:07:08-07:00",
-    "hash": "fceabf7f2e9fa1778159f04be728197d1e0be481",
-    "parents": "54e795f30bfaff87125aae16eaded64fff0d7f24",
-    "subject": "Editorial: [[HomeObject]] is always an ordinary object"
-   }
-  ],
-  "title": "Editorial: [[HomeObject]] is always an ordinary object",
-  "updated_at": "2024-10-23T23:07:19Z"
  },
  {
   "base": "6c621d2efb89ac03a0e4a1fbc8f721b206a5027e",
