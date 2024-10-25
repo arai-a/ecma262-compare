@@ -710,11 +710,19 @@
  {
   "base": "574f475db76c95d2a19643e32757f9acdf6c1a6c",
   "created_at": "2024-07-24T08:24:32Z",
-  "head": "de897f56731ac01e8a159c8c0841811a6795adc7",
+  "head": "9277af8f8c7cd4725fdd474733c961db3444cb99",
   "login": "tmdghks",
   "number": 3377,
   "ref": "fix-tolength-return-type",
   "revs": [
+   {
+    "adate": "2024-10-25T13:54:00-06:00",
+    "author": "Michael Ficarra",
+    "date": "2024-10-25T13:54:00-06:00",
+    "hash": "9277af8f8c7cd4725fdd474733c961db3444cb99",
+    "parents": "de897f56731ac01e8a159c8c0841811a6795adc7",
+    "subject": "remove LengthOfArrayLike from esmeta-ignore.json"
+   },
    {
     "adate": "2024-10-24T20:31:18-05:00",
     "author": "tmdghks",
@@ -725,7 +733,7 @@
    }
   ],
   "title": "Editorial: Using non-negative integral Number instead of integral Number in ToLength",
-  "updated_at": "2024-10-25T02:35:58Z"
+  "updated_at": "2024-10-25T19:54:01Z"
  },
  {
   "base": "7a23e0e83597e4c8cfbbc1856a77cf8fc102e846",
@@ -4156,88 +4164,72 @@
   "updated_at": "2024-08-10T14:52:40Z"
  },
  {
-  "base": "f439eccd5adaac04e5f29bb926aefd7899855b3e",
+  "base": "574f475db76c95d2a19643e32757f9acdf6c1a6c",
   "created_at": "2020-12-08T06:31:39Z",
-  "head": "9e0477e83404a34c9b0eb4fe944e437d16d4b26f",
+  "head": "a83b58693a6926b7d387cb9e7b4e15f16fa85174",
   "login": "jmdyck",
   "number": 2246,
   "ref": "ExecutionContext_Record",
   "revs": [
    {
-    "adate": "2024-05-23T10:18:21-04:00",
-    "author": "Michael Dyck",
-    "date": "2024-08-14T09:33:04-04:00",
-    "hash": "9e0477e83404a34c9b0eb4fe944e437d16d4b26f",
-    "parents": "fbb8076bc1bfb56a9691e3ea042431f15d58af97",
-    "subject": "fixup: delete 2 lines from esmeta-ignore.json"
-   },
-   {
-    "adate": "2022-11-16T17:52:33-05:00",
-    "author": "Michael Dyck",
-    "date": "2024-08-14T09:33:04-04:00",
-    "hash": "fbb8076bc1bfb56a9691e3ea042431f15d58af97",
-    "parents": "b8809cae771b6ebea5ac7c225d8bf855cca5656d",
-    "subject": "fixup: try adding PrepareForOrdinaryCall to esmeta-ignore instead of ECMAScriptFunctionObject.Construct"
-   },
-   {
     "adate": "2022-08-31T23:46:33-04:00",
     "author": "Michael Dyck",
-    "date": "2024-08-14T09:33:04-04:00",
-    "hash": "b8809cae771b6ebea5ac7c225d8bf855cca5656d",
-    "parents": "5fd300ec92b0c5cad76c6947b67d9ec310a87f7e",
+    "date": "2024-10-25T14:40:49-04:00",
+    "hash": "a83b58693a6926b7d387cb9e7b4e15f16fa85174",
+    "parents": "9503d4c8846a299484455854b3f9cb5f31ca0810",
     "subject": "fixup: \"execution context\" -> \"ExecutionContext Record\" in some prose"
    },
    {
     "adate": "2022-08-31T23:31:55-04:00",
     "author": "Michael Dyck",
-    "date": "2024-08-14T09:33:02-04:00",
-    "hash": "5fd300ec92b0c5cad76c6947b67d9ec310a87f7e",
-    "parents": "58dc8cfafc6f98d4005e1dca851087bcef37fa7a",
+    "date": "2024-10-25T14:40:49-04:00",
+    "hash": "9503d4c8846a299484455854b3f9cb5f31ca0810",
+    "parents": "6ab36c9b69a5a5c600ce0a0490ba9c503a544d3b",
     "subject": "fixup: \"execution context\" -> \"ExecutionContext Record\" in some alg steps"
    },
    {
     "adate": "2022-08-31T23:13:29-04:00",
     "author": "Michael Dyck",
-    "date": "2024-08-14T09:26:17-04:00",
-    "hash": "58dc8cfafc6f98d4005e1dca851087bcef37fa7a",
-    "parents": "4364482be91cb05ff053180c89d09dee57841c3b",
+    "date": "2024-10-25T14:40:49-04:00",
+    "hash": "6ab36c9b69a5a5c600ce0a0490ba9c503a544d3b",
+    "parents": "08c3d6f6fc5c051c69d6ece6672d1708a7894bc4",
     "subject": "fixup: Avoid saying \"that execution context\" by naming it"
    },
    {
     "adate": "2022-08-31T20:30:10-04:00",
     "author": "Michael Dyck",
-    "date": "2024-08-14T09:26:17-04:00",
-    "hash": "4364482be91cb05ff053180c89d09dee57841c3b",
-    "parents": "8d89644631560683f08c2e6c62c3d92ec3262f49",
+    "date": "2024-10-25T14:40:49-04:00",
+    "hash": "08c3d6f6fc5c051c69d6ece6672d1708a7894bc4",
+    "parents": "8abc0bdfff778f458b20503bc90737ac3f9fb463",
     "subject": "fixup: \"execution context\" -> \"ExecutionContext Record\" in record-field tables"
    },
    {
     "adate": "2022-08-31T20:24:28-04:00",
     "author": "Michael Dyck",
-    "date": "2024-08-14T09:26:17-04:00",
-    "hash": "8d89644631560683f08c2e6c62c3d92ec3262f49",
-    "parents": "5eff2a825c0c095f93e332042a542218ba41810f",
+    "date": "2024-10-25T14:40:49-04:00",
+    "hash": "8abc0bdfff778f458b20503bc90737ac3f9fb463",
+    "parents": "56017d77264233f44c910ca50726066a99a598b7",
     "subject": "fixup: \"execution context\" -> \"ExecutionContext Record\" in AO headers"
    },
    {
     "adate": "2022-08-31T23:32:48-04:00",
     "author": "Michael Dyck",
-    "date": "2024-08-14T09:26:16-04:00",
-    "hash": "5eff2a825c0c095f93e332042a542218ba41810f",
-    "parents": "2def2ee3ab0aa89066472e64ceadb88335bce2b6",
+    "date": "2024-10-25T14:40:49-04:00",
+    "hash": "56017d77264233f44c910ca50726066a99a598b7",
+    "parents": "db6cbc43bff1bfabb044e9a5ef6e7efe77a9098f",
     "subject": "fixup: \"execution context\" -> \"ExecutionContext Record\" in the <dfn> of ECMAScript code execution contexts"
    },
    {
     "adate": "2020-12-08T01:22:55-05:00",
     "author": "Michael Dyck",
-    "date": "2024-08-14T09:26:16-04:00",
-    "hash": "2def2ee3ab0aa89066472e64ceadb88335bce2b6",
-    "parents": "f439eccd5adaac04e5f29bb926aefd7899855b3e",
+    "date": "2024-10-25T14:40:49-04:00",
+    "hash": "db6cbc43bff1bfabb044e9a5ef6e7efe77a9098f",
+    "parents": "574f475db76c95d2a19643e32757f9acdf6c1a6c",
     "subject": "Editorial: Model execution context as a record"
    }
   ],
   "title": "Editorial: Model execution context as a record",
-  "updated_at": "2024-08-14T15:02:17Z"
+  "updated_at": "2024-10-25T20:14:22Z"
  },
  {
   "base": "b3f9b5089bcc3ddd8486379015cd11eb1427a5eb",
