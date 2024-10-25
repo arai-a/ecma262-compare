@@ -104,24 +104,24 @@
   "updated_at": "2024-10-21T21:47:19Z"
  },
  {
-  "base": "961f269c227b7892c21487d82b28d3e8b86e0d4f",
+  "base": "4a0ad6ba2432e4fd28f5d512f8599261958b0ee9",
   "created_at": "2024-10-21T21:41:56Z",
-  "head": "dabe0e06b48f3357029cd8493b46adc67647ccb9",
+  "head": "574f475db76c95d2a19643e32757f9acdf6c1a6c",
   "login": "linusg",
   "number": 3456,
   "ref": "iterator",
   "revs": [
    {
-    "adate": "2024-10-21T22:38:27+01:00",
+    "adate": "2024-10-24T18:36:44-05:00",
     "author": "Linus Groh",
-    "date": "2024-10-22T23:07:20+01:00",
-    "hash": "dabe0e06b48f3357029cd8493b46adc67647ccb9",
-    "parents": "961f269c227b7892c21487d82b28d3e8b86e0d4f",
-    "subject": "Editorial: Add Iterator to global object properties"
+    "date": "2024-10-24T18:36:44-05:00",
+    "hash": "574f475db76c95d2a19643e32757f9acdf6c1a6c",
+    "parents": "4a0ad6ba2432e4fd28f5d512f8599261958b0ee9",
+    "subject": "Editorial: Add `Iterator` to global object properties (#3456)"
    }
   ],
-  "title": "Editorial: Add Iterator to global object properties",
-  "updated_at": "2024-10-22T22:07:42Z"
+  "title": "Editorial: Add `Iterator` to global object properties",
+  "updated_at": "2024-10-24T23:37:02Z"
  },
  {
   "base": "961f269c227b7892c21487d82b28d3e8b86e0d4f",
@@ -302,26 +302,6 @@
   ],
   "title": "Editorial: GlobalObject cannot be undefined in the GetGlobalObject ",
   "updated_at": "2024-10-09T17:01:13Z"
- },
- {
-  "base": "fceabf7f2e9fa1778159f04be728197d1e0be481",
-  "created_at": "2024-10-04T10:50:27Z",
-  "head": "4a0ad6ba2432e4fd28f5d512f8599261958b0ee9",
-  "login": "kimjg1119",
-  "number": 3438,
-  "ref": "create-iterator-from-closure",
-  "revs": [
-   {
-    "adate": "2024-10-24T18:01:46-05:00",
-    "author": "Jungyeom Kim",
-    "date": "2024-10-24T18:01:46-05:00",
-    "hash": "4a0ad6ba2432e4fd28f5d512f8599261958b0ee9",
-    "parents": "fceabf7f2e9fa1778159f04be728197d1e0be481",
-    "subject": "Editorial: Use suspended-start instead of `undefined` in GeneratorState initialization (#3438)"
-   }
-  ],
-  "title": "Editorial: use suspended-start instead of `undefined` in GeneratorState initialization",
-  "updated_at": "2024-10-24T23:02:24Z"
  },
  {
   "base": "7df8f590e9f3c57a2783c5c26eeb631fe211f51b",
