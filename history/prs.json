@@ -1,5 +1,41 @@
 [
  {
+  "base": "cbd470fdeab70aa7157360d7257c197a6d923155",
+  "created_at": "2024-10-29T09:32:24Z",
+  "head": "e547c587663d542c4007d688d769cdd4b6b7d16b",
+  "login": "anba",
+  "number": 3464,
+  "ref": "time-value",
+  "revs": [
+   {
+    "adate": "2024-10-29T08:48:24+01:00",
+    "author": "Andr\u00e9 Bargull",
+    "date": "2024-10-29T10:28:11+01:00",
+    "hash": "e547c587663d542c4007d688d769cdd4b6b7d16b",
+    "parents": "13be0f41410f71f3898b8e8c02f35b349ca1e8cb",
+    "subject": "Editorial: Restrict GetNamedTimeZoneOffsetNanoseconds return values less than 24 hours"
+   },
+   {
+    "adate": "2024-10-29T08:37:34+01:00",
+    "author": "Andr\u00e9 Bargull",
+    "date": "2024-10-29T10:28:11+01:00",
+    "hash": "13be0f41410f71f3898b8e8c02f35b349ca1e8cb",
+    "parents": "ed3cab3b5fad06f61230baced2e0b78c5ad5eacc",
+    "subject": "Editorial: Handle too large inputs early in UTC"
+   },
+   {
+    "adate": "2024-10-29T08:30:37+01:00",
+    "author": "Andr\u00e9 Bargull",
+    "date": "2024-10-29T10:27:23+01:00",
+    "hash": "ed3cab3b5fad06f61230baced2e0b78c5ad5eacc",
+    "parents": "cbd470fdeab70aa7157360d7257c197a6d923155",
+    "subject": "Editorial: Split \"time value\" into \"epoch time value\" and \"local time value\""
+   }
+  ],
+  "title": "Editorial: Split \"time value\" into \"epoch time value\" and \"local time value\"",
+  "updated_at": "2024-10-29T09:32:41Z"
+ },
+ {
   "base": "961f269c227b7892c21487d82b28d3e8b86e0d4f",
   "created_at": "2024-10-22T01:14:15Z",
   "head": "a136b631ac785790234af859d0a13600b9989a11",
