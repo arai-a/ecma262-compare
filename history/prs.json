@@ -20,9 +20,9 @@
   "updated_at": "2024-10-22T01:14:15Z"
  },
  {
-  "base": "961f269c227b7892c21487d82b28d3e8b86e0d4f",
+  "base": "cbd470fdeab70aa7157360d7257c197a6d923155",
   "created_at": "2024-10-22T00:17:45Z",
-  "head": "17ee72e9714a7bad72acea5da7cac94355938f51",
+  "head": "e301f73033a98177ea399ef687ea551a32ac5ab1",
   "login": "tc39",
   "number": 3459,
   "ref": "GH-3455",
@@ -30,38 +30,38 @@
    {
     "adate": "2024-10-22T18:22:12-06:00",
     "author": "Michael Ficarra",
-    "date": "2024-10-22T18:22:12-06:00",
-    "hash": "17ee72e9714a7bad72acea5da7cac94355938f51",
-    "parents": "533b0ea780701a1b1611a9bacc9ca53aec059f2c",
+    "date": "2024-10-28T22:57:18-06:00",
+    "hash": "e301f73033a98177ea399ef687ea551a32ac5ab1",
+    "parents": "7d60cec82d7f9634bb2b4bb9f5c5b884fb8bdb3e",
     "subject": "remaining \"Iterator Objects\""
    },
    {
     "adate": "2024-10-21T19:36:19-06:00",
     "author": "Michael Ficarra",
-    "date": "2024-10-21T19:41:14-06:00",
-    "hash": "533b0ea780701a1b1611a9bacc9ca53aec059f2c",
-    "parents": "0ceef6f7eeb5c9ccebff166b83ebf6980c6040b9",
+    "date": "2024-10-28T22:57:18-06:00",
+    "hash": "7d60cec82d7f9634bb2b4bb9f5c5b884fb8bdb3e",
+    "parents": "944854aaa76a9d036e6ddbcf571c1bbeed64f00e",
     "subject": "stray comma"
    },
    {
     "adate": "2024-10-21T19:35:37-06:00",
     "author": "Michael Ficarra",
-    "date": "2024-10-21T19:40:38-06:00",
-    "hash": "0ceef6f7eeb5c9ccebff166b83ebf6980c6040b9",
-    "parents": "aedc649720673def77442946375609668fddb906",
+    "date": "2024-10-28T22:57:18-06:00",
+    "hash": "944854aaa76a9d036e6ddbcf571c1bbeed64f00e",
+    "parents": "1b0d7a7958cf5bb75af61e4ba5c698eae84f2c26",
     "subject": "capital I for X Iterator objects"
    },
    {
     "adate": "2024-10-21T18:12:30-06:00",
     "author": "Michael Ficarra",
-    "date": "2024-10-21T19:12:51-06:00",
-    "hash": "aedc649720673def77442946375609668fddb906",
-    "parents": "961f269c227b7892c21487d82b28d3e8b86e0d4f",
+    "date": "2024-10-28T22:57:18-06:00",
+    "hash": "1b0d7a7958cf5bb75af61e4ba5c698eae84f2c26",
+    "parents": "cbd470fdeab70aa7157360d7257c197a6d923155",
     "subject": "Editorial: fix linking and change spelling of iterator interfaces"
    }
   ],
   "title": "Editorial: fix linking and change spelling of iterator interfaces",
-  "updated_at": "2024-10-23T00:27:28Z"
+  "updated_at": "2024-10-29T04:57:20Z"
  },
  {
   "base": "961f269c227b7892c21487d82b28d3e8b86e0d4f",
@@ -706,34 +706,6 @@
   ],
   "title": "Editorial: Add assertion that generatorKind is not non-generator",
   "updated_at": "2024-07-25T05:21:52Z"
- },
- {
-  "base": "574f475db76c95d2a19643e32757f9acdf6c1a6c",
-  "created_at": "2024-07-24T08:24:32Z",
-  "head": "9277af8f8c7cd4725fdd474733c961db3444cb99",
-  "login": "tmdghks",
-  "number": 3377,
-  "ref": "fix-tolength-return-type",
-  "revs": [
-   {
-    "adate": "2024-10-25T13:54:00-06:00",
-    "author": "Michael Ficarra",
-    "date": "2024-10-25T13:54:00-06:00",
-    "hash": "9277af8f8c7cd4725fdd474733c961db3444cb99",
-    "parents": "de897f56731ac01e8a159c8c0841811a6795adc7",
-    "subject": "remove LengthOfArrayLike from esmeta-ignore.json"
-   },
-   {
-    "adate": "2024-10-24T20:31:18-05:00",
-    "author": "tmdghks",
-    "date": "2024-10-24T20:31:18-05:00",
-    "hash": "de897f56731ac01e8a159c8c0841811a6795adc7",
-    "parents": "574f475db76c95d2a19643e32757f9acdf6c1a6c",
-    "subject": "Editorial: Using non-negative intetral Number insted of integral Number in ToLength (#3377)"
-   }
-  ],
-  "title": "Editorial: Using non-negative integral Number instead of integral Number in ToLength",
-  "updated_at": "2024-10-25T19:54:01Z"
  },
  {
   "base": "7a23e0e83597e4c8cfbbc1856a77cf8fc102e846",
