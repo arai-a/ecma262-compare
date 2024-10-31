@@ -1,79 +1,63 @@
 [
  {
-  "base": "cbd470fdeab70aa7157360d7257c197a6d923155",
+  "base": "4c44bbed7c5a7df90705a58aaa08d2a6c5b9b596",
   "created_at": "2024-10-29T09:32:24Z",
-  "head": "e547c587663d542c4007d688d769cdd4b6b7d16b",
+  "head": "03ddef504268287d2b8e1316e6ba5766e6634457",
   "login": "anba",
   "number": 3464,
   "ref": "time-value",
   "revs": [
    {
+    "adate": "2024-10-31T09:31:42+01:00",
+    "author": "Andr\u00e9 Bargull",
+    "date": "2024-10-31T09:58:09+01:00",
+    "hash": "03ddef504268287d2b8e1316e6ba5766e6634457",
+    "parents": "6d7452a49b5f11558e5a256453a3203135703d93",
+    "subject": "Fixup: Review suggestion from gibson042"
+   },
+   {
+    "adate": "2024-10-31T09:03:26+01:00",
+    "author": "Andr\u00e9 Bargull",
+    "date": "2024-10-31T09:58:09+01:00",
+    "hash": "6d7452a49b5f11558e5a256453a3203135703d93",
+    "parents": "e4aec515b51dfc847f78a8ddae868a060c1c1875",
+    "subject": "Editorial: Narrow output type for TimeClip"
+   },
+   {
+    "adate": "2024-10-31T08:55:21+01:00",
+    "author": "Andr\u00e9 Bargull",
+    "date": "2024-10-31T09:58:09+01:00",
+    "hash": "e4aec515b51dfc847f78a8ddae868a060c1c1875",
+    "parents": "917cf0cec374c059f6f06014deafddbdb11da0ba",
+    "subject": "Editorial: Narrow input and output types for MakeDay, MakeTime, and MakeDate"
+   },
+   {
     "adate": "2024-10-29T08:48:24+01:00",
     "author": "Andr\u00e9 Bargull",
-    "date": "2024-10-29T10:28:11+01:00",
-    "hash": "e547c587663d542c4007d688d769cdd4b6b7d16b",
-    "parents": "13be0f41410f71f3898b8e8c02f35b349ca1e8cb",
+    "date": "2024-10-31T09:58:09+01:00",
+    "hash": "917cf0cec374c059f6f06014deafddbdb11da0ba",
+    "parents": "e8051bb9815cf3bdb4f2a36730a91da2cdf8844b",
     "subject": "Editorial: Restrict GetNamedTimeZoneOffsetNanoseconds return values less than 24 hours"
    },
    {
     "adate": "2024-10-29T08:37:34+01:00",
     "author": "Andr\u00e9 Bargull",
-    "date": "2024-10-29T10:28:11+01:00",
-    "hash": "13be0f41410f71f3898b8e8c02f35b349ca1e8cb",
-    "parents": "ed3cab3b5fad06f61230baced2e0b78c5ad5eacc",
+    "date": "2024-10-31T09:58:09+01:00",
+    "hash": "e8051bb9815cf3bdb4f2a36730a91da2cdf8844b",
+    "parents": "b5b1f0aba53627c2be6e6b4899fc12f4e4d7e911",
     "subject": "Editorial: Handle too large inputs early in UTC"
    },
    {
     "adate": "2024-10-29T08:30:37+01:00",
     "author": "Andr\u00e9 Bargull",
-    "date": "2024-10-29T10:27:23+01:00",
-    "hash": "ed3cab3b5fad06f61230baced2e0b78c5ad5eacc",
+    "date": "2024-10-31T09:55:42+01:00",
+    "hash": "b5b1f0aba53627c2be6e6b4899fc12f4e4d7e911",
     "parents": "cbd470fdeab70aa7157360d7257c197a6d923155",
-    "subject": "Editorial: Split \"time value\" into \"epoch time value\" and \"local time value\""
+    "subject": "Editorial: Add \"local-offset time value\" for time values with local time zone offset applied"
    }
   ],
-  "title": "Editorial: Split \"time value\" into \"epoch time value\" and \"local time value\"",
-  "updated_at": "2024-10-29T09:32:41Z"
- },
- {
-  "base": "961f269c227b7892c21487d82b28d3e8b86e0d4f",
-  "created_at": "2024-10-22T01:14:15Z",
-  "head": "a136b631ac785790234af859d0a13600b9989a11",
-  "login": "tc39",
-  "number": 3460,
-  "ref": "prototype-prototype-prototype",
-  "revs": [
-   {
-    "adate": "2024-10-21T19:11:04-06:00",
-    "author": "Michael Ficarra",
-    "date": "2024-10-21T19:11:04-06:00",
-    "hash": "a136b631ac785790234af859d0a13600b9989a11",
-    "parents": "961f269c227b7892c21487d82b28d3e8b86e0d4f",
-    "subject": "Editorial: eliminate extra verbosity with %GeneratorPrototype% refs"
-   }
-  ],
-  "title": "Editorial: eliminate extra verbosity with %GeneratorPrototype% references",
-  "updated_at": "2024-10-22T01:14:15Z"
- },
- {
-  "base": "1cf48d11460f23adf6bd70cdf8594071a3afcee4",
-  "created_at": "2024-10-22T00:17:45Z",
-  "head": "d0e5feb46c175ae878648074a88e13fd5ce569b7",
-  "login": "tc39",
-  "number": 3459,
-  "ref": "GH-3455",
-  "revs": [
-   {
-    "adate": "2024-10-30T22:38:09-07:00",
-    "author": "Michael Ficarra",
-    "date": "2024-10-30T22:38:09-07:00",
-    "hash": "d0e5feb46c175ae878648074a88e13fd5ce569b7",
-    "parents": "1cf48d11460f23adf6bd70cdf8594071a3afcee4",
-    "subject": "Editorial: fix linking and change spelling of iterator interfaces (#3459)"
-   }
-  ],
-  "title": "Editorial: fix linking and change spelling of iterator interfaces",
-  "updated_at": "2024-10-31T05:38:51Z"
+  "title": "Editorial: Add \"local-offset time value\" for time values with local time zone offset applied",
+  "updated_at": "2024-10-31T09:07:40Z"
  },
  {
   "base": "961f269c227b7892c21487d82b28d3e8b86e0d4f",
