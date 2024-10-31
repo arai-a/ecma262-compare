@@ -56,68 +56,24 @@
   "updated_at": "2024-10-22T01:14:15Z"
  },
  {
-  "base": "cbd470fdeab70aa7157360d7257c197a6d923155",
+  "base": "1cf48d11460f23adf6bd70cdf8594071a3afcee4",
   "created_at": "2024-10-22T00:17:45Z",
-  "head": "e301f73033a98177ea399ef687ea551a32ac5ab1",
+  "head": "d0e5feb46c175ae878648074a88e13fd5ce569b7",
   "login": "tc39",
   "number": 3459,
   "ref": "GH-3455",
   "revs": [
    {
-    "adate": "2024-10-22T18:22:12-06:00",
+    "adate": "2024-10-30T22:38:09-07:00",
     "author": "Michael Ficarra",
-    "date": "2024-10-28T22:57:18-06:00",
-    "hash": "e301f73033a98177ea399ef687ea551a32ac5ab1",
-    "parents": "7d60cec82d7f9634bb2b4bb9f5c5b884fb8bdb3e",
-    "subject": "remaining \"Iterator Objects\""
-   },
-   {
-    "adate": "2024-10-21T19:36:19-06:00",
-    "author": "Michael Ficarra",
-    "date": "2024-10-28T22:57:18-06:00",
-    "hash": "7d60cec82d7f9634bb2b4bb9f5c5b884fb8bdb3e",
-    "parents": "944854aaa76a9d036e6ddbcf571c1bbeed64f00e",
-    "subject": "stray comma"
-   },
-   {
-    "adate": "2024-10-21T19:35:37-06:00",
-    "author": "Michael Ficarra",
-    "date": "2024-10-28T22:57:18-06:00",
-    "hash": "944854aaa76a9d036e6ddbcf571c1bbeed64f00e",
-    "parents": "1b0d7a7958cf5bb75af61e4ba5c698eae84f2c26",
-    "subject": "capital I for X Iterator objects"
-   },
-   {
-    "adate": "2024-10-21T18:12:30-06:00",
-    "author": "Michael Ficarra",
-    "date": "2024-10-28T22:57:18-06:00",
-    "hash": "1b0d7a7958cf5bb75af61e4ba5c698eae84f2c26",
-    "parents": "cbd470fdeab70aa7157360d7257c197a6d923155",
-    "subject": "Editorial: fix linking and change spelling of iterator interfaces"
+    "date": "2024-10-30T22:38:09-07:00",
+    "hash": "d0e5feb46c175ae878648074a88e13fd5ce569b7",
+    "parents": "1cf48d11460f23adf6bd70cdf8594071a3afcee4",
+    "subject": "Editorial: fix linking and change spelling of iterator interfaces (#3459)"
    }
   ],
   "title": "Editorial: fix linking and change spelling of iterator interfaces",
-  "updated_at": "2024-10-29T04:57:20Z"
- },
- {
-  "base": "961f269c227b7892c21487d82b28d3e8b86e0d4f",
-  "created_at": "2024-10-21T23:20:38Z",
-  "head": "1dd8d811c82db0197d9edf3436676ebc1ac3c29d",
-  "login": "linusg",
-  "number": 3458,
-  "ref": "finalization-registry-id",
-  "revs": [
-   {
-    "adate": "2024-10-21T22:39:52+01:00",
-    "author": "Linus Groh",
-    "date": "2024-10-22T00:20:12+01:00",
-    "hash": "1dd8d811c82db0197d9edf3436676ebc1ac3c29d",
-    "parents": "961f269c227b7892c21487d82b28d3e8b86e0d4f",
-    "subject": "Editorial: Fix typo in FinalizationRegistry global property link id"
-   }
-  ],
-  "title": "Editorial: Fix typo in FinalizationRegistry global property link id",
-  "updated_at": "2024-10-21T23:23:38Z"
+  "updated_at": "2024-10-31T05:38:51Z"
  },
  {
   "base": "961f269c227b7892c21487d82b28d3e8b86e0d4f",
