@@ -1,6 +1,26 @@
 [
  {
   "base": "4c44bbed7c5a7df90705a58aaa08d2a6c5b9b596",
+  "created_at": "2024-11-01T13:13:47Z",
+  "head": "f2f8cdbe0d433d36bd97d5eb18798e5cf91b8e65",
+  "login": "kimjg1119",
+  "number": 3466,
+  "ref": "super-call",
+  "revs": [
+   {
+    "adate": "2024-11-01T22:07:14+09:00",
+    "author": "Jungyeom Kim",
+    "date": "2024-11-01T22:07:14+09:00",
+    "hash": "f2f8cdbe0d433d36bd97d5eb18798e5cf91b8e65",
+    "parents": "4c44bbed7c5a7df90705a58aaa08d2a6c5b9b596",
+    "subject": "specific type: object to constructor"
+   }
+  ],
+  "title": "Editorial: Narrowing an assertion in SuperCall: super Arguments",
+  "updated_at": "2024-11-01T13:13:47Z"
+ },
+ {
+  "base": "4c44bbed7c5a7df90705a58aaa08d2a6c5b9b596",
   "created_at": "2024-10-29T09:32:24Z",
   "head": "03ddef504268287d2b8e1316e6ba5766e6634457",
   "login": "anba",
