@@ -1,6 +1,34 @@
 [
  {
   "base": "4c44bbed7c5a7df90705a58aaa08d2a6c5b9b596",
+  "created_at": "2024-11-03T23:27:51Z",
+  "head": "c4ab60c62db7a92e05c3a41c9f80302488203475",
+  "login": "tc39",
+  "number": 3467,
+  "ref": "close-iterator-helpers",
+  "revs": [
+   {
+    "adate": "2024-11-03T15:05:44-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2024-11-03T15:05:44-08:00",
+    "hash": "c4ab60c62db7a92e05c3a41c9f80302488203475",
+    "parents": "3ec20470c547f36f71fe2ec6e7c1ea98eea41840",
+    "subject": "Normative: consuming helpers close receiver on argument validation failure"
+   },
+   {
+    "adate": "2024-11-03T15:03:44-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2024-11-03T15:03:44-08:00",
+    "hash": "3ec20470c547f36f71fe2ec6e7c1ea98eea41840",
+    "parents": "4c44bbed7c5a7df90705a58aaa08d2a6c5b9b596",
+    "subject": "Normative: iterator-producing helpers close receiver on argument validation failure"
+   }
+  ],
+  "title": "Normative: iterator helpers close receiver on argument validation failure",
+  "updated_at": "2024-11-03T23:27:56Z"
+ },
+ {
+  "base": "4c44bbed7c5a7df90705a58aaa08d2a6c5b9b596",
   "created_at": "2024-11-01T13:13:47Z",
   "head": "f2f8cdbe0d433d36bd97d5eb18798e5cf91b8e65",
   "login": "kimjg1119",
