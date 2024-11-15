@@ -1,23 +1,23 @@
 [
  {
-  "base": "0f2e04e50f3f9d2f2996017a27c6248fb43072ce",
-  "created_at": "2024-11-15T01:34:49Z",
-  "head": "daf66cf43a50179777623f73af2d33d7542c5b1d",
-  "login": "tc39",
-  "number": 3476,
-  "ref": "ecmarkup-v20",
+  "base": "284c7a02774628415d479ea17ea4628b880442e8",
+  "created_at": "2024-11-15T07:01:03Z",
+  "head": "6af094c98faa77c796b6c31a0eca74d6f7b1eaf0",
+  "login": "OnlyWick",
+  "number": 3477,
+  "ref": "fix-typo",
   "revs": [
    {
-    "adate": "2024-11-14T18:33:48-07:00",
-    "author": "Michael Ficarra",
-    "date": "2024-11-14T18:33:48-07:00",
-    "hash": "daf66cf43a50179777623f73af2d33d7542c5b1d",
-    "parents": "0f2e04e50f3f9d2f2996017a27c6248fb43072ce",
-    "subject": "Meta: bump ecmarkup to v20.0.0"
+    "adate": "2024-11-15T14:58:36+08:00",
+    "author": "Wick",
+    "date": "2024-11-15T14:58:36+08:00",
+    "hash": "6af094c98faa77c796b6c31a0eca74d6f7b1eaf0",
+    "parents": "284c7a02774628415d479ea17ea4628b880442e8",
+    "subject": "Editorial: Fix typo"
    }
   ],
-  "title": "Meta: bump ecmarkup to v20.0.0",
-  "updated_at": "2024-11-15T02:00:18Z"
+  "title": "Editorial: Fix typo",
+  "updated_at": "2024-11-15T07:01:03Z"
  },
  {
   "base": "4c44bbed7c5a7df90705a58aaa08d2a6c5b9b596",
@@ -374,26 +374,6 @@
   ],
   "title": "Editorial: Remove unnecessary `undefined` type from property descriptor tests",
   "updated_at": "2024-08-26T05:38:13Z"
- },
- {
-  "base": "815aa8a4d68ce24bec81ba6789c37d55bc87b54a",
-  "created_at": "2024-08-25T04:37:21Z",
-  "head": "6b48958b04efb5d4c245926810622409c907baa5",
-  "login": "OnlyWick",
-  "number": 3401,
-  "ref": "remove-extra-word",
-  "revs": [
-   {
-    "adate": "2024-08-27T19:58:37+08:00",
-    "author": "Wick",
-    "date": "2024-08-27T19:58:37+08:00",
-    "hash": "6b48958b04efb5d4c245926810622409c907baa5",
-    "parents": "815aa8a4d68ce24bec81ba6789c37d55bc87b54a",
-    "subject": "Editorial: AsyncArrowFunction also does not have this binding"
-   }
-  ],
-  "title": "Editorial: add description to Function Environment Records",
-  "updated_at": "2024-08-27T12:01:19Z"
  },
  {
   "base": "ac21460fedf4b926520b06c9820bdbebad596a8b",
