@@ -1,6 +1,26 @@
 [
  {
   "base": "284c7a02774628415d479ea17ea4628b880442e8",
+  "created_at": "2024-11-15T18:13:54Z",
+  "head": "726bdbb182aad4f22a3661b1dcf22b0fc86afbbb",
+  "login": "ljharb",
+  "number": 3480,
+  "ref": "fix-ipr",
+  "revs": [
+   {
+    "adate": "2024-11-15T10:13:06-08:00",
+    "author": "Jordan Harband",
+    "date": "2024-11-15T10:13:06-08:00",
+    "hash": "726bdbb182aad4f22a3661b1dcf22b0fc86afbbb",
+    "parents": "284c7a02774628415d479ea17ea4628b880442e8",
+    "subject": "Meta: ensure the IPR check runs on the PR head, not main"
+   }
+  ],
+  "title": "Meta: ensure the IPR check runs on the PR head, not main",
+  "updated_at": "2024-11-15T18:13:54Z"
+ },
+ {
+  "base": "284c7a02774628415d479ea17ea4628b880442e8",
   "created_at": "2024-11-15T10:04:19Z",
   "head": "de48aca1f6b670cac9afa57ae84678ee9429bda6",
   "login": "OnlyWick",
@@ -22,22 +42,22 @@
  {
   "base": "284c7a02774628415d479ea17ea4628b880442e8",
   "created_at": "2024-11-15T07:01:03Z",
-  "head": "6af094c98faa77c796b6c31a0eca74d6f7b1eaf0",
+  "head": "5881c1f5041099000e714f0c42d3b48eef6e98a7",
   "login": "OnlyWick",
   "number": 3477,
   "ref": "fix-typo",
   "revs": [
    {
-    "adate": "2024-11-15T14:58:36+08:00",
+    "adate": "2024-11-15T09:46:00-08:00",
     "author": "Wick",
-    "date": "2024-11-15T14:58:36+08:00",
-    "hash": "6af094c98faa77c796b6c31a0eca74d6f7b1eaf0",
+    "date": "2024-11-15T09:46:00-08:00",
+    "hash": "5881c1f5041099000e714f0c42d3b48eef6e98a7",
     "parents": "284c7a02774628415d479ea17ea4628b880442e8",
-    "subject": "Editorial: Fix typo"
+    "subject": "Editorial: Fix typo (#3477)"
    }
   ],
   "title": "Editorial: Fix typo",
-  "updated_at": "2024-11-15T07:01:03Z"
+  "updated_at": "2024-11-15T18:14:34Z"
  },
  {
   "base": "4c44bbed7c5a7df90705a58aaa08d2a6c5b9b596",
