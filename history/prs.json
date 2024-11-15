@@ -512,26 +512,6 @@
   "updated_at": "2024-09-03T19:55:42Z"
  },
  {
-  "base": "f439eccd5adaac04e5f29bb926aefd7899855b3e",
-  "created_at": "2024-08-14T17:05:11Z",
-  "head": "4f16acd80acb2a79cfd783e007c71e6331453c1a",
-  "login": "nicolo-ribaudo",
-  "number": 3394,
-  "ref": "assert-json-parse-no-error",
-  "revs": [
-   {
-    "adate": "2024-08-14T19:06:10+02:00",
-    "author": "Nicol\u00f2 Ribaudo",
-    "date": "2024-08-14T19:06:10+02:00",
-    "hash": "4f16acd80acb2a79cfd783e007c71e6331453c1a",
-    "parents": "f439eccd5adaac04e5f29bb926aefd7899855b3e",
-    "subject": "Editorial: Assert that Evaluation in JSON.parse does not throw"
-   }
-  ],
-  "title": "Assert that Evaluation in JSON.parse does not throw",
-  "updated_at": "2024-08-14T17:06:16Z"
- },
- {
   "base": "282c013e43978ae23561eeb9caa13b2b9547ff7d",
   "created_at": "2024-08-14T11:58:49Z",
   "head": "749ca8749b286246f12b9e0542a8765dae939a40",
