@@ -1,6 +1,46 @@
 [
  {
   "base": "5881c1f5041099000e714f0c42d3b48eef6e98a7",
+  "created_at": "2024-11-20T06:18:57Z",
+  "head": "0780c51a009222d1037bd8e6231e3e8288d6ad2d",
+  "login": "kimjg1119",
+  "number": 3485,
+  "ref": "relational-expression-private",
+  "revs": [
+   {
+    "adate": "2024-11-20T15:12:20+09:00",
+    "author": "Jungyeom Kim",
+    "date": "2024-11-20T15:12:20+09:00",
+    "hash": "0780c51a009222d1037bd8e6231e3e8288d6ad2d",
+    "parents": "5881c1f5041099000e714f0c42d3b48eef6e98a7",
+    "subject": "Add an assertion for privateEnv"
+   }
+  ],
+  "title": "Editorial: Add an assertion for PrivateEnvironment cannot be null",
+  "updated_at": "2024-11-20T06:18:57Z"
+ },
+ {
+  "base": "5881c1f5041099000e714f0c42d3b48eef6e98a7",
+  "created_at": "2024-11-20T05:51:40Z",
+  "head": "f12d9a2a01aa4fbf8d33c182ff903ce2b295ac2f",
+  "login": "kimjg1119",
+  "number": 3484,
+  "ref": "get-module-namespace",
+  "revs": [
+   {
+    "adate": "2024-11-20T14:46:39+09:00",
+    "author": "Jungyeom Kim",
+    "date": "2024-11-20T14:48:34+09:00",
+    "hash": "f12d9a2a01aa4fbf8d33c182ff903ce2b295ac2f",
+    "parents": "5881c1f5041099000e714f0c42d3b48eef6e98a7",
+    "subject": "Remove empty from GetModuleNamespace"
+   }
+  ],
+  "title": "Editorial: GetModuleNamespace cannot return empty",
+  "updated_at": "2024-11-20T05:51:40Z"
+ },
+ {
+  "base": "5881c1f5041099000e714f0c42d3b48eef6e98a7",
   "created_at": "2024-11-20T05:33:40Z",
   "head": "46b6194347f0d995f4638adf03fd0204e89d724a",
   "login": "kimjg1119",
