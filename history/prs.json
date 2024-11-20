@@ -1,6 +1,46 @@
 [
  {
   "base": "5881c1f5041099000e714f0c42d3b48eef6e98a7",
+  "created_at": "2024-11-20T23:39:40Z",
+  "head": "06b36da5f1551f7293eb0ce8aa037aa3bc4f3b1c",
+  "login": "tc39",
+  "number": 3491,
+  "ref": "promiseresult",
+  "revs": [
+   {
+    "adate": "2024-11-20T15:36:46-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2024-11-20T15:36:46-08:00",
+    "hash": "06b36da5f1551f7293eb0ce8aa037aa3bc4f3b1c",
+    "parents": "5881c1f5041099000e714f0c42d3b48eef6e98a7",
+    "subject": "Editorial: more explicit handling of [[PromiseResult]]"
+   }
+  ],
+  "title": "Editorial: more explicit handling of [[PromiseResult]]",
+  "updated_at": "2024-11-20T23:39:40Z"
+ },
+ {
+  "base": "5881c1f5041099000e714f0c42d3b48eef6e98a7",
+  "created_at": "2024-11-20T23:27:37Z",
+  "head": "6583d074b32730389f7d8722b56b9b6faa485f82",
+  "login": "tc39",
+  "number": 3490,
+  "ref": "samevaluezero-wording",
+  "revs": [
+   {
+    "adate": "2024-11-20T15:24:51-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2024-11-20T15:24:51-08:00",
+    "hash": "6583d074b32730389f7d8722b56b9b6faa485f82",
+    "parents": "5881c1f5041099000e714f0c42d3b48eef6e98a7",
+    "subject": "Editorial: clarify that Map/Set do not literally use SameValueZero"
+   }
+  ],
+  "title": "Editorial: clarify that Map/Set do not literally use SameValueZero",
+  "updated_at": "2024-11-20T23:36:51Z"
+ },
+ {
+  "base": "5881c1f5041099000e714f0c42d3b48eef6e98a7",
   "created_at": "2024-11-20T16:24:50Z",
   "head": "fde82f15ea8ba2237dc653731f78382f5f1c8977",
   "login": "tc39",
