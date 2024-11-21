@@ -472,13 +472,29 @@
   "updated_at": "2024-10-23T15:23:17Z"
  },
  {
-  "base": "76814cbd5d7842c2a99d28e6e8c7833f1de5bee0",
+  "base": "5881c1f5041099000e714f0c42d3b48eef6e98a7",
   "created_at": "2024-10-09T17:00:29Z",
-  "head": "fade9249ee12f657ebe95d4d214daa4e21ec92f9",
+  "head": "966db9a0bee99649b1bc9e0a511fcb51417c64cf",
   "login": "kimjg1119",
   "number": 3445,
   "ref": "get-global-object",
   "revs": [
+   {
+    "adate": "2024-11-21T17:13:34+09:00",
+    "author": "Jungyeom Kim",
+    "date": "2024-11-21T17:13:34+09:00",
+    "hash": "966db9a0bee99649b1bc9e0a511fcb51417c64cf",
+    "parents": "4e71641eaed3be253c7b566e6307544ec9979237",
+    "subject": "Remove undefined form GlobalObject"
+   },
+   {
+    "adate": "2024-11-21T17:09:12+09:00",
+    "author": "Jun Gyeom Kim",
+    "date": "2024-11-21T17:09:12+09:00",
+    "hash": "4e71641eaed3be253c7b566e6307544ec9979237",
+    "parents": "fade9249ee12f657ebe95d4d214daa4e21ec92f9 5881c1f5041099000e714f0c42d3b48eef6e98a7",
+    "subject": "Merge branch 'main' into get-global-object"
+   },
    {
     "adate": "2024-10-02T15:45:03+09:00",
     "author": "Jungyeom Kim",
@@ -489,7 +505,7 @@
    }
   ],
   "title": "Editorial: GlobalObject cannot be undefined in the GetGlobalObject ",
-  "updated_at": "2024-10-09T17:01:13Z"
+  "updated_at": "2024-11-21T08:16:15Z"
  },
  {
   "base": "7df8f590e9f3c57a2783c5c26eeb631fe211f51b",
