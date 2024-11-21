@@ -292,26 +292,6 @@
   "updated_at": "2024-11-20T05:33:40Z"
  },
  {
-  "base": "5881c1f5041099000e714f0c42d3b48eef6e98a7",
-  "created_at": "2024-11-15T18:13:54Z",
-  "head": "0b6c5f17187bb962274d431a067fdb5279ba2645",
-  "login": "ljharb",
-  "number": 3480,
-  "ref": "fix-ipr",
-  "revs": [
-   {
-    "adate": "2024-11-15T22:03:14-08:00",
-    "author": "Jordan Harband",
-    "date": "2024-11-15T22:03:14-08:00",
-    "hash": "0b6c5f17187bb962274d431a067fdb5279ba2645",
-    "parents": "5881c1f5041099000e714f0c42d3b48eef6e98a7",
-    "subject": "Meta: ensure the IPR check runs on the PR head, not main (#3480)"
-   }
-  ],
-  "title": "Meta: ensure the IPR check runs on the PR head, not main",
-  "updated_at": "2024-11-16T06:03:20Z"
- },
- {
   "base": "284c7a02774628415d479ea17ea4628b880442e8",
   "created_at": "2024-11-15T10:04:19Z",
   "head": "de48aca1f6b670cac9afa57ae84678ee9429bda6",
@@ -3376,64 +3356,24 @@
   "updated_at": "2023-02-13T17:15:08Z"
  },
  {
-  "base": "7df8f590e9f3c57a2783c5c26eeb631fe211f51b",
+  "base": "0b6c5f17187bb962274d431a067fdb5279ba2645",
   "created_at": "2022-09-29T13:38:14Z",
-  "head": "5f19284d4b8453c2557bd23df8a4a2b3e170bf68",
+  "head": "35af90949f809a9fe36da75d0131cd965593b527",
   "login": "jhnaldo",
   "number": 2924,
   "ref": "fix-empty-return-type",
   "revs": [
    {
-    "adate": "2024-10-02T15:06:43-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2024-10-02T15:07:01-07:00",
-    "hash": "5f19284d4b8453c2557bd23df8a4a2b3e170bf68",
-    "parents": "c420c0d29bfce614240c5ded6e4903ebf3c251cd",
-    "subject": "use new ReturnCompletion AO"
-   },
-   {
-    "adate": "2024-09-01T17:57:11-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2024-10-02T15:07:01-07:00",
-    "hash": "c420c0d29bfce614240c5ded6e4903ebf3c251cd",
-    "parents": "a1ddc340b91e02cd4d1cc6818312be8491024f99",
-    "subject": "un-nest some logic"
-   },
-   {
-    "adate": "2024-09-01T17:35:26-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2024-10-02T15:07:01-07:00",
-    "hash": "a1ddc340b91e02cd4d1cc6818312be8491024f99",
-    "parents": "405c47f3171e72ddae5158d6c6134b47f12f19da",
-    "subject": "update esmeta-ignore.json"
-   },
-   {
-    "adate": "2024-09-01T17:27:21-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2024-10-02T15:07:01-07:00",
-    "hash": "405c47f3171e72ddae5158d6c6134b47f12f19da",
-    "parents": "222a5cbb58fe8fb8f50e3b3a61175a7a1d6543f0",
-    "subject": "Editorial: make EvaluateBody return return/throw completion"
-   },
-   {
-    "adate": "2022-11-30T03:00:52-07:00",
-    "author": "Michael Ficarra",
-    "date": "2024-10-02T15:07:01-07:00",
-    "hash": "222a5cbb58fe8fb8f50e3b3a61175a7a1d6543f0",
-    "parents": "17441023b648eb318206dde1888a0cd02306e779",
-    "subject": "update esmeta ignores"
-   },
-   {
-    "adate": "2022-09-29T22:33:37+09:00",
+    "adate": "2024-11-21T08:12:18-10:00",
     "author": "jhnaldo",
-    "date": "2024-10-02T15:07:01-07:00",
-    "hash": "17441023b648eb318206dde1888a0cd02306e779",
-    "parents": "7df8f590e9f3c57a2783c5c26eeb631fe211f51b",
-    "subject": "Fixed return types of algorithms returning ~empty~"
+    "date": "2024-11-21T08:12:18-10:00",
+    "hash": "35af90949f809a9fe36da75d0131cd965593b527",
+    "parents": "0b6c5f17187bb962274d431a067fdb5279ba2645",
+    "subject": "Editorial: Fixed return types of algorithms returning ~empty~ (#2924)"
    }
   ],
-  "title": "Fixed return types of algorithms returning ~empty~",
-  "updated_at": "2024-10-02T22:07:07Z"
+  "title": "Editorial: Fixed return types of algorithms returning ~empty~",
+  "updated_at": "2024-11-21T18:12:27Z"
  },
  {
   "base": "8aac12603c99f94d982317832b0e03c13684ce0a",
