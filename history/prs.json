@@ -98,11 +98,19 @@
  {
   "base": "5881c1f5041099000e714f0c42d3b48eef6e98a7",
   "created_at": "2024-11-20T13:32:05Z",
-  "head": "54d19acb7cb47b701438c4a49dd40dce7bb93aa3",
+  "head": "5a119c89d93960ecf9a8d4d0369ec2a5d8145dfd",
   "login": "kimjg1119",
   "number": 3488,
   "ref": "resolve-export",
   "revs": [
+   {
+    "adate": "2024-11-21T14:33:37+09:00",
+    "author": "Jungyeom Kim",
+    "date": "2024-11-21T14:33:37+09:00",
+    "hash": "5a119c89d93960ecf9a8d4d0369ec2a5d8145dfd",
+    "parents": "54d19acb7cb47b701438c4a49dd40dce7bb93aa3",
+    "subject": "Accept suggestion"
+   },
    {
     "adate": "2024-11-20T23:34:54+09:00",
     "author": "Jungyeom Kim",
@@ -113,7 +121,7 @@
    }
   ],
   "title": "Editorial: Handle non-direct binding cases in ResolveExports",
-  "updated_at": "2024-11-20T14:36:17Z"
+  "updated_at": "2024-11-21T05:33:48Z"
  },
  {
   "base": "5881c1f5041099000e714f0c42d3b48eef6e98a7",
