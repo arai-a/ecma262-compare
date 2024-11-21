@@ -204,44 +204,32 @@
   "updated_at": "2024-11-21T05:33:48Z"
  },
  {
-  "base": "c1040ff22e80e75f1b35f565bc503cb90c0aa4f1",
-  "created_at": "2024-11-20T07:17:36Z",
-  "head": "ddd7360787a13be10ebc7c54482e1ac0c72e5060",
-  "login": "kimjg1119",
-  "number": 3487,
-  "ref": "update-esmeta",
-  "revs": [
-   {
-    "adate": "2024-11-21T10:28:42-10:00",
-    "author": "Jungyeom Kim",
-    "date": "2024-11-21T10:28:42-10:00",
-    "hash": "ddd7360787a13be10ebc7c54482e1ac0c72e5060",
-    "parents": "c1040ff22e80e75f1b35f565bc503cb90c0aa4f1",
-    "subject": "Meta: Upgrade ESMeta to v0.5.0 (#3487)"
-   }
-  ],
-  "title": "Meta: Upgrade ESMeta to v0.5.0",
-  "updated_at": "2024-11-21T20:28:48Z"
- },
- {
-  "base": "5881c1f5041099000e714f0c42d3b48eef6e98a7",
+  "base": "ddd7360787a13be10ebc7c54482e1ac0c72e5060",
   "created_at": "2024-11-20T06:18:57Z",
-  "head": "0780c51a009222d1037bd8e6231e3e8288d6ad2d",
+  "head": "cd562227c8841e33e47835d9b137026393848c65",
   "login": "kimjg1119",
   "number": 3485,
   "ref": "relational-expression-private",
   "revs": [
    {
-    "adate": "2024-11-20T15:12:20+09:00",
+    "adate": "2024-11-21T14:21:30-07:00",
+    "author": "Michael Ficarra",
+    "date": "2024-11-21T14:21:30-07:00",
+    "hash": "cd562227c8841e33e47835d9b137026393848c65",
+    "parents": "727afe3945d9bdabbb51a1763699cc0dc624e8f2",
+    "subject": "Update esmeta-ignore.json"
+   },
+   {
+    "adate": "2024-11-21T11:07:48-10:00",
     "author": "Jungyeom Kim",
-    "date": "2024-11-20T15:12:20+09:00",
-    "hash": "0780c51a009222d1037bd8e6231e3e8288d6ad2d",
-    "parents": "5881c1f5041099000e714f0c42d3b48eef6e98a7",
-    "subject": "Add an assertion for privateEnv"
+    "date": "2024-11-21T11:07:48-10:00",
+    "hash": "727afe3945d9bdabbb51a1763699cc0dc624e8f2",
+    "parents": "ddd7360787a13be10ebc7c54482e1ac0c72e5060",
+    "subject": "Editorial: Add an assertion for privateEnv (#3485)"
    }
   ],
   "title": "Editorial: Add an assertion for PrivateEnvironment cannot be null",
-  "updated_at": "2024-11-20T06:18:57Z"
+  "updated_at": "2024-11-21T21:21:31Z"
  },
  {
   "base": "5881c1f5041099000e714f0c42d3b48eef6e98a7",
