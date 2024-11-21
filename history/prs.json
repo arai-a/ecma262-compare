@@ -204,34 +204,6 @@
   "updated_at": "2024-11-21T05:33:48Z"
  },
  {
-  "base": "ddd7360787a13be10ebc7c54482e1ac0c72e5060",
-  "created_at": "2024-11-20T06:18:57Z",
-  "head": "cd562227c8841e33e47835d9b137026393848c65",
-  "login": "kimjg1119",
-  "number": 3485,
-  "ref": "relational-expression-private",
-  "revs": [
-   {
-    "adate": "2024-11-21T14:21:30-07:00",
-    "author": "Michael Ficarra",
-    "date": "2024-11-21T14:21:30-07:00",
-    "hash": "cd562227c8841e33e47835d9b137026393848c65",
-    "parents": "727afe3945d9bdabbb51a1763699cc0dc624e8f2",
-    "subject": "Update esmeta-ignore.json"
-   },
-   {
-    "adate": "2024-11-21T11:07:48-10:00",
-    "author": "Jungyeom Kim",
-    "date": "2024-11-21T11:07:48-10:00",
-    "hash": "727afe3945d9bdabbb51a1763699cc0dc624e8f2",
-    "parents": "ddd7360787a13be10ebc7c54482e1ac0c72e5060",
-    "subject": "Editorial: Add an assertion for privateEnv (#3485)"
-   }
-  ],
-  "title": "Editorial: Add an assertion for PrivateEnvironment cannot be null",
-  "updated_at": "2024-11-21T21:21:31Z"
- },
- {
   "base": "5881c1f5041099000e714f0c42d3b48eef6e98a7",
   "created_at": "2024-11-20T05:51:40Z",
   "head": "f12d9a2a01aa4fbf8d33c182ff903ce2b295ac2f",
