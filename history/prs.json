@@ -204,32 +204,24 @@
   "updated_at": "2024-11-21T05:33:48Z"
  },
  {
-  "base": "5881c1f5041099000e714f0c42d3b48eef6e98a7",
+  "base": "c1040ff22e80e75f1b35f565bc503cb90c0aa4f1",
   "created_at": "2024-11-20T07:17:36Z",
-  "head": "fd9877e468a0d584d4d62a0e484ab31313ee0a98",
+  "head": "72220bf446eaa096e9d64343f72c17fe75613a3b",
   "login": "kimjg1119",
   "number": 3487,
   "ref": "update-esmeta",
   "revs": [
    {
-    "adate": "2024-11-21T21:56:15+09:00",
+    "adate": "2024-11-21T09:39:05-10:00",
     "author": "Jungyeom Kim",
-    "date": "2024-11-21T21:56:15+09:00",
-    "hash": "fd9877e468a0d584d4d62a0e484ab31313ee0a98",
-    "parents": "668e87827b1b6e4d0613b767390ea238ca2cd64a",
-    "subject": "Update esmeta-ignore.json"
-   },
-   {
-    "adate": "2024-11-20T16:09:41+09:00",
-    "author": "Jungyeom Kim",
-    "date": "2024-11-20T16:09:41+09:00",
-    "hash": "668e87827b1b6e4d0613b767390ea238ca2cd64a",
-    "parents": "5881c1f5041099000e714f0c42d3b48eef6e98a7",
-    "subject": "Upgrade ESMeta to v0.5.0"
+    "date": "2024-11-21T09:39:05-10:00",
+    "hash": "72220bf446eaa096e9d64343f72c17fe75613a3b",
+    "parents": "c1040ff22e80e75f1b35f565bc503cb90c0aa4f1",
+    "subject": "Meta: Upgrade ESMeta to v0.5.0 (#3487)"
    }
   ],
   "title": "Meta: Upgrade ESMeta to v0.5.0",
-  "updated_at": "2024-11-21T12:57:27Z"
+  "updated_at": "2024-11-21T19:39:22Z"
  },
  {
   "base": "5881c1f5041099000e714f0c42d3b48eef6e98a7",
@@ -458,26 +450,6 @@
   ],
   "title": "Editorial: fix IteratorClose call in %IteratorHelperPrototype%.return",
   "updated_at": "2024-10-21T21:47:19Z"
- },
- {
-  "base": "35af90949f809a9fe36da75d0131cd965593b527",
-  "created_at": "2024-10-18T19:24:47Z",
-  "head": "c1040ff22e80e75f1b35f565bc503cb90c0aa4f1",
-  "login": "syg",
-  "number": 3453,
-  "ref": "varlengthta-nonextensible",
-  "revs": [
-   {
-    "adate": "2024-11-21T09:09:27-10:00",
-    "author": "Shu-yu Guo",
-    "date": "2024-11-21T09:09:27-10:00",
-    "hash": "c1040ff22e80e75f1b35f565bc503cb90c0aa4f1",
-    "parents": "35af90949f809a9fe36da75d0131cd965593b527",
-    "subject": "Normative: Return false in [[PreventExtensions]] for variable length TypedArrays (#3453)"
-   }
-  ],
-  "title": "Normative: Return false in [[PreventExtensions]] for variable length TypedArrays",
-  "updated_at": "2024-11-21T19:09:42Z"
  },
  {
   "base": "d72630f1ad8d4af5834dfb5f18e9d134a17ba5a3",
