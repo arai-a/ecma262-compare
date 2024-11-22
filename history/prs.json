@@ -1,5 +1,25 @@
 [
  {
+  "base": "cf5938e6d9f1a726d2034a288cedeaa0067e1084",
+  "created_at": "2024-11-22T15:33:52Z",
+  "head": "ca57b0ab0871d79043823c0d238015adf68eaa76",
+  "login": "Ms2ger",
+  "number": 3498,
+  "ref": "InitializeHostDefinedRealm-ordinary",
+  "revs": [
+   {
+    "adate": "2024-11-22T16:33:10+01:00",
+    "author": "Ms2ger",
+    "date": "2024-11-22T16:33:10+01:00",
+    "hash": "ca57b0ab0871d79043823c0d238015adf68eaa76",
+    "parents": "cf5938e6d9f1a726d2034a288cedeaa0067e1084",
+    "subject": "Editorial: allow hosts to create ordinary global objects"
+   }
+  ],
+  "title": "Editorial: allow hosts to create ordinary global objects",
+  "updated_at": "2024-11-22T15:38:04Z"
+ },
+ {
   "base": "5881c1f5041099000e714f0c42d3b48eef6e98a7",
   "created_at": "2024-11-21T15:50:18Z",
   "head": "c96e7b6af865d78e450dcfa471bcfb17324aa86e",
