@@ -2428,9 +2428,9 @@
   "updated_at": "2024-10-09T21:35:52Z"
  },
  {
-  "base": "d4927f9bc3706484c75dfef4bbcf5ba826d2632e",
+  "base": "cf5938e6d9f1a726d2034a288cedeaa0067e1084",
   "created_at": "2023-02-05T07:20:55Z",
-  "head": "f9d3b0290e1ea01d64b7aced3849c2ab247a828c",
+  "head": "c45ae45963bdeba09859d35397d1e99d8ceda4f2",
   "login": "petamoriken",
   "number": 3009,
   "ref": "normative/dont-call-regexp-@@method-on-primitives",
@@ -2438,14 +2438,14 @@
    {
     "adate": "2023-02-05T15:45:10+09:00",
     "author": "Kenta Moriuchi",
-    "date": "2023-05-04T21:46:36+09:00",
-    "hash": "f9d3b0290e1ea01d64b7aced3849c2ab247a828c",
-    "parents": "d4927f9bc3706484c75dfef4bbcf5ba826d2632e",
+    "date": "2024-11-27T01:23:08+09:00",
+    "hash": "c45ae45963bdeba09859d35397d1e99d8ceda4f2",
+    "parents": "cf5938e6d9f1a726d2034a288cedeaa0067e1084",
     "subject": "Normative: Don't call @@method for `RegExp` on primitive values"
    }
   ],
-  "title": "Normative: Don't call @@method for `RegExp` on primitive values",
-  "updated_at": "2023-05-04T12:46:55Z"
+  "title": "Normative: Don't call well-known Symbol methods for `RegExp` on primitive values",
+  "updated_at": "2024-11-26T16:27:11Z"
  },
  {
   "base": "1babaf809575e073f07b12e4907fadae8a45b349",
