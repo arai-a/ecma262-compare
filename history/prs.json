@@ -1,6 +1,34 @@
 [
  {
   "base": "3e6f71c9402f91344ef9560425cc1e8fc45abf86",
+  "created_at": "2024-11-27T17:30:12Z",
+  "head": "7f30b74d095a3afdcd4feaf8eecd8e8421c27f69",
+  "login": "tc39",
+  "number": 3503,
+  "ref": "fix-state-ref",
+  "revs": [
+   {
+    "adate": "2024-11-27T09:27:13-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2024-11-27T09:27:13-08:00",
+    "hash": "7f30b74d095a3afdcd4feaf8eecd8e8421c27f69",
+    "parents": "dc9c8c87b6131e4183819db7a5afbc900f13e23c",
+    "subject": "Editorial: replace MatchResult with its definition"
+   },
+   {
+    "adate": "2024-11-27T09:26:07-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2024-11-27T09:26:07-08:00",
+    "hash": "dc9c8c87b6131e4183819db7a5afbc900f13e23c",
+    "parents": "3e6f71c9402f91344ef9560425cc1e8fc45abf86",
+    "subject": "Editorial: replace two stray references to State with MatchState"
+   }
+  ],
+  "title": "Editorial: two minor tweaks to the RegExp machinery",
+  "updated_at": "2024-11-27T17:30:22Z"
+ },
+ {
+  "base": "3e6f71c9402f91344ef9560425cc1e8fc45abf86",
   "created_at": "2024-11-27T14:54:39Z",
   "head": "111241ad550dbbacd06d500b1e0a103c295f3d8f",
   "login": "tc39",
