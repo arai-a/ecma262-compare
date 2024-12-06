@@ -1,6 +1,26 @@
 [
  {
   "base": "3e6f71c9402f91344ef9560425cc1e8fc45abf86",
+  "created_at": "2024-12-06T18:17:16Z",
+  "head": "7f1af1fedfa4e509a4fd891c4605199fe99ac0dc",
+  "login": "ljharb",
+  "number": 3506,
+  "ref": "update-actions",
+  "revs": [
+   {
+    "adate": "2024-12-06T10:16:51-08:00",
+    "author": "Jordan Harband",
+    "date": "2024-12-06T10:16:51-08:00",
+    "hash": "7f1af1fedfa4e509a4fd891c4605199fe99ac0dc",
+    "parents": "3e6f71c9402f91344ef9560425cc1e8fc45abf86",
+    "subject": "Meta: update upload-artifact action prior to deprecation"
+   }
+  ],
+  "title": "Meta: update upload-artifact action prior to deprecation",
+  "updated_at": "2024-12-06T18:20:50Z"
+ },
+ {
+  "base": "3e6f71c9402f91344ef9560425cc1e8fc45abf86",
   "created_at": "2024-11-27T17:30:12Z",
   "head": "7f30b74d095a3afdcd4feaf8eecd8e8421c27f69",
   "login": "tc39",
@@ -246,26 +266,6 @@
   ],
   "title": "Editorial: clarify that Map/Set do not literally use SameValueZero",
   "updated_at": "2024-11-20T23:36:51Z"
- },
- {
-  "base": "5881c1f5041099000e714f0c42d3b48eef6e98a7",
-  "created_at": "2024-11-20T16:24:50Z",
-  "head": "fde82f15ea8ba2237dc653731f78382f5f1c8977",
-  "login": "tc39",
-  "number": 3489,
-  "ref": "re-use-IteratorResult-objects",
-  "revs": [
-   {
-    "adate": "2024-11-20T09:18:26-07:00",
-    "author": "Michael Ficarra",
-    "date": "2024-11-20T11:26:58-07:00",
-    "hash": "fde82f15ea8ba2237dc653731f78382f5f1c8977",
-    "parents": "5881c1f5041099000e714f0c42d3b48eef6e98a7",
-    "subject": "Normative: re-use IteratorResult objects in some iterator helpers"
-   }
-  ],
-  "title": "Normative: re-use IteratorResult objects in some iterator helpers",
-  "updated_at": "2024-11-20T18:27:05Z"
  },
  {
   "base": "5881c1f5041099000e714f0c42d3b48eef6e98a7",
