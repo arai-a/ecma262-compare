@@ -1,6 +1,26 @@
 [
  {
   "base": "3e6f71c9402f91344ef9560425cc1e8fc45abf86",
+  "created_at": "2024-12-09T06:31:14Z",
+  "head": "912149d137ce2e9c7053a40279d5190cfa154798",
+  "login": "ljharb",
+  "number": 3507,
+  "ref": "error.iserror",
+  "revs": [
+   {
+    "adate": "2024-12-08T22:29:56-08:00",
+    "author": "Jordan Harband",
+    "date": "2024-12-08T22:29:56-08:00",
+    "hash": "912149d137ce2e9c7053a40279d5190cfa154798",
+    "parents": "3e6f71c9402f91344ef9560425cc1e8fc45abf86",
+    "subject": "Normative: add `Error.isError`"
+   }
+  ],
+  "title": "Normative: add `Error.isError`",
+  "updated_at": "2024-12-09T06:31:23Z"
+ },
+ {
+  "base": "3e6f71c9402f91344ef9560425cc1e8fc45abf86",
   "created_at": "2024-12-06T18:17:16Z",
   "head": "715038e4aee458f2867d4b39489d22e5bc2299e4",
   "login": "ljharb",
