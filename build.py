@@ -4,13 +4,12 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 import argparse
-import distutils
-import distutils.dir_util
 import glob
 import gzip
 import json
 import os
 import re
+import shutil
 import subprocess
 import sys
 import urllib.request
@@ -759,7 +758,7 @@ class RevisionRenderer:
 
         rev_dir = Paths.rev_dir(sha, prnum)
         if os.path.exists(rev_dir):
-            distutils.dir_util.remove_tree(rev_dir)
+            shutil.rmtree(rev_dir)
 
         # Use the same structure
 
@@ -772,11 +771,11 @@ class RevisionRenderer:
 
         multipage_dir = os.path.join(repo_out_dir, 'multipage')
         if os.path.exists(multipage_dir):
-            distutils.dir_util.remove_tree(multipage_dir)
+            shutil.rmtree(multipage_dir)
 
         assets_dir = os.path.join(repo_out_dir, 'assets')
         if os.path.exists(assets_dir):
-            distutils.dir_util.remove_tree(assets_dir)
+            shutil.rmtree(assets_dir)
 
         # Compress files
 
@@ -784,7 +783,7 @@ class RevisionRenderer:
         FileUtils.write_gz(repo_out_index_gz_path, content)
         os.remove(repo_out_index_path)
 
-        distutils.dir_util.copy_tree(repo_out_dir, rev_dir)
+        shutil.copytree(repo_out_dir, rev_dir)
 
         return True
 
@@ -1190,14 +1189,14 @@ class GC:
             sha = cls.__get_sha(rev_dir)
             if not cls.__in_revs(sha, revs):
                 print('R', rev_dir)
-                distutils.dir_util.remove_tree(rev_dir)
+                shutil.rmtree(rev_dir)
 
         for pr_dir in glob.glob('./history/PR/*'):
             prnum = cls.__get_prnum(pr_dir)
             pr = cls.__get_pr(prnum, prs)
             if pr is None:
                 print('R', pr_dir)
-                distutils.dir_util.remove_tree(pr_dir)
+                shutil.rmtree(pr_dir)
                 continue
 
             for rev_dir in glob.glob('{}/*'.format(pr_dir)):
@@ -1207,7 +1206,7 @@ class GC:
                 sha = cls.__get_sha(rev_dir)
                 if sha != pr['head']:
                     print('R', rev_dir)
-                    distutils.dir_util.remove_tree(rev_dir)
+                    shutil.rmtree(rev_dir)
 
 
 parser = argparse.ArgumentParser(description='Update ecma262 history data')
