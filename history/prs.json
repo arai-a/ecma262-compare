@@ -316,24 +316,24 @@
   "updated_at": "2024-11-20T05:51:40Z"
  },
  {
-  "base": "5881c1f5041099000e714f0c42d3b48eef6e98a7",
+  "base": "49d6d457bd4edc78de0e2fc1e67570785f2c347a",
   "created_at": "2024-11-20T05:33:40Z",
-  "head": "46b6194347f0d995f4638adf03fd0204e89d724a",
+  "head": "38f68d784811ac566c39807f2a6e2617a32ba9ae",
   "login": "kimjg1119",
   "number": 3483,
   "ref": "built-in-function",
   "revs": [
    {
-    "adate": "2024-11-20T14:26:36+09:00",
+    "adate": "2024-12-18T15:36:20-08:00",
     "author": "Jungyeom Kim",
-    "date": "2024-11-20T14:26:50+09:00",
-    "hash": "46b6194347f0d995f4638adf03fd0204e89d724a",
-    "parents": "5881c1f5041099000e714f0c42d3b48eef6e98a7",
-    "subject": "Add assertion for built-in function object"
+    "date": "2024-12-18T15:36:20-08:00",
+    "hash": "38f68d784811ac566c39807f2a6e2617a32ba9ae",
+    "parents": "49d6d457bd4edc78de0e2fc1e67570785f2c347a",
+    "subject": "Editorial: Add assertion for built-in function object (#3483)"
    }
   ],
   "title": "Editorial: Add an Assertion for Built-in Function Object",
-  "updated_at": "2024-11-20T05:33:40Z"
+  "updated_at": "2024-12-18T23:36:27Z"
  },
  {
   "base": "284c7a02774628415d479ea17ea4628b880442e8",
@@ -538,26 +538,6 @@
   ],
   "title": "Normative: Remove Species check for TypedArrays ArrayBuffers and SharedArrayBuffers",
   "updated_at": "2024-10-23T15:23:17Z"
- },
- {
-  "base": "effe5f6df99cdc87d19728ed35a7f4cbe0993bcd",
-  "created_at": "2024-10-09T17:00:29Z",
-  "head": "49d6d457bd4edc78de0e2fc1e67570785f2c347a",
-  "login": "kimjg1119",
-  "number": 3445,
-  "ref": "get-global-object",
-  "revs": [
-   {
-    "adate": "2024-12-18T15:06:14-08:00",
-    "author": "Jungyeom Kim",
-    "date": "2024-12-18T15:06:14-08:00",
-    "hash": "49d6d457bd4edc78de0e2fc1e67570785f2c347a",
-    "parents": "effe5f6df99cdc87d19728ed35a7f4cbe0993bcd",
-    "subject": "Editorial: GlobalObject cannot be undefined in the GetGlobalObject (#3445)"
-   }
-  ],
-  "title": "Editorial: GlobalObject cannot be undefined in the GetGlobalObject ",
-  "updated_at": "2024-12-18T23:06:21Z"
  },
  {
   "base": "7df8f590e9f3c57a2783c5c26eeb631fe211f51b",
