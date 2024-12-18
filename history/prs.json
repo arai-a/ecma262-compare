@@ -1,33 +1,5 @@
 [
  {
-  "base": "4b3dbbf626521be75c38c8f29fc3286daf3735a6",
-  "created_at": "2024-12-18T07:38:50Z",
-  "head": "ed74f6310ec01f93cc153df8e80a44f573b89907",
-  "login": "jhnaldo",
-  "number": 3508,
-  "ref": "update-esmeta",
-  "revs": [
-   {
-    "adate": "2024-12-18T16:44:20+09:00",
-    "author": "Jihyeok Park",
-    "date": "2024-12-18T16:44:20+09:00",
-    "hash": "ed74f6310ec01f93cc153df8e80a44f573b89907",
-    "parents": "51be9f45c28be333845aa59cbf5306be8523fda0",
-    "subject": "Update esmeta-ignore.json"
-   },
-   {
-    "adate": "2024-12-18T16:28:30+09:00",
-    "author": "Jihyeok Park",
-    "date": "2024-12-18T16:28:30+09:00",
-    "hash": "51be9f45c28be333845aa59cbf5306be8523fda0",
-    "parents": "4b3dbbf626521be75c38c8f29fc3286daf3735a6",
-    "subject": "Meta: Upgrade ESMeta to v0.5.1"
-   }
-  ],
-  "title": "Meta: Upgrade ESMeta to v0.5.1",
-  "updated_at": "2024-12-18T08:09:28Z"
- },
- {
   "base": "3e6f71c9402f91344ef9560425cc1e8fc45abf86",
   "created_at": "2024-12-09T06:31:14Z",
   "head": "912149d137ce2e9c7053a40279d5190cfa154798",
@@ -568,64 +540,24 @@
   "updated_at": "2024-10-23T15:23:17Z"
  },
  {
-  "base": "cf5938e6d9f1a726d2034a288cedeaa0067e1084",
+  "base": "effe5f6df99cdc87d19728ed35a7f4cbe0993bcd",
   "created_at": "2024-10-09T17:00:29Z",
-  "head": "f6a6505b29fc29dc20dbb4924066693a4e6395fe",
+  "head": "49d6d457bd4edc78de0e2fc1e67570785f2c347a",
   "login": "kimjg1119",
   "number": 3445,
   "ref": "get-global-object",
   "revs": [
    {
-    "adate": "2024-11-26T15:26:46+09:00",
+    "adate": "2024-12-18T15:06:14-08:00",
     "author": "Jungyeom Kim",
-    "date": "2024-11-26T15:26:46+09:00",
-    "hash": "f6a6505b29fc29dc20dbb4924066693a4e6395fe",
-    "parents": "c951954851eda5317e77a07bc74c27513ebcbac8",
-    "subject": "Fix esmeta-ignore.json"
-   },
-   {
-    "adate": "2024-11-26T15:23:19+09:00",
-    "author": "Jungyeom Kim",
-    "date": "2024-11-26T15:23:19+09:00",
-    "hash": "c951954851eda5317e77a07bc74c27513ebcbac8",
-    "parents": "1386c47573748c36def204f9d475a925f3a4fabb",
-    "subject": "Fix an error and remove an assertion"
-   },
-   {
-    "adate": "2024-11-26T15:20:37+09:00",
-    "author": "Jun Gyeom Kim",
-    "date": "2024-11-26T15:20:37+09:00",
-    "hash": "1386c47573748c36def204f9d475a925f3a4fabb",
-    "parents": "966db9a0bee99649b1bc9e0a511fcb51417c64cf cf5938e6d9f1a726d2034a288cedeaa0067e1084",
-    "subject": "Merge branch 'main' into get-global-object"
-   },
-   {
-    "adate": "2024-11-21T17:13:34+09:00",
-    "author": "Jungyeom Kim",
-    "date": "2024-11-21T17:13:34+09:00",
-    "hash": "966db9a0bee99649b1bc9e0a511fcb51417c64cf",
-    "parents": "4e71641eaed3be253c7b566e6307544ec9979237",
-    "subject": "Remove undefined form GlobalObject"
-   },
-   {
-    "adate": "2024-11-21T17:09:12+09:00",
-    "author": "Jun Gyeom Kim",
-    "date": "2024-11-21T17:09:12+09:00",
-    "hash": "4e71641eaed3be253c7b566e6307544ec9979237",
-    "parents": "fade9249ee12f657ebe95d4d214daa4e21ec92f9 5881c1f5041099000e714f0c42d3b48eef6e98a7",
-    "subject": "Merge branch 'main' into get-global-object"
-   },
-   {
-    "adate": "2024-10-02T15:45:03+09:00",
-    "author": "Jungyeom Kim",
-    "date": "2024-10-02T15:45:03+09:00",
-    "hash": "fade9249ee12f657ebe95d4d214daa4e21ec92f9",
-    "parents": "7df8f590e9f3c57a2783c5c26eeb631fe211f51b",
-    "subject": "Add assertion for GetGlobalObject must not be undefined"
+    "date": "2024-12-18T15:06:14-08:00",
+    "hash": "49d6d457bd4edc78de0e2fc1e67570785f2c347a",
+    "parents": "effe5f6df99cdc87d19728ed35a7f4cbe0993bcd",
+    "subject": "Editorial: GlobalObject cannot be undefined in the GetGlobalObject (#3445)"
    }
   ],
   "title": "Editorial: GlobalObject cannot be undefined in the GetGlobalObject ",
-  "updated_at": "2024-11-26T06:26:51Z"
+  "updated_at": "2024-12-18T23:06:21Z"
  },
  {
   "base": "7df8f590e9f3c57a2783c5c26eeb631fe211f51b",
