@@ -1,5 +1,25 @@
 [
  {
+  "base": "c4042979a7cdd96b663ffcc43aeee90af8d7a576",
+  "created_at": "2024-12-19T19:44:26Z",
+  "head": "3354e867580bc9ca173e4c5a6041b01ef145733c",
+  "login": "linusg",
+  "number": 3511,
+  "ref": "globalenv-undefined",
+  "revs": [
+   {
+    "adate": "2024-12-19T19:41:55Z",
+    "author": "Linus Groh",
+    "date": "2024-12-19T19:41:55Z",
+    "hash": "3354e867580bc9ca173e4c5a6041b01ef145733c",
+    "parents": "c4042979a7cdd96b663ffcc43aeee90af8d7a576",
+    "subject": "Editorial: Don't set [[GlobalEnv]] to undefined temporarily"
+   }
+  ],
+  "title": "Editorial: Don't set [[GlobalEnv]] to undefined temporarily",
+  "updated_at": "2024-12-19T19:44:26Z"
+ },
+ {
   "base": "3e6f71c9402f91344ef9560425cc1e8fc45abf86",
   "created_at": "2024-12-09T06:31:14Z",
   "head": "912149d137ce2e9c7053a40279d5190cfa154798",
@@ -106,26 +126,6 @@
   ],
   "title": "Editorial: Create the realm execution context slightly later",
   "updated_at": "2024-11-21T15:50:18Z"
- },
- {
-  "base": "b2a5b6774a165f42f93ac212a2cc3d3b4e0f2277",
-  "created_at": "2024-11-21T12:40:07Z",
-  "head": "c4042979a7cdd96b663ffcc43aeee90af8d7a576",
-  "login": "kimjg1119",
-  "number": 3496,
-  "ref": "get-function-realm",
-  "revs": [
-   {
-    "adate": "2024-12-18T22:36:11-08:00",
-    "author": "Jungyeom Kim",
-    "date": "2024-12-18T22:36:11-08:00",
-    "hash": "c4042979a7cdd96b663ffcc43aeee90af8d7a576",
-    "parents": "b2a5b6774a165f42f93ac212a2cc3d3b4e0f2277",
-    "subject": "Editorial: ProxyTarget is always a function object in GetFunctionRealm (#3496)"
-   }
-  ],
-  "title": "Editorial: ProxyTarget is always a function object in GetFunctionRealm",
-  "updated_at": "2024-12-19T06:36:16Z"
  },
  {
   "base": "5881c1f5041099000e714f0c42d3b48eef6e98a7",
