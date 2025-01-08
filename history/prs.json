@@ -80,34 +80,6 @@
   "updated_at": "2024-12-06T18:23:50Z"
  },
  {
-  "base": "3e6f71c9402f91344ef9560425cc1e8fc45abf86",
-  "created_at": "2024-11-27T17:30:12Z",
-  "head": "7f30b74d095a3afdcd4feaf8eecd8e8421c27f69",
-  "login": "tc39",
-  "number": 3503,
-  "ref": "fix-state-ref",
-  "revs": [
-   {
-    "adate": "2024-11-27T09:27:13-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2024-11-27T09:27:13-08:00",
-    "hash": "7f30b74d095a3afdcd4feaf8eecd8e8421c27f69",
-    "parents": "dc9c8c87b6131e4183819db7a5afbc900f13e23c",
-    "subject": "Editorial: replace MatchResult with its definition"
-   },
-   {
-    "adate": "2024-11-27T09:26:07-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2024-11-27T09:26:07-08:00",
-    "hash": "dc9c8c87b6131e4183819db7a5afbc900f13e23c",
-    "parents": "3e6f71c9402f91344ef9560425cc1e8fc45abf86",
-    "subject": "Editorial: replace two stray references to State with MatchState"
-   }
-  ],
-  "title": "Editorial: two minor tweaks to the RegExp machinery",
-  "updated_at": "2024-11-27T17:30:22Z"
- },
- {
   "base": "cf5938e6d9f1a726d2034a288cedeaa0067e1084",
   "created_at": "2024-11-22T15:33:52Z",
   "head": "ca57b0ab0871d79043823c0d238015adf68eaa76",
@@ -218,26 +190,6 @@
   ],
   "title": "Normative: Source Phase Imports rebased to Import Attributes",
   "updated_at": "2024-12-30T18:45:19Z"
- },
- {
-  "base": "5881c1f5041099000e714f0c42d3b48eef6e98a7",
-  "created_at": "2024-11-20T23:39:40Z",
-  "head": "06b36da5f1551f7293eb0ce8aa037aa3bc4f3b1c",
-  "login": "tc39",
-  "number": 3491,
-  "ref": "promiseresult",
-  "revs": [
-   {
-    "adate": "2024-11-20T15:36:46-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2024-11-20T15:36:46-08:00",
-    "hash": "06b36da5f1551f7293eb0ce8aa037aa3bc4f3b1c",
-    "parents": "5881c1f5041099000e714f0c42d3b48eef6e98a7",
-    "subject": "Editorial: more explicit handling of [[PromiseResult]]"
-   }
-  ],
-  "title": "Editorial: more explicit handling of [[PromiseResult]]",
-  "updated_at": "2024-11-20T23:39:40Z"
  },
  {
   "base": "5881c1f5041099000e714f0c42d3b48eef6e98a7",
@@ -1352,32 +1304,24 @@
   "updated_at": "2024-05-23T13:58:25Z"
  },
  {
-  "base": "82c99bbc44e4b63e3a14ffbf0ac90ce8359c1010",
+  "base": "fe206cdb1cdfea6416e64ec9314b2038db706f8a",
   "created_at": "2023-11-20T22:30:41Z",
-  "head": "36c0034f6432f29aee7a287e182a90396291ce7d",
+  "head": "e43f65f5318fbe8e893b4074e9b1f685bbe7e5c7",
   "login": "syg",
   "number": 3226,
   "ref": "stop-tracking-sloppy-eval-global-vars",
   "revs": [
    {
-    "adate": "2023-11-20T15:23:26-08:00",
-    "author": "Shu-yu Guo",
-    "date": "2023-11-20T15:23:50-08:00",
-    "hash": "36c0034f6432f29aee7a287e182a90396291ce7d",
-    "parents": "087e75309507b1366bbd6a80a459ca8e12bb4bfa",
-    "subject": "Tweak note wording; fix stray word"
-   },
-   {
     "adate": "2023-11-20T14:17:24-08:00",
     "author": "Shu-yu Guo",
-    "date": "2023-11-20T14:17:24-08:00",
-    "hash": "087e75309507b1366bbd6a80a459ca8e12bb4bfa",
-    "parents": "82c99bbc44e4b63e3a14ffbf0ac90ce8359c1010",
+    "date": "2025-01-08T14:51:45-08:00",
+    "hash": "e43f65f5318fbe8e893b4074e9b1f685bbe7e5c7",
+    "parents": "fe206cdb1cdfea6416e64ec9314b2038db706f8a",
     "subject": "Normative: Remove [[VarNames]] from the global"
    }
   ],
   "title": "Normative: Remove [[VarNames]] from the global",
-  "updated_at": "2023-11-20T23:26:49Z"
+  "updated_at": "2025-01-08T23:09:47Z"
  },
  {
   "base": "82c99bbc44e4b63e3a14ffbf0ac90ce8359c1010",
