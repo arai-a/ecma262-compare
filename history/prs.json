@@ -20,24 +20,24 @@
   "updated_at": "2024-12-28T17:06:22Z"
  },
  {
-  "base": "c4042979a7cdd96b663ffcc43aeee90af8d7a576",
+  "base": "a13104dfd6f2c35261389c3a5bc16053b567267f",
   "created_at": "2024-12-19T19:44:26Z",
-  "head": "3354e867580bc9ca173e4c5a6041b01ef145733c",
+  "head": "10cc1b7c788e77efd3f535ba4148390e2034ab30",
   "login": "linusg",
   "number": 3511,
   "ref": "globalenv-undefined",
   "revs": [
    {
-    "adate": "2024-12-19T19:41:55Z",
+    "adate": "2025-01-08T15:30:32-08:00",
     "author": "Linus Groh",
-    "date": "2024-12-19T19:41:55Z",
-    "hash": "3354e867580bc9ca173e4c5a6041b01ef145733c",
-    "parents": "c4042979a7cdd96b663ffcc43aeee90af8d7a576",
-    "subject": "Editorial: Don't set [[GlobalEnv]] to undefined temporarily"
+    "date": "2025-01-08T15:30:32-08:00",
+    "hash": "10cc1b7c788e77efd3f535ba4148390e2034ab30",
+    "parents": "a13104dfd6f2c35261389c3a5bc16053b567267f",
+    "subject": "Editorial: Don't set [[GlobalEnv]] to undefined temporarily (#3511)"
    }
   ],
   "title": "Editorial: Don't set [[GlobalEnv]] to undefined temporarily",
-  "updated_at": "2024-12-19T19:44:26Z"
+  "updated_at": "2025-01-08T23:30:49Z"
  },
  {
   "base": "c4042979a7cdd96b663ffcc43aeee90af8d7a576",
