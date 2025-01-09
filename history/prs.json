@@ -20,26 +20,6 @@
   "updated_at": "2024-12-28T17:06:22Z"
  },
  {
-  "base": "a13104dfd6f2c35261389c3a5bc16053b567267f",
-  "created_at": "2024-12-19T19:44:26Z",
-  "head": "10cc1b7c788e77efd3f535ba4148390e2034ab30",
-  "login": "linusg",
-  "number": 3511,
-  "ref": "globalenv-undefined",
-  "revs": [
-   {
-    "adate": "2025-01-08T15:30:32-08:00",
-    "author": "Linus Groh",
-    "date": "2025-01-08T15:30:32-08:00",
-    "hash": "10cc1b7c788e77efd3f535ba4148390e2034ab30",
-    "parents": "a13104dfd6f2c35261389c3a5bc16053b567267f",
-    "subject": "Editorial: Don't set [[GlobalEnv]] to undefined temporarily (#3511)"
-   }
-  ],
-  "title": "Editorial: Don't set [[GlobalEnv]] to undefined temporarily",
-  "updated_at": "2025-01-08T23:30:49Z"
- },
- {
   "base": "c4042979a7cdd96b663ffcc43aeee90af8d7a576",
   "created_at": "2024-12-09T06:31:14Z",
   "head": "e12b48d726fc2924412dbc00ae7786b66cf318aa",
@@ -60,9 +40,9 @@
   "updated_at": "2025-01-08T18:27:14Z"
  },
  {
-  "base": "3e6f71c9402f91344ef9560425cc1e8fc45abf86",
+  "base": "f55b180957aa626ef8f87311e2e3b469dff0bf17",
   "created_at": "2024-12-06T18:17:16Z",
-  "head": "715038e4aee458f2867d4b39489d22e5bc2299e4",
+  "head": "267ffc44fcc86cede3bd984a144e24851cc1fe93",
   "login": "ljharb",
   "number": 3506,
   "ref": "update-actions",
@@ -71,13 +51,13 @@
     "adate": "2024-12-06T10:23:44-08:00",
     "author": "Jordan Harband",
     "date": "2024-12-06T10:23:44-08:00",
-    "hash": "715038e4aee458f2867d4b39489d22e5bc2299e4",
-    "parents": "3e6f71c9402f91344ef9560425cc1e8fc45abf86",
+    "hash": "267ffc44fcc86cede3bd984a144e24851cc1fe93",
+    "parents": "f55b180957aa626ef8f87311e2e3b469dff0bf17",
     "subject": "Meta: update upload-artifact action prior to deprecation (#3506)"
    }
   ],
   "title": "Meta: update upload-artifact action prior to deprecation",
-  "updated_at": "2024-12-06T18:23:50Z"
+  "updated_at": "2025-01-09T00:53:02Z"
  },
  {
   "base": "cf5938e6d9f1a726d2034a288cedeaa0067e1084",
@@ -120,9 +100,9 @@
   "updated_at": "2024-11-21T15:50:18Z"
  },
  {
-  "base": "5881c1f5041099000e714f0c42d3b48eef6e98a7",
+  "base": "10cc1b7c788e77efd3f535ba4148390e2034ab30",
   "created_at": "2024-11-21T12:12:06Z",
-  "head": "5e03a5acc33a4226eca177eca4740e68204f6cdb",
+  "head": "72c1a4eaa106e2b33e7e2d963e8412ca1bc03f03",
   "login": "kimjg1119",
   "number": 3495,
   "ref": "make-match-indicies",
@@ -130,14 +110,14 @@
    {
     "adate": "2024-11-21T20:59:41+09:00",
     "author": "Jungyeom Kim",
-    "date": "2024-11-21T20:59:41+09:00",
-    "hash": "5e03a5acc33a4226eca177eca4740e68204f6cdb",
-    "parents": "5881c1f5041099000e714f0c42d3b48eef6e98a7",
+    "date": "2025-01-08T16:27:34-08:00",
+    "hash": "72c1a4eaa106e2b33e7e2d963e8412ca1bc03f03",
+    "parents": "10cc1b7c788e77efd3f535ba4148390e2034ab30",
     "subject": "allocate first"
    }
   ],
   "title": "Editorial: Allocate-and-use in MakeMatchIndicesIndexPairArray for refinement",
-  "updated_at": "2024-11-21T12:12:06Z"
+  "updated_at": "2025-01-09T00:27:36Z"
  },
  {
   "base": "38f68d784811ac566c39807f2a6e2617a32ba9ae",
@@ -1370,82 +1350,6 @@
   ],
   "title": "Editorial: Separate cover grammar text into a subsection with autolink targets",
   "updated_at": "2023-11-18T19:49:39Z"
- },
- {
-  "base": "38f68d784811ac566c39807f2a6e2617a32ba9ae",
-  "created_at": "2023-11-15T21:52:40Z",
-  "head": "478b81532106c8a9a6654df72fb0ca7ee52eda32",
-  "login": "rbuckton",
-  "number": 3221,
-  "ref": "regexp-modifiers",
-  "revs": [
-   {
-    "adate": "2025-01-08T17:36:57-05:00",
-    "author": "Ron Buckton",
-    "date": "2025-01-08T17:36:57-05:00",
-    "hash": "478b81532106c8a9a6654df72fb0ca7ee52eda32",
-    "parents": "374b90bb53b234c01c4ab186be727af4fcb3ca16",
-    "subject": "Remove CodePointsToString in calls to UpdateModifiers"
-   },
-   {
-    "adate": "2024-09-27T19:55:26-04:00",
-    "author": "Ron Buckton",
-    "date": "2024-09-27T19:55:26-04:00",
-    "hash": "374b90bb53b234c01c4ab186be727af4fcb3ca16",
-    "parents": "9a0069f5b4161ed576bd5eebb8f34c1d7bc1ab9a",
-    "subject": "Add assertion to UpdateModifiers"
-   },
-   {
-    "adate": "2024-09-27T19:53:52-04:00",
-    "author": "Ron Buckton",
-    "date": "2024-09-27T19:53:52-04:00",
-    "hash": "9a0069f5b4161ed576bd5eebb8f34c1d7bc1ab9a",
-    "parents": "8e288c77a92c923b9f028b58c5678fc361464d4f",
-    "subject": "Use else-if when handling modifiers"
-   },
-   {
-    "adate": "2024-09-27T12:13:44-04:00",
-    "author": "Ron Buckton",
-    "date": "2024-09-27T12:13:44-04:00",
-    "hash": "8e288c77a92c923b9f028b58c5678fc361464d4f",
-    "parents": "5a694e4e35b43f6cc6243573ba5beb083d92029e 7df8f590e9f3c57a2783c5c26eeb631fe211f51b",
-    "subject": "Merge branch 'main' into regexp-modifiers"
-   },
-   {
-    "adate": "2024-09-26T17:48:04-04:00",
-    "author": "Ron Buckton",
-    "date": "2024-09-26T17:48:04-04:00",
-    "hash": "5a694e4e35b43f6cc6243573ba5beb083d92029e",
-    "parents": "0d2db20f99c379cede28c3bcb16b6d4536cae970",
-    "subject": "Address PR feedback from @michaelficarra"
-   },
-   {
-    "adate": "2024-09-26T17:43:36-04:00",
-    "author": "Ron Buckton",
-    "date": "2024-09-26T17:43:36-04:00",
-    "hash": "0d2db20f99c379cede28c3bcb16b6d4536cae970",
-    "parents": "a33dceda606d8f06d787aa7ec397c8786c48d810",
-    "subject": "Address PR feedback from @jmdyck"
-   },
-   {
-    "adate": "2024-09-26T17:41:59-04:00",
-    "author": "Ron Buckton",
-    "date": "2024-09-26T17:41:59-04:00",
-    "hash": "a33dceda606d8f06d787aa7ec397c8786c48d810",
-    "parents": "7f39d7b365e45a3e9251834c2af93124965bbb07 a92f3e906943ee1abdbf924a27c966524474f0c4",
-    "subject": "Merge branch 'main' into regexp-modifiers"
-   },
-   {
-    "adate": "2023-11-15T16:48:53-05:00",
-    "author": "Ron Buckton",
-    "date": "2023-11-15T16:48:53-05:00",
-    "hash": "7f39d7b365e45a3e9251834c2af93124965bbb07",
-    "parents": "82c99bbc44e4b63e3a14ffbf0ac90ce8359c1010",
-    "subject": "Add spec text for RegExp Modifiers"
-   }
-  ],
-  "title": "Add spec text for RegExp Modifiers",
-  "updated_at": "2025-01-08T22:39:46Z"
  },
  {
   "base": "82c99bbc44e4b63e3a14ffbf0ac90ce8359c1010",
