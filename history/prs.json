@@ -1,23 +1,39 @@
 [
  {
   "base": "f55b180957aa626ef8f87311e2e3b469dff0bf17",
-  "created_at": "2025-01-11T15:28:00Z",
-  "head": "54c435bb15c5078529874204556f9511bd6edf11",
-  "login": "aapoalas",
-  "number": 3522,
-  "ref": "fix/async-generator-complete-step-no-user-code",
+  "created_at": "2025-01-12T17:51:16Z",
+  "head": "ca1e00a27153e70c0f275a19e9278687c1fde55a",
+  "login": "gibson042",
+  "number": 3523,
+  "ref": "2025-01-negative-zero-comparisons",
   "revs": [
    {
-    "adate": "2025-01-11T17:24:55+02:00",
-    "author": "Aapo Alasuutari",
-    "date": "2025-01-11T17:24:55+02:00",
-    "hash": "54c435bb15c5078529874204556f9511bd6edf11",
+    "adate": "2025-01-12T12:46:17-05:00",
+    "author": "Richard Gibson",
+    "date": "2025-01-12T12:46:17-05:00",
+    "hash": "ca1e00a27153e70c0f275a19e9278687c1fde55a",
+    "parents": "1265ed62a2334f5c1a18345128647e3597e39d30",
+    "subject": "Editorial: Clean up StringGetOwnProperty"
+   },
+   {
+    "adate": "2025-01-12T12:43:56-05:00",
+    "author": "Richard Gibson",
+    "date": "2025-01-12T12:43:56-05:00",
+    "hash": "1265ed62a2334f5c1a18345128647e3597e39d30",
+    "parents": "fd575b68b5353b66445dc0dc841801a6db0af23f",
+    "subject": "Editorial: Consolidate static bounds checking in IsValidIntegerIndex and StringGetOwnProperty"
+   },
+   {
+    "adate": "2025-01-12T12:36:39-05:00",
+    "author": "Richard Gibson",
+    "date": "2025-01-12T12:36:39-05:00",
+    "hash": "fd575b68b5353b66445dc0dc841801a6db0af23f",
     "parents": "f55b180957aa626ef8f87311e2e3b469dff0bf17",
-    "subject": "fix: AsyncGeneratorComplete cannot call user code"
+    "subject": "Editorial: When zero bounds a Number range, always use `< -0\ud835\udd3d` or `> +0\ud835\udd3d`"
    }
   ],
-  "title": "fix: AsyncGeneratorComplete cannot call user code",
-  "updated_at": "2025-01-11T15:28:00Z"
+  "title": "Editorial: Update range comparisons involving a zero",
+  "updated_at": "2025-01-12T17:51:16Z"
  },
  {
   "base": "f55b180957aa626ef8f87311e2e3b469dff0bf17",
