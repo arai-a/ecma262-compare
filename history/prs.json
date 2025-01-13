@@ -2,11 +2,19 @@
  {
   "base": "f55b180957aa626ef8f87311e2e3b469dff0bf17",
   "created_at": "2025-01-12T17:51:16Z",
-  "head": "ca1e00a27153e70c0f275a19e9278687c1fde55a",
+  "head": "060a90e56aca4683ccf81d155fe49dd6912d2c3a",
   "login": "gibson042",
   "number": 3523,
   "ref": "2025-01-negative-zero-comparisons",
   "revs": [
+   {
+    "adate": "2025-01-13T14:16:55-05:00",
+    "author": "Richard Gibson",
+    "date": "2025-01-13T14:16:55-05:00",
+    "hash": "060a90e56aca4683ccf81d155fe49dd6912d2c3a",
+    "parents": "ca1e00a27153e70c0f275a19e9278687c1fde55a",
+    "subject": "Build: Remove no-longer-needed ops from esmeta-ignore.json"
+   },
    {
     "adate": "2025-01-12T12:46:17-05:00",
     "author": "Richard Gibson",
@@ -33,7 +41,7 @@
    }
   ],
   "title": "Editorial: Update range comparisons involving a zero",
-  "updated_at": "2025-01-12T17:51:16Z"
+  "updated_at": "2025-01-13T19:17:02Z"
  },
  {
   "base": "f55b180957aa626ef8f87311e2e3b469dff0bf17",
