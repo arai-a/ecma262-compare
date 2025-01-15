@@ -1,6 +1,26 @@
 [
  {
   "base": "f55b180957aa626ef8f87311e2e3b469dff0bf17",
+  "created_at": "2025-01-15T22:47:41Z",
+  "head": "da5377d4d39bc39d04246c28010c7b977343a8d5",
+  "login": "tc39",
+  "number": 3525,
+  "ref": "symbol-for-record",
+  "revs": [
+   {
+    "adate": "2025-01-15T14:46:18-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2025-01-15T15:07:37-08:00",
+    "hash": "da5377d4d39bc39d04246c28010c7b977343a8d5",
+    "parents": "f55b180957aa626ef8f87311e2e3b469dff0bf17",
+    "subject": "Editorial: consistency around how we refer to GlobalSymbolRegistry stuff"
+   }
+  ],
+  "title": "Editorial: consistency around how we refer to GlobalSymbolRegistry stuff",
+  "updated_at": "2025-01-15T23:08:28Z"
+ },
+ {
+  "base": "f55b180957aa626ef8f87311e2e3b469dff0bf17",
   "created_at": "2025-01-14T06:51:15Z",
   "head": "43ae527164e500f301dce5b3498a6518fa9775bd",
   "login": "OnlyWick",
@@ -256,13 +276,29 @@
   "updated_at": "2024-12-30T18:45:19Z"
  },
  {
-  "base": "5881c1f5041099000e714f0c42d3b48eef6e98a7",
+  "base": "38f68d784811ac566c39807f2a6e2617a32ba9ae",
   "created_at": "2024-11-20T13:32:05Z",
-  "head": "5a119c89d93960ecf9a8d4d0369ec2a5d8145dfd",
+  "head": "43bd0d6d285fd034d2979b38eed99791ce1dbf5e",
   "login": "kimjg1119",
   "number": 3488,
   "ref": "resolve-export",
   "revs": [
+   {
+    "adate": "2025-01-15T14:58:56-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2025-01-15T14:58:56-08:00",
+    "hash": "43bd0d6d285fd034d2979b38eed99791ce1dbf5e",
+    "parents": "167561a2770c56956a43c15b71eabb43a17131bf",
+    "subject": "fixup! update esmeta-ignore"
+   },
+   {
+    "adate": "2025-01-15T14:53:58-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2025-01-15T14:53:58-08:00",
+    "hash": "167561a2770c56956a43c15b71eabb43a17131bf",
+    "parents": "5a119c89d93960ecf9a8d4d0369ec2a5d8145dfd",
+    "subject": "change assert"
+   },
    {
     "adate": "2024-11-21T14:33:37+09:00",
     "author": "Jungyeom Kim",
@@ -281,7 +317,7 @@
    }
   ],
   "title": "Editorial: Handle non-direct binding cases in ResolveExports",
-  "updated_at": "2024-11-21T05:33:48Z"
+  "updated_at": "2025-01-15T22:59:00Z"
  },
  {
   "base": "4c44bbed7c5a7df90705a58aaa08d2a6c5b9b596",
@@ -332,13 +368,21 @@
   "updated_at": "2024-11-03T23:27:56Z"
  },
  {
-  "base": "4c44bbed7c5a7df90705a58aaa08d2a6c5b9b596",
+  "base": "38f68d784811ac566c39807f2a6e2617a32ba9ae",
   "created_at": "2024-11-01T13:13:47Z",
-  "head": "f2f8cdbe0d433d36bd97d5eb18798e5cf91b8e65",
+  "head": "ca34a980ed4141e289109557a292ed128ec98d1e",
   "login": "kimjg1119",
   "number": 3466,
   "ref": "super-call",
   "revs": [
+   {
+    "adate": "2025-01-15T15:57:55-07:00",
+    "author": "Michael Ficarra",
+    "date": "2025-01-15T15:57:55-07:00",
+    "hash": "ca34a980ed4141e289109557a292ed128ec98d1e",
+    "parents": "f2f8cdbe0d433d36bd97d5eb18798e5cf91b8e65",
+    "subject": "change [[NewTarget]] slot type in Function Environment Records"
+   },
    {
     "adate": "2024-11-01T22:07:14+09:00",
     "author": "Jungyeom Kim",
@@ -349,7 +393,7 @@
    }
   ],
   "title": "Editorial: Narrowing an assertion in SuperCall: super Arguments",
-  "updated_at": "2024-11-01T13:13:47Z"
+  "updated_at": "2025-01-15T22:58:50Z"
  },
  {
   "base": "4c44bbed7c5a7df90705a58aaa08d2a6c5b9b596",
