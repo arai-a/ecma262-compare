@@ -1,5 +1,29 @@
 [
  {
+  "adate": "2025-01-16T09:10:29-08:00",
+  "author": "Richard Gibson",
+  "date": "2025-01-16T09:10:29-08:00",
+  "hash": "f2eff8dad157b2f690c9dd42314d7ead8df0c602",
+  "parents": "0d1e2a8e454c1138ef361835095a1a5ec1997c49",
+  "subject": "Editorial: Clean up StringGetOwnProperty (#3523)"
+ },
+ {
+  "adate": "2025-01-16T09:10:27-08:00",
+  "author": "Richard Gibson",
+  "date": "2025-01-16T09:10:27-08:00",
+  "hash": "0d1e2a8e454c1138ef361835095a1a5ec1997c49",
+  "parents": "9574c502b8bd09c7e72f13495671fd993247013a",
+  "subject": "Editorial: Consolidate static bounds checking in IsValidIntegerIndex and StringGetOwnProperty (#3523)"
+ },
+ {
+  "adate": "2025-01-16T09:10:19-08:00",
+  "author": "Richard Gibson",
+  "date": "2025-01-16T09:10:19-08:00",
+  "hash": "9574c502b8bd09c7e72f13495671fd993247013a",
+  "parents": "1f6ac07cab8f5eb55f08a9ae978c1be168969f63",
+  "subject": "Editorial: When zero bounds a Number range, always use `< -0\ud835\udd3d` or `> +0\ud835\udd3d` (#3523)"
+ },
+ {
   "adate": "2025-01-15T23:20:46-08:00",
   "author": "Jungyeom Kim",
   "date": "2025-01-15T23:20:46-08:00",
