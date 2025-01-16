@@ -2,11 +2,19 @@
  {
   "base": "f55b180957aa626ef8f87311e2e3b469dff0bf17",
   "created_at": "2025-01-15T22:47:41Z",
-  "head": "da5377d4d39bc39d04246c28010c7b977343a8d5",
+  "head": "fc178eeba795982cc4e61adb4692d6e38a7ef60f",
   "login": "tc39",
   "number": 3525,
   "ref": "symbol-for-record",
   "revs": [
+   {
+    "adate": "2025-01-16T13:40:15-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2025-01-16T13:40:15-08:00",
+    "hash": "fc178eeba795982cc4e61adb4692d6e38a7ef60f",
+    "parents": "da5377d4d39bc39d04246c28010c7b977343a8d5",
+    "subject": "fixup! drop unnecessary parenthetical"
+   },
    {
     "adate": "2025-01-15T14:46:18-08:00",
     "author": "Kevin Gibbons",
@@ -17,7 +25,7 @@
    }
   ],
   "title": "Editorial: consistency around how we refer to GlobalSymbolRegistry stuff",
-  "updated_at": "2025-01-15T23:08:28Z"
+  "updated_at": "2025-01-16T21:40:19Z"
  },
  {
   "base": "f55b180957aa626ef8f87311e2e3b469dff0bf17",
@@ -38,42 +46,6 @@
   ],
   "title": "Editorial: AsyncArrowFunction does not have this",
   "updated_at": "2025-01-14T06:51:15Z"
- },
- {
-  "base": "1f6ac07cab8f5eb55f08a9ae978c1be168969f63",
-  "created_at": "2025-01-12T17:51:16Z",
-  "head": "f2eff8dad157b2f690c9dd42314d7ead8df0c602",
-  "login": "gibson042",
-  "number": 3523,
-  "ref": "2025-01-negative-zero-comparisons",
-  "revs": [
-   {
-    "adate": "2025-01-16T09:10:29-08:00",
-    "author": "Richard Gibson",
-    "date": "2025-01-16T09:10:29-08:00",
-    "hash": "f2eff8dad157b2f690c9dd42314d7ead8df0c602",
-    "parents": "0d1e2a8e454c1138ef361835095a1a5ec1997c49",
-    "subject": "Editorial: Clean up StringGetOwnProperty (#3523)"
-   },
-   {
-    "adate": "2025-01-16T09:10:27-08:00",
-    "author": "Richard Gibson",
-    "date": "2025-01-16T09:10:27-08:00",
-    "hash": "0d1e2a8e454c1138ef361835095a1a5ec1997c49",
-    "parents": "9574c502b8bd09c7e72f13495671fd993247013a",
-    "subject": "Editorial: Consolidate static bounds checking in IsValidIntegerIndex and StringGetOwnProperty (#3523)"
-   },
-   {
-    "adate": "2025-01-16T09:10:19-08:00",
-    "author": "Richard Gibson",
-    "date": "2025-01-16T09:10:19-08:00",
-    "hash": "9574c502b8bd09c7e72f13495671fd993247013a",
-    "parents": "1f6ac07cab8f5eb55f08a9ae978c1be168969f63",
-    "subject": "Editorial: When zero bounds a Number range, always use `< -0\ud835\udd3d` or `> +0\ud835\udd3d` (#3523)"
-   }
-  ],
-  "title": "Editorial: Update range comparisons involving a zero",
-  "updated_at": "2025-01-16T17:10:51Z"
  },
  {
   "base": "f55b180957aa626ef8f87311e2e3b469dff0bf17",
