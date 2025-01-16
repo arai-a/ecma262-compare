@@ -204,24 +204,24 @@
   "updated_at": "2024-11-21T15:50:18Z"
  },
  {
-  "base": "10cc1b7c788e77efd3f535ba4148390e2034ab30",
+  "base": "e645d2c8d73414f08024adef617f337f723095ad",
   "created_at": "2024-11-21T12:12:06Z",
-  "head": "72c1a4eaa106e2b33e7e2d963e8412ca1bc03f03",
+  "head": "ecef7631116e804d729a30957cf0862f2877a8ab",
   "login": "kimjg1119",
   "number": 3495,
   "ref": "make-match-indicies",
   "revs": [
    {
-    "adate": "2024-11-21T20:59:41+09:00",
+    "adate": "2025-01-15T22:07:59-08:00",
     "author": "Jungyeom Kim",
-    "date": "2025-01-08T16:27:34-08:00",
-    "hash": "72c1a4eaa106e2b33e7e2d963e8412ca1bc03f03",
-    "parents": "10cc1b7c788e77efd3f535ba4148390e2034ab30",
-    "subject": "allocate first"
+    "date": "2025-01-15T22:07:59-08:00",
+    "hash": "ecef7631116e804d729a30957cf0862f2877a8ab",
+    "parents": "e645d2c8d73414f08024adef617f337f723095ad",
+    "subject": "Editorial: Allocate-and-use in MakeMatchIndicesIndexPairArray for refinement (#3495)"
    }
   ],
   "title": "Editorial: Allocate-and-use in MakeMatchIndicesIndexPairArray for refinement",
-  "updated_at": "2025-01-09T00:27:36Z"
+  "updated_at": "2025-01-16T06:08:26Z"
  },
  {
   "base": "38f68d784811ac566c39807f2a6e2617a32ba9ae",
@@ -274,26 +274,6 @@
   ],
   "title": "Normative: Source Phase Imports rebased to Import Attributes",
   "updated_at": "2024-12-30T18:45:19Z"
- },
- {
-  "base": "519149d747acf70de3e8f5de4845d9164aaa2245",
-  "created_at": "2024-11-20T13:32:05Z",
-  "head": "e645d2c8d73414f08024adef617f337f723095ad",
-  "login": "kimjg1119",
-  "number": 3488,
-  "ref": "resolve-export",
-  "revs": [
-   {
-    "adate": "2025-01-15T21:33:17-08:00",
-    "author": "Jungyeom Kim",
-    "date": "2025-01-15T21:33:17-08:00",
-    "hash": "e645d2c8d73414f08024adef617f337f723095ad",
-    "parents": "519149d747acf70de3e8f5de4845d9164aaa2245",
-    "subject": "Editorial: Add [[ImportName]] assertion for non-direct binding cases in ResolveExports (#3488)"
-   }
-  ],
-  "title": "Editorial: Add [[ImportName]] assertion for non-direct binding cases in ResolveExports",
-  "updated_at": "2025-01-16T05:33:32Z"
  },
  {
   "base": "4c44bbed7c5a7df90705a58aaa08d2a6c5b9b596",
