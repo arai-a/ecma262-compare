@@ -618,7 +618,7 @@
  {
   "base": "810a33f9130746f481746f7907a05cf83bca298e",
   "created_at": "2024-07-29T00:41:48Z",
-  "head": "d97ead516a6d6d5bf7be8f5b8b549979a4851432",
+  "head": "d72ef98ae21edabebce876ab67f6ae59e0d905c4",
   "login": "tc39",
   "number": 3381,
   "ref": "reduce-methods",
@@ -626,94 +626,22 @@
    {
     "adate": "2025-01-29T14:59:24-08:00",
     "author": "Kevin Gibbons",
-    "date": "2025-01-29T15:02:59-08:00",
-    "hash": "d97ead516a6d6d5bf7be8f5b8b549979a4851432",
-    "parents": "2d5855e2502448eb2fb780d08165d180b3f5719f",
+    "date": "2025-01-29T15:20:23-08:00",
+    "hash": "d72ef98ae21edabebce876ab67f6ae59e0d905c4",
+    "parents": "399bda9711ba8d7e97eafd6699f8abbee4e7f371",
     "subject": "Editorial: add assertion in MakeSuperPropertyReference"
-   },
-   {
-    "adate": "2024-07-28T17:38:06-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2025-01-29T14:56:55-08:00",
-    "hash": "2d5855e2502448eb2fb780d08165d180b3f5719f",
-    "parents": "3c138ec85feb38beca7ba739f815d35719ac90dc",
-    "subject": "make BindThisValue return unused, as caught by linter"
-   },
-   {
-    "adate": "2024-07-28T17:37:02-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2025-01-29T14:56:55-08:00",
-    "hash": "3c138ec85feb38beca7ba739f815d35719ac90dc",
-    "parents": "d396b8acecbeaf2b3d59b69d95dc0a733263cdbf",
-    "subject": "make CreateImportBinding a regular AO"
-   },
-   {
-    "adate": "2024-07-28T17:35:51-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2025-01-29T14:56:55-08:00",
-    "hash": "d396b8acecbeaf2b3d59b69d95dc0a733263cdbf",
-    "parents": "48c5c944e74473d63eb68ec9fcbc68ada44f2f96",
-    "subject": "make CreateGlobalFunctionBinding a regular AO"
-   },
-   {
-    "adate": "2024-07-28T17:34:08-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2025-01-29T14:56:55-08:00",
-    "hash": "48c5c944e74473d63eb68ec9fcbc68ada44f2f96",
-    "parents": "ad6436985461d557ef3dbea4777d3239d22aa66c",
-    "subject": "make CreateGlobalVarBinding a regular AO"
-   },
-   {
-    "adate": "2024-07-28T17:28:30-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2025-01-29T14:56:54-08:00",
-    "hash": "ad6436985461d557ef3dbea4777d3239d22aa66c",
-    "parents": "0b7b8c8c8422193f387158584fa1926f3d3e8816",
-    "subject": "make CanDeclareGlobalFunction a regular AO"
-   },
-   {
-    "adate": "2024-07-28T17:27:30-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2025-01-29T14:56:54-08:00",
-    "hash": "0b7b8c8c8422193f387158584fa1926f3d3e8816",
-    "parents": "3b7ca8278e1819760387dc08467797ae0086940a",
-    "subject": "make CanDeclareGlobalVar a regular AO"
-   },
-   {
-    "adate": "2024-07-28T17:23:50-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2025-01-29T14:56:54-08:00",
-    "hash": "3b7ca8278e1819760387dc08467797ae0086940a",
-    "parents": "793f9c9c96a8bd1539e888b3a64df3d12bdc37c5",
-    "subject": "make HasLexicalDeclaration a regular AO"
-   },
-   {
-    "adate": "2024-07-28T17:21:49-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2025-01-29T14:56:54-08:00",
-    "hash": "793f9c9c96a8bd1539e888b3a64df3d12bdc37c5",
-    "parents": "124c249f3c0355d2e1c6d45ad522fa240bfecff3",
-    "subject": "make HasVarDeclaration a regular AO"
-   },
-   {
-    "adate": "2024-07-28T17:18:53-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2025-01-29T14:56:53-08:00",
-    "hash": "124c249f3c0355d2e1c6d45ad522fa240bfecff3",
-    "parents": "e2af25abe5efbb98cb6482595abc8d8e5669a8f7",
-    "subject": "make GetSuperBase a regular AO"
    },
    {
     "adate": "2024-07-28T17:15:45-07:00",
     "author": "Kevin Gibbons",
-    "date": "2025-01-29T14:55:54-08:00",
-    "hash": "e2af25abe5efbb98cb6482595abc8d8e5669a8f7",
+    "date": "2025-01-29T15:20:23-08:00",
+    "hash": "399bda9711ba8d7e97eafd6699f8abbee4e7f371",
     "parents": "810a33f9130746f481746f7907a05cf83bca298e",
-    "subject": "make BindThisValue a regular AO"
+    "subject": "Editorial: make single-implementation concrete methods into abstract operations"
    }
   ],
   "title": "Editorial: make single-implementation concrete methods into abstract operations",
-  "updated_at": "2025-01-29T23:13:35Z"
+  "updated_at": "2025-01-29T23:20:34Z"
  },
  {
   "base": "7a23e0e83597e4c8cfbbc1856a77cf8fc102e846",
