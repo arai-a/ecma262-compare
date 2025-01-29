@@ -384,13 +384,21 @@
   "updated_at": "2024-09-04T17:57:19Z"
  },
  {
-  "base": "815aa8a4d68ce24bec81ba6789c37d55bc87b54a",
+  "base": "38f68d784811ac566c39807f2a6e2617a32ba9ae",
   "created_at": "2024-09-01T23:58:23Z",
-  "head": "d063694bae534c4602162f6ef642f4ad2d45ab4e",
+  "head": "9be7fb30bbcb59cf8f13753ad2b0229395d3e2de",
   "login": "tc39",
   "number": 3411,
   "ref": "simplify-drain-queue",
   "revs": [
+   {
+    "adate": "2025-01-29T14:50:34-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2025-01-29T14:50:34-08:00",
+    "hash": "9be7fb30bbcb59cf8f13753ad2b0229395d3e2de",
+    "parents": "d063694bae534c4602162f6ef642f4ad2d45ab4e",
+    "subject": "fixup! more refactor"
+   },
    {
     "adate": "2024-09-01T16:54:15-07:00",
     "author": "Kevin Gibbons",
@@ -401,7 +409,7 @@
    }
   ],
   "title": "Editorial: simplify AsyncGeneratorDrainQueue",
-  "updated_at": "2024-09-01T23:58:23Z"
+  "updated_at": "2025-01-29T22:51:16Z"
  },
  {
   "base": "6c621d2efb89ac03a0e4a1fbc8f721b206a5027e",
@@ -608,96 +616,104 @@
   "updated_at": "2024-10-22T15:34:52Z"
  },
  {
-  "base": "f2b2d524a56c915826e90d7a3f9daa51a49011c3",
+  "base": "810a33f9130746f481746f7907a05cf83bca298e",
   "created_at": "2024-07-29T00:41:48Z",
-  "head": "cb399ae108bbd44ab3ecc859699e0c5940ad60b5",
+  "head": "d97ead516a6d6d5bf7be8f5b8b549979a4851432",
   "login": "tc39",
   "number": 3381,
   "ref": "reduce-methods",
   "revs": [
    {
+    "adate": "2025-01-29T14:59:24-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2025-01-29T15:02:59-08:00",
+    "hash": "d97ead516a6d6d5bf7be8f5b8b549979a4851432",
+    "parents": "2d5855e2502448eb2fb780d08165d180b3f5719f",
+    "subject": "Editorial: add assertion in MakeSuperPropertyReference"
+   },
+   {
     "adate": "2024-07-28T17:38:06-07:00",
     "author": "Kevin Gibbons",
-    "date": "2024-07-28T17:38:06-07:00",
-    "hash": "cb399ae108bbd44ab3ecc859699e0c5940ad60b5",
-    "parents": "11661bde7a940d3d6327433242c38e1dde654ad5",
+    "date": "2025-01-29T14:56:55-08:00",
+    "hash": "2d5855e2502448eb2fb780d08165d180b3f5719f",
+    "parents": "3c138ec85feb38beca7ba739f815d35719ac90dc",
     "subject": "make BindThisValue return unused, as caught by linter"
    },
    {
     "adate": "2024-07-28T17:37:02-07:00",
     "author": "Kevin Gibbons",
-    "date": "2024-07-28T17:37:02-07:00",
-    "hash": "11661bde7a940d3d6327433242c38e1dde654ad5",
-    "parents": "530c66cbff6ed6c9ddf0219186df6c15bc2a915d",
+    "date": "2025-01-29T14:56:55-08:00",
+    "hash": "3c138ec85feb38beca7ba739f815d35719ac90dc",
+    "parents": "d396b8acecbeaf2b3d59b69d95dc0a733263cdbf",
     "subject": "make CreateImportBinding a regular AO"
    },
    {
     "adate": "2024-07-28T17:35:51-07:00",
     "author": "Kevin Gibbons",
-    "date": "2024-07-28T17:35:51-07:00",
-    "hash": "530c66cbff6ed6c9ddf0219186df6c15bc2a915d",
-    "parents": "5770a8833039b6747721ddfa0f3dc4372e3c8aff",
+    "date": "2025-01-29T14:56:55-08:00",
+    "hash": "d396b8acecbeaf2b3d59b69d95dc0a733263cdbf",
+    "parents": "48c5c944e74473d63eb68ec9fcbc68ada44f2f96",
     "subject": "make CreateGlobalFunctionBinding a regular AO"
    },
    {
     "adate": "2024-07-28T17:34:08-07:00",
     "author": "Kevin Gibbons",
-    "date": "2024-07-28T17:34:08-07:00",
-    "hash": "5770a8833039b6747721ddfa0f3dc4372e3c8aff",
-    "parents": "2cd5471f5ef404a40ef0309283649c930c4c7222",
+    "date": "2025-01-29T14:56:55-08:00",
+    "hash": "48c5c944e74473d63eb68ec9fcbc68ada44f2f96",
+    "parents": "ad6436985461d557ef3dbea4777d3239d22aa66c",
     "subject": "make CreateGlobalVarBinding a regular AO"
    },
    {
     "adate": "2024-07-28T17:28:30-07:00",
     "author": "Kevin Gibbons",
-    "date": "2024-07-28T17:28:30-07:00",
-    "hash": "2cd5471f5ef404a40ef0309283649c930c4c7222",
-    "parents": "a2ae405ca1b72fd86dc87740eeb9a8d5c79c0501",
+    "date": "2025-01-29T14:56:54-08:00",
+    "hash": "ad6436985461d557ef3dbea4777d3239d22aa66c",
+    "parents": "0b7b8c8c8422193f387158584fa1926f3d3e8816",
     "subject": "make CanDeclareGlobalFunction a regular AO"
    },
    {
     "adate": "2024-07-28T17:27:30-07:00",
     "author": "Kevin Gibbons",
-    "date": "2024-07-28T17:27:30-07:00",
-    "hash": "a2ae405ca1b72fd86dc87740eeb9a8d5c79c0501",
-    "parents": "e1a3d21bab96775c430b950a1a2dc88560f7347b",
+    "date": "2025-01-29T14:56:54-08:00",
+    "hash": "0b7b8c8c8422193f387158584fa1926f3d3e8816",
+    "parents": "3b7ca8278e1819760387dc08467797ae0086940a",
     "subject": "make CanDeclareGlobalVar a regular AO"
    },
    {
     "adate": "2024-07-28T17:23:50-07:00",
     "author": "Kevin Gibbons",
-    "date": "2024-07-28T17:23:50-07:00",
-    "hash": "e1a3d21bab96775c430b950a1a2dc88560f7347b",
-    "parents": "025a467939c9ef83e016c26d6fddb85ac7546203",
+    "date": "2025-01-29T14:56:54-08:00",
+    "hash": "3b7ca8278e1819760387dc08467797ae0086940a",
+    "parents": "793f9c9c96a8bd1539e888b3a64df3d12bdc37c5",
     "subject": "make HasLexicalDeclaration a regular AO"
    },
    {
     "adate": "2024-07-28T17:21:49-07:00",
     "author": "Kevin Gibbons",
-    "date": "2024-07-28T17:21:54-07:00",
-    "hash": "025a467939c9ef83e016c26d6fddb85ac7546203",
-    "parents": "c7f2f5c997a022545e2cbef807c61ea226addd92",
+    "date": "2025-01-29T14:56:54-08:00",
+    "hash": "793f9c9c96a8bd1539e888b3a64df3d12bdc37c5",
+    "parents": "124c249f3c0355d2e1c6d45ad522fa240bfecff3",
     "subject": "make HasVarDeclaration a regular AO"
    },
    {
     "adate": "2024-07-28T17:18:53-07:00",
     "author": "Kevin Gibbons",
-    "date": "2024-07-28T17:18:53-07:00",
-    "hash": "c7f2f5c997a022545e2cbef807c61ea226addd92",
-    "parents": "2355fd4658f061934d273d5b57c34635517569a4",
+    "date": "2025-01-29T14:56:53-08:00",
+    "hash": "124c249f3c0355d2e1c6d45ad522fa240bfecff3",
+    "parents": "e2af25abe5efbb98cb6482595abc8d8e5669a8f7",
     "subject": "make GetSuperBase a regular AO"
    },
    {
     "adate": "2024-07-28T17:15:45-07:00",
     "author": "Kevin Gibbons",
-    "date": "2024-07-28T17:15:45-07:00",
-    "hash": "2355fd4658f061934d273d5b57c34635517569a4",
-    "parents": "f2b2d524a56c915826e90d7a3f9daa51a49011c3",
+    "date": "2025-01-29T14:55:54-08:00",
+    "hash": "e2af25abe5efbb98cb6482595abc8d8e5669a8f7",
+    "parents": "810a33f9130746f481746f7907a05cf83bca298e",
     "subject": "make BindThisValue a regular AO"
    }
   ],
   "title": "Editorial: make single-implementation concrete methods into abstract operations",
-  "updated_at": "2024-07-29T00:41:48Z"
+  "updated_at": "2025-01-29T23:13:35Z"
  },
  {
   "base": "7a23e0e83597e4c8cfbbc1856a77cf8fc102e846",
