@@ -100,24 +100,24 @@
   "updated_at": "2025-01-08T18:27:14Z"
  },
  {
-  "base": "f55b180957aa626ef8f87311e2e3b469dff0bf17",
+  "base": "810a33f9130746f481746f7907a05cf83bca298e",
   "created_at": "2024-12-06T18:17:16Z",
-  "head": "267ffc44fcc86cede3bd984a144e24851cc1fe93",
+  "head": "abbb649ef2770ef373183b820bf344a7b9eebdeb",
   "login": "ljharb",
   "number": 3506,
   "ref": "update-actions",
   "revs": [
    {
-    "adate": "2024-12-06T10:23:44-08:00",
+    "adate": "2025-02-03T21:23:42-08:00",
     "author": "Jordan Harband",
-    "date": "2024-12-06T10:23:44-08:00",
-    "hash": "267ffc44fcc86cede3bd984a144e24851cc1fe93",
-    "parents": "f55b180957aa626ef8f87311e2e3b469dff0bf17",
+    "date": "2025-02-03T21:42:01-08:00",
+    "hash": "abbb649ef2770ef373183b820bf344a7b9eebdeb",
+    "parents": "810a33f9130746f481746f7907a05cf83bca298e",
     "subject": "Meta: update upload-artifact action prior to deprecation (#3506)"
    }
   ],
   "title": "Meta: update upload-artifact action prior to deprecation",
-  "updated_at": "2025-01-09T00:53:02Z"
+  "updated_at": "2025-02-04T05:42:10Z"
  },
  {
   "base": "cf5938e6d9f1a726d2034a288cedeaa0067e1084",
@@ -638,30 +638,22 @@
  {
   "base": "810a33f9130746f481746f7907a05cf83bca298e",
   "created_at": "2024-07-29T00:41:48Z",
-  "head": "d72ef98ae21edabebce876ab67f6ae59e0d905c4",
+  "head": "2a7810ced2e8e761134b043cfec12d521f052f21",
   "login": "tc39",
   "number": 3381,
   "ref": "reduce-methods",
   "revs": [
    {
-    "adate": "2025-01-29T14:59:24-08:00",
+    "adate": "2025-02-03T21:14:31-08:00",
     "author": "Kevin Gibbons",
-    "date": "2025-01-29T15:20:23-08:00",
-    "hash": "d72ef98ae21edabebce876ab67f6ae59e0d905c4",
-    "parents": "399bda9711ba8d7e97eafd6699f8abbee4e7f371",
-    "subject": "Editorial: add assertion in MakeSuperPropertyReference"
-   },
-   {
-    "adate": "2024-07-28T17:15:45-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2025-01-29T15:20:23-08:00",
-    "hash": "399bda9711ba8d7e97eafd6699f8abbee4e7f371",
+    "date": "2025-02-03T21:14:31-08:00",
+    "hash": "2a7810ced2e8e761134b043cfec12d521f052f21",
     "parents": "810a33f9130746f481746f7907a05cf83bca298e",
-    "subject": "Editorial: make single-implementation concrete methods into abstract operations"
+    "subject": "Editorial: make single-implementation concrete methods into abstract operations (#3381)"
    }
   ],
   "title": "Editorial: make single-implementation concrete methods into abstract operations",
-  "updated_at": "2025-01-29T23:20:34Z"
+  "updated_at": "2025-02-04T05:14:44Z"
  },
  {
   "base": "7a23e0e83597e4c8cfbbc1856a77cf8fc102e846",
