@@ -618,16 +618,32 @@
  {
   "base": "282c013e43978ae23561eeb9caa13b2b9547ff7d",
   "created_at": "2024-08-14T11:58:49Z",
-  "head": "749ca8749b286246f12b9e0542a8765dae939a40",
+  "head": "58b05fa123a0b7076617cdf8ccafbd48e5740dc0",
   "login": "nicolo-ribaudo",
   "number": 3391,
   "ref": "json-modules",
   "revs": [
    {
+    "adate": "2025-02-13T16:54:56+01:00",
+    "author": "Nicol\u00f2 Ribaudo",
+    "date": "2025-02-13T16:54:56+01:00",
+    "hash": "58b05fa123a0b7076617cdf8ccafbd48e5740dc0",
+    "parents": "58a7f4381f3ace544fa861514f948e9e6b5015f7",
+    "subject": "Rewording of host requirement"
+   },
+   {
+    "adate": "2025-02-13T16:50:43+01:00",
+    "author": "Nicol\u00f2 Ribaudo",
+    "date": "2025-02-13T16:52:38+01:00",
+    "hash": "58a7f4381f3ace544fa861514f948e9e6b5015f7",
+    "parents": "f2d8acfe038810f08b1a276f0944ea32aed25cfd",
+    "subject": "Fix some review comments"
+   },
+   {
     "adate": "2024-08-14T13:54:49+02:00",
     "author": "Nicol\u00f2 Ribaudo",
-    "date": "2024-08-14T14:11:36+02:00",
-    "hash": "749ca8749b286246f12b9e0542a8765dae939a40",
+    "date": "2025-02-13T16:52:38+01:00",
+    "hash": "f2d8acfe038810f08b1a276f0944ea32aed25cfd",
     "parents": "282c013e43978ae23561eeb9caa13b2b9547ff7d",
     "subject": "Normative: Add JSON modules"
    },
@@ -641,7 +657,7 @@
    }
   ],
   "title": "Normative: Add JSON modules",
-  "updated_at": "2024-08-14T12:11:42Z"
+  "updated_at": "2025-02-13T16:21:16Z"
  },
  {
   "base": "961f269c227b7892c21487d82b28d3e8b86e0d4f",
