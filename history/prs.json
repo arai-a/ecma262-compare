@@ -618,11 +618,19 @@
  {
   "base": "282c013e43978ae23561eeb9caa13b2b9547ff7d",
   "created_at": "2024-08-14T11:58:49Z",
-  "head": "58b05fa123a0b7076617cdf8ccafbd48e5740dc0",
+  "head": "ee61cc997f4c0345e77e8171515a1df60aecb147",
   "login": "nicolo-ribaudo",
   "number": 3391,
   "ref": "json-modules",
   "revs": [
+   {
+    "adate": "2025-02-13T17:30:27+01:00",
+    "author": "Nicol\u00f2 Ribaudo",
+    "date": "2025-02-13T17:30:27+01:00",
+    "hash": "ee61cc997f4c0345e77e8171515a1df60aecb147",
+    "parents": "58b05fa123a0b7076617cdf8ccafbd48e5740dc0",
+    "subject": "Fix promise handling"
+   },
    {
     "adate": "2025-02-13T16:54:56+01:00",
     "author": "Nicol\u00f2 Ribaudo",
@@ -657,7 +665,7 @@
    }
   ],
   "title": "Normative: Add JSON modules",
-  "updated_at": "2025-02-13T16:21:16Z"
+  "updated_at": "2025-02-13T16:33:17Z"
  },
  {
   "base": "961f269c227b7892c21487d82b28d3e8b86e0d4f",
