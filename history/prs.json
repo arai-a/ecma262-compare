@@ -646,11 +646,19 @@
  {
   "base": "59c29bb1d865aa1b19bbe1e9b313c7132e26575e",
   "created_at": "2024-08-14T11:58:49Z",
-  "head": "f074b63b13e5ebaa46f9c16d4b3481232b9b93c9",
+  "head": "cbb2a41d7e5ace5c13216de13c3ac464ec9b6054",
   "login": "nicolo-ribaudo",
   "number": 3391,
   "ref": "json-modules",
   "revs": [
+   {
+    "adate": "2025-02-15T17:53:24+01:00",
+    "author": "Nicol\u00f2 Ribaudo",
+    "date": "2025-02-15T17:53:24+01:00",
+    "hash": "cbb2a41d7e5ace5c13216de13c3ac464ec9b6054",
+    "parents": "f074b63b13e5ebaa46f9c16d4b3481232b9b93c9",
+    "subject": "Review by jmdyck"
+   },
    {
     "adate": "2024-08-14T13:54:49+02:00",
     "author": "Nicol\u00f2 Ribaudo",
@@ -669,7 +677,7 @@
    }
   ],
   "title": "Normative: Add JSON modules",
-  "updated_at": "2025-02-15T00:17:32Z"
+  "updated_at": "2025-02-15T16:53:38Z"
  },
  {
   "base": "961f269c227b7892c21487d82b28d3e8b86e0d4f",
