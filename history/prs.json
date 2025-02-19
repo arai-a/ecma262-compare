@@ -1,5 +1,25 @@
 [
  {
+  "base": "0b913e9930bbdc7f7b1d916cb7775d1c962dca73",
+  "created_at": "2025-02-19T21:45:25Z",
+  "head": "08601d2e7dd205021b79dbde9e107ee101122475",
+  "login": "nicolo-ribaudo",
+  "number": 3541,
+  "ref": "headings-concrete-module-record",
+  "revs": [
+   {
+    "adate": "2025-02-19T13:08:27-08:00",
+    "author": "Nicol\u00f2 Ribaudo",
+    "date": "2025-02-19T13:08:27-08:00",
+    "hash": "08601d2e7dd205021b79dbde9e107ee101122475",
+    "parents": "3feb1ba6e7cd182956af8f46545a22bd682a4c01",
+    "subject": "Editorial: Put module concrete methods in their own emu-clauses"
+   }
+  ],
+  "title": "Editorial: Put module concrete methods in their own emu-clauses",
+  "updated_at": "2025-02-19T21:45:54Z"
+ },
+ {
   "base": "3feb1ba6e7cd182956af8f46545a22bd682a4c01",
   "created_at": "2025-02-19T18:14:26Z",
   "head": "713cfd900ecbbad57af6127200a241ba85dec43b",
@@ -46,26 +66,6 @@
   ],
   "title": "Editorial: Document initial internal slot values at their point of creation",
   "updated_at": "2025-02-18T19:58:43Z"
- },
- {
-  "base": "3feb1ba6e7cd182956af8f46545a22bd682a4c01",
-  "created_at": "2025-02-18T18:49:32Z",
-  "head": "0b913e9930bbdc7f7b1d916cb7775d1c962dca73",
-  "login": "gibson042",
-  "number": 3536,
-  "ref": "2025-02-branding-slot-typos",
-  "revs": [
-   {
-    "adate": "2025-02-19T11:50:12-08:00",
-    "author": "Richard Gibson",
-    "date": "2025-02-19T11:50:12-08:00",
-    "hash": "0b913e9930bbdc7f7b1d916cb7775d1c962dca73",
-    "parents": "3feb1ba6e7cd182956af8f46545a22bd682a4c01",
-    "subject": "Editorial: Fix typos and phrasing in slot descriptions (#3536)"
-   }
-  ],
-  "title": "Editorial: Fix typos and phrasing in slot descriptions",
-  "updated_at": "2025-02-19T19:50:33Z"
  },
  {
   "base": "810a33f9130746f481746f7907a05cf83bca298e",
@@ -2604,9 +2604,9 @@
   "updated_at": "2023-02-13T16:58:31Z"
  },
  {
-  "base": "4e3450e36314e06ce031456e27fd910e26b06eac",
+  "base": "0b913e9930bbdc7f7b1d916cb7775d1c962dca73",
   "created_at": "2022-11-22T04:48:42Z",
-  "head": "4c99e487b45a8ae69d47b8362e2232010c1fd832",
+  "head": "a304db9330dc73701804a4a1e7cb5dcf61f88e7b",
   "login": "jmdyck",
   "number": 2962,
   "ref": "transfer",
@@ -2614,8 +2614,8 @@
    {
     "adate": "2024-12-11T14:54:28-05:00",
     "author": "Michael Dyck",
-    "date": "2025-02-18T22:02:16-05:00",
-    "hash": "4c99e487b45a8ae69d47b8362e2232010c1fd832",
+    "date": "2025-02-19T17:13:42-05:00",
+    "hash": "a304db9330dc73701804a4a1e7cb5dcf61f88e7b",
     "parents": "f4e931e2be52b8a4bb2a6e2f8398f77e8310ac64",
     "subject": "fixup: Remove lines from esmeta-ignore.json"
    },
@@ -2773,7 +2773,7 @@
    }
   ],
   "title": "Editorial: Various changes around execution contexts",
-  "updated_at": "2025-02-19T15:10:04Z"
+  "updated_at": "2025-02-19T22:14:08Z"
  },
  {
   "base": "053d34c87b14d9234d6f7f45bd61074b72ca9d69",
