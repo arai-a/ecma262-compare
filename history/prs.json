@@ -3946,11 +3946,19 @@
  {
   "base": "4e3450e36314e06ce031456e27fd910e26b06eac",
   "created_at": "2020-12-08T06:31:39Z",
-  "head": "4c0330ddf123a5c66c0bb0dd187beee9cc38c9e8",
+  "head": "d68026ba8f12f657fc05832c53571bf406c0acfb",
   "login": "jmdyck",
   "number": 2246,
   "ref": "ExecutionContext_Record",
   "revs": [
+   {
+    "adate": "2025-02-19T17:23:33-05:00",
+    "author": "Michael Dyck",
+    "date": "2025-02-19T17:23:33-05:00",
+    "hash": "d68026ba8f12f657fc05832c53571bf406c0acfb",
+    "parents": "4c0330ddf123a5c66c0bb0dd187beee9cc38c9e8",
+    "subject": "fixup: remove a line from esmeta-ignore.json"
+   },
    {
     "adate": "2022-08-31T23:46:33-04:00",
     "author": "Michael Dyck",
@@ -4009,7 +4017,7 @@
    }
   ],
   "title": "Editorial: Model execution context as a record",
-  "updated_at": "2025-02-19T15:15:10Z"
+  "updated_at": "2025-02-19T22:24:09Z"
  },
  {
   "base": "b3f9b5089bcc3ddd8486379015cd11eb1427a5eb",
