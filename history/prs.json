@@ -3960,9 +3960,9 @@
   "updated_at": "2024-08-10T14:52:40Z"
  },
  {
-  "base": "4e3450e36314e06ce031456e27fd910e26b06eac",
+  "base": "0b913e9930bbdc7f7b1d916cb7775d1c962dca73",
   "created_at": "2020-12-08T06:31:39Z",
-  "head": "d68026ba8f12f657fc05832c53571bf406c0acfb",
+  "head": "51c74a0dc241f0b8584c3e346de2eb0c6d9d3e55",
   "login": "jmdyck",
   "number": 2246,
   "ref": "ExecutionContext_Record",
@@ -3970,70 +3970,70 @@
    {
     "adate": "2025-02-19T17:23:33-05:00",
     "author": "Michael Dyck",
-    "date": "2025-02-19T17:23:33-05:00",
-    "hash": "d68026ba8f12f657fc05832c53571bf406c0acfb",
-    "parents": "4c0330ddf123a5c66c0bb0dd187beee9cc38c9e8",
+    "date": "2025-02-19T22:25:03-05:00",
+    "hash": "51c74a0dc241f0b8584c3e346de2eb0c6d9d3e55",
+    "parents": "a7d495ffa23c6423edf508a5a2342f453f22d49d",
     "subject": "fixup: remove a line from esmeta-ignore.json"
    },
    {
     "adate": "2022-08-31T23:46:33-04:00",
     "author": "Michael Dyck",
-    "date": "2025-02-18T22:30:31-05:00",
-    "hash": "4c0330ddf123a5c66c0bb0dd187beee9cc38c9e8",
-    "parents": "07c22351b72f6e0e1ad66ff85ddf559017fce60c",
+    "date": "2025-02-19T22:25:03-05:00",
+    "hash": "a7d495ffa23c6423edf508a5a2342f453f22d49d",
+    "parents": "86c6fde5d6930f61c7ff31a4a61f3f502c5de966",
     "subject": "fixup: \"execution context\" -> \"ExecutionContext Record\" in some prose"
    },
    {
     "adate": "2022-08-31T23:31:55-04:00",
     "author": "Michael Dyck",
-    "date": "2025-02-18T22:30:30-05:00",
-    "hash": "07c22351b72f6e0e1ad66ff85ddf559017fce60c",
-    "parents": "913c58c0a2eb30265932d4bd8f743d6194cd61aa",
+    "date": "2025-02-19T22:25:03-05:00",
+    "hash": "86c6fde5d6930f61c7ff31a4a61f3f502c5de966",
+    "parents": "4d6d3197eaadefd65ab290fa5dece0b3c8a8792c",
     "subject": "fixup: \"execution context\" -> \"ExecutionContext Record\" in some alg steps"
    },
    {
     "adate": "2022-08-31T23:13:29-04:00",
     "author": "Michael Dyck",
-    "date": "2025-02-18T22:30:30-05:00",
-    "hash": "913c58c0a2eb30265932d4bd8f743d6194cd61aa",
-    "parents": "30c5e08f38bd67f1ce8700b1cb282c3efecd7c60",
+    "date": "2025-02-19T22:25:02-05:00",
+    "hash": "4d6d3197eaadefd65ab290fa5dece0b3c8a8792c",
+    "parents": "79f7d7e885bd5a91626b57ae18018e8ba9727b11",
     "subject": "fixup: Avoid saying \"that execution context\" by naming it"
    },
    {
     "adate": "2022-08-31T20:30:10-04:00",
     "author": "Michael Dyck",
-    "date": "2025-02-18T22:30:30-05:00",
-    "hash": "30c5e08f38bd67f1ce8700b1cb282c3efecd7c60",
-    "parents": "451c1c0e1f101ca68c5f863bb618461c427721d8",
+    "date": "2025-02-19T22:25:02-05:00",
+    "hash": "79f7d7e885bd5a91626b57ae18018e8ba9727b11",
+    "parents": "7fa33f237ecea6cfe40bb10d3791cd980219922f",
     "subject": "fixup: \"execution context\" -> \"ExecutionContext Record\" in record-field tables"
    },
    {
     "adate": "2022-08-31T20:24:28-04:00",
     "author": "Michael Dyck",
-    "date": "2025-02-18T22:30:30-05:00",
-    "hash": "451c1c0e1f101ca68c5f863bb618461c427721d8",
-    "parents": "35410ebf36682acea11c0624b6e9320938560ccb",
+    "date": "2025-02-19T22:25:02-05:00",
+    "hash": "7fa33f237ecea6cfe40bb10d3791cd980219922f",
+    "parents": "b1116c60eb307adf23c77ee82850da1f98777e21",
     "subject": "fixup: \"execution context\" -> \"ExecutionContext Record\" in AO headers"
    },
    {
     "adate": "2022-08-31T23:32:48-04:00",
     "author": "Michael Dyck",
-    "date": "2025-02-18T22:30:30-05:00",
-    "hash": "35410ebf36682acea11c0624b6e9320938560ccb",
-    "parents": "4e89f2a174bcb31924d583a7ca868fb0b0b7137f",
+    "date": "2025-02-19T22:25:02-05:00",
+    "hash": "b1116c60eb307adf23c77ee82850da1f98777e21",
+    "parents": "82fc4ee6c9700ef7ad4a78098b849cbb59977f06",
     "subject": "fixup: \"execution context\" -> \"ExecutionContext Record\" in the <dfn> of ECMAScript code execution contexts"
    },
    {
     "adate": "2020-12-08T01:22:55-05:00",
     "author": "Michael Dyck",
-    "date": "2025-02-18T22:30:27-05:00",
-    "hash": "4e89f2a174bcb31924d583a7ca868fb0b0b7137f",
-    "parents": "4e3450e36314e06ce031456e27fd910e26b06eac",
+    "date": "2025-02-19T22:25:02-05:00",
+    "hash": "82fc4ee6c9700ef7ad4a78098b849cbb59977f06",
+    "parents": "0b913e9930bbdc7f7b1d916cb7775d1c962dca73",
     "subject": "Editorial: Model execution context as a record"
    }
   ],
   "title": "Editorial: Model execution context as a record",
-  "updated_at": "2025-02-19T22:24:09Z"
+  "updated_at": "2025-02-20T03:26:18Z"
  },
  {
   "base": "b3f9b5089bcc3ddd8486379015cd11eb1427a5eb",
