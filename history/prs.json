@@ -706,11 +706,19 @@
  {
   "base": "0b913e9930bbdc7f7b1d916cb7775d1c962dca73",
   "created_at": "2024-06-14T21:57:09Z",
-  "head": "b1c782e1012cc74ae8fec48efb783001bd9dfe4d",
+  "head": "d5527c1490d857d3f8516cb089556fc9ae27d27e",
   "login": "nicolo-ribaudo",
   "number": 3353,
   "ref": "async-evaluation-order",
   "revs": [
+   {
+    "adate": "2025-02-21T11:48:03-08:00",
+    "author": "Nicol\u00f2 Ribaudo",
+    "date": "2025-02-21T12:01:10-08:00",
+    "hash": "d5527c1490d857d3f8516cb089556fc9ae27d27e",
+    "parents": "b1c782e1012cc74ae8fec48efb783001bd9dfe4d",
+    "subject": "Track ~done~ and ~unset~ separately"
+   },
    {
     "adate": "2025-02-21T11:04:05-08:00",
     "author": "Nicol\u00f2 Ribaudo",
@@ -721,7 +729,7 @@
    }
   ],
   "title": "Editorial: Explicitly track async evaluation order of pending modules",
-  "updated_at": "2025-02-21T19:36:08Z"
+  "updated_at": "2025-02-21T20:07:21Z"
  },
  {
   "base": "f439eccd5adaac04e5f29bb926aefd7899855b3e",
