@@ -706,11 +706,19 @@
  {
   "base": "0b913e9930bbdc7f7b1d916cb7775d1c962dca73",
   "created_at": "2024-06-14T21:57:09Z",
-  "head": "31939c5c3d533ae328235f969c1c40f93a3bab66",
+  "head": "33856ad5d19787221c25d949ee9dbc2c7c2a0fce",
   "login": "nicolo-ribaudo",
   "number": 3353,
   "ref": "async-evaluation-order",
   "revs": [
+   {
+    "adate": "2025-02-22T09:13:09-08:00",
+    "author": "Nicol\u00f2 Ribaudo",
+    "date": "2025-02-22T09:13:09-08:00",
+    "hash": "33856ad5d19787221c25d949ee9dbc2c7c2a0fce",
+    "parents": "31939c5c3d533ae328235f969c1c40f93a3bab66",
+    "subject": "Review"
+   },
    {
     "adate": "2025-02-21T16:02:32-08:00",
     "author": "Nicol\u00f2 Ribaudo",
@@ -737,7 +745,7 @@
    }
   ],
   "title": "Editorial: Explicitly track async evaluation order of pending modules",
-  "updated_at": "2025-02-22T00:02:39Z"
+  "updated_at": "2025-02-22T17:13:27Z"
  },
  {
   "base": "f439eccd5adaac04e5f29bb926aefd7899855b3e",
