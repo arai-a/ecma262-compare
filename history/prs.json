@@ -1,8 +1,8 @@
 [
  {
-  "base": "0b913e9930bbdc7f7b1d916cb7775d1c962dca73",
+  "base": "f2bad0095a792587ab7a70c9f024612148e18bd1",
   "created_at": "2025-02-26T19:49:03Z",
-  "head": "d367283cb83d4b0dfc07e4aa80b3330151cdf45b",
+  "head": "a445b8c71ccd3500cb1a923378b73a443a226b09",
   "login": "gibson042",
   "number": 3544,
   "ref": "2025-02-simplify-array-construction",
@@ -10,14 +10,14 @@
    {
     "adate": "2025-02-26T14:47:26-05:00",
     "author": "Richard Gibson",
-    "date": "2025-02-26T14:47:26-05:00",
-    "hash": "d367283cb83d4b0dfc07e4aa80b3330151cdf45b",
-    "parents": "0b913e9930bbdc7f7b1d916cb7775d1c962dca73",
+    "date": "2025-02-27T12:28:21-05:00",
+    "hash": "a445b8c71ccd3500cb1a923378b73a443a226b09",
+    "parents": "f2bad0095a792587ab7a70c9f024612148e18bd1",
     "subject": "Editorial: Simplify the algorithms for Array and TypedArray constructors"
    }
   ],
   "title": "Editorial: Simplify the algorithms for Array and TypedArray constructors",
-  "updated_at": "2025-02-26T19:50:54Z"
+  "updated_at": "2025-02-27T17:42:05Z"
  },
  {
   "base": "0b913e9930bbdc7f7b1d916cb7775d1c962dca73",
@@ -96,24 +96,24 @@
   "updated_at": "2025-02-26T10:08:56Z"
  },
  {
-  "base": "8f1812e88f0706506dc09453b0bca7cfbe4230d4",
+  "base": "d430aceebed01d216340e9aa0d5572ddc9945422",
   "created_at": "2025-02-18T19:43:41Z",
-  "head": "04485d633f664f3d7a048839b41f611641e44000",
+  "head": "d005528c727e80690ce78824938b35057902f9b0",
   "login": "gibson042",
   "number": 3537,
   "ref": "2025-02-initial-slot-value",
   "revs": [
    {
-    "adate": "2025-02-18T14:35:08-05:00",
+    "adate": "2025-02-27T09:43:03-08:00",
     "author": "Richard Gibson",
-    "date": "2025-02-18T14:35:08-05:00",
-    "hash": "04485d633f664f3d7a048839b41f611641e44000",
-    "parents": "8f1812e88f0706506dc09453b0bca7cfbe4230d4",
-    "subject": "Editorial: Document initial internal slot values at their point of creation"
+    "date": "2025-02-27T09:43:03-08:00",
+    "hash": "d005528c727e80690ce78824938b35057902f9b0",
+    "parents": "d430aceebed01d216340e9aa0d5572ddc9945422",
+    "subject": "Editorial: Document initial internal slot values at their point of creation (#3537)"
    }
   ],
   "title": "Editorial: Document initial internal slot values at their point of creation",
-  "updated_at": "2025-02-18T19:58:43Z"
+  "updated_at": "2025-02-27T17:43:13Z"
  },
  {
   "base": "0b913e9930bbdc7f7b1d916cb7775d1c962dca73",
@@ -166,26 +166,6 @@
   ],
   "title": "Normative: Mark sync module evaluation promise as handled",
   "updated_at": "2025-02-26T15:08:40Z"
- },
- {
-  "base": "f2bad0095a792587ab7a70c9f024612148e18bd1",
-  "created_at": "2025-02-06T22:41:47Z",
-  "head": "d430aceebed01d216340e9aa0d5572ddc9945422",
-  "login": "tc39",
-  "number": 3532,
-  "ref": "float16array",
-  "revs": [
-   {
-    "adate": "2025-02-26T22:42:52-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2025-02-26T22:42:52-08:00",
-    "hash": "d430aceebed01d216340e9aa0d5572ddc9945422",
-    "parents": "f2bad0095a792587ab7a70c9f024612148e18bd1",
-    "subject": "Normative: add Float16Array and Math.f16round (#3532)"
-   }
-  ],
-  "title": "Normative: add Float16Array and Math.f16round",
-  "updated_at": "2025-02-27T06:43:04Z"
  },
  {
   "base": "f55b180957aa626ef8f87311e2e3b469dff0bf17",
