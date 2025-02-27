@@ -384,32 +384,40 @@
   "updated_at": "2025-02-11T02:58:30Z"
  },
  {
-  "base": "4c44bbed7c5a7df90705a58aaa08d2a6c5b9b596",
+  "base": "e2da759885627eae1e382ad63e95eeda2251b7b5",
   "created_at": "2024-11-03T23:27:51Z",
-  "head": "c4ab60c62db7a92e05c3a41c9f80302488203475",
+  "head": "f2bad0095a792587ab7a70c9f024612148e18bd1",
   "login": "tc39",
   "number": 3467,
   "ref": "close-iterator-helpers",
   "revs": [
    {
-    "adate": "2024-11-03T15:05:44-08:00",
+    "adate": "2025-02-26T22:27:41-08:00",
     "author": "Kevin Gibbons",
-    "date": "2024-11-03T15:05:44-08:00",
-    "hash": "c4ab60c62db7a92e05c3a41c9f80302488203475",
-    "parents": "3ec20470c547f36f71fe2ec6e7c1ea98eea41840",
-    "subject": "Normative: consuming helpers close receiver on argument validation failure"
+    "date": "2025-02-26T22:27:41-08:00",
+    "hash": "f2bad0095a792587ab7a70c9f024612148e18bd1",
+    "parents": "9552f29892f15f5b1fc5c467af1f188a83f5d420",
+    "subject": "Normative: consuming helpers close receiver on argument validation failure (#3467)"
    },
    {
-    "adate": "2024-11-03T15:03:44-08:00",
+    "adate": "2025-02-26T22:27:34-08:00",
     "author": "Kevin Gibbons",
-    "date": "2024-11-03T15:03:44-08:00",
-    "hash": "3ec20470c547f36f71fe2ec6e7c1ea98eea41840",
-    "parents": "4c44bbed7c5a7df90705a58aaa08d2a6c5b9b596",
-    "subject": "Normative: iterator-producing helpers close receiver on argument validation failure"
+    "date": "2025-02-26T22:27:34-08:00",
+    "hash": "9552f29892f15f5b1fc5c467af1f188a83f5d420",
+    "parents": "e2da759885627eae1e382ad63e95eeda2251b7b5",
+    "subject": "Normative: iterator-producing helpers close receiver on argument validation failure (#3467)"
+   },
+   {
+    "adate": "2025-02-26T21:59:39-08:00",
+    "author": "Jordan Harband",
+    "date": "2025-02-26T21:59:39-08:00",
+    "hash": "e2da759885627eae1e382ad63e95eeda2251b7b5",
+    "parents": "ed75310080684f63a3f3fe10a286f5d0b5fbb9e3",
+    "subject": "Normative: add `RegExp.escape` (#3382)"
    }
   ],
   "title": "Normative: iterator helpers close receiver on argument validation failure",
-  "updated_at": "2024-11-03T23:27:56Z"
+  "updated_at": "2025-02-27T06:28:34Z"
  },
  {
   "base": "4c44bbed7c5a7df90705a58aaa08d2a6c5b9b596",
@@ -710,26 +718,6 @@
   ],
   "title": "Editorial: Miscellaneous improvements to memory model/(Shared)ArrayBuffer/TypedArray",
   "updated_at": "2024-09-03T19:55:42Z"
- },
- {
-  "base": "0b913e9930bbdc7f7b1d916cb7775d1c962dca73",
-  "created_at": "2024-07-30T18:16:52Z",
-  "head": "23cdfaea0563ef360e17d6b24ee596da952e59c5",
-  "login": "ljharb",
-  "number": 3382,
-  "ref": "escape",
-  "revs": [
-   {
-    "adate": "2025-02-25T17:05:08-08:00",
-    "author": "Jordan Harband",
-    "date": "2025-02-25T17:05:08-08:00",
-    "hash": "23cdfaea0563ef360e17d6b24ee596da952e59c5",
-    "parents": "0b913e9930bbdc7f7b1d916cb7775d1c962dca73",
-    "subject": "Normative: add `RegExp.escape` (#3382)"
-   }
-  ],
-  "title": "Normative: add `RegExp.escape`",
-  "updated_at": "2025-02-26T01:16:29Z"
  },
  {
   "base": "7a23e0e83597e4c8cfbbc1856a77cf8fc102e846",
@@ -1278,26 +1266,6 @@
   ],
   "title": "Editorial: Don't check a cover for early errors",
   "updated_at": "2024-05-23T13:58:25Z"
- },
- {
-  "base": "ff129b14cad1cc947d4efa9880a7f48a27ba6490",
-  "created_at": "2023-11-20T22:30:41Z",
-  "head": "ed75310080684f63a3f3fe10a286f5d0b5fbb9e3",
-  "login": "syg",
-  "number": 3226,
-  "ref": "stop-tracking-sloppy-eval-global-vars",
-  "revs": [
-   {
-    "adate": "2025-02-26T16:13:48-08:00",
-    "author": "Shu-yu Guo",
-    "date": "2025-02-26T16:13:48-08:00",
-    "hash": "ed75310080684f63a3f3fe10a286f5d0b5fbb9e3",
-    "parents": "ff129b14cad1cc947d4efa9880a7f48a27ba6490",
-    "subject": "Normative: Remove [[VarNames]] from the global (#3226)"
-   }
-  ],
-  "title": "Normative: Remove [[VarNames]] from the global",
-  "updated_at": "2025-02-27T00:13:54Z"
  },
  {
   "base": "82c99bbc44e4b63e3a14ffbf0ac90ce8359c1010",
