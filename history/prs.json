@@ -168,40 +168,24 @@
   "updated_at": "2025-02-26T15:08:40Z"
  },
  {
-  "base": "8f1812e88f0706506dc09453b0bca7cfbe4230d4",
+  "base": "f2bad0095a792587ab7a70c9f024612148e18bd1",
   "created_at": "2025-02-06T22:41:47Z",
-  "head": "c5c1c8cdd9f9d922b7a11c5806efb17fae0c2e6f",
+  "head": "d430aceebed01d216340e9aa0d5572ddc9945422",
   "login": "tc39",
   "number": 3532,
   "ref": "float16array",
   "revs": [
    {
-    "adate": "2025-02-26T14:41:41-08:00",
+    "adate": "2025-02-26T22:42:52-08:00",
     "author": "Kevin Gibbons",
-    "date": "2025-02-26T14:41:41-08:00",
-    "hash": "c5c1c8cdd9f9d922b7a11c5806efb17fae0c2e6f",
-    "parents": "83d5651648d9f33f249a5daf895956449c3f7138",
-    "subject": "fixup! typo"
-   },
-   {
-    "adate": "2025-02-26T14:41:06-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2025-02-26T14:41:06-08:00",
-    "hash": "83d5651648d9f33f249a5daf895956449c3f7138",
-    "parents": "e12d0a232a84d18f510965db02789f492934feb3",
-    "subject": "fixup! f16round after fround"
-   },
-   {
-    "adate": "2025-02-06T14:40:12-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2025-02-06T14:52:05-08:00",
-    "hash": "e12d0a232a84d18f510965db02789f492934feb3",
-    "parents": "810a33f9130746f481746f7907a05cf83bca298e",
-    "subject": "Normative: add Float16Array and Math.f16round"
+    "date": "2025-02-26T22:42:52-08:00",
+    "hash": "d430aceebed01d216340e9aa0d5572ddc9945422",
+    "parents": "f2bad0095a792587ab7a70c9f024612148e18bd1",
+    "subject": "Normative: add Float16Array and Math.f16round (#3532)"
    }
   ],
   "title": "Normative: add Float16Array and Math.f16round",
-  "updated_at": "2025-02-26T22:55:12Z"
+  "updated_at": "2025-02-27T06:43:04Z"
  },
  {
   "base": "f55b180957aa626ef8f87311e2e3b469dff0bf17",
@@ -382,42 +366,6 @@
   ],
   "title": "Normative: Source Phase Imports rebased to Import Attributes",
   "updated_at": "2025-02-11T02:58:30Z"
- },
- {
-  "base": "e2da759885627eae1e382ad63e95eeda2251b7b5",
-  "created_at": "2024-11-03T23:27:51Z",
-  "head": "f2bad0095a792587ab7a70c9f024612148e18bd1",
-  "login": "tc39",
-  "number": 3467,
-  "ref": "close-iterator-helpers",
-  "revs": [
-   {
-    "adate": "2025-02-26T22:27:41-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2025-02-26T22:27:41-08:00",
-    "hash": "f2bad0095a792587ab7a70c9f024612148e18bd1",
-    "parents": "9552f29892f15f5b1fc5c467af1f188a83f5d420",
-    "subject": "Normative: consuming helpers close receiver on argument validation failure (#3467)"
-   },
-   {
-    "adate": "2025-02-26T22:27:34-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2025-02-26T22:27:34-08:00",
-    "hash": "9552f29892f15f5b1fc5c467af1f188a83f5d420",
-    "parents": "e2da759885627eae1e382ad63e95eeda2251b7b5",
-    "subject": "Normative: iterator-producing helpers close receiver on argument validation failure (#3467)"
-   },
-   {
-    "adate": "2025-02-26T21:59:39-08:00",
-    "author": "Jordan Harband",
-    "date": "2025-02-26T21:59:39-08:00",
-    "hash": "e2da759885627eae1e382ad63e95eeda2251b7b5",
-    "parents": "ed75310080684f63a3f3fe10a286f5d0b5fbb9e3",
-    "subject": "Normative: add `RegExp.escape` (#3382)"
-   }
-  ],
-  "title": "Normative: iterator helpers close receiver on argument validation failure",
-  "updated_at": "2025-02-27T06:28:34Z"
  },
  {
   "base": "4c44bbed7c5a7df90705a58aaa08d2a6c5b9b596",

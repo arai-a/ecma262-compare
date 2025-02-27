@@ -1,5 +1,29 @@
 [
  {
+  "adate": "2025-02-26T22:27:41-08:00",
+  "author": "Kevin Gibbons",
+  "date": "2025-02-26T22:27:41-08:00",
+  "hash": "f2bad0095a792587ab7a70c9f024612148e18bd1",
+  "parents": "9552f29892f15f5b1fc5c467af1f188a83f5d420",
+  "subject": "Normative: consuming helpers close receiver on argument validation failure (#3467)"
+ },
+ {
+  "adate": "2025-02-26T22:27:34-08:00",
+  "author": "Kevin Gibbons",
+  "date": "2025-02-26T22:27:34-08:00",
+  "hash": "9552f29892f15f5b1fc5c467af1f188a83f5d420",
+  "parents": "e2da759885627eae1e382ad63e95eeda2251b7b5",
+  "subject": "Normative: iterator-producing helpers close receiver on argument validation failure (#3467)"
+ },
+ {
+  "adate": "2025-02-26T21:59:39-08:00",
+  "author": "Jordan Harband",
+  "date": "2025-02-26T21:59:39-08:00",
+  "hash": "e2da759885627eae1e382ad63e95eeda2251b7b5",
+  "parents": "ed75310080684f63a3f3fe10a286f5d0b5fbb9e3",
+  "subject": "Normative: add `RegExp.escape` (#3382)"
+ },
+ {
   "adate": "2025-02-26T16:13:48-08:00",
   "author": "Shu-yu Guo",
   "date": "2025-02-26T16:13:48-08:00",
