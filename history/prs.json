@@ -1,5 +1,25 @@
 [
  {
+  "base": "d005528c727e80690ce78824938b35057902f9b0",
+  "created_at": "2025-02-28T02:27:05Z",
+  "head": "c7fb69861dc9b99b1befa9cce8bfe9f55982aaa9",
+  "login": "jmdyck",
+  "number": 3546,
+  "ref": "fix_re_3382",
+  "revs": [
+   {
+    "adate": "2025-02-27T21:03:14-05:00",
+    "author": "Michael Dyck",
+    "date": "2025-02-27T21:03:14-05:00",
+    "hash": "c7fb69861dc9b99b1befa9cce8bfe9f55982aaa9",
+    "parents": "e2da759885627eae1e382ad63e95eeda2251b7b5",
+    "subject": "Editorial: Change remaining `_c_` to `_cp_` in EncodeForRegExpEscape"
+   }
+  ],
+  "title": "Editorial: Change remaining `_c_` to `_cp_` in EncodeForRegExpEscape",
+  "updated_at": "2025-02-28T02:27:05Z"
+ },
+ {
   "base": "f2bad0095a792587ab7a70c9f024612148e18bd1",
   "created_at": "2025-02-26T19:49:03Z",
   "head": "a445b8c71ccd3500cb1a923378b73a443a226b09",
@@ -94,26 +114,6 @@
   ],
   "title": "Editorial: Extract JSON parsing into its own AO",
   "updated_at": "2025-02-26T10:08:56Z"
- },
- {
-  "base": "d430aceebed01d216340e9aa0d5572ddc9945422",
-  "created_at": "2025-02-18T19:43:41Z",
-  "head": "d005528c727e80690ce78824938b35057902f9b0",
-  "login": "gibson042",
-  "number": 3537,
-  "ref": "2025-02-initial-slot-value",
-  "revs": [
-   {
-    "adate": "2025-02-27T09:43:03-08:00",
-    "author": "Richard Gibson",
-    "date": "2025-02-27T09:43:03-08:00",
-    "hash": "d005528c727e80690ce78824938b35057902f9b0",
-    "parents": "d430aceebed01d216340e9aa0d5572ddc9945422",
-    "subject": "Editorial: Document initial internal slot values at their point of creation (#3537)"
-   }
-  ],
-  "title": "Editorial: Document initial internal slot values at their point of creation",
-  "updated_at": "2025-02-27T17:43:13Z"
  },
  {
   "base": "0b913e9930bbdc7f7b1d916cb7775d1c962dca73",
