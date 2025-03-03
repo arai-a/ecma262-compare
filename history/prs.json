@@ -768,13 +768,29 @@
   "updated_at": "2025-02-26T14:30:18Z"
  },
  {
-  "base": "f439eccd5adaac04e5f29bb926aefd7899855b3e",
+  "base": "8f1812e88f0706506dc09453b0bca7cfbe4230d4",
   "created_at": "2024-06-13T20:14:41Z",
-  "head": "b5b5fee605308d9618d3b0c2599e16cc536e75b0",
+  "head": "d51691d07ec3be0eb9b8231a44ed47da15494590",
   "login": "gesa",
   "number": 3352,
   "ref": "pdf-markup",
   "revs": [
+   {
+    "adate": "2024-11-08T11:47:10-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2024-11-08T11:47:10-08:00",
+    "hash": "d51691d07ec3be0eb9b8231a44ed47da15494590",
+    "parents": "2afa61b0777b0842dd8855b88e5e523e3707b5fe",
+    "subject": "(r) symbol is sup"
+   },
+   {
+    "adate": "2024-11-05T14:15:13-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2024-11-05T14:15:13-08:00",
+    "hash": "2afa61b0777b0842dd8855b88e5e523e3707b5fe",
+    "parents": "b5b5fee605308d9618d3b0c2599e16cc536e75b0",
+    "subject": "move colophon after bibliography"
+   },
    {
     "adate": "2024-09-10T15:41:11-07:00",
     "author": "Aki \ud83c\udf39",
@@ -801,7 +817,7 @@
    }
   ],
   "title": "Markup: New & better graphics, remove spec css element",
-  "updated_at": "2024-09-10T22:41:20Z"
+  "updated_at": "2025-03-03T21:45:12Z"
  },
  {
   "base": "0b24a049c11fe0604b1c929772e7cbd671b78492",
