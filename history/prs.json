@@ -768,56 +768,72 @@
   "updated_at": "2025-02-26T14:30:18Z"
  },
  {
-  "base": "8f1812e88f0706506dc09453b0bca7cfbe4230d4",
+  "base": "d06f3a265af6be78c02a0d552c572a1573fe3385",
   "created_at": "2024-06-13T20:14:41Z",
-  "head": "d51691d07ec3be0eb9b8231a44ed47da15494590",
+  "head": "568660df6bc6a9493fc69c68f05099e691114e5e",
   "login": "gesa",
   "number": 3352,
   "ref": "pdf-markup",
   "revs": [
    {
+    "adate": "2025-03-03T15:11:10-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2025-03-03T15:11:10-08:00",
+    "hash": "568660df6bc6a9493fc69c68f05099e691114e5e",
+    "parents": "17d9c1da1fd2bc95eb4bc81e26c6a8ff42043794",
+    "subject": "Meta: bump ecmarkup to v21.0.0"
+   },
+   {
+    "adate": "2025-03-03T14:20:38-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2025-03-03T14:50:29-08:00",
+    "hash": "17d9c1da1fd2bc95eb4bc81e26c6a8ff42043794",
+    "parents": "fe558e237b052e4cbe45d9d2790c208062f8ccb4",
+    "subject": "inline the print css"
+   },
+   {
     "adate": "2024-11-08T11:47:10-08:00",
     "author": "Kevin Gibbons",
-    "date": "2024-11-08T11:47:10-08:00",
-    "hash": "d51691d07ec3be0eb9b8231a44ed47da15494590",
-    "parents": "2afa61b0777b0842dd8855b88e5e523e3707b5fe",
+    "date": "2025-03-03T14:50:00-08:00",
+    "hash": "fe558e237b052e4cbe45d9d2790c208062f8ccb4",
+    "parents": "f81c4e0c162aa6cbaa75d1539741d30906c8a33e",
     "subject": "(r) symbol is sup"
    },
    {
     "adate": "2024-11-05T14:15:13-08:00",
     "author": "Kevin Gibbons",
-    "date": "2024-11-05T14:15:13-08:00",
-    "hash": "2afa61b0777b0842dd8855b88e5e523e3707b5fe",
-    "parents": "b5b5fee605308d9618d3b0c2599e16cc536e75b0",
+    "date": "2025-03-03T14:50:00-08:00",
+    "hash": "f81c4e0c162aa6cbaa75d1539741d30906c8a33e",
+    "parents": "61705efacc15a33aa31cdb07be71e53249112562",
     "subject": "move colophon after bibliography"
    },
    {
     "adate": "2024-09-10T15:41:11-07:00",
     "author": "Aki \ud83c\udf39",
-    "date": "2024-09-10T15:41:11-07:00",
-    "hash": "b5b5fee605308d9618d3b0c2599e16cc536e75b0",
-    "parents": "c905b2eb96e9b915a2c868b22b4cf8ce5c8614fc",
+    "date": "2025-03-03T14:50:00-08:00",
+    "hash": "61705efacc15a33aa31cdb07be71e53249112562",
+    "parents": "0e8851f47d79291b177a410b070da609845fc12a",
     "subject": "move unicode-property-table rules back into 262"
    },
    {
     "adate": "2024-07-02T23:26:49-07:00",
     "author": "Aki \ud83c\udf39",
-    "date": "2024-07-02T23:26:49-07:00",
-    "hash": "c905b2eb96e9b915a2c868b22b4cf8ce5c8614fc",
-    "parents": "cb5a2e27ed024b33e169c9344a5ddcb829ecc6ca",
+    "date": "2025-03-03T14:50:00-08:00",
+    "hash": "0e8851f47d79291b177a410b070da609845fc12a",
+    "parents": "fc7d67a6c96ae37aa4f82f6faa660aa961636c5d",
     "subject": "Meta: delete unused images (they're copied over from ecmarkup)"
    },
    {
     "adate": "2024-06-13T13:13:09-07:00",
     "author": "Aki \ud83c\udf39",
-    "date": "2024-07-02T20:21:18-07:00",
-    "hash": "cb5a2e27ed024b33e169c9344a5ddcb829ecc6ca",
-    "parents": "3a2efec16f392294bcc5576b3b3bb695cf3c6d58",
+    "date": "2025-03-03T14:49:57-08:00",
+    "hash": "fc7d67a6c96ae37aa4f82f6faa660aa961636c5d",
+    "parents": "d06f3a265af6be78c02a0d552c572a1573fe3385",
     "subject": "Markup: Add print.css; update graphics; add PUBLISHING document"
    }
   ],
   "title": "Markup: New & better graphics, remove spec css element",
-  "updated_at": "2025-03-03T21:45:12Z"
+  "updated_at": "2025-03-03T23:16:27Z"
  },
  {
   "base": "0b24a049c11fe0604b1c929772e7cbd671b78492",
