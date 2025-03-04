@@ -388,14 +388,21 @@ class SectionsExtractor:
 
             h1 = node.xpath('./h1')[0]
 
-            secnum = h1.xpath('./span[@class="secnum"]')[0]
-            num = cls.__get_text(secnum)
+            try:
+                secnum = h1.xpath('./span[@class="secnum"]')[0]
+            except:
+                secnum = None
 
-            for child in secnum.getchildren():
-                secnum.remove(child)
-            secnum.attrib['class'] += ' excluded-secnum'
-            secnum.attrib['excluded-id'] = id
-            secnum.text = '#{}'.format(id)
+            if secnum is not None:
+                num = cls.__get_text(secnum)
+
+                for child in secnum.getchildren():
+                    secnum.remove(child)
+                secnum.attrib['class'] += ' excluded-secnum'
+                secnum.attrib['excluded-id'] = id
+                secnum.text = '#{}'.format(id)
+            else:
+                num = '?'
 
             title = cls.__get_text(h1).replace(num, '')
 
