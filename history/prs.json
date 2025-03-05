@@ -734,11 +734,19 @@
  {
   "base": "0b913e9930bbdc7f7b1d916cb7775d1c962dca73",
   "created_at": "2024-06-14T21:57:09Z",
-  "head": "844563f5e8ac9ecfa022729965f5c9b75ef21467",
+  "head": "ca9388f16bd1125ea7cb92284c2c5f1655e0512a",
   "login": "nicolo-ribaudo",
   "number": 3353,
   "ref": "async-evaluation-order",
   "revs": [
+   {
+    "adate": "2025-03-05T15:05:52-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2025-03-05T15:05:52-08:00",
+    "hash": "ca9388f16bd1125ea7cb92284c2c5f1655e0512a",
+    "parents": "844563f5e8ac9ecfa022729965f5c9b75ef21467",
+    "subject": "sync -> unset"
+   },
    {
     "adate": "2025-02-26T11:24:16+01:00",
     "author": "Nicol\u00f2 Ribaudo",
@@ -781,7 +789,7 @@
    }
   ],
   "title": "Editorial: Explicitly track async evaluation order of pending modules",
-  "updated_at": "2025-02-26T14:30:18Z"
+  "updated_at": "2025-03-05T23:06:04Z"
  },
  {
   "base": "d06f3a265af6be78c02a0d552c572a1573fe3385",
