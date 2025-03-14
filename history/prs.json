@@ -1,6 +1,26 @@
 [
  {
   "base": "53a42e69a46de6c4e5411862ab7b0b9ca4e25170",
+  "created_at": "2025-03-14T00:49:23Z",
+  "head": "f068482384f6c939dc7548d0960efaf1d48265bc",
+  "login": "gesa",
+  "number": 3550,
+  "ref": "print-slashed-cell",
+  "revs": [
+   {
+    "adate": "2025-03-13T17:38:52-07:00",
+    "author": "Aki \ud83c\udf39",
+    "date": "2025-03-13T17:47:37-07:00",
+    "hash": "f068482384f6c939dc7548d0960efaf1d48265bc",
+    "parents": "53a42e69a46de6c4e5411862ab7b0b9ca4e25170",
+    "subject": "Markup: Add print styles for slashed corner cell"
+   }
+  ],
+  "title": "Markup: Print styles for slashed corner cell",
+  "updated_at": "2025-03-14T00:49:23Z"
+ },
+ {
+  "base": "53a42e69a46de6c4e5411862ab7b0b9ca4e25170",
   "created_at": "2025-03-13T02:52:08Z",
   "head": "5fa822dc03c158a88ef4583a8d0bed07c91008d0",
   "login": "tc39",
