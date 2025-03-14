@@ -32,10 +32,10 @@ class SnapshotLoader extends Base {
         /src="img/g,
         `src="${base}/img`)
       .replace(
-        /<link rel="stylesheet" href="assets\/ecmarkup.css">/,
+        /<link rel="stylesheet" href="(assets\/)?(css\/)?ecmarkup.css">/,
         `<link rel="stylesheet" href="style/ecmarkup.css">`)
       .replace(
-        /<link rel="stylesheet" href="assets\/print.css" media="print">/,
+        /<link rel="stylesheet" href="(assets\/)?(css\/)?print.css" media="print">/,
         "");
   }
 
