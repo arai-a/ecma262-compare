@@ -8,11 +8,11 @@ body {
 }
 
 header {
-    border-bottom: 1px solid #808080;
+    border-bottom: 1px solid var(--compare-border-color);
 }
 
 h2 {
-    border-top: 1px solid #808080;
+    border-top: 1px solid var(--compare-border-color);
     font-size: 1.1em;
     margin: 0;
     padding-left: 8px;
@@ -27,13 +27,13 @@ table {
     max-width: 1000px;
     width: 100%;
     table-layout: fixed;
-    border-bottom: 1px solid #808080;
+    border-bottom: 1px solid var(--compare-border-color);
     border-spacing: 0px;
     border-collapse: collapse;
 }
 
 td {
-    border: 1px solid #808080;
+    border: 1px solid var(--compare-border-color);
     padding: 4px;
 }
 
@@ -49,5 +49,5 @@ td {
 
 .author-and-date {
     font-size: 0.8em;
-    color: #707070;
+    color: var(--compare-more-dimmed-foreground-color);
 }

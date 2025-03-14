@@ -2,6 +2,66 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
+:root {
+  --compare-foreground-color: #111;
+
+  --compare-header-dimmed-foreground-color: #111;
+  --compare-header-border-color: #c0c0c0;
+
+  --compare-collapse-foreground-color: #41811b;
+
+  --option-del-background-color: #ffd0d0;
+  --option-ins-background-color: #d0ffd0;
+  --option-mod-background-color: #d0d0ff;
+
+  --compare-tab-selected-background-color: white;
+
+  --compare-button-inner-background-color: rgb(248,241,255);
+
+  --compare-fade-color: rgba(0, 0, 0, 0.4);
+
+  --compare-highlight-ins-background-color: #5cd95c;
+  --compare-highlight-del-background-color: #ffa3a3;
+
+  --compare-cell-ins-background-color: #e0f8e0;
+  --compare-cell-del-background-color: #ffeeee;
+
+  --compare-help-background-color: rgba(248,241,255,0.4);
+  --compare-help-top-background-color: rgba(255,255,255,0);
+}
+
+@supports (color-scheme: dark) {
+@media only screen and (prefers-color-scheme: dark) {
+:root {
+  --compare-foreground-color: #fcfcfc;
+
+  --compare-header-dimmed-foreground-color: #d0d0d0;
+  --compare-header-border-color: #c0c0c0;
+
+  --compare-collapse-foreground-color: #7abd52;
+
+  --option-del-background-color: #ffd0d0;
+  --option-ins-background-color: #d0ffd0;
+  --option-mod-background-color: #d0d0ff;
+
+  --compare-tab-selected-background-color: #171717;
+
+  --compare-button-inner-background-color: #251f2b;
+
+  --compare-fade-color: rgba(23, 23, 23, 0.4);
+
+  --compare-highlight-ins-background-color: #45b945;
+  --compare-highlight-del-background-color: #b73c3c;
+
+  --compare-cell-ins-background-color: #174b17;
+  --compare-cell-del-background-color: #3f1414;
+
+  --compare-help-background-color: rgba(248,241,255,0.1);
+  --compare-help-top-background-color: rgba(255,255,255,0);
+}
+}
+}
+
 html.help {
     height: 100%;
 }
@@ -25,7 +85,7 @@ html.help #container {
 #header.collapsed {
     box-sizing: border-box;
     min-height: 40px;
-    border-bottom: 1px solid #c0c0c0;
+    border-bottom: 1px solid var(--compare-header-border-color);
 }
 
 #header.collapsed nav {
@@ -50,7 +110,7 @@ html.help #container {
     text-align: center;
     line-height: 32px;
     font-size: 16px;
-    color: #41811b;
+    color: var(--compare-collapse-foreground-color);
     cursor: pointer;
 }
 
@@ -70,17 +130,17 @@ html.help #container {
 }
 #collapsed-header-line-author-and-date {
     font-size: 0.9em;
-    color: #707070;
+    color: var(--compare-header-dimmed-foreground-color);
 }
 #collapsed-header-line-stat {
     font-size: 0.8em;
-    color: #707070;
+    color: var(--compare-header-dimmed-foreground-color);
 }
 
 /* ==== controller ==== */
 
 #controller {
-    border-top: 1px solid #c0c0c0;
+    border-top: 1px solid var(--compare-header-border-color);
     padding: 0;
     display: grid;
     width: 100%;
@@ -97,13 +157,13 @@ html.help #container {
 #pr-filter-label,
 #rev-filter-label,
 #to-rev-label {
-    border-bottom: 1px solid #c0c0c0;
+    border-bottom: 1px solid var(--compare-header-border-color);
 }
 #search-container,
 #pr-filter-container,
 #rev-filter-container,
 #to-rev-container {
-    border-bottom: 1px solid #c0c0c0;
+    border-bottom: 1px solid var(--compare-header-border-color);
 }
 
 #search {
@@ -127,13 +187,13 @@ select, option {
 }
 
 option.del {
-    background-color: #ffd0d0;
+    background-color: var(--option-del-background-color);
 }
 option.ins {
-    background-color: #d0ffd0;
+    background-color: var(--option-ins-background-color);
 }
 option.mod {
-    background-color: #d0d0ff;
+    background-color: var(--option-mod-background-color);
 }
 
 /* ==== revision info ==== */
@@ -146,18 +206,18 @@ option.mod {
 #from-rev-subject,
 #to-rev-subject {
     font-size: 0.8em;
-    color: #707070;
+    color: var(--compare-header-dimmed-foreground-color);
 }
 
 #from-rev-note,
 #to-rev-note {
     font-size: 0.9em;
-    color: #707070;
+    color: var(--compare-header-dimmed-foreground-color);
 }
 
 .rev-author-and-date {
     font-size: 0.8em;
-    color: #707070;
+    color: var(--compare-header-dimmed-foreground-color);
 }
 
 
@@ -175,9 +235,9 @@ option.mod {
 #view-from-tab,
 #view-to-tab,
 #view-diff-tab {
-    border-top: 1px solid #808080;
-    border-right: 1px solid #808080;
-    border-bottom: 1px solid #808080;
+    border-top: 1px solid var(--compare-border-color);
+    border-right: 1px solid var(--compare-border-color);
+    border-bottom: 1px solid var(--compare-border-color);
     width: 6em;
     padding: 0 4px;
 }
@@ -185,22 +245,22 @@ option.mod {
 #view-from-tab.selected,
 #view-to-tab.selected,
 #view-diff-tab.selected {
-    background: white;
+    background: var(--compare-tab-selected-background-color);
     border-bottom: none;
 }
 
 #diff-stat {
-    border-bottom: 1px solid #808080;
-    color: #707070;
+    border-bottom: 1px solid var(--compare-border-color);
+    color: var(--compare-header-dimmed-foreground-color);
     padding: 0 4px;
     flex: 1;
 }
 
 #path-diff-box {
-    border-bottom: 1px solid #808080;
+    border-bottom: 1px solid var(--compare-border-color);
     padding: 0 4px;
     font-size: 0.8em;
-    color: #707070;
+    color: var(--compare-header-dimmed-foreground-color);
 }
 
 /* ==== scroller ==== */
@@ -216,8 +276,8 @@ option.mod {
     padding: 4px 2px;
     box-sizing: border-box;
     border-radius: 20px;
-    border: 2px solid rgb(185,115,255);
-    background-color: white;
+    border: 2px solid var(--compare-button-foreground-color);
+    background-color: var(--compare-button-background-color);
     opacity: 0.5;
 }
 
@@ -236,8 +296,8 @@ option.mod {
     height: 32px;
     border-radius: 16px;
     border: none;
-    color: rgb(185,115,255);
-    background-color: rgb(248,241,255);
+    color: var(--compare-button-foreground-color);
+    background-color: var(--compare-button-inner-background-color);
     text-align: center;
     font-size: 1.1em;
     line-height: 32px;
@@ -263,9 +323,9 @@ option.mod {
     top: 4px;
     width: 12em;
     height: calc(1em + 8px);
-    background: white;
+    background: var(--compare-button-background-color);
     border-radius: 8px;
-    border: 1px solid #c0c0c0;
+    border: 1px solid var(--compare-header-border-color);
     padding: 4px;
     box-sizing: border-box;
     font-size: 0.8em;
@@ -311,11 +371,11 @@ option.mod {
     transition-duration: 1s;
 }
 .htmldiff-ins.htmldiff-highllight {
-    background-color: #5cd95c;
+    background-color: var(--compare-highlight-ins-background-color);
     transition-duration: 0s;
 }
 .htmldiff-del.htmldiff-highllight {
-    background-color: #ffa3a3;
+    background-color: var(--compare-highlight-del-background-color);
     transition-duration: 0s;
 }
 
@@ -333,7 +393,7 @@ ins.htmldiff-change, del.htmldiff-change {
 }
 
 td.htmldiff-ins, th.htmldiff-ins {
-    background-color: #e0f8e0;
+    background-color: var(--compare-cell-ins-background-color);
 }
 
 td.htmldiff-ins ins, th.htmldiff-ins ins {
@@ -341,7 +401,7 @@ td.htmldiff-ins ins, th.htmldiff-ins ins {
 }
 
 td.htmldiff-del, th.htmldiff-del {
-    background-color: #ffeeee;
+    background-color: var(--compare-cell-del-background-color);
 }
 
 /* ==== work box ==== */
@@ -372,26 +432,26 @@ html.help #help {
 html.help #help .margin-top {
     flex: 1;
     background: linear-gradient(180deg,
-                                rgba(255,255,255,0) 16px,
-                                rgba(248,241,255,0.4) 40px);
+                                var(--compare-help-top-background-color) 16px,
+                                var(--compare-help-background-color) 40px);
 }
 html.help #help .margin-bottom {
-    background-color: rgba(248,241,255,0.4);
+    background-color: var(--compare-help-background-color);
     flex: 2;
 }
 
 html.help #help .help-container {
-    background-color: rgba(248,241,255,0.4);
+    background-color: var(--compare-help-background-color);
 }
 
 html.help #help .help-box {
     margin: auto;
     width: 500px;
     border-radius: 8px;
-    border: 1px solid #c0c0c0;
+    border: 1px solid var(--compare-header-border-color);
     padding: 20px;
     box-sizing: border-box;
-    color: #808080;
+    color: var(--compare-dimmed-foreground-color);
 }
 
 html.help #help .help-box h1 {
@@ -427,7 +487,7 @@ html.help #help .help-box p {
     display: flex;
     flex: 1;
     flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: var(--compare-fade-color);
 }
 
 #message-overlay.shown .margin-top {
@@ -444,9 +504,9 @@ html.help #help .help-box p {
     margin: auto;
     width: 50%;
     border-radius: 8px;
-    border: 2px solid rgb(185,115,255);
-    background-color: #ffffff;
+    border: 2px solid var(--compare-button-foreground-color);
+    background-color: var(--compare-button-background-color);
     padding: 20px;
     box-sizing: border-box;
-    color: #000000;
+    color: var(--compare-foreground-color);
 }
