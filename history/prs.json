@@ -124,56 +124,64 @@
   "updated_at": "2025-02-24T20:38:03Z"
  },
  {
-  "base": "0b913e9930bbdc7f7b1d916cb7775d1c962dca73",
+  "base": "c828627e9753217b58f409c51f56c8fe33116354",
   "created_at": "2025-02-13T16:58:43Z",
-  "head": "38f03096c0c31b41c4400095d53802907405ea86",
+  "head": "ec813426ba8197e1191d624428cb2f569eefe505",
   "login": "nicolo-ribaudo",
   "number": 3535,
   "ref": "EvaluateModuleSync",
   "revs": [
    {
+    "adate": "2025-03-27T14:27:15+01:00",
+    "author": "Nicol\u00f2 Ribaudo",
+    "date": "2025-03-27T14:27:15+01:00",
+    "hash": "ec813426ba8197e1191d624428cb2f569eefe505",
+    "parents": "35648e6e3a22de16f00d2815ec9f8532ac292bb7",
+    "subject": "Format after rebase"
+   },
+   {
     "adate": "2025-02-26T15:57:40+01:00",
     "author": "Nicol\u00f2 Ribaudo",
-    "date": "2025-02-26T15:57:40+01:00",
-    "hash": "38f03096c0c31b41c4400095d53802907405ea86",
-    "parents": "bcf74049f5350830c355d4dcfef8fa609b347965",
+    "date": "2025-03-27T14:26:19+01:00",
+    "hash": "35648e6e3a22de16f00d2815ec9f8532ac292bb7",
+    "parents": "4f618abe3316e1792fbd38df5661796114c851c9",
     "subject": "jmdyck review"
    },
    {
     "adate": "2025-02-26T15:48:34+01:00",
     "author": "Nicol\u00f2 Ribaudo",
-    "date": "2025-02-26T15:48:34+01:00",
-    "hash": "bcf74049f5350830c355d4dcfef8fa609b347965",
-    "parents": "b12d5dbe81f0e794f6b9309740736e0028205808",
+    "date": "2025-03-27T14:26:19+01:00",
+    "hash": "4f618abe3316e1792fbd38df5661796114c851c9",
+    "parents": "6b942a3c431a3724ff5ca312889071835c855fe2",
     "subject": "Throw -> Return ThrowCompletion"
    },
    {
     "adate": "2025-02-26T11:25:48+01:00",
     "author": "Nicol\u00f2 Ribaudo",
-    "date": "2025-02-26T11:25:48+01:00",
-    "hash": "b12d5dbe81f0e794f6b9309740736e0028205808",
-    "parents": "0b0fe745506642e0501c88eda672150008b0e29c",
+    "date": "2025-03-27T14:26:19+01:00",
+    "hash": "6b942a3c431a3724ff5ca312889071835c855fe2",
+    "parents": "907d0eb290a566271aaa6223b0c447189ed1830f",
     "subject": "MF review"
    },
    {
     "adate": "2025-02-15T00:21:32+01:00",
     "author": "Nicol\u00f2 Ribaudo",
-    "date": "2025-02-19T22:31:08-08:00",
-    "hash": "0b0fe745506642e0501c88eda672150008b0e29c",
-    "parents": "dc7ef5bcd8db33997afdc2ef2f4884d19977bb62",
+    "date": "2025-03-27T14:26:19+01:00",
+    "hash": "907d0eb290a566271aaa6223b0c447189ed1830f",
+    "parents": "e5f2581329a0cd71ac9742d699a737c9f78bc793",
     "subject": "fix"
    },
    {
     "adate": "2025-02-13T17:56:25+01:00",
     "author": "Nicol\u00f2 Ribaudo",
-    "date": "2025-02-19T22:31:08-08:00",
-    "hash": "dc7ef5bcd8db33997afdc2ef2f4884d19977bb62",
-    "parents": "0b913e9930bbdc7f7b1d916cb7775d1c962dca73",
+    "date": "2025-03-27T14:26:19+01:00",
+    "hash": "e5f2581329a0cd71ac9742d699a737c9f78bc793",
+    "parents": "c828627e9753217b58f409c51f56c8fe33116354",
     "subject": "Editorial: Mark sync module evaluation promise as handled"
    }
   ],
   "title": "Normative: Mark sync module evaluation promise as handled",
-  "updated_at": "2025-02-26T15:08:40Z"
+  "updated_at": "2025-03-27T13:27:29Z"
  },
  {
   "base": "f55b180957aa626ef8f87311e2e3b469dff0bf17",
