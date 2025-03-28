@@ -1,8 +1,28 @@
 [
  {
-  "base": "e42d11da7753bd933b1e7a5f3cb657ab0a8f6251",
+  "base": "c828627e9753217b58f409c51f56c8fe33116354",
+  "created_at": "2025-03-28T23:05:40Z",
+  "head": "d78a1be330f9128df6808bebf5f3a247be3d000a",
+  "login": "tc39",
+  "number": 3554,
+  "ref": "more-slashed-cell",
+  "revs": [
+   {
+    "adate": "2025-03-28T16:04:30-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2025-03-28T16:04:30-07:00",
+    "hash": "d78a1be330f9128df6808bebf5f3a247be3d000a",
+    "parents": "c828627e9753217b58f409c51f56c8fe33116354",
+    "subject": "Markup: more slashed corner cells"
+   }
+  ],
+  "title": "Markup: more slashed corner cells",
+  "updated_at": "2025-03-28T23:15:15Z"
+ },
+ {
+  "base": "c828627e9753217b58f409c51f56c8fe33116354",
   "created_at": "2025-03-26T22:06:32Z",
-  "head": "8d80fbf32ac793d964faa321200941d257ce326d",
+  "head": "53e6370a48ddd8cc85388991416d6927b980e8c3",
   "login": "tc39",
   "number": 3553,
   "ref": "bump-emu",
@@ -10,14 +30,14 @@
    {
     "adate": "2025-03-26T15:04:03-07:00",
     "author": "Kevin Gibbons",
-    "date": "2025-03-26T15:04:03-07:00",
-    "hash": "8d80fbf32ac793d964faa321200941d257ce326d",
+    "date": "2025-03-28T16:13:14-07:00",
+    "hash": "53e6370a48ddd8cc85388991416d6927b980e8c3",
     "parents": "e42d11da7753bd933b1e7a5f3cb657ab0a8f6251",
-    "subject": "Meta: bump ecmarkup to v21.1.0"
+    "subject": "Meta: bump ecmarkup to v21.2.0"
    }
   ],
-  "title": "Meta: bump ecmarkup to v21.1.0",
-  "updated_at": "2025-03-26T22:12:48Z"
+  "title": "Meta: bump ecmarkup to v21.2.0",
+  "updated_at": "2025-03-28T23:17:34Z"
  },
  {
   "base": "e42d11da7753bd933b1e7a5f3cb657ab0a8f6251",
