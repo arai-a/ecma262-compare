@@ -1,67 +1,23 @@
 [
  {
-  "base": "0ebab55c310629c388ae7c7b382b3d7d17a22282",
-  "created_at": "2025-03-28T23:05:40Z",
-  "head": "654c3f53fc40e8a3fd7e9a94021a8e5a36d5959b",
-  "login": "tc39",
-  "number": 3554,
-  "ref": "more-slashed-cell",
-  "revs": [
-   {
-    "adate": "2025-03-31T08:08:24-05:00",
-    "author": "Kevin Gibbons",
-    "date": "2025-03-31T08:08:24-05:00",
-    "hash": "654c3f53fc40e8a3fd7e9a94021a8e5a36d5959b",
-    "parents": "0ebab55c310629c388ae7c7b382b3d7d17a22282",
-    "subject": "Markup: more slashed corner cells (#3554)"
-   }
-  ],
-  "title": "Markup: more slashed corner cells",
-  "updated_at": "2025-03-31T13:08:34Z"
- },
- {
-  "base": "e42d11da7753bd933b1e7a5f3cb657ab0a8f6251",
+  "base": "654c3f53fc40e8a3fd7e9a94021a8e5a36d5959b",
   "created_at": "2025-03-26T21:59:36Z",
-  "head": "1049c45e879d325447d675c937a07e58270d2028",
+  "head": "5117d4f48a3fd9adea8fd2883ec70019836fc1e8",
   "login": "tc39",
   "number": 3552,
   "ref": "es2025-intro",
   "revs": [
    {
-    "adate": "2025-03-26T15:28:47-07:00",
+    "adate": "2025-03-31T08:42:58-05:00",
     "author": "Kevin Gibbons",
-    "date": "2025-03-26T15:28:47-07:00",
-    "hash": "1049c45e879d325447d675c937a07e58270d2028",
-    "parents": "1459c89334ee88c48aa10bed113e54055a4ae043",
-    "subject": "Editorial: main is now ES2026"
-   },
-   {
-    "adate": "2025-03-26T15:27:36-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2025-03-26T15:27:36-07:00",
-    "hash": "1459c89334ee88c48aa10bed113e54055a4ae043",
-    "parents": "8683da81b2736b8637ef48ae5f9883ff77c6644d",
-    "subject": "editors for 16th edition"
-   },
-   {
-    "adate": "2025-03-26T15:11:39-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2025-03-26T15:11:39-07:00",
-    "hash": "8683da81b2736b8637ef48ae5f9883ff77c6644d",
-    "parents": "373ba4d37c964c626346e63b2bd41b0785e0f2c5",
-    "subject": "expand on float16"
-   },
-   {
-    "adate": "2025-03-26T14:59:18-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2025-03-26T14:59:18-07:00",
-    "hash": "373ba4d37c964c626346e63b2bd41b0785e0f2c5",
-    "parents": "e42d11da7753bd933b1e7a5f3cb657ab0a8f6251",
-    "subject": "Editorial: Describe changes in ES2025"
+    "date": "2025-03-31T08:42:58-05:00",
+    "hash": "5117d4f48a3fd9adea8fd2883ec70019836fc1e8",
+    "parents": "654c3f53fc40e8a3fd7e9a94021a8e5a36d5959b",
+    "subject": "Editorial: Describe changes in ES2025 (#3552)"
    }
   ],
   "title": "Editorial: Describe changes in ES2025",
-  "updated_at": "2025-03-26T22:33:43Z"
+  "updated_at": "2025-03-31T13:43:46Z"
  },
  {
   "base": "f2bad0095a792587ab7a70c9f024612148e18bd1",
