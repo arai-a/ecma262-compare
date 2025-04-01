@@ -1,23 +1,23 @@
 [
  {
-  "base": "654c3f53fc40e8a3fd7e9a94021a8e5a36d5959b",
-  "created_at": "2025-03-26T21:59:36Z",
-  "head": "5117d4f48a3fd9adea8fd2883ec70019836fc1e8",
-  "login": "tc39",
-  "number": 3552,
-  "ref": "es2025-intro",
+  "base": "dd4300da71023f729654a747d1a3f38682cd37fd",
+  "created_at": "2025-04-01T07:41:37Z",
+  "head": "2cc06e590d8e87f31b92271838d5831412e7fbc0",
+  "login": "arai-a",
+  "number": 3556,
+  "ref": "iteratorprototype-intrinsic",
   "revs": [
    {
-    "adate": "2025-03-31T08:42:58-05:00",
-    "author": "Kevin Gibbons",
-    "date": "2025-03-31T08:42:58-05:00",
-    "hash": "5117d4f48a3fd9adea8fd2883ec70019836fc1e8",
-    "parents": "654c3f53fc40e8a3fd7e9a94021a8e5a36d5959b",
-    "subject": "Editorial: Describe changes in ES2025 (#3552)"
+    "adate": "2025-04-01T16:36:16+09:00",
+    "author": "Tooru Fujisawa",
+    "date": "2025-04-01T16:36:16+09:00",
+    "hash": "2cc06e590d8e87f31b92271838d5831412e7fbc0",
+    "parents": "dd4300da71023f729654a747d1a3f38682cd37fd",
+    "subject": "Editorial: Add %IteratorPrototype% for the Iterator.prototype object (#3555)"
    }
   ],
-  "title": "Editorial: Describe changes in ES2025",
-  "updated_at": "2025-03-31T13:43:46Z"
+  "title": "Editorial: Add %IteratorPrototype% for the Iterator.prototype object (#3555)",
+  "updated_at": "2025-04-01T07:41:37Z"
  },
  {
   "base": "f2bad0095a792587ab7a70c9f024612148e18bd1",
