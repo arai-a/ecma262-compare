@@ -1,23 +1,23 @@
 [
  {
-  "base": "dd4300da71023f729654a747d1a3f38682cd37fd",
-  "created_at": "2025-04-01T07:41:37Z",
-  "head": "2cc06e590d8e87f31b92271838d5831412e7fbc0",
-  "login": "arai-a",
-  "number": 3556,
-  "ref": "iteratorprototype-intrinsic",
+  "base": "6ccb804013f9378c4caa441d9238061f46bd52bd",
+  "created_at": "2025-04-03T01:57:46Z",
+  "head": "6fa998a3de452bb90489a293d6b17c821773a467",
+  "login": "MaryAndMoore",
+  "number": 3557,
+  "ref": "main",
   "revs": [
    {
-    "adate": "2025-04-01T16:36:16+09:00",
-    "author": "Tooru Fujisawa",
-    "date": "2025-04-01T16:36:16+09:00",
-    "hash": "2cc06e590d8e87f31b92271838d5831412e7fbc0",
-    "parents": "dd4300da71023f729654a747d1a3f38682cd37fd",
-    "subject": "Editorial: Add %IteratorPrototype% for the Iterator.prototype object (#3555)"
+    "adate": "2025-04-02T21:57:12-04:00",
+    "author": "MaryAndMoore",
+    "date": "2025-04-02T21:57:12-04:00",
+    "hash": "6fa998a3de452bb90489a293d6b17c821773a467",
+    "parents": "6ccb804013f9378c4caa441d9238061f46bd52bd",
+    "subject": "Create generator-generic-ossf-slsa3-publish.yml"
    }
   ],
-  "title": "Editorial: Add %IteratorPrototype% for the Iterator.prototype object (#3555)",
-  "updated_at": "2025-04-01T07:41:37Z"
+  "title": "Create generator-generic-ossf-slsa3-publish.yml",
+  "updated_at": "2025-04-03T01:57:46Z"
  },
  {
   "base": "f2bad0095a792587ab7a70c9f024612148e18bd1",
@@ -462,26 +462,6 @@
   ],
   "title": "Editorial: OrdinaryDefineOwnProperty can't throw for ordinary objects and arrays",
   "updated_at": "2025-02-06T17:35:38Z"
- },
- {
-  "base": "810a33f9130746f481746f7907a05cf83bca298e",
-  "created_at": "2024-08-26T05:38:13Z",
-  "head": "ce1b206891bf890f839b3253e8cf8982e99dab2f",
-  "login": "anba",
-  "number": 3402,
-  "ref": "is-desc-undef",
-  "revs": [
-   {
-    "adate": "2024-08-26T07:26:55+02:00",
-    "author": "Andr\u00e9 Bargull",
-    "date": "2025-02-06T18:21:38+01:00",
-    "hash": "ce1b206891bf890f839b3253e8cf8982e99dab2f",
-    "parents": "6c621d2efb89ac03a0e4a1fbc8f721b206a5027e",
-    "subject": "Editorial: Remove unnecessary `undefined` type from property descriptor tests"
-   }
-  ],
-  "title": "Editorial: Remove unnecessary `undefined` type from property descriptor tests",
-  "updated_at": "2025-02-06T17:21:59Z"
  },
  {
   "base": "ac21460fedf4b926520b06c9820bdbebad596a8b",
