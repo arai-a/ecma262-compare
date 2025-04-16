@@ -1,111 +1,39 @@
 [
  {
-  "base": "6ccb804013f9378c4caa441d9238061f46bd52bd",
-  "created_at": "2025-04-09T22:33:44Z",
-  "head": "520bf5b3e18500bd59c4abe4d260031f105056e4",
-  "login": "tc39",
-  "number": 3562,
-  "ref": "bakkot-twit",
+  "base": "b6b9fbead27c2f6f8020d9a82abe0fbb1b97ab9a",
+  "created_at": "2025-04-16T18:11:06Z",
+  "head": "ba91ea124d268d5ff3190ce4f0dbdc2d0ced1476",
+  "login": "jmdyck",
+  "number": 3566,
+  "ref": "quick_fixes_9",
   "revs": [
    {
-    "adate": "2025-04-09T15:32:50-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2025-04-09T15:32:50-07:00",
-    "hash": "520bf5b3e18500bd59c4abe4d260031f105056e4",
-    "parents": "6ccb804013f9378c4caa441d9238061f46bd52bd",
-    "subject": "Meta: remove Twitter link for bakkot"
-   }
-  ],
-  "title": "Meta: remove Twitter link for bakkot",
-  "updated_at": "2025-04-09T22:33:49Z"
- },
- {
-  "base": "6ccb804013f9378c4caa441d9238061f46bd52bd",
-  "created_at": "2025-04-09T22:00:41Z",
-  "head": "d9ba3be61f9dcf03e4c775387999edacdc55f0fe",
-  "login": "tc39",
-  "number": 3561,
-  "ref": "bsky",
-  "revs": [
-   {
-    "adate": "2025-04-09T15:59:33-06:00",
-    "author": "Michael Ficarra",
-    "date": "2025-04-09T16:00:33-06:00",
-    "hash": "d9ba3be61f9dcf03e4c775387999edacdc55f0fe",
-    "parents": "6ccb804013f9378c4caa441d9238061f46bd52bd",
-    "subject": "Meta: replace Twitter link with Bluesky for me"
-   }
-  ],
-  "title": "Meta: replace Twitter link with Bluesky for me",
-  "updated_at": "2025-04-09T22:11:36Z"
- },
- {
-  "base": "6ccb804013f9378c4caa441d9238061f46bd52bd",
-  "created_at": "2025-04-09T21:56:29Z",
-  "head": "e7ecc470a54d2eeebc5104a49e342bc19c169657",
-  "login": "syg",
-  "number": 3560,
-  "ref": "remove-twitter",
-  "revs": [
-   {
-    "adate": "2025-04-09T14:55:44-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2025-04-09T14:55:44-07:00",
-    "hash": "e7ecc470a54d2eeebc5104a49e342bc19c169657",
-    "parents": "6ccb804013f9378c4caa441d9238061f46bd52bd",
-    "subject": "Meta: remove Twitter link for me"
-   }
-  ],
-  "title": "Meta: remove Twitter link for me",
-  "updated_at": "2025-04-09T22:11:53Z"
- },
- {
-  "base": "6ccb804013f9378c4caa441d9238061f46bd52bd",
-  "created_at": "2025-04-09T09:25:13Z",
-  "head": "446618a56c6ecea539a5b8017082026cdd545a51",
-  "login": "anba",
-  "number": 3559,
-  "ref": "iterator",
-  "revs": [
-   {
-    "adate": "2025-04-09T11:21:12+02:00",
-    "author": "Andr\u00e9 Bargull",
-    "date": "2025-04-09T11:21:12+02:00",
-    "hash": "446618a56c6ecea539a5b8017082026cdd545a51",
-    "parents": "6ccb804013f9378c4caa441d9238061f46bd52bd",
-    "subject": "Editorial: Revert ArrayIterator and RegExpStringIterator to manual iterators"
-   }
-  ],
-  "title": "Editorial: Revert ArrayIterator and RegExpStringIterator to manual iterators",
-  "updated_at": "2025-04-09T09:25:13Z"
- },
- {
-  "base": "6ccb804013f9378c4caa441d9238061f46bd52bd",
-  "created_at": "2025-04-03T18:23:25Z",
-  "head": "67851c88b8d838a1624f763443488f638b378f07",
-  "login": "tc39",
-  "number": 3558,
-  "ref": "GH-3555",
-  "revs": [
-   {
-    "adate": "2025-04-04T15:34:35-06:00",
-    "author": "Michael Ficarra",
-    "date": "2025-04-04T15:34:35-06:00",
-    "hash": "67851c88b8d838a1624f763443488f638b378f07",
-    "parents": "61aca80c5a31a9a925dc12852d92bdff755c0b0a",
-    "subject": "address feedback"
+    "adate": "2025-04-16T14:01:22-04:00",
+    "author": "Michael Dyck",
+    "date": "2025-04-16T14:01:22-04:00",
+    "hash": "ba91ea124d268d5ff3190ce4f0dbdc2d0ced1476",
+    "parents": "da79f09b542dd326bc5573d58c787446d00986fa",
+    "subject": "Editorial: Add underscores to alias"
    },
    {
-    "adate": "2025-04-03T12:21:07-06:00",
-    "author": "Michael Ficarra",
-    "date": "2025-04-03T12:21:07-06:00",
-    "hash": "61aca80c5a31a9a925dc12852d92bdff755c0b0a",
-    "parents": "6ccb804013f9378c4caa441d9238061f46bd52bd",
-    "subject": "Editorial: address circular definition of Iterator.prototype"
+    "adate": "2025-04-16T13:54:23-04:00",
+    "author": "Michael Dyck",
+    "date": "2025-04-16T13:54:23-04:00",
+    "hash": "da79f09b542dd326bc5573d58c787446d00986fa",
+    "parents": "33ab43a03d13ea40bee472f0cc3e94e5c0090e7d",
+    "subject": "Editorial: Add a \"Type\" column to two \"Internal Slots\" tables"
+   },
+   {
+    "adate": "2025-04-16T13:42:37-04:00",
+    "author": "Michael Dyck",
+    "date": "2025-04-16T13:42:37-04:00",
+    "hash": "33ab43a03d13ea40bee472f0cc3e94e5c0090e7d",
+    "parents": "de62e8dd5bc1a8be9a8262f62e971878bf3dca38",
+    "subject": "Editorial: 'Promote' two \"Properties of Instances\" sections"
    }
   ],
-  "title": "Editorial: address circular definition of Iterator.prototype",
-  "updated_at": "2025-04-04T21:35:35Z"
+  "title": "Editorial: Quick fixes re recent merge",
+  "updated_at": "2025-04-16T18:11:06Z"
  },
  {
   "base": "f2bad0095a792587ab7a70c9f024612148e18bd1",
