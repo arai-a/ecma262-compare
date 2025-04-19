@@ -2,11 +2,19 @@
  {
   "base": "b6b9fbead27c2f6f8020d9a82abe0fbb1b97ab9a",
   "created_at": "2025-04-18T08:37:19Z",
-  "head": "18d39696417d2d027877cc53f622f5ea3b27419b",
+  "head": "7e73bf6dd7c19b617aaddeb3b1878cffcbb8c56b",
   "login": "rkirsling",
   "number": 3568,
   "ref": "late-errors-for-function-call-assignment-targets",
   "revs": [
+   {
+    "adate": "2025-04-19T16:56:49+09:00",
+    "author": "Ross Kirsling",
+    "date": "2025-04-19T16:56:49+09:00",
+    "hash": "7e73bf6dd7c19b617aaddeb3b1878cffcbb8c56b",
+    "parents": "18d39696417d2d027877cc53f622f5ea3b27419b",
+    "subject": "Explicitly throw after Evaluation of LHS."
+   },
    {
     "adate": "2025-04-18T17:24:08+09:00",
     "author": "Ross Kirsling",
@@ -17,7 +25,7 @@
    }
   ],
   "title": "Normative: Add \"Late Errors for Function Call Assignment Targets\" to Annex B",
-  "updated_at": "2025-04-18T08:37:19Z"
+  "updated_at": "2025-04-19T08:15:27Z"
  },
  {
   "base": "b6b9fbead27c2f6f8020d9a82abe0fbb1b97ab9a",
