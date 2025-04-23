@@ -30,11 +30,19 @@
  {
   "base": "b6b9fbead27c2f6f8020d9a82abe0fbb1b97ab9a",
   "created_at": "2025-04-18T08:37:19Z",
-  "head": "7e73bf6dd7c19b617aaddeb3b1878cffcbb8c56b",
+  "head": "71a82364637b83c32b5b891b1f96ba441638b6c4",
   "login": "rkirsling",
   "number": 3568,
   "ref": "late-errors-for-function-call-assignment-targets",
   "revs": [
+   {
+    "adate": "2025-04-23T17:05:39+09:00",
+    "author": "Ross Kirsling",
+    "date": "2025-04-23T17:05:39+09:00",
+    "hash": "71a82364637b83c32b5b891b1f96ba441638b6c4",
+    "parents": "7e73bf6dd7c19b617aaddeb3b1878cffcbb8c56b",
+    "subject": "Be more fully explicit."
+   },
    {
     "adate": "2025-04-19T16:56:49+09:00",
     "author": "Ross Kirsling",
@@ -53,7 +61,7 @@
    }
   ],
   "title": "Normative: Add \"Late Errors for Function Call Assignment Targets\" to Annex B",
-  "updated_at": "2025-04-19T08:15:27Z"
+  "updated_at": "2025-04-23T08:13:49Z"
  },
  {
   "base": "b6b9fbead27c2f6f8020d9a82abe0fbb1b97ab9a",
@@ -3998,34 +4006,6 @@
   ],
   "title": "Normative: Re-resolve unresolvable references on the global in PutValue.",
   "updated_at": "2020-10-14T17:44:01Z"
- },
- {
-  "base": "b66ef2ca34ab2e5fbf03e9637b3fbb15ab510478",
-  "created_at": "2020-09-25T16:42:33Z",
-  "head": "4db99633b9dd07f468ea88b2a0323aedd6590e4b",
-  "login": "rwaldron",
-  "number": 2193,
-  "ref": "annexb-lhs-callexp-assignment",
-  "revs": [
-   {
-    "adate": "2020-10-05T11:01:11-04:00",
-    "author": "Rick Waldron",
-    "date": "2020-10-05T11:01:23-04:00",
-    "hash": "4db99633b9dd07f468ea88b2a0323aedd6590e4b",
-    "parents": "38e8449ce2f43d0cb43bd1be3a22e1849c182050",
-    "subject": "Limit to non-strict code"
-   },
-   {
-    "adate": "2020-09-25T10:37:37-04:00",
-    "author": "Rick Waldron",
-    "date": "2020-10-05T11:01:22-04:00",
-    "hash": "38e8449ce2f43d0cb43bd1be3a22e1849c182050",
-    "parents": "b66ef2ca34ab2e5fbf03e9637b3fbb15ab510478",
-    "subject": "Normative: new Annex B.3 clause to specify \"AssignmentTargetType of LeftHandSideExpression : CallExpression\" web reality."
-   }
-  ],
-  "title": "Normative: new Annex B.3 clause to specify \"AssignmentTargetType of LeftHandSideExpression : CallExpression\" web reality.",
-  "updated_at": "2020-10-05T15:02:31Z"
  },
  {
   "base": "93ac76898d9f74e39f68ac53edbad68b3822c949",
