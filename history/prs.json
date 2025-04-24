@@ -1,5 +1,25 @@
 [
  {
+  "base": "7177c073b591eef8131f40378476d787cdcf5c38",
+  "created_at": "2025-04-24T15:07:07Z",
+  "head": "beeb1140b096beb1419bbdf430ac0f62ff854131",
+  "login": "gibson042",
+  "number": 3571,
+  "ref": "gh-3565-typedarray-property-handling-explanation",
+  "revs": [
+   {
+    "adate": "2025-04-24T11:06:33-04:00",
+    "author": "Richard Gibson",
+    "date": "2025-04-24T11:06:33-04:00",
+    "hash": "beeb1140b096beb1419bbdf430ac0f62ff854131",
+    "parents": "7177c073b591eef8131f40378476d787cdcf5c38",
+    "subject": "Editorial: Explain the nature of TypedArray property handling"
+   }
+  ],
+  "title": "Editorial: Explain the nature of TypedArray property handling",
+  "updated_at": "2025-04-24T15:07:07Z"
+ },
+ {
   "base": "b6b9fbead27c2f6f8020d9a82abe0fbb1b97ab9a",
   "created_at": "2025-04-20T16:57:03Z",
   "head": "00f75c76d76b5333f00df23161565c7e9938da9b",
@@ -1866,34 +1886,6 @@
   ],
   "title": "Better iterator close",
   "updated_at": "2023-05-25T23:43:21Z"
- },
- {
-  "base": "d0e5ade6ed29df86a32e96b27310b368333ce6e4",
-  "created_at": "2023-05-24T16:04:26Z",
-  "head": "7177c073b591eef8131f40378476d787cdcf5c38",
-  "login": "jmdyck",
-  "number": 3070,
-  "ref": "shorthand_bugs",
-  "revs": [
-   {
-    "adate": "2025-04-23T16:26:22-07:00",
-    "author": "Michael Dyck",
-    "date": "2025-04-23T16:26:22-07:00",
-    "hash": "7177c073b591eef8131f40378476d787cdcf5c38",
-    "parents": "6e63fb08af156052aca1a73ddd029c3064d2801f",
-    "subject": "Editorial: Change some '?' to '!' (#3070)"
-   },
-   {
-    "adate": "2025-04-23T16:26:16-07:00",
-    "author": "Michael Dyck",
-    "date": "2025-04-23T16:26:16-07:00",
-    "hash": "6e63fb08af156052aca1a73ddd029c3064d2801f",
-    "parents": "d0e5ade6ed29df86a32e96b27310b368333ce6e4",
-    "subject": "Editorial: Remove spurious '!' (#3070)"
-   }
-  ],
-  "title": "Editorial: Fix some ?! misuses",
-  "updated_at": "2025-04-23T23:26:32Z"
  },
  {
   "base": "f682cffb67eba0a1d096fd70df56500732547283",
