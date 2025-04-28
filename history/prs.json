@@ -2764,80 +2764,88 @@
   "updated_at": "2022-11-29T09:36:27Z"
  },
  {
-  "base": "4e3450e36314e06ce031456e27fd910e26b06eac",
+  "base": "6d71ca0e2dbf1c0cfb87b5eb7a83cf7c76591561",
   "created_at": "2022-10-31T19:28:14Z",
-  "head": "0ab3e1a746e987b676a46faa3f194c6d0a9eead6",
+  "head": "f871c1f3f0ff650024b3af92e5d20d0a489f256b",
   "login": "jmdyck",
   "number": 2952,
   "ref": "monkey_patch",
   "revs": [
    {
+    "adate": "2025-04-28T14:42:04-04:00",
+    "author": "Michael Dyck",
+    "date": "2025-04-28T14:42:04-04:00",
+    "hash": "f871c1f3f0ff650024b3af92e5d20d0a489f256b",
+    "parents": "18eb900452c03f0c089e2f4f65bd77929eccbc5e",
+    "subject": "fixup: Insert <ul> into two early error rules"
+   },
+   {
     "adate": "2023-09-02T10:51:59-04:00",
     "author": "Michael Dyck",
-    "date": "2025-02-18T22:18:37-05:00",
-    "hash": "0ab3e1a746e987b676a46faa3f194c6d0a9eead6",
-    "parents": "a0ac9b9e81e1edb35e0edc8fde9f7a482f87eaaa",
+    "date": "2025-04-24T10:03:43-04:00",
+    "hash": "18eb900452c03f0c089e2f4f65bd77929eccbc5e",
+    "parents": "244fda58699d02bab0e3e0af124dd4117879321c",
     "subject": "Refactor to avoid \"and\" after the host-condition"
    },
    {
     "adate": "2023-09-02T09:46:03-04:00",
     "author": "Michael Dyck",
-    "date": "2025-02-18T22:18:37-05:00",
-    "hash": "a0ac9b9e81e1edb35e0edc8fde9f7a482f87eaaa",
-    "parents": "172ab83fa85886fbdf10e8f189fcb1073ff4a12b",
+    "date": "2025-04-24T10:03:43-04:00",
+    "hash": "244fda58699d02bab0e3e0af124dd4117879321c",
+    "parents": "dcf0d03465efb0c2a7d5790f06f7052506b8392d",
     "subject": "Change \"Let\" to \"Set\" in inlined steps in EvalDeclarationInstantiation"
    },
    {
     "adate": "2022-10-31T14:31:01-04:00",
     "author": "Michael Dyck",
-    "date": "2025-02-18T22:18:37-05:00",
-    "hash": "172ab83fa85886fbdf10e8f189fcb1073ff4a12b",
-    "parents": "e1d84a5388677e2d322360def8d0802361e34c8e",
+    "date": "2025-04-24T10:03:43-04:00",
+    "hash": "dcf0d03465efb0c2a7d5790f06f7052506b8392d",
+    "parents": "5164ff71626109bc790a135de261bb312a23b590",
     "subject": "Editorial: Eliminate monkey-patching from \"The [[IsHTMLDDA]] Internal Slot\""
    },
    {
     "adate": "2022-10-31T14:17:20-04:00",
     "author": "Michael Dyck",
-    "date": "2025-02-18T22:18:37-05:00",
-    "hash": "e1d84a5388677e2d322360def8d0802361e34c8e",
-    "parents": "26b50fa8bf6116acef994bf72b69f93e570ed57c",
+    "date": "2025-04-24T10:03:43-04:00",
+    "hash": "5164ff71626109bc790a135de261bb312a23b590",
+    "parents": "c8a0fbc3872d0b7f0ed1a35874062532bcbcbad0",
     "subject": "Editorial: Eliminate monkey-patching from \"VariableStatements in Catch Blocks\""
    },
    {
     "adate": "2022-10-31T11:05:45-04:00",
     "author": "Michael Dyck",
-    "date": "2025-02-18T22:18:33-05:00",
-    "hash": "26b50fa8bf6116acef994bf72b69f93e570ed57c",
-    "parents": "e265abc2faad983221b1d50ca5d0a4d3ccf5abf0",
+    "date": "2025-04-24T10:03:43-04:00",
+    "hash": "c8a0fbc3872d0b7f0ed1a35874062532bcbcbad0",
+    "parents": "4393a7bae537478cb6aa01aca813821d29e7eede",
     "subject": "Editorial: Eliminate monkey-patching from \"Block-Level Function Declarations...\""
    },
    {
     "adate": "2022-10-31T10:28:16-04:00",
     "author": "Michael Dyck",
-    "date": "2025-02-18T22:04:40-05:00",
-    "hash": "e265abc2faad983221b1d50ca5d0a4d3ccf5abf0",
-    "parents": "24b7eebc1f2f9da17a3e8c66cc6348532108716c",
+    "date": "2025-04-24T10:03:42-04:00",
+    "hash": "4393a7bae537478cb6aa01aca813821d29e7eede",
+    "parents": "1dbb2bfbc7a35766fad202afd44490d71b4d9364",
     "subject": "Editorial: Eliminate monkey-patching from \"Labelled Function Declarations\""
    },
    {
     "adate": "2023-04-12T15:21:18-04:00",
     "author": "Michael Dyck",
-    "date": "2025-02-18T22:04:40-05:00",
-    "hash": "24b7eebc1f2f9da17a3e8c66cc6348532108716c",
-    "parents": "46ef6925eec8806daceff0308cb04047b41aa43a",
+    "date": "2025-04-24T10:03:42-04:00",
+    "hash": "1dbb2bfbc7a35766fad202afd44490d71b4d9364",
+    "parents": "4ae879c2806bcf4800ce5c4a33c8e6f34ce40287",
     "subject": "Editorial: Tweak the defn of \"Normative Optional\""
    },
    {
     "adate": "2022-10-31T09:57:04-04:00",
     "author": "Michael Dyck",
-    "date": "2025-02-18T22:04:40-05:00",
-    "hash": "46ef6925eec8806daceff0308cb04047b41aa43a",
-    "parents": "4e3450e36314e06ce031456e27fd910e26b06eac",
+    "date": "2025-04-24T10:03:42-04:00",
+    "hash": "4ae879c2806bcf4800ce5c4a33c8e6f34ce40287",
+    "parents": "7177c073b591eef8131f40378476d787cdcf5c38",
     "subject": "Editorial: Link to alt FunctionDeclaration semantics"
    }
   ],
   "title": "Editorial: Reduce Annex B's monkey-patching",
-  "updated_at": "2025-02-19T15:11:09Z"
+  "updated_at": "2025-04-28T18:52:34Z"
  },
  {
   "base": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
