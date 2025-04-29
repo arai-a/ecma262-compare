@@ -2786,11 +2786,19 @@
  {
   "base": "6d71ca0e2dbf1c0cfb87b5eb7a83cf7c76591561",
   "created_at": "2022-10-31T19:28:14Z",
-  "head": "f871c1f3f0ff650024b3af92e5d20d0a489f256b",
+  "head": "5ed1d96a3b90e93fd5808d26ac969b65e5e00657",
   "login": "jmdyck",
   "number": 2952,
   "ref": "monkey_patch",
   "revs": [
+   {
+    "adate": "2025-04-28T23:01:17-04:00",
+    "author": "Michael Dyck",
+    "date": "2025-04-28T23:01:17-04:00",
+    "hash": "5ed1d96a3b90e93fd5808d26ac969b65e5e00657",
+    "parents": "f871c1f3f0ff650024b3af92e5d20d0a489f256b",
+    "subject": "fixup: Reword the 2 new paras at the start of Annex B"
+   },
    {
     "adate": "2025-04-28T14:42:04-04:00",
     "author": "Michael Dyck",
@@ -2865,7 +2873,7 @@
    }
   ],
   "title": "Editorial: Reduce Annex B's monkey-patching",
-  "updated_at": "2025-04-28T18:52:34Z"
+  "updated_at": "2025-04-29T03:03:42Z"
  },
  {
   "base": "52cdd01a7e6ef282bdb8e34892bcb3bdae30046c",
