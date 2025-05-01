@@ -1,6 +1,26 @@
 [
  {
   "base": "6d71ca0e2dbf1c0cfb87b5eb7a83cf7c76591561",
+  "created_at": "2025-05-01T09:38:20Z",
+  "head": "5e2ad613ca579f09b295f0c796ef03c2d455b3de",
+  "login": "nicolo-ribaudo",
+  "number": 3580,
+  "ref": "aeo-fix",
+  "revs": [
+   {
+    "adate": "2025-05-01T11:37:33+02:00",
+    "author": "Nicol\u00f2 Ribaudo",
+    "date": "2025-05-01T11:37:33+02:00",
+    "hash": "5e2ad613ca579f09b295f0c796ef03c2d455b3de",
+    "parents": "6d71ca0e2dbf1c0cfb87b5eb7a83cf7c76591561",
+    "subject": "Fix [[AsyncEvaluationOrder]] examples for evaluated modules"
+   }
+  ],
+  "title": "Editorial: Fix [[AsyncEvaluationOrder]] examples for evaluated modules",
+  "updated_at": "2025-05-01T09:38:33Z"
+ },
+ {
+  "base": "6d71ca0e2dbf1c0cfb87b5eb7a83cf7c76591561",
   "created_at": "2025-04-30T22:00:39Z",
   "head": "3c2ae15e8a15cc2917a942442a53c9be5da246e1",
   "login": "tc39",
