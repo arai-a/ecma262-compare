@@ -168,48 +168,48 @@
   "updated_at": "2025-04-26T01:05:01Z"
  },
  {
-  "base": "7177c073b591eef8131f40378476d787cdcf5c38",
+  "base": "6d71ca0e2dbf1c0cfb87b5eb7a83cf7c76591561",
   "created_at": "2025-04-24T15:07:07Z",
-  "head": "514a0db082f4f31be542a10b30dcfcbe73dd57fb",
+  "head": "1a5472c517d1a98f63f061eaa09dd430e3f9f779",
   "login": "gibson042",
   "number": 3571,
   "ref": "gh-3565-typedarray-property-handling-explanation",
   "revs": [
    {
-    "adate": "2025-05-01T00:42:46-04:00",
+    "adate": "2025-05-02T23:08:20-07:00",
     "author": "Richard Gibson",
-    "date": "2025-05-01T00:42:46-04:00",
-    "hash": "514a0db082f4f31be542a10b30dcfcbe73dd57fb",
-    "parents": "83238350de792a3c680e1849d34a4af89bb432a1",
-    "subject": "Editorial: Move the canonical numeric string observation to a TypedArray note"
+    "date": "2025-05-02T23:08:20-07:00",
+    "hash": "1a5472c517d1a98f63f061eaa09dd430e3f9f779",
+    "parents": "df0552818a80d0da671da5674e169ee3b024c4f0",
+    "subject": "Editorial: Move the canonical numeric string observation to a TypedArray note (#3571)"
    },
    {
-    "adate": "2025-04-24T15:12:30-04:00",
+    "adate": "2025-05-02T23:08:15-07:00",
     "author": "Richard Gibson",
-    "date": "2025-04-24T15:12:30-04:00",
-    "hash": "83238350de792a3c680e1849d34a4af89bb432a1",
-    "parents": "4aea687552528fc757f1f7875e9871d48f09cbf9",
-    "subject": "Editorial: Clarify that TypedArray properties privilege in-band integer index keys"
+    "date": "2025-05-02T23:08:15-07:00",
+    "hash": "df0552818a80d0da671da5674e169ee3b024c4f0",
+    "parents": "e0bae9895b0c03355311f84d37283353784ea282",
+    "subject": "Editorial: Clarify that TypedArray properties privilege in-band integer index keys (#3571)"
    },
    {
-    "adate": "2025-04-24T13:25:58-04:00",
+    "adate": "2025-05-02T23:08:11-07:00",
     "author": "Richard Gibson",
-    "date": "2025-04-24T13:25:58-04:00",
-    "hash": "4aea687552528fc757f1f7875e9871d48f09cbf9",
-    "parents": "beeb1140b096beb1419bbdf430ac0f62ff854131",
-    "subject": "Editorial: Replace \"{String,Number} value\" with just \"{String,Number}\""
+    "date": "2025-05-02T23:08:11-07:00",
+    "hash": "e0bae9895b0c03355311f84d37283353784ea282",
+    "parents": "620e92689833908cada028ef130e24ce11a31b8a",
+    "subject": "Editorial: Replace \"{String,Number} value\" with just \"{String,Number}\" (#3571)"
    },
    {
-    "adate": "2025-04-24T11:06:33-04:00",
+    "adate": "2025-05-02T23:08:05-07:00",
     "author": "Richard Gibson",
-    "date": "2025-04-24T11:06:33-04:00",
-    "hash": "beeb1140b096beb1419bbdf430ac0f62ff854131",
-    "parents": "7177c073b591eef8131f40378476d787cdcf5c38",
-    "subject": "Editorial: Explain the nature of TypedArray property handling"
+    "date": "2025-05-02T23:08:05-07:00",
+    "hash": "620e92689833908cada028ef130e24ce11a31b8a",
+    "parents": "6d71ca0e2dbf1c0cfb87b5eb7a83cf7c76591561",
+    "subject": "Editorial: Explain the nature of TypedArray property handling (#3571)"
    }
   ],
   "title": "Editorial: Explain the nature of TypedArray property handling",
-  "updated_at": "2025-05-01T04:43:57Z"
+  "updated_at": "2025-05-03T06:08:33Z"
  },
  {
   "base": "b6b9fbead27c2f6f8020d9a82abe0fbb1b97ab9a",
