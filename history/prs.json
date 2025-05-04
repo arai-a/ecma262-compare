@@ -1,5 +1,41 @@
 [
  {
+  "base": "a562082b031d89d00ee667181ce8a6158656bd4b",
+  "created_at": "2025-05-04T17:44:18Z",
+  "head": "37ad780a824f42495276961ee32bcc2ce6c3241b",
+  "login": "gibson042",
+  "number": 3587,
+  "ref": "gh-3586-unicodematchproperty",
+  "revs": [
+   {
+    "adate": "2025-05-04T12:55:00-04:00",
+    "author": "Richard Gibson",
+    "date": "2025-05-04T13:41:56-04:00",
+    "hash": "37ad780a824f42495276961ee32bcc2ce6c3241b",
+    "parents": "56db1aa3811522b8fe511b8e78b52c9b3e338422",
+    "subject": "Editorial: Correct references to the structure of Unicode Character Databse file PropertyValueAliases.txt"
+   },
+   {
+    "adate": "2025-05-04T12:53:24-04:00",
+    "author": "Richard Gibson",
+    "date": "2025-05-04T13:41:56-04:00",
+    "hash": "56db1aa3811522b8fe511b8e78b52c9b3e338422",
+    "parents": "606677ee7eeee9763f66a0f75245671e2e1f2463",
+    "subject": "Editorial: Narrow an assertion about the output from UnicodeMatchProperty"
+   },
+   {
+    "adate": "2025-05-04T12:51:14-04:00",
+    "author": "Richard Gibson",
+    "date": "2025-05-04T13:41:56-04:00",
+    "hash": "606677ee7eeee9763f66a0f75245671e2e1f2463",
+    "parents": "a562082b031d89d00ee667181ce8a6158656bd4b",
+    "subject": "Editorial: Fix incorrect use of UnicodeMatchPropertyValue"
+   }
+  ],
+  "title": "Editorial: Fix incorrect use of UnicodeMatchPropertyValue",
+  "updated_at": "2025-05-04T17:44:18Z"
+ },
+ {
   "base": "6d71ca0e2dbf1c0cfb87b5eb7a83cf7c76591561",
   "created_at": "2025-05-01T17:17:33Z",
   "head": "d8b8baa2d6db0aa885cd31e8ba64ec6794aacbf8",
