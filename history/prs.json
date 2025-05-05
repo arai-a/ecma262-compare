@@ -2,11 +2,19 @@
  {
   "base": "a562082b031d89d00ee667181ce8a6158656bd4b",
   "created_at": "2025-05-04T17:44:18Z",
-  "head": "37ad780a824f42495276961ee32bcc2ce6c3241b",
+  "head": "4db3f1a490b006c3c7ec8d9990d8f93a0d8c1959",
   "login": "gibson042",
   "number": 3587,
   "ref": "gh-3586-unicodematchproperty",
   "revs": [
+   {
+    "adate": "2025-05-05T15:26:23-06:00",
+    "author": "Michael Ficarra",
+    "date": "2025-05-05T15:26:23-06:00",
+    "hash": "4db3f1a490b006c3c7ec8d9990d8f93a0d8c1959",
+    "parents": "37ad780a824f42495276961ee32bcc2ce6c3241b",
+    "subject": "wording in UnicodeMatchProperty and UnicodeMatchPropertyValue"
+   },
    {
     "adate": "2025-05-04T12:55:00-04:00",
     "author": "Richard Gibson",
@@ -33,7 +41,7 @@
    }
   ],
   "title": "Editorial: Fix incorrect use of UnicodeMatchPropertyValue",
-  "updated_at": "2025-05-04T17:44:18Z"
+  "updated_at": "2025-05-05T21:35:21Z"
  },
  {
   "base": "6d71ca0e2dbf1c0cfb87b5eb7a83cf7c76591561",
