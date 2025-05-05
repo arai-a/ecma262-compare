@@ -2,11 +2,35 @@
  {
   "base": "a562082b031d89d00ee667181ce8a6158656bd4b",
   "created_at": "2025-05-04T17:44:18Z",
-  "head": "4db3f1a490b006c3c7ec8d9990d8f93a0d8c1959",
+  "head": "7a133cdd70f6ee6c829fce355e35dbe086e0f241",
   "login": "gibson042",
   "number": 3587,
   "ref": "gh-3586-unicodematchproperty",
   "revs": [
+   {
+    "adate": "2025-05-05T18:53:29-04:00",
+    "author": "Richard Gibson",
+    "date": "2025-05-05T18:57:03-04:00",
+    "hash": "7a133cdd70f6ee6c829fce355e35dbe086e0f241",
+    "parents": "9de2273aa850b4e38c951435d3def973d870cf37",
+    "subject": "fixup! wording in UnicodeMatchProperty and UnicodeMatchPropertyValue"
+   },
+   {
+    "adate": "2025-05-05T18:53:29-04:00",
+    "author": "Richard Gibson",
+    "date": "2025-05-05T18:53:29-04:00",
+    "hash": "9de2273aa850b4e38c951435d3def973d870cf37",
+    "parents": "aba335baf68221d985857ff7f7296a2db690d873",
+    "subject": "fixup! wording in UnicodeMatchProperty and UnicodeMatchPropertyValue"
+   },
+   {
+    "adate": "2025-05-05T16:41:02-06:00",
+    "author": "Michael Ficarra",
+    "date": "2025-05-05T16:41:02-06:00",
+    "hash": "aba335baf68221d985857ff7f7296a2db690d873",
+    "parents": "4db3f1a490b006c3c7ec8d9990d8f93a0d8c1959",
+    "subject": "fix typo"
+   },
    {
     "adate": "2025-05-05T15:26:23-06:00",
     "author": "Michael Ficarra",
@@ -41,7 +65,7 @@
    }
   ],
   "title": "Editorial: Fix incorrect use of UnicodeMatchPropertyValue",
-  "updated_at": "2025-05-05T21:35:21Z"
+  "updated_at": "2025-05-05T23:05:56Z"
  },
  {
   "base": "6d71ca0e2dbf1c0cfb87b5eb7a83cf7c76591561",
