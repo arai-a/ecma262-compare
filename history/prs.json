@@ -2,11 +2,27 @@
  {
   "base": "a562082b031d89d00ee667181ce8a6158656bd4b",
   "created_at": "2025-05-04T17:44:18Z",
-  "head": "cb55d74559ed21d1c827d71adc0c1dd18f53cb02",
+  "head": "0bc9855e4ed37ad0b50980507f77f3d81d3c4610",
   "login": "gibson042",
   "number": 3587,
   "ref": "gh-3586-unicodematchproperty",
   "revs": [
+   {
+    "adate": "2025-05-08T13:39:59-04:00",
+    "author": "Richard Gibson",
+    "date": "2025-05-08T13:39:59-04:00",
+    "hash": "0bc9855e4ed37ad0b50980507f77f3d81d3c4610",
+    "parents": "7cba226648735e64f9ac17ee85f2e993f2089f11",
+    "subject": "Editorial: Add special cases for set-valued Unicode property Script_Extensions"
+   },
+   {
+    "adate": "2025-05-08T13:36:04-04:00",
+    "author": "Richard Gibson",
+    "date": "2025-05-08T13:36:04-04:00",
+    "hash": "7cba226648735e64f9ac17ee85f2e993f2089f11",
+    "parents": "cb55d74559ed21d1c827d71adc0c1dd18f53cb02",
+    "subject": "fixup! Editorial: Narrow an assertion about the output from UnicodeMatchProperty"
+   },
    {
     "adate": "2025-05-08T09:32:52-04:00",
     "author": "Richard Gibson",
@@ -73,7 +89,7 @@
    }
   ],
   "title": "Editorial: Fix incorrect use of UnicodeMatchPropertyValue",
-  "updated_at": "2025-05-08T13:32:58Z"
+  "updated_at": "2025-05-08T17:40:09Z"
  },
  {
   "base": "6d71ca0e2dbf1c0cfb87b5eb7a83cf7c76591561",
