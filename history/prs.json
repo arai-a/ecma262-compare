@@ -2,11 +2,19 @@
  {
   "base": "a562082b031d89d00ee667181ce8a6158656bd4b",
   "created_at": "2025-05-04T17:44:18Z",
-  "head": "7a133cdd70f6ee6c829fce355e35dbe086e0f241",
+  "head": "cb55d74559ed21d1c827d71adc0c1dd18f53cb02",
   "login": "gibson042",
   "number": 3587,
   "ref": "gh-3586-unicodematchproperty",
   "revs": [
+   {
+    "adate": "2025-05-08T09:32:52-04:00",
+    "author": "Richard Gibson",
+    "date": "2025-05-08T09:32:52-04:00",
+    "hash": "cb55d74559ed21d1c827d71adc0c1dd18f53cb02",
+    "parents": "7a133cdd70f6ee6c829fce355e35dbe086e0f241",
+    "subject": "Editorial: Fix incorrect use of Unicode property Script_Extensions"
+   },
    {
     "adate": "2025-05-05T18:53:29-04:00",
     "author": "Richard Gibson",
@@ -65,7 +73,7 @@
    }
   ],
   "title": "Editorial: Fix incorrect use of UnicodeMatchPropertyValue",
-  "updated_at": "2025-05-05T23:05:56Z"
+  "updated_at": "2025-05-08T13:32:58Z"
  },
  {
   "base": "6d71ca0e2dbf1c0cfb87b5eb7a83cf7c76591561",
