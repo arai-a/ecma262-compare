@@ -1,32 +1,20 @@
 [
  {
   "base": "a562082b031d89d00ee667181ce8a6158656bd4b",
-  "created_at": "2025-05-08T21:07:38Z",
-  "head": "4a3b6b4496e663f604f757568ae539006acbbc2e",
-  "login": "syg",
-  "number": 3591,
-  "ref": "validate-atomic-waitable",
-  "revs": [
-   {
-    "adate": "2025-05-08T21:02:00-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2025-05-08T21:02:00-07:00",
-    "hash": "4a3b6b4496e663f604f757568ae539006acbbc2e",
-    "parents": "a562082b031d89d00ee667181ce8a6158656bd4b",
-    "subject": "Editorial: Remove optional waitable parameter (#3591)"
-   }
-  ],
-  "title": "Editorial: Remove optional waitable parameter",
-  "updated_at": "2025-05-09T04:02:11Z"
- },
- {
-  "base": "a562082b031d89d00ee667181ce8a6158656bd4b",
   "created_at": "2025-05-04T17:44:18Z",
-  "head": "dd8b237e5672ecaf11d6ed6c548e5a6bf55192f1",
+  "head": "30fe0b850ebcb8dafe0512b56091f54007bf2e5e",
   "login": "gibson042",
   "number": 3587,
   "ref": "gh-3586-unicodematchproperty",
   "revs": [
+   {
+    "adate": "2025-05-10T20:03:50-04:00",
+    "author": "Richard Gibson",
+    "date": "2025-05-10T20:03:50-04:00",
+    "hash": "30fe0b850ebcb8dafe0512b56091f54007bf2e5e",
+    "parents": "dd8b237e5672ecaf11d6ed6c548e5a6bf55192f1",
+    "subject": "fixup! Editorial: Add special cases for set-valued Unicode property Script_Extensions"
+   },
    {
     "adate": "2025-05-08T18:08:33-04:00",
     "author": "Richard Gibson",
@@ -117,7 +105,7 @@
    }
   ],
   "title": "Editorial: Fix incorrect use of UnicodeMatchPropertyValue",
-  "updated_at": "2025-05-08T22:11:32Z"
+  "updated_at": "2025-05-11T00:04:21Z"
  },
  {
   "base": "6d71ca0e2dbf1c0cfb87b5eb7a83cf7c76591561",
