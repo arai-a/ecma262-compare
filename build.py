@@ -725,7 +725,7 @@ class RevisionRenderer:
         LocalRepository.checkout(sha)
 
         try:
-            subprocess.run(['npm', 'install'],
+            subprocess.run(['npm', 'install', '--verbose'],
                            cwd=LocalRepository.DIR,
                            check=True)
         except Exception:
