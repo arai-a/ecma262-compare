@@ -92,6 +92,10 @@ class FileUtils:
         cls.write_b(path, gzip.compress(text.encode()))
 
     @classmethod
+    def write_json(cls, path, data):
+        cls.write(path, json.dumps(data))
+
+    @classmethod
     def write_json_gz(cls, path, data):
         cls.write_b(path, gzip.compress(json.dumps(data).encode()))
 
