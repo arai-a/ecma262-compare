@@ -20,24 +20,24 @@
   "updated_at": "2025-05-14T22:31:39Z"
  },
  {
-  "base": "4a3b6b4496e663f604f757568ae539006acbbc2e",
+  "base": "58f11725c1a3ed0d8af17299a4ba0332c4208f11",
   "created_at": "2025-05-13T16:39:44Z",
-  "head": "2a8a680ae261222594e8b18ab912737d82665d21",
+  "head": "affcec07523a45d40fb668689c07657412e772ac",
   "login": "tc39",
   "number": 3597,
   "ref": "generatorstart-generatorbody-completion",
   "revs": [
    {
-    "adate": "2025-05-13T10:37:42-06:00",
+    "adate": "2025-05-14T16:12:59-07:00",
     "author": "Michael Ficarra",
-    "date": "2025-05-13T10:37:42-06:00",
-    "hash": "2a8a680ae261222594e8b18ab912737d82665d21",
-    "parents": "4a3b6b4496e663f604f757568ae539006acbbc2e",
-    "subject": "mark generatorBody() as a completion record in GeneratorStart"
+    "date": "2025-05-14T16:12:59-07:00",
+    "hash": "affcec07523a45d40fb668689c07657412e772ac",
+    "parents": "58f11725c1a3ed0d8af17299a4ba0332c4208f11",
+    "subject": "Editorial: mark generatorBody() as a completion record in GeneratorStart (#3597)"
    }
   ],
   "title": "Editorial: mark generatorBody() as a completion record in GeneratorStart",
-  "updated_at": "2025-05-13T23:54:31Z"
+  "updated_at": "2025-05-14T23:13:05Z"
  },
  {
   "base": "4a3b6b4496e663f604f757568ae539006acbbc2e",
@@ -274,34 +274,6 @@
   ],
   "title": "Meta: bump ecmarkup to 21.2.1",
   "updated_at": "2025-04-26T03:44:52Z"
- },
- {
-  "base": "6d71ca0e2dbf1c0cfb87b5eb7a83cf7c76591561",
-  "created_at": "2025-04-26T01:05:01Z",
-  "head": "e0b1ffc81cd8954740de72aa6f384f1a4ee5bc8a",
-  "login": "tc39",
-  "number": 3575,
-  "ref": "bakkot-patch-1",
-  "revs": [
-   {
-    "adate": "2025-05-13T11:57:37-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2025-05-13T11:57:37-07:00",
-    "hash": "e0b1ffc81cd8954740de72aa6f384f1a4ee5bc8a",
-    "parents": "99856777113307c6bf9a3cdb847b0033d4e7c8a4",
-    "subject": "bump all headings up by two levels"
-   },
-   {
-    "adate": "2025-04-25T18:03:51-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2025-04-25T18:03:51-07:00",
-    "hash": "99856777113307c6bf9a3cdb847b0033d4e7c8a4",
-    "parents": "6d71ca0e2dbf1c0cfb87b5eb7a83cf7c76591561",
-    "subject": "Meta: clarify CONTRIBUTING.md"
-   }
-  ],
-  "title": "Meta: clarify CONTRIBUTING.md",
-  "updated_at": "2025-05-13T18:58:24Z"
  },
  {
   "base": "b6b9fbead27c2f6f8020d9a82abe0fbb1b97ab9a",
