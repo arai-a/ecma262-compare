@@ -1,6 +1,26 @@
 [
  {
   "base": "4a3b6b4496e663f604f757568ae539006acbbc2e",
+  "created_at": "2025-05-13T16:39:44Z",
+  "head": "2a8a680ae261222594e8b18ab912737d82665d21",
+  "login": "tc39",
+  "number": 3597,
+  "ref": "generatorstart-generatorbody-completion",
+  "revs": [
+   {
+    "adate": "2025-05-13T10:37:42-06:00",
+    "author": "Michael Ficarra",
+    "date": "2025-05-13T10:37:42-06:00",
+    "hash": "2a8a680ae261222594e8b18ab912737d82665d21",
+    "parents": "4a3b6b4496e663f604f757568ae539006acbbc2e",
+    "subject": "mark generatorBody() as a completion record in GeneratorStart"
+   }
+  ],
+  "title": "Editorial: mark generatorBody() as a completion record in GeneratorStart",
+  "updated_at": "2025-05-13T23:54:31Z"
+ },
+ {
+  "base": "4a3b6b4496e663f604f757568ae539006acbbc2e",
   "created_at": "2025-05-11T20:32:00Z",
   "head": "9816e7429531e6654bcfa2d304ff20767d875e76",
   "login": "aapoalas",
@@ -238,11 +258,19 @@
  {
   "base": "6d71ca0e2dbf1c0cfb87b5eb7a83cf7c76591561",
   "created_at": "2025-04-26T01:05:01Z",
-  "head": "99856777113307c6bf9a3cdb847b0033d4e7c8a4",
+  "head": "e0b1ffc81cd8954740de72aa6f384f1a4ee5bc8a",
   "login": "tc39",
   "number": 3575,
   "ref": "bakkot-patch-1",
   "revs": [
+   {
+    "adate": "2025-05-13T11:57:37-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2025-05-13T11:57:37-07:00",
+    "hash": "e0b1ffc81cd8954740de72aa6f384f1a4ee5bc8a",
+    "parents": "99856777113307c6bf9a3cdb847b0033d4e7c8a4",
+    "subject": "bump all headings up by two levels"
+   },
    {
     "adate": "2025-04-25T18:03:51-07:00",
     "author": "Kevin Gibbons",
@@ -253,7 +281,7 @@
    }
   ],
   "title": "Meta: clarify CONTRIBUTING.md",
-  "updated_at": "2025-04-26T01:05:01Z"
+  "updated_at": "2025-05-13T18:58:24Z"
  },
  {
   "base": "b6b9fbead27c2f6f8020d9a82abe0fbb1b97ab9a",
