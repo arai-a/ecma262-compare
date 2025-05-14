@@ -712,6 +712,15 @@ class RevisionRenderer:
         FileUtils.write(path, content)
 
     @classmethod
+    def remove_unnecessary_deps(cls, package_json_path):
+        package = FileUtils.read_json(package_json_path)
+        ecmarkup_ver = package["devDependencies"]["ecmarkup"]
+        package["devDependencies"] = {
+            "ecmarkup": ecmarkup_ver
+        }
+        FileUtils.write_json(package_json_path, package)
+
+    @classmethod
     def __html(cls, sha, prnum, skip_cache):
         index_path = Paths.index_path(sha, prnum)
         if not skip_cache and os.path.exists(index_path):
@@ -724,8 +733,12 @@ class RevisionRenderer:
 
         LocalRepository.checkout(sha)
 
+        package_json_path = os.path.join(LocalRepository.DIR, 'package.json')
+
+        cls.remove_unnecessary_deps(package_json_path)
+
         try:
-            subprocess.run(['npm', 'install', '--verbose'],
+            subprocess.run(['npm', 'install'],
                            cwd=LocalRepository.DIR,
                            check=True)
         except Exception:
