@@ -1,6 +1,26 @@
 [
  {
   "base": "4a3b6b4496e663f604f757568ae539006acbbc2e",
+  "created_at": "2025-05-14T22:30:56Z",
+  "head": "38c6ae9c419b8e32ebf8986080bb2f11b53e1605",
+  "login": "tc39",
+  "number": 3599,
+  "ref": "arg-getter-completion",
+  "revs": [
+   {
+    "adate": "2025-05-14T15:28:48-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2025-05-14T15:28:48-07:00",
+    "hash": "38c6ae9c419b8e32ebf8986080bb2f11b53e1605",
+    "parents": "4a3b6b4496e663f604f757568ae539006acbbc2e",
+    "subject": "Editorial: mark a callsite of GetBindingValue as not throwing"
+   }
+  ],
+  "title": "Editorial: mark a callsite of GetBindingValue as not throwing",
+  "updated_at": "2025-05-14T22:31:39Z"
+ },
+ {
+  "base": "4a3b6b4496e663f604f757568ae539006acbbc2e",
   "created_at": "2025-05-13T16:39:44Z",
   "head": "2a8a680ae261222594e8b18ab912737d82665d21",
   "login": "tc39",
