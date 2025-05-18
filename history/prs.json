@@ -1,23 +1,23 @@
 [
  {
-  "base": "affcec07523a45d40fb668689c07657412e772ac",
-  "created_at": "2025-05-17T10:35:32Z",
-  "head": "6e0e0a2fec89c3dfd22f9514496895cceaa21ff3",
-  "login": "yossydev",
-  "number": 3609,
-  "ref": "editional/unity-obj-to-o-within-indexed-collections",
+  "base": "2529e7537824a9da7de18495a3f1952f5608e8d5",
+  "created_at": "2025-05-18T17:38:18Z",
+  "head": "de65fd7b2faf1d1c1e9d22e1e819c841d14772f2",
+  "login": "tc39",
+  "number": 3610,
+  "ref": "requrements",
   "revs": [
    {
-    "adate": "2025-05-17T19:28:30+09:00",
-    "author": "yossydev",
-    "date": "2025-05-17T19:32:05+09:00",
-    "hash": "6e0e0a2fec89c3dfd22f9514496895cceaa21ff3",
-    "parents": "affcec07523a45d40fb668689c07657412e772ac",
-    "subject": "Editorial: Unify obj to O within indexed-collections"
+    "adate": "2025-05-18T11:33:29-06:00",
+    "author": "Michael Ficarra",
+    "date": "2025-05-18T11:33:29-06:00",
+    "hash": "de65fd7b2faf1d1c1e9d22e1e819c841d14772f2",
+    "parents": "2529e7537824a9da7de18495a3f1952f5608e8d5",
+    "subject": "Editorial: fix spelling of \"requirements\""
    }
   ],
-  "title": "Editorial: Unify _obj_ to _O_ within indexed-collections",
-  "updated_at": "2025-05-17T10:35:39Z"
+  "title": "Editorial: fix spelling of \"requirements\"",
+  "updated_at": "2025-05-18T18:01:40Z"
  },
  {
   "base": "affcec07523a45d40fb668689c07657412e772ac",
@@ -194,26 +194,6 @@
   ],
   "title": "wrap AC return values in completion records where needed",
   "updated_at": "2025-05-15T00:25:41Z"
- },
- {
-  "base": "affcec07523a45d40fb668689c07657412e772ac",
-  "created_at": "2025-05-15T00:12:37Z",
-  "head": "a5b4a91bbf0363a3ab82f7ab4fad192ed0f54f91",
-  "login": "tc39",
-  "number": 3600,
-  "ref": "GH-3597-async",
-  "revs": [
-   {
-    "adate": "2025-05-14T18:09:45-06:00",
-    "author": "Michael Ficarra",
-    "date": "2025-05-14T18:09:45-06:00",
-    "hash": "a5b4a91bbf0363a3ab82f7ab4fad192ed0f54f91",
-    "parents": "affcec07523a45d40fb668689c07657412e772ac",
-    "subject": "Editorial: mark asyncBody() as a completion record in AsyncBlockStart"
-   }
-  ],
-  "title": "Editorial: mark asyncBody() as a completion record in AsyncBlockStart",
-  "updated_at": "2025-05-15T00:26:15Z"
  },
  {
   "base": "4a3b6b4496e663f604f757568ae539006acbbc2e",
@@ -450,34 +430,6 @@
   ],
   "title": "Editorial: Fix [[AsyncEvaluationOrder]] examples for evaluated modules",
   "updated_at": "2025-05-01T09:38:33Z"
- },
- {
-  "base": "6d71ca0e2dbf1c0cfb87b5eb7a83cf7c76591561",
-  "created_at": "2025-04-26T03:44:52Z",
-  "head": "f1d0e663ccce6daf35981ea6369f82d931c6e3a9",
-  "login": "tc39",
-  "number": 3576,
-  "ref": "bump-emu",
-  "revs": [
-   {
-    "adate": "2025-05-16T10:57:48-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2025-05-16T10:57:48-07:00",
-    "hash": "f1d0e663ccce6daf35981ea6369f82d931c6e3a9",
-    "parents": "8f8f91ea36c5ec5dab9ad626c521fecb8cc2d12b",
-    "subject": "21.3.0"
-   },
-   {
-    "adate": "2025-04-25T20:43:34-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2025-04-25T20:43:40-07:00",
-    "hash": "8f8f91ea36c5ec5dab9ad626c521fecb8cc2d12b",
-    "parents": "6d71ca0e2dbf1c0cfb87b5eb7a83cf7c76591561",
-    "subject": "Meta: bump ecmarkup to 21.2.1"
-   }
-  ],
-  "title": "Meta: bump ecmarkup to 21.3.0",
-  "updated_at": "2025-05-16T18:01:46Z"
  },
  {
   "base": "b6b9fbead27c2f6f8020d9a82abe0fbb1b97ab9a",
