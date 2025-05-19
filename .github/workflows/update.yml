@@ -30,13 +30,14 @@ jobs:
       id: pages_hash
     - name: Download gh-pages Bootstrap
       run: |
-        curl -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.pages_hash.outputs.sha}}/Makefile
-        curl -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.pages_hash.outputs.sha}}/build.py
-        curl -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.pages_hash.outputs.sha}}/config.json
-        curl -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.pages_hash.outputs.sha}}/broken_revs.json
-        curl -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.pages_hash.outputs.sha}}/history/revs.json
-        curl -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.pages_hash.outputs.sha}}/history/prs.json
-        curl -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.pages_hash.outputs.sha}}/requirements.txt
+        curl -vsL -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.pages_hash.outputs.sha}}/Makefile
+        curl -vsL -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.pages_hash.outputs.sha}}/build.py
+        curl -vsL -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.pages_hash.outputs.sha}}/config.json
+        curl -vsL -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.pages_hash.outputs.sha}}/broken_revs.json
+        curl -vsL -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.pages_hash.outputs.sha}}/history/revs.json
+        curl -vsL -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.pages_hash.outputs.sha}}/history/prs.json
+        curl -vsL -O https://raw.githubusercontent.com/${{github.repository}}/${{steps.pages_hash.outputs.sha}}/requirements.txt
+        ls -l Makefile build.py config.json broken_revs.json revs.json prs.json requirements.txt
         mkdir -p history
         mv revs.json history
         mv prs.json history
