@@ -22,7 +22,7 @@ jobs:
 
     - name: Get gh-pages hash
       run: |
-        curl -sL  \
+        curl -sL \
         --url https://api.github.com/repos/${{ github.repository }}/branches/gh-pages \
         --header 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}' \
         --header 'content-type: application/json' | \
@@ -30,25 +30,25 @@ jobs:
       id: pages_hash
     - name: Download gh-pages Bootstrap
       run: |
-        curl -sL \
+        curl -sLO \
         --url https://raw.githubusercontent.com/${{github.repository}}/${{steps.pages_hash.outputs.sha}}/Makefile \
         --header 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}'
-        curl -sL \
+        curl -sLO \
         --url https://raw.githubusercontent.com/${{github.repository}}/${{steps.pages_hash.outputs.sha}}/build.py \
         --header 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}'
-        curl -sL \
+        curl -sLO \
         --url https://raw.githubusercontent.com/${{github.repository}}/${{steps.pages_hash.outputs.sha}}/config.json \
         --header 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}'
-        curl -sL \
+        curl -sLO \
         --url https://raw.githubusercontent.com/${{github.repository}}/${{steps.pages_hash.outputs.sha}}/broken_revs.json \
         --header 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}'
-        curl -sL \
+        curl -sLO \
         --url https://raw.githubusercontent.com/${{github.repository}}/${{steps.pages_hash.outputs.sha}}/history/revs.json \
         --header 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}'
-        curl -sL \
+        curl -sLO \
         --url https://raw.githubusercontent.com/${{github.repository}}/${{steps.pages_hash.outputs.sha}}/history/prs.json \
         --header 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}'
-        curl -sL \
+        curl -sLO \
         --url https://raw.githubusercontent.com/${{github.repository}}/${{steps.pages_hash.outputs.sha}}/requirements.txt \
         --header 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}'
         mkdir -p history
