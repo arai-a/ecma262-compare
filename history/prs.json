@@ -1,23 +1,31 @@
 [
  {
-  "base": "2529e7537824a9da7de18495a3f1952f5608e8d5",
-  "created_at": "2025-05-18T17:38:18Z",
-  "head": "de65fd7b2faf1d1c1e9d22e1e819c841d14772f2",
+  "base": "d14670224281909f5bb552e8ebe4a8e958646c16",
+  "created_at": "2025-05-20T21:04:29Z",
+  "head": "ce30d0a86d6f2d609c3fb25556b6c17a6484ab58",
   "login": "tc39",
-  "number": 3610,
-  "ref": "requrements",
+  "number": 3611,
+  "ref": "module-namespace-exotic-objects-are-immutable-prototype-exotic-objects",
   "revs": [
    {
-    "adate": "2025-05-18T11:33:29-06:00",
+    "adate": "2025-05-20T15:04:40-06:00",
     "author": "Michael Ficarra",
-    "date": "2025-05-18T11:33:29-06:00",
-    "hash": "de65fd7b2faf1d1c1e9d22e1e819c841d14772f2",
-    "parents": "2529e7537824a9da7de18495a3f1952f5608e8d5",
-    "subject": "Editorial: fix spelling of \"requirements\""
+    "date": "2025-05-20T15:04:40-06:00",
+    "hash": "ce30d0a86d6f2d609c3fb25556b6c17a6484ab58",
+    "parents": "a6b464d302639b719a6f3e2294d3fd27772d5626",
+    "subject": "this sentence doesn't have any reason to be a parenthetical"
+   },
+   {
+    "adate": "2025-05-20T15:00:49-06:00",
+    "author": "Michael Ficarra",
+    "date": "2025-05-20T15:00:49-06:00",
+    "hash": "a6b464d302639b719a6f3e2294d3fd27772d5626",
+    "parents": "d14670224281909f5bb552e8ebe4a8e958646c16",
+    "subject": "Editorial: module namespace EOs are immutable prototype EOs"
    }
   ],
-  "title": "Editorial: fix spelling of \"requirements\"",
-  "updated_at": "2025-05-18T18:01:40Z"
+  "title": "Editorial: module namespace exotic objects are immutable prototype exotic objects",
+  "updated_at": "2025-05-20T21:05:22Z"
  },
  {
   "base": "affcec07523a45d40fb668689c07657412e772ac",
