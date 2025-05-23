@@ -98,11 +98,27 @@
  {
   "base": "affcec07523a45d40fb668689c07657412e772ac",
   "created_at": "2025-05-15T02:45:23Z",
-  "head": "b71353ee1c9d94e946d5ebffe78efb8abcd22865",
+  "head": "e50aaf22c36883b34a64ec0ce6243a8d8239cd93",
   "login": "tc39",
   "number": 3606,
   "ref": "consistent-fn-completion-machinery-2",
   "revs": [
+   {
+    "adate": "2025-05-23T12:42:33-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2025-05-23T12:42:33-07:00",
+    "hash": "e50aaf22c36883b34a64ec0ce6243a8d8239cd93",
+    "parents": "1438bed0bf88794e435ea745c95c51ddf43d0359",
+    "subject": "fixup! concise bodies still need to return ReturnCompletion"
+   },
+   {
+    "adate": "2025-05-23T12:36:37-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2025-05-23T12:36:37-07:00",
+    "hash": "1438bed0bf88794e435ea745c95c51ddf43d0359",
+    "parents": "b71353ee1c9d94e946d5ebffe78efb8abcd22865",
+    "subject": "fixup! use NormalCompletion for built-in generators"
+   },
    {
     "adate": "2025-05-14T19:24:59-07:00",
     "author": "Kevin Gibbons",
@@ -121,7 +137,7 @@
    }
   ],
   "title": "Editorial: non-syntactic async/generator functions use NormalCompletion",
-  "updated_at": "2025-05-15T02:46:59Z"
+  "updated_at": "2025-05-23T19:45:11Z"
  },
  {
   "base": "affcec07523a45d40fb668689c07657412e772ac",
