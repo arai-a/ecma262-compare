@@ -410,11 +410,35 @@
  {
   "base": "a545cb8623e9f107c40641402109fb9265c0ba38",
   "created_at": "2025-05-01T13:49:23Z",
-  "head": "09fe8d132748c0e87b204de727b522c1c91b2239",
+  "head": "fc28be7147d8236c1dfcc79e95f01c620a187e51",
   "login": "js-choi",
   "number": 3581,
   "ref": "add-array-from-async",
   "revs": [
+   {
+    "adate": "2025-05-28T09:04:52-06:00",
+    "author": "J.\u00a0S.\u00a0Choi",
+    "date": "2025-05-28T09:04:52-06:00",
+    "hash": "fc28be7147d8236c1dfcc79e95f01c620a187e51",
+    "parents": "a55e8823be6b5435c4c113e44c1cb05de8870b63",
+    "subject": "Editorial: Explicitly mark Array.fromAsync as async; rename asyncItems arg to items"
+   },
+   {
+    "adate": "2025-05-28T09:02:46-06:00",
+    "author": "J.\u00a0S.\u00a0Choi",
+    "date": "2025-05-28T09:02:46-06:00",
+    "hash": "a55e8823be6b5435c4c113e44c1cb05de8870b63",
+    "parents": "b4438b920515b62bc149539dff06ec1d98f45f91",
+    "subject": "Editorial: Simplify branching"
+   },
+   {
+    "adate": "2025-05-28T08:15:00-06:00",
+    "author": "J.\u00a0S.\u00a0Choi",
+    "date": "2025-05-28T08:15:00-06:00",
+    "hash": "b4438b920515b62bc149539dff06ec1d98f45f91",
+    "parents": "09fe8d132748c0e87b204de727b522c1c91b2239",
+    "subject": "Editorial: Change Array.fromAsync asyncItems note"
+   },
    {
     "adate": "2025-05-21T21:17:52-06:00",
     "author": "J.\u00a0S.\u00a0Choi",
@@ -449,7 +473,7 @@
    }
   ],
   "title": "Normative: Add Array.fromAsync",
-  "updated_at": "2025-05-22T03:18:52Z"
+  "updated_at": "2025-05-28T15:06:05Z"
  },
  {
   "base": "6d71ca0e2dbf1c0cfb87b5eb7a83cf7c76591561",
