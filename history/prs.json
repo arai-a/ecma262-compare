@@ -410,11 +410,27 @@
  {
   "base": "a545cb8623e9f107c40641402109fb9265c0ba38",
   "created_at": "2025-05-01T13:49:23Z",
-  "head": "fc28be7147d8236c1dfcc79e95f01c620a187e51",
+  "head": "8462af1e87b6f4fa3ac67c6b929ab2affd011db3",
   "login": "js-choi",
   "number": 3581,
   "ref": "add-array-from-async",
   "revs": [
+   {
+    "adate": "2025-05-28T15:38:02-06:00",
+    "author": "J.\u00a0S.\u00a0Choi",
+    "date": "2025-05-28T15:38:02-06:00",
+    "hash": "8462af1e87b6f4fa3ac67c6b929ab2affd011db3",
+    "parents": "680ba5445046da4ceac82c1bec697d82ab7f64cc",
+    "subject": "Editorial: Fix indentation formatting in Array.fromAsync behavior"
+   },
+   {
+    "adate": "2025-05-28T15:25:22-06:00",
+    "author": "J.\u00a0S.\u00a0Choi",
+    "date": "2025-05-28T15:25:22-06:00",
+    "hash": "680ba5445046da4ceac82c1bec697d82ab7f64cc",
+    "parents": "fc28be7147d8236c1dfcc79e95f01c620a187e51",
+    "subject": "Editorial: Fix typo in Array.fromAsync behavior"
+   },
    {
     "adate": "2025-05-28T09:04:52-06:00",
     "author": "J.\u00a0S.\u00a0Choi",
@@ -473,7 +489,7 @@
    }
   ],
   "title": "Normative: Add Array.fromAsync",
-  "updated_at": "2025-05-28T15:06:05Z"
+  "updated_at": "2025-05-28T21:43:03Z"
  },
  {
   "base": "6d71ca0e2dbf1c0cfb87b5eb7a83cf7c76591561",
