@@ -542,11 +542,19 @@
  {
   "base": "b6b9fbead27c2f6f8020d9a82abe0fbb1b97ab9a",
   "created_at": "2025-04-18T08:37:19Z",
-  "head": "cedf79ff35932bc91c7f587ea87ec66e12227891",
+  "head": "0863404b5504969fa6d4c7afbb5d40ff72baeb8d",
   "login": "rkirsling",
   "number": 3568,
   "ref": "late-errors-for-function-call-assignment-targets",
   "revs": [
+   {
+    "adate": "2025-05-29T16:26:06+09:00",
+    "author": "Ross Kirsling",
+    "date": "2025-05-29T16:26:06+09:00",
+    "hash": "0863404b5504969fa6d4c7afbb5d40ff72baeb8d",
+    "parents": "cedf79ff35932bc91c7f587ea87ec66e12227891",
+    "subject": "Address bakkot's feedback."
+   },
    {
     "adate": "2025-05-16T11:16:53+09:00",
     "author": "Ross Kirsling",
@@ -588,8 +596,8 @@
     "subject": "Normative: Add \"Late Errors for Function Call Assignment Targets\" to Annex B"
    }
   ],
-  "title": "Normative: Add \"Late Errors for Function Call Assignment Targets\" to Annex B",
-  "updated_at": "2025-05-16T02:26:29Z"
+  "title": "Normative: Add \"Runtime Errors for Function Call Assignment Targets\" to Annex B",
+  "updated_at": "2025-05-29T07:27:58Z"
  },
  {
   "base": "f2bad0095a792587ab7a70c9f024612148e18bd1",
