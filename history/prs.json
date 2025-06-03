@@ -1,34 +1,6 @@
 [
  {
   "base": "d14670224281909f5bb552e8ebe4a8e958646c16",
-  "created_at": "2025-06-03T08:36:08Z",
-  "head": "bc081e7f4bc38c37cb8886a8ecc4ca8b5fe02afc",
-  "login": "jkup",
-  "number": 3616,
-  "ref": "add-webassembly-downstrea-dependency",
-  "revs": [
-   {
-    "adate": "2025-06-03T10:34:19+02:00",
-    "author": "Jon Kuperman",
-    "date": "2025-06-03T10:34:19+02:00",
-    "hash": "bc081e7f4bc38c37cb8886a8ecc4ca8b5fe02afc",
-    "parents": "58c7fb5bd08b69b5760b221e2abc03f2956cb6e1",
-    "subject": "add to github PR template"
-   },
-   {
-    "adate": "2025-06-03T10:31:55+02:00",
-    "author": "Jon Kuperman",
-    "date": "2025-06-03T10:31:55+02:00",
-    "hash": "58c7fb5bd08b69b5760b221e2abc03f2956cb6e1",
-    "parents": "d14670224281909f5bb552e8ebe4a8e958646c16",
-    "subject": "Meta: Add WebAssembly as a downstream dependency"
-   }
-  ],
-  "title": "Meta: Add WebAssembly to our list of downstream dependencies",
-  "updated_at": "2025-06-03T08:36:08Z"
- },
- {
-  "base": "d14670224281909f5bb552e8ebe4a8e958646c16",
   "created_at": "2025-05-27T10:46:03Z",
   "head": "2f5e25a0ea0bd90337f00f088fa6a280845cf29b",
   "login": "stonechoe",
@@ -3224,96 +3196,104 @@
   "updated_at": "2022-11-29T09:36:27Z"
  },
  {
-  "base": "6d71ca0e2dbf1c0cfb87b5eb7a83cf7c76591561",
+  "base": "b758ddcf5f3e3009e29daf20092556da13af4084",
   "created_at": "2022-10-31T19:28:14Z",
-  "head": "5ed1d96a3b90e93fd5808d26ac969b65e5e00657",
+  "head": "92712f36f1a123852527175ac05c477fabe271bd",
   "login": "jmdyck",
   "number": 2952,
   "ref": "monkey_patch",
   "revs": [
    {
+    "adate": "2025-06-03T17:39:12-04:00",
+    "author": "Michael Dyck",
+    "date": "2025-06-03T17:39:12-04:00",
+    "hash": "92712f36f1a123852527175ac05c477fabe271bd",
+    "parents": "6c17481875f3c0b41dc726042ecaa63783263250",
+    "subject": "fixup: restructure two early error rules"
+   },
+   {
     "adate": "2025-04-28T23:01:17-04:00",
     "author": "Michael Dyck",
-    "date": "2025-04-28T23:01:17-04:00",
-    "hash": "5ed1d96a3b90e93fd5808d26ac969b65e5e00657",
-    "parents": "f871c1f3f0ff650024b3af92e5d20d0a489f256b",
+    "date": "2025-05-23T22:19:46-04:00",
+    "hash": "6c17481875f3c0b41dc726042ecaa63783263250",
+    "parents": "d66314645e416bbe753d2cef4e1752eeccbeffd8",
     "subject": "fixup: Reword the 2 new paras at the start of Annex B"
    },
    {
     "adate": "2025-04-28T14:42:04-04:00",
     "author": "Michael Dyck",
-    "date": "2025-04-28T14:42:04-04:00",
-    "hash": "f871c1f3f0ff650024b3af92e5d20d0a489f256b",
-    "parents": "18eb900452c03f0c089e2f4f65bd77929eccbc5e",
+    "date": "2025-05-23T22:19:46-04:00",
+    "hash": "d66314645e416bbe753d2cef4e1752eeccbeffd8",
+    "parents": "2e1d1eb95db83a9c360ee1716186d7a4be411dd3",
     "subject": "fixup: Insert <ul> into two early error rules"
    },
    {
     "adate": "2023-09-02T10:51:59-04:00",
     "author": "Michael Dyck",
-    "date": "2025-04-24T10:03:43-04:00",
-    "hash": "18eb900452c03f0c089e2f4f65bd77929eccbc5e",
-    "parents": "244fda58699d02bab0e3e0af124dd4117879321c",
+    "date": "2025-05-23T22:19:46-04:00",
+    "hash": "2e1d1eb95db83a9c360ee1716186d7a4be411dd3",
+    "parents": "4cd28a2df0da9cfa8efdd0b07a739f0384d7f888",
     "subject": "Refactor to avoid \"and\" after the host-condition"
    },
    {
     "adate": "2023-09-02T09:46:03-04:00",
     "author": "Michael Dyck",
-    "date": "2025-04-24T10:03:43-04:00",
-    "hash": "244fda58699d02bab0e3e0af124dd4117879321c",
-    "parents": "dcf0d03465efb0c2a7d5790f06f7052506b8392d",
+    "date": "2025-05-23T22:19:46-04:00",
+    "hash": "4cd28a2df0da9cfa8efdd0b07a739f0384d7f888",
+    "parents": "94f77704ccec6469200e24df1394faaae248d22b",
     "subject": "Change \"Let\" to \"Set\" in inlined steps in EvalDeclarationInstantiation"
    },
    {
     "adate": "2022-10-31T14:31:01-04:00",
     "author": "Michael Dyck",
-    "date": "2025-04-24T10:03:43-04:00",
-    "hash": "dcf0d03465efb0c2a7d5790f06f7052506b8392d",
-    "parents": "5164ff71626109bc790a135de261bb312a23b590",
+    "date": "2025-05-23T22:19:46-04:00",
+    "hash": "94f77704ccec6469200e24df1394faaae248d22b",
+    "parents": "4e8459d2df4e34446f3555cd8d7afdaa043016f4",
     "subject": "Editorial: Eliminate monkey-patching from \"The [[IsHTMLDDA]] Internal Slot\""
    },
    {
     "adate": "2022-10-31T14:17:20-04:00",
     "author": "Michael Dyck",
-    "date": "2025-04-24T10:03:43-04:00",
-    "hash": "5164ff71626109bc790a135de261bb312a23b590",
-    "parents": "c8a0fbc3872d0b7f0ed1a35874062532bcbcbad0",
+    "date": "2025-05-23T22:19:45-04:00",
+    "hash": "4e8459d2df4e34446f3555cd8d7afdaa043016f4",
+    "parents": "6f3a9f25c4bdec2dab8787b2a2656b88f56cad9b",
     "subject": "Editorial: Eliminate monkey-patching from \"VariableStatements in Catch Blocks\""
    },
    {
     "adate": "2022-10-31T11:05:45-04:00",
     "author": "Michael Dyck",
-    "date": "2025-04-24T10:03:43-04:00",
-    "hash": "c8a0fbc3872d0b7f0ed1a35874062532bcbcbad0",
-    "parents": "4393a7bae537478cb6aa01aca813821d29e7eede",
+    "date": "2025-05-23T22:19:45-04:00",
+    "hash": "6f3a9f25c4bdec2dab8787b2a2656b88f56cad9b",
+    "parents": "0a5f188ca39e176eafa63e4dd8fe52e7ce9d6d1f",
     "subject": "Editorial: Eliminate monkey-patching from \"Block-Level Function Declarations...\""
    },
    {
     "adate": "2022-10-31T10:28:16-04:00",
     "author": "Michael Dyck",
-    "date": "2025-04-24T10:03:42-04:00",
-    "hash": "4393a7bae537478cb6aa01aca813821d29e7eede",
-    "parents": "1dbb2bfbc7a35766fad202afd44490d71b4d9364",
+    "date": "2025-05-23T22:19:45-04:00",
+    "hash": "0a5f188ca39e176eafa63e4dd8fe52e7ce9d6d1f",
+    "parents": "973ac68076d1a30d7817cb7211d24b4d9af7fa54",
     "subject": "Editorial: Eliminate monkey-patching from \"Labelled Function Declarations\""
    },
    {
     "adate": "2023-04-12T15:21:18-04:00",
     "author": "Michael Dyck",
-    "date": "2025-04-24T10:03:42-04:00",
-    "hash": "1dbb2bfbc7a35766fad202afd44490d71b4d9364",
-    "parents": "4ae879c2806bcf4800ce5c4a33c8e6f34ce40287",
+    "date": "2025-05-23T22:19:45-04:00",
+    "hash": "973ac68076d1a30d7817cb7211d24b4d9af7fa54",
+    "parents": "e4558639da92d1109312ef64d84ede43d15cdf99",
     "subject": "Editorial: Tweak the defn of \"Normative Optional\""
    },
    {
     "adate": "2022-10-31T09:57:04-04:00",
     "author": "Michael Dyck",
-    "date": "2025-04-24T10:03:42-04:00",
-    "hash": "4ae879c2806bcf4800ce5c4a33c8e6f34ce40287",
-    "parents": "7177c073b591eef8131f40378476d787cdcf5c38",
+    "date": "2025-05-23T22:19:45-04:00",
+    "hash": "e4558639da92d1109312ef64d84ede43d15cdf99",
+    "parents": "d14670224281909f5bb552e8ebe4a8e958646c16",
     "subject": "Editorial: Link to alt FunctionDeclaration semantics"
    }
   ],
   "title": "Editorial: Reduce Annex B's monkey-patching",
-  "updated_at": "2025-04-29T03:03:42Z"
+  "updated_at": "2025-06-03T21:53:03Z"
  },
  {
   "base": "6d71ca0e2dbf1c0cfb87b5eb7a83cf7c76591561",
