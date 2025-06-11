@@ -1,6 +1,34 @@
 [
  {
   "base": "caa0482e4f6febc2bf5d2992b1546cb08a9b3e87",
+  "created_at": "2025-06-11T06:50:56Z",
+  "head": "63db98902f797bd02f201d813487655ea1963de3",
+  "login": "anba",
+  "number": 3620,
+  "ref": "iterator-proto-clause",
+  "revs": [
+   {
+    "adate": "2025-06-11T08:36:53+02:00",
+    "author": "Andr\u00e9 Bargull",
+    "date": "2025-06-11T08:36:53+02:00",
+    "hash": "63db98902f797bd02f201d813487655ea1963de3",
+    "parents": "d80ede98ecb54857da085fabd41316bc0c632ec5",
+    "subject": "Editorial: Reformat spec"
+   },
+   {
+    "adate": "2025-06-11T08:33:35+02:00",
+    "author": "Andr\u00e9 Bargull",
+    "date": "2025-06-11T08:33:35+02:00",
+    "hash": "d80ede98ecb54857da085fabd41316bc0c632ec5",
+    "parents": "caa0482e4f6febc2bf5d2992b1546cb08a9b3e87",
+    "subject": "Editorial: Make \"Properties of the Iterator Prototype Object\" a subclause of \"Iterator Objects\""
+   }
+  ],
+  "title": "Editorial: Make \"Properties of the Iterator Prototype Object\" a subclause of \"Iterator Objects\"",
+  "updated_at": "2025-06-11T06:50:56Z"
+ },
+ {
+  "base": "caa0482e4f6febc2bf5d2992b1546cb08a9b3e87",
   "created_at": "2025-06-08T16:20:56Z",
   "head": "7c11a39a2c1f657f5b35a185cc300b3f64075261",
   "login": "gibson042",
