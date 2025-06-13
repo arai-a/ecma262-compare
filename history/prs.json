@@ -1,6 +1,26 @@
 [
  {
   "base": "caa0482e4f6febc2bf5d2992b1546cb08a9b3e87",
+  "created_at": "2025-06-13T07:24:56Z",
+  "head": "3423daa8dcccebf64a01fdff303975ff083ed33b",
+  "login": "anba",
+  "number": 3624,
+  "ref": "fun-code-async-gen",
+  "revs": [
+   {
+    "adate": "2025-06-13T09:22:19+02:00",
+    "author": "Andr\u00e9 Bargull",
+    "date": "2025-06-13T09:22:19+02:00",
+    "hash": "3423daa8dcccebf64a01fdff303975ff083ed33b",
+    "parents": "caa0482e4f6febc2bf5d2992b1546cb08a9b3e87",
+    "subject": "Editorial: Mention AsyncGeneratorFunction constructor in note"
+   }
+  ],
+  "title": "Editorial: Mention AsyncGeneratorFunction constructor in note",
+  "updated_at": "2025-06-13T07:24:56Z"
+ },
+ {
+  "base": "caa0482e4f6febc2bf5d2992b1546cb08a9b3e87",
   "created_at": "2025-06-11T15:11:59Z",
   "head": "a231d7705cf3236581f172bf7dee34df3907494e",
   "login": "gesa",
@@ -1242,50 +1262,6 @@
   ],
   "title": "Editorial: add missing note for Annex B replacement",
   "updated_at": "2024-06-26T16:43:52Z"
- },
- {
-  "base": "0b24a049c11fe0604b1c929772e7cbd671b78492",
-  "created_at": "2024-06-13T20:06:25Z",
-  "head": "c68ea8a70e2e0f3504603ba707b83b4d4bd938ad",
-  "login": "gesa",
-  "number": 3351,
-  "ref": "es2024-pdf",
-  "revs": [
-   {
-    "adate": "2024-05-28T15:03:16-07:00",
-    "author": "Aki \ud83c\udf39",
-    "date": "2024-06-13T12:59:56-07:00",
-    "hash": "c68ea8a70e2e0f3504603ba707b83b4d4bd938ad",
-    "parents": "0b24a049c11fe0604b1c929772e7cbd671b78492",
-    "subject": "Markup: minor modifications/improvements for PDF gen"
-   },
-   {
-    "adate": "2024-02-28T15:03:57-08:00",
-    "author": "Jordan Harband",
-    "date": "2024-02-28T15:03:57-08:00",
-    "hash": "0b24a049c11fe0604b1c929772e7cbd671b78492",
-    "parents": "14540ace1d88b82b95be6491095f14e05b929b28",
-    "subject": "Meta: update date for ES2024 Candidate number 2"
-   },
-   {
-    "adate": "2024-02-28T14:42:56-08:00",
-    "author": "Nicol\u00f2 Ribaudo",
-    "date": "2024-02-28T14:59:23-08:00",
-    "hash": "14540ace1d88b82b95be6491095f14e05b929b28",
-    "parents": "334e0588cb731517ab427071e807d56317c82097",
-    "subject": "Normative: Restore params/body ToString order in `new Function` (#3288)"
-   },
-   {
-    "adate": "2024-02-16T21:36:49-08:00",
-    "author": "Jordan Harband",
-    "date": "2024-02-16T21:36:49-08:00",
-    "hash": "334e0588cb731517ab427071e807d56317c82097",
-    "parents": "6ec325c22e9b3c47397c95c6b301491e76edb768",
-    "subject": "Meta: update metadata for ES2024"
-   }
-  ],
-  "title": "Markup: minor fixes/improvements for PDF gen",
-  "updated_at": "2024-06-13T20:06:25Z"
  },
  {
   "base": "a92f3e906943ee1abdbf924a27c966524474f0c4",
