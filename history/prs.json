@@ -2,11 +2,51 @@
  {
   "base": "bdfd596ffad5aeb2957aed4e1db36be3665c69ec",
   "created_at": "2025-06-24T23:45:45Z",
-  "head": "243aadad9d6c964361eaa957f73593dcb203f9a4",
+  "head": "2038f283587a896d0d84290bb8c905567950fcf0",
   "login": "gibson042",
   "number": 3629,
   "ref": "2025-06-typedarray-cleanup",
   "revs": [
+   {
+    "adate": "2025-06-26T16:54:21-04:00",
+    "author": "Richard Gibson",
+    "date": "2025-06-26T16:54:21-04:00",
+    "hash": "2038f283587a896d0d84290bb8c905567950fcf0",
+    "parents": "48e45104f8f52d82dabff31766b6cab7c4f4d6fd",
+    "subject": "fixup! Editorial: Introduce ValidateTypedArrayCompatibility for number vs. bigint constraints"
+   },
+   {
+    "adate": "2025-06-26T15:02:58-04:00",
+    "author": "Richard Gibson",
+    "date": "2025-06-26T16:14:59-04:00",
+    "hash": "48e45104f8f52d82dabff31766b6cab7c4f4d6fd",
+    "parents": "67722ffa835394a77b5c423429d8f325e53c8255",
+    "subject": "fixup! Editorial: Further simplify SetTypedArrayFromTypedArray"
+   },
+   {
+    "adate": "2025-06-26T14:39:09-04:00",
+    "author": "Richard Gibson",
+    "date": "2025-06-26T14:39:09-04:00",
+    "hash": "67722ffa835394a77b5c423429d8f325e53c8255",
+    "parents": "9edb5873ec46b1fd7eeed5fc0e9b78942bfc5677",
+    "subject": "fixup! Editorial: Use ToElementCategory for Atomics operations"
+   },
+   {
+    "adate": "2025-06-26T14:39:09-04:00",
+    "author": "Richard Gibson",
+    "date": "2025-06-26T14:39:09-04:00",
+    "hash": "9edb5873ec46b1fd7eeed5fc0e9b78942bfc5677",
+    "parents": "d55136cf04afa4b8e2993f32e25ea50670997560",
+    "subject": "fixup! Editorial: Introduce ToElementCategory for converting to number/bigint before ArrayBuffer writes"
+   },
+   {
+    "adate": "2025-06-26T14:39:09-04:00",
+    "author": "Richard Gibson",
+    "date": "2025-06-26T14:39:09-04:00",
+    "hash": "d55136cf04afa4b8e2993f32e25ea50670997560",
+    "parents": "243aadad9d6c964361eaa957f73593dcb203f9a4",
+    "subject": "fixup! Editorial: Further simplify SetTypedArrayFromTypedArray"
+   },
    {
     "adate": "2025-06-09T15:12:18-04:00",
     "author": "Richard Gibson",
@@ -137,7 +177,7 @@
    }
   ],
   "title": "Editorial: Cleanup some ArrayBuffer/TypedArray/DataView/Atomics text",
-  "updated_at": "2025-06-24T23:45:45Z"
+  "updated_at": "2025-06-26T20:59:03Z"
  },
  {
   "base": "bdfd596ffad5aeb2957aed4e1db36be3665c69ec",
