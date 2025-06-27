@@ -404,48 +404,24 @@
   "updated_at": "2025-05-17T00:22:26Z"
  },
  {
-  "base": "affcec07523a45d40fb668689c07657412e772ac",
+  "base": "17b55817322cd3d048966806e8276b76f7ea7a40",
   "created_at": "2025-05-15T23:45:44Z",
-  "head": "512d881f62ec4646b34f35b5a2e3fd762757e80c",
+  "head": "48cab845574b5935f56c52cbb82874fc66ad4841",
   "login": "tc39",
   "number": 3607,
   "ref": "fdi-not-return-completion",
   "revs": [
    {
-    "adate": "2025-06-26T16:21:59-07:00",
+    "adate": "2025-06-26T23:18:45-07:00",
     "author": "Kevin Gibbons",
-    "date": "2025-06-26T16:21:59-07:00",
-    "hash": "512d881f62ec4646b34f35b5a2e3fd762757e80c",
-    "parents": "b0d8e301f81cfe84557099ad54f93bd42c327128",
-    "subject": "assert -> note"
-   },
-   {
-    "adate": "2025-06-26T16:18:04-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2025-06-26T16:18:04-07:00",
-    "hash": "b0d8e301f81cfe84557099ad54f93bd42c327128",
-    "parents": "fb23a204fed9007810b2fb0294fd4b460381fa47",
-    "subject": "fixup! assert"
-   },
-   {
-    "adate": "2025-05-15T16:53:17-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2025-05-15T16:53:17-07:00",
-    "hash": "fb23a204fed9007810b2fb0294fd4b460381fa47",
-    "parents": "06bcd096f54ea34000f77565de6f9b8d9f5da42b",
-    "subject": "add fdi to esmeta-ignore"
-   },
-   {
-    "adate": "2025-05-15T16:39:45-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2025-05-15T16:39:45-07:00",
-    "hash": "06bcd096f54ea34000f77565de6f9b8d9f5da42b",
-    "parents": "affcec07523a45d40fb668689c07657412e772ac",
-    "subject": "Editorial: FunctionDeclarationInstantiation cannot return ReturnCompletion"
+    "date": "2025-06-26T23:18:45-07:00",
+    "hash": "48cab845574b5935f56c52cbb82874fc66ad4841",
+    "parents": "17b55817322cd3d048966806e8276b76f7ea7a40",
+    "subject": "Editorial: FunctionDeclarationInstantiation cannot return ReturnCompletion (#3607)"
    }
   ],
   "title": "Editorial: FunctionDeclarationInstantiation cannot return ReturnCompletion",
-  "updated_at": "2025-06-26T23:24:53Z"
+  "updated_at": "2025-06-27T06:19:21Z"
  },
  {
   "base": "affcec07523a45d40fb668689c07657412e772ac",
@@ -513,26 +489,6 @@
  },
  {
   "base": "affcec07523a45d40fb668689c07657412e772ac",
-  "created_at": "2025-05-15T00:34:26Z",
-  "head": "4f257e72b045514533ec1e7067f3f287e07935e6",
-  "login": "tc39",
-  "number": 3603,
-  "ref": "NumericToRawBytes-conversion-completion",
-  "revs": [
-   {
-    "adate": "2025-05-14T18:32:21-06:00",
-    "author": "Michael Ficarra",
-    "date": "2025-05-14T18:32:21-06:00",
-    "hash": "4f257e72b045514533ec1e7067f3f287e07935e6",
-    "parents": "affcec07523a45d40fb668689c07657412e772ac",
-    "subject": "mark the conversion operation in NumericToRawBytes as infallible"
-   }
-  ],
-  "title": "mark the conversion operation in NumericToRawBytes as infallible",
-  "updated_at": "2025-05-15T00:34:49Z"
- },
- {
-  "base": "affcec07523a45d40fb668689c07657412e772ac",
   "created_at": "2025-05-15T00:25:28Z",
   "head": "09fc3aef0224d87b10075035bc7309195bd28f3d",
   "login": "tc39",
@@ -570,26 +526,6 @@
   ],
   "title": "wrap AC return values in completion records where needed",
   "updated_at": "2025-05-15T00:25:41Z"
- },
- {
-  "base": "4a3b6b4496e663f604f757568ae539006acbbc2e",
-  "created_at": "2025-05-14T22:30:56Z",
-  "head": "38c6ae9c419b8e32ebf8986080bb2f11b53e1605",
-  "login": "tc39",
-  "number": 3599,
-  "ref": "arg-getter-completion",
-  "revs": [
-   {
-    "adate": "2025-05-14T15:28:48-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2025-05-14T15:28:48-07:00",
-    "hash": "38c6ae9c419b8e32ebf8986080bb2f11b53e1605",
-    "parents": "4a3b6b4496e663f604f757568ae539006acbbc2e",
-    "subject": "Editorial: mark a callsite of GetBindingValue as not throwing"
-   }
-  ],
-  "title": "Editorial: mark a callsite of GetBindingValue as not throwing",
-  "updated_at": "2025-05-14T22:31:39Z"
  },
  {
   "base": "d14670224281909f5bb552e8ebe4a8e958646c16",
@@ -838,26 +774,6 @@
   ],
   "title": "Normative: Add Array.fromAsync",
   "updated_at": "2025-05-29T17:55:17Z"
- },
- {
-  "base": "6d71ca0e2dbf1c0cfb87b5eb7a83cf7c76591561",
-  "created_at": "2025-05-01T09:38:20Z",
-  "head": "5e2ad613ca579f09b295f0c796ef03c2d455b3de",
-  "login": "nicolo-ribaudo",
-  "number": 3580,
-  "ref": "aeo-fix",
-  "revs": [
-   {
-    "adate": "2025-05-01T11:37:33+02:00",
-    "author": "Nicol\u00f2 Ribaudo",
-    "date": "2025-05-01T11:37:33+02:00",
-    "hash": "5e2ad613ca579f09b295f0c796ef03c2d455b3de",
-    "parents": "6d71ca0e2dbf1c0cfb87b5eb7a83cf7c76591561",
-    "subject": "Fix [[AsyncEvaluationOrder]] examples for evaluated modules"
-   }
-  ],
-  "title": "Editorial: Fix [[AsyncEvaluationOrder]] examples for evaluated modules",
-  "updated_at": "2025-05-01T09:38:33Z"
  },
  {
   "base": "b6b9fbead27c2f6f8020d9a82abe0fbb1b97ab9a",
@@ -1242,26 +1158,6 @@
   ],
   "title": "Normative: Remove Species check for TypedArrays ArrayBuffers and SharedArrayBuffers",
   "updated_at": "2024-10-23T15:23:17Z"
- },
- {
-  "base": "bdfd596ffad5aeb2957aed4e1db36be3665c69ec",
-  "created_at": "2024-09-27T22:42:09Z",
-  "head": "b5aa26bc57d720c7bc8bdd1e1be9cac878b7ac86",
-  "login": "LegionMammal978",
-  "number": 3429,
-  "ref": "main",
-  "revs": [
-   {
-    "adate": "2025-06-25T15:28:41-07:00",
-    "author": "LegionMammal978",
-    "date": "2025-06-25T15:28:41-07:00",
-    "hash": "b5aa26bc57d720c7bc8bdd1e1be9cac878b7ac86",
-    "parents": "bdfd596ffad5aeb2957aed4e1db36be3665c69ec",
-    "subject": "Editorial: List all TypedArray internal slots (#3429)"
-   }
-  ],
-  "title": "Editorial: List all TypedArray internal slots",
-  "updated_at": "2025-06-25T22:30:10Z"
  },
  {
   "base": "62bb5c575327996050ac9cd32124c8efde38f666",
