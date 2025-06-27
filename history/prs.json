@@ -308,24 +308,24 @@
   "updated_at": "2025-06-08T16:27:12Z"
  },
  {
-  "base": "d14670224281909f5bb552e8ebe4a8e958646c16",
+  "base": "48cab845574b5935f56c52cbb82874fc66ad4841",
   "created_at": "2025-05-27T10:46:03Z",
-  "head": "2f5e25a0ea0bd90337f00f088fa6a280845cf29b",
+  "head": "dd2c5c3b941a1a9a0ffa94c5807fe8f37d0a8e43",
   "login": "stonechoe",
   "number": 3614,
   "ref": "update-esmeta",
   "revs": [
    {
-    "adate": "2025-05-27T19:15:26+09:00",
+    "adate": "2025-06-26T23:51:04-07:00",
     "author": "Minseok Choe",
-    "date": "2025-05-27T19:15:26+09:00",
-    "hash": "2f5e25a0ea0bd90337f00f088fa6a280845cf29b",
-    "parents": "d14670224281909f5bb552e8ebe4a8e958646c16",
-    "subject": "Meta: Upgrade ESMeta to v0.6.1"
+    "date": "2025-06-26T23:51:04-07:00",
+    "hash": "dd2c5c3b941a1a9a0ffa94c5807fe8f37d0a8e43",
+    "parents": "48cab845574b5935f56c52cbb82874fc66ad4841",
+    "subject": "Meta: Upgrade ESMeta to v0.6.1 (#3614)"
    }
   ],
   "title": "Meta: Upgrade ESMeta to v0.6.1",
-  "updated_at": "2025-05-27T10:46:03Z"
+  "updated_at": "2025-06-27T06:53:04Z"
  },
  {
   "base": "d14670224281909f5bb552e8ebe4a8e958646c16",
@@ -402,26 +402,6 @@
   ],
   "title": "Editorial: replace \"is at least\" with \u2265 in parseInt",
   "updated_at": "2025-05-17T00:22:26Z"
- },
- {
-  "base": "17b55817322cd3d048966806e8276b76f7ea7a40",
-  "created_at": "2025-05-15T23:45:44Z",
-  "head": "48cab845574b5935f56c52cbb82874fc66ad4841",
-  "login": "tc39",
-  "number": 3607,
-  "ref": "fdi-not-return-completion",
-  "revs": [
-   {
-    "adate": "2025-06-26T23:18:45-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2025-06-26T23:18:45-07:00",
-    "hash": "48cab845574b5935f56c52cbb82874fc66ad4841",
-    "parents": "17b55817322cd3d048966806e8276b76f7ea7a40",
-    "subject": "Editorial: FunctionDeclarationInstantiation cannot return ReturnCompletion (#3607)"
-   }
-  ],
-  "title": "Editorial: FunctionDeclarationInstantiation cannot return ReturnCompletion",
-  "updated_at": "2025-06-27T06:19:21Z"
  },
  {
   "base": "affcec07523a45d40fb668689c07657412e772ac",
