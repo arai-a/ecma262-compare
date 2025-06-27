@@ -330,11 +330,19 @@
  {
   "base": "d14670224281909f5bb552e8ebe4a8e958646c16",
   "created_at": "2025-05-22T16:37:52Z",
-  "head": "a6634789d788b406b9e8bb687a5774edb2164cd0",
+  "head": "bcec008de5c3bbae08e8ee2443884529502cc49c",
   "login": "nicolo-ribaudo",
   "number": 3613,
   "ref": "invalid-assertion",
   "revs": [
+   {
+    "adate": "2025-06-27T10:49:32+02:00",
+    "author": "Nicol\u00f2 Ribaudo",
+    "date": "2025-06-27T10:49:32+02:00",
+    "hash": "bcec008de5c3bbae08e8ee2443884529502cc49c",
+    "parents": "a6634789d788b406b9e8bb687a5774edb2164cd0",
+    "subject": "Review"
+   },
    {
     "adate": "2025-06-16T12:22:04+02:00",
     "author": "Nicol\u00f2 Ribaudo",
@@ -353,7 +361,7 @@
    }
   ],
   "title": "Adjust invalid assertion about [[AsyncEvaluationOrder]]",
-  "updated_at": "2025-06-16T10:22:12Z"
+  "updated_at": "2025-06-27T08:52:09Z"
  },
  {
   "base": "d14670224281909f5bb552e8ebe4a8e958646c16",
