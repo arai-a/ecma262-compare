@@ -38,11 +38,35 @@
  {
   "base": "bdfd596ffad5aeb2957aed4e1db36be3665c69ec",
   "created_at": "2025-06-24T23:45:45Z",
-  "head": "2038f283587a896d0d84290bb8c905567950fcf0",
+  "head": "5cfe42a5fb55dc099d044b4fb893986be7ae91e4",
   "login": "gibson042",
   "number": 3629,
   "ref": "2025-06-typedarray-cleanup",
   "revs": [
+   {
+    "adate": "2025-06-27T13:15:54-04:00",
+    "author": "Richard Gibson",
+    "date": "2025-06-27T13:15:54-04:00",
+    "hash": "5cfe42a5fb55dc099d044b4fb893986be7ae91e4",
+    "parents": "8c4eda9848e99597770cd717d7abaca5eba45c60",
+    "subject": "fixup! Editorial: Further simplify SetTypedArrayFromTypedArray"
+   },
+   {
+    "adate": "2025-06-27T12:57:20-04:00",
+    "author": "Richard Gibson",
+    "date": "2025-06-27T12:57:20-04:00",
+    "hash": "8c4eda9848e99597770cd717d7abaca5eba45c60",
+    "parents": "68b1a85b39278a8f09470fecdd13351588a719df",
+    "subject": "Editorial: Inline IsSameBuffer with a simplified \"same backing Data Block\" check"
+   },
+   {
+    "adate": "2025-06-27T12:49:45-04:00",
+    "author": "Richard Gibson",
+    "date": "2025-06-27T12:49:45-04:00",
+    "hash": "68b1a85b39278a8f09470fecdd13351588a719df",
+    "parents": "2038f283587a896d0d84290bb8c905567950fcf0",
+    "subject": "Editorial: Rename ToElementCategory to ToNumericForTypedArray"
+   },
    {
     "adate": "2025-06-26T16:54:21-04:00",
     "author": "Richard Gibson",
@@ -213,7 +237,7 @@
    }
   ],
   "title": "Editorial: Cleanup some ArrayBuffer/TypedArray/DataView/Atomics text",
-  "updated_at": "2025-06-26T20:59:03Z"
+  "updated_at": "2025-06-27T17:16:41Z"
  },
  {
   "base": "bdfd596ffad5aeb2957aed4e1db36be3665c69ec",
