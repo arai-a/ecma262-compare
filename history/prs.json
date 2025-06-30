@@ -1,12 +1,20 @@
 [
  {
-  "base": "905660db97a0fb6a6fda0905914a90df09afe72b",
+  "base": "7af34ed6e261bddb1a3139d437bb27a06b05dcb9",
   "created_at": "2025-06-27T16:44:12Z",
-  "head": "cb1969e1b6bbd3ec1d363a84abb2fbca9ec4ef0b",
+  "head": "863c5361a14823468129e6b10a3ff15b647c37ed",
   "login": "gibson042",
   "number": 3632,
   "ref": "3629-typedarray-ao-ordering",
   "revs": [
+   {
+    "adate": "2025-06-30T14:26:14-04:00",
+    "author": "Richard Gibson",
+    "date": "2025-06-30T14:29:45-04:00",
+    "hash": "863c5361a14823468129e6b10a3ff15b647c37ed",
+    "parents": "cb1969e1b6bbd3ec1d363a84abb2fbca9ec4ef0b",
+    "subject": "fixup! Editorial: Consolidate TypedArrayCreate* slot checks"
+   },
    {
     "adate": "2025-06-03T13:11:56-04:00",
     "author": "Richard Gibson",
@@ -33,7 +41,7 @@
    }
   ],
   "title": "Editorial: Reorder some TypedArray AOs to support top-down readability and future refactoring",
-  "updated_at": "2025-06-27T16:44:30Z"
+  "updated_at": "2025-06-30T18:29:53Z"
  },
  {
   "base": "bdfd596ffad5aeb2957aed4e1db36be3665c69ec",
