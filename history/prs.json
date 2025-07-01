@@ -1,6 +1,42 @@
 [
  {
   "base": "60c4df0b65e1c2e6b6581a5bc08a9311223be1da",
+  "created_at": "2025-07-01T15:28:10Z",
+  "head": "d0d6520e4da9aa73a0aae5e4553567ea1bee0a84",
+  "login": "gibson042",
+  "number": 3634,
+  "ref": "3629-use-validatetypedarray",
+  "revs": [
+   {
+    "adate": "2025-06-02T12:29:58-04:00",
+    "author": "Richard Gibson",
+    "date": "2025-07-01T11:23:14-04:00",
+    "hash": "d0d6520e4da9aa73a0aae5e4553567ea1bee0a84",
+    "parents": "f13976d6920e4f338715301d23d277f06b49a0be",
+    "subject": "Editorial: Clarify IsNoTearConfiguration for bigint types (requires order SEQ-CST)"
+   },
+   {
+    "adate": "2025-06-02T12:32:29-04:00",
+    "author": "Richard Gibson",
+    "date": "2025-07-01T11:23:03-04:00",
+    "hash": "f13976d6920e4f338715301d23d277f06b49a0be",
+    "parents": "3b5e589ad8849f48819eff554886f35d5b00851c",
+    "subject": "Editorial: Refactor ValidateIntegerTypedArray on top of IsNoTearConfiguration"
+   },
+   {
+    "adate": "2025-06-03T11:42:15-04:00",
+    "author": "Richard Gibson",
+    "date": "2025-07-01T11:22:53-04:00",
+    "hash": "3b5e589ad8849f48819eff554886f35d5b00851c",
+    "parents": "60c4df0b65e1c2e6b6581a5bc08a9311223be1da",
+    "subject": "Editorial: Make better use of ValidateTypedArray"
+   }
+  ],
+  "title": "Editorial: Make better use of ValidateTypedArray",
+  "updated_at": "2025-07-01T15:28:19Z"
+ },
+ {
+  "base": "60c4df0b65e1c2e6b6581a5bc08a9311223be1da",
   "created_at": "2025-06-24T23:45:45Z",
   "head": "9773ff04fbfa21f1e4892a9995ab80224d1b045e",
   "login": "gibson042",
