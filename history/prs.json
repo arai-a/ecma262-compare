@@ -636,24 +636,24 @@
   "updated_at": "2025-05-15T00:25:28Z"
  },
  {
-  "base": "7af34ed6e261bddb1a3139d437bb27a06b05dcb9",
+  "base": "60c4df0b65e1c2e6b6581a5bc08a9311223be1da",
   "created_at": "2025-05-15T00:14:34Z",
-  "head": "9193d0cc1c084c59b6259ccf67f4e386aa911d68",
+  "head": "1b8690345a65e231522d124a719fdd0fa2789e3a",
   "login": "tc39",
   "number": 3601,
   "ref": "AC-completion-records",
   "revs": [
    {
-    "adate": "2025-05-14T18:06:27-06:00",
+    "adate": "2025-07-09T10:31:05-07:00",
     "author": "Michael Ficarra",
-    "date": "2025-06-30T15:22:45+02:00",
-    "hash": "9193d0cc1c084c59b6259ccf67f4e386aa911d68",
-    "parents": "7af34ed6e261bddb1a3139d437bb27a06b05dcb9",
-    "subject": "wrap AC return values in completion records where needed"
+    "date": "2025-07-09T10:31:05-07:00",
+    "hash": "1b8690345a65e231522d124a719fdd0fa2789e3a",
+    "parents": "60c4df0b65e1c2e6b6581a5bc08a9311223be1da",
+    "subject": "Editorial: wrap AC return values in completion records where needed (#3601)"
    }
   ],
-  "title": "wrap AC return values in completion records where needed",
-  "updated_at": "2025-06-30T13:23:15Z"
+  "title": "Editorial: wrap AC return values in completion records where needed",
+  "updated_at": "2025-07-09T17:31:27Z"
  },
  {
   "base": "d14670224281909f5bb552e8ebe4a8e958646c16",
