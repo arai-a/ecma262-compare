@@ -40,72 +40,40 @@
   "updated_at": "2025-07-14T15:46:58Z"
  },
  {
-  "base": "60c4df0b65e1c2e6b6581a5bc08a9311223be1da",
+  "base": "7f97b400676319e6cd8f14795ab30661930c6655",
   "created_at": "2025-07-14T14:51:54Z",
-  "head": "2d23a0f81bfe438c8abaa95ede256a29fb7a4070",
+  "head": "b324a0dbcb94e4dff2fe2eb3e334dcc934b061db",
   "login": "tontonialberto",
   "number": 3643,
   "ref": "property-thevalueof",
   "revs": [
    {
-    "adate": "2025-07-14T16:36:51+02:00",
+    "adate": "2025-07-14T20:02:14-07:00",
     "author": "tontonialberto",
-    "date": "2025-07-14T16:36:51+02:00",
-    "hash": "2d23a0f81bfe438c8abaa95ede256a29fb7a4070",
-    "parents": "60c4df0b65e1c2e6b6581a5bc08a9311223be1da",
-    "subject": "Editorial: Remove unnecessary \"the value of\" when referencing properties"
+    "date": "2025-07-14T20:02:14-07:00",
+    "hash": "b324a0dbcb94e4dff2fe2eb3e334dcc934b061db",
+    "parents": "7f97b400676319e6cd8f14795ab30661930c6655",
+    "subject": "Editorial: Remove unnecessary \"the value of\" when referencing properties (#3643)"
+   },
+   {
+    "adate": "2025-07-14T19:51:24-07:00",
+    "author": "Andr\u00e9 Bargull",
+    "date": "2025-07-14T19:51:24-07:00",
+    "hash": "7f97b400676319e6cd8f14795ab30661930c6655",
+    "parents": "bc27c7d894379cad892994a5a3a761d106a22759",
+    "subject": "Editorial: Add \"object\" to allow linking to the prototype object (#3642)"
+   },
+   {
+    "adate": "2025-07-14T19:51:23-07:00",
+    "author": "Andr\u00e9 Bargull",
+    "date": "2025-07-14T19:51:23-07:00",
+    "hash": "bc27c7d894379cad892994a5a3a761d106a22759",
+    "parents": "3881d95ddf96b719cd9ad9d7d606cb21f17d3f00",
+    "subject": "Editorial: Include \"object\" in dfn for WeakRef and FinalizationRegistry prototype object (#3642 / #3097)"
    }
   ],
   "title": "Editorial: Remove unnecessary \"the value of\" when referencing properties",
-  "updated_at": "2025-07-14T14:58:57Z"
- },
- {
-  "base": "60c4df0b65e1c2e6b6581a5bc08a9311223be1da",
-  "created_at": "2025-07-10T05:10:32Z",
-  "head": "ff0ea56845ca44936eef75cc2c8e7c55307caeff",
-  "login": "anba",
-  "number": 3642,
-  "ref": "dfn-prototype-object",
-  "revs": [
-   {
-    "adate": "2025-07-11T08:37:55+02:00",
-    "author": "Andr\u00e9 Bargull",
-    "date": "2025-07-11T08:37:55+02:00",
-    "hash": "ff0ea56845ca44936eef75cc2c8e7c55307caeff",
-    "parents": "5eca030afdd485185554560d1acd75955574dca8",
-    "subject": "Editorial: Add \"object\" to allow linking to the prototype object"
-   },
-   {
-    "adate": "2025-07-10T07:08:59+02:00",
-    "author": "Andr\u00e9 Bargull",
-    "date": "2025-07-10T07:08:59+02:00",
-    "hash": "5eca030afdd485185554560d1acd75955574dca8",
-    "parents": "60c4df0b65e1c2e6b6581a5bc08a9311223be1da",
-    "subject": "Editorial: Include \"object\" in dfn for WeakRef and FinalizationRegistry prototype object"
-   }
-  ],
-  "title": "Editorial: Include \"object\" in dfn for WeakRef and FinalizationRegistry prototype object",
-  "updated_at": "2025-07-11T06:51:59Z"
- },
- {
-  "base": "60c4df0b65e1c2e6b6581a5bc08a9311223be1da",
-  "created_at": "2025-07-09T12:41:08Z",
-  "head": "e8ff303a176a49d7985eea5949be397c68714fab",
-  "login": "anba",
-  "number": 3641,
-  "ref": "call-internal-method",
-  "revs": [
-   {
-    "adate": "2025-07-09T14:37:47+02:00",
-    "author": "Andr\u00e9 Bargull",
-    "date": "2025-07-09T14:37:47+02:00",
-    "hash": "e8ff303a176a49d7985eea5949be397c68714fab",
-    "parents": "60c4df0b65e1c2e6b6581a5bc08a9311223be1da",
-    "subject": "Editorial: Refer to [[Call]] as an internal method"
-   }
-  ],
-  "title": "Editorial: Refer to [[Call]] as an internal method",
-  "updated_at": "2025-07-09T12:41:08Z"
+  "updated_at": "2025-07-15T03:02:35Z"
  },
  {
   "base": "60c4df0b65e1c2e6b6581a5bc08a9311223be1da",
@@ -2390,26 +2358,6 @@
   ],
   "title": "Editorial: Replace the single-row time zone code points table",
   "updated_at": "2023-06-15T20:53:43Z"
- },
- {
-  "base": "5d8f62d6ab761960206c3f6ddf4992534fe9726f",
-  "created_at": "2023-06-14T01:58:39Z",
-  "head": "299cd1dd130242a2017664de8b911900fc266600",
-  "login": "zhangenming",
-  "number": 3097,
-  "ref": "main",
-  "revs": [
-   {
-    "adate": "2024-04-08T19:10:47+08:00",
-    "author": "\u5f20\u6069\u94ed",
-    "date": "2024-04-08T19:10:47+08:00",
-    "hash": "299cd1dd130242a2017664de8b911900fc266600",
-    "parents": "5d8f62d6ab761960206c3f6ddf4992534fe9726f",
-    "subject": "rebase done"
-   }
-  ],
-  "title": "Editorial: Align with the wording used elsewhere.",
-  "updated_at": "2024-04-08T11:14:05Z"
  },
  {
   "base": "73926a53dd032f66446533c240aae10e05c0520e",
