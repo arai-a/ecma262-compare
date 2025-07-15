@@ -1,31 +1,23 @@
 [
  {
-  "base": "60c4df0b65e1c2e6b6581a5bc08a9311223be1da",
-  "created_at": "2025-07-14T20:14:39Z",
-  "head": "4f92e3ed7e4da9995b73358553155ae37b602a19",
+  "base": "ac44bdf6b6f55de66426c63ec1bb72c4cf26d0e0",
+  "created_at": "2025-07-14T23:36:12Z",
+  "head": "b34c611d2d1af8536e173f05abd6519bbc22da28",
   "login": "tc39",
-  "number": 3646,
-  "ref": "update-workflows",
+  "number": 3647,
+  "ref": "null-or-undefined",
   "revs": [
    {
-    "adate": "2025-07-14T13:13:18-07:00",
-    "author": "Jordan Harband",
-    "date": "2025-07-14T13:13:18-07:00",
-    "hash": "4f92e3ed7e4da9995b73358553155ae37b602a19",
-    "parents": "fb272affa34bc2671da45019161ca63216046cf1",
-    "subject": "Meta: update github action workflows"
-   },
-   {
-    "adate": "2025-07-14T13:23:20-07:00",
-    "author": "Jordan Harband",
-    "date": "2025-07-14T13:23:20-07:00",
-    "hash": "fb272affa34bc2671da45019161ca63216046cf1",
-    "parents": "60c4df0b65e1c2e6b6581a5bc08a9311223be1da",
-    "subject": "Meta: ipr exceptions: add a deactivated user"
+    "adate": "2025-07-14T17:34:17-06:00",
+    "author": "Michael Ficarra",
+    "date": "2025-07-14T17:34:17-06:00",
+    "hash": "b34c611d2d1af8536e173f05abd6519bbc22da28",
+    "parents": "ac44bdf6b6f55de66426c63ec1bb72c4cf26d0e0",
+    "subject": "Editorial: consistently order undefined before null in comparisons"
    }
   ],
-  "title": "Meta: update github action workflows",
-  "updated_at": "2025-07-14T20:27:50Z"
+  "title": "Editorial: consistently order undefined before null in comparisons",
+  "updated_at": "2025-07-14T23:55:54Z"
  },
  {
   "base": "60c4df0b65e1c2e6b6581a5bc08a9311223be1da",
@@ -134,26 +126,6 @@
   ],
   "title": "Editorial: add a note about synchronicity of SyntheticModule Evaluate",
   "updated_at": "2025-07-09T10:10:51Z"
- },
- {
-  "base": "60c4df0b65e1c2e6b6581a5bc08a9311223be1da",
-  "created_at": "2025-07-07T04:54:25Z",
-  "head": "95ed47c853463072e3606ce14c7dd82486b771b8",
-  "login": "anba",
-  "number": 3638,
-  "ref": "weakref-constructor",
-  "revs": [
-   {
-    "adate": "2025-07-07T06:53:10+02:00",
-    "author": "Andr\u00e9 Bargull",
-    "date": "2025-07-07T10:55:12-06:00",
-    "hash": "95ed47c853463072e3606ce14c7dd82486b771b8",
-    "parents": "60c4df0b65e1c2e6b6581a5bc08a9311223be1da",
-    "subject": "Normative: WeakRef.prototype.constructor should be writable"
-   }
-  ],
-  "title": "Normative: WeakRef.prototype.constructor should be writable",
-  "updated_at": "2025-07-07T16:55:13Z"
  },
  {
   "base": "60c4df0b65e1c2e6b6581a5bc08a9311223be1da",
@@ -732,26 +704,6 @@
   "updated_at": "2025-05-15T00:25:28Z"
  },
  {
-  "base": "60c4df0b65e1c2e6b6581a5bc08a9311223be1da",
-  "created_at": "2025-05-15T00:14:34Z",
-  "head": "1b8690345a65e231522d124a719fdd0fa2789e3a",
-  "login": "tc39",
-  "number": 3601,
-  "ref": "AC-completion-records",
-  "revs": [
-   {
-    "adate": "2025-07-09T10:31:05-07:00",
-    "author": "Michael Ficarra",
-    "date": "2025-07-09T10:31:05-07:00",
-    "hash": "1b8690345a65e231522d124a719fdd0fa2789e3a",
-    "parents": "60c4df0b65e1c2e6b6581a5bc08a9311223be1da",
-    "subject": "Editorial: wrap AC return values in completion records where needed (#3601)"
-   }
-  ],
-  "title": "Editorial: wrap AC return values in completion records where needed",
-  "updated_at": "2025-07-09T17:31:27Z"
- },
- {
   "base": "d14670224281909f5bb552e8ebe4a8e958646c16",
   "created_at": "2025-05-11T20:32:00Z",
   "head": "9d2b0a96509208a4df88b6063bf712bb07304c10",
@@ -1026,66 +978,6 @@
   ],
   "title": "feat: TypedArrayCreateSameType take length as parameter",
   "updated_at": "2025-04-20T17:05:32Z"
- },
- {
-  "base": "b6b9fbead27c2f6f8020d9a82abe0fbb1b97ab9a",
-  "created_at": "2025-04-18T08:37:19Z",
-  "head": "0863404b5504969fa6d4c7afbb5d40ff72baeb8d",
-  "login": "rkirsling",
-  "number": 3568,
-  "ref": "late-errors-for-function-call-assignment-targets",
-  "revs": [
-   {
-    "adate": "2025-05-29T16:26:06+09:00",
-    "author": "Ross Kirsling",
-    "date": "2025-05-29T16:26:06+09:00",
-    "hash": "0863404b5504969fa6d4c7afbb5d40ff72baeb8d",
-    "parents": "cedf79ff35932bc91c7f587ea87ec66e12227891",
-    "subject": "Address bakkot's feedback."
-   },
-   {
-    "adate": "2025-05-16T11:16:53+09:00",
-    "author": "Ross Kirsling",
-    "date": "2025-05-16T11:16:53+09:00",
-    "hash": "cedf79ff35932bc91c7f587ea87ec66e12227891",
-    "parents": "9ea9da84390179bbc4febcc5bfcb7f4a544ca6eb",
-    "subject": "Simplify further."
-   },
-   {
-    "adate": "2025-05-15T15:11:30+09:00",
-    "author": "Ross Kirsling",
-    "date": "2025-05-15T15:11:30+09:00",
-    "hash": "9ea9da84390179bbc4febcc5bfcb7f4a544ca6eb",
-    "parents": "71a82364637b83c32b5b891b1f96ba441638b6c4",
-    "subject": "Address editor feedback."
-   },
-   {
-    "adate": "2025-04-23T17:05:39+09:00",
-    "author": "Ross Kirsling",
-    "date": "2025-04-23T17:05:39+09:00",
-    "hash": "71a82364637b83c32b5b891b1f96ba441638b6c4",
-    "parents": "7e73bf6dd7c19b617aaddeb3b1878cffcbb8c56b",
-    "subject": "Be more fully explicit."
-   },
-   {
-    "adate": "2025-04-19T16:56:49+09:00",
-    "author": "Ross Kirsling",
-    "date": "2025-04-19T16:56:49+09:00",
-    "hash": "7e73bf6dd7c19b617aaddeb3b1878cffcbb8c56b",
-    "parents": "18d39696417d2d027877cc53f622f5ea3b27419b",
-    "subject": "Explicitly throw after Evaluation of LHS."
-   },
-   {
-    "adate": "2025-04-18T17:24:08+09:00",
-    "author": "Ross Kirsling",
-    "date": "2025-04-18T17:24:08+09:00",
-    "hash": "18d39696417d2d027877cc53f622f5ea3b27419b",
-    "parents": "b6b9fbead27c2f6f8020d9a82abe0fbb1b97ab9a",
-    "subject": "Normative: Add \"Late Errors for Function Call Assignment Targets\" to Annex B"
-   }
-  ],
-  "title": "Normative: Add \"Runtime Errors for Function Call Assignment Targets\" to Annex B",
-  "updated_at": "2025-05-29T07:27:58Z"
  },
  {
   "base": "f2bad0095a792587ab7a70c9f024612148e18bd1",
