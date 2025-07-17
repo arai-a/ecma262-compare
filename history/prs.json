@@ -1,8 +1,8 @@
 [
  {
-  "base": "3d77f663db17fc21f0b200091c344bfe323bc40b",
+  "base": "b3f6a0ae5f2e27e017f6416c10f0eb1e399ee31f",
   "created_at": "2025-07-16T23:29:40Z",
-  "head": "4b45624e50228744ea49fc238c9b824254251894",
+  "head": "a8478c3d811400ec31032799b252e161cdfbe3bc",
   "login": "tc39",
   "number": 3651,
   "ref": "michaelficarra-patch-1",
@@ -10,50 +10,22 @@
    {
     "adate": "2025-07-16T18:35:27-06:00",
     "author": "Michael Ficarra",
-    "date": "2025-07-16T19:44:52-06:00",
-    "hash": "4b45624e50228744ea49fc238c9b824254251894",
-    "parents": "cb6b339a7da910b54f7e0f0228c32c0f671b8d99",
+    "date": "2025-07-16T21:52:31-06:00",
+    "hash": "a8478c3d811400ec31032799b252e161cdfbe3bc",
+    "parents": "e5b719b68c7063c6a68461c1eb8f8fe7351c4964",
     "subject": "meta: enable additional esmeta logging"
    },
    {
     "adate": "2025-07-16T17:28:24-06:00",
     "author": "Michael Ficarra",
-    "date": "2025-07-16T19:43:48-06:00",
-    "hash": "cb6b339a7da910b54f7e0f0228c32c0f671b8d99",
-    "parents": "873a840c1cdf14d619ae5d6c89db9ad93459537d",
+    "date": "2025-07-16T21:52:31-06:00",
+    "hash": "e5b719b68c7063c6a68461c1eb8f8fe7351c4964",
+    "parents": "b3f6a0ae5f2e27e017f6416c10f0eb1e399ee31f",
     "subject": "meta: make esmeta log files available for download after CI run"
-   },
-   {
-    "adate": "2025-07-16T17:30:29-06:00",
-    "author": "Michael Ficarra",
-    "date": "2025-07-16T19:42:34-06:00",
-    "hash": "873a840c1cdf14d619ae5d6c89db9ad93459537d",
-    "parents": "3d77f663db17fc21f0b200091c344bfe323bc40b",
-    "subject": "pull in esmeta bump"
    }
   ],
   "title": "meta: make esmeta log files available for download after CI run",
-  "updated_at": "2025-07-17T01:44:59Z"
- },
- {
-  "base": "3d77f663db17fc21f0b200091c344bfe323bc40b",
-  "created_at": "2025-07-16T22:21:05Z",
-  "head": "5b8da794705af9ab2c12ac2c9d14a5d340f6c913",
-  "login": "jhnaldo",
-  "number": 3650,
-  "ref": "update-esmeta",
-  "revs": [
-   {
-    "adate": "2025-07-17T07:10:59+09:00",
-    "author": "Jihyeok Park",
-    "date": "2025-07-17T07:10:59+09:00",
-    "hash": "5b8da794705af9ab2c12ac2c9d14a5d340f6c913",
-    "parents": "3d77f663db17fc21f0b200091c344bfe323bc40b",
-    "subject": "Meta: Upgrade ESMeta to v0.6.2"
-   }
-  ],
-  "title": "Meta: Upgrade ESMeta to v0.6.2",
-  "updated_at": "2025-07-16T23:14:07Z"
+  "updated_at": "2025-07-17T03:52:32Z"
  },
  {
   "base": "60c4df0b65e1c2e6b6581a5bc08a9311223be1da",
