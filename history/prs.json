@@ -1,6 +1,42 @@
 [
  {
   "base": "b3f6a0ae5f2e27e017f6416c10f0eb1e399ee31f",
+  "created_at": "2025-07-17T18:53:29Z",
+  "head": "82bccd6dfe20d1d168dd9a81ba9aaf8b009086cc",
+  "login": "tontonialberto",
+  "number": 3653,
+  "ref": "unify-ifotherwise",
+  "revs": [
+   {
+    "adate": "2025-07-17T20:42:59+02:00",
+    "author": "tontonialberto",
+    "date": "2025-07-17T20:42:59+02:00",
+    "hash": "82bccd6dfe20d1d168dd9a81ba9aaf8b009086cc",
+    "parents": "a8677a85cad253f15d99d37169e660c75e4ade10",
+    "subject": "Editorial: unify various forms of if-otherwise in single-line conditionals"
+   },
+   {
+    "adate": "2025-07-17T20:26:10+02:00",
+    "author": "tontonialberto",
+    "date": "2025-07-17T20:26:10+02:00",
+    "hash": "a8677a85cad253f15d99d37169e660c75e4ade10",
+    "parents": "5a488e357829259543b67a0474a9c896b8a79ef1",
+    "subject": "Editorial: unify various forms of if-otherwise in single-line conditionals"
+   },
+   {
+    "adate": "2025-07-17T20:18:00+02:00",
+    "author": "tontonialberto",
+    "date": "2025-07-17T20:18:00+02:00",
+    "hash": "5a488e357829259543b67a0474a9c896b8a79ef1",
+    "parents": "b3f6a0ae5f2e27e017f6416c10f0eb1e399ee31f",
+    "subject": "Editorial: Use semicolon and lowercase 'otherwise' in single-step conditionals"
+   }
+  ],
+  "title": "Editorial: unify various forms of if-otherwise in single-line conditionals",
+  "updated_at": "2025-07-17T18:53:29Z"
+ },
+ {
+  "base": "b3f6a0ae5f2e27e017f6416c10f0eb1e399ee31f",
   "created_at": "2025-07-16T23:29:40Z",
   "head": "a8478c3d811400ec31032799b252e161cdfbe3bc",
   "login": "tc39",
