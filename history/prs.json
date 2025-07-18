@@ -40,9 +40,9 @@
   "updated_at": "2025-07-17T21:12:47Z"
  },
  {
-  "base": "b3f6a0ae5f2e27e017f6416c10f0eb1e399ee31f",
+  "base": "b6f76eab3920d8574e9c849d56a4a8e797841923",
   "created_at": "2025-07-17T18:53:29Z",
-  "head": "82bccd6dfe20d1d168dd9a81ba9aaf8b009086cc",
+  "head": "2aef93bdc8a5681b49e4c7f8447386b39f979a49",
   "login": "tontonialberto",
   "number": 3653,
   "ref": "unify-ifotherwise",
@@ -50,58 +50,30 @@
    {
     "adate": "2025-07-17T20:42:59+02:00",
     "author": "tontonialberto",
-    "date": "2025-07-17T20:42:59+02:00",
-    "hash": "82bccd6dfe20d1d168dd9a81ba9aaf8b009086cc",
-    "parents": "a8677a85cad253f15d99d37169e660c75e4ade10",
+    "date": "2025-07-18T02:02:54+02:00",
+    "hash": "2aef93bdc8a5681b49e4c7f8447386b39f979a49",
+    "parents": "a8070ca6292802e977a856533cf6ad2cec94642a",
     "subject": "Editorial: unify various forms of if-otherwise in single-line conditionals"
    },
    {
     "adate": "2025-07-17T20:26:10+02:00",
     "author": "tontonialberto",
-    "date": "2025-07-17T20:26:10+02:00",
-    "hash": "a8677a85cad253f15d99d37169e660c75e4ade10",
-    "parents": "5a488e357829259543b67a0474a9c896b8a79ef1",
+    "date": "2025-07-18T02:02:54+02:00",
+    "hash": "a8070ca6292802e977a856533cf6ad2cec94642a",
+    "parents": "6038f7c9255d08582aea90c89e8b01d9afd4fa6e",
     "subject": "Editorial: unify various forms of if-otherwise in single-line conditionals"
    },
    {
     "adate": "2025-07-17T20:18:00+02:00",
     "author": "tontonialberto",
-    "date": "2025-07-17T20:18:00+02:00",
-    "hash": "5a488e357829259543b67a0474a9c896b8a79ef1",
-    "parents": "b3f6a0ae5f2e27e017f6416c10f0eb1e399ee31f",
+    "date": "2025-07-18T02:02:54+02:00",
+    "hash": "6038f7c9255d08582aea90c89e8b01d9afd4fa6e",
+    "parents": "b6f76eab3920d8574e9c849d56a4a8e797841923",
     "subject": "Editorial: Use semicolon and lowercase 'otherwise' in single-step conditionals"
    }
   ],
   "title": "Editorial: unify various forms of if-otherwise in single-line conditionals",
-  "updated_at": "2025-07-17T18:53:29Z"
- },
- {
-  "base": "b3f6a0ae5f2e27e017f6416c10f0eb1e399ee31f",
-  "created_at": "2025-07-16T23:29:40Z",
-  "head": "a8478c3d811400ec31032799b252e161cdfbe3bc",
-  "login": "tc39",
-  "number": 3651,
-  "ref": "michaelficarra-patch-1",
-  "revs": [
-   {
-    "adate": "2025-07-16T18:35:27-06:00",
-    "author": "Michael Ficarra",
-    "date": "2025-07-16T21:52:31-06:00",
-    "hash": "a8478c3d811400ec31032799b252e161cdfbe3bc",
-    "parents": "e5b719b68c7063c6a68461c1eb8f8fe7351c4964",
-    "subject": "meta: enable additional esmeta logging"
-   },
-   {
-    "adate": "2025-07-16T17:28:24-06:00",
-    "author": "Michael Ficarra",
-    "date": "2025-07-16T21:52:31-06:00",
-    "hash": "e5b719b68c7063c6a68461c1eb8f8fe7351c4964",
-    "parents": "b3f6a0ae5f2e27e017f6416c10f0eb1e399ee31f",
-    "subject": "meta: make esmeta log files available for download after CI run"
-   }
-  ],
-  "title": "meta: make esmeta log files available for download after CI run",
-  "updated_at": "2025-07-17T03:52:32Z"
+  "updated_at": "2025-07-18T00:02:55Z"
  },
  {
   "base": "b3f6a0ae5f2e27e017f6416c10f0eb1e399ee31f",
