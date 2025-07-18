@@ -118,11 +118,27 @@
  {
   "base": "60c4df0b65e1c2e6b6581a5bc08a9311223be1da",
   "created_at": "2025-07-04T14:01:38Z",
-  "head": "ef3e71673ca6aaaf8c42cdf04029db58e5fd69a6",
+  "head": "347b9ca461d0f33343ad620078c64a3cbeac4617",
   "login": "nicolo-ribaudo",
   "number": 3637,
   "ref": "remove-dfsancestordepth",
   "revs": [
+   {
+    "adate": "2025-07-18T10:51:26+02:00",
+    "author": "Nicol\u00f2 Ribaudo",
+    "date": "2025-07-18T10:51:26+02:00",
+    "hash": "347b9ca461d0f33343ad620078c64a3cbeac4617",
+    "parents": "8089463fd977b8976d92007a339cb98199716a42",
+    "subject": "Remove [[DFSAncestorIndex]]"
+   },
+   {
+    "adate": "2025-07-18T10:46:00+02:00",
+    "author": "Nicol\u00f2 Ribaudo",
+    "date": "2025-07-18T10:46:00+02:00",
+    "hash": "8089463fd977b8976d92007a339cb98199716a42",
+    "parents": "ef3e71673ca6aaaf8c42cdf04029db58e5fd69a6",
+    "subject": "Same thing for InnerModuleEvaluation"
+   },
    {
     "adate": "2025-07-04T15:34:56+02:00",
     "author": "Nicol\u00f2 Ribaudo",
@@ -164,8 +180,8 @@
     "subject": "Editorial: Use stack index instead of traverse index for SCC detection"
    }
   ],
-  "title": "Editorial: Do not use [[DFSAncestorIndex]] in InnerModuleLinking ",
-  "updated_at": "2025-07-04T14:01:38Z"
+  "title": "Editorial: Use the dfs stack instead of [[DFSAncestorIndex]] ",
+  "updated_at": "2025-07-18T08:52:47Z"
  },
  {
   "base": "60c4df0b65e1c2e6b6581a5bc08a9311223be1da",
