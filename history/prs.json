@@ -1,12 +1,40 @@
 [
  {
   "base": "b6f76eab3920d8574e9c849d56a4a8e797841923",
+  "created_at": "2025-07-24T01:43:56Z",
+  "head": "f790bdcc41931181841cb231fa60054940a21b38",
+  "login": "mobius29",
+  "number": 3660,
+  "ref": "lastIndexOf-clamping-pos",
+  "revs": [
+   {
+    "adate": "2025-07-24T10:36:15+09:00",
+    "author": "mobius29",
+    "date": "2025-07-24T10:36:15+09:00",
+    "hash": "f790bdcc41931181841cb231fa60054940a21b38",
+    "parents": "b6f76eab3920d8574e9c849d56a4a8e797841923",
+    "subject": "Normative: handle len < seachLen in String.prototype.lastIndexOf"
+   }
+  ],
+  "title": "Editorial: handle len < seachLen in String.prototype.lastIndexOf",
+  "updated_at": "2025-07-24T02:28:07Z"
+ },
+ {
+  "base": "b6f76eab3920d8574e9c849d56a4a8e797841923",
   "created_at": "2025-07-18T18:28:19Z",
-  "head": "9224c3783a5e6e1667d59a0fd7b7196257e72608",
+  "head": "04822accdfef99aeac12bf936e4a128a2e883de4",
   "login": "jhnaldo",
   "number": 3656,
   "ref": "update-esmeta",
   "revs": [
+   {
+    "adate": "2025-07-24T11:12:59+09:00",
+    "author": "Jihyeok Park",
+    "date": "2025-07-24T11:12:59+09:00",
+    "hash": "04822accdfef99aeac12bf936e4a128a2e883de4",
+    "parents": "9224c3783a5e6e1667d59a0fd7b7196257e72608",
+    "subject": "Meta: Upgrade ESMeta to v0.6.4"
+   },
    {
     "adate": "2025-07-19T03:22:31+09:00",
     "author": "Jihyeok Park",
@@ -16,8 +44,8 @@
     "subject": " Meta: Upgrade ESMeta to v0.6.3"
    }
   ],
-  "title": "Meta: Upgrade ESMeta to v0.6.3",
-  "updated_at": "2025-07-18T18:53:53Z"
+  "title": "Meta: Upgrade ESMeta to v0.6.4",
+  "updated_at": "2025-07-24T02:19:03Z"
  },
  {
   "base": "b3f6a0ae5f2e27e017f6416c10f0eb1e399ee31f",
