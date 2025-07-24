@@ -22,30 +22,22 @@
  {
   "base": "b6f76eab3920d8574e9c849d56a4a8e797841923",
   "created_at": "2025-07-18T18:28:19Z",
-  "head": "04822accdfef99aeac12bf936e4a128a2e883de4",
+  "head": "f0651269861c8d3c788c6026745469570747a0a5",
   "login": "jhnaldo",
   "number": 3656,
   "ref": "update-esmeta",
   "revs": [
    {
-    "adate": "2025-07-24T11:12:59+09:00",
+    "adate": "2025-07-24T10:13:53-05:00",
     "author": "Jihyeok Park",
-    "date": "2025-07-24T11:12:59+09:00",
-    "hash": "04822accdfef99aeac12bf936e4a128a2e883de4",
-    "parents": "9224c3783a5e6e1667d59a0fd7b7196257e72608",
-    "subject": "Meta: Upgrade ESMeta to v0.6.4"
-   },
-   {
-    "adate": "2025-07-19T03:22:31+09:00",
-    "author": "Jihyeok Park",
-    "date": "2025-07-19T03:22:31+09:00",
-    "hash": "9224c3783a5e6e1667d59a0fd7b7196257e72608",
+    "date": "2025-07-24T10:13:53-05:00",
+    "hash": "f0651269861c8d3c788c6026745469570747a0a5",
     "parents": "b6f76eab3920d8574e9c849d56a4a8e797841923",
-    "subject": " Meta: Upgrade ESMeta to v0.6.3"
+    "subject": "Meta: Upgrade ESMeta to v0.6.4 (#3656)"
    }
   ],
   "title": "Meta: Upgrade ESMeta to v0.6.4",
-  "updated_at": "2025-07-24T02:19:03Z"
+  "updated_at": "2025-07-24T15:14:08Z"
  },
  {
   "base": "b3f6a0ae5f2e27e017f6416c10f0eb1e399ee31f",
@@ -122,38 +114,30 @@
  {
   "base": "b6f76eab3920d8574e9c849d56a4a8e797841923",
   "created_at": "2025-07-17T18:53:29Z",
-  "head": "2aef93bdc8a5681b49e4c7f8447386b39f979a49",
+  "head": "889986dbd75480f2af4c20c657ee23291df5e012",
   "login": "tontonialberto",
   "number": 3653,
   "ref": "unify-ifotherwise",
   "revs": [
    {
-    "adate": "2025-07-17T20:42:59+02:00",
+    "adate": "2025-07-24T09:58:37-05:00",
     "author": "tontonialberto",
-    "date": "2025-07-18T02:02:54+02:00",
-    "hash": "2aef93bdc8a5681b49e4c7f8447386b39f979a49",
-    "parents": "a8070ca6292802e977a856533cf6ad2cec94642a",
-    "subject": "Editorial: unify various forms of if-otherwise in single-line conditionals"
+    "date": "2025-07-24T09:58:37-05:00",
+    "hash": "889986dbd75480f2af4c20c657ee23291df5e012",
+    "parents": "c4f444c4f9c2ccecbcd9519d558e7c19d23a1583",
+    "subject": "Editorial: unify various forms of if-otherwise in single-line conditionals (#3653)"
    },
    {
-    "adate": "2025-07-17T20:26:10+02:00",
+    "adate": "2025-07-24T09:58:31-05:00",
     "author": "tontonialberto",
-    "date": "2025-07-18T02:02:54+02:00",
-    "hash": "a8070ca6292802e977a856533cf6ad2cec94642a",
-    "parents": "6038f7c9255d08582aea90c89e8b01d9afd4fa6e",
-    "subject": "Editorial: unify various forms of if-otherwise in single-line conditionals"
-   },
-   {
-    "adate": "2025-07-17T20:18:00+02:00",
-    "author": "tontonialberto",
-    "date": "2025-07-18T02:02:54+02:00",
-    "hash": "6038f7c9255d08582aea90c89e8b01d9afd4fa6e",
+    "date": "2025-07-24T09:58:31-05:00",
+    "hash": "c4f444c4f9c2ccecbcd9519d558e7c19d23a1583",
     "parents": "b6f76eab3920d8574e9c849d56a4a8e797841923",
-    "subject": "Editorial: Use semicolon and lowercase 'otherwise' in single-step conditionals"
+    "subject": "Editorial: Use semicolon and lowercase 'otherwise' in single-step conditionals (#3653)"
    }
   ],
   "title": "Editorial: unify various forms of if-otherwise in single-line conditionals",
-  "updated_at": "2025-07-18T00:02:55Z"
+  "updated_at": "2025-07-24T14:58:54Z"
  },
  {
   "base": "b6f76eab3920d8574e9c849d56a4a8e797841923",
