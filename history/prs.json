@@ -1,25 +1,5 @@
 [
  {
-  "base": "f764049fe0390b5b58f7bd70118fd76ec25d9ff4",
-  "created_at": "2025-07-28T04:13:45Z",
-  "head": "f704a2805532d834530faae2f7b71653d5e5c2ee",
-  "login": "tc39",
-  "number": 3661,
-  "ref": "change-syg-email",
-  "revs": [
-   {
-    "adate": "2025-07-27T21:05:57-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2025-07-27T21:11:41-07:00",
-    "hash": "f704a2805532d834530faae2f7b71653d5e5c2ee",
-    "parents": "f764049fe0390b5b58f7bd70118fd76ec25d9ff4",
-    "subject": "Meta: Update my email"
-   }
-  ],
-  "title": "Meta: Update my email",
-  "updated_at": "2025-07-28T04:41:30Z"
- },
- {
   "base": "b6f76eab3920d8574e9c849d56a4a8e797841923",
   "created_at": "2025-07-24T01:43:56Z",
   "head": "f790bdcc41931181841cb231fa60054940a21b38",
@@ -148,9 +128,9 @@
   "updated_at": "2025-07-25T20:39:01Z"
  },
  {
-  "base": "60c4df0b65e1c2e6b6581a5bc08a9311223be1da",
+  "base": "6f61b741a70658a38ebd4c39ec60d11454f3ec55",
   "created_at": "2025-07-09T09:53:03Z",
-  "head": "896bce85f6b39ac1c09b2ede08f264707b0f4e8f",
+  "head": "055d4e6224d569d46266175b801c685fd2935b09",
   "login": "legendecas",
   "number": 3640,
   "ref": "synthetic-module-evaluate",
@@ -158,14 +138,14 @@
    {
     "adate": "2025-07-09T10:50:06+01:00",
     "author": "Chengzhong Wu",
-    "date": "2025-07-09T11:00:51+01:00",
-    "hash": "896bce85f6b39ac1c09b2ede08f264707b0f4e8f",
-    "parents": "60c4df0b65e1c2e6b6581a5bc08a9311223be1da",
+    "date": "2025-07-30T15:03:42+01:00",
+    "hash": "055d4e6224d569d46266175b801c685fd2935b09",
+    "parents": "6f61b741a70658a38ebd4c39ec60d11454f3ec55",
     "subject": "Editorial: add a note about synchronicity of SyntheticModule Evaluate"
    }
   ],
   "title": "Editorial: add a note about synchronicity of SyntheticModule Evaluate",
-  "updated_at": "2025-07-09T10:10:51Z"
+  "updated_at": "2025-07-30T14:03:52Z"
  },
  {
   "base": "60c4df0b65e1c2e6b6581a5bc08a9311223be1da",
