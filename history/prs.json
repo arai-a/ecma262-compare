@@ -1,5 +1,25 @@
 [
  {
+  "base": "6f61b741a70658a38ebd4c39ec60d11454f3ec55",
+  "created_at": "2025-08-04T09:05:10Z",
+  "head": "7930b7add29a5b0048be05c53575c7e74622424a",
+  "login": "mobius29",
+  "number": 3664,
+  "ref": "instance-constructor-type",
+  "revs": [
+   {
+    "adate": "2025-07-30T16:43:35+09:00",
+    "author": "mobius29",
+    "date": "2025-08-04T13:03:17+09:00",
+    "hash": "7930b7add29a5b0048be05c53575c7e74622424a",
+    "parents": "b6f76eab3920d8574e9c849d56a4a8e797841923",
+    "subject": "Editorial: Resolve type mismatch when initializing a class instance without a constructor"
+   }
+  ],
+  "title": "Editorial: Fix type mismatch for class without constructor",
+  "updated_at": "2025-08-04T09:05:10Z"
+ },
+ {
   "base": "b6f76eab3920d8574e9c849d56a4a8e797841923",
   "created_at": "2025-07-24T01:43:56Z",
   "head": "f790bdcc41931181841cb231fa60054940a21b38",
