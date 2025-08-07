@@ -292,9 +292,9 @@
   "updated_at": "2025-07-04T07:37:08Z"
  },
  {
-  "base": "60c4df0b65e1c2e6b6581a5bc08a9311223be1da",
+  "base": "6f61b741a70658a38ebd4c39ec60d11454f3ec55",
   "created_at": "2025-07-03T12:19:36Z",
-  "head": "1831e10529c421e5f58871cb7967b69c11ac47e0",
+  "head": "acc3d85d8952260ae3cbee9a241c5e4ea8c984c4",
   "login": "nicolo-ribaudo",
   "number": 3635,
   "ref": "extract-dfs-logic-2",
@@ -302,38 +302,38 @@
    {
     "adate": "2025-07-04T16:06:48+02:00",
     "author": "Nicol\u00f2 Ribaudo",
-    "date": "2025-07-04T16:06:48+02:00",
-    "hash": "1831e10529c421e5f58871cb7967b69c11ac47e0",
-    "parents": "e2975da94fa6a89fd7c7c537d40a9788c9d2ca24",
+    "date": "2025-08-07T22:40:56+02:00",
+    "hash": "acc3d85d8952260ae3cbee9a241c5e4ea8c984c4",
+    "parents": "269fc6d38285b5b7614eebd6f46f168169702aed",
     "subject": "typo"
    },
    {
     "adate": "2025-07-02T18:45:38+02:00",
     "author": "Nicol\u00f2 Ribaudo",
-    "date": "2025-07-03T15:57:13+02:00",
-    "hash": "e2975da94fa6a89fd7c7c537d40a9788c9d2ca24",
-    "parents": "5915e9801b485a4d9bad4eb3380507d82ea3f57e",
+    "date": "2025-08-07T22:40:56+02:00",
+    "hash": "269fc6d38285b5b7614eebd6f46f168169702aed",
+    "parents": "b2609a5d9c2dce2eca65e6f06ad4e78e85533fce",
     "subject": "Editorial: dedupe and isolate modules traversal logic"
    },
    {
     "adate": "2025-07-02T16:58:52+02:00",
     "author": "Nicol\u00f2 Ribaudo",
-    "date": "2025-07-02T16:59:59+02:00",
-    "hash": "5915e9801b485a4d9bad4eb3380507d82ea3f57e",
-    "parents": "d7d7e154c5895930b765d826d722a42e2513dfa5",
+    "date": "2025-08-07T22:40:56+02:00",
+    "hash": "b2609a5d9c2dce2eca65e6f06ad4e78e85533fce",
+    "parents": "17612f5c180be943cd12512c892546e9bdebc7ce",
     "subject": "Editorial: move [[CycleRoot]] error checking to a module's own InnerModuleEvaluation"
    },
    {
     "adate": "2025-07-02T15:02:41+02:00",
     "author": "Nicol\u00f2 Ribaudo",
-    "date": "2025-07-02T16:59:59+02:00",
-    "hash": "d7d7e154c5895930b765d826d722a42e2513dfa5",
-    "parents": "60c4df0b65e1c2e6b6581a5bc08a9311223be1da",
+    "date": "2025-08-07T22:40:56+02:00",
+    "hash": "17612f5c180be943cd12512c892546e9bdebc7ce",
+    "parents": "6f61b741a70658a38ebd4c39ec60d11454f3ec55",
     "subject": "Editorial: split [[PendingAsyncDependencies]] computation to its own loop"
    }
   ],
   "title": "Editorial: dedupe and isolate modules traversal logic",
-  "updated_at": "2025-07-04T14:06:53Z"
+  "updated_at": "2025-08-07T20:53:17Z"
  },
  {
   "base": "60c4df0b65e1c2e6b6581a5bc08a9311223be1da",
