@@ -188,72 +188,80 @@
   "updated_at": "2025-07-30T14:03:52Z"
  },
  {
-  "base": "60c4df0b65e1c2e6b6581a5bc08a9311223be1da",
+  "base": "6f61b741a70658a38ebd4c39ec60d11454f3ec55",
   "created_at": "2025-07-04T14:01:38Z",
-  "head": "347b9ca461d0f33343ad620078c64a3cbeac4617",
+  "head": "6649775ef8095e5e09ca33bb3593d3cb46ebff64",
   "login": "nicolo-ribaudo",
   "number": 3637,
   "ref": "remove-dfsancestordepth",
   "revs": [
    {
+    "adate": "2025-08-07T17:52:18+02:00",
+    "author": "Nicol\u00f2 Ribaudo",
+    "date": "2025-08-07T17:54:54+02:00",
+    "hash": "6649775ef8095e5e09ca33bb3593d3cb46ebff64",
+    "parents": "dbcac86f300563ffe29c37fb4422aba2ab894bec",
+    "subject": "Add assertion per Guy's review"
+   },
+   {
     "adate": "2025-07-18T10:51:26+02:00",
     "author": "Nicol\u00f2 Ribaudo",
-    "date": "2025-07-18T10:51:26+02:00",
-    "hash": "347b9ca461d0f33343ad620078c64a3cbeac4617",
-    "parents": "8089463fd977b8976d92007a339cb98199716a42",
+    "date": "2025-08-07T17:54:54+02:00",
+    "hash": "dbcac86f300563ffe29c37fb4422aba2ab894bec",
+    "parents": "6018e17110a60b8081120b063d0f77b38463bf28",
     "subject": "Remove [[DFSAncestorIndex]]"
    },
    {
     "adate": "2025-07-18T10:46:00+02:00",
     "author": "Nicol\u00f2 Ribaudo",
-    "date": "2025-07-18T10:46:00+02:00",
-    "hash": "8089463fd977b8976d92007a339cb98199716a42",
-    "parents": "ef3e71673ca6aaaf8c42cdf04029db58e5fd69a6",
+    "date": "2025-08-07T17:54:54+02:00",
+    "hash": "6018e17110a60b8081120b063d0f77b38463bf28",
+    "parents": "4ce073d8ba2e307bdcec8cd09e50458728a50547",
     "subject": "Same thing for InnerModuleEvaluation"
    },
    {
     "adate": "2025-07-04T15:34:56+02:00",
     "author": "Nicol\u00f2 Ribaudo",
-    "date": "2025-07-04T15:44:34+02:00",
-    "hash": "ef3e71673ca6aaaf8c42cdf04029db58e5fd69a6",
-    "parents": "dd1809cd61be094a35cc153afc51ef60620d225c",
+    "date": "2025-08-07T17:54:53+02:00",
+    "hash": "4ce073d8ba2e307bdcec8cd09e50458728a50547",
+    "parents": "4e3712b4bf61a825b78202867369d926ea5d16d3",
     "subject": "Editorial: Do not use [[DFSAncestorIndex]] in InnerModuleLinking"
    },
    {
     "adate": "2025-07-04T15:29:24+02:00",
     "author": "Nicol\u00f2 Ribaudo",
-    "date": "2025-07-04T15:44:34+02:00",
-    "hash": "dd1809cd61be094a35cc153afc51ef60620d225c",
-    "parents": "5b9efba5360827476ecde2348b06c2957f2e5713",
+    "date": "2025-08-07T17:54:53+02:00",
+    "hash": "4e3712b4bf61a825b78202867369d926ea5d16d3",
+    "parents": "5137d633f7c5f0a039200a15a03e7721ed04d7eb",
     "subject": "Editorial: Do not update [[DFSAncestorIndex]] with the final low index"
    },
    {
     "adate": "2025-07-04T15:23:03+02:00",
     "author": "Nicol\u00f2 Ribaudo",
-    "date": "2025-07-04T15:44:26+02:00",
-    "hash": "5b9efba5360827476ecde2348b06c2957f2e5713",
-    "parents": "b130ab534794a44a9680ac0907f649b425703850",
+    "date": "2025-08-07T17:54:53+02:00",
+    "hash": "5137d633f7c5f0a039200a15a03e7721ed04d7eb",
+    "parents": "e3cb5b6402ebee7689ddeb0f2ea2814cc50a19f2",
     "subject": "Editorial: return the SCC ancestor index from InnerModuleLinking"
    },
    {
     "adate": "2025-07-04T15:02:58+02:00",
     "author": "Nicol\u00f2 Ribaudo",
-    "date": "2025-07-04T15:42:02+02:00",
-    "hash": "b130ab534794a44a9680ac0907f649b425703850",
-    "parents": "e50b0373d6ec16a11d34967f6853351f8269d8e0",
+    "date": "2025-08-07T17:54:52+02:00",
+    "hash": "e3cb5b6402ebee7689ddeb0f2ea2814cc50a19f2",
+    "parents": "18d3ab95536828d0e321d3936bc898ca34d21238",
     "subject": "Editorial: Do not constantly update [[DFSAncestorIndex]] as we find lower values"
    },
    {
     "adate": "2025-07-04T14:47:50+02:00",
     "author": "Nicol\u00f2 Ribaudo",
-    "date": "2025-07-04T15:41:59+02:00",
-    "hash": "e50b0373d6ec16a11d34967f6853351f8269d8e0",
-    "parents": "60c4df0b65e1c2e6b6581a5bc08a9311223be1da",
+    "date": "2025-08-07T17:54:52+02:00",
+    "hash": "18d3ab95536828d0e321d3936bc898ca34d21238",
+    "parents": "6f61b741a70658a38ebd4c39ec60d11454f3ec55",
     "subject": "Editorial: Use stack index instead of traverse index for SCC detection"
    }
   ],
   "title": "Editorial: Use the dfs stack instead of [[DFSAncestorIndex]] ",
-  "updated_at": "2025-07-18T08:52:47Z"
+  "updated_at": "2025-08-07T15:55:55Z"
  },
  {
   "base": "60c4df0b65e1c2e6b6581a5bc08a9311223be1da",
