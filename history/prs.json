@@ -1,26 +1,6 @@
 [
  {
   "base": "6f61b741a70658a38ebd4c39ec60d11454f3ec55",
-  "created_at": "2025-08-08T19:09:15Z",
-  "head": "0493ac70c54e259fca1c471b5e9d5070285d9749",
-  "login": "christama",
-  "number": 3669,
-  "ref": "main",
-  "revs": [
-   {
-    "adate": "2025-08-09T02:08:51+07:00",
-    "author": "christama",
-    "date": "2025-08-09T02:08:51+07:00",
-    "hash": "0493ac70c54e259fca1c471b5e9d5070285d9749",
-    "parents": "6f61b741a70658a38ebd4c39ec60d11454f3ec55",
-    "subject": "Create devcontainer.json"
-   }
-  ],
-  "title": "Create devcontainer.json",
-  "updated_at": "2025-08-08T19:09:15Z"
- },
- {
-  "base": "6f61b741a70658a38ebd4c39ec60d11454f3ec55",
   "created_at": "2025-08-07T13:16:00Z",
   "head": "31bdd2f116f642a369cab633ef9d4a7fa4d1ecf1",
   "login": "tontonialberto",
@@ -292,9 +272,9 @@
   "updated_at": "2025-08-07T15:55:55Z"
  },
  {
-  "base": "60c4df0b65e1c2e6b6581a5bc08a9311223be1da",
+  "base": "6f61b741a70658a38ebd4c39ec60d11454f3ec55",
   "created_at": "2025-07-04T07:30:38Z",
-  "head": "7f4354302bdd05150bd0da511c30a9acdc5887fe",
+  "head": "64c0b35e9271c4d6e84c0e8914364757d13bcb77",
   "login": "aapoalas",
   "number": 3636,
   "ref": "editorial/regexp-builtin-exec-get-set-no-uc",
@@ -302,22 +282,22 @@
    {
     "adate": "2025-07-04T10:36:05+03:00",
     "author": "Aapo Alasuutari",
-    "date": "2025-07-04T10:36:05+03:00",
-    "hash": "7f4354302bdd05150bd0da511c30a9acdc5887fe",
-    "parents": "41b44d89e0d251e45f74d0b1efe19974a6de2918",
+    "date": "2025-08-11T04:27:23-06:00",
+    "hash": "64c0b35e9271c4d6e84c0e8914364757d13bcb77",
+    "parents": "0c65ba3cd50898d83f2e2679e737ce6c2fbffb88",
     "subject": "editorial: Set 'lastIndex' on RegExp object cannot trigger user-code during RegExpInitialize"
    },
    {
     "adate": "2025-07-04T10:25:42+03:00",
     "author": "Aapo Alasuutari",
-    "date": "2025-07-04T10:25:42+03:00",
-    "hash": "41b44d89e0d251e45f74d0b1efe19974a6de2918",
-    "parents": "60c4df0b65e1c2e6b6581a5bc08a9311223be1da",
+    "date": "2025-08-11T04:27:23-06:00",
+    "hash": "0c65ba3cd50898d83f2e2679e737ce6c2fbffb88",
+    "parents": "6f61b741a70658a38ebd4c39ec60d11454f3ec55",
     "subject": "editorial: Get/Set 'lastIndex' on RegExp object cannot trigger user-code"
    }
   ],
   "title": "editorial: Get/Set 'lastIndex' on RegExp object cannot trigger user-code",
-  "updated_at": "2025-07-04T07:37:08Z"
+  "updated_at": "2025-08-11T10:27:36Z"
  },
  {
   "base": "6f61b741a70658a38ebd4c39ec60d11454f3ec55",
@@ -1132,13 +1112,21 @@
   "updated_at": "2025-01-14T06:51:15Z"
  },
  {
-  "base": "f55b180957aa626ef8f87311e2e3b469dff0bf17",
+  "base": "6f61b741a70658a38ebd4c39ec60d11454f3ec55",
   "created_at": "2025-01-11T15:22:39Z",
-  "head": "4e456c2ad26d0da9b3021266706951e975093309",
+  "head": "fee972a927214036a1b108e4df15ed836af0bd85",
   "login": "aapoalas",
   "number": 3521,
   "ref": "fix/module-environment-records-get-binding-value-user-code",
   "revs": [
+   {
+    "adate": "2025-08-11T13:35:39+03:00",
+    "author": "Aapo Alasuutari",
+    "date": "2025-08-11T13:35:39+03:00",
+    "hash": "fee972a927214036a1b108e4df15ed836af0bd85",
+    "parents": "4e456c2ad26d0da9b3021266706951e975093309 6f61b741a70658a38ebd4c39ec60d11454f3ec55",
+    "subject": "Merge branch 'main' into fix/module-environment-records-get-binding-value-user-code"
+   },
    {
     "adate": "2025-01-11T17:17:33+02:00",
     "author": "Aapo Alasuutari",
@@ -1149,7 +1137,7 @@
    }
   ],
   "title": "fix: Module Environment Records GetBindingValue cannot call user code",
-  "updated_at": "2025-01-11T15:22:39Z"
+  "updated_at": "2025-08-11T10:35:40Z"
  },
  {
   "base": "a562082b031d89d00ee667181ce8a6158656bd4b",
