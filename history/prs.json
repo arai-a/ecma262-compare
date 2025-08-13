@@ -1,51 +1,23 @@
 [
  {
-  "base": "6f61b741a70658a38ebd4c39ec60d11454f3ec55",
+  "base": "14398036929a8fb0b22beb752cde06b5f5b303d0",
   "created_at": "2025-08-11T12:48:38Z",
-  "head": "d0ccf74ae6bfb3a249d10d56c88f67df428e783f",
+  "head": "a7c67f6a2d861ac27748bef4a49bd66f762bc4a1",
   "login": "igrep",
   "number": 3671,
   "ref": "Example-Cyclic-Module-Record-Graphs",
   "revs": [
    {
-    "adate": "2025-08-11T21:47:03+09:00",
+    "adate": "2025-08-13T12:58:38-07:00",
     "author": "YAMAMOTO Yuji",
-    "date": "2025-08-11T21:47:03+09:00",
-    "hash": "d0ccf74ae6bfb3a249d10d56c88f67df428e783f",
-    "parents": "6f61b741a70658a38ebd4c39ec60d11454f3ec55",
-    "subject": "Fix: Editorial: Enum value should be SANS-SERIF."
+    "date": "2025-08-13T12:58:38-07:00",
+    "hash": "a7c67f6a2d861ac27748bef4a49bd66f762bc4a1",
+    "parents": "14398036929a8fb0b22beb752cde06b5f5b303d0",
+    "subject": "Editorial: Enum value should be SANS-SERIF (#3671)"
    }
   ],
-  "title": "Fix: Editorial: Enum value should be SANS-SERIF.",
-  "updated_at": "2025-08-11T12:48:38Z"
- },
- {
-  "base": "6f61b741a70658a38ebd4c39ec60d11454f3ec55",
-  "created_at": "2025-08-07T13:16:00Z",
-  "head": "31bdd2f116f642a369cab633ef9d4a7fa4d1ecf1",
-  "login": "tontonialberto",
-  "number": 3666,
-  "ref": "table-to-ao",
-  "revs": [
-   {
-    "adate": "2025-08-09T19:09:36+02:00",
-    "author": "tontonialberto",
-    "date": "2025-08-09T19:09:36+02:00",
-    "hash": "31bdd2f116f642a369cab633ef9d4a7fa4d1ecf1",
-    "parents": "ac6843a31bf19f161cba403dabe724a2b7147cb8",
-    "subject": "Editorial: replace tables in AOs with algorithm steps"
-   },
-   {
-    "adate": "2025-08-07T15:12:48+02:00",
-    "author": "tontonialberto",
-    "date": "2025-08-07T15:12:48+02:00",
-    "hash": "ac6843a31bf19f161cba403dabe724a2b7147cb8",
-    "parents": "6f61b741a70658a38ebd4c39ec60d11454f3ec55",
-    "subject": "Editorial: replace tables in AOs with algorithm steps"
-   }
-  ],
-  "title": "Editorial: replace tables in AOs with algorithm steps",
-  "updated_at": "2025-08-09T17:10:05Z"
+  "title": "Editorial: Enum value should be SANS-SERIF",
+  "updated_at": "2025-08-13T20:21:31Z"
  },
  {
   "base": "6f61b741a70658a38ebd4c39ec60d11454f3ec55",
@@ -158,34 +130,6 @@
   ],
   "title": "Normative: add Math.sumPrecise",
   "updated_at": "2025-07-23T19:54:46Z"
- },
- {
-  "base": "6f61b741a70658a38ebd4c39ec60d11454f3ec55",
-  "created_at": "2025-07-14T15:43:46Z",
-  "head": "390280763c61ca0cd5bc7933ccf3605c4cf0079e",
-  "login": "tontonialberto",
-  "number": 3644,
-  "ref": "property-genitive",
-  "revs": [
-   {
-    "adate": "2025-08-13T10:44:25-07:00",
-    "author": "tontonialberto",
-    "date": "2025-08-13T10:44:25-07:00",
-    "hash": "390280763c61ca0cd5bc7933ccf3605c4cf0079e",
-    "parents": "a839b2b63ece0048009ee9a2d6ae049e029c22df",
-    "subject": "Editorial: Replace genitive with default notation when referencing properties (#3644)"
-   },
-   {
-    "adate": "2025-08-13T10:44:13-07:00",
-    "author": "Michael Ficarra",
-    "date": "2025-08-13T10:44:13-07:00",
-    "hash": "a839b2b63ece0048009ee9a2d6ae049e029c22df",
-    "parents": "6f61b741a70658a38ebd4c39ec60d11454f3ec55",
-    "subject": "Editorial: allow Symbols and Private Names to have internals slots (#3644)"
-   }
-  ],
-  "title": "Editorial: allow Symbols and Private Names to have internals slots and use slot notation as appropriate",
-  "updated_at": "2025-08-13T17:54:05Z"
  },
  {
   "base": "6f61b741a70658a38ebd4c39ec60d11454f3ec55",
