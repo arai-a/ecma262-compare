@@ -2,11 +2,19 @@
  {
   "base": "14398036929a8fb0b22beb752cde06b5f5b303d0",
   "created_at": "2025-08-15T23:53:30Z",
-  "head": "54cb89ef29a097aac0aee4fc14b571c7c4727632",
+  "head": "ccaf41dd669621757c9a0cc8bdc3eb0d45edd003",
   "login": "tc39",
   "number": 3676,
   "ref": "RequireObjectCoercible-procedure",
   "revs": [
+   {
+    "adate": "2025-08-15T19:30:42-06:00",
+    "author": "Michael Ficarra",
+    "date": "2025-08-15T19:30:42-06:00",
+    "hash": "ccaf41dd669621757c9a0cc8bdc3eb0d45edd003",
+    "parents": "54cb89ef29a097aac0aee4fc14b571c7c4727632",
+    "subject": "fixups"
+   },
    {
     "adate": "2025-08-15T17:42:12-06:00",
     "author": "Michael Ficarra",
@@ -17,7 +25,7 @@
    }
   ],
   "title": "Editorial: make RequireObjectCoercible return `~unused~`",
-  "updated_at": "2025-08-16T00:14:18Z"
+  "updated_at": "2025-08-16T01:31:28Z"
  },
  {
   "base": "14398036929a8fb0b22beb752cde06b5f5b303d0",
