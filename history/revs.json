@@ -1,11 +1,43 @@
 [
  {
+  "adate": "2025-08-18T22:09:22-07:00",
+  "author": "Michael Ficarra",
+  "date": "2025-08-18T22:09:22-07:00",
+  "hash": "097963e9cbc4c2ed4b1add21688c2180f392d2dc",
+  "parents": "b507d6e94e3b202fe2eda0d484a954d9199f6bbb",
+  "subject": "Editorial: add note to SetFunctionName clarifying optionality (#3675)"
+ },
+ {
   "adate": "2025-08-18T21:59:33-07:00",
   "author": "Michael Ficarra",
   "date": "2025-08-18T21:59:33-07:00",
   "hash": "b507d6e94e3b202fe2eda0d484a954d9199f6bbb",
   "parents": "27172c843b2daac91bb02260445a768d44891e5e",
   "subject": "Editorial: add oldids for IDs removed by #3666 (#3674)"
+ },
+ {
+  "adate": "2025-08-18T21:35:43-07:00",
+  "author": "Kevin Gibbons",
+  "date": "2025-08-18T21:35:43-07:00",
+  "hash": "27172c843b2daac91bb02260445a768d44891e5e",
+  "parents": "f828db8539fabbb6aa4d8f7d5626c551b8492b31",
+  "subject": "Normative: add Math.sumPrecise (#3654)"
+ },
+ {
+  "adate": "2025-08-18T21:05:56-07:00",
+  "author": "Michael Dyck",
+  "date": "2025-08-18T21:05:56-07:00",
+  "hash": "f828db8539fabbb6aa4d8f7d5626c551b8492b31",
+  "parents": "f6017b2590030a4f37f32a15392dcd2f2ee68af5",
+  "subject": "Editorial: Change \"Let\" to \"Set\" in inlined steps in EvalDeclarationInstantiation (#2952)"
+ },
+ {
+  "adate": "2025-08-18T21:05:53-07:00",
+  "author": "Michael Dyck",
+  "date": "2025-08-18T21:05:53-07:00",
+  "hash": "f6017b2590030a4f37f32a15392dcd2f2ee68af5",
+  "parents": "9815f3a5a288c401990e8a0e2880e82b6519f2b0",
+  "subject": "Editorial: Eliminate monkey-patching from \"The [[IsHTMLDDA]] Internal Slot\" (#2952)"
  },
  {
   "adate": "2025-08-18T21:05:49-07:00",
