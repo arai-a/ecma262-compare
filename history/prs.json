@@ -2,11 +2,19 @@
  {
   "base": "097963e9cbc4c2ed4b1add21688c2180f392d2dc",
   "created_at": "2025-08-20T05:29:22Z",
-  "head": "85e9953fdbac00fc4588582699b3178d4a8e82b9",
+  "head": "3f822e551c1caa30ecca1d4072eab1b64951fbb4",
   "login": "tc39",
   "number": 3679,
   "ref": "fix-previews",
   "revs": [
+   {
+    "adate": "2025-08-20T14:22:49-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2025-08-20T14:37:12-07:00",
+    "hash": "3f822e551c1caa30ecca1d4072eab1b64951fbb4",
+    "parents": "85e9953fdbac00fc4588582699b3178d4a8e82b9",
+    "subject": "support label"
+   },
    {
     "adate": "2025-08-20T13:53:29-07:00",
     "author": "Kevin Gibbons",
@@ -33,7 +41,7 @@
    }
   ],
   "title": "Meta: fix PR previews",
-  "updated_at": "2025-08-20T20:56:25Z"
+  "updated_at": "2025-08-20T21:48:50Z"
  },
  {
   "base": "14398036929a8fb0b22beb752cde06b5f5b303d0",
