@@ -28,26 +28,6 @@
   "updated_at": "2025-08-16T01:31:28Z"
  },
  {
-  "base": "b507d6e94e3b202fe2eda0d484a954d9199f6bbb",
-  "created_at": "2025-08-15T22:02:03Z",
-  "head": "097963e9cbc4c2ed4b1add21688c2180f392d2dc",
-  "login": "tc39",
-  "number": 3675,
-  "ref": "GH-3672",
-  "revs": [
-   {
-    "adate": "2025-08-18T22:09:22-07:00",
-    "author": "Michael Ficarra",
-    "date": "2025-08-18T22:09:22-07:00",
-    "hash": "097963e9cbc4c2ed4b1add21688c2180f392d2dc",
-    "parents": "b507d6e94e3b202fe2eda0d484a954d9199f6bbb",
-    "subject": "Editorial: add note to SetFunctionName clarifying optionality (#3675)"
-   }
-  ],
-  "title": "Editorial: add note to SetFunctionName clarifying optionality",
-  "updated_at": "2025-08-19T05:09:36Z"
- },
- {
   "base": "6f61b741a70658a38ebd4c39ec60d11454f3ec55",
   "created_at": "2025-08-04T09:05:10Z",
   "head": "7930b7add29a5b0048be05c53575c7e74622424a",
@@ -3476,32 +3456,32 @@
   "updated_at": "2022-11-29T09:36:27Z"
  },
  {
-  "base": "6d71ca0e2dbf1c0cfb87b5eb7a83cf7c76591561",
+  "base": "097963e9cbc4c2ed4b1add21688c2180f392d2dc",
   "created_at": "2022-10-24T20:33:20Z",
-  "head": "09d4b3b675d933585ddf86001022fc79aca32ba9",
+  "head": "f3e3f939c97e387c506a26de41330530855b1be9",
   "login": "tc39",
   "number": 2942,
   "ref": "add-builtin-async-function-objects",
   "revs": [
    {
-    "adate": "2025-05-21T20:15:54-06:00",
+    "adate": "2025-08-19T19:03:59-06:00",
     "author": "Michael Ficarra",
-    "date": "2025-05-21T20:15:54-06:00",
-    "hash": "09d4b3b675d933585ddf86001022fc79aca32ba9",
-    "parents": "a545cb8623e9f107c40641402109fb9265c0ba38",
-    "subject": "accept review feedback"
+    "date": "2025-08-19T19:03:59-06:00",
+    "hash": "f3e3f939c97e387c506a26de41330530855b1be9",
+    "parents": "5c71701d5ae2353427302946c6eda703771b8c08",
+    "subject": "address comments"
    },
    {
     "adate": "2022-10-24T14:27:38-06:00",
     "author": "Michael Ficarra",
-    "date": "2025-04-30T19:52:33-06:00",
-    "hash": "a545cb8623e9f107c40641402109fb9265c0ba38",
-    "parents": "6d71ca0e2dbf1c0cfb87b5eb7a83cf7c76591561",
+    "date": "2025-08-19T17:28:42-06:00",
+    "hash": "5c71701d5ae2353427302946c6eda703771b8c08",
+    "parents": "097963e9cbc4c2ed4b1add21688c2180f392d2dc",
     "subject": "Editorial: support built-in async functions"
    }
   ],
   "title": "Editorial: support built-in async functions",
-  "updated_at": "2025-05-22T02:18:31Z"
+  "updated_at": "2025-08-20T01:05:29Z"
  },
  {
   "base": "8aac12603c99f94d982317832b0e03c13684ce0a",
