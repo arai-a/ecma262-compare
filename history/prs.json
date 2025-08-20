@@ -1,6 +1,34 @@
 [
  {
   "base": "097963e9cbc4c2ed4b1add21688c2180f392d2dc",
+  "created_at": "2025-08-20T05:29:22Z",
+  "head": "c347431a545efa7d7dfd9aed2733b84c94933dc3",
+  "login": "tc39",
+  "number": 3679,
+  "ref": "fix-previews",
+  "revs": [
+   {
+    "adate": "2025-08-19T22:40:03-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2025-08-19T22:40:03-07:00",
+    "hash": "c347431a545efa7d7dfd9aed2733b84c94933dc3",
+    "parents": "4f4b329c3e3d43314fc67f7646dfb0158eac3ad9",
+    "subject": "remove old publish script and corresponding deps"
+   },
+   {
+    "adate": "2025-08-19T22:20:14-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2025-08-19T22:20:14-07:00",
+    "hash": "4f4b329c3e3d43314fc67f7646dfb0158eac3ad9",
+    "parents": "097963e9cbc4c2ed4b1add21688c2180f392d2dc",
+    "subject": "Meta: fix PR previews"
+   }
+  ],
+  "title": "Meta: fix PR previews",
+  "updated_at": "2025-08-20T06:02:59Z"
+ },
+ {
+  "base": "097963e9cbc4c2ed4b1add21688c2180f392d2dc",
   "created_at": "2025-08-20T04:51:05Z",
   "head": "f679af2ea5a70771d6a814f5d4498e8c4a0b4489",
   "login": "tc39",
