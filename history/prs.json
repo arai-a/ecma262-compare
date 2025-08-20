@@ -70,11 +70,19 @@
  {
   "base": "f764049fe0390b5b58f7bd70118fd76ec25d9ff4",
   "created_at": "2025-07-17T21:17:53Z",
-  "head": "6c7478959a0ee745f1248189a28faaa5b9bd16d8",
+  "head": "c713c6b49198a9e2118ad1ac7516f0acd4620da9",
   "login": "tc39",
   "number": 3655,
   "ref": "uint8array-base64",
   "revs": [
+   {
+    "adate": "2025-08-19T19:56:16-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2025-08-19T19:56:16-07:00",
+    "hash": "c713c6b49198a9e2118ad1ac7516f0acd4620da9",
+    "parents": "6c7478959a0ee745f1248189a28faaa5b9bd16d8",
+    "subject": "address comments"
+   },
    {
     "adate": "2025-07-23T12:44:53-07:00",
     "author": "Kevin Gibbons",
@@ -93,7 +101,7 @@
    }
   ],
   "title": "Normative: add base64 and hex methods for Uint8Array",
-  "updated_at": "2025-07-25T17:35:16Z"
+  "updated_at": "2025-08-20T02:59:17Z"
  },
  {
   "base": "6f61b741a70658a38ebd4c39ec60d11454f3ec55",
