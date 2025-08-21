@@ -1,6 +1,26 @@
 [
  {
   "base": "948f702479dd432ff97265118580ab6952351588",
+  "created_at": "2025-08-21T13:48:42Z",
+  "head": "6bf2fb9ab1d576a70c2545362e3ebfac4dfe96ce",
+  "login": "senocular",
+  "number": 3681,
+  "ref": "typo-functions-objects",
+  "revs": [
+   {
+    "adate": "2025-08-21T09:46:01-04:00",
+    "author": "senocular",
+    "date": "2025-08-21T09:46:01-04:00",
+    "hash": "6bf2fb9ab1d576a70c2545362e3ebfac4dfe96ce",
+    "parents": "948f702479dd432ff97265118580ab6952351588",
+    "subject": "Editorial: remove unnecessary pluralization"
+   }
+  ],
+  "title": "Editorial: remove unnecessary pluralization",
+  "updated_at": "2025-08-21T13:48:42Z"
+ },
+ {
+  "base": "948f702479dd432ff97265118580ab6952351588",
   "created_at": "2025-08-20T05:29:22Z",
   "head": "f799986e166e17834b46928f07e5d5e24701bcf8",
   "login": "tc39",
