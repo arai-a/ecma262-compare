@@ -526,11 +526,19 @@
  {
   "base": "caa0482e4f6febc2bf5d2992b1546cb08a9b3e87",
   "created_at": "2025-06-11T15:11:59Z",
-  "head": "ea62ca48bbd26377c7c2c8c2db25cf763ea63c00",
+  "head": "82c9e1bf30f8b24df099d98839a51d450b38237f",
   "login": "gesa",
   "number": 3623,
   "ref": "pdf-2025",
   "revs": [
+   {
+    "adate": "2025-08-25T18:46:05-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2025-08-25T18:46:05-07:00",
+    "hash": "82c9e1bf30f8b24df099d98839a51d450b38237f",
+    "parents": "ea62ca48bbd26377c7c2c8c2db25cf763ea63c00",
+    "subject": "remove version in metadata"
+   },
    {
     "adate": "2025-07-02T23:29:42+02:00",
     "author": "Aki \ud83c\udf39",
@@ -549,7 +557,7 @@
    }
   ],
   "title": "Markup: rendering edits for 2025 edition & beyond",
-  "updated_at": "2025-07-02T21:30:01Z"
+  "updated_at": "2025-08-26T01:53:01Z"
  },
  {
   "base": "caa0482e4f6febc2bf5d2992b1546cb08a9b3e87",
