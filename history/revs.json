@@ -1,5 +1,37 @@
 [
  {
+  "adate": "2025-08-25T22:30:54-07:00",
+  "author": "Michael Ficarra",
+  "date": "2025-08-25T22:30:54-07:00",
+  "hash": "f92c1ae6255faa6f6cea24d5714ad15f9f524e5f",
+  "parents": "1da362c7cfcb8dd1d12c91297b39b062df39afc3",
+  "subject": "Editorial: make RequireObjectCoercible return `~unused~` (#3676)"
+ },
+ {
+  "adate": "2025-08-25T22:26:20-07:00",
+  "author": "Aapo Alasuutari",
+  "date": "2025-08-25T22:26:20-07:00",
+  "hash": "1da362c7cfcb8dd1d12c91297b39b062df39afc3",
+  "parents": "11d9dc66a7a094c384c994e0c38b856c8c7967ad",
+  "subject": "Editorial: Get/Set 'lastIndex' on RegExp object cannot trigger user-code (#3636)"
+ },
+ {
+  "adate": "2025-08-25T22:17:48-07:00",
+  "author": "Aki \ud83c\udf39",
+  "date": "2025-08-25T22:17:48-07:00",
+  "hash": "11d9dc66a7a094c384c994e0c38b856c8c7967ad",
+  "parents": "3864092cab5506826ce0cbeb2c06f61d8598dfea",
+  "subject": "Markup: rendering edits for 2025 edition & beyond (#3623)"
+ },
+ {
+  "adate": "2025-08-25T16:33:20-07:00",
+  "author": "Aapo Alasuutari",
+  "date": "2025-08-25T16:33:20-07:00",
+  "hash": "3864092cab5506826ce0cbeb2c06f61d8598dfea",
+  "parents": "858b1df4f40e45eaa483fcafb0d7cf3c710776d6",
+  "subject": "Editorial: TypedArrayCreateSameType take length as parameter (#3570)"
+ },
+ {
   "adate": "2025-08-25T15:35:25-07:00",
   "author": "Gus Caplan",
   "date": "2025-08-25T15:35:25-07:00",
