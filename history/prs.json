@@ -64,34 +64,6 @@
   "updated_at": "2025-08-20T23:54:02Z"
  },
  {
-  "base": "14398036929a8fb0b22beb752cde06b5f5b303d0",
-  "created_at": "2025-08-15T23:53:30Z",
-  "head": "ccaf41dd669621757c9a0cc8bdc3eb0d45edd003",
-  "login": "tc39",
-  "number": 3676,
-  "ref": "RequireObjectCoercible-procedure",
-  "revs": [
-   {
-    "adate": "2025-08-15T19:30:42-06:00",
-    "author": "Michael Ficarra",
-    "date": "2025-08-15T19:30:42-06:00",
-    "hash": "ccaf41dd669621757c9a0cc8bdc3eb0d45edd003",
-    "parents": "54cb89ef29a097aac0aee4fc14b571c7c4727632",
-    "subject": "fixups"
-   },
-   {
-    "adate": "2025-08-15T17:42:12-06:00",
-    "author": "Michael Ficarra",
-    "date": "2025-08-15T17:42:12-06:00",
-    "hash": "54cb89ef29a097aac0aee4fc14b571c7c4727632",
-    "parents": "14398036929a8fb0b22beb752cde06b5f5b303d0",
-    "subject": "Editorial: make RequireObjectCoercible return `~unused~`"
-   }
-  ],
-  "title": "Editorial: make RequireObjectCoercible return `~unused~`",
-  "updated_at": "2025-08-16T01:31:28Z"
- },
- {
   "base": "6f61b741a70658a38ebd4c39ec60d11454f3ec55",
   "created_at": "2025-08-04T09:05:10Z",
   "head": "7930b7add29a5b0048be05c53575c7e74622424a",
@@ -262,34 +234,6 @@
   ],
   "title": "Editorial: Use the dfs stack instead of [[DFSAncestorIndex]] ",
   "updated_at": "2025-08-07T15:55:55Z"
- },
- {
-  "base": "6f61b741a70658a38ebd4c39ec60d11454f3ec55",
-  "created_at": "2025-07-04T07:30:38Z",
-  "head": "64c0b35e9271c4d6e84c0e8914364757d13bcb77",
-  "login": "aapoalas",
-  "number": 3636,
-  "ref": "editorial/regexp-builtin-exec-get-set-no-uc",
-  "revs": [
-   {
-    "adate": "2025-07-04T10:36:05+03:00",
-    "author": "Aapo Alasuutari",
-    "date": "2025-08-11T04:27:23-06:00",
-    "hash": "64c0b35e9271c4d6e84c0e8914364757d13bcb77",
-    "parents": "0c65ba3cd50898d83f2e2679e737ce6c2fbffb88",
-    "subject": "editorial: Set 'lastIndex' on RegExp object cannot trigger user-code during RegExpInitialize"
-   },
-   {
-    "adate": "2025-07-04T10:25:42+03:00",
-    "author": "Aapo Alasuutari",
-    "date": "2025-08-11T04:27:23-06:00",
-    "hash": "0c65ba3cd50898d83f2e2679e737ce6c2fbffb88",
-    "parents": "6f61b741a70658a38ebd4c39ec60d11454f3ec55",
-    "subject": "editorial: Get/Set 'lastIndex' on RegExp object cannot trigger user-code"
-   }
-  ],
-  "title": "editorial: Get/Set 'lastIndex' on RegExp object cannot trigger user-code",
-  "updated_at": "2025-08-11T10:27:36Z"
  },
  {
   "base": "6f61b741a70658a38ebd4c39ec60d11454f3ec55",
@@ -522,42 +466,6 @@
   ],
   "title": "Editorial: remove unused AO CreateAsyncIteratorFromClosure",
   "updated_at": "2025-06-24T17:09:39Z"
- },
- {
-  "base": "caa0482e4f6febc2bf5d2992b1546cb08a9b3e87",
-  "created_at": "2025-06-11T15:11:59Z",
-  "head": "82c9e1bf30f8b24df099d98839a51d450b38237f",
-  "login": "gesa",
-  "number": 3623,
-  "ref": "pdf-2025",
-  "revs": [
-   {
-    "adate": "2025-08-25T18:46:05-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2025-08-25T18:46:05-07:00",
-    "hash": "82c9e1bf30f8b24df099d98839a51d450b38237f",
-    "parents": "ea62ca48bbd26377c7c2c8c2db25cf763ea63c00",
-    "subject": "remove version in metadata"
-   },
-   {
-    "adate": "2025-07-02T23:29:42+02:00",
-    "author": "Aki \ud83c\udf39",
-    "date": "2025-07-02T23:29:42+02:00",
-    "hash": "ea62ca48bbd26377c7c2c8c2db25cf763ea63c00",
-    "parents": "a231d7705cf3236581f172bf7dee34df3907494e",
-    "subject": "Restore evaluating-async table cells, add a comment for future years."
-   },
-   {
-    "adate": "2025-06-11T17:04:12+02:00",
-    "author": "Aki \ud83c\udf39",
-    "date": "2025-06-11T17:04:12+02:00",
-    "hash": "a231d7705cf3236581f172bf7dee34df3907494e",
-    "parents": "caa0482e4f6febc2bf5d2992b1546cb08a9b3e87",
-    "subject": "Edits for 2025 edition & beyond"
-   }
-  ],
-  "title": "Markup: rendering edits for 2025 edition & beyond",
-  "updated_at": "2025-08-26T01:53:01Z"
  },
  {
   "base": "caa0482e4f6febc2bf5d2992b1546cb08a9b3e87",
@@ -1042,26 +950,6 @@
   ],
   "title": "Normative: Add Array.fromAsync",
   "updated_at": "2025-05-29T17:55:17Z"
- },
- {
-  "base": "858b1df4f40e45eaa483fcafb0d7cf3c710776d6",
-  "created_at": "2025-04-20T16:57:03Z",
-  "head": "3864092cab5506826ce0cbeb2c06f61d8598dfea",
-  "login": "aapoalas",
-  "number": 3570,
-  "ref": "feat/typed-array-create-same-type-length",
-  "revs": [
-   {
-    "adate": "2025-08-25T16:33:20-07:00",
-    "author": "Aapo Alasuutari",
-    "date": "2025-08-25T16:33:20-07:00",
-    "hash": "3864092cab5506826ce0cbeb2c06f61d8598dfea",
-    "parents": "858b1df4f40e45eaa483fcafb0d7cf3c710776d6",
-    "subject": "Editorial: TypedArrayCreateSameType take length as parameter (#3570)"
-   }
-  ],
-  "title": "Editorial: TypedArrayCreateSameType take length as parameter",
-  "updated_at": "2025-08-25T23:33:32Z"
  },
  {
   "base": "f2bad0095a792587ab7a70c9f024612148e18bd1",
@@ -2044,9 +1932,9 @@
   "updated_at": "2025-05-24T16:05:09Z"
  },
  {
-  "base": "f764049fe0390b5b58f7bd70118fd76ec25d9ff4",
+  "base": "f92c1ae6255faa6f6cea24d5714ad15f9f524e5f",
   "created_at": "2023-10-29T03:33:26Z",
-  "head": "51ef4e54115ffd31b5b2ca419e84b7df5b6d8c21",
+  "head": "f5818e95c8aed925f1af213452efa5b6fb64fc40",
   "login": "jmdyck",
   "number": 3210,
   "ref": "SDO",
@@ -2054,118 +1942,118 @@
    {
     "adate": "2025-02-19T17:45:59-05:00",
     "author": "Michael Dyck",
-    "date": "2025-07-27T11:00:40-04:00",
-    "hash": "51ef4e54115ffd31b5b2ca419e84b7df5b6d8c21",
-    "parents": "af72087a0595c161ce4c06b5f0e56299dbdcf657",
+    "date": "2025-08-29T14:24:53-04:00",
+    "hash": "f5818e95c8aed925f1af213452efa5b6fb64fc40",
+    "parents": "ecbe17ccaaa228ac53890dd89df216cd0b8d5f97",
     "subject": "fixup: Apply conventions after some merges to main"
    },
    {
     "adate": "2024-02-28T15:04:56-05:00",
     "author": "Michael Dyck",
-    "date": "2025-07-27T11:00:40-04:00",
-    "hash": "af72087a0595c161ce4c06b5f0e56299dbdcf657",
-    "parents": "d294b46005081831a9ead1d0b35b58aa34b80b27",
+    "date": "2025-08-29T14:24:53-04:00",
+    "hash": "ecbe17ccaaa228ac53890dd89df216cd0b8d5f97",
+    "parents": "42e70a39de25027c98aeca57b9f43ae069e29ea0",
     "subject": "fixup: In example, remove \"the\" before \"VarDeclaredNames\""
    },
    {
     "adate": "2024-02-28T14:15:23-05:00",
     "author": "Michael Dyck",
-    "date": "2025-07-27T11:00:40-04:00",
-    "hash": "d294b46005081831a9ead1d0b35b58aa34b80b27",
-    "parents": "7e93d7328f14201de735f16e9c0cc945dbd46a5f",
+    "date": "2025-08-29T14:24:53-04:00",
+    "hash": "42e70a39de25027c98aeca57b9f43ae069e29ea0",
+    "parents": "0376da4a302fbf2ee5fdad1f21486ad91eb1709e",
     "subject": "fixup re introducing \"subject Parse Node\""
    },
    {
     "adate": "2023-10-30T22:51:24-04:00",
     "author": "Michael Dyck",
-    "date": "2025-07-27T11:00:38-04:00",
-    "hash": "7e93d7328f14201de735f16e9c0cc945dbd46a5f",
-    "parents": "16845f2df715f936a81a753b57a363e7a3d89cdc",
+    "date": "2025-08-29T14:24:46-04:00",
+    "hash": "0376da4a302fbf2ee5fdad1f21486ad91eb1709e",
+    "parents": "43b213c2ef728a0f5fe20f17a02737b0820cc23b",
     "subject": "fixup: insert more 'this'"
    },
    {
     "adate": "2023-10-28T23:20:34-04:00",
     "author": "Michael Dyck",
-    "date": "2025-07-27T10:59:58-04:00",
-    "hash": "16845f2df715f936a81a753b57a363e7a3d89cdc",
-    "parents": "2054113a485b57eb3d3c39d740cf307e01038e00",
+    "date": "2025-08-29T12:11:11-04:00",
+    "hash": "43b213c2ef728a0f5fe20f17a02737b0820cc23b",
+    "parents": "afa1998d5388487675fa1236d5ef135236ab8df9",
     "subject": "Change \"this production\" to \"this Parse Node\""
    },
    {
     "adate": "2023-10-28T23:19:28-04:00",
     "author": "Michael Dyck",
-    "date": "2025-07-27T10:59:58-04:00",
-    "hash": "2054113a485b57eb3d3c39d740cf307e01038e00",
-    "parents": "dac294b359910eed2f27f565ad3b62e90c4ba044",
+    "date": "2025-08-29T12:11:11-04:00",
+    "hash": "afa1998d5388487675fa1236d5ef135236ab8df9",
+    "parents": "293921b33fc382d4e894442b0384730c08a9f4ad",
     "subject": "Change \"this production\" (and 1 \"this phrase\") to \"this |Nonterminal|\""
    },
    {
     "adate": "2023-10-28T22:58:05-04:00",
     "author": "Michael Dyck",
-    "date": "2025-07-27T10:59:58-04:00",
-    "hash": "dac294b359910eed2f27f565ad3b62e90c4ba044",
-    "parents": "853d1ca41f57a027c5b30759fae6d63262926c7f",
+    "date": "2025-08-29T12:11:11-04:00",
+    "hash": "293921b33fc382d4e894442b0384730c08a9f4ad",
+    "parents": "3436c9da424676b1b4f113094ff1710e0810c7c4",
     "subject": "Change \"the |UnaryExpression|\" to \"this |UnaryExpression|\""
    },
    {
     "adate": "2023-10-28T22:55:29-04:00",
     "author": "Michael Dyck",
-    "date": "2025-07-27T10:59:58-04:00",
-    "hash": "853d1ca41f57a027c5b30759fae6d63262926c7f",
-    "parents": "051472283015f31be0ec21e5a3ca73b11d051d23",
+    "date": "2025-08-29T12:11:11-04:00",
+    "hash": "3436c9da424676b1b4f113094ff1710e0810c7c4",
+    "parents": "522940ceb97b764650c492d27276af9425468901",
     "subject": "Insert 'this' for references to LHS nonterminal"
    },
    {
     "adate": "2023-10-28T15:35:18-04:00",
     "author": "Michael Dyck",
-    "date": "2025-07-27T10:59:58-04:00",
-    "hash": "051472283015f31be0ec21e5a3ca73b11d051d23",
-    "parents": "85a7c349a7188bb10a1ca6505b9dcb4eece4ab03",
+    "date": "2025-08-29T12:11:11-04:00",
+    "hash": "522940ceb97b764650c492d27276af9425468901",
+    "parents": "a606bdecac8365b90ad3937f4fd9c7d3df282a35",
     "subject": "Link to \"Referring to Parse Nodes\" from `Early Error Rules`"
    },
    {
     "adate": "2023-10-28T15:34:43-04:00",
     "author": "Michael Dyck",
-    "date": "2025-07-27T10:59:58-04:00",
-    "hash": "85a7c349a7188bb10a1ca6505b9dcb4eece4ab03",
-    "parents": "f79deb907061baa43cf64bad376c6a58c7d22af0",
+    "date": "2025-08-29T12:11:10-04:00",
+    "hash": "a606bdecac8365b90ad3937f4fd9c7d3df282a35",
+    "parents": "3982b4004b7f28a433f6d77821605c461194668f",
     "subject": "Create a subsection for \"Referring to Parse Nodes\""
    },
    {
     "adate": "2023-10-28T15:29:41-04:00",
     "author": "Michael Dyck",
-    "date": "2025-07-27T10:59:58-04:00",
-    "hash": "f79deb907061baa43cf64bad376c6a58c7d22af0",
-    "parents": "18e1c7e8acf273c25c3f88c9065d15ecee734578",
+    "date": "2025-08-29T12:11:10-04:00",
+    "hash": "3982b4004b7f28a433f6d77821605c461194668f",
+    "parents": "22074b21a742e5263e57649edf8b494fe03524fa",
     "subject": "Add a paragraph about the dispatching mechanism for SDOs."
    },
    {
     "adate": "2023-10-28T09:59:26-04:00",
     "author": "Michael Dyck",
-    "date": "2025-07-27T10:59:58-04:00",
-    "hash": "18e1c7e8acf273c25c3f88c9065d15ecee734578",
-    "parents": "751b93b375461d101ea88a8f32598b1bb4d11766",
+    "date": "2025-08-29T12:11:10-04:00",
+    "hash": "22074b21a742e5263e57649edf8b494fe03524fa",
+    "parents": "e118ca199fb9c236b07a261459c546c2ea6aa3d1",
     "subject": "Split off a subsection for \"Invoking Syntax-Directed Operations\""
    },
    {
     "adate": "2023-10-28T09:53:49-04:00",
     "author": "Michael Dyck",
-    "date": "2025-07-27T10:59:58-04:00",
-    "hash": "751b93b375461d101ea88a8f32598b1bb4d11766",
-    "parents": "296e8ba300a989d844825b4bcc01e60d55814adb",
+    "date": "2025-08-29T12:11:10-04:00",
+    "hash": "e118ca199fb9c236b07a261459c546c2ea6aa3d1",
+    "parents": "6a2f3c45ae4a29afbf32c43b5d3c501ef46e87e7",
     "subject": "Split off a subsection for \"Implicit Definitions for Chain Productions\""
    },
    {
     "adate": "2023-10-28T09:35:28-04:00",
     "author": "Michael Dyck",
-    "date": "2025-07-27T10:59:57-04:00",
-    "hash": "296e8ba300a989d844825b4bcc01e60d55814adb",
-    "parents": "f764049fe0390b5b58f7bd70118fd76ec25d9ff4",
+    "date": "2025-08-29T12:11:10-04:00",
+    "hash": "6a2f3c45ae4a29afbf32c43b5d3c501ef46e87e7",
+    "parents": "f92c1ae6255faa6f6cea24d5714ad15f9f524e5f",
     "subject": "Move the definition of \"source text matched by\""
    }
   ],
   "title": "Editorial: Expand the \"Syntax-Directed Operations\" section",
-  "updated_at": "2025-07-27T21:41:36Z"
+  "updated_at": "2025-08-29T19:49:50Z"
  },
  {
   "base": "f2b2d524a56c915826e90d7a3f9daa51a49011c3",
@@ -4424,9 +4312,9 @@
   "updated_at": "2021-03-02T20:18:19Z"
  },
  {
-  "base": "4e3450e36314e06ce031456e27fd910e26b06eac",
+  "base": "f92c1ae6255faa6f6cea24d5714ad15f9f524e5f",
   "created_at": "2021-01-24T05:38:33Z",
-  "head": "5ccd2f8c1262a0aab119b16e9219e23c4c4cf800",
+  "head": "8e7f452b7b8c541055f7c82299601649a9183cb9",
   "login": "jmdyck",
   "number": 2288,
   "ref": "declarative_Env_Rec",
@@ -4434,46 +4322,46 @@
    {
     "adate": "2023-09-02T23:02:35-04:00",
     "author": "Michael Dyck",
-    "date": "2025-02-18T22:24:51-05:00",
-    "hash": "5ccd2f8c1262a0aab119b16e9219e23c4c4cf800",
-    "parents": "5d91b8ab0fc5a1abc25e31c2497c7a1a95b9bb0f",
+    "date": "2025-08-29T14:39:15-04:00",
+    "hash": "8e7f452b7b8c541055f7c82299601649a9183cb9",
+    "parents": "35782180d2bded21ad12be73e5a3f2a378d96d61",
     "subject": "fixup: add 'variants' attributes; change \"equals\" to \"is\""
    },
    {
-    "adate": "2021-01-24T00:30:29-05:00",
+    "adate": "2025-08-19T21:37:07-04:00",
     "author": "Michael Dyck",
-    "date": "2025-02-18T22:24:49-05:00",
-    "hash": "5d91b8ab0fc5a1abc25e31c2497c7a1a95b9bb0f",
-    "parents": "c03548c15a6e2847b8e95a1ae09290fefc7e16c6",
+    "date": "2025-08-29T14:39:15-04:00",
+    "hash": "35782180d2bded21ad12be73e5a3f2a378d96d61",
+    "parents": "e7b92df87ae18fd5f3f7d954d6441fe00fe7dea7",
     "subject": "Editorial: Model a declarative binding as a Record"
    },
    {
-    "adate": "2021-01-23T23:59:22-05:00",
+    "adate": "2025-08-19T21:35:25-04:00",
     "author": "Michael Dyck",
-    "date": "2025-02-18T22:23:03-05:00",
-    "hash": "c03548c15a6e2847b8e95a1ae09290fefc7e16c6",
-    "parents": "4f36bf8f9a35f92a0b3d08c6ea50a60aee72e669",
+    "date": "2025-08-29T14:39:15-04:00",
+    "hash": "e7b92df87ae18fd5f3f7d954d6441fe00fe7dea7",
+    "parents": "a6fbdd60cab49758fa95723857905819765ad112",
     "subject": "Editorial: Declarative Env Rec has field [[Bindings]]"
    },
    {
-    "adate": "2021-01-23T23:52:38-05:00",
+    "adate": "2025-08-19T21:30:27-04:00",
     "author": "Michael Dyck",
-    "date": "2025-02-18T22:22:05-05:00",
-    "hash": "4f36bf8f9a35f92a0b3d08c6ea50a60aee72e669",
-    "parents": "5f807a91bea8958e6c1cbe47603cb5a483a9fee4",
+    "date": "2025-08-29T14:39:15-04:00",
+    "hash": "a6fbdd60cab49758fa95723857905819765ad112",
+    "parents": "209037293e6a11c7f1b1f4b29fbe7249b742d32b",
     "subject": "Editorial: Treat a binding as an 'alias-able' thing"
    },
    {
     "adate": "2021-01-23T22:54:21-05:00",
     "author": "Michael Dyck",
-    "date": "2025-02-18T22:22:04-05:00",
-    "hash": "5f807a91bea8958e6c1cbe47603cb5a483a9fee4",
-    "parents": "4e3450e36314e06ce031456e27fd910e26b06eac",
+    "date": "2025-08-29T14:39:15-04:00",
+    "hash": "209037293e6a11c7f1b1f4b29fbe7249b742d32b",
+    "parents": "f92c1ae6255faa6f6cea24d5714ad15f9f524e5f",
     "subject": "Editorial: Use Declarative Env Rec's HasBinding method"
    }
   ],
   "title": "Editorial: Model the bindings of a declarative Env Rec as a List of Records",
-  "updated_at": "2025-02-19T15:14:13Z"
+  "updated_at": "2025-08-29T19:53:33Z"
  },
  {
   "base": "32fe924d97f504194c96d71217e73da2bcdb2d91",
@@ -4504,9 +4392,9 @@
   "updated_at": "2024-08-10T14:52:40Z"
  },
  {
-  "base": "3d77f663db17fc21f0b200091c344bfe323bc40b",
+  "base": "f92c1ae6255faa6f6cea24d5714ad15f9f524e5f",
   "created_at": "2020-12-08T06:31:39Z",
-  "head": "2d22f7dd504dc829dd39b4709a358b5730e48a18",
+  "head": "5b234c3626c16d33fd570a8d765c0ca6a4701f49",
   "login": "jmdyck",
   "number": 2246,
   "ref": "ExecutionContext_Record",
@@ -4514,70 +4402,70 @@
    {
     "adate": "2025-02-19T17:23:33-05:00",
     "author": "Michael Dyck",
-    "date": "2025-07-15T17:56:46-04:00",
-    "hash": "2d22f7dd504dc829dd39b4709a358b5730e48a18",
-    "parents": "bd612afca695517ec179b094161f073bafa0fede",
+    "date": "2025-08-29T14:42:14-04:00",
+    "hash": "5b234c3626c16d33fd570a8d765c0ca6a4701f49",
+    "parents": "5a1418efa73596d00584829e80b9a855637dd08f",
     "subject": "fixup: remove a line from esmeta-ignore.json"
    },
    {
     "adate": "2022-08-31T23:46:33-04:00",
     "author": "Michael Dyck",
-    "date": "2025-07-15T17:56:46-04:00",
-    "hash": "bd612afca695517ec179b094161f073bafa0fede",
-    "parents": "aa5611ecd0f93c6a0575239d6cfff9ef829f0a89",
+    "date": "2025-08-29T14:42:13-04:00",
+    "hash": "5a1418efa73596d00584829e80b9a855637dd08f",
+    "parents": "f6c4d2070440031e3afb5a78691e74c922ae5b66",
     "subject": "fixup: \"execution context\" -> \"ExecutionContext Record\" in some prose"
    },
    {
     "adate": "2022-08-31T23:31:55-04:00",
     "author": "Michael Dyck",
-    "date": "2025-07-15T17:56:46-04:00",
-    "hash": "aa5611ecd0f93c6a0575239d6cfff9ef829f0a89",
-    "parents": "7589f3fb51d09ec48c03d728a83d5747645e01c4",
+    "date": "2025-08-29T14:42:13-04:00",
+    "hash": "f6c4d2070440031e3afb5a78691e74c922ae5b66",
+    "parents": "7bcadc7af8575795d6aae00f08e8f927da8a3c1f",
     "subject": "fixup: \"execution context\" -> \"ExecutionContext Record\" in some alg steps"
    },
    {
     "adate": "2022-08-31T23:13:29-04:00",
     "author": "Michael Dyck",
-    "date": "2025-07-15T17:56:44-04:00",
-    "hash": "7589f3fb51d09ec48c03d728a83d5747645e01c4",
-    "parents": "9ccdf9f9722a4b9f0e9fbf2a654e7d530a3973c3",
+    "date": "2025-08-29T14:42:13-04:00",
+    "hash": "7bcadc7af8575795d6aae00f08e8f927da8a3c1f",
+    "parents": "3bcc66703daa149a53f3cddbbddb45a7253f5540",
     "subject": "fixup: Avoid saying \"that execution context\" by naming it"
    },
    {
     "adate": "2022-08-31T20:30:10-04:00",
     "author": "Michael Dyck",
-    "date": "2025-07-15T17:55:26-04:00",
-    "hash": "9ccdf9f9722a4b9f0e9fbf2a654e7d530a3973c3",
-    "parents": "b0e2c92c32365f562f5ade27befcfb91faa8fadc",
+    "date": "2025-08-29T14:42:13-04:00",
+    "hash": "3bcc66703daa149a53f3cddbbddb45a7253f5540",
+    "parents": "11ebde36ecad776300923c9d07e13537013f8e38",
     "subject": "fixup: \"execution context\" -> \"ExecutionContext Record\" in record-field tables"
    },
    {
     "adate": "2022-08-31T20:24:28-04:00",
     "author": "Michael Dyck",
-    "date": "2025-07-15T17:55:26-04:00",
-    "hash": "b0e2c92c32365f562f5ade27befcfb91faa8fadc",
-    "parents": "337ec3c292869e9d3d8a853948157c56782a39c1",
+    "date": "2025-08-29T14:42:13-04:00",
+    "hash": "11ebde36ecad776300923c9d07e13537013f8e38",
+    "parents": "da7d7ac58d2301f2bac32306b3a8ad819851f301",
     "subject": "fixup: \"execution context\" -> \"ExecutionContext Record\" in AO headers"
    },
    {
     "adate": "2022-08-31T23:32:48-04:00",
     "author": "Michael Dyck",
-    "date": "2025-07-15T17:55:26-04:00",
-    "hash": "337ec3c292869e9d3d8a853948157c56782a39c1",
-    "parents": "5317f804b9dc23cc205fedf1c0da464cec162202",
+    "date": "2025-08-29T14:42:13-04:00",
+    "hash": "da7d7ac58d2301f2bac32306b3a8ad819851f301",
+    "parents": "d178e1c673cf0bdf8d84c3510d2dc5be8d6d39a5",
     "subject": "fixup: \"execution context\" -> \"ExecutionContext Record\" in the <dfn> of ECMAScript code execution contexts"
    },
    {
     "adate": "2020-12-08T01:22:55-05:00",
     "author": "Michael Dyck",
-    "date": "2025-07-15T17:55:23-04:00",
-    "hash": "5317f804b9dc23cc205fedf1c0da464cec162202",
-    "parents": "3d77f663db17fc21f0b200091c344bfe323bc40b",
+    "date": "2025-08-29T14:41:45-04:00",
+    "hash": "d178e1c673cf0bdf8d84c3510d2dc5be8d6d39a5",
+    "parents": "f92c1ae6255faa6f6cea24d5714ad15f9f524e5f",
     "subject": "Editorial: Model execution context as a record"
    }
   ],
   "title": "Editorial: Model execution context as a record",
-  "updated_at": "2025-07-16T21:25:13Z"
+  "updated_at": "2025-08-29T19:56:11Z"
  },
  {
   "base": "b3f9b5089bcc3ddd8486379015cd11eb1427a5eb",
