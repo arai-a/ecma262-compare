@@ -2,11 +2,19 @@
  {
   "base": "f92c1ae6255faa6f6cea24d5714ad15f9f524e5f",
   "created_at": "2025-09-11T04:40:21Z",
-  "head": "ed27ba3e99bdfd345115624856741f86d1b7f250",
+  "head": "02dc66b94a53273bece4469edaa77114100f134e",
   "login": "mhofman",
   "number": 3689,
   "ref": "adopt-promises",
   "revs": [
+   {
+    "adate": "2025-09-11T18:51:50Z",
+    "author": "Mathieu Hofman",
+    "date": "2025-09-11T18:51:50Z",
+    "hash": "02dc66b94a53273bece4469edaa77114100f134e",
+    "parents": "ed27ba3e99bdfd345115624856741f86d1b7f250",
+    "subject": "fixup! Normative: resolve function adopts promises"
+   },
    {
     "adate": "2025-09-11T17:00:31Z",
     "author": "Mathieu Hofman",
@@ -33,7 +41,7 @@
    }
   ],
   "title": "Normative: Adopt promises",
-  "updated_at": "2025-09-11T18:13:09Z"
+  "updated_at": "2025-09-11T18:53:48Z"
  },
  {
   "base": "f92c1ae6255faa6f6cea24d5714ad15f9f524e5f",
