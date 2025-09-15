@@ -84,50 +84,6 @@
   "updated_at": "2025-08-25T22:40:20Z"
  },
  {
-  "base": "948f702479dd432ff97265118580ab6952351588",
-  "created_at": "2025-08-20T05:29:22Z",
-  "head": "f799986e166e17834b46928f07e5d5e24701bcf8",
-  "login": "tc39",
-  "number": 3679,
-  "ref": "fix-previews",
-  "revs": [
-   {
-    "adate": "2025-08-20T14:22:49-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2025-08-20T16:53:42-07:00",
-    "hash": "f799986e166e17834b46928f07e5d5e24701bcf8",
-    "parents": "4f7191cd52c8cdb4738c60370bbd0c30c7d2bc03",
-    "subject": "support label"
-   },
-   {
-    "adate": "2025-08-20T13:53:29-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2025-08-20T16:53:42-07:00",
-    "hash": "4f7191cd52c8cdb4738c60370bbd0c30c7d2bc03",
-    "parents": "5c37ce5396e0f3e28eb5935a28b67be70881a90c",
-    "subject": "switch to pull_request_target"
-   },
-   {
-    "adate": "2025-08-19T22:40:03-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2025-08-20T16:53:41-07:00",
-    "hash": "5c37ce5396e0f3e28eb5935a28b67be70881a90c",
-    "parents": "0e8ba5297b5917ff021750c1a406d97ea99be95e",
-    "subject": "remove old publish script and corresponding deps"
-   },
-   {
-    "adate": "2025-08-19T22:20:14-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2025-08-20T16:53:01-07:00",
-    "hash": "0e8ba5297b5917ff021750c1a406d97ea99be95e",
-    "parents": "948f702479dd432ff97265118580ab6952351588",
-    "subject": "Meta: fix PR previews"
-   }
-  ],
-  "title": "Meta: fix PR previews",
-  "updated_at": "2025-08-20T23:54:02Z"
- },
- {
   "base": "6f61b741a70658a38ebd4c39ec60d11454f3ec55",
   "created_at": "2025-08-04T09:05:10Z",
   "head": "7930b7add29a5b0048be05c53575c7e74622424a",
@@ -170,11 +126,35 @@
  {
   "base": "f764049fe0390b5b58f7bd70118fd76ec25d9ff4",
   "created_at": "2025-07-17T21:17:53Z",
-  "head": "1c8b39d9c1025d8b57638861b7e727da90c6ea58",
+  "head": "82b8e5a58cd425781d60c0fbb5408cc9689eb4fa",
   "login": "tc39",
   "number": 3655,
   "ref": "uint8array-base64",
   "revs": [
+   {
+    "adate": "2025-09-15T13:53:29-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2025-09-15T13:53:29-07:00",
+    "hash": "82b8e5a58cd425781d60c0fbb5408cc9689eb4fa",
+    "parents": "f8b84429fd886dd179408e567d3b6ec73e8d11ba",
+    "subject": "format"
+   },
+   {
+    "adate": "2025-09-15T13:47:52-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2025-09-15T13:49:05-07:00",
+    "hash": "f8b84429fd886dd179408e567d3b6ec73e8d11ba",
+    "parents": "e91935756bdb70b2d41b61d6622e15eb913c4da8",
+    "subject": "split DecodeBase64Chunk into DecodeFinalBase64Chunk and DecodeFullLengthBase64Chunk"
+   },
+   {
+    "adate": "2025-09-15T13:34:53-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2025-09-15T13:34:53-07:00",
+    "hash": "e91935756bdb70b2d41b61d6622e15eb913c4da8",
+    "parents": "1c8b39d9c1025d8b57638861b7e727da90c6ea58",
+    "subject": "address jmdyck comments"
+   },
    {
     "adate": "2025-09-13T17:52:23-07:00",
     "author": "Kevin Gibbons",
@@ -209,7 +189,7 @@
    }
   ],
   "title": "Normative: add base64 and hex methods for Uint8Array",
-  "updated_at": "2025-09-14T00:52:28Z"
+  "updated_at": "2025-09-15T20:53:33Z"
  },
  {
   "base": "6f61b741a70658a38ebd4c39ec60d11454f3ec55",
