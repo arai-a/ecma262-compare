@@ -1,5 +1,25 @@
 [
  {
+  "base": "6a37f2b9bb736115b4ae0826bc4532909fbab4f9",
+  "created_at": "2025-09-15T23:50:13Z",
+  "head": "854f227cc2cb525551d6315c78c68619da76eaec",
+  "login": "tc39",
+  "number": 3691,
+  "ref": "drop-extra-words",
+  "revs": [
+   {
+    "adate": "2025-09-15T16:49:09-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2025-09-15T16:49:09-07:00",
+    "hash": "854f227cc2cb525551d6315c78c68619da76eaec",
+    "parents": "6a37f2b9bb736115b4ae0826bc4532909fbab4f9",
+    "subject": "Editorial: remove unnecessarily verbose description"
+   }
+  ],
+  "title": "Editorial: remove unnecessarily verbose description in TypedArrayCreateSameType",
+  "updated_at": "2025-09-15T23:52:19Z"
+ },
+ {
   "base": "f92c1ae6255faa6f6cea24d5714ad15f9f524e5f",
   "created_at": "2025-09-11T04:40:21Z",
   "head": "02dc66b94a53273bece4469edaa77114100f134e",
