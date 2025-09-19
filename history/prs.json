@@ -20,13 +20,21 @@
   "updated_at": "2025-09-15T23:52:19Z"
  },
  {
-  "base": "f92c1ae6255faa6f6cea24d5714ad15f9f524e5f",
+  "base": "6a37f2b9bb736115b4ae0826bc4532909fbab4f9",
   "created_at": "2025-09-11T04:40:21Z",
-  "head": "74c0260d88a2be01652c6084f45c3bb192bf43df",
+  "head": "5c666fef553ff455b0b2f1a5c07f4053f4496c83",
   "login": "mhofman",
   "number": 3689,
   "ref": "adopt-promises",
   "revs": [
+   {
+    "adate": "2025-09-19T04:22:20Z",
+    "author": "Mathieu Hofman",
+    "date": "2025-09-19T04:22:20Z",
+    "hash": "5c666fef553ff455b0b2f1a5c07f4053f4496c83",
+    "parents": "74c0260d88a2be01652c6084f45c3bb192bf43df 6a37f2b9bb736115b4ae0826bc4532909fbab4f9",
+    "subject": "Merge branch main"
+   },
    {
     "adate": "2025-09-19T03:50:09Z",
     "author": "Mathieu Hofman",
@@ -93,7 +101,7 @@
    }
   ],
   "title": "Normative: PromiseResolve check proto instead of constructor",
-  "updated_at": "2025-09-19T04:10:32Z"
+  "updated_at": "2025-09-19T04:31:49Z"
  },
  {
   "base": "f92c1ae6255faa6f6cea24d5714ad15f9f524e5f",
