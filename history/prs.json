@@ -20,53 +20,21 @@
   "updated_at": "2025-09-20T08:39:55Z"
  },
  {
-  "base": "6a37f2b9bb736115b4ae0826bc4532909fbab4f9",
-  "created_at": "2025-09-19T18:47:00Z",
-  "head": "c2b11551782205ca5a6e7a0b95042b876b750472",
-  "login": "tc39",
-  "number": 3692,
-  "ref": "bakkot-patch-1",
-  "revs": [
-   {
-    "adate": "2025-09-19T11:46:31-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2025-09-19T11:46:31-07:00",
-    "hash": "c2b11551782205ca5a6e7a0b95042b876b750472",
-    "parents": "6a37f2b9bb736115b4ae0826bc4532909fbab4f9",
-    "subject": "Meta: check out correct repo for PR previews"
-   }
-  ],
-  "title": "Meta: check out correct repo for PR previews",
-  "updated_at": "2025-09-19T18:49:05Z"
- },
- {
-  "base": "6a37f2b9bb736115b4ae0826bc4532909fbab4f9",
-  "created_at": "2025-09-15T23:50:13Z",
-  "head": "854f227cc2cb525551d6315c78c68619da76eaec",
-  "login": "tc39",
-  "number": 3691,
-  "ref": "drop-extra-words",
-  "revs": [
-   {
-    "adate": "2025-09-15T16:49:09-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2025-09-15T16:49:09-07:00",
-    "hash": "854f227cc2cb525551d6315c78c68619da76eaec",
-    "parents": "6a37f2b9bb736115b4ae0826bc4532909fbab4f9",
-    "subject": "Editorial: remove unnecessarily verbose description"
-   }
-  ],
-  "title": "Editorial: remove unnecessarily verbose description in TypedArrayCreateSameType",
-  "updated_at": "2025-09-15T23:52:19Z"
- },
- {
-  "base": "6a37f2b9bb736115b4ae0826bc4532909fbab4f9",
+  "base": "17cbe35fdd0976927ccb739b288f1cbb7caff2a4",
   "created_at": "2025-09-11T04:40:21Z",
-  "head": "5c666fef553ff455b0b2f1a5c07f4053f4496c83",
+  "head": "d1e26b9181c1ee8612a885c470837152fe6830b5",
   "login": "mhofman",
   "number": 3689,
   "ref": "adopt-promises",
   "revs": [
+   {
+    "adate": "2025-09-23T17:22:29Z",
+    "author": "Mathieu Hofman",
+    "date": "2025-09-23T17:22:29Z",
+    "hash": "d1e26b9181c1ee8612a885c470837152fe6830b5",
+    "parents": "5c666fef553ff455b0b2f1a5c07f4053f4496c83 17cbe35fdd0976927ccb739b288f1cbb7caff2a4",
+    "subject": "Merge branch 'main' into adopt-promises"
+   },
    {
     "adate": "2025-09-19T04:22:20Z",
     "author": "Mathieu Hofman",
@@ -141,7 +109,7 @@
    }
   ],
   "title": "Normative: PromiseResolve check proto instead of constructor",
-  "updated_at": "2025-09-19T04:31:49Z"
+  "updated_at": "2025-09-23T17:22:50Z"
  },
  {
   "base": "f92c1ae6255faa6f6cea24d5714ad15f9f524e5f",
@@ -202,110 +170,6 @@
   ],
   "title": "Editorial: Fix type mismatch for class without constructor",
   "updated_at": "2025-08-04T09:05:10Z"
- },
- {
-  "base": "b6f76eab3920d8574e9c849d56a4a8e797841923",
-  "created_at": "2025-07-24T01:43:56Z",
-  "head": "f790bdcc41931181841cb231fa60054940a21b38",
-  "login": "mobius29",
-  "number": 3660,
-  "ref": "lastIndexOf-clamping-pos",
-  "revs": [
-   {
-    "adate": "2025-07-24T10:36:15+09:00",
-    "author": "mobius29",
-    "date": "2025-07-24T10:36:15+09:00",
-    "hash": "f790bdcc41931181841cb231fa60054940a21b38",
-    "parents": "b6f76eab3920d8574e9c849d56a4a8e797841923",
-    "subject": "Normative: handle len < seachLen in String.prototype.lastIndexOf"
-   }
-  ],
-  "title": "Editorial: handle len < seachLen in String.prototype.lastIndexOf",
-  "updated_at": "2025-07-24T02:28:07Z"
- },
- {
-  "base": "f764049fe0390b5b58f7bd70118fd76ec25d9ff4",
-  "created_at": "2025-07-17T21:17:53Z",
-  "head": "33b58b73a55a06e41ca4a192e1afb700f9c3b5b5",
-  "login": "tc39",
-  "number": 3655,
-  "ref": "uint8array-base64",
-  "revs": [
-   {
-    "adate": "2025-09-16T15:40:32-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2025-09-16T15:40:32-07:00",
-    "hash": "33b58b73a55a06e41ca4a192e1afb700f9c3b5b5",
-    "parents": "507437ff1012da3e7b0a6b630c945af71d21d67f",
-    "subject": "typo"
-   },
-   {
-    "adate": "2025-09-16T15:27:10-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2025-09-16T15:27:10-07:00",
-    "hash": "507437ff1012da3e7b0a6b630c945af71d21d67f",
-    "parents": "82b8e5a58cd425781d60c0fbb5408cc9689eb4fa",
-    "subject": "address jmdyck comments"
-   },
-   {
-    "adate": "2025-09-15T13:53:29-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2025-09-15T13:53:29-07:00",
-    "hash": "82b8e5a58cd425781d60c0fbb5408cc9689eb4fa",
-    "parents": "f8b84429fd886dd179408e567d3b6ec73e8d11ba",
-    "subject": "format"
-   },
-   {
-    "adate": "2025-09-15T13:47:52-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2025-09-15T13:49:05-07:00",
-    "hash": "f8b84429fd886dd179408e567d3b6ec73e8d11ba",
-    "parents": "e91935756bdb70b2d41b61d6622e15eb913c4da8",
-    "subject": "split DecodeBase64Chunk into DecodeFinalBase64Chunk and DecodeFullLengthBase64Chunk"
-   },
-   {
-    "adate": "2025-09-15T13:34:53-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2025-09-15T13:34:53-07:00",
-    "hash": "e91935756bdb70b2d41b61d6622e15eb913c4da8",
-    "parents": "1c8b39d9c1025d8b57638861b7e727da90c6ea58",
-    "subject": "address jmdyck comments"
-   },
-   {
-    "adate": "2025-09-13T17:52:23-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2025-09-13T17:52:23-07:00",
-    "hash": "1c8b39d9c1025d8b57638861b7e727da90c6ea58",
-    "parents": "c713c6b49198a9e2118ad1ac7516f0acd4620da9",
-    "subject": "address more comments"
-   },
-   {
-    "adate": "2025-08-19T19:56:16-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2025-08-19T19:56:16-07:00",
-    "hash": "c713c6b49198a9e2118ad1ac7516f0acd4620da9",
-    "parents": "6c7478959a0ee745f1248189a28faaa5b9bd16d8",
-    "subject": "address comments"
-   },
-   {
-    "adate": "2025-07-23T12:44:53-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2025-07-25T11:35:15-06:00",
-    "hash": "6c7478959a0ee745f1248189a28faaa5b9bd16d8",
-    "parents": "4f050bc03a1c02a804c6367a9ad6a9185fb91d83",
-    "subject": "move GetOptionsObject AO to Operations on Objects clause"
-   },
-   {
-    "adate": "2025-07-17T14:15:26-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2025-07-25T11:35:15-06:00",
-    "hash": "4f050bc03a1c02a804c6367a9ad6a9185fb91d83",
-    "parents": "f764049fe0390b5b58f7bd70118fd76ec25d9ff4",
-    "subject": "Normative: add base64 and hex methods for Uint8Array"
-   }
-  ],
-  "title": "Normative: add base64 and hex methods for Uint8Array",
-  "updated_at": "2025-09-16T22:40:36Z"
  },
  {
   "base": "6f61b741a70658a38ebd4c39ec60d11454f3ec55",

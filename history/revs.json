@@ -1,5 +1,37 @@
 [
  {
+  "adate": "2025-09-23T09:55:58-07:00",
+  "author": "Kevin Gibbons",
+  "date": "2025-09-23T09:55:58-07:00",
+  "hash": "17cbe35fdd0976927ccb739b288f1cbb7caff2a4",
+  "parents": "435c83f6ccb2695c9ace1ec1dacd4d4c2795ed61",
+  "subject": "Meta: check out correct repo for PR previews (#3692)"
+ },
+ {
+  "adate": "2025-09-23T09:51:32-07:00",
+  "author": "Kevin Gibbons",
+  "date": "2025-09-23T09:51:32-07:00",
+  "hash": "435c83f6ccb2695c9ace1ec1dacd4d4c2795ed61",
+  "parents": "541b2f6836b6f009165d9dce99de2a548ba52374",
+  "subject": "Editorial: remove unnecessarily verbose description (#3691)"
+ },
+ {
+  "adate": "2025-09-23T09:47:13-07:00",
+  "author": "mobius29",
+  "date": "2025-09-23T09:47:13-07:00",
+  "hash": "541b2f6836b6f009165d9dce99de2a548ba52374",
+  "parents": "3dfa31627dc3218a84647b2fe269a89b51e06c82",
+  "subject": "Normative: handle len < seachLen in String.prototype.lastIndexOf (#3660)"
+ },
+ {
+  "adate": "2025-09-23T09:37:00-07:00",
+  "author": "Kevin Gibbons",
+  "date": "2025-09-23T09:37:00-07:00",
+  "hash": "3dfa31627dc3218a84647b2fe269a89b51e06c82",
+  "parents": "6a37f2b9bb736115b4ae0826bc4532909fbab4f9",
+  "subject": "Normative: add base64 and hex methods for Uint8Array (#3655)"
+ },
+ {
   "adate": "2025-09-15T13:23:10-06:00",
   "author": "Kevin Gibbons",
   "date": "2025-09-15T13:23:10-06:00",
