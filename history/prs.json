@@ -208,9 +208,9 @@
   "updated_at": "2025-07-30T14:03:52Z"
  },
  {
-  "base": "6f61b741a70658a38ebd4c39ec60d11454f3ec55",
+  "base": "17cbe35fdd0976927ccb739b288f1cbb7caff2a4",
   "created_at": "2025-07-04T14:01:38Z",
-  "head": "6649775ef8095e5e09ca33bb3593d3cb46ebff64",
+  "head": "d895e59dac700227093f8341f5ba1e9802299ad6",
   "login": "nicolo-ribaudo",
   "number": 3637,
   "ref": "remove-dfsancestordepth",
@@ -218,114 +218,106 @@
    {
     "adate": "2025-08-07T17:52:18+02:00",
     "author": "Nicol\u00f2 Ribaudo",
-    "date": "2025-08-07T17:54:54+02:00",
-    "hash": "6649775ef8095e5e09ca33bb3593d3cb46ebff64",
-    "parents": "dbcac86f300563ffe29c37fb4422aba2ab894bec",
+    "date": "2025-09-26T16:40:17+02:00",
+    "hash": "d895e59dac700227093f8341f5ba1e9802299ad6",
+    "parents": "35eea9c93a56c0c9e6e4085ec1857520f9196ee8",
     "subject": "Add assertion per Guy's review"
    },
    {
     "adate": "2025-07-18T10:51:26+02:00",
     "author": "Nicol\u00f2 Ribaudo",
-    "date": "2025-08-07T17:54:54+02:00",
-    "hash": "dbcac86f300563ffe29c37fb4422aba2ab894bec",
-    "parents": "6018e17110a60b8081120b063d0f77b38463bf28",
+    "date": "2025-09-26T16:40:17+02:00",
+    "hash": "35eea9c93a56c0c9e6e4085ec1857520f9196ee8",
+    "parents": "4d0a544bdcc110495597c9ba2dbeea380abd20e4",
     "subject": "Remove [[DFSAncestorIndex]]"
    },
    {
     "adate": "2025-07-18T10:46:00+02:00",
     "author": "Nicol\u00f2 Ribaudo",
-    "date": "2025-08-07T17:54:54+02:00",
-    "hash": "6018e17110a60b8081120b063d0f77b38463bf28",
-    "parents": "4ce073d8ba2e307bdcec8cd09e50458728a50547",
+    "date": "2025-09-26T16:40:17+02:00",
+    "hash": "4d0a544bdcc110495597c9ba2dbeea380abd20e4",
+    "parents": "bb5774dfdadc4de832bd6069e86386c32b4eada7",
     "subject": "Same thing for InnerModuleEvaluation"
    },
    {
     "adate": "2025-07-04T15:34:56+02:00",
     "author": "Nicol\u00f2 Ribaudo",
-    "date": "2025-08-07T17:54:53+02:00",
-    "hash": "4ce073d8ba2e307bdcec8cd09e50458728a50547",
-    "parents": "4e3712b4bf61a825b78202867369d926ea5d16d3",
+    "date": "2025-09-26T16:40:17+02:00",
+    "hash": "bb5774dfdadc4de832bd6069e86386c32b4eada7",
+    "parents": "67fcf8d23a54732a974e42497ac88b9a99dc3353",
     "subject": "Editorial: Do not use [[DFSAncestorIndex]] in InnerModuleLinking"
    },
    {
     "adate": "2025-07-04T15:29:24+02:00",
     "author": "Nicol\u00f2 Ribaudo",
-    "date": "2025-08-07T17:54:53+02:00",
-    "hash": "4e3712b4bf61a825b78202867369d926ea5d16d3",
-    "parents": "5137d633f7c5f0a039200a15a03e7721ed04d7eb",
+    "date": "2025-09-26T16:40:16+02:00",
+    "hash": "67fcf8d23a54732a974e42497ac88b9a99dc3353",
+    "parents": "e26c57d16a252e8df2a410a02c38c2e08448abf5",
     "subject": "Editorial: Do not update [[DFSAncestorIndex]] with the final low index"
    },
    {
     "adate": "2025-07-04T15:23:03+02:00",
     "author": "Nicol\u00f2 Ribaudo",
-    "date": "2025-08-07T17:54:53+02:00",
-    "hash": "5137d633f7c5f0a039200a15a03e7721ed04d7eb",
-    "parents": "e3cb5b6402ebee7689ddeb0f2ea2814cc50a19f2",
+    "date": "2025-09-26T16:40:16+02:00",
+    "hash": "e26c57d16a252e8df2a410a02c38c2e08448abf5",
+    "parents": "fb4eeeb3be6f510635fd46b555c4cabada34ab8c",
     "subject": "Editorial: return the SCC ancestor index from InnerModuleLinking"
    },
    {
     "adate": "2025-07-04T15:02:58+02:00",
     "author": "Nicol\u00f2 Ribaudo",
-    "date": "2025-08-07T17:54:52+02:00",
-    "hash": "e3cb5b6402ebee7689ddeb0f2ea2814cc50a19f2",
-    "parents": "18d3ab95536828d0e321d3936bc898ca34d21238",
+    "date": "2025-09-26T16:40:16+02:00",
+    "hash": "fb4eeeb3be6f510635fd46b555c4cabada34ab8c",
+    "parents": "7d2bb6bf42b8adc128f43c748c186a29159f7a64",
     "subject": "Editorial: Do not constantly update [[DFSAncestorIndex]] as we find lower values"
    },
    {
     "adate": "2025-07-04T14:47:50+02:00",
     "author": "Nicol\u00f2 Ribaudo",
-    "date": "2025-08-07T17:54:52+02:00",
-    "hash": "18d3ab95536828d0e321d3936bc898ca34d21238",
-    "parents": "6f61b741a70658a38ebd4c39ec60d11454f3ec55",
+    "date": "2025-09-26T16:40:16+02:00",
+    "hash": "7d2bb6bf42b8adc128f43c748c186a29159f7a64",
+    "parents": "f92c1ae6255faa6f6cea24d5714ad15f9f524e5f",
     "subject": "Editorial: Use stack index instead of traverse index for SCC detection"
    }
   ],
   "title": "Editorial: Use the dfs stack instead of [[DFSAncestorIndex]] ",
-  "updated_at": "2025-08-07T15:55:55Z"
+  "updated_at": "2025-09-26T14:43:24Z"
  },
  {
-  "base": "6f61b741a70658a38ebd4c39ec60d11454f3ec55",
+  "base": "17cbe35fdd0976927ccb739b288f1cbb7caff2a4",
   "created_at": "2025-07-03T12:19:36Z",
-  "head": "acc3d85d8952260ae3cbee9a241c5e4ea8c984c4",
+  "head": "21a4aab48a13ab9ddc8e92f7324d9c6baee459a9",
   "login": "nicolo-ribaudo",
   "number": 3635,
   "ref": "extract-dfs-logic-2",
   "revs": [
    {
-    "adate": "2025-07-04T16:06:48+02:00",
-    "author": "Nicol\u00f2 Ribaudo",
-    "date": "2025-08-07T22:40:56+02:00",
-    "hash": "acc3d85d8952260ae3cbee9a241c5e4ea8c984c4",
-    "parents": "269fc6d38285b5b7614eebd6f46f168169702aed",
-    "subject": "typo"
-   },
-   {
     "adate": "2025-07-02T18:45:38+02:00",
     "author": "Nicol\u00f2 Ribaudo",
-    "date": "2025-08-07T22:40:56+02:00",
-    "hash": "269fc6d38285b5b7614eebd6f46f168169702aed",
-    "parents": "b2609a5d9c2dce2eca65e6f06ad4e78e85533fce",
+    "date": "2025-09-26T16:47:20+02:00",
+    "hash": "21a4aab48a13ab9ddc8e92f7324d9c6baee459a9",
+    "parents": "47320e617cba44e61717c0f2dfa79b9020f28c6c",
     "subject": "Editorial: dedupe and isolate modules traversal logic"
    },
    {
     "adate": "2025-07-02T16:58:52+02:00",
     "author": "Nicol\u00f2 Ribaudo",
-    "date": "2025-08-07T22:40:56+02:00",
-    "hash": "b2609a5d9c2dce2eca65e6f06ad4e78e85533fce",
-    "parents": "17612f5c180be943cd12512c892546e9bdebc7ce",
+    "date": "2025-09-26T16:32:59+02:00",
+    "hash": "47320e617cba44e61717c0f2dfa79b9020f28c6c",
+    "parents": "f89c14e15d6d6b792a3c7de0dfad02e21a8be3be",
     "subject": "Editorial: move [[CycleRoot]] error checking to a module's own InnerModuleEvaluation"
    },
    {
     "adate": "2025-07-02T15:02:41+02:00",
     "author": "Nicol\u00f2 Ribaudo",
-    "date": "2025-08-07T22:40:56+02:00",
-    "hash": "17612f5c180be943cd12512c892546e9bdebc7ce",
-    "parents": "6f61b741a70658a38ebd4c39ec60d11454f3ec55",
+    "date": "2025-09-26T16:32:59+02:00",
+    "hash": "f89c14e15d6d6b792a3c7de0dfad02e21a8be3be",
+    "parents": "f92c1ae6255faa6f6cea24d5714ad15f9f524e5f",
     "subject": "Editorial: split [[PendingAsyncDependencies]] computation to its own loop"
    }
   ],
   "title": "Editorial: dedupe and isolate modules traversal logic",
-  "updated_at": "2025-08-07T20:53:17Z"
+  "updated_at": "2025-09-26T14:47:26Z"
  },
  {
   "base": "60c4df0b65e1c2e6b6581a5bc08a9311223be1da",
