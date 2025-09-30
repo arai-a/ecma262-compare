@@ -1,5 +1,53 @@
 [
  {
+  "adate": "2025-09-29T19:47:46-07:00",
+  "author": "Richard Gibson",
+  "date": "2025-09-29T19:47:46-07:00",
+  "hash": "d228070d9f9800e6320d89413540133aeaedec6c",
+  "parents": "ba581a93b0e26c9b578d632339a7290867a445d5",
+  "subject": "Normative: When TA.copyWithin argument handling shrinks TA, use whatever elements still fit (#3619)"
+ },
+ {
+  "adate": "2025-09-29T19:47:24-07:00",
+  "author": "Jordan Harband",
+  "date": "2025-09-29T19:47:24-07:00",
+  "hash": "ba581a93b0e26c9b578d632339a7290867a445d5",
+  "parents": "55276b23b82dc432ab1c85806cf35dafa9791d2d",
+  "subject": "Editorial: add missing suggestion from #3613"
+ },
+ {
+  "adate": "2025-09-29T19:38:51-07:00",
+  "author": "Nicol\u00f2 Ribaudo",
+  "date": "2025-09-29T19:38:51-07:00",
+  "hash": "55276b23b82dc432ab1c85806cf35dafa9791d2d",
+  "parents": "a1693ff29b8564c34f87c7296f96d33841efb78f",
+  "subject": "Editorial: Adjust invalid assertion about [[AsyncEvaluationOrder]] (#3613)"
+ },
+ {
+  "adate": "2025-09-29T19:30:59-07:00",
+  "author": "Michael Ficarra",
+  "date": "2025-09-29T19:30:59-07:00",
+  "hash": "a1693ff29b8564c34f87c7296f96d33841efb78f",
+  "parents": "be305fc51c250908e0457756ff76ddd19b6bfee3",
+  "subject": "Editorial: replace \"is at least\" with \u2265 in parseInt (#3608)"
+ },
+ {
+  "adate": "2025-09-29T19:22:02-07:00",
+  "author": "Aapo Alasuutari",
+  "date": "2025-09-29T19:22:02-07:00",
+  "hash": "be305fc51c250908e0457756ff76ddd19b6bfee3",
+  "parents": "3f47f6c626c83b9b59446c33e9b288d2875d6b9f",
+  "subject": "Editorial: Unify style of abrupt completion and non-LoopContinues result handling in ForIn/OfBodyEvaluation (#3595)"
+ },
+ {
+  "adate": "2025-09-29T19:17:40-07:00",
+  "author": "Richard Gibson",
+  "date": "2025-09-29T19:17:40-07:00",
+  "hash": "3f47f6c626c83b9b59446c33e9b288d2875d6b9f",
+  "parents": "17cbe35fdd0976927ccb739b288f1cbb7caff2a4",
+  "subject": "Editorial: Fix \"property name\" autolinking (#3513)"
+ },
+ {
   "adate": "2025-09-23T09:55:58-07:00",
   "author": "Kevin Gibbons",
   "date": "2025-09-23T09:55:58-07:00",

@@ -528,96 +528,24 @@
   "updated_at": "2025-06-11T08:18:25Z"
  },
  {
-  "base": "caa0482e4f6febc2bf5d2992b1546cb08a9b3e87",
+  "base": "d228070d9f9800e6320d89413540133aeaedec6c",
   "created_at": "2025-06-11T06:50:56Z",
-  "head": "63db98902f797bd02f201d813487655ea1963de3",
+  "head": "75a5114a27a595e1c87fd85d68f010118aa5b83c",
   "login": "anba",
   "number": 3620,
   "ref": "iterator-proto-clause",
   "revs": [
    {
-    "adate": "2025-06-11T08:36:53+02:00",
+    "adate": "2025-09-29T20:28:43-07:00",
     "author": "Andr\u00e9 Bargull",
-    "date": "2025-06-11T08:36:53+02:00",
-    "hash": "63db98902f797bd02f201d813487655ea1963de3",
-    "parents": "d80ede98ecb54857da085fabd41316bc0c632ec5",
-    "subject": "Editorial: Reformat spec"
-   },
-   {
-    "adate": "2025-06-11T08:33:35+02:00",
-    "author": "Andr\u00e9 Bargull",
-    "date": "2025-06-11T08:33:35+02:00",
-    "hash": "d80ede98ecb54857da085fabd41316bc0c632ec5",
-    "parents": "caa0482e4f6febc2bf5d2992b1546cb08a9b3e87",
-    "subject": "Editorial: Make \"Properties of the Iterator Prototype Object\" a subclause of \"Iterator Objects\""
+    "date": "2025-09-29T20:28:43-07:00",
+    "hash": "75a5114a27a595e1c87fd85d68f010118aa5b83c",
+    "parents": "d228070d9f9800e6320d89413540133aeaedec6c",
+    "subject": "Editorial: Make \"Properties of the Iterator Prototype Object\" a subclause of \"Iterator Objects\" (#3620)"
    }
   ],
   "title": "Editorial: Make \"Properties of the Iterator Prototype Object\" a subclause of \"Iterator Objects\"",
-  "updated_at": "2025-06-11T06:50:56Z"
- },
- {
-  "base": "caa0482e4f6febc2bf5d2992b1546cb08a9b3e87",
-  "created_at": "2025-06-08T16:20:56Z",
-  "head": "8d10cca0cb56307a288248973d534f35891af762",
-  "login": "gibson042",
-  "number": 3619,
-  "ref": "gh-3618-typedarray-copywithin-shrinking",
-  "revs": [
-   {
-    "adate": "2025-09-20T14:05:15-04:00",
-    "author": "Richard Gibson",
-    "date": "2025-09-20T14:05:15-04:00",
-    "hash": "8d10cca0cb56307a288248973d534f35891af762",
-    "parents": "7c11a39a2c1f657f5b35a185cc300b3f64075261",
-    "subject": "fixup! Normative: When TA.copyWithin argument handling shrinks TA, use whatever elements still fit"
-   },
-   {
-    "adate": "2025-06-06T16:20:55-04:00",
-    "author": "Richard Gibson",
-    "date": "2025-06-08T12:15:55-04:00",
-    "hash": "7c11a39a2c1f657f5b35a185cc300b3f64075261",
-    "parents": "caa0482e4f6febc2bf5d2992b1546cb08a9b3e87",
-    "subject": "Normative: When TA.copyWithin argument handling shrinks TA, use whatever elements still fit"
-   }
-  ],
-  "title": "Normative: When TA.copyWithin argument handling shrinks TA, use whatever elements still fit",
-  "updated_at": "2025-09-20T18:05:33Z"
- },
- {
-  "base": "d14670224281909f5bb552e8ebe4a8e958646c16",
-  "created_at": "2025-05-22T16:37:52Z",
-  "head": "bcec008de5c3bbae08e8ee2443884529502cc49c",
-  "login": "nicolo-ribaudo",
-  "number": 3613,
-  "ref": "invalid-assertion",
-  "revs": [
-   {
-    "adate": "2025-06-27T10:49:32+02:00",
-    "author": "Nicol\u00f2 Ribaudo",
-    "date": "2025-06-27T10:49:32+02:00",
-    "hash": "bcec008de5c3bbae08e8ee2443884529502cc49c",
-    "parents": "a6634789d788b406b9e8bb687a5774edb2164cd0",
-    "subject": "Review"
-   },
-   {
-    "adate": "2025-06-16T12:22:04+02:00",
-    "author": "Nicol\u00f2 Ribaudo",
-    "date": "2025-06-16T12:22:04+02:00",
-    "hash": "a6634789d788b406b9e8bb687a5774edb2164cd0",
-    "parents": "d72164863cfa22c1abfe7ccc9f7c01be54e950ee",
-    "subject": "Review"
-   },
-   {
-    "adate": "2025-05-22T18:34:48+02:00",
-    "author": "Nicol\u00f2 Ribaudo",
-    "date": "2025-05-22T18:34:48+02:00",
-    "hash": "d72164863cfa22c1abfe7ccc9f7c01be54e950ee",
-    "parents": "d14670224281909f5bb552e8ebe4a8e958646c16",
-    "subject": "Adjust invalid assertion about [[AsyncEvaluationOrder]]"
-   }
-  ],
-  "title": "Adjust invalid assertion about [[AsyncEvaluationOrder]]",
-  "updated_at": "2025-06-27T08:52:09Z"
+  "updated_at": "2025-09-30T03:29:16Z"
  },
  {
   "base": "d14670224281909f5bb552e8ebe4a8e958646c16",
@@ -646,26 +574,6 @@
   ],
   "title": "Editorial: module namespace exotic objects are immutable prototype exotic objects",
   "updated_at": "2025-05-20T21:05:22Z"
- },
- {
-  "base": "affcec07523a45d40fb668689c07657412e772ac",
-  "created_at": "2025-05-17T00:22:26Z",
-  "head": "fdabcaabd225c8f321f743d6f921c591f647923c",
-  "login": "tc39",
-  "number": 3608,
-  "ref": "parseint-is-at-least",
-  "revs": [
-   {
-    "adate": "2025-05-16T18:19:50-06:00",
-    "author": "Michael Ficarra",
-    "date": "2025-05-16T18:19:50-06:00",
-    "hash": "fdabcaabd225c8f321f743d6f921c591f647923c",
-    "parents": "affcec07523a45d40fb668689c07657412e772ac",
-    "subject": "Editorial: replace \"is at least\" with \u2265 in parseInt"
-   }
-  ],
-  "title": "Editorial: replace \"is at least\" with \u2265 in parseInt",
-  "updated_at": "2025-05-17T00:22:26Z"
  },
  {
   "base": "affcec07523a45d40fb668689c07657412e772ac",
@@ -750,26 +658,6 @@
   ],
   "title": "use normal completions in ACs passed to CreateIteratorFromClosure when possible",
   "updated_at": "2025-05-15T00:25:28Z"
- },
- {
-  "base": "d14670224281909f5bb552e8ebe4a8e958646c16",
-  "created_at": "2025-05-11T20:32:00Z",
-  "head": "9d2b0a96509208a4df88b6063bf712bb07304c10",
-  "login": "aapoalas",
-  "number": 3595,
-  "ref": "editorial/for-in-of-body-iterator-close-unification",
-  "revs": [
-   {
-    "adate": "2025-05-11T23:29:14+03:00",
-    "author": "Aapo Alasuutari",
-    "date": "2025-05-22T08:18:50-06:00",
-    "hash": "9d2b0a96509208a4df88b6063bf712bb07304c10",
-    "parents": "d14670224281909f5bb552e8ebe4a8e958646c16",
-    "subject": "Editorial: Unify style of abrupt completion and non-LoopContinues result handling in ForIn/OfBodyEvaluation"
-   }
-  ],
-  "title": "Editorial: Unify style of abrupt completion and non-LoopContinues result handling in ForIn/OfBodyEvaluation",
-  "updated_at": "2025-05-22T14:18:52Z"
  },
  {
   "base": "a562082b031d89d00ee667181ce8a6158656bd4b",
@@ -1066,26 +954,6 @@
   ],
   "title": "fix: Module Environment Records GetBindingValue cannot call user code",
   "updated_at": "2025-08-11T10:35:40Z"
- },
- {
-  "base": "a562082b031d89d00ee667181ce8a6158656bd4b",
-  "created_at": "2024-12-28T17:06:22Z",
-  "head": "ab9967b1be4c01a370da34e6d4bb0e3f9edab9b7",
-  "login": "gibson042",
-  "number": 3513,
-  "ref": "2024-12-property-name-autolinking",
-  "revs": [
-   {
-    "adate": "2024-12-28T12:02:52-05:00",
-    "author": "Richard Gibson",
-    "date": "2025-05-04T12:15:53-04:00",
-    "hash": "ab9967b1be4c01a370da34e6d4bb0e3f9edab9b7",
-    "parents": "a562082b031d89d00ee667181ce8a6158656bd4b",
-    "subject": "Editorial: Fix \"property name\" autolinking"
-   }
-  ],
-  "title": "Editorial: Fix \"property name\" autolinking",
-  "updated_at": "2025-05-04T16:15:55Z"
  },
  {
   "base": "cf5938e6d9f1a726d2034a288cedeaa0067e1084",
