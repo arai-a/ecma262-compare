@@ -1,31 +1,23 @@
 [
  {
-  "base": "17cbe35fdd0976927ccb739b288f1cbb7caff2a4",
+  "base": "4ef8fe08333c5c15279b49a1b739b8786280049c",
   "created_at": "2025-09-20T08:39:30Z",
-  "head": "69509168b76f4d7715e2dce13146c29cd444212d",
+  "head": "1829f9cb3c4f998c907627d8c6bd58332b7da26b",
   "login": "JinDX",
   "number": 3693,
   "ref": "main",
   "revs": [
    {
-    "adate": "2025-09-26T10:19:02+08:00",
-    "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
-    "date": "2025-09-26T10:19:02+08:00",
-    "hash": "69509168b76f4d7715e2dce13146c29cd444212d",
-    "parents": "08cc24283490a6197148afed544beecf8cd65ecd 17cbe35fdd0976927ccb739b288f1cbb7caff2a4",
-    "subject": "Merge branch 'main' into main"
-   },
-   {
-    "adate": "2025-09-20T16:36:59+08:00",
+    "adate": "2025-09-29T21:38:23-07:00",
     "author": "JinDX",
-    "date": "2025-09-20T16:36:59+08:00",
-    "hash": "08cc24283490a6197148afed544beecf8cd65ecd",
-    "parents": "6a37f2b9bb736115b4ae0826bc4532909fbab4f9",
-    "subject": "Meta: bump ecmarkup to v21.4.0"
+    "date": "2025-09-29T21:38:23-07:00",
+    "hash": "1829f9cb3c4f998c907627d8c6bd58332b7da26b",
+    "parents": "4ef8fe08333c5c15279b49a1b739b8786280049c",
+    "subject": "Meta: bump ecmarkup to v21.4.0 (#3693)"
    }
   ],
   "title": "Meta: bump ecmarkup to v21.4.0",
-  "updated_at": "2025-09-26T02:19:04Z"
+  "updated_at": "2025-09-30T04:40:44Z"
  },
  {
   "base": "17cbe35fdd0976927ccb739b288f1cbb7caff2a4",
@@ -120,34 +112,6 @@
   "updated_at": "2025-09-23T17:22:50Z"
  },
  {
-  "base": "17cbe35fdd0976927ccb739b288f1cbb7caff2a4",
-  "created_at": "2025-09-09T13:36:28Z",
-  "head": "c2127767d84faf3575cf0baf5bf9d3b38e7cbe08",
-  "login": "nicolo-ribaudo",
-  "number": 3687,
-  "ref": "yield-star-eval-split-variable",
-  "revs": [
-   {
-    "adate": "2025-09-25T09:37:59-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2025-09-25T09:37:59-07:00",
-    "hash": "c2127767d84faf3575cf0baf5bf9d3b38e7cbe08",
-    "parents": "5da26d9b6847f625d6a3352e090570077452b6c6 17cbe35fdd0976927ccb739b288f1cbb7caff2a4",
-    "subject": "Merge branch 'main' into yield-star-eval-split-variable"
-   },
-   {
-    "adate": "2025-09-09T15:33:11+02:00",
-    "author": "Nicol\u00f2 Ribaudo",
-    "date": "2025-09-09T15:33:11+02:00",
-    "hash": "5da26d9b6847f625d6a3352e090570077452b6c6",
-    "parents": "f92c1ae6255faa6f6cea24d5714ad15f9f524e5f",
-    "subject": "Editorial: separate unrelated variable in `yield*` evaluation"
-   }
-  ],
-  "title": "Editorial: separate unrelated variable in `yield*` evaluation",
-  "updated_at": "2025-09-25T16:44:51Z"
- },
- {
   "base": "52187c8e72a87fe4d17e0919762f8815d338df4d",
   "created_at": "2025-08-25T22:34:48Z",
   "head": "9c566440b9c79a5ac312857061304cf15754aa76",
@@ -166,26 +130,6 @@
   ],
   "title": "Editorial: the Object constructor's parameter is expected to be present",
   "updated_at": "2025-08-25T22:40:20Z"
- },
- {
-  "base": "6f61b741a70658a38ebd4c39ec60d11454f3ec55",
-  "created_at": "2025-08-04T09:05:10Z",
-  "head": "7930b7add29a5b0048be05c53575c7e74622424a",
-  "login": "mobius29",
-  "number": 3664,
-  "ref": "instance-constructor-type",
-  "revs": [
-   {
-    "adate": "2025-07-30T16:43:35+09:00",
-    "author": "mobius29",
-    "date": "2025-08-04T13:03:17+09:00",
-    "hash": "7930b7add29a5b0048be05c53575c7e74622424a",
-    "parents": "b6f76eab3920d8574e9c849d56a4a8e797841923",
-    "subject": "Editorial: Resolve type mismatch when initializing a class instance without a constructor"
-   }
-  ],
-  "title": "Editorial: Fix type mismatch for class without constructor",
-  "updated_at": "2025-08-04T09:05:10Z"
  },
  {
   "base": "6f61b741a70658a38ebd4c39ec60d11454f3ec55",
@@ -526,26 +470,6 @@
   ],
   "title": "Normative: Add missing function name for Iterator.prototype[Symbol.toStringTag] accessors",
   "updated_at": "2025-06-11T08:18:25Z"
- },
- {
-  "base": "d228070d9f9800e6320d89413540133aeaedec6c",
-  "created_at": "2025-06-11T06:50:56Z",
-  "head": "75a5114a27a595e1c87fd85d68f010118aa5b83c",
-  "login": "anba",
-  "number": 3620,
-  "ref": "iterator-proto-clause",
-  "revs": [
-   {
-    "adate": "2025-09-29T20:28:43-07:00",
-    "author": "Andr\u00e9 Bargull",
-    "date": "2025-09-29T20:28:43-07:00",
-    "hash": "75a5114a27a595e1c87fd85d68f010118aa5b83c",
-    "parents": "d228070d9f9800e6320d89413540133aeaedec6c",
-    "subject": "Editorial: Make \"Properties of the Iterator Prototype Object\" a subclause of \"Iterator Objects\" (#3620)"
-   }
-  ],
-  "title": "Editorial: Make \"Properties of the Iterator Prototype Object\" a subclause of \"Iterator Objects\"",
-  "updated_at": "2025-09-30T03:29:16Z"
  },
  {
   "base": "d14670224281909f5bb552e8ebe4a8e958646c16",
