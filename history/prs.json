@@ -1,12 +1,20 @@
 [
  {
-  "base": "9e65ab3630071064088cbfb88ac98740c1031af6",
+  "base": "86b5733c7ff73aff635d202329acbb53de80099b",
   "created_at": "2025-10-01T16:13:50Z",
-  "head": "6bd65cf5799bedbc05a48a6661c66db1a5fe436f",
+  "head": "4762595ecb7f486e0a8acbda5fb0f68b41093b6b",
   "login": "nicolo-ribaudo",
   "number": 3695,
   "ref": "async-mod-eval-prom-settl-ord",
   "revs": [
+   {
+    "adate": "2025-10-01T18:53:54+02:00",
+    "author": "Nicol\u00f2 Ribaudo",
+    "date": "2025-10-01T18:53:54+02:00",
+    "hash": "4762595ecb7f486e0a8acbda5fb0f68b41093b6b",
+    "parents": "6bd65cf5799bedbc05a48a6661c66db1a5fe436f 86b5733c7ff73aff635d202329acbb53de80099b",
+    "subject": "Merge branch 'main' into async-mod-eval-prom-settl-ord"
+   },
    {
     "adate": "2025-10-01T18:10:33+02:00",
     "author": "Nicol\u00f2 Ribaudo",
@@ -17,7 +25,7 @@
    }
   ],
   "title": "Align async modules rejection order with fulfillment order",
-  "updated_at": "2025-10-01T16:16:03Z"
+  "updated_at": "2025-10-01T16:53:55Z"
  },
  {
   "base": "17cbe35fdd0976927ccb739b288f1cbb7caff2a4",
