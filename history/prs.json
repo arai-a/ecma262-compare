@@ -1,5 +1,25 @@
 [
  {
+  "base": "9e65ab3630071064088cbfb88ac98740c1031af6",
+  "created_at": "2025-10-01T16:13:50Z",
+  "head": "6bd65cf5799bedbc05a48a6661c66db1a5fe436f",
+  "login": "nicolo-ribaudo",
+  "number": 3695,
+  "ref": "async-mod-eval-prom-settl-ord",
+  "revs": [
+   {
+    "adate": "2025-10-01T18:10:33+02:00",
+    "author": "Nicol\u00f2 Ribaudo",
+    "date": "2025-10-01T18:10:45+02:00",
+    "hash": "6bd65cf5799bedbc05a48a6661c66db1a5fe436f",
+    "parents": "9e65ab3630071064088cbfb88ac98740c1031af6",
+    "subject": "Align async modules rejection order with fulfillment order"
+   }
+  ],
+  "title": "Align async modules rejection order with fulfillment order",
+  "updated_at": "2025-10-01T16:16:03Z"
+ },
+ {
   "base": "17cbe35fdd0976927ccb739b288f1cbb7caff2a4",
   "created_at": "2025-09-11T04:40:21Z",
   "head": "d1e26b9181c1ee8612a885c470837152fe6830b5",
@@ -210,11 +230,19 @@
  {
   "base": "9e65ab3630071064088cbfb88ac98740c1031af6",
   "created_at": "2025-07-03T12:19:36Z",
-  "head": "309df93e40aa53405fd2d18ce8ca6202f3aefcd9",
+  "head": "20b653b17599167ce654971047010bcb7e78631b",
   "login": "nicolo-ribaudo",
   "number": 3635,
   "ref": "extract-dfs-logic-2",
   "revs": [
+   {
+    "adate": "2025-10-01T18:07:24+02:00",
+    "author": "Nicol\u00f2 Ribaudo",
+    "date": "2025-10-01T18:07:24+02:00",
+    "hash": "20b653b17599167ce654971047010bcb7e78631b",
+    "parents": "309df93e40aa53405fd2d18ce8ca6202f3aefcd9",
+    "subject": "Cleanup"
+   },
    {
     "adate": "2025-10-01T16:53:00+02:00",
     "author": "Nicol\u00f2 Ribaudo",
@@ -249,7 +277,7 @@
    }
   ],
   "title": "Editorial: dedupe and isolate modules traversal logic",
-  "updated_at": "2025-10-01T14:55:35Z"
+  "updated_at": "2025-10-01T16:08:22Z"
  },
  {
   "base": "60c4df0b65e1c2e6b6581a5bc08a9311223be1da",
