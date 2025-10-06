@@ -1016,9 +1016,9 @@
   "updated_at": "2024-11-21T15:50:18Z"
  },
  {
-  "base": "38f68d784811ac566c39807f2a6e2617a32ba9ae",
+  "base": "86b5733c7ff73aff635d202329acbb53de80099b",
   "created_at": "2024-11-21T01:01:29Z",
-  "head": "203c7732441193b7d29f93d0241c0d5f58752ebf",
+  "head": "629223c3e0717ac752b3ae2a031e673ecc55df82",
   "login": "guybedford",
   "number": 3492,
   "ref": "source-phase-imports",
@@ -1026,54 +1026,38 @@
    {
     "adate": "2025-02-10T18:58:15-08:00",
     "author": "Guy Bedford",
-    "date": "2025-02-10T18:58:15-08:00",
-    "hash": "203c7732441193b7d29f93d0241c0d5f58752ebf",
-    "parents": "30a6c1165ee41d704ec97d6b6ca8379951c20ebd",
+    "date": "2025-10-06T15:45:26-07:00",
+    "hash": "629223c3e0717ac752b3ae2a031e673ecc55df82",
+    "parents": "c6b3a3f3fb7a547d5739e4d28b395fe6647b731d",
     "subject": "HostGetModuleSourceModuleRecord (tc39/proposal-source-phase-imports#70)"
    },
    {
     "adate": "2024-12-30T10:45:02-08:00",
     "author": "Guy Bedford",
-    "date": "2024-12-30T10:45:02-08:00",
-    "hash": "30a6c1165ee41d704ec97d6b6ca8379951c20ebd",
-    "parents": "a91247d9c5fc8a5ba65c47f41d7b92f25a171ff4",
+    "date": "2025-10-06T15:43:08-07:00",
+    "hash": "c6b3a3f3fb7a547d5739e4d28b395fe6647b731d",
+    "parents": "32cbd260ff256142b66e1ec657eeca254456158b",
     "subject": "editorial: refactor GetModuleSource() to instead use [[ModuleSource]] field"
    },
    {
     "adate": "2024-11-26T13:35:18-08:00",
     "author": "Guy Bedford",
-    "date": "2024-11-26T13:35:18-08:00",
-    "hash": "a91247d9c5fc8a5ba65c47f41d7b92f25a171ff4",
-    "parents": "8550dd0a9272e91a37b46b8f3b408b5743396f81",
+    "date": "2025-10-06T15:42:18-07:00",
+    "hash": "32cbd260ff256142b66e1ec657eeca254456158b",
+    "parents": "d5603819813b01a4e6452511e0fa05255b21d909",
     "subject": "use must be initialized wording over should"
    },
    {
     "adate": "2024-11-20T16:53:27-08:00",
     "author": "Guy Bedford",
-    "date": "2024-11-20T17:52:00-08:00",
-    "hash": "8550dd0a9272e91a37b46b8f3b408b5743396f81",
-    "parents": "93f3d2690fc2393935228d00edea7cf7a20ab436",
+    "date": "2025-10-06T15:42:15-07:00",
+    "hash": "d5603819813b01a4e6452511e0fa05255b21d909",
+    "parents": "86b5733c7ff73aff635d202329acbb53de80099b",
     "subject": "Rebase Source Phase Imports Proposal"
-   },
-   {
-    "adate": "2024-08-23T15:15:30+02:00",
-    "author": "Nicol\u00f2 Ribaudo",
-    "date": "2024-10-10T06:35:48+09:00",
-    "hash": "93f3d2690fc2393935228d00edea7cf7a20ab436",
-    "parents": "2786b20b7d0688f29a8b275afa00935638e1c171",
-    "subject": "Review by jmdyck"
-   },
-   {
-    "adate": "2023-05-08T13:49:44+02:00",
-    "author": "Nicol\u00f2 Ribaudo",
-    "date": "2024-10-10T06:35:48+09:00",
-    "hash": "2786b20b7d0688f29a8b275afa00935638e1c171",
-    "parents": "76814cbd5d7842c2a99d28e6e8c7833f1de5bee0",
-    "subject": "Add Import Attributes proposal"
    }
   ],
   "title": "Normative: Source Phase Imports rebased to Import Attributes",
-  "updated_at": "2025-02-11T02:58:30Z"
+  "updated_at": "2025-10-06T22:46:19Z"
  },
  {
   "base": "4c44bbed7c5a7df90705a58aaa08d2a6c5b9b596",
