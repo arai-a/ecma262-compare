@@ -548,24 +548,24 @@
   "updated_at": "2025-07-01T01:29:03Z"
  },
  {
-  "base": "bdfd596ffad5aeb2957aed4e1db36be3665c69ec",
+  "base": "86b5733c7ff73aff635d202329acbb53de80099b",
   "created_at": "2025-06-24T16:37:00Z",
-  "head": "33d0873c33adb688c358145e99845cda1c4a9277",
+  "head": "d4269348689c206cd4e9d7568f52ed7482a4eb1b",
   "login": "intincrab",
   "number": 3628,
   "ref": "remove-unused-createasynciteratorfromclosure",
   "revs": [
    {
-    "adate": "2025-06-24T22:05:06+05:30",
+    "adate": "2025-10-08T14:17:24-07:00",
     "author": "Ajay Chauhan",
-    "date": "2025-06-24T22:05:06+05:30",
-    "hash": "33d0873c33adb688c358145e99845cda1c4a9277",
-    "parents": "bdfd596ffad5aeb2957aed4e1db36be3665c69ec",
-    "subject": "Editorial: remove unused AO CreateAsyncIteratorFromClosure"
+    "date": "2025-10-08T14:17:24-07:00",
+    "hash": "d4269348689c206cd4e9d7568f52ed7482a4eb1b",
+    "parents": "86b5733c7ff73aff635d202329acbb53de80099b",
+    "subject": "Editorial: remove unused AO CreateAsyncIteratorFromClosure (#3628)"
    }
   ],
   "title": "Editorial: remove unused AO CreateAsyncIteratorFromClosure",
-  "updated_at": "2025-06-24T17:09:39Z"
+  "updated_at": "2025-10-08T21:26:11Z"
  },
  {
   "base": "caa0482e4f6febc2bf5d2992b1546cb08a9b3e87",
