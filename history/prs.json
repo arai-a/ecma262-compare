@@ -2,11 +2,19 @@
  {
   "base": "86b5733c7ff73aff635d202329acbb53de80099b",
   "created_at": "2025-10-09T17:53:12Z",
-  "head": "333ddeccb2c9b095ca1660db5cca9126112cb3b6",
+  "head": "25ed011208556766c0279479afbb60dc46a4b4cd",
   "login": "sajdakabir",
   "number": 3704,
   "ref": "fix-agent-record-phrasing",
   "revs": [
+   {
+    "adate": "2025-10-10T11:37:15+05:30",
+    "author": "sajdakabir",
+    "date": "2025-10-10T11:37:15+05:30",
+    "hash": "25ed011208556766c0279479afbb60dc46a4b4cd",
+    "parents": "333ddeccb2c9b095ca1660db5cca9126112cb3b6",
+    "subject": "Editorial: Correct typographical error in critical section condition for WaiterList Record"
+   },
    {
     "adate": "2025-10-09T18:36:47+05:30",
     "author": "sajdakabir",
@@ -17,7 +25,7 @@
    }
   ],
   "title": "Editorial: use typical phrasing for Agent Record field access",
-  "updated_at": "2025-10-09T18:51:01Z"
+  "updated_at": "2025-10-10T06:07:27Z"
  },
  {
   "base": "86b5733c7ff73aff635d202329acbb53de80099b",
