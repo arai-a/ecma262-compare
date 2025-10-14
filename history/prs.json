@@ -2,11 +2,27 @@
  {
   "base": "86b5733c7ff73aff635d202329acbb53de80099b",
   "created_at": "2025-10-09T17:53:12Z",
-  "head": "25ed011208556766c0279479afbb60dc46a4b4cd",
+  "head": "d3a49bae744d350189b0e96c656b4f6be3ee8ba5",
   "login": "sajdakabir",
   "number": 3704,
   "ref": "fix-agent-record-phrasing",
   "revs": [
+   {
+    "adate": "2025-10-14T11:02:37+05:30",
+    "author": "sajdakabir",
+    "date": "2025-10-14T11:02:37+05:30",
+    "hash": "d3a49bae744d350189b0e96c656b4f6be3ee8ba5",
+    "parents": "fbceeabce1270df631435411a7c88ea7a12316a8",
+    "subject": "refactor: move Agent Record retrieval before isLittleEndian check to avoid redundancy"
+   },
+   {
+    "adate": "2025-10-14T10:59:19+05:30",
+    "author": "sajdakabir",
+    "date": "2025-10-14T10:59:19+05:30",
+    "hash": "fbceeabce1270df631435411a7c88ea7a12316a8",
+    "parents": "c7ca72488b2e4da3216463d1cce991bd978c1600 25ed011208556766c0279479afbb60dc46a4b4cd",
+    "subject": "Merge branch 'fix-agent-record-phrasing' of github.com-personal:sajdakabir/ecma262 into fix-agent-record-phrasing"
+   },
    {
     "adate": "2025-10-10T11:37:15+05:30",
     "author": "sajdakabir",
@@ -22,10 +38,18 @@
     "hash": "333ddeccb2c9b095ca1660db5cca9126112cb3b6",
     "parents": "86b5733c7ff73aff635d202329acbb53de80099b",
     "subject": "Editorial: use typical phrasing for Agent Record field access"
+   },
+   {
+    "adate": "2025-10-09T18:36:47+05:30",
+    "author": "sajdakabir",
+    "date": "2025-10-09T18:36:47+05:30",
+    "hash": "c7ca72488b2e4da3216463d1cce991bd978c1600",
+    "parents": "86b5733c7ff73aff635d202329acbb53de80099b",
+    "subject": "refactor: extract Agent Record access into separate step across memory operations"
    }
   ],
   "title": "Editorial: use typical phrasing for Agent Record field access",
-  "updated_at": "2025-10-10T06:07:27Z"
+  "updated_at": "2025-10-14T05:35:44Z"
  },
  {
   "base": "86b5733c7ff73aff635d202329acbb53de80099b",
