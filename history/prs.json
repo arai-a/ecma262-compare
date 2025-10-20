@@ -22,11 +22,19 @@
  {
   "base": "86b5733c7ff73aff635d202329acbb53de80099b",
   "created_at": "2025-10-15T01:14:18Z",
-  "head": "292817df8264845efef2f42fdcf3e1f4ef6413f8",
+  "head": "3698bd31107a865eff2cbbbe1b90b750924a5b2f",
   "login": "tc39",
   "number": 3705,
   "ref": "dont-return-if-abrupt",
   "revs": [
+   {
+    "adate": "2025-10-20T14:16:16-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2025-10-20T14:16:16-07:00",
+    "hash": "3698bd31107a865eff2cbbbe1b90b750924a5b2f",
+    "parents": "292817df8264845efef2f42fdcf3e1f4ef6413f8",
+    "subject": "fixups! note ephemerality"
+   },
    {
     "adate": "2025-10-20T11:50:56-07:00",
     "author": "Kevin Gibbons",
@@ -53,7 +61,7 @@
    }
   ],
   "title": "Editorial: remove ReturnIfAbrupt and specify ! and ? directly",
-  "updated_at": "2025-10-20T18:51:51Z"
+  "updated_at": "2025-10-20T21:16:20Z"
  },
  {
   "base": "86b5733c7ff73aff635d202329acbb53de80099b",
