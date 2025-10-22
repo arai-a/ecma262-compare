@@ -452,56 +452,72 @@
   "updated_at": "2025-09-26T14:43:24Z"
  },
  {
-  "base": "9e65ab3630071064088cbfb88ac98740c1031af6",
+  "base": "86b5733c7ff73aff635d202329acbb53de80099b",
   "created_at": "2025-07-03T12:19:36Z",
-  "head": "20b653b17599167ce654971047010bcb7e78631b",
+  "head": "92f425960681d7e2a68c463b57cb0b5421521570",
   "login": "nicolo-ribaudo",
   "number": 3635,
   "ref": "extract-dfs-logic-2",
   "revs": [
    {
+    "adate": "2025-10-22T14:40:05+02:00",
+    "author": "Nicol\u00f2 Ribaudo",
+    "date": "2025-10-22T14:42:05+02:00",
+    "hash": "92f425960681d7e2a68c463b57cb0b5421521570",
+    "parents": "ed3e5a21ecca6ddbe80ca9cec33570a2173b9a13",
+    "subject": "Update examples"
+   },
+   {
+    "adate": "2025-10-22T14:15:10+02:00",
+    "author": "Nicol\u00f2 Ribaudo",
+    "date": "2025-10-22T14:42:05+02:00",
+    "hash": "ed3e5a21ecca6ddbe80ca9cec33570a2173b9a13",
+    "parents": "b75d4166a2b37c6e5da581ef81442f065cfa7578",
+    "subject": "Add oldids"
+   },
+   {
     "adate": "2025-10-01T18:07:24+02:00",
     "author": "Nicol\u00f2 Ribaudo",
-    "date": "2025-10-01T18:07:24+02:00",
-    "hash": "20b653b17599167ce654971047010bcb7e78631b",
-    "parents": "309df93e40aa53405fd2d18ce8ca6202f3aefcd9",
+    "date": "2025-10-22T14:42:05+02:00",
+    "hash": "b75d4166a2b37c6e5da581ef81442f065cfa7578",
+    "parents": "2740e7364ea61fee3396c8653b1fdc785fe84f62",
     "subject": "Cleanup"
    },
    {
     "adate": "2025-10-01T16:53:00+02:00",
     "author": "Nicol\u00f2 Ribaudo",
-    "date": "2025-10-01T16:54:59+02:00",
-    "hash": "309df93e40aa53405fd2d18ce8ca6202f3aefcd9",
-    "parents": "df796ee4405bbe36dab529a90509d7248c5c2c8a",
+    "date": "2025-10-22T14:42:05+02:00",
+    "hash": "2740e7364ea61fee3396c8653b1fdc785fe84f62",
+    "parents": "6127451015d476e253dcbb766b0f0bf72e0a1652",
     "subject": "jmdyck's review"
    },
    {
     "adate": "2025-07-02T18:45:38+02:00",
     "author": "Nicol\u00f2 Ribaudo",
-    "date": "2025-10-01T16:54:57+02:00",
-    "hash": "df796ee4405bbe36dab529a90509d7248c5c2c8a",
-    "parents": "146a7c895dcdb56dc3568f01e60bfb21fccd5312",
+    "date": "2025-10-22T14:42:05+02:00",
+    "hash": "6127451015d476e253dcbb766b0f0bf72e0a1652",
+    "parents": "9f804dfd9a5f6659bd984df9848854c2c5631fb7",
     "subject": "Editorial: dedupe and isolate modules traversal logic"
    },
    {
     "adate": "2025-07-02T16:58:52+02:00",
     "author": "Nicol\u00f2 Ribaudo",
-    "date": "2025-10-01T16:53:59+02:00",
-    "hash": "146a7c895dcdb56dc3568f01e60bfb21fccd5312",
-    "parents": "bec1f073b7165aa65521d37c786fa92953281116",
+    "date": "2025-10-22T14:42:05+02:00",
+    "hash": "9f804dfd9a5f6659bd984df9848854c2c5631fb7",
+    "parents": "209a298ce0bfe2b6ec269b99e8fd62ba484a0b95",
     "subject": "Editorial: move [[CycleRoot]] error checking to a module's own InnerModuleEvaluation"
    },
    {
     "adate": "2025-07-02T15:02:41+02:00",
     "author": "Nicol\u00f2 Ribaudo",
-    "date": "2025-10-01T16:53:59+02:00",
-    "hash": "bec1f073b7165aa65521d37c786fa92953281116",
-    "parents": "9e65ab3630071064088cbfb88ac98740c1031af6",
+    "date": "2025-10-22T14:42:05+02:00",
+    "hash": "209a298ce0bfe2b6ec269b99e8fd62ba484a0b95",
+    "parents": "86b5733c7ff73aff635d202329acbb53de80099b",
     "subject": "Editorial: split [[PendingAsyncDependencies]] computation to its own loop"
    }
   ],
   "title": "Editorial: dedupe and isolate modules traversal logic",
-  "updated_at": "2025-10-01T16:08:22Z"
+  "updated_at": "2025-10-22T12:42:11Z"
  },
  {
   "base": "60c4df0b65e1c2e6b6581a5bc08a9311223be1da",
@@ -934,7 +950,7 @@
  {
   "base": "86b5733c7ff73aff635d202329acbb53de80099b",
   "created_at": "2025-05-01T17:10:49Z",
-  "head": "393797af6fa44f41be4aeaaed8c25ce90506c7b8",
+  "head": "75b9ceff6922003f809848cb3978b5d7fe1daa76",
   "login": "nicolo-ribaudo",
   "number": 3583,
   "ref": "cycleroot-fix-complex",
@@ -942,30 +958,30 @@
    {
     "adate": "2025-10-22T14:13:06+02:00",
     "author": "Nicol\u00f2 Ribaudo",
-    "date": "2025-10-22T14:13:06+02:00",
-    "hash": "393797af6fa44f41be4aeaaed8c25ce90506c7b8",
-    "parents": "14a9be17d84b1e26b28bfe51be621472a0d75ba6",
+    "date": "2025-10-22T14:43:47+02:00",
+    "hash": "75b9ceff6922003f809848cb3978b5d7fe1daa76",
+    "parents": "02a710f23d942bbd4952a1e3b8285cd0f4c43f5d",
     "subject": "Fix"
    },
    {
     "adate": "2025-10-20T15:00:41+02:00",
     "author": "Nicol\u00f2 Ribaudo",
-    "date": "2025-10-20T15:00:41+02:00",
-    "hash": "14a9be17d84b1e26b28bfe51be621472a0d75ba6",
-    "parents": "09d32a34ec9ecee003a1b373a5232c863def643c",
+    "date": "2025-10-22T14:43:46+02:00",
+    "hash": "02a710f23d942bbd4952a1e3b8285cd0f4c43f5d",
+    "parents": "b42e0c23b4d6e906feb0c7e07ddf9fab083d6b33",
     "subject": "Update assertion"
    },
    {
     "adate": "2025-05-01T18:05:55+02:00",
     "author": "Nicol\u00f2 Ribaudo",
-    "date": "2025-05-01T18:05:55+02:00",
-    "hash": "09d32a34ec9ecee003a1b373a5232c863def643c",
-    "parents": "6d71ca0e2dbf1c0cfb87b5eb7a83cf7c76591561",
+    "date": "2025-10-22T14:43:46+02:00",
+    "hash": "b42e0c23b4d6e906feb0c7e07ddf9fab083d6b33",
+    "parents": "86b5733c7ff73aff635d202329acbb53de80099b",
     "subject": "Relax assumption abuot [[CycleRoot]] being a module on evaluated module"
    }
   ],
   "title": "Ensure all evaluated modules have a [[CycleRoot]]",
-  "updated_at": "2025-10-22T12:13:16Z"
+  "updated_at": "2025-10-22T12:46:16Z"
  },
  {
   "base": "09d4b3b675d933585ddf86001022fc79aca32ba9",
