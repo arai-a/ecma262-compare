@@ -486,6 +486,12 @@ class Comparator extends Base {
     // The `sections.json` data for the currently selected "to" revision.
     this.toSecData = {};
 
+    // The `img.json` data for the currently selected "from" revision.
+    this.fromImgData = {};
+
+    // The `img.json` data for the currently selected "to" revision.
+    this.toImgData = {};
+
     // The cache of converted this.fromSecData.secTree.
     this.fromSecTree = null;
 
@@ -984,10 +990,13 @@ class Comparator extends Base {
   }
 
   async loadFullDiff() {
-    [this.fromSecData, this.toSecData] = await Promise.all([
-      this.getSecData(this.fromRev.value),
-      this.getSecData(this.toRev.value)
-    ]);
+    [this.fromSecData, this.toSecData, this.fromImgData, this.toImgData] =
+      await Promise.all([
+        this.getSecData(this.fromRev.value),
+        this.getSecData(this.toRev.value),
+        this.getImgData(this.fromRev.value),
+        this.getImgData(this.toRev.value),
+      ]);
   }
 
   createSecMap() {
@@ -1220,6 +1229,10 @@ class Comparator extends Base {
 
   async getSecData(hash) {
     return this.getJSON_GZ(`./history/${hash}/sections.json.gz?${JSON_VERSION}`);
+  }
+
+  async getImgData(hash) {
+    return this.getJSON_GZ(`./history/${hash}/img.json.gz?${JSON_VERSION}`);
   }
 
   // Returns a string representation of section number+title that is comparable
@@ -1957,12 +1970,11 @@ class Comparator extends Base {
         continue;
       }
 
-      if (type === "from") {
-        img.src = `${fromSnapshotBase}${src}`;
-      } else if (type === "to") {
-        img.src = `${toSnapshotBase}${src}`;
-      } else {
-        img.src = `${toSnapshotBase}${src}`;
+      const name = src.replace(/^img\//, "");
+      const imgData = type === "from" ? this.fromImgData : this.toImgData;
+      if (name in imgData) {
+        const i = imgData[name];
+        img.src = `./history/img/${i}/${name}`;
       }
     }
 
@@ -1977,12 +1989,11 @@ class Comparator extends Base {
         continue;
       }
 
-      if (type === "from") {
-        obj.data = `${fromSnapshotBase}${data}`;
-      } else if (type === "to") {
-        obj.data = `${toSnapshotBase}${data}`;
-      } else {
-        obj.data = `${toSnapshotBase}${data}`;
+      const name = data.replace(/^img\//, "");
+      const imgData = type === "from" ? this.fromImgData : this.toImgData;
+      if (name in imgData) {
+        const i = imgData[name];
+        obj.data = `./history/img/${i}/${name}`;
       }
     }
   }

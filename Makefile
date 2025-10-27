@@ -53,6 +53,9 @@ bootstrap:
 gc:
 	$(PYTHON) build.py gc
 
+deduplicate:
+	$(PYTHON) build.py deduplicate
+
 lint-setup:
 	npm install
 

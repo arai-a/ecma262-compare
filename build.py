@@ -163,6 +163,10 @@ class Paths:
     def index_path(cls, sha, prnum=None):
         return os.path.join(cls.rev_dir(sha, prnum), 'index.html.gz')
 
+    @classmethod
+    def deduplicated_dir(cls, i):
+        return os.path.join(cls.HISTORY_DIR, 'img', str(i))
+
 
 class GitHubAPI:
     __API_TOKEN = os.environ.get('GITHUB_TOKEN')
@@ -809,6 +813,8 @@ class RevisionRenderer:
 
         shutil.copytree(repo_out_dir, rev_dir)
 
+        Deduplicate.run_single(rev_dir)
+
         return True
 
     def __json(sha, prnum, skip_cache, check_version):
@@ -1232,6 +1238,76 @@ class GC:
                     print('R', rev_dir)
                     shutil.rmtree(rev_dir)
 
+class Deduplicate:
+    __HASH_MAP_PATH = os.path.join(Paths.HISTORY_DIR, 'img.json.gz')
+
+    @classmethod
+    def __run_one(cls, hash_map, rev_dir):
+        import hashlib
+
+        img_json = {}
+        for path in glob.glob(os.path.join(rev_dir, 'img', '*')):
+            name = os.path.basename(path)
+            with open(path, 'rb') as f:
+                data = f.read()
+            hash_str = hashlib.sha256(name.encode() + data).hexdigest()
+
+            if hash_str in hash_map:
+                img_json[name] = hash_map[hash_str]
+            else:
+                i = len(hash_map)
+                hash_map[hash_str] = i
+                img_json[name] = i
+
+                print(f'adding {name} as {i}')
+
+                d = Paths.deduplicated_dir(i)
+                FileUtils.mkdir_p(d)
+                with open(os.path.join(d, name), 'wb') as f:
+                    f.write(data)
+
+        shutil.rmtree(os.path.join(rev_dir, 'img'))
+
+        json_path = os.path.join(rev_dir, 'img.json.gz')
+        FileUtils.write_json_gz(json_path, img_json)
+
+    @classmethod
+    def __load_map(cls):
+        if os.path.exists(cls.__HASH_MAP_PATH):
+            return FileUtils.read_json_gz(cls.__HASH_MAP_PATH)
+        return {}
+
+    @classmethod
+    def __save_map(cls, hash_map):
+        FileUtils.write_json_gz(cls.__HASH_MAP_PATH, hash_map)
+
+    @classmethod
+    def run_single(cls, rev_dir):
+        hash_map = cls.__load_map()
+        cls.__run_one(hash_map, rev_dir)
+        cls.__save_map(hash_map)
+
+    @classmethod
+    def run_all(cls):
+        hash_map = cls.__load_map()
+
+        revs = Revisions.get_cache()
+        prs = PRs.get_cache()
+
+        for rev in revs:
+            print('rev', rev['hash'])
+            rev_dir = Paths.rev_dir(rev['hash'])
+            cls.__run_one(hash_map, rev_dir)
+
+        for pr in prs:
+            for rev in pr['revs']:
+                print('PR', pr['number'], 'rev', rev['hash'])
+                rev_dir = Paths.rev_dir(rev['hash'], pr['number'])
+                if os.path.exists(rev_dir):
+                    cls.__run_one(hash_map, rev_dir)
+
+        cls.__save_map(hash_map)
+
 
 parser = argparse.ArgumentParser(description='Update ecma262 history data')
 
@@ -1278,6 +1354,8 @@ subparsers.add_parser('bootstrap',
                       help='Perform bootstrap for CI')
 subparsers.add_parser('gc',
                       help='Remove obsolete revisions and closed PRs')
+subparsers.add_parser('deduplicate',
+                      help='Deduplicate images')
 args = parser.parse_args()
 
 if args.command == 'clone':
@@ -1317,3 +1395,5 @@ elif args.command == 'bootstrap':
     Bootstrap.run()
 elif args.command == 'gc':
     GC.run()
+elif args.command == 'deduplicate':
+    Deduplicate.run_all()

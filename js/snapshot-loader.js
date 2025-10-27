@@ -23,14 +23,23 @@ class SnapshotLoader extends Base {
     return this.getTextGZ(`./history/${hash}/index.html.gz`);
   }
 
-  fixSource(url, base, source) {
+  async getImgData(hash) {
+    return this.getJSON_GZ(`./history/${hash}/img.json.gz`);
+  }
+
+  fixSource(url, base, source, imgData) {
     return source
       .replace(
         /href="#/g,
         `href="${url.pathname}${url.search}#`)
       .replace(
-        /src="img/g,
-        `src="${base}/img`)
+        /src="img\/([^"]+)"/g, (_, name) => {
+          if (name in imgData) {
+            const i = imgData[name];
+            return `src="./history/img/${i}/${name}"`;
+          }
+          return "";
+      })
       .replace(
         /<link rel="stylesheet" href="(assets\/)?(css\/)?ecmarkup.css">/,
         `<link rel="stylesheet" href="style/ecmarkup.css">`)
@@ -40,11 +49,14 @@ class SnapshotLoader extends Base {
   }
 
   async loadIndex(hash) {
-    const source = await this.getIndex(hash);
+    const [source, imgData] = await Promise.all([
+      this.getIndex(hash),
+      this.getImgData(hash),
+    ]);
 
     const url = new URL(document.location.href);
     const base = `history/${hash}`;
-    document.documentElement.innerHTML = this.fixSource(url, base, source);
+    document.documentElement.innerHTML = this.fixSource(url, base, source, imgData);
 
     const script = document.createElement("script");
     script.addEventListener("load", () => {
