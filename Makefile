@@ -67,3 +67,7 @@ lint:
 	npx eslint js/path-diff-worker.js
 	npx eslint js/tree-diff-worker.js
 	flake8 build.py
+
+update-ecmarkup:
+	curl -O https://tc39.es/ecma262/assets/js/ecmarkup.js
+	mv ecmarkup.js js

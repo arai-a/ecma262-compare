@@ -65,7 +65,7 @@ class SnapshotLoader extends Base {
         cancelable: true
       }));
     });
-    script.setAttribute("src", `${base}/ecmarkup.js`);
+    script.setAttribute("src", `./js/ecmarkup.js`);
     document.body.appendChild(script);
 
     if (window.location.hash) {
