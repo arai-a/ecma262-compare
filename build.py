@@ -1243,6 +1243,13 @@ class Deduplicate:
 
     @classmethod
     def __run_one(cls, hash_map, rev_dir):
+        json_path = os.path.join(rev_dir, 'img.json.gz')
+
+        if not os.path.exists(os.path.join(rev_dir, 'img')):
+            if not os.path.exists(json_path):
+                FileUtils.write_json_gz(json_path, {})
+            return
+
         import hashlib
 
         img_json = {}
@@ -1268,7 +1275,6 @@ class Deduplicate:
 
         shutil.rmtree(os.path.join(rev_dir, 'img'))
 
-        json_path = os.path.join(rev_dir, 'img.json.gz')
         FileUtils.write_json_gz(json_path, img_json)
 
     @classmethod
