@@ -110,6 +110,9 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
+    - name: Install lxml dependencies
+      if: steps.pages_bootstrap.outputs.update == 'Yes'
+      run: sudo apt-get install libxml2-dev libxslt1-dev
     - name: Setup virtualenv
       #if: steps.pages_bootstrap.outputs.update == 'Yes' || steps.status_bootstrap.outputs.update == 'Yes'
       if: steps.pages_bootstrap.outputs.update == 'Yes'
