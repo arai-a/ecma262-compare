@@ -1,8 +1,8 @@
 [
  {
-  "base": "1d2f60435d8155dc9ad99749f2610beb62e33942",
+  "base": "eb5208bbf31ac5bf968d765a2905df9c041c3e37",
   "created_at": "2025-11-03T16:27:01Z",
-  "head": "42a9557481045fc890aeccc5088cb5daf9ea3511",
+  "head": "ddfb9eea15cb723ec969a7ce9341c84bf1115886",
   "login": "tc39",
   "number": 3713,
   "ref": "iterator-sequencing",
@@ -10,10 +10,26 @@
    {
     "adate": "2025-11-03T08:21:18-07:00",
     "author": "Michael Ficarra",
-    "date": "2025-11-03T09:25:48-07:00",
-    "hash": "42a9557481045fc890aeccc5088cb5daf9ea3511",
-    "parents": "1d2f60435d8155dc9ad99749f2610beb62e33942",
+    "date": "2025-11-03T15:38:13-07:00",
+    "hash": "ddfb9eea15cb723ec969a7ce9341c84bf1115886",
+    "parents": "eb5208bbf31ac5bf968d765a2905df9c041c3e37",
     "subject": "Normative: add Iterator.concat"
+   },
+   {
+    "adate": "2025-11-03T15:37:49-07:00",
+    "author": "Michael Ficarra",
+    "date": "2025-11-03T15:37:49-07:00",
+    "hash": "eb5208bbf31ac5bf968d765a2905df9c041c3e37",
+    "parents": "74292e93308b57a6336e53a4dae0b2b25962bc32",
+    "subject": "bump ecmarkup to 21.5.0"
+   },
+   {
+    "adate": "2025-11-03T15:13:08-07:00",
+    "author": "Michael Ficarra",
+    "date": "2025-11-03T15:13:08-07:00",
+    "hash": "74292e93308b57a6336e53a4dae0b2b25962bc32",
+    "parents": "1d2f60435d8155dc9ad99749f2610beb62e33942",
+    "subject": "try to address ecmarkup lint error"
    },
    {
     "adate": "2025-11-03T09:15:57-07:00",
@@ -25,16 +41,24 @@
    }
   ],
   "title": "Normative: add Iterator.concat",
-  "updated_at": "2025-11-03T16:29:20Z"
+  "updated_at": "2025-11-03T22:38:17Z"
  },
  {
   "base": "86b5733c7ff73aff635d202329acbb53de80099b",
   "created_at": "2025-11-03T16:25:25Z",
-  "head": "74292e93308b57a6336e53a4dae0b2b25962bc32",
+  "head": "eb5208bbf31ac5bf968d765a2905df9c041c3e37",
   "login": "tc39",
   "number": 3712,
   "ref": "underlying-iterators",
   "revs": [
+   {
+    "adate": "2025-11-03T15:37:49-07:00",
+    "author": "Michael Ficarra",
+    "date": "2025-11-03T15:37:49-07:00",
+    "hash": "eb5208bbf31ac5bf968d765a2905df9c041c3e37",
+    "parents": "74292e93308b57a6336e53a4dae0b2b25962bc32",
+    "subject": "bump ecmarkup to 21.5.0"
+   },
    {
     "adate": "2025-11-03T15:13:08-07:00",
     "author": "Michael Ficarra",
@@ -53,7 +77,7 @@
    }
   ],
   "title": "Editorial: replace [[UnderlyingIterator]] with [[UnderlyingIterators]]",
-  "updated_at": "2025-11-03T22:13:28Z"
+  "updated_at": "2025-11-03T22:38:07Z"
  },
  {
   "base": "86b5733c7ff73aff635d202329acbb53de80099b",
