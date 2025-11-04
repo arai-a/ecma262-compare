@@ -1,5 +1,53 @@
 [
  {
+  "adate": "2025-11-03T19:20:55-08:00",
+  "author": "Ms2ger",
+  "date": "2025-11-03T19:20:55-08:00",
+  "hash": "ab6f2d57caded769b4074d14e6f3bc478770336e",
+  "parents": "91b7e4cd8cc02b15592a447f5444e924d40f6880",
+  "subject": "Editorial: allow hosts to create ordinary global objects (#3498)"
+ },
+ {
+  "adate": "2025-11-03T19:12:17-08:00",
+  "author": "Richard Gibson",
+  "date": "2025-11-03T19:12:17-08:00",
+  "hash": "91b7e4cd8cc02b15592a447f5444e924d40f6880",
+  "parents": "f1bdd8c024b7e0215e037475994136ba7e327fe8",
+  "subject": "Editorial: Make auto-linking \"read event\" and \"write event\" specializations (#3396)"
+ },
+ {
+  "adate": "2024-08-15T23:46:02-04:00",
+  "author": "Richard Gibson",
+  "date": "2025-11-03T19:12:13-08:00",
+  "hash": "f1bdd8c024b7e0215e037475994136ba7e327fe8",
+  "parents": "6d9abef00989a3442ebd7a0cdae7ff9ceaf0ccff",
+  "subject": "Editorial: Introduce term \"memory range\" to provide links for Shared Data Block event comparison (#3396)"
+ },
+ {
+  "adate": "2024-08-15T23:41:44-04:00",
+  "author": "Richard Gibson",
+  "date": "2025-11-03T19:12:11-08:00",
+  "hash": "6d9abef00989a3442ebd7a0cdae7ff9ceaf0ccff",
+  "parents": "aaf04227384d759c7e2303495e683e2bc9f6ec08",
+  "subject": "Editorial: Introduce term \"Memory event\" to describe Agent Events Record [[EventList]] contents (#3396)"
+ },
+ {
+  "adate": "2024-08-15T23:35:43-04:00",
+  "author": "Richard Gibson",
+  "date": "2025-11-03T19:12:07-08:00",
+  "hash": "aaf04227384d759c7e2303495e683e2bc9f6ec08",
+  "parents": "bb1ff0b9e6a8e061a1facaab7b15c75c770bf780",
+  "subject": "Editorial: Link directly to ReadSharedMemory as appropriate (#3396)"
+ },
+ {
+  "adate": "2024-08-15T23:32:37-04:00",
+  "author": "Richard Gibson",
+  "date": "2025-11-03T19:12:04-08:00",
+  "hash": "bb1ff0b9e6a8e061a1facaab7b15c75c770bf780",
+  "parents": "51aabebf1639e27e89a002126cee56f209cc5d4b",
+  "subject": "Editorial: Make better use of the \"Set\" specification type (#3396)"
+ },
+ {
   "adate": "2024-08-15T23:30:45-04:00",
   "author": "Richard Gibson",
   "date": "2025-11-03T19:12:01-08:00",

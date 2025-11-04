@@ -281,42 +281,6 @@
  },
  {
   "base": "86b5733c7ff73aff635d202329acbb53de80099b",
-  "created_at": "2025-10-01T21:25:12Z",
-  "head": "b57f917c07208bbc062ffd58bb00b983c33779c2",
-  "login": "tc39",
-  "number": 3698,
-  "ref": "pr-previews-scripts-from-main",
-  "revs": [
-   {
-    "adate": "2025-10-03T14:53:36-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2025-10-03T14:53:36-07:00",
-    "hash": "b57f917c07208bbc062ffd58bb00b983c33779c2",
-    "parents": "104f6a616293009f49dfba493ef9d3da3dc8701c",
-    "subject": "use more explicit ref to upstream repo"
-   },
-   {
-    "adate": "2025-10-01T18:15:27-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2025-10-01T18:15:27-07:00",
-    "hash": "104f6a616293009f49dfba493ef9d3da3dc8701c",
-    "parents": "d5c50d643a3a328aeb321f421d0df30986055ce1",
-    "subject": "fix name"
-   },
-   {
-    "adate": "2025-10-01T14:20:34-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2025-10-01T14:23:13-07:00",
-    "hash": "d5c50d643a3a328aeb321f421d0df30986055ce1",
-    "parents": "86b5733c7ff73aff635d202329acbb53de80099b",
-    "subject": "Meta: always use snapshot upload code from main"
-   }
-  ],
-  "title": "Meta: always use snapshot upload code from main",
-  "updated_at": "2025-10-03T21:57:23Z"
- },
- {
-  "base": "86b5733c7ff73aff635d202329acbb53de80099b",
   "created_at": "2025-10-01T16:13:50Z",
   "head": "4762595ecb7f486e0a8acbda5fb0f68b41093b6b",
   "login": "nicolo-ribaudo",
@@ -788,24 +752,24 @@
   "updated_at": "2025-07-01T01:29:03Z"
  },
  {
-  "base": "86b5733c7ff73aff635d202329acbb53de80099b",
+  "base": "ab6f2d57caded769b4074d14e6f3bc478770336e",
   "created_at": "2025-06-24T16:37:00Z",
-  "head": "d4269348689c206cd4e9d7568f52ed7482a4eb1b",
+  "head": "c011f7490d1e50ba5e457389a0f381288eaaa9e3",
   "login": "intincrab",
   "number": 3628,
   "ref": "remove-unused-createasynciteratorfromclosure",
   "revs": [
    {
-    "adate": "2025-10-08T14:17:24-07:00",
+    "adate": "2025-11-03T19:25:32-08:00",
     "author": "Ajay Chauhan",
-    "date": "2025-10-08T14:17:24-07:00",
-    "hash": "d4269348689c206cd4e9d7568f52ed7482a4eb1b",
-    "parents": "86b5733c7ff73aff635d202329acbb53de80099b",
+    "date": "2025-11-03T19:25:32-08:00",
+    "hash": "c011f7490d1e50ba5e457389a0f381288eaaa9e3",
+    "parents": "ab6f2d57caded769b4074d14e6f3bc478770336e",
     "subject": "Editorial: remove unused AO CreateAsyncIteratorFromClosure (#3628)"
    }
   ],
   "title": "Editorial: remove unused AO CreateAsyncIteratorFromClosure",
-  "updated_at": "2025-10-08T21:26:11Z"
+  "updated_at": "2025-11-04T03:45:14Z"
  },
  {
   "base": "caa0482e4f6febc2bf5d2992b1546cb08a9b3e87",
@@ -1252,26 +1216,6 @@
   "updated_at": "2025-08-11T10:35:40Z"
  },
  {
-  "base": "cf5938e6d9f1a726d2034a288cedeaa0067e1084",
-  "created_at": "2024-11-22T15:33:52Z",
-  "head": "ca57b0ab0871d79043823c0d238015adf68eaa76",
-  "login": "Ms2ger",
-  "number": 3498,
-  "ref": "InitializeHostDefinedRealm-ordinary",
-  "revs": [
-   {
-    "adate": "2024-11-22T16:33:10+01:00",
-    "author": "Ms2ger",
-    "date": "2024-11-22T16:33:10+01:00",
-    "hash": "ca57b0ab0871d79043823c0d238015adf68eaa76",
-    "parents": "cf5938e6d9f1a726d2034a288cedeaa0067e1084",
-    "subject": "Editorial: allow hosts to create ordinary global objects"
-   }
-  ],
-  "title": "Editorial: allow hosts to create ordinary global objects",
-  "updated_at": "2024-11-22T15:38:04Z"
- },
- {
   "base": "5881c1f5041099000e714f0c42d3b48eef6e98a7",
   "created_at": "2024-11-21T15:50:18Z",
   "head": "c96e7b6af865d78e450dcfa471bcfb17324aa86e",
@@ -1478,122 +1422,6 @@
   ],
   "title": "Editorial: OrdinaryDefineOwnProperty can't throw for ordinary objects and arrays",
   "updated_at": "2025-02-06T17:35:38Z"
- },
- {
-  "base": "86b5733c7ff73aff635d202329acbb53de80099b",
-  "created_at": "2024-08-16T03:56:07Z",
-  "head": "d635725dcebc446f56c7886f607d7493d12959bf",
-  "login": "gibson042",
-  "number": 3396,
-  "ref": "2024-08-cleanup-memory-model",
-  "revs": [
-   {
-    "adate": "2024-09-03T15:52:54-04:00",
-    "author": "Richard Gibson",
-    "date": "2025-10-14T09:55:22-04:00",
-    "hash": "d635725dcebc446f56c7886f607d7493d12959bf",
-    "parents": "d413ccad0de91f0fa899e877700ca31f40ee7eea",
-    "subject": "Editorial: Apply suggestions"
-   },
-   {
-    "adate": "2024-08-31T14:27:47-04:00",
-    "author": "Richard Gibson",
-    "date": "2025-10-14T09:55:20-04:00",
-    "hash": "d413ccad0de91f0fa899e877700ca31f40ee7eea",
-    "parents": "e798e4e53fd89fda6155e0777da78da13d588304",
-    "subject": "Editorial: Apply suggestions"
-   },
-   {
-    "adate": "2024-08-21T18:25:09-04:00",
-    "author": "Richard Gibson",
-    "date": "2025-10-14T09:51:43-04:00",
-    "hash": "e798e4e53fd89fda6155e0777da78da13d588304",
-    "parents": "71f3b28133c77e70b7f7d58baf0045717e6402f9",
-    "subject": "Editorial: Replace auto-linked \"{read,write} events\" with explicitly linked \"{reads,writes}\""
-   },
-   {
-    "adate": "2024-08-15T23:47:24-04:00",
-    "author": "Richard Gibson",
-    "date": "2025-10-14T09:51:43-04:00",
-    "hash": "71f3b28133c77e70b7f7d58baf0045717e6402f9",
-    "parents": "8bbb95d87dc1d3871ec4865e144ab6fb06857dc1",
-    "subject": "Editorial: Make auto-linking \"read event\" and \"write event\" specializations"
-   },
-   {
-    "adate": "2024-08-15T23:46:02-04:00",
-    "author": "Richard Gibson",
-    "date": "2025-10-14T09:51:43-04:00",
-    "hash": "8bbb95d87dc1d3871ec4865e144ab6fb06857dc1",
-    "parents": "e1981a36d9d0c02299a934dd25b688e5bf4451ee",
-    "subject": "Editorial: Introduce term \"memory range\" to provide links for Shared Data Block event comparison"
-   },
-   {
-    "adate": "2024-08-15T23:41:44-04:00",
-    "author": "Richard Gibson",
-    "date": "2025-10-14T09:51:43-04:00",
-    "hash": "e1981a36d9d0c02299a934dd25b688e5bf4451ee",
-    "parents": "6bff711a36e01122ae83cdd54a940846b5099d53",
-    "subject": "Editorial: Introduce term \"Memory event\" to describe Agent Events Record [[EventList]] contents"
-   },
-   {
-    "adate": "2024-08-15T23:35:43-04:00",
-    "author": "Richard Gibson",
-    "date": "2025-10-14T09:51:43-04:00",
-    "hash": "6bff711a36e01122ae83cdd54a940846b5099d53",
-    "parents": "885303903cd39a9cbd04bfbdc3caeb725d6e13f9",
-    "subject": "Editorial: Link directly to ReadSharedMemory as appropriate"
-   },
-   {
-    "adate": "2024-08-15T23:32:37-04:00",
-    "author": "Richard Gibson",
-    "date": "2025-10-14T09:51:41-04:00",
-    "hash": "885303903cd39a9cbd04bfbdc3caeb725d6e13f9",
-    "parents": "a74ae3da1464ca2603fd1104885b0abd4caa6e53",
-    "subject": "Editorial: Make better use of the \"Set\" specification type"
-   },
-   {
-    "adate": "2024-08-15T23:30:45-04:00",
-    "author": "Richard Gibson",
-    "date": "2025-10-14T09:49:15-04:00",
-    "hash": "a74ae3da1464ca2603fd1104885b0abd4caa6e53",
-    "parents": "427a17c664c86ac80e9a09b6cbdb7085bb653014",
-    "subject": "Editorial: Make better use of the \"Shared Data Block event\" term"
-   },
-   {
-    "adate": "2024-08-15T23:18:06-04:00",
-    "author": "Richard Gibson",
-    "date": "2025-10-14T09:49:15-04:00",
-    "hash": "427a17c664c86ac80e9a09b6cbdb7085bb653014",
-    "parents": "76265d835ff6fc07facb8a0912e83c279a7e2009",
-    "subject": "Editorial: Improve formatting in HostGrowSharedArrayBuffer"
-   },
-   {
-    "adate": "2024-08-15T23:16:04-04:00",
-    "author": "Richard Gibson",
-    "date": "2025-10-14T09:49:15-04:00",
-    "hash": "76265d835ff6fc07facb8a0912e83c279a7e2009",
-    "parents": "b830e820441eb4143fbac7738f9f502a24b75058",
-    "subject": "Editorial: Add IsGrowableSharedArrayBuffer for clarity"
-   },
-   {
-    "adate": "2024-08-15T23:14:33-04:00",
-    "author": "Richard Gibson",
-    "date": "2025-10-14T09:49:15-04:00",
-    "hash": "b830e820441eb4143fbac7738f9f502a24b75058",
-    "parents": "92a2786828ba003eaad44758ea591c2e80a22759",
-    "subject": "Editorial: Clean up IsSharedArrayBuffer"
-   },
-   {
-    "adate": "2024-08-15T22:21:22-04:00",
-    "author": "Richard Gibson",
-    "date": "2025-10-14T09:49:15-04:00",
-    "hash": "92a2786828ba003eaad44758ea591c2e80a22759",
-    "parents": "86b5733c7ff73aff635d202329acbb53de80099b",
-    "subject": "Editorial: Clean up TypedArray/DataView bounds checking"
-   }
-  ],
-  "title": "Editorial: Miscellaneous improvements to memory model/(Shared)ArrayBuffer/TypedArray",
-  "updated_at": "2025-10-14T13:57:52Z"
  },
  {
   "base": "7a23e0e83597e4c8cfbbc1856a77cf8fc102e846",
