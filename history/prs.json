@@ -121,50 +121,6 @@
  },
  {
   "base": "86b5733c7ff73aff635d202329acbb53de80099b",
-  "created_at": "2025-10-15T01:14:18Z",
-  "head": "3698bd31107a865eff2cbbbe1b90b750924a5b2f",
-  "login": "tc39",
-  "number": 3705,
-  "ref": "dont-return-if-abrupt",
-  "revs": [
-   {
-    "adate": "2025-10-20T14:16:16-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2025-10-20T14:16:16-07:00",
-    "hash": "3698bd31107a865eff2cbbbe1b90b750924a5b2f",
-    "parents": "292817df8264845efef2f42fdcf3e1f4ef6413f8",
-    "subject": "fixups! note ephemerality"
-   },
-   {
-    "adate": "2025-10-20T11:50:56-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2025-10-20T11:50:56-07:00",
-    "hash": "292817df8264845efef2f42fdcf3e1f4ef6413f8",
-    "parents": "9525da7b21caf6611afd1f6b3025b65e67ba69bf",
-    "subject": "fixup! add another example"
-   },
-   {
-    "adate": "2025-10-14T17:54:53-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2025-10-14T18:11:06-07:00",
-    "hash": "9525da7b21caf6611afd1f6b3025b65e67ba69bf",
-    "parents": "f6e816388d11bff721b861b37cbbf16ed1d985ac",
-    "subject": "Editorial: remove ReturnIfAbrupt and specify `!` and `?` directly"
-   },
-   {
-    "adate": "2025-10-14T17:54:18-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2025-10-14T17:54:18-07:00",
-    "hash": "f6e816388d11bff721b861b37cbbf16ed1d985ac",
-    "parents": "86b5733c7ff73aff635d202329acbb53de80099b",
-    "subject": "Editorial: specify evaluation order for expressions"
-   }
-  ],
-  "title": "Editorial: remove ReturnIfAbrupt and specify ! and ? directly",
-  "updated_at": "2025-10-20T21:16:20Z"
- },
- {
-  "base": "86b5733c7ff73aff635d202329acbb53de80099b",
   "created_at": "2025-10-09T17:53:12Z",
   "head": "8f9457e704af1fc3e73d87e2753b1febe8e7bc93",
   "login": "sajdakabir",
@@ -222,62 +178,6 @@
   ],
   "title": "Editorial: use typical phrasing for Agent Record field access",
   "updated_at": "2025-10-14T15:53:36Z"
- },
- {
-  "base": "86b5733c7ff73aff635d202329acbb53de80099b",
-  "created_at": "2025-10-07T14:24:37Z",
-  "head": "585b8f69f14b942e98325e28f4b893467259e045",
-  "login": "gesa",
-  "number": 3701,
-  "ref": "copyright",
-  "revs": [
-   {
-    "adate": "2025-10-07T16:22:50+02:00",
-    "author": "Aki \ud83c\udf39",
-    "date": "2025-10-07T16:22:50+02:00",
-    "hash": "585b8f69f14b942e98325e28f4b893467259e045",
-    "parents": "86b5733c7ff73aff635d202329acbb53de80099b",
-    "subject": "Update metadata to use correct copyright"
-   }
-  ],
-  "title": "Fix: Update metadata to use correct copyright",
-  "updated_at": "2025-10-07T14:27:02Z"
- },
- {
-  "base": "86b5733c7ff73aff635d202329acbb53de80099b",
-  "created_at": "2025-10-03T18:58:01Z",
-  "head": "530179a17681c413fd1cf4551fdf9db8e5bf8ab8",
-  "login": "tc39",
-  "number": 3700,
-  "ref": "what-is-observed",
-  "revs": [
-   {
-    "adate": "2025-10-03T12:53:16-06:00",
-    "author": "Michael Ficarra",
-    "date": "2025-10-06T13:42:52-06:00",
-    "hash": "530179a17681c413fd1cf4551fdf9db8e5bf8ab8",
-    "parents": "9fe77a96ecda5fd59c8b5e671b3fb2ba52bbe39e",
-    "subject": "Normative: [[IsLockFree8]] also must be consistent"
-   },
-   {
-    "adate": "2025-10-03T12:32:38-06:00",
-    "author": "Michael Ficarra",
-    "date": "2025-10-03T12:32:38-06:00",
-    "hash": "9fe77a96ecda5fd59c8b5e671b3fb2ba52bbe39e",
-    "parents": "e6093288fc00c4289c46c743520126ed74847ce8",
-    "subject": "Editorial: no need to mention exception for unobservable changes"
-   },
-   {
-    "adate": "2025-10-03T12:31:55-06:00",
-    "author": "Michael Ficarra",
-    "date": "2025-10-03T12:31:55-06:00",
-    "hash": "e6093288fc00c4289c46c743520126ed74847ce8",
-    "parents": "86b5733c7ff73aff635d202329acbb53de80099b",
-    "subject": "Editorial: move [[LittleEndian]] constraint next to others"
-   }
-  ],
-  "title": "minor changes to immutability constraints for Agent Record fields",
-  "updated_at": "2025-10-06T19:44:15Z"
  },
  {
   "base": "86b5733c7ff73aff635d202329acbb53de80099b",
@@ -4850,26 +4750,6 @@
   ],
   "title": "Editorial: Provide context for HostImportModuleDynamically requirement",
   "updated_at": "2020-03-27T07:01:30Z"
- },
- {
-  "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
-  "created_at": "2019-06-04T19:23:13Z",
-  "head": "e42a39ac4b59e5aa62fc83726df2aa4b60d7b1e0",
-  "login": "michaelficarra",
-  "number": 1570,
-  "ref": "returnifabrupt",
-  "revs": [
-   {
-    "adate": "2019-06-04T12:14:26-07:00",
-    "author": "Michael Ficarra",
-    "date": "2019-11-13T22:07:57-08:00",
-    "hash": "e42a39ac4b59e5aa62fc83726df2aa4b60d7b1e0",
-    "parents": "c808fe2b7bcc71ff22b06fe96b4260edcc4be5ba",
-    "subject": "Editorial: remove useless step of ReturnIfAbrupt expansion (#1570)"
-   }
-  ],
-  "title": "Editorial: remove useless step of ReturnIfAbrupt expansion",
-  "updated_at": "2020-04-06T23:06:25Z"
  },
  {
   "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
