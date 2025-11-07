@@ -1,5 +1,25 @@
 [
  {
+  "base": "e936549f1c05ac1b206ad4c5817e77ee3ecbc787",
+  "created_at": "2025-11-07T09:18:12Z",
+  "head": "06b98a30ff259a1ee99ab715fb833306adb67a84",
+  "login": "gibson042",
+  "number": 3714,
+  "ref": "proposal-json-parse-with-source",
+  "revs": [
+   {
+    "adate": "2025-11-07T04:15:25-05:00",
+    "author": "Richard Gibson",
+    "date": "2025-11-07T04:15:25-05:00",
+    "hash": "06b98a30ff259a1ee99ab715fb833306adb67a84",
+    "parents": "e936549f1c05ac1b206ad4c5817e77ee3ecbc787",
+    "subject": "Normative: Extend JSON.parse and JSON.stringify for interaction with the source text of primitive values"
+   }
+  ],
+  "title": "Normative: Extend JSON.parse and JSON.stringify for interaction with the source text of primitive values",
+  "updated_at": "2025-11-07T09:21:00Z"
+ },
+ {
   "base": "eb5208bbf31ac5bf968d765a2905df9c041c3e37",
   "created_at": "2025-11-03T16:27:01Z",
   "head": "ddfb9eea15cb723ec969a7ce9341c84bf1115886",
