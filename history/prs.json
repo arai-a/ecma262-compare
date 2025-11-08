@@ -1,6 +1,26 @@
 [
  {
   "base": "e936549f1c05ac1b206ad4c5817e77ee3ecbc787",
+  "created_at": "2025-11-08T00:18:39Z",
+  "head": "743ebfd2a8c94ed3a95cd0c087d7512d32f42e7e",
+  "login": "tc39",
+  "number": 3715,
+  "ref": "unambiguous-export-star-from",
+  "revs": [
+   {
+    "adate": "2025-11-07T16:11:19-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2025-11-07T16:18:08-08:00",
+    "hash": "743ebfd2a8c94ed3a95cd0c087d7512d32f42e7e",
+    "parents": "e936549f1c05ac1b206ad4c5817e77ee3ecbc787",
+    "subject": "Normative: make re-exporting a namespace object in 2 steps behave like 1 step"
+   }
+  ],
+  "title": "Normative: make re-exporting a namespace object in 2 steps behave like 1 step",
+  "updated_at": "2025-11-08T00:21:20Z"
+ },
+ {
+  "base": "e936549f1c05ac1b206ad4c5817e77ee3ecbc787",
   "created_at": "2025-11-07T09:18:12Z",
   "head": "06b98a30ff259a1ee99ab715fb833306adb67a84",
   "login": "gibson042",
