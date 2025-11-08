@@ -1,6 +1,26 @@
 [
  {
   "base": "e936549f1c05ac1b206ad4c5817e77ee3ecbc787",
+  "created_at": "2025-11-08T14:41:59Z",
+  "head": "c2652a95813667732af0ef731be6a170205dd358",
+  "login": "igrep",
+  "number": 3716,
+  "ref": "editorial-Math.f16round",
+  "revs": [
+   {
+    "adate": "2025-11-08T23:33:14+09:00",
+    "author": "YAMAMOTO Yuji",
+    "date": "2025-11-08T23:33:14+09:00",
+    "hash": "c2652a95813667732af0ef731be6a170205dd358",
+    "parents": "4ef8fe08333c5c15279b49a1b739b8786280049c",
+    "subject": "Editorial: correct grammatical errors in the NOTE of `Math.f16round`"
+   }
+  ],
+  "title": "Editorial: correct grammatical errors in and simplify the NOTE of `Math.f16round`",
+  "updated_at": "2025-11-08T15:16:04Z"
+ },
+ {
+  "base": "e936549f1c05ac1b206ad4c5817e77ee3ecbc787",
   "created_at": "2025-11-08T00:18:39Z",
   "head": "743ebfd2a8c94ed3a95cd0c087d7512d32f42e7e",
   "login": "tc39",
