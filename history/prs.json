@@ -22,11 +22,19 @@
  {
   "base": "e936549f1c05ac1b206ad4c5817e77ee3ecbc787",
   "created_at": "2025-11-08T14:41:59Z",
-  "head": "c2652a95813667732af0ef731be6a170205dd358",
+  "head": "7aa12cedb9ab53e17bedf50e19fe1b70d5446ad1",
   "login": "igrep",
   "number": 3716,
   "ref": "editorial-Math.f16round",
   "revs": [
+   {
+    "adate": "2025-11-11T20:46:46+09:00",
+    "author": "YAMAMOTO Yuji",
+    "date": "2025-11-11T20:46:46+09:00",
+    "hash": "7aa12cedb9ab53e17bedf50e19fe1b70d5446ad1",
+    "parents": "c2652a95813667732af0ef731be6a170205dd358",
+    "subject": "Follow the advice"
+   },
    {
     "adate": "2025-11-08T23:33:14+09:00",
     "author": "YAMAMOTO Yuji",
@@ -37,7 +45,7 @@
    }
   ],
   "title": "Editorial: correct grammatical errors in and simplify the NOTE of `Math.f16round`",
-  "updated_at": "2025-11-08T15:16:04Z"
+  "updated_at": "2025-11-11T11:47:18Z"
  },
  {
   "base": "e936549f1c05ac1b206ad4c5817e77ee3ecbc787",
