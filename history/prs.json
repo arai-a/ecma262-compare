@@ -1,6 +1,26 @@
 [
  {
   "base": "e936549f1c05ac1b206ad4c5817e77ee3ecbc787",
+  "created_at": "2025-11-11T03:36:36Z",
+  "head": "9f6d94382157f70432e82c9d6556c44db641c38c",
+  "login": "tc39",
+  "number": 3717,
+  "ref": "import-export",
+  "revs": [
+   {
+    "adate": "2025-11-10T19:34:27-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2025-11-10T19:34:27-08:00",
+    "hash": "9f6d94382157f70432e82c9d6556c44db641c38c",
+    "parents": "e936549f1c05ac1b206ad4c5817e77ee3ecbc787",
+    "subject": "Editorial: fix assert in ResolveExport"
+   }
+  ],
+  "title": "Editorial: fix assert in ResolveExport",
+  "updated_at": "2025-11-11T03:39:20Z"
+ },
+ {
+  "base": "e936549f1c05ac1b206ad4c5817e77ee3ecbc787",
   "created_at": "2025-11-08T14:41:59Z",
   "head": "c2652a95813667732af0ef731be6a170205dd358",
   "login": "igrep",
@@ -22,11 +42,27 @@
  {
   "base": "e936549f1c05ac1b206ad4c5817e77ee3ecbc787",
   "created_at": "2025-11-08T00:18:39Z",
-  "head": "743ebfd2a8c94ed3a95cd0c087d7512d32f42e7e",
+  "head": "3155c54307411d8433c3805fdc835d511ce6fae7",
   "login": "tc39",
   "number": 3715,
   "ref": "unambiguous-export-star-from",
   "revs": [
+   {
+    "adate": "2025-11-10T18:39:35-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2025-11-10T18:39:35-08:00",
+    "hash": "3155c54307411d8433c3805fdc835d511ce6fae7",
+    "parents": "2a64040ba824db342d351960e2c94c7f9121e81f",
+    "subject": "add link to conflict-handling section in note"
+   },
+   {
+    "adate": "2025-11-10T18:31:37-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2025-11-10T18:31:37-08:00",
+    "hash": "2a64040ba824db342d351960e2c94c7f9121e81f",
+    "parents": "743ebfd2a8c94ed3a95cd0c087d7512d32f42e7e",
+    "subject": "fix note"
+   },
    {
     "adate": "2025-11-07T16:11:19-08:00",
     "author": "Kevin Gibbons",
@@ -37,7 +73,7 @@
    }
   ],
   "title": "Normative: make re-exporting a namespace object in 2 steps behave like 1 step",
-  "updated_at": "2025-11-08T00:21:20Z"
+  "updated_at": "2025-11-11T02:41:20Z"
  },
  {
   "base": "e936549f1c05ac1b206ad4c5817e77ee3ecbc787",
