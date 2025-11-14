@@ -2,11 +2,19 @@
  {
   "base": "74d6f30f2b6e41915af2527b65adc8aeebf6f2f4",
   "created_at": "2025-11-13T06:56:49Z",
-  "head": "5e6cc03a2a2042ad2de5eb650d6208abc3462eec",
+  "head": "fa88aa670c6d96418dd7240c553dd69aa8bf12c7",
   "login": "tc39",
   "number": 3722,
   "ref": "Promise.all-AC",
   "revs": [
+   {
+    "adate": "2025-11-14T22:56:01+09:00",
+    "author": "Michael Ficarra",
+    "date": "2025-11-14T23:00:33+09:00",
+    "hash": "fa88aa670c6d96418dd7240c553dd69aa8bf12c7",
+    "parents": "5e6cc03a2a2042ad2de5eb650d6208abc3462eec",
+    "subject": "use a record and add a note"
+   },
    {
     "adate": "2025-11-13T15:49:14+09:00",
     "author": "Michael Ficarra",
@@ -17,7 +25,7 @@
    }
   ],
   "title": "Editorial: use an AC in PerformPromiseAll",
-  "updated_at": "2025-11-13T07:08:18Z"
+  "updated_at": "2025-11-14T14:02:00Z"
  },
  {
   "base": "74d6f30f2b6e41915af2527b65adc8aeebf6f2f4",
