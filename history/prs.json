@@ -22,11 +22,19 @@
  {
   "base": "74d6f30f2b6e41915af2527b65adc8aeebf6f2f4",
   "created_at": "2025-11-17T05:24:53Z",
-  "head": "39232aa6e2ed7ae2588f4c23745646623916a0b7",
+  "head": "e9924b008c84b23ec8fd51cf2ee2901118f12e16",
   "login": "gesa",
   "number": 3723,
   "ref": "clause-depth",
   "revs": [
+   {
+    "adate": "2025-11-17T18:50:30+09:00",
+    "author": "Aki \ud83c\udf39",
+    "date": "2025-11-17T18:50:30+09:00",
+    "hash": "e9924b008c84b23ec8fd51cf2ee2901118f12e16",
+    "parents": "39232aa6e2ed7ae2588f4c23745646623916a0b7",
+    "subject": "Restore --strict"
+   },
    {
     "adate": "2025-11-17T14:20:20+09:00",
     "author": "Aki \ud83c\udf39",
@@ -37,7 +45,7 @@
    }
   ],
   "title": "Meta: Add maximum clause depth to build commands",
-  "updated_at": "2025-11-17T05:53:49Z"
+  "updated_at": "2025-11-17T09:57:53Z"
  },
  {
   "base": "74d6f30f2b6e41915af2527b65adc8aeebf6f2f4",
