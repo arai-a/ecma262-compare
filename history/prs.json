@@ -54,11 +54,27 @@
  {
   "base": "74d6f30f2b6e41915af2527b65adc8aeebf6f2f4",
   "created_at": "2025-11-24T03:44:41Z",
-  "head": "e27ca90d970dc78d38e26df91bd687466587616f",
+  "head": "1ce519361d070fefd31770c82ec9a56d33e8a1d5",
   "login": "jungwngkim",
   "number": 3726,
   "ref": "remove-redundancy",
   "revs": [
+   {
+    "adate": "2025-11-28T17:04:41+09:00",
+    "author": "Jungwoong Kim",
+    "date": "2025-11-28T17:04:41+09:00",
+    "hash": "1ce519361d070fefd31770c82ec9a56d33e8a1d5",
+    "parents": "f0cce3d49794aa78283a6be60802317b8bf6457a",
+    "subject": "Editorial: Revert removing 'already' in has-binding condition"
+   },
+   {
+    "adate": "2025-11-28T17:01:47+09:00",
+    "author": "Jungwoong Kim",
+    "date": "2025-11-28T17:01:47+09:00",
+    "hash": "f0cce3d49794aa78283a6be60802317b8bf6457a",
+    "parents": "e27ca90d970dc78d38e26df91bd687466587616f",
+    "subject": "Editorial: Wrap <emu-meta> around whole expression"
+   },
    {
     "adate": "2025-11-24T12:38:27+09:00",
     "author": "Jungwoong Kim",
@@ -117,7 +133,7 @@
    }
   ],
   "title": "Editorial: Reduce redundant expressions in spec",
-  "updated_at": "2025-11-24T03:55:08Z"
+  "updated_at": "2025-11-28T08:07:49Z"
  },
  {
   "base": "74d6f30f2b6e41915af2527b65adc8aeebf6f2f4",
