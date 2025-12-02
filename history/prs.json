@@ -1,8 +1,28 @@
 [
  {
   "base": "4d2116ba12587abb32c362242270f1d6706b4e1f",
+  "created_at": "2025-12-02T16:23:01Z",
+  "head": "5cc4d25c2e66c5dfee66b52ae67db5eeb27e29ef",
+  "login": "tc39",
+  "number": 3730,
+  "ref": "Promise.allSettled-AC",
+  "revs": [
+   {
+    "adate": "2025-12-02T09:19:56-07:00",
+    "author": "Michael Ficarra",
+    "date": "2025-12-02T09:22:40-07:00",
+    "hash": "5cc4d25c2e66c5dfee66b52ae67db5eeb27e29ef",
+    "parents": "4d2116ba12587abb32c362242270f1d6706b4e1f",
+    "subject": "Editorial: use ACs in PerformPromiseAllSettled"
+   }
+  ],
+  "title": "Editorial: use ACs in PerformPromiseAllSettled",
+  "updated_at": "2025-12-02T16:25:56Z"
+ },
+ {
+  "base": "4d2116ba12587abb32c362242270f1d6706b4e1f",
   "created_at": "2025-12-02T03:18:16Z",
-  "head": "a71db9cdad3400100bcc8ac0894e62927b3ad692",
+  "head": "b6983924616858d8ee28b3a86a678b85654f523f",
   "login": "tc39",
   "number": 3729,
   "ref": "Promise.any-AC",
@@ -10,14 +30,14 @@
    {
     "adate": "2025-12-01T20:09:36-07:00",
     "author": "Michael Ficarra",
-    "date": "2025-12-01T20:09:36-07:00",
-    "hash": "a71db9cdad3400100bcc8ac0894e62927b3ad692",
+    "date": "2025-12-02T09:23:49-07:00",
+    "hash": "b6983924616858d8ee28b3a86a678b85654f523f",
     "parents": "4d2116ba12587abb32c362242270f1d6706b4e1f",
     "subject": "Editorial: use an AC in PerformPromiseAny"
    }
   ],
   "title": "Editorial: use an AC in PerformPromiseAny",
-  "updated_at": "2025-12-02T03:21:42Z"
+  "updated_at": "2025-12-02T17:11:13Z"
  },
  {
   "base": "74d6f30f2b6e41915af2527b65adc8aeebf6f2f4",
