@@ -2,11 +2,19 @@
  {
   "base": "4d2116ba12587abb32c362242270f1d6706b4e1f",
   "created_at": "2025-12-02T16:23:01Z",
-  "head": "5cc4d25c2e66c5dfee66b52ae67db5eeb27e29ef",
+  "head": "b953d758b4ffba0c143b51f6d46ef37e4f178b6d",
   "login": "tc39",
   "number": 3730,
   "ref": "Promise.allSettled-AC",
   "revs": [
+   {
+    "adate": "2025-12-02T14:08:27-07:00",
+    "author": "Michael Ficarra",
+    "date": "2025-12-02T14:08:27-07:00",
+    "hash": "b953d758b4ffba0c143b51f6d46ef37e4f178b6d",
+    "parents": "5cc4d25c2e66c5dfee66b52ae67db5eeb27e29ef",
+    "subject": "wording tweak"
+   },
    {
     "adate": "2025-12-02T09:19:56-07:00",
     "author": "Michael Ficarra",
@@ -17,7 +25,7 @@
    }
   ],
   "title": "Editorial: use ACs in PerformPromiseAllSettled",
-  "updated_at": "2025-12-02T16:25:56Z"
+  "updated_at": "2025-12-02T21:42:03Z"
  },
  {
   "base": "4d2116ba12587abb32c362242270f1d6706b4e1f",
