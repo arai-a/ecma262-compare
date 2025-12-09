@@ -436,24 +436,32 @@
   "updated_at": "2025-09-23T17:22:50Z"
  },
  {
-  "base": "52187c8e72a87fe4d17e0919762f8815d338df4d",
+  "base": "44d79b2fde777234fe379bb00e4e722ec01256a1",
   "created_at": "2025-08-25T22:34:48Z",
-  "head": "9c566440b9c79a5ac312857061304cf15754aa76",
+  "head": "d213786034942d6470c2266d757c64d3309b172c",
   "login": "tc39",
   "number": 3682,
   "ref": "object-mandatory-param",
   "revs": [
    {
+    "adate": "2025-12-09T13:47:02-07:00",
+    "author": "Michael Ficarra",
+    "date": "2025-12-09T13:47:02-07:00",
+    "hash": "d213786034942d6470c2266d757c64d3309b172c",
+    "parents": "d6b6d64d31968fbf1929d0cea2ea5dd639551275",
+    "subject": "revert to the list format for now"
+   },
+   {
     "adate": "2025-08-25T16:26:42-06:00",
     "author": "Michael Ficarra",
-    "date": "2025-08-25T16:33:40-06:00",
-    "hash": "9c566440b9c79a5ac312857061304cf15754aa76",
-    "parents": "52187c8e72a87fe4d17e0919762f8815d338df4d",
+    "date": "2025-12-09T13:46:17-07:00",
+    "hash": "d6b6d64d31968fbf1929d0cea2ea5dd639551275",
+    "parents": "44d79b2fde777234fe379bb00e4e722ec01256a1",
     "subject": "Editorial: the Object constructor's parameter is expected to be present"
    }
   ],
   "title": "Editorial: the Object constructor's parameter is expected to be present",
-  "updated_at": "2025-08-25T22:40:20Z"
+  "updated_at": "2025-12-09T20:54:59Z"
  },
  {
   "base": "6f61b741a70658a38ebd4c39ec60d11454f3ec55",
@@ -3400,32 +3408,40 @@
   "updated_at": "2022-11-29T09:36:27Z"
  },
  {
-  "base": "097963e9cbc4c2ed4b1add21688c2180f392d2dc",
+  "base": "44d79b2fde777234fe379bb00e4e722ec01256a1",
   "created_at": "2022-10-24T20:33:20Z",
-  "head": "f3e3f939c97e387c506a26de41330530855b1be9",
+  "head": "4d591cb810455f0a1fa2fece7be9b84bea1bbb83",
   "login": "tc39",
   "number": 2942,
   "ref": "add-builtin-async-function-objects",
   "revs": [
    {
+    "adate": "2025-12-09T13:41:10-07:00",
+    "author": "Michael Ficarra",
+    "date": "2025-12-09T13:41:10-07:00",
+    "hash": "4d591cb810455f0a1fa2fece7be9b84bea1bbb83",
+    "parents": "11f4faf5c9bbccba3b105e55c0e3938e2c9e552f",
+    "subject": "just describe some built-in function objects as async"
+   },
+   {
     "adate": "2025-08-19T19:03:59-06:00",
     "author": "Michael Ficarra",
-    "date": "2025-08-19T19:03:59-06:00",
-    "hash": "f3e3f939c97e387c506a26de41330530855b1be9",
-    "parents": "5c71701d5ae2353427302946c6eda703771b8c08",
+    "date": "2025-12-09T11:25:55-07:00",
+    "hash": "11f4faf5c9bbccba3b105e55c0e3938e2c9e552f",
+    "parents": "113fc5ba443a6b0e035e0ebf29308d59bd82c99a",
     "subject": "address comments"
    },
    {
     "adate": "2022-10-24T14:27:38-06:00",
     "author": "Michael Ficarra",
-    "date": "2025-08-19T17:28:42-06:00",
-    "hash": "5c71701d5ae2353427302946c6eda703771b8c08",
-    "parents": "097963e9cbc4c2ed4b1add21688c2180f392d2dc",
+    "date": "2025-12-09T11:25:55-07:00",
+    "hash": "113fc5ba443a6b0e035e0ebf29308d59bd82c99a",
+    "parents": "44d79b2fde777234fe379bb00e4e722ec01256a1",
     "subject": "Editorial: support built-in async functions"
    }
   ],
   "title": "Editorial: support built-in async functions",
-  "updated_at": "2025-08-20T01:05:29Z"
+  "updated_at": "2025-12-09T20:45:22Z"
  },
  {
   "base": "8aac12603c99f94d982317832b0e03c13684ce0a",
