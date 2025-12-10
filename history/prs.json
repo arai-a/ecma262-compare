@@ -3438,11 +3438,19 @@
  {
   "base": "44d79b2fde777234fe379bb00e4e722ec01256a1",
   "created_at": "2022-10-24T20:33:20Z",
-  "head": "4d591cb810455f0a1fa2fece7be9b84bea1bbb83",
+  "head": "9b3bcaed1c5435ccf511112c3702820c3d9b96a0",
   "login": "tc39",
   "number": 2942,
   "ref": "add-builtin-async-function-objects",
   "revs": [
+   {
+    "adate": "2025-12-09T19:54:14-07:00",
+    "author": "Michael Ficarra",
+    "date": "2025-12-09T19:58:43-07:00",
+    "hash": "9b3bcaed1c5435ccf511112c3702820c3d9b96a0",
+    "parents": "4d591cb810455f0a1fa2fece7be9b84bea1bbb83",
+    "subject": "move the change into BuiltinCallOrConstruct"
+   },
    {
     "adate": "2025-12-09T13:41:10-07:00",
     "author": "Michael Ficarra",
@@ -3469,7 +3477,7 @@
    }
   ],
   "title": "Editorial: support built-in async functions",
-  "updated_at": "2025-12-09T20:45:22Z"
+  "updated_at": "2025-12-10T03:01:36Z"
  },
  {
   "base": "8aac12603c99f94d982317832b0e03c13684ce0a",
