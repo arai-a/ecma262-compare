@@ -1,5 +1,29 @@
 [
  {
+  "adate": "2025-12-09T21:39:19-08:00",
+  "author": "Nicol\u00f2 Ribaudo",
+  "date": "2025-12-09T21:39:19-08:00",
+  "hash": "47520386ede6b9e01c4361677ff62a448e132b58",
+  "parents": "594e44ed479dabcf3825ae7120465b0459530c05",
+  "subject": "Normative: Align async modules rejection order with fulfillment order"
+ },
+ {
+  "adate": "2025-12-09T21:32:08-08:00",
+  "author": "Michael Ficarra",
+  "date": "2025-12-09T21:32:08-08:00",
+  "hash": "594e44ed479dabcf3825ae7120465b0459530c05",
+  "parents": "bc1c4451371faf1f219b310c08094b4bd9cbde37",
+  "subject": "Editorial: the Object constructor's parameter is expected to be present (#3682)"
+ },
+ {
+  "adate": "2025-12-09T21:20:00-08:00",
+  "author": "Kenta Moriuchi",
+  "date": "2025-12-09T21:20:00-08:00",
+  "hash": "bc1c4451371faf1f219b310c08094b4bd9cbde37",
+  "parents": "44d79b2fde777234fe379bb00e4e722ec01256a1",
+  "subject": "Normative: Don't call well-known Symbol methods for `RegExp` on primitive values (#3009)"
+ },
+ {
   "adate": "2025-12-04T14:33:02-08:00",
   "author": "Michael Ficarra",
   "date": "2025-12-04T14:33:02-08:00",
