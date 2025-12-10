@@ -2,11 +2,19 @@
  {
   "base": "44d79b2fde777234fe379bb00e4e722ec01256a1",
   "created_at": "2025-12-09T22:02:42Z",
-  "head": "89e71dc9f1b24a757b61e9b671a1d270f7ba6606",
+  "head": "be018644cf0cf3a9bb0e1401830c8991a7036861",
   "login": "tc39",
   "number": 3734,
   "ref": "CreateResolvingFunctions-AC",
   "revs": [
+   {
+    "adate": "2025-12-09T18:34:18-07:00",
+    "author": "Michael Ficarra",
+    "date": "2025-12-09T18:34:18-07:00",
+    "hash": "be018644cf0cf3a9bb0e1401830c8991a7036861",
+    "parents": "89e71dc9f1b24a757b61e9b671a1d270f7ba6606",
+    "subject": "remove dead steps"
+   },
    {
     "adate": "2025-12-09T15:00:21-07:00",
     "author": "Michael Ficarra",
@@ -17,7 +25,7 @@
    }
   ],
   "title": "Editorial: use an AC in CreateResolvingFunctions",
-  "updated_at": "2025-12-09T22:05:47Z"
+  "updated_at": "2025-12-10T01:34:39Z"
  },
  {
   "base": "4d2116ba12587abb32c362242270f1d6706b4e1f",
