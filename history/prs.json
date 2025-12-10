@@ -2,11 +2,27 @@
  {
   "base": "47520386ede6b9e01c4361677ff62a448e132b58",
   "created_at": "2025-12-10T17:18:18Z",
-  "head": "481cdabc15983a376e3e952d173cf6bc964aba9a",
+  "head": "1fc4456171123e67a1dcd01c94f99c7536da0733",
   "login": "gibson042",
   "number": 3735,
   "ref": "2025-12-reword-introduction",
   "revs": [
+   {
+    "adate": "2025-12-10T16:00:45-05:00",
+    "author": "Richard Gibson",
+    "date": "2025-12-10T16:00:45-05:00",
+    "hash": "1fc4456171123e67a1dcd01c94f99c7536da0733",
+    "parents": "c474a84c223b63f1af76a3bf9bf960ed9ed2711c",
+    "subject": "Editorial: Remove irrelevant sentence"
+   },
+   {
+    "adate": "2025-12-10T15:59:33-05:00",
+    "author": "Richard Gibson",
+    "date": "2025-12-10T15:59:33-05:00",
+    "hash": "c474a84c223b63f1af76a3bf9bf960ed9ed2711c",
+    "parents": "481cdabc15983a376e3e952d173cf6bc964aba9a",
+    "subject": "fixup! Editorial: Reword introductory prose"
+   },
    {
     "adate": "2025-12-10T12:15:38-05:00",
     "author": "Richard Gibson",
@@ -17,7 +33,7 @@
    }
   ],
   "title": "Editorial: Reword introductory prose",
-  "updated_at": "2025-12-10T17:21:36Z"
+  "updated_at": "2025-12-10T21:09:23Z"
  },
  {
   "base": "44d79b2fde777234fe379bb00e4e722ec01256a1",
