@@ -220,56 +220,72 @@
   "updated_at": "2025-11-28T08:07:49Z"
  },
  {
-  "base": "74d6f30f2b6e41915af2527b65adc8aeebf6f2f4",
+  "base": "47520386ede6b9e01c4361677ff62a448e132b58",
   "created_at": "2025-11-13T03:37:14Z",
-  "head": "25f195d0deff521110e537960ce1f2d7c4d39f0b",
+  "head": "63f3421378e9796e482cb1e8ffe8e1d4e8995709",
   "login": "jhnaldo",
   "number": 3721,
   "ref": "esmeta-yetcheck",
   "revs": [
    {
+    "adate": "2025-12-16T16:06:05+09:00",
+    "author": "Jihyeok Park",
+    "date": "2025-12-16T16:07:06+09:00",
+    "hash": "63f3421378e9796e482cb1e8ffe8e1d4e8995709",
+    "parents": "cef7c76d28f536c7446e4980f75d7896aea8af81",
+    "subject": "Update .github/workflows/esmeta-installer/action.yml"
+   },
+   {
+    "adate": "2025-12-16T15:59:41+09:00",
+    "author": "Jihyeok Park",
+    "date": "2025-12-16T16:07:06+09:00",
+    "hash": "cef7c76d28f536c7446e4980f75d7896aea8af81",
+    "parents": "f2b184ff97101f54258d86d3d8d327422195a72f",
+    "subject": "Update .github/workflows/esmeta-installer/action.yml"
+   },
+   {
     "adate": "2025-11-14T23:23:52+09:00",
     "author": "Jihyeok Park",
-    "date": "2025-11-14T23:23:52+09:00",
-    "hash": "25f195d0deff521110e537960ce1f2d7c4d39f0b",
-    "parents": "0238dff0d13d75f016d24250a8b96b45cb937867",
+    "date": "2025-12-16T16:07:06+09:00",
+    "hash": "f2b184ff97101f54258d86d3d8d327422195a72f",
+    "parents": "4cb3c2a767dce4d1775072075678d28c4e646a9f",
     "subject": "Update .github/workflows/esmeta-yetcheck.yml"
    },
    {
     "adate": "2025-11-14T23:22:10+09:00",
     "author": "Jihyeok Park",
-    "date": "2025-11-14T23:22:10+09:00",
-    "hash": "0238dff0d13d75f016d24250a8b96b45cb937867",
-    "parents": "3e8fba06cc679971bfba1a8c910fd3e426c75c16",
+    "date": "2025-12-16T16:07:06+09:00",
+    "hash": "4cb3c2a767dce4d1775072075678d28c4e646a9f",
+    "parents": "17de050247f7e1e0ee6c02629b94e4156617ebe5",
     "subject": "Update .github/workflows/esmeta-yetcheck.yml"
    },
    {
     "adate": "2025-11-14T12:39:18+09:00",
     "author": "Jihyeok Park",
-    "date": "2025-11-14T12:39:18+09:00",
-    "hash": "3e8fba06cc679971bfba1a8c910fd3e426c75c16",
-    "parents": "12908abb4792dffa87f843c22dd47c0f2bea299b",
+    "date": "2025-12-16T16:07:06+09:00",
+    "hash": "17de050247f7e1e0ee6c02629b94e4156617ebe5",
+    "parents": "ba606946e0af977e12ddfe7dbf089f214de983be",
     "subject": "Update .github/workflows/esmeta-yetcheck.yml"
    },
    {
     "adate": "2025-11-14T12:34:21+09:00",
     "author": "Jihyeok Park",
-    "date": "2025-11-14T12:34:21+09:00",
-    "hash": "12908abb4792dffa87f843c22dd47c0f2bea299b",
-    "parents": "c6e8ab10fcaa03e03eda38ce2e924de83dac39b5",
+    "date": "2025-12-16T16:07:06+09:00",
+    "hash": "ba606946e0af977e12ddfe7dbf089f214de983be",
+    "parents": "2adbe5bd5559f6ac529c92e3440a22b796de328f",
     "subject": "Add unified esmeta-installer"
    },
    {
     "adate": "2025-11-13T12:29:32+09:00",
     "author": "Jihyeok Park",
-    "date": "2025-11-13T12:38:00+09:00",
-    "hash": "c6e8ab10fcaa03e03eda38ce2e924de83dac39b5",
-    "parents": "74d6f30f2b6e41915af2527b65adc8aeebf6f2f4",
+    "date": "2025-12-16T16:07:06+09:00",
+    "hash": "2adbe5bd5559f6ac529c92e3440a22b796de328f",
+    "parents": "47520386ede6b9e01c4361677ff62a448e132b58",
     "subject": "Meta: add yet phrase checking using ESMeta"
    }
   ],
   "title": "Meta: add yet phrase checking using ESMeta",
-  "updated_at": "2025-11-14T14:24:48Z"
+  "updated_at": "2025-12-16T07:07:07Z"
  },
  {
   "base": "e936549f1c05ac1b206ad4c5817e77ee3ecbc787",
