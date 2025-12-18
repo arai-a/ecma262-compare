@@ -1,67 +1,23 @@
 [
  {
-  "base": "47520386ede6b9e01c4361677ff62a448e132b58",
-  "created_at": "2025-12-10T17:18:18Z",
-  "head": "1fc4456171123e67a1dcd01c94f99c7536da0733",
-  "login": "gibson042",
-  "number": 3735,
-  "ref": "2025-12-reword-introduction",
+  "base": "d237611b447a35f16512dd375ffec3e072491890",
+  "created_at": "2025-12-18T07:40:25Z",
+  "head": "57415a94e87d3eed4b61bfd55f4280f8394df706",
+  "login": "nathannewyen",
+  "number": 3736,
+  "ref": "editorial/3684-audit-short-bulleted-lists",
   "revs": [
    {
-    "adate": "2025-12-10T16:00:45-05:00",
-    "author": "Richard Gibson",
-    "date": "2025-12-10T16:00:45-05:00",
-    "hash": "1fc4456171123e67a1dcd01c94f99c7536da0733",
-    "parents": "c474a84c223b63f1af76a3bf9bf960ed9ed2711c",
-    "subject": "Editorial: Remove irrelevant sentence"
-   },
-   {
-    "adate": "2025-12-10T15:59:33-05:00",
-    "author": "Richard Gibson",
-    "date": "2025-12-10T15:59:33-05:00",
-    "hash": "c474a84c223b63f1af76a3bf9bf960ed9ed2711c",
-    "parents": "481cdabc15983a376e3e952d173cf6bc964aba9a",
-    "subject": "fixup! Editorial: Reword introductory prose"
-   },
-   {
-    "adate": "2025-12-10T12:15:38-05:00",
-    "author": "Richard Gibson",
-    "date": "2025-12-10T12:15:38-05:00",
-    "hash": "481cdabc15983a376e3e952d173cf6bc964aba9a",
-    "parents": "47520386ede6b9e01c4361677ff62a448e132b58",
-    "subject": "Editorial: Reword introductory prose"
+    "adate": "2025-12-18T02:40:10-05:00",
+    "author": "Nathan Nguyen",
+    "date": "2025-12-18T02:40:10-05:00",
+    "hash": "57415a94e87d3eed4b61bfd55f4280f8394df706",
+    "parents": "d237611b447a35f16512dd375ffec3e072491890",
+    "subject": "Editorial: convert single-item lists to prose"
    }
   ],
-  "title": "Editorial: Reword introductory prose",
-  "updated_at": "2025-12-10T21:09:23Z"
- },
- {
-  "base": "44d79b2fde777234fe379bb00e4e722ec01256a1",
-  "created_at": "2025-12-09T22:02:42Z",
-  "head": "be018644cf0cf3a9bb0e1401830c8991a7036861",
-  "login": "tc39",
-  "number": 3734,
-  "ref": "CreateResolvingFunctions-AC",
-  "revs": [
-   {
-    "adate": "2025-12-09T18:34:18-07:00",
-    "author": "Michael Ficarra",
-    "date": "2025-12-09T18:34:18-07:00",
-    "hash": "be018644cf0cf3a9bb0e1401830c8991a7036861",
-    "parents": "89e71dc9f1b24a757b61e9b671a1d270f7ba6606",
-    "subject": "remove dead steps"
-   },
-   {
-    "adate": "2025-12-09T15:00:21-07:00",
-    "author": "Michael Ficarra",
-    "date": "2025-12-09T15:00:21-07:00",
-    "hash": "89e71dc9f1b24a757b61e9b671a1d270f7ba6606",
-    "parents": "44d79b2fde777234fe379bb00e4e722ec01256a1",
-    "subject": "Editorial: use an AC in CreateResolvingFunctions"
-   }
-  ],
-  "title": "Editorial: use an AC in CreateResolvingFunctions",
-  "updated_at": "2025-12-10T01:34:39Z"
+  "title": "Editorial: convert single-item lists to prose",
+  "updated_at": "2025-12-18T07:40:25Z"
  },
  {
   "base": "4d2116ba12587abb32c362242270f1d6706b4e1f",
@@ -142,158 +98,6 @@
   ],
   "title": "Layering: Revamp InitializeHostDefinedRealm",
   "updated_at": "2025-12-18T01:17:55Z"
- },
- {
-  "base": "74d6f30f2b6e41915af2527b65adc8aeebf6f2f4",
-  "created_at": "2025-11-24T03:44:41Z",
-  "head": "1ce519361d070fefd31770c82ec9a56d33e8a1d5",
-  "login": "jungwngkim",
-  "number": 3726,
-  "ref": "remove-redundancy",
-  "revs": [
-   {
-    "adate": "2025-11-28T17:04:41+09:00",
-    "author": "Jungwoong Kim",
-    "date": "2025-11-28T17:04:41+09:00",
-    "hash": "1ce519361d070fefd31770c82ec9a56d33e8a1d5",
-    "parents": "f0cce3d49794aa78283a6be60802317b8bf6457a",
-    "subject": "Editorial: Revert removing 'already' in has-binding condition"
-   },
-   {
-    "adate": "2025-11-28T17:01:47+09:00",
-    "author": "Jungwoong Kim",
-    "date": "2025-11-28T17:01:47+09:00",
-    "hash": "f0cce3d49794aa78283a6be60802317b8bf6457a",
-    "parents": "e27ca90d970dc78d38e26df91bd687466587616f",
-    "subject": "Editorial: Wrap <emu-meta> around whole expression"
-   },
-   {
-    "adate": "2025-11-24T12:38:27+09:00",
-    "author": "Jungwoong Kim",
-    "date": "2025-11-24T12:38:27+09:00",
-    "hash": "e27ca90d970dc78d38e26df91bd687466587616f",
-    "parents": "1e7a7fe4dda4ab4edb61861c304606cd7832845f",
-    "subject": "Editorial: Fix typos while unifying <emu-meta>"
-   },
-   {
-    "adate": "2025-11-14T14:10:01+09:00",
-    "author": "Jungwoong Kim",
-    "date": "2025-11-21T19:53:09+09:00",
-    "hash": "1e7a7fe4dda4ab4edb61861c304606cd7832845f",
-    "parents": "cb214834ffc6b32cb23c1da9b1959483989074ae",
-    "subject": "Editorial: Remove 'already' in has-binding condition"
-   },
-   {
-    "adate": "2025-11-13T16:12:25+09:00",
-    "author": "Jungwoong Kim",
-    "date": "2025-11-21T19:46:11+09:00",
-    "hash": "cb214834ffc6b32cb23c1da9b1959483989074ae",
-    "parents": "3065e39481ce58f7779866ddbffbbe7303ae22c7",
-    "subject": "Editorial: Unify 'described' and 'specified' in Set-as step"
-   },
-   {
-    "adate": "2025-11-13T16:09:51+09:00",
-    "author": "Jungwoong Kim",
-    "date": "2025-11-21T19:46:11+09:00",
-    "hash": "3065e39481ce58f7779866ddbffbbe7303ae22c7",
-    "parents": "5d2b52a8f8bcf26c7d9f527f7e54d7b0a85b99c9",
-    "subject": "Editorial: Remove 'to the end' in Append step"
-   },
-   {
-    "adate": "2025-11-21T19:37:50+09:00",
-    "author": "Jungwoong Kim",
-    "date": "2025-11-21T19:45:22+09:00",
-    "hash": "5d2b52a8f8bcf26c7d9f527f7e54d7b0a85b99c9",
-    "parents": "138bf632baeedc1429aa439e9e8ff31d9aff7de4",
-    "subject": "Editorial: Remove 'also' in has-internalslot condition"
-   },
-   {
-    "adate": "2025-11-21T19:33:50+09:00",
-    "author": "Jungwoong Kim",
-    "date": "2025-11-21T19:45:03+09:00",
-    "hash": "138bf632baeedc1429aa439e9e8ff31d9aff7de4",
-    "parents": "9d484911eb4eff1d69427d309a05ee5b6c41e6a1",
-    "subject": "Editorial: Unify position of <emu-meta suppress-effects=\"user-code\">"
-   },
-   {
-    "adate": "2025-11-21T19:30:50+09:00",
-    "author": "Jungwoong Kim",
-    "date": "2025-11-21T19:42:39+09:00",
-    "hash": "9d484911eb4eff1d69427d309a05ee5b6c41e6a1",
-    "parents": "74d6f30f2b6e41915af2527b65adc8aeebf6f2f4",
-    "subject": "Editorial: Unify position of <emu-meta effects=\"user-code\">"
-   }
-  ],
-  "title": "Editorial: Reduce redundant expressions in spec",
-  "updated_at": "2025-11-28T08:07:49Z"
- },
- {
-  "base": "47520386ede6b9e01c4361677ff62a448e132b58",
-  "created_at": "2025-11-13T03:37:14Z",
-  "head": "63f3421378e9796e482cb1e8ffe8e1d4e8995709",
-  "login": "jhnaldo",
-  "number": 3721,
-  "ref": "esmeta-yetcheck",
-  "revs": [
-   {
-    "adate": "2025-12-16T16:06:05+09:00",
-    "author": "Jihyeok Park",
-    "date": "2025-12-16T16:07:06+09:00",
-    "hash": "63f3421378e9796e482cb1e8ffe8e1d4e8995709",
-    "parents": "cef7c76d28f536c7446e4980f75d7896aea8af81",
-    "subject": "Update .github/workflows/esmeta-installer/action.yml"
-   },
-   {
-    "adate": "2025-12-16T15:59:41+09:00",
-    "author": "Jihyeok Park",
-    "date": "2025-12-16T16:07:06+09:00",
-    "hash": "cef7c76d28f536c7446e4980f75d7896aea8af81",
-    "parents": "f2b184ff97101f54258d86d3d8d327422195a72f",
-    "subject": "Update .github/workflows/esmeta-installer/action.yml"
-   },
-   {
-    "adate": "2025-11-14T23:23:52+09:00",
-    "author": "Jihyeok Park",
-    "date": "2025-12-16T16:07:06+09:00",
-    "hash": "f2b184ff97101f54258d86d3d8d327422195a72f",
-    "parents": "4cb3c2a767dce4d1775072075678d28c4e646a9f",
-    "subject": "Update .github/workflows/esmeta-yetcheck.yml"
-   },
-   {
-    "adate": "2025-11-14T23:22:10+09:00",
-    "author": "Jihyeok Park",
-    "date": "2025-12-16T16:07:06+09:00",
-    "hash": "4cb3c2a767dce4d1775072075678d28c4e646a9f",
-    "parents": "17de050247f7e1e0ee6c02629b94e4156617ebe5",
-    "subject": "Update .github/workflows/esmeta-yetcheck.yml"
-   },
-   {
-    "adate": "2025-11-14T12:39:18+09:00",
-    "author": "Jihyeok Park",
-    "date": "2025-12-16T16:07:06+09:00",
-    "hash": "17de050247f7e1e0ee6c02629b94e4156617ebe5",
-    "parents": "ba606946e0af977e12ddfe7dbf089f214de983be",
-    "subject": "Update .github/workflows/esmeta-yetcheck.yml"
-   },
-   {
-    "adate": "2025-11-14T12:34:21+09:00",
-    "author": "Jihyeok Park",
-    "date": "2025-12-16T16:07:06+09:00",
-    "hash": "ba606946e0af977e12ddfe7dbf089f214de983be",
-    "parents": "2adbe5bd5559f6ac529c92e3440a22b796de328f",
-    "subject": "Add unified esmeta-installer"
-   },
-   {
-    "adate": "2025-11-13T12:29:32+09:00",
-    "author": "Jihyeok Park",
-    "date": "2025-12-16T16:07:06+09:00",
-    "hash": "2adbe5bd5559f6ac529c92e3440a22b796de328f",
-    "parents": "47520386ede6b9e01c4361677ff62a448e132b58",
-    "subject": "Meta: add yet phrase checking using ESMeta"
-   }
-  ],
-  "title": "Meta: add yet phrase checking using ESMeta",
-  "updated_at": "2025-12-16T07:07:07Z"
  },
  {
   "base": "e936549f1c05ac1b206ad4c5817e77ee3ecbc787",
@@ -1066,106 +870,6 @@
   ],
   "title": "Editorial: Fix incorrect use of UnicodeMatchPropertyValue",
   "updated_at": "2025-05-11T00:04:21Z"
- },
- {
-  "base": "09d4b3b675d933585ddf86001022fc79aca32ba9",
-  "created_at": "2025-05-01T13:49:23Z",
-  "head": "aa8341664c7336f08027ef303751f5cc52132c71",
-  "login": "js-choi",
-  "number": 3581,
-  "ref": "add-array-from-async",
-  "revs": [
-   {
-    "adate": "2025-05-29T11:55:15-06:00",
-    "author": "J.\u00a0S.\u00a0Choi",
-    "date": "2025-05-29T11:55:15-06:00",
-    "hash": "aa8341664c7336f08027ef303751f5cc52132c71",
-    "parents": "8462af1e87b6f4fa3ac67c6b929ab2affd011db3 09d4b3b675d933585ddf86001022fc79aca32ba9",
-    "subject": "Merge branch 'add-builtin-async-function-objects' into add-array-from-async"
-   },
-   {
-    "adate": "2025-05-28T15:38:02-06:00",
-    "author": "J.\u00a0S.\u00a0Choi",
-    "date": "2025-05-28T15:38:02-06:00",
-    "hash": "8462af1e87b6f4fa3ac67c6b929ab2affd011db3",
-    "parents": "680ba5445046da4ceac82c1bec697d82ab7f64cc",
-    "subject": "Editorial: Fix indentation formatting in Array.fromAsync behavior"
-   },
-   {
-    "adate": "2025-05-28T15:25:22-06:00",
-    "author": "J.\u00a0S.\u00a0Choi",
-    "date": "2025-05-28T15:25:22-06:00",
-    "hash": "680ba5445046da4ceac82c1bec697d82ab7f64cc",
-    "parents": "fc28be7147d8236c1dfcc79e95f01c620a187e51",
-    "subject": "Editorial: Fix typo in Array.fromAsync behavior"
-   },
-   {
-    "adate": "2025-05-28T09:04:52-06:00",
-    "author": "J.\u00a0S.\u00a0Choi",
-    "date": "2025-05-28T09:04:52-06:00",
-    "hash": "fc28be7147d8236c1dfcc79e95f01c620a187e51",
-    "parents": "a55e8823be6b5435c4c113e44c1cb05de8870b63",
-    "subject": "Editorial: Explicitly mark Array.fromAsync as async; rename asyncItems arg to items"
-   },
-   {
-    "adate": "2025-05-28T09:02:46-06:00",
-    "author": "J.\u00a0S.\u00a0Choi",
-    "date": "2025-05-28T09:02:46-06:00",
-    "hash": "a55e8823be6b5435c4c113e44c1cb05de8870b63",
-    "parents": "b4438b920515b62bc149539dff06ec1d98f45f91",
-    "subject": "Editorial: Simplify branching"
-   },
-   {
-    "adate": "2025-05-28T08:15:00-06:00",
-    "author": "J.\u00a0S.\u00a0Choi",
-    "date": "2025-05-28T08:15:00-06:00",
-    "hash": "b4438b920515b62bc149539dff06ec1d98f45f91",
-    "parents": "09fe8d132748c0e87b204de727b522c1c91b2239",
-    "subject": "Editorial: Change Array.fromAsync asyncItems note"
-   },
-   {
-    "adate": "2025-05-21T21:17:52-06:00",
-    "author": "J.\u00a0S.\u00a0Choi",
-    "date": "2025-05-21T21:17:52-06:00",
-    "hash": "09fe8d132748c0e87b204de727b522c1c91b2239",
-    "parents": "1b2d5bb9e0fb5d19cbcdd3b9206f72981514bbf8",
-    "subject": "Editorial: Change Array.from/fromAsync from \"method\"s to \"function\"s"
-   },
-   {
-    "adate": "2025-05-21T20:15:54-06:00",
-    "author": "Michael Ficarra",
-    "date": "2025-05-21T20:15:54-06:00",
-    "hash": "09d4b3b675d933585ddf86001022fc79aca32ba9",
-    "parents": "a545cb8623e9f107c40641402109fb9265c0ba38",
-    "subject": "accept review feedback"
-   },
-   {
-    "adate": "2025-05-21T17:08:48-06:00",
-    "author": "J.\u00a0S.\u00a0Choi",
-    "date": "2025-05-21T17:08:48-06:00",
-    "hash": "1b2d5bb9e0fb5d19cbcdd3b9206f72981514bbf8",
-    "parents": "b4c45bedbfca607152a217c148c025d33e8aad45",
-    "subject": "Editorial: Make Array.fromAsync's esid lowercase"
-   },
-   {
-    "adate": "2025-05-01T07:34:36-06:00",
-    "author": "J.\u00a0S.\u00a0Choi",
-    "date": "2025-05-01T14:13:04-05:00",
-    "hash": "b4c45bedbfca607152a217c148c025d33e8aad45",
-    "parents": "a545cb8623e9f107c40641402109fb9265c0ba38",
-    "subject": "Normative: Add Array.fromAsync"
-   },
-   {
-    "adate": "2022-10-24T14:27:38-06:00",
-    "author": "Michael Ficarra",
-    "date": "2025-04-30T19:52:33-06:00",
-    "hash": "a545cb8623e9f107c40641402109fb9265c0ba38",
-    "parents": "6d71ca0e2dbf1c0cfb87b5eb7a83cf7c76591561",
-    "subject": "Editorial: support built-in async functions"
-   }
-  ],
-  "title": "Normative: Add Array.fromAsync",
-  "updated_at": "2025-05-29T17:55:17Z"
  },
  {
   "base": "f2bad0095a792587ab7a70c9f024612148e18bd1",
@@ -3420,66 +3124,6 @@
   "updated_at": "2022-11-29T09:36:27Z"
  },
  {
-  "base": "44d79b2fde777234fe379bb00e4e722ec01256a1",
-  "created_at": "2022-10-24T20:33:20Z",
-  "head": "bbebb4b50e9689153598777d6e9a1c479ae125ca",
-  "login": "tc39",
-  "number": 2942,
-  "ref": "add-builtin-async-function-objects",
-  "revs": [
-   {
-    "adate": "2025-12-15T10:59:59-07:00",
-    "author": "Michael Ficarra",
-    "date": "2025-12-15T11:00:21-07:00",
-    "hash": "bbebb4b50e9689153598777d6e9a1c479ae125ca",
-    "parents": "cb8d03c29dfb129657ccd8fdf622edc1a3ebe100",
-    "subject": "use an [[Async]] internal slot"
-   },
-   {
-    "adate": "2025-12-10T11:28:21-07:00",
-    "author": "Michael Ficarra",
-    "date": "2025-12-10T11:28:21-07:00",
-    "hash": "cb8d03c29dfb129657ccd8fdf622edc1a3ebe100",
-    "parents": "9b3bcaed1c5435ccf511112c3702820c3d9b96a0",
-    "subject": "use Completion() in ACs"
-   },
-   {
-    "adate": "2025-12-09T19:54:14-07:00",
-    "author": "Michael Ficarra",
-    "date": "2025-12-09T19:58:43-07:00",
-    "hash": "9b3bcaed1c5435ccf511112c3702820c3d9b96a0",
-    "parents": "4d591cb810455f0a1fa2fece7be9b84bea1bbb83",
-    "subject": "move the change into BuiltinCallOrConstruct"
-   },
-   {
-    "adate": "2025-12-09T13:41:10-07:00",
-    "author": "Michael Ficarra",
-    "date": "2025-12-09T13:41:10-07:00",
-    "hash": "4d591cb810455f0a1fa2fece7be9b84bea1bbb83",
-    "parents": "11f4faf5c9bbccba3b105e55c0e3938e2c9e552f",
-    "subject": "just describe some built-in function objects as async"
-   },
-   {
-    "adate": "2025-08-19T19:03:59-06:00",
-    "author": "Michael Ficarra",
-    "date": "2025-12-09T11:25:55-07:00",
-    "hash": "11f4faf5c9bbccba3b105e55c0e3938e2c9e552f",
-    "parents": "113fc5ba443a6b0e035e0ebf29308d59bd82c99a",
-    "subject": "address comments"
-   },
-   {
-    "adate": "2022-10-24T14:27:38-06:00",
-    "author": "Michael Ficarra",
-    "date": "2025-12-09T11:25:55-07:00",
-    "hash": "113fc5ba443a6b0e035e0ebf29308d59bd82c99a",
-    "parents": "44d79b2fde777234fe379bb00e4e722ec01256a1",
-    "subject": "Editorial: support built-in async functions"
-   }
-  ],
-  "title": "Editorial: support built-in async functions",
-  "updated_at": "2025-12-15T18:00:34Z"
- },
- {
   "base": "8aac12603c99f94d982317832b0e03c13684ce0a",
   "created_at": "2022-10-16T18:18:33Z",
   "head": "01da6925ee8a34c60a6a2b764f4404cc20fd49a4",
@@ -5006,58 +4650,6 @@
   ],
   "title": "Allow hosts to reuse an existing Realm Intrinsics record",
   "updated_at": "2020-03-27T07:01:37Z"
- },
- {
-  "base": "47520386ede6b9e01c4361677ff62a448e132b58",
-  "created_at": "2018-10-25T21:21:09Z",
-  "head": "92da985790b14b02efc8ba9d570f84b73c4d39f1",
-  "login": "gibson042",
-  "number": 1335,
-  "ref": "2018-10-link-to-historical-editions",
-  "revs": [
-   {
-    "adate": "2025-12-10T17:15:06-05:00",
-    "author": "Richard Gibson",
-    "date": "2025-12-10T17:15:06-05:00",
-    "hash": "92da985790b14b02efc8ba9d570f84b73c4d39f1",
-    "parents": "cfaeac6bb19e97fee750e9c1100a7ba864d49f25",
-    "subject": "Editorial: Reword \"historical snapshots\" text"
-   },
-   {
-    "adate": "2025-12-10T12:09:09-05:00",
-    "author": "Richard Gibson",
-    "date": "2025-12-10T12:09:09-05:00",
-    "hash": "cfaeac6bb19e97fee750e9c1100a7ba864d49f25",
-    "parents": "577effd4dd3035e1a5958e0ad8256af84e27941e",
-    "subject": "Editorial: Move the link to metadata-block"
-   },
-   {
-    "adate": "2025-12-10T12:08:02-05:00",
-    "author": "Richard Gibson",
-    "date": "2025-12-10T12:08:02-05:00",
-    "hash": "577effd4dd3035e1a5958e0ad8256af84e27941e",
-    "parents": "067c4cec215a352a3b03beb2c82934eef795e026",
-    "subject": "Revert \"Editorial: Also link to the working draft\""
-   },
-   {
-    "adate": "2018-10-29T21:37:23-04:00",
-    "author": "Richard Gibson",
-    "date": "2025-12-10T12:06:52-05:00",
-    "hash": "067c4cec215a352a3b03beb2c82934eef795e026",
-    "parents": "9461cc8a97ec4defae40348a364827ca7eb3f030",
-    "subject": "Editorial: Also link to the working draft"
-   },
-   {
-    "adate": "2018-10-25T17:19:10-04:00",
-    "author": "Richard Gibson",
-    "date": "2025-12-10T12:06:37-05:00",
-    "hash": "9461cc8a97ec4defae40348a364827ca7eb3f030",
-    "parents": "44d79b2fde777234fe379bb00e4e722ec01256a1",
-    "subject": "Editorial: Add a link to the collection of historical editions"
-   }
-  ],
-  "title": "Editorial: Add a link to the collection of historical editions",
-  "updated_at": "2025-12-10T22:15:43Z"
  },
  {
   "base": "d03c1ec6e235a5180fa772b6178727c17974cb14",
