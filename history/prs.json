@@ -872,6 +872,106 @@
   "updated_at": "2025-05-11T00:04:21Z"
  },
  {
+  "base": "d237611b447a35f16512dd375ffec3e072491890",
+  "created_at": "2025-05-01T13:49:23Z",
+  "head": "256419a2b49b5a5c789aa39c3d7969bf68249411",
+  "login": "js-choi",
+  "number": 3581,
+  "ref": "add-array-from-async",
+  "revs": [
+   {
+    "adate": "2025-12-18T09:06:56-07:00",
+    "author": "Michael Ficarra",
+    "date": "2025-12-18T09:06:56-07:00",
+    "hash": "256419a2b49b5a5c789aa39c3d7969bf68249411",
+    "parents": "eddad67714c44e8462f5c960301371252fe97203",
+    "subject": "back out built-in async function related changes that aren't needed"
+   },
+   {
+    "adate": "2025-05-21T20:15:54-06:00",
+    "author": "Michael Ficarra",
+    "date": "2025-12-18T09:04:18-07:00",
+    "hash": "eddad67714c44e8462f5c960301371252fe97203",
+    "parents": "281fb6654a4bae149fb8566b7f295eba183d6eac",
+    "subject": "accept review feedback"
+   },
+   {
+    "adate": "2025-05-28T15:38:02-06:00",
+    "author": "J.\u00a0S.\u00a0Choi",
+    "date": "2025-12-18T09:04:18-07:00",
+    "hash": "281fb6654a4bae149fb8566b7f295eba183d6eac",
+    "parents": "cd1f0f2c4ee73a5c3d086c41af41dc257a1b32f4",
+    "subject": "Editorial: Fix indentation formatting in Array.fromAsync behavior"
+   },
+   {
+    "adate": "2025-05-28T15:25:22-06:00",
+    "author": "J.\u00a0S.\u00a0Choi",
+    "date": "2025-12-18T09:04:18-07:00",
+    "hash": "cd1f0f2c4ee73a5c3d086c41af41dc257a1b32f4",
+    "parents": "a41455fa3f40a6c41fef87c3fce19ca4e1f8619f",
+    "subject": "Editorial: Fix typo in Array.fromAsync behavior"
+   },
+   {
+    "adate": "2025-05-28T09:04:52-06:00",
+    "author": "J.\u00a0S.\u00a0Choi",
+    "date": "2025-12-18T09:04:18-07:00",
+    "hash": "a41455fa3f40a6c41fef87c3fce19ca4e1f8619f",
+    "parents": "cf08c7214492ff3a8b59afecc31f4283eae854ff",
+    "subject": "Editorial: Explicitly mark Array.fromAsync as async; rename asyncItems arg to items"
+   },
+   {
+    "adate": "2025-05-28T09:02:46-06:00",
+    "author": "J.\u00a0S.\u00a0Choi",
+    "date": "2025-12-18T09:04:18-07:00",
+    "hash": "cf08c7214492ff3a8b59afecc31f4283eae854ff",
+    "parents": "c9089a1c31c22193db0f53bca90ef351adfb524e",
+    "subject": "Editorial: Simplify branching"
+   },
+   {
+    "adate": "2025-05-28T08:15:00-06:00",
+    "author": "J.\u00a0S.\u00a0Choi",
+    "date": "2025-12-18T09:04:18-07:00",
+    "hash": "c9089a1c31c22193db0f53bca90ef351adfb524e",
+    "parents": "a43fa4050dddc918d7e89bbdd61339568a76aa4b",
+    "subject": "Editorial: Change Array.fromAsync asyncItems note"
+   },
+   {
+    "adate": "2025-05-21T21:17:52-06:00",
+    "author": "J.\u00a0S.\u00a0Choi",
+    "date": "2025-12-18T09:04:18-07:00",
+    "hash": "a43fa4050dddc918d7e89bbdd61339568a76aa4b",
+    "parents": "5d4ad540ae0b101e6f41b04e384de52bc951a915",
+    "subject": "Editorial: Change Array.from/fromAsync from \"method\"s to \"function\"s"
+   },
+   {
+    "adate": "2025-05-21T17:08:48-06:00",
+    "author": "J.\u00a0S.\u00a0Choi",
+    "date": "2025-12-18T09:04:18-07:00",
+    "hash": "5d4ad540ae0b101e6f41b04e384de52bc951a915",
+    "parents": "8d5d555de27db4d9dac63080a6c319d9b77f0c85",
+    "subject": "Editorial: Make Array.fromAsync's esid lowercase"
+   },
+   {
+    "adate": "2025-05-01T07:34:36-06:00",
+    "author": "J.\u00a0S.\u00a0Choi",
+    "date": "2025-12-18T09:04:17-07:00",
+    "hash": "8d5d555de27db4d9dac63080a6c319d9b77f0c85",
+    "parents": "ef6d920a215236721dc5de8ec30f22928ec5fca6",
+    "subject": "Normative: Add Array.fromAsync"
+   },
+   {
+    "adate": "2022-10-24T14:27:38-06:00",
+    "author": "Michael Ficarra",
+    "date": "2025-12-18T09:04:15-07:00",
+    "hash": "ef6d920a215236721dc5de8ec30f22928ec5fca6",
+    "parents": "d237611b447a35f16512dd375ffec3e072491890",
+    "subject": "Editorial: support built-in async functions"
+   }
+  ],
+  "title": "Normative: Add Array.fromAsync",
+  "updated_at": "2025-12-18T16:10:36Z"
+ },
+ {
   "base": "f2bad0095a792587ab7a70c9f024612148e18bd1",
   "created_at": "2025-02-26T19:49:03Z",
   "head": "a445b8c71ccd3500cb1a923378b73a443a226b09",
