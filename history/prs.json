@@ -84,56 +84,64 @@
   "updated_at": "2025-12-04T08:18:37Z"
  },
  {
-  "base": "74d6f30f2b6e41915af2527b65adc8aeebf6f2f4",
+  "base": "47520386ede6b9e01c4361677ff62a448e132b58",
   "created_at": "2025-11-24T21:11:46Z",
-  "head": "61560559385b998269f9612ccba38a3687a7362e",
+  "head": "407e0e4b4093656fff9f1f3dacacba9f5f26bd54",
   "login": "jmdyck",
   "number": 3728,
   "ref": "revamp_IHDR",
   "revs": [
    {
+    "adate": "2025-12-17T20:09:35-05:00",
+    "author": "Michael Dyck",
+    "date": "2025-12-17T20:09:35-05:00",
+    "hash": "407e0e4b4093656fff9f1f3dacacba9f5f26bd54",
+    "parents": "393a404b0306eb710dc0de4fe9ebd4d493f90e0c",
+    "subject": "fixup: remove MakeRealm from the 'Host Hooks' list"
+   },
+   {
     "adate": "2025-11-24T15:49:53-05:00",
     "author": "Michael Dyck",
-    "date": "2025-11-24T16:14:42-05:00",
-    "hash": "61560559385b998269f9612ccba38a3687a7362e",
-    "parents": "5af87898fe50520e85d7b0b606a3c66fcbdcd8b2",
+    "date": "2025-12-15T16:52:28-05:00",
+    "hash": "393a404b0306eb710dc0de4fe9ebd4d493f90e0c",
+    "parents": "291218a8b7c88dd1472742eeeac9c644816a64c0",
     "subject": "Layering: Rename InitializeHostDefinedRealm as MakeRealm"
    },
    {
     "adate": "2025-11-24T15:27:49-05:00",
     "author": "Michael Dyck",
-    "date": "2025-11-24T15:27:49-05:00",
-    "hash": "5af87898fe50520e85d7b0b606a3c66fcbdcd8b2",
-    "parents": "f68a7262b83e08a1de095f95331f8ffcfee7cc42",
+    "date": "2025-12-15T16:52:28-05:00",
+    "hash": "291218a8b7c88dd1472742eeeac9c644816a64c0",
+    "parents": "ed064eec3576842581842c1166c5ef2e04d3a0ff",
     "subject": "Layering: Return the realm EC from InitializeHostDefinedRealm"
    },
    {
     "adate": "2025-11-24T15:09:02-05:00",
     "author": "Michael Dyck",
-    "date": "2025-11-24T15:09:02-05:00",
-    "hash": "f68a7262b83e08a1de095f95331f8ffcfee7cc42",
-    "parents": "8c3ab5b25beb62bd02663735a162f86794ad0168",
+    "date": "2025-12-15T16:52:28-05:00",
+    "hash": "ed064eec3576842581842c1166c5ef2e04d3a0ff",
+    "parents": "5991d79feec7dc06036a9824dc37345898f2b598",
     "subject": "Editorial: Create the realm execution context slightly later"
    },
    {
     "adate": "2025-11-24T10:51:39-05:00",
     "author": "Michael Dyck",
-    "date": "2025-11-24T10:51:39-05:00",
-    "hash": "8c3ab5b25beb62bd02663735a162f86794ad0168",
-    "parents": "462fe6771c4df2652a58889a00d8a06c50a24ed3",
+    "date": "2025-12-15T16:52:27-05:00",
+    "hash": "5991d79feec7dc06036a9824dc37345898f2b598",
+    "parents": "18695239fdd6180270d92d801177b58a4bc9cfad",
     "subject": "Layering: Make InitializeHostDefinedRealm non-throwing"
    },
    {
     "adate": "2025-11-22T23:32:04-05:00",
     "author": "Michael Dyck",
-    "date": "2025-11-24T10:35:04-05:00",
-    "hash": "462fe6771c4df2652a58889a00d8a06c50a24ed3",
-    "parents": "74d6f30f2b6e41915af2527b65adc8aeebf6f2f4",
+    "date": "2025-12-15T16:52:27-05:00",
+    "hash": "18695239fdd6180270d92d801177b58a4bc9cfad",
+    "parents": "47520386ede6b9e01c4361677ff62a448e132b58",
     "subject": "Layering: Add _customizations_ param to InitializeHostDefinedRealm"
    }
   ],
   "title": "Layering: Revamp InitializeHostDefinedRealm",
-  "updated_at": "2025-11-24T21:15:12Z"
+  "updated_at": "2025-12-18T01:17:55Z"
  },
  {
   "base": "74d6f30f2b6e41915af2527b65adc8aeebf6f2f4",
