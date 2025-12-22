@@ -22,11 +22,19 @@
  {
   "base": "4d2116ba12587abb32c362242270f1d6706b4e1f",
   "created_at": "2025-12-04T08:18:37Z",
-  "head": "f5fb84156fd48750db8f36826b44950366cebd35",
+  "head": "eb2244255efd5308e2481d7865c0ae5a153e833a",
   "login": "jungwngkim",
   "number": 3733,
   "ref": "replace-otherwise-with-else",
   "revs": [
+   {
+    "adate": "2025-12-22T18:11:21+09:00",
+    "author": "Jungwoong Kim",
+    "date": "2025-12-22T18:11:21+09:00",
+    "hash": "eb2244255efd5308e2481d7865c0ae5a153e833a",
+    "parents": "f5fb84156fd48750db8f36826b44950366cebd35",
+    "subject": "Editorial: Short-circuit return/throw on if-else step"
+   },
    {
     "adate": "2025-11-13T19:51:06+09:00",
     "author": "Jungwoong Kim",
@@ -37,7 +45,7 @@
    }
   ],
   "title": "Editorial: Unify 'else' and 'otherwise'",
-  "updated_at": "2025-12-04T08:18:37Z"
+  "updated_at": "2025-12-22T09:15:28Z"
  },
  {
   "base": "47520386ede6b9e01c4361677ff62a448e132b58",
