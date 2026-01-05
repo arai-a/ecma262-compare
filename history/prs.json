@@ -1,5 +1,33 @@
 [
  {
+  "base": "8febdacb384c2661df5a00c0e77dcb69896496e2",
+  "created_at": "2026-01-05T05:15:05Z",
+  "head": "ba35bbca1ffafd497de60f77204da9f3e435867b",
+  "login": "jhnaldo",
+  "number": 3739,
+  "ref": "esmeta-yetcheck",
+  "revs": [
+   {
+    "adate": "2026-01-05T13:06:56+09:00",
+    "author": "Jihyeok Park",
+    "date": "2026-01-05T13:06:56+09:00",
+    "hash": "ba35bbca1ffafd497de60f77204da9f3e435867b",
+    "parents": "668d0a803303e84aadd8778cbc09f0370d841778",
+    "subject": "Update Version of ESMeta"
+   },
+   {
+    "adate": "2026-01-05T09:58:18+09:00",
+    "author": "Jihyeok Park",
+    "date": "2026-01-05T09:58:18+09:00",
+    "hash": "668d0a803303e84aadd8778cbc09f0370d841778",
+    "parents": "8febdacb384c2661df5a00c0e77dcb69896496e2",
+    "subject": "Meta: Update yet phrase checking with ESMeta v0.7.2"
+   }
+  ],
+  "title": "Meta: Update Yet Phrase Checking with ESMeta v0.7.3",
+  "updated_at": "2026-01-05T05:15:05Z"
+ },
+ {
   "base": "d237611b447a35f16512dd375ffec3e072491890",
   "created_at": "2025-12-18T07:40:25Z",
   "head": "57415a94e87d3eed4b61bfd55f4280f8394df706",
