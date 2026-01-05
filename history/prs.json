@@ -1,6 +1,26 @@
 [
  {
   "base": "8febdacb384c2661df5a00c0e77dcb69896496e2",
+  "created_at": "2026-01-05T21:23:33Z",
+  "head": "b7494d351d7607ddee6ae1fda5ef42417e5e1480",
+  "login": "dminor",
+  "number": 3740,
+  "ref": "upsert",
+  "revs": [
+   {
+    "adate": "2026-01-05T16:15:35-05:00",
+    "author": "Daniel Minor",
+    "date": "2026-01-05T16:19:59-05:00",
+    "hash": "b7494d351d7607ddee6ae1fda5ef42417e5e1480",
+    "parents": "8febdacb384c2661df5a00c0e77dcb69896496e2",
+    "subject": "Normative: Add getOrInsert and getOrInsertComputed methods for Map and WeakMap"
+   }
+  ],
+  "title": "Normative: Add getOrInsert and getOrInsertComputed methods for Map and WeakMap",
+  "updated_at": "2026-01-05T22:12:49Z"
+ },
+ {
+  "base": "8febdacb384c2661df5a00c0e77dcb69896496e2",
   "created_at": "2026-01-05T05:15:05Z",
   "head": "ba35bbca1ffafd497de60f77204da9f3e435867b",
   "login": "jhnaldo",
