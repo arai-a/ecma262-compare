@@ -1,6 +1,26 @@
 [
  {
   "base": "8febdacb384c2661df5a00c0e77dcb69896496e2",
+  "created_at": "2026-01-15T11:31:02Z",
+  "head": "37f5a746e661b4fb478239692aebd3499b70be95",
+  "login": "nicolo-ribaudo",
+  "number": 3742,
+  "ref": "move-module-TLC-check",
+  "revs": [
+   {
+    "adate": "2026-01-15T11:18:07Z",
+    "author": "Nicol\u00f2 Ribaudo",
+    "date": "2026-01-15T11:18:07Z",
+    "hash": "37f5a746e661b4fb478239692aebd3499b70be95",
+    "parents": "8febdacb384c2661df5a00c0e77dcb69896496e2",
+    "subject": "Editorial: Move module TopLevelCapability check inside if"
+   }
+  ],
+  "title": "Editorial: Move module TopLevelCapability check inside if",
+  "updated_at": "2026-01-15T11:34:29Z"
+ },
+ {
+  "base": "8febdacb384c2661df5a00c0e77dcb69896496e2",
   "created_at": "2026-01-05T21:23:33Z",
   "head": "548ad45f8815850c0a2255d1a80b58eac11cf30c",
   "login": "dminor",
