@@ -1,6 +1,66 @@
 [
  {
   "base": "8febdacb384c2661df5a00c0e77dcb69896496e2",
+  "created_at": "2026-01-20T21:09:42Z",
+  "head": "33d66a7d8c10a7576cb8fae7c9a326f18a9cc966",
+  "login": "tc39",
+  "number": 3745,
+  "ref": "abstract-methods",
+  "revs": [
+   {
+    "adate": "2026-01-20T13:14:37-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2026-01-20T13:14:37-08:00",
+    "hash": "33d66a7d8c10a7576cb8fae7c9a326f18a9cc966",
+    "parents": "38d27af66ebc3924f82f2ed04c0744d6c016f373",
+    "subject": "format"
+   },
+   {
+    "adate": "2026-01-20T12:44:17-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2026-01-20T12:44:17-08:00",
+    "hash": "38d27af66ebc3924f82f2ed04c0744d6c016f373",
+    "parents": "7fde5eae0df00b275eb2a259cd3edf9eb5ee871f",
+    "subject": "ids for abstract method rows"
+   },
+   {
+    "adate": "2026-01-20T11:16:59-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2026-01-20T11:37:56-08:00",
+    "hash": "7fde5eae0df00b275eb2a259cd3edf9eb5ee871f",
+    "parents": "cf81d22348312e420da8cb42bdd85bb010d8996f",
+    "subject": "use new emu-concrete-method-dfns element"
+   },
+   {
+    "adate": "2026-01-20T09:48:23-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2026-01-20T11:34:46-08:00",
+    "hash": "cf81d22348312e420da8cb42bdd85bb010d8996f",
+    "parents": "2e509d635bad27a37042cea91d8b6c6e9fbe217b",
+    "subject": "fix errors we can now identify"
+   },
+   {
+    "adate": "2026-01-20T09:43:46-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2026-01-20T09:43:46-08:00",
+    "hash": "2e509d635bad27a37042cea91d8b6c6e9fbe217b",
+    "parents": "f494ba28bd576945dcf4286d4a78e71f2dd27bdb",
+    "subject": "update module record abstract methods"
+   },
+   {
+    "adate": "2026-01-20T09:33:25-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2026-01-20T09:33:25-08:00",
+    "hash": "f494ba28bd576945dcf4286d4a78e71f2dd27bdb",
+    "parents": "8febdacb384c2661df5a00c0e77dcb69896496e2",
+    "subject": "update environment record abstract methods"
+   }
+  ],
+  "title": "Better linking for abstract methods",
+  "updated_at": "2026-01-20T21:14:40Z"
+ },
+ {
+  "base": "8febdacb384c2661df5a00c0e77dcb69896496e2",
   "created_at": "2026-01-20T16:53:35Z",
   "head": "de97bae9b179fb11c9712fb6da8661baf89e86ea",
   "login": "gibson042",
