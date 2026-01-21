@@ -2,11 +2,19 @@
  {
   "base": "8febdacb384c2661df5a00c0e77dcb69896496e2",
   "created_at": "2026-01-20T21:09:42Z",
-  "head": "839aad69858ae90686800e957353bc524f0c5179",
+  "head": "9370faf373e98c129c6c414d08259abae3a7ca01",
   "login": "tc39",
   "number": 3745,
   "ref": "abstract-methods",
   "revs": [
+   {
+    "adate": "2026-01-21T10:57:04-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2026-01-21T10:57:04-08:00",
+    "hash": "9370faf373e98c129c6c414d08259abae3a7ca01",
+    "parents": "839aad69858ae90686800e957353bc524f0c5179",
+    "subject": "Editorial: note restriction for Evaluate for non-Cyclic Module Records"
+   },
    {
     "adate": "2026-01-20T21:14:06-08:00",
     "author": "Kevin Gibbons",
@@ -73,7 +81,7 @@
    }
   ],
   "title": "Better linking for abstract methods",
-  "updated_at": "2026-01-21T05:14:11Z"
+  "updated_at": "2026-01-21T19:16:40Z"
  },
  {
   "base": "8febdacb384c2661df5a00c0e77dcb69896496e2",
