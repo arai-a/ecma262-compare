@@ -85,46 +85,6 @@
  },
  {
   "base": "8febdacb384c2661df5a00c0e77dcb69896496e2",
-  "created_at": "2026-01-20T16:53:35Z",
-  "head": "de97bae9b179fb11c9712fb6da8661baf89e86ea",
-  "login": "gibson042",
-  "number": 3744,
-  "ref": "2026-01-pr-preview-multipage",
-  "revs": [
-   {
-    "adate": "2026-01-20T11:52:48-05:00",
-    "author": "Richard Gibson",
-    "date": "2026-01-20T11:52:48-05:00",
-    "hash": "de97bae9b179fb11c9712fb6da8661baf89e86ea",
-    "parents": "8febdacb384c2661df5a00c0e77dcb69896496e2",
-    "subject": "Meta: Link to both single- and multi-page PR previews"
-   }
-  ],
-  "title": "Meta: Link to both single- and multi-page PR previews",
-  "updated_at": "2026-01-20T16:57:10Z"
- },
- {
-  "base": "8febdacb384c2661df5a00c0e77dcb69896496e2",
-  "created_at": "2026-01-20T16:36:03Z",
-  "head": "7ad9c5c3b0c5212ca30099988fe318e190bda194",
-  "login": "gibson042",
-  "number": 3743,
-  "ref": "2026-01-mathematical-log-functions",
-  "revs": [
-   {
-    "adate": "2026-01-20T11:31:27-05:00",
-    "author": "Richard Gibson",
-    "date": "2026-01-20T11:31:27-05:00",
-    "hash": "7ad9c5c3b0c5212ca30099988fe318e190bda194",
-    "parents": "8febdacb384c2661df5a00c0e77dcb69896496e2",
-    "subject": "Editorial: Introduce mathematical logarithm functions"
-   }
-  ],
-  "title": "Editorial: Introduce mathematical logarithm functions",
-  "updated_at": "2026-01-20T17:28:37Z"
- },
- {
-  "base": "8febdacb384c2661df5a00c0e77dcb69896496e2",
   "created_at": "2026-01-15T11:31:02Z",
   "head": "37f5a746e661b4fb478239692aebd3499b70be95",
   "login": "nicolo-ribaudo",
@@ -142,70 +102,6 @@
   ],
   "title": "Editorial: Move module TopLevelCapability check inside if",
   "updated_at": "2026-01-15T11:34:29Z"
- },
- {
-  "base": "8febdacb384c2661df5a00c0e77dcb69896496e2",
-  "created_at": "2026-01-05T21:23:33Z",
-  "head": "548ad45f8815850c0a2255d1a80b58eac11cf30c",
-  "login": "dminor",
-  "number": 3740,
-  "ref": "upsert",
-  "revs": [
-   {
-    "adate": "2026-01-08T09:55:40-05:00",
-    "author": "Daniel Minor",
-    "date": "2026-01-08T09:55:40-05:00",
-    "hash": "548ad45f8815850c0a2255d1a80b58eac11cf30c",
-    "parents": "435f2f5283d42e12ac5a433c14871e48f7f9ccca",
-    "subject": "Fixup wording"
-   },
-   {
-    "adate": "2026-01-06T07:44:00-05:00",
-    "author": "Daniel Minor",
-    "date": "2026-01-06T07:44:00-05:00",
-    "hash": "435f2f5283d42e12ac5a433c14871e48f7f9ccca",
-    "parents": "b7494d351d7607ddee6ae1fda5ef42417e5e1480",
-    "subject": "Use lowercase for section names"
-   },
-   {
-    "adate": "2026-01-05T16:15:35-05:00",
-    "author": "Daniel Minor",
-    "date": "2026-01-05T16:19:59-05:00",
-    "hash": "b7494d351d7607ddee6ae1fda5ef42417e5e1480",
-    "parents": "8febdacb384c2661df5a00c0e77dcb69896496e2",
-    "subject": "Normative: Add getOrInsert and getOrInsertComputed methods for Map and WeakMap"
-   }
-  ],
-  "title": "Normative: Add getOrInsert and getOrInsertComputed methods for Map and WeakMap",
-  "updated_at": "2026-01-08T14:55:54Z"
- },
- {
-  "base": "8febdacb384c2661df5a00c0e77dcb69896496e2",
-  "created_at": "2026-01-05T05:15:05Z",
-  "head": "ba35bbca1ffafd497de60f77204da9f3e435867b",
-  "login": "jhnaldo",
-  "number": 3739,
-  "ref": "esmeta-yetcheck",
-  "revs": [
-   {
-    "adate": "2026-01-05T13:06:56+09:00",
-    "author": "Jihyeok Park",
-    "date": "2026-01-05T13:06:56+09:00",
-    "hash": "ba35bbca1ffafd497de60f77204da9f3e435867b",
-    "parents": "668d0a803303e84aadd8778cbc09f0370d841778",
-    "subject": "Update Version of ESMeta"
-   },
-   {
-    "adate": "2026-01-05T09:58:18+09:00",
-    "author": "Jihyeok Park",
-    "date": "2026-01-05T09:58:18+09:00",
-    "hash": "668d0a803303e84aadd8778cbc09f0370d841778",
-    "parents": "8febdacb384c2661df5a00c0e77dcb69896496e2",
-    "subject": "Meta: Update yet phrase checking with ESMeta v0.7.2"
-   }
-  ],
-  "title": "Meta: Update Yet Phrase Checking with ESMeta v0.7.3",
-  "updated_at": "2026-01-05T05:15:05Z"
  },
  {
   "base": "d237611b447a35f16512dd375ffec3e072491890",
@@ -3508,9 +3404,9 @@
   "updated_at": "2023-02-13T19:08:39Z"
  },
  {
-  "base": "8febdacb384c2661df5a00c0e77dcb69896496e2",
+  "base": "270a490b3f8bf6f15bced16021ee0c3ff107f823",
   "created_at": "2022-09-04T02:20:57Z",
-  "head": "ef0d267dd58f4e6469160cd495d6e89a22d4da10",
+  "head": "3ab37d1d616c5e0bb3fb8cd0a8a52b8edfa2734a",
   "login": "jmdyck",
   "number": 2889,
   "ref": "callable",
@@ -3518,22 +3414,22 @@
    {
     "adate": "2022-09-03T22:11:56-04:00",
     "author": "Michael Dyck",
-    "date": "2025-12-21T17:00:19-05:00",
-    "hash": "ef0d267dd58f4e6469160cd495d6e89a22d4da10",
-    "parents": "f8bf5d9955cf302a45d4f9e84024de30a1c4b84e",
+    "date": "2026-01-23T23:00:44-05:00",
+    "hash": "3ab37d1d616c5e0bb3fb8cd0a8a52b8edfa2734a",
+    "parents": "a89775622a6171e6d0375a679c1be333ff24cb46",
     "subject": "Eliminate most other uses of \"callable\""
    },
    {
     "adate": "2022-09-03T21:47:50-04:00",
     "author": "Michael Dyck",
-    "date": "2025-12-21T17:00:17-05:00",
-    "hash": "f8bf5d9955cf302a45d4f9e84024de30a1c4b84e",
-    "parents": "8febdacb384c2661df5a00c0e77dcb69896496e2",
+    "date": "2026-01-23T23:00:44-05:00",
+    "hash": "a89775622a6171e6d0375a679c1be333ff24cb46",
+    "parents": "270a490b3f8bf6f15bced16021ee0c3ff107f823",
     "subject": "Rename \"IsCallable\" as \"IsFunction\""
    }
   ],
   "title": "Editorial: Minimize use of the term \"callable\"",
-  "updated_at": "2025-12-22T02:37:35Z"
+  "updated_at": "2026-01-24T04:39:42Z"
  },
  {
   "base": "6ccb804013f9378c4caa441d9238061f46bd52bd",
