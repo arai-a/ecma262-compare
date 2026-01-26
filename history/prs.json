@@ -2,11 +2,19 @@
  {
   "base": "8febdacb384c2661df5a00c0e77dcb69896496e2",
   "created_at": "2026-01-20T21:09:42Z",
-  "head": "9370faf373e98c129c6c414d08259abae3a7ca01",
+  "head": "71294d8fdf12e4ab1f8d124d195b86e5793972b4",
   "login": "tc39",
   "number": 3745,
   "ref": "abstract-methods",
   "revs": [
+   {
+    "adate": "2026-01-26T13:21:16-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2026-01-26T13:21:29-08:00",
+    "hash": "71294d8fdf12e4ab1f8d124d195b86e5793972b4",
+    "parents": "9370faf373e98c129c6c414d08259abae3a7ca01",
+    "subject": "Meta: bump ecmarkup to 23.0.1"
+   },
    {
     "adate": "2026-01-21T10:57:04-08:00",
     "author": "Kevin Gibbons",
@@ -81,7 +89,7 @@
    }
   ],
   "title": "Better linking for abstract methods",
-  "updated_at": "2026-01-21T19:16:40Z"
+  "updated_at": "2026-01-26T21:30:32Z"
  },
  {
   "base": "8febdacb384c2661df5a00c0e77dcb69896496e2",
