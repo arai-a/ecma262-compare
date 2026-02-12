@@ -184,40 +184,24 @@
   "updated_at": "2025-12-18T01:17:55Z"
  },
  {
-  "base": "e936549f1c05ac1b206ad4c5817e77ee3ecbc787",
+  "base": "00146687f225a64e1b1e2d303acc6139a1adee7d",
   "created_at": "2025-11-08T00:18:39Z",
-  "head": "3155c54307411d8433c3805fdc835d511ce6fae7",
+  "head": "47886b70d6956770869dd4764b716284ab3ffd8b",
   "login": "tc39",
   "number": 3715,
   "ref": "unambiguous-export-star-from",
   "revs": [
    {
-    "adate": "2025-11-10T18:39:35-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2025-11-10T18:39:35-08:00",
-    "hash": "3155c54307411d8433c3805fdc835d511ce6fae7",
-    "parents": "2a64040ba824db342d351960e2c94c7f9121e81f",
-    "subject": "add link to conflict-handling section in note"
-   },
-   {
-    "adate": "2025-11-10T18:31:37-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2025-11-10T18:31:37-08:00",
-    "hash": "2a64040ba824db342d351960e2c94c7f9121e81f",
-    "parents": "743ebfd2a8c94ed3a95cd0c087d7512d32f42e7e",
-    "subject": "fix note"
-   },
-   {
     "adate": "2025-11-07T16:11:19-08:00",
     "author": "Kevin Gibbons",
-    "date": "2025-11-07T16:18:08-08:00",
-    "hash": "743ebfd2a8c94ed3a95cd0c087d7512d32f42e7e",
-    "parents": "e936549f1c05ac1b206ad4c5817e77ee3ecbc787",
+    "date": "2026-02-12T11:27:09-08:00",
+    "hash": "47886b70d6956770869dd4764b716284ab3ffd8b",
+    "parents": "00146687f225a64e1b1e2d303acc6139a1adee7d",
     "subject": "Normative: make re-exporting a namespace object in 2 steps behave like 1 step"
    }
   ],
   "title": "Normative: make re-exporting a namespace object in 2 steps behave like 1 step",
-  "updated_at": "2025-11-11T02:41:20Z"
+  "updated_at": "2026-02-12T19:31:55Z"
  },
  {
   "base": "270a490b3f8bf6f15bced16021ee0c3ff107f823",
