@@ -1,81 +1,5 @@
 [
  {
-  "base": "270a490b3f8bf6f15bced16021ee0c3ff107f823",
-  "created_at": "2026-02-05T02:34:11Z",
-  "head": "f8727a620490334012947f2d010aca347533d8a0",
-  "login": "Pepsi8871",
-  "number": 3754,
-  "ref": "main",
-  "revs": [
-   {
-    "adate": "2026-02-05T01:41:59Z",
-    "author": "Pepsi8871",
-    "date": "2026-02-05T01:41:59Z",
-    "hash": "f8727a620490334012947f2d010aca347533d8a0",
-    "parents": "270a490b3f8bf6f15bced16021ee0c3ff107f823",
-    "subject": "git commit -m \""
-   }
-  ],
-  "title": "Main",
-  "updated_at": "2026-02-05T02:35:13Z"
- },
- {
-  "base": "270a490b3f8bf6f15bced16021ee0c3ff107f823",
-  "created_at": "2026-02-03T01:23:54Z",
-  "head": "b90d2991b4df291d3b3c57b44a7fdc1c1833a928",
-  "login": "tc39",
-  "number": 3752,
-  "ref": "GH-3750",
-  "revs": [
-   {
-    "adate": "2026-02-02T18:22:55-07:00",
-    "author": "Michael Ficarra",
-    "date": "2026-02-02T18:22:55-07:00",
-    "hash": "b90d2991b4df291d3b3c57b44a7fdc1c1833a928",
-    "parents": "270a490b3f8bf6f15bced16021ee0c3ff107f823",
-    "subject": "Editorial: remove unhelpful/misleading note"
-   }
-  ],
-  "title": "Editorial: remove unhelpful/misleading note",
-  "updated_at": "2026-02-03T03:17:56Z"
- },
- {
-  "base": "270a490b3f8bf6f15bced16021ee0c3ff107f823",
-  "created_at": "2026-01-20T21:09:42Z",
-  "head": "b32eb03394074c9bf5310ae4db21c94e3e7de8e8",
-  "login": "tc39",
-  "number": 3745,
-  "ref": "abstract-methods",
-  "revs": [
-   {
-    "adate": "2026-01-26T15:23:29-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2026-01-26T15:23:29-08:00",
-    "hash": "b32eb03394074c9bf5310ae4db21c94e3e7de8e8",
-    "parents": "a083299caf0e72cb0b052e5eb532123ae4f09bea",
-    "subject": "Editorial: note restriction for Evaluate for non-Cyclic Module Records"
-   },
-   {
-    "adate": "2026-01-26T15:23:28-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2026-01-26T15:23:28-08:00",
-    "hash": "a083299caf0e72cb0b052e5eb532123ae4f09bea",
-    "parents": "1e267dbcd8e03d0ba4d3c5e959d36a5e8c0f125c",
-    "subject": "Editorial: better linking for abstract methods"
-   },
-   {
-    "adate": "2026-01-26T15:23:28-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2026-01-26T15:23:28-08:00",
-    "hash": "1e267dbcd8e03d0ba4d3c5e959d36a5e8c0f125c",
-    "parents": "8febdacb384c2661df5a00c0e77dcb69896496e2",
-    "subject": "Meta: bump ecmarkup to 23.0.2"
-   }
-  ],
-  "title": "Better linking for abstract methods",
-  "updated_at": "2026-01-26T23:28:21Z"
- },
- {
   "base": "8febdacb384c2661df5a00c0e77dcb69896496e2",
   "created_at": "2026-01-15T11:31:02Z",
   "head": "37f5a746e661b4fb478239692aebd3499b70be95",
@@ -1120,13 +1044,21 @@
   "updated_at": "2025-11-05T19:33:40Z"
  },
  {
-  "base": "8febdacb384c2661df5a00c0e77dcb69896496e2",
+  "base": "00146687f225a64e1b1e2d303acc6139a1adee7d",
   "created_at": "2024-11-21T01:01:29Z",
-  "head": "8ff2e2267e4e4a3f2c4a9d1d62f93f74c348f625",
+  "head": "69c5a1a21f29912cf630e44928745b4817dcbe26",
   "login": "guybedford",
   "number": 3492,
   "ref": "source-phase-imports",
   "revs": [
+   {
+    "adate": "2026-02-12T09:36:05-08:00",
+    "author": "Guy Bedford",
+    "date": "2026-02-12T09:36:05-08:00",
+    "hash": "69c5a1a21f29912cf630e44928745b4817dcbe26",
+    "parents": "8ff2e2267e4e4a3f2c4a9d1d62f93f74c348f625 00146687f225a64e1b1e2d303acc6139a1adee7d",
+    "subject": "Merge branch 'main' into source-phase-imports"
+   },
    {
     "adate": "2025-02-10T18:58:15-08:00",
     "author": "Guy Bedford",
@@ -1161,7 +1093,7 @@
    }
   ],
   "title": "Normative: Source Phase Imports rebased to Import Attributes",
-  "updated_at": "2026-01-03T00:47:37Z"
+  "updated_at": "2026-02-12T17:36:07Z"
  },
  {
   "base": "4c44bbed7c5a7df90705a58aaa08d2a6c5b9b596",
