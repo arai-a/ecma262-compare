@@ -162,11 +162,19 @@
  {
   "base": "8febdacb384c2661df5a00c0e77dcb69896496e2",
   "created_at": "2025-12-04T08:18:37Z",
-  "head": "9102cfb4622fb5852cc664da031c06d2ce08a52f",
+  "head": "a82ddf591d22219712007aa12f089461fb9a2c62",
   "login": "jungwngkim",
   "number": 3733,
   "ref": "replace-otherwise-with-else",
   "revs": [
+   {
+    "adate": "2026-02-25T15:50:00-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2026-02-25T15:50:00-08:00",
+    "hash": "a82ddf591d22219712007aa12f089461fb9a2c62",
+    "parents": "9102cfb4622fb5852cc664da031c06d2ce08a52f",
+    "subject": "Revert \"Editorial: Split/merge if-else based on length\""
+   },
    {
     "adate": "2025-12-29T01:26:17+09:00",
     "author": "Jungwoong Kim",
@@ -241,7 +249,7 @@
    }
   ],
   "title": "Editorial: Unify 'else' and 'otherwise'",
-  "updated_at": "2025-12-28T16:46:29Z"
+  "updated_at": "2026-02-25T23:51:45Z"
  },
  {
   "base": "47520386ede6b9e01c4361677ff62a448e132b58",
