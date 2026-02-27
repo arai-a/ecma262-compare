@@ -30,11 +30,51 @@
  {
   "base": "1a78d83ce857b87477bc95764c81bc6637720ca1",
   "created_at": "2026-02-16T23:53:01Z",
-  "head": "19dae11fd6ef56789b525b9bb8434594b75242c4",
+  "head": "d0f1150f29864046e42a50123e965478dae2286a",
   "login": "ptomato",
   "number": 3759,
   "ref": "temporal-stage-4",
   "revs": [
+   {
+    "adate": "2026-02-26T17:23:12-08:00",
+    "author": "Philip Chimento",
+    "date": "2026-02-26T17:23:12-08:00",
+    "hash": "d0f1150f29864046e42a50123e965478dae2286a",
+    "parents": "75a075b2b85ecc68f630672e5b93a2582de5fc1c",
+    "subject": "(fixup) Adjust reference to UTS35 and add to normative references"
+   },
+   {
+    "adate": "2026-02-26T17:16:42-08:00",
+    "author": "Philip Chimento",
+    "date": "2026-02-26T17:16:42-08:00",
+    "hash": "75a075b2b85ecc68f630672e5b93a2582de5fc1c",
+    "parents": "ab5ad4791dafbf08c58ba324beaa28c7afa22515",
+    "subject": "(fixup) Reorder grammar annex to match order given in grammar"
+   },
+   {
+    "adate": "2026-02-26T17:10:30-08:00",
+    "author": "Philip Chimento",
+    "date": "2026-02-26T17:11:21-08:00",
+    "hash": "ab5ad4791dafbf08c58ba324beaa28c7afa22515",
+    "parents": "1ff830f80c34ab377a3c001d8574a4856f2db2a5",
+    "subject": "(fixup) DFN elements for \"Temporal.___\" and \"%Temporal.___%\""
+   },
+   {
+    "adate": "2026-02-26T15:57:46-08:00",
+    "author": "Philip Chimento",
+    "date": "2026-02-26T15:57:46-08:00",
+    "hash": "1ff830f80c34ab377a3c001d8574a4856f2db2a5",
+    "parents": "c4fc6d237ad069ccb04a11305c23bf789efe886a",
+    "subject": "(fixup) Update notes about 24:00 again"
+   },
+   {
+    "adate": "2026-02-26T15:46:39-08:00",
+    "author": "Philip Chimento",
+    "date": "2026-02-26T15:46:39-08:00",
+    "hash": "c4fc6d237ad069ccb04a11305c23bf789efe886a",
+    "parents": "19dae11fd6ef56789b525b9bb8434594b75242c4",
+    "subject": "(fixup) Remove duplicate \"defined in\" xref for |SourceCharacter|"
+   },
    {
     "adate": "2026-02-25T10:03:45-08:00",
     "author": "Philip Chimento",
@@ -117,7 +157,7 @@
    }
   ],
   "title": "Draft: Normative: Temporal stage 4",
-  "updated_at": "2026-02-25T18:36:24Z"
+  "updated_at": "2026-02-27T01:30:26Z"
  },
  {
   "base": "8febdacb384c2661df5a00c0e77dcb69896496e2",
