@@ -30,11 +30,19 @@
  {
   "base": "1a78d83ce857b87477bc95764c81bc6637720ca1",
   "created_at": "2026-02-16T23:53:01Z",
-  "head": "d0f1150f29864046e42a50123e965478dae2286a",
+  "head": "94011c73c833eb6a08b5983b0a5d97ba888d170c",
   "login": "ptomato",
   "number": 3759,
   "ref": "temporal-stage-4",
   "revs": [
+   {
+    "adate": "2026-03-04T09:42:33-08:00",
+    "author": "Philip Chimento",
+    "date": "2026-03-04T09:42:33-08:00",
+    "hash": "94011c73c833eb6a08b5983b0a5d97ba888d170c",
+    "parents": "d0f1150f29864046e42a50123e965478dae2286a",
+    "subject": "(fixup) oldids punctuation"
+   },
    {
     "adate": "2026-02-26T17:23:12-08:00",
     "author": "Philip Chimento",
@@ -156,8 +164,8 @@
     "subject": "Normative: Temporal stage 4, part 1"
    }
   ],
-  "title": "Draft: Normative: Temporal stage 4",
-  "updated_at": "2026-02-27T01:30:26Z"
+  "title": "Normative: Temporal stage 4",
+  "updated_at": "2026-03-04T17:42:37Z"
  },
  {
   "base": "8febdacb384c2661df5a00c0e77dcb69896496e2",
