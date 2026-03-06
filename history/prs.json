@@ -1,6 +1,26 @@
 [
  {
   "base": "4895a117eb54edd829f2010092bae8f41c2b174a",
+  "created_at": "2026-03-06T19:45:00Z",
+  "head": "daff2aab2ef1b4e19afd73c175f4b81983709b91",
+  "login": "bakkot",
+  "number": 3764,
+  "ref": "promise-resolver-weakness",
+  "revs": [
+   {
+    "adate": "2026-03-06T11:05:17-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2026-03-06T11:05:17-08:00",
+    "hash": "daff2aab2ef1b4e19afd73c175f4b81983709b91",
+    "parents": "4895a117eb54edd829f2010092bae8f41c2b174a",
+    "subject": "Editorial: make it clearer that resolvers for already-resolved Promises need not keep the Promise alive"
+   }
+  ],
+  "title": "Editorial: make it clearer that resolvers for already-resolved Promises need not keep the Promise alive",
+  "updated_at": "2026-03-06T19:49:02Z"
+ },
+ {
+  "base": "4895a117eb54edd829f2010092bae8f41c2b174a",
   "created_at": "2026-03-06T04:35:30Z",
   "head": "0faf3d7e0881bff5c518f3f8f675cd66b9b910b2",
   "login": "bakkot",
