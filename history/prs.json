@@ -50,11 +50,19 @@
  {
   "base": "1a78d83ce857b87477bc95764c81bc6637720ca1",
   "created_at": "2026-02-16T23:53:01Z",
-  "head": "cfde6e44eb94c9f6c9a3fd6a934f25f3b4f1d8eb",
+  "head": "4b0645eeee4df1b05674944427bae6b794c4743a",
   "login": "ptomato",
   "number": 3759,
   "ref": "temporal-stage-4",
   "revs": [
+   {
+    "adate": "2026-03-06T16:40:48-08:00",
+    "author": "Philip Chimento",
+    "date": "2026-03-06T16:40:48-08:00",
+    "hash": "4b0645eeee4df1b05674944427bae6b794c4743a",
+    "parents": "cfde6e44eb94c9f6c9a3fd6a934f25f3b4f1d8eb",
+    "subject": "(optional) Disallow TimeZoneIANANameComponent of \".\" or \"..\""
+   },
    {
     "adate": "2026-03-05T15:05:44-08:00",
     "author": "Philip Chimento",
@@ -193,7 +201,7 @@
    }
   ],
   "title": "Normative: Temporal stage 4",
-  "updated_at": "2026-03-05T23:06:42Z"
+  "updated_at": "2026-03-07T00:41:40Z"
  },
  {
   "base": "8febdacb384c2661df5a00c0e77dcb69896496e2",
