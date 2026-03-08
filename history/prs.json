@@ -2576,13 +2576,21 @@
   "updated_at": "2023-05-11T20:54:35Z"
  },
  {
-  "base": "1a78d83ce857b87477bc95764c81bc6637720ca1",
+  "base": "4895a117eb54edd829f2010092bae8f41c2b174a",
   "created_at": "2023-01-23T22:42:45Z",
-  "head": "deeb95b667007d839b0013664bcc4183e8c250f6",
+  "head": "5720b6c6a5d3620578cfe0ba1a5253023fc5a210",
   "login": "rbuckton",
   "number": 3000,
   "ref": "explicit-resource-management",
   "revs": [
+   {
+    "adate": "2026-03-08T19:01:22-04:00",
+    "author": "Ron Buckton",
+    "date": "2026-03-08T19:01:22-04:00",
+    "hash": "5720b6c6a5d3620578cfe0ba1a5253023fc5a210",
+    "parents": "deeb95b667007d839b0013664bcc4183e8c250f6 4895a117eb54edd829f2010092bae8f41c2b174a",
+    "subject": "Merge branch 'main' into explicit-resource-management"
+   },
    {
     "adate": "2026-03-08T16:45:50-04:00",
     "author": "Ron Buckton",
@@ -3137,7 +3145,7 @@
    }
   ],
   "title": "Add `using` and `await using` Declarations, SuppressedError, DisposableStack, and AsyncDisposableStack",
-  "updated_at": "2026-03-08T20:50:35Z"
+  "updated_at": "2026-03-08T23:01:24Z"
  },
  {
   "base": "8aac12603c99f94d982317832b0e03c13684ce0a",
