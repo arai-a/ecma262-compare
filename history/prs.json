@@ -2578,11 +2578,51 @@
  {
   "base": "1a78d83ce857b87477bc95764c81bc6637720ca1",
   "created_at": "2023-01-23T22:42:45Z",
-  "head": "d6ba93de6b8a86dac3d7d463ffde57dffd1b0f1c",
+  "head": "deeb95b667007d839b0013664bcc4183e8c250f6",
   "login": "rbuckton",
   "number": 3000,
   "ref": "explicit-resource-management",
   "revs": [
+   {
+    "adate": "2026-03-08T16:45:50-04:00",
+    "author": "Ron Buckton",
+    "date": "2026-03-08T16:45:50-04:00",
+    "hash": "deeb95b667007d839b0013664bcc4183e8c250f6",
+    "parents": "d6ba93de6b8a86dac3d7d463ffde57dffd1b0f1c 32fb736ecad72e3dc216c2c9e86a944601ac1dfa",
+    "subject": "Merge pull request #15 from bakkot/less-machinery"
+   },
+   {
+    "adate": "2026-03-08T13:36:02-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2026-03-08T13:38:24-07:00",
+    "hash": "32fb736ecad72e3dc216c2c9e86a944601ac1dfa",
+    "parents": "8ea1982b6348374169607d6a6ec86480f377d061",
+    "subject": "move it back"
+   },
+   {
+    "adate": "2026-03-07T16:12:15-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2026-03-07T16:12:15-08:00",
+    "hash": "8ea1982b6348374169607d6a6ec86480f377d061",
+    "parents": "71440500aeb9ad5b124d2ebdffae21380cf964ee",
+    "subject": "move _declarationKind_ into the branch where that makes sense"
+   },
+   {
+    "adate": "2026-03-07T16:09:37-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2026-03-07T16:09:39-08:00",
+    "hash": "71440500aeb9ad5b124d2ebdffae21380cf964ee",
+    "parents": "09015523f7811e9f2e6475960c032d804fcfffa2",
+    "subject": "rename _kind_ to _declarationKind_ in ForIn/OfBodyEvaluation"
+   },
+   {
+    "adate": "2026-03-07T16:06:55-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2026-03-07T16:06:55-08:00",
+    "hash": "09015523f7811e9f2e6475960c032d804fcfffa2",
+    "parents": "d6ba93de6b8a86dac3d7d463ffde57dffd1b0f1c",
+    "subject": "avoid threading kind through all the InitializeBinding machinery"
+   },
    {
     "adate": "2026-02-27T15:31:41-05:00",
     "author": "Ron Buckton",
@@ -3097,7 +3137,7 @@
    }
   ],
   "title": "Add `using` and `await using` Declarations, SuppressedError, DisposableStack, and AsyncDisposableStack",
-  "updated_at": "2026-02-27T20:32:37Z"
+  "updated_at": "2026-03-08T20:50:35Z"
  },
  {
   "base": "8aac12603c99f94d982317832b0e03c13684ce0a",
