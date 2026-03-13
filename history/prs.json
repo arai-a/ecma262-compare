@@ -50,11 +50,19 @@
  {
   "base": "1a78d83ce857b87477bc95764c81bc6637720ca1",
   "created_at": "2026-02-16T23:53:01Z",
-  "head": "4b0645eeee4df1b05674944427bae6b794c4743a",
+  "head": "829b729d3f20211750c9ee505eaed0d4509a1352",
   "login": "ptomato",
   "number": 3759,
   "ref": "temporal-stage-4",
   "revs": [
+   {
+    "adate": "2026-03-13T08:44:33-04:00",
+    "author": "Philip Chimento",
+    "date": "2026-03-13T08:44:33-04:00",
+    "hash": "829b729d3f20211750c9ee505eaed0d4509a1352",
+    "parents": "4b0645eeee4df1b05674944427bae6b794c4743a",
+    "subject": "Revert \"(optional) Disallow TimeZoneIANANameComponent of \".\" or \"..\"\""
+   },
    {
     "adate": "2026-03-06T16:40:48-08:00",
     "author": "Philip Chimento",
@@ -201,7 +209,7 @@
    }
   ],
   "title": "Normative: Temporal stage 4",
-  "updated_at": "2026-03-07T00:41:40Z"
+  "updated_at": "2026-03-13T12:45:36Z"
  },
  {
   "base": "8febdacb384c2661df5a00c0e77dcb69896496e2",
