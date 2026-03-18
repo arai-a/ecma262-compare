@@ -1,6 +1,26 @@
 [
  {
   "base": "4895a117eb54edd829f2010092bae8f41c2b174a",
+  "created_at": "2026-03-18T15:13:42Z",
+  "head": "8e3ac43267916a84bef69cc6e7c11a63fac630a2",
+  "login": "nicolo-ribaudo",
+  "number": 3769,
+  "ref": "empty-cycle-root",
+  "revs": [
+   {
+    "adate": "2026-03-18T16:06:39+01:00",
+    "author": "Nicol\u00f2 Ribaudo",
+    "date": "2026-03-18T16:09:53+01:00",
+    "hash": "8e3ac43267916a84bef69cc6e7c11a63fac630a2",
+    "parents": "4895a117eb54edd829f2010092bae8f41c2b174a",
+    "subject": "Normative: Do not read from empty [[CycleRoot]] in GatherAvailableAncestors"
+   }
+  ],
+  "title": "Normative: Do not read from empty [[CycleRoot]] in GatherAvailableAncestors",
+  "updated_at": "2026-03-18T15:19:23Z"
+ },
+ {
+  "base": "4895a117eb54edd829f2010092bae8f41c2b174a",
   "created_at": "2026-03-18T11:36:59Z",
   "head": "3c454693450bdfac508c8589beeda757cbadaeb2",
   "login": "tc39",
