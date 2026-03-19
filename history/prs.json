@@ -40,24 +40,24 @@
   "updated_at": "2026-03-18T15:19:23Z"
  },
  {
-  "base": "4895a117eb54edd829f2010092bae8f41c2b174a",
+  "base": "4b6b2347b38c2572a8cf65d068e56ec7b87ebe9d",
   "created_at": "2026-03-18T11:36:59Z",
-  "head": "3c454693450bdfac508c8589beeda757cbadaeb2",
+  "head": "e7fd87b78fa677383c60ad73dc8fb0ca938e0c92",
   "login": "tc39",
   "number": 3768,
   "ref": "is-not-present-let",
   "revs": [
    {
-    "adate": "2026-03-18T12:32:16+01:00",
+    "adate": "2026-03-18T22:58:13-07:00",
     "author": "Michael Ficarra",
-    "date": "2026-03-18T12:32:16+01:00",
-    "hash": "3c454693450bdfac508c8589beeda757cbadaeb2",
-    "parents": "4895a117eb54edd829f2010092bae8f41c2b174a",
-    "subject": "Editorial: don't attempt to redeclare a param alias that is not present"
+    "date": "2026-03-18T22:58:13-07:00",
+    "hash": "e7fd87b78fa677383c60ad73dc8fb0ca938e0c92",
+    "parents": "4b6b2347b38c2572a8cf65d068e56ec7b87ebe9d",
+    "subject": "Editorial: don't attempt to redeclare a param alias that is not present (#3768)"
    }
   ],
   "title": "Editorial: don't attempt to redeclare a param alias that is not present",
-  "updated_at": "2026-03-18T11:40:44Z"
+  "updated_at": "2026-03-19T05:58:23Z"
  },
  {
   "base": "4895a117eb54edd829f2010092bae8f41c2b174a",
@@ -98,34 +98,6 @@
   ],
   "title": "Editorial: make it clearer that resolvers for already-resolved Promises need not keep the Promise alive",
   "updated_at": "2026-03-06T19:49:02Z"
- },
- {
-  "base": "4895a117eb54edd829f2010092bae8f41c2b174a",
-  "created_at": "2026-03-06T04:35:30Z",
-  "head": "0faf3d7e0881bff5c518f3f8f675cd66b9b910b2",
-  "login": "bakkot",
-  "number": 3763,
-  "ref": "built-in-clauses",
-  "revs": [
-   {
-    "adate": "2026-03-05T20:31:44-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2026-03-05T20:34:38-08:00",
-    "hash": "0faf3d7e0881bff5c518f3f8f675cd66b9b910b2",
-    "parents": "6acab19faeefad2bdbd4d243b3d645efb4204a9b",
-    "subject": "Meta: bump ecmarkup to 24.0.0"
-   },
-   {
-    "adate": "2026-02-21T14:04:04-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2026-03-05T20:34:38-08:00",
-    "hash": "6acab19faeefad2bdbd4d243b3d645efb4204a9b",
-    "parents": "4895a117eb54edd829f2010092bae8f41c2b174a",
-    "subject": "Markup: label clauses of built-in functions"
-   }
-  ],
-  "title": "Markup: label clauses of built-in functions",
-  "updated_at": "2026-03-06T04:39:12Z"
  },
  {
   "base": "1a78d83ce857b87477bc95764c81bc6637720ca1",
