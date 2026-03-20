@@ -22,11 +22,19 @@
  {
   "base": "4895a117eb54edd829f2010092bae8f41c2b174a",
   "created_at": "2026-03-18T15:13:42Z",
-  "head": "8e3ac43267916a84bef69cc6e7c11a63fac630a2",
+  "head": "ce470882423ff14e453e8f44abb4f1fdefc8f310",
   "login": "nicolo-ribaudo",
   "number": 3769,
   "ref": "empty-cycle-root",
   "revs": [
+   {
+    "adate": "2026-03-20T11:24:31+01:00",
+    "author": "Nicol\u00f2 Ribaudo",
+    "date": "2026-03-20T11:24:31+01:00",
+    "hash": "ce470882423ff14e453e8f44abb4f1fdefc8f310",
+    "parents": "8e3ac43267916a84bef69cc6e7c11a63fac630a2",
+    "subject": "typo"
+   },
    {
     "adate": "2026-03-18T16:06:39+01:00",
     "author": "Nicol\u00f2 Ribaudo",
@@ -37,27 +45,7 @@
    }
   ],
   "title": "Normative: Do not read from empty [[CycleRoot]] in GatherAvailableAncestors",
-  "updated_at": "2026-03-18T15:19:23Z"
- },
- {
-  "base": "4b6b2347b38c2572a8cf65d068e56ec7b87ebe9d",
-  "created_at": "2026-03-18T11:36:59Z",
-  "head": "e7fd87b78fa677383c60ad73dc8fb0ca938e0c92",
-  "login": "tc39",
-  "number": 3768,
-  "ref": "is-not-present-let",
-  "revs": [
-   {
-    "adate": "2026-03-18T22:58:13-07:00",
-    "author": "Michael Ficarra",
-    "date": "2026-03-18T22:58:13-07:00",
-    "hash": "e7fd87b78fa677383c60ad73dc8fb0ca938e0c92",
-    "parents": "4b6b2347b38c2572a8cf65d068e56ec7b87ebe9d",
-    "subject": "Editorial: don't attempt to redeclare a param alias that is not present (#3768)"
-   }
-  ],
-  "title": "Editorial: don't attempt to redeclare a param alias that is not present",
-  "updated_at": "2026-03-19T05:58:23Z"
+  "updated_at": "2026-03-20T10:24:38Z"
  },
  {
   "base": "4895a117eb54edd829f2010092bae8f41c2b174a",
