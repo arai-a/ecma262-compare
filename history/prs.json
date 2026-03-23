@@ -1,5 +1,25 @@
 [
  {
+  "base": "e7fd87b78fa677383c60ad73dc8fb0ca938e0c92",
+  "created_at": "2026-03-23T14:43:38Z",
+  "head": "ab765b654c7fca04bf591bad8fd20b01b5630836",
+  "login": "nicolo-ribaudo",
+  "number": 3773,
+  "ref": "prepare-for-lint-reassign-arfs",
+  "revs": [
+   {
+    "adate": "2026-03-23T15:41:13+01:00",
+    "author": "Nicol\u00f2 Ribaudo",
+    "date": "2026-03-23T15:41:13+01:00",
+    "hash": "ab765b654c7fca04bf591bad8fd20b01b5630836",
+    "parents": "e7fd87b78fa677383c60ad73dc8fb0ca938e0c92",
+    "subject": "Editorial: Reword loop in ValidateAndApplyPropertyDescriptor"
+   }
+  ],
+  "title": "Editorial: Reword loop in ValidateAndApplyPropertyDescriptor",
+  "updated_at": "2026-03-23T15:10:49Z"
+ },
+ {
   "base": "4895a117eb54edd829f2010092bae8f41c2b174a",
   "created_at": "2026-03-18T21:14:06Z",
   "head": "9531e4a19a94a43bbe7bee1ce99f561072f7b428",
