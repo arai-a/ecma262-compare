@@ -1284,56 +1284,56 @@
   "updated_at": "2025-11-05T19:33:40Z"
  },
  {
-  "base": "00146687f225a64e1b1e2d303acc6139a1adee7d",
+  "base": "e7fd87b78fa677383c60ad73dc8fb0ca938e0c92",
   "created_at": "2024-11-21T01:01:29Z",
-  "head": "69c5a1a21f29912cf630e44928745b4817dcbe26",
+  "head": "aee5f7e518a284ca9850de3b6e18b9d91ade48e4",
   "login": "guybedford",
   "number": 3492,
   "ref": "source-phase-imports",
   "revs": [
    {
-    "adate": "2026-02-12T09:36:05-08:00",
+    "adate": "2026-03-23T17:51:08-07:00",
     "author": "Guy Bedford",
-    "date": "2026-02-12T09:36:05-08:00",
-    "hash": "69c5a1a21f29912cf630e44928745b4817dcbe26",
-    "parents": "8ff2e2267e4e4a3f2c4a9d1d62f93f74c348f625 00146687f225a64e1b1e2d303acc6139a1adee7d",
-    "subject": "Merge branch 'main' into source-phase-imports"
+    "date": "2026-03-23T17:56:26-07:00",
+    "hash": "aee5f7e518a284ca9850de3b6e18b9d91ade48e4",
+    "parents": "c6bae93de3ec291d9c77d227b3fc75d1e123c68a",
+    "subject": "Editorial: fix ParseModule re-export handling for source imports (tc39/proposal-source-phase-imports#76)"
    },
    {
     "adate": "2025-02-10T18:58:15-08:00",
     "author": "Guy Bedford",
-    "date": "2026-01-02T16:47:18-08:00",
-    "hash": "8ff2e2267e4e4a3f2c4a9d1d62f93f74c348f625",
-    "parents": "a89eb5265d5abb37040490a6bddac7298b60a896",
+    "date": "2026-03-23T17:49:19-07:00",
+    "hash": "c6bae93de3ec291d9c77d227b3fc75d1e123c68a",
+    "parents": "a27de13caece0c84c579c986ce248467d9c9a01a",
     "subject": "HostGetModuleSourceModuleRecord (tc39/proposal-source-phase-imports#70)"
    },
    {
     "adate": "2024-12-30T10:45:02-08:00",
     "author": "Guy Bedford",
-    "date": "2026-01-02T16:47:18-08:00",
-    "hash": "a89eb5265d5abb37040490a6bddac7298b60a896",
-    "parents": "4b9752c4d996aa43b8c97f09723230e7f873afe3",
+    "date": "2026-03-23T17:49:19-07:00",
+    "hash": "a27de13caece0c84c579c986ce248467d9c9a01a",
+    "parents": "efd632bf0c1f3dbad2c0b824fac68e3a59a93b96",
     "subject": "editorial: refactor GetModuleSource() to instead use [[ModuleSource]] field"
    },
    {
     "adate": "2024-11-26T13:35:18-08:00",
     "author": "Guy Bedford",
-    "date": "2026-01-02T16:47:18-08:00",
-    "hash": "4b9752c4d996aa43b8c97f09723230e7f873afe3",
-    "parents": "5320b387a7406ff55b456407a2809b898d308c82",
+    "date": "2026-03-23T17:49:18-07:00",
+    "hash": "efd632bf0c1f3dbad2c0b824fac68e3a59a93b96",
+    "parents": "1f7dfc5642acdc765f60e0af130519b3556ae0a2",
     "subject": "use must be initialized wording over should"
    },
    {
     "adate": "2024-11-20T16:53:27-08:00",
     "author": "Guy Bedford",
-    "date": "2026-01-02T16:47:18-08:00",
-    "hash": "5320b387a7406ff55b456407a2809b898d308c82",
-    "parents": "8febdacb384c2661df5a00c0e77dcb69896496e2",
+    "date": "2026-03-23T17:49:18-07:00",
+    "hash": "1f7dfc5642acdc765f60e0af130519b3556ae0a2",
+    "parents": "e7fd87b78fa677383c60ad73dc8fb0ca938e0c92",
     "subject": "Rebase Source Phase Imports Proposal"
    }
   ],
   "title": "Normative: Source Phase Imports rebased to Import Attributes",
-  "updated_at": "2026-02-12T17:36:07Z"
+  "updated_at": "2026-03-24T00:56:57Z"
  },
  {
   "base": "4c44bbed7c5a7df90705a58aaa08d2a6c5b9b596",
@@ -2630,34 +2630,6 @@
   ],
   "title": "Better iterator close",
   "updated_at": "2023-05-25T23:43:21Z"
- },
- {
-  "base": "f682cffb67eba0a1d096fd70df56500732547283",
-  "created_at": "2023-05-10T21:36:02Z",
-  "head": "4407623143b613bec409f604c27f363f300f8c8c",
-  "login": "guybedford",
-  "number": 3064,
-  "ref": "well-formed-imports",
-  "revs": [
-   {
-    "adate": "2023-05-11T13:54:32-07:00",
-    "author": "Guy Bedford",
-    "date": "2023-05-11T13:54:32-07:00",
-    "hash": "4407623143b613bec409f604c27f363f300f8c8c",
-    "parents": "f9d99601f07023b21e6c60fa1bddc8bfb529cb3f f682cffb67eba0a1d096fd70df56500732547283",
-    "subject": "Merge branch 'main' into well-formed-imports"
-   },
-   {
-    "adate": "2023-05-10T14:33:01-07:00",
-    "author": "Guy Bedford",
-    "date": "2023-05-10T14:33:01-07:00",
-    "hash": "f9d99601f07023b21e6c60fa1bddc8bfb529cb3f",
-    "parents": "928a953f822bd7024ea3b13926d75d3c0b42b352",
-    "subject": "Normative: make non-USV import strings a syntax error"
-   }
-  ],
-  "title": "Normative: make non-USV import strings a syntax error",
-  "updated_at": "2023-05-11T20:54:35Z"
  },
  {
   "base": "4895a117eb54edd829f2010092bae8f41c2b174a",
