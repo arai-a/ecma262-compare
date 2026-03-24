@@ -1,6 +1,26 @@
 [
  {
   "base": "e7fd87b78fa677383c60ad73dc8fb0ca938e0c92",
+  "created_at": "2026-03-24T15:16:09Z",
+  "head": "d5540f2998f2c0c065bd13cb6f420cad28b0dfc9",
+  "login": "tc39",
+  "number": 3774,
+  "ref": "michaelficarra-patch-1",
+  "revs": [
+   {
+    "adate": "2026-03-24T09:14:36-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-03-24T09:14:36-06:00",
+    "hash": "d5540f2998f2c0c065bd13cb6f420cad28b0dfc9",
+    "parents": "e7fd87b78fa677383c60ad73dc8fb0ca938e0c92",
+    "subject": "Editorial: update '%IteratorPrototype%' in Generator Objects Relationships figure"
+   }
+  ],
+  "title": "Editorial: update %IteratorPrototype% in Generator Objects Relationships figure",
+  "updated_at": "2026-03-24T15:20:13Z"
+ },
+ {
+  "base": "e7fd87b78fa677383c60ad73dc8fb0ca938e0c92",
   "created_at": "2026-03-23T14:43:38Z",
   "head": "aa36f37660f1e8515a20f4dcda87844a1378f85f",
   "login": "nicolo-ribaudo",
