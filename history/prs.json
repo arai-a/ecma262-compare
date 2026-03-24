@@ -2,11 +2,27 @@
  {
   "base": "e7fd87b78fa677383c60ad73dc8fb0ca938e0c92",
   "created_at": "2026-03-24T17:23:55Z",
-  "head": "e2e1876de8f3789ee9e27be24c0aef1b363f3287",
+  "head": "289fea73b7d5f894e77cb7ed67bf1e302dcdb855",
   "login": "guybedford",
   "number": 3775,
   "ref": "namespace-binding",
   "revs": [
+   {
+    "adate": "2026-03-24T14:12:28-07:00",
+    "author": "Guy Bedford",
+    "date": "2026-03-24T14:12:28-07:00",
+    "hash": "289fea73b7d5f894e77cb7ed67bf1e302dcdb855",
+    "parents": "4c2bd2cadff999d4ff19f4f04014c5c5f15e99fa",
+    "subject": "fixup"
+   },
+   {
+    "adate": "2026-03-24T13:42:21-07:00",
+    "author": "Guy Bedford",
+    "date": "2026-03-24T13:42:21-07:00",
+    "hash": "4c2bd2cadff999d4ff19f4f04014c5c5f15e99fa",
+    "parents": "e2e1876de8f3789ee9e27be24c0aef1b363f3287",
+    "subject": "fix indentation"
+   },
    {
     "adate": "2026-03-24T10:15:49-07:00",
     "author": "Guy Bedford",
@@ -17,7 +33,7 @@
    }
   ],
   "title": "align on ~namespace~ for ImportEntry, ExportEntry and ResolvedBinding",
-  "updated_at": "2026-03-24T17:41:00Z"
+  "updated_at": "2026-03-24T21:12:36Z"
  },
  {
   "base": "e7fd87b78fa677383c60ad73dc8fb0ca938e0c92",
@@ -1334,11 +1350,19 @@
  {
   "base": "e7fd87b78fa677383c60ad73dc8fb0ca938e0c92",
   "created_at": "2024-11-21T01:01:29Z",
-  "head": "656227fb7bb39dca6be36c9b1195cb4799cb5fe3",
+  "head": "a213a294d81de69e155e7bfab0f8a79e715940e0",
   "login": "guybedford",
   "number": 3492,
   "ref": "source-phase-imports",
   "revs": [
+   {
+    "adate": "2026-03-24T14:04:34-07:00",
+    "author": "Guy Bedford",
+    "date": "2026-03-24T14:10:08-07:00",
+    "hash": "a213a294d81de69e155e7bfab0f8a79e715940e0",
+    "parents": "656227fb7bb39dca6be36c9b1195cb4799cb5fe3",
+    "subject": "Editorial: address PR review feedback from jmdyck"
+   },
    {
     "adate": "2026-03-23T19:53:24-07:00",
     "author": "Guy Bedford",
@@ -1389,7 +1413,7 @@
    }
   ],
   "title": "Normative: Source Phase Imports rebased to Import Attributes",
-  "updated_at": "2026-03-24T03:27:37Z"
+  "updated_at": "2026-03-24T21:11:56Z"
  },
  {
   "base": "4c44bbed7c5a7df90705a58aaa08d2a6c5b9b596",
