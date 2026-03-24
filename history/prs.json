@@ -1,6 +1,26 @@
 [
  {
   "base": "e7fd87b78fa677383c60ad73dc8fb0ca938e0c92",
+  "created_at": "2026-03-24T17:23:55Z",
+  "head": "e2e1876de8f3789ee9e27be24c0aef1b363f3287",
+  "login": "guybedford",
+  "number": 3775,
+  "ref": "namespace-binding",
+  "revs": [
+   {
+    "adate": "2026-03-24T10:15:49-07:00",
+    "author": "Guy Bedford",
+    "date": "2026-03-24T10:25:36-07:00",
+    "hash": "e2e1876de8f3789ee9e27be24c0aef1b363f3287",
+    "parents": "e7fd87b78fa677383c60ad73dc8fb0ca938e0c92",
+    "subject": "align on ~namespace~ for ImportEntry, ExportEntry and ResolvedBinding"
+   }
+  ],
+  "title": "align on ~namespace~ for ImportEntry, ExportEntry and ResolvedBinding",
+  "updated_at": "2026-03-24T17:41:00Z"
+ },
+ {
+  "base": "e7fd87b78fa677383c60ad73dc8fb0ca938e0c92",
   "created_at": "2026-03-24T15:16:09Z",
   "head": "d5540f2998f2c0c065bd13cb6f420cad28b0dfc9",
   "login": "tc39",
