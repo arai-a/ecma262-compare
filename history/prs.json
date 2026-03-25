@@ -152,24 +152,24 @@
   "updated_at": "2026-03-18T07:11:09Z"
  },
  {
-  "base": "4895a117eb54edd829f2010092bae8f41c2b174a",
+  "base": "e7fd87b78fa677383c60ad73dc8fb0ca938e0c92",
   "created_at": "2026-03-06T19:45:00Z",
-  "head": "daff2aab2ef1b4e19afd73c175f4b81983709b91",
+  "head": "7bbfd4bb38936f913d12ac4962b6ab4e0461f6d0",
   "login": "bakkot",
   "number": 3764,
   "ref": "promise-resolver-weakness",
   "revs": [
    {
-    "adate": "2026-03-06T11:05:17-08:00",
+    "adate": "2026-03-25T10:04:58-07:00",
     "author": "Kevin Gibbons",
-    "date": "2026-03-06T11:05:17-08:00",
-    "hash": "daff2aab2ef1b4e19afd73c175f4b81983709b91",
-    "parents": "4895a117eb54edd829f2010092bae8f41c2b174a",
-    "subject": "Editorial: make it clearer that resolvers for already-resolved Promises need not keep the Promise alive"
+    "date": "2026-03-25T10:04:58-07:00",
+    "hash": "7bbfd4bb38936f913d12ac4962b6ab4e0461f6d0",
+    "parents": "e7fd87b78fa677383c60ad73dc8fb0ca938e0c92",
+    "subject": "Editorial: make it clearer that resolvers for already-resolved Promises need not keep the Promise alive (#3764)"
    }
   ],
   "title": "Editorial: make it clearer that resolvers for already-resolved Promises need not keep the Promise alive",
-  "updated_at": "2026-03-06T19:49:02Z"
+  "updated_at": "2026-03-25T17:05:11Z"
  },
  {
   "base": "1a78d83ce857b87477bc95764c81bc6637720ca1",
@@ -1350,34 +1350,42 @@
  {
   "base": "e7fd87b78fa677383c60ad73dc8fb0ca938e0c92",
   "created_at": "2024-11-21T01:01:29Z",
-  "head": "a213a294d81de69e155e7bfab0f8a79e715940e0",
+  "head": "345f629c8ab95b65898b1bad04693bd4d436ecfa",
   "login": "guybedford",
   "number": 3492,
   "ref": "source-phase-imports",
   "revs": [
    {
+    "adate": "2026-03-25T08:57:35-07:00",
+    "author": "Guy Bedford",
+    "date": "2026-03-25T09:15:44-07:00",
+    "hash": "345f629c8ab95b65898b1bad04693bd4d436ecfa",
+    "parents": "d0c24bf97528399f2dfee88913b4f85dd8c9a856",
+    "subject": "Editorial: address PR review feedback - BoundNames and empty td format"
+   },
+   {
     "adate": "2026-03-24T14:04:34-07:00",
     "author": "Guy Bedford",
-    "date": "2026-03-24T14:10:08-07:00",
-    "hash": "a213a294d81de69e155e7bfab0f8a79e715940e0",
-    "parents": "656227fb7bb39dca6be36c9b1195cb4799cb5fe3",
+    "date": "2026-03-25T09:15:44-07:00",
+    "hash": "d0c24bf97528399f2dfee88913b4f85dd8c9a856",
+    "parents": "058520f57664709b1d6cf18b3c9fcc73369d6404",
     "subject": "Editorial: address PR review feedback from jmdyck"
    },
    {
     "adate": "2026-03-23T19:53:24-07:00",
     "author": "Guy Bedford",
-    "date": "2026-03-23T20:27:25-07:00",
-    "hash": "656227fb7bb39dca6be36c9b1195cb4799cb5fe3",
-    "parents": "aee5f7e518a284ca9850de3b6e18b9d91ade48e4",
+    "date": "2026-03-25T09:15:44-07:00",
+    "hash": "058520f57664709b1d6cf18b3c9fcc73369d6404",
+    "parents": "430be8da64b63ee941d92a9ddbeefe5ff4101563",
     "subject": "Editorial: correct AbstractModuleSource host invariants (tc39/proposal-source-phase-imports#77)"
    },
    {
     "adate": "2026-03-23T17:51:08-07:00",
     "author": "Guy Bedford",
-    "date": "2026-03-23T17:56:26-07:00",
-    "hash": "aee5f7e518a284ca9850de3b6e18b9d91ade48e4",
+    "date": "2026-03-25T09:15:15-07:00",
+    "hash": "430be8da64b63ee941d92a9ddbeefe5ff4101563",
     "parents": "c6bae93de3ec291d9c77d227b3fc75d1e123c68a",
-    "subject": "Editorial: fix ParseModule re-export handling for source imports (tc39/proposal-source-phase-imports#76)"
+    "subject": "Editorial: define ~source~ ExportName for re-exported source imports (tc39/proposal-source-phase-imports#76)"
    },
    {
     "adate": "2025-02-10T18:58:15-08:00",
@@ -1413,7 +1421,7 @@
    }
   ],
   "title": "Normative: Source Phase Imports rebased to Import Attributes",
-  "updated_at": "2026-03-24T21:11:56Z"
+  "updated_at": "2026-03-25T16:15:55Z"
  },
  {
   "base": "4c44bbed7c5a7df90705a58aaa08d2a6c5b9b596",
