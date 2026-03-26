@@ -56,46 +56,6 @@
   "updated_at": "2026-03-24T21:12:36Z"
  },
  {
-  "base": "e7fd87b78fa677383c60ad73dc8fb0ca938e0c92",
-  "created_at": "2026-03-24T15:16:09Z",
-  "head": "d5540f2998f2c0c065bd13cb6f420cad28b0dfc9",
-  "login": "tc39",
-  "number": 3774,
-  "ref": "michaelficarra-patch-1",
-  "revs": [
-   {
-    "adate": "2026-03-24T09:14:36-06:00",
-    "author": "Michael Ficarra",
-    "date": "2026-03-24T09:14:36-06:00",
-    "hash": "d5540f2998f2c0c065bd13cb6f420cad28b0dfc9",
-    "parents": "e7fd87b78fa677383c60ad73dc8fb0ca938e0c92",
-    "subject": "Editorial: update '%IteratorPrototype%' in Generator Objects Relationships figure"
-   }
-  ],
-  "title": "Editorial: update %IteratorPrototype% in Generator Objects Relationships figure",
-  "updated_at": "2026-03-24T15:20:13Z"
- },
- {
-  "base": "7bbfd4bb38936f913d12ac4962b6ab4e0461f6d0",
-  "created_at": "2026-03-23T14:43:38Z",
-  "head": "eef252859afb6b310ee5a22967f41ec2e4f26ea1",
-  "login": "nicolo-ribaudo",
-  "number": 3773,
-  "ref": "prepare-for-lint-reassign-arfs",
-  "revs": [
-   {
-    "adate": "2026-03-25T10:15:40-07:00",
-    "author": "Nicol\u00f2 Ribaudo",
-    "date": "2026-03-25T10:15:40-07:00",
-    "hash": "eef252859afb6b310ee5a22967f41ec2e4f26ea1",
-    "parents": "7bbfd4bb38936f913d12ac4962b6ab4e0461f6d0",
-    "subject": "Editorial: Reword loop in ValidateAndApplyPropertyDescriptor (#3773)"
-   }
-  ],
-  "title": "Editorial: Reword loop in ValidateAndApplyPropertyDescriptor",
-  "updated_at": "2026-03-25T17:16:08Z"
- },
- {
   "base": "4895a117eb54edd829f2010092bae8f41c2b174a",
   "created_at": "2026-03-18T21:14:06Z",
   "head": "9531e4a19a94a43bbe7bee1ce99f561072f7b428",
@@ -428,164 +388,72 @@
   "updated_at": "2025-12-18T01:17:55Z"
  },
  {
-  "base": "270a490b3f8bf6f15bced16021ee0c3ff107f823",
+  "base": "eef252859afb6b310ee5a22967f41ec2e4f26ea1",
   "created_at": "2025-11-07T09:18:12Z",
-  "head": "92505afdbc4bbc5388848597fb38e347311b6a9a",
+  "head": "0d4ba47499af6357020d47a4d4c2a9cc908ed76a",
   "login": "gibson042",
   "number": 3714,
   "ref": "proposal-json-parse-with-source",
   "revs": [
    {
-    "adate": "2025-11-16T00:37:22-05:00",
+    "adate": "2026-03-26T12:58:05-04:00",
     "author": "Richard Gibson",
-    "date": "2026-03-17T16:23:30-04:00",
-    "hash": "92505afdbc4bbc5388848597fb38e347311b6a9a",
-    "parents": "733eba864cfd6512abeee43a79bd5a8377f52a34",
+    "date": "2026-03-26T12:58:05-04:00",
+    "hash": "0d4ba47499af6357020d47a4d4c2a9cc908ed76a",
+    "parents": "c40c893c988bdcf8c45708e38c08e4c5aa49515c",
+    "subject": "Meta: Add ESMeta suppressions"
+   },
+   {
+    "adate": "2026-03-26T12:05:03-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-03-26T12:51:37-04:00",
+    "hash": "c40c893c988bdcf8c45708e38c08e4c5aa49515c",
+    "parents": "dee2120a2cc7f7552235fdb33d089a8ca3423729",
+    "subject": "Editorial: Replace the generic ArrayLiteralContentNodes with a JSON-specific JSONArrayLiteralContentNodes"
+   },
+   {
+    "adate": "2026-03-26T11:55:57-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-03-26T12:51:36-04:00",
+    "hash": "dee2120a2cc7f7552235fdb33d089a8ca3423729",
+    "parents": "e480826744999b8c2a956af756dd9e1f676f9e2c",
+    "subject": "Editorial: Consolidate JSON.rawJSON assertions into validity checks"
+   },
+   {
+    "adate": "2026-03-26T11:48:16-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-03-26T12:51:36-04:00",
+    "hash": "e480826744999b8c2a956af756dd9e1f676f9e2c",
+    "parents": "e61e11656427cd321a424f28a452555b8c3fa906",
+    "subject": "fixup! Normative: Extend JSON.parse and JSON.stringify for interaction with the source text of primitive values"
+   },
+   {
+    "adate": "2026-03-26T11:45:20-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-03-26T12:51:36-04:00",
+    "hash": "e61e11656427cd321a424f28a452555b8c3fa906",
+    "parents": "b8aa8e1512f0d3767e586384a4d80ee39b63e78f",
     "subject": "fixup! Normative: Extend JSON.parse and JSON.stringify for interaction with the source text of primitive values"
    },
    {
     "adate": "2025-11-16T00:37:22-05:00",
     "author": "Richard Gibson",
-    "date": "2026-03-17T16:20:43-04:00",
-    "hash": "733eba864cfd6512abeee43a79bd5a8377f52a34",
-    "parents": "9c617b0cdc45742fd28b180fec34343dd59ec97b",
-    "subject": "fixup! Normative: Extend JSON.parse and JSON.stringify for interaction with the source text of primitive values"
-   },
-   {
-    "adate": "2025-11-16T00:37:22-05:00",
-    "author": "Richard Gibson",
-    "date": "2026-02-24T12:30:39-05:00",
-    "hash": "9c617b0cdc45742fd28b180fec34343dd59ec97b",
-    "parents": "54c545ff295b249fe1abf00e9d17e47f5c65c016",
-    "subject": "fixup! Normative: Extend JSON.parse and JSON.stringify for interaction with the source text of primitive values"
-   },
-   {
-    "adate": "2025-11-16T00:37:22-05:00",
-    "author": "Richard Gibson",
-    "date": "2026-02-17T20:40:02-05:00",
-    "hash": "54c545ff295b249fe1abf00e9d17e47f5c65c016",
-    "parents": "a9ad4d45bfa10788fac0f0cb65a601333303c963",
-    "subject": "fixup! Normative: Extend JSON.parse and JSON.stringify for interaction with the source text of primitive values"
-   },
-   {
-    "adate": "2025-11-16T00:37:22-05:00",
-    "author": "Richard Gibson",
-    "date": "2026-02-16T15:09:36-05:00",
-    "hash": "a9ad4d45bfa10788fac0f0cb65a601333303c963",
-    "parents": "bd9d397f327b970dc216002b521940959441107b",
+    "date": "2026-03-26T12:51:36-04:00",
+    "hash": "b8aa8e1512f0d3767e586384a4d80ee39b63e78f",
+    "parents": "e637c39d07cea7dba66fa20dddf420373acb2650",
     "subject": "Editorial: Improve alias naming in InternalizeJSONProperty"
-   },
-   {
-    "adate": "2025-11-16T00:37:22-05:00",
-    "author": "Richard Gibson",
-    "date": "2026-02-16T14:52:26-05:00",
-    "hash": "bd9d397f327b970dc216002b521940959441107b",
-    "parents": "e9186e8e20cac2c3b6e3977b97e871774bbcb462",
-    "subject": "fixup! Normative: Extend JSON.parse and JSON.stringify for interaction with the source text of primitive values"
-   },
-   {
-    "adate": "2025-11-16T00:37:22-05:00",
-    "author": "Richard Gibson",
-    "date": "2026-02-16T14:51:45-05:00",
-    "hash": "e9186e8e20cac2c3b6e3977b97e871774bbcb462",
-    "parents": "9b169d9da926b375b15fb557a61919511578d380",
-    "subject": "fixup! Normative: Extend JSON.parse and JSON.stringify for interaction with the source text of primitive values"
-   },
-   {
-    "adate": "2025-11-16T00:37:22-05:00",
-    "author": "Richard Gibson",
-    "date": "2026-02-16T13:11:20-05:00",
-    "hash": "9b169d9da926b375b15fb557a61919511578d380",
-    "parents": "e2fb43f1fc5310888d8ebf2c41d28d71a283dfd4",
-    "subject": "fixup! Normative: Extend JSON.parse and JSON.stringify for interaction with the source text of primitive values"
-   },
-   {
-    "adate": "2025-11-16T00:37:22-05:00",
-    "author": "Richard Gibson",
-    "date": "2026-02-16T12:56:02-05:00",
-    "hash": "e2fb43f1fc5310888d8ebf2c41d28d71a283dfd4",
-    "parents": "e02cd1fa19a67a227e8f3d1609690c003c17e182",
-    "subject": "fixup! Normative: Extend JSON.parse and JSON.stringify for interaction with the source text of primitive values"
-   },
-   {
-    "adate": "2025-11-16T00:37:22-05:00",
-    "author": "Richard Gibson",
-    "date": "2026-02-16T12:55:01-05:00",
-    "hash": "e02cd1fa19a67a227e8f3d1609690c003c17e182",
-    "parents": "a8f29c289f9f43269207df803e9c98708199ec9d",
-    "subject": "fixup! Normative: Extend JSON.parse and JSON.stringify for interaction with the source text of primitive values"
-   },
-   {
-    "adate": "2025-11-16T00:37:22-05:00",
-    "author": "Richard Gibson",
-    "date": "2026-02-16T12:41:14-05:00",
-    "hash": "a8f29c289f9f43269207df803e9c98708199ec9d",
-    "parents": "477c7945b370191ff1698aae58a5c5e508569d71",
-    "subject": "fixup! Normative: Extend JSON.parse and JSON.stringify for interaction with the source text of primitive values"
-   },
-   {
-    "adate": "2025-11-16T00:37:22-05:00",
-    "author": "Richard Gibson",
-    "date": "2026-01-27T15:11:53-07:00",
-    "hash": "477c7945b370191ff1698aae58a5c5e508569d71",
-    "parents": "0258d9a25085d3b6c07f35445aab71344c9c4ac3",
-    "subject": "fixup! Normative: Extend JSON.parse and JSON.stringify for interaction with the source text of primitive values"
-   },
-   {
-    "adate": "2025-11-16T00:37:22-05:00",
-    "author": "Richard Gibson",
-    "date": "2026-01-27T15:11:53-07:00",
-    "hash": "0258d9a25085d3b6c07f35445aab71344c9c4ac3",
-    "parents": "263ac200b569c8b8ca88b325a7e1256b511dd7c6",
-    "subject": "fixup! Normative: Extend JSON.parse and JSON.stringify for interaction with the source text of primitive values"
-   },
-   {
-    "adate": "2025-11-16T00:37:22-05:00",
-    "author": "Richard Gibson",
-    "date": "2026-01-27T15:11:53-07:00",
-    "hash": "263ac200b569c8b8ca88b325a7e1256b511dd7c6",
-    "parents": "618df57523eb9ba25aac4c414bad902fb324a8f8",
-    "subject": "fixup! Normative: Extend JSON.parse and JSON.stringify for interaction with the source text of primitive values"
-   },
-   {
-    "adate": "2025-11-16T00:35:33-05:00",
-    "author": "Richard Gibson",
-    "date": "2026-01-27T15:11:53-07:00",
-    "hash": "618df57523eb9ba25aac4c414bad902fb324a8f8",
-    "parents": "518c8ad7d0e5fbf36462acf2fe49f36e65984a88",
-    "subject": "fixup! Normative: Extend JSON.parse and JSON.stringify for interaction with the source text of primitive values"
    },
    {
     "adate": "2025-11-07T04:15:25-05:00",
     "author": "Richard Gibson",
-    "date": "2026-01-27T15:11:53-07:00",
-    "hash": "518c8ad7d0e5fbf36462acf2fe49f36e65984a88",
-    "parents": "270a490b3f8bf6f15bced16021ee0c3ff107f823",
+    "date": "2026-03-26T12:51:36-04:00",
+    "hash": "e637c39d07cea7dba66fa20dddf420373acb2650",
+    "parents": "eef252859afb6b310ee5a22967f41ec2e4f26ea1",
     "subject": "Normative: Extend JSON.parse and JSON.stringify for interaction with the source text of primitive values"
    }
   ],
   "title": "Normative: Extend JSON.parse and JSON.stringify for interaction with the source text of primitive values",
-  "updated_at": "2026-03-17T20:23:42Z"
- },
- {
-  "base": "86b5733c7ff73aff635d202329acbb53de80099b",
-  "created_at": "2025-10-16T21:08:40Z",
-  "head": "98658382513edd7eb7109af7cd75eae6a4148459",
-  "login": "tc39",
-  "number": 3706,
-  "ref": "bakkot-patch-1",
-  "revs": [
-   {
-    "adate": "2025-10-16T14:06:56-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2025-10-16T14:06:56-07:00",
-    "hash": "98658382513edd7eb7109af7cd75eae6a4148459",
-    "parents": "86b5733c7ff73aff635d202329acbb53de80099b",
-    "subject": "Meta: switch publish-biblio to trusted publishing"
-   }
-  ],
-  "title": "Meta: switch publish-biblio to trusted publishing",
-  "updated_at": "2025-10-16T21:11:11Z"
+  "updated_at": "2026-03-26T17:35:32Z"
  },
  {
   "base": "17cbe35fdd0976927ccb739b288f1cbb7caff2a4",
