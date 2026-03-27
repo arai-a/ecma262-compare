@@ -1,6 +1,46 @@
 [
  {
   "base": "880398845fd935bddad6a494ceeeb6c94397cc36",
+  "created_at": "2026-03-27T18:28:59Z",
+  "head": "abeab11c425105251d8668e8fad14c7131d5a156",
+  "login": "tc39",
+  "number": 3778,
+  "ref": "throw",
+  "revs": [
+   {
+    "adate": "2026-03-27T12:25:46-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-03-27T12:25:46-06:00",
+    "hash": "abeab11c425105251d8668e8fad14c7131d5a156",
+    "parents": "880398845fd935bddad6a494ceeeb6c94397cc36",
+    "subject": "Editorial: allow more generic use of throw shorthand in algorithm steps"
+   }
+  ],
+  "title": "Editorial: allow more generic use of throw shorthand in algorithm steps",
+  "updated_at": "2026-03-27T18:33:13Z"
+ },
+ {
+  "base": "880398845fd935bddad6a494ceeeb6c94397cc36",
+  "created_at": "2026-03-27T17:44:34Z",
+  "head": "d2eb90dee5e4d9fec956df9b01f1c0bc796a42fb",
+  "login": "tc39",
+  "number": 3777,
+  "ref": "enum-denotation",
+  "revs": [
+   {
+    "adate": "2026-03-27T11:43:44-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-03-27T11:43:44-06:00",
+    "hash": "d2eb90dee5e4d9fec956df9b01f1c0bc796a42fb",
+    "parents": "880398845fd935bddad6a494ceeeb6c94397cc36",
+    "subject": "Editorial: update description of enum denotation"
+   }
+  ],
+  "title": "Editorial: update description of enum denotation",
+  "updated_at": "2026-03-27T17:50:35Z"
+ },
+ {
+  "base": "880398845fd935bddad6a494ceeeb6c94397cc36",
   "created_at": "2026-03-26T04:21:16Z",
   "head": "a5e3a693eb55d657874a788acc80dfb891fc40b7",
   "login": "tc39",
