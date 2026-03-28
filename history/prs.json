@@ -1,6 +1,26 @@
 [
  {
   "base": "880398845fd935bddad6a494ceeeb6c94397cc36",
+  "created_at": "2026-03-28T19:06:17Z",
+  "head": "1a6b8b8836b1cab275112a32ba688e04f388c462",
+  "login": "gibson042",
+  "number": 3781,
+  "ref": "2026-03-abstract-closure-autolinking",
+  "revs": [
+   {
+    "adate": "2026-03-28T15:05:25-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-03-28T15:05:25-04:00",
+    "hash": "1a6b8b8836b1cab275112a32ba688e04f388c462",
+    "parents": "880398845fd935bddad6a494ceeeb6c94397cc36",
+    "subject": "Editorial: Properly capitalize Abstract Closure for autolinking"
+   }
+  ],
+  "title": "Editorial: Properly capitalize Abstract Closure for autolinking",
+  "updated_at": "2026-03-28T19:10:04Z"
+ },
+ {
+  "base": "880398845fd935bddad6a494ceeeb6c94397cc36",
   "created_at": "2026-03-27T20:17:01Z",
   "head": "769acd24d48c66512d2682112ade5c28440b096b",
   "login": "tc39",
