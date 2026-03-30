@@ -1,51 +1,23 @@
 [
  {
   "base": "880398845fd935bddad6a494ceeeb6c94397cc36",
-  "created_at": "2026-03-30T20:59:37Z",
-  "head": "5325123d88ceb731999fc3a93e2db70f89963c7c",
+  "created_at": "2026-03-30T22:30:34Z",
+  "head": "b9705bfb154cd8a3173cbb6a1f105612f74618c1",
   "login": "nicolo-ribaudo",
-  "number": 3786,
-  "ref": "relax-assert-set-done",
+  "number": 3787,
+  "ref": "remove-assertion",
   "revs": [
    {
-    "adate": "2026-03-30T22:57:46+02:00",
+    "adate": "2026-03-31T00:08:50+02:00",
     "author": "Nicol\u00f2 Ribaudo",
-    "date": "2026-03-30T22:57:46+02:00",
-    "hash": "5325123d88ceb731999fc3a93e2db70f89963c7c",
-    "parents": "48a89a087aa7a18c59c75a21caf20a58441448a3",
-    "subject": "Editorial: set [[AsyncEvaluationOrder]] to DONE in case of error"
-   },
-   {
-    "adate": "2026-03-30T22:52:15+02:00",
-    "author": "Nicol\u00f2 Ribaudo",
-    "date": "2026-03-30T22:52:15+02:00",
-    "hash": "48a89a087aa7a18c59c75a21caf20a58441448a3",
+    "date": "2026-03-31T00:10:09+02:00",
+    "hash": "b9705bfb154cd8a3173cbb6a1f105612f74618c1",
     "parents": "880398845fd935bddad6a494ceeeb6c94397cc36",
-    "subject": "Relax invalid assertion in Cyclic Module Record's Evaluate()"
+    "subject": "Editorial: allow [[AsyncEvaluationOrder]] to have any value when errored"
    }
   ],
-  "title": "Relax invalid assertion in Cyclic Module Record's Evaluate()",
-  "updated_at": "2026-03-30T21:03:54Z"
- },
- {
-  "base": "880398845fd935bddad6a494ceeeb6c94397cc36",
-  "created_at": "2026-03-30T20:53:40Z",
-  "head": "48a89a087aa7a18c59c75a21caf20a58441448a3",
-  "login": "nicolo-ribaudo",
-  "number": 3785,
-  "ref": "relax-assert",
-  "revs": [
-   {
-    "adate": "2026-03-30T22:52:15+02:00",
-    "author": "Nicol\u00f2 Ribaudo",
-    "date": "2026-03-30T22:52:15+02:00",
-    "hash": "48a89a087aa7a18c59c75a21caf20a58441448a3",
-    "parents": "880398845fd935bddad6a494ceeeb6c94397cc36",
-    "subject": "Relax invalid assertion in Cyclic Module Record's Evaluate()"
-   }
-  ],
-  "title": "Editorial: Relax invalid assertion in module evaluation",
-  "updated_at": "2026-03-30T20:57:55Z"
+  "title": "Editorial: allow [[AsyncEvaluationOrder]] to have any value when errored",
+  "updated_at": "2026-03-30T22:30:44Z"
  },
  {
   "base": "880398845fd935bddad6a494ceeeb6c94397cc36",
@@ -90,11 +62,19 @@
  {
   "base": "880398845fd935bddad6a494ceeeb6c94397cc36",
   "created_at": "2026-03-29T01:27:58Z",
-  "head": "5ca46cfb4f8ff6ca1e78e8e48b22bdeee5767857",
+  "head": "002754bbb78b023645ebead96ef5f25847539a24",
   "login": "tc39",
   "number": 3782,
   "ref": "april-font",
   "revs": [
+   {
+    "adate": "2026-03-30T16:10:03-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-03-30T16:10:03-06:00",
+    "hash": "002754bbb78b023645ebead96ef5f25847539a24",
+    "parents": "5ca46cfb4f8ff6ca1e78e8e48b22bdeee5767857",
+    "subject": "guard on host just in case"
+   },
    {
     "adate": "2026-03-28T19:00:43-06:00",
     "author": "Michael Ficarra",
@@ -105,7 +85,7 @@
    }
   ],
   "title": "Editorial: apply a whimsical font on a whimsical day",
-  "updated_at": "2026-03-29T01:31:59Z"
+  "updated_at": "2026-03-30T22:10:30Z"
  },
  {
   "base": "880398845fd935bddad6a494ceeeb6c94397cc36",
