@@ -1,6 +1,26 @@
 [
  {
   "base": "880398845fd935bddad6a494ceeeb6c94397cc36",
+  "created_at": "2026-03-30T17:25:54Z",
+  "head": "70444a37b71aab9f06ee0468cfe611c30b779a1d",
+  "login": "tc39",
+  "number": 3784,
+  "ref": "rm-returnifabrupt",
+  "revs": [
+   {
+    "adate": "2026-03-30T11:22:26-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-03-30T11:22:26-06:00",
+    "hash": "70444a37b71aab9f06ee0468cfe611c30b779a1d",
+    "parents": "880398845fd935bddad6a494ceeeb6c94397cc36",
+    "subject": "Editorial: remove vestigial mention of ReturnIfAbrupt"
+   }
+  ],
+  "title": "Editorial: remove vestigial mention of ReturnIfAbrupt",
+  "updated_at": "2026-03-30T17:30:04Z"
+ },
+ {
+  "base": "880398845fd935bddad6a494ceeeb6c94397cc36",
   "created_at": "2026-03-29T14:52:43Z",
   "head": "44014af111336bb971e40b9e48782b9001fb1273",
   "login": "gibson042",
