@@ -2,11 +2,27 @@
  {
   "base": "880398845fd935bddad6a494ceeeb6c94397cc36",
   "created_at": "2026-03-30T22:30:34Z",
-  "head": "b9705bfb154cd8a3173cbb6a1f105612f74618c1",
+  "head": "a65440b30a0aa270158bcb767ae2cc6c81feb70c",
   "login": "nicolo-ribaudo",
   "number": 3787,
   "ref": "remove-assertion",
   "revs": [
+   {
+    "adate": "2026-03-30T16:43:50-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-03-30T16:43:50-06:00",
+    "hash": "a65440b30a0aa270158bcb767ae2cc6c81feb70c",
+    "parents": "ea5f7e29a277a97816216c732b36a7bfe9a2aa83",
+    "subject": "add steps back"
+   },
+   {
+    "adate": "2026-03-30T16:40:16-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-03-30T16:40:16-06:00",
+    "hash": "ea5f7e29a277a97816216c732b36a7bfe9a2aa83",
+    "parents": "b9705bfb154cd8a3173cbb6a1f105612f74618c1",
+    "subject": "fix typo"
+   },
    {
     "adate": "2026-03-31T00:08:50+02:00",
     "author": "Nicol\u00f2 Ribaudo",
@@ -17,7 +33,7 @@
    }
   ],
   "title": "Editorial: allow [[AsyncEvaluationOrder]] to have any value when errored",
-  "updated_at": "2026-03-30T22:30:44Z"
+  "updated_at": "2026-03-30T22:46:14Z"
  },
  {
   "base": "880398845fd935bddad6a494ceeeb6c94397cc36",
