@@ -310,11 +310,19 @@
  {
   "base": "1a78d83ce857b87477bc95764c81bc6637720ca1",
   "created_at": "2026-02-16T23:53:01Z",
-  "head": "829b729d3f20211750c9ee505eaed0d4509a1352",
+  "head": "d3080a29226d653ea8ad4d74230f80b8b3bde9e8",
   "login": "ptomato",
   "number": 3759,
   "ref": "temporal-stage-4",
   "revs": [
+   {
+    "adate": "2026-03-30T20:56:22-04:00",
+    "author": "Philip Chimento",
+    "date": "2026-03-30T20:56:22-04:00",
+    "hash": "d3080a29226d653ea8ad4d74230f80b8b3bde9e8",
+    "parents": "829b729d3f20211750c9ee505eaed0d4509a1352",
+    "subject": "(fixup) Address https://github.com/tc39/proposal-temporal/pull/3298"
+   },
    {
     "adate": "2026-03-13T08:44:33-04:00",
     "author": "Philip Chimento",
@@ -468,8 +476,8 @@
     "subject": "Normative: Temporal stage 4, part 1"
    }
   ],
-  "title": "Normative: Temporal stage 4",
-  "updated_at": "2026-03-13T12:45:36Z"
+  "title": "Normative: add Temporal",
+  "updated_at": "2026-03-31T00:56:31Z"
  },
  {
   "base": "8febdacb384c2661df5a00c0e77dcb69896496e2",
