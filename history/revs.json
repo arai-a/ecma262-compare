@@ -1,11 +1,43 @@
 [
  {
+  "adate": "2026-03-30T21:57:58-07:00",
+  "author": "Richard Gibson",
+  "date": "2026-03-30T21:57:58-07:00",
+  "hash": "1795e9ff0fbb158a6cbdb07ebe741f40f2f3292c",
+  "parents": "213d3b92df00ce1429c2e98e6011cb3ffb777fc3",
+  "subject": "Meta: Add \"preview\" to PR preview comment text (#3783)"
+ },
+ {
+  "adate": "2026-03-30T21:46:37-07:00",
+  "author": "Richard Gibson",
+  "date": "2026-03-30T21:46:37-07:00",
+  "hash": "213d3b92df00ce1429c2e98e6011cb3ffb777fc3",
+  "parents": "c92ca55d7bb0533205cd6de78b08168c667bd84e",
+  "subject": "Editorial: Properly capitalize Abstract Closure for autolinking (#3781)"
+ },
+ {
+  "adate": "2026-03-30T21:33:47-07:00",
+  "author": "Michael Ficarra",
+  "date": "2026-03-30T21:33:47-07:00",
+  "hash": "c92ca55d7bb0533205cd6de78b08168c667bd84e",
+  "parents": "e63c83dbfa3fadbd1047f088a69901730e1eaed4",
+  "subject": "Editorial: update description of enum denotation (#3777)"
+ },
+ {
   "adate": "2026-03-30T21:17:26-07:00",
   "author": "Richard Gibson",
   "date": "2026-03-30T21:17:26-07:00",
   "hash": "e63c83dbfa3fadbd1047f088a69901730e1eaed4",
   "parents": "1bc43d555a2d860824e07de2aac2eef34f17972d",
   "subject": "Editorial: Improve alias naming in InternalizeJSONProperty (#3714)"
+ },
+ {
+  "adate": "2026-03-30T21:17:23-07:00",
+  "author": "Richard Gibson",
+  "date": "2026-03-30T21:17:23-07:00",
+  "hash": "1bc43d555a2d860824e07de2aac2eef34f17972d",
+  "parents": "880398845fd935bddad6a494ceeeb6c94397cc36",
+  "subject": "Normative: Extend JSON.parse and JSON.stringify for interaction with the source text of primitive values (#3714)"
  },
  {
   "adate": "2026-03-26T10:24:51-07:00",
