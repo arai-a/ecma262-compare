@@ -1,6 +1,174 @@
 [
  {
   "base": "d093df5794717c9c60663e4ca4763178ae4508d0",
+  "created_at": "2026-04-01T15:14:20Z",
+  "head": "befa264be97f866827260b3ce2f4f8fe091a2c85",
+  "login": "bakkot",
+  "number": 3790,
+  "ref": "bump-emu",
+  "revs": [
+   {
+    "adate": "2026-04-01T08:13:46-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2026-04-01T08:13:46-07:00",
+    "hash": "befa264be97f866827260b3ce2f4f8fe091a2c85",
+    "parents": "d093df5794717c9c60663e4ca4763178ae4508d0",
+    "subject": "Meta: bump ecmarkup to 24.1.0"
+   }
+  ],
+  "title": "Meta: bump ecmarkup to 24.1.0",
+  "updated_at": "2026-04-01T15:41:48Z"
+ },
+ {
+  "base": "d093df5794717c9c60663e4ca4763178ae4508d0",
+  "created_at": "2026-04-01T14:47:42Z",
+  "head": "20fefaded57d83d9b4cfe115ff744a0ecf6e76e1",
+  "login": "tc39",
+  "number": 3789,
+  "ref": "alias-renaming",
+  "revs": [
+   {
+    "adate": "2026-04-01T09:04:50-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-01T09:04:50-06:00",
+    "hash": "20fefaded57d83d9b4cfe115ff744a0ecf6e76e1",
+    "parents": "b6f1ada82ceec825e9b35e8b01a6ea624143fa45",
+    "subject": "fix bugs"
+   },
+   {
+    "adate": "2026-04-01T09:01:20-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-01T09:01:20-06:00",
+    "hash": "b6f1ada82ceec825e9b35e8b01a6ea624143fa45",
+    "parents": "44778679a5894fb92fa99c829ea42c86a4555c36",
+    "subject": "fix bug"
+   },
+   {
+    "adate": "2026-04-01T08:57:33-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-01T08:57:33-06:00",
+    "hash": "44778679a5894fb92fa99c829ea42c86a4555c36",
+    "parents": "d70760f7249266a92d411b565d52ac50697d9797",
+    "subject": "fix bug"
+   },
+   {
+    "adate": "2026-04-01T08:45:16-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-01T08:45:16-06:00",
+    "hash": "d70760f7249266a92d411b565d52ac50697d9797",
+    "parents": "5fc527cbb70030061b48fdd42c0a473127f0a9f1",
+    "subject": "strict -> isStrict"
+   },
+   {
+    "adate": "2026-04-01T08:43:42-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-01T08:43:42-06:00",
+    "hash": "5fc527cbb70030061b48fdd42c0a473127f0a9f1",
+    "parents": "4e286c6b987213d8ad167ef596a8e3a767b49b73",
+    "subject": "regexp -> rx"
+   },
+   {
+    "adate": "2026-04-01T08:36:40-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-01T08:36:40-06:00",
+    "hash": "4e286c6b987213d8ad167ef596a8e3a767b49b73",
+    "parents": "4795596a1f5cca1b57f36fc8eb5c4c553ffe68c4",
+    "subject": "element -> item"
+   },
+   {
+    "adate": "2026-04-01T08:09:45-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-01T08:09:45-06:00",
+    "hash": "4795596a1f5cca1b57f36fc8eb5c4c553ffe68c4",
+    "parents": "5c3c7ae5b924c24a0ccc9651667a2517391d602f",
+    "subject": "fix accidental rename"
+   },
+   {
+    "adate": "2026-04-01T07:25:39-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-01T07:25:39-06:00",
+    "hash": "5c3c7ae5b924c24a0ccc9651667a2517391d602f",
+    "parents": "da11515c6c1077499be750cec9b66f08594d689f",
+    "subject": "also SortCompare"
+   },
+   {
+    "adate": "2026-04-01T07:06:54-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-01T07:06:54-06:00",
+    "hash": "da11515c6c1077499be750cec9b66f08594d689f",
+    "parents": "bc3da433f6c4036405ba0f984fd989fc122fd303",
+    "subject": "more"
+   },
+   {
+    "adate": "2026-04-01T06:56:32-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-01T06:56:32-06:00",
+    "hash": "bc3da433f6c4036405ba0f984fd989fc122fd303",
+    "parents": "a533b90025fbf64ae1bc61b62d64f78743b8a03f",
+    "subject": "annex B"
+   },
+   {
+    "adate": "2026-04-01T06:52:50-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-01T06:52:50-06:00",
+    "hash": "a533b90025fbf64ae1bc61b62d64f78743b8a03f",
+    "parents": "3b9a914067144743b8341fc6c233d54cfe9073ab",
+    "subject": "regexp section"
+   },
+   {
+    "adate": "2026-04-01T06:46:17-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-01T06:46:17-06:00",
+    "hash": "3b9a914067144743b8341fc6c233d54cfe9073ab",
+    "parents": "c40493ed740e2c93f3f551f6bddd5a559e6ee5d1",
+    "subject": "more"
+   },
+   {
+    "adate": "2026-04-01T06:23:04-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-01T06:23:04-06:00",
+    "hash": "c40493ed740e2c93f3f551f6bddd5a559e6ee5d1",
+    "parents": "13ef233729406e42ff124cacf1301c7b1eb21d99",
+    "subject": "more"
+   },
+   {
+    "adate": "2026-04-01T06:19:11-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-01T06:19:11-06:00",
+    "hash": "13ef233729406e42ff124cacf1301c7b1eb21d99",
+    "parents": "43f76866bd9aa4fc70f4d936d290ceb6315fee6e",
+    "subject": "more"
+   },
+   {
+    "adate": "2026-04-01T06:09:00-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-01T06:09:00-06:00",
+    "hash": "43f76866bd9aa4fc70f4d936d290ceb6315fee6e",
+    "parents": "b180e82642a76969a22718ec7dee063240e27819",
+    "subject": "more"
+   },
+   {
+    "adate": "2026-04-01T05:43:56-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-01T05:43:56-06:00",
+    "hash": "b180e82642a76969a22718ec7dee063240e27819",
+    "parents": "47270d21411d312141fb95bc806d48374d46a23b",
+    "subject": "more"
+   },
+   {
+    "adate": "2026-04-01T05:29:15-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-01T05:29:15-06:00",
+    "hash": "47270d21411d312141fb95bc806d48374d46a23b",
+    "parents": "d093df5794717c9c60663e4ca4763178ae4508d0",
+    "subject": "first pass"
+   }
+  ],
+  "title": "Editorial: rename single-letter and initial-capital aliases",
+  "updated_at": "2026-04-01T15:04:57Z"
+ },
+ {
+  "base": "d093df5794717c9c60663e4ca4763178ae4508d0",
   "created_at": "2026-04-01T00:02:09Z",
   "head": "d6e1b40f242f4bbd262bbe3089f69fd845f1686f",
   "login": "tc39",
