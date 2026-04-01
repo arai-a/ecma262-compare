@@ -1,127 +1,23 @@
 [
  {
-  "base": "880398845fd935bddad6a494ceeeb6c94397cc36",
-  "created_at": "2026-03-30T22:30:34Z",
-  "head": "a65440b30a0aa270158bcb767ae2cc6c81feb70c",
-  "login": "nicolo-ribaudo",
-  "number": 3787,
-  "ref": "remove-assertion",
-  "revs": [
-   {
-    "adate": "2026-03-30T16:43:50-06:00",
-    "author": "Michael Ficarra",
-    "date": "2026-03-30T16:43:50-06:00",
-    "hash": "a65440b30a0aa270158bcb767ae2cc6c81feb70c",
-    "parents": "ea5f7e29a277a97816216c732b36a7bfe9a2aa83",
-    "subject": "add steps back"
-   },
-   {
-    "adate": "2026-03-30T16:40:16-06:00",
-    "author": "Michael Ficarra",
-    "date": "2026-03-30T16:40:16-06:00",
-    "hash": "ea5f7e29a277a97816216c732b36a7bfe9a2aa83",
-    "parents": "b9705bfb154cd8a3173cbb6a1f105612f74618c1",
-    "subject": "fix typo"
-   },
-   {
-    "adate": "2026-03-31T00:08:50+02:00",
-    "author": "Nicol\u00f2 Ribaudo",
-    "date": "2026-03-31T00:10:09+02:00",
-    "hash": "b9705bfb154cd8a3173cbb6a1f105612f74618c1",
-    "parents": "880398845fd935bddad6a494ceeeb6c94397cc36",
-    "subject": "Editorial: allow [[AsyncEvaluationOrder]] to have any value when errored"
-   }
-  ],
-  "title": "Editorial: allow [[AsyncEvaluationOrder]] to have any value when errored",
-  "updated_at": "2026-03-30T22:46:14Z"
- },
- {
-  "base": "880398845fd935bddad6a494ceeeb6c94397cc36",
-  "created_at": "2026-03-30T17:25:54Z",
-  "head": "70444a37b71aab9f06ee0468cfe611c30b779a1d",
+  "base": "d093df5794717c9c60663e4ca4763178ae4508d0",
+  "created_at": "2026-04-01T00:02:09Z",
+  "head": "d6e1b40f242f4bbd262bbe3089f69fd845f1686f",
   "login": "tc39",
-  "number": 3784,
-  "ref": "rm-returnifabrupt",
+  "number": 3788,
+  "ref": "\ud83d\udc40",
   "revs": [
    {
-    "adate": "2026-03-30T11:22:26-06:00",
-    "author": "Michael Ficarra",
-    "date": "2026-03-30T11:22:26-06:00",
-    "hash": "70444a37b71aab9f06ee0468cfe611c30b779a1d",
-    "parents": "880398845fd935bddad6a494ceeeb6c94397cc36",
-    "subject": "Editorial: remove vestigial mention of ReturnIfAbrupt"
+    "adate": "2026-03-31T19:01:19-05:00",
+    "author": "ctcpip",
+    "date": "2026-03-31T19:01:19-05:00",
+    "hash": "d6e1b40f242f4bbd262bbe3089f69fd845f1686f",
+    "parents": "d093df5794717c9c60663e4ca4763178ae4508d0",
+    "subject": "\u2728 once more with whimsy"
    }
   ],
-  "title": "Editorial: remove vestigial mention of ReturnIfAbrupt",
-  "updated_at": "2026-03-30T17:30:04Z"
- },
- {
-  "base": "880398845fd935bddad6a494ceeeb6c94397cc36",
-  "created_at": "2026-03-29T14:52:43Z",
-  "head": "44014af111336bb971e40b9e48782b9001fb1273",
-  "login": "gibson042",
-  "number": 3783,
-  "ref": "2026-03-pr-preview-comment-text",
-  "revs": [
-   {
-    "adate": "2026-03-29T10:50:56-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-03-29T10:50:56-04:00",
-    "hash": "44014af111336bb971e40b9e48782b9001fb1273",
-    "parents": "880398845fd935bddad6a494ceeeb6c94397cc36",
-    "subject": "Meta: Add \"preview\" to PR preview comment text"
-   }
-  ],
-  "title": "Meta: Add \"preview\" to PR preview comment text",
-  "updated_at": "2026-03-29T15:09:54Z"
- },
- {
-  "base": "880398845fd935bddad6a494ceeeb6c94397cc36",
-  "created_at": "2026-03-29T01:27:58Z",
-  "head": "002754bbb78b023645ebead96ef5f25847539a24",
-  "login": "tc39",
-  "number": 3782,
-  "ref": "april-font",
-  "revs": [
-   {
-    "adate": "2026-03-30T16:10:03-06:00",
-    "author": "Michael Ficarra",
-    "date": "2026-03-30T16:10:03-06:00",
-    "hash": "002754bbb78b023645ebead96ef5f25847539a24",
-    "parents": "5ca46cfb4f8ff6ca1e78e8e48b22bdeee5767857",
-    "subject": "guard on host just in case"
-   },
-   {
-    "adate": "2026-03-28T19:00:43-06:00",
-    "author": "Michael Ficarra",
-    "date": "2026-03-28T19:25:22-06:00",
-    "hash": "5ca46cfb4f8ff6ca1e78e8e48b22bdeee5767857",
-    "parents": "880398845fd935bddad6a494ceeeb6c94397cc36",
-    "subject": "Editorial: apply a whimsical font on a whimsical day"
-   }
-  ],
-  "title": "Editorial: apply a whimsical font on a whimsical day",
-  "updated_at": "2026-03-30T22:10:30Z"
- },
- {
-  "base": "880398845fd935bddad6a494ceeeb6c94397cc36",
-  "created_at": "2026-03-28T19:06:17Z",
-  "head": "1a6b8b8836b1cab275112a32ba688e04f388c462",
-  "login": "gibson042",
-  "number": 3781,
-  "ref": "2026-03-abstract-closure-autolinking",
-  "revs": [
-   {
-    "adate": "2026-03-28T15:05:25-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-03-28T15:05:25-04:00",
-    "hash": "1a6b8b8836b1cab275112a32ba688e04f388c462",
-    "parents": "880398845fd935bddad6a494ceeeb6c94397cc36",
-    "subject": "Editorial: Properly capitalize Abstract Closure for autolinking"
-   }
-  ],
-  "title": "Editorial: Properly capitalize Abstract Closure for autolinking",
-  "updated_at": "2026-03-28T19:10:04Z"
+  "title": "\u2728 once more with whimsy",
+  "updated_at": "2026-04-01T00:06:20Z"
  },
  {
   "base": "880398845fd935bddad6a494ceeeb6c94397cc36",
@@ -162,26 +58,6 @@
   ],
   "title": "Editorial: allow more generic use of throw shorthand in algorithm steps",
   "updated_at": "2026-03-27T18:33:13Z"
- },
- {
-  "base": "e63c83dbfa3fadbd1047f088a69901730e1eaed4",
-  "created_at": "2026-03-27T17:44:34Z",
-  "head": "c92ca55d7bb0533205cd6de78b08168c667bd84e",
-  "login": "tc39",
-  "number": 3777,
-  "ref": "enum-denotation",
-  "revs": [
-   {
-    "adate": "2026-03-30T21:33:47-07:00",
-    "author": "Michael Ficarra",
-    "date": "2026-03-30T21:33:47-07:00",
-    "hash": "c92ca55d7bb0533205cd6de78b08168c667bd84e",
-    "parents": "e63c83dbfa3fadbd1047f088a69901730e1eaed4",
-    "subject": "Editorial: update description of enum denotation (#3777)"
-   }
-  ],
-  "title": "Editorial: update description of enum denotation",
-  "updated_at": "2026-03-31T04:33:54Z"
  },
  {
   "base": "880398845fd935bddad6a494ceeeb6c94397cc36",
