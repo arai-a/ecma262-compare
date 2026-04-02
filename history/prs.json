@@ -22,11 +22,99 @@
  {
   "base": "d093df5794717c9c60663e4ca4763178ae4508d0",
   "created_at": "2026-04-01T14:47:42Z",
-  "head": "20fefaded57d83d9b4cfe115ff744a0ecf6e76e1",
+  "head": "0b25f5027645b0c0dc2f2583706ef3057720cd0e",
   "login": "tc39",
   "number": 3789,
   "ref": "alias-renaming",
   "revs": [
+   {
+    "adate": "2026-04-01T19:04:27-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-01T19:04:27-06:00",
+    "hash": "0b25f5027645b0c0dc2f2583706ef3057720cd0e",
+    "parents": "07ef23ffb3e0e96cffffb6b3e1ef853b0fcb8974",
+    "subject": "fix more bad renames"
+   },
+   {
+    "adate": "2026-04-01T18:53:51-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-01T18:53:51-06:00",
+    "hash": "07ef23ffb3e0e96cffffb6b3e1ef853b0fcb8974",
+    "parents": "eb9d9472da5740e33f035e199f37bc6a012bb04d",
+    "subject": "fix bad rename"
+   },
+   {
+    "adate": "2026-04-01T18:42:06-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-01T18:42:06-06:00",
+    "hash": "eb9d9472da5740e33f035e199f37bc6a012bb04d",
+    "parents": "2a92be90d1eb742457257cf24266b37b14b0cb2d",
+    "subject": "some more single-letter aliases that could be improved"
+   },
+   {
+    "adate": "2026-04-01T18:27:53-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-01T18:27:53-06:00",
+    "hash": "2a92be90d1eb742457257cf24266b37b14b0cb2d",
+    "parents": "13392a654e84d9ed706fe3162052d8476fb4fe18",
+    "subject": "fix bad rename"
+   },
+   {
+    "adate": "2026-04-01T18:24:46-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-01T18:24:46-06:00",
+    "hash": "13392a654e84d9ed706fe3162052d8476fb4fe18",
+    "parents": "8162bf33252f88730f578b3c3a2cf7b9bed71c71",
+    "subject": "value -> referenceRecord"
+   },
+   {
+    "adate": "2026-04-01T18:22:23-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-01T18:22:23-06:00",
+    "hash": "8162bf33252f88730f578b3c3a2cf7b9bed71c71",
+    "parents": "304771a3eafa095437be94cb579fdf9a2d8ddb5c",
+    "subject": "relation -> r"
+   },
+   {
+    "adate": "2026-04-01T18:12:11-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-01T18:12:11-06:00",
+    "hash": "304771a3eafa095437be94cb579fdf9a2d8ddb5c",
+    "parents": "5c8058b4de5f3835ab747194fd9e857e242fe705",
+    "subject": "fix more bad renames"
+   },
+   {
+    "adate": "2026-04-01T18:04:19-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-01T18:04:19-06:00",
+    "hash": "5c8058b4de5f3835ab747194fd9e857e242fe705",
+    "parents": "d02e6e7a941d1bafe4b1a2c947aa3bd7c653bd36",
+    "subject": "rer -> regexpRecord"
+   },
+   {
+    "adate": "2026-04-01T18:02:23-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-01T18:02:23-06:00",
+    "hash": "d02e6e7a941d1bafe4b1a2c947aa3bd7c653bd36",
+    "parents": "c9fff66fd6f87b9d54b9badb938b7b2dd5da03fd",
+    "subject": "rx -> regexp"
+   },
+   {
+    "adate": "2026-04-01T18:01:01-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-01T18:01:01-06:00",
+    "hash": "c9fff66fd6f87b9d54b9badb938b7b2dd5da03fd",
+    "parents": "dab6c233f3fc94af7fcba2419f8e7d74c98dfeff",
+    "subject": "normalise to propertyKey"
+   },
+   {
+    "adate": "2026-04-01T17:42:03-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-01T17:42:03-06:00",
+    "hash": "dab6c233f3fc94af7fcba2419f8e7d74c98dfeff",
+    "parents": "20fefaded57d83d9b4cfe115ff744a0ecf6e76e1",
+    "subject": "fix some bad renames"
+   },
    {
     "adate": "2026-04-01T09:04:50-06:00",
     "author": "Michael Ficarra",
@@ -165,7 +253,7 @@
    }
   ],
   "title": "Editorial: rename single-letter and initial-capital aliases",
-  "updated_at": "2026-04-01T15:04:57Z"
+  "updated_at": "2026-04-02T01:07:23Z"
  },
  {
   "base": "d093df5794717c9c60663e4ca4763178ae4508d0",
@@ -206,26 +294,6 @@
   ],
   "title": "Editorial: manually adjust table column widths for better balance",
   "updated_at": "2026-03-27T20:20:59Z"
- },
- {
-  "base": "880398845fd935bddad6a494ceeeb6c94397cc36",
-  "created_at": "2026-03-27T18:28:59Z",
-  "head": "abeab11c425105251d8668e8fad14c7131d5a156",
-  "login": "tc39",
-  "number": 3778,
-  "ref": "throw",
-  "revs": [
-   {
-    "adate": "2026-03-27T12:25:46-06:00",
-    "author": "Michael Ficarra",
-    "date": "2026-03-27T12:25:46-06:00",
-    "hash": "abeab11c425105251d8668e8fad14c7131d5a156",
-    "parents": "880398845fd935bddad6a494ceeeb6c94397cc36",
-    "subject": "Editorial: allow more generic use of throw shorthand in algorithm steps"
-   }
-  ],
-  "title": "Editorial: allow more generic use of throw shorthand in algorithm steps",
-  "updated_at": "2026-03-27T18:33:13Z"
  },
  {
   "base": "880398845fd935bddad6a494ceeeb6c94397cc36",
