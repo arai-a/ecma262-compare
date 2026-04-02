@@ -22,11 +22,35 @@
  {
   "base": "d093df5794717c9c60663e4ca4763178ae4508d0",
   "created_at": "2026-04-01T14:47:42Z",
-  "head": "0b25f5027645b0c0dc2f2583706ef3057720cd0e",
+  "head": "286ddb85116e96c2524c291b4980720217f90803",
   "login": "tc39",
   "number": 3789,
   "ref": "alias-renaming",
   "revs": [
+   {
+    "adate": "2026-04-01T19:55:32-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-01T19:55:32-06:00",
+    "hash": "286ddb85116e96c2524c291b4980720217f90803",
+    "parents": "daec619cb8b4cc8edeef80339eb6e23a444af822",
+    "subject": "pi -> propertyKey"
+   },
+   {
+    "adate": "2026-04-01T19:48:17-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-01T19:48:17-06:00",
+    "hash": "daec619cb8b4cc8edeef80339eb6e23a444af822",
+    "parents": "df3ce5cb17b2569ec406697efb44634603d53a53",
+    "subject": "fix bad renames"
+   },
+   {
+    "adate": "2026-04-01T19:37:12-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-01T19:37:12-06:00",
+    "hash": "df3ce5cb17b2569ec406697efb44634603d53a53",
+    "parents": "0b25f5027645b0c0dc2f2583706ef3057720cd0e",
+    "subject": "set -> str for Strings"
+   },
    {
     "adate": "2026-04-01T19:04:27-06:00",
     "author": "Michael Ficarra",
@@ -253,7 +277,7 @@
    }
   ],
   "title": "Editorial: rename single-letter and initial-capital aliases",
-  "updated_at": "2026-04-02T01:07:23Z"
+  "updated_at": "2026-04-02T02:09:18Z"
  },
  {
   "base": "d093df5794717c9c60663e4ca4763178ae4508d0",
