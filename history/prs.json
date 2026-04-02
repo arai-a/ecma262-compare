@@ -22,11 +22,195 @@
  {
   "base": "d093df5794717c9c60663e4ca4763178ae4508d0",
   "created_at": "2026-04-01T14:47:42Z",
-  "head": "286ddb85116e96c2524c291b4980720217f90803",
+  "head": "3d9a3737af3e987ee0bcd740285ccdbbdb519aed",
   "login": "tc39",
   "number": 3789,
   "ref": "alias-renaming",
   "revs": [
+   {
+    "adate": "2026-04-02T15:41:49-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-02T15:41:49-06:00",
+    "hash": "3d9a3737af3e987ee0bcd740285ccdbbdb519aed",
+    "parents": "ebb4c173da1de06bbfc79182241d66225bac567d",
+    "subject": "%GeneratorPrototype%: g -> generator"
+   },
+   {
+    "adate": "2026-04-02T15:40:12-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-02T15:40:12-06:00",
+    "hash": "ebb4c173da1de06bbfc79182241d66225bac567d",
+    "parents": "9a9b554828869f90e0ce72760cb604fa264bd389",
+    "subject": "NewPromiseCapability: value -> constructor"
+   },
+   {
+    "adate": "2026-04-02T15:39:23-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-02T15:39:23-06:00",
+    "hash": "9a9b554828869f90e0ce72760cb604fa264bd389",
+    "parents": "0632bd8425189565713a17532f9672db62b65789",
+    "subject": "QuoteJSONString: constructor -> cp"
+   },
+   {
+    "adate": "2026-04-02T15:38:20-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-02T15:38:20-06:00",
+    "hash": "0632bd8425189565713a17532f9672db62b65789",
+    "parents": "243e12985794290c2bcf64a5efb7e93b73788e97",
+    "subject": "InternalizeJSONProperty: e -> entry"
+   },
+   {
+    "adate": "2026-04-02T15:19:09-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-02T15:19:09-06:00",
+    "hash": "243e12985794290c2bcf64a5efb7e93b73788e97",
+    "parents": "608919a80022a3b7ff203472ffe6bd074a706f37",
+    "subject": "c -> count in RemoveWaiters and Atomics.notify"
+   },
+   {
+    "adate": "2026-04-02T15:14:28-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-02T15:14:39-06:00",
+    "hash": "608919a80022a3b7ff203472ffe6bd074a706f37",
+    "parents": "782f38c8de91c4c0bf1e9333bf22dd2d17128f91",
+    "subject": "obj -> set in Set methods"
+   },
+   {
+    "adate": "2026-04-02T15:11:24-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-02T15:11:24-06:00",
+    "hash": "782f38c8de91c4c0bf1e9333bf22dd2d17128f91",
+    "parents": "247d523310ebb9b41a3182ab375de28b209d663b",
+    "subject": "CreateRegExpStringIterator: obj -> regexp"
+   },
+   {
+    "adate": "2026-04-02T15:04:58-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-02T15:04:58-06:00",
+    "hash": "247d523310ebb9b41a3182ab375de28b209d663b",
+    "parents": "2541e81e6cdd8650d5dd8d5c5035c80e95960452",
+    "subject": "thisValue -> regexp/str in RegExp/String; s -> str in String"
+   },
+   {
+    "adate": "2026-04-02T15:00:28-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-02T15:00:28-06:00",
+    "hash": "2541e81e6cdd8650d5dd8d5c5035c80e95960452",
+    "parents": "6305e5ece0300b7337eee6b515f635d3a469df39",
+    "subject": "captureIndex -> captureNumber"
+   },
+   {
+    "adate": "2026-04-02T14:56:12-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-02T14:56:12-06:00",
+    "hash": "6305e5ece0300b7337eee6b515f635d3a469df39",
+    "parents": "ee45052c5b4620a7d2e97ac14a3ca6e4e83de2f5",
+    "subject": "regexp -> regexpOrPattern"
+   },
+   {
+    "adate": "2026-04-02T14:52:09-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-02T14:52:09-06:00",
+    "hash": "ee45052c5b4620a7d2e97ac14a3ca6e4e83de2f5",
+    "parents": "94de2857db7c11b27771a3839d4ae141f3621ca3",
+    "subject": "avoid redeclaring already-declared aliases"
+   },
+   {
+    "adate": "2026-04-02T14:17:05-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-02T14:17:05-06:00",
+    "hash": "94de2857db7c11b27771a3839d4ae141f3621ca3",
+    "parents": "ba411c94e873eb205ff95cf3d681da7a6a9cb763",
+    "subject": "SwitchStatement Evaluation: result -> blockResult"
+   },
+   {
+    "adate": "2026-04-02T14:14:02-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-02T14:14:02-06:00",
+    "hash": "ba411c94e873eb205ff95cf3d681da7a6a9cb763",
+    "parents": "56a29e3a5c6fd6a34b5c6a765ec6b6569e4a8eb3",
+    "subject": "%ForInIteratorPrototype%.next: obj -> iter"
+   },
+   {
+    "adate": "2026-04-02T14:06:32-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-02T14:06:32-06:00",
+    "hash": "56a29e3a5c6fd6a34b5c6a765ec6b6569e4a8eb3",
+    "parents": "32174624d0283d71bf4fcef43cbbca060b5ee0f1",
+    "subject": "module -> moduleNamespace"
+   },
+   {
+    "adate": "2026-04-02T14:03:54-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-02T14:03:54-06:00",
+    "hash": "32174624d0283d71bf4fcef43cbbca060b5ee0f1",
+    "parents": "4f9324e1d072b963b3187d34abcaedf6ebace4b1",
+    "subject": "array -> typedArray and resultArray -> resultTypedArray"
+   },
+   {
+    "adate": "2026-04-02T13:51:16-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-02T13:51:16-06:00",
+    "hash": "4f9324e1d072b963b3187d34abcaedf6ebace4b1",
+    "parents": "7ea913fd7a2d0e8c839d308ad87650d23b540936",
+    "subject": "obj -> func for function objects"
+   },
+   {
+    "adate": "2026-04-02T13:43:23-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-02T13:43:23-06:00",
+    "hash": "7ea913fd7a2d0e8c839d308ad87650d23b540936",
+    "parents": "922ebf94b586d536dcc0385583adbfb3894e82e3",
+    "subject": "RequireInternalSlot: value -> obj"
+   },
+   {
+    "adate": "2026-04-02T13:42:42-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-02T13:42:42-06:00",
+    "hash": "922ebf94b586d536dcc0385583adbfb3894e82e3",
+    "parents": "020dabebcfde33ec10c764e2d9a4073af99c585b",
+    "subject": "[[SetPrototypeOf]] parameter name"
+   },
+   {
+    "adate": "2026-04-02T13:35:13-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-02T13:35:13-06:00",
+    "hash": "020dabebcfde33ec10c764e2d9a4073af99c585b",
+    "parents": "03e8bea0663af4918f0db25f4fb9dadb883455fc",
+    "subject": "NewObjectEnvironment: newValue -> isWithEnvironment"
+   },
+   {
+    "adate": "2026-04-02T13:34:36-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-02T13:34:36-06:00",
+    "hash": "03e8bea0663af4918f0db25f4fb9dadb883455fc",
+    "parents": "462f556f5f25b3a820812e8d80078076b2811559",
+    "subject": "n2 -> targetName"
+   },
+   {
+    "adate": "2026-04-02T13:30:26-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-02T13:30:26-06:00",
+    "hash": "462f556f5f25b3a820812e8d80078076b2811559",
+    "parents": "4b18802e59402cf93b2b563e0bd4926a2f954e14",
+    "subject": "isStrict -> strict"
+   },
+   {
+    "adate": "2026-04-02T13:28:34-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-02T13:28:34-06:00",
+    "hash": "4b18802e59402cf93b2b563e0bd4926a2f954e14",
+    "parents": "a7a75670a5203263249f28793255a1881dc775e1",
+    "subject": "OrdinaryHasInstance and SetImmutablePrototype"
+   },
+   {
+    "adate": "2026-04-02T13:13:48-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-02T13:13:48-06:00",
+    "hash": "a7a75670a5203263249f28793255a1881dc775e1",
+    "parents": "286ddb85116e96c2524c291b4980720217f90803",
+    "subject": "fix PutValue"
+   },
    {
     "adate": "2026-04-01T19:55:32-06:00",
     "author": "Michael Ficarra",
@@ -277,7 +461,7 @@
    }
   ],
   "title": "Editorial: rename single-letter and initial-capital aliases",
-  "updated_at": "2026-04-02T02:09:18Z"
+  "updated_at": "2026-04-02T21:42:32Z"
  },
  {
   "base": "d093df5794717c9c60663e4ca4763178ae4508d0",
