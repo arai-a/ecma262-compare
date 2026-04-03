@@ -1,5 +1,33 @@
 [
  {
+  "base": "71bf855859687428afbd159d2339e64606e59fd1",
+  "created_at": "2026-04-03T01:56:55Z",
+  "head": "38ee1f4ccbbcba6b321c8335e815c6f1fcc245fb",
+  "login": "gibson042",
+  "number": 3792,
+  "ref": "2026-04-fixed-size-integer-conversion",
+  "revs": [
+   {
+    "adate": "2026-04-02T21:44:18-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-04-02T21:46:21-04:00",
+    "hash": "38ee1f4ccbbcba6b321c8335e815c6f1fcc245fb",
+    "parents": "1dd8c8ac8fece6a9ffa2744ef95628954295010f",
+    "subject": "Editorial: Leverage ToIntegerOrInfinity in fixed-size-integer conversion algorithms"
+   },
+   {
+    "adate": "2026-04-02T21:44:18-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-04-02T21:44:18-04:00",
+    "hash": "1dd8c8ac8fece6a9ffa2744ef95628954295010f",
+    "parents": "71bf855859687428afbd159d2339e64606e59fd1",
+    "subject": "Editorial: Reword notes describing invariants of fixed-size-integer conversion operations"
+   }
+  ],
+  "title": "Editorial: Refactor fixed-size-integer conversion",
+  "updated_at": "2026-04-03T02:01:07Z"
+ },
+ {
   "base": "d093df5794717c9c60663e4ca4763178ae4508d0",
   "created_at": "2026-04-01T15:14:20Z",
   "head": "befa264be97f866827260b3ce2f4f8fe091a2c85",
