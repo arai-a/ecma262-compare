@@ -20,26 +20,6 @@
   "updated_at": "2026-04-04T00:39:12Z"
  },
  {
-  "base": "71bf855859687428afbd159d2339e64606e59fd1",
-  "created_at": "2026-04-03T20:18:16Z",
-  "head": "fd30e3b3aabbdf4f1e905212cd7c9c35e2804dbe",
-  "login": "rbuckton",
-  "number": 3796,
-  "ref": "add-buckton",
-  "revs": [
-   {
-    "adate": "2026-04-03T16:14:29-04:00",
-    "author": "Ron Buckton",
-    "date": "2026-04-03T16:14:29-04:00",
-    "hash": "fd30e3b3aabbdf4f1e905212cd7c9c35e2804dbe",
-    "parents": "71bf855859687428afbd159d2339e64606e59fd1",
-    "subject": "Editorial: Add Ron Buckton to the editors list"
-   }
-  ],
-  "title": "Editorial: Add Ron Buckton to the editors list",
-  "updated_at": "2026-04-03T20:18:16Z"
- },
- {
   "base": "4ee5f62bfcf53d6f6c08c0736966884e6c237887",
   "created_at": "2026-04-03T18:37:42Z",
   "head": "cf10af76c4a060f8bd1fb355224d1e07e7426a31",
@@ -2520,9 +2500,9 @@
   "updated_at": "2025-05-24T16:05:09Z"
  },
  {
-  "base": "4895a117eb54edd829f2010092bae8f41c2b174a",
+  "base": "2f8969eb1dd997e2c1e52a2eb73f0468ab9fdf31",
   "created_at": "2023-10-29T03:33:26Z",
-  "head": "8209eb6a721a5a087ce502b70844ea8d74082518",
+  "head": "3428a26c15f1126d2b9f3a855e81065614f8f931",
   "login": "jmdyck",
   "number": 3210,
   "ref": "SDO",
@@ -2530,118 +2510,126 @@
    {
     "adate": "2025-02-19T17:45:59-05:00",
     "author": "Michael Dyck",
-    "date": "2026-03-11T10:14:10-04:00",
-    "hash": "8209eb6a721a5a087ce502b70844ea8d74082518",
-    "parents": "cb74584c76a701878342b5de511590a3bef7be37",
+    "date": "2026-04-03T20:34:01-04:00",
+    "hash": "3428a26c15f1126d2b9f3a855e81065614f8f931",
+    "parents": "a9b36b85092ca07b5a53d79342c57ef46eb727be",
     "subject": "fixup: Apply conventions after some merges to main"
    },
    {
     "adate": "2024-02-28T15:04:56-05:00",
     "author": "Michael Dyck",
-    "date": "2026-03-11T10:14:10-04:00",
-    "hash": "cb74584c76a701878342b5de511590a3bef7be37",
-    "parents": "1ca54c493132e1a834ce327e387dbb2fb1b4a66c",
+    "date": "2026-04-03T20:34:01-04:00",
+    "hash": "a9b36b85092ca07b5a53d79342c57ef46eb727be",
+    "parents": "f8bcdb0da3fe81d3b17bdddc22e8fe12b6d0a9ce",
     "subject": "fixup: In example, remove \"the\" before \"VarDeclaredNames\""
    },
    {
     "adate": "2024-02-28T14:15:23-05:00",
     "author": "Michael Dyck",
-    "date": "2026-03-11T10:14:10-04:00",
-    "hash": "1ca54c493132e1a834ce327e387dbb2fb1b4a66c",
-    "parents": "0a1006c9a1ce53c932eaab97a1e1c8a627c371bf",
+    "date": "2026-04-03T20:34:01-04:00",
+    "hash": "f8bcdb0da3fe81d3b17bdddc22e8fe12b6d0a9ce",
+    "parents": "0c4827d4fbe5c19a83a830234c6730324b5c052e",
     "subject": "fixup re introducing \"subject Parse Node\""
    },
    {
     "adate": "2023-10-30T22:51:24-04:00",
     "author": "Michael Dyck",
-    "date": "2026-03-11T10:14:08-04:00",
-    "hash": "0a1006c9a1ce53c932eaab97a1e1c8a627c371bf",
-    "parents": "a74047d3a7b548adb8a99f4062c35cd75b742b8d",
+    "date": "2026-04-03T20:34:01-04:00",
+    "hash": "0c4827d4fbe5c19a83a830234c6730324b5c052e",
+    "parents": "3ea7c5b66245402f6b022b10883d5d15a0adb399",
     "subject": "fixup: insert more 'this'"
    },
    {
     "adate": "2023-10-28T23:20:34-04:00",
     "author": "Michael Dyck",
-    "date": "2026-03-11T10:13:20-04:00",
-    "hash": "a74047d3a7b548adb8a99f4062c35cd75b742b8d",
-    "parents": "dfc9f28efd5959e16c28cab02892bcb8b7323a3d",
+    "date": "2026-04-03T20:34:00-04:00",
+    "hash": "3ea7c5b66245402f6b022b10883d5d15a0adb399",
+    "parents": "c07a688eddc26d3b0741e0f082e5f532a7da49f8",
     "subject": "Change \"this production\" to \"this Parse Node\""
    },
    {
     "adate": "2023-10-28T23:19:28-04:00",
     "author": "Michael Dyck",
-    "date": "2026-03-11T10:13:20-04:00",
-    "hash": "dfc9f28efd5959e16c28cab02892bcb8b7323a3d",
-    "parents": "3f4d7173770d9aeb56d6329aae2a3561a91009c5",
+    "date": "2026-04-03T20:34:00-04:00",
+    "hash": "c07a688eddc26d3b0741e0f082e5f532a7da49f8",
+    "parents": "43ee053981d7dd8c0534cb44c2c1242d93286337",
     "subject": "Change \"this production\" (and 1 \"this phrase\") to \"this |Nonterminal|\""
    },
    {
     "adate": "2023-10-28T22:58:05-04:00",
     "author": "Michael Dyck",
-    "date": "2026-03-11T10:13:19-04:00",
-    "hash": "3f4d7173770d9aeb56d6329aae2a3561a91009c5",
-    "parents": "427213f8d250e896acb3aad9cb3830a54d9e6947",
+    "date": "2026-04-03T20:34:00-04:00",
+    "hash": "43ee053981d7dd8c0534cb44c2c1242d93286337",
+    "parents": "b7fb6cbc525f57862108ec83b42364420b869374",
     "subject": "Change \"the |UnaryExpression|\" to \"this |UnaryExpression|\""
    },
    {
     "adate": "2023-10-28T22:55:29-04:00",
     "author": "Michael Dyck",
-    "date": "2026-03-11T10:13:19-04:00",
-    "hash": "427213f8d250e896acb3aad9cb3830a54d9e6947",
-    "parents": "c8a796fc02d9b2c97a8d90e516465ce58e8f00ce",
+    "date": "2026-04-03T20:34:00-04:00",
+    "hash": "b7fb6cbc525f57862108ec83b42364420b869374",
+    "parents": "1822571732ed9199e232c97b5f9adccbf33b4dff",
     "subject": "Insert 'this' for references to LHS nonterminal"
    },
    {
     "adate": "2023-10-28T15:35:18-04:00",
     "author": "Michael Dyck",
-    "date": "2026-03-11T10:13:19-04:00",
-    "hash": "c8a796fc02d9b2c97a8d90e516465ce58e8f00ce",
-    "parents": "0a13456bd92ec2db843be9bf9293d9984450a345",
+    "date": "2026-04-03T20:34:00-04:00",
+    "hash": "1822571732ed9199e232c97b5f9adccbf33b4dff",
+    "parents": "96ec55c5adc1a4d2756eb9c505f5c11e48f88727",
     "subject": "Link to \"Referring to Parse Nodes\" from `Early Error Rules`"
    },
    {
     "adate": "2023-10-28T15:34:43-04:00",
     "author": "Michael Dyck",
-    "date": "2026-03-11T10:13:19-04:00",
-    "hash": "0a13456bd92ec2db843be9bf9293d9984450a345",
-    "parents": "4416b776e3ad53df244c2d7d8d8bacb67b83a511",
+    "date": "2026-04-03T20:34:00-04:00",
+    "hash": "96ec55c5adc1a4d2756eb9c505f5c11e48f88727",
+    "parents": "eecf315b2f61f38be683d6549c1f47785082f867",
     "subject": "Create a subsection for \"Referring to Parse Nodes\""
    },
    {
     "adate": "2023-10-28T15:29:41-04:00",
     "author": "Michael Dyck",
-    "date": "2026-03-11T10:13:19-04:00",
-    "hash": "4416b776e3ad53df244c2d7d8d8bacb67b83a511",
-    "parents": "cf8e98f563fd4c2e488f357351017d6863dc9eac",
+    "date": "2026-04-03T20:34:00-04:00",
+    "hash": "eecf315b2f61f38be683d6549c1f47785082f867",
+    "parents": "4ea847c84fb269fdf7ddfa1545dfbb4f2ddc3b6d",
     "subject": "Add a paragraph about the dispatching mechanism for SDOs."
    },
    {
     "adate": "2023-10-28T09:59:26-04:00",
     "author": "Michael Dyck",
-    "date": "2026-03-11T10:13:19-04:00",
-    "hash": "cf8e98f563fd4c2e488f357351017d6863dc9eac",
-    "parents": "edd5ea62daef08855cb298513ff9bf2e6bec21a0",
+    "date": "2026-04-03T20:34:00-04:00",
+    "hash": "4ea847c84fb269fdf7ddfa1545dfbb4f2ddc3b6d",
+    "parents": "5841b9200d30e5c47dc4c8e7e9f548b0075be4d8",
     "subject": "Split off a subsection for \"Invoking Syntax-Directed Operations\""
    },
    {
     "adate": "2023-10-28T09:53:49-04:00",
     "author": "Michael Dyck",
-    "date": "2026-03-11T10:13:19-04:00",
-    "hash": "edd5ea62daef08855cb298513ff9bf2e6bec21a0",
-    "parents": "03abe13e09ab2503b483b789802090f9feab0520",
+    "date": "2026-04-03T20:34:00-04:00",
+    "hash": "5841b9200d30e5c47dc4c8e7e9f548b0075be4d8",
+    "parents": "2e91b11b3c97322e4674de1fb4cf710181dc77c7",
     "subject": "Split off a subsection for \"Implicit Definitions for Chain Productions\""
    },
    {
     "adate": "2023-10-28T09:35:28-04:00",
     "author": "Michael Dyck",
-    "date": "2026-03-11T10:13:19-04:00",
-    "hash": "03abe13e09ab2503b483b789802090f9feab0520",
-    "parents": "4895a117eb54edd829f2010092bae8f41c2b174a",
+    "date": "2026-04-03T20:34:00-04:00",
+    "hash": "2e91b11b3c97322e4674de1fb4cf710181dc77c7",
+    "parents": "f9485f16845547907b618f9e1637a8fa113cacf2",
     "subject": "Move the definition of \"source text matched by\""
+   },
+   {
+    "adate": "2026-04-03T18:33:01-04:00",
+    "author": "Michael Dyck",
+    "date": "2026-04-03T18:51:04-04:00",
+    "hash": "f9485f16845547907b618f9e1637a8fa113cacf2",
+    "parents": "71bf855859687428afbd159d2339e64606e59fd1",
+    "subject": "Editorial: Fix some things from PR #3714"
    }
   ],
   "title": "Editorial: Expand the \"Syntax-Directed Operations\" section",
-  "updated_at": "2026-03-11T18:38:37Z"
+  "updated_at": "2026-04-04T02:36:09Z"
  },
  {
   "base": "f2b2d524a56c915826e90d7a3f9daa51a49011c3",
@@ -4156,9 +4144,9 @@
   "updated_at": "2023-02-13T19:08:39Z"
  },
  {
-  "base": "4895a117eb54edd829f2010092bae8f41c2b174a",
+  "base": "2f8969eb1dd997e2c1e52a2eb73f0468ab9fdf31",
   "created_at": "2022-09-04T02:20:57Z",
-  "head": "a1bb10f24ad8441f845b76a20bb238b545475021",
+  "head": "53e2215839e13b5af7036777e3764699c9e5a084",
   "login": "jmdyck",
   "number": 2889,
   "ref": "callable",
@@ -4166,22 +4154,30 @@
    {
     "adate": "2022-09-03T22:11:56-04:00",
     "author": "Michael Dyck",
-    "date": "2026-03-11T11:37:18-04:00",
-    "hash": "a1bb10f24ad8441f845b76a20bb238b545475021",
-    "parents": "a5a2e9ea5d0fca0f3dece36267dc2083c4234c03",
+    "date": "2026-04-03T20:49:15-04:00",
+    "hash": "53e2215839e13b5af7036777e3764699c9e5a084",
+    "parents": "58838888aecfcd5b6c8e7eeb7145c61f11f355e0",
     "subject": "Eliminate most other uses of \"callable\""
    },
    {
     "adate": "2022-09-03T21:47:50-04:00",
     "author": "Michael Dyck",
-    "date": "2026-03-11T11:37:16-04:00",
-    "hash": "a5a2e9ea5d0fca0f3dece36267dc2083c4234c03",
-    "parents": "4895a117eb54edd829f2010092bae8f41c2b174a",
+    "date": "2026-04-03T20:49:13-04:00",
+    "hash": "58838888aecfcd5b6c8e7eeb7145c61f11f355e0",
+    "parents": "f9485f16845547907b618f9e1637a8fa113cacf2",
     "subject": "Rename \"IsCallable\" as \"IsFunction\""
+   },
+   {
+    "adate": "2026-04-03T18:33:01-04:00",
+    "author": "Michael Dyck",
+    "date": "2026-04-03T18:51:04-04:00",
+    "hash": "f9485f16845547907b618f9e1637a8fa113cacf2",
+    "parents": "71bf855859687428afbd159d2339e64606e59fd1",
+    "subject": "Editorial: Fix some things from PR #3714"
    }
   ],
   "title": "Editorial: Minimize use of the term \"callable\"",
-  "updated_at": "2026-03-11T18:37:18Z"
+  "updated_at": "2026-04-04T02:32:38Z"
  },
  {
   "base": "6ccb804013f9378c4caa441d9238061f46bd52bd",
