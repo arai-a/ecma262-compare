@@ -2,11 +2,19 @@
  {
   "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
   "created_at": "2026-04-04T07:01:41Z",
-  "head": "de8d8601061b846cbc218255d1f6de6f53e3183b",
+  "head": "8b6dac47840e105761cf08220cad8e1250fee657",
   "login": "runbing",
   "number": 3798,
   "ref": "main",
   "revs": [
+   {
+    "adate": "2026-04-06T15:52:10+08:00",
+    "author": "Runbing",
+    "date": "2026-04-06T15:52:10+08:00",
+    "hash": "8b6dac47840e105761cf08220cad8e1250fee657",
+    "parents": "de8d8601061b846cbc218255d1f6de6f53e3183b 242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
+    "subject": "Merge branch 'tc39:main' into main"
+   },
    {
     "adate": "2026-04-04T14:58:36+08:00",
     "author": "Runbing",
@@ -17,7 +25,7 @@
    }
   ],
   "title": "Editorial: Add missing period in WordCharacters description",
-  "updated_at": "2026-04-04T07:01:41Z"
+  "updated_at": "2026-04-06T07:52:11Z"
  },
  {
   "base": "71bf855859687428afbd159d2339e64606e59fd1",
