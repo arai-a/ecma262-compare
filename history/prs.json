@@ -1,12 +1,48 @@
 [
  {
   "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
+  "created_at": "2026-04-07T16:17:27Z",
+  "head": "e83383763edab2143d5e785110585177c4bc9737",
+  "login": "tc39",
+  "number": 3803,
+  "ref": "kill-whimsy",
+  "revs": [
+   {
+    "adate": "2026-04-07T10:16:28-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-07T10:16:28-06:00",
+    "hash": "e83383763edab2143d5e785110585177c4bc9737",
+    "parents": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
+    "subject": "Editorial: remove whimsy"
+   }
+  ],
+  "title": "Editorial: remove whimsy",
+  "updated_at": "2026-04-07T16:17:27Z"
+ },
+ {
+  "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
   "created_at": "2026-04-07T16:09:04Z",
-  "head": "04bb8766cc0e5a6da2e1ce050391ba905e67d534",
+  "head": "36585d459b352d6b7862b5818073aa580731bae0",
   "login": "tc39",
   "number": 3802,
   "ref": "joint-iteration",
   "revs": [
+   {
+    "adate": "2026-04-07T10:22:52-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-07T10:22:52-06:00",
+    "hash": "36585d459b352d6b7862b5818073aa580731bae0",
+    "parents": "30a1ec0df468ae8c0a4ec81ed18f3ee410b91298",
+    "subject": "introduce an alias for use with IfAbruptCloseIterators"
+   },
+   {
+    "adate": "2026-04-07T10:15:25-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-07T10:15:25-06:00",
+    "hash": "30a1ec0df468ae8c0a4ec81ed18f3ee410b91298",
+    "parents": "04bb8766cc0e5a6da2e1ce050391ba905e67d534",
+    "subject": "update IfAbruptCloseIterators"
+   },
    {
     "adate": "2026-04-07T10:01:00-06:00",
     "author": "Michael Ficarra",
@@ -17,7 +53,7 @@
    }
   ],
   "title": "Normative: add Iterator.zip and Iterator.zipKeyed",
-  "updated_at": "2026-04-07T16:10:12Z"
+  "updated_at": "2026-04-07T16:23:26Z"
  },
  {
   "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
@@ -136,13 +172,29 @@
   "updated_at": "2026-04-01T15:41:48Z"
  },
  {
-  "base": "d093df5794717c9c60663e4ca4763178ae4508d0",
+  "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
   "created_at": "2026-04-01T14:47:42Z",
-  "head": "3d9a3737af3e987ee0bcd740285ccdbbdb519aed",
+  "head": "80f7300bcc27ab60f2bcf904f226f64b609038df",
   "login": "tc39",
   "number": 3789,
   "ref": "alias-renaming",
   "revs": [
+   {
+    "adate": "2026-04-07T10:27:32-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-07T10:27:32-06:00",
+    "hash": "80f7300bcc27ab60f2bcf904f226f64b609038df",
+    "parents": "fa9eea722f399237d010a03b6fb59896dd0f11d1",
+    "subject": "OrdinaryHasInstance: P -> proto"
+   },
+   {
+    "adate": "2026-04-07T10:26:16-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-07T10:26:16-06:00",
+    "hash": "fa9eea722f399237d010a03b6fb59896dd0f11d1",
+    "parents": "3d9a3737af3e987ee0bcd740285ccdbbdb519aed 242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
+    "subject": "Merge branch 'main' into alias-renaming"
+   },
    {
     "adate": "2026-04-02T15:41:49-06:00",
     "author": "Michael Ficarra",
@@ -577,7 +629,7 @@
    }
   ],
   "title": "Editorial: rename single-letter and initial-capital aliases",
-  "updated_at": "2026-04-02T21:42:32Z"
+  "updated_at": "2026-04-07T16:28:10Z"
  },
  {
   "base": "d093df5794717c9c60663e4ca4763178ae4508d0",
