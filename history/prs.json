@@ -1,6 +1,114 @@
 [
  {
   "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
+  "created_at": "2026-04-08T20:13:39Z",
+  "head": "2993932e2d23f9eff18898f9cb1c758dde2fb5c9",
+  "login": "tc39",
+  "number": 3810,
+  "ref": "IsLessThan-description",
+  "revs": [
+   {
+    "adate": "2026-04-08T13:11:20-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-08T13:13:26-06:00",
+    "hash": "2993932e2d23f9eff18898f9cb1c758dde2fb5c9",
+    "parents": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
+    "subject": "Editorial: fix error in description of IsLessThan"
+   }
+  ],
+  "title": "Editorial: fix error in description of IsLessThan",
+  "updated_at": "2026-04-08T20:13:39Z"
+ },
+ {
+  "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
+  "created_at": "2026-04-08T20:13:24Z",
+  "head": "8e64cf9e46d7214e0cd646ab870f0b563224dd11",
+  "login": "tc39",
+  "number": 3809,
+  "ref": "lastIndexOf-description",
+  "revs": [
+   {
+    "adate": "2026-04-08T13:46:04-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-08T13:47:06-06:00",
+    "hash": "8e64cf9e46d7214e0cd646ab870f0b563224dd11",
+    "parents": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
+    "subject": "Editorial: fix off-by-1 error in description of Array lastIndexOf"
+   }
+  ],
+  "title": "Editorial: fix off-by-1 error in description of Array lastIndexOf",
+  "updated_at": "2026-04-08T20:13:24Z"
+ },
+ {
+  "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
+  "created_at": "2026-04-08T20:13:09Z",
+  "head": "a0b75fa65c5b9e3d8b9d23c7c644a5b2d8169a70",
+  "login": "tc39",
+  "number": 3808,
+  "ref": "proxy-getOwnPropertyDescriptor",
+  "revs": [
+   {
+    "adate": "2026-04-08T13:52:42-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-08T13:52:42-06:00",
+    "hash": "a0b75fa65c5b9e3d8b9d23c7c644a5b2d8169a70",
+    "parents": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
+    "subject": "Editorial: fix note in Proxy [[GetOwnProperty]] definition"
+   }
+  ],
+  "title": "Editorial: fix note in Proxy [[GetOwnProperty]] definition",
+  "updated_at": "2026-04-08T20:13:09Z"
+ },
+ {
+  "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
+  "created_at": "2026-04-08T20:11:49Z",
+  "head": "67d9d04c74e70b8d681746d3bc2d00da07d734a8",
+  "login": "tc39",
+  "number": 3807,
+  "ref": "crlf",
+  "revs": [
+   {
+    "adate": "2026-04-08T14:00:52-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-08T14:03:05-06:00",
+    "hash": "67d9d04c74e70b8d681746d3bc2d00da07d734a8",
+    "parents": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
+    "subject": "Editorial: move non-normative statements about CRLF to a note"
+   }
+  ],
+  "title": "Editorial: move non-normative statements about CRLF to a note",
+  "updated_at": "2026-04-08T20:12:42Z"
+ },
+ {
+  "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
+  "created_at": "2026-04-08T20:11:23Z",
+  "head": "a101e68d6f989c8d68ad4da94402538b3031f687",
+  "login": "tc39",
+  "number": 3806,
+  "ref": "host-synchronizes-with",
+  "revs": [
+   {
+    "adate": "2026-04-08T14:10:33-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-08T14:10:33-06:00",
+    "hash": "a101e68d6f989c8d68ad4da94402538b3031f687",
+    "parents": "decac566429ff9bb639eecf4205d65f8a9d0b79b",
+    "subject": "Editorial: remove mention of [[HostSynchronizesWith]]"
+   },
+   {
+    "adate": "2026-04-08T14:08:50-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-08T14:08:50-06:00",
+    "hash": "decac566429ff9bb639eecf4205d65f8a9d0b79b",
+    "parents": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
+    "subject": "Editorial: replace remaining use of [[HostSynchronizesWith]]"
+   }
+  ],
+  "title": "Editorial: replace remaining uses of [[HostSynchronizesWith]]",
+  "updated_at": "2026-04-08T20:16:12Z"
+ },
+ {
+  "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
   "created_at": "2026-04-08T15:27:50Z",
   "head": "8dd6b24ace3b618e7c05e15dd4a201cf5dcd5788",
   "login": "tc39",
