@@ -2,11 +2,19 @@
  {
   "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
   "created_at": "2026-04-08T15:27:50Z",
-  "head": "e6940dfd4b3aa4ad68be109abef9e076f48111c0",
+  "head": "8dd6b24ace3b618e7c05e15dd4a201cf5dcd5788",
   "login": "tc39",
   "number": 3805,
   "ref": "editorial-convention-violations",
   "revs": [
+   {
+    "adate": "2026-04-08T13:07:30-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-08T13:07:30-06:00",
+    "hash": "8dd6b24ace3b618e7c05e15dd4a201cf5dcd5788",
+    "parents": "e6940dfd4b3aa4ad68be109abef9e076f48111c0",
+    "subject": "missed a case"
+   },
    {
     "adate": "2026-04-08T09:06:36-06:00",
     "author": "Michael Ficarra",
@@ -17,7 +25,7 @@
    }
   ],
   "title": "Editorial: fix some minor editorial convention violations",
-  "updated_at": "2026-04-08T15:39:36Z"
+  "updated_at": "2026-04-08T19:08:00Z"
  },
  {
   "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
@@ -818,11 +826,27 @@
  {
   "base": "1a78d83ce857b87477bc95764c81bc6637720ca1",
   "created_at": "2026-02-16T23:53:01Z",
-  "head": "d3080a29226d653ea8ad4d74230f80b8b3bde9e8",
+  "head": "b905c08acd176f93215140daa0dddc8935b20fb5",
   "login": "ptomato",
   "number": 3759,
   "ref": "temporal-stage-4",
   "revs": [
+   {
+    "adate": "2026-04-08T13:56:36-04:00",
+    "author": "Philip Chimento",
+    "date": "2026-04-08T13:56:36-04:00",
+    "hash": "b905c08acd176f93215140daa0dddc8935b20fb5",
+    "parents": "cc02d98d1c2211cc3121293bbc946598d17c0547",
+    "subject": "(fixup) Fix floating-point return from GetRoundingIncrementOption"
+   },
+   {
+    "adate": "2026-04-08T13:55:34-04:00",
+    "author": "Philip Chimento",
+    "date": "2026-04-08T13:55:34-04:00",
+    "hash": "cc02d98d1c2211cc3121293bbc946598d17c0547",
+    "parents": "d3080a29226d653ea8ad4d74230f80b8b3bde9e8",
+    "subject": "(optional) Combine new ToInteger ops into one SnapToInteger"
+   },
    {
     "adate": "2026-03-30T20:56:22-04:00",
     "author": "Philip Chimento",
@@ -985,7 +1009,7 @@
    }
   ],
   "title": "Normative: add Temporal",
-  "updated_at": "2026-03-31T00:56:31Z"
+  "updated_at": "2026-04-08T18:30:43Z"
  },
  {
   "base": "8febdacb384c2661df5a00c0e77dcb69896496e2",
