@@ -1,6 +1,86 @@
 [
  {
   "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
+  "created_at": "2026-04-08T20:18:17Z",
+  "head": "a7b8903b98219b5880b8217df87662ab26841703",
+  "login": "tc39",
+  "number": 3814,
+  "ref": "ER-GetBindingValue",
+  "revs": [
+   {
+    "adate": "2026-04-08T14:17:27-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-08T14:17:27-06:00",
+    "hash": "a7b8903b98219b5880b8217df87662ab26841703",
+    "parents": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
+    "subject": "Editorial: fix description of Environment Record GetBindingValue"
+   }
+  ],
+  "title": "Editorial: fix description of Environment Record GetBindingValue",
+  "updated_at": "2026-04-08T20:22:54Z"
+ },
+ {
+  "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
+  "created_at": "2026-04-08T20:14:38Z",
+  "head": "1e5bcf15a945f0d2b698f023579a1e8a26afab52",
+  "login": "tc39",
+  "number": 3813,
+  "ref": "math-min-note",
+  "revs": [
+   {
+    "adate": "2026-04-08T12:26:50-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-08T12:26:50-06:00",
+    "hash": "1e5bcf15a945f0d2b698f023579a1e8a26afab52",
+    "parents": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
+    "subject": "Editorial: fix copy/paste error in Math.min note"
+   }
+  ],
+  "title": "Editorial: fix copy/paste error in Math.min note",
+  "updated_at": "2026-04-08T20:47:31Z"
+ },
+ {
+  "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
+  "created_at": "2026-04-08T20:14:24Z",
+  "head": "66862b5342ef00e3f297d958c457c00961df7803",
+  "login": "tc39",
+  "number": 3812,
+  "ref": "string-endsWith-note",
+  "revs": [
+   {
+    "adate": "2026-04-08T12:29:27-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-08T12:29:27-06:00",
+    "hash": "66862b5342ef00e3f297d958c457c00961df7803",
+    "parents": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
+    "subject": "Editorial: fix error in String.prototype.endsWith note"
+   }
+  ],
+  "title": "Editorial: fix error in String.prototype.endsWith note",
+  "updated_at": "2026-04-08T20:18:47Z"
+ },
+ {
+  "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
+  "created_at": "2026-04-08T20:14:10Z",
+  "head": "5ce5ae356aba8fb47d812773c6f9c33d1c56d3f1",
+  "login": "tc39",
+  "number": 3811,
+  "ref": "evaluationerror-meaning",
+  "revs": [
+   {
+    "adate": "2026-04-08T12:31:53-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-08T12:31:53-06:00",
+    "hash": "5ce5ae356aba8fb47d812773c6f9c33d1c56d3f1",
+    "parents": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
+    "subject": "Editorial: fix description of Cyclic Module Record [[EvaluationError]]"
+   }
+  ],
+  "title": "Editorial: fix description of Cyclic Module Record [[EvaluationError]]",
+  "updated_at": "2026-04-08T20:43:08Z"
+ },
+ {
+  "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
   "created_at": "2026-04-08T20:13:39Z",
   "head": "2993932e2d23f9eff18898f9cb1c758dde2fb5c9",
   "login": "tc39",
@@ -62,11 +142,19 @@
  {
   "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
   "created_at": "2026-04-08T20:11:49Z",
-  "head": "67d9d04c74e70b8d681746d3bc2d00da07d734a8",
+  "head": "a979099f8a237b8b869a1c3af1d570f00435bc09",
   "login": "tc39",
   "number": 3807,
   "ref": "crlf",
   "revs": [
+   {
+    "adate": "2026-04-08T14:41:52-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-08T14:41:52-06:00",
+    "hash": "a979099f8a237b8b869a1c3af1d570f00435bc09",
+    "parents": "67d9d04c74e70b8d681746d3bc2d00da07d734a8",
+    "subject": "fix formatting"
+   },
    {
     "adate": "2026-04-08T14:00:52-06:00",
     "author": "Michael Ficarra",
@@ -77,7 +165,7 @@
    }
   ],
   "title": "Editorial: move non-normative statements about CRLF to a note",
-  "updated_at": "2026-04-08T20:12:42Z"
+  "updated_at": "2026-04-08T21:43:10Z"
  },
  {
   "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
