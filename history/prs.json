@@ -1,12 +1,48 @@
 [
  {
+  "base": "c3ceeae40955bdd48e38425d8f85b3a6ad77bd0e",
+  "created_at": "2026-04-09T20:52:20Z",
+  "head": "3fe2223e871881260feb07be9ffb25059ba0f553",
+  "login": "tc39",
+  "number": 3830,
+  "ref": "append-to",
+  "revs": [
+   {
+    "adate": "2026-04-09T14:51:27-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-09T14:51:27-06:00",
+    "hash": "3fe2223e871881260feb07be9ffb25059ba0f553",
+    "parents": "c3ceeae40955bdd48e38425d8f85b3a6ad77bd0e",
+    "subject": "Editorial: fix an editorial convention violation wrt appending"
+   }
+  ],
+  "title": "Editorial: fix an editorial convention violation wrt appending",
+  "updated_at": "2026-04-09T20:52:20Z"
+ },
+ {
   "base": "3282e07ac8811a9639c915ef8f85dc4f3aea3e8e",
   "created_at": "2026-04-09T20:05:54Z",
-  "head": "e239365f013b0f308b5848133d59f00009c54b35",
+  "head": "dee934aba6633704189f925f73ffc519fa157b4c",
   "login": "tc39",
   "number": 3829,
   "ref": "CleanupFinalizationRegistry-repeat-while",
   "revs": [
+   {
+    "adate": "2026-04-09T14:54:50-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-09T14:54:50-06:00",
+    "hash": "dee934aba6633704189f925f73ffc519fa157b4c",
+    "parents": "fcbcf9dbfb96e1dc29e86a081c464960611288da",
+    "subject": "we have precedent for this I swear"
+   },
+   {
+    "adate": "2026-04-09T14:44:59-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-09T14:44:59-06:00",
+    "hash": "fcbcf9dbfb96e1dc29e86a081c464960611288da",
+    "parents": "e239365f013b0f308b5848133d59f00009c54b35",
+    "subject": "even more normal"
+   },
    {
     "adate": "2026-04-09T14:02:54-06:00",
     "author": "Michael Ficarra",
@@ -17,7 +53,7 @@
    }
   ],
   "title": "Editorial: use idiomatic phrasing in CleanupFinalizationRegistry",
-  "updated_at": "2026-04-09T20:05:54Z"
+  "updated_at": "2026-04-09T20:55:21Z"
  },
  {
   "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
@@ -50,11 +86,27 @@
  {
   "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
   "created_at": "2026-04-09T01:39:24Z",
-  "head": "d8ba584bd04bc0d88ff167ca6fe7fc529ee9f1b7",
+  "head": "46ac2bda6b6b5182fbda7ac68d23330964139a74",
   "login": "tc39",
   "number": 3826,
   "ref": "narrowings",
   "revs": [
+   {
+    "adate": "2026-04-09T14:33:39-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-09T14:33:39-06:00",
+    "hash": "46ac2bda6b6b5182fbda7ac68d23330964139a74",
+    "parents": "fc80864c3e6bb651c3da3a1dde05bad267e769b4",
+    "subject": "assert not a Proxy"
+   },
+   {
+    "adate": "2026-04-09T14:11:48-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-09T14:11:48-06:00",
+    "hash": "fc80864c3e6bb651c3da3a1dde05bad267e769b4",
+    "parents": "d8ba584bd04bc0d88ff167ca6fe7fc529ee9f1b7",
+    "subject": "fix errors"
+   },
    {
     "adate": "2026-04-08T19:38:13-06:00",
     "author": "Michael Ficarra",
@@ -65,7 +117,7 @@
    }
   ],
   "title": "Editorial: narrow some AO return types and parameter types",
-  "updated_at": "2026-04-09T01:43:48Z"
+  "updated_at": "2026-04-09T20:38:02Z"
  },
  {
   "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
@@ -314,11 +366,19 @@
  {
   "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
   "created_at": "2026-04-08T20:18:17Z",
-  "head": "809e9de2a289ac65f4565c65da660cafb3fd5dea",
+  "head": "6f4b5743b8aba4b8b717b1824a9b14ec68425d5d",
   "login": "tc39",
   "number": 3814,
   "ref": "ER-GetBindingValue",
   "revs": [
+   {
+    "adate": "2026-04-09T14:15:11-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-09T14:15:11-06:00",
+    "hash": "6f4b5743b8aba4b8b717b1824a9b14ec68425d5d",
+    "parents": "809e9de2a289ac65f4565c65da660cafb3fd5dea",
+    "subject": "property -> binding"
+   },
    {
     "adate": "2026-04-09T13:39:30-06:00",
     "author": "Michael Ficarra",
@@ -337,7 +397,7 @@
    }
   ],
   "title": "Editorial: fix description of Environment Record GetBindingValue",
-  "updated_at": "2026-04-09T19:52:33Z"
+  "updated_at": "2026-04-09T20:17:44Z"
  },
  {
   "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
@@ -381,32 +441,20 @@
  },
  {
   "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
-  "created_at": "2026-04-08T20:14:10Z",
-  "head": "5ce5ae356aba8fb47d812773c6f9c33d1c56d3f1",
-  "login": "tc39",
-  "number": 3811,
-  "ref": "evaluationerror-meaning",
-  "revs": [
-   {
-    "adate": "2026-04-08T12:31:53-06:00",
-    "author": "Michael Ficarra",
-    "date": "2026-04-08T12:31:53-06:00",
-    "hash": "5ce5ae356aba8fb47d812773c6f9c33d1c56d3f1",
-    "parents": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
-    "subject": "Editorial: fix description of Cyclic Module Record [[EvaluationError]]"
-   }
-  ],
-  "title": "Editorial: fix description of Cyclic Module Record [[EvaluationError]]",
-  "updated_at": "2026-04-08T20:43:08Z"
- },
- {
-  "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
   "created_at": "2026-04-08T20:13:39Z",
-  "head": "2993932e2d23f9eff18898f9cb1c758dde2fb5c9",
+  "head": "de7c4efd3b8c8dc228ec7a15f610517f31a5bedc",
   "login": "tc39",
   "number": 3810,
   "ref": "IsLessThan-description",
   "revs": [
+   {
+    "adate": "2026-04-09T14:16:47-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-09T14:16:47-06:00",
+    "hash": "de7c4efd3b8c8dc228ec7a15f610517f31a5bedc",
+    "parents": "2993932e2d23f9eff18898f9cb1c758dde2fb5c9",
+    "subject": "accept suggestion"
+   },
    {
     "adate": "2026-04-08T13:11:20-06:00",
     "author": "Michael Ficarra",
@@ -417,55 +465,7 @@
    }
   ],
   "title": "Editorial: fix error in description of IsLessThan",
-  "updated_at": "2026-04-08T20:13:39Z"
- },
- {
-  "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
-  "created_at": "2026-04-08T20:13:24Z",
-  "head": "8e64cf9e46d7214e0cd646ab870f0b563224dd11",
-  "login": "tc39",
-  "number": 3809,
-  "ref": "lastIndexOf-description",
-  "revs": [
-   {
-    "adate": "2026-04-08T13:46:04-06:00",
-    "author": "Michael Ficarra",
-    "date": "2026-04-08T13:47:06-06:00",
-    "hash": "8e64cf9e46d7214e0cd646ab870f0b563224dd11",
-    "parents": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
-    "subject": "Editorial: fix off-by-1 error in description of Array lastIndexOf"
-   }
-  ],
-  "title": "Editorial: fix off-by-1 error in description of Array lastIndexOf",
-  "updated_at": "2026-04-08T20:13:24Z"
- },
- {
-  "base": "3282e07ac8811a9639c915ef8f85dc4f3aea3e8e",
-  "created_at": "2026-04-08T20:13:09Z",
-  "head": "c3ceeae40955bdd48e38425d8f85b3a6ad77bd0e",
-  "login": "tc39",
-  "number": 3808,
-  "ref": "proxy-getOwnPropertyDescriptor",
-  "revs": [
-   {
-    "adate": "2026-04-09T13:05:50-07:00",
-    "author": "Michael Ficarra",
-    "date": "2026-04-09T13:05:50-07:00",
-    "hash": "c3ceeae40955bdd48e38425d8f85b3a6ad77bd0e",
-    "parents": "3282e07ac8811a9639c915ef8f85dc4f3aea3e8e",
-    "subject": "Editorial: fix note in Proxy [[GetOwnProperty]] definition (#3808)"
-   },
-   {
-    "adate": "2026-04-09T12:34:51-07:00",
-    "author": "Linus Groh",
-    "date": "2026-04-09T12:34:51-07:00",
-    "hash": "3282e07ac8811a9639c915ef8f85dc4f3aea3e8e",
-    "parents": "6988697b6eba9b5ec777610899ee68d84211c838",
-    "subject": "Editorial: Add Linus to the editors list (#3801)"
-   }
-  ],
-  "title": "Editorial: fix note in Proxy [[GetOwnProperty]] definition",
-  "updated_at": "2026-04-09T20:06:04Z"
+  "updated_at": "2026-04-09T20:17:17Z"
  },
  {
   "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
