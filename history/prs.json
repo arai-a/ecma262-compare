@@ -1,5 +1,25 @@
 [
  {
+  "base": "3282e07ac8811a9639c915ef8f85dc4f3aea3e8e",
+  "created_at": "2026-04-09T20:05:54Z",
+  "head": "e239365f013b0f308b5848133d59f00009c54b35",
+  "login": "tc39",
+  "number": 3829,
+  "ref": "CleanupFinalizationRegistry-repeat-while",
+  "revs": [
+   {
+    "adate": "2026-04-09T14:02:54-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-09T14:02:54-06:00",
+    "hash": "e239365f013b0f308b5848133d59f00009c54b35",
+    "parents": "6988697b6eba9b5ec777610899ee68d84211c838",
+    "subject": "Editorial: use idiomatic phrasing in CleanupFinalizationRegistry"
+   }
+  ],
+  "title": "Editorial: use idiomatic phrasing in CleanupFinalizationRegistry",
+  "updated_at": "2026-04-09T20:05:54Z"
+ },
+ {
   "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
   "created_at": "2026-04-09T15:13:57Z",
   "head": "d41e140ee6f6d256aa2d2aa7f2ce3c7838c48ab8",
@@ -50,11 +70,19 @@
  {
   "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
   "created_at": "2026-04-09T01:13:18Z",
-  "head": "067cb5b8ba684ac36653677e14ea6dcae7705102",
+  "head": "80b93e3f9e4d39db77c208cdcd1968d9fd90fbba",
   "login": "tc39",
   "number": 3825,
   "ref": "MakeFullYear",
   "revs": [
+   {
+    "adate": "2026-04-09T13:29:21-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-09T13:29:21-06:00",
+    "hash": "80b93e3f9e4d39db77c208cdcd1968d9fd90fbba",
+    "parents": "067cb5b8ba684ac36653677e14ea6dcae7705102",
+    "subject": "make MakeFullYear return NaN for infinities"
+   },
    {
     "adate": "2026-04-08T19:12:22-06:00",
     "author": "Michael Ficarra",
@@ -64,8 +92,8 @@
     "subject": "Editorial: fix return type of MakeFullYear"
    }
   ],
-  "title": "Editorial: fix return type of MakeFullYear",
-  "updated_at": "2026-04-09T01:17:55Z"
+  "title": "Editorial: make MakeFullYear return NaN for infinities",
+  "updated_at": "2026-04-09T19:39:17Z"
  },
  {
   "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
@@ -286,11 +314,19 @@
  {
   "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
   "created_at": "2026-04-08T20:18:17Z",
-  "head": "a7b8903b98219b5880b8217df87662ab26841703",
+  "head": "809e9de2a289ac65f4565c65da660cafb3fd5dea",
   "login": "tc39",
   "number": 3814,
   "ref": "ER-GetBindingValue",
   "revs": [
+   {
+    "adate": "2026-04-09T13:39:30-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-09T13:39:30-06:00",
+    "hash": "809e9de2a289ac65f4565c65da660cafb3fd5dea",
+    "parents": "a7b8903b98219b5880b8217df87662ab26841703",
+    "subject": "minor improvement"
+   },
    {
     "adate": "2026-04-08T14:17:27-06:00",
     "author": "Michael Ficarra",
@@ -301,7 +337,7 @@
    }
   ],
   "title": "Editorial: fix description of Environment Record GetBindingValue",
-  "updated_at": "2026-04-08T20:22:54Z"
+  "updated_at": "2026-04-09T19:52:33Z"
  },
  {
   "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
@@ -404,24 +440,32 @@
   "updated_at": "2026-04-08T20:13:24Z"
  },
  {
-  "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
+  "base": "3282e07ac8811a9639c915ef8f85dc4f3aea3e8e",
   "created_at": "2026-04-08T20:13:09Z",
-  "head": "a0b75fa65c5b9e3d8b9d23c7c644a5b2d8169a70",
+  "head": "c3ceeae40955bdd48e38425d8f85b3a6ad77bd0e",
   "login": "tc39",
   "number": 3808,
   "ref": "proxy-getOwnPropertyDescriptor",
   "revs": [
    {
-    "adate": "2026-04-08T13:52:42-06:00",
+    "adate": "2026-04-09T13:05:50-07:00",
     "author": "Michael Ficarra",
-    "date": "2026-04-08T13:52:42-06:00",
-    "hash": "a0b75fa65c5b9e3d8b9d23c7c644a5b2d8169a70",
-    "parents": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
-    "subject": "Editorial: fix note in Proxy [[GetOwnProperty]] definition"
+    "date": "2026-04-09T13:05:50-07:00",
+    "hash": "c3ceeae40955bdd48e38425d8f85b3a6ad77bd0e",
+    "parents": "3282e07ac8811a9639c915ef8f85dc4f3aea3e8e",
+    "subject": "Editorial: fix note in Proxy [[GetOwnProperty]] definition (#3808)"
+   },
+   {
+    "adate": "2026-04-09T12:34:51-07:00",
+    "author": "Linus Groh",
+    "date": "2026-04-09T12:34:51-07:00",
+    "hash": "3282e07ac8811a9639c915ef8f85dc4f3aea3e8e",
+    "parents": "6988697b6eba9b5ec777610899ee68d84211c838",
+    "subject": "Editorial: Add Linus to the editors list (#3801)"
    }
   ],
   "title": "Editorial: fix note in Proxy [[GetOwnProperty]] definition",
-  "updated_at": "2026-04-08T20:13:09Z"
+  "updated_at": "2026-04-09T20:06:04Z"
  },
  {
   "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
@@ -509,26 +553,6 @@
  },
  {
   "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
-  "created_at": "2026-04-07T16:17:27Z",
-  "head": "e83383763edab2143d5e785110585177c4bc9737",
-  "login": "tc39",
-  "number": 3803,
-  "ref": "kill-whimsy",
-  "revs": [
-   {
-    "adate": "2026-04-07T10:16:28-06:00",
-    "author": "Michael Ficarra",
-    "date": "2026-04-07T10:16:28-06:00",
-    "hash": "e83383763edab2143d5e785110585177c4bc9737",
-    "parents": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
-    "subject": "Editorial: remove whimsy"
-   }
-  ],
-  "title": "Editorial: remove whimsy",
-  "updated_at": "2026-04-07T16:17:27Z"
- },
- {
-  "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
   "created_at": "2026-04-07T16:09:04Z",
   "head": "36585d459b352d6b7862b5818073aa580731bae0",
   "login": "tc39",
@@ -564,72 +588,24 @@
   "updated_at": "2026-04-07T16:23:26Z"
  },
  {
-  "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
-  "created_at": "2026-04-07T16:03:13Z",
-  "head": "c20fc8d52a12adfb478afa0560179cc058259fb6",
-  "login": "linusg",
-  "number": 3801,
-  "ref": "add-linus-to-editors",
-  "revs": [
-   {
-    "adate": "2026-04-07T17:02:12+01:00",
-    "author": "Linus Groh",
-    "date": "2026-04-07T17:02:12+01:00",
-    "hash": "c20fc8d52a12adfb478afa0560179cc058259fb6",
-    "parents": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
-    "subject": "Editorial: Add Linus to the editors list"
-   }
-  ],
-  "title": "Editorial: Add Linus to the editors list",
-  "updated_at": "2026-04-07T16:08:00Z"
- },
- {
-  "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
+  "base": "4664fe14e9a24ee89db29e46f96acc59eb06728e",
   "created_at": "2026-04-04T07:01:41Z",
-  "head": "8b6dac47840e105761cf08220cad8e1250fee657",
+  "head": "9ff44bcc4849c6e4d3d5100370b05e00540fe8da",
   "login": "runbing",
   "number": 3798,
   "ref": "main",
   "revs": [
    {
-    "adate": "2026-04-06T15:52:10+08:00",
+    "adate": "2026-04-09T12:24:42-07:00",
     "author": "Runbing",
-    "date": "2026-04-06T15:52:10+08:00",
-    "hash": "8b6dac47840e105761cf08220cad8e1250fee657",
-    "parents": "de8d8601061b846cbc218255d1f6de6f53e3183b 242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
-    "subject": "Merge branch 'tc39:main' into main"
-   },
-   {
-    "adate": "2026-04-04T14:58:36+08:00",
-    "author": "Runbing",
-    "date": "2026-04-04T14:58:36+08:00",
-    "hash": "de8d8601061b846cbc218255d1f6de6f53e3183b",
-    "parents": "5f52dd7dc8d0e04c364e294a560558a4dc56aa44",
-    "subject": "Added a missing period."
+    "date": "2026-04-09T12:24:42-07:00",
+    "hash": "9ff44bcc4849c6e4d3d5100370b05e00540fe8da",
+    "parents": "4664fe14e9a24ee89db29e46f96acc59eb06728e",
+    "subject": "Editorial: Added a missing period (#3798)"
    }
   ],
   "title": "Editorial: Add missing period in WordCharacters description",
-  "updated_at": "2026-04-06T07:52:11Z"
- },
- {
-  "base": "3211ef115a5f8b1d308421184bc13a292e6d6a4b",
-  "created_at": "2026-04-03T18:23:17Z",
-  "head": "4664fe14e9a24ee89db29e46f96acc59eb06728e",
-  "login": "tc39",
-  "number": 3793,
-  "ref": "2026-intro-summary",
-  "revs": [
-   {
-    "adate": "2026-04-09T11:53:07-07:00",
-    "author": "Michael Ficarra",
-    "date": "2026-04-09T11:53:07-07:00",
-    "hash": "4664fe14e9a24ee89db29e46f96acc59eb06728e",
-    "parents": "3211ef115a5f8b1d308421184bc13a292e6d6a4b",
-    "subject": "Editorial: add the intro summary for ES2026 (#3793)"
-   }
-  ],
-  "title": "Editorial: add the intro summary for ES2026",
-  "updated_at": "2026-04-09T18:53:35Z"
+  "updated_at": "2026-04-09T19:26:22Z"
  },
  {
   "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
@@ -1090,26 +1066,6 @@
   ],
   "title": "Editorial: rename single-letter and initial-capital aliases",
   "updated_at": "2026-04-07T16:28:10Z"
- },
- {
-  "base": "d093df5794717c9c60663e4ca4763178ae4508d0",
-  "created_at": "2026-04-01T00:02:09Z",
-  "head": "d6e1b40f242f4bbd262bbe3089f69fd845f1686f",
-  "login": "tc39",
-  "number": 3788,
-  "ref": "\ud83d\udc40",
-  "revs": [
-   {
-    "adate": "2026-03-31T19:01:19-05:00",
-    "author": "ctcpip",
-    "date": "2026-03-31T19:01:19-05:00",
-    "hash": "d6e1b40f242f4bbd262bbe3089f69fd845f1686f",
-    "parents": "d093df5794717c9c60663e4ca4763178ae4508d0",
-    "subject": "\u2728 once more with whimsy"
-   }
-  ],
-  "title": "\u2728 once more with whimsy",
-  "updated_at": "2026-04-01T00:06:20Z"
  },
  {
   "base": "880398845fd935bddad6a494ceeeb6c94397cc36",
