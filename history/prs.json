@@ -1216,42 +1216,6 @@
   "updated_at": "2026-03-27T12:01:48Z"
  },
  {
-  "base": "e7fd87b78fa677383c60ad73dc8fb0ca938e0c92",
-  "created_at": "2026-03-24T17:23:55Z",
-  "head": "289fea73b7d5f894e77cb7ed67bf1e302dcdb855",
-  "login": "guybedford",
-  "number": 3775,
-  "ref": "namespace-binding",
-  "revs": [
-   {
-    "adate": "2026-03-24T14:12:28-07:00",
-    "author": "Guy Bedford",
-    "date": "2026-03-24T14:12:28-07:00",
-    "hash": "289fea73b7d5f894e77cb7ed67bf1e302dcdb855",
-    "parents": "4c2bd2cadff999d4ff19f4f04014c5c5f15e99fa",
-    "subject": "fixup"
-   },
-   {
-    "adate": "2026-03-24T13:42:21-07:00",
-    "author": "Guy Bedford",
-    "date": "2026-03-24T13:42:21-07:00",
-    "hash": "4c2bd2cadff999d4ff19f4f04014c5c5f15e99fa",
-    "parents": "e2e1876de8f3789ee9e27be24c0aef1b363f3287",
-    "subject": "fix indentation"
-   },
-   {
-    "adate": "2026-03-24T10:15:49-07:00",
-    "author": "Guy Bedford",
-    "date": "2026-03-24T10:25:36-07:00",
-    "hash": "e2e1876de8f3789ee9e27be24c0aef1b363f3287",
-    "parents": "e7fd87b78fa677383c60ad73dc8fb0ca938e0c92",
-    "subject": "align on ~namespace~ for ImportEntry, ExportEntry and ResolvedBinding"
-   }
-  ],
-  "title": "align on ~namespace~ for ImportEntry, ExportEntry and ResolvedBinding",
-  "updated_at": "2026-03-24T21:12:36Z"
- },
- {
   "base": "4895a117eb54edd829f2010092bae8f41c2b174a",
   "created_at": "2026-03-18T21:14:06Z",
   "head": "9531e4a19a94a43bbe7bee1ce99f561072f7b428",
@@ -4770,26 +4734,6 @@
   ],
   "title": "Editorial: Minimize use of the term \"callable\"",
   "updated_at": "2026-04-04T02:32:38Z"
- },
- {
-  "base": "6ccb804013f9378c4caa441d9238061f46bd52bd",
-  "created_at": "2022-09-03T00:44:57Z",
-  "head": "d282acd57ba915b8314e8ab16b87cdcdf4af7789",
-  "login": "jmdyck",
-  "number": 2886,
-  "ref": "module_context",
-  "revs": [
-   {
-    "adate": "2025-04-02T13:11:54-04:00",
-    "author": "Michael Dyck",
-    "date": "2025-04-07T14:00:24-04:00",
-    "hash": "d282acd57ba915b8314e8ab16b87cdcdf4af7789",
-    "parents": "6ccb804013f9378c4caa441d9238061f46bd52bd",
-    "subject": "Editorial: Use the execution context created by InitializeEnvironment"
-   }
-  ],
-  "title": "Editorial: Use the execution context created by InitializeEnvironment",
-  "updated_at": "2025-04-07T18:56:12Z"
  },
  {
   "base": "dceb9e45fa04ff37a213095e97a28da81bf213ec",
