@@ -612,88 +612,24 @@
   "updated_at": "2026-04-06T07:52:11Z"
  },
  {
-  "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
+  "base": "3211ef115a5f8b1d308421184bc13a292e6d6a4b",
   "created_at": "2026-04-03T18:23:17Z",
-  "head": "db12532fb33a84ee015668423f91ce1921edba5f",
+  "head": "4664fe14e9a24ee89db29e46f96acc59eb06728e",
   "login": "tc39",
   "number": 3793,
   "ref": "2026-intro-summary",
   "revs": [
    {
-    "adate": "2026-04-09T09:08:46-06:00",
+    "adate": "2026-04-09T11:53:07-07:00",
     "author": "Michael Ficarra",
-    "date": "2026-04-09T09:08:46-06:00",
-    "hash": "db12532fb33a84ee015668423f91ce1921edba5f",
-    "parents": "90d970026f70938c385505a8228a0cf28a70f941",
-    "subject": "formatting"
-   },
-   {
-    "adate": "2026-04-03T12:20:07-06:00",
-    "author": "Michael Ficarra",
-    "date": "2026-04-03T12:20:07-06:00",
-    "hash": "90d970026f70938c385505a8228a0cf28a70f941",
-    "parents": "71bf855859687428afbd159d2339e64606e59fd1",
-    "subject": "Editorial: add the intro summary for ES2026"
+    "date": "2026-04-09T11:53:07-07:00",
+    "hash": "4664fe14e9a24ee89db29e46f96acc59eb06728e",
+    "parents": "3211ef115a5f8b1d308421184bc13a292e6d6a4b",
+    "subject": "Editorial: add the intro summary for ES2026 (#3793)"
    }
   ],
   "title": "Editorial: add the intro summary for ES2026",
-  "updated_at": "2026-04-09T15:09:58Z"
- },
- {
-  "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
-  "created_at": "2026-04-03T01:56:55Z",
-  "head": "6c19f309cffe0984dda51e2ec39d52309b36100a",
-  "login": "gibson042",
-  "number": 3792,
-  "ref": "2026-04-fixed-size-integer-conversion",
-  "revs": [
-   {
-    "adate": "2026-04-09T11:42:36-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-04-09T11:42:36-04:00",
-    "hash": "6c19f309cffe0984dda51e2ec39d52309b36100a",
-    "parents": "38ee1f4ccbbcba6b321c8335e815c6f1fcc245fb",
-    "subject": "fixup! Editorial: Reword notes describing invariants of fixed-size-integer conversion operations"
-   },
-   {
-    "adate": "2026-04-02T21:44:18-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-04-02T21:46:21-04:00",
-    "hash": "38ee1f4ccbbcba6b321c8335e815c6f1fcc245fb",
-    "parents": "1dd8c8ac8fece6a9ffa2744ef95628954295010f",
-    "subject": "Editorial: Leverage ToIntegerOrInfinity in fixed-size-integer conversion algorithms"
-   },
-   {
-    "adate": "2026-04-02T21:44:18-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-04-02T21:44:18-04:00",
-    "hash": "1dd8c8ac8fece6a9ffa2744ef95628954295010f",
-    "parents": "71bf855859687428afbd159d2339e64606e59fd1",
-    "subject": "Editorial: Reword notes describing invariants of fixed-size-integer conversion operations"
-   }
-  ],
-  "title": "Editorial: Refactor fixed-size-integer conversion",
-  "updated_at": "2026-04-09T15:43:19Z"
- },
- {
-  "base": "d093df5794717c9c60663e4ca4763178ae4508d0",
-  "created_at": "2026-04-01T15:14:20Z",
-  "head": "befa264be97f866827260b3ce2f4f8fe091a2c85",
-  "login": "bakkot",
-  "number": 3790,
-  "ref": "bump-emu",
-  "revs": [
-   {
-    "adate": "2026-04-01T08:13:46-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2026-04-01T08:13:46-07:00",
-    "hash": "befa264be97f866827260b3ce2f4f8fe091a2c85",
-    "parents": "d093df5794717c9c60663e4ca4763178ae4508d0",
-    "subject": "Meta: bump ecmarkup to 24.1.0"
-   }
-  ],
-  "title": "Meta: bump ecmarkup to 24.1.0",
-  "updated_at": "2026-04-01T15:41:48Z"
+  "updated_at": "2026-04-09T18:53:35Z"
  },
  {
   "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
