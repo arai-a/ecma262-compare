@@ -1,6 +1,34 @@
 [
  {
   "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
+  "created_at": "2026-04-09T15:13:57Z",
+  "head": "d41e140ee6f6d256aa2d2aa7f2ce3c7838c48ab8",
+  "login": "gibson042",
+  "number": 3827,
+  "ref": "2026-04-editor-gibson",
+  "revs": [
+   {
+    "adate": "2026-04-03T14:37:01-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-04-09T11:12:35-04:00",
+    "hash": "d41e140ee6f6d256aa2d2aa7f2ce3c7838c48ab8",
+    "parents": "c20fc8d52a12adfb478afa0560179cc058259fb6",
+    "subject": "Editorial: Add Richard Gibson to the editors list"
+   },
+   {
+    "adate": "2026-04-07T17:02:12+01:00",
+    "author": "Linus Groh",
+    "date": "2026-04-07T17:02:12+01:00",
+    "hash": "c20fc8d52a12adfb478afa0560179cc058259fb6",
+    "parents": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
+    "subject": "Editorial: Add Linus to the editors list"
+   }
+  ],
+  "title": "Editorial: Add Richard Gibson to the editors list",
+  "updated_at": "2026-04-09T15:18:40Z"
+ },
+ {
+  "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
   "created_at": "2026-04-09T01:39:24Z",
   "head": "d8ba584bd04bc0d88ff167ca6fe7fc529ee9f1b7",
   "login": "tc39",
@@ -584,13 +612,21 @@
   "updated_at": "2026-04-06T07:52:11Z"
  },
  {
-  "base": "71bf855859687428afbd159d2339e64606e59fd1",
+  "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
   "created_at": "2026-04-03T18:23:17Z",
-  "head": "90d970026f70938c385505a8228a0cf28a70f941",
+  "head": "db12532fb33a84ee015668423f91ce1921edba5f",
   "login": "tc39",
   "number": 3793,
   "ref": "2026-intro-summary",
   "revs": [
+   {
+    "adate": "2026-04-09T09:08:46-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-09T09:08:46-06:00",
+    "hash": "db12532fb33a84ee015668423f91ce1921edba5f",
+    "parents": "90d970026f70938c385505a8228a0cf28a70f941",
+    "subject": "formatting"
+   },
    {
     "adate": "2026-04-03T12:20:07-06:00",
     "author": "Michael Ficarra",
@@ -601,16 +637,24 @@
    }
   ],
   "title": "Editorial: add the intro summary for ES2026",
-  "updated_at": "2026-04-03T18:27:45Z"
+  "updated_at": "2026-04-09T15:09:58Z"
  },
  {
-  "base": "71bf855859687428afbd159d2339e64606e59fd1",
+  "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
   "created_at": "2026-04-03T01:56:55Z",
-  "head": "38ee1f4ccbbcba6b321c8335e815c6f1fcc245fb",
+  "head": "6c19f309cffe0984dda51e2ec39d52309b36100a",
   "login": "gibson042",
   "number": 3792,
   "ref": "2026-04-fixed-size-integer-conversion",
   "revs": [
+   {
+    "adate": "2026-04-09T11:42:36-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-04-09T11:42:36-04:00",
+    "hash": "6c19f309cffe0984dda51e2ec39d52309b36100a",
+    "parents": "38ee1f4ccbbcba6b321c8335e815c6f1fcc245fb",
+    "subject": "fixup! Editorial: Reword notes describing invariants of fixed-size-integer conversion operations"
+   },
    {
     "adate": "2026-04-02T21:44:18-04:00",
     "author": "Richard Gibson",
@@ -629,7 +673,7 @@
    }
   ],
   "title": "Editorial: Refactor fixed-size-integer conversion",
-  "updated_at": "2026-04-03T02:01:07Z"
+  "updated_at": "2026-04-09T15:43:19Z"
  },
  {
   "base": "d093df5794717c9c60663e4ca4763178ae4508d0",
@@ -2100,9 +2144,9 @@
   "updated_at": "2025-05-15T02:51:02Z"
  },
  {
-  "base": "affcec07523a45d40fb668689c07657412e772ac",
+  "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
   "created_at": "2025-05-15T00:25:28Z",
-  "head": "09fc3aef0224d87b10075035bc7309195bd28f3d",
+  "head": "9bcf198b08fffd4696ca088e02333a1b19ee0d70",
   "login": "tc39",
   "number": 3602,
   "ref": "CreateIteratorFromClosure-normal-completions",
@@ -2110,14 +2154,14 @@
    {
     "adate": "2025-05-14T18:11:25-06:00",
     "author": "Michael Ficarra",
-    "date": "2025-05-14T18:11:25-06:00",
-    "hash": "09fc3aef0224d87b10075035bc7309195bd28f3d",
-    "parents": "affcec07523a45d40fb668689c07657412e772ac",
+    "date": "2026-04-09T09:58:28-06:00",
+    "hash": "9bcf198b08fffd4696ca088e02333a1b19ee0d70",
+    "parents": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
     "subject": "use normal completions in ACs passed to CreateIteratorFromClosure"
    }
   ],
   "title": "use normal completions in ACs passed to CreateIteratorFromClosure when possible",
-  "updated_at": "2025-05-15T00:25:28Z"
+  "updated_at": "2026-04-09T16:04:13Z"
  },
  {
   "base": "a562082b031d89d00ee667181ce8a6158656bd4b",
