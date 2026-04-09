@@ -1,5 +1,25 @@
 [
  {
+  "base": "c70eacfc95683d8db662466966f2fa2aca2d836d",
+  "created_at": "2026-04-09T22:30:22Z",
+  "head": "db175d617526402f538abe68eeed62939c61621a",
+  "login": "tc39",
+  "number": 3831,
+  "ref": "startsWith-endsWith-notes",
+  "revs": [
+   {
+    "adate": "2026-04-09T16:29:19-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-09T16:29:19-06:00",
+    "hash": "db175d617526402f538abe68eeed62939c61621a",
+    "parents": "c70eacfc95683d8db662466966f2fa2aca2d836d",
+    "subject": "Editorial: remove unhelpful notes in String startsWith/endsWith"
+   }
+  ],
+  "title": "Editorial: remove unhelpful notes in String startsWith/endsWith",
+  "updated_at": "2026-04-09T22:35:11Z"
+ },
+ {
   "base": "c3ceeae40955bdd48e38425d8f85b3a6ad77bd0e",
   "created_at": "2026-04-09T20:52:20Z",
   "head": "3fe2223e871881260feb07be9ffb25059ba0f553",
@@ -188,24 +208,24 @@
   "updated_at": "2026-04-08T23:55:04Z"
  },
  {
-  "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
+  "base": "446d5486f269266661577e744b00654a4d3ef64d",
   "created_at": "2026-04-08T23:40:45Z",
-  "head": "8ebda3a2986be9c868248a0f27e5429bdf77e126",
+  "head": "4ea01590bcd898954c02801ea69002c928d6aaf5",
   "login": "tc39",
   "number": 3822,
   "ref": "for-each-repeat",
   "revs": [
    {
-    "adate": "2026-04-08T17:38:27-06:00",
+    "adate": "2026-04-09T15:38:40-07:00",
     "author": "Michael Ficarra",
-    "date": "2026-04-08T17:40:00-06:00",
-    "hash": "8ebda3a2986be9c868248a0f27e5429bdf77e126",
-    "parents": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
-    "subject": "Editorial: clarify that \"For each\" and \"Repeat\" steps specify iteration"
+    "date": "2026-04-09T15:38:40-07:00",
+    "hash": "4ea01590bcd898954c02801ea69002c928d6aaf5",
+    "parents": "446d5486f269266661577e744b00654a4d3ef64d",
+    "subject": "Editorial: clarify that \"For each\" and \"Repeat\" steps specify iteration (#3822)"
    }
   ],
   "title": "Editorial: clarify that \"For each\" and \"Repeat\" steps specify iteration",
-  "updated_at": "2026-04-08T23:45:17Z"
+  "updated_at": "2026-04-09T22:39:07Z"
  },
  {
   "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
@@ -226,42 +246,6 @@
   ],
   "title": "Meta: use gh-action-mutex in the pr-preview action",
   "updated_at": "2026-04-08T23:14:26Z"
- },
- {
-  "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
-  "created_at": "2026-04-08T21:32:13Z",
-  "head": "9d7a497c476e00421e4d04ca23ca883251669d57",
-  "login": "tc39",
-  "number": 3820,
-  "ref": "homeobject-is-undefined",
-  "revs": [
-   {
-    "adate": "2026-04-08T15:30:35-06:00",
-    "author": "Michael Ficarra",
-    "date": "2026-04-08T15:32:18-06:00",
-    "hash": "9d7a497c476e00421e4d04ca23ca883251669d57",
-    "parents": "b6f77759f82c0dca6ea3f7d9439c456a1075bd43",
-    "subject": "Editorial: [[HomeObject]] can be undefined"
-   },
-   {
-    "adate": "2026-04-08T15:29:12-06:00",
-    "author": "Michael Ficarra",
-    "date": "2026-04-08T15:29:12-06:00",
-    "hash": "b6f77759f82c0dca6ea3f7d9439c456a1075bd43",
-    "parents": "5057941bd38c8d33cb7842ccd449a414a3f8e73b",
-    "subject": "Revert \"Normative: [[HomeObject]] can be undefined\""
-   },
-   {
-    "adate": "2026-04-08T15:27:53-06:00",
-    "author": "Michael Ficarra",
-    "date": "2026-04-08T15:27:53-06:00",
-    "hash": "5057941bd38c8d33cb7842ccd449a414a3f8e73b",
-    "parents": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
-    "subject": "Normative: [[HomeObject]] can be undefined"
-   }
-  ],
-  "title": "Editorial: [[HomeObject]] can be undefined",
-  "updated_at": "2026-04-08T22:11:59Z"
  },
  {
   "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
@@ -325,26 +309,6 @@
  },
  {
   "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
-  "created_at": "2026-04-08T20:39:57Z",
-  "head": "af496cc54dc4e7bca5c0a6743d6bf5bb935f594a",
-  "login": "tc39",
-  "number": 3816,
-  "ref": "no-more-VarNames",
-  "revs": [
-   {
-    "adate": "2026-04-08T14:38:18-06:00",
-    "author": "Michael Ficarra",
-    "date": "2026-04-08T14:38:18-06:00",
-    "hash": "af496cc54dc4e7bca5c0a6743d6bf5bb935f594a",
-    "parents": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
-    "subject": "Editorial: remove indirect reference to [[VarNames]] which was removed"
-   }
-  ],
-  "title": "Editorial: remove indirect reference to [[VarNames]] which was removed",
-  "updated_at": "2026-04-08T20:52:50Z"
- },
- {
-  "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
   "created_at": "2026-04-08T20:31:53Z",
   "head": "1bf2198898a221033e676772b84e2ab98b83edae",
   "login": "tc39",
@@ -398,26 +362,6 @@
   ],
   "title": "Editorial: fix description of Environment Record GetBindingValue",
   "updated_at": "2026-04-09T20:17:44Z"
- },
- {
-  "base": "477ed18c1c6f31d6d2278b7d00cfb3c06b39ed44",
-  "created_at": "2026-04-08T20:14:38Z",
-  "head": "529a2b686e072fc7d16c73ac74ff6a6209846e46",
-  "login": "tc39",
-  "number": 3813,
-  "ref": "math-min-note",
-  "revs": [
-   {
-    "adate": "2026-04-09T14:19:54-07:00",
-    "author": "Michael Ficarra",
-    "date": "2026-04-09T14:19:54-07:00",
-    "hash": "529a2b686e072fc7d16c73ac74ff6a6209846e46",
-    "parents": "477ed18c1c6f31d6d2278b7d00cfb3c06b39ed44",
-    "subject": "Editorial: fix copy/paste error in Math.min note (#3813)"
-   }
-  ],
-  "title": "Editorial: fix copy/paste error in Math.min note",
-  "updated_at": "2026-04-09T21:20:01Z"
  },
  {
   "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
