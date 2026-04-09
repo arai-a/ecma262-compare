@@ -400,44 +400,24 @@
   "updated_at": "2026-04-09T20:17:44Z"
  },
  {
-  "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
+  "base": "477ed18c1c6f31d6d2278b7d00cfb3c06b39ed44",
   "created_at": "2026-04-08T20:14:38Z",
-  "head": "1e5bcf15a945f0d2b698f023579a1e8a26afab52",
+  "head": "529a2b686e072fc7d16c73ac74ff6a6209846e46",
   "login": "tc39",
   "number": 3813,
   "ref": "math-min-note",
   "revs": [
    {
-    "adate": "2026-04-08T12:26:50-06:00",
+    "adate": "2026-04-09T14:19:54-07:00",
     "author": "Michael Ficarra",
-    "date": "2026-04-08T12:26:50-06:00",
-    "hash": "1e5bcf15a945f0d2b698f023579a1e8a26afab52",
-    "parents": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
-    "subject": "Editorial: fix copy/paste error in Math.min note"
+    "date": "2026-04-09T14:19:54-07:00",
+    "hash": "529a2b686e072fc7d16c73ac74ff6a6209846e46",
+    "parents": "477ed18c1c6f31d6d2278b7d00cfb3c06b39ed44",
+    "subject": "Editorial: fix copy/paste error in Math.min note (#3813)"
    }
   ],
   "title": "Editorial: fix copy/paste error in Math.min note",
-  "updated_at": "2026-04-08T20:47:31Z"
- },
- {
-  "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
-  "created_at": "2026-04-08T20:14:24Z",
-  "head": "66862b5342ef00e3f297d958c457c00961df7803",
-  "login": "tc39",
-  "number": 3812,
-  "ref": "string-endsWith-note",
-  "revs": [
-   {
-    "adate": "2026-04-08T12:29:27-06:00",
-    "author": "Michael Ficarra",
-    "date": "2026-04-08T12:29:27-06:00",
-    "hash": "66862b5342ef00e3f297d958c457c00961df7803",
-    "parents": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
-    "subject": "Editorial: fix error in String.prototype.endsWith note"
-   }
-  ],
-  "title": "Editorial: fix error in String.prototype.endsWith note",
-  "updated_at": "2026-04-08T20:18:47Z"
+  "updated_at": "2026-04-09T21:20:01Z"
  },
  {
   "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
