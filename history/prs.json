@@ -1,6 +1,86 @@
 [
  {
   "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
+  "created_at": "2026-04-09T01:13:18Z",
+  "head": "067cb5b8ba684ac36653677e14ea6dcae7705102",
+  "login": "tc39",
+  "number": 3825,
+  "ref": "MakeFullYear",
+  "revs": [
+   {
+    "adate": "2026-04-08T19:12:22-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-08T19:12:22-06:00",
+    "hash": "067cb5b8ba684ac36653677e14ea6dcae7705102",
+    "parents": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
+    "subject": "Editorial: fix return type of MakeFullYear"
+   }
+  ],
+  "title": "Editorial: fix return type of MakeFullYear",
+  "updated_at": "2026-04-09T01:17:55Z"
+ },
+ {
+  "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
+  "created_at": "2026-04-09T00:20:20Z",
+  "head": "09ad76492a736f16c2e0c4641d367b5523fb5761",
+  "login": "bakkot",
+  "number": 3824,
+  "ref": "rm-old-previews",
+  "revs": [
+   {
+    "adate": "2026-04-08T17:19:02-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2026-04-08T17:19:02-07:00",
+    "hash": "09ad76492a736f16c2e0c4641d367b5523fb5761",
+    "parents": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
+    "subject": "Meta: remove PR preview when PR is closed"
+   }
+  ],
+  "title": "Meta: remove PR preview when PR is closed",
+  "updated_at": "2026-04-09T01:01:15Z"
+ },
+ {
+  "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
+  "created_at": "2026-04-08T23:50:36Z",
+  "head": "f1859d03e68181935908c5814b57161d1d2c12a6",
+  "login": "tc39",
+  "number": 3823,
+  "ref": "note-steps",
+  "revs": [
+   {
+    "adate": "2026-04-08T17:44:40-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-08T17:49:57-06:00",
+    "hash": "f1859d03e68181935908c5814b57161d1d2c12a6",
+    "parents": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
+    "subject": "Editorial: mention that NOTE steps are just informative"
+   }
+  ],
+  "title": "Editorial: mention that NOTE steps are just informative",
+  "updated_at": "2026-04-08T23:55:04Z"
+ },
+ {
+  "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
+  "created_at": "2026-04-08T23:40:45Z",
+  "head": "8ebda3a2986be9c868248a0f27e5429bdf77e126",
+  "login": "tc39",
+  "number": 3822,
+  "ref": "for-each-repeat",
+  "revs": [
+   {
+    "adate": "2026-04-08T17:38:27-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-08T17:40:00-06:00",
+    "hash": "8ebda3a2986be9c868248a0f27e5429bdf77e126",
+    "parents": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
+    "subject": "Editorial: clarify that \"For each\" and \"Repeat\" steps specify iteration"
+   }
+  ],
+  "title": "Editorial: clarify that \"For each\" and \"Repeat\" steps specify iteration",
+  "updated_at": "2026-04-08T23:45:17Z"
+ },
+ {
+  "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
   "created_at": "2026-04-08T23:01:38Z",
   "head": "10f526b732d652784e5d93996ed34e4969f53314",
   "login": "tc39",
