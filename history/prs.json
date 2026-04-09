@@ -1,6 +1,26 @@
 [
  {
   "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
+  "created_at": "2026-04-09T01:39:24Z",
+  "head": "d8ba584bd04bc0d88ff167ca6fe7fc529ee9f1b7",
+  "login": "tc39",
+  "number": 3826,
+  "ref": "narrowings",
+  "revs": [
+   {
+    "adate": "2026-04-08T19:38:13-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-08T19:38:13-06:00",
+    "hash": "d8ba584bd04bc0d88ff167ca6fe7fc529ee9f1b7",
+    "parents": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
+    "subject": "Editorial: narrow some AO return types and parameter types"
+   }
+  ],
+  "title": "Editorial: narrow some AO return types and parameter types",
+  "updated_at": "2026-04-09T01:43:48Z"
+ },
+ {
+  "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
   "created_at": "2026-04-09T01:13:18Z",
   "head": "067cb5b8ba684ac36653677e14ea6dcae7705102",
   "login": "tc39",
