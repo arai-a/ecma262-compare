@@ -452,13 +452,21 @@
   "updated_at": "2026-04-07T16:23:26Z"
  },
  {
-  "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
+  "base": "c73a1ef89f63dfa7ef4c627b01799dab6f4c95d9",
   "created_at": "2026-04-01T14:47:42Z",
-  "head": "80f7300bcc27ab60f2bcf904f226f64b609038df",
+  "head": "e20f22d2610c6f6d5ba735b4f1187f0a3f8217a9",
   "login": "tc39",
   "number": 3789,
   "ref": "alias-renaming",
   "revs": [
+   {
+    "adate": "2026-04-10T10:35:45-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-10T10:35:45-06:00",
+    "hash": "e20f22d2610c6f6d5ba735b4f1187f0a3f8217a9",
+    "parents": "80f7300bcc27ab60f2bcf904f226f64b609038df c73a1ef89f63dfa7ef4c627b01799dab6f4c95d9",
+    "subject": "Merge branch 'main' into alias-renaming"
+   },
    {
     "adate": "2026-04-07T10:27:32-06:00",
     "author": "Michael Ficarra",
@@ -909,7 +917,7 @@
    }
   ],
   "title": "Editorial: rename single-letter and initial-capital aliases",
-  "updated_at": "2026-04-07T16:28:10Z"
+  "updated_at": "2026-04-10T16:35:47Z"
  },
  {
   "base": "880398845fd935bddad6a494ceeeb6c94397cc36",
