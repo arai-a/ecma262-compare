@@ -77,34 +77,6 @@
  },
  {
   "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
-  "created_at": "2026-04-09T15:13:57Z",
-  "head": "d41e140ee6f6d256aa2d2aa7f2ce3c7838c48ab8",
-  "login": "gibson042",
-  "number": 3827,
-  "ref": "2026-04-editor-gibson",
-  "revs": [
-   {
-    "adate": "2026-04-03T14:37:01-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-04-09T11:12:35-04:00",
-    "hash": "d41e140ee6f6d256aa2d2aa7f2ce3c7838c48ab8",
-    "parents": "c20fc8d52a12adfb478afa0560179cc058259fb6",
-    "subject": "Editorial: Add Richard Gibson to the editors list"
-   },
-   {
-    "adate": "2026-04-07T17:02:12+01:00",
-    "author": "Linus Groh",
-    "date": "2026-04-07T17:02:12+01:00",
-    "hash": "c20fc8d52a12adfb478afa0560179cc058259fb6",
-    "parents": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
-    "subject": "Editorial: Add Linus to the editors list"
-   }
-  ],
-  "title": "Editorial: Add Richard Gibson to the editors list",
-  "updated_at": "2026-04-09T15:18:40Z"
- },
- {
-  "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
   "created_at": "2026-04-09T01:39:24Z",
   "head": "46ac2bda6b6b5182fbda7ac68d23330964139a74",
   "login": "tc39",
@@ -186,46 +158,6 @@
   ],
   "title": "Meta: remove PR preview when PR is closed",
   "updated_at": "2026-04-09T01:01:15Z"
- },
- {
-  "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
-  "created_at": "2026-04-08T23:50:36Z",
-  "head": "f1859d03e68181935908c5814b57161d1d2c12a6",
-  "login": "tc39",
-  "number": 3823,
-  "ref": "note-steps",
-  "revs": [
-   {
-    "adate": "2026-04-08T17:44:40-06:00",
-    "author": "Michael Ficarra",
-    "date": "2026-04-08T17:49:57-06:00",
-    "hash": "f1859d03e68181935908c5814b57161d1d2c12a6",
-    "parents": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
-    "subject": "Editorial: mention that NOTE steps are just informative"
-   }
-  ],
-  "title": "Editorial: mention that NOTE steps are just informative",
-  "updated_at": "2026-04-08T23:55:04Z"
- },
- {
-  "base": "446d5486f269266661577e744b00654a4d3ef64d",
-  "created_at": "2026-04-08T23:40:45Z",
-  "head": "4ea01590bcd898954c02801ea69002c928d6aaf5",
-  "login": "tc39",
-  "number": 3822,
-  "ref": "for-each-repeat",
-  "revs": [
-   {
-    "adate": "2026-04-09T15:38:40-07:00",
-    "author": "Michael Ficarra",
-    "date": "2026-04-09T15:38:40-07:00",
-    "hash": "4ea01590bcd898954c02801ea69002c928d6aaf5",
-    "parents": "446d5486f269266661577e744b00654a4d3ef64d",
-    "subject": "Editorial: clarify that \"For each\" and \"Repeat\" steps specify iteration (#3822)"
-   }
-  ],
-  "title": "Editorial: clarify that \"For each\" and \"Repeat\" steps specify iteration",
-  "updated_at": "2026-04-09T22:39:07Z"
  },
  {
   "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
@@ -512,24 +444,24 @@
   "updated_at": "2026-04-07T16:23:26Z"
  },
  {
-  "base": "4664fe14e9a24ee89db29e46f96acc59eb06728e",
+  "base": "546e44acf4b76a960e22900ff8fc6d8220a4040f",
   "created_at": "2026-04-04T07:01:41Z",
-  "head": "9ff44bcc4849c6e4d3d5100370b05e00540fe8da",
+  "head": "c73a1ef89f63dfa7ef4c627b01799dab6f4c95d9",
   "login": "runbing",
   "number": 3798,
   "ref": "main",
   "revs": [
    {
-    "adate": "2026-04-09T12:24:42-07:00",
+    "adate": "2026-04-09T21:40:40-07:00",
     "author": "Runbing",
-    "date": "2026-04-09T12:24:42-07:00",
-    "hash": "9ff44bcc4849c6e4d3d5100370b05e00540fe8da",
-    "parents": "4664fe14e9a24ee89db29e46f96acc59eb06728e",
+    "date": "2026-04-09T21:40:40-07:00",
+    "hash": "c73a1ef89f63dfa7ef4c627b01799dab6f4c95d9",
+    "parents": "546e44acf4b76a960e22900ff8fc6d8220a4040f",
     "subject": "Editorial: Added a missing period (#3798)"
    }
   ],
   "title": "Editorial: Add missing period in WordCharacters description",
-  "updated_at": "2026-04-09T19:26:22Z"
+  "updated_at": "2026-04-10T04:50:06Z"
  },
  {
   "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
