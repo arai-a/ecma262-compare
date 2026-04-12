@@ -2,11 +2,19 @@
  {
   "base": "c73a1ef89f63dfa7ef4c627b01799dab6f4c95d9",
   "created_at": "2026-04-12T01:43:36Z",
-  "head": "bf286aab9b3ec471f8f3dcfbfac48c4182fcea1d",
+  "head": "0b5401f95f42ec645f0bebed37b4b54bbf0d4892",
   "login": "gibson042",
   "number": 3832,
   "ref": "2026-04-tofixedsizeinteger",
   "revs": [
+   {
+    "adate": "2026-04-11T21:38:56-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-04-12T11:03:36-04:00",
+    "hash": "0b5401f95f42ec645f0bebed37b4b54bbf0d4892",
+    "parents": "bf286aab9b3ec471f8f3dcfbfac48c4182fcea1d",
+    "subject": "Editorial: Refactor ToFixedSizeInteger to be infallible"
+   },
    {
     "adate": "2026-04-11T21:38:56-04:00",
     "author": "Richard Gibson",
@@ -17,7 +25,7 @@
    }
   ],
   "title": "Editorial: Introduce ToFixedSizeInteger for backing To{Int,Uint}{8,16,32} and To{BigInt,BigUint}64",
-  "updated_at": "2026-04-12T01:48:37Z"
+  "updated_at": "2026-04-12T15:05:01Z"
  },
  {
   "base": "c70eacfc95683d8db662466966f2fa2aca2d836d",
@@ -3468,13 +3476,21 @@
   "updated_at": "2023-05-25T23:43:21Z"
  },
  {
-  "base": "4895a117eb54edd829f2010092bae8f41c2b174a",
+  "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
   "created_at": "2023-01-23T22:42:45Z",
-  "head": "2701bff928b39d34c5f8718513ba71f988350385",
+  "head": "0b118554b90b7a9d1ca53c28c54b5a49ea64868b",
   "login": "rbuckton",
   "number": 3000,
   "ref": "explicit-resource-management",
   "revs": [
+   {
+    "adate": "2026-04-12T11:32:31-04:00",
+    "author": "Ron Buckton",
+    "date": "2026-04-12T11:32:31-04:00",
+    "hash": "0b118554b90b7a9d1ca53c28c54b5a49ea64868b",
+    "parents": "2701bff928b39d34c5f8718513ba71f988350385",
+    "subject": "Don't overwrite completion parameter in DisposeResources"
+   },
    {
     "adate": "2026-03-12T11:36:16-04:00",
     "author": "Ron Buckton",
@@ -4061,7 +4077,7 @@
    }
   ],
   "title": "Add `using` and `await using` Declarations, SuppressedError, DisposableStack, and AsyncDisposableStack",
-  "updated_at": "2026-03-12T15:43:36Z"
+  "updated_at": "2026-04-12T15:32:37Z"
  },
  {
   "base": "8aac12603c99f94d982317832b0e03c13684ce0a",
