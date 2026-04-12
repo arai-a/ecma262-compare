@@ -1,5 +1,25 @@
 [
  {
+  "base": "c73a1ef89f63dfa7ef4c627b01799dab6f4c95d9",
+  "created_at": "2026-04-12T01:43:36Z",
+  "head": "bf286aab9b3ec471f8f3dcfbfac48c4182fcea1d",
+  "login": "gibson042",
+  "number": 3832,
+  "ref": "2026-04-tofixedsizeinteger",
+  "revs": [
+   {
+    "adate": "2026-04-11T21:38:56-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-04-11T21:38:56-04:00",
+    "hash": "bf286aab9b3ec471f8f3dcfbfac48c4182fcea1d",
+    "parents": "c73a1ef89f63dfa7ef4c627b01799dab6f4c95d9",
+    "subject": "Editorial: Introduce ToFixedSizeInteger for backing To{Int,Uint}{8,16,32} and To{BigInt,BigUint}64"
+   }
+  ],
+  "title": "Editorial: Introduce ToFixedSizeInteger for backing To{Int,Uint}{8,16,32} and To{BigInt,BigUint}64",
+  "updated_at": "2026-04-12T01:48:37Z"
+ },
+ {
   "base": "c70eacfc95683d8db662466966f2fa2aca2d836d",
   "created_at": "2026-04-09T22:30:22Z",
   "head": "db175d617526402f538abe68eeed62939c61621a",
