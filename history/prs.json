@@ -2,11 +2,19 @@
  {
   "base": "c73a1ef89f63dfa7ef4c627b01799dab6f4c95d9",
   "created_at": "2026-04-12T01:43:36Z",
-  "head": "0b5401f95f42ec645f0bebed37b4b54bbf0d4892",
+  "head": "24b3ce141e5e88a2cdc4eff2a70be5a71d574274",
   "login": "gibson042",
   "number": 3832,
   "ref": "2026-04-tofixedsizeinteger",
   "revs": [
+   {
+    "adate": "2026-04-13T11:30:49-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-04-13T11:30:49-04:00",
+    "hash": "24b3ce141e5e88a2cdc4eff2a70be5a71d574274",
+    "parents": "0b5401f95f42ec645f0bebed37b4b54bbf0d4892",
+    "subject": "fixup! Editorial: Refactor ToFixedSizeInteger to be infallible"
+   },
    {
     "adate": "2026-04-11T21:38:56-04:00",
     "author": "Richard Gibson",
@@ -25,7 +33,7 @@
    }
   ],
   "title": "Editorial: Introduce ToFixedSizeInteger for backing To{Int,Uint}{8,16,32} and To{BigInt,BigUint}64",
-  "updated_at": "2026-04-12T15:05:01Z"
+  "updated_at": "2026-04-13T15:35:12Z"
  },
  {
   "base": "c70eacfc95683d8db662466966f2fa2aca2d836d",
