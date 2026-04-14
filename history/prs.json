@@ -3486,11 +3486,19 @@
  {
   "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
   "created_at": "2023-01-23T22:42:45Z",
-  "head": "0b118554b90b7a9d1ca53c28c54b5a49ea64868b",
+  "head": "8eb1ff803e26160069e0fae764ffcc34de1fedcc",
   "login": "rbuckton",
   "number": 3000,
   "ref": "explicit-resource-management",
   "revs": [
+   {
+    "adate": "2026-04-14T15:18:31-04:00",
+    "author": "Ron Buckton",
+    "date": "2026-04-14T15:18:31-04:00",
+    "hash": "8eb1ff803e26160069e0fae764ffcc34de1fedcc",
+    "parents": "0b118554b90b7a9d1ca53c28c54b5a49ea64868b b59523d470dbe58f7792c79d7911b9d667bdefc9",
+    "subject": "Merge pull request #16 from jmdyck/3000_ed"
+   },
    {
     "adate": "2026-04-12T11:32:31-04:00",
     "author": "Ron Buckton",
@@ -3498,6 +3506,86 @@
     "hash": "0b118554b90b7a9d1ca53c28c54b5a49ea64868b",
     "parents": "2701bff928b39d34c5f8718513ba71f988350385",
     "subject": "Don't overwrite completion parameter in DisposeResources"
+   },
+   {
+    "adate": "2026-03-19T23:30:36-04:00",
+    "author": "Michael Dyck",
+    "date": "2026-03-19T23:30:36-04:00",
+    "hash": "b59523d470dbe58f7792c79d7911b9d667bdefc9",
+    "parents": "6bd2d57858e7b924296cdde6a8907d4258c5b4dd",
+    "subject": "EvaluateClassStaticBlockBody: add an Assert"
+   },
+   {
+    "adate": "2026-03-19T23:30:05-04:00",
+    "author": "Michael Dyck",
+    "date": "2026-03-19T23:30:05-04:00",
+    "hash": "6bd2d57858e7b924296cdde6a8907d4258c5b4dd",
+    "parents": "7aaa79f6cd4adb282e2c30190af3f9ffa23d9be2",
+    "subject": "Add explicit return to algorithm"
+   },
+   {
+    "adate": "2026-03-19T23:03:18-04:00",
+    "author": "Michael Dyck",
+    "date": "2026-03-19T23:03:18-04:00",
+    "hash": "7aaa79f6cd4adb282e2c30190af3f9ffa23d9be2",
+    "parents": "42091742ae19e253a471b9fc8529b7c49976f3b1",
+    "subject": "Remove unnecessary steps in CreateDisposableResource"
+   },
+   {
+    "adate": "2026-03-19T22:41:01-04:00",
+    "author": "Michael Dyck",
+    "date": "2026-03-19T22:41:01-04:00",
+    "hash": "42091742ae19e253a471b9fc8529b7c49976f3b1",
+    "parents": "44c061c9cbe70d1db4a56c6cb5e23478674eee33",
+    "subject": "Remove more unreachable SDO rules"
+   },
+   {
+    "adate": "2026-03-19T22:27:23-04:00",
+    "author": "Michael Dyck",
+    "date": "2026-03-19T22:27:23-04:00",
+    "hash": "44c061c9cbe70d1db4a56c6cb5e23478674eee33",
+    "parents": "f0ad0b77fe1136725fc202ae67b85275e040e91e",
+    "subject": "Remove unreachable SDO rules"
+   },
+   {
+    "adate": "2026-03-19T22:23:31-04:00",
+    "author": "Michael Dyck",
+    "date": "2026-03-19T22:23:31-04:00",
+    "hash": "f0ad0b77fe1136725fc202ae67b85275e040e91e",
+    "parents": "9a2e0c78d400e5c67eceff863ea0ae11dffb9041",
+    "subject": "Need to define ForDeclarationBindingInitialization for ForDeclaration"
+   },
+   {
+    "adate": "2026-03-16T23:17:51-04:00",
+    "author": "Michael Dyck",
+    "date": "2026-03-16T23:17:51-04:00",
+    "hash": "9a2e0c78d400e5c67eceff863ea0ae11dffb9041",
+    "parents": "851d4c75cda8b12b03b6ffece558a005671117c4",
+    "subject": "Add subclauses to \"Constructor Properties of The Global Object\""
+   },
+   {
+    "adate": "2026-03-16T09:54:11-04:00",
+    "author": "Michael Dyck",
+    "date": "2026-03-16T09:54:11-04:00",
+    "hash": "851d4c75cda8b12b03b6ffece558a005671117c4",
+    "parents": "081c2d9c607c773d8902c1327a9e0a9c2712cfd1",
+    "subject": "Changes to Annex A to make it parallel to main-body grammar"
+   },
+   {
+    "adate": "2026-03-16T09:46:56-04:00",
+    "author": "Michael Dyck",
+    "date": "2026-03-16T09:52:00-04:00",
+    "hash": "081c2d9c607c773d8902c1327a9e0a9c2712cfd1",
+    "parents": "f591ff1603dce28d9840d3ab52b34ae421cab87a",
+    "subject": "Drop 'variants' attribute"
+   },
+   {
+    "adate": "2026-03-16T09:44:01-04:00",
+    "author": "Michael Dyck",
+    "date": "2026-03-16T09:44:01-04:00",
+    "hash": "f591ff1603dce28d9840d3ab52b34ae421cab87a",
+    "parents": "2701bff928b39d34c5f8718513ba71f988350385",
+    "subject": "The spec usually uses lower-case for ids."
    },
    {
     "adate": "2026-03-12T11:36:16-04:00",
@@ -4085,7 +4173,7 @@
    }
   ],
   "title": "Add `using` and `await using` Declarations, SuppressedError, DisposableStack, and AsyncDisposableStack",
-  "updated_at": "2026-04-12T15:32:37Z"
+  "updated_at": "2026-04-14T19:18:35Z"
  },
  {
   "base": "8aac12603c99f94d982317832b0e03c13684ce0a",
