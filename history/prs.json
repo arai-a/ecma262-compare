@@ -4264,9 +4264,9 @@
   "updated_at": "2023-02-13T16:58:31Z"
  },
  {
-  "base": "4895a117eb54edd829f2010092bae8f41c2b174a",
+  "base": "c73a1ef89f63dfa7ef4c627b01799dab6f4c95d9",
   "created_at": "2022-11-22T04:48:42Z",
-  "head": "9c94a34cdc7749854f14f44dff0407648e557f81",
+  "head": "ef311e482dbcac71d3d088adc5467b60c926f8c9",
   "login": "jmdyck",
   "number": 2962,
   "ref": "transfer",
@@ -4274,166 +4274,166 @@
    {
     "adate": "2024-12-11T14:54:28-05:00",
     "author": "Michael Dyck",
-    "date": "2026-03-11T10:56:35-04:00",
-    "hash": "9c94a34cdc7749854f14f44dff0407648e557f81",
-    "parents": "6424c7083130c254f23d8d0df02fae11ac40a921",
+    "date": "2026-04-15T22:33:05-04:00",
+    "hash": "ef311e482dbcac71d3d088adc5467b60c926f8c9",
+    "parents": "0a06394152ae52cd3f10d8a8dc60713a877d51a8",
     "subject": "fixup: Remove lines from esmeta-ignore.json"
    },
    {
     "adate": "2024-12-11T14:24:50-05:00",
     "author": "Michael Dyck",
-    "date": "2026-03-11T10:56:35-04:00",
-    "hash": "6424c7083130c254f23d8d0df02fae11ac40a921",
-    "parents": "4892bd99ffe861bc923a37a2c498ce7f78ba1a37",
+    "date": "2026-04-15T22:33:05-04:00",
+    "hash": "0a06394152ae52cd3f10d8a8dc60713a877d51a8",
+    "parents": "28b098c6e947d758cd63da218f8902bd53eb8ad1",
     "subject": "fixup: Drop \"currently\" from \"the currently running execution context\" (x7)"
    },
    {
     "adate": "2024-12-11T14:16:05-05:00",
     "author": "Michael Dyck",
-    "date": "2026-03-11T10:56:35-04:00",
-    "hash": "4892bd99ffe861bc923a37a2c498ce7f78ba1a37",
-    "parents": "bf273aec84487b22c07e154632427b0082480014",
+    "date": "2026-04-15T22:33:04-04:00",
+    "hash": "28b098c6e947d758cd63da218f8902bd53eb8ad1",
+    "parents": "afd1ed5b6ab3ba0ac30f740dbad2eebcbbdece79",
     "subject": "fixup: drop \"running execution contexts\" variant"
    },
    {
     "adate": "2024-12-11T13:54:28-05:00",
     "author": "Michael Dyck",
-    "date": "2026-03-11T10:56:34-04:00",
-    "hash": "bf273aec84487b22c07e154632427b0082480014",
-    "parents": "861599826a8b4d1ae8a0b13a20ccdbc048881d00",
+    "date": "2026-04-15T22:33:04-04:00",
+    "hash": "afd1ed5b6ab3ba0ac30f740dbad2eebcbbdece79",
+    "parents": "c3929021e602e4abacebf4cdc6db03be8bcb4045",
     "subject": "fixup: Reword \"if/when control is transferred back\""
    },
    {
     "adate": "2024-12-11T13:43:20-05:00",
     "author": "Michael Dyck",
-    "date": "2026-03-11T10:56:09-04:00",
-    "hash": "861599826a8b4d1ae8a0b13a20ccdbc048881d00",
-    "parents": "d2bf8b0152fc2003bfc4ca28339ab53c1dfcc2ad",
+    "date": "2026-04-15T22:33:04-04:00",
+    "hash": "c3929021e602e4abacebf4cdc6db03be8bcb4045",
+    "parents": "9d32150d2e08c36d095f3d878e198a67a6d7d797",
     "subject": "fixup: Capitalize \"transfer control\" in Note"
    },
    {
     "adate": "2024-01-09T14:25:19-05:00",
     "author": "Michael Dyck",
-    "date": "2026-03-11T10:56:08-04:00",
-    "hash": "d2bf8b0152fc2003bfc4ca28339ab53c1dfcc2ad",
-    "parents": "e0c26d81f0cd53c747e6aa739112c0863e453c35",
+    "date": "2026-04-15T22:33:04-04:00",
+    "hash": "9d32150d2e08c36d095f3d878e198a67a6d7d797",
+    "parents": "0a2ad2638401a9009b4aeceb733773cd6c3e3e6a",
     "subject": "fixup: \"The above step [never] completes\" -> \"This step is [never] reached\""
    },
    {
     "adate": "2023-02-15T20:08:53-05:00",
     "author": "Michael Dyck",
-    "date": "2026-03-11T10:55:42-04:00",
-    "hash": "e0c26d81f0cd53c747e6aa739112c0863e453c35",
-    "parents": "e2afe991541a3b162736f11e260cf9cc7ea292d2",
+    "date": "2026-04-15T22:33:04-04:00",
+    "hash": "0a2ad2638401a9009b4aeceb733773cd6c3e3e6a",
+    "parents": "357485737af8cbf3a3571a46da37c3629de4a3bd",
     "subject": "fixup: Insert \"and async functions\" into note re execution contexts"
    },
    {
     "adate": "2023-02-13T11:22:33-05:00",
     "author": "Michael Dyck",
-    "date": "2026-03-11T10:55:42-04:00",
-    "hash": "e2afe991541a3b162736f11e260cf9cc7ea292d2",
-    "parents": "dbd101dd1c0b5817020b22259e43bfbf74733aa9",
+    "date": "2026-04-15T22:33:04-04:00",
+    "hash": "357485737af8cbf3a3571a46da37c3629de4a3bd",
+    "parents": "807a25518bb28a657d62561650f683fefbabc942",
     "subject": "Eliminate certain wording around execution contexts"
    },
    {
     "adate": "2023-01-13T20:30:31-05:00",
     "author": "Michael Dyck",
-    "date": "2026-03-11T10:55:42-04:00",
-    "hash": "dbd101dd1c0b5817020b22259e43bfbf74733aa9",
-    "parents": "6b53473893a97df743ce94907cec5b96cc61bc53",
+    "date": "2026-04-15T22:33:04-04:00",
+    "hash": "807a25518bb28a657d62561650f683fefbabc942",
+    "parents": "cb4c3a9e76043d0cc632d5675973389d78ca9f29",
     "subject": "Transfer control fixup: Make 'code evaluation state' less vague"
    },
    {
     "adate": "2022-11-21T22:50:15-05:00",
     "author": "Michael Dyck",
-    "date": "2026-03-11T10:55:42-04:00",
-    "hash": "6b53473893a97df743ce94907cec5b96cc61bc53",
-    "parents": "65f639da9175b6ef6e3693085fc45fe6b96af3e9",
+    "date": "2026-04-15T22:33:04-04:00",
+    "hash": "cb4c3a9e76043d0cc632d5675973389d78ca9f29",
+    "parents": "722d020f0e0099e6ecb9eee88962d3eecf9c5258",
     "subject": "Execution Context section: Make the EC Stack subsection"
    },
    {
     "adate": "2022-11-21T22:21:11-05:00",
     "author": "Michael Dyck",
-    "date": "2026-03-11T10:55:42-04:00",
-    "hash": "65f639da9175b6ef6e3693085fc45fe6b96af3e9",
-    "parents": "1bdbd85492b96d8158b4cc74b07e43eb457799f8",
+    "date": "2026-04-15T22:33:04-04:00",
+    "hash": "722d020f0e0099e6ecb9eee88962d3eecf9c5258",
+    "parents": "d19be7e32d073d05c15af4886d42b68bc1a20363",
     "subject": "Execution Context section: Move a paragraph"
    },
    {
     "adate": "2022-11-21T22:10:01-05:00",
     "author": "Michael Dyck",
-    "date": "2026-03-11T10:55:42-04:00",
-    "hash": "1bdbd85492b96d8158b4cc74b07e43eb457799f8",
-    "parents": "53bd2e45466ee08c8603ba6608ff2aaaaacc2680",
+    "date": "2026-04-15T22:33:01-04:00",
+    "hash": "d19be7e32d073d05c15af4886d42b68bc1a20363",
+    "parents": "dad2bb842e50bd76a00551251d27e806478e79d6",
     "subject": "Resume+Suspend: Eliminate `Suspend` steps"
    },
    {
     "adate": "2022-11-21T22:04:15-05:00",
     "author": "Michael Dyck",
-    "date": "2026-03-11T10:55:42-04:00",
-    "hash": "53bd2e45466ee08c8603ba6608ff2aaaaacc2680",
-    "parents": "62074c254c1c79a50be6e494f0b51b35f812d0ad",
+    "date": "2026-04-15T22:31:45-04:00",
+    "hash": "dad2bb842e50bd76a00551251d27e806478e79d6",
+    "parents": "a37009908ce02b8117cdc973ab4af1a7a8035638",
     "subject": "Resume+Suspend: Eliminate `Resume` steps"
    },
    {
     "adate": "2022-11-21T21:39:36-05:00",
     "author": "Michael Dyck",
-    "date": "2026-03-11T10:55:42-04:00",
-    "hash": "62074c254c1c79a50be6e494f0b51b35f812d0ad",
-    "parents": "ebb708ae5fa5960ba6176a8da365c573508f7093",
+    "date": "2026-04-15T22:31:45-04:00",
+    "hash": "a37009908ce02b8117cdc973ab4af1a7a8035638",
+    "parents": "58a8da8588dc52dfed91803119045b80f17d529c",
     "subject": "Transfer control: Define \"transfer control\""
    },
    {
     "adate": "2022-11-21T20:17:05-05:00",
     "author": "Michael Dyck",
-    "date": "2026-03-11T10:55:42-04:00",
-    "hash": "ebb708ae5fa5960ba6176a8da365c573508f7093",
-    "parents": "222c64a636c1b5cea736cf5195961e51cbb32655",
+    "date": "2026-04-15T22:31:45-04:00",
+    "hash": "58a8da8588dc52dfed91803119045b80f17d529c",
+    "parents": "10612fa3d6b304b7d43f32c8eb87e63c70bed6dd",
     "subject": "Transfer control: Re-word some steps that talk about resuming execution contexts"
    },
    {
     "adate": "2022-11-21T17:28:17-05:00",
     "author": "Michael Dyck",
-    "date": "2026-03-11T10:55:41-04:00",
-    "hash": "222c64a636c1b5cea736cf5195961e51cbb32655",
-    "parents": "991e96e5141c9d8966d510567adc36758d69d127",
+    "date": "2026-04-15T22:31:45-04:00",
+    "hash": "10612fa3d6b304b7d43f32c8eb87e63c70bed6dd",
+    "parents": "993ebbeaa76eac0300c43218e369120dd9f9eaed",
     "subject": "Transfer control: Replace 3 \"Return\" steps"
    },
    {
     "adate": "2022-11-21T17:16:57-05:00",
     "author": "Michael Dyck",
-    "date": "2026-03-11T10:55:41-04:00",
-    "hash": "991e96e5141c9d8966d510567adc36758d69d127",
-    "parents": "85ce04ab1b2c52224e751863591f7965a49c247b",
+    "date": "2026-04-15T22:31:45-04:00",
+    "hash": "993ebbeaa76eac0300c43218e369120dd9f9eaed",
+    "parents": "69f2e1b264c09c6c6bb323839758a24c607a556f",
     "subject": "(Transfer control:) Refactor GeneratorStart's Abstract Closure so that it has only one Return step."
    },
    {
     "adate": "2022-11-21T16:32:17-05:00",
     "author": "Michael Dyck",
-    "date": "2026-03-11T10:55:40-04:00",
-    "hash": "85ce04ab1b2c52224e751863591f7965a49c247b",
-    "parents": "6eb6dc5bf5b8c7cd7f09a68ac72f7bc6d2d86a8a",
+    "date": "2026-04-15T22:31:45-04:00",
+    "hash": "69f2e1b264c09c6c6bb323839758a24c607a556f",
+    "parents": "f8d9322dab51cc7849d6a9d143f5c71c49497fcf",
     "subject": "Transfer control: Replace the 3 remaining blocking-Resume steps"
    },
    {
     "adate": "2022-11-21T16:23:54-05:00",
     "author": "Michael Dyck",
-    "date": "2026-03-11T10:52:22-04:00",
-    "hash": "6eb6dc5bf5b8c7cd7f09a68ac72f7bc6d2d86a8a",
-    "parents": "37779a968f90efce5834916145b31a38838a7dca",
+    "date": "2026-04-15T22:31:45-04:00",
+    "hash": "f8d9322dab51cc7849d6a9d143f5c71c49497fcf",
+    "parents": "6b44d0adae7709edf2617d81ef3b00a14f054393",
     "subject": "Transfer control: Replace the 6 \"Resume the suspended evaluation\" steps"
    },
    {
     "adate": "2023-09-02T20:51:16-04:00",
     "author": "Michael Dyck",
-    "date": "2026-03-11T10:52:19-04:00",
-    "hash": "37779a968f90efce5834916145b31a38838a7dca",
-    "parents": "4895a117eb54edd829f2010092bae8f41c2b174a",
+    "date": "2026-04-15T22:31:45-04:00",
+    "hash": "6b44d0adae7709edf2617d81ef3b00a14f054393",
+    "parents": "c73a1ef89f63dfa7ef4c627b01799dab6f4c95d9",
     "subject": "Editorial: Eliminate \"restore <context> as the running execution context\""
    }
   ],
   "title": "Editorial: Various changes around execution contexts",
-  "updated_at": "2026-03-11T18:36:03Z"
+  "updated_at": "2026-04-16T03:33:42Z"
  },
  {
   "base": "053d34c87b14d9234d6f7f45bd61074b72ca9d69",
@@ -4960,9 +4960,9 @@
   "updated_at": "2022-03-02T21:12:59Z"
  },
  {
-  "base": "3d77f663db17fc21f0b200091c344bfe323bc40b",
+  "base": "c73a1ef89f63dfa7ef4c627b01799dab6f4c95d9",
   "created_at": "2022-02-13T20:18:38Z",
-  "head": "98d3b24c393caed09531a588b7afad4c339b077b",
+  "head": "308349ddadd611d8dde21531f274413762aa98a0",
   "login": "jmdyck",
   "number": 2664,
   "ref": "RunSuspendedContext",
@@ -4970,54 +4970,54 @@
    {
     "adate": "2022-02-12T10:27:05-05:00",
     "author": "Michael Dyck",
-    "date": "2025-07-15T17:46:38-04:00",
-    "hash": "98d3b24c393caed09531a588b7afad4c339b077b",
-    "parents": "d4f1e4ae1d2b4e98caba8c975b0b456f0b21d78c",
+    "date": "2026-04-15T22:35:22-04:00",
+    "hash": "308349ddadd611d8dde21531f274413762aa98a0",
+    "parents": "67aff3dd3598826c145c83aea6b7ec8cda5b7afb",
     "subject": "Clean up after the previous refactoring"
    },
    {
     "adate": "2022-02-12T10:14:24-05:00",
     "author": "Michael Dyck",
-    "date": "2025-07-15T17:46:36-04:00",
-    "hash": "d4f1e4ae1d2b4e98caba8c975b0b456f0b21d78c",
-    "parents": "3119945f8a96290ec584fa16d29d11bf9c97bb65",
+    "date": "2026-04-15T22:35:22-04:00",
+    "hash": "67aff3dd3598826c145c83aea6b7ec8cda5b7afb",
+    "parents": "68347451561b8d001ba9c2ca4e98ecb1272fa5c6",
     "subject": "Factor out RunSuspendedContext abstract operation"
    },
    {
     "adate": "2022-02-12T10:08:51-05:00",
     "author": "Michael Dyck",
-    "date": "2025-07-15T17:43:23-04:00",
-    "hash": "3119945f8a96290ec584fa16d29d11bf9c97bb65",
-    "parents": "34b62745866155d964900c32e9db420036e35bff",
+    "date": "2026-04-15T22:35:22-04:00",
+    "hash": "68347451561b8d001ba9c2ca4e98ecb1272fa5c6",
+    "parents": "cd9e4db01cbe0c7754a8ef69a95c64c6830db669",
     "subject": "Preliminary tweaks before next commit"
    },
    {
     "adate": "2022-02-13T14:22:23-05:00",
     "author": "Michael Dyck",
-    "date": "2025-07-15T17:43:22-04:00",
-    "hash": "34b62745866155d964900c32e9db420036e35bff",
-    "parents": "68d2451ed80ae7ee02eb3eafa55560f7cbb218bf",
+    "date": "2026-04-15T22:35:22-04:00",
+    "hash": "cd9e4db01cbe0c7754a8ef69a95c64c6830db669",
+    "parents": "689fa72d05de59ea15f24d315ec9e818024e1d43",
     "subject": "Move \"Suspend the running execution context\" steps"
    },
    {
     "adate": "2022-02-13T14:16:44-05:00",
     "author": "Michael Dyck",
-    "date": "2025-07-15T17:43:22-04:00",
-    "hash": "68d2451ed80ae7ee02eb3eafa55560f7cbb218bf",
-    "parents": "4357f7993a29ecd9285fcd5f2794e3deb7d7eb4e",
+    "date": "2026-04-15T22:35:22-04:00",
+    "hash": "689fa72d05de59ea15f24d315ec9e818024e1d43",
+    "parents": "9193e50c43fc7252c3165931ae21bbbb48c1fdfe",
     "subject": "AsyncFunctionStart: Add \"Suspend _runningContext_\""
    },
    {
     "adate": "2022-02-13T14:14:46-05:00",
     "author": "Michael Dyck",
-    "date": "2025-07-15T17:43:22-04:00",
-    "hash": "4357f7993a29ecd9285fcd5f2794e3deb7d7eb4e",
-    "parents": "3d77f663db17fc21f0b200091c344bfe323bc40b",
+    "date": "2026-04-15T22:35:15-04:00",
+    "hash": "9193e50c43fc7252c3165931ae21bbbb48c1fdfe",
+    "parents": "c73a1ef89f63dfa7ef4c627b01799dab6f4c95d9",
     "subject": "ExecuteModule: Distribute \"Suspend the running execution context\""
    }
   ],
   "title": "Editorial: Factor out AO RunSuspendedContext()",
-  "updated_at": "2025-07-16T21:17:36Z"
+  "updated_at": "2026-04-16T03:29:13Z"
  },
  {
   "base": "267fdbdc716677bc9934906a498cf9bad4bfb70d",
