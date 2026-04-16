@@ -3506,11 +3506,43 @@
  {
   "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
   "created_at": "2023-01-23T22:42:45Z",
-  "head": "8eb1ff803e26160069e0fae764ffcc34de1fedcc",
+  "head": "73b2b1b72521ec0ad03744838b073e2154c2b776",
   "login": "rbuckton",
   "number": 3000,
   "ref": "explicit-resource-management",
   "revs": [
+   {
+    "adate": "2026-04-16T15:16:55-04:00",
+    "author": "Ron Buckton",
+    "date": "2026-04-16T15:16:55-04:00",
+    "hash": "73b2b1b72521ec0ad03744838b073e2154c2b776",
+    "parents": "ca3ff90fbccb1172ce131bd2fca9aa14271855bb",
+    "subject": "ContainsUsing and HasUnterminatedUsingDeclaration are identical"
+   },
+   {
+    "adate": "2026-04-16T15:15:56-04:00",
+    "author": "Ron Buckton",
+    "date": "2026-04-16T15:15:56-04:00",
+    "hash": "ca3ff90fbccb1172ce131bd2fca9aa14271855bb",
+    "parents": "6f6afb3070fcde4b9289dcab5e5611490ff95d7b",
+    "subject": "Restore missing NOTE and fix indentation"
+   },
+   {
+    "adate": "2026-04-16T15:14:58-04:00",
+    "author": "Ron Buckton",
+    "date": "2026-04-16T15:14:58-04:00",
+    "hash": "6f6afb3070fcde4b9289dcab5e5611490ff95d7b",
+    "parents": "4657f9253bd71ca632203f9ef0ea1c787a903d11",
+    "subject": "CaseBlock can't have resources, so just assert"
+   },
+   {
+    "adate": "2026-04-16T14:47:18-04:00",
+    "author": "Ron Buckton",
+    "date": "2026-04-16T14:47:18-04:00",
+    "hash": "4657f9253bd71ca632203f9ef0ea1c787a903d11",
+    "parents": "8eb1ff803e26160069e0fae764ffcc34de1fedcc",
+    "subject": "Remove 'kind' description from InitializeBinding"
+   },
    {
     "adate": "2026-04-14T15:18:31-04:00",
     "author": "Ron Buckton",
@@ -4193,7 +4225,7 @@
    }
   ],
   "title": "Add `using` and `await using` Declarations, SuppressedError, DisposableStack, and AsyncDisposableStack",
-  "updated_at": "2026-04-14T19:18:35Z"
+  "updated_at": "2026-04-16T19:17:48Z"
  },
  {
   "base": "8aac12603c99f94d982317832b0e03c13684ce0a",
