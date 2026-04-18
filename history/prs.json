@@ -510,11 +510,243 @@
  {
   "base": "c73a1ef89f63dfa7ef4c627b01799dab6f4c95d9",
   "created_at": "2026-04-01T14:47:42Z",
-  "head": "e20f22d2610c6f6d5ba735b4f1187f0a3f8217a9",
+  "head": "ed32e1da425f6e04b2280ca147b66f5e8500d85a",
   "login": "tc39",
   "number": 3789,
   "ref": "alias-renaming",
   "revs": [
+   {
+    "adate": "2026-04-18T10:43:32-04:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-18T10:43:32-04:00",
+    "hash": "ed32e1da425f6e04b2280ca147b66f5e8500d85a",
+    "parents": "6e5cff6c4a3f3919f662c31dc13a53a47b16ab91",
+    "subject": "fix RegExp.prototype.compile"
+   },
+   {
+    "adate": "2026-04-18T10:36:10-04:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-18T10:38:40-04:00",
+    "hash": "6e5cff6c4a3f3919f662c31dc13a53a47b16ab91",
+    "parents": "5570b3fcddb3eca28abf667d207948f08ea3b38b",
+    "subject": "%ForInIteratorPrototype%.next: r -> key"
+   },
+   {
+    "adate": "2026-04-18T10:35:16-04:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-18T10:38:40-04:00",
+    "hash": "5570b3fcddb3eca28abf667d207948f08ea3b38b",
+    "parents": "0a293e4e38e3cc8f4e961d325616447ef280be22",
+    "subject": "sec-relational-operators-runtime-semantics-evaluation: r -> result"
+   },
+   {
+    "adate": "2026-04-18T10:33:26-04:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-18T10:38:40-04:00",
+    "hash": "0a293e4e38e3cc8f4e961d325616447ef280be22",
+    "parents": "c80002945579dcd0db4473202431cdb63b2afa9b",
+    "subject": "sec-module-namespace-exotic-objects-get-p-receiver: m -> module"
+   },
+   {
+    "adate": "2026-04-18T10:32:30-04:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-18T10:38:40-04:00",
+    "hash": "c80002945579dcd0db4473202431cdb63b2afa9b",
+    "parents": "446f6a73a623146aa70d772b9762c1f8fe193323",
+    "subject": "CreateMappedArgumentsObject: g -> getter, p -> setter"
+   },
+   {
+    "adate": "2026-04-18T10:31:29-04:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-18T10:38:40-04:00",
+    "hash": "446f6a73a623146aa70d772b9762c1f8fe193323",
+    "parents": "d7299d7fcde30d67ab024a6f39937515c799bcb2",
+    "subject": "GlobalDeclarationInstantiation: d -> varDecl/lexDecl"
+   },
+   {
+    "adate": "2026-04-18T10:30:43-04:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-18T10:38:40-04:00",
+    "hash": "d7299d7fcde30d67ab024a6f39937515c799bcb2",
+    "parents": "88ef7248d4af0ea157c9e567fee78bb7bba671b2",
+    "subject": "BlockDeclarationInstantiation: d -> decl"
+   },
+   {
+    "adate": "2026-04-18T10:26:21-04:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-18T10:38:40-04:00",
+    "hash": "88ef7248d4af0ea157c9e567fee78bb7bba671b2",
+    "parents": "5ef6de10a3b3e8804b0a5aa7739c0ec1fa4db26b",
+    "subject": "FunctionDeclarationInstantiation: d -> varDecl/lexDecl, f -> fnDecl"
+   },
+   {
+    "adate": "2026-04-18T10:22:52-04:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-18T10:38:40-04:00",
+    "hash": "5ef6de10a3b3e8804b0a5aa7739c0ec1fa4db26b",
+    "parents": "0a0a6952458ec63de4174c048a36d30dd4f50265",
+    "subject": "aliases in Date.prototype.setYear"
+   },
+   {
+    "adate": "2026-04-18T10:21:03-04:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-18T10:38:40-04:00",
+    "hash": "0a0a6952458ec63de4174c048a36d30dd4f50265",
+    "parents": "7e72f1794ceaa103e29eb66f11b938171b871227",
+    "subject": "Promise.reject: r -> reason"
+   },
+   {
+    "adate": "2026-04-18T10:20:10-04:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-18T10:20:10-04:00",
+    "hash": "7e72f1794ceaa103e29eb66f11b938171b871227",
+    "parents": "8ee90640d11a212fd5883938ac878e63b442d51d",
+    "subject": "JSON.stringify: v -> propertyValue"
+   },
+   {
+    "adate": "2026-04-18T10:19:30-04:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-18T10:19:30-04:00",
+    "hash": "8ee90640d11a212fd5883938ac878e63b442d51d",
+    "parents": "4a787fb4c35e80282ccd1442c08d02ce945cbaf5",
+    "subject": "AtomicReadModifyWrite, Atomics.store: v -> coerced"
+   },
+   {
+    "adate": "2026-04-18T10:18:20-04:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-18T10:18:20-04:00",
+    "hash": "4a787fb4c35e80282ccd1442c08d02ce945cbaf5",
+    "parents": "ab592d52614f463500a473e0be101cd10a4e4aa2",
+    "subject": "rename single-letter aliases in DoWait"
+   },
+   {
+    "adate": "2026-04-18T10:07:39-04:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-18T10:07:39-04:00",
+    "hash": "ab592d52614f463500a473e0be101cd10a4e4aa2",
+    "parents": "dbb0b6bbfaad02456ed425e7782a1dd2a9d258e5",
+    "subject": "CreateMapIterator: e -> entry"
+   },
+   {
+    "adate": "2026-04-18T10:07:02-04:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-18T10:07:02-04:00",
+    "hash": "dbb0b6bbfaad02456ed425e7782a1dd2a9d258e5",
+    "parents": "02a0d09db59e30a6c42432457e600a3c28d3c6fd",
+    "subject": "e -> entry in Set and WeakSet methods"
+   },
+   {
+    "adate": "2026-04-18T10:03:44-04:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-18T10:05:05-04:00",
+    "hash": "02a0d09db59e30a6c42432457e600a3c28d3c6fd",
+    "parents": "b33ea3a6e5260d632eb1254113189a0bb4c3894b",
+    "subject": "p -> entry in Map/WeakMap methods"
+   },
+   {
+    "adate": "2026-04-18T10:00:32-04:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-18T10:00:32-04:00",
+    "hash": "b33ea3a6e5260d632eb1254113189a0bb4c3894b",
+    "parents": "673858a543f7498b64e5b077952ce29a494c9d50",
+    "subject": "Map.groupBy/AddValueToKeyedGroup: g -> group"
+   },
+   {
+    "adate": "2026-04-18T09:59:46-04:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-18T09:59:46-04:00",
+    "hash": "673858a543f7498b64e5b077952ce29a494c9d50",
+    "parents": "95d318d4486494e4ab9ea54fb88a73e33111719b",
+    "subject": "AddEntriesFromIterable: k -> key, v -> value"
+   },
+   {
+    "adate": "2026-04-18T09:58:55-04:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-18T09:58:55-04:00",
+    "hash": "95d318d4486494e4ab9ea54fb88a73e33111719b",
+    "parents": "7be1b082e6f431b3b5c5b7c2c66233c886e0ea0b",
+    "subject": "CompareArrayElements, CompareTypedArrayElements: v -> result"
+   },
+   {
+    "adate": "2026-04-18T09:57:46-04:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-18T09:57:46-04:00",
+    "hash": "7be1b082e6f431b3b5c5b7c2c66233c886e0ea0b",
+    "parents": "77479c85b54f717f0594bcd13f3649e094462f12",
+    "subject": "MakeMatchIndicesIndexPairArray: s -> name"
+   },
+   {
+    "adate": "2026-04-18T09:54:56-04:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-18T09:54:56-04:00",
+    "hash": "77479c85b54f717f0594bcd13f3649e094462f12",
+    "parents": "b448e36bac09ee01c4d632220a97ecc0b0d9e1fd",
+    "subject": "IsPromise: x -> promise"
+   },
+   {
+    "adate": "2026-04-18T09:54:01-04:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-18T09:54:01-04:00",
+    "hash": "b448e36bac09ee01c4d632220a97ecc0b0d9e1fd",
+    "parents": "0dd9ffc8ab8a3e4e27f0501f4019ffd707a31fe5",
+    "subject": "x -> resolution in promise resolve AOs"
+   },
+   {
+    "adate": "2026-04-18T09:52:28-04:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-18T09:52:28-04:00",
+    "hash": "0dd9ffc8ab8a3e4e27f0501f4019ffd707a31fe5",
+    "parents": "09f28070598c8697566e7d9905d643fcf38747ae",
+    "subject": "e -> endIndex in matcher AOs"
+   },
+   {
+    "adate": "2026-04-18T09:47:20-04:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-18T09:47:20-04:00",
+    "hash": "09f28070598c8697566e7d9905d643fcf38747ae",
+    "parents": "d5c3f7b73f39ad411f5686ec779dbc802f468064",
+    "subject": "ModuleNamespaceCreate: moduleNamespace -> namespace"
+   },
+   {
+    "adate": "2026-04-18T09:46:47-04:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-18T09:46:47-04:00",
+    "hash": "d5c3f7b73f39ad411f5686ec779dbc802f468064",
+    "parents": "62ea5b2f94444564fb6bc28452dc0f828ddb59d6",
+    "subject": "OrdinarySetPrototypeOf: p -> cursor"
+   },
+   {
+    "adate": "2026-04-18T09:42:55-04:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-18T09:42:55-04:00",
+    "hash": "62ea5b2f94444564fb6bc28452dc0f828ddb59d6",
+    "parents": "ab71e57ad56626487b19f9d24dfdfeafbdd13698",
+    "subject": "SetIntegrityLevel and TestIntegrityLevel: k -> key"
+   },
+   {
+    "adate": "2026-04-18T09:38:47-04:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-18T09:38:47-04:00",
+    "hash": "ab71e57ad56626487b19f9d24dfdfeafbdd13698",
+    "parents": "87e1f73bca48cedf4696351fea440fd2cb904236",
+    "subject": "fix RegExpInitialize redeclarations"
+   },
+   {
+    "adate": "2026-04-18T09:38:33-04:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-18T09:38:33-04:00",
+    "hash": "87e1f73bca48cedf4696351fea440fd2cb904236",
+    "parents": "558bf92ccbad3e691e5e3934eb2ff7e9dedc7a02",
+    "subject": "CharacterComplement: charSet -> complement"
+   },
+   {
+    "adate": "2026-04-18T09:33:38-04:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-18T09:33:38-04:00",
+    "hash": "558bf92ccbad3e691e5e3934eb2ff7e9dedc7a02",
+    "parents": "e20f22d2610c6f6d5ba735b4f1187f0a3f8217a9",
+    "subject": "relations: r -> R"
+   },
    {
     "adate": "2026-04-10T10:35:45-06:00",
     "author": "Michael Ficarra",
@@ -973,7 +1205,7 @@
    }
   ],
   "title": "Editorial: rename single-letter and initial-capital aliases",
-  "updated_at": "2026-04-10T16:35:47Z"
+  "updated_at": "2026-04-18T14:44:40Z"
  },
  {
   "base": "880398845fd935bddad6a494ceeeb6c94397cc36",
