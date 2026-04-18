@@ -2160,112 +2160,64 @@
   "updated_at": "2026-04-09T16:04:13Z"
  },
  {
-  "base": "a562082b031d89d00ee667181ce8a6158656bd4b",
+  "base": "c73a1ef89f63dfa7ef4c627b01799dab6f4c95d9",
   "created_at": "2025-05-04T17:44:18Z",
-  "head": "30fe0b850ebcb8dafe0512b56091f54007bf2e5e",
+  "head": "ac18dd665739550c3b5d80f45cba0f3065cb0e2a",
   "login": "gibson042",
   "number": 3587,
   "ref": "gh-3586-unicodematchproperty",
   "revs": [
    {
-    "adate": "2025-05-10T20:03:50-04:00",
-    "author": "Richard Gibson",
-    "date": "2025-05-10T20:03:50-04:00",
-    "hash": "30fe0b850ebcb8dafe0512b56091f54007bf2e5e",
-    "parents": "dd8b237e5672ecaf11d6ed6c548e5a6bf55192f1",
-    "subject": "fixup! Editorial: Add special cases for set-valued Unicode property Script_Extensions"
-   },
-   {
-    "adate": "2025-05-08T18:08:33-04:00",
-    "author": "Richard Gibson",
-    "date": "2025-05-08T18:08:33-04:00",
-    "hash": "dd8b237e5672ecaf11d6ed6c548e5a6bf55192f1",
-    "parents": "0bc9855e4ed37ad0b50980507f77f3d81d3c4610",
-    "subject": "fixup! wording in UnicodeMatchProperty and UnicodeMatchPropertyValue"
-   },
-   {
     "adate": "2025-05-08T13:39:59-04:00",
     "author": "Richard Gibson",
-    "date": "2025-05-08T13:39:59-04:00",
-    "hash": "0bc9855e4ed37ad0b50980507f77f3d81d3c4610",
-    "parents": "7cba226648735e64f9ac17ee85f2e993f2089f11",
+    "date": "2026-04-18T14:30:18-04:00",
+    "hash": "ac18dd665739550c3b5d80f45cba0f3065cb0e2a",
+    "parents": "f290699eb13e147dbfefb8b702360f679dc8221a",
     "subject": "Editorial: Add special cases for set-valued Unicode property Script_Extensions"
-   },
-   {
-    "adate": "2025-05-08T13:36:04-04:00",
-    "author": "Richard Gibson",
-    "date": "2025-05-08T13:36:04-04:00",
-    "hash": "7cba226648735e64f9ac17ee85f2e993f2089f11",
-    "parents": "cb55d74559ed21d1c827d71adc0c1dd18f53cb02",
-    "subject": "fixup! Editorial: Narrow an assertion about the output from UnicodeMatchProperty"
    },
    {
     "adate": "2025-05-08T09:32:52-04:00",
     "author": "Richard Gibson",
-    "date": "2025-05-08T09:32:52-04:00",
-    "hash": "cb55d74559ed21d1c827d71adc0c1dd18f53cb02",
-    "parents": "7a133cdd70f6ee6c829fce355e35dbe086e0f241",
+    "date": "2026-04-18T14:30:18-04:00",
+    "hash": "f290699eb13e147dbfefb8b702360f679dc8221a",
+    "parents": "7544b88af3cf6fa13bcc27a77d17dea70a34d52e",
     "subject": "Editorial: Fix incorrect use of Unicode property Script_Extensions"
-   },
-   {
-    "adate": "2025-05-05T18:53:29-04:00",
-    "author": "Richard Gibson",
-    "date": "2025-05-05T18:57:03-04:00",
-    "hash": "7a133cdd70f6ee6c829fce355e35dbe086e0f241",
-    "parents": "9de2273aa850b4e38c951435d3def973d870cf37",
-    "subject": "fixup! wording in UnicodeMatchProperty and UnicodeMatchPropertyValue"
-   },
-   {
-    "adate": "2025-05-05T18:53:29-04:00",
-    "author": "Richard Gibson",
-    "date": "2025-05-05T18:53:29-04:00",
-    "hash": "9de2273aa850b4e38c951435d3def973d870cf37",
-    "parents": "aba335baf68221d985857ff7f7296a2db690d873",
-    "subject": "fixup! wording in UnicodeMatchProperty and UnicodeMatchPropertyValue"
-   },
-   {
-    "adate": "2025-05-05T16:41:02-06:00",
-    "author": "Michael Ficarra",
-    "date": "2025-05-05T16:41:02-06:00",
-    "hash": "aba335baf68221d985857ff7f7296a2db690d873",
-    "parents": "4db3f1a490b006c3c7ec8d9990d8f93a0d8c1959",
-    "subject": "fix typo"
    },
    {
     "adate": "2025-05-05T15:26:23-06:00",
     "author": "Michael Ficarra",
-    "date": "2025-05-05T15:26:23-06:00",
-    "hash": "4db3f1a490b006c3c7ec8d9990d8f93a0d8c1959",
-    "parents": "37ad780a824f42495276961ee32bcc2ce6c3241b",
+    "date": "2026-04-18T14:27:56-04:00",
+    "hash": "7544b88af3cf6fa13bcc27a77d17dea70a34d52e",
+    "parents": "fc2bae3a0d9bd97fe0f81ba574df040871f6744d",
     "subject": "wording in UnicodeMatchProperty and UnicodeMatchPropertyValue"
    },
    {
     "adate": "2025-05-04T12:55:00-04:00",
     "author": "Richard Gibson",
-    "date": "2025-05-04T13:41:56-04:00",
-    "hash": "37ad780a824f42495276961ee32bcc2ce6c3241b",
-    "parents": "56db1aa3811522b8fe511b8e78b52c9b3e338422",
+    "date": "2026-04-18T14:10:37-04:00",
+    "hash": "fc2bae3a0d9bd97fe0f81ba574df040871f6744d",
+    "parents": "8d721fcd7e302599ede3251bfafa2e93b144abd3",
     "subject": "Editorial: Correct references to the structure of Unicode Character Databse file PropertyValueAliases.txt"
    },
    {
     "adate": "2025-05-04T12:53:24-04:00",
     "author": "Richard Gibson",
-    "date": "2025-05-04T13:41:56-04:00",
-    "hash": "56db1aa3811522b8fe511b8e78b52c9b3e338422",
-    "parents": "606677ee7eeee9763f66a0f75245671e2e1f2463",
+    "date": "2026-04-18T14:10:33-04:00",
+    "hash": "8d721fcd7e302599ede3251bfafa2e93b144abd3",
+    "parents": "6b7609f63a35187714943b9789b597b4512ca54a",
     "subject": "Editorial: Narrow an assertion about the output from UnicodeMatchProperty"
    },
    {
     "adate": "2025-05-04T12:51:14-04:00",
     "author": "Richard Gibson",
-    "date": "2025-05-04T13:41:56-04:00",
-    "hash": "606677ee7eeee9763f66a0f75245671e2e1f2463",
-    "parents": "a562082b031d89d00ee667181ce8a6158656bd4b",
+    "date": "2026-04-18T13:44:23-04:00",
+    "hash": "6b7609f63a35187714943b9789b597b4512ca54a",
+    "parents": "c73a1ef89f63dfa7ef4c627b01799dab6f4c95d9",
     "subject": "Editorial: Fix incorrect use of UnicodeMatchPropertyValue"
    }
   ],
   "title": "Editorial: Fix incorrect use of UnicodeMatchPropertyValue",
-  "updated_at": "2025-05-11T00:04:21Z"
+  "updated_at": "2026-04-18T18:46:59Z"
  },
  {
   "base": "f2bad0095a792587ab7a70c9f024612148e18bd1",
@@ -4914,34 +4866,6 @@
   ],
   "title": "Editorial: define thenable",
   "updated_at": "2022-08-26T09:08:57Z"
- },
- {
-  "base": "cf86f1cdc28e809170733d74ea64fd0f3dd79f78",
-  "created_at": "2022-07-21T23:23:54Z",
-  "head": "d20d329631c276ad38910b1ed0de9b980bccc60f",
-  "login": "gibson042",
-  "number": 2835,
-  "ref": "gh-2808-ecma-402-reference",
-  "revs": [
-   {
-    "adate": "2022-07-21T19:20:40-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-07-21T19:22:05-04:00",
-    "hash": "d20d329631c276ad38910b1ed0de9b980bccc60f",
-    "parents": "d474ece0b1cf547cfde6d907ca367e3a0b00c574",
-    "subject": "Editorial: Update ECMA-404 URL"
-   },
-   {
-    "adate": "2022-07-21T19:19:12-04:00",
-    "author": "Richard Gibson",
-    "date": "2022-07-21T19:21:58-04:00",
-    "hash": "d474ece0b1cf547cfde6d907ca367e3a0b00c574",
-    "parents": "cf86f1cdc28e809170733d74ea64fd0f3dd79f78",
-    "subject": "Editorial: Update ECMA-402 reference"
-   }
-  ],
-  "title": "Editorial: Update ECMA-402 and -404 references",
-  "updated_at": "2022-07-21T23:23:54Z"
  },
  {
   "base": "8aac12603c99f94d982317832b0e03c13684ce0a",
