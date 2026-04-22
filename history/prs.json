@@ -1316,13 +1316,45 @@
   "updated_at": "2026-03-18T07:11:09Z"
  },
  {
-  "base": "1a78d83ce857b87477bc95764c81bc6637720ca1",
+  "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
   "created_at": "2026-02-16T23:53:01Z",
-  "head": "b905c08acd176f93215140daa0dddc8935b20fb5",
+  "head": "1ad112ebabeca68af2dee1d77e26f2ea76fed5d3",
   "login": "ptomato",
   "number": 3759,
   "ref": "temporal-stage-4",
   "revs": [
+   {
+    "adate": "2026-04-21T16:33:27-07:00",
+    "author": "Philip Chimento",
+    "date": "2026-04-21T16:33:27-07:00",
+    "hash": "1ad112ebabeca68af2dee1d77e26f2ea76fed5d3",
+    "parents": "2519a4800038e9aebf581c56210c1ee4930a7455",
+    "subject": "(fixup) Amend ParseISODateTime to require time parse nodes within Time"
+   },
+   {
+    "adate": "2026-04-21T15:35:57-07:00",
+    "author": "Philip Chimento",
+    "date": "2026-04-21T15:48:46-07:00",
+    "hash": "2519a4800038e9aebf581c56210c1ee4930a7455",
+    "parents": "d598c284696dd1412054fcd0aaf4bb8baaea3bed",
+    "subject": "(fixup) Replace ValidateTemporalUnitValue if only rejecting AUTO"
+   },
+   {
+    "adate": "2026-04-21T15:24:53-07:00",
+    "author": "Philip Chimento",
+    "date": "2026-04-21T15:48:46-07:00",
+    "hash": "d598c284696dd1412054fcd0aaf4bb8baaea3bed",
+    "parents": "fce855781ed0b99c34101f36eb687b34eb5065db",
+    "subject": "(fixup) Don't use CreateISODateRecord at start of BalanceISODateTime"
+   },
+   {
+    "adate": "2026-04-21T15:16:42-07:00",
+    "author": "Philip Chimento",
+    "date": "2026-04-21T15:48:46-07:00",
+    "hash": "fce855781ed0b99c34101f36eb687b34eb5065db",
+    "parents": "b905c08acd176f93215140daa0dddc8935b20fb5",
+    "subject": "(fixup) Add assertion to InterpretTemporalDateTimeFields"
+   },
    {
     "adate": "2026-04-08T13:56:36-04:00",
     "author": "Philip Chimento",
@@ -1501,7 +1533,7 @@
    }
   ],
   "title": "Normative: add Temporal",
-  "updated_at": "2026-04-08T18:30:43Z"
+  "updated_at": "2026-04-21T23:39:14Z"
  },
  {
   "base": "8febdacb384c2661df5a00c0e77dcb69896496e2",
