@@ -22,11 +22,19 @@
  {
   "base": "c73a1ef89f63dfa7ef4c627b01799dab6f4c95d9",
   "created_at": "2026-04-12T01:43:36Z",
-  "head": "24b3ce141e5e88a2cdc4eff2a70be5a71d574274",
+  "head": "85ca9582e05db6502ec65464c9619b595dccfade",
   "login": "gibson042",
   "number": 3832,
   "ref": "2026-04-tofixedsizeinteger",
   "revs": [
+   {
+    "adate": "2026-04-23T15:00:01-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-04-23T15:00:01-04:00",
+    "hash": "85ca9582e05db6502ec65464c9619b595dccfade",
+    "parents": "24b3ce141e5e88a2cdc4eff2a70be5a71d574274",
+    "subject": "Editorial: Reword the ToFixedSizeInteger note"
+   },
    {
     "adate": "2026-04-13T11:30:49-04:00",
     "author": "Richard Gibson",
@@ -52,8 +60,8 @@
     "subject": "Editorial: Introduce ToFixedSizeInteger for backing To{Int,Uint}{8,16,32} and To{BigInt,BigUint}64"
    }
   ],
-  "title": "Editorial: Introduce ToFixedSizeInteger for backing To{Int,Uint}{8,16,32} and To{BigInt,BigUint}64",
-  "updated_at": "2026-04-13T15:35:12Z"
+  "title": "Editorial: Introduce an operation for backing To{Int,Uint}{8,16,32} and To{BigInt,BigUint}64",
+  "updated_at": "2026-04-23T19:00:55Z"
  },
  {
   "base": "c70eacfc95683d8db662466966f2fa2aca2d836d",
@@ -510,11 +518,51 @@
  {
   "base": "c73a1ef89f63dfa7ef4c627b01799dab6f4c95d9",
   "created_at": "2026-04-01T14:47:42Z",
-  "head": "ed32e1da425f6e04b2280ca147b66f5e8500d85a",
+  "head": "9d71d8c4ea0a9633d49b231798168bd0191d00c9",
   "login": "tc39",
   "number": 3789,
   "ref": "alias-renaming",
   "revs": [
+   {
+    "adate": "2026-04-23T11:39:23-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-23T11:39:23-06:00",
+    "hash": "9d71d8c4ea0a9633d49b231798168bd0191d00c9",
+    "parents": "47de80e76330f8572c72a4a310cf9d3b054d5e8b",
+    "subject": "IsPromise: promise -> value"
+   },
+   {
+    "adate": "2026-04-23T11:38:00-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-23T11:38:00-06:00",
+    "hash": "47de80e76330f8572c72a4a310cf9d3b054d5e8b",
+    "parents": "1c899a31dd6dac1bb7a2d0d219ccc61bbb3bb220",
+    "subject": "RegExp: pattern -> patternOrRegexp"
+   },
+   {
+    "adate": "2026-04-23T11:34:34-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-23T11:34:34-06:00",
+    "hash": "1c899a31dd6dac1bb7a2d0d219ccc61bbb3bb220",
+    "parents": "35bd10704e0ea4e3debef08c09b63696e3d260e5",
+    "subject": "SuperCall evaluation: func -> superConstructor"
+   },
+   {
+    "adate": "2026-04-23T11:32:11-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-23T11:32:11-06:00",
+    "hash": "35bd10704e0ea4e3debef08c09b63696e3d260e5",
+    "parents": "644225cd36c16a9c44fd0ecad17684c543877301",
+    "subject": "CreateListIteratorRecord: e -> value"
+   },
+   {
+    "adate": "2026-04-23T11:30:54-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-23T11:30:54-06:00",
+    "hash": "644225cd36c16a9c44fd0ecad17684c543877301",
+    "parents": "ed32e1da425f6e04b2280ca147b66f5e8500d85a",
+    "subject": "Private{ElementFind,FieldAdd,Get,Set}: propertyKey -> privateName"
+   },
    {
     "adate": "2026-04-18T10:43:32-04:00",
     "author": "Michael Ficarra",
@@ -1205,7 +1253,7 @@
    }
   ],
   "title": "Editorial: rename single-letter and initial-capital aliases",
-  "updated_at": "2026-04-18T14:44:40Z"
+  "updated_at": "2026-04-23T17:56:55Z"
  },
  {
   "base": "880398845fd935bddad6a494ceeeb6c94397cc36",
