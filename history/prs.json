@@ -1,23 +1,23 @@
 [
  {
-  "base": "c73a1ef89f63dfa7ef4c627b01799dab6f4c95d9",
+  "base": "bf86dff4c55c8113f661ea357cb7affade45c936",
   "created_at": "2026-04-16T14:58:09Z",
-  "head": "850d534b6bf5d3a940145e0cb3a566dd53ea98f1",
+  "head": "189d27a4e510052a899ed53c4d5c582b24138319",
   "login": "nicolo-ribaudo",
   "number": 3834,
   "ref": "editor-me",
   "revs": [
    {
-    "adate": "2026-04-16T16:57:44+02:00",
+    "adate": "2026-04-24T10:21:43-07:00",
     "author": "Nicol\u00f2 Ribaudo",
-    "date": "2026-04-17T10:39:08+02:00",
-    "hash": "850d534b6bf5d3a940145e0cb3a566dd53ea98f1",
-    "parents": "c73a1ef89f63dfa7ef4c627b01799dab6f4c95d9",
-    "subject": "Add myself to the editors list"
+    "date": "2026-04-24T10:21:43-07:00",
+    "hash": "189d27a4e510052a899ed53c4d5c582b24138319",
+    "parents": "bf86dff4c55c8113f661ea357cb7affade45c936",
+    "subject": "Editorial: add Nicol\u00f2 to the editors list (#3834)"
    }
   ],
-  "title": "Add myself to the editors list",
-  "updated_at": "2026-04-17T08:53:36Z"
+  "title": "Editorial: Add Nicol\u00f2 to the editors list",
+  "updated_at": "2026-04-24T17:23:22Z"
  },
  {
   "base": "c73a1ef89f63dfa7ef4c627b01799dab6f4c95d9",
@@ -62,46 +62,6 @@
   ],
   "title": "Editorial: Introduce an operation for backing To{Int,Uint}{8,16,32} and To{BigInt,BigUint}64",
   "updated_at": "2026-04-23T19:00:55Z"
- },
- {
-  "base": "c70eacfc95683d8db662466966f2fa2aca2d836d",
-  "created_at": "2026-04-09T22:30:22Z",
-  "head": "db175d617526402f538abe68eeed62939c61621a",
-  "login": "tc39",
-  "number": 3831,
-  "ref": "startsWith-endsWith-notes",
-  "revs": [
-   {
-    "adate": "2026-04-09T16:29:19-06:00",
-    "author": "Michael Ficarra",
-    "date": "2026-04-09T16:29:19-06:00",
-    "hash": "db175d617526402f538abe68eeed62939c61621a",
-    "parents": "c70eacfc95683d8db662466966f2fa2aca2d836d",
-    "subject": "Editorial: remove unhelpful notes in String startsWith/endsWith"
-   }
-  ],
-  "title": "Editorial: remove unhelpful notes in String startsWith/endsWith",
-  "updated_at": "2026-04-09T22:35:11Z"
- },
- {
-  "base": "b1340317e2a54f1c2006a0f657b0ff34d57e17d3",
-  "created_at": "2026-04-09T20:52:20Z",
-  "head": "b6b06f533804c168513cc3393108e5f73cb3940b",
-  "login": "tc39",
-  "number": 3830,
-  "ref": "append-to",
-  "revs": [
-   {
-    "adate": "2026-04-24T09:50:59-07:00",
-    "author": "Michael Ficarra",
-    "date": "2026-04-24T09:50:59-07:00",
-    "hash": "b6b06f533804c168513cc3393108e5f73cb3940b",
-    "parents": "b1340317e2a54f1c2006a0f657b0ff34d57e17d3",
-    "subject": "Editorial: fix an editorial convention violation wrt appending (#3830)"
-   }
-  ],
-  "title": "Editorial: fix an editorial convention violation wrt appending",
-  "updated_at": "2026-04-24T16:51:10Z"
  },
  {
   "base": "3282e07ac8811a9639c915ef8f85dc4f3aea3e8e",
