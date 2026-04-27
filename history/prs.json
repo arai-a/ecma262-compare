@@ -2,11 +2,19 @@
  {
   "base": "189d27a4e510052a899ed53c4d5c582b24138319",
   "created_at": "2026-04-25T04:01:09Z",
-  "head": "e68010be8d16853cf95973e46d312ced4f606786",
+  "head": "cfb9d40daeee9d27ba5a0f37e70e25781eddf343",
   "login": "tc39",
   "number": 3837,
   "ref": "alias-abbreviations",
   "revs": [
+   {
+    "adate": "2026-04-27T09:14:47-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-27T09:14:47-06:00",
+    "hash": "cfb9d40daeee9d27ba5a0f37e70e25781eddf343",
+    "parents": "e68010be8d16853cf95973e46d312ced4f606786",
+    "subject": "fix syntax"
+   },
    {
     "adate": "2026-04-25T10:13:59-06:00",
     "author": "Michael Ficarra",
@@ -25,7 +33,7 @@
    }
   ],
   "title": "Editorial: consistently abbreviate terms used in aliases",
-  "updated_at": "2026-04-25T16:14:12Z"
+  "updated_at": "2026-04-27T16:02:43Z"
  },
  {
   "base": "c73a1ef89f63dfa7ef4c627b01799dab6f4c95d9",
