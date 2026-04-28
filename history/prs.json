@@ -568,13 +568,21 @@
   "updated_at": "2026-04-28T17:00:17Z"
  },
  {
-  "base": "c73a1ef89f63dfa7ef4c627b01799dab6f4c95d9",
+  "base": "189d27a4e510052a899ed53c4d5c582b24138319",
   "created_at": "2026-04-12T01:43:36Z",
-  "head": "85ca9582e05db6502ec65464c9619b595dccfade",
+  "head": "8d9d33f1014d3afd1960a5e8224d1dc946619b80",
   "login": "gibson042",
   "number": 3832,
   "ref": "2026-04-tofixedsizeinteger",
   "revs": [
+   {
+    "adate": "2026-04-28T14:25:00-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-04-28T14:25:00-04:00",
+    "hash": "8d9d33f1014d3afd1960a5e8224d1dc946619b80",
+    "parents": "85ca9582e05db6502ec65464c9619b595dccfade",
+    "subject": "fixup! Editorial: Reword the ToFixedSizeInteger note"
+   },
    {
     "adate": "2026-04-23T15:00:01-04:00",
     "author": "Richard Gibson",
@@ -609,7 +617,7 @@
    }
   ],
   "title": "Editorial: Introduce an operation for backing To{Int,Uint}{8,16,32} and To{BigInt,BigUint}64",
-  "updated_at": "2026-04-23T19:00:55Z"
+  "updated_at": "2026-04-28T18:35:07Z"
  },
  {
   "base": "3282e07ac8811a9639c915ef8f85dc4f3aea3e8e",
