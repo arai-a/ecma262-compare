@@ -4204,9 +4204,9 @@
   "updated_at": "2023-02-13T16:58:31Z"
  },
  {
-  "base": "c73a1ef89f63dfa7ef4c627b01799dab6f4c95d9",
+  "base": "189d27a4e510052a899ed53c4d5c582b24138319",
   "created_at": "2022-11-22T04:48:42Z",
-  "head": "ef311e482dbcac71d3d088adc5467b60c926f8c9",
+  "head": "b4fcc45d127eae54fec823a8c23cb9a89c3a43ea",
   "login": "jmdyck",
   "number": 2962,
   "ref": "transfer",
@@ -4214,166 +4214,174 @@
    {
     "adate": "2024-12-11T14:54:28-05:00",
     "author": "Michael Dyck",
-    "date": "2026-04-15T22:33:05-04:00",
-    "hash": "ef311e482dbcac71d3d088adc5467b60c926f8c9",
-    "parents": "0a06394152ae52cd3f10d8a8dc60713a877d51a8",
+    "date": "2026-04-27T22:28:16-04:00",
+    "hash": "b4fcc45d127eae54fec823a8c23cb9a89c3a43ea",
+    "parents": "d80dee242e5bbda11b4f2c593f42e4968c9061a9",
     "subject": "fixup: Remove lines from esmeta-ignore.json"
    },
    {
     "adate": "2024-12-11T14:24:50-05:00",
     "author": "Michael Dyck",
-    "date": "2026-04-15T22:33:05-04:00",
-    "hash": "0a06394152ae52cd3f10d8a8dc60713a877d51a8",
-    "parents": "28b098c6e947d758cd63da218f8902bd53eb8ad1",
+    "date": "2026-04-27T22:28:16-04:00",
+    "hash": "d80dee242e5bbda11b4f2c593f42e4968c9061a9",
+    "parents": "93f5b7f01e5047ae8cb93515c45928d0c15472a3",
     "subject": "fixup: Drop \"currently\" from \"the currently running execution context\" (x7)"
    },
    {
     "adate": "2024-12-11T14:16:05-05:00",
     "author": "Michael Dyck",
-    "date": "2026-04-15T22:33:04-04:00",
-    "hash": "28b098c6e947d758cd63da218f8902bd53eb8ad1",
-    "parents": "afd1ed5b6ab3ba0ac30f740dbad2eebcbbdece79",
+    "date": "2026-04-27T22:28:16-04:00",
+    "hash": "93f5b7f01e5047ae8cb93515c45928d0c15472a3",
+    "parents": "55fa3d271b8f935342adb4fbe4c511e052190bfb",
     "subject": "fixup: drop \"running execution contexts\" variant"
    },
    {
     "adate": "2024-12-11T13:54:28-05:00",
     "author": "Michael Dyck",
-    "date": "2026-04-15T22:33:04-04:00",
-    "hash": "afd1ed5b6ab3ba0ac30f740dbad2eebcbbdece79",
-    "parents": "c3929021e602e4abacebf4cdc6db03be8bcb4045",
+    "date": "2026-04-27T22:28:16-04:00",
+    "hash": "55fa3d271b8f935342adb4fbe4c511e052190bfb",
+    "parents": "7151111f183de600899641df8e2eb2f55ecd5f8f",
     "subject": "fixup: Reword \"if/when control is transferred back\""
    },
    {
     "adate": "2024-12-11T13:43:20-05:00",
     "author": "Michael Dyck",
-    "date": "2026-04-15T22:33:04-04:00",
-    "hash": "c3929021e602e4abacebf4cdc6db03be8bcb4045",
-    "parents": "9d32150d2e08c36d095f3d878e198a67a6d7d797",
+    "date": "2026-04-27T22:28:16-04:00",
+    "hash": "7151111f183de600899641df8e2eb2f55ecd5f8f",
+    "parents": "cc523151a836fd016ffe510584d47ff0978ead78",
     "subject": "fixup: Capitalize \"transfer control\" in Note"
    },
    {
     "adate": "2024-01-09T14:25:19-05:00",
     "author": "Michael Dyck",
-    "date": "2026-04-15T22:33:04-04:00",
-    "hash": "9d32150d2e08c36d095f3d878e198a67a6d7d797",
-    "parents": "0a2ad2638401a9009b4aeceb733773cd6c3e3e6a",
+    "date": "2026-04-27T22:28:16-04:00",
+    "hash": "cc523151a836fd016ffe510584d47ff0978ead78",
+    "parents": "760eb1e4bd6303474f347bfbc84eae50e4bdcf97",
     "subject": "fixup: \"The above step [never] completes\" -> \"This step is [never] reached\""
    },
    {
     "adate": "2023-02-15T20:08:53-05:00",
     "author": "Michael Dyck",
-    "date": "2026-04-15T22:33:04-04:00",
-    "hash": "0a2ad2638401a9009b4aeceb733773cd6c3e3e6a",
-    "parents": "357485737af8cbf3a3571a46da37c3629de4a3bd",
+    "date": "2026-04-27T22:28:15-04:00",
+    "hash": "760eb1e4bd6303474f347bfbc84eae50e4bdcf97",
+    "parents": "8538c202f493e65141fb45b589c15f752ff3037e",
     "subject": "fixup: Insert \"and async functions\" into note re execution contexts"
    },
    {
     "adate": "2023-02-13T11:22:33-05:00",
     "author": "Michael Dyck",
-    "date": "2026-04-15T22:33:04-04:00",
-    "hash": "357485737af8cbf3a3571a46da37c3629de4a3bd",
-    "parents": "807a25518bb28a657d62561650f683fefbabc942",
+    "date": "2026-04-27T22:28:15-04:00",
+    "hash": "8538c202f493e65141fb45b589c15f752ff3037e",
+    "parents": "7ddf4872ee2eb78861ce9168c550f4a3c450629e",
     "subject": "Eliminate certain wording around execution contexts"
    },
    {
     "adate": "2023-01-13T20:30:31-05:00",
     "author": "Michael Dyck",
-    "date": "2026-04-15T22:33:04-04:00",
-    "hash": "807a25518bb28a657d62561650f683fefbabc942",
-    "parents": "cb4c3a9e76043d0cc632d5675973389d78ca9f29",
+    "date": "2026-04-27T22:28:15-04:00",
+    "hash": "7ddf4872ee2eb78861ce9168c550f4a3c450629e",
+    "parents": "81c9208c0d1c24a42a8dddb2c9ccea463b6493df",
     "subject": "Transfer control fixup: Make 'code evaluation state' less vague"
    },
    {
     "adate": "2022-11-21T22:50:15-05:00",
     "author": "Michael Dyck",
-    "date": "2026-04-15T22:33:04-04:00",
-    "hash": "cb4c3a9e76043d0cc632d5675973389d78ca9f29",
-    "parents": "722d020f0e0099e6ecb9eee88962d3eecf9c5258",
+    "date": "2026-04-27T22:28:15-04:00",
+    "hash": "81c9208c0d1c24a42a8dddb2c9ccea463b6493df",
+    "parents": "ee239bc00710afdf995e95c8ffc0f497b7b06e7e",
     "subject": "Execution Context section: Make the EC Stack subsection"
    },
    {
     "adate": "2022-11-21T22:21:11-05:00",
     "author": "Michael Dyck",
-    "date": "2026-04-15T22:33:04-04:00",
-    "hash": "722d020f0e0099e6ecb9eee88962d3eecf9c5258",
-    "parents": "d19be7e32d073d05c15af4886d42b68bc1a20363",
+    "date": "2026-04-27T22:28:15-04:00",
+    "hash": "ee239bc00710afdf995e95c8ffc0f497b7b06e7e",
+    "parents": "9342c6325e6aaf305223ca4a8392b2d037376eab",
     "subject": "Execution Context section: Move a paragraph"
    },
    {
     "adate": "2022-11-21T22:10:01-05:00",
     "author": "Michael Dyck",
-    "date": "2026-04-15T22:33:01-04:00",
-    "hash": "d19be7e32d073d05c15af4886d42b68bc1a20363",
-    "parents": "dad2bb842e50bd76a00551251d27e806478e79d6",
+    "date": "2026-04-27T22:28:14-04:00",
+    "hash": "9342c6325e6aaf305223ca4a8392b2d037376eab",
+    "parents": "c44e4f5fe465c0ff5dbba34c6d25e0e0c38d422a",
     "subject": "Resume+Suspend: Eliminate `Suspend` steps"
    },
    {
     "adate": "2022-11-21T22:04:15-05:00",
     "author": "Michael Dyck",
-    "date": "2026-04-15T22:31:45-04:00",
-    "hash": "dad2bb842e50bd76a00551251d27e806478e79d6",
-    "parents": "a37009908ce02b8117cdc973ab4af1a7a8035638",
+    "date": "2026-04-27T22:27:47-04:00",
+    "hash": "c44e4f5fe465c0ff5dbba34c6d25e0e0c38d422a",
+    "parents": "a9f50429e8a14b367cec033ce59edee19537dfa7",
     "subject": "Resume+Suspend: Eliminate `Resume` steps"
    },
    {
     "adate": "2022-11-21T21:39:36-05:00",
     "author": "Michael Dyck",
-    "date": "2026-04-15T22:31:45-04:00",
-    "hash": "a37009908ce02b8117cdc973ab4af1a7a8035638",
-    "parents": "58a8da8588dc52dfed91803119045b80f17d529c",
+    "date": "2026-04-27T22:27:47-04:00",
+    "hash": "a9f50429e8a14b367cec033ce59edee19537dfa7",
+    "parents": "9578f4a44353bbd338b69e37b7b326ba5e927c59",
     "subject": "Transfer control: Define \"transfer control\""
    },
    {
     "adate": "2022-11-21T20:17:05-05:00",
     "author": "Michael Dyck",
-    "date": "2026-04-15T22:31:45-04:00",
-    "hash": "58a8da8588dc52dfed91803119045b80f17d529c",
-    "parents": "10612fa3d6b304b7d43f32c8eb87e63c70bed6dd",
+    "date": "2026-04-27T22:27:45-04:00",
+    "hash": "9578f4a44353bbd338b69e37b7b326ba5e927c59",
+    "parents": "8278ffee2a3a8ef02bc56485c2db8f8799bad04c",
     "subject": "Transfer control: Re-word some steps that talk about resuming execution contexts"
    },
    {
     "adate": "2022-11-21T17:28:17-05:00",
     "author": "Michael Dyck",
-    "date": "2026-04-15T22:31:45-04:00",
-    "hash": "10612fa3d6b304b7d43f32c8eb87e63c70bed6dd",
-    "parents": "993ebbeaa76eac0300c43218e369120dd9f9eaed",
+    "date": "2026-04-27T22:26:17-04:00",
+    "hash": "8278ffee2a3a8ef02bc56485c2db8f8799bad04c",
+    "parents": "06677097cf02ebb2d9aaa73ed222e10d2b4a8c80",
     "subject": "Transfer control: Replace 3 \"Return\" steps"
    },
    {
     "adate": "2022-11-21T17:16:57-05:00",
     "author": "Michael Dyck",
-    "date": "2026-04-15T22:31:45-04:00",
-    "hash": "993ebbeaa76eac0300c43218e369120dd9f9eaed",
-    "parents": "69f2e1b264c09c6c6bb323839758a24c607a556f",
+    "date": "2026-04-27T22:26:17-04:00",
+    "hash": "06677097cf02ebb2d9aaa73ed222e10d2b4a8c80",
+    "parents": "53dc9126f22f5751e6fcc28ba33ef331bbe1e2a5",
     "subject": "(Transfer control:) Refactor GeneratorStart's Abstract Closure so that it has only one Return step."
    },
    {
     "adate": "2022-11-21T16:32:17-05:00",
     "author": "Michael Dyck",
-    "date": "2026-04-15T22:31:45-04:00",
-    "hash": "69f2e1b264c09c6c6bb323839758a24c607a556f",
-    "parents": "f8d9322dab51cc7849d6a9d143f5c71c49497fcf",
+    "date": "2026-04-27T22:26:16-04:00",
+    "hash": "53dc9126f22f5751e6fcc28ba33ef331bbe1e2a5",
+    "parents": "4b0732cce57e41ccd99c93f18e832550d74a1da5",
     "subject": "Transfer control: Replace the 3 remaining blocking-Resume steps"
    },
    {
     "adate": "2022-11-21T16:23:54-05:00",
     "author": "Michael Dyck",
-    "date": "2026-04-15T22:31:45-04:00",
-    "hash": "f8d9322dab51cc7849d6a9d143f5c71c49497fcf",
-    "parents": "6b44d0adae7709edf2617d81ef3b00a14f054393",
+    "date": "2026-04-27T22:26:16-04:00",
+    "hash": "4b0732cce57e41ccd99c93f18e832550d74a1da5",
+    "parents": "e689ae5d1c628ac7f4fd2ff7b96585e234e718a0",
     "subject": "Transfer control: Replace the 6 \"Resume the suspended evaluation\" steps"
    },
    {
     "adate": "2023-09-02T20:51:16-04:00",
     "author": "Michael Dyck",
-    "date": "2026-04-15T22:31:45-04:00",
-    "hash": "6b44d0adae7709edf2617d81ef3b00a14f054393",
-    "parents": "c73a1ef89f63dfa7ef4c627b01799dab6f4c95d9",
+    "date": "2026-04-27T22:26:14-04:00",
+    "hash": "e689ae5d1c628ac7f4fd2ff7b96585e234e718a0",
+    "parents": "a12ed88a657de4959fbc7a3a2e46f08f38f6b59a",
     "subject": "Editorial: Eliminate \"restore <context> as the running execution context\""
+   },
+   {
+    "adate": "2026-04-27T21:34:15-04:00",
+    "author": "Michael Dyck",
+    "date": "2026-04-27T21:47:07-04:00",
+    "hash": "a12ed88a657de4959fbc7a3a2e46f08f38f6b59a",
+    "parents": "189d27a4e510052a899ed53c4d5c582b24138319",
+    "subject": "Editorial: Undo a recent regression"
    }
   ],
   "title": "Editorial: Various changes around execution contexts",
-  "updated_at": "2026-04-16T03:33:42Z"
+  "updated_at": "2026-04-28T22:03:19Z"
  },
  {
   "base": "053d34c87b14d9234d6f7f45bd61074b72ca9d69",
@@ -4516,9 +4524,9 @@
   "updated_at": "2023-02-13T19:08:39Z"
  },
  {
-  "base": "2f8969eb1dd997e2c1e52a2eb73f0468ab9fdf31",
+  "base": "189d27a4e510052a899ed53c4d5c582b24138319",
   "created_at": "2022-09-04T02:20:57Z",
-  "head": "53e2215839e13b5af7036777e3764699c9e5a084",
+  "head": "e95c5983025b2bce5f678320f8f846e2b5d4f212",
   "login": "jmdyck",
   "number": 2889,
   "ref": "callable",
@@ -4526,30 +4534,30 @@
    {
     "adate": "2022-09-03T22:11:56-04:00",
     "author": "Michael Dyck",
-    "date": "2026-04-03T20:49:15-04:00",
-    "hash": "53e2215839e13b5af7036777e3764699c9e5a084",
-    "parents": "58838888aecfcd5b6c8e7eeb7145c61f11f355e0",
+    "date": "2026-04-27T23:45:08-04:00",
+    "hash": "e95c5983025b2bce5f678320f8f846e2b5d4f212",
+    "parents": "26c4d05946c31e0fdc437860aa3dfe309ed487da",
     "subject": "Eliminate most other uses of \"callable\""
    },
    {
     "adate": "2022-09-03T21:47:50-04:00",
     "author": "Michael Dyck",
-    "date": "2026-04-03T20:49:13-04:00",
-    "hash": "58838888aecfcd5b6c8e7eeb7145c61f11f355e0",
-    "parents": "f9485f16845547907b618f9e1637a8fa113cacf2",
+    "date": "2026-04-27T23:44:52-04:00",
+    "hash": "26c4d05946c31e0fdc437860aa3dfe309ed487da",
+    "parents": "a12ed88a657de4959fbc7a3a2e46f08f38f6b59a",
     "subject": "Rename \"IsCallable\" as \"IsFunction\""
    },
    {
-    "adate": "2026-04-03T18:33:01-04:00",
+    "adate": "2026-04-27T21:34:15-04:00",
     "author": "Michael Dyck",
-    "date": "2026-04-03T18:51:04-04:00",
-    "hash": "f9485f16845547907b618f9e1637a8fa113cacf2",
-    "parents": "71bf855859687428afbd159d2339e64606e59fd1",
-    "subject": "Editorial: Fix some things from PR #3714"
+    "date": "2026-04-27T21:47:07-04:00",
+    "hash": "a12ed88a657de4959fbc7a3a2e46f08f38f6b59a",
+    "parents": "189d27a4e510052a899ed53c4d5c582b24138319",
+    "subject": "Editorial: Undo a recent regression"
    }
   ],
   "title": "Editorial: Minimize use of the term \"callable\"",
-  "updated_at": "2026-04-04T02:32:38Z"
+  "updated_at": "2026-04-28T22:35:23Z"
  },
  {
   "base": "dceb9e45fa04ff37a213095e97a28da81bf213ec",
@@ -5232,9 +5240,9 @@
   "updated_at": "2021-03-02T20:18:19Z"
  },
  {
-  "base": "1a78d83ce857b87477bc95764c81bc6637720ca1",
+  "base": "189d27a4e510052a899ed53c4d5c582b24138319",
   "created_at": "2021-01-24T05:38:33Z",
-  "head": "10e5a7d36b30eaa582fbedf3c968d318db249c93",
+  "head": "75d5050807927c8daadfcd9b20dd1cf7d0581860",
   "login": "jmdyck",
   "number": 2288,
   "ref": "declarative_Env_Rec",
@@ -5242,46 +5250,54 @@
    {
     "adate": "2023-09-02T23:02:35-04:00",
     "author": "Michael Dyck",
-    "date": "2026-02-24T20:47:30-05:00",
-    "hash": "10e5a7d36b30eaa582fbedf3c968d318db249c93",
-    "parents": "5f02dd0ea1fdaf4d74a6acc86c2b121dcf74beab",
+    "date": "2026-04-27T22:59:57-04:00",
+    "hash": "75d5050807927c8daadfcd9b20dd1cf7d0581860",
+    "parents": "6ebcda45c01293ab640b84cba4491ce38c4e113f",
     "subject": "fixup: add 'variants' attributes; change \"equals\" to \"is\""
    },
    {
     "adate": "2025-08-19T21:37:07-04:00",
     "author": "Michael Dyck",
-    "date": "2026-02-24T20:44:13-05:00",
-    "hash": "5f02dd0ea1fdaf4d74a6acc86c2b121dcf74beab",
-    "parents": "fe30c75d040da8dc2ab3038952c3dc1e98722aa3",
+    "date": "2026-04-27T22:58:57-04:00",
+    "hash": "6ebcda45c01293ab640b84cba4491ce38c4e113f",
+    "parents": "0f3c1bd7fe1ebfc6c73a1895eb21117a3eb1ec13",
     "subject": "Editorial: Model a declarative binding as a Record"
    },
    {
     "adate": "2025-08-19T21:35:25-04:00",
     "author": "Michael Dyck",
-    "date": "2026-02-24T20:40:19-05:00",
-    "hash": "fe30c75d040da8dc2ab3038952c3dc1e98722aa3",
-    "parents": "2a294fb7883af41c90759970dacd83fe37906492",
+    "date": "2026-04-27T22:50:39-04:00",
+    "hash": "0f3c1bd7fe1ebfc6c73a1895eb21117a3eb1ec13",
+    "parents": "247be507973782b796b6dbaa92d3d85584750007",
     "subject": "Editorial: Declarative Env Rec has field [[Bindings]]"
    },
    {
     "adate": "2025-08-19T21:30:27-04:00",
     "author": "Michael Dyck",
-    "date": "2026-02-24T20:40:19-05:00",
-    "hash": "2a294fb7883af41c90759970dacd83fe37906492",
-    "parents": "e315fbab5fded81dd81a7d64b6a272c71640e89d",
+    "date": "2026-04-27T22:46:20-04:00",
+    "hash": "247be507973782b796b6dbaa92d3d85584750007",
+    "parents": "7bb144bf848d6a079749dd824cb58808b446394b",
     "subject": "Editorial: Treat a binding as an 'alias-able' thing"
    },
    {
     "adate": "2021-01-23T22:54:21-05:00",
     "author": "Michael Dyck",
-    "date": "2026-02-24T20:40:19-05:00",
-    "hash": "e315fbab5fded81dd81a7d64b6a272c71640e89d",
-    "parents": "1a78d83ce857b87477bc95764c81bc6637720ca1",
+    "date": "2026-04-27T22:36:58-04:00",
+    "hash": "7bb144bf848d6a079749dd824cb58808b446394b",
+    "parents": "a12ed88a657de4959fbc7a3a2e46f08f38f6b59a",
     "subject": "Editorial: Use Declarative Env Rec's HasBinding method"
+   },
+   {
+    "adate": "2026-04-27T21:34:15-04:00",
+    "author": "Michael Dyck",
+    "date": "2026-04-27T21:47:07-04:00",
+    "hash": "a12ed88a657de4959fbc7a3a2e46f08f38f6b59a",
+    "parents": "189d27a4e510052a899ed53c4d5c582b24138319",
+    "subject": "Editorial: Undo a recent regression"
    }
   ],
   "title": "Editorial: Model the bindings of a declarative Env Rec as a List of Records",
-  "updated_at": "2026-02-25T03:41:06Z"
+  "updated_at": "2026-04-28T22:25:12Z"
  },
  {
   "base": "32fe924d97f504194c96d71217e73da2bcdb2d91",
@@ -5312,9 +5328,9 @@
   "updated_at": "2024-08-10T14:52:40Z"
  },
  {
-  "base": "4895a117eb54edd829f2010092bae8f41c2b174a",
+  "base": "189d27a4e510052a899ed53c4d5c582b24138319",
   "created_at": "2020-12-08T06:31:39Z",
-  "head": "29234b3ad4f3228128018dfabf455264e8060eba",
+  "head": "af3bb023ff74232a5a6719eb95ca68c64042b3a8",
   "login": "jmdyck",
   "number": 2246,
   "ref": "ExecutionContext_Record",
@@ -5322,70 +5338,78 @@
    {
     "adate": "2025-02-19T17:23:33-05:00",
     "author": "Michael Dyck",
-    "date": "2026-03-11T11:34:09-04:00",
-    "hash": "29234b3ad4f3228128018dfabf455264e8060eba",
-    "parents": "be8b0776bbe71465fe4c99c2429cc47964dd9b53",
+    "date": "2026-04-27T23:37:29-04:00",
+    "hash": "af3bb023ff74232a5a6719eb95ca68c64042b3a8",
+    "parents": "dea00822a8213fb251ad53a83f28fa620e003cbf",
     "subject": "fixup: remove a line from esmeta-ignore.json"
    },
    {
     "adate": "2022-08-31T23:46:33-04:00",
     "author": "Michael Dyck",
-    "date": "2026-03-11T11:34:09-04:00",
-    "hash": "be8b0776bbe71465fe4c99c2429cc47964dd9b53",
-    "parents": "29d3475d7f55cbb2bf860c716702c70e5be55590",
+    "date": "2026-04-27T23:37:29-04:00",
+    "hash": "dea00822a8213fb251ad53a83f28fa620e003cbf",
+    "parents": "eaa6c6ea1f3b5a3143f6856bf04a4640a36c197f",
     "subject": "fixup: \"execution context\" -> \"ExecutionContext Record\" in some prose"
    },
    {
     "adate": "2022-08-31T23:31:55-04:00",
     "author": "Michael Dyck",
-    "date": "2026-03-11T11:34:07-04:00",
-    "hash": "29d3475d7f55cbb2bf860c716702c70e5be55590",
-    "parents": "b58d7137f1891936d76ccf016d98c7c3bda30ed8",
+    "date": "2026-04-27T23:37:29-04:00",
+    "hash": "eaa6c6ea1f3b5a3143f6856bf04a4640a36c197f",
+    "parents": "3b931954d34f17817841146096cede2151fff12f",
     "subject": "fixup: \"execution context\" -> \"ExecutionContext Record\" in some alg steps"
    },
    {
     "adate": "2022-08-31T23:13:29-04:00",
     "author": "Michael Dyck",
-    "date": "2026-03-11T11:32:39-04:00",
-    "hash": "b58d7137f1891936d76ccf016d98c7c3bda30ed8",
-    "parents": "2cdbef4aed3380d3e94408b02131e0fcca81c589",
+    "date": "2026-04-27T23:37:29-04:00",
+    "hash": "3b931954d34f17817841146096cede2151fff12f",
+    "parents": "fb2160210329f11c0d9e1a1f15581b5750c7f1a6",
     "subject": "fixup: Avoid saying \"that execution context\" by naming it"
    },
    {
     "adate": "2022-08-31T20:30:10-04:00",
     "author": "Michael Dyck",
-    "date": "2026-03-11T11:32:39-04:00",
-    "hash": "2cdbef4aed3380d3e94408b02131e0fcca81c589",
-    "parents": "2c3d0609aa4dd7eb38280fab9607b36bc6342ab2",
+    "date": "2026-04-27T23:37:28-04:00",
+    "hash": "fb2160210329f11c0d9e1a1f15581b5750c7f1a6",
+    "parents": "7b72129fcbf38d5a42364040d0383347099afee0",
     "subject": "fixup: \"execution context\" -> \"ExecutionContext Record\" in record-field tables"
    },
    {
     "adate": "2022-08-31T20:24:28-04:00",
     "author": "Michael Dyck",
-    "date": "2026-03-11T11:32:39-04:00",
-    "hash": "2c3d0609aa4dd7eb38280fab9607b36bc6342ab2",
-    "parents": "3a7393f62b3109121200851b776e1fa707445c86",
+    "date": "2026-04-27T23:37:24-04:00",
+    "hash": "7b72129fcbf38d5a42364040d0383347099afee0",
+    "parents": "518e73efefeb3ff4e134788dd3f8dd65cb0a6d3b",
     "subject": "fixup: \"execution context\" -> \"ExecutionContext Record\" in AO headers"
    },
    {
     "adate": "2022-08-31T23:32:48-04:00",
     "author": "Michael Dyck",
-    "date": "2026-03-11T11:32:39-04:00",
-    "hash": "3a7393f62b3109121200851b776e1fa707445c86",
-    "parents": "c362efd57ce37070fb5fb1e1f68e120e7b25e58f",
+    "date": "2026-04-27T23:36:01-04:00",
+    "hash": "518e73efefeb3ff4e134788dd3f8dd65cb0a6d3b",
+    "parents": "91e801d056207bc75416e9c692b3cf6612319cee",
     "subject": "fixup: \"execution context\" -> \"ExecutionContext Record\" in the <dfn> of ECMAScript code execution contexts"
    },
    {
     "adate": "2020-12-08T01:22:55-05:00",
     "author": "Michael Dyck",
-    "date": "2026-03-11T11:32:37-04:00",
-    "hash": "c362efd57ce37070fb5fb1e1f68e120e7b25e58f",
-    "parents": "4895a117eb54edd829f2010092bae8f41c2b174a",
+    "date": "2026-04-27T23:35:58-04:00",
+    "hash": "91e801d056207bc75416e9c692b3cf6612319cee",
+    "parents": "a12ed88a657de4959fbc7a3a2e46f08f38f6b59a",
     "subject": "Editorial: Model execution context as a record"
+   },
+   {
+    "adate": "2026-04-27T21:34:15-04:00",
+    "author": "Michael Dyck",
+    "date": "2026-04-27T21:47:07-04:00",
+    "hash": "a12ed88a657de4959fbc7a3a2e46f08f38f6b59a",
+    "parents": "189d27a4e510052a899ed53c4d5c582b24138319",
+    "subject": "Editorial: Undo a recent regression"
    }
   ],
   "title": "Editorial: Model execution context as a record",
-  "updated_at": "2026-03-11T18:40:44Z"
+  "updated_at": "2026-04-28T22:30:18Z"
  },
  {
   "base": "b3f9b5089bcc3ddd8486379015cd11eb1427a5eb",
@@ -5656,9 +5680,9 @@
   "updated_at": "2026-04-18T06:25:53Z"
  },
  {
-  "base": "4895a117eb54edd829f2010092bae8f41c2b174a",
+  "base": "189d27a4e510052a899ed53c4d5c582b24138319",
   "created_at": "2019-07-13T02:30:44Z",
-  "head": "6ce51c0c2543ff9fa574322b6347e944328328cb",
+  "head": "376559a685690162074ad434dad29dbc3c3cfd74",
   "login": "jmdyck",
   "number": 1623,
   "ref": "index_strings",
@@ -5666,38 +5690,46 @@
    {
     "adate": "2019-07-12T11:59:54-04:00",
     "author": "Michael Dyck",
-    "date": "2026-03-11T11:42:49-04:00",
-    "hash": "6ce51c0c2543ff9fa574322b6347e944328328cb",
-    "parents": "8d7dae9729a532c8368ebf0248b84f57d6d15c06",
+    "date": "2026-04-28T09:28:58-04:00",
+    "hash": "376559a685690162074ad434dad29dbc3c3cfd74",
+    "parents": "10b4bb49602136072608eb752a8caf5f5bf56392",
     "subject": "Editorial: some minor rewordings"
    },
    {
     "adate": "2019-07-12T11:12:43-04:00",
     "author": "Michael Dyck",
-    "date": "2026-03-11T11:42:35-04:00",
-    "hash": "8d7dae9729a532c8368ebf0248b84f57d6d15c06",
-    "parents": "2074fb2d45976353ce4f58078a17b6a5c087805e",
+    "date": "2026-04-28T09:28:57-04:00",
+    "hash": "10b4bb49602136072608eb752a8caf5f5bf56392",
+    "parents": "a4ff5542e53ca29c7acd8fd5350c2ad2062971c9",
     "subject": "Editorial: Replace \"array index\" with \"Uint32-string\""
    },
    {
     "adate": "2019-07-12T10:23:31-04:00",
     "author": "Michael Dyck",
-    "date": "2026-03-11T11:41:28-04:00",
-    "hash": "2074fb2d45976353ce4f58078a17b6a5c087805e",
-    "parents": "783ba7e08b61a1b61ec95307ae4b63c811ddee9d",
+    "date": "2026-04-28T09:26:44-04:00",
+    "hash": "a4ff5542e53ca29c7acd8fd5350c2ad2062971c9",
+    "parents": "78a87fda2f1bb4aacc3f5cab6377ead59a79e78e",
     "subject": "Editorial: Replace \"integer index\" with \"Uint53-string\""
    },
    {
     "adate": "2019-07-12T21:58:00-04:00",
     "author": "Michael Dyck",
-    "date": "2026-03-11T11:41:27-04:00",
-    "hash": "783ba7e08b61a1b61ec95307ae4b63c811ddee9d",
-    "parents": "4895a117eb54edd829f2010092bae8f41c2b174a",
+    "date": "2026-04-28T09:21:05-04:00",
+    "hash": "78a87fda2f1bb4aacc3f5cab6377ead59a79e78e",
+    "parents": "a12ed88a657de4959fbc7a3a2e46f08f38f6b59a",
     "subject": "Editorial: Fix wording in Note for Arguments exotic objects"
+   },
+   {
+    "adate": "2026-04-27T21:34:15-04:00",
+    "author": "Michael Dyck",
+    "date": "2026-04-27T21:47:07-04:00",
+    "hash": "a12ed88a657de4959fbc7a3a2e46f08f38f6b59a",
+    "parents": "189d27a4e510052a899ed53c4d5c582b24138319",
+    "subject": "Editorial: Undo a recent regression"
    }
   ],
   "title": "Editorial: Replace terms \"integer index\" and \"array index\"",
-  "updated_at": "2026-03-11T18:42:36Z"
+  "updated_at": "2026-04-28T22:40:33Z"
  },
  {
   "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
