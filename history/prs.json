@@ -964,13 +964,21 @@
   "updated_at": "2026-03-18T07:11:09Z"
  },
  {
-  "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
+  "base": "189d27a4e510052a899ed53c4d5c582b24138319",
   "created_at": "2026-02-16T23:53:01Z",
-  "head": "1ad112ebabeca68af2dee1d77e26f2ea76fed5d3",
+  "head": "80dc92d8c8069594bd7be11778a17cf8803dc7ce",
   "login": "ptomato",
   "number": 3759,
   "ref": "temporal-stage-4",
   "revs": [
+   {
+    "adate": "2026-04-29T14:30:35-07:00",
+    "author": "Philip Chimento",
+    "date": "2026-04-29T14:30:35-07:00",
+    "hash": "80dc92d8c8069594bd7be11778a17cf8803dc7ce",
+    "parents": "1ad112ebabeca68af2dee1d77e26f2ea76fed5d3",
+    "subject": "(fixup) Editorial: remove incorrect completion assertion"
+   },
    {
     "adate": "2026-04-21T16:33:27-07:00",
     "author": "Philip Chimento",
@@ -1181,7 +1189,7 @@
    }
   ],
   "title": "Normative: add Temporal",
-  "updated_at": "2026-04-21T23:39:14Z"
+  "updated_at": "2026-04-29T21:31:17Z"
  },
  {
   "base": "8febdacb384c2661df5a00c0e77dcb69896496e2",
