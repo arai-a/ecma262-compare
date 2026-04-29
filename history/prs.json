@@ -1,23 +1,71 @@
 [
  {
-  "base": "189d27a4e510052a899ed53c4d5c582b24138319",
-  "created_at": "2026-04-28T01:55:49Z",
-  "head": "a12ed88a657de4959fbc7a3a2e46f08f38f6b59a",
-  "login": "jmdyck",
-  "number": 3839,
-  "ref": "main",
+  "base": "3e0bdf0757a1a4f790044a35aa2ac53ca1fbc7a9",
+  "created_at": "2026-04-29T15:58:49Z",
+  "head": "70b59424fe2c75275432357ffa5f64fb479fd71f",
+  "login": "gibson042",
+  "number": 3841,
+  "ref": "2026-04-refactor-parseint",
   "revs": [
    {
-    "adate": "2026-04-27T21:34:15-04:00",
-    "author": "Michael Dyck",
-    "date": "2026-04-27T21:47:07-04:00",
-    "hash": "a12ed88a657de4959fbc7a3a2e46f08f38f6b59a",
-    "parents": "189d27a4e510052a899ed53c4d5c582b24138319",
-    "subject": "Editorial: Undo a recent regression"
+    "adate": "2026-04-29T10:49:16-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-04-29T11:50:32-04:00",
+    "hash": "70b59424fe2c75275432357ffa5f64fb479fd71f",
+    "parents": "c8ee84f5d685fac0046b50af339206f15ebe6034",
+    "subject": "Editorial: Clarify derivation of _stripHexPrefix_ from _radixMV_ in parseInt"
+   },
+   {
+    "adate": "2026-04-29T10:49:16-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-04-29T11:23:43-04:00",
+    "hash": "c8ee84f5d685fac0046b50af339206f15ebe6034",
+    "parents": "be74371c4691d60e9653ad827a0912e5f46e836b",
+    "subject": "Editorial: Simplify the final return of parseInt"
+   },
+   {
+    "adate": "2026-04-29T10:49:16-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-04-29T11:23:00-04:00",
+    "hash": "be74371c4691d60e9653ad827a0912e5f46e836b",
+    "parents": "229f05ddb35dd69b772099a6cb01ae8bae1d0b96",
+    "subject": "Editorial: Reduce hex-specific nesting depth in parseInt"
+   },
+   {
+    "adate": "2026-04-29T10:49:16-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-04-29T11:20:55-04:00",
+    "hash": "229f05ddb35dd69b772099a6cb01ae8bae1d0b96",
+    "parents": "8312298a1edc0c683dd186da0e7dec7f10293364",
+    "subject": "Editorial: Rename the hex-specific _stripPrefix_ alias in parseInt"
+   },
+   {
+    "adate": "2026-04-29T10:49:16-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-04-29T11:09:59-04:00",
+    "hash": "8312298a1edc0c683dd186da0e7dec7f10293364",
+    "parents": "dff015fc16014c48820aa7728d9e8c2b7eb2120a",
+    "subject": "Editorial: Separate `-`/`+` handling in parseInt"
+   },
+   {
+    "adate": "2026-04-29T10:49:16-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-04-29T11:06:11-04:00",
+    "hash": "dff015fc16014c48820aa7728d9e8c2b7eb2120a",
+    "parents": "a4c349abe95237d31fb1158fd2d79711db245882",
+    "subject": "Editorial: Fix use of substring in parseInt"
+   },
+   {
+    "adate": "2026-04-29T10:49:16-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-04-29T10:49:16-04:00",
+    "hash": "a4c349abe95237d31fb1158fd2d79711db245882",
+    "parents": "3e0bdf0757a1a4f790044a35aa2ac53ca1fbc7a9",
+    "subject": "Editorial: Move fallible parseInt steps to the beginning"
    }
   ],
-  "title": "Editorial: Undo a recent regression",
-  "updated_at": "2026-04-28T02:52:20Z"
+  "title": "Editorial: Refactor parseInt into more cleanly-separated phases",
+  "updated_at": "2026-04-29T16:04:18Z"
  },
  {
   "base": "189d27a4e510052a899ed53c4d5c582b24138319",
@@ -657,42 +705,6 @@
  },
  {
   "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
-  "created_at": "2026-04-09T01:39:24Z",
-  "head": "46ac2bda6b6b5182fbda7ac68d23330964139a74",
-  "login": "tc39",
-  "number": 3826,
-  "ref": "narrowings",
-  "revs": [
-   {
-    "adate": "2026-04-09T14:33:39-06:00",
-    "author": "Michael Ficarra",
-    "date": "2026-04-09T14:33:39-06:00",
-    "hash": "46ac2bda6b6b5182fbda7ac68d23330964139a74",
-    "parents": "fc80864c3e6bb651c3da3a1dde05bad267e769b4",
-    "subject": "assert not a Proxy"
-   },
-   {
-    "adate": "2026-04-09T14:11:48-06:00",
-    "author": "Michael Ficarra",
-    "date": "2026-04-09T14:11:48-06:00",
-    "hash": "fc80864c3e6bb651c3da3a1dde05bad267e769b4",
-    "parents": "d8ba584bd04bc0d88ff167ca6fe7fc529ee9f1b7",
-    "subject": "fix errors"
-   },
-   {
-    "adate": "2026-04-08T19:38:13-06:00",
-    "author": "Michael Ficarra",
-    "date": "2026-04-08T19:38:13-06:00",
-    "hash": "d8ba584bd04bc0d88ff167ca6fe7fc529ee9f1b7",
-    "parents": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
-    "subject": "Editorial: narrow some AO return types and parameter types"
-   }
-  ],
-  "title": "Editorial: narrow some AO return types and parameter types",
-  "updated_at": "2026-04-09T20:38:02Z"
- },
- {
-  "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
   "created_at": "2026-04-09T00:20:20Z",
   "head": "09ad76492a736f16c2e0c4641d367b5523fb5761",
   "login": "bakkot",
@@ -750,34 +762,6 @@
   ],
   "title": "Editorial: remove incorrect note about [[NoTear]]",
   "updated_at": "2026-04-08T21:28:54Z"
- },
- {
-  "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
-  "created_at": "2026-04-08T20:13:39Z",
-  "head": "de7c4efd3b8c8dc228ec7a15f610517f31a5bedc",
-  "login": "tc39",
-  "number": 3810,
-  "ref": "IsLessThan-description",
-  "revs": [
-   {
-    "adate": "2026-04-09T14:16:47-06:00",
-    "author": "Michael Ficarra",
-    "date": "2026-04-09T14:16:47-06:00",
-    "hash": "de7c4efd3b8c8dc228ec7a15f610517f31a5bedc",
-    "parents": "2993932e2d23f9eff18898f9cb1c758dde2fb5c9",
-    "subject": "accept suggestion"
-   },
-   {
-    "adate": "2026-04-08T13:11:20-06:00",
-    "author": "Michael Ficarra",
-    "date": "2026-04-08T13:13:26-06:00",
-    "hash": "2993932e2d23f9eff18898f9cb1c758dde2fb5c9",
-    "parents": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
-    "subject": "Editorial: fix error in description of IsLessThan"
-   }
-  ],
-  "title": "Editorial: fix error in description of IsLessThan",
-  "updated_at": "2026-04-09T20:17:17Z"
  },
  {
   "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
