@@ -2496,64 +2496,24 @@
   "updated_at": "2024-03-26T14:27:53Z"
  },
  {
-  "base": "5d8f62d6ab761960206c3f6ddf4992534fe9726f",
+  "base": "3e0bdf0757a1a4f790044a35aa2ac53ca1fbc7a9",
   "created_at": "2024-03-07T15:36:34Z",
-  "head": "21861c1ba2feaef37277c9d54d1facd6f47dd227",
+  "head": "db2e2bbfbe2ca291deed8b4ff4b2e91949ae76c1",
   "login": "lukewarlow",
   "number": 3294,
   "ref": "codelike-hostensurecancompilestrings",
   "revs": [
    {
-    "adate": "2024-05-07T12:25:38+01:00",
+    "adate": "2026-04-30T12:27:16+01:00",
     "author": "Luke Warlow",
-    "date": "2024-05-07T12:25:38+01:00",
-    "hash": "21861c1ba2feaef37277c9d54d1facd6f47dd227",
-    "parents": "63dbfae3955807b8b3f8e59680a86effc797634c",
-    "subject": "Re-add codeString argument to HostEnsureCanCompileStrings"
-   },
-   {
-    "adate": "2024-04-15T16:24:10+01:00",
-    "author": "Luke Warlow",
-    "date": "2024-04-15T20:13:40+01:00",
-    "hash": "63dbfae3955807b8b3f8e59680a86effc797634c",
-    "parents": "77b9febd9df8e72c4f12f049bdb386b1c744c254",
-    "subject": "Fix"
-   },
-   {
-    "adate": "2024-04-15T16:01:39+01:00",
-    "author": "Luke Warlow",
-    "date": "2024-04-15T16:01:39+01:00",
-    "hash": "77b9febd9df8e72c4f12f049bdb386b1c744c254",
-    "parents": "3c43358cac078afca5aeee223107c15434fbe67c",
-    "subject": "Move HostEnsureCanCompileStrings back up to original position in CreateDynamicFunction, it no longer needs moving as it doesn't need the source string."
-   },
-   {
-    "adate": "2024-04-15T15:31:44+01:00",
-    "author": "Luke Warlow",
-    "date": "2024-04-15T15:52:04+01:00",
-    "hash": "3c43358cac078afca5aeee223107c15434fbe67c",
-    "parents": "1c36fd052d5627e56cded1e38e89342ed99d5fb2",
-    "subject": "Address comments"
-   },
-   {
-    "adate": "2024-04-09T11:34:25+01:00",
-    "author": "Luke Warlow",
-    "date": "2024-04-15T15:32:32+01:00",
-    "hash": "1c36fd052d5627e56cded1e38e89342ed99d5fb2",
-    "parents": "7cb6b7775779dbf5764362d91990200a66f03300",
-    "subject": "Changes based on consensus"
-   },
-   {
-    "adate": "2024-03-07T15:34:40+00:00",
-    "author": "Luke Warlow",
-    "date": "2024-04-15T15:32:32+01:00",
-    "hash": "7cb6b7775779dbf5764362d91990200a66f03300",
-    "parents": "5d8f62d6ab761960206c3f6ddf4992534fe9726f",
-    "subject": "Normative: Allow CodeLike object evaluation"
+    "date": "2026-04-30T12:27:16+01:00",
+    "hash": "db2e2bbfbe2ca291deed8b4ff4b2e91949ae76c1",
+    "parents": "3e0bdf0757a1a4f790044a35aa2ac53ca1fbc7a9",
+    "subject": "Normative: Allow codelike object evaluation."
    }
   ],
   "title": "Normative: Allow CodeLike object evaluation",
-  "updated_at": "2024-05-07T11:26:06Z"
+  "updated_at": "2026-04-30T11:27:57Z"
  },
  {
   "base": "6d7aa1b57f4b3390000d939fdc1920046b81d938",
