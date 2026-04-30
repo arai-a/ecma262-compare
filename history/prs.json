@@ -2,11 +2,27 @@
  {
   "base": "3e0bdf0757a1a4f790044a35aa2ac53ca1fbc7a9",
   "created_at": "2026-04-29T15:58:49Z",
-  "head": "70b59424fe2c75275432357ffa5f64fb479fd71f",
+  "head": "41b9523e3ec049b8a87c45d5e60560616c7ebc48",
   "login": "gibson042",
   "number": 3841,
   "ref": "2026-04-refactor-parseint",
   "revs": [
+   {
+    "adate": "2026-04-29T10:49:16-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-04-30T15:25:11-04:00",
+    "hash": "41b9523e3ec049b8a87c45d5e60560616c7ebc48",
+    "parents": "b30085a3427f776d033f7872ce165d5563cbdb3a",
+    "subject": "Editorial: Inline _stripHexPrefix_ in parseInt"
+   },
+   {
+    "adate": "2026-04-29T10:49:16-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-04-30T15:05:00-04:00",
+    "hash": "b30085a3427f776d033f7872ce165d5563cbdb3a",
+    "parents": "70b59424fe2c75275432357ffa5f64fb479fd71f",
+    "subject": "Editorial: Separate _radixMV_ bounds checking from _stripHexPrefix_ initialization in parseInt"
+   },
    {
     "adate": "2026-04-29T10:49:16-04:00",
     "author": "Richard Gibson",
@@ -65,7 +81,7 @@
    }
   ],
   "title": "Editorial: Refactor parseInt into more cleanly-separated phases",
-  "updated_at": "2026-04-29T16:04:18Z"
+  "updated_at": "2026-04-30T19:27:38Z"
  },
  {
   "base": "189d27a4e510052a899ed53c4d5c582b24138319",
@@ -892,24 +908,32 @@
   "updated_at": "2026-03-27T20:20:59Z"
  },
  {
-  "base": "880398845fd935bddad6a494ceeeb6c94397cc36",
+  "base": "3e0bdf0757a1a4f790044a35aa2ac53ca1fbc7a9",
   "created_at": "2026-03-26T04:21:16Z",
-  "head": "a5e3a693eb55d657874a788acc80dfb891fc40b7",
+  "head": "20e6fb7219b0ac4d1183e9c925b52516fdf11e3c",
   "login": "tc39",
   "number": 3776,
   "ref": "mathematical-counters",
   "revs": [
    {
+    "adate": "2026-04-30T13:48:56-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-30T13:53:29-06:00",
+    "hash": "20e6fb7219b0ac4d1183e9c925b52516fdf11e3c",
+    "parents": "b59e2cbd6acacdd8dd3d559415b216b4bad79e0f",
+    "subject": "fix syntax error"
+   },
+   {
     "adate": "2026-03-25T22:00:24-06:00",
     "author": "Michael Ficarra",
-    "date": "2026-03-27T06:01:46-06:00",
-    "hash": "a5e3a693eb55d657874a788acc80dfb891fc40b7",
-    "parents": "880398845fd935bddad6a494ceeeb6c94397cc36",
+    "date": "2026-04-30T13:53:27-06:00",
+    "hash": "b59e2cbd6acacdd8dd3d559415b216b4bad79e0f",
+    "parents": "3e0bdf0757a1a4f790044a35aa2ac53ca1fbc7a9",
     "subject": "Normative: use Numbers instead of reals as counters in Iterator builtins"
    }
   ],
   "title": "Normative: use Numbers instead of reals as counters in Iterator builtins",
-  "updated_at": "2026-03-27T12:01:48Z"
+  "updated_at": "2026-04-30T19:54:24Z"
  },
  {
   "base": "4895a117eb54edd829f2010092bae8f41c2b174a",
