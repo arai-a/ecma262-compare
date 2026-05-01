@@ -910,11 +910,19 @@
  {
   "base": "3e0bdf0757a1a4f790044a35aa2ac53ca1fbc7a9",
   "created_at": "2026-03-26T04:21:16Z",
-  "head": "20e6fb7219b0ac4d1183e9c925b52516fdf11e3c",
+  "head": "635a2b1946afc0d4beb1e08630096a194113e3a9",
   "login": "tc39",
   "number": 3776,
   "ref": "mathematical-counters",
   "revs": [
+   {
+    "adate": "2026-04-30T18:27:23-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-04-30T18:27:23-06:00",
+    "hash": "635a2b1946afc0d4beb1e08630096a194113e3a9",
+    "parents": "20e6fb7219b0ac4d1183e9c925b52516fdf11e3c",
+    "subject": "oops"
+   },
    {
     "adate": "2026-04-30T13:48:56-06:00",
     "author": "Michael Ficarra",
@@ -933,7 +941,7 @@
    }
   ],
   "title": "Normative: use Numbers instead of reals as counters in Iterator builtins",
-  "updated_at": "2026-04-30T19:54:24Z"
+  "updated_at": "2026-05-01T00:28:05Z"
  },
  {
   "base": "4895a117eb54edd829f2010092bae8f41c2b174a",
