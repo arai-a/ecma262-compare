@@ -1,6 +1,26 @@
 [
  {
   "base": "3e0bdf0757a1a4f790044a35aa2ac53ca1fbc7a9",
+  "created_at": "2026-05-01T21:01:10Z",
+  "head": "26600bc44cb1a2e7ad7d6f22fcffa5eaf783b49c",
+  "login": "bakkot",
+  "number": 3842,
+  "ref": "rm-incorrect-assert",
+  "revs": [
+   {
+    "adate": "2026-05-01T13:58:21-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2026-05-01T13:58:21-07:00",
+    "hash": "26600bc44cb1a2e7ad7d6f22fcffa5eaf783b49c",
+    "parents": "3e0bdf0757a1a4f790044a35aa2ac53ca1fbc7a9",
+    "subject": "Editorial: remove incorrect assertion in SerializeJSONProperty"
+   }
+  ],
+  "title": "Editorial: remove incorrect assertion in SerializeJSONProperty",
+  "updated_at": "2026-05-01T21:14:50Z"
+ },
+ {
+  "base": "3e0bdf0757a1a4f790044a35aa2ac53ca1fbc7a9",
   "created_at": "2026-04-29T15:58:49Z",
   "head": "41b9523e3ec049b8a87c45d5e60560616c7ebc48",
   "login": "gibson042",
