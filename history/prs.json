@@ -3472,13 +3472,29 @@
   "updated_at": "2023-05-25T23:43:21Z"
  },
  {
-  "base": "189d27a4e510052a899ed53c4d5c582b24138319",
+  "base": "3e0bdf0757a1a4f790044a35aa2ac53ca1fbc7a9",
   "created_at": "2023-01-23T22:42:45Z",
-  "head": "e9ac02b0bde8a7a3d2eef00636771feed89c443c",
+  "head": "bc71ada18c354b749174fca581d10349487ade42",
   "login": "rbuckton",
   "number": 3000,
   "ref": "explicit-resource-management",
   "revs": [
+   {
+    "adate": "2026-05-04T17:41:32-04:00",
+    "author": "Ron Buckton",
+    "date": "2026-05-04T17:41:32-04:00",
+    "hash": "bc71ada18c354b749174fca581d10349487ade42",
+    "parents": "5bbd5a19ae9aef18924719540ee722ba6bf20d0f",
+    "subject": "Revert changes to esmeta-ignore.json"
+   },
+   {
+    "adate": "2026-05-04T17:17:51-04:00",
+    "author": "Ron Buckton",
+    "date": "2026-05-04T17:17:51-04:00",
+    "hash": "5bbd5a19ae9aef18924719540ee722ba6bf20d0f",
+    "parents": "e9ac02b0bde8a7a3d2eef00636771feed89c443c 3e0bdf0757a1a4f790044a35aa2ac53ca1fbc7a9",
+    "subject": "Merge branch 'main' into explicit-resource-management"
+   },
    {
     "adate": "2026-04-30T16:56:52-04:00",
     "author": "Ron Buckton",
@@ -4217,7 +4233,7 @@
    }
   ],
   "title": "Add `using` and `await using` Declarations, SuppressedError, DisposableStack, and AsyncDisposableStack",
-  "updated_at": "2026-04-30T20:56:59Z"
+  "updated_at": "2026-05-04T21:44:50Z"
  },
  {
   "base": "8aac12603c99f94d982317832b0e03c13684ce0a",
