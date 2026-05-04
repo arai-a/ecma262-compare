@@ -2,11 +2,19 @@
  {
   "base": "3e0bdf0757a1a4f790044a35aa2ac53ca1fbc7a9",
   "created_at": "2026-05-03T04:18:28Z",
-  "head": "b6f496159991b630b3c8e4a9d3d42c80672b5a82",
+  "head": "ea6db32a456356bddfefa41e403432b087740250",
   "login": "gibson042",
   "number": 3843,
   "ref": "2026-05-dismissable-snapshot-warning",
   "revs": [
+   {
+    "adate": "2026-05-04T12:37:30-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-05-04T12:37:30-04:00",
+    "hash": "ea6db32a456356bddfefa41e403432b087740250",
+    "parents": "b6f496159991b630b3c8e4a9d3d42c80672b5a82",
+    "subject": "fixup! Meta: Make pressing Escape collapse the snapshot-warning"
+   },
    {
     "adate": "2026-05-02T20:42:58-04:00",
     "author": "Richard Gibson",
@@ -25,7 +33,7 @@
    }
   ],
   "title": "Meta: Improve usability of the PR preview snapshot warning",
-  "updated_at": "2026-05-03T04:34:40Z"
+  "updated_at": "2026-05-04T17:02:19Z"
  },
  {
   "base": "3e0bdf0757a1a4f790044a35aa2ac53ca1fbc7a9",
