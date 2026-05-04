@@ -4984,64 +4984,72 @@
   "updated_at": "2022-03-02T21:12:59Z"
  },
  {
-  "base": "c73a1ef89f63dfa7ef4c627b01799dab6f4c95d9",
+  "base": "3e0bdf0757a1a4f790044a35aa2ac53ca1fbc7a9",
   "created_at": "2022-02-13T20:18:38Z",
-  "head": "308349ddadd611d8dde21531f274413762aa98a0",
+  "head": "3e5f08893a9d8d36f0c6234af5d257ecb90db118",
   "login": "jmdyck",
   "number": 2664,
   "ref": "RunSuspendedContext",
   "revs": [
    {
+    "adate": "2026-05-04T16:24:47-04:00",
+    "author": "Michael Dyck",
+    "date": "2026-05-04T16:24:47-04:00",
+    "hash": "3e5f08893a9d8d36f0c6234af5d257ecb90db118",
+    "parents": "a73000911cc9988cc694f25cdacadd433c884b90",
+    "subject": "fixup: add Notes re ignoring the return value of RunSuspendedContext in Await()"
+   },
+   {
     "adate": "2022-02-12T10:27:05-05:00",
     "author": "Michael Dyck",
-    "date": "2026-04-15T22:35:22-04:00",
-    "hash": "308349ddadd611d8dde21531f274413762aa98a0",
-    "parents": "67aff3dd3598826c145c83aea6b7ec8cda5b7afb",
+    "date": "2026-04-29T20:17:51-04:00",
+    "hash": "a73000911cc9988cc694f25cdacadd433c884b90",
+    "parents": "4e39aec5e586ec53c2f6e2fbfc51cfb1fa130fe8",
     "subject": "Clean up after the previous refactoring"
    },
    {
     "adate": "2022-02-12T10:14:24-05:00",
     "author": "Michael Dyck",
-    "date": "2026-04-15T22:35:22-04:00",
-    "hash": "67aff3dd3598826c145c83aea6b7ec8cda5b7afb",
-    "parents": "68347451561b8d001ba9c2ca4e98ecb1272fa5c6",
+    "date": "2026-04-29T20:17:51-04:00",
+    "hash": "4e39aec5e586ec53c2f6e2fbfc51cfb1fa130fe8",
+    "parents": "d77558cf7508b872b09045cb37e0ebc20e87a675",
     "subject": "Factor out RunSuspendedContext abstract operation"
    },
    {
     "adate": "2022-02-12T10:08:51-05:00",
     "author": "Michael Dyck",
-    "date": "2026-04-15T22:35:22-04:00",
-    "hash": "68347451561b8d001ba9c2ca4e98ecb1272fa5c6",
-    "parents": "cd9e4db01cbe0c7754a8ef69a95c64c6830db669",
+    "date": "2026-04-29T20:17:51-04:00",
+    "hash": "d77558cf7508b872b09045cb37e0ebc20e87a675",
+    "parents": "6dd95a03e97a4c81e33bde7383bfce44bb93fa68",
     "subject": "Preliminary tweaks before next commit"
    },
    {
     "adate": "2022-02-13T14:22:23-05:00",
     "author": "Michael Dyck",
-    "date": "2026-04-15T22:35:22-04:00",
-    "hash": "cd9e4db01cbe0c7754a8ef69a95c64c6830db669",
-    "parents": "689fa72d05de59ea15f24d315ec9e818024e1d43",
+    "date": "2026-04-29T20:17:51-04:00",
+    "hash": "6dd95a03e97a4c81e33bde7383bfce44bb93fa68",
+    "parents": "28083cce3304201a64c39648b2f6051f1eaf3296",
     "subject": "Move \"Suspend the running execution context\" steps"
    },
    {
     "adate": "2022-02-13T14:16:44-05:00",
     "author": "Michael Dyck",
-    "date": "2026-04-15T22:35:22-04:00",
-    "hash": "689fa72d05de59ea15f24d315ec9e818024e1d43",
-    "parents": "9193e50c43fc7252c3165931ae21bbbb48c1fdfe",
+    "date": "2026-04-29T20:17:51-04:00",
+    "hash": "28083cce3304201a64c39648b2f6051f1eaf3296",
+    "parents": "5d770a35819c38762a71ce2016dc88110c0f5e3b",
     "subject": "AsyncFunctionStart: Add \"Suspend _runningContext_\""
    },
    {
     "adate": "2022-02-13T14:14:46-05:00",
     "author": "Michael Dyck",
-    "date": "2026-04-15T22:35:15-04:00",
-    "hash": "9193e50c43fc7252c3165931ae21bbbb48c1fdfe",
-    "parents": "c73a1ef89f63dfa7ef4c627b01799dab6f4c95d9",
+    "date": "2026-04-29T20:17:51-04:00",
+    "hash": "5d770a35819c38762a71ce2016dc88110c0f5e3b",
+    "parents": "3e0bdf0757a1a4f790044a35aa2ac53ca1fbc7a9",
     "subject": "ExecuteModule: Distribute \"Suspend the running execution context\""
    }
   ],
   "title": "Editorial: Factor out AO RunSuspendedContext()",
-  "updated_at": "2026-04-16T03:29:13Z"
+  "updated_at": "2026-05-04T21:04:43Z"
  },
  {
   "base": "267fdbdc716677bc9934906a498cf9bad4bfb70d",
