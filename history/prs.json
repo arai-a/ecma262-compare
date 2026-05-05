@@ -1086,11 +1086,35 @@
  {
   "base": "189d27a4e510052a899ed53c4d5c582b24138319",
   "created_at": "2026-02-16T23:53:01Z",
-  "head": "80dc92d8c8069594bd7be11778a17cf8803dc7ce",
+  "head": "83226c19056d4e06de4cfbb04a176b360ad02e66",
   "login": "ptomato",
   "number": 3759,
   "ref": "temporal-stage-4",
   "revs": [
+   {
+    "adate": "2026-05-05T10:47:23-07:00",
+    "author": "Philip Chimento",
+    "date": "2026-05-05T10:47:23-07:00",
+    "hash": "83226c19056d4e06de4cfbb04a176b360ad02e66",
+    "parents": "9da9da10460f17fee35639e7985702d1b9f33559",
+    "subject": "(review) Add assertion in GetTemporalRelativeToOption"
+   },
+   {
+    "adate": "2026-05-05T10:05:08-07:00",
+    "author": "Philip Chimento",
+    "date": "2026-05-05T10:05:08-07:00",
+    "hash": "9da9da10460f17fee35639e7985702d1b9f33559",
+    "parents": "7d8ac79158230fd57362c5ea742a9724bb29d0bb",
+    "subject": "(fixup) typo"
+   },
+   {
+    "adate": "2026-05-05T10:04:53-07:00",
+    "author": "Philip Chimento",
+    "date": "2026-05-05T10:04:53-07:00",
+    "hash": "7d8ac79158230fd57362c5ea742a9724bb29d0bb",
+    "parents": "80dc92d8c8069594bd7be11778a17cf8803dc7ce",
+    "subject": "(optional) Replace TemporalUnitCategory with \"is a date/time unit\""
+   },
    {
     "adate": "2026-04-29T14:30:35-07:00",
     "author": "Philip Chimento",
@@ -1309,7 +1333,7 @@
    }
   ],
   "title": "Normative: add Temporal",
-  "updated_at": "2026-04-29T21:31:17Z"
+  "updated_at": "2026-05-05T17:48:51Z"
  },
  {
   "base": "8febdacb384c2661df5a00c0e77dcb69896496e2",
