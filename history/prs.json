@@ -3506,11 +3506,19 @@
  {
   "base": "3e0bdf0757a1a4f790044a35aa2ac53ca1fbc7a9",
   "created_at": "2023-01-23T22:42:45Z",
-  "head": "bc71ada18c354b749174fca581d10349487ade42",
+  "head": "44b8cd0e18e4c5b0fc7fa819af28e935946df6c8",
   "login": "rbuckton",
   "number": 3000,
   "ref": "explicit-resource-management",
   "revs": [
+   {
+    "adate": "2026-05-05T17:37:00-04:00",
+    "author": "Ron Buckton",
+    "date": "2026-05-05T17:37:00-04:00",
+    "hash": "44b8cd0e18e4c5b0fc7fa819af28e935946df6c8",
+    "parents": "bc71ada18c354b749174fca581d10349487ade42",
+    "subject": "PR fix type and function/method usage"
+   },
    {
     "adate": "2026-05-04T17:41:32-04:00",
     "author": "Ron Buckton",
@@ -4265,7 +4273,7 @@
    }
   ],
   "title": "Add `using` and `await using` Declarations, SuppressedError, DisposableStack, and AsyncDisposableStack",
-  "updated_at": "2026-05-04T21:44:50Z"
+  "updated_at": "2026-05-05T21:43:41Z"
  },
  {
   "base": "8aac12603c99f94d982317832b0e03c13684ce0a",
