@@ -2656,56 +2656,56 @@
   "updated_at": "2024-01-31T17:05:37Z"
  },
  {
-  "base": "189d27a4e510052a899ed53c4d5c582b24138319",
+  "base": "8ebc410f26e9cc2e55afe927d098d5507a64ab90",
   "created_at": "2023-11-22T16:10:17Z",
-  "head": "23b9fbd168c1adea5e488e6e8c81365df738c14b",
+  "head": "2e70daba7186f574040914772053a804a1f6c8af",
   "login": "jmdyck",
   "number": 3227,
   "ref": "unchecked_covering_node",
   "revs": [
    {
+    "adate": "2026-05-04T22:17:39-04:00",
+    "author": "Michael Dyck",
+    "date": "2026-05-04T22:17:39-04:00",
+    "hash": "2e70daba7186f574040914772053a804a1f6c8af",
+    "parents": "ceab0a01ed5bdd3a3712528b1df7f685c3dee765",
+    "subject": "fixup: Remove sentence defining \"descendants\""
+   },
+   {
     "adate": "2023-11-24T11:03:33-05:00",
     "author": "Michael Dyck",
-    "date": "2026-04-27T22:09:00-04:00",
-    "hash": "23b9fbd168c1adea5e488e6e8c81365df738c14b",
-    "parents": "b0d5cb7dbf1c7ae557a6bd33afcb44fdba31e355",
+    "date": "2026-04-29T20:12:02-04:00",
+    "hash": "ceab0a01ed5bdd3a3712528b1df7f685c3dee765",
+    "parents": "f2ac9ab0155f4da4a45af6ab267a74a9350352bb",
     "subject": "Bring together all the prose about ObjectLiteral being a cover for ObjectAssignmentPattern."
    },
    {
     "adate": "2023-11-23T21:26:42-05:00",
     "author": "Michael Dyck",
-    "date": "2026-04-27T22:09:00-04:00",
-    "hash": "b0d5cb7dbf1c7ae557a6bd33afcb44fdba31e355",
-    "parents": "f82dd39f364b0fbe5d9507ee5cd8987b00fb05a0",
+    "date": "2026-04-29T20:12:02-04:00",
+    "hash": "f2ac9ab0155f4da4a45af6ab267a74a9350352bb",
+    "parents": "c7914e6d4ead42b34d4794a0e764f5379f8135e0",
     "subject": "Move the early error rule for ObjectLiteral"
    },
    {
     "adate": "2023-11-22T10:49:02-05:00",
     "author": "Michael Dyck",
-    "date": "2026-04-27T22:09:00-04:00",
-    "hash": "f82dd39f364b0fbe5d9507ee5cd8987b00fb05a0",
-    "parents": "0dbfe593223e425122cef120ec1013ceff67fc89",
+    "date": "2026-04-29T20:12:02-04:00",
+    "hash": "c7914e6d4ead42b34d4794a0e764f5379f8135e0",
+    "parents": "8044f7396b539ed067b413c42bb67eaba606fd02",
     "subject": "Editorial: Delete now-redundant para + add example"
    },
    {
     "adate": "2023-11-22T09:12:23-05:00",
     "author": "Michael Dyck",
-    "date": "2026-04-27T22:08:37-04:00",
-    "hash": "0dbfe593223e425122cef120ec1013ceff67fc89",
-    "parents": "a12ed88a657de4959fbc7a3a2e46f08f38f6b59a",
+    "date": "2026-04-29T20:12:02-04:00",
+    "hash": "8044f7396b539ed067b413c42bb67eaba606fd02",
+    "parents": "3e0bdf0757a1a4f790044a35aa2ac53ca1fbc7a9",
     "subject": "Editorial: Don't check a cover for early errors"
-   },
-   {
-    "adate": "2026-04-27T21:34:15-04:00",
-    "author": "Michael Dyck",
-    "date": "2026-04-27T21:47:07-04:00",
-    "hash": "a12ed88a657de4959fbc7a3a2e46f08f38f6b59a",
-    "parents": "189d27a4e510052a899ed53c4d5c582b24138319",
-    "subject": "Editorial: Undo a recent regression"
    }
   ],
   "title": "Editorial: Don't check a cover for early errors",
-  "updated_at": "2026-04-28T22:06:00Z"
+  "updated_at": "2026-05-05T02:18:54Z"
  },
  {
   "base": "82c99bbc44e4b63e3a14ffbf0ac90ce8359c1010",
