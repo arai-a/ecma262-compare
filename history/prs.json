@@ -5040,80 +5040,24 @@
   "updated_at": "2022-03-02T21:12:59Z"
  },
  {
-  "base": "3e0bdf0757a1a4f790044a35aa2ac53ca1fbc7a9",
+  "base": "8ebc410f26e9cc2e55afe927d098d5507a64ab90",
   "created_at": "2022-02-13T20:18:38Z",
-  "head": "c9d6aabe75c5bd9b7814514cc5de79e2d71a3aa0",
+  "head": "f36acf9ed841d78074cd1db5e4a4ecc3b05fde17",
   "login": "jmdyck",
   "number": 2664,
   "ref": "RunSuspendedContext",
   "revs": [
    {
-    "adate": "2026-05-04T21:59:53-04:00",
-    "author": "Michael Dyck",
-    "date": "2026-05-04T21:59:53-04:00",
-    "hash": "c9d6aabe75c5bd9b7814514cc5de79e2d71a3aa0",
-    "parents": "3e5f08893a9d8d36f0c6234af5d257ecb90db118",
-    "subject": "fixup: `_cr_` -> `_completionRecord_`"
-   },
-   {
-    "adate": "2026-05-04T16:24:47-04:00",
-    "author": "Michael Dyck",
-    "date": "2026-05-04T16:24:47-04:00",
-    "hash": "3e5f08893a9d8d36f0c6234af5d257ecb90db118",
-    "parents": "a73000911cc9988cc694f25cdacadd433c884b90",
-    "subject": "fixup: add Notes re ignoring the return value of RunSuspendedContext in Await()"
-   },
-   {
-    "adate": "2022-02-12T10:27:05-05:00",
-    "author": "Michael Dyck",
-    "date": "2026-04-29T20:17:51-04:00",
-    "hash": "a73000911cc9988cc694f25cdacadd433c884b90",
-    "parents": "4e39aec5e586ec53c2f6e2fbfc51cfb1fa130fe8",
-    "subject": "Clean up after the previous refactoring"
-   },
-   {
-    "adate": "2022-02-12T10:14:24-05:00",
-    "author": "Michael Dyck",
-    "date": "2026-04-29T20:17:51-04:00",
-    "hash": "4e39aec5e586ec53c2f6e2fbfc51cfb1fa130fe8",
-    "parents": "d77558cf7508b872b09045cb37e0ebc20e87a675",
-    "subject": "Factor out RunSuspendedContext abstract operation"
-   },
-   {
-    "adate": "2022-02-12T10:08:51-05:00",
-    "author": "Michael Dyck",
-    "date": "2026-04-29T20:17:51-04:00",
-    "hash": "d77558cf7508b872b09045cb37e0ebc20e87a675",
-    "parents": "6dd95a03e97a4c81e33bde7383bfce44bb93fa68",
-    "subject": "Preliminary tweaks before next commit"
-   },
-   {
-    "adate": "2022-02-13T14:22:23-05:00",
-    "author": "Michael Dyck",
-    "date": "2026-04-29T20:17:51-04:00",
-    "hash": "6dd95a03e97a4c81e33bde7383bfce44bb93fa68",
-    "parents": "28083cce3304201a64c39648b2f6051f1eaf3296",
-    "subject": "Move \"Suspend the running execution context\" steps"
-   },
-   {
-    "adate": "2022-02-13T14:16:44-05:00",
-    "author": "Michael Dyck",
-    "date": "2026-04-29T20:17:51-04:00",
-    "hash": "28083cce3304201a64c39648b2f6051f1eaf3296",
-    "parents": "5d770a35819c38762a71ce2016dc88110c0f5e3b",
-    "subject": "AsyncFunctionStart: Add \"Suspend _runningContext_\""
-   },
-   {
     "adate": "2022-02-13T14:14:46-05:00",
     "author": "Michael Dyck",
-    "date": "2026-04-29T20:17:51-04:00",
-    "hash": "5d770a35819c38762a71ce2016dc88110c0f5e3b",
+    "date": "2026-05-05T19:44:21-04:00",
+    "hash": "f36acf9ed841d78074cd1db5e4a4ecc3b05fde17",
     "parents": "3e0bdf0757a1a4f790044a35aa2ac53ca1fbc7a9",
-    "subject": "ExecuteModule: Distribute \"Suspend the running execution context\""
+    "subject": "Editorial: Factor out RunSuspendedContext abstract operation"
    }
   ],
   "title": "Editorial: Factor out AO RunSuspendedContext()",
-  "updated_at": "2026-05-05T02:00:21Z"
+  "updated_at": "2026-05-05T23:47:03Z"
  },
  {
   "base": "267fdbdc716677bc9934906a498cf9bad4bfb70d",
@@ -5416,64 +5360,104 @@
   "updated_at": "2021-03-02T20:18:19Z"
  },
  {
-  "base": "189d27a4e510052a899ed53c4d5c582b24138319",
+  "base": "8ebc410f26e9cc2e55afe927d098d5507a64ab90",
   "created_at": "2021-01-24T05:38:33Z",
-  "head": "75d5050807927c8daadfcd9b20dd1cf7d0581860",
+  "head": "1cdcaa1378d15adc08d9ba116a0663e319965af5",
   "login": "jmdyck",
   "number": 2288,
   "ref": "declarative_Env_Rec",
   "revs": [
    {
+    "adate": "2026-05-05T19:13:29-04:00",
+    "author": "Michael Dyck",
+    "date": "2026-05-05T19:13:29-04:00",
+    "hash": "1cdcaa1378d15adc08d9ba116a0663e319965af5",
+    "parents": "3265489369d9f93868972583dbcdf111b1a16b47",
+    "subject": "fixup: Mention that Function ERs and Module ERs override certain concrete methods"
+   },
+   {
+    "adate": "2026-05-05T17:50:18-04:00",
+    "author": "Michael Dyck",
+    "date": "2026-05-05T17:50:18-04:00",
+    "hash": "3265489369d9f93868972583dbcdf111b1a16b47",
+    "parents": "f0371e4b784c5f0cfe1449402ba5ec8f2eb71122",
+    "subject": "fixup: Convert \"Change its bound value\""
+   },
+   {
+    "adate": "2026-05-05T17:37:32-04:00",
+    "author": "Michael Dyck",
+    "date": "2026-05-05T17:37:32-04:00",
+    "hash": "f0371e4b784c5f0cfe1449402ba5ec8f2eb71122",
+    "parents": "ac5c767d61c951845739fa3b3e63a2e76aa0fbe6",
+    "subject": "fixup: Add forward-reference for ImportDeclarativeBinding"
+   },
+   {
+    "adate": "2026-05-05T17:33:28-04:00",
+    "author": "Michael Dyck",
+    "date": "2026-05-05T17:33:28-04:00",
+    "hash": "ac5c767d61c951845739fa3b3e63a2e76aa0fbe6",
+    "parents": "a3db93f7cab7b0e563cabb1967b923ffcb914743",
+    "subject": "fixup: Better \"Meaning\" for `[[Bindings]]`"
+   },
+   {
+    "adate": "2026-05-05T17:29:23-04:00",
+    "author": "Michael Dyck",
+    "date": "2026-05-05T17:29:23-04:00",
+    "hash": "a3db93f7cab7b0e563cabb1967b923ffcb914743",
+    "parents": "da7a4eeda722b42a9ba1a7f9375732f1eb7b2fdd",
+    "subject": "fixup: Insert `!` before HasBinding invocations"
+   },
+   {
+    "adate": "2026-05-05T17:02:23-04:00",
+    "author": "Michael Dyck",
+    "date": "2026-05-05T17:02:23-04:00",
+    "hash": "da7a4eeda722b42a9ba1a7f9375732f1eb7b2fdd",
+    "parents": "274750f66314f1f14c14a09f3b09dea5f8e83286",
+    "subject": "fixup: Capitalize the \"Meaning\" of fields"
+   },
+   {
     "adate": "2023-09-02T23:02:35-04:00",
     "author": "Michael Dyck",
-    "date": "2026-04-27T22:59:57-04:00",
-    "hash": "75d5050807927c8daadfcd9b20dd1cf7d0581860",
-    "parents": "6ebcda45c01293ab640b84cba4491ce38c4e113f",
+    "date": "2026-04-29T20:19:16-04:00",
+    "hash": "274750f66314f1f14c14a09f3b09dea5f8e83286",
+    "parents": "289dc7ee497954ee8ecfa60d524ee38c4fb34e1c",
     "subject": "fixup: add 'variants' attributes; change \"equals\" to \"is\""
    },
    {
     "adate": "2025-08-19T21:37:07-04:00",
     "author": "Michael Dyck",
-    "date": "2026-04-27T22:58:57-04:00",
-    "hash": "6ebcda45c01293ab640b84cba4491ce38c4e113f",
-    "parents": "0f3c1bd7fe1ebfc6c73a1895eb21117a3eb1ec13",
+    "date": "2026-04-29T20:19:16-04:00",
+    "hash": "289dc7ee497954ee8ecfa60d524ee38c4fb34e1c",
+    "parents": "207de356a3e89d8b15885187b98435278241dfb1",
     "subject": "Editorial: Model a declarative binding as a Record"
    },
    {
     "adate": "2025-08-19T21:35:25-04:00",
     "author": "Michael Dyck",
-    "date": "2026-04-27T22:50:39-04:00",
-    "hash": "0f3c1bd7fe1ebfc6c73a1895eb21117a3eb1ec13",
-    "parents": "247be507973782b796b6dbaa92d3d85584750007",
+    "date": "2026-04-29T20:19:16-04:00",
+    "hash": "207de356a3e89d8b15885187b98435278241dfb1",
+    "parents": "08210664181e0d661c935898370ac1aa5041f5ff",
     "subject": "Editorial: Declarative Env Rec has field [[Bindings]]"
    },
    {
     "adate": "2025-08-19T21:30:27-04:00",
     "author": "Michael Dyck",
-    "date": "2026-04-27T22:46:20-04:00",
-    "hash": "247be507973782b796b6dbaa92d3d85584750007",
-    "parents": "7bb144bf848d6a079749dd824cb58808b446394b",
+    "date": "2026-04-29T20:19:16-04:00",
+    "hash": "08210664181e0d661c935898370ac1aa5041f5ff",
+    "parents": "ed340d4dda1415414917104c72119edac48b80b1",
     "subject": "Editorial: Treat a binding as an 'alias-able' thing"
    },
    {
     "adate": "2021-01-23T22:54:21-05:00",
     "author": "Michael Dyck",
-    "date": "2026-04-27T22:36:58-04:00",
-    "hash": "7bb144bf848d6a079749dd824cb58808b446394b",
-    "parents": "a12ed88a657de4959fbc7a3a2e46f08f38f6b59a",
+    "date": "2026-04-29T20:19:16-04:00",
+    "hash": "ed340d4dda1415414917104c72119edac48b80b1",
+    "parents": "3e0bdf0757a1a4f790044a35aa2ac53ca1fbc7a9",
     "subject": "Editorial: Use Declarative Env Rec's HasBinding method"
-   },
-   {
-    "adate": "2026-04-27T21:34:15-04:00",
-    "author": "Michael Dyck",
-    "date": "2026-04-27T21:47:07-04:00",
-    "hash": "a12ed88a657de4959fbc7a3a2e46f08f38f6b59a",
-    "parents": "189d27a4e510052a899ed53c4d5c582b24138319",
-    "subject": "Editorial: Undo a recent regression"
    }
   ],
   "title": "Editorial: Model the bindings of a declarative Env Rec as a List of Records",
-  "updated_at": "2026-04-28T22:25:12Z"
+  "updated_at": "2026-05-05T23:25:44Z"
  },
  {
   "base": "32fe924d97f504194c96d71217e73da2bcdb2d91",
