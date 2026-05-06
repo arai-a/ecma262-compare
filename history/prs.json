@@ -732,66 +732,6 @@
   "updated_at": "2026-04-30T16:22:05Z"
  },
  {
-  "base": "189d27a4e510052a899ed53c4d5c582b24138319",
-  "created_at": "2026-04-12T01:43:36Z",
-  "head": "06ccf1e2e7ecbf6f8c86d4bb4a8fa81f6d2c422f",
-  "login": "gibson042",
-  "number": 3832,
-  "ref": "2026-04-tofixedsizeinteger",
-  "revs": [
-   {
-    "adate": "2026-05-01T10:47:44-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-05-01T10:47:44-04:00",
-    "hash": "06ccf1e2e7ecbf6f8c86d4bb4a8fa81f6d2c422f",
-    "parents": "8d9d33f1014d3afd1960a5e8224d1dc946619b80",
-    "subject": "fixup! Editorial: Refactor ToFixedSizeInteger to be infallible"
-   },
-   {
-    "adate": "2026-04-28T14:25:00-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-04-28T14:25:00-04:00",
-    "hash": "8d9d33f1014d3afd1960a5e8224d1dc946619b80",
-    "parents": "85ca9582e05db6502ec65464c9619b595dccfade",
-    "subject": "fixup! Editorial: Reword the ToFixedSizeInteger note"
-   },
-   {
-    "adate": "2026-04-23T15:00:01-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-04-23T15:00:01-04:00",
-    "hash": "85ca9582e05db6502ec65464c9619b595dccfade",
-    "parents": "24b3ce141e5e88a2cdc4eff2a70be5a71d574274",
-    "subject": "Editorial: Reword the ToFixedSizeInteger note"
-   },
-   {
-    "adate": "2026-04-13T11:30:49-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-04-13T11:30:49-04:00",
-    "hash": "24b3ce141e5e88a2cdc4eff2a70be5a71d574274",
-    "parents": "0b5401f95f42ec645f0bebed37b4b54bbf0d4892",
-    "subject": "fixup! Editorial: Refactor ToFixedSizeInteger to be infallible"
-   },
-   {
-    "adate": "2026-04-11T21:38:56-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-04-12T11:03:36-04:00",
-    "hash": "0b5401f95f42ec645f0bebed37b4b54bbf0d4892",
-    "parents": "bf286aab9b3ec471f8f3dcfbfac48c4182fcea1d",
-    "subject": "Editorial: Refactor ToFixedSizeInteger to be infallible"
-   },
-   {
-    "adate": "2026-04-11T21:38:56-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-04-11T21:38:56-04:00",
-    "hash": "bf286aab9b3ec471f8f3dcfbfac48c4182fcea1d",
-    "parents": "c73a1ef89f63dfa7ef4c627b01799dab6f4c95d9",
-    "subject": "Editorial: Introduce ToFixedSizeInteger for backing To{Int,Uint}{8,16,32} and To{BigInt,BigUint}64"
-   }
-  ],
-  "title": "Editorial: Introduce an operation for backing To{Int,Uint}{8,16,32} and To{BigInt,BigUint}64",
-  "updated_at": "2026-05-01T15:50:55Z"
- },
- {
   "base": "3282e07ac8811a9639c915ef8f85dc4f3aea3e8e",
   "created_at": "2026-04-09T20:05:54Z",
   "head": "dee934aba6633704189f925f73ffc519fa157b4c",
@@ -3506,11 +3446,19 @@
  {
   "base": "3e0bdf0757a1a4f790044a35aa2ac53ca1fbc7a9",
   "created_at": "2023-01-23T22:42:45Z",
-  "head": "44b8cd0e18e4c5b0fc7fa819af28e935946df6c8",
+  "head": "a69ebc4dc3569271dec9fd86ddf51e7afc04f711",
   "login": "rbuckton",
   "number": 3000,
   "ref": "explicit-resource-management",
   "revs": [
+   {
+    "adate": "2026-05-06T15:34:19-04:00",
+    "author": "Ron Buckton",
+    "date": "2026-05-06T15:34:19-04:00",
+    "hash": "a69ebc4dc3569271dec9fd86ddf51e7afc04f711",
+    "parents": "44b8cd0e18e4c5b0fc7fa819af28e935946df6c8",
+    "subject": "Additional editorial feedback"
+   },
    {
     "adate": "2026-05-05T17:37:00-04:00",
     "author": "Ron Buckton",
@@ -4273,7 +4221,7 @@
    }
   ],
   "title": "Add `using` and `await using` Declarations, SuppressedError, DisposableStack, and AsyncDisposableStack",
-  "updated_at": "2026-05-05T21:43:41Z"
+  "updated_at": "2026-05-06T19:34:26Z"
  },
  {
   "base": "8aac12603c99f94d982317832b0e03c13684ce0a",
@@ -5038,26 +4986,6 @@
   ],
   "title": "Move class and method related abstract operations to more relevant section",
   "updated_at": "2022-03-02T21:12:59Z"
- },
- {
-  "base": "8ebc410f26e9cc2e55afe927d098d5507a64ab90",
-  "created_at": "2022-02-13T20:18:38Z",
-  "head": "f36acf9ed841d78074cd1db5e4a4ecc3b05fde17",
-  "login": "jmdyck",
-  "number": 2664,
-  "ref": "RunSuspendedContext",
-  "revs": [
-   {
-    "adate": "2022-02-13T14:14:46-05:00",
-    "author": "Michael Dyck",
-    "date": "2026-05-05T19:44:21-04:00",
-    "hash": "f36acf9ed841d78074cd1db5e4a4ecc3b05fde17",
-    "parents": "3e0bdf0757a1a4f790044a35aa2ac53ca1fbc7a9",
-    "subject": "Editorial: Factor out RunSuspendedContext abstract operation"
-   }
-  ],
-  "title": "Editorial: Factor out AO RunSuspendedContext()",
-  "updated_at": "2026-05-05T23:47:03Z"
  },
  {
   "base": "267fdbdc716677bc9934906a498cf9bad4bfb70d",
