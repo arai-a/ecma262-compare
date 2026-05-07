@@ -1,31 +1,59 @@
 [
  {
-  "base": "8ebc410f26e9cc2e55afe927d098d5507a64ab90",
+  "base": "67ac2b7318378d72ef6e5cfe227b5392a98e210e",
+  "created_at": "2026-05-06T23:48:04Z",
+  "head": "09822e42c85ecb0c57df142f2733d5b7d5f25c00",
+  "login": "syg",
+  "number": 3847,
+  "ref": "atomics-pause",
+  "revs": [
+   {
+    "adate": "2026-05-06T16:47:28-07:00",
+    "author": "Shu-yu Guo",
+    "date": "2026-05-06T16:47:40-07:00",
+    "hash": "09822e42c85ecb0c57df142f2733d5b7d5f25c00",
+    "parents": "67ac2b7318378d72ef6e5cfe227b5392a98e210e",
+    "subject": "Normative: add Atomics.pause"
+   }
+  ],
+  "title": "Normative: add Atomics.pause",
+  "updated_at": "2026-05-06T23:48:56Z"
+ },
+ {
+  "base": "67ac2b7318378d72ef6e5cfe227b5392a98e210e",
   "created_at": "2026-05-05T01:53:43Z",
-  "head": "47bb6b1744abc03392af30b6c85c2c49a1f824e5",
+  "head": "77fc8594fd388d9869eb53bf4bce010265a1631d",
   "login": "jmdyck",
   "number": 3846,
   "ref": "RunCallerContext",
   "revs": [
    {
+    "adate": "2026-05-06T21:29:19-04:00",
+    "author": "Michael Dyck",
+    "date": "2026-05-06T21:29:19-04:00",
+    "hash": "77fc8594fd388d9869eb53bf4bce010265a1631d",
+    "parents": "e00860112d0ccfe543fb1fa03fd0d6abab2e7d30",
+    "subject": "fixup: insert comma"
+   },
+   {
     "adate": "2022-11-09T09:34:39-05:00",
     "author": "Michael Dyck",
-    "date": "2026-04-29T20:30:18-04:00",
-    "hash": "47bb6b1744abc03392af30b6c85c2c49a1f824e5",
-    "parents": "a7f19b4d8a41070790bf194a34f6aeedf9ae33c1",
+    "date": "2026-05-06T10:07:51-04:00",
+    "hash": "e00860112d0ccfe543fb1fa03fd0d6abab2e7d30",
+    "parents": "0c4add2ae21a5d1efda8a89f5c1cbbec5f2e03f2",
     "subject": "fixup: wording around `Resume`"
    },
    {
     "adate": "2022-02-14T23:02:30-05:00",
     "author": "Michael Dyck",
-    "date": "2026-04-29T20:30:18-04:00",
-    "hash": "a7f19b4d8a41070790bf194a34f6aeedf9ae33c1",
-    "parents": "3e0bdf0757a1a4f790044a35aa2ac53ca1fbc7a9",
+    "date": "2026-05-06T10:07:51-04:00",
+    "hash": "0c4add2ae21a5d1efda8a89f5c1cbbec5f2e03f2",
+    "parents": "67ac2b7318378d72ef6e5cfe227b5392a98e210e",
     "subject": "Factor out RunCallerContext"
    }
   ],
   "title": "Editorial: Factor out AO RunCallerContext()",
-  "updated_at": "2026-05-05T01:59:09Z"
+  "updated_at": "2026-05-07T01:34:34Z"
  },
  {
   "base": "3e0bdf0757a1a4f790044a35aa2ac53ca1fbc7a9",
@@ -5416,9 +5444,9 @@
   "updated_at": "2024-08-10T14:52:40Z"
  },
  {
-  "base": "3e0bdf0757a1a4f790044a35aa2ac53ca1fbc7a9",
+  "base": "67ac2b7318378d72ef6e5cfe227b5392a98e210e",
   "created_at": "2020-12-08T06:31:39Z",
-  "head": "b73c3f7b1cfa7cbe6885b3310bdd1056f911644c",
+  "head": "72bb574339262d46372151570498871d2642b51b",
   "login": "jmdyck",
   "number": 2246,
   "ref": "ExecutionContext_Record",
@@ -5426,38 +5454,38 @@
    {
     "adate": "2026-05-04T19:44:47-04:00",
     "author": "Michael Dyck",
-    "date": "2026-05-04T19:44:47-04:00",
-    "hash": "b73c3f7b1cfa7cbe6885b3310bdd1056f911644c",
-    "parents": "b7421e31e18431684f8546e988851ffe9f10dbd6",
+    "date": "2026-05-06T17:24:26-04:00",
+    "hash": "72bb574339262d46372151570498871d2642b51b",
+    "parents": "6090e1650f6fb57ed37ccc41b34cedbeac6d22fe",
     "subject": "fixup: Wrap `<dfn>` around \"ExecutionContext Record\""
    },
    {
     "adate": "2025-02-19T17:23:33-05:00",
     "author": "Michael Dyck",
-    "date": "2026-05-04T19:41:16-04:00",
-    "hash": "b7421e31e18431684f8546e988851ffe9f10dbd6",
-    "parents": "2e46ebb7c00066537161413010c16a413273e540",
+    "date": "2026-05-06T17:24:26-04:00",
+    "hash": "6090e1650f6fb57ed37ccc41b34cedbeac6d22fe",
+    "parents": "243c57a1d10e50f8ab896d911c6573e6a74f6a4f",
     "subject": "fixup: remove a line from esmeta-ignore.json"
    },
    {
     "adate": "2022-08-31T23:13:29-04:00",
     "author": "Michael Dyck",
-    "date": "2026-05-04T19:41:16-04:00",
-    "hash": "2e46ebb7c00066537161413010c16a413273e540",
-    "parents": "7f5a1d3c0d24781982a6870eba6be5624756351c",
+    "date": "2026-05-06T17:24:25-04:00",
+    "hash": "243c57a1d10e50f8ab896d911c6573e6a74f6a4f",
+    "parents": "dcfe69f5ef3618fbeb328dc7bd0ac1a6b7d1e6bd",
     "subject": "fixup: Avoid saying \"that execution context\" by naming it"
    },
    {
     "adate": "2020-12-08T01:22:55-05:00",
     "author": "Michael Dyck",
-    "date": "2026-05-04T19:41:00-04:00",
-    "hash": "7f5a1d3c0d24781982a6870eba6be5624756351c",
-    "parents": "3e0bdf0757a1a4f790044a35aa2ac53ca1fbc7a9",
+    "date": "2026-05-06T17:22:40-04:00",
+    "hash": "dcfe69f5ef3618fbeb328dc7bd0ac1a6b7d1e6bd",
+    "parents": "67ac2b7318378d72ef6e5cfe227b5392a98e210e",
     "subject": "Editorial: Model execution context as a record"
    }
   ],
   "title": "Editorial: Model execution context as a record",
-  "updated_at": "2026-05-05T00:09:18Z"
+  "updated_at": "2026-05-07T01:49:50Z"
  },
  {
   "base": "b3f9b5089bcc3ddd8486379015cd11eb1427a5eb",
