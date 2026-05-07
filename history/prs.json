@@ -94,11 +94,19 @@
  {
   "base": "3e0bdf0757a1a4f790044a35aa2ac53ca1fbc7a9",
   "created_at": "2026-05-01T21:01:10Z",
-  "head": "26600bc44cb1a2e7ad7d6f22fcffa5eaf783b49c",
+  "head": "478a7028e438e18ba4061afbb04befc86aa30d16",
   "login": "bakkot",
   "number": 3842,
   "ref": "rm-incorrect-assert",
   "revs": [
+   {
+    "adate": "2026-05-07T08:52:16-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2026-05-07T08:52:16-07:00",
+    "hash": "478a7028e438e18ba4061afbb04befc86aa30d16",
+    "parents": "26600bc44cb1a2e7ad7d6f22fcffa5eaf783b49c",
+    "subject": "an Array or a Proxy exotic object -> an Object"
+   },
    {
     "adate": "2026-05-01T13:58:21-07:00",
     "author": "Kevin Gibbons",
@@ -109,7 +117,7 @@
    }
   ],
   "title": "Editorial: remove incorrect assertion in SerializeJSONProperty",
-  "updated_at": "2026-05-01T21:14:50Z"
+  "updated_at": "2026-05-07T16:33:50Z"
  },
  {
   "base": "3e0bdf0757a1a4f790044a35aa2ac53ca1fbc7a9",
@@ -3474,11 +3482,19 @@
  {
   "base": "67ac2b7318378d72ef6e5cfe227b5392a98e210e",
   "created_at": "2023-01-23T22:42:45Z",
-  "head": "8eb2f36d13ee257e328431d09e8b2cd0c5b037d1",
+  "head": "3bf704902bc6f426a0a2dc9b562d01f175695326",
   "login": "rbuckton",
   "number": 3000,
   "ref": "explicit-resource-management",
   "revs": [
+   {
+    "adate": "2026-05-07T11:36:58-04:00",
+    "author": "Ron Buckton",
+    "date": "2026-05-07T11:36:58-04:00",
+    "hash": "3bf704902bc6f426a0a2dc9b562d01f175695326",
+    "parents": "8eb2f36d13ee257e328431d09e8b2cd0c5b037d1",
+    "subject": "Fix internal slot typo"
+   },
    {
     "adate": "2026-05-07T11:24:35-04:00",
     "author": "Ron Buckton",
@@ -4265,7 +4281,7 @@
    }
   ],
   "title": "Add `using` and `await using` Declarations, SuppressedError, DisposableStack, and AsyncDisposableStack",
-  "updated_at": "2026-05-07T15:28:26Z"
+  "updated_at": "2026-05-07T16:01:28Z"
  },
  {
   "base": "8aac12603c99f94d982317832b0e03c13684ce0a",
