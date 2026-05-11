@@ -3466,11 +3466,19 @@
  {
   "base": "0394941eca47b04f466cb85244ad7c9fb945bb5d",
   "created_at": "2023-01-23T22:42:45Z",
-  "head": "586f45954f1a200eba0bf33b896ae02744d40148",
+  "head": "5b80d953cd30e7b98a744edec8cce60bd4f3d8c2",
   "login": "rbuckton",
   "number": 3000,
   "ref": "explicit-resource-management",
   "revs": [
+   {
+    "adate": "2026-05-11T12:36:18-04:00",
+    "author": "Ron Buckton",
+    "date": "2026-05-11T12:36:18-04:00",
+    "hash": "5b80d953cd30e7b98a744edec8cce60bd4f3d8c2",
+    "parents": "586f45954f1a200eba0bf33b896ae02744d40148",
+    "subject": "Align aliases with tc39/ecma262#3873"
+   },
    {
     "adate": "2026-05-11T12:18:42-04:00",
     "author": "Ron Buckton",
@@ -4345,7 +4353,7 @@
    }
   ],
   "title": "Add `using` and `await using` Declarations, SuppressedError, DisposableStack, and AsyncDisposableStack",
-  "updated_at": "2026-05-11T16:23:12Z"
+  "updated_at": "2026-05-11T17:51:23Z"
  },
  {
   "base": "8aac12603c99f94d982317832b0e03c13684ce0a",
