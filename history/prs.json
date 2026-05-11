@@ -3466,11 +3466,59 @@
  {
   "base": "0394941eca47b04f466cb85244ad7c9fb945bb5d",
   "created_at": "2023-01-23T22:42:45Z",
-  "head": "a55401312da4f37e385a23829bc0642917530a63",
+  "head": "586f45954f1a200eba0bf33b896ae02744d40148",
   "login": "rbuckton",
   "number": 3000,
   "ref": "explicit-resource-management",
   "revs": [
+   {
+    "adate": "2026-05-11T12:18:42-04:00",
+    "author": "Ron Buckton",
+    "date": "2026-05-11T12:18:42-04:00",
+    "hash": "586f45954f1a200eba0bf33b896ae02744d40148",
+    "parents": "49c0bfb5249911e871c49ffd836c10089f7c8a5d",
+    "subject": "no list for mutually exclusive states"
+   },
+   {
+    "adate": "2026-05-11T09:42:23-04:00",
+    "author": "Ron Buckton",
+    "date": "2026-05-11T09:42:23-04:00",
+    "hash": "49c0bfb5249911e871c49ffd836c10089f7c8a5d",
+    "parents": "236a4c64e6d0661bf27606d6aeeaa7bec9b72da9",
+    "subject": "Other editorial feedback"
+   },
+   {
+    "adate": "2026-05-11T09:14:40-04:00",
+    "author": "Ron Buckton",
+    "date": "2026-05-11T09:14:40-04:00",
+    "hash": "236a4c64e6d0661bf27606d6aeeaa7bec9b72da9",
+    "parents": "93bb7966096fae000f8fa2f897d2fca6f673d38e",
+    "subject": "'property'->'properties' in (Async)Disposable interface desc"
+   },
+   {
+    "adate": "2026-05-11T09:13:10-04:00",
+    "author": "Ron Buckton",
+    "date": "2026-05-11T09:13:10-04:00",
+    "hash": "93bb7966096fae000f8fa2f897d2fca6f673d38e",
+    "parents": "7ed56c7805b40df51d3b4f3868430c0a12bb5e37",
+    "subject": "Revert 'this function'->'this method'"
+   },
+   {
+    "adate": "2026-05-11T09:10:43-04:00",
+    "author": "Ron Buckton",
+    "date": "2026-05-11T09:10:43-04:00",
+    "hash": "7ed56c7805b40df51d3b4f3868430c0a12bb5e37",
+    "parents": "60f965038604564507832e92e0d7a97db7d9ae00",
+    "subject": "SuppressedError.prototype description"
+   },
+   {
+    "adate": "2026-05-11T09:06:56-04:00",
+    "author": "Ron Buckton",
+    "date": "2026-05-11T09:06:56-04:00",
+    "hash": "60f965038604564507832e92e0d7a97db7d9ae00",
+    "parents": "a55401312da4f37e385a23829bc0642917530a63",
+    "subject": "Restore old ids"
+   },
    {
     "adate": "2026-05-08T14:53:26-04:00",
     "author": "Ron Buckton",
@@ -4297,7 +4345,7 @@
    }
   ],
   "title": "Add `using` and `await using` Declarations, SuppressedError, DisposableStack, and AsyncDisposableStack",
-  "updated_at": "2026-05-08T18:53:32Z"
+  "updated_at": "2026-05-11T16:23:12Z"
  },
  {
   "base": "8aac12603c99f94d982317832b0e03c13684ce0a",
