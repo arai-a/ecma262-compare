@@ -1,23 +1,71 @@
 [
  {
   "base": "0394941eca47b04f466cb85244ad7c9fb945bb5d",
+  "created_at": "2026-05-16T03:51:26Z",
+  "head": "e5353f96e36104ebb91cf845845bffa1cf65ff60",
+  "login": "alexey-alanreys",
+  "number": 3866,
+  "ref": "editorial/createglobalvarbinding-note",
+  "revs": [
+   {
+    "adate": "2026-05-16T03:50:23Z",
+    "author": "Alexey Alan-Reys",
+    "date": "2026-05-16T03:50:23Z",
+    "hash": "e5353f96e36104ebb91cf845845bffa1cf65ff60",
+    "parents": "babe0651725a53f531a94a393e4f050fdb8a4c4c",
+    "subject": "Editorial: add NOTE to CreateGlobalVarBinding about InitializeBinding Proxy behavior"
+   },
+   {
+    "adate": "2026-05-16T03:27:23Z",
+    "author": "Alexey Alan-Reys",
+    "date": "2026-05-16T03:27:23Z",
+    "hash": "babe0651725a53f531a94a393e4f050fdb8a4c4c",
+    "parents": "0394941eca47b04f466cb85244ad7c9fb945bb5d",
+    "subject": "Editorial: use UpdateEmpty for empty normal completion handling"
+   }
+  ],
+  "title": "Editorial: add NOTE to CreateGlobalVarBinding about InitializeBinding Proxy behavior",
+  "updated_at": "2026-05-16T03:51:26Z"
+ },
+ {
+  "base": "0394941eca47b04f466cb85244ad7c9fb945bb5d",
+  "created_at": "2026-05-16T03:29:33Z",
+  "head": "babe0651725a53f531a94a393e4f050fdb8a4c4c",
+  "login": "alexey-alanreys",
+  "number": 3865,
+  "ref": "main",
+  "revs": [
+   {
+    "adate": "2026-05-16T03:27:23Z",
+    "author": "Alexey Alan-Reys",
+    "date": "2026-05-16T03:27:23Z",
+    "hash": "babe0651725a53f531a94a393e4f050fdb8a4c4c",
+    "parents": "0394941eca47b04f466cb85244ad7c9fb945bb5d",
+    "subject": "Editorial: use UpdateEmpty for empty normal completion handling"
+   }
+  ],
+  "title": "Editorial: use UpdateEmpty for empty normal completion handling",
+  "updated_at": "2026-05-16T03:29:33Z"
+ },
+ {
+  "base": "767bf135b5d3a98e090c5a4743a797e52f18282e",
   "created_at": "2026-05-16T00:01:29Z",
-  "head": "bd2682a309b9ce89881775c4967c076399410656",
+  "head": "ea9098a98daab317ad15c1cc96691b60e8244cd3",
   "login": "jmdyck",
   "number": 3864,
   "ref": "editor_li",
   "revs": [
    {
-    "adate": "2026-05-15T19:55:00-04:00",
+    "adate": "2026-05-15T22:25:51-07:00",
     "author": "Michael Dyck",
-    "date": "2026-05-15T19:55:00-04:00",
-    "hash": "bd2682a309b9ce89881775c4967c076399410656",
-    "parents": "0394941eca47b04f466cb85244ad7c9fb945bb5d",
-    "subject": "Markup: Move `</li>` to end of line"
+    "date": "2026-05-15T22:25:51-07:00",
+    "hash": "ea9098a98daab317ad15c1cc96691b60e8244cd3",
+    "parents": "767bf135b5d3a98e090c5a4743a797e52f18282e",
+    "subject": "Markup: Move `</li>` to end of line (#3864)"
    }
   ],
   "title": "Markup: Move `</li>` to end of line",
-  "updated_at": "2026-05-16T00:27:15Z"
+  "updated_at": "2026-05-16T05:26:00Z"
  },
  {
   "base": "0394941eca47b04f466cb85244ad7c9fb945bb5d",
@@ -62,42 +110,6 @@
   ],
   "title": "Editorial: Replace ASCII quotes with typographic quotes as appropriate",
   "updated_at": "2026-05-15T15:10:46Z"
- },
- {
-  "base": "0394941eca47b04f466cb85244ad7c9fb945bb5d",
-  "created_at": "2026-05-15T13:39:59Z",
-  "head": "c6a8588a0783c01f5e8b2cc8cee8f2b891f0b8cc",
-  "login": "gibson042",
-  "number": 3859,
-  "ref": "gh-3858-returnifabrupt-shorthands-oldid",
-  "revs": [
-   {
-    "adate": "2026-05-15T11:03:47-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-05-15T11:03:47-04:00",
-    "hash": "c6a8588a0783c01f5e8b2cc8cee8f2b891f0b8cc",
-    "parents": "a3badb497c4972af187f2cf531db19128749deb6",
-    "subject": "Revert \"Editorial: Improve grammar in Shorthands for Unwrapping Completion Records\""
-   },
-   {
-    "adate": "2026-05-15T09:45:53-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-05-15T09:45:53-04:00",
-    "hash": "a3badb497c4972af187f2cf531db19128749deb6",
-    "parents": "b656ecc668158e62bb49fbdd9290268baec81744",
-    "subject": "Editorial: Improve grammar in Shorthands for Unwrapping Completion Records"
-   },
-   {
-    "adate": "2026-05-15T09:38:57-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-05-15T09:38:57-04:00",
-    "hash": "b656ecc668158e62bb49fbdd9290268baec81744",
-    "parents": "0394941eca47b04f466cb85244ad7c9fb945bb5d",
-    "subject": "Editorial: Restore anchor for sec-returnifabrupt-shorthands"
-   }
-  ],
-  "title": "Editorial: Restore anchor for sec-returnifabrupt-shorthands",
-  "updated_at": "2026-05-15T15:09:09Z"
  },
  {
   "base": "0394941eca47b04f466cb85244ad7c9fb945bb5d",
