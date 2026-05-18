@@ -1,5 +1,45 @@
 [
  {
+  "base": "ea9098a98daab317ad15c1cc96691b60e8244cd3",
+  "created_at": "2026-05-18T12:30:15Z",
+  "head": "4fece11b0a2d8ea486ed1212d018f4226b810dd9",
+  "login": "tc39",
+  "number": 3872,
+  "ref": "promise-subclassing",
+  "revs": [
+   {
+    "adate": "2026-05-18T14:24:27+02:00",
+    "author": "Michael Ficarra",
+    "date": "2026-05-18T14:24:27+02:00",
+    "hash": "4fece11b0a2d8ea486ed1212d018f4226b810dd9",
+    "parents": "ea9098a98daab317ad15c1cc96691b60e8244cd3",
+    "subject": "Editorial: reword description of Promise subclassing"
+   }
+  ],
+  "title": "Editorial: reword description of Promise subclassing",
+  "updated_at": "2026-05-18T12:38:52Z"
+ },
+ {
+  "base": "ea9098a98daab317ad15c1cc96691b60e8244cd3",
+  "created_at": "2026-05-18T12:20:36Z",
+  "head": "a936b7e340589cec3f00ce4711607c26b5afe22f",
+  "login": "tc39",
+  "number": 3871,
+  "ref": "includes-the-properties",
+  "revs": [
+   {
+    "adate": "2026-05-18T14:19:14+02:00",
+    "author": "Michael Ficarra",
+    "date": "2026-05-18T14:19:14+02:00",
+    "hash": "a936b7e340589cec3f00ce4711607c26b5afe22f",
+    "parents": "ea9098a98daab317ad15c1cc96691b60e8244cd3",
+    "subject": "Editorial: consistently use \"includes the properties\" phrasing"
+   }
+  ],
+  "title": "Editorial: consistently use \"includes the properties\" phrasing",
+  "updated_at": "2026-05-18T12:26:18Z"
+ },
+ {
   "base": "0394941eca47b04f466cb85244ad7c9fb945bb5d",
   "created_at": "2026-05-16T03:51:26Z",
   "head": "e5353f96e36104ebb91cf845845bffa1cf65ff60",
@@ -298,11 +338,27 @@
  {
   "base": "189d27a4e510052a899ed53c4d5c582b24138319",
   "created_at": "2026-04-25T04:01:09Z",
-  "head": "617a7ea3ce1caffbd8fc7f9dccdf871eaf40aaa9",
+  "head": "9f146fc89e601524739d22fe60fdf1200428580d",
   "login": "tc39",
   "number": 3837,
   "ref": "alias-abbreviations",
   "revs": [
+   {
+    "adate": "2026-05-18T14:02:53+02:00",
+    "author": "Michael Ficarra",
+    "date": "2026-05-18T14:02:53+02:00",
+    "hash": "9f146fc89e601524739d22fe60fdf1200428580d",
+    "parents": "87b1ca7e4d8fa555e33ac05fa59577941996fab1",
+    "subject": "declarative -> decl"
+   },
+   {
+    "adate": "2026-05-18T14:02:27+02:00",
+    "author": "Michael Ficarra",
+    "date": "2026-05-18T14:02:27+02:00",
+    "hash": "87b1ca7e4d8fa555e33ac05fa59577941996fab1",
+    "parents": "617a7ea3ce1caffbd8fc7f9dccdf871eaf40aaa9",
+    "subject": "declaration -> decl"
+   },
    {
     "adate": "2026-05-07T13:49:58-06:00",
     "author": "Michael Ficarra",
@@ -865,7 +921,7 @@
    }
   ],
   "title": "Editorial: consistently abbreviate terms used in aliases",
-  "updated_at": "2026-05-07T19:50:14Z"
+  "updated_at": "2026-05-18T12:10:12Z"
  },
  {
   "base": "3282e07ac8811a9639c915ef8f85dc4f3aea3e8e",
