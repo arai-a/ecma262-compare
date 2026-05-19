@@ -1266,11 +1266,27 @@
  {
   "base": "189d27a4e510052a899ed53c4d5c582b24138319",
   "created_at": "2026-02-16T23:53:01Z",
-  "head": "83226c19056d4e06de4cfbb04a176b360ad02e66",
+  "head": "1f4e6717ef23fc0401cbc6caca1f0bfbeb7be2ed",
   "login": "ptomato",
   "number": 3759,
   "ref": "temporal-stage-4",
   "revs": [
+   {
+    "adate": "2026-05-19T08:23:56-07:00",
+    "author": "Philip Chimento",
+    "date": "2026-05-19T08:23:56-07:00",
+    "hash": "1f4e6717ef23fc0401cbc6caca1f0bfbeb7be2ed",
+    "parents": "c97660929786f365807ecc03b9eb5080673b4bcd",
+    "subject": "(normative) Fix condition for bounding window with zero start"
+   },
+   {
+    "adate": "2026-05-19T08:22:09-07:00",
+    "author": "Philip Chimento",
+    "date": "2026-05-19T08:22:09-07:00",
+    "hash": "c97660929786f365807ecc03b9eb5080673b4bcd",
+    "parents": "83226c19056d4e06de4cfbb04a176b360ad02e66",
+    "subject": "(normative) Fix assertion in ZonedDateTime.round"
+   },
    {
     "adate": "2026-05-05T10:47:23-07:00",
     "author": "Philip Chimento",
@@ -1513,7 +1529,7 @@
    }
   ],
   "title": "Normative: add Temporal",
-  "updated_at": "2026-05-05T17:48:51Z"
+  "updated_at": "2026-05-19T15:28:13Z"
  },
  {
   "base": "8febdacb384c2661df5a00c0e77dcb69896496e2",
