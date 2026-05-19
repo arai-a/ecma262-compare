@@ -3644,13 +3644,37 @@
   "updated_at": "2023-05-25T23:43:21Z"
  },
  {
-  "base": "0394941eca47b04f466cb85244ad7c9fb945bb5d",
+  "base": "ea9098a98daab317ad15c1cc96691b60e8244cd3",
   "created_at": "2023-01-23T22:42:45Z",
-  "head": "5b80d953cd30e7b98a744edec8cce60bd4f3d8c2",
+  "head": "078a9c7c98b3aca2b84f50d8fd5405acf3f5e8e8",
   "login": "rbuckton",
   "number": 3000,
   "ref": "explicit-resource-management",
   "revs": [
+   {
+    "adate": "2026-05-19T04:57:41-04:00",
+    "author": "Ron Buckton",
+    "date": "2026-05-19T04:57:41-04:00",
+    "hash": "078a9c7c98b3aca2b84f50d8fd5405acf3f5e8e8",
+    "parents": "2dfc4db23f716c40d1d9292504eedc517b4c73be",
+    "subject": "Symbol description wording"
+   },
+   {
+    "adate": "2026-05-19T04:07:35-04:00",
+    "author": "Ron Buckton",
+    "date": "2026-05-19T04:07:35-04:00",
+    "hash": "2dfc4db23f716c40d1d9292504eedc517b4c73be",
+    "parents": "f0dedc587c54e960326d3ed20614d7971dfac135 ea9098a98daab317ad15c1cc96691b60e8244cd3",
+    "subject": "Merge branch 'main' into explicit-resource-management"
+   },
+   {
+    "adate": "2026-05-19T03:43:31-04:00",
+    "author": "Ron Buckton",
+    "date": "2026-05-19T03:43:31-04:00",
+    "hash": "f0dedc587c54e960326d3ed20614d7971dfac135",
+    "parents": "5b80d953cd30e7b98a744edec8cce60bd4f3d8c2",
+    "subject": "PR feedback"
+   },
    {
     "adate": "2026-05-11T12:36:18-04:00",
     "author": "Ron Buckton",
@@ -4533,7 +4557,7 @@
    }
   ],
   "title": "Add `using` and `await using` Declarations, SuppressedError, DisposableStack, and AsyncDisposableStack",
-  "updated_at": "2026-05-11T17:51:23Z"
+  "updated_at": "2026-05-19T08:57:47Z"
  },
  {
   "base": "8aac12603c99f94d982317832b0e03c13684ce0a",
