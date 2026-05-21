@@ -20,9 +20,9 @@
   "updated_at": "2026-05-21T12:27:39Z"
  },
  {
-  "base": "ea9098a98daab317ad15c1cc96691b60e8244cd3",
+  "base": "6dcb70f914e67908abc548b3285dc0583a194910",
   "created_at": "2026-05-19T12:27:43Z",
-  "head": "e3a70992f99180db20f919e78720940cec1638e1",
+  "head": "1b5f9108f24c7482335c7de5fad890ac5b562be6",
   "login": "gibson042",
   "number": 3874,
   "ref": "gh-3851-semi-consistent-accessor-tostring-prefixing",
@@ -30,14 +30,14 @@
    {
     "adate": "2026-05-13T12:58:23-04:00",
     "author": "Richard Gibson",
-    "date": "2026-05-19T09:05:45-04:00",
-    "hash": "e3a70992f99180db20f919e78720940cec1638e1",
+    "date": "2026-05-21T13:31:54-04:00",
+    "hash": "1b5f9108f24c7482335c7de5fad890ac5b562be6",
     "parents": "ea9098a98daab317ad15c1cc96691b60e8244cd3",
     "subject": "Editorial: Encourage internal consistency w.r.t. prefixing {get,set} in SetFunctionName"
    }
   ],
   "title": "Editorial: Encourage internal consistency w.r.t. prefixing {get,set} in SetFunctionName",
-  "updated_at": "2026-05-19T13:07:58Z"
+  "updated_at": "2026-05-21T17:32:10Z"
  },
  {
   "base": "ea9098a98daab317ad15c1cc96691b60e8244cd3",
@@ -176,9 +176,9 @@
   "updated_at": "2026-05-13T20:18:21Z"
  },
  {
-  "base": "0394941eca47b04f466cb85244ad7c9fb945bb5d",
+  "base": "6dcb70f914e67908abc548b3285dc0583a194910",
   "created_at": "2026-05-13T16:59:28Z",
-  "head": "68b01a21fd7433f0df8a8395b97a9aea35dceb35",
+  "head": "d54df1512e4768777a8c0a6976722eb04d6f2d94",
   "login": "gibson042",
   "number": 3855,
   "ref": "gh-3851-consistent-accessor-tostring-prefixing",
@@ -186,14 +186,14 @@
    {
     "adate": "2026-05-13T12:58:23-04:00",
     "author": "Richard Gibson",
-    "date": "2026-05-13T12:58:23-04:00",
-    "hash": "68b01a21fd7433f0df8a8395b97a9aea35dceb35",
+    "date": "2026-05-21T13:30:32-04:00",
+    "hash": "d54df1512e4768777a8c0a6976722eb04d6f2d94",
     "parents": "0394941eca47b04f466cb85244ad7c9fb945bb5d",
     "subject": "Normative: Require internal consistency w.r.t. prefixing {get,set} in SetFunctionName"
    }
   ],
   "title": "Normative: Require internal consistency w.r.t. prefixing {get,set} in SetFunctionName",
-  "updated_at": "2026-05-13T17:05:05Z"
+  "updated_at": "2026-05-21T17:31:02Z"
  },
  {
   "base": "0394941eca47b04f466cb85244ad7c9fb945bb5d",
@@ -2336,80 +2336,88 @@
   "updated_at": "2025-11-05T19:33:40Z"
  },
  {
-  "base": "e7fd87b78fa677383c60ad73dc8fb0ca938e0c92",
+  "base": "6dcb70f914e67908abc548b3285dc0583a194910",
   "created_at": "2024-11-21T01:01:29Z",
-  "head": "345f629c8ab95b65898b1bad04693bd4d436ecfa",
+  "head": "f7257e8acab66ec09d91a76d489d8d0a674fcd54",
   "login": "guybedford",
   "number": 3492,
   "ref": "source-phase-imports",
   "revs": [
    {
+    "adate": "2026-05-21T11:55:12-07:00",
+    "author": "Guy Bedford",
+    "date": "2026-05-21T11:58:03-07:00",
+    "hash": "f7257e8acab66ec09d91a76d489d8d0a674fcd54",
+    "parents": "a6d75aead7003c2e3f595316fe6b0977aadcf420",
+    "subject": "fill in remaining lookup paths on ~source~ binding"
+   },
+   {
     "adate": "2026-03-25T08:57:35-07:00",
     "author": "Guy Bedford",
-    "date": "2026-03-25T09:15:44-07:00",
-    "hash": "345f629c8ab95b65898b1bad04693bd4d436ecfa",
-    "parents": "d0c24bf97528399f2dfee88913b4f85dd8c9a856",
+    "date": "2026-05-21T11:31:01-07:00",
+    "hash": "a6d75aead7003c2e3f595316fe6b0977aadcf420",
+    "parents": "71bf7243677a3f9adfedcaca018ccf7ea636783c",
     "subject": "Editorial: address PR review feedback - BoundNames and empty td format"
    },
    {
     "adate": "2026-03-24T14:04:34-07:00",
     "author": "Guy Bedford",
-    "date": "2026-03-25T09:15:44-07:00",
-    "hash": "d0c24bf97528399f2dfee88913b4f85dd8c9a856",
-    "parents": "058520f57664709b1d6cf18b3c9fcc73369d6404",
+    "date": "2026-05-21T11:31:00-07:00",
+    "hash": "71bf7243677a3f9adfedcaca018ccf7ea636783c",
+    "parents": "6de8d3757e43a56d922bf916994db66fe09a9eeb",
     "subject": "Editorial: address PR review feedback from jmdyck"
    },
    {
     "adate": "2026-03-23T19:53:24-07:00",
     "author": "Guy Bedford",
-    "date": "2026-03-25T09:15:44-07:00",
-    "hash": "058520f57664709b1d6cf18b3c9fcc73369d6404",
-    "parents": "430be8da64b63ee941d92a9ddbeefe5ff4101563",
+    "date": "2026-05-21T11:30:25-07:00",
+    "hash": "6de8d3757e43a56d922bf916994db66fe09a9eeb",
+    "parents": "d6be15305f7fb55b3a2f095f7bb08b8444b89b6e",
     "subject": "Editorial: correct AbstractModuleSource host invariants (tc39/proposal-source-phase-imports#77)"
    },
    {
     "adate": "2026-03-23T17:51:08-07:00",
     "author": "Guy Bedford",
-    "date": "2026-03-25T09:15:15-07:00",
-    "hash": "430be8da64b63ee941d92a9ddbeefe5ff4101563",
-    "parents": "c6bae93de3ec291d9c77d227b3fc75d1e123c68a",
+    "date": "2026-05-21T11:30:24-07:00",
+    "hash": "d6be15305f7fb55b3a2f095f7bb08b8444b89b6e",
+    "parents": "7ebe0f0ef54b388010549b9aaa6c745c7633c91e",
     "subject": "Editorial: define ~source~ ExportName for re-exported source imports (tc39/proposal-source-phase-imports#76)"
    },
    {
     "adate": "2025-02-10T18:58:15-08:00",
     "author": "Guy Bedford",
-    "date": "2026-03-23T17:49:19-07:00",
-    "hash": "c6bae93de3ec291d9c77d227b3fc75d1e123c68a",
-    "parents": "a27de13caece0c84c579c986ce248467d9c9a01a",
+    "date": "2026-05-21T11:29:42-07:00",
+    "hash": "7ebe0f0ef54b388010549b9aaa6c745c7633c91e",
+    "parents": "a8944cc3b440ebee068f3a533cdc5a2b00fb9e06",
     "subject": "HostGetModuleSourceModuleRecord (tc39/proposal-source-phase-imports#70)"
    },
    {
     "adate": "2024-12-30T10:45:02-08:00",
     "author": "Guy Bedford",
-    "date": "2026-03-23T17:49:19-07:00",
-    "hash": "a27de13caece0c84c579c986ce248467d9c9a01a",
-    "parents": "efd632bf0c1f3dbad2c0b824fac68e3a59a93b96",
+    "date": "2026-05-21T11:29:42-07:00",
+    "hash": "a8944cc3b440ebee068f3a533cdc5a2b00fb9e06",
+    "parents": "dbaa423c18b3662f5c11f26e6330a753fcf71afb",
     "subject": "editorial: refactor GetModuleSource() to instead use [[ModuleSource]] field"
    },
    {
     "adate": "2024-11-26T13:35:18-08:00",
     "author": "Guy Bedford",
-    "date": "2026-03-23T17:49:18-07:00",
-    "hash": "efd632bf0c1f3dbad2c0b824fac68e3a59a93b96",
-    "parents": "1f7dfc5642acdc765f60e0af130519b3556ae0a2",
+    "date": "2026-05-21T11:29:42-07:00",
+    "hash": "dbaa423c18b3662f5c11f26e6330a753fcf71afb",
+    "parents": "2684cc37d55f79eef2189b54001f38cb00efbd91",
     "subject": "use must be initialized wording over should"
    },
    {
     "adate": "2024-11-20T16:53:27-08:00",
     "author": "Guy Bedford",
-    "date": "2026-03-23T17:49:18-07:00",
-    "hash": "1f7dfc5642acdc765f60e0af130519b3556ae0a2",
-    "parents": "e7fd87b78fa677383c60ad73dc8fb0ca938e0c92",
+    "date": "2026-05-21T11:29:41-07:00",
+    "hash": "2684cc37d55f79eef2189b54001f38cb00efbd91",
+    "parents": "6dcb70f914e67908abc548b3285dc0583a194910",
     "subject": "Rebase Source Phase Imports Proposal"
    }
   ],
-  "title": "Normative: Source Phase Imports rebased to Import Attributes",
-  "updated_at": "2026-03-25T16:15:55Z"
+  "title": "Normative: Source Phase Imports",
+  "updated_at": "2026-05-21T18:58:13Z"
  },
  {
   "base": "4c44bbed7c5a7df90705a58aaa08d2a6c5b9b596",
