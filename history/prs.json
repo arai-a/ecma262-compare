@@ -1,6 +1,26 @@
 [
  {
   "base": "6dcb70f914e67908abc548b3285dc0583a194910",
+  "created_at": "2026-05-22T13:00:04Z",
+  "head": "1837e7c24fa3fc17afe1d894ff9bfea37d799f4d",
+  "login": "ljharb",
+  "number": 3878,
+  "ref": "stack-accessor",
+  "revs": [
+   {
+    "adate": "2026-05-22T14:59:02+02:00",
+    "author": "Jordan Harband",
+    "date": "2026-05-22T14:59:02+02:00",
+    "hash": "1837e7c24fa3fc17afe1d894ff9bfea37d799f4d",
+    "parents": "6dcb70f914e67908abc548b3285dc0583a194910",
+    "subject": "Normative: add Error.prototype.stack"
+   }
+  ],
+  "title": "Normative: add Error.prototype.stack",
+  "updated_at": "2026-05-22T13:06:47Z"
+ },
+ {
+  "base": "6dcb70f914e67908abc548b3285dc0583a194910",
   "created_at": "2026-05-19T12:32:11Z",
   "head": "f3d8a115530434786f487cbf01c9524141c06412",
   "login": "ljharb",
