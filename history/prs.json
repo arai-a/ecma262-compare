@@ -1180,9 +1180,9 @@
   "updated_at": "2026-03-27T20:20:59Z"
  },
  {
-  "base": "3e0bdf0757a1a4f790044a35aa2ac53ca1fbc7a9",
+  "base": "6dcb70f914e67908abc548b3285dc0583a194910",
   "created_at": "2026-03-26T04:21:16Z",
-  "head": "635a2b1946afc0d4beb1e08630096a194113e3a9",
+  "head": "090b3d5790571a31f6f860fab2f72ccbb6df51e9",
   "login": "tc39",
   "number": 3776,
   "ref": "mathematical-counters",
@@ -1190,30 +1190,30 @@
    {
     "adate": "2026-04-30T18:27:23-06:00",
     "author": "Michael Ficarra",
-    "date": "2026-04-30T18:27:23-06:00",
-    "hash": "635a2b1946afc0d4beb1e08630096a194113e3a9",
-    "parents": "20e6fb7219b0ac4d1183e9c925b52516fdf11e3c",
+    "date": "2026-05-27T14:24:34-06:00",
+    "hash": "090b3d5790571a31f6f860fab2f72ccbb6df51e9",
+    "parents": "e5f582c38816243bbfc55231f5ebf9234c912e6e",
     "subject": "oops"
    },
    {
     "adate": "2026-04-30T13:48:56-06:00",
     "author": "Michael Ficarra",
-    "date": "2026-04-30T13:53:29-06:00",
-    "hash": "20e6fb7219b0ac4d1183e9c925b52516fdf11e3c",
-    "parents": "b59e2cbd6acacdd8dd3d559415b216b4bad79e0f",
+    "date": "2026-05-27T14:24:34-06:00",
+    "hash": "e5f582c38816243bbfc55231f5ebf9234c912e6e",
+    "parents": "2880364984af559eddf176abab7ec497709cd9c1",
     "subject": "fix syntax error"
    },
    {
     "adate": "2026-03-25T22:00:24-06:00",
     "author": "Michael Ficarra",
-    "date": "2026-04-30T13:53:27-06:00",
-    "hash": "b59e2cbd6acacdd8dd3d559415b216b4bad79e0f",
-    "parents": "3e0bdf0757a1a4f790044a35aa2ac53ca1fbc7a9",
+    "date": "2026-05-27T14:24:34-06:00",
+    "hash": "2880364984af559eddf176abab7ec497709cd9c1",
+    "parents": "6dcb70f914e67908abc548b3285dc0583a194910",
     "subject": "Normative: use Numbers instead of reals as counters in Iterator builtins"
    }
   ],
   "title": "Normative: use Numbers instead of reals as counters in Iterator builtins",
-  "updated_at": "2026-05-01T00:28:05Z"
+  "updated_at": "2026-05-27T20:25:56Z"
  },
  {
   "base": "4895a117eb54edd829f2010092bae8f41c2b174a",
@@ -5192,26 +5192,6 @@
   "updated_at": "2022-07-13T12:40:36Z"
  },
  {
-  "base": "e61fbe1162d3b6b80848c3535cece3e36f4c08fb",
-  "created_at": "2022-07-07T08:40:27Z",
-  "head": "2ecf56460c3deb63c738fb878d346972917feb34",
-  "login": "h2oche",
-  "number": 2815,
-  "ref": "GeneratorStart",
-  "revs": [
-   {
-    "adate": "2022-07-07T17:27:52+09:00",
-    "author": "h2oche",
-    "date": "2022-07-07T17:27:52+09:00",
-    "hash": "2ecf56460c3deb63c738fb878d346972917feb34",
-    "parents": "e61fbe1162d3b6b80848c3535cece3e36f4c08fb",
-    "subject": "Editorial: Fix completion in GeneratorStart"
-   }
-  ],
-  "title": "Editorial: Fix completion in GeneratorStart",
-  "updated_at": "2022-07-07T08:40:27Z"
- },
- {
   "base": "f0e4ae8d31afbad55f03d423c200d7d7467ca49a",
   "created_at": "2022-06-17T10:55:52Z",
   "head": "f0270e14188253f64ee06d5c6b5ed4e0e9e5d29b",
@@ -5558,26 +5538,6 @@
   ],
   "title": "Editorial: More info in 'PromiseCapability Record' table",
   "updated_at": "2021-04-09T09:01:50Z"
- },
- {
-  "base": "26061c0e5e4b62fae91a7127b46c1efa8b94c4b4",
-  "created_at": "2021-04-09T08:22:19Z",
-  "head": "787d2ee1adeeb71fac267c291db5be47f493154d",
-  "login": "h2oche",
-  "number": 2379,
-  "ref": "OrdinaryCreateFromConstructor",
-  "revs": [
-   {
-    "adate": "2021-04-09T17:19:34+09:00",
-    "author": "h2oche",
-    "date": "2021-04-09T17:31:58+09:00",
-    "hash": "787d2ee1adeeb71fac267c291db5be47f493154d",
-    "parents": "26061c0e5e4b62fae91a7127b46c1efa8b94c4b4",
-    "subject": "Editorial: Explictly define 'internalSlotsList' in OrdinaryCreateFromConstructor"
-   }
-  ],
-  "title": "Editorial: Explicitly define default value of 'internalSlotsList' in OrdinaryCreateFromConstructor",
-  "updated_at": "2021-04-09T08:32:07Z"
  },
  {
   "base": "417a0bb5bc3a6d7117c33cf50803483d9bd7adc1",
@@ -5976,82 +5936,6 @@
   "updated_at": "2020-04-08T20:46:22Z"
  },
  {
-  "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
-  "created_at": "2019-11-14T18:12:07Z",
-  "head": "30e7b07b4f002bc530c98ed2f1dbc2b70195824a",
-  "login": "shvaikalesh",
-  "number": 1782,
-  "ref": "rename-callbackfn",
-  "revs": [
-   {
-    "adate": "2019-11-14T20:06:18+02:00",
-    "author": "Alexey Shvayka",
-    "date": "2019-11-18T15:16:52-08:00",
-    "hash": "30e7b07b4f002bc530c98ed2f1dbc2b70195824a",
-    "parents": "195f20438b9fc119cae4db41d21907c1655ab7c3",
-    "subject": "Assert that IsCallable doesn't return abrupt completion"
-   },
-   {
-    "adate": "2019-11-14T20:04:54+02:00",
-    "author": "Alexey Shvayka",
-    "date": "2019-11-18T15:16:52-08:00",
-    "hash": "195f20438b9fc119cae4db41d21907c1655ab7c3",
-    "parents": "525ea024dd645eaf2c1d89ea6620514aa6fcbbba",
-    "subject": "Rename function parameter of %TypedArray%.prototype.some"
-   },
-   {
-    "adate": "2019-11-14T20:04:48+02:00",
-    "author": "Alexey Shvayka",
-    "date": "2019-11-18T15:16:52-08:00",
-    "hash": "525ea024dd645eaf2c1d89ea6620514aa6fcbbba",
-    "parents": "ad0dbc0ee9736fb1e6696b2bb882578408447a55",
-    "subject": "Rename function parameter of %TypedArray%.prototype.filter"
-   },
-   {
-    "adate": "2019-11-14T20:04:41+02:00",
-    "author": "Alexey Shvayka",
-    "date": "2019-11-18T15:16:52-08:00",
-    "hash": "ad0dbc0ee9736fb1e6696b2bb882578408447a55",
-    "parents": "0cf0068c553d076ff3dfbd9af5f5282c60f1c7aa",
-    "subject": "Rename function parameter of %TypedArray%.prototype.every"
-   },
-   {
-    "adate": "2019-11-14T20:01:45+02:00",
-    "author": "Alexey Shvayka",
-    "date": "2019-11-18T15:16:52-08:00",
-    "hash": "0cf0068c553d076ff3dfbd9af5f5282c60f1c7aa",
-    "parents": "b9a5f64a46fd4aef90e250df935807f80a1c5545",
-    "subject": "Rename function parameter of Array.prototype.some"
-   },
-   {
-    "adate": "2019-11-14T20:00:13+02:00",
-    "author": "Alexey Shvayka",
-    "date": "2019-11-18T15:16:52-08:00",
-    "hash": "b9a5f64a46fd4aef90e250df935807f80a1c5545",
-    "parents": "3c199aa46e2602210ee88c47b439df9da845ea98",
-    "subject": "Rename function parameter of Array.prototype.every"
-   },
-   {
-    "adate": "2019-11-14T19:59:04+02:00",
-    "author": "Alexey Shvayka",
-    "date": "2019-11-18T15:16:51-08:00",
-    "hash": "3c199aa46e2602210ee88c47b439df9da845ea98",
-    "parents": "67646bb1277a329bcfe486ff4a322f8a7176b8a8",
-    "subject": "Rename function parameter of Array.prototype.filter"
-   },
-   {
-    "adate": "2019-11-14T19:58:23+02:00",
-    "author": "Alexey Shvayka",
-    "date": "2019-11-18T15:16:51-08:00",
-    "hash": "67646bb1277a329bcfe486ff4a322f8a7176b8a8",
-    "parents": "c77f0081a197eeaaf5589bc7ebe306b1cc5c9162",
-    "subject": "Remove \"If it is not provided, *undefined* is used instead\" notes"
-   }
-  ],
-  "title": "Editorial: Rename predicate function parameter of Array methods",
-  "updated_at": "2020-06-18T19:51:16Z"
- },
- {
   "base": "b25c59273f407974e0c7d9372a2c9f71bb1f21c4",
   "created_at": "2019-10-17T02:16:37Z",
   "head": "373610bca4b63fa94239189e8cd2387b64957379",
@@ -6304,26 +6188,6 @@
   "updated_at": "2020-03-27T07:01:36Z"
  },
  {
-  "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
-  "created_at": "2019-01-18T19:28:43Z",
-  "head": "a2b0457bb1560d1674d624b4233d499df324a7fb",
-  "login": "bmeck",
-  "number": 1420,
-  "ref": "parameterize-intrinsics",
-  "revs": [
-   {
-    "adate": "2019-01-18T09:09:17-06:00",
-    "author": "Bradley Farias",
-    "date": "2019-01-18T09:09:17-06:00",
-    "hash": "a2b0457bb1560d1674d624b4233d499df324a7fb",
-    "parents": "85ce767c86a1a8ed719fe97e978028bff819d1f2",
-    "subject": "Allow hosts to reuse an existing Realm Intrinsics record"
-   }
-  ],
-  "title": "Allow hosts to reuse an existing Realm Intrinsics record",
-  "updated_at": "2020-03-27T07:01:37Z"
- },
- {
   "base": "d03c1ec6e235a5180fa772b6178727c17974cb14",
   "created_at": "2018-10-09T15:26:27Z",
   "head": "045ebadedc76f2351e79c674640f6ec8e8c1a1f2",
@@ -6342,26 +6206,6 @@
   ],
   "title": "Normative: Fix extending null",
   "updated_at": "2021-10-13T20:01:38Z"
- },
- {
-  "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
-  "created_at": "2018-03-21T13:57:50Z",
-  "head": "412374421e84b961a91caae71cfa2d8b8b7d0a52",
-  "login": "ljharb",
-  "number": 1148,
-  "ref": "remove_poison_pill_legacy",
-  "revs": [
-   {
-    "adate": "2018-03-21T13:55:42+00:00",
-    "author": "Jordan Harband",
-    "date": "2018-03-21T13:55:42+00:00",
-    "hash": "412374421e84b961a91caae71cfa2d8b8b7d0a52",
-    "parents": "4ecd2641e50e9fdb8b442ed71d49a18b94785f21",
-    "subject": "Editorial: remove unnecessary AddRestrictedFunctionProperties"
-   }
-  ],
-  "title": "Editorial: remove unnecessary AddRestrictedFunctionProperties",
-  "updated_at": "2020-07-11T17:02:07Z"
  },
  {
   "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
