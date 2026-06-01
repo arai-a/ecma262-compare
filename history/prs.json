@@ -398,11 +398,35 @@
  {
   "base": "6dcb70f914e67908abc548b3285dc0583a194910",
   "created_at": "2026-04-25T04:01:09Z",
-  "head": "2aadd0ec1aeb60b54394e542bc545763d88d9100",
+  "head": "a114592dede6ba1360fbc1e510c4de4b43c7cddb",
   "login": "tc39",
   "number": 3837,
   "ref": "alias-abbreviations",
   "revs": [
+   {
+    "adate": "2026-06-01T16:22:17-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-06-01T16:22:17-06:00",
+    "hash": "a114592dede6ba1360fbc1e510c4de4b43c7cddb",
+    "parents": "5bea5280cb1f390725cfd59cba2ed5f0722c7ea9",
+    "subject": "Update scripts/check-alias-abbreviations.mjs"
+   },
+   {
+    "adate": "2026-06-01T16:21:15-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-06-01T16:21:15-06:00",
+    "hash": "5bea5280cb1f390725cfd59cba2ed5f0722c7ea9",
+    "parents": "1fb05d263f097d8d85e64226267aa6ddcb0c847d",
+    "subject": "Update scripts/check-alias-abbreviations.mjs"
+   },
+   {
+    "adate": "2026-06-01T16:04:23-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-06-01T16:04:23-06:00",
+    "hash": "1fb05d263f097d8d85e64226267aa6ddcb0c847d",
+    "parents": "2aadd0ec1aeb60b54394e542bc545763d88d9100",
+    "subject": "fix spelling of ancestor"
+   },
    {
     "adate": "2026-05-28T15:08:30-06:00",
     "author": "Michael Ficarra",
@@ -1029,7 +1053,7 @@
    }
   ],
   "title": "Editorial: consistently abbreviate terms used in aliases",
-  "updated_at": "2026-05-28T21:44:43Z"
+  "updated_at": "2026-06-01T22:29:10Z"
  },
  {
   "base": "3282e07ac8811a9639c915ef8f85dc4f3aea3e8e",
@@ -1166,11 +1190,19 @@
  {
   "base": "ea9098a98daab317ad15c1cc96691b60e8244cd3",
   "created_at": "2026-04-07T16:09:04Z",
-  "head": "587f09b71e86cf2b05be162bd4994b27451be737",
+  "head": "eb8096a42d2ded49c9b16c524e63975cd1b682cb",
   "login": "tc39",
   "number": 3802,
   "ref": "joint-iteration",
   "revs": [
+   {
+    "adate": "2026-06-01T16:01:19-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-06-01T16:01:19-06:00",
+    "hash": "eb8096a42d2ded49c9b16c524e63975cd1b682cb",
+    "parents": "587f09b71e86cf2b05be162bd4994b27451be737",
+    "subject": "move IteratorZip to new dedicated AOs for Iterators section"
+   },
    {
     "adate": "2026-06-01T12:56:28-06:00",
     "author": "Michael Ficarra",
@@ -1229,7 +1261,7 @@
    }
   ],
   "title": "Normative: add Iterator.zip and Iterator.zipKeyed",
-  "updated_at": "2026-06-01T18:58:48Z"
+  "updated_at": "2026-06-01T22:03:38Z"
  },
  {
   "base": "880398845fd935bddad6a494ceeeb6c94397cc36",
