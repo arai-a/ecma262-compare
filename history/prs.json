@@ -1166,11 +1166,19 @@
  {
   "base": "ea9098a98daab317ad15c1cc96691b60e8244cd3",
   "created_at": "2026-04-07T16:09:04Z",
-  "head": "90a5b6fd63d91ab98bee5aeeb244b0f54d1499a9",
+  "head": "d3a140294bc638c6958e1a64092b28d3f7e5f16b",
   "login": "tc39",
   "number": 3802,
   "ref": "joint-iteration",
   "revs": [
+   {
+    "adate": "2026-06-01T06:02:12-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-06-01T06:02:12-06:00",
+    "hash": "d3a140294bc638c6958e1a64092b28d3f7e5f16b",
+    "parents": "90a5b6fd63d91ab98bee5aeeb244b0f54d1499a9",
+    "subject": "address feedback"
+   },
    {
     "adate": "2026-05-28T11:30:45-06:00",
     "author": "Michael Ficarra",
@@ -1213,7 +1221,7 @@
    }
   ],
   "title": "Normative: add Iterator.zip and Iterator.zipKeyed",
-  "updated_at": "2026-05-28T17:35:46Z"
+  "updated_at": "2026-06-01T12:36:26Z"
  },
  {
   "base": "880398845fd935bddad6a494ceeeb6c94397cc36",
