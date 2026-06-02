@@ -1,5 +1,45 @@
 [
  {
+  "adate": "2026-06-02T11:05:38-07:00",
+  "author": "Richard Gibson",
+  "date": "2026-06-02T11:05:38-07:00",
+  "hash": "8dd03ec031e3ce3f29fb7901fd2597e50b4ede2b",
+  "parents": "7b11980b5641ffa9e5044a95754da632a6d85311",
+  "subject": "Editorial: Fix the rendering used to reference unwrapping shorthands (#3861)"
+ },
+ {
+  "adate": "2026-06-02T10:47:18-07:00",
+  "author": "Shu-yu Guo",
+  "date": "2026-06-02T10:47:18-07:00",
+  "hash": "7b11980b5641ffa9e5044a95754da632a6d85311",
+  "parents": "7b25de494ef15db9c8ecce2bc556225e56c457be",
+  "subject": "Normative: add Atomics.pause (#3847)"
+ },
+ {
+  "adate": "2026-06-02T09:36:14-07:00",
+  "author": "Richard Gibson",
+  "date": "2026-06-02T09:36:14-07:00",
+  "hash": "7b25de494ef15db9c8ecce2bc556225e56c457be",
+  "parents": "97ea91562eeb9a304f01254f8751afdb117cb7c8",
+  "subject": "Editorial: Replace \"Optionally,\" steps with use of term \"implementation-defined\" (#3850)"
+ },
+ {
+  "adate": "2026-06-02T09:21:45-07:00",
+  "author": "Richard Gibson",
+  "date": "2026-06-02T09:21:45-07:00",
+  "hash": "97ea91562eeb9a304f01254f8751afdb117cb7c8",
+  "parents": "f69e21b596b0d073ec5e9f29afa92b0f9d97b355",
+  "subject": "Normative: Allow ParseScript and ParseModule to be called with string input (#3849)"
+ },
+ {
+  "adate": "2026-06-02T00:15:02-07:00",
+  "author": "Michael Ficarra",
+  "date": "2026-06-02T00:15:02-07:00",
+  "hash": "f69e21b596b0d073ec5e9f29afa92b0f9d97b355",
+  "parents": "7d6039601bb032ffc196e1843a1ea08f1fc88c91",
+  "subject": "Normative: add Iterator.zip and Iterator.zipKeyed (#3802)"
+ },
+ {
   "adate": "2026-06-02T00:00:01-07:00",
   "author": "Wick",
   "date": "2026-06-02T00:00:01-07:00",

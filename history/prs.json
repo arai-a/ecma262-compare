@@ -1,5 +1,53 @@
 [
  {
+  "base": "7b25de494ef15db9c8ecce2bc556225e56c457be",
+  "created_at": "2026-06-02T17:56:15Z",
+  "head": "630d8b7775670482fdf25ebc943f9575da5a70df",
+  "login": "bakkot",
+  "number": 3883,
+  "ref": "faster-promise-try",
+  "revs": [
+   {
+    "adate": "2026-06-02T10:48:48-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2026-06-02T10:48:48-07:00",
+    "hash": "630d8b7775670482fdf25ebc943f9575da5a70df",
+    "parents": "97ea91562eeb9a304f01254f8751afdb117cb7c8",
+    "subject": "Normative: make Promise.try use PromiseResolve in non-error case"
+   }
+  ],
+  "title": "Normative: make Promise.try use PromiseResolve in non-error case",
+  "updated_at": "2026-06-02T18:09:48Z"
+ },
+ {
+  "base": "f69e21b596b0d073ec5e9f29afa92b0f9d97b355",
+  "created_at": "2026-06-02T15:25:24Z",
+  "head": "09022564a3d0a55a6588e322a66ed5d1b2bb5e16",
+  "login": "linusg",
+  "number": 3881,
+  "ref": "clean-up-intrinsics",
+  "revs": [
+   {
+    "adate": "2026-06-02T16:12:09+01:00",
+    "author": "Linus Groh",
+    "date": "2026-06-02T16:13:28+01:00",
+    "hash": "09022564a3d0a55a6588e322a66ed5d1b2bb5e16",
+    "parents": "fc08014aa754e1cd6eaebfecf4d56c9a2383039f",
+    "subject": "Editorial: Use consistent phrasing for Global Object value properties"
+   },
+   {
+    "adate": "2026-06-02T16:10:22+01:00",
+    "author": "Linus Groh",
+    "date": "2026-06-02T16:13:25+01:00",
+    "hash": "fc08014aa754e1cd6eaebfecf4d56c9a2383039f",
+    "parents": "7d6039601bb032ffc196e1843a1ea08f1fc88c91",
+    "subject": "Editorial: Clean up Well-Known Intrinsic Objects table"
+   }
+  ],
+  "title": "Editorial: Clean up Well-Known Intrinsic Objects table",
+  "updated_at": "2026-06-02T17:55:43Z"
+ },
+ {
   "base": "7d6039601bb032ffc196e1843a1ea08f1fc88c91",
   "created_at": "2026-06-02T13:13:26Z",
   "head": "7dc9c291ac4c86e26e5cbce257a467a5eaff44e7",
@@ -120,54 +168,6 @@
   "updated_at": "2026-05-18T12:38:52Z"
  },
  {
-  "base": "ea9098a98daab317ad15c1cc96691b60e8244cd3",
-  "created_at": "2026-05-18T12:20:36Z",
-  "head": "a936b7e340589cec3f00ce4711607c26b5afe22f",
-  "login": "tc39",
-  "number": 3871,
-  "ref": "includes-the-properties",
-  "revs": [
-   {
-    "adate": "2026-05-18T14:19:14+02:00",
-    "author": "Michael Ficarra",
-    "date": "2026-05-18T14:19:14+02:00",
-    "hash": "a936b7e340589cec3f00ce4711607c26b5afe22f",
-    "parents": "ea9098a98daab317ad15c1cc96691b60e8244cd3",
-    "subject": "Editorial: consistently use \"includes the properties\" phrasing"
-   }
-  ],
-  "title": "Editorial: consistently use \"includes the properties\" phrasing",
-  "updated_at": "2026-05-18T12:26:18Z"
- },
- {
-  "base": "ea9098a98daab317ad15c1cc96691b60e8244cd3",
-  "created_at": "2026-05-15T14:44:36Z",
-  "head": "d6c956213fe51dc703a7970f8a90df32fdc388bf",
-  "login": "gibson042",
-  "number": 3861,
-  "ref": "gh-3860-typographic-quotes",
-  "revs": [
-   {
-    "adate": "2026-05-15T10:34:53-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-05-17T00:23:13-04:00",
-    "hash": "d6c956213fe51dc703a7970f8a90df32fdc388bf",
-    "parents": "8728b7bc1828ecc204edadb5746c1dff9819bcfa",
-    "subject": "Editorial: Replace ASCII quotes with typographic quotes as appropriate"
-   },
-   {
-    "adate": "2026-05-15T09:45:53-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-05-17T00:23:11-04:00",
-    "hash": "8728b7bc1828ecc204edadb5746c1dff9819bcfa",
-    "parents": "ea9098a98daab317ad15c1cc96691b60e8244cd3",
-    "subject": "Editorial: Fix the rendering used to reference unwrapping shorthands"
-   }
-  ],
-  "title": "Editorial: Replace ASCII quotes with typographic quotes as appropriate",
-  "updated_at": "2026-05-17T04:24:08Z"
- },
- {
   "base": "0394941eca47b04f466cb85244ad7c9fb945bb5d",
   "created_at": "2026-05-13T20:12:10Z",
   "head": "cebc015659754a8b2b889c8f2aeb085bc12f5e53",
@@ -206,66 +206,6 @@
   ],
   "title": "Normative: Require internal consistency w.r.t. prefixing {get,set} in SetFunctionName",
   "updated_at": "2026-05-21T17:31:02Z"
- },
- {
-  "base": "0394941eca47b04f466cb85244ad7c9fb945bb5d",
-  "created_at": "2026-05-09T13:44:58Z",
-  "head": "5fa1869548c018c85da8cc67ff018922d0e31091",
-  "login": "gibson042",
-  "number": 3850,
-  "ref": "2026-05-replace-optionally-with-implementation-defined",
-  "revs": [
-   {
-    "adate": "2026-05-09T09:42:33-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-05-09T09:42:33-04:00",
-    "hash": "5fa1869548c018c85da8cc67ff018922d0e31091",
-    "parents": "0394941eca47b04f466cb85244ad7c9fb945bb5d",
-    "subject": "Editorial: Replace \"Optionally,\" steps with use of term \"implementation-defined\""
-   }
-  ],
-  "title": "Editorial: Replace \"Optionally,\" steps with use of term \"implementation-defined\"",
-  "updated_at": "2026-05-09T13:50:24Z"
- },
- {
-  "base": "0394941eca47b04f466cb85244ad7c9fb945bb5d",
-  "created_at": "2026-05-09T13:26:32Z",
-  "head": "e9201c741e60a9eb98a693e12198e732049e4642",
-  "login": "gibson042",
-  "number": 3849,
-  "ref": "gh-3848-top-level-parse-input-type",
-  "revs": [
-   {
-    "adate": "2026-05-09T08:28:29-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-05-09T08:28:29-04:00",
-    "hash": "e9201c741e60a9eb98a693e12198e732049e4642",
-    "parents": "0394941eca47b04f466cb85244ad7c9fb945bb5d",
-    "subject": "Normative: Allow ParseScript and ParseModule to be called with string input"
-   }
-  ],
-  "title": "Normative: Allow ParseScript and ParseModule to be called with string input",
-  "updated_at": "2026-05-09T13:45:38Z"
- },
- {
-  "base": "67ac2b7318378d72ef6e5cfe227b5392a98e210e",
-  "created_at": "2026-05-06T23:48:04Z",
-  "head": "09822e42c85ecb0c57df142f2733d5b7d5f25c00",
-  "login": "syg",
-  "number": 3847,
-  "ref": "atomics-pause",
-  "revs": [
-   {
-    "adate": "2026-05-06T16:47:28-07:00",
-    "author": "Shu-yu Guo",
-    "date": "2026-05-06T16:47:40-07:00",
-    "hash": "09822e42c85ecb0c57df142f2733d5b7d5f25c00",
-    "parents": "67ac2b7318378d72ef6e5cfe227b5392a98e210e",
-    "subject": "Normative: add Atomics.pause"
-   }
-  ],
-  "title": "Normative: add Atomics.pause",
-  "updated_at": "2026-05-06T23:48:56Z"
  },
  {
   "base": "67ac2b7318378d72ef6e5cfe227b5392a98e210e",
@@ -518,26 +458,6 @@
   ],
   "title": "Editorial: replace remaining uses of [[HostSynchronizesWith]]",
   "updated_at": "2026-04-08T20:16:12Z"
- },
- {
-  "base": "7d6039601bb032ffc196e1843a1ea08f1fc88c91",
-  "created_at": "2026-04-07T16:09:04Z",
-  "head": "f69e21b596b0d073ec5e9f29afa92b0f9d97b355",
-  "login": "tc39",
-  "number": 3802,
-  "ref": "joint-iteration",
-  "revs": [
-   {
-    "adate": "2026-06-02T00:15:02-07:00",
-    "author": "Michael Ficarra",
-    "date": "2026-06-02T00:15:02-07:00",
-    "hash": "f69e21b596b0d073ec5e9f29afa92b0f9d97b355",
-    "parents": "7d6039601bb032ffc196e1843a1ea08f1fc88c91",
-    "subject": "Normative: add Iterator.zip and Iterator.zipKeyed (#3802)"
-   }
-  ],
-  "title": "Normative: add Iterator.zip and Iterator.zipKeyed",
-  "updated_at": "2026-06-02T07:15:31Z"
  },
  {
   "base": "880398845fd935bddad6a494ceeeb6c94397cc36",
