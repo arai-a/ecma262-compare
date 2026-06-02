@@ -1,5 +1,33 @@
 [
  {
+  "base": "4ded99a691726818c9ee896d03c4b94b971b3657",
+  "created_at": "2026-06-02T21:16:11Z",
+  "head": "76d2b4404dfae91007926bc7294a32d85f3079ff",
+  "login": "linusg",
+  "number": 3884,
+  "ref": "atomic-ordering",
+  "revs": [
+   {
+    "adate": "2026-06-02T22:13:06+01:00",
+    "author": "Linus Groh",
+    "date": "2026-06-02T22:13:06+01:00",
+    "hash": "76d2b4404dfae91007926bc7294a32d85f3079ff",
+    "parents": "560e6fc3206127c24bda3e18361d72b2d62319a2",
+    "subject": "Editorial: Update Atomics.pause() esid and type"
+   },
+   {
+    "adate": "2026-06-02T22:12:14+01:00",
+    "author": "Linus Groh",
+    "date": "2026-06-02T22:12:14+01:00",
+    "hash": "560e6fc3206127c24bda3e18361d72b2d62319a2",
+    "parents": "faeca0c6d89871170f652d6239cbcf2a8b687c14",
+    "subject": "Editorial: Fix ordering of Atomics functions"
+   }
+  ],
+  "title": "Editorial: Fix ordering of Atomics functions",
+  "updated_at": "2026-06-02T21:49:43Z"
+ },
+ {
   "base": "7b25de494ef15db9c8ecce2bc556225e56c457be",
   "created_at": "2026-06-02T17:56:15Z",
   "head": "630d8b7775670482fdf25ebc943f9575da5a70df",
@@ -20,37 +48,9 @@
   "updated_at": "2026-06-02T18:09:48Z"
  },
  {
-  "base": "f69e21b596b0d073ec5e9f29afa92b0f9d97b355",
-  "created_at": "2026-06-02T15:25:24Z",
-  "head": "09022564a3d0a55a6588e322a66ed5d1b2bb5e16",
-  "login": "linusg",
-  "number": 3881,
-  "ref": "clean-up-intrinsics",
-  "revs": [
-   {
-    "adate": "2026-06-02T16:12:09+01:00",
-    "author": "Linus Groh",
-    "date": "2026-06-02T16:13:28+01:00",
-    "hash": "09022564a3d0a55a6588e322a66ed5d1b2bb5e16",
-    "parents": "fc08014aa754e1cd6eaebfecf4d56c9a2383039f",
-    "subject": "Editorial: Use consistent phrasing for Global Object value properties"
-   },
-   {
-    "adate": "2026-06-02T16:10:22+01:00",
-    "author": "Linus Groh",
-    "date": "2026-06-02T16:13:25+01:00",
-    "hash": "fc08014aa754e1cd6eaebfecf4d56c9a2383039f",
-    "parents": "7d6039601bb032ffc196e1843a1ea08f1fc88c91",
-    "subject": "Editorial: Clean up Well-Known Intrinsic Objects table"
-   }
-  ],
-  "title": "Editorial: Clean up Well-Known Intrinsic Objects table",
-  "updated_at": "2026-06-02T17:55:43Z"
- },
- {
-  "base": "7d6039601bb032ffc196e1843a1ea08f1fc88c91",
+  "base": "10d261b4179400de2d869ceeb156357919847b7e",
   "created_at": "2026-06-02T13:13:26Z",
-  "head": "7dc9c291ac4c86e26e5cbce257a467a5eaff44e7",
+  "head": "5efcfd5a88d86dd97cd6deecb243362c30fa753a",
   "login": "linusg",
   "number": 3880,
   "ref": "global-symbol-registry",
@@ -58,34 +58,14 @@
    {
     "adate": "2026-06-02T14:06:08+01:00",
     "author": "Linus Groh",
-    "date": "2026-06-02T14:06:08+01:00",
-    "hash": "7dc9c291ac4c86e26e5cbce257a467a5eaff44e7",
-    "parents": "7d6039601bb032ffc196e1843a1ea08f1fc88c91",
+    "date": "2026-06-02T21:48:53+01:00",
+    "hash": "5efcfd5a88d86dd97cd6deecb243362c30fa753a",
+    "parents": "faeca0c6d89871170f652d6239cbcf2a8b687c14",
     "subject": "Editorial: Move GlobalSymbolRegistry to the Agent record"
    }
   ],
   "title": "Editorial: Move GlobalSymbolRegistry to the Agent record",
-  "updated_at": "2026-06-02T13:20:04Z"
- },
- {
-  "base": "7d6039601bb032ffc196e1843a1ea08f1fc88c91",
-  "created_at": "2026-06-02T11:17:58Z",
-  "head": "1a862f54858eab65a539e9462fd21a1ca7e720e3",
-  "login": "linusg",
-  "number": 3879,
-  "ref": "nativeerror-string",
-  "revs": [
-   {
-    "adate": "2026-06-02T12:16:08+01:00",
-    "author": "Linus Groh",
-    "date": "2026-06-02T12:19:36+01:00",
-    "hash": "1a862f54858eab65a539e9462fd21a1ca7e720e3",
-    "parents": "7d6039601bb032ffc196e1843a1ea08f1fc88c91",
-    "subject": "Markup: Fix intrinsic proto string in NativeError constructor"
-   }
-  ],
-  "title": "Markup: Fix intrinsic proto string in NativeError constructor",
-  "updated_at": "2026-06-02T14:05:23Z"
+  "updated_at": "2026-06-02T21:03:27Z"
  },
  {
   "base": "6dcb70f914e67908abc548b3285dc0583a194910",
@@ -106,26 +86,6 @@
   ],
   "title": "Normative: add Error.prototype.stack",
   "updated_at": "2026-05-22T15:40:36Z"
- },
- {
-  "base": "6dcb70f914e67908abc548b3285dc0583a194910",
-  "created_at": "2026-05-19T12:32:11Z",
-  "head": "f3d8a115530434786f487cbf01c9524141c06412",
-  "login": "ljharb",
-  "number": 3875,
-  "ref": "ljharb/frombase64-multiple-of-three-assertion",
-  "revs": [
-   {
-    "adate": "2026-05-19T14:37:50+02:00",
-    "author": "Jordan Harband",
-    "date": "2026-05-21T12:59:44+02:00",
-    "hash": "f3d8a115530434786f487cbf01c9524141c06412",
-    "parents": "6dcb70f914e67908abc548b3285dc0583a194910",
-    "subject": "Editorial: assert the FromBase64 multiple-of-3 byte invariant (#3875)"
-   }
-  ],
-  "title": "Editorial: assert the FromBase64 multiple-of-3 byte invariant",
-  "updated_at": "2026-05-21T12:27:39Z"
  },
  {
   "base": "6dcb70f914e67908abc548b3285dc0583a194910",

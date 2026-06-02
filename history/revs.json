@@ -1,5 +1,45 @@
 [
  {
+  "adate": "2026-06-02T14:17:40-07:00",
+  "author": "Linus Groh",
+  "date": "2026-06-02T14:17:40-07:00",
+  "hash": "a9a0c48100cb98caf2df90c95c99b1a947982fdc",
+  "parents": "4ded99a691726818c9ee896d03c4b94b971b3657",
+  "subject": "Editorial: Clean up Well-Known Intrinsic Objects table (#3881)"
+ },
+ {
+  "adate": "2026-06-02T13:41:26-07:00",
+  "author": "Linus Groh",
+  "date": "2026-06-02T13:41:26-07:00",
+  "hash": "4ded99a691726818c9ee896d03c4b94b971b3657",
+  "parents": "10d261b4179400de2d869ceeb156357919847b7e",
+  "subject": "Markup: Fix intrinsic proto string in NativeError constructor (#3879)"
+ },
+ {
+  "adate": "2026-06-02T11:38:41-07:00",
+  "author": "Jordan Harband",
+  "date": "2026-06-02T11:38:41-07:00",
+  "hash": "10d261b4179400de2d869ceeb156357919847b7e",
+  "parents": "faeca0c6d89871170f652d6239cbcf2a8b687c14",
+  "subject": "Editorial: assert the FromBase64 multiple-of-3 byte invariant (#3875)"
+ },
+ {
+  "adate": "2026-06-02T11:20:23-07:00",
+  "author": "Michael Ficarra",
+  "date": "2026-06-02T11:20:23-07:00",
+  "hash": "faeca0c6d89871170f652d6239cbcf2a8b687c14",
+  "parents": "9a538c5440f3274b7f530d1a4a1c20e51223037a",
+  "subject": "Editorial: consistently use \"includes the properties\" phrasing (#3871)"
+ },
+ {
+  "adate": "2026-06-02T11:05:41-07:00",
+  "author": "Richard Gibson",
+  "date": "2026-06-02T11:05:41-07:00",
+  "hash": "9a538c5440f3274b7f530d1a4a1c20e51223037a",
+  "parents": "8dd03ec031e3ce3f29fb7901fd2597e50b4ede2b",
+  "subject": "Editorial: Replace ASCII quotes with typographic quotes as appropriate (#3861)"
+ },
+ {
   "adate": "2026-06-02T11:05:38-07:00",
   "author": "Richard Gibson",
   "date": "2026-06-02T11:05:38-07:00",
