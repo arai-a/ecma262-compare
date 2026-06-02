@@ -1,5 +1,45 @@
 [
  {
+  "base": "7d6039601bb032ffc196e1843a1ea08f1fc88c91",
+  "created_at": "2026-06-02T13:13:26Z",
+  "head": "7dc9c291ac4c86e26e5cbce257a467a5eaff44e7",
+  "login": "linusg",
+  "number": 3880,
+  "ref": "global-symbol-registry",
+  "revs": [
+   {
+    "adate": "2026-06-02T14:06:08+01:00",
+    "author": "Linus Groh",
+    "date": "2026-06-02T14:06:08+01:00",
+    "hash": "7dc9c291ac4c86e26e5cbce257a467a5eaff44e7",
+    "parents": "7d6039601bb032ffc196e1843a1ea08f1fc88c91",
+    "subject": "Editorial: Move GlobalSymbolRegistry to the Agent record"
+   }
+  ],
+  "title": "Editorial: Move GlobalSymbolRegistry to the Agent record",
+  "updated_at": "2026-06-02T13:20:04Z"
+ },
+ {
+  "base": "7d6039601bb032ffc196e1843a1ea08f1fc88c91",
+  "created_at": "2026-06-02T11:17:58Z",
+  "head": "1a862f54858eab65a539e9462fd21a1ca7e720e3",
+  "login": "linusg",
+  "number": 3879,
+  "ref": "nativeerror-string",
+  "revs": [
+   {
+    "adate": "2026-06-02T12:16:08+01:00",
+    "author": "Linus Groh",
+    "date": "2026-06-02T12:19:36+01:00",
+    "hash": "1a862f54858eab65a539e9462fd21a1ca7e720e3",
+    "parents": "7d6039601bb032ffc196e1843a1ea08f1fc88c91",
+    "subject": "Markup: Fix intrinsic proto string in NativeError constructor"
+   }
+  ],
+  "title": "Markup: Fix intrinsic proto string in NativeError constructor",
+  "updated_at": "2026-06-02T14:05:23Z"
+ },
+ {
   "base": "6dcb70f914e67908abc548b3285dc0583a194910",
   "created_at": "2026-05-22T13:00:04Z",
   "head": "bd43c9063fed1fb7244986ea58bd648da6b2ace5",
@@ -98,54 +138,6 @@
   ],
   "title": "Editorial: consistently use \"includes the properties\" phrasing",
   "updated_at": "2026-05-18T12:26:18Z"
- },
- {
-  "base": "0394941eca47b04f466cb85244ad7c9fb945bb5d",
-  "created_at": "2026-05-16T03:51:26Z",
-  "head": "e5353f96e36104ebb91cf845845bffa1cf65ff60",
-  "login": "alexey-alanreys",
-  "number": 3866,
-  "ref": "editorial/createglobalvarbinding-note",
-  "revs": [
-   {
-    "adate": "2026-05-16T03:50:23Z",
-    "author": "Alexey Alan-Reys",
-    "date": "2026-05-16T03:50:23Z",
-    "hash": "e5353f96e36104ebb91cf845845bffa1cf65ff60",
-    "parents": "babe0651725a53f531a94a393e4f050fdb8a4c4c",
-    "subject": "Editorial: add NOTE to CreateGlobalVarBinding about InitializeBinding Proxy behavior"
-   },
-   {
-    "adate": "2026-05-16T03:27:23Z",
-    "author": "Alexey Alan-Reys",
-    "date": "2026-05-16T03:27:23Z",
-    "hash": "babe0651725a53f531a94a393e4f050fdb8a4c4c",
-    "parents": "0394941eca47b04f466cb85244ad7c9fb945bb5d",
-    "subject": "Editorial: use UpdateEmpty for empty normal completion handling"
-   }
-  ],
-  "title": "Editorial: add NOTE to CreateGlobalVarBinding about InitializeBinding Proxy behavior",
-  "updated_at": "2026-05-16T03:51:26Z"
- },
- {
-  "base": "0394941eca47b04f466cb85244ad7c9fb945bb5d",
-  "created_at": "2026-05-16T03:29:33Z",
-  "head": "babe0651725a53f531a94a393e4f050fdb8a4c4c",
-  "login": "alexey-alanreys",
-  "number": 3865,
-  "ref": "main",
-  "revs": [
-   {
-    "adate": "2026-05-16T03:27:23Z",
-    "author": "Alexey Alan-Reys",
-    "date": "2026-05-16T03:27:23Z",
-    "hash": "babe0651725a53f531a94a393e4f050fdb8a4c4c",
-    "parents": "0394941eca47b04f466cb85244ad7c9fb945bb5d",
-    "subject": "Editorial: use UpdateEmpty for empty normal completion handling"
-   }
-  ],
-  "title": "Editorial: use UpdateEmpty for empty normal completion handling",
-  "updated_at": "2026-05-16T03:29:33Z"
  },
  {
   "base": "ea9098a98daab317ad15c1cc96691b60e8244cd3",
