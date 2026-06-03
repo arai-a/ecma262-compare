@@ -1,5 +1,25 @@
 [
  {
+  "base": "c0a2b1aac2b8e3c7bedb67df4620cde27cf6501d",
+  "created_at": "2026-06-03T03:54:32Z",
+  "head": "b35ff9f864cce80587f35ecfad1de0593b870c26",
+  "login": "jmdyck",
+  "number": 3885,
+  "ref": "main",
+  "revs": [
+   {
+    "adate": "2026-06-02T21:32:23-04:00",
+    "author": "Michael Dyck",
+    "date": "2026-06-02T22:51:42-04:00",
+    "hash": "b35ff9f864cce80587f35ecfad1de0593b870c26",
+    "parents": "c0a2b1aac2b8e3c7bedb67df4620cde27cf6501d",
+    "subject": "PR #3847 missed `type=\"built-in function\"`"
+   }
+  ],
+  "title": "Markup: Add `type=\"built-in function\"` for `Atomics.pause`",
+  "updated_at": "2026-06-03T04:00:42Z"
+ },
+ {
   "base": "4ded99a691726818c9ee896d03c4b94b971b3657",
   "created_at": "2026-06-02T21:16:11Z",
   "head": "76d2b4404dfae91007926bc7294a32d85f3079ff",
