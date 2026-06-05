@@ -88,24 +88,24 @@
   "updated_at": "2026-06-02T21:03:27Z"
  },
  {
-  "base": "6dcb70f914e67908abc548b3285dc0583a194910",
+  "base": "c0a2b1aac2b8e3c7bedb67df4620cde27cf6501d",
   "created_at": "2026-05-22T13:00:04Z",
-  "head": "bd43c9063fed1fb7244986ea58bd648da6b2ace5",
+  "head": "6964d06502f9abc20a453a6d131ba3df2f7856b5",
   "login": "ljharb",
   "number": 3878,
   "ref": "stack-accessor",
   "revs": [
    {
-    "adate": "2026-05-22T17:36:04+02:00",
+    "adate": "2026-06-04T21:28:27-07:00",
     "author": "Jordan Harband",
-    "date": "2026-05-22T17:36:04+02:00",
-    "hash": "bd43c9063fed1fb7244986ea58bd648da6b2ace5",
-    "parents": "6dcb70f914e67908abc548b3285dc0583a194910",
+    "date": "2026-06-04T21:28:27-07:00",
+    "hash": "6964d06502f9abc20a453a6d131ba3df2f7856b5",
+    "parents": "c0a2b1aac2b8e3c7bedb67df4620cde27cf6501d",
     "subject": "Normative: add Error.prototype.stack (#3878)"
    }
   ],
   "title": "Normative: add Error.prototype.stack",
-  "updated_at": "2026-05-22T15:40:36Z"
+  "updated_at": "2026-06-05T04:28:36Z"
  },
  {
   "base": "6dcb70f914e67908abc548b3285dc0583a194910",
@@ -126,34 +126,6 @@
   ],
   "title": "Editorial: Encourage internal consistency w.r.t. prefixing {get,set} in SetFunctionName",
   "updated_at": "2026-05-21T17:32:10Z"
- },
- {
-  "base": "c0a2b1aac2b8e3c7bedb67df4620cde27cf6501d",
-  "created_at": "2026-05-18T12:30:15Z",
-  "head": "51a2bff9717b4d3aa2488b1ee5eb4adab3e579d0",
-  "login": "tc39",
-  "number": 3872,
-  "ref": "promise-subclassing",
-  "revs": [
-   {
-    "adate": "2026-06-04T12:12:07-06:00",
-    "author": "Michael Ficarra",
-    "date": "2026-06-04T12:14:55-06:00",
-    "hash": "51a2bff9717b4d3aa2488b1ee5eb4adab3e579d0",
-    "parents": "8f7bd26f141a57c34473487b8c7840bc8c9c3003",
-    "subject": "change the other occurrences of the same phrasing"
-   },
-   {
-    "adate": "2026-05-18T14:24:27+02:00",
-    "author": "Michael Ficarra",
-    "date": "2026-06-04T12:14:55-06:00",
-    "hash": "8f7bd26f141a57c34473487b8c7840bc8c9c3003",
-    "parents": "c0a2b1aac2b8e3c7bedb67df4620cde27cf6501d",
-    "subject": "Editorial: reword description of Promise subclassing"
-   }
-  ],
-  "title": "Editorial: reword description of Promise subclassing",
-  "updated_at": "2026-06-04T18:14:57Z"
  },
  {
   "base": "0394941eca47b04f466cb85244ad7c9fb945bb5d",
@@ -426,34 +398,6 @@
   ],
   "title": "Editorial: move non-normative statements about CRLF to a note",
   "updated_at": "2026-04-08T21:43:10Z"
- },
- {
-  "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
-  "created_at": "2026-04-08T20:11:23Z",
-  "head": "a101e68d6f989c8d68ad4da94402538b3031f687",
-  "login": "tc39",
-  "number": 3806,
-  "ref": "host-synchronizes-with",
-  "revs": [
-   {
-    "adate": "2026-04-08T14:10:33-06:00",
-    "author": "Michael Ficarra",
-    "date": "2026-04-08T14:10:33-06:00",
-    "hash": "a101e68d6f989c8d68ad4da94402538b3031f687",
-    "parents": "decac566429ff9bb639eecf4205d65f8a9d0b79b",
-    "subject": "Editorial: remove mention of [[HostSynchronizesWith]]"
-   },
-   {
-    "adate": "2026-04-08T14:08:50-06:00",
-    "author": "Michael Ficarra",
-    "date": "2026-04-08T14:08:50-06:00",
-    "hash": "decac566429ff9bb639eecf4205d65f8a9d0b79b",
-    "parents": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
-    "subject": "Editorial: replace remaining use of [[HostSynchronizesWith]]"
-   }
-  ],
-  "title": "Editorial: replace remaining uses of [[HostSynchronizesWith]]",
-  "updated_at": "2026-04-08T20:16:12Z"
  },
  {
   "base": "880398845fd935bddad6a494ceeeb6c94397cc36",
