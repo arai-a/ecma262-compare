@@ -20,34 +20,6 @@
   "updated_at": "2026-06-03T23:49:43Z"
  },
  {
-  "base": "4ded99a691726818c9ee896d03c4b94b971b3657",
-  "created_at": "2026-06-02T21:16:11Z",
-  "head": "76d2b4404dfae91007926bc7294a32d85f3079ff",
-  "login": "linusg",
-  "number": 3884,
-  "ref": "atomic-ordering",
-  "revs": [
-   {
-    "adate": "2026-06-02T22:13:06+01:00",
-    "author": "Linus Groh",
-    "date": "2026-06-02T22:13:06+01:00",
-    "hash": "76d2b4404dfae91007926bc7294a32d85f3079ff",
-    "parents": "560e6fc3206127c24bda3e18361d72b2d62319a2",
-    "subject": "Editorial: Update Atomics.pause() esid and type"
-   },
-   {
-    "adate": "2026-06-02T22:12:14+01:00",
-    "author": "Linus Groh",
-    "date": "2026-06-02T22:12:14+01:00",
-    "hash": "560e6fc3206127c24bda3e18361d72b2d62319a2",
-    "parents": "faeca0c6d89871170f652d6239cbcf2a8b687c14",
-    "subject": "Editorial: Fix ordering of Atomics functions"
-   }
-  ],
-  "title": "Editorial: Fix ordering of Atomics functions",
-  "updated_at": "2026-06-02T21:49:43Z"
- },
- {
   "base": "7b25de494ef15db9c8ecce2bc556225e56c457be",
   "created_at": "2026-06-02T17:56:15Z",
   "head": "630d8b7775670482fdf25ebc943f9575da5a70df",
@@ -66,26 +38,6 @@
   ],
   "title": "Normative: make Promise.try use PromiseResolve in non-error case",
   "updated_at": "2026-06-02T18:09:48Z"
- },
- {
-  "base": "10d261b4179400de2d869ceeb156357919847b7e",
-  "created_at": "2026-06-02T13:13:26Z",
-  "head": "5efcfd5a88d86dd97cd6deecb243362c30fa753a",
-  "login": "linusg",
-  "number": 3880,
-  "ref": "global-symbol-registry",
-  "revs": [
-   {
-    "adate": "2026-06-02T14:06:08+01:00",
-    "author": "Linus Groh",
-    "date": "2026-06-02T21:48:53+01:00",
-    "hash": "5efcfd5a88d86dd97cd6deecb243362c30fa753a",
-    "parents": "faeca0c6d89871170f652d6239cbcf2a8b687c14",
-    "subject": "Editorial: Move GlobalSymbolRegistry to the Agent record"
-   }
-  ],
-  "title": "Editorial: Move GlobalSymbolRegistry to the Agent record",
-  "updated_at": "2026-06-02T21:03:27Z"
  },
  {
   "base": "c0a2b1aac2b8e3c7bedb67df4620cde27cf6501d",
@@ -4660,9 +4612,9 @@
   "updated_at": "2021-07-25T15:08:46Z"
  },
  {
-  "base": "32fe924d97f504194c96d71217e73da2bcdb2d91",
+  "base": "8c0c94eb3be152b7ae7dc0cb580f4ee9f0a9a0c2",
   "created_at": "2021-06-27T15:32:45Z",
-  "head": "3a90b566df19772ce87d23dbc2579d197b515697",
+  "head": "0994f20373a5ac1623a4036d80317f48248e123a",
   "login": "jmdyck",
   "number": 2445,
   "ref": "annex_B_pattern_ambig",
@@ -4670,30 +4622,30 @@
    {
     "adate": "2024-08-12T22:16:36-04:00",
     "author": "Michael Dyck",
-    "date": "2024-08-12T22:16:36-04:00",
-    "hash": "3a90b566df19772ce87d23dbc2579d197b515697",
-    "parents": "575ebeffca71a7ca114bca50ef655c3fe852268f",
+    "date": "2026-06-05T17:15:03-04:00",
+    "hash": "0994f20373a5ac1623a4036d80317f48248e123a",
+    "parents": "a693b396b0d708ce146897fe07e45d6e7f08aa7a",
     "subject": "Editorial: Change the semantic basis for lookahead restrictions"
    },
    {
     "adate": "2021-06-27T10:54:12-04:00",
     "author": "Michael Dyck",
-    "date": "2024-08-12T10:21:16-04:00",
-    "hash": "575ebeffca71a7ca114bca50ef655c3fe852268f",
-    "parents": "b1b26eda1d9e3ea781ab2c23af9feb1f622a659e",
+    "date": "2026-06-05T17:15:03-04:00",
+    "hash": "a693b396b0d708ce146897fe07e45d6e7f08aa7a",
+    "parents": "ca6e39c556f373ef03799d77f904c6ec7a152860",
     "subject": "Editorial: Eliminate order-disambiguation from Annex B Pattern-grammar"
    },
    {
     "adate": "2024-08-11T21:57:11-04:00",
     "author": "Michael Dyck",
-    "date": "2024-08-11T22:22:07-04:00",
-    "hash": "b1b26eda1d9e3ea781ab2c23af9feb1f622a659e",
-    "parents": "32fe924d97f504194c96d71217e73da2bcdb2d91",
+    "date": "2026-06-05T17:15:03-04:00",
+    "hash": "ca6e39c556f373ef03799d77f904c6ec7a152860",
+    "parents": "8c0c94eb3be152b7ae7dc0cb580f4ee9f0a9a0c2",
     "subject": "Editorial: Rewrite some of the \"Lookahead Restrictions\" section"
    }
   ],
   "title": "Editorial: Eliminate order-disambiguation from Annex B Pattern-grammar",
-  "updated_at": "2024-08-13T02:30:28Z"
+  "updated_at": "2026-06-05T23:32:16Z"
  },
  {
   "base": "94bf7d52348011fa4d7ce83ebc0e98a7f2129817",
@@ -4856,9 +4808,9 @@
   "updated_at": "2021-03-02T20:18:19Z"
  },
  {
-  "base": "8ebc410f26e9cc2e55afe927d098d5507a64ab90",
+  "base": "8c0c94eb3be152b7ae7dc0cb580f4ee9f0a9a0c2",
   "created_at": "2021-01-24T05:38:33Z",
-  "head": "1cdcaa1378d15adc08d9ba116a0663e319965af5",
+  "head": "4d63e805826b984c325664514237dbb53ca229d1",
   "login": "jmdyck",
   "number": 2288,
   "ref": "declarative_Env_Rec",
@@ -4866,99 +4818,99 @@
    {
     "adate": "2026-05-05T19:13:29-04:00",
     "author": "Michael Dyck",
-    "date": "2026-05-05T19:13:29-04:00",
-    "hash": "1cdcaa1378d15adc08d9ba116a0663e319965af5",
-    "parents": "3265489369d9f93868972583dbcdf111b1a16b47",
+    "date": "2026-06-05T19:40:02-04:00",
+    "hash": "4d63e805826b984c325664514237dbb53ca229d1",
+    "parents": "07f5f84e644014aed924e91227c1bdcf10befb1e",
     "subject": "fixup: Mention that Function ERs and Module ERs override certain concrete methods"
    },
    {
     "adate": "2026-05-05T17:50:18-04:00",
     "author": "Michael Dyck",
-    "date": "2026-05-05T17:50:18-04:00",
-    "hash": "3265489369d9f93868972583dbcdf111b1a16b47",
-    "parents": "f0371e4b784c5f0cfe1449402ba5ec8f2eb71122",
+    "date": "2026-06-05T19:40:02-04:00",
+    "hash": "07f5f84e644014aed924e91227c1bdcf10befb1e",
+    "parents": "b0c09631be3d1e635cb7227895c0fe53270b1d14",
     "subject": "fixup: Convert \"Change its bound value\""
    },
    {
     "adate": "2026-05-05T17:37:32-04:00",
     "author": "Michael Dyck",
-    "date": "2026-05-05T17:37:32-04:00",
-    "hash": "f0371e4b784c5f0cfe1449402ba5ec8f2eb71122",
-    "parents": "ac5c767d61c951845739fa3b3e63a2e76aa0fbe6",
+    "date": "2026-06-05T19:40:02-04:00",
+    "hash": "b0c09631be3d1e635cb7227895c0fe53270b1d14",
+    "parents": "9fc7a222458c6785ade490da5828194de27d38de",
     "subject": "fixup: Add forward-reference for ImportDeclarativeBinding"
    },
    {
     "adate": "2026-05-05T17:33:28-04:00",
     "author": "Michael Dyck",
-    "date": "2026-05-05T17:33:28-04:00",
-    "hash": "ac5c767d61c951845739fa3b3e63a2e76aa0fbe6",
-    "parents": "a3db93f7cab7b0e563cabb1967b923ffcb914743",
+    "date": "2026-06-05T19:40:02-04:00",
+    "hash": "9fc7a222458c6785ade490da5828194de27d38de",
+    "parents": "ed2ff9e02db97311aaceedec06d3cc9344bd025c",
     "subject": "fixup: Better \"Meaning\" for `[[Bindings]]`"
    },
    {
     "adate": "2026-05-05T17:29:23-04:00",
     "author": "Michael Dyck",
-    "date": "2026-05-05T17:29:23-04:00",
-    "hash": "a3db93f7cab7b0e563cabb1967b923ffcb914743",
-    "parents": "da7a4eeda722b42a9ba1a7f9375732f1eb7b2fdd",
+    "date": "2026-06-05T19:40:02-04:00",
+    "hash": "ed2ff9e02db97311aaceedec06d3cc9344bd025c",
+    "parents": "1a49dd8ecabab7b66bb868e6501068b939cf7678",
     "subject": "fixup: Insert `!` before HasBinding invocations"
    },
    {
     "adate": "2026-05-05T17:02:23-04:00",
     "author": "Michael Dyck",
-    "date": "2026-05-05T17:02:23-04:00",
-    "hash": "da7a4eeda722b42a9ba1a7f9375732f1eb7b2fdd",
-    "parents": "274750f66314f1f14c14a09f3b09dea5f8e83286",
+    "date": "2026-06-05T17:15:52-04:00",
+    "hash": "1a49dd8ecabab7b66bb868e6501068b939cf7678",
+    "parents": "7e0ea31fc4c5fbe3452a5cf5b05b1a386ce3a235",
     "subject": "fixup: Capitalize the \"Meaning\" of fields"
    },
    {
     "adate": "2023-09-02T23:02:35-04:00",
     "author": "Michael Dyck",
-    "date": "2026-04-29T20:19:16-04:00",
-    "hash": "274750f66314f1f14c14a09f3b09dea5f8e83286",
-    "parents": "289dc7ee497954ee8ecfa60d524ee38c4fb34e1c",
+    "date": "2026-06-05T17:15:52-04:00",
+    "hash": "7e0ea31fc4c5fbe3452a5cf5b05b1a386ce3a235",
+    "parents": "6fc715c0e83b0c6ad98330aeea5346d122bfeda0",
     "subject": "fixup: add 'variants' attributes; change \"equals\" to \"is\""
    },
    {
     "adate": "2025-08-19T21:37:07-04:00",
     "author": "Michael Dyck",
-    "date": "2026-04-29T20:19:16-04:00",
-    "hash": "289dc7ee497954ee8ecfa60d524ee38c4fb34e1c",
-    "parents": "207de356a3e89d8b15885187b98435278241dfb1",
+    "date": "2026-06-05T17:15:52-04:00",
+    "hash": "6fc715c0e83b0c6ad98330aeea5346d122bfeda0",
+    "parents": "d3925d3ff94b4090a7fb9b2d60eb40f33c40ed0c",
     "subject": "Editorial: Model a declarative binding as a Record"
    },
    {
     "adate": "2025-08-19T21:35:25-04:00",
     "author": "Michael Dyck",
-    "date": "2026-04-29T20:19:16-04:00",
-    "hash": "207de356a3e89d8b15885187b98435278241dfb1",
-    "parents": "08210664181e0d661c935898370ac1aa5041f5ff",
+    "date": "2026-06-05T17:15:52-04:00",
+    "hash": "d3925d3ff94b4090a7fb9b2d60eb40f33c40ed0c",
+    "parents": "30d974493ec9702a96df66d0a256978cb8fbd2f1",
     "subject": "Editorial: Declarative Env Rec has field [[Bindings]]"
    },
    {
     "adate": "2025-08-19T21:30:27-04:00",
     "author": "Michael Dyck",
-    "date": "2026-04-29T20:19:16-04:00",
-    "hash": "08210664181e0d661c935898370ac1aa5041f5ff",
-    "parents": "ed340d4dda1415414917104c72119edac48b80b1",
+    "date": "2026-06-05T17:15:52-04:00",
+    "hash": "30d974493ec9702a96df66d0a256978cb8fbd2f1",
+    "parents": "d7528d4a896b1cc4aeb393edb0af0d143097d142",
     "subject": "Editorial: Treat a binding as an 'alias-able' thing"
    },
    {
     "adate": "2021-01-23T22:54:21-05:00",
     "author": "Michael Dyck",
-    "date": "2026-04-29T20:19:16-04:00",
-    "hash": "ed340d4dda1415414917104c72119edac48b80b1",
-    "parents": "3e0bdf0757a1a4f790044a35aa2ac53ca1fbc7a9",
+    "date": "2026-06-05T17:15:51-04:00",
+    "hash": "d7528d4a896b1cc4aeb393edb0af0d143097d142",
+    "parents": "8c0c94eb3be152b7ae7dc0cb580f4ee9f0a9a0c2",
     "subject": "Editorial: Use Declarative Env Rec's HasBinding method"
    }
   ],
   "title": "Editorial: Model the bindings of a declarative Env Rec as a List of Records",
-  "updated_at": "2026-05-05T23:25:44Z"
+  "updated_at": "2026-06-05T23:42:12Z"
  },
  {
-  "base": "32fe924d97f504194c96d71217e73da2bcdb2d91",
+  "base": "8c0c94eb3be152b7ae7dc0cb580f4ee9f0a9a0c2",
   "created_at": "2021-01-13T04:47:26Z",
-  "head": "7fe57e848ada1e530c8059f8912137ae95e218b9",
+  "head": "4cbae5730ad289d1cb05f1eb32a8070b537d62a2",
   "login": "jmdyck",
   "number": 2274,
   "ref": "Number_shifts",
@@ -4966,27 +4918,27 @@
    {
     "adate": "2021-01-12T23:24:04-05:00",
     "author": "Michael Dyck",
-    "date": "2024-08-09T21:07:15-04:00",
-    "hash": "7fe57e848ada1e530c8059f8912137ae95e218b9",
-    "parents": "57a798c1fa76cc3ae0de35789dbe5d096355099d",
+    "date": "2026-06-05T17:19:38-04:00",
+    "hash": "4cbae5730ad289d1cb05f1eb32a8070b537d62a2",
+    "parents": "69a7dd106e55efe446d092aac2e12dfc5ef34153",
     "subject": "Editorial: Express some Number methods more explicitly"
    },
    {
     "adate": "2021-01-12T22:07:15-05:00",
     "author": "Michael Dyck",
-    "date": "2024-08-09T21:05:17-04:00",
-    "hash": "57a798c1fa76cc3ae0de35789dbe5d096355099d",
-    "parents": "32fe924d97f504194c96d71217e73da2bcdb2d91",
+    "date": "2026-06-05T17:19:38-04:00",
+    "hash": "69a7dd106e55efe446d092aac2e12dfc5ef34153",
+    "parents": "8c0c94eb3be152b7ae7dc0cb580f4ee9f0a9a0c2",
     "subject": "Editorial: Extract NumberToInt32Bits and Int32BitsToNumber"
    }
   ],
   "title": "Editorial: Express some 'bitwise' Number methods more explicitly",
-  "updated_at": "2024-08-10T14:52:40Z"
+  "updated_at": "2026-06-05T23:43:36Z"
  },
  {
-  "base": "67ac2b7318378d72ef6e5cfe227b5392a98e210e",
+  "base": "8c0c94eb3be152b7ae7dc0cb580f4ee9f0a9a0c2",
   "created_at": "2020-12-08T06:31:39Z",
-  "head": "72bb574339262d46372151570498871d2642b51b",
+  "head": "e1c4b5badb60032d2393e8b172d1ebb7e7e20e20",
   "login": "jmdyck",
   "number": 2246,
   "ref": "ExecutionContext_Record",
@@ -4994,38 +4946,38 @@
    {
     "adate": "2026-05-04T19:44:47-04:00",
     "author": "Michael Dyck",
-    "date": "2026-05-06T17:24:26-04:00",
-    "hash": "72bb574339262d46372151570498871d2642b51b",
-    "parents": "6090e1650f6fb57ed37ccc41b34cedbeac6d22fe",
+    "date": "2026-06-05T17:16:55-04:00",
+    "hash": "e1c4b5badb60032d2393e8b172d1ebb7e7e20e20",
+    "parents": "8b3a9270ef965a112ad62ec52b56d7f4368fd279",
     "subject": "fixup: Wrap `<dfn>` around \"ExecutionContext Record\""
    },
    {
     "adate": "2025-02-19T17:23:33-05:00",
     "author": "Michael Dyck",
-    "date": "2026-05-06T17:24:26-04:00",
-    "hash": "6090e1650f6fb57ed37ccc41b34cedbeac6d22fe",
-    "parents": "243c57a1d10e50f8ab896d911c6573e6a74f6a4f",
+    "date": "2026-06-05T17:16:55-04:00",
+    "hash": "8b3a9270ef965a112ad62ec52b56d7f4368fd279",
+    "parents": "5dbc45c85233a32b07c6569717acea3f56506adb",
     "subject": "fixup: remove a line from esmeta-ignore.json"
    },
    {
     "adate": "2022-08-31T23:13:29-04:00",
     "author": "Michael Dyck",
-    "date": "2026-05-06T17:24:25-04:00",
-    "hash": "243c57a1d10e50f8ab896d911c6573e6a74f6a4f",
-    "parents": "dcfe69f5ef3618fbeb328dc7bd0ac1a6b7d1e6bd",
+    "date": "2026-06-05T17:16:55-04:00",
+    "hash": "5dbc45c85233a32b07c6569717acea3f56506adb",
+    "parents": "56f60268ea1d3d0636a55c4c7b56022e40965004",
     "subject": "fixup: Avoid saying \"that execution context\" by naming it"
    },
    {
     "adate": "2020-12-08T01:22:55-05:00",
     "author": "Michael Dyck",
-    "date": "2026-05-06T17:22:40-04:00",
-    "hash": "dcfe69f5ef3618fbeb328dc7bd0ac1a6b7d1e6bd",
-    "parents": "67ac2b7318378d72ef6e5cfe227b5392a98e210e",
+    "date": "2026-06-05T17:16:55-04:00",
+    "hash": "56f60268ea1d3d0636a55c4c7b56022e40965004",
+    "parents": "8c0c94eb3be152b7ae7dc0cb580f4ee9f0a9a0c2",
     "subject": "Editorial: Model execution context as a record"
    }
   ],
   "title": "Editorial: Model execution context as a record",
-  "updated_at": "2026-05-07T01:49:50Z"
+  "updated_at": "2026-06-05T23:45:59Z"
  },
  {
   "base": "b3f9b5089bcc3ddd8486379015cd11eb1427a5eb",
@@ -5220,9 +5172,9 @@
   "updated_at": "2026-04-18T06:25:53Z"
  },
  {
-  "base": "189d27a4e510052a899ed53c4d5c582b24138319",
+  "base": "8c0c94eb3be152b7ae7dc0cb580f4ee9f0a9a0c2",
   "created_at": "2019-07-13T02:30:44Z",
-  "head": "376559a685690162074ad434dad29dbc3c3cfd74",
+  "head": "243412ac4aae5db92a84c10316e732e2be55abb1",
   "login": "jmdyck",
   "number": 1623,
   "ref": "index_strings",
@@ -5230,46 +5182,38 @@
    {
     "adate": "2019-07-12T11:59:54-04:00",
     "author": "Michael Dyck",
-    "date": "2026-04-28T09:28:58-04:00",
-    "hash": "376559a685690162074ad434dad29dbc3c3cfd74",
-    "parents": "10b4bb49602136072608eb752a8caf5f5bf56392",
+    "date": "2026-06-05T17:21:16-04:00",
+    "hash": "243412ac4aae5db92a84c10316e732e2be55abb1",
+    "parents": "9f1ce039c14580aa6be28db6bd69a55d0d262172",
     "subject": "Editorial: some minor rewordings"
    },
    {
     "adate": "2019-07-12T11:12:43-04:00",
     "author": "Michael Dyck",
-    "date": "2026-04-28T09:28:57-04:00",
-    "hash": "10b4bb49602136072608eb752a8caf5f5bf56392",
-    "parents": "a4ff5542e53ca29c7acd8fd5350c2ad2062971c9",
+    "date": "2026-06-05T17:21:16-04:00",
+    "hash": "9f1ce039c14580aa6be28db6bd69a55d0d262172",
+    "parents": "6891c7609e4cd3e65bbfd48f3381cc31efad030b",
     "subject": "Editorial: Replace \"array index\" with \"Uint32-string\""
    },
    {
     "adate": "2019-07-12T10:23:31-04:00",
     "author": "Michael Dyck",
-    "date": "2026-04-28T09:26:44-04:00",
-    "hash": "a4ff5542e53ca29c7acd8fd5350c2ad2062971c9",
-    "parents": "78a87fda2f1bb4aacc3f5cab6377ead59a79e78e",
+    "date": "2026-06-05T17:21:16-04:00",
+    "hash": "6891c7609e4cd3e65bbfd48f3381cc31efad030b",
+    "parents": "17c539c4a0a9cf5f997279cc7a568a04db563c27",
     "subject": "Editorial: Replace \"integer index\" with \"Uint53-string\""
    },
    {
     "adate": "2019-07-12T21:58:00-04:00",
     "author": "Michael Dyck",
-    "date": "2026-04-28T09:21:05-04:00",
-    "hash": "78a87fda2f1bb4aacc3f5cab6377ead59a79e78e",
-    "parents": "a12ed88a657de4959fbc7a3a2e46f08f38f6b59a",
+    "date": "2026-06-05T17:21:16-04:00",
+    "hash": "17c539c4a0a9cf5f997279cc7a568a04db563c27",
+    "parents": "8c0c94eb3be152b7ae7dc0cb580f4ee9f0a9a0c2",
     "subject": "Editorial: Fix wording in Note for Arguments exotic objects"
-   },
-   {
-    "adate": "2026-04-27T21:34:15-04:00",
-    "author": "Michael Dyck",
-    "date": "2026-04-27T21:47:07-04:00",
-    "hash": "a12ed88a657de4959fbc7a3a2e46f08f38f6b59a",
-    "parents": "189d27a4e510052a899ed53c4d5c582b24138319",
-    "subject": "Editorial: Undo a recent regression"
    }
   ],
   "title": "Editorial: Replace terms \"integer index\" and \"array index\"",
-  "updated_at": "2026-04-28T22:40:33Z"
+  "updated_at": "2026-06-05T23:46:55Z"
  },
  {
   "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
