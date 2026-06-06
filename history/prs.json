@@ -2212,9 +2212,9 @@
   "updated_at": "2023-11-12T19:13:02Z"
  },
  {
-  "base": "82c99bbc44e4b63e3a14ffbf0ac90ce8359c1010",
+  "base": "8c0c94eb3be152b7ae7dc0cb580f4ee9f0a9a0c2",
   "created_at": "2023-11-08T20:37:34Z",
-  "head": "0f017325c3e7c18858f39746164f611e65743a75",
+  "head": "b1c141d3b197bbbd97be33e52d13d28eb408acb5",
   "login": "jmdyck",
   "number": 3217,
   "ref": "Identity",
@@ -2222,14 +2222,14 @@
    {
     "adate": "2023-11-08T15:27:34-05:00",
     "author": "Michael Dyck",
-    "date": "2023-11-08T15:27:34-05:00",
-    "hash": "0f017325c3e7c18858f39746164f611e65743a75",
-    "parents": "ea5ee21f74f996bbb127dbb8dfb2a7f17953daf3",
+    "date": "2026-06-05T17:11:33-04:00",
+    "hash": "b1c141d3b197bbbd97be33e52d13d28eb408acb5",
+    "parents": "8c0c94eb3be152b7ae7dc0cb580f4ee9f0a9a0c2",
     "subject": "Editorial: Rework the 'Identity' section"
    }
   ],
   "title": "Editorial: Rework the 'Identity' section",
-  "updated_at": "2023-11-08T20:46:16Z"
+  "updated_at": "2026-06-05T23:42:20Z"
  },
  {
   "base": "d14670224281909f5bb552e8ebe4a8e958646c16",
@@ -2252,9 +2252,9 @@
   "updated_at": "2025-05-24T16:05:09Z"
  },
  {
-  "base": "189d27a4e510052a899ed53c4d5c582b24138319",
+  "base": "8c0c94eb3be152b7ae7dc0cb580f4ee9f0a9a0c2",
   "created_at": "2023-10-29T03:33:26Z",
-  "head": "96592fbf4a55354d3dd3a3b3cb89bd306b593683",
+  "head": "5cbb49e49c5ecc3635ba2fc8f39e202de30c8f60",
   "login": "jmdyck",
   "number": 3210,
   "ref": "SDO",
@@ -2262,126 +2262,118 @@
    {
     "adate": "2025-02-19T17:45:59-05:00",
     "author": "Michael Dyck",
-    "date": "2026-04-27T22:15:34-04:00",
-    "hash": "96592fbf4a55354d3dd3a3b3cb89bd306b593683",
-    "parents": "8c8b68b3a1419a78fee38990db90a5fd5089b6b1",
+    "date": "2026-06-05T17:12:19-04:00",
+    "hash": "5cbb49e49c5ecc3635ba2fc8f39e202de30c8f60",
+    "parents": "ba21cb6afabff659650fe8ee4f6efea3be4a13d2",
     "subject": "fixup: Apply conventions after some merges to main"
    },
    {
     "adate": "2024-02-28T15:04:56-05:00",
     "author": "Michael Dyck",
-    "date": "2026-04-27T22:15:34-04:00",
-    "hash": "8c8b68b3a1419a78fee38990db90a5fd5089b6b1",
-    "parents": "0e74f63179188f4c3b1ae3f88e74081a3ca4d73d",
+    "date": "2026-06-05T17:12:19-04:00",
+    "hash": "ba21cb6afabff659650fe8ee4f6efea3be4a13d2",
+    "parents": "8014026cbc3e727f907f1b5042a48598ad53fa63",
     "subject": "fixup: In example, remove \"the\" before \"VarDeclaredNames\""
    },
    {
     "adate": "2024-02-28T14:15:23-05:00",
     "author": "Michael Dyck",
-    "date": "2026-04-27T22:15:33-04:00",
-    "hash": "0e74f63179188f4c3b1ae3f88e74081a3ca4d73d",
-    "parents": "2316f2b3a85fbc621044a00a45bed17cdbe54b54",
+    "date": "2026-06-05T17:12:19-04:00",
+    "hash": "8014026cbc3e727f907f1b5042a48598ad53fa63",
+    "parents": "b9a43e3eb1985ed27e6b26087e2a5679ddd4ad1c",
     "subject": "fixup re introducing \"subject Parse Node\""
    },
    {
     "adate": "2023-10-30T22:51:24-04:00",
     "author": "Michael Dyck",
-    "date": "2026-04-27T22:15:32-04:00",
-    "hash": "2316f2b3a85fbc621044a00a45bed17cdbe54b54",
-    "parents": "fa24be7633ff0920a2436041c02bca1022ce4810",
+    "date": "2026-06-05T17:12:19-04:00",
+    "hash": "b9a43e3eb1985ed27e6b26087e2a5679ddd4ad1c",
+    "parents": "37686bfecd06f16fb157afcec987b28b42555cfd",
     "subject": "fixup: insert more 'this'"
    },
    {
     "adate": "2023-10-28T23:20:34-04:00",
     "author": "Michael Dyck",
-    "date": "2026-04-27T22:13:12-04:00",
-    "hash": "fa24be7633ff0920a2436041c02bca1022ce4810",
-    "parents": "94b3677035430524424c0fb5af7345361b21e0c1",
+    "date": "2026-06-05T17:12:19-04:00",
+    "hash": "37686bfecd06f16fb157afcec987b28b42555cfd",
+    "parents": "0a6fbf9582d7749d4771ea0544c2fc8c8c615850",
     "subject": "Change \"this production\" to \"this Parse Node\""
    },
    {
     "adate": "2023-10-28T23:19:28-04:00",
     "author": "Michael Dyck",
-    "date": "2026-04-27T22:13:12-04:00",
-    "hash": "94b3677035430524424c0fb5af7345361b21e0c1",
-    "parents": "03ee2a47aee7c70ae37f5302a4f2308b547985d7",
+    "date": "2026-06-05T17:12:19-04:00",
+    "hash": "0a6fbf9582d7749d4771ea0544c2fc8c8c615850",
+    "parents": "4630f8d78a54512061e6b6dc06c3d09be6924d92",
     "subject": "Change \"this production\" (and 1 \"this phrase\") to \"this |Nonterminal|\""
    },
    {
     "adate": "2023-10-28T22:58:05-04:00",
     "author": "Michael Dyck",
-    "date": "2026-04-27T22:13:12-04:00",
-    "hash": "03ee2a47aee7c70ae37f5302a4f2308b547985d7",
-    "parents": "c0332963f4f3b0762cfebd8ab3c7dacbc0a56654",
+    "date": "2026-06-05T17:12:19-04:00",
+    "hash": "4630f8d78a54512061e6b6dc06c3d09be6924d92",
+    "parents": "db7c2ad359071ee66d80aba75a8f632b8c196949",
     "subject": "Change \"the |UnaryExpression|\" to \"this |UnaryExpression|\""
    },
    {
     "adate": "2023-10-28T22:55:29-04:00",
     "author": "Michael Dyck",
-    "date": "2026-04-27T22:13:09-04:00",
-    "hash": "c0332963f4f3b0762cfebd8ab3c7dacbc0a56654",
-    "parents": "7e979157089e1db92dcf56930108d1185ebe0ad7",
+    "date": "2026-06-05T17:12:18-04:00",
+    "hash": "db7c2ad359071ee66d80aba75a8f632b8c196949",
+    "parents": "a7539281f9d51f461f7db9699567e3b44aad9adb",
     "subject": "Insert 'this' for references to LHS nonterminal"
    },
    {
     "adate": "2023-10-28T15:35:18-04:00",
     "author": "Michael Dyck",
-    "date": "2026-04-27T22:11:07-04:00",
-    "hash": "7e979157089e1db92dcf56930108d1185ebe0ad7",
-    "parents": "cf07bf9d30e68503ada6962405865ef277f304dd",
+    "date": "2026-06-05T17:12:18-04:00",
+    "hash": "a7539281f9d51f461f7db9699567e3b44aad9adb",
+    "parents": "7a62292ac7b8fde62c4a0e487f0cf0b56b6d1d57",
     "subject": "Link to \"Referring to Parse Nodes\" from `Early Error Rules`"
    },
    {
     "adate": "2023-10-28T15:34:43-04:00",
     "author": "Michael Dyck",
-    "date": "2026-04-27T22:11:07-04:00",
-    "hash": "cf07bf9d30e68503ada6962405865ef277f304dd",
-    "parents": "6838b54932f24e6ce5b4b92ff26278110617bd0b",
+    "date": "2026-06-05T17:12:18-04:00",
+    "hash": "7a62292ac7b8fde62c4a0e487f0cf0b56b6d1d57",
+    "parents": "6b41d1ec01d00f8852a95dfd8e59f5a9995290a7",
     "subject": "Create a subsection for \"Referring to Parse Nodes\""
    },
    {
     "adate": "2023-10-28T15:29:41-04:00",
     "author": "Michael Dyck",
-    "date": "2026-04-27T22:11:07-04:00",
-    "hash": "6838b54932f24e6ce5b4b92ff26278110617bd0b",
-    "parents": "495e81f9e70d5e9783794db4d3d779acc3ea3eca",
+    "date": "2026-06-05T17:12:18-04:00",
+    "hash": "6b41d1ec01d00f8852a95dfd8e59f5a9995290a7",
+    "parents": "89652fc6e3e101915675c33d786a7666fa3e2343",
     "subject": "Add a paragraph about the dispatching mechanism for SDOs."
    },
    {
     "adate": "2023-10-28T09:59:26-04:00",
     "author": "Michael Dyck",
-    "date": "2026-04-27T22:11:07-04:00",
-    "hash": "495e81f9e70d5e9783794db4d3d779acc3ea3eca",
-    "parents": "9d0e14db3f689b0957e5eeaf51f68e603cb76d08",
+    "date": "2026-06-05T17:12:18-04:00",
+    "hash": "89652fc6e3e101915675c33d786a7666fa3e2343",
+    "parents": "2396824786753a473ce2ffc3cffea7d717390e4b",
     "subject": "Split off a subsection for \"Invoking Syntax-Directed Operations\""
    },
    {
     "adate": "2023-10-28T09:53:49-04:00",
     "author": "Michael Dyck",
-    "date": "2026-04-27T22:11:07-04:00",
-    "hash": "9d0e14db3f689b0957e5eeaf51f68e603cb76d08",
-    "parents": "45ec6fe7e682375560466a88270e47b05ca1a97b",
+    "date": "2026-06-05T17:12:18-04:00",
+    "hash": "2396824786753a473ce2ffc3cffea7d717390e4b",
+    "parents": "57f6d558de89126b29625a8a2281a38f892a09d8",
     "subject": "Split off a subsection for \"Implicit Definitions for Chain Productions\""
    },
    {
     "adate": "2023-10-28T09:35:28-04:00",
     "author": "Michael Dyck",
-    "date": "2026-04-27T22:11:07-04:00",
-    "hash": "45ec6fe7e682375560466a88270e47b05ca1a97b",
-    "parents": "a12ed88a657de4959fbc7a3a2e46f08f38f6b59a",
+    "date": "2026-06-05T17:12:18-04:00",
+    "hash": "57f6d558de89126b29625a8a2281a38f892a09d8",
+    "parents": "8c0c94eb3be152b7ae7dc0cb580f4ee9f0a9a0c2",
     "subject": "Move the definition of \"source text matched by\""
-   },
-   {
-    "adate": "2026-04-27T21:34:15-04:00",
-    "author": "Michael Dyck",
-    "date": "2026-04-27T21:47:07-04:00",
-    "hash": "a12ed88a657de4959fbc7a3a2e46f08f38f6b59a",
-    "parents": "189d27a4e510052a899ed53c4d5c582b24138319",
-    "subject": "Editorial: Undo a recent regression"
    }
   ],
   "title": "Editorial: Expand the \"Syntax-Directed Operations\" section",
-  "updated_at": "2026-04-28T22:01:35Z"
+  "updated_at": "2026-06-05T23:24:58Z"
  },
  {
   "base": "f2b2d524a56c915826e90d7a3f9daa51a49011c3",
@@ -2404,192 +2396,192 @@
   "updated_at": "2024-07-19T17:14:37Z"
  },
  {
-  "base": "189d27a4e510052a899ed53c4d5c582b24138319",
+  "base": "8c0c94eb3be152b7ae7dc0cb580f4ee9f0a9a0c2",
   "created_at": "2023-10-12T01:47:04Z",
-  "head": "6e01dfb5c35deff0b4828f465365582813198f11",
+  "head": "ea071c953a7077a1e1db55839729942e2c1a1484",
   "login": "jmdyck",
   "number": 3193,
   "ref": "Date_math",
   "revs": [
    {
+    "adate": "2026-06-05T20:04:43-04:00",
+    "author": "Michael Dyck",
+    "date": "2026-06-05T20:04:43-04:00",
+    "hash": "ea071c953a7077a1e1db55839729942e2c1a1484",
+    "parents": "441668204005e60b7ef9f91757b9fcd196433f43",
+    "subject": "fixup: Change `is` to `=`"
+   },
+   {
     "adate": "2024-02-27T20:02:11-05:00",
     "author": "Michael Dyck",
-    "date": "2026-04-27T22:22:40-04:00",
-    "hash": "6e01dfb5c35deff0b4828f465365582813198f11",
-    "parents": "4e3851a2348ab44c4b024a7937c4d84c4374cace",
+    "date": "2026-06-05T17:13:09-04:00",
+    "hash": "441668204005e60b7ef9f91757b9fcd196433f43",
+    "parents": "636becb3b97a83c9209b1f60b97e9bc1deead37a",
     "subject": "fixup: fix description of MonthFromTime and WeekDay"
    },
    {
     "adate": "2023-10-11T18:31:13-04:00",
     "author": "Michael Dyck",
-    "date": "2026-04-27T22:22:39-04:00",
-    "hash": "4e3851a2348ab44c4b024a7937c4d84c4374cace",
-    "parents": "fc3c75d215c246bed93b6c156225632dd09858d5",
+    "date": "2026-06-05T17:13:09-04:00",
+    "hash": "636becb3b97a83c9209b1f60b97e9bc1deead37a",
+    "parents": "d5062174c7c97db663fdbb22181c197c8f09598b",
     "subject": "to math: MakeTime, MakeDay, DateString, TimeZoneString, Date.prototype.toUTCString (some internals only)"
    },
    {
     "adate": "2023-10-11T16:55:16-04:00",
     "author": "Michael Dyck",
-    "date": "2026-04-27T22:22:39-04:00",
-    "hash": "fc3c75d215c246bed93b6c156225632dd09858d5",
-    "parents": "15b4dd828a2d85b8a54f419b1078410e9dc988e1",
+    "date": "2026-06-05T17:13:09-04:00",
+    "hash": "d5062174c7c97db663fdbb22181c197c8f09598b",
+    "parents": "59539f2383bfa2f79fb6d762f4328832d8ab931e",
     "subject": "to math: \"Names of months of the year\" table"
    },
    {
     "adate": "2023-10-11T16:52:18-04:00",
     "author": "Michael Dyck",
-    "date": "2026-04-27T22:22:39-04:00",
-    "hash": "15b4dd828a2d85b8a54f419b1078410e9dc988e1",
-    "parents": "37abf73986eb893d36d9580914d800e2d61659bd",
+    "date": "2026-06-05T17:13:09-04:00",
+    "hash": "59539f2383bfa2f79fb6d762f4328832d8ab931e",
+    "parents": "c0bd2a64d8f50f32751b2dab0ca03043046bf74d",
     "subject": "to math: \"Names of days of the week\" table"
    },
    {
     "adate": "2023-10-11T16:45:20-04:00",
     "author": "Michael Dyck",
-    "date": "2026-04-27T22:22:39-04:00",
-    "hash": "37abf73986eb893d36d9580914d800e2d61659bd",
-    "parents": "d8e9eb0c33d685409f7f3fe09a42543039e683ba",
+    "date": "2026-06-05T17:13:09-04:00",
+    "hash": "c0bd2a64d8f50f32751b2dab0ca03043046bf74d",
+    "parents": "5b5b523a24d90e7c7cf4c54efae99ee73c2ef738",
     "subject": "to math: MillisecFromTime (return value)"
    },
    {
     "adate": "2023-10-11T16:41:39-04:00",
     "author": "Michael Dyck",
-    "date": "2026-04-27T22:22:39-04:00",
-    "hash": "d8e9eb0c33d685409f7f3fe09a42543039e683ba",
-    "parents": "557f02cbe6563d6639f00b70eee72b18958f31f5",
+    "date": "2026-06-05T17:13:08-04:00",
+    "hash": "5b5b523a24d90e7c7cf4c54efae99ee73c2ef738",
+    "parents": "b32bdf5a0161b563818da15ee4cd88feadfb6202",
     "subject": "to math: SecFromTime (return value)"
    },
    {
     "adate": "2023-10-11T16:36:38-04:00",
     "author": "Michael Dyck",
-    "date": "2026-04-27T22:22:39-04:00",
-    "hash": "557f02cbe6563d6639f00b70eee72b18958f31f5",
-    "parents": "c5e8cfe16d9df105c6168674cc4ac67d83fbc148",
+    "date": "2026-06-05T17:13:08-04:00",
+    "hash": "b32bdf5a0161b563818da15ee4cd88feadfb6202",
+    "parents": "fc6921e3d36a48615ea7357e87f6eabe4cf6c15e",
     "subject": "to math: MinFromTime (return value)"
    },
    {
     "adate": "2023-10-11T16:31:53-04:00",
     "author": "Michael Dyck",
-    "date": "2026-04-27T22:22:39-04:00",
-    "hash": "c5e8cfe16d9df105c6168674cc4ac67d83fbc148",
-    "parents": "d836ed967c30e9b1a178f5a9eaaed1846a4989fc",
+    "date": "2026-06-05T17:13:08-04:00",
+    "hash": "fc6921e3d36a48615ea7357e87f6eabe4cf6c15e",
+    "parents": "5bd1657011bfe872cf1e80d517dd3395ef5395db",
     "subject": "to math: HourFromTime (return value)"
    },
    {
     "adate": "2023-10-11T16:26:08-04:00",
     "author": "Michael Dyck",
-    "date": "2026-04-27T22:22:39-04:00",
-    "hash": "d836ed967c30e9b1a178f5a9eaaed1846a4989fc",
-    "parents": "9942619e02219a4faafca396139e9bb8bc3a4a69",
+    "date": "2026-06-05T17:13:08-04:00",
+    "hash": "5bd1657011bfe872cf1e80d517dd3395ef5395db",
+    "parents": "420c0759179d643f5eef8989717e8fd6dd354bb9",
     "subject": "to math: WeekDay (return value)"
    },
    {
     "adate": "2023-10-11T16:21:26-04:00",
     "author": "Michael Dyck",
-    "date": "2026-04-27T22:22:36-04:00",
-    "hash": "9942619e02219a4faafca396139e9bb8bc3a4a69",
-    "parents": "eff0ac278c7c0397b452c2273299f729fce6f7ab",
+    "date": "2026-06-05T17:13:08-04:00",
+    "hash": "420c0759179d643f5eef8989717e8fd6dd354bb9",
+    "parents": "abf2bcabaa878721f43569de927b016c4784113c",
     "subject": "to math: DateFromTime (return value + internal aliases)"
    },
    {
     "adate": "2023-10-11T14:30:24-04:00",
     "author": "Michael Dyck",
-    "date": "2026-04-27T22:21:21-04:00",
-    "hash": "eff0ac278c7c0397b452c2273299f729fce6f7ab",
-    "parents": "58f34c0afb396891a9545cf9038dc8714294cc17",
+    "date": "2026-06-05T17:13:08-04:00",
+    "hash": "abf2bcabaa878721f43569de927b016c4784113c",
+    "parents": "27d6c62531740966dbda8331aaebb8e001a4d9cc",
     "subject": "to math: MonthFromTime (return value + internal aliases)"
    },
    {
     "adate": "2023-10-11T14:15:52-04:00",
     "author": "Michael Dyck",
-    "date": "2026-04-27T22:20:05-04:00",
-    "hash": "58f34c0afb396891a9545cf9038dc8714294cc17",
-    "parents": "1ba88fb13601c66bbd28540d90dbffe5b5ee35df",
+    "date": "2026-06-05T17:13:08-04:00",
+    "hash": "27d6c62531740966dbda8331aaebb8e001a4d9cc",
+    "parents": "a00bdb32e0963c26ae40141d65bbdcd20265db66",
     "subject": "to math: InLeapYear (return value)"
    },
    {
     "adate": "2023-10-11T14:11:51-04:00",
     "author": "Michael Dyck",
-    "date": "2026-04-27T22:20:05-04:00",
-    "hash": "1ba88fb13601c66bbd28540d90dbffe5b5ee35df",
-    "parents": "9f381dbb1d2b73bbb216e2ebb6fa565ffb0a58ab",
+    "date": "2026-06-05T17:13:08-04:00",
+    "hash": "a00bdb32e0963c26ae40141d65bbdcd20265db66",
+    "parents": "77b8c2c47c0ba38ba04608b29d1db42d5ee4eaa8",
     "subject": "to math: DayWithinYear (return value)"
    },
    {
     "adate": "2023-10-11T14:05:37-04:00",
     "author": "Michael Dyck",
-    "date": "2026-04-27T22:20:05-04:00",
-    "hash": "9f381dbb1d2b73bbb216e2ebb6fa565ffb0a58ab",
-    "parents": "9dda50fffcb1e80c2e30fc03ad69ed343560de32",
+    "date": "2026-06-05T17:13:08-04:00",
+    "hash": "77b8c2c47c0ba38ba04608b29d1db42d5ee4eaa8",
+    "parents": "4a8cccf112638281d25da4a7e1b20276b7c2498a",
     "subject": "to math: YearFromTime (return value)"
    },
    {
     "adate": "2023-10-11T13:56:05-04:00",
     "author": "Michael Dyck",
-    "date": "2026-04-27T22:20:05-04:00",
-    "hash": "9dda50fffcb1e80c2e30fc03ad69ed343560de32",
-    "parents": "97894a8de89096aec469ac1597c29cccc0a71af2",
+    "date": "2026-06-05T17:13:07-04:00",
+    "hash": "4a8cccf112638281d25da4a7e1b20276b7c2498a",
+    "parents": "2474309bece3c11a3c49c68f93a5c94840ecf8ac",
     "subject": "to math: TimeFromYear (parameter)"
    },
    {
     "adate": "2023-10-11T13:47:38-04:00",
     "author": "Michael Dyck",
-    "date": "2026-04-27T22:20:05-04:00",
-    "hash": "97894a8de89096aec469ac1597c29cccc0a71af2",
-    "parents": "6d8ef8f3d1540c589ed6155c8fbdd714324731fa",
+    "date": "2026-06-05T17:13:07-04:00",
+    "hash": "2474309bece3c11a3c49c68f93a5c94840ecf8ac",
+    "parents": "5092706ebb1984ad24c7968072ced52eff0b1f36",
     "subject": "to math: DayFromYear (parameter + return value)"
    },
    {
     "adate": "2023-10-10T23:12:16-04:00",
     "author": "Michael Dyck",
-    "date": "2026-04-27T22:20:02-04:00",
-    "hash": "6d8ef8f3d1540c589ed6155c8fbdd714324731fa",
-    "parents": "0acbe3a33c6494ef3327ac865d9274764e369a18",
+    "date": "2026-06-05T17:13:07-04:00",
+    "hash": "5092706ebb1984ad24c7968072ced52eff0b1f36",
+    "parents": "b02af74e61ee254f9dc7097972b192a6373d03d7",
     "subject": "to math: TimeWithinDay (return value)"
    },
    {
     "adate": "2023-10-10T23:09:51-04:00",
     "author": "Michael Dyck",
-    "date": "2026-04-27T22:18:21-04:00",
-    "hash": "0acbe3a33c6494ef3327ac865d9274764e369a18",
-    "parents": "ff88084fcba88ca3af9ca00d1f314bdbf86df52f",
+    "date": "2026-06-05T17:13:07-04:00",
+    "hash": "b02af74e61ee254f9dc7097972b192a6373d03d7",
+    "parents": "2501a36f92f8b6a26c5df34e4b31b51bc68d52f7",
     "subject": "to math: Day (return value)"
    },
    {
     "adate": "2023-10-10T22:49:04-04:00",
     "author": "Michael Dyck",
-    "date": "2026-04-27T22:18:21-04:00",
-    "hash": "ff88084fcba88ca3af9ca00d1f314bdbf86df52f",
-    "parents": "58c0c59d8edf028453efaf7b327b32671933b9d8",
+    "date": "2026-06-05T17:13:07-04:00",
+    "hash": "2501a36f92f8b6a26c5df34e4b31b51bc68d52f7",
+    "parents": "257a201f3edab3dab8d3fa295ec463f1fb1d5649",
     "subject": "to math: msPerFoo constants"
    },
    {
     "adate": "2023-10-10T22:22:09-04:00",
     "author": "Michael Dyck",
-    "date": "2026-04-27T22:18:21-04:00",
-    "hash": "58c0c59d8edf028453efaf7b327b32671933b9d8",
-    "parents": "a961e53a4fa5c1cafafbad75cd91d64d842d7c17",
+    "date": "2026-06-05T17:13:07-04:00",
+    "hash": "257a201f3edab3dab8d3fa295ec463f1fb1d5649",
+    "parents": "70f98542185ddef9da28318a947a63eb72b8bf51",
     "subject": "Editorial: Rename `msFromTime` as `MillisecFromTime`"
    },
    {
     "adate": "2023-10-10T22:19:14-04:00",
     "author": "Michael Dyck",
-    "date": "2026-04-27T22:18:21-04:00",
-    "hash": "a961e53a4fa5c1cafafbad75cd91d64d842d7c17",
-    "parents": "a12ed88a657de4959fbc7a3a2e46f08f38f6b59a",
+    "date": "2026-06-05T17:13:07-04:00",
+    "hash": "70f98542185ddef9da28318a947a63eb72b8bf51",
+    "parents": "8c0c94eb3be152b7ae7dc0cb580f4ee9f0a9a0c2",
     "subject": "Editorial: Inline `DaysInYear` into `InLeapYear`"
-   },
-   {
-    "adate": "2026-04-27T21:34:15-04:00",
-    "author": "Michael Dyck",
-    "date": "2026-04-27T21:47:07-04:00",
-    "hash": "a12ed88a657de4959fbc7a3a2e46f08f38f6b59a",
-    "parents": "189d27a4e510052a899ed53c4d5c582b24138319",
-    "subject": "Editorial: Undo a recent regression"
    }
   ],
   "title": "Editorial: More tweaks to low-level Date AOs",
-  "updated_at": "2026-04-28T22:15:31Z"
+  "updated_at": "2026-06-06T00:06:20Z"
  },
  {
   "base": "10d44bfce4640894a0ed366bb769f2700cc8839a",
@@ -3936,9 +3928,9 @@
   "updated_at": "2023-02-13T16:58:31Z"
  },
  {
-  "base": "0394941eca47b04f466cb85244ad7c9fb945bb5d",
+  "base": "8c0c94eb3be152b7ae7dc0cb580f4ee9f0a9a0c2",
   "created_at": "2022-11-22T04:48:42Z",
-  "head": "b2e164e68a28a788b9fbfad9b014707950fa4c68",
+  "head": "06d1fd25d9323fde6950ecb81095edbbb32207a2",
   "login": "jmdyck",
   "number": 2962,
   "ref": "transfer",
@@ -3946,110 +3938,110 @@
    {
     "adate": "2023-02-13T11:22:33-05:00",
     "author": "Michael Dyck",
-    "date": "2026-05-07T18:31:20-04:00",
-    "hash": "b2e164e68a28a788b9fbfad9b014707950fa4c68",
-    "parents": "8ab61be518637130005620303eca5b5805204fdc",
+    "date": "2026-06-05T17:14:07-04:00",
+    "hash": "06d1fd25d9323fde6950ecb81095edbbb32207a2",
+    "parents": "1b1a1ea5e196efc009b6c98ec237dd4fd868c545",
     "subject": "Eliminate certain wording around execution contexts"
    },
    {
     "adate": "2022-11-21T22:50:15-05:00",
     "author": "Michael Dyck",
-    "date": "2026-05-07T18:30:41-04:00",
-    "hash": "8ab61be518637130005620303eca5b5805204fdc",
-    "parents": "5073c081baeda6ad1f1489185ffb402c0d96a437",
+    "date": "2026-06-05T17:14:06-04:00",
+    "hash": "1b1a1ea5e196efc009b6c98ec237dd4fd868c545",
+    "parents": "8c807713ec43ca4860d1a4f811fe41f2bfdaf7a7",
     "subject": "Execution Context section: Make the EC Stack subsection"
    },
    {
     "adate": "2022-11-21T22:21:11-05:00",
     "author": "Michael Dyck",
-    "date": "2026-05-07T18:30:12-04:00",
-    "hash": "5073c081baeda6ad1f1489185ffb402c0d96a437",
-    "parents": "162a626ec12be9610f859b631249c9ef4e96443d",
+    "date": "2026-06-05T17:14:06-04:00",
+    "hash": "8c807713ec43ca4860d1a4f811fe41f2bfdaf7a7",
+    "parents": "ad8cf385010f02f00a59ef1ff52f1be9ce2ac79d",
     "subject": "Execution Context section: Move a paragraph"
    },
    {
     "adate": "2026-05-07T14:57:12-04:00",
     "author": "Michael Dyck",
-    "date": "2026-05-07T18:30:05-04:00",
-    "hash": "162a626ec12be9610f859b631249c9ef4e96443d",
-    "parents": "8c782a06af05b310d377d7cf934918bfd7d4eb4e",
+    "date": "2026-06-05T17:14:06-04:00",
+    "hash": "ad8cf385010f02f00a59ef1ff52f1be9ce2ac79d",
+    "parents": "ebe3fcdf30f238e041d8ee0a06f9a6434019e4f0",
     "subject": "Resume+Suspend: Re-word Note steps that talk about resuming execution contexts"
    },
    {
     "adate": "2022-11-21T22:10:01-05:00",
     "author": "Michael Dyck",
-    "date": "2026-05-07T18:29:21-04:00",
-    "hash": "8c782a06af05b310d377d7cf934918bfd7d4eb4e",
-    "parents": "54c96d9ee447370afa5fc37b4c639f07fc032348",
+    "date": "2026-06-05T17:14:06-04:00",
+    "hash": "ebe3fcdf30f238e041d8ee0a06f9a6434019e4f0",
+    "parents": "005c1b684e67f1aa9d1995b6412687f592d38507",
     "subject": "Resume+Suspend: Eliminate `Suspend` steps"
    },
    {
     "adate": "2022-11-21T22:04:15-05:00",
     "author": "Michael Dyck",
-    "date": "2026-05-07T18:28:44-04:00",
-    "hash": "54c96d9ee447370afa5fc37b4c639f07fc032348",
-    "parents": "b505b69883a1e4ce3e98581e9ba23648bda417d4",
+    "date": "2026-06-05T17:14:06-04:00",
+    "hash": "005c1b684e67f1aa9d1995b6412687f592d38507",
+    "parents": "3facc32a48f897c3b0f56899630779a86566365a",
     "subject": "Resume+Suspend: Eliminate `Resume` steps"
    },
    {
     "adate": "2022-11-21T21:39:36-05:00",
     "author": "Michael Dyck",
-    "date": "2026-05-07T18:28:22-04:00",
-    "hash": "b505b69883a1e4ce3e98581e9ba23648bda417d4",
-    "parents": "e041abdb7e6a556c0416e046d92be15b3247a831",
+    "date": "2026-06-05T17:14:06-04:00",
+    "hash": "3facc32a48f897c3b0f56899630779a86566365a",
+    "parents": "bf07eb54248d894b17f232b0d6d818993b8fdc0c",
     "subject": "Transfer control: Define \"Transfer control\""
    },
    {
     "adate": "2026-05-07T14:55:57-04:00",
     "author": "Michael Dyck",
-    "date": "2026-05-07T18:27:35-04:00",
-    "hash": "e041abdb7e6a556c0416e046d92be15b3247a831",
-    "parents": "50087d7198ecbd868defd5e8973d2693f5f16d97",
+    "date": "2026-06-05T17:14:06-04:00",
+    "hash": "bf07eb54248d894b17f232b0d6d818993b8fdc0c",
+    "parents": "7a0b8341cc5bce2fcf303ead87c3353811026f4c",
     "subject": "Transfer control: Tweak wording re setting `code evaluation state`"
    },
    {
     "adate": "2022-11-21T17:28:17-05:00",
     "author": "Michael Dyck",
-    "date": "2026-05-07T18:26:39-04:00",
-    "hash": "50087d7198ecbd868defd5e8973d2693f5f16d97",
-    "parents": "15a821a8d1e13b964756693cba9318dda6b20ca4",
+    "date": "2026-06-05T17:14:06-04:00",
+    "hash": "7a0b8341cc5bce2fcf303ead87c3353811026f4c",
+    "parents": "2b3f29fe66b5a05332278937c1b3b1f8bdf81a1f",
     "subject": "Transfer control: Replace 3 odd \"Return\" steps with \"Transfer control\""
    },
    {
     "adate": "2022-11-21T17:16:57-05:00",
     "author": "Michael Dyck",
-    "date": "2026-05-07T18:26:26-04:00",
-    "hash": "15a821a8d1e13b964756693cba9318dda6b20ca4",
-    "parents": "ea419466d4ebb80d5c9ae41d89258e78e1474c3c",
+    "date": "2026-06-05T17:14:05-04:00",
+    "hash": "2b3f29fe66b5a05332278937c1b3b1f8bdf81a1f",
+    "parents": "08369582474189c0ffd8cc01125ea32a1cb450a9",
     "subject": "(Transfer control:) Refactor GeneratorStart's Abstract Closure so that it has only one Return step."
    },
    {
     "adate": "2026-05-07T14:01:23-04:00",
     "author": "Michael Dyck",
-    "date": "2026-05-07T18:18:21-04:00",
-    "hash": "ea419466d4ebb80d5c9ae41d89258e78e1474c3c",
-    "parents": "d194e5e1f4eae33724934a974d3206d9ba021055",
+    "date": "2026-06-05T17:14:05-04:00",
+    "hash": "08369582474189c0ffd8cc01125ea32a1cb450a9",
+    "parents": "42a67ad193f629cbc38927125146ec61770d889d",
     "subject": "Transfer control: Replace the 4 blocking-Resume steps with \"Transfer control\""
    },
    {
     "adate": "2026-05-07T13:48:08-04:00",
     "author": "Michael Dyck",
-    "date": "2026-05-07T18:16:58-04:00",
-    "hash": "d194e5e1f4eae33724934a974d3206d9ba021055",
-    "parents": "29cbeb936eeb6d1ec19f0558f2764fbcb471078b",
+    "date": "2026-06-05T17:14:05-04:00",
+    "hash": "42a67ad193f629cbc38927125146ec61770d889d",
+    "parents": "71c63bd1f0b27561c6b8955eeb215098798ccaa3",
     "subject": "In AsyncBlockStart, change `~empty~` to `~unused~`"
    },
    {
     "adate": "2023-09-02T20:51:16-04:00",
     "author": "Michael Dyck",
-    "date": "2026-05-07T18:15:01-04:00",
-    "hash": "29cbeb936eeb6d1ec19f0558f2764fbcb471078b",
-    "parents": "67ac2b7318378d72ef6e5cfe227b5392a98e210e",
+    "date": "2026-06-05T17:14:05-04:00",
+    "hash": "71c63bd1f0b27561c6b8955eeb215098798ccaa3",
+    "parents": "8c0c94eb3be152b7ae7dc0cb580f4ee9f0a9a0c2",
     "subject": "Editorial: Eliminate \"restore <context> as the running execution context\""
    }
   ],
   "title": "Editorial: Various changes around execution contexts",
-  "updated_at": "2026-05-08T02:15:20Z"
+  "updated_at": "2026-06-05T23:29:13Z"
  },
  {
   "base": "053d34c87b14d9234d6f7f45bd61074b72ca9d69",
@@ -4192,9 +4184,9 @@
   "updated_at": "2023-02-13T19:08:39Z"
  },
  {
-  "base": "189d27a4e510052a899ed53c4d5c582b24138319",
+  "base": "8c0c94eb3be152b7ae7dc0cb580f4ee9f0a9a0c2",
   "created_at": "2022-09-04T02:20:57Z",
-  "head": "e95c5983025b2bce5f678320f8f846e2b5d4f212",
+  "head": "3c4948ca5c21c61d7d3decc40639507170fe4254",
   "login": "jmdyck",
   "number": 2889,
   "ref": "callable",
@@ -4202,30 +4194,22 @@
    {
     "adate": "2022-09-03T22:11:56-04:00",
     "author": "Michael Dyck",
-    "date": "2026-04-27T23:45:08-04:00",
-    "hash": "e95c5983025b2bce5f678320f8f846e2b5d4f212",
-    "parents": "26c4d05946c31e0fdc437860aa3dfe309ed487da",
+    "date": "2026-06-05T17:18:49-04:00",
+    "hash": "3c4948ca5c21c61d7d3decc40639507170fe4254",
+    "parents": "85d7f43512ed0b7aa57f5724ba4a4f9c1d551559",
     "subject": "Eliminate most other uses of \"callable\""
    },
    {
     "adate": "2022-09-03T21:47:50-04:00",
     "author": "Michael Dyck",
-    "date": "2026-04-27T23:44:52-04:00",
-    "hash": "26c4d05946c31e0fdc437860aa3dfe309ed487da",
-    "parents": "a12ed88a657de4959fbc7a3a2e46f08f38f6b59a",
+    "date": "2026-06-05T17:18:49-04:00",
+    "hash": "85d7f43512ed0b7aa57f5724ba4a4f9c1d551559",
+    "parents": "8c0c94eb3be152b7ae7dc0cb580f4ee9f0a9a0c2",
     "subject": "Rename \"IsCallable\" as \"IsFunction\""
-   },
-   {
-    "adate": "2026-04-27T21:34:15-04:00",
-    "author": "Michael Dyck",
-    "date": "2026-04-27T21:47:07-04:00",
-    "hash": "a12ed88a657de4959fbc7a3a2e46f08f38f6b59a",
-    "parents": "189d27a4e510052a899ed53c4d5c582b24138319",
-    "subject": "Editorial: Undo a recent regression"
    }
   ],
   "title": "Editorial: Minimize use of the term \"callable\"",
-  "updated_at": "2026-04-28T22:35:23Z"
+  "updated_at": "2026-06-05T23:30:51Z"
  },
  {
   "base": "dceb9e45fa04ff37a213095e97a28da81bf213ec",
