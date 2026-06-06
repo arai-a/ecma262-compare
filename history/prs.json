@@ -120,9 +120,9 @@
   "updated_at": "2026-05-21T17:31:02Z"
  },
  {
-  "base": "c0a2b1aac2b8e3c7bedb67df4620cde27cf6501d",
+  "base": "8c0c94eb3be152b7ae7dc0cb580f4ee9f0a9a0c2",
   "created_at": "2026-05-05T01:53:43Z",
-  "head": "f4dd4c42dd9fda28e0dccc1459d5e5143cbb755f",
+  "head": "8066c8358ba94341809f820cda87d9ec263ae9d4",
   "login": "jmdyck",
   "number": 3846,
   "ref": "RunCallerContext",
@@ -130,38 +130,30 @@
    {
     "adate": "2026-05-06T21:29:19-04:00",
     "author": "Michael Dyck",
-    "date": "2026-06-03T13:49:04-04:00",
-    "hash": "f4dd4c42dd9fda28e0dccc1459d5e5143cbb755f",
-    "parents": "6b6ec88a6c7fa4ce1cb42ecaea79fa1ec0bf4526",
+    "date": "2026-06-05T17:07:46-04:00",
+    "hash": "8066c8358ba94341809f820cda87d9ec263ae9d4",
+    "parents": "5d69e5f43da56cd6c59c41b2d31a1ecb797c73f7",
     "subject": "fixup: insert comma"
    },
    {
     "adate": "2022-11-09T09:34:39-05:00",
     "author": "Michael Dyck",
-    "date": "2026-06-03T13:49:04-04:00",
-    "hash": "6b6ec88a6c7fa4ce1cb42ecaea79fa1ec0bf4526",
-    "parents": "bfb65797164f565ab992cfbf9113d2436eeaefa2",
+    "date": "2026-06-05T17:07:46-04:00",
+    "hash": "5d69e5f43da56cd6c59c41b2d31a1ecb797c73f7",
+    "parents": "99c2e465afa3a4a7ccb93d9f4f68fb053e421334",
     "subject": "fixup: wording around `Resume`"
    },
    {
     "adate": "2022-02-14T23:02:30-05:00",
     "author": "Michael Dyck",
-    "date": "2026-06-03T13:49:02-04:00",
-    "hash": "bfb65797164f565ab992cfbf9113d2436eeaefa2",
-    "parents": "b35ff9f864cce80587f35ecfad1de0593b870c26",
+    "date": "2026-06-05T17:07:46-04:00",
+    "hash": "99c2e465afa3a4a7ccb93d9f4f68fb053e421334",
+    "parents": "8c0c94eb3be152b7ae7dc0cb580f4ee9f0a9a0c2",
     "subject": "Factor out RunCallerContext"
-   },
-   {
-    "adate": "2026-06-02T21:32:23-04:00",
-    "author": "Michael Dyck",
-    "date": "2026-06-02T22:51:42-04:00",
-    "hash": "b35ff9f864cce80587f35ecfad1de0593b870c26",
-    "parents": "c0a2b1aac2b8e3c7bedb67df4620cde27cf6501d",
-    "subject": "PR #3847 missed `type=\"built-in function\"`"
    }
   ],
   "title": "Editorial: Factor out AO RunCallerContext()",
-  "updated_at": "2026-06-04T13:06:43Z"
+  "updated_at": "2026-06-05T23:18:16Z"
  },
  {
   "base": "3e0bdf0757a1a4f790044a35aa2ac53ca1fbc7a9",
@@ -784,9 +776,9 @@
   "updated_at": "2025-12-18T07:40:25Z"
  },
  {
-  "base": "47520386ede6b9e01c4361677ff62a448e132b58",
+  "base": "8c0c94eb3be152b7ae7dc0cb580f4ee9f0a9a0c2",
   "created_at": "2025-11-24T21:11:46Z",
-  "head": "407e0e4b4093656fff9f1f3dacacba9f5f26bd54",
+  "head": "fa428380e7b83c4e4a14ba6715e44534a744d4fe",
   "login": "jmdyck",
   "number": 3728,
   "ref": "revamp_IHDR",
@@ -794,54 +786,54 @@
    {
     "adate": "2025-12-17T20:09:35-05:00",
     "author": "Michael Dyck",
-    "date": "2025-12-17T20:09:35-05:00",
-    "hash": "407e0e4b4093656fff9f1f3dacacba9f5f26bd54",
-    "parents": "393a404b0306eb710dc0de4fe9ebd4d493f90e0c",
+    "date": "2026-06-05T17:08:47-04:00",
+    "hash": "fa428380e7b83c4e4a14ba6715e44534a744d4fe",
+    "parents": "1a2d1f0afb02a49a1ef7ded2f56c69027b351ed2",
     "subject": "fixup: remove MakeRealm from the 'Host Hooks' list"
    },
    {
     "adate": "2025-11-24T15:49:53-05:00",
     "author": "Michael Dyck",
-    "date": "2025-12-15T16:52:28-05:00",
-    "hash": "393a404b0306eb710dc0de4fe9ebd4d493f90e0c",
-    "parents": "291218a8b7c88dd1472742eeeac9c644816a64c0",
+    "date": "2026-06-05T17:08:47-04:00",
+    "hash": "1a2d1f0afb02a49a1ef7ded2f56c69027b351ed2",
+    "parents": "449218499501b2142ca13d1d96efbd0cff82d313",
     "subject": "Layering: Rename InitializeHostDefinedRealm as MakeRealm"
    },
    {
     "adate": "2025-11-24T15:27:49-05:00",
     "author": "Michael Dyck",
-    "date": "2025-12-15T16:52:28-05:00",
-    "hash": "291218a8b7c88dd1472742eeeac9c644816a64c0",
-    "parents": "ed064eec3576842581842c1166c5ef2e04d3a0ff",
+    "date": "2026-06-05T17:08:47-04:00",
+    "hash": "449218499501b2142ca13d1d96efbd0cff82d313",
+    "parents": "1fe5fa1f55cc62173ff0c8f6923cff2ec06c0889",
     "subject": "Layering: Return the realm EC from InitializeHostDefinedRealm"
    },
    {
     "adate": "2025-11-24T15:09:02-05:00",
     "author": "Michael Dyck",
-    "date": "2025-12-15T16:52:28-05:00",
-    "hash": "ed064eec3576842581842c1166c5ef2e04d3a0ff",
-    "parents": "5991d79feec7dc06036a9824dc37345898f2b598",
+    "date": "2026-06-05T17:08:47-04:00",
+    "hash": "1fe5fa1f55cc62173ff0c8f6923cff2ec06c0889",
+    "parents": "066aa2c1a4dffbec0795ab5c39de039e0bad956a",
     "subject": "Editorial: Create the realm execution context slightly later"
    },
    {
     "adate": "2025-11-24T10:51:39-05:00",
     "author": "Michael Dyck",
-    "date": "2025-12-15T16:52:27-05:00",
-    "hash": "5991d79feec7dc06036a9824dc37345898f2b598",
-    "parents": "18695239fdd6180270d92d801177b58a4bc9cfad",
+    "date": "2026-06-05T17:08:47-04:00",
+    "hash": "066aa2c1a4dffbec0795ab5c39de039e0bad956a",
+    "parents": "d3395bef5c8b3de5719021bbe435ccca6ec9fad6",
     "subject": "Layering: Make InitializeHostDefinedRealm non-throwing"
    },
    {
     "adate": "2025-11-22T23:32:04-05:00",
     "author": "Michael Dyck",
-    "date": "2025-12-15T16:52:27-05:00",
-    "hash": "18695239fdd6180270d92d801177b58a4bc9cfad",
-    "parents": "47520386ede6b9e01c4361677ff62a448e132b58",
+    "date": "2026-06-05T17:08:47-04:00",
+    "hash": "d3395bef5c8b3de5719021bbe435ccca6ec9fad6",
+    "parents": "8c0c94eb3be152b7ae7dc0cb580f4ee9f0a9a0c2",
     "subject": "Layering: Add _customizations_ param to InitializeHostDefinedRealm"
    }
   ],
   "title": "Layering: Revamp InitializeHostDefinedRealm",
-  "updated_at": "2025-12-18T01:17:55Z"
+  "updated_at": "2026-06-05T23:30:44Z"
  },
  {
   "base": "17cbe35fdd0976927ccb739b288f1cbb7caff2a4",
@@ -2084,9 +2076,9 @@
   "updated_at": "2024-01-31T17:05:37Z"
  },
  {
-  "base": "8ebc410f26e9cc2e55afe927d098d5507a64ab90",
+  "base": "8c0c94eb3be152b7ae7dc0cb580f4ee9f0a9a0c2",
   "created_at": "2023-11-22T16:10:17Z",
-  "head": "2e70daba7186f574040914772053a804a1f6c8af",
+  "head": "2ad9798622c0a2749cba6a07dd88d6f025ccb769",
   "login": "jmdyck",
   "number": 3227,
   "ref": "unchecked_covering_node",
@@ -2094,46 +2086,46 @@
    {
     "adate": "2026-05-04T22:17:39-04:00",
     "author": "Michael Dyck",
-    "date": "2026-05-04T22:17:39-04:00",
-    "hash": "2e70daba7186f574040914772053a804a1f6c8af",
-    "parents": "ceab0a01ed5bdd3a3712528b1df7f685c3dee765",
+    "date": "2026-06-05T17:10:47-04:00",
+    "hash": "2ad9798622c0a2749cba6a07dd88d6f025ccb769",
+    "parents": "53f9e37aa9716c50eff10492299b6acb9f00de35",
     "subject": "fixup: Remove sentence defining \"descendants\""
    },
    {
     "adate": "2023-11-24T11:03:33-05:00",
     "author": "Michael Dyck",
-    "date": "2026-04-29T20:12:02-04:00",
-    "hash": "ceab0a01ed5bdd3a3712528b1df7f685c3dee765",
-    "parents": "f2ac9ab0155f4da4a45af6ab267a74a9350352bb",
+    "date": "2026-06-05T17:10:47-04:00",
+    "hash": "53f9e37aa9716c50eff10492299b6acb9f00de35",
+    "parents": "9b2e2233b43fc572b84767b7b1ab8ea8e232d2f1",
     "subject": "Bring together all the prose about ObjectLiteral being a cover for ObjectAssignmentPattern."
    },
    {
     "adate": "2023-11-23T21:26:42-05:00",
     "author": "Michael Dyck",
-    "date": "2026-04-29T20:12:02-04:00",
-    "hash": "f2ac9ab0155f4da4a45af6ab267a74a9350352bb",
-    "parents": "c7914e6d4ead42b34d4794a0e764f5379f8135e0",
+    "date": "2026-06-05T17:10:47-04:00",
+    "hash": "9b2e2233b43fc572b84767b7b1ab8ea8e232d2f1",
+    "parents": "de787a0c32670bdc1ea413d8181bcd425acdbdbd",
     "subject": "Move the early error rule for ObjectLiteral"
    },
    {
     "adate": "2023-11-22T10:49:02-05:00",
     "author": "Michael Dyck",
-    "date": "2026-04-29T20:12:02-04:00",
-    "hash": "c7914e6d4ead42b34d4794a0e764f5379f8135e0",
-    "parents": "8044f7396b539ed067b413c42bb67eaba606fd02",
+    "date": "2026-06-05T17:10:47-04:00",
+    "hash": "de787a0c32670bdc1ea413d8181bcd425acdbdbd",
+    "parents": "5fb531bf967c0d8680f4c5102377ab674eccfdab",
     "subject": "Editorial: Delete now-redundant para + add example"
    },
    {
     "adate": "2023-11-22T09:12:23-05:00",
     "author": "Michael Dyck",
-    "date": "2026-04-29T20:12:02-04:00",
-    "hash": "8044f7396b539ed067b413c42bb67eaba606fd02",
-    "parents": "3e0bdf0757a1a4f790044a35aa2ac53ca1fbc7a9",
+    "date": "2026-06-05T17:10:47-04:00",
+    "hash": "5fb531bf967c0d8680f4c5102377ab674eccfdab",
+    "parents": "8c0c94eb3be152b7ae7dc0cb580f4ee9f0a9a0c2",
     "subject": "Editorial: Don't check a cover for early errors"
    }
   ],
   "title": "Editorial: Don't check a cover for early errors",
-  "updated_at": "2026-05-05T02:18:54Z"
+  "updated_at": "2026-06-05T23:21:39Z"
  },
  {
   "base": "82c99bbc44e4b63e3a14ffbf0ac90ce8359c1010",
