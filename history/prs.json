@@ -1,33 +1,5 @@
 [
  {
-  "base": "858e41df827cf906b203c2ec4cd02b3fe925a0d1",
-  "created_at": "2026-06-06T22:47:52Z",
-  "head": "19fc72f266702bea78d1ca20cef956c0e36cb2a2",
-  "login": "gibson042",
-  "number": 3888,
-  "ref": "2026-06-refactor-snapshot-warning",
-  "revs": [
-   {
-    "adate": "2026-06-14T21:48:07-07:00",
-    "author": "Richard Gibson",
-    "date": "2026-06-14T21:48:07-07:00",
-    "hash": "19fc72f266702bea78d1ca20cef956c0e36cb2a2",
-    "parents": "243e0301111796ee0146d9ffe590a843cc51bdca",
-    "subject": "Meta: Add a \"commit\" prefix in the non-PR fallback mode (#3888)"
-   },
-   {
-    "adate": "2026-06-14T21:48:00-07:00",
-    "author": "Richard Gibson",
-    "date": "2026-06-14T21:48:00-07:00",
-    "hash": "243e0301111796ee0146d9ffe590a843cc51bdca",
-    "parents": "858e41df827cf906b203c2ec4cd02b3fe925a0d1",
-    "subject": "Meta: Improve the snapshot warning (#3888)"
-   }
-  ],
-  "title": "Meta: Improve the snapshot warning",
-  "updated_at": "2026-06-15T04:48:21Z"
- },
- {
   "base": "7b25de494ef15db9c8ecce2bc556225e56c457be",
   "created_at": "2026-06-02T17:56:15Z",
   "head": "630d8b7775670482fdf25ebc943f9575da5a70df",
@@ -3264,9 +3236,9 @@
   "updated_at": "2023-02-13T19:08:39Z"
  },
  {
-  "base": "8c0c94eb3be152b7ae7dc0cb580f4ee9f0a9a0c2",
+  "base": "19fc72f266702bea78d1ca20cef956c0e36cb2a2",
   "created_at": "2022-09-04T02:20:57Z",
-  "head": "3c4948ca5c21c61d7d3decc40639507170fe4254",
+  "head": "2cedacd88ebc81d7a88796b5abf50a9c6c349dec",
   "login": "jmdyck",
   "number": 2889,
   "ref": "callable",
@@ -3274,22 +3246,22 @@
    {
     "adate": "2022-09-03T22:11:56-04:00",
     "author": "Michael Dyck",
-    "date": "2026-06-05T17:18:49-04:00",
-    "hash": "3c4948ca5c21c61d7d3decc40639507170fe4254",
-    "parents": "85d7f43512ed0b7aa57f5724ba4a4f9c1d551559",
+    "date": "2026-06-15T22:27:15-04:00",
+    "hash": "2cedacd88ebc81d7a88796b5abf50a9c6c349dec",
+    "parents": "e6770ac829feea972ed398c76431dd494a58d3d7",
     "subject": "Eliminate most other uses of \"callable\""
    },
    {
     "adate": "2022-09-03T21:47:50-04:00",
     "author": "Michael Dyck",
-    "date": "2026-06-05T17:18:49-04:00",
-    "hash": "85d7f43512ed0b7aa57f5724ba4a4f9c1d551559",
-    "parents": "8c0c94eb3be152b7ae7dc0cb580f4ee9f0a9a0c2",
+    "date": "2026-06-15T22:27:13-04:00",
+    "hash": "e6770ac829feea972ed398c76431dd494a58d3d7",
+    "parents": "19fc72f266702bea78d1ca20cef956c0e36cb2a2",
     "subject": "Rename \"IsCallable\" as \"IsFunction\""
    }
   ],
   "title": "Editorial: Minimize use of the term \"callable\"",
-  "updated_at": "2026-06-05T23:30:51Z"
+  "updated_at": "2026-06-16T13:29:15Z"
  },
  {
   "base": "dceb9e45fa04ff37a213095e97a28da81bf213ec",
@@ -3872,9 +3844,9 @@
   "updated_at": "2021-03-02T20:18:19Z"
  },
  {
-  "base": "8c0c94eb3be152b7ae7dc0cb580f4ee9f0a9a0c2",
+  "base": "19fc72f266702bea78d1ca20cef956c0e36cb2a2",
   "created_at": "2021-01-24T05:38:33Z",
-  "head": "4d63e805826b984c325664514237dbb53ca229d1",
+  "head": "3d9318075043279823770e4c6a35c5ee61283dfd",
   "login": "jmdyck",
   "number": 2288,
   "ref": "declarative_Env_Rec",
@@ -3882,94 +3854,94 @@
    {
     "adate": "2026-05-05T19:13:29-04:00",
     "author": "Michael Dyck",
-    "date": "2026-06-05T19:40:02-04:00",
-    "hash": "4d63e805826b984c325664514237dbb53ca229d1",
-    "parents": "07f5f84e644014aed924e91227c1bdcf10befb1e",
+    "date": "2026-06-15T20:40:52-04:00",
+    "hash": "3d9318075043279823770e4c6a35c5ee61283dfd",
+    "parents": "3ee7b1129a772f9b33bda51911e709931716d591",
     "subject": "fixup: Mention that Function ERs and Module ERs override certain concrete methods"
    },
    {
     "adate": "2026-05-05T17:50:18-04:00",
     "author": "Michael Dyck",
-    "date": "2026-06-05T19:40:02-04:00",
-    "hash": "07f5f84e644014aed924e91227c1bdcf10befb1e",
-    "parents": "b0c09631be3d1e635cb7227895c0fe53270b1d14",
+    "date": "2026-06-15T20:40:52-04:00",
+    "hash": "3ee7b1129a772f9b33bda51911e709931716d591",
+    "parents": "24e189da0d2b764c27544d708f3e246f0fc6ae94",
     "subject": "fixup: Convert \"Change its bound value\""
    },
    {
     "adate": "2026-05-05T17:37:32-04:00",
     "author": "Michael Dyck",
-    "date": "2026-06-05T19:40:02-04:00",
-    "hash": "b0c09631be3d1e635cb7227895c0fe53270b1d14",
-    "parents": "9fc7a222458c6785ade490da5828194de27d38de",
+    "date": "2026-06-15T20:40:52-04:00",
+    "hash": "24e189da0d2b764c27544d708f3e246f0fc6ae94",
+    "parents": "7c0d917f9e80d8c94fa29b9eb1f18550d31f3a54",
     "subject": "fixup: Add forward-reference for ImportDeclarativeBinding"
    },
    {
     "adate": "2026-05-05T17:33:28-04:00",
     "author": "Michael Dyck",
-    "date": "2026-06-05T19:40:02-04:00",
-    "hash": "9fc7a222458c6785ade490da5828194de27d38de",
-    "parents": "ed2ff9e02db97311aaceedec06d3cc9344bd025c",
+    "date": "2026-06-15T20:40:52-04:00",
+    "hash": "7c0d917f9e80d8c94fa29b9eb1f18550d31f3a54",
+    "parents": "e6abb7b12e4e53bd3fbaa722c92ff94be710ce4f",
     "subject": "fixup: Better \"Meaning\" for `[[Bindings]]`"
    },
    {
     "adate": "2026-05-05T17:29:23-04:00",
     "author": "Michael Dyck",
-    "date": "2026-06-05T19:40:02-04:00",
-    "hash": "ed2ff9e02db97311aaceedec06d3cc9344bd025c",
-    "parents": "1a49dd8ecabab7b66bb868e6501068b939cf7678",
+    "date": "2026-06-15T20:40:52-04:00",
+    "hash": "e6abb7b12e4e53bd3fbaa722c92ff94be710ce4f",
+    "parents": "d4766e92b5d889b96d56a252b6d8b8a639edf229",
     "subject": "fixup: Insert `!` before HasBinding invocations"
    },
    {
     "adate": "2026-05-05T17:02:23-04:00",
     "author": "Michael Dyck",
-    "date": "2026-06-05T17:15:52-04:00",
-    "hash": "1a49dd8ecabab7b66bb868e6501068b939cf7678",
-    "parents": "7e0ea31fc4c5fbe3452a5cf5b05b1a386ce3a235",
+    "date": "2026-06-15T20:40:52-04:00",
+    "hash": "d4766e92b5d889b96d56a252b6d8b8a639edf229",
+    "parents": "a1bd28edf90d01d731714bd04c620416d0124f3e",
     "subject": "fixup: Capitalize the \"Meaning\" of fields"
    },
    {
     "adate": "2023-09-02T23:02:35-04:00",
     "author": "Michael Dyck",
-    "date": "2026-06-05T17:15:52-04:00",
-    "hash": "7e0ea31fc4c5fbe3452a5cf5b05b1a386ce3a235",
-    "parents": "6fc715c0e83b0c6ad98330aeea5346d122bfeda0",
+    "date": "2026-06-15T20:40:52-04:00",
+    "hash": "a1bd28edf90d01d731714bd04c620416d0124f3e",
+    "parents": "23d132bbd3624beaf7b6b289c1df1475576bac8d",
     "subject": "fixup: add 'variants' attributes; change \"equals\" to \"is\""
    },
    {
     "adate": "2025-08-19T21:37:07-04:00",
     "author": "Michael Dyck",
-    "date": "2026-06-05T17:15:52-04:00",
-    "hash": "6fc715c0e83b0c6ad98330aeea5346d122bfeda0",
-    "parents": "d3925d3ff94b4090a7fb9b2d60eb40f33c40ed0c",
+    "date": "2026-06-15T20:40:51-04:00",
+    "hash": "23d132bbd3624beaf7b6b289c1df1475576bac8d",
+    "parents": "73aef23ce846a365c487298d59541a0f81137656",
     "subject": "Editorial: Model a declarative binding as a Record"
    },
    {
     "adate": "2025-08-19T21:35:25-04:00",
     "author": "Michael Dyck",
-    "date": "2026-06-05T17:15:52-04:00",
-    "hash": "d3925d3ff94b4090a7fb9b2d60eb40f33c40ed0c",
-    "parents": "30d974493ec9702a96df66d0a256978cb8fbd2f1",
+    "date": "2026-06-15T20:39:42-04:00",
+    "hash": "73aef23ce846a365c487298d59541a0f81137656",
+    "parents": "c07405256fd70f3b9cc0ac8aa2b2f828e01d13ff",
     "subject": "Editorial: Declarative Env Rec has field [[Bindings]]"
    },
    {
     "adate": "2025-08-19T21:30:27-04:00",
     "author": "Michael Dyck",
-    "date": "2026-06-05T17:15:52-04:00",
-    "hash": "30d974493ec9702a96df66d0a256978cb8fbd2f1",
-    "parents": "d7528d4a896b1cc4aeb393edb0af0d143097d142",
+    "date": "2026-06-15T20:39:19-04:00",
+    "hash": "c07405256fd70f3b9cc0ac8aa2b2f828e01d13ff",
+    "parents": "00af0120f3b50d46faa832c914b9de9e0fda6862",
     "subject": "Editorial: Treat a binding as an 'alias-able' thing"
    },
    {
     "adate": "2021-01-23T22:54:21-05:00",
     "author": "Michael Dyck",
-    "date": "2026-06-05T17:15:51-04:00",
-    "hash": "d7528d4a896b1cc4aeb393edb0af0d143097d142",
-    "parents": "8c0c94eb3be152b7ae7dc0cb580f4ee9f0a9a0c2",
+    "date": "2026-06-15T20:38:07-04:00",
+    "hash": "00af0120f3b50d46faa832c914b9de9e0fda6862",
+    "parents": "19fc72f266702bea78d1ca20cef956c0e36cb2a2",
     "subject": "Editorial: Use Declarative Env Rec's HasBinding method"
    }
   ],
   "title": "Editorial: Model the bindings of a declarative Env Rec as a List of Records",
-  "updated_at": "2026-06-05T23:42:12Z"
+  "updated_at": "2026-06-16T13:11:48Z"
  },
  {
   "base": "8c0c94eb3be152b7ae7dc0cb580f4ee9f0a9a0c2",
@@ -4000,9 +3972,9 @@
   "updated_at": "2026-06-05T23:43:36Z"
  },
  {
-  "base": "8c0c94eb3be152b7ae7dc0cb580f4ee9f0a9a0c2",
+  "base": "19fc72f266702bea78d1ca20cef956c0e36cb2a2",
   "created_at": "2020-12-08T06:31:39Z",
-  "head": "e1c4b5badb60032d2393e8b172d1ebb7e7e20e20",
+  "head": "d33009ba04060cb3b86c6ed37e502c1a95870f2e",
   "login": "jmdyck",
   "number": 2246,
   "ref": "ExecutionContext_Record",
@@ -4010,38 +3982,38 @@
    {
     "adate": "2026-05-04T19:44:47-04:00",
     "author": "Michael Dyck",
-    "date": "2026-06-05T17:16:55-04:00",
-    "hash": "e1c4b5badb60032d2393e8b172d1ebb7e7e20e20",
-    "parents": "8b3a9270ef965a112ad62ec52b56d7f4368fd279",
+    "date": "2026-06-15T20:57:08-04:00",
+    "hash": "d33009ba04060cb3b86c6ed37e502c1a95870f2e",
+    "parents": "d82eee302b661d51e06f50c47d1fd6ce36165d50",
     "subject": "fixup: Wrap `<dfn>` around \"ExecutionContext Record\""
    },
    {
     "adate": "2025-02-19T17:23:33-05:00",
     "author": "Michael Dyck",
-    "date": "2026-06-05T17:16:55-04:00",
-    "hash": "8b3a9270ef965a112ad62ec52b56d7f4368fd279",
-    "parents": "5dbc45c85233a32b07c6569717acea3f56506adb",
+    "date": "2026-06-15T20:57:08-04:00",
+    "hash": "d82eee302b661d51e06f50c47d1fd6ce36165d50",
+    "parents": "957c6aafd41a427c415f7bcbd6a0e05063e938a8",
     "subject": "fixup: remove a line from esmeta-ignore.json"
    },
    {
     "adate": "2022-08-31T23:13:29-04:00",
     "author": "Michael Dyck",
-    "date": "2026-06-05T17:16:55-04:00",
-    "hash": "5dbc45c85233a32b07c6569717acea3f56506adb",
-    "parents": "56f60268ea1d3d0636a55c4c7b56022e40965004",
+    "date": "2026-06-15T20:57:08-04:00",
+    "hash": "957c6aafd41a427c415f7bcbd6a0e05063e938a8",
+    "parents": "d0bb6890e22259ddba895075df8c83b47b0cb48c",
     "subject": "fixup: Avoid saying \"that execution context\" by naming it"
    },
    {
     "adate": "2020-12-08T01:22:55-05:00",
     "author": "Michael Dyck",
-    "date": "2026-06-05T17:16:55-04:00",
-    "hash": "56f60268ea1d3d0636a55c4c7b56022e40965004",
-    "parents": "8c0c94eb3be152b7ae7dc0cb580f4ee9f0a9a0c2",
+    "date": "2026-06-15T20:57:04-04:00",
+    "hash": "d0bb6890e22259ddba895075df8c83b47b0cb48c",
+    "parents": "19fc72f266702bea78d1ca20cef956c0e36cb2a2",
     "subject": "Editorial: Model execution context as a record"
    }
   ],
   "title": "Editorial: Model execution context as a record",
-  "updated_at": "2026-06-05T23:45:59Z"
+  "updated_at": "2026-06-16T13:26:46Z"
  },
  {
   "base": "b3f9b5089bcc3ddd8486379015cd11eb1427a5eb",
