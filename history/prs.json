@@ -450,11 +450,67 @@
  {
   "base": "189d27a4e510052a899ed53c4d5c582b24138319",
   "created_at": "2026-02-16T23:53:01Z",
-  "head": "1f4e6717ef23fc0401cbc6caca1f0bfbeb7be2ed",
+  "head": "21f20a9ed94d60bc91f14056b8af2e01185f97da",
   "login": "ptomato",
   "number": 3759,
   "ref": "temporal-stage-4",
   "revs": [
+   {
+    "adate": "2026-06-17T18:40:51+02:00",
+    "author": "Philip Chimento",
+    "date": "2026-06-17T18:40:51+02:00",
+    "hash": "21f20a9ed94d60bc91f14056b8af2e01185f97da",
+    "parents": "f64279386423efe9c62da2331d44cb844990ac61",
+    "subject": "(fixup) Add missing word"
+   },
+   {
+    "adate": "2026-06-17T18:40:01+02:00",
+    "author": "Philip Chimento",
+    "date": "2026-06-17T18:40:01+02:00",
+    "hash": "f64279386423efe9c62da2331d44cb844990ac61",
+    "parents": "0d632f3aa95f3ea172e4594bfee22ebadd3e74f4",
+    "subject": "(review) Update all RFC links"
+   },
+   {
+    "adate": "2026-06-17T17:51:50+02:00",
+    "author": "Philip Chimento",
+    "date": "2026-06-17T17:51:50+02:00",
+    "hash": "0d632f3aa95f3ea172e4594bfee22ebadd3e74f4",
+    "parents": "340cd652f3ef5fa0b833325962dbe0246e96f290",
+    "subject": "(review) Change \"expanded years\" to <dfn>"
+   },
+   {
+    "adate": "2026-06-17T17:42:06+02:00",
+    "author": "Philip Chimento",
+    "date": "2026-06-17T17:42:06+02:00",
+    "hash": "340cd652f3ef5fa0b833325962dbe0246e96f290",
+    "parents": "48093311b4103eb834c011ed09ac0c30eb36bbb3",
+    "subject": "(fixup) Fix various other uses of straight quotes"
+   },
+   {
+    "adate": "2026-06-17T17:41:40+02:00",
+    "author": "Philip Chimento",
+    "date": "2026-06-17T17:41:40+02:00",
+    "hash": "48093311b4103eb834c011ed09ac0c30eb36bbb3",
+    "parents": "a5be7b348b27f6066f0cb51f5d095e1b625af883",
+    "subject": "(fixup) Use typographical quotes"
+   },
+   {
+    "adate": "2026-06-17T17:22:59+02:00",
+    "author": "Philip Chimento",
+    "date": "2026-06-17T17:22:59+02:00",
+    "hash": "a5be7b348b27f6066f0cb51f5d095e1b625af883",
+    "parents": "9e926d225d427714a4181bdfc7b47f53cd7a9e0e",
+    "subject": "(review) Adopt new convention for ParseText usage"
+   },
+   {
+    "adate": "2026-06-17T17:11:43+02:00",
+    "author": "Philip Chimento",
+    "date": "2026-06-17T17:11:43+02:00",
+    "hash": "9e926d225d427714a4181bdfc7b47f53cd7a9e0e",
+    "parents": "1f4e6717ef23fc0401cbc6caca1f0bfbeb7be2ed",
+    "subject": "(review) Use more nsPer... constants"
+   },
    {
     "adate": "2026-05-19T08:23:56-07:00",
     "author": "Philip Chimento",
@@ -713,7 +769,7 @@
    }
   ],
   "title": "Normative: add Temporal",
-  "updated_at": "2026-05-19T15:28:13Z"
+  "updated_at": "2026-06-17T17:50:23Z"
  },
  {
   "base": "8febdacb384c2661df5a00c0e77dcb69896496e2",
@@ -2874,11 +2930,19 @@
  {
   "base": "8c0c94eb3be152b7ae7dc0cb580f4ee9f0a9a0c2",
   "created_at": "2023-01-23T22:42:45Z",
-  "head": "1ae839f358552d1719189d8b9bbbf1fb9553a0fe",
+  "head": "bcb9acdfbb75a57129319f514626d9f823145399",
   "login": "rbuckton",
   "number": 3000,
   "ref": "explicit-resource-management",
   "revs": [
+   {
+    "adate": "2026-06-17T13:33:55-04:00",
+    "author": "Ron Buckton",
+    "date": "2026-06-17T13:33:55-04:00",
+    "hash": "bcb9acdfbb75a57129319f514626d9f823145399",
+    "parents": "1ae839f358552d1719189d8b9bbbf1fb9553a0fe",
+    "subject": "jmdyck feedback"
+   },
    {
     "adate": "2026-06-14T10:11:50-04:00",
     "author": "Ron Buckton",
@@ -2889,7 +2953,7 @@
    }
   ],
   "title": "Add `using` and `await using` Declarations, SuppressedError, DisposableStack, and AsyncDisposableStack",
-  "updated_at": "2026-06-14T22:09:31Z"
+  "updated_at": "2026-06-17T17:34:22Z"
  },
  {
   "base": "8aac12603c99f94d982317832b0e03c13684ce0a",
