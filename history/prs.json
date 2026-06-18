@@ -102,46 +102,22 @@
  {
   "base": "19fc72f266702bea78d1ca20cef956c0e36cb2a2",
   "created_at": "2026-05-05T01:53:43Z",
-  "head": "69ba36eaf213eea22ef4bb22e72cd7ff0702c608",
+  "head": "58fb05864382d06be2999d118e9621e062b5ad2c",
   "login": "jmdyck",
   "number": 3846,
   "ref": "RunCallerContext",
   "revs": [
    {
-    "adate": "2026-06-18T09:45:39-04:00",
-    "author": "Michael Dyck",
-    "date": "2026-06-18T09:45:39-04:00",
-    "hash": "69ba36eaf213eea22ef4bb22e72cd7ff0702c608",
-    "parents": "7074c5878f44f973dca2bfcf4624e114ba83e03b",
-    "subject": "fixup: 2x `Return ? RunCallerContext(...)`"
-   },
-   {
-    "adate": "2026-05-06T21:29:19-04:00",
-    "author": "Michael Dyck",
-    "date": "2026-06-15T20:22:14-04:00",
-    "hash": "7074c5878f44f973dca2bfcf4624e114ba83e03b",
-    "parents": "487956ce68db003beed21b1ceffc48a069c24371",
-    "subject": "fixup: insert comma"
-   },
-   {
-    "adate": "2022-11-09T09:34:39-05:00",
-    "author": "Michael Dyck",
-    "date": "2026-06-15T20:22:14-04:00",
-    "hash": "487956ce68db003beed21b1ceffc48a069c24371",
-    "parents": "0fed48c91f04453bfcd9c5674b734d9d0e688202",
-    "subject": "fixup: wording around `Resume`"
-   },
-   {
     "adate": "2022-02-14T23:02:30-05:00",
     "author": "Michael Dyck",
-    "date": "2026-06-15T20:22:14-04:00",
-    "hash": "0fed48c91f04453bfcd9c5674b734d9d0e688202",
+    "date": "2026-06-18T11:43:23-04:00",
+    "hash": "58fb05864382d06be2999d118e9621e062b5ad2c",
     "parents": "19fc72f266702bea78d1ca20cef956c0e36cb2a2",
-    "subject": "Factor out RunCallerContext"
+    "subject": "Factor out RunCallerContext AO"
    }
   ],
   "title": "Editorial: Factor out AO RunCallerContext()",
-  "updated_at": "2026-06-18T13:52:33Z"
+  "updated_at": "2026-06-18T15:44:12Z"
  },
  {
   "base": "3e0bdf0757a1a4f790044a35aa2ac53ca1fbc7a9",
@@ -2936,9 +2912,9 @@
   "updated_at": "2023-05-25T23:43:21Z"
  },
  {
-  "base": "8c0c94eb3be152b7ae7dc0cb580f4ee9f0a9a0c2",
+  "base": "19fc72f266702bea78d1ca20cef956c0e36cb2a2",
   "created_at": "2023-01-23T22:42:45Z",
-  "head": "bcb9acdfbb75a57129319f514626d9f823145399",
+  "head": "d7e588c74fa8d7cfeb0d2fe363706a004175b0b6",
   "login": "rbuckton",
   "number": 3000,
   "ref": "explicit-resource-management",
@@ -2946,22 +2922,22 @@
    {
     "adate": "2026-06-17T13:33:55-04:00",
     "author": "Ron Buckton",
-    "date": "2026-06-17T13:33:55-04:00",
-    "hash": "bcb9acdfbb75a57129319f514626d9f823145399",
-    "parents": "1ae839f358552d1719189d8b9bbbf1fb9553a0fe",
+    "date": "2026-06-18T09:22:45-06:00",
+    "hash": "d7e588c74fa8d7cfeb0d2fe363706a004175b0b6",
+    "parents": "96202998e70ff9af13bde2b51ea4ab51202227bb",
     "subject": "jmdyck feedback"
    },
    {
     "adate": "2026-06-14T10:11:50-04:00",
     "author": "Ron Buckton",
-    "date": "2026-06-14T18:09:19-04:00",
-    "hash": "1ae839f358552d1719189d8b9bbbf1fb9553a0fe",
-    "parents": "8c0c94eb3be152b7ae7dc0cb580f4ee9f0a9a0c2",
+    "date": "2026-06-18T09:22:45-06:00",
+    "hash": "96202998e70ff9af13bde2b51ea4ab51202227bb",
+    "parents": "19fc72f266702bea78d1ca20cef956c0e36cb2a2",
     "subject": "Spec text for proposal-explicit-resource-management"
    }
   ],
   "title": "Add `using` and `await using` Declarations, SuppressedError, DisposableStack, and AsyncDisposableStack",
-  "updated_at": "2026-06-17T17:34:22Z"
+  "updated_at": "2026-06-18T15:23:22Z"
  },
  {
   "base": "8aac12603c99f94d982317832b0e03c13684ce0a",
