@@ -838,11 +838,19 @@
  {
   "base": "19fc72f266702bea78d1ca20cef956c0e36cb2a2",
   "created_at": "2025-11-24T21:11:46Z",
-  "head": "8289c187a2de25316ce5f9c38b088a047995d47f",
+  "head": "bc2fcc92fe487d3f1e05d8513673d28292734c1e",
   "login": "jmdyck",
   "number": 3728,
   "ref": "revamp_IHDR",
   "revs": [
+   {
+    "adate": "2026-06-23T10:28:12-04:00",
+    "author": "Michael Dyck",
+    "date": "2026-06-23T10:28:12-04:00",
+    "hash": "bc2fcc92fe487d3f1e05d8513673d28292734c1e",
+    "parents": "8289c187a2de25316ce5f9c38b088a047995d47f",
+    "subject": "fixup: Use *null* rather than *undefined* to signal \"use the default\""
+   },
    {
     "adate": "2026-06-18T14:22:54-04:00",
     "author": "Michael Dyck",
@@ -909,7 +917,7 @@
    }
   ],
   "title": "Layering: Revamp InitializeHostDefinedRealm",
-  "updated_at": "2026-06-18T18:28:54Z"
+  "updated_at": "2026-06-23T14:31:47Z"
  },
  {
   "base": "17cbe35fdd0976927ccb739b288f1cbb7caff2a4",
