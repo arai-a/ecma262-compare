@@ -2998,30 +2998,22 @@
  {
   "base": "19fc72f266702bea78d1ca20cef956c0e36cb2a2",
   "created_at": "2023-01-23T22:42:45Z",
-  "head": "d7e588c74fa8d7cfeb0d2fe363706a004175b0b6",
+  "head": "f792966f2bcf78ed079df6697ad1ba9070086955",
   "login": "rbuckton",
   "number": 3000,
   "ref": "explicit-resource-management",
   "revs": [
    {
-    "adate": "2026-06-17T13:33:55-04:00",
+    "adate": "2026-06-24T12:00:36-07:00",
     "author": "Ron Buckton",
-    "date": "2026-06-18T09:22:45-06:00",
-    "hash": "d7e588c74fa8d7cfeb0d2fe363706a004175b0b6",
-    "parents": "96202998e70ff9af13bde2b51ea4ab51202227bb",
-    "subject": "jmdyck feedback"
-   },
-   {
-    "adate": "2026-06-14T10:11:50-04:00",
-    "author": "Ron Buckton",
-    "date": "2026-06-18T09:22:45-06:00",
-    "hash": "96202998e70ff9af13bde2b51ea4ab51202227bb",
+    "date": "2026-06-24T12:00:36-07:00",
+    "hash": "f792966f2bcf78ed079df6697ad1ba9070086955",
     "parents": "19fc72f266702bea78d1ca20cef956c0e36cb2a2",
-    "subject": "Spec text for proposal-explicit-resource-management"
+    "subject": "Normative: Add `using` and `await using` Declarations, SuppressedError, DisposableStack, and AsyncDisposableStack (#3000)"
    }
   ],
-  "title": "Add `using` and `await using` Declarations, SuppressedError, DisposableStack, and AsyncDisposableStack",
-  "updated_at": "2026-06-18T15:23:22Z"
+  "title": "Normative: Add `using` and `await using` Declarations, SuppressedError, DisposableStack, and AsyncDisposableStack",
+  "updated_at": "2026-06-24T19:01:26Z"
  },
  {
   "base": "8aac12603c99f94d982317832b0e03c13684ce0a",
