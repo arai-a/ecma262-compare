@@ -1,6 +1,26 @@
 [
  {
   "base": "19fc72f266702bea78d1ca20cef956c0e36cb2a2",
+  "created_at": "2026-06-24T02:48:56Z",
+  "head": "c48aff3a3473797e0a553b0eb44f21ebf761dd29",
+  "login": "tc39",
+  "number": 3891,
+  "ref": "is-a-record-value",
+  "revs": [
+   {
+    "adate": "2026-06-23T20:42:53-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-06-23T20:42:53-06:00",
+    "hash": "c48aff3a3473797e0a553b0eb44f21ebf761dd29",
+    "parents": "19fc72f266702bea78d1ca20cef956c0e36cb2a2",
+    "subject": "Editorial: replace uses of \"Record value\" with just \"Record\""
+   }
+  ],
+  "title": "Editorial: replace uses of \"Record value\" with just \"Record\"",
+  "updated_at": "2026-06-24T02:55:16Z"
+ },
+ {
+  "base": "19fc72f266702bea78d1ca20cef956c0e36cb2a2",
   "created_at": "2026-06-23T02:40:43Z",
   "head": "2241abe28cecfa986dffda34cfaa17a1d456ea13",
   "login": "tc39",
