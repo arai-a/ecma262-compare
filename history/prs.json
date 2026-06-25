@@ -1,6 +1,26 @@
 [
  {
   "base": "45a667175d5ac359968d8a2aa7eef62a65bb7988",
+  "created_at": "2026-06-25T19:07:38Z",
+  "head": "07878a779a8ad1db10010ff417dc40a2122404e0",
+  "login": "linusg",
+  "number": 3894,
+  "ref": "missing-symbols",
+  "revs": [
+   {
+    "adate": "2026-06-25T20:06:02+01:00",
+    "author": "Linus Groh",
+    "date": "2026-06-25T20:06:02+01:00",
+    "hash": "07878a779a8ad1db10010ff417dc40a2122404e0",
+    "parents": "45a667175d5ac359968d8a2aa7eef62a65bb7988",
+    "subject": "Normative: Add missing Symbol.dispose and Symbol.asyncDispose properties"
+   }
+  ],
+  "title": "Normative: Add missing Symbol.dispose and Symbol.asyncDispose properties",
+  "updated_at": "2026-06-25T19:14:59Z"
+ },
+ {
+  "base": "45a667175d5ac359968d8a2aa7eef62a65bb7988",
   "created_at": "2026-06-25T16:18:03Z",
   "head": "1114c982fe3523cc65f5803439baeacfa0362bb6",
   "login": "linusg",
@@ -2196,56 +2216,24 @@
   "updated_at": "2024-01-31T17:05:37Z"
  },
  {
-  "base": "8c0c94eb3be152b7ae7dc0cb580f4ee9f0a9a0c2",
+  "base": "45a667175d5ac359968d8a2aa7eef62a65bb7988",
   "created_at": "2023-11-22T16:10:17Z",
-  "head": "2ad9798622c0a2749cba6a07dd88d6f025ccb769",
+  "head": "5c8cf8e92d64832876a73eb7288772280db7357c",
   "login": "jmdyck",
   "number": 3227,
   "ref": "unchecked_covering_node",
   "revs": [
    {
-    "adate": "2026-05-04T22:17:39-04:00",
-    "author": "Michael Dyck",
-    "date": "2026-06-05T17:10:47-04:00",
-    "hash": "2ad9798622c0a2749cba6a07dd88d6f025ccb769",
-    "parents": "53f9e37aa9716c50eff10492299b6acb9f00de35",
-    "subject": "fixup: Remove sentence defining \"descendants\""
-   },
-   {
-    "adate": "2023-11-24T11:03:33-05:00",
-    "author": "Michael Dyck",
-    "date": "2026-06-05T17:10:47-04:00",
-    "hash": "53f9e37aa9716c50eff10492299b6acb9f00de35",
-    "parents": "9b2e2233b43fc572b84767b7b1ab8ea8e232d2f1",
-    "subject": "Bring together all the prose about ObjectLiteral being a cover for ObjectAssignmentPattern."
-   },
-   {
-    "adate": "2023-11-23T21:26:42-05:00",
-    "author": "Michael Dyck",
-    "date": "2026-06-05T17:10:47-04:00",
-    "hash": "9b2e2233b43fc572b84767b7b1ab8ea8e232d2f1",
-    "parents": "de787a0c32670bdc1ea413d8181bcd425acdbdbd",
-    "subject": "Move the early error rule for ObjectLiteral"
-   },
-   {
-    "adate": "2023-11-22T10:49:02-05:00",
-    "author": "Michael Dyck",
-    "date": "2026-06-05T17:10:47-04:00",
-    "hash": "de787a0c32670bdc1ea413d8181bcd425acdbdbd",
-    "parents": "5fb531bf967c0d8680f4c5102377ab674eccfdab",
-    "subject": "Editorial: Delete now-redundant para + add example"
-   },
-   {
     "adate": "2023-11-22T09:12:23-05:00",
     "author": "Michael Dyck",
-    "date": "2026-06-05T17:10:47-04:00",
-    "hash": "5fb531bf967c0d8680f4c5102377ab674eccfdab",
-    "parents": "8c0c94eb3be152b7ae7dc0cb580f4ee9f0a9a0c2",
+    "date": "2026-06-25T15:13:04-04:00",
+    "hash": "5c8cf8e92d64832876a73eb7288772280db7357c",
+    "parents": "45a667175d5ac359968d8a2aa7eef62a65bb7988",
     "subject": "Editorial: Don't check a cover for early errors"
    }
   ],
   "title": "Editorial: Don't check a cover for early errors",
-  "updated_at": "2026-06-05T23:21:39Z"
+  "updated_at": "2026-06-25T19:15:24Z"
  },
  {
   "base": "82c99bbc44e4b63e3a14ffbf0ac90ce8359c1010",
