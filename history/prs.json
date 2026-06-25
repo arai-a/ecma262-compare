@@ -1,5 +1,33 @@
 [
  {
+  "base": "45a667175d5ac359968d8a2aa7eef62a65bb7988",
+  "created_at": "2026-06-25T16:18:03Z",
+  "head": "1114c982fe3523cc65f5803439baeacfa0362bb6",
+  "login": "linusg",
+  "number": 3893,
+  "ref": "get-set",
+  "revs": [
+   {
+    "adate": "2026-06-25T17:15:39+01:00",
+    "author": "Linus Groh",
+    "date": "2026-06-25T17:15:39+01:00",
+    "hash": "1114c982fe3523cc65f5803439baeacfa0362bb6",
+    "parents": "62b80efac683beb48dcc6eeb2eb6bca9c9cd523f",
+    "subject": "Editorial: Rename PrivateElement [[Get]]/[[Set]] to [[Getter]]/[[Setter]]"
+   },
+   {
+    "adate": "2026-06-25T17:13:21+01:00",
+    "author": "Linus Groh",
+    "date": "2026-06-25T17:13:21+01:00",
+    "hash": "62b80efac683beb48dcc6eeb2eb6bca9c9cd523f",
+    "parents": "45a667175d5ac359968d8a2aa7eef62a65bb7988",
+    "subject": "Editorial: Rename PropertyDescriptor [[Get]]/[[Set]] to [[Getter]]/[[Setter]]"
+   }
+  ],
+  "title": "Editorial: Rename PropertyDescriptor and PrivateElement [[Get]]/[[Set]] to [[Getter]]/[[Setter]]",
+  "updated_at": "2026-06-25T16:18:03Z"
+ },
+ {
   "base": "19fc72f266702bea78d1ca20cef956c0e36cb2a2",
   "created_at": "2026-06-24T02:48:56Z",
   "head": "c48aff3a3473797e0a553b0eb44f21ebf761dd29",
@@ -22,11 +50,19 @@
  {
   "base": "19fc72f266702bea78d1ca20cef956c0e36cb2a2",
   "created_at": "2026-06-23T02:40:43Z",
-  "head": "2241abe28cecfa986dffda34cfaa17a1d456ea13",
+  "head": "d11e9c0143e715779c1c0b53aff30021b5fb157e",
   "login": "tc39",
   "number": 3890,
   "ref": "capital-s-string",
   "revs": [
+   {
+    "adate": "2026-06-25T10:08:28-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-06-25T10:08:28-06:00",
+    "hash": "d11e9c0143e715779c1c0b53aff30021b5fb157e",
+    "parents": "2241abe28cecfa986dffda34cfaa17a1d456ea13",
+    "subject": "update table caption"
+   },
    {
     "adate": "2026-06-22T20:24:54-06:00",
     "author": "Michael Ficarra",
@@ -37,7 +73,7 @@
    }
   ],
   "title": "Editorial: consistently refer to Strings using a capital S",
-  "updated_at": "2026-06-23T02:49:23Z"
+  "updated_at": "2026-06-25T16:13:17Z"
  },
  {
   "base": "19fc72f266702bea78d1ca20cef956c0e36cb2a2",
@@ -158,26 +194,6 @@
   ],
   "title": "Normative: Require internal consistency w.r.t. prefixing {get,set} in SetFunctionName",
   "updated_at": "2026-05-21T17:31:02Z"
- },
- {
-  "base": "f792966f2bcf78ed079df6697ad1ba9070086955",
-  "created_at": "2026-05-05T01:53:43Z",
-  "head": "45a667175d5ac359968d8a2aa7eef62a65bb7988",
-  "login": "jmdyck",
-  "number": 3846,
-  "ref": "RunCallerContext",
-  "revs": [
-   {
-    "adate": "2026-06-24T14:39:26-07:00",
-    "author": "Michael Dyck",
-    "date": "2026-06-24T14:39:26-07:00",
-    "hash": "45a667175d5ac359968d8a2aa7eef62a65bb7988",
-    "parents": "f792966f2bcf78ed079df6697ad1ba9070086955",
-    "subject": "Editorial: Factor out RunCallerContext AO (#3846)"
-   }
-  ],
-  "title": "Editorial: Factor out AO RunCallerContext()",
-  "updated_at": "2026-06-24T21:39:44Z"
  },
  {
   "base": "3e0bdf0757a1a4f790044a35aa2ac53ca1fbc7a9",
