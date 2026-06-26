@@ -1,6 +1,46 @@
 [
  {
   "base": "45a667175d5ac359968d8a2aa7eef62a65bb7988",
+  "created_at": "2026-06-26T03:52:49Z",
+  "head": "b5d83023a40a000170d4936f11e20b21812e1a17",
+  "login": "bakkot",
+  "number": 3896,
+  "ref": "context-machinery-tweaks",
+  "revs": [
+   {
+    "adate": "2026-06-25T20:27:25-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2026-06-25T20:47:14-07:00",
+    "hash": "b5d83023a40a000170d4936f11e20b21812e1a17",
+    "parents": "45a667175d5ac359968d8a2aa7eef62a65bb7988",
+    "subject": "Editorial: do not use \"Return\" to transfer control between execution contexts"
+   }
+  ],
+  "title": "Editorial: do not use \"Return\" to transfer control between execution contexts",
+  "updated_at": "2026-06-26T04:15:41Z"
+ },
+ {
+  "base": "45a667175d5ac359968d8a2aa7eef62a65bb7988",
+  "created_at": "2026-06-26T00:35:39Z",
+  "head": "f5c5aaf6884964f601abfbe889f74c34b24b4b4e",
+  "login": "tc39",
+  "number": 3895,
+  "ref": "declKind",
+  "revs": [
+   {
+    "adate": "2026-06-25T18:28:52-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-06-25T18:28:52-06:00",
+    "hash": "f5c5aaf6884964f601abfbe889f74c34b24b4b4e",
+    "parents": "45a667175d5ac359968d8a2aa7eef62a65bb7988",
+    "subject": "Editorial: rename alias that slipped past CI"
+   }
+  ],
+  "title": "Editorial: rename alias that slipped past CI",
+  "updated_at": "2026-06-26T00:42:29Z"
+ },
+ {
+  "base": "45a667175d5ac359968d8a2aa7eef62a65bb7988",
   "created_at": "2026-06-25T19:07:38Z",
   "head": "07878a779a8ad1db10010ff417dc40a2122404e0",
   "login": "linusg",
