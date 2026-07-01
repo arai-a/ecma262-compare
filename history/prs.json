@@ -3974,102 +3974,62 @@
  {
   "base": "45a667175d5ac359968d8a2aa7eef62a65bb7988",
   "created_at": "2021-01-24T05:38:33Z",
-  "head": "20b41b50c0b1b2c8697a5282e1568a9d82cd1100",
+  "head": "1e469f8d2602ed4977010d217d335f5e508146eb",
   "login": "jmdyck",
   "number": 2288,
   "ref": "declarative_Env_Rec",
   "revs": [
    {
+    "adate": "2026-06-30T18:31:00-04:00",
+    "author": "Michael Dyck",
+    "date": "2026-06-30T18:31:00-04:00",
+    "hash": "1e469f8d2602ed4977010d217d335f5e508146eb",
+    "parents": "dc502a892ffa741a909d0efe7246ec14aba3411b",
+    "subject": "fixup: rephrase \"it will have a direct binding for\" in CreateImportBinding assert"
+   },
+   {
     "adate": "2026-05-05T19:13:29-04:00",
     "author": "Michael Dyck",
-    "date": "2026-06-25T11:20:19-04:00",
-    "hash": "20b41b50c0b1b2c8697a5282e1568a9d82cd1100",
-    "parents": "e5b736ae063012aad01af37cc739b1ac3e6a7f56",
-    "subject": "fixup: Mention that Function ERs and Module ERs override certain concrete methods"
-   },
-   {
-    "adate": "2026-05-05T17:50:18-04:00",
-    "author": "Michael Dyck",
-    "date": "2026-06-25T11:20:19-04:00",
-    "hash": "e5b736ae063012aad01af37cc739b1ac3e6a7f56",
-    "parents": "ab096c7efed98976c4ce44caf2e0dc87a411a074",
-    "subject": "fixup: Convert \"Change its bound value\""
-   },
-   {
-    "adate": "2026-05-05T17:37:32-04:00",
-    "author": "Michael Dyck",
-    "date": "2026-06-25T11:20:19-04:00",
-    "hash": "ab096c7efed98976c4ce44caf2e0dc87a411a074",
-    "parents": "793caad5afda84390f6236ec7f4334c35a8903e9",
-    "subject": "fixup: Add forward-reference for ImportDeclarativeBinding"
-   },
-   {
-    "adate": "2026-05-05T17:33:28-04:00",
-    "author": "Michael Dyck",
-    "date": "2026-06-25T11:20:19-04:00",
-    "hash": "793caad5afda84390f6236ec7f4334c35a8903e9",
-    "parents": "57094b2862fca105ed8644118480592cae3d931a",
-    "subject": "fixup: Better \"Meaning\" for `[[Bindings]]`"
-   },
-   {
-    "adate": "2026-05-05T17:29:23-04:00",
-    "author": "Michael Dyck",
-    "date": "2026-06-25T11:20:19-04:00",
-    "hash": "57094b2862fca105ed8644118480592cae3d931a",
-    "parents": "68f941cd3020146aa8db52d1e7868f34de65cf69",
-    "subject": "fixup: Insert `!` before HasBinding invocations"
-   },
-   {
-    "adate": "2026-05-05T17:02:23-04:00",
-    "author": "Michael Dyck",
-    "date": "2026-06-25T11:20:18-04:00",
-    "hash": "68f941cd3020146aa8db52d1e7868f34de65cf69",
-    "parents": "3646b86ce3a7eeffcc8769be9a8a3cd671f6f75f",
-    "subject": "fixup: Capitalize the \"Meaning\" of fields"
-   },
-   {
-    "adate": "2023-09-02T23:02:35-04:00",
-    "author": "Michael Dyck",
-    "date": "2026-06-25T11:20:18-04:00",
-    "hash": "3646b86ce3a7eeffcc8769be9a8a3cd671f6f75f",
-    "parents": "d71e937715049ed10bbc29bd1c043f3cdfdabb8d",
-    "subject": "fixup: add 'variants' attributes; change \"equals\" to \"is\""
+    "date": "2026-06-30T18:00:30-04:00",
+    "hash": "dc502a892ffa741a909d0efe7246ec14aba3411b",
+    "parents": "ff833a815047010a05817d04f6c759b9f6b51133",
+    "subject": "Editorial: Mention that Function ERs and Module ERs override certain concrete methods"
    },
    {
     "adate": "2025-08-19T21:37:07-04:00",
     "author": "Michael Dyck",
-    "date": "2026-06-25T11:20:18-04:00",
-    "hash": "d71e937715049ed10bbc29bd1c043f3cdfdabb8d",
-    "parents": "a024545c856a4dd009bf6b680149da6fd73a3e48",
+    "date": "2026-06-30T17:49:43-04:00",
+    "hash": "ff833a815047010a05817d04f6c759b9f6b51133",
+    "parents": "5e3de4703a609b3908020ecdb9401424bf2c9b82",
     "subject": "Editorial: Model a declarative binding as a Record"
    },
    {
     "adate": "2025-08-19T21:35:25-04:00",
     "author": "Michael Dyck",
-    "date": "2026-06-25T11:20:18-04:00",
-    "hash": "a024545c856a4dd009bf6b680149da6fd73a3e48",
-    "parents": "986baa984d7117353041f5c18c9a39afe963fdbf",
+    "date": "2026-06-30T17:33:47-04:00",
+    "hash": "5e3de4703a609b3908020ecdb9401424bf2c9b82",
+    "parents": "ac1eee58e5d61f1d49fd838880b9c8fe1e5c2f29",
     "subject": "Editorial: Declarative Env Rec has field [[Bindings]]"
    },
    {
     "adate": "2025-08-19T21:30:27-04:00",
     "author": "Michael Dyck",
-    "date": "2026-06-25T11:20:18-04:00",
-    "hash": "986baa984d7117353041f5c18c9a39afe963fdbf",
-    "parents": "b4b7dd3f582d0aff8902259b7716e21dc1704219",
+    "date": "2026-06-30T17:30:13-04:00",
+    "hash": "ac1eee58e5d61f1d49fd838880b9c8fe1e5c2f29",
+    "parents": "82b1811f31ee84cd2f0cd3fea8db7ea569163a1e",
     "subject": "Editorial: Treat a binding as an 'alias-able' thing"
    },
    {
     "adate": "2021-01-23T22:54:21-05:00",
     "author": "Michael Dyck",
-    "date": "2026-06-25T11:20:18-04:00",
-    "hash": "b4b7dd3f582d0aff8902259b7716e21dc1704219",
+    "date": "2026-06-30T17:10:15-04:00",
+    "hash": "82b1811f31ee84cd2f0cd3fea8db7ea569163a1e",
     "parents": "45a667175d5ac359968d8a2aa7eef62a65bb7988",
     "subject": "Editorial: Use Declarative Env Rec's HasBinding method"
    }
   ],
   "title": "Editorial: Model the bindings of a declarative Env Rec as a List of Records",
-  "updated_at": "2026-06-27T16:23:24Z"
+  "updated_at": "2026-06-30T22:44:43Z"
  },
  {
   "base": "8c0c94eb3be152b7ae7dc0cb580f4ee9f0a9a0c2",
