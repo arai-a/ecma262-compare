@@ -1,11 +1,27 @@
 [
  {
+  "adate": "2026-07-02T16:32:22-05:00",
+  "author": "Richard Gibson",
+  "date": "2026-07-02T16:32:22-05:00",
+  "hash": "974bbcfbb6c41102533c2aa5e4acfe67e4608634",
+  "parents": "fad1353e674b7a3258e453aff81bbecbddf0edb3",
+  "subject": "Editorial: Narrow the Property Descriptor [[Getter]] and [[Setter]] domains (#3900)"
+ },
+ {
   "adate": "2026-07-02T15:45:32-05:00",
   "author": "Michael Ficarra",
   "date": "2026-07-02T15:45:32-05:00",
   "hash": "fad1353e674b7a3258e453aff81bbecbddf0edb3",
   "parents": "584a69fbc00a49dddca50dac6333647b82480129",
   "subject": "Editorial: rename alias that slipped past CI (#3895)"
+ },
+ {
+  "adate": "2026-07-02T15:24:48-05:00",
+  "author": "Linus Groh",
+  "date": "2026-07-02T15:24:48-05:00",
+  "hash": "584a69fbc00a49dddca50dac6333647b82480129",
+  "parents": "c897b5400ca723ba758538aba562fc5de797ea07",
+  "subject": "Editorial: Rename PrivateElement [[Get]]/[[Set]] to [[Getter]]/[[Setter]] (#3893)"
  },
  {
   "adate": "2026-07-02T15:24:43-05:00",
