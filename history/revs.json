@@ -1,5 +1,53 @@
 [
  {
+  "adate": "2026-07-02T15:45:32-05:00",
+  "author": "Michael Ficarra",
+  "date": "2026-07-02T15:45:32-05:00",
+  "hash": "fad1353e674b7a3258e453aff81bbecbddf0edb3",
+  "parents": "584a69fbc00a49dddca50dac6333647b82480129",
+  "subject": "Editorial: rename alias that slipped past CI (#3895)"
+ },
+ {
+  "adate": "2026-07-02T15:24:43-05:00",
+  "author": "Linus Groh",
+  "date": "2026-07-02T15:24:43-05:00",
+  "hash": "c897b5400ca723ba758538aba562fc5de797ea07",
+  "parents": "627c9190f0203c81002d166bc054c099abb40e6e",
+  "subject": "Editorial: Rename PropertyDescriptor [[Get]]/[[Set]] to [[Getter]]/[[Setter]] (#3893)"
+ },
+ {
+  "adate": "2026-07-02T15:13:00-05:00",
+  "author": "Michael Ficarra",
+  "date": "2026-07-02T15:13:00-05:00",
+  "hash": "627c9190f0203c81002d166bc054c099abb40e6e",
+  "parents": "23839795e5915273d5fda43227c8354ec408dc90",
+  "subject": "Editorial: replace uses of \"Record value\" with just \"Record\" (#3891)"
+ },
+ {
+  "adate": "2026-07-02T15:01:15-05:00",
+  "author": "Aki \ud83c\udf39",
+  "date": "2026-07-02T15:01:15-05:00",
+  "hash": "23839795e5915273d5fda43227c8354ec408dc90",
+  "parents": "3bedf838fee2b12f3d3e6b5a7b01388c317788aa",
+  "subject": "Markup: updated print-only styles for >= 2026 edition (#3889)"
+ },
+ {
+  "adate": "2026-07-02T14:37:27-05:00",
+  "author": "Richard Gibson",
+  "date": "2026-07-02T14:37:27-05:00",
+  "hash": "3bedf838fee2b12f3d3e6b5a7b01388c317788aa",
+  "parents": "020735388e46c8bc4bd2255fa9ea49a782be9074",
+  "subject": "Editorial: Refactor parseInt into more cleanly-separated phases (#3841)"
+ },
+ {
+  "adate": "2026-07-02T13:49:32-05:00",
+  "author": "Michael Dyck",
+  "date": "2026-07-02T13:49:32-05:00",
+  "hash": "020735388e46c8bc4bd2255fa9ea49a782be9074",
+  "parents": "45a667175d5ac359968d8a2aa7eef62a65bb7988",
+  "subject": "Editorial: Don't check a cover for early errors (#3227)"
+ },
+ {
   "adate": "2026-06-24T14:39:26-07:00",
   "author": "Michael Dyck",
   "date": "2026-06-24T14:39:26-07:00",

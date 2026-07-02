@@ -1,8 +1,28 @@
 [
  {
-  "base": "45a667175d5ac359968d8a2aa7eef62a65bb7988",
+  "base": "fad1353e674b7a3258e453aff81bbecbddf0edb3",
+  "created_at": "2026-07-02T21:07:38Z",
+  "head": "8779549ac8456a5f8d2bbf220c271814629bb0b1",
+  "login": "gibson042",
+  "number": 3900,
+  "ref": "gh-3893-followup",
+  "revs": [
+   {
+    "adate": "2026-07-02T17:06:20-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-07-02T17:06:20-04:00",
+    "hash": "8779549ac8456a5f8d2bbf220c271814629bb0b1",
+    "parents": "fad1353e674b7a3258e453aff81bbecbddf0edb3",
+    "subject": "Editorial: Narrow the Property Descriptor [[Getter]] and [[Setter]] domains"
+   }
+  ],
+  "title": "Editorial: Narrow the Property Descriptor [[Getter]] and [[Setter]] domains",
+  "updated_at": "2026-07-02T21:07:38Z"
+ },
+ {
+  "base": "fad1353e674b7a3258e453aff81bbecbddf0edb3",
   "created_at": "2026-07-02T17:46:49Z",
-  "head": "3ee27efa9de4e18cb870bc93d6bb705f2dfda556",
+  "head": "b109b57b930fd365b6fc3bd1b053d782583d6444",
   "login": "gibson042",
   "number": 3899,
   "ref": "2026-07-private-element-property-analogies",
@@ -10,14 +30,14 @@
    {
     "adate": "2026-07-02T13:43:22-04:00",
     "author": "Richard Gibson",
-    "date": "2026-07-02T13:43:22-04:00",
-    "hash": "3ee27efa9de4e18cb870bc93d6bb705f2dfda556",
-    "parents": "45a667175d5ac359968d8a2aa7eef62a65bb7988",
+    "date": "2026-07-02T17:10:20-04:00",
+    "hash": "b109b57b930fd365b6fc3bd1b053d782583d6444",
+    "parents": "fad1353e674b7a3258e453aff81bbecbddf0edb3",
     "subject": "Editorial: Make the shared similarities of private elements more clear"
    }
   ],
   "title": "Editorial: Make the shared similarities of private elements more clear",
-  "updated_at": "2026-07-02T17:53:48Z"
+  "updated_at": "2026-07-02T21:12:29Z"
  },
  {
   "base": "45a667175d5ac359968d8a2aa7eef62a65bb7988",
@@ -61,26 +81,6 @@
  },
  {
   "base": "45a667175d5ac359968d8a2aa7eef62a65bb7988",
-  "created_at": "2026-06-26T00:35:39Z",
-  "head": "f5c5aaf6884964f601abfbe889f74c34b24b4b4e",
-  "login": "tc39",
-  "number": 3895,
-  "ref": "declKind",
-  "revs": [
-   {
-    "adate": "2026-06-25T18:28:52-06:00",
-    "author": "Michael Ficarra",
-    "date": "2026-06-25T18:28:52-06:00",
-    "hash": "f5c5aaf6884964f601abfbe889f74c34b24b4b4e",
-    "parents": "45a667175d5ac359968d8a2aa7eef62a65bb7988",
-    "subject": "Editorial: rename alias that slipped past CI"
-   }
-  ],
-  "title": "Editorial: rename alias that slipped past CI",
-  "updated_at": "2026-06-26T00:42:29Z"
- },
- {
-  "base": "45a667175d5ac359968d8a2aa7eef62a65bb7988",
   "created_at": "2026-06-25T19:07:38Z",
   "head": "07878a779a8ad1db10010ff417dc40a2122404e0",
   "login": "linusg",
@@ -98,54 +98,6 @@
   ],
   "title": "Normative: Add missing Symbol.dispose and Symbol.asyncDispose properties",
   "updated_at": "2026-06-25T19:14:59Z"
- },
- {
-  "base": "45a667175d5ac359968d8a2aa7eef62a65bb7988",
-  "created_at": "2026-06-25T16:18:03Z",
-  "head": "1114c982fe3523cc65f5803439baeacfa0362bb6",
-  "login": "linusg",
-  "number": 3893,
-  "ref": "get-set",
-  "revs": [
-   {
-    "adate": "2026-06-25T17:15:39+01:00",
-    "author": "Linus Groh",
-    "date": "2026-06-25T17:15:39+01:00",
-    "hash": "1114c982fe3523cc65f5803439baeacfa0362bb6",
-    "parents": "62b80efac683beb48dcc6eeb2eb6bca9c9cd523f",
-    "subject": "Editorial: Rename PrivateElement [[Get]]/[[Set]] to [[Getter]]/[[Setter]]"
-   },
-   {
-    "adate": "2026-06-25T17:13:21+01:00",
-    "author": "Linus Groh",
-    "date": "2026-06-25T17:13:21+01:00",
-    "hash": "62b80efac683beb48dcc6eeb2eb6bca9c9cd523f",
-    "parents": "45a667175d5ac359968d8a2aa7eef62a65bb7988",
-    "subject": "Editorial: Rename PropertyDescriptor [[Get]]/[[Set]] to [[Getter]]/[[Setter]]"
-   }
-  ],
-  "title": "Editorial: Rename PropertyDescriptor and PrivateElement [[Get]]/[[Set]] to [[Getter]]/[[Setter]]",
-  "updated_at": "2026-06-25T16:18:03Z"
- },
- {
-  "base": "19fc72f266702bea78d1ca20cef956c0e36cb2a2",
-  "created_at": "2026-06-24T02:48:56Z",
-  "head": "c48aff3a3473797e0a553b0eb44f21ebf761dd29",
-  "login": "tc39",
-  "number": 3891,
-  "ref": "is-a-record-value",
-  "revs": [
-   {
-    "adate": "2026-06-23T20:42:53-06:00",
-    "author": "Michael Ficarra",
-    "date": "2026-06-23T20:42:53-06:00",
-    "hash": "c48aff3a3473797e0a553b0eb44f21ebf761dd29",
-    "parents": "19fc72f266702bea78d1ca20cef956c0e36cb2a2",
-    "subject": "Editorial: replace uses of \"Record value\" with just \"Record\""
-   }
-  ],
-  "title": "Editorial: replace uses of \"Record value\" with just \"Record\"",
-  "updated_at": "2026-06-24T02:55:16Z"
  },
  {
   "base": "19fc72f266702bea78d1ca20cef956c0e36cb2a2",
@@ -174,26 +126,6 @@
   ],
   "title": "Editorial: consistently refer to Strings using a capital S",
   "updated_at": "2026-06-25T16:13:17Z"
- },
- {
-  "base": "19fc72f266702bea78d1ca20cef956c0e36cb2a2",
-  "created_at": "2026-06-19T10:47:34Z",
-  "head": "a1cedf0f7e24776226d06917064fd8cd68544509",
-  "login": "gesa",
-  "number": 3889,
-  "ref": "main",
-  "revs": [
-   {
-    "adate": "2026-06-19T12:43:50+02:00",
-    "author": "Aki \ud83c\udf39",
-    "date": "2026-06-19T12:45:40+02:00",
-    "hash": "a1cedf0f7e24776226d06917064fd8cd68544509",
-    "parents": "19fc72f266702bea78d1ca20cef956c0e36cb2a2",
-    "subject": "Markup: updated print-only styles for >= 2026 edition"
-   }
-  ],
-  "title": "Markup: updated print-only styles for >= 2026 edition",
-  "updated_at": "2026-06-19T10:54:05Z"
  },
  {
   "base": "7b25de494ef15db9c8ecce2bc556225e56c457be",
@@ -294,90 +226,6 @@
   ],
   "title": "Normative: Require internal consistency w.r.t. prefixing {get,set} in SetFunctionName",
   "updated_at": "2026-05-21T17:31:02Z"
- },
- {
-  "base": "3e0bdf0757a1a4f790044a35aa2ac53ca1fbc7a9",
-  "created_at": "2026-04-29T15:58:49Z",
-  "head": "41b9523e3ec049b8a87c45d5e60560616c7ebc48",
-  "login": "gibson042",
-  "number": 3841,
-  "ref": "2026-04-refactor-parseint",
-  "revs": [
-   {
-    "adate": "2026-04-29T10:49:16-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-04-30T15:25:11-04:00",
-    "hash": "41b9523e3ec049b8a87c45d5e60560616c7ebc48",
-    "parents": "b30085a3427f776d033f7872ce165d5563cbdb3a",
-    "subject": "Editorial: Inline _stripHexPrefix_ in parseInt"
-   },
-   {
-    "adate": "2026-04-29T10:49:16-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-04-30T15:05:00-04:00",
-    "hash": "b30085a3427f776d033f7872ce165d5563cbdb3a",
-    "parents": "70b59424fe2c75275432357ffa5f64fb479fd71f",
-    "subject": "Editorial: Separate _radixMV_ bounds checking from _stripHexPrefix_ initialization in parseInt"
-   },
-   {
-    "adate": "2026-04-29T10:49:16-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-04-29T11:50:32-04:00",
-    "hash": "70b59424fe2c75275432357ffa5f64fb479fd71f",
-    "parents": "c8ee84f5d685fac0046b50af339206f15ebe6034",
-    "subject": "Editorial: Clarify derivation of _stripHexPrefix_ from _radixMV_ in parseInt"
-   },
-   {
-    "adate": "2026-04-29T10:49:16-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-04-29T11:23:43-04:00",
-    "hash": "c8ee84f5d685fac0046b50af339206f15ebe6034",
-    "parents": "be74371c4691d60e9653ad827a0912e5f46e836b",
-    "subject": "Editorial: Simplify the final return of parseInt"
-   },
-   {
-    "adate": "2026-04-29T10:49:16-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-04-29T11:23:00-04:00",
-    "hash": "be74371c4691d60e9653ad827a0912e5f46e836b",
-    "parents": "229f05ddb35dd69b772099a6cb01ae8bae1d0b96",
-    "subject": "Editorial: Reduce hex-specific nesting depth in parseInt"
-   },
-   {
-    "adate": "2026-04-29T10:49:16-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-04-29T11:20:55-04:00",
-    "hash": "229f05ddb35dd69b772099a6cb01ae8bae1d0b96",
-    "parents": "8312298a1edc0c683dd186da0e7dec7f10293364",
-    "subject": "Editorial: Rename the hex-specific _stripPrefix_ alias in parseInt"
-   },
-   {
-    "adate": "2026-04-29T10:49:16-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-04-29T11:09:59-04:00",
-    "hash": "8312298a1edc0c683dd186da0e7dec7f10293364",
-    "parents": "dff015fc16014c48820aa7728d9e8c2b7eb2120a",
-    "subject": "Editorial: Separate `-`/`+` handling in parseInt"
-   },
-   {
-    "adate": "2026-04-29T10:49:16-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-04-29T11:06:11-04:00",
-    "hash": "dff015fc16014c48820aa7728d9e8c2b7eb2120a",
-    "parents": "a4c349abe95237d31fb1158fd2d79711db245882",
-    "subject": "Editorial: Fix use of substring in parseInt"
-   },
-   {
-    "adate": "2026-04-29T10:49:16-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-04-29T10:49:16-04:00",
-    "hash": "a4c349abe95237d31fb1158fd2d79711db245882",
-    "parents": "3e0bdf0757a1a4f790044a35aa2ac53ca1fbc7a9",
-    "subject": "Editorial: Move fallible parseInt steps to the beginning"
-   }
-  ],
-  "title": "Editorial: Refactor parseInt into more cleanly-separated phases",
-  "updated_at": "2026-04-30T19:27:38Z"
  },
  {
   "base": "3282e07ac8811a9639c915ef8f85dc4f3aea3e8e",
@@ -2274,26 +2122,6 @@
   ],
   "title": "Editorial: Simplify algorithms by making (Async)IteratorClose idempotent",
   "updated_at": "2024-01-31T17:05:37Z"
- },
- {
-  "base": "45a667175d5ac359968d8a2aa7eef62a65bb7988",
-  "created_at": "2023-11-22T16:10:17Z",
-  "head": "020735388e46c8bc4bd2255fa9ea49a782be9074",
-  "login": "jmdyck",
-  "number": 3227,
-  "ref": "unchecked_covering_node",
-  "revs": [
-   {
-    "adate": "2026-07-02T13:49:32-05:00",
-    "author": "Michael Dyck",
-    "date": "2026-07-02T13:49:32-05:00",
-    "hash": "020735388e46c8bc4bd2255fa9ea49a782be9074",
-    "parents": "45a667175d5ac359968d8a2aa7eef62a65bb7988",
-    "subject": "Editorial: Don't check a cover for early errors (#3227)"
-   }
-  ],
-  "title": "Editorial: Don't check a cover for early errors",
-  "updated_at": "2026-07-02T18:49:45Z"
  },
  {
   "base": "82c99bbc44e4b63e3a14ffbf0ac90ce8359c1010",
