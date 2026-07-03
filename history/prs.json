@@ -1,32 +1,20 @@
 [
  {
   "base": "fad1353e674b7a3258e453aff81bbecbddf0edb3",
-  "created_at": "2026-07-02T21:07:38Z",
-  "head": "8779549ac8456a5f8d2bbf220c271814629bb0b1",
-  "login": "gibson042",
-  "number": 3900,
-  "ref": "gh-3893-followup",
-  "revs": [
-   {
-    "adate": "2026-07-02T17:06:20-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-07-02T17:06:20-04:00",
-    "hash": "8779549ac8456a5f8d2bbf220c271814629bb0b1",
-    "parents": "fad1353e674b7a3258e453aff81bbecbddf0edb3",
-    "subject": "Editorial: Narrow the Property Descriptor [[Getter]] and [[Setter]] domains"
-   }
-  ],
-  "title": "Editorial: Narrow the Property Descriptor [[Getter]] and [[Setter]] domains",
-  "updated_at": "2026-07-02T21:07:38Z"
- },
- {
-  "base": "fad1353e674b7a3258e453aff81bbecbddf0edb3",
   "created_at": "2026-07-02T17:46:49Z",
-  "head": "b109b57b930fd365b6fc3bd1b053d782583d6444",
+  "head": "2d140c9e750bcd7826f7ae0bd09c6b8072066eeb",
   "login": "gibson042",
   "number": 3899,
   "ref": "2026-07-private-element-property-analogies",
   "revs": [
+   {
+    "adate": "2026-07-02T21:31:29-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-07-02T21:31:29-04:00",
+    "hash": "2d140c9e750bcd7826f7ae0bd09c6b8072066eeb",
+    "parents": "b109b57b930fd365b6fc3bd1b053d782583d6444",
+    "subject": "fixup! Editorial: Make the shared similarities of private elements more clear"
+   },
    {
     "adate": "2026-07-02T13:43:22-04:00",
     "author": "Richard Gibson",
@@ -37,7 +25,7 @@
    }
   ],
   "title": "Editorial: Make the shared similarities of private elements more clear",
-  "updated_at": "2026-07-02T21:12:29Z"
+  "updated_at": "2026-07-03T01:32:10Z"
  },
  {
   "base": "45a667175d5ac359968d8a2aa7eef62a65bb7988",
