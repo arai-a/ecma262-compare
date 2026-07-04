@@ -3240,9 +3240,9 @@
   "updated_at": "2023-02-13T19:08:39Z"
  },
  {
-  "base": "45a667175d5ac359968d8a2aa7eef62a65bb7988",
+  "base": "974bbcfbb6c41102533c2aa5e4acfe67e4608634",
   "created_at": "2022-09-04T02:20:57Z",
-  "head": "701e2b116784ceaa12effce422664036d6369a11",
+  "head": "25e51c5a8e1ac7099a69bc7effdd32a724c0fc82",
   "login": "jmdyck",
   "number": 2889,
   "ref": "callable",
@@ -3250,22 +3250,22 @@
    {
     "adate": "2022-09-03T22:11:56-04:00",
     "author": "Michael Dyck",
-    "date": "2026-06-25T11:33:31-04:00",
-    "hash": "701e2b116784ceaa12effce422664036d6369a11",
-    "parents": "8d24285f1c3650babb38e180a55174841a8e7c2f",
+    "date": "2026-07-03T22:13:52-04:00",
+    "hash": "25e51c5a8e1ac7099a69bc7effdd32a724c0fc82",
+    "parents": "5f9e936c32cdc81504ea2688687d402d29dda03a",
     "subject": "Eliminate most other uses of \"callable\""
    },
    {
     "adate": "2022-09-03T21:47:50-04:00",
     "author": "Michael Dyck",
-    "date": "2026-06-25T11:33:31-04:00",
-    "hash": "8d24285f1c3650babb38e180a55174841a8e7c2f",
-    "parents": "45a667175d5ac359968d8a2aa7eef62a65bb7988",
+    "date": "2026-07-03T22:13:50-04:00",
+    "hash": "5f9e936c32cdc81504ea2688687d402d29dda03a",
+    "parents": "974bbcfbb6c41102533c2aa5e4acfe67e4608634",
     "subject": "Rename \"IsCallable\" as \"IsFunction\""
    }
   ],
   "title": "Editorial: Minimize use of the term \"callable\"",
-  "updated_at": "2026-06-27T15:07:12Z"
+  "updated_at": "2026-07-04T12:58:59Z"
  },
  {
   "base": "dceb9e45fa04ff37a213095e97a28da81bf213ec",
