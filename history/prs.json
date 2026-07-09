@@ -1,25 +1,33 @@
 [
  {
-  "base": "8cc96c0741d8e673619a7c8753aae11d8dda3954",
-  "created_at": "2026-07-08T14:39:57Z",
-  "head": "54b1fcd608f64ed3adeac794c6b145a3f881cfca",
+  "base": "974bbcfbb6c41102533c2aa5e4acfe67e4608634",
+  "created_at": "2026-07-07T20:27:40Z",
+  "head": "18f78421e814e83a4487e0f8c96d6b5c57fc8417",
   "login": "tc39",
-  "number": 3903,
-  "ref": "gh-3902-ecmarkup-v24.2.0-lint-issues",
+  "number": 3902,
+  "ref": "bump-ecmarkup-v24.2.0",
   "revs": [
+   {
+    "adate": "2026-07-09T16:21:59-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-07-09T16:23:13-06:00",
+    "hash": "18f78421e814e83a4487e0f8c96d6b5c57fc8417",
+    "parents": "cad11ed288041a91dbf5c09047b6e45a9b67a735",
+    "subject": "simplify for-each-of heads"
+   },
    {
     "adate": "2026-07-09T16:09:47-04:00",
     "author": "Richard Gibson",
-    "date": "2026-07-09T16:11:39-04:00",
-    "hash": "54b1fcd608f64ed3adeac794c6b145a3f881cfca",
-    "parents": "1a621a85e9cb2e323599d48e7742af87e0ae36d6",
+    "date": "2026-07-09T16:23:13-06:00",
+    "hash": "cad11ed288041a91dbf5c09047b6e45a9b67a735",
+    "parents": "e1d0783f0428fd31777376cc2bc10b4fce67f6f2",
     "subject": "Editorial: npm run format"
    },
    {
     "adate": "2026-07-08T10:39:04-04:00",
     "author": "Richard Gibson",
-    "date": "2026-07-09T16:11:19-04:00",
-    "hash": "1a621a85e9cb2e323599d48e7742af87e0ae36d6",
+    "date": "2026-07-09T16:23:13-06:00",
+    "hash": "e1d0783f0428fd31777376cc2bc10b4fce67f6f2",
     "parents": "8cc96c0741d8e673619a7c8753aae11d8dda3954",
     "subject": "Editorial: Fix ecmarkup lint issues"
    },
@@ -32,28 +40,8 @@
     "subject": "Meta: bump ecmarkup to v24.2.0"
    }
   ],
-  "title": "Editorial: Fix ecmarkup lint issues",
-  "updated_at": "2026-07-09T20:12:11Z"
- },
- {
-  "base": "974bbcfbb6c41102533c2aa5e4acfe67e4608634",
-  "created_at": "2026-07-07T20:27:40Z",
-  "head": "8cc96c0741d8e673619a7c8753aae11d8dda3954",
-  "login": "tc39",
-  "number": 3902,
-  "ref": "bump-ecmarkup-v24.2.0",
-  "revs": [
-   {
-    "adate": "2026-07-07T14:26:44-06:00",
-    "author": "Michael Ficarra",
-    "date": "2026-07-07T14:26:44-06:00",
-    "hash": "8cc96c0741d8e673619a7c8753aae11d8dda3954",
-    "parents": "974bbcfbb6c41102533c2aa5e4acfe67e4608634",
-    "subject": "Meta: bump ecmarkup to v24.2.0"
-   }
-  ],
   "title": "Meta: bump ecmarkup to v24.2.0",
-  "updated_at": "2026-07-07T20:34:44Z"
+  "updated_at": "2026-07-09T22:23:15Z"
  },
  {
   "base": "974bbcfbb6c41102533c2aa5e4acfe67e4608634",
