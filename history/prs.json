@@ -2,16 +2,24 @@
  {
   "base": "8cc96c0741d8e673619a7c8753aae11d8dda3954",
   "created_at": "2026-07-08T14:39:57Z",
-  "head": "b01c8a12e2075a567c9177006fb651a6fcbfd084",
+  "head": "54b1fcd608f64ed3adeac794c6b145a3f881cfca",
   "login": "tc39",
   "number": 3903,
   "ref": "gh-3902-ecmarkup-v24.2.0-lint-issues",
   "revs": [
    {
+    "adate": "2026-07-09T16:09:47-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-07-09T16:11:39-04:00",
+    "hash": "54b1fcd608f64ed3adeac794c6b145a3f881cfca",
+    "parents": "1a621a85e9cb2e323599d48e7742af87e0ae36d6",
+    "subject": "Editorial: npm run format"
+   },
+   {
     "adate": "2026-07-08T10:39:04-04:00",
     "author": "Richard Gibson",
-    "date": "2026-07-08T10:39:04-04:00",
-    "hash": "b01c8a12e2075a567c9177006fb651a6fcbfd084",
+    "date": "2026-07-09T16:11:19-04:00",
+    "hash": "1a621a85e9cb2e323599d48e7742af87e0ae36d6",
     "parents": "8cc96c0741d8e673619a7c8753aae11d8dda3954",
     "subject": "Editorial: Fix ecmarkup lint issues"
    },
@@ -25,7 +33,7 @@
    }
   ],
   "title": "Editorial: Fix ecmarkup lint issues",
-  "updated_at": "2026-07-08T14:47:42Z"
+  "updated_at": "2026-07-09T20:12:11Z"
  },
  {
   "base": "974bbcfbb6c41102533c2aa5e4acfe67e4608634",
@@ -68,32 +76,24 @@
   "updated_at": "2026-07-03T13:01:30Z"
  },
  {
-  "base": "fad1353e674b7a3258e453aff81bbecbddf0edb3",
+  "base": "1355a23e48aaf2b1d7b6cbfad0fb98bce999cfd1",
   "created_at": "2026-07-02T17:46:49Z",
-  "head": "2d140c9e750bcd7826f7ae0bd09c6b8072066eeb",
+  "head": "1fe0548d3113eaf19f8189da134ccae0ef9c3887",
   "login": "gibson042",
   "number": 3899,
   "ref": "2026-07-private-element-property-analogies",
   "revs": [
    {
-    "adate": "2026-07-02T21:31:29-04:00",
+    "adate": "2026-07-09T12:42:27-07:00",
     "author": "Richard Gibson",
-    "date": "2026-07-02T21:31:29-04:00",
-    "hash": "2d140c9e750bcd7826f7ae0bd09c6b8072066eeb",
-    "parents": "b109b57b930fd365b6fc3bd1b053d782583d6444",
-    "subject": "fixup! Editorial: Make the shared similarities of private elements more clear"
-   },
-   {
-    "adate": "2026-07-02T13:43:22-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-07-02T17:10:20-04:00",
-    "hash": "b109b57b930fd365b6fc3bd1b053d782583d6444",
-    "parents": "fad1353e674b7a3258e453aff81bbecbddf0edb3",
-    "subject": "Editorial: Make the shared similarities of private elements more clear"
+    "date": "2026-07-09T12:42:27-07:00",
+    "hash": "1fe0548d3113eaf19f8189da134ccae0ef9c3887",
+    "parents": "1355a23e48aaf2b1d7b6cbfad0fb98bce999cfd1",
+    "subject": "Editorial: Make the shared similarities of private elements more clear (#3899)"
    }
   ],
   "title": "Editorial: Make the shared similarities of private elements more clear",
-  "updated_at": "2026-07-03T01:32:10Z"
+  "updated_at": "2026-07-09T19:42:52Z"
  },
  {
   "base": "45a667175d5ac359968d8a2aa7eef62a65bb7988",
@@ -3274,26 +3274,6 @@
   ],
   "title": "Editorial: Minimize use of the term \"callable\"",
   "updated_at": "2026-07-04T12:58:59Z"
- },
- {
-  "base": "80af4819ffbc803a0e12db59de51527edd827c45",
-  "created_at": "2022-08-23T11:19:46Z",
-  "head": "1355a23e48aaf2b1d7b6cbfad0fb98bce999cfd1",
-  "login": "ikravets",
-  "number": 2869,
-  "ref": "define-thenable",
-  "revs": [
-   {
-    "adate": "2026-07-09T12:08:49-07:00",
-    "author": "Ilia Kravets",
-    "date": "2026-07-09T12:08:49-07:00",
-    "hash": "1355a23e48aaf2b1d7b6cbfad0fb98bce999cfd1",
-    "parents": "80af4819ffbc803a0e12db59de51527edd827c45",
-    "subject": "Editorial: define thenable (#2869)"
-   }
-  ],
-  "title": "Editorial: define thenable",
-  "updated_at": "2026-07-09T19:23:29Z"
  },
  {
   "base": "8aac12603c99f94d982317832b0e03c13684ce0a",
