@@ -1,6 +1,26 @@
 [
  {
   "base": "1355a23e48aaf2b1d7b6cbfad0fb98bce999cfd1",
+  "created_at": "2026-07-10T14:09:36Z",
+  "head": "88f277d10cc63fde0f83cb5a5094a77ca5a2a7f0",
+  "login": "linusg",
+  "number": 3907,
+  "ref": "isusingdecl",
+  "revs": [
+   {
+    "adate": "2026-07-10T15:07:58+01:00",
+    "author": "Linus Groh",
+    "date": "2026-07-10T15:07:58+01:00",
+    "hash": "88f277d10cc63fde0f83cb5a5094a77ca5a2a7f0",
+    "parents": "1355a23e48aaf2b1d7b6cbfad0fb98bce999cfd1",
+    "subject": "Editorial: Restrict IsUsingDeclaration to plain 'using'"
+   }
+  ],
+  "title": "Editorial: Restrict IsUsingDeclaration to plain 'using'",
+  "updated_at": "2026-07-10T14:28:41Z"
+ },
+ {
+  "base": "1355a23e48aaf2b1d7b6cbfad0fb98bce999cfd1",
   "created_at": "2026-07-10T00:05:29Z",
   "head": "b68d8310efa26c9e498aaa1cb75bc42cd6c7ce1e",
   "login": "rbuckton",
