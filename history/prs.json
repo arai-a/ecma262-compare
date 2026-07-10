@@ -248,9 +248,9 @@
   "updated_at": "2026-05-21T17:32:10Z"
  },
  {
-  "base": "0394941eca47b04f466cb85244ad7c9fb945bb5d",
+  "base": "1355a23e48aaf2b1d7b6cbfad0fb98bce999cfd1",
   "created_at": "2026-05-13T20:12:10Z",
-  "head": "cebc015659754a8b2b889c8f2aeb085bc12f5e53",
+  "head": "a6ee31eaae22a2eb0cba8125285063b18264e3d2",
   "login": "gibson042",
   "number": 3857,
   "ref": "gh-3856-expand-bigintable-strings",
@@ -258,14 +258,14 @@
    {
     "adate": "2026-05-13T16:10:38-04:00",
     "author": "Richard Gibson",
-    "date": "2026-05-13T16:10:41-04:00",
-    "hash": "cebc015659754a8b2b889c8f2aeb085bc12f5e53",
-    "parents": "0394941eca47b04f466cb85244ad7c9fb945bb5d",
+    "date": "2026-07-10T18:12:30-04:00",
+    "hash": "a6ee31eaae22a2eb0cba8125285063b18264e3d2",
+    "parents": "1355a23e48aaf2b1d7b6cbfad0fb98bce999cfd1",
     "subject": "Normative: Support BigInt coercion of integers expressed as strings in exponential notation"
    }
   ],
-  "title": "Normative: Support BigInt coercion of integers expressed as strings in exponential notation",
-  "updated_at": "2026-05-13T20:18:21Z"
+  "title": "Normative: Support BigInt coercion of integers expressed as exponential-notation strings",
+  "updated_at": "2026-07-10T22:12:41Z"
  },
  {
   "base": "6dcb70f914e67908abc548b3285dc0583a194910",
