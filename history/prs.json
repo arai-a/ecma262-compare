@@ -22,11 +22,19 @@
  {
   "base": "1355a23e48aaf2b1d7b6cbfad0fb98bce999cfd1",
   "created_at": "2026-07-13T22:59:48Z",
-  "head": "f9cecf19455ef89ed4f3266d4e2410258cda47b0",
+  "head": "669db139a5e76caa5dfeb13de0dcefbb0861c626",
   "login": "gibson042",
   "number": 3911,
   "ref": "gh-3840-finite-number",
   "revs": [
+   {
+    "adate": "2026-07-14T11:29:24-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-07-14T11:29:24-04:00",
+    "hash": "669db139a5e76caa5dfeb13de0dcefbb0861c626",
+    "parents": "f9cecf19455ef89ed4f3266d4e2410258cda47b0",
+    "subject": "fixup! Editorial: Replace Number-specific term \"finite\" with \"finite Number\""
+   },
    {
     "adate": "2026-07-13T18:51:20-04:00",
     "author": "Richard Gibson",
@@ -37,7 +45,7 @@
    }
   ],
   "title": "Editorial: Replace Number-specific term \"finite\" with \"finite Number\"",
-  "updated_at": "2026-07-13T23:44:20Z"
+  "updated_at": "2026-07-14T15:29:33Z"
  },
  {
   "base": "1355a23e48aaf2b1d7b6cbfad0fb98bce999cfd1",
