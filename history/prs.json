@@ -1,6 +1,42 @@
 [
  {
   "base": "1355a23e48aaf2b1d7b6cbfad0fb98bce999cfd1",
+  "created_at": "2026-07-16T22:50:44Z",
+  "head": "974e715f588b68470c44c1be868f7f0a5abc6b53",
+  "login": "gibson042",
+  "number": 3918,
+  "ref": "2026-07-islooselyequal-symmetry",
+  "revs": [
+   {
+    "adate": "2026-07-16T18:27:59-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-07-16T19:05:53-04:00",
+    "hash": "974e715f588b68470c44c1be868f7f0a5abc6b53",
+    "parents": "995df79198d3414b96ddcea76e1c19c33e1131bd",
+    "subject": "Editorial: Consolidate recursive cases in IsLooselyEqual"
+   },
+   {
+    "adate": "2026-07-16T18:27:59-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-07-16T19:04:33-04:00",
+    "hash": "995df79198d3414b96ddcea76e1c19c33e1131bd",
+    "parents": "0d53ff725c3d0a3bdc21d3b1fc21836e883dd302",
+    "subject": "Editorial: Refactor IsLooselyEqual for better symmetry"
+   },
+   {
+    "adate": "2026-07-16T18:27:59-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-07-16T18:27:59-04:00",
+    "hash": "0d53ff725c3d0a3bdc21d3b1fc21836e883dd302",
+    "parents": "1355a23e48aaf2b1d7b6cbfad0fb98bce999cfd1",
+    "subject": "Editorial: Split out an infallible ToBigIntOrUndefined from ToBigInt"
+   }
+  ],
+  "title": "Editorial: Refactor IsLooselyEqual for better symmetry",
+  "updated_at": "2026-07-16T23:33:15Z"
+ },
+ {
+  "base": "1355a23e48aaf2b1d7b6cbfad0fb98bce999cfd1",
   "created_at": "2026-07-16T21:42:36Z",
   "head": "e986ff439b3bdc360b55818a1ea31dc251c5ee3d",
   "login": "gibson042",
