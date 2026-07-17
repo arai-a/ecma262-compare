@@ -209,26 +209,6 @@
  },
  {
   "base": "1355a23e48aaf2b1d7b6cbfad0fb98bce999cfd1",
-  "created_at": "2026-07-10T14:09:36Z",
-  "head": "88f277d10cc63fde0f83cb5a5094a77ca5a2a7f0",
-  "login": "linusg",
-  "number": 3907,
-  "ref": "isusingdecl",
-  "revs": [
-   {
-    "adate": "2026-07-10T15:07:58+01:00",
-    "author": "Linus Groh",
-    "date": "2026-07-10T15:07:58+01:00",
-    "hash": "88f277d10cc63fde0f83cb5a5094a77ca5a2a7f0",
-    "parents": "1355a23e48aaf2b1d7b6cbfad0fb98bce999cfd1",
-    "subject": "Editorial: Restrict IsUsingDeclaration to plain 'using'"
-   }
-  ],
-  "title": "Editorial: Restrict IsUsingDeclaration to plain 'using'",
-  "updated_at": "2026-07-10T14:28:41Z"
- },
- {
-  "base": "1355a23e48aaf2b1d7b6cbfad0fb98bce999cfd1",
   "created_at": "2026-07-10T00:05:29Z",
   "head": "b68d8310efa26c9e498aaa1cb75bc42cd6c7ce1e",
   "login": "rbuckton",
@@ -246,98 +226,6 @@
   ],
   "title": "Normative: Add specification text for Stage 3 RegExp Buffer Boundaries",
   "updated_at": "2026-07-10T00:13:25Z"
- },
- {
-  "base": "1355a23e48aaf2b1d7b6cbfad0fb98bce999cfd1",
-  "created_at": "2026-07-07T20:27:40Z",
-  "head": "497db9a7469b2f3b1fd72354b494df58945c3f2d",
-  "login": "tc39",
-  "number": 3902,
-  "ref": "bump-ecmarkup-v24.2.0",
-  "revs": [
-   {
-    "adate": "2026-07-09T17:43:53-06:00",
-    "author": "Michael Ficarra",
-    "date": "2026-07-09T17:46:34-06:00",
-    "hash": "497db9a7469b2f3b1fd72354b494df58945c3f2d",
-    "parents": "18f78421e814e83a4487e0f8c96d6b5c57fc8417",
-    "subject": "ecmarkup version 24.2.1"
-   },
-   {
-    "adate": "2026-07-09T16:21:59-06:00",
-    "author": "Michael Ficarra",
-    "date": "2026-07-09T16:23:13-06:00",
-    "hash": "18f78421e814e83a4487e0f8c96d6b5c57fc8417",
-    "parents": "cad11ed288041a91dbf5c09047b6e45a9b67a735",
-    "subject": "simplify for-each-of heads"
-   },
-   {
-    "adate": "2026-07-09T16:09:47-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-07-09T16:23:13-06:00",
-    "hash": "cad11ed288041a91dbf5c09047b6e45a9b67a735",
-    "parents": "e1d0783f0428fd31777376cc2bc10b4fce67f6f2",
-    "subject": "Editorial: npm run format"
-   },
-   {
-    "adate": "2026-07-08T10:39:04-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-07-09T16:23:13-06:00",
-    "hash": "e1d0783f0428fd31777376cc2bc10b4fce67f6f2",
-    "parents": "8cc96c0741d8e673619a7c8753aae11d8dda3954",
-    "subject": "Editorial: Fix ecmarkup lint issues"
-   },
-   {
-    "adate": "2026-07-07T14:26:44-06:00",
-    "author": "Michael Ficarra",
-    "date": "2026-07-07T14:26:44-06:00",
-    "hash": "8cc96c0741d8e673619a7c8753aae11d8dda3954",
-    "parents": "974bbcfbb6c41102533c2aa5e4acfe67e4608634",
-    "subject": "Meta: bump ecmarkup to v24.2.0"
-   }
-  ],
-  "title": "Meta: bump ecmarkup to v24.2.1",
-  "updated_at": "2026-07-09T23:50:19Z"
- },
- {
-  "base": "974bbcfbb6c41102533c2aa5e4acfe67e4608634",
-  "created_at": "2026-07-03T12:54:42Z",
-  "head": "1fb836c69d9c770b4425981512bab9737e2558ab",
-  "login": "nicolo-ribaudo",
-  "number": 3901,
-  "ref": "IME-swap-or",
-  "revs": [
-   {
-    "adate": "2026-07-03T14:22:20+02:00",
-    "author": "Nicol\u00f2 Ribaudo",
-    "date": "2026-07-03T14:22:20+02:00",
-    "hash": "1fb836c69d9c770b4425981512bab9737e2558ab",
-    "parents": "974bbcfbb6c41102533c2aa5e4acfe67e4608634",
-    "subject": "Editorial: Swap order of OR conditions in InnerModuleEvaluation"
-   }
-  ],
-  "title": "Editorial: Swap order of OR conditions in InnerModuleEvaluation",
-  "updated_at": "2026-07-03T13:01:30Z"
- },
- {
-  "base": "1355a23e48aaf2b1d7b6cbfad0fb98bce999cfd1",
-  "created_at": "2026-07-02T17:46:49Z",
-  "head": "1fe0548d3113eaf19f8189da134ccae0ef9c3887",
-  "login": "gibson042",
-  "number": 3899,
-  "ref": "2026-07-private-element-property-analogies",
-  "revs": [
-   {
-    "adate": "2026-07-09T12:42:27-07:00",
-    "author": "Richard Gibson",
-    "date": "2026-07-09T12:42:27-07:00",
-    "hash": "1fe0548d3113eaf19f8189da134ccae0ef9c3887",
-    "parents": "1355a23e48aaf2b1d7b6cbfad0fb98bce999cfd1",
-    "subject": "Editorial: Make the shared similarities of private elements more clear (#3899)"
-   }
-  ],
-  "title": "Editorial: Make the shared similarities of private elements more clear",
-  "updated_at": "2026-07-09T19:42:52Z"
  },
  {
   "base": "1355a23e48aaf2b1d7b6cbfad0fb98bce999cfd1",
@@ -446,11 +334,19 @@
  {
   "base": "1355a23e48aaf2b1d7b6cbfad0fb98bce999cfd1",
   "created_at": "2026-05-19T12:27:43Z",
-  "head": "370dcee3b2b5ee0f588969e0211141f3e00eb8e0",
+  "head": "e2ed6c1da78a2ecf04557bc3710d5db218e2fe3b",
   "login": "gibson042",
   "number": 3874,
   "ref": "gh-3851-semi-consistent-accessor-tostring-prefixing",
   "revs": [
+   {
+    "adate": "2026-07-16T13:27:13-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-07-17T12:43:14-04:00",
+    "hash": "e2ed6c1da78a2ecf04557bc3710d5db218e2fe3b",
+    "parents": "370dcee3b2b5ee0f588969e0211141f3e00eb8e0",
+    "subject": "Editorial: Reword the SetFunctionName note discouraging [[InitialName]] inconsistency"
+   },
    {
     "adate": "2026-07-16T13:27:13-04:00",
     "author": "Richard Gibson",
@@ -469,7 +365,7 @@
    }
   ],
   "title": "Editorial: Encourage internal consistency w.r.t. prefixing {get,set} in SetFunctionName",
-  "updated_at": "2026-07-16T17:27:23Z"
+  "updated_at": "2026-07-17T16:46:26Z"
  },
  {
   "base": "1355a23e48aaf2b1d7b6cbfad0fb98bce999cfd1",
