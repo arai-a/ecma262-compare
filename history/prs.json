@@ -1,5 +1,25 @@
 [
  {
+  "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
+  "created_at": "2026-07-23T21:34:43Z",
+  "head": "208d8f9b387b7c841789f18dd3c84f10d39ac056",
+  "login": "bakkot",
+  "number": 3921,
+  "ref": "assert-not-object-private-name",
+  "revs": [
+   {
+    "adate": "2026-07-23T14:23:50-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2026-07-23T14:23:50-07:00",
+    "hash": "208d8f9b387b7c841789f18dd3c84f10d39ac056",
+    "parents": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
+    "subject": "Editorial: assert that MethodDefinitionEvaluation on object properties does not produce a PrivateElement"
+   }
+  ],
+  "title": "Editorial: assert that MethodDefinitionEvaluation on object properties does not produce a PrivateElement",
+  "updated_at": "2026-07-23T21:41:42Z"
+ },
+ {
   "base": "1355a23e48aaf2b1d7b6cbfad0fb98bce999cfd1",
   "created_at": "2026-07-16T22:50:44Z",
   "head": "974e715f588b68470c44c1be868f7f0a5abc6b53",
