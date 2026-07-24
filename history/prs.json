@@ -1,6 +1,26 @@
 [
  {
   "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
+  "created_at": "2026-07-24T17:43:55Z",
+  "head": "97a59aadfce91c7f332f41e4a5d03600b242b890",
+  "login": "tc39",
+  "number": 3925,
+  "ref": "awaitdict",
+  "revs": [
+   {
+    "adate": "2026-07-24T12:34:26-05:00",
+    "author": "ctcpip",
+    "date": "2026-07-24T12:52:13-05:00",
+    "hash": "97a59aadfce91c7f332f41e4a5d03600b242b890",
+    "parents": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
+    "subject": "\u2728 Normative: add await dictionary"
+   }
+  ],
+  "title": "\u2728 Normative: add await dictionary",
+  "updated_at": "2026-07-24T18:10:08Z"
+ },
+ {
+  "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
   "created_at": "2026-07-24T13:22:35Z",
   "head": "93262cd78ab302139bc63d4ad81468c1372fc964",
   "login": "nicolo-ribaudo",
@@ -2404,9 +2424,9 @@
   "updated_at": "2023-11-18T19:49:39Z"
  },
  {
-  "base": "82c99bbc44e4b63e3a14ffbf0ac90ce8359c1010",
+  "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
   "created_at": "2023-11-12T19:13:02Z",
-  "head": "0cac2b90c9c811dc7813426c3e16b274636ec3a4",
+  "head": "f61a8db5c893dea4c19a7b8c8258f1b4a34c606c",
   "login": "gibson042",
   "number": 3220,
   "ref": "2023-11-simplify-templateliteral",
@@ -2414,22 +2434,30 @@
    {
     "adate": "2023-11-12T14:06:37-05:00",
     "author": "Richard Gibson",
-    "date": "2023-11-12T14:06:37-05:00",
-    "hash": "0cac2b90c9c811dc7813426c3e16b274636ec3a4",
-    "parents": "faea11c3594c55593978bc7045add93c1d89a9d9",
+    "date": "2026-07-24T13:05:48-04:00",
+    "hash": "f61a8db5c893dea4c19a7b8c8258f1b4a34c606c",
+    "parents": "0f05ad9845957632d4f5ed9f12facc963c8f2bcf",
+    "subject": "Editorial: Remove the boolean trap from {TemplateStrings,TemplateString} parameters"
+   },
+   {
+    "adate": "2023-11-12T14:06:37-05:00",
+    "author": "Richard Gibson",
+    "date": "2026-07-24T12:48:58-04:00",
+    "hash": "0f05ad9845957632d4f5ed9f12facc963c8f2bcf",
+    "parents": "29c764cef5077018315d2ed48982ac65751d2b8e",
     "subject": "Editorial: Remove the unnecessary \"Tagged\" parameter from TemplateLiteral sub-nonterminals"
    },
    {
     "adate": "2023-11-12T14:02:26-05:00",
     "author": "Richard Gibson",
-    "date": "2023-11-12T14:02:26-05:00",
-    "hash": "faea11c3594c55593978bc7045add93c1d89a9d9",
-    "parents": "82c99bbc44e4b63e3a14ffbf0ac90ce8359c1010",
+    "date": "2026-07-24T12:48:26-04:00",
+    "hash": "29c764cef5077018315d2ed48982ac65751d2b8e",
+    "parents": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
     "subject": "Editorial: Define template literal bad-escape syntax errors at the top level"
    }
   ],
   "title": "Editorial: Define template literal bad-escape syntax errors at top level",
-  "updated_at": "2023-11-12T19:13:02Z"
+  "updated_at": "2026-07-24T17:19:41Z"
  },
  {
   "base": "8c0c94eb3be152b7ae7dc0cb580f4ee9f0a9a0c2",
