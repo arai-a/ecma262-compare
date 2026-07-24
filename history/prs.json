@@ -1,6 +1,26 @@
 [
  {
   "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
+  "created_at": "2026-07-24T13:22:35Z",
+  "head": "93262cd78ab302139bc63d4ad81468c1372fc964",
+  "login": "nicolo-ribaudo",
+  "number": 3923,
+  "ref": "isnotear-order-check",
+  "revs": [
+   {
+    "adate": "2026-07-24T15:21:38+02:00",
+    "author": "Nicol\u00f2 Ribaudo",
+    "date": "2026-07-24T15:21:38+02:00",
+    "hash": "93262cd78ab302139bc63d4ad81468c1372fc964",
+    "parents": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
+    "subject": "Editorial: Replace negative check with simpler positive one"
+   }
+  ],
+  "title": "Editorial: Replace negative check with simpler positive one",
+  "updated_at": "2026-07-24T13:29:23Z"
+ },
+ {
+  "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
   "created_at": "2026-07-24T02:58:15Z",
   "head": "099db4044e07632fbfcc1c1cbd305bd4d9132e21",
   "login": "bakkot",
@@ -2056,26 +2076,6 @@
   "updated_at": "2024-07-15T10:13:31Z"
  },
  {
-  "base": "cbd470fdeab70aa7157360d7257c197a6d923155",
-  "created_at": "2024-07-11T01:06:59Z",
-  "head": "b6f03a834bb7bd3d29b93a50f0d6165741d10a10",
-  "login": "tc39",
-  "number": 3371,
-  "ref": "essential-internal-methods-signatures",
-  "revs": [
-   {
-    "adate": "2024-07-10T18:58:40-06:00",
-    "author": "Michael Ficarra",
-    "date": "2024-10-29T06:15:40-06:00",
-    "hash": "b6f03a834bb7bd3d29b93a50f0d6165741d10a10",
-    "parents": "cbd470fdeab70aa7157360d7257c197a6d923155",
-    "subject": "Editorial: use conventional notation for referring to types in Table 4"
-   }
-  ],
-  "title": "Editorial: use conventional notation for referring to types in Tables 4 and 5",
-  "updated_at": "2024-10-29T12:15:41Z"
- },
- {
   "base": "4e32b345d044e3b6a4a737ef9c4396942e2597e7",
   "created_at": "2024-06-26T16:43:52Z",
   "head": "5484a5b7b976a6719434734622cbb2f3ef9dcc1a",
@@ -3594,26 +3594,6 @@
   ],
   "title": "Editorial: Fix ambiguities and type mismatches in Function.prototype.toString",
   "updated_at": "2023-02-13T19:31:19Z"
- },
- {
-  "base": "358fcc9e5d3dfec3368a29d883f7849a4f6ae4b6",
-  "created_at": "2022-07-13T12:40:36Z",
-  "head": "9919a803cec1a3bfbf5ff5b96f85b9648d66523e",
-  "login": "codehag",
-  "number": 2824,
-  "ref": "main",
-  "revs": [
-   {
-    "adate": "2022-07-13T14:38:34+02:00",
-    "author": "Yulia Startsev",
-    "date": "2022-07-13T14:38:34+02:00",
-    "hash": "9919a803cec1a3bfbf5ff5b96f85b9648d66523e",
-    "parents": "358fcc9e5d3dfec3368a29d883f7849a4f6ae4b6",
-    "subject": "Editorial: Remove incorrect setting of the AsyncEvaluation state to false"
-   }
-  ],
-  "title": "Editorial: Remove incorrect setting of the AsyncEvaluation state to false",
-  "updated_at": "2022-07-13T12:40:36Z"
  },
  {
   "base": "f0e4ae8d31afbad55f03d423c200d7d7467ca49a",
