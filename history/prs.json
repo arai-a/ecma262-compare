@@ -1,6 +1,26 @@
 [
  {
   "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
+  "created_at": "2026-07-24T20:17:58Z",
+  "head": "20b08f54d86fee8bc469a7f9f2a63646049d44c6",
+  "login": "gibson042",
+  "number": 3926,
+  "ref": "gh-3924-revalidateatomicaccess",
+  "revs": [
+   {
+    "adate": "2026-07-24T16:15:26-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-07-24T16:15:26-04:00",
+    "hash": "20b08f54d86fee8bc469a7f9f2a63646049d44c6",
+    "parents": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
+    "subject": "Normative: Update RevalidateAtomicAccess to account for all bytes of a TypedArray element"
+   }
+  ],
+  "title": "Normative: Update RevalidateAtomicAccess to account for all bytes of a TypedArray element",
+  "updated_at": "2026-07-24T20:29:56Z"
+ },
+ {
+  "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
   "created_at": "2026-07-24T17:43:55Z",
   "head": "c2392f283ccc8696d270e83a0777e3b792527a0c",
   "login": "tc39",
@@ -1432,9 +1452,9 @@
   "updated_at": "2026-01-14T18:12:48Z"
  },
  {
-  "base": "60c4df0b65e1c2e6b6581a5bc08a9311223be1da",
+  "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
   "created_at": "2025-07-01T15:28:10Z",
-  "head": "d0d6520e4da9aa73a0aae5e4553567ea1bee0a84",
+  "head": "b8d22d36cbb068a3ab778cf474ee8498139c5301",
   "login": "gibson042",
   "number": 3634,
   "ref": "3629-use-validatetypedarray",
@@ -1442,30 +1462,30 @@
    {
     "adate": "2025-06-02T12:29:58-04:00",
     "author": "Richard Gibson",
-    "date": "2025-07-01T11:23:14-04:00",
-    "hash": "d0d6520e4da9aa73a0aae5e4553567ea1bee0a84",
-    "parents": "f13976d6920e4f338715301d23d277f06b49a0be",
+    "date": "2026-07-24T17:44:28-04:00",
+    "hash": "b8d22d36cbb068a3ab778cf474ee8498139c5301",
+    "parents": "619b4028cb5d378514a683c800cd1a4cd2cc4145",
     "subject": "Editorial: Clarify IsNoTearConfiguration for bigint types (requires order SEQ-CST)"
    },
    {
     "adate": "2025-06-02T12:32:29-04:00",
     "author": "Richard Gibson",
-    "date": "2025-07-01T11:23:03-04:00",
-    "hash": "f13976d6920e4f338715301d23d277f06b49a0be",
-    "parents": "3b5e589ad8849f48819eff554886f35d5b00851c",
+    "date": "2026-07-24T17:44:28-04:00",
+    "hash": "619b4028cb5d378514a683c800cd1a4cd2cc4145",
+    "parents": "9d7302d66398af40944bb742146a927e2b1d866e",
     "subject": "Editorial: Refactor ValidateIntegerTypedArray on top of IsNoTearConfiguration"
    },
    {
     "adate": "2025-06-03T11:42:15-04:00",
     "author": "Richard Gibson",
-    "date": "2025-07-01T11:22:53-04:00",
-    "hash": "3b5e589ad8849f48819eff554886f35d5b00851c",
-    "parents": "60c4df0b65e1c2e6b6581a5bc08a9311223be1da",
-    "subject": "Editorial: Make better use of ValidateTypedArray"
+    "date": "2026-07-24T17:44:28-04:00",
+    "hash": "9d7302d66398af40944bb742146a927e2b1d866e",
+    "parents": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
+    "subject": "Editorial: Make a dedicated operation for validating TypedArray bounds into a witness Record"
    }
   ],
-  "title": "Editorial: Make better use of ValidateTypedArray",
-  "updated_at": "2025-07-01T15:28:19Z"
+  "title": "Editorial: Make a dedicated operation for validating TypedArray bounds",
+  "updated_at": "2026-07-24T21:55:20Z"
  },
  {
   "base": "60c4df0b65e1c2e6b6581a5bc08a9311223be1da",
