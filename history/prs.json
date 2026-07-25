@@ -302,11 +302,19 @@
  {
   "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
   "created_at": "2026-07-14T03:02:13Z",
-  "head": "777ccc8f2f25a4cb2612382f9249213d696c3057",
+  "head": "96fccf81c94a724bec093314706022eb26e16add",
   "login": "bakkot",
   "number": 3912,
   "ref": "linking-internal-methods",
   "revs": [
+   {
+    "adate": "2026-07-24T18:10:21-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2026-07-24T18:10:21-07:00",
+    "hash": "96fccf81c94a724bec093314706022eb26e16add",
+    "parents": "777ccc8f2f25a4cb2612382f9249213d696c3057",
+    "subject": "more fix"
+   },
    {
     "adate": "2026-07-23T12:43:22-07:00",
     "author": "Kevin Gibbons",
@@ -341,7 +349,7 @@
    }
   ],
   "title": "Editorial: improve linking of essential internal methods",
-  "updated_at": "2026-07-23T19:43:26Z"
+  "updated_at": "2026-07-25T01:10:28Z"
  },
  {
   "base": "1355a23e48aaf2b1d7b6cbfad0fb98bce999cfd1",
@@ -1534,11 +1542,19 @@
  {
   "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
   "created_at": "2025-07-01T15:28:10Z",
-  "head": "b8d22d36cbb068a3ab778cf474ee8498139c5301",
+  "head": "2c5e0d658868cf0bc335e7614849b2afd644d512",
   "login": "gibson042",
   "number": 3634,
   "ref": "3629-use-validatetypedarray",
   "revs": [
+   {
+    "adate": "2026-07-24T20:19:46-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-07-24T20:19:46-04:00",
+    "hash": "2c5e0d658868cf0bc335e7614849b2afd644d512",
+    "parents": "b8d22d36cbb068a3ab778cf474ee8498139c5301",
+    "subject": "fixup! Editorial: Make a dedicated operation for validating TypedArray bounds into a witness Record"
+   },
    {
     "adate": "2025-06-02T12:29:58-04:00",
     "author": "Richard Gibson",
@@ -1565,7 +1581,7 @@
    }
   ],
   "title": "Editorial: Make a dedicated operation for validating TypedArray bounds",
-  "updated_at": "2026-07-24T21:55:20Z"
+  "updated_at": "2026-07-25T00:19:54Z"
  },
  {
   "base": "60c4df0b65e1c2e6b6581a5bc08a9311223be1da",
