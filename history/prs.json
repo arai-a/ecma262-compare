@@ -3568,64 +3568,72 @@
   "updated_at": "2023-02-13T17:15:08Z"
  },
  {
-  "base": "8aac12603c99f94d982317832b0e03c13684ce0a",
+  "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
   "created_at": "2022-09-27T20:40:10Z",
-  "head": "09ece783f357c80cad281f7154d32f25caeeecc3",
+  "head": "2ce7f2d803e252f0b047851160c5f025681e51b2",
   "login": "gibson042",
   "number": 2917,
   "ref": "2022-09-more-clamping",
   "revs": [
    {
+    "adate": "2026-07-26T17:09:48-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-07-26T17:40:47-04:00",
+    "hash": "2ce7f2d803e252f0b047851160c5f025681e51b2",
+    "parents": "d2e6f13572bd096132a5beed09e6ea11f00b6394",
+    "subject": "Editorial: Refactor %TypedArray%.prototype.subarray to highlight TypedArraySpeciesCreate argument count variance"
+   },
+   {
     "adate": "2022-10-11T12:27:25-04:00",
     "author": "Richard Gibson",
-    "date": "2023-02-13T14:06:05-05:00",
-    "hash": "09ece783f357c80cad281f7154d32f25caeeecc3",
-    "parents": "5f6d93f8e454181199040aa299f49cdc8d410ae0",
+    "date": "2026-07-26T17:40:47-04:00",
+    "hash": "d2e6f13572bd096132a5beed09e6ea11f00b6394",
+    "parents": "447572ed1c8b5183617a63c090a677f93fe63fb9",
     "subject": "Editorial: Simplify ToClampedIndex"
    },
    {
     "adate": "2022-10-11T11:20:54-04:00",
     "author": "Richard Gibson",
-    "date": "2023-02-13T14:04:11-05:00",
-    "hash": "5f6d93f8e454181199040aa299f49cdc8d410ae0",
-    "parents": "29ce726def1fc0f84d421b52bb597a85cecb1f6e",
+    "date": "2026-07-26T17:29:27-04:00",
+    "hash": "447572ed1c8b5183617a63c090a677f93fe63fb9",
+    "parents": "41e0b328d6c053a1a11205f7b4273a57e2f73190",
     "subject": "Editorial: Introduce ToAbsoluteIndex for `at` methods"
    },
    {
     "adate": "2022-10-11T10:54:51-04:00",
     "author": "Richard Gibson",
-    "date": "2023-02-13T14:01:00-05:00",
-    "hash": "29ce726def1fc0f84d421b52bb597a85cecb1f6e",
-    "parents": "3376e5756f82d68c2724d040f397307766fedb07",
+    "date": "2026-07-26T17:29:27-04:00",
+    "hash": "41e0b328d6c053a1a11205f7b4273a57e2f73190",
+    "parents": "1ff9fe5d3a6f4578af05d83e4815e420c9789fff",
     "subject": "Editorial: Revert refactoring of F.p.bind steps"
    },
    {
     "adate": "2022-09-27T20:22:59-04:00",
     "author": "Richard Gibson",
-    "date": "2023-02-13T13:59:25-05:00",
-    "hash": "3376e5756f82d68c2724d040f397307766fedb07",
-    "parents": "5163d5590e024108b0df0ecc5b4ee725cd306dd3",
+    "date": "2026-07-26T17:29:27-04:00",
+    "hash": "1ff9fe5d3a6f4578af05d83e4815e420c9789fff",
+    "parents": "42d84f2fce116194d83441a4fc4fa6c7ac689b96",
     "subject": "Editorial: Accept suggestions"
    },
    {
     "adate": "2022-09-27T16:00:13-04:00",
     "author": "Richard Gibson",
-    "date": "2023-02-13T13:59:25-05:00",
-    "hash": "5163d5590e024108b0df0ecc5b4ee725cd306dd3",
-    "parents": "0e30ea95c076c0dcf105fbf0ec1028bb1772049b",
+    "date": "2026-07-26T17:29:27-04:00",
+    "hash": "42d84f2fce116194d83441a4fc4fa6c7ac689b96",
+    "parents": "26953a4043183bc58de19d73b5e450af3a4b9e56",
     "subject": "Editorial: Introduce ToClampedIndex for relative-to-start-or-end index values"
    },
    {
     "adate": "2022-09-26T21:47:01-04:00",
     "author": "Richard Gibson",
-    "date": "2023-02-13T13:40:37-05:00",
-    "hash": "0e30ea95c076c0dcf105fbf0ec1028bb1772049b",
-    "parents": "8aac12603c99f94d982317832b0e03c13684ce0a",
+    "date": "2026-07-26T15:18:54-04:00",
+    "hash": "26953a4043183bc58de19d73b5e450af3a4b9e56",
+    "parents": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
     "subject": "Editorial: Make better use of clamping without introducing temporary aliases"
    }
   ],
   "title": "Editorial: Make better use of clamping",
-  "updated_at": "2023-02-13T19:08:39Z"
+  "updated_at": "2026-07-26T21:42:27Z"
  },
  {
   "base": "974bbcfbb6c41102533c2aa5e4acfe67e4608634",
