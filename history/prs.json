@@ -42,11 +42,19 @@
  {
   "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
   "created_at": "2026-07-24T22:36:48Z",
-  "head": "20c8ffb89080779fed1e477545a9948f258885b1",
+  "head": "a948e3a91e8d2b938b26c47ef619c37dc6c94bc1",
   "login": "ptomato",
   "number": 3929,
   "ref": "use-time-constants",
   "revs": [
+   {
+    "adate": "2026-07-27T12:39:53-07:00",
+    "author": "Philip Chimento",
+    "date": "2026-07-27T12:39:53-07:00",
+    "hash": "a948e3a91e8d2b938b26c47ef619c37dc6c94bc1",
+    "parents": "20c8ffb89080779fed1e477545a9948f258885b1",
+    "subject": "fixup! Editorial: Use named time constants"
+   },
    {
     "adate": "2026-07-24T15:36:04-07:00",
     "author": "Philip Chimento",
@@ -57,7 +65,7 @@
    }
   ],
   "title": "Editorial: Use named time constants",
-  "updated_at": "2026-07-24T22:36:48Z"
+  "updated_at": "2026-07-27T20:35:03Z"
  },
  {
   "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
