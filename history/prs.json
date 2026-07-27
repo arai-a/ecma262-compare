@@ -3570,11 +3570,35 @@
  {
   "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
   "created_at": "2022-09-27T20:40:10Z",
-  "head": "437da7ce4d935c15e01f36c50e29c15548b127dd",
+  "head": "256fd36d03c72d9b42e199d6954701a6d5c93bab",
   "login": "gibson042",
   "number": 2917,
   "ref": "2022-09-more-clamping",
   "revs": [
+   {
+    "adate": "2026-07-27T12:01:39-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-07-27T12:01:39-04:00",
+    "hash": "256fd36d03c72d9b42e199d6954701a6d5c93bab",
+    "parents": "1c11818a3082e599133f4e0bf7f19820e1227df7",
+    "subject": "fixup! Editorial: Revert refactoring of F.p.bind steps"
+   },
+   {
+    "adate": "2026-07-27T12:00:42-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-07-27T12:00:42-04:00",
+    "hash": "1c11818a3082e599133f4e0bf7f19820e1227df7",
+    "parents": "3491aeabca32f97da72fc4dd99820a694065e5f8",
+    "subject": "fixup! Editorial: Introduce ToAbsoluteIndex for `at` methods"
+   },
+   {
+    "adate": "2026-07-27T11:59:05-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-07-27T11:59:05-04:00",
+    "hash": "3491aeabca32f97da72fc4dd99820a694065e5f8",
+    "parents": "437da7ce4d935c15e01f36c50e29c15548b127dd",
+    "subject": "fixup! Editorial: Introduce ToClampedIndex for relative-to-start-or-end index values"
+   },
    {
     "adate": "2026-07-26T18:07:29-04:00",
     "author": "Richard Gibson",
@@ -3641,7 +3665,7 @@
    }
   ],
   "title": "Editorial: Make better use of clamping",
-  "updated_at": "2026-07-26T22:09:24Z"
+  "updated_at": "2026-07-27T16:04:33Z"
  },
  {
   "base": "974bbcfbb6c41102533c2aa5e4acfe67e4608634",
