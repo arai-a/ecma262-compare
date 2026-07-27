@@ -3578,11 +3578,35 @@
  {
   "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
   "created_at": "2022-09-27T20:40:10Z",
-  "head": "256fd36d03c72d9b42e199d6954701a6d5c93bab",
+  "head": "b3f70808ec258a51e8052a8b0e3b217ec51b8aa9",
   "login": "gibson042",
   "number": 2917,
   "ref": "2022-09-more-clamping",
   "revs": [
+   {
+    "adate": "2026-07-27T18:37:51-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-07-27T18:45:46-04:00",
+    "hash": "b3f70808ec258a51e8052a8b0e3b217ec51b8aa9",
+    "parents": "3efd00ba20168ae7b593497926af61cec7a2370c",
+    "subject": "fixup! Editorial: Use ToAbsoluteIndex/ToClampedIndex in more recent methods"
+   },
+   {
+    "adate": "2026-07-27T18:31:42-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-07-27T18:31:42-04:00",
+    "hash": "3efd00ba20168ae7b593497926af61cec7a2370c",
+    "parents": "1f21146b567e3427a2aaa720eea5794b53922bbc",
+    "subject": "Editorial: Use ToAbsoluteIndex/ToClampedIndex in more recent methods"
+   },
+   {
+    "adate": "2026-07-27T12:58:02-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-07-27T12:58:02-04:00",
+    "hash": "1f21146b567e3427a2aaa720eea5794b53922bbc",
+    "parents": "256fd36d03c72d9b42e199d6954701a6d5c93bab",
+    "subject": "Editorial: Use ToClampedIndex in {Array,TypedArray} {includes,indexOf} methods"
+   },
    {
     "adate": "2026-07-27T12:01:39-04:00",
     "author": "Richard Gibson",
@@ -3673,7 +3697,7 @@
    }
   ],
   "title": "Editorial: Make better use of clamping",
-  "updated_at": "2026-07-27T16:04:33Z"
+  "updated_at": "2026-07-27T22:45:54Z"
  },
  {
   "base": "974bbcfbb6c41102533c2aa5e4acfe67e4608634",
