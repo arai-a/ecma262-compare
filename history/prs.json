@@ -1,6 +1,58 @@
 [
  {
   "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
+  "created_at": "2026-07-28T20:16:28Z",
+  "head": "25fde966790915dde4cfd05f3ab744c8f4b5e1fe",
+  "login": "peetklecha",
+  "number": 3933,
+  "ref": "decouple-json-from-evaluation",
+  "revs": [
+   {
+    "adate": "2026-07-28T16:30:01-04:00",
+    "author": "pklecha1",
+    "date": "2026-07-28T16:30:01-04:00",
+    "hash": "25fde966790915dde4cfd05f3ab744c8f4b5e1fe",
+    "parents": "57a5ad6895ddbfef8d27eb33644b26eba6623b43",
+    "subject": "add ShallowestContainedJSONValue call to ParseJSON"
+   },
+   {
+    "adate": "2026-07-28T16:26:17-04:00",
+    "author": "pklecha1",
+    "date": "2026-07-28T16:26:17-04:00",
+    "hash": "57a5ad6895ddbfef8d27eb33644b26eba6623b43",
+    "parents": "ac886c105a12aecaabfcda089c181b14aaf9bb1e",
+    "subject": "cleanup"
+   },
+   {
+    "adate": "2026-07-28T16:20:24-04:00",
+    "author": "pklecha1",
+    "date": "2026-07-28T16:21:45-04:00",
+    "hash": "ac886c105a12aecaabfcda089c181b14aaf9bb1e",
+    "parents": "01be70a1525de5b09fc0e502ac2fcfdbe47b60f3",
+    "subject": "cleanup"
+   },
+   {
+    "adate": "2026-07-28T16:14:45-04:00",
+    "author": "Peet Klecha",
+    "date": "2026-07-28T16:14:45-04:00",
+    "hash": "01be70a1525de5b09fc0e502ac2fcfdbe47b60f3",
+    "parents": "b4a8c4acabde177c0871752fbbebe1e6e898b0a1",
+    "subject": "cleanup"
+   },
+   {
+    "adate": "2026-07-28T15:41:11-04:00",
+    "author": "pklecha1",
+    "date": "2026-07-28T15:41:11-04:00",
+    "hash": "b4a8c4acabde177c0871752fbbebe1e6e898b0a1",
+    "parents": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
+    "subject": "Editorial: decouple JSON.parse from Evaluation"
+   }
+  ],
+  "title": "Editorial: decouple JSON.parse from ES evaluation semantics",
+  "updated_at": "2026-07-28T20:45:35Z"
+ },
+ {
+  "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
   "created_at": "2026-07-28T14:26:22Z",
   "head": "b280418ca8126f810bfab02c707ea2a2b0f226e9",
   "login": "gibson042",
