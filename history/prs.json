@@ -54,11 +54,27 @@
  {
   "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
   "created_at": "2026-07-28T14:26:22Z",
-  "head": "b280418ca8126f810bfab02c707ea2a2b0f226e9",
+  "head": "1ba00ca680b5d2a9a50a05a2be60860c2fea22d2",
   "login": "gibson042",
   "number": 3932,
   "ref": "2026-07-lint-annex-b",
   "revs": [
+   {
+    "adate": "2026-07-28T10:25:48-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-07-28T22:35:39-04:00",
+    "hash": "1ba00ca680b5d2a9a50a05a2be60860c2fea22d2",
+    "parents": "4b4baf6061514323f173295199dd910ec99cec61",
+    "subject": "Editorial: Use INS tags to highlight Annex B ParsePattern modifications"
+   },
+   {
+    "adate": "2026-07-28T10:25:48-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-07-28T22:35:39-04:00",
+    "hash": "4b4baf6061514323f173295199dd910ec99cec61",
+    "parents": "b280418ca8126f810bfab02c707ea2a2b0f226e9",
+    "subject": "Editorial: Try for more consistency in the Annex B SDO modifications"
+   },
    {
     "adate": "2026-07-28T10:25:48-04:00",
     "author": "Richard Gibson",
@@ -69,7 +85,7 @@
    }
   ],
   "title": "Editorial: Prepare Annex B for ecmarkup linting",
-  "updated_at": "2026-07-28T15:20:24Z"
+  "updated_at": "2026-07-29T02:36:46Z"
  },
  {
   "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
