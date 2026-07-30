@@ -2,11 +2,27 @@
  {
   "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
   "created_at": "2026-07-28T20:16:28Z",
-  "head": "cc8207a736376b2c8e03cbc22d200eafc4a255aa",
+  "head": "92a7f63952a1901a69c5935746d934634d212798",
   "login": "peetklecha",
   "number": 3933,
   "ref": "decouple-json-from-evaluation",
   "revs": [
+   {
+    "adate": "2026-07-29T22:31:01-04:00",
+    "author": "Peet Klecha",
+    "date": "2026-07-29T22:31:01-04:00",
+    "hash": "92a7f63952a1901a69c5935746d934634d212798",
+    "parents": "139c215db08d02c5b91540b67b0aca7d5b31c93f",
+    "subject": "fmt"
+   },
+   {
+    "adate": "2026-07-29T22:29:33-04:00",
+    "author": "Peet Klecha",
+    "date": "2026-07-29T22:29:33-04:00",
+    "hash": "139c215db08d02c5b91540b67b0aca7d5b31c93f",
+    "parents": "cc8207a736376b2c8e03cbc22d200eafc4a255aa",
+    "subject": "import ecma-404, add prose"
+   },
    {
     "adate": "2026-07-29T21:05:00-04:00",
     "author": "Peet Klecha",
@@ -73,7 +89,7 @@
    }
   ],
   "title": "Editorial: decouple JSON.parse from ES evaluation semantics",
-  "updated_at": "2026-07-30T01:14:51Z"
+  "updated_at": "2026-07-30T04:39:45Z"
  },
  {
   "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
