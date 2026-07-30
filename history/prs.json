@@ -86,11 +86,19 @@
  {
   "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
   "created_at": "2026-07-28T20:16:28Z",
-  "head": "681e834ab92e5e27838b06c33ab63ca32ac98d2d",
+  "head": "35660bcc5ff6b24a5ffa0853bc7f76ad2199593c",
   "login": "peetklecha",
   "number": 3933,
   "ref": "decouple-json-from-evaluation",
   "revs": [
+   {
+    "adate": "2026-07-30T19:02:09-04:00",
+    "author": "Peet Klecha",
+    "date": "2026-07-30T19:02:09-04:00",
+    "hash": "35660bcc5ff6b24a5ffa0853bc7f76ad2199593c",
+    "parents": "681e834ab92e5e27838b06c33ab63ca32ac98d2d",
+    "subject": "lint/fmt"
+   },
    {
     "adate": "2026-07-30T10:22:06-04:00",
     "author": "pklecha1",
@@ -189,7 +197,7 @@
    }
   ],
   "title": "Editorial: decouple JSON.parse from ES evaluation semantics",
-  "updated_at": "2026-07-30T14:22:17Z"
+  "updated_at": "2026-07-30T23:04:05Z"
  },
  {
   "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
@@ -1806,11 +1814,35 @@
  {
   "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
   "created_at": "2025-07-01T15:28:10Z",
-  "head": "2c5e0d658868cf0bc335e7614849b2afd644d512",
+  "head": "2e447ca0c0602969b20510d5bc2dbc19179a4263",
   "login": "gibson042",
   "number": 3634,
   "ref": "3629-use-validatetypedarray",
   "revs": [
+   {
+    "adate": "2026-07-30T18:34:40-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-07-30T18:34:40-04:00",
+    "hash": "2e447ca0c0602969b20510d5bc2dbc19179a4263",
+    "parents": "5e20678f54c28bb4308d9dabc803d3e3cd204b00",
+    "subject": "Editorial: Simplify coercion in DoWait"
+   },
+   {
+    "adate": "2026-07-30T18:31:05-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-07-30T18:31:05-04:00",
+    "hash": "5e20678f54c28bb4308d9dabc803d3e3cd204b00",
+    "parents": "743dbfa697cff1eb3e489d232b36a548a9de4136",
+    "subject": "Editorial: Use a more common alias name for the result of TypedArrayElementType in ValidateIntegerTypedArray"
+   },
+   {
+    "adate": "2026-07-30T18:29:51-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-07-30T18:29:51-04:00",
+    "hash": "743dbfa697cff1eb3e489d232b36a548a9de4136",
+    "parents": "2c5e0d658868cf0bc335e7614849b2afd644d512",
+    "subject": "Editorial: Add a description to ValidateIntegerTypedArray explaining its use of IsNoTearConfiguration"
+   },
    {
     "adate": "2026-07-24T20:19:46-04:00",
     "author": "Richard Gibson",
@@ -1845,7 +1877,7 @@
    }
   ],
   "title": "Editorial: Make a dedicated operation for validating TypedArray bounds",
-  "updated_at": "2026-07-25T00:19:54Z"
+  "updated_at": "2026-07-30T22:50:28Z"
  },
  {
   "base": "60c4df0b65e1c2e6b6581a5bc08a9311223be1da",
