@@ -2,11 +2,19 @@
  {
   "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
   "created_at": "2026-07-30T21:35:09Z",
-  "head": "a91e39835bd6329b272367d23489310b643a86cf",
+  "head": "efbe9e3623e978baaba0e605ec92a27ad9b65054",
   "login": "gibson042",
   "number": 3935,
   "ref": "2026-07-memory-model-links",
   "revs": [
+   {
+    "adate": "2026-07-31T12:11:38-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-07-31T12:11:38-04:00",
+    "hash": "efbe9e3623e978baaba0e605ec92a27ad9b65054",
+    "parents": "a91e39835bd6329b272367d23489310b643a86cf",
+    "subject": "fixup! Editorial: Simplify Tear Free Reads"
+   },
    {
     "adate": "2026-07-30T17:14:18-04:00",
     "author": "Richard Gibson",
@@ -81,7 +89,7 @@
    }
   ],
   "title": "Editorial: Improve Memory Model/SharedArrayBuffer auto-links",
-  "updated_at": "2026-07-30T21:45:00Z"
+  "updated_at": "2026-07-31T16:15:16Z"
  },
  {
   "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
@@ -454,11 +462,19 @@
  {
   "base": "1355a23e48aaf2b1d7b6cbfad0fb98bce999cfd1",
   "created_at": "2026-07-16T22:50:44Z",
-  "head": "974e715f588b68470c44c1be868f7f0a5abc6b53",
+  "head": "ef195a0973d6444a35ae119fbf9dba195ad7de1c",
   "login": "gibson042",
   "number": 3918,
   "ref": "2026-07-islooselyequal-symmetry",
   "revs": [
+   {
+    "adate": "2026-07-31T10:50:40-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-07-31T10:50:40-04:00",
+    "hash": "ef195a0973d6444a35ae119fbf9dba195ad7de1c",
+    "parents": "974e715f588b68470c44c1be868f7f0a5abc6b53",
+    "subject": "fixup! Editorial: Split out an infallible ToBigIntOrUndefined from ToBigInt"
+   },
    {
     "adate": "2026-07-16T18:27:59-04:00",
     "author": "Richard Gibson",
@@ -485,7 +501,7 @@
    }
   ],
   "title": "Editorial: Refactor IsLooselyEqual for better symmetry",
-  "updated_at": "2026-07-16T23:33:15Z"
+  "updated_at": "2026-07-31T15:31:39Z"
  },
  {
   "base": "1355a23e48aaf2b1d7b6cbfad0fb98bce999cfd1",
