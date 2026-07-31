@@ -94,11 +94,27 @@
  {
   "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
   "created_at": "2026-07-28T20:16:28Z",
-  "head": "35660bcc5ff6b24a5ffa0853bc7f76ad2199593c",
+  "head": "f7c194946890b6ef85c9dc3c204a48dcc421c8f1",
   "login": "peetklecha",
   "number": 3933,
   "ref": "decouple-json-from-evaluation",
   "revs": [
+   {
+    "adate": "2026-07-31T16:18:57-04:00",
+    "author": "Peet Klecha",
+    "date": "2026-07-31T16:18:57-04:00",
+    "hash": "f7c194946890b6ef85c9dc3c204a48dcc421c8f1",
+    "parents": "d88c8fce0f13436675f5ea5eab0a704494a0cdd8",
+    "subject": "cleanup"
+   },
+   {
+    "adate": "2026-07-31T16:15:19-04:00",
+    "author": "Peet Klecha",
+    "date": "2026-07-31T16:15:19-04:00",
+    "hash": "d88c8fce0f13436675f5ea5eab0a704494a0cdd8",
+    "parents": "35660bcc5ff6b24a5ffa0853bc7f76ad2199593c",
+    "subject": "address feedback"
+   },
    {
     "adate": "2026-07-30T19:02:09-04:00",
     "author": "Peet Klecha",
@@ -205,7 +221,7 @@
    }
   ],
   "title": "Editorial: decouple JSON.parse from ES evaluation semantics",
-  "updated_at": "2026-07-30T23:04:05Z"
+  "updated_at": "2026-07-31T20:19:01Z"
  },
  {
   "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
