@@ -3628,56 +3628,64 @@
   "updated_at": "2023-02-13T16:44:48Z"
  },
  {
-  "base": "8aac12603c99f94d982317832b0e03c13684ce0a",
+  "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
   "created_at": "2022-12-15T19:39:03Z",
-  "head": "93e2ad4ecfa343b20b076d343bfe91aa5af32838",
+  "head": "4eaa77fa1705baab509f991677dc8a16e999fc9d",
   "login": "gibson042",
   "number": 2975,
   "ref": "2022-12-describe-split",
   "revs": [
    {
+    "adate": "2026-08-02T13:05:05-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-08-02T13:05:05-04:00",
+    "hash": "4eaa77fa1705baab509f991677dc8a16e999fc9d",
+    "parents": "14c3ed656e5bfb539d8e11e25723687112d95018",
+    "subject": "Editorial: Treat absent vs. undefined _separator_ the same in the description for String split"
+   },
+   {
     "adate": "2023-01-03T12:52:06-05:00",
     "author": "Richard Gibson",
-    "date": "2023-02-13T11:57:14-05:00",
-    "hash": "93e2ad4ecfa343b20b076d343bfe91aa5af32838",
-    "parents": "72132562e0266c64eff6ec86a50c9d57b6a9a312",
+    "date": "2026-08-02T12:59:19-04:00",
+    "hash": "14c3ed656e5bfb539d8e11e25723687112d95018",
+    "parents": "53c68db8051266a20dbd64905de96e8b5d5cff50",
     "subject": "Editorial: Mention coercion of RegExp split limit arguments"
    },
    {
     "adate": "2023-01-03T12:49:52-05:00",
     "author": "Richard Gibson",
-    "date": "2023-02-13T11:57:14-05:00",
-    "hash": "72132562e0266c64eff6ec86a50c9d57b6a9a312",
-    "parents": "d2b9c8cf55522e26d0e7f8a78bbef7776155b1cc",
+    "date": "2026-08-02T12:57:48-04:00",
+    "hash": "53c68db8051266a20dbd64905de96e8b5d5cff50",
+    "parents": "0420d33afecd284a9e5bde9d47de7817c936f4f0",
     "subject": "Editorial: Mention coercion of String split limit arguments"
    },
    {
     "adate": "2022-12-15T14:35:49-05:00",
     "author": "Richard Gibson",
-    "date": "2023-02-13T11:49:58-05:00",
-    "hash": "d2b9c8cf55522e26d0e7f8a78bbef7776155b1cc",
-    "parents": "668bfe670193513c61a40a29e2888c1131449e28",
+    "date": "2026-08-02T12:55:54-04:00",
+    "hash": "0420d33afecd284a9e5bde9d47de7817c936f4f0",
+    "parents": "0b7f8eba37cd19f6e2f7e8e0a47873f0a3eb5051",
     "subject": "Editorial: Rename split parameter _limit_ to _substringLimit_ for clarity"
    },
    {
     "adate": "2022-12-15T14:31:26-05:00",
     "author": "Richard Gibson",
-    "date": "2023-02-13T11:45:36-05:00",
-    "hash": "668bfe670193513c61a40a29e2888c1131449e28",
-    "parents": "d6f3e47801222813802bb8274362fdad1f56777f",
+    "date": "2026-08-02T12:49:18-04:00",
+    "hash": "0b7f8eba37cd19f6e2f7e8e0a47873f0a3eb5051",
+    "parents": "4c7b90facb4fe23b1f53066ba6439f25453c340a",
     "subject": "Editorial: Eliminate horizontal scrolling in a code sample"
    },
    {
     "adate": "2022-12-15T14:31:05-05:00",
     "author": "Richard Gibson",
-    "date": "2023-02-13T11:45:36-05:00",
-    "hash": "d6f3e47801222813802bb8274362fdad1f56777f",
-    "parents": "8aac12603c99f94d982317832b0e03c13684ce0a",
+    "date": "2026-08-02T12:49:15-04:00",
+    "hash": "4c7b90facb4fe23b1f53066ba6439f25453c340a",
+    "parents": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
     "subject": "Editorial: Improve the explanation of split methods"
    }
   ],
   "title": "Editorial: Improve the explanation of split methods",
-  "updated_at": "2023-02-13T16:58:31Z"
+  "updated_at": "2026-08-02T17:12:21Z"
  },
  {
   "base": "45a667175d5ac359968d8a2aa7eef62a65bb7988",
