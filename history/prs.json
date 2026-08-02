@@ -2176,9 +2176,9 @@
   "updated_at": "2026-04-09T16:04:13Z"
  },
  {
-  "base": "c73a1ef89f63dfa7ef4c627b01799dab6f4c95d9",
+  "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
   "created_at": "2025-05-04T17:44:18Z",
-  "head": "ac18dd665739550c3b5d80f45cba0f3065cb0e2a",
+  "head": "0917adf1a03e36727c33ac225e9e54d719581c63",
   "login": "gibson042",
   "number": 3587,
   "ref": "gh-3586-unicodematchproperty",
@@ -2186,54 +2186,54 @@
    {
     "adate": "2025-05-08T13:39:59-04:00",
     "author": "Richard Gibson",
-    "date": "2026-04-18T14:30:18-04:00",
-    "hash": "ac18dd665739550c3b5d80f45cba0f3065cb0e2a",
-    "parents": "f290699eb13e147dbfefb8b702360f679dc8221a",
+    "date": "2026-08-02T16:14:04-04:00",
+    "hash": "0917adf1a03e36727c33ac225e9e54d719581c63",
+    "parents": "0fcf3574a201664c6698a10777674c180d2869ae",
     "subject": "Editorial: Add special cases for set-valued Unicode property Script_Extensions"
    },
    {
     "adate": "2025-05-08T09:32:52-04:00",
     "author": "Richard Gibson",
-    "date": "2026-04-18T14:30:18-04:00",
-    "hash": "f290699eb13e147dbfefb8b702360f679dc8221a",
-    "parents": "7544b88af3cf6fa13bcc27a77d17dea70a34d52e",
+    "date": "2026-08-02T16:09:31-04:00",
+    "hash": "0fcf3574a201664c6698a10777674c180d2869ae",
+    "parents": "d2b4bea235d4770b004129e3de46d8515ffc6872",
     "subject": "Editorial: Fix incorrect use of Unicode property Script_Extensions"
    },
    {
     "adate": "2025-05-05T15:26:23-06:00",
     "author": "Michael Ficarra",
-    "date": "2026-04-18T14:27:56-04:00",
-    "hash": "7544b88af3cf6fa13bcc27a77d17dea70a34d52e",
-    "parents": "fc2bae3a0d9bd97fe0f81ba574df040871f6744d",
+    "date": "2026-08-02T16:09:28-04:00",
+    "hash": "d2b4bea235d4770b004129e3de46d8515ffc6872",
+    "parents": "3d65354b0aae76c1121e552ee2ea471f13bb0448",
     "subject": "wording in UnicodeMatchProperty and UnicodeMatchPropertyValue"
    },
    {
     "adate": "2025-05-04T12:55:00-04:00",
     "author": "Richard Gibson",
-    "date": "2026-04-18T14:10:37-04:00",
-    "hash": "fc2bae3a0d9bd97fe0f81ba574df040871f6744d",
-    "parents": "8d721fcd7e302599ede3251bfafa2e93b144abd3",
+    "date": "2026-08-02T16:05:11-04:00",
+    "hash": "3d65354b0aae76c1121e552ee2ea471f13bb0448",
+    "parents": "15be3213262216aecf40b0f912961281f578cad6",
     "subject": "Editorial: Correct references to the structure of Unicode Character Databse file PropertyValueAliases.txt"
    },
    {
     "adate": "2025-05-04T12:53:24-04:00",
     "author": "Richard Gibson",
-    "date": "2026-04-18T14:10:33-04:00",
-    "hash": "8d721fcd7e302599ede3251bfafa2e93b144abd3",
-    "parents": "6b7609f63a35187714943b9789b597b4512ca54a",
+    "date": "2026-08-02T16:05:08-04:00",
+    "hash": "15be3213262216aecf40b0f912961281f578cad6",
+    "parents": "86ed0154393143e9dc524fc51f409e37178424f7",
     "subject": "Editorial: Narrow an assertion about the output from UnicodeMatchProperty"
    },
    {
     "adate": "2025-05-04T12:51:14-04:00",
     "author": "Richard Gibson",
-    "date": "2026-04-18T13:44:23-04:00",
-    "hash": "6b7609f63a35187714943b9789b597b4512ca54a",
-    "parents": "c73a1ef89f63dfa7ef4c627b01799dab6f4c95d9",
+    "date": "2026-08-02T16:01:04-04:00",
+    "hash": "86ed0154393143e9dc524fc51f409e37178424f7",
+    "parents": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
     "subject": "Editorial: Fix incorrect use of UnicodeMatchPropertyValue"
    }
   ],
   "title": "Editorial: Fix incorrect use of UnicodeMatchPropertyValue",
-  "updated_at": "2026-04-18T18:46:59Z"
+  "updated_at": "2026-08-02T20:14:15Z"
  },
  {
   "base": "f2bad0095a792587ab7a70c9f024612148e18bd1",
@@ -2472,9 +2472,9 @@
   "updated_at": "2024-10-23T15:23:17Z"
  },
  {
-  "base": "62bb5c575327996050ac9cd32124c8efde38f666",
+  "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
   "created_at": "2024-09-03T16:03:00Z",
-  "head": "21057df08ce4b02f14884725b50cc535792b3ace",
+  "head": "9b5cdea5cf437320fd9469c4daa7ed9a429410f4",
   "login": "gibson042",
   "number": 3412,
   "ref": "2024-09-regexp-canonicalize-alias-names",
@@ -2482,22 +2482,22 @@
    {
     "adate": "2024-09-03T11:54:58-04:00",
     "author": "Richard Gibson",
-    "date": "2024-09-04T13:56:55-04:00",
-    "hash": "21057df08ce4b02f14884725b50cc535792b3ace",
-    "parents": "3b6124171323c45f3701d326fbf8f0750f48f4ff",
+    "date": "2026-08-02T15:55:05-04:00",
+    "hash": "9b5cdea5cf437320fd9469c4daa7ed9a429410f4",
+    "parents": "533536e34845bfd92901d37a099642fd037861cf",
     "subject": "Editorial: Remove an alias from Canonicalize"
    },
    {
     "adate": "2024-09-03T11:23:32-04:00",
     "author": "Richard Gibson",
-    "date": "2024-09-03T11:52:32-04:00",
-    "hash": "3b6124171323c45f3701d326fbf8f0750f48f4ff",
-    "parents": "62bb5c575327996050ac9cd32124c8efde38f666",
+    "date": "2026-08-02T15:46:35-04:00",
+    "hash": "533536e34845bfd92901d37a099642fd037861cf",
+    "parents": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
     "subject": "Editorial: Rename aliases in Canonicalize for better readability"
    }
   ],
   "title": "Editorial: Rename aliases in Canonicalize for better readability",
-  "updated_at": "2024-09-04T17:57:19Z"
+  "updated_at": "2026-08-02T20:02:38Z"
  },
  {
   "base": "810a33f9130746f481746f7907a05cf83bca298e",
@@ -2820,52 +2820,40 @@
   "updated_at": "2024-01-31T17:05:37Z"
  },
  {
-  "base": "82c99bbc44e4b63e3a14ffbf0ac90ce8359c1010",
-  "created_at": "2023-11-18T19:56:53Z",
-  "head": "6521466579f154432e5496cdcc6ef0cda9d5fc11",
-  "login": "gibson042",
-  "number": 3224,
-  "ref": "2023-11-object-initializer-redundancy",
-  "revs": [
-   {
-    "adate": "2023-11-18T14:53:25-05:00",
-    "author": "Richard Gibson",
-    "date": "2023-11-18T14:54:27-05:00",
-    "hash": "6521466579f154432e5496cdcc6ef0cda9d5fc11",
-    "parents": "82c99bbc44e4b63e3a14ffbf0ac90ce8359c1010",
-    "subject": "Editorial: Remove redundant text in Object Initializer"
-   }
-  ],
-  "title": "Editorial: Remove redundant text in Object Initializer",
-  "updated_at": "2023-11-18T19:57:54Z"
- },
- {
-  "base": "82c99bbc44e4b63e3a14ffbf0ac90ce8359c1010",
+  "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
   "created_at": "2023-11-18T19:49:39Z",
-  "head": "b671b1b21d2ae60c25a007de025a4483b82beff6",
+  "head": "d6161e8eb93533e97a1cafb463b4a15e17983f33",
   "login": "gibson042",
   "number": 3223,
   "ref": "2023-11-cover-grammar-text",
   "revs": [
    {
+    "adate": "2026-08-02T15:38:18-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-08-02T15:38:18-04:00",
+    "hash": "d6161e8eb93533e97a1cafb463b4a15e17983f33",
+    "parents": "833b5aecce19f33e7d1100a9ef8f023d02c46db8",
+    "subject": "Editorial: Tweak some wording in Cover Grammars"
+   },
+   {
     "adate": "2023-11-18T14:11:40-05:00",
     "author": "Richard Gibson",
-    "date": "2023-11-18T14:11:40-05:00",
-    "hash": "b671b1b21d2ae60c25a007de025a4483b82beff6",
-    "parents": "e51a96ff55a68d9db9edc264416b9289d7e15a68",
+    "date": "2026-08-02T15:36:27-04:00",
+    "hash": "833b5aecce19f33e7d1100a9ef8f023d02c46db8",
+    "parents": "a9e114be75dcb4f5cb61091078d14079538301de",
     "subject": "Editorial: Separate cover grammar text into a subsection"
    },
    {
     "adate": "2023-11-18T14:03:10-05:00",
     "author": "Richard Gibson",
-    "date": "2023-11-18T14:03:10-05:00",
-    "hash": "e51a96ff55a68d9db9edc264416b9289d7e15a68",
-    "parents": "82c99bbc44e4b63e3a14ffbf0ac90ce8359c1010",
+    "date": "2026-08-02T15:28:08-04:00",
+    "hash": "a9e114be75dcb4f5cb61091078d14079538301de",
+    "parents": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
     "subject": "Editorial: Add <dfn>s for cover grammar linking"
    }
   ],
   "title": "Editorial: Separate cover grammar text into a subsection with autolink targets",
-  "updated_at": "2023-11-18T19:49:39Z"
+  "updated_at": "2026-08-02T20:23:13Z"
  },
  {
   "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
