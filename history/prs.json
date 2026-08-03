@@ -1,6 +1,26 @@
 [
  {
   "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
+  "created_at": "2026-08-03T19:37:55Z",
+  "head": "e183efdfea0bdf0c881941f519b7f45c99585505",
+  "login": "gibson042",
+  "number": 3938,
+  "ref": "2026-08-simplify-trailing-comma-productions",
+  "revs": [
+   {
+    "adate": "2026-08-03T15:17:48-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-08-03T15:37:28-04:00",
+    "hash": "e183efdfea0bdf0c881941f519b7f45c99585505",
+    "parents": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
+    "subject": "Editorial: Simplify optional-trailing-comma productions"
+   }
+  ],
+  "title": "Editorial: Simplify optional-trailing-comma productions",
+  "updated_at": "2026-08-03T19:43:42Z"
+ },
+ {
+  "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
   "created_at": "2026-07-30T21:35:09Z",
   "head": "efbe9e3623e978baaba0e605ec92a27ad9b65054",
   "login": "gibson042",
@@ -94,11 +114,27 @@
  {
   "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
   "created_at": "2026-07-28T20:16:28Z",
-  "head": "f7c194946890b6ef85c9dc3c204a48dcc421c8f1",
+  "head": "b0ded634fb33094fe76496be42cf95ba20ac9366",
   "login": "peetklecha",
   "number": 3933,
   "ref": "decouple-json-from-evaluation",
   "revs": [
+   {
+    "adate": "2026-08-03T13:51:45-04:00",
+    "author": "pklecha1",
+    "date": "2026-08-03T13:51:45-04:00",
+    "hash": "b0ded634fb33094fe76496be42cf95ba20ac9366",
+    "parents": "45df924ff22d9970182a11cf28940288c76d2715",
+    "subject": "address feedback: create JSON parse records during JSONEvaluation"
+   },
+   {
+    "adate": "2026-08-03T11:46:33-04:00",
+    "author": "pklecha1",
+    "date": "2026-08-03T11:46:33-04:00",
+    "hash": "45df924ff22d9970182a11cf28940288c76d2715",
+    "parents": "f7c194946890b6ef85c9dc3c204a48dcc421c8f1",
+    "subject": "address feedback"
+   },
    {
     "adate": "2026-07-31T16:18:57-04:00",
     "author": "Peet Klecha",
@@ -221,7 +257,7 @@
    }
   ],
   "title": "Editorial: decouple JSON.parse from ES evaluation semantics",
-  "updated_at": "2026-07-31T20:19:01Z"
+  "updated_at": "2026-08-03T17:51:54Z"
  },
  {
   "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
@@ -2822,38 +2858,54 @@
  {
   "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
   "created_at": "2023-11-18T19:49:39Z",
-  "head": "d6161e8eb93533e97a1cafb463b4a15e17983f33",
+  "head": "ddeed3435307ff66e6a7d5417d1e72a36687e0ea",
   "login": "gibson042",
   "number": 3223,
   "ref": "2023-11-cover-grammar-text",
   "revs": [
    {
+    "adate": "2026-08-03T15:08:07-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-08-03T15:08:07-04:00",
+    "hash": "ddeed3435307ff66e6a7d5417d1e72a36687e0ea",
+    "parents": "6d84ff34c9c63e4c9ab7a7a14f51bbcee57adad9",
+    "subject": "Editorial: Rename \"cover grammar\" to \"cover production\""
+   },
+   {
+    "adate": "2026-08-03T14:25:06-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-08-03T14:25:06-04:00",
+    "hash": "6d84ff34c9c63e4c9ab7a7a14f51bbcee57adad9",
+    "parents": "a07a1113db6b0a90b16f529c4c816ad639bbc93b",
+    "subject": "Editorial: Remap #must-cover to the new section"
+   },
+   {
     "adate": "2026-08-02T15:38:18-04:00",
     "author": "Richard Gibson",
-    "date": "2026-08-02T15:38:18-04:00",
-    "hash": "d6161e8eb93533e97a1cafb463b4a15e17983f33",
-    "parents": "833b5aecce19f33e7d1100a9ef8f023d02c46db8",
+    "date": "2026-08-03T14:05:42-04:00",
+    "hash": "a07a1113db6b0a90b16f529c4c816ad639bbc93b",
+    "parents": "ad94d7f8237863c0aca3b386910e34daad48683f",
     "subject": "Editorial: Tweak some wording in Cover Grammars"
    },
    {
     "adate": "2023-11-18T14:11:40-05:00",
     "author": "Richard Gibson",
-    "date": "2026-08-02T15:36:27-04:00",
-    "hash": "833b5aecce19f33e7d1100a9ef8f023d02c46db8",
-    "parents": "a9e114be75dcb4f5cb61091078d14079538301de",
+    "date": "2026-08-03T14:05:40-04:00",
+    "hash": "ad94d7f8237863c0aca3b386910e34daad48683f",
+    "parents": "392e4fb0a1f81e3afdf6789268eed476a963ec61",
     "subject": "Editorial: Separate cover grammar text into a subsection"
    },
    {
     "adate": "2023-11-18T14:03:10-05:00",
     "author": "Richard Gibson",
-    "date": "2026-08-02T15:28:08-04:00",
-    "hash": "a9e114be75dcb4f5cb61091078d14079538301de",
+    "date": "2026-08-03T14:03:00-04:00",
+    "hash": "392e4fb0a1f81e3afdf6789268eed476a963ec61",
     "parents": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
     "subject": "Editorial: Add <dfn>s for cover grammar linking"
    }
   ],
   "title": "Editorial: Separate cover grammar text into a subsection with autolink targets",
-  "updated_at": "2026-08-02T20:23:13Z"
+  "updated_at": "2026-08-03T19:09:07Z"
  },
  {
   "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
