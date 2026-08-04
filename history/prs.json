@@ -2214,11 +2214,19 @@
  {
   "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
   "created_at": "2025-05-04T17:44:18Z",
-  "head": "0917adf1a03e36727c33ac225e9e54d719581c63",
+  "head": "4fe47be0fbed3d8d054f27e374f3822b16c35f4b",
   "login": "gibson042",
   "number": 3587,
   "ref": "gh-3586-unicodematchproperty",
   "revs": [
+   {
+    "adate": "2026-08-03T19:34:09-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-08-03T19:34:09-04:00",
+    "hash": "4fe47be0fbed3d8d054f27e374f3822b16c35f4b",
+    "parents": "0917adf1a03e36727c33ac225e9e54d719581c63",
+    "subject": "fixup! wording in UnicodeMatchProperty and UnicodeMatchPropertyValue"
+   },
    {
     "adate": "2025-05-08T13:39:59-04:00",
     "author": "Richard Gibson",
@@ -2269,7 +2277,7 @@
    }
   ],
   "title": "Editorial: Fix incorrect use of UnicodeMatchPropertyValue",
-  "updated_at": "2026-08-02T20:14:15Z"
+  "updated_at": "2026-08-03T23:34:20Z"
  },
  {
   "base": "f2bad0095a792587ab7a70c9f024612148e18bd1",
@@ -3670,11 +3678,19 @@
  {
   "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
   "created_at": "2022-12-15T19:39:03Z",
-  "head": "4eaa77fa1705baab509f991677dc8a16e999fc9d",
+  "head": "cb257504c326e889e57da3a07d68f625c8daa5bb",
   "login": "gibson042",
   "number": 2975,
   "ref": "2022-12-describe-split",
   "revs": [
+   {
+    "adate": "2026-08-03T19:40:36-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-08-03T19:40:36-04:00",
+    "hash": "cb257504c326e889e57da3a07d68f625c8daa5bb",
+    "parents": "4eaa77fa1705baab509f991677dc8a16e999fc9d",
+    "subject": "Editorial: Remove references to nonexistent _separator_ aliases"
+   },
    {
     "adate": "2026-08-02T13:05:05-04:00",
     "author": "Richard Gibson",
@@ -3725,7 +3741,7 @@
    }
   ],
   "title": "Editorial: Improve the explanation of split methods",
-  "updated_at": "2026-08-02T17:12:21Z"
+  "updated_at": "2026-08-03T23:40:42Z"
  },
  {
   "base": "45a667175d5ac359968d8a2aa7eef62a65bb7988",
