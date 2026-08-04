@@ -114,11 +114,19 @@
  {
   "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
   "created_at": "2026-07-28T20:16:28Z",
-  "head": "b0ded634fb33094fe76496be42cf95ba20ac9366",
+  "head": "a12fc94585d56d40635f4b0a00e50ef1fe68e47c",
   "login": "peetklecha",
   "number": 3933,
   "ref": "decouple-json-from-evaluation",
   "revs": [
+   {
+    "adate": "2026-08-03T22:02:44-04:00",
+    "author": "Peet Klecha",
+    "date": "2026-08-03T22:02:44-04:00",
+    "hash": "a12fc94585d56d40635f4b0a00e50ef1fe68e47c",
+    "parents": "b0ded634fb33094fe76496be42cf95ba20ac9366",
+    "subject": "fmt"
+   },
    {
     "adate": "2026-08-03T13:51:45-04:00",
     "author": "pklecha1",
@@ -257,7 +265,7 @@
    }
   ],
   "title": "Editorial: decouple JSON.parse from ES evaluation semantics",
-  "updated_at": "2026-08-03T17:51:54Z"
+  "updated_at": "2026-08-04T02:14:36Z"
  },
  {
   "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
