@@ -1,6 +1,46 @@
 [
  {
   "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
+  "created_at": "2026-08-05T19:20:29Z",
+  "head": "317f21e4ecf5e5ac6a2798c793935680328bbcb7",
+  "login": "ptomato",
+  "number": 3940,
+  "ref": "specified-in-the-specification",
+  "revs": [
+   {
+    "adate": "2026-08-05T12:18:52-07:00",
+    "author": "Philip Chimento",
+    "date": "2026-08-05T12:18:52-07:00",
+    "hash": "317f21e4ecf5e5ac6a2798c793935680328bbcb7",
+    "parents": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
+    "subject": "Editorial: Reword \"specified in the ECMA-402 specification\""
+   }
+  ],
+  "title": "Editorial: Reword \"specified in the ECMA-402 specification\"",
+  "updated_at": "2026-08-05T19:20:29Z"
+ },
+ {
+  "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
+  "created_at": "2026-08-05T18:46:01Z",
+  "head": "b9c4c94f3804f9be926a87a52df13ada9152b146",
+  "login": "ptomato",
+  "number": 3939,
+  "ref": "iana-time-zone-database",
+  "revs": [
+   {
+    "adate": "2026-08-05T11:44:47-07:00",
+    "author": "Philip Chimento",
+    "date": "2026-08-05T11:44:47-07:00",
+    "hash": "b9c4c94f3804f9be926a87a52df13ada9152b146",
+    "parents": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
+    "subject": "Editorial: Improve references to IANA Time Zone Database"
+   }
+  ],
+  "title": "Editorial: Improve references to IANA Time Zone Database",
+  "updated_at": "2026-08-05T18:55:32Z"
+ },
+ {
+  "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
   "created_at": "2026-08-03T19:37:55Z",
   "head": "e183efdfea0bdf0c881941f519b7f45c99585505",
   "login": "gibson042",
