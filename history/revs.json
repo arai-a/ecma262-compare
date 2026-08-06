@@ -1,5 +1,37 @@
 [
  {
+  "adate": "2026-08-06T14:57:07+12:00",
+  "author": "Philip Chimento",
+  "date": "2026-08-06T14:57:07+12:00",
+  "hash": "2faa8c29f2d300982448350ec423c250690d71e1",
+  "parents": "0d9df3c40315b7f9e11751463e17c983dba5ff98",
+  "subject": "Editorial: Add definition for \"expanded year\" (#3928)"
+ },
+ {
+  "adate": "2026-08-06T14:46:47+12:00",
+  "author": "Philip Chimento",
+  "date": "2026-08-06T14:46:47+12:00",
+  "hash": "0d9df3c40315b7f9e11751463e17c983dba5ff98",
+  "parents": "2ce6555746c4876385572a7cec79f79aaa3ecae7",
+  "subject": "Editorial: Normalize all RFC references (#3927)"
+ },
+ {
+  "adate": "2026-08-06T14:21:25+12:00",
+  "author": "Kevin Gibbons",
+  "date": "2026-08-06T14:21:25+12:00",
+  "hash": "2ce6555746c4876385572a7cec79f79aaa3ecae7",
+  "parents": "f9ae2d75d0aca87113ed01495706009f2389dc05",
+  "subject": "Editorial: avoid some unions with ~unused~ (#3922)"
+ },
+ {
+  "adate": "2026-08-06T11:10:22+12:00",
+  "author": "Kevin Gibbons",
+  "date": "2026-08-06T11:10:22+12:00",
+  "hash": "f9ae2d75d0aca87113ed01495706009f2389dc05",
+  "parents": "4ebfa1cdb8ad957b6d7cc9eb8a302ef8f6b48c3f",
+  "subject": "Editorial: do not use \"Return\" to transfer control between execution contexts (#3896)"
+ },
+ {
   "adate": "2026-08-06T10:55:12+12:00",
   "author": "Michael Ficarra",
   "date": "2026-08-06T10:55:12+12:00",
