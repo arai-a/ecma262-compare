@@ -520,24 +520,24 @@
   "updated_at": "2026-07-24T13:29:23Z"
  },
  {
-  "base": "0d9df3c40315b7f9e11751463e17c983dba5ff98",
+  "base": "0cdd9cc83c341cdfdcca88bb3c390c907beba277",
   "created_at": "2026-07-23T21:34:43Z",
-  "head": "57ee24b8b95b041ce428a69f89ff4b37658604c5",
+  "head": "7cb06a7d84c150d39cdf0302517c3ec3d6a355f8",
   "login": "bakkot",
   "number": 3921,
   "ref": "assert-not-object-private-name",
   "revs": [
    {
-    "adate": "2026-07-23T14:23:50-07:00",
+    "adate": "2026-08-06T17:24:42+12:00",
     "author": "Kevin Gibbons",
-    "date": "2026-08-05T20:05:27-07:00",
-    "hash": "57ee24b8b95b041ce428a69f89ff4b37658604c5",
-    "parents": "2ce6555746c4876385572a7cec79f79aaa3ecae7",
-    "subject": "Editorial: assert that MethodDefinitionEvaluation on object properties does not produce a PrivateElement"
+    "date": "2026-08-06T17:24:42+12:00",
+    "hash": "7cb06a7d84c150d39cdf0302517c3ec3d6a355f8",
+    "parents": "0cdd9cc83c341cdfdcca88bb3c390c907beba277",
+    "subject": "Editorial: assert that MethodDefinitionEvaluation on object properties does not produce a PrivateElement (#3921)"
    }
   ],
   "title": "Editorial: assert that MethodDefinitionEvaluation on object properties does not produce a PrivateElement",
-  "updated_at": "2026-08-06T03:06:53Z"
+  "updated_at": "2026-08-06T05:24:55Z"
  },
  {
   "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
@@ -1882,58 +1882,6 @@
   ],
   "title": "Editorial: dedupe and isolate modules traversal logic",
   "updated_at": "2026-01-14T18:12:48Z"
- },
- {
-  "base": "2faa8c29f2d300982448350ec423c250690d71e1",
-  "created_at": "2025-07-01T15:28:10Z",
-  "head": "0cdd9cc83c341cdfdcca88bb3c390c907beba277",
-  "login": "gibson042",
-  "number": 3634,
-  "ref": "3629-use-validatetypedarray",
-  "revs": [
-   {
-    "adate": "2026-08-06T17:03:48+12:00",
-    "author": "Richard Gibson",
-    "date": "2026-08-06T17:03:48+12:00",
-    "hash": "0cdd9cc83c341cdfdcca88bb3c390c907beba277",
-    "parents": "0f411ccd7006991b3b91bf0d84df19c2d3447d73",
-    "subject": "Editorial: Simplify coercion in DoWait (#3634)"
-   },
-   {
-    "adate": "2026-08-06T17:03:41+12:00",
-    "author": "Richard Gibson",
-    "date": "2026-08-06T17:03:41+12:00",
-    "hash": "0f411ccd7006991b3b91bf0d84df19c2d3447d73",
-    "parents": "05e3c17b9ee564f9e03375f24771a2be703454cc",
-    "subject": "Editorial: Clarify IsNoTearConfiguration for bigint types (requires order SEQ-CST) (#3634)"
-   },
-   {
-    "adate": "2026-08-06T17:03:37+12:00",
-    "author": "Richard Gibson",
-    "date": "2026-08-06T17:03:37+12:00",
-    "hash": "05e3c17b9ee564f9e03375f24771a2be703454cc",
-    "parents": "d94d54e4f623fa1f5af1521fbec71d10f9851723",
-    "subject": "Editorial: Use a more common alias name for the result of TypedArrayElementType in ValidateIntegerTypedArray (#3634)"
-   },
-   {
-    "adate": "2026-08-06T17:03:32+12:00",
-    "author": "Richard Gibson",
-    "date": "2026-08-06T17:03:32+12:00",
-    "hash": "d94d54e4f623fa1f5af1521fbec71d10f9851723",
-    "parents": "306a77006df38715619287e2968b13208b756946",
-    "subject": "Editorial: Refactor ValidateIntegerTypedArray on top of IsNoTearConfiguration (#3634)"
-   },
-   {
-    "adate": "2026-08-06T17:03:23+12:00",
-    "author": "Richard Gibson",
-    "date": "2026-08-06T17:03:23+12:00",
-    "hash": "306a77006df38715619287e2968b13208b756946",
-    "parents": "2faa8c29f2d300982448350ec423c250690d71e1",
-    "subject": "Editorial: Make a dedicated operation for validating TypedArray bounds into a witness Record (#3634)"
-   }
-  ],
-  "title": "Editorial: Make a dedicated operation for validating TypedArray bounds",
-  "updated_at": "2026-08-06T05:04:01Z"
  },
  {
   "base": "60c4df0b65e1c2e6b6581a5bc08a9311223be1da",

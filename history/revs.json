@@ -1,5 +1,45 @@
 [
  {
+  "adate": "2026-08-06T17:03:48+12:00",
+  "author": "Richard Gibson",
+  "date": "2026-08-06T17:03:48+12:00",
+  "hash": "0cdd9cc83c341cdfdcca88bb3c390c907beba277",
+  "parents": "0f411ccd7006991b3b91bf0d84df19c2d3447d73",
+  "subject": "Editorial: Simplify coercion in DoWait (#3634)"
+ },
+ {
+  "adate": "2026-08-06T17:03:41+12:00",
+  "author": "Richard Gibson",
+  "date": "2026-08-06T17:03:41+12:00",
+  "hash": "0f411ccd7006991b3b91bf0d84df19c2d3447d73",
+  "parents": "05e3c17b9ee564f9e03375f24771a2be703454cc",
+  "subject": "Editorial: Clarify IsNoTearConfiguration for bigint types (requires order SEQ-CST) (#3634)"
+ },
+ {
+  "adate": "2026-08-06T17:03:37+12:00",
+  "author": "Richard Gibson",
+  "date": "2026-08-06T17:03:37+12:00",
+  "hash": "05e3c17b9ee564f9e03375f24771a2be703454cc",
+  "parents": "d94d54e4f623fa1f5af1521fbec71d10f9851723",
+  "subject": "Editorial: Use a more common alias name for the result of TypedArrayElementType in ValidateIntegerTypedArray (#3634)"
+ },
+ {
+  "adate": "2026-08-06T17:03:32+12:00",
+  "author": "Richard Gibson",
+  "date": "2026-08-06T17:03:32+12:00",
+  "hash": "d94d54e4f623fa1f5af1521fbec71d10f9851723",
+  "parents": "306a77006df38715619287e2968b13208b756946",
+  "subject": "Editorial: Refactor ValidateIntegerTypedArray on top of IsNoTearConfiguration (#3634)"
+ },
+ {
+  "adate": "2026-08-06T17:03:23+12:00",
+  "author": "Richard Gibson",
+  "date": "2026-08-06T17:03:23+12:00",
+  "hash": "306a77006df38715619287e2968b13208b756946",
+  "parents": "2faa8c29f2d300982448350ec423c250690d71e1",
+  "subject": "Editorial: Make a dedicated operation for validating TypedArray bounds into a witness Record (#3634)"
+ },
+ {
   "adate": "2026-08-06T14:57:07+12:00",
   "author": "Philip Chimento",
   "date": "2026-08-06T14:57:07+12:00",
