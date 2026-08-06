@@ -2,11 +2,19 @@
  {
   "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
   "created_at": "2026-08-05T19:20:29Z",
-  "head": "317f21e4ecf5e5ac6a2798c793935680328bbcb7",
+  "head": "7064d1df8c55e1cda172b35c617f408b76753848",
   "login": "ptomato",
   "number": 3940,
   "ref": "specified-in-the-specification",
   "revs": [
+   {
+    "adate": "2026-08-06T08:06:19-07:00",
+    "author": "Philip Chimento",
+    "date": "2026-08-06T08:06:19-07:00",
+    "hash": "7064d1df8c55e1cda172b35c617f408b76753848",
+    "parents": "317f21e4ecf5e5ac6a2798c793935680328bbcb7",
+    "subject": "fixup! Editorial: Reword \"specified in the ECMA-402 specification\""
+   },
    {
     "adate": "2026-08-05T12:18:52-07:00",
     "author": "Philip Chimento",
@@ -17,7 +25,7 @@
    }
   ],
   "title": "Editorial: Reword \"specified in the ECMA-402 specification\"",
-  "updated_at": "2026-08-05T19:20:29Z"
+  "updated_at": "2026-08-06T15:07:37Z"
  },
  {
   "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
@@ -413,54 +421,6 @@
  },
  {
   "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
-  "created_at": "2026-07-24T23:30:11Z",
-  "head": "f87eed7ed4e7dd3e65738939aa748afad79fb3d4",
-  "login": "ptomato",
-  "number": 3930,
-  "ref": "iso8601-note-2400",
-  "revs": [
-   {
-    "adate": "2026-07-24T16:29:44-07:00",
-    "author": "Philip Chimento",
-    "date": "2026-07-24T16:29:44-07:00",
-    "hash": "f87eed7ed4e7dd3e65738939aa748afad79fb3d4",
-    "parents": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
-    "subject": "Editorial: Update notes about 24:00 and ISO 8601"
-   }
-  ],
-  "title": "Editorial: Update notes about 24:00 and ISO 8601",
-  "updated_at": "2026-07-24T23:30:11Z"
- },
- {
-  "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
-  "created_at": "2026-07-24T22:36:48Z",
-  "head": "a948e3a91e8d2b938b26c47ef619c37dc6c94bc1",
-  "login": "ptomato",
-  "number": 3929,
-  "ref": "use-time-constants",
-  "revs": [
-   {
-    "adate": "2026-07-27T12:39:53-07:00",
-    "author": "Philip Chimento",
-    "date": "2026-07-27T12:39:53-07:00",
-    "hash": "a948e3a91e8d2b938b26c47ef619c37dc6c94bc1",
-    "parents": "20c8ffb89080779fed1e477545a9948f258885b1",
-    "subject": "fixup! Editorial: Use named time constants"
-   },
-   {
-    "adate": "2026-07-24T15:36:04-07:00",
-    "author": "Philip Chimento",
-    "date": "2026-07-24T15:36:04-07:00",
-    "hash": "20c8ffb89080779fed1e477545a9948f258885b1",
-    "parents": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
-    "subject": "Editorial: Use named time constants"
-   }
-  ],
-  "title": "Editorial: Use named time constants",
-  "updated_at": "2026-07-27T20:35:03Z"
- },
- {
-  "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
   "created_at": "2026-07-24T20:17:58Z",
   "head": "20b08f54d86fee8bc469a7f9f2a63646049d44c6",
   "login": "gibson042",
@@ -498,46 +458,6 @@
   ],
   "title": "\u2728 Normative: add await dictionary",
   "updated_at": "2026-07-29T18:58:44Z"
- },
- {
-  "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
-  "created_at": "2026-07-24T13:22:35Z",
-  "head": "93262cd78ab302139bc63d4ad81468c1372fc964",
-  "login": "nicolo-ribaudo",
-  "number": 3923,
-  "ref": "isnotear-order-check",
-  "revs": [
-   {
-    "adate": "2026-07-24T15:21:38+02:00",
-    "author": "Nicol\u00f2 Ribaudo",
-    "date": "2026-07-24T15:21:38+02:00",
-    "hash": "93262cd78ab302139bc63d4ad81468c1372fc964",
-    "parents": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
-    "subject": "Editorial: Replace negative check with simpler positive one"
-   }
-  ],
-  "title": "Editorial: Replace negative check with simpler positive one",
-  "updated_at": "2026-07-24T13:29:23Z"
- },
- {
-  "base": "0cdd9cc83c341cdfdcca88bb3c390c907beba277",
-  "created_at": "2026-07-23T21:34:43Z",
-  "head": "7cb06a7d84c150d39cdf0302517c3ec3d6a355f8",
-  "login": "bakkot",
-  "number": 3921,
-  "ref": "assert-not-object-private-name",
-  "revs": [
-   {
-    "adate": "2026-08-06T17:24:42+12:00",
-    "author": "Kevin Gibbons",
-    "date": "2026-08-06T17:24:42+12:00",
-    "hash": "7cb06a7d84c150d39cdf0302517c3ec3d6a355f8",
-    "parents": "0cdd9cc83c341cdfdcca88bb3c390c907beba277",
-    "subject": "Editorial: assert that MethodDefinitionEvaluation on object properties does not produce a PrivateElement (#3921)"
-   }
-  ],
-  "title": "Editorial: assert that MethodDefinitionEvaluation on object properties does not produce a PrivateElement",
-  "updated_at": "2026-08-06T05:24:55Z"
  },
  {
   "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
@@ -3260,9 +3180,9 @@
   "updated_at": "2026-06-06T00:06:20Z"
  },
  {
-  "base": "10d44bfce4640894a0ed366bb769f2700cc8839a",
+  "base": "294dcc2a0187b6ac3c52feccad2dadf9f93662d5",
   "created_at": "2023-10-10T03:14:56Z",
-  "head": "c17b51a50b0f540344c02a8fc9a8b8e3112b0076",
+  "head": "01729d6582d270c16fd4121525cd687f416067d2",
   "login": "nicolo-ribaudo",
   "number": 3191,
   "ref": "regexp-assertions-simplify",
@@ -3270,22 +3190,22 @@
    {
     "adate": "2023-10-10T12:24:21+09:00",
     "author": "Nicol\u00f2 Ribaudo",
-    "date": "2023-10-10T12:24:21+09:00",
-    "hash": "c17b51a50b0f540344c02a8fc9a8b8e3112b0076",
-    "parents": "41578444e502e2d53c2bf9184f5790d2300114ce",
+    "date": "2026-08-06T16:50:30+02:00",
+    "hash": "01729d6582d270c16fd4121525cd687f416067d2",
+    "parents": "e70be4f7f02c1f3809ed4391224c5daef044632f",
     "subject": "Rename QuantifiableAssertion to LookaheadAssertion"
    },
    {
     "adate": "2023-10-10T12:24:16+09:00",
     "author": "Nicol\u00f2 Ribaudo",
-    "date": "2023-10-10T12:24:16+09:00",
-    "hash": "41578444e502e2d53c2bf9184f5790d2300114ce",
-    "parents": "10d44bfce4640894a0ed366bb769f2700cc8839a",
+    "date": "2026-08-06T16:50:30+02:00",
+    "hash": "e70be4f7f02c1f3809ed4391224c5daef044632f",
+    "parents": "294dcc2a0187b6ac3c52feccad2dadf9f93662d5",
     "subject": "Unconditionally use `QuantifiableAssertion` in `Assertion`"
    }
   ],
-  "title": "[editorial] Unconditionally use LookaheadAssertion in Assertion",
-  "updated_at": "2023-10-10T03:42:57Z"
+  "title": "Editorial: Unconditionally use LookaheadAssertion in Assertion",
+  "updated_at": "2026-08-06T15:00:26Z"
  },
  {
   "base": "10d44bfce4640894a0ed366bb769f2700cc8839a",
