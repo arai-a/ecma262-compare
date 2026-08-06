@@ -1,5 +1,53 @@
 [
  {
+  "adate": "2026-08-06T10:55:12+12:00",
+  "author": "Michael Ficarra",
+  "date": "2026-08-06T10:55:12+12:00",
+  "hash": "4ebfa1cdb8ad957b6d7cc9eb8a302ef8f6b48c3f",
+  "parents": "7221f6ca8b6b1ce7afa098ce46d11c21357e7059",
+  "subject": "Editorial: move non-normative statements about CRLF to a note (#3807)"
+ },
+ {
+  "adate": "2026-08-06T10:36:12+12:00",
+  "author": "Richard Gibson",
+  "date": "2026-08-06T10:36:12+12:00",
+  "hash": "7221f6ca8b6b1ce7afa098ce46d11c21357e7059",
+  "parents": "f76baf17bdfd35332a61dadb84c775114615dda3",
+  "subject": "Editorial: Avoid ESMeta typecheck errors (#2917)"
+ },
+ {
+  "adate": "2026-08-06T10:36:10+12:00",
+  "author": "Richard Gibson",
+  "date": "2026-08-06T10:36:10+12:00",
+  "hash": "f76baf17bdfd35332a61dadb84c775114615dda3",
+  "parents": "8cb397f416fd799d0b25266d302fd26d4a160078",
+  "subject": "Editorial: Refactor %TypedArray%.prototype.subarray to highlight TypedArraySpeciesCreate argument count variance (#2917)"
+ },
+ {
+  "adate": "2026-08-06T10:36:08+12:00",
+  "author": "Jordan Harband",
+  "date": "2026-08-06T10:36:08+12:00",
+  "hash": "8cb397f416fd799d0b25266d302fd26d4a160078",
+  "parents": "668a264a3df9fec5b988343c79022955081e5355",
+  "subject": "Editorial: Introduce ToAbsoluteIndex for `at` methods (#2917)"
+ },
+ {
+  "adate": "2026-08-06T10:36:07+12:00",
+  "author": "Richard Gibson",
+  "date": "2026-08-06T10:36:07+12:00",
+  "hash": "668a264a3df9fec5b988343c79022955081e5355",
+  "parents": "51c90da3e832ef49d95336a3a4dd0518f39e38d0",
+  "subject": "Editorial: Introduce ToClampedIndex for relative-to-start-or-end index values (#2917)"
+ },
+ {
+  "adate": "2026-08-06T10:35:55+12:00",
+  "author": "Richard Gibson",
+  "date": "2026-08-06T10:35:55+12:00",
+  "hash": "51c90da3e832ef49d95336a3a4dd0518f39e38d0",
+  "parents": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
+  "subject": "Editorial: Make better use of clamping without introducing temporary aliases (#2917)"
+ },
+ {
   "adate": "2026-07-16T20:46:06-07:00",
   "author": "Linus Groh",
   "date": "2026-07-16T20:46:06-07:00",
