@@ -1,6 +1,26 @@
 [
  {
   "base": "294dcc2a0187b6ac3c52feccad2dadf9f93662d5",
+  "created_at": "2026-08-07T17:59:52Z",
+  "head": "0875a713f46ab7645ee5d4f815e698c752ade1fc",
+  "login": "ptomato",
+  "number": 3944,
+  "ref": "dont-abbreviate-offset-ns-ms",
+  "revs": [
+   {
+    "adate": "2026-08-06T21:47:06-07:00",
+    "author": "Philip Chimento",
+    "date": "2026-08-06T21:47:06-07:00",
+    "hash": "0875a713f46ab7645ee5d4f815e698c752ade1fc",
+    "parents": "294dcc2a0187b6ac3c52feccad2dadf9f93662d5",
+    "subject": "Editorial: Write out offsetNanoseconds and offsetMilliseconds"
+   }
+  ],
+  "title": "Editorial: Write out offsetNanoseconds and offsetMilliseconds",
+  "updated_at": "2026-08-07T17:59:52Z"
+ },
+ {
+  "base": "294dcc2a0187b6ac3c52feccad2dadf9f93662d5",
   "created_at": "2026-08-07T01:50:02Z",
   "head": "1b6bc828acaf2019eacef51532c76f6c413ac9f1",
   "login": "ptomato",
