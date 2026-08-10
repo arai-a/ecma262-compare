@@ -164,58 +164,50 @@
   "updated_at": "2026-08-06T21:41:52Z"
  },
  {
-  "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
+  "base": "294dcc2a0187b6ac3c52feccad2dadf9f93662d5",
   "created_at": "2026-07-30T21:35:09Z",
-  "head": "efbe9e3623e978baaba0e605ec92a27ad9b65054",
+  "head": "7689c23c1b59eea4ccbb5b7a9715705d8a2d1b00",
   "login": "gibson042",
   "number": 3935,
   "ref": "2026-07-memory-model-links",
   "revs": [
    {
-    "adate": "2026-07-31T12:11:38-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-07-31T12:11:38-04:00",
-    "hash": "efbe9e3623e978baaba0e605ec92a27ad9b65054",
-    "parents": "a91e39835bd6329b272367d23489310b643a86cf",
-    "subject": "fixup! Editorial: Simplify Tear Free Reads"
-   },
-   {
     "adate": "2026-07-30T17:14:18-04:00",
     "author": "Richard Gibson",
-    "date": "2026-07-30T17:30:38-04:00",
-    "hash": "a91e39835bd6329b272367d23489310b643a86cf",
-    "parents": "766011fb6b3c3229c96ecb6acbdfc145f90de82a",
+    "date": "2026-08-10T15:10:13-04:00",
+    "hash": "7689c23c1b59eea4ccbb5b7a9715705d8a2d1b00",
+    "parents": "d73c1dc1041dea2511225a5b923c8b2a5316c852",
     "subject": "Editorial: Inline HostEventSet into host-synchronizes-with"
    },
    {
     "adate": "2026-07-30T17:13:21-04:00",
     "author": "Richard Gibson",
-    "date": "2026-07-30T17:30:38-04:00",
-    "hash": "766011fb6b3c3229c96ecb6acbdfc145f90de82a",
-    "parents": "82f85936b464d5aee0da406d29c4cc2c5fdc16dc",
+    "date": "2026-08-10T15:08:52-04:00",
+    "hash": "d73c1dc1041dea2511225a5b923c8b2a5316c852",
+    "parents": "dc512f259f21373951b7f294e12e70da81891a3b",
     "subject": "Editorial: Define \"Host memory event\""
    },
    {
     "adate": "2026-07-30T17:12:02-04:00",
     "author": "Richard Gibson",
-    "date": "2026-07-30T17:30:37-04:00",
-    "hash": "82f85936b464d5aee0da406d29c4cc2c5fdc16dc",
-    "parents": "fb75f2006b138b65128ad475b9f959cc93bec4eb",
+    "date": "2026-08-10T15:08:52-04:00",
+    "hash": "dc512f259f21373951b7f294e12e70da81891a3b",
+    "parents": "f8a799b27a464cf547957a04a9d8f62b67de511a",
     "subject": "Editorial: Document host-synchronizes-with as host-defined in Annex D"
    },
    {
     "adate": "2026-07-30T17:10:59-04:00",
     "author": "Richard Gibson",
-    "date": "2026-07-30T17:30:37-04:00",
-    "hash": "fb75f2006b138b65128ad475b9f959cc93bec4eb",
-    "parents": "aa088d85646a8fb621fadaaf6c052b11246b02fe",
+    "date": "2026-08-10T15:08:41-04:00",
+    "hash": "f8a799b27a464cf547957a04a9d8f62b67de511a",
+    "parents": "437562219b786b4866a1a0451634c2fa24b8467f",
     "subject": "Editorial: Clarify the domain and constraints of host-synchronizes-with"
    },
    {
     "adate": "2026-07-30T17:06:34-04:00",
     "author": "Richard Gibson",
-    "date": "2026-07-30T17:30:37-04:00",
-    "hash": "aa088d85646a8fb621fadaaf6c052b11246b02fe",
+    "date": "2026-08-10T14:17:12-04:00",
+    "hash": "437562219b786b4866a1a0451634c2fa24b8467f",
     "parents": "7850d0de26a7cf02b8ff27e6e37d098137aa7645",
     "subject": "Editorial: Simplify Tear Free Reads"
    },
@@ -253,7 +245,7 @@
    }
   ],
   "title": "Editorial: Improve Memory Model/SharedArrayBuffer auto-links",
-  "updated_at": "2026-07-31T16:15:16Z"
+  "updated_at": "2026-08-10T19:32:51Z"
  },
  {
   "base": "294dcc2a0187b6ac3c52feccad2dadf9f93662d5",
