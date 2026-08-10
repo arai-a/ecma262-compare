@@ -2,11 +2,27 @@
  {
   "base": "294dcc2a0187b6ac3c52feccad2dadf9f93662d5",
   "created_at": "2026-08-07T22:41:21Z",
-  "head": "1c5ae8897269aad91f2aed1c3174bb091b191a47",
+  "head": "be8fd255890a8266ad358905f94658f5a0d0f84e",
   "login": "ptomato",
   "number": 3946,
   "ref": "snap-to-integer",
   "revs": [
+   {
+    "adate": "2026-08-10T15:05:22-07:00",
+    "author": "Philip Chimento",
+    "date": "2026-08-10T15:05:22-07:00",
+    "hash": "be8fd255890a8266ad358905f94658f5a0d0f84e",
+    "parents": "bc73ddad1b5639dea154de2ab1bd29a549e3e01b",
+    "subject": "(fixup) Add to esmeta-ignore list"
+   },
+   {
+    "adate": "2026-08-10T15:02:10-07:00",
+    "author": "Philip Chimento",
+    "date": "2026-08-10T15:02:10-07:00",
+    "hash": "bc73ddad1b5639dea154de2ab1bd29a549e3e01b",
+    "parents": "1c5ae8897269aad91f2aed1c3174bb091b191a47",
+    "subject": "(fixup) Revert previous commit and implement review suggestions"
+   },
    {
     "adate": "2026-08-08T11:52:56-07:00",
     "author": "Philip Chimento",
@@ -25,7 +41,7 @@
    }
   ],
   "title": "Editorial: Add SnapToInteger to handle finite-only integer conversion",
-  "updated_at": "2026-08-08T19:56:28Z"
+  "updated_at": "2026-08-10T22:05:28Z"
  },
  {
   "base": "294dcc2a0187b6ac3c52feccad2dadf9f93662d5",
@@ -70,11 +86,19 @@
  {
   "base": "294dcc2a0187b6ac3c52feccad2dadf9f93662d5",
   "created_at": "2026-08-07T01:50:02Z",
-  "head": "1b6bc828acaf2019eacef51532c76f6c413ac9f1",
+  "head": "c1c7cad4d86b959432165f009fa7a2f92226373d",
   "login": "ptomato",
   "number": 3942,
   "ref": "epoch-nanoseconds-count",
   "revs": [
+   {
+    "adate": "2026-08-10T14:52:46-07:00",
+    "author": "Philip Chimento",
+    "date": "2026-08-10T14:52:46-07:00",
+    "hash": "c1c7cad4d86b959432165f009fa7a2f92226373d",
+    "parents": "1b6bc828acaf2019eacef51532c76f6c413ac9f1",
+    "subject": "(fiuxp) Add missing maxEpochNanoseconds and minEpochNanoseconds"
+   },
    {
     "adate": "2026-08-06T18:49:38-07:00",
     "author": "Philip Chimento",
@@ -85,16 +109,24 @@
    }
   ],
   "title": "Editorial: Introduce \"epoch nanoseconds count\" definition",
-  "updated_at": "2026-08-07T01:50:02Z"
+  "updated_at": "2026-08-10T22:07:17Z"
  },
  {
   "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
   "created_at": "2026-08-05T19:20:29Z",
-  "head": "7064d1df8c55e1cda172b35c617f408b76753848",
+  "head": "c656794c0386c604a2c6dc4b90a4518d4aefb239",
   "login": "ptomato",
   "number": 3940,
   "ref": "specified-in-the-specification",
   "revs": [
+   {
+    "adate": "2026-08-10T15:00:04-07:00",
+    "author": "Philip Chimento",
+    "date": "2026-08-10T15:00:04-07:00",
+    "hash": "c656794c0386c604a2c6dc4b90a4518d4aefb239",
+    "parents": "7064d1df8c55e1cda172b35c617f408b76753848",
+    "subject": "(fixup) \"Otherwise, the following specification is used\""
+   },
    {
     "adate": "2026-08-06T08:06:19-07:00",
     "author": "Philip Chimento",
@@ -113,16 +145,24 @@
    }
   ],
   "title": "Editorial: Reword \"specified in the ECMA-402 specification\"",
-  "updated_at": "2026-08-06T15:07:37Z"
+  "updated_at": "2026-08-10T22:02:15Z"
  },
  {
   "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
   "created_at": "2026-08-05T18:46:01Z",
-  "head": "b9c4c94f3804f9be926a87a52df13ada9152b146",
+  "head": "d52c50a2270fbd98469b92735750d764d1c5fc92",
   "login": "ptomato",
   "number": 3939,
   "ref": "iana-time-zone-database",
   "revs": [
+   {
+    "adate": "2026-08-10T15:30:00-07:00",
+    "author": "Philip Chimento",
+    "date": "2026-08-10T15:30:00-07:00",
+    "hash": "d52c50a2270fbd98469b92735750d764d1c5fc92",
+    "parents": "b9c4c94f3804f9be926a87a52df13ada9152b146",
+    "subject": "(fixup) Only link the first occurrence in a paragraph"
+   },
    {
     "adate": "2026-08-05T11:44:47-07:00",
     "author": "Philip Chimento",
@@ -133,7 +173,7 @@
    }
   ],
   "title": "Editorial: Improve references to IANA Time Zone Database",
-  "updated_at": "2026-08-05T18:55:32Z"
+  "updated_at": "2026-08-10T22:31:54Z"
  },
  {
   "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
