@@ -2,11 +2,19 @@
  {
   "base": "294dcc2a0187b6ac3c52feccad2dadf9f93662d5",
   "created_at": "2026-08-07T22:41:21Z",
-  "head": "be8fd255890a8266ad358905f94658f5a0d0f84e",
+  "head": "8588c20f7821e758f8c9c63847363e9934a161aa",
   "login": "ptomato",
   "number": 3946,
   "ref": "snap-to-integer",
   "revs": [
+   {
+    "adate": "2026-08-11T11:39:22-07:00",
+    "author": "Philip Chimento",
+    "date": "2026-08-11T11:39:22-07:00",
+    "hash": "8588c20f7821e758f8c9c63847363e9934a161aa",
+    "parents": "be8fd255890a8266ad358905f94658f5a0d0f84e",
+    "subject": "(fixup) Canonical alias name abbreviations"
+   },
    {
     "adate": "2026-08-10T15:05:22-07:00",
     "author": "Philip Chimento",
@@ -41,7 +49,7 @@
    }
   ],
   "title": "Editorial: Add SnapToInteger to handle finite-only integer conversion",
-  "updated_at": "2026-08-10T22:05:28Z"
+  "updated_at": "2026-08-11T18:39:28Z"
  },
  {
   "base": "294dcc2a0187b6ac3c52feccad2dadf9f93662d5",
