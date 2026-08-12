@@ -1,6 +1,26 @@
 [
  {
   "base": "294dcc2a0187b6ac3c52feccad2dadf9f93662d5",
+  "created_at": "2026-08-12T16:59:08Z",
+  "head": "19ba7258afe930e76d81f5892ca1f21a919280ae",
+  "login": "bakkot",
+  "number": 3948,
+  "ref": "iterator-join",
+  "revs": [
+   {
+    "adate": "2026-08-12T09:58:03-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2026-08-12T09:58:03-07:00",
+    "hash": "19ba7258afe930e76d81f5892ca1f21a919280ae",
+    "parents": "294dcc2a0187b6ac3c52feccad2dadf9f93662d5",
+    "subject": "Normative: add Iterator.prototype.join"
+   }
+  ],
+  "title": "Normative: add Iterator.prototype.join",
+  "updated_at": "2026-08-12T17:09:24Z"
+ },
+ {
+  "base": "294dcc2a0187b6ac3c52feccad2dadf9f93662d5",
   "created_at": "2026-08-07T22:41:21Z",
   "head": "8588c20f7821e758f8c9c63847363e9934a161aa",
   "login": "ptomato",
