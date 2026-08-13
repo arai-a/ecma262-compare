@@ -1176,40 +1176,32 @@
   "updated_at": "2026-03-27T20:20:59Z"
  },
  {
-  "base": "6dcb70f914e67908abc548b3285dc0583a194910",
+  "base": "294dcc2a0187b6ac3c52feccad2dadf9f93662d5",
   "created_at": "2026-03-26T04:21:16Z",
-  "head": "090b3d5790571a31f6f860fab2f72ccbb6df51e9",
+  "head": "f175eb7211f04e2e75fa1ed26247663e0cea03a2",
   "login": "tc39",
   "number": 3776,
   "ref": "mathematical-counters",
   "revs": [
    {
-    "adate": "2026-04-30T18:27:23-06:00",
+    "adate": "2026-08-13T11:10:19-06:00",
     "author": "Michael Ficarra",
-    "date": "2026-05-27T14:24:34-06:00",
-    "hash": "090b3d5790571a31f6f860fab2f72ccbb6df51e9",
-    "parents": "e5f582c38816243bbfc55231f5ebf9234c912e6e",
-    "subject": "oops"
-   },
-   {
-    "adate": "2026-04-30T13:48:56-06:00",
-    "author": "Michael Ficarra",
-    "date": "2026-05-27T14:24:34-06:00",
-    "hash": "e5f582c38816243bbfc55231f5ebf9234c912e6e",
-    "parents": "2880364984af559eddf176abab7ec497709cd9c1",
-    "subject": "fix syntax error"
+    "date": "2026-08-13T11:10:19-06:00",
+    "hash": "f175eb7211f04e2e75fa1ed26247663e0cea03a2",
+    "parents": "792794772e8a48b7992572e4fb454fa1de60ef8c",
+    "subject": "add notes warning about integral Number limitations"
    },
    {
     "adate": "2026-03-25T22:00:24-06:00",
     "author": "Michael Ficarra",
-    "date": "2026-05-27T14:24:34-06:00",
-    "hash": "2880364984af559eddf176abab7ec497709cd9c1",
-    "parents": "6dcb70f914e67908abc548b3285dc0583a194910",
+    "date": "2026-08-13T11:00:44-06:00",
+    "hash": "792794772e8a48b7992572e4fb454fa1de60ef8c",
+    "parents": "294dcc2a0187b6ac3c52feccad2dadf9f93662d5",
     "subject": "Normative: use Numbers instead of reals as counters in Iterator builtins"
    }
   ],
   "title": "Normative: use Numbers instead of reals as counters in Iterator builtins",
-  "updated_at": "2026-05-27T20:25:56Z"
+  "updated_at": "2026-08-13T17:24:12Z"
  },
  {
   "base": "4895a117eb54edd829f2010092bae8f41c2b174a",
@@ -2910,11 +2902,27 @@
  {
   "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
   "created_at": "2023-11-18T19:49:39Z",
-  "head": "ddeed3435307ff66e6a7d5417d1e72a36687e0ea",
+  "head": "cdfbe9e74552568e8822b465d042f059d8a727fa",
   "login": "gibson042",
   "number": 3223,
   "ref": "2023-11-cover-grammar-text",
   "revs": [
+   {
+    "adate": "2026-08-13T12:39:26-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-08-13T12:40:31-04:00",
+    "hash": "cdfbe9e74552568e8822b465d042f059d8a727fa",
+    "parents": "9a61aa915b8d4dfe64ebd15c769fa6e86127f900",
+    "subject": "Editorial: Add plural variant for term \"supplemental grammar\""
+   },
+   {
+    "adate": "2026-08-13T12:39:26-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-08-13T12:39:41-04:00",
+    "hash": "9a61aa915b8d4dfe64ebd15c769fa6e86127f900",
+    "parents": "ddeed3435307ff66e6a7d5417d1e72a36687e0ea",
+    "subject": "Editorial: Define term \"refined using\" rather than just \"refined\""
+   },
    {
     "adate": "2026-08-03T15:08:07-04:00",
     "author": "Richard Gibson",
@@ -2957,7 +2965,7 @@
    }
   ],
   "title": "Editorial: Separate cover grammar text into a subsection with autolink targets",
-  "updated_at": "2026-08-03T19:09:07Z"
+  "updated_at": "2026-08-13T16:40:54Z"
  },
  {
   "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
