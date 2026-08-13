@@ -1,6 +1,34 @@
 [
  {
   "base": "294dcc2a0187b6ac3c52feccad2dadf9f93662d5",
+  "created_at": "2026-08-13T17:48:11Z",
+  "head": "959eaac967bc4c1009ef8f79b10bfdd1da1357b0",
+  "login": "linusg",
+  "number": 3949,
+  "ref": "mv-counters",
+  "revs": [
+   {
+    "adate": "2026-08-13T18:45:07+01:00",
+    "author": "Linus Groh",
+    "date": "2026-08-13T18:45:07+01:00",
+    "hash": "959eaac967bc4c1009ef8f79b10bfdd1da1357b0",
+    "parents": "7eeb02cd4ca2b236e82d485ed6e2c10632d5057b",
+    "subject": "Editorial: Use MV for loop counter in Array.prototype.unshift"
+   },
+   {
+    "adate": "2026-08-13T18:42:09+01:00",
+    "author": "Linus Groh",
+    "date": "2026-08-13T18:42:09+01:00",
+    "hash": "7eeb02cd4ca2b236e82d485ed6e2c10632d5057b",
+    "parents": "294dcc2a0187b6ac3c52feccad2dadf9f93662d5",
+    "subject": "Editorial: Use MV for source index in FlattenIntoArray"
+   }
+  ],
+  "title": "Editorial: Use MV for loop counters in two more places",
+  "updated_at": "2026-08-13T17:56:25Z"
+ },
+ {
+  "base": "294dcc2a0187b6ac3c52feccad2dadf9f93662d5",
   "created_at": "2026-08-12T16:59:08Z",
   "head": "19ba7258afe930e76d81f5892ca1f21a919280ae",
   "login": "bakkot",
@@ -3190,170 +3218,18 @@
  {
   "base": "294dcc2a0187b6ac3c52feccad2dadf9f93662d5",
   "created_at": "2023-10-12T01:47:04Z",
-  "head": "3af94e0f47e1e6c4370d75f2d02e1ab0b1bd2bb7",
+  "head": "ae8c512bc721e31d39fde8c197a846e2f49c5f7a",
   "login": "jmdyck",
   "number": 3193,
   "ref": "Date_math",
   "revs": [
    {
-    "adate": "2026-06-05T20:04:43-04:00",
-    "author": "Michael Dyck",
-    "date": "2026-08-09T17:16:59-04:00",
-    "hash": "3af94e0f47e1e6c4370d75f2d02e1ab0b1bd2bb7",
-    "parents": "28239f08f8f4bc5a76befc26a14864513c6ef5d4",
-    "subject": "fixup: Change `is` to `=`"
-   },
-   {
-    "adate": "2024-02-27T20:02:11-05:00",
-    "author": "Michael Dyck",
-    "date": "2026-08-09T17:16:59-04:00",
-    "hash": "28239f08f8f4bc5a76befc26a14864513c6ef5d4",
-    "parents": "cc4c64064293f6962620b9fca820a7559e016a4b",
-    "subject": "fixup: fix description of MonthFromTime and WeekDay"
-   },
-   {
-    "adate": "2023-10-11T18:31:13-04:00",
-    "author": "Michael Dyck",
-    "date": "2026-08-09T17:16:59-04:00",
-    "hash": "cc4c64064293f6962620b9fca820a7559e016a4b",
-    "parents": "06d462615ada74144b7802ba01db6de3e80bb565",
-    "subject": "to math: MakeTime, MakeDay, DateString, TimeZoneString, Date.prototype.toUTCString (some internals only)"
-   },
-   {
-    "adate": "2023-10-11T16:55:16-04:00",
-    "author": "Michael Dyck",
-    "date": "2026-08-09T17:16:59-04:00",
-    "hash": "06d462615ada74144b7802ba01db6de3e80bb565",
-    "parents": "fc085a7d2e21ffde897bc1e69fcef97bf2fdc702",
-    "subject": "to math: \"Names of months of the year\" table"
-   },
-   {
-    "adate": "2023-10-11T16:52:18-04:00",
-    "author": "Michael Dyck",
-    "date": "2026-08-09T17:16:59-04:00",
-    "hash": "fc085a7d2e21ffde897bc1e69fcef97bf2fdc702",
-    "parents": "c8bc1ca459635f775de9ba06f8e676e8c3e93d6f",
-    "subject": "to math: \"Names of days of the week\" table"
-   },
-   {
-    "adate": "2023-10-11T16:45:20-04:00",
-    "author": "Michael Dyck",
-    "date": "2026-08-09T17:16:59-04:00",
-    "hash": "c8bc1ca459635f775de9ba06f8e676e8c3e93d6f",
-    "parents": "0a9c365cd60ef042556bd061da46a2546f6a4c12",
-    "subject": "to math: MillisecFromTime (return value)"
-   },
-   {
-    "adate": "2023-10-11T16:41:39-04:00",
-    "author": "Michael Dyck",
-    "date": "2026-08-09T17:16:59-04:00",
-    "hash": "0a9c365cd60ef042556bd061da46a2546f6a4c12",
-    "parents": "bd619eeed88d5341125aa3dd6cfc775721f2f034",
-    "subject": "to math: SecFromTime (return value)"
-   },
-   {
-    "adate": "2023-10-11T16:36:38-04:00",
-    "author": "Michael Dyck",
-    "date": "2026-08-09T17:16:59-04:00",
-    "hash": "bd619eeed88d5341125aa3dd6cfc775721f2f034",
-    "parents": "35fcbc6704d1afebfa5679d27593c5e08daa929a",
-    "subject": "to math: MinFromTime (return value)"
-   },
-   {
-    "adate": "2023-10-11T16:31:53-04:00",
-    "author": "Michael Dyck",
-    "date": "2026-08-09T17:16:58-04:00",
-    "hash": "35fcbc6704d1afebfa5679d27593c5e08daa929a",
-    "parents": "217e3ad9ed552677a7e217e1d8b64dfc9bf52134",
-    "subject": "to math: HourFromTime (return value)"
-   },
-   {
-    "adate": "2023-10-11T16:26:08-04:00",
-    "author": "Michael Dyck",
-    "date": "2026-08-09T17:16:58-04:00",
-    "hash": "217e3ad9ed552677a7e217e1d8b64dfc9bf52134",
-    "parents": "a2b19f2ad78401e6888aa78b5d2238cda6993f45",
-    "subject": "to math: WeekDay (return value)"
-   },
-   {
-    "adate": "2023-10-11T16:21:26-04:00",
-    "author": "Michael Dyck",
-    "date": "2026-08-09T17:16:58-04:00",
-    "hash": "a2b19f2ad78401e6888aa78b5d2238cda6993f45",
-    "parents": "b834ba87c0765f2b4093a72aa5bec13d743344ad",
-    "subject": "to math: DateFromTime (return value + internal aliases)"
-   },
-   {
-    "adate": "2023-10-11T14:30:24-04:00",
-    "author": "Michael Dyck",
-    "date": "2026-08-09T17:16:58-04:00",
-    "hash": "b834ba87c0765f2b4093a72aa5bec13d743344ad",
-    "parents": "56e527e344222caa97fd53d716a4076761136e51",
-    "subject": "to math: MonthFromTime (return value + internal aliases)"
-   },
-   {
-    "adate": "2023-10-11T14:15:52-04:00",
-    "author": "Michael Dyck",
-    "date": "2026-08-09T17:16:58-04:00",
-    "hash": "56e527e344222caa97fd53d716a4076761136e51",
-    "parents": "e3ad1ffa89bfee9a8bbc63ecf2072e156fa2b648",
-    "subject": "to math: InLeapYear (return value)"
-   },
-   {
-    "adate": "2023-10-11T14:11:51-04:00",
-    "author": "Michael Dyck",
-    "date": "2026-08-09T17:16:58-04:00",
-    "hash": "e3ad1ffa89bfee9a8bbc63ecf2072e156fa2b648",
-    "parents": "e8ceb5993da922c72451db23d3531d3496855d45",
-    "subject": "to math: DayWithinYear (return value)"
-   },
-   {
-    "adate": "2023-10-11T14:05:37-04:00",
-    "author": "Michael Dyck",
-    "date": "2026-08-09T17:16:58-04:00",
-    "hash": "e8ceb5993da922c72451db23d3531d3496855d45",
-    "parents": "85f1c7acc3009f5c0681b063f6eefaa3b1171ca9",
-    "subject": "to math: YearFromTime (return value)"
-   },
-   {
-    "adate": "2023-10-11T13:56:05-04:00",
-    "author": "Michael Dyck",
-    "date": "2026-08-09T17:16:58-04:00",
-    "hash": "85f1c7acc3009f5c0681b063f6eefaa3b1171ca9",
-    "parents": "1f2dd1f0ab71179b2789616ac7458665b09bcac4",
-    "subject": "to math: TimeFromYear (parameter)"
-   },
-   {
-    "adate": "2023-10-11T13:47:38-04:00",
-    "author": "Michael Dyck",
-    "date": "2026-08-09T17:16:58-04:00",
-    "hash": "1f2dd1f0ab71179b2789616ac7458665b09bcac4",
-    "parents": "50b62a7a8d65889c4832eebca48f75835f6b514a",
-    "subject": "to math: DayFromYear (parameter + return value)"
-   },
-   {
-    "adate": "2023-10-10T23:12:16-04:00",
-    "author": "Michael Dyck",
-    "date": "2026-08-09T17:16:57-04:00",
-    "hash": "50b62a7a8d65889c4832eebca48f75835f6b514a",
-    "parents": "53087336f03fd798b7e8c374c2b01fb07d27d50a",
-    "subject": "to math: TimeWithinDay (return value)"
-   },
-   {
-    "adate": "2023-10-10T23:09:51-04:00",
-    "author": "Michael Dyck",
-    "date": "2026-08-09T17:16:57-04:00",
-    "hash": "53087336f03fd798b7e8c374c2b01fb07d27d50a",
-    "parents": "72e07c5257e64b5895e241727d5bb44bc96e9e44",
-    "subject": "to math: Day (return value)"
-   },
-   {
     "adate": "2023-10-10T22:49:04-04:00",
     "author": "Michael Dyck",
-    "date": "2026-08-09T17:16:32-04:00",
-    "hash": "72e07c5257e64b5895e241727d5bb44bc96e9e44",
+    "date": "2026-08-13T14:48:38-04:00",
+    "hash": "ae8c512bc721e31d39fde8c197a846e2f49c5f7a",
     "parents": "5412982d9691e23053267b7ab464f75412475636",
-    "subject": "to math: msPerFoo constants"
+    "subject": "Editorial: Shift low-level Date AOs from integral Numbers to mathematical integers"
    },
    {
     "adate": "2023-10-10T22:22:09-04:00",
@@ -3373,7 +3249,7 @@
    }
   ],
   "title": "Editorial: More tweaks to low-level Date AOs",
-  "updated_at": "2026-08-10T00:02:56Z"
+  "updated_at": "2026-08-13T18:54:51Z"
  },
  {
   "base": "294dcc2a0187b6ac3c52feccad2dadf9f93662d5",
