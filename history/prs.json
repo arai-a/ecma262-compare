@@ -1,5 +1,41 @@
 [
  {
+  "base": "ae8c512bc721e31d39fde8c197a846e2f49c5f7a",
+  "created_at": "2026-08-14T09:32:40Z",
+  "head": "94cec8438f7bf77b9513c45f37b04746af26d780",
+  "login": "nicolo-ribaudo",
+  "number": 3951,
+  "ref": "dfn-essential-methods",
+  "revs": [
+   {
+    "adate": "2026-08-14T11:29:37+02:00",
+    "author": "Nicol\u00f2 Ribaudo",
+    "date": "2026-08-14T11:29:37+02:00",
+    "hash": "94cec8438f7bf77b9513c45f37b04746af26d780",
+    "parents": "02c33f1a81cd8665fa49c6014d9103a21144c13b",
+    "subject": "Editorial: define \"essential internal method\""
+   },
+   {
+    "adate": "2026-08-14T11:21:59+02:00",
+    "author": "Nicol\u00f2 Ribaudo",
+    "date": "2026-08-14T11:21:59+02:00",
+    "hash": "02c33f1a81cd8665fa49c6014d9103a21144c13b",
+    "parents": "3e2097da06937014f075254e60c3f0a1c26d675e",
+    "subject": "Editorial: Clarify that not all objects have all essential internal methods"
+   },
+   {
+    "adate": "2026-08-14T10:59:28+02:00",
+    "author": "Nicol\u00f2 Ribaudo",
+    "date": "2026-08-14T11:01:22+02:00",
+    "hash": "3e2097da06937014f075254e60c3f0a1c26d675e",
+    "parents": "ae8c512bc721e31d39fde8c197a846e2f49c5f7a",
+    "subject": "Editorial: Split sections for internal slots and methods"
+   }
+  ],
+  "title": "Editorial: define \"essential internal method\"",
+  "updated_at": "2026-08-14T09:40:37Z"
+ },
+ {
   "base": "294dcc2a0187b6ac3c52feccad2dadf9f93662d5",
   "created_at": "2026-08-13T22:07:52Z",
   "head": "d8b1688d2bef88ce278f3a26dba8b83272010efd",
@@ -3258,42 +3294,6 @@
   ],
   "title": "Normative: Propagate active ScriptOrModule with JobCallback Record",
   "updated_at": "2024-07-19T17:14:37Z"
- },
- {
-  "base": "294dcc2a0187b6ac3c52feccad2dadf9f93662d5",
-  "created_at": "2023-10-12T01:47:04Z",
-  "head": "ae8c512bc721e31d39fde8c197a846e2f49c5f7a",
-  "login": "jmdyck",
-  "number": 3193,
-  "ref": "Date_math",
-  "revs": [
-   {
-    "adate": "2023-10-10T22:49:04-04:00",
-    "author": "Michael Dyck",
-    "date": "2026-08-13T14:48:38-04:00",
-    "hash": "ae8c512bc721e31d39fde8c197a846e2f49c5f7a",
-    "parents": "5412982d9691e23053267b7ab464f75412475636",
-    "subject": "Editorial: Shift low-level Date AOs from integral Numbers to mathematical integers"
-   },
-   {
-    "adate": "2023-10-10T22:22:09-04:00",
-    "author": "Michael Dyck",
-    "date": "2026-08-08T21:28:38-04:00",
-    "hash": "5412982d9691e23053267b7ab464f75412475636",
-    "parents": "fbd6925968224b4352cb17506806e9331907a857",
-    "subject": "Editorial: Rename `msFromTime` as `MillisecFromTime`"
-   },
-   {
-    "adate": "2023-10-10T22:19:14-04:00",
-    "author": "Michael Dyck",
-    "date": "2026-08-08T21:28:38-04:00",
-    "hash": "fbd6925968224b4352cb17506806e9331907a857",
-    "parents": "294dcc2a0187b6ac3c52feccad2dadf9f93662d5",
-    "subject": "Editorial: Inline `DaysInYear` into `InLeapYear`"
-   }
-  ],
-  "title": "Editorial: More tweaks to low-level Date AOs",
-  "updated_at": "2026-08-13T18:54:51Z"
  },
  {
   "base": "294dcc2a0187b6ac3c52feccad2dadf9f93662d5",
