@@ -1,5 +1,29 @@
 [
  {
+  "adate": "2023-10-10T22:49:04-04:00",
+  "author": "Michael Dyck",
+  "date": "2026-08-13T14:48:38-04:00",
+  "hash": "ae8c512bc721e31d39fde8c197a846e2f49c5f7a",
+  "parents": "5412982d9691e23053267b7ab464f75412475636",
+  "subject": "Editorial: Shift low-level Date AOs from integral Numbers to mathematical integers"
+ },
+ {
+  "adate": "2023-10-10T22:22:09-04:00",
+  "author": "Michael Dyck",
+  "date": "2026-08-08T21:28:38-04:00",
+  "hash": "5412982d9691e23053267b7ab464f75412475636",
+  "parents": "fbd6925968224b4352cb17506806e9331907a857",
+  "subject": "Editorial: Rename `msFromTime` as `MillisecFromTime`"
+ },
+ {
+  "adate": "2023-10-10T22:19:14-04:00",
+  "author": "Michael Dyck",
+  "date": "2026-08-08T21:28:38-04:00",
+  "hash": "fbd6925968224b4352cb17506806e9331907a857",
+  "parents": "294dcc2a0187b6ac3c52feccad2dadf9f93662d5",
+  "subject": "Editorial: Inline `DaysInYear` into `InLeapYear`"
+ },
+ {
   "adate": "2026-08-06T20:53:44+12:00",
   "author": "Philip Chimento",
   "date": "2026-08-06T20:53:44+12:00",
