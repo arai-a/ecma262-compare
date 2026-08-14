@@ -904,56 +904,40 @@
   "updated_at": "2026-07-16T21:49:37Z"
  },
  {
-  "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
+  "base": "ae8c512bc721e31d39fde8c197a846e2f49c5f7a",
   "created_at": "2026-07-14T03:02:13Z",
-  "head": "96fccf81c94a724bec093314706022eb26e16add",
+  "head": "40d2356fa0b44cbdda2476b85dd4a30e1617dd16",
   "login": "bakkot",
   "number": 3912,
   "ref": "linking-internal-methods",
   "revs": [
    {
-    "adate": "2026-07-24T18:10:21-07:00",
+    "adate": "2026-08-14T10:13:53-07:00",
     "author": "Kevin Gibbons",
-    "date": "2026-07-24T18:10:21-07:00",
-    "hash": "96fccf81c94a724bec093314706022eb26e16add",
-    "parents": "777ccc8f2f25a4cb2612382f9249213d696c3057",
-    "subject": "more fix"
-   },
-   {
-    "adate": "2026-07-23T12:43:22-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2026-07-23T12:43:22-07:00",
-    "hash": "777ccc8f2f25a4cb2612382f9249213d696c3057",
-    "parents": "3da78bec160a5b698741fdb17bb5724bb6f54325",
-    "subject": "jmdyck fix"
-   },
-   {
-    "adate": "2026-07-23T10:44:56-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2026-07-23T10:44:56-07:00",
-    "hash": "3da78bec160a5b698741fdb17bb5724bb6f54325",
-    "parents": "8fee2f81926df77ec94f2f7472deef72fc518e3d",
-    "subject": "comments/formatting"
+    "date": "2026-08-14T10:14:09-07:00",
+    "hash": "40d2356fa0b44cbdda2476b85dd4a30e1617dd16",
+    "parents": "0d7b33fea8efbfb1b133aef7d077e622e3ef7f6b",
+    "subject": "Editorial: tweak descriptions of some internal methods"
    },
    {
     "adate": "2026-07-19T14:39:45-07:00",
     "author": "Kevin Gibbons",
-    "date": "2026-07-19T14:39:45-07:00",
-    "hash": "8fee2f81926df77ec94f2f7472deef72fc518e3d",
-    "parents": "f8955a3bc1a07e309395d7e9495e24d5a5e0d72b",
+    "date": "2026-08-14T10:14:09-07:00",
+    "hash": "0d7b33fea8efbfb1b133aef7d077e622e3ef7f6b",
+    "parents": "001cc006abe30191b2ef6f3d0fcb630473a7acd4",
     "subject": "Meta: bump ecmarkup to 25.0.0"
    },
    {
     "adate": "2026-07-13T19:48:14-07:00",
     "author": "Kevin Gibbons",
-    "date": "2026-07-19T14:37:26-07:00",
-    "hash": "f8955a3bc1a07e309395d7e9495e24d5a5e0d72b",
-    "parents": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
+    "date": "2026-08-14T10:14:09-07:00",
+    "hash": "001cc006abe30191b2ef6f3d0fcb630473a7acd4",
+    "parents": "ae8c512bc721e31d39fde8c197a846e2f49c5f7a",
     "subject": "Editorial: improve linking of essential internal methods"
    }
   ],
   "title": "Editorial: improve linking of essential internal methods",
-  "updated_at": "2026-07-25T01:10:28Z"
+  "updated_at": "2026-08-14T17:15:06Z"
  },
  {
   "base": "1355a23e48aaf2b1d7b6cbfad0fb98bce999cfd1",
