@@ -22,7 +22,7 @@
  {
   "base": "ae8c512bc721e31d39fde8c197a846e2f49c5f7a",
   "created_at": "2026-08-14T13:22:56Z",
-  "head": "1527c9de93184dcd45e5eddf7a4b4320db243a57",
+  "head": "e50e79294d48e5e74fbb1fad1f7cf2b428951575",
   "login": "Leonabcd123",
   "number": 3952,
   "ref": "run-caller-context-naming",
@@ -30,14 +30,14 @@
    {
     "adate": "2026-08-14T16:14:46+03:00",
     "author": "Leonabcd123",
-    "date": "2026-08-19T11:02:36+03:00",
-    "hash": "1527c9de93184dcd45e5eddf7a4b4320db243a57",
+    "date": "2026-08-19T21:35:05+03:00",
+    "hash": "e50e79294d48e5e74fbb1fad1f7cf2b428951575",
     "parents": "ae8c512bc721e31d39fde8c197a846e2f49c5f7a",
-    "subject": "Editorial: rename genContext to innerContext in RunCallerContext"
+    "subject": "Editorial: rename genContext to calleeContext in RunCallerContext"
    }
   ],
-  "title": "Editorial: rename genContext to innerContext in RunCallerContext",
-  "updated_at": "2026-08-19T08:05:45Z"
+  "title": "Editorial: rename genContext to calleeContext in RunCallerContext",
+  "updated_at": "2026-08-19T18:36:21Z"
  },
  {
   "base": "ae8c512bc721e31d39fde8c197a846e2f49c5f7a",
