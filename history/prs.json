@@ -2696,56 +2696,32 @@
   "updated_at": "2024-10-23T15:23:17Z"
  },
  {
-  "base": "294dcc2a0187b6ac3c52feccad2dadf9f93662d5",
+  "base": "ae8c512bc721e31d39fde8c197a846e2f49c5f7a",
   "created_at": "2024-09-03T16:03:00Z",
-  "head": "b9268f86c039f46c7026d878e26db9c0fc4ff48e",
+  "head": "2cb236003888af9732e213791e8892e7e253a627",
   "login": "gibson042",
   "number": 3412,
   "ref": "2024-09-regexp-canonicalize-alias-names",
   "revs": [
    {
-    "adate": "2026-08-13T18:27:14-04:00",
+    "adate": "2026-08-20T16:13:09-07:00",
     "author": "Richard Gibson",
-    "date": "2026-08-13T18:29:45-04:00",
-    "hash": "b9268f86c039f46c7026d878e26db9c0fc4ff48e",
-    "parents": "dc9e9c9567a5b456719660356b80a636522ef929",
-    "subject": "fixup! Editorial: Remove an alias from Canonicalize"
+    "date": "2026-08-20T16:13:09-07:00",
+    "hash": "2cb236003888af9732e213791e8892e7e253a627",
+    "parents": "ede35c038c4c39f867bd2aeaa3fe1e240f798f9e",
+    "subject": "Editorial: Remove an alias from Canonicalize (#3412)"
    },
    {
-    "adate": "2026-08-13T18:27:14-04:00",
+    "adate": "2026-08-20T16:13:05-07:00",
     "author": "Richard Gibson",
-    "date": "2026-08-13T18:29:29-04:00",
-    "hash": "dc9e9c9567a5b456719660356b80a636522ef929",
-    "parents": "c6a5ff8ac85de3aa5d7156b90d2ef72c6fd6073d",
-    "subject": "fixup! Editorial: Remove an alias from Canonicalize"
-   },
-   {
-    "adate": "2026-08-06T17:53:31-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-08-06T17:53:31-04:00",
-    "hash": "c6a5ff8ac85de3aa5d7156b90d2ef72c6fd6073d",
-    "parents": "9b5cdea5cf437320fd9469c4daa7ed9a429410f4",
-    "subject": "fixup! Editorial: Remove an alias from Canonicalize"
-   },
-   {
-    "adate": "2024-09-03T11:54:58-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-08-02T15:55:05-04:00",
-    "hash": "9b5cdea5cf437320fd9469c4daa7ed9a429410f4",
-    "parents": "533536e34845bfd92901d37a099642fd037861cf",
-    "subject": "Editorial: Remove an alias from Canonicalize"
-   },
-   {
-    "adate": "2024-09-03T11:23:32-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-08-02T15:46:35-04:00",
-    "hash": "533536e34845bfd92901d37a099642fd037861cf",
-    "parents": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
-    "subject": "Editorial: Rename aliases in Canonicalize for better readability"
+    "date": "2026-08-20T16:13:05-07:00",
+    "hash": "ede35c038c4c39f867bd2aeaa3fe1e240f798f9e",
+    "parents": "ae8c512bc721e31d39fde8c197a846e2f49c5f7a",
+    "subject": "Editorial: Rename aliases in Canonicalize for better readability (#3412)"
    }
   ],
   "title": "Editorial: Rename aliases in Canonicalize for better readability",
-  "updated_at": "2026-08-13T22:29:58Z"
+  "updated_at": "2026-08-20T23:13:19Z"
  },
  {
   "base": "810a33f9130746f481746f7907a05cf83bca298e",
