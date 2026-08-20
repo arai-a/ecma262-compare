@@ -1156,6 +1156,26 @@
   "updated_at": "2026-06-02T18:09:48Z"
  },
  {
+  "base": "8c0c94eb3be152b7ae7dc0cb580f4ee9f0a9a0c2",
+  "created_at": "2026-05-22T13:00:04Z",
+  "head": "ec683b02dfcc67e72a5952b0f07b905466118266",
+  "login": "ljharb",
+  "number": 3878,
+  "ref": "stack-accessor",
+  "revs": [
+   {
+    "adate": "2026-06-07T22:10:01-07:00",
+    "author": "Jordan Harband",
+    "date": "2026-06-07T22:10:01-07:00",
+    "hash": "ec683b02dfcc67e72a5952b0f07b905466118266",
+    "parents": "8c0c94eb3be152b7ae7dc0cb580f4ee9f0a9a0c2",
+    "subject": "Normative: add Error.prototype.stack (#3878)"
+   }
+  ],
+  "title": "Normative: add Error.prototype.stack",
+  "updated_at": "2026-06-08T05:10:10Z"
+ },
+ {
   "base": "1355a23e48aaf2b1d7b6cbfad0fb98bce999cfd1",
   "created_at": "2026-05-19T12:27:43Z",
   "head": "e2ed6c1da78a2ecf04557bc3710d5db218e2fe3b",
@@ -4760,6 +4780,26 @@
   "updated_at": "2020-03-27T07:01:22Z"
  },
  {
+  "base": "189d27a4e510052a899ed53c4d5c582b24138319",
+  "created_at": "2019-12-02T22:32:56Z",
+  "head": "a230e10014e4f52f3713af38b034fd1beb1b80e3",
+  "login": "ljharb",
+  "number": 1799,
+  "ref": "commit-check",
+  "revs": [
+   {
+    "adate": "2019-12-02T14:30:58-08:00",
+    "author": "Jordan Harband",
+    "date": "2020-04-06T22:45:39-07:00",
+    "hash": "a230e10014e4f52f3713af38b034fd1beb1b80e3",
+    "parents": "bb487a218573557f7d9a85fb63f3edef632c592c",
+    "subject": "Meta: add action to check commit messages (#1799)"
+   }
+  ],
+  "title": "WIP: Meta: add script to land PRs",
+  "updated_at": "2026-04-25T03:51:14Z"
+ },
+ {
   "base": "b25c59273f407974e0c7d9372a2c9f71bb1f21c4",
   "created_at": "2019-10-17T02:16:37Z",
   "head": "373610bca4b63fa94239189e8cd2387b64957379",
@@ -4878,6 +4918,46 @@
   ],
   "title": "Editorial: Provide context for HostImportModuleDynamically requirement",
   "updated_at": "2020-03-27T07:01:30Z"
+ },
+ {
+  "base": "189d27a4e510052a899ed53c4d5c582b24138319",
+  "created_at": "2019-04-26T00:56:27Z",
+  "head": "dd9d1d2c2246b60b7b1b9dcea353de773ba78598",
+  "login": "ljharb",
+  "number": 1518,
+  "ref": "array_join_cyclic",
+  "revs": [
+   {
+    "adate": "2019-04-25T17:53:32-07:00",
+    "author": "Jordan Harband",
+    "date": "2019-04-25T23:16:58-07:00",
+    "hash": "dd9d1d2c2246b60b7b1b9dcea353de773ba78598",
+    "parents": "69d9e638031c6a16199cbd844b13ccd4b14826b5",
+    "subject": "Normative: specify web reality for Array.prototype.join with cyclic values"
+   }
+  ],
+  "title": "Normative: specify web reality for Array.prototype.join with cyclic values",
+  "updated_at": "2026-04-25T03:51:14Z"
+ },
+ {
+  "base": "189d27a4e510052a899ed53c4d5c582b24138319",
+  "created_at": "2019-04-24T18:13:12Z",
+  "head": "7244f340581a62d1bb4b1c009cef7564206777ac",
+  "login": "ljharb",
+  "number": 1517,
+  "ref": "fix_matchall",
+  "revs": [
+   {
+    "adate": "2019-04-24T11:11:09-07:00",
+    "author": "Jordan Harband",
+    "date": "2019-04-24T11:11:09-07:00",
+    "hash": "7244f340581a62d1bb4b1c009cef7564206777ac",
+    "parents": "f158df16b4bfa4d8d1efa7407ebfe8eeb339f4fd",
+    "subject": "Normative: correct spec bug in `RegExp.prototype[Symbol.matchAll]`"
+   }
+  ],
+  "title": "Normative: correct spec bug in `RegExp.prototype[Symbol.matchAll]`",
+  "updated_at": "2026-04-25T03:51:15Z"
  },
  {
   "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
