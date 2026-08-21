@@ -288,24 +288,24 @@
   "updated_at": "2026-08-14T19:51:08Z"
  },
  {
-  "base": "ae8c512bc721e31d39fde8c197a846e2f49c5f7a",
+  "base": "41404faec137ba16f0ec6637117a3f170af46459",
   "created_at": "2026-08-07T01:50:02Z",
-  "head": "3d5fe398fff62bfb1cd09eff5b6910f94c1c9ff1",
+  "head": "1ba69a59233a507f7427eaf85ab5c24e9cb3c62f",
   "login": "ptomato",
   "number": 3942,
   "ref": "epoch-nanoseconds-count",
   "revs": [
    {
-    "adate": "2026-08-06T18:49:38-07:00",
+    "adate": "2026-08-20T22:18:55-07:00",
     "author": "Philip Chimento",
-    "date": "2026-08-14T11:37:55-07:00",
-    "hash": "3d5fe398fff62bfb1cd09eff5b6910f94c1c9ff1",
-    "parents": "ae8c512bc721e31d39fde8c197a846e2f49c5f7a",
-    "subject": "Editorial: Introduce \"epoch nanoseconds count\" definition"
+    "date": "2026-08-20T22:18:55-07:00",
+    "hash": "1ba69a59233a507f7427eaf85ab5c24e9cb3c62f",
+    "parents": "41404faec137ba16f0ec6637117a3f170af46459",
+    "subject": "Editorial: Introduce \"epoch nanoseconds count\" definition (#3942)"
    }
   ],
   "title": "Editorial: Introduce \"epoch nanoseconds count\" definition",
-  "updated_at": "2026-08-14T18:39:05Z"
+  "updated_at": "2026-08-21T05:36:43Z"
  },
  {
   "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
@@ -342,62 +342,6 @@
   ],
   "title": "Editorial: Reword \"specified in the ECMA-402 specification\"",
   "updated_at": "2026-08-10T22:02:15Z"
- },
- {
-  "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
-  "created_at": "2026-08-05T18:46:01Z",
-  "head": "d52c50a2270fbd98469b92735750d764d1c5fc92",
-  "login": "ptomato",
-  "number": 3939,
-  "ref": "iana-time-zone-database",
-  "revs": [
-   {
-    "adate": "2026-08-10T15:30:00-07:00",
-    "author": "Philip Chimento",
-    "date": "2026-08-10T15:30:00-07:00",
-    "hash": "d52c50a2270fbd98469b92735750d764d1c5fc92",
-    "parents": "b9c4c94f3804f9be926a87a52df13ada9152b146",
-    "subject": "(fixup) Only link the first occurrence in a paragraph"
-   },
-   {
-    "adate": "2026-08-05T11:44:47-07:00",
-    "author": "Philip Chimento",
-    "date": "2026-08-05T11:44:47-07:00",
-    "hash": "b9c4c94f3804f9be926a87a52df13ada9152b146",
-    "parents": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
-    "subject": "Editorial: Improve references to IANA Time Zone Database"
-   }
-  ],
-  "title": "Editorial: Improve references to IANA Time Zone Database",
-  "updated_at": "2026-08-10T22:31:54Z"
- },
- {
-  "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
-  "created_at": "2026-08-03T19:37:55Z",
-  "head": "460a79c8b9ebbc5c969c99955823ab54e04d456c",
-  "login": "gibson042",
-  "number": 3938,
-  "ref": "2026-08-simplify-trailing-comma-productions",
-  "revs": [
-   {
-    "adate": "2026-08-06T17:40:44-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-08-06T17:40:44-04:00",
-    "hash": "460a79c8b9ebbc5c969c99955823ab54e04d456c",
-    "parents": "e183efdfea0bdf0c881941f519b7f45c99585505",
-    "subject": "fixup! Editorial: Simplify optional-trailing-comma productions"
-   },
-   {
-    "adate": "2026-08-03T15:17:48-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-08-03T15:37:28-04:00",
-    "hash": "e183efdfea0bdf0c881941f519b7f45c99585505",
-    "parents": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
-    "subject": "Editorial: Simplify optional-trailing-comma productions"
-   }
-  ],
-  "title": "Editorial: Simplify optional-trailing-comma productions",
-  "updated_at": "2026-08-06T21:41:52Z"
  },
  {
   "base": "294dcc2a0187b6ac3c52feccad2dadf9f93662d5",
@@ -694,26 +638,6 @@
   ],
   "title": "Editorial: decouple JSON.parse from ES evaluation semantics",
   "updated_at": "2026-08-07T13:46:34Z"
- },
- {
-  "base": "bb02120867b8b4066ccf2d7ed1de3622790b173d",
-  "created_at": "2026-07-28T14:26:22Z",
-  "head": "808af176fc6b2a63bf4a5df110c8296de402d60b",
-  "login": "gibson042",
-  "number": 3932,
-  "ref": "2026-07-lint-annex-b",
-  "revs": [
-   {
-    "adate": "2026-07-28T10:25:48-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-08-20T21:18:38-07:00",
-    "hash": "808af176fc6b2a63bf4a5df110c8296de402d60b",
-    "parents": "bb02120867b8b4066ccf2d7ed1de3622790b173d",
-    "subject": "Editorial: Prepare Annex B for ecmarkup linting (#3932)"
-   }
-  ],
-  "title": "Editorial: Prepare Annex B for ecmarkup linting",
-  "updated_at": "2026-08-21T04:19:01Z"
  },
  {
   "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
