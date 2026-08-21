@@ -1,5 +1,81 @@
 [
  {
+  "base": "ad0ccf5efd879b6852faa08f10ca51f71a4f7cd0",
+  "created_at": "2026-08-21T15:02:35Z",
+  "head": "9216cd07a0a2273850b4db27dca994bf0abd447c",
+  "login": "gibson042",
+  "number": 3956,
+  "ref": "2026-08-clarify-parsing",
+  "revs": [
+   {
+    "adate": "2026-08-21T11:37:36-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-08-21T11:37:36-04:00",
+    "hash": "9216cd07a0a2273850b4db27dca994bf0abd447c",
+    "parents": "116a727a631df95cc890743b69b096e058644c0b",
+    "subject": "fixup! Editorial: Generalize \"The Numeric String Grammar\" into \"Runtime Grammars\""
+   },
+   {
+    "adate": "2026-08-21T11:33:35-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-08-21T11:33:35-04:00",
+    "hash": "116a727a631df95cc890743b69b096e058644c0b",
+    "parents": "5958369fc3cc3521085bf4be1852ce67c250bb2a",
+    "subject": "fixup! Editorial: Add an example for multi-character syntactic-grammar terminal symbols"
+   },
+   {
+    "adate": "2026-08-21T10:56:00-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-08-21T10:56:06-04:00",
+    "hash": "5958369fc3cc3521085bf4be1852ce67c250bb2a",
+    "parents": "e426cc363132f7bc014e7004d2ba1a642e0ce71a",
+    "subject": "Editorial: Directly relate ParseText to parsing"
+   },
+   {
+    "adate": "2026-08-21T10:45:31-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-08-21T10:45:31-04:00",
+    "hash": "e426cc363132f7bc014e7004d2ba1a642e0ce71a",
+    "parents": "8b3c8a9ff9a8a2279f5c8046c1de260d74adf813",
+    "subject": "Editorial: Split a new \"Parsing\" section from \"The Syntactic Grammar\""
+   },
+   {
+    "adate": "2026-08-21T10:22:43-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-08-21T10:22:43-04:00",
+    "hash": "8b3c8a9ff9a8a2279f5c8046c1de260d74adf813",
+    "parents": "2197b660184d5948a3ddf677ee687310f982b456",
+    "subject": "Editorial: Generalize mnemonic-based terminal symbols to all non-syntactic grammars"
+   },
+   {
+    "adate": "2026-08-21T10:20:06-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-08-21T10:21:30-04:00",
+    "hash": "2197b660184d5948a3ddf677ee687310f982b456",
+    "parents": "4764f86be7378a83c8e674e9c00d9f077c966736",
+    "subject": "Editorial: Add an example for multi-character syntactic-grammar terminal symbols"
+   },
+   {
+    "adate": "2026-08-21T09:49:21-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-08-21T10:12:49-04:00",
+    "hash": "4764f86be7378a83c8e674e9c00d9f077c966736",
+    "parents": "3897ceb4543222c2bd6a662ee3477fcdf97ec0b5",
+    "subject": "Editorial: Generalize \"The Numeric String Grammar\" into \"Runtime Grammars\""
+   },
+   {
+    "adate": "2026-08-21T09:48:17-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-08-21T09:48:17-04:00",
+    "hash": "3897ceb4543222c2bd6a662ee3477fcdf97ec0b5",
+    "parents": "ad0ccf5efd879b6852faa08f10ca51f71a4f7cd0",
+    "subject": "Editorial: Use common phrasing for explaining grammar-distinguishing colons"
+   }
+  ],
+  "title": "Editorial: Clarify parsing",
+  "updated_at": "2026-08-21T15:40:38Z"
+ },
+ {
   "base": "ae8c512bc721e31d39fde8c197a846e2f49c5f7a",
   "created_at": "2026-08-20T19:01:24Z",
   "head": "9f09dc001496b70e4e240b47fabc162f1fc5c3d1",
