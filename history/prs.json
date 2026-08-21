@@ -696,48 +696,24 @@
   "updated_at": "2026-08-07T13:46:34Z"
  },
  {
-  "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
+  "base": "bb02120867b8b4066ccf2d7ed1de3622790b173d",
   "created_at": "2026-07-28T14:26:22Z",
-  "head": "58845fbb83a03b3a97e12b1121470424a17ce91b",
+  "head": "808af176fc6b2a63bf4a5df110c8296de402d60b",
   "login": "gibson042",
   "number": 3932,
   "ref": "2026-07-lint-annex-b",
   "revs": [
    {
-    "adate": "2026-07-30T17:37:59-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-07-30T17:37:59-04:00",
-    "hash": "58845fbb83a03b3a97e12b1121470424a17ce91b",
-    "parents": "1ba00ca680b5d2a9a50a05a2be60860c2fea22d2",
-    "subject": "fixup! Editorial: Try for more consistency in the Annex B SDO modifications"
-   },
-   {
     "adate": "2026-07-28T10:25:48-04:00",
     "author": "Richard Gibson",
-    "date": "2026-07-28T22:35:39-04:00",
-    "hash": "1ba00ca680b5d2a9a50a05a2be60860c2fea22d2",
-    "parents": "4b4baf6061514323f173295199dd910ec99cec61",
-    "subject": "Editorial: Use INS tags to highlight Annex B ParsePattern modifications"
-   },
-   {
-    "adate": "2026-07-28T10:25:48-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-07-28T22:35:39-04:00",
-    "hash": "4b4baf6061514323f173295199dd910ec99cec61",
-    "parents": "b280418ca8126f810bfab02c707ea2a2b0f226e9",
-    "subject": "Editorial: Try for more consistency in the Annex B SDO modifications"
-   },
-   {
-    "adate": "2026-07-28T10:25:48-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-07-28T10:25:48-04:00",
-    "hash": "b280418ca8126f810bfab02c707ea2a2b0f226e9",
-    "parents": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
-    "subject": "Editorial: Prepare Annex B for ecmarkup linting"
+    "date": "2026-08-20T21:18:38-07:00",
+    "hash": "808af176fc6b2a63bf4a5df110c8296de402d60b",
+    "parents": "bb02120867b8b4066ccf2d7ed1de3622790b173d",
+    "subject": "Editorial: Prepare Annex B for ecmarkup linting (#3932)"
    }
   ],
   "title": "Editorial: Prepare Annex B for ecmarkup linting",
-  "updated_at": "2026-07-30T21:38:09Z"
+  "updated_at": "2026-08-21T04:19:01Z"
  },
  {
   "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
@@ -1326,26 +1302,6 @@
   ],
   "title": "Editorial: manually adjust table column widths for better balance",
   "updated_at": "2026-03-27T20:20:59Z"
- },
- {
-  "base": "2cb236003888af9732e213791e8892e7e253a627",
-  "created_at": "2026-03-26T04:21:16Z",
-  "head": "bb02120867b8b4066ccf2d7ed1de3622790b173d",
-  "login": "tc39",
-  "number": 3776,
-  "ref": "mathematical-counters",
-  "revs": [
-   {
-    "adate": "2026-03-25T22:00:24-06:00",
-    "author": "Michael Ficarra",
-    "date": "2026-08-20T18:17:32-07:00",
-    "hash": "bb02120867b8b4066ccf2d7ed1de3622790b173d",
-    "parents": "2cb236003888af9732e213791e8892e7e253a627",
-    "subject": "Normative: use Numbers instead of reals as counters in Iterator builtins (#3776)"
-   }
-  ],
-  "title": "Normative: use Numbers instead of reals as counters in Iterator builtins",
-  "updated_at": "2026-08-21T01:17:56Z"
  },
  {
   "base": "4895a117eb54edd829f2010092bae8f41c2b174a",
