@@ -1,5 +1,25 @@
 [
  {
+  "base": "ed463bc10dbeaad0410ce67e541a77ea8e9900a5",
+  "created_at": "2026-08-22T19:34:57Z",
+  "head": "ac98177e53e19cbce970fa2c449ffdb0ebaad441",
+  "login": "gibson042",
+  "number": 3957,
+  "ref": "2026-08-normative-optional-tco",
+  "revs": [
+   {
+    "adate": "2026-08-21T21:28:09-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-08-21T21:28:09-04:00",
+    "hash": "ac98177e53e19cbce970fa2c449ffdb0ebaad441",
+    "parents": "ad0ccf5efd879b6852faa08f10ca51f71a4f7cd0",
+    "subject": "Normative: Make tail-call optimization normative-optional to match web reality"
+   }
+  ],
+  "title": "Normative: Make tail-call optimization normative-optional to match web reality",
+  "updated_at": "2026-08-22T19:43:05Z"
+ },
+ {
   "base": "ad0ccf5efd879b6852faa08f10ca51f71a4f7cd0",
   "created_at": "2026-08-21T15:02:35Z",
   "head": "9216cd07a0a2273850b4db27dca994bf0abd447c",
@@ -202,26 +222,6 @@
   ],
   "title": "Editorial: define \"essential internal method\"",
   "updated_at": "2026-08-14T09:40:37Z"
- },
- {
-  "base": "ad0ccf5efd879b6852faa08f10ca51f71a4f7cd0",
-  "created_at": "2026-08-13T22:07:52Z",
-  "head": "ed463bc10dbeaad0410ce67e541a77ea8e9900a5",
-  "login": "gibson042",
-  "number": 3950,
-  "ref": "2026-08-simplify-function-call",
-  "revs": [
-   {
-    "adate": "2026-08-20T23:41:44-07:00",
-    "author": "Richard Gibson",
-    "date": "2026-08-20T23:41:44-07:00",
-    "hash": "ed463bc10dbeaad0410ce67e541a77ea8e9900a5",
-    "parents": "ad0ccf5efd879b6852faa08f10ca51f71a4f7cd0",
-    "subject": "Editorial: Better align function [[Call]] and [[Construct]] (#3950)"
-   }
-  ],
-  "title": "Editorial: Better align function [[Call]] and [[Construct]]",
-  "updated_at": "2026-08-21T06:42:03Z"
  },
  {
   "base": "ad0ccf5efd879b6852faa08f10ca51f71a4f7cd0",
