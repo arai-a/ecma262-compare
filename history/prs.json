@@ -4678,11 +4678,27 @@
  {
   "base": "ed463bc10dbeaad0410ce67e541a77ea8e9900a5",
   "created_at": "2019-10-08T01:11:31Z",
-  "head": "7d2875f1edac60e32e750d3d95e8887fd2bfa2cf",
+  "head": "c1efd96ef4ab4cf5cb76056a4ea5007d2a2c68f6",
   "login": "gibson042",
   "number": 1727,
   "ref": "2019-10-main-grammar-disambiguation",
   "revs": [
+   {
+    "adate": "2026-08-23T16:10:33-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-08-23T16:17:25-04:00",
+    "hash": "c1efd96ef4ab4cf5cb76056a4ea5007d2a2c68f6",
+    "parents": "f847992c6a3eb971606cbc81ffb2fc2f954e9ab2",
+    "subject": "Editorial: Clarify that the syntactic grammar never sees consecutive line terminators"
+   },
+   {
+    "adate": "2026-08-23T16:10:33-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-08-23T16:10:33-04:00",
+    "hash": "f847992c6a3eb971606cbc81ffb2fc2f954e9ab2",
+    "parents": "7d2875f1edac60e32e750d3d95e8887fd2bfa2cf",
+    "subject": "Editorial: Reword \"Lookahead Restrictions\" for applicability to all grammars"
+   },
    {
     "adate": "2019-10-07T20:44:05-04:00",
     "author": "Richard Gibson",
@@ -4701,7 +4717,7 @@
    }
   ],
   "title": "Editorial: Formally disambiguate the non-Annex-B grammar",
-  "updated_at": "2026-08-23T19:57:37Z"
+  "updated_at": "2026-08-23T20:24:56Z"
  },
  {
   "base": "8c0c94eb3be152b7ae7dc0cb580f4ee9f0a9a0c2",
