@@ -2,46 +2,38 @@
  {
   "base": "ed463bc10dbeaad0410ce67e541a77ea8e9900a5",
   "created_at": "2026-08-23T19:08:43Z",
-  "head": "4e167f6e457fc616582a5456937f12ee0075f100",
+  "head": "d7cf89f7872a2716a3054d1a3cebe45b3bdc12cb",
   "login": "gibson042",
   "number": 3958,
   "ref": "2026-08-define-typedarray-tolocalestring",
   "revs": [
    {
-    "adate": "2026-08-23T14:11:11-04:00",
+    "adate": "2026-08-20T23:41:44-07:00",
     "author": "Richard Gibson",
-    "date": "2026-08-23T15:32:57-04:00",
-    "hash": "4e167f6e457fc616582a5456937f12ee0075f100",
-    "parents": "61578f934da6f67812925726a59d5002a3db5c97",
-    "subject": "Editorial: Move JoinIndexedElements from Array.prototype.toLocaleString to Array.prototype.join"
+    "date": "2026-08-24T12:55:26-04:00",
+    "hash": "d7cf89f7872a2716a3054d1a3cebe45b3bdc12cb",
+    "parents": "86e81dc697e53710b3ecee700618310d657f6a82",
+    "subject": "Editorial: Generalize JoinIndexedProperties for ECMA-402 {Array,%TypedArray%}.prototype.toLocaleString"
    },
    {
-    "adate": "2026-08-23T14:11:11-04:00",
+    "adate": "2026-08-20T23:41:44-07:00",
     "author": "Richard Gibson",
-    "date": "2026-08-23T15:31:45-04:00",
-    "hash": "61578f934da6f67812925726a59d5002a3db5c97",
-    "parents": "6166442c10f822e6dc734a6edda6ddce799d4f57",
-    "subject": "Editorial: Generalize IndexableToLocaleString to JoinIndexedElements"
+    "date": "2026-08-24T12:52:54-04:00",
+    "hash": "86e81dc697e53710b3ecee700618310d657f6a82",
+    "parents": "11bfd9ce8c218e5f7c171d8ca53964ea044064a0",
+    "subject": "Editorial: Generalize JoinIndexedProperties for {Array,%TypedArray%}.prototype.toLocaleString"
    },
    {
-    "adate": "2026-08-23T14:11:11-04:00",
+    "adate": "2026-08-20T23:41:44-07:00",
     "author": "Richard Gibson",
-    "date": "2026-08-23T15:31:09-04:00",
-    "hash": "6166442c10f822e6dc734a6edda6ddce799d4f57",
-    "parents": "2d9b9c382e512abd8cfb1bc669c824943ca7f960",
-    "subject": "Editorial: Generalize IndexableToLocaleString for use by ECMA-402 Array.prototype.toLocaleString"
-   },
-   {
-    "adate": "2026-08-23T14:04:10-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-08-23T15:31:06-04:00",
-    "hash": "2d9b9c382e512abd8cfb1bc669c824943ca7f960",
+    "date": "2026-08-24T12:44:32-04:00",
+    "hash": "11bfd9ce8c218e5f7c171d8ca53964ea044064a0",
     "parents": "ed463bc10dbeaad0410ce67e541a77ea8e9900a5",
-    "subject": "Editorial: Define an algorithm for %TypedArray%.prototype.toLocaleString"
+    "subject": "Editorial: Use a JoinIndexedProperties helper for {Array,%TypedArray%}.prototype.join"
    }
   ],
   "title": "Editorial: Define an algorithm for %TypedArray%.prototype.toLocaleString",
-  "updated_at": "2026-08-23T19:33:06Z"
+  "updated_at": "2026-08-24T17:10:39Z"
  },
  {
   "base": "ed463bc10dbeaad0410ce67e541a77ea8e9900a5",
