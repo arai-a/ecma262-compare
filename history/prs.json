@@ -134,11 +134,19 @@
  {
   "base": "ae8c512bc721e31d39fde8c197a846e2f49c5f7a",
   "created_at": "2026-08-20T19:01:24Z",
-  "head": "9f09dc001496b70e4e240b47fabc162f1fc5c3d1",
+  "head": "551e81907a46a01bccbed6f65cca153867980c15",
   "login": "gibson042",
   "number": 3955,
   "ref": "2026-08-functiondeclarationinstantiation",
   "revs": [
+   {
+    "adate": "2026-08-24T20:46:33-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-08-24T20:46:33-04:00",
+    "hash": "551e81907a46a01bccbed6f65cca153867980c15",
+    "parents": "9f09dc001496b70e4e240b47fabc162f1fc5c3d1",
+    "subject": "fixup! Editorial: Reword a FunctionDeclarationInstantiation note for better readability"
+   },
    {
     "adate": "2026-08-20T14:41:43-04:00",
     "author": "Richard Gibson",
@@ -181,12 +189,12 @@
    }
   ],
   "title": "Editorial: Refactor FunctionDeclarationInstantiation for better readability and consistency",
-  "updated_at": "2026-08-20T19:09:02Z"
+  "updated_at": "2026-08-25T00:46:40Z"
  },
  {
-  "base": "ae8c512bc721e31d39fde8c197a846e2f49c5f7a",
+  "base": "ed463bc10dbeaad0410ce67e541a77ea8e9900a5",
   "created_at": "2026-08-14T19:49:37Z",
-  "head": "7addc9481c34a4c0c3ae41fee4261ab1e69cc6cb",
+  "head": "0cd81bc420474bbfa6315422c16eb8943dc3bccc",
   "login": "ptomato",
   "number": 3953,
   "ref": "dont-abbreviate-time-quantities",
@@ -194,14 +202,14 @@
    {
     "adate": "2026-08-06T21:47:06-07:00",
     "author": "Philip Chimento",
-    "date": "2026-08-14T13:33:23-07:00",
-    "hash": "7addc9481c34a4c0c3ae41fee4261ab1e69cc6cb",
-    "parents": "ae8c512bc721e31d39fde8c197a846e2f49c5f7a",
+    "date": "2026-08-24T18:06:27-07:00",
+    "hash": "0cd81bc420474bbfa6315422c16eb8943dc3bccc",
+    "parents": "ed463bc10dbeaad0410ce67e541a77ea8e9900a5",
     "subject": "Editorial: Write out names for time quantities in full, and regularize"
    }
   ],
   "title": "Editorial: Write out names for time quantities in full, and regularize",
-  "updated_at": "2026-08-14T20:33:28Z"
+  "updated_at": "2026-08-25T01:23:26Z"
  },
  {
   "base": "ae8c512bc721e31d39fde8c197a846e2f49c5f7a",
