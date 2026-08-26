@@ -1,6 +1,26 @@
 [
  {
   "base": "ed463bc10dbeaad0410ce67e541a77ea8e9900a5",
+  "created_at": "2026-08-26T16:14:47Z",
+  "head": "a224cd4049f253a4d49bc0bc244d5f6366582af6",
+  "login": "linusg",
+  "number": 3960,
+  "ref": "ta-get-set",
+  "revs": [
+   {
+    "adate": "2026-08-26T17:13:25+01:00",
+    "author": "Linus Groh",
+    "date": "2026-08-26T17:13:25+01:00",
+    "hash": "a224cd4049f253a4d49bc0bc244d5f6366582af6",
+    "parents": "ed463bc10dbeaad0410ce67e541a77ea8e9900a5",
+    "subject": "Editorial: Replace Get/Set on known TA with TypedArray{Get,Set}Element"
+   }
+  ],
+  "title": "Editorial: Replace Get/Set on known TA with TypedArray{Get,Set}Element",
+  "updated_at": "2026-08-26T16:14:47Z"
+ },
+ {
+  "base": "ed463bc10dbeaad0410ce67e541a77ea8e9900a5",
   "created_at": "2026-08-23T19:08:43Z",
   "head": "d7cf89f7872a2716a3054d1a3cebe45b3bdc12cb",
   "login": "gibson042",
@@ -442,11 +462,27 @@
  {
   "base": "294dcc2a0187b6ac3c52feccad2dadf9f93662d5",
   "created_at": "2026-07-28T20:16:28Z",
-  "head": "72d37961c5924eafbb5d68cabd7d201785544d73",
+  "head": "f5f433784617d9bd1b3401ff19ddd520bee67194",
   "login": "peetklecha",
   "number": 3933,
   "ref": "decouple-json-from-evaluation",
   "revs": [
+   {
+    "adate": "2026-08-26T10:59:04-04:00",
+    "author": "pklecha1",
+    "date": "2026-08-26T10:59:04-04:00",
+    "hash": "f5f433784617d9bd1b3401ff19ddd520bee67194",
+    "parents": "430ff8bcb1f13c769c1882eb694532cf3f17a3fd",
+    "subject": "update normative ref link, reorg sections"
+   },
+   {
+    "adate": "2026-08-26T10:52:09-04:00",
+    "author": "pklecha1",
+    "date": "2026-08-26T10:52:09-04:00",
+    "hash": "430ff8bcb1f13c769c1882eb694532cf3f17a3fd",
+    "parents": "72d37961c5924eafbb5d68cabd7d201785544d73",
+    "subject": "remove deepNodes, address feedback"
+   },
    {
     "adate": "2026-08-07T09:46:31-04:00",
     "author": "Peter Klecha",
@@ -649,7 +685,7 @@
    }
   ],
   "title": "Editorial: decouple JSON.parse from ES evaluation semantics",
-  "updated_at": "2026-08-07T13:46:34Z"
+  "updated_at": "2026-08-26T14:59:59Z"
  },
  {
   "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
