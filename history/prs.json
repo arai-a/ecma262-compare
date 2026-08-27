@@ -1,6 +1,26 @@
 [
  {
   "base": "ed463bc10dbeaad0410ce67e541a77ea8e9900a5",
+  "created_at": "2026-08-27T13:45:04Z",
+  "head": "ced016db82b1c7f78e2496e91d1fb7507e3216ec",
+  "login": "linusg",
+  "number": 3961,
+  "ref": "no-list-draining",
+  "revs": [
+   {
+    "adate": "2026-08-27T14:42:22+01:00",
+    "author": "Linus Groh",
+    "date": "2026-08-27T14:42:22+01:00",
+    "hash": "ced016db82b1c7f78e2496e91d1fb7507e3216ec",
+    "parents": "ed463bc10dbeaad0410ce67e541a77ea8e9900a5",
+    "subject": "Editorial: Prefer indexed access over list draining"
+   }
+  ],
+  "title": "Editorial: Prefer indexed access over list draining",
+  "updated_at": "2026-08-27T18:58:49Z"
+ },
+ {
+  "base": "ed463bc10dbeaad0410ce67e541a77ea8e9900a5",
   "created_at": "2026-08-26T16:14:47Z",
   "head": "a224cd4049f253a4d49bc0bc244d5f6366582af6",
   "login": "linusg",
@@ -214,11 +234,19 @@
  {
   "base": "ed463bc10dbeaad0410ce67e541a77ea8e9900a5",
   "created_at": "2026-08-14T19:49:37Z",
-  "head": "0cd81bc420474bbfa6315422c16eb8943dc3bccc",
+  "head": "33c0fc1de3855214c04e3d3ba32249fd9f16e240",
   "login": "ptomato",
   "number": 3953,
   "ref": "dont-abbreviate-time-quantities",
   "revs": [
+   {
+    "adate": "2026-08-27T11:32:02-07:00",
+    "author": "Philip Chimento",
+    "date": "2026-08-27T11:32:02-07:00",
+    "hash": "33c0fc1de3855214c04e3d3ba32249fd9f16e240",
+    "parents": "0cd81bc420474bbfa6315422c16eb8943dc3bccc",
+    "subject": "(fixup) Use ___Number in Date constructor for consistency with Date.UTC"
+   },
    {
     "adate": "2026-08-06T21:47:06-07:00",
     "author": "Philip Chimento",
@@ -229,7 +257,7 @@
    }
   ],
   "title": "Editorial: Write out names for time quantities in full, and regularize",
-  "updated_at": "2026-08-25T01:23:26Z"
+  "updated_at": "2026-08-27T21:25:20Z"
  },
  {
   "base": "ae8c512bc721e31d39fde8c197a846e2f49c5f7a",
