@@ -460,13 +460,29 @@
   "updated_at": "2026-08-10T19:32:51Z"
  },
  {
-  "base": "294dcc2a0187b6ac3c52feccad2dadf9f93662d5",
+  "base": "ed463bc10dbeaad0410ce67e541a77ea8e9900a5",
   "created_at": "2026-07-28T20:16:28Z",
-  "head": "f5f433784617d9bd1b3401ff19ddd520bee67194",
+  "head": "d7e116ead630be1d5e2da501eb12c25beb45a0f4",
   "login": "peetklecha",
   "number": 3933,
   "ref": "decouple-json-from-evaluation",
   "revs": [
+   {
+    "adate": "2026-08-27T07:05:16-04:00",
+    "author": "Peter Klecha",
+    "date": "2026-08-27T07:05:16-04:00",
+    "hash": "d7e116ead630be1d5e2da501eb12c25beb45a0f4",
+    "parents": "8f70e8e8ea625c27a1a148fe15844cae07fa1a4b ed463bc10dbeaad0410ce67e541a77ea8e9900a5",
+    "subject": "Merge branch 'main' into decouple-json-from-evaluation"
+   },
+   {
+    "adate": "2026-08-27T07:04:20-04:00",
+    "author": "Peet Klecha",
+    "date": "2026-08-27T07:04:20-04:00",
+    "hash": "8f70e8e8ea625c27a1a148fe15844cae07fa1a4b",
+    "parents": "f5f433784617d9bd1b3401ff19ddd520bee67194",
+    "subject": "fmt"
+   },
    {
     "adate": "2026-08-26T10:59:04-04:00",
     "author": "pklecha1",
@@ -685,7 +701,7 @@
    }
   ],
   "title": "Editorial: decouple JSON.parse from ES evaluation semantics",
-  "updated_at": "2026-08-26T14:59:59Z"
+  "updated_at": "2026-08-27T11:09:29Z"
  },
  {
   "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
