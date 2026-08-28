@@ -1168,40 +1168,40 @@
   "updated_at": "2026-06-08T05:10:10Z"
  },
  {
-  "base": "1355a23e48aaf2b1d7b6cbfad0fb98bce999cfd1",
+  "base": "45c2d659ef4c9fe5467ba04cd9a131752b16a8dd",
   "created_at": "2026-05-19T12:27:43Z",
-  "head": "e2ed6c1da78a2ecf04557bc3710d5db218e2fe3b",
+  "head": "7e5fa5fe52ede549c3b6594281ab0dd1806ebba7",
   "login": "gibson042",
   "number": 3874,
   "ref": "gh-3851-semi-consistent-accessor-tostring-prefixing",
   "revs": [
    {
-    "adate": "2026-07-16T13:27:13-04:00",
+    "adate": "2026-08-27T21:00:07-07:00",
     "author": "Richard Gibson",
-    "date": "2026-07-17T12:43:14-04:00",
-    "hash": "e2ed6c1da78a2ecf04557bc3710d5db218e2fe3b",
-    "parents": "370dcee3b2b5ee0f588969e0211141f3e00eb8e0",
-    "subject": "Editorial: Reword the SetFunctionName note discouraging [[InitialName]] inconsistency"
+    "date": "2026-08-27T21:00:07-07:00",
+    "hash": "7e5fa5fe52ede549c3b6594281ab0dd1806ebba7",
+    "parents": "f96e7520cc1e5b9dc8c20200a8df074cb9aa3cad",
+    "subject": "Editorial: Reword the SetFunctionName note discouraging [[InitialName]] inconsistency (#3874)"
    },
    {
-    "adate": "2026-07-16T13:27:13-04:00",
+    "adate": "2026-08-27T21:00:06-07:00",
     "author": "Richard Gibson",
-    "date": "2026-07-16T13:27:13-04:00",
-    "hash": "370dcee3b2b5ee0f588969e0211141f3e00eb8e0",
-    "parents": "b3dd7ebcae25ad861fdfb32150bc77c577cd9f77",
-    "subject": "Editorial: Refactor SetFunctionName for better locality in setting [[InitialName]]"
+    "date": "2026-08-27T21:00:06-07:00",
+    "hash": "f96e7520cc1e5b9dc8c20200a8df074cb9aa3cad",
+    "parents": "91e141ccb7f7065b45b6e817e2e9871d028c664c",
+    "subject": "Editorial: Refactor SetFunctionName for better locality in setting [[InitialName]] (#3874)"
    },
    {
-    "adate": "2026-05-13T12:58:23-04:00",
+    "adate": "2026-08-27T20:59:58-07:00",
     "author": "Richard Gibson",
-    "date": "2026-07-16T12:20:07-04:00",
-    "hash": "b3dd7ebcae25ad861fdfb32150bc77c577cd9f77",
-    "parents": "1355a23e48aaf2b1d7b6cbfad0fb98bce999cfd1",
-    "subject": "Editorial: Encourage internal consistency w.r.t. prefixing {get,set} in SetFunctionName"
+    "date": "2026-08-27T20:59:58-07:00",
+    "hash": "91e141ccb7f7065b45b6e817e2e9871d028c664c",
+    "parents": "45c2d659ef4c9fe5467ba04cd9a131752b16a8dd",
+    "subject": "Editorial: Encourage internal consistency w.r.t. prefixing {get,set} in SetFunctionName (#3874)"
    }
   ],
   "title": "Editorial: Encourage internal consistency w.r.t. prefixing {get,set} in SetFunctionName",
-  "updated_at": "2026-07-17T16:46:26Z"
+  "updated_at": "2026-08-28T04:00:27Z"
  },
  {
   "base": "6dcb70f914e67908abc548b3285dc0583a194910",
@@ -2404,34 +2404,6 @@
   "updated_at": "2025-02-27T17:42:05Z"
  },
  {
-  "base": "6f61b741a70658a38ebd4c39ec60d11454f3ec55",
-  "created_at": "2025-01-11T15:22:39Z",
-  "head": "fee972a927214036a1b108e4df15ed836af0bd85",
-  "login": "aapoalas",
-  "number": 3521,
-  "ref": "fix/module-environment-records-get-binding-value-user-code",
-  "revs": [
-   {
-    "adate": "2025-08-11T13:35:39+03:00",
-    "author": "Aapo Alasuutari",
-    "date": "2025-08-11T13:35:39+03:00",
-    "hash": "fee972a927214036a1b108e4df15ed836af0bd85",
-    "parents": "4e456c2ad26d0da9b3021266706951e975093309 6f61b741a70658a38ebd4c39ec60d11454f3ec55",
-    "subject": "Merge branch 'main' into fix/module-environment-records-get-binding-value-user-code"
-   },
-   {
-    "adate": "2025-01-11T17:17:33+02:00",
-    "author": "Aapo Alasuutari",
-    "date": "2025-01-11T17:17:33+02:00",
-    "hash": "4e456c2ad26d0da9b3021266706951e975093309",
-    "parents": "f55b180957aa626ef8f87311e2e3b469dff0bf17",
-    "subject": "fix: Module Environment Records GetBindingValue cannot call user code"
-   }
-  ],
-  "title": "fix: Module Environment Records GetBindingValue cannot call user code",
-  "updated_at": "2025-08-11T10:35:40Z"
- },
- {
   "base": "6dcb70f914e67908abc548b3285dc0583a194910",
   "created_at": "2024-11-21T01:01:29Z",
   "head": "d9b07d921649e39a170d1cbb4e009ed60d6ded28",
@@ -3006,42 +2978,6 @@
   ],
   "title": "Editorial: Separate cover grammar text into a subsection with autolink targets",
   "updated_at": "2026-08-13T16:40:54Z"
- },
- {
-  "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
-  "created_at": "2023-11-12T19:13:02Z",
-  "head": "f61a8db5c893dea4c19a7b8c8258f1b4a34c606c",
-  "login": "gibson042",
-  "number": 3220,
-  "ref": "2023-11-simplify-templateliteral",
-  "revs": [
-   {
-    "adate": "2023-11-12T14:06:37-05:00",
-    "author": "Richard Gibson",
-    "date": "2026-07-24T13:05:48-04:00",
-    "hash": "f61a8db5c893dea4c19a7b8c8258f1b4a34c606c",
-    "parents": "0f05ad9845957632d4f5ed9f12facc963c8f2bcf",
-    "subject": "Editorial: Remove the boolean trap from {TemplateStrings,TemplateString} parameters"
-   },
-   {
-    "adate": "2023-11-12T14:06:37-05:00",
-    "author": "Richard Gibson",
-    "date": "2026-07-24T12:48:58-04:00",
-    "hash": "0f05ad9845957632d4f5ed9f12facc963c8f2bcf",
-    "parents": "29c764cef5077018315d2ed48982ac65751d2b8e",
-    "subject": "Editorial: Remove the unnecessary \"Tagged\" parameter from TemplateLiteral sub-nonterminals"
-   },
-   {
-    "adate": "2023-11-12T14:02:26-05:00",
-    "author": "Richard Gibson",
-    "date": "2026-07-24T12:48:26-04:00",
-    "hash": "29c764cef5077018315d2ed48982ac65751d2b8e",
-    "parents": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
-    "subject": "Editorial: Define template literal bad-escape syntax errors at the top level"
-   }
-  ],
-  "title": "Editorial: Define template literal bad-escape syntax errors at top level",
-  "updated_at": "2026-07-24T17:19:41Z"
  },
  {
   "base": "8c0c94eb3be152b7ae7dc0cb580f4ee9f0a9a0c2",

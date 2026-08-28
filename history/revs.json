@@ -1,5 +1,37 @@
 [
  {
+  "adate": "2026-08-27T20:45:06-07:00",
+  "author": "Aapo Alasuutari",
+  "date": "2026-08-27T20:45:06-07:00",
+  "hash": "45c2d659ef4c9fe5467ba04cd9a131752b16a8dd",
+  "parents": "73dd13020b0351c2411a72102a764cffc5e941e6",
+  "subject": "Editorial: Module Environment Records GetBindingValue cannot call user code (#3521)"
+ },
+ {
+  "adate": "2026-08-27T20:17:23-07:00",
+  "author": "Richard Gibson",
+  "date": "2026-08-27T20:17:23-07:00",
+  "hash": "73dd13020b0351c2411a72102a764cffc5e941e6",
+  "parents": "324f63422d0e0c1f999a1378a947a8b752374e46",
+  "subject": "Editorial: Remove the boolean trap from {TemplateStrings,TemplateString} parameters (#3220)"
+ },
+ {
+  "adate": "2026-08-27T20:17:22-07:00",
+  "author": "Richard Gibson",
+  "date": "2026-08-27T20:17:22-07:00",
+  "hash": "324f63422d0e0c1f999a1378a947a8b752374e46",
+  "parents": "b0ab08d3f26a7aa29dbc43fac5a50ca44e74d10f",
+  "subject": "Editorial: Remove the unnecessary \"Tagged\" parameter from TemplateLiteral sub-nonterminals (#3220)"
+ },
+ {
+  "adate": "2026-08-27T20:17:16-07:00",
+  "author": "Richard Gibson",
+  "date": "2026-08-27T20:17:16-07:00",
+  "hash": "b0ab08d3f26a7aa29dbc43fac5a50ca44e74d10f",
+  "parents": "ed463bc10dbeaad0410ce67e541a77ea8e9900a5",
+  "subject": "Editorial: Define template literal bad-escape syntax errors at the top level (#3220)"
+ },
+ {
   "adate": "2026-08-20T23:41:44-07:00",
   "author": "Richard Gibson",
   "date": "2026-08-20T23:41:44-07:00",
