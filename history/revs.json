@@ -1,5 +1,53 @@
 [
  {
+  "adate": "2026-08-28T12:33:49-07:00",
+  "author": "Philip Chimento",
+  "date": "2026-08-28T12:33:49-07:00",
+  "hash": "ddee48ff3291156a13631247cea1bf3b40cb6e35",
+  "parents": "03c507b05d0501822f612c09de04b5c7c437351e",
+  "subject": "Editorial: Reword \"specified in the ECMA-402 specification\" (#3940)"
+ },
+ {
+  "adate": "2026-08-28T11:56:30-07:00",
+  "author": "Kevin Gibbons",
+  "date": "2026-08-28T11:56:30-07:00",
+  "hash": "4ebf70efd849a1293710c658c53338d66f9e2269",
+  "parents": "9235b15340da045e06309b24f82c5e0711ad58f9",
+  "subject": "Editorial: improve linking of essential internal methods (#3912)"
+ },
+ {
+  "adate": "2026-08-28T10:38:01-07:00",
+  "author": "Kevin Gibbons",
+  "date": "2026-08-28T10:38:01-07:00",
+  "hash": "9235b15340da045e06309b24f82c5e0711ad58f9",
+  "parents": "7e5fa5fe52ede549c3b6594281ab0dd1806ebba7",
+  "subject": "Normative: make Promise.try use PromiseResolve in non-error case (#3883)"
+ },
+ {
+  "adate": "2026-08-27T21:00:07-07:00",
+  "author": "Richard Gibson",
+  "date": "2026-08-27T21:00:07-07:00",
+  "hash": "7e5fa5fe52ede549c3b6594281ab0dd1806ebba7",
+  "parents": "f96e7520cc1e5b9dc8c20200a8df074cb9aa3cad",
+  "subject": "Editorial: Reword the SetFunctionName note discouraging [[InitialName]] inconsistency (#3874)"
+ },
+ {
+  "adate": "2026-08-27T21:00:06-07:00",
+  "author": "Richard Gibson",
+  "date": "2026-08-27T21:00:06-07:00",
+  "hash": "f96e7520cc1e5b9dc8c20200a8df074cb9aa3cad",
+  "parents": "91e141ccb7f7065b45b6e817e2e9871d028c664c",
+  "subject": "Editorial: Refactor SetFunctionName for better locality in setting [[InitialName]] (#3874)"
+ },
+ {
+  "adate": "2026-08-27T20:59:58-07:00",
+  "author": "Richard Gibson",
+  "date": "2026-08-27T20:59:58-07:00",
+  "hash": "91e141ccb7f7065b45b6e817e2e9871d028c664c",
+  "parents": "45c2d659ef4c9fe5467ba04cd9a131752b16a8dd",
+  "subject": "Editorial: Encourage internal consistency w.r.t. prefixing {get,set} in SetFunctionName (#3874)"
+ },
+ {
   "adate": "2026-08-27T20:45:06-07:00",
   "author": "Aapo Alasuutari",
   "date": "2026-08-27T20:45:06-07:00",

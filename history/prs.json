@@ -1,5 +1,25 @@
 [
  {
+  "base": "45c2d659ef4c9fe5467ba04cd9a131752b16a8dd",
+  "created_at": "2026-08-28T12:01:57Z",
+  "head": "e7280b545b79b8f7dd472abe6147f0bd8aee47e3",
+  "login": "arcde40",
+  "number": 3962,
+  "ref": "update-esmeta",
+  "revs": [
+   {
+    "adate": "2026-08-28T20:06:46+09:00",
+    "author": "arcde40",
+    "date": "2026-08-28T20:06:46+09:00",
+    "hash": "e7280b545b79b8f7dd472abe6147f0bd8aee47e3",
+    "parents": "45c2d659ef4c9fe5467ba04cd9a131752b16a8dd",
+    "subject": "Meta: Upgrade ESMeta to v0.8.0"
+   }
+  ],
+  "title": "Meta: Upgrade ESMeta to v0.8.0",
+  "updated_at": "2026-08-28T14:53:50Z"
+ },
+ {
   "base": "ed463bc10dbeaad0410ce67e541a77ea8e9900a5",
   "created_at": "2026-08-27T13:45:04Z",
   "head": "ced016db82b1c7f78e2496e91d1fb7507e3216ec",
@@ -316,32 +336,32 @@
   "updated_at": "2026-08-14T09:40:37Z"
  },
  {
-  "base": "ad0ccf5efd879b6852faa08f10ca51f71a4f7cd0",
+  "base": "ddee48ff3291156a13631247cea1bf3b40cb6e35",
   "created_at": "2026-08-13T17:48:11Z",
-  "head": "b9031e1f1cc96762240998ff4b5916eb871f81f8",
+  "head": "a5112e3cbd9e1a01621f47f0a354e8c7712117bc",
   "login": "linusg",
   "number": 3949,
   "ref": "mv-counters",
   "revs": [
    {
-    "adate": "2026-08-13T18:45:07+01:00",
+    "adate": "2026-08-28T12:53:19-07:00",
     "author": "Linus Groh",
-    "date": "2026-08-21T13:45:07+01:00",
-    "hash": "b9031e1f1cc96762240998ff4b5916eb871f81f8",
-    "parents": "1e804ae7f12ddbf80345c9b65a78deb4e6edcd39",
-    "subject": "Editorial: Use MV for loop counter in Array.prototype.unshift"
+    "date": "2026-08-28T12:53:19-07:00",
+    "hash": "a5112e3cbd9e1a01621f47f0a354e8c7712117bc",
+    "parents": "f3ff15a77748919ae781bac7cf2b0a8c83dc22a2",
+    "subject": "Editorial: Use MV for loop counter in Array.prototype.unshift (#3949)"
    },
    {
-    "adate": "2026-08-13T18:42:09+01:00",
+    "adate": "2026-08-28T12:53:11-07:00",
     "author": "Linus Groh",
-    "date": "2026-08-21T13:45:07+01:00",
-    "hash": "1e804ae7f12ddbf80345c9b65a78deb4e6edcd39",
-    "parents": "ad0ccf5efd879b6852faa08f10ca51f71a4f7cd0",
-    "subject": "Editorial: Use MV for source index in FlattenIntoArray"
+    "date": "2026-08-28T12:53:11-07:00",
+    "hash": "f3ff15a77748919ae781bac7cf2b0a8c83dc22a2",
+    "parents": "ddee48ff3291156a13631247cea1bf3b40cb6e35",
+    "subject": "Editorial: Use MV for source index in FlattenIntoArray (#3949)"
    }
   ],
   "title": "Editorial: Use MV for loop counters in two more places",
-  "updated_at": "2026-08-21T12:45:10Z"
+  "updated_at": "2026-08-28T19:53:28Z"
  },
  {
   "base": "294dcc2a0187b6ac3c52feccad2dadf9f93662d5",
@@ -382,26 +402,6 @@
   ],
   "title": "Editorial: Write out offsetNanoseconds and offsetMilliseconds",
   "updated_at": "2026-08-14T19:51:08Z"
- },
- {
-  "base": "ed463bc10dbeaad0410ce67e541a77ea8e9900a5",
-  "created_at": "2026-08-05T19:20:29Z",
-  "head": "9094c698e44be40c9c4d2d49553a1ca7d8aa5747",
-  "login": "ptomato",
-  "number": 3940,
-  "ref": "specified-in-the-specification",
-  "revs": [
-   {
-    "adate": "2026-08-05T12:18:52-07:00",
-    "author": "Philip Chimento",
-    "date": "2026-08-24T13:41:23-07:00",
-    "hash": "9094c698e44be40c9c4d2d49553a1ca7d8aa5747",
-    "parents": "ed463bc10dbeaad0410ce67e541a77ea8e9900a5",
-    "subject": "Editorial: Reword \"specified in the ECMA-402 specification\""
-   }
-  ],
-  "title": "Editorial: Reword \"specified in the ECMA-402 specification\"",
-  "updated_at": "2026-08-24T20:51:27Z"
  },
  {
   "base": "294dcc2a0187b6ac3c52feccad2dadf9f93662d5",
@@ -960,42 +960,6 @@
   "updated_at": "2026-07-16T21:49:37Z"
  },
  {
-  "base": "ed463bc10dbeaad0410ce67e541a77ea8e9900a5",
-  "created_at": "2026-07-14T03:02:13Z",
-  "head": "7cba2bc0414e60b84e508fd715ca46e2cd852c60",
-  "login": "bakkot",
-  "number": 3912,
-  "ref": "linking-internal-methods",
-  "revs": [
-   {
-    "adate": "2026-08-14T10:13:53-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2026-08-23T16:05:32-07:00",
-    "hash": "7cba2bc0414e60b84e508fd715ca46e2cd852c60",
-    "parents": "365912de08dea903eb45f0c2975e363050e5dfab",
-    "subject": "Editorial: tweak descriptions of some internal methods"
-   },
-   {
-    "adate": "2026-07-19T14:39:45-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2026-08-23T16:05:31-07:00",
-    "hash": "365912de08dea903eb45f0c2975e363050e5dfab",
-    "parents": "0c29397d2b4bd0b92a3ddb7522b70d0d33c50fbe",
-    "subject": "Meta: bump ecmarkup to 25.0.1"
-   },
-   {
-    "adate": "2026-07-13T19:48:14-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2026-08-23T16:05:27-07:00",
-    "hash": "0c29397d2b4bd0b92a3ddb7522b70d0d33c50fbe",
-    "parents": "ed463bc10dbeaad0410ce67e541a77ea8e9900a5",
-    "subject": "Editorial: improve linking of essential internal methods"
-   }
-  ],
-  "title": "Editorial: improve linking of essential internal methods",
-  "updated_at": "2026-08-23T23:07:02Z"
- },
- {
   "base": "1355a23e48aaf2b1d7b6cbfad0fb98bce999cfd1",
   "created_at": "2026-07-13T22:59:48Z",
   "head": "7993e1b6179f339c3b6a87ffc756286b9cd9574a",
@@ -1128,26 +1092,6 @@
   "updated_at": "2026-07-09T23:58:19Z"
  },
  {
-  "base": "7b25de494ef15db9c8ecce2bc556225e56c457be",
-  "created_at": "2026-06-02T17:56:15Z",
-  "head": "630d8b7775670482fdf25ebc943f9575da5a70df",
-  "login": "bakkot",
-  "number": 3883,
-  "ref": "faster-promise-try",
-  "revs": [
-   {
-    "adate": "2026-06-02T10:48:48-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2026-06-02T10:48:48-07:00",
-    "hash": "630d8b7775670482fdf25ebc943f9575da5a70df",
-    "parents": "97ea91562eeb9a304f01254f8751afdb117cb7c8",
-    "subject": "Normative: make Promise.try use PromiseResolve in non-error case"
-   }
-  ],
-  "title": "Normative: make Promise.try use PromiseResolve in non-error case",
-  "updated_at": "2026-06-02T18:09:48Z"
- },
- {
   "base": "8c0c94eb3be152b7ae7dc0cb580f4ee9f0a9a0c2",
   "created_at": "2026-05-22T13:00:04Z",
   "head": "ec683b02dfcc67e72a5952b0f07b905466118266",
@@ -1166,42 +1110,6 @@
   ],
   "title": "Normative: add Error.prototype.stack",
   "updated_at": "2026-06-08T05:10:10Z"
- },
- {
-  "base": "45c2d659ef4c9fe5467ba04cd9a131752b16a8dd",
-  "created_at": "2026-05-19T12:27:43Z",
-  "head": "7e5fa5fe52ede549c3b6594281ab0dd1806ebba7",
-  "login": "gibson042",
-  "number": 3874,
-  "ref": "gh-3851-semi-consistent-accessor-tostring-prefixing",
-  "revs": [
-   {
-    "adate": "2026-08-27T21:00:07-07:00",
-    "author": "Richard Gibson",
-    "date": "2026-08-27T21:00:07-07:00",
-    "hash": "7e5fa5fe52ede549c3b6594281ab0dd1806ebba7",
-    "parents": "f96e7520cc1e5b9dc8c20200a8df074cb9aa3cad",
-    "subject": "Editorial: Reword the SetFunctionName note discouraging [[InitialName]] inconsistency (#3874)"
-   },
-   {
-    "adate": "2026-08-27T21:00:06-07:00",
-    "author": "Richard Gibson",
-    "date": "2026-08-27T21:00:06-07:00",
-    "hash": "f96e7520cc1e5b9dc8c20200a8df074cb9aa3cad",
-    "parents": "91e141ccb7f7065b45b6e817e2e9871d028c664c",
-    "subject": "Editorial: Refactor SetFunctionName for better locality in setting [[InitialName]] (#3874)"
-   },
-   {
-    "adate": "2026-08-27T20:59:58-07:00",
-    "author": "Richard Gibson",
-    "date": "2026-08-27T20:59:58-07:00",
-    "hash": "91e141ccb7f7065b45b6e817e2e9871d028c664c",
-    "parents": "45c2d659ef4c9fe5467ba04cd9a131752b16a8dd",
-    "subject": "Editorial: Encourage internal consistency w.r.t. prefixing {get,set} in SetFunctionName (#3874)"
-   }
-  ],
-  "title": "Editorial: Encourage internal consistency w.r.t. prefixing {get,set} in SetFunctionName",
-  "updated_at": "2026-08-28T04:00:27Z"
  },
  {
   "base": "6dcb70f914e67908abc548b3285dc0583a194910",
