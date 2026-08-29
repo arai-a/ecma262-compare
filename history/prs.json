@@ -1,48 +1,28 @@
 [
  {
-  "base": "45c2d659ef4c9fe5467ba04cd9a131752b16a8dd",
+  "base": "dcf59856a8184792a9e42f0ffb7dc064094a5dcc",
   "created_at": "2026-08-28T12:01:57Z",
-  "head": "e7280b545b79b8f7dd472abe6147f0bd8aee47e3",
+  "head": "4dd7a62fc0dc5ec3af75664e385eedca92bdc854",
   "login": "arcde40",
   "number": 3962,
   "ref": "update-esmeta",
   "revs": [
    {
-    "adate": "2026-08-28T20:06:46+09:00",
+    "adate": "2026-08-28T16:51:35-07:00",
     "author": "arcde40",
-    "date": "2026-08-28T20:06:46+09:00",
-    "hash": "e7280b545b79b8f7dd472abe6147f0bd8aee47e3",
-    "parents": "45c2d659ef4c9fe5467ba04cd9a131752b16a8dd",
-    "subject": "Meta: Upgrade ESMeta to v0.8.0"
+    "date": "2026-08-28T16:51:35-07:00",
+    "hash": "4dd7a62fc0dc5ec3af75664e385eedca92bdc854",
+    "parents": "dcf59856a8184792a9e42f0ffb7dc064094a5dcc",
+    "subject": "Meta: Upgrade ESMeta to v0.8.0 (#3962)"
    }
   ],
   "title": "Meta: Upgrade ESMeta to v0.8.0",
-  "updated_at": "2026-08-28T14:53:50Z"
+  "updated_at": "2026-08-28T23:51:44Z"
  },
  {
-  "base": "ed463bc10dbeaad0410ce67e541a77ea8e9900a5",
-  "created_at": "2026-08-27T13:45:04Z",
-  "head": "ced016db82b1c7f78e2496e91d1fb7507e3216ec",
-  "login": "linusg",
-  "number": 3961,
-  "ref": "no-list-draining",
-  "revs": [
-   {
-    "adate": "2026-08-27T14:42:22+01:00",
-    "author": "Linus Groh",
-    "date": "2026-08-27T14:42:22+01:00",
-    "hash": "ced016db82b1c7f78e2496e91d1fb7507e3216ec",
-    "parents": "ed463bc10dbeaad0410ce67e541a77ea8e9900a5",
-    "subject": "Editorial: Prefer indexed access over list draining"
-   }
-  ],
-  "title": "Editorial: Prefer indexed access over list draining",
-  "updated_at": "2026-08-27T18:58:49Z"
- },
- {
-  "base": "ed463bc10dbeaad0410ce67e541a77ea8e9900a5",
+  "base": "dcf59856a8184792a9e42f0ffb7dc064094a5dcc",
   "created_at": "2026-08-26T16:14:47Z",
-  "head": "a224cd4049f253a4d49bc0bc244d5f6366582af6",
+  "head": "14b77907cbaaba2ea2b1ad00a2106b7e6b1c9fc7",
   "login": "linusg",
   "number": 3960,
   "ref": "ta-get-set",
@@ -50,14 +30,14 @@
    {
     "adate": "2026-08-26T17:13:25+01:00",
     "author": "Linus Groh",
-    "date": "2026-08-26T17:13:25+01:00",
-    "hash": "a224cd4049f253a4d49bc0bc244d5f6366582af6",
-    "parents": "ed463bc10dbeaad0410ce67e541a77ea8e9900a5",
+    "date": "2026-08-29T00:58:09+01:00",
+    "hash": "14b77907cbaaba2ea2b1ad00a2106b7e6b1c9fc7",
+    "parents": "dcf59856a8184792a9e42f0ffb7dc064094a5dcc",
     "subject": "Editorial: Replace Get/Set on known TA with TypedArray{Get,Set}Element"
    }
   ],
   "title": "Editorial: Replace Get/Set on known TA with TypedArray{Get,Set}Element",
-  "updated_at": "2026-08-26T16:14:47Z"
+  "updated_at": "2026-08-28T23:59:00Z"
  },
  {
   "base": "ed463bc10dbeaad0410ce67e541a77ea8e9900a5",
@@ -252,34 +232,6 @@
   "updated_at": "2026-08-25T00:46:40Z"
  },
  {
-  "base": "ed463bc10dbeaad0410ce67e541a77ea8e9900a5",
-  "created_at": "2026-08-14T19:49:37Z",
-  "head": "33c0fc1de3855214c04e3d3ba32249fd9f16e240",
-  "login": "ptomato",
-  "number": 3953,
-  "ref": "dont-abbreviate-time-quantities",
-  "revs": [
-   {
-    "adate": "2026-08-27T11:32:02-07:00",
-    "author": "Philip Chimento",
-    "date": "2026-08-27T11:32:02-07:00",
-    "hash": "33c0fc1de3855214c04e3d3ba32249fd9f16e240",
-    "parents": "0cd81bc420474bbfa6315422c16eb8943dc3bccc",
-    "subject": "(fixup) Use ___Number in Date constructor for consistency with Date.UTC"
-   },
-   {
-    "adate": "2026-08-06T21:47:06-07:00",
-    "author": "Philip Chimento",
-    "date": "2026-08-24T18:06:27-07:00",
-    "hash": "0cd81bc420474bbfa6315422c16eb8943dc3bccc",
-    "parents": "ed463bc10dbeaad0410ce67e541a77ea8e9900a5",
-    "subject": "Editorial: Write out names for time quantities in full, and regularize"
-   }
-  ],
-  "title": "Editorial: Write out names for time quantities in full, and regularize",
-  "updated_at": "2026-08-27T21:25:20Z"
- },
- {
   "base": "ae8c512bc721e31d39fde8c197a846e2f49c5f7a",
   "created_at": "2026-08-14T13:22:56Z",
   "head": "e50e79294d48e5e74fbb1fad1f7cf2b428951575",
@@ -334,34 +286,6 @@
   ],
   "title": "Editorial: define \"essential internal method\"",
   "updated_at": "2026-08-14T09:40:37Z"
- },
- {
-  "base": "ddee48ff3291156a13631247cea1bf3b40cb6e35",
-  "created_at": "2026-08-13T17:48:11Z",
-  "head": "a5112e3cbd9e1a01621f47f0a354e8c7712117bc",
-  "login": "linusg",
-  "number": 3949,
-  "ref": "mv-counters",
-  "revs": [
-   {
-    "adate": "2026-08-28T12:53:19-07:00",
-    "author": "Linus Groh",
-    "date": "2026-08-28T12:53:19-07:00",
-    "hash": "a5112e3cbd9e1a01621f47f0a354e8c7712117bc",
-    "parents": "f3ff15a77748919ae781bac7cf2b0a8c83dc22a2",
-    "subject": "Editorial: Use MV for loop counter in Array.prototype.unshift (#3949)"
-   },
-   {
-    "adate": "2026-08-28T12:53:11-07:00",
-    "author": "Linus Groh",
-    "date": "2026-08-28T12:53:11-07:00",
-    "hash": "f3ff15a77748919ae781bac7cf2b0a8c83dc22a2",
-    "parents": "ddee48ff3291156a13631247cea1bf3b40cb6e35",
-    "subject": "Editorial: Use MV for source index in FlattenIntoArray (#3949)"
-   }
-  ],
-  "title": "Editorial: Use MV for loop counters in two more places",
-  "updated_at": "2026-08-28T19:53:28Z"
  },
  {
   "base": "294dcc2a0187b6ac3c52feccad2dadf9f93662d5",

@@ -1,11 +1,51 @@
 [
  {
+  "adate": "2026-08-28T14:44:09-07:00",
+  "author": "Linus Groh",
+  "date": "2026-08-28T14:44:09-07:00",
+  "hash": "dcf59856a8184792a9e42f0ffb7dc064094a5dcc",
+  "parents": "66131e1c61621db0f8ad513bf16c33e6efc51211",
+  "subject": "Editorial: Prefer indexed access over list draining (#3961)"
+ },
+ {
+  "adate": "2026-08-28T12:53:19-07:00",
+  "author": "Linus Groh",
+  "date": "2026-08-28T12:53:19-07:00",
+  "hash": "a5112e3cbd9e1a01621f47f0a354e8c7712117bc",
+  "parents": "f3ff15a77748919ae781bac7cf2b0a8c83dc22a2",
+  "subject": "Editorial: Use MV for loop counter in Array.prototype.unshift (#3949)"
+ },
+ {
+  "adate": "2026-08-28T12:53:11-07:00",
+  "author": "Linus Groh",
+  "date": "2026-08-28T12:53:11-07:00",
+  "hash": "f3ff15a77748919ae781bac7cf2b0a8c83dc22a2",
+  "parents": "ddee48ff3291156a13631247cea1bf3b40cb6e35",
+  "subject": "Editorial: Use MV for source index in FlattenIntoArray (#3949)"
+ },
+ {
   "adate": "2026-08-28T12:33:49-07:00",
   "author": "Philip Chimento",
   "date": "2026-08-28T12:33:49-07:00",
   "hash": "ddee48ff3291156a13631247cea1bf3b40cb6e35",
   "parents": "03c507b05d0501822f612c09de04b5c7c437351e",
   "subject": "Editorial: Reword \"specified in the ECMA-402 specification\" (#3940)"
+ },
+ {
+  "adate": "2026-08-28T11:56:44-07:00",
+  "author": "Kevin Gibbons",
+  "date": "2026-08-28T11:56:44-07:00",
+  "hash": "03c507b05d0501822f612c09de04b5c7c437351e",
+  "parents": "42d44cc8a5d5219249ead35f850863b571622535",
+  "subject": "Editorial: tweak descriptions of some internal methods (#3912)"
+ },
+ {
+  "adate": "2026-08-28T11:56:39-07:00",
+  "author": "Kevin Gibbons",
+  "date": "2026-08-28T11:56:39-07:00",
+  "hash": "42d44cc8a5d5219249ead35f850863b571622535",
+  "parents": "4ebf70efd849a1293710c658c53338d66f9e2269",
+  "subject": "Meta: bump ecmarkup to 25.0.1 (#3912)"
  },
  {
   "adate": "2026-08-28T11:56:30-07:00",
