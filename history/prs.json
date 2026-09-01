@@ -1,6 +1,54 @@
 [
  {
   "base": "dcf59856a8184792a9e42f0ffb7dc064094a5dcc",
+  "created_at": "2026-09-01T15:21:51Z",
+  "head": "a54fd22cceae7d040c98e08ba61a20972e1faf56",
+  "login": "ptomato",
+  "number": 3968,
+  "ref": "upgrade-ecmarkup",
+  "revs": [
+   {
+    "adate": "2026-08-31T10:52:32-07:00",
+    "author": "Philip Chimento",
+    "date": "2026-09-01T08:21:02-07:00",
+    "hash": "a54fd22cceae7d040c98e08ba61a20972e1faf56",
+    "parents": "dcf59856a8184792a9e42f0ffb7dc064094a5dcc",
+    "subject": "Update ecmarkup"
+   }
+  ],
+  "title": "Update ecmarkup",
+  "updated_at": "2026-09-01T15:21:51Z"
+ },
+ {
+  "base": "dcf59856a8184792a9e42f0ffb7dc064094a5dcc",
+  "created_at": "2026-09-01T14:25:00Z",
+  "head": "cb78cfb6259a58b696161272ee93a7c77216af9c",
+  "login": "linusg",
+  "number": 3967,
+  "ref": "even-more-aliases",
+  "revs": [
+   {
+    "adate": "2026-09-01T16:21:52+01:00",
+    "author": "Linus Groh",
+    "date": "2026-09-01T16:21:52+01:00",
+    "hash": "cb78cfb6259a58b696161272ee93a7c77216af9c",
+    "parents": "8dcebb907a9b403b0859d6d6878634ba7cf76e70",
+    "subject": "Editorial: Change the only instance of \"timezone\" to \"time zone\""
+   },
+   {
+    "adate": "2026-09-01T15:23:44+01:00",
+    "author": "Linus Groh",
+    "date": "2026-09-01T16:20:37+01:00",
+    "hash": "8dcebb907a9b403b0859d6d6878634ba7cf76e70",
+    "parents": "dcf59856a8184792a9e42f0ffb7dc064094a5dcc",
+    "subject": "Editorial: Improve a few more alias names"
+   }
+  ],
+  "title": "Editorial: Improve a few more alias names",
+  "updated_at": "2026-09-01T15:24:34Z"
+ },
+ {
+  "base": "dcf59856a8184792a9e42f0ffb7dc064094a5dcc",
   "created_at": "2026-09-01T00:13:07Z",
   "head": "f380aa760b29eea780d91c2f37fbcc1332efe765",
   "login": "ptomato",
@@ -3226,96 +3274,64 @@
  {
   "base": "dcf59856a8184792a9e42f0ffb7dc064094a5dcc",
   "created_at": "2023-10-29T03:33:26Z",
-  "head": "28735110ca3eb6fbd1a3a24226c90b914a344011",
+  "head": "e30c39ea6a01879954e7a213b06119732808669f",
   "login": "jmdyck",
   "number": 3210,
   "ref": "SDO",
   "revs": [
    {
-    "adate": "2025-02-19T17:45:59-05:00",
-    "author": "Michael Dyck",
-    "date": "2026-08-31T17:59:30-04:00",
-    "hash": "28735110ca3eb6fbd1a3a24226c90b914a344011",
-    "parents": "38e6dc2434005ba6556d724ec251e5e2a092f335",
-    "subject": "fixup: Apply conventions after some merges to main"
-   },
-   {
-    "adate": "2024-02-28T15:04:56-05:00",
-    "author": "Michael Dyck",
-    "date": "2026-08-31T17:49:19-04:00",
-    "hash": "38e6dc2434005ba6556d724ec251e5e2a092f335",
-    "parents": "ed28ed4c4d6b1e06de28e445338b2dac77bb27d1",
-    "subject": "fixup: In example, remove \"the\" before \"VarDeclaredNames\""
-   },
-   {
-    "adate": "2024-02-28T14:15:23-05:00",
-    "author": "Michael Dyck",
-    "date": "2026-08-31T17:49:19-04:00",
-    "hash": "ed28ed4c4d6b1e06de28e445338b2dac77bb27d1",
-    "parents": "386ecfd63dafc6c7f5be15e2daabdb6404ef8db0",
-    "subject": "fixup re introducing \"subject Parse Node\""
-   },
-   {
-    "adate": "2023-10-30T22:51:24-04:00",
-    "author": "Michael Dyck",
-    "date": "2026-08-31T17:49:19-04:00",
-    "hash": "386ecfd63dafc6c7f5be15e2daabdb6404ef8db0",
-    "parents": "3c0c13425269869d829c03024cd84562bdf45b14",
-    "subject": "fixup: insert more 'this'"
-   },
-   {
     "adate": "2023-10-28T23:20:34-04:00",
     "author": "Michael Dyck",
-    "date": "2026-08-31T17:49:19-04:00",
-    "hash": "3c0c13425269869d829c03024cd84562bdf45b14",
-    "parents": "79a29dfc43d54978eaf967715d2515ef4b82f292",
+    "date": "2026-09-01T09:24:48-04:00",
+    "hash": "e30c39ea6a01879954e7a213b06119732808669f",
+    "parents": "cce1e05cae934e263282c322220086a109729c75",
     "subject": "Change \"this production\" to \"this Parse Node\""
    },
    {
     "adate": "2023-10-28T23:19:28-04:00",
     "author": "Michael Dyck",
-    "date": "2026-08-31T17:49:19-04:00",
-    "hash": "79a29dfc43d54978eaf967715d2515ef4b82f292",
-    "parents": "62c3351b5ed83a081d1f55ed6e49d04c65c09650",
+    "date": "2026-09-01T09:24:48-04:00",
+    "hash": "cce1e05cae934e263282c322220086a109729c75",
+    "parents": "7ca752a31974cc35d3163c7f17e52a8b03b2349f",
     "subject": "Change \"this production\" (and 1 \"this phrase\") to \"this |Nonterminal|\""
    },
    {
     "adate": "2023-10-28T22:58:05-04:00",
     "author": "Michael Dyck",
-    "date": "2026-08-31T17:49:19-04:00",
-    "hash": "62c3351b5ed83a081d1f55ed6e49d04c65c09650",
-    "parents": "498ae0f9992ecd9ab02858ef771e14320e3c6d42",
+    "date": "2026-09-01T09:24:48-04:00",
+    "hash": "7ca752a31974cc35d3163c7f17e52a8b03b2349f",
+    "parents": "1ab8737cde54967fb6929c98f0f9a782a53fb69d",
     "subject": "Change \"the |UnaryExpression|\" to \"this |UnaryExpression|\""
    },
    {
     "adate": "2023-10-28T22:55:29-04:00",
     "author": "Michael Dyck",
-    "date": "2026-08-31T17:48:01-04:00",
-    "hash": "498ae0f9992ecd9ab02858ef771e14320e3c6d42",
-    "parents": "6837fc27fda0a80565d9453de34a0dbf5ec2a74f",
+    "date": "2026-09-01T09:24:48-04:00",
+    "hash": "1ab8737cde54967fb6929c98f0f9a782a53fb69d",
+    "parents": "4430d0732be11c9428ac4de52dd79c872fefc63a",
     "subject": "Insert 'this' for references to LHS nonterminal"
    },
    {
     "adate": "2023-10-28T15:35:18-04:00",
     "author": "Michael Dyck",
-    "date": "2026-08-31T17:44:51-04:00",
-    "hash": "6837fc27fda0a80565d9453de34a0dbf5ec2a74f",
-    "parents": "464ce96e51b55c8d9201ca810be99ab8cf4d1ac0",
+    "date": "2026-09-01T09:24:48-04:00",
+    "hash": "4430d0732be11c9428ac4de52dd79c872fefc63a",
+    "parents": "026ef8583e1f96f29a141ed5151b6708e581f331",
     "subject": "Link to \"Referring to Parse Nodes\" from `Early Error Rules`"
    },
    {
     "adate": "2023-10-28T15:34:43-04:00",
     "author": "Michael Dyck",
-    "date": "2026-08-31T17:44:51-04:00",
-    "hash": "464ce96e51b55c8d9201ca810be99ab8cf4d1ac0",
-    "parents": "db147673f9ed0edead0abaa6e9719cbd99d1aef1",
+    "date": "2026-09-01T09:24:48-04:00",
+    "hash": "026ef8583e1f96f29a141ed5151b6708e581f331",
+    "parents": "2717e993889de8704d75f38f21e1b980eb6e76a7",
     "subject": "Create a subsection for \"Referring to Parse Nodes\""
    },
    {
     "adate": "2023-10-28T15:29:41-04:00",
     "author": "Michael Dyck",
-    "date": "2026-08-31T17:44:51-04:00",
-    "hash": "db147673f9ed0edead0abaa6e9719cbd99d1aef1",
+    "date": "2026-09-01T09:24:47-04:00",
+    "hash": "2717e993889de8704d75f38f21e1b980eb6e76a7",
     "parents": "bdec40f176c16888fa3c19ee2254afd084b31825",
     "subject": "Add a paragraph about the dispatching mechanism for SDOs."
    },
@@ -3345,7 +3361,7 @@
    }
   ],
   "title": "Editorial: Expand the \"Syntax-Directed Operations\" section",
-  "updated_at": "2026-09-01T02:53:13Z"
+  "updated_at": "2026-09-01T13:32:46Z"
  },
  {
   "base": "f2b2d524a56c915826e90d7a3f9daa51a49011c3",
