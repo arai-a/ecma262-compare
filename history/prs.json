@@ -1,23 +1,43 @@
 [
  {
-  "base": "dcf59856a8184792a9e42f0ffb7dc064094a5dcc",
-  "created_at": "2026-09-01T15:21:51Z",
-  "head": "a54fd22cceae7d040c98e08ba61a20972e1faf56",
-  "login": "ptomato",
-  "number": 3968,
-  "ref": "upgrade-ecmarkup",
+  "base": "e28783d5fc9dc12b3de905961e2c71410b38a202",
+  "created_at": "2026-09-02T18:06:07Z",
+  "head": "e605b462a78b35a41b929bfbb514be236f3047b0",
+  "login": "tc39",
+  "number": 3970,
+  "ref": "iterator-chunking",
   "revs": [
    {
-    "adate": "2026-08-31T10:52:32-07:00",
-    "author": "Philip Chimento",
-    "date": "2026-09-01T08:21:02-07:00",
-    "hash": "a54fd22cceae7d040c98e08ba61a20972e1faf56",
-    "parents": "dcf59856a8184792a9e42f0ffb7dc064094a5dcc",
-    "subject": "Update ecmarkup"
+    "adate": "2026-09-02T12:03:25-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-09-02T12:03:25-06:00",
+    "hash": "e605b462a78b35a41b929bfbb514be236f3047b0",
+    "parents": "e28783d5fc9dc12b3de905961e2c71410b38a202",
+    "subject": "Normative: add Iterator.prototype.chunks and windows"
    }
   ],
-  "title": "Update ecmarkup",
-  "updated_at": "2026-09-01T15:21:51Z"
+  "title": "Normative: add Iterator.prototype.chunks and Iterator.prototype.windows",
+  "updated_at": "2026-09-02T18:16:36Z"
+ },
+ {
+  "base": "e28783d5fc9dc12b3de905961e2c71410b38a202",
+  "created_at": "2026-09-02T17:57:39Z",
+  "head": "61c8df35e9b1a13ff9ce6ddc0d06ff1a07695219",
+  "login": "tc39",
+  "number": 3969,
+  "ref": "iterator-includes",
+  "revs": [
+   {
+    "adate": "2026-09-02T11:56:08-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-09-02T12:06:45-06:00",
+    "hash": "61c8df35e9b1a13ff9ce6ddc0d06ff1a07695219",
+    "parents": "e28783d5fc9dc12b3de905961e2c71410b38a202",
+    "subject": "Normative: add Iterator.prototype.includes"
+   }
+  ],
+  "title": "Normative: add Iterator.prototype.includes",
+  "updated_at": "2026-09-02T18:09:47Z"
  },
  {
   "base": "dcf59856a8184792a9e42f0ffb7dc064094a5dcc",
