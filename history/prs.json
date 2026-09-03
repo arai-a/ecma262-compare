@@ -1,6 +1,26 @@
 [
  {
   "base": "e28783d5fc9dc12b3de905961e2c71410b38a202",
+  "created_at": "2026-09-03T16:20:48Z",
+  "head": "59bea1796075e6c4cbedc6667d044d68ab33d27f",
+  "login": "tc39",
+  "number": 3971,
+  "ref": "add-parens",
+  "revs": [
+   {
+    "adate": "2026-09-03T10:09:15-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-09-03T10:18:25-06:00",
+    "hash": "59bea1796075e6c4cbedc6667d044d68ab33d27f",
+    "parents": "e28783d5fc9dc12b3de905961e2c71410b38a202",
+    "subject": "Editorial: add grouping parens to chained infix ops where order matters"
+   }
+  ],
+  "title": "Editorial: add grouping parens to chained infix ops where order matters",
+  "updated_at": "2026-09-03T16:51:23Z"
+ },
+ {
+  "base": "e28783d5fc9dc12b3de905961e2c71410b38a202",
   "created_at": "2026-09-02T18:06:07Z",
   "head": "7d7489e4303eb01fa9f76e7e2c3a08dd5ac2fccb",
   "login": "tc39",
