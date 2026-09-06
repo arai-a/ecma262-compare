@@ -3844,104 +3844,112 @@
   "updated_at": "2026-08-03T23:40:42Z"
  },
  {
-  "base": "294dcc2a0187b6ac3c52feccad2dadf9f93662d5",
+  "base": "e28783d5fc9dc12b3de905961e2c71410b38a202",
   "created_at": "2022-11-22T04:48:42Z",
-  "head": "ea63eb6baa076746a0593c0351af3dd9e3c700fa",
+  "head": "70867429ea8554f8bd17fafb8bb3d04bed005af1",
   "login": "jmdyck",
   "number": 2962,
   "ref": "transfer",
   "revs": [
    {
+    "adate": "2026-09-06T16:32:05-04:00",
+    "author": "Michael Dyck",
+    "date": "2026-09-06T16:32:05-04:00",
+    "hash": "70867429ea8554f8bd17fafb8bb3d04bed005af1",
+    "parents": "6cb896e6e761860b321c013050fbb71f988bc650",
+    "subject": "fixup: Change \"for later resumption\" to \"for later use\""
+   },
+   {
     "adate": "2023-02-13T11:22:33-05:00",
     "author": "Michael Dyck",
-    "date": "2026-08-09T21:08:42-04:00",
-    "hash": "ea63eb6baa076746a0593c0351af3dd9e3c700fa",
-    "parents": "f022ae3ba3a07c9345a0558b8bad27eb2512ceb0",
+    "date": "2026-08-31T18:05:38-04:00",
+    "hash": "6cb896e6e761860b321c013050fbb71f988bc650",
+    "parents": "361d06637fa9fb7be1ef45584820b990f8d23778",
     "subject": "Eliminate certain wording around execution contexts"
    },
    {
     "adate": "2022-11-21T22:50:15-05:00",
     "author": "Michael Dyck",
-    "date": "2026-08-09T21:08:42-04:00",
-    "hash": "f022ae3ba3a07c9345a0558b8bad27eb2512ceb0",
-    "parents": "eeb7c7a3e62240e56afaba99dbf5dbd98dbfb377",
+    "date": "2026-08-31T18:05:38-04:00",
+    "hash": "361d06637fa9fb7be1ef45584820b990f8d23778",
+    "parents": "80057e60fd72e7c87c78afc53e54a297965054ec",
     "subject": "Execution Context section: Make the EC Stack subsection"
    },
    {
     "adate": "2022-11-21T22:21:11-05:00",
     "author": "Michael Dyck",
-    "date": "2026-08-09T21:08:41-04:00",
-    "hash": "eeb7c7a3e62240e56afaba99dbf5dbd98dbfb377",
-    "parents": "a222a1da8799ea88bf26e226217bec3bb90b7f7b",
+    "date": "2026-08-31T18:05:38-04:00",
+    "hash": "80057e60fd72e7c87c78afc53e54a297965054ec",
+    "parents": "d1c6bf109f97cc367931800efd9cdff9a6b370c2",
     "subject": "Execution Context section: Move a paragraph"
    },
    {
     "adate": "2026-05-07T14:57:12-04:00",
     "author": "Michael Dyck",
-    "date": "2026-08-09T21:08:41-04:00",
-    "hash": "a222a1da8799ea88bf26e226217bec3bb90b7f7b",
-    "parents": "a6857e482287642aac93ed20a3c877f145f00792",
+    "date": "2026-08-31T18:05:37-04:00",
+    "hash": "d1c6bf109f97cc367931800efd9cdff9a6b370c2",
+    "parents": "328b7b96c2567152a22f4803d2aa0ce05ad79622",
     "subject": "Resume+Suspend: Re-word Note steps that talk about resuming execution contexts"
    },
    {
     "adate": "2022-11-21T22:10:01-05:00",
     "author": "Michael Dyck",
-    "date": "2026-08-09T21:08:41-04:00",
-    "hash": "a6857e482287642aac93ed20a3c877f145f00792",
-    "parents": "d5d7ba38889db423f98cc413a2a3d93ebafdb571",
+    "date": "2026-08-31T18:05:37-04:00",
+    "hash": "328b7b96c2567152a22f4803d2aa0ce05ad79622",
+    "parents": "82af3ccd18e12206d4359ef2909d2a6035203a50",
     "subject": "Resume+Suspend: Eliminate `Suspend` steps"
    },
    {
     "adate": "2022-11-21T22:04:15-05:00",
     "author": "Michael Dyck",
-    "date": "2026-08-09T21:08:41-04:00",
-    "hash": "d5d7ba38889db423f98cc413a2a3d93ebafdb571",
-    "parents": "1e5551c654a47429e2f023839dea117a89101347",
+    "date": "2026-08-31T18:05:37-04:00",
+    "hash": "82af3ccd18e12206d4359ef2909d2a6035203a50",
+    "parents": "4df27a833762d97837454b15e81544facf42f418",
     "subject": "Resume+Suspend: Eliminate `Resume` steps"
    },
    {
     "adate": "2022-11-21T21:39:36-05:00",
     "author": "Michael Dyck",
-    "date": "2026-08-09T21:08:41-04:00",
-    "hash": "1e5551c654a47429e2f023839dea117a89101347",
-    "parents": "4dacfc0a4bfee39ee45ecfc42a607d33291706a4",
+    "date": "2026-08-31T18:05:37-04:00",
+    "hash": "4df27a833762d97837454b15e81544facf42f418",
+    "parents": "1d0bb8a038c5e01bf7805e3c0b9c5c1a0f8c0ecd",
     "subject": "Transfer control: Define \"Transfer control\""
    },
    {
     "adate": "2026-05-07T14:55:57-04:00",
     "author": "Michael Dyck",
-    "date": "2026-08-09T21:08:41-04:00",
-    "hash": "4dacfc0a4bfee39ee45ecfc42a607d33291706a4",
-    "parents": "bd8b7cb147ffad8facc415c4182aa6b3a3f78b52",
+    "date": "2026-08-31T18:05:37-04:00",
+    "hash": "1d0bb8a038c5e01bf7805e3c0b9c5c1a0f8c0ecd",
+    "parents": "525767686fa4ef800a5b9efe444cd1c0e8e9f51b",
     "subject": "Transfer control: Tweak wording re setting `code evaluation state`"
    },
    {
     "adate": "2026-05-07T14:01:23-04:00",
     "author": "Michael Dyck",
-    "date": "2026-08-09T21:08:24-04:00",
-    "hash": "bd8b7cb147ffad8facc415c4182aa6b3a3f78b52",
-    "parents": "58bd397411f68f526676fc67a419128a9b88e929",
+    "date": "2026-08-31T18:05:37-04:00",
+    "hash": "525767686fa4ef800a5b9efe444cd1c0e8e9f51b",
+    "parents": "d7c8c327a1efc8e13db1370fc234fdd9f16adc4d",
     "subject": "Transfer control: Replace all blocking-Resume steps with \"Transfer control\""
    },
    {
     "adate": "2026-05-07T13:48:08-04:00",
     "author": "Michael Dyck",
-    "date": "2026-08-08T21:41:07-04:00",
-    "hash": "58bd397411f68f526676fc67a419128a9b88e929",
-    "parents": "c442f5102fa1aef6042dc44fb071abf461e90cb5",
+    "date": "2026-08-31T18:05:37-04:00",
+    "hash": "d7c8c327a1efc8e13db1370fc234fdd9f16adc4d",
+    "parents": "7d8a8f0b2fb1417a806fb199027bf5bd30e04b41",
     "subject": "In AsyncBlockStart, change `~empty~` to `~unused~`"
    },
    {
     "adate": "2023-09-02T20:51:16-04:00",
     "author": "Michael Dyck",
-    "date": "2026-08-08T21:41:06-04:00",
-    "hash": "c442f5102fa1aef6042dc44fb071abf461e90cb5",
-    "parents": "294dcc2a0187b6ac3c52feccad2dadf9f93662d5",
+    "date": "2026-08-31T18:05:31-04:00",
+    "hash": "7d8a8f0b2fb1417a806fb199027bf5bd30e04b41",
+    "parents": "dcf59856a8184792a9e42f0ffb7dc064094a5dcc",
     "subject": "Editorial: Eliminate \"restore <context> as the running execution context\""
    }
   ],
   "title": "Editorial: Various changes around execution contexts",
-  "updated_at": "2026-08-10T01:33:28Z"
+  "updated_at": "2026-09-06T20:32:50Z"
  },
  {
   "base": "053d34c87b14d9234d6f7f45bd61074b72ca9d69",
@@ -4024,9 +4032,9 @@
   "updated_at": "2023-02-13T17:15:08Z"
  },
  {
-  "base": "974bbcfbb6c41102533c2aa5e4acfe67e4608634",
+  "base": "e28783d5fc9dc12b3de905961e2c71410b38a202",
   "created_at": "2022-09-04T02:20:57Z",
-  "head": "25e51c5a8e1ac7099a69bc7effdd32a724c0fc82",
+  "head": "8025b209c9a44cd40099f3c3aefe00d2e41873b2",
   "login": "jmdyck",
   "number": 2889,
   "ref": "callable",
@@ -4034,22 +4042,22 @@
    {
     "adate": "2022-09-03T22:11:56-04:00",
     "author": "Michael Dyck",
-    "date": "2026-07-03T22:13:52-04:00",
-    "hash": "25e51c5a8e1ac7099a69bc7effdd32a724c0fc82",
-    "parents": "5f9e936c32cdc81504ea2688687d402d29dda03a",
+    "date": "2026-08-31T18:28:19-04:00",
+    "hash": "8025b209c9a44cd40099f3c3aefe00d2e41873b2",
+    "parents": "0ead451ceccdd43064f70fc52f9a958c312fe646",
     "subject": "Eliminate most other uses of \"callable\""
    },
    {
     "adate": "2022-09-03T21:47:50-04:00",
     "author": "Michael Dyck",
-    "date": "2026-07-03T22:13:50-04:00",
-    "hash": "5f9e936c32cdc81504ea2688687d402d29dda03a",
-    "parents": "974bbcfbb6c41102533c2aa5e4acfe67e4608634",
+    "date": "2026-08-31T18:26:19-04:00",
+    "hash": "0ead451ceccdd43064f70fc52f9a958c312fe646",
+    "parents": "dcf59856a8184792a9e42f0ffb7dc064094a5dcc",
     "subject": "Rename \"IsCallable\" as \"IsFunction\""
    }
   ],
   "title": "Editorial: Minimize use of the term \"callable\"",
-  "updated_at": "2026-07-04T12:58:59Z"
+  "updated_at": "2026-09-06T20:50:55Z"
  },
  {
   "base": "8aac12603c99f94d982317832b0e03c13684ce0a",
@@ -4396,9 +4404,9 @@
   "updated_at": "2021-07-25T15:08:46Z"
  },
  {
-  "base": "45a667175d5ac359968d8a2aa7eef62a65bb7988",
+  "base": "e28783d5fc9dc12b3de905961e2c71410b38a202",
   "created_at": "2021-06-27T15:32:45Z",
-  "head": "6ac4221022cd727d8508a87f0f931e58d255f3a8",
+  "head": "902312f9903a244d745bd7d384de1ccd2193b466",
   "login": "jmdyck",
   "number": 2445,
   "ref": "annex_B_pattern_ambig",
@@ -4406,30 +4414,30 @@
    {
     "adate": "2024-08-12T22:16:36-04:00",
     "author": "Michael Dyck",
-    "date": "2026-06-25T11:19:35-04:00",
-    "hash": "6ac4221022cd727d8508a87f0f931e58d255f3a8",
-    "parents": "6d7b939656778c4c9cc5de5d85109e73d2dfbc09",
+    "date": "2026-08-31T18:10:44-04:00",
+    "hash": "902312f9903a244d745bd7d384de1ccd2193b466",
+    "parents": "a4cf9b3047b5decdb4727f1deeb3b9b822b21d8b",
     "subject": "Editorial: Change the semantic basis for lookahead restrictions"
    },
    {
     "adate": "2021-06-27T10:54:12-04:00",
     "author": "Michael Dyck",
-    "date": "2026-06-25T11:19:35-04:00",
-    "hash": "6d7b939656778c4c9cc5de5d85109e73d2dfbc09",
-    "parents": "8dd6447058386af39dea7f5a42881d61f0ee5af5",
+    "date": "2026-08-31T18:07:43-04:00",
+    "hash": "a4cf9b3047b5decdb4727f1deeb3b9b822b21d8b",
+    "parents": "18229e490432c2e4fca12571a9ce480cc989a042",
     "subject": "Editorial: Eliminate order-disambiguation from Annex B Pattern-grammar"
    },
    {
     "adate": "2024-08-11T21:57:11-04:00",
     "author": "Michael Dyck",
-    "date": "2026-06-25T11:19:35-04:00",
-    "hash": "8dd6447058386af39dea7f5a42881d61f0ee5af5",
-    "parents": "45a667175d5ac359968d8a2aa7eef62a65bb7988",
+    "date": "2026-08-31T18:07:43-04:00",
+    "hash": "18229e490432c2e4fca12571a9ce480cc989a042",
+    "parents": "dcf59856a8184792a9e42f0ffb7dc064094a5dcc",
     "subject": "Editorial: Rewrite some of the \"Lookahead Restrictions\" section"
    }
   ],
   "title": "Editorial: Eliminate order-disambiguation from Annex B Pattern-grammar",
-  "updated_at": "2026-06-27T15:26:56Z"
+  "updated_at": "2026-09-06T20:40:24Z"
  },
  {
   "base": "94bf7d52348011fa4d7ce83ebc0e98a7f2129817",
@@ -4592,9 +4600,9 @@
   "updated_at": "2021-03-02T20:18:19Z"
  },
  {
-  "base": "45a667175d5ac359968d8a2aa7eef62a65bb7988",
+  "base": "e28783d5fc9dc12b3de905961e2c71410b38a202",
   "created_at": "2021-01-24T05:38:33Z",
-  "head": "e4d9d2ea76f34db93b696a3939fc37a8fe82e704",
+  "head": "a3af944c947d3af508b6563d7082dfeeaf37a34b",
   "login": "jmdyck",
   "number": 2288,
   "ref": "declarative_Env_Rec",
@@ -4602,62 +4610,62 @@
    {
     "adate": "2026-06-30T22:38:36-04:00",
     "author": "Michael Dyck",
-    "date": "2026-06-30T22:38:36-04:00",
-    "hash": "e4d9d2ea76f34db93b696a3939fc37a8fe82e704",
-    "parents": "1e469f8d2602ed4977010d217d335f5e508146eb",
+    "date": "2026-08-31T18:21:09-04:00",
+    "hash": "a3af944c947d3af508b6563d7082dfeeaf37a34b",
+    "parents": "181769d27e9fd867e9a3dc79689440e7d0bc45e3",
     "subject": "fixup: Unfold `_targetEnv_.GetBindingValue(...)` in GetBindingValue for Module Environment Records"
    },
    {
     "adate": "2026-06-30T18:31:00-04:00",
     "author": "Michael Dyck",
-    "date": "2026-06-30T18:31:00-04:00",
-    "hash": "1e469f8d2602ed4977010d217d335f5e508146eb",
-    "parents": "dc502a892ffa741a909d0efe7246ec14aba3411b",
+    "date": "2026-08-31T18:18:57-04:00",
+    "hash": "181769d27e9fd867e9a3dc79689440e7d0bc45e3",
+    "parents": "9eb826fab16d2c571c3ba930557002e1b1101e89",
     "subject": "fixup: rephrase \"it will have a direct binding for\" in CreateImportBinding assert"
    },
    {
     "adate": "2026-05-05T19:13:29-04:00",
     "author": "Michael Dyck",
-    "date": "2026-06-30T18:00:30-04:00",
-    "hash": "dc502a892ffa741a909d0efe7246ec14aba3411b",
-    "parents": "ff833a815047010a05817d04f6c759b9f6b51133",
+    "date": "2026-08-31T18:18:57-04:00",
+    "hash": "9eb826fab16d2c571c3ba930557002e1b1101e89",
+    "parents": "c093a6603aba58849d8ee3d3071feaa30a6154be",
     "subject": "Editorial: Mention that Function ERs and Module ERs override certain concrete methods"
    },
    {
     "adate": "2025-08-19T21:37:07-04:00",
     "author": "Michael Dyck",
-    "date": "2026-06-30T17:49:43-04:00",
-    "hash": "ff833a815047010a05817d04f6c759b9f6b51133",
-    "parents": "5e3de4703a609b3908020ecdb9401424bf2c9b82",
+    "date": "2026-08-31T18:18:56-04:00",
+    "hash": "c093a6603aba58849d8ee3d3071feaa30a6154be",
+    "parents": "53febe585c3854622d8aae27408168e65df18fbb",
     "subject": "Editorial: Model a declarative binding as a Record"
    },
    {
     "adate": "2025-08-19T21:35:25-04:00",
     "author": "Michael Dyck",
-    "date": "2026-06-30T17:33:47-04:00",
-    "hash": "5e3de4703a609b3908020ecdb9401424bf2c9b82",
-    "parents": "ac1eee58e5d61f1d49fd838880b9c8fe1e5c2f29",
+    "date": "2026-08-31T18:18:09-04:00",
+    "hash": "53febe585c3854622d8aae27408168e65df18fbb",
+    "parents": "ee8945bd0d247a67fac8803f6cc57e314676398d",
     "subject": "Editorial: Declarative Env Rec has field [[Bindings]]"
    },
    {
     "adate": "2025-08-19T21:30:27-04:00",
     "author": "Michael Dyck",
-    "date": "2026-06-30T17:30:13-04:00",
-    "hash": "ac1eee58e5d61f1d49fd838880b9c8fe1e5c2f29",
-    "parents": "82b1811f31ee84cd2f0cd3fea8db7ea569163a1e",
+    "date": "2026-08-31T18:18:04-04:00",
+    "hash": "ee8945bd0d247a67fac8803f6cc57e314676398d",
+    "parents": "9d3dede5f1ae038f4ad6ba783b1766fb75e7d091",
     "subject": "Editorial: Treat a binding as an 'alias-able' thing"
    },
    {
     "adate": "2021-01-23T22:54:21-05:00",
     "author": "Michael Dyck",
-    "date": "2026-06-30T17:10:15-04:00",
-    "hash": "82b1811f31ee84cd2f0cd3fea8db7ea569163a1e",
-    "parents": "45a667175d5ac359968d8a2aa7eef62a65bb7988",
+    "date": "2026-08-31T18:13:06-04:00",
+    "hash": "9d3dede5f1ae038f4ad6ba783b1766fb75e7d091",
+    "parents": "dcf59856a8184792a9e42f0ffb7dc064094a5dcc",
     "subject": "Editorial: Use Declarative Env Rec's HasBinding method"
    }
   ],
   "title": "Editorial: Model the bindings of a declarative Env Rec as a List of Records",
-  "updated_at": "2026-07-01T02:49:30Z"
+  "updated_at": "2026-09-06T20:46:26Z"
  },
  {
   "base": "8c0c94eb3be152b7ae7dc0cb580f4ee9f0a9a0c2",
@@ -4688,9 +4696,9 @@
   "updated_at": "2026-06-05T23:43:36Z"
  },
  {
-  "base": "294dcc2a0187b6ac3c52feccad2dadf9f93662d5",
+  "base": "e28783d5fc9dc12b3de905961e2c71410b38a202",
   "created_at": "2020-12-08T06:31:39Z",
-  "head": "c336c619353e08faa026d15167b06cd3e13a1b8e",
+  "head": "b6f6bba499b4b9245f09697da78ca2ef6c793ed0",
   "login": "jmdyck",
   "number": 2246,
   "ref": "ExecutionContext_Record",
@@ -4698,38 +4706,38 @@
    {
     "adate": "2026-05-04T19:44:47-04:00",
     "author": "Michael Dyck",
-    "date": "2026-08-08T21:43:26-04:00",
-    "hash": "c336c619353e08faa026d15167b06cd3e13a1b8e",
-    "parents": "fcb3c13ff98d46ee021626c7ce06d62cc10ebc2f",
+    "date": "2026-08-31T18:24:49-04:00",
+    "hash": "b6f6bba499b4b9245f09697da78ca2ef6c793ed0",
+    "parents": "7ce3e7c22e6792164e670496a5745b73a3897d17",
     "subject": "fixup: Wrap `<dfn>` around \"ExecutionContext Record\""
    },
    {
     "adate": "2025-02-19T17:23:33-05:00",
     "author": "Michael Dyck",
-    "date": "2026-08-08T21:43:26-04:00",
-    "hash": "fcb3c13ff98d46ee021626c7ce06d62cc10ebc2f",
-    "parents": "cdc8e2d90ff7dc7d0090b8d67ace8337ad553563",
+    "date": "2026-08-31T18:24:46-04:00",
+    "hash": "7ce3e7c22e6792164e670496a5745b73a3897d17",
+    "parents": "9ca3180eded0798d89cb7f2a9107fdd3b3f15e6a",
     "subject": "fixup: remove a line from esmeta-ignore.json"
    },
    {
     "adate": "2022-08-31T23:13:29-04:00",
     "author": "Michael Dyck",
-    "date": "2026-08-08T21:43:26-04:00",
-    "hash": "cdc8e2d90ff7dc7d0090b8d67ace8337ad553563",
-    "parents": "0457f66dc6062bef506d9134de56362ea1c1e654",
+    "date": "2026-08-31T18:23:36-04:00",
+    "hash": "9ca3180eded0798d89cb7f2a9107fdd3b3f15e6a",
+    "parents": "30f0506029d8bbed95be65287739137280fea313",
     "subject": "fixup: Avoid saying \"that execution context\" by naming it"
    },
    {
     "adate": "2020-12-08T01:22:55-05:00",
     "author": "Michael Dyck",
-    "date": "2026-08-08T21:43:26-04:00",
-    "hash": "0457f66dc6062bef506d9134de56362ea1c1e654",
-    "parents": "294dcc2a0187b6ac3c52feccad2dadf9f93662d5",
+    "date": "2026-08-31T18:23:36-04:00",
+    "hash": "30f0506029d8bbed95be65287739137280fea313",
+    "parents": "dcf59856a8184792a9e42f0ffb7dc064094a5dcc",
     "subject": "Editorial: Model execution context as a record"
    }
   ],
   "title": "Editorial: Model execution context as a record",
-  "updated_at": "2026-08-10T01:01:23Z"
+  "updated_at": "2026-09-06T20:49:30Z"
  },
  {
   "base": "b3f9b5089bcc3ddd8486379015cd11eb1427a5eb",
