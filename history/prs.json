@@ -60,34 +60,6 @@
   "updated_at": "2026-09-02T18:09:47Z"
  },
  {
-  "base": "84dd63dbba1ec531ab493349a8f7412744793315",
-  "created_at": "2026-09-01T14:25:00Z",
-  "head": "6d16ad6b82bd14543c28e434d24fc917413c0dec",
-  "login": "linusg",
-  "number": 3967,
-  "ref": "even-more-aliases",
-  "revs": [
-   {
-    "adate": "2026-09-01T16:21:52+01:00",
-    "author": "Linus Groh",
-    "date": "2026-09-08T09:54:42+01:00",
-    "hash": "6d16ad6b82bd14543c28e434d24fc917413c0dec",
-    "parents": "0b2331c84505a9d3f0185f795d55f4b6c1417c8d",
-    "subject": "Editorial: Change the only instance of \"timezone\" to \"time zone\""
-   },
-   {
-    "adate": "2026-09-01T15:23:44+01:00",
-    "author": "Linus Groh",
-    "date": "2026-09-08T09:54:39+01:00",
-    "hash": "0b2331c84505a9d3f0185f795d55f4b6c1417c8d",
-    "parents": "84dd63dbba1ec531ab493349a8f7412744793315",
-    "subject": "Editorial: Improve a few more alias names"
-   }
-  ],
-  "title": "Editorial: Improve a few more alias names",
-  "updated_at": "2026-09-08T08:58:18Z"
- },
- {
   "base": "dcf59856a8184792a9e42f0ffb7dc064094a5dcc",
   "created_at": "2026-09-01T00:13:07Z",
   "head": "f380aa760b29eea780d91c2f37fbcc1332efe765",
@@ -1074,11 +1046,19 @@
  {
   "base": "294dcc2a0187b6ac3c52feccad2dadf9f93662d5",
   "created_at": "2026-08-12T16:59:08Z",
-  "head": "19ba7258afe930e76d81f5892ca1f21a919280ae",
+  "head": "468955571c5f2979a070940b339f54a31d47fd63",
   "login": "bakkot",
   "number": 3948,
   "ref": "iterator-join",
   "revs": [
+   {
+    "adate": "2026-09-08T11:01:31-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2026-09-08T11:01:31-07:00",
+    "hash": "468955571c5f2979a070940b339f54a31d47fd63",
+    "parents": "19ba7258afe930e76d81f5892ca1f21a919280ae",
+    "subject": "fixup! sep -> separatorString"
+   },
    {
     "adate": "2026-08-12T09:58:03-07:00",
     "author": "Kevin Gibbons",
@@ -1089,7 +1069,7 @@
    }
   ],
   "title": "Normative: add Iterator.prototype.join",
-  "updated_at": "2026-08-12T17:09:24Z"
+  "updated_at": "2026-09-08T18:01:36Z"
  },
  {
   "base": "294dcc2a0187b6ac3c52feccad2dadf9f93662d5",
