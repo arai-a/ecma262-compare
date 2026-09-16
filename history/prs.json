@@ -3208,32 +3208,64 @@
   "updated_at": "2024-03-26T14:27:53Z"
  },
  {
-  "base": "3e0bdf0757a1a4f790044a35aa2ac53ca1fbc7a9",
+  "base": "b7865f0eed2021720f84d561289401bc414874d0",
   "created_at": "2024-03-07T15:36:34Z",
-  "head": "71d45d2e1f16432577057211b3f5025294e608ac",
+  "head": "7ee0b1bda48f30f248e24826f152c9f82cd2cce5",
   "login": "lukewarlow",
   "number": 3294,
   "ref": "codelike-hostensurecancompilestrings",
   "revs": [
    {
+    "adate": "2026-09-16T11:28:24+02:00",
+    "author": "Nicol\u00f2 Ribaudo",
+    "date": "2026-09-16T11:28:24+02:00",
+    "hash": "7ee0b1bda48f30f248e24826f152c9f82cd2cce5",
+    "parents": "ce8f57f19a5894ab6957ded69e1bb5d830917f85",
+    "subject": "Add PerformEval to esmeta-ignore"
+   },
+   {
+    "adate": "2026-09-16T11:06:59+02:00",
+    "author": "Nicol\u00f2 Ribaudo",
+    "date": "2026-09-16T11:09:15+02:00",
+    "hash": "ce8f57f19a5894ab6957ded69e1bb5d830917f85",
+    "parents": "5518dbf06c05610e2ffeb4ed09f81f38de973df9",
+    "subject": "Update to tc39/proposal-dynamic-code-brand-checks#23"
+   },
+   {
+    "adate": "2026-09-16T10:57:58+02:00",
+    "author": "Nicol\u00f2 Ribaudo",
+    "date": "2026-09-16T10:57:58+02:00",
+    "hash": "5518dbf06c05610e2ffeb4ed09f81f38de973df9",
+    "parents": "497fe8346a931246b72c7132e3ab95f67efef4cc",
+    "subject": "Review"
+   },
+   {
+    "adate": "2026-09-16T10:50:38+02:00",
+    "author": "Nicol\u00f2 Ribaudo",
+    "date": "2026-09-16T10:50:38+02:00",
+    "hash": "497fe8346a931246b72c7132e3ab95f67efef4cc",
+    "parents": "ba6a09d16971bdc7b41fd6e3871bd39f4a461324",
+    "subject": "Alias conventions"
+   },
+   {
     "adate": "2026-04-30T14:51:10+01:00",
     "author": "Luke Warlow",
-    "date": "2026-04-30T14:51:10+01:00",
-    "hash": "71d45d2e1f16432577057211b3f5025294e608ac",
-    "parents": "10a2eff77eff5723ffb041a9d4486b81b9a4e1b6",
+    "date": "2026-09-16T10:49:36+02:00",
+    "hash": "ba6a09d16971bdc7b41fd6e3871bd39f4a461324",
+    "parents": "8c6521ed4d34509a02be08f43f9bf00ec615d755",
     "subject": "format"
    },
    {
     "adate": "2026-04-30T12:27:16+01:00",
     "author": "Luke Warlow",
-    "date": "2026-04-30T14:39:34+01:00",
-    "hash": "10a2eff77eff5723ffb041a9d4486b81b9a4e1b6",
-    "parents": "3e0bdf0757a1a4f790044a35aa2ac53ca1fbc7a9",
+    "date": "2026-09-16T10:49:32+02:00",
+    "hash": "8c6521ed4d34509a02be08f43f9bf00ec615d755",
+    "parents": "b7865f0eed2021720f84d561289401bc414874d0",
     "subject": "Normative: Allow codelike object evaluation."
    }
   ],
-  "title": "Normative: Allow CodeLike object evaluation",
-  "updated_at": "2026-04-30T14:21:53Z"
+  "title": "Normative: Integrate \"dynamic code brand checks\" proposal",
+  "updated_at": "2026-09-16T09:29:11Z"
  },
  {
   "base": "6d7aa1b57f4b3390000d939fdc1920046b81d938",
