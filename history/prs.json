@@ -994,7 +994,7 @@
  {
   "base": "b7865f0eed2021720f84d561289401bc414874d0",
   "created_at": "2026-08-23T19:08:43Z",
-  "head": "1f6b7ff43fdb97761a751a158065c74348229299",
+  "head": "5579333e5ab9db9a0f82a8dcc75d3e094ce21793",
   "login": "gibson042",
   "number": 3958,
   "ref": "2026-08-define-typedarray-tolocalestring",
@@ -1002,16 +1002,24 @@
    {
     "adate": "2026-09-17T12:52:04-04:00",
     "author": "Richard Gibson",
-    "date": "2026-09-17T12:52:04-04:00",
-    "hash": "1f6b7ff43fdb97761a751a158065c74348229299",
-    "parents": "c651b86b0f530ebc768a84516ac442a7c048f0ba",
-    "subject": "fixup! Editorial: Generalize JoinIndexedProperties for ECMA-402 {Array,%TypedArray%}.prototype.toLocaleString"
+    "date": "2026-09-17T15:29:03-04:00",
+    "hash": "5579333e5ab9db9a0f82a8dcc75d3e094ce21793",
+    "parents": "d07432ab9a9b1fb4336dbd6710f3b4052dd451ea",
+    "subject": "Editorial: Simplify JoinIndexedProperties _separator_ to an explicit string"
+   },
+   {
+    "adate": "2026-09-17T12:52:04-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-09-17T15:26:55-04:00",
+    "hash": "d07432ab9a9b1fb4336dbd6710f3b4052dd451ea",
+    "parents": "b7d7f213923641990ef8465042d29cea119cbb4f",
+    "subject": "Editorial: Move JoinIndexedProperties separator determinition into its own LocalizedListSeparator AO"
    },
    {
     "adate": "2026-08-20T23:41:44-07:00",
     "author": "Richard Gibson",
-    "date": "2026-09-17T11:30:57-04:00",
-    "hash": "c651b86b0f530ebc768a84516ac442a7c048f0ba",
+    "date": "2026-09-17T15:25:13-04:00",
+    "hash": "b7d7f213923641990ef8465042d29cea119cbb4f",
     "parents": "8b4c47176f1173b235cb90a6d66b464b774f059c",
     "subject": "Editorial: Generalize JoinIndexedProperties for ECMA-402 {Array,%TypedArray%}.prototype.toLocaleString"
    },
@@ -1033,7 +1041,7 @@
    }
   ],
   "title": "Editorial: Define an algorithm for %TypedArray%.prototype.toLocaleString",
-  "updated_at": "2026-09-17T17:20:19Z"
+  "updated_at": "2026-09-17T20:07:22Z"
  },
  {
   "base": "ed463bc10dbeaad0410ce67e541a77ea8e9900a5",
