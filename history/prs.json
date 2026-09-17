@@ -1,6 +1,34 @@
 [
  {
   "base": "b7865f0eed2021720f84d561289401bc414874d0",
+  "created_at": "2026-09-17T02:57:06Z",
+  "head": "118f97aaa3005d017ee199bdbd66231a21d4be80",
+  "login": "bakkot",
+  "number": 3979,
+  "ref": "fix-ta-throwy",
+  "revs": [
+   {
+    "adate": "2026-09-16T20:02:30-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2026-09-16T20:02:30-07:00",
+    "hash": "118f97aaa3005d017ee199bdbd66231a21d4be80",
+    "parents": "34cb62b6730da7a044d023431e041cabf6d7c44d",
+    "subject": "fixup! suppress user code effect"
+   },
+   {
+    "adate": "2026-09-16T19:52:47-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2026-09-16T19:52:47-07:00",
+    "hash": "34cb62b6730da7a044d023431e041cabf6d7c44d",
+    "parents": "b7865f0eed2021720f84d561289401bc414874d0",
+    "subject": "Editorial: fix incorrect assertion in TA.prototype.{filter,with}"
+   }
+  ],
+  "title": "Editorial: fix incorrect assertion in TA.prototype.{filter,with}",
+  "updated_at": "2026-09-17T03:05:10Z"
+ },
+ {
+  "base": "b7865f0eed2021720f84d561289401bc414874d0",
   "created_at": "2026-09-14T18:16:12Z",
   "head": "56998d9f0845a8adc434978dac149e1ef654c869",
   "login": "linusg",
