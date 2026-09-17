@@ -994,11 +994,19 @@
  {
   "base": "b7865f0eed2021720f84d561289401bc414874d0",
   "created_at": "2026-08-23T19:08:43Z",
-  "head": "5579333e5ab9db9a0f82a8dcc75d3e094ce21793",
+  "head": "dd70fde1e6a459fa76ef43b47316c0bf9d550322",
   "login": "gibson042",
   "number": 3958,
   "ref": "2026-08-define-typedarray-tolocalestring",
   "revs": [
+   {
+    "adate": "2026-09-17T18:59:02-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-09-17T18:59:02-04:00",
+    "hash": "dd70fde1e6a459fa76ef43b47316c0bf9d550322",
+    "parents": "5579333e5ab9db9a0f82a8dcc75d3e094ce21793",
+    "subject": "Editorial: Expect ECMA-402 to define %TypedArray%.prototype.toLocaleString"
+   },
    {
     "adate": "2026-09-17T12:52:04-04:00",
     "author": "Richard Gibson",
@@ -1041,7 +1049,7 @@
    }
   ],
   "title": "Editorial: Define an algorithm for %TypedArray%.prototype.toLocaleString",
-  "updated_at": "2026-09-17T20:07:22Z"
+  "updated_at": "2026-09-17T23:20:00Z"
  },
  {
   "base": "ed463bc10dbeaad0410ce67e541a77ea8e9900a5",
