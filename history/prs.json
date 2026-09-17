@@ -992,49 +992,65 @@
   "updated_at": "2026-08-30T08:51:06Z"
  },
  {
-  "base": "ed463bc10dbeaad0410ce67e541a77ea8e9900a5",
+  "base": "b7865f0eed2021720f84d561289401bc414874d0",
   "created_at": "2026-08-23T19:08:43Z",
-  "head": "d7cf89f7872a2716a3054d1a3cebe45b3bdc12cb",
+  "head": "1f6b7ff43fdb97761a751a158065c74348229299",
   "login": "gibson042",
   "number": 3958,
   "ref": "2026-08-define-typedarray-tolocalestring",
   "revs": [
    {
+    "adate": "2026-09-17T12:52:04-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-09-17T12:52:04-04:00",
+    "hash": "1f6b7ff43fdb97761a751a158065c74348229299",
+    "parents": "c651b86b0f530ebc768a84516ac442a7c048f0ba",
+    "subject": "fixup! Editorial: Generalize JoinIndexedProperties for ECMA-402 {Array,%TypedArray%}.prototype.toLocaleString"
+   },
+   {
     "adate": "2026-08-20T23:41:44-07:00",
     "author": "Richard Gibson",
-    "date": "2026-08-24T12:55:26-04:00",
-    "hash": "d7cf89f7872a2716a3054d1a3cebe45b3bdc12cb",
-    "parents": "86e81dc697e53710b3ecee700618310d657f6a82",
+    "date": "2026-09-17T11:30:57-04:00",
+    "hash": "c651b86b0f530ebc768a84516ac442a7c048f0ba",
+    "parents": "8b4c47176f1173b235cb90a6d66b464b774f059c",
     "subject": "Editorial: Generalize JoinIndexedProperties for ECMA-402 {Array,%TypedArray%}.prototype.toLocaleString"
    },
    {
     "adate": "2026-08-20T23:41:44-07:00",
     "author": "Richard Gibson",
-    "date": "2026-08-24T12:52:54-04:00",
-    "hash": "86e81dc697e53710b3ecee700618310d657f6a82",
-    "parents": "11bfd9ce8c218e5f7c171d8ca53964ea044064a0",
+    "date": "2026-09-17T11:30:55-04:00",
+    "hash": "8b4c47176f1173b235cb90a6d66b464b774f059c",
+    "parents": "c52ebc0784e550f682ba35fb88521e3851337eec",
     "subject": "Editorial: Generalize JoinIndexedProperties for {Array,%TypedArray%}.prototype.toLocaleString"
    },
    {
     "adate": "2026-08-20T23:41:44-07:00",
     "author": "Richard Gibson",
-    "date": "2026-08-24T12:44:32-04:00",
-    "hash": "11bfd9ce8c218e5f7c171d8ca53964ea044064a0",
-    "parents": "ed463bc10dbeaad0410ce67e541a77ea8e9900a5",
+    "date": "2026-09-17T11:27:21-04:00",
+    "hash": "c52ebc0784e550f682ba35fb88521e3851337eec",
+    "parents": "b7865f0eed2021720f84d561289401bc414874d0",
     "subject": "Editorial: Use a JoinIndexedProperties helper for {Array,%TypedArray%}.prototype.join"
    }
   ],
   "title": "Editorial: Define an algorithm for %TypedArray%.prototype.toLocaleString",
-  "updated_at": "2026-08-24T17:10:39Z"
+  "updated_at": "2026-09-17T17:20:19Z"
  },
  {
   "base": "ed463bc10dbeaad0410ce67e541a77ea8e9900a5",
   "created_at": "2026-08-22T19:34:57Z",
-  "head": "ac98177e53e19cbce970fa2c449ffdb0ebaad441",
+  "head": "9a1d3c640e732c59536fb8721df7f1607bf2efd7",
   "login": "gibson042",
   "number": 3957,
   "ref": "2026-08-normative-optional-tco",
   "revs": [
+   {
+    "adate": "2026-09-17T11:52:56-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-09-17T11:52:56-04:00",
+    "hash": "9a1d3c640e732c59536fb8721df7f1607bf2efd7",
+    "parents": "ac98177e53e19cbce970fa2c449ffdb0ebaad441",
+    "subject": "Editorial: Add a description for PrepareForTailCall"
+   },
    {
     "adate": "2026-08-21T21:28:09-04:00",
     "author": "Richard Gibson",
@@ -1045,7 +1061,7 @@
    }
   ],
   "title": "Normative: Make tail-call optimization normative-optional to match web reality",
-  "updated_at": "2026-08-22T19:43:05Z"
+  "updated_at": "2026-09-17T15:53:03Z"
  },
  {
   "base": "ad0ccf5efd879b6852faa08f10ca51f71a4f7cd0",
