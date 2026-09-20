@@ -1,5 +1,25 @@
 [
  {
+  "base": "41eff2501035ff204ec6aef99dd0ad54a12c375c",
+  "created_at": "2026-09-20T02:37:35Z",
+  "head": "987195819718bcb7627bd1a6fee62ad5d2095e16",
+  "login": "Jack-Works",
+  "number": 3981,
+  "ref": "SetViewValue",
+  "revs": [
+   {
+    "adate": "2026-09-19T00:00:00Z",
+    "author": "Jack Works",
+    "date": "2026-09-19T00:00:00Z",
+    "hash": "987195819718bcb7627bd1a6fee62ad5d2095e16",
+    "parents": "41eff2501035ff204ec6aef99dd0ad54a12c375c",
+    "subject": "Editorial: change return value of SetViewValue from undefined to unused"
+   }
+  ],
+  "title": "Editorial: change return value of SetViewValue from undefined to unused",
+  "updated_at": "2026-09-20T07:33:37Z"
+ },
+ {
   "base": "b7865f0eed2021720f84d561289401bc414874d0",
   "created_at": "2026-09-18T19:30:13Z",
   "head": "e7f586f33f45dae475807a37cb2c616f080642c7",
@@ -98,26 +118,6 @@
   ],
   "title": "Editorial: Use \"Internal Slots\" tables for more object types",
   "updated_at": "2026-09-18T22:06:24Z"
- },
- {
-  "base": "bc237bbb6d7a0bdcf67029fc1465a6e8aa9cfa39",
-  "created_at": "2026-09-14T15:31:47Z",
-  "head": "41eff2501035ff204ec6aef99dd0ad54a12c375c",
-  "login": "linusg",
-  "number": 3975,
-  "ref": "string-exotic-object-type",
-  "revs": [
-   {
-    "adate": "2026-09-18T16:38:10-07:00",
-    "author": "Linus Groh",
-    "date": "2026-09-18T16:38:10-07:00",
-    "hash": "41eff2501035ff204ec6aef99dd0ad54a12c375c",
-    "parents": "bc237bbb6d7a0bdcf67029fc1465a6e8aa9cfa39",
-    "subject": "Editorial: Use the String exotic object type in StringGetOwnProperty (#3975)"
-   }
-  ],
-  "title": "Editorial: Use the String exotic object type in StringGetOwnProperty",
-  "updated_at": "2026-09-18T23:38:29Z"
  },
  {
   "base": "b7865f0eed2021720f84d561289401bc414874d0",
