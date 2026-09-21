@@ -1,23 +1,23 @@
 [
  {
-  "base": "41eff2501035ff204ec6aef99dd0ad54a12c375c",
-  "created_at": "2026-09-20T02:37:35Z",
-  "head": "987195819718bcb7627bd1a6fee62ad5d2095e16",
-  "login": "Jack-Works",
-  "number": 3981,
-  "ref": "SetViewValue",
+  "base": "726ec8a42625509026a6570f1d4649bfa9fe4156",
+  "created_at": "2026-09-21T15:49:31Z",
+  "head": "a3b0485523f7ba7b63e9b67a04f7b59905d867b2",
+  "login": "linusg",
+  "number": 3982,
+  "ref": "options",
   "revs": [
    {
-    "adate": "2026-09-19T00:00:00Z",
-    "author": "Jack Works",
-    "date": "2026-09-19T00:00:00Z",
-    "hash": "987195819718bcb7627bd1a6fee62ad5d2095e16",
-    "parents": "41eff2501035ff204ec6aef99dd0ad54a12c375c",
-    "subject": "Editorial: change return value of SetViewValue from undefined to unused"
+    "adate": "2026-09-21T16:34:01+01:00",
+    "author": "Linus Groh",
+    "date": "2026-09-21T16:34:01+01:00",
+    "hash": "a3b0485523f7ba7b63e9b67a04f7b59905d867b2",
+    "parents": "726ec8a42625509026a6570f1d4649bfa9fe4156",
+    "subject": "Editorial: Add GetBooleanOption and GetStringOption"
    }
   ],
-  "title": "Editorial: change return value of SetViewValue from undefined to unused",
-  "updated_at": "2026-09-20T07:33:37Z"
+  "title": "Editorial: Add GetBooleanOption and GetStringOption",
+  "updated_at": "2026-09-21T15:59:48Z"
  },
  {
   "base": "b7865f0eed2021720f84d561289401bc414874d0",
