@@ -1780,9 +1780,9 @@
   "updated_at": "2026-08-07T12:42:27Z"
  },
  {
-  "base": "b7865f0eed2021720f84d561289401bc414874d0",
+  "base": "726ec8a42625509026a6570f1d4649bfa9fe4156",
   "created_at": "2026-07-16T21:42:36Z",
-  "head": "b99623fd23a9377ac102a39a79b3a435a7061849",
+  "head": "29eb10660d0a9bbf97b6529fc13163e83617944f",
   "login": "gibson042",
   "number": 3917,
   "ref": "gh-3911-followup-non-zero-finite-number",
@@ -1790,98 +1790,114 @@
    {
     "adate": "2026-07-16T17:37:02-04:00",
     "author": "Richard Gibson",
-    "date": "2026-09-13T12:21:26-04:00",
-    "hash": "b99623fd23a9377ac102a39a79b3a435a7061849",
-    "parents": "2631148d8d914713995a6c17876d3703ba434666",
+    "date": "2026-09-22T14:18:29-04:00",
+    "hash": "29eb10660d0a9bbf97b6529fc13163e83617944f",
+    "parents": "34ff6623b227943c53e252451ec6da2f1b3a264d",
     "subject": "Editorial: Improve readability of the \"non-zero finite Number\" definition"
    },
    {
     "adate": "2026-07-16T16:30:38-04:00",
     "author": "Richard Gibson",
-    "date": "2026-09-13T12:21:26-04:00",
-    "hash": "2631148d8d914713995a6c17876d3703ba434666",
-    "parents": "872abb5edcdc22ffc9081f48196546e03fe86345",
+    "date": "2026-09-22T14:18:29-04:00",
+    "hash": "34ff6623b227943c53e252451ec6da2f1b3a264d",
+    "parents": "3024f29be0a4e9d22f73643e78b7de08b38ef367",
     "subject": "Editorial: Introduce term \"non-zero finite Number\""
+   },
+   {
+    "adate": "2026-09-22T14:09:38-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-09-22T14:09:38-04:00",
+    "hash": "3024f29be0a4e9d22f73643e78b7de08b38ef367",
+    "parents": "322c259606524ce3a046326be1783b1d09b6f918",
+    "subject": "Editorial: Simplify IsLooselyEqual bigint vs. number comparison"
    },
    {
     "adate": "2026-07-16T14:39:20-04:00",
     "author": "Richard Gibson",
-    "date": "2026-09-13T12:20:27-04:00",
-    "hash": "872abb5edcdc22ffc9081f48196546e03fe86345",
-    "parents": "ba4567d3e96f0a0c77f539d1008868562b7145cf",
+    "date": "2026-09-22T11:59:47-04:00",
+    "hash": "322c259606524ce3a046326be1783b1d09b6f918",
+    "parents": "d1a05750b00dba70a901a189362f931dce062670",
     "subject": "Editorial: Align the non-zero finite Number assertions in Number::remainder with other AOs"
    },
    {
     "adate": "2026-07-16T13:55:12-04:00",
     "author": "Richard Gibson",
-    "date": "2026-09-13T12:18:53-04:00",
-    "hash": "ba4567d3e96f0a0c77f539d1008868562b7145cf",
-    "parents": "1415492c9bca8f515a1dc417ff405ffddbc3f0d3",
+    "date": "2026-09-22T11:59:47-04:00",
+    "hash": "d1a05750b00dba70a901a189362f931dce062670",
+    "parents": "6586637c72b5c8f81d3fcdb6ca74f3beb6f245e7",
     "subject": "Editorial: Define \"finite time value\" (as an autolink target for existing AO parameter types)"
    },
    {
     "adate": "2026-07-16T13:46:39-04:00",
     "author": "Richard Gibson",
-    "date": "2026-09-13T12:15:52-04:00",
-    "hash": "1415492c9bca8f515a1dc417ff405ffddbc3f0d3",
-    "parents": "a16394872bff64c65c202c3713778ee111c5f312",
+    "date": "2026-09-22T11:59:47-04:00",
+    "hash": "6586637c72b5c8f81d3fcdb6ca74f3beb6f245e7",
+    "parents": "04b50124e51e4ae6afc805cebb27d52396a9b600",
     "subject": "Editorial: Align finite-argument checks in Number.prototype.{toExponential,toFixed,toPrecision}"
    },
    {
     "adate": "2026-07-13T18:51:20-04:00",
     "author": "Richard Gibson",
-    "date": "2026-09-13T12:15:52-04:00",
-    "hash": "a16394872bff64c65c202c3713778ee111c5f312",
-    "parents": "b7865f0eed2021720f84d561289401bc414874d0",
+    "date": "2026-09-22T11:59:47-04:00",
+    "hash": "04b50124e51e4ae6afc805cebb27d52396a9b600",
+    "parents": "726ec8a42625509026a6570f1d4649bfa9fe4156",
     "subject": "Editorial: Replace Number-specific term \"finite\" with \"finite Number\""
    }
   ],
   "title": "Editorial: Introduce term \"non-zero finite Number\"",
-  "updated_at": "2026-09-13T16:23:37Z"
+  "updated_at": "2026-09-22T18:18:58Z"
  },
  {
-  "base": "b7865f0eed2021720f84d561289401bc414874d0",
+  "base": "726ec8a42625509026a6570f1d4649bfa9fe4156",
   "created_at": "2026-07-13T22:59:48Z",
-  "head": "872abb5edcdc22ffc9081f48196546e03fe86345",
+  "head": "3024f29be0a4e9d22f73643e78b7de08b38ef367",
   "login": "gibson042",
   "number": 3911,
   "ref": "gh-3840-finite-number",
   "revs": [
    {
+    "adate": "2026-09-22T14:09:38-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-09-22T14:09:38-04:00",
+    "hash": "3024f29be0a4e9d22f73643e78b7de08b38ef367",
+    "parents": "322c259606524ce3a046326be1783b1d09b6f918",
+    "subject": "Editorial: Simplify IsLooselyEqual bigint vs. number comparison"
+   },
+   {
     "adate": "2026-07-16T14:39:20-04:00",
     "author": "Richard Gibson",
-    "date": "2026-09-13T12:20:27-04:00",
-    "hash": "872abb5edcdc22ffc9081f48196546e03fe86345",
-    "parents": "ba4567d3e96f0a0c77f539d1008868562b7145cf",
+    "date": "2026-09-22T11:59:47-04:00",
+    "hash": "322c259606524ce3a046326be1783b1d09b6f918",
+    "parents": "d1a05750b00dba70a901a189362f931dce062670",
     "subject": "Editorial: Align the non-zero finite Number assertions in Number::remainder with other AOs"
    },
    {
     "adate": "2026-07-16T13:55:12-04:00",
     "author": "Richard Gibson",
-    "date": "2026-09-13T12:18:53-04:00",
-    "hash": "ba4567d3e96f0a0c77f539d1008868562b7145cf",
-    "parents": "1415492c9bca8f515a1dc417ff405ffddbc3f0d3",
+    "date": "2026-09-22T11:59:47-04:00",
+    "hash": "d1a05750b00dba70a901a189362f931dce062670",
+    "parents": "6586637c72b5c8f81d3fcdb6ca74f3beb6f245e7",
     "subject": "Editorial: Define \"finite time value\" (as an autolink target for existing AO parameter types)"
    },
    {
     "adate": "2026-07-16T13:46:39-04:00",
     "author": "Richard Gibson",
-    "date": "2026-09-13T12:15:52-04:00",
-    "hash": "1415492c9bca8f515a1dc417ff405ffddbc3f0d3",
-    "parents": "a16394872bff64c65c202c3713778ee111c5f312",
+    "date": "2026-09-22T11:59:47-04:00",
+    "hash": "6586637c72b5c8f81d3fcdb6ca74f3beb6f245e7",
+    "parents": "04b50124e51e4ae6afc805cebb27d52396a9b600",
     "subject": "Editorial: Align finite-argument checks in Number.prototype.{toExponential,toFixed,toPrecision}"
    },
    {
     "adate": "2026-07-13T18:51:20-04:00",
     "author": "Richard Gibson",
-    "date": "2026-09-13T12:15:52-04:00",
-    "hash": "a16394872bff64c65c202c3713778ee111c5f312",
-    "parents": "b7865f0eed2021720f84d561289401bc414874d0",
+    "date": "2026-09-22T11:59:47-04:00",
+    "hash": "04b50124e51e4ae6afc805cebb27d52396a9b600",
+    "parents": "726ec8a42625509026a6570f1d4649bfa9fe4156",
     "subject": "Editorial: Replace Number-specific term \"finite\" with \"finite Number\""
    }
   ],
   "title": "Editorial: Replace Number-specific term \"finite\" with \"finite Number\"",
-  "updated_at": "2026-09-13T16:38:47Z"
+  "updated_at": "2026-09-22T18:09:45Z"
  },
  {
   "base": "1355a23e48aaf2b1d7b6cbfad0fb98bce999cfd1",
