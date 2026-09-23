@@ -1,6 +1,26 @@
 [
  {
   "base": "726ec8a42625509026a6570f1d4649bfa9fe4156",
+  "created_at": "2026-09-23T17:11:45Z",
+  "head": "99851c34bb15c9ee94bbbd2c1749c693c9cccefc",
+  "login": "linusg",
+  "number": 3983,
+  "ref": "createlistfromarraylike-any",
+  "revs": [
+   {
+    "adate": "2026-09-23T18:09:08+01:00",
+    "author": "Linus Groh",
+    "date": "2026-09-23T18:09:08+01:00",
+    "hash": "99851c34bb15c9ee94bbbd2c1749c693c9cccefc",
+    "parents": "726ec8a42625509026a6570f1d4649bfa9fe4156",
+    "subject": "Editorial: Rename CreateListFromArrayLike enum value from all to any"
+   }
+  ],
+  "title": "Editorial: Rename CreateListFromArrayLike enum value from all to any",
+  "updated_at": "2026-09-23T17:20:48Z"
+ },
+ {
+  "base": "726ec8a42625509026a6570f1d4649bfa9fe4156",
   "created_at": "2026-09-21T15:49:31Z",
   "head": "2811f15b7ada23752a0997f48d014827baae5a5a",
   "login": "linusg",
