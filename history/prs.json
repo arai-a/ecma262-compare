@@ -4916,9 +4916,9 @@
   "updated_at": "2026-06-05T23:43:36Z"
  },
  {
-  "base": "e28783d5fc9dc12b3de905961e2c71410b38a202",
+  "base": "726ec8a42625509026a6570f1d4649bfa9fe4156",
   "created_at": "2020-12-08T06:31:39Z",
-  "head": "b6f6bba499b4b9245f09697da78ca2ef6c793ed0",
+  "head": "4e471c074038e1c58bf2e82321f340dfe236145f",
   "login": "jmdyck",
   "number": 2246,
   "ref": "ExecutionContext_Record",
@@ -4926,38 +4926,38 @@
    {
     "adate": "2026-05-04T19:44:47-04:00",
     "author": "Michael Dyck",
-    "date": "2026-08-31T18:24:49-04:00",
-    "hash": "b6f6bba499b4b9245f09697da78ca2ef6c793ed0",
-    "parents": "7ce3e7c22e6792164e670496a5745b73a3897d17",
+    "date": "2026-09-23T19:46:33-04:00",
+    "hash": "4e471c074038e1c58bf2e82321f340dfe236145f",
+    "parents": "d8f50baf19ae20274aabbcc51a171546fb8484a9",
     "subject": "fixup: Wrap `<dfn>` around \"ExecutionContext Record\""
    },
    {
     "adate": "2025-02-19T17:23:33-05:00",
     "author": "Michael Dyck",
-    "date": "2026-08-31T18:24:46-04:00",
-    "hash": "7ce3e7c22e6792164e670496a5745b73a3897d17",
-    "parents": "9ca3180eded0798d89cb7f2a9107fdd3b3f15e6a",
+    "date": "2026-09-23T19:46:30-04:00",
+    "hash": "d8f50baf19ae20274aabbcc51a171546fb8484a9",
+    "parents": "3f3bd8e0f6ff6e6a94a72cc0ffdb7c1c3b7a50f3",
     "subject": "fixup: remove a line from esmeta-ignore.json"
    },
    {
     "adate": "2022-08-31T23:13:29-04:00",
     "author": "Michael Dyck",
-    "date": "2026-08-31T18:23:36-04:00",
-    "hash": "9ca3180eded0798d89cb7f2a9107fdd3b3f15e6a",
-    "parents": "30f0506029d8bbed95be65287739137280fea313",
+    "date": "2026-09-23T19:44:15-04:00",
+    "hash": "3f3bd8e0f6ff6e6a94a72cc0ffdb7c1c3b7a50f3",
+    "parents": "cc710ac92e2032e83eae481a3be29f47cb4deb5a",
     "subject": "fixup: Avoid saying \"that execution context\" by naming it"
    },
    {
     "adate": "2020-12-08T01:22:55-05:00",
     "author": "Michael Dyck",
-    "date": "2026-08-31T18:23:36-04:00",
-    "hash": "30f0506029d8bbed95be65287739137280fea313",
-    "parents": "dcf59856a8184792a9e42f0ffb7dc064094a5dcc",
+    "date": "2026-09-23T19:44:15-04:00",
+    "hash": "cc710ac92e2032e83eae481a3be29f47cb4deb5a",
+    "parents": "726ec8a42625509026a6570f1d4649bfa9fe4156",
     "subject": "Editorial: Model execution context as a record"
    }
   ],
   "title": "Editorial: Model execution context as a record",
-  "updated_at": "2026-09-06T20:49:30Z"
+  "updated_at": "2026-09-24T01:31:01Z"
  },
  {
   "base": "b3f9b5089bcc3ddd8486379015cd11eb1427a5eb",
