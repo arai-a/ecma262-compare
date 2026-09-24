@@ -1,6 +1,42 @@
 [
  {
   "base": "726ec8a42625509026a6570f1d4649bfa9fe4156",
+  "created_at": "2026-09-24T22:24:43Z",
+  "head": "4a2a38830168c9f07c0a2fa5d5fee7c9f24eec9b",
+  "login": "gibson042",
+  "number": 3987,
+  "ref": "2026-09-single-bit-operations",
+  "revs": [
+   {
+    "adate": "2026-09-24T18:30:23-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-09-24T18:30:23-04:00",
+    "hash": "4a2a38830168c9f07c0a2fa5d5fee7c9f24eec9b",
+    "parents": "9aa0b4dfd98758ecaf7e849fdee3c2be1e5a2297",
+    "subject": "fixup! Editorial: Align BigIntBitwiseOp with {NumberBitwiseOp,ByteListBitwiseOp}"
+   },
+   {
+    "adate": "2026-09-24T18:19:03-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-09-24T18:22:11-04:00",
+    "hash": "9aa0b4dfd98758ecaf7e849fdee3c2be1e5a2297",
+    "parents": "701b69af97cb5dbc506f5e78c510244ad7aa9bb5",
+    "subject": "Editorial: Format references to bitwise AND/XOR/OR operations"
+   },
+   {
+    "adate": "2026-09-24T18:19:03-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-09-24T18:20:37-04:00",
+    "hash": "701b69af97cb5dbc506f5e78c510244ad7aa9bb5",
+    "parents": "726ec8a42625509026a6570f1d4649bfa9fe4156",
+    "subject": "Editorial: Align BigIntBitwiseOp with {NumberBitwiseOp,ByteListBitwiseOp}"
+   }
+  ],
+  "title": "Editorial: Align {BigIntBitwiseOp,NumberBitwiseOp,ByteListBitwiseOp}",
+  "updated_at": "2026-09-24T22:33:33Z"
+ },
+ {
+  "base": "726ec8a42625509026a6570f1d4649bfa9fe4156",
   "created_at": "2026-09-23T23:09:45Z",
   "head": "0034fe2b3ae3e5f2654a05001412f159087cbf64",
   "login": "gibson042",
