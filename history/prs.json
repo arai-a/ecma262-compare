@@ -2,11 +2,19 @@
  {
   "base": "726ec8a42625509026a6570f1d4649bfa9fe4156",
   "created_at": "2026-09-23T23:09:45Z",
-  "head": "1af6922c4463155116c43d63243992ae0f6943dc",
+  "head": "0034fe2b3ae3e5f2654a05001412f159087cbf64",
   "login": "gibson042",
   "number": 3986,
   "ref": "gh-3985-getprototypefromconstructor-realm",
   "revs": [
+   {
+    "adate": "2026-09-24T11:55:50-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-09-24T11:58:14-04:00",
+    "hash": "0034fe2b3ae3e5f2654a05001412f159087cbf64",
+    "parents": "1af6922c4463155116c43d63243992ae0f6943dc",
+    "subject": "fixup! Editorial: Clarify realm sensitivity and use of [[Intrinsics]] for OrdinaryCreateFromConstructor and GetPrototypeFromConstructor"
+   },
    {
     "adate": "2026-09-23T19:06:20-04:00",
     "author": "Richard Gibson",
@@ -17,7 +25,7 @@
    }
   ],
   "title": "Editorial: Clarify realm sensitivity and use of [[Intrinsics]] for OrdinaryCreateFromConstructor and GetPrototypeFromConstructor",
-  "updated_at": "2026-09-23T23:23:41Z"
+  "updated_at": "2026-09-24T15:59:12Z"
  },
  {
   "base": "726ec8a42625509026a6570f1d4649bfa9fe4156",
