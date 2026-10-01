@@ -1,5 +1,45 @@
 [
  {
+  "adate": "2026-10-01T15:45:36+09:00",
+  "author": "Richard Gibson",
+  "date": "2026-10-01T15:45:36+09:00",
+  "hash": "2477796715947008b0eb7b170ed3d13ad3d78c9c",
+  "parents": "1d4a902f917663d215a852f49e2a2e9c17516b78",
+  "subject": "Editorial: Simplify IsLooselyEqual bigint vs. number comparison (#3911)"
+ },
+ {
+  "adate": "2026-10-01T15:45:34+09:00",
+  "author": "Richard Gibson",
+  "date": "2026-10-01T15:45:34+09:00",
+  "hash": "1d4a902f917663d215a852f49e2a2e9c17516b78",
+  "parents": "214a2d949dbdd04377bdab49c69cb00c36bad1ef",
+  "subject": "Editorial: Align the non-zero finite Number assertions in Number::remainder with other AOs (#3911)"
+ },
+ {
+  "adate": "2026-10-01T15:45:32+09:00",
+  "author": "Richard Gibson",
+  "date": "2026-10-01T15:45:32+09:00",
+  "hash": "214a2d949dbdd04377bdab49c69cb00c36bad1ef",
+  "parents": "94750f5adb1df1d2f9026aaa2235c03da6a97c9c",
+  "subject": "Editorial: Define \"finite time value\" (as an autolink target for existing AO parameter types) (#3911)"
+ },
+ {
+  "adate": "2026-10-01T15:45:30+09:00",
+  "author": "Richard Gibson",
+  "date": "2026-10-01T15:45:30+09:00",
+  "hash": "94750f5adb1df1d2f9026aaa2235c03da6a97c9c",
+  "parents": "2fda4591d64fe79ef5829b53bda3af1580f86651",
+  "subject": "Editorial: Align finite-argument checks in Number.prototype.{toExponential,toFixed,toPrecision} (#3911)"
+ },
+ {
+  "adate": "2026-10-01T15:45:22+09:00",
+  "author": "Richard Gibson",
+  "date": "2026-10-01T15:45:22+09:00",
+  "hash": "2fda4591d64fe79ef5829b53bda3af1580f86651",
+  "parents": "726ec8a42625509026a6570f1d4649bfa9fe4156",
+  "subject": "Editorial: Replace Number-specific term \"finite\" with \"finite Number\" (#3911)"
+ },
+ {
   "adate": "2026-09-20T20:17:07+08:00",
   "author": "Jack Works",
   "date": "2026-09-20T20:17:07+08:00",
