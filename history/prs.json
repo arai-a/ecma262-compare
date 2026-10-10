@@ -1,55 +1,23 @@
 [
  {
-  "base": "726ec8a42625509026a6570f1d4649bfa9fe4156",
-  "created_at": "2026-09-27T09:28:08Z",
-  "head": "6d550d10435d390af9aabf99649ec191138c869c",
+  "base": "5345883164f463e87f8b40aca4956157ecba8783",
+  "created_at": "2026-10-09T21:55:37Z",
+  "head": "ae081f844646cacfabb6a53aa3e5fefc716f2a91",
   "login": "gibson042",
-  "number": 3988,
-  "ref": "2026-09-cleanup-numeric-literals",
+  "number": 3991,
+  "ref": "2026-10-atomics-notify-revalidate",
   "revs": [
    {
-    "adate": "2026-09-26T17:25:41-04:00",
+    "adate": "2026-10-09T17:48:18-04:00",
     "author": "Richard Gibson",
-    "date": "2026-09-26T17:25:41-04:00",
-    "hash": "6d550d10435d390af9aabf99649ec191138c869c",
-    "parents": "2ff2d2717224bc656338e6d5a526b6aedac3331b",
-    "subject": "Editorial: Use a smaller example to explain \"one of\""
-   },
-   {
-    "adate": "2026-09-26T17:16:45-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-09-26T17:22:00-04:00",
-    "hash": "2ff2d2717224bc656338e6d5a526b6aedac3331b",
-    "parents": "509f801848bce55f421807dfd2ae166c499e9fcb",
-    "subject": "Editorial: Simplify the |NonOctalDecimalIntegerLiteral| grammar"
-   },
-   {
-    "adate": "2026-09-26T16:59:57-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-09-26T16:59:57-04:00",
-    "hash": "509f801848bce55f421807dfd2ae166c499e9fcb",
-    "parents": "b1019e7926e89960562448e9e7092926a4f592d9",
-    "subject": "Editorial: Replace `0` and |NonZeroDigit| alternative productions with |DecimalDigit|"
-   },
-   {
-    "adate": "2026-09-26T16:33:57-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-09-26T16:39:30-04:00",
-    "hash": "b1019e7926e89960562448e9e7092926a4f592d9",
-    "parents": "017f7f048a707483ac4b596a28694ddea9ed9540",
-    "subject": "Editorial: Replace \"plus\" with \"+\" in MV clauses"
-   },
-   {
-    "adate": "2026-09-26T16:33:57-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-09-26T16:33:57-04:00",
-    "hash": "017f7f048a707483ac4b596a28694ddea9ed9540",
-    "parents": "b7865f0eed2021720f84d561289401bc414874d0",
-    "subject": "Editorial: Replace \"times\" with \"\u00d7\" in MV clauses"
+    "date": "2026-10-09T17:55:04-04:00",
+    "hash": "ae081f844646cacfabb6a53aa3e5fefc716f2a91",
+    "parents": "5345883164f463e87f8b40aca4956157ecba8783",
+    "subject": "Normative: RevalidateAtomicAccess in Atomics.notify"
    }
   ],
-  "title": "Editorial: Clean up some numeric literal text",
-  "updated_at": "2026-09-27T09:35:44Z"
+  "title": "Normative: RevalidateAtomicAccess in Atomics.notify",
+  "updated_at": "2026-10-09T22:46:57Z"
  },
  {
   "base": "726ec8a42625509026a6570f1d4649bfa9fe4156",
@@ -1774,26 +1742,6 @@
   ],
   "title": "Markup: add IDs to Clause 5 definitions",
   "updated_at": "2026-07-25T04:59:41Z"
- },
- {
-  "base": "6db9135b3d77fd38a81a5a1f1bb6ed77fcca9066",
-  "created_at": "2026-07-24T20:17:58Z",
-  "head": "2ff43aa7bacfc6004490bda942674048f6d49c2d",
-  "login": "gibson042",
-  "number": 3926,
-  "ref": "gh-3924-revalidateatomicaccess",
-  "revs": [
-   {
-    "adate": "2026-07-24T16:15:26-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-10-08T13:15:57-04:00",
-    "hash": "2ff43aa7bacfc6004490bda942674048f6d49c2d",
-    "parents": "6db9135b3d77fd38a81a5a1f1bb6ed77fcca9066",
-    "subject": "Normative: Update RevalidateAtomicAccess to account for all bytes of a TypedArray element"
-   }
-  ],
-  "title": "Normative: Update RevalidateAtomicAccess to account for all bytes of a TypedArray element",
-  "updated_at": "2026-10-08T17:17:48Z"
  },
  {
   "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",

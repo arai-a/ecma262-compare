@@ -1,5 +1,53 @@
 [
  {
+  "adate": "2026-10-09T12:58:34-07:00",
+  "author": "Richard Gibson",
+  "date": "2026-10-09T12:58:34-07:00",
+  "hash": "5345883164f463e87f8b40aca4956157ecba8783",
+  "parents": "874aedc7b7ceab60a9c2ea70aa559eb92fdb87f9",
+  "subject": "Editorial: Use a smaller example to explain \"one of\" (#3988)"
+ },
+ {
+  "adate": "2026-10-09T12:58:32-07:00",
+  "author": "Richard Gibson",
+  "date": "2026-10-09T12:58:32-07:00",
+  "hash": "874aedc7b7ceab60a9c2ea70aa559eb92fdb87f9",
+  "parents": "78ea84c0f8d425e05e07d907a43fb8f103c59a00",
+  "subject": "Editorial: Simplify the |NonOctalDecimalIntegerLiteral| grammar (#3988)"
+ },
+ {
+  "adate": "2026-10-09T12:58:31-07:00",
+  "author": "Richard Gibson",
+  "date": "2026-10-09T12:58:31-07:00",
+  "hash": "78ea84c0f8d425e05e07d907a43fb8f103c59a00",
+  "parents": "53a7267ba1ca28fcaad7645fe9bd97c56a1041cf",
+  "subject": "Editorial: Replace `0` and |NonZeroDigit| alternative productions with |DecimalDigit| (#3988)"
+ },
+ {
+  "adate": "2026-10-09T12:58:29-07:00",
+  "author": "Richard Gibson",
+  "date": "2026-10-09T12:58:29-07:00",
+  "hash": "53a7267ba1ca28fcaad7645fe9bd97c56a1041cf",
+  "parents": "3be9c1c659498674f902f699fdcfca6b316ed79a",
+  "subject": "Editorial: Replace \"plus\" with \"+\" in MV clauses (#3988)"
+ },
+ {
+  "adate": "2026-10-09T12:58:22-07:00",
+  "author": "Richard Gibson",
+  "date": "2026-10-09T12:58:22-07:00",
+  "hash": "3be9c1c659498674f902f699fdcfca6b316ed79a",
+  "parents": "5e0f8b33b821ffd6d39e8f8d89f7dcb58f8780f2",
+  "subject": "Editorial: Replace \"times\" with \"\u00d7\" in MV clauses (#3988)"
+ },
+ {
+  "adate": "2026-10-09T12:46:43-07:00",
+  "author": "Richard Gibson",
+  "date": "2026-10-09T12:46:43-07:00",
+  "hash": "5e0f8b33b821ffd6d39e8f8d89f7dcb58f8780f2",
+  "parents": "6db9135b3d77fd38a81a5a1f1bb6ed77fcca9066",
+  "subject": "Normative: Update RevalidateAtomicAccess to account for all bytes of a TypedArray element (#3926)"
+ },
+ {
   "adate": "2026-10-03T17:11:38+09:00",
   "author": "Kevin Gibbons",
   "date": "2026-10-03T17:11:38+09:00",
