@@ -1,5 +1,25 @@
 [
  {
+  "base": "f3777af132ed6415e4aac8cd74041539ea7625a4",
+  "created_at": "2026-10-16T19:13:38Z",
+  "head": "519fc136137f75b6c6fdd15f05148a0228e95799",
+  "login": "gibson042",
+  "number": 3993,
+  "ref": "2026-10-initializetypedarrayfromelements",
+  "revs": [
+   {
+    "adate": "2026-10-15T11:39:21-07:00",
+    "author": "Richard Gibson",
+    "date": "2026-10-16T15:17:46-04:00",
+    "hash": "519fc136137f75b6c6fdd15f05148a0228e95799",
+    "parents": "f3777af132ed6415e4aac8cd74041539ea7625a4",
+    "subject": "Editorial: Consolidate typed array initialization from an iterable or array-like"
+   }
+  ],
+  "title": "Editorial: Consolidate typed array initialization from an iterable or array-like",
+  "updated_at": "2026-10-16T19:21:47Z"
+ },
+ {
   "base": "5345883164f463e87f8b40aca4956157ecba8783",
   "created_at": "2026-10-09T21:55:37Z",
   "head": "ae081f844646cacfabb6a53aa3e5fefc716f2a91",
