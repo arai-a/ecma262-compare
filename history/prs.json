@@ -1,5 +1,57 @@
 [
  {
+  "base": "4feb0272b799ea795c5eadee9b482aea0c10ce45",
+  "created_at": "2026-10-17T21:40:46Z",
+  "head": "05114725553565c15312939b04c9aaaef67b2d61",
+  "login": "nicolo-ribaudo",
+  "number": 3995,
+  "ref": "dates-ao-stricter-types",
+  "revs": [
+   {
+    "adate": "2026-10-17T23:10:59+02:00",
+    "author": "Nicol\u00f2 Ribaudo",
+    "date": "2026-10-17T23:58:41+02:00",
+    "hash": "05114725553565c15312939b04c9aaaef67b2d61",
+    "parents": "90002c6649eb3719f155173955fdfa8d2af43212",
+    "subject": "Editorial: make UTC use integral Numbers or NaN"
+   },
+   {
+    "adate": "2026-10-17T22:42:00+02:00",
+    "author": "Nicol\u00f2 Ribaudo",
+    "date": "2026-10-17T23:45:35+02:00",
+    "hash": "90002c6649eb3719f155173955fdfa8d2af43212",
+    "parents": "40fec3b30ddfe0d19e88417eaaa05b9246fa5e8d",
+    "subject": "Editorial: make MakeDate only deal with integral Numbers or NaN"
+   },
+   {
+    "adate": "2026-10-17T22:45:39+02:00",
+    "author": "Nicol\u00f2 Ribaudo",
+    "date": "2026-10-17T23:45:32+02:00",
+    "hash": "40fec3b30ddfe0d19e88417eaaa05b9246fa5e8d",
+    "parents": "57329222f50b995588a2e22b1af3ef8470e975ae",
+    "subject": "Editorial: restrict return range of Day"
+   },
+   {
+    "adate": "2026-10-17T22:34:42+02:00",
+    "author": "Nicol\u00f2 Ribaudo",
+    "date": "2026-10-17T22:34:42+02:00",
+    "hash": "57329222f50b995588a2e22b1af3ef8470e975ae",
+    "parents": "6558e158e4676e45c9a319b34f3b48492148d461",
+    "subject": "Editorial: prevent MakeTime from returning infinities"
+   },
+   {
+    "adate": "2026-10-17T21:56:06+02:00",
+    "author": "Nicol\u00f2 Ribaudo",
+    "date": "2026-10-17T22:20:38+02:00",
+    "hash": "6558e158e4676e45c9a319b34f3b48492148d461",
+    "parents": "4feb0272b799ea795c5eadee9b482aea0c10ce45",
+    "subject": "Editorial: MakeDay returns \"an integral Number or NaN\""
+   }
+  ],
+  "title": "Editorial: relax/restrict some Date AO types appropriately",
+  "updated_at": "2026-10-17T21:58:46Z"
+ },
+ {
   "base": "f3777af132ed6415e4aac8cd74041539ea7625a4",
   "created_at": "2026-10-16T19:13:38Z",
   "head": "519fc136137f75b6c6fdd15f05148a0228e95799",
@@ -162,34 +214,6 @@
   ],
   "title": "Layering: Narrow [[ArrayBufferDetachKey]] to ECMAScript language value",
   "updated_at": "2026-09-18T22:07:59Z"
- },
- {
-  "base": "b7865f0eed2021720f84d561289401bc414874d0",
-  "created_at": "2026-09-17T02:57:06Z",
-  "head": "118f97aaa3005d017ee199bdbd66231a21d4be80",
-  "login": "bakkot",
-  "number": 3979,
-  "ref": "fix-ta-throwy",
-  "revs": [
-   {
-    "adate": "2026-09-16T20:02:30-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2026-09-16T20:02:30-07:00",
-    "hash": "118f97aaa3005d017ee199bdbd66231a21d4be80",
-    "parents": "34cb62b6730da7a044d023431e041cabf6d7c44d",
-    "subject": "fixup! suppress user code effect"
-   },
-   {
-    "adate": "2026-09-16T19:52:47-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2026-09-16T19:52:47-07:00",
-    "hash": "34cb62b6730da7a044d023431e041cabf6d7c44d",
-    "parents": "b7865f0eed2021720f84d561289401bc414874d0",
-    "subject": "Editorial: fix incorrect assertion in TA.prototype.{filter,with}"
-   }
-  ],
-  "title": "Editorial: fix incorrect assertion in TA.prototype.{filter,with}",
-  "updated_at": "2026-09-17T03:05:10Z"
  },
  {
   "base": "b7865f0eed2021720f84d561289401bc414874d0",
