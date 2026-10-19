@@ -3402,11 +3402,19 @@
  {
   "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
   "created_at": "2023-11-18T19:49:39Z",
-  "head": "cdfbe9e74552568e8822b465d042f059d8a727fa",
+  "head": "8b8bc89def4e63311ceda6350ce622420f9eeda6",
   "login": "gibson042",
   "number": 3223,
   "ref": "2023-11-cover-grammar-text",
   "revs": [
+   {
+    "adate": "2026-10-19T11:47:12-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-10-19T11:47:12-04:00",
+    "hash": "8b8bc89def4e63311ceda6350ce622420f9eeda6",
+    "parents": "cdfbe9e74552568e8822b465d042f059d8a727fa",
+    "subject": "Editorial: Replace the definition of \"refined using\" with references to \"supplemental grammar\""
+   },
    {
     "adate": "2026-08-13T12:39:26-04:00",
     "author": "Richard Gibson",
@@ -3465,7 +3473,7 @@
    }
   ],
   "title": "Editorial: Separate cover grammar text into a subsection with autolink targets",
-  "updated_at": "2026-08-13T16:40:54Z"
+  "updated_at": "2026-10-19T15:53:09Z"
  },
  {
   "base": "8c0c94eb3be152b7ae7dc0cb580f4ee9f0a9a0c2",
