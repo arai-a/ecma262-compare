@@ -1,12 +1,48 @@
 [
  {
+  "base": "40ce6f206b5669e69bf010a38267ae24a2843404",
+  "created_at": "2026-10-23T08:08:26Z",
+  "head": "66e2e06a3095541d36ece9568bd491a30ff71358",
+  "login": "JinDX",
+  "number": 4002,
+  "ref": "main",
+  "revs": [
+   {
+    "adate": "2026-10-23T16:06:24+08:00",
+    "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
+    "date": "2026-10-23T16:06:24+08:00",
+    "hash": "66e2e06a3095541d36ece9568bd491a30ff71358",
+    "parents": "40ce6f206b5669e69bf010a38267ae24a2843404",
+    "subject": "docs: correct Atomics.waitAsync return value description"
+   }
+  ],
+  "title": "Editorial: clarify the return value of Atomics.waitAsync",
+  "updated_at": "2026-10-23T17:05:23Z"
+ },
+ {
   "base": "8e7c40ca9d3681dc4f63a71c8c463882ce4e466c",
   "created_at": "2026-10-22T21:58:01Z",
-  "head": "3a9261ed4f7273c2393ea5e3dbe3e5b1cbe9e704",
+  "head": "1e02b83b4a3d1a4b57e9c68e72b3da09a1425806",
   "login": "tc39",
   "number": 4000,
   "ref": "eliminate-t-and-d",
   "revs": [
+   {
+    "adate": "2026-10-23T09:46:19-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-10-23T09:46:19-06:00",
+    "hash": "1e02b83b4a3d1a4b57e9c68e72b3da09a1425806",
+    "parents": "d48ac8e2569027c857aa3732cf0c846cca8a67af",
+    "subject": "built-in does not mean specified"
+   },
+   {
+    "adate": "2026-10-23T09:45:31-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-10-23T09:45:31-06:00",
+    "hash": "d48ac8e2569027c857aa3732cf0c846cca8a67af",
+    "parents": "3a9261ed4f7273c2393ea5e3dbe3e5b1cbe9e704",
+    "subject": "key value -> key"
+   },
    {
     "adate": "2026-10-22T14:50:37-06:00",
     "author": "Michael Ficarra",
@@ -17,7 +53,7 @@
    }
   ],
   "title": "Editorial: disband Terms and Definitions section",
-  "updated_at": "2026-10-23T08:42:26Z"
+  "updated_at": "2026-10-23T16:04:52Z"
  },
  {
   "base": "4feb0272b799ea795c5eadee9b482aea0c10ce45",
@@ -60,9 +96,9 @@
   "updated_at": "2026-10-17T22:54:28Z"
  },
  {
-  "base": "4feb0272b799ea795c5eadee9b482aea0c10ce45",
+  "base": "40ce6f206b5669e69bf010a38267ae24a2843404",
   "created_at": "2026-10-17T21:40:46Z",
-  "head": "05114725553565c15312939b04c9aaaef67b2d61",
+  "head": "d3f57985f092d8019ef9368393352a3288d8f1c0",
   "login": "nicolo-ribaudo",
   "number": 3995,
   "ref": "dates-ao-stricter-types",
@@ -70,16 +106,16 @@
    {
     "adate": "2026-10-17T23:10:59+02:00",
     "author": "Nicol\u00f2 Ribaudo",
-    "date": "2026-10-17T23:58:41+02:00",
-    "hash": "05114725553565c15312939b04c9aaaef67b2d61",
-    "parents": "90002c6649eb3719f155173955fdfa8d2af43212",
+    "date": "2026-10-23T18:26:02+02:00",
+    "hash": "d3f57985f092d8019ef9368393352a3288d8f1c0",
+    "parents": "074c412582872076ba841ae2e536ccefcd5ede33",
     "subject": "Editorial: make UTC use integral Numbers or NaN"
    },
    {
     "adate": "2026-10-17T22:42:00+02:00",
     "author": "Nicol\u00f2 Ribaudo",
-    "date": "2026-10-17T23:45:35+02:00",
-    "hash": "90002c6649eb3719f155173955fdfa8d2af43212",
+    "date": "2026-10-23T18:26:02+02:00",
+    "hash": "074c412582872076ba841ae2e536ccefcd5ede33",
     "parents": "40fec3b30ddfe0d19e88417eaaa05b9246fa5e8d",
     "subject": "Editorial: make MakeDate only deal with integral Numbers or NaN"
    },
@@ -109,7 +145,7 @@
    }
   ],
   "title": "Editorial: relax/restrict some Date AO types appropriately",
-  "updated_at": "2026-10-17T21:58:46Z"
+  "updated_at": "2026-10-23T16:26:10Z"
  },
  {
   "base": "f3777af132ed6415e4aac8cd74041539ea7625a4",
@@ -222,7 +258,7 @@
  {
   "base": "40ce6f206b5669e69bf010a38267ae24a2843404",
   "created_at": "2026-09-14T18:16:12Z",
-  "head": "e8ad7319f873e6f7f6f7e3a06aaed4c25cc0897d",
+  "head": "add567f6b1624efbbc5d5cc6fa7f5f9ad9ccec8e",
   "login": "linusg",
   "number": 3976,
   "ref": "internal-slots",
@@ -230,46 +266,46 @@
    {
     "adate": "2026-09-14T18:19:33+01:00",
     "author": "Linus Groh",
-    "date": "2026-10-23T13:11:06+01:00",
-    "hash": "e8ad7319f873e6f7f6f7e3a06aaed4c25cc0897d",
-    "parents": "d1ccd1046d4049789d618259dc27e47233423a3e",
+    "date": "2026-10-23T13:34:32+01:00",
+    "hash": "add567f6b1624efbbc5d5cc6fa7f5f9ad9ccec8e",
+    "parents": "ebb95492db8f85b6cf99102ff6868d9c6705ccf8",
     "subject": "Editorial: Remove redundant internal slot type assertions"
    },
    {
     "adate": "2026-09-14T18:19:33+01:00",
     "author": "Linus Groh",
-    "date": "2026-10-23T13:11:06+01:00",
-    "hash": "d1ccd1046d4049789d618259dc27e47233423a3e",
-    "parents": "33db44de1c819d000dc16db00c61e52e50a88098",
+    "date": "2026-10-23T13:34:32+01:00",
+    "hash": "ebb95492db8f85b6cf99102ff6868d9c6705ccf8",
+    "parents": "f1803637c4d29b8abba67dc2cf9179bec4767da7",
     "subject": "Editorial: Add missing \"Internal Slots\" tables"
    },
    {
     "adate": "2026-09-14T18:19:33+01:00",
     "author": "Linus Groh",
-    "date": "2026-10-23T13:11:06+01:00",
-    "hash": "33db44de1c819d000dc16db00c61e52e50a88098",
-    "parents": "91804623c08886b12f8c69dcf131570c1069232a",
+    "date": "2026-10-23T13:34:32+01:00",
+    "hash": "f1803637c4d29b8abba67dc2cf9179bec4767da7",
+    "parents": "28e953e98aa826db6eab2c33af12bc7185e3352d",
     "subject": "Editorial: Use consistent ids for \"Internal Slots\" tables"
    },
    {
     "adate": "2026-09-14T18:19:33+01:00",
     "author": "Linus Groh",
-    "date": "2026-10-23T13:11:06+01:00",
-    "hash": "91804623c08886b12f8c69dcf131570c1069232a",
-    "parents": "c98459b3dd5bd87f5319270d58bdd57670da0a6b",
-    "subject": "Markup: Add missing <thead> to \"Internal Slots\" tables"
+    "date": "2026-10-23T13:34:32+01:00",
+    "hash": "28e953e98aa826db6eab2c33af12bc7185e3352d",
+    "parents": "05f0415e59e203d7b558624b5efc048d57d3ee76",
+    "subject": "Editorial: Use consistent wording to introduce \"Internal Slots\" tables"
    },
    {
     "adate": "2026-09-14T18:19:33+01:00",
     "author": "Linus Groh",
-    "date": "2026-10-23T13:11:05+01:00",
-    "hash": "c98459b3dd5bd87f5319270d58bdd57670da0a6b",
+    "date": "2026-10-23T13:34:31+01:00",
+    "hash": "05f0415e59e203d7b558624b5efc048d57d3ee76",
     "parents": "40ce6f206b5669e69bf010a38267ae24a2843404",
-    "subject": "Editorial: Use consistent wording to introduce \"Internal Slots\" tables"
+    "subject": "Markup: Add missing <thead> to \"Internal Slots\" tables"
    }
   ],
   "title": "Editorial: Use \"Internal Slots\" tables for more object types",
-  "updated_at": "2026-10-23T12:25:23Z"
+  "updated_at": "2026-10-23T12:34:50Z"
  },
  {
   "base": "b7865f0eed2021720f84d561289401bc414874d0",
@@ -332,9 +368,9 @@
   "updated_at": "2026-09-03T20:18:59Z"
  },
  {
-  "base": "e28783d5fc9dc12b3de905961e2c71410b38a202",
+  "base": "40ce6f206b5669e69bf010a38267ae24a2843404",
   "created_at": "2026-09-02T17:57:39Z",
-  "head": "61c8df35e9b1a13ff9ce6ddc0d06ff1a07695219",
+  "head": "4eda0d75a3dd85fb6201c84eabc68a1e4d5b8243",
   "login": "tc39",
   "number": 3969,
   "ref": "iterator-includes",
@@ -342,14 +378,14 @@
    {
     "adate": "2026-09-02T11:56:08-06:00",
     "author": "Michael Ficarra",
-    "date": "2026-09-02T12:06:45-06:00",
-    "hash": "61c8df35e9b1a13ff9ce6ddc0d06ff1a07695219",
-    "parents": "e28783d5fc9dc12b3de905961e2c71410b38a202",
+    "date": "2026-10-23T09:38:21-06:00",
+    "hash": "4eda0d75a3dd85fb6201c84eabc68a1e4d5b8243",
+    "parents": "40ce6f206b5669e69bf010a38267ae24a2843404",
     "subject": "Normative: add Iterator.prototype.includes"
    }
   ],
   "title": "Normative: add Iterator.prototype.includes",
-  "updated_at": "2026-09-02T18:09:47Z"
+  "updated_at": "2026-10-23T15:42:24Z"
  },
  {
   "base": "dcf59856a8184792a9e42f0ffb7dc064094a5dcc",
