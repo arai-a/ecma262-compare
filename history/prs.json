@@ -1,5 +1,25 @@
 [
  {
+  "base": "8e7c40ca9d3681dc4f63a71c8c463882ce4e466c",
+  "created_at": "2026-10-22T21:58:01Z",
+  "head": "3a9261ed4f7273c2393ea5e3dbe3e5b1cbe9e704",
+  "login": "tc39",
+  "number": 4000,
+  "ref": "eliminate-t-and-d",
+  "revs": [
+   {
+    "adate": "2026-10-22T14:50:37-06:00",
+    "author": "Michael Ficarra",
+    "date": "2026-10-22T15:58:26-06:00",
+    "hash": "3a9261ed4f7273c2393ea5e3dbe3e5b1cbe9e704",
+    "parents": "8e7c40ca9d3681dc4f63a71c8c463882ce4e466c",
+    "subject": "Editorial: disband Terms and Definitions section"
+   }
+  ],
+  "title": "Editorial: disband Terms and Definitions section",
+  "updated_at": "2026-10-23T08:42:26Z"
+ },
+ {
   "base": "4feb0272b799ea795c5eadee9b482aea0c10ce45",
   "created_at": "2026-10-18T14:04:31Z",
   "head": "b6b4c840a0a217fa9732570bfe4995ed70ff850d",
@@ -18,26 +38,6 @@
   ],
   "title": "Layering: use an enum for the compilation type",
   "updated_at": "2026-10-18T22:51:35Z"
- },
- {
-  "base": "4feb0272b799ea795c5eadee9b482aea0c10ce45",
-  "created_at": "2026-10-17T22:49:29Z",
-  "head": "ae7e3f180ebf5e623a5171d7477f9474b493719c",
-  "login": "nicolo-ribaudo",
-  "number": 3997,
-  "ref": "fix-spellcheck",
-  "revs": [
-   {
-    "adate": "2026-10-18T00:45:08+02:00",
-    "author": "Nicol\u00f2 Ribaudo",
-    "date": "2026-10-18T00:45:08+02:00",
-    "hash": "ae7e3f180ebf5e623a5171d7477f9474b493719c",
-    "parents": "4feb0272b799ea795c5eadee9b482aea0c10ce45",
-    "subject": "Use UTF-8 for spell-checking"
-   }
-  ],
-  "title": "Meta: use UTF-8 for spell-checking",
-  "updated_at": "2026-10-17T22:57:46Z"
  },
  {
   "base": "4feb0272b799ea795c5eadee9b482aea0c10ce45",
@@ -153,42 +153,6 @@
  },
  {
   "base": "726ec8a42625509026a6570f1d4649bfa9fe4156",
-  "created_at": "2026-09-24T22:24:43Z",
-  "head": "4a2a38830168c9f07c0a2fa5d5fee7c9f24eec9b",
-  "login": "gibson042",
-  "number": 3987,
-  "ref": "2026-09-single-bit-operations",
-  "revs": [
-   {
-    "adate": "2026-09-24T18:30:23-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-09-24T18:30:23-04:00",
-    "hash": "4a2a38830168c9f07c0a2fa5d5fee7c9f24eec9b",
-    "parents": "9aa0b4dfd98758ecaf7e849fdee3c2be1e5a2297",
-    "subject": "fixup! Editorial: Align BigIntBitwiseOp with {NumberBitwiseOp,ByteListBitwiseOp}"
-   },
-   {
-    "adate": "2026-09-24T18:19:03-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-09-24T18:22:11-04:00",
-    "hash": "9aa0b4dfd98758ecaf7e849fdee3c2be1e5a2297",
-    "parents": "701b69af97cb5dbc506f5e78c510244ad7aa9bb5",
-    "subject": "Editorial: Format references to bitwise AND/XOR/OR operations"
-   },
-   {
-    "adate": "2026-09-24T18:19:03-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-09-24T18:20:37-04:00",
-    "hash": "701b69af97cb5dbc506f5e78c510244ad7aa9bb5",
-    "parents": "726ec8a42625509026a6570f1d4649bfa9fe4156",
-    "subject": "Editorial: Align BigIntBitwiseOp with {NumberBitwiseOp,ByteListBitwiseOp}"
-   }
-  ],
-  "title": "Editorial: Align {BigIntBitwiseOp,NumberBitwiseOp,ByteListBitwiseOp}",
-  "updated_at": "2026-09-24T22:33:33Z"
- },
- {
-  "base": "726ec8a42625509026a6570f1d4649bfa9fe4156",
   "created_at": "2026-09-23T22:22:02Z",
   "head": "a273b94e3cdbed95136fe127dc0c1093eeb7ef9c",
   "login": "gibson042",
@@ -208,29 +172,9 @@
   "updated_at": "2026-09-23T22:31:32Z"
  },
  {
-  "base": "726ec8a42625509026a6570f1d4649bfa9fe4156",
-  "created_at": "2026-09-23T17:11:45Z",
-  "head": "99851c34bb15c9ee94bbbd2c1749c693c9cccefc",
-  "login": "linusg",
-  "number": 3983,
-  "ref": "createlistfromarraylike-any",
-  "revs": [
-   {
-    "adate": "2026-09-23T18:09:08+01:00",
-    "author": "Linus Groh",
-    "date": "2026-09-23T18:09:08+01:00",
-    "hash": "99851c34bb15c9ee94bbbd2c1749c693c9cccefc",
-    "parents": "726ec8a42625509026a6570f1d4649bfa9fe4156",
-    "subject": "Editorial: Rename CreateListFromArrayLike enum value from all to any"
-   }
-  ],
-  "title": "Editorial: Rename CreateListFromArrayLike enum value from all to any",
-  "updated_at": "2026-09-23T17:20:48Z"
- },
- {
-  "base": "726ec8a42625509026a6570f1d4649bfa9fe4156",
+  "base": "4feb0272b799ea795c5eadee9b482aea0c10ce45",
   "created_at": "2026-09-21T15:49:31Z",
-  "head": "2811f15b7ada23752a0997f48d014827baae5a5a",
+  "head": "ea989b57e20a734be2d1f5c00f564d953b9c9425",
   "login": "linusg",
   "number": 3982,
   "ref": "options",
@@ -238,27 +182,27 @@
    {
     "adate": "2026-09-23T13:12:52+01:00",
     "author": "Linus Groh",
-    "date": "2026-09-23T13:12:52+01:00",
-    "hash": "2811f15b7ada23752a0997f48d014827baae5a5a",
-    "parents": "d64cbbc21b34e8313de4e72a520ccef3c7f658af",
+    "date": "2026-10-22T17:13:11+01:00",
+    "hash": "ea989b57e20a734be2d1f5c00f564d953b9c9425",
+    "parents": "fddffbd9ca1c41ef317fbd53fedd4f330a0aee18",
     "subject": "Editorial: Add ValidateStringOption"
    },
    {
     "adate": "2026-09-21T16:34:01+01:00",
     "author": "Linus Groh",
-    "date": "2026-09-23T12:28:16+01:00",
-    "hash": "d64cbbc21b34e8313de4e72a520ccef3c7f658af",
+    "date": "2026-10-22T17:13:11+01:00",
+    "hash": "fddffbd9ca1c41ef317fbd53fedd4f330a0aee18",
     "parents": "726ec8a42625509026a6570f1d4649bfa9fe4156",
     "subject": "Editorial: Add GetBooleanOption and GetStringOption"
    }
   ],
   "title": "Editorial: Add GetBooleanOption and GetStringOption",
-  "updated_at": "2026-09-23T12:17:37Z"
+  "updated_at": "2026-10-22T16:14:57Z"
  },
  {
-  "base": "b7865f0eed2021720f84d561289401bc414874d0",
+  "base": "40ce6f206b5669e69bf010a38267ae24a2843404",
   "created_at": "2026-09-18T19:30:13Z",
-  "head": "e7f586f33f45dae475807a37cb2c616f080642c7",
+  "head": "80177db8ebcecda989960339d63a705a062d135d",
   "login": "linusg",
   "number": 3980,
   "ref": "arraybufferdetachkey",
@@ -266,19 +210,19 @@
    {
     "adate": "2026-09-18T20:14:47+01:00",
     "author": "Linus Groh",
-    "date": "2026-09-18T20:36:21+01:00",
-    "hash": "e7f586f33f45dae475807a37cb2c616f080642c7",
-    "parents": "b7865f0eed2021720f84d561289401bc414874d0",
+    "date": "2026-10-23T11:49:20+01:00",
+    "hash": "80177db8ebcecda989960339d63a705a062d135d",
+    "parents": "40ce6f206b5669e69bf010a38267ae24a2843404",
     "subject": "Layering: Narrow [[ArrayBufferDetachKey]] to ECMAScript language value"
    }
   ],
   "title": "Layering: Narrow [[ArrayBufferDetachKey]] to ECMAScript language value",
-  "updated_at": "2026-09-18T22:07:59Z"
+  "updated_at": "2026-10-23T10:51:34Z"
  },
  {
-  "base": "b7865f0eed2021720f84d561289401bc414874d0",
+  "base": "40ce6f206b5669e69bf010a38267ae24a2843404",
   "created_at": "2026-09-14T18:16:12Z",
-  "head": "1eba4f01d764f81742432536ee3f15e2088a97ee",
+  "head": "e8ad7319f873e6f7f6f7e3a06aaed4c25cc0897d",
   "login": "linusg",
   "number": 3976,
   "ref": "internal-slots",
@@ -286,46 +230,46 @@
    {
     "adate": "2026-09-14T18:19:33+01:00",
     "author": "Linus Groh",
-    "date": "2026-09-18T21:32:58+01:00",
-    "hash": "1eba4f01d764f81742432536ee3f15e2088a97ee",
-    "parents": "0eba013dbb9a83b211e1ae88ab2aee1351be0098",
+    "date": "2026-10-23T13:11:06+01:00",
+    "hash": "e8ad7319f873e6f7f6f7e3a06aaed4c25cc0897d",
+    "parents": "d1ccd1046d4049789d618259dc27e47233423a3e",
     "subject": "Editorial: Remove redundant internal slot type assertions"
    },
    {
     "adate": "2026-09-14T18:19:33+01:00",
     "author": "Linus Groh",
-    "date": "2026-09-18T21:32:58+01:00",
-    "hash": "0eba013dbb9a83b211e1ae88ab2aee1351be0098",
-    "parents": "5f432929e1c4c6de8166bdcd6ae419bbd25eb272",
+    "date": "2026-10-23T13:11:06+01:00",
+    "hash": "d1ccd1046d4049789d618259dc27e47233423a3e",
+    "parents": "33db44de1c819d000dc16db00c61e52e50a88098",
     "subject": "Editorial: Add missing \"Internal Slots\" tables"
    },
    {
     "adate": "2026-09-14T18:19:33+01:00",
     "author": "Linus Groh",
-    "date": "2026-09-18T21:25:48+01:00",
-    "hash": "5f432929e1c4c6de8166bdcd6ae419bbd25eb272",
-    "parents": "eaca6c1f87affc7b7d4206bbe426392ac3f934e9",
-    "subject": "\ufeffEditorial: Use consistent ids for \"Internal Slots\" tables"
+    "date": "2026-10-23T13:11:06+01:00",
+    "hash": "33db44de1c819d000dc16db00c61e52e50a88098",
+    "parents": "91804623c08886b12f8c69dcf131570c1069232a",
+    "subject": "Editorial: Use consistent ids for \"Internal Slots\" tables"
    },
    {
     "adate": "2026-09-14T18:19:33+01:00",
     "author": "Linus Groh",
-    "date": "2026-09-18T21:25:48+01:00",
-    "hash": "eaca6c1f87affc7b7d4206bbe426392ac3f934e9",
-    "parents": "bca2ae850d2553c37f51854d97d08808fe67de57",
-    "subject": "Editorial: Use consistent markup for \"Internal Slots\" tables"
+    "date": "2026-10-23T13:11:06+01:00",
+    "hash": "91804623c08886b12f8c69dcf131570c1069232a",
+    "parents": "c98459b3dd5bd87f5319270d58bdd57670da0a6b",
+    "subject": "Markup: Add missing <thead> to \"Internal Slots\" tables"
    },
    {
     "adate": "2026-09-14T18:19:33+01:00",
     "author": "Linus Groh",
-    "date": "2026-09-18T21:25:42+01:00",
-    "hash": "bca2ae850d2553c37f51854d97d08808fe67de57",
-    "parents": "b7865f0eed2021720f84d561289401bc414874d0",
+    "date": "2026-10-23T13:11:05+01:00",
+    "hash": "c98459b3dd5bd87f5319270d58bdd57670da0a6b",
+    "parents": "40ce6f206b5669e69bf010a38267ae24a2843404",
     "subject": "Editorial: Use consistent wording to introduce \"Internal Slots\" tables"
    }
   ],
   "title": "Editorial: Use \"Internal Slots\" tables for more object types",
-  "updated_at": "2026-09-18T22:06:24Z"
+  "updated_at": "2026-10-23T12:25:23Z"
  },
  {
   "base": "b7865f0eed2021720f84d561289401bc414874d0",
@@ -389,26 +333,6 @@
  },
  {
   "base": "e28783d5fc9dc12b3de905961e2c71410b38a202",
-  "created_at": "2026-09-02T18:06:07Z",
-  "head": "7d7489e4303eb01fa9f76e7e2c3a08dd5ac2fccb",
-  "login": "tc39",
-  "number": 3970,
-  "ref": "iterator-chunking",
-  "revs": [
-   {
-    "adate": "2026-09-02T12:03:25-06:00",
-    "author": "Michael Ficarra",
-    "date": "2026-09-02T14:13:02-06:00",
-    "hash": "7d7489e4303eb01fa9f76e7e2c3a08dd5ac2fccb",
-    "parents": "e28783d5fc9dc12b3de905961e2c71410b38a202",
-    "subject": "Normative: add Iterator.prototype.chunks and windows"
-   }
-  ],
-  "title": "Normative: add Iterator.prototype.chunks and Iterator.prototype.windows",
-  "updated_at": "2026-09-02T20:15:09Z"
- },
- {
-  "base": "e28783d5fc9dc12b3de905961e2c71410b38a202",
   "created_at": "2026-09-02T17:57:39Z",
   "head": "61c8df35e9b1a13ff9ce6ddc0d06ff1a07695219",
   "login": "tc39",
@@ -430,11 +354,19 @@
  {
   "base": "dcf59856a8184792a9e42f0ffb7dc064094a5dcc",
   "created_at": "2026-09-01T00:13:07Z",
-  "head": "3d4a6e7124a6878cb5af3132af7e01e01a88317f",
+  "head": "52b6603fef0f746ccb1bf4d2f30c60da2776ec06",
   "login": "ptomato",
   "number": 3966,
   "ref": "temporal-stage-4-round-2",
   "revs": [
+   {
+    "adate": "2026-10-18T01:30:46+02:00",
+    "author": "Nicol\u00f2 Ribaudo",
+    "date": "2026-10-22T13:12:50-07:00",
+    "hash": "52b6603fef0f746ccb1bf4d2f30c60da2776ec06",
+    "parents": "3d4a6e7124a6878cb5af3132af7e01e01a88317f",
+    "subject": "Apply simple suggestions from my review"
+   },
    {
     "adate": "2026-09-09T15:37:50-07:00",
     "author": "Philip Chimento",
@@ -1189,75 +1121,7 @@
    }
   ],
   "title": "Temporal stage 4, round 2",
-  "updated_at": "2026-09-09T22:40:10Z"
- },
- {
-  "base": "b7865f0eed2021720f84d561289401bc414874d0",
-  "created_at": "2026-08-23T19:08:43Z",
-  "head": "423861fdf756da8bda69b64bf28c55949e0e9a94",
-  "login": "gibson042",
-  "number": 3958,
-  "ref": "2026-08-define-typedarray-tolocalestring",
-  "revs": [
-   {
-    "adate": "2026-10-15T17:13:54-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-10-15T17:13:54-04:00",
-    "hash": "423861fdf756da8bda69b64bf28c55949e0e9a94",
-    "parents": "dd70fde1e6a459fa76ef43b47316c0bf9d550322",
-    "subject": "fixup! Editorial: Generalize JoinIndexedProperties for {Array,%TypedArray%}.prototype.toLocaleString"
-   },
-   {
-    "adate": "2026-09-17T18:59:02-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-09-17T18:59:02-04:00",
-    "hash": "dd70fde1e6a459fa76ef43b47316c0bf9d550322",
-    "parents": "5579333e5ab9db9a0f82a8dcc75d3e094ce21793",
-    "subject": "Editorial: Expect ECMA-402 to define %TypedArray%.prototype.toLocaleString"
-   },
-   {
-    "adate": "2026-09-17T12:52:04-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-09-17T15:29:03-04:00",
-    "hash": "5579333e5ab9db9a0f82a8dcc75d3e094ce21793",
-    "parents": "d07432ab9a9b1fb4336dbd6710f3b4052dd451ea",
-    "subject": "Editorial: Simplify JoinIndexedProperties _separator_ to an explicit string"
-   },
-   {
-    "adate": "2026-09-17T12:52:04-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-09-17T15:26:55-04:00",
-    "hash": "d07432ab9a9b1fb4336dbd6710f3b4052dd451ea",
-    "parents": "b7d7f213923641990ef8465042d29cea119cbb4f",
-    "subject": "Editorial: Move JoinIndexedProperties separator determinition into its own LocalizedListSeparator AO"
-   },
-   {
-    "adate": "2026-08-20T23:41:44-07:00",
-    "author": "Richard Gibson",
-    "date": "2026-09-17T15:25:13-04:00",
-    "hash": "b7d7f213923641990ef8465042d29cea119cbb4f",
-    "parents": "8b4c47176f1173b235cb90a6d66b464b774f059c",
-    "subject": "Editorial: Generalize JoinIndexedProperties for ECMA-402 {Array,%TypedArray%}.prototype.toLocaleString"
-   },
-   {
-    "adate": "2026-08-20T23:41:44-07:00",
-    "author": "Richard Gibson",
-    "date": "2026-09-17T11:30:55-04:00",
-    "hash": "8b4c47176f1173b235cb90a6d66b464b774f059c",
-    "parents": "c52ebc0784e550f682ba35fb88521e3851337eec",
-    "subject": "Editorial: Generalize JoinIndexedProperties for {Array,%TypedArray%}.prototype.toLocaleString"
-   },
-   {
-    "adate": "2026-08-20T23:41:44-07:00",
-    "author": "Richard Gibson",
-    "date": "2026-09-17T11:27:21-04:00",
-    "hash": "c52ebc0784e550f682ba35fb88521e3851337eec",
-    "parents": "b7865f0eed2021720f84d561289401bc414874d0",
-    "subject": "Editorial: Use a JoinIndexedProperties helper for {Array,%TypedArray%}.prototype.join"
-   }
-  ],
-  "title": "Editorial: Define an algorithm for %TypedArray%.prototype.toLocaleString",
-  "updated_at": "2026-10-15T22:26:06Z"
+  "updated_at": "2026-10-23T08:23:12Z"
  },
  {
   "base": "ed463bc10dbeaad0410ce67e541a77ea8e9900a5",

@@ -1,5 +1,61 @@
 [
  {
+  "adate": "2026-10-22T22:45:01-07:00",
+  "author": "Richard Gibson",
+  "date": "2026-10-22T22:45:01-07:00",
+  "hash": "40ce6f206b5669e69bf010a38267ae24a2843404",
+  "parents": "02f2b1fadeb15d4a26ca7d74374e701ff8ba256e",
+  "subject": "Editorial: Format references to bitwise AND/XOR/OR operations (#3987)"
+ },
+ {
+  "adate": "2026-10-22T12:01:01-07:00",
+  "author": "Linus Groh",
+  "date": "2026-10-22T12:01:01-07:00",
+  "hash": "8e7c40ca9d3681dc4f63a71c8c463882ce4e466c",
+  "parents": "ac5f8767c81ff198e6eeeef378cea5cd79a8660f",
+  "subject": "Editorial: Rename CreateListFromArrayLike enum value from all to any (#3983)"
+ },
+ {
+  "adate": "2026-10-22T09:51:20-07:00",
+  "author": "Richard Gibson",
+  "date": "2026-10-22T09:51:20-07:00",
+  "hash": "91362ece318a2f1b90377200fa80425418a94849",
+  "parents": "c0d912a1ab27b6218a2536baed6f898e3b4a7754",
+  "subject": "Editorial: Simplify JoinIndexedProperties _separator_ to an explicit string (#3958)"
+ },
+ {
+  "adate": "2026-10-22T09:51:18-07:00",
+  "author": "Richard Gibson",
+  "date": "2026-10-22T09:51:18-07:00",
+  "hash": "c0d912a1ab27b6218a2536baed6f898e3b4a7754",
+  "parents": "9c15fe335fa4b9fbe370d32ae8be12e4b1b5ff6c",
+  "subject": "Editorial: Move JoinIndexedProperties separator determinition into its own LocalizedListSeparator AO (#3958)"
+ },
+ {
+  "adate": "2026-10-22T09:51:15-07:00",
+  "author": "Richard Gibson",
+  "date": "2026-10-22T09:51:15-07:00",
+  "hash": "9c15fe335fa4b9fbe370d32ae8be12e4b1b5ff6c",
+  "parents": "2fb432ecfec4974bb553b64d851e6d962cc62769",
+  "subject": "Editorial: Generalize JoinIndexedProperties for ECMA-402 {Array,%TypedArray%}.prototype.toLocaleString (#3958)"
+ },
+ {
+  "adate": "2026-10-22T09:51:13-07:00",
+  "author": "Richard Gibson",
+  "date": "2026-10-22T09:51:13-07:00",
+  "hash": "2fb432ecfec4974bb553b64d851e6d962cc62769",
+  "parents": "da427640b6bf57ff17d11ea21004edae98d59ea7",
+  "subject": "Editorial: Generalize JoinIndexedProperties for {Array,%TypedArray%}.prototype.toLocaleString (#3958)"
+ },
+ {
+  "adate": "2026-10-22T09:51:04-07:00",
+  "author": "Richard Gibson",
+  "date": "2026-10-22T09:51:04-07:00",
+  "hash": "da427640b6bf57ff17d11ea21004edae98d59ea7",
+  "parents": "4feb0272b799ea795c5eadee9b482aea0c10ce45",
+  "subject": "Editorial: Use a JoinIndexedProperties helper for {Array,%TypedArray%}.prototype.join (#3958)"
+ },
+ {
   "adate": "2026-10-16T15:13:20-07:00",
   "author": "Kevin Gibbons",
   "date": "2026-10-16T15:13:20-07:00",
