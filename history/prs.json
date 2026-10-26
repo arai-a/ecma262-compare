@@ -1430,11 +1430,19 @@
  {
   "base": "ae8c512bc721e31d39fde8c197a846e2f49c5f7a",
   "created_at": "2026-08-20T19:01:24Z",
-  "head": "551e81907a46a01bccbed6f65cca153867980c15",
+  "head": "129cdebcea0b29c2088dd820454bb54adc3e0ac6",
   "login": "gibson042",
   "number": 3955,
   "ref": "2026-08-functiondeclarationinstantiation",
   "revs": [
+   {
+    "adate": "2026-10-26T15:05:42-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-10-26T15:05:42-04:00",
+    "hash": "129cdebcea0b29c2088dd820454bb54adc3e0ac6",
+    "parents": "551e81907a46a01bccbed6f65cca153867980c15",
+    "subject": "fixup! fixup! Editorial: Reword a FunctionDeclarationInstantiation note for better readability"
+   },
    {
     "adate": "2026-08-24T20:46:33-04:00",
     "author": "Richard Gibson",
@@ -1485,7 +1493,7 @@
    }
   ],
   "title": "Editorial: Refactor FunctionDeclarationInstantiation for better readability and consistency",
-  "updated_at": "2026-08-25T00:46:40Z"
+  "updated_at": "2026-10-26T19:05:51Z"
  },
  {
   "base": "ae8c512bc721e31d39fde8c197a846e2f49c5f7a",
@@ -1998,11 +2006,19 @@
  {
   "base": "6db9135b3d77fd38a81a5a1f1bb6ed77fcca9066",
   "created_at": "2026-07-16T21:42:36Z",
-  "head": "0b0c8785888bfe9a5b901340d9a3f08b72df86ef",
+  "head": "8cd8dcb96164d126c59a555ca9cbcff2608f1b69",
   "login": "gibson042",
   "number": 3917,
   "ref": "gh-3911-followup-non-zero-finite-number",
   "revs": [
+   {
+    "adate": "2026-10-26T15:08:25-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-10-26T15:08:25-04:00",
+    "hash": "8cd8dcb96164d126c59a555ca9cbcff2608f1b69",
+    "parents": "0b0c8785888bfe9a5b901340d9a3f08b72df86ef",
+    "subject": "Editorial: Add more aliases for \"non-zero finite Number\""
+   },
    {
     "adate": "2026-07-16T17:37:02-04:00",
     "author": "Richard Gibson",
@@ -2021,7 +2037,7 @@
    }
   ],
   "title": "Editorial: Introduce term \"non-zero finite Number\"",
-  "updated_at": "2026-10-05T20:01:03Z"
+  "updated_at": "2026-10-26T20:19:19Z"
  },
  {
   "base": "1355a23e48aaf2b1d7b6cbfad0fb98bce999cfd1",
