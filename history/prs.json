@@ -158,11 +158,27 @@
  {
   "base": "40ce6f206b5669e69bf010a38267ae24a2843404",
   "created_at": "2026-10-23T08:08:26Z",
-  "head": "64fc0ce9164ab68b4b15f32af30aa452e14d1f6f",
+  "head": "8646484db401f4c5cfbe6535b4c979da9d23c5f2",
   "login": "JinDX",
   "number": 4002,
   "ref": "main",
   "revs": [
+   {
+    "adate": "2026-10-29T17:08:36+08:00",
+    "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
+    "date": "2026-10-29T17:08:36+08:00",
+    "hash": "8646484db401f4c5cfbe6535b4c979da9d23c5f2",
+    "parents": "3956777a80e86a480acbfa8ebd6e9764812b7d3a",
+    "subject": "Editorial: fix Atomics.waitAsync paragraph indentation"
+   },
+   {
+    "adate": "2026-10-29T17:02:30+08:00",
+    "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
+    "date": "2026-10-29T17:02:30+08:00",
+    "hash": "3956777a80e86a480acbfa8ebd6e9764812b7d3a",
+    "parents": "64fc0ce9164ab68b4b15f32af30aa452e14d1f6f",
+    "subject": "Editorial: remove trailing spaces from Atomics.waitAsync description"
+   },
    {
     "adate": "2026-10-29T09:18:28+08:00",
     "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
@@ -181,7 +197,7 @@
    }
   ],
   "title": "Editorial: clarify the return value of Atomics.waitAsync",
-  "updated_at": "2026-10-29T01:18:32Z"
+  "updated_at": "2026-10-29T09:09:06Z"
  },
  {
   "base": "40ce6f206b5669e69bf010a38267ae24a2843404",
@@ -4070,11 +4086,19 @@
  {
   "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
   "created_at": "2022-12-15T19:39:03Z",
-  "head": "cb257504c326e889e57da3a07d68f625c8daa5bb",
+  "head": "3f768823b5b6337a3c1c1bc3b06f18f6eb042c88",
   "login": "gibson042",
   "number": 2975,
   "ref": "2022-12-describe-split",
   "revs": [
+   {
+    "adate": "2026-10-29T01:58:46-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-10-29T01:58:46-04:00",
+    "hash": "3f768823b5b6337a3c1c1bc3b06f18f6eb042c88",
+    "parents": "cb257504c326e889e57da3a07d68f625c8daa5bb",
+    "subject": "Editorial: Further refine the explanation of split methods"
+   },
    {
     "adate": "2026-08-03T19:40:36-04:00",
     "author": "Richard Gibson",
@@ -4133,7 +4157,7 @@
    }
   ],
   "title": "Editorial: Improve the explanation of split methods",
-  "updated_at": "2026-08-03T23:40:42Z"
+  "updated_at": "2026-10-29T10:36:31Z"
  },
  {
   "base": "e28783d5fc9dc12b3de905961e2c71410b38a202",
