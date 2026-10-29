@@ -518,11 +518,19 @@
  {
   "base": "b7865f0eed2021720f84d561289401bc414874d0",
   "created_at": "2026-09-09T21:34:26Z",
-  "head": "dc0506b90a810e6b26f5d732ab69eade8fa504d9",
+  "head": "127ed0fe8241b953a8b7fd4e08c49de96edd59cf",
   "login": "bakkot",
   "number": 3972,
   "ref": "dataview-throwyness",
   "revs": [
+   {
+    "adate": "2026-10-29T09:18:22-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2026-10-29T09:18:22-07:00",
+    "hash": "127ed0fe8241b953a8b7fd4e08c49de96edd59cf",
+    "parents": "dc0506b90a810e6b26f5d732ab69eade8fa504d9",
+    "subject": "fixup! Annex F note"
+   },
    {
     "adate": "2026-09-09T14:25:15-07:00",
     "author": "Kevin Gibbons",
@@ -533,7 +541,7 @@
    }
   ],
   "title": "Normative: make DataView.prototype.{byteLength,byteOffset} not throw when backed by detached buffer",
-  "updated_at": "2026-09-09T23:14:35Z"
+  "updated_at": "2026-10-29T16:38:37Z"
  },
  {
   "base": "e28783d5fc9dc12b3de905961e2c71410b38a202",
@@ -4086,11 +4094,19 @@
  {
   "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
   "created_at": "2022-12-15T19:39:03Z",
-  "head": "3f768823b5b6337a3c1c1bc3b06f18f6eb042c88",
+  "head": "20c2ec314f67b1b822dabb097157dfd79bd36dfd",
   "login": "gibson042",
   "number": 2975,
   "ref": "2022-12-describe-split",
   "revs": [
+   {
+    "adate": "2026-10-29T11:39:49-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-10-29T11:39:49-04:00",
+    "hash": "20c2ec314f67b1b822dabb097157dfd79bd36dfd",
+    "parents": "3f768823b5b6337a3c1c1bc3b06f18f6eb042c88",
+    "subject": "Editorial: Align split method alias names with editorial conventions"
+   },
    {
     "adate": "2026-10-29T01:58:46-04:00",
     "author": "Richard Gibson",
@@ -4157,7 +4173,7 @@
    }
   ],
   "title": "Editorial: Improve the explanation of split methods",
-  "updated_at": "2026-10-29T10:36:31Z"
+  "updated_at": "2026-10-29T15:39:57Z"
  },
  {
   "base": "e28783d5fc9dc12b3de905961e2c71410b38a202",
