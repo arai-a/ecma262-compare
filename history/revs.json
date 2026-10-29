@@ -1,5 +1,13 @@
 [
  {
+  "adate": "2026-10-29T13:00:44-07:00",
+  "author": "Jordan Harband",
+  "date": "2026-10-29T13:00:44-07:00",
+  "hash": "0d4945de6a11bef38e6b2c47c29c1ecb373c09d7",
+  "parents": "40ce6f206b5669e69bf010a38267ae24a2843404",
+  "subject": "Meta: IPR: handle username change"
+ },
+ {
   "adate": "2026-10-22T22:45:01-07:00",
   "author": "Richard Gibson",
   "date": "2026-10-22T22:45:01-07:00",
@@ -8,12 +16,44 @@
   "subject": "Editorial: Format references to bitwise AND/XOR/OR operations (#3987)"
  },
  {
+  "adate": "2026-10-22T22:44:59-07:00",
+  "author": "Richard Gibson",
+  "date": "2026-10-22T22:44:59-07:00",
+  "hash": "02f2b1fadeb15d4a26ca7d74374e701ff8ba256e",
+  "parents": "8e7c40ca9d3681dc4f63a71c8c463882ce4e466c",
+  "subject": "Editorial: Align BigIntBitwiseOp with {NumberBitwiseOp,ByteListBitwiseOp} (#3987)"
+ },
+ {
   "adate": "2026-10-22T12:01:01-07:00",
   "author": "Linus Groh",
   "date": "2026-10-22T12:01:01-07:00",
   "hash": "8e7c40ca9d3681dc4f63a71c8c463882ce4e466c",
   "parents": "ac5f8767c81ff198e6eeeef378cea5cd79a8660f",
   "subject": "Editorial: Rename CreateListFromArrayLike enum value from all to any (#3983)"
+ },
+ {
+  "adate": "2026-10-22T11:22:58-07:00",
+  "author": "Nicol\u00f2 Ribaudo",
+  "date": "2026-10-22T11:22:58-07:00",
+  "hash": "ac5f8767c81ff198e6eeeef378cea5cd79a8660f",
+  "parents": "4a0d3f8c5d37a5208ba6474b13a1c7a870c7d958",
+  "subject": "Meta: Use UTF-8 for spell-checking (#3997)"
+ },
+ {
+  "adate": "2026-10-22T10:11:45-07:00",
+  "author": "Michael Ficarra",
+  "date": "2026-10-22T10:11:45-07:00",
+  "hash": "4a0d3f8c5d37a5208ba6474b13a1c7a870c7d958",
+  "parents": "1c8cb99b314cd4a63204c189c1440296db9de217",
+  "subject": "Normative: add Iterator.prototype.chunks and windows (#3970)"
+ },
+ {
+  "adate": "2026-10-22T09:51:21-07:00",
+  "author": "Richard Gibson",
+  "date": "2026-10-22T09:51:21-07:00",
+  "hash": "1c8cb99b314cd4a63204c189c1440296db9de217",
+  "parents": "91362ece318a2f1b90377200fa80425418a94849",
+  "subject": "Editorial: Expect ECMA-402 to define %TypedArray%.prototype.toLocaleString (#3958)"
  },
  {
   "adate": "2026-10-22T09:51:20-07:00",
