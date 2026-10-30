@@ -1,5 +1,93 @@
 [
  {
+  "base": "0d4945de6a11bef38e6b2c47c29c1ecb373c09d7",
+  "created_at": "2026-10-29T23:13:22Z",
+  "head": "7ba183b10a54c89464dd32b9414802f514806357",
+  "login": "bakkot",
+  "number": 4045,
+  "ref": "fix-date-parse-expression-count",
+  "revs": [
+   {
+    "adate": "2026-10-29T17:07:57-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2026-10-29T17:07:57-07:00",
+    "hash": "7ba183b10a54c89464dd32b9414802f514806357",
+    "parents": "ac098603eb039e0d92328d3552ccaf29d6f661e4",
+    "subject": "fixup: drop the count entirely"
+   },
+   {
+    "adate": "2026-10-25T15:41:20+08:00",
+    "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
+    "date": "2026-10-29T16:10:46-07:00",
+    "hash": "ac098603eb039e0d92328d3552ccaf29d6f661e4",
+    "parents": "0d4945de6a11bef38e6b2c47c29c1ecb373c09d7",
+    "subject": "Editorial: correct the Date.parse expression count"
+   }
+  ],
+  "title": "Editorial: correct the Date.parse expression count",
+  "updated_at": "2026-10-30T01:26:15Z"
+ },
+ {
+  "base": "0d4945de6a11bef38e6b2c47c29c1ecb373c09d7",
+  "created_at": "2026-10-29T23:08:44Z",
+  "head": "1a619ebe18aaf1d182098b4e3d6155b46513c486",
+  "login": "bakkot",
+  "number": 4044,
+  "ref": "fix-hyperbolic-notes",
+  "revs": [
+   {
+    "adate": "2026-10-25T15:38:33+08:00",
+    "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
+    "date": "2026-10-29T16:06:37-07:00",
+    "hash": "1a619ebe18aaf1d182098b4e3d6155b46513c486",
+    "parents": "0d4945de6a11bef38e6b2c47c29c1ecb373c09d7",
+    "subject": "Editorial: clarify hyperbolic function identities"
+   }
+  ],
+  "title": "Editorial: clarify hyperbolic function identities",
+  "updated_at": "2026-10-30T01:29:12Z"
+ },
+ {
+  "base": "0d4945de6a11bef38e6b2c47c29c1ecb373c09d7",
+  "created_at": "2026-10-29T23:03:40Z",
+  "head": "bb56c28fc620d33008bd0cb59510c9a47de2b2d2",
+  "login": "bakkot",
+  "number": 4043,
+  "ref": "ta-sort-length-note",
+  "revs": [
+   {
+    "adate": "2026-10-29T15:58:02-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2026-10-29T15:58:02-07:00",
+    "hash": "bb56c28fc620d33008bd0cb59510c9a47de2b2d2",
+    "parents": "0d4945de6a11bef38e6b2c47c29c1ecb373c09d7",
+    "subject": "Editorial: qualify claim about TA length changing during sort"
+   }
+  ],
+  "title": "Editorial: qualify claim about TA length changing during sort",
+  "updated_at": "2026-10-30T01:34:42Z"
+ },
+ {
+  "base": "0d4945de6a11bef38e6b2c47c29c1ecb373c09d7",
+  "created_at": "2026-10-29T22:48:45Z",
+  "head": "b76a46d6123211763384f5c279a8f1c4a3f89796",
+  "login": "bakkot",
+  "number": 4042,
+  "ref": "global-getbindingvalue-note",
+  "revs": [
+   {
+    "adate": "2026-10-25T15:33:35+08:00",
+    "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
+    "date": "2026-10-29T15:45:12-07:00",
+    "hash": "b76a46d6123211763384f5c279a8f1c4a3f89796",
+    "parents": "0d4945de6a11bef38e6b2c47c29c1ecb373c09d7",
+    "subject": "editorial: remove writability from GetBindingValue description"
+   }
+  ],
+  "title": "Editorial: Don't mention writability in the Global Environment Record GetBindingValue description",
+  "updated_at": "2026-10-30T01:51:06Z"
+ },
+ {
   "base": "40ce6f206b5669e69bf010a38267ae24a2843404",
   "created_at": "2026-10-26T12:04:05Z",
   "head": "f8046f5ba271e40337d7d8e95e1e44022e50c028",
@@ -4094,11 +4182,27 @@
  {
   "base": "0d4945de6a11bef38e6b2c47c29c1ecb373c09d7",
   "created_at": "2022-12-15T19:39:03Z",
-  "head": "0679013240e4861d3212dd4928271cdc69d79e18",
+  "head": "d90a44d9beb96787ef6dc982598579a235cc86cb",
   "login": "gibson042",
   "number": 2975,
   "ref": "2022-12-describe-split",
   "revs": [
+   {
+    "adate": "2026-10-29T21:09:34-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-10-29T21:20:04-04:00",
+    "hash": "d90a44d9beb96787ef6dc982598579a235cc86cb",
+    "parents": "01a8f32d30a491ed571eca0f83a99387dfa187b3",
+    "subject": "Editorial: Update RegExp.prototype[%Symbol.split%] text for consistency with Unicode patterns"
+   },
+   {
+    "adate": "2026-10-29T21:09:34-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-10-29T21:09:34-04:00",
+    "hash": "01a8f32d30a491ed571eca0f83a99387dfa187b3",
+    "parents": "0679013240e4861d3212dd4928271cdc69d79e18",
+    "subject": "Editorial: Improve formatting consistency of JavaScript code in RegExp.prototype[%Symbol.split%]"
+   },
    {
     "adate": "2026-10-29T13:01:47-07:00",
     "author": "Richard Gibson",
@@ -4109,7 +4213,7 @@
    }
   ],
   "title": "Editorial: Improve the explanation of split methods",
-  "updated_at": "2026-10-29T20:02:02Z"
+  "updated_at": "2026-10-30T01:21:27Z"
  },
  {
   "base": "e28783d5fc9dc12b3de905961e2c71410b38a202",
