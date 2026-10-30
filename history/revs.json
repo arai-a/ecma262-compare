@@ -1,11 +1,35 @@
 [
  {
+  "adate": "2026-10-30T13:24:52-07:00",
+  "author": "Richard Gibson",
+  "date": "2026-10-30T13:24:52-07:00",
+  "hash": "21e4774e4a541c162a4e04e97ea060f0e27d3f72",
+  "parents": "9ef176835ca188582ecb770fd713152ee5d3d7ca",
+  "subject": "Editorial: Directly relate ParseText to parsing (#3956)"
+ },
+ {
   "adate": "2026-10-29T22:10:23-07:00",
   "author": "Linus Groh",
   "date": "2026-10-29T22:10:23-07:00",
   "hash": "42b6e6332242630065acd5f76cfde6df1827cbfe",
   "parents": "06a7fa0560543ba9e1f2ed1198df57d3e08ba13c",
   "subject": "Editorial: Inline CreateDisposableResource into AddDisposableResource (#4005)"
+ },
+ {
+  "adate": "2026-10-29T22:10:22-07:00",
+  "author": "Linus Groh",
+  "date": "2026-10-29T22:10:22-07:00",
+  "hash": "06a7fa0560543ba9e1f2ed1198df57d3e08ba13c",
+  "parents": "e3b9839d21bff5472128fcb93105659ec60ba053",
+  "subject": "Editorial: Use ! when creating lexical bindings in EvalDeclarationInstantiation (#4005)"
+ },
+ {
+  "adate": "2026-10-29T22:10:20-07:00",
+  "author": "Linus Groh",
+  "date": "2026-10-29T22:10:20-07:00",
+  "hash": "e3b9839d21bff5472128fcb93105659ec60ba053",
+  "parents": "0d4945de6a11bef38e6b2c47c29c1ecb373c09d7",
+  "subject": "Editorial: Use ! when calling built-in promise reject functions (#4005)"
  },
  {
   "adate": "2026-10-29T13:00:44-07:00",

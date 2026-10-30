@@ -1,5 +1,25 @@
 [
  {
+  "base": "42b6e6332242630065acd5f76cfde6df1827cbfe",
+  "created_at": "2026-10-30T17:22:41Z",
+  "head": "572166061cca3b3466a1ef50f201ad637231e04b",
+  "login": "bakkot",
+  "number": 4049,
+  "ref": "HostGrowSharedArrayBuffer-bigint",
+  "revs": [
+   {
+    "adate": "2026-10-25T15:54:10+08:00",
+    "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
+    "date": "2026-10-30T10:19:19-07:00",
+    "hash": "572166061cca3b3466a1ef50f201ad637231e04b",
+    "parents": "42b6e6332242630065acd5f76cfde6df1827cbfe",
+    "subject": "Editorial: convert host-grown shared byte lengths to BigInt before encoding"
+   }
+  ],
+  "title": "Editorial: add missing coercion in HostGrowSharedArrayBuffer description",
+  "updated_at": "2026-10-30T17:51:34Z"
+ },
+ {
   "base": "0d4945de6a11bef38e6b2c47c29c1ecb373c09d7",
   "created_at": "2026-10-30T14:52:11Z",
   "head": "4bb86f9320eacf11ddaacdc08f409890b52bb016",
@@ -106,11 +126,19 @@
  {
   "base": "0d4945de6a11bef38e6b2c47c29c1ecb373c09d7",
   "created_at": "2026-10-29T23:03:40Z",
-  "head": "bb56c28fc620d33008bd0cb59510c9a47de2b2d2",
+  "head": "37e2785e25d1013033168722c3116fd6c894b725",
   "login": "bakkot",
   "number": 4043,
   "ref": "ta-sort-length-note",
   "revs": [
+   {
+    "adate": "2026-10-30T11:08:27-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2026-10-30T11:08:27-07:00",
+    "hash": "37e2785e25d1013033168722c3116fd6c894b725",
+    "parents": "bb56c28fc620d33008bd0cb59510c9a47de2b2d2",
+    "subject": "fixup! during->by"
+   },
    {
     "adate": "2026-10-29T15:58:02-07:00",
     "author": "Kevin Gibbons",
@@ -121,7 +149,7 @@
    }
   ],
   "title": "Editorial: qualify claim about TA length changing during sort",
-  "updated_at": "2026-10-30T01:34:42Z"
+  "updated_at": "2026-10-30T18:09:06Z"
  },
  {
   "base": "0d4945de6a11bef38e6b2c47c29c1ecb373c09d7",
@@ -372,24 +400,32 @@
   "updated_at": "2026-10-26T16:45:36Z"
  },
  {
-  "base": "4feb0272b799ea795c5eadee9b482aea0c10ce45",
+  "base": "42b6e6332242630065acd5f76cfde6df1827cbfe",
   "created_at": "2026-10-17T22:40:03Z",
-  "head": "45759e046da9361f597e39344137fbf9494c9df4",
+  "head": "119dd87979814aa31ff859f58ac0e26e50697166",
   "login": "nicolo-ribaudo",
   "number": 3996,
   "ref": "ci-temporal",
   "revs": [
    {
+    "adate": "2026-10-30T17:59:57+01:00",
+    "author": "Nicol\u00f2 Ribaudo",
+    "date": "2026-10-30T18:00:31+01:00",
+    "hash": "119dd87979814aa31ff859f58ac0e26e50697166",
+    "parents": "437874a2175c88e76fc559fc0a4da81a8570bd3d",
+    "subject": "Apply suggestions from richard"
+   },
+   {
     "adate": "2026-10-18T00:27:33+02:00",
     "author": "Nicol\u00f2 Ribaudo",
-    "date": "2026-10-18T00:39:16+02:00",
-    "hash": "45759e046da9361f597e39344137fbf9494c9df4",
-    "parents": "4feb0272b799ea795c5eadee9b482aea0c10ce45",
+    "date": "2026-10-30T18:00:28+01:00",
+    "hash": "437874a2175c88e76fc559fc0a4da81a8570bd3d",
+    "parents": "42b6e6332242630065acd5f76cfde6df1827cbfe",
     "subject": "Check temporal/*.emu files on CI"
    }
   ],
   "title": "Meta: check temporal/*.emu files on CI",
-  "updated_at": "2026-10-17T22:54:28Z"
+  "updated_at": "2026-10-30T17:42:59Z"
  },
  {
   "base": "40ce6f206b5669e69bf010a38267ae24a2843404",
@@ -672,24 +708,24 @@
   "updated_at": "2026-09-03T20:18:59Z"
  },
  {
-  "base": "40ce6f206b5669e69bf010a38267ae24a2843404",
+  "base": "21e4774e4a541c162a4e04e97ea060f0e27d3f72",
   "created_at": "2026-09-02T17:57:39Z",
-  "head": "4eda0d75a3dd85fb6201c84eabc68a1e4d5b8243",
+  "head": "837168a438620a119970f2759756fd7b4e947719",
   "login": "tc39",
   "number": 3969,
   "ref": "iterator-includes",
   "revs": [
    {
-    "adate": "2026-09-02T11:56:08-06:00",
+    "adate": "2026-10-30T14:09:59-07:00",
     "author": "Michael Ficarra",
-    "date": "2026-10-23T09:38:21-06:00",
-    "hash": "4eda0d75a3dd85fb6201c84eabc68a1e4d5b8243",
-    "parents": "40ce6f206b5669e69bf010a38267ae24a2843404",
-    "subject": "Normative: add Iterator.prototype.includes"
+    "date": "2026-10-30T14:09:59-07:00",
+    "hash": "837168a438620a119970f2759756fd7b4e947719",
+    "parents": "21e4774e4a541c162a4e04e97ea060f0e27d3f72",
+    "subject": "Normative: add Iterator.prototype.includes (#3969)"
    }
   ],
   "title": "Normative: add Iterator.prototype.includes",
-  "updated_at": "2026-10-23T15:42:24Z"
+  "updated_at": "2026-10-30T21:10:11Z"
  },
  {
   "base": "dcf59856a8184792a9e42f0ffb7dc064094a5dcc",
@@ -1492,82 +1528,6 @@
   "updated_at": "2026-09-17T15:53:03Z"
  },
  {
-  "base": "ad0ccf5efd879b6852faa08f10ca51f71a4f7cd0",
-  "created_at": "2026-08-21T15:02:35Z",
-  "head": "9216cd07a0a2273850b4db27dca994bf0abd447c",
-  "login": "gibson042",
-  "number": 3956,
-  "ref": "2026-08-clarify-parsing",
-  "revs": [
-   {
-    "adate": "2026-08-21T11:37:36-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-08-21T11:37:36-04:00",
-    "hash": "9216cd07a0a2273850b4db27dca994bf0abd447c",
-    "parents": "116a727a631df95cc890743b69b096e058644c0b",
-    "subject": "fixup! Editorial: Generalize \"The Numeric String Grammar\" into \"Runtime Grammars\""
-   },
-   {
-    "adate": "2026-08-21T11:33:35-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-08-21T11:33:35-04:00",
-    "hash": "116a727a631df95cc890743b69b096e058644c0b",
-    "parents": "5958369fc3cc3521085bf4be1852ce67c250bb2a",
-    "subject": "fixup! Editorial: Add an example for multi-character syntactic-grammar terminal symbols"
-   },
-   {
-    "adate": "2026-08-21T10:56:00-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-08-21T10:56:06-04:00",
-    "hash": "5958369fc3cc3521085bf4be1852ce67c250bb2a",
-    "parents": "e426cc363132f7bc014e7004d2ba1a642e0ce71a",
-    "subject": "Editorial: Directly relate ParseText to parsing"
-   },
-   {
-    "adate": "2026-08-21T10:45:31-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-08-21T10:45:31-04:00",
-    "hash": "e426cc363132f7bc014e7004d2ba1a642e0ce71a",
-    "parents": "8b3c8a9ff9a8a2279f5c8046c1de260d74adf813",
-    "subject": "Editorial: Split a new \"Parsing\" section from \"The Syntactic Grammar\""
-   },
-   {
-    "adate": "2026-08-21T10:22:43-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-08-21T10:22:43-04:00",
-    "hash": "8b3c8a9ff9a8a2279f5c8046c1de260d74adf813",
-    "parents": "2197b660184d5948a3ddf677ee687310f982b456",
-    "subject": "Editorial: Generalize mnemonic-based terminal symbols to all non-syntactic grammars"
-   },
-   {
-    "adate": "2026-08-21T10:20:06-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-08-21T10:21:30-04:00",
-    "hash": "2197b660184d5948a3ddf677ee687310f982b456",
-    "parents": "4764f86be7378a83c8e674e9c00d9f077c966736",
-    "subject": "Editorial: Add an example for multi-character syntactic-grammar terminal symbols"
-   },
-   {
-    "adate": "2026-08-21T09:49:21-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-08-21T10:12:49-04:00",
-    "hash": "4764f86be7378a83c8e674e9c00d9f077c966736",
-    "parents": "3897ceb4543222c2bd6a662ee3477fcdf97ec0b5",
-    "subject": "Editorial: Generalize \"The Numeric String Grammar\" into \"Runtime Grammars\""
-   },
-   {
-    "adate": "2026-08-21T09:48:17-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-08-21T09:48:17-04:00",
-    "hash": "3897ceb4543222c2bd6a662ee3477fcdf97ec0b5",
-    "parents": "ad0ccf5efd879b6852faa08f10ca51f71a4f7cd0",
-    "subject": "Editorial: Use common phrasing for explaining grammar-distinguishing colons"
-   }
-  ],
-  "title": "Editorial: Clarify parsing",
-  "updated_at": "2026-08-21T15:40:38Z"
- },
- {
   "base": "ae8c512bc721e31d39fde8c197a846e2f49c5f7a",
   "created_at": "2026-08-20T19:01:24Z",
   "head": "129cdebcea0b29c2088dd820454bb54adc3e0ac6",
@@ -2144,42 +2104,6 @@
   "updated_at": "2026-08-07T12:42:27Z"
  },
  {
-  "base": "6db9135b3d77fd38a81a5a1f1bb6ed77fcca9066",
-  "created_at": "2026-07-16T21:42:36Z",
-  "head": "8cd8dcb96164d126c59a555ca9cbcff2608f1b69",
-  "login": "gibson042",
-  "number": 3917,
-  "ref": "gh-3911-followup-non-zero-finite-number",
-  "revs": [
-   {
-    "adate": "2026-10-26T15:08:25-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-10-26T15:08:25-04:00",
-    "hash": "8cd8dcb96164d126c59a555ca9cbcff2608f1b69",
-    "parents": "0b0c8785888bfe9a5b901340d9a3f08b72df86ef",
-    "subject": "Editorial: Add more aliases for \"non-zero finite Number\""
-   },
-   {
-    "adate": "2026-07-16T17:37:02-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-10-05T15:59:37-04:00",
-    "hash": "0b0c8785888bfe9a5b901340d9a3f08b72df86ef",
-    "parents": "97822d1b2d2b5c258706305712515e224f8f322b",
-    "subject": "Editorial: Improve readability of the \"non-zero finite Number\" definition"
-   },
-   {
-    "adate": "2026-07-16T16:30:38-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-10-05T15:59:37-04:00",
-    "hash": "97822d1b2d2b5c258706305712515e224f8f322b",
-    "parents": "6db9135b3d77fd38a81a5a1f1bb6ed77fcca9066",
-    "subject": "Editorial: Introduce term \"non-zero finite Number\""
-   }
-  ],
-  "title": "Editorial: Introduce term \"non-zero finite Number\"",
-  "updated_at": "2026-10-26T20:19:19Z"
- },
- {
   "base": "1355a23e48aaf2b1d7b6cbfad0fb98bce999cfd1",
   "created_at": "2026-07-10T00:05:29Z",
   "head": "b68d8310efa26c9e498aaa1cb75bc42cd6c7ce1e",
@@ -2330,26 +2254,6 @@
   ],
   "title": "Meta: remove PR preview when PR is closed",
   "updated_at": "2026-04-09T01:01:15Z"
- },
- {
-  "base": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
-  "created_at": "2026-04-08T21:24:11Z",
-  "head": "1b60d9aa6b2fa7efc253a4ee22653ffbdb1dcb6d",
-  "login": "tc39",
-  "number": 3817,
-  "ref": "notear-note",
-  "revs": [
-   {
-    "adate": "2026-04-08T15:20:44-06:00",
-    "author": "Michael Ficarra",
-    "date": "2026-04-08T15:20:44-06:00",
-    "hash": "1b60d9aa6b2fa7efc253a4ee22653ffbdb1dcb6d",
-    "parents": "242ce7a3234c4d859e26ac7f22ccaa83f1d69a5a",
-    "subject": "Editorial: remove incorrect note about [[NoTear]]"
-   }
-  ],
-  "title": "Editorial: remove incorrect note about [[NoTear]]",
-  "updated_at": "2026-04-08T21:28:54Z"
  },
  {
   "base": "880398845fd935bddad6a494ceeeb6c94397cc36",
@@ -4200,42 +4104,6 @@
   "updated_at": "2023-02-13T16:44:48Z"
  },
  {
-  "base": "42b6e6332242630065acd5f76cfde6df1827cbfe",
-  "created_at": "2022-12-15T19:39:03Z",
-  "head": "dbf6bc165d948ae1da7bdc66ee5ff802e06dafa1",
-  "login": "gibson042",
-  "number": 2975,
-  "ref": "2022-12-describe-split",
-  "revs": [
-   {
-    "adate": "2026-10-30T09:25:08-07:00",
-    "author": "Richard Gibson",
-    "date": "2026-10-30T09:25:08-07:00",
-    "hash": "dbf6bc165d948ae1da7bdc66ee5ff802e06dafa1",
-    "parents": "43f12a7f411654736b5cb3582e24040075925803",
-    "subject": "Editorial: Update RegExp.prototype[%Symbol.split%] text for consistency with Unicode patterns (#2975)"
-   },
-   {
-    "adate": "2026-10-30T09:25:05-07:00",
-    "author": "Richard Gibson",
-    "date": "2026-10-30T09:25:05-07:00",
-    "hash": "43f12a7f411654736b5cb3582e24040075925803",
-    "parents": "cb866719b37204314ef36cbc0fc2d219b083ecbf",
-    "subject": "Editorial: Improve formatting consistency of JavaScript code in RegExp.prototype[%Symbol.split%] (#2975)"
-   },
-   {
-    "adate": "2026-10-30T09:25:02-07:00",
-    "author": "Richard Gibson",
-    "date": "2026-10-30T09:25:02-07:00",
-    "hash": "cb866719b37204314ef36cbc0fc2d219b083ecbf",
-    "parents": "42b6e6332242630065acd5f76cfde6df1827cbfe",
-    "subject": "Editorial: Improve the explanation of split methods (#2975)"
-   }
-  ],
-  "title": "Editorial: Improve the explanation of split methods",
-  "updated_at": "2026-10-30T16:25:21Z"
- },
- {
   "base": "e28783d5fc9dc12b3de905961e2c71410b38a202",
   "created_at": "2022-11-22T04:48:42Z",
   "head": "70867429ea8554f8bd17fafb8bb3d04bed005af1",
@@ -5298,11 +5166,19 @@
  {
   "base": "ed463bc10dbeaad0410ce67e541a77ea8e9900a5",
   "created_at": "2019-10-08T01:11:31Z",
-  "head": "c1efd96ef4ab4cf5cb76056a4ea5007d2a2c68f6",
+  "head": "e8296ea57ce30b0f7a7b3444c65367c75b423a54",
   "login": "gibson042",
   "number": 1727,
   "ref": "2019-10-main-grammar-disambiguation",
   "revs": [
+   {
+    "adate": "2026-10-30T12:55:06-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-10-30T12:55:06-04:00",
+    "hash": "e8296ea57ce30b0f7a7b3444c65367c75b423a54",
+    "parents": "c1efd96ef4ab4cf5cb76056a4ea5007d2a2c68f6",
+    "subject": "fixup! Editorial: Replace post-NumericLiteral lookahead prose with formal assertions"
+   },
    {
     "adate": "2026-08-23T16:10:33-04:00",
     "author": "Richard Gibson",
@@ -5337,7 +5213,7 @@
    }
   ],
   "title": "Editorial: Formally disambiguate the non-Annex-B grammar",
-  "updated_at": "2026-08-23T20:24:56Z"
+  "updated_at": "2026-10-30T17:07:30Z"
  },
  {
   "base": "8c0c94eb3be152b7ae7dc0cb580f4ee9f0a9a0c2",
