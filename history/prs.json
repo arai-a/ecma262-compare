@@ -1,6 +1,62 @@
 [
  {
   "base": "0d4945de6a11bef38e6b2c47c29c1ecb373c09d7",
+  "created_at": "2026-10-30T14:52:11Z",
+  "head": "4bb86f9320eacf11ddaacdc08f409890b52bb016",
+  "login": "gibson042",
+  "number": 4048,
+  "ref": "2026-10-regexp-pattern-character-definition",
+  "revs": [
+   {
+    "adate": "2026-10-30T10:47:09-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-10-30T10:47:09-04:00",
+    "hash": "4bb86f9320eacf11ddaacdc08f409890b52bb016",
+    "parents": "2a8f7340ec0ad7e2fef8fd70ffd9fcb768d82909",
+    "subject": "Editorial: Simplify the definition of regular expression \"character\" as a Unicode code point"
+   },
+   {
+    "adate": "2026-10-30T10:40:45-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-10-30T10:40:45-04:00",
+    "hash": "2a8f7340ec0ad7e2fef8fd70ffd9fcb768d82909",
+    "parents": "0d4945de6a11bef38e6b2c47c29c1ecb373c09d7",
+    "subject": "Editorial: Replace \"may not\" with a non-ambiguous \"might not\""
+   }
+  ],
+  "title": "Editorial: Simplify the definition of regular expression \"character\" as a Unicode code point",
+  "updated_at": "2026-10-30T15:10:27Z"
+ },
+ {
+  "base": "0d4945de6a11bef38e6b2c47c29c1ecb373c09d7",
+  "created_at": "2026-10-30T14:31:36Z",
+  "head": "415280c8ae5c71f58afa42e6049a2eae9cfa9df2",
+  "login": "linusg",
+  "number": 4047,
+  "ref": "annex-f",
+  "revs": [
+   {
+    "adate": "2026-10-30T14:15:50Z",
+    "author": "Linus Groh",
+    "date": "2026-10-30T14:29:52Z",
+    "hash": "415280c8ae5c71f58afa42e6049a2eae9cfa9df2",
+    "parents": "61b293b82757e6f7c8062be1bff32d883963c87f",
+    "subject": "Editorial: Add more entries to Annex F"
+   },
+   {
+    "adate": "2026-10-29T17:02:27Z",
+    "author": "Linus Groh",
+    "date": "2026-10-29T17:02:27Z",
+    "hash": "61b293b82757e6f7c8062be1bff32d883963c87f",
+    "parents": "40ce6f206b5669e69bf010a38267ae24a2843404",
+    "subject": "Editorial: Sort Annex F by edition, not clause order"
+   }
+  ],
+  "title": "Editorial: Add more entries to Annex F",
+  "updated_at": "2026-10-30T14:35:45Z"
+ },
+ {
+  "base": "0d4945de6a11bef38e6b2c47c29c1ecb373c09d7",
   "created_at": "2026-10-29T23:13:22Z",
   "head": "7ba183b10a54c89464dd32b9414802f514806357",
   "login": "bakkot",
@@ -166,42 +222,6 @@
   ],
   "title": "Meta: link to AI policy at the beginning of CONTRIBUTING.md",
   "updated_at": "2026-10-25T16:22:41Z"
- },
- {
-  "base": "0d4945de6a11bef38e6b2c47c29c1ecb373c09d7",
-  "created_at": "2026-10-23T15:51:44Z",
-  "head": "42b6e6332242630065acd5f76cfde6df1827cbfe",
-  "login": "linusg",
-  "number": 4005,
-  "ref": "infallible-aos",
-  "revs": [
-   {
-    "adate": "2026-10-29T22:10:23-07:00",
-    "author": "Linus Groh",
-    "date": "2026-10-29T22:10:23-07:00",
-    "hash": "42b6e6332242630065acd5f76cfde6df1827cbfe",
-    "parents": "06a7fa0560543ba9e1f2ed1198df57d3e08ba13c",
-    "subject": "Editorial: Inline CreateDisposableResource into AddDisposableResource (#4005)"
-   },
-   {
-    "adate": "2026-10-29T22:10:22-07:00",
-    "author": "Linus Groh",
-    "date": "2026-10-29T22:10:22-07:00",
-    "hash": "06a7fa0560543ba9e1f2ed1198df57d3e08ba13c",
-    "parents": "e3b9839d21bff5472128fcb93105659ec60ba053",
-    "subject": "Editorial: Use ! when creating lexical bindings in EvalDeclarationInstantiation (#4005)"
-   },
-   {
-    "adate": "2026-10-29T22:10:20-07:00",
-    "author": "Linus Groh",
-    "date": "2026-10-29T22:10:20-07:00",
-    "hash": "e3b9839d21bff5472128fcb93105659ec60ba053",
-    "parents": "0d4945de6a11bef38e6b2c47c29c1ecb373c09d7",
-    "subject": "Editorial: Use ! when calling built-in promise reject functions (#4005)"
-   }
-  ],
-  "title": "Editorial: Use ! in a few more places",
-  "updated_at": "2026-10-30T05:10:35Z"
  },
  {
   "base": "40ce6f206b5669e69bf010a38267ae24a2843404",
@@ -3552,9 +3572,9 @@
   "updated_at": "2024-03-26T14:27:53Z"
  },
  {
-  "base": "4feb0272b799ea795c5eadee9b482aea0c10ce45",
+  "base": "42b6e6332242630065acd5f76cfde6df1827cbfe",
   "created_at": "2024-03-07T15:36:34Z",
-  "head": "97b9dd192954ea429b208fc44921a3dd03ad7cd3",
+  "head": "163c5cc6efbc96f824f37a9a927c5a2762c0ca0c",
   "login": "lukewarlow",
   "number": 3294,
   "ref": "codelike-hostensurecancompilestrings",
@@ -3562,22 +3582,22 @@
    {
     "adate": "2026-04-30T12:27:16+01:00",
     "author": "Luke Warlow",
-    "date": "2026-10-19T00:52:42+02:00",
-    "hash": "97b9dd192954ea429b208fc44921a3dd03ad7cd3",
-    "parents": "b6b4c840a0a217fa9732570bfe4995ed70ff850d",
+    "date": "2026-10-30T17:26:35+01:00",
+    "hash": "163c5cc6efbc96f824f37a9a927c5a2762c0ca0c",
+    "parents": "7893a392e6e0001e120278ca248b65d8fe1ecc1c",
     "subject": "Normative: Allow codelike object evaluation."
    },
    {
     "adate": "2026-10-18T16:01:21+02:00",
     "author": "Nicol\u00f2 Ribaudo",
-    "date": "2026-10-19T00:51:32+02:00",
-    "hash": "b6b4c840a0a217fa9732570bfe4995ed70ff850d",
-    "parents": "4feb0272b799ea795c5eadee9b482aea0c10ce45",
+    "date": "2026-10-26T17:45:21+01:00",
+    "hash": "7893a392e6e0001e120278ca248b65d8fe1ecc1c",
+    "parents": "40ce6f206b5669e69bf010a38267ae24a2843404",
     "subject": "Layering: use an enum for the compilation type"
    }
   ],
   "title": "Normative: Integrate \"dynamic code brand checks\" proposal",
-  "updated_at": "2026-10-18T22:52:55Z"
+  "updated_at": "2026-10-30T16:31:42Z"
  },
  {
   "base": "6d7aa1b57f4b3390000d939fdc1920046b81d938",
@@ -4180,40 +4200,40 @@
   "updated_at": "2023-02-13T16:44:48Z"
  },
  {
-  "base": "0d4945de6a11bef38e6b2c47c29c1ecb373c09d7",
+  "base": "42b6e6332242630065acd5f76cfde6df1827cbfe",
   "created_at": "2022-12-15T19:39:03Z",
-  "head": "d90a44d9beb96787ef6dc982598579a235cc86cb",
+  "head": "dbf6bc165d948ae1da7bdc66ee5ff802e06dafa1",
   "login": "gibson042",
   "number": 2975,
   "ref": "2022-12-describe-split",
   "revs": [
    {
-    "adate": "2026-10-29T21:09:34-04:00",
+    "adate": "2026-10-30T09:25:08-07:00",
     "author": "Richard Gibson",
-    "date": "2026-10-29T21:20:04-04:00",
-    "hash": "d90a44d9beb96787ef6dc982598579a235cc86cb",
-    "parents": "01a8f32d30a491ed571eca0f83a99387dfa187b3",
-    "subject": "Editorial: Update RegExp.prototype[%Symbol.split%] text for consistency with Unicode patterns"
+    "date": "2026-10-30T09:25:08-07:00",
+    "hash": "dbf6bc165d948ae1da7bdc66ee5ff802e06dafa1",
+    "parents": "43f12a7f411654736b5cb3582e24040075925803",
+    "subject": "Editorial: Update RegExp.prototype[%Symbol.split%] text for consistency with Unicode patterns (#2975)"
    },
    {
-    "adate": "2026-10-29T21:09:34-04:00",
+    "adate": "2026-10-30T09:25:05-07:00",
     "author": "Richard Gibson",
-    "date": "2026-10-29T21:09:34-04:00",
-    "hash": "01a8f32d30a491ed571eca0f83a99387dfa187b3",
-    "parents": "0679013240e4861d3212dd4928271cdc69d79e18",
-    "subject": "Editorial: Improve formatting consistency of JavaScript code in RegExp.prototype[%Symbol.split%]"
+    "date": "2026-10-30T09:25:05-07:00",
+    "hash": "43f12a7f411654736b5cb3582e24040075925803",
+    "parents": "cb866719b37204314ef36cbc0fc2d219b083ecbf",
+    "subject": "Editorial: Improve formatting consistency of JavaScript code in RegExp.prototype[%Symbol.split%] (#2975)"
    },
    {
-    "adate": "2026-10-29T13:01:47-07:00",
+    "adate": "2026-10-30T09:25:02-07:00",
     "author": "Richard Gibson",
-    "date": "2026-10-29T13:01:47-07:00",
-    "hash": "0679013240e4861d3212dd4928271cdc69d79e18",
-    "parents": "0d4945de6a11bef38e6b2c47c29c1ecb373c09d7",
+    "date": "2026-10-30T09:25:02-07:00",
+    "hash": "cb866719b37204314ef36cbc0fc2d219b083ecbf",
+    "parents": "42b6e6332242630065acd5f76cfde6df1827cbfe",
     "subject": "Editorial: Improve the explanation of split methods (#2975)"
    }
   ],
   "title": "Editorial: Improve the explanation of split methods",
-  "updated_at": "2026-10-30T01:21:27Z"
+  "updated_at": "2026-10-30T16:25:21Z"
  },
  {
   "base": "e28783d5fc9dc12b3de905961e2c71410b38a202",
