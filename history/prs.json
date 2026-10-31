@@ -1,5 +1,85 @@
 [
  {
+  "base": "0de5cb15cb00998dd318f656da0c47dfdbf56251",
+  "created_at": "2026-10-31T08:55:33Z",
+  "head": "06430b25a5a56ad58b077c9e5b899c033e463524",
+  "login": "JinDX",
+  "number": 4062,
+  "ref": "editorial/atomics-waitasync-return-value",
+  "revs": [
+   {
+    "adate": "2026-10-31T16:54:16+08:00",
+    "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
+    "date": "2026-10-31T16:54:16+08:00",
+    "hash": "06430b25a5a56ad58b077c9e5b899c033e463524",
+    "parents": "0de5cb15cb00998dd318f656da0c47dfdbf56251",
+    "subject": "Editorial: clarify the return value of Atomics.waitAsync"
+   }
+  ],
+  "title": "Editorial: clarify the return value of Atomics.waitAsync",
+  "updated_at": "2026-10-31T12:20:07Z"
+ },
+ {
+  "base": "0de5cb15cb00998dd318f656da0c47dfdbf56251",
+  "created_at": "2026-10-31T07:52:12Z",
+  "head": "4a4a9f97ad5706a2d5974eab71f912b591719eff",
+  "login": "JinDX",
+  "number": 4061,
+  "ref": "editorial/regexp-match-indices-upper-bound",
+  "revs": [
+   {
+    "adate": "2026-10-31T15:49:27+08:00",
+    "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
+    "date": "2026-10-31T15:49:27+08:00",
+    "hash": "4a4a9f97ad5706a2d5974eab71f912b591719eff",
+    "parents": "0de5cb15cb00998dd318f656da0c47dfdbf56251",
+    "subject": "Editorial: correct the upper bound in MakeMatchIndicesIndexPairArray"
+   }
+  ],
+  "title": "Editorial: correct the upper bound in MakeMatchIndicesIndexPairArray",
+  "updated_at": "2026-10-31T07:52:12Z"
+ },
+ {
+  "base": "404a47d047113d36ff81cb42d2c02c890650a0dc",
+  "created_at": "2026-10-30T19:47:22Z",
+  "head": "11f06400a99a7193d5ca909c64561e9ede19ade5",
+  "login": "gibson042",
+  "number": 4059,
+  "ref": "2026-10-essential-internal-method-return-value-invariant",
+  "revs": [
+   {
+    "adate": "2026-10-30T15:45:04-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-10-30T15:45:04-04:00",
+    "hash": "11f06400a99a7193d5ca909c64561e9ede19ade5",
+    "parents": "dbf6bc165d948ae1da7bdc66ee5ff802e06dafa1",
+    "subject": "Editorial: Reword the \"Return value\" constraints for essential internal methods"
+   }
+  ],
+  "title": "Editorial: Reword the \"Return value\" constraints for essential internal methods",
+  "updated_at": "2026-10-30T20:22:26Z"
+ },
+ {
+  "base": "404a47d047113d36ff81cb42d2c02c890650a0dc",
+  "created_at": "2026-10-30T19:03:34Z",
+  "head": "0a81730b80ede77bc766653b98590abf53297501",
+  "login": "bakkot",
+  "number": 4058,
+  "ref": "fix-tofixedsizeinteger-note",
+  "revs": [
+   {
+    "adate": "2026-10-25T15:39:55+08:00",
+    "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
+    "date": "2026-10-30T12:01:56-07:00",
+    "hash": "0a81730b80ede77bc766653b98590abf53297501",
+    "parents": "404a47d047113d36ff81cb42d2c02c890650a0dc",
+    "subject": "Editorial: correct ToFixedSizeInteger note input domain"
+   }
+  ],
+  "title": "Editorial: correct ToFixedSizeInteger note input domain",
+  "updated_at": "2026-10-30T19:40:09Z"
+ },
+ {
   "base": "404a47d047113d36ff81cb42d2c02c890650a0dc",
   "created_at": "2026-10-30T18:51:34Z",
   "head": "4aa576d83f5ab6e26c93563092c68c6d2c7c8062",
