@@ -1838,11 +1838,35 @@
  {
   "base": "294dcc2a0187b6ac3c52feccad2dadf9f93662d5",
   "created_at": "2026-07-30T21:35:09Z",
-  "head": "7689c23c1b59eea4ccbb5b7a9715705d8a2d1b00",
+  "head": "996f0880198db1ecb47f216b00a56bc48f81e74e",
   "login": "gibson042",
   "number": 3935,
   "ref": "2026-07-memory-model-links",
   "revs": [
+   {
+    "adate": "2026-10-31T13:20:37-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-10-31T13:50:20-04:00",
+    "hash": "996f0880198db1ecb47f216b00a56bc48f81e74e",
+    "parents": "54782cd10f4f584a72ad44d652a8a00dc634a08c",
+    "subject": "fixup! Editorial: Simplify Tear Free Reads"
+   },
+   {
+    "adate": "2026-10-31T12:45:33-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-10-31T12:45:33-04:00",
+    "hash": "54782cd10f4f584a72ad44d652a8a00dc634a08c",
+    "parents": "48af49cd2d70899688ad030e432840e1d7988526",
+    "subject": "Editorial: Fix an incorrect alias name in reads-bytes-from"
+   },
+   {
+    "adate": "2026-10-31T11:56:47-04:00",
+    "author": "Richard Gibson",
+    "date": "2026-10-31T11:56:52-04:00",
+    "hash": "48af49cd2d70899688ad030e432840e1d7988526",
+    "parents": "7689c23c1b59eea4ccbb5b7a9715705d8a2d1b00",
+    "subject": "Editorial: Improve wording of the Host memory event note"
+   },
    {
     "adate": "2026-07-30T17:14:18-04:00",
     "author": "Richard Gibson",
@@ -1917,7 +1941,7 @@
    }
   ],
   "title": "Editorial: Improve Memory Model/SharedArrayBuffer auto-links",
-  "updated_at": "2026-08-10T19:32:51Z"
+  "updated_at": "2026-10-31T17:52:56Z"
  },
  {
   "base": "ed463bc10dbeaad0410ce67e541a77ea8e9900a5",
@@ -5356,56 +5380,48 @@
   "updated_at": "2020-07-11T17:01:36Z"
  },
  {
-  "base": "ed463bc10dbeaad0410ce67e541a77ea8e9900a5",
+  "base": "0de5cb15cb00998dd318f656da0c47dfdbf56251",
   "created_at": "2019-10-08T01:11:31Z",
-  "head": "e8296ea57ce30b0f7a7b3444c65367c75b423a54",
+  "head": "883538656381c60e3d323923cba4ac565ba078d7",
   "login": "gibson042",
   "number": 1727,
   "ref": "2019-10-main-grammar-disambiguation",
   "revs": [
    {
-    "adate": "2026-10-30T12:55:06-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-10-30T12:55:06-04:00",
-    "hash": "e8296ea57ce30b0f7a7b3444c65367c75b423a54",
-    "parents": "c1efd96ef4ab4cf5cb76056a4ea5007d2a2c68f6",
-    "subject": "fixup! Editorial: Replace post-NumericLiteral lookahead prose with formal assertions"
-   },
-   {
     "adate": "2026-08-23T16:10:33-04:00",
     "author": "Richard Gibson",
-    "date": "2026-08-23T16:17:25-04:00",
-    "hash": "c1efd96ef4ab4cf5cb76056a4ea5007d2a2c68f6",
-    "parents": "f847992c6a3eb971606cbc81ffb2fc2f954e9ab2",
+    "date": "2026-10-31T11:37:11-04:00",
+    "hash": "883538656381c60e3d323923cba4ac565ba078d7",
+    "parents": "e1f38b0e5157cfa9e8e7b79e744d76d0cfa6c3bf",
     "subject": "Editorial: Clarify that the syntactic grammar never sees consecutive line terminators"
    },
    {
     "adate": "2026-08-23T16:10:33-04:00",
     "author": "Richard Gibson",
-    "date": "2026-08-23T16:10:33-04:00",
-    "hash": "f847992c6a3eb971606cbc81ffb2fc2f954e9ab2",
-    "parents": "7d2875f1edac60e32e750d3d95e8887fd2bfa2cf",
+    "date": "2026-10-31T11:31:52-04:00",
+    "hash": "e1f38b0e5157cfa9e8e7b79e744d76d0cfa6c3bf",
+    "parents": "8d8798dbee996c6523324a06d79b1c58be3d23b5",
     "subject": "Editorial: Reword \"Lookahead Restrictions\" for applicability to all grammars"
    },
    {
     "adate": "2019-10-07T20:44:05-04:00",
     "author": "Richard Gibson",
-    "date": "2026-08-23T15:56:42-04:00",
-    "hash": "7d2875f1edac60e32e750d3d95e8887fd2bfa2cf",
-    "parents": "df8723cde08e694d9147e2661256e53a27362828",
+    "date": "2026-10-31T11:31:51-04:00",
+    "hash": "8d8798dbee996c6523324a06d79b1c58be3d23b5",
+    "parents": "b7ccff351c688bc6931e7405a1ac742f7d207d20",
     "subject": "Editorial: Replace post-NumericLiteral lookahead prose with formal assertions"
    },
    {
     "adate": "2019-10-07T20:17:59-04:00",
     "author": "Richard Gibson",
-    "date": "2026-08-23T15:56:38-04:00",
-    "hash": "df8723cde08e694d9147e2661256e53a27362828",
-    "parents": "ed463bc10dbeaad0410ce67e541a77ea8e9900a5",
+    "date": "2026-10-31T11:31:51-04:00",
+    "hash": "b7ccff351c688bc6931e7405a1ac742f7d207d20",
+    "parents": "0de5cb15cb00998dd318f656da0c47dfdbf56251",
     "subject": "Editorial: Formalize consumption of surrogate pairs in Unicode regular expressions"
    }
   ],
   "title": "Editorial: Formally disambiguate the non-Annex-B grammar",
-  "updated_at": "2026-10-30T17:07:30Z"
+  "updated_at": "2026-10-31T15:40:57Z"
  },
  {
   "base": "8c0c94eb3be152b7ae7dc0cb580f4ee9f0a9a0c2",
