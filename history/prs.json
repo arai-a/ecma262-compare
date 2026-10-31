@@ -1,5 +1,101 @@
 [
  {
+  "base": "404a47d047113d36ff81cb42d2c02c890650a0dc",
+  "created_at": "2026-10-30T18:51:34Z",
+  "head": "4aa576d83f5ab6e26c93563092c68c6d2c7c8062",
+  "login": "bakkot",
+  "number": 4057,
+  "ref": "fix-ta-subarray-note",
+  "revs": [
+   {
+    "adate": "2026-10-30T12:44:53-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2026-10-30T12:44:53-07:00",
+    "hash": "4aa576d83f5ab6e26c93563092c68c6d2c7c8062",
+    "parents": "978051f6aad5d8ab564d1dda0cf7a746b54889f8",
+    "subject": "spelling"
+   },
+   {
+    "adate": "2026-10-30T11:44:30-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2026-10-30T11:50:11-07:00",
+    "hash": "978051f6aad5d8ab564d1dda0cf7a746b54889f8",
+    "parents": "dbf6bc165d948ae1da7bdc66ee5ff802e06dafa1",
+    "subject": "Editorial: note that %TypedArray%.prototype.subarray can be customized by Symbol.species"
+   }
+  ],
+  "title": "Editorial: note that TA.prototype.subarray can be customized by Symbol.species",
+  "updated_at": "2026-10-30T19:45:02Z"
+ },
+ {
+  "base": "dbf6bc165d948ae1da7bdc66ee5ff802e06dafa1",
+  "created_at": "2026-10-30T18:38:05Z",
+  "head": "66b1844eb2507485e5fa5bb680c83efdcb8f3a27",
+  "login": "bakkot",
+  "number": 4056,
+  "ref": "fix-toexponential-note",
+  "revs": [
+   {
+    "adate": "2026-10-25T15:26:57+08:00",
+    "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
+    "date": "2026-10-30T11:26:41-07:00",
+    "hash": "66b1844eb2507485e5fa5bb680c83efdcb8f3a27",
+    "parents": "dbf6bc165d948ae1da7bdc66ee5ff802e06dafa1",
+    "subject": "Editorial: fix the distance comparison in the toExponential note"
+   }
+  ],
+  "title": "Editorial: fix the distance comparison in the toExponential note",
+  "updated_at": "2026-10-30T19:25:43Z"
+ },
+ {
+  "base": "dbf6bc165d948ae1da7bdc66ee5ff802e06dafa1",
+  "created_at": "2026-10-30T18:21:50Z",
+  "head": "ea7d6cec69ed682f67c5411ba8424d04a03a82e9",
+  "login": "bakkot",
+  "number": 4055,
+  "ref": "tweak-trailing-comma-wording",
+  "revs": [
+   {
+    "adate": "2026-10-30T12:10:53-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2026-10-30T12:10:53-07:00",
+    "hash": "ea7d6cec69ed682f67c5411ba8424d04a03a82e9",
+    "parents": "894189cc296d1e2778b4993e7862a5753e18080c",
+    "subject": "fixup! further tweak"
+   },
+   {
+    "adate": "2026-10-30T11:20:24-07:00",
+    "author": "Kevin Gibbons",
+    "date": "2026-10-30T11:20:24-07:00",
+    "hash": "894189cc296d1e2778b4993e7862a5753e18080c",
+    "parents": "dbf6bc165d948ae1da7bdc66ee5ff802e06dafa1",
+    "subject": "Editorial: tweak description of how array elisions work"
+   }
+  ],
+  "title": "Editorial: tweak description of how array elisions work",
+  "updated_at": "2026-10-30T20:33:05Z"
+ },
+ {
+  "base": "dbf6bc165d948ae1da7bdc66ee5ff802e06dafa1",
+  "created_at": "2026-10-30T18:04:05Z",
+  "head": "ed5b48f3fe2432ea8f3f1a82c7554903a5518f71",
+  "login": "bakkot",
+  "number": 4054,
+  "ref": "fix-resolve-note",
+  "revs": [
+   {
+    "adate": "2026-10-25T16:03:34+08:00",
+    "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
+    "date": "2026-10-30T11:03:22-07:00",
+    "hash": "ed5b48f3fe2432ea8f3f1a82c7554903a5518f71",
+    "parents": "dbf6bc165d948ae1da7bdc66ee5ff802e06dafa1",
+    "subject": "Editorial: clarify that PromiseResolve may return its argument"
+   }
+  ],
+  "title": "Editorial: clarify that PromiseResolve may return its argument",
+  "updated_at": "2026-10-30T19:40:35Z"
+ },
+ {
   "base": "dbf6bc165d948ae1da7bdc66ee5ff802e06dafa1",
   "created_at": "2026-10-30T18:02:07Z",
   "head": "b6c3e49f5628b11037047d8fdb1dece586a0de05",
@@ -370,50 +466,6 @@
   ],
   "title": "Editorial: introduce figures with a description",
   "updated_at": "2026-10-26T16:50:00Z"
- },
- {
-  "base": "40ce6f206b5669e69bf010a38267ae24a2843404",
-  "created_at": "2026-10-23T08:08:26Z",
-  "head": "8646484db401f4c5cfbe6535b4c979da9d23c5f2",
-  "login": "JinDX",
-  "number": 4002,
-  "ref": "main",
-  "revs": [
-   {
-    "adate": "2026-10-29T17:08:36+08:00",
-    "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
-    "date": "2026-10-29T17:08:36+08:00",
-    "hash": "8646484db401f4c5cfbe6535b4c979da9d23c5f2",
-    "parents": "3956777a80e86a480acbfa8ebd6e9764812b7d3a",
-    "subject": "Editorial: fix Atomics.waitAsync paragraph indentation"
-   },
-   {
-    "adate": "2026-10-29T17:02:30+08:00",
-    "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
-    "date": "2026-10-29T17:02:30+08:00",
-    "hash": "3956777a80e86a480acbfa8ebd6e9764812b7d3a",
-    "parents": "64fc0ce9164ab68b4b15f32af30aa452e14d1f6f",
-    "subject": "Editorial: remove trailing spaces from Atomics.waitAsync description"
-   },
-   {
-    "adate": "2026-10-29T09:18:28+08:00",
-    "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
-    "date": "2026-10-29T09:18:28+08:00",
-    "hash": "64fc0ce9164ab68b4b15f32af30aa452e14d1f6f",
-    "parents": "66e2e06a3095541d36ece9568bd491a30ff71358",
-    "subject": "Update spec.html"
-   },
-   {
-    "adate": "2026-10-23T16:06:24+08:00",
-    "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
-    "date": "2026-10-23T16:06:24+08:00",
-    "hash": "66e2e06a3095541d36ece9568bd491a30ff71358",
-    "parents": "40ce6f206b5669e69bf010a38267ae24a2843404",
-    "subject": "docs: correct Atomics.waitAsync return value description"
-   }
-  ],
-  "title": "Editorial: clarify the return value of Atomics.waitAsync",
-  "updated_at": "2026-10-29T09:09:06Z"
  },
  {
   "base": "40ce6f206b5669e69bf010a38267ae24a2843404",
@@ -3088,96 +3140,104 @@
   "updated_at": "2025-02-27T17:42:05Z"
  },
  {
-  "base": "6dcb70f914e67908abc548b3285dc0583a194910",
+  "base": "837168a438620a119970f2759756fd7b4e947719",
   "created_at": "2024-11-21T01:01:29Z",
-  "head": "d9b07d921649e39a170d1cbb4e009ed60d6ded28",
+  "head": "6c0c92d9c418de619ee31920cd619cc944dffbb5",
   "login": "guybedford",
   "number": 3492,
   "ref": "source-phase-imports",
   "revs": [
    {
+    "adate": "2026-10-30T18:43:07-07:00",
+    "author": "Guy Bedford",
+    "date": "2026-10-30T18:46:03-07:00",
+    "hash": "6c0c92d9c418de619ee31920cd619cc944dffbb5",
+    "parents": "3316ddeee7d2ce084f8ff3ad6a6827f827681984",
+    "subject": "Editorial: align with upstream alias and intrinsics table conventions"
+   },
+   {
     "adate": "2026-05-21T12:33:29-07:00",
     "author": "Guy Bedford",
-    "date": "2026-05-21T12:33:29-07:00",
-    "hash": "d9b07d921649e39a170d1cbb4e009ed60d6ded28",
-    "parents": "f7257e8acab66ec09d91a76d489d8d0a674fcd54",
+    "date": "2026-10-30T18:41:30-07:00",
+    "hash": "3316ddeee7d2ce084f8ff3ad6a6827f827681984",
+    "parents": "c7b57452e60160a3f81e5fc0b2c6a63be13ca343",
     "subject": "Editorial: nits"
    },
    {
     "adate": "2026-05-21T11:55:12-07:00",
     "author": "Guy Bedford",
-    "date": "2026-05-21T11:58:03-07:00",
-    "hash": "f7257e8acab66ec09d91a76d489d8d0a674fcd54",
-    "parents": "a6d75aead7003c2e3f595316fe6b0977aadcf420",
+    "date": "2026-10-30T18:41:30-07:00",
+    "hash": "c7b57452e60160a3f81e5fc0b2c6a63be13ca343",
+    "parents": "3800ba4c77aa15021c366496e92fd799125aba92",
     "subject": "fill in remaining lookup paths on ~source~ binding"
    },
    {
     "adate": "2026-03-25T08:57:35-07:00",
     "author": "Guy Bedford",
-    "date": "2026-05-21T11:31:01-07:00",
-    "hash": "a6d75aead7003c2e3f595316fe6b0977aadcf420",
-    "parents": "71bf7243677a3f9adfedcaca018ccf7ea636783c",
+    "date": "2026-10-30T18:41:30-07:00",
+    "hash": "3800ba4c77aa15021c366496e92fd799125aba92",
+    "parents": "f460375970243a65bc2663ebb947c49969e7abaa",
     "subject": "Editorial: address PR review feedback - BoundNames and empty td format"
    },
    {
     "adate": "2026-03-24T14:04:34-07:00",
     "author": "Guy Bedford",
-    "date": "2026-05-21T11:31:00-07:00",
-    "hash": "71bf7243677a3f9adfedcaca018ccf7ea636783c",
-    "parents": "6de8d3757e43a56d922bf916994db66fe09a9eeb",
+    "date": "2026-10-30T18:41:30-07:00",
+    "hash": "f460375970243a65bc2663ebb947c49969e7abaa",
+    "parents": "fe1f48ee9437eb7c4cbc6ab5bf7c5aac2304e81c",
     "subject": "Editorial: address PR review feedback from jmdyck"
    },
    {
     "adate": "2026-03-23T19:53:24-07:00",
     "author": "Guy Bedford",
-    "date": "2026-05-21T11:30:25-07:00",
-    "hash": "6de8d3757e43a56d922bf916994db66fe09a9eeb",
-    "parents": "d6be15305f7fb55b3a2f095f7bb08b8444b89b6e",
+    "date": "2026-10-30T18:41:30-07:00",
+    "hash": "fe1f48ee9437eb7c4cbc6ab5bf7c5aac2304e81c",
+    "parents": "0f3de71e38b98a75f907620e0f928ca0e39427dc",
     "subject": "Editorial: correct AbstractModuleSource host invariants (tc39/proposal-source-phase-imports#77)"
    },
    {
     "adate": "2026-03-23T17:51:08-07:00",
     "author": "Guy Bedford",
-    "date": "2026-05-21T11:30:24-07:00",
-    "hash": "d6be15305f7fb55b3a2f095f7bb08b8444b89b6e",
-    "parents": "7ebe0f0ef54b388010549b9aaa6c745c7633c91e",
+    "date": "2026-10-30T18:41:30-07:00",
+    "hash": "0f3de71e38b98a75f907620e0f928ca0e39427dc",
+    "parents": "f7eccd765df07a2831e5a731ecc1c7ecca255ae2",
     "subject": "Editorial: define ~source~ ExportName for re-exported source imports (tc39/proposal-source-phase-imports#76)"
    },
    {
     "adate": "2025-02-10T18:58:15-08:00",
     "author": "Guy Bedford",
-    "date": "2026-05-21T11:29:42-07:00",
-    "hash": "7ebe0f0ef54b388010549b9aaa6c745c7633c91e",
-    "parents": "a8944cc3b440ebee068f3a533cdc5a2b00fb9e06",
+    "date": "2026-10-30T18:41:02-07:00",
+    "hash": "f7eccd765df07a2831e5a731ecc1c7ecca255ae2",
+    "parents": "325a36ff8aabc05d941a77a86d97de1689728da0",
     "subject": "HostGetModuleSourceModuleRecord (tc39/proposal-source-phase-imports#70)"
    },
    {
     "adate": "2024-12-30T10:45:02-08:00",
     "author": "Guy Bedford",
-    "date": "2026-05-21T11:29:42-07:00",
-    "hash": "a8944cc3b440ebee068f3a533cdc5a2b00fb9e06",
-    "parents": "dbaa423c18b3662f5c11f26e6330a753fcf71afb",
+    "date": "2026-10-30T18:41:02-07:00",
+    "hash": "325a36ff8aabc05d941a77a86d97de1689728da0",
+    "parents": "513e0a1f55e31cfad9940a2f29fbfa97564606cf",
     "subject": "editorial: refactor GetModuleSource() to instead use [[ModuleSource]] field"
    },
    {
     "adate": "2024-11-26T13:35:18-08:00",
     "author": "Guy Bedford",
-    "date": "2026-05-21T11:29:42-07:00",
-    "hash": "dbaa423c18b3662f5c11f26e6330a753fcf71afb",
-    "parents": "2684cc37d55f79eef2189b54001f38cb00efbd91",
+    "date": "2026-10-30T18:40:53-07:00",
+    "hash": "513e0a1f55e31cfad9940a2f29fbfa97564606cf",
+    "parents": "0ba74ac39916865cefc3b139c51844325a3aa9cb",
     "subject": "use must be initialized wording over should"
    },
    {
     "adate": "2024-11-20T16:53:27-08:00",
     "author": "Guy Bedford",
-    "date": "2026-05-21T11:29:41-07:00",
-    "hash": "2684cc37d55f79eef2189b54001f38cb00efbd91",
-    "parents": "6dcb70f914e67908abc548b3285dc0583a194910",
+    "date": "2026-10-30T18:40:53-07:00",
+    "hash": "0ba74ac39916865cefc3b139c51844325a3aa9cb",
+    "parents": "837168a438620a119970f2759756fd7b4e947719",
     "subject": "Rebase Source Phase Imports Proposal"
    }
   ],
   "title": "Normative: Source Phase Imports",
-  "updated_at": "2026-05-21T19:34:26Z"
+  "updated_at": "2026-10-31T01:47:27Z"
  },
  {
   "base": "4c44bbed7c5a7df90705a58aaa08d2a6c5b9b596",
