@@ -1,11 +1,59 @@
 [
  {
+  "adate": "2026-10-30T14:09:59-07:00",
+  "author": "Michael Ficarra",
+  "date": "2026-10-30T14:09:59-07:00",
+  "hash": "837168a438620a119970f2759756fd7b4e947719",
+  "parents": "21e4774e4a541c162a4e04e97ea060f0e27d3f72",
+  "subject": "Normative: add Iterator.prototype.includes (#3969)"
+ },
+ {
   "adate": "2026-10-30T13:24:52-07:00",
   "author": "Richard Gibson",
   "date": "2026-10-30T13:24:52-07:00",
   "hash": "21e4774e4a541c162a4e04e97ea060f0e27d3f72",
   "parents": "9ef176835ca188582ecb770fd713152ee5d3d7ca",
   "subject": "Editorial: Directly relate ParseText to parsing (#3956)"
+ },
+ {
+  "adate": "2026-10-30T12:06:38-07:00",
+  "author": "Richard Gibson",
+  "date": "2026-10-30T12:06:38-07:00",
+  "hash": "5a20b926c458ec8000de56c26425952737a973a1",
+  "parents": "404a47d047113d36ff81cb42d2c02c890650a0dc",
+  "subject": "Editorial: Introduce term \"non-zero finite Number\" (#3917)"
+ },
+ {
+  "adate": "2026-10-30T10:33:14-07:00",
+  "author": "Michael Ficarra",
+  "date": "2026-10-30T10:33:14-07:00",
+  "hash": "404a47d047113d36ff81cb42d2c02c890650a0dc",
+  "parents": "dbf6bc165d948ae1da7bdc66ee5ff802e06dafa1",
+  "subject": "Editorial: remove incorrect note about [[NoTear]] (#3817)"
+ },
+ {
+  "adate": "2026-10-30T09:25:08-07:00",
+  "author": "Richard Gibson",
+  "date": "2026-10-30T09:25:08-07:00",
+  "hash": "dbf6bc165d948ae1da7bdc66ee5ff802e06dafa1",
+  "parents": "43f12a7f411654736b5cb3582e24040075925803",
+  "subject": "Editorial: Update RegExp.prototype[%Symbol.split%] text for consistency with Unicode patterns (#2975)"
+ },
+ {
+  "adate": "2026-10-30T09:25:05-07:00",
+  "author": "Richard Gibson",
+  "date": "2026-10-30T09:25:05-07:00",
+  "hash": "43f12a7f411654736b5cb3582e24040075925803",
+  "parents": "cb866719b37204314ef36cbc0fc2d219b083ecbf",
+  "subject": "Editorial: Improve formatting consistency of JavaScript code in RegExp.prototype[%Symbol.split%] (#2975)"
+ },
+ {
+  "adate": "2026-10-30T09:25:02-07:00",
+  "author": "Richard Gibson",
+  "date": "2026-10-30T09:25:02-07:00",
+  "hash": "cb866719b37204314ef36cbc0fc2d219b083ecbf",
+  "parents": "42b6e6332242630065acd5f76cfde6df1827cbfe",
+  "subject": "Editorial: Improve the explanation of split methods (#2975)"
  },
  {
   "adate": "2026-10-29T22:10:23-07:00",

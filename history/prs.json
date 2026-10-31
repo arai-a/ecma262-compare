@@ -1,5 +1,85 @@
 [
  {
+  "base": "dbf6bc165d948ae1da7bdc66ee5ff802e06dafa1",
+  "created_at": "2026-10-30T18:02:07Z",
+  "head": "b6c3e49f5628b11037047d8fdb1dece586a0de05",
+  "login": "bakkot",
+  "number": 4053,
+  "ref": "fix-decodeuri-note",
+  "revs": [
+   {
+    "adate": "2026-10-25T16:01:07+08:00",
+    "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
+    "date": "2026-10-30T10:52:33-07:00",
+    "hash": "b6c3e49f5628b11037047d8fdb1dece586a0de05",
+    "parents": "42b6e6332242630065acd5f76cfde6df1827cbfe",
+    "subject": "Editorial: describe the decodeURI preserve set accurately"
+   }
+  ],
+  "title": "Editorial: describe the decodeURI preserve set accurately",
+  "updated_at": "2026-10-30T19:23:57Z"
+ },
+ {
+  "base": "dbf6bc165d948ae1da7bdc66ee5ff802e06dafa1",
+  "created_at": "2026-10-30T17:38:59Z",
+  "head": "bbdd5fa212d555192e8bae9f918ee4fe89231f69",
+  "login": "bakkot",
+  "number": 4052,
+  "ref": "fix-bind-note-alias",
+  "revs": [
+   {
+    "adate": "2026-10-25T15:59:52+08:00",
+    "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
+    "date": "2026-10-30T10:35:13-07:00",
+    "hash": "bbdd5fa212d555192e8bae9f918ee4fe89231f69",
+    "parents": "42b6e6332242630065acd5f76cfde6df1827cbfe",
+    "subject": "Editorial: fix bound function name in bind note"
+   }
+  ],
+  "title": "Editorial: fix bound function name in bind note",
+  "updated_at": "2026-10-30T18:24:22Z"
+ },
+ {
+  "base": "dbf6bc165d948ae1da7bdc66ee5ff802e06dafa1",
+  "created_at": "2026-10-30T17:33:26Z",
+  "head": "44eeffcb7dd9652992ef9f755d1dc8344b07e696",
+  "login": "bakkot",
+  "number": 4051,
+  "ref": "fix-quantifiableassertion-rule",
+  "revs": [
+   {
+    "adate": "2026-10-25T15:58:28+08:00",
+    "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
+    "date": "2026-10-30T10:29:54-07:00",
+    "hash": "44eeffcb7dd9652992ef9f755d1dc8344b07e696",
+    "parents": "42b6e6332242630065acd5f76cfde6df1827cbfe",
+    "subject": "editorial: fix Annex B CompileAssertion substitution names"
+   }
+  ],
+  "title": "Editorial: fix Annex B CompileAssertion substitution names",
+  "updated_at": "2026-10-30T18:14:02Z"
+ },
+ {
+  "base": "42b6e6332242630065acd5f76cfde6df1827cbfe",
+  "created_at": "2026-10-30T17:28:39Z",
+  "head": "409c11f2c971de9fbf30c043e891e2a8d0b1381b",
+  "login": "bakkot",
+  "number": 4050,
+  "ref": "fix-register-field-ref",
+  "revs": [
+   {
+    "adate": "2026-10-25T15:57:02+08:00",
+    "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
+    "date": "2026-10-30T10:24:48-07:00",
+    "hash": "409c11f2c971de9fbf30c043e891e2a8d0b1381b",
+    "parents": "42b6e6332242630065acd5f76cfde6df1827cbfe",
+    "subject": "Fix the target field name in the FinalizationRegistry register note"
+   }
+  ],
+  "title": "Fix the target field name in the FinalizationRegistry register note",
+  "updated_at": "2026-10-30T17:53:23Z"
+ },
+ {
   "base": "42b6e6332242630065acd5f76cfde6df1827cbfe",
   "created_at": "2026-10-30T17:22:41Z",
   "head": "572166061cca3b3466a1ef50f201ad637231e04b",
@@ -660,32 +740,24 @@
   "updated_at": "2026-09-16T17:42:45Z"
  },
  {
-  "base": "b7865f0eed2021720f84d561289401bc414874d0",
+  "base": "837168a438620a119970f2759756fd7b4e947719",
   "created_at": "2026-09-09T21:34:26Z",
-  "head": "127ed0fe8241b953a8b7fd4e08c49de96edd59cf",
+  "head": "aed065e1e5b4899e5c06363b88b11737e73a1d59",
   "login": "bakkot",
   "number": 3972,
   "ref": "dataview-throwyness",
   "revs": [
    {
-    "adate": "2026-10-29T09:18:22-07:00",
+    "adate": "2026-10-30T14:32:51-07:00",
     "author": "Kevin Gibbons",
-    "date": "2026-10-29T09:18:22-07:00",
-    "hash": "127ed0fe8241b953a8b7fd4e08c49de96edd59cf",
-    "parents": "dc0506b90a810e6b26f5d732ab69eade8fa504d9",
-    "subject": "fixup! Annex F note"
-   },
-   {
-    "adate": "2026-09-09T14:25:15-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2026-09-09T14:25:15-07:00",
-    "hash": "dc0506b90a810e6b26f5d732ab69eade8fa504d9",
-    "parents": "b7865f0eed2021720f84d561289401bc414874d0",
-    "subject": "Normative: make DataView.prototype.{byteLength,byteOffset} not throw when backed by detached buffer"
+    "date": "2026-10-30T14:32:51-07:00",
+    "hash": "aed065e1e5b4899e5c06363b88b11737e73a1d59",
+    "parents": "837168a438620a119970f2759756fd7b4e947719",
+    "subject": "Normative: make DataView.prototype.{byteLength,byteOffset} not throw when backed by detached buffer (#3972)"
    }
   ],
   "title": "Normative: make DataView.prototype.{byteLength,byteOffset} not throw when backed by detached buffer",
-  "updated_at": "2026-10-29T16:38:37Z"
+  "updated_at": "2026-10-30T21:33:02Z"
  },
  {
   "base": "e28783d5fc9dc12b3de905961e2c71410b38a202",
@@ -706,26 +778,6 @@
   ],
   "title": "Editorial: add grouping parens to chained infix ops where order matters",
   "updated_at": "2026-09-03T20:18:59Z"
- },
- {
-  "base": "21e4774e4a541c162a4e04e97ea060f0e27d3f72",
-  "created_at": "2026-09-02T17:57:39Z",
-  "head": "837168a438620a119970f2759756fd7b4e947719",
-  "login": "tc39",
-  "number": 3969,
-  "ref": "iterator-includes",
-  "revs": [
-   {
-    "adate": "2026-10-30T14:09:59-07:00",
-    "author": "Michael Ficarra",
-    "date": "2026-10-30T14:09:59-07:00",
-    "hash": "837168a438620a119970f2759756fd7b4e947719",
-    "parents": "21e4774e4a541c162a4e04e97ea060f0e27d3f72",
-    "subject": "Normative: add Iterator.prototype.includes (#3969)"
-   }
-  ],
-  "title": "Normative: add Iterator.prototype.includes",
-  "updated_at": "2026-10-30T21:10:11Z"
  },
  {
   "base": "dcf59856a8184792a9e42f0ffb7dc064094a5dcc",
