@@ -1,5 +1,13 @@
 [
  {
+  "adate": "2026-10-30T22:44:20-07:00",
+  "author": "Kevin Gibbons",
+  "date": "2026-10-30T22:44:20-07:00",
+  "hash": "5593a63d40bdb78761ae7da50ede3c2072c96bf6",
+  "parents": "0de5cb15cb00998dd318f656da0c47dfdbf56251",
+  "subject": "Normative: make DataView.prototype.{byteLength,byteOffset} not throw when backed by detached buffer (#3972)"
+ },
+ {
   "adate": "2026-10-30T17:01:25-07:00",
   "author": "Jordan Harband",
   "date": "2026-10-30T17:01:25-07:00",
