@@ -612,26 +612,6 @@
   "updated_at": "2026-10-25T16:41:02Z"
  },
  {
-  "base": "40ce6f206b5669e69bf010a38267ae24a2843404",
-  "created_at": "2026-10-18T14:04:31Z",
-  "head": "7893a392e6e0001e120278ca248b65d8fe1ecc1c",
-  "login": "nicolo-ribaudo",
-  "number": 3998,
-  "ref": "perform-eval-boolean",
-  "revs": [
-   {
-    "adate": "2026-10-18T16:01:21+02:00",
-    "author": "Nicol\u00f2 Ribaudo",
-    "date": "2026-10-26T17:45:21+01:00",
-    "hash": "7893a392e6e0001e120278ca248b65d8fe1ecc1c",
-    "parents": "40ce6f206b5669e69bf010a38267ae24a2843404",
-    "subject": "Layering: use an enum for the compilation type"
-   }
-  ],
-  "title": "Layering: use an enum for the compilation type",
-  "updated_at": "2026-10-26T16:45:36Z"
- },
- {
   "base": "42b6e6332242630065acd5f76cfde6df1827cbfe",
   "created_at": "2026-10-17T22:40:03Z",
   "head": "119dd87979814aa31ff859f58ac0e26e50697166",
@@ -710,26 +690,6 @@
   ],
   "title": "Editorial: relax/restrict some Date AO types appropriately",
   "updated_at": "2026-10-23T16:26:10Z"
- },
- {
-  "base": "4d8fed0daae61bad78b5f27ae0c57bc4b3e6e99b",
-  "created_at": "2026-10-16T19:13:38Z",
-  "head": "ddf5b5c9b9760555a7614056213d062733ed3cb6",
-  "login": "gibson042",
-  "number": 3993,
-  "ref": "2026-10-initializetypedarrayfromelements",
-  "revs": [
-   {
-    "adate": "2026-11-01T21:07:31-06:00",
-    "author": "Richard Gibson",
-    "date": "2026-11-01T21:07:31-06:00",
-    "hash": "ddf5b5c9b9760555a7614056213d062733ed3cb6",
-    "parents": "4d8fed0daae61bad78b5f27ae0c57bc4b3e6e99b",
-    "subject": "Editorial: Consolidate typed array initialization from an iterable or array-like (#3993)"
-   }
-  ],
-  "title": "Editorial: Consolidate typed array initialization from an iterable or array-like",
-  "updated_at": "2026-11-02T03:08:04Z"
  },
  {
   "base": "5345883164f463e87f8b40aca4956157ecba8783",
@@ -3672,32 +3632,24 @@
   "updated_at": "2024-03-26T14:27:53Z"
  },
  {
-  "base": "42b6e6332242630065acd5f76cfde6df1827cbfe",
+  "base": "4ad14cf8ec06c18e3ee8b20b0fa0683424b8b29a",
   "created_at": "2024-03-07T15:36:34Z",
-  "head": "163c5cc6efbc96f824f37a9a927c5a2762c0ca0c",
+  "head": "2af59ffccea1a8898243b0a8340326257c90724f",
   "login": "lukewarlow",
   "number": 3294,
   "ref": "codelike-hostensurecancompilestrings",
   "revs": [
    {
-    "adate": "2026-04-30T12:27:16+01:00",
+    "adate": "2026-11-01T22:14:54-06:00",
     "author": "Luke Warlow",
-    "date": "2026-10-30T17:26:35+01:00",
-    "hash": "163c5cc6efbc96f824f37a9a927c5a2762c0ca0c",
-    "parents": "7893a392e6e0001e120278ca248b65d8fe1ecc1c",
-    "subject": "Normative: Allow codelike object evaluation."
-   },
-   {
-    "adate": "2026-10-18T16:01:21+02:00",
-    "author": "Nicol\u00f2 Ribaudo",
-    "date": "2026-10-26T17:45:21+01:00",
-    "hash": "7893a392e6e0001e120278ca248b65d8fe1ecc1c",
-    "parents": "40ce6f206b5669e69bf010a38267ae24a2843404",
-    "subject": "Layering: use an enum for the compilation type"
+    "date": "2026-11-01T22:14:54-06:00",
+    "hash": "2af59ffccea1a8898243b0a8340326257c90724f",
+    "parents": "4ad14cf8ec06c18e3ee8b20b0fa0683424b8b29a",
+    "subject": "Normative: Integrate \"dynamic code brand checks\" proposal (#3294)"
    }
   ],
   "title": "Normative: Integrate \"dynamic code brand checks\" proposal",
-  "updated_at": "2026-10-30T16:31:42Z"
+  "updated_at": "2026-11-02T04:15:08Z"
  },
  {
   "base": "6d7aa1b57f4b3390000d939fdc1920046b81d938",
