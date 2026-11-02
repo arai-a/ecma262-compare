@@ -82,11 +82,19 @@
  {
   "base": "404a47d047113d36ff81cb42d2c02c890650a0dc",
   "created_at": "2026-10-30T19:03:34Z",
-  "head": "0a81730b80ede77bc766653b98590abf53297501",
+  "head": "e69c413ae279618c85fc6844efb23aa9dc1a9906",
   "login": "bakkot",
   "number": 4058,
   "ref": "fix-tofixedsizeinteger-note",
   "revs": [
+   {
+    "adate": "2026-11-02T09:52:46-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2026-11-02T09:52:46-08:00",
+    "hash": "e69c413ae279618c85fc6844efb23aa9dc1a9906",
+    "parents": "0a81730b80ede77bc766653b98590abf53297501",
+    "subject": "fixup! apply suggestion"
+   },
    {
     "adate": "2026-10-25T15:39:55+08:00",
     "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
@@ -97,7 +105,7 @@
    }
   ],
   "title": "Editorial: correct ToFixedSizeInteger note input domain",
-  "updated_at": "2026-10-30T19:40:09Z"
+  "updated_at": "2026-11-02T18:01:48Z"
  },
  {
   "base": "404a47d047113d36ff81cb42d2c02c890650a0dc",
@@ -568,48 +576,24 @@
   "updated_at": "2026-10-26T16:50:00Z"
  },
  {
-  "base": "40ce6f206b5669e69bf010a38267ae24a2843404",
+  "base": "2af59ffccea1a8898243b0a8340326257c90724f",
   "created_at": "2026-10-22T21:58:01Z",
-  "head": "0dc89b88be75b5181df5e514170b58f651f81f9c",
+  "head": "5c7d6153c65418004db20a16905714e00fb09279",
   "login": "tc39",
   "number": 4000,
   "ref": "eliminate-t-and-d",
   "revs": [
    {
-    "adate": "2026-10-25T10:38:46-06:00",
+    "adate": "2026-11-02T11:34:45-06:00",
     "author": "Michael Ficarra",
-    "date": "2026-10-25T10:40:59-06:00",
-    "hash": "0dc89b88be75b5181df5e514170b58f651f81f9c",
-    "parents": "743abd2709c8b8e547000bee0da7b306b32e0997",
-    "subject": "eliminate a parenthetical that is a full sentence"
-   },
-   {
-    "adate": "2026-10-23T09:46:19-06:00",
-    "author": "Michael Ficarra",
-    "date": "2026-10-25T10:40:59-06:00",
-    "hash": "743abd2709c8b8e547000bee0da7b306b32e0997",
-    "parents": "b4cccd8eada71d3bdf2b99777b01fb01bff91430",
-    "subject": "built-in does not mean specified"
-   },
-   {
-    "adate": "2026-10-23T09:45:31-06:00",
-    "author": "Michael Ficarra",
-    "date": "2026-10-25T10:40:59-06:00",
-    "hash": "b4cccd8eada71d3bdf2b99777b01fb01bff91430",
-    "parents": "16eeec1ef26bde76617509a01e9f2ea1c44ccf86",
-    "subject": "key value -> key"
-   },
-   {
-    "adate": "2026-10-22T14:50:37-06:00",
-    "author": "Michael Ficarra",
-    "date": "2026-10-25T10:40:59-06:00",
-    "hash": "16eeec1ef26bde76617509a01e9f2ea1c44ccf86",
-    "parents": "40ce6f206b5669e69bf010a38267ae24a2843404",
-    "subject": "Editorial: disband Terms and Definitions section"
+    "date": "2026-11-02T11:34:45-06:00",
+    "hash": "5c7d6153c65418004db20a16905714e00fb09279",
+    "parents": "2af59ffccea1a8898243b0a8340326257c90724f",
+    "subject": "Editorial: disband Terms and Definitions section (#4000)"
    }
   ],
   "title": "Editorial: disband Terms and Definitions section",
-  "updated_at": "2026-10-25T16:41:02Z"
+  "updated_at": "2026-11-02T17:34:59Z"
  },
  {
   "base": "42b6e6332242630065acd5f76cfde6df1827cbfe",
@@ -3632,26 +3616,6 @@
   "updated_at": "2024-03-26T14:27:53Z"
  },
  {
-  "base": "4ad14cf8ec06c18e3ee8b20b0fa0683424b8b29a",
-  "created_at": "2024-03-07T15:36:34Z",
-  "head": "2af59ffccea1a8898243b0a8340326257c90724f",
-  "login": "lukewarlow",
-  "number": 3294,
-  "ref": "codelike-hostensurecancompilestrings",
-  "revs": [
-   {
-    "adate": "2026-11-01T22:14:54-06:00",
-    "author": "Luke Warlow",
-    "date": "2026-11-01T22:14:54-06:00",
-    "hash": "2af59ffccea1a8898243b0a8340326257c90724f",
-    "parents": "4ad14cf8ec06c18e3ee8b20b0fa0683424b8b29a",
-    "subject": "Normative: Integrate \"dynamic code brand checks\" proposal (#3294)"
-   }
-  ],
-  "title": "Normative: Integrate \"dynamic code brand checks\" proposal",
-  "updated_at": "2026-11-02T04:15:08Z"
- },
- {
   "base": "6d7aa1b57f4b3390000d939fdc1920046b81d938",
   "created_at": "2024-01-31T16:52:55Z",
   "head": "2647c17b348f9e14e82f778b216443c5a41e60cb",
@@ -5502,26 +5466,6 @@
   ],
   "title": "Layering: Add GetRequestedModules() to Module Record",
   "updated_at": "2020-03-27T07:01:35Z"
- },
- {
-  "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
-  "created_at": "2019-04-03T16:22:52Z",
-  "head": "e344423989fe2599f5ffc86065ac12c28176170e",
-  "login": "tc39",
-  "number": 1498,
-  "ref": "pr-needs-consensus-hostensurecancompilestrings-passthru",
-  "revs": [
-   {
-    "adate": "2019-04-03T12:12:06-04:00",
-    "author": "Mike Samuel",
-    "date": "2019-04-03T12:12:06-04:00",
-    "hash": "e344423989fe2599f5ffc86065ac12c28176170e",
-    "parents": "a09fc232c137800dbf51b6204f37fdede4ba1646",
-    "subject": "Provide HostEnsureCanCompileString implementors more context"
-   }
-  ],
-  "title": "Provide HostEnsureCanCompileString implementors more context",
-  "updated_at": "2020-06-26T11:00:25Z"
  },
  {
   "base": "cf7aa9f1bcd6247d4ba352b4a25f69649eb21a99",
