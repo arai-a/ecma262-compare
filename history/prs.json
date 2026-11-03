@@ -532,104 +532,24 @@
   "updated_at": "2026-10-26T17:05:37Z"
  },
  {
-  "base": "40ce6f206b5669e69bf010a38267ae24a2843404",
+  "base": "7628258064c18d831a7f74ecf3a997bd6345d0bb",
   "created_at": "2026-10-25T16:24:32Z",
-  "head": "988ea9c706cbdc49bb04ebcaa3023300c6a4a134",
+  "head": "d785c94bb7254ffc8e19bd34875377a0dd45ab42",
   "login": "linusg",
   "number": 4034,
   "ref": "instantiatefunctiondeclaration",
   "revs": [
    {
-    "adate": "2026-10-25T16:17:07Z",
+    "adate": "2026-11-03T10:29:30-06:00",
     "author": "Linus Groh",
-    "date": "2026-10-25T23:24:13Z",
-    "hash": "988ea9c706cbdc49bb04ebcaa3023300c6a4a134",
-    "parents": "40ce6f206b5669e69bf010a38267ae24a2843404",
-    "subject": "Editorial: Rename InstantiateFunction{Object => Declaration}"
+    "date": "2026-11-03T10:29:30-06:00",
+    "hash": "d785c94bb7254ffc8e19bd34875377a0dd45ab42",
+    "parents": "7628258064c18d831a7f74ecf3a997bd6345d0bb",
+    "subject": "Editorial: Rename InstantiateFunction{Object => Declaration} (#4034)"
    }
   ],
   "title": "Editorial: Rename InstantiateFunction{Object => Declaration}",
-  "updated_at": "2026-10-25T23:25:22Z"
- },
- {
-  "base": "40ce6f206b5669e69bf010a38267ae24a2843404",
-  "created_at": "2026-10-25T15:09:41Z",
-  "head": "d74ef9d058b0614d260b5b549a9fe152257fc1ae",
-  "login": "tc39",
-  "number": 4033,
-  "ref": "nicolo-ribaudo-patch-1",
-  "revs": [
-   {
-    "adate": "2026-10-25T16:09:35+01:00",
-    "author": "Nicol\u00f2 Ribaudo",
-    "date": "2026-10-25T16:09:35+01:00",
-    "hash": "d74ef9d058b0614d260b5b549a9fe152257fc1ae",
-    "parents": "40ce6f206b5669e69bf010a38267ae24a2843404",
-    "subject": "Meta: link to AI policy at the beginning of CONTRIBUTING.md"
-   }
-  ],
-  "title": "Meta: link to AI policy at the beginning of CONTRIBUTING.md",
-  "updated_at": "2026-10-25T16:22:41Z"
- },
- {
-  "base": "40ce6f206b5669e69bf010a38267ae24a2843404",
-  "created_at": "2026-10-23T15:01:13Z",
-  "head": "ee3382e9ddcbe9a8e94835a41ecc59b4795ee881",
-  "login": "linusg",
-  "number": 4004,
-  "ref": "erm-tweak",
-  "revs": [
-   {
-    "adate": "2026-10-23T15:59:38+01:00",
-    "author": "Linus Groh",
-    "date": "2026-10-23T15:59:38+01:00",
-    "hash": "ee3382e9ddcbe9a8e94835a41ecc59b4795ee881",
-    "parents": "40ce6f206b5669e69bf010a38267ae24a2843404",
-    "subject": "Editorial: Use OrdinaryObjectCreate in {Async,}DisposableStack.prototype.move()"
-   }
-  ],
-  "title": "Editorial: Use OrdinaryObjectCreate in {Async,}DisposableStack.prototype.move()",
-  "updated_at": "2026-10-23T16:04:15Z"
- },
- {
-  "base": "40ce6f206b5669e69bf010a38267ae24a2843404",
-  "created_at": "2026-10-23T09:54:13Z",
-  "head": "9303cba9b5755a88713f8ba30a812725e0e40ed1",
-  "login": "nicolo-ribaudo",
-  "number": 4003,
-  "ref": "figure-intros",
-  "revs": [
-   {
-    "adate": "2026-10-26T17:38:24+01:00",
-    "author": "Nicol\u00f2 Ribaudo",
-    "date": "2026-10-26T17:38:24+01:00",
-    "hash": "9303cba9b5755a88713f8ba30a812725e0e40ed1",
-    "parents": "4feb0272b799ea795c5eadee9b482aea0c10ce45",
-    "subject": "Editorial: introduce figures with a description"
-   }
-  ],
-  "title": "Editorial: introduce figures with a description",
-  "updated_at": "2026-10-26T16:50:00Z"
- },
- {
-  "base": "2af59ffccea1a8898243b0a8340326257c90724f",
-  "created_at": "2026-10-22T21:58:01Z",
-  "head": "5c7d6153c65418004db20a16905714e00fb09279",
-  "login": "tc39",
-  "number": 4000,
-  "ref": "eliminate-t-and-d",
-  "revs": [
-   {
-    "adate": "2026-11-02T11:34:45-06:00",
-    "author": "Michael Ficarra",
-    "date": "2026-11-02T11:34:45-06:00",
-    "hash": "5c7d6153c65418004db20a16905714e00fb09279",
-    "parents": "2af59ffccea1a8898243b0a8340326257c90724f",
-    "subject": "Editorial: disband Terms and Definitions section (#4000)"
-   }
-  ],
-  "title": "Editorial: disband Terms and Definitions section",
-  "updated_at": "2026-11-02T17:34:59Z"
+  "updated_at": "2026-11-03T16:29:41Z"
  },
  {
   "base": "42b6e6332242630065acd5f76cfde6df1827cbfe",
@@ -5314,11 +5234,19 @@
  {
   "base": "0de5cb15cb00998dd318f656da0c47dfdbf56251",
   "created_at": "2019-10-08T01:11:31Z",
-  "head": "883538656381c60e3d323923cba4ac565ba078d7",
+  "head": "7d8bdec75850e2126b743e1221dc9ea18f061d42",
   "login": "gibson042",
   "number": 1727,
   "ref": "2019-10-main-grammar-disambiguation",
   "revs": [
+   {
+    "adate": "2026-11-03T10:49:09-05:00",
+    "author": "Richard Gibson",
+    "date": "2026-11-03T10:49:09-05:00",
+    "hash": "7d8bdec75850e2126b743e1221dc9ea18f061d42",
+    "parents": "883538656381c60e3d323923cba4ac565ba078d7",
+    "subject": "fixup! Editorial: Replace post-NumericLiteral lookahead prose with formal assertions"
+   },
    {
     "adate": "2026-08-23T16:10:33-04:00",
     "author": "Richard Gibson",
@@ -5353,7 +5281,7 @@
    }
   ],
   "title": "Editorial: Formally disambiguate the non-Annex-B grammar",
-  "updated_at": "2026-10-31T15:40:57Z"
+  "updated_at": "2026-11-03T15:49:24Z"
  },
  {
   "base": "8c0c94eb3be152b7ae7dc0cb580f4ee9f0a9a0c2",
