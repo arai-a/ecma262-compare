@@ -512,52 +512,24 @@
   "updated_at": "2026-10-30T01:29:12Z"
  },
  {
-  "base": "0d4945de6a11bef38e6b2c47c29c1ecb373c09d7",
+  "base": "0f151104bae3b087a06b6c7acf5ab354fc1791ca",
   "created_at": "2026-10-29T23:03:40Z",
-  "head": "37e2785e25d1013033168722c3116fd6c894b725",
+  "head": "83534233facc27cbf3308754e363a5ac272563ce",
   "login": "bakkot",
   "number": 4043,
   "ref": "ta-sort-length-note",
   "revs": [
    {
-    "adate": "2026-10-30T11:08:27-07:00",
+    "adate": "2026-11-06T10:20:01-06:00",
     "author": "Kevin Gibbons",
-    "date": "2026-10-30T11:08:27-07:00",
-    "hash": "37e2785e25d1013033168722c3116fd6c894b725",
-    "parents": "bb56c28fc620d33008bd0cb59510c9a47de2b2d2",
-    "subject": "fixup! during->by"
-   },
-   {
-    "adate": "2026-10-29T15:58:02-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2026-10-29T15:58:02-07:00",
-    "hash": "bb56c28fc620d33008bd0cb59510c9a47de2b2d2",
-    "parents": "0d4945de6a11bef38e6b2c47c29c1ecb373c09d7",
-    "subject": "Editorial: qualify claim about TA length changing during sort"
+    "date": "2026-11-06T10:20:01-06:00",
+    "hash": "83534233facc27cbf3308754e363a5ac272563ce",
+    "parents": "0f151104bae3b087a06b6c7acf5ab354fc1791ca",
+    "subject": "Editorial: qualify claim about TA length changing during sort (#4043)"
    }
   ],
   "title": "Editorial: qualify claim about TA length changing during sort",
-  "updated_at": "2026-10-30T18:09:06Z"
- },
- {
-  "base": "b720ccd9d69a1f7c563fbdebd501f0e9765e34d3",
-  "created_at": "2026-10-29T22:48:45Z",
-  "head": "0f151104bae3b087a06b6c7acf5ab354fc1791ca",
-  "login": "bakkot",
-  "number": 4042,
-  "ref": "global-getbindingvalue-note",
-  "revs": [
-   {
-    "adate": "2026-11-05T18:03:45-06:00",
-    "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
-    "date": "2026-11-05T18:03:45-06:00",
-    "hash": "0f151104bae3b087a06b6c7acf5ab354fc1791ca",
-    "parents": "b720ccd9d69a1f7c563fbdebd501f0e9765e34d3",
-    "subject": "Editorial: remove writability from GetBindingValue description (#4042)"
-   }
-  ],
-  "title": "Editorial: Don't mention writability in the Global Environment Record GetBindingValue description",
-  "updated_at": "2026-11-06T00:03:57Z"
+  "updated_at": "2026-11-06T16:20:11Z"
  },
  {
   "base": "42b6e6332242630065acd5f76cfde6df1827cbfe",
