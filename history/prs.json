@@ -540,72 +540,24 @@
   "updated_at": "2026-10-30T18:09:06Z"
  },
  {
-  "base": "0d4945de6a11bef38e6b2c47c29c1ecb373c09d7",
+  "base": "b720ccd9d69a1f7c563fbdebd501f0e9765e34d3",
   "created_at": "2026-10-29T22:48:45Z",
-  "head": "b76a46d6123211763384f5c279a8f1c4a3f89796",
+  "head": "0f151104bae3b087a06b6c7acf5ab354fc1791ca",
   "login": "bakkot",
   "number": 4042,
   "ref": "global-getbindingvalue-note",
   "revs": [
    {
-    "adate": "2026-10-25T15:33:35+08:00",
+    "adate": "2026-11-05T18:03:45-06:00",
     "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
-    "date": "2026-10-29T15:45:12-07:00",
-    "hash": "b76a46d6123211763384f5c279a8f1c4a3f89796",
-    "parents": "0d4945de6a11bef38e6b2c47c29c1ecb373c09d7",
-    "subject": "editorial: remove writability from GetBindingValue description"
+    "date": "2026-11-05T18:03:45-06:00",
+    "hash": "0f151104bae3b087a06b6c7acf5ab354fc1791ca",
+    "parents": "b720ccd9d69a1f7c563fbdebd501f0e9765e34d3",
+    "subject": "Editorial: remove writability from GetBindingValue description (#4042)"
    }
   ],
   "title": "Editorial: Don't mention writability in the Global Environment Record GetBindingValue description",
-  "updated_at": "2026-10-30T01:51:06Z"
- },
- {
-  "base": "40ce6f206b5669e69bf010a38267ae24a2843404",
-  "created_at": "2026-10-26T12:04:05Z",
-  "head": "f8046f5ba271e40337d7d8e95e1e44022e50c028",
-  "login": "linusg",
-  "number": 4036,
-  "ref": "missing-intro",
-  "revs": [
-   {
-    "adate": "2026-10-26T12:03:05Z",
-    "author": "Linus Groh",
-    "date": "2026-10-26T16:07:49Z",
-    "hash": "f8046f5ba271e40337d7d8e95e1e44022e50c028",
-    "parents": "40ce6f206b5669e69bf010a38267ae24a2843404",
-    "subject": "Editorial: Add missing features to ES2018/ES2019 introduction"
-   }
-  ],
-  "title": "Editorial: Add missing features to ES2018/ES2019 introduction",
-  "updated_at": "2026-10-26T16:08:19Z"
- },
- {
-  "base": "d785c94bb7254ffc8e19bd34875377a0dd45ab42",
-  "created_at": "2026-10-26T11:50:28Z",
-  "head": "7a147726096553b2b7a8e6ec9058691aeab5e2a3",
-  "login": "linusg",
-  "number": 4035,
-  "ref": "globalenv-slots",
-  "revs": [
-   {
-    "adate": "2026-11-05T15:46:21-06:00",
-    "author": "Linus Groh",
-    "date": "2026-11-05T15:46:21-06:00",
-    "hash": "7a147726096553b2b7a8e6ec9058691aeab5e2a3",
-    "parents": "d785c94bb7254ffc8e19bd34875377a0dd45ab42",
-    "subject": "Editorial: Remove pre-Record Global Environment Record wording (#4035)"
-   },
-   {
-    "adate": "2026-11-03T10:29:30-06:00",
-    "author": "Linus Groh",
-    "date": "2026-11-03T10:29:30-06:00",
-    "hash": "d785c94bb7254ffc8e19bd34875377a0dd45ab42",
-    "parents": "7628258064c18d831a7f74ecf3a997bd6345d0bb",
-    "subject": "Editorial: Rename InstantiateFunction{Object => Declaration} (#4034)"
-   }
-  ],
-  "title": "Editorial: Remove pre-Record Global Environment Record wording",
-  "updated_at": "2026-11-05T21:46:32Z"
+  "updated_at": "2026-11-06T00:03:57Z"
  },
  {
   "base": "42b6e6332242630065acd5f76cfde6df1827cbfe",
