@@ -144,13 +144,21 @@
   "updated_at": "2026-10-31T12:20:07Z"
  },
  {
-  "base": "0de5cb15cb00998dd318f656da0c47dfdbf56251",
+  "base": "83534233facc27cbf3308754e363a5ac272563ce",
   "created_at": "2026-10-31T07:52:12Z",
-  "head": "4a4a9f97ad5706a2d5974eab71f912b591719eff",
+  "head": "84c0e2e5e6f1ca5843386041a543984020a57605",
   "login": "JinDX",
   "number": 4061,
   "ref": "editorial/regexp-match-indices-upper-bound",
   "revs": [
+   {
+    "adate": "2026-11-07T15:38:17+08:00",
+    "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
+    "date": "2026-11-07T15:38:17+08:00",
+    "hash": "84c0e2e5e6f1ca5843386041a543984020a57605",
+    "parents": "4a4a9f97ad5706a2d5974eab71f912b591719eff 83534233facc27cbf3308754e363a5ac272563ce",
+    "subject": "Merge branch 'main' into editorial/regexp-match-indices-upper-bound"
+   },
    {
     "adate": "2026-10-31T15:49:27+08:00",
     "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
@@ -161,7 +169,7 @@
    }
   ],
   "title": "Editorial: correct the upper bound in MakeMatchIndicesIndexPairArray",
-  "updated_at": "2026-10-31T07:52:12Z"
+  "updated_at": "2026-11-07T07:38:20Z"
  },
  {
   "base": "404a47d047113d36ff81cb42d2c02c890650a0dc",
