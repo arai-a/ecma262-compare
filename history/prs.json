@@ -296,124 +296,24 @@
   "updated_at": "2026-10-30T20:33:05Z"
  },
  {
-  "base": "dbf6bc165d948ae1da7bdc66ee5ff802e06dafa1",
+  "base": "97144493ba47e7b6029d933f3a05e391003f8614",
   "created_at": "2026-10-30T18:04:05Z",
-  "head": "ed5b48f3fe2432ea8f3f1a82c7554903a5518f71",
+  "head": "699d19bec8f44a035af8797e5664da491a4e867e",
   "login": "bakkot",
   "number": 4054,
   "ref": "fix-resolve-note",
   "revs": [
    {
-    "adate": "2026-10-25T16:03:34+08:00",
+    "adate": "2026-11-07T11:40:54-08:00",
     "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
-    "date": "2026-10-30T11:03:22-07:00",
-    "hash": "ed5b48f3fe2432ea8f3f1a82c7554903a5518f71",
-    "parents": "dbf6bc165d948ae1da7bdc66ee5ff802e06dafa1",
-    "subject": "Editorial: clarify that PromiseResolve may return its argument"
+    "date": "2026-11-07T11:40:54-08:00",
+    "hash": "699d19bec8f44a035af8797e5664da491a4e867e",
+    "parents": "97144493ba47e7b6029d933f3a05e391003f8614",
+    "subject": "Editorial: clarify that PromiseResolve may return its argument (#4054)"
    }
   ],
   "title": "Editorial: clarify that PromiseResolve may return its argument",
-  "updated_at": "2026-10-30T19:40:35Z"
- },
- {
-  "base": "dbf6bc165d948ae1da7bdc66ee5ff802e06dafa1",
-  "created_at": "2026-10-30T18:02:07Z",
-  "head": "b6c3e49f5628b11037047d8fdb1dece586a0de05",
-  "login": "bakkot",
-  "number": 4053,
-  "ref": "fix-decodeuri-note",
-  "revs": [
-   {
-    "adate": "2026-10-25T16:01:07+08:00",
-    "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
-    "date": "2026-10-30T10:52:33-07:00",
-    "hash": "b6c3e49f5628b11037047d8fdb1dece586a0de05",
-    "parents": "42b6e6332242630065acd5f76cfde6df1827cbfe",
-    "subject": "Editorial: describe the decodeURI preserve set accurately"
-   }
-  ],
-  "title": "Editorial: describe the decodeURI preserve set accurately",
-  "updated_at": "2026-10-30T19:23:57Z"
- },
- {
-  "base": "dbf6bc165d948ae1da7bdc66ee5ff802e06dafa1",
-  "created_at": "2026-10-30T17:38:59Z",
-  "head": "bbdd5fa212d555192e8bae9f918ee4fe89231f69",
-  "login": "bakkot",
-  "number": 4052,
-  "ref": "fix-bind-note-alias",
-  "revs": [
-   {
-    "adate": "2026-10-25T15:59:52+08:00",
-    "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
-    "date": "2026-10-30T10:35:13-07:00",
-    "hash": "bbdd5fa212d555192e8bae9f918ee4fe89231f69",
-    "parents": "42b6e6332242630065acd5f76cfde6df1827cbfe",
-    "subject": "Editorial: fix bound function name in bind note"
-   }
-  ],
-  "title": "Editorial: fix bound function name in bind note",
-  "updated_at": "2026-10-30T18:24:22Z"
- },
- {
-  "base": "dbf6bc165d948ae1da7bdc66ee5ff802e06dafa1",
-  "created_at": "2026-10-30T17:33:26Z",
-  "head": "44eeffcb7dd9652992ef9f755d1dc8344b07e696",
-  "login": "bakkot",
-  "number": 4051,
-  "ref": "fix-quantifiableassertion-rule",
-  "revs": [
-   {
-    "adate": "2026-10-25T15:58:28+08:00",
-    "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
-    "date": "2026-10-30T10:29:54-07:00",
-    "hash": "44eeffcb7dd9652992ef9f755d1dc8344b07e696",
-    "parents": "42b6e6332242630065acd5f76cfde6df1827cbfe",
-    "subject": "editorial: fix Annex B CompileAssertion substitution names"
-   }
-  ],
-  "title": "Editorial: fix Annex B CompileAssertion substitution names",
-  "updated_at": "2026-10-30T18:14:02Z"
- },
- {
-  "base": "42b6e6332242630065acd5f76cfde6df1827cbfe",
-  "created_at": "2026-10-30T17:28:39Z",
-  "head": "409c11f2c971de9fbf30c043e891e2a8d0b1381b",
-  "login": "bakkot",
-  "number": 4050,
-  "ref": "fix-register-field-ref",
-  "revs": [
-   {
-    "adate": "2026-10-25T15:57:02+08:00",
-    "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
-    "date": "2026-10-30T10:24:48-07:00",
-    "hash": "409c11f2c971de9fbf30c043e891e2a8d0b1381b",
-    "parents": "42b6e6332242630065acd5f76cfde6df1827cbfe",
-    "subject": "Fix the target field name in the FinalizationRegistry register note"
-   }
-  ],
-  "title": "Fix the target field name in the FinalizationRegistry register note",
-  "updated_at": "2026-10-30T17:53:23Z"
- },
- {
-  "base": "42b6e6332242630065acd5f76cfde6df1827cbfe",
-  "created_at": "2026-10-30T17:22:41Z",
-  "head": "572166061cca3b3466a1ef50f201ad637231e04b",
-  "login": "bakkot",
-  "number": 4049,
-  "ref": "HostGrowSharedArrayBuffer-bigint",
-  "revs": [
-   {
-    "adate": "2026-10-25T15:54:10+08:00",
-    "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
-    "date": "2026-10-30T10:19:19-07:00",
-    "hash": "572166061cca3b3466a1ef50f201ad637231e04b",
-    "parents": "42b6e6332242630065acd5f76cfde6df1827cbfe",
-    "subject": "Editorial: convert host-grown shared byte lengths to BigInt before encoding"
-   }
-  ],
-  "title": "Editorial: add missing coercion in HostGrowSharedArrayBuffer description",
-  "updated_at": "2026-10-30T17:51:34Z"
+  "updated_at": "2026-11-07T19:41:09Z"
  },
  {
   "base": "0d4945de6a11bef38e6b2c47c29c1ecb373c09d7",
@@ -470,54 +370,6 @@
   ],
   "title": "Editorial: Add more entries to Annex F",
   "updated_at": "2026-10-30T14:35:45Z"
- },
- {
-  "base": "0d4945de6a11bef38e6b2c47c29c1ecb373c09d7",
-  "created_at": "2026-10-29T23:13:22Z",
-  "head": "7ba183b10a54c89464dd32b9414802f514806357",
-  "login": "bakkot",
-  "number": 4045,
-  "ref": "fix-date-parse-expression-count",
-  "revs": [
-   {
-    "adate": "2026-10-29T17:07:57-07:00",
-    "author": "Kevin Gibbons",
-    "date": "2026-10-29T17:07:57-07:00",
-    "hash": "7ba183b10a54c89464dd32b9414802f514806357",
-    "parents": "ac098603eb039e0d92328d3552ccaf29d6f661e4",
-    "subject": "fixup: drop the count entirely"
-   },
-   {
-    "adate": "2026-10-25T15:41:20+08:00",
-    "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
-    "date": "2026-10-29T16:10:46-07:00",
-    "hash": "ac098603eb039e0d92328d3552ccaf29d6f661e4",
-    "parents": "0d4945de6a11bef38e6b2c47c29c1ecb373c09d7",
-    "subject": "Editorial: correct the Date.parse expression count"
-   }
-  ],
-  "title": "Editorial: correct the Date.parse expression count",
-  "updated_at": "2026-10-30T01:26:15Z"
- },
- {
-  "base": "83534233facc27cbf3308754e363a5ac272563ce",
-  "created_at": "2026-10-29T23:08:44Z",
-  "head": "3230c827d90613d5cd1d0f285403bc6e4df8c0d8",
-  "login": "bakkot",
-  "number": 4044,
-  "ref": "fix-hyperbolic-notes",
-  "revs": [
-   {
-    "adate": "2026-11-06T10:57:17-06:00",
-    "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
-    "date": "2026-11-06T10:57:17-06:00",
-    "hash": "3230c827d90613d5cd1d0f285403bc6e4df8c0d8",
-    "parents": "83534233facc27cbf3308754e363a5ac272563ce",
-    "subject": "Editorial: clarify hyperbolic function identities (#4044)"
-   }
-  ],
-  "title": "Editorial: clarify hyperbolic function identities",
-  "updated_at": "2026-11-06T16:57:32Z"
  },
  {
   "base": "42b6e6332242630065acd5f76cfde6df1827cbfe",
@@ -620,9 +472,9 @@
   "updated_at": "2026-10-09T22:46:57Z"
  },
  {
-  "base": "726ec8a42625509026a6570f1d4649bfa9fe4156",
+  "base": "97144493ba47e7b6029d933f3a05e391003f8614",
   "created_at": "2026-09-23T22:22:02Z",
-  "head": "a273b94e3cdbed95136fe127dc0c1093eeb7ef9c",
+  "head": "84f598c9d1b82b18997083d1b845c96bfd3e822e",
   "login": "gibson042",
   "number": 3984,
   "ref": "2026-09-simplify-exhaustiveness-assertions",
@@ -630,14 +482,14 @@
    {
     "adate": "2026-09-23T18:18:38-04:00",
     "author": "Richard Gibson",
-    "date": "2026-09-23T18:18:38-04:00",
-    "hash": "a273b94e3cdbed95136fe127dc0c1093eeb7ef9c",
-    "parents": "726ec8a42625509026a6570f1d4649bfa9fe4156",
+    "date": "2026-11-07T16:05:10-05:00",
+    "hash": "84f598c9d1b82b18997083d1b845c96bfd3e822e",
+    "parents": "97144493ba47e7b6029d933f3a05e391003f8614",
     "subject": "Editorial: Simplify exhaustiveness assertions"
    }
   ],
   "title": "Editorial: Simplify exhaustiveness assertions",
-  "updated_at": "2026-09-23T22:31:32Z"
+  "updated_at": "2026-11-07T21:08:18Z"
  },
  {
   "base": "4feb0272b799ea795c5eadee9b482aea0c10ce45",
