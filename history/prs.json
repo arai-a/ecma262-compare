@@ -1,26 +1,6 @@
 [
  {
   "base": "7628258064c18d831a7f74ecf3a997bd6345d0bb",
-  "created_at": "2026-11-05T18:32:01Z",
-  "head": "fd20236dc96fb894e1dafba193a950f1c4cd9c99",
-  "login": "ptomato",
-  "number": 4070,
-  "ref": "inleapyear",
-  "revs": [
-   {
-    "adate": "2026-11-05T13:29:20-05:00",
-    "author": "Philip Chimento",
-    "date": "2026-11-05T13:57:03-05:00",
-    "hash": "fd20236dc96fb894e1dafba193a950f1c4cd9c99",
-    "parents": "7628258064c18d831a7f74ecf3a997bd6345d0bb",
-    "subject": "Editorial: Refactor InLeapYear to move float math into callers"
-   }
-  ],
-  "title": "Editorial: Refactor InLeapYear to move float math into callers",
-  "updated_at": "2026-11-05T20:03:07Z"
- },
- {
-  "base": "7628258064c18d831a7f74ecf3a997bd6345d0bb",
   "created_at": "2026-11-05T15:18:09Z",
   "head": "2be491d018f1113ff12669f4803d1194e21805b1",
   "login": "nicolo-ribaudo",
@@ -46,102 +26,6 @@
   ],
   "title": "Normative: Fix duplicate parameters check with rest",
   "updated_at": "2026-11-05T17:28:29Z"
- },
- {
-  "base": "7628258064c18d831a7f74ecf3a997bd6345d0bb",
-  "created_at": "2026-11-05T13:46:39Z",
-  "head": "782d2fc0f29619c0b47189ce172a459b945ae285",
-  "login": "linusg",
-  "number": 4067,
-  "ref": "islooselyequal",
-  "revs": [
-   {
-    "adate": "2026-11-05T13:45:44Z",
-    "author": "Linus Groh",
-    "date": "2026-11-05T13:45:44Z",
-    "hash": "782d2fc0f29619c0b47189ce172a459b945ae285",
-    "parents": "7628258064c18d831a7f74ecf3a997bd6345d0bb",
-    "subject": "Editorial: Fix incorrect ! in IsLooselyEqual"
-   }
-  ],
-  "title": "Editorial: Fix incorrect ! in IsLooselyEqual",
-  "updated_at": "2026-11-05T16:16:39Z"
- },
- {
-  "base": "2af59ffccea1a8898243b0a8340326257c90724f",
-  "created_at": "2026-11-03T03:25:19Z",
-  "head": "b7020efc38d71053946d9a9e05e605d98f4bc0b6",
-  "login": "gibson042",
-  "number": 4065,
-  "ref": "2026-11-constrain-completion-record-target",
-  "revs": [
-   {
-    "adate": "2026-10-30T15:45:04-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-11-02T22:19:57-05:00",
-    "hash": "b7020efc38d71053946d9a9e05e605d98f4bc0b6",
-    "parents": "ee8a277fa99449b2f7c41fa8e1ec7ae27c49fdc2",
-    "subject": "Editorial: Simplify LabelledEvaluation"
-   },
-   {
-    "adate": "2026-10-30T15:45:04-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-11-02T22:14:00-05:00",
-    "hash": "ee8a277fa99449b2f7c41fa8e1ec7ae27c49fdc2",
-    "parents": "11f06400a99a7193d5ca909c64561e9ede19ade5",
-    "subject": "Editorial: Constrain Completion Record field [[Target]] to be empty for most [[Type]]s"
-   },
-   {
-    "adate": "2026-10-30T15:45:04-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-10-30T15:45:04-04:00",
-    "hash": "11f06400a99a7193d5ca909c64561e9ede19ade5",
-    "parents": "dbf6bc165d948ae1da7bdc66ee5ff802e06dafa1",
-    "subject": "Editorial: Reword the \"Return value\" constraints for essential internal methods"
-   }
-  ],
-  "title": "Editorial: Constrain Completion Record field [[Target]] to be empty for most [[Type]]s",
-  "updated_at": "2026-11-03T03:29:49Z"
- },
- {
-  "base": "5593a63d40bdb78761ae7da50ede3c2072c96bf6",
-  "created_at": "2026-11-01T03:39:19Z",
-  "head": "8df23bc3bf09ae3c76f446c0f83932d98eac2626",
-  "login": "gibson042",
-  "number": 4064,
-  "ref": "2026-10-fix-read-bytes-from-alias",
-  "revs": [
-   {
-    "adate": "2026-10-31T12:45:33-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-10-31T23:36:40-04:00",
-    "hash": "8df23bc3bf09ae3c76f446c0f83932d98eac2626",
-    "parents": "5593a63d40bdb78761ae7da50ede3c2072c96bf6",
-    "subject": "Editorial: Fix an incorrect alias name in reads-bytes-from"
-   }
-  ],
-  "title": "Editorial: Fix an incorrect alias name in reads-bytes-from",
-  "updated_at": "2026-11-01T04:16:05Z"
- },
- {
-  "base": "0de5cb15cb00998dd318f656da0c47dfdbf56251",
-  "created_at": "2026-10-31T08:55:33Z",
-  "head": "06430b25a5a56ad58b077c9e5b899c033e463524",
-  "login": "JinDX",
-  "number": 4062,
-  "ref": "editorial/atomics-waitasync-return-value",
-  "revs": [
-   {
-    "adate": "2026-10-31T16:54:16+08:00",
-    "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
-    "date": "2026-10-31T16:54:16+08:00",
-    "hash": "06430b25a5a56ad58b077c9e5b899c033e463524",
-    "parents": "0de5cb15cb00998dd318f656da0c47dfdbf56251",
-    "subject": "Editorial: clarify the return value of Atomics.waitAsync"
-   }
-  ],
-  "title": "Editorial: clarify the return value of Atomics.waitAsync",
-  "updated_at": "2026-10-31T12:20:07Z"
  },
  {
   "base": "83534233facc27cbf3308754e363a5ac272563ce",
@@ -170,26 +54,6 @@
   ],
   "title": "Editorial: correct the upper bound in MakeMatchIndicesIndexPairArray",
   "updated_at": "2026-11-07T07:38:20Z"
- },
- {
-  "base": "404a47d047113d36ff81cb42d2c02c890650a0dc",
-  "created_at": "2026-10-30T19:47:22Z",
-  "head": "11f06400a99a7193d5ca909c64561e9ede19ade5",
-  "login": "gibson042",
-  "number": 4059,
-  "ref": "2026-10-essential-internal-method-return-value-invariant",
-  "revs": [
-   {
-    "adate": "2026-10-30T15:45:04-04:00",
-    "author": "Richard Gibson",
-    "date": "2026-10-30T15:45:04-04:00",
-    "hash": "11f06400a99a7193d5ca909c64561e9ede19ade5",
-    "parents": "dbf6bc165d948ae1da7bdc66ee5ff802e06dafa1",
-    "subject": "Editorial: Reword the \"Return value\" constraints for essential internal methods"
-   }
-  ],
-  "title": "Editorial: Reword the \"Return value\" constraints for essential internal methods",
-  "updated_at": "2026-10-30T20:22:26Z"
  },
  {
   "base": "404a47d047113d36ff81cb42d2c02c890650a0dc",
@@ -294,26 +158,6 @@
   ],
   "title": "Editorial: tweak description of how array elisions work",
   "updated_at": "2026-10-30T20:33:05Z"
- },
- {
-  "base": "97144493ba47e7b6029d933f3a05e391003f8614",
-  "created_at": "2026-10-30T18:04:05Z",
-  "head": "699d19bec8f44a035af8797e5664da491a4e867e",
-  "login": "bakkot",
-  "number": 4054,
-  "ref": "fix-resolve-note",
-  "revs": [
-   {
-    "adate": "2026-11-07T11:40:54-08:00",
-    "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
-    "date": "2026-11-07T11:40:54-08:00",
-    "hash": "699d19bec8f44a035af8797e5664da491a4e867e",
-    "parents": "97144493ba47e7b6029d933f3a05e391003f8614",
-    "subject": "Editorial: clarify that PromiseResolve may return its argument (#4054)"
-   }
-  ],
-  "title": "Editorial: clarify that PromiseResolve may return its argument",
-  "updated_at": "2026-11-07T19:41:09Z"
  },
  {
   "base": "0d4945de6a11bef38e6b2c47c29c1ecb373c09d7",
@@ -1928,9 +1772,9 @@
   "updated_at": "2026-07-29T18:58:44Z"
  },
  {
-  "base": "7628258064c18d831a7f74ecf3a997bd6345d0bb",
+  "base": "828d35d00f8584c4a0fbcac7742b57c7b959c3f3",
   "created_at": "2026-07-16T22:50:44Z",
-  "head": "08b89859e00b886c03fe250184a9ff252f773944",
+  "head": "a80a9353123095c408692ecfbd5a930c26aa3679",
   "login": "gibson042",
   "number": 3918,
   "ref": "2026-07-islooselyequal-symmetry",
@@ -1938,62 +1782,62 @@
    {
     "adate": "2026-08-04T14:24:56-04:00",
     "author": "Richard Gibson",
-    "date": "2026-11-05T10:49:57-05:00",
-    "hash": "08b89859e00b886c03fe250184a9ff252f773944",
-    "parents": "e78c36ae6fe8ac30c1629ff4827ff925351104ad",
+    "date": "2026-11-08T13:21:43-05:00",
+    "hash": "a80a9353123095c408692ecfbd5a930c26aa3679",
+    "parents": "4815d2ba3ac60244be77bae45dd03c6b53839c06",
     "subject": "Editorial: Make use of \"primitive value\" autolinking"
    },
    {
     "adate": "2026-08-04T14:09:49-04:00",
     "author": "Richard Gibson",
-    "date": "2026-11-05T10:47:42-05:00",
-    "hash": "e78c36ae6fe8ac30c1629ff4827ff925351104ad",
-    "parents": "2912cc5a13cce632720b18251273af60a225304e",
+    "date": "2026-11-08T13:21:43-05:00",
+    "hash": "4815d2ba3ac60244be77bae45dd03c6b53839c06",
+    "parents": "e6c4c1766adef393b2e12eecf04ee0b8fcbfb497",
     "subject": "Editorial: Replace the PrimitiveToBigIntOrUndefined argument assertion with a refined type"
    },
    {
     "adate": "2026-08-04T14:09:14-04:00",
     "author": "Richard Gibson",
-    "date": "2026-11-05T10:47:42-05:00",
-    "hash": "2912cc5a13cce632720b18251273af60a225304e",
-    "parents": "a9af71484744174a31e0a06315fdcaa9093d26fe",
+    "date": "2026-11-08T13:21:43-05:00",
+    "hash": "e6c4c1766adef393b2e12eecf04ee0b8fcbfb497",
+    "parents": "8b66658fe104ccdb7a5b1831981e6f226493dd73",
     "subject": "Editorial: Update the description for ToBigInt"
    },
    {
     "adate": "2026-08-04T14:08:33-04:00",
     "author": "Richard Gibson",
-    "date": "2026-11-05T10:47:42-05:00",
-    "hash": "a9af71484744174a31e0a06315fdcaa9093d26fe",
-    "parents": "d0b33e49ccd02c1fc6139fcd65bcd9e49a295945",
+    "date": "2026-11-08T13:21:43-05:00",
+    "hash": "8b66658fe104ccdb7a5b1831981e6f226493dd73",
+    "parents": "45a6da31f636f3dd9856cd43eb3076758e3f247f",
     "subject": "Editorial: Clarify ToBigIntOrUndefined as PrimitiveToBigIntOrUndefined"
    },
    {
     "adate": "2026-07-16T18:27:59-04:00",
     "author": "Richard Gibson",
-    "date": "2026-11-05T10:47:42-05:00",
-    "hash": "d0b33e49ccd02c1fc6139fcd65bcd9e49a295945",
-    "parents": "dbc9ef93b69ef37aa75f2ac86dda76deaf9afc06",
+    "date": "2026-11-08T13:21:39-05:00",
+    "hash": "45a6da31f636f3dd9856cd43eb3076758e3f247f",
+    "parents": "9f793fb79698170072c09c7d1df126b1e51db4c9",
     "subject": "Editorial: Consolidate recursive cases in IsLooselyEqual"
    },
    {
     "adate": "2026-07-16T18:27:59-04:00",
     "author": "Richard Gibson",
-    "date": "2026-11-05T10:47:40-05:00",
-    "hash": "dbc9ef93b69ef37aa75f2ac86dda76deaf9afc06",
-    "parents": "76b46aea1020b0aaab3495d424dc389ac2dda0d1",
+    "date": "2026-11-08T13:20:32-05:00",
+    "hash": "9f793fb79698170072c09c7d1df126b1e51db4c9",
+    "parents": "4e9acfa720c89bb5682e4d1e28847ba1b571e432",
     "subject": "Editorial: Refactor IsLooselyEqual for better symmetry"
    },
    {
     "adate": "2026-07-16T18:27:59-04:00",
     "author": "Richard Gibson",
-    "date": "2026-11-05T10:43:53-05:00",
-    "hash": "76b46aea1020b0aaab3495d424dc389ac2dda0d1",
-    "parents": "7628258064c18d831a7f74ecf3a997bd6345d0bb",
+    "date": "2026-11-08T13:17:57-05:00",
+    "hash": "4e9acfa720c89bb5682e4d1e28847ba1b571e432",
+    "parents": "828d35d00f8584c4a0fbcac7742b57c7b959c3f3",
     "subject": "Editorial: Split out an infallible ToBigIntOrUndefined from ToBigInt"
    }
   ],
   "title": "Editorial: Refactor IsLooselyEqual for better symmetry",
-  "updated_at": "2026-11-05T17:24:31Z"
+  "updated_at": "2026-11-08T18:21:51Z"
  },
  {
   "base": "1355a23e48aaf2b1d7b6cbfad0fb98bce999cfd1",
