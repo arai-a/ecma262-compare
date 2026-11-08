@@ -1,5 +1,45 @@
 [
  {
+  "adate": "2026-11-07T21:55:04-08:00",
+  "author": "Richard Gibson",
+  "date": "2026-11-07T21:55:04-08:00",
+  "hash": "b11f998637ed85e7fcc766def76d288e2648aa48",
+  "parents": "d8cb8772648c3af09faffc6c4a14e17052cb1643",
+  "subject": "Editorial: Constrain Completion Record field [[Target]] to be empty for most [[Type]]s (#4065)"
+ },
+ {
+  "adate": "2026-11-07T21:46:34-08:00",
+  "author": "Richard Gibson",
+  "date": "2026-11-07T21:46:34-08:00",
+  "hash": "d8cb8772648c3af09faffc6c4a14e17052cb1643",
+  "parents": "86b66b90378e2d39dcba197e871952001b7ac548",
+  "subject": "Editorial: Fix an incorrect alias name in reads-bytes-from (#4064)"
+ },
+ {
+  "adate": "2026-11-07T21:30:40-08:00",
+  "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
+  "date": "2026-11-07T21:30:40-08:00",
+  "hash": "86b66b90378e2d39dcba197e871952001b7ac548",
+  "parents": "f1124ce85a26a3690e7b76daf022405cded7d733",
+  "subject": "Editorial: clarify the return value of Atomics.waitAsync (#4062)"
+ },
+ {
+  "adate": "2026-11-07T21:22:00-08:00",
+  "author": "Richard Gibson",
+  "date": "2026-11-07T21:22:00-08:00",
+  "hash": "f1124ce85a26a3690e7b76daf022405cded7d733",
+  "parents": "699d19bec8f44a035af8797e5664da491a4e867e",
+  "subject": "Editorial: Reword the \"Return value\" constraints for essential internal methods (#4059)"
+ },
+ {
+  "adate": "2026-11-07T11:40:54-08:00",
+  "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
+  "date": "2026-11-07T11:40:54-08:00",
+  "hash": "699d19bec8f44a035af8797e5664da491a4e867e",
+  "parents": "97144493ba47e7b6029d933f3a05e391003f8614",
+  "subject": "Editorial: clarify that PromiseResolve may return its argument (#4054)"
+ },
+ {
   "adate": "2026-11-07T11:31:52-08:00",
   "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
   "date": "2026-11-07T11:31:52-08:00",
