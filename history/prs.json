@@ -1,5 +1,25 @@
 [
  {
+  "base": "828d35d00f8584c4a0fbcac7742b57c7b959c3f3",
+  "created_at": "2026-11-09T02:14:14Z",
+  "head": "ad6e47cc112dff64a5ea6f3188a0278b53c8bc55",
+  "login": "jhnaldo",
+  "number": 4072,
+  "ref": "fix-number-multiply-zero-sign",
+  "revs": [
+   {
+    "adate": "2026-11-09T10:33:51+09:00",
+    "author": "Jihyeok Park",
+    "date": "2026-11-09T10:40:40+09:00",
+    "hash": "ad6e47cc112dff64a5ea6f3188a0278b53c8bc55",
+    "parents": "828d35d00f8584c4a0fbcac7742b57c7b959c3f3",
+    "subject": "Normative: Fix the sign of zero results in Number::multiply"
+   }
+  ],
+  "title": "Normative: Fix the sign of zero results in Number::multiply",
+  "updated_at": "2026-11-09T02:14:14Z"
+ },
+ {
   "base": "7628258064c18d831a7f74ecf3a997bd6345d0bb",
   "created_at": "2026-11-05T15:18:09Z",
   "head": "2be491d018f1113ff12669f4803d1194e21805b1",
