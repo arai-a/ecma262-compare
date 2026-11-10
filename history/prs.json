@@ -1,6 +1,26 @@
 [
  {
   "base": "828d35d00f8584c4a0fbcac7742b57c7b959c3f3",
+  "created_at": "2026-11-10T17:53:21Z",
+  "head": "7eb458fac556d58dce1a9947e5f9b54166135319",
+  "login": "jungwngkim",
+  "number": 4074,
+  "ref": "fix-async-builtin-return",
+  "revs": [
+   {
+    "adate": "2026-11-10T17:39:24+01:00",
+    "author": "Jungwoong Kim",
+    "date": "2026-11-10T17:39:24+01:00",
+    "hash": "7eb458fac556d58dce1a9947e5f9b54166135319",
+    "parents": "828d35d00f8584c4a0fbcac7742b57c7b959c3f3",
+    "subject": "Normative: Fix async built-in functions resolving to undefined"
+   }
+  ],
+  "title": "Normative: Fix async built-in functions resolving to undefined",
+  "updated_at": "2026-11-10T19:30:24Z"
+ },
+ {
+  "base": "828d35d00f8584c4a0fbcac7742b57c7b959c3f3",
   "created_at": "2026-11-10T14:29:26Z",
   "head": "53fc5b28147f12e812f565c5ead25f3b290d371e",
   "login": "jhnaldo",
