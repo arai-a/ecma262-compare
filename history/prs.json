@@ -88,13 +88,21 @@
   "updated_at": "2026-11-05T17:28:29Z"
  },
  {
-  "base": "83534233facc27cbf3308754e363a5ac272563ce",
+  "base": "828d35d00f8584c4a0fbcac7742b57c7b959c3f3",
   "created_at": "2026-10-31T07:52:12Z",
-  "head": "84c0e2e5e6f1ca5843386041a543984020a57605",
+  "head": "e2c028369eb042f2c9d88f5ef22291c2b1d52458",
   "login": "JinDX",
   "number": 4061,
   "ref": "editorial/regexp-match-indices-upper-bound",
   "revs": [
+   {
+    "adate": "2026-11-11T14:10:01+08:00",
+    "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
+    "date": "2026-11-11T14:10:01+08:00",
+    "hash": "e2c028369eb042f2c9d88f5ef22291c2b1d52458",
+    "parents": "84c0e2e5e6f1ca5843386041a543984020a57605 828d35d00f8584c4a0fbcac7742b57c7b959c3f3",
+    "subject": "Merge branch 'main' into editorial/regexp-match-indices-upper-bound"
+   },
    {
     "adate": "2026-11-07T15:38:17+08:00",
     "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
@@ -113,7 +121,7 @@
    }
   ],
   "title": "Editorial: correct the upper bound in MakeMatchIndicesIndexPairArray",
-  "updated_at": "2026-11-07T07:38:20Z"
+  "updated_at": "2026-11-11T06:10:04Z"
  },
  {
   "base": "404a47d047113d36ff81cb42d2c02c890650a0dc",
