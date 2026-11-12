@@ -1,6 +1,54 @@
 [
  {
   "base": "828d35d00f8584c4a0fbcac7742b57c7b959c3f3",
+  "created_at": "2026-11-12T00:40:38Z",
+  "head": "e39053994c6cdce06b384e3488a01050c3503d5f",
+  "login": "jungwngkim",
+  "number": 4079,
+  "ref": "fix-missing-loaded-modules",
+  "revs": [
+   {
+    "adate": "2026-11-12T00:52:06+01:00",
+    "author": "Jungwoong Kim",
+    "date": "2026-11-12T00:52:06+01:00",
+    "hash": "e39053994c6cdce06b384e3488a01050c3503d5f",
+    "parents": "828d35d00f8584c4a0fbcac7742b57c7b959c3f3",
+    "subject": "Editorial: Initialize [[LoadedModules]] in InitializeHostDefinedRealm"
+   }
+  ],
+  "title": "Editorial: Initialize [[LoadedModules]] in InitializeHostDefinedRealm",
+  "updated_at": "2026-11-12T00:40:38Z"
+ },
+ {
+  "base": "828d35d00f8584c4a0fbcac7742b57c7b959c3f3",
+  "created_at": "2026-11-12T00:28:31Z",
+  "head": "7f89c230f89fd1350deb331066da84f76a57b63d",
+  "login": "bakkot",
+  "number": 4078,
+  "ref": "less-await-async-generator",
+  "revs": [
+   {
+    "adate": "2026-11-11T16:23:44-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2026-11-11T16:23:44-08:00",
+    "hash": "7f89c230f89fd1350deb331066da84f76a57b63d",
+    "parents": "ea4094addfbeea65104faf853f14e15a30c7f3f0",
+    "subject": "move the await into AsyncGeneratorYield"
+   },
+   {
+    "adate": "2026-11-11T15:31:38-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2026-11-11T15:41:32-08:00",
+    "hash": "ea4094addfbeea65104faf853f14e15a30c7f3f0",
+    "parents": "828d35d00f8584c4a0fbcac7742b57c7b959c3f3",
+    "subject": "Normative: avoid extra microtask tick when yielding non-promise in async generators"
+   }
+  ],
+  "title": "Normative: avoid extra microtask tick when yielding non-promise in async generators",
+  "updated_at": "2026-11-12T03:30:07Z"
+ },
+ {
+  "base": "828d35d00f8584c4a0fbcac7742b57c7b959c3f3",
   "created_at": "2026-11-10T17:53:21Z",
   "head": "7eb458fac556d58dce1a9947e5f9b54166135319",
   "login": "jungwngkim",
