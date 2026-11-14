@@ -1,5 +1,25 @@
 [
  {
+  "base": "b1eaed82fc5e8a511c5b2007f194b16c8f7e5ea6",
+  "created_at": "2026-11-13T21:51:08Z",
+  "head": "01010ab00de45d523c25530261d1fad8833621a3",
+  "login": "bakkot",
+  "number": 4081,
+  "ref": "double-await-return",
+  "revs": [
+   {
+    "adate": "2026-11-13T13:22:29-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2026-11-13T13:22:29-08:00",
+    "hash": "01010ab00de45d523c25530261d1fad8833621a3",
+    "parents": "828d35d00f8584c4a0fbcac7742b57c7b959c3f3",
+    "subject": "Normative: remove double `await` of a value in `return` path in `yield*`"
+   }
+  ],
+  "title": "Normative: remove double `await` of a value in `return` path in `yield*`",
+  "updated_at": "2026-11-13T23:32:27Z"
+ },
+ {
   "base": "828d35d00f8584c4a0fbcac7742b57c7b959c3f3",
   "created_at": "2026-11-12T10:49:59Z",
   "head": "966214daa733447559afdf1758c13d520c564359",
