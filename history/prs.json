@@ -1,6 +1,46 @@
 [
  {
   "base": "b1eaed82fc5e8a511c5b2007f194b16c8f7e5ea6",
+  "created_at": "2026-11-15T04:46:02Z",
+  "head": "aef16a2c656fea4e8cdbd6aee444c65d8f8337c8",
+  "login": "JinDX",
+  "number": 4083,
+  "ref": "editorial/synthetic-module-private-environment",
+  "revs": [
+   {
+    "adate": "2026-11-15T12:16:00+08:00",
+    "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
+    "date": "2026-11-15T12:16:00+08:00",
+    "hash": "aef16a2c656fea4e8cdbd6aee444c65d8f8337c8",
+    "parents": "b1eaed82fc5e8a511c5b2007f194b16c8f7e5ea6",
+    "subject": "Editorial: Initialize PrivateEnvironment in Synthetic Module Record evaluation"
+   }
+  ],
+  "title": "Editorial: Initialize PrivateEnvironment in Synthetic Module Record evaluation",
+  "updated_at": "2026-11-15T04:46:02Z"
+ },
+ {
+  "base": "b1eaed82fc5e8a511c5b2007f194b16c8f7e5ea6",
+  "created_at": "2026-11-15T04:45:45Z",
+  "head": "7652a113f529ec6bbcd7e2006c7290aac50fc1c4",
+  "login": "JinDX",
+  "number": 4082,
+  "ref": "editorial/templatestring-escapes",
+  "revs": [
+   {
+    "adate": "2026-11-15T12:15:50+08:00",
+    "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
+    "date": "2026-11-15T12:15:50+08:00",
+    "hash": "7652a113f529ec6bbcd7e2006c7290aac50fc1c4",
+    "parents": "b1eaed82fc5e8a511c5b2007f194b16c8f7e5ea6",
+    "subject": "Editorial: Correct the TemplateString note for invalid escapes"
+   }
+  ],
+  "title": "Editorial: Correct the TemplateString note for invalid escapes",
+  "updated_at": "2026-11-15T04:45:45Z"
+ },
+ {
+  "base": "b1eaed82fc5e8a511c5b2007f194b16c8f7e5ea6",
   "created_at": "2026-11-13T21:51:08Z",
   "head": "01010ab00de45d523c25530261d1fad8833621a3",
   "login": "bakkot",
