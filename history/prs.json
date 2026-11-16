@@ -60,13 +60,21 @@
   "updated_at": "2026-11-13T23:32:27Z"
  },
  {
-  "base": "828d35d00f8584c4a0fbcac7742b57c7b959c3f3",
+  "base": "b1eaed82fc5e8a511c5b2007f194b16c8f7e5ea6",
   "created_at": "2026-11-12T10:49:59Z",
-  "head": "966214daa733447559afdf1758c13d520c564359",
+  "head": "c8dfc57f26a2a912309afd0697ef82e2cc1cc5d1",
   "login": "JinDX",
   "number": 4080,
   "ref": "editorial/constructor-prototype-object-fallback",
   "revs": [
+   {
+    "adate": "2026-11-16T09:52:08+08:00",
+    "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
+    "date": "2026-11-16T09:52:08+08:00",
+    "hash": "c8dfc57f26a2a912309afd0697ef82e2cc1cc5d1",
+    "parents": "966214daa733447559afdf1758c13d520c564359 b1eaed82fc5e8a511c5b2007f194b16c8f7e5ea6",
+    "subject": "Merge branch 'main' into editorial/constructor-prototype-object-fallback"
+   },
    {
     "adate": "2026-11-12T18:29:15+08:00",
     "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
@@ -77,7 +85,7 @@
    }
   ],
   "title": "Editorial: Clarify when constructor prototype values are used",
-  "updated_at": "2026-11-12T11:14:03Z"
+  "updated_at": "2026-11-16T01:52:09Z"
  },
  {
   "base": "828d35d00f8584c4a0fbcac7742b57c7b959c3f3",
