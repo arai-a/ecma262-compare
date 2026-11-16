@@ -1,6 +1,70 @@
 [
  {
   "base": "b1eaed82fc5e8a511c5b2007f194b16c8f7e5ea6",
+  "created_at": "2026-11-16T20:24:51Z",
+  "head": "0c9a0229cfd16780d1dfd84642e28806bc24f6a7",
+  "login": "gibson042",
+  "number": 4085,
+  "ref": "2026-11-regexp-sdos",
+  "revs": [
+   {
+    "adate": "2026-11-16T15:20:23-05:00",
+    "author": "Richard Gibson",
+    "date": "2026-11-16T15:22:46-05:00",
+    "hash": "0c9a0229cfd16780d1dfd84642e28806bc24f6a7",
+    "parents": "b1eaed82fc5e8a511c5b2007f194b16c8f7e5ea6",
+    "subject": "Editorial: Fix missing auto-links in BodyText and FlagText"
+   }
+  ],
+  "title": "Editorial: Fix missing auto-links in BodyText and FlagText",
+  "updated_at": "2026-11-16T20:42:22Z"
+ },
+ {
+  "base": "b1eaed82fc5e8a511c5b2007f194b16c8f7e5ea6",
+  "created_at": "2026-11-16T20:18:35Z",
+  "head": "c3268452bc550a05d6f1417469507d5e923a0520",
+  "login": "gibson042",
+  "number": 4084,
+  "ref": "2026-11-simplify-tv-trv",
+  "revs": [
+   {
+    "adate": "2026-11-16T14:23:04-05:00",
+    "author": "Richard Gibson",
+    "date": "2026-11-16T15:17:36-05:00",
+    "hash": "c3268452bc550a05d6f1417469507d5e923a0520",
+    "parents": "5c9c8310c5904346f810e4f5e9718c3a550bf97d",
+    "subject": "Editorial: Simplify TV by leveraging CodePointsToString"
+   },
+   {
+    "adate": "2026-11-16T14:23:04-05:00",
+    "author": "Richard Gibson",
+    "date": "2026-11-16T15:17:36-05:00",
+    "hash": "5c9c8310c5904346f810e4f5e9718c3a550bf97d",
+    "parents": "1d2324b504314f7f0a731b72f7f7cbc975ccceae",
+    "subject": "Editorial: Parameterize TV in alignment with TemplateString, merging in TRV"
+   },
+   {
+    "adate": "2026-11-16T14:23:04-05:00",
+    "author": "Richard Gibson",
+    "date": "2026-11-16T14:23:04-05:00",
+    "hash": "1d2324b504314f7f0a731b72f7f7cbc975ccceae",
+    "parents": "7652a113f529ec6bbcd7e2006c7290aac50fc1c4",
+    "subject": "Editorial: Reduce chain-production descent in SV"
+   },
+   {
+    "adate": "2026-11-15T12:15:50+08:00",
+    "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
+    "date": "2026-11-15T12:15:50+08:00",
+    "hash": "7652a113f529ec6bbcd7e2006c7290aac50fc1c4",
+    "parents": "b1eaed82fc5e8a511c5b2007f194b16c8f7e5ea6",
+    "subject": "Editorial: Correct the TemplateString note for invalid escapes"
+   }
+  ],
+  "title": "Simplify TV and TRV",
+  "updated_at": "2026-11-16T20:30:26Z"
+ },
+ {
+  "base": "b1eaed82fc5e8a511c5b2007f194b16c8f7e5ea6",
   "created_at": "2026-11-15T04:46:02Z",
   "head": "aef16a2c656fea4e8cdbd6aee444c65d8f8337c8",
   "login": "JinDX",
