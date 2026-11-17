@@ -22,11 +22,35 @@
  {
   "base": "b1eaed82fc5e8a511c5b2007f194b16c8f7e5ea6",
   "created_at": "2026-11-16T20:18:35Z",
-  "head": "c3268452bc550a05d6f1417469507d5e923a0520",
+  "head": "567eb6abce45e1627be1cf80d785d5ac9f6afba3",
   "login": "gibson042",
   "number": 4084,
   "ref": "2026-11-simplify-tv-trv",
   "revs": [
+   {
+    "adate": "2026-11-17T13:54:44-05:00",
+    "author": "Richard Gibson",
+    "date": "2026-11-17T13:54:44-05:00",
+    "hash": "567eb6abce45e1627be1cf80d785d5ac9f6afba3",
+    "parents": "f1fde5b23a603bf398915b235bc75ddec0ddddf1",
+    "subject": "fixup! Editorial: Parameterize TV in alignment with TemplateString, merging in TRV"
+   },
+   {
+    "adate": "2026-11-16T14:23:04-05:00",
+    "author": "Richard Gibson",
+    "date": "2026-11-17T13:49:33-05:00",
+    "hash": "f1fde5b23a603bf398915b235bc75ddec0ddddf1",
+    "parents": "e3dc6f1bc4006f64cf24919ab400c266d7ad1e51",
+    "subject": "Editorial: Merge TemplateString into TV"
+   },
+   {
+    "adate": "2026-11-17T13:31:56-05:00",
+    "author": "Richard Gibson",
+    "date": "2026-11-17T13:31:56-05:00",
+    "hash": "e3dc6f1bc4006f64cf24919ab400c266d7ad1e51",
+    "parents": "c3268452bc550a05d6f1417469507d5e923a0520",
+    "subject": "fixup! Editorial: Simplify TV by leveraging CodePointsToString"
+   },
    {
     "adate": "2026-11-16T14:23:04-05:00",
     "author": "Richard Gibson",
@@ -61,7 +85,7 @@
    }
   ],
   "title": "Simplify TV and TRV",
-  "updated_at": "2026-11-16T20:30:26Z"
+  "updated_at": "2026-11-17T19:12:34Z"
  },
  {
   "base": "b1eaed82fc5e8a511c5b2007f194b16c8f7e5ea6",
