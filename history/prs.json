@@ -1,6 +1,74 @@
 [
  {
   "base": "b1eaed82fc5e8a511c5b2007f194b16c8f7e5ea6",
+  "created_at": "2026-11-19T19:07:38Z",
+  "head": "55a76f0e19c466f699accce3ce20d535c4a30656",
+  "login": "tc39",
+  "number": 4091,
+  "ref": "explain-notes",
+  "revs": [
+   {
+    "adate": "2026-11-19T12:00:53-07:00",
+    "author": "Michael Ficarra",
+    "date": "2026-11-19T12:00:53-07:00",
+    "hash": "55a76f0e19c466f699accce3ce20d535c4a30656",
+    "parents": "b1eaed82fc5e8a511c5b2007f194b16c8f7e5ea6",
+    "subject": "Editorial: explain that notes are non-normative"
+   }
+  ],
+  "title": "Editorial: explain that notes are non-normative",
+  "updated_at": "2026-11-19T19:12:53Z"
+ },
+ {
+  "base": "b1eaed82fc5e8a511c5b2007f194b16c8f7e5ea6",
+  "created_at": "2026-11-19T17:49:49Z",
+  "head": "888574e1c92838a9f44e55a024c50ba1d446b440",
+  "login": "tc39",
+  "number": 4090,
+  "ref": "other-editors",
+  "revs": [
+   {
+    "adate": "2026-11-19T10:46:34-07:00",
+    "author": "Michael Ficarra",
+    "date": "2026-11-19T10:46:34-07:00",
+    "hash": "888574e1c92838a9f44e55a024c50ba1d446b440",
+    "parents": "b1eaed82fc5e8a511c5b2007f194b16c8f7e5ea6",
+    "subject": "Editorial: credit early project editors"
+   }
+  ],
+  "title": "Editorial: credit early project editors",
+  "updated_at": "2026-11-19T18:17:00Z"
+ },
+ {
+  "base": "b1eaed82fc5e8a511c5b2007f194b16c8f7e5ea6",
+  "created_at": "2026-11-19T17:14:54Z",
+  "head": "da8734854925585361269b3aa0f1f34cc4219ead",
+  "login": "gibson042",
+  "number": 4089,
+  "ref": "2026-11-extended-integer",
+  "revs": [
+   {
+    "adate": "2026-11-19T12:00:22-05:00",
+    "author": "Richard Gibson",
+    "date": "2026-11-19T12:07:09-05:00",
+    "hash": "da8734854925585361269b3aa0f1f34cc4219ead",
+    "parents": "229c5a80e98c4bfa09a483f4581520debbc9e15d",
+    "subject": "Editorial: Replace \"non-negative integer or +\u221e\" with \"non-negative extended integer\""
+   },
+   {
+    "adate": "2026-11-19T12:00:22-05:00",
+    "author": "Richard Gibson",
+    "date": "2026-11-19T12:06:48-05:00",
+    "hash": "229c5a80e98c4bfa09a483f4581520debbc9e15d",
+    "parents": "b1eaed82fc5e8a511c5b2007f194b16c8f7e5ea6",
+    "subject": "Editorial: Define new term \"extended integer\""
+   }
+  ],
+  "title": "Editorial: Define new term \"extended integer\"",
+  "updated_at": "2026-11-19T18:17:18Z"
+ },
+ {
+  "base": "b1eaed82fc5e8a511c5b2007f194b16c8f7e5ea6",
   "created_at": "2026-11-18T13:29:39Z",
   "head": "5970522b16107100a34bed9fc81583efab0d8682",
   "login": "eemeli",
