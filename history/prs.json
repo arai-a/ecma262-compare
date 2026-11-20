@@ -1,43 +1,107 @@
 [
  {
+  "base": "74c33d406ec1763ca9ee5ad9165571661649d6e6",
+  "created_at": "2026-11-19T23:09:40Z",
+  "head": "1ff5d71261bbf43cfd2156f60ac0f1677900e8e8",
+  "login": "bakkot",
+  "number": 4096,
+  "ref": "fix-message-location",
+  "revs": [
+   {
+    "adate": "2026-11-19T15:06:21-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2026-11-19T15:07:53-08:00",
+    "hash": "1ff5d71261bbf43cfd2156f60ac0f1677900e8e8",
+    "parents": "8f6511e9b2e0a58c6ec5ff213387dbce2df69c50",
+    "subject": "Editorial: correct grammar in NativeError introduction"
+   },
+   {
+    "adate": "2026-11-19T14:52:59-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2026-11-19T15:03:26-08:00",
+    "hash": "8f6511e9b2e0a58c6ec5ff213387dbce2df69c50",
+    "parents": "74c33d406ec1763ca9ee5ad9165571661649d6e6",
+    "subject": "Editorial: remove stale description of how NativeErrors differ"
+   }
+  ],
+  "title": "Editorial: remove stale description of how NativeErrors differ",
+  "updated_at": "2026-11-19T23:22:39Z"
+ },
+ {
   "base": "b1eaed82fc5e8a511c5b2007f194b16c8f7e5ea6",
+  "created_at": "2026-11-19T19:49:36Z",
+  "head": "b30bbf0ddf3bd76cdf50e38108870d22f882cf85",
+  "login": "JLHwung",
+  "number": 4095,
+  "ref": "allow-trailing-comma-set-parameter-list",
+  "revs": [
+   {
+    "adate": "2026-11-19T14:42:06-05:00",
+    "author": "Hu\u00e1ng J\u00f9nli\u00e0ng",
+    "date": "2026-11-19T14:42:06-05:00",
+    "hash": "b30bbf0ddf3bd76cdf50e38108870d22f882cf85",
+    "parents": "b1eaed82fc5e8a511c5b2007f194b16c8f7e5ea6",
+    "subject": "Normative: allow trailing comma in set parameter list"
+   }
+  ],
+  "title": "Normative: allow trailing comma in set parameter list",
+  "updated_at": "2026-11-19T19:52:43Z"
+ },
+ {
+  "base": "b1eaed82fc5e8a511c5b2007f194b16c8f7e5ea6",
+  "created_at": "2026-11-19T19:28:04Z",
+  "head": "29e4a7e7d31536d52a74ae30b72bc7d8a5ad35bd",
+  "login": "JLHwung",
+  "number": 4094,
+  "ref": "allow-wspace-alias",
+  "revs": [
+   {
+    "adate": "2026-11-18T11:01:55-05:00",
+    "author": "Hu\u00e1ng J\u00f9nli\u00e0ng",
+    "date": "2026-11-19T14:19:01-05:00",
+    "hash": "29e4a7e7d31536d52a74ae30b72bc7d8a5ad35bd",
+    "parents": "b1eaed82fc5e8a511c5b2007f194b16c8f7e5ea6",
+    "subject": "Normative: add WSpace as an alias of White_Space"
+   }
+  ],
+  "title": "Normative: add WSpace as an alias of White_Space",
+  "updated_at": "2026-11-19T19:28:04Z"
+ },
+ {
+  "base": "2fa3089c287f3d9f5184d8461de2e67b2c8b7e0c",
   "created_at": "2026-11-19T19:07:38Z",
-  "head": "55a76f0e19c466f699accce3ce20d535c4a30656",
+  "head": "71e6f6dcc9e8738aab935281b065b8da171dd604",
   "login": "tc39",
   "number": 4091,
   "ref": "explain-notes",
   "revs": [
    {
+    "adate": "2026-11-19T14:13:51-07:00",
+    "author": "Michael Ficarra",
+    "date": "2026-11-19T14:26:27-07:00",
+    "hash": "71e6f6dcc9e8738aab935281b065b8da171dd604",
+    "parents": "fe01791f445e3ca1e60f4ae445c61f7c33df3dd8",
+    "subject": "empty lines"
+   },
+   {
+    "adate": "2026-11-19T14:11:41-07:00",
+    "author": "Michael Ficarra",
+    "date": "2026-11-19T14:26:27-07:00",
+    "hash": "fe01791f445e3ca1e60f4ae445c61f7c33df3dd8",
+    "parents": "ce8f761f10823a292807bd84958d3659bf71473d",
+    "subject": "orange"
+   },
+   {
     "adate": "2026-11-19T12:00:53-07:00",
     "author": "Michael Ficarra",
-    "date": "2026-11-19T12:00:53-07:00",
-    "hash": "55a76f0e19c466f699accce3ce20d535c4a30656",
-    "parents": "b1eaed82fc5e8a511c5b2007f194b16c8f7e5ea6",
+    "date": "2026-11-19T14:26:27-07:00",
+    "hash": "ce8f761f10823a292807bd84958d3659bf71473d",
+    "parents": "2fa3089c287f3d9f5184d8461de2e67b2c8b7e0c",
     "subject": "Editorial: explain that notes are non-normative"
    }
   ],
   "title": "Editorial: explain that notes are non-normative",
-  "updated_at": "2026-11-19T19:12:53Z"
- },
- {
-  "base": "b1eaed82fc5e8a511c5b2007f194b16c8f7e5ea6",
-  "created_at": "2026-11-19T17:49:49Z",
-  "head": "888574e1c92838a9f44e55a024c50ba1d446b440",
-  "login": "tc39",
-  "number": 4090,
-  "ref": "other-editors",
-  "revs": [
-   {
-    "adate": "2026-11-19T10:46:34-07:00",
-    "author": "Michael Ficarra",
-    "date": "2026-11-19T10:46:34-07:00",
-    "hash": "888574e1c92838a9f44e55a024c50ba1d446b440",
-    "parents": "b1eaed82fc5e8a511c5b2007f194b16c8f7e5ea6",
-    "subject": "Editorial: credit early project editors"
-   }
-  ],
-  "title": "Editorial: credit early project editors",
-  "updated_at": "2026-11-19T18:17:00Z"
+  "updated_at": "2026-11-19T21:26:30Z"
  },
  {
   "base": "b1eaed82fc5e8a511c5b2007f194b16c8f7e5ea6",
@@ -70,11 +134,19 @@
  {
   "base": "b1eaed82fc5e8a511c5b2007f194b16c8f7e5ea6",
   "created_at": "2026-11-18T13:29:39Z",
-  "head": "5970522b16107100a34bed9fc81583efab0d8682",
+  "head": "53a3ea3550c7e61a61a3ce0a99aee98b952406f8",
   "login": "eemeli",
   "number": 4088,
   "ref": "import-text",
   "revs": [
+   {
+    "adate": "2026-11-19T21:58:58+02:00",
+    "author": "Eemeli Aro",
+    "date": "2026-11-19T21:58:58+02:00",
+    "hash": "53a3ea3550c7e61a61a3ce0a99aee98b952406f8",
+    "parents": "5970522b16107100a34bed9fc81583efab0d8682",
+    "subject": "Fix line wrapping"
+   },
    {
     "adate": "2026-11-18T15:27:41+02:00",
     "author": "Eemeli Aro",
@@ -85,7 +157,7 @@
    }
   ],
   "title": "Normative: Add text modules",
-  "updated_at": "2026-11-18T14:46:36Z"
+  "updated_at": "2026-11-19T20:25:00Z"
  },
  {
   "base": "b1eaed82fc5e8a511c5b2007f194b16c8f7e5ea6",
@@ -106,26 +178,6 @@
   ],
   "title": "Normative: Un-Annex-B String.prototype.substr",
   "updated_at": "2026-11-18T19:24:01Z"
- },
- {
-  "base": "b1eaed82fc5e8a511c5b2007f194b16c8f7e5ea6",
-  "created_at": "2026-11-16T20:24:51Z",
-  "head": "0c9a0229cfd16780d1dfd84642e28806bc24f6a7",
-  "login": "gibson042",
-  "number": 4085,
-  "ref": "2026-11-regexp-sdos",
-  "revs": [
-   {
-    "adate": "2026-11-16T15:20:23-05:00",
-    "author": "Richard Gibson",
-    "date": "2026-11-16T15:22:46-05:00",
-    "hash": "0c9a0229cfd16780d1dfd84642e28806bc24f6a7",
-    "parents": "b1eaed82fc5e8a511c5b2007f194b16c8f7e5ea6",
-    "subject": "Editorial: Fix missing auto-links in BodyText and FlagText"
-   }
-  ],
-  "title": "Editorial: Fix missing auto-links in BodyText and FlagText",
-  "updated_at": "2026-11-16T20:42:22Z"
  },
  {
   "base": "b1eaed82fc5e8a511c5b2007f194b16c8f7e5ea6",
@@ -194,46 +246,6 @@
   ],
   "title": "Simplify TV and TRV",
   "updated_at": "2026-11-17T19:12:34Z"
- },
- {
-  "base": "b1eaed82fc5e8a511c5b2007f194b16c8f7e5ea6",
-  "created_at": "2026-11-15T04:46:02Z",
-  "head": "aef16a2c656fea4e8cdbd6aee444c65d8f8337c8",
-  "login": "JinDX",
-  "number": 4083,
-  "ref": "editorial/synthetic-module-private-environment",
-  "revs": [
-   {
-    "adate": "2026-11-15T12:16:00+08:00",
-    "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
-    "date": "2026-11-15T12:16:00+08:00",
-    "hash": "aef16a2c656fea4e8cdbd6aee444c65d8f8337c8",
-    "parents": "b1eaed82fc5e8a511c5b2007f194b16c8f7e5ea6",
-    "subject": "Editorial: Initialize PrivateEnvironment in Synthetic Module Record evaluation"
-   }
-  ],
-  "title": "Editorial: Initialize PrivateEnvironment in Synthetic Module Record evaluation",
-  "updated_at": "2026-11-15T04:46:02Z"
- },
- {
-  "base": "b1eaed82fc5e8a511c5b2007f194b16c8f7e5ea6",
-  "created_at": "2026-11-15T04:45:45Z",
-  "head": "7652a113f529ec6bbcd7e2006c7290aac50fc1c4",
-  "login": "JinDX",
-  "number": 4082,
-  "ref": "editorial/templatestring-escapes",
-  "revs": [
-   {
-    "adate": "2026-11-15T12:15:50+08:00",
-    "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
-    "date": "2026-11-15T12:15:50+08:00",
-    "hash": "7652a113f529ec6bbcd7e2006c7290aac50fc1c4",
-    "parents": "b1eaed82fc5e8a511c5b2007f194b16c8f7e5ea6",
-    "subject": "Editorial: Correct the TemplateString note for invalid escapes"
-   }
-  ],
-  "title": "Editorial: Correct the TemplateString note for invalid escapes",
-  "updated_at": "2026-11-15T04:45:45Z"
  },
  {
   "base": "b1eaed82fc5e8a511c5b2007f194b16c8f7e5ea6",
@@ -556,50 +568,6 @@
   "updated_at": "2026-10-30T14:35:45Z"
  },
  {
-  "base": "b1eaed82fc5e8a511c5b2007f194b16c8f7e5ea6",
-  "created_at": "2026-10-17T22:40:03Z",
-  "head": "2ae15c0c402dee40c796b76646630f8752d05c03",
-  "login": "nicolo-ribaudo",
-  "number": 3996,
-  "ref": "ci-temporal",
-  "revs": [
-   {
-    "adate": "2026-11-13T15:25:48+01:00",
-    "author": "Nicol\u00f2 Ribaudo",
-    "date": "2026-11-13T15:25:48+01:00",
-    "hash": "2ae15c0c402dee40c796b76646630f8752d05c03",
-    "parents": "f758cc01ca27ca802f654064d928d64aff4954d7",
-    "subject": "Remove basename fallback"
-   },
-   {
-    "adate": "2026-11-13T15:20:49+01:00",
-    "author": "Nicol\u00f2 Ribaudo",
-    "date": "2026-11-13T15:20:49+01:00",
-    "hash": "f758cc01ca27ca802f654064d928d64aff4954d7",
-    "parents": "3fb6f0d0ce363c0237c83c529ced2ce1dc44ba59",
-    "subject": "Richard review"
-   },
-   {
-    "adate": "2026-10-30T17:59:57+01:00",
-    "author": "Nicol\u00f2 Ribaudo",
-    "date": "2026-11-13T15:10:26+01:00",
-    "hash": "3fb6f0d0ce363c0237c83c529ced2ce1dc44ba59",
-    "parents": "4657a2e395730a906d58bce500d695d55141b252",
-    "subject": "Apply suggestions from richard"
-   },
-   {
-    "adate": "2026-10-18T00:27:33+02:00",
-    "author": "Nicol\u00f2 Ribaudo",
-    "date": "2026-11-13T15:10:26+01:00",
-    "hash": "4657a2e395730a906d58bce500d695d55141b252",
-    "parents": "b1eaed82fc5e8a511c5b2007f194b16c8f7e5ea6",
-    "subject": "Check temporal/*.emu files on CI"
-   }
-  ],
-  "title": "Meta: check */*.emu files on CI",
-  "updated_at": "2026-11-13T14:28:26Z"
- },
- {
   "base": "40ce6f206b5669e69bf010a38267ae24a2843404",
   "created_at": "2026-10-17T21:40:46Z",
   "head": "d3f57985f092d8019ef9368393352a3288d8f1c0",
@@ -690,34 +658,6 @@
   ],
   "title": "Editorial: Simplify exhaustiveness assertions",
   "updated_at": "2026-11-07T21:08:18Z"
- },
- {
-  "base": "4feb0272b799ea795c5eadee9b482aea0c10ce45",
-  "created_at": "2026-09-21T15:49:31Z",
-  "head": "ea989b57e20a734be2d1f5c00f564d953b9c9425",
-  "login": "linusg",
-  "number": 3982,
-  "ref": "options",
-  "revs": [
-   {
-    "adate": "2026-09-23T13:12:52+01:00",
-    "author": "Linus Groh",
-    "date": "2026-10-22T17:13:11+01:00",
-    "hash": "ea989b57e20a734be2d1f5c00f564d953b9c9425",
-    "parents": "fddffbd9ca1c41ef317fbd53fedd4f330a0aee18",
-    "subject": "Editorial: Add ValidateStringOption"
-   },
-   {
-    "adate": "2026-09-21T16:34:01+01:00",
-    "author": "Linus Groh",
-    "date": "2026-10-22T17:13:11+01:00",
-    "hash": "fddffbd9ca1c41ef317fbd53fedd4f330a0aee18",
-    "parents": "726ec8a42625509026a6570f1d4649bfa9fe4156",
-    "subject": "Editorial: Add GetBooleanOption and GetStringOption"
-   }
-  ],
-  "title": "Editorial: Add GetBooleanOption and GetStringOption",
-  "updated_at": "2026-10-22T16:14:57Z"
  },
  {
   "base": "40ce6f206b5669e69bf010a38267ae24a2843404",

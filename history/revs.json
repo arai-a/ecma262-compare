@@ -1,5 +1,53 @@
 [
  {
+  "adate": "2026-11-19T13:53:31-08:00",
+  "author": "Michael Ficarra",
+  "date": "2026-11-19T13:53:31-08:00",
+  "hash": "74c33d406ec1763ca9ee5ad9165571661649d6e6",
+  "parents": "af4244076fe13b9addf39407477cba4f74908e92",
+  "subject": "Editorial: credit early project editors (#4090)"
+ },
+ {
+  "adate": "2026-11-19T13:44:14-08:00",
+  "author": "Richard Gibson",
+  "date": "2026-11-19T13:44:14-08:00",
+  "hash": "af4244076fe13b9addf39407477cba4f74908e92",
+  "parents": "d4569d56380be573fccb456f5edfb55f663c3843",
+  "subject": "Editorial: Fix missing auto-links in BodyText and FlagText (#4085)"
+ },
+ {
+  "adate": "2026-11-19T13:28:17-08:00",
+  "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
+  "date": "2026-11-19T13:28:17-08:00",
+  "hash": "d4569d56380be573fccb456f5edfb55f663c3843",
+  "parents": "2fa3089c287f3d9f5184d8461de2e67b2c8b7e0c",
+  "subject": "Editorial: Initialize PrivateEnvironment in Synthetic Module Record evaluation (#4083)"
+ },
+ {
+  "adate": "2026-11-19T13:03:18-08:00",
+  "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
+  "date": "2026-11-19T13:03:18-08:00",
+  "hash": "2fa3089c287f3d9f5184d8461de2e67b2c8b7e0c",
+  "parents": "fea9cd14ebe676f2629eca030abf8d2e4c6fcffd",
+  "subject": "Editorial: Correct the TemplateString note for invalid escapes (#4082)"
+ },
+ {
+  "adate": "2026-11-19T12:53:16-08:00",
+  "author": "Nicol\u00f2 Ribaudo",
+  "date": "2026-11-19T12:53:16-08:00",
+  "hash": "fea9cd14ebe676f2629eca030abf8d2e4c6fcffd",
+  "parents": "fbfdb76bfafac70734cd9a5a4f966c0744b9329a",
+  "subject": "Meta: check */*.emu files on CI (#3996)"
+ },
+ {
+  "adate": "2026-11-19T12:41:04-08:00",
+  "author": "Linus Groh",
+  "date": "2026-11-19T12:41:04-08:00",
+  "hash": "fbfdb76bfafac70734cd9a5a4f966c0744b9329a",
+  "parents": "b1eaed82fc5e8a511c5b2007f194b16c8f7e5ea6",
+  "subject": "Editorial: Add GetBooleanOption, GetStringOption, ValidateStringOption (#3982)"
+ },
+ {
   "adate": "2026-11-12T15:32:35-08:00",
   "author": "Jungwoong Kim",
   "date": "2026-11-12T15:32:35-08:00",
