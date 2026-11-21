@@ -1822,11 +1822,35 @@
  {
   "base": "74c33d406ec1763ca9ee5ad9165571661649d6e6",
   "created_at": "2026-07-28T20:16:28Z",
-  "head": "5b36ebe8d2d1d64c38b0b2ab92497e835b2ca709",
+  "head": "d5e416dcafa27867e3486a7e6b5ad54cdc65f29b",
   "login": "peetklecha",
   "number": 3933,
   "ref": "decouple-json-from-evaluation",
   "revs": [
+   {
+    "adate": "2026-11-20T16:50:36-05:00",
+    "author": "pklecha1",
+    "date": "2026-11-20T16:50:36-05:00",
+    "hash": "d5e416dcafa27867e3486a7e6b5ad54cdc65f29b",
+    "parents": "e780912e9b172730a8dc0f5e852507844f5c38d6",
+    "subject": "remove unused PropertyDefinitionNodes"
+   },
+   {
+    "adate": "2026-11-20T16:43:41-05:00",
+    "author": "pklecha1",
+    "date": "2026-11-20T16:43:41-05:00",
+    "hash": "e780912e9b172730a8dc0f5e852507844f5c38d6",
+    "parents": "5b6030a99db74f5fb75e079794e9cfcd2958791e",
+    "subject": "address feedback"
+   },
+   {
+    "adate": "2026-11-20T16:41:27-05:00",
+    "author": "pklecha1",
+    "date": "2026-11-20T16:42:28-05:00",
+    "hash": "5b6030a99db74f5fb75e079794e9cfcd2958791e",
+    "parents": "5b36ebe8d2d1d64c38b0b2ab92497e835b2ca709",
+    "subject": "address feedback"
+   },
    {
     "adate": "2026-11-20T08:54:14-05:00",
     "author": "Peet Klecha",
@@ -2061,7 +2085,7 @@
    }
   ],
   "title": "Editorial: decouple JSON.parse from ES evaluation semantics",
-  "updated_at": "2026-11-20T13:56:21Z"
+  "updated_at": "2026-11-20T21:51:50Z"
  },
  {
   "base": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
