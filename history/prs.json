@@ -304,13 +304,21 @@
   "updated_at": "2026-11-13T23:32:27Z"
  },
  {
-  "base": "b1eaed82fc5e8a511c5b2007f194b16c8f7e5ea6",
+  "base": "74c33d406ec1763ca9ee5ad9165571661649d6e6",
   "created_at": "2026-11-12T10:49:59Z",
-  "head": "c8dfc57f26a2a912309afd0697ef82e2cc1cc5d1",
+  "head": "f9ff7edc2d2a78c9357d6c5a8a84674e2d0c0706",
   "login": "JinDX",
   "number": 4080,
   "ref": "editorial/constructor-prototype-object-fallback",
   "revs": [
+   {
+    "adate": "2026-11-21T09:01:36+08:00",
+    "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
+    "date": "2026-11-21T09:01:36+08:00",
+    "hash": "f9ff7edc2d2a78c9357d6c5a8a84674e2d0c0706",
+    "parents": "c8dfc57f26a2a912309afd0697ef82e2cc1cc5d1 74c33d406ec1763ca9ee5ad9165571661649d6e6",
+    "subject": "Merge branch 'main' into editorial/constructor-prototype-object-fallback"
+   },
    {
     "adate": "2026-11-16T09:52:08+08:00",
     "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
@@ -329,7 +337,7 @@
    }
   ],
   "title": "Editorial: Clarify when constructor prototype values are used",
-  "updated_at": "2026-11-16T01:52:09Z"
+  "updated_at": "2026-11-21T01:01:38Z"
  },
  {
   "base": "828d35d00f8584c4a0fbcac7742b57c7b959c3f3",
@@ -436,13 +444,21 @@
   "updated_at": "2026-11-13T14:24:02Z"
  },
  {
-  "base": "828d35d00f8584c4a0fbcac7742b57c7b959c3f3",
+  "base": "74c33d406ec1763ca9ee5ad9165571661649d6e6",
   "created_at": "2026-10-31T07:52:12Z",
-  "head": "e2c028369eb042f2c9d88f5ef22291c2b1d52458",
+  "head": "0e5eedc36880fbff43c20d3dc6f276a7b13bd852",
   "login": "JinDX",
   "number": 4061,
   "ref": "editorial/regexp-match-indices-upper-bound",
   "revs": [
+   {
+    "adate": "2026-11-21T09:01:29+08:00",
+    "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
+    "date": "2026-11-21T09:01:29+08:00",
+    "hash": "0e5eedc36880fbff43c20d3dc6f276a7b13bd852",
+    "parents": "e2c028369eb042f2c9d88f5ef22291c2b1d52458 74c33d406ec1763ca9ee5ad9165571661649d6e6",
+    "subject": "Merge branch 'main' into editorial/regexp-match-indices-upper-bound"
+   },
    {
     "adate": "2026-11-11T14:10:01+08:00",
     "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
@@ -469,7 +485,7 @@
    }
   ],
   "title": "Editorial: correct the upper bound in MakeMatchIndicesIndexPairArray",
-  "updated_at": "2026-11-11T06:10:04Z"
+  "updated_at": "2026-11-21T01:01:31Z"
  },
  {
   "base": "404a47d047113d36ff81cb42d2c02c890650a0dc",
