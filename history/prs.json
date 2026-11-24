@@ -1,5 +1,25 @@
 [
  {
+  "base": "7cff4afe1dd8ee44d877de8dd7e6853f71cf1fd1",
+  "created_at": "2026-11-24T03:15:18Z",
+  "head": "7171dbcf217a847bd5a5e70557f185700e9eaf68",
+  "login": "bakkot",
+  "number": 4102,
+  "ref": "no-iterate-sumprecise-strings",
+  "revs": [
+   {
+    "adate": "2026-11-23T19:11:14-08:00",
+    "author": "Kevin Gibbons",
+    "date": "2026-11-23T19:11:17-08:00",
+    "hash": "7171dbcf217a847bd5a5e70557f185700e9eaf68",
+    "parents": "7cff4afe1dd8ee44d877de8dd7e6853f71cf1fd1",
+    "subject": "Normative: reject primitive iterables in sumPrecise"
+   }
+  ],
+  "title": "Normative: reject primitive iterables in sumPrecise",
+  "updated_at": "2026-11-24T10:52:16Z"
+ },
+ {
   "base": "74c33d406ec1763ca9ee5ad9165571661649d6e6",
   "created_at": "2026-11-22T02:59:10Z",
   "head": "c2529d07b5f884442e3785e5848eb7875665c0e2",
@@ -20,21 +40,13 @@
   "updated_at": "2026-11-22T02:59:10Z"
  },
  {
-  "base": "74c33d406ec1763ca9ee5ad9165571661649d6e6",
+  "base": "7cff4afe1dd8ee44d877de8dd7e6853f71cf1fd1",
   "created_at": "2026-11-22T02:58:51Z",
-  "head": "cb4c4ccb9ee77621652355864ebb1d3c1cc2513d",
+  "head": "32fdff00ddad55fbe27144b78e2a8c732d432b72",
   "login": "JinDX",
   "number": 4099,
   "ref": "editorial/supported-import-attributes-list-identity-refresh-20261122",
   "revs": [
-   {
-    "adate": "2026-11-23T12:21:50+08:00",
-    "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
-    "date": "2026-11-23T12:21:50+08:00",
-    "hash": "cb4c4ccb9ee77621652355864ebb1d3c1cc2513d",
-    "parents": "32fdff00ddad55fbe27144b78e2a8c732d432b72",
-    "subject": "Editorial: Reuse the empty List in HostGetSupportedImportAttributes"
-   },
    {
     "adate": "2026-11-22T10:29:23+08:00",
     "author": "\u91d1\u4e1c\u52cb | \u91d1\u6771\u52f3 | \uae40\ub3d9\ud6c8 | Jin Dongxun",
@@ -44,8 +56,8 @@
     "subject": "Editorial: Clarify the stability of supported import attributes"
    }
   ],
-  "title": "Editorial: Reuse the empty List in HostGetSupportedImportAttributes",
-  "updated_at": "2026-11-23T10:27:49Z"
+  "title": "Layering: Relax HostGetSupportedImportAttributes identity requirement",
+  "updated_at": "2026-11-24T10:30:10Z"
  },
  {
   "base": "74c33d406ec1763ca9ee5ad9165571661649d6e6",
@@ -82,34 +94,6 @@
   ],
   "title": "Editorial: stop referring to Foo constructors as Foo objects",
   "updated_at": "2026-11-20T03:01:00Z"
- },
- {
-  "base": "74c33d406ec1763ca9ee5ad9165571661649d6e6",
-  "created_at": "2026-11-19T23:09:40Z",
-  "head": "1ff5d71261bbf43cfd2156f60ac0f1677900e8e8",
-  "login": "bakkot",
-  "number": 4096,
-  "ref": "fix-message-location",
-  "revs": [
-   {
-    "adate": "2026-11-19T15:06:21-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2026-11-19T15:07:53-08:00",
-    "hash": "1ff5d71261bbf43cfd2156f60ac0f1677900e8e8",
-    "parents": "8f6511e9b2e0a58c6ec5ff213387dbce2df69c50",
-    "subject": "Editorial: correct grammar in NativeError introduction"
-   },
-   {
-    "adate": "2026-11-19T14:52:59-08:00",
-    "author": "Kevin Gibbons",
-    "date": "2026-11-19T15:03:26-08:00",
-    "hash": "8f6511e9b2e0a58c6ec5ff213387dbce2df69c50",
-    "parents": "74c33d406ec1763ca9ee5ad9165571661649d6e6",
-    "subject": "Editorial: remove stale description of how NativeErrors differ"
-   }
-  ],
-  "title": "Editorial: remove stale description of how NativeErrors differ",
-  "updated_at": "2026-11-19T23:22:39Z"
  },
  {
   "base": "b1eaed82fc5e8a511c5b2007f194b16c8f7e5ea6",
@@ -414,26 +398,6 @@
   ],
   "title": "Normative: avoid extra microtask tick when yielding non-promise in async generators",
   "updated_at": "2026-11-12T03:30:07Z"
- },
- {
-  "base": "828d35d00f8584c4a0fbcac7742b57c7b959c3f3",
-  "created_at": "2026-11-10T17:53:21Z",
-  "head": "7eb458fac556d58dce1a9947e5f9b54166135319",
-  "login": "jungwngkim",
-  "number": 4074,
-  "ref": "fix-async-builtin-return",
-  "revs": [
-   {
-    "adate": "2026-11-10T17:39:24+01:00",
-    "author": "Jungwoong Kim",
-    "date": "2026-11-10T17:39:24+01:00",
-    "hash": "7eb458fac556d58dce1a9947e5f9b54166135319",
-    "parents": "828d35d00f8584c4a0fbcac7742b57c7b959c3f3",
-    "subject": "Normative: Fix async built-in functions resolving to undefined"
-   }
-  ],
-  "title": "Normative: Fix async built-in functions resolving to undefined",
-  "updated_at": "2026-11-10T19:30:24Z"
  },
  {
   "base": "828d35d00f8584c4a0fbcac7742b57c7b959c3f3",
